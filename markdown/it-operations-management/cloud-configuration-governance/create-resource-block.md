@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -65,7 +65,7 @@ Default Guest InterfaceCreate interface
 
 Select the guest interface that contains the operations you need for the resource. Later you can further define and select the operations to use for this default guest interface. The system gives you a set of default operations for each interface.
 
- If another resource block specifies a **Host interface** that matches what you specify here in the **Guest interface** field, that resource block can be a potential host for this resource block. See the Host interface field description.
+ If another resource block specifies a **Host interface** that matches what you specify here, that resource block can be a potential host for this resource block. See the Host interface field description.
 
  If you select the **Create interface** check box, enter a name for the guest interface. The system creates the guest interface, opens the resource block that you are configuring in the resource block form, and lists the new interface in the **Resource Guest Interface** related list. See the description of the Resource Guest Interface in the following steps.
 

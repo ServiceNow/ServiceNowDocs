@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Engagement Messenger, Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Engagement Messenger, Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Features of Engagement Messenger
@@ -34,7 +34,7 @@ After you create and configure the Engagement Messenger module, you can customiz
 
     The ServiceNow® AI Search capability that is used in the Engagement Messenger application uses the knowledge bases that you selected for your messenger.
 
-    When a customer searches for information using the Search widget on the messenger, the displayed results are from the articles in the knowledge bases that are associated to your messenger module.
+    When a customer searches for information using the Search widget, the displayed results are from the articles in the knowledge bases associated with your messenger module.
 
     Customers can open the articles from the search results to get the information they need. They can also provide feedback to the article directly from the messenger to indicate whether the article was helpful or not. This feedback helps you to understand which articles are the most helpful so that you can improve those articles that weren’t helpful.
 
@@ -44,9 +44,9 @@ After you create and configure the Engagement Messenger module, you can customiz
 
         If this plugin is not activated, then the AI Search functionality works for both unauthenticated and authenticated users.
 
-    -   You must configure AI Search in your ServiceNow instance and then enable Typeahead Search and AI Search Assist widgets so that the unauthenticated users can use the AI search feature from Engagement Messenger.
+    -   You must configure AI Search in your ServiceNow instance. Then enable Typeahead Search and AI Search Assist widgets so that unauthenticated users can use the AI search feature from Engagement Messenger.
 
-        For more information on enabling Typeahead Search and AI Search Assist widgets for Engagement Messenger, see [Enabling AI search in the Customer and Consumer Service Portals for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure_search_csp_guestuser.md).
+        For more information on enabling Typeahead Search and AI Search Assist widgets for Engagement Messenger, see [Enable AI search in the Business and Consumer Portals for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure_search_businessportal_guestuser.md).
 
         For more information of AI Search configuration, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md).
 
@@ -60,7 +60,7 @@ After you create and configure the Engagement Messenger module, you can customiz
 
     Whenever your customers return to the customer portal and log in, they are notified of any updates to the cases that they created. They can also view the details of all the cases and requests that they have previously submitted and track their status.
 
-    Some cases would require action from the submitted user, asking them to provide more information about the help they need or to review a solution that the support team has provided. Customers can perform all these actions directly from within the messenger.
+    Some cases require action from the submitted user. They may need to provide more information about the help they need or review a solution that the support team has provided. Customers can perform all these actions directly from within the messenger.
 
 -   **Catalogs**
 
@@ -72,7 +72,7 @@ After you create and configure the Engagement Messenger module, you can customiz
 
 -   **Field service management**
 
-    The field service feature enables your customer to request a technician visit to service their issue. By selecting a product or service that they need help with and their location, customers can submit a request for a technician visit. While submitting the request, customers can also add any supporting attachments that they think might help the support team understand the issue before a technician is allotted for the visit.
+    The field service feature enables your customer to request a technician visit to service their issue. By selecting a product or service that they need help with and their location, customers can submit a request for a technician visit. While submitting the request, customers can also add supporting attachments to help the support team understand the issue before a technician is assigned.
 
     All technician requests are stored as work orders in your ServiceNow instance so that they can be tracked to completion.
 
@@ -99,7 +99,7 @@ After you create and configure the Engagement Messenger module, you can customiz
     -   Guest Walk-up Experience for Customer Service plugin \(sn\_guest\_walkup\_cs\) for unauthenticated users
 -   **Virtual and live agent chat**
 
-    The chat feature enables support agents to interact with customers to resolve their issue by creating incident or case records or to transfer chats to another agent or queue if needed. Chat feature support is enabled for both authenticated and guest \(unauthenticated\) users.
+    The chat feature enables support agents to interact with customers to resolve their issue. Agents can create incident or case records or transfer chats to another agent or queue if needed. Chat feature support is enabled for both authenticated and guest \(unauthenticated\) users.
 
     -   **Virtual and live agent chat**
 
@@ -115,11 +115,11 @@ After you create and configure the Engagement Messenger module, you can customiz
 
         Now Assist in Virtual Agent offers a conversational support experience that improves the chat experience in Engagement Messenger by delivering prompt answers to user questions. When enabled, Now Assist in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation that is easier to understand and helps users to be more comfortable with chatting to a bot.
 
-        By integrating generative AI chat capabilities, Now Assist in Virtual Agent enhances the user experience in Engagement Messenger. It improves asynchronous messaging, enabling users to resolve issues more quickly and efficiently. These capabilities help speed up issue resolution and increase efficiency by reducing the number of incoming queries that must be diverted to a live agent. To know more about Now Assist in Virtual Agent, see [Exploring ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/exploring-now-assist-va.md).
+        By integrating generative AI chat capabilities, Now Assist in Virtual Agent enhances the user experience in Engagement Messenger. It improves asynchronous messaging, enabling users to resolve issues more quickly and efficiently. These capabilities help speed up issue resolution and increase efficiency by reducing the number of incoming queries that must be diverted to a live agent. To know more about Now Assist in Virtual Agent, see [Using ServiceNow® Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md).
 
         Getting started with Now Assist in Virtual Agent in Engagement Messenger:
 
-        -   To enable Now Assist in Virtual Agent chat support in Engagement Messenger, verify that the Now Assist in Virtual Agent experience is configured by virtual\_agent\_admin or admin. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+        -   To enable Now Assist in Virtual Agent chat support in Engagement Messenger, verify that the Now Assist in Virtual Agent experience is configured by virtual\_agent\_admin or admin. For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
         -   You can create or use an existing assistant by navigating to **All** &gt; **Conversational Interfaces** &gt; **Assistants**. For more information, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-assistant.md).
         -   Once you select an assistant navigate to the **Display experience** tab to configure the Engagement Messenger module. In the **Portals** tab, select the Engagement Messenger module from the **Add portal** list and select the **Standard chat** as the experience. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md).
         **Note:** Each assistant comes with its own search configuration. For a smooth experience, if the assistant appears on a portal or mobile app that already has AI search configured, consider duplicating that setup to maintain consistency.

@@ -1,20 +1,20 @@
 ---
 title: Migrating from the legacy Ideas application to Idea Portal
-description: If you are upgrading to the Australia release, complete the migration tasks after the upgrade to start using the new Idea Portal.
+description: If you are upgrading to the Brazil release, complete the migration tasks after the upgrade to start using the new Idea Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/innovation-management/migrate-legacy-to-new-ideas.html
 release: australia
 product: Innovation Management
 classification: innovation-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Innovation Management, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Migrating from the legacy Ideas application to Idea Portal
 
-If you are upgrading to the Australia release, complete the migration tasks after the upgrade to start using the new Idea Portal.
+If you are upgrading to the Brazil release, complete the migration tasks after the upgrade to start using the new Idea Portal.
 
 Review the following information and make any necessary changes to your configuration:
 
@@ -50,7 +50,7 @@ The new Idea Portal provides new idea states such as Completed, Under Review, an
 |Duplicate|8|
 |Already Exists|9|
 
-Starting with the Australia release, idea states are stored in and retrieved from the Idea \[im\_idea\_core\] table. You can continue to use your existing idea states along with the new idea states. However, if you want to use only these new states for managing your ideas, navigate to the Choice \[sys\_choice\] table and delete the old idea states.
+Starting with the Brazil release, idea states are stored in and retrieved from the Idea \[im\_idea\_core\] table. You can continue to use your existing idea states along with the new idea states. However, if you want to use only these new states for managing your ideas, navigate to the Choice \[sys\_choice\] table and delete the old idea states.
 
 ## Idea categories
 

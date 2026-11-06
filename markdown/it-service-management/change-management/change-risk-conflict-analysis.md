@@ -1,32 +1,31 @@
 ---
 title: Analyze change request risk and impact
-description: Assess and analyze the risk and impact involved in the change request. You can review any conflicts that are detected by reviewing the change request.
+description: After you create a change request, you can assess and analyze the risk and impact involved in the change request. You can review any conflicts that are detected by reviewing the change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-risk-conflict-analysis.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-10-07"
 reading_time_minutes: 1
+keywords: [change risk assessment, change impact, change conflict detection]
 breadcrumb: [Reference, Change Management, IT Service Management]
 ---
 
 # Analyze change request risk and impact
 
-Assess and analyze the risk and impact involved in the change request. You can review any conflicts that are detected by reviewing the change request.
+After you create a change request, you can assess and analyze the risk and impact involved in the change request. You can review any conflicts that are detected by reviewing the change request.
 
-After you create a change request, assess and review its risk, impact, and conflicts in the following ways:
+Risk, impact, and conflicts are evaluated while a change request is in the Assess state, before it's sent for approval. The results helps approvers and the Change Advisory Board \(CAB\) decide whether the change can proceed as scheduled.
 
--   Understand how risk and impact are calculated and assessed, see [Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_RskAsmtCalc.md).
--   Configure the conditions that set the **Risk** and **Impact** field values. See [Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_RskAsmtCalc.md).
--   Review scheduling conflicts detected for the change request. See [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ConflictDetection.md).
+Analyze the risk of change and review detected conflicts in the following ways.
 
 -   **[Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-risk-assess-detect-conflict.md)**  
 Change Management features provide ways to calculate and assess the risk of change requests, and to identify and resolve conflicts.
 -   **[Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_RskAsmtCalc.md)**  
-There are two methods to calculate the risk of a change. The Change Management- Risk Calculator plugin is activated in the base system by default. Change Management - Risk Assessment is optional.
--   **[Migrate from legacy change risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/legacy-change-risk-assessment-migration.md)**  
+Change Management provides two methods to calculate the risk of a change. The Change Management - Risk Calculator plugin is active by default in the base system, and Change Management - Risk Assessment is optional.
+-   **[Migrate to legacy change risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/legacy-change-risk-assessment-migration.md)**  
 Users can migrate legacy change risk assessments to versions compatible with the new Change Risk Assessment table schema and logic.
 
 **Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/reference-change-management.md)

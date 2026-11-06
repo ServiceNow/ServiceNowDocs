@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Entity lifecycle management, Common GRC features, Governance, Risk, and Compliance]
 ---

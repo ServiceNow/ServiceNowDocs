@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ To ensure that the latest updates to these KPIs are reflected, navigate to the r
 
 1.  Open the CI form for a CI, in a workspace.
 
-    -   On a CI form outside of CMDB Workspaceand Service Graph Workspace, select **Open in Workspace** to view CI health.
+    -   On a CI form outside of CMDB Workspaceand Service Graph Workspace, select **Open in Workspace**.
 
         Role required: sn\_cmdb\_user \(minimum\)
 

@@ -7,7 +7,7 @@ release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -65,7 +65,7 @@ Ansible Day 2 operations
 
 </td><td>
 
-Uses Ansible tower user credentials, service account credentials of Amazon Web Services/ Azure and private ssh key pair or windows user name/password, to connect to the particular cloud resource provisioned.
+Uses Ansible tower user credentials, service account credentials of Amazon Web Services/ Azure, and a private SSH key pair or Windows user name and password to connect to the provisioned cloud resource.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[CSC references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/csc-reference.md)

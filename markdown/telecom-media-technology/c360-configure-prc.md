@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-configure-prc.html
 release: australia
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [party relationship centre, configure PRC, node settings, PRC configuration]
 breadcrumb: [Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
@@ -18,7 +18,7 @@ Configure node settings to control which fields appear on the entity node cards 
 ## Before you begin
 
 -   Role required: `sn_telecom_c360.admin`
--   Telco GenAI \(`sn_telco_genai`\) must be installed. The Telecom Customer Enterprise Graph, which drives entity traversal in the node map, ships with Telco GenAI.
+-   ServiceNow Otto for TMT must be installed.
 
 ## About this task
 
@@ -39,7 +39,7 @@ The Party Relationship Center uses the following configuration tables:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; ****.
+1.  Navigate to **All** &gt; **Tables** and locate the `sn_prc_node_model` table.
 
 2.  Open the generic node model record.
 

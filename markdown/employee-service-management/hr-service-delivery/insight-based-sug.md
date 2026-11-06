@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Get team brief, Use, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Get your team brief, Use Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Proactive Prompts for managers

@@ -7,8 +7,8 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -127,9 +127,9 @@ The location is added to your favorites list.
 
 [Create a reservation]()
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
 
 [Reserve a space near your colleague]()
 
@@ -156,4 +156,6 @@ The location is added to your favorites list.
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

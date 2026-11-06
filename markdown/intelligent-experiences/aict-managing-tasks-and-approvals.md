@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-managing-tasks-and-approvals.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Managing AI tasks and approvals in Activity Center

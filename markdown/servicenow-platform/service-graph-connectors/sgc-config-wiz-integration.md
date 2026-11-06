@@ -7,8 +7,8 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Wiz, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -51,7 +51,7 @@ Role required: admin
 
 1.  Verify that the application scope is set to the Service Graph Connector for Wiz application by using the application picker.
 
-    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+    For more information, see Application picker.
 
 2.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **Wiz** &gt; **Setup**.
 
@@ -166,7 +166,7 @@ https://auth.app.wiz.io/oauth/token
         2.  Select the **SG-Wiz-Organization** scheduled job.
         3.  On the Scheduled Data Import form, verify the field values for the scheduled job.
 
-            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+            For more information, see .
 
         4.  Select the **Active** check box to activate the SG-Wiz-Organization scheduled job.
         5.  In the **Run** field, select **Periodically** to specify how often the job will run.
@@ -180,7 +180,7 @@ https://auth.app.wiz.io/oauth/token
         2.  Select the **Active** check box to activate the SG-Wiz scheduled script.
         3.  In the **Run** field, select **Periodically** to specify how often the script will run.
 
-            For more information, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleAScriptExecution.md#t_ScheduleScriptExecution).
+            For more information, see .
 
         4.  Select **Update**.
         5.  Set the Configure the scheduled script for full data retrieval task to complete by selecting the **Mark as complete** check box and then select **Continue**.

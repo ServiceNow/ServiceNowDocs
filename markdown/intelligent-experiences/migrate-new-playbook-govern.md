@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [playbook]
-breadcrumb: [AI Control Tower playbooks, Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower playbooks, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Migrate to updated AI asset onboarding playbook

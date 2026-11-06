@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -32,7 +32,7 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-Create a self-service portal with an engaging, mobile-friendly user experience using a modular UI.
+Quickly create a self-service portal with an engaging, mobile-friendly user experience using an easy-to-use, modular UI.
 
 </td><td>
 
@@ -46,7 +46,7 @@ Developer
 
 </td></tr><tr><td>
 
-Provide simple access to resources to empower users with self-service and drive productivity.
+Empower users with self-service, deflect issues, and drive user productivity and satisfaction by providing simple and immediate access to resources.
 
 </td><td>
 
@@ -84,7 +84,7 @@ Administrator
 
 </td></tr><tr><td>
 
-Monitor metrics and interactions to understand a portal's user experience and identify how to improve it.
+Monitor metrics and interactions to understand a portal's user experience better and identify how to improve it.
 
 </td><td>
 

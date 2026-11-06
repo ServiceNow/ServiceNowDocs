@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Work with hardware normalization, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure Hardware Model Normalization, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Copy a hardware model from the Content lookup portal
@@ -56,7 +56,7 @@ The model record is created and you’re redirected to the Model record form.
 -   To revert the normalization of the hardware or consumable model, select **Revert Normalization**. For more information about reverting normalization, see [Revert normalization of hardware and consumable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/revert-norm-ham.md).
 -   To save the changes made to the model record, select **Save**.
 
-**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
+**Parent Topic:**[Configure Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 
 **Related topics**  
 

@@ -1,20 +1,20 @@
 ---
 title: Close an incident communication plan
-description: Close an incident communication plan after its execution or if it is no longer needed.
+description: Close an incident communication plan after its execution or when it's no longer needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-communications-management/close-an-inci-comm-plan.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing Incident Communications, Incident Communications Management, IT Service Management]
+breadcrumb: [Managing incident communications, Incident Communications Management, IT Service Management]
 ---
 
 # Close an incident communication plan
 
-Close an incident communication plan after its execution or if it is no longer needed.
+Close an incident communication plan after its execution or when it's no longer needed.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: itil, ia\_admin, or admin
 
 ## About this task
 
--   The business rule **Cascade Closure of ICPs** on the incident table controls the closure behavior for incident communication plans. Any user with the ia\_admin or admin role, or an itil user assigned to the plan can close or cancel an incident communication plan.
+-   The business rule **Cascade Closure of ICPs** on the incident table controls the closure behavior for incident communication plans. Any user with the ia\_admin or admin role, or an itil user assigned to the plan, can close or cancel an incident communication plan.
 -   If a user with the itil role closes or cancels a parent incident, all related incident communication plans are closed or canceled.
 
     **Note:** Use the incident management property **Close open Incident Communication Plans when Incident is closed or canceled** \(**com.snc.incident.incident\_alert.closure**\) to control this behavior.
@@ -34,12 +34,12 @@ Role required: itil, ia\_admin, or admin
 
     **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
-2.  Open the incident communications plan record that you want to close.
+2.  Open the incident communication plan record that you want to close.
 
 3.  In the **State** field, select **Closed**.
 
 4.  Select **Save**.
 
 
-**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing incident communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

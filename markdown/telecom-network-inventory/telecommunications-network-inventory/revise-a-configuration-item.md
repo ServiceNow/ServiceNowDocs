@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -59,7 +59,7 @@ Role required: sn\_ni\_core.inventory\_admin
     **Note:**
 
     -   To customize the cloning process and the related tables that must be cloned, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/clone-and-revise-a-ci.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/clone-and-revise-a-ci.md).
-    -   The revision data is automatically archived to the revision history archival rule \(Archive Rules → Inventory Revision History Archival Rule\[sn\_ni\_core\_inventory\_revision\_history\]\) table after a period of one year of the CI creation. Subsequently, all data within the archival table is permanently deleted \(ar\_sn\_ni\_core\_inventory\_revision\_history\) after an additional year. Customization can be achieved by modifying the relevant tables.
+    -   The revision data is automatically archived to the revision history archival rule \(Archive Rules → Inventory Revision History Archival Rule\[sn\_ni\_core\_inventory\_revision\_history\]\) table. This archival occurs one year after CI creation. Subsequently, all data within the archival table is permanently deleted \(ar\_sn\_ni\_core\_inventory\_revision\_history\) after an additional year. Customization can be achieved by modifying the relevant tables.
     -   The revision history currently captures only Configuration Item \(CI\) attributes, related data, and CI relationships. To include additional data from other tables, logical connection \(audit\_reference\_tableinfo\_logical\_connection\) and physical connection \(audit\_reference\_tableinfo\_logical\_connection\) system properties can be updated. The format for specifying table and column names within these properties is - table1\_name:column1\_name, table1\_name:column2\_name.
 12. Navigate to a change task and select **Validate Revision** to validate both original and revised CI.
 

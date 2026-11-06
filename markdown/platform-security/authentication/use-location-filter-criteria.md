@@ -1,20 +1,20 @@
 ---
-title: Tutorial: Use Location Filter criteria
-description: Describes steps to use location filter criteria in the authentication policy and restrict access to the users based on the location.
+title: Use Location Filter criteria
+description: Use location filter criteria in the authentication policy and restrict access to the users based on the location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/use-location-filter-criteria.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Location Filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
+breadcrumb: [Location filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
 ---
 
-# Tutorial: Use Location Filter criteria
+# Use Location Filter criteria
 
-Describes steps to use location filter criteria in the authentication policy and restrict access to the users based on the location.
+Use location filter criteria in the authentication policy and restrict access to the users based on the location.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: adaptive\_auth\_admin
 
 Plugin required: **Zero Trust - Location Based Access** \(`com.snc.zero_trust_location_access`\).
 
-Property: Enable the Adaptive authentication property.
+Property: The Adaptive authentication property must be enabled.
 
 **Note:** Administrators can only create the policy based on location filters if the location is available for the current user session.
 
@@ -42,7 +42,7 @@ The following procedure describes how to create and use the location filter crit
     |Description|Short description of the criteria.|
     |Application|Scope of the application.|
 
-4.  In the **Locations** sections, under the Locations for criteria tab, double-click to **Insert a new row**.
+4.  In the **Locations** sections, under the Locations for criteria tab, double-click \(or use the keyboard shortcut\) to **Insert a new row**.
 
 5.  Specify the locations.
 
@@ -54,9 +54,9 @@ The following procedure describes how to create and use the location filter crit
 
 6.  Select **Submit**.
 
-7.  Use the filter criteria created in any of the authentication context \(Pre, Post, MFA\) and Session Access.
+7.  Use the filter criteria created in any of the authentication contexts \(Pre, Post, MFA\) and Session Access.
 
-    To know more about the configuration based on authentication context and session access, see:
+    To learn more about the configuration based on authentication context and session access, see:
 
     -   [Location Filter in Pre Authentication Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/use-lf-pre-auth.md)
     -   [Location Filter in Post Authentication Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/use-lf-post-auth.md)

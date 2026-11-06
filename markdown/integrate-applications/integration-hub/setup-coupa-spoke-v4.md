@@ -25,7 +25,7 @@ Integrate the ServiceNow instance and Coupa by creating a custom OAuth applicati
 
 -   Role required: admin.
 
-## Configure a connection for Coupa spoke
+## Configure a connection for the Coupa spoke
 
 Add and configure a Coupa connection to authenticate ServiceNow requests in Coupa spoke.
 
@@ -37,19 +37,22 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Select **Integrations**.
+2.  Click the **Integrations** tab.
 
-3.  Locate the **Coupa OAuth** connection alias and click **View Details**.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-    **Note:** Don't click **Add Connection**.
+4.  Locate the **Coupa OAuth** connection alias and click **View Details**.
 
-    \[Omitted image "coupa-con-config-template.png"\] Alt text: Connection alias for Coupa OAuth
+    -   To configure the default connection and credential alias record that is shipped along with the Coupa spoke, click **View Details**.
 
-4.  Click **Edit** or if you are configuring the spoke for the first time, click **Configure**.
+        \[Omitted image "coupa-con-config-template.png"\] Alt text: Connection alias for Coupa OAuth
+
+    -   To manage more than one Coupa spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "coupa-conn-alias-config.png"\] Alt text: Coupa OAuth connection alias configuration
 
-5.  On the form, fill in the fields.
+5.  On the form, fill in these fields:
 
 <table id="table_tfv_3d5_h5b"><thead><tr><th>
 
@@ -59,13 +62,17 @@ Field
 
 Description
 
-</th></tr></thead><tbody><tr><td>
+</th></tr></thead><tbody><tr><td colspan="2">
 
-Name \(Connection\)
+Connection Information
+
+</td></tr><tr><td>
+
+Name
 
 </td><td>
 
-Name to uniquely identify the connection. For example, `Coupa spoke connnection`.
+Name to uniquely identify the connection. For example, `Coupa spoke connection`.
 
 </td></tr><tr><td>
 
@@ -77,9 +84,13 @@ URL to make a connection to Coupa. -   For customer instances, use this format: 
 -   For partner and demo instances, use this format: `https://{organization_name}.coupacloud.com`
 
 
+</td></tr><tr><td colspan="2">
+
+Credential Information
+
 </td></tr><tr><td>
 
-Name \(Credential\)
+Name
 
 </td><td>
 
@@ -91,7 +102,7 @@ Token URL
 
 </td><td>
 
-URL used to generate OAuth token. Use this format:`https://<connection_url>/oauth2/token`
+URL used to generate OAuth token. Use this format: `https://<connection_url>/oauth2/token`
 
 </td></tr><tr><td>
 
@@ -110,7 +121,9 @@ OAuth Client Secret
 Secret \(Client Secret\) generated in Coupa.
 
 </td></tr></tbody>
-</table>6.  Click **Configure and Get OAuth Token**.
+</table>    \[Omitted image "coupa-conf-temp.png"\] Alt text: Configure a connection for the Coupa spoke
+
+6.  Click **Save and Get OAuth Token**.
 
 
 ### Result

@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-04-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Certification, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

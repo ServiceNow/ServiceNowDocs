@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/error-handling-rpa-studio.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -26,15 +26,15 @@ Role required: none
 
 1.  In the RPA Desktop Design Studio, select one of the following options to handle errors either at a component level or at an activity level.
 
-<table id="choicetable_r3f_bsy_vqb"><thead><tr><th align="left" id="d590248e89">
+<table id="choicetable_r3f_bsy_vqb"><thead><tr><th align="left" id="d578881e89">
 
 Option
 
-</th><th align="left" id="d590248e92">
+</th><th align="left" id="d578881e92">
 
 Action and description
 
-</th></tr></thead><tbody><tr><td id="d590248e98">
+</th></tr></thead><tbody><tr><td id="d578881e98">
 
 **To handle errors at a component level**
 
@@ -42,7 +42,7 @@ Action and description
 
 On the Design surface, right-click the component title bar and select **Error Handler** to open the ERROR HANDLER dialog box.
 
-</td></tr><tr><td id="d590248e110">
+</td></tr><tr><td id="d578881e110">
 
 **To handle errors at an activity level**
 

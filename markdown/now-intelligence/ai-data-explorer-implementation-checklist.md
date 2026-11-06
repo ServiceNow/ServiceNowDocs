@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/ai-d
 release: australia
 topic_type: concept
 last_updated: "2026-03-25"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [AI Data Explorer, implementation, semantic layer, query generation]
 breadcrumb: [Configure, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -19,12 +19,13 @@ Use this checklist to verify that AI Data Explorer is properly configured and re
 
 ## Prerequisites and configuration
 
--   Verify that the AI Data Explorer application is installed.
+-   Verify that the AI Data Explorer application is installed. For more information, see [Install AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/install-aide.md).
 -   Verify that required AI skills are activated.
--   Enable Record Level Analysis in the Analytics Exploration skill to get better insights.
+-   Verify that the AI Data Explorer skills are activated. For more information, see [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/activate-aide-explorer.md).
+-   Enable Record Level Analysis in the Analytics Exploration skill to get better insights. For more information, see [Configure record level analysis in AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/record-level-analysis.md).
 -   Check the base health of Query Generation using the [Query Generation Health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/querygen-health-page.md).
 -   Confirm that AI Search is active.
--   Verify that the Semantic Layer is built. Entities and dimensions should not be 0.
+-   Verify that the Semantic Layer is built. Entities and dimensions should not be 0. For more information, see [Tables installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/tables-sched-jobs-query-gen.md).
 
 ## Testing and validation
 

@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,6 +42,8 @@ The setting for enforcing strict security controls how the instance uses the cre
 
 [MID Server configuration file security]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server unified key store]()
 
 [Enable MID Server mutual authentication]()
@@ -54,8 +56,6 @@ The setting for enforcing strict security controls how the instance uses the cre
 
 [Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server]()
-
 [MID Server SSH cryptographic algorithms]()
 
 [Attach a script file to a file synchronized MID Server]()
@@ -63,6 +63,8 @@ The setting for enforcing strict security controls how the instance uses the cre
 [MID Server FIPS Enforced Mode]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 
 ## Require basic authorization for incoming SOAP requests
 

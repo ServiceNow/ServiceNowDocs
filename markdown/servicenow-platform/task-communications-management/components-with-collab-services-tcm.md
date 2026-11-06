@@ -7,7 +7,7 @@ release: australia
 product: Task Communications Management
 classification: task-communications-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install Collaboration Services for Task Communications Management, Task Communications Management plugins, Task Communications Management, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -56,5 +56,5 @@ Stores Collaboration Service related data.
 </table>**Related topics**  
 
 
-[Configure Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-slack-workspace.md)
+[bundle-crint.configure-slack-workspace]
 

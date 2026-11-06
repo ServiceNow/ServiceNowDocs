@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Launch a stack, Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ To view quota limits, navigate to the Overview page. For more information, see [
 
 ## Quota calculation for template-based stacks
 
-The Stack Count is a default base system quota limit available beginning with the Australia release. It applies to all template-based stacks in the service catalog.
+The Stack Count is a default base system quota limit available beginning with the Brazil release. It applies to all template-based stacks in the service catalog.
 
 If your Cloud Provisioning and Governance administrator has set a Stack Count quota for you or your user group, the system calculates the stack number when you provision a template-based stack. After provisioning, the system increases the Stack Count quota by a value of 1 for each provisioned stack.
 

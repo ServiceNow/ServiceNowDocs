@@ -7,7 +7,7 @@ release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ The objects in the conceptual CSDM framework must map to the physical model obje
 
 Business Application data belongs in the cmdb\_ci\_business\_app table, and not in the cmdb\_ci\_app table.
 
-**Note:** Business services and Technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/SPM2-taxonomy.md).
+**Note:** Business services and Technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See .
 
 ## Life Cycle Stage inheritance for Business Application records
 

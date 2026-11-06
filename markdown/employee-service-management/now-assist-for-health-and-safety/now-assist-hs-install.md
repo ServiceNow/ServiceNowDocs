@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -31,7 +31,7 @@ For more information on AI assets available with ServiceNow Otto for Health and 
 1.  Install the ServiceNow Otto for Health and Safety \(sn\_hs\_gen\_ai\) plugin.
 
     -   For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-support-info.md).
-    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 ## What to do next
 

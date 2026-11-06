@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 
 The Software Asset Management application's user interface is enhanced to make it more user friendly and intuitive, allowing you to better manage your software installations.
 
-Beginning with the ServiceNow AI Platform Australia release, we will provide limited support for the Software Asset Management classic user interface. While it will remain active in your instance, including when you upgrade to a new ServiceNow AI Platform release, we encourage you to move to the new workspace experience.
+Beginning with the ServiceNow AI Platform Brazil release, we will provide limited support for the Software Asset Management classic user interface. While it will remain active in your instance, including when you upgrade to a new ServiceNow AI Platform release, we encourage you to move to the new workspace experience.
 
 The Software Asset Management application's core functionality remains the same in both the user interfaces.
 
@@ -24,7 +24,7 @@ The Software Asset Management application's core functionality remains the same 
 
 The Software Asset Management application is available with activation of the new Activate all Software Asset Management Professional plugins including Software Asset Workspace \(com.sn\_samp\_master\_ws\). Activating this plugin automatically activates the Activate all Software Asset Management Professional plugin \(com.sn\_samp\_master\) and the Software Asset Workspace \(sn\_sam\_workspace\) store application . After the new plugin is activated, you can't access the classic user interface.
 
-For releases prior to Australia, if you activated the older Software Asset Management Professional plugin \(com.sn\_samp\_master\), the Software Asset Workspace is available with activation of the Software Asset Workspace plugin \(com.sn\_sam\_workspace\). After the Software Asset Workspace Workspace plugin is activated, you can't revert to the classic Software Asset Management application.
+For releases prior to Brazil, if you activated the older Software Asset Management Professional plugin \(com.sn\_samp\_master\), the Software Asset Workspace is available with activation of the Software Asset Workspace plugin \(com.sn\_sam\_workspace\). After the Software Asset Workspace Workspace plugin is activated, you can't revert to the classic Software Asset Management application.
 
 **Note:** After the Software Asset Workspace is activated, the menus in the classic Software Asset Management application are hidden for the features that have been moved to the Software Asset Workspace.
 
@@ -36,7 +36,7 @@ To continue using the classic Software Asset Management application, you need to
 
 If you later decide to use the Software Asset Workspace, you need to activate theSoftware Asset Workspace \(sn\_sam\_workspace\) store application.
 
-For detailed information on configuring and using the classic Software Asset Management application, refer to [Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/Config-sam-workspace.md) and [Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-classic.md).
+For detailed information on configuring and using the classic Software Asset Management application, refer to [Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/Config-sam-workspace.md) and [Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-classic.md).
 
 ## Menus that continue to reside in Software Asset Management classic
 
@@ -102,8 +102,8 @@ Use the Now Mobile app to view the hardware and software assets that are assigne
 You can implement ServiceNow® Virtual Agent to enable your employees to request software through a predefined conversational interface that is powered by artificial intelligence. Virtual Agent helps address software requests automatically so that your IT fulfillment professionals can focus on more complex requests and incidents.
 -   **[Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMContentService.md)**  
 Opt in to the Software Asset Management Content Service to share unnormalized software installation data from your organization with ServiceNow® to improve the normalization process.
--   **[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-models-and-entitlements.md)**  
-A software model is a profile of the software that you've purchased, including information about the publisher, version, and discovery map. Software entitlements are used to relate the software model to the rights that you've purchased.
+-   **[Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-models-and-entitlements.md)**  
+A software model is a profile of the software that you have purchased, including information about the publisher, version, and discovery map. Software entitlements are used to relate the software model to the rights that you have purchased.
 -   **[Software Asset Management migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMMigration.md)**  
 Migrate from the Software Asset Management plugin \(ITSM Software Asset Management feature of Asset Management\) to the Software Asset Management application to take advantage of more powerful features. Manual actions by the customer are required after plugin activation.
 -   **[Software model relationship to software installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/swmodel-swinstall-rel.md)**  
@@ -135,7 +135,7 @@ Share entitlements across different entities within your organization by creatin
 -   **[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMReconciliation.md)**  
 Automated license reconciliation keeps license positions accurate and up-to-date without manual calculations. Reconciliation runs weekly or on demand.
 -   **[Software reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sw-reclamation-rules.md)**  
-Reclamation rules aggregate usage over time and specify a minimum number of hours or the latest date that a software unit must be used before the software is flagged for reclamation.
+Reclamation rules aggregate usage over time. These rule also specify a minimum number of hours or the latest date that a software unit must be used before the software is flagged for reclamation.
 -   **[Microsoft SCCM software usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sccm-software-usage.md)**  
 Activate the Microsoft SCCM software usage plugin to integrate your software usage data with the ServiceNow AI Platform.
 -   **[Software installation optimization and removal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMOptimization.md)**  
@@ -173,7 +173,7 @@ Use a guided walk-through playbook to achieve audit readiness and regulatory com
 -   **[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/playbook-entitlementsetup-workspace.md)**  
 The Software Asset Management Guided Experiences application provides step-by-step guidance for completing tasks in your daily software management activities.
 -   **[Use Software Asset Management with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-integration-cmpro.md)**  
-Leverage advanced contract life cycle capabilities after a contract has been signed using the Obligation Management \(sn\_cm\_obligation\) and the ServiceNow Otto for Contract Management Pro in Contract Management Pro \(sn\_cm\_gen\_ai\) plugin.
+Leverage advanced contract life cycle capabilities after a contract has been signed using the Obligation Management \(sn\_cm\_obligation\) and the ServiceNow Otto for Contract Management Pro \(sn\_cm\_gen\_ai\) plugin.
 -   **[Consumption rule evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/consumption-rule-evaluation.md)**  
 Consumption rules control which installations or users can consume a license. After you link a consumption rule to an entitlement, the license metric type determines how the system evaluates the rule during allocation.
 

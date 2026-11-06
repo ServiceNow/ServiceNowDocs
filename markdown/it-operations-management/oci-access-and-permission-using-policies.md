@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/oci-access-and-permission-using-policies.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up Oracle Cloud infrastructure \(OCI\) service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-assignment-rules.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [assign findings to remediation teams automatically, assign vulnerable items to remediation teams automatically, assign application vulnerable items to remediation teams automatically, assign container vulnerable items to remediation teams automatically, configuring assignment rules]
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
@@ -20,8 +20,6 @@ Assignment rules help streamline vulnerability management by automatically assig
 In the Security Exposure Management Workspace, you can set up a single assignment rule that applies to all types of findings, including vulnerable items \(VITs\), application vulnerabilities \(AVITs\), container vulnerabilities \(CVITs\), and configuration test results \(CTRs\). This rule can then be applied to all the findings or a specific combination of findings.
 
 Configuration of assignment rules includes the following steps.
-
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 
 **Related topics**  
 
@@ -249,9 +247,9 @@ The **Unassign** UI action is supported in both the classic environment and the 
 
 2.  To clear the **Assigned to** and **Assignment group** fields in the classic view, at the top of the record, select **Unassign**.
 
-3.  Alternatively, navigate to a vulnerable item \(VIT, AVIT, or CVIT\) record in the IT Remediation workspace that is assigned to you or your groups and select **Unassign** in the More options menu to clear the assignment fields.
+3.  Alternatively, navigate to a vulnerable item \(VIT, AVIT, or CVIT\) record in the IT Remediation workspace that is assigned to you or your groups and click **Unassign** in the More options menu \(\[Omitted image "more-actions-icon.png"\] Alt text: The three dots of the More options menu\) to clear the assignment fields.
 
-4.  For remediation task records in the workspace that are assigned to you or your groups, open a record select **Unassign** in the More options menu to clear the assignment fields.
+4.  For remediation task records in the workspace that are assigned to you or your groups, open a record select **Unassign** in the More options menu \(\[Omitted image "more-actions-icon.png"\] Alt text: The three dots of the More options menu\) to clear the assignment fields.
 
 5.  In the Unassign dialog for both vulnerable items and remediation tasks, provide work notes and select **Submit**.
 

@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Business Rule API - ServiceNow Fluent
@@ -134,7 +134,7 @@ String
 
 </td><td>
 
-The time that the business rule should execute. For more information about when business rules run, see [How business rules work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).Valid values:
+The time that the business rule should execute. For more information about when business rules run, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).Valid values:
 
 -   before
 -   after
@@ -153,7 +153,7 @@ Array
 
 </td><td>
 
-The record options that the business rule applies to. For more information about business rule actions, see [How business rules work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).Valid values:
+The record options that the business rule applies to. For more information about business rule actions, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).Valid values:
 
 -   insert
 -   update

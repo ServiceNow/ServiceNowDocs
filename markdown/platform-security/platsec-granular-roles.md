@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/platsec-granular-roles.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Granular admin roles, platform security admin roles, ServiceNow security admin roles, security admin, security roles, access management, security assigning roles, maintain security, enforce conformance]
 breadcrumb: [Granular admin roles]
@@ -39,7 +39,7 @@ access\_analyzer\_admin
 
 </td><td>
 
-Role required to access the Access analyzer to compare user records and access, simulate user access, and view access insights. To learn more, see [Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-analyzer.md).
+Role required to access the Access analyzer to compare user records and access, simulate user access, and view access insights. To learn more, see [Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-analyzer.md).
 
 </td></tr><tr><td>
 
@@ -388,7 +388,7 @@ external\_user\_self\_registration\_admin
 
 </td><td>
 
-Role required to on-board a large volume of external users to your instance. To learn more, see [Self-register to ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/external-user-self-registration.md).
+Role required to on-board a large volume of external users to your instance. To learn more, see [Self-registration to ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/external-user-self-registration.md).
 
 </td></tr><tr><td>
 
@@ -438,7 +438,7 @@ oauth\_admin
 
 </td><td>
 
-Role required to configure all OAuth related functionality. To learn more, see [OAuth Inbound and Outbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/api-inbound-and-outbound.md).**Note:** You must assign the following roles for the following configurations:
+Role required to configure all OAuth related functionality. To learn more, see [OAuth inbound and outbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/api-inbound-and-outbound.md).**Note:** You must assign the following roles for the following configurations:
 
 -   The **admin** role for non out of the box properties.
 -   The **script\_include\_admin** to change existing scripts \(JWT, and so on\).

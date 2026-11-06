@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/using-now-assist-api-connector.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -31,9 +31,4 @@ Complete steps 1-2 manually to enter connector metadata and credentials in the C
 See [Creating your own API connectors in Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/spc-creating-sgc-template.md) for more information about completing the first two steps manually in the Connector builder.
 
 See [Create an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/select-api-template.md) for the steps in the Connector builder that use ServiceNow Otto for Unified Security Exposure Management.
-
--   **[Create an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/select-api-template.md)**  
-Use the SPC Setup Connector skill to automatically complete configuration steps 3-5 in the Connector builder in the Security Posture Control Workspace.
-
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

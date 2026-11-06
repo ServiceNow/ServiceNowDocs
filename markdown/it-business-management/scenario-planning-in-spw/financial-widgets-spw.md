@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Financial planning for planning items, Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Logic, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Business Logic, Hardening settings, Platform Security]
 
 Set the property to true to prevent bad actors from using internal port scanning in your network.
 
-If the **glide.update\_set.remote.check\_host** system property is not set to the recommended value of **true**, then the Team Development Remote Instance test feature will allow an internal network port scan by providing positive/negative error messages.
+If the **glide.update\_set.remote.check\_host** system property is not set to **true**, then the Team Development Remote Instance test feature allows an internal network port scanning through error messages.
 
 Ensure that the property **glide.update\_set.remote.check\_host** is set to **true**.
 
@@ -70,7 +70,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+true
 
 </td></tr><tr><td>
 

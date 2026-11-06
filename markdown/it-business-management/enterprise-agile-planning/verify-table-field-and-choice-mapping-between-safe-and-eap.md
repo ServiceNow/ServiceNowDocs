@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migrate from SAFe, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -19,6 +19,8 @@ Before starting the migration from SAFe, verify that the default mapping of tabl
 ## Before you begin
 
 [Verify EAP configuration for migration from SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/verify-eap-configuration-for-migration-from-safe.md).
+
+If you map a custom field, make sure the column exists in both the SAFe table and the EAP table before you create the field map.
 
 Role required: sn\_apw\_advanced.eap\_admin
 

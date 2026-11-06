@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Obligation Management]
 audience: [sn\_cm\_obligation.obligation\_fulfiller, sn\_cm\_obligation.obligation\_user]

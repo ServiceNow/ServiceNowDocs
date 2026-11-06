@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [Oracle Linux Virtualization Manager discovery, OLVM discovery, Oracle Linux Virtualization Manager patterns, OLVM patterns, Red Hat Virtualization discovery, Red Hat Virtualization patterns, RHV discovery, RHV patterns]
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]

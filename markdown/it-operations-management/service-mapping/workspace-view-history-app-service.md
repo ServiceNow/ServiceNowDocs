@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Application service analysis and maintenance using legacy Agent Workspace, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ Changes to the application service appear on the history timeline.
 
 \[Omitted image "ws-map-history-pointers.png"\] Alt text: The history scale shows changes to the application service.
 
-Specify two points in time for which to compare the two versions of an application service. You can use the change marks on the timeline to specify points in time that are before and after a change for which you want to see details. For example, if you know that the application service started to fail at a certain time, you can compare two versions of the application service, one before and one after the problem started. This comparison lets you see the summary of changes that possibly led to the problems.
+Specify two points in time for which to compare the two versions of an application service. You can use the change marks on the timeline to specify points in time that are before and after a change for which you want to see details. For example, if you know that the application service started to fail at a certain time, you can compare two versions: one before and one after the problem started. This comparison lets you see the summary of changes that possibly led to the problems.
 
 The default timeline range is the recent week. The upper limit of the time range is the moment when you opened the map in the Change History view. If the application service was created less than a week ago, the time range starts from the time of service creation.
 

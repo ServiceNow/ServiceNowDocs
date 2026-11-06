@@ -7,9 +7,9 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-09-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-keywords: [generate, knowledge, article, sow, service, operations, workspace, itsm, classic, otto, Now Assist, Agentic AI, generative AI, Gen AI]
+keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
@@ -108,15 +108,15 @@ Role required: itil
 
 6.  To add or update the knowledge article, follow the instructions in the table below.
 
-<table><thead><tr><th align="left" id="d347200e595">
+<table><thead><tr><th align="left" id="d191573e563">
 
 To add or update the knowledge article
 
-</th><th align="left" id="d347200e598">
+</th><th align="left" id="d191573e566">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d347200e604">
+</th></tr></thead><tbody><tr><td id="d191573e572">
 
 **In Service Operation Workspace**
 
@@ -129,7 +129,7 @@ Do this
 -   Click **Save**.
 
 
-</td></tr><tr><td id="d347200e639">
+</td></tr><tr><td id="d191573e607">
 
 **In Core UI**
 
@@ -153,15 +153,15 @@ To update it:
 
     \[Omitted image "now-assist-itsm-ai-search.png"\] Alt text: AI Search activated
 
-<table id="choicetable_d3l_scz_23c"><thead><tr><th align="left" id="d347200e737">
+<table id="choicetable_d3l_scz_23c"><thead><tr><th align="left" id="d191573e705">
 
 Type of UI
 
-</th><th align="left" id="d347200e740">
+</th><th align="left" id="d191573e708">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d347200e746">
+</th></tr></thead><tbody><tr><td id="d191573e714">
 
 **In Service Operation Workspace**
 
@@ -180,7 +180,7 @@ The Knowledge article is created and attached to all selected similar incidents.
 
 \[Omitted image "now-assist-itsm-sow-similar-inc-knowledge.png"\] Alt text: Knowledge created for similar incidentsSelect **Save** to save the article.
 
-</td></tr><tr><td id="d347200e815">
+</td></tr><tr><td id="d191573e783">
 
 **In Core UI**
 

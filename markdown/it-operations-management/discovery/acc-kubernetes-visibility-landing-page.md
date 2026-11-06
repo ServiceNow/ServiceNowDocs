@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Kubernetes, Visibility, overview, Cloud Native Operations for Visibility, CNO for Visibility]
 breadcrumb: [Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
@@ -43,7 +43,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 -   **\[Omitted image "dcx-icon-support.svg"\] Support**
 
 -   **[Exploring Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-exploring.md)**  
-Kubernetes Visibility Agent enables you to gain visibility into on-premises Kubernetes clusters as well as the various Cloud deployments.
+Kubernetes Visibility Agent enables you to gain visibility into on-premises Kubernetes clusters and the various Cloud deployments.
 -   **[Configuring Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-configuring.md)**  
 Set up Kubernetes Visibility Agent by performing the described procedures.
 -   **[Kubernetes Visibility Agent Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-reference.md)**  

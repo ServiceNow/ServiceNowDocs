@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure a response processor, Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -27,7 +27,7 @@ function processResponse(response, cloudServiceAccountId, ldc, correlationId,ste
 
 ```
 
-This brings in the response from the cloud provider and the important information, such as the account ID, that is required for the new CI that the system can create. All of these parameters are required for all response processors.
+This brings in the response from the cloud provider and the important information, such as the account ID, that is required for the new CI. All of these parameters are required for all response processors.
 
 Line 10 parses the response into JSON so that the system can process it. The information is held in the vmResponse variable:
 
@@ -45,7 +45,7 @@ var hardwareId = vmResponse.hardwareId;
 
 ```
 
-Line 39 shows the information that is required for the system to identify the new virtual server and related CIs, so the information can be put into the CMDB. In this case, the service account object ID identifies the account associated with the virtual server, the datacenter object ID identifies the datacenter in which the virtual server lives, and the virtual machine instance object ID identifies the virtual server itself. This identification code block prevents the creation of duplicate CIs.
+Line 39 shows the information that the system requires to identify the new virtual server and related CIs for storage in the CMDB. In this case, the service account object ID identifies the account associated with the virtual server, the datacenter object ID identifies the datacenter in which the virtual server lives, and the virtual machine instance object ID identifies the virtual server itself. This identification code block prevents the creation of duplicate CIs.
 
 ```
 
@@ -95,7 +95,7 @@ Attributes are populated into the fields on in the cmdb\_ci\_vm\_instance table.
 
 ```
 
-References to other CIs can also be included in the response processor. In this case, the OS template that the virtual server is based on is identified by first identifying the object ID of the service account and the datacenter along with the actual OS template.
+References to other CIs can also be included in the response processor. In this case, the OS template is identified by the object ID of the service account and the datacenter, along with the actual OS template.
 
 ```
 
@@ -120,7 +120,7 @@ References to other CIs can also be included in the response processor. In this 
     },
 ```
 
-The following code block adds the object ID of the OS image to the attributes list so that this information can be populated into the virtual server CMDB record.
+The following code block adds the object ID of the OS image to the attributes list. This information is then populated into the virtual server CMDB record.
 
 ```
 

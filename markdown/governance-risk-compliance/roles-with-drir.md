@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/roles-with-drir.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Digital resilience incident reporting reference, Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -67,6 +67,7 @@ Role for participating in Operational Resilience and Digital resilience incident
 -   Create access to all cases
 -   Read access to all cases
 -   Smart assessment actor access
+-   Manage contributors and collaborators on Digital resilience incident assessment instances
 
 </td></tr></tbody>
 </table>

@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -22,6 +22,8 @@ Domain separation is supported in Hardware Asset Management. Domain separation e
 Validate that Hardware Asset Management \(HAM\) still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 -   **[Hardware Asset Workspace roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-workspace-roles.md)**  
 Details of the out-of-the-box roles that can access Hardware Asset Workspace.
+-   **[Supported asset tasks on Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/mobile-app-task-types.md)**  
+The ServiceNow Now Mobile app supports a limited set of Hardware Asset Management task types in the **My Group tasks** view.
 -   **[Stockroom types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/r_StockroomTypes.md)**  
 Stockroom types are categories of stockrooms.
 -   **[Installed with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/installed-with-ham.md)**  
@@ -66,4 +68,6 @@ Comprehensive reference of HAM table fields that are restricted from UI editing 
 System properties control asset lifecycle, procurement, inventory, reporting, and system configuration for the Hardware Asset Management application. You can view and update these properties from the Properties setup item in the Configuration Console.
 -   **[Modules in the Configuration Console for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/config-console-modules-ham.md)**  
 Module-by-module listing of the setup items in the Configuration Console for HAM, with descriptions of what each item configures.
+
+**Parent Topic:**[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-landing-page.md)
 

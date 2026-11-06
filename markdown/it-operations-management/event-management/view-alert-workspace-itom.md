@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -78,4 +78,5 @@ Displays lists of records linked to the alert, grouped into categories: events, 
 \[Omitted image "em-related-record-preview-azure-issue.png"\] Alt text: Azure monitor issue alert
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Express List reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/express-list-reference.md)
+

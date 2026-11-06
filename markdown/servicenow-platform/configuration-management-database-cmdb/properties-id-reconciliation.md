@@ -1,20 +1,20 @@
 ---
 title: Properties for Identification and Reconciliation
-description: Use the Identification and Reconciliation properties to configure the identification and reconciliation engine \(IRE\).
+description: Use the Identification and Reconciliation properties to configure the Identification and Reconciliation Engine \(IRE\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 18
 breadcrumb: [Reference, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Properties for Identification and Reconciliation
 
-Use the Identification and Reconciliation properties to configure the identification and reconciliation engine \(IRE\).
+Use the Identification and Reconciliation properties to configure the Identification and Reconciliation Engine \(IRE\).
 
 These properties are available for Identification and Reconciliation. To view and edit these properties, the sn\_cmdb\_admin or admin role is required.
 
@@ -374,7 +374,7 @@ glide.identification\_engine.ire\_message\_listener\_skip\_updating\_source\_las
 
 </td><td>
 
-If Robust Transform Engine \(RTE\) does not pass the **ire.skip\_updating\_last\_scan\_to\_now** custom property on the [Robust Import Set Transformer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-robust-import-set-transformer.md), IRE uses the value of this property for the **skip\_updating\_source\_last\_discovered\_to\_now** [IRE option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ire.md).
+If Robust Transform Engine \(RTE\) does not pass the **ire.skip\_updating\_last\_scan\_to\_now** custom property on the Robust Import Set Transformer form, IRE uses the value of this property for the **skip\_updating\_source\_last\_discovered\_to\_now** [IRE option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
  -   Type: true \| false
 -   Default: false
@@ -407,7 +407,7 @@ glide.identification\_engine.ire\_message\_listener\_skip\_updating\_last\_scan\
 
 </td><td>
 
-If RTE does not pass the **ire.skip\_updating\_last\_scan\_to\_now** custom property on the [Robust Import Set Transformer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-robust-import-set-transformer.md), IRE uses the value of this property for the **ire.skip\_updating\_last\_scan\_to\_now** [IRE option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ire.md).
+If RTE does not pass the **ire.skip\_updating\_last\_scan\_to\_now** custom property on the Robust Import Set Transformer form, IRE uses the value of this property for the **ire.skip\_updating\_last\_scan\_to\_now** [IRE option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
  -   Type: true \| false
 -   Default: false
@@ -502,7 +502,7 @@ glide.identification\_engine.dynamic\_ire\_enabled
 
 </td><td>
 
-Switch between using Dynamic IRE or Static IRE. Set to 'true' to use Dynamic IRE and to turn off Static IRE.
+Switches between using Dynamic IRE or Static IRE. Set to 'true' to use Dynamic IRE and to turn off Static IRE.
 
  -   Type: true \| false
 -   Default: false
@@ -517,6 +517,13 @@ glide.identification\_engine.dynamic\_ire.auto\_compare
 
 Enables comparison between the processing outputs of Dynamic IRE and Static IRE for all payloads.
 
+ If both properties:
+
+-   **glide.identification\_engine.dynamic\_ire.auto\_compare**
+-   **glide.identification\_engine.dynamic\_ire.auto\_compare.sampling.enabled**
+
+are **true**, then the system runs a comparison between Static IRE and Dynamic IRE for all payloads. If both of those properties are **false**, then there are no comparisons.
+
  -   Type: true \| false
 -   Default: true
 -   Learn more: [Dynamic IRE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/dynamic-ire.md)
@@ -528,13 +535,13 @@ glide.identification\_engine.non\_dependency\_relation.duplicate\_detection
 
 </td><td>
 
-Set IRE behavior when the payload contains duplicate non-dependent relationships \(identical parent/child relationship type\).
+Sets IRE behavior when the payload contains duplicate non-dependent relationships \(identical parent/child relationship type\).
 
-When set to **true**, IRE detects duplicate non-dependent relationships in a payload.
+ When **true**, IRE detects duplicate non-dependent relationships in a payload.
 
-When set to **false**, IRE doesn't detect duplicate non-dependent relationships in a payload.
+ When **false**, IRE doesn't detect duplicate non-dependent relationships in a payload.
 
--   Type: true \| false
+ -   Type: true \| false
 -   Default: false
 -   Learn more: [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
@@ -547,9 +554,9 @@ glide.identification\_engine.batch\_update\_last\_discovered.use\_execute\_lazy
 
 Sets IRE mode for processing batch updates of the discovery timestamp fields **first\_discovered** and **last\_discovered**.
 
-For optimized performance, when IRE processes CI records, it updates discovery timestamp fields in batches. This property controls when these batch updates are executed.
+ For optimized performance, when IRE processes CI records, it updates discovery timestamp fields in batches. This property controls when these batch updates are executed.
 
--   **true**
+ -   **true**
 
 IRE defers database updates and uses batched operations, which improves performance.
 
@@ -568,7 +575,7 @@ Usage:
     -   A deletion strategy is aggressively removing recently discovered CIs
     -   If immediate timestamp consistency is required
 
-General details:
+ General details:
 
 -   Type: true \| false
 -   Default: true

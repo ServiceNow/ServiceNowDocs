@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-config-data-broker.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -88,15 +88,15 @@ Refreshes recommendations for all the active agent, when set to true. By default
 </td></tr></tbody>
 </table>7.  In the **When to trigger** drop-down, select one of the following.
 
-<table id="choicetable_eqc_b33_yfc"><thead><tr><th align="left" id="d86141e231">
+<table id="choicetable_eqc_b33_yfc"><thead><tr><th align="left" id="d88576e231">
 
 Option
 
-</th><th align="left" id="d86141e234">
+</th><th align="left" id="d88576e234">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d86141e240">
+</th></tr></thead><tbody><tr><td id="d88576e240">
 
 **Always**
 
@@ -104,7 +104,7 @@ Description
 
 Triggers the refresh every time there’s an update.
 
-</td></tr><tr><td id="d86141e249">
+</td></tr><tr><td id="d88576e249">
 
 **Conditional**
 

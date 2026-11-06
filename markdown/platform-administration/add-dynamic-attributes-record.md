@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/add-dynamic-attributes-record.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with Dynamic Schema, Dynamic Schema, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -34,15 +34,15 @@ Once you create a dynamic attribute store field and set up the dynamic categorie
 
 4.  Capture one or more dynamic attributes in the dynamic attribute store field by entering JSON or using the API.
 
-<table id="choicetable_vrc_vx4_zfc"><thead><tr><th align="left" id="d121142e84">
+<table id="choicetable_vrc_vx4_zfc"><thead><tr><th align="left" id="d121282e84">
 
 Option
 
-</th><th align="left" id="d121142e87">
+</th><th align="left" id="d121282e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d121142e93">
+</th></tr></thead><tbody><tr><td id="d121282e93">
 
 **Enter JSON**
 
@@ -52,7 +52,7 @@ Enter one or more attributes and values in the dynamic store field. For example:
 { "watts: 50" , "screen_size": "75", "screen_type" : "OLED" }
 ```
 
-</td></tr><tr><td id="d121142e104">
+</td></tr><tr><td id="d121282e104">
 
 **Use the API**
 

@@ -7,8 +7,8 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Cross-project library elements, Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
@@ -17,6 +17,10 @@ breadcrumb: [Cross-project library elements, Design your indicator solution, Con
 You can add artifacts to a library element, or convert a library element back to project-based artifacts. You can also edit the data definitions of artifacts in a library element.
 
 ## Before you begin
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Role required: sn\_kpi\_composer.admin or admin for full editing functions
 

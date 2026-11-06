@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-pol-reference.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, reference]
-breadcrumb: [Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Control Tower policies reference
@@ -18,7 +18,7 @@ Reference topics provide additional information about threat types and where pol
 -   **[Threat types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-threat-categories.md)**  
 Threat types available in a Threat Response policy.
 -   **[Control enforcement points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-enforcement-points.md)**  
-The systems an AI Control Tower policy can act on.
+The systems that AI Control Tower policies can act on.
 
 **Parent Topic:**[Controlling AI asset usage in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-landing.md)
 

@@ -5,14 +5,20 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/process-opt-csm.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Integrate, Customer Service Management]
 ---
 
 # Integrating with Process Mining
 
 Integrate Customer Service Management with the Process Mining application to analyze processes relevant to your KPIs, and identify bottlenecks associated with customer service cases.
+
+**Important:**
+
+Beginning with the Brazil release, the Process Mining Content Pack application is set to be part of the core ServiceNow AI Platform and is automatically installed for Customer Service Management. To auto-install the Process Mining Content Pack application, upgrade your instance to Brazil.
+
+Support for the standalone CSM Process Mining Content Pack \(com.snc.csm\_process\_optimization\) ends with this change; it remains active on upgrade, but is no longer supported.
 
 For more information about enabling the Process Mining Content Pack for CSM, see [Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-po-content-pack.md).
 
@@ -34,7 +40,7 @@ Several projects are included with the Process Mining Content Pack for CSM \(sn\
 
 -   [Case evaluation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/evaluation-pm-csm.md): Use this project to evaluate Process Mining and become familiar with the Process Mining capabilities.
 -   **Long resolution time analysis project**: Use this project to identify bottlenecks to minimize delays in the case flow.
--   [SLA Breach Analysis project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/csm-integration-po.md): Use this project to identify and analyze customer service cases where service level agreements \(SLAs\) have been violated.
+-   **SLA Breach Analysis project**: Use this project to identify and analyze customer service cases where service level agreements \(SLAs\) have been violated.
 
 ## Optimization project for customer service cases
 
@@ -56,9 +62,4 @@ If the Performance Analytics application is enabled, the available template conf
 ## Process configuration for customer service cases
 
 Select the Process Mining Content Pack for CSM \(com.snc.csm\_process\_optimization\) templates to quickly set up projects with pre-configured default settings. Process configurations specify preferences that activate key functionalities within the Process Mining workspace and streamline project setup for cases. Fully configured processes allow users to build projects autonomously and derive insights efficiently, supporting enterprise-wide scalability of process mining. For more information, see [Creating process configurations using content pack templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/content-pack-config.md).
-
-**Related topics**  
-
-
-[Process Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/csm-integration-po.md)
 

@@ -1,18 +1,18 @@
 ---
 title: Install Operational Sustainability Integration with Urjanet
-description: You can install the Operational Sustainability Integration with Urjanet application \(sn\_esg\_urjanet\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they aren't already installed.
+description: You can install the Operational Sustainability Integration with Urjanet application \(sn\_esg\_urjanet\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/install-urjanet.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Install Operational Sustainability Integration with Urjanet
 
-You can install the Operational Sustainability Integration with Urjanet application \(sn\_esg\_urjanet\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they aren't already installed.
+You can install the Operational Sustainability Integration with Urjanet application \(sn\_esg\_urjanet\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 
@@ -41,7 +41,7 @@ For more information, see [Components installed with Operational Sustainability 
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    In the list next to the **Install** button, the versions that are available to you're displayed.
+    In the list next to the **Install** button, the versions that are available to you are displayed.
 
 3.  Select a version from the list and select **Install**.
 

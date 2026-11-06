@@ -7,7 +7,7 @@ release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -50,5 +50,5 @@ To view a discussion, select **Discuss**, then select **Open record** for the di
 **Related topics**  
 
 
-[bundle-convint.sidebar-discussions-record]
+[Create a Sidebar discussion for a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar-discussions-record.md)
 

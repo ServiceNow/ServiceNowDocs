@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating a universal request, Universal Request for HR Service Delivery, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
+breadcrumb: [Creating a universal request from an HR case, Universal Request for HR Service Delivery, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure field mappings

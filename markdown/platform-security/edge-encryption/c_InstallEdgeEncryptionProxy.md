@@ -7,8 +7,8 @@ release: australia
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Edge Encryption, Encryption]
 ---
 
@@ -18,9 +18,9 @@ You can install an Edge Encryption proxy manually or using the Edge Encryption i
 
 ## Java requirements
 
-The host machine installing or running the Edge Encryption proxy server must maintain a supported version of Java. Current supported versions are Java 17.0.3 or later in the 17.x version series.
+The host machine installing or running the Edge Encryption proxy server is required to maintain a supported version of Java. Current supported versions are Java 21 or later.
 
-**Note:** Java 11 is no longer be supported as of the Yokohama release. Upgrade your environment with the Edge Encryption proxy to Java 17 before you attempt to install Yokohama or later versions of the Edge Encryption proxy.
+**Note:** Java 17 is no longer supported as of the Brazil release. Java 11 is no longer supported as of the Yokohama release. If upgrading from a pre-Yokohama version, you're likely on Java 11 and are required to upgrade to Java 21 before installing Brazil or later versions of the Edge Encryption proxy. If upgrading from a Yokohama, Zurich, or Australia version, you're likely on Java 17 and are required to upgrade to Java 21 before installing Brazil or later versions of the Edge Encryption proxy.
 
 ## Installing the proxy server
 

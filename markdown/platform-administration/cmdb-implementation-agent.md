@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/cmdb-implementation-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Platform module configuration, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure the Platform module, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # CMDB
@@ -25,5 +25,5 @@ Based on the CI type \( for example, Service, Offering, Computer\) selected in t
 
 For information about CI, see [Overview of CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cnfig-mgmt-and-cmdb.md) and [Create a CI class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIType.md).
 
-**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Configure the Platform module in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)
 

@@ -1,39 +1,22 @@
 ---
 title: Configure a form action layout on a workspace page
-description: Add a form action layout to a workspace page in UI Builder.
+description: Add a UX Form Actions Layout to a workspace page in UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-da-action-layout.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure a form action layout on a workspace page
 
-Add a form action layout to a workspace page in UI Builder.
+Add a UX Form Actions Layout to a workspace page in UI Builder.
 
 ## Before you begin
 
 Role required: admin
-
-## About this task
-
-A form action layout combines multiple [form action layout items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configurable-workspace-glossary.md) and [form action layout groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configurable-workspace-glossary.md) into a single table-based layout that determines which actions appear on the form.
-
-The form action layout chosen to appear on the form is determined in the following ways:
-
--   **Form Controller**
-
-    If a form action layout is assigned directly to the Form Controller in UI Builder, that layout is used.
-
--   **Specificity**
-
-    If a form action layout isn't assigned to the Form Controller, the layout is chosen based on specificity calculated from the layout's table and action configuration.
-
-    When two form action layouts have identical specificity values, the layout with the lower Order field is chosen.
-
 
 ## Procedure
 
@@ -58,5 +41,5 @@ The form action layout chosen to appear on the form is determined in the followi
 
 ## Result
 
-The actions specified in the form action layout appear on the workspace page.
+The actions specified in the UX Form Actions Layout record appear on the workspace page.
 

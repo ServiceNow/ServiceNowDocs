@@ -7,7 +7,7 @@ release: australia
 product: Task Communications Management
 classification: task-communications-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,7 +21,7 @@ Task Communications Management \(TCM\) provides a framework for defining and man
 Explore
 
 -   [Task Communications Management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/task-communications-management/task-communications-management.md)
--   [Slack Communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/setting-up-slack.md)
+-   Slack Communication
 
 </td><td>
 

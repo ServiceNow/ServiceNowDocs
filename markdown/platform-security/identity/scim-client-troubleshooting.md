@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SCIM Client, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
@@ -65,7 +65,7 @@ Cannot cast java.lang.Integer to java.lang.String
 
 </td><td>
 
-In the SCIM attribute mapping, if the field is defined to fetch from a script with this issue, then make sure that the return type should always be a string.
+In the SCIM attribute mapping, if the field is defined to fetch from a script with this issue, then make sure that the return type should be a string.
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ doesn't exist"
 
 </td><td>
 
-For any SCIM attribute that expects the ID, then that ID is always of the provider system. Make sure the ID that is passed in the payload is valid in the provider system.
+For any SCIM attribute that expects the ID, that ID is from the provider system. Make sure the ID that is passed in the payload is valid in the provider system.
 
 </td></tr></tbody>
 </table>## Areas to check for troubleshooting
@@ -100,6 +100,6 @@ The following are some of the areas that can be checked for troubleshooting erro
     |Message|Success or error message. The error message can be from the SCIM provider or because of configuration issues in the SCIM Client.|
 
 -   Check the request body by configuring and viewing outbound calls. To learn more, see [Outbound web services logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-request-logging.md).
--   Update log levels by adding the content-type, testing the sample, and navigating to corresponding the HTTP Method form in the REST message of the corresponding provider.
+-   Update log levels by adding the content-type, testing the sample, and navigating to the corresponding HTTP Method form in the REST message of the corresponding provider.
 -   If the request body is truncated, then increase the limit by using system property **glide.outbound\_http.content.max\_limit**.
 

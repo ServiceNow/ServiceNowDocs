@@ -1,0 +1,103 @@
+---
+title: Running processes page
+description: The Running processes page displays CPU and memory usage and details about each running process, which help you identify performance bottlenecks that affect the digital experience.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/user-running-process-cards.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Device details pages, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
+---
+
+# Running processes page
+
+The Running processes page displays CPU and memory usage and details about each running process, which help you identify performance bottlenecks that affect the digital experience.
+
+|Card|Description|
+|----|-----------|
+|CPU usage|Percentage of the CPU's total processing capacity that is currently in use|
+|Idle CPU|Percentage of the CPU's capacity that is not being actively used or is in an idle state|
+|Memory usage|Amount of computer memory \(RAM\) currently being used by running processes and applications|
+
+<table id="table_ehz_zm4_d1c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Name for the process
+
+</td></tr><tr><td>
+
+CPU usage %
+
+</td><td>
+
+Amount of processing power consumed in percentage for a specific program or process.
+
+**Note:** High CPU usage can result in degraded application performance, slower response times, and decreased user satisfaction. Identify performance bottlenecks and take proactive steps to optimize application performance.
+
+</td></tr><tr><td>
+
+CPU time in seconds
+
+</td><td>
+
+Exact amount of time that the CPU spends for processing data for a specific program or process.**Note:** By tracking CPU usage over time, your organization can identify potential performance issues and take steps to optimize system resources and improve the overall digital end-user experience.
+
+</td></tr><tr><td>
+
+Memory in KB
+
+</td><td>
+
+Amount of memory \(RAM\) consumed in kilobytes \(KB\) for a specific program or process.
+
+**Note:** High memory usage can result in degraded application performance, slower response times, and potentially lead to crashes or system instability. Monitor memory usage to optimize resource allocation and capacity planning, verifying that applications have sufficient resources to meet user demands.
+
+</td></tr><tr><td>
+
+PID
+
+</td><td>
+
+Unique numerical identifier, or process ID \(PID\), assigned to each running process.**Note:** The PID can be used to monitor and manage the running processes. The PID can also be used to terminate or kill a specific process if necessary.
+
+</td></tr><tr><td>
+
+PPID
+
+</td><td>
+
+Unique numerical identifier, or parent process ID \(PPID\), assigned to the parent process of a running process.**Note:** The PPID is useful for process management because it enables administrators to identify the processes that spawned child processes and track the flow of processes in the system. The PPID is also used to manage the resources allocated to a process and confirm that child processes have access to the necessary resources.
+
+</td></tr><tr><td>
+
+Service name
+
+</td><td>
+
+Name of the service associated with the process.
+
+</td></tr><tr><td>
+
+Service type
+
+</td><td>
+
+Type of the service, for example system or user.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/user-device-details-pages.md)
+

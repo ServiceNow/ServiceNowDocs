@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/retrieve-updateset-prod.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Code Signing, Platform Security]
 ---
@@ -72,4 +72,6 @@ Roles required: admin, security\_admin
 ## Result
 
 The trust relationship is established between trusted and protected instances. You’re ready to enable Code Signing. See [Turn on Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/enable-codesiging.md) to complete the steps.
+
+**Parent Topic:**[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/config-code-signing.md)
 

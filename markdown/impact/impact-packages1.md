@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-packages1.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Exploring Impact, Impact]
 ---
@@ -20,7 +20,7 @@ Impact includes Platform Health, Instance Observer, Value Management, Product Ad
 
 |Package|What you get|
 |-------|------------|
-|Guided|The Impact App, 24/7 support, limited concurrence Accelerator catalog access, and guidance from a Customer Success Manager|
+|Guided|The Impact App, 24/7 support, limited concurrence Accelerator catalog access|
 |Total|Everything in Impact Guided, enhanced response times for Priority 1 and Priority 2 tickets, Developer Support, expanded access to the Accelerator catalog, and a dedicated Impact Squad|
 
 ## Integrated Success
@@ -36,11 +36,6 @@ The entitlements available for Impact features, Accelerator catalog concurrency,
 ## Impact Squad
 
 Impact Squad is a team of dedicated professionals who help you manage your Impact platform based on your Impact package entitlement.
-
-|Squad members|Package entitlement|
-|-------------|-------------------|
-|Customer Success Manager, Customer Success Executive, Platform Architect, Support Account Manager|Total|
-|Customer Success Manager|Guided|
 
 **Note:** See [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-squad.md) for details for each Impact Squad member.
 
@@ -261,7 +256,9 @@ Instance Observer Seats
 +10
 
 </td></tr></tbody>
-</table>Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
+</table>**Note:** Portions of Impact may not be available to users in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, to self-hosted users, or in other restricted environments, or to managed service providers \(except for their internal use\).
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 **Related topics**  
 

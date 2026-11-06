@@ -1,20 +1,20 @@
 ---
 title: Major Incident Management process in Service Operations Workspace
-description: A major incident has a high impact and urgency that affects a large number of users and deprives the business of one or more crucial services. Given the urgency of the situation, a well-coordinated response process is required to accelerate the resolution and minimize the business impact.
+description: A major incident has a high impact and urgency that affects many users and deprives the business of one or more crucial services. Given the urgency of the situation, a well-coordinated response process is required to accelerate the resolution and minimize the business impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/mim-process-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Major Incident Management process in Service Operations Workspace
 
-A major incident has a high impact and urgency that affects a large number of users and deprives the business of one or more crucial services. Given the urgency of the situation, a well-coordinated response process is required to accelerate the resolution and minimize the business impact.
+A major incident has a high impact and urgency that affects many users and deprives the business of one or more crucial services. Given the urgency of the situation, a well-coordinated response process is required to accelerate the resolution and minimize the business impact.
 
 When responding to major incidents, an effective and efficient system is needed to minimize the high impact of service interruption. An efficient system involves the following actions:
 
@@ -23,7 +23,7 @@ When responding to major incidents, an effective and efficient system is needed 
 -   Communicate to the stakeholders about the service interruptions, degradations, resolutions, and other major incident updates.
 -   Collaborate with stakeholders to resolve the major incident and restore service.
 -   Create a problem record to analyze the root cause.
--   Generate a post incident report \(PIR\) to review each major incident once the service is restored.
+-   Generate a post incident report \(PIR\) to review each major incident after the service is restored.
 
 The Major Incident Management process can be classified in the following phases.
 
@@ -42,7 +42,7 @@ The Major Incident Management process can be classified in the following phases.
 
     You can define one or more communication plans based on the communication type, the priority of the incident, and the target audience of the major incident. Throughout the life cycle of the major incident, notifications and status updates are sent to the stakeholders to keep them informed and involved.
 
-    Along with communications, effective collaboration with IT teams and other business stakeholders is also important when resolving a major incident. You can use communication channels, such as Microsoft Teams conference calls, to collaborate and work toward issue resolution. The Incident record page in Service Operations Workspace provides various controls for collaboration. For more information, see [Collaborate with stakeholders during a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/collaborate-stakeholders-mim-sow.md).
+    Along with communications, effective collaboration with IT teams and other business stakeholders is also important when resolving a major incident. You can use communication channels, such as Microsoft Teams conference calls, to collaborate and work toward issue resolution. The incident record page in Service Operations Workspace provides various controls for collaboration. For more information, see [Collaborate with stakeholders during a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/collaborate-stakeholders-mim-sow.md).
 
 -   **Resolution**
 

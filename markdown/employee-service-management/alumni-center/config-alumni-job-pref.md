@@ -7,7 +7,7 @@ release: australia
 product: Alumni Center
 classification: alumni-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Alumni Center, HR Service Delivery, Employee Service Management]
 ---
@@ -19,8 +19,6 @@ Set the questions that the alumni can choose to receive tailored job recommendat
 ## Before you begin
 
 Role required: sn\_asc.admin
-
-**Note:** The Hiring core \(sn\_ta\_hiring\_core\) plugin is required to provide job recommendations to alumni.
 
 ## Procedure
 

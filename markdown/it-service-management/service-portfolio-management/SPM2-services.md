@@ -7,7 +7,7 @@ release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Service Portfolio Management, IT Service Management]
 ---
@@ -34,10 +34,10 @@ You can designate services as **Services I depend On** or **Services Dependent O
 
 You can add technical services as part of your service portfolio taxonomy. Even if you don't, you can still gain insight into these services by adding them as **Services I depend On** or **Services Dependent On Me** in the related list section of the Service form.
 
-Starting with the Australia release, technical services align with the Common Service Data Model \(CSDM\), version 5. With this alignment, technical services remain in the \[cmdb\_ci\_service\_technical\] table and are labeled in the user interface as Technology Management Service. Service offerings remain in the \[service\_offering\] table and are labeled Service Offering.
+Starting with the Brazil release, technical services align with the Common Service Data Model \(CSDM\), version 5. With this alignment, technical services remain in the \[cmdb\_ci\_service\_technical\] table and are labeled in the user interface as Technology Management Service. Service offerings remain in the \[service\_offering\] table and are labeled Service Offering.
 
-|Table name|Label in Xanadu and prior releases|Label in Australia and later releases|
-|----------|----------------------------------|-------------------------------------|
+|Table name|Label in Xanadu and prior releases|Label in Brazil and later releases|
+|----------|----------------------------------|----------------------------------|
 |\[cmdb\_ci\_service\_technical\]|Technical Service|Technology Management Service|
 
 To create or modify services, see [Create or modify Service Portfolio Management services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-portfolio-management/create-or-modify-SPM2-services.md).

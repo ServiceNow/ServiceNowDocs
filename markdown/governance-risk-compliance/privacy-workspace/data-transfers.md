@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [data transfer, hierarchy, transfer mechanism, custom relationship]
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]

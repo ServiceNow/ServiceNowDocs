@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/generate-kb-article-with.html
 release: australia
 topic_type: task
-last_updated: "2025-12-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [now assist]
-breadcrumb: [ServiceNow Otto context menu, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [ServiceNow Otto context menu, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Generate KB article with ServiceNow Otto context menu

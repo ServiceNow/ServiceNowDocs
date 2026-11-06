@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Orchestration ROI, Orchestration applications, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -107,7 +107,7 @@ Cost Management\[com.snc.cost\_management\]
 
 </td><td>
 
-Provides the labor rate cards Orchestration ROI uses to determine the savings for each automated task. See [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_CostManagement.md) for more information.
+Provides the labor rate cards Orchestration ROI uses to determine the savings for each automated task. See Cost Management for more information.
 
 </td></tr></tbody>
 </table>## Roles installed with Orchestration ROI

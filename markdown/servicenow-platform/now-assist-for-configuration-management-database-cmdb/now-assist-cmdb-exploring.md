@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [ServiceNow Otto for Configuration Management Database \(CMDB\), Con
 With the ServiceNow Otto for CMDB application, you can use Agentic AI to search the CMDB, summarize discovery, ownership and related information for a CI, and fix failed SGC import sets. You can also follow step-by-step guidance to help you remediate duplicate CIs, improve CMDB data accuracy, completeness, and health .
 
 ## ServiceNow Otto for CMDB agentic workflows
-
-ServiceNow Otto for CMDB provides the following abilities:
 
 -   **Create configuration item agentic workflow**
 
@@ -55,7 +53,7 @@ ServiceNow Otto for CMDB provides the following abilities:
 
     -   Review de-duplication tasks, create de-duplication templates, assign tasks to templates, and run the templates.
     -   Preview the results of applying a de-duplication template before you decide to apply it.
-    -   Identify the root cause of duplications so that you can review the groups of de-duplication tasks that share a common cause and possibly avoid the issue in the future.
+    -   Identify the root cause of duplications. When you review the groups of de-duplication tasks that share a common cause, you can possibly avoid the issue in the future.
     \[Omitted image "na-cmdb-mng-dupe-cis-example.png"\] Alt text: Selecting duplicate CIs to remediate.
 
     To learn more, see [Let ServiceNow Otto help you to manage duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-mng-dupe-cis-skill.md).

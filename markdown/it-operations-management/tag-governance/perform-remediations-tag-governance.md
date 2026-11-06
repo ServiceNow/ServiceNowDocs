@@ -7,7 +7,7 @@ release: australia
 product: Tag Governance
 classification: tag-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Preview audit reports for resources that tag policies identify as non-compliant.
 
 ## Before you begin
 
-Configure tag policies and remediation policies. See [Configure a tag policy for Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/configure-tag-governance-policy.md) and [Configure remediation policies on tag audit findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/configure-remediation-tag-governance-.md).
+Configure tag policies and remediation policies. See [Configure tag policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/configure-tag-governance-policy.md) and [Configure remediation policies for tag audit findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/configure-remediation-tag-governance-.md).
 
 **Note:** The update to cloud works only for AWS and Microsoft Azure Cloud resources for CMDB classes listed in the Tag Remediation form.
 
@@ -56,7 +56,7 @@ Based on the tag policies that you create, you can preview remediation flows and
 
 7.  Select the **Generate Keys** related link, if you have run the **Tag Key Policy**.
 
-    The **Generate Keys** related link appears only for the **Tag Key Policy** policy type. Because the policy specifies the expected tags, you can select the **Generate Keys** related link to generate the keys that you need for remediation instead of manually adding them in the Tag Remediation Keys related list.
+    The **Generate Keys** related link appears only for the **Tag Key Policy** policy type. Because the policy specifies the expected tags, select the **Generate Keys** related link to generate the keys needed for remediation. This avoids manually adding them in the Tag Remediation Keys related list.
 
 8.  Select the **Generate Key Values** related link, if you have run the **Tag Key &amp; Value Policy**.
 
@@ -69,5 +69,5 @@ Based on the tag policies that you create, you can preview remediation flows and
 
 ## Result
 
-Based on the tag audit result findings and the Tag Remediations Keys that you create, the remediation flow adds missing tags to the non-compliant CIs to achieve policy compliance.
+Based on the tag audit result findings and the Tag Remediations Keys that you create, the remediation flow adds missing tags to the non-compliant CIs. This achieves policy compliance.
 

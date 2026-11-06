@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/event-group-reference.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an event group for the scenario, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---

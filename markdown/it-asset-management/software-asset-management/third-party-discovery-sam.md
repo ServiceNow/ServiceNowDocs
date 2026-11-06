@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software asset connections
@@ -20,7 +20,7 @@ The discovery process is an integral part of the Software Asset Management appli
 
 The CMDB application enables other business applications to use the discovered information to support various business needs.
 
-\[Omitted image "mmasset0021840-third-party-sources.svg"\] Alt text: Third-party discovery sources
+\[Omitted image "third-party-sources.png"\] Alt text: Third-party discovery sources
 
 ServiceNow platform's identification and reconciliation engine \(IRE\) framework enables all third-party data integrations with the CMDB application.
 

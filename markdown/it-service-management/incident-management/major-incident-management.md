@@ -1,43 +1,43 @@
 ---
 title: Managing major incidents
-description: A major incident \(MI\) is an incident that results in significant disruption to the business. A major incident demands a response beyond the routine incident management process. Major incidents have a separate procedure with shorter timescales and higher priority, so that there is a faster resolution process for incidents with high business impact.
+description: A major incident \(MI\) significantly disrupts the business and requires a response beyond the routine incident management process. Major incidents follow a separate procedure with shorter timescales and higher priority to speed up resolution for incidents with high business impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/major-incident-management.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Incident Management, IT Service Management]
 ---
 
 # Managing major incidents
 
-A major incident \(MI\) is an incident that results in significant disruption to the business. A major incident demands a response beyond the routine incident management process. Major incidents have a separate procedure with shorter timescales and higher priority, so that there is a faster resolution process for incidents with high business impact.
+A major incident \(MI\) significantly disrupts the business and requires a response beyond the routine incident management process. Major incidents follow a separate procedure with shorter timescales and higher priority to speed up resolution for incidents with high business impact.
 
 \[Omitted video\] Description: Introduction to Major Incident Management
 
-The definition of what constitutes a major incident must be determined and agreed on. For example, a major incident can be created if a critical business service is impacted or if there is a service outage that affects many users.
+Your organization must define and agree on what constitutes a major incident. For example, a major incident can be created if a critical business service is impacted or if there is a service outage that affects many users.
 
-There are multiple ways to create a major incident candidate, such as the following:
+You can create a major incident candidate in the following ways:
 
--   Propose an incident as a major incident candidate by clicking **Propose Major Incident** from the context menu of the Incident form.
--   Create a new major incident candidate by clicking **Create Major Incident Candidate** from the left navigation pane.
+-   Propose an incident as a major incident candidate by selecting **Propose Major Incident** from the context menu of the Incident form. After incident is proposed, the major incident candidate can be promoted to a major incident.
+-   Create a major incident candidate by selecting **Create Major Incident Candidate** in the application navigator.
 -   Mark an incident as a major incident candidate based on the major incident trigger rules.
 
-**Note:** When a major incident is created from a major incident candidate, the new major incident is considered as a parent record for the current major incident candidate. In such case, the **Caller** and **Company** fields are optional.
+**Note:** When a major incident is created from a major incident candidate, the new major incident is the parent record of the major incident candidate. In this case, the **Caller** and **Company** fields are optional.
 
 As a major incident manager, you can do the following:
 
--   Promote a candidate to a major incident by clicking **Promote to Major Incident** from the context menu.
--   Create a new major incident by clicking **Create Major Incident** from the left navigation pane.
+-   Promote a candidate to a major incident by selecting **Promote to Major Incident** from the context menu.
+-   Create a major incident by selecting **Create Major Incident** in the application navigator.
 -   Promote an incident to a major incident without going through the proposal process.
 
-When responding to a major incident, some crucial actions involve finding the right resources, communicating updates to users and stakeholders, setting up conference calls to investigate and resolve the incident, and escalating the incident when required. Using [Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/tcm-landing-page.md), you can define communication plans that are associated with a major incident based on pre-defined conditions. Incident communication plans and related communication tasks are created for a major incident based on the communication plan definitions. Thereafter, tasks get executed as defined in the attached incident communication.
+When responding to a major incident, key actions include finding the correct resources, communicating updates to stakeholders, setting up conference calls, and escalating the incident when required. Using [Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/tcm-landing-page.md), you can define communication plans that are associated with a major incident based on predefined conditions. Incident communication plans and related communication tasks are created for a major incident based on the communication plan definitions. These tasks run as defined in the attached incident communication plan.
 
 -   **[Major Incident Management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/major-incident-management-process.md)**  
-A major incident is a highest-impact, highest-urgency incident that affects a large number of users, depriving the business of one or more crucial services. Given the urgency of the situation, a well-coordinated response process is required to accelerate the resolution and minimize the business impact.
+A major incident is a highest-impact, highest-urgency incident that affects many users, depriving the business of one or more crucial services. The urgency of the situation requires a well-coordinated response process to accelerate the resolution and minimize the business impact.
 -   **[Major Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/mim-plugins.md)**  
 You can activate the Major Incident Management plugins if you have the admin role.
 -   **[Quick start tests for Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/quick-start-tests-mim.md)**  
@@ -45,11 +45,11 @@ Validate that Major Incident Management still works after you make any configura
 -   **[Create trigger rules for major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/major-incident-trigger-rules.md)**  
 Create trigger rules to define the conditions under which a trigger action is executed. You can create major incident trigger rules to define the conditions under which an incident is automatically considered as a major incident candidate.
 -   **[Working on major incident management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/work-on-mim.md)**  
-The section covers topics that help you with a variety of technical concepts related to major incident management such as the different ways to create a major incident, ways to reject a major incident candidate, demote a major incident, or close a major incident.
+Major incident management includes creating major incidents in different ways, rejecting major incident candidates, and demoting or closing major incidents.
 -   **[Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/major-incident-workbench.md)**  
-The major incident workbench is a single pane view designed for major incident managers, communication managers, and resolver groups. The workbench helps to manage major incidents by aggregating and providing actionable information.
+The major incident workbench is a single-pane view for major incident managers, communication managers, and resolver groups. It aggregates actionable information to help these users manage major incidents.
 -   **[Legacy: Major incident overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/major-incident-overview.md)**  
-Major Incident Overview module provides two versions of the Performance Analytics \(PA\) Dashboard to review major incident information at a glance.
+The Major Incident Overview module provides two versions of the Performance Analytics \(PA\) dashboard for reviewing major incident information at a glance.
 
 **Parent Topic:**[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/c_IncidentManagement.md)
 

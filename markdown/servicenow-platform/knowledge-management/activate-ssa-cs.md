@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Self-Service Analytics, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -43,7 +43,7 @@ Subscriptions and Activity Feed Framework\[com.snc.activity\_subscriptions\]
 Provides a generic set of artifacts to handle subscriptions for any defined subscribable object. Any entity can be defined as a subscribable object and a set of subscribers can subscribe to the objects. When a event occurs related to the subscribable object, activities can be tracked and subscribers can be notified.
 
 </td></tr></tbody>
-</table>**Note:** The Self-Service Analytics Core plugin is also installed when you activate the Platform Analytics Solution for Self-Service Analytics for Customer Service. For more information, see [Activate the Platform Analytics Solution for Self-Service Analytics for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ssa-solution-install-init.md).
+</table>**Note:** The Self-Service Analytics Core plugin is also installed when you activate the Platform Analytics Solution for Self-Service Analytics for Customer Service. For more information, see Activate the Platform Analytics Solution for Self-Service Analytics for Customer Service.
 
 ## Procedure
 

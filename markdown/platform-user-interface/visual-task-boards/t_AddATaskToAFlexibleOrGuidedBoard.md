@@ -7,9 +7,9 @@ release: australia
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Add a task to a flexible or guided Visual Task Board
@@ -22,9 +22,9 @@ Role required: none
 
 ## Procedure
 
-1.  In a lane header, click the lane menu \(\[Omitted image "IconMoreOptions.png"\] Alt text: Lane menu icon\) and select **Add Card**.
+1.  In a lane header, click the lane menu \(\[Omitted image "IconMoreOptions.png"\] Alt text: Lane menu icon\) and select **Add Task**.
 
-    Alternatively, click **Add Card** at the bottom of a lane.
+    Alternatively, click **Add Task** at the bottom of a lane.
 
     Fields are populated based on any filter conditions for the board and, for guided boards, the lane you add the card to.
 

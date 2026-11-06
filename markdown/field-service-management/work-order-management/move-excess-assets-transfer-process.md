@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -34,15 +34,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Move the part to be returned to the stockroom by doing one of the following actions.
 
-<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d110762e109">
+<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d113381e109">
 
 Option
 
-</th><th align="left" id="d110762e112">
+</th><th align="left" id="d113381e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d110762e118">
+</th></tr></thead><tbody><tr><td id="d113381e118">
 
 **Drop off**
 
@@ -53,7 +53,7 @@ Description
 3.  Select the quantity that you want to return.
 
 
-</td></tr><tr><td id="d110762e142">
+</td></tr><tr><td id="d113381e142">
 
 **View part details and then drop off**
 

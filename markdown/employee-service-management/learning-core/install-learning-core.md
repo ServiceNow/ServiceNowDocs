@@ -9,7 +9,7 @@ classification: learning-core
 topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 2
-breadcrumb: [Configuring Learning Core, Learning Core, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
 # Install Learning Core

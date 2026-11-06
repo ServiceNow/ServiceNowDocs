@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/edit-glossary-spreadsheet.html
 release: australia
 topic_type: task
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [glossary spreadsheet edit bulk operations data catalog XLSX Excel]
 breadcrumb: [Managing glossary terms, Data Catalog, Workflow Data Fabric]

@@ -1,6 +1,6 @@
 ---
-title: Create a service request record using Service Request Playbook
-description: Create a service request record in the Public Sector Digital Services application by using a Service Request Playbook activity. By using a playbook, you can have an efficient, streamlined way to create and resolve a service request.
+title: Create a service request record using Service Request Administration
+description: Create a service request record in the Public Sector Digital Services application by using a Service Request Administration activity. By using a playbook, you can have an efficient, streamlined way to create and resolve a service request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-playbook-create-record.html
 release: australia
@@ -10,13 +10,13 @@ reading_time_minutes: 1
 breadcrumb: [Using Service Request Playbooks, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Create a service request record using Service Request Playbook
+# Create a service request record using Service Request Administration
 
-Create a service request record in the Public Sector Digital Services application by using a Service Request Playbook activity. By using a playbook, you can have an efficient, streamlined way to create and resolve a service request.
+Create a service request record in the Public Sector Digital Services application by using a Service Request Administration activity. By using a playbook, you can have an efficient, streamlined way to create and resolve a service request.
 
 ## Before you begin
 
-**Note:** Before starting this procedure, verify that the Service Request Playbook application, which is separate from Public Sector Digital Services Core, has been installed and enabled in the CRM Workspace. For instructions, see [Install Service Request Playbook for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/install-psds-service-request-playbook.md).
+**Note:** Before starting this procedure, verify that the Service Request Administration application, which is separate from Public Sector Digital Services Core, has been installed and enabled in the Public Sector Workspace. For instructions, see [Install Service Request Administration for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/install-psds-service-request-playbook.md).
 
 Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agency\_agent, sn\_gsm.relationship\_agent, and sn\_gsm.service\_manager
 
@@ -26,11 +26,11 @@ If a playbook is configured to use the record generator feature, you can create 
 
 ## Procedure
 
-1.  In the CRM Workspace, navigate to **Lists** &gt; **Service Requests** &gt; **All**.
+1.  In the Public Sector Workspace, navigate to **Lists** &gt; **Service Requests** &gt; **All**.
 
 2.  Select **New**.
 
-    The Service Request Playbook opens and initiates the first activity for collecting the request details, which is the Intake stage.
+    The Service Request Administration opens and initiates the first activity for collecting the request details, which is the Intake stage.
 
 3.  On each activity card, fill in the information.
 

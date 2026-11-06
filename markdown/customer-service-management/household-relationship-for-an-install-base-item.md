@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/household-relationship-for-an-install-base-item.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create relationships, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---

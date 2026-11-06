@@ -1,6 +1,6 @@
 ---
 title: Set up the Trello spoke
-description: Integrate the ServiceNow instance and Trello by creating an API key in Trello to authenticate ServiceNow requests.Generate a Trello API key and token to get access to the Trello portal.Set up your ServiceNow instance to add the Trello API key and API token.
+description: Integrate the ServiceNow instance and Trello by creating an API key in Trello to authenticate ServiceNow requests.Generate a Trello API key and token to get access to the Trello portal.Set up your ServiceNow instance to add the Trello API key and API token.Configure a connection to your Trello account. The Trello spoke connection and credential aliases use these connections to perform actions in Trello.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/trello-setup.html
 release: australia
@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Trello Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -88,4 +88,51 @@ ServiceNow Role required: admin
 
 7.  Select **Configure Connection**.
 
+
+## Configure a connection for the Trello spoke
+
+Configure a connection to your Trello account. The Trello spoke connection and credential aliases use these connections to perform actions in Trello.
+
+### Before you begin
+
+Role required: admin.
+
+### Procedure
+
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+
+2.  Click the **Integrations** tab.
+
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
+
+4.  Locate the alias for **Trello Alias** and click **View Details**.
+
+    -   To configure the default connection and credential alias record that is shipped along with the Trello spoke, click **View Details**.
+
+        \[Omitted image "trello-connection.png"\] Alt text: Connection for the Trello spoke with View Details highlighted.
+
+    -   To manage more than one Trello spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+
+    \[Omitted image "trello-connection-conf.png"\] Alt text: Initial connection configuration with Configure highlighted.
+
+5.  On the form, fill in these fields:
+
+    |Field|Value required|
+    |-----|--------------|
+    |Connection Information|
+    |Connection Name|Name to identify the Trello connection record. Default value: `Trello Connection`.|
+    |Connection URL|URL of the Trello API: `https://api.trello.com/`.|
+    |Credential Information|
+    |API Key|API key generated in your Trello account.|
+    |API Token|API token generated in your Trello account.|
+
+    \[Omitted image "trello-conf-temp.png"\] Alt text: Configure a connection for the Trello spoke.
+
+6.  Click **Save**.
+
+
+### Result
+
+The Trello spoke connection is configured and ready to be used.
 

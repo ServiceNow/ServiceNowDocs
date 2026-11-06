@@ -7,9 +7,9 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit Plan Overview, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit plan overview, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Approve a plan

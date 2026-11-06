@@ -7,7 +7,7 @@ release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-11-02"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
@@ -45,9 +45,28 @@ You can automatically create change requests from your Continuous Integration \(
  
 
 </td></tr></tbody>
-</table>## Troubleshoot and get help
+</table>## Helpful resources
 
--   [Ask or answer questions in the ServiceNow Community](https://community.servicenow.com/community)
--   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
--   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
+Here are some additional ServiceNow resources that can help you:
+
+-   **\[Omitted image "dcx-icon-docs.svg"\] Alt text: Release Notes**
+
+    Learn more about what's new and changed. See the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/devops-change-velocity-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/devops-change-velocity-rn.md).
+
+-   **\[Omitted image "dcx-icon-learning.svg"\] Alt text: ServiceNow University**
+
+    Access real-time courses, self-paced training, and career resources, such as [DevOps Change Velocity Fundamentals](https://learning.servicenow.com/lxp/en/it-service-management/devops-change-velocity-fundamentals?id=learning_course_prev&course_id=bf5ce59b473fae5419dfe23c326d439f&s=1&ssa=3) and more, from [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
+
+-   **\[Omitted image "dcx-icon.svg"\] Alt text: Best Practices**
+
+    Explore the Best Practices content library to access resources and proven guidance that help accelerate the implementation and deployment of DevOps Change Velocity features at [IT Service Management Best Practices](https://mynow.servicenow.com/now/best-practices/collections/it-service-management-best-practices).
+
+-   **\[Omitted image "icon-youtube.svg"\] Alt text: YouTube**
+
+    Learn more about the value that you can add to your business with DevOps Change Velocity. Watch [this video](https://www.youtube.com/watch?v=y9LbuiBvVNc&list=PLkGSnjw5y2U6E4IQ1KXexWFZZNcCtT6G2) on YouTube.
+
+-   **\[Omitted image "dcx-icon-community.svg"\] Alt text: ServiceNow Community**
+
+    Connect with other DevOps Change Velocity users at [ServiceNow Community](https://community.servicenow.com/community).
+
 

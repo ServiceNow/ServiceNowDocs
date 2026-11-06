@@ -7,7 +7,7 @@ release: australia
 product: Workplace Concierge
 classification: workplace-concierge
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set Employee Presence, Workplace Concierge, Workplace Service Delivery, Employee Service Management]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 2.  On the Presence dashboard page, select **Manage your settings** to open the Add Routine window.
 
-3.  In the Collaborators section, under Selected Collaborators, remove a collaborator by selecting the Remove collaborator icon \(\[Omitted image "remove-assignment.png"\] Alt text: Remove collaborator icon.\).
+3.  In the Collaborators section, under Selected Collaborators, remove a collaborator by selecting the Remove collaborator icon \(\[Omitted image "remove-assignment.png"\] Alt text: remove icon.\).
 
 4.  In the confirmation window, select **Yes, remove**.
 

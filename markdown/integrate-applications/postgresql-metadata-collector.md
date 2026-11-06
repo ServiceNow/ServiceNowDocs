@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/postgresql-metadata-collector.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---

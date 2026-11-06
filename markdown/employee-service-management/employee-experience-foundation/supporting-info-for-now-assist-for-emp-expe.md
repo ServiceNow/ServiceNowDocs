@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Explore, ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
 ---
 
 # Supporting information for ServiceNow Otto for Employee Experience
@@ -39,9 +39,4 @@ This store app has the following dependencies:
 For more information, see [Configure ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/configure-nowassist-emp-exp.md).
 
 **Parent Topic:**[Explore ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/explore-now-assist-for-emp-exp.md)
-
-**Related topics**  
-
-
-[Activate ServiceNow Otto for Employee Experience skills]()
 

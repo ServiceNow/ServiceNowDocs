@@ -7,7 +7,7 @@ release: australia
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Journey designer plan configuration owners, Plan configuration components, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -45,15 +45,15 @@ Journey designer plan configuration owners can change or create task templates f
 
 4.  Add or update a task template.
 
-<table id="choicetable_ich_2cc_dwb"><thead><tr><th align="left" id="d740753e111">
+<table id="choicetable_ich_2cc_dwb"><thead><tr><th align="left" id="d737988e111">
 
 Options
 
-</th><th align="left" id="d740753e114">
+</th><th align="left" id="d737988e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d740753e120">
+</th></tr></thead><tbody><tr><td id="d737988e120">
 
 **Add task template**
 
@@ -66,7 +66,7 @@ Description
 5.  Select **Add Templates**.
 
 
-</td></tr><tr><td id="d740753e165">
+</td></tr><tr><td id="d737988e165">
 
 **Update task template**
 

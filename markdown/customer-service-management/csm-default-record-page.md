@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-default-record-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ The CSM default record page includes the basic structure for a record page, incl
 
 \[Omitted image "csm-default-record-template.png"\] Alt text: The CSM default record page provides agents with an overview of case record details and the activity stream. It also provides access to multiple features in the contextual side panel.
 
-The CSM default record page is included with the CSM/FSM Configurable Workspace experience.
+The CSM default record page is included with the CRM Workspace experience.
 
 ## Activity stream component
 
@@ -62,7 +62,12 @@ For more information about this feature, see [User presence](https://raw.githubu
 
 The CSM default record page includes the Email Templates feature. CRM Workspace pages that use the CSM default record page include the Email Templates tab in the contextual side panel.
 
-These templates contain default values for fields that agents can easily add to email messages in the Compose panel on case records. These default values can include the recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the subject of the email, and text to include in the message body.
+These templates contain default values for fields that agents can easily add to email messages in the Compose panel on case records. These default values can include:
+
+-   The recipients \(email addresses in the To, Cc, and Bcc fields\)
+-   The sender
+-   The subject of the email
+-   Text to include in the message body
 
 Users with the system administrator role can configure email templates by navigating to **All** &gt; **Email Client** &gt; **Email Client Templates** and selecting **New**. For more information, see [Create an email client template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailClientTemplate.md).
 
@@ -79,7 +84,7 @@ For more information, see [Compose an email from an email template](https://raw.
 Customer service agents can create emails from case records in the following ways:
 
 -   By selecting **Email** at the top of the activity stream to open the Compose Email component.
--   By selecting the More actions \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: agent workspace more actions menu\) menu in the case activity bar and then selecting **Compose email** to open a draft email in a new tab.
+-   By selecting the More actions \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: workspace more actions menu\) menu in the case activity bar and then selecting **Compose email** to open a draft email in a new tab.
 
 When creating emails, agents can apply templates to add content to the draft emails, such as the subject line and message body. To apply a template:
 
@@ -171,13 +176,11 @@ Requests
 </td></tr></tbody>
 </table>    For all the other source types, default guidance is supported. The Default guidance for search results is a guidance that can be used for any search sources that don't have mapped guidances. For more information on default guidance, see [Default guidance for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-guidances-default-guidance-search.md).
 
-    When inserting a knowledge article link, the workspace automatically switches to the relevant tab based on the action selected. For example, selecting **Add a link in work note** switches focus to the Work notes tab.
-
     For more information on how to avail the AI search feature in Recommended Actions, see [Enable AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/migrate-ra-agent-assist.md).
 
     For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba-use-ai-search.md).
 
-    **Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+    **Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CRM Workspace application.
 
 -   Suggested Actions tab: This tab displays relevant actions to agents based on a context of a record or recommend a value for a field. For more information on how to configure contexts to display relevant actions for the agent, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-nba.md).
 

@@ -7,10 +7,9 @@ release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [App Engine Management Center, AEMC, Custom app governance, Governing app development, Deploy applications]
-breadcrumb: [Governing app development, Building applications]
+breadcrumb: [Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # App Engine Management Center
@@ -56,4 +55,13 @@ The App Engine Management Center \(AEMC\) is a comprehensive tool designed for I
 
     [Govern low-code app development at scale with App Management Center](https://www.servicenow.com/demo/demonow-detail.html?videoid=govern-lowcode-app-development)
 
+
+-   **[Exploring the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/exploring-aemc.md)**  
+Learn about how the App Engine Management Center \(AEMC\) can help to centralize and streamline your application development and governance at scale.
+-   **[Configuring AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/configuring-aemc.md)**  
+Learn about the configuration process for AEMC.
+-   **[Using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/using-aemc.md)**  
+AEMC enables you to manage app development and deployments, all in one centralized location. Learn about how you can use AEMC to govern your organization's app development.
+
+**Parent Topic:**[Run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/run-ai-workflow-factory-prime.md)
 

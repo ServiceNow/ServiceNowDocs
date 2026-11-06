@@ -7,7 +7,7 @@ release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 9
 breadcrumb: [Life-cycle management, Explore, Digital Portfolio Management, IT Service Management]
 ---
@@ -24,11 +24,11 @@ When viewing details of a service or service offering that's retired, an alert b
 
 **Important:** If your organization transitioned from the traditional Service Portfolio Management fields to the CSDM life-cycle fields, then the field names differ from this document. For more information, see [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-csdm.md).
 
-**Important:** For the Australia release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. Prior to the Australia release, the labels are technology management service and technology management service Offering.
+**Important:** For the Brazil release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. Prior to the Brazil release, the labels are technology management service and technology management service Offering.
 
 Services and service offerings display information in DPM via the Plan, Build, Run, and Info tabs. If your organization opts to inactivate one or more of the tabs, then the inactivated tabs aren't visible to you. For example, if your organization doesn't work on planning activities and they inactivate the Plan tab, then the Plan tab isn't visible for you. For more information on how Admins can hide or show tabs, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
 
-Keep in mind that what you are able to see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-related-products.md) for the required installations and plugins to see each data element.
+Keep in mind that what you're able to see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-related-products.md) for the required installations and plugins to see each data element.
 
 **Note:** The Strategic Planning Workspace \(formerly known as Alignment Planner Workspace\) is a pro version. The Portfolio Planning Workspace is available for users with a Strategic Portfolio Management \(SPM\) standard license.
 

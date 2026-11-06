@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Data Foundations settings tab, Data Manager ownership policies, reconciliation rules for attribute ownership, CI class manager configuration, principal class settings alignment]
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -39,7 +39,7 @@ You need the sn\_cmdb\_admin role to access the CMDB success advisor for Data Fo
 
 The sn\_cmdb\_user role also provides read-only access to CMDB success advisor pages and data, including the AI-generated summary of the dashboard.
 
-To manage business rules, change the application scope from CMDB success advisor to Global in the [application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+To manage business rules, change the application scope from CMDB success advisor to Global in the application picker.
 
 ## Use cases
 

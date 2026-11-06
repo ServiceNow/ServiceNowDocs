@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/saved-views-using.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile saved views, Using the mobile apps, Mobile Platform]
 ---
@@ -34,15 +34,15 @@ Role required: user
 
 5.  Deselect a saved view either from a bookmarked screen or from the Saved items list.
 
-<table id="choicetable_wnc_2b2_4pb"><thead><tr><th align="left" id="d44188e119">
+<table id="choicetable_wnc_2b2_4pb"><thead><tr><th align="left" id="d44398e119">
 
 Option
 
-</th><th align="left" id="d44188e122">
+</th><th align="left" id="d44398e122">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d44188e128">
+</th></tr></thead><tbody><tr><td id="d44398e128">
 
 **From a bookmarked screen**
 
@@ -54,7 +54,7 @@ Procedure
 
 The icon's appearance changes to an unfilled state \(\[Omitted image "saved-view-empty.png"\] Alt text: Saved view icon.\), indicating that the screen is no longer saved.
 
-</td></tr><tr><td id="d44188e172">
+</td></tr><tr><td id="d44398e172">
 
 **From the Saved items list**
 

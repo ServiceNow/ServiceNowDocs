@@ -7,9 +7,9 @@ release: australia
 product: Self-service
 classification: self-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Delegation, Self-Service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service Delegation, Exploring Self-service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Delegate approvals and tasks to another user
@@ -26,7 +26,7 @@ Ensure that the Delegates related list displays on the form. If the Delegates re
 
     \[Omitted image "Additional\_actions\_menu.jpg"\] Alt text: The Additional actions menu highlighted
 
--   Configure the form to add the Delegates related list. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+-   Configure the form to add the Delegates related list. For more information, see .
 
 ## Procedure
 

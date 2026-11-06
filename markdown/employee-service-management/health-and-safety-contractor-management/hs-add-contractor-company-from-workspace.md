@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage contractors, Health and Safety Contractor Management, Health and Safety, Employee Service Management]
 ---

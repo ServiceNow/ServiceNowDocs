@@ -1,20 +1,20 @@
 ---
-title: Clock-in and clock-out your work shift in Service Operations Workspace
-description: Clock in and clock out your work shifts using Service Operations Workspace. You can track details, such as time attendance and time worked summary to know how close you are adhering to your schedules.
+title: Clock in and clock out of your work shift in Service Operations Workspace
+description: Clock in and clock out your work shifts using Service Operations Workspace. You can track details, such as time attendance and time worked summary to see how closely you adhere to your schedules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/clockin-clock-out-shift-sow-wfo-itsm.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace - Scheduling, Workforce Optimization for ITSM in the Service Operations Workspace, Optimizing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Clock-in and clock-out your work shift in Service Operations Workspace
+# Clock in and clock out of your work shift in Service Operations Workspace
 
-Clock in and clock out your work shifts using Service Operations Workspace. You can track details, such as time attendance and time worked summary to know how close you are adhering to your schedules.
+Clock in and clock out your work shifts using Service Operations Workspace. You can track details, such as time attendance and time worked summary to see how closely you adhere to your schedules.
 
 ## Before you begin
 
@@ -22,16 +22,16 @@ Role required: sn\_shift\_planning.agent
 
 ## About this task
 
-The clock-in event is generated when you either login or set your status as **Available** in Service Operations Workspace. The clock-out event is generated when you either logout from Service Operations Workspace or set your status as **Offline** or **Break**.
+The clock-in event is generated when you either log in or set your status as **Available** in Service Operations Workspace. The clock-out event is generated when you either log out of Service Operations Workspace or set your status as **Offline** or **Break**.
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Click the Inbox icon \(\[Omitted image "inbox-icon.jpg"\] Alt text: Inbox icon\).
+2.  Select the Inbox icon \(\[Omitted image "inbox-icon.jpg"\] Alt text:\).
 
-    -   To clock-in your shift, set your status to **Available**.
-    -   To clock-out from your shift, set your status to **Offline** or **Break**.
+    -   To clock in to your shift, set your status to **Available**.
+    -   To clock out of your shift, set your status to **Offline** or **Break**.
 
 ## Result
 

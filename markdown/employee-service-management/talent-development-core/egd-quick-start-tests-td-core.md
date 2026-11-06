@@ -7,7 +7,7 @@ release: australia
 product: Talent Development Core
 classification: talent-development-core
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Installing and configuring the Talent Development Core app, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Validate that these Talent Development Core features still works after you make 
 
 **Danger**
 
-By default, the system property that is used to run automated tests is turned off to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-enable-tests.md).
+By default, the system property that is used to run automated tests is disabled to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-enable-tests.md).
 
 All test suites and tests should pass on a default implementation. To validate a custom implementation, copy the automated tests and configure them for your customizations.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/using-the-cti.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CTI demo implementation, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -45,7 +45,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 1.  Select one of the following options.
 
-<table id="choicetable_jqk_nzc_bx"><tbody><tr><td id="d170065e169">
+<table id="choicetable_jqk_nzc_bx"><tbody><tr><td id="d173061e169">
 
 **Click the phone icon in the banner frame.**
 
@@ -53,7 +53,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 Enter the phone number in the **Number** field and click **Call**.
 
-</td></tr><tr><td id="d170065e184">
+</td></tr><tr><td id="d173061e184">
 
 **Click the phone icon next to the __Contact__ or __Consumer__ fields on the Case form.**
 
@@ -100,7 +100,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 2.  Select your availability.
 
-<table id="choicetable_dsw_qcw_ht"><tbody><tr><td id="d170065e363">
+<table id="choicetable_dsw_qcw_ht"><tbody><tr><td id="d173061e363">
 
 **Available**
 
@@ -108,7 +108,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 The agent is available to take a call.
 
-</td></tr><tr><td id="d170065e372">
+</td></tr><tr><td id="d173061e372">
 
 **Not Available**
 
@@ -116,7 +116,7 @@ The agent is available to take a call.
 
 The agent is not available to take a call.
 
-</td></tr><tr><td id="d170065e381">
+</td></tr><tr><td id="d173061e381">
 
 **Busy**
 
@@ -124,7 +124,7 @@ The agent is not available to take a call.
 
 The agent is currently on a call with a customer.
 
-</td></tr><tr><td id="d170065e390">
+</td></tr><tr><td id="d173061e390">
 
 **Wrap Up**
 

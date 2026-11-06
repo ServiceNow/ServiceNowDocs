@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/explore-advanced-approval-for-sales.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [explore]
-breadcrumb: [Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Advanced Approval Management

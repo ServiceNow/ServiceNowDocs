@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 22
 breadcrumb: [Updated hardening settings, Baseline versions, Hardening settings, Platform Security]
 ---
@@ -35,7 +35,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Prevent Empty ACL Creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-prevent-empty-acl-creation.md)
+[Prevent empty ACL creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-prevent-empty-acl-creation.md)
 
 </td><td>
 
@@ -96,7 +96,7 @@ Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Restrict oauth parameters to POST body \[New in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-oauth-parameters-to-post-body.md)
+[Restrict oauth parameters to POST body](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-oauth-parameters-to-post-body.md)
 
 </td><td>
 
@@ -148,7 +148,7 @@ Values other than `http://java.sun.com/j2ee/dtds/` can be included in the in the
 
 </td></tr><tr><td>
 
-[Restrict email domains for external user registration \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-external-user-registration-email-domain-allowlist.md)
+[Restrict email domains for external user registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-external-user-registration-email-domain-allowlist.md)
 
 </td><td>
 
@@ -156,7 +156,7 @@ Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.md)
+[Validate file MIME type in AttachmentCreator web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.md)
 
 </td><td>
 
@@ -173,7 +173,7 @@ It is a security best practice to validate file uploads at least with MIME type 
 
 </td></tr><tr><td>
 
-[Reduce the Scope of the IP Allow List for an Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)
+[Reduce the scope of the IP allow List for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)
 
 </td><td>
 
@@ -208,7 +208,7 @@ Set the **glide.stax.allow\_entity\_resolution** system property to **false** to
 
 </td></tr><tr><td>
 
-[Deny by default with empty ACLs \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-security-manager-default-deny.md)
+[Deny by default with empty ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-security-manager-default-deny.md)
 
 </td><td>
 
@@ -248,7 +248,7 @@ Restriction should be applied for unauthenticated users as some attachments migh
 
 </td></tr><tr><td>
 
-[Disable embedded HTML code \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-allow-embedded-html-code.md)
+
 
 </td><td>
 
@@ -286,7 +286,7 @@ Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Escape Excel formulas \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-escape-excel-formula.md)
+[Escape Excel formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-escape-excel-formula.md)
 
 </td><td>
 
@@ -302,7 +302,7 @@ Set the **glide.export.escape\_formulas** system property to **true** to escape 
 
 </td></tr><tr><td>
 
-[Restrict JSONP Requests to Trusted URLs \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-jsonp-requests-to-trusted-urls.md)
+[Restrict JSONP requests to trusted URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-jsonp-requests-to-trusted-urls.md)
 
 </td><td>
 
@@ -385,7 +385,7 @@ Ensure that the **SNC User Lockout Check with Auto Unlock** script action \(foun
 
 </td></tr><tr><td>
 
-Enable updated version of MultiSSO plugin
+
 
 </td><td>
 

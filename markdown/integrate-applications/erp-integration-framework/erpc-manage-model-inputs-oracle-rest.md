@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-10-22"
 reading_time_minutes: 4
 breadcrumb: [Connecting to Oracle EBS, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -92,7 +92,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
         The system adds field information to **Data type**, **Required**, **Mapping type**, and **Mapped field** automatically.
 
-        The **Data type** field contains a variety of types including string, integer, array, and Boolean. For general information, see .
+        The **Data type** field contains a variety of types including string, integer, array, and Boolean. For general information, see [Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
 
 19. Select **Save**.
 

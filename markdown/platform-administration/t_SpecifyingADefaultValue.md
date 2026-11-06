@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_SpecifyingADefaultValue.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customize, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -43,7 +43,7 @@ Review the following examples about specifying default field values.
 
 Here is an example that sets a default value for the **Priority** field.
 
-\[Omitted image "DefaultValueConstant.png"\] Alt text: The dictionary entry for the Priority field has a default value of 4.
+\[Omitted image "DefaultValueConstant.png"\] Alt text:
 
 ### Javascript default values
 

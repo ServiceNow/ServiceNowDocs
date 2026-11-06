@@ -1,37 +1,44 @@
 ---
-title: Publish test definitions
-description: Publish the test definitions to ensure that agents only see the approved versions of test definitions for execution. This also helps maintain consistency and control over both current and future test versions.
+title: Publish a test definition
+description: Publish a test definition in the Service Test Management application so that test runs can reference it and your teams see only approved tests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/publish-test-specification-spm.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-23"
 reading_time_minutes: 1
-breadcrumb: [Setting up test definitions, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+keywords: [publish test definition, test definition state]
+breadcrumb: [Setting up test definitions, Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Publish test definitions
+# Publish a test definition
 
-Publish the test definitions to ensure that agents only see the approved versions of test definitions for execution. This also helps maintain consistency and control over both current and future test versions.
+Publish a test definition in the Service Test Management application so that test runs can reference it and your teams see only approved tests.
 
 ## Before you begin
 
-You must ensure that the characteristic and its options are added to the test definition for successful publishing and operation of the tests.
+The test definition must be in the Draft state.
 
-Role required: admin
+Role required: sn\_st\_mgmt.test\_def\_manager
+
+## About this task
+
+You can publish a test definition that has no test measure definitions.
+
+With the Product Model plugin active, the system also validates the characteristics of the test definition. A characteristic with options requires a unique, valid option. A characteristic without options must have no option set. See [Test Characteristic form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/test-characteristic-fields.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Service Test Management** &gt; **Test Definitions** &gt; **All**.
 
-2.  Select the test definition that you want to publish.
+2.  Select the draft test definition that you want to publish.
 
 3.  Select **Publish**.
-
-    **Note:** After you publish a test definition, you can't change or delete it.
 
 
 ## Result
 
-The test definition is published and its state changes from Draft to Published.
+The state of the test definition changes from Draft to Published, and the definition is locked. You can't change the definition or its related records while it's published.
+
+To change a published test definition, copy it and edit the draft copy. See [Copy a test definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/copy-test-definition.md). For more information about the test definition states, see [Test definitions in Service Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/test-definition-stm.md).
 

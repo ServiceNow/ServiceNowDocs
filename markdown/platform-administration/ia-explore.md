@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-explore.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
@@ -31,12 +31,6 @@ Installing ServiceNow Otto for Setup is the first step to experience automatic p
 Zero touch install automatically installs ServiceNow Otto for Setup along with selected applications and plugins for net new ServiceNow customers in supported non‑production instances, displays installation status, and enables users to begin configuration without manual setup. A contextual banner appears during initial onboarding to help you get started and you can dismiss it when you no longer need it.
 
 \[Omitted image "ia-pre-install-netnew-cust.png"\] Alt text: Screenshot showing the banner and pre-install of ServiceNow Otto for Setup
-
-Admin Home displays the installation status for each product to clearly indicate readiness and required action. Each product shows one of three states to help you understand the current state and determine the next step at a glance.
-
--   Installation in progress: Indicates when the system is preparing the product in the background
--   Ready to configure: Indicates when installation is complete and you can start the setup process
--   Ready to install: when the product is not yet installed or installation did not complete successfully
 
 The ServiceNow Otto for Setup capability helps you with the following:
 

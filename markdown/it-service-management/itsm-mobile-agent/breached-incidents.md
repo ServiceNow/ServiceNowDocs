@@ -1,23 +1,23 @@
 ---
-title: Breached Incidents
-description: View a list of all the breached incidents of your group and take appropriate action on these incidents. Breached incidents are the incident for which the Service Level Agreement \(SLA\) has exceeded the due date.
+title: Breached incidents
+description: Breached incidents are incidents whose service level agreement \(SLA\) has passed its due date. View the breached incidents for your group and take action on them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/breached-incidents.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing incidents and tasks using My Work applet, ITSM Mobile Agent, IT Service Management]
+breadcrumb: [Managing incidents and tasks using the My Work applet, ITSM Mobile Agent, IT Service Management]
 ---
 
-# Breached Incidents
+# Breached incidents
 
-View a list of all the breached incidents of your group and take appropriate action on these incidents. Breached incidents are the incident for which the Service Level Agreement \(SLA\) has exceeded the due date.
+Breached incidents are incidents whose service level agreement \(SLA\) has passed its due date. View the breached incidents for your group and take action on them.
 
 -   **[Process a breached incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mobile-agent/process-breached-incident.md)**  
-View and manage the breached incident from the mobile.
+View and manage breached incidents from your mobile device.
 
-**Parent Topic:**[Managing incidents and tasks using My Work applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mobile-agent/my-work-application.md)
+**Parent Topic:**[Managing incidents and tasks using the My Work applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mobile-agent/my-work-application.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Share your ideas and experience by creating a knowledge article. Review and prov
 Knowledge contributors can create and edit knowledge articles within a knowledge base to share information across your organization.
 -   **[Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/edit-knowledge-article.md)**  
 Edit knowledge articles within a knowledge base to update information shared across your organization.
--   **[Map related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/map-related-articles.md)**  
+-   **[Map related articles]()**  
 Discover similar information across articles on a topic while viewing an article. You can manually map related articles or have the application automatically present related articles using machine learning \(ML\) algorithms.
 -   **[Map catalog items related to an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/map-related-items.md)**  
 Manually map catalog items related to a knowledge article to enable employees to request the related product or service.
@@ -30,7 +30,7 @@ Set a specific time and day for a knowledge article to be published automaticall
 Recall an article that is being reviewed to make additional changes.
 -   **[Approve an article that is being reviewed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/approve-article-in-review.md)**  
 Approve an article that is being reviewed and create a new published version.
--   **[Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/c_RetiredKnowledgeArticles.md)**  
+-   **[Retire a knowledge article]()**  
 Initiate the retirement workflow to retire a knowledge article. Knowledge base owners and managers can view articles after they are retired but cannot search for retired articles on the Knowledge homepage and portal.
 -   **[Republish a retired article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/republish-retired-article.md)**  
 Instantly republish a retired article.

@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Capacity Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -33,15 +33,15 @@ Role required: sn\_align\_ws.spw\_capacity\_user
 
 3.  Use one the following options to view and regenerate the capacity details.
 
-<table id="choicetable_gk4_244_byb"><thead><tr><th align="left" id="d181575e122">
+<table id="choicetable_gk4_244_byb"><thead><tr><th align="left" id="d187730e122">
 
 Choice
 
-</th><th align="left" id="d181575e125">
+</th><th align="left" id="d187730e125">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d181575e131">
+</th></tr></thead><tbody><tr><td id="d187730e131">
 
 **Generate capacity details**
 
@@ -59,7 +59,7 @@ The resource capacity details for the selected combination of primary attributes
 
 **Note:** Capacity generation is an asynchronous process. You can generate capacity for multiple combination of dates and attributes.
 
-</td></tr><tr><td id="d181575e187">
+</td></tr><tr><td id="d187730e187">
 
 **Regenerate capacity details**
 
@@ -69,7 +69,7 @@ The resource capacity details for the selected combination of primary attributes
 2.  In the Regenerate capacity window, filter the date range, if needed, and select **Regenerate**.
 
 
-</td></tr><tr><td id="d181575e217">
+</td></tr><tr><td id="d187730e217">
 
 **Scheduled job**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-sales-promotion-bulk-upload.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [sales promotion bulk upload, sales promotion claim, dealer portal, manufacturing commercial operations, bulk upload template]
 breadcrumb: [Sales promotion for the dealer, Dealer portal, Use, Manufacturing Commercial Operations]

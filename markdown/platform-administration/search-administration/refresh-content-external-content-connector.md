@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Crawl, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -35,7 +35,7 @@ You can force an external content connector to refresh some or all of its search
 
 2.  In the Connectors list, select the record for the external content connector that you want to refresh searchable content and metadata for.
 
-3.  In the connector editor's Settings tab, select **Index management**.
+3.  In the connector editor's **Settings** tab, select **Index management**.
 
 4.  In the Force reindex section, select **Force reindex all content**.
 

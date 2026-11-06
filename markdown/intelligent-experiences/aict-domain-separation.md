@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-domain-separation.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-20"
+last_updated: "2026-10-27"
 reading_time_minutes: 8
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, domain separation, AI Control Tower, multi-tenant, MSP]
-breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Domain separation and AI Control Tower
@@ -31,7 +31,7 @@ For more information on support levels, see [Application support for domain sepa
 
 AI Control Tower helps you discover, govern, monitor, and measure the value of AI systems across your enterprise. If you manage multiple business units or client tenants from a shared instance, such as a managed service provider, domain separation lets you keep each tenant's AI assets, risk posture, security data, and value calculations distinct while administering the deployment from a single instance.
 
-Sample AI Control Tower use case: When a service provider \(SP\) configures a discovery connector for a client, the client is able to see all assets from their environment.
+Sample AI Control Tower use case: When a service provider \(SP\) configures a discovery connector for a client, the client can see all assets from their environment.
 
 ## How domain separation works in AI Control Tower
 
@@ -41,7 +41,7 @@ Some elements remain common across domains regardless of this support level: pla
 
 Within a domain hierarchy, a parent domain's view generally combines its own domain with all of its child domains, while a child domain's view shows only that domain's own data. Configuration settings, such as evaluation metric sample rates and cost framework rates, are inherited from a parent or global domain by default, and you can override a setting for a specific domain without affecting the global default or other domains.
 
-## How to set up domain separation for AI Control Tower
+## Domain separation setup for AI Control Tower
 
 The base system provides built-in functionality to separate an instance by domain. After an instance is domain-separated, any application that supports domain separation can be installed on that instance.
 
@@ -67,9 +67,9 @@ For inventory and discovery, domain separation keeps each domain's AI assets dis
 
 ## Monitoring
 
-For monitoring, domain separation ensures that evaluation data, trace history, and configuration changes for one domain never surface in another domain's view, even when the underlying AI agent is scoped globally.
+For monitoring, domain separation keeps evaluation data, trace history, and configuration changes for one domain from surfacing in another domain's view, even when the underlying AI agent is scoped globally.
 
--   Aggregate evaluation metrics reflect only the domains a user can see: their own domain, any child domains, and the global domain. Metrics from sibling or parent domains are never included, even for a globally scoped AI agent.
+-   Aggregate evaluation metrics reflect only the domains a user can see: their own domain, any child domains, and the global domain. Metrics from sibling or parent domains are not included, even for a globally scoped AI agent.
 -   Traces and sessions are scoped to the domain of the user who generated them, not the domain of the AI agent. Running a globally scoped agent from within a specific domain still creates a trace that only that domain can see.
 -   Evaluation metric configuration, such as sample rates and trace API limits, is inherited from the global domain by default. Overriding a setting for a specific domain applies only to that domain and its children, without changing the global default or affecting other domains.
 
@@ -85,14 +85,13 @@ For risk, domain separation isolates each domain's risk posture while letting ad
 
 ## Security
 
-Domain separation ensures that each domain's security posture reflects only its own AI assets and activity, while dashboards and metric detail pages still honor the domain hierarchy.
+For security, domain separation keeps each domain's security posture reflecting only its own AI assets and activity, while dashboards and metric detail pages still honor the domain hierarchy.
 
 -   The AI asset security score is calculated from the AI assets in the currently selected domain, so each domain's score reflects only its own assets.
 -   In the Activity Center, security tasks are scoped to the current domain, so a domain shows only the security tasks associated with assets in that domain.
 -   The agent map and access issue details inherit the domain of the underlying asset or agent. Viewing a parent domain includes the agents and access issues from its child domains.
 -   In Post-runtime metrics, threat detection data for both internal and external agents is scoped by domain, so the threat map and related guardrail data reflect only the current domain's activity.
 -   Your top recommendations don't appear on the security dashboard in domain-separated instances, because its underlying data isn't domain aware. Instead, a Security events detected section is shown.
--   In Runtime metrics, Sensitive data input and Sensitive data anonymized metrics aren't shown for domain-separated instances.
 -   Details for Privileged AI agents, Dormant AI agents, Access issues, Security events detected, Agent map, Post-runtime, and AI asset security score include a Domain column showing the domain the AI asset belongs to.
 
 ## Value

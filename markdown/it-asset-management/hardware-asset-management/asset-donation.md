@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -21,4 +21,6 @@ The Asset Donation flow handles the various stages in the asset donation process
 **Note:** You can't donate excluded assets. For information on excluded assets, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
 
 For more details on asset donation, see [Donate assets to charity organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/donate-asset-to-charity-organizations.md).
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-ham.md)
 

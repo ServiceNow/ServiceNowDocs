@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: reference
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [user context, Now Assist for ITSM, incident classification]
 breadcrumb: [In-form deflection, Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]

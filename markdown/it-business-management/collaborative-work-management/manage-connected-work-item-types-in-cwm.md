@@ -1,20 +1,20 @@
 ---
 title: Manage connected work item types in CWM
-description: Enable, disable, refresh data, or delete the connected work item types on your CWM Board to keep the work items up to date based on changing requirements.
+description: Enable, disable, refresh data, or remove the connected work item types on your CWM Board to keep the work items up to date based on changing requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/collaborative-work-management/manage-connected-work-item-types-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect work, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
 # Manage connected work item types in CWM
 
-Enable, disable, refresh data, or delete the connected work item types on your CWM Board to keep the work items up to date based on changing requirements.
+Enable, disable, refresh data, or remove the connected work item types on your CWM Board to keep the work items up to date based on changing requirements.
 
 ## Before you begin
 
@@ -38,11 +38,13 @@ Role required: sn\_cwm.cwm\_user
 
     For more information, see [Update filter conditions for connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/update-conditions-for-connected-work-in-cwm.md).
 
+    Items that no longer meet the conditions aren't removed from the Board automatically. You can remove them manually.
+
 6.  Select **Refresh data** from the More actions menu \(\[Omitted image "cwm-icon-page-actions.png"\] Alt text: More actions icon.\) to fetch any latest records for the work item type that you defined.
 
-    \[Omitted image "cwm-connected-work-more-options.png"\] Alt text: Choose to edit, refresh data, or delete a connected work item type configuration for a CWM Board.
+    \[Omitted image "cwm-connected-work-more-options.png"\] Alt text: Choose to edit, refresh data, or remove a connected work item type configuration for a CWM Board.
 
-7.  If the work item type is no longer necessary, you can delete it.
+7.  If the work item type is no longer necessary, you can remove it from the board.
 
     1.  From the More actions menu \(\[Omitted image "cwm-icon-page-actions.png"\] Alt text: More actions icon.\) of a work item type configuration, select **Delete**.
 

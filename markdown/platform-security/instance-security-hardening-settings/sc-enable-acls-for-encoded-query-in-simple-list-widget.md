@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -94,7 +94,7 @@ Security risk
 
 -   Severity score: 4.3
 -   CVSS score: Medium
--   Security risk details: It is best practice to evaluate ACLs within queries to ensure a user has access to the fields being queried to prevent unauthorized data leakage.
+-   Security risk details: It is general guideline to evaluate ACLs within queries to confirm a user has access to the fields being queried to prevent unauthorized data leakage.
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Functional impact
 
 </td><td>
 
-The Simple List Widget may not display any data depending on the user's role and the underlying ACLs. Additionally, users might encounter security warnings if the Simple List query contains filter conditions with properties that are not accessible to the current user.
+The Simple List Widget may not display any data depending on the user's role and the underlying ACLs. Additionally, users might encounter security warnings if the Simple List query contains filter conditions with properties that aren't accessible to the current user.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-access-control.md)

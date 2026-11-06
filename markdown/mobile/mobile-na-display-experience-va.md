@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-na-display-experience-va.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI, Virtual Agent]
 breadcrumb: [Otto in Virtual Agent, Exploring Otto, ServiceNow Otto for Mobile, Mobile Platform]
@@ -45,7 +45,7 @@ Choose how you want Virtual Agent to display on your mobile app.
 
 \[Omitted image "na-va-mobile-display.png"\] Alt text: Landing page for how you want virtual agent to display on your mobile app.
 
-For information on how to configure your Now Assist display experience, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+For information on how to configure your Now Assist display experience, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 **Note:** Now Assist in Native Mobile Virtual Agent uses mobile theming. For more information, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/explore-ne-theming.md).
 

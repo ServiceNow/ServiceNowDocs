@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/validate-instance-connection.html
 release: australia
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Register your instance, Configure Scan Engine integrations, Configuring Impact, Impact]
+breadcrumb: [Register your instance, Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Validate your instance connection
@@ -22,13 +22,13 @@ Role required: `sn_se.scan_engine_admin`
 
 ## Procedure
 
-1.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** &gt; **My SN Instances**.
+1.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** &gt; **My SN Instances**.
 
 2.  Open the instance record to validate.
 
 3.  Select **Validate Connection**.
 
-    Connection Status updates to `Connection valid`.
+    Connection Status updates to `Connection Valid`, and the **Validated** checkbox is selected.
 
 
 ## What to do next
@@ -37,14 +37,9 @@ If validation fails, resolve the root cause before retrying. Retrying without fi
 
 1.  The integration user password was set using `setDisplayValue()` on this instance.
 2.  The authentication record password was re-entered in the UI on this instance.
-3.  Both roles — `sn_se.scan_engine_admin` and `sn_se.internal_rest_integration` — are explicitly assigned to the integration user on this instance.
+3.  Both roles: `sn_se.scan_engine_admin` and `sn_se.internal_rest_integration`, are explicitly assigned to the integration user on this instance.
 4.  The instance URL is exactly `https://instancename.service-now.com` with no `www.`, trailing slash, or path.
-5.  Any pending Scan Engine scripting scope request in Key Management Framework access policies has been approved, and you have logged out and back in before retrying.
-    1.  Assign the system administrator role the Key Management admin role
-    2.  Assign the sn\_kmf.cryptographic\_manager role to the system admin.
-    3.  Navigate to **All** &gt; **Key Management** &gt; **Module Access Policies**.
-    4.  Search for Scan Engine in the Script Table Target script: Script Include: ScanEngineApiUtil\[Omitted image "scan-engine-kmf-reject-map-fix.png"\] Alt text: Scan Engine in the Script Table Target script Script Include: ScanEngineApiUtil
-    5.  Open the record and set the Result to **Track**.
+5.  Any pending Scan Engine scripting scope request in Key Management Framework access policies has been approved, and you have logged out and back in before retrying. Complete [Grant Key Management Framework access on an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/complete-kmf-access.md) on this instance first.
 
 If the account has been locked out, see [Recover from account lockout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/recover-from-account-lockout.md).
 

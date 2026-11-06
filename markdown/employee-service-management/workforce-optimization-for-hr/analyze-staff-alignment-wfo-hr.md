@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scheduling in Workforce Optimization for HR, Using Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
@@ -42,15 +42,15 @@ Using Demand Forecast, you can:
 
 5.  You can click the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d383069e118">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d382323e118">
 
 To analyze staff alignment
 
-</th><th align="left" id="d383069e121">
+</th><th align="left" id="d382323e121">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d383069e127">
+</th></tr></thead><tbody><tr><td id="d382323e127">
 
 **For each day**
 
@@ -69,7 +69,7 @@ Select **Day** from the list.The **Total resources needed** row displays the dem
 |Red|The number of agents you have scheduled are less than the demand you have for that interval.|
 |Grey|The demand for the number of agents and the number of agents scheduled is zero for that interval.|
 
-</td></tr><tr><td id="d383069e214">
+</td></tr><tr><td id="d382323e214">
 
 **For a given week**
 

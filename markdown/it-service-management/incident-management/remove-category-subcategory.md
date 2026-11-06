@@ -7,7 +7,7 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident categories and subcategories, Configuring Incident Management, Incident Management, IT Service Management]
 ---
@@ -30,13 +30,13 @@ Role required: admin
 
 3.  Do any of the following activities:
 
-    -   Right-click on the **Category** field name and select **Configure Dictionary**.
-    -   Right-click on the **Subcategory** field name and select **Configure Dictionary**.
-4.  Click the Choices related list.
+    -   Select and hold \(or right-click\) the **Category** field label and select **Configure Dictionary**.
+    -   Select and hold \(or right-click\) the **Subcategory** field label and select **Configure Dictionary**.
+4.  Select the Choices related list.
 
 5.  Select the category or the subcategory record that you want to delete.
 
-6.  Click **Actions on selected rows** menu and select **Delete**.
+6.  From the Actions on selected rows menu, select **Delete**.
 
 
 **Parent Topic:**[Incident categories and subcategories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/r_CategorizingIncidents.md)

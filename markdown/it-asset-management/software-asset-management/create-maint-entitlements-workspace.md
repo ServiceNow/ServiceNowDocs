@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create entitlements in workspace, Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Create entitlements in workspace, Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create maintenance entitlements in workspace

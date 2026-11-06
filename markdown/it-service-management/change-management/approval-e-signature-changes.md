@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [e-signature, change approval, change request]
 breadcrumb: [Explore, Change Management, IT Service Management]

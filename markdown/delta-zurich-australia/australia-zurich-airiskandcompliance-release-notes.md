@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-airiskandcompliance-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
@@ -519,6 +519,8 @@ Australia
 -   Offboard AI assets with structured life-cycle tasks to support completion of governance and risk activities when systems are retired or replaced.
 
  See [AI Risk and Compliance](https://www.servicenow.com/docs/access?context=ai-risk-and-compliance&family=australia&ft:locale=en-US) for more information.
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)

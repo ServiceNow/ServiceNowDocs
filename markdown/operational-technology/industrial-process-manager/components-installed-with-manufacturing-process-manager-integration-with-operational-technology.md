@@ -1,5 +1,5 @@
 ---
-title: Automated mapping components installed when Industrial Process Manager and Operational Technology Manager are both installed
+title: Automated mapping components installed with Industrial Process Manager and Operational Technology Manager
 description: Several types of automated mapping components will be installed with activation of the Industrial Process Manager when Operational Technology Manager is also active, including tables, system properties, and scheduled flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/components-installed-with-manufacturing-process-manager-integration-with-operational-technology.html
@@ -7,12 +7,12 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Industrial Process Manager, Operational Technology]
 ---
 
-# Automated mapping components installed when Industrial Process Manager and Operational Technology Manager are both installed
+# Automated mapping components installed with Industrial Process Manager and Operational Technology Manager
 
 Several types of automated mapping components will be installed with activation of the Industrial Process Manager when Operational Technology Manager is also active, including tables, system properties, and scheduled flows.
 

@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Routing work items, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -34,15 +34,15 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d236018e103">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d404040e103">
 
 To set the override capacity
 
-</th><th align="left" id="d236018e106">
+</th><th align="left" id="d404040e106">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d236018e112">
+</th></tr></thead><tbody><tr><td id="d404040e112">
 
 **From Channels**
 
@@ -53,7 +53,7 @@ Do this
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d236018e136">
+</td></tr><tr><td id="d404040e136">
 
 **From Teams**
 

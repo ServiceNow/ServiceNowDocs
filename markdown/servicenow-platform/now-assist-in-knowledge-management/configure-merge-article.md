@@ -7,7 +7,7 @@ release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto 
 To merge the duplicate knowledge articles, activate AI skills for merging the duplicate articles. Once configured, these skills enable the system to merge duplicate articles effectively, ensuring consistent and streamlined content management.
 
 ## Before you begin
+
+A data set of at least 2000 articles is necessary for the AI duplicate feature to work reliably.
 
 Role required: admin
 

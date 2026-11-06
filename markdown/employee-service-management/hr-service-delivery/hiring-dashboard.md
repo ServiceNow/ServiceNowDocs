@@ -7,9 +7,8 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [hiring dashboard, my job requests, track job requests, open requisitions, requisition tracking]
 breadcrumb: [Use, Hiring tab, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -19,7 +18,7 @@ The hiring tab works as the source of truth for the hiring manager.
 
 The hiring tab helps the hiring managers track the requests raised by them from the My job requests section.
 
-\[Omitted image "hiring-dashboard.png"\] Alt text: Hiring tab shows number of my job requests by state and paginated details
+
 
 It provides information about the number of open requisitions by state.
 

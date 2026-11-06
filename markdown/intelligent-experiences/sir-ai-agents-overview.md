@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 2
-breadcrumb: [Security Incident Response, AI agents library, AI assets, Enable AI experiences]
+reading_time_minutes: 1
+breadcrumb: [Security Incident Response, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Security Incident Response AI agents

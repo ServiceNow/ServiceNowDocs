@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/install-mcp-for-spm.html
 release: australia
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, MCP for Strategic Portfolio Management, Strategic Portfolio Management]
 ---

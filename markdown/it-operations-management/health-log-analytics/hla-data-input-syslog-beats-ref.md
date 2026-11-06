@@ -7,8 +7,8 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -40,20 +40,15 @@ Description
 
 </td><td>
 
-Description of the data input.
+Optional description of the data input.
 
 </td></tr><tr><td>
 
-MID Server
+MID server
 
 </td><td>
 
-The MID Server to which the logs stream.**Note:**
-
--   You can select only MID Servers with log ingestion capability that support basic authentication. MID Servers that support mTLS are not listed.
--   The default maximum number of data inputs streaming logs to a single MID Server is 10. You can modify this number in the MID Server properties.
-
-This field is required.
+The MID Server to which the logs stream. This field is required.**Note:** The default maximum number of data inputs streaming logs to a single MID Server is 10. You can modify this number in the MID Server properties.
 
 </td></tr><tr><td>
 
@@ -61,11 +56,9 @@ Port
 
 </td><td>
 
-The port on the MID Server.
+The port on the MID Server. This field is required.
 
- Choose a port within the suggested range from the array. The port must not be occupied by another process. Make sure that your organization’s security team opens the selected port.
-
-This field is required.
+**Note:** Choose a port within the suggested range from the array. The port must not be occupied by another process. Verify that your organization’s security team opens the selected port.
 
 </td></tr><tr><td>
 
@@ -98,7 +91,9 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [Create an service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data. This field is required.Selecting the service instance enables HLA to correlate CIs and service instances in the CMDB for root cause analysis.
+
+**Note:** If no appropriate service instance exists, create one, add CIs to it, and set its status to Operational. For more information, see [Create a Service instance \(application service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md).
 
 </td></tr><tr><td>
 
@@ -127,13 +122,13 @@ For Rsyslog data inputs:
 |Look up hostnames|Option to perform DNS lookup to resolve IPs to hostnames.|false|
 |Boss thread count|The number of threads that manage connections.|1|
 |Worker thread count|The number of threads that handle incoming data.|4|
-|Read timeout seconds|The timeout in seconds since the last read. When the timeout expires, the system closes the channel.|30|
-|Default timezone|The default time zone of events. The system uses this default when the log does not specify a time zone.|GMT|
-|Sub sample drop ratio|The ratio of events to drop.|-1|
-|Sub sample receive ratio|The ratio of events to receive.|-1|
-|Max length in bytes|The maximum length of log messages in bytes.|32766|
-|Character encoding|The character encoding for this data input.|UTF-8|
-|Drop if queue is full|Option to discard logs if there is a load on the MID Server.| |
+|Read timeout seconds|The timeout, in seconds, since the last read. When the timeout expires, the system closes the channel.|30|
+|Default timezone|The default time zone used when a log doesn't include time zone information.|GMT|
+|Sub sample drop ratio|The number of events to batch together, out of which one will be discarded. This setting is used to reduce the number of fetched events.|-1|
+|Sub sample receive ratio|The number of events to batch together, out of which all but one will be discarded. This setting is used to decrease the number of received events.|-1|
+|Max length in bytes|The maximum length of log messages, in bytes.|32766|
+|Character encoding|The character encoding for this data input. This field is read-only.|UTF-8|
+|Drop if queue is full|Option to discard logs if many processes are waiting in the queue to access the MID Server.|Clear|
 
 For data inputs that use Beats agents:
 
@@ -141,12 +136,12 @@ For data inputs that use Beats agents:
 |-----|-----------|-------------|
 |Client inactivity timeout \(sec\)|The timeout, in seconds, to close an inactive channel.|15|
 |Worker thread count|The number of threads that handle incoming data.|4|
-|Default time zone|The default time zone of events. The system uses this default when the log does not specify a time zone.|GMT|
-|Sub sample drop ratio|The ratio of events to drop.|-1|
-|Sub sample receive ratio|The ratio of events to receive.|-1|
+|Default time zone|The default time zone used when a log doesn't include time zone information.|GMT|
+|Sub sample drop ratio|The number of events to batch together, out of which one will be discarded. This setting is used to reduce the number of fetched events.|-1|
+|Sub sample receive ratio|The number of events to batch together, out of which all but one will be discarded. This setting is used to decrease the number of received events.|-1|
 |Max length in bytes|The maximum length of log messages, in bytes.|32766|
-|Character encoding|The character encoding for this data input.|UTF-8|
-|Drop if queue is full|Option to discard logs if there is a load on the MID Server.|false|
+|Character encoding|The character encoding for this data input. This field is read-only.|UTF-8|
+|Drop if queue is full|Option to discard logs if many processes are waiting in the queue to access the MID Server.|false|
 
 **Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

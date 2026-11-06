@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pss-appt-booking-setup.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Configure, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -269,7 +269,7 @@ Holiday schedule to use when determining appointment availability.
 
  Click the lookup icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon.\) and select a schedule from the Schedules list.
 
- The appointment booking feature evaluates the holiday schedule when determining the number of available appointments and excludes any day in the schedule that is set to **Exclude**. For more information, see [Holidays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Holidays.md).
+ The appointment booking feature evaluates the holiday schedule when determining the number of available appointments and excludes any day in the schedule that is set to **Exclude**. For more information, see Holidays.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -614,5 +614,5 @@ By default, the **Program service appointment** record producer is available for
 
 As an administrator, you can include the record producer for appointment booking in a service  catalog and display the service  catalog  as a module on a patient portal. Patients can then use the module to book appointments for a training request.
 
-For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md) and [Set up a service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetUpAServiceCatalog.md) . 
+For more information, see Record Producer and Set up a service catalog . 
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-workflow.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [agentic development, workflow, conversational prompts, text-to-code generation, code explanations, optimization suggestions, governance, security, enterprise compliance, scalability, natural language, blueprint, tables, roles, UI components, workflows, full-stack components, JavaScript, metadata, business rules, integration points, automated tests, self-heal, iterative development, deployment, audit trails]
-breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Workflow for agentic development
@@ -38,6 +38,8 @@ ServiceNow provides tools to help you review, refine, and test apps throughout a
 
     Benefit: Architectural clarity before coding begins. For more information, see [Vibe coding: Chatting your way to a new app with ServiceNow Build Agent](https://www.servicenow.com/community/developer-advocate-blog/vibe-coding-chatting-your-way-to-a-new-app-with-servicenow-build/ba-p/3383952).
 
+    For larger implementations with well-defined requirements, Autonomous Engineer can replace this step. It conducts an interview, generates a structured plan with work items, and builds all work items in parallel. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-autonomous-engineer.md).
+
 3.  Build and generate code: The ServiceNow AI Platform autonomously creates full-stack components using ServiceNow Fluent, JavaScript, and ServiceNow metadata.
 
     Includes: UI pages, data models, business rules, and integration points. For more information, see [Vibe coding with ServiceNow Build Agent: The future of AI-powered app development](https://www.servicenow.com/community/now-assist-for-creator-articles/zurich-release-vibe-coding-with-servicenow-build-agent-the/ta-p/3408806).
@@ -58,4 +60,6 @@ ServiceNow provides tools to help you review, refine, and test apps throughout a
 
     For more information, see [Agentic development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-and-deployment.md).
 
+
+**Parent Topic:**[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-vibe-coding.md)
 

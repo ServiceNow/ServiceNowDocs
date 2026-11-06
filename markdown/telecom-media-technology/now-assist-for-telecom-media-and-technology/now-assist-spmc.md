@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -20,20 +20,20 @@ Use the ServiceNow® ServiceNow Otto for Telecommunications, Media, and Technolo
 
 ## Get started
 
-<table id="table_zzm_tc2_kbc" class="nav-card"><tbody><tr><td>
+ServiceNow Otto for TMT combines a common configuration and licensing layer with generative AI skills and agentic workflows purpose-built for each application.
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-exploring.md)
+|Application|Value|
+|-----------|-----|
+|[Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/ai-cspm-landing.md)|Summarize service problem cases, generate resolution notes, and summarize test results with generative AI skills.|
+|Customer Success Management|Automate customer success work with generative AI skills and agentic workflows.|
+|Technology Product Support Case|Summarize test results for technology product support cases with generative AI skills.|
+|Proactive Service Experience Workflows|Generate executive insight briefs and success play recommendations with generative AI skills.|
+|[Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/ai-in-sales-crm-for-telecommunications.md)|Automate order enrichment and fulfillment task suggestions with AI agents.|
+|Service Exchange|Manage the initiation and early stages of the Service Exchange registration process with generative AI skills and agentic workflows.|
+|[Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/ai-in-telecommunication-network-inventory.md)|Summarize remote hands requests with generative AI skills.|
+|[Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/ai-customer-360.md)|Generate AI-driven customer insights and recommendations.|
 
-</td><td>
-
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.md)
-
-</td><td>
-
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
-
-</td></tr></tbody>
-</table>**Important:**
+**Important:**
 
 -   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
 -   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
@@ -56,7 +56,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for case summarization\) and test run information \(for test summarization\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for case summarization\) and test run information \(for test summarization\). Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md).
 

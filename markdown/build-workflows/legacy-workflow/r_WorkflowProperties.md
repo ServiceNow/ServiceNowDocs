@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Create a workflow, Workflow management, Classic Workflow, Build workflows]
 ---

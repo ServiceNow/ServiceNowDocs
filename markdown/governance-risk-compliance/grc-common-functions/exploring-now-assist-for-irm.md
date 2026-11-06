@@ -7,10 +7,10 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Now Assist, generative AI]
-breadcrumb: [ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [ServiceNow Otto for Integrated Risk Management \(IRM\), Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Exploring ServiceNow Otto for Integrated Risk Management \(IRM\)
@@ -19,7 +19,7 @@ With the ServiceNow Otto for Integrated Risk Management \(IRM\) application, you
 
 ## ServiceNow Otto for IRM overview
 
-The following generative AI capabilities are available in ServiceNow Otto for IRM:
+The following generative AI capabilities are available in Now Assist for IRM:
 
 -   Simplify and speed up routine IRM tasks with AI-powered assistance embedded in your records.
 -   Gain quick insights into IRM data without manually parsing through detailed documentation.
@@ -28,7 +28,7 @@ The following generative AI capabilities are available in ServiceNow Otto for IR
 
 ## ServiceNow Otto for IRM skills/workflows
 
-ServiceNow Otto for IRM includes generative AI capabilities that help you interpret and act on IRM records more efficiently. These capabilities support tasks such as summarizing issue details, reviewing control effectiveness, identifying risks, and analyzing policy exceptions.
+Now Assist for IRM includes generative AI capabilities that help you interpret and act on IRM records more efficiently. These capabilities support tasks such as summarizing issue details, reviewing control effectiveness, identifying risks, and analyzing policy exceptions.
 
 <table id="table_amn_nsd_bhc"><thead><tr><th>
 
@@ -147,7 +147,7 @@ To learn more about configuring and using ServiceNow Otto for IRM, see:
 -   [Supporting information for Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/now-assist-irm-supporting-info.md)
 -   [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
 -   [Activate skills in Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md)
--   Activate agentic workflows in Now Assist for IRM
+-   [Activate agentic workflows in Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/activate-agentic-workflows.md)
 -   [Customize the issue summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/customize-issue-summarization-skill.md)
 -   [Using Now Assist for IRM skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.md)
 -   [Summarize an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/summarize-an-issue.md)

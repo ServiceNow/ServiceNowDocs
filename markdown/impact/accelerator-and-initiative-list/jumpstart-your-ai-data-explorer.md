@@ -7,7 +7,7 @@ release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI Data Explorer, Platform Analytics, Natural Language, Data Exploration]
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]

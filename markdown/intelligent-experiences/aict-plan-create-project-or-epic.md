@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-plan-create-project-or-epic.html
 release: australia
 topic_type: task
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [create project, create epic, Execute, AI Plan]
-breadcrumb: [Monitor AI Plan execution, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
+breadcrumb: [Monitor AI Plan execution, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create a project or epic in AI Control Tower

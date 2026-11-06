@@ -7,9 +7,9 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tutorial: add a new change management state, Reference, Change Management, IT Service Management]
+breadcrumb: [Tutorial: Add a new change management state, Reference, Change Management, IT Service Management]
 ---
 
 # Update the state handler script include
@@ -44,10 +44,10 @@ The ChangeRequestStateHandler script include defines the states available for th
 
     \[Omitted image "NewStateTutUpdScrptIncl1.png"\] Alt text: Modified script
 
-3.  Click **Update**.
+3.  Select **Update**.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: Add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)
 
 **Previous topic:**[Create an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateNewACL.md)
 

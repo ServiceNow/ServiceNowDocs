@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [cloud CI tables, Service Account, Logical Datacenter, query performance, cloud discovery]
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -50,7 +50,7 @@ Sets the number of days after which a running job is considered stale and automa
 
 </td><td>
 
-Starting with Discovery and Service Mapping Patterns version 1.35.0, determines if all CI records are reprocessed on the next job run. For more information, see [Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md).-   **Type**: Boolean
+Starting with Discovery and Service Mapping Patterns version 1.35.1, determines if all CI records are reprocessed on the next job run. For more information, see [Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md).-   **Type**: Boolean
 -   **Default value**: False
 
 </td></tr></tbody>

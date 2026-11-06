@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -124,7 +124,7 @@ Verify that you have successfully established a connection to Microsoft Teams Ch
 
 </td><td>
 
-To establish Microsoft Teams Chat Connector application connection with ServiceNow® instance, follow the procedure explained here: [Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msim-micorsoft-team-requirements.md).
+To establish Microsoft Teams Chat Connector application connection with ServiceNow® instance, follow the procedure explained here: [Establish Microsoft Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msim-micorsoft-team-requirements.md).
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Verify that you have configured Microsoft teams with ServiceNow AI Platform® in
 
 To verify Microsoft Teams configuration with ServiceNow® instance, follow the procedure as explained here:
 
--   [Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msim-micorsoft-team-requirements.md)
+-   [Establish Microsoft Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msim-micorsoft-team-requirements.md)
 -   [Create a chat channel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-chat-channel-template-for-msim.md)
 
 </td></tr><tr><td>

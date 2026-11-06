@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-product-hub-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Core Business Suite]
 ---
@@ -27,5 +27,5 @@ For more details, see [Configure CBS on Product Hub](https://raw.githubuserconte
 -   **[Configure CBS on Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs-product-hub.md)**  
 Install your Core Business Suite subscription from the Product Hub to set up the application on your instance.
 
-**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
 

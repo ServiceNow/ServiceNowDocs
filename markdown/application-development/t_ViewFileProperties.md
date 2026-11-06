@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/t\_ViewFileProperties.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Application files, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Application files, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # View file properties
@@ -36,7 +36,7 @@ Role required: admin
 
 4.  Navigate between a customer update record, the file properties view, and the configuration record view.
 
-<table id="choicetable_yhn_xlt_cr"><tbody><tr><td id="d269179e129">
+<table id="choicetable_yhn_xlt_cr"><tbody><tr><td id="d381884e129">
 
 **__Show Related Record__ related link**
 
@@ -44,7 +44,7 @@ Role required: admin
 
 Navigate to the configuration record
 
-</td></tr><tr><td id="d269179e140">
+</td></tr><tr><td id="d381884e140">
 
 **__Show Parent Record__ related link**
 
@@ -52,7 +52,7 @@ Navigate to the configuration record
 
 Navigate to the parent record of the current configuration record.
 
-</td></tr><tr><td id="d269179e151">
+</td></tr><tr><td id="d381884e151">
 
 **__Descendants__ related link**
 

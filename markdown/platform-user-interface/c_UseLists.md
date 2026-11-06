@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_UseLists.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -38,7 +38,7 @@ Lists can have sublists in a hierarchy that can also be accessed in list view. T
 
 \[Omitted image "HierarchicalList.png"\] Alt text: Hierarchical list
 
-Administrators can enable hierarchical lists for a table. For more information, see Enable a hierarchical list .
+Administrators can enable hierarchical lists for a table. For more information, see [Enable a hierarchical list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EnableAHierarchicalList.md) .
 
 ## Detail rows
 
@@ -48,7 +48,7 @@ Detail rows, when enabled, appear below the field row for each record and displa
 
 \[Omitted image "400px-Detail\_rows.png"\] Alt text: Detail rows
 
-Administrators can enable detail rows and add them to lists. For more information, see Administer detail rows.
+Administrators can enable detail rows and add them to lists. For more information, see [Administer detail rows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EnableDetailRows.md).
 
 -   **[List fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_Fields.md)**  
 Fields display data and provide certain functions.

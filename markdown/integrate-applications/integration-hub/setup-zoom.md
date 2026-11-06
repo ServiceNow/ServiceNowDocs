@@ -45,6 +45,8 @@ Creating the connected app is a one-time activity.
 
     \[Omitted image "zoom-spk-build-app-general.png"\] Alt text: General App option to create an app.
 
+    **Note:** You must have the Zoom admin role to complete this step.
+
 4.  Select **Create**.
 
 5.  Double-click the default name of the app and update the name.
@@ -55,11 +57,11 @@ Creating the connected app is a one-time activity.
 
 7.  Select **Save**.
 
-8.  Under the App Credentials section, copy the Client ID and Client secret and store them at a secure place.
+8.  Under the App Credentials section, copy the Client ID and Client secret and store them in a secure location.
 
     \[Omitted image "zoom-spk-client-id-secret.png"\] Alt text: Client ID and client secret.
 
-9.  Under the OAuth Information section, do the steps.
+9.  Configure the OAuth information.
 
     1.  In the **OAuth Redirect URL** field, enter the redirect URL in this format: `https://<ServiceNow-Instance-Name>.service-now.com/oauth_redirect.do`.
 
@@ -67,19 +69,19 @@ Creating the connected app is a one-time activity.
 
         A token is generated. This token is used by the OAuth app to give the Zoom spokes access to the Zoom APIs.
 
-    3.  To add another URL to the allow list, click **Add New List**.
+    3.  Select **Add New List** to add another URL to the allow list.
 
-        The following example shows the screen that you use to generate the credentials for the OAuth app.
+        The following figure shows the OAuth app credentials configuration.
 
         \[Omitted image "zoom-app-conf.png"\] Alt text: OAuth credentials configuration for Zoom spokes.
 
-        **Note:** To know the difference between the Redirect URL for OAuth and the URL that is mentioned in the OAuth allow list, see [Zoom Developer Forum](https://devforum.zoom.us/t/difference-between-redirect-url-and-allow-list-in-app-settings/58709).
+        **Note:** For the difference between the OAuth redirect URL and the OAuth allow list URL, see [Zoom Developer Forum](https://devforum.zoom.us/t/difference-between-redirect-url-and-allow-list-in-app-settings/58709).
 
-10. On the left panel, select Access.
+10. Select **Access**.
 
-11. Under the Access section, copy the Secret Token.
+11. Under the Access section, copy the **Secret Token**.
 
-12. On the left panel, select **Scopes**.
+12. Select **Scopes**.
 
 13. Select **+ Add Scopes**.
 
@@ -95,7 +97,7 @@ Creating the connected app is a one-time activity.
 
     The granular scope is added.
 
-    \[Omitted image "zoom-spk-scope-added.png"\] Alt text: Granular scope is added.
+    \[Omitted image "zoom-spk-scope-added.png"\] Alt text: Granular scope added.
 
 16. Repeat the steps to add more granular scopes.
 

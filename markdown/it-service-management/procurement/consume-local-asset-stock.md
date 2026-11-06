@@ -7,7 +7,7 @@ release: australia
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Sourcing items in a service catalog request, Procurement, Asset Management common applications, IT Service Management]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Global search finds records from multiple tables, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,7 +32,7 @@ The preview limit for a search application specifies how many preview results ca
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_aw_global_search_config.list`.
+    2.  In the navigation field, enter `sys_aw_global_search_config.list`.
 
     3.  Press Enter.
 

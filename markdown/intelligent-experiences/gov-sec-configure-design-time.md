@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-configure-design-time.html
 release: australia
 topic_type: task
-last_updated: "2026-05-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Activate design-time security metrics
@@ -25,9 +25,9 @@ Review [the application listing](https://store.servicenow.com/store/app/a36ed8ba
 
 AI Service Graph Connectors are available for third-party AI security tools \(for example, Cisco AI Defense or HiddenLayer\). Install and configure the Service Graph Connector for the security tool you use to see the data reflected in design-time metrics.
 
-The AI Security Exposure Management plugin \(`com.sn_sec_ai`\) provides these additional metrics: Critical findings approaching remediation target, Critical findings with remediation overdue, Number of findings deferred, Findings by risk rating,Approaching remediation target, Remediation overdue, Vulnerabilities deferred, Findings deferred, and Vulnerabilities by risk metrics. It also provides details for every design-time metric.
+The AI Security Exposure Management plugin \(`com.sn_sec_ai`\) provides these additional metrics: Findings approaching remediation target, Findings with remediation overdue, Findings deferred, and Posture findings by risk rating on the AI security posture sub-tab;Approaching remediation target, Remediation overdue, Vulnerabilities deferred, and Vulnerabilities by risk on the AI vulnerabilities sub-tab; and Approaching remediation target, Remediation overdue, and Findings deferred on the AI validation sub-tab. It also provides drilldown details for every design-time metric.
 
-Until you install the AI Security Exposure Management plugin, a source dropdown appears at the top of the Design-time tab, letting you filter the AI security posture, AI vulnerabilities, and AI validation subtabs by source.
+If the AI Security Exposure Management plugin isn't installed, a source dropdown appears at the top of the Design-time tab, letting you filter the AI security posture, AI vulnerabilities, and AI validation sub-tab metrics by source.
 
 ## Procedure
 

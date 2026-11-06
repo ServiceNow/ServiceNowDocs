@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, Using AI in Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -36,15 +36,15 @@ ServiceNow Otto for SAM generates the troubleshooting guidance for all SaaS and 
 
 3.  Generate troubleshooting guidance.
 
-<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d354213e136">
+<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d360395e136">
 
 Integration
 
-</th><th align="left" id="d354213e139">
+</th><th align="left" id="d360395e139">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d354213e145">
+</th></tr></thead><tbody><tr><td id="d360395e145">
 
 **Existing**
 
@@ -58,7 +58,7 @@ An error message is displayed on the Integration Profile form indicating that th
 
 The ServiceNow Otto for SAM application generates the troubleshooting details that contain the error summary and suggested resolutions. Each error that's listed in the Error Summary section has a corresponding troubleshooting guidance in the Suggested Resolutions section.
 
-</td></tr><tr><td id="d354213e173">
+</td></tr><tr><td id="d360395e173">
 
 **New**
 

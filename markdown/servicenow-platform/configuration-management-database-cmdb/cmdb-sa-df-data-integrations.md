@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Data Foundations data integrations tab, discovery patterns attribute coverage, service graph connectors, suggested data integrations, integration status indicators]
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]

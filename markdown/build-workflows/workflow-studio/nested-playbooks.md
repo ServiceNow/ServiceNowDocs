@@ -7,8 +7,8 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-10-16"
+reading_time_minutes: 4
 breadcrumb: [Playbooks patterns, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -48,4 +48,31 @@ Building nested playbooks is a two-part process:
 
 1.  Build a child playbook that can be nested in a parent playbook. For information about this step, see [Create a nestable child playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-nestable-child-playbook.md).
 2.  Build a parent playbook that can host the child playbook. For more information about this step, see [Create a parent playbook to host a nestable child playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-parent-playbook.md).
+
+## Passing data between parent and child playbooks
+
+A nested playbook runs as a separate process from its parent, so data doesn't pass between them automatically the way it does between activities in a single playbook. Two activities move data across the boundary. The **Launch Nested Playbook** activity in the parent carries values into the child, and the **Set Playbook Outputs** activity in the child returns values to the parent.
+
+-   **Inputs into the child playbook**
+
+    Define the inputs on the child playbook, and then map a value to each input on the **Launch Nested Playbook** activity in the parent. A value can be fixed, or it can come from a data pill for the trigger record, the parent table, or an earlier activity. The supported input types are String, Multi Line, and Reference.
+
+    Define the inputs on the **Inputs &amp; Outputs** tab of the child playbook's properties, and then map a value to each input on the nested playbook activity in the parent. A value can be fixed, or it can come from a data pill for the trigger record, the parent table, or an earlier activity.
+
+-   **Values from the person running the playbook**
+
+    Add a **Questionnaire** activity to the parent before the **Launch Nested Playbook** activity, and then map the answers to the child inputs by using data pills. For more information, see [Questionnaire activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/questionnaire-activity.md).
+
+-   **Outputs from the child playbook**
+
+    To return values to the parent, the child playbook declares its outputs on the **Inputs &amp; Outputs** tab, and a **Set Playbook Outputs** activity sets their values. In the parent, the outputs are then available as data pills, so later activities, experience properties, and conditions can use them. Only activities that start before the target activity appear in the data pill picker.
+
+
+The child playbook must define its inputs and outputs before you can map data to or from it in the parent.
+
+## Example: Budget validation
+
+A budget approval playbook launches a child playbook that validates a budget proposal. At the end of its run, the child uses a **Set Playbook Outputs** activity to return two true or false outputs. One shows whether the budget is over the limit, and the other shows whether documents are missing.
+
+In the parent, a decision evaluates every branch whose condition is true. When the budget is over the limit, one branch routes the proposal for director review. When documents are missing, another branch requests them. Because the two outputs are independent, a single child result can start both branches.
 

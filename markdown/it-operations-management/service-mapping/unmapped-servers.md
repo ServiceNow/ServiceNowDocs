@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Service Mapping, Application Service, unmapped server, Service Mapping workspace]
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
@@ -39,15 +39,15 @@ Role required: service\_mapping\_admin
 
 2.  Select the unmapped server that you want to use to create an application service.
 
-<table id="choicetable_vyc_pgt_zfc"><thead><tr><th align="left" id="d622866e135">
+<table id="choicetable_vyc_pgt_zfc"><thead><tr><th align="left" id="d663185e135">
 
 Version of Service Mapping Plus
 
-</th><th align="left" id="d622866e141">
+</th><th align="left" id="d663185e141">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d622866e147">
+</th></tr></thead><tbody><tr><td id="d663185e147">
 
 **Versions released before version 1.16.3**
 
@@ -60,13 +60,13 @@ Actions
     |Organization method|Action|
     |-------------------|------|
     |Order|Select a column name to sort the results in ascending or descending order.|
-    |Group|Select the menu \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon\) icon to group results by the selected column.|
+    |Group|Select the menu \(\[Omitted image "menu-icon.png"\]\) icon to group results by the selected column.|
 
 4.  Select the preferred candidate.
 5.  Select **Map application service**.
 
 
-</td></tr><tr><td id="d622866e229">
+</td></tr><tr><td id="d663185e227">
 
 **Starting with version 1.16.3**
 
@@ -82,7 +82,7 @@ Actions
     |Organization method|Action|
     |-------------------|------|
     |Order|Select a column name to sort the results in ascending or descending order.|
-    |Group|Select the menu \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon\) icon to group results by the selected column.|
+    |Group|Select the menu \(\[Omitted image "menu-icon.png"\]\) icon to group results by the selected column.|
 
 4.  Select the preferred server or candidate.
 5.  Select **Map application service**.

@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GRC integrations, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [GRC integrations, Common GRC features, Governance, Risk, and Compli
 
 The GRC: integrations with third-party content application helps you to standardize the content integration process across various GRC applications by providing a common framework for your content providers.
 
-In Australia, you can use the GRC: integrations with third-party content application with the GRC: Policy and Compliance integrator application. The GRC: Policy and Compliance integrator application provides the options that enable you to review, approve, and import the data into the Policy and Compliance Management tables.
+In Brazil, you can use the GRC: integrations with third-party content application with the GRC: Policy and Compliance integrator application. The GRC: Policy and Compliance integrator application provides the options that enable you to review, approve, and import the data into the Policy and Compliance Management tables.
 
 You can install the GRC: integrations with third-party content application separately from the ServiceNow Store. When you download the GRC: Policy and Compliance integrator application from the ServiceNow Store, the GRC: integrations with third-party content application is downloaded automatically in your instance as shown in the following diagram.
 
-
+\[Omitted image "integrator-application-download.png"\] Alt text: GRC: Policy and Compliance integrator application download structure.
 
 **Note:** The GRC: integrations with third-party content application is not visible in the application navigator in an instance.
 

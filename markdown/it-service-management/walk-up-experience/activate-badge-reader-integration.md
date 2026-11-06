@@ -7,7 +7,7 @@ release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Badge Reader Integration for Walk-up Experience, Configure, Walk-up Experience, IT Service Management]
 ---

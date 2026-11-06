@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/email-as-an-interaction.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
 breadcrumb: [Configure Email, Configure omnichannel, Configure, Customer Service Management]
@@ -19,7 +19,7 @@ To enable Email Interaction for Customer Service Management \(CSM\), configure s
 
 Additionally, enabling notifications for interactions notifies agents about email responses received from customers, supporting timely responses to customer inquiries.
 
-When a customer replies to an email thread linked to a closed interaction, the system automatically routes the reply to the correct open case or interaction without creating a new interaction. For details, see [Email reply linking for closed interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/email-reply-routing-closed-interactions.md).
+When a customer replies to an email thread linked to a closed interaction, the system automatically routes the reply to the correct open case or interaction. The system does not create a new interaction. For details, see [Email reply linking for closed interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/email-reply-routing-closed-interactions.md).
 
 Check your entitlements to determine whether you have access to generate AI summaries of email interactions on demand. For details, see [AI summarization of email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/eaai-ai-summarization-email-interactions.md).
 

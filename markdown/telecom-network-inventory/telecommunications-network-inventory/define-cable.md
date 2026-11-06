@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -76,5 +76,5 @@ Optical fiber cables are installed between sites with open endpoints, indicating
 **Related topics**  
 
 
-[Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
+[Model your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate Change Management - State Model, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -38,13 +38,13 @@ State values for current change records are not modified when you activate the C
 |4|Canceled|Closed Incomplete|
 |7|\(Not used\)|Closed Skipped|
 
-For example, records with a state value of -5 have the **Pending** state label before the Change Management state model is activated. After the state model is activated, these records retain the state value of -5 but have the **New** label. To use your organization's required change management process with the state model, you must update state values to the new labels in your existing change records as appropriate, either manually or by script.
+For example, records with a state value of -5 have the **Pending** state label before the Change Management state model is activated. After the state model is activated, these records retain the state value of -5 but have the **New** label. To use your organization's change management process with the state model, update state values in existing change records to match the new labels. Update records manually or by script.
 
 You must also update any reports that run queries based on old state labels to reflect the new state labels.
 
 ## Procedure
 
-1.  To automatically update the state field values from old state labels to new state labels, customize and then run the following sample script:
+1.  To automatically update the state field values from old state labels to new state labels, customize and run the following sample script.
 
     ```
     updateStates();

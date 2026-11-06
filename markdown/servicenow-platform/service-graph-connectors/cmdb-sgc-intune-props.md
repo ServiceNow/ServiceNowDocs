@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Microsoft Intune, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

@@ -7,8 +7,8 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-10-16"
+reading_time_minutes: 3
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -27,7 +27,10 @@ ACC-VC applies Checks and Policies to schedule and collect host data. ACC-VC is 
 -   Target host cycle: When the target host goes down and comes back up.
 -   Network break: When there is a break in the network link to the target.
 
-**Note:** Discovery is triggered for those agents whose hosts are already present. Agents whose hosts are not present are discovered through ACC-F.
+**Note:**
+
+-   Discovery is triggered for those agents whose hosts are already present. Agents whose hosts are not present are discovered through ACC-F.
+-   Agent Client Connector for AI Control Tower is available on the [ServiceNow Store](https://store.servicenow.com/store/app/b2797538939f8310a0f2fc1d6cba1075). This app is an ACC connector and adds an AI proxy capability that collects AI-based traffic from managed devices, supporting AI Control Tower shadow AI use cases.
 
 ## ACC-VC checks and policies
 
@@ -43,6 +46,29 @@ The ACC-VC Check Definition, **Enhanced Discovery**, is initiated by the Service
 During this time, the MID Server also serves any relevant Assets or Plugins that the ACC requests. The MID Server ensures the Assets and Plugins are relevant to the particular Operating System, platform, OS version, and architecture on which the ACC is running.
 
 You can edit and modify all parts of the ACC-VC application including check type, policy, and check definition. See [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/checks-policies.md) for more information.
+
+## Supported operating systems
+
+ACC-VC collects the system attributes and related lists normally collected by the OS pattern. ACC-VC currently supports the following operating systems on x86\_64 architecture:
+
+-   Linux
+    -   Red Hat Enterprise Linux \(RHEL\) and Oracle Linux \(OL\) 7, 8, 9
+    -   Centos 7, 8, 9
+    -   SLES 12, 15
+    -   Ubuntu 18, 20
+    -   Amazon Linux 2
+    -   Debian 9 and 10
+-   Microsoft Windows
+    -   Windows Server 2012, 2012r2, 2016, 2019, 2022
+    -   Windows 10 Enterprise Edition
+    -   Windows 11 Enterprise and Professional Editions
+-   macOS \(starting in ACC-VC version 1.3.0\)
+    -   10.15 - Catalina
+    -   11 - Big Sur
+    -   Monterey \(x86\)
+    -   13 - Ventura
+    -   macOS Ventura on ARM64 - Apple Silicon M1/M2
+    -   Sonoma
 
 ## Virtual machines and cloud instances
 

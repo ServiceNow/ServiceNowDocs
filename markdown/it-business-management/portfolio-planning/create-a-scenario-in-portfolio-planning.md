@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Optimize planning with scenario planning, Portfolio Planning, Strategic Portfolio Management]
 ---

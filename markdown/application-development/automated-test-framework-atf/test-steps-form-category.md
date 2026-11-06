@@ -7,9 +7,9 @@ release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 23
-breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Form category
@@ -1003,7 +1003,7 @@ Click a UI action on the current form.
 
 When this step runs, the system performs the action normally activated by that control. The test step also validates that the current form contains the control and that the control is visible and enabled. To run this step, your test must have already opened a form using either the **Open a New Form** or **Open an Existing Record** step. It is recommended to not run this step directly after a **Submit a Form** or **Click a UI Action** step. This is because they can redirect your test to a different page based on the navigation stack configuration on your instance or the script defined in the clicked UI action. Unless you are certain that the UI action will take you to a specific page, you should explicitly use an **Open a New Form** step after **Submit a Form** or **Click a UI Action** to ensure that the test is on the form as expected. Ensure that the test keeps passing consistently when added to a suite.
 
-In the Australia release, this step supports UI actions of type Form context menu.
+In the Brazil release, this step supports UI actions of type Form context menu.
 
 **Note:** Don't write tests that depend on the system displaying a specific page after executing a **Submit a Form** or **Click a UI Action** step. After these test steps, the system returns to the page that was open before the form was opened. The test cannot determine what that page was, so writing a test that expects a particular page can lead to unpredictable results.
 

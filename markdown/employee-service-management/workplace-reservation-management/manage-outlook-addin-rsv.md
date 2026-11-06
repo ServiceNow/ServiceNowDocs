@@ -7,7 +7,7 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -26,10 +26,7 @@ Workplace Reservation Management administrators can enable the Reservable module
 
 Employees can perform the following using Workplace Reservation Management 3.0.2.
 
-**Note:**
-
--   Shift-based, Reservable Modules aren’t supported for Microsoft Outlook add-in reservations. Group and recurring reservations are also not supported.
--   Microsoft Outlook add-in is not supported when Calendar Sync integration mode is set to Strict.
+**Note:** Shift-based, Reservable Modules aren’t supported for Microsoft Outlook add-in reservations. Group and recurring reservations are also not supported.
 
 -   Create reservations using a Reservable Module \(for example Meeting rooms\).
 -   Create reservations for multi-building and recurring reservations.

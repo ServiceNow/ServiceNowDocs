@@ -7,7 +7,7 @@ release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Importing issues and sprints from Jira to Agile Development 2.0, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---

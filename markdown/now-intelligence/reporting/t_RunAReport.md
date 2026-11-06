@@ -1,5 +1,5 @@
 ---
-title: View a report
+title: View a Core UI report
 description: Open a report in the Report Designer to view current data in an existing report.You can create a pie or bar chart report directly from a platform list. If you have a reporting role you can also save, distribute, and export these reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/t\_RunAReport.html
@@ -7,12 +7,12 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# View a report
+# View a Core UI report
 
 Open a report in the Report Designer to view current data in an existing report.
 
@@ -22,7 +22,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 To administer reports, reporting roles, and report sources, navigate to **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports** and select the area to administer.
 
-This topic refers to Reporting in the Core UI. On net new Australia instances and instances migrated to Platform Analytics experience, Reporting functionality is replaced with Data Visualizations. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md).
+This topic refers to Reporting in the Core UI. On net new Brazil instances and instances migrated to Platform Analytics experience, Reporting functionality is replaced with Data Visualizations. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md).
 
 ## Procedure
 
@@ -41,14 +41,14 @@ The report is shown in the Visualization Designer.
 
 ## What to do next
 
-[Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CreateYourOwnReport.md)
+[Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CreateYourOwnReport.md)
 
-**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
+**Parent Topic:**[Using Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
 
 **Related topics**  
 
 
-[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
+[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 
 ## Run a report from a list
 
@@ -58,9 +58,9 @@ You can create a pie or bar chart report directly from a platform list. If you h
 
 Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
-This topic refers to Reporting in the Core UI. On net new Australia instances and instances migrated to Platform Analytics experience, Reporting functionality is replaced with Data Visualizations. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md). When you follow these steps, the resulting Pie chart or Bar chart is opened in the Visualization designer.
+This topic refers to Reporting in the Core UI. On net new Brazil instances and instances migrated to Platform Analytics experience, Reporting functionality is replaced with Data Visualizations. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md). When you follow these steps, the resulting Pie chart or Bar chart is opened in the Visualization designer.
 
-Users with the report\_admin role can create different kinds of reports in the Report Designer, see [Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CreateYourOwnReport.md).
+Users with the report\_admin role can create different kinds of reports in the Report Designer, see [Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CreateYourOwnReport.md).
 
 ### Procedure
 
@@ -80,7 +80,6 @@ Users with the report\_admin role can create different kinds of reports in the R
 ### What to do next
 
 -   [Share the report using the Report Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_ShareASetting.md).
--   Publish the report by generating a URL to share with other users.
 
 **Related topics**  
 

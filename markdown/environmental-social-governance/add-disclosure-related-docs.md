@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/add-disclosure-related-docs.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -37,7 +37,7 @@ When you create a disclosure, that disclosure is the primary document. While you
     |Field|Description|
     |-----|-----------|
     |Name|Name of the document.|
-    |Type|Type of document. This field is automatically set to **Secondary** because the primary document is the blank document for the disclosure that is automatically created.|
+    |Type|Type of document. This field is automatically set to **Secondary** because the primary document is always the blank document for the disclosure that is automatically created.|
     |URL|URL of the document if the document is hosted elsewhere.|
     |Document|Supporting files to attach.|
 

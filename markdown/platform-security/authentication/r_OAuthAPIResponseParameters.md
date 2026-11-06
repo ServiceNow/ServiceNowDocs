@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an endpoint for clients to access the instance, Old Inbound integrations experience, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Create an endpoint for clients to access the instance, Old inbound integrations experience, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # OAuth API response parameters

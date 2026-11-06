@@ -7,7 +7,7 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [tisc, threat hunting, playbook, case management, workflow]
 breadcrumb: [Using playbooks, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]

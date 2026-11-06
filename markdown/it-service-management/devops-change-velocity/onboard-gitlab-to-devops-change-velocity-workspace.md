@@ -7,7 +7,7 @@ release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [GitLab, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard GitLab.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d352865e97">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d199860e97">
 
 Option
 
-</th><th align="left" id="d352865e100">
+</th><th align="left" id="d199860e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d352865e106">
+</th></tr></thead><tbody><tr><td id="d199860e106">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to GitLab as coding tool, you'd select GitLab under the **Code** category.
 
 
-</td></tr><tr><td id="d352865e136">
+</td></tr><tr><td id="d199860e136">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to GitLab as coding tool, you'd select GitLab under the **Code** category.
 
 
-</td></tr><tr><td id="d352865e191">
+</td></tr><tr><td id="d199860e191">
 
 **Tools module**
 

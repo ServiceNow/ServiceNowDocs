@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/plat-approval-assistance-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Approval assistance AI agent
@@ -24,8 +24,6 @@ The agent retrieves and filters pending approvals, provides detailed information
     -   Fetch full details for a specific approval record, always retrieving the most current data.
     -   Generate and display a checklist evaluation for the approval, grouping criteria by status and providing reference article links.
     -   Prompt the user to choose an approval action, handle e-signature requirements if applicable, and confirm the result of the action.
-
-For more information, see [Using the approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-approval-assistance-ai-agent.md).
 
 <table><thead><tr><th>
 

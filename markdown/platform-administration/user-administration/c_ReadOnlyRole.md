@@ -7,14 +7,14 @@ release: australia
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Base system roles, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Read-only role
 
-The read-only role \(snc\_read\_only\) restricts a user or a group of users to read-only access on the tables to which the user already has access.
+The read-only role \(**snc\_read\_only**\) restricts a user or a group of users to read-only access on the tables to which the user already has access.
 
 This role is designed to complement other roles a user possesses. Its purpose is to restrict actions like the insert, update, or delete operations on the tables accessible through their existing roles.
 
@@ -33,6 +33,8 @@ Users with the **snc\_read\_only** role have the following restrictions regardle
 -   Can only run background scripts when on an instance in the public sandbox environment.
 
 **Note:** These role restrictions are in place even if impersonating another user with write access such as an admin.
+
+If a user has both the admin role and the snc\_read\_only role, the snc\_read\_only restrictions still apply. The admin role does not override them.
 
 ## Exempt tables from the read-only restriction
 

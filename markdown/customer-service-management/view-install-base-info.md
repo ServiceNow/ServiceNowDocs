@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-install-base-info.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -30,7 +30,7 @@ You can view all cases and the service status from the last 30 days as well as a
 
 1.  Navigate to the Customer Service Portal.
 
-2.  Click **Support** &gt; **Install Base** in the header menu.
+2.  Select **Support** &gt; **Install Base** in the header menu.
 
     The system displays a list of install base items that belong to your account.
 

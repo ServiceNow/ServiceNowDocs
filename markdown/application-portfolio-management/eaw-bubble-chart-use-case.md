@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-bubble-chart-use-case.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 21
 keywords: [bubble chart, indicator scores, normalized value, application rationalization, scoring profile]
 breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -255,7 +255,7 @@ The default value is:
 install_status!=2@install_status!=2000@life_cycle_stage!=End of Life@life_cycle_stage!=EMPTY
 ```
 
-This means the chart excludes any business application that is in **Retired** or **Decommissioned** install status, or whose lifecycle stage is **End of Life** or empty. In this scenario, all five Acme Corp applications have an active install status and a current lifecycle stage. All five pass the filter and are eligible to appear as bubbles.
+This means the chart excludes any business application that is in *Retired* or *Decommissioned* install status, or whose lifecycle stage is *End of Life* or empty. In this scenario, all five Acme Corp applications have an active install status and a current lifecycle stage. All five pass the filter and are eligible to appear as bubbles.
 
 **Important:** If your organization has customized this property — for example, by adding a company scope filter such as company.sys\_id=YOURCOMPANYID — any scored application that does not match the custom filter will be silently excluded from the chart, even if it has valid indicator scores for both axes. This is one of the most common causes of missing bubbles. To verify, apply the encoded query on the Business Applications \[cmdb\_ci\_business\_app.list\] table and confirm your scored applications appear in the results.
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configuring-aia-new.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Configure AI Agents]
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Configure AI Agent Studio

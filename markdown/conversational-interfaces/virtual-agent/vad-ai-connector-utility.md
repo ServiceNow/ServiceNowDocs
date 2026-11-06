@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Virtual Agent, Designer, AI Connector, utility, LLM, GenAI, Generative AI, Now Assist, Custom skills]
-breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # AI Connector utility

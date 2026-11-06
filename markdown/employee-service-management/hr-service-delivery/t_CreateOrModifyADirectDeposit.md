@@ -1,40 +1,36 @@
 ---
-title: Setup or update your direct deposit
-description: As an employee, setup or update direct deposit from the Employee Center.
+title: Setup direct deposit
+description: Setup direct deposit for a employee.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_CreateOrModifyADirectDeposit.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Setup or update your direct deposit
+# Setup direct deposit
 
-As an employee, setup or update direct deposit from the Employee Center.
+Setup direct deposit for a employee.
 
 ## Before you begin
 
-Role required: none
+Role required: sn\_hr\_core.profile\_writer
 
-## About this task
 
-Employees can ask questions about or setup/update direct deposit by submitting a request through the Employee Center.
-
-Alternately, a manager can submit a tuition reimbursement request by opening an HR case: [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/search-hr-case.md).
 
 ## Procedure
 
-1.  From the Employee Center menu, navigate to **Human Resources** &gt; **Compensation**.
+1.  Navigate to **All** &gt; **HR Profile** &gt; **Direct deposit**.
 
-2.  Click the **Direct Deposit Setup** request.
+2.  Select **New**.
 
 3.  Complete the form.
 
-    \(The fields you see depend on how the form is configured and what fields are selected to display.\)
+    The fields you see depend on how the form is configured and what fields are selected to display.
 
 <table id="table_opj_hct_nv"><thead><tr><th>
 
@@ -46,38 +42,27 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Account nickname
+Employee
 
 </td><td>
 
-A brief, descriptive term for your account, allowing personalization and easy identification.
+Select the **Lookup using list** icon and select the employee.
 
 </td></tr><tr><td>
 
-Bank routing number
+Bank account
 
 </td><td>
 
-The unique identifier for the bank associated with the account.
+Select the **Lookup using list** icon and select the bank account.If necessary, add a new bank account: 
 
 </td></tr><tr><td>
 
-Account number
+Active
 
 </td><td>
 
-The unique identifier for your individual bank account.
-
-</td></tr><tr><td>
-
-Account type
-
-</td><td>
-
-Identifies the classification of the account. Choose from:-   Checking
--   Savings
--   Other
-
+Select to activate direct deposit for the employee. Leaving the box empty or deselecting deactivates direct deposit.
 
 </td></tr><tr><td>
 
@@ -85,10 +70,7 @@ Deposit type
 
 </td><td>
 
-Type of direct deposit. Choose from:-   Amount
--   Percentage
--   Remaining balance
-
+Select from amount, percentage, or remaining.
 
 </td></tr><tr><td>
 
@@ -96,20 +78,10 @@ Deposit amount
 
 </td><td>
 
-Displays when Amount is selected for Deposit type. Enter the dollar amount for direct deposit.
-
-</td></tr><tr><td>
-
-Deposit percentage
-
-</td><td>
-
-Displays when Percentage is selected for Deposit type. Enter the percentage amount for direct deposit.
+Amount of money from paycheck for direct deposit.
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
-
-    The system creates an HR case and assigns it to the configured HR person. View the status of your request from the **My Requests** tab.
+</table>4.  Select **Submit**.
 
 
 **Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)

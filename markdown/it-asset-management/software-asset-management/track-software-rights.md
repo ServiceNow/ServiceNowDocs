@@ -1,20 +1,20 @@
 ---
-title: Create entitlements in Software Asset Management Core UI
-description: Create entitlements in the Software Asset Management Core UI application to record your license details and allocate purchased software rights to users or devices.
+title: Create entitlements in Software Asset Management classic
+description: Create entitlements in the Software Asset Management application classic to record your license details and allocate purchased software rights to users or devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/track-software-rights.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Create entitlements in Software Asset Management Core UI
+# Create entitlements in Software Asset Management classic
 
-Create entitlements in the Software Asset Management Core UI application to record your license details and allocate purchased software rights to users or devices.
+Create entitlements in the Software Asset Management application classic to record your license details and allocate purchased software rights to users or devices.
 
 ## Before you begin
 
@@ -52,7 +52,7 @@ If you installed the Citrix publisher pack, see [Record software rights for Citr
 
 5.  To specify users and devices that have software rights allocated to them, select the **User Allocations** or **Device Allocations** section.
 
-    The **Device Allocations** section is not visible for the IBM Resource Value Unit \(RVU\) license metric. The Resource Value Unit \(RVU\) license metric is licensed at the product level and so rights are not used by individual devices. When you upgrade from a prior release, that had device allocations, to the Australia release, the existing device relocations are removed.
+    The **Device Allocations** section is not visible for the IBM Resource Value Unit \(RVU\) license metric. The Resource Value Unit \(RVU\) license metric is licensed at the product level and so rights are not used by individual devices. When you upgrade from a prior release, that had device allocations, to the Brazil release, the existing device relocations are removed.
 
 6.  To track your software downgrade rights, select the [Downgrade Rights related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-entitlement-fields.md) and specify the version.
 
@@ -80,14 +80,14 @@ Define license details, for all publishers other than Microsoft, to manage all y
 -   **[Create entitlements for Microsoft Software Assurance in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlement-microsoft-sa.md)**  
 Define license details for Microsoft Software Assurance \(SA\) to manage your contracts start and end dates, software upgrades, and related software entitlements.
 
-**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-classic.md)
 
 **Related topics**  
 
 
 [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-entitlement-fields.md)
 
-[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+[Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-models-and-entitlements.md)
 
 [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -27,7 +27,7 @@ The data collection process for the Network Inventory Workspace landing page use
 
 For example, the following shows a listing of some of the CMDB groups that are used for the Network Inventory Workspace data collection:
 
-\[Omitted image "cmdb-group.png"\] Alt text: CMDB groups view for the Network Inventory Workspace with the list of standard CMDB groups.
+\[Omitted image "ni-workspace-cmdb-groups.png"\] Alt text: CMDB groups view for the Network Inventory Workspace with the list of standard CMDB groups.
 
 **Note:** To learn how the data collection process operates, see [Data collection and refresh for the Network Inventory Workspace widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/data-collection-niw-widgets.md).
 
@@ -72,23 +72,23 @@ The following examples show how the name segments are combined in the CMDB group
 
 -   **All Available Status Equipment**
 
-    CMDB group data that is used in the Network equipment by states widget to report the percentage of equipment that is in the Available status in all network domains.
+    CMDB group data that is used in the Network equipment by states widget. It reports the percentage of equipment that is in the Available status in all network domains.
 
 -   **Core Available Status Equipment**
 
-    CMDB group data used in the Network equipment by states widget to report the percentage of equipment that is in an Available status in the Core network domain.
+    CMDB group data used in the Network equipment by states widget. It reports the percentage of equipment that is in an Available status in the Core network domain.
 
 -   **Mobility Pending Repair Status Equipment**
 
-    CMDB group data used in the Network equipment by states widget to report the percentage of equipment that is in a Pending Repair status in the Mobility network domain.
+    CMDB group data used in the Network equipment by states widget. It reports the percentage of equipment that is in a Pending Repair status in the Mobility network domain.
 
 -   **All Ericsson Manufacturer Equipment**
 
-    CMDB group data that is used in the Network equipment by manufacturer widget to report the total piece count for the equipment that is supplied by Ericsson in all network domains.
+    CMDB group data that is used in the Network equipment by manufacturer widget. It reports the total piece count for the equipment that is supplied by Ericsson in all network domains.
 
 -   **Telecom Nokia Manufacturer Equipment**
 
-    CMDB group data that is used in the Network equipment by manufacturer widget to report the total piece count for the equipment that is supplied by Nokia in the Telecom network domain.
+    CMDB group data that is used in the Network equipment by manufacturer widget. It reports the total piece count for the equipment that is supplied by Nokia in the Telecom network domain.
 
 
 ## Modifying the Network equipment by manufacturer widget
@@ -119,7 +119,7 @@ This table shows what the existing CMDB group codes look like for Ericsson, and 
 -   **[Update CMDB groups for use in the data collection process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/updating-cmdb-groups-niw-data-collection-process.md)**  
 Add or change the data that you see in a Network Inventory Workspace widget by using the CMDB Groups function. You create CMDB group codes as needed or modify the query conditions for existing ones. By changing the CMDB groups, you affect what data the collection process retrieves for the widgets on the Network Inventory Workspace landing page.
 
-**Parent Topic:**[Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
+**Parent Topic:**[Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
 
 **Related topics**  
 

@@ -1,20 +1,20 @@
 ---
-title: Setup Business and Consumer Portal
-description: Configure the Business Portal to match your organization's requirements, including branding, menus, home pages, widgets, and search sources.
+title: Set up Business and Consumer Portal
+description: set up the Business and Consumer Portal to match your organization's requirements, including branding, menus, home pages, widgets, and search sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/customize-business-portals.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
-# Setup Business and Consumer Portal
+# Set up Business and Consumer Portal
 
-Configure the Business Portal to match your organization's requirements, including branding, menus, home pages, widgets, and search sources.
+set up the Business and Consumer Portal to match your organization's requirements, including branding, menus, home pages, widgets, and search sources.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: sp\_admin
 
     Some of the components that you can customize include:
 
-    -   Branding: [Configure the portal branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_BrandingEditor.md) to give your Business Portal and Consumer Portal portal their own look and feel. The Coral theme is available for the Business and Consumer Portal portal.
+    -   Branding: [Configure the portal branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_BrandingEditor.md) to give your Business Portal and Consumer Portal their own look and feel. The Coral theme is available for the Business and Consumer portals.
     -   Menus: Update the base system menu or add a new one. For details, see [Configure the portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-header-menu.md).
     -   Home page: Update the default home page by updating the widget configuration or assign a custom home page. For details, see [Assign a homepage to the portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/assign-portal-homepage.md).
     -   Widgets: Use configurable portal widgets to define the content in your portal. For details, see [Configurable Portal widget library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configurable-portal-widgets-library.md).
@@ -37,7 +37,7 @@ Role required: sp\_admin
     -   Roles: [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-page-security.md) to either set up pages to be public \(no login required\) or to filter them by user role.
     -   Search sources: Configure a search source for the portal to describe the behavior and source of searchable data. For details, see [Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-table-search-source.md).
     -   Knowledge base: Configure a knowledge base for the portal to view the associated knowledge articles. For details, see [Configure knowledge bases for a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-search-on-all-kb.md).
-    -   Catalog: Configure a catalog for Business and Consumer Portal portal. For details, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/associate-portal-catalog.md).
+    -   Catalog: Configure a catalog for Business and Consumer portals. For details, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/associate-portal-catalog.md).
 
 **Related topics**  
 
@@ -45,4 +45,6 @@ Role required: sp\_admin
 [Set up Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-configurable-portal-widget.md)
 
 [Business Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_BusinessPortalUserRoles.md)
+
+[Evaluate the performance of a portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/analyze-page-performance.md)
 

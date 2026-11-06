@@ -1,5 +1,5 @@
 ---
-title: Mobile client GlideForm \(g form\) scripting and migration
+title: Client-side scripting for mobile
 description: Client scripting for mobile is identical to scripting for the web, with some exceptions. All new scripts must conform to certain guidelines. The following items are affected on the mobile platform: client scripts, UI policies, navigator modules, and UI actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/r\_MobilePlatformMigrationImpacts.html
@@ -7,37 +7,55 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Client-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Write client-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
-# Mobile client GlideForm \(g form\) scripting and migration
+# Client-side scripting for mobile
 
 Client scripting for mobile is identical to scripting for the web, with some exceptions. All new scripts must conform to certain guidelines. The following items are affected on the mobile platform: client scripts, UI policies, navigator modules, and UI actions.
 
-## Client scripts
+## General guidelines for writing client-side scripts for mobile
 
 For new or existing scripts to be valid for mobile, they must conform to the following requirements:
 
--   Use the new mobile methods in place of g\_form.getControl\(\).
--   Do not use deprecated methods.
--   Do not reference unsupported browser objects.
--   Do not make synchronous JavaScript, GlideAjax, and GlideRecord calls.
--   Do not call methods that are not available for mobile.
 -   Enable scripts to run on the mobile UI.
+-   Use the new mobile methods in place of g\_form.getControl\(\).
+-   Don't use deprecated methods.
+-   Don't reference unsupported browser objects.
+-   Don't make synchronous JavaScript, GlideAjax, and GlideRecord calls.
+-   Don't call methods that aren't available for mobile.
 
-<table id="table_Requirements"><tbody><tr><td>
+For more information, see the following details.
+
+<table id="table_Requirements"><thead><tr><th>
+
+Guideline
+
+</th><th>
+
+Details
+
+</th></tr></thead><tbody><tr><td>
+
+Enable scripts for mobile
+
+</td><td>
+
+Scripts must be enabled for the mobile platform.
+
+</td></tr><tr><td>
 
 Use the new mobile methods
 
 </td><td>
 
-Several new methods are available for modifying form fields instead of directly manipulating the HTML. These methods replace previous usages of g\_form.getControl\(\), which is deprecated for the mobile platform. In your existing scripts, ensure that the new methods are used in place of methods that are not valid on the mobile platform. For information on these new methods, refer to [Mobile GlideForm\(\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_MobileGlideForm_API.md).
+Several new methods are available for modifying form fields instead of directly manipulating the HTML. These methods replace previous usages of g\_form.getControl\(\), which is deprecated for the mobile platform. In your existing scripts, ensure that the new methods are used in place of methods that aren't valid on the mobile platform. For information on these new methods, refer to [Mobile GlideForm\(\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_MobileGlideForm_API.md).
 
 </td></tr><tr><td>
 
-Do not use deprecated methods
+Don't use deprecated methods
 
 </td><td>
 
@@ -47,54 +65,54 @@ The following methods have been deprecated for the mobile platform because direc
 -   g\_form.getFormElement\(\)
 -   g\_form.getElement\(\)
 
- To ensure that existing scripts are compatible, remove all calls to deprecated methods from your code. For new scripts, do not use deprecated methods if you want the script to be valid for mobile.
+ To ensure that existing scripts are compatible, remove all calls to deprecated methods from your code. For new scripts, don't use deprecated methods if you want the script to be valid for mobile.
 
  For g\_form.getControl\(\), some of the functionality previously included with this method has been extracted to individual methods. Instead of g\_form.getControl\(\), use the new methods described on the developer site.
 
 </td></tr><tr><td>
 
-Do not reference unsupported browser objects
+Don't reference unsupported browser objects
 
 </td><td>
 
-The following browser objects are not supported in mobile scripts:
+The following browser objects aren't supported in mobile scripts:
 
  -   Window
 -   jQuery or Prototype \($, $j, or $$\)
 -   Document
 
- Make sure that new scripts do not use these objects, and remove any usage of these objects from your existing scripts. Use GlideForm \(g\_form\) instead, which provides methods such as setLabel\(\), addDecoration\(\), and hasField\(\) for accomplishing the same tasks.
+ Make sure that new scripts don't use these objects, and remove any usage of these objects from your existing scripts. Use GlideForm \(g\_form\) instead, which provides methods such as setLabel\(\), addDecoration\(\), and hasField\(\) for accomplishing the same tasks.
 
 </td></tr><tr><td>
 
-Do not make synchronous JavaScript calls
+Don't make synchronous JavaScript calls
 
 </td><td>
 
 The mobile platform does not allow synchronous JavaScript calls. The g\_form.getReference\(\) method must now have the callback parameter defined. For example:
 
- ```
- g_form.getReference(fieldName, callback)
+ ```javascript
+g_form.getReference(fieldName, callback)
 ```
 
  Be sure that all g\_form.getReference\(\) calls include the callback parameter. For example, the following script does not include a callback and is incompatible with the mobile platform:
 
- ```
- var userName = g_form.getReference('assigned_to').user_name;
+ ```javascript
+var userName = g_form.getReference('assigned_to').user_name;
  g_form.setValue('u_assigned_user_name', userName);
 ```
 
  The following script has been updated to include the callback and is compatible with the mobile platform:
 
- ```
- g_form.getReference('assigned_to', function(now_GR) {
+ ```javascript
+g_form.getReference('assigned_to', function(now_GR) {
      g_form.setValue('u_assigned_user_name', gr.user_name);
  });
 ```
 
 </td></tr><tr><td>
 
-Do not make synchronous Ajax calls
+Don't make synchronous Ajax calls
 
 </td><td>
 
@@ -102,14 +120,14 @@ The mobile platform does not allow synchronous GlideAjax calls. Any use of getXM
 
 </td></tr><tr><td>
 
-Do not make synchronous GlideRecord calls
+Don't make synchronous GlideRecord calls
 
 </td><td>
 
 The mobile platform does not allow synchronous [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) calls. Make sure that any existing GlideRecord calls include a callback. For example, the following script does not include a callback and is incompatible with the mobile platform:
 
- ```
- var now_GR = new GlideRecord('incident');
+ ```javascript
+var now_GR = new GlideRecord('incident');
  gr.addQuery('number', g_form.getValue('related_incident'));
  gr.query();
  gr.next();
@@ -118,8 +136,8 @@ The mobile platform does not allow synchronous [GlideRecord](https://raw.githubu
 
  The following script has been updated to include the callback, and is compatible with the mobile platform:
 
- ```
- var now_GR = new GlideRecord('incident');
+ ```javascript
+var now_GR = new GlideRecord('incident');
  gr.addQuery('number', g_form.getValue('related_incident'));
  gr.query(function(now_GR) {
      gr.next();
@@ -129,11 +147,11 @@ The mobile platform does not allow synchronous [GlideRecord](https://raw.githubu
 
 </td></tr><tr><td>
 
-Do not use methods unavailable on the mobile platform
+Don't use methods unavailable on the mobile platform
 
 </td><td>
 
-Due to the limitations and reduced functionality that is imposed by the mobile platform, the following methods are not deprecated but are not available on the mobile platform. If these run on the mobile platform, no action occurs:
+Due to the limitations and reduced functionality that is imposed by the mobile platform, the following methods aren't deprecated but aren't available on the mobile platform. If these run on the mobile platform, no action occurs:
 
 -   showRelatedList \(\)
 -   hideRelatedList \(\)
@@ -145,14 +163,6 @@ Due to the limitations and reduced functionality that is imposed by the mobile p
 -   disableAttachments\(\)
 -   setReadonly\(\) \(Note that setReadOnly\(\) is available\)
 -   getParameter\(\)
-
-</td></tr><tr><td>
-
-Enable scripts for mobile
-
-</td><td>
-
-Scripts must be enabled for the mobile platform.
 
 </td></tr></tbody>
 </table>**Note:** Focusing an element on a mobile form is not supported.
@@ -167,7 +177,7 @@ For existing code, modules must be transferred to either the sys\_ui\_applicatio
 
 ## UI actions
 
-UI actions must be transferred to the sys\_ui\_ng\_action table to appear on the mobile platform. UI action scripts that do not use deprecated methods do not require changes to the script itself. For new UI actions, be sure that they are created in the sys\_ui\_ng\_action table.
+UI actions must be transferred to the sys\_ui\_ng\_action table to appear on the mobile platform. UI action scripts that don't use deprecated methods don't require changes to the script itself. For new UI actions, be sure that they are created in the sys\_ui\_ng\_action table.
 
-**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
+**Parent Topic:**[Writing client-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
 

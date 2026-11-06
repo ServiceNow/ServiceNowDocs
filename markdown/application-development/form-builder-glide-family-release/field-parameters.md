@@ -7,9 +7,9 @@ release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Table Builder reference, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Reference, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Field configuration in Table Builder
@@ -91,7 +91,7 @@ Properties for a field label:-   **Tooltip** property that is displayed when a u
 </td></tr></tbody>
 </table>## Default value
 
-The default value automatically fills in the field on the empty form for a record. If the field is empty when the user submits the record, the default value fills it in. Specify default values as a constant or use a script to generate them.
+The default value automatically fills in the field on the empty form for a new record, or fills in the field later \(if the field is empty\) when your user submits the new record. You can specify the default values as either a constant or use a script to generate them.
 
 To learn how to define a default value for the fields, see [Specify a default field value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SpecifyingADefaultValue.md).
 
@@ -308,7 +308,7 @@ Attribute value that you can set to alter the field behavior that is described b
 </td></tr></tbody>
 </table>## Formula
 
-A formula allows you to calculate the value of a column without writing a script. You can use one of the predefined formulas or combine two are more formulas to calculate the column value. For information on the predefined formulas and examples, see [Formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/formulas-columns-table-builder.md).
+A formula enables you to calculate the value of a column without writing a script. You can use one of the predefined formulas or combine two are more formulas to calculate the column value. For information on the predefined formulas and examples, see [Formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/formulas-columns-table-builder.md).
 
 In the Formula section, select **Edit** or **+ Add** to edit or add a formula.
 

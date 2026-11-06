@@ -7,7 +7,7 @@ release: australia
 product: Innovation Management
 classification: innovation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Innovation Management, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -68,5 +68,5 @@ Run the following Performance Analytics data collector jobs before using the Ide
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

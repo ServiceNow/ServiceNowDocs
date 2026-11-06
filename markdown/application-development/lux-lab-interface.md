@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 1
 keywords: [Lux Lab interface, Interface regions]
-breadcrumb: [Exploring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Lux Lab interface

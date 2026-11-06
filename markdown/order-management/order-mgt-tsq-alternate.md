@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-tsq-alternate.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service qualification requests, Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ When you receive an alternate qualification request and click **Qualify Order** 
 
 **Note:** When you initiate a new qualification request is initiated and receive an alternate proposal for a service order, any existing alternate proposal entries will be deleted before new entries are created.
 
-Navigate to the **CSM/FSM Configurable Workspace**, click a service order with Fulfilment type as **Qualify** and select the **Alternate proposal\(s\)** tab.
+Navigate to the **CRM Workspace**, click a service order with Fulfilment type as **Qualify** and select the **Alternate proposal\(s\)** tab.
 
 \[Omitted image "order-mgt-tsq-process-alternate.png"\] Alt text: Infographic displaying the Alternate proposals tab view with its list and details. For the text description, refer to the steps that follow.
 

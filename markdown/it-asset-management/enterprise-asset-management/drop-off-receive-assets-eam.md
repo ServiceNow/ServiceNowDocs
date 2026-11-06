@@ -7,9 +7,9 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Delivering enterprise assets in your personal stockroom through Drop off tasks
@@ -84,4 +84,6 @@ Add enterprise assets to a Drop off task and deliver the assets to the required 
 As an asset manager, confirm that you received the enterprise assets that were delivered to your stockroom and complete the Receive task.
 -   **[Record time worked on Drop off and Receive tasks for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/record-time-drop-receive.md)**  
 Manage and record time worked on Drop off and Receive asset tasks in the Enterprise Asset Workspace. After you start work on a task, you can pause and resume work. You can also record the time worked manually.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Analytics and Reporting Solutions for Employee Relations, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -26,7 +26,7 @@ Role required: pa\_admin
 
 1.  Run diagnostics on all records.
 
-    These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables. For more information, see [Performance Analytics diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/self-diagnostics.md).
+    These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables.
 
 2.  Navigate to **All** &gt; **Performance Analytics** &gt; **Administration Console**.
 

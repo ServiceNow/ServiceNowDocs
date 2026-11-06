@@ -7,7 +7,7 @@ release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -19,7 +19,7 @@ You can align life-cycle values for each product instance on the asset, CI, and 
 This topic provides an overview of the entire align and synchronize process.
 
 -   Detailed instructions for running the align and synchronize process appears in [Migrate legacy asset and CI settings to CSDM life-cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
--   A detailed reference to all synchronization options appears in [How life-cycle values for Asset, CI, and IBI are synchronized](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/cmdb-asset-CI-IBI-sync-options.md).
+-   A detailed reference to all synchronization options appears in [Synchronizing life-cycle values for Asset, CI, and IBI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/cmdb-asset-CI-IBI-sync-options.md).
 
 **Tip:** Terms used in this document are defined in [CSDM life-cycle terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-life-cyle-terms.md).
 
@@ -27,7 +27,7 @@ This topic provides an overview of the entire align and synchronize process.
 
 When the one-time data synchronization operation finishes, CSDM life-cycle values for each product instance as represented in the asset and CI tables will be identical. Business rules then synchronize life-cycle value pairs among the asset, CI, and IBI tables. The business rules then run on regular schedules to promote that life-cycle values for the asset, CI, and IBI tables remain aligned.
 
-See [How life-cycle values for Asset, CI, and IBI are synchronized](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/cmdb-asset-CI-IBI-sync-options.md).
+See [Synchronizing life-cycle values for Asset, CI, and IBI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/cmdb-asset-CI-IBI-sync-options.md).
 
 The following products, for example, benefit from the standardized values:
 

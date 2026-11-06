@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-ws-collaborate-component.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Components, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---

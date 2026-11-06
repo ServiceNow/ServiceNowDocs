@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create conversational custom chat integration, Conversational custom chat integrations, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create conversational custom chat integration, Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Create the action scripts for your custom chat integration
@@ -34,6 +34,4 @@ Role required: admin
 
     For details about the input and output used in action scripts, along with script examples, see [Virtual Agent action scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-action-scripts.md).
 
-
-**Parent Topic:**[Create a Virtual Agent conversational custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/c\_UseStateFlows.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [State flows, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [State flows, Exploring Service Administration, Service Administrati
 
 You can create custom state flows for any table that uses states.
 
-Make state transitions occur in any order or skip specific states according to your business practices. State flows can manage the behavior of fields and field visibility on a task form. State flows can also trigger system events that perform work such as sending [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
+Make state transitions occur in any order or skip specific states according to your business practices. State flows can manage the behavior of fields and field visibility on a task form. State flows can also trigger system events that perform work such as sending Email and SMS notifications.
 
 Administrators can configure state flows to:
 

@@ -7,9 +7,9 @@ release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2026-03-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Using Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Using MLSolutionFactory scriptable objects

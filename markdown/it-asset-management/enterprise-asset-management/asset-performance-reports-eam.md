@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---

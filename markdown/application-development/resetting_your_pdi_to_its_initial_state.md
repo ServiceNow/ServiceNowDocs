@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/resetting\_your\_pdi\_to\_its\_initial\_state.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Resetting your PDI to its initial state

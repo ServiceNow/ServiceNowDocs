@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Digital Product Release, IT Service Management]
 ---
@@ -20,7 +20,7 @@ If you have the Release Management v2 \(RM v2\) application installed, you can m
 
 Role required: admin
 
-To provide access to additional roles, you can add comma-separated values of other roles installed with DPR in the system property **sn\_dpr\_model.rmv2.migration\_roles**. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/digital-product-release-properties.md).
+To provide access to additional roles, you can add comma-separated values of other roles installed with DPR in the system property **sn\_dpr\_model.rmv2.migration\_roles**. For more information, see [Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 ## About this task
 

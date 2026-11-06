@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resize resources with Rightsizing, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -37,7 +37,7 @@ If either condition is met, the app sends an email notification to the owner of 
 
 ## Procedure
 
-1.  Navigate to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Recommendations** &gt; **Rightsizing**.
+1.  Navigate to **Cloud Cost Management Workspace** &gt; **Optimization** &gt; **Rightsizing**.
 
 2.  On the New, Declined, or Failed tabs, select the resources that you want to exclude from rightsizing analysis.
 

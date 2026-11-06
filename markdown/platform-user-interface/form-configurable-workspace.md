@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/form-configurable-workspace.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Within a Configurable Workspace record, the form enables agents to view, enter, 
 
 For example, an agent can update the short description, priority, assignment group, and status within an incident record form.
 
-\[Omitted image "configurable-workspace-form-record.png"\] Alt text: Standard record page screenshot with the form highlighted
+\[Omitted image "configurable-workspace-form-record.png"\] Alt text: Form on a Configurable Workspace record
 
 ## Form component bundle
 

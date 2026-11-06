@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -37,7 +37,7 @@ Role required: sn\_cmp.cloud\_service\_user
     \[Omitted image "stack-details.png"\] Alt text: Stack details
 
     -   Breadcrumb navigation
-    -   Name of the stack. Click **View Dependency** to view the dependency map for the stack, **Manage Stack** to view the resources, properties, and activities of the stack, and **Track Operations** to view the list of lifecycle operations performed on the stack and its resources.
+    -   Name of the stack. Click **View Dependency** to view the dependency map for the stack. Click **Manage Stack** to view the resources, properties, and activities of the stack. Click **Track Operations** to view the list of lifecycle operations performed on the stack and its resources.
     -   Status information
     -   List of all resources in the stack. Click a resource to view details in the **Properties** section. Color codes indicate status of the stack:
         -   Green: On/Active.

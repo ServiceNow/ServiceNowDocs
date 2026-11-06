@@ -1,11 +1,11 @@
 ---
 title: Make the invoice dispute assist workflow available in the ServiceNow Otto panel
-description: Configure the invoice dispute assist agentic workflow in AI Agent Studio to make it available to agents in the ServiceNow Otto panel in the CSM/FSM Configurable Workspace.
+description: Configure the invoice dispute assist agentic workflow in AI Agent Studio to make it available to agents in the ServiceNow Otto panel in the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/enable-invoice-dispute-assist-agentic-workflow.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring the Manage Invoice Operations application, Business Portal, Configure, Sales Customer Relationship Management]
@@ -13,7 +13,7 @@ breadcrumb: [Configuring the Manage Invoice Operations application, Business Por
 
 # Make the invoice dispute assist workflow available in the ServiceNow Otto panel
 
-Configure the invoice dispute assist agentic workflow in AI Agent Studio to make it available to agents in the ServiceNow Otto panel in the CSM/FSM Configurable Workspace.
+Configure the invoice dispute assist agentic workflow in AI Agent Studio to make it available to agents in the ServiceNow Otto panel in the CRM Workspace.
 
 ## Before you begin
 

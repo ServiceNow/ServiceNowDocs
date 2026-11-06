@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Collecting indicator scores, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -181,9 +181,9 @@ Conditions
 
 </td><td>
 
-A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. **Warning:** Conditional scripts for Performance Analytics data collection jobs are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
+A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. **Warning:** Conditional scripts for Performance Analytics data collection jobs are executed in the sandbox. Therefore, function definitions aren't allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
 
-After upgrade, jobs with conditional scripts that contain these disallowed API components will conclude with "Collected with errors." These jobs do not collect scores.
+After upgrade, jobs with conditional scripts that contain these disallowed API components will conclude with "Collected with errors." These jobs don't collect scores.
 
 The `com.snc.pa.dc.script.use.sandbox` system property controls whether data collection scripts use the sandbox. Only users with the security\_admin role can modify this property. Exercise caution when turning off this property. When set to false, unauthorized users may be able to execute malicious actions on your instance.
 

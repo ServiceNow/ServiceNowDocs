@@ -7,7 +7,7 @@ release: australia
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -105,9 +105,13 @@ Domain for the view by configuration.This field is automatically set to global a
 **Related topics**  
 
 
+[Allocation - types, setting, and impact]()
+
 [Components installed with Workplace Space Management]()
 
 [Properties installed with Workplace Space Management]()
 
 [KPI Configuration form]()
+
+[]()
 

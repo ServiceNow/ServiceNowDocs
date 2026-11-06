@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-visibility-criteria.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a checklist template, Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a checklist template, My promotions, Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a visibility criteria
@@ -20,7 +20,7 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Sales Promotion Management** &gt; **My Promotions** &gt; **Visibility Criteria**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Sales Promotion Management** &gt; **My Promotions** &gt; **Visibility Criteria**.
 
 2.  Select **New**.
 
@@ -53,6 +53,8 @@ Required service organization condition.To learn more about the Service Organiza
 </td></tr></tbody>
 </table>4.  Select **Save**.
 
+
+**Parent Topic:**[Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-create-checklist.md)
 
 **Related topics**  
 

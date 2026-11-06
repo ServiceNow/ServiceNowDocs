@@ -1,20 +1,20 @@
 ---
 title: Universal Request in Service Operations Workspace
-description: The Universal Request is a task that a requester creates from any of the sources that include: Agent Workspace, Service Operations Workspace, or using a Virtual Agent chat.
+description: The Universal Request is a task that a requester creates from sources such as Agent Workspace, Service Operations Workspace, or using a Virtual Agent chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/using-ur-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Universal Request in Service Operations Workspace
 
-The Universal Request is a task that a requester creates from any of the sources that include: Agent Workspace, Service Operations Workspace, or using a Virtual Agent chat.
+The Universal Request is a task that a requester creates from sources such as Agent Workspace, Service Operations Workspace, or using a Virtual Agent chat.
 
 Use the Universal Request in Service Operations Workspace to view, create, edit, and resolve universal requests.
 
@@ -23,7 +23,7 @@ As an agent, you can create universal requests from the Universal Request applic
 -   **[Cancel a Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/cancel-ur-sow.md)**  
 Cancel the Universal Request if the issue is resolved already or you no longer require the request.
 -   **[Use Agent assist in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/agent-assist-ur-sow.md)**  
-Use the Agent assist in Service Operations Workspace to find similar Universal Requests that are open and closed, Knowledge articles, Catalog items, and Pinned articles.
+Use the Agent assist in Service Operations Workspace to find similar universal requests that are open and closed, knowledge articles, catalog items, and pinned articles.
 -   **[Transfer a primary ticket in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/transfer-primary-task-ur-sow.md)**  
 You can transfer a primary ticket to Universal Request, service set \(department\), or service either with resolution or without resolution.
 -   **[Restrict or unrestrict universal request access in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/restrict-ur-sow.md)**  

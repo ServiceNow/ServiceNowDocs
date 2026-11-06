@@ -7,15 +7,17 @@ release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-06"
 reading_time_minutes: 4
 keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
 ---
 
 # AI Readiness Evaluation
 
 The AI Readiness Evaluation app helps prepare your organization for implementing agentic AI for ITSM and CSM, and five other jobs.
+
+**Important:** The AI Readiness Evaluation store application is being prepared for deprecation. The readiness assessment capability is now available as a native in-platform feature within the AI Admin Center application. For more information, see [AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-landing-page.md).
 
 Choose one of these tiles to get started.
 
@@ -50,6 +52,8 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-products.md).
 
 **Related topics**  
 

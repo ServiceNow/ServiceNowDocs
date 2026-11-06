@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configuring-employee-as-a-consumer.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring a Unified User, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -33,7 +33,7 @@ A functional Unified Consumer requires:
 
 Create the consumer record before assigning the role. Missing either component prevents the user from accessing consumer functionality such as cases, sold products, or install base items.
 
-You can initiate this functionality by enabling the Customer Service \(com.sn\_customerservice\) plugin.
+You can initiate this functionality by enabling the Case Management Core \(com.sn\_customerservice\) plugin.
 
 ## Using a query rules framework
 

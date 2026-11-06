@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Targets and thresholds, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -22,7 +22,7 @@ A target can be personal or global. A personal target is visible only to the use
 
 |Platform Analytics experience feature|Equivalent Core UI feature|Global or Personal targets|View or set|
 |-------------------------------------|--------------------------|--------------------------|-----------|
-|[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details.md)|[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)|Global and personal|Set and view|
+|[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/kpi-details.md)|[\(Legacy\) Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)|Global and personal|Set and view|
 |[Time series](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-time-series-ac.md) and [Single score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-sing-sc-ac.md) Platform Analytics data visualizations|[Time series Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/time-series-widgets.md)|Global|View only|
 |[Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md) containing time series or single score data visualizations that show targets|[Responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/dashboards-landing-page.md) containing Time series Performance Analytics widgets that show targets|Global|View only|
 |[Proactive analytics insights cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/proactive-analytics/proactive-analytics.md) on Platform Analytics dashboards, which show targets being met or breached|No equivalent|Global|View only|

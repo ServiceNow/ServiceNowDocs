@@ -7,7 +7,7 @@ release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Testing common control and implementing results, Manage controls using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---

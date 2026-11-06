@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -28,4 +28,6 @@ Add the enterprise assets that you want to include in a move order.
 Remove any enterprise assets that you no longer want to include in a move order.
 -   **[Completing an enterprise asset move order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/completing-enterprise-asset-move-order.md)**  
 After you submit a move order for the in-use or consumed enterprise assets that you want to move, you must perform various tasks to complete the order.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
 

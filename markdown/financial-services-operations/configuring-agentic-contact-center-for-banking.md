@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configuring-agentic-contact-center-for-banking.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [configure]
 breadcrumb: [Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
@@ -21,11 +21,11 @@ Configure Agentic Contact Center for Banking by integrating your CCaaS provider,
 
     Install the application.
 
--   
+-   [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-icc-for-ccaas.md)
 
-    Integrate your CCaaS provider with Agentic Contact Center for Banking. For more information, see .
+    Integrate your CCaaS provider with Agentic Contact Center for Banking. For more information, see [Integrating with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contactcenter-integration.md).
 
--   Configure Interaction wrap-up codes and AI skills
+-   [Configure Interaction wrap-up codes and AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.md)
 
     Set up wrap-up codes and activate the Wrap Up Completion skill to enable AI-generated call summaries for your agents.
 

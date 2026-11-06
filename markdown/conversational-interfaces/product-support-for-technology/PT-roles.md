@@ -7,7 +7,7 @@ release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with the Proactive Triggers feature, Proactive Triggers reference, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---

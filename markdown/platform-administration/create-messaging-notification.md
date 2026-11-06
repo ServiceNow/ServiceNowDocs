@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-messaging-notification.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Notifications in messaging applications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,11 +22,11 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Notification** &gt; **Messaging** &gt; **Messaging Notifications**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  Fill in or modify the fields as appropriate.
 
-    \[Omitted image "email-notification-form.png"\] Alt text: Messaging notification form showing Name, Table, Category, and Description fields
+    \[Omitted image "EmailNotifFormTop.png"\] Alt text: Identifying the notification
 
 <table id="table_tlr_5hd_rdb"><thead><tr><th>
 
@@ -42,7 +42,7 @@ Name
 
 </td><td>
 
-Enter a unique name for the notification. Use descriptive names to confirm that your users can easily distinguish between notifications.
+Enter a unique name for the notification. Use descriptive names to ensure that your users are able to easily distinguish between notifications.
 
 </td></tr><tr><td>
 
@@ -71,13 +71,13 @@ Enter a description for this notification.
 </td></tr></tbody>
 </table>    **Note:** Notification records are shared between messaging, email, and push notifications. Some fields on the form are not relevant to messaging notification records. Leave fields not described here at their default values.
 
-4.  Select**Advanced view** under **Related links** to switch the advanced view.
+4.  Click**Advanced view** under **Related links** to switch the advanced view.
 
     **Note:** Switching to the Advanced view saves the current record.
 
 5.  Open the **When to send** tab and complete the form.
 
-    \[Omitted image "when-to-send-tab.png"\] Alt text: When to send tab showing Send when, Weight, Conditions, and Advanced condition fields
+    \[Omitted image "email\_notification\_when\_to\_send.png"\] Alt text: Specifying when to send the notification.
 
     **Note:** If the same trigger generates multiple notifications, the system only sends one notification. The system considers all other notifications, even if they have a different subject and body, as duplicates. The Ignore Duplicates business rule controls this functionality.
 

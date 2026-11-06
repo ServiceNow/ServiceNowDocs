@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Guarded script evaluator, Sandbox environment, Server-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Guarded script evaluator, Sandbox environment, Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # JavaScript APIs supported by guarded script

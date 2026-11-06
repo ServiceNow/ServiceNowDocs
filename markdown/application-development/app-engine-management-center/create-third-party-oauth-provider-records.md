@@ -7,9 +7,9 @@ release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configure OAuth credentials, Configure environment credentials, Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configure OAuth credentials, Configure environment credentials, Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Create third-party OAuth provider records
@@ -435,4 +435,6 @@ For example: `https://<production instance name>.service-now.com/oauth_token.do`
 ## What to do next
 
 Now that you’ve completed the pre-work for using OAuth, complete all the steps in [Use OAuth to create pipeline credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/use-oauth-to-create-pipeline-credentials.md) on the specified instances.
+
+**Parent Topic:**[Configure OAuth credentials for use in Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/configure-oauth-credentials-pipelines-deployments.md)
 

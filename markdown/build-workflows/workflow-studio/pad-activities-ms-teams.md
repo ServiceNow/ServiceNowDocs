@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -18,12 +18,12 @@ Enable agents and fulfillers to send direct messages and post in Microsoft Teams
 
 ## Roles and availability
 
--   These activities are available as an application in the ServiceNow Store. Users with the playbook.admin or pd\_author role can add these activities to a playbook.
+-   Users with the playbook.admin or pd\_author role can add these activities to a playbook.
 -   You must have access to Workflow Data Fabric's Microsoft Teams spoke.
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
 
 <table id="table_zlc_4nc_35b"><thead><tr><th>
 

@@ -7,7 +7,7 @@ release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Read-only options, Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -46,15 +46,15 @@ When a field's **Read only option** is set to Instance Configured, read-only beh
 
     The option that you enter determines how strict the system treats the security of read-only values once they've been entered. Each option displays the field as read-only in the UI.
 
-<table id="choicetable_ic3_bwk_tgc"><thead><tr><th align="left" id="d329573e139">
+<table id="choicetable_ic3_bwk_tgc"><thead><tr><th align="left" id="d330945e139">
 
 Option
 
-</th><th align="left" id="d329573e142">
+</th><th align="left" id="d330945e142">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d329573e148">
+</th></tr></thead><tbody><tr><td id="d330945e148">
 
 **`display_read_only`**
 
@@ -62,7 +62,7 @@ Description
 
 Allows changes to the read-only field through client scripts and server-side operations such as **TableAPI**, **GraphQL**, and **GlideRecordSecure\(\)**.
 
-</td></tr><tr><td id="d329573e170">
+</td></tr><tr><td id="d330945e170">
 
 **`client_script_modifiable`**
 
@@ -70,7 +70,7 @@ Allows changes to the read-only field through client scripts and server-side ope
 
 Allows changes to the read-only field through client scripts but not through background scripts or server-side APIs like **TableAPI**, **GraphQL**, and **GlideRecordSecure\(\)**.
 
-</td></tr><tr><td id="d329573e192">
+</td></tr><tr><td id="d330945e192">
 
 **`strict_read_only`**
 

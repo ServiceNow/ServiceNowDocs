@@ -7,9 +7,9 @@ release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Forms in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working with forms, Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Preview your form
@@ -42,6 +42,10 @@ Role required: personalize\_form or AES user role and delegated developer permis
     **Note:** Once you save your changes, you cannot undo them using the Undo function. The Undo icon \(\[Omitted image "fb-undo-icon.png"\] Alt text: Undo icon.\) is grayed out.
 
 6.  Select **Preview** to review your saved changes.
+
+    The Preview window displays a record for your form. The Workspace form view is shown in the example.
+
+    \[Omitted image "fb-preview-form.png"\] Alt text: Preview of Workspace form view.
 
 7.  You can perform any of the following actions as you review your changes to better understand how your form will display for users.
 

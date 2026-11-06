@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-getting-started-landing-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Australia release notes]
+breadcrumb: [Brazil release notes]
 ---
 
 # Using the release notes
@@ -17,8 +17,6 @@ Learn how to navigate the redesigned release notes and find the information you'
 ## Navigating the release notes
 
 We've redesigned the ServiceNow release notes experience to provide phased content that more closely matches the upgrade process.
-
-\[Omitted image "rn-trailmap.png"\] Alt text: Using the release notes
 
 ## Release notes directory
 
@@ -34,19 +32,19 @@ Content
 
 </th></tr></thead><tbody><tr><td>
 
-[Learn about the Australia release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-learn-landing-page.md)
+[Learn about the Brazil release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-learn-landing-page.md)
 
 </td><td>
 
 Review the release highlights to learn about new features and enhancements, and use curated release notes that correspond to your upgrade path.
 
--   [Release notes for upgrading from Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-n-1-landing-page.md)
--   [Release notes for upgrading from Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-n-2-landing-page.md)
--   [Release notes for upgrading from Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-n-3-landing-page.md)
+-   [Release notes for upgrading from Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-n-1-landing-page.md)
+-   [Release notes for upgrading from Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-n-2-landing-page.md)
+-   [Release notes for upgrading from Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-n-3-landing-page.md)
 
  Each curated release notes package includes tools to help inform the next steps in your upgrade, including:
 
--   Australia highlights
+-   Brazil highlights
 -   Features and changes by product, which are pre-combined for cross-family upgrades
 -   Changes to plugins
 -   Personalized PRB release notes
@@ -85,7 +83,4 @@ Our upgrade guide includes testing guidance, information on how to schedule your
 -   Phase 7 - Upgrade the production instance
 
 </td></tr></tbody>
-</table>## Release notes tour
-
-Learn how to navigate the redesigned release notes and find the information you’re looking for. Use new release notes tools to improve your upgrade experience.
-
+</table>

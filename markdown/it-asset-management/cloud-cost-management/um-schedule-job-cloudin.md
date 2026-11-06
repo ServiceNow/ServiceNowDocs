@@ -7,8 +7,8 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Manage unused resources, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
@@ -37,9 +37,11 @@ When you change the resources that are included in a job, the app checks for the
 
 If either condition is met, the app sends an email notification to the owner of the resource or the creator of the job.
 
+**Important:** Starting with Cloud Cost Management v11.0.0, the `sn_change_write` role is no longer inherited by the insights\_admin and insights\_owner roles. Both roles now inherit the `sn_change_read` role instead. As a result, users with these roles can view change requests that are created when a recommendation is scheduled, but they can't create change requests directly. To schedule recommendations, configure a change creator user before using the Recommendations module. For more information, see.
+
 ## Procedure
 
-1.  Navigate to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Recommendations** &gt; **Unused resources**.
+1.  Navigate to **Cloud Cost Management Workspace** &gt; **Optimization** &gt; **Unused resources**.
 
 2.  In the list on the appropriate tab, select the check boxes for the resources to terminate.
 
@@ -110,7 +112,7 @@ Type of change request to use. Unused Machines operations are directly integrate
     -   If a member of the change group rejects the request, the resource state is set to **Declined**, the resource remains listed on reports, and no action is taken.
 **Note:**
 
-The **Short description**, **Description**, **Assignment group**, and **Affected CIs** fields are auto-populated. For more information, see [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAChange.md).
+The **Short description**, **Description**, **Assignment group**, and **Affected CIs** fields are auto populated. For more information, see [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAChange.md).
 
 </td></tr><tr><td>
 
@@ -118,9 +120,9 @@ Change template
 
 </td><td>
 
-This field appears only when the **Approval type** is set to **Auto approval**.
+This field appears only when the **Approval type** is selected as **Auto approval**.
 
- Change request template \(Standard Change type\) to be used. If no template appears in the list, you must create one.
+ Change request template \(Standard Change type\) to be used. If no template appears in the list, you must create one. See Create a change request template.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -138,6 +140,8 @@ The Unused resources job is created and runs at the scheduled time.
 [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md)
 
 [Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_StandardChangeCatalogPlugin.md)
+
+[bundle-itsm.create-a-change-request-template]
 
 [Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
 

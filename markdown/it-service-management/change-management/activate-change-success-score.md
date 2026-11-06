@@ -1,20 +1,20 @@
 ---
 title: Activate Change Management - Change Success Score
-description: You can activate the Change Management - Change Success Score \(com.snc.change\_management.change\_success\_score\) plugin if you have the admin role. This plugin activates related plugins if they are not already active.
+description: Activate the Change Management - Change Success Score plugin \(com.snc.change\_management.change\_success\_score\) with the admin role. It activates related plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/activate-change-success-score.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Activate Change Management - Change Success Score
 
-You can activate the Change Management - Change Success Score \(com.snc.change\_management.change\_success\_score\) plugin if you have the admin role. This plugin activates related plugins if they are not already active.
+Activate the Change Management - Change Success Score plugin \(com.snc.change\_management.change\_success\_score\) with the admin role. It activates related plugins.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The Change Management - Change Success Score \(com.snc.change\_management.change\_success\_score\) plugin activates these related plugins if they are not already active.
+The Change Management - Change Success Score plugin \(com.snc.change\_management.change\_success\_score\) activates these related plugins if they are not already active.
 
 <table id="table_dhw_lrt_plb"><thead><tr><th>
 
@@ -38,7 +38,7 @@ Change Management - Change Success Score Foundation \[com.snc.change\_management
 
 </td><td>
 
-Adds the Change Success Score icon to the change form, loads default rating records, and installs the basic configurations that are needed to use the change success score feature.
+Adds the Change Success Score icon to the change form, loads default rating records, and installs the basic configurations that are needed to use the Change Success Score feature.
 
 </td></tr></tbody>
 </table>## Procedure
@@ -64,7 +64,7 @@ Several types of components are installed with activation of the Change Manageme
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -82,11 +82,11 @@ Several types of components are installed with activation of the Change Manageme
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -94,7 +94,7 @@ Several types of components are installed with activation of the Change Manageme
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -102,9 +102,9 @@ Several types of components are installed with activation of the Change Manageme
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

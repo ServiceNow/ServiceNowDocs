@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Integrating Service Catalog, Service Catalog, Manage service capabi
 
 Use Service Portal to configure an improved version of Catalog. You can customize Service Portal where your customers can request catalog items such as service and product offerings. You can use the Service Catalog widgets to build a catalog for your portal.
 
-**Note:** If you’re an existing customer using Service Portal we recommend that you migrate to the Employee Center for a better experience. For more information on Employee Center, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-landing-page.md)
+**Note:** If you’re an existing customer using Service Portal we recommend that you migrate to the Employee Center for a better experience. For more information on Employee Center, see Employee Center
 
 The Catalog landing page provides an interface from where you can access the catalog items, requests, approvals, popular items, recent items, and saved bundles. This page is available by default for zBoot users.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/exploring-unified-security-exposure-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Unified Security Exposure Management, Security Operations]
 ---
@@ -27,10 +27,6 @@ USEM is an evolution of existing Vulnerability Response modules including Applic
 |Remediation Owner|Drives remediation of assigned exposure findings, submitting exception requests for issues that can’t be resolved within defined timeframes, and navigating internal change management processes to implement fixes. The role also involves monitoring assigned workload to track progress and ensure compliance. With permissions to view and update findings and remediation tasks, access all vulnerability entries and solutions, and add internal notes, the Remediation Owner plays a key role in reducing organizational risk exposure.|
 |Approver|Reviews and authorizes requests related to vulnerability and exposure management, including false positive validations, exception deferrals, assignment change approvals, and risk reduction measures. This role ensures governance and compliance by evaluating justification, risk impact, and remediation timelines before granting approval or rejection. Approvers work within a unified approval view, providing timely decisions, maintaining audit trails, and supporting multi-level workflows to keep remediation processes aligned with organizational policies.|
 
-## Unified Security Exposure Management workflow
-
-\[Omitted image ""\] Alt text: USEM workflow \[Omitted image "usem-workflow.png"\] Alt text: USEM workflow
-
 ## Unified Security Exposure Management benefits
 
 |Benefit|Feature|Users|
@@ -38,7 +34,7 @@ USEM is an evolution of existing Vulnerability Response modules including Applic
 |**Unified workspace**: A centralized interface for managing exposures across infrastructure, applications, containers, and configuration compliance.|[Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-workspace-user-interface.md)|Administrators, Vulnerability Analysts, Remediation Owners, and Approvers|
 |**Cross-exposure visibility**: Provides dashboards and scorecards for monitoring risk posture and remediation progress in real time.|[Security Exposure Management Workspace Findings view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-findings-view.md)|Vulnerability Analysts|
 |**Streamlined administration**: A single console for configuring workflows, SLAs, notifications, and assignment rules across all exposure types|[Administration in Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-administration-console.md)|Administrators|
-|**Integration health monitoring**: Built-in tools to track and troubleshoot third-party integrations \(for example, Qualys, Tenable, Rapid7\).|[Review Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/review-usem-integrations.md)|Administrators|
+|**Integration health monitoring**: Built-in tools to track and troubleshoot third-party integrations \(for example, Qualys, Tenable, Rapid7\).|[Manage Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/review-usem-integrations.md)|Administrators|
 |**Role-based experience**: Tailored views for personas such as administrators, Vulnerability Analysts, Remediation Owners, and Approvers.|[Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-workspace-user-interface.md)|Administrators, Vulnerability Analysts, Remediation Owners, and Approvers|
 |**AI-powered enhancements**: AI generated insights on Findings view dashboards and approval recommendations for approvers.|[ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/now-assist-for-usem-landing-ties.md)|Security analysts, Governance &amp; Risk teams, Approvers|
 

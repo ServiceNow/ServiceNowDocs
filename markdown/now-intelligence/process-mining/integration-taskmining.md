@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration, Activate, Process Mining, Platform Analytics]
 ---
@@ -26,6 +26,8 @@ The integration preserves traceability between process-level insights and task-l
 
 -   **[Create Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-task-mining-project.md)**  
 Generate a Task Mining project analysis from the Process Mining Workspace by selecting a process flow node.
+-   **[Task Mining project naming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/task-mining-naming.md)**  
+Every time a Task Mining project is created from Process Mining, the project is named automatically.
 
 **Parent Topic:**[Integrating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/integrating-process-mining.md)
 

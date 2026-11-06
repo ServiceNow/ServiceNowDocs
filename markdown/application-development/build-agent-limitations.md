@@ -9,7 +9,7 @@ last_updated: "2026-09-22"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Build Agent limitations, regulated environments, FedRAMP, GCC, NSC, Build Agent v1, Build Agent v2, Autonomous Engineer, AI-generated code review, Fluent API, deployment constraints, agentic development, off-instance services, security compliance]
 audience: developer
-breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Build Agent limitations
@@ -49,7 +49,7 @@ If ServiceNow Fluent does not support a metadata type, Build Agent cannot update
 
 Build Agent, Autonomous Engineer, and Test Agent depend on off-instance services that have not completed the security compliance review required for regulated hosting environments. As a result, Build Agent v2 \(Australia Patch 0 and Zurich 8 and higher\) is not available in GCC, NSC, or FedRAMP environments.
 
-**Note:** As of Australia Patch 6, Build Agent, Autonomous Engineer, and Test Agent support ServiceNow Protected Platform for Australia, the EU, and Singapore.
+**Note:** As of Brazil Patch 1, Build Agent, Autonomous Engineer, and Test Agent support ServiceNow Protected Platform \(SPP\) for Australia, the EU, and Singapore.
 
 Customers in regulated environments must remain on Build Agent v1, which runs on-platform and is certified for regulated use.Autonomous Engineer, which depends on Build Agent v2 services, is also unavailable in regulated environments.
 

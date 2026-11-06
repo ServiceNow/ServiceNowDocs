@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-a-business-process-activity-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business process activity, activity form, process management]
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Business process activity form
@@ -23,7 +23,7 @@ Fields for creating and configuring business process activities that represent d
 |Owned by|User who owns the business process activity.|
 |Managed by group|Group that manages the business process activity.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 

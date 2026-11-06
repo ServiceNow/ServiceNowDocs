@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CMDB 360 experience in a workspace, CMDB 360, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ The Compare Attribute Values query compares CIs from different discovery sources
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Insights**. In the Insights page navigation panel, select **CMDB 360**.
 
 2.  Select **Create Query**.
 
@@ -76,6 +76,6 @@ On the CMDB 360 Query Results page:
     -   Select **Load All Results**: To show all results, up to the limit specified by the [glide.identification\_engine.multisource.query.max.limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md) system property \(10000 by default\).
     -   Select a CMDB 360 Source link to easily access preview data of a source and see more details.
 -   You can select **Create Schedule** to [set up a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-schedule.md) that runs your query on a regular basis. Scheduling your query enables you to use the query results in reports you create.
--   After creating a schedule, you can select **Create Report** to configure a report that you can manage using [Reporting capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting-landing-page.md).
+-   After creating a schedule, you can select **Create Report** to configure a report that you can manage using Reporting capabilities.
 -   On the Query Results page, access a record to view further details.
 

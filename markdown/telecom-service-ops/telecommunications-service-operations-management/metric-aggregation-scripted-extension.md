@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Performance management: Metric collection, Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---
@@ -38,7 +38,7 @@ By default, TSOM Assurance collects raw metrics from pull connectors and publish
 
 -   **Formula error handling**
 
-    When a formula can't be evaluated \(for example, due to a division by zero or missing input metric\), the system generates an error code for that KPI. The system does not discard the value without notification.
+    When a formula can't be evaluated \(for example, due to a division by zero or missing input metric\), the system generates an error code for that KPI. This prevents values from being discarded without notification.
 
 
 ## Implementation

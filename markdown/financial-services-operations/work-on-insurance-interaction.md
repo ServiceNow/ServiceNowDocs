@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/work-on-insurance-interaction.html
 release: australia
 topic_type: task
-last_updated: "2026-05-13"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [work on an insurance interaction, manage insurance customer interactions, relevant details for this call, verify insurance customer identity, agentic contact center insurance ai-generated insights, agentic contact center insurance wrap-up summary, agentic contact center insurance interaction page, agentic contact center insurance csr interaction workflow, agentic contact center insurance create interaction record]
 breadcrumb: [Using Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -81,5 +81,5 @@ The interaction is closed.
 
 [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-wrap-up-state.md)
 
-[bundle-csm.ai-generated-wrap-up-codes-and-notes-summary]
+[Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)
 

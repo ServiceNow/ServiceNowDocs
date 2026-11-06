@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/configure-antivirus-protection.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Antivirus Scanning]
 ---
@@ -28,15 +28,15 @@ Antivirus Scanning is active by default in your instance, where it automatically
 
 2.  As you configure the feature, consider the following.
 
-<table id="choicetable_ezd_bvf_2gb"><thead><tr><th align="left" id="d122207e80">
+<table id="choicetable_ezd_bvf_2gb"><thead><tr><th align="left" id="d127296e80">
 
 Option
 
-</th><th align="left" id="d122207e83">
+</th><th align="left" id="d127296e83">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d122207e89">
+</th></tr></thead><tbody><tr><td id="d127296e89">
 
 **Enable Antivirus scanning**
 
@@ -44,7 +44,7 @@ Description
 
 Antivirus scanning is active and enabled on the instance by default, its toggle is set to the on position and appears green. **Note:** To set the property to be `false` contact customer support.
 
-</td></tr><tr><td id="d122207e106">
+</td></tr><tr><td id="d127296e106">
 
 **Allow attachments to be downloaded when Antivirus scanner is unavailable**
 
@@ -52,7 +52,7 @@ Antivirus scanning is active and enabled on the instance by default, its toggle 
 
 If this option is set to the on position, antivirus scanning is bypassed if the scanner times out, and a response can’t be obtained. In this situation, the file download proceeds without completing the scan. If the option is set to off, the file download is prohibited until the scan can complete successfully.
 
-</td></tr><tr><td id="d122207e115">
+</td></tr><tr><td id="d127296e115">
 
 **List of Tables Excluded**
 

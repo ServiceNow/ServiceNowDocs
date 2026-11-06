@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, Using AI in Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -36,7 +36,7 @@ After activation, the SaaS user resolution skill operates automatically generati
 
 2.  Select the License operations view.
 
-3.  Select **SaaS license management** &gt; **** &gt; **User subscription**.
+3.  Select **SaaS license management** &gt; **User subscription**.
 
     In the User subscription page, all the user names are automatically resolved.
 

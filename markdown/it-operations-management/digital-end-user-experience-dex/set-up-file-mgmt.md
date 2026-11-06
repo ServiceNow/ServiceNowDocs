@@ -1,0 +1,56 @@
+---
+title: Set up file management
+description: Set up the files to track and manage with DEX on your organization's devices. For example, you can identify and remove any dangerous .exe files that pose a security risk.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/set-up-file-mgmt.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: task
+last_updated: "2026-10-23"
+reading_time_minutes: 1
+keywords: [file management, track files, monitor exe files, malicious files, security files]
+breadcrumb: [DEX insights setup, Configure, Digital End-User Experience, IT Operations Management]
+---
+
+# Set up file management
+
+Set up the files to track and manage with DEX on your organization's devices. For example, you can identify and remove any dangerous `.exe` files that pose a security risk.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
+
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
+
+3.  Select **Configure** on the File management card.
+
+4.  On the File management page, select **Add files**.
+
+5.  In the Add files form, enter a file name and select one of the following categories for the file:
+
+    -   Application
+    -   Malicious
+    -   Security
+    -   Development tools
+    -   System
+    -   Others
+    -   Installers
+    -   Potentially Unwanted Programs
+    **Note:** Files you want to monitor must end in `.exe`. The maximum character limit for the file name is 256 characters, including the `.exe` extension.
+
+6.  Add one or more files by selecting **Add**.
+
+    You can manage up to 20 files.
+
+7.  Select **Save**.
+
+
+## Result
+
+The data for the files you set up appears after the next policy run.
+

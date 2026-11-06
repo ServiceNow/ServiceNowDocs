@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-add-business-unit-to-business-process.html
 release: australia
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business unit, business process, enterprise architecture]
 breadcrumb: [Manage business processes, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -18,6 +18,10 @@ Add an existing business unit to a business process in Enterprise Architecture W
 ## Before you begin
 
 Role required: sn\_apm.apm\_user along with cost\_transparency\_admin or cost\_transparency\_analyst or business\_planner or user\_admin
+
+**Note:**
+
+Starting with the Brazil release, Business Planner plugin and Business Planner role are being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 

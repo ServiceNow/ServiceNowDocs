@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [signatory role, system property, enable signatory roles]
 breadcrumb: [Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]

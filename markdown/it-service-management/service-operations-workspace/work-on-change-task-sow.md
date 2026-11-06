@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -28,11 +28,11 @@ Role required: itil or admin
 
 3.  To find and work on records that help in quick resolution of the change task, perform the following actions.
 
-    1.  From the contextual side panel, click the agent assist icon \(\[Omitted image "agent-assist-icon.png"\] Alt text: agent assist icon\).
+    1.  From the contextual side panel, select the agent assist icon \(\[Omitted image "agent-assist-icon.png"\] Alt text:\).
 
     2.  Search for a resource and perform the required action.
 
-4.  To delete the change task, Click the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Delete**.
+4.  To delete the change task, select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and select **Delete**.
 
 
 **Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/change-sow.md)

@@ -1,0 +1,55 @@
+---
+title: Map a card to a section
+description: Map cards to sections to specify which cards appear under each section in the Desktop Assistant home page, and the order in which they are displayed.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/map-card-section.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
+---
+
+# Map a card to a section
+
+Map cards to sections to specify which cards appear under each section in the Desktop Assistant home page, and the order in which they are displayed.
+
+## Before you begin
+
+DEX Desktop Assistant \[sn\_dex\_desktop\] application must be installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/download-desktop-experience.md).
+
+Role required: sn\_dex\_desktop.admin
+
+## About this task
+
+By default, Desktop Assistant provides the My resources and Quick links sections.
+
+## Procedure
+
+1.  Navigate to **Desktop Assistant** &gt; **Configuration** &gt; **Home**.
+
+2.  Select the name of the home page.
+
+3.  Select the application scope.
+
+    1.  Select the globe icon \[Omitted image "icon-globe.png"\] on the top navigation bar.
+
+    2.  Select **Application scope** and then select **DEX Desktop Assistant** from the drop-down list.
+
+4.  In the Tab to Section Mappings section of the Desktop Assistant Tab page, select the section to which you want to map the card.
+
+5.  In the Section to Card Mappings section of the Desktop Assistant Section page, select **New**.
+
+6.  On the Section to Card Mapping form, add the card name.
+
+    1.  In the **Desktop Assistant Card** field, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text:.
+
+    2.  Select the card.
+
+7.  In the **Order** field, enter a number to specify the position of the card within the section.
+
+8.  Select **Submit**.
+
+

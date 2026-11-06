@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -29,6 +29,8 @@ To use Service Fingerprints, you must download and install ITOM Content Service 
 ## Domain separation with Automated Service Suggestions
 
 Automated Service Suggestions supports domain separation starting with version 1.9.0. No support is currently offered for on-premise instances. Reach out to product management for further information.
+
+In domain-separated environments, you can map application services from candidates only in a leaf domain. A leaf domain is a child domain of the lowest level, meaning it does not have any child domains itself.
 
 **Related topics**  
 

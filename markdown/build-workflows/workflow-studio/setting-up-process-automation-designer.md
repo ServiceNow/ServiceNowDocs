@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbooks, Workflow Studio, Build workflows]
 ---
@@ -38,5 +38,5 @@ Monitor and troubleshoot issues by reviewing playbook executions.
 -   **[Configure accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/view-all-buttons-without-hover.md)**  
 View all buttons in a playbook diagram by default, without the need to hover or select any element.
 
-**Parent Topic:**[Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
+**Parent Topic:**[Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
 

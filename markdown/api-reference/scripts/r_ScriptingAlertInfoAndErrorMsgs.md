@@ -1,20 +1,20 @@
 ---
 title: Scripting alert, info, and error messages
-description: You can send messages to customers as alerts, informational messages, or error messages.
+description: You can send messages to users as alerts, informational messages, or error messages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/r\_ScriptingAlertInfoAndErrorMsgs.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scripting, API implementation, API implementation and reference]
+breadcrumb: [Explore, Scripting, API implementation, API implementation and reference]
 ---
 
 # Scripting alert, info, and error messages
 
-You can send messages to customers as alerts, informational messages, or error messages.
+You can send messages to users as alerts, informational messages, or error messages.
 
 <table id="table_i1c_k2m_jp"><thead><tr><th>
 
@@ -79,7 +79,9 @@ Result
 
 </td><td>
 
-Displays a window with `Hello World` and an **OK** button.**Note:** Rather than use JavaScript alert\(\), for a cleaner look, you can display an error on the form itself with thee showFieldMsg\(\) and hideFieldMsg\(\) methods. For more information, see [Display field messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/useful-client-side-scripts.md).
+Displays a window with `Hello World` and an **OK** button.**Note:** Rather than use JavaScript alert\(\), for a cleaner look, you can display an error on the form itself with thee showFieldMsg\(\) and hideFieldMsg\(\) methods. For more information, see [Display field messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_DisplayFieldMessages.md).
+
+**Note:** The client script alert option is not available for use with Automated Test Framework \(ATF\).
 
 </td></tr><tr><td>
 
@@ -106,18 +108,12 @@ Adds `Hello World` below the specified field in a red error message.
 Hides the most recent message for the specified field.
 
 </td></tr></tbody>
-</table>**Important:** The methods in this table are only for use in client scripts.
-
-It is also possible to add other custom messages to your forms if necessary using client scripting.
-
-The text size of info and error messages at the top of the screen is customizable. Two properties control this. If you configured your forms, you may need to add these properties.
-
-**Note:** The client script alert option is not available for use with Automated Test Framework \(ATF\).
+</table>You can customize the font size of info and error messages at the top of the screen using two system properties.
 
 |Property|Description|
 |--------|-----------|
-|`css.outputmsg.info.text.font-size`|Sets the size for info messages. Default is 11pt.|
-|`css.outputmsg.error.text.font-size`|Sets the size for error messages. Default is 11pt.|
+|css.outputmsg.info.text.font-size|Sets the size for info messages. Default is 11pt.|
+|css.outputmsg.error.text.font-size|Sets the size for error messages. Default is 11pt.|
 
-**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
+**Parent Topic:**[Exploring scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
 

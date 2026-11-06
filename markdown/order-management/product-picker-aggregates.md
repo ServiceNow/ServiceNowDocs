@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Product picker bulk actions, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product picker bulk actions, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Product picker aggregates
@@ -99,7 +99,7 @@ When you create a new aggregate, provide the following details:
 
 ## Configuring aggregates through the admin APIs
 
-For steps to create and configure an aggregate using API calls, see [Adding a product picker aggregate using APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For steps to create and configure an aggregate using API calls, see [Adding a product picker aggregate using APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-adding-a-product-picker-aggregate-using-apis.md).
 
 ## Viewing a product picker aggregate
 

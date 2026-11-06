@@ -1,22 +1,22 @@
 ---
-title: Proactive Recommendations configuration for Engagement Messenger
-description: The Proactive Recommendations feature enables you to show context-based suggestions in real time and to configure the recommendations experience on Engagement Messenger.
+title: Proactive and Recommendations configuration for Engagement Messenger
+description: The Proactive and Recommendations feature enables you to show context-based suggestions in real time and to configure the recommendations experience on Engagement Messenger.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/em-behav-recom.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Default behavior of Engagement Messenger, Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Default behavior of Engagement Messenger, Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
-# Proactive Recommendations configuration for Engagement Messenger
+# Proactive and Recommendations configuration for Engagement Messenger
 
-The Proactive Recommendations feature enables you to show context-based suggestions in real time and to configure the recommendations experience on Engagement Messenger.
+The Proactive and Recommendations feature enables you to show context-based suggestions in real time and to configure the recommendations experience on Engagement Messenger.
 
-**Note:** To integrate Proactive Recommendations on a web page, you need to enable recommendations in the embed code of Engagement Messenger.
+**Note:** To integrate Proactive and Recommendations on a web page, you need to enable recommendations in the embed code of Engagement Messenger.
 
 <table id="table_opq_wb1"><thead><tr><th>
 

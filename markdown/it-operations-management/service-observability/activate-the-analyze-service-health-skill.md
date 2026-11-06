@@ -7,7 +7,7 @@ release: australia
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ The analyze service health skill uses generative AI to provide an analysis of al
 
 ## Before you begin
 
-Before activating the skills, you must install the following:
+Before activating the AI skills, you must install the following:
 
 -   ServiceNow Otto for ITOM plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-now-assist-itom.md).
 -   Service Observability. For more information, see [Install Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/install-service-observability.md).

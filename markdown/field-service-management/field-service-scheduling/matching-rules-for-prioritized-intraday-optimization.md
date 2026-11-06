@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Optimization for prioritized events, Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -55,7 +55,7 @@ If you installed the Field Service Management Demo Data plugin, two example matc
 
 [Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
 
-[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
+[Optimizing technician schedules at set intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
 
 [Optimizing technician schedules in response to urgent events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/triggering-optimization-on-task-or-agent-availability-change.md)
 

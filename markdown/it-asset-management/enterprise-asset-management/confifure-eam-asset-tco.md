@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -48,7 +48,7 @@ Considerations while calculating TCO:
 
 ## TCO benchmark and threshold
 
-After you specify a TCO benchmark cost, the TCO benchmark threshold is automatically calculated by multiplying the TCO Benchmark by the TCO benchmark threshold percentage. You can manually override the TCO benchmark threshold by changing the percentage in the **asset\_tco\_benchmark\_threshold\_percentage** system property.
+After you specify a TCO benchmark cost, the TCO benchmark threshold is automatically calculated by multiplying the TCO Benchmark by the TCO benchmark threshold percentage. You can manually override the TCO benchmark threshold by changing the percentage in the **sn\_itam\_common.asset\_tco\_benchmark\_threshold\_percentage** system property.
 
 You can manually override the TCO benchmark threshold by changing the value on the **TCO benchmark threshold** field in the Financial section of a model form.
 
@@ -95,10 +95,10 @@ TCO reports support domain separation.
 
 ## Upgrade considerations
 
-If you’re upgrading to Australia, after the scheduled job **TCO Upgrade for Enterprise Assets** runs, the following updates are made:
+If you’re upgrading to Brazil, after the scheduled job **TCO Upgrade for Enterprise Assets** runs, the following updates are made:
 
 -   The **Asset** field on task records is populated on all the expense lines using the source table mentioned in the **Source ID** field. The source table defines from where the expense line has been created. Whether it’s being created for a task, a configuration item, a contract, or for a purchase asset. When the scheduled job **TCO Upgrade for Enterprise Assets** runs, it searches for all task records and populates asset references from the task record to the corresponding expense line for the task. Similarly, the same scheduled job searches for all configuration items \(CI\) and populates asset references from the CI to the corresponding expense lines.
--   The **Expense category** field, introduced in Australia, is populated based on the source of the expense line. There are several expense categories for tasks. For example, the expense lines created for a purchase asset and for a contract asset have different expense categories. Similarly, there are different expense categories for CIs too.
+-   The **Expense category** field, introduced in Brazil, is populated based on the source of the expense line. There are several expense categories for tasks. For example, the expense lines created for a purchase asset and for a contract asset have different expense categories. Similarly, there are different expense categories for CIs too.
 -   The following three fields in an asset record get populated:
     -   cmn\_asset\_tco: View this field in the Financial section in an asset record.
     -   cmn\_end\_of\_useful\_life: View this field in an asset record by selecting the vertical ellipsis next to **Asset Details** and then select **Show XML**.

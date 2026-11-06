@@ -1,5 +1,5 @@
 ---
-title: Activate Change Management ATF Tests
+title: Activate Change Management - ATF Tests
 description: You can activate the Change Management - ATF Tests plugin \(com.snc.change\_management.atf\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/activate-changemgmt-atftests.html
@@ -7,12 +7,12 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
-# Activate Change Management ATF Tests
+# Activate Change Management - ATF Tests
 
 You can activate the Change Management - ATF Tests plugin \(com.snc.change\_management.atf\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Change Management - ATF Tests \(com.snc.change\_management.atf\) loads ATF tests when the Change Management - State Model plugin is active.
+The Change Management - ATF Tests plugin \(com.snc.change\_management.atf\) loads Automated Test Framework \(ATF\) tests when the Change Management - State Model plugin is active.
 
 ## Procedure
 
@@ -44,7 +44,7 @@ Change Management - ATF Tests \(com.snc.change\_management.atf\) loads ATF tests
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -64,7 +64,7 @@ Change Management - ATF Tests \(com.snc.change\_management.atf\) loads ATF tests
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
@@ -74,7 +74,7 @@ Change Management - ATF Tests \(com.snc.change\_management.atf\) loads ATF tests
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -82,9 +82,9 @@ Change Management - ATF Tests \(com.snc.change\_management.atf\) loads ATF tests
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

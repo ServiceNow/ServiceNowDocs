@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Addition
 Configure the JDBC driver to connect to your ServiceNow instance and query your data.
 
 ## Before you begin
-
-Verify the following:
 
 -   The ServiceNow Live Connect JDBC driver is downloaded. See [Download the Live Connect drivers on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/download-sql-api-drivers.md).
 -   JDK 17 is installed.
@@ -53,7 +51,7 @@ Role required: admin
 
 4.  Select an authentication method and configure the driver properties.
 
-<table id="choicetable_cry_fmy_hkc"><tbody><tr><td id="d650928e205">
+<table id="choicetable_cry_fmy_hkc"><tbody><tr><td id="d681515e203">
 
 **Method**
 
@@ -61,7 +59,7 @@ Role required: admin
 
 Properties
 
-</td></tr><tr><td id="d650928e214">
+</td></tr><tr><td id="d681515e212">
 
 **Basic Authentication**
 
@@ -69,7 +67,7 @@ Properties
 
 Set **user** to the user ID with the **sn\_jdbc\_rest\_access** role and **password** to the user password. For personal user accounts using basic authentication, the **snc\_basic\_auth\_api\_access** role must also be assigned.
 
-</td></tr><tr><td id="d650928e235">
+</td></tr><tr><td id="d681515e233">
 
 **OAuth**
 

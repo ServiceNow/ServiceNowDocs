@@ -7,7 +7,7 @@ release: australia
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Synchronize Indoor Mapping with CMN Locations, Manage map objects and data, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---

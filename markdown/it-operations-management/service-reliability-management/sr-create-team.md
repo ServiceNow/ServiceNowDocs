@@ -7,7 +7,7 @@ release: australia
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -36,15 +36,15 @@ If you have the srm\_admin or admin role, you can set up teams using a different
 
 3.  Create a new team or add an existing one.
 
-<table id="choicetable_m4k_fmf_n1c"><thead><tr><th align="left" id="d435008e118">
+<table id="choicetable_m4k_fmf_n1c"><thead><tr><th align="left" id="d466623e118">
 
 Option
 
-</th><th align="left" id="d435008e121">
+</th><th align="left" id="d466623e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d435008e127">
+</th></tr></thead><tbody><tr><td id="d466623e127">
 
 **Add a new team**
 
@@ -58,7 +58,7 @@ For more information on the field descriptions, see [Create team form](https://r
 3.  Select **Add team**.
 
 
-</td></tr><tr><td id="d435008e166">
+</td></tr><tr><td id="d466623e166">
 
 **Register an existing team**
 

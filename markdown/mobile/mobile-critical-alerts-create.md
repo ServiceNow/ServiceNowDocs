@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-critical-alerts-create.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Mobile critical alerts, Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -16,7 +16,7 @@ Create a critical alert from an existing push notification.
 
 ## Before you begin
 
-Role required: admin
+Role required: mobile\_admin, admin
 
 ## About this task
 
@@ -24,7 +24,7 @@ Learn how to create a critical alert from an existing push notification. To crea
 
 **Note:**
 
--   For users to receive critical alerts, the feature must be enabled on the user’s mobile device. If the feature is not enabled, the critical alert is delivered as a regular push notification, however it is labeled as critical in the notifications area. For more information, see the user-related topic, [Enabling critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/critical-alert-enable.md).
+-   For users to receive critical alerts, the feature must be enabled on the user’s mobile device. If the feature is not enabled, the critical alert is delivered as a regular push notification, however it is labeled as critical in the notifications area. For more information, see the user-related topic, [Critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/critical-alert-enable.md).
 -   On the Android platform, when a user receives a critical alert on certain phone types, they may experience the following device behavior:
 
     -   **OnePlus devices with hardware-controlled ringer mode:**

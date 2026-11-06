@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Risk Management implementation, Configure, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -24,6 +24,8 @@ Role required: sn\_risk.admin
 
 1.  Create and print a PDF of the checklist topic and check off tasks as you complete them.
 
+2.  To generate a PDF, select the **Save As PDF** \[Omitted image "save-as-pdf.png"\] Alt text: Save as PDF icon icon and at the top of the topic and select **Selected topic**.
+
 <table id="table_tks_kv4_rcc"><thead><tr><th>
 
 Item
@@ -34,7 +36,7 @@ Checklist
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text:
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 
@@ -42,7 +44,7 @@ Risk managers can create hierarchies that include different types of risk \(oper
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text:
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 
@@ -50,7 +52,7 @@ Risk managers must define the risk statement hierarchy and associate child risk 
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text:
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 
@@ -58,7 +60,7 @@ Risk rollups are critical to display the accurate risk ratings. Risk administrat
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text:
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 
@@ -66,7 +68,7 @@ Risk events are potential or actual financial and non-financial losses, near mis
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text:
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [VMware workstation, VMware system]
 breadcrumb: [Discovery for VMware virtualization, Discovery for data-center virtualization, Discovery, ITOM Visibility, IT Operations Management]

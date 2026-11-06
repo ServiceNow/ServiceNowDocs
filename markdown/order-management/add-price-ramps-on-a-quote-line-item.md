@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-price-ramps-on-a-quote-line-item.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -36,7 +36,7 @@ Use price ramps to specify how the price of a configurable product offering in a
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon.
 

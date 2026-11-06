@@ -1,5 +1,5 @@
 ---
-title: Associating an AI-recommended citation to an open regulatory alert
+title: Associate an AI-recommended citation to a regulatory alert
 description: Associate a citation to an open regulatory alert by using the GRC: Predictive Intelligence application and a similarity solution model that uses an AI-recommended citation. Your compliance team can check the incoming regulatory alerts to determine if the citations or requirements apply to your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/ai-driven-regulatory-compliance-mapping.html
@@ -7,12 +7,12 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
-# Associating an AI-recommended citation to an open regulatory alert
+# Associate an AI-recommended citation to a regulatory alert
 
 Associate a citation to an open regulatory alert by using the GRC: Predictive Intelligence application and a similarity solution model that uses an AI-recommended citation. Your compliance team can check the incoming regulatory alerts to determine if the citations or requirements apply to your organization.
 
@@ -45,5 +45,5 @@ When you use AI to associate a recommended citation card to a regulatory alert, 
 -   The citation name and authority document name that links with the citation and authority. You can open the links in separate windows.
 -   An option to ignore the recommendation.
 -   An option to associate the recommendation.
--   The history icon that enables you to view the history of actions that were taken on the regulatory alert, including the dates when the recommendations were added or ignored by your users.
+-   The history icon that enables you to view the history of actions that were taken on the regulatory alert. It includes the dates when the recommendations were added or ignored by your users.
 

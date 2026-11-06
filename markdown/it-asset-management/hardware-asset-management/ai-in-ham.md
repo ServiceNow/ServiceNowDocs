@@ -7,8 +7,8 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-06-05"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -51,4 +51,13 @@ For information about AI assets that are available on the ServiceNow AI Platform
 
 -   [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)
 -   [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
+
+-   **[Supporting information for ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/supporting-info-now-assist-ham.md)**  
+Get a quick overview of the important information related to the ServiceNow Otto for Hardware Asset Management \(HAM\) application.
+-   **[Using agentic workflows in ServiceNow Otto for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/now-assist-ham-agentic-workflow.md)**  
+Use the ServiceNow Otto for HAM AI agent collection to complete hardware asset sourcing tasks autonomously and optimize the asset repair workflow. These AI agents help resolve hardware requests quickly, improve the productivity of asset managers, and speed up repairs.
+-   **[Using generative AI skills for ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/now-assist-ham-agent-ai.md)**  
+Streamline asset management tasks in the Hardware Asset Workspace by using the generative AI skills available in the ServiceNow Otto for HAM application.
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-ham.md)
 

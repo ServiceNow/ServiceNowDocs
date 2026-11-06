@@ -54,6 +54,10 @@ A project uses a schedule to determine which days and hours count as working tim
 
 [Create and manage waterfall projects]()
 
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
+
 [Update a project]()
 
 [Copy a project]()

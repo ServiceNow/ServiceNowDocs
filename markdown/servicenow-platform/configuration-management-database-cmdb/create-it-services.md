@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,7 +36,7 @@ All application services created in the Application Service wizard, are set with
 
 Service Mapping, if activated, can automatically discover and map application services as described in [Application service mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_DefineMapBusinessServices.md). A discovered application service contains the CIs and the connections between them that Service Mapping discovered and mapped.
 
-You can also create an application service by using the [createOrUpdateService - POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/application-service-api.md) REST API.
+You can also create an application service by using the createOrUpdateService - POST REST API.
 
 ## Procedure
 

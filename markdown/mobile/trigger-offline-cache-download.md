@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/trigger-offline-cache-download.html
 release: australia
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User-triggered cache updates, Configure offline cache to devices, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---

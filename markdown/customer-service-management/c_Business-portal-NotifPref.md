@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_Business-portal-NotifPref.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Customer notification preferences
@@ -20,13 +20,6 @@ Email notification preferences are set to control email notifications that are s
 -   Comments on a customer's case
 -   Provides a resolution for a customer's case
 -   Closes a customer's case
-
-**Related topics**  
-
-
-[Manage customer registration requests from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/manage-cust-registration-requests-business-portal.md)
-
-[Manage contacts from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_ManageUsersFrom-business-Portal.md)
 
 ## Set email notification preferences
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-robot-schedule.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [unattended bot process intervals rpa hub]
 breadcrumb: [Robot calendar, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
@@ -39,15 +39,15 @@ To create a schedule within an unattended bot process, see [Create a schedule wi
 
 3.  View a robot calendar either from a robot or from a bot process.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d342178e186">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d337611e186">
 
 Option
 
-</th><th align="left" id="d342178e189">
+</th><th align="left" id="d337611e189">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d342178e195">
+</th></tr></thead><tbody><tr><td id="d337611e195">
 
 **View a robot calendar from a robot**
 
@@ -58,7 +58,7 @@ Action
 3.  In the form header, select **Robot Calendar**.
 
 
-</td></tr><tr><td id="d342178e228">
+</td></tr><tr><td id="d337611e228">
 
 **View a robot calendar from a bot process**
 

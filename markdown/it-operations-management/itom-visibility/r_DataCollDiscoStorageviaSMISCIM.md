@@ -1,5 +1,5 @@
 ---
-title: Storage Discovery via SMI-S and CIM
+title: Storage discovery via SMI-S and CIM
 description: Discovery can explore storage devices that contain a Storage Management Initiative Specification \(SMI-S\) provider that is a specialized Common Information Model \(CIM\) server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/r\_DataCollDiscoStorageviaSMISCIM.html
@@ -7,18 +7,18 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
-# Storage Discovery via SMI-S and CIM
+# Storage discovery via SMI-S and CIM
 
 Discovery can explore storage devices that contain a Storage Management Initiative Specification \(SMI-S\) provider that is a specialized Common Information Model \(CIM\) server.
 
 To see the current list of vendors and products conforming to SMI-S as tested by SNIA, see the [SNIA website](https://www.snia.org/ctp/conforming_providers).
 
-Other types of storage, such as storage that is attached via a host, VM storage that is available on VMware ESX servers, and storage for Kernel VM \(KVM\), use a separate set of probes and sensors.
+Other types of storage use a separate set of probes and sensors. These include storage that is attached via a host, VM storage on VMware ESX servers, and storage for Kernel VM \(KVM\).
 
 Discovery collects information about storage area networks \(SAN\) and network-attached storage \(NAS\) from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches. Discovery collects and creates CIs in the CMDB for the following information items:
 
@@ -49,7 +49,7 @@ Discovery collects information about storage area networks \(SAN\) and network-a
 
 ## CIM architecture
 
-CIM probes can explore any device based on the Common Information Model \(CIM\) by querying a CIM server, also referred to as a CIMOM - Common Information Model Object Manager. By default, Discovery uses CIM probes to explore storage systems as well as to get the serial numbers of ESX servers.
+CIM probes can explore any device based on the Common Information Model \(CIM\) by querying a CIM server. A CIM server is also referred to as a CIMOM \(Common Information Model Object Manager\). By default, Discovery uses CIM probes to explore storage systems and to get the serial numbers of ESX servers.
 
 Discovery queries SMI-S compliant storage devices using CIMIQL queries.
 
@@ -78,24 +78,25 @@ The following components are part of CIM:
 
 ## SLP and WBEM support
 
-SLP is required for CIM Discovery as it is part of the Storage Management Initiative Specification \(SMI-S\) stack. Some storage devices may support the WBEM protocol, but may not support SLP.
+SLP is required for CIM discovery as it is part of the Storage Management Initiative Specification \(SMI-S\) stack. Some storage devices may support the WBEM protocol, but may not support SLP.
 
 You can manually register the WBEM services on SLP using a common Linux tool like **slptool**. This tool has a command line interface that you can use to make SLPv2 User Agent \(UA\) requests, which usually come with the SLP daemon package. To register a service, provide a URL and list of attributes. An example can be extracted from a working SLP server by using the same tool.
 
-## Storage Discovery table schema
+## Storage discovery table schema
 
-This diagram displays the disk hierarchical schema for storage Discovery.
+This diagram displays the disk hierarchical schema for storage discovery.
 
 \[Omitted image "StorageSchemaFuji.png"\] Alt text: Disk hierarchical schema
 
 ## Storage Discovery tables and probes
 
-Discovery uses the following tables and probes to gather information about storage devices that are managed by a SMI-S provider.
+Discovery uses the following tables and probes to gather information about storage devices that are managed by an SMI-S provider.
 
 |Table|Probe|
 |-----|-----|
 |Disk \[cmdb\_ci\_disk\]|SMI 1.5 - Storage Server|
 |Fibre Channel Export \[cmdb\_ci\_fc\_export\]|SMI 1.5 - Storage Server|
+|iSCSI Exports \[cmdb\_ci\_iscsi\_export\]|SMI 1.5 - Storage Server|
 |Fibre Channel Port \[cmdb\_ci\_fc\_port\]|SMI 1.5 - Storage Server|
 |SAN Export \[cmdb\_ci\_san\_export\]|SMI 1.5 - Storage Server|
 |Storage Controller \[cmdb\_ci\_storage\_controller\]|SMI 1.5 - Storage Server|
@@ -116,6 +117,8 @@ Discovery uses the following tables and probes to gather information about stora
 |SAN Zone Member \[cmdb\_ci\_san\_zone\_member\]|SMI - Fabric|
 |SAN Zone Set \[cmdb\_ci\_san\_zone\_set\]|SMI - Fabric|
 
+**Note:** For information about the data collected on these tables, see [Data collected by Discovery on storage devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DataCollDiscoStorageDevices.md).
+
 These probes are available but not currently used:
 
 -   SMI - Storage Server
@@ -126,8 +129,8 @@ These probes are available but not currently used:
 -   SMI - Array - Volumes
 
 -   **[Discovery of storage area networks \(SAN\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/storage-area-networks.md)**  
-Discovery collects information about storage area networks from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches. It creates specific references between the tables in the SAN schema.
--   **[How CIM Discovery works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_HowCIMDiscoveryWorks.md)**  
+Discovery collects information about storage area networks from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches. Discovery creates specific references between the tables in the SAN schema.
+-   **[How CIM discovery works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_HowCIMDiscoveryWorks.md)**  
 This is the processing flow for classifying Common Information Model \(CIM\) storage systems.
 -   **[Configure SMI-S Provider for storage Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/t_ConfigDiscoForStandaloneStorage.md)**  
 Use this procedure for configuring a standalone storage device with the required SMI-S Provider for Discovery.

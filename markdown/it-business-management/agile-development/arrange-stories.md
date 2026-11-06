@@ -7,7 +7,7 @@ release: australia
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage your product backlog in Agile Development 2.0, Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---

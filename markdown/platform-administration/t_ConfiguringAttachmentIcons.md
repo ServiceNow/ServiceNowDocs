@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ConfiguringAttachmentIcons.html
 release: australia
 topic_type: task
-last_updated: "2026-07-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Attachments, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,15 +32,15 @@ Role required: admin
 
 4.  Enter the rule details.
 
-<table id="choicetable_py2_kyw_t1b"><thead><tr><th align="left" id="d77354e145">
+<table id="choicetable_py2_kyw_t1b"><thead><tr><th align="left" id="d77762e145">
 
 Field
 
-</th><th align="left" id="d77354e148">
+</th><th align="left" id="d77762e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d77354e154">
+</th></tr></thead><tbody><tr><td id="d77762e154">
 
 **Select icon by**
 
@@ -48,7 +48,7 @@ Description
 
 Select **MIME Type** or **File Extension**.**Note:** If a file type has an icon specified by **MIME Type** and a different icon specified by **File Extension**, the **MIME Type** icon takes precedence.
 
-</td></tr><tr><td id="d77354e181">
+</td></tr><tr><td id="d77762e181">
 
 **MIME type**
 
@@ -56,7 +56,7 @@ Select **MIME Type** or **File Extension**.**Note:** If a file type has an icon 
 
 If **Select icon by** is **MIME Type**, enter the MIME type and subtype to associate with the icon, separated by a slash \(example: `application/pdf`\).
 
-</td></tr><tr><td id="d77354e199">
+</td></tr><tr><td id="d77762e199">
 
 **File extension**
 
@@ -64,7 +64,7 @@ If **Select icon by** is **MIME Type**, enter the MIME type and subtype to assoc
 
 If **Select icon by** is **FIle Extension**, enter the file extension to associate with the icon beginning with the period \(example: `.pdf`\).
 
-</td></tr><tr><td id="d77354e217">
+</td></tr><tr><td id="d77762e217">
 
 **Icon**
 

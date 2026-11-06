@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Configure Contract Management Pro, Own-paper template, Third-party paper, Electronic signature, Wet signature, Initiate contract, Contract workspace, Obligation management, Add=hoc approval, Link parent-child contracts, Self-served contract request, Non-self-served contract request]
 breadcrumb: [Contract Management Pro, Legal and Contract Operations, Employee Service Management]

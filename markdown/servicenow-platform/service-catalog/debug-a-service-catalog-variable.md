@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Debugging Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ Role required: admin or catalog\_admin
 
     3.  Enable the **JavaScript Log and Field Watcher** option.
 
-        The **JavaScript Log** and **Field Watcher** tabs are displayed in a pane at the bottom of the page. For information about JavaScript logs and fields watcher, see [JavaScript log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_WritingToTheDebugLog.md) and [Field Watcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_FieldWatcher.md) .
+        The **JavaScript Log** and **Field Watcher** tabs are displayed in a pane at the bottom of the page. For information about JavaScript logs and fields watcher, see JavaScript log and Field Watcher .
 
     4.  Close the System Settings window.
 

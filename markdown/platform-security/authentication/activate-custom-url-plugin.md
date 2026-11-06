@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Custom instance URLs, Authentication, Access Management]
 ---
@@ -36,7 +36,7 @@ Role required: admin
 
 5.  In the Plugin Files related list, find the following property, and change the setting value:
 
-<table id="choicetable_dhn_fnq_hz"><tbody><tr><td id="d56675e112">
+<table id="choicetable_dhn_fnq_hz"><tbody><tr><td id="d57934e112">
 
 **glide.customurl.enabled**
 

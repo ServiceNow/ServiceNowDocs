@@ -7,7 +7,7 @@ release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Recruitment Workspace, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -25,7 +25,7 @@ As a recruiter:
 -   View and prioritize your requisitions under **Assigned to me**.
 -   Assign an unassigned requisition to yourself, another recruiter, or to an assignment group.
 
-The overview section displays a number of **Active requisitions**, **Active job requisition requests by state**, **Requisitions - recruitment coordinator**, **On hold requisitions**, and **Unassigned requisitions**. It also shows the trend of the requisitions by state, whether the numbers have increased or decreased.
+The overview section displays a number of **Active requisitions**, **Active job requisition requests by state**, **On hold requisitions**, and **Unassigned requisitions**. It also shows the trend of the requisitions by state, whether the numbers have increased or decreased.
 
 \[Omitted image "recruitment-dashboard.png"\] Alt text: Recruitment overview section shows the requisitions by states and their trends in a card view
 

@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [RIDAC, export, email, Excel]
 breadcrumb: [Using RIDAC in Portfolio Planning Workspace, Portfolio Planning, Strategic Portfolio Management]

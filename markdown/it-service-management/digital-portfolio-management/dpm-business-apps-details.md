@@ -7,7 +7,7 @@ release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 11
 breadcrumb: [Life-cycle management, Explore, Digital Portfolio Management, IT Service Management]
 ---
@@ -26,7 +26,7 @@ When viewing details of a business application that's retired, an alert banner a
 
 Business application information is displayed in DPM via the Plan, Build, Run, Risk, and Info tabs. If your organization opts to inactivate one or more of the tabs, then the inactivated tabs aren't visible to you. For example, if your organization doesn't work on planning activities and they inactivate the Plan tab, then the Plan tab isn't visible for you. For more information on how Admins can hide or show tabs, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
 
-Keep in mind that what you are able to see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-related-products.md) for the required installations and plugins to see each data element.
+Keep in mind that what you're able to see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-related-products.md) for the required installations and plugins to see each data element.
 
 **Note:** The Strategic Planning Workspace \(formerly known as Alignment Planner Workspace\) is a pro version. The Portfolio Planning Workspace is available for users with a Strategic Portfolio Management \(SPM\) standard license.
 
@@ -309,7 +309,7 @@ Performance details about the business application. You can select a card indica
 
  Each of these indicators also includes records when:
 
--   The record references an service instance that is related to the business application, and
+-   The record references a service instance that is related to the business application, and
 -   The record directly references the business application.
 
 </td></tr><tr><td>
@@ -358,7 +358,7 @@ Performance details about the business application. You can select a card indica
 
  Each of these indicators also includes records when:
 
--   The record references an service instance that is related to the business application, and
+-   The record references a service instance that is related to the business application, and
 -   The record directly references the business application.
 
 </td></tr><tr><td>

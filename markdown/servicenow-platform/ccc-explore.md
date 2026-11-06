@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/ccc-explore.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -53,8 +53,8 @@ As an agent, you can:
 -   Get the context of caller information before accepting a call.
 -   View real-time transcripts of calls while interacting with a customer. For more information about real-time transcripts, see
 -   Collaborate with managers who can analyze your conversations and provide feedback for quality assurance.
--   Manage presence states within the ServiceNow instance. For information about the presence states of an agent, see [Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-experience.md).
--   Access and use your softphone directly from within the ServiceNow interface using the OpenFrame integration. For information about OpenFrame, see [OpenFrame overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OpenFrameOverview.md).
+-   Manage presence states within the ServiceNow instance. For information about the presence states of an agent, see Agent Inbox controls.
+-   Access and use your softphone directly from within the ServiceNow interface using the OpenFrame integration. For information about OpenFrame, see OpenFrame overview.
 
 As a caller, you can:
 

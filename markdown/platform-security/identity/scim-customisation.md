@@ -1,35 +1,35 @@
 ---
 title: SCIM customization
-description: Customize SCIM protocols for your identity management.
+description: SCIM customization enables you to customize SCIM protocols for your identity management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/scim-customisation.html
 release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
 
 # SCIM customization
 
-Customize SCIM protocols for your identity management.
+SCIM customization enables you to customize SCIM protocols for your identity management.
 
 SCIM customization enables you to do the following:
 
 -   Support custom fields on the `sys_user` and `sys_user_group` tables through dynamic extension schema generation.
--   Provide an ability to override the default SCIM mappings.
+-   Override the default SCIM mappings.
 
-You need the `scim_config_admin` to define custom extension schemas for user and group resources. The attributes defined in the custom extension schema can be mapped to fields in the `sys_user` and `sys_user_group` tables.
+You need the `scim_config_admin` role to define custom extension schemas for user and group resources. The attributes defined in the custom extension schema can be mapped to fields in the `sys_user` and `sys_user_group` tables.
 
 ## Configurations for SCIM customization
 
 For SCIM customization, you should perform the following tasks:
 
--   Define a custom extension schema for users and groups in the SCIM Extension schema table.  For more information see, [Create a SCIM Extension schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/create-scim-extension-schemas.md).
--   Create entities in an ETL definition for custom schema attributes. The entities are created for the target table that is mapped with either the `sys_user` and `sys_user_group` attributes. For more information see, [Create a SCIM ETL definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/create-scim-etl-definitions.md).
--   Create an RTE mapping between these two entities.  For more information see, step [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/create-scim-etl-definitions.md) in the [Create a SCIM ETL definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/create-scim-etl-definitions.md).
+-   Define a custom extension schema for users and groups in the SCIM Extension schema table.  For more information, see [Create a SCIM extension schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/create-scim-extension-schemas.md).
+-   Create entities in an ETL definition for custom schema attributes. The entities are created for the target table that is mapped with either the `sys_user` and `sys_user_group` attributes. For more information, see [Create a SCIM ETL definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/create-scim-etl-definitions.md).
+-   Create an RTE mapping between these two entities.  For more information, see step [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/create-scim-etl-definitions.md) in the [Create a SCIM ETL definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/create-scim-etl-definitions.md).
 -   Send custom schema attributes with data in the SCIM API request payload.
 
 The SCIM API calls the RTE engine with the defined mapping. The data is stored in the respective fields in the target table as defined in the mapping.

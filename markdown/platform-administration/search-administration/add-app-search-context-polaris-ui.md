@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Global search finds records from multiple tables, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -42,7 +42,7 @@ You can add a workspace application, such as CSM/FSM Configurable Workspace, to 
 
 2.  Define a globalSearchDataConfigId UX page property to map the search application configuration record to the workspace's UX application:
 
-    1.  Navigate to the UX Page Property \[sys\_ux\_page\_property\] table's list view by selecting **All**, entering `sys_ux_page_property.list` in the **Filter** field, and pressing Enter.
+    1.  Navigate to the UX Page Property \[sys\_ux\_page\_property\] table's list view by selecting **All**, entering `sys_ux_page_property.list` in the navigation field, and pressing Enter.
 
     2.  Select **New**.
 
@@ -69,7 +69,7 @@ You can add a workspace application, such as CSM/FSM Configurable Workspace, to 
 
 4.  Define a global\_search\_configurations UX page property to configure the workspace's search settings:
 
-    1.  Navigate to the UX Page Property \[sys\_ux\_page\_property\] table's list view by selecting **All**, entering `sys_ux_page_property.list` in the **Filter** field, and pressing Enter.
+    1.  Navigate to the UX Page Property \[sys\_ux\_page\_property\] table's list view by selecting **All**, entering `sys_ux_page_property.list` in the navigation field, and pressing Enter.
 
     2.  Select **New**.
 
@@ -127,7 +127,7 @@ Enter the following JSON:```json
 
 5.  Enable Unified Navigation search for the chosen workspace:
 
-    1.  Navigate to the UX Page Property \[sys\_ux\_page\_property\] table's list view by selecting **All**, entering `sys_ux_page_property.list` in the **Filter** field, and pressing Enter.
+    1.  Navigate to the UX Page Property \[sys\_ux\_page\_property\] table's list view by selecting **All**, entering `sys_ux_page_property.list` in the navigation field, and pressing Enter.
 
     2.  Look for a UX Page Property record with name **chrome\_header** and page matching the chosen workspace.
 

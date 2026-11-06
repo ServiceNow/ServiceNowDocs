@@ -9,7 +9,7 @@ classification: data-privacy-classic
 topic_type: task
 last_updated: "2025-08-20"
 reading_time_minutes: 1
-breadcrumb: [Data privacy \(Classic\), Data Privacy, Platform Privacy]
+breadcrumb: [Data Privacy, Platform Privacy]
 ---
 
 # Data Privacy for Virtual Agent

@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Machine Identity Console, Identity]
 ---
@@ -18,7 +18,7 @@ Activate the **Machine Identity Management** `com.glide.identity.machine_identit
 
 ## Before you begin
 
-Role required: admin
+Role required: mi\_admin
 
 ## Procedure
 

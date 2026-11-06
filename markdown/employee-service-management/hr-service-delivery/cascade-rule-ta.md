@@ -7,9 +7,8 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [cascade rules, data cleanup, delete job requisition, related data deletion, cascade cleanup]
 breadcrumb: [Modify purge policies to clean up data, Configure, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 

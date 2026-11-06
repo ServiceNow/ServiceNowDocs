@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -77,7 +77,7 @@ Assignment group/ Territory task filter
 
 </td><td>
 
-Select the **Turn ON assignment group/ territory-matching task filtering** \(\[Omitted image "assignment-group-matching.png"\] Alt text:\) icon to limit the task panel to only display tasks that belong to your selected assignment groups or territories.
+Select the **Turn ON assignment group/ territory-matching task filtering** \(\[Omitted image "assignment-group-matching.png"\] Alt text:\) icon to limit the task panel to only display tasks that belong to your selected assignment groups.
 
 </td></tr><tr><td>
 

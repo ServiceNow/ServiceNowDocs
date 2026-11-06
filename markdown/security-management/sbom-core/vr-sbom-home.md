@@ -7,7 +7,7 @@ release: australia
 product: SBOM Core
 classification: sbom-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Viewing reports and dashboards in the Software Bill of Materials workspace, Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---

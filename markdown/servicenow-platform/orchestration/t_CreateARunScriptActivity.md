@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Role required: activity\_creator or workflow\_admin
 
 ## Procedure
 
-1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-custom-activities.md).
+1.  Create a custom activity.
 
     This action creates a custom activity using a template.
 

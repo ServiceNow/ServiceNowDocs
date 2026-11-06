@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -15,7 +15,7 @@ breadcrumb: [ServiceNow Otto for AI Search, ServiceNow Store applications and in
 
 # Configuring ServiceNow Otto for AI Search
 
-As an administrator or search administrator, you can configure settings to control the behavior of ServiceNow Otto for AI Search.
+As an administrator or search administrator, you can configure settings to control the behavior of ServiceNow® Otto for AI Search.
 
 -   **[Enable ServiceNow Otto for AI Search Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md)**  
 Specify the ServiceNow Otto for AI Search Genius Result types you want to make available in each of your AI Search portals and mobile applications.

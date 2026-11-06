@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/config-dv-sing-sc-table-data.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Single score visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -142,7 +142,7 @@ Show metric label
 
 </td><td>
 
-Option to show the metric label. In donut charts, the value is not shown if it cannot fit the donut.
+Option to show the metric label. In donut charts, the value is not shown if it can't fit the donut.
 
 </td></tr><tr><td>
 

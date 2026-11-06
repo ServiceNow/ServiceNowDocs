@@ -1,0 +1,93 @@
+---
+title: Customize themes for Desktop Assistant
+description: Customize themes for the Desktop Assistant application by applying available themes or modifying specific theme CSS variables to align with your organization's branding.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/customize-da-theme.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
+---
+
+# Customize themes for Desktop Assistant
+
+Customize themes for the Desktop Assistant application by applying available themes or modifying specific theme CSS variables to align with your organization's branding.
+
+## Before you begin
+
+DEX Desktop Assistant \[sn\_dex\_desktop\] application must be installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/download-desktop-experience.md).
+
+Role required: sn\_dex\_desktop.admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Desktop Assistant** &gt; **Configuration** &gt; **Application**.
+
+2.  Customize the Desktop Assistant theme.
+
+    **Note:** Employee Center \(EC\) Theme is the default theme applied for Desktop Assistant.
+
+<table id="choicetable_eqs_cbd_phc"><thead><tr><th align="left" id="d313715e151">
+
+Method
+
+</th><th align="left" id="d313715e154">
+
+Steps
+
+</th></tr></thead><tbody><tr><td id="d313715e160">
+
+**Apply another available theme**
+
+</td><td>
+
+1.  In the Desktop Assistant form, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: in the **Theme** field.
+2.  On the Themes page, select a theme from the themes list.
+
+The selected theme is updated in the **Theme** field of the Desktop Assistant form.
+
+3.  Select **Update**.
+
+
+</td></tr><tr><td id="d313715e203">
+
+**Customize the default theme by modifying specific CSS variables**
+
+</td><td>
+
+1.  In the Desktop Assistant form, select the Preview this record icon \[Omitted image "inc-preview-record.png"\] Alt text: near the **Theme** field.
+2.  In the preview dialog box, select **Open Record**.
+3.  In the **CSS variables** section, modify the predefined variables in one of the following ways:
+    -   Direct value assignment: Assign values directly to the variables. For example, `$sp-space—xl: 4px;`
+    -   Indirect value assignment: Create a reference to an existing variable by assigning to a variable the value of another variable. For example, `$badge-color: $text-white;`
+    -   Calculated value assignment: Calculate a variable value and use the ceil \(\) function to round up the value to the nearest whole number. For example, `ceil(($font-size-base * 1.125)) // 18px;`
+4.  Select **Update**.
+
+
+</td></tr><tr><td id="d313715e271">
+
+**Customize a theme other than the default theme**
+
+</td><td>
+
+1.  In the Desktop Assistant form, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: in the **Theme** field.
+2.  On the Themes page, select a theme from the themes list.
+
+The selected theme is updated in the **Theme** field of the Desktop Assistant form.
+
+3.  Select the Preview this record icon \[Omitted image "inc-preview-record.png"\] Alt text: near the **Theme** field.
+4.  In the preview dialog box, select **Open Record**.
+5.  In the **CSS variables** section, modify the predefined variables in one of the following ways:
+    -   Direct value assignment: Assign values directly to the variables. For example, `$sp-space—xl: 4px;`
+    -   Indirect value assignment: Create a reference to an existing variable by assigning to a variable the value of another variable. For example, `$badge-color: $text-white;`
+    -   Calculated value assignment: Calculate a variable value and use the ceil \(\) function to round up the value to the nearest whole number. For example, `ceil(($font-size-base * 1.125)) // 18px;`
+6.  Select **Update**.
+
+
+</td></tr></tbody>
+</table>    For more information, see [Variables to customize a theme for Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/da-theme-variables.md).
+
+

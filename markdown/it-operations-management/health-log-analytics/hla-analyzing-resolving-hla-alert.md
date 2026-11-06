@@ -7,8 +7,8 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [alert analysis, alert resolution, health log analytics, log anomaly detection, troubleshooting alerts, log investigation, anomaly analysis, alert remediation, log viewer, root cause analysis, log correlators, alert monitoring, operator workflow, log data analysis, incident response]
 breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -27,11 +27,11 @@ Using the Log Viewer, you can browse the alert logs by timestamp or range for fu
 
 More detailed information on tasks and procedures for analyzing and resolving Log Analytics is available via the following links.
 
--   [Start remediation of a Log Analytics alert from the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-overview-tab-view-sow.md)
+-   [Start remediation of a Log Analytics alert from the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-overview-tab-view.md)
 
     Begin the remediation process of a Log Analytics alert from the alert **Overview** tab. This tab provides information on the alert, log data associated with the anomalous behavior, CIs associated with the alert, and services impacted by it.
 
--   [Analyze log lines to identify an alert root cause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept-sow.md)
+-   [Analyze log lines around an anomaly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-sow.md)[Analyze the logs that surround the anomaly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept.md)
 
     Review the log lines surrounding the anomaly for clues about the state of faulting systems. This information can help you narrow down the root cause of the alert.
 
@@ -40,11 +40,11 @@ More detailed information on tasks and procedures for analyzing and resolving Lo
     Identify relationships between alerts to help you determine whether an alert is part of a larger issue.
 
 -   Navigate to the [Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/express-list.md) and select an alert from the Alerts list. Use ServiceNow Otto to get an in-depth analysis of the alert and potential resolutions. By drilling down into the alert, you can quickly identify the issue and proceed to resolve it.
--   [Review alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md)
+-   [Review the logs for an alert on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md)
 
-    For further investigation, navigate to the **Log Viewer** to browse alert logs by timestamp or time range. You can visualize anomaly frequency within a time period for a comprehensive view of log data.
+    For further investigation, navigate to the **Log Viewer** to browse the alert logs by timestamp or time range. You can visualize anomaly frequency within a time period for a comprehensive view of log data over a specified time range.
 
--   [Add a KB article to a Log Analytics alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-add-kb-sow.md)
+-   [Add a KB article to a Log Analytics alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-add-kb.md)
 
     When you have resolved an alert that Health Log Analytics generated, you can add a knowledge base \(KB\) article to it. For example, you can provide information that might help others resolve similar issues.
 

@@ -7,16 +7,16 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Predefined colors in reports, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Predefined colors in reports, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Chart colors
 
 Chart colors assign a consistent color to a grouping or stacking value in reports. The color stays the same across reports regardless of the order of the values.
 
-**Note:** This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Colors in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/colors-dv.md).
+**Note:** This topic refers to Reporting in the Core UI. For information about chart colors in Platform Analytics, see [Colors in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/colors-dv.md).
 
 ## Using chart colors in a report
 
@@ -80,7 +80,7 @@ Name
 
 </td><td>
 
-Table used for the report.**Note:** The list shows only tables and database views that are in the same scope as the chart colors record.
+Table used for the report.**Note:** The list shows only tables and database views that are [in the same scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md) as the chart colors record.
 
 </td></tr><tr id="row_h2z_tfw_1z"><td>
 

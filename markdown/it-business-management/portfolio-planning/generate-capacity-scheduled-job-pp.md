@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [capacity planning scheduled job, generate capacity, generate resource]
 breadcrumb: [Configure capacity planning, Configure, Portfolio Planning, Strategic Portfolio Management]

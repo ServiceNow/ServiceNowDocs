@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-custom-metric.html
 release: australia
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Execute a run, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create a custom metric for evaluating agentic workflows

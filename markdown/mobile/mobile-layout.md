@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-layout.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Using the mobile apps, Mobile Platform]
 ---
@@ -54,7 +54,7 @@ Launcher screens serve as a landing page or a home page. Using a launcher screen
 
  -   **Header**
 
-The header of the launcher screen defines how the title of the screen appears and what information is shown in the header. For more details on configuring headers, see [Configure a launcher screen text header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/create-alp-header.md).
+The header of the launcher screen defines how the title of the screen appears and what information is shown in the header. For more details on configuring headers, see [Configure a launcher screen header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/create-alp-header.md).
 
 -   **Search**
 
@@ -92,7 +92,7 @@ The header displays the name of the logged-in user and last login time and date.
 
 -   **Instance**
 
-Tap to view the ServiceNow instance you're currently using, and the instances that are available to you. For more information, see [Working with mobile accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/instances-concept.md).
+Tap to view the ServiceNow instance you're currently using, and the instances that are available to you. For more information, see [Working with mobile instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/instances-concept.md).
 
 -   **Location tracking**
 
@@ -149,7 +149,7 @@ The notifications page is accessed from the **Notifications** tab on the navigat
 
  You can mark all notifications as read or delete all notifications by tapping on the more menu \(\[Omitted image "IconAppMenuAndroid.png"\] Alt text: More icon.\) and selecting the appropriate option.
 
- For more information on notifications, see [Mobile notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-notifications.md), [Handling mobile alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-alerts-using.md), and [Enabling critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/critical-alert-enable.md).
+ For more information on notifications, see [Mobile notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-notifications.md), [Handling mobile alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-alerts-using.md), and [Critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/critical-alert-enable.md).
 
  For information on mobile notification configuration, see [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/sg-mobile-push-notifications.md).
 

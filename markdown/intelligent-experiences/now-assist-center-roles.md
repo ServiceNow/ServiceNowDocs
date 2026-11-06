@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Admin Center, Now Assist Center, AI, AI setup, AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Reference, AI Admin Center, Enable AI experiences]
+breadcrumb: [Reference, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # AI Admin Center roles
@@ -46,7 +46,7 @@ None.
 
 None.
 
-## AI Admin Center user
+## AI Admin Center user \[sn\_na\_center.nac\_user\]
 
 Perform read actions in AI Admin Center workspace.
 

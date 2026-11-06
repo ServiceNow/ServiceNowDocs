@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/review-mdt.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -30,15 +30,15 @@ If you have been assigned as an approver as part of a metric definition record, 
 
 3.  Review the metric data tasks and perform one of the following actions.
 
-<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d33284e86">
+<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d33163e86">
 
 Choice
 
-</th><th align="left" id="d33284e89">
+</th><th align="left" id="d33163e89">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d33284e95">
+</th></tr></thead><tbody><tr><td id="d33163e95">
 
 **Reject**
 
@@ -48,7 +48,7 @@ Action
 2.  Select **Reject** and provide your reason for rejection.
 
 
-</td></tr><tr><td id="d33284e116">
+</td></tr><tr><td id="d33163e116">
 
 **Approve**
 

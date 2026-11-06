@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_CreateAnAssessmentCategory.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ The Demand Management application comes with an assessment metric type named **D
 
     |Assessment metric category|Data source|Description|
     |--------------------------|-----------|-----------|
-    |**Size**|**T-Shirt size** field on the [Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreatingDemands.md) form.|Assesses demand size relative to the size of other demands.|
+    |**Size**|**T-Shirt size** field on the Demand form.|Assesses demand size relative to the size of other demands.|
     |**Strategic Alignment**|[View an assessment category result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_ViewACategoryResult.md) field in the assessment category result for the Strategic Alignment metric category.|Assesses how closely the demand aligns with strategic goals of the organization compared to other demands.|
     |**Risk**|**Rating** field in the assessment category result for the Risk metric category.|Assesses demand risks compared to other demands.|
     |**ROI**|**Impact** and **Financial return** fields on the Demand form.|Assesses demand return on investment compared to other demands.|

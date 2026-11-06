@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,5 +28,5 @@ Reduce the implementation time by configuring all catalog items or all record pr
 
 [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_DefRecProdInSCat.md)
 
-[Configure a catalog item or record producer to create a universal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-ur-recordproducer.md)
+[bundle-emplsm.create-ur-recordproducer]
 

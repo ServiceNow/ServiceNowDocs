@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [PPM integration with Strategic Planning, SAFe execution from alignment planner, Agile 2.0 delivery, epic delivery in SAFe, strategic planning to PPM sync, planning to execution integration]
 breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]

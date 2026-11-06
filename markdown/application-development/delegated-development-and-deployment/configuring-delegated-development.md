@@ -7,9 +7,9 @@ release: australia
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Delegated Development, Planning your application, Building applications]
+breadcrumb: [Delegated Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Configuring Delegated Development

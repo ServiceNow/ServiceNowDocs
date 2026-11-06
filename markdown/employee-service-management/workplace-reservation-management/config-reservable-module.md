@@ -1,39 +1,39 @@
 ---
 title: Configure a reservable module
-description: Create a Reservable Module to add a group of similar reservable workplace items. These workplace items are displayed in a single category on the Reservation portal.
+description: Create a reservable module to group similar workplace items. Employees can see them in a single category on the Reservation portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/config-reservable-module.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 27
 breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure a reservable module
 
-Create a Reservable Module to add a group of similar reservable workplace items. These workplace items are displayed in a single category on the Reservation portal.
+Create a reservable module to group similar workplace items. Employees can see them in a single category on the Reservation portal.
 
 ## Before you begin
 
 **Warning:** Starting with Workplace Reservation Management version 2.1.2, to create or view approvers or performer criteria, navigate to **Workplace Core** &gt; **Administration** &gt; **Performer Criteria**.
 
--   After the upgrade, the Reservable module's **Require approval** option is changed to **Override approval policy**.
+-   After the upgrade, the reservable module's **Require approval** option is changed to **Override approval policy**.
 
     Before the upgrade, if a reservable module has the **Require approval** option enabled, then, after the upgrade, it is migrated as **Always require approval** in the **Override approval policy** option. Otherwise, the **Override approval policy** is set to **Never require approval**.
 
--   For existing customers, the Reservable module's approval functionality that were configured earlier to approve reservations remain the same until a new approval definition is configured. After you configure a new approval definition, the approval process will run according to the upgrade.
+-   For existing customers, the approval functionality that was configured earlier for a reservable module remains the same until you configure a new approval definition. After you configure a new approval definition, the approval process runs according to the upgrade.
 
-    After the upgrade, disable the **WSD Reservation Approval Flow** in the **Flow designer**.
+    After the upgrade, deactivate the **WSD Reservation Approval Flow** in the **Flow designer**.
 
 
-Ensure that you have the following details:
+The following details are required:
 
 -   Workplace data for your organization.
 -   Data of workspaces that can be marked as available.
--   Configure approvers/performer criteria
+-   Configured approvers and performer criteria
 
 See [Create records for your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/create-records-of-workplace-data-wsd.md) to add workplace data.
 
@@ -41,7 +41,7 @@ Role required: sn\_wsd\_rsv.admin
 
 ## About this task
 
-A Reservable module groups similar types of workplace items. Employees can view these similar items in one category. For example, a room is a reservable module and it contains similar workplace items like meeting rooms, conference rooms, and other rooms.
+A reservable module groups similar types of workplace items. Employees can view these similar items in one category. For example, a room is a reservable module and it contains similar workplace items such as meeting rooms, conference rooms, and other rooms.
 
 ## Procedure
 
@@ -53,18 +53,18 @@ A Reservable module groups similar types of workplace items. Employees can view 
 
     |Field|Description|
     |-----|-----------|
-    |Name|Name for the reservable module. For example, for meeting rooms, the name should be categorical like `Desks`, `Meeting rooms`, or `Rooms` and so on.|
+    |Name|Name for the reservable module. For example, for meeting rooms, the name should be categorical, such as `Desks`, `Meeting rooms`, or `Rooms` and so on.|
     |Inline title|Title for the reservable module. The title is displayed inline with a descriptive text on the Workplace Service Portal.|
     |Order|Order in which the reservable module must appear on the Reservation portal.|
     |Active|Option to make the module available for reservation.|
     |Active from|Date from when the reservable module must be active and available for reservation.|
     |Image|Image of the reservable module.|
 
-4.  Select the Reservable Table Configuration tab.
+4.  Select the **Reservable Table Configuration** tab.
 
     On the form, fill in the fields.
 
-    \[Omitted image "Reservable-module-table.png"\] Alt text: Reseravable Table Configuration form.
+    \[Omitted image "Reservable-module-table.png"\] Alt text: Reservable Table Configuration form.
 
 <table id="table_zkf_5wr_wfc"><thead><tr><th>
 
@@ -88,7 +88,7 @@ Selection type
 
 </td><td>
 
-Type of selection to display in the search results when employees searche. Select one of the following options:-   **Specific unit**: The search result displays every workplace item.
+Type of selection to display in the search results when employees search. Select one of the following options:-   **Specific unit**: The search result displays every workplace item.
 -   **Container**: The search result displays the parent or container of the workplace items. If you select **Container**, the search results are displayed in groups with a defined quantity available for reservation. Employees can select a container to reserve and any available space from the container is assigned for reservation.
 
 
@@ -106,7 +106,7 @@ Reservable table
 
 </td><td>
 
-Table that contains the reservable workplace items.**Note:** If you selected **Location** for the **Reservable type** field, then use only the Space \[sn\_wsd\_core\_space\] table and its extended tables.
+Table that contains the reservable workplace items.**Note:** If you select **Location** for the **Reservable type** field, then use only the Space \[sn\_wsd\_core\_space\] table and its extended tables.
 
 </td></tr><tr><td>
 
@@ -114,9 +114,9 @@ Reservable filter
 
 </td><td>
 
-Filter conditions on the reservable items in the Reservable table. The reservable items are displayed on the application based on the given conditions. You can do the following:-   To add a condition, select **Add Filter Condition**.
+Filter conditions on the reservable items in the Reservable table. The reservable items are displayed in the application based on the given conditions. You can do the following:-   To add a condition, select **Add Filter Condition**.
 -   To add an OR condition, select **Add "OR" Clause**.
- **Note:** If you are adding a filter on a location, ensure that the **Active** and **Is reservable** fields are set to **True**. If you do not, then inactive items that are not reservable will be displayed as reservable.
+ **Note:** If you are adding a filter on a location, ensure that the **Active** and **Is reservable** fields are set to **True**. If you do not, then inactive items that are not reservable are displayed as reservable.
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ Reservable container field
 
 </td><td>
 
-Specify on what basis must the be grouped. The field appears only if you selected **Container** as the **Selecttion type**. The field is automatically set to **Area**. For example, when the field is set to **Area**, the reservation search results will appear as groups based on areas.
+Basis for grouping the search results. The field appears only if you select **Container** as the **Selection type**. The field is automatically set to **Area**. For example, when the field is set to **Area**, the reservation search results will appear as groups based on areas.
 
 </td></tr><tr><td>
 
@@ -140,10 +140,10 @@ Reservable quantity field
 
 </td><td>
 
-Reservable quantity for workplace spaces. The **Reservable Quantity** field determines the number of times a container can be booked within a specific reservation time period. This setting provides with flexibility in setting up space reservations without out the need to create individual space records for reservation. For example, if you select **Reservable Quantity**, the container can be reserved as many times as the combined reservable quantity values of all spaces within that container allow. The reservable quantity depends on the number of spaces provided in the Capacity column of the Workplace Core Space table.
+Reservable quantity for workplace spaces. The **Reservable Quantity** field determines the number of times a container can be booked within a specific reservation time period. This setting provides flexibility in setting up space reservations without the need to create individual space records for reservation. For example, if you select **Reservable Quantity**, the container can be reserved as many times as the combined reservable quantity values of all spaces within that container allow. The reservable quantity depends on the number of spaces provided in the Capacity column of the Workplace Core Space table.
 
 </td></tr></tbody>
-</table>5.  Select the Reservable Module Configuration tab.
+</table>5.  Select the **Reservable Module Configuration** tab.
 
     On the form, fill in the fields.
 
@@ -191,7 +191,7 @@ Option to specify in which reservations the module must be available.-   **Advan
 -   **Quick reservation**: Select this option to make the module available in the Reservation widget on the Workplace Service Portal homepage.
 -   **Workplace Experience**: Option to display workplace option on Workplace Service Delivery for Mobile.
 
-**Note:** The Workplace experience" is available in the Desks Reservable module level by default. If the **All day** Reservable Module checkbox is not selected, the **Workplace Experience** option is not available in **Available-In** option. Workplace users get an error when they open the In-Office Preferences page and the Workplace page from the Workplace Service Delivery for Mobile "This page cannot be loaded due to a configuration issue. Please review your configuration settings and make the necessary changes." For more information, see [Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md).
+**Note:** The **Workplace Experience** option is available at the Desks reservable module level by default. If the **All day** Reservable Module check box is not selected, the **Workplace Experience** option is not available in the **Available in** option. Workplace users get an error when they open the In-Office Preferences page and the Workplace page from the Workplace Service Delivery for Mobile "This page cannot be loaded due to a configuration issue. Please review your configuration settings and make the necessary changes." For more information, see [Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md).
 
 </td></tr><tr><td>
 
@@ -223,7 +223,7 @@ Enable restricted neighborhood rules
 
 </td><td>
 
-Option to apply neighbourhood restrictions on the spaces while displaying search results. The search results are displayed based on the restrictions applied on spaces. Restricted users cannot view spaces that they are not allowed to access. The restricted neighbourhoods are automatically filtered out if the logged in user is restricted.
+Option to apply neighborhood restrictions on the spaces while displaying search results. The search results are displayed based on the restrictions applied on spaces. Restricted users cannot view spaces that they are not allowed to access. The restricted neighborhoods are automatically filtered out if the logged-in user is restricted.
 
 </td></tr><tr><td>
 
@@ -239,7 +239,7 @@ Enable browse by neighborhood
 
 </td><td>
 
-Reservation admin can indicate if neighborhood spaces are available for reservations. Employees can search in the context of a neighborhood and only the available spaces in a neighborhood are displayed for space reservation. For more information, see [Create neighborhood reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-neighborhood-reservations.md).This option is also available on the Now Mobile app.
+Option to indicate whether neighborhood spaces are available for reservations. Employees can search in the context of a neighborhood and only the available spaces in a neighborhood are displayed for space reservation. For more information, see [Create neighborhood reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-neighborhood-reservations.md).This option is also available on the Now Mobile app.
 
 </td></tr><tr><td>
 
@@ -268,7 +268,7 @@ Apply to shift
 
 </td><td>
 
-Option to enable shift-based reservation on the module.**Note:** Recurring reservations are not support for a shift-based reservation. Employees cannot add attendees and view their availability on the reservation search page while making a reservation. For more information, see [Create a reservation]() and [Add invitees as collaborators and create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-colleagues-rsv-search.md).
+Option to enable shift-based reservation on the module.**Note:** Recurring reservations are not supported for a shift-based reservation. Employees cannot add attendees and view their availability on the reservation search page while making a reservation. For more information, see [Create a reservation]() and [Add invitees as collaborators and create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-colleagues-rsv-search.md).
 
 </td></tr><tr><td>
 
@@ -276,7 +276,7 @@ Enable floor-based search
 
 </td><td>
 
-Option to enable employees to search for a workplace based on floor using the **Browse All**.
+Option to enable employees to search for a workplace based on floor using the **Browse All** option.
 
 </td></tr><tr><td>
 
@@ -327,7 +327,7 @@ Enable ical generation
 
 </td><td>
 
-Option to enable user to generate an icalendar. **Note:** A user cannot download an iCalendar for spaces and reservations that already synchronizes with their calendar provider.
+Option to enable users to generate an iCalendar. **Note:** A user cannot download an iCalendar for spaces and reservations that already synchronizes with their calendar provider.
 
 </td></tr><tr><td>
 
@@ -353,11 +353,19 @@ When editing a reservation, the context \(path\) is defaulted to **Browse all**.
 
 </td></tr><tr><td>
 
+Enable waitlist
+
+</td><td>
+
+Option to waitlist a selected reservable module configuration \(desks, meeting rooms\) for a reservation. By default, the check box option is selected.Selecting this option enables employees to join a waitlist when no spaces \(rooms, desks, and so on\) are available for their desired time slot. When a space is available because of reservation cancellations or other changes, the application automatically assigns it to the next eligible waitlist entry. The assignment is based on priority, creation date, and alphabetical order, notifying the employee on their preferred channels.
+
+</td></tr><tr><td>
+
 Virtual meeting provider
 
 </td><td>
 
-Select a virtual meeting provider to enable employees to create a virtual meeting link. If an employee selects the **Add a virtual meeting link** option, a virtual meeting link is automatically generated by the virtual meeting provider.
+Virtual meeting provider that enables employees to create a virtual meeting link. If an employee selects the **Add a virtual meeting link** option, a virtual meeting link is automatically generated by the virtual meeting provider.
 
 </td></tr><tr><td>
 
@@ -373,7 +381,7 @@ Allow all day reservation
 
 </td><td>
 
-Option to enable employees to reserve a reservable module for an entire day. If this option is unchecked, the **All day reservation** field is disabled.If the **Max days for multi-day** Reservable Module value is set to more than 1 day, the **All day** option is disabled on the Reservation portal. Employees can only make a single day or all day reservation in this case.
+Option to enable employees to reserve a reservable module for an entire day. If this option is cleared, the **All day reservation** field is inactive.If the **Max days for multi-day** Reservable Module value is set to more than 1 day, the **All day** option is not available on the Reservation portal. Employees can only make a single day or all day reservation in this case.
 
 For more information, see the **Max days for multi-day** property description.
 
@@ -387,9 +395,9 @@ Require all day reservation
 
 Option to enforce employees to make **All day** reservation. This option depends on the **Allow All day reservation** option.
 
- If the **Allow all day reservation** option is disabled, this option is cleared and disabled.
+ If the **Allow all day reservation** option is cleared, this option is also cleared and inactive.
 
- **Note:** When **Require all day reservation** is selected, employees while making or updating the reservation will find the **All day** option on the Reservation portal enabled by default.
+ **Note:** When **Require all day reservation** is selected, employees who make or update a reservation find the **All day** option on the Reservation portal enabled by default.
 
 Employees can modify the Start date but not the time on the reservation portal. For more information, see [Create a reservation]()
 
@@ -401,14 +409,14 @@ All day
 
 </td><td>
 
-Option to enable workplace users to reserve a Reservable Modile Configuration for an entire day. For example, Desk Reservable Module Configuration.-   **Disabled**: The All day option will be disabled and is not displayed on the Reservation portal.
+Option to enable workplace users to reserve a Reservable Module Configuration for an entire day. For example, Desk Reservable Module Configuration.-   **Disabled**: The **All day** option is not displayed on the Reservation portal.
 -   **Enabled**: The **All day** option is available and employees can reserve a space for a day.
 
-This configuration is dependent on the \(sn\_wsd\_rsv.day\_start\) and \(sn\_wsd\_rsv.day\_end\) reservation property. For more information, see [Properties installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/properties-installed-with-wsd-reservation-mgmt.md).
+This configuration depends on the **sn\_wsd\_rsv.day\_start** and **sn\_wsd\_rsv.day\_end** properties. For more information, see [Properties installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/properties-installed-with-wsd-reservation-mgmt.md).
 
 -   **Default**: The **All day** option is available and selected by default. However, the employees can deselect or change the timings if they want.
--   **Required**: The **All day** option is displayed as selected and cannot be changed. The **All day** field is set as mandatory.
--   **Note:** If the **All Day** check box is not selected, **Workplace Experience** option is inactive in the **Available in** Reservable Module Configuration. Workplace users get an error when they open the In-Office Preferences page and the Workplace page from Workplace Service Delivery for Mobile "This page cannot be loaded due to a configuration issue. Please review your configuration settings and make the necessary changes". For more information, see [Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md).
+-   **Required**: The **All day** option is displayed as selected and cannot be changed. The **All day** field is required.
+-   **Note:** If the **All Day** check box is not selected, the **Workplace Experience** option is inactive in the **Available in** Reservable Module Configuration. Workplace users get an error when they open the In-Office Preferences page and the Workplace page from Workplace Service Delivery for Mobile "This page cannot be loaded due to a configuration issue. Please review your configuration settings and make the necessary changes". For more information, see [Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md).
 
 **Warning:** From Workplace Reservation Management version , the **Allow all day reservation** and **Require all day reservation** fields are merged under the **All day** field as **Enabled** and **Required** respectively.
 
@@ -424,7 +432,7 @@ On Now Mobile app, if you try to select a date too far in the future than what i
 
 **Note:** **Max days in future** field indicates that the user cannot make a reservation beyond the number of days configured as the **Max days in future** value for any reservation. **Max days in future** is a reservation property and **Max number of occurrences** is a recurring reservation property. **Max days in future** value takes priority when both these options are used for the reservation.
 
-For example, if the **Max days in future** is 90 days, then the number of occurrences in the recurring reservation can not exceed 90 days even if the user has initially configured the value for Max number of occurrences as 180 days in the Reservable module.
+For example, if **Max days in future** is set to 90 days, recurring reservations cannot exceed 90 days. This applies even if **Max number of occurrences** is configured to 180 days in the Reservable module.
 
 </td></tr><tr><td>
 
@@ -489,7 +497,7 @@ Max days for multi-day
 
 Option to make a multi-day reservation. Employees can reserve an available space covering or spanning multiple days. For example, 5 days or more. For more information, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).Default value for this Reservable Module property is 1. To make a single day reservation, set the value to 1. Value 0 \(zero\) is not allowed.
 
-When the **Max days for multi-day** value is more than 1, the **All day** option is disabled on the Reservation portal while making a reservation.
+When the **Max days for multi-day** value is more than 1, the **All day** option is not available on the Reservation portal while making a reservation.
 
 **Note:** The number of days for this property must not exceed the **Max days in future** value on the Reservable Module.
 
@@ -507,7 +515,7 @@ Max number of days for browse near a person
 
 </td><td>
 
-Option to specify the number of days employees can reserve a space near a colleague. Admins can configure the maximum number of days an employee would like to reserve a space near a colleague using this property.Default value is 7. Admins can change this value to more than 7 days and enable employees to select the max number of days they would like to book a seat near a team member or a colleague. For more information, see [Create a reservation]().
+Option to specify the number of days employees can reserve a space near a colleague. Admins can configure the maximum number of days an employee would like to reserve a space near a colleague using this property.Default value is 7. Admins can change this value to more than 7 days. Employees can then select the maximum number of days to book a seat near a team member or colleague. For more information, see [Create a reservation]().
 
 **Note:** This field is displayed only when the **Enable browse near a person** Reservable module property is enabled on the Reservable Module.
 
@@ -530,7 +538,7 @@ Search limit
 Option to specify the maximum limit of search results when an employee searches for a workplace location.
 
 </td></tr></tbody>
-</table>6.  Select the Reservation Widget Configuration tab.
+</table>6.  Select the **Reservation Widget Configuration** tab.
 
     On the form, fill in the fields.
 

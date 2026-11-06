@@ -7,8 +7,8 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [List view in SIR Workspace, Explore, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vc-build-agent-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [AI-assisted development, Build Agent, vibe coding, application development, artificial intelligence, code generation, natural language, development tools, enterprise development, automated testing, developer productivity]
-breadcrumb: [Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Agentic ServiceNow AI Platform development with Build Agent
@@ -52,7 +52,7 @@ Some sample use cases for app development with Build Agent include the following
 
 ## Accessing Build Agent
 
-You can access Build Agent in both ServiceNow Studio and the ServiceNow IDE.
+You can access Build Agent in both ServiceNow Studio and the ServiceNow IDE.For large or complex implementations, you can use Autonomous Engineer to go from requirements to a working implementation without building each artifact manually. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-autonomous-engineer.md).
 
 **Note:** This document provides an overview of how Build Agent sits in the agentic development workflow. For full product documentation, see [Build Agent and ServiceNow AI Platform tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-build-agent-studio-vs-ide.md).
 
@@ -60,6 +60,8 @@ You can access Build Agent in both ServiceNow Studio and the ServiceNow IDE.
 Use Build Agent on the ServiceNow AI Platform to build apps agentically by executing complex configuration and development tasks through conversational prompts. This approach simplifies editing and creating ServiceNow applications and metadata such as tables, relationships, and access controls, without manual navigation.
 -   **[Build Agent and ServiceNow AI Platform tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-build-agent-studio-vs-ide.md)**  
 Compare how Build Agent behaves in ServiceNow Studio \(UI-first, declarative workflows\) versus the ServiceNow IDE \(code-first, autonomous full-stack development\), so you can choose the right environment for your task and audience.
+-   **[Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-autonomous-engineer.md)**  
+Autonomous Engineer is an agentic worker in Build Agent that takes your requirements and generates an implementation plan. It then builds all work items in parallel, without requiring you to construct each artifact manually.
 -   **[Creating custom agentic workflows, in-app agents, and skills with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-build-agents-in-ba.md)**  
 Use Build Agent to create and deploy custom agentic workflows, AI agents, and skills that add agentic experiences to your ServiceNow custom applications, supported by the built-in governance framework.
 -   **[Limitations of agentic app generation with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-build-agent-limitations.md)**  

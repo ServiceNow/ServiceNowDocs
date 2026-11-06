@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,13 +18,13 @@ Orchestration provides customizable activity templates to create and manage cust
 
 You create and update different types of Orchestration activities with the Activity Designer using activity templates for SSH, PowerShell, REST, SOAP, JMS, SFTP, JDBC, JavaScript Probes, and Probes.
 
-Hundreds of workflows can share these activities simultaneously. Before you change an activity, you should check the workflows that they are part of by clicking the form menu icon \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: form menu icon\) and selecting **Used In**. Any central change to a versioned activity automatically updates across workflows unless you have [pinned that activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_ActivityPinning.md).
+Hundreds of workflows can share these activities simultaneously. Before you change an activity, you should check the workflows that they are part of by clicking the form menu icon \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: form menu icon\) and selecting **Used In**. Any central change to a versioned activity automatically updates across workflows unless you have pinned that activity.
 
 All the Orchestration Core activities are built using the Activity Designer in scoped applications. Custom activities can be developed in the global scope or their own application scope even if that scope is different from the scope of the workflow. Use [Activity scoping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_ActivityScoping.md) when build your own activity packs.
 
 -   **[Create a JDBC activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAJDBCActivity.md)**  
 Create a custom JDBC activity to automate SQL commands and stored procedure calls to relational databases from workflow.
--   **[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)**  
+-   **[Create a SOAP web service activity]()**  
 Use this template to create a custom SOAP activity.
 -   **[Create a JavaScript Probe activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAJavaScriptProbeActivity.md)**  
 Create a JavaScript Probe activity to instruct a MID server to execute server-side javascript.

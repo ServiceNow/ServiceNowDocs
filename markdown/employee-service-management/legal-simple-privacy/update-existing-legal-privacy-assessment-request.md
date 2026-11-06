@@ -7,7 +7,7 @@ release: australia
 product: Legal Simple Privacy
 classification: legal-simple-privacy
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Requests, Legal Simple Privacy, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -46,15 +46,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 10. Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d233335e154">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d233458e154">
 
 Option
 
-</th><th align="left" id="d233335e157">
+</th><th align="left" id="d233458e157">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d233335e163">
+</th></tr></thead><tbody><tr><td id="d233458e163">
 
 **If the Attachments tab is visible**
 
@@ -65,7 +65,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d233335e202">
+</td></tr><tr><td id="d233458e202">
 
 **If the Documents tab is visible**
 

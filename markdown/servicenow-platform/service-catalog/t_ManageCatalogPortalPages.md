@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using the content management system with the service catalog, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -154,7 +154,7 @@ The location to direct service catalog users to when they click the **Continue S
 </table>
 ### What to do next
 
-To add a module in the navigator for the new catalog, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-steps-app-navigator-category.md).
+To add a module in the navigator for the new catalog, see Create a module.
 
 ## Manage items in a catalog
 

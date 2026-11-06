@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configurable-workspace-glossary.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 4
+last_updated: "2026-11-06"
+reading_time_minutes: 3
 keywords: [dashboard]
 breadcrumb: [Reference, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -66,14 +66,6 @@ Reusable subject line and message body content for email notifications.
 ## form
 
 A content page that displays fields and values for a single record from a database table.
-
-## form action layout group
-
-A combination of multiple actions into a split or menu button.
-
-## form action layout item
-
-A record that defines the look and feel of an action button.
 
 ## form header
 

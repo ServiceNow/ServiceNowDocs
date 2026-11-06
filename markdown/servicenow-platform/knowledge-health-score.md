@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/knowledge-health-score.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ The Knowledge Health Score measures the quality of knowledge articles and your k
 
 ## Prerequisites
 
-You must enable [Enable article health score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/enable-healthscore-calculation.md) property and [Enable article optimization recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/enable-ao-recommendations.md) skill to view knowledge health score.
+You must enable the [Enable article health score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/enable-healthscore-calculation.md) property and [Enable article optimization recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/enable-ao-recommendations.md) skill to view knowledge health score.
 
 ## How the Knowledge Health Score is calculated
 
@@ -36,7 +36,7 @@ Article scores aggregate upward through two additional levels:
 
 -   **Article Health Score**
 
-    The article health score is a numeric value from 0 to 100 that represents the quality of a single knowledge article. It is calculated by scanning the article against seven quality parameters and computing a weighted average of the results.
+    The article health score is a numeric value from 0 to 100 that represents the quality of a single knowledge article. It is calculated by scanning the article against six quality parameters and computing a weighted average of the results.
 
 -   **Knowledge Base health**
 

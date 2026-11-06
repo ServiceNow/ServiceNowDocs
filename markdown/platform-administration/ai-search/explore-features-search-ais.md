@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-22"
 reading_time_minutes: 3
 breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,9 +24,11 @@ AI Search includes search features that help users find the answers they need.
 
 -   **Auto-complete search queries**
 
-    Display suggestions in the input field as users compose their searches. Suggestions include recent and popular search queries and results as well as entries from the user's personal search history.
+    Display suggestions in the input field while users compose their searches. Suggestions include recent and popular search queries, recent and popular search results, and entries from the user's personal search history.
 
-    Auto-complete suggestions are linguistic features that search administrators configure in search application configurations. For more information on auto-complete suggestion type settings, see [Configure an auto-complete suggestion type in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/auto-complete-ais.md).
+    Auto-complete suggestions are linguistic features that search administrators configure in search application configurations. For more information about auto-complete suggestion type settings, see [Configure an auto-complete suggestion type in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/config-auto-complete-srch-app-ais.md).
+
+    Administrators can configure display of auto-complete suggestions as standard HTML anchors that can be opened in new browser tabs using the browser's native right-click/long-press functionality. To learn how to configure this display mode for auto-complete suggestions, see [Display search suggestion links as standard HTML anchors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/display-search-suggestion-links-standard-html-anchors.md).
 
 -   **Language-sensitive lemma and Unicode normalization of search query terms**
 
@@ -48,7 +50,7 @@ AI Search includes search features that help users find the answers they need.
 
 -   **Auto-correct typos in search query terms**
 
-    Automatically replace misspelled search query terms with spellings found in indexed content. Typo corrections are displayed above search results. Users can choose to repeat the search with their original query terms.
+    Automatically replace misspelled search query terms with spellings found in indexed content. Typo corrections appear with the search results. Users can choose to repeat the search with their original query terms.
 
     Typo handling auto-correction is a linguistic feature that search administrators configure in search profiles. For details on controlling the set of available auto-correction terms, see [Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/typo-handling-ais.md). AI Search supports derivation of auto-correction terms for Arabic, Brazilian Portuguese, Czech, Danish, Dutch, English, Finnish, French - Canada, French, German, Hebrew, Hungarian, Italian, Norwegian \(Bokmål\), Polish, Portuguese, Russian, Spanish, Swedish, and Turkish.
 

@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---

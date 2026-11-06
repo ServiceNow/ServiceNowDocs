@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a transfer order, Manage transfer orders, Manage inventory in FSM, Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
@@ -48,15 +48,15 @@ Closing a transfer order line completes the task, moves the transfer order line 
     -   The short description text for the transfer order line task for drop off is "Receive" and the state is Open.
 6.  Drop off or prepare for shipment.
 
-<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d116243e152">
+<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d119075e152">
 
 To
 
-</th><th align="left" id="d116243e155">
+</th><th align="left" id="d119075e155">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d116243e161">
+</th></tr></thead><tbody><tr><td id="d119075e161">
 
 **Prepare for shipment**
 
@@ -98,7 +98,7 @@ This task has the short description text "Deliver" and the state Open.
 
 This task automatically moves to the Closed Complete state.
 
-</td></tr><tr><td id="d116243e243">
+</td></tr><tr><td id="d119075e243">
 
 **Drop off**
 

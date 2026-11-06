@@ -7,7 +7,7 @@ release: australia
 product: Problem Management
 classification: problem-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference section for Problem Management, Problem Management, IT Service Management]
 ---
@@ -134,14 +134,14 @@ Assignment group
 
 The group who will work on the problem. The business rule **Populate Assignment Group based on CI/SO** populates the **Assignment group** field based on the support group available for the configuration item \(CI\) or the Service offering consecutively.
 
-**Note:** The business rule is triggered when an incident is created or updated and when the **Assignment group** and the **Assigned to** field is empty.
+**Note:** The business rule is triggered when a problem is created or updated and when the **Assignment group** and the **Assigned to** field is empty.
 
 If you want to override the default value, you need to create new properties and provide the field in the property value that must be used to populate the **Assignment group** field. Create the properties in the following order of preference:
 
 -   **com.snc.problem.ci\_assignment\_group.field\_name**: identifies which CI field populates the **Assignment group** field.
 -   **com.snc.problem.service\_offering\_assignment\_group.field\_name**: identifies which service offering field populates the **Assignment group** field.
 
- If the **Assignment group** field is blank, the incident is automatically assigned to a group.
+ If the **Assignment group** field is blank, the problem is automatically assigned to a group.
 
 </td></tr><tr><td>
 

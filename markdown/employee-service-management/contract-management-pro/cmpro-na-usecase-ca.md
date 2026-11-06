@@ -83,7 +83,7 @@ Language of the files
 
 </td><td>
 
-Language of the contract documents this is by AI.For more information on supported languages, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/languages-supported-by-document-intelligence.md).
+Language of the contract documents this is by AI.For more information on supported languages, see [Languages supported by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/languages-supported.md).
 
 </td></tr><tr><td>
 
@@ -161,7 +161,7 @@ This field should be left empty.
 
     4.  Enter details for the field.
 
-        For more information on the field form, see [Question form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-qna-single-field-form.md).
+        For more information on the field form, see [Question form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/question-form.md).
 
         \[Omitted image "cmpro-na-add-fields.png"\] Alt text: Question details in the fields page.
 

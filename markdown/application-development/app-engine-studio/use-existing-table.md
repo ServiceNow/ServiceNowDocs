@@ -7,9 +7,9 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create a data model, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Create a data model, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a blank table
@@ -32,7 +32,7 @@ Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 5.  Choose from the following choices.
 
-<table id="choicetable_qfr_n3p_tvb"><tbody><tr><td id="d161762e97">
+<table id="choicetable_qfr_n3p_tvb"><tbody><tr><td id="d311125e97">
 
 **Create new table**
 
@@ -42,7 +42,7 @@ Select this option to create a blank table from scratch.1.  Choose **Create new 
 2.  Click **Continue**.
 
 
-</td></tr><tr><td id="d161762e121">
+</td></tr><tr><td id="d311125e121">
 
 **Create from an extensible table**
 

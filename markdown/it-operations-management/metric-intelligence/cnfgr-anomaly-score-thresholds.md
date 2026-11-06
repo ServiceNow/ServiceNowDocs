@@ -7,7 +7,7 @@ release: australia
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Anomaly score thresholds are defined in the table Anomaly Score to Event Severity Map \[sa\_metric\_anomaly\_score\_to\_event\_severity\_map\]. For example, by default, anomaly scores from 8 through 9 are severity 2 \(Major\). These scores are displayed by dark orange color in the Insights Explorer and in the Anomaly Map.
+Anomaly score thresholds are defined in the table Anomaly Score to Event Severity Map \[sa\_metric\_anomaly\_score\_to\_event\_severity\_map\]. For example, by default, anomaly scores from 8 through 9 are severity 2 \(Major\). These anomalies are displayed in dark orange in the Insights Explorer and in the Anomaly Map.
 
 For information on the event severities that each number corresponds to, see [Event severities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/event-severities.md).
 

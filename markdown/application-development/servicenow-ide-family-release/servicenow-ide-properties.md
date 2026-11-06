@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow IDE properties

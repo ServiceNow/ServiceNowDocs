@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [HAM advisor dashboard setup, automatic setup CMDB advisor, manual setup model categories, HAM advisor scope configuration, CMDB Advisor Auto Setup scheduled job]
 breadcrumb: [Set up advisor, Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]

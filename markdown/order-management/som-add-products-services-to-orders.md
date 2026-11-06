@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-add-products-services-to-orders.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -32,7 +32,7 @@ When the  product configurator opens you can select from the available options
 -   The option selection displays any available options for the product, service, order lines, and order tasks.
 -   The Current Selection displays the selected products options and the pricing.
 
-Depending on your configuration, you'd either see a CPQ Configurator or product configurator. To learn more about these, see [Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md) and [Using the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-som-product-configurator.md).
+Depending on your configuration, you'd either see a CPQ Configurator or product configurator. To learn more about these, see [Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md) and [Using the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-som-product-configurator.md).
 
 As you configure your product, use the following options:
 
@@ -73,7 +73,7 @@ Adds the product to the order after you've configured it.
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

@@ -7,7 +7,7 @@ release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ Time to complete this task: 5-7 minutes.
 
 2.  If the ServiceNow AI Platform instance with the Policy and Compliance Management core application is not already added to your mobile device, follow these steps to add it.
 
-    1.  On the Instances screen that is displayed, tap the plus icon.
+    1.  On the Instances screen that is displayed, tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon.\).
 
         A screen is displayed that prompts you to enter and save an address of a ServiceNow AI Platform instance.
 

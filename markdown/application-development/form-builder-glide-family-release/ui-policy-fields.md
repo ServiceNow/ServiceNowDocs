@@ -1,5 +1,5 @@
 ---
-title: Policies and rules properties in Table Builder
+title: Policies and rules fields in Table Builder
 description: You can configure the basic field policies and rules for any field that you work with in Table Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/form-builder-glide-family-release/ui-policy-fields.html
@@ -7,12 +7,12 @@ release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Table Builder reference, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Reference, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
-# Policies and rules properties in Table Builder
+# Policies and rules fields in Table Builder
 
 You can configure the basic field policies and rules for any field that you work with in Table Builder.
 
@@ -224,9 +224,7 @@ Name
 
 </td><td>
 
-Names each user who has permission to access the form or data. -   Enter the names as firstname.lastname in lower case letters, separated by a period \(for example, `john.smith`\). Each name must have a corresponding user record in **hi.servicenow.com**.
--   Enter multiple names and separate them by commas if multiple users have permission to access the form or data.
--   Enter an asterisk \(**\***\) as the name to enable all users to access the form or data.
+Name of the object that the rule secures: the record name, or the table and field names. Use an asterisk \(**\***\) in place of a record, table, or field name to select all matching objects. For example `incident.*` or `*.number`.
 
 </td></tr><tr><td>
 
@@ -245,6 +243,7 @@ Type
 Type of object the access controls, including the following:-   Client-callable script includes
 -   Processor
 -   Record
+-   REST endpoint
 -   UI page
 -   UX route
 

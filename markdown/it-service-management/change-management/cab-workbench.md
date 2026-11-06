@@ -1,22 +1,22 @@
 ---
-title: Change Advisory Board \(CAB\) workbench
-description: The Change Advisory Board \(CAB\) workbench enables a CAB manager to schedule, plan, and manage CAB meetings.
+title: Change Advisory Board \(CAB\) Workbench
+description: The Change Advisory Board \(CAB\) Workbench enables CAB managers to schedule, plan, and manage CAB meetings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/cab-workbench.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Change Management, IT Service Management]
 ---
 
-# Change Advisory Board \(CAB\) workbench
+# Change Advisory Board \(CAB\) Workbench
 
-The Change Advisory Board \(CAB\) workbench enables a CAB manager to schedule, plan, and manage CAB meetings.
+The Change Advisory Board \(CAB\) Workbench enables CAB managers to schedule, plan, and manage CAB meetings.
 
-CAB meetings are typically intended to review and authorize change requests and review recently implemented changes. A standard agenda with the relevant change request details enables the CAB members to conduct risk and impact analysis prior to the CAB meeting.
+CAB meetings are typically intended to review and authorize change requests and review recently implemented changes. A standard agenda with the relevant change request details enables the CAB members to conduct risk and impact analysis before the CAB meeting.
 
 \[Omitted video\] Description: Overview of the CAB workbench
 
@@ -24,7 +24,7 @@ The CAB workbench assists you in managing CAB meetings in the following ways:
 
 -   **Define a schedule for CAB meetings**
 
-    Schedule a recurring series of CAB meetings for CAB members to assess the impact and risk of change requests prior to the meetings.
+    Schedule a recurring series of CAB meetings for CAB members to assess the impact and risk of change requests before the meetings.
 
 -   **Define CAB meeting attendees**
 
@@ -32,7 +32,7 @@ The CAB workbench assists you in managing CAB meetings in the following ways:
 
 -   **Define CAB meeting agenda**
 
-    Define filter criteria that determines which change requests are included in any occurrence of a CAB meeting. If a change request is included in an agenda, the change requester is notified of the CAB meeting in which the change request is discussed. The change requester can attend and present the reasons for the proposed change, and explain the intended outcomes and potential risks of the change.
+    Define filter criteria that determine which change requests are included in any occurrence of a CAB meeting. If a change request is included in an agenda, the change requester is notified of the CAB meeting in which the change request is discussed. The change requester can attend and present the reasons for the proposed change, and explain the intended outcomes and potential risks of the change.
 
 -   **View change calendar**
 
@@ -47,7 +47,7 @@ The CAB workbench assists you in managing CAB meetings in the following ways:
     Record meeting notes from a specific CAB meeting and share these notes with other meeting attendees.
 
 
-The CAB Definition \(cab\_definition\) table inherits the domain properties from the Schedule \(cmn\_schedule\) table which has the Domain and Domain path columns. As the CAB Definition table makes use of the same Child Schedule and Schedule Entry tables as the Schedule table, domain support is identical, where the domain\_master attribute is used to derive Domain from a parent record. For more information, refer [Domain support for schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-support-for-schedules.md) .
+The CAB Definition \[cab\_definition\] table inherits the domain properties from the Schedule \[cmn\_schedule\] table which has the Domain and Domain path columns. Because the CAB Definition table uses the same Child Schedule and Schedule Entry tables as the Schedule table, domain support is identical. The **domain\_master** attribute derives Domain from a parent record. For more information, see [Domain support for schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-support-for-schedules.md) .
 
 **Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/exploring-change-management.md)
 

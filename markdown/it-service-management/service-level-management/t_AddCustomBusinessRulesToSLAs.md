@@ -7,7 +7,7 @@ release: australia
 product: Service Level Management
 classification: service-level-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Select one of the following methods to add custom business rules.
 
-<table id="choicetable_rhy_4yf_4v"><tbody><tr><td id="d247673e63">
+<table id="choicetable_rhy_4yf_4v"><tbody><tr><td id="d424782e63">
 
 **Use setWorkflow\(false\)**
 
@@ -45,7 +45,7 @@ Prior to updating your task, add a call to `setWorkflow(false)` on the GlideReco
           ();
 ```
 
-</td></tr><tr><td id="d247673e83">
+</td></tr><tr><td id="d424782e83">
 
 **Create a sys\_trigger \(Schedule job\) to update the task**
 

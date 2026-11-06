@@ -7,9 +7,9 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use Microsoft Teams to make conference calls in Service Operations Workspace, Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Using Microsoft Teams to make conference calls in Service Operations Workspace, Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Reinitiate a conference call from Microsoft Teams in Service Operations Workspace
@@ -37,5 +37,5 @@ Role required: itil
 7.  In the **Completed** calls, select **Reinitiate call**.
 
 
-**Parent Topic:**[Use Microsoft Teams to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/microsoft-teams-sow.md)
+**Parent Topic:**[Using Microsoft Teams to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/microsoft-teams-sow.md)
 

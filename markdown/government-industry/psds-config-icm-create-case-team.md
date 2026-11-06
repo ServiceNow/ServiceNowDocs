@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-icm-create-case-team.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Case Workspace, Investigative Case Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -22,9 +22,9 @@ Role required: icm.investigator, admin
 
 ## Procedure
 
-1.  Navigate to the CRM Workspace and select **My active cases**.
+1.  Navigate to the Public Sector Workspace and select **My active cases**.
 
-    Alternatively, you can select a case using the CRM Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
+    Alternatively, you can select a case using the Public Sector Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
 
 2.  Select the case you wish to create a case team for.
 

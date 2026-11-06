@@ -7,7 +7,7 @@ release: australia
 product: Workplace Service Delivery
 classification: workplace-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 16
 breadcrumb: [Workplace Service Delivery, Employee Service Management]
 ---
@@ -25,26 +25,26 @@ Workplace Core serves as the foundation for managing workplace data and operatio
 With the Workplace Core \(sn\_wsd\_core\) application, workplace managers can efficiently manage workspace allocation for employees and monitor preventive maintenance activities across the organization.
 
 -   Space Administration: Manage workplaces by defining locations within a location hierarchy, such as spaces, areas, floors, buildings, campuses, sites, and regions. Workplace managers can efficiently plan and implement workplace strategy for better space utilization and optimization.
--   Location Directory: Employees can view and search for spaces to make reservation or search for team members within the workplace.
--   Shift Management: Workplace Managers can create shifts and schedule them for specific times and days. Start planning for workplace occupancy levels by allocating employees and available spaces to specific shifts.
+-   Location Directory: Employees can view and search for spaces to make a reservation or search for team members within the workplace.
+-   Shift Management: Workplace managers can create shifts and schedule them for specific times and days. Start planning for workplace occupancy levels by allocating employees and available spaces to specific shifts.
 -   Dashboard: Analyze the availability of spaces and occupancy levels of office locations through data visualization.
 
 \[Omitted image "wsd-core-application-landing.png"\] Alt text: Workplace Core Administration.
 
 [Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.md)
 
-Workplace Reservation Management application makes it easier for employees to reserve meeting rooms, conference rooms, desks, and workplace services from the reservation portal or the mobile application. Employees can efficiently search and reserve locations based on privacy and location preferences. Employees can make a single-day, recurring, multi-day, multi-building reservations. They can edit or update their reservations as and when require.
+Workplace Reservation Management application makes it easier for employees to reserve meeting rooms, conference rooms, desks, and workplace services from the reservation portal or the mobile application. Employees can efficiently search and reserve locations based on privacy and location preferences. Employees can make a single-day, recurring, multi-day, multi-building reservations. They can edit or update their reservations as and when required.
 
 Workplace Reservation Management enables employees to search, reserve, modify, and check-in reservations for any workspace from an omnichannel self-service interface. Employees can reserve a desk, conference room, equipment, or a parking space based on availability. Employees can add invitees, workplaces services, or amenities to their reservation request. The application provides quick reservations by enabling employees to set up recurring events, create single or multi-day reservations, or even schedule multi-location reservations and request room configurations.
 
 -   Reserve any workspace including desks, conference rooms, collaboration spaces, or parking spaces from any device.
 -   Quickly view physical spaces on a floor map using Indoor Mapping to identify reserved, available, and non-available spaces.
 -   Easily add invitees, external visitors, or guests to your reservation, assign them to a space. Notify them and track their acceptance status.
--   Easily create a hybrid meetings and share it with meeting attendees.
--   Add workplaces services or raise requests for managing events, conferences,  trainings, and customer visits.
+-   Easily create a hybrid meeting and share it with meeting attendees.
+-   Add workplace services or raise requests for managing events, conferences, training, and customer visits.
 -   Workplace managers can import space administration tables, define reservable and non-reservable spaces, and track reservations.
 -   Control employee location visibility when an employee is searching for a workspace.
--   Facility managers can create open, restricted, and non-restricted neighborhoods and assign to employees. Enable employees to reserve spaces in eligible neighborhoods. Employees can search, browse, or navigate neighborhoods using the Location directory.
+-   Facility managers can create open, restricted, and non-restricted neighborhoods and assign them to employees. Enable employees to reserve spaces in eligible neighborhoods. Employees can search, browse, or navigate neighborhoods using the Location directory.
 
 \[Omitted image "wsd-map-reservation-portal.png"\] Alt text: Make a reservation using map view..
 
@@ -59,7 +59,7 @@ ServiceNow Otto for Workplace Service Delivery \(WSD\) elevates your Workplace S
 
 \[Omitted image "wsd-now-assist-panel-help-manage-reservations-a.png"\] Alt text: AI agents notifying Workplace Event Planners about available locations for reserving a space.
 
-Agentic AI in Workplace Service Delivery \(WSD\) enables autonomous management of tasks like temporary space closures, optimizing workflows, and reducing manual effort. in case of emergency maintenance requests, AI agents autonomously block an affected space, move existing reservations to a new location. AI agents send notifications to Workplace Event Planners using the Now Assist Conversational Interface. Workplace Event Planners can engage with AI agents to suggest another space using Conversational Q&amp;A.
+Agentic AI in Workplace Service Delivery enables autonomous management of tasks like temporary space closures, optimizing workflows, and reducing manual effort. In case of emergency maintenance requests, AI agents autonomously block an affected space, move existing reservations to a new location. AI agents send notifications to Workplace Event Planners using the Now Assist Conversational Interface. Workplace Event Planners can engage with AI agents to suggest another space using Conversational Q&amp;A. AI-generated suggestions might be inaccurate, so review each suggestion before acting on it.
 
 [Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-concierge/workplace-concierge-feat.md)
 
@@ -104,7 +104,7 @@ Preventive maintenance:
 
 Move Management:
 
--   Track move cases and associated tasks seamlessly with the move management module.
+-   Track move cases and associated tasks with the move management module.
 -   Use the Move Scheduler, a visual move planning tool, to group move cases into projects and create an organized and logical plan for bulk moves.
 
 Reservation Management:
@@ -125,7 +125,7 @@ Employees can visualize and get directions to and from points of interest. They 
 -   Employees can report a workspace issue using the floor map and notify the facilities team for fulfillment.
 -   Provides indoor mapping experiences for employees and visitors within a workplace along with interactive directions and wayfinding
 -   Employees can browse, search, and navigate around workplaces to discover available services, reservable spaces, and amenities.
--   Enable workplace managers to edit floor plans in real-time for seamless navigation of workspaces.
+-   Enable workplace managers to edit floor plans in real time to navigate of workspaces.
 -   Switch between locations, floors, or workspaces to view or create reservations across Workplace Reservation Management and Workplace Indoor Mapping.
 -   Provide an intuitive kiosk experience to search and navigate spaces, view space details, booking options, and occupancy data
 
@@ -133,9 +133,9 @@ Employees can visualize and get directions to and from points of interest. They 
 
 Workplace Reservations for Microsoft Outlook Add-in provides the capabilities of Workplace Reservation Management within the Microsoft Outlook application. While creating a new event, updating an existing event, or an appointment, an employee can find available spaces easily. Employees can add requests or services such as room configurations or catering without using a separate application.
 
-All reservations and requested services managed within the Workplace Reservation Management application are included with the Workplace Service Delivery solution.
+All reservations and requested services managed within the Workplace Reservation Management application.
 
-\[Omitted image "wsd-ms-outlook-landing-page.png"\] Alt text: MS outlook add in showing your resevation.
+\[Omitted image "wsd-ms-outlook-landing-page.png"\] Alt text: MS Outlook add-in showing your reservation.
 
 -   Find available spaces by applying various search criteria and filters.
 -   Add spaces directly to an event or allow the add-in to add the spaces.
@@ -153,9 +153,9 @@ ServiceNow® Workplace Case Management enables workplace services and facilities
 
 \[Omitted image "workplace-case-dashboard.png"\] Alt text: WSD Case Management dashboard.
 
--   Enable workplace teams to  provide timely help to  employees.
+-   Enable workplace teams to provide timely help to employees.
 -   Configure approvals for quick fulfillment of cases raised by employees.
--   Enable workplace teams to route requests to the right team members, contractors , or vendors.
+-   Enable workplace teams to route requests to the right team members, contractors , or vendors.
 -   Enable employees to report any workplace issue using the interactive floor maps.
 
     Use floor maps to facilitate inquiry requests. Users can locate precisely where a case is raised, whether in a specific meeting room, or a printer located in a hallway.
@@ -163,7 +163,7 @@ ServiceNow® Workplace Case Management enables workplace services and facilities
 
 [Workplace Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-move-mgmt-overview.md)
 
-Workplace Move Management Workplace Move Management enables employees to collaborate, communicate, and easily manage one-off seat changes from start to finish. Both employees and managers can make move requests through a configurable automated process so that workplace managers can supervise the movement of employees and their belongings with minimal to no disruption.
+Workplace Move Management Workplace Move Management enables employees to collaborate, communicate, and easily manage seat changes from start to finish. Both employees and managers can make move requests through a configurable automated process. Workplace managers can supervise the movement of employees and their belongings with minimal to no disruption.
 
 \[Omitted image "wsd-move-management-landing-page.png"\] Alt text: Raise a move request.
 
@@ -177,14 +177,14 @@ Workplace Move Management Workplace Move Management enables employees to collabo
 
 [Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-overview.md)
 
-Workplace Service Delivery for Mobile brings the capabilities of Workplace Reservation Management and wayfinding on the ServiceNow Mobile Platform to native mobile. An employee can search, reserve, modify, and check-in a reservation using the WSD Mobile app and synchronize the changes in real-time with the Workplace Service Delivery application.
+Workplace Service Delivery for Mobile brings the capabilities of Workplace Reservation Management and wayfinding on the ServiceNow Mobile Platform to native mobile. An employee can search, reserve, modify, and check in a reservation using the WSD Mobile app and synchronize the changes in real time with the Workplace Service Delivery application.
 
 -   Find available spaces by applying various search criteria and filters.
 -   Find available spaces near a colleague or within an area.
 -   Reserve a space and edit your reservation using a floor map.
 -   Create a reservation for yourself or on behalf of a colleague.
 -   Manage existing single reservations.
--   Check in or check-out reservations.
+-   Check in or check out reservations.
 -   Add a virtual meeting link to a reservation.
 -   Interactive location directories and wayfinding.
 
@@ -192,23 +192,23 @@ Workplace Service Delivery for Mobile brings the capabilities of Workplace Reser
 
 [Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-agent-for-mobile/workplace-agent-mobile-feat.md)
 
-Workplace Agent for mobile delivers a mobile-first experience for workplace technicians and fulfillers to manage their work assignments and interactions with employees, without relying on any generic tools such as email, phone calls, and walkups.
+Workplace Agent for mobile delivers a mobile-first experience for workplace technicians and fulfillers to manage their work assignments and interactions with employees. The app eliminates reliance on generic tools such as email, phone calls, and walkups.
 
 The app boosts technician productivity with an intuitive interface to easily access assigned work, visibility to critical and breached cases, wayfinding to the employee location, and so on.
 
 With the Workplace Agent for mobile application, any case fulfillment process can be simplified.
 
--   Enable workplace technicians and fulfillers to provide timely help to employees.
+-   Enable workplace technicians and fulfillers to provide timely help to employees.
 -   Easily access and manage assigned work - workplace cases and tasks.
 -   View the group's unassigned cases and tasks and assign to self in a single action.
 -   View assigned cases in a calendar view to track scheduled cases.
--   Easily wayfinding to the workplace location of the employee or where the case is logged using maps.
+-   Easily find your way to the workplace location of the employee or where the case is logged using maps.
 -   Create a workplace case on behalf of the employees.
 -   Log a report by creating a workplace task.
 -   View and search knowledge articles for the case.
 -   View fulfillment instructions and checklists.
 -   Receive push notifications on your mobile.
--   Quick actions to leave comments, notes, update status, and so on
+-   Quick actions to leave comments and notes, update status, and so on
 
     \[Omitted image "wsd-agent-for-mobile-landing.png"\] Alt text: Workplace Agent for Mobile.
 
@@ -217,11 +217,11 @@ With the Workplace Agent for mobile application, any case fulfillment process ca
 
 Welcome your guests and off-site employees with a smoother, more hassle-free experience. Use ServiceNow® Workplace Visitor Management to optimize your front-desk operations and welcome your guests and off-site employees. You can register visitors as well as pre-plan what they will require.
 
-Workplace Visitor Management enables employees to seamlessly register guests expected at the workplace and enables organizations to manage safe and secure check-in procedures. Once visitors are registered, automate tasks such as communications, badge printing, health surveys, and paperwork required prior to their scheduled arrival.
+Workplace Visitor Management enables employees to register guests expected at the workplace and enables organizations to manage safe and secure check-in procedures. After visitors are registered, automate tasks such as communications, badge printing, health surveys, and paperwork required before their scheduled arrival.
 
-The workplace teams and office receptionists can easily monitor a visitor's arrival status with real-time dashboards. Tasks and approvals are automatically generated to initiate building access, grant Wi-Fi access, add a parking space, link to an existing room reservation or include any other requirements for their scheduled arrival.
+The workplace teams and office receptionists can easily monitor a visitor's arrival status with real-time dashboards. Tasks and approvals are automatically generated to initiate building access, grant Wi-Fi access, and add a parking space. You can link to an existing room reservation or include any other requirements for their scheduled arrival.
 
-\[Omitted image "wsd-visitor-mgmt-landing-page-first.png"\] Alt text: Register a guest using Workplace Visitor Management/
+\[Omitted image "wsd-visitor-mgmt-landing-page-first.png"\] Alt text: Register a guest using Workplace Visitor Management.
 
 \[Omitted image "wsd-visitor-mgmt-landing-second.png"\] Alt text: Screen a visitor for entry using Workplace Visitor Management.
 
@@ -239,7 +239,7 @@ The Workplace Services Kiosk provides a seamless check-in, check-out, and self-r
 
 Workplace Services Kiosk provides a new kiosk portal and a UI for Workplace Service Delivery features. The initial August '24 release focuses on Visitor Management Kiosk features, including self check-in, self check-out, and self-registration, which require the Visitor Management App. The February '25 release focuses on Indoor Mapping. Future releases expand capabilities.
 
-\[Omitted image "wsd-kiosk-home.png"\] Alt text: Workplace Servics kiosk home.
+\[Omitted image "wsd-kiosk-home.png"\] Alt text: Workplace Services kiosk home.
 
 \[Omitted image "wsd-kiosk-page-type.png"\] Alt text: Workplace Services kiosk check in.
 
@@ -275,7 +275,7 @@ Efficiently supervise every single location of your organization by using the Se
 
 The ServiceNow® Workplace Lease Administration enables you to create, manage and track workplace contracts from a single interface. You can also add workplace contract services, assets, locations, documents and track important dates.
 
-\[Omitted image "wpa-lease-admin-dashboard.png"\] Alt text: Workplace Lease Adminstration Analytics dashboard.
+\[Omitted image "wpa-lease-admin-dashboard.png"\] Alt text: Workplace Lease Administration Analytics dashboard.
 
 [Workplace Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-ovw.md)
 
@@ -290,7 +290,7 @@ ServiceNow® Workplace Maintenance Management enables workplace maintenance plan
 
 [Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/workplace-connectors-landing-page.md)
 
-Workplace Connectors is an integration framework leveraging employee interactions within the workplace \(such as badging systems, occupancy sensors, environmental sensors\). It helps drive better space utilization and optimization decisions using analytics and planning tools within the Workplace Service Delivery solution.
+Workplace Connectors is an integration framework using employee interactions within the workplace \(such as badging systems, occupancy sensors, environmental sensors\). It helps drive better space utilization and optimization decisions using analytics and planning tools within the Workplace Service Delivery solution.
 
 \[Omitted image "wsd-space-optimization-dashboard.png"\] Alt text: Space optimization analytics based on workplace badging data.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-a2a-agent-new.html
 release: australia
 topic_type: task
-last_updated: "2026-08-28"
+last_updated: "2026-10-16"
 reading_time_minutes: 6
-breadcrumb: [Integrate external AI agents, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Integrate external AI agents, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create an external AI agent
@@ -28,14 +28,43 @@ Role required: sn\_aia.admin
 
     1.  On the New external AI agent form, select an AI agent provider from the **Provider** drop-down or add a provider.
 
-        If you select a **Add new provider**, fill in the fields and select **Add**.
+        If you select **Add new provider**, fill in the fields and select **Add**.
 
-        |Field|Description|
+<table id="table_qxh_1cf_kkc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Name of the agentic AI provider.
+
+</td></tr><tr><td>
+
+Discovery type
+
+</td><td>
+
+The way ServiceNow locates the agent card. **Note:** Well-Known URI / Direct Configuration is currently supported.
+
+</td></tr><tr><td>
+
+Agent card URL
+
+</td><td>
+
+The URL that points to the external AI agent's Agent Card. The URL should include `.well_known/agent_json`.
+
+</td></tr></tbody>
+</table>        |Field|Description|
         |-----|-----------|
-        |Name|Name of the agentic AI provider.|
-        |Discovery type| |
-        |Agent card URL|The URL that points to the external AI agent's Agent Card. The URL should include `.well_known/agent_json`.|
-        |Advanced settings|
         |Connection and credential alias|Credentials to access your external AI agent's Agent Card. You can select an existing alias or create one.|
         |Select Subflow|Subflow that establishes Agent2Agent protocol. The default subflow should handle the majority of cases, but you can also create your own.|
 
@@ -45,7 +74,7 @@ Role required: sn\_aia.admin
 
         If discovery is successful, the name of your agent and the version number are added to the page.\[Omitted image "discover-a2a.png"\] Alt text: Discover external AI agent showing a discovered AI agent
 
-    3.  Select the name of the agent to verify that the **Basic Info** and **Agent card** details.
+    3.  Select the name of the agent to verify the **Basic info** and **Agent card** details.
 
         \[Omitted image "a2a-summary-select.png"\] Alt text: Summary of AI agent details and activate button
 
@@ -53,7 +82,7 @@ Role required: sn\_aia.admin
         -   The **Agent card** tab shows the entire JSON for the agent.
     4.  Select **Save and continue**.
 
-    The guided setup for the selected external AI agent is now available.\[Omitted image "a2a-guided-setup.png"\] Alt text: The external AI agent guided setup.
+    The guided setup for the selected external AI agent is now available.\[Omitted image "a2a-guided-setup.png"\] Alt text: The full external AI agent guided setup, including discover, describe and instruct, authentication, access rules, channel and display, and processing message sections.
 
 4.  Describe and instruct the external AI agent by adding details for how it fits in the ServiceNow agentic system.
 
@@ -61,11 +90,11 @@ Role required: sn\_aia.admin
 
     1.  Verify the **Name** and **Description** to summarize the main intention of the external AI agent.
 
-        **Note:** If the name and description aren't clear or correct, the Orchestrator won't know how to wield the external AI agent in context.
+        **Note:** If the name and description aren't clear or correct, the Orchestrator won't know when or how to use the external AI agent.
 
     2.  Set your communication mode under **Communication mode** to one of the following:
 
-        -   **Synchronous**: ServiceNow Exchanges data with the external AI agent in real-time and waits for an immediate response. The synchronous mode is selected by default.
+        -   **Synchronous**: ServiceNow exchanges data with the external AI agent in real time and waits for an immediate response. The synchronous mode is selected by default.
         -   **Asynchronous**: ServiceNow exchanges data with the external AI agent and continues processing without waiting for an immediate response.
 
             **Note:** Asynchronous connection involves communication where the sender and receiver don't have to be active simultaneously unlike the synchronous communication mode.
@@ -74,17 +103,17 @@ Role required: sn\_aia.admin
 
             After saving the record, a Connection &amp; Credential Alias \[sys\_alias\] record is created for you. To add authentication, you can open the Connection record associated with the sys\_alias record and add a credential to the **Credential** field. When the record is created, you can go back to the External Agent Callback Registry record you created and select **Verify URL** to test that the connection works as expected.
 
-        **Note:** Some agents don’t support asynchronous communication.
+        **Note:** Some agents don't support asynchronous communication.
 
     3.  Select a subflow under **Advanced settings**.
 
-        You can use either the default subflow; which is **External AI Agent Card - A2A Protocol**, or an existing subflow from the **Select subflow** drop-down, or create a subflow. The default subflow should work for the majority of cases.
+        You can use the default subflow, **External AI Agent Card - A2A Protocol**, an existing subflow from the **Select subflow** drop-down, or a new subflow you create. The default subflow works for most cases.
 
 5.  Add authentication for an external AI agent using the connection and credential alias.
 
     Choose which credentials access your external AI agent's execution endpoint. You can select an existing alias or create one. If you create one, a modal displays with options for configuring an OAuth or API Key authentication.
 
-    **Note:** For more information about the API Key credential, see [A2A API Key credential behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/a2a-api-key-credential-behavior.md).
+    **Note:** For more information about the API Key credential, see .
 
 6.  Configure access control lists \(ACLs\) for the external AI agent.
 
@@ -132,7 +161,7 @@ Assign one or more specific roles from the drop-down menu.**Note:** Selecting th
 
 8.  Communicate the external AI agent's process to users.
 
-    -   **Context for the messages**: Describe what you external agent is set to do.
+    -   **Context for the messages**: Describe what your external agent is set to do.
     -   **In-progress message**: Choose processing messages to display to the user when the external AI agent is executing.
 
         For example, `Initiating AI agent` or `Processing record details`, or `An AI agent is looking into the request`.

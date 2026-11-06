@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-hardwareassetmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 19
 breadcrumb: [Products combined by family]
 ---
@@ -80,7 +80,7 @@ Zurich
         -   sn\_hamp.enable\_shipping\_carrier\_validation\_asn
         -   sn\_hamp.model\_lifecycle\_phase\_order
         -   sn\_hamp.update\_assets\_norm\_model\_name
-    -   A new system property, **sn\_itam\_restrict\_asset\_read**, introduced in Zurich Patch 12, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access. By default, this property is set to **false**.
+    -   A new system property, **sn\_itam\_restrict\_asset\_read**, introduced in Zurich Patch 12, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. By default, this property is set to **true**. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Australia
         -   asset\_licensing\_admin: Provides access to the ITAM licensing module.
         -   asset\_recommendation\_admin: Provides access to recommendation actions.
     -   The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US).
-    -   A new system property, **sn\_itam\_restrict\_asset\_read**, introduced in Australia Patch 5, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access. By default, this property is set to **false**.
+    -   A new system property, **sn\_itam\_restrict\_asset\_read**, introduced in Australia Patch 5, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. By default, this property is set to **true**. When set to **true**, these users can only read asset records assigned to them or where they are referenced in fields such as Reserved for, Managed by, or Owned by. Users with any additional role retain full read access.
 
 </td></tr></tbody>
 </table>## New features

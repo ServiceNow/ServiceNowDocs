@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -21,6 +21,8 @@ Integrates your ServiceNow instance with Kafka Consumer and stores data in the S
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
+
+**Important:** Starting with the Brazil release, the ServiceNow Kafka Consumer plugin is being prepared for future deprecation. It will no longer be activated on new instances and will be hidden from the plugin catalog, but remains supported for existing deployments. For new implementations, Stream Connect is the recommended path forward.
 
 This spoke requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 

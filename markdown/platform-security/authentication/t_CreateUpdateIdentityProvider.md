@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -37,7 +37,7 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
         \[Omitted image "Import\_metadata.png"\] Alt text: Importing identity provider metadata
 
     -   For OpenID Connect: Click **OpenID Connect** and enter client ID, client secret, and well known configuration URL.
-4.  To make the IdP the failover IdP that is used when the default IdP is not available, select the **Default** check box.
+4.  To make the IdP the failover IdP that is used when a user doesn’t have an SSO source defined, select the **Default** check box.
 
     If you have SAML 2 Update 1 active and you upgrade to the Fuji release, the SAML 2 Update 1 IdP is selected as the default failover. No default failover IdP is selected for new instances or if you are upgrading from a release on which SAML 2 Update 1 is not active.
 

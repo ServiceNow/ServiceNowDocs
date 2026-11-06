@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 23
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -307,7 +307,7 @@ List of objects that describe the available channels of communication with the a
 
 presence.channels.available
 
-</td><td id="d3900e337">
+</td><td id="d3117e337">
 
 Flag that indicates whether the channel is available. Possible values:
 
@@ -349,7 +349,7 @@ Service channel type, such as chat. Possible values vary depending on plugins in
 
 presence.channels.sys\_id
 
-</td><td id="d3900e405">
+</td><td id="d3117e405">
 
 Channel sys\_id. Data type: String
 
@@ -385,7 +385,7 @@ Data type: Boolean
 
 presence.sys\_id
 
-</td><td id="d3900e467">
+</td><td id="d3117e467">
 
 Presence state sys\_id. Data type: String
 
@@ -497,7 +497,7 @@ workItem.isQueueTransferred
 
 </td><td>
 
-**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't.Data type: Boolean
+**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information about queue transfers, see [Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-chat-using.md).Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -1556,7 +1556,7 @@ Service channel type, such as chat. Possible values vary depending on plugins in
 
 presence.channels.sys\_id
 
-</td><td id="d3900e405">
+</td><td id="d3117e405">
 
 Channel sys\_id. Data type: String
 
@@ -1592,7 +1592,7 @@ Data type: Boolean
 
 presence.sys\_id
 
-</td><td id="d3900e467">
+</td><td id="d3117e467">
 
 Presence state sys\_id. Data type: String
 
@@ -1704,7 +1704,7 @@ workItem.isQueueTransferred
 
 </td><td>
 
-**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't.Data type: Boolean
+**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information about queue transfers, see [Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-chat-using.md).Data type: Boolean
 
 </td></tr><tr><td>
 

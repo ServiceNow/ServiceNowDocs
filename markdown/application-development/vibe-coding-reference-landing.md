@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-reference-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [reference]
-breadcrumb: [Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Agentic development reference

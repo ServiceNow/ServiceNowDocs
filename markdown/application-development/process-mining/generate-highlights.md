@@ -1,0 +1,57 @@
+---
+title: Generate highlights for improvement opportunities
+description: Generate highlights for the improvement opportunities to optimize your processes.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/process-mining/generate-highlights.html
+release: australia
+product: Process Mining
+classification: process-mining
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Use, ServiceNow Otto for Process Mining, Use, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Generate highlights for improvement opportunities
+
+Generate highlights for the improvement opportunities to optimize your processes.
+
+## Before you begin
+
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
+
+**Important:** Assists are charged dynamically.
+
+-   For Highlights, 50 assists are charged per improvement opportunity. You can load more results for the same request with no extra charge.
+-   If results aren't displayed, then there are no charges.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
+
+2.  Select a project.
+
+3.  Go to the Opportunities details page.
+
+    For more information about Opportunities details page, see [Opportunity details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/opportunity-details.md).
+
+4.  Select the Improvement Opportunities icon on the right-side panel.
+
+    The list of available improvement opportunities is displayed.
+
+5.  Select the improvement opportunity whose details you want to view.
+
+    The metrics per finding are provided at the top. You can also generate the highlights.
+
+6.  Select **Generate Highlights**.
+
+    **Important:**
+
+    -   The **Generate Highlights** button is displayed only if the Process Inefficiency Highlights skill is activated on your instance.
+    -   If there are more than 50 records for an inefficiency, you can generate the highlights. Otherwise, the **Generate Highlights** button is unavailable.
+    -   If there are no improvement opportunities for this project, this area is empty.
+    The highlights for the selected improvement opportunity are displayed.
+
+
+**Parent Topic:**[Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/use-na-process-mining.md)
+

@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Network switch and router, Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Network devices can contain an extremely large number of ports. If individual port information is not critical to overall device management, you may not want to collect port data for SNMP network devices. This would affect records from being created in the Switchports table \(dscy\_switchport\). This process only impacts probe discovery.
+Network devices can contain an extremely large number of ports. If each individual port's information is not critical to the overall management of the devices, you may not want to collect the port data for SNMP network devices. This would affect records from being created in the Switchports table \(dscy\_switchport\). This process only impacts probe discovery.
 
 ## Procedure
 

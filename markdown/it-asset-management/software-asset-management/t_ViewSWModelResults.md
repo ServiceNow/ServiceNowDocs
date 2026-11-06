@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Software license usage, Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software license usage, Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View software model results
@@ -54,7 +54,7 @@ Software model
 
 </td><td>
 
-Software model associated with the product. Drill down on the software model to see the software model result.The dashboard field action \[Omitted image "SAMdashboardIcon.png"\] icon shows the Rights Owned vs Rights Used chart for the software model.
+Software model associated with the product. Drill down on the software model to see the software model result.The dashboard field action \(\[Omitted image "SAMdashboardIcon.png"\] Alt text: DashboardFieldAction\) icon shows the Rights Owned vs Rights Used chart for the software model.
 
 </td></tr><tr><td>
 

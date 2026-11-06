@@ -7,7 +7,7 @@ release: australia
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Resource Management Workspace, Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -34,26 +34,12 @@ For more information regarding how the Resource finder works and the resources a
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Resource Management Workspace**.
+1.  Navigate to **All** &gt; **Resource Management Workspace**.
 
 2.  Select the Resource cards icon \(\[Omitted image "rmw-resource-cards-L1-icon.png"\] Alt text: Resource cards icon.\) from the menu and open a resource card.
 
     Alternatively, you can view unassigned tasks using the Unassigned assignment requests widget from the overview dashboard.
 
-3.  From unassigned tasks pane, select the context menu row \(\[Omitted image "row-context-menu-icon.png"\] Alt text: 3 vertical dots denoting the row context menu.\) for any task and select **Resource finder**.
-
-    \[Omitted image "resource-finder-modal.png"\] Alt text: Resource-finder-modal.
-
-4.  From Resource finder modal, select **Show monthly availability** toggle or weekly.
-
-5.  Select the resource assignee and select **Assign resources**.
-
-6.  From Assign resources modal, review the allocations and distributions and select **Assign**.
-
-    \[Omitted image "assign-resources-ai.png"\] Alt text: assign-resources
-
-    The resource is assigned to the task.
-
-
+3.  4.  5.  6.  
 **Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/using-rmw.md)
 

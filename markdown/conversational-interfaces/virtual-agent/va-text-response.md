@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Virtual Agent, designer, Text response, bot response, control, node]
-breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Text bot response control
@@ -130,18 +130,11 @@ A no-code condition statement or low-code script that specifies a condition for 
 
 |Channel|Support|Constraints|
 |-------|-------|-----------|
-|Web UI|Supported|None|
-|Mobile UI|Supported|None|
-|ServiceNow Otto panel|Supported|None|
 |Microsoft Teams|Supported|None|
 |Slack|Supported|None|
-|Workplace|Supported|None|
-|Facebook Messenger|Supported|Plain text string only|
 |SMS Twilio|Supported|None|
-|LINE|Supported|None|
 |WhatsApp|Supported|None|
-|Apple Messages for Business|Supported|None|
-|Alexa \(Voice\)|Supported|For screen devices, full support. For nonscreen devices, the header is read.|
+|Google Chat|Supported|None|
 
 ## Example Text bot response script
 

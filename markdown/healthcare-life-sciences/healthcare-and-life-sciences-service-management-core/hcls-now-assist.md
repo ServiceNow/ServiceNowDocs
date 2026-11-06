@@ -7,7 +7,7 @@ release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage healthcare requests in Workspace, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -49,7 +49,7 @@ The summary displays in the case summary panel once generated. Users can give fe
 
 **Note:** UI Builder can be used to configure the placement of the Case Summary panel within the HCLS case form. For more information, see .
 
-For more information on using this capability, see .
+For more information on using this capability, see [Summarize case insights by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-summarize-case.md).
 
-For information on how to configure Now Assist to use the case summarixation skill, see .
+For information on how to configure Now Assist to use the case summarixation skill, see [Configuring ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-configuring.md).
 

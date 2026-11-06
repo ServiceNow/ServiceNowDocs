@@ -1,6 +1,6 @@
 ---
 title: Set up the Box spoke
-description: Integrate your ServiceNow instance and the Box APIs to automate the Box spoke actions. For example, you can set up a flow that removes a file in your Box account. When you set up the Box spoke, this flow is automated.Create a custom OAuth application from your Box account to enable OAuth 2.0 authentication with the Box spoke.Add and configure a Box connection to authenticate ServiceNow requests in a Box spoke.Regenerate the Box OAuth token when it expires. The Box spoke OAuth token expires every thirty days.Set up an OAuth provider with the JWT Bearer grant type to integrate your ServiceNow instance with Box.
+description: Integrate your ServiceNow instance and the Box APIs to automate the Box spoke actions. For example, you can set up a flow that removes a file in your Box account. When you set up the Box spoke, this flow is automated.Create a custom OAuth application from your Box account to enable OAuth 2.0 authentication with the Box spoke.Configure a connection to your Box account to authenticate ServiceNow requests. The Box spoke connection and credential aliases use this connection to perform actions in Box.Regenerate the Box OAuth token when it expires. The Box spoke OAuth token expires every thirty days.Set up an OAuth provider with the JWT Bearer grant type to integrate your ServiceNow instance with Box.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-box-spoke.html
 release: australia
@@ -162,9 +162,9 @@ Interact with Box AI actions
 </table>10. Select **Save Changes**.
 
 
-## Configure a connection record for the Box spoke
+## Configure a connection for the Box spoke
 
-Add and configure a Box connection to authenticate ServiceNow requests in a Box spoke.
+Configure a connection to your Box account to authenticate ServiceNow requests. The Box spoke connection and credential aliases use this connection to perform actions in Box.
 
 ### Before you begin
 
@@ -178,18 +178,18 @@ Role required: admin
 
 3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-4.  Locate the alias for **Box** and click **View Details**.
+4.  Locate the alias for **Box\_Upload** and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Box spoke, click **View Details**.
 
-        \[Omitted image "box-conn-view-det.png"\] Alt text: View details of the Box connection.
+        \[Omitted image "box-conn-view-det.png"\] Alt text: Box\_Upload connection alias with the View Details button highlighted.
 
     -   To manage more than one Box spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    \[Omitted image "box-conf-connection.png"\] Alt text: Configure the Box connection.
+    \[Omitted image "box-conf-connection.png"\] Alt text: Connections panel for the Box\_Upload alias with the Configure button highlighted.
 
-5.  On the form, fill these values.
+5.  On the **Configure Connection** form, fill in these fields:
 
 <table id="table_hjv_tsb_h2c"><thead><tr><th>
 
@@ -199,13 +199,17 @@ Field
 
 Value
 
-</th></tr></thead><tbody><tr><td>
+</th></tr></thead><tbody><tr><td colspan="2">
+
+Connection Information
+
+</td></tr><tr><td>
 
 Connection Name
 
 </td><td>
 
-`Box`.
+`Box_Upload`.
 
 </td></tr><tr><td>
 
@@ -214,6 +218,10 @@ Connection URL
 </td><td>
 
 The instance URL in this format:`<provider-domain-name>.net`.
+
+</td></tr><tr><td colspan="2">
+
+Credential Information
 
 </td></tr><tr><td>
 
@@ -256,9 +264,9 @@ OAuth Redirect URL
 The URL in this format: `https://<ServiceNow-instance-name>.service-now.com/oauth_redirect.do`. Replace `<ServiceNow-instance-name>` with your ServiceNow instance name.
 
 </td></tr></tbody>
-</table>    \[Omitted image "box-connection.png"\] Alt text: Configure the Box connection.
+</table>    \[Omitted image "box-connection.png"\] Alt text: Configure Connection form for the Box spoke with the connection and credential fields.
 
-6.  Click **Configure Connection**.
+6.  Click **Save and Get OAuth Token**.
 
 
 ### Result

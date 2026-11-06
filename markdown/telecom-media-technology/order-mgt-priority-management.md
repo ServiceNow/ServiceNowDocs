@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/order-mgt-priority-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -79,5 +79,5 @@ These rules are defined in the following decision tables:
 
 Each parameter defined in the decision table has a rank value assigned to it. When an order is created, the decision tables are evaluated and a weightage is assigned to each table to calculate the order priority. See [Calculating the order priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/order-mgmt-priority-calculate.md) on how the priority is calculated.
 
-**Note:** You can add new inputs, conditions, or modify the existing conditions in the decision tables. For more details on updating decision tables, see [Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/using-decision-builder.md).
+**Note:** You can add new inputs, conditions, or modify the existing conditions in the decision tables. For more details on updating decision tables, see [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/using-decision-builder.md).
 

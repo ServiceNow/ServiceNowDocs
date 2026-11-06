@@ -7,16 +7,16 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Conversational custom chat integrations, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Default input and output rich controls for a custom chat integration
 
 Input and output rich controls must be mapped to your custom chat integration in the Custom Adapter Configurations \[sys\_cs\_custom\_adapter\_config\] table. If a rich control is missing an outbound transformer implementation, a response is not served to the end user and that user may get an unsatisfactory chat experience.
 
-The following default rich controls map to input and output rich controls. The **uiType** parameter refers to a topic control used to build conversations in Virtual Agent Designer.
+The following default rich controls map to input and output rich controls. The **uiType** parameter refers to a topic control used to build conversations in Assistant Designer.
 
 <table id="table_rqm_lvn_qmb"><thead><tr><th>
 
@@ -32,7 +32,7 @@ ActionRichControl
 
 </td><td>
 
-This component handles the different events and actions that occur in a conversation. Some actions may not apply to all channels. For example, StartSpinnerActionMsg is ignored in SMS.ServiceNow® Virtual Agent produces the following types of action messages through this framework. The custom chat interface only recognizes certain action message types.
+This component handles the different events and actions that occur in a conversation. Some actions may not apply to all channels. For example, StartSpinnerActionMsg is ignored in SMS.Virtual Agent produces the following types of action messages through this framework. The custom chat interface only recognizes certain action message types.
 
  -   SeparatorActionMsg \|\|actionMsg instanceof
 -   SystemActionMsg \|\|actionMsg instanceof
@@ -323,5 +323,4 @@ Maps to [custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Creating conversational custom chat integrations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md)
-
+</table>

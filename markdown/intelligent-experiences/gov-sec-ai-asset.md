@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-ai-asset.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Governing AI asset security
@@ -43,7 +43,7 @@ An AI asset security event is an occurrence that involves a potential threat to 
 
 ## Access posture
 
-Whether the asset was given elevated privileges or has been dormant for the time period shown.
+Whether the asset was given elevated privileges or has been dormant for the time period shown, expressed in Coordinated Universal Time \(UTC\).
 
 -   **Privileged**
 
@@ -58,7 +58,7 @@ Whether the asset was given elevated privileges or has been dormant for the time
 
 ## AI agent containment
 
-If a security event of any severity \(Critical, High, Medium, or Low\) is detected for an AI agent in the Agentic AI category, a banner appears on both the asset's **Overview** tab and its **Security** tab, letting you take action directly from the asset record.
+If a security event of any severity is detected for an AI agent in the Agentic AI category, a banner appears on both the asset's **Overview** tab and its **Security** tab, letting you take action directly from the asset record.
 
 Select **View containment options** on the banner to open a side panel showing recent critical events for the asset and a **Deactivate** action. Deactivating the asset triggers AI agent containment using kill switch protocol; you can track progress from the banner and retry the operation if it fails or partially completes. After the underlying issue is resolved, you can reinstate the asset. For details, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
 

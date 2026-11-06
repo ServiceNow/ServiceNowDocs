@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/using-column-level-encryption.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Field Encryption, Encryption]
 ---
@@ -58,6 +58,8 @@ Create a cryptographic specification to define the algorithm for a cryptographic
 You can use your own customer-supplied key instead of using the ServiceNow® system-generated keys.
 -   **[Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/field-encryption-key-management.md)**  
 Once cryptographic modules are created, a security admin can define the encrypted fields configuration \(EFC\) and opt to encrypt a field or attachment on a table.
+-   **[Archive tables and Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/archive-tables-fe.md)**  
+Understand how encrypted data in base tables is handled when it moves to archive tables and get guidelines for properly configuring Encrypted Field Configurations \(EFCs\).
 -   **[Field Encryption Enterprise examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/kmf-walkthroughs-tutorials.md)**  
 These examples walk you through the encryption of fields and attachments using customer-supplied keys.
 

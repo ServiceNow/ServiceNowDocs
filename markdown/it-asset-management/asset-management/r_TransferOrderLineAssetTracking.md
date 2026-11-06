@@ -1,20 +1,20 @@
 ---
 title: Transfer order line asset tracking
-description: Understand how asset states and stock information update automatically as a transfer order line progresses through each stage. Consumables and non-consumables are tracked differently.
+description: As transfer order line actions are triggered, the stock information and states of any affected assets are updated. Consumables and non-consumables are tracked differently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/r\_TransferOrderLineAssetTracking.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Transfer order line asset tracking
 
-Understand how asset states and stock information update automatically as a transfer order line progresses through each stage. Consumables and non-consumables are tracked differently.
+As transfer order line actions are triggered, the stock information and states of any affected assets are updated. Consumables and non-consumables are tracked differently.
 
 When an asset is included in a transfer order line, the following takes place:
 
@@ -37,6 +37,8 @@ When a consumable is added to a transfer order line, the stock for the consumabl
 [Transfer order tasks]()
 
 [Customize transfer order line tasks]()
+
+[Transfer assets using transfer orders]()
 
 [Delete a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/t_DeleteATransferOrder.md)
 

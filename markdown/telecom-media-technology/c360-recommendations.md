@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-recommendations.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -31,16 +31,12 @@ To open the full content of a suggested Knowledge Base article, select **Open re
 
 By default, a non-AI recommended action context is installed that supports Knowledge Base article search only. When you enter a search term, the results show matching Knowledge Base articles with a **Knowledge** badge. Select **Open record** on a result to view the article.
 
-\[Omitted image "rec-action-non-ai.png"\] Alt text: Recommendations without ServiceNow Otto for TMT installed
-
 When the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) is installed, AI recommended action contexts are installed and the default non-AI recommended action contexts are deactivated. When you enter a search term, the results show both Knowledge Base articles and matching agentic workflows with an option to trigger them.
 
 **Note:**
 
 -   You can view the agentic workflows only if you have the sn\_aia\_viewer role.
 -   You can execute a workflow only if you have the sn\_nb\_action.next\_best\_action\_user role and at least one of the roles defined for the specific agentic workflow.
-
-\[Omitted image "rec-action-ai.png"\] Alt text: Recommendations with ServiceNow Otto for TMT installed
 
 The **Trigger Workflow** button is enabled only when all of the following conditions are true:
 

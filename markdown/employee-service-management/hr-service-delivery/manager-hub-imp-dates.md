@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference for Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Default configurations for important dates
@@ -18,12 +18,12 @@ Predefined set of important dates configurations are available to use once you h
 
 |Name|Description|
 |----|-----------|
-|Employee birthday|Configuration to display employees birthdays.|
-|Employee anniversary|Configuration to display employees anniversaries.|
-|Employee time off|Configuration to display employees time offs.|
-|Employee leave of absence|Configuration to display employees long leaves, such as parental leaves.|
-|Employee joining date|Configuration to display employees joining dates.|
-|Employee leaving date|Configuration to display employees leaving dates.|
+|Employee birthday|Configuration to display employees birthdays in Manager Hub.|
+|Employee anniversary|Configuration to display employees anniversaries in Manager Hub.|
+|Employee time off|Configuration to display employees time offs in Manager Hub.|
+|Employee leave of absence|Configuration to display employees long leaves, such as parental leaves in Manager Hub.|
+|Employee joining date|Configuration to display employees joining dates in Manager Hub.|
+|Employee leaving date|Configuration to display employees leaving dates in Manager Hub.|
 
 For more details, navigate to **All** &gt; **Manager Hub** &gt; **Administration** &gt; **Important Dates Configuration**.
 

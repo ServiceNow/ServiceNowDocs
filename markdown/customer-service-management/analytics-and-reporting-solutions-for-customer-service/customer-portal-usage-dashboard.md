@@ -7,7 +7,7 @@ release: australia
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Portal usage]
 breadcrumb: [Customer Service Platform Analytics Solutions, Analytics and reporting, Customer Service Management]
@@ -23,7 +23,7 @@ You can access the dashboard by navigating to **All** &gt; **Self Service** &gt;
 
 To access more detailed information, place your mouse device over any of the graphical reports. These graphs can be saved as PNG or JPEG files, enabling you to add them to emails or include them in your presentations. Additionally, all graphs can be updated to display the current data. An example of the dashboard layout is shown in the following image.
 
-**Note:** The Customer Portal usage tab is available when the Customer Service \(com.sn\_customerservice\) plugin is activated.
+**Note:** The Customer Portal usage tab is available when the Case Management Core \(com.sn\_customerservice\) plugin is activated.
 
 \[Omitted image "customer-portal-usage-dashboard.png"\] Alt text: Customer portal usage dashboard. For descriptions of the reports included on this dashboard, see the Reports section that follows.
 

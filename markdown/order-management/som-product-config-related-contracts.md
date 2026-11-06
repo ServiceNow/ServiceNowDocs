@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-product-config-related-contracts.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ Add related contracts to your product offerings in the Sales Customer Relationsh
 
 ## Before you begin
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_catalog\_manager
+Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_catalog\_manager
 
 ## Procedure
 

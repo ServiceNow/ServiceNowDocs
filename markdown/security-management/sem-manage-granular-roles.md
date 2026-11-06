@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-manage-granular-roles.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Assign the Vulnerability Response persona roles using Setup Assistant, Security Exposure Management Workspace personas and granular roles, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -30,15 +30,15 @@ Role required: admin
 
 1.  To manage granular roles for users and groups, choose one to continue.
 
-<table id="choicetable_m51_vw5_tlb"><thead><tr><th align="left" id="d48629e101">
+<table id="choicetable_m51_vw5_tlb"><thead><tr><th align="left" id="d48855e101">
 
 Option
 
-</th><th align="left" id="d48629e104">
+</th><th align="left" id="d48855e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d48629e110">
+</th></tr></thead><tbody><tr><td id="d48855e110">
 
 **Edit the granular roles for a user or group**
 
@@ -46,7 +46,7 @@ Description
 
 Assign or remove granular roles for users or groups, or edit granular roles so that only select users within a group have expanded or limited permissions.An example follows the table.
 
-</td></tr><tr><td id="d48629e122">
+</td></tr><tr><td id="d48855e122">
 
 **Create a new role**
 

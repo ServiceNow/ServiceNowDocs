@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recommended Actions for ITSM in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -32,15 +32,15 @@ Role required: admin
 
 2.  Perform one of the following actions to start creating an incident.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d251915e103">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d433868e103">
 
 Option
 
-</th><th align="left" id="d251915e106">
+</th><th align="left" id="d433868e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d251915e112">
+</th></tr></thead><tbody><tr><td id="d433868e112">
 
 **From the List menu**
 
@@ -51,7 +51,7 @@ Description
 3.  Select **New Incident**.
 
 
-</td></tr><tr><td id="d251915e151">
+</td></tr><tr><td id="d433868e151">
 
 **From an incident list**
 
@@ -69,7 +69,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d251915e191">
+</td></tr><tr><td id="d433868e191">
 
 **From an interaction**
 

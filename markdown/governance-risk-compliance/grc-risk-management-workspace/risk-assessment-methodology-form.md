@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure a risk assessment methodology, Perform Advanced Risk Assessment, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -151,10 +151,6 @@ Calculate score based on
 Formula that you can select for calculating the score:-   **Average**
 -   **Maximum**
 -   **Minimum**
--   **Worst Case**
-
-**Note:** The worst case aggregation rollup selects the risk record with the highest residual score and uses its inherent, control, residual, and target scores for the aggregated result.
-
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -178,7 +174,7 @@ Allow single risk response
 
 </td><td>
 
-Option to make the risk response selection a single select in the risk assessment form. For example, the options could be "Accept," "Avoid," "Mitigate," or "Transfer." With a single select, assessors can choose only one of these options to indicate the risk response strategy.**Note:** This option can only be enabled when there are no ongoing assessments.
+Option to make the risk response selection a single select in the risk assessment form. For example, the options could be "Accept," "Avoid," "Mitigate," or "Transfer." With a single select, assessors can choose only one of these options to indicate the risk response strategy.**Note:** Set this option on the Risk Assessment Methodology form in the classic UI, in the Default view. The option isn't shown in the workspace view of the form. When it's turned on, the risk response is a single choice in the workspace risk assessment. In the classic risk assessment form, the risk response field remains a multi-value field. You can turn on this option only when the methodology has no in-progress assessments. You can turn it off at any time.
 
 </td></tr><tr><td>
 
@@ -198,6 +194,14 @@ Option to make a risk response as required: -   **None**: No risk response is re
 -   **Always**: Mandate a risk response always.
 -   **On specific conditions**: Mandate a risk response based on specific conditions using the condition builder.
 -   **On specific conditions defined using script**: Mandate a risk response under specific conditions using a predefined script or set of instructions.
+
+</td></tr><tr><td>
+
+Comments required when users define risk response
+
+</td><td>
+
+Option to make comments mandatory when an assessor selects a risk response. When this option is enabled, assessors must enter a comment in the Risk Response comments field before they can save the risk response.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -309,11 +313,19 @@ Method to identify risks in the risk assessment scope:-   **None**
 
 </td></tr><tr><td>
 
-Group factor comments
+Additional grid columns
 
 </td><td>
 
-Option to enable group factor comments in the risk assessment form.
+Columns, in addition to Risk and Entity which are always shown, that you want to display on the grid mode of a risk assessment project.
+
+</td></tr><tr><td>
+
+Additional control grid columns
+
+</td><td>
+
+Columns that you want to display on the grid mode of a risk assessment project during control assessment.
 
 </td></tr><tr><td>
 

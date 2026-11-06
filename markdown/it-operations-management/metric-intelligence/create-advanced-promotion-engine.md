@@ -7,7 +7,7 @@ release: australia
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -83,7 +83,7 @@ Number of days in the past that any CI created during that time is ignored. For 
 
 8.  On the **Number of Alerts** tab, in the **Number of alerts on CI** field, enter the minimum number of a CI's alerts with an identical severity level \(or higher\) to be considered for promotion.
 
-    For example, a value of 3 indicates that at least three alerts with the indicated severity \(or higher\) must exist on a CI. The alert is then considered for promotion.
+    For example, a value of 3 means at least three alerts with the indicated severity \(or higher\) must exist on a CI.
 
 9.  On the **Time Window** tab:
 
@@ -107,7 +107,7 @@ Number of days in the past that any CI created during that time is ignored. For 
 
 ## What to do next
 
-Ensure that a metric configuration rule exists which includes metrics you want to be promoted to an IT alert. The anomaly score level of the rule must be **Anomaly alerts**. For details on configuring a metric configuration rule, see [Create a configuration settings rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/create-config-overriding-rule.md).
+Ensure that a metric configuration rule exists which includes metrics you want to be promoted to an IT alert. Verify that the anomaly score level of the rule is **Anomaly alerts**. For details on configuring a metric configuration rule, see [Create a configuration settings rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/create-config-overriding-rule.md).
 
 **Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 

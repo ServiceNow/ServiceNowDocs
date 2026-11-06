@@ -7,7 +7,7 @@ release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Reference, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -96,7 +96,7 @@ Azure Subscription
 
 Enable automatic provisioning of the monitoring agent to collect security data.
 
- When 'Log Analytics agent for Azure VMs' is turned on, Microsoft Defender for Cloud provisions the Microsoft Monitoring Agent on all existing supported Azure virtual machines and any new ones that are created. The Microsoft Monitoring Agent scans for various security-related configurations and events such as system updates, OS vulnerabilities, endpoint protection, and provides alerts.
+ When 'Log Analytics agent for Azure VMs' is turned on, Microsoft Defender for Cloud provisions the Microsoft Monitoring Agent on all existing supported Azure virtual machines and on any new ones created. The Microsoft Monitoring Agent scans for security-related configurations and events such as system updates, OS vulnerabilities, and endpoint protection, and provides alerts.
 
 </td></tr><tr><td>
 
@@ -304,7 +304,7 @@ Microsoft.Sql/servers
 
 TDE with Customer-managed key support provides increased transparency and control over the TDE Protector, increased security with an HSM-backed external service, and promotion of separation of duties. With TDE, data is encrypted at rest with a symmetric key \(called the database encryption key\) stored in the database or data warehouse distribution. To protect this data encryption key \(DEK\) in the past, only a certificate that the Azure SQL Service managed could be used.
 
- Now, with Customer-managed key support for TDE, the DEK can be protected with an asymmetric key that is stored in the Key Vault. Key Vault is a highly available and scalable cloud-based key store which offers central key management, leverages FIPS 140-2 Level 2 validated hardware security modules \(HSMs\), and allows separation of management of keys and data, for additional security. Based on business needs or criticality of data/databases hosted a SQL server, it is recommended that the TDE protector is encrypted by a key that is managed by the data owner \(Customer-managed key\).
+ Now, with Customer-managed key support for TDE, the DEK can be protected with an asymmetric key that is stored in the Key Vault. Key Vault is a highly available and scalable cloud-based key store which offers central key management, leverages FIPS 140-2 Level 2 validated hardware security modules \(HSMs\), and allows separation of key and data management for additional security. Based on business needs or criticality of data or databases hosted a SQL server, it is recommended that the TDE protector is encrypted by a key that is managed by the data owner \(Customer-managed key\).
 
 </td></tr><tr><td>
 
@@ -364,7 +364,7 @@ Ensure that unattached disks in a subscription are encrypted with a Customer Man
 
  Encrypting managed disks ensures that its entire content is fully unrecoverable without a key and thus protects the volume from unwarranted reads.
 
- Even if the disk is not attached to any of the VMs, there is always a risk where a compromised user account with administrative access to VM service can mount/attach these data disks which may lead to sensitive information disclosure and tampering.
+ Even if the disk is not attached to any VM, a compromised user account with administrative access to the VM service can mount or attach these data disks. This may lead to sensitive information disclosure and tampering.
 
 </td></tr><tr><td>
 
@@ -382,9 +382,17 @@ Microsoft.KeyVault
 
 The key vault contains object keys, secrets and certificates. Accidental unavailability of a key vault can cause immediate data loss or loss of security functions \(authentication, validation, verification, non-repudiation, etc.\) supported by the key vault objects.
 
- It is recommended the key vault be made recoverable by enabling the "Do Not Purge" and "Soft Delete" functions. This is in order to prevent loss of encrypted data including storage accounts, SQL databases, and/or dependent services provided by key vault objects \(Keys, Secrets, Certificates\) etc., as may happen in the case of accidental deletion by a user or from disruptive activity by a malicious user.
+ Enable the "Do Not Purge" and "Soft Delete" functions to make the key vault recoverable. This prevents loss of encrypted data, including storage accounts, SQL databases, and dependent services provided by key vault objects \(Keys, Secrets, Certificates\), whether from accidental deletion or malicious activity.
 
- There could be scenarios where users accidently run delete/purge commandson key vault or attacker/malicious user does it deliberately to cause disruption. Deleting or purging a key vault leads to immediate data loss as keys encrypting data and secrets/certificates allowing access/services will become non-accessible. There are 2 key vault properties that plays role in permanent unavailability of a key vault.1.enableSoftDelete:Setting this parameter to true for a key vault ensures that even if key vault is deleted, Key vault itself or its objects remain recoverable for next 90days. In this span of 90 days either key vault/objects can be recovered or purged \(permanent deletion\). If no action is taken, after 90 days key vault and its objects will be purged.2.enablePurgeProtection:enableSoftDelete only ensures that key vault is not deleted permanently and will be recoverable for 90 days from date of deletion. However, there are chances that the key vault and/or its objects are accidentally purged and hence will not be recoverable. Setting enablePurgeProtection to "true" ensures that the key vault and its objects cannot be purged.Enabling both the parameters on key vaults ensures that key vaults and their objects cannot be deleted/purged permanently.
+ Users may accidentally run delete or purge commands on a key vault, or a malicious user may do so deliberately. Deleting or purging a key vault causes immediate data loss, as keys and secrets or certificates become inaccessible.
+
+Two key vault properties affect permanent unavailability:
+
+1. **enableSoftDelete**: Setting this parameter to `true` ensures that even if the key vault is deleted, the key vault and its objects remain recoverable for 90 days. During this period, the key vault or its objects can be recovered or purged \(permanent deletion\). If no action is taken, the key vault and its objects are purged after 90 days.
+
+2. **enablePurgeProtection**: **enableSoftDelete** only ensures that the key vault is not permanently deleted and remains recoverable for 90 days. However, the key vault or its objects can still be accidentally purged. Setting **enablePurgeProtection** to `true` ensures that the key vault and its objects cannot be purged.
+
+Enabling both parameters ensures that key vaults and their objects cannot be permanently deleted or purged.
 
 </td></tr><tr><td>
 

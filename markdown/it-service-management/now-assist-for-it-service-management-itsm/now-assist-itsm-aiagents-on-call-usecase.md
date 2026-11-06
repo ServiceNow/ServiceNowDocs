@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI, On-Call Retrieval, On-Call Roster]
 breadcrumb: [ITSM, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]

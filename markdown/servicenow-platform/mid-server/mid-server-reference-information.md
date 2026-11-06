@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Use these minimum system requirements to allocate resources for computers hostin
 Upgrade MID Servers manually, or automatically through the instance. MID Server automatic upgrade is triggered when the instance upgrades and the MID Server no longer has the same version. The new MID Server package is downloaded from install.service-now.com, replaces the old one, and the MID Server starts with the new version.
 -   **[Resolving MID Server issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerTroubleshooting.md)**  
 Troubleshoot problems with the MID Server to find solutions. Monitor the MID Server to receive alerts about issues as they occur. Troubleshooting procedures exist to resolve specific problems with the MID Server. The Knowledge Base on Hi contains several articles to help you troubleshoot MID Server issues.
--   **[MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerDashboard.md)**  
+-   **[MID Server dashboard]()**  
 The MID Server dashboard is a central place for MID Server users to monitor ongoing operations. The dashboard consists of reports and gauges that display information from the MID Server Status table.
 -   **[MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerProperties.md)**  
 Properties control the behavior of all MID Servers or a particular MID Server.

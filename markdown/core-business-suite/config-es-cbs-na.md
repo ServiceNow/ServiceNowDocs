@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/config-es-cbs-na.html
 release: australia
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Employee Slate, Now Assist, configuration, Configuration Summary, conversational assistant, data sources, Core Business Suite]
 breadcrumb: [Employee Slate configuration, Configure, Core Business Suite]

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/r\_CreationRestrsAcrossAppScopes.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Creation restrictions across application scopes

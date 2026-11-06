@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Using Planning console - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,7 +36,7 @@ Create a project task
 
 Select the add task below icon on the row to create a new task.
 
- You can also select an existing task to determine the insertion point for the new task, and then select the add task above icon or the add task below icon.
+ To control the insertion point, select an existing task first. Then select the add task above icon or the add task below icon.
 
 </td></tr><tr><td>
 
@@ -151,7 +151,7 @@ Allow task dates outside schedule
 
 </td><td>
 
-Right-click a project task and select **Allow outside schedule**. The selected task is allowed to start and end on a non-schedule day \(outside the regular project schedule\) such as on a weekend. The off schedule task icon appears next to the task in the **Short description** column.For example, if you use the project schedule Monday to Friday, 8:00 to 17:00 and a project task of duration 2 days should start on Saturday, then an off-schedule task is allowed to be scheduled on Saturday and end on Sunday. Similarly, if a task of duration 3 days starts on Friday, then an off-schedule will end on Sunday as opposed to ending on Tuesday.
+Right-click a project task and select **Allow outside schedule**. The selected task is allowed to start and end on a non-schedule day \(outside the regular project schedule\) such as on a weekend. The off schedule task icon appears next to the task in the **Short description** column.If you use the project schedule Monday to Friday, 8:00 to 17:00 and a project task of duration 2 days starting Saturday. Then an off-schedule task is allowed to be scheduled on Saturday and end on Sunday. Similarly, if a task of duration 3 days starts on Friday, then an off-schedule will end on Sunday as opposed to ending on Tuesday.
 
  -   The option is not available for a parent task. When a task is made off-schedule, its parent also becomes off-schedule. The project also operates as out of schedule if any of the children is set to out of schedule.
 -   Once a task is allowed outside the schedule, the **Follow schedule** option is available for the task. Right-click the task and select **Follow schedule** to follow the schedule for the task.
@@ -332,7 +332,7 @@ Zoom the calendar in or out
 
 </td><td>
 
-On the top of the calendar, select one of the time periods, such as the month or day. Then select a **Zoom Level** from the calendar.When the zoom level in calendar is selected as **Auto Fit**, the Gantt view fits in one page to display the entire timeline for the project in one go without using the scrollbar.
+On the top of the calendar, select one of the time periods, such as the month or day. Then select a **Zoom Level** from the calendar.When the zoom level is set to **Auto Fit**, the Gantt view fits on one page. The entire project timeline is visible without scrolling.
 
 </td></tr><tr><td>
 

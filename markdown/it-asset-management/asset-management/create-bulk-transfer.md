@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Transfer order tasks, Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Event field mapping configuration, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -149,8 +149,6 @@ Run after binding
 
 </td></tr></tbody>
 </table>    -   If you selected **Map field and transform value \(Single field\)**, fill in the fields as appropriate.
-
-        **Note:** Map field and transform value \(Single field\) is supported in **Service Operations Workspace** &gt; **Enrich Automation**.
 
 <table id="table_d2n_plh_wy"><thead><tr><th>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/recall-a-quote-approval-request.html
 release: australia
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -24,7 +24,7 @@ Recalling an approval request cancels any pending approval steps and returns the
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon.
 

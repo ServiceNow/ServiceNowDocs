@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Generate and monitor project insights directly from AI insights page in Project 
 
 ## Before you begin
 
-Ensure that the Project insights generation skill is active.
+Verify that the Project insights generation skill is active.
 
 Role required: it\_project\_manager
 

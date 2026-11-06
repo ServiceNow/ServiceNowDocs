@@ -7,7 +7,7 @@ release: australia
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a learning library, Managing course and catalog content, Learning Core, HR Service Delivery, Employee Service Management]
 ---
@@ -28,9 +28,9 @@ Create a learning library. For more information, see [Create a learning library]
 
 2.  Select the learning library that you want to add course items to.
 
-3.  On the Content tab, select **Add**.
+3.  On the Content tab, click **Add**.
 
-4.  On the Select content window, select courses and select **Add selected**.
+4.  On the Select content window, select courses and click **Add selected**.
 
 
 **Parent Topic:**[Create a learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/create-ln-ctg.md)

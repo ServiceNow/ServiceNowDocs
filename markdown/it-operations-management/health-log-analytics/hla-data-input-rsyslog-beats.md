@@ -7,9 +7,9 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-keywords: [ServiceNow, Health Log Analytics, HLA, data input, configuration]
+keywords: [ServiceNow, Health Log Analytics, HLA, manual, data input, configuration]
 breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -25,7 +25,7 @@ Set up a data input for streaming log messages to your ServiceNow instance using
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
--   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
+-   Unless the MID Server and external clients are on the same network, verify that the MID Server has a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
 -   For shipping your logs encrypted using SSL TLS, see the [Streaming Data With Rsyslog &amp; Filebeat Using SSL \[KB0866319\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0866319) article in the Now Support Knowledge Base.
 
 Role required: evt\_mgmt\_admin
@@ -57,9 +57,11 @@ Role required: evt\_mgmt\_admin
 
     For installation instructions, refer to the product documentation of the respective agent.
 
-    **Note:** Make sure that you’re running the latest version of the agent. Earlier versions will work, but with limited functionality.
+    **Important:** Verify that you’re running the latest version of the agent. Earlier versions will work, but with limited functionality.
 
-6.  On the **Tagging and Binding** tab, assign logs to an service instance in the Configuration Management Database \(CMDB\) to enable the service to correlate the log data and enable the system to do root cause analysis.
+6.  On the **Tagging and Binding** tab, assign logs to a service instance in the Configuration Management Database \(CMDB\)
+
+    Associating logs with a service instance in the CMDB is a prerequisite for log data correlation and root cause analysis.
 
     1.  For each source, configure the path and service instance for the logs to be streamed.
 
@@ -69,13 +71,13 @@ Role required: evt\_mgmt\_admin
 
     2.  If you want to ship multiline logs using Filebeat, configure the properties that control how Filebeat handles messages that span multiple lines of text.
 
+        **Note:** Health Log Analytics currently doesn't support multiline properties for Rsyslog.
+
         |Field|Description|
         |-----|-----------|
-        |Match|Specifies how Filebeat combines matching lines into an event.|
-        |Negate|Defines whether the pattern identified in the log lines is negated.|
-        |Regex|Specifies the regular expression to match.|
-
-        **Note:** Health Log Analytics currently doesn't support multiline properties for Rsyslog.
+        |Match|Setting that specifies how Filebeat combines matching lines into an event.|
+        |Negate|Setting that specifies whether the pattern identified in the log lines is negated.|
+        |Regex|Setting that specifies the regular expression to match.|
 
     3.  Define additional log paths to enable the data input to stream log types from multiple paths.
 
@@ -92,7 +94,7 @@ Role required: evt\_mgmt\_admin
     -   Rsyslog:
         1.  Download the configuration file and install it on the endpoint device, in the `/etc/rsyslog.d/rsyslog.conf` directory.
 
-            **Note:** If you are using the Health Log Analytics application, Version 20.0.11 - July 2021, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), do the following instead:
+            **Note:** If you're using the Health Log Analytics application, Version 20.0.11 - July 2021, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), do the following instead:
 
             1.  On the endpoint device, install the configuration file in the `/etc/rsyslog.d/` directory.
             2.  Create a spool directory by running the `sudo mkdir -p/var/spool/rsyslog` command.
@@ -130,31 +132,26 @@ Role required: evt\_mgmt\_admin
 
         **Note:** You can only publish the data input configuration when the connection is created successfully.
 
-    **Note:** You can revert to the last published configuration by selecting **Revert Changes**. This option is available only when you're modifying a configuration that has been published previously.
+10. Revert to the last published configuration by selecting **Revert Changes**.
 
-10. Select **Publish** to publish the data input to the MID Server.
+    **Note:** This option is available only when you're modifying a previously published configuration.
+
+11. Select **Publish** to publish the data input to the MID Server.
 
 
 ## Result
 
-The data input configuration process is complete. Health Log Analytics adds the data input record to the **Data Inputs** table and attaches the configuration file to the data input record. The data input starts streaming log data to your ServiceNow instance.
+The data input configuration process is complete. Health Log Analytics adds the data input record to the **Data Inputs** table. The data input starts streaming log data to your ServiceNow instance.
 
-**Note:** The configuration file Health Log Analytics generates for new Filebeat data inputs is compatible with Filebeat version 7.14 and above. The minimum Filebeat version that Elasticsearch currently supports is 7.17, which is nearing its end of life \(EOL\).
+**Note:** The configuration file Health Log Analytics generates for new Filebeat data inputs is compatible with Filebeat version 7.14 and later. Elastic no longer supports Filebeat version 7.17 or earlier.
 
-Existing Filebeat data input configuration files in HLA are compatible with Filebeat versions up to 8.x. For Filebeat version 9.0 and above, either migrate from log input to filestream input or generate a new configuration file. For more information on the migration process, refer to the [Filebeat documentation](https://www.elastic.co/docs/reference/beats/filebeat/migrate-to-filestream).
+Existing Filebeat data input configuration files in HLA are compatible with Filebeat versions up to 8.x. If you use Filebeat version 9.0 or later, either migrate from log input to filestream input or generate a new configuration file. For more information on the migration process, refer to the [Filebeat documentation](https://www.elastic.co/docs/reference/beats/filebeat/migrate-to-filestream).
 
 **Note:** If the HLA engine is down and data has stopped streaming, a notification appears at the top of the data input configuration page. When this happens, contact ServiceNow support.
 
 ## What to do next
 
-[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
+[Verify that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
 **Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
-
-**Related topics**  
-
-
-[Configure advanced settings for Rsyslog, Splunk, TCP data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md)
-
-[Configure advanced settings for Beats data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-adv-beats.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Entity filters, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -31,11 +31,11 @@ You can use one of the following filter conditions for the entity type:
 
 1.  Navigate to the desired workspace, go to the List view, and click **Entity types**.
 
-2.  Select an entity type in the list and navigate to the **Entity Filters** tab.
+2.  Click an entity type in the list and navigate to the **Entity Filters** tab.
 
-3.  To create an entity filter, select **New**.
+3.  To create a new entity filter, click **New**.
 
-    The **Create New Entity Filter** page is displayed.
+    The Create New Entity Filter page is displayed.
 
 4.  In the **Details** tab, fill in the fields.
 

@@ -7,7 +7,7 @@ release: australia
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Compliance case task workflow, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ After a case is reported to the compliance team, a compliance case analyst can c
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list \[Omitted image "ws-list-icon.png"\] icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
 
 3.  In the List section, select **All Cases**.
 

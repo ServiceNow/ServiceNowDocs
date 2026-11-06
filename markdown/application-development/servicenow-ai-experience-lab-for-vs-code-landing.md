@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-ai-experience-lab-for-vs-code-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow AI Experience Framework, ServiceNow AI Experience Lab for VS Code]
-breadcrumb: [Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow Lux Lab for VS Code extension
@@ -31,7 +31,7 @@ The ServiceNow Lux Lab for VS Code extension transforms how you build on the Ser
 
 </td><td>
 
-
+ 
 
 </td></tr></tbody>
 </table>## Helpful resources

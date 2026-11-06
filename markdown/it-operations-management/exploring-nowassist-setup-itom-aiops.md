@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/exploring-nowassist-setup-itom-aiops.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [explore]
 breadcrumb: [IT Operations Management]
@@ -19,7 +19,7 @@ ServiceNow Otto for Setup provides a guided setup experience to install and conf
 
 You access ServiceNow Otto for Setup from the Admin Home page. The Manage your products section organizes your licensed ServiceNow products into dedicated spaces for focused setup and configuration. Select **IT Operations Management** to access tailored administrative tools and overviews.
 
-\[Omitted image "nowassist-setup-admin-home-page.png"\] Alt text: Admin Home page showing the Manage your products section with cards for , IT Operations Management and ServiceNow Otto.
+\[Omitted image "nowassist-setup-admin-home-page.png"\] Alt text: Admin Home page showing the Manage your products section with cards for IT Operations Management and ServiceNow Otto.
 
 The Welcome! Let's get started section walks first-time administrators through the initial ITOM setup process. Select **Start setup** to install all required applications and plug-ins needed to begin managing your IT infrastructure.
 

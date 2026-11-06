@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [log viewer, alert analysis, anomaly detection, log data, anomaly frequency, mean time to repair, configuration errors, service impact, log anomalies, alert investigation]
 breadcrumb: [Review alert-related logs on the Log Viewer, Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -35,7 +35,7 @@ Role required: evt\_mgmt\_operator, or evt\_mgmt\_admin
 
 3.  Analyze log-based anomalies and added context to help you achieve faster mean time to repair \(MTTR\).
 
-    For example, say you find a log line with errors found in a configuration file. On the **Anomaly** card, a sudden spike on the chart indicates where the configuration file is generating the errors. You can view additional key-value pairs extracted from the logs on the **Meaningful log properties** card and find the affected application services and their related service offerings on the **Impacted services** card. For greater context, you may want to [investigate the logs that surround the anomaly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept-sow.md), locate the configuration file, and find the time frame where the issues occurred.
+    For example, say you find a log line with errors found in a configuration file. On the **Anomaly** card, a sudden spike on the chart indicates where the configuration file is generating the errors. You can view additional key-value pairs extracted from the logs on the **Meaningful log properties** card and find the affected application services and their related service offerings on the **Impacted services** card. For greater context, you may want to [investigate the logs that surround the anomaly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md), locate the configuration file, and find the time frame where the issues occurred.
 
 
 ## What to do next
@@ -44,9 +44,4 @@ Use additional features on the Log Viewer to refine your search or define alerts
 
 -   Modify the search query to fine-tune the search and save useful searches. See [Define, save, and share a log data search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md).
 -   If you discover important relationships in the log data, select **Define alert** to define the kind of alert that should be triggered by the data. See [Define a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-rule-add-sow.md) for instructions.
-
-**Related topics**  
-
-
-[Review alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md)
 

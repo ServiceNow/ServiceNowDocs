@@ -7,7 +7,7 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: reference
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist TISC, Threat Intelligence Security Center]
 breadcrumb: [Customize a skill, Administer, Threat Intelligence Security Center, Security Operations]

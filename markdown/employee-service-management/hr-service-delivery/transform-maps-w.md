@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, HR Service Delivery Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using HR Service Delivery Integration with Workday, HR Service Delivery Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Use transform maps
@@ -96,7 +96,7 @@ HRSD Workday Education and Training
 
 </td><td>
 
-Maps education and training from the Staging table to the Workday Education and Training table \[sn\_hr\_workday\_certifying\_board\_code\_staging\].
+Maps education and training from the Staging table to the Workday Education and Training table \[sn\_employee\_education\_training\].
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ HRSD Workday Employee Employment History
 
 </td><td>
 
-Maps employment history from the Staging table to the Workday Employee Employment History table \[sn\_hr\_workday\_professional\_reference\_staging\].
+Maps employment history from the Staging table to the Workday Employee Employment History table \[sn\_employee\_employment\_history\].
 
 </td></tr><tr><td>
 

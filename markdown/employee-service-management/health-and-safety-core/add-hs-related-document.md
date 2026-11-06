@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Health and Safety Core, Health and Safety, Employee Service Management]
 ---

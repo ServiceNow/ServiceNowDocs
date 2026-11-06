@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-offline-mode.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -65,6 +65,8 @@ When your users have network access again, they can disable ofﬂine mode and sy
 Use the tables to view the various components and features that are either fully, partially or not supported in offline mode.
 -   **[System properties in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-system-properties.md)**  
 Use the table to view system properties related to offline mode.
+-   **[Mobile scripting in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-script-concept.md)**  
+Use mobile scripts to run reusable JavaScript on the user’s device while offline, so offline buttons and write-back actions stay consistent with online behavior. Mobile scripts are a subset of web scripts, and are stored centrally on the instance. The platform pushes them to mobile devices as part of the offline cache.
 -   **[Offline mode setup options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/offline-setup-options.md)**  
 Review the setup options to determine which configurations apply to your offline mode requirements. Each option explains what to configure and why, helping you make informed decisions. Before configuring, identify your target users, the screens they need, expected data size, and connectivity patterns such as field versus office use.
 

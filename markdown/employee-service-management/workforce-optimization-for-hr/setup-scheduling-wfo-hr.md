@@ -1,5 +1,5 @@
 ---
-title: Configure Scheduling for Workforce Optimization for HR
+title: Setting up Scheduling for Workforce Optimization for HR
 description: Manage events the team calendar. Create schedule plans, shift plans, event categories, and event types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/setup-scheduling-wfo-hr.html
@@ -7,12 +7,12 @@ release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
-# Configure Scheduling for Workforce Optimization for HR
+# Setting up Scheduling for Workforce Optimization for HR
 
 Manage events the team calendar. Create schedule plans, shift plans, event categories, and event types.
 
@@ -36,9 +36,9 @@ Use extension points to call scripts for event categories such as meeting, time 
 
 [Workforce Optimization for HR Domain Separation]()
 
-[Configure Teams in Workforce Optimization for HR]()
+[Setting up Teams in Workforce Optimization for HR]()
 
-[Configure Coaching in Workforce Optimization for HR]()
+[Setting up Coaching in Workforce Optimization for HR]()
 
 [Setting up Demand Forecast in Workforce Optimization for HR]()
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/r\_rolesinstalledwithcustaccessmgmt.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -48,7 +48,7 @@ Case Authorized Contact\[sn\_customerservice.case\_authorized\_contact\]
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -64,7 +64,7 @@ Case Authorized Consumer\[sn\_customerservice.case\_authorized\_consumer\]
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -80,7 +80,7 @@ Case Authorized Contributor\[sn\_customerservice.case\_authorized\_contributor\]
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -355,7 +355,7 @@ Case Read\[sn\_customerservice.case\_read\_granular\]
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -371,7 +371,7 @@ Cases Create\[sn\_customerservice.case\_create\_granular\]
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -387,7 +387,7 @@ Case Write\[sn\_customerservice.case\_write\_granular\]
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -404,7 +404,7 @@ Case Related Party Write \[sn\_customerservice.case\_related\_party\_write\_gran
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 

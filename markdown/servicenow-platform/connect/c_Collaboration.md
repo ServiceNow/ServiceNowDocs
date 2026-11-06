@@ -7,7 +7,7 @@ release: australia
 product: Connect
 classification: connect
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Connect Chat is a real-time messaging tool that enables users to chat with indiv
 
 **Important:**
 
-Connect Chat is not available in Next Experience. Starting with Australia, certain Connect Chat functions are available in Next Experience by using Sidebar. See [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615) or [Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md) for more information about the differences between Connect Chat and Sidebar.
+Connect Chat is not available in Next Experience. Starting with Brazil, certain Connect Chat functions are available in Next Experience by using Sidebar. See [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615) or [Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md) for more information about the differences between Connect Chat and Sidebar.
 
 Connect Chat animates communication around records, Visual Task Boards, topics of interest, or groups of people.
 

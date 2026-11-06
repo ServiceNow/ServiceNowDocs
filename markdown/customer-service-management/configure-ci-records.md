@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Records are displayed in the Customer Information view in Agent Workspace.
+Records are displayed in the Customer Information view in CRM Workspace.
 
 \[Omitted image "customer-records.jpg"\] Alt text: Contact section displaying the contact details of the customer.
 

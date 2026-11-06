@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ACC, Agent Client Collector, Log Analytics, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
 breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -41,7 +41,7 @@ Port
 
 </td><td>
 
-The port on the MID Server to which the ACC-L agent connects. This field is required.**Important:** This port can't be the same as the MID Web Server port.
+The port on the MID Server to which the ACC-L agent connects. This field is required.**Important:** This port can't be the same as the MID Web Server port. Enter a unique port that no other application on the MID Server uses. Ask your security team to allow traffic on this port between the MID Server and the log sources.
 
 </td></tr><tr><td>
 

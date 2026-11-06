@@ -7,9 +7,9 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Report on service catalog variables, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Report on service catalog variables, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Use service catalog variables in a report
@@ -43,7 +43,7 @@ Use a variable as an extra **Group by**, as a column in a list report, or as a c
 
 2.  Do one of the following.
 
-<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d211928e123">
+<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d215617e123">
 
 **Add as a column in a list report**
 
@@ -51,7 +51,7 @@ Use a variable as an extra **Group by**, as a column in a list report, or as a c
 
 On the **Configure** tab, move **Variables+** to the **Selected** column.
 
-</td></tr><tr><td id="d211928e141">
+</td></tr><tr><td id="d215617e141">
 
 **Add as an extra __Group by__**
 
@@ -59,7 +59,7 @@ On the **Configure** tab, move **Variables+** to the **Selected** column.
 
 On the **Configure** tab, click **Additional group by**, then move **Variables+** at the bottom of the **Selected** of the **Additional group by** list.
 
-</td></tr><tr><td id="d211928e168">
+</td></tr><tr><td id="d215617e168">
 
 **Add as a column or row in a multilevel pivot table**
 

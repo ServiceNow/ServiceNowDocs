@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/understanding-secops.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Security Operations]
 ---
@@ -242,15 +242,15 @@ Select a tile to get started with the Security Operations Workspaces.
 
 -   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 
-    [https://www.servicenow.com/community/](https://www.servicenow.com/community/)
+    [ServiceNow Community](https://community.servicenow.com/community)
 
 -   **\[Omitted image "dcx-icon.svg"\] Customer Success Center**
 
-    [https://www.servicenow.com/community/](https://www.servicenow.com/community/)
+    [Impact](http://impact.servicenow.com)
 
 -   **\[Omitted image "dcx-icon-dev-portal.svg"\] Developer**
 
-    [https://developer.servicenow.com/dev.do](https://developer.servicenow.com/dev.do)
+    [developer.servicenow.com](https://developer.servicenow.com/)
 
 -   **\[Omitted image "dcx-icon-impact.svg"\] Impact**
 
@@ -258,11 +258,11 @@ Select a tile to get started with the Security Operations Workspaces.
 
 -   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
-    [https://learning.servicenow.com/now/lxp/home](https://learning.servicenow.com/now/lxp/home)
+    [ServiceNow University](https://learning.servicenow.com/now/lxp/home)
 
 -   **\[Omitted image "dcx-icon.svg"\] NowCreate**
 
-    [https://mynow.servicenow.com/now/best-practices/home](https://mynow.servicenow.com/now/best-practices/home)
+    [Best Practices](https://mynow.servicenow.com/now/best-practices/home)
 
 -   **\[Omitted image "dcx-icon-partner.svg"\] Partner**
 
@@ -278,5 +278,5 @@ Select a tile to get started with the Security Operations Workspaces.
 
 -   **\[Omitted image "dcx-icon-support.svg"\] Support**
     -   [https://support.servicenow.com/now](https://support.servicenow.com/now)
-    -   [https://support.servicenow.com/kb?id=known\_error\_portal](https://support.servicenow.com/kb?id=known_error_portal)
+    -   [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
 

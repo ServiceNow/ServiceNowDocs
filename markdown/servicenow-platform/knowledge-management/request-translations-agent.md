@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authoring a knowledge article in Agent Workspace, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -59,5 +59,5 @@ The translation task is created for the article in the selected languages and as
 
 [Create translation assignments for knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-translation-assignments.md)
 
-[Translate a knowledge article from a translation task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/translate-article-agent.md)
+[Translate a knowledge article from a translation task in Agent Workspace]()
 

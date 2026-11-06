@@ -7,7 +7,7 @@ release: australia
 product: SBOM Core
 classification: sbom-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classifying licenses and resolving component licenses in the Software Bill of Materials workspace, Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_sbom\_response.managelicense
 
 3.  To classify licenses, choose one.
 
-<table id="choicetable_inv_wvz_ycc"><thead><tr><th align="left" id="d507765e96">
+<table id="choicetable_inv_wvz_ycc"><thead><tr><th align="left" id="d511096e96">
 
 Option
 
-</th><th align="left" id="d507765e99">
+</th><th align="left" id="d511096e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d507765e105">
+</th></tr></thead><tbody><tr><td id="d511096e105">
 
 **Bulk edit records or edit more than one record on the list.**
 
@@ -51,7 +51,7 @@ Description
 3.  Update the classification.
 
 
-</td></tr><tr><td id="d507765e126">
+</td></tr><tr><td id="d511096e126">
 
 **Edit and update the classification on the record.**
 

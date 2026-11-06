@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Entity classes, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Entity classes, Explore entities, Common GRC features, Governance, 
 
 Scheduled jobs are automated pieces of work that can be performed at a specific time or on a recurring schedule. GRC administrators run the scheduled jobs on demand to automate the tasks such as setting an entity class on the entities depending on the entity class rule.
 
-Starting with the Australia release, the following scheduled jobs are provided for GRC:
+Starting with the Brazil release, the following scheduled jobs are provided for GRC:
 
 -   **GRC set entity class on entities based on entity class rule**: Use this scheduled job to populate the entity class rule for multiple entities at a time. The scheduled job script checks all the entity class rules, checks all the entities where the entity class field is empty, and updates the entity class for multiple entities.
 

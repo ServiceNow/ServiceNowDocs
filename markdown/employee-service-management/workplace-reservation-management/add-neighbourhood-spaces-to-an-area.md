@@ -1,31 +1,31 @@
 ---
 title: Assign spaces to an area
-description: Add spaces to an area to make them available for reservation. On the Reservation portal, when an employee searches for an area, all the available spaces that are assigned to that area are displayed.
+description: Assign spaces to an area. Employees can find and reserve them when they search for an area on the Reservation portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/add-neighbourhood-spaces-to-an-area.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Assign spaces to an area
 
-Add spaces to an area to make them available for reservation. On the Reservation portal, when an employee searches for an area, all the available spaces that are assigned to that area are displayed.
+Assign spaces to an area. Employees can find and reserve them when they search for an area on the Reservation portal.
 
 ## Before you begin
 
-The following plugins should be installed:
+The following plugins must be installed:
 
 -   Workplace Central
 -   Workplace Reservation Management
 -   Workplace Space Management
 -   Workplace Core
 
-Ensure that the area to which you are assigning spaces is configured in the application.
+The area to which spaces are assigned must be configured in the application.
 
 1.  Navigate to **Workplace Core** &gt; **Space Administration** &gt; **Areas**.
 2.  Check that the area is configured.
@@ -41,27 +41,27 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_rsv.admin
 
 ## About this task
 
-Assign desks or spaces that belong to an area. When an employee searches for an area to make a reservation, all the available spaces or desks that belong to that area are displayed. You can add spaces individually or in bulk. For example, you can add spaces individually like C1 and C2, or you can add one space C with a quantity of 100.
+Assign desks or spaces that belong to an area. When an employee searches for an area to make a reservation, all the available spaces or desks that belong to that area are displayed. You can add spaces individually or in bulk. For example, you can add spaces individually, such as C1 and C2, or you can add one space C with a quantity of 100.
 
 ## Procedure
 
 1.  Navigate to **Workplace Core** &gt; **Space Administration** &gt; **Spaces**.
 
-2.  Select the space that you want to assign to the area.
+2.  Select the space to assign to the area.
 
 3.  Open the form in the Workplace view.
 
-    1.  On the top-left corner of the form, right-click the additional actions icon.
+    1.  On the form, select and hold \(or right-click\) the additional actions icon.
 
-        \[Omitted image "additional-actions.png"\] Alt text: Additional actions icon.
+        \[Omitted image "additional-actions.png"\] Alt text:
 
     2.  In the list, select **View** &gt; **Workplace**.
 
 4.  On the Space form, in the **Organization details** tab, select the area in the **Area** field.
 
-5.  To add a bulk quantity of this space, specify a quantity in **Reservable quantity** field in the **Extra information** tab.
+5.  To add a bulk quantity of this space, specify a quantity in the **Reservable quantity** field in the **Extra information** tab.
 
-6.  Click **Update**.
+6.  Select **Update**.
 
 
 ## Result
@@ -71,7 +71,7 @@ The space is added to the area. On the Reservation portal, the following actions
 -   When an employee searches for the area, the assigned space is displayed.
 -   If you have added bulk quantity for a space, the space is displayed with a maximum capacity in the card view. When an employee makes a reservation for this space, the capacity is deducted. The space is again displayed with the available capacity for the next reservation until the maximum capacity is 0.
 
-If the reservable module to which the space is assigned has the **Enable restricted neighborhood rules** option enabled, then the space is displayed to the user based on the restrictions. That is, if the user is restricted to view the spaces of this neighbourhood, then the space is not displayed to him in the search results. If the user is restricted to view the spaces of a neighbourhood to which they don't belong or, if the user is not added in the Neighbourhood User Assignment table.
+If the reservable module has the **Enable restricted neighborhood rules** option enabled, the space is displayed based on neighborhood restrictions. The space is not displayed in search results if you are restricted from viewing spaces in that neighborhood. It is also hidden if you are not added in the Neighbourhood User Assignment table.
 
 ## What to do next
 

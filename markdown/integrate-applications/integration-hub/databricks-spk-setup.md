@@ -77,7 +77,7 @@ Configure a connection to your Databricks workspace. The Databricks spoke connec
 
 ### Before you begin
 
-Role required: admin
+Role required: admin.
 
 ### Procedure
 
@@ -90,21 +90,34 @@ Role required: admin
 4.  Locate the alias for **Databricks** and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Databricks spoke, click **View Details**.
+
+        \[Omitted image "databricks-connection.png"\] Alt text: Databricks spoke connection alias details
+
     -   To manage more than one Databricks spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+
+    \[Omitted image "databricks-connection-conf.png"\] Alt text: Initial connection configuration for the Databricks spoke
 
 5.  On the form, fill in these fields:
 
     |Field|Value required|
     |-----|--------------|
     |Connection Information|
-    |Name|Auto-generated name to identify the connection record.|
+    |Connection Name|Auto-generated name to identify the connection record.|
     |Connection URL|URL of the Databricks workspace.|
+    |Use MID|Select to connect to the Databricks workspace through a MID Server.|
     |Credential Information|
     |OAuth Client ID|Client ID you created in the Databricks workspace.|
     |OAuth Client Secret|Key value you created in the Databricks workspace.|
-    |OAuth Redirect URL|Redirect URL of your ServiceNow instance in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`.|
+    |Connect to Auth Server via MID Server|Select to connect to the authorization server through a MID Server.|
+    |OAuth Token URL|URL of the Databricks OAuth token endpoint.|
 
-6.  Click **Configure and Get OAuth Token**.
+    \[Omitted image "databricks-conf-temp.png"\] Alt text: Configure a connection for the Databricks spoke
 
+6.  Click **Save and Get OAuth Token**.
+
+
+### Result
+
+The spoke connection is configured and ready to be used.
 

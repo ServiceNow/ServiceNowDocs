@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create inventory template relationship, Use, Telecommunications Network Inventory]
 ---
@@ -42,7 +42,7 @@ Next, add a network interface to the equipment template. To learn more, see [Add
 
 **Parent Topic:**[Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
 
-**Previous topic:**[Creating inventory templates for related network interface models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-related-network-interface-models.md)
+**Previous topic:**[Create inventory templates for related network interface models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-related-network-interface-models.md)
 
 **Next topic:**[Add a network interface to the equipment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/adding-interface-cards-associated-equipment-model.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [CI relationships in the CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ The default CI form includes a CI relations formatter from which you can examine
 
 If the domain separation plugin is activated, then only relationships in which the logged on user is authorized to view both CIs, are displayed.
 
-The CI relations formatter contains a list of related CIs and a toolbar with controls for viewing the relationships between the current CI and related CIs. You can configure the controls in this formatter to modify varying aspects of the view. For more information about formatters, see [Create a formatter and add it to the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md).
+The CI relations formatter contains a list of related CIs and a toolbar with controls for viewing the relationships between the current CI and related CIs. You can configure the controls in this formatter to modify varying aspects of the view. For more information about formatters, see Create a formatter and add it to the form.
 
 **Note:**
 
@@ -214,7 +214,7 @@ On instances that do not meet the internet browser requirements for the latest C
 
 [Create a CI relation rollup]()
 
-[Create a formatter and add it to the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md)
+[bundle-platadm.t_CreateAFormatter]
 
 [Create or edit a relationship filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_CreateRelationshipFilter.md)
 

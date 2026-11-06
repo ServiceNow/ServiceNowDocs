@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CyberArk Certificate Manager SaaS routing policy]
 breadcrumb: [Certificate management with CyberArk Certificate Manager SaaS, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
@@ -31,7 +31,7 @@ Role required: pki\_admin or admin.
 
 3.  On the Certificate Routing Policy form, fill in the fields.
 
-    For a description of the field values, see [Certificate Routing Policy form for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/certificate-routing-policy-form.md).
+    For a description of the field values, see [Certificate Routing Policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/certificate-routing-policy-form.md).
 
 4.  If used by your organization as filtering criteria, set values for the **Organization**, **Organizational Unit**, **Locality**, **Country**, **State**, or **Email Address** fields.
 

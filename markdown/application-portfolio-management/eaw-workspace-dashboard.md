@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-workspace-dashboard.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Exploring dashboards in Enterprise Architecture Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -303,6 +303,8 @@ Business applications by TCO score
 
 Column chart \[Omitted image "inline-data-vis-bar-column.png"\] Alt text: Column chart.The X-axis denotes the TCO scores while the Y-axis denotes the number of business applications.
 
+**Note:** If you upgraded from a previous release and the X-axis shows **\(empty\)** instead of the TCO score bands, run the **Update Score Range in Indicator Score Table** scheduled job. For information, see [Run a scheduled job to update the TCO score range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-job-update-score-range-indicator-score.md).
+
 </td></tr><tr><td>
 
  
@@ -356,8 +358,6 @@ Donut \[Omitted image "inline-data-vis-donut.png"\] Alt text: Donut
 
 If both the Technology Portfolio Management \(sn\_apm\_tpm\) and Enterprise Architecture - TRM \(snc.apm\_trm\) plugins are inactive, the Technology Portfolio tab is not displayed.
 
-**Note:**
-
 -   All monetary values are displayed in a single currency type. The currency conversion rates are contained in the Currencies table \(fx\_currency.list\).
 
     The currency type is determined based on the geographical location from where you’ve logged in. For example, if the system detects that you’ve logged in to the EA workspace from the USA, the default currency displayed is USD.
@@ -387,7 +387,9 @@ You can manually refresh the dashboard by using the refresh icon \(\[Omitted ima
 
 [Generate insights for Enterprise Architecture Workspace dashboard widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/generate-insights-ea-dashboard.md)
 
+[Run a scheduled job to update the TCO score range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-job-update-score-range-indicator-score.md)
+
 [AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-aict.md)
 
-[Exploring the AI Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-exploring-the-ai-portfolio.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-exploring-the-ai-portfolio.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-exploring-the-ai-portfolio.md)
 

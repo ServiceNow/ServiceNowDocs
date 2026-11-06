@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-view-repair-cc.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Repair claim, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -29,4 +29,6 @@ Role required: claim agent or manufacturing operations admin
     -   Open: All the open cases.
     -   Unassigned: Unassigned cases and assign them to the available agent.
     -   Escalated: Cases that are escalated and need attention.
+
+**Parent Topic:**[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-use-repair-claim.md)
 

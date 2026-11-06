@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Import wrap-up codes, CCaaS Admin Console, Integrating with contact centers, Integrate, Customer Service Management]
 ---

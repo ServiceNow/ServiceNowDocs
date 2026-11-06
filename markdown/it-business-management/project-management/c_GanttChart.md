@@ -18,6 +18,8 @@ A Gantt chart on the planning console is a visual representation of a project ti
 
 Use Gantt charts to add and delete tasks, change task dates and dependencies, and assess the progress of the overall project.
 
+**Note:** The Gantt chart doesn't limit the number of rows \(tasks\) that it displays.
+
 ## The critical path
 
 The critical path is highlighted in red on the Gantt chart to differentiate critical path tasks from standard tasks in blue. Not all tasks are part of the critical path, only those tasks that directly affect the finish date. Use the critical path to determine which tasks are driving the finish date. If schedule adjustments are necessary, consider making resource or other changes to those tasks on the critical path.

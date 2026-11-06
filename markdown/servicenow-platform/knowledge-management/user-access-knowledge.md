@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -139,12 +139,12 @@ Read, modify, approve, and retire that knowledge article \(see [Ownership groups
 </td></tr></tbody>
 </table>## Explicit roles and user criteria
 
-Explicit roles \(snc\_external and snc\_internal\) are added to your instance when your administrator installs a plugin, such as the Customer Service plugin \(com.sn\_customerservice\), that also activates the Explicit Roles plugin \(com.glide.explicit\_roles\). If you create a knowledge base with the Explicit Roles plugin \(com.glide.explicit\_roles\) activated, the application automatically adds the following predefined user criteria at the knowledge base level:
+Explicit roles \(snc\_external and snc\_internal\) are added to your instance when your administrator installs a plugin, such as the Case Management Core plugin \(com.sn\_customerservice\), that also activates the Explicit Roles plugin \(com.glide.explicit\_roles\). If you create a knowledge base with the Explicit Roles plugin \(com.glide.explicit\_roles\) activated, the application automatically adds the following predefined user criteria at the knowledge base level:
 
 -   **Users with 'snc\_internal' role** – Added to the Can Read user criteria enabling only users with the snc\_internal role have read access to the knowledge base.
 -   **Users with snc\_internal' and another role** – Added to the Can Contribute user criteria enabling only users with the snc\_internal role and at least one additional role have contribute access to the knowledge base.
 
-When you upgrade to product versions \(from Rome onwards\) that offer the Explicit Roles plugin \(com.glide.explicit\_roles\), the predefined user criteria **Users with 'snc\_internal' role** and **Users with 'snc\_internal' and another role** aren't automatically added to any existing knowledge bases created prior to the activation of the Explicit Roles plugin. To add these predefined user criteria to an existing knowledge base, run the Fix unsecured knowledge bases fix script. For more information about explicit roles and fix scripts, see [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md) and [Fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_FixScripts.md).
+When you upgrade to product versions \(from Rome onwards\) that offer the Explicit Roles plugin \(com.glide.explicit\_roles\), the predefined user criteria **Users with 'snc\_internal' role** and **Users with 'snc\_internal' and another role** aren't automatically added to any existing knowledge bases created prior to the activation of the Explicit Roles plugin. To add these predefined user criteria to an existing knowledge base, run the Fix unsecured knowledge bases fix script. For more information about explicit roles and fix scripts, see [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md) and Fix scripts.
 
 ## Determining contribute access to a knowledge base and its articles using user criteria
 

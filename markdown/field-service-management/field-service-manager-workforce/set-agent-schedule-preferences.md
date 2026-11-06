@@ -7,7 +7,7 @@ release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing agent skills,schedules, and tasks, Managing workforce, Use, Field Service Management]
 ---
@@ -34,15 +34,15 @@ Role required: wm\_dispatcher, wm\_manager, wm\_admin, or admin
 
 4.  To add or update user records, do one of the following.
 
-<table id="choicetable_pnx_tzm_vgb"><thead><tr><th align="left" id="d88298e126">
+<table id="choicetable_pnx_tzm_vgb"><thead><tr><th align="left" id="d90997e126">
 
 Option
 
-</th><th align="left" id="d88298e129">
+</th><th align="left" id="d90997e129">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d88298e135">
+</th></tr></thead><tbody><tr><td id="d90997e135">
 
 **Add a new record for this user**
 
@@ -55,7 +55,7 @@ Description
 5.  Click **Submit**.
 
 
-</td></tr><tr><td id="d88298e176">
+</td></tr><tr><td id="d90997e176">
 
 **Updated an existing record**
 

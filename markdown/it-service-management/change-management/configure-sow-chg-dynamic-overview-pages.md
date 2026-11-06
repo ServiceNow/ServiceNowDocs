@@ -1,26 +1,26 @@
 ---
-title: Manage the workspace configuration for a Change request in Service Operations Workspace
-description: Utilize the new table-based configuration to align with the Service Operations Workspace Dynamic Overview Pages with the change process of your organization.Configure the layout of the overview page for Change Management in Service Operations Workspace.Configure or modify fields for change overview cards containing forms to display the fields that you need in the change request form in Service Operations Workspace.Show the activity stream bar for a for a change request in Service Operations Workspace.Configure the order of the cards that display in the Overview section for a change request in Service Operations Workspace.You can configure if the Work notes or Additional comments sections to display for a change request.
+title: Workspace configuration for change requests in Service Operations Workspace
+description: Use the table-based configuration to align the Service Operations Workspace Dynamic Overview Pages with the change process of your organization.Configure the layout of the overview page for Change Management in Service Operations Workspace.Configure or modify fields for change overview cards containing forms to display the fields that you need in the change request form in Service Operations Workspace.Show the activity stream bar for a for a change request in Service Operations Workspace.Configure the order of the cards that display in the Overview section for a change request in Service Operations Workspace.You can configure if the Work notes or Additional comments sections to display for a change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use, Change Management, IT Service Management]
 ---
 
-# Manage the workspace configuration for a Change request in Service Operations Workspace
+# Workspace configuration for change requests in Service Operations Workspace
 
-Utilize the new table-based configuration to align with the Service Operations Workspace Dynamic Overview Pages with the change process of your organization.
+Use the table-based configuration to align the Service Operations Workspace Dynamic Overview Pages with the change process of your organization.
 
-These configuration options allow users to define how the Dynamic Overview pages render throughout the change life cycle. This includes configuration options for overview pages, contextual sidebar and activity stream behavior for each state.
+These configuration options enable users to define how the Dynamic Overview pages render throughout the change life cycle. This includes configuration options for overview pages, contextual sidebar and activity stream behavior for each state.
 
-**Note:** To create a custom section, add new change overview cards. For information on modify the layout and formatting of the sections, see [UI Builder tutorial.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/uib-tutorial.md)
+**Note:** To create a custom section, add new change overview cards. For information about modifying the layout and formatting of the sections, see [UI Builder tutorial.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/uib-tutorial.md)
 
-With this you can configure the following components in the workspace configuration:
+You can configure the following components in the workspace configuration:
 
 -   Control the display of the cards in the contextual side panel
 -   Control the order of the cards to be displayed in the Overview pages
@@ -41,32 +41,32 @@ Role required: admin
 
 You can configure the layout of the overview page of the change request form in the Service Operations Workspace layout using the overview containers. You can configure different layouts for different change states or change models. Within each overview container, you can define multiple overview cards in a specific order. You can set conditions so that each change model displays specific cards in each form at every stage of the change request process.
 
-Overview cards can be reused across various Overview Containers and Overview Containers can be reused across multiple change models. Names of Overview Containers and cards must be consistent with the layout and feature.
+You can reuse overview cards across overview containers, and you can reuse overview containers across change models. The names of overview containers and cards must be consistent with the layout and feature.
 
 ### Procedure
 
 1.  Navigate to **All** &gt; **Change** &gt; **Overview** &gt; **Workspace Configuration** &gt; **Overview Container**.
 
-2.  Select **New** to add a new container.
+2.  Select **New** to add a container.
 
-3.  Provide information in the fields on the Change Overview Container page.
+3.  On the Change Overview Container form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
-    |Name|Name of the Overview Container.|
-    |First to match order|Enter the order in which the Overview Container is evaluated when multiple containers match. Lower values are evaluated first.|
+    |Name|Name of the overview container.|
+    |First to match order|Order in which the overview container is evaluated when multiple containers match. Lower values are evaluated first.|
     |Table|Table to which the overview container applies. Defaults to Change Request table.|
     |Application|Application where the display is being configured. Global is the default application.|
-    |Active|Select this option to make the overview container available when you create a change request.|
-    |Display action bar|Select this option to display the activity panel at the bottom of the Overview page, when you create a change request.|
-    |Use advanced condition|Select this option to add a script that defines an advanced condition for displaying the card.|
+    |Active|Option that makes the overview container available when you create a change request.|
+    |Display action bar|Option that displays the activity panel at the bottom of the Overview page when you create a change request.|
+    |Use advanced condition|Option to add a script that defines an advanced condition for displaying the card.|
     |Condition|Fields and conditions that define when the overview container is displayed for each state.|
 
 4.  Select **Submit** to save the change overview container with details provided.
 
 5.  In the Change Overview Cards section, select **New** to add a card.
 
-6.  Provide information in the fields on the Change Overview Card page.
+6.  On the Change Overview Card form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -74,9 +74,9 @@ Overview cards can be reused across various Overview Containers and Overview Con
     |Chg overview container|Name of the associated change overview container.|
     |Display order|Order in which the card is displayed.|
     |Application|Application where the display is being configured. Global is the default application.|
-    |Active|Select this option to activate the Change Overview Card in SOW when you create a change request.|
-    |Expanded|Select this option to display the card in expanded form when you create a change request. If you clear this option, the card is displayed in compact form.|
-    |Display for new record|Select this option to display the card for New \(Draft\) change request records..|
+    |Active|Option that activates the overview card in SOW when you create a change request.|
+    |Expanded|Option that displays the card in expanded form when you create a change request. When this option is cleared, the card is displayed in compact form.|
+    |Display for new record|Option that displays the card for New \(Draft\) change request records.|
     |Heading|Heading of the change overview card displayed in the change request form.|
 
 7.  Select **Submit** to save the change overview card with details provided.
@@ -84,11 +84,11 @@ Overview cards can be reused across various Overview Containers and Overview Con
 
 ### What to do next
 
-To configure the fields for the overview page in change request page in Service Operations Workspace, see [Configure the fields for change overview cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.md).
+To configure the fields for the overview page of the change request form in Service Operations Workspace, see [Configure the fields for change overview cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.md).
 
 For information on how to configure new fields, related lists, and other elements in the Details page, see [Create a custom field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateCustomField.md).
 
-You can configure contextual side panel or journal fields for the change request form. For more information, see [Manage the workspace configuration for a Change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.md).
+You can configure contextual side panel or journal fields for the change request form. For more information, see [Workspace configuration for change requests in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.md).
 
 ## Configure the fields for change overview cards
 

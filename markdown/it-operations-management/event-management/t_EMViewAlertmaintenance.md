@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View alert information, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -26,12 +26,12 @@ The alert maintenance status can change due to any of these reasons:
 
 -   A user selected the **Maintenance** check box on the alert, or selected the alert from the list view, and then clicked the **Maintenance** UI action.
 -   A new alert that had been bound to a CI whose status is in maintenance status on the CMDB table.
--   If all previous events associated with the alert are in maintenance, the alert **Maintenance** field can automatically be set to **true** showing maintenance is in progress. However, if an alert **Maintenance** field is **false** but the related CI status is changed to **In Maintenance** after the alert was created, any subsequent events do not put the alert into maintenance. For example, if an alert is generated for a router and later the router is taken down for maintenance, it is still assumed that there was a problem before maintenance started and the issue must not be ignored.
+-   If all previous events associated with the alert are in maintenance, the alert **Maintenance** field can automatically be set to **true** showing maintenance is in progress. However, if an alert **Maintenance** field is **false** but the related CI status is changed to **In Maintenance** after the alert was created, subsequent events do not put the alert into maintenance. For example, if an alert is generated for a router and later the router is taken down for maintenance, it is still assumed that there was a problem before maintenance started and the issue must not be ignored.
 
 **Note:**
 
 -   If a maintenance flag was set on an alert in Geneva, after upgrading to Helsinki it affects the impact as a regular alert.
--   If an alert is bound to a CI by a user action \(such as an alert management rule\) and the CI is in the Maintenance state, you must manually bind the CI to the alert and mark it with the **In Maintenance** status.
+-   If an alert is bound to a CI by a user action \(such as an alert management rule\) and the CI is in the Maintenance state, manually bind the CI to the alert. Then mark it with the **In Maintenance** status.
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Global search finds records from multiple tables, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -94,7 +94,7 @@ A search source defines a table that is searchable by global or workspace search
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_search_source.list`.
+    2.  In the navigation field, enter `sys_search_source.list`.
 
     3.  Press Enter.
 
@@ -115,7 +115,7 @@ A search source defines a table that is searchable by global or workspace search
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `m2m_search_context_config_search_source.list`.
+    2.  In the navigation field, enter `m2m_search_context_config_search_source.list`.
 
     3.  Press Enter.
 

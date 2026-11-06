@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -193,7 +193,6 @@ Provides easy access to the quick actions and is available across all the tabs f
 3.  Analyst Assist
 4.  Runbook
 5.  Templates
-6.  Attachments
 
 </td></tr><tr><td>
 

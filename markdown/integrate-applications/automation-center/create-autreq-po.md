@@ -7,9 +7,9 @@ release: australia
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automation Center integrations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Creating an automation request, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Integration with Process Mining
@@ -26,5 +26,5 @@ You need the following roles:
 
 For more information, see the [Submit an automation idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/integration-with-ac.md).
 
-**Parent Topic:**[Automation Center integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automation-center-integrations.md)
+**Parent Topic:**[Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-automation-request.md)
 

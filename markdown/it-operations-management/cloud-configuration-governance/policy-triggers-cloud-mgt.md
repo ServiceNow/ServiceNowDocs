@@ -1,20 +1,20 @@
 ---
 title: Triggers for cloud policies
-description: Triggers are events that set the policy engine in motion. For example, the on Catalog item request end trigger fires after a user submits a request form. When the trigger for a policy fires, the policy engine tests the conditions specified in the policy rule and performs the actions specified in the rule, if the conditions are met.
+description: Triggers are events that set the policy engine in motion. For example, the on Catalog item request end trigger fires after a user submits a request form. When the trigger for a policy fires, the policy engine tests the conditions specified in the policy rule. If the conditions are met, the engine performs the actions specified in the rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/policy-triggers-cloud-mgt.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Triggers for cloud policies
 
-Triggers are events that set the policy engine in motion. For example, the on Catalog item request end trigger fires after a user submits a request form. When the trigger for a policy fires, the policy engine tests the conditions specified in the policy rule and performs the actions specified in the rule, if the conditions are met.
+Triggers are events that set the policy engine in motion. For example, the on Catalog item request end trigger fires after a user submits a request form. When the trigger for a policy fires, the policy engine tests the conditions specified in the policy rule. If the conditions are met, the engine performs the actions specified in the rule.
 
 ## About triggers
 

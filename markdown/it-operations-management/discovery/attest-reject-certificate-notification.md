@@ -1,5 +1,5 @@
 ---
-title: Attest or reject certificate ownership via Email
+title: Attest or reject certificate ownership via email
 description: Attest or reject ownership of a certificate from your certification attestation email notification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/attest-reject-certificate-notification.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Certificate attestation for certificate owners, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Attest or reject certificate ownership via Email
+# Attest or reject certificate ownership via email
 
 Attest or reject ownership of a certificate from your certification attestation email notification.
 

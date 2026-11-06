@@ -7,8 +7,8 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
@@ -40,14 +40,14 @@ Role required: admin
 You can [define risk and impact conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/define-risk-and-impact-conditions.md) for your change records.
 
 -   **[Installed with Change Management - Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-with-change-risk-calc.md)**  
-Several types of components are installed with the Change Management - Risk Calculator.
+Several types of components are installed with the Change Management- Risk Calculator.
 
 **Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -65,11 +65,11 @@ Several types of components are installed with the Change Management - Risk Calc
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -77,7 +77,7 @@ Several types of components are installed with the Change Management - Risk Calc
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -85,9 +85,9 @@ Several types of components are installed with the Change Management - Risk Calc
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

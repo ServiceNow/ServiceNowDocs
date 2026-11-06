@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
 ---
@@ -20,7 +20,15 @@ The Digital Product Release Workspace provides a single location for release adm
 
 The following users can use the Digital Product Release Workspace. The workspace is personalized for different roles.
 
-<table id="table_cdy_h3z_qqb"><tbody><tr><td>
+<table id="table_cdy_h3z_qqb"><thead><tr><th>
+
+Persona
+
+</th><th>
+
+Responsibilities
+
+</th></tr></thead><tbody><tr><td>
 
 Release manager
 

@@ -7,7 +7,7 @@ release: australia
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Digital signature for PDF documents using CAC or PIV smart cards, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ Role required: none
 
 1.  Initiate the PDF document signing process with a custom implementation using script.
 
-    For more information, see [Using Document Templates: Custom use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/doc-temp-gen.md).
+    For more information, see .
 
     **Note:** HR cases can skip this step as custom implementation using scripts is for cases related to non-HR applications.
 

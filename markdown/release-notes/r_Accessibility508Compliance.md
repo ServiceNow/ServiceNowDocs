@@ -1,44 +1,53 @@
 ---
 title: Accessibility and conformance
-description: View a summary of accessibility updates and improvements completed for the Australia family release. Learn which Voluntary Product Accessibility Template \(VPAT\) was used to create Accessibility Conformance Reports \(ACRs\) for ServiceNow products and where to access them.
+description: View a summary of accessibility updates and improvements completed for the Brazil family release. Learn which Voluntary Product Accessibility Template \(VPAT\) was used to create Accessibility Conformance Reports \(ACRs\) for ServiceNow products and where to access them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/r\_Accessibility508Compliance.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-10-23"
+reading_time_minutes: 3
 keywords: [accessibility-508-compliance, VPAT, ACR, accessibility conformance report, accessibility release highlights, accessibility release notes, compliance, conformance, product accessibility, administer]
-breadcrumb: [Learn about the Australia release, Australia release notes]
+breadcrumb: [Learn about the Brazil release, Brazil release notes]
 ---
 
 # Accessibility and conformance
 
-View a summary of accessibility updates and improvements completed for the Australia family release. Learn which Voluntary Product Accessibility Template \(VPAT\) was used to create Accessibility Conformance Reports \(ACRs\) for ServiceNow® products and where to access them.
+View a summary of accessibility updates and improvements completed for the Brazil family release. Learn which Voluntary Product Accessibility Template \(VPAT\) was used to create Accessibility Conformance Reports \(ACRs\) for ServiceNow® products and where to access them.
 
 ## Release Highlights
 
-The Australia release focuses on enhancing usability for everyone—especially users who navigate by keyboard, rely on assistive technologies, or have low vision or cognitive differences. Key improvements include a new guided tour that showcases accessibility preferences, a new user preference that auto-focuses page alerts, improved semantic markup in Service Portal Designer for better screen reader navigation, reflow support for the Create a Change Request page, and a Format Painter plugin for TinyMCE.
+The Brazil release continues to focus on enhancing usability for everyone—especially users who navigate by keyboard, rely on assistive technologies, or have low vision or cognitive differences. Key improvements include accessibility enhancements to Core UI, Customer Service Management workspace components, Seismic Components, Incident Management, and the UI List component.
 
 -   **New features and other improvements**
 
-    **Learn about Accessibility Preferences with a guided tour:**Explore accessibility preferences with a guided tour that shows how to customize navigation, keyboard behavior, and visual themes in Next Experience.
+    Core UI Updates to Support WCAG 2.2: Extensive work was completed to update Core UI to support WCAG 2.2 AA standards, including conformance improvements for reflow. These updates help users with low vision, motor impairments, and those who rely on assistive technologies.
 
-    **New Accessibility Preference: Enable Auto-focus on page alerts.**Enable this user preference to automatically move keyboard focus to page alerts, so you won’t miss critical messages while navigating with a keyboard or screen reader.
+    **New Next Experience accessibility preference:** Horizon Design System components now support larger clickable and tappable areas, making controls easier to select. This feature is not enabled by default. To enable it, select **Enable enhanced spacing mode** in your Accessibility user preferences. This update supports users with mobility impairments, low-vision users, and mobile users.
 
-    **Semantic tags in Service Portal Designer:**Add and edit more semantic tags to deﬁne key areas of your portal, giving screen readers better context for navigation and page structure. This helps users who are blind or have low vision by enabling assistive technology to identify and describe different sections of each page.
+    **Color Vision Deficiency \(CVD\) theme for ServiceNow Platform:**Introduces a platform-wide color scheme option that replaces red/green color coding with blue-based palettes and additional visual cues. This mode can be enabled through user preference to improve color differentiation, reduce eye strain, and clarify visual states across themes, and navigation. This benefits users with color vision deficiency by providing accessible alternatives to color-dependent information, enabling more accurate interpretation and reduced confusion.
 
-    **Reflow for “Create a change request” page in IT Service Management:** This page now supports reﬂow, allowing content to be zoomed up to 400% in your browser without losing content or functionality. At 400% zoom, the layout automatically transforms into a vertical, stacked view. This helps users with low vision or anyone viewing content on smaller screens, different devices, or in challenging lighting conditions.
+    **Enhanced Contrast Mode for ServiceNow Themes:** A native, high-contrast mode within the platform's theme selector. This theme increases contrast for text, UI components, and interactive elements' to support improved readability and reduced eye strain. This benefits users with visual impairments, particularly those with low vision and color vision deficiencies, by making interface content easier to see and interact with under various lighting conditions without requiring technical setup.
 
-    **Format Painter plugin for Tiny MCE:**Copy and apply consistent font styles, sizes, and table formats across content in the HTML editor field. Maintaining clean, predictable formatting throughout documents is particularly helpful for users with cognitive or visual differences. Keyboard navigation is supported for keyboard-only users.
+    **Color Independence:**Highlighted values in workspace list views now display a text label next to the colored badge, so color is no longer the only way to understand a value. The label comes from your system configuration. For example, if your organization uses red to mean critical, the badge displays "Critical." The label is also associated with the value so that screen readers announce it. This enhancement helps users with low vision, users with color blindness, and users who rely on screen readers understand highlighted values without depending on color alone.
 
-    **Enterprise Modeling and Visualization in Enterprise Architecture Workspace:**Magnify content up to 400% while retaining full access to all features. Keyboard navigation is improved, including keyboard access to the shape context menu. Popover menus on connector lines are more visible. These enhancements help keyboard-only users and those with visual needs navigate and use the interface with ease.
+    **Components improvements:**
 
-    **Telecommunications Network Inventory:**Improved overall accessibility across the Network Inventory application, focusing on keyboard navigation, screen readers, zoom levels, color contrast, and text spacing. These updates help users relying on assistive technologies and those with visual needs work more effectively in the application.
+    Accessibility improvements were made to the following:
 
-    **Conﬁgurable Accessibility Headings in Employee Center:**Admins can conﬁgure widget heading levels \(H1–H6\) to meet organizational standards and support assistive technologies. Clear heading hierarchies improve navigation for screen reader and keyboard-only users
+    -   Customer Service Management \(CSM\) workspace components
+    -   Seismic components
+    -   Incident Management UI16 form
+    -   UI List component
+    -   Business Continuity Management pages and components
+    These updates benefit users who rely on screen readers or other Assistive Technology \(AT\), keyboard-only users, and users with low vision.
+
+    **Cloud Cost Management:** Accessibility improvements were completed across the Cloud Cost Management Workspace, including the Home, Spend, Optimization, Operations, Admin, and Budget pages. Updates include corrected heading structure and improved drag-and-drop interaction support. These updates benefit screen reader users, keyboard-only users, and low-vision users navigating the Cloud Cost Management Workspace.
+
+    **EmployeeWorks:** The AI widget builder in EmployeeWorks includes built-in design components that support accessibility standards. When custom widgets are created through the prompt-driven interface, the design components are structured to help developers address accessibility requirements.
 
 
-## Product Accessibility
+## Product accessibility
 
 A Voluntary Product Accessibility Template \(VPAT\) is a globally recognized reporting format used to evaluate the accessibility of a product or service. ServiceNow uses the international version of the VPAT to create Accessibility Conformance Reports \(ACRs\). ACRs are available for the currently supported ServiceNow releases.
 

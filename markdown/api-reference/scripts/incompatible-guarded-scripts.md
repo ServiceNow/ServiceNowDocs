@@ -7,10 +7,10 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Guarded Script DSL, incompatible scripts, script remediation, script exemptions, Guarded Script DSL, script remediation, script includes, script exemptions, incompatible scripts]
-breadcrumb: [Guarded script evaluator, Sandbox environment, Server-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Guarded script evaluator, Sandbox environment, Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Reviewing scripts incompatible with guarded script
@@ -60,15 +60,15 @@ Role required: guarded\_script\_admin or admin
 
     **Note:** In addition to recording incompatible scripts, guarded script logs errors for rejected scripts. To identify rejected scripts, navigate to **System Logs** &gt; **System Log** &gt; **Errors** with the following message: `KittyScript validation failed for <script name> with error: <error message> Source code: <script source>`. Use the script name and source code in the error message to locate the corresponding entry in the Incompatible Guarded Scripts list.
 
-<table id="choicetable_jkt_gpt_v3c"><thead><tr><th align="left" id="d927892e374">
+<table id="choicetable_jkt_gpt_v3c"><thead><tr><th align="left" id="d962036e373">
 
 Option
 
-</th><th align="left" id="d927892e377">
+</th><th align="left" id="d962036e376">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d927892e383">
+</th></tr></thead><tbody><tr><td id="d962036e382">
 
 **Move complex logic to a script include**
 
@@ -79,9 +79,9 @@ For scripts that contain complex logic and can be rewritten, move the logic to a
 3.  Create a script include that includes the removed code.
 4.  On the Script Include form, select **Sandbox enabled**.
 5.  Update the original script to call the new script include using a simple function call, such as `MyScriptInclude.function()`.
-For more information about creating script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ScriptIncludes.md). You can test updated scripts by running them from the Scripts - Background module with **Execute in sandbox?** selected. For more information, see [Scripts - Background module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ScriptsBackground.md).
+For more information about creating script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ScriptIncludes.md). You can test updated scripts by running them from the Scripts - Background module with **Execute in sandbox?** selected. For more information, see [Background scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ScriptsBackground.md).
 
-</td></tr><tr><td id="d927892e434">
+</td></tr><tr><td id="d962036e436">
 
 **Create an exemption**
 

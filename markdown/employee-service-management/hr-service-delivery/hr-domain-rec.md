@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Domain Separation and HR Service Delivery, HR Service Delivery, Employee Service Management]
 ---
@@ -39,7 +39,7 @@ While you set up HR approvals for domain separation, note the following points:
 
     When the users of parent domain and child domain are added to same approval group:
 
-    -   The parent domain's HR case is going for approval to a child domain even when the users of the child domain do not have access to the case. For example, the HR case in Domain \(Parent\) is going for approval to Domain 1 and Domain 2 users even when they do not have access to the case \(Refer to the domain hierarchy image\).
+    -   The parent domain’s HR case goes for approval to a child domain even when the child domain’s users cannot access the case. For example, the HR case in Domain \(Parent\) goes for approval to Domain 1 and Domain 2 users, even when they do not have access to the case. Refer to the domain hierarchy image.
     -   The child domain's HR case is not going for approval to the parent domain even when the users of parent domain have access to the case. For example, the HR case in Domain 1 is not going for approval to users in Domain \(Parent\) even when they have access to the case.
 -   **Instructions**
 
@@ -54,7 +54,7 @@ While you set up HR assignment rules for domain separation, note the following p
 
     When the users of parent domain and child domain are added to same approval group:
 
-    -   The parent domain's HR case might be assigned to a child domain even when the users of the child domain do not have access to the case. For example, the HR case in Domain \(Parent\) might be assigned to Domain 1 and Domain 2 users even when they do not have access to the case \(Refer to the domain hierarchy image\).
+    -   The parent domain’s HR case might be assigned to a child domain even when the child domain’s users cannot access the case. For example, the HR case in Domain \(Parent\) might be assigned to Domain 1 and Domain 2 users, even when they do not have access to the case. Refer to the domain hierarchy image.
     -   The child domain's HR case might not be assigned to the parent domain even when the users of parent domain have access to the case. For example, the HR case in Domain 1might not go for approval to Domain \(Parent\) users even when they have access to the case.
 -   **Instructions**
     -   For an assignment rule in a domain, use group from the same domain.
@@ -94,7 +94,7 @@ While you set up HR live agent chat \(AWA\) for domain separation, note the foll
 
 -   **Limitations**
 
-    When you have AWA set up with a global group, users from a specific domain are getting the **Connect to the live agent** option even when an agent from that domain is not available. For example, if available agents are only from Domain 1 and user from Domain 2 tries to connect to the live agent, user will get option to **Connect to a live agent**, but the actual routing to any agent will not happen.
+    With AWA set up using a global group, users from a specific domain see the **Connect to the live agent** option even when no agent from their domain is available. For example, if only Domain 1 agents are available and a Domain 2 user tries to connect, the user sees the option. However, no routing to an agent occurs
 
 -   **Instructions**
 

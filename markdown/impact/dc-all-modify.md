@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/dc-all-modify.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
 # Modifying the Data Collection configuration

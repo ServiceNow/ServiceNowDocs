@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/view-insurance-customer-profile.html
 release: australia
 topic_type: task
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [insurance customer 360 view customer profile, insurance customer 360 ai-generated summary, insurance customer 360 profile and status, insurance customer 360 financial overview, insurance customer 360 total premiums, insurance customer 360 claim payouts, insurance customer 360 case distribution, insurance customer 360 interaction history, customer 360 page]
 breadcrumb: [Using Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]

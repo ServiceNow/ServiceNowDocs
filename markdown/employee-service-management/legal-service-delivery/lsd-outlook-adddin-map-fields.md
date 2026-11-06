@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Microsoft Outlook Add-In for Legal Service Delivery, Microsoft Outlook Add-In for Legal Service Delivery, Integration with Third-party applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -48,15 +48,15 @@ The script include **OutlookMappingConfig** available in the base system support
 
 4.  In the copied mapping object, specify the key-value pairs using the variables from the intake form.
 
-<table id="choicetable_mdk_wvs_xcc"><thead><tr><th align="left" id="d236372e172">
+<table id="choicetable_mdk_wvs_xcc"><thead><tr><th align="left" id="d236398e172">
 
 Variables from email
 
-</th><th align="left" id="d236372e175">
+</th><th align="left" id="d236398e175">
 
 Variables from legal request
 
-</th></tr></thead><tbody><tr><td id="d236372e181">
+</th></tr></thead><tbody><tr><td id="d236398e181">
 
 **subject**
 
@@ -68,7 +68,7 @@ Example: If you want to copy the subject of email into the short description of 
 short_description: "subject"
 ```
 
-</td></tr><tr><td id="d236372e201">
+</td></tr><tr><td id="d236398e201">
 
 **fromEmail**
 
@@ -80,7 +80,7 @@ Example: If you want to copy the sender's email address into the requested for o
 requested_for: "fromEmail"
 ```
 
-</td></tr><tr><td id="d236372e221">
+</td></tr><tr><td id="d236398e221">
 
 **body**
 

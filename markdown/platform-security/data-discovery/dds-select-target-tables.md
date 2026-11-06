@@ -1,20 +1,20 @@
 ---
 title: Select target tables
-description: Target tables are only used when defining real time anonymization policies. They are the basis for which users can select tables and columns in the policy creation process.
+description: Select target tables to be used in discovery jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/data-discovery/dds-select-target-tables.html
 release: australia
 product: Data Discovery
 classification: data-discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Discovery sources, Data Discovery Store, Data Discovery, Platform Privacy]
 ---
 
 # Select target tables
 
-Target tables are only used when defining real time anonymization policies. They are the basis for which users can select tables and columns in the policy creation process.
+Select target tables to be used in discovery jobs.
 
 ## Before you begin
 

@@ -7,9 +7,9 @@ release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Automated Test Framework \(ATF\) test types and techniques
@@ -28,6 +28,8 @@ Reduce test design time by running multiple tests and test suites in parallel. D
 Resolve ATF test failures faster using the actionable support provided by the new ATF failure insights feature. You can achieve it by accessing the Find changes since last successful run related link.
 -   **[Performance profiling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-perf-prof.md)**  
 Performance profiling allows you to do performance testing on your instances.
+-   **[ATF Health Check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-health-check-suites.md)**  
+ATF Health Check detects ATF misconfiguration that may lead to support cases by scanning your instance for 14 known issues and providing findings you can resolve proactively.
 
 **Parent Topic:**[Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-landing-page.md)
 

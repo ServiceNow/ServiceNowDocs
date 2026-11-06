@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software discovery and normalization
@@ -26,6 +26,8 @@ Normalization suggestions are created for all manually normalized discovery mode
 Use machine learning to improve your normalization rates in real time by normalizing your unrecognized discovered software.
 -   **[Duplicate software installations in the Software Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/deduplicating-software-installations-sam.md)**  
 Duplicate software installation are created when you discover software installations with the same publisher, product, version, and edition through multiple discovery sources.
+-   **[Software install deduplication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/deduplication-rule.md)**  
+Software install deduplication consolidates redundant installation records for the same product on a single device, improving data accuracy and license compliance.
 
 **Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

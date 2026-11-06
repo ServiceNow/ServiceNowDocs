@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -72,7 +72,7 @@ When the solution is complete, the related knowledge articles appear in the Know
 
 [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-knowledge-article.md)
 
-[Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-article-workspace.md)
+[Create a knowledge article in Agent Workspace]()
 
 [Using Now Mobile for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/mobile-experience-for-km.md)
 

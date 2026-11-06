@@ -7,9 +7,9 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-03-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Get help with App Engine Studio
@@ -33,9 +33,5 @@ Some ServiceNow resources that can provide you with helpful information are:
 -   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 
     [App Engine Studio Community](https://www.servicenow.com/community/app-engine/ct-p/app-engine)
-
--   **\[Omitted image "dcx-icon-support.svg"\]Support**
-
-
 
 

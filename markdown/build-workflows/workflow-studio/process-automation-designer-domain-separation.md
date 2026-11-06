@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -42,8 +42,8 @@ The system domain separates Playbooks content according to these rules:
 
     **Note:**
 
-    -   A process override refers to a type of [override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-override-viewer.md) in domain separation.
-    -   Service providers \(SPs\) can use [domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md), to logically separate data, processes, and administrative tasks into defined groups.
+    -   A process override refers to a type of override in domain separation.
+    -   Service providers \(SPs\) can use domain separation, to logically separate data, processes, and administrative tasks into defined groups.
 -   **Playbooks configuration files are visible to all domain users**
 
     Playbooks configuration files are not domain separated. Any user with the appropriate roles can view all playbooks, trigger definitions, and activity definitions.

@@ -7,7 +7,7 @@ release: australia
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Community events, Post and respond to content in the community, Using communities, Communities, Customer Service Management]
 ---
@@ -21,6 +21,10 @@ You can create a community event that other community users, colleagues, or expe
 You must have permission to create events \(**Event Write and Comment Write**\) and be a member of the forum to create the event in. The **Event** content type must be active in the forum for the event.
 
 Role required: sn\_communities.community\_user
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -163,15 +167,15 @@ Click the check box to publish an event on a specified date. Select the date and
 </td></tr></tbody>
 </table>2.  Perform one of the following actions.
 
-<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d222460e368">
+<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d228192e387">
 
 To
 
-</th><th align="left" id="d222460e371">
+</th><th align="left" id="d228192e390">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d222460e377">
+</th></tr></thead><tbody><tr><td id="d228192e396">
 
 **Save as Draft**
 
@@ -184,7 +188,7 @@ From your profile page, you have the following options.1.  Click **Edit** to rev
 -   Click the corresponding ellipsis \[Omitted image "moreoptions-icon.png"\] Alt text: More Options. icon and then click **Delete**.
 
 
-</td></tr><tr><td id="d222460e438">
+</td></tr><tr><td id="d228192e457">
 
 **Schedule**
 
@@ -192,7 +196,7 @@ From your profile page, you have the following options.1.  Click **Edit** to rev
 
 Click **Schedule** to publish an event on the specified date. **Note:** This option appears for an event for which **Schedule Publish** option is selected.
 
-</td></tr><tr><td id="d222460e456">
+</td></tr><tr><td id="d228192e475">
 
 **Publish**
 

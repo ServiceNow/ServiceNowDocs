@@ -1,16 +1,16 @@
 ---
-title: Set up an Advanced Work Assignment service channel for assigning case tasks
+title: Set up an AWA service channel for assigning case tasks
 description: Set up an Advanced Work Assignment \(AWA\) service channel that you can use to assign case tasks to available users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-awa-channel-case-tasks.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [AWA for CSM, Case routing and assignment, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Set up an Advanced Work Assignment service channel for assigning case tasks
+# Set up an AWA service channel for assigning case tasks
 
 Set up an Advanced Work Assignment \(AWA\) service channel that you can use to assign case tasks to available users.
 
@@ -41,7 +41,7 @@ Setting up a service channel involves multiple steps, which are detailed in the 
 
 1.  Create the case task service channel.
 
-    1.  Navigate to **Advanced Work Assignment** &gt; **Service Channels** and click **New**.
+    1.  Navigate to **Advanced Work Assignment** &gt; **Service Channels** and select **New**.
 
     2.  Fill in the fields on the Service Channel form.
 
@@ -68,22 +68,22 @@ Setting up a service channel involves multiple steps, which are detailed in the 
 
 2.  Configure the layout for the case task inbox card.
 
-    1.  Click **Case Task** in the Service Channel list to open the record.
+    1.  Select **Case Task** in the Service Channel list to open the record.
 
-    2.  In the Inbox Layout related list, click **Default Case Task layout**.
+    2.  In the Inbox Layout related list, select **Default Case Task layout**.
 
     3.  Add the following fields to the card layout.
 
         -   **Field 1**: Number
         -   **Field 2**: Subject
         -   **Field 3**: Parent Number
-    4.  Click **Update**.
+    4.  Select **Update**.
 
     For more information about configuring the card layout, see [Create or modify an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-modify-inbox-layout.md).
 
 3.  Create a queue for the case task service channel.
 
-    1.  In the Queue related list, click **New**.
+    1.  In the Queue related list, select **New**.
 
     2.  Fill in the following fields on the Queue form.
 
@@ -92,7 +92,7 @@ Setting up a service channel involves multiple steps, which are detailed in the 
         |Name|Name of the queue. For example, Case Task Assignment.|
         |Short description|Brief explanation of the queue. For example, Assign case tasks to middle office users.|
 
-    3.  Click **Submit**.
+    3.  Select **Submit**.
 
     For more information about configuring a queue, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-queue.md).
 
@@ -115,11 +115,11 @@ Setting up a service channel involves multiple steps, which are detailed in the 
 
 5.  Create a group for the Case Task Assignment queue.
 
-    1.  Navigate to **Advanced Work Assignment** &gt; **Management** &gt; **Groups** and click **New**.
+    1.  Navigate to **Advanced Work Assignment** &gt; **Management** &gt; **Groups** and select **New**.
 
-    2.  Fill in the fields on the Group form and click **Submit**.
+    2.  Fill in the fields on the Group form and select **Submit**.
 
-    3.  Click the group to display the Group form.
+    3.  Select the group to display the Group form.
 
     4.  In the Group Members related list, add users to the group.
 
@@ -131,23 +131,23 @@ Setting up a service channel involves multiple steps, which are detailed in the 
 
 6.  Associate the assignment rule with the Case Task Assignment queue.
 
-    1.  Navigate to **Advanced Work Assignment** &gt; **Settings** &gt; **Queues** and click the Case Task Assignment queue.
+    1.  Navigate to **Advanced Work Assignment** &gt; **Settings** &gt; **Queues** and select the Case Task Assignment queue.
 
-    2.  In the Assignment Eligibility related list on the Queue form, click **New**.
+    2.  In the Assignment Eligibility related list on the Queue form, select **New**.
 
     3.  Select the case task assignment rule in the **Agent assignment rule** field.
 
     4.  Select the case task assignment group in the **Groups** field.
 
-    5.  Click **Submit**.
+    5.  Select **Submit**.
 
 7.  Activate the service channel.
 
     1.  Navigate to **Advanced Work Assignment** &gt; **Settings** &gt; **Presence States**.
 
-    2.  Click the **Available** presence state and add the case task service channel to the **Selected** column.
+    2.  Select the **Available** presence state and add the case task service channel to the **Selected** column.
 
-    3.  Click **Update**.
+    3.  Select **Update**.
 
     Once the service channel is activated, you can use it to assign work items. For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-service-channels.md).
 

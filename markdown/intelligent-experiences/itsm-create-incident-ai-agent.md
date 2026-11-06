@@ -1,29 +1,29 @@
 ---
 title: Create incident AI agent
-description: This AI agent manages the end-to-end process of formally logging IT support requests, specifically for user requests like "create an incident," "raise an incident," "open a new incident," "open an IT ticket," or "raise an IT support ticket."Use the AI agent incident creation workflow to report issues, review resolution plans, and automatically create incident records with duplicate detection.
+description: Use this AI agent to log IT support requests. It responds to requests such as "create an incident," "raise an incident," "open an IT ticket," or "raise an IT support ticket."Use the AI agent incident creation workflow to report issues, review resolution plans, and automatically create incident records with duplicate detection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itsm-create-incident-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [AI agent, incident creation, workflow]
-breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create incident AI agent
 
-This AI agent manages the end-to-end process of formally logging IT support requests, specifically for user requests like "create an incident," "raise an incident," "open a new incident," "open an IT ticket," or "raise an IT support ticket."
+Use this AI agent to log IT support requests. It responds to requests such as "create an incident," "raise an incident," "open an IT ticket," or "raise an IT support ticket."
 
 ## Workflow
 
-This agent first attempts to resolve the problem with self-service solutions. If the problem persists, it will then intelligently draft a structured IT support incident, confirm the details with the user for accuracy, and create the official record for tracking.
+This agent first attempts to resolve the problem with self-service solutions. If the problem persists, it drafts a structured IT support incident, confirms the details with the user for accuracy, and creates the official record for tracking.
 
 1.  Greet the user and gather information about the issue.
 2.  Validate and clarify the user's issue.
-3.  Based on the details gathered, create a search query.
-4.  Use the search query from as input for the Show Self-Service Options tool. This conversational tool handles the entire self-service process.
-5.  Evaluate the outcome. If the issue is solved, workflow is complete. If not, create a new incident with the conversation history.
+3.  Create a search query based on the details gathered.
+4.  Use the search query as input for the Show Self-Service Options tool. This conversational tool handles the entire self-service process.
+5.  Evaluate the outcome. If the issue is solved, workflow is complete. If not, create an incident with the conversation history.
 6.  Confirm the details with the user.
 7.  Conclude the conversation based on the outcome.
 

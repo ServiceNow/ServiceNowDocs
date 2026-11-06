@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/spm-config-console-modules.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [Now Assist Setup, Strategic Portfolio Management, SPM, configuration console, setup modules, common setup, financials, fiscal calendar, demand management, project management, resource management, strategic planning, portfolio planning, enterprise-wide deployment, performance analytics, business units, departments, cost types, project templates, partitions]
 audience: administrator

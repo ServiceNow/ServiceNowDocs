@@ -7,8 +7,8 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -29,7 +29,7 @@ Use this procedure for fields which should not be mandatory, but that might have
 
 The CI Class Manager doesn't support dot-walking for selecting fields from referenced tables, as recommended. See the steps at the end of this procedure to directly update tables with recommended fields, using one level dot-walking.
 
-For more information about child and parent classes, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-extension-and-classes.md).
+For more information about child and parent classes, see .
 
 ## Procedure
 

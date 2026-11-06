@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/scenario-analysis-entry-points.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Scenario Analysis, Operational Resilience, entry points, legacy flow, advanced flow, sn\_oper\_res\_scenario\_analysis\_advance, sn\_oper\_res\_scenario\_analysis]
 breadcrumb: [Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]

@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Design your indicator solution, Configure fundamentals, Performance
 # Cross-project library elements
 
 Library elements are single artifacts or trees of artifacts that you can reuse in multiple projects.
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Each library element has a single root artifact. All child artifacts of that artifact are included in the library element. The following image shows a library element based on the Improve Customer Service Quality critical success factor. The two measurement artifacts that are its children are included automatically in the library element.
 

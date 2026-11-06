@@ -7,7 +7,7 @@ release: australia
 product: Legal Investigations
 classification: legal-investigations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Triage legal investigation requests, Manage, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---

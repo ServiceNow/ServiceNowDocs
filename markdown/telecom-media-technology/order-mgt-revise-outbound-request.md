@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/order-mgt-revise-outbound-request.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -38,7 +38,7 @@ A new Updates available order attribute tracks for any updates in the service or
 
     -   Don't trigger this action by selecting **Cancel**.
     -   Initiate this template by selecting **OK**.
-    The revised order details are generated and sent to the external systems through the configured integration. To learn more, see [Integrating Order Management with southbound external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/order-mgt-integrate-southbound.md).
+    The revised order details are generated and sent to the external systems through the configured integration.
 
 
 **Related topics**  

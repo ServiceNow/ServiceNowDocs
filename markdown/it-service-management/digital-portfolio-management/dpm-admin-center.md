@@ -7,8 +7,8 @@ release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-10-22"
+reading_time_minutes: 4
 breadcrumb: [Configure, Digital Portfolio Management, IT Service Management]
 ---
 
@@ -16,9 +16,7 @@ breadcrumb: [Configure, Digital Portfolio Management, IT Service Management]
 
 The Admin Center in Digital Portfolio Management \(DPM\) provides administrators a guided walk-through to set up and configure the DPM Workspace for the organization. The provided information and configuration prompts enable visibility into the end-to-end service and application life-cycle.
 
-With a DPM admin role \[sn\_dpm.dpm\_admin\], access the DPM Admin Center to set up and configure the DPM experience for the organization. The Admin Center provides easy to follow setup steps and includes tooltips and links to resources, plugins, and configuration tables.
-
-**Note:** An administrator \[admin\] must install plugins.
+With a DPM admin role \[sn\_dpm.dpm\_admin\], access the DPM Admin Center to set up and configure the DPM experience for the organization. The Admin Center provides easy to follow setup steps and includes tool-tips and links to resources, plugins, and configuration tables.
 
 ## Access the DPM Admin Center
 
@@ -30,7 +28,7 @@ To access the DPM Admin Center, you must have the DPM Admin role \[sn\_dpm.dpm\_
 
 Navigate to **All** &gt; **Digital Portfolio Management** &gt; **DPM Admin Center**.
 
-The Admin Center has two tabs: **Overview** and **Settings**.
+The Admin Center has three tabs: **Overview**, **Settings**, and **Troubleshoot**.
 
 ## Overview tab
 
@@ -48,7 +46,7 @@ The **Overview** tab enables you to do the following:
 ## Navigate the configuration steps
 
 -   Select **Configure** on a solution card from the **Overview** tab.
--   Follow the guided walk-though. Each step has its own prompts, instructions, and conditions to set up your data in the DPM Workspace.
+-   Follow the guided walk-through. Each step has its own prompts, instructions, and conditions to set up your data in the DPM Workspace.
 
     **Note:** When you see the information icon \(\[Omitted image "icon-information.png"\] Alt text: Information icon.\) next to a step heading, select it to view more information about that step.
 
@@ -67,18 +65,20 @@ You can navigate to any step at any time to update the configuration settings.
 
 The **Settings** tab enables you to do the following for solutions \(services, service offerings, business applications, and service instances\):
 
--   Configure the following for each solution page.
-    -   Personal portfolio solution cards
+-   Configure:
     -   Header fields
-    -   Plan fields
-    -   Build fields
+    -   Plan fields \(Service and offering properties and Business application properties\)
+    -   Build fields \(Service and offering properties and Business application properties\)
     -   Run fields
-    -   Risk fields
+    -   Risk fields \(Business application properties\)
+    -   Info fields
     -   Portfolio properties
     -   General information fields on the Info tab
+    -   Personal portfolio solution cards
     -   KPI group properties
     -   DevOps properties
--   Show or hide the Plan, Build, and Run tabs.
+    -   Email properties
+-   Show or hide the main tabs.
 -   Show or hide content sections from each of the main tabs.
 -   Access resources for additional help.
 

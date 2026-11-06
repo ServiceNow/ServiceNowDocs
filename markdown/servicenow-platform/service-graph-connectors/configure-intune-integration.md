@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Microsoft Intune, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -442,7 +442,7 @@ Enable retrieving the IP addresses of devices during import and populate the rec
 
     3.  On the Scheduled Data Import form, verify the field values for the scheduled job and select the **Active** check box.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see .
 
     4.  Select **Update**.
 
@@ -465,7 +465,7 @@ Enable retrieving the IP addresses of devices during import and populate the rec
         2.  In the Scheduled jobs list, select **SG-Intune Trigger Device Reports** job.
         3.  On the Scheduled Script Execution form, verify the field values for the scheduled job and select the **Active** check box.
 
-            For more information, see [Schedule script execution form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleAScriptExecution.md#t_ScheduleScriptExecution).
+            For more information, see Schedule script execution form.
 
         4.  Select **Update**.
         5.  To activate the scheduled job for the SG-Intune Software Reports data source, repeat steps [11.a.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-intune-integration.md) to [11.a.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/configure-intune-integration.md) by selecting the **SG-Intune Trigger Software Reports** scheduled job.
@@ -483,7 +483,7 @@ Enable retrieving the IP addresses of devices during import and populate the rec
         2.  In the Scheduled Data Imports list, select the **SG-Intune Device Reports** scheduled import.
         3.  On the Scheduled Data Import form, verify the field values for the scheduled data import and select the **Active** check box.
 
-            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+            For more information, see .
 
         4.  Select **Update**.
         5.  Return to the guided setup page and set the Configure the scheduled import for advanced data sources task to complete by selecting **Mark as Complete**.

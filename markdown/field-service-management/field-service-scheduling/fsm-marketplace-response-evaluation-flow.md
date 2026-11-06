@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assign a task to a contractor on Field Service Marketplace, Allowing contractors to bid on work orders and tasks, Scheduling and dispatching, Use, Field Service Management]
 ---

@@ -1,20 +1,20 @@
 ---
 title: Configure the Google Cloud Logging service to auto-update the CMDB
-description: You can activate the Google Cloud Logging \(formerly Stackdriver Logging\) service to auto-update Configuration Management Database \(CMDB\) configuration items \(CI\) data whenever Google Cloud Connector or your Google account makes a life-cycle state or configuration change to a Google Cloud Platform \(GCP\) resource. As a result, the CI data in the CMDB is updated without having to wait for Discovery to run.
+description: You can activate the Google Cloud Logging \(formerly Stackdriver Logging\) service to auto-update Configuration Management Database \(CMDB\) configuration items \(CI\) data whenever Google Cloud Connector or your Google account makes a life-cycle state or configuration change to a Google Cloud Platform \(GCP\) resource. CI data in the CMDB is then updated without waiting for Discovery to run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/gcp-stackdriver-service.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Discovery for Google Cloud Platform, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure the Google Cloud Logging service to auto-update the CMDB
 
-You can activate the Google Cloud Logging \(formerly Stackdriver Logging\) service to auto-update Configuration Management Database \(CMDB\) configuration items \(CI\) data whenever Google Cloud Connector or your Google account makes a life-cycle state or configuration change to a Google Cloud Platform \(GCP\) resource. As a result, the CI data in the CMDB is updated without having to wait for Discovery to run.
+You can activate the Google Cloud Logging \(formerly Stackdriver Logging\) service to auto-update Configuration Management Database \(CMDB\) configuration items \(CI\) data whenever Google Cloud Connector or your Google account makes a life-cycle state or configuration change to a Google Cloud Platform \(GCP\) resource. CI data in the CMDB is then updated without waiting for Discovery to run.
 
 ## Before you begin
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [remote choice fields, catalog reference field, provider data, foundation data]
 breadcrumb: [Remote catalogs, Explore, Service Exchange]

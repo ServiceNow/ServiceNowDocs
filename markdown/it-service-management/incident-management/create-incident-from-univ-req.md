@@ -1,5 +1,5 @@
 ---
-title: Create incident from Universal Request
+title: Create an incident from Universal Request
 description: Create an incident from a universal request record to restore service to a customer as soon as possible. After creating the incident record, you can investigate potential solutions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/create-incident-from-univ-req.html
@@ -7,20 +7,20 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Universal Request integration - Incident Management, Incident Management integrations, Reference, Incident Management, IT Service Management]
+breadcrumb: [Incident Management integration with Universal Request, Incident Management integrations, Reference, Incident Management, IT Service Management]
 ---
 
-# Create incident from Universal Request
+# Create an incident from Universal Request
 
 Create an incident from a universal request record to restore service to a customer as soon as possible. After creating the incident record, you can investigate potential solutions.
 
 ## Before you begin
 
-Role required: routing\_agent and ITIL or admin
+Role required: routing\_agent and itil, or admin
 
-Activate the Universal Request \(sn\_uni\_req\) and the Universal Request Integration for Incident Management \(sn\_inc\_uni\_req\) plugins.
+The Universal Request \(sn\_uni\_req\) and the Universal Request Integration for Incident Management \(sn\_inc\_uni\_req\) plugins must be activated.
 
 ## Procedure
 
@@ -28,14 +28,14 @@ Activate the Universal Request \(sn\_uni\_req\) and the Universal Request Integr
 
 2.  Open the universal request record from which you want to create an incident.
 
-3.  Click **Create Incident**.
+3.  Select **Create Incident**.
 
-    An incident record is created and associated with universal request. The incident record is not saved until you submit the record.
+    An incident record is created and associated with the universal request. The incident record is not saved until you submit the record.
 
-4.  Fill in the fields on the [incident form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/create-an-incident.md) and click **Submit**.
+4.  Fill in the fields on the [incident form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/create-an-incident.md) and select **Submit**.
 
     The universal request number from which the incident is created appears in the **Universal Request** field on the Incident form. The incident number appears in the **Primary Ticket** field and also in the **Associated Tickets** related list of the Universal Request form.
 
 
-**Parent Topic:**[Universal Request integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
+**Parent Topic:**[Incident Management integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
 

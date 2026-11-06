@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ekms-create-crypto-module.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring External Key Management Service, External Key Management Service, Field Encryption, Encryption]
 ---
@@ -34,7 +34,7 @@ A cryptographic module with external key wrapping generates encryption keys that
 
     **Important:** If **Externally Wrap Key** isn't selected, the module uses ServiceNow key wrapping, which doesn't use your AWS KMS key.
 
-5.  In the **External KMS Configuration** field, enter or use the search function to select your EKMS configuration.\[Omitted image "ekms-crypto-module.png"\] Alt text: Enable the External Wrap Key option on a cryptographic module and select your External Key Management Service \(EKMS\) configuration.
+5.  In the **External KMS Configuration** field, enter or use the search function to select your EKMS configuration.
 
 6.  Select **Submit** to save the cryptographic module.
 

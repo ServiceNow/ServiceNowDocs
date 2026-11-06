@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-09-28"
-reading_time_minutes: 4
-breadcrumb: [Financial Services Operations, AI agents library, AI assets, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [Financial Services Operations, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Financial Services Operations AI Agents

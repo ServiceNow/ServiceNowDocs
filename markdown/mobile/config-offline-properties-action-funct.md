@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-offline-properties-action-funct.html
 release: australia
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Supported functions, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -17,6 +17,8 @@ Determine which fields and functions are available to users when working in offl
 ## Before you begin
 
 Role required: mobile\_admin, admin
+
+**Note:** Mobile scripting can be configured for button functions. This option is available via the ServiceNow AI Platform. For more information see [Mobile scripting in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-script-concept.md) and .
 
 ## Procedure
 

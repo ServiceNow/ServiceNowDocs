@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Field Service Manager Mobile, Completing work on mobile, Use, Field Service Management]
 ---
@@ -30,7 +30,7 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 4.  Tap **View schedule**.
 
-5.  Tap the plus sign \(\[Omitted image "add-personal-event-mobile.png"\] Alt text: plus sign\).
+5.  Tap the plus icon \(\[Omitted image "add-personal-event-mobile.png"\] Alt text: plus sign\).
 
 6.  On the form, fill in the fields.
 

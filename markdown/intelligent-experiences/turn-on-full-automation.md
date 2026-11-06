@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Information Extraction skill, Configure, Content Understanding, Enable AI experiences]
+breadcrumb: [Information Extraction skill, Configure, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Turn on full automation mode
@@ -37,7 +37,7 @@ The extraction mode determines how Content Understanding processes document task
 
 4.  Select the use case you would like to configure.
 
-5.  Select the settings icon \(\[Omitted image "icon-docintel-settings-gear.png"\] Alt text: Use case settings icon\).
+5.  Select the settings icon \(\[Omitted image "image.icon-docintel-settings-gear"\] Alt text: Use case settings icon\).
 
 6.  On the Extraction mode screen, select the **Full automation mode \(no agent review required\)** option.
 

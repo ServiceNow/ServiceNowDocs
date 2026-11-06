@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/code-signing-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Platform Security]
 ---
 
@@ -71,6 +71,10 @@ The Circle of Trust requires an initial trust relationship between trusted and p
 
 -   **[Exploring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/explore-code-signing.md)**  
 Code Signing provides cryptographic verification to ensure that only authorized scripts can execute on MID Servers. Code Signing prevents unauthorized or tampered External Communication Channel \(ECC\) queue records from being processed by MID Servers, maintaining the integrity of integrations between ServiceNow and external systems.
+-   **[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/config-code-signing.md)**  
+Activate and configure Code Signing to verify the authenticity and integrity of your data.
+-   **[Using Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/using-code-signing.md)**  
+Learn how to sign records, messages, and attachments to help verify the authenticity and integrity of your data.
 -   **[Code Signing Health and Status Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/code-signing-health-and-status-dashboard.md)**  
 The Code Signing Health and Status dashboard provides a centralized, user-friendly view of your Code Signing environment's health and configuration. Use it to identify issues, verify configuration accuracy, and support secure, uninterrupted code-signing operations.
 -   **[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/code-signing-reference.md)**  

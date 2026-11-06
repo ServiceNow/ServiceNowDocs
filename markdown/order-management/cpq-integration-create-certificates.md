@@ -1,18 +1,18 @@
 ---
-title: Set up instance for CPQ integration
-description: Set up a ServiceNow instance, generate a JSON Web Token \(JWT\), and authenticate API calls to CPQ.
+title: Set up instance for ServiceNow CPQ integration
+description: Set up a ServiceNow instance, generate a JSON Web Token \(JWT\), and authenticate API calls to ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-integration-create-certificates.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Without guided setup, Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, Setting up ServiceNow CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Set up instance for CPQ integration
+# Set up instance for ServiceNow CPQ integration
 
-Set up a ServiceNow instance, generate a JSON Web Token \(JWT\), and authenticate API calls to CPQ.
+Set up a ServiceNow instance, generate a JSON Web Token \(JWT\), and authenticate API calls to ServiceNow CPQ.
 
 ## Before you begin
 
@@ -20,11 +20,11 @@ Role required: admin
 
 ## Procedure
 
-1.  Validate that the CPQ Integration application is installed on your ServiceNow instance by doing the following:
+1.  Validate that the ServiceNow CPQ Integration application is installed on your ServiceNow instance by doing the following:
 
     1.  Navigate to https://&lt;service\_instance\_url&gt;/oauth\_entity.do?sys\_id=3b119df83b566210a0c0989e53e45a15
 
-    2.  Check that the CPQ Admin UI Application Registry exists with a ClientID and secret.
+    2.  Check that the ServiceNow CPQ Admin UI Application Registry exists with a ClientID and secret.
 
         This information is used later.
 
@@ -100,11 +100,11 @@ Role required: admin
 
     1.  In the list view, double-select the **OAuth Application User** field to edit it.
 
-    2.  Set the user created in Step 4a as the OAuth Application User in the CPQ.ai API record.
+    2.  Set the user created in Step 4a as the OAuth Application User in the ServiceNow CPQ.ai API record.
 
         If you can't modify this field, verify that you're in the correct scope \(CPQ Integration\).
 
-    3.  Open this CPQ.ai API record.
+    3.  Open this ServiceNow CPQ.ai API record.
 
     4.  Select **Active** and save the record.
 
@@ -121,5 +121,5 @@ Role required: admin
 
 ## What to do next
 
-[Request a CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/set-up-logik-instance.md)
+[Request a ServiceNow CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/set-up-logik-instance.md)
 

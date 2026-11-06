@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/security-management/p
 release: australia
 topic_type: concept
 last_updated: "2026-09-30"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -67,13 +67,4 @@ Prisma AIRS account requirements:
 -   API base URL
 -   Authorization URL
 -   Palo Alto Prisma tenant service group \(TSG\) ID
-
--   **[Install the Vulnerability Response integration with Palo Alto Prisma AIRS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-prisma-airs-integration.md)**  
-Use this task to set up the Vulnerability Response integration with Palo Alto Prisma AIRS and import AI security scan results, posture findings, and model validation data into your ServiceNow AI Platform® instance.
--   **[Viewing imported data for the Vulnerability Response Integration with Palo Alto Prisma AIRS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-prisma-airs-data.md)**  
-View and work with imported data from the Vulnerability Response Integration with Palo Alto Prisma AIRS integration on records and dashboards in your ServiceNow AI Platform instance.
--   **[Field mapping for the Prisma AIRS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/palo-alto-prisma-airs-mapping.md)**  
-These tables map Prisma AIRS payload fields to target tables and columns in your ServiceNow ServiceNow AI Platform instance.
-
-**Parent Topic:**[Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/integrating-usem.md)
 

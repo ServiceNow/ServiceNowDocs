@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-operations-explore.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Retail]
 ---
@@ -74,18 +74,20 @@ To learn more about configuring and using Retail, see:
 -   [Track cases and tasks from the Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-navigating-retail.md)
 -   [Retail reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-operations-reference.md)
 
+-   **[Retail case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-case.md)**  
+The Retail case table stores information about your retail case types and provides the base for retail case creation. This table extends the Customer Service Management case table. All fields utilized through Customer Service Management case remain intact.
 -   **[Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-portal.md)**  
 Retail portal provides an enhanced experience to use self-service tools, view cases, and gain visibility into metrics for your retail organizations.
 -   **[Retail mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-mobile.md)**  
 The Retail mobile plugin offers a customized mobile experience for retail operations, enabling frontline teams to manage efficiently store activities and resolve issues on the go. It provides real-time insights into key KPIs, supports issue tracking, and is compatible with both Android and iOS platforms.
--   **[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types-revamp.md)**  
-A case type represents the processes, data, and automation needed to resolve a specific type of retail issue.
+-   **[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types.md)**  
+Retail case types are designed to address various business needs and streamline workflows for store-level and HQ-driven task management.
 -   **[Retail store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-multistore-operational-planning.md)**  
 The Retail store plan provides a centralized way to plan, schedule, and manage operational work across multiple stores, giving HQ and regional teams full visibility while simplifying execution for store teams.
+-   **[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types-revamp.md)**  
+A case type represents the processes, data, and automation needed to resolve a specific type of retail issue.
 -   **[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-store-audit-overview.md)**  
 Retail Store Audit Operations lets Plan Authors publish structured audit plans that automatically generate Store Audit Cases and Audit Tasks for field Auditors to complete across selected store locations.
 -   **[Break-Fix Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/breakfix-overview.md)**  
 Break-Fix Case Management enables store staff to report and resolve hardware and IT failures through a structured workflow involving requestors, HQ support agents, and field service technicians.
--   **[Explore ServiceNow Otto for Retail Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-now-assist-explore.md)**  
-ServiceNow Otto for Retail Service Management is an intelligent assistant that helps headquarters support agents efficiently manage and resolve store inquiries and service requests using generative AI.
 

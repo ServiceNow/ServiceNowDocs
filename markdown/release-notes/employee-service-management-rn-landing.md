@@ -1,29 +1,33 @@
 ---
 title: Employee Service Management release notes
-description: Employee Service Management has new and updated features in the Australia release
+description: Employee Service Management has new and updated features in the Brazil release
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/employee-service-management-rn-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Employee Service Management release notes
 
-Employee Service Management has new and updated features in the Australia release
+Employee Service Management has new and updated features in the Brazil release
 
--   **[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/hr-service-delivery-landing.md)**  
-The ServiceNow® HR Service Delivery application improves the employee service experience by automating HR interactions and providing a single platform for all HR services. HR Service Delivery was enhanced and updated in the Australia release.
 -   **[Contract Management Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/cmpro-landing-page.md)**  
-Contract Management Pro has new and updated features in the Australia release.
+Contract Management Pro has new and updated features in the Brazil release.
+-   **[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/hrsd-rn-landing.md)**  
+HR Service Delivery has new and updated applications and features in the Brazil release.
+-   **[Leader Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/leader-hub-rn-2026-09.md)**  
+The ServiceNow® Leader Hub application empowers organizational leaders to understand their team's strengths, identify skill gaps, and facilitate changes that are conducive to the success of their workforce. This application is currently supported for the Brazil release, but it will be deprecated in a future release.
+-   **[Learning Posts release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/learning-posts-rn-2026-09.md)**  
+The ServiceNow® Learning Posts application enables you to create an omni-channel learning experience for your employees empowering them with the right learning at the right time. This application is no longer supported starting with the Brazil release.
 -   **[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/lsd-rn-landing-page.md)**  
-The ServiceNow® Legal Service Delivery streamlines legal operations by automating request intake, managing legal matters and investigations, and enabling secure collaboration across departments. Legal Service Delivery was enhanced and updated in the Australia release.
+The ServiceNow® Legal Service Delivery streamlines legal operations by automating request intake, managing legal matters and investigations, and enabling secure collaboration across departments. Legal Service Delivery was enhanced and updated in the Brazil release.
+-   **[Listening Posts release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/listening-posts-rn-2026-09.md)**  
+The ServiceNow® Listening Posts application enables you to create simple pulse surveys to capture employee touch points, gain insights from employee feedback, and improve overall employee experience. This application is no longer supported starting with the Brazil release.
 -   **[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/uex-rn-landing.md)**  
-The Unified Employee Experience has new and updated applications and features in the Australia release.
--   **[ServiceNow Otto for Workplace Service Delivery \(WSD\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/wsd-na-rn.md)**  
-The ServiceNow® ServiceNow Otto for Workplace Service Delivery \(WSD\) application enables workplace agents to summarize case information, generate resolution notes, and summarize the chat information for an interaction. Your workplace agents can review the chat and case context to propose resolutions quickly to your customers. ServiceNow Otto for WSD was enhanced and updated in the Australia release.
+The Unified Employee Experience has new and updated applications and features in the Brazil release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/new-features-changes.md)
 

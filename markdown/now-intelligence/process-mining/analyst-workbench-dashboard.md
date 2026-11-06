@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Details page, Workspace, Explore, Process Mining, Platform Analytics]
 ---
@@ -25,7 +25,7 @@ To access Analyst workbench:
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 2.  Open a project, and navigate to Analyst workbench.
 
-\[Omitted image "explore-analyst-workbench2.png"\] Alt text: Analyst workbench view
+\[Omitted image "transition-location-1.png"\] Alt text: Analyst workbench view
 
 ## Breakdowns
 
@@ -49,7 +49,7 @@ Use the Filter breakdowns icon \(\[Omitted image "filter.png"\] Alt text: Filter
 
 </td></tr><tr><td>
 
-Use the **Process steps** button to define advanced filters on your transitions. For details on this process, see [Create a process step filter manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-transition-manually.md).You can filter the parent and the child tables in the multidimensional projects.
+Use the **Process steps** button to define advanced filters on your transitions. For details on this process, see [Create a process step filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-transition-manually.md).You can filter the parent and the child tables in the multidimensional projects.
 
 </td><td>
 
@@ -186,7 +186,7 @@ You can apply multiple activity definitions in one view. Select multiple activit
 
 You can chose to hide only incoming arcs, only outgoing arcs, or both.
 
- From **Modal Options**, select **Hide incoming connections**, **Hide outgoing connections**, or both to view the connections as per your need.
+ From **Modal Options**, select **Hide incoming connections**, **Hide outgoing connections**, or both to view the connections according to your need.
 
  **Note:** This option is available only for multi-table projects.
 

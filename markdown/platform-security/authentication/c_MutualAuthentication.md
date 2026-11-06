@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Web service security, Authentication, Access Management]
 ---
@@ -90,7 +90,7 @@ Create a new Certificate entry with the type of "Trust Store Cert" and attach a 
 
 ## Protocol Profile
 
-\[Omitted image "CertExchange.png"\] Alt text: Certificate exchange workflow
+\[Omitted image "CertExchange.png"\] Alt text:
 
 -   When a client requests the server certificate for authentication, a certificate signing request \(CSR\) is generated.
 -   To respond to a CSR, the server generates two unique cryptographic keys: A public key, which is used to encrypt messages to the server and a private key, which is used to decrypt messages. Both keys are kept in the Key Store.

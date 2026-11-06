@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an action item in the risk response task, Create a risk response task in the Risk Workspace, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---

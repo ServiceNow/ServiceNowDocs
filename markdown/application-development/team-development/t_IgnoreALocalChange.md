@@ -7,9 +7,9 @@ release: australia
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Ignore a local change
@@ -48,7 +48,7 @@ An ignored local change always points to the current version for the record. You
 
     This step is a recommended best practice.
 
-<table id="choicetable_nvm_53c_bq"><tbody><tr><td id="d252156e201">
+<table id="choicetable_nvm_53c_bq"><tbody><tr><td id="d371192e201">
 
 **To stop ignoring changes**
 
@@ -56,7 +56,7 @@ An ignored local change always points to the current version for the record. You
 
 Select the check boxes beside the rows and select **Do Not Ignore** from the Actions choice list.
 
-</td></tr><tr><td id="d252156e216">
+</td></tr><tr><td id="d371192e216">
 
 **To stop ignoring changes and add them to the queue instead**
 

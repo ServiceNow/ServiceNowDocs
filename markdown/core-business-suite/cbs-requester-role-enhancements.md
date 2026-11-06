@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-requester-role-enhancements.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CBS requester role, role assignment, Core Business Suite]
 breadcrumb: [Configure, Core Business Suite]
@@ -27,9 +27,9 @@ Both approaches are configured from the Configuration Console in the Employee Ex
 \[Omitted image "cbs-requester-enhanced.png"\] Alt text: Configuration Console showing the Requester role options under Employee Experience, with Assign to all employees and Assign manually via CBS Client Role Rule selections
 
 -   **[Assign the CBS requester role automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-assign-requester-auto.md)**  
-Assign the CBS requester role to all employees at once using the automated option. Provide your employees with the access to submit requests and raise queries without manual role assignment for each individual.
+Assign the CBS requester role to all employees at once using the automated option in the Configuration Console, so employees can access services and submit requests without manual role assignment.
 -   **[Assign the CBS requester role manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-assign-requester-manual.md)**  
 Create a role rule to control which employees receive the CBS requester role, so access is granted based on conditions defined by an administrator.
 
-**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
 

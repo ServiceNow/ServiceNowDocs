@@ -1,26 +1,26 @@
 ---
 title: Define or update a Business hours policy
-description: A Business hours job applies policies to identify resources that are running when they should be powered off, reports them, and can start and stop them on a schedule that you specify. Running only during specified business hours can significantly reduce your cloud spend.
+description: A Business hours job applies policies to identify resources running outside the specified hours, reports them, and manages the start and stop of resources on a specified schedule. Running only during specified business hours can significantly reduce your cloud spend.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/bh-policy-create-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Improve resource usage with Business hours, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Define or update a Business hours policy
 
-A Business hours job applies policies to identify resources that are running when they should be powered off, reports them, and can start and stop them on a schedule that you specify. Running only during specified business hours can significantly reduce your cloud spend.
+A Business hours job applies policies to identify resources running outside the specified hours, reports them, and manages the start and stop of resources on a specified schedule. Running only during specified business hours can significantly reduce your cloud spend.
 
 ## Before you begin
 
 Required: A cloud account \(parent account\) that has at least one service account or project that has associated datacenters.
 
-A Billing Download job must be defined.
+A Billing Download Job must be defined.
 
 Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or insights\_owner \[sn\_clin\_core.insights\_owner\] for owned service accounts.
 
@@ -35,7 +35,7 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or insights\_o
 
 ## Procedure
 
-1.  Navigate to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Recommendations** &gt; **Business hours**.
+1.  Navigate to **Cloud Cost Management Workspace** &gt; **Optimization** &gt; **Business hours**.
 
 2.  Select **Policies**.
 
@@ -201,6 +201,8 @@ After you create or update a policy, select **Apply policies** to apply the crea
 [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md)
 
 [Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_StandardChangeCatalogPlugin.md)
+
+[bundle-itsm.create-a-change-request-template]
 
 [Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
 

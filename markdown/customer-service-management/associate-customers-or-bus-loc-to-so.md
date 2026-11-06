@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/associate-customers-or-bus-loc-to-so.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configuring business organizations, Setting up inter-organization support, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -50,15 +50,15 @@ Organization Criteria
 
 </td><td>
 
-Criteria that define the customers at a service organization.
+Criteria that define the customers at an organization \(formerly service organization\).
 
 </td></tr><tr><td>
 
-Organization \(formerly Service organization\)
+Organization
 
 </td><td>
 
-Service organization that serves the customers that match the criteria.
+Organization that serves the customers that match the criteria.
 
 </td></tr><tr><td>
 
@@ -71,6 +71,20 @@ Check box to activate or deactivate the organization customer criteria.
  By default, the active field is set to **True**.
 
  **Note:** Only one active criterion is enabled according to table to be associated with a service organization .
+
+</td></tr><tr><td id="restricted-access">
+
+Restricted Customer Access
+
+</td><td>
+
+When selected, only the accounts, consumers, and households that match this criteria are visible to the organization staff at a business organization. The check box is unchecked by default.Before this field existed, the criteria controlled only which customers staff could create cases, orders, quotes, and opportunities for staff could still see every customer record in the system.
+
+**Note:**
+
+-   This check box is available only when the **Customers served** field is set to [Criteria-based](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-customer-criteria-to-service-organization.md) in the Organization Customer Criteria form. In other words, Restricted Customer Access is available only when a business organization has an Organization Customer Criteria assigned to it.
+-   This field controls visibility, not edit permissions. It doesn't change who can update a record, and it doesn't change how criteria themselves are created or edited.
+
 
 </td></tr></tbody>
 </table>5.  Select **Submit**.

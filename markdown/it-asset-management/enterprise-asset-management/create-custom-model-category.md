@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -29,17 +29,21 @@ Keep the following in mind while creating model categories:
     **Note:** These options are not applicable to enterprise model categories.
 
 
-Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
+Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 
-1.  Navigate to **Enterprise Asset Workspace** &gt; **Admin center** &gt; **Model categories**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  Select **New**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
+
+3.  In the navigation panel of the Admin center view, select **Model categories**.
+
+4.  Select **New**.
 
     The Create New Model Category page appears.
 
-3.  On the form, fill in the fields.
+5.  On the form, fill in the fields.
 
 <table id="table_igx_4sp_dp"><thead><tr><th>
 
@@ -150,7 +154,7 @@ Enforce CI verification
 Option to prevent the Enterprise Asset Management application from automatically creating assets for a specific model category when CIs are added manually or found through Discovery. This option enables you to review and verify new CIs before adding them as assets.
 
 </td></tr></tbody>
-</table>4.  Select **Save**.
+</table>6.  Select **Save**.
 
 
 ## Result

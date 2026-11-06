@@ -7,7 +7,7 @@ release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Partial loan prepayment]
 breadcrumb: [Loan Operations workflows, Use, Loan Operations, Banking applications, Financial Services Operations \(FSO\)]

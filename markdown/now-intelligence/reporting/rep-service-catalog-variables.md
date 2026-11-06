@@ -7,14 +7,16 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Report on service catalog variables
 
 Create reports grouped by a variable on a selected service catalog item. You can also create filters on the same variable.
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 Reporting on variables can be helpful in determining if certain catalog items are useful on an instance, for example.
 

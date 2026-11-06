@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/c\_AssetManagement.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Asset Management common applications, IT Service Management]
 ---
@@ -25,6 +25,8 @@ Asset management business practices have a common set of goals.
 -   Achieve compliance with relevant standards and regulations.
 -   Improve IT service to end users.
 -   Create standards and processes for managing assets.
+
+Most successful ITAM programs involve various people and departments, including IT, finance, services, and end users.
 
 Base Asset Management and the Configuration Management Database \(CMDB\) are related, but have different goals. Base Asset Management focuses on the financial tracking of company property. Configuration management focuses on building and maintaining elements that create an available network of services.
 

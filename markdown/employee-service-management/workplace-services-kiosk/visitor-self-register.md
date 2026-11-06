@@ -7,7 +7,7 @@ release: australia
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Register as a visitor by providing your details such as your name, purpose of th
 
 ## Before you begin
 
-The self-registration flow must be configured and enabled by the admin. You can self-register only if you try to check-in and the kiosk device displays a `No visit found` page.
+The self-registration flow must be configured and enabled by the admin. You can self-register only if you try to check-in and the kiosk device displays an error page.
 
 Role required: sn\_wsd\_kiosk.viewer
 
@@ -31,7 +31,7 @@ Role required: sn\_wsd\_kiosk.viewer
     -   Your email address
     -   Visit description
     -   Host name
-    **Note:** The fields might change based on the initial requirements that are set by the admin.
+    **Note:** The fields can change based on the configuration that is set by the admin.
 
 3.  On the Complete your information page, enter the following details, then select **Continue**.
 
@@ -41,8 +41,6 @@ Role required: sn\_wsd\_kiosk.viewer
     -   Job title
     -   Parking preferences
     -   License plate
-    **Note:** The fields might change based on the additional requirements that are set by the admin.
-
 4.  Take a picture for the check-in process.
 
     1.  On the Let's take a picture page, select **Continue**.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-digital-integration.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring the application portfolio, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -24,12 +24,9 @@ You can do the following:
 
 The digital integration represents the integration between two business applications. In a typical scenario, there's a consuming business application, a provider business application, and an interface provided by the provider business application. The digital integration contains integration metadata, including name, version, type, data flow direction, middleware used, and owners.
 
-An easy form for digital integration enables the creation of a digital integration from a single page. If the digital interface doesn't exist, you can create a new one. The digital integrations are saved in the Digital Integration \[sn\_apm\_di\_digital\_integration\] table. After you create a digital integration, a CI relationship link is created between the two business applications with the interface type. This link enables you to access the integration as part of the node map for any business application. A catalog entry is provided to request approval for a digital integration. After the request is approved, the integration gets created.
+An easy form for digital integration enables the creation of a digital integration from a single page. If the digital interface doesn't exist, you can create a new one.The digital integrations are saved in the Digital Integration \[sn\_apm\_di\_digital\_integration\] table. After you create a digital integration, a CI relationship link is created between the two business applications with the interface type. This link enables you to access the integration as part of the node map for any business application. A catalog entry is provided to request approval for a digital integration. After the request is approved, the integration gets created.
 
 The Digital Integrations page displays a list of existing digital integrations and their related information. You can access the Digital Integrations page by navigating to **Workspaces** &gt; **Enterprise Architecture Workspace** &gt; **Portfolio** &gt; **Application Portfolio** &gt; **Digital Integrations**\[Omitted image "eaw-digital-integrations.png"\] Alt text: Digital Integrations in Enterprise Architecture Workspace.
-
--   **[Digital integration management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-dig-intg-data-model.md)**  
-This section shows the digital integration management data model.
 
 **Parent Topic:**[Exploring the application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-app-portfolio.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -30,7 +30,7 @@ sn\_hr\_na\_galileo.admin
 
 </td><td>
 
-Is auto-assigned to the sn\_hr\_gen\_ai\_helper.admin role.
+Is auto-assigned to the `sn_hr_gen_ai.admin` role.
 
  Grants administrative access to the Galileo data store.
 
@@ -40,7 +40,7 @@ sn\_hr\_na\_galileo.read
 
 </td><td>
 
-Enables users to receive responses containing Galileo data
+Enables users to receive Now Assist responses containing Galileo data
 
 </td></tr></tbody>
 </table><table id="table_l5y_yht_dfc"><thead><tr><th>

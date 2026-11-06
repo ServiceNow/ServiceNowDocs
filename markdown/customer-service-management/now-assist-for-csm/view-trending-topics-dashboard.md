@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2025-09-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Trending Topics, GenAI Insights, Case Manager Dashboard, Customer Sentiment, Base system Insights]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
@@ -98,6 +98,8 @@ Improves performance and user experience by loading and displaying large dataset
 
 The in-depth view page shows **Data Visualizations** and **GenAI Insight Cards**.
 
+\[Omitted image "trending-topics-dashboard.png"\] Alt text: Dashboard showing trending topics with a table of top 10 trends and metrics, with colorful bar charts for GenAI generated insights on impacted accounts, products, assignment groups, and channels.
+
 ## Data Visualizations – List View
 
 Displays the top 10 trending topics with the following attributes:
@@ -142,7 +144,7 @@ Automatically generated insights give you information about general trends and i
 -   **Impact explorer**- Displays accounts, products, assignment groups, and channels that are impacted by the highest volume of records among the top 10 trends.
 -   **Historical trends resurfacing**- Displays trends that didn’t have any open records in the last year and recently resurfaced open records.
 
-You can select **Related record** to open a new page with a list that shows the corresponding cases referenced in the graph. Select the refresh icon \[Omitted image "refresh-sync-new.png"\] Alt text: Refresh data icon to see the most recent update.
+You can select **Related record** to open a new page with a list that shows the corresponding cases referenced in the graph and select the refresh icon \[Omitted image "refresh-sync-new.png"\] Alt text: Refresh data icon to see the most recent update.
 
 ## AI alerts and gradient theme in dashboard
 

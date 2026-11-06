@@ -8,7 +8,7 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-08-21"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
@@ -20,45 +20,23 @@ Learn about the terms and concepts used in Zero Copy Connector for ERP.
 
 ## BAPI
 
-A Business Application Programming Interface \(BAPI\) is a standard interface to the business object models in SAP products, similar to an API.
-
 ## candidate
-
-A candidate is a group of recommended remote tables that you can use to create an application based on a custom transaction \(ERP root\) in the system. Candidates can also be existing applications that sit on top of the legacy ERP system.
-
-Good candidates for replatforming tend to be smaller applications that use data from the ERP system.
 
 ## candidate score
 
-A metric for how well a custom application \(ERP root\) fits to a remote table in ERP Semantic Mining.
-
 ## connection and credential alias
-
-The credential alias is the system connection access enabler that's maintained in the ServiceNow credential alias. The credential alias is used to access the ERP system.
 
 ## entity
 
-The table or Business Application Programming Interface \(BAPI\) function call that Zero Copy Connector for ERP uses to read or update the ERP system.
-
 ## ERP application
-
-The ERP \(Enterprise Resource Planning\) custom application that you choose to replatform using ERP Semantic Mining is an ERP root in the ERP system.
 
 ## ERP model
 
-The model represents a distinct set of features and functionalities tailored to address specific business processes or activities. A model encompasses multiple tables from the system of record, as well as APIs and ETL processes, to create a holistic dataset. For example, you can have one model for sales orders and another for inventory.
-
 ## ERP module
-
-The functional business area on the ERP system. The ERP root can only have one selected business area.
 
 ## ERP system
 
-An ERP system represents a connection to a section of your ERP. The Zero Copy Connector for ERP system plays a crucial role in data synchronization, sharing, and collaboration, enabling seamless integration and operation between the model and the connected ERP system.
-
 ## ERP table
-
-Individual tables \(both custom and standard\) in the ERP system are part of the remote tables. For example, in sales, ERP tables could include VBAK, VBAP, VBFA, VBPA, VBEP, MKPF, or MSEG.
 
 ## extraction table
 
@@ -74,11 +52,9 @@ In Zero Copy Connector for ERP, create an OData connection to link to SAP via HT
 
 ## operation
 
-Individual maintenance task performed to read or update the ERP system.
-
 ## remote table
 
-A remote table is an aggregation of the ERP system that provide value when gathered in one table. The remote table is the foundation of the model. A candidate can consist of several remote tables.
-
 ## system of record
+
+The ERP system of record is where the data lives and is distributed from, for example, SAP or Oracle EBS.
 

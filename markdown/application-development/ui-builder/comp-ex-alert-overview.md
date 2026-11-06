@@ -7,10 +7,10 @@ release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [UI Builder, Alert, Alert message, Components, Use case, UI Builder, Alert, Alert message, Components, Use case, UI Builder, Alert, Alert message, Components, Use case]
-breadcrumb: [Learn components by example, Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Learn components by example, Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create and customize alert messages in UI Builder
@@ -60,9 +60,7 @@ Alert
 -   [UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-alert/uib-setup%23properties)
 
 </td></tr></tbody>
-</table>\[Omitted video\] Description: Create and customize alert messages in UI Builder
-
-### Procedure
+</table>### Procedure
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
@@ -88,7 +86,7 @@ Alert
 
         The **Component ID** field auto-populates.
 
-    5.  Select **Apply**.
+    5.  Select **Apply.**
 
 5.  Configure the alert message.
 
@@ -114,7 +112,7 @@ Alert
 
     4.  Double-click **value1** to select the field, then select again to insert text.
 
-    5.  Enter `"You're logged in as "`, making sure to include a trailing space after the exclamation point.
+    5.  Enter `"You're loggeded in as "`, making sure to include a trailing space after the exclamation point.
 
     6.  Double-click **values** to select the field, then select again to insert text.
 
@@ -181,9 +179,7 @@ Alert
 -   [UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-alert/uib-setup%23properties)
 
 </td></tr></tbody>
-</table>\[Omitted video\] Description: Create and customize alerts in UI Builder
-
-### Procedure
+</table>### Procedure
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 

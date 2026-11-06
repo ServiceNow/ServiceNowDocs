@@ -7,7 +7,7 @@ release: australia
 product: Admin Center
 classification: admin-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Select your adoption blueprint, Adoption blueprints, Discovering adoption blueprints, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -475,4 +475,9 @@ nlu\_admin
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/admin-center/ac-select-business-objective.md)
+
+**Related topics**  
+
+
+[Customer Service Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServicePortalUserRoles.md)
 

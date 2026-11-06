@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-an-event-task-to-exercise-event.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Monitor event tasks and create ad-hoc tasks
@@ -36,7 +36,7 @@ The edit enhancement offers flexibility for managing the event tasks. The BCM ma
 -   Edit multiple recovery tasks in the **Task status**, **Actual start**, **Actual end**, **Assigned to**, **Assigned group**, and **Additional assignee** fields in the recovery tasks list at one go.
 -   Open a closed task for editing that was closed by mistake. For this scenario, the **Closed failed** task state is added to the tasks. Moving a task to the **Closed failed** state brings an entire exercise to a stop unless the program manager \(sn\_bcm.program\_manager\) unblocks the task and moves it to the **Closed complete** state.
 
-For more information on editing of tasks, see [Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md) and [Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md).
+For more information on editing of tasks, see [Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md) and [Structured workflows for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md).
 
 ## Procedure
 
@@ -110,11 +110,11 @@ For more information on editing of tasks, see [Structured workflows for Exercise
 
 10. To indicate the achieved recovery level of the impacted asset of the task, update **Asset recovery level**.
 
-    Previously, assets were marked as Recovered only when all event tasks were completed, even if assets were in later phases like Return to normal or Post-incident review. This approach delayed visibility into operational readiness. For example, an asset could be functionally available during the Recovery phase, but the system wouldn’t reflect the status until all tasks were done.
+    Previously, assets were automatically marked as Recovered only when all plan tasks were completed. This included assets in later phases such as Return to Normal or Post-Incident Review. This approach delayed visibility into operational readiness. For example, an asset could be functionally available during the Recovery phase, but the system wouldn’t reflect the status until all tasks were done.
 
     Starting with BCM release 9.x.x and later, the asset recovery status has been enhanced to provide granular tracking. Completing specific tasks now automatically updates the corresponding event asset state.
 
-    It is not mandatory that a flow may progress through the **Not Recovered** → **Partially Recovered** → **Recovered** states. If the related tasks are completed, an asset can be recovered directly. It is also not mandatory to add the **Partially Recovered** state; you can specify the recovery level of an asset directly based on task completion.
+    It is not mandatory that a flow may progress through the **Not Recovered** → **Partially Recovered** → **Recovered** states. If the related tasks are completed, an asset can be recovered directly. It is also not mandatory to add the **Partially Recovered** state; you can specify the recovery level of an asset directly based on task completion
 
     The Asset recovery level column in the event task list view also features color coding, providing visual indicators for different recovery progress levels. Specifically, **Partially Recovered** is represented by an info color, and **Recovered** is represented by a success color, making it easier to track recovery status.
 
@@ -138,7 +138,7 @@ For more information on editing of tasks, see [Structured workflows for Exercise
 
 
 -   **[Create Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-event-task-form-uib-ws.md)**  
-Use the Create New Event Task form in BCM UIB Workspace to add details about an event task.
+Use the Create Event Task form in BCM UIB Workspace to add details about an event task.
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

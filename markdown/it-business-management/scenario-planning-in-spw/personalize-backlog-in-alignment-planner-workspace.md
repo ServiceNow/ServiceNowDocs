@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Personalizing views for prioritization, Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -53,15 +53,15 @@ Personalization preferences are saved as the portfolio plan's settings in Strate
 
     Use one of the following ways to group the planning items. Repeat the action to group the list by multiple attributes.
 
-<table id="choicetable_mwf_cgk_htb"><thead><tr><th align="left" id="d279552e201">
+<table id="choicetable_mwf_cgk_htb"><thead><tr><th align="left" id="d290146e201">
 
 Choice
 
-</th><th align="left" id="d279552e204">
+</th><th align="left" id="d290146e204">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d279552e210">
+</th></tr></thead><tbody><tr><td id="d290146e210">
 
 **Drag and drop**
 
@@ -73,7 +73,7 @@ Drag and drop a column name to the **Grouped by** bar above the list.
 
  \[Omitted image "backlog-grouping-animation.gif"\] Alt text: Animation showing grouping the backlog list by planning item type.
 
-</td></tr><tr><td id="d279552e238">
+</td></tr><tr><td id="d290146e238">
 
 **Use Column actions**
 

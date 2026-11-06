@@ -5,9 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-contexts.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-keywords: [Contexts, Context in Recommended Actions, Create Context in Recommended Actions]
 breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
@@ -56,7 +55,7 @@ The **sn\_nb\_action.async\_ra\_timeout** system property specifies the timeout 
 
 ## Inheriting the rules and recommendations from hierarchical contexts
 
-The Parent context field appears only when the table selected in the Table field has one or more parent tables for which context is defined. Using the Parent context field, you can import it's active rules and recommendations into the extended context. When you click the search icon in Parent context field, the list of contexts of parent tables is displayed. You can select any one parent context from the list. The rules that are inherited appear in the Inherited Rules related list. For more information on how to configure rules so that the recommendations are inherited by the extended context, see [Apply rules to tables extended from the context table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-rules.md).
+The Parent context field appears only when the table selected in the Table field has one or more parent tables for which context is defined. Using the Parent context field, you can import it's active rules and recommendations into the extended context. When you select the search icon in Parent context field, the list of contexts of parent tables is displayed. You can select any one parent context from the list. The rules that are inherited appear in the Inherited Rules related list. For more information on how to configure rules so that the recommendations are inherited by the extended context, see [Apply rules to tables extended from the context table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-rules.md).
 
 **Note:**
 
@@ -117,11 +116,11 @@ On the Config tab for the Recommended Actions component, enter the sys id of the
 
 ## Case Context record
 
-The Recommended Actions for Customer Service application adds the Case Context record for the Case table \[sn\_customerservice\_case\]. This record is active by default \(Active=true\). For more information on the Case Context record, see [Contexts in Recommended Actions for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-context-records.md).
+The Recommended Actions for Customer Service application adds the Case Context record for the Case table \[sn\_customerservice\_case\]. This record is active by default \(Active=true\). For more information on the Case Context record, see [Contexts in Recommended Actions for Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-context-records.md).
 
 If an upgrade customer has one or more context records for the Case table available on their instance, the system runs a fix script that deactivates the out-of-box Case Context record \(sets the **Active** field to false\).
 
-**Note:** Verify that the correct context record for the Case table is active.
+**Note:** Ensure that the correct context record for the Case table is active.
 
 You can create contexts, rules, and recommendations for any table. However, on the CSM default record page, the Recommended Actions tab appears only for records from the base system Case \[sn\_customerservice\_case\] table. For more information, see [Recommended Actions tab not appearing on the CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-enable-ra-variant-record-page.md).
 

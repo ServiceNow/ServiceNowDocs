@@ -1,5 +1,5 @@
 ---
-title: Set up Multi-factor authentication on your user profile
+title: Set up multi-factor authentication on your user profile
 description: Enable multi-factor authentication for your account in your user profile settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-setup-profile.html
@@ -7,12 +7,12 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
-# Set up Multi-factor authentication on your user profile
+# Set up multi-factor authentication on your user profile
 
 Enable multi-factor authentication for your account in your user profile settings.
 
@@ -22,15 +22,15 @@ Role required: none
 
 Multi-factor authentication must be enabled on your instance.
 
-**Note:** Your administrator may require that you use multi-factor authentication. In this case, you are automatically prompted when you log in. See [Set up Multi-factor authentication for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_SetUpMultiFactorAuthUponLogin.md). Use the process below if your administrator allows you to opt-in to multi-factor authentication.
+**Note:** Your administrator may require that you use multi-factor authentication. In this case, you are automatically prompted when you log in. See [Set up multi-factor authentication for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_SetUpMultiFactorAuthUponLogin.md). Use the following process if your administrator allows you to opt in to multi-factor authentication.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **My Profile**.
 
-    **Note:** You can also access your profile by clicking on your user name in the instance header.
+    **Note:** You can also access your profile by selecting your user name in the instance header.
 
-2.  In your user profile, click **Configure Multi-factor Authentication** in the **Related Links** section.
+2.  In your user profile, select **Configure Multi-factor Authentication** in the **Related Links** section.
 
 3.  Choose the MFA Authenticator type that you would like to use.
 
@@ -78,7 +78,7 @@ Hardware security keys such as YubiKeySelect **Register hardware security keys**
 </table>
 ## Result
 
-Multi-factor authentication is enabled for your user account. You will be prompted to use multi-factor authentication the next time you log in.
+Multi-factor authentication is enabled for your user account. You are prompted to use multi-factor authentication the next time you log in.
 
 **Note:** You cannot disable multi-factor authentication on your account after you have enabled it. If you need to disable multi-factor authentication, contact your administrator.
 

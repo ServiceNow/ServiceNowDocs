@@ -7,7 +7,7 @@ release: australia
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service Level Management reference, Service Level Management, IT Service Management]
 ---
@@ -33,7 +33,7 @@ You can set up to six SLA conditions: start, cancel, pause, resume, stop, reset.
 
     You can choose the conditions from the **When to cancel** list under which the SLA will be canceled.
 
-    -   **Start conditions are not met** option: If one or more of the specified start conditions change, then the SLA will be canceled. The **Start conditions are not met** option is selected by default.
+    -   **Start conditions are'nt met** option: If one or more of the specified start conditions change, then the SLA will be canceled. The **Start conditions aren't met** option is selected by default.
     -   **Cancel conditions are met** option: The start condition has to be met only once, thereafter the SLA will only cancel when the cancel condition is met.
     -   **Never** option: The SLA will never be canceled.
     Select **Retroactive start** to choose a date and time field from the task that will provide the start time of the task SLA. If you select the **Retroactive start** check box, the **Set start to** field appears offering the date and time fields available on the task type that this SLA definition applies to. For example if you select **Retroactive start** on a Priority 1 SLA definition and then choose **Created** in the **Set start to** field, then the SLA is attached with the start time being the date and time from the **Created** field on the Incident.

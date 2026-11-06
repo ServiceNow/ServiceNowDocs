@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: concept
-last_updated: "2026-06-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---

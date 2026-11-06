@@ -10,14 +10,14 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Virtual, Agent, designer, AI, agent, connector, utility]
-breadcrumb: [Managing AI agents, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Managing AI agents, Managing asset library items, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # AI agents in Virtual Agent topics
 
 An AI agent custom skill performs a task that you pass to it from a Virtual Agent topic, such as consolidating the content of a knowledge base article.
 
-There may be AI agents installed with the Now Assist application that are not used in use cases. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
 An AI agent performs a task that you pass to it inside the AI Connector utility in Assistant Designer. For more information on the AI Connector utility, see [AI Connector utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-ai-connector-utility.md).
 

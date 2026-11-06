@@ -7,9 +7,9 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Universal Request integration - Incident Management, Incident Management integrations, Reference, Incident Management, IT Service Management]
+breadcrumb: [Incident Management integration with Universal Request, Incident Management integrations, Reference, Incident Management, IT Service Management]
 ---
 
 # Create an associated ticket from an incident
@@ -18,7 +18,7 @@ Create an associated ticket for another relevant department from an incident \(p
 
 ## Before you begin
 
-Ensure that the incident has an associated Universal Request record.
+The incident must have an associated Universal Request record.
 
 Role required: Ensure you have one of the following roles.
 
@@ -31,7 +31,7 @@ Role required: Ensure you have one of the following roles.
 
 2.  Open the incident record from which you want to create an associated ticket.
 
-3.  Click **Create Associated Ticket**.
+3.  Select **Create Associated Ticket**.
 
     \[Omitted image "inci-form-asso-tick.png"\] Alt text: Create associated ticket from incident
 
@@ -40,11 +40,11 @@ Role required: Ensure you have one of the following roles.
     |Field|Description|
     |-----|-----------|
     |Department|Department for which you want to create an associated ticket.|
-    |Short description|A brief description of the issue for which the associated ticket is created.|
-    |Description|A detailed description of the issue for which the associated ticket is created.|
-    |Work notes|A brief description of the issue. You can communicate this issue to the Universal Request Routing agent or to the agent of the department for which the associated ticket is created.|
+    |Short description|Brief description of the issue for which the associated ticket is created.|
+    |Description|Detailed description of the issue for which the associated ticket is created.|
+    |Work notes|Notes that communicate the issue to the Universal Request Routing agent or to the agent of the department for which the associated ticket is created.|
 
-5.  Click **Create**.
+5.  Select **Create**.
 
 
 ## Result
@@ -53,5 +53,5 @@ The ticket is created for the relevant department and is associated with the uni
 
 **Note:** When an associated ticket is created, the information is copied from the fields of the universal request record to the fields of the associated ticket record. You can use the **Associated Ticket Information** and **Associated Ticket Mappings** tabs of the Mapping Configuration form for incidents. For more information, see [Mapping configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ur-direct-transfer-config-form.md).
 
-**Parent Topic:**[Universal Request integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
+**Parent Topic:**[Incident Management integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
 

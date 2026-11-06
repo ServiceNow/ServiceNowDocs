@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/run-scheduled-job-prod-offer-categories.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AI Search for product catalog, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Run the scheduled job called **Scheduled job to populate product\_offering\_categories glide list for product offerings** only if you've upgraded from a release before the Australia release. This job adds the product offering categories field to the Product Offering table. If you're a new customer using the Australia release or Zbooted, do not run this job.
+Run the scheduled job called **Scheduled job to populate product\_offering\_categories glide list for product offerings** only if you've upgraded from a release before the Brazil release. This job adds the product offering categories field to the Product Offering table. If you're a new customer using the Brazil release or Zbooted, do not run this job.
 
 ## Procedure
 

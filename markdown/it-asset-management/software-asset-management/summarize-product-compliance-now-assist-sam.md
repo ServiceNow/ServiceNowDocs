@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, Using AI in Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -52,15 +52,15 @@ When you run reconciliation with grouping, product summarization and recommended
 
 6.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d272790e172">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d277212e172">
 
 Action
 
-</th><th align="left" id="d272790e175">
+</th><th align="left" id="d277212e175">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d272790e181">
+</th></tr></thead><tbody><tr><td id="d277212e181">
 
 **Copy to clipboard icon**
 
@@ -68,7 +68,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d272790e190">
+</td></tr><tr><td id="d277212e190">
 
 **Refresh icon**
 
@@ -76,7 +76,7 @@ Copies the summary to a clipboard.
 
 Regenerates the product summary and recommended actions.
 
-</td></tr><tr><td id="d272790e199">
+</td></tr><tr><td id="d277212e199">
 
 **Feedback**
 

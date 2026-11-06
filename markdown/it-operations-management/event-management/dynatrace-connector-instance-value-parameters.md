@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -62,7 +62,7 @@ isGrailApiEnabled
 
 </td><td>
 
-Set to **true** to enable Grail connection. Grail API related metrics are displayed in the **Configure metrics to collect** list. If this value is set **false**, the classic connection is enabled and the classic API related metrics are displayed.
+Set to **true** to enable Grail connection. Grail API related metrics are displayed in the **Configure metrics to collect** list. If this value is set **false**, the classic connection is enabled and classic API related metrics are displayed.
 
  Default: false
 

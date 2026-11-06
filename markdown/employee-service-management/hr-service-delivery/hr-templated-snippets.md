@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -268,14 +268,6 @@ Indicates what groups have access to the response template.Adding groups filters
 
 </td></tr><tr><td>
 
-Language
-
-</td><td>
-
-Language in which you want the response template to be translated. **Note:** Translation feature is available only when the required language plugins are installed on the instance.
-
-</td></tr><tr><td>
-
 Template body
 
 </td><td>
@@ -286,7 +278,9 @@ Text of the response template providing instructions to the agent on how to resp
 
 -   Current user: `${current_user}`
 -   Current date: `${Date}`
- Or, position your cursor where you want the custom variable reference to appear and select the **Insert Current User** or **Insert Current Date** buttons.
+ Or, place your mouse where you want the custom variable reference to appear and select the **Insert Current User** or **Insert Current Date** buttons.
+
+ **Note:** Response templates do not support rich text.
 
 </td></tr><tr><td>
 
@@ -305,7 +299,9 @@ Variables you can add to the template body. For example, if you choose the HR Ca
 
 4.  Click **Submit** or **Update**.
 
-    The Channels related list appears. Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
+    Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
+
+    The Channels related list appears.
 
 
 ### What to do next
@@ -386,7 +382,9 @@ Activates the Response Template Channel.**Note:** Unchecking the box inactivates
 </td></tr></tbody>
 </table>6.  Select **Save**.
 
-    The Channels related list appears. Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
+    Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
+
+    The Channels related list appears.
 
 7.  Click **New** to create a new channel or **Edit** to access an existing channel.
 

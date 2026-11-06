@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery Integration with SuccessFactors, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -33,7 +33,7 @@ After you install the HR Service Delivery Integration with SuccessFactors, the s
 
 3.  Set up SuccessFactors spoke.
 
-    **Note:** To use HR Service Delivery Integration with SuccessFactors, ensure to set up the latest version of the SuccessFactors spoke from ServiceNow® Store.
+    **Note:** To use HR Service Delivery Integration with SuccessFactors, ensure to set up the SuccessFactors spoke version 3.1.2
 
     For more information, see set up [SuccessFactors Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/successfactors-spoke.md).
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-corrective-actions.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Corrective actions
@@ -20,7 +20,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns**.
 
 2.  Select the corresponding campaign record in which you want to create a corrective action.
 
@@ -40,4 +40,11 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
     Corrective action must contain at least one action charge line to move it to In use.
 
+
+-   **[Corrective action charges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco_corrective_action_charges.md)**  
+Create correction action charges to enable the expenses incurred to address a non-conformance and implement measures to help prevent its recurrence.
+-   **[Generate a part requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-part-requirements.md)**  
+Capture all the part requirements at the campaign level.
+
+**Parent Topic:**[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-rc-my-campaigns.md)
 

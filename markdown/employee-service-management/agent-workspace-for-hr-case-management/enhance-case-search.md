@@ -7,9 +7,9 @@ release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a case in Agent Workspace for HR Case Management, Using Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Create a case in Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Enhance search criteria
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **HR Administration** &gt; **Case Creation Configuration**.
+1.  Navigate to **All** &gt; **HR Administration** &gt; **Case Creation Configuration**.
 
 2.  Enable the **Force partial search** option.
 

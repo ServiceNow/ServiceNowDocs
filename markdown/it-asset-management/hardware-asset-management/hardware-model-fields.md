@@ -7,8 +7,8 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -641,8 +641,7 @@ Lifecycle type
 
 </td><td>
 
-The model lifecycle type values include:-   **Internal**: The lifecycle date is specific to the customer \(for example, based on their internal policy, based on a custom contract/agreement with the publisher\).
--   **Publisher**: The lifecycle date comes from manufacturer and is not specific to a customer.
+Type of life cycle.
 
 </td></tr><tr><td>
 
@@ -650,11 +649,11 @@ Lifecycle phase
 
 </td><td>
 
-Phase of the life cycle for a hardware model.-   **General Availability**: The date when the hardware becomes generally available through the manufacturer’s sales channels, including its worldwide subsidiaries, affiliates, and country distributors. The hardware is considered current/active and receiving support from the manufacturer.
--   **End of Sale**: The last date to order the hardware through the manufacturer’s sales channels, including its worldwide subsidiaries, affiliates, and country distributors. After end of sale date, the hardware is no longer available for sale.
+Phase of the life cycle for a hardware model.-   **General Availability:** The date when the hardware becomes generally available through the manufacturer’s sales channels, including its worldwide subsidiaries, affiliates, and country distributors. The hardware is considered current/active and receiving support from the manufacturer.
+-   **End of Sale:**The last date to order the hardware through the manufacturer’s sales channels, including its worldwide subsidiaries, affiliates, and country distributors. After end of sale date, the hardware is no longer available for sale.
 -   **End of Support**: The last date upon which the manufacturer provides standard/regular support for the hardware as entitled by active service contracts. After this date, the manufacturer may continue to provide active support for certain issues in a limited capacity, the scope of which may vary across different manufacturers according to their lifecycle and/or support policies.
--   **End of Extended Support**: Up until this date, the manufacturer extends limited support for the hardware \(after standard/regular support expires\), for a defined period according to manufacturer policy.
--   **End of Life**: The date which indicates the hardware is at the end of its useful life \(from the manufacturer’s point of view\). The manufacturer stops marketing, selling, or sustaining the hardware.
+-   **End of Extended Support:** Up until this date, the manufacturer extends limited support for the hardware \(after standard/regular support expires\), for a defined period according to manufacturer policy.
+-   **End of Life:**The date which indicates the hardware is at the end of its useful life \(from the manufacturer’s point of view\). The manufacturer stops marketing, selling, or sustaining the hardware.
 
 </td></tr><tr><td>
 
@@ -662,7 +661,7 @@ Source
 
 </td><td>
 
-Source of the hardware model.If the record is created manually, this field is set to **Internal**. If the record is created automatically, this field is set to **ServiceNow**
+Source of the hardware model.
 
 </td></tr><tr><td>
 
@@ -678,7 +677,7 @@ Phase end date
 
 </td><td>
 
-This field is intentionally left empty and is not utilized by any hardware models within the Hardware Asset Management application.
+End date of the life cycle phase.
 
 </td></tr><tr><td>
 

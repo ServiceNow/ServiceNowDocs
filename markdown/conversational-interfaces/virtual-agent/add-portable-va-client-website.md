@@ -7,7 +7,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [Add, portable, Virtual Agent, chat widget, third-party]
 breadcrumb: [Adding Virtual Agent to your web page, Configure, Virtual Agent, Conversational Interfaces]
@@ -221,6 +221,4 @@ Both enhanced and standard chat code is included in this topic. Review the begin
         }
         ```
 
-
-**Parent Topic:**[Use the portable chat widget to add Virtual Agent to your web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/use-portable-va-web-client.md)
 

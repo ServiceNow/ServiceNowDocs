@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Entity scoping, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -33,7 +33,7 @@ Role required:
     -   **Audit** &gt; **Scoping** &gt; **All Entities**.
 2.  Do one of the following actions
 
-<table id="choicetable_wn5_ds3_4w"><tbody><tr><td id="d436122e123">
+<table id="choicetable_wn5_ds3_4w"><tbody><tr><td id="d439843e123">
 
 **To create a new entity**
 
@@ -41,7 +41,7 @@ Role required:
 
 Click **New**.
 
-</td></tr><tr><td id="d436122e135">
+</td></tr><tr><td id="d439843e135">
 
 **To edit an entity**
 

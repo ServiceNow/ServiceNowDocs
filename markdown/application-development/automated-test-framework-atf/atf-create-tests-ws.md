@@ -7,9 +7,9 @@ release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Testing Configurable Workspace components, Administering the Automated Test Framework \(ATF\), Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Testing Configurable Workspace components, Administering the Automated Test Framework \(ATF\), Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Create a test for Configurable Workspace interaction via Page Inspector

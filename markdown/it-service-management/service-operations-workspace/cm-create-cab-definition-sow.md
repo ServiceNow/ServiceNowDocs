@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [CAB in Service Operations Workspace, CAB Workbench in Service Operations Workspace]
 breadcrumb: [Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
@@ -25,7 +25,7 @@ Role required: sn\_change\_cab.cab\_manager
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the list icon \(\[Omitted image "sow-list.png"\] Alt text: List icon.\).
+2.  Select the list icon \(\[Omitted image "sow-list.png"\] Alt text:\).
 
 3.  In the **Change Advisory Board**, select **My CAB Definitions** or **All CAB Definitions**.
 
@@ -270,7 +270,7 @@ Repeats
 
 </td><td>
 
-Frequency with which the schedule entry repeats, for example, daily. weekly, or monthly.When you select **Monthly**, the **Monthly type** field appears. Enter the number of times in a month when the schedule entry repeats.
+Frequency with which the schedule entry repeats, for example, daily, weekly, or monthly.When you select **Monthly**, the **Monthly type** field appears. Enter the number of times in a month when the schedule entry repeats.
 
  When you select **Yearly**, the **Yearly type** field appears. Select an option, as follows:
 
@@ -312,7 +312,7 @@ If the schedule entry is scheduled to repeat, specifies an end date until which 
 
 8.  Add one or more related schedules to a CAB definition.
 
-    Related schedules enable you to set valid schedules for holding CAB meetings. For example, if you set the public holiday schedule as a related schedule, it ensures that no CAB meeting is scheduled on a public holiday.
+    Related schedules enable you to set valid schedules for holding CAB meetings. For example, if you set the public holiday schedule as a related schedule, no CAB meeting is scheduled on a public holiday.
 
     1.  Select the **Related records** tab and then select **Related Schedules**.
 
@@ -326,7 +326,7 @@ If the schedule entry is scheduled to repeat, specifies an end date until which 
 
     CAB meetings are generated based on the rolling meeting window and schedules defined in the CAB definition and listed in the **CAB Meetings** list under the **Related records** tab.
 
-    This CAB meeting series created from CAB definitions inherit the criteria of the CAB definition.
+    This CAB meeting series created from CAB definitions inherits the criteria of the CAB definition.
 
 
 ## What to do next

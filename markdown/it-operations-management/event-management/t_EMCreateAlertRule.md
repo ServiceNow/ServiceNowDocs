@@ -7,8 +7,8 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -23,8 +23,6 @@ Role required: evt\_mgmt\_admin
 ## About this task
 
 Existing alert action rules are active, read-only rules. An alert action rule can be modified only after it is migrated to an alert management rule.
-
-To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/respond-alert-sow-itom.md).
 
 ## Procedure
 

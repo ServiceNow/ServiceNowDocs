@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/fix-intel-reference.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [reference]
 breadcrumb: [Fix Intelligence for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
@@ -19,6 +19,4 @@ Reference information about the roles, tables, and other components installed wi
 Activating the Fix Intelligence for Security Exposure Management plugin \(`sn_vul_fix`\) installs the following tables, role, scripts, automation, and integration components.
 -   **[Understanding Fix records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/understanding-fix-records.md)**  
 A Fix record represents a single remediation action that resolves one or more findings.
-
-**Parent Topic:**[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-intel-for-usem-landing.md)
 

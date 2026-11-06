@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Completing work on mobile, Use, Field Service Management]
 ---
@@ -64,7 +64,7 @@ Completing work order tasks on ServiceNow Agent can include one or more of the f
 
     Connect with your customers or peers using the Mobile Agent app to get more information when you're at a task location.
 
--   [View job site maps on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/navigate-job-sites-mobile.md)
+-   [Job site maps on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/navigate-job-sites-mobile.md)
 
     View a map of the job site, or get step-by-step directions all from the Mobile Agent app.
 

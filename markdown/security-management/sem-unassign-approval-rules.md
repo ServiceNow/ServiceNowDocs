@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-unassign-approval-rules.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -33,6 +33,4 @@ You can design the approval workflow for the removal of assignments from vulnera
 |CVIT|Approval for container management|Default Configuration Unassign CVIT|CVIT unassign approval level - 1|
 
 For more information on how to approve unassign requests, see [Approve or reject an unassign request in Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/vr-approve-unassign-requests.md).
-
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Train and use the similarity solution to recommend citations on regulatory alerts
+title: Recommend citations on regulatory alerts
 description: Train and use the machine learning solution by activating the Governance, Risk, and Compliance Predictive Intelligence plugin. The solution enables the system to automatically recommend correct citations on regulatory alerts to associate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/retrain-ml-reg-compliance-mapping.html
@@ -7,12 +7,12 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Regulatory alerts, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
-# Train and use the similarity solution to recommend citations on regulatory alerts
+# Recommend citations on regulatory alerts
 
 Train and use the machine learning solution by activating the Governance, Risk, and Compliance Predictive Intelligence plugin. The solution enables the system to automatically recommend correct citations on regulatory alerts to associate.
 
@@ -43,7 +43,7 @@ Role required: ml\_admin
     |**Update and Retrain**|Modify your solution definition and train it.|
 
 
--   **[Auto-assign configuration for regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/set-up-assignment-configuration.md)**  
+-   **[Set up auto-assignment for regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/set-up-assignment-configuration.md)**  
 Set up an assignment configuration record to enable auto-assignments for regulatory alerts of the type regulatory event.
 -   **[Similarity Definition Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/similarity-definition-form.md)**  
 Use the Similarity Definition Form form in Compliance Workspace to create a similarity definition for regulatory compliance mapping.

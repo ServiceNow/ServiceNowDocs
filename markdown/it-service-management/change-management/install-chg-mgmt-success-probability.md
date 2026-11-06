@@ -1,5 +1,5 @@
 ---
-title: Activate Change Management Success Probability
+title: Activate Change Management - Success Probability
 description: You can activate the Change Management - Success Probability plugin \(com.snc.change\_management.success\_probability\) if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/install-chg-mgmt-success-probability.html
@@ -7,12 +7,12 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
-# Activate Change Management Success Probability
+# Activate Change Management - Success Probability
 
 You can activate the Change Management - Success Probability plugin \(com.snc.change\_management.success\_probability\) if you have the admin role.
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Activate the Change Management Success Probability \(com.snc.change\_management.success\_probability\) plugin to calculate the probability of success of a change request.
+Activate the Change Management - Success Probability plugin \(com.snc.change\_management.success\_probability\) to calculate the probability of success of a change request.
 
 ## Procedure
 
@@ -44,7 +44,7 @@ Activate the Change Management Success Probability \(com.snc.change\_management.
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -64,11 +64,11 @@ Activate the Change Management Success Probability \(com.snc.change\_management.
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -76,7 +76,7 @@ Activate the Change Management Success Probability \(com.snc.change\_management.
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 

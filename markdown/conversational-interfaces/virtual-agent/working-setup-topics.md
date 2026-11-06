@@ -7,8 +7,8 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Customizing a chat experience, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -22,9 +22,9 @@ You define setup topics in a Virtual Agent chat experience using the Custom Gree
 -   A small list of topics, called promoted topics, initially displayed in the chat window.
 -   AI Search configuration used to display AI Search results for your users.
 
-For more information on chat experiences, see [Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-conversation-settings.md). For details on configuring a chat experience, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-default-chat-experience.md).
+For more information on chat experiences, see [Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-conversation-settings.md). For details on configuring a chat experience, see [\(Legacy\) Configure a Virtual Agent NLU chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/configure-default-chat-experience.md).
 
-**Note:** Setup topics in conversations are discoverable \(via topic discovery\) only when they're [configured in a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-default-chat-experience.md) using the **Custom Greetings and Setup** option. If any setup topics are not included in a chat experience, those setup topics are not listed in the chat window's All Topics menu \(topic picker\) and cannot be discovered by Virtual Agent.
+**Note:** Setup topics in conversations are discoverable \(via topic discovery\) only when they're [configured in a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/configure-default-chat-experience.md) using the **Custom Greetings and Setup** option. If any setup topics are not included in a chat experience, those setup topics are not listed in the chat window's All Topics menu \(topic picker\) and cannot be discovered by Virtual Agent.
 
 Setup topics run during a conversation as follows.
 
@@ -163,12 +163,4 @@ Virtual Agent Capabilities. Enables users to ask for assistance during a convers
  \[Omitted image "setup-va-capabilities.png"\] Alt text: Explore help topic presented in Virtual Agent web client.
 
 </td></tr></tbody>
-</table>-   **[Change text in the Show me everything button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/change-va-showme.md)**  
-Configure the text in the **Show me everything** button displayed in the chat window to control the display of the initial greetings and the **Show me everything** button in Virtual Agent conversations. Edit the message in the System Properties \[sys\_properties\] table, or in a copy of the Greetings setup topic.
--   **[Hide or reveal the Show me everything button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
-Set properties to hide or reveal the Show me everything button in Virtual Agent LLM \(large language model\) conversations.
--   **[Change the Virtual Agent greeting messages in the Greeting setup topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-welcome-topic-selection-msgs.md)**  
-The Virtual Agent greeting setup topic provides default greeting messages for your conversations. Customize these greetings by adding system properties that change the default welcome message and the top selection message prompting users to enter an issue or request.
-
-**Parent Topic:**[Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-conversation-settings.md)
-
+</table>

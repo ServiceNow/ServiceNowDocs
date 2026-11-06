@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/images-tasks.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-28"
+last_updated: "2026-10-27"
 reading_time_minutes: 6
-breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
+breadcrumb: [Platform agentic workflows, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Platform Process images for new tasks agentic workflow
@@ -34,7 +34,7 @@ If you want the ability for users to create tasks from images using ServiceNow O
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_image\_processor.
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/implement-aias-security-new.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
 
 In the data access settings, you must also add the necessary roles to enable reading of the tables for the records you want to be able to make tasks on. For example, you can add the itil role to the agentic workflow's list of approved roles so that it can access Incident records.
 
@@ -83,7 +83,13 @@ List of tables where you can make tasks from images
 </td></tr></tbody>
 </table>## Accessing the Process images for new tasks agentic workflow
 
-To access the agentic workflow:
+To access the agentic workflow in AI Agent Studio:
+
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
+2.  Select the **Agentic workflows** tab.
+3.  Select **Process images for new tasks**.
+
+To access the agentic workflow in the legacy AI Agent Studio:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Process images for new tasks**.

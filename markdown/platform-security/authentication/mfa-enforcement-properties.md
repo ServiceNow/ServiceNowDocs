@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MFA enforcement, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -32,7 +32,7 @@ Description
 
 </td><td>
 
-Number of times a user can bypass setting up multi-factor authentication \(Max possible bypass count is 3, beyond that it will treated as 3\).
+Number of times a user can bypass setting up multi-factor authentication \(Max possible bypass count is 3, beyond that it is treated as 3\).
 
 </td></tr><tr><td>
 
@@ -40,7 +40,7 @@ Number of times a user can bypass setting up multi-factor authentication \(Max p
 
 </td><td>
 
-Indicates number of days a user will be given an option to self enroll for MFA, post which user will be automatically challenged with MFA. Any value exceeding 90 will be treated as 90 days only.
+Indicates number of days a user is given an option to self-enroll for MFA, after which the user is automatically challenged with MFA. Any value exceeding 90 is treated as 90 days only.
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ Indicates number of days a user will be given an option to self enroll for MFA, 
 
 </td><td>
 
-Indicates the maximum number of days a new user will be given an option to self-enroll for MFA, post which all new user's performing non-SSO logins are automatically challenged with MFA. Any value exceeding 270 is treated as 270 days only.
+Indicates the maximum number of days a new user is given an option to self-enroll for MFA, after which all new users performing non-SSO logins are automatically challenged with MFA. Any value exceeding 270 is treated as 270 days only.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ MFA Enforcement debug logger. Helps in debugging the flows for MFA logins. **Not
 
 </td><td>
 
-Property for the tracking of hybrid users. The user accounts which are not marked as 'Web service access only' in corresponding sys\_user record, but still performs integrations \(For example, API logins\) using the username and password, will be tracked in the 'User Login Info' table when this property is enabled.**Note:** This property doesn't exist on the instance, you have to create and enable the property, if needed.
+Property for the tracking of hybrid users. The user accounts which are not marked as 'Web service access only' in corresponding sys\_user record, but still performs integrations \(For example, API logins\) using the username and password, is tracked in the 'User Login Info' table when this property is enabled.**Note:** This property doesn't exist on the instance, you have to create and enable the property, if needed.
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Property for the tracking of hybrid users. The user accounts which are not marke
 
 </td><td>
 
-A debug logger for the tracking of hybrid user API logins.Side **Note:** This property doesn't exist on the instance, you have to create and enable the property, if needed.
+A debug logger for the tracking of hybrid user API logins. **Note:** This property doesn't exist on the instance, you have to create and enable the property, if needed.
 
 </td></tr></tbody>
 </table>

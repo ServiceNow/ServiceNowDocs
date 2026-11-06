@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/tables-installed-with-fsm-for-schedule-optimization.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Schedule Optimization components, Reference, Field Service Management]
 ---
@@ -56,7 +56,7 @@ Relates a group or territory to an intraday job
 **Related topics**  
 
 
-[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
+[Optimizing technician schedules at set intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
 
 [Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configure-intraday-optimization.md)
 

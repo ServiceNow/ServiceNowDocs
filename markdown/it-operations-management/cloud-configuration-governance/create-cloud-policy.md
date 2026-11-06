@@ -1,20 +1,20 @@
 ---
 title: Create a cloud policy
-description: A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.
+description: A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. It gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-cloud-policy.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create a cloud policy
 
-A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.
+A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. It gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.
 
 ## Before you begin
 
@@ -172,7 +172,7 @@ The on Resource operation launch trigger fires before the catalog for a resource
 -   **[Create action for 'on Resource operation request start/end' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-action-on-resrce-op-reqst.md)**  
 A policy that is triggered by the on Resource operation request start or on Resource operation request end trigger can run a script or override a user-requested attribute value.
 -   **[Create an action for an 'on Resource Limit exceeded' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-action-on-resource-limits-exceeded.md)**  
-Set the **on Resource limits exceeded** policy to run approval subflows or send notifications when a template-based catalog item exceeds resource limits or quotas.
+Set the **on Resource limits exceeded** policy to automatically run approval subflows or send notifications when a template-based catalog item order exceeds defined resource limits.
 -   **[Create an action for an 'on Task Remediation' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-action-on-remediation.md)**  
 The on Task remediation trigger fires when a user resubmits a failed request. A policy that is triggered by the on Task Remediation trigger can start approval subflows.
 -   **[Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-policy-script.md)**  

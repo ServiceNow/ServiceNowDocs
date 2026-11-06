@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [transfer order line fields, create transfer order line]
 breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
@@ -108,8 +108,10 @@ Quantity returned
 Number of items that already needed to be returned.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/references-asset-management.md)
+
+**Related topics**  
 
 
-[Create transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/create-transfer-order-line.md)
+[Transfer assets using transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/t_TransferAssetsUsingTransferOrders.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Access Control
 classification: access-control
 topic_type: concept
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Access Control Lists \(ACLs\), Access Management]
 ---
@@ -109,7 +109,7 @@ For example, all these entries specify an operation:
 The conditions specify when someone can access the named object and operation. Security administrators can specify condition requirements by adding:
 
 -   One or more user roles to the **Requires role** list.
--   One or more security attributes must be evaluated to be true.
+-   One or more security attributes need to be evaluated to be true.
 -   One or more data conditions.
 -   A script that evaluates to true or false or sets the `answer` variable to true or false.
 
@@ -146,6 +146,8 @@ Invalid ACLs are defined as:
 -   ACLs with Security Attributes that do not exist \(e.g. have no row in the database\)
 -   ACLs with a script that contains "answer=true" or "true"
 
+**Important:** The system denies access when none of the roles referenced by an ACL exist on the instance. This doesn't apply to ACLs that have a mix of valid and invalid roles. You can find ACLs with invalid role references in Access Management Console to identify and remediate them.
+
 If the system detects the user creating an ACL it will prompt the user to select a role or an existing security attribute.
 
 \[Omitted image "empty-acl-example.png"\] Alt text: System prompting user to select.
@@ -161,7 +163,7 @@ An ACL only grants a user access to an object if the user meets all conditions r
 
 \[Omitted image "AclEvaluatePermissions2.png"\] Alt text: ACL evaluate conditions
 
-Whenever a session requests data, the system searches for access control lists that match the requested object and operation. If there’s a matching access control list, then the system evaluates if the user has the conditions required to access the object and operation. If an access control list specifies more than one condition, then the user must meet all conditions to gain access to the object and operation. Failing any one condition check prevents the user from accessing the matching object and operation.
+Whenever a session requests data, the system searches for ACLs that match the requested object and operation. If there’s a matching ACL, then the system evaluates if the user has the conditions required to access the object and operation. If an ACL specifies more than one condition, then the user must meet all conditions to gain access to the object and operation. Failing any one condition check prevents the user from accessing the matching object and operation.
 
 If a user does not meet the conditions of the first matching ACL, the system evaluates the conditions of the next matching ACL as specified by the access control processing order. If the user fails to meet the conditions of any matching ACL, the system denies access to the requested object and operation.
 
@@ -286,7 +288,7 @@ report\_view
 
 </td><td>
 
-User can’t view the content of a report on the ACL table or on the ACL field. For more information, see [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting-landing-page.md).
+User can’t view the content of a report on the ACL table or on the ACL field. For more information, see [Core UI Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting-landing-page.md).
 
 </td></tr><tr><td>
 
@@ -305,11 +307,11 @@ Object Type
 
 </th><th>
 
-Matching ACLs Required to Access Object
+Matching ACL Rules Required to Access Object
 
 </th><th>
 
-Existing wild-card ACLs
+Existing wild-card ACL Rules
 
 </th></tr></thead><tbody><tr><td>
 
@@ -318,7 +320,7 @@ Client-callable script includes
 </td><td rowspan="2">
 
 Users must meet the conditions of two ACLs:1.  All wild-card ACLs for the object \(if any ACL exists for the operation\).
-2.  The first ACL that matches the object's name \(if any ACL exists for the operation\).
+2.  The first ACL that matches the object's name \(if any ACL rule exists for the operation\).
 
 </td><td rowspan="2">
 
@@ -352,17 +354,17 @@ Record
 
 ## Multiple ACLs at the same point in the processing order
 
-If two or more ACLs match at the same point in the processing order, the user must pass any one of the ACL conditions to access the object. For example, if you create two field ACLs for **incident.number**, then a user who passes one ACL has access to the number field regardless of whether the user failed any other field ACL at the same point in the processing order.
+If two or more ACLs match at the same point in the processing order, the user must pass any one of the ACL conditions to access the object. For example, if you create two field ACLs for **incident.number**, then a user who passes one rule has access to the number field regardless of whether the user failed any other field ACL at the same point in the processing order.
 
 ## Required role
 
-Normal admin users can view and debug access control lists. However, to create or update existing access control lists, administrators must elevate privileges to the security\_admin role. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_ElevateToAPrivilegedRole.md) for instructions.
+Normal admin users can view and debug access control rules. However, to create or update existing access control rules, administrators must elevate privileges to the security\_admin role. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/t_ElevateToAPrivilegedRole.md) for instructions.
 
 ## ACLs in scoped applications
 
 You can create ACLs for objects in the same scope as the ACL. You can also create ACLs for tables with at least one field that is in the same scope as the ACL.
 
-For tables that are in a different scope than the ACL record, the types of rules are limited.
+For tables that are in a different scope than the ACL record, the types of ACLs are limited.
 
 -   You can create an ACL for any table, UI page, or other object that is in the same scope as the ACL.
 -   You can create an ACL for a field that is in the same scope as the ACL.

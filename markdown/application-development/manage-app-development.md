@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/manage-app-development.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Plan your application development, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Plan your application development, Exploring professional development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Manage app development
@@ -16,7 +16,7 @@ Govern app development on the ServiceNow AI Platform.
 
 ## Source control
 
-To enable simple, future proof collaboration for applications, use source control integration. Source control allows an organization to adopt industry standard tool sets while following modern application development and team management paradigms. See the [Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md) documentation for more information.
+To enable simple, future proof collaboration for applications, use source control integration. Source control allows an organization to adopt industry standard tool sets while following modern application development and team management paradigms.
 
 Source control platforms, such as GitLab and GitHub, align an organization with current and future best practice trends in ServiceNow application development and management. However, some organizations may not be ready to adopt the current source control integration.
 

@@ -7,7 +7,7 @@ release: australia
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Customize the Burnup, Burndown, and Cumulative Flow Diagram reports of your Agil
 
 -   Configure indicators to reflect your customizations.
 
-    For example, if there are any new states introduced to the scrum story table, then the corresponding indicators and indicator sources for the story table that rely on the **State** field must be updated as well.
+    For example, if you add states to the scrum story table, you must update the indicators and indicator sources that rely on the **State** field.
 
     For more information, see [Customize indicators of your Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/agile-development/customize-indicators-of-your-dashboard-reports.md).
 

@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -58,6 +58,10 @@ Use the workflow tool, for example, to set up a workflow that sends an email not
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

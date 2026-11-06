@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quot
 release: australia
 topic_type: reference
 last_updated: "2026-05-07"
-reading_time_minutes: 8
+reading_time_minutes: 7
 breadcrumb: [Fields, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -107,10 +107,8 @@ The following fields are installed when ServiceNow Pricing is enabled.
 |`txn.pricing.total`|Total of the transaction after all pricing, discounts, and adjustments are applied.|0 Modifiable by: System|
 |`txn.pricing.discount.amount`|Overall Discount Amount. The total discount amount applied to the transaction.|0 Modifiable by: System|
 |`txn.pricing.discount.percent`|Overall Discount Percent. The total discount percent applied to the transaction.|0 Modifiable by: System|
-|`txn.pricing.pricingState`|Pricing State. Indicates whether the transaction's pricing is current. Set to a value that indicates a reprice is needed when a pricing-affecting field changes, and cleared to up-to-date after a successful pricing call. Drives the stale-pricing indicator on the quote.|Empty. Modifiable by: System|
-|`txn.pricing.pricedAt`|Last Priced. Timestamp of the last successful pricing calculation for the transaction.|Empty. Modifiable by: System|
-
-The pricing context sent to the pricing service is identified by a custom field, `txn.custom.pricingContextId`, which stores the pricing context ID used to assemble and correlate a pricing call.
+|`txn.pricing.state`|Pricing State. Indicates whether the transaction's pricing is up-to-date or needs a reprice. Set to Needs reprice when a pricing-affecting field changes, and set to Up-to-date after a pricing call completes successfully. Drives the stale-pricing indicator on the quote.|Empty. Modifiable by: System|
+|`txn.pricing.lastPriced`|Last Priced. Timestamp of the most recent successful pricing call for the transaction.|Empty. Modifiable by: System|
 
 ## Approvals fields
 
@@ -147,8 +145,6 @@ The following field is installed when ServiceNow Sync Quote to Opportunity is en
 |Variable name|Description|Default value|
 |-------------|-----------|-------------|
 |`txn.opportunity.isSynced`|Indicates whether the quote is synced to the source opportunity.|Empty. Modifiable by: System|
-
-**Parent Topic:**[Quote transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-fields.md)
 
 **Related topics**  
 

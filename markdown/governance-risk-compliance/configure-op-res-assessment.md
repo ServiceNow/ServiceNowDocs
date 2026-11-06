@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-op-res-assessment.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a Smart Assessment template, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ Create your own questionnaire \(assessment\) template and request the responses 
 
 2.  To create an assessment template, click **New** as shown in the following example.
 
-    \[Omitted image "admin-assess-temp-new.png"\] Alt text: Risk assessment.
+    \[Omitted image "admin-assess-temp-new.png"\] Alt text: New risk assessment.
 
 3.  On the Assessment Metric Type form, fill in the fields and click **Submit**.
 

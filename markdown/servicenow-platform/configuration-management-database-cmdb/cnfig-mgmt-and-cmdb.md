@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -63,13 +63,13 @@ Some scenarios that involve related tables, can result in orphan or otherwise st
 
 ## Localization
 
-Using the Translated Text field type \(instead of string\) for attributes in CMDB tables, can reduce overall performance, including performance of features such as CMDB Health. This is because values in CMDB tables are dynamic and are likely to change often, and the data itself is likely to continuously grow. Using the Translated Text field also requires manual update of related text. The Translated Text field type is typically effective with static data that doesn't change and doesn't grow. For more information about field types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+Using the Translated Text field type \(instead of string\) for attributes in CMDB tables, can reduce overall performance, including performance of features such as CMDB Health. This is because values in CMDB tables are dynamic and are likely to change often, and the data itself is likely to continuously grow. Using the Translated Text field also requires manual update of related text. The Translated Text field type is typically effective with static data that doesn't change and doesn't grow. For more information about field types, see .
 
 ## Roles required
 
 Reading CMDB tables directly requires the cmdb\_read role, however accessing the **Configuration** module requires the sn\_cmdb\_editor, sn\_cmdb\_admin, asset, itil, or itil\_admin roles. For viewing CMDB-related records in the user interface, the sn\_cmdb\_editor or itil roles are usually sufficient. For updating records and for other manipulation of records, roles with higher credentials are usually required, as noted in each procedure throughout the documentation set.
 
-For details about CMDB and other roles, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_BaseSystemRoles.md), or see a feature components topic such as [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md).
+For details about CMDB and other roles, see , or see a feature components topic such as [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md).
 
 **Related topics**  
 

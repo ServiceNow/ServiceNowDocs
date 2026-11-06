@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Types of service catalog variables, Service catalog variables, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ This variable inserts a UI macro into the catalog item.
 
 UI macros in the service catalog do not support the following glide\_list functions: clickthrough, slushbucket editing, and email field.
 
--   Use [phase one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ExtensionsToJellySyntax.md) Jelly only for any UI macros added as variables. Phase two Jelly within the macro is not processed and appears on the page as standard content.
+-   Use phase one Jelly only for any UI macros added as variables. Phase two Jelly within the macro is not processed and appears on the page as standard content.
 -   This variable is not yet supported on Classic Mobile devices.
 -   This variable is supported in Service Portal through widgets. Create a widget with the same functionality as that of a macro and link the widget with the variable.
 

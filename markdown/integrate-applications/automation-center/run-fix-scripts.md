@@ -7,7 +7,7 @@ release: australia
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage automation requests, Kanban board, Explore, Automation Center, Workflow Data Fabric]
 ---

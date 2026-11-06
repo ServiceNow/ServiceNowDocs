@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Localization options for Virtual Agent, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Translate conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Prerequisites for using Dynamic Translation in Virtual Agent
@@ -26,12 +26,8 @@ Before you can [enable dynamic machine translation](https://raw.githubuserconten
 
     **Note:** Languages for Dynamic Translation are stored in the sys\_cs\_dynamic\_translation\_virtual\_agent table.
 
-3.  \(Optional\) [Enable NLU languages in Virtual Agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.md), if you are using NLU topic discovery.
-
-    **Note:** NLU detection and discovery values are stored in the sys\_cs\_general\_settings table. As of Vancouver, ServiceNow NLU is the available NLU driver.
-
-4.  \(Optional\) [Enable LLM languages in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md) if you are using ServiceNow Otto in Virtual Agent.
-5.  \(Optional\) Create exclusion rules for specific terms and content patterns within the [Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dyn-translation-exclusion-framework.md).
+3.  [Enable LLM languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).
+4.  Create exclusion rules for specific terms and content patterns within the [Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dyn-translation-exclusion-framework.md).
 
 The following translation service providers are pre-configured once the plugins are installed:
 
@@ -41,7 +37,7 @@ The following translation service providers are pre-configured once the plugins 
 
 ## Configuring other translation service providers
 
-**Note:** The following content is only relevant to NLU conversations and live agent LLM conversations that use Dynamic Translation for Agent Chat.
+**Note:** The following content is only relevant to live agent conversations that use Dynamic Translation for Agent Chat.
 
 You can configure any other translation service provider in the Dynamic Translation application as follows:
 
@@ -54,7 +50,5 @@ You can configure any other translation service provider in the Dynamic Translat
 
 ## Next step
 
-[Configure Dynamic Translation service integration credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-translation-srvc-integration-credentials.md)
-
-**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/multi-language-options-va.md)
+[\(Legacy\) Configure Dynamic Translation service integration credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/configure-translation-srvc-integration-credentials.md)
 

@@ -1,16 +1,16 @@
 ---
 title: Connect to a Git provider using OAuth 2.0
-description: Set up an OAuth 2.0 application registry and credentials to connect to your Git provider from ServiceNow Studio.Configure how the client ID and secret are sent to the OAuth 2.0 provider associated with your Git provider.Connect to a Git domain or repository using OAuth 2.0 credentials to manage applications in source control from the ServiceNow Studio.
+description: Set up an OAuth 2.0 application registry and credentials to connect to your Git provider from ServiceNow Studio.Configure how the client ID and secret are sent to the OAuth 2.0 provider associated with your Git provider.Connect to a Git domain or repository using OAuth 2.0 credentials to manage applications in source control from ServiceNow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-oauth-2-0.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-07-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
-keywords: [Oauth, ServiceNow Studio, Git provider, OAuth 2.0 credentials, pro-code development, servicenow studio]
-breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
+keywords: [Oauth, ServiceNow Studio, Git provider, OAuth 2.0 credentials, pro-code development, ServiceNow Studio]
+breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Connect to a Git provider using OAuth 2.0
@@ -25,11 +25,11 @@ Configure how the client ID and secret are sent to the OAuth 2.0 provider associ
 
 ### Before you begin
 
-Create an OAuth application with your Git provider and configure it to redirect to your instance. In this OAuth application, use your instance URL as the homepage URL and `https://<instance>/oauth_redirect.do` for the authorization callback URL. GitHub, GitLab, Bitbucket, and Azure Repos are supported by default.
+Create an OAuth application with your Git provider and configure it to redirect to your instance. In this OAuth application, use your instance URL as the homepage URL and `https://<instance>/oauth_redirect.do` for the authorization callback URL. The instance supports GitHub, GitLab, Bitbucket, and Azure Repos by default.
 
 Role required: admin
 
-**Important:** For Azure Repos, the maximum length of the **Client Secret** field must be updated to 2048 before you add the secret.
+**Important:** For Azure Repos, update the maximum length of the **Client Secret** field to 2048 before you add the secret.
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Tables**.
 2.  Filter the table by entering `oauth_entity` for the **Name** field.
@@ -45,11 +45,11 @@ To use OAuth 2.0 authentication with ServiceNow Studio, you must register the OA
 
 1.  Navigate to **All** &gt; **System OAuth** &gt; **Application Registry**.
 
-2.  Select **New**.
+2.  Select **New** to open the interceptor page.
 
-3.  On the interceptor page, select **Connect to a third-party OAuth provider**.
+3.  On the interceptor page, select **Connect to a third-party OAuth provider** to open the Application Registries form.
 
-4.  On the form, fill in the fields.
+4.  On the form, fill in the fields to register your Git provider's OAuth application.
 
     For additional information about fields on the form, see [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connect-3rd-party-oauth-provider.md).
 
@@ -188,16 +188,16 @@ Method in which the OAuth client populates the client credentials in the request
 
 
 </td></tr></tbody>
-</table>5.  Select **Submit**.
+</table>5.  Select **Submit** to save the application registry.
 
 
 ### What to do next
 
-[Configure OAuth 2.0 credentials to connect to a Git provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-oauth-2-0.md)
+After you register the OAuth application, connect your credentials to Git. For more information, see [Configure OAuth 2.0 credentials to connect to a Git provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-oauth-2-0.md).
 
 ## Configure OAuth 2.0 credentials to connect to a Git provider
 
-Connect to a Git domain or repository using OAuth 2.0 credentials to manage applications in source control from the ServiceNow Studio.
+Connect to a Git domain or repository using OAuth 2.0 credentials to manage applications in source control from ServiceNow Studio.
 
 ### Before you begin
 
@@ -216,9 +216,9 @@ Role required: admin
     -   Mac: Cmd-Shift-P
 3.  Enter `Git: Set IDE Git credentials` and press Enter.
 
-4.  From the New Git credential form, select **OAuth**.
+4.  From the New Git credential form, select **OAuth** to authenticate with an OAuth 2.0 profile.
 
-5.  On the form, fill in the fields.
+5.  On the form, fill in the fields to identify your repository and OAuth profile.
 
 <table id="table_dnr_vhy_ckc"><thead><tr><th>
 
@@ -242,7 +242,7 @@ Git username
 
 </td><td>
 
-Git username.
+Your user name for the Git provider.
 
 </td></tr><tr><td>
 
@@ -250,7 +250,7 @@ Select an OAuth profile
 
 </td><td>
 
-OAuth 2.0 credentials from your Git provider.The OAuth profile is created with the application registry, which must be configured by an administrator.
+OAuth 2.0 credentials from your Git provider.An administrator creates the OAuth profile when configuring the application registry.
 
 </td></tr><tr><td>
 
@@ -263,16 +263,16 @@ Option to use the credentials for all repositories in the Git domain associated 
 </td></tr></tbody>
 </table>6.  Select **Submit**.
 
-    The first time you use a Git command, you're prompted to authorize your user from the Git provider.
+    The first time you use a Git command, a prompt asks you to authorize your user from the Git provider.
 
 
 ### Result
 
-Your Git credentials are associated with your user on the instance and used for all repositories in the domain from the Git repository URL. If you add different credentials for a repository in the same domain, the new credentials are used and the previous credentials are set to inactive.
+The instance associates your Git credentials with your user and uses them for all repositories in the domain from the Git repository URL. If you add different credentials for a repository in the same domain, the instance uses the new credentials and sets the previous credentials to inactive.
 
 ### What to do next
 
-After initializing or cloning a repository, you can begin using source control. For more information, see [Using Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-using-fluent-source-control.md).
+After you initialize or clone a repository, you can begin using source control. For more information, see [Using Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-using-fluent-source-control.md).
 
 To manage existing Git credentials, use the `Git: Manage Git credentials` command from the command palette.
 

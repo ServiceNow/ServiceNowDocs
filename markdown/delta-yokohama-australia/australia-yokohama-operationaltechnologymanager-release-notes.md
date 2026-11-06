@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-operationaltechnologymanager-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 20
+last_updated: "2026-11-06"
+reading_time_minutes: 19
 breadcrumb: [Products combined by family]
 ---
 
@@ -150,16 +150,6 @@ Zurich
 Enhanced Access Control for OT implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
 
 
- -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=zurich&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
  -   **[Operational Technology Network Map](https://www.servicenow.com/docs/access?context=utilizing-ot-network-map&family=zurich&ft:locale=en-US)**
 
 Use the OT network map available in the Industrial Workspace to view the subnets of a site and the OT devices in each subnet.
@@ -223,7 +213,7 @@ Australia
 
 -   **[Now LLM Service](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US) deprecation**
 
-Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 
  -   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
@@ -882,6 +872,8 @@ ServiceNow Otto introduced AI on the platform. As that experience has evolved, t
 -   Keep your OT device data updated by using the Configuration Management Database \(CMDB\) OT class model updates and UI enhancements.
 
  See for [Operational Technology Manager](https://www.servicenow.com/docs/access?context=operational-technology-manager&family=australia&ft:locale=en-US) more information.
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)

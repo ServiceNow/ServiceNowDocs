@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Search widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -28,7 +28,7 @@ To see which facets you've selected, view the pills in the Filters panel. If you
 
 You can initiate a new search by entering a new search term in the typeahead search box. After you enter the new search term, the system clears your facet filter selections from the previous search. You can refine your new search by selecting new facet filters.
 
-For more information on configuring the available facets, see Create a facet in an AI Search application configuration.
+For more information on configuring the available facets, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-facet-ais.md).
 
 ## Instance options
 

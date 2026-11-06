@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-12-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [3E Protect, 3E, Integration with third-party services, Health and Safety, Employee Service Management]
 ---

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-360-view-reco-actions.html
 release: australia
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [recommended actions, success play, Engagement records, contextual side panel]
 breadcrumb: [Engagement home page, Manage engagements, Customer success, Use, Customer Success Management]
@@ -17,11 +17,11 @@ Open the **Recommendations** panel from an engagement record to review AI-genera
 
 ## Before you begin
 
--   Role required: `sn_customerservice_agent`
+-   Role required: `sn_acct_lc.customer_success_agent`
 -   The following plugins must be installed:
     -   Technology Account Management Experiences \(sn\_tech\_exp\)
     -   ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) \(sn\_tmt\_gen\_ai\)
--   The Event-Context Candidate Recommender skill must be activated.
+-   The Event-Context Candidate Recommender skill must be activated. See  for details.
 
 ## About this task
 
@@ -29,7 +29,7 @@ The Recommendations panel appears in the contextual side panel of an engagement 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the **List** menu.
 
@@ -64,9 +64,6 @@ Recommendations for an account are cached after the first load. You don't need t
 -   You want to clear stale recommendations before a customer engagement.
 
 To request fresh recommendations, select **Refresh** on the account overview to update the account insights.
-
--   **[Recommended actions roles and tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-360-reco-actions-reference.md)**  
-The Recommended actions feature includes the following roles and tables.
 
 **Parent Topic:**[Engagement home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-view-engage.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [log correlators, alert correlation, related alerts, free text correlators, log property correlators, log metadata analysis, correlated alerts, log source analysis, alert relationships]
 breadcrumb: [Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_MailScriptAPI.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scripting for email notifications, Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -78,7 +78,7 @@ The email address that is passed by `setFrom` and `setReplyTo` needs to be in a 
 **Related topics**  
 
 
-[Include mail scripts in email notifications]()
+[JavaScript in emails]()
 
 [Example scripting for email notifications]()
 

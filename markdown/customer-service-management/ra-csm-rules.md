@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-rules.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -13,6 +13,8 @@ breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement I
 # Rules in Recommended Actions
 
 A rule is a set of conditions that applies to a context. A rule shows recommendations to agents with certain roles for records that meet certain conditions.
+
+\[Omitted image "ra-rule.png"\] Alt text: Rule form in Recommended actions
 
 Creating a rule includes the following steps:
 
@@ -27,7 +29,7 @@ The Recommended Actions application includes one context record, case context, t
 
 ## Apply rules to tables extended from the context table
 
-A rule created in the parent context is inherited by the extended context when you select the [Apply to tables extended from the context table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-rules.md) check box in a rule. The rules inherited from the parent context appear in the Inherited Rules related list of the extended context. Therefore, the recommendations of these rules are passed on to the extended context. Along with the recommendations of the context table, the recommendations of the active rules from the parent context are inherited by the extended context.
+The rule created in the parent context are inherited by the extended context when you select the [Apply to tables extended from the context table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-rules.md) check box in a rule. The rules inherited from the parent context appear in the Inherited Rules related list of the extended context. Therefore, the recommendations of these rules are passed on to the extended context. Along with the recommendations of the context table, the recommendations of the active rules from the parent context are inherited by the extended context.
 
 ## Rule form
 

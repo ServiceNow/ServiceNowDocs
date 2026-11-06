@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MID Server profile tables, MID Server profile configuration data, wrapper configuration parameters]
 breadcrumb: [MID Server profiles, Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]

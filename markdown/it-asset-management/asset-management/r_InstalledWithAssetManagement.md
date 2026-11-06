@@ -1,20 +1,20 @@
 ---
 title: Installed with Base Asset Management
-description: Several tables, user roles, UI policies, script includes, client scripts, and business rules are installed with Base Asset Management.
+description: Several tables, user roles, UI policies, script includes, client scripts, and business rules are installed with Asset Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/r\_InstalledWithAssetManagement.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Installed with Base Asset Management
 
-Several tables, user roles, UI policies, script includes, client scripts, and business rules are installed with Base Asset Management.
+Several tables, user roles, UI policies, script includes, client scripts, and business rules are installed with Asset Management.
 
 Demo data is available with asset management. The demo data provides information such as users, assets, and individual stockrooms.
 
@@ -243,7 +243,7 @@ sam
 
 <table id="table_rrq_kzw_h3c"><thead><tr><th>
 
-Base Asset Management functionality
+Asset Management functionality
 
 </th><th>
 
@@ -350,7 +350,7 @@ contract\_system\_admin
 
 </td></tr><tr><td>
 
-Base Asset Management system properties
+Asset Management system properties
 
 </td><td>
 
@@ -1355,4 +1355,5 @@ Default Stockroom \[alm\_user\_stockroom\]
 Verifies that the selected default stockroom isn’t of the Field Agent type.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/references-asset-management.md)
+

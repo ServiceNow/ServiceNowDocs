@@ -7,7 +7,7 @@ release: australia
 product: Legal Content Review
 classification: legal-content-review
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Requests, Legal Content Review, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -48,15 +48,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 9.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d131284e157">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d131382e157">
 
 Option
 
-</th><th align="left" id="d131284e160">
+</th><th align="left" id="d131382e160">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d131284e166">
+</th></tr></thead><tbody><tr><td id="d131382e166">
 
 **If the Attachments tab is visible**
 
@@ -67,7 +67,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d131284e205">
+</td></tr><tr><td id="d131382e205">
 
 **If the Documents tab is visible**
 

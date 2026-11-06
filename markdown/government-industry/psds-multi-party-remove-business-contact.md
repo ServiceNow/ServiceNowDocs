@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Edit or remove a business contact or related party, Edit contacts for a License and Permit application]
-breadcrumb: [Using License and Permit Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Manage a business contact or related party from an Application
@@ -21,7 +21,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ## Procedure
 
-1.  Open the License and Permit Playbook by navigating to Lists in the CRM Workspace.
+1.  Open the License and Permit Administration by navigating to Lists in the Public Sector Workspace.
 
 2.  Navigate to the **License and Permit Requests** list and select **All**.
 
@@ -29,7 +29,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
     **Note:** Related parties can only be edited if the case is in the **Intake** or **Review** stage.
 
-4.  Navigate to the **Add related parties** activity in the Intake stage of License and Permit Playbook.
+4.  Navigate to the **Add related parties** activity in the Intake stage of License and Permit Administration.
 
 5.  Select the delete icon \[Omitted image "psds-lpr-trash-icon.png"\] Alt text: delete icon next to the business contact you want to delete, or the edit icon \[Omitted image "edit-icon.png"\] Alt text: edit icon next to the business contact you want to edit.
 

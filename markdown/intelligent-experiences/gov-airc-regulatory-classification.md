@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-05"
 reading_time_minutes: 4
 keywords: [regulatory risk classification, automated risk classification, Use and purpose, AI Risk and Compliance]
-breadcrumb: [Reviewing regulatory classification and compliance status, Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reviewing regulatory classification and compliance status, Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Classifying AI assets by regulatory risk

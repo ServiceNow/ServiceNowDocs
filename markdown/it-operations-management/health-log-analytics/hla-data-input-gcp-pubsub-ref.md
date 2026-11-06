@@ -7,16 +7,14 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # GCP PubSub data input configuration fields
 
 Description of the fields on the GCP PubSub data input configuration form.
-
-## Basic configuration
 
 <table id="table_c5d_gpc_lvb"><thead><tr><th>
 
@@ -36,13 +34,11 @@ Name of the new data input. This field is required.
 
 </td></tr><tr><td>
 
-Port
+Description
 
 </td><td>
 
-The port for the MID Server. Select a unique port from the array. The placeholder shows the range of ports from which to choose. Make sure that your organization’s security team opens the selected port.
-
-This field is required.
+Optional description of the data input.
 
 </td></tr><tr><td>
 
@@ -50,7 +46,7 @@ Execute on
 
 </td><td>
 
-Option to select whether to use a specific MID Server or a MID Server cluster. This field is required.
+Option to select whether to use a specific MID Server or a specific MID Server cluster. This field is required.
 
 </td></tr><tr><td>
 
@@ -60,13 +56,10 @@ MID
 
 \(Only when the **Execute on** field is set to Specific MID Server\)
 
-The MID Server to which the logs are streamed. **Note:**
+The MID Server to which the logs are streamed. This field is required.**Note:**
 
--   You can select only MID Servers with log ingestion capability that support basic authentication. MID Servers that support mTLS are not listed.
--   The default maximum number of data inputs streaming logs to a single MID Server is 10. You can modify this number in the MID Server properties.
 -   If log ingestion is not enabled for the selected MID Server, Health Log Analytics enables it automatically.
-
-This field is required.
+-   The default maximum number of data inputs streaming logs to a single MID Server is 10. You can modify this number in the MID Server properties.
 
 </td></tr><tr><td>
 
@@ -92,18 +85,19 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [Create an service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data. This field is required.Selecting the service instance enables HLA to correlate CIs and service instances in the CMDB for root cause analysis.
+
+**Note:** If no appropriate service instance exists, create one, add CIs to it, and set its status to Operational. For more information, see [Create a Service instance \(application service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md).
 
 </td></tr></tbody>
-</table>The fields in the following table show read-only information.
-
-|Field|Description|
+</table>|Field|Description|
 |-----|-----------|
-|Transport|Protocol used to send the log data: PubSub.|
-|Sources count|The number of log sources this data input has created.|
-|Status|Status of the data input.|
-|Disabled since|The time when the data input stopped or failed.|
-|Last log time|The time when the last log streamed in the data input.|
+|Transport|Protocol used to send the log data: PubSub. This field is read-only.|
+|Sources count|The number of log sources this data input has created. This field is read-only.|
+|Status|Status of the data input. This field is read-only.|
+|Disabled since|The time when the data input stopped or failed. This field is read-only.|
+|MID last receiving time|The time when the last log streamed in the data input.|
+|Advanced|Option to display the **Advanced** tab for advanced configuration.|
 
 <table id="table_irj_gqc_lvb"><thead><tr><th>
 
@@ -119,7 +113,7 @@ Project ID
 
 </td><td>
 
-The project ID of the Google Cloud project. For example, my-project-id.
+The project ID of the Google Cloud project. For example, my-project-id. This field is required.
 
 </td></tr><tr><td>
 
@@ -127,17 +121,17 @@ Topic Name
 
 </td><td>
 
-The Google Cloud Pub/Sub topic to which to subscribe Health Log Analytics. For example, my\_topic.
+The Google Cloud Pub/Sub topic to which to subscribe Health Log Analytics. For example, my\_topic. This field is required.
 
 </td></tr><tr><td>
 
-GCP Credential Alias
+Google Cloud Credential Alias
 
 </td><td>
 
-The credential alias to be used. Select the magnifying glass icon to specify a GCP credential alias. Select an existing credential alias from the **Connection &amp; Credential Aliases** list, or select **New** to create a new record. The default is sn\_occ.HLA\_Credential\_Alias.
+The credential alias to be used. This field is required.Specify one GCP credential alias by selecting the magnifying glass icon. Select an existing credential alias from the **Connection &amp; Credential Aliases** list, or select **New** to create a new record. The default is sn\_occ.HLA\_Credential\_Alias.
 
- For information about creating a credential alias, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md).
+For information about creating a credential alias, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md).
 
 </td></tr><tr><td>
 
@@ -145,19 +139,17 @@ Subscription Name
 
 </td><td>
 
-The subscription Health Log Analytics uses to receive log data that is published on the Google Cloud Pub/Sub topic.If you leave this field blank, Health Log Analytics uses ServiceNow-Subscription.
+The subscription Health Log Analytics uses to receive log data that is published on the Google Cloud Pub/Sub topic.If you leave this field empty, Health Log Analytics uses ServiceNow-Subscription.
 
 </td></tr></tbody>
-</table>## Advanced configuration
-
-|Field|Description|Default value|
+</table>|Field|Description|Default value|
 |-----|-----------|-------------|
 |Subscriber Thread Pool Size|The number of concurrent threads that are downloading files from the Google Cloud Pub/Sub topic.|1|
-|Default timezone|The default time zone of events. The system uses this default when the log does not specify a time zone.|GMT|
+|Default timezone|The default time zone used when a log doesn't include time zone information.|GMT|
 |Max length in bytes|The maximum length of log messages, in bytes.|32,766|
-|Character encoding|\(Read-only\) The character encoding for this data input.|UTF-8|
-|Sub sample drop ratio|The ratio of events to drop.|-1|
-|Sub sample receive ratio|The ratio of events to receive.|-1|
+|Character encoding|The character encoding for this data input. This field is read-only.|UTF-8|
+|Sub sample drop ratio|The number of events to batch together, out of which one will be discarded. This setting is used to reduce the number of fetched events.|-1|
+|Sub sample receive ratio|The number of events to batch together, out of which all but one will be discarded. This setting is used to decrease the number of received events.|-1|
 |Rate limit|The maximum number of events per second that this data input processes.|-1|
 |Drop if queue is full|Option to discard logs if many processes are waiting in the queue to access the MID Server.|Clear|
 

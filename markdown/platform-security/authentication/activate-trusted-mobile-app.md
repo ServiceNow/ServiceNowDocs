@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Adaptive authentication for Trusted Mobile apps, Adaptive authentication, Authentication, Access Management]
+breadcrumb: [Adaptive authentication for Trusted mobile apps, Adaptive authentication, Authentication, Access Management]
 ---
 
 # Activate Trusted Mobile app
@@ -48,9 +48,9 @@ Role required: adaptive\_auth\_admin
 
     \[Omitted image "trusted-device-filter.png"\] Alt text: Auth Policy Context
 
-5.  In the Policy Conditions, create the condition by clicking **New**.
+5.  In the Policy Conditions, create the condition by selecting **New**.
 
-6.  On the form, fill the fields.
+6.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -61,7 +61,7 @@ Role required: adaptive\_auth\_admin
 
     \[Omitted image "filter-condition.png"\] Alt text: Condition
 
-7.  Click **Submit**.
+7.  Select **Submit**.
 
 
 ## Result

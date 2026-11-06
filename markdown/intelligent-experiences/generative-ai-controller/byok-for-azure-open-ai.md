@@ -7,9 +7,9 @@ release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: concept
-last_updated: "2026-01-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Bring your own key for third-party AI provider integration
@@ -27,7 +27,7 @@ BYOK supports the same AI models that the ServiceNow AI Platform supports. After
 BYOK supports the following cloud AI providers:
 
 -   Azure OpenAI
--   Anthropic Claude on AWS, which is accessible through Amazon Bedrock
+-   Anthropic Claude, which is accessible through Amazon Bedrock
 -   Google Gemini
 
 ## Configuring a BYOK connection with a cloud AI provider

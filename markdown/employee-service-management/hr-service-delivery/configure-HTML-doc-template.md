@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Document Templates of type HTML, Configuring Document Templates, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Create or modify the document template with your unique company logo and audienc
 
 ## Before you begin
 
-Role required: sn\_doc.admin and Delegated developer
+Role required: sn\_hr\_core.admin and Delegated developer
 
 ## About this task
 

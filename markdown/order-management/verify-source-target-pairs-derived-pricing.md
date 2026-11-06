@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/verify-source-target-pairs-derived-pricing.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Derived product pricing, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring derived pricing, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Using the DerivedProductPriceExtensionPoint

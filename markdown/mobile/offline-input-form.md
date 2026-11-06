@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/offline-input-form.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -57,6 +57,8 @@ When the device is online, the data source retrieves information directly from t
 
     If a form uses a data source to populate the Location field based on the selected work order, the same data source logic is applied in offline mode, provided that the work order and location tables were included in the offline payload.
 
+
+If a form uses a data source to populate the **Location** field based on the selected work order, the same data source logic is applied in offline mode, provided that the work order and location tables were included in the offline payload.
 
 ## Save progress in offline mode
 

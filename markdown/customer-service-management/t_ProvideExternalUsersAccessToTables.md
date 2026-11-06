@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_ProvideExternalUsersAccessToTables.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Roles installed with Customer Service Management, Components installed with Customer Service Management, Reference, Customer Service Management]
 ---

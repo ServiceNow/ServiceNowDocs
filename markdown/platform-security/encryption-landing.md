@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/encryption-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 ---
 
@@ -29,7 +29,7 @@ Protect your sensitive data and stay compliant with regulatory  requirements a
 
 [Field Encryption Enterprise\[Omitted image "bus-security.svg"\] Alt text: Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/field-encryption.md)
 
- [Use Field Encryption to permit and deny access to encrypted data based on user role. Field Encryption includes basic key management using encryption modules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/field-encryption.md)
+ [Use Field Encryption Enterprise to permit and deny access to encrypted data based on user role. Field Encryption includes basic key management using encryption modules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/field-encryption.md)
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ Protect your sensitive data and stay compliant with regulatory  requirements a
 
 [Certificates\[Omitted image "bus-get-certified.svg"\] Alt text: Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_Certificates.md)
 
- [Use certificates to establish secure connections and validate signatures.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_Certificates.md)
+ [Use Certificates to establish secure connections and validate signatures.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_Certificates.md)
 
 </td><td>
 
@@ -70,6 +70,8 @@ Protect your sensitive data and stay compliant with regulatory  requirements a
 </td></tr></tbody>
 </table>-   **[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/encryption.md)**  
 Use the Key Management Framework \(KMF\) to generate, exchange, store, use, and replace the cryptographic keys used to encrypt and decrypt sensitive data on your ServiceNow instance.
+-   **[Unified Secrets Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/usg-landing.md)**  
+Secure secrets on your instance from unauthorized access using Unified Secrets Gateway.
 -   **[Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/c_Certificates.md)**  
 Your instance requires certificates to establish secure connections and validate signatures.
 -   **[Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/field-encryption.md)**  
@@ -81,7 +83,7 @@ ServiceNow® Cloud Encryption offers encrypted storage for the database using bl
 -   **[Full disk encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/full-disk-encryption.md)**  
 Full disk encryption \(FDE\) applies encryption to the entire storage system within the database server only, because this is the only customer data-storing component. FDE protects only against physical loss or theft of storage devices. When encrypted disk servers are powered on and providing data, the encryption provides no additional protection.
 -   **[Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/edge-encryption.md)**  
-ServiceNow® Edge Encryption ™ encrypts sensitive data on your company premises before sending it over the Internet to your ServiceNow instance \(encrypted in flight\), where it remains encrypted at rest.
+ServiceNow® Edge Encryption ™ encrypts sensitive data on your company premises before sending it over the internet to your ServiceNow instance. Data is encrypted in flight and remains encrypted at rest.
 -   **[Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md)**  
 ServiceNow® offers database encryption \(DBE\) and full-disk encryption methods for customers with statutory obligations for data protection which may require at-rest protection for all data.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-09-28"
 reading_time_minutes: 4
-breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Service Model Foundation overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Service Model Foundation data model
@@ -32,7 +32,7 @@ The following entity-relationship diagram \(ERD\) shows the tables and their rel
 
 \[Omitted image "smf-data-model.png"\] Alt text: Entity relationship diagram showing how service organizations connect to internal and external organizations and outsourced service providers, each linked to employees or staff.
 
-This ERD illustrates the structural relationships among business organizations \(formerly business locations\), and staff or employees within the Service Model Foundation. A service organization manages multiple internal organizations, external organizations, and outsourced service providers \(OSP\), each associated with its own workforce, that is employees or external staff, who perform service activities.
+This ERD illustrates the structural relationships among service organizations, business locations, and staff or employees within the Service Model Foundation. A service organization manages multiple internal organizations, external organizations, and outsourced service providers \(OSP\), each associated with its own workforce, that is employees or external staff, who perform service activities.
 
 The model differentiates internal versus external service and sales delivery contexts while maintaining a unified link through the sys\_user and external organization staff \(formerly service organization external staff\) tables. It provides the foundation for access control, visibility, and data consistency across all Service Model Foundation entities.
 

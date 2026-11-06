@@ -1,5 +1,5 @@
 ---
-title: Configure Coaching in Workforce Optimization for HR
+title: Setting up Coaching in Workforce Optimization for HR
 description: Manage agent skills and assess the quality of completed tasks. Use predictive intelligence to recommend skills for agents. Train your agents with internal and external learning content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/setup-coaching-wfo-hr.html
@@ -7,12 +7,12 @@ release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
-# Configure Coaching in Workforce Optimization for HR
+# Setting up Coaching in Workforce Optimization for HR
 
 Manage agent skills and assess the quality of completed tasks. Use predictive intelligence to recommend skills for agents. Train your agents with internal and external learning content.
 
@@ -32,9 +32,9 @@ Add list or list categories to modify the list menu for Coaching with Learning i
 
 [Workforce Optimization for HR Domain Separation]()
 
-[Configure Scheduling for Workforce Optimization for HR]()
+[Setting up Scheduling for Workforce Optimization for HR]()
 
-[Configure Teams in Workforce Optimization for HR]()
+[Setting up Teams in Workforce Optimization for HR]()
 
 [Setting up Demand Forecast in Workforce Optimization for HR]()
 

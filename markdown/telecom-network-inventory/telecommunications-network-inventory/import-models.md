@@ -7,9 +7,9 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Import models and templates, Use, Telecommunications Network Inventory]
+breadcrumb: [Import Models and Templates, Use, Telecommunications Network Inventory]
 ---
 
 # Import a model
@@ -75,7 +75,9 @@ Select **Attach File** to attach the import model file.**Note:**
 
 
 </td></tr></tbody>
-</table>6.  Download the demo data and model template by selecting **Create Excel Template**.\[Omitted image "Import\_template.png"\] Alt text: Downloaded excel template to import models.
+</table>6.  Download the demo data and model template by selecting **Create Excel Template**.
+
+    \[Omitted image "Import\_template.png"\] Alt text: Downloaded excel template to import models.
 
     -   The excel template is created based on the Import model template \[sn\_ni\_adv\_import\_model\_template\] table. An admin can customize the template and update it as required.
     -   The following relationship types are supported for import models.
@@ -106,5 +108,5 @@ The **Import Results** tab appears next to the **Details** tab where you can vie
 -   Redirect to the generated model from **Import Results** tab.
 -   Delete a record. To learn more, see [Delete a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/delete-inventory-record.md).
 
-**Parent Topic:**[Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
+**Parent Topic:**[Import Models and Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
 

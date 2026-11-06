@@ -7,7 +7,7 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [create list, My lists, Collaborative Work Management]
 breadcrumb: [Manage lists in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -35,15 +35,15 @@ Role required: sn\_cwm.cwm\_user
 
 5.  Create a version of an existing list or define a new list.
 
-<table id="choicetable_vn1_4m3_jkc"><thead><tr><th align="left" id="d330987e130">
+<table id="choicetable_vn1_4m3_jkc"><thead><tr><th align="left" id="d343337e130">
 
 Goal
 
-</th><th align="left" id="d330987e133">
+</th><th align="left" id="d343337e133">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d330987e139">
+</th></tr></thead><tbody><tr><td id="d343337e139">
 
 **Create a version of an existing list**
 
@@ -55,7 +55,7 @@ Action
 4.  Add filter conditions that determine which records appear in the list.
 
 
-</td></tr><tr><td id="d330987e163">
+</td></tr><tr><td id="d343337e163">
 
 **Define a new list**
 

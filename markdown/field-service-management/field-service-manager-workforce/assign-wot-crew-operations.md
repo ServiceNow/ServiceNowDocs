@@ -7,7 +7,7 @@ release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Crew operations, Managing workforce, Use, Field Service Management]
 ---
@@ -53,15 +53,15 @@ Task assignment methods:
 
 5.  Assign the task either manually or through auto-assignment.
 
-<table id="choicetable_urr_4n2_yrb"><thead><tr><th align="left" id="d44788e150">
+<table id="choicetable_urr_4n2_yrb"><thead><tr><th align="left" id="d46125e150">
 
 Option
 
-</th><th align="left" id="d44788e153">
+</th><th align="left" id="d46125e153">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d44788e159">
+</th></tr></thead><tbody><tr><td id="d46125e159">
 
 **To assign a task manually**
 
@@ -71,7 +71,7 @@ Description
 2.  Select **Update**.
 
 
-</td></tr><tr><td id="d44788e183">
+</td></tr><tr><td id="d46125e183">
 
 **To auto-assign a task**
 

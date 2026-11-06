@@ -7,8 +7,8 @@ release: australia
 product: Security Center
 classification: security-center
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Security Event Notifications, Security monitoring console, Security Center, Platform Security]
 ---
 
@@ -85,7 +85,7 @@ You can remove a notification by selecting **Remove notification**.
 
 
 -   **[Create a custom email for security event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/create-custom-email-for-security-event-notifications.md)**  
-Create a custom email for security event notifications to configure triggers, define recipients, and craft email content with dynamic event fields.
+Learn how for creating a custom email for security event notifications by configuring new notifications, setting triggers, defining recipients, and crafting email content with dynamic event fields.
 
 **Parent Topic:**[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-policies.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]

@@ -1,20 +1,20 @@
 ---
 title: Activate Change Management - Change Models
-description: You can activate the Change Management - Change Model Foundation Data plugin \(com.snc.change\_management.change\_model.foundation\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+description: Activate the Change Management - Change Model Foundation Data plugin \(com.snc.change\_management.change\_model.foundation\) with the admin role. It includes demo data and activates related plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/activate-change-models.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Activate Change Management - Change Models
 
-You can activate the Change Management - Change Model Foundation Data plugin \(com.snc.change\_management.change\_model.foundation\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Change Management - Change Model Foundation Data plugin \(com.snc.change\_management.change\_model.foundation\) with the admin role. It includes demo data and activates related plugins.
 
 ## Before you begin
 
@@ -40,7 +40,7 @@ Role required: admin
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -60,11 +60,11 @@ Role required: admin
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -72,13 +72,13 @@ Role required: admin
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
 [Activate Change Management - Change Velocity dashboard]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 

@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring ACC with a MID Server, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ The Agent Client Collector automatic MID Server selection feature set is disable
 
 Automatic MID Server selection provides several benefits. [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureCapabilities.md) can narrow the list of MID Servers an agent can potential connect to. Automatic MID Server selection keeps the back-end URL configuration list up to date on the agent host without additional work flows.
 
-When automatic MID Server selection is enabled, the agent performs a connectivity test against the list of available MID Servers and determines the best connection based on latency and number of currently connected agents.
+When automatic MID Server selection is enabled, the agent performs a connectivity test against the list of available MID Servers. The agent then determines the best connection based on latency and number of currently connected agents.
 
 However, there are several additional considerations that may make automatic MID Server selection wrong for your use case.
 
@@ -43,7 +43,7 @@ When an agent detects that its IP address has changed, it automatically connects
 To secure communication between the MID Server and the agent, use the MID Server's unified key store. For details on using the MID Server unified key store, see [MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-unified-keystore.md).
 
 -   **[Enable automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-disable-auto-mid-selection.md)**  
-Enabling automatic MID Server selection lets the agent perform a connectivity test against the list of available MID Servers and determine the best connection based on latency and number of currently connected agents. Automatic MID Server selection is disabled by default.
+Enabling automatic MID Server selection lets the agent perform a connectivity test against the list of available MID Servers. The agent then determines the best connection based on latency and number of currently connected agents. Automatic MID Server selection is disabled by default.
 -   **[Configure the Agent Client Collector capabilities for MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/configure-acc-capability.md)**  
 Configure the MID Servers with Agent Client Collector capabilities to enable the MID Servers to work with agents. Agents that have identical MID Server capabilities are eligible for automatic MID Server selection.
 -   **[Configure the automatic MID Server selection based on the Agent Client Collector capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/configure-auto-mid-eligibility-by-capability.md)**  

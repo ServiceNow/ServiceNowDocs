@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -27,15 +27,15 @@ The Create and Assign Range/Single Number function enables you to create the inv
 -   **[Create Logical Interface function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-logical-interface-action.md)**  
 The Create Logical Interface function enables you to create logical interfaces in the Telecommunications Network Inventory application.
 -   **[Create Logical Connection function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-action.md)**  
-The Create Logical Connection function enables you to create a logical connection record in the Telecommunications Network Inventory application based on the input \(interfaces\) that you receive when you instantiate an inventory.
+The Create Logical Connection function enables you to create a logical connection record in the Telecommunications Network Inventory application. The record is based on the input \(interfaces\) that you receive when you instantiate an inventory.
 -   **[Create Physical Connection function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-physical-connection-action.md)**  
-The Create Physical Connection function enables you to create a physical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
+The Create Physical Connection function enables you to create a physical connection record in the Telecommunications Network Inventory application. The record is based on the input that you receive when you instantiate an inventory.
 -   **[Create IP subnetwork function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_ip_subnetwork.md)**  
 
 -   **[CIDR to IP range function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/cidr_to_ip_range.md)**  
-Classless Inter-Domain Range \(CIDR\) to IP range flow action enables you to create a set of IP addresses using the Classless Inter-Domain Range \(CIDR\) using Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
+Classless Inter-Domain Range \(CIDR\) to IP range flow action enables you to create a set of IP addresses using the Classless Inter-Domain Range \(CIDR\) in the Telecommunications Network Inventory application. The addresses are based on the input that you receive when you instantiate an inventory.
 -   **[Get Interface Summary function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/get-interface-summary-action.md)**  
-The Get Interface Summary function enables you to retrieve all the network interface records that are associated with the input. You can use this function to automatically get the details of the available interface, connected interface, and the physical connection of the equipment in the Telecommunications Network Inventory application when you use Workflow Studio.
+The Get Interface Summary function enables you to retrieve all the network interface records that are associated with the input. You can use this function to automatically get the details of the available interface, connected interface, and the physical connection of the equipment in the Telecommunications Network Inventory application. Use this when you use Workflow Studio.
 -   **[Lookup Next Hub function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/lookup-next-hub-action.md)**  
 The Lookup Next Hub function enables you to take the network interface record as input and return the details of the related physical connection record. You can automatically get the details of the physical connection and interconnected ports of the equipment in the Telecommunications Network Inventory application when you use the Workflow Studio application.
 -   **[Path Search function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/path-compute-action.md)**  

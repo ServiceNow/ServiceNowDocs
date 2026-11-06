@@ -7,9 +7,9 @@ release: australia
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2025-12-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Skills in the Platform workflow, Skills, AI assets, Enable AI experiences]
+breadcrumb: [Skills in the Platform workflow, Skills, Generative AI skills, Enable AI Experiences]
 ---
 
 # Potential knowledge gaps

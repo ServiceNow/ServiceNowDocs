@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/interaction-wrapup-modeless-dialog.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -39,7 +39,7 @@ Admins can set and manage wrap-up time limits for voice and chat interactions an
 
 ## Wrap-up codes
 
-Wrap-up codes provide information about how an interaction was resolved. Agents can select a wrap-up code when wrapping up an interaction in CSM Configurable Workspace. When wrap-up codes are enabled, agents can select a code from the configured list in the wrap-up modeless dialog.
+Wrap-up codes provide information about how an interaction was resolved. Agents can select a wrap-up code when wrapping up an interaction in CRM Workspace. When wrap-up codes are enabled, agents can select a code from the configured list in the wrap-up modeless dialog.
 
 System administrators can create wrap-up codes. From the Interaction Wrap Up Configuration record, system administrators can also do the following:
 
@@ -160,7 +160,7 @@ Interaction wrap-up segment records are stored in the Interaction Wrap Up Segmen
 
 ## My Wrap Ups list
 
-The My Wrap Ups list displays a list of all wrap-up records for the current user. To access this list in the Lists tab, navigate to **Interactions** &gt; **My Wrap Ups**. This list view includes a link to the interaction record, the wrap-up state \(In progress or Complete, and the wrap-up code and notes.
+The My Wrap Ups list displays a list of all wrap-up records for the current user. To access this list in the Lists tab, navigate to **Interactions** &gt; **My Wrap Ups**. This list view includes a link to the interaction record, the wrap-up state \(In progress or Complete, and the wrap-up code and notes\).
 
 The following roles have access to the My Wrap Ups list:
 
@@ -184,14 +184,14 @@ The CSM Interaction record page and the CSM voice interaction record page includ
 
 To edit this property:
 
-1.  In UI Builder, select the CSM/FSM Configurable Workspace experience.
+1.  In UI Builder, select the CRM Workspace experience.
 2.  Select the CSM Interaction record page.
 3.  In the Data and scripts section on the left side, select CSM Interaction Record to open the Edit CSM Interaction Record modal.
 4.  In the Configure tab of the modal, enable or disable the **disableLegacyWrapUpLogic** property.
 
 ## Interaction record pages
 
-The wrap-up controller, wrap-up codes, and wrap-up modeless dialog are available on the following record pages in CSM Configurable Workspace:
+The wrap-up controller, wrap-up codes, and wrap-up modeless dialog are available on the following record pages in CRM Workspace:
 
 -   CSM Interaction record page
 -   CSM Voice interaction record page

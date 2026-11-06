@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [saas license management, saas reclamation support, direct integration, SSO integration]
 breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
@@ -44,7 +44,7 @@ Managing Direct SaaS applications can vary based on organizational needs. The be
 
 For more information about installing SaaS License Management, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/request-saas-license-management.md).
 
-\[Omitted image "saas-license-management.png"\] Alt text: Flowchart to guide through SaaS license management
+\[Omitted image "saas-license-management.png"\] Alt text: Decision tree showing three paths for managing SaaS applications: Direct Integration, SaaS License Connections, and SSO Integration
 
 <table id="table_mz1_csf_jhc"><thead><tr><th>
 
@@ -160,8 +160,6 @@ Disconnect an SSO application to stop viewing subscription information for the a
 If your company stops using a SaaS application or SSO provider, you can delete the integration profile.
 -   **[Subscription identifiers for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/subscription-identifiers.md)**  
 Use the SaaS License Management application to view, manage, and resolve subscription identifiers for your SaaS and SSO applications.
--   **[Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/subscription-exclusions.md)**  
-Define subscription exclusions for your SaaS and SSO applications to optimize your licensing costs by keeping the excluded subscriptions out of license cost calculations.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

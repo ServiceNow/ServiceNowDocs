@@ -7,7 +7,7 @@ release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -63,7 +63,7 @@ To learn more about configuring and using CAM, see:
 -   [RMF step 2 - Select controls for an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/select-controls.md)
 -   [RMF step 3 - Implement controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/implement-controls.md)
 -   [RMF steps 4, 5, and 6 - Assess, authorize, and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/assess-control-effectiveness.md)
--   [Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assessment-objectives.md)
+-   [Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/cam-assessment-objectives.md)
 -   [Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 -   [Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-fhir-domain-separation.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [domain separation, EMR Provider Directory Sync]
 breadcrumb: [EMR Provider Directory Sync, Healthcare Integrations, Healthcare and Life Sciences]

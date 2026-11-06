@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [Agent Client Collector reference, Agent Client Collector, IT Operations Management]
@@ -230,7 +230,7 @@ ACC-VC uses the same classification criteria as IP-based Discovery for classifyi
 
 -   **Agent Client Collector Framework \(ACC-F\)**
 
-    A ServiceNow base scoped application that leverages ACC and provides core capabilities \(including Check Types, Check Definitions, Policies, and so on\) enabling other ACC scoped applications, including ACC-M and ACC-VC.
+    A ServiceNow base scoped application that leverages ACC and provides core capabilities, including Check Types, Check Definitions, and Policies. It enables other ACC scoped applications, including ACC-M and ACC-VC.
 
 -   **Agent Client Collector Monitoring Monitoring \(ACC-M\)**
 
@@ -273,8 +273,6 @@ Description of the command line parameters used during MID-less Agent Client Col
 The following tables describe the data collected during Agent Client Collector for Visibility Content file-based Discovery.
 -   **[Software edition configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/software-edition-configuration.md)**  
 Description of the software edition configuration fields in use when identifying the edition of Windows software.
--   **[Agent Client Collector File-Based Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/file-based-discovery-configuration-properties.md)**  
-Configure File-Based Discovery behavior using system properties that control scanning paths, performance throttling, and file filtering options.
 -   **[Web usage data collection tables and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/web-usage-collection-tables.md)**  
 Description of the tables and their fields used when gathering web usage data from your Windows and macOS machines.
 -   **[Archive file scanning filtering rules and limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/archive-file-scanning-reference.md)**  
@@ -285,8 +283,14 @@ The following table lists the software filter tables and the purpose each one se
 The following table lists the software filter fields from which you can create a filter.
 -   **[License key discovery and access control tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/license-key-discovery-reference.md)**  
 Reference information for the tables, fields, access control, and scheduled job used by license key discovery in Agent Client Collector for Visibility Content.
+-   **[License key discovery tables and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/license-key-discovery-tables.md)**  
+License key discovery uses configuration tables to define file-matching rules and extraction parsers, and stores results in dedicated tables for reporting and reconciliation.
 -   **[Running process-based discovery platform coverage and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/running-process-based-discovery-platform-coverage-properties.md)**  
 Platform coverage identifies which operating systems are supported and what privileges the agent needs for full coverage. The system property controls whether the feature is enabled or disabled.
+-   **[ACC-VC system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/accvc-system-properties.md)**  
+System properties that control how Agent Client Collector for Visibility Content \(ACC-VC\) discovers, collects, and stores data on your instance.
+-   **[Agent Client Collector File-Based Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/file-based-discovery-configuration-properties.md)**  
+Configure File-Based Discovery behavior using system properties that control scanning paths, performance throttling, and file filtering options.
 -   **[ACC-VC NPVDI system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/accvc-npvdi-properties.md)**  
 System properties that control how Agent Client Collector for Visibility Content \(ACC-VC\) runs **Enhanced Discovery** and installed software checks on Windows non-persistent virtual desktop infrastructure \(NPVDI\) endpoints.
 

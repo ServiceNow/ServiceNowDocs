@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -27,7 +27,7 @@ Starting with the Yokohama Patch 11 release, AI Search includes an alternate sem
 
 Installation of ServiceNow Otto for AI Search offers a new hybrid search mode. This mode combines keyword relevance scores and semantic similarity scores into a single result ranking using Reciprocal Rank Fusion \(RRF\). By blending keyword and semantic vector search modes, AI Search offers the best of both worlds, providing users with both search precision and contextual relevance.
 
-Upgrading an existing installation doesn't change current hybrid search settings. Users with the admin role can activate or deactivate hybrid search for individual SACs after installation.
+Hybrid search is automatically activated for all search application configurations \(SACs\) when you install ServiceNow Otto for AI Search for the first time. Upgrading an existing installation doesn't change current hybrid search settings. Users with the admin role can deactivate hybrid search for individual SACs after installation.
 
 **Note:** Hybrid search applies to any indexed source that's included in the semantic index. By default, the following indexed sources ship with preconfigured semantic indexing and work with hybrid search:
 
@@ -61,9 +61,11 @@ Hybrid search offers these benefits when compared with keyword search.
 
 Hybrid search requires installation of the ServiceNow Otto for AI Search application. This feature is available beginning in ServiceNow Otto for AI Search 15.
 
+If you install ServiceNow Otto for AI Search without having any previous version installed, hybrid search is automatically activated for your search application configurations that use AI Search as their search engine.
+
 **Note:** Search application configurations that use the legacy Zing text indexing and search engine don't support hybrid search.
 
-Hybrid search isn't automatically activated for your search application configurations that use AI Search as their search engine. To learn how to manually activate hybrid search for these search application configurations in the AI Search Admin console, see [Manage hybrid search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/enable-hybrid-search-aisac.md).
+If you upgrade to ServiceNow Otto for AI Search from a previous version, hybrid search isn't automatically activated for your search application configurations that use AI Search as their search engine. To learn how to manually activate hybrid search for these search application configurations in the AI Search Admin console, see [Manage hybrid search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/enable-hybrid-search-aisac.md).
 
 ## Interactions with other features
 

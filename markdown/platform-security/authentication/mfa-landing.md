@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MFA, Multi-factor authentication, multifactor auth, Multi-factor]
 breadcrumb: [Authentication, Access Management]
@@ -27,7 +27,7 @@ Learn how to activate, use, and configure Multi-factor authentication \(MFA\).
 
 [Configure\[Omitted image "bus-sdlc.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-mfa.md)
 
- [Understand how to Activate MFA.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-mfa.md)
+ [Understand how to activate MFA.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-mfa.md)
 
 </td></tr><tr><td>
 
@@ -39,7 +39,7 @@ Learn how to activate, use, and configure Multi-factor authentication \(MFA\).
 
 [MFA with Single Sign-on \(SSO\)\[Omitted image "bus-learn.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-sso.md)
 
- [Know about how to configure MFA with Single Sign-on \(SSO\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-sso.md)
+ [Learn about how to configure MFA with Single Sign-on \(SSO\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-sso.md)
 
 </td></tr></tbody>
 </table>

@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -20,15 +20,15 @@ Using HR Service Delivery Integration with SuccessFactors you can enable employe
 
 <table id="table_rd1_bl3_2tb" class="nav-card"><tbody><tr><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configuring-hr-service-delivery-integration-with-success-factors.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your integration. Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configuring-hr-service-delivery-integration-with-success-factors.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Work on integrating ServiceNow HR Service Delivery with SuccessFactors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Work on integrating ServiceNow HR Service Delivery with SuccessFactors. Work on integrating ServiceNow HR Service Delivery with SuccessFactors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
 
 </td><td>
 
-[Reference sx\[Omitted image "bus-learn.svg"\] Alt text: Get details about components like tables, user roles, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-service-delivery-integration-with-success-factors-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like tables, user roles, and properties Get details about components like tables, user roles, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-service-delivery-integration-with-success-factors-reference.md)
 
 </td></tr></tbody>
 </table>

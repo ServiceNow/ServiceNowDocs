@@ -7,7 +7,7 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -48,6 +48,8 @@ Role required: sn\_wsd\_rsv.reservation\_planner, sn\_wsd\_case.case\_writer
     The emergency maintenance case activities are also added to the work notes of a case. Workplace Event planners can review the work notes to understand the activities performed by AI agents. Review the activity log and resolution notes provided by AI agents for an emergency maintenance case.
 
     \[Omitted image "wsd-case-comments-notes.png"\] Alt text: Comments and Work notes section showing the emergency maintenance case activity log and resolution notes.
+
+    \[Omitted image "wsd-new-emergency-maintenance-case-notes-ai.png"\] Alt text: Emergency Maintenance request showing the agent activity notes in the Activity tab.
 
 4.  Navigate to **All** &gt; **Workplace Reservation Management** &gt; **All Reservations** &gt; **Workplace Reservations**.
 

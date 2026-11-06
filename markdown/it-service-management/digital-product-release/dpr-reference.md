@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Digital Product Release, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Reference topics provide additional information about the lists and forms that y
 
 -   **[Components installed with Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/installed-with-dpr.md)**  
 Several types of components are installed with activation of the Digital Product Release app, including tables and user roles.
--   **[Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/digital-product-release-properties.md)**  
+-   **[Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/digital-product-release-properties.md)**  
 Configure the system properties to customize various features of Digital Product Release according to your organization's needs.
 -   **[Approval definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/approval-definition-form.md)**  
 Release admins can create approval definitions to get approvals of phase tasks for a release.

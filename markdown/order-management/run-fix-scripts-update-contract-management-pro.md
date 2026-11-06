@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/run-fix-scripts-update-contract-management-pro.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate with Contract Management Pro, Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---

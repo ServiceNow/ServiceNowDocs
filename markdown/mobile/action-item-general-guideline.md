@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/action-item-general-guideline.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Action items/action steps, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---

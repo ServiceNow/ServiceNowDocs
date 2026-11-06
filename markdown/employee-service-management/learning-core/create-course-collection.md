@@ -7,7 +7,7 @@ release: australia
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing course and catalog content, Learning Core, HR Service Delivery, Employee Service Management]
 ---
@@ -26,13 +26,13 @@ Every collection has to be a part of a course catalog. Create a course catalog b
 
 1.  Navigate to **Learning** &gt; **Content** &gt; **Collections**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
     For a description of the field values, see [Collection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/collection-form-lc.md).
 
-4.  Select **Submit**.
+4.  Click **Submit**.
 
 
 -   **[Add course items to collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/add-course-items-collection.md)**  

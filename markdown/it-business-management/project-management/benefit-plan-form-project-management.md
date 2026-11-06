@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -84,7 +84,7 @@ Field to indicate when the benefits start realizing. Select any of the following
 -   **Start Date**: At the start of the project.
 -   **End Date**: After the project ends.
 
- If the value in the selected offset type changes, the benefit plan start date shifts accordingly. For example, if the offset type is set to **End Date** and the end date of the project changes, the benefit plan start date shifts to align with the new end date of the project.
+ Based on the selected offset type changes, benefit plan start date shifts. For example, if the offset type is set to **End Date** and the end date of the project changes. Then the benefit plan start date shifts to align with the new end date of the project.
 
 </td></tr><tr><td>
 
@@ -201,7 +201,7 @@ Functional currency
 
 </td><td>
 
-Currency that is obtained from the [**glide.system.locale** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-properties.md). For upgraded customers, if the selected currency is different from the functional currency configured in the Financial Management application, the corresponding [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the **Total planned benefit** of the project.
+Currency that is obtained from the [**glide.system.locale** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-properties.md). For upgraded customers, if the selected currency is different from the configured functional currency from the Financial Management application, the corresponding [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the **Total planned benefit** of the project.
 
 </td></tr><tr><td>
 
@@ -236,7 +236,9 @@ Recurring
 Check box to indicate that the benefit is recurring for all the fiscal periods in the benefit plan.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/form-field-information-for-project-management.md)
+
+**Related topics**  
 
 
 [Create a monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/create-project-benefit-plan.md)

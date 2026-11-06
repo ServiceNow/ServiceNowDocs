@@ -7,7 +7,7 @@ release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -242,7 +242,7 @@ Essential SAFe: Team PI Objective tests
 
 Verify the functionality of creating and updating team PI Objectives-   Verify that you can create a team-level PI objective
 -   Verify that you can update the created PI objective with the planned business value \(PBV\) and actual business value \(ABV\)
--   Verify that the percentage of business value achieved is computed as the percentage of ABV complete for committed PI objectives compared to the team PBV in the PI
+-   Verify that the percentage of business value achieved is computed as the percentage of ABV complete for committed PI objectives compared to team PBV
 
 </td><td>
 

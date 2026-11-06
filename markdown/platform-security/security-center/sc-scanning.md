@@ -7,7 +7,7 @@ release: australia
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security configuration console, Security Center, Platform Security]
 ---
@@ -23,11 +23,11 @@ Security scanning is a method to investigate your instance for configurations th
 When accessing the scanner tool, there’s no comparison available until you select the suite to be compared with at least two scan results of the suite. You can use the default suite and checks, or you can create your own custom checks and suites.
 
 -   **[Scan findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/scan-findings.md)**  
-A finding is a reference to a record that has violated a rule from a check on the instance. You can find the source record and additional information about the triggered rules, and how to resolve the finding.
+A finding is a reference to a record that has violated a rule from a check on the instance. You can find the source record and the number of times the record triggered the rules of a given check.
 -   **[Security scan comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/score-comparison.md)**  
 Compare two scans of the same security suite to gain visibility to the health of your hardening settings and improve the security posture of your instance.
--   **[Scan findings trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-auditor-finding.md)**  
-Review Security Center scan findings over time.
+-   **[Auditor suite findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-auditor-finding.md)**  
+Review Security Center Auditor suite findings over time.
 -   **[Scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/scan-checks.md)**  
 Use checks to detect anomalies within an instance, running against tables, records, or metadata.
 -   **[Scan suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sec-center-suites.md)**  

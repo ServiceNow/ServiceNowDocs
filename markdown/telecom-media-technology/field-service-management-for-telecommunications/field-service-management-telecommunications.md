@@ -7,7 +7,7 @@ release: australia
 product: Field Service Management for Telecommunications
 classification: field-service-management-for-telecommunications
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---

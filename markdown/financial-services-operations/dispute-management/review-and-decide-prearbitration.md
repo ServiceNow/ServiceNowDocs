@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Chargeback, Processing a Mastercard dispute, Resolving disputes with Mastercard, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -77,15 +77,15 @@ If Card Data Security is installed and configured, **Attachments** in the contex
     -   When integrated with Mastercard's Mastercom APIs, the system automatically compresses multiple attachments into a single zip file. It also validates attached files against Mastercard requirements for file type and size, and alerts you when any attachment doesn’t meet Mastercard requirements. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/mastercard-image-and-document-requirements.md).
 13. In the **Response outcome** field, select **Resolved** or **Unresolved**.
 
-<table id="choicetable_sc5_fy5_vfc"><thead><tr><th align="left" id="d56249e437">
+<table id="choicetable_sc5_fy5_vfc"><thead><tr><th align="left" id="d56544e437">
 
 Selection
 
-</th><th align="left" id="d56249e440">
+</th><th align="left" id="d56544e440">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d56249e446">
+</th></tr></thead><tbody><tr><td id="d56544e446">
 
 **Unresolved**
 
@@ -120,7 +120,7 @@ The **Arbitration response received** drop-down is displayed.
 -   **No** to end the chargeback, then the transaction moves to the Financial adjustments 2. The task is then marked as Complete.
 
 
-</td></tr><tr><td id="d56249e625">
+</td></tr><tr><td id="d56544e625">
 
 **Resolved**
 

@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Software Asset Management Content Service, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management Content Service, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Content updates for Software Asset Management

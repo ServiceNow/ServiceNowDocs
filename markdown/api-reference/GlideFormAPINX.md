@@ -7,7 +7,7 @@ release: australia
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 46
 breadcrumb: [Client Next Experience API reference, API reference, API implementation and reference]
 ---
@@ -2600,7 +2600,7 @@ String or Array
 
 </td><td id="g_form-setValue-displayValue-entry">
 
-Optional. Field within the specified reference record to use to update the specified field. For example, in the User \[sys\_user\] table it might be userName.If the specified field is a GlideList, this parameter can contain an array of display value names.
+Field within the specified reference record to use to update the specified field. For example, in the User \[sys\_user\] table it might be userName.If the specified field is a GlideList, this parameter can contain an array of display value names.
 
 For additional information on display values, see [Display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md).
 

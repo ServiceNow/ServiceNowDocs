@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Service Catalog in mobile, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,14 +18,14 @@ You can enable users to request for an item or service, and track or approve req
 
 ## Activation of Now Mobile for Service Catalog
 
-If you have the admin role, activate the ServiceNow Mobile Request Native Application Screens and Applet Launcher plugin \(com.glide.mobile-employee\). See [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mobile-employee-experience.md). This plugin enables the Service Catalog functionality by default.
+If you have the admin role, activate the ServiceNow Mobile Request Native Application Screens and Applet Launcher plugin \(com.glide.mobile-employee\). See Now Mobile app. This plugin enables the Service Catalog functionality by default.
 
 ## For Me tab
 
 When you log into Now Mobile, the following functionality related to Service Catalog is available:
 
 -   **My To-Dos**: Displays approval records of requests and requested items assigned or delegated to the user.
--   **My Requests**: Displays requests based on the filters defined for mobile in the **My Requests Filter**. By default, the Incident Mobile and Service Catalog Request Mobile filters are available. For information about configuring filters, see [Define filters for My Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/configure-my-requests.md) and [Configure My Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/set-up-my-requests.md).
+-   **My Requests**: Displays requests based on the filters defined for mobile in the **My Requests Filter**. By default, the Incident Mobile and Service Catalog Request Mobile filters are available. For information about configuring filters, see [Define filters for My Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/configure-my-requests.md) and Configure My Requests.
 
     **Note:** It is recommended to include only open requests.
 
@@ -71,7 +71,7 @@ From Now Mobile, you can also perform the following tasks:
 
 ## Quick actions
 
-You can provide easy access to a catalog item by creating a quick action. For information on creating a quick action in Now Mobile, see [Create a quick action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/add-quick-action.md).
+You can provide easy access to a catalog item by creating a quick action. For information on creating a quick action in Now Mobile, see Create a quick action.
 
 ## Siri shortcuts
 
@@ -80,7 +80,7 @@ iOS users can use Siri shortcuts to open the following pages in the mobile app.
 -   Browse items and services.
 -   Open my requests
 
-See [Siri shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-mobile-employee.md).
+See Siri shortcuts.
 
 ## Now Mobile properties
 
@@ -117,7 +117,7 @@ Define the behavior of various catalog entities in Now Mobile.
 
 [Fulfiller experience in Mobile Agent]()
 
-[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mobile-employee-experience.md)
+[bundle-emplsm.mobile-employee-experience]
 
 [Mobile plugins and upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/plugins-upgrades.md)
 

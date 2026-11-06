@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Application service completion, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: service\_mapping\_admin
 
 ## About this task
 
-Typically, you might assign high criticality to service instances, which impact your customer base or sales revenue, while giving low criticality to internal service instances causing minor inconvenience to organization employees. For example, you could set high criticality for a service instance that supports sales functionality using the organization web site. A service instance that provides internal printing for the organization employees could receive low criticality.
+Typically, you might assign high criticality to service instances that impact your customer base or sales revenue. Assign low criticality to internal service instances that cause minor inconvenience to organization employees. For example, you could set high criticality for a service instance that supports sales functionality using the organization web site. A service instance that provides internal printing for the organization employees could receive low criticality.
 
 You can also use a criticality value to define recovery strategies.
 

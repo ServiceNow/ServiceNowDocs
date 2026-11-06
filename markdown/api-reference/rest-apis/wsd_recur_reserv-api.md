@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 48
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -1092,7 +1092,7 @@ Details about the state of the reservation for the location.Data type: Object
 
 result.reservation.location.state.display\_value
 
-</td><td id="d3367e4999">
+</td><td id="d3658e4999">
 
 Display value for the current state of the reservation, such as confirmed.Data type: String
 
@@ -1100,7 +1100,7 @@ Display value for the current state of the reservation, such as confirmed.Data t
 
 result.reservation.location.state.value
 
-</td><td id="d3367e5010">
+</td><td id="d3658e5010">
 
 Internal value for the current state of the reservation, such as 2.Data type: String
 
@@ -4234,7 +4234,7 @@ Format: UTC - yyyy-mm-ddThh:mm:ssZ, such as 2021-02-05T18:00:00Z
 
 result.successfulReservations.sys\_id
 
-</td><td id="d3367e6757">
+</td><td id="d3658e6757">
 
 Sys\_id of the reservation that was created.Data type: String
 
@@ -4581,6 +4581,71 @@ Return results:
       }
     ],
     "unSuccessfulReservations": []
+  }
+}
+```
+
+### cURL request
+
+\(Legacy example\)The following code example shows how to create a daily recurring reservation for two consecutive days.
+
+```
+curl "https://instance.servicenow.com/api/sn_wsd_rsv/recurring_reservation/create_series" \
+--request POST \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--data "{
+    \"reservation\": {
+        \"reservable_module\": \"5db44502dbb650106c731dcd13961937\",
+        \"subject\": \"Test-123\",
+        \"reservation_purpose\": \"meeting\",
+        \"timezone\": \"US/Pacific\",
+        \"requested_for\": \"6816f79cc0a8016401c5a33be04be441\",
+        \"location\": \"6a11a94adb7210106c731dcd1396194e\",
+        \"attendees\": \"6816f79cc0a8016401c5a33be04be441\",
+        \"is_private\": false
+    },
+    \"recurringPattern\": {
+        \"duration\": 3600000,
+        \"repeats\": \"daily\",
+        \"options\": {
+            \"count\": 2,
+            \"daysOfWeek\": \"\",
+            \"every\": 1
+        },
+        \"label\": \"Repeats daily, 2 times\",
+        \"startDate\": \"2023-01-12T12:00:00Z\"
+    }
+}" \
+```
+
+Return results:
+
+```
+{
+  "result": {
+    "isValid": true,
+    "parent": "1e5f65ca87586550cfaa99b73cbb3513",
+    "successfulReservations": [
+      {
+        "inserted": true,
+        "collision": false,
+        "sys_id": "9e5f65ca87586550cfaa99b73cbb3517",
+        "error": null,
+        "start": "2023-01-13T12:00:00Z",
+        "end": "2023-01-13T13:00:00Z"
+      }
+    ],
+    "unSuccessfulReservations": [
+      {
+        "inserted": true,
+        "collision": true,
+        "sys_id": "5e5f65ca87586550cfaa99b73cbb3515",
+        "error": null,
+        "start": "2023-01-12T12:00:00Z",
+        "end": "2023-01-12T13:00:00Z"
+      }
+    ]
   }
 }
 ```

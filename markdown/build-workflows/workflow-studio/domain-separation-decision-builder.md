@@ -1,20 +1,20 @@
 ---
 title: Domain separation and Decision Builder
-description: Domain separation in Decision Builder enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control which users can see and access data within each domain.
+description: This is an overview of domain separation as it pertains to Decision Builder. Domain separation allows you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/domain-separation-decision-builder.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Decision tables reference, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Reference, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Domain separation and Decision Builder
 
-Domain separation in Decision Builder enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control which users can see and access data within each domain.
+This is an overview of domain separation as it pertains to Decision Builder. Domain separation allows you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 
 ## Support level: Standard
 

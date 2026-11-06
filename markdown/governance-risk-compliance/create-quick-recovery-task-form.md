@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-quick-recovery-task-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a quick recovery task, Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---

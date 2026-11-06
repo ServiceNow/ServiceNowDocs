@@ -7,7 +7,7 @@ release: australia
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -81,8 +81,8 @@ Define a space recommender rule using which the qualifying spaces must be calcul
 Submit a workplace service request to get space allocation recommendations using the Workplace Service Portal. The Workplace Service Delivery space assistance provides you with the best space allocation plan options based on the space quantity and the department that you specify. You can select the most suitable allocation or none. Depending on your selection, the Space planner deploys the plan to use.
 -   **[Create a view-by configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/create-view-by-config.md)**  
 Create a configuration to filter the view of the scenario planner or building overview.
--   **[Create a KPI Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/create-kpi-configuration.md)**  
-Create a key performance indicator \(KPI\) that aggregates values from the Space table for use in the Space Planning module.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/configurable-kpis-space-planning.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/configurable-kpis-space-planning.md)**  
+
 -   **[Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/reviewing-allocation-changes.md)**  
 Review allocation changes in the Space Allocation Type Change Tracker table to plan changes for your scenarios.
 

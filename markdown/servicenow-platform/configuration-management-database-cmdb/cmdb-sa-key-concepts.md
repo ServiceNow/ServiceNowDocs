@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CMDB success advisor key concepts, CMDB success advisor glossary, principal class definition, model category definition, scope definition CMDB success advisor, remediation actions definition]
 breadcrumb: [Reference, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]

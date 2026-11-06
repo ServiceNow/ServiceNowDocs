@@ -7,7 +7,7 @@ release: australia
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Using DevOps Config, DevOps Config, IT Service Management]
 
 Some applications may share the same basic structure and require nearly identical configuration data. Shared components in CDM enables you to use a component across several applications. For better organization, these shared components are managed in component libraries.
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 ## Component libraries
 

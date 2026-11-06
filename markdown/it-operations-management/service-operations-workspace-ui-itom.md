@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-operations-workspace-ui-itom.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Access Service Operations Workspace ITOM, Service Operations Workspace ITOM Home page]
 breadcrumb: [Explore, ITOM AIOps, IT Operations Management]

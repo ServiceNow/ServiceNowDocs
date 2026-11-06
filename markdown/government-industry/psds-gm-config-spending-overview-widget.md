@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-gm-config-spending-overview-widget.html
 release: australia
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Configure funding allocation charts, Spending Overview widget, filter pills, Funding Allocation tab, UI Builder, grants management configuration]
 breadcrumb: [Set up a grant program, Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]

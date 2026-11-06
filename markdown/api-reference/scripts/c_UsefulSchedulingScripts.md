@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Useful scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Example scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Scheduling script use cases
@@ -28,7 +28,7 @@ Script example:
 
 The example below sets the resolved duration when the incident state moves to resolved.
 
-```
+```javascript
 var gr_rec = new GlideRecord('incident');
 gr_rec.get('ed92e8d173d023002728660c4cf6a7bc');
 if (gr_rec.incident_state == 6) {
@@ -54,7 +54,7 @@ Description: This script checks nightly for termination dates on contracts comin
 
 Script example:
 
-```
+```javascript
 function contractNoticeDue(){
   var now_GR = new GlideRecord("contract");
   now_GR.addQuery("u_contract_status","Active");
@@ -87,5 +87,5 @@ You can also utilize the system's scripting functionality available for server-s
 
 You can use options on the Business Rules form to build conditions, set field values, and display alert messages without needing to write a script.
 
-**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/usefulScripts.md)
+**Parent Topic:**[Example scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/usefulScripts.md)
 

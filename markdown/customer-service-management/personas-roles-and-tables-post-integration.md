@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/personas-roles-and-tables-post-integration.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order Management for business organization, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -133,4 +133,6 @@ None
 
 </td></tr></tbody>
 </table>Apart from the functional roles, users also need to have the Business organization UI \(sn\_bus\_org\_orm.org\_ui\) granular role to have a uniform experience across all user interfaces.
+
+If a business organization enables [Restricted Customer Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-customers-or-bus-loc-to-so.md), the account and consumer visibility restriction also applies to sales personas such as B2B and B2C sales representatives. In other words, these personas can view only the accounts and consumers supported by their own business organization, and cannot view accounts and consumers supported by other business organizations. For upgrade customers, this restriction has no effect until an admin runs the **Remove Legacy Roles from Loc Mgr Contrib** scheduled job. For more information, see [Enable restricted customer access for Business Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/remove-legacy-contributor-roles-from-loc-mgr-contrib.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-int\_guide-remote-data-options-for-remote-tables.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Developer resources, Financial Services Operations \(FSO\)]
 ---

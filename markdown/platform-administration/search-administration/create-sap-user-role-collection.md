@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [SAP DMS external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -43,7 +43,7 @@ The SAP DMS external content connector requires a user account with specific rol
 
     1.  Log in to the SAP Business Technology Platform \(BTP\) at [https://cockpit.btp.cloud.sap/](https://cockpit.btp.cloud.sap/) using your global account credentials.
 
-    2.  In the Subaccounts tab, select your subaccount with the aforementioned entitlements.
+    2.  In the **Subaccounts** tab, select your subaccount with the aforementioned entitlements.
 
     3.  Navigate to **Security** &gt; **Users**.
 

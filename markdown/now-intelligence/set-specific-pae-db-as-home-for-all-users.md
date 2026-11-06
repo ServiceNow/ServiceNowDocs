@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/set-specific-pae-db-as-home-for-all-users.html
 release: australia
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set dashboards as home for all users, Configure, Dashboards, Platform Analytics experience, Platform Analytics]
 ---

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 1
 keywords: [Test and deploy]
-breadcrumb: [Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Test and deploy a Lux app

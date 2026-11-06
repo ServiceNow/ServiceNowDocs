@@ -7,7 +7,7 @@ release: australia
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Engage with outside counsel, Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_lg\_matter.matter\_fulfiller, sn\_lg\_ops.legal\_fulfiller
 
 1.  Open the outside counsel engagement approval request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d638371e51">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d637248e51">
 
 Method
 
-</th><th align="left" id="d638371e54">
+</th><th align="left" id="d637248e54">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d638371e60">
+</th></tr></thead><tbody><tr><td id="d637248e60">
 
 **Using Legal Counsel Center homepage**
 
@@ -43,7 +43,7 @@ Action
 3.  From the list, open the record for approval.
 
 
-</td></tr><tr><td id="d638371e98">
+</td></tr><tr><td id="d637248e98">
 
 **Using Legal Counsel Center lists**
 
@@ -55,7 +55,7 @@ Action
 4.  From the list, open the record for approval.
 
 
-</td></tr><tr><td id="d638371e151">
+</td></tr><tr><td id="d637248e151">
 
 **Using platform view**
 

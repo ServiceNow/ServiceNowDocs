@@ -1,20 +1,20 @@
 ---
 title: CIDR to IP range function
-description: Classless Inter-Domain Range \(CIDR\) to IP range flow action enables you to create a set of IP addresses using the Classless Inter-Domain Range \(CIDR\) using Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
+description: Classless Inter-Domain Range \(CIDR\) to IP range flow action enables you to create a set of IP addresses using the Classless Inter-Domain Range \(CIDR\) in the Telecommunications Network Inventory application. The addresses are based on the input that you receive when you instantiate an inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/cidr\_to\_ip\_range.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
 
 # CIDR to IP range function
 
-Classless Inter-Domain Range \(CIDR\) to IP range flow action enables you to create a set of IP addresses using the Classless Inter-Domain Range \(CIDR\) using Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
+Classless Inter-Domain Range \(CIDR\) to IP range flow action enables you to create a set of IP addresses using the Classless Inter-Domain Range \(CIDR\) in the Telecommunications Network Inventory application. The addresses are based on the input that you receive when you instantiate an inventory.
 
 Upon calling this flow action, a CIDR is fetched using the given IP subnetwork. Further, using the CIDR a set of IP addresses are created. These IP addresses are further stored in the allocated IP addresses table.
 

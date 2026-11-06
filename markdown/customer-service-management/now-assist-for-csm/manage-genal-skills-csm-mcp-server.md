@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [MCP Server, genAI skills, case summarization, sentiment analysis, resolution notes]
 breadcrumb: [Set up the CSM MCP Server, CSM MCP Server, ServiceNow Otto for CSM, Customer Service Management]
@@ -20,6 +20,8 @@ Use the CSM MCP Server to summarize cases, generate draft resolution notes, anal
 ## Before you begin
 
 Your system administrator must configure the integration between your MCP client application and your ServiceNow instance during setup.
+
+The `com.sn.csm.gen.ai` plugin must be active, and each tool's AI skill must be enabled.
 
 The following table lists the roles required for each tool:
 
@@ -63,7 +65,7 @@ For detailed information on each tool, supported operations, and operation-speci
 
         -   Give me a close up note on CS110086
         -   Can you generate the resolution notes for the case CS110086
-        Tool Annotation: Read-only.
+        Tool Annotation: Read only.
 
     -   **sentiment\_analysis:** Evaluates the sentiment of a CSM case using the Sentiment Analysis GenAI skill. Returns sentiment score, trend, and reasoning. Enforces record-level read access before invoking the skill.
 

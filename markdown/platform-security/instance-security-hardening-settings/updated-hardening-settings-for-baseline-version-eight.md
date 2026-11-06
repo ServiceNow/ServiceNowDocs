@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2026-03-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 117
 breadcrumb: [Updated hardening settings, Baseline versions, Hardening settings, Platform Security]
 ---
@@ -72,7 +72,7 @@ Users may download malicious files leading to desktop and session compromise.
 
 </td></tr><tr><td>
 
-[Timeout Guest Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-timeout-guest-sessions.md)
+[Timeout guest sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-timeout-guest-sessions.md)
 
 </td><td>
 
@@ -115,7 +115,7 @@ Small timeout values can result in an undesirable user experience as sessions ex
 
 </td></tr><tr><td>
 
-[Require authorization for data broker rest API \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-data-broker-rest-api-authorization.md)
+[Require authorization for data broker rest API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-data-broker-rest-api-authorization.md)
 
 </td><td>
 
@@ -262,7 +262,7 @@ Inactive users may still access the instance and any data they could previously 
 
 </td></tr><tr><td>
 
-[Enable High Security Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md)
+[Enable High Security plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md)
 
 </td><td>
 
@@ -315,7 +315,7 @@ Limit Concurrent Sessions Plugin
 
 </td></tr><tr><td>
 
-[Proactively Invalidate Sessions After Defined Durations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-proactively-invalidate-inactive-sessions.md)
+[Proactively invalidate sessions after defined durations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-proactively-invalidate-inactive-sessions.md)
 
 </td><td>
 
@@ -620,7 +620,7 @@ Messages encrypted by the IDP could be decrypted by any actor, if intercepted.
 
 </td></tr><tr><td>
 
-[Enable email OTP for multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-email-otp-for-multi-factor-authentication.md)
+[Disable email OTP for multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-email-otp-for-multi-factor-authentication.md)
 
 </td><td>
 
@@ -710,7 +710,7 @@ If "glide.ui.escape\_text" is not set to the recommended value of "true", then X
 
 </td></tr><tr><td>
 
-[Disable GlideRecord Scope Fencing Legacy Behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-gliderecord-scope-fencing-legacy-behavior.md)
+[Disable GlideRecord scope fencing legacy behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-gliderecord-scope-fencing-legacy-behavior.md)
 
 </td><td>
 
@@ -824,7 +824,7 @@ Enforcing password complexity is critical to maintaining strong authentication a
 
 </td></tr><tr><td>
 
-[Require clearing pasteboard when backgrounding mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-require-clearing-pasteboard-when-backgrounding-mobile-application.md)
+[Clear pasteboard when app backgrounds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-require-clearing-pasteboard-when-backgrounding-mobile-application.md)
 
 </td><td>
 
@@ -902,7 +902,7 @@ Information exposed by performance monitoring endpoints may be useful to attacke
 
 </td></tr><tr><td>
 
-[Configure Service Portal Widgets Table Allow List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-configure-service-portal-widgets-table-allow-list.md)
+[Configure service portal widgets table allow list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-configure-service-portal-widgets-table-allow-list.md)
 
 </td><td>
 
@@ -1020,7 +1020,7 @@ This could lead to unintended sensitive information leak through system logs.
 
 </td></tr><tr><td>
 
-[Configure Service Portal Widgets Allow List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-configure-service-portal-widgets-allow-list.md)
+[Configure service portal widgets allow list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-configure-service-portal-widgets-allow-list.md)
 
 </td><td>
 
@@ -1085,7 +1085,7 @@ The two properties glide.outbound\_http\_log.override and glide.outbound\_http\_
 
 </td></tr><tr><td>
 
-[Enable CAPTCHA for External User Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-captcha-external-user-registration.md)
+[Enable CAPTCHA for external user registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-captcha-external-user-registration.md)
 
 </td><td>
 
@@ -1477,7 +1477,7 @@ The HTTPOnly attribute is used to prevent attacks, such as cross-site scripting,
 
 </td></tr><tr><td>
 
-[Prevent Empty ACL Creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-prevent-empty-acl-creation.md)
+[Prevent empty ACL creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-prevent-empty-acl-creation.md)
 
 </td><td>
 
@@ -1671,7 +1671,7 @@ false
 
 </td></tr><tr><td>
 
-[Enforce HTML Sanitization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-check-unsanitized-html.md)
+[Enforce HTML sanitization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-check-unsanitized-html.md)
 
 </td><td>
 
@@ -1923,7 +1923,7 @@ false
 
 </td></tr><tr><td>
 
-[Set Automatic Token Cleanup for Token Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-set-automatic-token-cleanup-for-token-credentials.md)
+[Set automatic token cleanup for token credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-set-automatic-token-cleanup-for-token-credentials.md)
 
 </td><td>
 
@@ -1951,7 +1951,7 @@ A high number of days increases the exposure period for token reuse.
 
 </td></tr><tr><td>
 
-[Enable HTML Sanitizer within Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-html-sanitizer.md)
+[Enable HTML sanitizer within Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-html-sanitizer.md)
 
 </td><td>
 
@@ -2252,7 +2252,7 @@ XSS can lead to easily attained privilege escalation to higher roles such as adm
 
 </td></tr><tr><td>
 
-[Minimize Entity Expansion Threshold for GlideXMLUtil Scriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-setting-entity-expansion-threshold.md)
+[Minimize entity expansion threshold for GlideXMLUtil scriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-setting-entity-expansion-threshold.md)
 
 </td><td>
 
@@ -2337,7 +2337,7 @@ Without this policy, a malicious actor could trick a user into running arbitrary
 
 </td></tr><tr><td>
 
-[Enable Jelly JS Interpolation Protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-jelly-js-interpolation-protection.md)
+[Enable Jelly JS interpolation protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-jelly-js-interpolation-protection.md)
 
 </td><td>
 
@@ -2785,7 +2785,7 @@ Unauthenticated access to SOAP export data, when combined with misconfigured gue
 
 </td></tr><tr><td>
 
-[Hide user comments on articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-hide-user-comments-on-articles.md)
+
 
 </td><td>
 
@@ -2804,7 +2804,7 @@ If this property is not set to 'never', there could be confidentiality impacts i
 
 </td></tr><tr><td>
 
-[Enforce Strict User Image Upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-strict-user-image-upload.md)
+[Enforce strict user image upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-strict-user-image-upload.md)
 
 </td><td>
 
@@ -2899,7 +2899,7 @@ This risks potential privilege misuse or accidental execution of highimpact acti
 
 </td></tr><tr><td>
 
-[Disable MultiSSO Debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-multisso-debugging.md)
+[Disable Multi-SSO debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-multisso-debugging.md)
 
 </td><td>
 
@@ -3051,7 +3051,7 @@ Failing to transition fully to ACL-based controls may leave sensitive data expos
 
 </td></tr><tr><td>
 
-[Enforce password reset on api requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-password-reset-on-api-requests.md)
+[Enforce password reset on API requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-password-reset-on-api-requests.md)
 
 </td><td>
 
@@ -3205,7 +3205,7 @@ Unauthenticated access to RSS export data, when combined with misconfigured gues
 
 </td></tr><tr><td>
 
-[Require authorization for csv requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-require-authorization-for-csv-requests.md)
+[Require authorization for csv requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-require-authorization-for-csv-requests.md)
 
 </td><td>
 
@@ -3224,7 +3224,7 @@ Unauthenticated access to CSV export data, when combined with misconfigured gues
 
 </td></tr><tr><td>
 
-[Control Lockout Time for Invalid Password Reset Attempts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-reset-password-request-max-attempts-window.md)
+[Control lockout time for invalid password reset attempts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-reset-password-request-max-attempts-window.md)
 
 </td><td>
 
@@ -3669,7 +3669,7 @@ If the value is too low, it increases the opportunity for a malicious actor from
 
 </td></tr><tr><td>
 
-[Limit policy based session access mobile refresh token interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-limit-policy-based-session-access-mobile-refresh.md)
+[Limit the policy-based mobile refresh token interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-limit-policy-based-session-access-mobile-refresh.md)
 
 </td><td>
 
@@ -3974,7 +3974,7 @@ This omission undermines a critical security control, potentially allowing an at
 
 </td></tr><tr><td>
 
-[Reduce the Scope of the IP Allow List for an Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)
+[Reduce the scope of the IP allow List for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)
 
 </td><td>
 

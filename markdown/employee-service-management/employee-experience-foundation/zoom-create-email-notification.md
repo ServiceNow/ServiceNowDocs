@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Use Employee Center from Zoom
@@ -31,6 +31,8 @@ Role required: Employee
 3.  Search for and select **ServiceNow Employee Center**.
 
 4.  Enter your ServiceNow login credentials and select **Log in**.
+
+    \[Omitted image "zoom-sn-ec-portal.png"\] Alt text: ServiceNow Employee Center portal in Zoom app
 
     The ServiceNow Employee Center homepage is displayed.
 
@@ -57,8 +59,6 @@ Role required: Employee
 [View the Recommended for you content]()
 
 [View employee profile]()
-
-[Use Employee Profile with HR Service Delivery]()
 
 [Use Personalized Answers]()
 

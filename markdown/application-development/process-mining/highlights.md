@@ -1,0 +1,27 @@
+---
+title: Working with process inefficiency highlights using AI
+description: To work effectively with process inefficiency highlights using AI, you must activate the process inefficiency highlights skill and configure improvement opportunities for the process table and the project.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/process-mining/highlights.html
+release: australia
+product: Process Mining
+classification: process-mining
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure, ServiceNow Otto for Process Mining, Use, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Working with process inefficiency highlights using AI
+
+To work effectively with process inefficiency highlights using AI, you must activate the process inefficiency highlights skill and configure improvement opportunities for the process table and the project.
+
+This section covers the following topics:
+
+-   **[Activate Process Inefficiency Highlights skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/activate-highlight-skills.md)**  
+Activate the Process Inefficiency Highlights skill to be able to use ServiceNow Otto for Process Mining to generate highlights for improvement opportunities.
+-   **[Configuring improvement opportunities in Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/configure-highlights.md)**  
+Configure improvement opportunities for a process table so that any project that is based on the process table has improvement opportunities configured. You must configure improvement opportunities for your project.
+
+**Parent Topic:**[Configuring ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/config-na-proc-min.md)
+

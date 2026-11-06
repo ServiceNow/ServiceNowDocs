@@ -7,9 +7,9 @@ release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [Field configuration in Table Builder, Table Builder reference, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Field configuration, Reference, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Formulas for column values in Table Builder

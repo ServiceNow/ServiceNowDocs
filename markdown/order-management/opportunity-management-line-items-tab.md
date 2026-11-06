@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opportunity-management-line-items-tab.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, navigate to the **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Opportunity - All**.
+1.  In the CRM Workspace, navigate to the **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Opportunity - All**.
 
 2.  From the **Opportunity List** view, select the opportunity you want to work with and select the **Line Items** tab.
 

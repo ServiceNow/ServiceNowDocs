@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/managing-archived-data.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Archiving records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -49,15 +49,15 @@ Role required: admin
 
 1.  Access the archive rule that you want to stop in one of the following ways.
 
-<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d225273e191">
+<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d226771e191">
 
 Option
 
-</th><th align="left" id="d225273e194">
+</th><th align="left" id="d226771e194">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d225273e200">
+</th></tr></thead><tbody><tr><td id="d226771e200">
 
 **Using a data management policy**
 
@@ -68,7 +68,7 @@ Steps
 3.  In the Archive Rules related list, select the archive rule that you want to stop.
 
 
-</td></tr><tr><td id="d225273e233">
+</td></tr><tr><td id="d226771e233">
 
 **Using the Archive Rules module**
 
@@ -101,15 +101,15 @@ Role required: admin
 
 1.  Navigate to the archived record that you want to restore in one of the following ways.
 
-<table id="choicetable_l2x_vvy_1bc"><thead><tr><th align="left" id="d225273e376">
+<table id="choicetable_l2x_vvy_1bc"><thead><tr><th align="left" id="d226771e376">
 
 Option
 
-</th><th align="left" id="d225273e379">
+</th><th align="left" id="d226771e379">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d225273e385">
+</th></tr></thead><tbody><tr><td id="d226771e385">
 
 **Using a data management policy**
 
@@ -122,7 +122,7 @@ Steps
 5.  In the Archive Log related list, select the archived record that you want to restore.
 
 
-</td></tr><tr><td id="d225273e424">
+</td></tr><tr><td id="d226771e424">
 
 **Using the Archive Log module**
 

@@ -7,7 +7,7 @@ release: australia
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2026-06-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference section for Problem Management, Problem Management, IT Service Management]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
 breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Explore, AI Search, Search administration, Configure core features,
 
 AI Search provides users with clear answers for their search queries.
 
--   **Hit highlighting**
+-   **Highlight search query terms in results**
 
     AI Search highlights search query terms that appear in search results. This highlighting enables users to see which query terms contributed to record matches.
 
@@ -37,6 +37,10 @@ AI Search provides users with clear answers for their search queries.
     Define result improvement rules with configurable trigger conditions. A rule can boost search result relevancy based on the search query or user context, or can block or promote specific results for a particular search query.
 
     Search administrators define result improvement rules in search profiles. For details on creating rules and configuring their boost, block, or promote actions, see [Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/result-improvement-rules-ais.md). AI Search supports result improvement rules for Arabic, Brazilian Portuguese, Czech, Danish, Dutch, English, Finnish, French, French - Canada, German, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian \(Bokmål\), Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, and Turkish search queries.
+
+-   **Allow opening of search results in new browser tabs**
+
+    Administrators can configure display of search results as standard HTML anchors that can be opened in new browser tabs using the browser's native right-click/long-press functionality. To learn how to configure this display mode for search results, see [Display search result links as standard HTML anchors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/display-search-result-links-standard-html-anchors.md).
 
 
 **Parent Topic:**[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/explore-ais.md)

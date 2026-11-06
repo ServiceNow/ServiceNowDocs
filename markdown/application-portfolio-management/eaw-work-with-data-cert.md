@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-work-with-data-cert.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -18,18 +18,18 @@ In the Enterprise Architecture Workspace, enterprise architects can manage certi
 
 ## Action and required role mapping for certification policies in the Enterprise Architecture Workspace
 
-|Action|cmdb admin + sn\_apm.apm\_analyst|sn\_apm.apm\_analyst|
-|------|---------------------------------|--------------------|
-|View list of policies|Yes|Yes|
-|View track progress|Yes|Yes|
-|View policy by clicking a link to the policy|Yes|No|
-|Create policy|Yes|No|
-|Edit policy|Yes|No|
-|Delete policy|Yes|Yes|
-|Activate policy|Yes|Yes|
-|Deactivate policy|Yes|Yes|
-|Run certification|Yes|Yes|
-|Complete certification through Track progress page|Yes|No|
+|Action||cmdb admin + sn\_apm.apm\_analyst|sn\_apm.apm\_analyst|
+|------|---|---------------------------------|--------------------|
+|View list of policies||Yes|Yes|
+|View track progress||Yes|Yes|
+|View policy by clicking a link to the policy||Yes|No|
+|Create policy||Yes|No|
+|Edit policy||Yes|No|
+|Delete policy||Yes|Yes|
+|Activate policy||Yes|Yes|
+|Deactivate policy||Yes|Yes|
+|Run certification||Yes|Yes|
+|Complete certification through Track progress page||Yes|No|
 
 -   **[Create a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-policy.md)**  
 Creating a data certification policy serves as a governance mechanism to ensure that the data used in enterprise architecture models and visualizations is accurate, complete, and trustworthy.

@@ -7,7 +7,7 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2026-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [savings metrics, LEAP, automation, Ansible savings, savings by outcome type]
 breadcrumb: [Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]

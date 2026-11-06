@@ -7,8 +7,8 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-01"
-reading_time_minutes: 1
+last_updated: "2026-09-16"
+reading_time_minutes: 2
 breadcrumb: [Issue workflows, Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -24,11 +24,17 @@ Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
 ## About this task
 
+\[Omitted video\] Description: How to configure approvals for an issue workflow
+
 An approval can apply to an issue or to a remediation task. A **State Change** approval prevents an issue from progressing beyond a specified state until the approval is granted. A **Due Date Extension** approval is used when a due date extension request requires approval and is not associated with a specific workflow state.
+
+**Note:**
+
+After an approval has been requested under an approval, that approval can no longer be deleted. The **Applicable table**, **State**, and **Approval type** fields can no longer be changed so that the existing approval history stays intact. The remaining fields, including whether the approval is active and the order in which it's presented, stay editable. To stop using an approval that's in use, make it inactive instead of deleting it.
 
 ## Procedure
 
-1.  On the **Approvals** step, select **Add**.
+1.  On the **Approvals** step, start a new approval by selecting **Add**.
 
 2.  Fill in the approval fields.
 
@@ -40,16 +46,15 @@ An approval can apply to an issue or to a remediation task. A **State Change** a
     |**Approval type**|Whether this approval requires a **State Change** or a **Due Date Extension** request.|
     |**State**|The state in which the approval can be requested. Available only when **Approval type** is set to **State Change**. The list contains the states defined in the workflow's state model.|
 
-3.  Select **Add**.
+3.  Attach the approval to the workflow by selecting **Add**.
 
-4.  Add any remaining approvals that the workflow requires.
+4.  Repeat these steps for any remaining approvals that the workflow requires.
 
 
 ## Result
 
-The approvals are associated with the workflow.
-
-For a State Change approval, an issue can't move beyond the associated state until the approval is granted. Actions that move the issue to the next state are unavailable while the approval is pending.
+-   The approvals are associated with the workflow.
+-   For a **State Change** approval, an issue can't move beyond the associated state until the approval is granted. Actions that move the issue to the next state are unavailable while the approval is pending.
 
 ## What to do next
 

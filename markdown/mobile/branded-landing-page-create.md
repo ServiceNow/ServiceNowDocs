@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/branded-landing-page-create.html
 release: australia
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Branded landing page, Mobile instances, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-A branded landing page is a public web page displayed to users before they log in to their ServiceNow mobile app. This pre-login page contains a login button or a deep link that navigates users to a specified area of a ServiceNow mobile app, bypassing the need to select an instance. The login button can be configured as part of the header in the mobile app, as an integral element embedded directly within the web page itself or both these options.
+A branded landing page is a public web page displayed to users before they log in to their ServiceNow mobile app. This pre-login page contains a login button or a deep link that navigates users to a specified area of a ServiceNow mobile app, bypassing the need to select an instance. The login button can be configured as part of the header in the mobile app or as an integral element embedded directly within the web page itself.
 
 The default is for the login button to be contained within the header, however you can override this option by adding a line within the JSON script. In this case, you must create a button that will be an integral part of your web page. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/deep-link-mobile.md).
 

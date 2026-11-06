@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-atp-api-call.html
 release: australia
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring the Manage Order Operations application, Business Portal, Configure, Sales Customer Relationship Management]

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-create-remediation-task.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -105,6 +105,4 @@ Choices are:-   **Skip records for new remediation tasks**: No action is taken o
 ## Result
 
 Remediation tasks are created based on the grouping criteria. An email notification is sent to the remediation owners in the assignment group, informing them that a remediation task has been created and assigned to their group. For examples on how remediation tasks are created based on the grouping criteria, see [Examples for remediation task creation in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-create-remediation-task-examples.md).
-
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/now-assist-configurations-requesters.html
 release: australia
 topic_type: concept
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist configuration requesters CBS conversational interface search business units Employee Center]
 breadcrumb: [Use, Core Business Suite]
@@ -17,9 +17,7 @@ Requesters in CBS can use Now Assist in the conversational interface and in sear
 
 After the Core Business Suite application setup, requesters gain access to enhanced Now Assist capabilities. These configurations enable AI assistance for raising and managing requests across HR, Legal services, Health &amp; Safety, Workplace services, Finance, and Procurement.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
-
-The Now Assist configuration activates automatically when the **CBS NAVA preset** runs during installation. This one-time action establishes the foundation for Now Assist enabled requester interactions. For more information, see [Core Business Suite Foundation default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-default-configs.md).
+The Now Assist configuration activates automatically when the **CBS NAVA preset** runs during installation. This one-time action establishes the foundation for Now Assist enabled requester interactions. For more information, see [Core Business Suite default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-default-configs.md).
 
 The conversational interface provides natural language interaction for request submission and support. Enhanced search functionality delivers relevant results from comprehensive data sources across departments.
 

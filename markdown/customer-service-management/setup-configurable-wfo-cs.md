@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/setup-configurable-wfo-cs.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Extend capabilities, Configure, Customer Service Management]
 ---
@@ -16,17 +16,15 @@ Enable Workforce Optimization for Customer Service and configure settings to use
 
 -   **[Activate Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/request-configurable-wfo-cs.md)**  
 Workforce Optimization for Customer Service solution is highly modular, offering a wide range of capabilities such as Channel Management, Scheduling, Coaching, and Teams applications in CSM Manager Workspace. The Workforce Optimization for CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) plugin activates all other dependent plugins to enable users to the Channel Management, Scheduling, Coaching, and Teams applications in Workforce Optimization for Customer Service.
--   **[Components installed withWorkforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md)**  
+-   **[Components installed with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md)**  
 Several types of components are installed with activation of the CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) plugin, including user roles, key performance indicators \(KPIs\), scheduled jobs, properties, and tables.
 -   **[Decouple Channel Management dependencies from WFO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/decouple-channel-management-dependencies-from-wfo.md)**  
 Decouple Channel Management from core Workforce Optimization \(WFO\) modules to support modular deployment, enabling independent updates or scaling of Channel Management without impacting other workforce engagement.
--   **[Schedule Management in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/schedule-management-capabilities-in-csm-configurable-workspace.md)**  
-Schedule Management schedule management is a standalone capability within Workforce Optimization for Customer Service that allows supervisors and managers to create, view, and manage team schedules independently of other WFO modules.
 -   **[Work Scheduler components in Workforce Optimization for Customer Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/work-scheduler-wfo-cs-reference.md)**  
 Workforce Optimization for ITSM has properties to configure the Work scheduler default behavior.
 -   **[Domain separation in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/domain-separation-configurable-wfo-cs.md)**  
 Domain separation is supported in Workforce Optimization for Customer Service. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data. Domain separation in Workforce Optimization for Customer Service is configured to apply to all features of the application. Separation of data is configured along with separation of logic and process.
--   **[Create Manager Workspace Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-configurable-csm-landing-page.md)**  
+-   **[Create Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-configurable-csm-landing-page.md)**  
 Create a landing page based on your business requirement.
 -   **[Manager Workspace properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/manager-workspace-properties.md)**  
 Modify the Manager Workspace configuration by customizing the system properties to set the Alerts card limit and the widget refresh interval.

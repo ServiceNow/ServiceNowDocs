@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-01"
 reading_time_minutes: 1
 keywords: [AI Control Tower, move to managed, unmanaged AI system, AI asset inventory]
-breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Move an unmanaged AI system to managed

@@ -7,7 +7,7 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---

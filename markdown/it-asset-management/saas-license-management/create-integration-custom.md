@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -33,15 +33,15 @@ If you’re using Software Asset Workspace, the option to create the custom inte
 
 1.  Navigate to the custom integration profile.
 
-<table id="choicetable_mtv_n33_rcc"><thead><tr><th align="left" id="d268122e91">
+<table id="choicetable_mtv_n33_rcc"><thead><tr><th align="left" id="d272716e91">
 
 Interface
 
-</th><th align="left" id="d268122e94">
+</th><th align="left" id="d272716e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d268122e100">
+</th></tr></thead><tbody><tr><td id="d272716e100">
 
 **Core UI**
 
@@ -51,7 +51,7 @@ Action
 2.  Select **Custom Integration Profile**.
 
 
-</td></tr><tr><td id="d268122e136">
+</td></tr><tr><td id="d272716e136">
 
 **Software Asset Workspace**
 

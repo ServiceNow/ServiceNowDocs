@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -25,4 +25,6 @@ Manually tracking your digital TLS certificates is a time consuming, tedious job
 Automatic certificate renewal agents let you find certificates approaching expiration and automatically renew them before they expire.
 
 You can also set a certificate to renew automatically when requesting a new certificate.
+
+Certificate Inventory and Management supports HashiCorp, Azure KeyVault, and CyberArk PVWA for external private key storage.
 

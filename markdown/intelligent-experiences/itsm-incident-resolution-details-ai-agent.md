@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itsm-incident-resolution-details-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Incident resolution details AI agent

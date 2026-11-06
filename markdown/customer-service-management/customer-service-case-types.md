@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-service-case-types.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -84,7 +84,7 @@ Case Playbook for Complaints\(sn\_csm\_complaint\)
 Provides a complaint case type to capture the details for a customer complaint and a playbook that provides step-by-step guidance through the lifecycle of the complaint.
 
 </td></tr></tbody>
-</table>For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+</table>For more information, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 **Note:** These applications have dependencies on the following plugins:
 

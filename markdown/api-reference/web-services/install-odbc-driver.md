@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
@@ -45,9 +45,7 @@ Role required: local administrator \(client machine installation\), admin \(Serv
 
     \[Omitted image "sql-api-jvm-location.png"\] Alt text: Browse for JVM Location dialog showing bin\\server folder structure
 
-    **Note:**
-
-    The `jvm.dll` file location is required for the driver to work. You can enter it now or configure it later by navigating to **ServiceNow Live Connect - ODBC Manager** &gt; **Management Console** &gt; **Services** &gt; **\(Service\_Name\)** &gt; **Service Settings** &gt; **IP Parameters** and entering the path in the **ServiceJVMLocation** property.
+    **Note:** The `jvm.dll` file location is required for the driver to work. You can enter it now or configure it later by navigating to **ServiceNow Live Connect - ODBC Manager** &gt; **Management Console** &gt; **Services** &gt; **\(Service\_Name\)** &gt; **Service Settings** &gt; **IP Parameters** and entering the path in the **ServiceJVMLocation** property.
 
 6.  When prompted to create the ODBC data source, either accept the default values or customize the following fields:
 

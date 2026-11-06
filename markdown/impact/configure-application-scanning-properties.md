@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/configure-application-scanning-properties.html
 release: australia
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 keywords: [application scanning, Team Dev, Suite Scan, scan engine, push approval]
-breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure application scanning properties
@@ -45,13 +45,9 @@ Set filter conditions that align with your Team Dev governance requirements. Dif
 
     You can add and configure additional filter conditions by selecting **Add filter condition**. You can also add and configure OR clauses by selecting **Add OR clause**.
 
-    **Tip:** You can append filter conditions and OR clauses to existing conditions by selecting the AND or OR options next to them.
-
 5.  Select the **Enable Team Dev push approval enforcement** check box to require applications to meet approval conditions before push.
 
     When enabled, applications must meet the conditions specified in the **Conditions for Team Dev push approval** field.
-
-    **Warning:** Team Dev reviewers may be blocked from approving pushes until scanning validation is satisfied.
 
 6.  Configure the conditions for Team Dev push approval using the condition builder.
 
@@ -110,7 +106,7 @@ Allow Suite Scan for applications
 </table>8.  Select **Save**.
 
 
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 
 **Related topics**  
 

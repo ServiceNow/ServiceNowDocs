@@ -7,9 +7,9 @@ release: australia
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating Learning Core with third-party learning management systems, Configuring Learning Core, Learning Core, HR Service Delivery, Employee Service Management]
+breadcrumb: [Integrate with third-party systems, Configure, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate Learning Core flows

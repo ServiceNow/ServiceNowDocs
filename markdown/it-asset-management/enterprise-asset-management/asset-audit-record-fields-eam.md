@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [asset audit, inventory audit, audit record fields]
 breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]

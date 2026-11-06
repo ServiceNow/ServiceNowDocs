@@ -7,10 +7,10 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [App summary generation, AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [App summary generation, AI tools and files, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # ServiceNow Otto for app summary generation reference

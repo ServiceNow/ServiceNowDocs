@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/anomaly-detection-algorithm.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Anomalies detection in performance metrics, Real-time Instance health monitoring and analysis, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---

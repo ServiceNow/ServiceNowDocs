@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/associate-email-crm-outlook.html
 release: australia
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow CRM for Outlook, associate email, link email, log email]
 breadcrumb: [Activity Management, Sales automation apps, Use, Sales Customer Relationship Management]
@@ -76,7 +76,7 @@ If your admin has configured the AI sales activity association app, then emails 
 
 9.  View the associated record in the CRM by selecting **Open**.
 
-    You're redirected to the entity record in the CSM/FSM Configurable Workspace.
+    You're redirected to the entity record in the CRM Workspace.
 
 
 ## Result

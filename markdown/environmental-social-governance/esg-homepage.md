@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/esg-homepage.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -69,7 +69,7 @@ The Top Level Goals Summary section provides a more detailed view of the goals a
 
 ## Target summary by goal
 
-This section provides a summary of the targets by goals and their status, owners, measure, target value, actual value, progress, check in frequency, and who is the goal updated by.
+This section summarizes targets by goal, including status, owner, measure, target value, actual value, progress, check-in frequency, and updater.
 
 ## Disclosures
 

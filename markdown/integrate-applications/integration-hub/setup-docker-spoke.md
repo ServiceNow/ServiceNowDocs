@@ -22,7 +22,7 @@ Integrate the ServiceNow instance and Docker spoke by using the Docker Connectio
 -   Activate the Docker spoke.
 -   Role required: admin.
 
-## Configure a connection for Docker spoke
+## Configure a connection for the Docker spoke
 
 Add and configure a Docker connection to authenticate ServiceNow requests in Docker spoke.
 
@@ -53,8 +53,10 @@ Role required: admin
 
     | | |
     |---|---|
+    |Connection Information|
     |Connection Name|Name to uniquely identify the connection record. For example, `Docker connection`.|
     |Connection URL|IP address and port of the host server where Docker is installed. The format of the URL should be: `https://<ip_address>:<port_number>` or `https://<provider-domain-name>.com`.|
+    |Credential Information|
     |Repository Name|Name of the repository.|
     |User name|User name of your Docker account.|
     |Email|Email address used in your Docker account.|

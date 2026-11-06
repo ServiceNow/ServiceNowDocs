@@ -7,7 +7,7 @@ release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resolving errors, Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,7 +33,7 @@ Role required: admin
 
 3.  In the **When to send** tab, configure when the notification is sent.
 
-<table id="choicetable_t2s_vlq_qdc"><tbody><tr><td id="d623200e138">
+<table id="choicetable_t2s_vlq_qdc"><tbody><tr><td id="d630738e138">
 
 **Record is inserted or updated**
 
@@ -43,7 +43,7 @@ Role required: admin
 2.  Configure the conditions under which this notification is sent using the condition builder. The default condition is **\[Status\] \[is\] \[Replication Error\]**
 
 
-</td></tr><tr><td id="d623200e170">
+</td></tr><tr><td id="d630738e170">
 
 **Event is fired**
 
@@ -53,7 +53,7 @@ Role required: admin
 2.  Configure the conditions under which this notification is sent using the condition builder. The default condition is **\[Status\] \[is\] \[Replication Error\]**
 
 
-</td></tr><tr><td id="d623200e190">
+</td></tr><tr><td id="d630738e190">
 
 **Triggered**
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Gen AI, Generative AI, Catalog item generation, skill, Catalog Builder, Creator]
 breadcrumb: [AI Authoring for Catalog Builder reference, AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
@@ -27,7 +27,7 @@ This skill is available in the following workflow and product.
 
 |Workflow|Product|
 |--------|-------|
-|Creator|[Exploring ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-now-assist-for-creator.md)|
+|Creator||
 
 **Parent Topic:**[AI Authoring for Catalog Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
 

@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Virtual Agent, Transfer, conversation, Live Agent, apple, messages, advanced work assignment, AWA]
-breadcrumb: [Use, Conversational Integration with Apple Messages for Business, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use, Apple Messages for Business, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Transfer Apple Messages for Business chat conversations to live agents

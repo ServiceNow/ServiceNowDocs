@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configuring-a-group.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up assignment groups, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -64,5 +64,5 @@ Role required: user\_admin
 
 ### Result
 
-The roles are successfully added to the assignment group. You can now start associating these groups to a business organization \(formerly business location\). For more information, see [Associate a group to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-a-group-to-a-business-location-so.md).
+The roles are successfully added to the assignment group. You can now start associating these groups to a business location. For more information, see [Associate a group to a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-a-group-to-a-business-location-so.md).
 

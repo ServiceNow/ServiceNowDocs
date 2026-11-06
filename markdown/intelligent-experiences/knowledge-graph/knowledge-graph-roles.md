@@ -7,9 +7,9 @@ release: australia
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference for Knowledge Graph, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Reference for Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Knowledge Graph roles

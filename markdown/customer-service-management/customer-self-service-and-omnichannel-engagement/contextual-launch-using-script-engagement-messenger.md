@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Deep linking feature, Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Deep linking feature, Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Launch a feature in Engagement Messenger using custom code
@@ -28,7 +28,7 @@ Role required: ec\_admin and website administrator
 
 **Note:**
 
-If you’re using existing code, verify that you update the script to show `v=3.1`. For example:
+If you’re using existing code, verify that you update the script to show the latest version. For example:
 
 ```
 <script src="https://example.service-now.com/scripts/sn_csm_ec.js?v=3.1"></script>
@@ -44,15 +44,17 @@ SN_CSM_EC.init({
 
 1.  Navigate to **Engagement Messenger** &gt; **Modules**.
 
-2.  In the Configure Engagement Messenger Module, open the Implement tab.
+2.  Select the module.
 
-3.  Copy the code from the Embed code section.
+3.  In the Configure Engagement Messenger Module, open the Implement tab.
 
-4.  In a text editor, open the HTML file of the web page on your website where you integrate Engagement Messenger.
+4.  Copy the code from the Embed code section.
 
-5.  Paste the code that you copied before the closing body tag.
+5.  In a text editor, open the HTML file of the web page on your website where you integrate Engagement Messenger.
 
-6.  Define the feature context and specify the variables for the feature.
+6.  Paste the code that you copied before the closing body tag.
+
+7.  Define the feature context and specify the variables for the feature.
 
     Use the following format to define a feature context:
 
@@ -81,7 +83,7 @@ SN_CSM_EC.init({
 
         Name and value of a parameter associated with the feature. For more information, see [Feature context parameters supported in Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/contextual-launch-supported-features.md).
 
-7.  Create a custom wrapper function to pass the feature context to the `SN_CSM_EC.init` function of the embed code.
+8.  Create a custom wrapper function to pass the feature context to the `SN_CSM_EC.init` function of the embed code.
 
     For example, the following code uses the `chatFeatureContext()` custom wrapper function for the chat feature context.
 
@@ -99,7 +101,7 @@ SN_CSM_EC.init({
     }
     ```
 
-8.  Replace the `SN_CSM_EC.loadEMFeature()` function with a custom wrapper function that you created in [step 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/contextual-launch-using-script-engagement-messenger.md).
+9.  Replace the `SN_CSM_EC.loadEMFeature()` function with a custom wrapper function that you created in [step 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/contextual-launch-using-script-engagement-messenger.md).
 
     For example, in the following code, the `chatFeatureContext()` wrapper function is passed as the value of the `loadFeature` attribute.
 
@@ -111,9 +113,9 @@ SN_CSM_EC.init({
     
     ```
 
-9.  Save the file.
+10. Save the file.
 
-10. Verify that the designated feature launches.
+11. Verify that the designated feature launches.
 
     1.  Open the website in which you embedded Engagement Messenger.
 

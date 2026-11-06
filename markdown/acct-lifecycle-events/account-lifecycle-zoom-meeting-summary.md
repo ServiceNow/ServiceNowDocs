@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-zoom-meeting-summary.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Touchpoints, Customer success, Use, Customer Success Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to **Customer Success** &gt; **All Touchpoints**.
 

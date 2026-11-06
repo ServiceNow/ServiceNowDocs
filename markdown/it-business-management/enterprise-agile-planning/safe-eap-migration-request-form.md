@@ -7,8 +7,8 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Reference, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -40,6 +40,8 @@ EAP configuration
 
 Configuration in EAP that matches with your SAFe configuration.For example, if you're using Portfolio SAFe in your ServiceNow instance, select **Portfolio configuration**.
 
+ The **Portfolio configuration** option is available only when the Portfolio SAFe plugin is installed.
+
 </td></tr><tr><td>
 
 SAFe table
@@ -48,6 +50,8 @@ SAFe table
 
 Data from the SAFe table that you want to migrate to EAP.-   If you select **Portfolio**, the data from SAFe Portfolio tables, their immediate child ARTs, SAFe teams, and the iterations and work items associated with them will be migrated.
 -   If you select **ART**, the data from ART tables, their parent Portfolios, child SAFe teams, and the iterations and work items associated with them will be migrated.
+
+ The **Portfolio** option is available only with Portfolio configuration. With Essential configuration, you can select only **ART**.
 
 </td></tr><tr><td>
 
@@ -59,7 +63,7 @@ SAFe portfolios/ARTs that match the filter conditions will be displayed for sele
 
 </td></tr><tr><td>
 
-Records available for migration
+Records for migration
 
 </td><td>
 
@@ -71,11 +75,13 @@ PIs starting on or after
 
 </td><td>
 
-Program Increments with planned start date falling on or after the selected date are migrated.
+Program Increments with planned start date falling on or after the selected date are migrated.Sprints and features tied to Program Increments that start before the selected date are not migrated, so they don't appear in EAP. Features that have no Program Increment are migrated with their ART.
+
+If you leave this field empty, all Program Increments of the selected ARTs are migrated.
 
 </td></tr><tr><td>
 
-Work items update after
+Work items updated after
 
 </td><td>
 

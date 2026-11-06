@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Cloud Provisioning Blueprints, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -45,7 +45,7 @@ Role required: sn\_cmp.cloud\_service\_designer
 
 5.  Connect the container resource to the first resource to deploy.
 
-    To create a connection between resources, select the parent resource, click the connection pad in the resource, and then drop the connection in any resource with a dotted outline. The system does not allow certain connections \(for example, an AWS datacenter cannot host an ARM resource\).
+    To create a connection between resources, select the parent resource and click the connection pad. Then drop the connection in any resource with a dotted outline. The system does not allow certain connections \(for example, an AWS datacenter cannot host an ARM resource\).
 
 6.  Add and connect all resources that make up the blueprint.
 

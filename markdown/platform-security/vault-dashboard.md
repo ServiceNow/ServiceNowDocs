@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/vault-dashboard.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-26"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Vault]
 ---
 
@@ -17,6 +17,10 @@ Use the ServiceNow Vault console dashboard to track and manage your ServiceNow V
 The dashboard provides an easy way to review the security, privacy, and compliance of your sensitive data. The dashboard reports on ServiceNow Vault tools and their various metrics, as well as showing guided setup for applications compatible for ServiceNow Vault.
 
 To access the ServiceNow Vault console dashboard, navigate to **All** &gt; **Vault** &gt; **Vault Console**
+
+**Note:**
+
+If you open the dashboard without elevating to the `sn_vault_console.vault_console_admin` role, the dashboard is read-only. For more information, see [ServiceNow Vault roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-roles.md).
 
 ## Vault console dashboard page
 
@@ -34,9 +38,23 @@ Subsection
 
 Description
 
-</th></tr></thead><tbody><tr><td rowspan="4">
+</th></tr></thead><tbody><tr><td>
 
-Vault Overview, Resources, and ServiceNow Otto panel
+[Insights in ServiceNow Vault console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-insights.md)
+
+</td><td>
+
+AI-generated summary of Vault console metrics
+
+</td><td>
+
+Review a plain-language summary of your data security and a recommended next step for each area, without interpreting each chart.**Note:**
+
+Insights requires the ServiceNow Otto for Vault application. The section is hidden when ServiceNow Otto for Vault isn't active on your instance.
+
+</td></tr><tr><td rowspan="4">
+
+Vault Overview, Resources, and Ask Now Assist
 
 </td><td>
 
@@ -64,11 +82,11 @@ Get answers to commonly asked questions about ServiceNow Vault
 
 </td></tr><tr><td>
 
-ServiceNow Otto panel
+Ask Now Assist
 
 </td><td>
 
-Use generative AI to streamline your tasks in ServiceNow Vault. For example, you can ask ServiceNow Otto to schedule a data discovery job for you. Prerequisite: Enable skills in . For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md) and [Use generative AI skills in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/using-now-assist-vault.md).
+Use generative AI to streamline your tasks in ServiceNow Vault. For example, you can ask Now Assist to schedule a data discovery job for you. Prerequisite: Enable skills in AI Admin Hub console. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md) and [Use generative AI skills in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/using-now-assist-vault.md).
 
 </td></tr><tr><td>
 
@@ -121,7 +139,9 @@ Default policies and configurations
 For new users with a ServiceNow Vault subscription, ServiceNow Vault can create ready-to-use policies for Anonymization and configurations for Log Export Service. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-default-policies-configs.md).
 
 </td></tr></tbody>
-</table>-   **[Vault tools and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-tools.md)**  
+</table>-   **[Insights in ServiceNow Vault console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-insights.md)**  
+Insights uses AI to summarize the ServiceNow Vault console metrics and recommend a next step for each area of your data security.
+-   **[Vault tools and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-tools.md)**  
 Learn about the tools and metrics ServiceNow Vault uses to protect and discover sensitive data.
 -   **[Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-default-policies-configs.md)**  
 ServiceNow Vault has a set of ready-to-use policies and configurations for selected tools to help you get started quickly.

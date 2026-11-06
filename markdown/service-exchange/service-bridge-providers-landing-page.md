@@ -1,22 +1,22 @@
 ---
 title: Service Exchange for Providers
-description: Use the Service Exchange for Providers application to create and publish service catalogs, receive and fulfill consumer requests, and integrate with consumer instances.
+description: Use the Service Exchange for Providers application to create and publish catalogs of services, receive, and fulfill requests generated from consumers, and establish integrations with consumer instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-providers-landing-page.html
 release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Exchange]
 ---
 
 # Service Exchange for Providers
 
-Use the Service Exchange for Providers application to create and publish service catalogs, receive and fulfill consumer requests, and integrate with consumer instances.
+Use the Service Exchange for Providers application to create and publish catalogs of services, receive, and fulfill requests generated from consumers, and establish integrations with consumer instances.
 
-## Service Exchange overview
+## Service Exchange Overview
 
 As a provider, you can:
 
@@ -30,7 +30,7 @@ As a provider, you can:
 
 </td><td>
 
-[Use for providers\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn how to use Service Exchange for providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-administer.md)
+[User for providers\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn how to use Service Exchange for providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-administer.md)
 
 </td></tr></tbody>
 </table>If you’re a consumer, see [Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-consumers-landing-page.md).

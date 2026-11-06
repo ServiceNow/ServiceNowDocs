@@ -7,7 +7,7 @@ release: australia
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Types of content blocks, Content blocks, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -39,7 +39,7 @@ Anyone who edits their own HTML, Jelly, or Javascript may find the HTML editor i
     |Frame|Select a border styling for the static HTML block. For more information, see [Format a frame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/content-management-system/t_Frame.md).|
     |Active|Select this check box to make the block available for use.|
     |Conditional|Enter any scripted conditions to be applied. If selected, adds a **Condition** script field and **Logged on** check box to the form.|
-    |Static Content|Enter HTML code that determines the behavior of the static HTML block.|
+    |Static Content|Enter [HTML code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseHTMLFields.md) that determines the behavior of the static HTML block.|
 
 4.  Click **Submit**.
 

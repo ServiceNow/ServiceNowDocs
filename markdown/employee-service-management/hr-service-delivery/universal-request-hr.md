@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ A universal request gets created when an employee clicks the **Request help** op
 
 At any point in time, the HR agent can [transfer the HR case back](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/route-ur-hr-case.md) to the universal request queue with or without resolution.
 
-All the important details, such as, users who are working on the issue, inter-department transfers, and work notes, are recorded in the universal request ticket, providing complete visibility to the employee who has raised the request.
+All important details are recorded in the universal request ticket. These include the users working on the issue, inter-department transfers, and work notes. This gives the employee who raised the request complete visibility.
 
 ## Activating the necessary plugins
 
@@ -33,9 +33,9 @@ After you have activated the Universal Request \(com.snc.universal\_request\), H
 -   The **Transfer** button appears on the HR case form to let an HR agent transfer an HR case back to Universal Request, another department, or service.
 -   An HR case created from a record producer automatically creates a universal request. It happens only when the **Create Universal Request** check box is enabled on the record producer.
 
-    Similarly in the Create a test case topic block, if the **Create Universal Request**check box is enabled on the record producer, then a universal request ticket is created and shared with the employee on the Virtual Agent conversation.
+    In the Create a test case topic block, enable the **Create Universal Request** check box on the record producer. When it is enabled, a universal request ticket is created. The ticket is shared with the employee in the Virtual Agent conversation.
 
--   When an HR case associated to a universal request goes through a state change, a notification is sent to the employee \(requester\) with the universal request number and not the HR case number.
+-   When an HR case associated with a universal request changes state, the system sends a notification to the employee \(requester\). The notification includes the universal request number, not the HR case number.
 -   On ServiceNow AI Platform, HR cases that are associated with Universal Request appear under **HR Case Management** &gt; **All**.
 -   On Employee Center, HR requests that are associated with Universal Request appear under **Employee Center** &gt; **Requests**.
 

@@ -19,7 +19,7 @@ Submit and track contract, amendment, and renewal requests using a record produc
 
 Standalone contract requests are submitted using a record producer form that guides you through entering all required contract details. The record producer form allows you to save your work as a draft and return to complete it later. Standalone requests aren't linked to a parent record such as a purchase requisition or sourcing event.
 
-## Methods to submit a request
+## Entry points
 
 You can access the record producer from the following entry points based on your role:
 
@@ -80,7 +80,7 @@ Submit a new own paper contract request using a record producer form from Employ
 Submit a new third-party paper contract request using a record producer form from Employee Center or a contract listing page without linking to a parent record.
 -   **[Submit a standalone amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-sa-amendment.md)**  
 Submit an amendment request from Employee Center or a contract listing page to modify an existing active contract.
--   **[Submit a renewal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-sa-renewal.md)**  
+-   **[Submit a standalone renewal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-sa-renewal.md)**  
 Submit a renewal request from Employee Center to renew an existing contract.
 -   **[View and track standalone contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-sa-track-req.md)**  
 View the details of a contract request after it has been submitted and track the activities in the request.

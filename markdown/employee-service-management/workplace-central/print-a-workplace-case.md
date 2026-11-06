@@ -7,8 +7,8 @@ release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-25"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Working with Case management, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -60,10 +60,4 @@ Role required: sn\_wsd\_case.case\_reader, sn\_wsd\_case.case\_writer, sn\_wsd\_
 [Managing print case]()
 
 [Cancel or delete a case]()
-
-[Manage workplace cases in calendar view in Workplace Central]()
-
-[Workplace cases in List view in Workplace Central]()
-
-[View facility assets in Workplace Central]()
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-sales-common-for-partner-relationship-management.html
 release: australia
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-The Sales Common for Channel Partners plugin acts a parent plugin for all the Lead to Cash Core workflows.
+The Sales Common for Channel Partners plugin acts a parent plugin for all the CRM Core workflows.
 
 The following items are installed with the Sales Common for Channel Partners \(com.snc.partner\_relationship\_management\_sales\_common\) plugin:
 
@@ -47,15 +47,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d78593e137">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d81331e137">
 
 Demo data install task
 
-</th><th align="left" id="d78593e140">
+</th><th align="left" id="d81331e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d78593e146">
+</th></tr></thead><tbody><tr><td id="d81331e146">
 
 **If demo data is available and you want to install it**
 
@@ -65,7 +65,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d78593e176">
+</td></tr><tr><td id="d81331e176">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
@@ -91,7 +91,7 @@ The Sales Common for Channel Partners plugin \(com.snc.partner\_relationship\_ma
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 

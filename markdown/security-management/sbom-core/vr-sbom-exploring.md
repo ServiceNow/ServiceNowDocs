@@ -7,7 +7,7 @@ release: australia
 product: SBOM Core
 classification: sbom-core
 topic_type: concept
-last_updated: "2026-04-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
@@ -121,7 +121,7 @@ v6.0, v5.0, v4.0
 
  Starting with version 4.0, SBOM Core supports:
 
- -   XML and JSON versions 1.0 through 1.6 of CycloneDX.
+ -   XML and JSON versions 1.5 through 1.6 of CycloneDX.
 -   JSON versions 2.2 through 2.3 of SPDX.
 
 </td></tr><tr><td>
@@ -158,7 +158,7 @@ SBOM Response
 
 </td><td>
 
--   Data Model for SBOM: v1.4 and later.
+-   Data Model for SBOM: v1.5 and later.
 -   SBOM Core: v3.0 and later.
 -   SBOM Response: v4.0 and later.
 

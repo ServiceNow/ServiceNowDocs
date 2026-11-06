@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/using-standard-chat-mobile.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI, Virtual Agent]
 breadcrumb: [Using Otto, ServiceNow Otto for Mobile, Mobile Platform]
@@ -106,7 +106,7 @@ You can find information about people in your organization if you have Knowledge
 
 For more detailed information on all of standard chat’s specific skills, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-standard-chat.md).
 
-For information on configuring Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+For information on configuring Virtual Agent, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 **Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-now-assist-mobile.md)
 

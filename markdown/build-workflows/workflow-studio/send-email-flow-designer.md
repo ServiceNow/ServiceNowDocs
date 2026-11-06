@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -44,7 +44,7 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     To send email to a group, you must provide a **Group email** address. To send email to group members, the group must have the **Include members** option enabled.
 
-    **Note:** The number of email recipients must be equal to or less than the maximum number set by the glide.email.smtp.max\_recipients system property. See [Minimize SMTP Recipient Quantity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sc-max-smtp-recipients.md) for information about setting this value.
+    **Note:** The number of email recipients must be equal to or less than the maximum number set by the glide.email.smtp.max\_recipients system property. See  for information about setting this value.
 
 -   **CC**
 
@@ -84,7 +84,7 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
 ## Configuring instance Email
 
-For information about configuring your instance to send and receive email messages, see [Configure email administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-email-admin.md).
+For information about configuring your instance to send and receive email messages, see .
 
 ## Testing the email action
 

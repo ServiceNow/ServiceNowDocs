@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -25,8 +25,6 @@ Role required: evt\_mgmt\_admin, flow\_designer
 Copy an existing subflow, and then customize it. Publish the custom subflow so that it is available to be used to resolve any alert. For more information, see [Create a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-subflow.md).
 
 **Note:** If your ServiceNow instance uses domain separation, you must ensure that the new custom subflow that you created operates only on the data of the designated domain.
-
-To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/respond-alert-sow-itom.md).
 
 ## Procedure
 

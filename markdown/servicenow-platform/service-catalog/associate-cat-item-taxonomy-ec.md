@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog in Employee Center portal, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,11 +24,11 @@ Role required: admin
 
 You must associate your catalog items that you want to display in the Employee Center with a taxonomy topic.
 
-By default, Employee Center application ships employee-centric taxonomy and taxonomy topics for IT, HR, Workplace, Legal, and Procurement. You can use the default IT taxonomy to associate your catalog items or you can clone a taxonomy to make your own additions or modifications to the default topic structure that matches your requirements. To clone a taxonomy, refer to the steps mentioned in the [Clone taxonomy for employee content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/clone-taxonomy-content.md) topic.
+By default, Employee Center application ships employee-centric taxonomy and taxonomy topics for IT, HR, Workplace, Legal, and Procurement. You can use the default IT taxonomy to associate your catalog items or you can clone a taxonomy to make your own additions or modifications to the default topic structure that matches your requirements. To clone a taxonomy, refer to the steps mentioned in the Clone taxonomy for employee content topic.
 
-You can associate your existing or new catalog items with a taxonomy topic directly from the Content Taxonomy also. To associate your existing or new catalog items with a taxonomy topic, refer to the steps mentioned in the [Associate connected content to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/associate-content-to-topics.md) topic.
+You can associate your existing or new catalog items with a taxonomy topic directly from the Content Taxonomy also. To associate your existing or new catalog items with a taxonomy topic, refer to the steps mentioned in the Associate connected content to a topic topic.
 
-For more information about Unified taxonomy, see [Unified taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/config-taxonomy.md).
+For more information about Unified taxonomy, see Unified taxonomy for Employee Center.
 
 To associate a catalog item from the Service Catalog:
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-oauth-inbound-integration-mcp-client.html
 release: australia
 topic_type: task
-last_updated: "2025-11-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Connect, MCP Server Console, Enable AI experiences]
+breadcrumb: [Connect, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Create an OAuth inbound integration for an MCP client
@@ -68,7 +68,7 @@ Redirect URLs
 
 </td><td>
 
-Enter the redirect URL for a client. The authorization code is sent to this URL after authentication. To get the redirect URL, refer to the documentation for your AI application and client.To connect to the ServiceNow MCP client on another instance, use the following redirect URL: `https://<client-instance>.service-now.com/oauth_redirect.do`. For more information, see the [Model Context Protocol Client Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mcp-client.md) documentation.
+Enter the redirect URL for a client. The authorization code is sent to this URL after authentication. To get the redirect URL, refer to the documentation for your AI application and client.To connect to the ServiceNow MCP client on another instance, use the following redirect URL: `https://<client-instance>.service-now.com/oauth_redirect.do`. For more information, see the [Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mcp-client.md) documentation.
 
 </td></tr><tr class="sub-head"><td colspan="2">
 

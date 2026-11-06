@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/c\_DomainSeparationAdministration.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setup and administration, Domain separation for service providers, Access Management]
 ---
@@ -48,8 +48,6 @@ The Domain Separation plugin has two new tables to give service providers more f
 [Enable or disable a domain]()
 
 [Add a domain field to a table]()
-
-[View upgraded processes or records in the global domain]()
 
 [View domain relationships]()
 

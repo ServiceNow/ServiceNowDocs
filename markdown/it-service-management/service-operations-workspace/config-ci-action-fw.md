@@ -1,5 +1,5 @@
 ---
-title: Configure CI Actions
+title: Configure CI actions
 description: Configure the CI Action Framework to add a new CI action or modify an existing one.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/config-ci-action-fw.html
@@ -7,16 +7,20 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Configure CI Actions
+# Configure CI actions
 
 Configure the CI Action Framework to add a new CI action or modify an existing one.
 
 ## Before you begin
+
+**Important:**
+
+Starting with the Brazil release, Microsoft Endpoint Configuration Manager for Investigation and Agent Client Collector for Investigation are being prepared for future deprecation. They will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_cimaf.sn\_cimaf\_admin
 
@@ -26,7 +30,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
     This table contains the list of all CI actions.
 
-2.  Create a CI Action.
+2.  Create a CI action.
 
     1.  Select **New** to create a record.
 
@@ -161,7 +165,7 @@ Duplicate request time limit \(seconds\)
 
 </td><td>
 
-Sets the number of seconds to prevent the execution of duplicate action requests when one with the same parameters is already in progress.
+Number of seconds during which the system helps prevent execution of duplicate action requests that have the same parameters as a request already in progress.
 
 </td></tr></tbody>
 </table>    3.  Select **Submit**.
@@ -174,7 +178,7 @@ Sets the number of seconds to prevent the execution of duplicate action requests
 
         You can also select an existing record to modify the steps record.
 
-        A list of provider-specific action configuration table is displayed, such as Agent Client Collector \(ACC\) Action Configuration and Microsoft Endpoint Configuration Manager \(MECM\) Action Configuration.
+        A list of provider-specific action configuration tables is displayed, such as Agent Client Collector \(ACC\) Action Configuration and Microsoft Endpoint Configuration Manager \(MECM\) Action Configuration.
 
     2.  Select the provider for which you want to create an adapter configuration.
 
@@ -220,7 +224,7 @@ Check definition
 
 </td><td>
 
-Check definition that is used for the execution and handling the output of the command. For example, remedial-action.**Note:** This is applicable only if the provider is Agent Client Collector for Investigation.
+Check definition that is used for executing the command and handling its output. For example, remedial-action.**Note:** This is applicable only if the provider is Agent Client Collector for Investigation.
 
 </td></tr><tr><td>
 

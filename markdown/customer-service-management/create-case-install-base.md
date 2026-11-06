@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-case-install-base.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -26,7 +26,7 @@ Install base enables you to track which instances have been provisioned for your
 
 1.  Navigate to the Customer Service homepage.
 
-2.  Click **Create Case for Install Base**.
+2.  Select **Create Case for Install Base**.
 
 3.  Fill out the fields on the form, as required.
 
@@ -87,7 +87,7 @@ A more detailed description of the customer question, issue, or problem.
 
 4.  Select **Submit**.
 
-    The case is created, assigned a case number, and added to the user's case list. Click **My Cases** at the top of the customer portal to view the Cases list.
+    The case is created, assigned a case number, and added to the user's case list. Select **My Cases** at the top of the customer portal to view the Cases list.
 
 
 **Related topics**  

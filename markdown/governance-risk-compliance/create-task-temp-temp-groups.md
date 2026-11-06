@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-task-temp-temp-groups.html
 release: australia
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring plan template, Setup for a BCP, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_bcm.admin
 
 5.  To inspect a recovery task template, open it from the **Recovery task templates** list.
 
-    The template form includes the same recovery task fields as a non-template task: Dependencies, Phase, Task classification, Tag, Configuration item, Asset recovery level, Tag assets, and Include task in. The **Plan templates**, **Loss scenarios**, and **Recovery strategies** related lists show every parent the template is currently attached to. For field-level details, see [Task template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/task-template-form.md).
+    The template form exposes the same recovery task fields as a non-template task: Dependencies, Phase, Task classification, Tag, Configuration item, Asset recovery level, Tag assets, and Include task in. The **Plan templates**, **Loss scenarios**, and **Recovery strategies** related lists show every parent the template is currently attached to. For field-level details, see [Task template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/task-template-form.md).
 
     \[Omitted image "recovery-task-template-form.png"\] Alt text: Recovery task template form with related lists for Plan templates, Loss scenarios, and Recovery strategies.
 

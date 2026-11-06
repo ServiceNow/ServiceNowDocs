@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: reference
-last_updated: "2026-03-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
@@ -26,7 +26,7 @@ ServiceNow supports a variety of SQL functions for querying and analyzing data i
 |Aggregate Fn|COUNT|Count total open incidents by priority level|`SELECT priority, COUNT (*) AS incident_count FROM incident WHERE state IN (1,2,3) GROUP BY priority;`|
 |Aggregate Fn|SUM|Calculate total number of updates across all P1 incidents|`SELECT SUM(sys_mod_count) AS total_updates FROM incident WHERE priority = 1;`|
 |Aggregate Fn|MAX|Find the highest priority value in open incidents|`SELECT MAX(priority) AS highest_priority FROM incident WHERE state IN (1,2,3);`|
-|Clauses|CASE|Categorize incidents by priority for dashboard visualization|`SELECT number, CASE WHEN priority = 1 THEN 'Critical' WHEN priority = 2 THEN 'High' WHEN priority = 3 THEN 'Medium' ELSE 'Low' END AS priority_label FROM incident WHERE state IN (1,2,3);`|
+|Clauses|CASE|Categorize incidents by priority for dashboard visualization|`SELECT number, CASE WHEN priority = 1 THEN 'Critical' WHEN priority = 2 THEN 'High' WHEN priority = 3 THEN 'Medium' ELSE 'Low' END AS priority_label FROM incident;`|
 |Clauses|TOP|Identify top 10 most modified incidents for quality review|`SELECT TOP 10 number, sys_mod_count FROM incident ORDER BY sys_mod_count DESC;`|
 |Clauses|GROUP BY|Analyze incident volume by category for trending|`SELECT category, COUNT(*) AS count FROM incident WHERE state IN (1,2,3) GROUP BY category;`|
 |Clauses|HAVING|Find assignment groups with more than 50 open incidents for capacity planning|`SELECT assignment_group , COUNT(*) AS open_count FROM incident WHERE state IN (1,2,3) GROUP BY assignment_group HAVING COUNT(*) > 50;`|

@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Technology Manager, Operational Technology]
 ---
@@ -30,7 +30,7 @@ The Operational Technology Manager plugin installs the following script includes
 |SGOTDeviceTransformUtil|A collection of transform utility methods for OT Service Graph Connectors.|
 |SGOTDataStreamBase|Base pattern to invoke a specific data stream with given inputs.|
 |SGOTTroubleShootHelper|Helper methods for validating the Service Graph Connector configurations.|
-|OTAssetFilterAjax|A utility client script to filter out application records and OT Control Modules from the All OT Devices list view in the Industrial Workspace.|
+|OTAssetFilterAjax|A utility client script to filter out application records and OT `Control` Modules from the All OT Devices list view in the Industrial Workspace.|
 |OTBulkEditHandler|Server side script to handle the IT to OT bulk edit \(contextualization\) and the OT device details bulk edit that are triggered through the Flow Actions and scheduled jobs.|
 |Extension Points|
 |SGOTDeviceImportExtensionPoint|SG OT Device Import Extension Point which includes two methods: 1. getDeviceCMDBClassNameWithSysId; 2. getComputerType.|

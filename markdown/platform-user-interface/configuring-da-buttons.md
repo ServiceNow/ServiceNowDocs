@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configuring-da-buttons.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -14,15 +14,11 @@ breadcrumb: [Declarative actions, Administer, Configurable Workspace UI, Configu
 
 Configure declarative action buttons to perform actions.
 
--   **[Configure a declarative action with the Now Assist icon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/create-da-buttons-now-assist-icon.md)**
-
-    Configure a declarative action button with the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text:\) and hover animation.
-
 -   **[Trigger a UI interaction as a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-da-ui-interactions.md)**
 
     Trigger a UI interaction from a declarative action to extend a page without taking ownership.
 
--   **[Configure a form action layout on a workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-da-action-layout.md)**
+-   **[Configure a form action layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-da-action-layout.md)**
 
     Add a UX Form Actions Layout to a workspace page in UI Builder.
 

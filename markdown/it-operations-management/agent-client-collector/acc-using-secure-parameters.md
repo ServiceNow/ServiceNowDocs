@@ -1,20 +1,20 @@
 ---
 title: Secure parameters in Agent Client Collector
-description: Secure parameters in Agent Client Collector \(ACC\) refers to securely passing sensitive data, such as user names, passwords, and API keys, during check execution, without exposing the sensitive data in the command line. Parameters are passed to the script through standard input \(STDIN\), hiding them from logs or any process that might capture command-line arguments.
+description: Secure parameters in Agent Client Collector \(ACC\) refers to securely passing sensitive data, such as user names, passwords, and API keys, during check execution. Sensitive data is not exposed in the command line. Parameters are passed to the script through standard input \(STDIN\), hiding them from logs or any process that might capture command-line arguments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-using-secure-parameters.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Secure parameters in Agent Client Collector
 
-Secure parameters in Agent Client Collector \(ACC\) refers to securely passing sensitive data, such as user names, passwords, and API keys, during check execution, without exposing the sensitive data in the command line. Parameters are passed to the script through standard input \(STDIN\), hiding them from logs or any process that might capture command-line arguments.
+Secure parameters in Agent Client Collector \(ACC\) refers to securely passing sensitive data, such as user names, passwords, and API keys, during check execution. Sensitive data is not exposed in the command line. Parameters are passed to the script through standard input \(STDIN\), hiding them from logs or any process that might capture command-line arguments.
 
 Depending on the coding language in use, implementation of secure parameters may vary. For example, in Linux’s Bash, the `read` command \(`read <variable_name>`\) is used, populating `<variable_name>` with the value entered in STDIN.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-create-imp-record.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin, sn\_acct\_lc.
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to the **Customer Success Management** &gt; **All Implementation Records** and select **New**.
 
@@ -258,7 +258,7 @@ Enter any additional information in the Close notes field.
 
     After the record has been created, you can view the implementation record under the Related Items list on the Engagement home page
 
-5.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+5.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 6.  Navigate to the **Customer Success** &gt; **All Engagements** and open an engagement record.
 

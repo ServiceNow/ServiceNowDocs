@@ -7,7 +7,7 @@ release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Maintaining privacy consent in Employee Readiness Core, Employee Readiness Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---

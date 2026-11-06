@@ -1,5 +1,5 @@
 ---
-title: Configure a tag policy for Tag Governance
+title: Configure tag policies
 description: Configure tag policies that define the criteria for tag audits on discovered cloud resources or CIs. View audit results on tag quality and compliance on the Tag Health dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/tag-governance/configure-tag-governance-policy.html
@@ -7,12 +7,12 @@ release: australia
 product: Tag Governance
 classification: tag-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Establish policies, Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure a tag policy for Tag Governance
+# Configure tag policies
 
 Configure tag policies that define the criteria for tag audits on discovered cloud resources or CIs. View audit results on tag quality and compliance on the Tag Health dashboard.
 

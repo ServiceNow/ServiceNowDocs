@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/setup-fso-socure-spoke.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up, Socure, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -20,6 +20,6 @@ Role required: admin
 
 ## Procedure
 
-1.  To set up the Socure spoke, follow the instructions in Set up the Socure spoke.
+1.  To set up the Socure spoke, follow the instructions in [Set up the Socure spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-socure.md).
 
 

@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Variables supported in HTML document templates, Document Templates of type HTML, Configuring Document Templates, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Customize variables at a record producer level, and call out those variables in 
 
 ## Before you begin
 
-Role required: sn\_doc.admin
+Role required: admin
 
 ## Procedure
 
@@ -31,5 +31,9 @@ Role required: sn\_doc.admin
     Call out the customized variables in the HTML template body by typing in the variable in this format, for example, $ \{variables.start\_date\).
 
     **Note:** start\_date refers to the exact **Name** of the variable in the **Variables** list in the record producer.
+
+    1 refers to variables from the table selected in the HTML document template.
+
+    2 refers to customized variables from the variable list in the record producer.
 
 

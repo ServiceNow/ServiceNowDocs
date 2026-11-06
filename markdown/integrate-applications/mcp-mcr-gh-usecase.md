@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/mcp-mcr-gh-usecase.html
 release: australia
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manual client registration, Model Context Protocol connectors, Build integrations with connectors, Connect, Workflow Data Fabric]
+breadcrumb: [Manual client registration, Model Context Protocol connectors, Build integrations with connectors, Connect, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
 # Manual client registration use case: GitHub

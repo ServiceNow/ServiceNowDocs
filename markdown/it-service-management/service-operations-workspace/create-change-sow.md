@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: itil or admin
 
 1.  Create a new change request.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d182861e55">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d306778e55">
 
 Source
 
-</th><th align="left" id="d182861e58">
+</th><th align="left" id="d306778e58">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d182861e64">
+</th></tr></thead><tbody><tr><td id="d306778e64">
 
 **Change list**
 
@@ -50,7 +50,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d182861e100">
+</td></tr><tr><td id="d306778e100">
 
 **From a change template**
 
@@ -71,7 +71,7 @@ Description
 
 For more information on change templates, see [Create and propose a change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-change-template-sow.md).
 
-</td></tr><tr><td id="d182861e165">
+</td></tr><tr><td id="d306778e165">
 
 **Incident**
 
@@ -81,7 +81,7 @@ For more information on change templates, see [Create and propose a change templ
 2.  In the incident record form, select **Create change request**.
 
 
-</td></tr><tr><td id="d182861e187">
+</td></tr><tr><td id="d306778e187">
 
 **Interaction**
 
@@ -91,7 +91,7 @@ For more information on change templates, see [Create and propose a change templ
 2.  In the interaction record form, from the **Create incident** drop-down list, select **Create change**.
 
 
-</td></tr><tr><td id="d182861e211">
+</td></tr><tr><td id="d306778e211">
 
 **Problem**
 
@@ -149,7 +149,7 @@ DevOps or DevOps Simplified
 Change model used for DevOps change requests.To use the DevOps models, you must activate the DevOps Change Velocity application.
 
 </td></tr></tbody>
-</table>    For more information, see .
+</table>    For more information, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-a-change-model.md).
 
     **Note:** When you create a change request from an interaction, only pre-approved change types are available.
 

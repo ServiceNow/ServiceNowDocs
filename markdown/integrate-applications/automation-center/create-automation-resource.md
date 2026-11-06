@@ -7,9 +7,9 @@ release: australia
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and define, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Create an automation resource
@@ -57,7 +57,7 @@ Automation resource types:
 
 \(Optional\) Create an automation goal. For more information, see [Create an automation goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-automation-goal.md).
 
-**Parent Topic:**[Create and define](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-and-define.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automations.md)
 
 **Related topics**  
 

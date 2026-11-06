@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile Experience for Security Incident Response, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -42,15 +42,15 @@ From the list of records, assign an open, unassigned security incident to yourse
 
 5.  Choose one from the menu to continue.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d235363e156">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d236646e156">
 
 Option
 
-</th><th align="left" id="d235363e159">
+</th><th align="left" id="d236646e159">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d235363e165">
+</th></tr></thead><tbody><tr><td id="d236646e165">
 
 **Assign to Me**
 
@@ -58,7 +58,7 @@ Description
 
 Assign the security incident to yourself. If the security incident is already assigned to you, this option is not displayed.
 
-</td></tr><tr><td id="d235363e174">
+</td></tr><tr><td id="d236646e174">
 
 **Reassign**
 
@@ -77,15 +77,15 @@ To assign or reassign the assignment group:1.  Tap **Assignment group**.
 
 7.  On the open record that is displayed, choose one option from the following table to continue.
 
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d235363e232">
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d236646e232">
 
 Option
 
-</th><th align="left" id="d235363e235">
+</th><th align="left" id="d236646e235">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d235363e241">
+</th></tr></thead><tbody><tr><td id="d236646e241">
 
 **Menu icon**
 
@@ -95,7 +95,7 @@ From the menu that is displayed, choose from the following options.-   Tap **Edi
 -   To assign or reassign the incident, tap **Reassign** or **Assign to Me**. Follow the instructions described in the previous table.
  After you complete your edits, tap **Submit** to save your changes and update the security incident.
 
-</td></tr><tr><td id="d235363e274">
+</td></tr><tr><td id="d236646e274">
 
 **Activity Stream tab**
 
@@ -103,7 +103,7 @@ From the menu that is displayed, choose from the following options.-   Tap **Edi
 
 With the Activity Stream tab selected, review the audit trail of work notes, activities, and additional comments of the record. Tap the plus icon to add a work note or attach a file.
 
-</td></tr><tr><td id="d235363e286">
+</td></tr><tr><td id="d236646e286">
 
 **Related List tab**
 
@@ -113,7 +113,7 @@ With the Related List tab selected, view the items on any of the Related Lists t
 
  Tap an item on the list that is displayed to view the details for a related list. From the lists of items that are displayed, tap an item to continue to view the activity streams and related lists associated with the parent security incident.
 
-</td></tr><tr><td id="d235363e301">
+</td></tr><tr><td id="d236646e301">
 
 **Screen icons at the bottom of the screen.**
 

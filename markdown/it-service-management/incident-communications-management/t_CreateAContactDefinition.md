@@ -7,9 +7,9 @@ release: australia
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Incident Communications Management and Contacts, Managing Incident Communications, Incident Communications Management, IT Service Management]
+breadcrumb: [Incident Communications Management and contacts, Managing incident communications, Incident Communications Management, IT Service Management]
 ---
 
 # Create a contact definition
@@ -26,7 +26,7 @@ Role required: ia\_admin or admin
 
     **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
-2.  Click **New**.
+2.  Select **New**.
 
     \[Omitted image "CreateContactDefinition.png"\] Alt text: Contact definition form
 
@@ -54,7 +54,7 @@ Type
 
 </td><td>
 
-Type of contact such as user or group that you want to involve in the plan.
+Type of contact, such as user or group, to involve in the plan.
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Source
 
 Method to determine the user or group to associate with this definition.The source can be:
 
--   **None**: Use no association. You should associate users or groups [manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/t_AddAContactManually.md) within the Incident Communication Plan form.
+-   **None**: No automatic association. Associate users or groups [manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/t_AddAContactManually.md) within the Incident Communication Plan form.
 -   **Default Override**: Use [default override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/t_CreateADefaultOverride.md) to associate users or groups based on conditions.
 -   **Form Field**: Use information from the incident communication plan form based on the value specified in the **Source field**.
 
@@ -83,7 +83,7 @@ Quantity
 
 </td><td>
 
-The maximum number of contacts that can be associated with the selected responsibility for each incident communication plan record. **Note:** The **Quantity** field appears only when you select **None** as the value for the **Source** field.
+Maximum number of contacts that can be associated with the selected responsibility for each incident communication plan record. **Note:** The **Quantity** field appears only when you select **None** as the value for the **Source** field.
 
 </td></tr><tr><td>
 
@@ -91,9 +91,9 @@ Source field
 
 </td><td>
 
-The field on the Incident Communication Plan form whose value is considered to be the contact associated with the selected contact responsibility.-   For contact type as **User**, the values are **Assigned to**, **Closed by**, **Opened by**, or **Resolved by**.
--   For contact type as **Group**, the value is **Assignment group**.
- **Note:** The **Source field** appears only when you select **Form field** as the value for the **Source** field.
+Field on the Incident Communication Plan form whose value is used as the contact for the selected contact responsibility.-   For the **User** contact type, the values are **Assigned to**, **Closed by**, **Opened by**, or **Resolved by**.
+-   For the **Group** contact type, the value is **Assignment group**.
+ **Note:** The **Source field** appears only when you select **Form Field** as the value for the **Source** field.
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ Active
 
 </td><td>
 
-Check box to indicate whether the definition is active or not.
+Check box that, when selected, makes the definition active.
 
 </td></tr><tr><td>
 
@@ -109,18 +109,18 @@ Condition
 
 </td><td>
 
-The conditions that must be met to associate this contact definition to a particular user or group. If multiple conditions are defined, each condition is evaluated in the order listed.
+Conditions that must be met to associate this contact definition with a particular user or group. If multiple conditions are defined, each condition is evaluated in the order listed.
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Incident Communications Management and Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/c_IncidentAlertContact.md)
+**Parent Topic:**[Incident Communications Management and contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/c_IncidentAlertContact.md)
 
 **Related topics**  
 
 
-[Responsibilities for Incident Communication Plan]()
+[Contact responsibilities for incident communication plans]()
 
 [Define contact responsibilities]()
 

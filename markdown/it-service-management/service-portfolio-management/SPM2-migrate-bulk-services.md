@@ -7,7 +7,7 @@ release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-03-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
@@ -27,7 +27,7 @@ You can convert services individually but to reduce manual overhead, convert mul
 -   Business service table \[cmdb\_ci\_service\_business\]
 -   Technology management service table \[cmdb\_ci\_service\_technical\]
 
-**Note:** Starting with the Australia release, the \[cmdb\_ci\_service\_technical\] table is labeled Technology Management Service in the user interface \(formerly labeled Technical service\). Additionally, the \[service\_offering\] table is labeled Technology Management Offering in the user interface \(formerly labeled Technical service offering\).
+**Note:** Starting with the Brazil release, the \[cmdb\_ci\_service\_technical\] table is labeled Technology Management Service in the user interface \(formerly labeled Technical service\). Additionally, the \[service\_offering\] table is labeled Technology Management Offering in the user interface \(formerly labeled Technical service offering\).
 
 When you convert a service, the record and all its relationships remain intact.
 

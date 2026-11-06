@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/usage-and-adoption.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Now Assist, genAI, Generative AI, adoption, indicators, usage, actions]
-breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Usage and adoption
@@ -91,8 +91,6 @@ The indicators on the Usage and adoption dashboard page provide the following in
     This area of the dashboard shows the number of AI actions, number of feedback provided by users of AI actions, and number of AI actions with positive feedback in the selected date range.
 
     \[Omitted image "naa-feedback-details.png"\] Alt text: Feedback details indicator.
-
-    For more information on granular feedback data and the analytics data model, see [Granular Feedback and Analytics in Now Assist Virtual Agent](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3060968) on Now Support.
 
 -   **Error details**
 

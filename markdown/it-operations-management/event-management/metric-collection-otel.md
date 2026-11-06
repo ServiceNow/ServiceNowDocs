@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 5
 breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -26,6 +26,7 @@ Ensure that you:
 -   Configure and start the MID Web Server. See [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-mid-web-server-extension.md).
 -   To activate metric collection, ensure that the MID Server that retrieves metrics is configured with the Metric Intelligence extension and that the extension is in Started mode. See [Manually configure the Metric Intelligence extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/metric-intelligence/configure-itoa-metric-extension.md).
 -   Enable the rest listener.
+-   Install the [Discovery and Service Mapping Patterns](https://store.servicenow.com/store/app/851a63e21b246a50a85b16db234bcb70) plugin if you want Kubernetes CI tables.
 
 Role required: evt\_mgmt\_admin
 
@@ -33,7 +34,7 @@ Role required: evt\_mgmt\_admin
 
 Protobuf and JSON formatted metrics are sent from Opentelemetry. The MID Server transforms the collected metrics by parsing them using the**TransformMetrics\_MidOpenTelemetry** script include, located at **Event Management** &gt; **Integrations** &gt; **PushConnectors**. In the Push Connectors page, select **OpenTelemetry**.
 
-The default format of the URL to push event messages from the GCP to the MID Server is: `http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/sa/inbound_metrics?transform=TransformMetrics_MidOpenTelemetry`
+The default format of the URL to push event messages from the Otel to the MID Server is: `http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/sa/inbound_metrics?transform=TransformMetrics_MidOpenTelemetry`
 
 |Variable|Description|
 |--------|-----------|
@@ -151,7 +152,21 @@ The default format of the URL to push event messages from the GCP to the MID Ser
                 - node_disk_io_time_seconds_total
                 - node_network_receive_bytes_total
                 - node_network_transmit_bytes_total
-        
+                # K8s Cluster Metrics
+                - k8s.node.condition_ready
+                - k8s.node.allocatable_cpu
+                - k8s.node.allocatable_memory
+                - k8s.deployment.available
+                - k8s.deployment.desired
+                # Kubelet Stats Metrics
+                - k8s.node.cpu.usage
+                - k8s.node.memory.working_set
+                - k8s.pod.cpu.usage
+                - k8s.pod.phase
+                - k8s.pod.memory.working_set
+                - k8s.container.cpu.usage
+                - k8s.container.memory.working_set
+                - k8s.container.restarts
         ```
 
         **Note:** Histogram metrics are not supported by ServiceNow MID Server.
@@ -181,7 +196,7 @@ The default format of the URL to push event messages from the GCP to the MID Ser
           headers:
             Authorization: "Key {api_key}"
           timeout: 30s
-          compression: none
+          compression: gzip
           tls:
             insecure: true
           sending_queue:
@@ -195,7 +210,7 @@ The default format of the URL to push event messages from the GCP to the MID Ser
         
         ```
 
-        **Note:** Compression:gzip is not supported. Replace \{mid\_server\_ip\}, \{port\}, and \{api\_key\} with your actual values.
+        **Note:** Replace \{mid\_server\_ip\}, \{port\}, and \{api\_key\} with your actual values.
 
     2.  OPTION B: BASIC AUTHENTICATION
 
@@ -226,7 +241,7 @@ The default format of the URL to push event messages from the GCP to the MID Ser
               auth:
                 authenticator: basicauth/mid
               timeout: 30s
-              compression: none
+              compression: gzip
               tls:
                 insecure: true
               sending_queue:
@@ -240,7 +255,7 @@ The default format of the URL to push event messages from the GCP to the MID Ser
             
             ```
 
-            **Note:** Compression:gzip is not supported. Replace \{mid\_server\_ip\} and \{port\} with your actual values.
+            **Note:** Replace \{mid\_server\_ip\} and \{port\} with your actual values.
 
 4.  CONFIGURE SERVICE PIPELINE
 
@@ -332,7 +347,7 @@ The default format of the URL to push event messages from the GCP to the MID Ser
         headers:
           Authorization: "Key your_api_key_here"
         timeout: 30s
-        compression: none
+        compression: gzip
         tls:
           insecure: false
         sending_queue:

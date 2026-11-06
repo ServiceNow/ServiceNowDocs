@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/manage-requests-certs-assessments.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -37,7 +37,7 @@ Select **View All** to see the full list of certifications. Select the certifica
 
 If you have directly installed the 4.0.0 version of the EA Workspace store application, the My certifications table fetches data from the CMDB Data Management Task \(cmdb\_data\_management\_task\) table.
 
-If you upgraded your EA Workspace from a previous version to the 4.0.0 version, your certification data may still be fetched from the Certification Schedules \(cert\_schedule\) table. You must migrate your certification policies to the CMDB Data Management Certification Policies \(sn\_cmdb\_ws\_dm\_certification\_policy\) table. For more information, see [Import certification schedules in to Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-convert-cert-schedules-to-cert-policies.md) and [Publish a draft Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-publish-a-draft-policy.md).
+If you upgraded your EA Workspace from a previous version to the 4.0.0 version, your certification data may still be fetched from the Certification Schedules \(cert\_schedule\) table. You must migrate your certification policies to the CMDB Data Management Certification Policies \(sn\_cmdb\_ws\_dm\_certification\_policy\) table. For more information, see [Import certification schedules in to Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-convert-cert-schedules-to-cert-policies.md)and [Publish a draft Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-publish-a-draft-policy.md).
 
 ## Assessments
 
@@ -181,7 +181,7 @@ TPM technology lifecycle information of the software product or hardware model.
 </td></tr></tbody>
 </table>## Technical Debt
 
-The  **Technical Debt** tab shows the list of TRM technical debt that are created for the products that aren't aligned with the TRM phases and standards. A technical debt indicates either there is no TRM product record for a software product used by one or more business applications. It may also indicate that the TRM product has one or more internal lifecycle phases that restrict its usage. In this table, you can view the TRM products and associated business applications details, and the reason for the technical debt. A custom scheduled job **Populate TRM technical debts in the EA Workspace** runs and creates an entry in the TRM Technical Debt table. For more details, see [TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-trm-technical-debt.md) and [Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
+The  **Technical Debt** tab shows the list of TRM technical debt that are created for the products that are not aligned with the TRM phases and standards. A technical debt indicates either there is no TRM product record for a software product used by one or more business applications. It may also indicate that the TRM product has one or more internal lifecycle phases that restrict its usage. In this table, you can view the TRM products and associated business applications details, and the reason for the technical debt. A custom scheduled job **Populate TRM technical debts in the EA Workspace** runs and creates an entry in the TRM Technical Debt table. For more details, see [TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-trm-technical-debt.md) and [Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
 
 <table id="table_ak2_5fg_tyb"><thead><tr><th>
 

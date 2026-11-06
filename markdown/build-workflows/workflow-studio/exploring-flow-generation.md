@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Flow generation, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Flow generation, Build flows, Flows, subflows, and actions, Workflo
 
 Create multiple step flows and subflows with generative AI. Generate appropriate data pill values for supported flow triggers and action inputs.
 
-\[Omitted video\] Description: Create a flow with AI
+\[Omitted video\] Description: Create a flow with ServiceNow Otto for Creator
 
 ## Activation
 
@@ -32,13 +32,13 @@ Enable flow generation to gain these benefits.
 
 ## Supported LLMs
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Supported user interfaces
 
 Access flow generation skills from the Workflow Studio user interface.
 
-\[Omitted image "example-input-build-with-now-assist.png"\] Alt text: Dialog window with options to build a flow with AI
+\[Omitted image "example-input-build-with-now-assist.png"\] Alt text: Dialog window with options to build a flow with Now Assist
 
 ## Supported trigger types
 
@@ -106,7 +106,7 @@ Beginning with the Xanadu Patch 3 release, you can refer to a specific table in 
 
 \[Omitted image "example-hash-tags-autocomplete.jpg"\] Alt text: Autocomplete table name suggestions for the Strategic hash tag
 
-\[Omitted image "example-hash-tags-autocomplete-02.jpg"\] Alt text: AI directions containing a hash tag link to the Strategic Priority table.
+\[Omitted image "example-hash-tags-autocomplete-02.jpg"\] Alt text: Now Assist directions containing a hash tag link to the Strategic Priority table.
 
 -   **1. Hash tag text**
 
@@ -114,7 +114,7 @@ Beginning with the Xanadu Patch 3 release, you can refer to a specific table in 
 
 -   **2. Autocomplete table name suggestions**
 
-    The system displays table name suggestions that match your hash tag text. You can select an autocomplete suggestion to use data from that specific table in your AI directions.
+    The system displays table name suggestions that match your hash tag text. You can select an autocomplete suggestion to use data from that specific table in your Now Assist directions.
 
 -   **3. Hash tag link to table**
 

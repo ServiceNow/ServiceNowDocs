@@ -1,20 +1,20 @@
 ---
 title: Manually configure the Metric Intelligence extension
-description: Configure the MID Server Metric Intelligence extension to enable the MID Server to pull raw metrics from external systems. The extension detects anomalies and reports them to the instance along with raw data. This MID Server Metric Intelligence extension is required and must be running in order for your system to be able to collect Metric Intelligence data.
+description: Configure the MID Server Metric Intelligence extension to enable the MID Server to pull raw metrics from external systems. The extension detects anomalies and reports them to the instance along with raw data. This MID Server Metric Intelligence extension is required and must be running in order for your system to collect Metric Intelligence data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/metric-intelligence/configure-itoa-metric-extension.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
 
 # Manually configure the Metric Intelligence extension
 
-Configure the MID Server Metric Intelligence extension to enable the MID Server to pull raw metrics from external systems. The extension detects anomalies and reports them to the instance along with raw data. This MID Server Metric Intelligence extension is required and must be running in order for your system to be able to collect Metric Intelligence data.
+Configure the MID Server Metric Intelligence extension to enable the MID Server to pull raw metrics from external systems. The extension detects anomalies and reports them to the instance along with raw data. This MID Server Metric Intelligence extension is required and must be running in order for your system to collect Metric Intelligence data.
 
 ## Before you begin
 

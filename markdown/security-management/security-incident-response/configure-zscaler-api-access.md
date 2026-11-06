@@ -7,8 +7,8 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-10-22"
+reading_time_minutes: 2
 breadcrumb: [Security Incident Response integration with Zscaler, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -41,6 +41,8 @@ ServiceNow supports the following API role configurations for the Zscaler integr
 
 ## About this task
 
+The integration supports two authentication methods. Basic Auth uses an API key together with Zscaler Internet Access admin credentials. OAuth 2.0 uses a client ID, a client secret, and your tenant's vanity domain. The steps in this task create an API key for Basic Auth.
+
 After Zscaler enables your API subscription for your organization's cloud service, it is available in the Zscaler Internet Access API key management page with the base URL. Your organization can only have one API key or token. Delete the existing key or token before you add a new one.
 
 The base URL for the API is `${Cloud_Name}/api/v1`. Check the Zscaler cloud name that was provisioned for your organization and use it to replace `{Cloud_Name}` in the base URI. Some examples of the base URL are:
@@ -61,12 +63,16 @@ The base URL for the API is `${Cloud_Name}/api/v1`. Check the Zscaler cloud name
 
 3.  Select **Add API Key**.
 
-    If you do not see the **Add API Key** option, delete the existing key.
+    If you don't see the **Add API Key** option, delete the existing key.
 
     The new API key is immediately valid and is displayed in the tab.
+
+4.  To fetch Client ID and Client Secret key, navigate to **Administration** &gt; **API** &gt; **ONEAPI** &gt; **API CLIENTS**
+
+5.  Select **+ Add API Client**.
 
 
 ## Result
 
-You have retrieved the base URL and the API key to configure access to Zscaler from the ServiceNow AI Platform instance.
+You have retrieved the base URL and the API key to configure access to Zscaler from the ServiceNow AI Platform instance. If you use OAuth 2.0, you need the base URL, client ID, client secret, and vanity domain instead of the API key.
 

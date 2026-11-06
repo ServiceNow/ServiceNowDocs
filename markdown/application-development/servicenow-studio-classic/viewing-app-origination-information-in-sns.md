@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Change your development experience, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Change your development experience, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Viewing app origination information in ServiceNow Studio
@@ -20,7 +20,7 @@ View app origination information on the App details page in ServiceNow Studio to
 
 Each App details page shows whether the app was created in Creator Studio or created in ServiceNow IDE and converted to Fluent. Apps created in ServiceNow Studio do not display a badge. This information determines whether the app can continue to be edited and deployed through ServiceNow Studio, or whether it must be opened and deployed in a different environment.
 
-\[Omitted image "sn-studio-crs-badge.png"\] Alt text: The app details page shows badges for AI, Creator Studio, and Fluent to let you know where the app was created and may need to be deployed.
+\[Omitted image "sn-studio-fluent-badge.png"\] Alt text: The app details page shows badges for AI, Creator Studio, and Fluent to let you know where the app was created and may need to be deployed.
 
 ## How do I edit an app created in Creator Studio?
 

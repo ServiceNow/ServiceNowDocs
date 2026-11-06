@@ -1,18 +1,18 @@
 ---
-title: Processors
-description: Processors provide a customizable URL endpoint that can execute arbitrary server-side JavaScript code and produce output such as TEXT or JSON. Creating custom processors is deprecated.
+title: Script processors
+description: Processors provide a customizable URL endpoint that can execute arbitrary server-side JavaScript code and produce output such as TEXT or JSON. Creating custom processors is deprecated.Processors have access to dedicated API classes, objects, and methods.You can protect your processor against unauthorized use by using role restrictions, and protect it by requiring a CSRF token.You can protect a processor by requiring a CSRF token.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_Processors.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Server-side scripting, Scripting, API implementation, API implementation and reference]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
-# Processors
+# Script processors
 
 Processors provide a customizable URL endpoint that can execute arbitrary server-side JavaScript code and produce output such as TEXT or JSON. Creating custom processors is deprecated.
 
@@ -140,16 +140,85 @@ Policy to use to protect this record's script.
 -   Protected
 
 </td></tr></tbody>
-</table>-   **[Processor API components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_ProcessorAPIComponents.md)**  
-Processors have access to dedicated API classes, objects, and methods.
--   **[Secure and protect a processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/t_SecureAProcessor.md)**  
-You can protect your processor against unauthorized use by using role restrictions, and protect it by requiring a CSRF token.
--   **[Create a simple processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/t_CreateSimpleProcessor.md)**  
-Create a simple processor to execute a script from a URL query. This feature is deprecated.
--   **[Create a multi-table processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/t_CreateMultiTableProcessor.md)**  
-Create a multi-table processor that reports the number of rows in any table on your instance. This feature is deprecated.
--   **[Create a custom processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/t_CreatingACustomProcessor.md)**  
-Create a custom processor to execute a script from a URL query. This feature is deprecated.
+</table>**Parent Topic:**[Writing server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/server-side-scripting-overview.md)
 
-**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ServerScripting.md)
+## Processor API components
+
+Processors have access to dedicated API classes, objects, and methods.
+
+|Class, object, or method|Description|
+|------------------------|-----------|
+|`g_response`|An object of type HttpServletResponse. See [GlideServletResponse](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideServletResponseScopedAPI.md).|
+|`setContentType(‘text/html;charset=UTF-8’)`|A [GlideServletResponse](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideServletResponseScopedAPI.md) method to set the content type of the response being sent to the client.|
+|`g_request`|An object of type HttpServletRequest. See [HttpServletRequest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideServletRequestScopedAPI.md).|
+|`getParameter()`|A glide method to get the value of a URL parameter.|
+|`canRead()`|A GlideRecord method to determine if the user can read data from a table. See [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).|
+|`g_processor`|A simplified servlet for processors. See [GlideScriptedProcessor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideScriptedProcessorScopedAPI.md).|
+|`writeOutput()`|A [GlideScriptedProcessor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideScriptedProcessorScopedAPI.md) method to display information on the client.|
+|`g_target`|An object containing the target table name of a processor URL. For example, a processor containing the URI `incident.do` applies to the Incident table.|
+
+## Secure a script processor against unauthorized access
+
+You can protect your processor against unauthorized use by using role restrictions, and protect it by requiring a CSRF token.
+
+### About this task
+
+**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_CustomWebServices.md).
+
+You can re-use a table's user role restrictions to protect it from access by your processor. This protection method assumes the processor will access table data.
+
+### Procedure
+
+1.  Create or select a user role that has access to the table the processor script calls.
+
+2.  Navigate to **System Definition** &gt; **Processors**.
+
+3.  In **Script**, add the following code block.
+
+    ```javascript
+    var now_GR = new GlideRecord('your_table_name');
+    // canRead() compares the table’s ACL to the user making this request, and returns true if the logged-in user has read access to this table
+    if(gr.canRead())  
+    { 
+      // Perform table query here  
+      g_processor.writeOutput('Success!'); 
+    } else { 
+      g_processor.writeOutput('You do not have permission to read table your_table_name'); 
+    }
+    ```
+
+4.  Update the code block to use other access restrictions as needed.
+
+    Available access functions include:
+
+    -   canCreate\(\)
+    -   canRead\(\)
+    -   canWrite\(\)
+    -   canDelete\(\)
+5.  Click **Update**.
+
+
+### Protect a processor with a CSRF token
+
+You can protect a processor by requiring a CSRF token.
+
+#### About this task
+
+Script type processors can require a CSRF token check before the processor runs.
+
+#### Procedure
+
+1.  Navigate to **All** &gt; **System Definition** &gt; **Processors**.
+
+2.  Open a processor record.
+
+3.  Select the **CSRF protect** option.
+
+4.  Click **Update**.
+
+
+**Related topics**  
+
+
+[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md)
 

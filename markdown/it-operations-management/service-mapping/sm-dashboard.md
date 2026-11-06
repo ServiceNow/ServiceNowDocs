@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -70,20 +70,20 @@ Access to tag-based service mapping in the Service Mapping workspace requires th
 
 -   **Mapped servers**
 
-    The number of servers currently linked to an application service. Select the tile to view information such as operational status and owner. The **Mapped servers** tile is replaced with Now Assist metrics, once Now Assist is installed.
+    The number of servers currently linked to an application service. Select the tile to view information such as operational status and owner. The **Mapped servers** tile is replaced with ServiceNow Otto metrics, once ServiceNow Otto is installed.
 
--   **Maps created by Now Assist**
+-   **Maps created by ServiceNow Otto**
 
-    The number of service maps created by Now Assist. Select the tile to view the [Service Mapping AI Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-ai-agent-activity-columns.md). This tile is available only when Now Assist is installed.
+    The number of service maps created by ServiceNow Otto. Select the tile to view the [Service Mapping AI Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-ai-agent-activity-columns.md). This tile is available only when ServiceNow Otto is installed.
 
 -   **Business app linked to service instance**
 
-    The number of business applications with a CSDM relationship linked to a service instance. Select the tile to view the [Business App Map Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-ai-agent-activity-columns.md). This tile is available only when Now Assist is installed.
+    The number of business applications with a CSDM relationship linked to a service instance. Select to view the [Business App Map Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-ai-agent-activity-columns.md)This tile is available only when ServiceNow Otto is installed.
 
 
 ## Service Mapping AI Agents
 
-When Now Assist is installed, the **Service Mapping home** page displays the AI Agent activation panel. Use this panel to activate or deactivate AI agents that automate service mapping tasks. For more information, see [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-ai-agents.md).
+When ServiceNow Otto is installed, the **Service Mapping home** page displays the AI Agent activation panel. Use this panel to activate or deactivate AI agents that automate service mapping tasks. For more information, see [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-ai-agents.md).
 
 ## Reports
 

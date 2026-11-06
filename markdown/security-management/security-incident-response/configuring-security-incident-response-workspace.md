@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -37,7 +37,7 @@ Use On-Call Scheduling in Security Incident Response to view and manage shifts f
 -   **[Category management in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/category-management-sir.md)**  
 Configure security incident categories and subcategories for granular classification of incidents, which helps you accurately route security incidents.
 -   **[View and update Security Incident Response system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/view-update-sirw-system-properties.md)**  
-View and update the Security Incident Response Workspace system properties from the Security Incident Response Workspace administration panel to access and update the required properties.
+View and update the Security Incident Response system properties from the Security Incident Response Workspace administration panel to access and update the required properties.
 -   **[Create quick filters for Security Incidents and Response Tasks lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-quick-filters-for-security-incidents.md)**  
 Create quick filters to create reusable, predefined filters that appear on the security incidents and response tasks list pages enabling security analysts to filter the list items without adding the filter conditions each time.
 -   **[Timeline in Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/timeline-sir-workspace.md)**  

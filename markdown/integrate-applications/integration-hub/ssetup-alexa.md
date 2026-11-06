@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Amazon Alexa Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -50,7 +50,7 @@ Role required: admin.
     For more information about configuring the security policy, see [Add your Website to your Security Profile](https://developer.amazon.com/docs/login-with-amazon/register-web.html#add-your-website-to-your-security-profile) in [Amazon Developer Documentation](https://developer.amazon.com/documentation).
 
 
-## Configure a connection for Amazon Alexa spoke
+## Configure a connection for the Amazon Alexa spoke
 
 Add and configure a Amazon Alexa connection to authenticate ServiceNow requests in the Amazon Alexa spoke.
 
@@ -68,7 +68,16 @@ Role required: admin
 
 4.  Locate the **AmazonAlexa** connection alias and click **View Details**.
 
-5.  On the **Connection** form, fill in the fields.
+    -   To configure the default connection and credential alias record that is shipped along with the Amazon Alexa spoke, click **View Details**.
+
+        \[Omitted image "amazon-alexa-connection.png"\] Alt text: AmazonAlexa connection alias with the View Details button highlighted.
+
+    -   To manage more than one Amazon Alexa spoke connection record, create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+
+    \[Omitted image "amazon-alexa-connection-conf.png"\] Alt text: Connections panel for the AmazonAlexa alias with the Configure button highlighted.
+
+5.  On the **Configure Connection** form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -82,8 +91,14 @@ Role required: admin
     |OAuth Client Secret|Client Secret created during the configuration of the security profile.|
     |OAuth Redirect URL|OAuth callback endpoint in this format: `https://<instance>.service-now.com/oauth_redirect.do`. Replace `<instance>` with the ServiceNow instance name.|
 
-6.  Click **Configure and Get OAuth Token**.
+    \[Omitted image "amazon-alexa-conf-temp.png"\] Alt text: Configure Connection form for the Amazon Alexa spoke with the connection and credential fields.
 
+6.  Click **Save and Get OAuth Token**.
+
+
+### Result
+
+The Amazon Alexa spoke is set up and integrated with the ServiceNow instance.
 
 ## Setup webhook for the Amazon Alexa spoke
 

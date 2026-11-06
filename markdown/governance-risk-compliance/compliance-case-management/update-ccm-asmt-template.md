@@ -7,7 +7,7 @@ release: australia
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [template versioning, publish template, smart assessment, Smart Assessment Engine, retire template]
 breadcrumb: [Configure, Compliance Case Management, Governance, Risk, and Compliance]

@@ -7,7 +7,7 @@ release: australia
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -90,7 +90,7 @@ scrum\_user
 
 -   **Percent Completed**
 
-    Indicates the percentage of work \(in story points\) that has been completed in the release. This widget lets you see at a glance how much work has been completed in the release. Together with the adjacent Time Elapsed widget, these widgets let you see whether you are completing work at a rate consistent with achieving the release goal on schedule.
+    Indicates the percentage of work \(in story points\) that has been completed in the release. This widget lets you see at a glance how much work has been completed in the release. Together with the adjacent Time Elapsed widget, these widgets let you easily see whether you are completing work at a rate consistent with achieving the release goal on schedule.
 
 -   **Scope**
 
@@ -98,7 +98,7 @@ scrum\_user
 
 -   **Time Elapsed**
 
-    Indicates the percentage of time that has elapsed between the start date and planned end date of the release. Together with the adjacent Percent Completed widget, these widgets let you see whether you are completing work at a rate consistent with achieving the Release goal on schedule.
+    Indicates the percentage of time that has elapsed between the start date and planned end date of the release. Together with the adjacent Percent Completed widget, these widgets let you easily see whether you are completing work at a rate consistent with achieving the Release goal on schedule.
 
 -   **Blocked Work**
 

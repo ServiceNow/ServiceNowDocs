@@ -1,20 +1,20 @@
 ---
-title: Configure push notification \(Okta Verify\)
-description: Configure Okta Verify to receive push notifications for secure and convenient identity verification.
+title: Configure Push notification - Okta Verify
+description: Configure Okta Verify to receive push notifications for identity verification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/configure-okta-verify-push-notification.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Push notification - Okta verify, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Push notification - Okta Verify, Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
-# Configure push notification \(Okta Verify\)
+# Configure Push notification - Okta Verify
 
-Configure **Okta Verify** to receive push notifications for secure and convenient identity verification.
+Configure **Okta Verify** to receive push notifications for identity verification.
 
 ## Before you begin
 
@@ -41,6 +41,8 @@ The push notification authentication factor on **Okta** must be enabled. To lear
 
     For example, `O0EYJEm|b34aYViOYaav3KnqxsItV_mPI9_p2N46Cc`.
 
+    **Note:** Create the token from a dedicated service account that has only the permissions push needs. A token has the same privileges as the admin who creates it, expires after 30 days without use, and stops working if that admin account is deactivated. If push goes unused for 30 days, create a new token.
+
 5.  On the instance, open the **Connection &amp; Credential Alias** record.
 
     For example, `<instance_url>/sys_alias.do?sys_id=692e16a0ffb72210d487ffffffffff1b`.
@@ -49,7 +51,7 @@ The push notification authentication factor on **Okta** must be enabled. To lear
 
 6.  Select **New** under the Connections tab.
 
-7.  Specify the following field on the **HTTP\(s\) Connections** form.
+7.  Specify the following fields on the **HTTP\(s\) Connections** form.
 
     -   Name
     -   Connection alias
@@ -62,7 +64,7 @@ The push notification authentication factor on **Okta** must be enabled. To lear
 
 9.  Specify the **Name** and **API Key** on the API Key Credentials form.
 
-    **Note:** The API key should be prefixed with ‘SSWS'. If the copied token value is `00iJ88ydm9ZLnDNE8AeGsmjcUC-ZFyCt3pts2pNTwZ` you must provide the value as `SSWS 00iJ88ydm9ZLnDNE8AeGsmjcUC-ZFyCt3pts2pNTwZ`.
+    **Note:** The API key should be prefixed with ‘SSWS'. If the copied token value is `<token>` you must provide the value as `SSWS <token>`.
 
     \[Omitted image "okta-configuration-push-3.png"\] Alt text: API Key Credentials
 

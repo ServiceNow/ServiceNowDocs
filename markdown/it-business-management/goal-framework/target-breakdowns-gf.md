@@ -7,8 +7,8 @@ release: australia
 product: Goal Framework
 classification: goal-framework
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Manage goals, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Manage goals, Goal Framework and Goal Framework for SPM, Strategic 
 
 Breaking down a target into smaller periods \(for example, Monthly\) helps you set a target value for each month and focus on that specific monthly target. The target breakdowns are automatically created based on the Check-in frequency and Target value distribution set for the target.
 
-The check-in frequency for a target can be set to Daily, Weekly, Monthly, Quarterly, or Yearly. Based on the Check-in frequency of the target, the corresponding target breakdowns are created. For example, if the Check-in frequency is set to Monthly for a target spanning for a year, 12 monthly target breakdowns are created. Planned target values are automatically set for each target breakdown based on the Target value distribution setting of the target.
+The check-in frequency for a target can be set to Daily, Weekly, Monthly, Quarterly, Yearly, or Period \(fiscal mode only\). Based on the Check-in frequency of the target, the corresponding target breakdowns are created. For example, if the Check-in frequency is set to Monthly for a target spanning for a year, 12 monthly target breakdowns are created. Planned target values are automatically set for each target breakdown based on the Target value distribution setting of the target.
 
 **Note:** The target breakdowns feature isn’t supported for qualitative targets.
 
@@ -69,6 +69,23 @@ The target breakdowns feature has the following benefits:
 -   Focus on the specific short-term target \(target breakdown\) rather than the whole target
 -   Track the progress of your short-term and long-term targets cumulatively or non-cumulatively
 
+## Target breakdowns for Maintain type targets
+
+When the **Type** field of a target is set to **Maintain above**, **Maintain below**, or **Maintain constant**, the planned target of every target breakdown, at every level, is set to the final target value. If the final target value is empty, the planned targets are set to 0. You can edit the planned target of a breakdown later. The **Target value distribution** field doesn't apply to Maintain types.
+
+For example, if you set a Maintain above target of 75 with a quarterly check-in frequency for 2026, four quarterly breakdowns are created, each with a planned target of 75.
+
+Enter the actual value that you measured in each breakdown period. The **Actuals to date** value of the target shows the actual value of the latest breakdown period that has an actual. Parent breakdowns, such as a year above its quarters, also take the actual value of their latest child breakdown.
+
+When you change a Maintain-type target, its breakdowns are updated as follows:
+
+-   Start date moved later or end date moved earlier: the breakdowns that fall outside the new date range are removed. The remaining breakdowns keep their planned targets and actuals.
+-   Start date moved earlier or end date moved later: breakdowns are added for the new periods, with the planned target set to the final target value and no actual value.
+-   Final target value changed: the planned target of every breakdown is updated to the new final target value, and the status and progress are recalculated.
+-   Check-in frequency changed: the breakdowns are regenerated for the new frequency. Where the old and new breakdowns share a period, such as the same month or quarter, the latest actual value and status from that period are copied to the new breakdowns.
+
+For how progress is calculated from the breakdowns, see [Target types and achievement strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/target-types-gf.md). To change the type of a target that already has breakdowns, see [Change the type of a target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/change-target-type-gf.md).
+
 ## How the actual value is calculated when the check-in frequency set to None
 
 When the check-in frequency is set to None for a target, the actual value must be entered in the **Actuals to date** field in the main target record. The actual value entered must be cumulative irrespective of the time period of the target. Target breakdowns aren’t created when the check-in frequency is set to None.
@@ -76,4 +93,12 @@ When the check-in frequency is set to None for a target, the actual value must b
 ## Target breakdowns in target automation
 
 If you’ve enabled the target automation feature for a target and set the check-in frequency and Target value distribution, the target automation feature automatically updates the actual value in the respective target breakdown based on the check-in due date. After the actual value of a target breakdown is updated, the value is rolled up to rolls up to the actual value of the main target. Then, the progress of the target and its goal are auto-updated.
+
+## Target breakdowns on a fiscal calendar
+
+When the calendar mode is fiscal, the breakdowns of a target follow the fiscal periods instead of calendar months, quarters, and years. The check-in frequencies that a target can use depend on the periods that the fiscal calendar provides. The breakdown names use the fiscal period names, for example `FY27`, `FY27: Q1`, or `FY27: P01`. Weekly breakdowns show the week name with its start and end dates.
+
+A target can use a check-in frequency only when the fiscal calendar covers its start and end dates. If the calendar doesn't cover them, the target can't be saved with that frequency, and its breakdowns aren't generated. For the reasons, see [Fiscal calendar support for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/fiscal-calendar-goal-framework.md).
+
+When the calendar mode or the fiscal calendar changes, targets that have breakdowns can become stale when their stored breakdowns no longer match the calendar. A stale target can't be changed until its check-in frequency is cleared. For details, see [Stale targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/stale-targets-gf.md).
 

@@ -7,7 +7,7 @@ release: australia
 product: Application Manager
 classification: application-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [unavailable dependencies, dependency unavailable, dependency needs to be procured from store, inactive plugin dependency]
 breadcrumb: [Installing apps, plugins, and products, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]

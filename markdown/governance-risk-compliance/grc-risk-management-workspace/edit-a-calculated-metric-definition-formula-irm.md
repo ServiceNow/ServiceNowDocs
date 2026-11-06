@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Formula building in a calculated metric definition, Configuring metrics, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Edit a formula in a calculated metric definition to update the calculation logic
 
 ## Before you begin
 
-Roles required: sn\_risk\_workspace.operational\_risk\_manager, sn\_risk\_workspace.IT\_risk\_manager, sn\_risk\_workspace.business\_op\_risk\_manager
+Roles required: sn\_risk.user
 
 ## Procedure
 

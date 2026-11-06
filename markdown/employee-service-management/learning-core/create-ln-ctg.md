@@ -7,7 +7,7 @@ release: australia
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing course and catalog content, Learning Core, HR Service Delivery, Employee Service Management]
 ---
@@ -24,13 +24,13 @@ Role required: sn\_lc.catalog\_manager, sn\_lc.catalog\_group\_manager
 
 1.  Navigate to **Learning** &gt; **Content** &gt; **Learning Libraries**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
     For a description of the field values, see [Learning library form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-library-form.md).
 
-4.  Select **Submit**.
+4.  Click **Submit**.
 
 
 -   **[Add course items to learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/add-courses-to-library.md)**  

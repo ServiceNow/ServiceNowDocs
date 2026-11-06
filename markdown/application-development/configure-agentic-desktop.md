@@ -1,0 +1,56 @@
+---
+title: Configure AI Desktop Actions
+description: You can enable the AI Desktop Actions application if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/configure-agentic-desktop.html
+release: australia
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [AI Desktop Actions, Extend, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Configure AI Desktop Actions
+
+You can enable the AI Desktop Actions application if you have the admin role.
+
+## Before you begin
+
+To get started with AI Desktop Actions, you must have:
+
+-   A ServiceNow Pro Plus or Enterprise Plus license.
+-   An instance on Australia Patch 2 or later.
+-   A .NET 9.0 runtime v9.0.10 and .NET 9 Desktop Runtime v9.0.10 is installed.
+
+Role required: administrator
+
+## About this task
+
+AI Desktop Actions isn’t a standalone store application that you can install directly. To enable AI Desktop Actions on your instance, you must install other generative AI applications, such as ServiceNow Otto for IT Service Management \(ITSM\) or ServiceNow Otto for Customer Service Management \(CSM\).
+
+-   Review the [AI Desktop Actions](https://store.servicenow.com/store/app/dc9057f4873932d0221e8409dabb35a5) application listing in ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   Refer to the [document](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/sn-assist-overview.pdf) to see the prebuilt skills that exist and are currently available for purchase in AI packages and to review the number of assists consumed.
+-   Perform these steps in your ServiceNow instance.
+
+For more information about the components installed, see [Components installed with AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/components-installed-with-agentic-desktop.md).
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
+
+2.  Search for and select a generative AI application, such as ServiceNow Otto for IT Service Management \(ITSM\) or ServiceNow Otto for Platform.
+
+3.  Select **Install**.
+
+
+## What to do next
+
+-   **Defined desktop action**
+
+    Download and install the AI Desktop Actions installer on your system to automate repetitive tasks that involve fixed steps in your desktop and web environment. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/download-agentic-desktop-installer.md).
+
+-   **Adaptive desktop action**
+
+    Install the Chrome browser extension and configure allowed websites to automate repetitive tasks that involve adaptive steps for web applications. For more information, see [Install the Google Chrome extension for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/na-ai-wa-install-browser-extension.md) and [Configure allowed websites for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/na-ai-wa-configure-allowed-websites.md).
+
+

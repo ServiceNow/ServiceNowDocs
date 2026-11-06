@@ -7,7 +7,7 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -81,8 +81,6 @@ Role required: admin
 
 4.  From the Reservation Portal home, select the **Location Directory** widget.
 
-    You can access the Location Directory widget from the Employee Center portal. Navigate to **All** &gt; **Self-Service** &gt; **Employee Center** &gt; **Workplace Services** &gt; **Site Safety** &gt; **Location Directory**.
-
     1.  On the Interactive floor map, select a location and floor from the drop-down options.
 
     2.  Zoom in to see spaces or permanent seating assignments for employees.
@@ -93,9 +91,13 @@ Role required: admin
 
         Employee names along with their assigned seats are displayed for a selected space.
 
-5.  Navigate to **All** &gt; **Self-service** &gt; **Employee Center** &gt; **Workplace Services** &gt; **General Request** to browse the workplace service catalog and request workplace services.
+5.  From the Reservation portal home page, select **Order something** to browse the workplace service catalog and request workplace services.
 
-    1.  On the General Request form, fill in the request details and select the clickable link **Find the space on a floor map**.
+    For more information, see [Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-services-portal-wsd.md).
+
+    1.  On the Workplace Services Catalog page, select **General Request** &gt; **General**.
+
+    2.  The following Reservation portal widget forms when selected shows a clickable link **Find the space on a floor map**.
 
         Select a space and open the **Find the space on a floor map** link to view an interactive floor map.
 

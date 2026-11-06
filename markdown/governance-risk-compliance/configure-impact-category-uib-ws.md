@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-impact-category-uib-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -32,11 +32,15 @@ Role required: sn\_bcm.admin
 
     For more information on the fields in the form, see [Impact Category record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/impact-category-new-record-form.md).
 
-4.  Select **Submit**.
+4.  Enter the name and details of the impact categories.
+
+    For example, enter `Financial impact` in the **Name** field, set **Contributes to** to `Recovery time objective`, and select all four timeframes in the **Applicable timeframes** field.
+
+5.  Select **Submit**.
 
 
 -   **[Impact Category record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/impact-category-new-record-form.md)**  
-Use the Impact Category record form to add impact category details such as name, criteria, applicable timeframes, maximum RTO value, and so on in BCM UIB Workspace.
+Add impact category details such as name, criteria, applicable timeframes, and maximum RTO value in BCM UIB Workspace.
 
 **Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

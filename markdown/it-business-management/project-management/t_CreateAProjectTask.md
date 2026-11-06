@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Basics of Project Management, Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -73,6 +73,8 @@ You can create a project task using any of the following options.
 [Project and portfolio funding]()
 
 [Project scheduling in Project Management]()
+
+[Task constraints]()
 
 [Link change requests to a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_LinkChangesToAProjectTask.md)
 

@@ -1,22 +1,24 @@
 ---
 title: JavaScript engine feature support
-description: Compare ECMAScript features between the ECMAScript 2021 \(ES12\) and ES5 Standards JavaScript modes in Australia. Both modes support a subset of ECMAScript features.
+description: Compare ECMAScript features between the ECMAScript 2021 \(ES12\) and ES5 Standards JavaScript modes in Brazil. Both modes support a subset of ECMAScript features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/javascript-engine-feature-support.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 30
-breadcrumb: [JavaScript engine, Server-side scripting, Scripting, API implementation, API implementation and reference]
+last_updated: "2026-09-10"
+reading_time_minutes: 32
+breadcrumb: [JavaScript engine, Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # JavaScript engine feature support
 
-Compare ECMAScript features between the ECMAScript 2021 \(ES12\) and ES5 Standards JavaScript modes in Australia. Both modes support a subset of ECMAScript features.
+Compare ECMAScript features between the ECMAScript 2021 \(ES12\) and ES5 Standards JavaScript modes in Brazil. Both modes support a subset of ECMAScript features.
 
 For more information about these features, see the ECMAScript language specifications \(ECMA-262\) on the [Ecma International](https://www.ecma-international.org/) website.
+
+**Important:** Before deploying code to production, you should test scripts using supported ECMAScript 2022 \(ES13\) features thoroughly due to the newly added and partial support of features across this ECMAScript version.
 
 ## Support definitions
 
@@ -33,9 +35,70 @@ For more information about these features, see the ECMAScript language specifica
     The feature does not align with the ServiceNow AI Platform programming model or poses a security or performance risk. Disallowed features result in an error.
 
 
-## ECMAScript 2022 \(ES13\) features
+## ECMAScript 2027 \(ES18\) features \(in draft\)
 
-**Important:** Prior to deploying code to production, you should test scripts using supported ECMAScript 2022 \(ES13\) features thoroughly due to the newly added and partial support of features across this ECMAScript version.
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|ArrayBuffer.prototype.detached \(read-only property\)|Supported|Disallowed|
+|ArrayBuffer.prototype.transfer\(newLength?\)|Supported|Disallowed|
+|ArrayBuffer.prototype.transferToFixedLength\(newLength\)|Supported|Disallowed|
+
+## ECMAScript 2025 \(ES16\) features
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|Math.f16round\(x\)|Supported|Supported|
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|Error.isError\(value\)|Supported|Supported|
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|Promise.try\(fn, ...args\)|Supported|Not Supported|
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|Set.prototype.union\(other\)|Supported|Not Supported|
+|Set.prototype.intersection\(other\)|Supported|Not Supported|
+|Set.prototype.difference\(other\)|Supported|Not Supported|
+|Set.prototype.symmetricDifference\(other\)|Supported|Not Supported|
+|Set.prototype.isSubsetOf\(other\)|Supported|Not Supported|
+|Set.prototype.isSupersetOf\(other\)|Supported|Not Supported|
+|Set.prototype.isDisjointFrom\(other\)|Supported|Not Supported|
+
+## ECMAScript 2024 \(ES15\) features
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|Promise.withResolvers\(\)|Supported|Disallowed|
+
+## ECMAScript 2023 \(ES14\) features
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|Array.prototype.findLast\(\)|Supported|Supported|
+|Array.prototype.findLastIndex\(\)|Supported|Supported|
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|Array.prototype.toReversed\(\)|Supported|Supported|
+|Array.prototype.toSorted\(compareFn?\)|Supported|Supported|
+|Array.prototype.toSpliced\(start, deleteCount, ...items\)|Supported|Supported|
+|Array.prototype.with\(index, value\)|Supported|Supported|
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|%TypedArray%.prototype.findLast\(\)|Supported|Supported|
+|%TypedArray%.prototype.findLastIndex\(\)|Supported|Supported|
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|%TypedArray%.prototype.toReversed\(\)|Supported|Supported|
+|%TypedArray%.prototype.toSorted\(compareFn?\)|Supported|Supported|
+|%TypedArray%.prototype.with\(index, value\)|Supported|Supported|
+
+## ECMAScript 2022 \(ES13\) features
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -934,6 +997,9 @@ For more information about these features, see the ECMAScript language specifica
 |class prototype methods|Supported|Not Supported|
 |class static methods|Supported|Not Supported|
 |isn't writable, is configurable|Supported|Not Supported|
+|Infer `.name` from `var`/`let`/`const` declaration — function expressions and arrow functions \(e.g. `const f = () => {}` → `f.name === "f"`\)|Supported|Not Supported|
+|Infer `.name` from assignment to previously declared variable \(`let f; f = function() {}` → `f.name === "f"`\)|Supported|Not Supported|
+|Infer `.name` from object property assignment \(`{ f: function() {} }` → `f.name === "f"`\), including getter/setter accessor properties|Supported|Not Supported|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -1232,6 +1298,10 @@ For more information about these features, see the ECMAScript language specifica
 |incomplete patterns and quantifiers|Disallowed|Disallowed|
 |octal escape sequences|Disallowed|Disallowed|
 |invalid backreferences become octal escapes|Disallowed|Disallowed|
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|\_\_parent\_\_ scope-chain access|Disallowed|Disallowed|
 
 ## ECMAScript 2009 \(ES5\) features
 

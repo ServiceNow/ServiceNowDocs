@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Virtual Agent, URL, parameters]
-breadcrumb: [Virtual Agent technical reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Virtual Agent technical reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Virtual Agent URL parameters
@@ -164,15 +164,13 @@ Specifies the requester's language for the conversation session when Dynamic Tra
 **Related topics**  
 
 
-[Domain separation and Virtual Agent]()
-
 [Virtual Agent interaction records]()
+
+[Data management in Conversational Interfaces]()
 
 [Virtual Agent scripts]()
 
 [Input data types in Virtual Agent topics]()
-
-[NLU system entities]()
 
 [Latency feedback in Virtual Agent]()
 

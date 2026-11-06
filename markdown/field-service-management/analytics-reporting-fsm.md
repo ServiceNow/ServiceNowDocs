@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/analytics-reporting-fsm.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Management]
 ---
@@ -13,6 +13,18 @@ breadcrumb: [Field Service Management]
 # Analytics and reporting for Field Service Management
 
 Field Service Analytics and Reporting Solutions contain preconfigured dashboards with actionable data visualizations to improve your business processes and practices.
+
+## Example: Generate Work Order Audit Report
+
+A field service organization needs consistent, accurate reporting on work order activity, technician utilization, and compliance without building reports from scratch. Field Service Analytics and Reporting provides preconfigured dashboards that track work order status, territory performance, contractor activity, and scheduling health, giving managers the data needed to monitor operations and support audits in real time.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Technician|Completes work|
+|2|System|Compiles work order details|
+|3|System|Generates report|
+|4|System|Attaches report to work order|
+|5|Manager or Dispatcher|Reviews data for audits|
 
 -   **[Use the Field Service Management Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/Use_field_service_management_overview_dashboard.md)**  
 Use the Field Service Management Overview dashboard to review the work orders by their order of priority. You can also view tasks by their assignment groups.

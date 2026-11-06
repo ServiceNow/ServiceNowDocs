@@ -7,7 +7,7 @@ release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Enterprise Architecture, EA Workspace, Application Portfolio Management, CSDM, Digital Portfolio Management, Service Portfolio Management]
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]

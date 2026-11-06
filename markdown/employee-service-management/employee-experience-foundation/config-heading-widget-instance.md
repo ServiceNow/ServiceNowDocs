@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Admin configurations, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Admin configurations, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure widget heading levels for accessibility
@@ -36,13 +36,13 @@ Manage widget headings from Heading1 to Heading6 to support company standards, c
     -   Topic Content
     The following example shows an instance option for topic page.
 
-    \[Omitted image "heading-config-instance-options.png"\] Alt text: instance option topic page
+    \[Omitted image "image.heading-config-instance-options"\] Alt text: instance option topic page
 
     You can go to these widget instance options and select the title heading level \(H1, H2, H3, etc.\) directly for flexible and accessible heading structure.
 
 2.  Change the widget level heading from the available options, Heading 1 to Heading 6.
 
-    \[Omitted image "heading-selection.png"\] Alt text: instance option heading selection
+    \[Omitted image "image.heading-selection"\] Alt text: instance option heading selection
 
 3.  Fill in the following fields as explained in [Modify the Support resources widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/config-support-resources-instanceoptions.md)
 

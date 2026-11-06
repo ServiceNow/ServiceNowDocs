@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/delete-visualization-vd.html
 release: australia
 topic_type: task
-last_updated: "2026-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Delete a visualization, Delete a report, How to delete a visualization in the Visualization Designer, How to delete a visualization in Platform Analytics experience]
 breadcrumb: [Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]

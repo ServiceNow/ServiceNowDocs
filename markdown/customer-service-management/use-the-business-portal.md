@@ -1,18 +1,18 @@
 ---
 title: Using the Business Portal
-description: Search for answers to questions or known issues, or contact a customer service agent for assistance.
+description: Search for information about a question or an issue, or request assistance from a customer service agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/use-the-business-portal.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
 
 # Using the Business Portal
 
-Search for answers to questions or known issues, or contact a customer service agent for assistance.
+Search for information about a question or an issue, or request assistance from a customer service agent.
 
 Your Business Portal activity usually begins on the home page. It has configurable widgets to display information.
 

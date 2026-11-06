@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
@@ -33,7 +33,7 @@ Deploy, remove, or swap any assets or parts that are required for an enterprise 
 -   **[Close a work order for an enterprise asset using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/close-workorder-mobile-app-eam.md)**  
 Close an assigned work order by marking all the required work for the associated asset as complete using the Mobile Agent application.
 -   **[Create a checklist for work order tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/manage-work-orders-using-checklist.md)**  
-Manage your work order tasks by creating a checklist of all items that you must complete for a work order or work order task using the Mobile Agent application.
+Create a checklist of all items that you must complete for a work order task by using the Mobile Agent application.
 -   **[View knowledge articles related to work order tasks in the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/view-knowledge-articles-mobile-agent.md)**  
 View helpful and relevant knowledge articles attached to work order tasks in the Mobile Agent application.
 -   **[Create work notes about the work order tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-worknote-mobile-agent.md)**  
@@ -44,6 +44,8 @@ Move assets of a shutdown work order task to the shutdown state in the Mobile Ag
 Move assets of a startup work order task to the In use state in the Mobile Agent application to indicate that the assets are available for use after maintenance.
 -   **[Move enterprise assets to maintenance state using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/move-assets-maintenance-mobile.md)**  
 Move assets of a break fix or planned maintenance work order task to the In maintenance state in the Mobile Agent application to indicate that the assets are under maintenance.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
 
 **Related topics**  
 

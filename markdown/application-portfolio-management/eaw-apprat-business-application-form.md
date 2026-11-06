@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-apprat-business-application-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Business application form
@@ -292,11 +292,11 @@ Planned disposition of a business application. Use the following options:
 
 </td></tr><tr><td>
 
-Target date
+Planned disposition date
 
 </td><td>
 
-Target date for the planned disposition. The target date must be the current date or a future date.
+Target date for the planned disposition. The planned disposition date must be the current date or a future date.
 
 </td></tr><tr><td>
 
@@ -340,7 +340,7 @@ Portfolio manager
 
 </td><td>
 
-Owner of the portfolio, typically from IT. This field appears when you activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\).
+Owner of the portfolio, typically from IT. This field appears when you activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\). This field is available in the Default view.
 
 </td></tr><tr><td>
 
@@ -455,7 +455,7 @@ Status of the application that meets your requirements or complies with the poli
 |-----|-----------|
 |Work notes|Work notes entered by you.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-icm-evidence-classification.html
 release: australia
 topic_type: task
-last_updated: "2026-03-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Evidence Management, Investigative Case Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -145,9 +145,9 @@ Admin
 
 ## Procedure
 
-1.  Navigate to the CRM Workspace and select **My active cases**.
+1.  Navigate to the Public Sector Workspace and select **My active cases**.
 
-    Alternatively, you can select a case using the CRM Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
+    Alternatively, you can select a case using the Public Sector Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
 
 2.  Select the case you wish to update the evidence security classification for.
 

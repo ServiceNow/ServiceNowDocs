@@ -1,18 +1,18 @@
 ---
 title: Viewing the ribbon information in Information Request Administration
-description: You can view the information about the ribbon in the contextual side panel in CRM Workspace. The ribbon displays the important information about the case, such as the information request record information, constituent contact details, and the case timeline.
+description: You can view the information about the ribbon in the contextual side panel in Public Sector Workspace. The ribbon displays the important information about the case, such as the information request record information, constituent contact details, and the case timeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-ir-playbook-viewing-ribbon.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the contextual side panel, Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Viewing the ribbon information in Information Request Administration
 
-You can view the information about the ribbon in the contextual side panel in CRM Workspace. The ribbon displays the important information about the case, such as the information request record information, constituent contact details, and the case timeline.
+You can view the information about the ribbon in the contextual side panel in Public Sector Workspace. The ribbon displays the important information about the case, such as the information request record information, constituent contact details, and the case timeline.
 
 Select the record information icon \(\[Omitted image "contextual-side-panel-record-info.png"\] Alt text: Record information icon.\) in the contextual side panel to view the information about the ribbon.
 

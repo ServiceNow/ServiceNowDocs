@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/long-term-memory-aia-new.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-15"
 reading_time_minutes: 1
-breadcrumb: [AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Set up long-term memory
@@ -65,7 +65,7 @@ The default value is **Allow**. You can select **Do not allow** if you don't wan
 
 4.  To view the AI agent category mappings select **View**.
 
-    For more information about creating a category mapping, see . For more information about mapping a category to an AI agent, see [Map Long-term memory category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/map-ltm-aia-new.md).
+    For more information about mapping a category to an AI agent, see [Map Long-term memory category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/map-ltm-aia-new.md).
 
 5.  Configure Past executions outcomes by turning on the **Allow all AI agents to learn from last executions** using the toggle button.
 

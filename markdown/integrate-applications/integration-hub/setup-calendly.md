@@ -1,6 +1,6 @@
 ---
 title: Set up the Calendly spoke
-description: Set up an outbound integration between your ServiceNow instance and the Calendly APIs by creating an OAuth application in Calendly and a connection and credential record on your ServiceNow instance.Set up an OAuth application that authenticates requests from your ServiceNow instance.Create a connection and credential record that contains the details required to access the Calendly APIs.
+description: Set up an outbound integration between your ServiceNow instance and the Calendly APIs by creating an OAuth application in Calendly and a connection and credential record on your ServiceNow instance.Set up an OAuth application that authenticates requests from your ServiceNow instance.Configure a connection to your Calendly account. The Calendly spoke connection and credential aliases use these connections to perform actions in Calendly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-calendly.html
 release: australia
@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Calendly Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -69,9 +69,9 @@ Role required: Calendly organization owner or admin
     \[Omitted image "calendly-spoke-oauth-created.png"\] Alt text: OAuth app created.
 
 
-## Create a connection and credential record
+## Configure a connection for the Calendly spoke
 
-Create a connection and credential record that contains the details required to access the Calendly APIs.
+Configure a connection to your Calendly account. The Calendly spoke connection and credential aliases use these connections to perform actions in Calendly.
 
 ### Before you begin
 
@@ -79,27 +79,24 @@ Role required: ServiceNow admin
 
 ### Procedure
 
-1.  Log in to your ServiceNow instance.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Navigate to **Process Automation** &gt; **Workflow Studio**.
+2.  Click the **Integrations** tab.
 
-3.  Select **Integrations**.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-4.  In the Search all connections field, enter `Calendly`.
+4.  Locate the alias for **Calendly** and click **View Details**.
 
-    \[Omitted image "calendly-search.png"\] Alt text: Enter Calendly in the search field.
+    -   To configure the default connection and credential alias record that is shipped along with the Calendly spoke, click **View Details**.
 
-    The **Outbound** tab is enabled by default. Confirm that the **Outbound** tab is enabled already.
+        \[Omitted image "calendly-click-view-details.png"\] Alt text: Calendly connection alias with the View Details button highlighted.
 
-5.  On the Calendly card, select **View Details**.
+    -   To manage more than one Calendly spoke connection record, create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    \[Omitted image "calendly-click-view-details.png"\] Alt text: View Details button on Calendly card.
+    \[Omitted image "calendly-click-configure-button.png"\] Alt text: Connections panel for the Calendly alias with the Configure button highlighted.
 
-6.  Select **Configure**.
-
-    \[Omitted image "calendly-click-configure-button.png"\] Alt text: Configure button for Calendly connection.
-
-7.  Fill the form.
+5.  On the **Configure Connection** form, fill in these fields:
 
 <table id="table_ujr_ps1_wmb"><thead><tr><th>
 
@@ -109,7 +106,11 @@ Field
 
 Description
 
-</th></tr></thead><tbody><tr><td>
+</th></tr></thead><tbody><tr><td colspan="2">
+
+Connection Information
+
+</td></tr><tr><td>
 
 Connection Name
 
@@ -125,6 +126,10 @@ Connection URL
 
 Base URL for the Calendly Application Programming Interface \(API\). This field is automatically set to `https://api.calendly.com`.
 
+</td></tr><tr><td colspan="2">
+
+Credential Information
+
 </td></tr><tr><td>
 
 OAuth Client ID
@@ -139,7 +144,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client ID that you had generated on the Calendly developers portal. To learn how to generate a client secret, see [Set up an OAuth application in Calendly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-calendly.md).
+Client secret that you generated on the Calendly developers portal. To learn how to generate a client secret, see [Set up an OAuth application in Calendly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-calendly.md).
 
 </td></tr><tr><td>
 
@@ -150,16 +155,22 @@ OAuth Redirect URL
 URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based on your instance name.
 
 </td></tr></tbody>
-</table>8.  Select **Configure and Get OAuth Token**.
+</table>    \[Omitted image "calendly-conf-temp.png"\] Alt text: Configure Connection form for the Calendly spoke with the connection and credential fields.
 
-9.  Select **Connect to Calendly**.
+6.  Select **Save and Get OAuth Token**.
+
+7.  Select **Connect to Calendly**.
 
     The OAuth refresh token becomes available.
 
     \[Omitted image "calendly-spoke-conn-cred-created.png"\] Alt text: Connection and credential record created for Calendly.
 
-10. To get the OAuth token, select **Get OAuth Token**.
+8.  To get the OAuth token, select **Get OAuth Token**.
 
     **Important:** To get the OAuth token, log in to [https://calendly.com/app/login](https://calendly.com/app/login) with your licensed account credentials.
 
+
+### Result
+
+The Calendly spoke is set up and integrated with the ServiceNow instance.
 

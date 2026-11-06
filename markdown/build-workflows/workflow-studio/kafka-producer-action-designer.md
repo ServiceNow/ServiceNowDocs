@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -84,7 +84,7 @@ Schema
 
 </td><td>
 
-Reference to a schema table. Select a schema from the list. For information on schemas, see [Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/schema-management.md).**Note:** The message you're sending in the **Message** field must adhere to the structure of the selected schema.
+Reference to a schema table. Select a schema from the list. For information on schemas, see .**Note:** The message you're sending in the **Message** field must adhere to the structure of the selected schema.
 
 </td></tr><tr><td>
 

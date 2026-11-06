@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Setting up enrichments and rules scripting, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Minimizing table queries
@@ -75,5 +75,5 @@ var tableResults=lookup(“select blue, red, green from hues where value in (:li
 
 This method is better.
 
-For more information on what is supported in a query, see [The lookup function: commands and syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information on what is supported in a query, see [The lookup function: commands and syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-the-lookup-function-commands-and-syntax.md).
 

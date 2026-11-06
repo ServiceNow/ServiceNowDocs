@@ -1,20 +1,20 @@
 ---
 title: Available AI agents for Integration Hub
-description: AI agents are provided with some of the Integration Hub spokes or plugins that are preconfigured and are callable from interfaces such as, AI Agent Studio and Virtual Agent.
+description: Now Assist AI agents are provided with some of the Integration Hub spokes or plugins that are preconfigured and are callable from interfaces such as, AI Agent Studio and Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/available-spk-ai-agents.html
 release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 13
-breadcrumb: [ServiceNow Otto for Integration Hub, Build integrations, Integration Hub, Workflow Data Fabric]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [Now Assist for Integration Hub, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Available AI agents for Integration Hub
 
-AI agents are provided with some of the Integration Hub spokes or plugins that are preconfigured and are callable from interfaces such as, AI Agent Studio and Virtual Agent.
+Now Assist AI agents are provided with some of the Integration Hub spokes or plugins that are preconfigured and are callable from interfaces such as, AI Agent Studio and Virtual Agent.
 
 <table id="table_zc2_w3d_m2c"><thead><tr><th>
 
@@ -26,7 +26,7 @@ AI agent
 
 </th></tr></thead><tbody><tr><td>
 
-[ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md)
+[Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md)
 
 </td><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/api-discovery-integration.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [synthetic monitoring, API Insights, discovery, integration]
 breadcrumb: [Explore, Synthetic monitoring, ITOM AIOps, IT Operations Management]

@@ -7,7 +7,7 @@ release: australia
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
@@ -71,7 +71,7 @@ Objective \(%\)
 
 </td><td>
 
-The percentage of how available \(uptime\) you want the service to be over a length of time. If measuring by duration, an objective percentage of Five Nines \(99.999%\) means that the service wasn’t available for 26 seconds per month, or about 5 minutes and 35 seconds per year. This is used to calculate your error budget.
+The percentage of how available \(uptime\) you want the service to be over a length of time. If measuring by duration, an objective percentage of Five Nines \(99.999%\) means the service was unavailable for 26 seconds per month, or about 5 minutes and 35 seconds per year. This value is used to calculate your error budget.
 
 </td></tr><tr><td>
 

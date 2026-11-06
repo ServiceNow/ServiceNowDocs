@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 83
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 AI Assets API provides endpoints to retrieve, update, and create several types of AI assets, such as systems, data sets, prompts, and models.
 
 The AI Assets API supports actions that you can perform on AI Asset records in the Expanded Model and Asset Classes application. It requires the Asset Classes \(sn\_ent\) plugin to access it. You must have the asset and model\_manager roles to call the endpoints provided by the AI Assets API.
-
-This API belongs in the sn\_ent namespace.
 
 **Note:** The data included in AI Asset records may be spread across several tables like Product Model, Configuration Item, and others. To reduce complexity when calling this API, however, the AI Assets API inserts data into only the Asset, Product Model and Configuration Item tables. Specifics about table updates are provided under each endpoint.
 

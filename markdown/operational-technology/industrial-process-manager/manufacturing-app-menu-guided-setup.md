@@ -7,9 +7,9 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # Industrial Workspace Admin application menu and Guided Setup
@@ -66,5 +66,5 @@ If only the Industrial Process Manager is installed, the following setup functio
 
 To learn more about Guided Setups and their use, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
 
-**Parent Topic:**[Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
+**Parent Topic:**[Configure the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
 

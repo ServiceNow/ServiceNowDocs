@@ -1,26 +1,26 @@
 ---
 title: View major incident information on the Incident form
-description: When an incident enters the major incident life cycle, the Major Incident and the Post Incident Report tab appears on the incident form.
+description: View major incident details on the Major Incident and Post Incident Report tabs, which appear on the Incident form when an incident enters the major incident life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/view-major-info.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Working on major incident management, Managing major incidents, Incident Management, IT Service Management]
 ---
 
 # View major incident information on the Incident form
 
-When an incident enters the major incident life cycle, the **Major Incident** and the **Post Incident Report** tab appears on the incident form.
+View major incident details on the Major Incident and Post Incident Report tabs, which appear on the Incident form when an incident enters the major incident life cycle.
 
 ## Before you begin
 
 Role required: itil, sn\_incident\_read, or admin
 
-Incident is in the major incident life cycle.
+The incident must be in the major incident life cycle.
 
 ## Procedure
 
@@ -28,9 +28,9 @@ Incident is in the major incident life cycle.
 
     **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
-2.  Select the incident which is in the major incident life cycle.
+2.  Select the incident that is in the major incident life cycle.
 
-3.  Click the **Major Incident** tab.
+3.  Select the **Major Incident** tab.
 
 <table id="table_nkm_t4r_flb"><thead><tr><th>
 
@@ -47,9 +47,9 @@ Major incident state
 </td><td>
 
 A major incident state can be one of the following:-   **Proposed**: The initial state when a major incident candidate is created or proposed.
--   **Accepted**: The state when a major incident is directly created by a major incident manager or when a candidate is promoted to a major incident by a major incident manager.
+-   **Accepted**: The state when a major incident manager directly creates a major incident or promotes a candidate to a major incident.
 -   **Rejected**: The major incident candidate is rejected by a major incident manager.
--   **Canceled**: The major incident is demote by a major incident manager.
+-   **Canceled**: The major incident is demoted by a major incident manager.
 
 
 </td></tr><tr><td>
@@ -58,7 +58,7 @@ Proposed by
 
 </td><td>
 
-The user who proposed the incident as a major incident candidate.
+User who proposed the incident as a major incident candidate.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Promoted by
 
 </td><td>
 
-The user who promoted the incident to a major incident.
+User who promoted the incident to a major incident.
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Business impact
 
 </td><td>
 
-The business impact of the issue identified in the major incident.
+Business impact of the issue identified in the major incident.
 
 </td></tr><tr><td>
 
@@ -98,18 +98,18 @@ Probable cause
 
 </td><td>
 
-The probable cause of the issue identified in the major incident.
+Probable cause of the issue identified in the major incident.
 
 </td></tr></tbody>
-</table>4.  Click the **Post Incident Report** tab.
+</table>4.  Select the **Post Incident Report** tab.
 
-    If you have already filled the post incident report information in the major incident workbench, the same information appears in the following fields:
+    If post incident report information is already filled in on the major incident workbench, it appears in the following fields:
 
     |Field|Description|
     |-----|-----------|
     |Overview|Summary of the incident.|
-    |Findings|Information on what caused the major incident and any lessons learnt in the process.|
-    |Timeline|Information of all the activity feeds not only of the incident but also of the incident communication plan and incident communication tasks related to the incident.|
+    |Findings|Information on what caused the major incident and any lessons learned in the process.|
+    |Timeline|Activity feeds of the incident and of its related incident communication plan and communication tasks.|
 
 
 **Parent Topic:**[Working on major incident management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/work-on-mim.md)

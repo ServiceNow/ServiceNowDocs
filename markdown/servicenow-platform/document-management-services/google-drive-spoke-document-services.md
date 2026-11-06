@@ -7,7 +7,7 @@ release: australia
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Google Drive integration with Document Services, Integrate with Document Services, Multi Provider Document Services Framework, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,9 +39,9 @@ Document Services Framework for Google Drive enables a flow designer to:
 
 ## Spoke requirements
 
--   [Google Drive Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/googledrive-spoke.md)
--   [Google Directory Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/gdirectory-spoke.md)
--   [Google Docs Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/gdocs-spoke.md)
+-   
+-   
+-   
 
 ## Spoke dependencies
 

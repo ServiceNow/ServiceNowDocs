@@ -7,9 +7,9 @@ release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Response templates in Agent Workspace for HR Case Management, Agent Workspace for HR Case Management contextual side panel, Using Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Response templates in Agent Workspace for HR Case Management, Agent Workspace for HR Case Management contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Use response templates in HR cases or tasks
@@ -28,15 +28,15 @@ Role required: sn\_hr\_core.case\_writer
 
 3.  Select an HR case or task.
 
-<table id="choicetable_a5l_fjh_1cc"><thead><tr><th align="left" id="d314156e83">
+<table id="choicetable_a5l_fjh_1cc"><thead><tr><th align="left" id="d313829e83">
 
 Item
 
-</th><th align="left" id="d314156e86">
+</th><th align="left" id="d313829e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d314156e92">
+</th></tr></thead><tbody><tr><td id="d313829e92">
 
 **HR case**
 
@@ -46,7 +46,7 @@ Steps
 2.  Select the HR case.
 
 
-</td></tr><tr><td id="d314156e119">
+</td></tr><tr><td id="d313829e119">
 
 **HR task**
 

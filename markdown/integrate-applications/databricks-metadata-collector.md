@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/databricks-metadata-collector.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
 
@@ -29,6 +29,14 @@ Object
 Information cataloged
 
 </th></tr></thead><tbody><tr><td>
+
+Server
+
+</td><td>
+
+Host
+
+</td></tr><tr><td>
 
 Columns
 
@@ -128,6 +136,14 @@ Task Key, Type of Task \(Notebook, dbt, Spark jar, Python script, Python wheel, 
 
 </td></tr><tr><td>
 
+Pipeline
+
+</td><td>
+
+ID, Name, Pipeline Continuous, Run As Username, Creator Username, Last Modified, Pipeline State, Pipeline Type, Pipeline Libraries \(file path, notebook path\), Pipeline Notifications \(email recipient, alert type\)**Note:** Pipeline State, Pipeline Libraries, and Pipeline Notifications are only cataloged if the connected account has direct access to the pipeline. If not, the pipeline is still cataloged without those three fields, and a warning is logged.
+
+</td></tr><tr><td>
+
 External Location
 
 </td><td>
@@ -164,7 +180,31 @@ Metric View
 
 </td><td>
 
-Name, Description, YAML Definition, Source Table, Source Table Type, Filter, Created, Last Modified
+Name, Description, YAML Definition, Source Table, Source Table Type, Filter, Created, Last Modified, Materialization Enabled
+
+</td></tr><tr><td>
+
+Unity Catalog Metastore
+
+</td><td>
+
+Metastore ID, Name, Region, Cloud, External Access Enabled, Predictive Optimization Enabled, Global Metastore ID, Delta Sharing Scope, Storage Root, Owner, Created By, Last Modified By, Created At, Updated At
+
+</td></tr><tr><td>
+
+Metric View Dimension
+
+</td><td>
+
+Name, SQL Expression
+
+</td></tr><tr><td>
+
+Metric View Measure
+
+</td><td>
+
+Name, SQL Expression
 
 </td></tr></tbody>
 </table>Following additional information is cataloged when you run the collector with the **​Enable Governance Metadata Collection** option.
@@ -258,7 +298,16 @@ Database
 
 </td><td>
 
-Schema contained in Database
+-   Schema contained in Database
+-   Server that this database is hosted on
+
+</td></tr><tr><td>
+
+Server
+
+</td><td>
+
+Database hosted on this server
 
 </td></tr><tr><td>
 
@@ -387,6 +436,8 @@ Pipeline
 -   Copies data to Databricks Table/Database Schema
 -   Ingests data from Database Table/Database Schema
 
+ **Note:** Ingested data is only available if the connected account has direct access to the pipeline.
+
 </td></tr><tr><td>
 
 Unity Catalog Metastore
@@ -479,6 +530,22 @@ Table
 
 -   The collector identifies the upstream and downstream tables and their external locations \(S3 and ADLS Gen2 data assets\) along with the intermediate Job.
 -   The collector harvests the Databricks table lineage to S3 object.
+
+</td></tr><tr><td>
+
+Databricks table/ Database Schema
+
+</td><td>
+
+Sourced data from Database Table/Database Schema
+
+</td></tr><tr><td>
+
+Metric View
+
+</td><td>
+
+Identifies the table a metric view sources its data from. Always available, even if the metric view has never been queried
 
 </td></tr></tbody>
 </table>## Authentication supported

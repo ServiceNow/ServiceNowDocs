@@ -25,8 +25,9 @@ Role required: none
 
 Informer pod memory consumption depends mainly on the number of resources contained in the cluster. Memory limit defines the maximum memory the informer container is allowed to use, while memory request defines how much memory to reserve when scheduling the informer pod. Set the Informer pod's memory request and the Informer pod’s memory limit to at least \(number of pods\)/8MB, with a default minimum of 200MB. Memory request must not exceed the memory limit. For example:
 
+| | | | |
+|---|---|---|---|
 |Estimated pod count|1000|5000|30000|
-|-------------------|----|----|-----|
 |Minimum memory limit|200Mi|625Mi|3.75Gi|
 |Memory request|200Mi|625Mi|3.75Gi|
 

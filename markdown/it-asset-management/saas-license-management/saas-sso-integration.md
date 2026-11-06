@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -59,6 +59,4 @@ You can integrate your ServiceNow instance with Okta to view software usage for 
 [Delete an integration profile]()
 
 [Subscription identifiers for SaaS and SSO applications]()
-
-[Subscription exclusions for SaaS and SSO applications]()
 

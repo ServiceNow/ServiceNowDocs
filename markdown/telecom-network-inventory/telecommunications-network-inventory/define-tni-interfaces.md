@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -28,7 +28,7 @@ Network interfaces are used for the interconnection of signaling, or for the Int
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  From the list icon \[Omitted image "lists\_icon-proactive.png"\] Alt text: list icon\(, go to **Inventory** &gt; **Network Interfaces**.
+2.  From the list icon \(\[Omitted image "Lists.png"\] Alt text: List icon., go to **Inventory** &gt; **Network Interfaces**.
 
 3.  Select **New**.
 
@@ -213,5 +213,5 @@ Optical wavelength of a port.
 **Related topics**  
 
 
-[Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
+[Model your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 

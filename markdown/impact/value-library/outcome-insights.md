@@ -7,9 +7,9 @@ release: australia
 product: Value Library
 classification: value-library
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Value management, Using Impact, Impact]
+breadcrumb: [Value Management, Impact reference, Impact]
 ---
 
 # Business KPIs tracking with Outcomes Insights

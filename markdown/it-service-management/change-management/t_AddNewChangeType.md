@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
@@ -32,7 +32,7 @@ In addition to the three types of change available by default, you can add new c
 
     2.  Right-click the **Type** field and select **Show Choice List**.
 
-    3.  Click **New** and fill in the following fields.
+    3.  Select **New** and fill in the following fields.
 
         |Field Name|Description|
         |----------|-----------|
@@ -49,7 +49,7 @@ In addition to the three types of change available by default, you can add new c
 
     2.  Open the **Change Request** interceptor.
 
-    3.  Click **New** in the **Answers** related list.
+    3.  Select **New** in the **Answers** related list.
 
     4.  Complete the form, as appropriate.
 
@@ -57,7 +57,7 @@ In addition to the three types of change available by default, you can add new c
         |:----|:----------|
         |Question|Change Request|
         |Name|Enter a name for the new change type. For example, `Direct to Expedited Change`.|
-        |User Prompt|Enter a description that is displayed to the end user when they click **Create New** under **Change**.|
+        |User Prompt|Enter a description that is displayed to the end user when they select **Create New** under **Change**.|
         |Target URL|Set the appropriate target URL. For example, `change_request.do?sys_id=-1&sysparm_query=type=expedited`.|
         |Order|Set the appropriate order level for the change type. For example, `400`.|
 
@@ -73,7 +73,7 @@ In addition to the three types of change available by default, you can add new c
 
     3.  Copy the script of the ChangeRequestStateModelSNC\_emergency script include from the **Script** field.
 
-    4.  Navigate to **System Definition** &gt; **Script Includes** and click **New**.
+    4.  Navigate to **System Definition** &gt; **Script Includes** and select **New**.
 
     5.  Name the new script include to match the value of the new type.
 
@@ -83,7 +83,7 @@ In addition to the three types of change available by default, you can add new c
 
     7.  Update any references in the pasted script include from ChangeRequestStateModelSNC\_emergency to ChangeRequestStateModelCust\_expedited.
 
-    8.  Click **Submit**.
+    8.  Select **Submit**.
 
         **Note:** An existing script include contains the implementation for all the *moving* and *canMove* functions. The *moving* function is used to pre-populate any fields that are required for the new state. The *canMove* function is used to check for any additional requirements and to validate whether a task can move to the next state.
 
@@ -107,7 +107,7 @@ In addition to the three types of change available by default, you can add new c
 
         Ensure that the reference of the type is similar to the script include that is created. For example, `type:"ChangeRequestStateModel_expedited"});`. The type is present at the bottom of the script.
 
-    5.  Click **Insert and Stay** create a copy of the script include ChangeRequestStateModel\_emergency with the new name ChangeRequestStateModel\_expedited.
+    5.  Select **Insert and Stay** create a copy of the script include ChangeRequestStateModel\_emergency with the new name ChangeRequestStateModel\_expedited.
 
 5.  Complete the following steps to modify the script include that controls the transition between states using one of the defined models for the new change type.
 
@@ -165,5 +165,5 @@ In addition to the three types of change available by default, you can add new c
 
 [Change types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-types.md)
 
-[Legacy: Add a state to the state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddANewState.md)
+[Add a state to the state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddANewState.md)
 

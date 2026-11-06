@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure ServiceNow Otto for SAM, Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configuring ServiceNow Otto for Software Asset Management \(SAM\), Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills
@@ -22,17 +22,17 @@ Role required: admin
 
 ## About this task
 
-Starting with the Zurich Patch 4 release, generative AI skills for ServiceNow Otto for SAM are automatically activated on your instance by default and require no configuration. However, if you deactivate a skill, you need to manually reactivate that skill by following the specified procedure.
+Starting with the Zurich Patch 4 release, generative AI skills for Now Assist for SAM are automatically activated on your instance by default and require no configuration. However, if you deactivate a skill, you need to manually reactivate that skill by following the specified procedure.
 
 ## Procedure
 
 1.  Install the ServiceNow Otto for Software Asset Management \(SAM\) plugin \(sn\_now\_assist\_sam\).
 
-2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** to access the **AI Skills** tab of the AI Admin Hub console.
+2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
 
 3.  Select **SAM** under the **Technology** workflow group.
 
-4.  On the AI skills for SAM page, select **Activate skill** for the skill that you would like to activate.
+4.  On the Now Assist skills for SAM page, select **Activate skill** for the skill that you would like to activate.
 
     The page for the skill that you activated opens with the General details section highlighted.
 

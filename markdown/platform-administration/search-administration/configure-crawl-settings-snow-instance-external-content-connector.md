@@ -7,8 +7,8 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-05-15"
-reading_time_minutes: 4
+last_updated: "2026-10-28"
+reading_time_minutes: 7
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow instance external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -21,11 +21,18 @@ Specify the content types that you want your ServiceNow instance external conten
 
 A connector administrator must have already created the ServiceNow® instance external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-snow-instance.md).
 
+To specify inclusion and exclusion filters, you must be familiar with Java regular expression patterns. For information on the syntax of Java regular expression patterns, see [the Javadoc for the java.regex.util.Pattern class](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/regex/Pattern.html).
+
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the ServiceNow instance external content connector retrieves all KB articles from your ServiceNow AI Platform instance. Only perform this task if you want the connector to use inclusion or exclusion filters for the KB articles to retrieve when running content crawls.
+This task is optional. By default, the ServiceNow instance external content connector retrieves all KB article, Service Catalog item, and incident records, plus attachments on those records, from your ServiceNow AI Platform instance. Only perform this task if you want the connector to use any of the following non-default settings:
+
+-   Inclusion or exclusion filters for the KB articles to retrieve from the source instance when running content crawls
+-   Inclusion or exclusion filters for the Service Catalog items to retrieve from the source instance when running content crawls
+-   Inclusion or exclusion filters for the incidents to retrieve from the source instance when running content crawls
+-   Inclusion or exclusion of attachments from all retrieved records
 
 Content is only retrieved from the source system if it passes all of your configured crawl setting filters. If any crawl setting filter excludes a content item, the external content connector doesn't retrieve it.
 
@@ -45,9 +52,9 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 2.  In the Connectors list, select the record for the ServiceNow instance external content connector whose settings you want to modify.
 
-3.  In the connector editor's Settings tab, select **Crawl settings**.
+3.  In the connector editor's **Settings** tab, select **Crawl settings**.
 
-4.  Select one of the following **Short description filtering** options in the KB articles section.
+4.  To crawl knowledge base articles from the source instance, activate the **Crawl KB articles** option in the KB articles section, then select one of the following filtering options in that section.
 
     -   To crawl all KB articles from the source instance, select **Crawl all short descriptions**.
     -   To crawl only a specified set of KB articles from the source instance, select **Include only these short descriptions**, then use the **Add short description patterns to include** field and **Add** button to enter Java regular expression patterns that match the short descriptions for the KB articles that you want to include in the crawl.
@@ -58,9 +65,31 @@ If one of your connectors reaches the content indexing limit, you can update its
 
         As an example, you might enter `(?i)\[Legacy\]` to exclude all KB articles with short descriptions that contain the terms `[Legacy]` or `[legacy]`.
 
-    **Note:** To learn about Java regular expression pattern syntax, see [the Javadoc for the java.regex.util.Pattern class](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/regex/Pattern.html).
+5.  To crawl Service Catalog items from the source instance, activate the **Crawl service catalog items** option in the Service catalog items section, then select one of the following filtering options in that section.
 
-5.  If you want AI Search to automatically generate captions for content in attachments and files retrieved by the connector, select the **Multimodal captions** option.
+    -   To crawl all Service Catalog items from the source instance, select **Crawl all names**.
+    -   To crawl only a specified set of Service Catalog items from the source instance, select **Include only these names**, then use the **Add name patterns to include** field and **Add** button to enter Java regular expression patterns that match the names for the Service Catalog items that you want to include in the crawl.
+
+        As an example, you might enter `(?i)\blaptop\b` to include all Service Catalog items with names that contain `Laptop` or `laptop` surrounded by word breaks.
+
+    -   To crawl all except a specified set of Service Catalog items from the source instance, select **Exclude only these names**, then use the **Add name patterns to exclude** field and **Add** button to enter Java regular expression patterns that match the names for the Service Catalog items that you want to exclude from the crawl.
+
+        As an example, you might enter `1[3-5] inch laptop` to exclude all Service Catalog items with names that contain `13 inch laptop`, `14 inch laptop`, or `15 inch laptop`.
+
+6.  To crawl Incident records from the source instance, activate the **Crawl incidents** option in the Incidents section, then select one of the following filtering options in that section.
+
+    -   To crawl all incidents from the source instance, select **Crawl all short descriptions**.
+    -   To crawl only a specified set of incidents from the source instance, select **Include only these short descriptions**, then use the **Add short description patterns to include** field and **Add** button to enter Java regular expression patterns that match the short descriptions for the incidents that you want to include in the crawl.
+
+        As an example, you might enter `Release2025Q[1-4]` to include all incidents with short descriptions that contain the terms `Release2025Q1`, `Release2025Q2`, `Release2025Q3`, or `Release2025Q4`.
+
+    -   To crawl all except a specified set of incidents from the source instance, select **Exclude only these short descriptions**, then use the **Add short description patterns to exclude** field and **Add** button to enter Java regular expression patterns that match the short descriptions for the incidents that you want to exclude from the crawl.
+
+        As an example, you might enter `sprint\d{1,3}` to exclude incidents with short descriptions that contain the term `sprint` followed by a one-digit, two-digit, or three-digit numeral.
+
+7.  To crawl attachments from retrieved records, activate the **Crawl attachments** option in the Attachments section.
+
+8.  If you want AI Search to automatically generate captions for content in attachments and files retrieved by the connector, select the **Multimodal captions** option.
 
     When you select this option, the Platform Multimodal Service automatically generates descriptive captions for images, tables, charts, and other visual elements found in retrieved attachments and files. You can discover these retrieved attachments and files by searching for terms from their generated captions.
 
@@ -68,7 +97,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
     -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
     -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
-6.  Select **Save and validate**.
+9.  Select **Save and validate**.
 
 
 ## Result

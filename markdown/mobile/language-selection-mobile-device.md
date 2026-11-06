@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/language-selection-mobile-device.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-01"
 reading_time_minutes: 1
 breadcrumb: [Languages on your mobile device, Using the mobile apps, Mobile Platform]
 ---

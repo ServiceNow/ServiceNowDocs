@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-07-06"
+last_updated: "2026-09-22"
 reading_time_minutes: 12
 keywords: [AI Agent, Agentic AI]
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
@@ -29,7 +29,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Exchange Online spoke v4.1.2 is the latest version. For version history of the spoke, see [Microsoft Exchange Online Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-exchange-online.html).
+Microsoft Exchange Online spoke v4.1.3 is the latest version. For version history of the spoke, see [Microsoft Exchange Online Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-exchange-online.html).
 
 ## Spoke dependencies
 
@@ -309,7 +309,7 @@ The Microsoft Exchange Online spoke provides actions to automate calendar and ma
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 

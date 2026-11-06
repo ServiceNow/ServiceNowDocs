@@ -1,5 +1,5 @@
 ---
-title: Enable MID Server Governance Checks
+title: Enable MID Server governance checks
 description: Use an inactivity timeout on your MID Servers to reduce exposure to potential attackers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-enable-mid-server-governance-checks.html
@@ -7,12 +7,12 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Enable MID Server Governance Checks
+# Enable MID Server governance checks
 
 Use an inactivity timeout on your MID Servers to reduce exposure to potential attackers.
 

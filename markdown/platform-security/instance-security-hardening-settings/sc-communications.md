@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hardening settings, Platform Security]
 ---
@@ -29,7 +29,7 @@ Learn how to configure the **com.glide.communications.httpclient.ocsp\_allow\_ne
 -   **[Verify certificate chain and hostname](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-verify-certificate-chain-and-hostname.md)**  
 Configure the **com.glide.communications.httpclient.verify\_hostname** property to prevent man-in-the-middle-attacks by ensuring that the certification verification process is executed.
 -   **[Verify certificate revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-verify-certificate-revocation.md)**  
-The **com.glide.communications.httpclient.verify\_revoked\_certificate** property checks certificate revocation during the Transport Layer Security \(TLS\) handshake to ensure that security checks are not bypassed.
+The **com.glide.communications.httpclient.verify\_revoked\_certificate** property checks certificate revocation during the Transport Layer Security \(TLS\) handshake to ensure that security checks aren't bypassed.
 
 **Parent Topic:**[Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/security-hardening-settings.md)
 

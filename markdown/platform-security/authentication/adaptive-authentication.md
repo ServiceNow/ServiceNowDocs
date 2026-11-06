@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Authentication, Access Management]
 ---
@@ -20,7 +20,7 @@ Use adaptive authentication policies and contexts to restrict the access to your
 
 For example, an administrator can configure the **Allow Access Policy** to allow logins from users only within a trusted range of IP addresses and who are members of a specific role. When assigned to the **Post-authentication context**, the access policy denies access from untrusted IP addresses.
 
-To set a custom message in the language of your instance you need to add key, value pair in `sys_ui_message.list` and update the `sys_ui_message` record. When you login with an incorrect password, the custom message in the preferred language is displayed.
+To set a custom message in the language of your instance you need to add a key-value pair in `sys_ui_message.list` and update the `sys_ui_message` record. When you log in with an incorrect password, the custom message in the preferred language is displayed.
 
 \[Omitted image "adaptive-auth-graphic.png"\] Alt text: Adaptive authentication flow
 
@@ -36,24 +36,24 @@ To set a custom message in the language of your instance you need to add key, va
 
     Authentication policy contexts define how and when policies are enforced during the login process. The pre-authentication context executes before the user is shown a login screen. The post-authentication context executes after the user enters their credentials. To use a policy, it must be assigned to a policy context. For details on these contexts, see [Authentication policy contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/auth-policy-contexts.md).
 
--   **Filter Criteria**
+-   **Filter criteria**
 
     Filter criteria \(also called policy inputs\) are used as inputs for policy conditions. Policy conditions use these inputs to verify and meet the requirements of authentication requests. These inputs provide information like user role, IP range, and identity provider. For more detail on filter criteria, see [Filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/adaptive-auth-filter-criteria.md).
 
 -   **Authentication properties**
 
-    Use authentication properties to control whether adaptive authentication is active on your instance. You can also use properties to enabled debugging, and define the messaging users see when access is blocked. For details on these properties, see [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-adaptive-auth-properties.md).
+    Use authentication properties to control whether adaptive authentication is active on your instance. You can also use properties to enable debugging, and define the messaging users see when access is blocked. For details on these properties, see [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-adaptive-auth-properties.md).
 
 
 ## REST API access policies
 
-You can use the filter criteria of adaptive authentication framework to restrict access to inbound ServiceNow REST APIs. For more information, see [REST API access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/inbound-authentication-profile.md).
+You can use the filter criteria of the adaptive authentication framework to restrict access to inbound ServiceNow REST APIs. For more information, see [REST API access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/inbound-authentication-profile.md).
 
 ## Domain separation and adaptive authentication
 
 Adaptive authentication is supported on domain separated instances on the authentication policy condition level. Policy conditions affect the domain in the records **Domain** \[sys\_domain\] field. Policy conditions in the global domain affect all domains.
 
-## Adaptive Authentication Events
+## Adaptive authentication events
 
-You can use the adaptive authentication events table to know about the events that have occurred specific to the adaptive authentication feature. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/adaptive-authentication-events.md).
+You can use the adaptive authentication events table to learn about the events that have occurred specific to the adaptive authentication feature. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/adaptive-authentication-events.md).
 

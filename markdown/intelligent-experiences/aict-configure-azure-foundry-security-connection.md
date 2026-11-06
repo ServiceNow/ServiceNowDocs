@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-configure-azure-foundry-security-connection.html
 release: australia
 topic_type: task
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add an Azure AI Foundry connection

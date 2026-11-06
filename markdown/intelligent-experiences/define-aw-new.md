@@ -1,16 +1,16 @@
 ---
-title: Define the expected behavior an agentic workflow
+title: Define the expected behavior of an agentic workflow
 description: In the guided setup for an agentic workflow, write a clear description defining your agentic workflow and the instructions it should perform to orchestrate AI agents and accomplish complex tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/define-aw-new.html
 release: australia
 topic_type: task
-last_updated: "2026-06-06"
+last_updated: "2026-10-23"
 reading_time_minutes: 2
-breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
-# Define the expected behavior an agentic workflow
+# Define the expected behavior of an agentic workflow
 
 In the guided setup for an agentic workflow, write a clear description defining your agentic workflow and the instructions it should perform to orchestrate AI agents and accomplish complex tasks.
 
@@ -18,7 +18,7 @@ In the guided setup for an agentic workflow, write a clear description defining 
 
 You must either create an agentic workflow or edit an existing one to get to this step in the guided setup. To learn how to get started creating an agentic workflow, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-aw-new.md). Otherwise, navigate to the AI Agent Studio and select the agentic workflow you want to define to enter the guided setup.
 
-These fields may be blank or be filled in for you as a first draft as part of the new AI Agent Studio setup process.
+These fields may be blank, or AI Agent Studio may fill them in as a first draft. Review any pre-filled content before you rely on it.
 
 Role required: sn\_aia.admin
 
@@ -28,7 +28,7 @@ The first step of the guided setup enables you to define the fundamentals of the
 
 ## Procedure
 
-1.  Verify or create the name and description of the agentic workflow for the LLM that summarize the main intention of the agentic workflow.
+1.  Verify that the name and description summarize the main intention of the agentic workflow.
 
     If the name and description aren't clear or correct, the Orchestrator won't know how to use the agentic workflow in context.
 
@@ -40,7 +40,7 @@ The first step of the guided setup enables you to define the fundamentals of the
 
     You can create different versions of the agentic workflow instructions. After [testing an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-ai-asset-new.md) or [evaluating an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/launch-aia-eval.md), you can adjust the instructions and compare their performance. See [Version control for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/version-control.md) to learn more.
 
-    \[Omitted image "ai-agent-setup-exp-beh-2.png"\] Alt text: AI agent setup expected behavior section showing how-to instructions with version control.
+    \[Omitted image "aw-setup-exp-beh-2.png"\] Alt text: Agentic workflow setup expected behavior section showing how-to instructions with version control.
 
 
 ## Result

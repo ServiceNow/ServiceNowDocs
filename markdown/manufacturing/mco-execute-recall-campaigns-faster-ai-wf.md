@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-execute-recall-campaigns-faster-ai-wf.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, ServiceNow Otto for MCO, Manufacturing Commercial Operations]
+breadcrumb: [ServiceNow Otto Agentic workflows, AI in Manufacturing Commercial Operations, Explore, Manufacturing Commercial Operations]
 ---
 
 # Execute recall campaigns faster agentic workflow

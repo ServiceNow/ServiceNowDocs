@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -52,9 +52,6 @@ Case
 -   Trending topics dashboard
 -   Activity response generation
 -   Sentiment analysis dashboard
--   Automated quality assurance
--   Special handling notes summarization
--   Customer summarization
 
 </td></tr><tr><td>
 
@@ -89,7 +86,7 @@ For earlier versions, go to [Application Manager](https://raw.githubusercontent.
 
 [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
 
-[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
+[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 
 [Using agentic AI in ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
 

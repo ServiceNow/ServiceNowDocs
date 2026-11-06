@@ -7,9 +7,9 @@ release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Explore Predictive Intelligence
@@ -85,7 +85,7 @@ A predictive model includes these components, some of which you must provide.
     -   The class distribution is the percentage of records from the entire table that have this particular output field value. For example, a distribution of 50 for the inquiry class means that half of incidents have the inquiry category.
 
 -   **[Predictive Intelligence frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/predictive-intelligence-frameworks.md)**  
-Predictive Intelligence provides three different model frameworks in the Australia release: classification, similarity, and clustering. Each framework specializes in different types of predictions.
+Predictive Intelligence provides three different model frameworks in the Brazil release: classification, similarity, and clustering. Each framework specializes in different types of predictions.
 -   **[ServiceNow apps and features that use Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/servicenow-apps-features-use-predictive-intelligence.md)**  
 Learn about ServiceNow applications and features that leverage Predictive Intelligence. Solutions that you can adapt are available for various business units and industries.
 

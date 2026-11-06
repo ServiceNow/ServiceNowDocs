@@ -1,24 +1,24 @@
 ---
 title: Managing financials for planning items in Portfolio Planning
-description: Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines, and view, analyze, and compare the financial performance of your planning items at required cadence in Portfolio Planning Workspace.
+description: Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines. View, analyze, and compare the financial performance of your planning items at required cadence in Portfolio Planning Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/using-financials-pp.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Managing financials for planning items in Portfolio Planning
 
-Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines, and view, analyze, and compare the financial performance of your planning items at required cadence in Portfolio Planning Workspace.
+Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines. View, analyze, and compare the financial performance of your planning items at required cadence in Portfolio Planning Workspace.
 
 The comprehensive financials view helps you to understand planned and actual costs, Forecast \(previously EAC - Estimate At Completion\), Remaining Estimates \(previously ETC - Estimate To Completion\), Actual \(previously Actuals to date\), and so on, for the selected item. You can manage cost plans and associate the expense lines and process them to reflect the actuals for a planning item.
 
-Export the financials data from Costs and benefits or Baseline comparison view as Microsoft Excel or a CSV file and share it with your stakeholders to review the financial performance of your planning items and portfolio.
+Export the financials data from the Costs and benefits or Baseline comparison view as a Microsoft Excel or CSV file. Share the exported reports with stakeholders to review the financial performance of your planning items and portfolio.
 
 ## Cost view
 
@@ -68,7 +68,7 @@ Financial records and widgets will display the costs based on the currency selec
 
 ## Display modes
 
-On the financials page for a planning item in Portfolio Planning Workspace, you have Display Mode drop-down switch between different modes to view different formats of financial information of your planning items. These views provide the relevant and focused information which helps project managers and funding users to work on the financial planning.
+On the financials page for a planning item in Portfolio Planning Workspace, you have Display Mode drop-down to switch between different modes and view different formats of financial information of your planning items. These views provide the relevant and focused information that helps project managers and funding users to work on the financial planning.
 
 -   Forecast
 -   Budget vs forecast
@@ -197,7 +197,7 @@ The widgets and the header rows are color-coded to help you identify the selecte
 
 **Tip:** Switch between different baselines from the comparison view by selecting the name of a baseline from one of the widgets.
 
-When you compare baselines, you get the list of cost plans with their associated costs types and a breakdown view of actual expenses and planned costs.
+When you compare baselines, you get the list of cost plans with their associated costs types and EAC at full scope. You also get a breakdown view of actual expenses and planned costs.
 
 By default, the time scale of the breakdown view is set to Month.
 
@@ -245,9 +245,9 @@ For more information on how to allocate, approve, and handle budget for planning
 
 Choose the cost type as the attribute to allocate and approve the budget for individual cost types such as labor, non-labor.
 
-Project managers can view the approved budget at the required time scale using the Budget vs forecast option from the display modes. As the work progresses and the actuals are captured, you can compare the budget and actual costs using the Budget vs forecast mode and reforecast the planned costs where the actuals are exceeding the budget using the inline edit feature at the required time scale.
+Project managers can view the approved budget at the required time scale using the Budget vs forecast option from the display modes. As the work progresses and the actuals are captured, you can compare the budget and actual costs using the Budget vs forecast mode. Reforecast the planned costs where the actuals are exceeding the budget using the inline edit feature at the required time scale.
 
-Product managers can compare the latest cost with the approved budget by Capex or Opex, cost types, and time scale. You can view comparisons at monthly, quarterly, or yearly level. The comparison view provides insights to Product managers to locate any variance at expense type or cost type, and at which fiscal period. Product manager can use this information to request for additional budget from the Portfolio manager.
+Product managers can compare the latest cost with the approved budget by Capex or Opex, cost types, for the required time scale at monthly, quarterly, or yearly level. The comparison view provides insights to Product managers to locate any variance at expense type or cost type, and at which fiscal period. Product manager can leverage this information to request for additional budget from the Portfolio manager.
 
 You can migrate the budget of existing active projects and demands items from the Classic UI to Next Experience. Financials in the Next Experience has new budget data model that facilitates to store the budget at a detailed level by monthly breakdowns and cost types. You can migrate the budget for active projects and demands individually or by bulk using the scheduled job.
 
@@ -258,7 +258,7 @@ You can migrate the budget of existing active projects and demands items from th
 
 Budget distribution logic
 
-The budget allocation approach introduces data‑aware budget distribution, prioritizing actuals for completed periods and planned costs for future periods. Distribution strategies vary based on whether actuals or Estimate at Completion \(EAC\) values are available. The fiscal period timing \(past, present, or future\) also determines the approach.
+The budget allocation approach introduces data‑aware budget distribution, prioritizing actuals for completed periods and planned costs for future periods. The system uses different distribution strategies depending on whether actuals or Estimate at Completion \(EAC\) values are available. This also depends on whether the fiscal period falls in the past, present, or future.
 
 Budget allocation logic is divided into three focus areas: past fiscal periods, current fiscal periods, and future fiscal periods.
 
@@ -291,12 +291,12 @@ You can manage all cost plans and benefit plans from the Cost and benefits view.
 
 ## Simple financials
 
-Simple financials gives you the ability to enter preliminary high-level planned capex, opex, and benefit from the Details page. You can do this without capturing the cost plans from the Cost view. You can update the simple financials values as required until you have the planned and actual costs captured.
+Simple financials lets you enter the preliminary high-level planned capex, opex, benefit, and so on from the Details page without capturing the costs plans from the Cost view. You can update the simple financials values as required until you have the planned and actual costs captured.
 
 This video is recorded in Project Workspace. Navigation might differ for Portfolio Planning but functionality remains the same.\[Omitted video\] Description: Manage simple financials
 
 Using the baseline feature, you can capture these simple financial values in a baseline and compare them against any existing baseline. You can:
 
 -   Reforecast simple financials and compare the by selecting the Current Financials from the list of baselines.
--   Capture the planned and actual expenses as the project progresses and compare any financial baseline with a simple financials baseline to track the financial performance of the planning item.
+-   Capture the planned and actual expenses as the project progresses. Then, compare any financial baseline with a simple financials baseline to track the financial performance of the planning item.
 

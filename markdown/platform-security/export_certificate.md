@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/export\_certificate.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quorum Controlled Certificate Revocation, Configure, Code Signing, Platform Security]
 ---
@@ -81,4 +81,6 @@ Email address of the users who are authorized to approve the revocation request.
 ## Result
 
 The export process downloads an XML file to your local machine for use in the steps detailed in [Configure Code Signing Enterprise on your protected instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cse-ppi-config.md).
+
+**Parent Topic:**[Quorum Controlled Certificate Revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/certificate-revocation.md)
 

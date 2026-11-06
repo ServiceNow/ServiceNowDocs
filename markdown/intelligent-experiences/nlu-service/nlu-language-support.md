@@ -1,5 +1,5 @@
 ---
-title: NLU language support
+title: \(Legacy\) NLU language support
 description: The NLU Workbench application provides support for creating NLU models in different languages for use in other applications, such as Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/nlu-language-support.html
@@ -7,12 +7,12 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Exploring Natural Language Understanding, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Exploring Natural Language Understanding, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# NLU language support
+# \(Legacy\) NLU language support
 
 The NLU Workbench application provides support for creating NLU models in different languages for use in other applications, such as Virtual Agent.
 

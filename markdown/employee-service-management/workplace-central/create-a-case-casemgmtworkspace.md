@@ -7,7 +7,7 @@ release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with Case management, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -76,10 +76,4 @@ The workplace service request is submitted and a workplace case is created. Refr
 [Managing print case]()
 
 [Cancel or delete a case]()
-
-[Manage workplace cases in calendar view in Workplace Central]()
-
-[Workplace cases in List view in Workplace Central]()
-
-[View facility assets in Workplace Central]()
 

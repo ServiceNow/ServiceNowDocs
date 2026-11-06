@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bcp-uib.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -37,7 +37,7 @@ If you are the BCP administrator, you can view [Setup for a business continuity 
 
 ## Creating a business continuity plan in Business Continuity Workspace
 
-If you are the business continuity plan owner, you can create a business continuity plan in Business Continuity Workspace by using one of these options:
+if you are the business continuity plan owner, you can create a business continuity plan in Business Continuity Workspace by using one of these options:
 
 -   You can navigate to the **Planning** tab in the Home page and select **Create BCP** as shown in the example.
 

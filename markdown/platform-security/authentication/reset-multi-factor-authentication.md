@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -28,9 +28,9 @@ The following procedure describes how a ServiceNow® administrator can reset the
 
 2.  Search for the user that you want to unblock.
 
-3.  Set the Validate to **false**.
+3.  Set the Validated field to **false**.
 
-4.  Navigate to **All** &gt; **Multi-factor Authentication** &gt; **Web Authentication** &gt; **User Public Credentials \(sys\_user\_public\_credential**.
+4.  Navigate to **All** &gt; **Multi-factor Authentication** &gt; **Web Authentication** &gt; **User Public Credentials \(sys\_user\_public\_credential\)**.
 
 5.  Search for the user that you want to unblock.
 

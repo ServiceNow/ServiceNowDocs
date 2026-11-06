@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Hardening settings, Platform Security]
 
 The Configuration category ensures applications have a secure build environment and hardened third party library components. Specifically, ensuring a build and deploy pipeline is repeatable and includes automated testing and prevents known security issues from being deployed. This includes keeping dependencies up to date and free from known vulnerabilities.
 
--   **[Allow CORS Origins for OAuth Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-allow-cors-origins-for-oauth-endpoints.md)**  
+-   **[Allow CORS origins for OAuth endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-allow-cors-origins-for-oauth-endpoints.md)**  
 Use a system property to configure to specify which domains are allowed to make cross-origin requests.
 -   **[Auto set content type options \[Removed in Security Center 1.3.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-auto-set-content-type-options.md)**  
 Configure the Auto set content type options property on your instance to prevent MIME confusion attacks.
@@ -30,7 +30,7 @@ Reduce the risk of cookie/session-related hijacking of web apps using a system p
 Avoid the introduction of unpatched vulnerabilities in the library by disabling legacy JQuery UI usage.
 -   **[Disable locked form elements debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-locked-form-elements-debugging.md)**  
 Use a system property to prevent the display of explanation of locked form elements.
--   **[Disable MultiSSO Debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-multisso-debugging.md)**  
+-   **[Disable Multi-SSO debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-multisso-debugging.md)**  
 The **glide.authenticate.multisso.debug** property controls debug logging for Multi-SSO.
 -   **[Disallow target cloning \[New in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disallow-target-cloning.md)**  
 Configure the **glide.db.clone.allow\_clone\_target** property to prevent your instance from being used as a clone target.

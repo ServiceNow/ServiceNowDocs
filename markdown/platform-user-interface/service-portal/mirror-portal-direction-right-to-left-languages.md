@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Styling for right-to-left languages in portals, Defining portal styles, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Mirror the direction of a portal's user interface for right-to-left languages by
 
 ## Before you begin
 
-Active a right-to-left language, such as Hebrew. For more information, see .
+Active a right-to-left language, such as Hebrew. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
 
 Role required: sp\_admin or admin
 

@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-04-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -15,4 +15,9 @@ breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfoli
 # Use AI Admin Hub
 
 Use AI Admin Hub to explore the various ServiceNow Otto® plugins, skills and associated Generative AI application features you're entitled to.
+
+-   **[Activate a AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-now-assist-skill-spm.md)**  
+Configure the triggers, settings, and display locations for AI skills to enable generative AI capabilities.
+
+**Parent Topic:**[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-workspace-landing-page.md)
 

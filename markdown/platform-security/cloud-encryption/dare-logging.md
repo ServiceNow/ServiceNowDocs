@@ -7,7 +7,7 @@ release: australia
 product: Cloud Encryption
 classification: cloud-encryption
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cloud Encryption with Key Management, Encryption]
 ---
@@ -40,7 +40,7 @@ Looking at the Sys Audits\[sys\_audit\] table, admins can see changes made to re
 
 \[Omitted image "dare-log-4.png"\] Alt text: Key definition for a withdrawn key
 
-Admins can view the records on the Cloud Encryption Key Metadata \[dare\_key\_metadata\] table. In the following audit records, the request status was changed from processing to completed.
+Admins can view the records on the Cloud Encryption Key Metadata \[dare\_key\_metadata\] table. In the audit records below, the request status was changed from processing to completed.
 
 \[Omitted image "dare-log-5.png"\] Alt text: Key definition for a withdrawn key
 

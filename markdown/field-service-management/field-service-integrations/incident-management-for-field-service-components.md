@@ -7,7 +7,7 @@ release: australia
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration with Incident Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Various plugins, script includes, and business rules are installed with the Inci
 
 ## Plugin
 
-The Incident Management for Field Service application \(sn\_fsm\_inc\_mng\) plugin must be activated. For more information on the steps to activate a plugin, see [Activate Incident Management for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/Install-incident-for-fsm.md).
+The Incident Management for Field Service application \(sn\_fsm\_inc\_mng\) plugin must be activated. For more information on the steps to activate a plugin, see [Install Incident Management for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-integrations/Install-incident-for-fsm.md).
 
 ## Script Includes
 

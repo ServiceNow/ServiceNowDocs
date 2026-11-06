@@ -1,0 +1,95 @@
+---
+title: DEX Insights
+description: The Digital End-User Experience \(DEX\) Insights tab provides access to the battery health, compliance, system performance, and system time reports, enabling you to track user devices and take remedial actions. Use the Insights reports to gain early information about issues before they can slow down the users.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/dex-workspace-insights-tab.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Administer, Digital End-User Experience, IT Operations Management]
+---
+
+# DEX Insights
+
+The Digital End-User Experience \(DEX\) Insights tab provides access to the battery health, compliance, system performance, and system time reports, enabling you to track user devices and take remedial actions. Use the Insights reports to gain early information about issues before they can slow down the users.
+
+To access the Insights tab, navigate to **Workspaces** &gt; **Service Operations Workspace** and select the Insights icon \[Omitted image "icon-insights.png"\] Alt text: in the primary navigation pane.
+
+<table id="table_kfx_zsw_xcc"><thead><tr><th>
+
+Category
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Battery health
+
+</td><td>
+
+Provides information about the battery of the monitored devices, including its capacity, serial number, and condition.
+
+</td></tr><tr><td>
+
+Event monitoring
+
+</td><td>
+
+Enables you to monitor and analyze configured events across managed devices.Using filters, you can isolate events by severity, OS type, and rule configuration. You can also take a remedial action on affected devices. See [DEX Insights reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/insights-reports.md) for more details.
+
+</td></tr><tr><td>
+
+File management
+
+</td><td>
+
+Lists the files that you set up to be monitored on the user devices.The list identifies the file name, the category to which it belongs, and the number of devices that have the file.
+
+This page appears on Windows machines only.
+
+**Note:** If you select the number in the **Device count** column, you can see the list of all devices where that file is present.
+
+</td></tr><tr><td>
+
+System compliance
+
+</td><td>
+
+Helps you monitor whether the devices across your organization are adhering to the established application and policy metric compliance rules.
+
+</td></tr><tr><td>
+
+System performance
+
+</td><td>
+
+Provides a view into device performance across your organization, including the CPU, memory, and disk usage over the last 7 or 14 days.
+
+</td></tr><tr><td>
+
+System time
+
+</td><td>
+
+Provides information about the various time-related metrics, including boot time, uptime, and device age.
+
+</td></tr><tr><td>
+
+Windows registry
+
+</td><td>
+
+Provides a view of the Windows registry keys on your organization's devices set up for monitoring.[Set up Windows registry keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/set-up-win-registry-keys.md) to receive this report.
+
+This page appears on Windows machines only.
+
+**Note:** If you select the number in the **Device count** column, you can see the list of all devices where that key is present.
+
+</td></tr></tbody>
+</table>For more details about fields in each report category, see [DEX Insights reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/insights-reports.md).
+

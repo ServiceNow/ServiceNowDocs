@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
 breadcrumb: [Configure in Virtual Agent, Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -50,11 +50,11 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 7.  In the topic you've duplicated, select the **Properties** tab.
 
-    \[Omitted image "itsm-now-assist-service-disruptions-properties.png"\] Alt text: Configure a VA topic for ServiceNow Otto for Virtual Agent
+    \[Omitted image "itsm-now-assist-service-disruptions-properties.png"\] Alt text: Configure a VA topic for Now Assist in Virtual Agent
 
 8.  Enable the following check boxes:
 
-    -   ServiceNow Otto for Virtual Agent in \(default\).
+    -   ServiceNow Otto for Virtual Agent in Virtual Agent \(default\).
     -   Default ServiceNow Otto Panel - Platform.
 9.  Select **Save**.
 

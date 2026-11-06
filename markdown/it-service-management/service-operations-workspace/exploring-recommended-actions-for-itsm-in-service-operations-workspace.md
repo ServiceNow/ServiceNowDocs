@@ -1,13 +1,13 @@
 ---
 title: Exploring Recommended Actions for ITSM in Service Operations Workspace
-description: Recommended Actions for ITSM lets you set up and apply real-time actionable recommendations for speeding up the triaging process. You can resolve issues quickly across various records in the Service Operations Workspace, including Incident, Incident task, Problem, Problem task, Change request, Change task, Interaction, and Request.
+description: Recommended Actions for ITSM lets you set up and apply real-time actionable recommendations for speeding up the triaging process. You can resolve issues quickly across various records in the Service Operations Workspace, including incidents, incident tasks, problems, problem tasks, change requests, change tasks, interactions, and requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/exploring-recommended-actions-for-itsm-in-service-operations-workspace.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [recommended actions, ITSM recommended actions, Service Operations Workspace, incident management, problem management, change management, triaging, actionable recommendations, incident task, problem task, change request, change task, interaction, ServiceNow Store]
 breadcrumb: [Exploring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
@@ -15,7 +15,7 @@ breadcrumb: [Exploring Service Operations Workspace for ITSM, Service Operations
 
 # Exploring Recommended Actions for ITSM in Service Operations Workspace
 
-Recommended Actions for ITSM lets you set up and apply real-time actionable recommendations for speeding up the triaging process. You can resolve issues quickly across various records in the Service Operations Workspace, including Incident, Incident task, Problem, Problem task, Change request, Change task, Interaction, and Request.
+Recommended Actions for ITSM lets you set up and apply real-time actionable recommendations for speeding up the triaging process. You can resolve issues quickly across various records in the Service Operations Workspace, including incidents, incident tasks, problems, problem tasks, change requests, change tasks, interactions, and requests.
 
 ## Recommended Actions for ITSM overview
 
@@ -25,7 +25,7 @@ Here's how you can use recommended actions in SOW in ITSM:
 
 ## Request apps on the Store
 
-Visit the  [ServiceNow Store](https://store.servicenow.com/store)  website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the  [ServiceNow Store release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the  [ServiceNow Store](https://store.servicenow.com/store)  website to view all the available apps and for information about submitting requests to the ServiceNow Store. For cumulative release notes information for all released apps, see the  [ServiceNow Store release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Recommended Actions for ITSM application details
 
@@ -46,7 +46,7 @@ There are two versions of Recommended Actions: Standard and Advanced. For inform
 
 [Configuring Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-recommended-actions-for-itsm-in-service-operations-workspace.md)
 
-[Access Recommended Actions for ITSM Panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-itsm-access-ra-panel.md)
+[Accessing Recommended Actions for ITSM panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-itsm-access-ra-panel.md)
 
 [Recommended Actions for ITSM Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-itsm-ra-workflow.md)
 

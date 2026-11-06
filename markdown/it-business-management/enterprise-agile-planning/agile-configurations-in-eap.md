@@ -7,9 +7,9 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Explore, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Agile configurations in EAP

@@ -7,8 +7,8 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Additional Cloud Provisioning and Governance setup on day 2, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
@@ -49,7 +49,7 @@ A cloud account is the logical representation in Cloud Provisioning and Governan
     **Note:**
 
     -   Select only those LDCs/Regions where your infrastructure resources are present. If you don't have any resources under these new data centers, exclude them while you run the full discovery.
-    -   To discover resources in additional regions, raise an access request to the required endpoints. Contact GCP Support for access.
+    -   To discover resources in certain regions or LDCs, raise an access request to the required endpoints with GCP Support. These regions include North America \(US East, US West, and Canada Central\), South America, Europe, Africa, Middle East, and Asia Pacific.
     The Cloud Account dashboard appears. The datacenters that you selected appear on the **Datacenters** tab.
 
 6.  Click a datacenter.

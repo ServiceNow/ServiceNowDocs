@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-existing-case-to-major-case.html
 release: australia
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Major issue management overview, Manage cases, Use, Customer Service Management]
 ---

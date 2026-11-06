@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [goal insights, scheduled job, AI insights, goals, Strategy and Goals, Now Assist for SPM]
 breadcrumb: [Goal insights generation job, Configure, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]

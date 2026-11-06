@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Deactivate skills in Now Assist in Contract Management, ServiceNow Otto for Contract Management Pro, Deactivate contract metadata extraction, Deactivate contract analysis, Turn off contract metadata extraction, Turn off contract analysis]
 breadcrumb: [Manage AI skills, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]

@@ -1,16 +1,16 @@
 ---
-title: Structured workflows for Exercises
+title: Structured workflows for exercises
 description: Manage exercises using structured workflows in the Business Continuity Workspace \(also known as BCM Configurable Workspace\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Structured workflows for Exercises
+# Structured workflows for exercises
 
 Manage exercises using structured workflows in the Business Continuity Workspace \(also known as BCM Configurable Workspace\).
 
@@ -20,25 +20,17 @@ Business Continuity Management \(BCM\) program managers initiate exercises by de
 -   For more information on adding assets and plans to the exercise, see [Track impacted assets and add associated plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-asset-and-plan-to-exercise-event-uib-ws.md).
 -   For more information on adding an event task to the exercise, see [Monitor event tasks and create ad-hoc tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-an-event-task-to-exercise-event.md).
 -   For more information on submitting the event task for the exercise event, see [Request an approval and approve the event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/submit-an-event-task-uib-ws.md).
--   You can add event tasks in bulk by applying task template groups or individual task templates from the **Event tasks** tab. For details, see [Monitor event tasks and create ad-hoc tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-an-event-task-to-exercise-event.md) and [Event task creation progress in exercise and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-event-task-template-progress.md).
 
 ## Bulk editing of tasks
 
-Starting with version 6.1.x of the Business Continuity Management application, users with editing access to event records can perform bulk edits on tasks directly from the Event tasks related list. This feature is beneficial for users who manage multiple event tasks simultaneously.
+Starting with version 6.1.x of the Business Continuity Management application, users with editing access can perform bulk edits on tasks directly from the Event tasks related list. This feature benefits users who manage multiple event tasks simultaneously.
 
-For more information on bulk editing of tasks, see [Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md).
-
-## Export and date visibility
-
-Starting with Business Continuity Management Core, version 11.0.x, the following capabilities are supported for event tasks:
-
--   Export to Excel: Export the event task list for offline reporting or bulk editing; supports filtering before export.
--   Show actual dates: Toggle to display Actual start and Actual end columns for plan-vs-actual comparison during exercise review.
+For more information on bulk editing of tasks, see [Structured workflows for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md).
 
 For additional information on exercises, see [Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/exercise-management-uib.md) and [Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/home-page-uib-ws.md).
 
 -   **[States for an exercise and crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/states-for-exercise-events.md)**  
-This section describes the states of progression for an exercise and crisis event.
+This section describes the states of progression for an exercises and crisis event.
 -   **[Event assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/event-assets.md)**  
 When an event is initiated, event assets are managed by using different recovery management methods.
 -   **[Mapping event tasks to phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/mapping-event-tasks-to-phases.md)**  
@@ -60,7 +52,7 @@ Track the impacted assets and add an associated plan to the exercise. You can th
 -   **[Create a collaboration thread in an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/comp-email-collab-thread-event.md)**  
 Create a collaboration thread from an exercise and send an email to its recovery teams to coordinate a response.
 -   **[Creating action items in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/creating-action-items-in-events.md)**  
-Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime for open crisis events or exercises. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
+Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams during a crisis event or exercise. These tasks can be created on the fly without mapping them to event assets or recovery plans. Action tasks are not included in the event recovery timeline and can be created while the event remains open.
 -   **[Creating similar tasks groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/identifying-running-dup-tasks-once.md)**  
 In BCM, when the same plan is activated multiple times, it can result in multiple redundant tasks. Starting with BCM release 9.0.x, the **Similar tasks groups** tab in events helps you to eliminate redundant tasks by grouping duplicate tasks from multiple plans for similar scenarios. This functionality streamlines event task management and reduces duplication of efforts.
 -   **[Import plans and recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/import-the-automated-task-in-an-exercise.md)**  

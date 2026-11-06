@@ -7,18 +7,20 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Drilling down within Core UI reports
 
 You can drill down within a report to visualize a subset of its data. For example, you can click on the critical section of a report sorted by priority to view the categories of those critical incidents.
 
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 For reports with a defined drilldown, click on a portion of the chart to display a subset of data. The subset may use a different chart type. In the example, the user clicks on the critical incidents in a bar chart to reveal the categories of critical incidents in a semi-donut chart.
 
-**Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-chart-interactions.md).
+**Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Brazil instances, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-chart-interactions.md).
 
 \[Omitted image "drilldown-example-2.png"\] Alt text: Drilldown example with two report types
 
@@ -44,31 +46,29 @@ This topic refers to Reporting in the Core UI. If your instance is migrated to P
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Reports**.
+1.  Navigate to **All** &gt; **Reports** &gt; **View / Run**.
 
 2.  Select the report you want to add a drilldown to.
 
-3.  Select **View Report**.
-
-4.  Select the **Show report structure** icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Show report structure\).
+3.  Click the **Show report structure** icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Show report structure\).
 
     A badge on the Report structure icon displays the number of defined drilldowns.
 
-5.  Select the Add drilldown icon \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\).
+4.  Click the Add drilldown icon \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\).
 
     \[Omitted image "drilldown-example.png"\] Alt text: Drilldown example with two levels
 
-6.  Enter a **Title** for the drilldown and select **Next**.
+5.  Enter a **Title** for the drilldown and click **Next**.
 
-7.  Select the report **Type** to display the data and select **Next**.
+6.  Select the report **Type** to display the data and click **Next**.
 
-    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md). The drilldown report type can be different than the parent report.
+    See [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md). The drilldown report type can be different than the parent report.
 
-8.  Configure the drilldown report the same way you would configure any other report.
+7.  Configure the drilldown report the same way you would configure any other report.
 
     Configuration options depend on the selected drilldown report **Type**.
 
-9.  Select **Save drilldown**.
+8.  Click **Save drilldown**.
 
 
 ### Result

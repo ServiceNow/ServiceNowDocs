@@ -7,9 +7,9 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Build a custom template, Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Build a custom template, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Build a custom template from an existing application
@@ -47,7 +47,7 @@ Role required: admin, app\_template\_author
 
 8.  Specify which users or groups should have access to this template.
 
-<table id="choicetable_m5y_2nz_5tb"><tbody><tr><td id="d290564e181">
+<table id="choicetable_m5y_2nz_5tb"><tbody><tr><td id="d210846e181">
 
 **Share with specific users and groups**
 
@@ -59,7 +59,7 @@ Role required: admin, app\_template\_author
 4.  Select **Continue**.
 
 
-</td></tr><tr><td id="d290564e217">
+</td></tr><tr><td id="d210846e217">
 
 **Share with all users and groups**
 

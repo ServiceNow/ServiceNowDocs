@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/view-insurance-cases.html
 release: australia
 topic_type: task
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [view insurance cases, insurance customer 360 claims tab, insurance customer 360 servicing tab, insurance customer 360 filter cases, insurance customer 360 sort cases, insurance customer 360 open case record, insurance customer 360 case number, insurance customer 360 account activity, customer 360 page]
 breadcrumb: [Using Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]

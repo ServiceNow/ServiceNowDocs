@@ -1,32 +1,32 @@
 ---
 title: SCIM Troubleshooting
-description: Common error scenarios integrating with SCIM.
+description: Common errors that occur when you integrate with SCIM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/scim-troubleshooting.html
 release: australia
 product: Identity
 classification: identity
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tutorial: Configure SCIM for user provisioning with a Provider, SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
+breadcrumb: [Configure SCIM for user provisioning with a provider, SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
 
 # SCIM Troubleshooting
 
-Common error scenarios integrating with SCIM.
+Common errors that occur when you integrate with SCIM.
 
-## Invalid Rest API URL
+## Invalid REST API URL
 
-Action: Enter valid API URL. Would be able to cross check the REST API URL in the **REST API Explorer**.
+Action: Enter valid API URL. You can check the REST API URL in the **REST API Explorer**.
 
-## No Redirect URL is set in ServiceNow instance
+## No redirect URL is set in ServiceNow instance
 
-Action: Enter valid Redirect URL for SCIM OAuth entity in ServiceNow. Enter redirect URL while configure OAuth entity in ServiceNow.
+Action: Enter valid Redirect URL for SCIM OAuth entity in ServiceNow. Enter redirect URL while you configure the OAuth entity in ServiceNow.
 
-## When Redirect URL is different than the request
+## When the redirect URL is different from the request
 
-Action: ‘**redirect\_url**’ provided in ‘**Authorization Endpoint’** should be same as the OAuth entity configured in ServiceNow.
+Action: ‘**redirect\_url**’ provided in ‘**Authorization Endpoint’** should be the same as the OAuth entity configured in ServiceNow.
 
 **Note:**
 
@@ -34,9 +34,9 @@ This error occurs when there is a mismatch between Azure ‘Authorization Endpoi
 
 ## When an invalid client secret is passed
 
-Action: Value entered in ‘Client Secret’ should be same as the OAuth entity configured in ServiceNow.
+Action: Value entered in ‘Client Secret’ should be the same as the OAuth entity configured in ServiceNow.
 
-## When an invalid ‘ClientId’ passed in Azure ‘Authorization EndPoint’
+## When an invalid client ID is passed in Azure Authorization Endpoint
 
-Action: Value entered for ‘client\_id’ parameter in ‘Authorization Endpoint’ has to be same as OAuth entity configured in ServiceNow.
+Action: Value entered for ‘client\_id’ parameter in ‘Authorization Endpoint’ must be the same as the OAuth entity configured in ServiceNow.
 

@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -54,7 +54,7 @@ Role required: sn\_cmp.cloud\_operator or sn\_cmp.cloud\_admin
 
     **Note:**
 
-    Starting with Australia the Cloud API dashboard will be hidden and no longer activated on new instances but will continue to be supported. The Cloud Services Catalog application provides this functionality now. The application is being prepared for future deprecation.
+    Starting with Brazil the Cloud API dashboard will be hidden and no longer activated on new instances but will continue to be supported. The Cloud Services Catalog application provides this functionality now. The application is being prepared for future deprecation.
 
     \[Omitted image "cloud-api-dashboard.png"\] Alt text: The Cloud API dashboard
 

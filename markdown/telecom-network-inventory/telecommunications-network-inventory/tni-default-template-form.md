@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Default Template forms, Reference, Telecommunications Network Inventory]
 ---
@@ -102,7 +102,7 @@ Template
 
 </td><td>
 
-Name of the table attribute and its value. You can use this field to select attributes from the table that you selected in the **Table** field and set specific values for each attribute. When you create a Create Equipment Inventory change request to generate the net asset instances by using this template, it enables you to pass specific values to the configuration that it generates.
+Name of the table attribute and its value. You can use this field to select attributes from the table that you selected in the **Table** field and set specific values for each attribute. When you create a Create Equipment Inventory change request to generate the net asset instances using this template, you can pass specific values to the generated configuration.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Default Template forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/default-template-forms.md)

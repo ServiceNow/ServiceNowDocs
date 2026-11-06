@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -53,15 +53,15 @@ When you record the asset usage, the following actions occur:
 
 7.  Record the information about the usage or removal of an asset by tapping one of the following options.
 
-<table id="choicetable_jdq_whz_4fb"><thead><tr><th align="left" id="d29824e203">
+<table id="choicetable_jdq_whz_4fb"><thead><tr><th align="left" id="d29987e203">
 
 Option
 
-</th><th align="left" id="d29824e206">
+</th><th align="left" id="d29987e206">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d29824e212">
+</th></tr></thead><tbody><tr><td id="d29987e212">
 
 **Record asset usage**
 
@@ -82,7 +82,7 @@ Record the usage of an asset:
     6.  Go back to the Use Part screen by tapping the back icon.
  The asset is added to the Asset Usages related list and the state for the part changes to **In Use**.
 
-</td></tr><tr><td id="d29824e283">
+</td></tr><tr><td id="d29987e283">
 
 **Record asset removal**
 
@@ -112,7 +112,7 @@ Record the removal of an asset:
     9.  Go back to the Remove Part screen by tapping the back icon.
  The asset is removed from the Asset Usages related list and the state for the part changes to **In Stock** and the substate changes to **Defective**.
 
-</td></tr><tr><td id="d29824e411">
+</td></tr><tr><td id="d29987e411">
 
 **Record asset replacement**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-bulk-edit-request-exception.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-30"
 reading_time_minutes: 4
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -73,12 +73,10 @@ In the Security Exposure Management Workspace, on the List page, navigate to **E
 
 |Approval state|Result|
 |--------------|------|
-|Approved|The state of the Remediation task transitions to Deferred with the given Reason as sub-state. The state and reason are rolled down to the records. The state of the Remediation task transitions to Deferred with the given Reason as sub-state. The state and reason are rolled down to the records. When risk reduction is also requested, a separate change approval is created for the risk reduction request. If that approval is also approved, the risk rating of the records is updated to the desired risk rating that was selected during the bulk edit request.|
+|Approved|The state of the Remediation task transitions to Deferred with the given Reason as sub-state. The state and reason are rolled down to the records. The state of the Remediation task transitions to Deferred with the given Reason as sub-state. The state and reason are rolled down to the records. When risk modification is also requested, a separate change approval is created for the risk modification request. If that approval is also approved, the risk rating of the records is updated to the desired risk rating that was selected during the bulk edit request.|
 |Rejected|The state of the Remediation Task and its records doesn’t change.|
 
 In the **Activity stream** of a record or remediation task, you can view the entire workflow of your request.
-
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-using-bulk-edit.md)
 
 **Related topics**  
 

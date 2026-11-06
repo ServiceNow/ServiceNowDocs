@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI asset risk and compliance, regulatory risk classification, compliance score, aggregated risk rating, risk heat map]
-breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Governing AI asset risk and compliance

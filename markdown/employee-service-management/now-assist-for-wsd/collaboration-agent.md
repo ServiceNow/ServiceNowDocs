@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2026-01-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Using the workplace collaboration Agent for space suggestions, Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---

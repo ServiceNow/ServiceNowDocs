@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-rc-my-campaigns.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns**.
 
 2.  Select **New**.
 
@@ -43,4 +43,21 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 1.  Create [Corrective actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-corrective-actions.md).
 2.  Create [Corrective action charges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco_corrective_action_charges.md).
 3.  Select **Initiate Recall Campaign** to enable Recall Campaign Phases and Phase &amp; Sub-phases.
+
+-   **[Importing impacted assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco_importing_impacted_assets.md)**  
+Recall campaign management enables you to import the impacted assets.
+-   **[Campaign tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-campaign-tasks.md)**  
+As an OEM, plan, manage, and execute a promotional effort.
+-   **[Create recall corrective actions using ServiceNow Otto for MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/execute-recall-campaigns.md)**  
+Create recall corrective actions AI agent extracts the information available in the repair documents. The AI agent identifies and collects all relevant data contained within the repair documents and generates the corrective action and the corresponding charges.
+-   **[Corrective actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-corrective-actions.md)**  
+Corrective action enables you to address the asset issue, either by eliminating or replacing the asset.
+-   **[Create an impacted asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-impacted-asset.md)**  
+Identify an impacted asset that must be replaced or recalled.
+-   **[Plan and execute recall campaign phases and sub-phases using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-plan-and-execute-recall-campaign-phases-and-subphases.md)**  
+Plan and execute recall campaign phases and sub-phases AI agent enables product recall campaigns to generate and manage phase.
+-   **[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-recall-campaign-phases.md)**  
+Create a recall campaign for a specific geography or a dealership.
+
+**Parent Topic:**[Recall management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-recall-management.md)
 

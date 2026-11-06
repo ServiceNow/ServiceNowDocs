@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -69,9 +69,9 @@ The default format of the URL to push event messages from Logicmonitor to the MI
 
     3.  Under the Stages section, select the Add icon \[Omitted image "logicmonitor-add-icon.png"\] Alt text: logicmonitor add icon to add a stage and click **Save**.
 
-    4.  In the new stage, select the Add icon \[Omitted image "logicmonitor-add-icon.png"\] Alt text: logicmonitor add icon to search for the user.
+    4.  When you create the new stage, select the Add icon \[Omitted image "logicmonitor-add-icon.png"\] Alt text: logicmonitor add icon again to search for the user.
 
-    5.  Add the integration as the Contact Method and click **Save**.
+        Add the integration as the Contact Method and click **Save**.
 
 3.  After creating the escalation chain, configure alert rules for the chain you created.
 

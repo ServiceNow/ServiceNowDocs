@@ -7,7 +7,7 @@ release: australia
 product: Release Management
 classification: release-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Release Management v2, Release Management, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: release\_v2\_admin
 
 1.  Navigate to **All** &gt; **Release** &gt; **Products**.
 
-2.  select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-plugin-activation-sequence.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Install Enterprise Architecture Workspace, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -84,4 +84,9 @@ If a feature is missing after activation, use the following table to identify th
 |Now Assist buttons not visible in the workspace|The ServiceNow Otto for Enterprise Architecture \(EA\) plugin is not active|Activate sn\_apm\_gen\_ai.|
 
 **Parent Topic:**[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/install-ea-workspace.md)
+
+**Related topics**  
+
+
+[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/install-ea-workspace.md)
 

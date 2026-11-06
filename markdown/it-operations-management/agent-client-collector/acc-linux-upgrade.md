@@ -1,25 +1,25 @@
 ---
 title: Upgrade Agent Client Collector on a Linux system
-description: Upgrade your existing Agent Client Collector version on a system running a Linux OS if the single-line command script is not connected to the instance or you want to use enhanced customization options.
+description: Upgrade your existing Agent Client Collector version on a system running a Linux OS. Use this procedure if the single-line command script is not connected to the instance or you want to use enhanced customization options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-linux-upgrade.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC installation on a Linux OS system, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Upgrade Agent Client Collector on a Linux system
 
-Upgrade your existing Agent Client Collector version on a system running a Linux OS if the single-line command script is not connected to the instance or you want to use enhanced customization options.
+Upgrade your existing Agent Client Collector version on a system running a Linux OS. Use this procedure if the single-line command script is not connected to the instance or you want to use enhanced customization options.
 
 ## Before you begin
 
 -   The upgrade procedure is the same for both MID Server and MID-less deployments.
--   Enable golden image mode for cloning additional instances by setting the golden image marker located at `/tmp/acc-goldenimage`. The golden image marker is applied only during a Linux upgrade and not during new installations.
+-   \(Optional\): Enable golden image mode for cloning additional instances by setting the golden image marker located at `/tmp/acc-goldenimage`. The golden image marker is applied only during a Linux upgrade and not during new installations.
 -   Role required: agent\_client\_collector\_admin
 
 ## Procedure

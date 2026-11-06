@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Governance, Risk, and Compliance]
 ---
@@ -63,11 +63,11 @@ Issue workflows define the lifecycle, layout, guided activities, approval requir
 -   **[Complete a playbook activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.md)**  
 Complete playbook activities to progress an issue through the stages defined in its workflow.
 -   **[Issue approval flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-approval-flows.md)**  
-Manage approvals for issue and remediation task state changes and due date extensions.
+Issue approval flows require review and approval before an issue or remediation task moves past a specific state, or before its due date is extended.
 -   **[Domain separation in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-domain-separation.md)**  
 This is an overview of domain separation and the Governance, Risk, and Compliance applications. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Breadcrumb navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/breadcrumb-navigation.md)**  
-The ServiceNow® Australia release supports breadcrumb navigation for all GRC modules including workspaces. Breadcrumbs provide a browser path to navigate a hierarchy of linked pages with related content.
+The ServiceNow® Brazil release supports breadcrumb navigation for all GRC modules including workspaces. Breadcrumbs provide a browser path to navigate a hierarchy of linked pages with related content.
 -   **[Taxonomy management in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/taxonomy-management.md)**  
 Taxonomy is used to organize, classify, and label the elements of the unstructured content. The content is organized into granular elements that provide more information about the context of the content.
 -   **[Landing Page Configurations module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/admin-config-using-grc-common.md)**  
@@ -88,12 +88,14 @@ The GRC **Application Risk and Compliance Overview Dashboard** provides the late
 Use the GRC licensing summary dashboard to track license usage trends and next month's projected usage. You can see the aggregated counts of license consumption across different product families. You can also search for roles to identify their combined GRC license treatment when these roles are assigned to a user.
 -   **[Microsoft Word based audit report templates using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/document-designer-template.md)**  
 The Microsoft Word based audit report is accessible and user-friendly for audit administrators. Even users without technical expertise can easily configure the template to meet their specific needs.
+-   **[AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/ai-reporting-assistant.md)**  
+The AI for document designer uses prompts to generate reports from ServiceNow instance data directly in a Microsoft Word document.
 -   **[Workspace page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/workspace-page-configuration.md)**  
 A common record page can be used and configured within all the GRC applications.
 -   **[Governance, Risk, and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-reference.md)**  
 Reference topics provide information about tables, roles, and properties installed with the GRC application.
--   **[Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)**  
-Anonymous Reporting Center \(ARC\) enables employees to submit compliance, privacy, or AI-related concerns without revealing their identity
+-   **[Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)**  
+The Anonymous Reporting Center \(ARC\) enables employees to submit compliance, privacy, or AI‑related concerns without revealing their identity. Employees are automatically signed out of the **Employee Center** when ARC opens.
 
 **Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/r_WhatIsGRC.md)
 

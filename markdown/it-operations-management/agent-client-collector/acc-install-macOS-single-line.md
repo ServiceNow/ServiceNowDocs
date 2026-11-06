@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ACC installation on a macOS system, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -21,7 +21,7 @@ Use an efficient single-line command script to install Agent Client Collector on
 -   Ensure that you have configured the Agent Client Collector web server.
 -   Verify that your server's OS and version matches the list of supported OS versions as described in [Agent Client Collector Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-installation.md).
 -   Ensure that you have the **pkgutil** packages available, to be used by the install script.
--   Enable golden image mode for cloning additional agents by setting the golden image marker located at `/Library/Preferences/acc.rc.plist`.
+-   \(Optional\): Enable golden image mode for cloning additional agents by setting the golden image marker located at `/Library/Preferences/acc.rc.plist`.
 -   Ensure that the target agents have connectivity to the following:
     -   ServiceNow install server \[install.service-now.com\]
     -   ServiceNow instance

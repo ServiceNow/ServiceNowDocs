@@ -7,7 +7,7 @@ release: australia
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up Workplace PPE Inventory Management, Workplace PPE Inventory Management, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_imt\_ppe.ppe\_admin
 
 ## About this task
 
-When an item drops below a specified quantity, the stock rule automatically creates a transfer order. The transfer order resupplies the stockroom by transferring the required items from another stockroom.
+When an item drops below a specified quantity, the stock rule automatically creates a transfer order. The transfer order resupplies the stockroom by transferring the required items from another stockroom. For more information about transfer orders, see Transfer orders.
 
 ## Procedure
 

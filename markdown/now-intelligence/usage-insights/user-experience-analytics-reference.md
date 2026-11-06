@@ -7,7 +7,7 @@ release: australia
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access analytics overlay, Using Usage Insights, Usage Insights, Platform Analytics]
 ---

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-entity.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage entities in Operational Sustainability Management \(formerly ESG Management\), Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -26,7 +26,7 @@ Role required: \(per product\)
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Scoping** &gt; **All entities**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 

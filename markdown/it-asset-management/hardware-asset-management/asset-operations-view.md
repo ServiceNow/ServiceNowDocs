@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -19,7 +19,7 @@ Use the Asset operations view in the Hardware Asset Workspace to view the asset 
 The Asset operations view includes the following list:
 
 -   Inventory
-    -   Stockroom types: View types of stockrooms. For more information, see [Create a new stockroom type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/t_CreateANewStockroomType.md).
+    -   Stockroom types: View types of stockrooms. For more information, see [Create a stockroom type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/t_CreateANewStockroomType.md).
     -   Stock rules: View stock rules associated with the stockroom. For more details, see [Create a stock rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/t_CreateAStockRule.md).
     -   Stock orders: View stock orders associated with the inventory.
 -   Shipment
@@ -52,7 +52,7 @@ The Asset operations view includes the following list:
     -   Task rate card: Define the type of task and the method of calculating the associated costs, and view the details of the created task rate cards. For more information, see [Create a task rate card in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-ham-task-rate-card.md).
     -   Labor rate card: Record the time worked on a task and associate a rate to the task, and view the details of the created labor rate cards. For more information, see [Create a labor rate card in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-ham-labor-task.md).
 -   Zero touch
-    -   Asset requests: View the list of hardware asset requests of your employees submitted through the Zero Touch request flow. For more information, see [Manage hardware asset requests using the Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/managing-standard-hw-req-ztr.md).
+    -   Asset requests: View the list of hardware asset requests of your employees submitted through the Zero Touch request flow. For more information, see [Use Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/managing-standard-hw-req-ztr.md).
     -   Provider integration profiles: Create a provider integration profile to transform the Scratchpad updates from your provider into a format required for the Zero Touch request flow. For more information, see [Create a provider integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-int-profile-ztr-ham.md).
 -   Zero touch refresh
     -   Requests: View the list of Zero Touch Refresh requests of your employees. For more information, see [Process a Zero Touch Refresh request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/process-zero-touch-asset-request.md).
@@ -78,6 +78,8 @@ The Asset operations view includes the following list:
 You can also create and easily access your custom list views from the **My Lists** tab.
 
 \[Omitted image "asset-operations-view.png"\] Alt text: Asset operation view in the Hardware Asset Workspace.
+
+**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-workspace.md)
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -26,13 +26,13 @@ Supported version: 8.10.0.
 
 ## About this task
 
-This connector has the **debug** and **logPayloadForDebug** log parameters enabled. The **debug** parameter logs debug messages, such as calls made to the source system to retrieve events. The **logPayloadForDebug** parameter logs event and metric payloads from the source system. Once debugging is complete, set this parameter to **false** to prevent overloading the system. By default, the vRealize\_V2 connector communicates with the vRealize Operations API using JSON. To use the legacy XML format, set the **useXMLResponse** parameter to **true**.
+This connector has the **debug** and **logPayloadForDebug** log parameters enabled. The **debug** parameter logs debug messages, such as calls made to the source system to retrieve events. The **logPayloadForDebug** parameter logs event and metric payloads from the source system. Once debugging is complete, set this parameter to **false** to prevent overloading the system. To use the legacy XML format, set the **useXMLResponse** parameter to **true**.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Integrations** &gt; **Connector Instances**.
 
-2.  Select **New** and create a vRealize Operations connector instance with the following details:
+2.  Click **New** and create a vRealize Operations connector instance with the following details:
 
     |Field|Value|
     |-----|-----|

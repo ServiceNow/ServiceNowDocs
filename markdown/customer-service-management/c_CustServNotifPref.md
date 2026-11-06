@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_CustServNotifPref.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -40,9 +40,9 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 1.  Navigate to the customer service portal.
 
-2.  Click your user name or photo in the portal header to display your user profile information.
+2.  Select your user name or photo in the portal header to display your user profile information.
 
-3.  Click the **Notification Preferences** related link to display the Notification Preferences form.
+3.  Select the **Notification Preferences** related link to display the Notification Preferences form.
 
     **Note:** The **Notification Preferences** link is available only after receiving the first email for the case.
 

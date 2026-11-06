@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/build-needs-decision-tree.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring needs analysis, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -52,15 +52,15 @@ As you build your decision tree, for example after adding a decision node or a p
 
 5.  Continue building your decision tree in Decision Tree Builder.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d125004e173">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d128250e173">
 
 Option
 
-</th><th align="left" id="d125004e176">
+</th><th align="left" id="d128250e176">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d125004e182">
+</th></tr></thead><tbody><tr><td id="d128250e182">
 
 **[Determine the next node displayed in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-path-in-gdb.md)**
 
@@ -68,7 +68,7 @@ Steps
 
 Configure a path to set the conditions for when the next question is displayed in a decision tree.
 
-</td></tr><tr><td id="d125004e193">
+</td></tr><tr><td id="d128250e193">
 
 **[Add a follow-up set of questions or instructions in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-decision-node-in-gdb.md)**
 
@@ -76,7 +76,7 @@ Configure a path to set the conditions for when the next question is displayed i
 
 Configure a question node to add follow-up questions or instructions. An answer to these questions either leads to a guidance or a further set of questions.
 
-</td></tr><tr><td id="d125004e204">
+</td></tr><tr><td id="d128250e204">
 
 **Add a guidance node for the product recommendation questionnaire**
 
@@ -91,7 +91,7 @@ Configure a guidance node, which identifies the product recommendation displayed
 7.  Select **Save and close**.
 
 
-</td></tr><tr><td id="d125004e255">
+</td></tr><tr><td id="d128250e255">
 
 **[Activate a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-guided-decision-tree.md)**
 

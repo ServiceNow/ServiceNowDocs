@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -49,7 +49,7 @@ CentOS,Red Hat
 -   `/usr/bin/systemctl start acc`
 -   `/usr/bin/systemctl stop acc`
 -   `<systemctl location> daemon-reload` \(default location is `/usr/bin`\)
--   `/usr/bin/rpm -Uv <cache dir location>/upgrade/agent-client-collector-upgrade.rpm`
+-   `/usr/bin/rpm/systemd-run -Uv <cache dir location>/upgrade/agent-client-collector-upgrade.rpm`
 
  Default cache directory location: `/var/cache/servicenow/agent-client-collector`
 
@@ -83,7 +83,7 @@ Debian, Ubuntu
 -   `/usr/bin/systemctl start acc`
 -   `/usr/bin/systemctl stop acc`
 -   `<systemctl location> daemon-reload` \(default location is `/usr/bin`\)
--   `/usr/bin/dpkg --install --refuse-downgrade --skip-same-version <cache dir location>/upgrade/agent-client-collector-upgrade.deb`
+-   `/usr/bin/dpkg/systemd-run --install --refuse-downgrade --skip-same-version <cache dir location>/upgrade/agent-client-collector-upgrade.deb`
 
  Default cache directory location: `/var/cache/servicenow/agent-client-collector`
 
@@ -156,6 +156,10 @@ Role required:
 -   Windows: Local SYSTEM account \(Agent Client Collector service running as **Local System**\)
 -   Linux: sudo rpm/dpkg/systemd-run
 -   macOS: sudo pkg
+
+## About this task
+
+Selective upgrade doesn't support Agent Client Collector to MID Server communication via mTLS.
 
 ## Procedure
 

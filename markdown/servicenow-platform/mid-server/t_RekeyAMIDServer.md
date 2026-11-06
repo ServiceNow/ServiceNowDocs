@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -51,6 +51,8 @@ Automation credentials are secured by encrypting them in the instance with the M
 
 [MID Server configuration file security]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server authentication credentials and SOAP requests]()
 
 [MID Server unified key store]()
@@ -63,8 +65,6 @@ Automation credentials are secured by encrypting them in the instance with the M
 
 [Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server]()
-
 [MID Server SSH cryptographic algorithms]()
 
 [Attach a script file to a file synchronized MID Server]()
@@ -72,6 +72,8 @@ Automation credentials are secured by encrypting them in the instance with the M
 [MID Server FIPS Enforced Mode]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 
 [Validate the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_ValidateAMIDServer.md)
 

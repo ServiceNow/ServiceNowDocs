@@ -7,9 +7,9 @@ release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Policies and rules in Table Builder
@@ -34,6 +34,8 @@ To manage a rule or policy script outside of Table Builder, select \[Omitted ima
 -   **Full client scripts list**
 -   **Full business rule list**
 -   **Full workspace view rules list**
+
+For descriptions of the fields in each section, see [Policies and rules fields in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/ui-policy-fields.md).
 
 ## UI policies for tables and forms
 
@@ -74,10 +76,12 @@ You can create and edit UI policies only for applications that you own. For more
 4.  Select the **Add new policy** link to display the policy details.
 
     -   If the link is inactive, you must change the scope that you're working with on the **Forms** tab.
-    -   If a field has policy and appears in the view, the active icon appears on the top corner of the field.
+    -   If a field has policy and appears in the view, the active icon appears on the top corner of the field as shown in the following example.
+    \[Omitted image "fb-ui-policy-add.png"\] Alt text: Add new policy link in UI policies section.
+
 5.  On the form, fill in the fields for the Policy details section.
 
-    For more information on field definitions, see [Policies and rules properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/ui-policy-fields.md).
+    For more information on field definitions, see [Policies and rules fields in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/ui-policy-fields.md).
 
 6.  In the When these conditions are met section, specify the conditions that, if fulfilled, cause the UI policy to be applied using the condition builder.
 
@@ -112,12 +116,12 @@ You can create and edit UI policies only for applications that you own. For more
 
 1.  In the UI policies section, on the **Policies and rules** tab, select the policy that you want to edit.
 
-    You can also edit a field's UI policy directly in the form. Select the field, then select the **UI policies** tab in the right pane.
+    You can also edit a field's UI policy directly in the form by selecting it in the **UI policies** tab of the right pane that appears when you select a field.
 
 2.  Change the UI policy fields and attributes as needed.
 
-    For more information on field definitions, see [Policies and rules properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/ui-policy-fields.md).
+    For more information on field definitions, see [Policies and rules fields in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/ui-policy-fields.md).
 
-3.  Select **Update UI policy**.
+3.  Click **Update UI policy**.
 
 

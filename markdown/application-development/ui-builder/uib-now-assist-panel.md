@@ -7,10 +7,10 @@ release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, Now Assist panel, UI Builder, Now Assist, Now Assist panel, UI Builder]
-breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # How to use the Now Assist panel in UI Builder

@@ -7,9 +7,9 @@ release: australia
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Delegated Development, Planning your application, Building applications]
+breadcrumb: [Explore, Delegated Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Delegated development and deployment
@@ -78,9 +78,9 @@ As a system administrator, you want to assign Abel Tuter certain developer and d
 
 [Application files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_ApplicationFiles.md)
 
-[Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md)
+[Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md)
 
-[Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallUpdates.md)
+[Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/update-application-app-mgr.md)
 
 [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/c_SharingApplications.md)
 

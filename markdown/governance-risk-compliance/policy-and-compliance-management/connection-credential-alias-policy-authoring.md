@@ -7,7 +7,7 @@ release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: reference
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [connection credential alias, sn\_onedrive\_spoke.OneDrive, child alias, Microsoft System LES, integration type, policy authoring]
 breadcrumb: [Authentication and document access in policy authoring, Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]

@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Data input configuration fields, Health Log Analytics reference, He
 # REST API data input configuration fields
 
 Description of the fields on the REST API data input configuration form.
-
-## Basic configuration
 
 <table id="table_xy2_chq_z4b"><thead><tr><th>
 
@@ -40,7 +38,7 @@ Description
 
 </td><td>
 
-Description of the data input.
+Optional description of the data input.
 
 </td></tr><tr><td>
 
@@ -48,12 +46,10 @@ MID Web Server
 
 </td><td>
 
-MID Server to which the log data is pulled.**Note:**
+MID Server to which the log data is pulled. This field is required.**Note:**
 
--   You can select only MID Servers that support basic authentication. MID Servers that support mTLS are not listed. When you select the MID Server, the **MID** and **Port** fields are completed automatically.
+-   When you select the MID Web Server, the **MID** and **Port** fields are completed automatically.
 -   The default maximum number of data inputs streaming logs to a single MID Server is 10. You can modify this number in the MID Server properties.
-
-This field is required.
 
 </td></tr><tr><td>
 
@@ -61,61 +57,18 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. **Note:** If no relevant service instance exists, [Create an service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data. This field is required.Selecting the service instance enables HLA to correlate CIs and service instances in the CMDB for root cause analysis.
 
-This field is required.
-
-</td></tr></tbody>
-</table>The following fields show read-only information:
-
-<table id="table_fpc_shq_z4b"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Status
-
-</td><td>
-
-Status of the data input.
-
-</td></tr><tr><td>
-
-Transport
-
-</td><td>
-
-Protocol used to stream the log data.This data input uses REST to stream log data to your instance.
-
-</td></tr><tr><td>
-
-Sources count
-
-</td><td>
-
-The number of log sources this data input has created.
-
-</td></tr><tr><td>
-
-Disabled since
-
-</td><td>
-
-The time when the data input stopped or failed.
-
-</td></tr><tr><td>
-
-Last log time
-
-</td><td>
-
-The time when the last log streamed in the data input.
+**Note:** If no appropriate service instance exists, create one, add CIs to it, and set its status to Operational. For more information, see [Create a Service instance \(application service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+</table>|Field|Description|
+|-----|-----------|
+|Status|Status of the data input. This field is read-only.|
+|Transport|Protocol used to stream the log data: REST. This field is read-only.|
+|Sources count|The number of log sources this data input has created. This field is read-only.|
+|Disabled since|The time when the data input stopped or failed. This field is read-only.|
+|MID last receiving time|The time when the last log streamed in the data input.|
+
+**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

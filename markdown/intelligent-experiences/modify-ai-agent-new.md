@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/modify-ai-agent-new.html
 release: australia
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-10-23"
 reading_time_minutes: 3
-breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Modify an AI agent
@@ -42,7 +42,7 @@ The instructions field supports multiple versions within the same AI agent, allo
 
     Select the more options icon, select **Add tool**, then select the type of tool you want to add to open a new tab with the tool guided setup. See [Add a tool to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-tool-aia-new.md).
 
-4.  [Define the AI agent's specialty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-aia-new.md).
+4.  [Define the AI agent's role and instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-aia-new.md).
 
 5.  [Define access rules for the AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-aia-new.md).
 
@@ -50,11 +50,11 @@ The instructions field supports multiple versions within the same AI agent, allo
 
 7.  [Configure where your AI agent can be invoked and set processing messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/channels-access-aia-new.md).
 
-8.  [Set up long-term memory and active learning controls for your AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/map-ltm-aia-new.md).
+8.  [Set up long-term memory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/long-term-memory-aia-new.md) and active learning controls for your AI agent.
 
     AI agents can learn from previous interactions, if configured to do so. You can choose the categories of information that the AI agent should consider from its previous experiences when approaching new problems.
 
-9.  Select **Save** or **Run test** to save your changes.
+9.  Select **Save** to save your changes.
 
 
 ## Result

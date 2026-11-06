@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configuring-filters-manager-configurable-workspace.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -26,7 +26,7 @@ View and analyze data in scheduling and coaching applications based on the filte
 
 1.  Navigate to **All** &gt; **Workforce Optimization for Customer Service** &gt; **Manager Workspace Configuration** &gt; **Filter Configurations**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
@@ -115,7 +115,7 @@ Macroponent
 Metadata defined seismic component.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Click **Submit**.
 
 
 **Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-configurable-wfo-cs.md)

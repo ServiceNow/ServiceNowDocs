@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Reporting and performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage stockrooms with inventory reports in the Hardware Asset Workspace
@@ -29,5 +29,14 @@ Use the Supply vs Demand report to evaluate the available and incoming quantity 
 -   **[Identify the supply for open demands in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/identify-supply-for-open-demand-ham.md)**  
 Use the Open demands report to determine available stock within local stockrooms and distribution channels to fulfill sourcing requests that are open.
 
-**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
+**Parent Topic:**[Reporting and performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/reporting-performance-ham.md)
+
+**Related topics**  
+
+
+[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
+
+[Create a TCO report in Hardware Asset Workspace]()
+
+[View all maturity items for Hardware Asset Management]()
 

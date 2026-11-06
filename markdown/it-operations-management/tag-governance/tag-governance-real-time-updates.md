@@ -1,20 +1,20 @@
 ---
 title: Performing real-time updates to tags for cloud resources
-description: You can set up cloud events processing and map a tag policy to update tags for cloud resources in real time.
+description: You can set up cloud events processing and map a tag policy to update tags for cloud resources in real-time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/tag-governance/tag-governance-real-time-updates.html
 release: australia
 product: Tag Governance
 classification: tag-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
 # Performing real-time updates to tags for cloud resources
 
-You can set up cloud events processing and map a tag policy to update tags for cloud resources in real time.
+You can set up cloud events processing and map a tag policy to update tags for cloud resources in real-time.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ View the change type that applies to the tag \(the change that triggered the aud
 
 ## Optimizing performance
 
-High event inflow or a large number of tag policies can decrease performance. You can modify the following system properties to ensure acceptable performance:
+High event inflow or many tag policies can decrease performance. You can modify the following system properties to confirm acceptable performance:
 
 -   \[sn\_itom\_tag.azure\_window\_size\] - This system property is configurable \(in minutes\).
 -   \[sn\_itom\_tag.max\_audit\_lag\_ratio\] - Specify the lag between tag audits that are already running, before the audit triggers on the records ready for audit.

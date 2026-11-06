@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
@@ -120,7 +120,7 @@ Create third schedule
 </td></tr></tbody>
 </table>6.  Complete the remaining configurations.
 
-    For more information, see [Associate work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md) and [Create planned work records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/create-planned-work-records.md).
+    For more information, see [Associate a work order template to a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/associate-work-schedule-to-wotemplate.md) and [Create planned work records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/create-planned-work-records.md).
 
 7.  Create work orders for the planed work.
 

@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-08-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Manage contract repository, Agentic workflow in Contract Management Pro, Review AI extracted information, Playbook in Contract Management Pro, Review AI results in Contract Management Pro]
 breadcrumb: [Review AI results, Manage contract repository agentic workflow, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -33,15 +33,15 @@ To receive notifications when AI agents complete metadata extraction, ensure tha
 
 1.  Open a contract repository record where you want to review the extract information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d423806e96">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d423074e96">
 
 Method
 
-</th><th align="left" id="d423806e99">
+</th><th align="left" id="d423074e99">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d423806e105">
+</th></tr></thead><tbody><tr><td id="d423074e105">
 
 **Contract Workspace**
 
@@ -54,7 +54,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d423806e153">
+</td></tr><tr><td id="d423074e153">
 
 **Workspace used by your application**
 
@@ -66,7 +66,7 @@ Steps
 4.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d423806e180">
+</td></tr><tr><td id="d423074e180">
 
 **Email notification**
 

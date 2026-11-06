@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_CreatMetricTypesAndGenAssessRecs.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Metric types and assessable records, Create an assessment metric for a category, Assessment metrics, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -179,7 +179,7 @@ Evaluation method
 \[Admin only\] Indicates the evaluation method for this metric type. The system sets this field based on how the metric type is created. The possible evaluation methods are:-   **Assessment**: Default filter value for metric types. Only this evaluation method uses assessable records, conditions, and stakeholders.
 -   **Attestation**: For details, see
 
-[Attestations - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/c_Attestations.md).
+Attestations - Legacy.
 
 -   **Survey**: For details, see [Survey definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyDefinitions.md).
 
@@ -349,5 +349,5 @@ All assessable records associated with the type. This related list is hidden in 
 
 [Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 
-[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
+[bundle-platadm.configure-form-layout]
 

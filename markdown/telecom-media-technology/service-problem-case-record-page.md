@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/service-problem-case-record-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [service problem case, case record page, customer 360]
 breadcrumb: [Explore, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]

@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Operational Technology Knowledge Management, Operational Technology]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Operational Technology Knowledge Management, Operational Technology
 
 Configure Operational Technology Knowledge Management so that you can create the data foundation for the Operational Technology \(OT\) solution.
 
-If you have the admin role, you can use Guided Setup to lead you through the setup of Operational Technology Knowledge Management. Guided Setup is a tool that assists with application configuration. It organizes the configuration activities into categories. These categories contain the information about the setup tasks, the steps to complete each task, and the links to the pages in your instance where you perform the configuration. The links to useful help content are also provided.
+If you have the admin role, you can use Guided Setup to lead you through the setup of Operational Technology Knowledge Management. Guided Setup is a tool that assists with application configuration. It organizes the configuration activities into categories. These categories contain the information about the setup tasks, steps to complete each task, and links to the pages in your instance where you perform the configuration. The links to useful help content are also provided.
 
 To access Guided Setup, navigate to **Industrial Workspace Admin** &gt; **Guided Setup**.
 

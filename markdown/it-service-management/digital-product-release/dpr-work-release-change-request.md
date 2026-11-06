@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
 ---
@@ -38,15 +38,15 @@ You can associate a change request to a phase only once, although it can be adde
 
 5.  Add change requests to a phase by creating new ones or selecting existing ones, or remove change requests from a phase.
 
-<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d409833e110">
+<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d301571e110">
 
 Option
 
-</th><th align="left" id="d409833e113">
+</th><th align="left" id="d301571e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d409833e119">
+</th></tr></thead><tbody><tr><td id="d301571e119">
 
 **Create and add a change request to a phase**
 
@@ -64,7 +64,7 @@ For a description of the field values, see [Create a change request](https://raw
 
  The new change request is created and added to the phase based on the **sn\_dpr.default\_phase\_for\_changes** system property. The **Software model** field in the change request is filled with the version of the release.
 
-</td></tr><tr><td id="d409833e184">
+</td></tr><tr><td id="d301571e184">
 
 **Add existing change requests to a phase**
 
@@ -78,7 +78,7 @@ The list displays existing change requests, filtered by change models and standa
 3.  Select **Add**.
  The selected change requests are added to the phase based on the **sn\_dpr.default\_phase\_for\_changes** system property. The **Software model** field in these change requests is filled with the version of the release.
 
-</td></tr><tr><td id="d409833e225">
+</td></tr><tr><td id="d301571e225">
 
 **Remove associated change requests from the release**
 

@@ -7,7 +7,7 @@ release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Conversational Interfaces]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Conversational Interfaces]
 # Conversational Interfaces Console
 
 Explore, implement, and maintain your Conversational Interfaces using a home-page or console experience. All the settings and configurations you need to set up and launch your interfaces, such as Virtual Agent and Agent Chat, are consolidated in the ServiceNow® Conversational Interfaces console.
-
-For an introduction to the Conversational Interfaces console, and to get familiar with the product, watch this video.
 
 ## Get started
 

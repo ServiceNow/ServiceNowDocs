@@ -7,7 +7,7 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 breadcrumb: [Configure, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configure, ServiceNow Otto for Code, Scripting, API implementation,
 
 Select a large language model \(LLM\) as the AI service provider for ServiceNow Otto for Code skills.
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 AI stewards can enable or disable AI model providers in the AI Control Tower. Administrators set the default AI model providers for generative AI skills in your instance through the AI Admin Hub console. As a user, you can override the instance default AI model provider and select a different model provider for ServiceNow Otto for Code skills in the script editor.
 
@@ -44,15 +44,15 @@ Set the default AI model providers for generative AI skills in your instance thr
 
 4.  Select a model provider for either all skill groups or just a specific skill group.
 
-<table id="choicetable_nkr_m3k_zfc"><thead><tr><th align="left" id="d731363e191">
+<table id="choicetable_nkr_m3k_zfc"><thead><tr><th align="left" id="d762164e191">
 
 Choice
 
-</th><th align="left" id="d731363e194">
+</th><th align="left" id="d762164e194">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d731363e200">
+</th></tr></thead><tbody><tr><td id="d762164e200">
 
 **Select a model provider for all the skill groups and skills in the instance.**
 
@@ -63,7 +63,7 @@ Description
 3.  Select **Save and activate**.
  \[Omitted image "soc-instance-edit-model-provider.png"\] Alt text: Select a model provider for all the skill groups and skills in the instance.
 
-</td></tr><tr><td id="d731363e247">
+</td></tr><tr><td id="d762164e247">
 
 **Select a model provider for a specific skill group.**
 
@@ -77,7 +77,7 @@ Description
 
 \[Omitted image "soc-customize-group-edit-model-provider.png"\] Alt text: Select a model provider for a specific skill group.
 
-</td></tr><tr><td id="d731363e290">
+</td></tr><tr><td id="d762164e290">
 
 **Select a model provider for a specific skill.**
 

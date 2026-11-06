@@ -7,9 +7,9 @@ release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and train a classification solution, Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Create and train a classification solution, Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Tune a trained classification solution

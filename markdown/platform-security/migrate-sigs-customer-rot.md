@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/migrate-sigs-customer-rot.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Root of Trust Settings, Configure, Code Signing, Platform Security]
 ---
@@ -104,4 +104,6 @@ This procedure is part of a series of procedures to change a customer Root of Tr
 ## What to do next
 
 To continue the Root of Trust configuration process, see [Disable ServiceNow Root of Trust](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/disable-sn-rot.md).
+
+**Parent Topic:**[Change your Root of Trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/change-rot-overview.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -179,7 +179,7 @@ The Consumers page has the following components.
 
     To **Create** a new consumer, select this button, then select the type of consumer you want to create, then fill in the fields on the consumer's form. For form field descriptions, see the [ETL consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-etl-consumer.md), [Transform Map consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-transform-map-consumer.md), or [Script consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-script-consumer.md) page.
 
-    **Note:** If you're creating a Flow Trigger consumer, there isn't a form to fill out. Instead, the dashboard opens Workflow Studio so you can build your flow trigger there. For a detailed guide, see .
+    **Note:** If you're creating a Flow Trigger consumer, there isn't a form to fill out. Instead, the dashboard opens Workflow Studio so you can build your flow trigger there. For a detailed guide, see [Create a flow with a Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow-kafka.md).
 
 
 You can select a consumer from the list to view detailed information for that consumer.
@@ -250,14 +250,14 @@ Each individual consumer page has the following components.
     -   Topics writing to: The total number of topics the producer is writing to.
     -   Messages produced rate: The average number of messages produced per second.
     -   Bytes produced rate: The average number of bytes produced per second.
-    -   Undelivered messages: The total number of undelivered messages for the producer.
+    -   Undelivered messages: The total number of undelivered messages for the producer. If you're viewing data for a Stream Producer, this shows Pending messages instead of Undelivered messages. Pending messages refers to the messages in the staging table for this producer that are waiting to be produced.
     -   Messages produced: Shows the number of messages produced over the last seven days.
     -   Bytes Produced: Shows the number of bytes produced over the last seven days.
     This data is updated every hour. The Messages produced and Bytes produced charts can be filtered to display data for the **Last 2 days**, **Last 24 hours**, **Last 7 days**, or a **Custom range**.
 
 -   **22. Statistics**
 
-    Displays producer statistics, including the date, number of produced messages and bytes, topic alias, and domain.
+    Displays producer statistics, including the date, number of produced messages and bytes, topic alias, and domain. If you're viewing data for a Stream Producer, this section also shows the Stream Producer CDC Statistics.
 
 
 For a detailed description of Producer data and statistics, see [Viewing producer statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/producer-statistics.md).

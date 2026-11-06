@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/model-context-protocol-connector.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Build integrations with connectors, Connect, Workflow Data Fabric]
+breadcrumb: [Build integrations with connectors, Connect, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
 # Model Context Protocol connectors

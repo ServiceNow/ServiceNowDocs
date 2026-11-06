@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Containerized MID Server, Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,16 +25,9 @@ An agent admin can enter a MID Server Profile and create a deployment request on
 
 ## MID Server profile
 
-A MID Server profile contains all the settings required to configure a new MID Server, excluding sensitive data such as passwords and certificates. Sensitive data should be passed through Secrets created on the K8s cluster. The user only enters secret names and locations in the deployment request. An **agent\_admin** role is required to create or change profiles. MID Server profiles are stored in the following tables:
+A MID Server profile contains all the settings required to configure a new MID Server, excluding sensitive data such as passwords and certificates. Sensitive data should be passed through Secrets created on the K8s cluster. The user only enters secret names and locations in the deployment request. An **agent\_admin** role is required to create or change profiles.
 
--   mid\_server\_profile
--   mid\_profile\_config
--   mid\_profile\_wrapper\_config
--   mid\_profile\_property
--   mid\_profile\_application\_m2m
--   mid\_profile\_capability\_m2m
--   mid\_profile\_ip\_range\_m2m
--   mid\_profile\_cluster\_m2m
+For information about the tables that store MID Server profile data, see [MID Server profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-profiles.md)
 
 During deployment, the **mid\_profile\_config** and **mid\_profile\_wrapper\_config** parameters are sent to the K8s cluster. These parameters populate the `config.xml` and `wrapper-override.conf` of the new MID Server. The other parameters are used by the auto-configuration on the instance. The user can access the MID Server profile from the module **MID Server Profiles** on the instance.
 

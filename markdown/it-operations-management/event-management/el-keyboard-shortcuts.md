@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -41,4 +41,6 @@ Use keyboard shortcuts to quickly perform common actions in the Express List.
 |Activate a selected link or button|Enter|
 
 **Note:** The information presented in this section is also available as in-product help in the Help Center panel for the Express List.
+
+**Parent Topic:**[Express List reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/express-list-reference.md)
 

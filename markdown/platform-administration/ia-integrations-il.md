@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-integrations-il.html
 release: australia
 topic_type: reference
-last_updated: "2025-12-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Platform module configuration, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure the Platform module, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Identity management integrations
@@ -38,5 +38,5 @@ LDAP syncs user and group data to centralize authentication and access control.
 
 On selecting LDAP on the left hand side panel, the gallery of the existing LDAP servers shows up. Select **Add an LDAP server** to create a new LDAP server.
 
-**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Configure the Platform module in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)
 

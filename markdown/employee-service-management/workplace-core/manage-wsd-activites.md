@@ -7,7 +7,7 @@ release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Workplace Core, Workplace Service Delivery, Employee Service Manage
 
 Monitor your workplace activities. Perform workplace-related actions using the Workplace Core application such as import data, managing locations and configuring other workplace-related settings.
 
-Manage workplace safety activities by adding a space type configuration, blocking a location, managing neighborhoods and so on. Starting from Workplace Core version 2.3, time zones are introduced, and all arrival schedules from version 2.2 and earlier are deactivated after upgrade. From version 2.16.1, the Department and cost center allocation types are no longer available. They’re replaced with the new Workplace entity allocation type. Additionally, workplace user profiles are created in the Workplace Profile Location Assignment. For workplace entities, you can only view and make map-based space administration; you can’t create scenarios. To view neighborhoods on a floor map, install the Indoor Mapping plugin and its dependencies.
+Manage workplace safety activities by adding a space type configuration, blocking a location, managing neighborhoods and so on. Starting from Workplace Core version 2.3, time zones are introduced, and all arrival schedules from version 2.2 and earlier are deactivated after upgrade. From version 2.16.1, the Department and cost center allocation types are no longer available. They're replaced with the new Workplace entity allocation type. Additionally, workplace user profiles are created in the Workplace Profile Location Assignment. For workplace entities, you can only view and make map-based space administration; you can't create scenarios. To view neighborhoods on a floor map, install the Indoor Mapping plugin and its dependencies.
 
 -   **[Import your workspaces data from an Excel spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/import-excel-spreadsheet-workspace-data-wsd.md)**  
 Import your workspaces data from an Excel spreadsheet into the Workplace Core application.

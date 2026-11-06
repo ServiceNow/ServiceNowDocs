@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/granular-admin-roles.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 39
+last_updated: "2026-09-10"
+reading_time_minutes: 38
 keywords: [Granular admin roles, admin roles, ServiceNow admin roles, admin, roles, access management, assigning roles, maintain security, enforce conformance]
 ---
 
@@ -1723,68 +1723,6 @@ Role required to create and manage all Journey designer and Journey Accelerator 
 
 </td></tr><tr><td>
 
-HRSD-Employee Journey Management
-
-</td><td>
-
-sn\_ja.admin
-
-</td><td>
-
-Role required to create and manage all Journey Accelerator components, tables, and data.
-
-</td></tr><tr><td>
-
-HRSD-Employee Journey Management
-
-</td><td>
-
-sn\_hr\_le.admin
-
-</td><td>
-
-Role required to create, manage, and add users to groups within Lifecycle Events.
-
- Can access:
-
- -   Guided Setup
--   Manage Owner Groups
--   Manage Roles
--   LE UI Configuration
--   Onboarding Executive Dashboard
--   Onboarding Executive View
-
-</td></tr><tr><td>
-
-HRSD-Employee Journey Management
-
-</td><td>
-
-sn\_hr\_le\_pa.admin
-
-</td><td>
-
-Lifecycle Events Performance Analytics Admin role for the scoped application.
-
- -   Access and modify the Lifecycle Events PA content packs.
--   Edits Performance Analytics properties.
--   Accesses Admin Console.
--   Launch Dependency Assessment.
-
-</td></tr><tr><td>
-
-HRSD-Employee Journey Management
-
-</td><td>
-
-sn\_jny.admin
-
-</td><td>
-
-Role required to create and manage all Journey designer and Journey Accelerator configurations and features.
-
-</td></tr><tr><td>
-
 HRSD - Hiring Experiences
 
 </td><td>
@@ -2886,54 +2824,6 @@ sn\_itom\_leap.leap\_admin
 </td><td>
 
 Role required to have admin access to leap application, enabling users to activate skills and create artifacts.
-
-</td></tr><tr><td>
-
-ITOM - Leap Agent
-
-</td><td>
-
-sn\_itom\_leap.leap\_agent
-
-</td><td>
-
-Role required to access the LEAP menu from the Service Operations Workspace and trigger LEAP executions.
-
-</td></tr><tr><td>
-
-ITOM - Leap Ansible Agent Worker
-
-</td><td>
-
-sn\_itom\_leap.leap\_ansible\_agent\_worker
-
-</td><td>
-
-Role required for Ansible Discovery Agent and Execution Agent to access Ansible Automation Platform integration features.
-
-</td></tr><tr><td>
-
-ITOM - Leap Ansible Mapping Read
-
-</td><td>
-
-sn\_itom\_leap.ansible\_mapping\_read
-
-</td><td>
-
-Role required to read step-to-job mappings for Ansible automation integration.
-
-</td></tr><tr><td>
-
-ITOM - Leap Ansible Mapping Write
-
-</td><td>
-
-sn\_itom\_leap.ansible\_mapping\_write
-
-</td><td>
-
-Role required to create and update step-to-job mappings for Ansible automation integration \(LEAP Admin only\).
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -57,6 +57,8 @@ Learn about the fields on the status report form.
 |-----|-----------|
 |Scope|Color to signify the status of the scope-related information of the project in the report.|
 |Comments on Scope|Comments related to the project scope.|
+
+**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/form-field-information-for-project-management.md)
 
 **Related topics**  
 

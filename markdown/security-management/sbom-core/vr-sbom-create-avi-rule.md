@@ -7,9 +7,9 @@ release: australia
 product: SBOM Core
 classification: sbom-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
 
 # Create an application vulnerable item rule in the Software Bill of Materials Workspace

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/opres-dora-roi-ter-def.html
 release: australia
 topic_type: task
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Explore, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Define terminology for ROI export

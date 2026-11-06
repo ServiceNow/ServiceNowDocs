@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -130,7 +130,7 @@ For more information, see [Configure restart for Playbooks](https://raw.githubus
 
     2.  Select the **Add Condition** button.
 
-        The [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) displays.
+        The condition builder displays.
 
     3.  Select or enter a field, operator, and value.
 

@@ -18,7 +18,7 @@ Define the predetermined sequence of actions a group of users complete so you ca
 
 ## Before you begin
 
-Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobile\_analytics\_viewer, core\_ui\_analytics\_viewer, now\_experience\_analytics\_viewer roles can create, edit and delete cohorts for the applications they have access to.
+Role required: analytics\_viewer, portal\_analytics\_viewer, mobile\_analytics\_viewer, core\_ui\_analytics\_viewer, or now\_experience\_analytics\_viewer.
 
 ## About this task
 
@@ -30,7 +30,7 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 3.  Select **Analysis** &gt; **Cohort Analysis**.
 
-4.  Select the Create new cohort button \(\[Omitted image "uxa-create-cohort-button.png"\] Alt text: Create new cohort button\).
+4.  Select the **Create new cohort** button \(\[Omitted image "uxa-create-cohort-button.png"\] Alt text:\).
 
 5.  Enter a name and a description for the process you want to measure.
 
@@ -38,11 +38,11 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
     The step types are:
 
-    -   Visited a Screen
-    -   Triggered an Event
-    -   Performed an Action
-    -   Started any Session
-    -   Started their 1st Session
+    -   **Visited a Screen**
+    -   **Triggered an Event**
+    -   **Performed an Action**
+    -   **Started any Session**
+    -   **Started their first Session**
     The actions are dependent on the step type.
 
     \[Omitted image "uxa-create-cohort-wizard.png"\] Alt text: Create cohort wizard
@@ -52,11 +52,14 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 ## What to do next
 
-View the cohort to see how many of the users who performed the first defined action returned to perform the second action. When you view the cohort, you can filter on Aggregation, Date range, User type, Country, and add filters as necessary.
+View the cohort to see how many users who complete the first defined action also complete the second action. When you view the cohort, you can filter on **Aggregation**, **Date range**, **User type**, and **Country**, and add filters as necessary.
 
 \[Omitted image "uxa-cohort-ex.png"\] Alt text: UXA cohort example, aggregated daily with a range of 7 days
 
-**Note:** If data shown in the cohort analysis is not final, a note indicates that retroactive data is still being processed. Refresh the screen to see the report with final data.
+**Note:**
+
+1.  If data shown in the cohort analysis is not final, a note indicates that retroactive data is still being processed. Refresh the screen to see the report with final data.
+2.  Users with the required roles can create, edit and delete cohorts for the applications they have access to.
 
 **Parent Topic:**[Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/uxa-cohorts.md)
 

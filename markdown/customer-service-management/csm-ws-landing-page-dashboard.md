@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-ws-landing-page-dashboard.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 8
 breadcrumb: [Landing pages, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -22,13 +22,13 @@ The dashboards are represented by tiles on the Dashboard Overview landing page. 
 
 ## Benefits of dashboard landing pages
 
-Using a dashboard as a landing page gives your users more flexibility. Being able to easily customize a dashboard makes the page much more usable. Users can create their own lists and metrics to display the information they need and then share these dashboards with other users. As an example, teams can share a single dashboard or new agents can modify a shared dashboard to create their own. It is much faster to create dashboards because they do not require configuration by a system administrator.
+Using a dashboard as a landing page gives your users more flexibility. Customizing a dashboard makes the page more usable. Users can create their own lists and metrics to display the information they need and then share these dashboards with other users. For example, teams can share a single dashboard or new agents can modify a shared dashboard to create their own. Dashboards don't require configuration by a system administrator, so they take less time to create.
 
 ## Application information
 
-The **CSM Dashboards** landing page variant is included with the CSM and FSM Configurable Workspace Foundation plugin \(com.snc.uib.cwf\_workspace\).
+The CSM Dashboards landing page variant is available with the CRM Workspace plugin \(com.snc.uib.csm\_agent\_workspace\).
 
-The CRM Workspace application, which includes the CSM and FSM Configurable Workspace plugin, is available from the ServiceNow® Store.
+The CRM Workspace application is available from the ServiceNow® Store.
 
 The default dashboards available with this landing page variant are available depending on [user role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-ws-landing-page-dashboard.md). Some of these dashboards require additional plugins to see all of the dashboard information. These plugins include:
 
@@ -43,9 +43,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Activating the CSM Dashboards landing page variant
 
-The **CSM Dashboards** landing page variant is an optional page variant for the **CSM/FSM Configurable Workspace experience**. By default, this page variant is marked as inactive and has an order value of 0. When activated and set to the lowest order number, the system uses the **CSM Dashboards** landing page in place of the default [CSM Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-ws-landing-page-original.md) for the users included in the page audience.
+The **CSM Dashboards** landing page variant is an optional page variant for the CRM Workspace experience. By default, this page variant is marked as inactive and has an order value of 0. When activated and set to the lowest order number, the system uses the **CSM Dashboards** landing page in place of the default [CSM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-ws-landing-page-original.md) for the users included in the page audience.
 
-**Note:** The default landing page, Dashboard Overview, and the [default dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-ws-landing-page-dashboard.md) included with that page are available in read-only mode and are provided as examples. It is recommended that you create and customize duplicates of the landing page and dashboards.
+**Note:** The default landing page, Dashboard Overview, and the [default dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-ws-landing-page-dashboard.md) included with that page are available in read-only mode and are provided as examples. Create and customize duplicates of the landing page and dashboards.
 
 For more information about activating a page variant and setting the order, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-set-record-page-order.md).
 
@@ -58,7 +58,7 @@ By default, the Dashboard Overview landing page is available to users with the f
 -   sn\_customerservice.consumer\_agent
 -   sn\_customerservice\_manager
 
-**Note:** Users with other roles, such as location agents or relationship agents, continue to see the **CSM Landing Page**.
+**Note:** Users with other roles, such as location agents or relationship agents, continue to see the **CSM landing page**.
 
 The system administrator can change these default roles by configuring the page audience. For more information, see the following topics:
 
@@ -103,7 +103,7 @@ Customer Service Agent
 
 Available with the CRM Workspace \(com.snc.uib.csm\_agent\_workspace\) plugin.
 
- Out of box, the Customer Service Agent dashboard includes the widgets on the **My Work** tab.
+ By default, the Customer Service Agent dashboard includes the widgets on the **My Work** tab.
 
 **Note:** The tab is not visible because it is the only tab on the dashboard.
 
@@ -184,7 +184,7 @@ View the default dashboards available for your role
 
 </td><td>
 
-1.  Select **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Select **Workspaces** &gt; **CRM Workspace**.
 
 The Dashboard Overview landing page displays the available dashboards.
 
@@ -204,7 +204,7 @@ Filter dashboards
 
 </td><td>
 
-Several filter options are available on the Dashboard Overview landing page. Users can filter the available dashboards in the following ways:-   By name or owner \(in the search bar\)
+Several filter options are available on the Dashboard Overview landing page. Users can filter the available dashboards in the following ways:-   By name or owner \(in the search bar\).
 -   Recent: shows recently created dashboards
 -   Bookmarked: shows only your bookmarked dashboards.
 -   Certified: shows only the dashboards that have been certified by an administrator.
@@ -218,7 +218,7 @@ Duplicate a dashboard
 
 </td><td>
 
-1.  Select the More actions menu \(\[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text: More actions icon\).
+1.  Select the More actions menu \(\[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text:\).
 2.  Select **Duplicate**.
 3.  In the Duplicating dashboard pop-up window, enter a **New name** and a **Description**.
 4.  Select **Duplicate** on the pop-up window.
@@ -235,7 +235,7 @@ Edit a dashboard
 </td><td>
 
 1.  Select **Edit**.
-2.  Select the desired dashboard tab.
+2.  Select the dashboard tab.
 3.  Edit an existing element or add a new element. For more information about these tasks, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
 
 </td></tr><tr><td>
@@ -244,13 +244,13 @@ Share a dashboard
 
 </td><td>
 
-1.  Select the More actions menu \(\[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text: More actions icon\).
+1.  Select the More actions menu \(\[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text:\).
 2.  Select **Share**.
 3.  In the Share Dashboard pop-up window, add users, groups, or roles in the **Grant access to** field.
-4.  If desired, enable the check box that enables permissions for the dashboard.
+4.  If applicable, select the check box to set permissions for the dashboard.
 5.  Select either **Add as viewer** or **Add as editor**.
 6.  The selected users, groups, or roles are added to the Manage Access section. From here, you can change the permissions.
-7.  Click **Confirm**.
+7.  Select **Confirm**.
 
  For more information, see [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-db-in-ac.md).
 
@@ -263,7 +263,7 @@ Create a dashboard
 1.  From the Dashboard Overview landing page, select **Create new dashboard**.
 2.  From the New dashboard pop-up window, select **In-line editor**.
 3.  Provide a **Name** and a **Description** and select **Create new dashboard**. The new dashboard opens in the editing mode.
-4.  Add new elements to the dashboard. For more information about this step, see see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md).
+4.  Add new elements to the dashboard. For more information about this step, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md).
 
  When you create a dashboard with the in-line editor, several elements are available to help you organize and populate the information on your dashboard. For more information, see [Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ac-elements.md).
 
@@ -273,7 +273,7 @@ Print a dashboard
 
 </td><td>
 
-1.  Select the More actions menu \(\[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text: More actions icon\).
+1.  Select the More actions menu \(\[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text:\).
 2.  Select **Printer friendly**.
 
  For more information, see [Print a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/printer-friendly-db-ac.md).
@@ -284,7 +284,7 @@ Bookmark a dashboard
 
 </td><td>
 
-1.  Select the More actions menu \(\[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text: More actions icon\).
+1.  Select the More actions menu \(\[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text:\).
 2.  Select **Add to bookmarks**.
 
  For more information, see [Bookmark a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/bookmark-dashboard-ac.md).

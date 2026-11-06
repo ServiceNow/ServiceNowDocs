@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-delta-lake-connection-zcc.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Delta Lake, Community connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Delta Lake, Community connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create a Delta Lake connection
@@ -48,15 +48,15 @@ Work with your data source admin to create a connection to Delta Lake. For addit
 
 4.  Configure the metastore that you want to use with Delta Lake.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d671553e243">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d659517e243">
 
 Option
 
-</th><th align="left" id="d671553e246">
+</th><th align="left" id="d659517e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d671553e252">
+</th></tr></thead><tbody><tr><td id="d659517e252">
 
 **Hive Thrift**
 
@@ -72,7 +72,7 @@ Description
 3.  Enter the truststore password.
 
 
-</td></tr><tr><td id="d671553e287">
+</td></tr><tr><td id="d659517e287">
 
 **AWS Glue**
 

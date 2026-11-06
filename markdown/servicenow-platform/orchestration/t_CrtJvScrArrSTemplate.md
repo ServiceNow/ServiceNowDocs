@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a SOAP web service activity, Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -47,5 +47,5 @@ To add more name-value pairs to the parameter's array, append the values to the 
     **Note:** If the value for the **additional\_attribute** field is **None**, then the system escapes the value specified by the **value** attribute. In the first example, `parameterValue` is escaped.
 
 
-**Parent Topic:**[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)
+**Parent Topic:**[Create a SOAP web service activity]()
 

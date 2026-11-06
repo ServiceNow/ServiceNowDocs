@@ -7,8 +7,8 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -37,7 +37,7 @@ Administrators and users with the ts\_admin role can configure the following Zin
 
 Explore
 
- -   Australia
+ -   Brazil
 -   [Features of Search administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/features-search-administration.md)
 -   [Features of Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/features-zing.md)
 
@@ -106,6 +106,8 @@ Convert any multiple-character search keyword to its stem form to find derived v
 Expand search results to include additional search terms.
 -   **[Zing displays search suggestions as users enter search terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/search-suggestions-zing.md)**  
 Display possible search query completions as users enter search terms.
+-   **[Verify that user roles have access to your searchable tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/verify-user-roles-access-searchable-tables.md)**  
+Evaluate your Zing text index configurations to see whether any user roles lack access to indexed columns in your searchable tables. The checker tool provides guidance on correcting access issues for each affected table's index.
 -   **[Installed with Zing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/installed-with-zing.md)**  
 Several types of components are installed with Zing.
 

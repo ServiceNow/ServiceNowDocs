@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage unused resources, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -26,13 +26,9 @@ Ensure that the Price Sheet Download job has completed for each provider.
 
 Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or insights\_owner \[sn\_clin\_core.insights\_owner\].
 
-## About this task
-
-**Note:** Microsoft Azure only: The Azure Advisor service generates the recommendations that appear in Rightsizing and Unused resources reports. Cloud Cost Management doesn't generate the recommendations.
-
 ## Procedure
 
-1.  Navigate to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Recommendations** &gt; **Unused resources**.
+1.  Navigate to **Cloud Cost Management Workspace** &gt; **Optimization** &gt; **Unused resources**.
 
 2.  Select **Settings**.
 

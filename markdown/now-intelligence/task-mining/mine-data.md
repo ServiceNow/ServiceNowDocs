@@ -7,7 +7,7 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [task scope]
 breadcrumb: [Defining the scope of projects, Use, Task Mining, Platform Analytics]
@@ -89,7 +89,7 @@ To configure a task to track the status of P1 incidents from creation to closing
 |Start|New|
 |End|Closed|
 
-\[Omitted image "tm-task-example.png"\] Alt text: Screenshot showing the example task.
+\[Omitted image "tm-task-example.png"\] Alt text: The example task.
 
 ## What to do next
 

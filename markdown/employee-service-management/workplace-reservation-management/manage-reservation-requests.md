@@ -7,7 +7,7 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -34,8 +34,8 @@ View or update reservation requests submitted through the Reservation portal. Yo
 Review employee reservations raised using Workplace Reservation Management and approve or reject them.
 -   **[Print workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/print-workplace-reservations.md)**  
 Using the Reservation Overview, workplace managers and reservation desk executives can print the reservations created and scheduled for a location.
--   **[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)**  
-A reservation waitlist lets employees queue for a preferred space, duration, and location. The waitlist record is held until the preferred space is available.
+-   **[Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/waitlist-configuration.md)**  
+The Reservation Waitlist data model describes the tables and configuration options that support waitlist requests, space allocation, and reservation fulfillment for employees.
 
 **Parent Topic:**[Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.md)
 

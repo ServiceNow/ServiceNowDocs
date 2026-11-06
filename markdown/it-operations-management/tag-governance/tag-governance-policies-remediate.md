@@ -7,7 +7,7 @@ release: australia
 product: Tag Governance
 classification: tag-governance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Tag Governance, ITOM Visibility, IT Operations Management]
 ---

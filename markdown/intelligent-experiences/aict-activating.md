@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-activating.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Activating AI Control Tower

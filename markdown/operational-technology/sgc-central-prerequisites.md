@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/sgc-central-prerequisites.html
 release: australia
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -32,7 +32,7 @@ Role required: admin
 
 4.  There are two prerequisites you much complete before you can create connections for the Service Graph Connector for ServiceNow OT Discovery:
 
-5.  The first prerequisite is download and install the OT Discoverycomponents.
+5.  The first prerequisite is download and install the OT Discovery components.
 
     \[Omitted image "downloadpage2-sgcc.png"\] Alt text: OT Discovery Downloads
 

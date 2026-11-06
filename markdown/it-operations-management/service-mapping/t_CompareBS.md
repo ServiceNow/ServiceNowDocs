@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Application service analysis and maintenance using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_cmdb\_admin, admin, app\_service\_admin, app\_service\_user, 
 
 ## About this task
 
-Specify two points in time for which to compare the two versions of an application service. You can use the change indicators on the timeline to specify one point in time that is before and another that is after a change for which to see the details. For example, if you know that the application service started to fail at a certain time, you can compare two versions of the application service, one before and one after the problem started. This comparison lets you see the summary of changes that possibly led to the problems.
+Specify two points in time for which to compare the two versions of an application service. Use the change indicators on the timeline to specify one point in time before a change and another after it. For example, if you know that the application service started to fail at a certain time, you can compare two versions of the application service, one before and one after the problem started. This comparison lets you see the summary of changes that possibly led to the problems.
 
 Service Mapping, if deployed, tracks and shows all changes to a CI including configuration files associated with a CI. When you compare two versions of an application service, you can see changes made to configuration files as changes to CIs. You can also compare two versions of a configuration file to see the actual changes in the files, during the time range specified for the comparison.
 
@@ -42,15 +42,15 @@ Service Mapping, if deployed, tracks and shows all changes to a CI including con
 
 3.  On the history timeline, set the time range of changes that you want to view.
 
-<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d543893e186">
+<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d583660e186">
 
 Option
 
-</th><th align="left" id="d543893e189">
+</th><th align="left" id="d583660e189">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d543893e195">
+</th></tr></thead><tbody><tr><td id="d583660e195">
 
 **To set the time range of the history timeline**
 
@@ -58,7 +58,7 @@ Action
 
 Click the hour, day, week, or month icons.\[Omitted image "MapHistoryTimeRangeIcons.png"\] Alt text: Click Hours, Days, Weeks, or Months to set the time range of the history scale.
 
-</td></tr><tr><td id="d543893e210">
+</td></tr><tr><td id="d583660e210">
 
 **To increase or decrease the time range**
 
@@ -66,7 +66,7 @@ Click the hour, day, week, or month icons.\[Omitted image "MapHistoryTimeRangeIc
 
 Click the zoom in and zoom out icons.\[Omitted image "MapHistoryPlusMinusIcons.png"\] Alt text: Click Zoom in and Zoom out to change the time range.
 
-</td></tr><tr><td id="d543893e225">
+</td></tr><tr><td id="d583660e225">
 
 **To change the upper limit on your history range**
 

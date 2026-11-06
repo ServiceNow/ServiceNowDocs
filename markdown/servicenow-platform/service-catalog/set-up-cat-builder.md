@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -103,7 +103,7 @@ State of the pre-publish subflow. Possible values are:-   completed: Publishing 
  **Note:** The **completed** and **failed** values are case sensitive and must be selected the same way.
 
 </td></tr></tbody>
-</table>        For information about subflow field types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+</table>        For information about subflow field types, see Field types.
 
     2.  Create the **glide.sc.builder.item\_review\_flow** property.
 

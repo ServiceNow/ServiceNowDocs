@@ -7,7 +7,7 @@ release: australia
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Platform Analytics Solutions for Self-Service Analytics for Customer Service, Analytics and reporting, Customer Service Management]
 ---

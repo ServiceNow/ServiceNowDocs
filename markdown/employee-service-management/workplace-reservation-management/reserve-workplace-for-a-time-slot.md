@@ -7,7 +7,7 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -84,9 +84,9 @@ To view the details of the reservation, click **View details**. To cancel the re
 
 [Create a reservation]()
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
 
 [Set a location as favorite using the Space details page]()
 
@@ -113,4 +113,6 @@ To view the details of the reservation, click **View details**. To cancel the re
 [Share, modify, or cancel a reservation]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

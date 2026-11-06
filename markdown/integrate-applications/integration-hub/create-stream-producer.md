@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [create, Stream Producer, producer configuration, Kafka topic]
 breadcrumb: [Stream Producer, Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]

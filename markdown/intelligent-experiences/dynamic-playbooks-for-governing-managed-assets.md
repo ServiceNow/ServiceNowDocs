@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/dynamic-playbooks-for-governing-managed-assets.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [dynamic playbooks, AI governance, lifecycle management, AI asset onboarding, approval workflows, governance automation]
-breadcrumb: [AI Control Tower playbooks, Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower playbooks, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Updated playbooks for governing managed assets

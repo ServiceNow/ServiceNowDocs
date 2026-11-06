@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, agentic AI, AI readiness]
-breadcrumb: [ServiceNow AI implementation, Enable AI experiences]
+breadcrumb: [Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
 ---
 
 # Application readiness for AI on the ServiceNow AI Platform
@@ -34,7 +34,7 @@ After ensuring that your AI policy, your data, and your applications are ready, 
 
 3.  Install ServiceNow Otto products from the AI Admin Hub console.
 
-    For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 
 ## Customization and AI

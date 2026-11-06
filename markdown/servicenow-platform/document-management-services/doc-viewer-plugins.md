@@ -7,7 +7,7 @@ release: australia
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Document Viewer, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,7 +38,7 @@ To use this feature, install the following plugins:
 
 ​
 
-See [List of plugins \(Rome\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md) for a complete list of ServiceNow plugins.
+See List of plugins \(Rome\) for a complete list of ServiceNow plugins.
 
 After installation, you can use the base system subflows or customize them.​ Configure the subflows in the Document actions table.​ Once configured, they can be invoked as UI actions from List views or can be invoked through Script Include APIs.​
 
@@ -48,7 +48,7 @@ After installation, you can use the base system subflows or customize them.​ C
 
 -   **Microsoft Azure AD __Spoke for IntegrationHub__**
 
-    The [Microsoft Azure AD Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-azure-ad-spoke.md) for Integration Hub provides actions that a Process Analyst can use when designing flows. The actions allow them to automate the management of users, security groups, and office groups. User management includes applying licenses that result in user provisioning into Office 365.
+    The Microsoft Azure AD Spoke for Integration Hub provides actions that a Process Analyst can use when designing flows. The actions allow them to automate the management of users, security groups, and office groups. User management includes applying licenses that result in user provisioning into Office 365.
 
 -   **Multi Provider Document Service Framework plugin \(glide plugin\)**
 

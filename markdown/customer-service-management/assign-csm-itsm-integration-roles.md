@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/assign-csm-itsm-integration-roles.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setting up CSM integration with IT Service Management, Integrate with IT Service Management, Integrate, Customer Service Management]
 ---
@@ -227,7 +227,7 @@ Users with this role can:-   Create a request.
 
 </td></tr><tr><td>
 
-Proxy contact\[sn\_customerservice.proxy\_contact\]
+Proxy contact\[sn\_csm\_proxy\_cont\]
 
 </td><td>
 

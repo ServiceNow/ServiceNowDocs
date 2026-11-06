@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-view-ai-system-in-aict-from-ba.html
 release: australia
 topic_type: task
-last_updated: "2026-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---

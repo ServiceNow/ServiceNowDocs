@@ -1,25 +1,27 @@
 ---
 title: Setting up a test group
-description: Define tests for a particular service type, product model, or inventory to troubleshoot the service-related problems.
+description: Use test groups to define manual or automated testing strategies, apply shared characteristics across test definitions, and limit scope using conditions tied to product inventory records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/setting-test-group.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Setting up a test group
 
-Define tests for a particular service type, product model, or inventory to troubleshoot the service-related problems.
+Use test groups to define manual or automated testing strategies, apply shared characteristics across test definitions, and limit scope using conditions tied to product inventory records.
 
-Test group includes relationships and measure consequences. These entities enable the system to trigger relevant tests for the service problem that help to identify the root-cause of the problem. You can define these entities for each test based on your requirements. The test group contains multiple test definitions.
+You can configure a test group as follows:
 
-Customers can set up Test groups as either manual or automated:
-
--   For manual types, one or more Test definitions must be attached to the Test group.
--   For automated types, you must create a Sub flow with a list of steps and add it to the group.
--   If customers want test diagnostics to run automatically and provide results directly to the agent, they can create a flow with specific trigger conditions. When a task meets these conditions, the flow runs automatically and displays the test results for the task. This may affect system performance.
--   The demo subflow with the demo data for the automated test group is provided. This demo flow can be used as a reference for creating subflow for new automated test groups.
+1.  [Create a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/create-test-group.md).
+2.  [Map test definitions to a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/add-test-definitions-to-test-group.md).
+3.  [Define a characteristic for a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/define-characteristic-for-test-group.md)
+4.  [Map a test group characteristic to a test definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/map-test-group-characteristics-to-test-definition.md)
+5.  [Define a test decomposition rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/define-test-decomposition-rule.md)
+6.  [Publish a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/publish-test-groups.md).
+7.  [Associate a test group to a specifications or product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/define-relationship-test-group-specifications.md).
+8.  [Define conditions for a test group relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/define-conditions-for-test-group-relationship.md)
 

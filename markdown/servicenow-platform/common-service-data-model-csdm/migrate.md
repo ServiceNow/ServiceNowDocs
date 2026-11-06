@@ -7,7 +7,7 @@ release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -91,7 +91,7 @@ After running the scripts and evaluating the data, you will have a better idea o
 You have successfully migrated your application to the CSDM framework, and your data is in the required CMDB locations.
 
 -   **[Assistance with the CSDM life-cycle synchronization process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-migrate-tools.md)**  
-Several features help you to promote accuracy and completeness for the process of syncing legacy data with life-cycle data in the CSDM framework.
+Several features help you to promote accuracy and completeness for the process of synchronizing legacy data with life-cycle data in the CSDM framework.
 -   **[Legacy status values that are auto-updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-status-auto-updated.md)**  
 Several legacy statuses are automatically mapped to the **Life Cycle Stage** and **Life Cycle Stage Status** fields.
 

@@ -7,10 +7,10 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Link View, mixed alert group, alert group, alert correlation, tag cluster, CMDB-based alert group, CI topology, service map, Service Operations Workspace]
-breadcrumb: [Viewing links between alerts in alert groups, Work with alert groups, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups, Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Viewing links between alerts in mixed alert groups
@@ -29,7 +29,7 @@ For more information about Link View for related groups, see [Viewing links betw
 
 The preceding figure shows the Link View of a mixed alert group. The dashed line with the number 1 between the CIs indicates that the CIs aren't connected directly. They are separated by a CI in the service map in the CMDB topology. The sample also shows the defining attribute for the correlation, datacenter, linked to the relevant CIs.
 
-\[Omitted image "link-view-mixed-group-enhanced.png"\] Alt text: Mixed alert group with related log entities and shared impacted services in Link View
+\[Omitted image "link-view-mixed-group-enhanced.png"\] Alt text: Sample mixed alert group with related log entities and shared impacted services in Link View
 
 The Link View for a mixed alert group that includes related log entities and shared impacted services displays connected nodes. Each node represents a correlation source and attribute, including log analytics data, CMDB information, and impacted services. This information gives operators a picture of the scope and nature of the grouping at a glance.
 

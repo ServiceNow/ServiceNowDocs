@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/add-transient-attributes.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with attributes transiently, Dynamic Schema, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,15 +32,15 @@ After creating a dynamic attribute store field on a table, you can immediately s
 
 3.  Add one or more attributes directly on the form using JSON or via the API.
 
-<table id="choicetable_hbk_hpf_yfc"><thead><tr><th align="left" id="d87564e78">
+<table id="choicetable_hbk_hpf_yfc"><thead><tr><th align="left" id="d87811e78">
 
 Option
 
-</th><th align="left" id="d87564e81">
+</th><th align="left" id="d87811e81">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d87564e87">
+</th></tr></thead><tbody><tr><td id="d87811e87">
 
 **Enter JSON on the form**
 
@@ -53,7 +53,7 @@ Description
 "screen_resolution":"2160p","screen_size":"75","screen_type":"OLED"
     ```
 
-</td></tr><tr><td id="d87564e107">
+</td></tr><tr><td id="d87811e107">
 
 **Call setValue\(\)**
 

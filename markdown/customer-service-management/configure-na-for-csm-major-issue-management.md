@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-na-for-csm-major-issue-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-20"
+last_updated: "2026-09-21"
 reading_time_minutes: 2
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -37,7 +37,9 @@ To activate ServiceNow Otto for CSM Major Issue Management, complete the followi
 **Related topics**  
 
 
-[Activate ServiceNow Otto for CSM Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-na-csm-major-issue-management.md)
+[Activate Now Assist for CSM Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-na-csm-major-issue-management.md)
 
-[ServiceNow Otto for CSM Major Issue Management Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/na-for-csm-mim-properties.md)
+[Now Assist for CSM Major Issue Management Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/na-for-csm-mim-properties.md)
+
+[Major case detect AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-major-case-detect-ai-agent.md)
 

@@ -7,9 +7,9 @@ release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with test step templates, Administering the Automated Test Framework \(ATF\), Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Working with test step templates, Administering the Automated Test Framework \(ATF\), Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Create an automated test steps template

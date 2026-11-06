@@ -7,9 +7,9 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure skills, Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Skill inputs and triggers for ServiceNow Otto for HRSD
@@ -223,5 +223,5 @@ Input fields
 -   Work notes
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+</table>**Parent Topic:**[Configure ServiceNow Otto for HRSD skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/customize-nahr-skill.md)
 

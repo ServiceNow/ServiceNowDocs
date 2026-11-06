@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -22,11 +22,11 @@ Role required: sn\_business\_domain.admin
 
 ## Procedure
 
-1.  In the Filter navigator, enter `sn_grc_business_domain.LIST`.
+1.  Enter `sn_grc_business_domain.LIST` in the filter navigator.
 
-2.  In the Business domains page, select **New**.
+2.  Select **New**.
 
-3.  In the **Name** field, enter a name for the business domain.
+3.  Enter a name for the business domain in the **Name** field.
 
 4.  Select **Submit**.
 

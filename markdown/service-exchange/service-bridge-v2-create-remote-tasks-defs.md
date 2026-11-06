@@ -7,9 +7,9 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 9
-breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [Remote task definition, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Create a remote task definition in Service Exchange for Providers
@@ -94,7 +94,15 @@ Send attachments
 
 </td><td>
 
-If this check box is selected, if an attachment is added on the parent record, it’s sent to the remote task.**Note:** When data, such as an attachment or task, is shared with another instance through Service Exchange, it becomes part of that instance’s data. Service Exchange does not delete data on remote instances; the receiving instance must handle the deletion if required.
+Option to enable sending an attachment added on the parent record to the remote task.**Note:** When data, such as an attachment or task, is shared with another instance through Service Exchange, it becomes part of that instance’s data. Service Exchange does not delete data on remote instances; the receiving instance must handle the deletion if required.
+
+</td></tr><tr><td>
+
+Maintain SysID
+
+</td><td>
+
+Option that enables the system to create the new parent task on the consumer instance with the same sys\_id as the parent record on the provider instance.
 
 </td></tr><tr><td>
 
@@ -117,13 +125,13 @@ More detailed information about this remote task definition.
 
 5.  Open this new Remote task definition record.
 
-6.  On the **Inbound fields** related tab, select **New**.
+6.  On the **Inbound fields** related list, select **New**.
 
     Starting from Service Exchange version 2.2.x, an inbound field record is created with the source and target fields set as comments. This record enables comment-to-comment mappings for your RTD.
 
 7.  On the form, fill in the fields.
 
-    The inbound fields enable you to receive data from the consumer's instance when a remote task is created or updated.
+    Inbound fields receive data from the consumer instance when a remote task is created or updated.
 
     **Note:** If the inbound field values are updated, the updated information is shown in a work note on the parent record.
 
@@ -172,11 +180,45 @@ Enables you to specify when a target field on the remote task's parent record is
 
 </td></tr><tr><td>
 
-Source Mapping tab
+Application
 
 </td><td>
 
-This tab is not displayed if you have selected the **Virtual** check box to define a virtual field mapping.
+This is a read-only field and is set by default based on the application scope.
+
+</td></tr><tr><td>
+
+Remote task definition
+
+</td><td>
+
+Name of the remote task definition that this inbound field maps to.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+This field is enabled by default.
+
+</td></tr><tr><td>
+
+Virtual
+
+</td><td>
+
+Option to enable virtual inbound field mapping. A virtual field is a field that is present in the target table but does not exist in the source table.When a source table doesn’t contain a field that exists on a target table, the field is configured as a virtual field. The values specified for the virtual field are passed from the source instance to the target instance. The consumer can create a remote task to sync data and update the value of the virtual field in the associated target task record.
+
+The target field can be updated either by using the Virtual Inbound option described in the [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-transform.md) or by using the `updateVirtualField` API.
+
+</td></tr><tr><td>
+
+Source Mapping
+
+</td><td>
+
+This tab appears only when **Virtual** check box is selected to define a virtual field mapping.
 
 </td></tr><tr><td>
 
@@ -196,11 +238,11 @@ Field from the source table that is sent to another ServiceNow instance.Source f
 
 </td></tr><tr><td>
 
-Target Mapping tab
+Target Mapping
 
 </td><td>
 
-Displayed only in the following conditions:-   Sync when: You select **Insert** or **Insert or update**.
+This tab displays only in the following conditions:-   Sync when: You select **Insert** or **Insert or update**.
 -   Virtual: You select this check box to enable virtual field mapping.
 
 
@@ -218,38 +260,18 @@ Target field
 
 </td><td>
 
-Field from the target table that is sent to another ServiceNow instance.**Note:** If you are defining a virtual field mapping, the field you select in the target table is not present in the source table.
-
-</td></tr><tr><td>
-
-Active
-
-</td><td>
-
-This field is enabled by default.
-
-</td></tr><tr><td>
-
-Virtual
-
-</td><td>
-
-Select this check box to enable virtual inbound field mapping. A virtual field is a field that is present in the target table but does not exist in the source table.
-
- When a source table doesn’t contain a field that exists on a target table, the field is configured as a virtual field. The values specified for the virtual field are passed from the source instance to the target instance. The consumer can create a remote task to sync data and update the value of the virtual field in the associated target task record.
-
- The target field can be updated either by using the Virtual Inbound option described in the [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-transform.md) or by using the `updateVirtualField` API.
+Field from the target table that is sent to another ServiceNow instance.**Note:** If you're defining a virtual field mapping, the field you select in the target table is not present in the source table.
 
 </td></tr></tbody>
-</table>8.  Click **Submit**.
+</table>8.  Select **Submit**.
 
-9.  On the **Outbound fields** related tab, click **New**.
+9.  On the **Outbound fields** related list, Select **New**.
 
     Starting from Service Exchange version 2.2.x, an outbound field record is created with the source and target fields set as comments. This record enables comment-to-comment mappings for your RTD.
 
 10. On the form, fill in the fields.
 
-    The outbound fields enable you to send data to the consumer's instance when a remote task is created or updated.
+    Outbound fields send data to the consumer instance when a remote task is created or updated.
 
 <table id="table_jfg_wzd_25b"><thead><tr><th>
 
@@ -289,70 +311,26 @@ Sync when suggestion
 
 </td><td>
 
-Enables you \(the provider\) to suggest to the consumer when a target field on the remote task's parent record should be directly updated. The consumer can change this setting before activating the definition-   **Insert:** Updates the target field on the remote task's parent record only when the remote task is initially inserted.
+Enables you \(the provider\) to suggest to the consumer when a target field on the remote task's parent record should be directly updated. The consumer can change this setting before activating the definition-   **Insert**: Updates the target field on the remote task's parent record only when the remote task is initially inserted.
 -   **Insert or Update**: Updates the target field on the remote task's parent record every time the remote task is updated.
 -   **Never**: The inbound field never updates a target field on the remote task's parent record directly. For example, you can use this field for state mapping where a flow is used to convert the incoming value before updating the target field.
 
 
 </td></tr><tr><td>
 
-Sync pre-existing entries
+Application
 
 </td><td>
 
-Option to enable synchronization of all existing comments to the target task when a connection is established. If enabled, any comments made prior to the connection gets included in the sync process when a remote task is created.**Note:** This feature is available from Service Exchange version 2.2.x.
+This is a read-only field and is set by default based on the application scope.
 
 </td></tr><tr><td>
 
-Source Mapping tab
+Remote task definition
 
 </td><td>
 
-This tab is not displayed if you have selected the **Virtual** check box to define a virtual field mapping.
-
-</td></tr><tr><td>
-
-Source table \(read-only\)
-
-</td><td>
-
-The Provider table that you selected while creating the remote task definition.
-
-</td></tr><tr><td>
-
-Source field
-
-</td><td>
-
-Field from the source table that is sent to another ServiceNow instance.Source fields allow for [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md), which is useful when reference data is not available between ServiceNow instances. For example, you can create multiple inbound mappings for change incidents \(CIs\) to include the name, class, IP address, and asset tag.
-
- **Note:** From Service Exchange version 2.2.x, you can create
-
-</td></tr><tr><td>
-
-Target Mapping tab
-
-</td><td>
-
-Displayed only in the following conditions:-   Sync when: You select **Insert** or **Insert or update**.
--   Virtual: You select this check box to enable virtual field mapping.
-
-
-</td></tr><tr><td>
-
-Target table \(read-only\)
-
-</td><td>
-
-The Consumer table that you selected while creating the remote task definition.
-
-</td></tr><tr><td>
-
-Target field
-
-</td><td>
-
-Field from the target table that is sent to another ServiceNow instance.**Note:** If you are defining a virtual field mapping, the field you select in the target table is not present in the source table.
+Name of the remote task definition that this outbound field belongs to.
 
 </td></tr><tr><td>
 
@@ -374,10 +352,70 @@ Select this check box to enable virtual inbound field mapping. A virtual field i
 
  The target field can be updated either by using the Virtual Outbound option described in the [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-transform.md) or by using the `updateVirtualField API`.
 
-</td></tr></tbody>
-</table>11. Click **Submit**.
+</td></tr><tr><td>
 
-12. On the **Consumer criteria** related tab, click **New**.
+Sync pre-existing entries
+
+</td><td>
+
+Option to enable synchronization of all existing comments to the target task when a connection is established. If enabled, any comments made prior to the connection gets included in the sync process when a remote task is created.**Note:** This feature is available from Service Exchange version 2.2.x.
+
+</td></tr><tr><td>
+
+Source Mapping
+
+</td><td>
+
+This tab appears only when **Virtual** check box is selected to define a virtual field mapping.
+
+</td></tr><tr><td>
+
+Source table \(read-only\)
+
+</td><td>
+
+The Provider table that you selected while creating the remote task definition.
+
+</td></tr><tr><td>
+
+Source field
+
+</td><td>
+
+Field from the source table that is sent to another ServiceNow instance.Source fields allow for [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md), which is useful when reference data is not available between ServiceNow instances. For example, you can create multiple inbound mappings for change incidents \(CIs\) to include the name, class, IP address, and asset tag.
+
+ **Note:** From Service Exchange version 2.2.x, you can create
+
+</td></tr><tr><td>
+
+Target Mapping
+
+</td><td>
+
+This tab displays only in the following conditions:-   Sync when: You select **Insert** or **Insert or update**.
+-   Virtual: You select this check box to enable virtual field mapping.
+
+
+</td></tr><tr><td>
+
+Target table
+
+</td><td>
+
+The Consumer table that you selected while creating the remote task definition. This is a read-only field.
+
+</td></tr><tr><td>
+
+Target field
+
+</td><td>
+
+Field from the target table that is sent to another ServiceNow instance.**Note:** If you're defining a virtual field mapping, the field you select in the target table is not present in the source table.
+
+</td></tr></tbody>
+</table>11. Select **Submit**.
+
+12. On the **Consumer criteria** related list, select **New**.
 
 13. On the form, fill in the fields.
 
@@ -390,7 +428,16 @@ Select this check box to enable virtual inbound field mapping. A virtual field i
 
     For more details on consumer criteria, see [Creating entitlements in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-entitlements.md).
 
-14. Click **Publish**.
+14. On the **Transforms** related list, select **New** to add new transform inline.
+
+    Enables you to manage which transforms are linked to any specific RTD.
+
+    |Field|Description|
+    |-----|-----------|
+    |Transform|Transform record linked to this remote task definition.|
+    |Identity|Reference to the RTD's identity record, not its sys\_id. Keeps the link valid across RTD revisions, so a republished RTD doesn't need to be re-linked.|
+
+15. Select **Publish**.
 
     Remote task variables are automatically created when you publish a remote task definition. These variables are the data variables for the inbound fields displayed and can be accessed on the remote tasks.
 

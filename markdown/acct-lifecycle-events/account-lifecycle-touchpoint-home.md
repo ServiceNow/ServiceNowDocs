@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-touchpoint-home.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Touchpoints, Customer success, Use, Customer Success Management]
 ---
@@ -228,7 +228,7 @@ You can do the following:
     -   Existing scheduled meetings are still available, but you can’t schedule any new meetings.
     -   Emails and success tasks can’t be added for the closed or canceled touchpoint.
 
-**Important:** The following changes have been made in the Touchpoint tables in the Australia release:
+**Important:** The following changes have been made in the Touchpoint tables in the Brazil release:
 
 <table id="table_rp5_knl_zfc"><thead><tr><th>
 

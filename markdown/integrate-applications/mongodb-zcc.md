@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/mongodb-zcc.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Community connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Community connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # MongoDB

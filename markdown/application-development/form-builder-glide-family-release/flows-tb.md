@@ -7,9 +7,9 @@ release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Flows in Table Builder
@@ -18,7 +18,7 @@ You can use the Workflow Studio functionality that is integrated within Table Bu
 
 Workflow Studio is a ServiceNow AI Platform® feature that enables process owners to automate work. Build multi-step flows from reusable components without having to code.
 
-The **Flows** tab within Table Builder is where you can view and work with record-based flows for a selected data table. These are actions triggered when a table record is created, updated, or both.
+The **Flows** tab within Table Builder is where you can view and work with record-based flows for a selected data table \(that is, actions that are triggered when a table record is created or updated or both\).
 
 The following diagram shows flow cards in Table Builder.
 
@@ -36,7 +36,7 @@ Use the **Flows** tab in Table Builder to search and filter a list of flows that
 -   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
 -   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-Role required: personalize\_forms, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_form, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -46,7 +46,9 @@ Role required: personalize\_forms, personalize\_dictionary, and flow\_designer p
 
     The flows triggered by the selected table are listed as flow cards.
 
-3.  4.  Filter or search the list of flow cards as needed to find the desired flow.
+3.  \[Omitted image "flows-list-tb.png"\] Alt text: Flows list.
+
+4.  Filter or search the list of flow cards as needed to find the desired flow.
 
 <table id="table_zkp_3zn_15b"><thead><tr><th>
 
@@ -108,7 +110,7 @@ Add flows that are triggered when a table record is updated, created, or both up
 -   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
 -   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-Role required: personalize\_forms, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_form, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -116,9 +118,9 @@ Role required: personalize\_forms, personalize\_dictionary, and flow\_designer p
 
 2.  Select the **Flows** tab.
 
-3.  Select **Add flow**.
+3.  Select the **Add new flow** button.
 
-4.  On the Add flow form, fill in the following fields.
+4.  On the New Flow form, fill in the following fields for your new flow.
 
     |Field|Description|
     |-----|-----------|
@@ -170,7 +172,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 7.  Choose the event that your flow will be triggered by.
 
-<table id="choicetable_nl2_cmz_ztb"><tbody><tr><td id="d91240e740">
+<table id="choicetable_nl2_cmz_ztb"><tbody><tr><td id="d282333e775">
 
 **When the record is created**
 
@@ -178,7 +180,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 Create a flow that is triggered when a record in the selected table is created.
 
-</td></tr><tr><td id="d91240e749">
+</td></tr><tr><td id="d282333e784">
 
 **When the record is updated**
 
@@ -186,7 +188,7 @@ Create a flow that is triggered when a record in the selected table is created.
 
 Create a flow that is triggered when a record in the selected table is updated.
 
-</td></tr><tr><td id="d91240e758">
+</td></tr><tr><td id="d282333e793">
 
 **When the record is created or updated**
 
@@ -255,7 +257,9 @@ Test your flow until you're ready to activate it. For more information on testin
 
 **Note:** Your application can trigger only activated flows. For detailed information on how to design, test, and activate flows for your application, see [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md).
 
-To return to the comprehensive list of flows related to the selected table after editing a flow, select the Additional actions \( \[Omitted image "ellipsisIcon.png"\] Alt text: Additional actions menu.\) menu to the right of the **Flows** tab, and then select **All flows**.
+To return to the comprehensive list of flows related to the selected table after editing a flow, select the Additional actions \( \[Omitted image "ellipsisIcon.png"\] Alt text: Additional actions menu.\) menu to the right of the **Flows** tab, and then select **All flows** as shown in the following example.
+
+\[Omitted image "return-to-flow-list.png"\] Alt text: All flows.
 
 ## Modify a record-based flow
 
@@ -267,11 +271,11 @@ Edit flows that are triggered when table records that you select are updated, cr
 -   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
 -   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-Role required: personalize\_forms, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_form, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### About this task
 
-The **Flows** tab in Table Builder lists flows triggered by record changes to a table. You can manage these flows from the record table that triggers the workflow.
+The **Flows** tab in Table Builder provides a list of flows that are triggered by record changes to a table and enables you to manage them from the record table that triggers the workflow.
 
 ### Procedure
 
@@ -302,7 +306,9 @@ Test your flow until you're ready to activate it. For more information on testin
 
 **Note:** Your application can trigger only activated flows. For detailed information on how to design, test, and activate flows for your application, see [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md).
 
-To return to the list of flows related to the table that you selected after you edited a flow, select the Additional actions \( \[Omitted image "ellipsisIcon.png"\] Alt text: Additional actions menu.\) menu to the right of the **Flows** tab, and then select **All flows**.
+To return to the list of flows related to the table that you selected after you edited a flow, select the Additional actions \( \[Omitted image "ellipsisIcon.png"\] Alt text: Additional actions menu.\) menu to the right of the **Flows** tab, and then select **All flows** as shown in the following example.
+
+\[Omitted image "return-to-flow-list.png"\] Alt text: All flows.
 
 ## Delete a record-based flow
 
@@ -314,7 +320,7 @@ Delete a record-based flow by using the **Flows** tab in Table Builder.
 -   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
 -   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-Role required: personalize\_forms, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_form, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -345,7 +351,7 @@ Create a new record-based flow from an existing flow by using the **Flows** tab 
 -   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
 -   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-Role required: personalize\_forms, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_form, personalize\_dictionary, and flow\_designer permissions \(or relevant AES user role and delegated developer permissions\). For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -361,9 +367,9 @@ Role required: personalize\_forms, personalize\_dictionary, and flow\_designer p
 
 4.  Select the Additional actions \( \[Omitted image "ellipsisIcon.png"\] Alt text: Additional actions menu.\) menu in the top-right corner of the flow that you want to delete, and then select **Copy** from the list of options.
 
-5.  In the Create a copy of the flow window, enter a name for the copied flow and select **Copy**.
+5.  In the Create a copy of the flow window that appears, enter a name for the new flow that you want to create from the existing flow, and then select **Copy**.
 
-6.  Edit the flow using Workflow Studio.
+6.  Edit your new flow by using Workflow Studio.
 
     For detailed information on how to work with flows for your application, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md).
 

@@ -7,21 +7,24 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [FX Currency, Cannot generate report mismatched currency codes.]
-breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # FX Currency values in reporting
 
 Manage projects in multiple currencies with FX \(Foreign Exchange\) Currency. You can report on the projects in currency values entered by the user, a reference currency, or both.
 
-**Note:** You don't have to install a plugin to use FX Currency functionality. It's activated by default.
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 FX Currency functionality is described in detail in . In the context of reporting, it is important to aggregate on the reference currency which the other currencies are converted to.
 
-**Note:** When there are multiple currencies, calculations may not be possible. Change your aggregation source or filter conditions to show the report.
+**Important:**
+
+-   You don't have to install a plugin to use FX Currency functionality. It's activated by default.
+-   When there are multiple currencies, calculations may not be possible. Change your aggregation source or filter conditions to show the report.
 
 When you aggregate by **Average** or **Sum** on an FX currency field, you choose the **Aggregation Source**.
 
@@ -60,7 +63,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 3.  On the **Type** tab, choose the visualization type that you want to use.
 
-    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md).
+    See [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 4.  On the **Configure** tab, choose how you want to group, stack, and aggregate the report.
 

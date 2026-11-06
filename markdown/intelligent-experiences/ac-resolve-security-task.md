@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-resolve-security-task.html
 release: australia
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Security tasks, Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Security tasks, Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Resolve a security task
@@ -25,13 +25,13 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 2.  Select the **Security tasks** sub-tab.
 
-3.  Select the security task that you want to resolve.
+3.  Select the security task to resolve.
 
-    The task opens in a side panel with the affected asset, the type of security concern that triggered the task, the supporting evidence, and any recommended remediation actions.
+    The task opens in a side panel with the affected asset, the type of security concern, the supporting evidence, work notes, and any recommended remediation actions.
 
 4.  Investigate the security concern.
 
-    Review the evidence in the task, examine the asset's security posture on the asset record's **Security** tab, and determine whether the concern is a true positive that needs remediation or a false positive that can be dismissed.
+    Review the evidence in the task and examine the asset's security posture on the asset record's **Security** tab. Determine whether the concern is a true positive that needs remediation or a false positive that can be dismissed.
 
 5.  Take the remediation action that addresses the security concern.
 

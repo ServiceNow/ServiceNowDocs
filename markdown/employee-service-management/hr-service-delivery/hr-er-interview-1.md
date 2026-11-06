@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Configuring Employee Relations, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Interview Management for Employee Relations
@@ -37,6 +37,8 @@ The **sn\_interview\_temp.filter\_attr\_allowed\_tables** system property determ
 
 When entering multiple tables, separate the table names with a comma \(,\) but with no space between each table.
 
+\[Omitted image "hr-er-sys-property.png"\] Alt text: Interview Question Template system property
+
 ### Template tags
 
 Template tags are a way to organize your interview templates and a way to filter them when looking for the correct template. Template tags allow you to find relevant questions easier and faster.
@@ -55,9 +57,12 @@ There are two types of template tags you can create:
 
     -   Customer category = Involved party type
     -   Custom tags:
+
         -   Complainant
         -   Subject of allegation
         -   Witness
+        \[Omitted image "agent-ws-hr-template-tag-ex.png"\] Alt text: Interview question template tags
+
     Involved party type becomes the top-level category in the organization with the tags being a way to organize the type of person you are interviewing.
 
 
@@ -100,15 +105,15 @@ Role required: sn\_interview\_temp.admin
 
 3.  Fill in the form or make edits.
 
-<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d311626e450">
+<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d311288e462">
 
 Field
 
-</th><th align="left" id="d311626e453">
+</th><th align="left" id="d311288e465">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d311626e459">
+</th></tr></thead><tbody><tr><td id="d311288e471">
 
 **Active**
 
@@ -116,7 +121,7 @@ Value
 
 Option for enabling the **Interview Question Template** and make it available.
 
-</td></tr><tr><td id="d311626e471">
+</td></tr><tr><td id="d311288e483">
 
 **Name**
 
@@ -124,7 +129,7 @@ Option for enabling the **Interview Question Template** and make it available.
 
 The name that identifies the interview question template.
 
-</td></tr><tr><td id="d311626e480">
+</td></tr><tr><td id="d311288e492">
 
 **Application**
 
@@ -132,7 +137,7 @@ The name that identifies the interview question template.
 
 The application the interview question template belongs to.**Note:** The application that appears is dependent on your current application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
 
-</td></tr><tr><td id="d311626e496">
+</td></tr><tr><td id="d311288e508">
 
 **Table**
 
@@ -140,7 +145,7 @@ The application the interview question template belongs to.**Note:** The applica
 
 Name of the table the interview question template is associated with.**Note:** To only show interview question templates for ER interview records, select the Interview \(sn\_er\_interview\) table. If you leave this field blank, the interview template is available globally \(any tables that have been configured to use interview templates also have access\). Currently in the base system, only Employee Relations interviews are set up to access.
 
-</td></tr><tr><td id="d311626e509">
+</td></tr><tr><td id="d311288e521">
 
 **Question template body**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configuring-an-action-button-to-open-a-custom-modal.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -14,11 +14,19 @@ breadcrumb: [Configure action buttons, Declarative actions, Administer, Configur
 
 Configure a form action to open a custom modal that provides information or interactive elements without navigating away from the current page.
 
+To configure a declarative action to open a custom modal, complete the following actions:
+
+-   **Create a declarative action button**
+-   **Configure a page variant**
+-   **Configure a modal**
+-   **Configure a UX add-on event mapping record**
+-   **Define the payload**
+
 Configuring an action button to open a custom modal involves several processes:
 
 1.  Opening your record page in UI Builder:
 
-    Accessing your record page in UI Builder enables you to design and configure the page variant with a custom modal. For more information, see Create a page variant.
+    Accessing your record page in UI Builder enables you to design and configure the page variant with a custom modal. For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-variant.md).
 
 2.  Designing the page variant in UI Builder:
 

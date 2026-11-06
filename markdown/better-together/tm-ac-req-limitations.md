@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/better-together/tm-ac-req-limitations.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [create agent, decomposed automations, automations blocks, desktop actions, automation center, UI block, non UI block, deterministic desktop actions]
 breadcrumb: [Building desktop automations from Task Mining data, Solutions]
@@ -19,7 +19,7 @@ Learn about requirements and limitations for this unified journey.
 
 -   Application dependencies: Task Mining, Automation Center, AI Agent Studio, and AI Desktop Actions.
 -   Windows requirement: Task Mining agent recording and AI Desktop Actions agent execution require Windows 11+. Automation Center configuration and agent creation can be performed on any supported operating system.
--   Instance requirements: starting with the Australia patch 4 release.
+-   Instance requirements: starting with the Brazil patch 4 release.
 -   Plugin dependencies: Both Automation Center and AI Desktop Actions must be installed on the target instance before you can create an AI agent. ServiceNow Otto for Automation Center must be installed to use this feature.
 -   AI skill dependencies: User task step summarization skill must be activated. For more information, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-skill.md).
 

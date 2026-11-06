@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-review-offboarding-request.html
 release: australia
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Change and offboarding requests, Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Change and offboarding requests, Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Review and approve an offboarding request
@@ -39,15 +39,15 @@ Role required: sn\_ai\_governance.ai\_steward
 
 6.  Approve or reject the offboarding request.
 
-<table><thead><tr><th align="left" id="d55788e128">
+<table><thead><tr><th align="left" id="d51895e128">
 
 Option
 
-</th><th align="left" id="d55788e131">
+</th><th align="left" id="d51895e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d55788e137">
+</th></tr></thead><tbody><tr><td id="d51895e137">
 
 **Approve the request.**
 
@@ -58,7 +58,7 @@ Description
 3.  Confirm the approval. AI Control Tower moves the asset into the offboarding lifecycle stage and generates the offboarding tasks defined by the offboarding playbook.
 
 
-</td></tr><tr><td id="d55788e161">
+</td></tr><tr><td id="d51895e161">
 
 **Reject the request.**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bia-uib.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -26,11 +26,11 @@ For information on the use cases for business impact analysis, see [Use cases fo
 
 Creating a business impact analysis includes these steps:
 
--   The business impact analysis owner creates a business impact analysis either from the Home page or the business impact analysis record page from the List view.
+-   The business impact analysis owner creates a business impact analysis from the Home page or the List view of the BCM UIB Workspace.
 -   The BIA owner adds additional details for the business impact analysis on the **Details** tab.
 -   Different users of the BCM application respond to the assessment questionnaire for the business impact analysis on the **Assessment** tab.
 -   Based on the responses received, the BCM application calculates the recovery time objective \(RTO\), recovery point objective \(RPO\), and dependencies for the business impact analysis.
--   The business impact analysis owner reviews the information and submits an analysis for a review and approval to the business manager for services or IT manager for applications.
+-   The business impact analysis owner reviews the information and submits the analysis for approval to the business manager or IT manager.
 -   The business manager, IT manager, or BCM lead review the details of the business impact analysis and approve or reject it.
 -   An approved business impact analysis is moved to **Approved** and later, it is moved to the **Archived** state.
 -   The business impact analysis owner can generate the PDF of the analysis and save a copy for reference.
@@ -47,7 +47,7 @@ If you are the business impact analysis administrator, you can view [Setup for a
 
 ## Creating a business impact analysis in Business Continuity Workspace
 
-If you are the business impact analysis owner, you can create a business impact analysis in Business Continuity Workspace by using one of these options:
+if you are the business impact analysis owner, you can create a business impact analysis in Business Continuity Workspace by using one of these options:
 
 -   You can navigate to the **Business impact analysis** tab in the Home page and select **Create BIA** as shown in the example.
 

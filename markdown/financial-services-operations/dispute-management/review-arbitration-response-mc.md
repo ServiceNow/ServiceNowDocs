@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Chargeback, Processing a Mastercard dispute, Resolving disputes with Mastercard, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -63,15 +63,15 @@ If Card Data Security is installed and configured, **Attachments** in the contex
 
 11. In the **Response outcome** field, select one of the following options.
 
-<table id="choicetable_p21_t5l_wfc"><thead><tr><th align="left" id="d43372e289">
+<table id="choicetable_p21_t5l_wfc"><thead><tr><th align="left" id="d43437e289">
 
 Selection
 
-</th><th align="left" id="d43372e292">
+</th><th align="left" id="d43437e292">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d43372e298">
+</th></tr></thead><tbody><tr><td id="d43437e298">
 
 **Unresolved**
 
@@ -81,7 +81,7 @@ Select this option if you are not happy with the arbitration response from Maste
 
 For more information about Financial adjustments, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/financial-adjustments.md).
 
-</td></tr><tr><td id="d43372e323">
+</td></tr><tr><td id="d43437e323">
 
 **Resolved**
 

@@ -1,13 +1,13 @@
 ---
 title: Appointment Open API
-description: The Appointment Open API is a telecommunication API that allows you to interact with the appointment booking application. Use this API to book appointments and search available time slots.Deletes an appointment record with a given ID.Returns time slots that were configured in the appointment booking service configuration along with their availability.Retrieves an appointment record associated with a specified ID.Retrieves a list of appointment records.Reschedule appointments with a given ID for a  work order.Enables you to book appointments for a work order.
+description: The Appointment Open API is a telecommunication API that allows you to interact with the appointment booking application. Use this API to book appointments and search available time slots.Deletes an appointment record with a given ID.Retrieves an appointment record associated with a specified ID.Retrieves a list of appointment records.Returns time slots that were configured in the appointment booking service configuration along with their availability.Reschedule appointments with a given ID for a  work order.Enables you to book appointments for a work order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/appointment-open-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 28
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -133,340 +133,6 @@ Response body:
 
 ```
 "The appointment (68cc0a5a9314521060320dd548373cbd) is successfully cancelled."
-```
-
-## Appointment Open - GET /api/sn\_tmf\_api/appointment/searchTimeSlot
-
-Returns time slots that were configured in the appointment booking service configuration along with their availability.
-
-### URL format
-
-`/api/sn_tmf_api/appointment/searchTimeSlot`
-
-### Supported request parameters
-
-|Name|Description|
-|----|-----------|
-|None| |
-
-<table class="rest_api_query_parameters"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-catalog\_id
-
-</td><td>
-
-Required. Sys\_id of the record producer configured with an appointment booking service configuration. Data type: String
-
-Table: Record Producer \[sc\_cat\_item\_producer\]
-
-</td></tr><tr id="serviceTest-response-testMeasureDefinition.thresholdRule.consequence.validFor.endDateTime"><td>
-
-end\_date
-
-</td><td>
-
-Required. End date and time of the time period in which you want to search for the appointment.Data type: String
-
-Format: YYYY-MM-DD 00:00:00. For example, `2025-01-31 12:00:00`.
-
-</td></tr><tr><td>
-
-location
-
-</td><td>
-
-Sys\_id of the appointment's location.Table: Location \[cmn\_location\]
-
-Data type: String
-
-Default: Returns all locations if not specified.
-
-</td></tr><tr><td>
-
-opened\_for
-
-</td><td>
-
-Required. Sys\_id of the user for whom the appointment is being booked.Table: Contact \[customer\_contact\]
-
-Data type: String
-
-</td></tr><tr id="serviceTest-response-testMeasureDefinition.thresholdRule.consequence.validFor.startDateTime"><td>
-
-start\_date
-
-</td><td>
-
-Required. Start date and time of the time period in which you want to search for the appointment.Data type: String
-
-Format: YYYY-MM-DD 00:00:00. For example, `2025-01-31 09:00:00`.
-
-</td></tr></tbody>
-</table>|Name|Description|
-|----|-----------|
-|None| |
-
-### Headers
-
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
-
-|Header|Description|
-|------|-----------|
-|Accept|Data format of the response body. Only supports **application/json**.|
-
-|Header|Description|
-|------|-----------|
-|None| |
-
-### Status codes
-
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
-
-|Status code|Description|
-|-----------|-----------|
-|200|Successful. The request was successfully processed.|
-|400|Bad Request. A bad request type or malformed request was detected.|
-|500|Internal server error. An unexpected error occurred while processing the request. The response contains additional information about the error.|
-
-### Response body parameters
-
-<table><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-availableTimeSlot
-
-</td><td>
-
-List of appointment slots within the specified block of time requested.Data type: Array of Objects
-
-```
-'availableTimeSlot': [
- { 
-  "available": Boolean,
-  "end_date": "String",
-  "end_date_display": "String",
-  "end_dateUTC": "String",
-  "start_date": "String",
-  "start_date_display": "String",
-  "start_dateUTC": "String"
- }
-]
-```
-
-</td></tr><tr><td>
-
-availableTimeSlot.available
-
-</td><td>
-
-Flag that indicates whether the associated time slot is available.Possible values:
-
--   true: Time slot is available.
--   false: Time slot is unavailable.
-
-Data type: Boolean
-
-</td></tr><tr><td>
-
-availableTimeSlot.end\_date
-
-</td><td>
-
-End date and time of the associated appointment. The time zone is based on the value in the **timeZone** parameter.Data type: String
-
-Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
-
-</td></tr><tr><td>
-
-availableTimeSlot.end\_date\_display
-
-</td><td>
-
-Display end date and time of the associated appointment. The time zone is based on the value in the **timeZone** parameter.Data type: String
-
-Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
-
-</td></tr><tr><td>
-
-availableTimeSlot.end\_dateUTC
-
-</td><td>
-
-End date and time of the associated appointment.Data type: String
-
-Format: UTC
-
-</td></tr><tr><td>
-
-availableTimeSlot.start\_date
-
-</td><td>
-
-Start date and time of the associated appointment. Reflects the value of the **timeZone** parameter.Data type: String
-
-Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
-
-</td></tr><tr><td>
-
-availableTimeSlot.start\_date\_display
-
-</td><td>
-
-Display start date and time of the associated appointment. Reflects the value of the **timeZone** parameter.Data type: String
-
-Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
-
-</td></tr><tr><td>
-
-availableTimeSlot.start\_dateUTC
-
-</td><td>
-
-Start date and time of the associated appointment.Data type: String
-
-Format: UTC
-
-</td></tr><tr><td>
-
-hasMore
-
-</td><td>
-
-Flag that indicates whether there are more appointment slots to fetch after returning the limit. The limit is specified in the Appointment Booking property, sn\_apptmnt\_booking.max\_appointments\_returned \(Default: 100\). See [Appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking-components.md) for more details about this property.Possible values:
-
--   true: More appointment slots can be fetched.
--   false: No more appointment slots are available.
-
-Data type: Boolean
-
-</td></tr><tr><td>
-
-noApptAvailable
-
-</td><td>
-
-Flag that indicates whether there are more appointment slots available for the specified date and time.Valid values:
-
--   true: More appointment slots are available for the specified date and time.
--   false: No more appointment slots are available for the specified date and time.
-
-Data type: Boolean
-
-</td></tr><tr><td>
-
-searchResult
-
-</td><td>
-
-Results for appointment availability within the designated search time slot.Possible values:
-
--   success
--   fail
-
-Data type: String
-
-</td></tr><tr><td>
-
-status
-
-</td><td>
-
-Completion status of the search for available time slots. For example, done.Data type: String
-
-</td></tr><tr><td>
-
-timeZone
-
-</td><td>
-
-Time zone used when booking or updating the specified appointment slot.Date type: String
-
-Format: Country/city or area format, such as US/Eastern
-
-</td></tr></tbody>
-</table>### cURL request
-
-The following code example shows how to call this endpoint.
-
-```
-curl --location --request GET 'https://instance.service-now.com/api/sn_tmf_api/appointment/searchTimeSlot?
-start_date=2024-07-10 09:00:00&end_date=2024-07-20 23:00:00&catalog_id=ada50a93f0220210f8776517d8c8e776&
-opened_for=51670151c35420105252716b7d40ddfe&location=f48b21850a0a0ba7004182b18099696d ' \
---user 'username':'password'
-```
-
-Result:
-
-```
-{
-  "searchResult": "success",
-  "status": "done",
-  "availableTimeSlot": [
-    {
-      "start_date": "2024-07-10 09:00:00",
-      "end_date": "2024-07-10 12:00:00",
-      "start_date_display": "09:00",
-      "end_date_display": "12:00",
-      "start_dateUTC": "2024-07-10 16:00:00",
-      "end_dateUTC": "2024-07-10 19:00:00",
-      "available": false
-    },
-    {
-      "start_date": "2024-07-11 13:00:00",
-      "end_date": "2024-07-11 16:00:00",
-      "start_date_display": "13:00",
-      "end_date_display": "16:00",
-      "start_dateUTC": "2024-07-11 20:00:00",
-      "end_dateUTC": "2024-07-11 23:00:00",
-      "available": true
-    },
-    {
-      "start_date": "2024-07-12 09:00:00",
-      "end_date": "2024-07-12 12:00:00",
-      "start_date_display": "09:00",
-      "end_date_display": "12:00",
-      "start_dateUTC": "2024-07-12 16:00:00",
-      "end_dateUTC": "2024-07-12 19:00:00",
-      "available": true
-    },
-    {
-      "start_date": "2024-07-12 13:00:00",
-      "end_date": "2024-07-12 16:00:00",
-      "start_date_display": "13:00",
-      "end_date_display": "16:00",
-      "start_dateUTC": "2024-07-12 20:00:00",
-      "end_dateUTC": "2024-07-12 23:00:00",
-      "available": true
-    },
-    {
-      "start_date": "2024-07-19 13:00:00",
-      "end_date": "2024-07-19 16:00:00",
-      "start_date_display": "13:00",
-      "end_date_display": "16:00",
-      "start_dateUTC": "2024-07-19 20:00:00",
-      "end_dateUTC": "2024-07-19 23:00:00",
-      "available": true
-    }
-  ],
-  "hasMore": false,
-  "noApptAvailable": false,
-  "timeZone": "US/Arizona"
-}
 ```
 
 ## Appointment Open - GET /api/sn\_tmf\_api/appointment/appointment/\{id\}
@@ -1543,6 +1209,340 @@ The response body contains the details of two different appointments configured 
     "lastUpdate": "2024-08-23 22:18:43"
   }
 ]
+```
+
+## Appointment Open - GET /api/sn\_tmf\_api/appointment/searchTimeSlot
+
+Returns time slots that were configured in the appointment booking service configuration along with their availability.
+
+### URL format
+
+`/api/sn_tmf_api/appointment/searchTimeSlot`
+
+### Supported request parameters
+
+|Name|Description|
+|----|-----------|
+|None| |
+
+<table class="rest_api_query_parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+catalog\_id
+
+</td><td>
+
+Required. Sys\_id of the record producer configured with an appointment booking service configuration. Data type: String
+
+Table: Record Producer \[sc\_cat\_item\_producer\]
+
+</td></tr><tr id="serviceTest-response-testMeasureDefinition.thresholdRule.consequence.validFor.endDateTime"><td>
+
+end\_date
+
+</td><td>
+
+Required. End date and time of the time period in which you want to search for the appointment.Data type: String
+
+Format: YYYY-MM-DD 00:00:00. For example, `2025-01-31 12:00:00`.
+
+</td></tr><tr><td>
+
+location
+
+</td><td>
+
+Sys\_id of the appointment's location.Table: Location \[cmn\_location\]
+
+Data type: String
+
+Default: Returns all locations if not specified.
+
+</td></tr><tr><td>
+
+opened\_for
+
+</td><td>
+
+Required. Sys\_id of the user for whom the appointment is being booked.Table: Contact \[customer\_contact\]
+
+Data type: String
+
+</td></tr><tr id="serviceTest-response-testMeasureDefinition.thresholdRule.consequence.validFor.startDateTime"><td>
+
+start\_date
+
+</td><td>
+
+Required. Start date and time of the time period in which you want to search for the appointment.Data type: String
+
+Format: YYYY-MM-DD 00:00:00. For example, `2025-01-31 09:00:00`.
+
+</td></tr></tbody>
+</table>|Name|Description|
+|----|-----------|
+|None| |
+
+### Headers
+
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Header|Description|
+|------|-----------|
+|Accept|Data format of the response body. Only supports **application/json**.|
+
+|Header|Description|
+|------|-----------|
+|None| |
+
+### Status codes
+
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Status code|Description|
+|-----------|-----------|
+|200|Successful. The request was successfully processed.|
+|400|Bad Request. A bad request type or malformed request was detected.|
+|500|Internal server error. An unexpected error occurred while processing the request. The response contains additional information about the error.|
+
+### Response body parameters
+
+<table><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+availableTimeSlot
+
+</td><td>
+
+List of appointment slots within the specified block of time requested.Data type: Array of Objects
+
+```
+'availableTimeSlot': [
+ { 
+  "available": Boolean,
+  "end_date": "String",
+  "end_date_display": "String",
+  "end_dateUTC": "String",
+  "start_date": "String",
+  "start_date_display": "String",
+  "start_dateUTC": "String"
+ }
+]
+```
+
+</td></tr><tr><td>
+
+availableTimeSlot.available
+
+</td><td>
+
+Flag that indicates whether the associated time slot is available.Possible values:
+
+-   true: Time slot is available.
+-   false: Time slot is unavailable.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
+availableTimeSlot.end\_date
+
+</td><td>
+
+End date and time of the associated appointment. The time zone is based on the value in the **timeZone** parameter.Data type: String
+
+Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
+
+</td></tr><tr><td>
+
+availableTimeSlot.end\_date\_display
+
+</td><td>
+
+Display end date and time of the associated appointment. The time zone is based on the value in the **timeZone** parameter.Data type: String
+
+Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
+
+</td></tr><tr><td>
+
+availableTimeSlot.end\_dateUTC
+
+</td><td>
+
+End date and time of the associated appointment.Data type: String
+
+Format: UTC
+
+</td></tr><tr><td>
+
+availableTimeSlot.start\_date
+
+</td><td>
+
+Start date and time of the associated appointment. Reflects the value of the **timeZone** parameter.Data type: String
+
+Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
+
+</td></tr><tr><td>
+
+availableTimeSlot.start\_date\_display
+
+</td><td>
+
+Display start date and time of the associated appointment. Reflects the value of the **timeZone** parameter.Data type: String
+
+Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
+
+</td></tr><tr><td>
+
+availableTimeSlot.start\_dateUTC
+
+</td><td>
+
+Start date and time of the associated appointment.Data type: String
+
+Format: UTC
+
+</td></tr><tr><td>
+
+hasMore
+
+</td><td>
+
+Flag that indicates whether there are more appointment slots to fetch after returning the limit. The limit is specified in the Appointment Booking property, sn\_apptmnt\_booking.max\_appointments\_returned \(Default: 100\). See [Appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking-components.md) for more details about this property.Possible values:
+
+-   true: More appointment slots can be fetched.
+-   false: No more appointment slots are available.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
+noApptAvailable
+
+</td><td>
+
+Flag that indicates whether there are more appointment slots available for the specified date and time.Valid values:
+
+-   true: More appointment slots are available for the specified date and time.
+-   false: No more appointment slots are available for the specified date and time.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
+searchResult
+
+</td><td>
+
+Results for appointment availability within the designated search time slot.Possible values:
+
+-   success
+-   fail
+
+Data type: String
+
+</td></tr><tr><td>
+
+status
+
+</td><td>
+
+Completion status of the search for available time slots. For example, done.Data type: String
+
+</td></tr><tr><td>
+
+timeZone
+
+</td><td>
+
+Time zone used when booking or updating the specified appointment slot.Date type: String
+
+Format: Country/city or area format, such as US/Eastern
+
+</td></tr></tbody>
+</table>### cURL request
+
+The following code example shows how to call this endpoint.
+
+```
+curl --location --request GET 'https://instance.service-now.com/api/sn_tmf_api/appointment/searchTimeSlot?
+start_date=2024-07-10 09:00:00&end_date=2024-07-20 23:00:00&catalog_id=ada50a93f0220210f8776517d8c8e776&
+opened_for=51670151c35420105252716b7d40ddfe&location=f48b21850a0a0ba7004182b18099696d ' \
+--user 'username':'password'
+```
+
+Result:
+
+```
+{
+  "searchResult": "success",
+  "status": "done",
+  "availableTimeSlot": [
+    {
+      "start_date": "2024-07-10 09:00:00",
+      "end_date": "2024-07-10 12:00:00",
+      "start_date_display": "09:00",
+      "end_date_display": "12:00",
+      "start_dateUTC": "2024-07-10 16:00:00",
+      "end_dateUTC": "2024-07-10 19:00:00",
+      "available": false
+    },
+    {
+      "start_date": "2024-07-11 13:00:00",
+      "end_date": "2024-07-11 16:00:00",
+      "start_date_display": "13:00",
+      "end_date_display": "16:00",
+      "start_dateUTC": "2024-07-11 20:00:00",
+      "end_dateUTC": "2024-07-11 23:00:00",
+      "available": true
+    },
+    {
+      "start_date": "2024-07-12 09:00:00",
+      "end_date": "2024-07-12 12:00:00",
+      "start_date_display": "09:00",
+      "end_date_display": "12:00",
+      "start_dateUTC": "2024-07-12 16:00:00",
+      "end_dateUTC": "2024-07-12 19:00:00",
+      "available": true
+    },
+    {
+      "start_date": "2024-07-12 13:00:00",
+      "end_date": "2024-07-12 16:00:00",
+      "start_date_display": "13:00",
+      "end_date_display": "16:00",
+      "start_dateUTC": "2024-07-12 20:00:00",
+      "end_dateUTC": "2024-07-12 23:00:00",
+      "available": true
+    },
+    {
+      "start_date": "2024-07-19 13:00:00",
+      "end_date": "2024-07-19 16:00:00",
+      "start_date_display": "13:00",
+      "end_date_display": "16:00",
+      "start_dateUTC": "2024-07-19 20:00:00",
+      "end_dateUTC": "2024-07-19 23:00:00",
+      "available": true
+    }
+  ],
+  "hasMore": false,
+  "noApptAvailable": false,
+  "timeZone": "US/Arizona"
+}
 ```
 
 ## Appointment Open - PATCH /api/sn\_tmf\_api/appointment/appointment/\{id\}

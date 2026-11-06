@@ -1,5 +1,5 @@
 ---
-title: Moveworks overview
+title: Moveworks
 description: Moveworks is an Agentic AI Platform that makes work flow by empowering employees with an AI Assistant to answer questions, take actions, and automate work across the enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/moveworks.html
@@ -9,10 +9,10 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-03-07"
 reading_time_minutes: 1
-breadcrumb: [Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks, Employee Service Management]
 ---
 
-# Moveworks overview
+# Moveworks
 
 Moveworks is an Agentic AI Platform that makes work flow by empowering employees with an AI Assistant to answer questions, take actions, and automate work across the enterprise.
 

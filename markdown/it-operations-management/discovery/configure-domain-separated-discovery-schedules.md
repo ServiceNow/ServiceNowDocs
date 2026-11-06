@@ -7,9 +7,9 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Domain Separation and Discovery, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Domain separation and Discovery, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure domain-separated Discovery schedules
@@ -41,5 +41,5 @@ In domain-separated environments, the domain of the user who creates a Discovery
 5.  Select the check mark \(\[Omitted image "icon-check-mark.png"\] Alt text: check mark icon\) icon.
 
 
-**Parent Topic:**[Domain Separation and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryDomainSeparation.md)
+**Parent Topic:**[Domain separation and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryDomainSeparation.md)
 

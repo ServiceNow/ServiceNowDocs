@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-interaction-record-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ The CSM Interaction record page provides the basic structure for an interaction 
 
 \[Omitted image "csm-Interaction-record-template.png"\] Alt text: The CSM Interaction record page provides agents with the active chat panel, interaction details, and the ability to look up and verify a contact or consumer.
 
-The CSM Interaction record page is included with the CSM/FSM Configurable Workspace experience.
+The CSM Interaction record page is included with the CRM Workspace experience.
 
 ## Record presence feature
 
@@ -58,7 +58,7 @@ The Recommended Actions tab includes [AI search](https://raw.githubusercontent.c
 
     For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba-use-ai-search.md).
 
-    **Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+    **Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CRM Workspace application.
 
 -   Suggested Actions tab: This tab displays relevant actions to agents based on a context of a record or recommend a value for a field. For more information on how to configure contexts so that relevant actions are displayed for the agents, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-nba.md).
 

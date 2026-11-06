@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-internal-business-location.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a business organization, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -38,11 +38,11 @@ The manager of an internal organization can access all the cases for account, ho
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Business Organizations** &gt; **Internal Organizations**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Service Organizations** &gt; **Internal Business Locations**.
 
 2.  Select **New** on the Internal Organizations list.
 
-3.  Fill in the fields on the [Internal Business Organization \(formerly Business Location\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/data-model-business-location-form.md) form.
+3.  Fill in the fields on the [Internal Business Location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/data-model-business-location-form.md) form.
 
 4.  Select **Submit**.
 

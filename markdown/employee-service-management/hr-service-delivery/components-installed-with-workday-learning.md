@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, HR Service Delivery Integration with Workday Learning, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference HR Service Delivery Integration with Workday Learning, HR Service Delivery Integration with Workday Learning, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with workday learning
@@ -100,7 +100,7 @@ Stores one-time configuration parameters for the initial setup of the HR Service
 
 </td></tr><tr><td>
 
-Workday Learning Skills \[sn\_lrn\_workday\_skills\]
+Workday Learning Skills
 
 </td><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-fso-now-assist-skills.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, Financial Services Operations, FSO, AI skills, case summarization, disputes intake, customer profile summarization, Agentic Contact Center, configuration, generative AI]
 audience: administrator

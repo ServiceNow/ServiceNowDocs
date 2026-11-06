@@ -7,7 +7,7 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -26,21 +26,13 @@ Use the **Request furniture** workplace service to request a piece of furniture 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workplace Core** &gt; **Workplace service portal**.
+1.  Navigate to **All** &gt; **Self-service** &gt; **Employee Center**.
 
-    The Workplace Service Portal opens.
+2.  On the Employee Center portal, select **Help Center** &gt; **Workplace Services**.
 
-2.  To open the **General** category where the workplace service is located, do the following:
+3.  From the list of workplace services, select **Request furniture**.
 
-    1.  Click **Catalog**.
-
-    2.  Click **Browse by Categories**.
-
-    3.  In the Workplace Services Catalog, select **General**.
-
-        **Note:** If there are multiple catalogs configured on the portal, go to the Catalogs list and select **Workplace Services Catalog** &gt; **General**.
-
-3.  Select **Request furniture**.
+    Alternatively, you can search for the workplace service and select it from the search results.
 
 4.  On the form, fill in the fields.
 
@@ -93,9 +85,9 @@ Space
 Space for the requested furniture.
 
 </td></tr></tbody>
-</table>5.  In the Add Furniture section, click **Add**.
+</table>5.  In the Add Furniture section, select **Add**.
 
-    You can request more than one piece of furniture. Click **Add** to add more pieces of furniture.
+    You can request more than one piece of furniture. select **Add** to add more pieces of furniture.
 
 6.  In the **Select Furniture** field, select the furniture that you want to request for your space.
 
@@ -105,7 +97,7 @@ Space for the requested furniture.
 
     The **Cost** field is automatically calculated depending on the selected furniture and the quantity specified. The cost also depends on the cost defined by the workplace manager for the selected location.
 
-8.  Click **Add**.
+8.  Select **Add**.
 
     The furniture is added to the request.
 
@@ -113,7 +105,7 @@ Space for the requested furniture.
 
 10. Select **Add attachments** to attach any files of required.
 
-11. Click **Submit**.
+11. Select **Submit**.
 
 
 ## Result

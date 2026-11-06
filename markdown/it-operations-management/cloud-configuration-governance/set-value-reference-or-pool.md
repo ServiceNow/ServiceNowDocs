@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Cloud catalog form configuration examples, Form configuration with blueprints, Cloud Provisioning Blueprints, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -146,7 +146,7 @@ The Sys ID of the business service that you copied.
 
 ## What to do next
 
-You can create a condition or multiple conditions that must be met before the system sets the default value for the business service. For example, you might want to change the default value of business service to Workday Enterprise Services only when the group that the user belongs to is the Workday Admins group.
+You can create a condition or multiple conditions that must be met before the system sets the default value for the business service. For example, you might want to change the default value of business service to Workday Enterprise Services. This change applies only when the group that the user belongs to is the Workday Admins group.
 
 **Parent Topic:**[Cloud catalog form configuration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/example-blueprint-rules.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/inbound-action-type-criteria.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Inbound email actions, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -14,11 +14,11 @@ breadcrumb: [Inbound email actions, Inbound email, Notifications, Configure core
 
 Default conditions of active inbound actions are used to manage incoming email. Inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers
 
-\[Omitted image "inbound-email-action-type.png"\] Alt text: Flowchart showing how inbound email actions are classified as forwards, reply, or new based on subject line, record matching, and email headers
+\[Omitted image "inbound-email-action-type.png"\] Alt text: Flowchart showing how inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers
 
 If you customize or deactivate the default inbound actions, the conditions of the active inbound actions are checked. If an inbound action with matching conditions cannot be found, the state is set to Processed.
 
-\[Omitted image "processing-email-no-matching-inbound-action.png"\] Alt text: Flowchart showing how inbound emails are processed when default inbound email actions are enabled or when an email matches an active inbound email action
+\[Omitted image "processing-email-no-matching-inbound-action.png"\] Alt text: Flowchart showing how inbound emails are processed when default inbound email actions are enabled or when an email matches an active inbound email action.
 
 <table id="table_axb_pk4_m4"><thead><tr><th>
 
@@ -42,7 +42,7 @@ Forward
 
 </td><td>
 
-The email contains the following conditions: -   A subject starting with a recognized forward prefix even if a watermark or an In-Reply-To header is present.
+The email contains the following conditions: -   A subject starting with a recognized forward prefix even if a watermark or an In-Reply-To header is present
 -   From &lt;user email&gt; appears anywhere in the email body.
 
 </td><td>

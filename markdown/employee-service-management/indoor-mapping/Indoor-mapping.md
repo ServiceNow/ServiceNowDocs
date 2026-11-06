@@ -7,7 +7,7 @@ release: australia
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Service Delivery, Employee Service Management]
 ---
@@ -24,19 +24,19 @@ Create campus, buildings and floors, import your floor plan source files, and ma
 
 <table id="table_sdw_cwc_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about Indoor Mapping concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/ind-mapping-explore.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn about Indoor Mapping concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/ind-mapping-explore.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure Indoor Mapping as your map provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/configure-ind-mapping.md)
+[Configure \[Omitted image "icon-configure.png"\] Alt text: Configure Install and configure Indoor Mapping as your map provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/configure-ind-mapping.md)
 
 </td></tr><tr><td>
 
-[Manage \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Create Indoor Mapping map objects and map data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/using-indoor-mapping.md)
+[Manage \[Omitted image "icon-managing.png"\] Alt text: Using Create Indoor Mapping map objects and map data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 
 </td><td>
 
-[References \[Omitted image "bus-learn.svg"\] Alt text: Work with Indoor Mapping components, roles, and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/indoor-mapping-references.md)
+[References \[Omitted image "icon-reference.png"\] Alt text: References Work with Indoor Mapping components, roles, and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/indoor-mapping-references.md)
 
 </td></tr></tbody>
 </table>## Additional resources

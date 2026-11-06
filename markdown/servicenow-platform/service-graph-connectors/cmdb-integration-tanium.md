@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,9 +37,9 @@ ServiceNow
 
 </td><td>
 
--   Washington DC
--   Xanadu
--   Yokohama
+-   Zurich
+-   Australia
+-   Brazil
 
 </td></tr></tbody>
 </table>## Important information for upgrading Service Graph Connector for Tanium
@@ -168,7 +168,7 @@ None
 </td></tr></tbody>
 </table>**Note:**
 
--   The SG-Tanium Usage data source is available only when the Software Asset Management Professional plugin \(com.snc.samp\) plugin is activated on your ServiceNow instance. See [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/t_RequSoftwareAssetMgmt.md).
+-   The SG-Tanium Usage data source is available only when the Software Asset Management Professional plugin \(com.snc.samp\) plugin is activated on your ServiceNow instance. See .
 -   The SG-Tanium Remove Software data source creates import sets and uses the transform map-based method for removing any target records for software data that weren't updated in the last delta query check. See [Managing CMDB data deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/cmdb-integration-commons/cmdb-integ-record-removal.md).
 -   Starting with the Service Graph Connector for Tanium 1.8.0 release, a buffer time is added for software removal when the **buffer\_days\_from\_last\_scan\_for\_hardware** system property is enabled. When this system property is enabled, the software removal candidate is removed only if the last scan time of the hardware on which the software removal candidate is installed is earlier than the last success import time + buffer time. To enable this property, set the value of the **buffer\_days\_from\_last\_scan\_for\_hardware** system property to a non-zero numeral value according to the number of days of buffer that you require. To disable this property, set the value to `0`.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/compose-email-collaboration-thread-crisis.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Creating collaboration threads in exercises and crisis events, Structured workflows for Crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Creating collaboration threads in exercises and crisis events, Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create a collaboration thread in a crisis event
@@ -113,7 +113,7 @@ Sending email from a collaboration thread also requires the platform `email_comp
 
     \[Omitted image "collab-thread-in-pdf.png"\] Alt text: Default template.\[Omitted image "collab-thread-as-a-block.png"\] Alt text: Block.
 
-    For enabling addition of a collaboration block in the Microsoft Word document, see [Update the Word template with a collaboration block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-collaboration-block-docudesigner.md).
+    For enabling addition of a collaboration block in the Microsoft Word document, see [Add a collaboration block to the Word template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-collaboration-block-docudesigner.md).
 
 13. To generate a report of the event in PDF format, select **More \(...\)** and then choose **Generate PDF** and check collaboration thread details in the PDF.
 

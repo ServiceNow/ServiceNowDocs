@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Indirect Discovery with SGCs, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
@@ -21,7 +21,7 @@ Designed for service providers and telecom enterprises, this connector enables c
 ## Key benefits
 
 -   Accurate inventory synchronization: Automatically populate the CMDB with up-to-date physical and logical inventory from Nokia Altiplano using secure, REST API-based ingestion. This includes OLTs, ONUs/ONTs, interface cards, ports, slots, and logical connections.
--   Telecom-Aware CI modeling: Model your network infrastructure in a telecom-aligned format using purpose-built CI classes and relationships. The connector ensures the accurate representation of devices and their dependencies—mirroring your actual network topology.
+-   Telecom-Aware CI modeling: Model your network infrastructure in a telecom-aligned format using purpose-built CI classes and relationships. The connector verifies the accurate representation of devices and their dependencies—mirroring your actual network topology.
 -   Simplified and Guided Setup: Reduce time-to-value with a built-in guided setup that walks you through connection configuration, data source management, and import scheduling with ease.
 -   Flexible discovery options: Choose how and when to run discovery based on your needs—whether it’s full bulk loads, targeted filtered discovery, or phased OLT-only imports. Apply custom filters by device IP or name.
 -   Multi-Instance support: Scale effortlessly by onboarding multiple Altiplano instances independently. Configure connection aliases and define import schedules per instance for complete operational flexibility.
@@ -95,7 +95,7 @@ MID Server
 
 </td><td>
 
-REST actions run on the MID Server to get the access token, retrieve the device list, and get device details.
+REST actions run on the MID Server to get the access token from Altiplano, retrieve the device list for discovery, and get full device details.
 
 </td></tr><tr><td>
 

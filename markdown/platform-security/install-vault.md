@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/install-vault.html
 release: australia
 topic_type: task
-last_updated: "2026-03-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring ServiceNow Vault, ServiceNow Vault]
 ---
@@ -22,7 +22,9 @@ Role required: admin
 
 When you first navigate to the Vault console on a new instance, the console is in preview-only mode. To activate full functionality, install the Vault console application from the ServiceNow Store or Application Manager. After installation, Data Discovery is available by default. All other tools require separate configuration.
 
-**Note:** To install all ServiceNow Vault capabilities without configuring each plugin separately, see [Install Vault Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/install-vault-suite.md).
+**Note:**
+
+To install all ServiceNow Vault capabilities without configuring each plugin separately, see [Install Vault Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/install-vault-suite.md). If your instance has a ServiceNow Vault entitlement, that topic also covers installing from the ServiceNow Vault tile on Admin Home.
 
 ## Procedure
 

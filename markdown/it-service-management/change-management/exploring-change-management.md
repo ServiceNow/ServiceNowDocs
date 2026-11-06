@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-20"
 reading_time_minutes: 1
 breadcrumb: [Change Management, IT Service Management]
 ---
@@ -25,15 +25,15 @@ Standardize the creation of change requests by creating change templates based o
 -   **[State progression for normal, standard, and emergency changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/normal-standard-emergency-states.md)**  
 Each change request model progresses through a number of state values in a specific order.
 -   **[Modify the email notification for change request state changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-state-change-notifications.md)**  
-There is a change request email notification, which, if active, sends a notification to the user when the state progresses to **Scheduled**, **Implement**, **Review**, or **Canceled**. You can modify the change request notification to specify when to send it, who receives it, and what it contains.
+Modify the change request state change notification to specify when it's sent, who receives it, and what it contains. When active, the notification is sent when the state changes to **Scheduled**, **Implement**, **Review**, or **Canceled**.
+-   **[Upgrade Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/migrate-change-mgmt-pre-geneva.md)**  
+Activate Change Management core and update your change types and customizations when you upgrade an instance that used Change Management before the Geneva release.
 -   **[Change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-approval-policy.md)**  
-In Change approval policies, approval definitions are used to generate approvals according to your business requirements.
+Change approval policies use approval definitions to generate approvals according to your business requirements.
 -   **[Approval with e-Signature for change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/approval-e-signature-changes.md)**  
 Use e-signatures to add an additional layer of verification and compliance to change approval workflows. e-signatures are supported in both Core UI and Service Operations Workspace \(SOW\).
--   **[Change Advisory Board \(CAB\) workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/cab-workbench.md)**  
-The Change Advisory Board \(CAB\) workbench enables a CAB manager to schedule, plan, and manage CAB meetings.
--   **[Upgrade Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/migrate-change-mgmt-pre-geneva.md)**  
-Follow these instructions to upgrade your Change Management system.
+-   **[Change Advisory Board \(CAB\) Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/cab-workbench.md)**  
+The Change Advisory Board \(CAB\) Workbench enables CAB managers to schedule, plan, and manage CAB meetings.
 
 **Parent Topic:**[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ITILChangeManagement.md)
 

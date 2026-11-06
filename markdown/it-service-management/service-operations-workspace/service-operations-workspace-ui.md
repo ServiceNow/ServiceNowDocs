@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -26,7 +26,7 @@ An agent can analyze assignments and view announcements and upcoming tasks. Tier
 
 In Service Operations Workspace, you can access the lists by selecting the list icon \(\[Omitted image "lists\_icon.png"\] Alt text: List icon\) from the left navigation pane.
 
-An agent can analyze the individual lists of incidents, catalog tasks, requests, problem, and so on, and take appropriate action.
+An agent can analyze the individual lists of incidents, catalog tasks, requests, problems, and so on, and take appropriate action.
 
 From the **My Lists** tab, an agent can create a separate list or a different version of the existing list. For information about creating a list, see [Create a list in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-list-sow.md).
 
@@ -34,7 +34,7 @@ From the **My Lists** tab, an agent can create a separate list or a different ve
 
 ## Inbox
 
-In Service Operations Workspace, you can the open inbox from the left navigation pane.
+In Service Operations Workspace, you can open the inbox from the left navigation pane.
 
 An agent can set their status to Available or Away to open or close the inbox for chat requests. When a requester initiates a chat conversation from any Service Portal page, the chat interaction appears in the inbox of all agents who are configured as group members for Agent Chat Queue. For information about inbox configuration, see [Configure the inbox in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-inbox-in-sow.md).
 

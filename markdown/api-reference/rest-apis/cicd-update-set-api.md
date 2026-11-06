@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 22
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -978,7 +978,7 @@ Description
 
 Content-Type
 
-</td><td id="d2936e172">
+</td><td id="d2733e172">
 
 Data format of the request body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 

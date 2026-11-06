@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-reporting-configurations.html
 release: australia
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [reporting configuration, DRI reporting, Digital Resilience Incident Reporting, create reporting configuration, Source type, DRIR Case]
 breadcrumb: [Generating Microsoft Word reports using Document designer, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]

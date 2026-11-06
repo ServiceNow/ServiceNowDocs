@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_WarningMessages.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lists and forms in scoped applications, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Lists and forms in scoped applications, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Contextual development edit messages
 
 The platform displays a message if you attempt to edit a Store Application record when you're in a different application scope.
 
-\[Omitted image "ApplicationContextWarningMessage.png"\] Alt text: If you're not in the scope for a store application, a message appears with options to edit the record or switch scope.
+\[Omitted image "ApplicationContextWarningMessage.png"\] Alt text: Use the context message at the top of the record to edit the correct application.
 
 This message can be used to:
 
@@ -26,7 +26,7 @@ This message can be used to:
 
 The system also displays a message when a user attempts to configure a list or form layout while working from another application scope.
 
-\[Omitted image "FormLayoutContextWarnings.png"\] Alt text: If you want to edit a list or form layout from a different scope, a message appears with some options for editing.
+\[Omitted image "FormLayoutContextWarnings.png"\] Alt text: Use the context message about application scope to edit the correct form.
 
 The message provides a list of valid options:
 

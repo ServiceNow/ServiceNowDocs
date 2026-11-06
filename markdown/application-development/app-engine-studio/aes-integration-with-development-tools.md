@@ -9,7 +9,7 @@ classification: app-engine-studio
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Explore, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Integrated development tools for AES

@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 67
 breadcrumb: [Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -51,7 +51,7 @@ Use the following guidelines to decide for which MID Server to create credential
 
     **Note:** Specifying the MID Server when configuring credentials is optional.
 
--   If CIs of the same type and on the same network have different credentials, configure these credentials and define order in which Service Mapping uses them when trying to connect to these CIs.
+-   If CIs of the same type and on the same network have different credentials, configure these credentials. Define the order in which Service Mapping uses them when trying to connect to these CIs.
 
 In addition to generic credentials, you configure on MID Servers, you must configure sudo-level credentials on all Unix-based hosts in your organization.
 

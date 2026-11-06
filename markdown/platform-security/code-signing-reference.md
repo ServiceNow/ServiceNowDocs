@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/code-signing-reference.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Code Signing, Platform Security]
 ---
@@ -37,6 +37,8 @@ Code Signing adds the following properties.
 Code Signing includes the following roles.
 -   **[Code Signing actions and required roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cs-actions-roles.md)**  
 Reference table of Code Signing actions, their descriptions, and the roles required to perform them.
+-   **[Code Signing change audit data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cs-vault-audit-data.md)**  
+Review the create, update, and delete operations that users perform on records protected by Code Signing.
 -   **[Troubleshooting and accessing logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cs-logs.md)**  
 Access various logs to troubleshoot and identify the failure reasons.
 

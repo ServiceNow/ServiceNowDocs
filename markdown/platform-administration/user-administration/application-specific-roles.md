@@ -7,7 +7,7 @@ release: australia
 product: User Administration
 classification: user-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Base system roles, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -746,7 +746,7 @@ Reporting
 
 </td><td>
 
-[Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting-roles.md)
+[Core UI Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting-roles.md)
 
 </td></tr><tr><td>
 

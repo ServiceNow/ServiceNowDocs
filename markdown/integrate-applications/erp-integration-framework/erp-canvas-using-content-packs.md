@@ -23,7 +23,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 Follow these steps to create an application in a new application scope and clone a content pack model within that same scope. Using this process packages the application with its own scope and a cloned model that you can edit. Working in a scope creates ownership of the application and cloned model. The owner can give access to others to edit the application and cloned model as needed.
 
-Before completing the procedure, it may be helpful to review the list of [Available Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.md) and to [Explore a Zero Copy Connector for ERP content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-explore-a-content-pack.md) to review its contents.
+Before completing the procedure, it may be helpful to review the list of [Available Zero Copy Connector for ERP content packs for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.md) and to [Explore a Zero Copy Connector for ERP content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-explore-a-content-pack.md) to review its contents.
 
 ## Procedure
 
@@ -31,8 +31,8 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
     Use a builder application, such as Creator Studio or ServiceNow Studio, to create an application in a new scope. For detailed information and steps, see:
 
-    -   Create the foundation of an app in Creator Studio
-    -   
+    -   [Create the foundation of an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-app-creator-studio.md)
+    -   [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-an-application-in-servicenow-studio.md)
     -   [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md)
 2.  Confirm that an update set was created for the new application.
 
@@ -42,7 +42,7 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
         \[Omitted image "erpc-check-update-set-content-pack-model-clone.png"\] Alt text: Update set list with default update set for the new application highlighted.
 
-        If a default update set wasn't created for the new application, follow the instructions in .
+        If a default update set wasn't created for the new application, follow the instructions in [Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-select-update-set.md).
 
     3.  In **Name**, enter a unique name for the update set.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/alternative-dispute-resolution.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [customer dispute management, dispute resolution, complaint management, regulatory compliance]
 breadcrumb: [Explore, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
@@ -15,7 +15,7 @@ breadcrumb: [Explore, Customer Service Problem Management, Telecommunications, M
 
 Customer Dispute Management provides a structured process to register, investigate, and resolve customer disputes and complaints, including disputes referred to regulatory bodies.
 
-Customer Dispute Management \(CDM\) is a specialized complaint management system within the CSM/FSM workspace. CDM extends complaint case functionality to handle formal dispute resolution processes between customers and organizations.
+Customer Dispute Management \(CDM\) is a specialized complaint management system within the CRM Workspace. CDM extends complaint case functionality to handle formal dispute resolution processes between customers and organizations.
 
 ## Key benefits
 

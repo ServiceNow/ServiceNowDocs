@@ -7,7 +7,7 @@ release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2026-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [enable, activate, skill, authorization package summarization, Now Assist Admin, CAM]
 breadcrumb: [Generate an authorization package summary, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]

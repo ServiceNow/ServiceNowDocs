@@ -1,26 +1,26 @@
 ---
 title: Select an HR document template for an e-signature task
-description: If the document type of the e-signature template you are using is an HR document template, then you must select the HR document template that the signatory will sign on the HR case form.
+description: If the document type of the e-signature template is an HR document template, select the HR document template that the signatory will sign on the HR case form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/select-hr-document-template-for-e-signature-task.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR e-signature, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Select an HR document template for an e-signature task
 
-If the document type of the e-signature template you are using is an HR document template, then you must select the HR document template that the signatory will sign on the HR case form.
+If the document type of the e-signature template is an HR document template, select the HR document template that the signatory will sign on the HR case form.
 
 ## Before you begin
 
 Role required: sn\_hr\_core.basic or sn\_hr\_core.case\_writer
 
-Depending on the HR service you are using to request the e-signature, you may need to configure the HR case form so that the **PDF template** field appears and an HR document template can be selected.
+Depending on the HR service you use to request the e-signature, you may need to configure the HR case form. Configure it so that the **PDF template** field appears and an HR document template can be selected.
 
 ## Procedure
 

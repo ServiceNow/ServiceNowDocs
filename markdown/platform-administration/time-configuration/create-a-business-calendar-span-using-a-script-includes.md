@@ -7,7 +7,7 @@ release: australia
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating business calendars, Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ You can generate business calendar spans and their names using the **Script incl
 
 ## Before you begin
 
-Role required: business\_calendar\_admin
+Role required: admin
 
 ## Procedure
 

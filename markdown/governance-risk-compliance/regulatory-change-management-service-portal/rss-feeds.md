@@ -7,8 +7,8 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Integrate, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
@@ -59,8 +59,8 @@ The following image shows the workflow of RSS feeds are set up to ensure they pu
 
 -   **[General guidelines for RSS feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/general-guidelines-rss-feeds.md)**  
 When an RSS feed isn't working, common errors or issues often stem from improper formatting, server issues, or misconfiguration. An RCM administrator can remediate some of the common errors that users may encounter.
--   **[Regulatory taxonomy overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-taxonomy-overview.md)**  
-Regulatory taxonomy simplifies identifying necessary changes in a customer’s regulatory library by enabling algorithms to match incoming regulatory intelligence to existing content using taxonomy terms.
+-   **[Regulatory taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-taxonomy-overview.md)**  
+Regulatory taxonomy simplifies identifying necessary changes in a customer's regulatory library by enabling algorithms to match incoming regulatory intelligence to existing content using taxonomy terms.
 
 **Parent Topic:**[Integrating RCM with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/integrating-with-rcm.md)
 

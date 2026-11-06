@@ -1,24 +1,24 @@
 ---
-title: Assign the Major incident manager role
-description: Assign the Major incident manager \(major\_incident\_manager\) role to existing users to manage, analyze, and resolve major incidents.
+title: Assign the major incident manager role
+description: Assign the major incident manager \(major\_incident\_manager\) role to existing users to manage, analyze, and resolve major incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/assign-mim-role-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Assign the Major incident manager role
+# Assign the major incident manager role
 
-Assign the Major incident manager \(major\_incident\_manager\) role to existing users to manage, analyze, and resolve major incidents.
+Assign the major incident manager \(major\_incident\_manager\) role to existing users to manage, analyze, and resolve major incidents.
 
 ## About this task
 
-As a Major incident manager \(major\_incident\_manager\), you can do the following actions:
+As a major incident manager \(major\_incident\_manager\), you can:
 
 -   Promote a major incident candidate to a major incident.
 -   Create a major incident candidate.
@@ -26,7 +26,7 @@ As a Major incident manager \(major\_incident\_manager\), you can do the followi
 
 ## Before you begin
 
-You must activate the Major Incident Management plugin in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/install-mim-sow.md).
+The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/install-mim-sow.md).
 
 Role required: admin
 

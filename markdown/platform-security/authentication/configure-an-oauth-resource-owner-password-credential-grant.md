@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ROPC Grant, Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [ROPC Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure an OAuth resource owner password credential grant

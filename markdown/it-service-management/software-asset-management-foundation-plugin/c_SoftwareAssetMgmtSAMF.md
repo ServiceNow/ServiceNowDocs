@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -63,8 +63,8 @@ The reconciliation process calculates the compliance status of software products
 </td></tr></tbody>
 </table>-   **[Exploring Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/exploring-sam-foundation.md)**  
 The Basic Software Asset Management \(com.snc.sams\) supports tracking, evaluating, and managing software licenses and compliance. You can access this functionality through the Software Asset Workspace or the Software Asset Management Core UI.
--   **[Setting up Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)**  
-Set up Basic Software Asset Management before configuration.
+-   **[Setting up Basic Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)**  
+Set up Basic Software Asset Management plugin before configuration.
 -   **[Configuring Basic Software Asset Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)**  
 Once you have finished setting up the Basic Software Asset Management and the Software Asset Workspace plugin applications, you need to configure the Software Asset Workspace.
 -   **[Configuring the classic Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)**  

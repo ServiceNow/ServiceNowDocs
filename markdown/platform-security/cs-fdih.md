@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cs-fdih.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Code Signing, Code Signing, Platform Security]
 ---
@@ -16,6 +16,8 @@ Use update sets to sign and validate the flows, subflows, and actions by enablin
 
 -   Establish Circle of Trust between the protected and trusted instances.
 -   Role required: security\_admin
+
+**Parent Topic:**[Using Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/using-code-signing.md)
 
 ## Sign the existing flow, subflows, and actions
 

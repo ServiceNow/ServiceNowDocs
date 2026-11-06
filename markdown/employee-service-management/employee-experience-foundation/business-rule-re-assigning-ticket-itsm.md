@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [IT Service Management integration, Customize Integrations for Employee Experience, Manage, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [IT Service Management integration, Customize Integrations for Employee Experience, Manage, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure business rule for reassigning tickets
@@ -24,11 +24,17 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Business Rules**.
 
+    \[Omitted image "business-rules.png"\] Alt text: Business rules
+
 2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
+    \[Omitted image "buisness-rule-re-assigning-itsm.png"\] Alt text: Business rule to re-assign ticket
+
     In the **Advanced** tab, update the **Script** fields.
+
+    \[Omitted image "business-rule-re-assignment-itsm02.png"\] Alt text: Script for re assigning ticket
 
 <table id="table_gpx_p1z_vqb"><thead><tr><th>
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/publish-ai-agents.html
 release: australia
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [External Registries, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [External Registries, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Publish AI agents

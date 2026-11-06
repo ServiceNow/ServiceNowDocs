@@ -7,9 +7,9 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit Workspace for the Auditor, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Workspace for the Auditor, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Update an assigned control test in Audit Workspace
@@ -55,5 +55,9 @@ Role required: sn\_audit\_ws.auditor, sn\_audit.user
     You can now move the state of the control test to **Close Complete**.
 
 7.  Click **Save**.
+
+8.  To delete a control test, select it and select **Delete**.
+
+    If the control test has related Assessment procedures, a confirmation lists the related records that will also be deleted before you can proceed.
 
 

@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -31,15 +31,15 @@ Role required: wm\_technician\_sales\_write
 
 2.  Create a sales opportunity.
 
-<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d88023e105">
+<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d90585e105">
 
 From
 
-</th><th align="left" id="d88023e108">
+</th><th align="left" id="d90585e108">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d88023e114">
+</th></tr></thead><tbody><tr><td id="d90585e114">
 
 **My Work**
 
@@ -51,7 +51,7 @@ Do this
 4.  Tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d88023e153">
+</td></tr><tr><td id="d90585e153">
 
 **My Work**
 
@@ -62,7 +62,7 @@ Do this
 3.  In the **Related** tab, tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d88023e186">
+</td></tr><tr><td id="d90585e186">
 
 **Sales**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-business-process-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Add a business process to Operational Resilience reporting, Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---

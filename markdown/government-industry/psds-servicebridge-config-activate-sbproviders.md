@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-servicebridge-config-activate-sbproviders.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Exchange, Case Management, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -60,7 +60,7 @@ Assign Service Exchange roles for providers.
 
 </td><td>
 
-See [User roles for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-personas.md).
+See [Personas for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-personas.md).
 
 </td></tr><tr><td>
 

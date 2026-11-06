@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Install Content library portal for Software Asset Management
@@ -38,7 +38,7 @@ Install the Content library portal store application to view the data stored in 
             Activates AI search functionality.
 
 
-**Note:** If you have installed Software Asset Management Professional \(com.sn\_samp\_master\) plugin, you can view data stored in the Software Asset Management Content service. If you have installed both Software Asset Management Professional \(com.sn\_samp\_master\) and Hardware Asset Management Professional \(com.sn\_hamp\) plugins, you can view both Software Asset Management and Hardware Asset Management data stored in the Content service. For more information about installing Content lookup portal for Hardware Asset Management, see [Install Content lookup to view Hardware Asset Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/content-lookup-ham.md).
+**Note:** If you have installed Software Asset Management Professional \(com.sn\_samp\_master\) plugin, you can view data stored in the Software Asset Management Content service. If you have installed both Software Asset Management Professional \(com.sn\_samp\_master\) and Hardware Asset Management Professional \(com.sn\_hamp\) plugins, you can view both Software Asset Management and Hardware Asset Management data stored in the Content service. For more information about installing Content Library portal for Hardware Asset Management, see [Install Content lookup to view Hardware Asset Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/content-lookup-ham.md).
 
 Role required: sam\_admin
 

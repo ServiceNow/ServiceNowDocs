@@ -7,9 +7,9 @@ release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [SMS conversations in HR Service Delivery Agent Workspace, Using Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [SMS conversations in HR Service Delivery Agent Workspace, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Compose an SMS message from a chat in HR Service Delivery Agent Workspace
@@ -32,7 +32,7 @@ An interaction is a request for assistance made through chat, phone, or in perso
 
 3.  Select an active chat interaction for which you would like to respond to the recipient via an SMS message.
 
-4.  In the chat interaction modal, select the \[Omitted image "icon-ellipses.png"\] more options icon and select **Compose SMS** to initiate an SMS conversation with the recipient.
+4.  In the chat interaction modal, select the \[Omitted image "icon-ellipses.png"\] Alt text: more options menu item more options icon and select **Compose SMS** to initiate an SMS conversation with the recipient.
 
     The **Send via SMS** modal launches with **Send from** and **Send to** fields.
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-configure-il.html
 release: australia
 topic_type: task
-last_updated: "2025-12-04"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
@@ -42,7 +42,7 @@ Role required: admin
 
 3.  Select **Get Started** on the modules.
 
-    You are redirected to the first configuration of the selected module. See [Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md) for more information on Platform configuration steps.
+    You are redirected to the first configuration of the selected module. See [Configure the Platform module in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md) for more information on Platform configuration steps.
 
 4.  Find a console item efficiently using the Search configurations search bar on the left navigation.
 
@@ -50,7 +50,7 @@ Role required: admin
 
     **Note:** The configurations that are pre-configured are marked with a checkmark and a magic wand. You can modify the default configurations that are preconfigured and marked with a Magic icon.
 
-6.  Select the Manage Task icon \[Omitted image "ia-manage-task-icon.png"\] Alt text: on a selected console item.
+6.  Select the Manage Task icon \[Omitted image "image.ia-manage-task-icon"\] Alt text: on a selected console item.
 
     You can then either create a new task or open a related task. If you select the Create a task option, the Product Console Task form. Fill up the fields on the form and select **Submit** to create a new task for the console item.
 
@@ -71,6 +71,16 @@ Role required: admin
     **Note:** As a pre-req, install ServiceNow Otto for the **Configure with AI** button to show up on the Configuration Console page.
 
     You can now use the agent to ask questions in natural language and get guidance during the configuration process. The agent retrieves relevant information from ServiceNow documentation and presents a summarized response with links to related topics. For example, if you ask “What are roles?”, the agent searches the ServiceNow documentation site and returns a definition along with links to learn more. Select the **Choose something else** pill in the ServiceNow Otto agent chat view to review all available console items and start a different configuration path.
+
+    For example, you're a change manager, and Incident Management is already configured. You want change governance in place and your instance audit-ready before Q1. In the Service Management workspace, select **Configure with AI**, and enter a prompt like this:
+
+    "I'm the Change Manager. Incidents are live. Year-end close is coming and SOX auditors arrive in Q1, so I need audit-ready change governance before the freeze. Lock in the change governance layer: freeze windows, change models for standard and emergency, assign the change team, and configure the CAB."
+
+    ServiceNow Otto evaluates the existing configuration and preserves the settings that already apply. It then presents three starting options. Select the option that fits your goal, or ask ServiceNow Otto for other examples if you're unsure how to phrase a detail. ServiceNow Otto asks for any information it still needs to complete the setup, such as freeze dates, emergency approvals, or CAB members.
+
+    Before applying anything, ServiceNow Otto presents one summary of the full proposed configuration and states that no changes have been made yet. Review it, and approve it to apply the changes. ServiceNow Otto then reports which changes were saved and, for any that were not, the reason.
+
+    Configuring change governance manually can require one to two days of administrator effort and several weeks of workshops to define and agree on governance rules. With ServiceNow Otto, you can configure change governance through a single conversation. Start with a proposed configuration and review or refine the suggested decisions instead of creating the configuration from scratch.
 
     The adoption of LitJS components in NAP enables the import and use of reusable components, promoting a scalable and consistent framework while improving development efficiency. You can also select the **ServiceNow Otto** icon on the menu bar to see the Open in expanded view pill that guides you through the configuration process using LitJS components.
 

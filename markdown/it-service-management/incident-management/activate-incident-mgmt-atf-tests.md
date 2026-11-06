@@ -1,20 +1,20 @@
 ---
 title: Activate Incident Management — ATF Tests
-description: You can activate the Incident Management — ATF Tests plugin \(com.snc.incident.atf\) if you have the admin role. The plugin delivers ATF tests for Incident Management. This plugin includes demo data.
+description: You can activate the Incident Management — ATF Tests plugin \(com.snc.incident.atf\) if you have the admin role. The plugin delivers Automated Test Framework \(ATF\) tests for Incident Management. This plugin includes demo data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/activate-incident-mgmt-atf-tests.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident Management plugins, Reference, Incident Management, IT Service Management]
 ---
 
 # Activate Incident Management — ATF Tests
 
-You can activate the Incident Management — ATF Tests plugin \(com.snc.incident.atf\) if you have the admin role. The plugin delivers ATF tests for Incident Management. This plugin includes demo data.
+You can activate the Incident Management — ATF Tests plugin \(com.snc.incident.atf\) if you have the admin role. The plugin delivers Automated Test Framework \(ATF\) tests for Incident Management. This plugin includes demo data.
 
 ## Before you begin
 
@@ -40,5 +40,5 @@ Role required: admin
 **Related topics**  
 
 
-[List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

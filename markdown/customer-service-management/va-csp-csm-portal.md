@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/va-csp-csm-portal.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automate and optimize, Use, Customer Service Management]
 ---
@@ -23,11 +23,4 @@ With Virtual Agent, you can offer continuous support, improve response times, an
 ## Activation
 
 Virtual Agent activates automatically when you enable it for Customer Service Management \(CSM\). Once activated, by default it integrates seamlessly with your CSM and CSP portals. For more information, see [Activate Virtual Agent for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-virtual-agent-csm.md).
-
-**Related topics**  
-
-
-[ServiceNow Otto in Virtual Agent in self-service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nava-csp-csm-portals.md)
-
-[ServiceNow Otto conversational experience in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nass-portal.md)
 

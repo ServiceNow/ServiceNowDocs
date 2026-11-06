@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-operations-overview.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Healthcare and Life Sciences]
 ---
@@ -36,4 +36,6 @@ Healthcare Operations includes the following applications:
 
     Contains the case types to report and fulfill facilities issues.
 
+
+Care team members can create cases for any of these applications conversationally, by chat or by phone, with ServiceNow Otto. See [AI in Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hco-otto-landing.md).
 

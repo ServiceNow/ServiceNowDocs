@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/review-order-fulfillment-orchestration-plan.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Order fulfillment, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -31,7 +31,7 @@ To learn more, see [Using the order orchestration UI](https://raw.githubusercont
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -43,15 +43,15 @@ To learn more, see [Using the order orchestration UI](https://raw.githubusercont
 
 5.  Access the order orchestration UI for a selected order, order line item, or domain order by performing the respective task from the following table.
 
-<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d51687e133">
+<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d52150e134">
 
 Task
 
-</th><th align="left" id="d51687e136">
+</th><th align="left" id="d52150e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d51687e142">
+</th></tr></thead><tbody><tr><td id="d52150e143">
 
 **Review the orchestration plan for an entire customer order**
 
@@ -59,7 +59,7 @@ Description
 
 In the Customer Order form, under Order breakdowns, select **View order orchestration**.
 
-</td></tr><tr><td id="d51687e154">
+</td></tr><tr><td id="d52150e155">
 
 **Review the orchestration plan for a customer order line item**
 
@@ -69,7 +69,7 @@ In the Customer Order form, under Order breakdowns, select **View order orchestr
 2.  Select the **Order Orchestration** tab.
 
 
-</td></tr><tr><td id="d51687e178">
+</td></tr><tr><td id="d52150e179">
 
 **Review the orchestration plan for a domain order associated with a customer order line item**
 

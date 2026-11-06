@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-add-business-role-to-business-actor.html
 release: australia
 topic_type: task
-last_updated: "2026-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business actor, business role, enterprise architecture, business architecture]
 breadcrumb: [Manage business actors, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]

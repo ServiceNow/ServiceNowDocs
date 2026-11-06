@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [virtual agent, promoted, asset, condition, builder]
-breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Promote or demote AI assets, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Add a condition builder to promoted assets
@@ -54,7 +54,7 @@ The promoted asset now shows **Condition defined** next to the **Promoted** chec
 
 The promoted asset also displays at the top of the list of promoted assets in a Virtual Agent ServiceNow Otto panel chat window.
 
-\[Omitted image "va-defined-promoted-topic-02.png"\] Alt text: Virtual Agent Now Assist panel chat window showing condition defined asset over other promoted assets.
+\[Omitted image "va-defined-promoted-topic-02.png"\] Alt text: Virtual Agent ServiceNow Otto panel chat window showing condition defined asset over other promoted assets.
 
-**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Promote or demote LLM conversational subflows, actions, and topics in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/promote-demote-va-topics.md)
 

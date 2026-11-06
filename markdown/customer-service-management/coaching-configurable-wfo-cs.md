@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/coaching-configurable-wfo-cs.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Coaching, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -17,7 +17,7 @@ By using Coaching in Workforce Optimization for Customer Service, you can assess
 With Coaching, you can do the following:
 
 -   Recommend training for your agents to address skill gaps.
--   Use the coaching opportunities that are available by [default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md) to coach your agents. You can also create a coaching opportunity using the Coaching application specific to your agent needs.
+-   Use the coaching opportunities that are available by [default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md) to coach your agents. You can also create a [coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cf-create-coaching-opportunity.md) using the Coaching application specific to your agent needs.
 -   Use assessments and surveys to apply consistent, measurable scores across teams.
 -   Use Predictive Intelligence to recommend skills for your agents and provide training to address those skill gaps.
 
@@ -166,52 +166,52 @@ Watch this short video to get an overview on coaching, assessments, and training
 
 ### About this task
 
-If the [Configuring Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cf-configuring-coaching.md) includes a survey, you can opt to take the survey and the assessment. When you use a survey to [Coaching your trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cf-coaching-your-trainee.md), the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score.
+If the [coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cf-create-coaching-opportunity.md) includes a survey, you can opt to take the survey and the assessment. When you use a survey to [assess a trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cf-assess-trainee.md), the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score.
 
 The Coaching Overview screen displays the average quality of the tasks that were completed in the past 30 days for your assignment groups.
 
--   The donut chart displays the number of assessments in various states of completion. You can point to one of the states and select to open all assessments in that state.
--   The bar chart displays assessments created by coaching opportunities. You can select on any of the data in the graph to access the assessments.
--   You can select on the graph that displays the indicator data and access detailed information on the indicator.
+-   The donut chart displays the number of assessments in various states of completion. You can point to one of the states and click to open all assessments in that state.
+-   The bar chart displays assessments created by coaching opportunities. You can click on any of the data in the graph to access the assessments.
+-   You can click on the graph that displays the indicator data and access detailed information on the indicator.
 
 ### Procedure
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Select the Coaching \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\) icon.
+2.  Click the Coaching \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\) icon.
 
 3.  Do any of the following.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d163621e646">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d166661e644">
 
 To
 
-</th><th align="left" id="d163621e649">
+</th><th align="left" id="d166661e647">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d163621e655">
+</th></tr></thead><tbody><tr><td id="d166661e653">
 
 **Perform adhoc assessments**
 
 </td><td>
 
-1.  select the Lists \(\[Omitted image "list-new.png"\] Alt text: Lists icon.\) icon.
+1.  Click the Lists \(\[Omitted image "list-new.png"\] Alt text: Lists icon.\) icon.
 2.  Select any record, such as a case or interaction, for which you want to create an assessment.
 3.  Select the Assessments \(\[Omitted image "coaching-assessment-new.png"\] Alt text: Coaching Assessment icon.\) icon. The assessment screen appears in the right panel.
-4.  select the plus \(+\) icon.
+4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d163621e691">
+</td></tr><tr><td id="d166661e689">
 
 **Use assessments triggered by coaching opportunities**
 
 </td><td>
 
-1.  select the Coaching \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\) icon.
+1.  Click the Coaching \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\) icon.
 2.  Select any record for which you want to create an assessment.
 
-**Note:** select the **Active Assessments** tab to view assessments of all teams for which you are a manager or an additional manager.
+**Note:** Click the **Active Assessments** tab to view assessments of all teams for which you are a manager or an additional manager.
 
 3.  Select a case to assess.
 
@@ -296,7 +296,7 @@ Add skills
 
 </td><td>
 
-Skills to add to the trainee profile when the assessment is complete. When you select this field, it displays all skills and the skill levels that are not in the trainee profile.
+Skills to add to the trainee profile when the assessment is complete. When you click this field, it displays all skills and the skill levels that are not in the trainee profile.
 
 </td></tr><tr><td>
 
@@ -309,8 +309,8 @@ Training to assign to the trainee.You can also assign learning tasks from course
 </td></tr></tbody>
 </table>5.  Do the following:
 
-    -   To complete the adhoc assessment, select **Save**.
-    -   To complete assessments creating using coaching opportunities, select **Complete assessment**.
+    -   To complete the adhoc assessment, click **Save**.
+    -   To complete assessments creating using coaching opportunities, click **Complete assessment**.
 
 ## Manage skills using Workforce Optimization for Customer Service
 
@@ -340,15 +340,15 @@ You can view skills for all users grouped by assignment group and the overall sk
 
 4.  Add a skill or skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d163621e1026">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d166661e1018">
 
 To
 
-</th><th align="left" id="d163621e1029">
+</th><th align="left" id="d166661e1021">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d163621e1035">
+</th></tr></thead><tbody><tr><td id="d166661e1027">
 
 **Add a skill**
 
@@ -359,7 +359,7 @@ Do this
 3.  Click **OK**.
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d163621e1065">
+</td></tr><tr><td id="d166661e1057">
 
 **Update a skill level**
 

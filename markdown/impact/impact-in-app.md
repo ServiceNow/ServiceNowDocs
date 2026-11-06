@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-in-app.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Impact]
 ---
@@ -86,7 +86,7 @@ Use the recommendations full list to view the recommendations tailored for you.
 
 </td><td>
 
-[Build implementation plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-product-adoption-roadmap/impact-par.md)
+[Build implementation plans with product adoption roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-product-adoption-roadmap/impact-par.md)
 
 </td><td>
 
@@ -99,7 +99,7 @@ View your capabilities and product adoption roadmaps for your ServiceNow instanc
 
 </td><td>
 
-[Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/value-library/impact-in-platform-business-outcomes.md)
+[Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/value-library/impact-in-platform-business-outcomes.md)
 
 </td><td>
 

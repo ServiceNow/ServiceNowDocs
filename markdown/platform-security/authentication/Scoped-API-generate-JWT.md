@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [JWT Bearer, OAuth Outbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [JWT Bearer, OAuth outbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Generate a JSON Web Token \(JWT\)

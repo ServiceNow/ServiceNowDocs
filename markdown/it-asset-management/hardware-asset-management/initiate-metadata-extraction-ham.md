@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage contract repository agentic workflow, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage contract repository agentic workflow, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Initiate metadata and obligation extraction from a signed contract in the Hardware Asset Workspace
@@ -22,7 +22,7 @@ For the **Initiate contract extraction** button to appear on the contract form, 
 
 -   The Contract metadata extraction skill or the Contract obligation extraction skill is activated on your ServiceNow instance.
 -   One or both extraction skills have not yet been executed on the contract record.
--   The contract type is warranty, maintenance, lease, or purchase.
+-   The contract type is warranty, maintenance, lease, or purchase agreements.
 
 Role required: contract\_manager, sn\_cm\_gen\_ai.ai\_contract\_fulfiller, and now\_assist\_panel\_user
 

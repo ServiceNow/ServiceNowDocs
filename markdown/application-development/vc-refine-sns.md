@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vc-refine-sns.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Studio, vibe coding, Build Agent, AI-assisted development, application development, developer tools, code refinement, metadata editing, Automated Test Framework, ATF, application files, access control lists, ACL, record producers, update sets]
 audience: developer
-breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Build Agent overview, Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Agentic development app refinement in ServiceNow Studio

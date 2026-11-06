@@ -7,8 +7,9 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [data archival, archival rules, System Archiving, sn\_sec\_tisc tables]
 breadcrumb: [TISC Data archival and cleanup, Use, Threat Intelligence Security Center, Security Operations]
 ---
 

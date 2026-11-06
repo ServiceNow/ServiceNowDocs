@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Pools and Filters for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn.cmp.cloud\_service\_designer
 
 The catalog order form lists only parameters values that have the **datasource** specified. For example, if you use the **Resource Group Name** parameter in your template, you can bind the **Resource Group Name** field to an existing SN pool \(**ResourceGroupPool**\) in the metadata section.
 
-When you create a resource block using a cloud template, you can bind a parameter to an SN pool in the metadata section of the Azure Resource Manager \(ARM\) or CloudFormation \(CF\) template. All SN pools are listed in the procedure.
+When you create a resource block using a cloud template, you can bind a parameter to an SN pool in the metadata section of the Azure Resource Manager \(ARM\) or CloudFormation \(CF\) template. All SN pools are listed in the following procedure.
 
 ## Procedure
 
@@ -217,6 +217,6 @@ getByAvailabilityZone: Gets all virtual machines.
 
 5.  Click **Submit**.
 
-6.  After the resource block, blueprint, and catalog items are created, the cloud service user sees only the list of values of the pool data for the parameter in the catalog order form.
+6.  After the resource block, blueprint, and catalog items are created, the cloud service user sees only the pool data values for the parameter in the catalog order form.
 
 

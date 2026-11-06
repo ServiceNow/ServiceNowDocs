@@ -1,20 +1,20 @@
 ---
 title: Example: Bind alerts to CIs using dynamic CI types
-description: Use event field mapping to dynamically bind alerts to the appropriate CIs based on event attributes, eliminating the need for separate event rules for each CI type \(also known as CI class\). This approach simplifies configuration, improves accuracy, and enhances alert to CI binding.
+description: Use event field mapping to dynamically bind alerts to the appropriate CIs based on event attributes. This eliminates the need for separate event rules for each CI type, also known as CI class.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/bind-ci-event-mapping.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Example: Bind alerts to CIs using dynamic CI types
 
-Use event field mapping to dynamically bind alerts to the appropriate CIs based on event attributes, eliminating the need for separate event rules for each CI type \(also known as CI class\). This approach simplifies configuration, improves accuracy, and enhances alert to CI binding.
+Use event field mapping to dynamically bind alerts to the appropriate CIs based on event attributes. This eliminates the need for separate event rules for each CI type, also known as CI class.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-In general, for an event generated from a specific source mentioned in the **Source** field, the system applies the corresponding event rule. The override default binding option in an event rule specifies a specific CI class for binding. However, in a more dynamic use case, the CI class is not predefined and can change based on event attributes. For example, suppose a customer has multiple CIs with the same name, but each CI belongs to a different CI class. In the traditional event rule method, as the CI class \(or the CMDB table\) is defined for a CI, the mapping is incorrect because the system searches in the same CI class for all CIs with the same name and attributes, instead of looking in the specific CMDB table defined for each CI class.
+In general, for an event generated from a specific source mentioned in the **Source** field, the system applies the corresponding event rule. The override default binding option in an event rule specifies a specific CI class for binding. However, in a more dynamic use case, the CI class is not predefined and can change based on event attributes. For example, suppose a customer has multiple CIs with the same name, but each CI belongs to a different CI class. In the traditional event rule method, the CI class \(or the CMDB table\) is defined for a CI. However, the system searches the same CI class for all CIs with the same name and attributes, not the specific CMDB table defined for each CI class. This causes incorrect mapping.
 
-To resolve this—in other words, to determine the correct CI class to search—the system uses the **CI type** field from the event to identify the CI class. By using an event field mapping that maps from event attributes to CI type, it becomes possible to know which CMDB table to search, ensuring that the CI is correctly mapped to the event.
+To resolve this, the system uses the **CI type** field from the event to identify the CI class. Event field mapping maps event attributes to the CI type, so the system knows which CMDB table to search and correctly maps the CI to the event.
 
 ## Procedure
 

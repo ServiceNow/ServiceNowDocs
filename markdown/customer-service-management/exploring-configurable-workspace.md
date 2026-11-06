@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/exploring-configurable-workspace.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Explore CRM Workspace
@@ -34,9 +34,9 @@ Add an event mapping to a component. Event mapping is an important process withi
 
 UI Builder is as powerful as you need it. You can build simple web experiences, or you can create complex data-driven experiences.
 
-## Setting up CSM Configurable Workspace
+## Setting up CRM Workspace
 
-For more information about configuring different features in CSM Configurable Workspace, such as ribbon configurations, form headers, and UI actions, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-set-up.md).
+For more information about configuring different features in CRM Workspace, such as ribbon configurations, form headers, and UI actions, see [Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-set-up.md).
 
 **Related topics**  
 

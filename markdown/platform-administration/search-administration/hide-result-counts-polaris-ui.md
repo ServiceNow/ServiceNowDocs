@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Global search finds records from multiple tables, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -46,7 +46,7 @@ By default, the search results page displays the total number of search results 
 
     The system displays an informational message indicating that you are editing in the application scope.
 
-6.  On the configuration panel's Config tab, enable the **Hide search results count** option.
+6.  On the configuration panel's **Config** tab, enable the **Hide search results count** option.
 
 7.  Select **Save**.
 

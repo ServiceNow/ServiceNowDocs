@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/manage-household-consumer-cases.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring households, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -43,7 +43,7 @@ When a consumer case is created or updated, the consumer receives an email notif
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_cyw_rnc_gmb"><tbody><tr><td id="d196049e112">
+<table id="choicetable_cyw_rnc_gmb"><tbody><tr><td id="d200698e112">
 
 **Add a consumer.**
 
@@ -54,7 +54,7 @@ Select a consumer in the **Consumer** field. -   If the consumer belongs to only
 -   If the consumer doesn’t belong to a household, you can leave the **Household** field empty.
 
 
-</td></tr><tr><td id="d196049e145">
+</td></tr><tr><td id="d200698e145">
 
 **Add a household.**
 

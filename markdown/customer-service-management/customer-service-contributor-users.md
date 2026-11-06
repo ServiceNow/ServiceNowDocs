@@ -1,24 +1,24 @@
 ---
 title: Contributor users
-description: With contributor user roles, you can engage both internal and external users to assist in resolving customer issues and requests.
+description: With contributor user roles, you can engage both internal and external users to report customer issues and requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-service-contributor-users.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 10
-breadcrumb: [Configure Contributor Users, User management, Set up your environment, Configure, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [Configure contributor users, User management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Contributor users
 
-With contributor user roles, you can engage both internal and external users to assist in resolving customer issues and requests.
+With contributor user roles, you can engage both internal and external users to report customer issues and requests.
 
 The contributor users feature provides unified customer support for internal and external customers. With this feature, you can serve internal and external customers through shared service teams and service organizations:
 
 -   Enable service organizations to serve one another and external customers.
 -   Enable employees to request support for themselves and for external customers.
--   ​Enable middle office agents to work on specific tasks that are required to resolve cases.
+-   Enable users to access customer- visible case tasks that are required to resolve cases.
 
 ## Overview of contributor user roles
 
@@ -65,8 +65,40 @@ A requester who can create cases on behalf of any customer.
 This user can:
 
 -   Search knowledge articles and catalog items.
--   Create cases for customers who visit a business location, including cases for catalog items \(requests\).
+-   Create cases for customers who visit a business organization, including cases for catalog items \(requests\).
 -   Create cases from communication channels available to customers including phone, web, chat, Virtual Agent, and messaging.
+
+ If also an internal user on a case, this user can:
+
+-   Add additional comments and attachments
+-   Accept or reject a solution
+-   Close a case
+-   Receive notifications of case updates
+-   Read work notes
+
+</td></tr><tr><td>
+
+Requester for customers linked to an organization
+
+</td><td>
+
+A requester who can create cases on behalf of customers associated with an organization using a criteria.
+
+This user:
+
+-   Works with accounts, consumers and households.
+-   Uses the Customer or Consumer Service Portal to assist customers.
+
+Roles:-   Business Organization Consumer Contributor \(sn\_bus\_loc.business\_org\_consumer\_contributor\)
+-   Business Organization Account Contributor \(sn\_bus\_loc.business\_org\_account\_contributor\)
+
+</td><td>
+
+This user can:
+
+-   Search knowledge articles and catalog items.
+-   Create cases for customers at your business organization who visit your business organization, including cases for catalog items \(requests\).
+-   Create cases for customers at your business organization from communication channels available to customers including phone, web, chat, Virtual Agent, and messaging.
 
  If also an internal user on a case, this user can:
 
@@ -114,7 +146,7 @@ Requester for service organization
 
 </td><td>
 
-A requester who can create cases on behalf of their business location.
+A requester who can create cases on behalf of their business organization.
 
  This user:
 
@@ -128,9 +160,9 @@ A requester who can create cases on behalf of their business location.
 This user can:
 
 -   Search knowledge articles and catalog items.
--   Create cases on behalf of their business location, including cases for catalog items \(requests\), and follow up on those cases.
+-   Create cases on behalf of their business organization, including cases for catalog items \(requests\), and follow up on those cases.
 -   Create cases from communication channels available to customers including phone, web, chat, Virtual Agent, and messaging.
--   View and follow up on other cases created for the user's business location.
+-   View and follow up on other cases created for the user's business organization.
 
  If also an internal user on a case, this user can:
 
@@ -168,33 +200,34 @@ This user can:
 
 </td></tr><tr><td>
 
-Case task agent
+Requester for self related to a business organization
 
 </td><td>
 
-A fulfiller, such as a middle office agent, who works on a specific set of tasks required to resolve a case. These case tasks:
+A requester who can create and track cases for themselves while associating them with their business organization. This requester can also link any sold products or install base items assigned to them at a business organization to the case.
 
--   Are assigned to the agent or to their department or group.
--   Focus on a specific function or expertise of the department or group.
+ Business Organization Self Contributor
 
- This agent typically uses a workspace to complete these tasks.
-
- Role: Case task agent \(sn\_customerservice.case\_task\_agent​\)
+ \[sn\_bus\_loc.business\_org\_self\_contributor\]
 
 </td><td>
 
 This user can:
 
--   View and work on the case tasks assigned to them or to their group or department.
--   View the parent cases for the case tasks that they can access.
--   Communicate with agents on the parent case through work notes and additional comments.
--   Communicate with agents on other case tasks for the parent case through work notes and additional comments.
--   Access customer information needed to complete a case task.
--   Change a case task that causes an update to the state or stage of the parent case.
--   Search for knowledge articles to assist with the case task.
+-   Search knowledge articles and catalog items.
+-   Create and track service cases for their assigned sold products and install base items at a business organization, without any involvement.
+-   Create cases from communication channels available to customers including phone, web, chat, Virtual Agent, and messaging.
+-   View and follow up on the cases that they’ve created from themselves:
+    -   Add additional comments and attachments
+    -   Accept or reject a solution
+    -   Close a case
+    -   Receive notifications of case updates
+    -   Read work notes
 
 </td></tr></tbody>
-</table>The contributor user roles are available with different CSM plugins. For a more detailed description of these user roles, see [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-contributor-user-roles.md).
+</table>The contributor roles in the preceding table also have the capability to access customer-visible case tasks. For more details on these capabilities, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-cases-case-tasks-overview.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-cases-case-tasks-overview.md).
+
+The contributor user roles are available with different CSM plugins. For a more detailed description of these user roles, see [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-contributor-user-roles.md).
 
 ## Fields added to the Case form
 
@@ -222,7 +255,7 @@ Requested By
 
 </td><td>
 
-This field displays the name of the requester. If this field is filled in and the **Account**, **Consumer**, and **Requester Organization** fields are empty, the customer for the case is an employee. This field is included with the Customer Service plugin \(com.sn\_customerservice\).
+This field displays the name of the requester. If this field is filled in and the **Account**, **Consumer**, and **Requester Organization** fields are empty, the customer for the case is an employee. This field is included with the Case Management Core plugin \(com.sn\_customerservice\).
 
 </td></tr></tbody>
 </table>The Customer Service plugin adds two fields to the Notes section of the Case form for contributor users.
@@ -290,7 +323,7 @@ Consumer
 
 </td></tr><tr><td>
 
-Business Location
+Business Organization
 
 </td><td>
 
@@ -345,8 +378,8 @@ Service organization contributor
 
 </td><td>
 
--   **My Cases for Business Locations**: cases created by the contributor user on behalf of their business locations.
--   **All Cases for Business Locations**: All cases created on behalf of the contributor's business locations, independent of who created the case.
+-   **My Cases for Business Locations**: cases created by the contributor user on behalf of their business organizations.
+-   **All Cases for Business Locations**: All cases created on behalf of the contributor's business organizations, independent of who created the case.
 
 </td></tr><tr><td>
 
@@ -372,9 +405,9 @@ Displays filters depending on the relationships established for this user. -   *
 </td></tr></tbody>
 </table>## Access to case tasks
 
-Users with the case task agent role can view and access case tasks in lists, on dashboards, and on landing pages.
+Users with the case task agent role can view and access case tasks in lists, on dashboards, and on landing pages in the CRM workspace.
 
-Use widgets to display case tasks on dashboards and landing pages.
+Use widgets to display case tasks on dashboards and landing pages in the CRM workspace.
 
 <table id="table_rdw_j4j_3nb"><thead><tr><th>
 
@@ -414,7 +447,7 @@ This widget includes the following information for each case task:-   Task numbe
 </td></tr></tbody>
 </table>**Note:** If a playbook is available, the system opens the case task within in the playbook. If no playbook is available, the system opens the Case Task form.
 
-Depending on assigned roles, contributor users can see different modules in CSM Agent Workspace and CSM Configurable Workspace.
+Depending on assigned roles, contributor users can see different modules in CSM Agent Workspace and CRM Workspace.
 
 <table id="table_qxh_f5h_3nb"><thead><tr><th>
 
@@ -442,6 +475,8 @@ Users with the case task agent role have access to these modules:-   **Case Task
     -   Consumers
     -   Households
     -   Household members
+
+**Note:** The case task agent role is a fulfiller role.
 
 </td></tr><tr><td>
 
@@ -474,12 +509,14 @@ Users with the case task agent role have read-only access to some of the custome
 
 -   For B2B cases: Account and contact records, including addresses, sold products, and install base.
 -   For B2C cases: Consumer and household records, including addresses, sold products, install base, and head of household.
--   For business location cases: Service organization records, including internal contact information.
+-   For business organization cases: Service organization records, including internal contact information.
 
 **Related topics**  
 
 
 [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-contributor-user-roles.md)
 
-[Configure Contributor Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-contributor-user.md)
+[Configure contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-contributor-user.md)
+
+[Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/business-stakeholder-for-csm.md)
 

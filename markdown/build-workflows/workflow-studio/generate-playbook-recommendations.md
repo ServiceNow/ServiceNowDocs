@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Playbook recommendations for placeholder activity, Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
@@ -23,7 +23,7 @@ Select the activity definition for a placeholder activity from a list of AI-gene
 
     **Note:** AI skills are available in **Admin** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Creator**.
 
-    For information about installing ServiceNow Otto for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
+    For information about installing ServiceNow Otto for Creator, see 
 
 -   You can only generate recommendations for placeholder activities in a generated playbook outline. To learn how to generate a playbook outline, see [Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/generate-a-playbook-outline.md).
 -   Role required:

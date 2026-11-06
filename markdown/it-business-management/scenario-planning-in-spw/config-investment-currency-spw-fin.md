@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -31,15 +31,15 @@ Select investment currency as an additional currency, which can be different fro
 
     In the **Currency** field, the current system currency is displayed. For example, if your Functional currency is in USD, the field is displayed as **USD \(Functional\)**.
 
-<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d247922e110">
+<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d257071e110">
 
 Planning item type
 
-</th><th align="left" id="d247922e113">
+</th><th align="left" id="d257071e113">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d247922e119">
+</th></tr></thead><tbody><tr><td id="d257071e119">
 
 **Demands**
 
@@ -56,7 +56,7 @@ Edit investment currency modal is displayed with options to select investment cu
 3.  Define investment currency for the future artifacts using the **Investment currency for converted artefact** list.
 
 
-</td></tr><tr><td id="d247922e165">
+</td></tr><tr><td id="d257071e165">
 
 **Project, Epic, Feature, and Capability**
 

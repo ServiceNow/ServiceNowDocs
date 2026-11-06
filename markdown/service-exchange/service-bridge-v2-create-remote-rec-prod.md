@@ -1,5 +1,5 @@
 ---
-title: Create remote record producers for Providers
+title: Create a remote record producers in a remote catalog in Service Exchange for Providers
 description: Create remote record producers as part of creating a Remote Catalog in Service Exchange for Providers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-create-remote-rec-prod.html
@@ -7,12 +7,12 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create remote catalogs, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
-# Create remote record producers for Providers
+# Create a remote record producers in a remote catalog in Service Exchange for Providers
 
 Create remote record producers as part of creating a Remote Catalog in Service Exchange for Providers.
 
@@ -130,7 +130,7 @@ Detailed description for the record producer.
 
 7.  Add at least one variable.
 
-    See [Create variables for remote record producers for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-assign-variables-ser-defn.md).
+    See [Create variables for remote record producers in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-assign-variables-ser-defn.md).
 
 8.  Add a consumer criteria.
 

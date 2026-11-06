@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Frequently asked questions, MFA enforcement, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -21,33 +21,33 @@ FAQ related to MFA types and why it’s important.
     ServiceNow base system supports these verification methods.
 
     1.  Passkey
-    2.  TOTP Authenticator apps such as Google Authenticator, Okta verify, Microsoft Authenticator, Authy, DUO
-    3.  Biometric Authenticator \(FIDO2\) such as Windows Hello, Apple Touch ID, Face ID, android fingerprint sensor.
+    2.  TOTP Authenticator apps such as Google Authenticator, Okta Verify, Microsoft Authenticator, Authy, DUO
+    3.  Biometric Authenticator \(FIDO2\) such as Windows Hello, Apple Touch ID, Face ID, Android fingerprint sensor.
     4.  Hardware Security Keys \(FIDO2\) such as YubiKey, Thetis
-    5.  Email One-time password \(OTP\)
-    6.  SMS OTP - Multi-factor authentication with SMS com.snc.authentication.sms\_mfaplugin installation and factor configuration are required to enable SMS OTP-based MFA.
+    5.  Email one-time password \(OTP\)
+    6.  SMS OTP - Multi-factor authentication with SMS plugin \(com.snc.authentication.sms\_mfaplugin\) installation and factor configuration are required to enable SMS OTP-based MFA.
 2.  Can a user configure multiple MFA factors or verification methods?
 
-    Yes, you can enroll for multiple MFA factors by visiting their user profile. For example, you can enroll a laptop with biometric authenticator, use the mobile phone with a passkey, and have an authenticator app setup.
+    Yes, you can enroll for multiple MFA factors by visiting their user profile. For example, you can enroll a laptop with biometric authenticator, use the mobile phone with a passkey, and have an authenticator app set up.
 
-3.  What steps do users must perform to complete the MFA setup?
+3.  What steps must users perform to complete the MFA setup?
 
     User can perform either of the following MFA options.
 
     \[Omitted image "new-mfa.png"\] Alt text: MFA screen
 
-    Refer the [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-landing.md) documentation for more information about MFA setup.
+    Refer to the [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-landing.md) documentation for more information about MFA setup.
 
-4.  Can the SMS and Email OTP-based MFA limited to certain users?
+4.  Can the SMS and Email OTP-based MFA be limited to certain users?
 
     Admin can set up MFA factor policies for email and SMS OTP-based MFA factors to limit these factors to certain user groups or roles.
 
 5.  The users don’t have a mobile phone where they can set up an authenticator app. How can these users enable MFA?
 
-    From the Xanadu release onwards, you can use a Biometric authenticator, passkeys, FIDO2 hardware security keys, and email OTP-based MFA without requiring an authenticator app setup on the mobile phone.
+    From the Xanadu release onwards, you can use a biometric authenticator, passkeys, FIDO2 hardware security keys, and email OTP-based MFA without requiring an authenticator app setup on the mobile phone.
 
-6.  As an end user how to set up MFA?
+6.  How do end users set up MFA?
 
-    Refer the [Using Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-use.md) documentation for more information about MFA setup.
+    Refer to the [Using Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-use.md) documentation for more information about MFA setup.
 
 

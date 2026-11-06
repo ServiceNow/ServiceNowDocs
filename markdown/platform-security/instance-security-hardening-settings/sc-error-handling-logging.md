@@ -7,8 +7,8 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Hardening settings, Platform Security]
 ---
 
@@ -24,7 +24,7 @@ Manage Glide System's ability to log scripts being executed in the sandbox envir
 Manage the log messages related to cookies in your instance.
 -   **[Disable SQL error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disabling-sql-error-messages.md)**  
 Use the **glide.db.loguser** property to disable SQL error messages from rendering in a browser.
--   **[Enable Identity and Access Audit Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-identity-and-access-audit-tool.md)**  
+-   **[Enable Identity and Access Audit tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-identity-and-access-audit-tool.md)**  
 Use Identity and Access Audit to track changes to user accounts, groups, and roles.
 -   **[Enable MID audit log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-mid-audit-log-plugin-applicability-mid-server.md)**  
 The MID Server command audit log records details such as the command name, command hash, name of credential used, and execution status.
@@ -42,6 +42,10 @@ Use a system property to enable creations of session audit events
 Configure **glide.sys.log\_impersonation** to control if user-impersonating events are logged in your instance.
 -   **[Prevent verbose HTTP request logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-prevent-verbose-http-request-logging.md)**  
 Help prevent access to sensitive information by reducing verbose HTTP request logging.
+-   **[Restrict exposure of validation error details to end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-exposure-of-validation-error-details-to-end-users.md)**  
+Configure the platform to return generic error messages instead of detailed validation error text to end users in conversational AI interfaces when skill validation fails.
+-   **[Restrict vault code signing audit exclusion to defaults](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-vault-code-signing-audit-exclusion-list-to-default-tables.md)**  
+Manage which tables are excluded from Vault Code Signing audit tracking to maintain visibility into changes on protected code artifacts.
 -   **[Track Impersonation Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-track-impersonation-events.md)**  
 Enable impersonation event tracking using a system property.
 -   **[Turn off verbose SQL error messages for import processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-turn-off-verbose-sql-error-messages-for-import-processor.md)**  

@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Application risk assessment using Advanced Risk Assessment, Integrate, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -70,6 +70,8 @@ The risk identification record moves through the following states:
 -   Retired: The risks are retired as necessary.
 
 After the risk identification configuration moves to the Retired state, the configuration becomes invalid and risk identification records are not created for related entities.
+
+**Warning:** Before a risk identification record is retired, a confirmation message is displayed. Select **Retire** to confirm, or **Cancel** to keep the record active.
 
 In terms of its life cycle, a risk identification record goes through the following states:
 

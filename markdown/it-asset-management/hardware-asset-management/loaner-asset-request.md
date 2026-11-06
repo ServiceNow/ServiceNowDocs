@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Manage loaner assets, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Employee self-service, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request a loaner asset
@@ -116,5 +116,18 @@ To view your request, navigate to **Self-Service** &gt; **My Requests**. You can
 
 Before you receive your loaner asset, you can cancel the loaner asset request by selecting **Cancel**. After you receive your loaner asset, the **Cancel** button doesn't appear anymore. You can also return your loaner asset before the specified **Return date**.
 
-**Parent Topic:**[Manage loaner assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-loaner-asset.md)
+**Parent Topic:**[Employee self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/employee-self-sevice-ham.md)
+
+**Related topics**  
+
+
+[Request and receive assets using the Zero Touch request flow]()
+
+[Request and receive assets using the Zero Touch Refresh flow]()
+
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Confirming the assigned serialized hardware assets]()
+
+[Raise issue related to your asset on the Employee Center portal]()
 

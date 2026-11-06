@@ -1,5 +1,5 @@
 ---
-title: Generate a project status report with Now Assist
+title: Generate a project status report using ServiceNow Otto
 description: Generate an AI‑assisted project status report with predicted health indicators. AI pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/generate-ai-project-status-report.html
@@ -7,12 +7,12 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Generate a project status report with Now Assist
+# Generate a project status report using ServiceNow Otto
 
 Generate an AI‑assisted project status report with predicted health indicators. AI pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
 

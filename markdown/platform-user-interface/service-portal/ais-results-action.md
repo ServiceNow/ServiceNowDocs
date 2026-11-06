@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [AI Search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -62,7 +62,7 @@ AI Search Source
 
 </td><td>
 
-Content that portal users can search on, including tables in your instance or external data sources. For more information, see Defining search sources.
+Content that portal users can search on, including tables in your instance or external data sources. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-sources-ais.md).
 
 </td></tr><tr><td>
 

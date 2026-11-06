@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [security incident timeline, timeline events]
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]

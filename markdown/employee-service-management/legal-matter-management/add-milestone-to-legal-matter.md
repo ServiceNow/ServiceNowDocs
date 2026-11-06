@@ -7,7 +7,7 @@ release: australia
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -34,15 +34,15 @@ You can track the upcoming milestones in a matter in the **Home** tab of the Leg
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d656169e114">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d654825e114">
 
 Option
 
-</th><th align="left" id="d656169e117">
+</th><th align="left" id="d654825e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d656169e123">
+</th></tr></thead><tbody><tr><td id="d654825e123">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d656169e152">
+</td></tr><tr><td id="d654825e152">
 
 **As a collaborator**
 

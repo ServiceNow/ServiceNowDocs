@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/sustainable-it-dashboard.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Managing Sustainable IT, Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -54,13 +54,13 @@ You can select the chart to further explore or delve into more detailed informat
 **Energy consumption**: The energy consumption section displays the information in the subsequent formats:
 
 -   Total energy consumption \(kWh\): This figure represents the total energy consumption for the **Hardware energy consumption by model category** metric definition. Hardware energy consumption by model category refers to the amount of energy or power consumed by different categories of hardware. Hardware model category refers to various types of devices, such as computers, servers, or other devices. The configuration of the metric definition includes specifying the model category column in the hardware table for the purpose of data collection.
--   Energy consumption by model category \(kWh\) or location: This horizontal bar graph displays the energy consumption data. You can filter the data either by the **Location** filter or the **Model category** filter. You have the option to sort the bar chart in either ascending or descending order using the available filters. If you drill down on this bar chart, a new page opens that displays further details about the assets that are in use and that consume maximum energy. By default, this new page shows all the assets of the first bar in the chart at the bottom and shows the top models by energy consumption on the right.
+-   Energy consumption by model category \(kWh\) or location: This horizontal bar graph displays the energy consumption data. You can filter the data either by the **Location** filter or the **Model category** filter. You have the option to sort the bar chart in either ascending or descending order using the available filters. If you drill down on this bar chart, a new page opens that displays further details about the assets that are in use and that consume maximum energy. By default, this new page shows all the assets of the first bar in the chart at the bottom. The top models by energy consumption appear on the right.
 -   Energy star assets: The dial chart showcases the number of energy star-certified assets out of the total number of assets.
 
 **Emissions**: Within the emissions section, the data is presented in the following format.
 
 -   Total emission \(days\): You can view both the total emissions value and the variation in emissions when compared to the previous month.
--   Emissions by model category or by location \(days\): This horizontal bar graph displays the emissions data. You can filter the data either by the **Location** filter or the **Model category** filter. You have the option to sort the bar chart in either ascending or descending order using the available filters. If you drill down on this bar chart, a new page opens that displays further details about the assets that are in use and that generate maximum emissions. By default, this new page shows all the assets of the first bar in the chart at the bottom and shows the top models by emissions on the right. The data that is displayed depends on the selection you make in the filters, that is, whether you selected Location or Model category.
+-   Emissions by model category or by location \(days\): This horizontal bar graph displays the emissions data. You can filter the data either by the **Location** filter or the **Model category** filter. You have the option to sort the bar chart in either ascending or descending order using the available filters. If you drill down on this bar chart, a new page opens that displays further details about the assets that are in use and that generate maximum emissions. By default, this new page shows all the assets of the first bar in the chart at the bottom. The top models by emissions appear on the right. The data that is displayed depends on the selection you make in the filters, that is, whether you selected Location or Model category.
 
 **E-waste reused, donated, or landfilled**: In this section, the data is presented in the following format:
 
@@ -81,7 +81,7 @@ You can select the chart to further explore or delve into detailed information a
 **Data center efficiency**: In the data center efficiency section, the data is presented in the following formats:
 
 -   Power usage effectiveness: Power Usage Effectiveness \(PUE\) is a metric used to assess the energy efficiency of a data center. It’s a ratio that quantifies the amount of energy consumed by a data center facility compared to the energy used by the IT equipment it houses.
--   Water usage effectiveness \(KgCO2e\): Water Usage Effectiveness \(WUE\) is a metric used to evaluate the water efficiency of a data center or a facility. Similar to Power Usage Effectiveness \(PUE\), which measures energy efficiency, WUE quantifies the amount of water consumed by a data center facility in relation to the water used by the IT equipment.
+-   Water usage effectiveness \(KgCO2e\): Water Usage Effectiveness \(WUE\) is a metric used to evaluate the water efficiency of a data center or a facility. Similar to Power Usage Effectiveness \(PUE\), WUE quantifies the amount of water consumed by a data center facility in relation to the water used by the IT equipment.
 -   Carbon usage effectiveness \(KgCO2e/kWh\): Carbon Usage Effectiveness \(CUE\) is a metric used to assess the carbon efficiency and sustainability impact of a data center or facility. It quantifies the number of carbon dioxide emissions produced per unit of IT load or computing work performed by the data center.
 
 **Energy consumption**: Within the energy consumption section, the information is displayed in the subsequent formats:
@@ -125,8 +125,6 @@ You can select the chart to further explore or delve into more detailed informat
     -   After selecting the group as location, you can use filter by location to view data for only selected locations.
     -   Use the Sort by filter to sort the data in ascending or descending order.
     -   Use Filter by model to view data for only selected models.
-
-For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dex-landing.md).
 
 **Parent Topic:**[Managing Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/managing-sustainable-it.md)
 

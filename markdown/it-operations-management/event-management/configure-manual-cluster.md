@@ -7,8 +7,8 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configure CIs as manual cluster, Application services in Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -44,9 +44,9 @@ For more information, see [Alert impact calculation](https://raw.githubuserconte
 
     3.  Preview the record by selecting the Preview this record icon \(\[Omitted image "info.png"\] Alt text: Preview this record icon\).
 
-4.  In the **Select a Specific CI or generic CI class** section, in the **Defined As** field, select whether to define the manual cluster as a specific CI or as a generic CI class.
+4.  In the **Select a Specific CI or generic CI class** section, in the **Defined As** field, select how to define the manual cluster.
 
-    A generic CI class applies to all CIs of that class.
+    Select a specific CI or a generic CI class that applies to all CIs of this class.
 
     -   Specific CI - In the **Configuration item** field, select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon\) and select the configuration item.
     -   Generic CI class – In the **Configuration item class** field, select the configuration item class.

@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -37,7 +37,7 @@ These Request Management activity response generation skills provide you with re
 
 2.  Do the following in the **Work notes** or **Comments** field:
 
-    1.  Select the ServiceNow Otto icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: Sparkle icon\).
+    1.  Select the Now Assist icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: Sparkle icon\).
 
         The following four options appear:
 

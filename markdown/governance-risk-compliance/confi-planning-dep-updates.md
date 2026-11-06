@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/confi-planning-dep-updates.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dependency Configuration records, General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ The BCM administrators configure the Planning dependency update configuration re
 
 ## Planning dependency update configuration record
 
-The BCM administrators configure details of the plan record, its target records, sources, and notification preferences in the Planning dependency update configuration record.
+The BCM administrators configure details of the plan record, its target records, sources, and notification preferences in the Planning dependency update configuration record. The following example shows the configuration.
 
 \[Omitted image "plan-dep-update-config.png"\] Alt text: Updating the plan dependencies.
 
@@ -26,15 +26,17 @@ The BCM administrators configure the sources for fetching the latest dependencie
 
 **Note:** In the plans, the dependencies are fetched for all primary scope assets.
 
+Assets that don't match an active element definition, including its filter, aren't added to the plan. Existing plan assets that no longer match are flagged as invalid when you update dependencies, and related assets are removed from the plan.
+
 ## Auto-update the dependencies
 
-The BCM administrators can select **Auto-update dependencies** in the Target tab of the Planning dependency update configuration to schedule automatic asset updates.
+The BCM administrators can select the **Auto-update dependencies** option in the Target tab of the Planning dependency update configuration record. This option schedules an auto-update of the related assets in the plans.
 
 ## Set the notification preferences
 
 The BCM administrators select the **Send notification** option to set the notification preferences for the plan owners. For every planning dependency update, an automated email is sent to the plan owners about the planning dependency updates and links to the updated snapshot records.
 
-The plan owner and BCM lead review the dependency updates from the snapshot record. The delta snapshot record displays the updated dependencies such as Added, Updated, and Deleted assets for the selected plan record.
+The plan owner and BCM lead reviews the dependency updates from the snapshot record. The delta snapshot record displays the updated dependencies such as Added, Updated, and Deleted assets for the selected plan record.
 
 For more information on configuring the Planning dependency update configuration record, see [Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/conf-plan-dep-update-confi-module.md).
 

@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use manage contract repository agentic workflow, Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Use manage contract repository agentic workflow, Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Review AI-extracted obligations Software Asset Workspace
@@ -18,7 +18,7 @@ Use the contract playbook to review, edit, approve, or reject obligations automa
 
 ## Before you begin
 
-Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller, sam\_admin/sam\_user, and now\_assist\_panel\_user
+Role required: admin
 
 ## About this task
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/nava-csp-csm-portals.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Virtual Agent in service portals, Automate and optimize, Use, Customer Service Management]
 ---
@@ -26,7 +26,7 @@ The key benefits of adopting ServiceNow Otto in Virtual Agent for your portals i
 
 Use the following steps to get started with ServiceNow Otto in Virtual Agent in Customer and Consumer Service portals.
 
--   To enable ServiceNow Otto in Virtual Agent in your portals, verify that the experience is configured by the virtual\_agent\_admin or admin role. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+-   To enable ServiceNow Otto in Virtual Agent in your portals, verify that the experience is configured by the virtual\_agent\_admin or admin role. For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 -   In the **Display experience** tab, select **Customer Service for Customer Service Portal** or **Customer Support for Consumer Service Portal** from the **Portals** tab, then select the Chat widget.
 -   In the **Information Sources** tab, control the information available to the assistant. Select **Copy existing configuration** and select the search profile: CSM Portal Default Search Application for CSM, or CSP Portal Default Search Application for CSP.
 
@@ -40,5 +40,5 @@ Use the following steps to get started with ServiceNow Otto in Virtual Agent in 
 
 [Using Virtual Agent in Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/va-csp-csm-portal.md)
 
-[Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
+[Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
 

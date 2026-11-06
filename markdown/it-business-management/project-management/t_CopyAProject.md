@@ -7,8 +7,8 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -62,6 +62,10 @@ Reset or change the default values for copied fields in the new copied partial o
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

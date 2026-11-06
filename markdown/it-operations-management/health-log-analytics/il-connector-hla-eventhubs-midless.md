@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [ServiceNow, Health Log Analytics, HLA, Azure Event Hubs, MID-less, integration, configuration]
 breadcrumb: [MID-less integrations, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -21,7 +21,7 @@ Set up an integration for streaming events from Microsoft Azure Event Hubs to yo
 
 Set up MID-less log streaming via ITOM Gateway. Choose the deployment method based on your expected log volume. For more information, see [MID-less log streaming via ITOM Gateway in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-midless-streaming.md).
 
-As an alternative to the provided procedure, you can set up MID-less integrations for HLA from an AI-enabled MCP Client, without opening the ServiceNow UI. For more information, see [MID-less log ingestion for HLA from an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-mcp-server-hla-ingest.md).
+As an alternative to the provided procedure, set up a MID-less integration for HLA from an AI-enabled MCP Client. For more information, see [MID-less log ingestion for HLA from an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-mcp-server-hla-ingest.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -118,9 +118,9 @@ On the **Overview** tab, do the following:
 -   Use the More options menu \(\[Omitted image "more-options.png"\] Alt text: More options menu icon.\) to open the **Data Input Mapping**, **Source Type Structures**, or **Log Sources** pages with context from the integration. If your log data is not properly mapped, structured, or sourced, go back and adjust the configuration. If the Service Operations Workspace Log Analytics application is installed, the More options menu also provides direct access to the **Log Viewer**. Use the **Log Viewer** to review raw log messages ingested by the integration. For more information, see:
     -   [Log data auto-mapping and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
     -   [Source type structure adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md)
-    -   [Review alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md)
+    -   [Review alert-related logs on the Log Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md)
 
 If you activated the integration with AI, verify that AI correctly auto-mapped log data to service instances and components. To do this, select **View mapping** under **Log context mapping**. You can override the AI mapping by selecting a different log field from each list. For more information, see [Map logs to service instances, components, source types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md).
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[MID-less integrations for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-mid-less-integrations-concept.md)
 

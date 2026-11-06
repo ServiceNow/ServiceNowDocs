@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 2
-breadcrumb: [CMDB, AI agents library, AI assets, Enable AI experiences]
+reading_time_minutes: 1
+breadcrumb: [CMDB, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # CMDB AI agents
@@ -15,11 +15,13 @@ breadcrumb: [CMDB, AI agents library, AI assets, Enable AI experiences]
 The following AI agents are available for CMDB.
 
 -   **[CI form contextual help AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cmdb-ci-form-contextual-help-ai-agent.md)**  
-CI form contextual help AI agent helps users by answering questions about CI attributes and classes. It guides them through CI forms, dashboards, home pages, and other views on the workspace.
+Answers questions about CI attributes and classes. It also provides guidance on CI forms, dashboards, home pages, and other views on the workspace.
 -   **[CMDB CI creator AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cmdb-cmdb-ci-creator-ai-agent.md)**  
 Handles the creation of a configuration item \(CI\). A CI is a representation of some type of infrastructure, application, software, hardware. Those configuration items belong to classes. Examples of CI classes include Windows Server, Data Center, Internet Cable, Apache Application, and Virtual Machine.
 -   **[CMDB data certification and attestation manager AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cmdb-cmdb-data-certification-and-attestation-manager-ai-agent.md)**  
 Performs actions related to the data certification and data attestation policies of configuration item \(CI\) classes
+-   **[CMDB data model navigator AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cmdb-cmdb-data-model-navigator-ai-agent.md)**  
+Answers questions about the CMDB data model, including classes, tables, fields, and relationships, by using the CMDB data model navigator capability.
 -   **[CMDB data ownership manager AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cmdb-cmdb-data-ownership-manager-ai-agent.md)**  
 Performs actions related to the data ownership of configuration item \(CI\) classes
 -   **[CMDB health metrics manager AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cmdb-cmdb-health-metrics-manager-ai-agent.md)**  
@@ -29,9 +31,9 @@ Performs actions related to the lifecycle management of configuration item \(CI\
 -   **[CMDB principal class manager AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cmdb-cmdb-principal-class-manager-ai-agent.md)**  
 Performs actions related to principal configuration item \(CI\) classes
 -   **[CMDB search AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cmdb-cmdb-search-ai-agent.md)**  
-This AI agent searches for data in CMDB.
+Searches for CIs in the CMDB. It builds queries from the request, runs them, and returns a link or summary for the matched CIs. The agent supports multi-table searches with joins and can be consumed through MCP.
 -   **[Configuration item summarization AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cmdb-configuration-item-summarization-ai-agent.md)**  
-This AI agent uses a sys\_id to summarize a configuration item \(CI\) using an existing skill.
+Summarizes a configuration item \(CI\) identified by its sys\_id, using the CI summarization skill.
 
 **Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-landing-page.md)
 

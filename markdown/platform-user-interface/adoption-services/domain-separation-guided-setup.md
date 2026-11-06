@@ -7,7 +7,7 @@ release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Guided Setup, Adoption services, Configure user experiences]
 ---
@@ -43,5 +43,5 @@ There are some key points to note with domain separation support.
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

@@ -102,9 +102,9 @@ OAuth 2.0 client secret for the OAuth 2.0 Atlassian developer application that g
 
     If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the crawl settings for this connector from the External Content Admin Home page. For details on this procedure and the available crawl settings, see [Configure crawl settings for an Atlassian Jira Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-jira-ext-cont-connector.md).
 
-9.  On the User permission settings page, modify any default user permission settings that you want to override for this connector.
+9.  On the User mapping settings page, modify any default user mapping settings that you want to override for this connector.
 
-    If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the user permission settings for this connector from the External Content Admin Home page. For details on this procedure and user permission settings, see [Configure user permission settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-user-mapping-settings-external-content-connector.md).
+    If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the user mapping settings for this connector from the External Content Admin Home page. For details on this procedure and user mapping settings, see [Configure user mapping settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-user-mapping-settings-external-content-connector.md).
 
 10. On the Create crawl page, create a content crawl for this connector by selecting a crawl scope \(if supported\) and any desired options, then select **Next**.
 

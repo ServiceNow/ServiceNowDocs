@@ -7,7 +7,7 @@ release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [OCM, Organizational Change Management, Managing Change, Enablement, Champion Network, Training Needs Analysis]
 breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]

@@ -7,7 +7,7 @@ release: australia
 product: EMR Help
 classification: emr-help
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data model tables, Reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -49,7 +49,7 @@ Reference
 
 Represents the record producer associated with the remote request definition.
 
- For more information, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefRecProdInSCat.md)
+ For more information, see 
 
 </td></tr><tr><td>
 

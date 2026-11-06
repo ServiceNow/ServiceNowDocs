@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -18,7 +18,8 @@ The phone number allocation change model enables you to design and assign the re
 
 ## Before you begin
 
-Role required:sn\_inv\_num\_mgmt\_telephone\_number, sn\_ni\_core.inventory\_agent
+-   -   
+Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 ## Procedure
 
@@ -30,7 +31,7 @@ Role required:sn\_inv\_num\_mgmt\_telephone\_number, sn\_ni\_core.inventory\_age
 
 4.  Select **Phone Number Allocation** &gt; **Next**.
 
-5.  On the record producer form, update the fields.
+5.  On the record producer form, you can update the fields.
 
     The fields of the record producer form are auto-populated. To learn more about the fields, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
@@ -40,23 +41,16 @@ Role required:sn\_inv\_num\_mgmt\_telephone\_number, sn\_ni\_core.inventory\_age
 
 7.  Open and review the change task records.
 
-8.  On the Task Attributes form, fill in the fields.
+    On the Task Attributes form, fill in the fields. For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
-    For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
-
-9.  Select **Submit**.
+8.  Select **Submit**.
 
     The **Details** tab is updated.
 
-10. On the **Affected CIs** related tab, see all the configuration items that are impacted due to this change task.
+9.  On the **Affected CIs** related tab, see all the configuration items that are impacted due to this change task.
 
-11. Select **Save**.
+10. Select **Save**.
 
 
 **Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
-
-**Related topics**  
-
-
-[Task Attribute in Manage Phone Number Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/task-attribute-in-manage-phone-number-form.md)
 

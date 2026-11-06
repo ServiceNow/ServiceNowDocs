@@ -7,9 +7,9 @@ release: australia
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Viewing and sharing Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Viewing and sharing Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Create a Connect conversation from a Visual Task Board
@@ -40,7 +40,7 @@ When you create a conversation from a task board, all the board members become m
 **Related topics**  
 
 
-[bundle-platcap.c_Collaboration]
+[Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Collaboration.md)
 
 [Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md)
 

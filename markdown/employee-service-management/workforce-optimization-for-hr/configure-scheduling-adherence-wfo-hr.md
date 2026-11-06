@@ -7,9 +7,9 @@ release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure scheduling, Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Setting up Scheduling for Workforce Optimization for HR, Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure schedule adherence properties
@@ -42,5 +42,5 @@ The threshold settings for adherence and conformance indicate how many minutes e
 3.  Click **Save**.
 
 
-**Parent Topic:**[Configure Scheduling for Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/setup-scheduling-wfo-hr.md)
+**Parent Topic:**[Setting up Scheduling for Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/setup-scheduling-wfo-hr.md)
 

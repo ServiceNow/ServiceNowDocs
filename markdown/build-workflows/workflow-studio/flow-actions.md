@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -94,6 +94,8 @@ Associates a record from the Attachment \[sys\_attachment\] table with a target 
 Move attachments from an email to a record so that the files are available to your users when they view the record.
 -   **[Record Producer action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/record-producer-flow-designer.md)**  
  Create a Task record from a Record Producer Catalog Item \[sc\_cat\_item\]. The Task record inherits values from the catalog item's variable values.
+-   **[Run script action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/run-script-action.md)**  
+Run custom JavaScript code within a reusable action.
 -   **[Send Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/send-email-flow-designer.md)**  
 Send an email to specified users or groups as an action in a flow.
 -   **[Send Notification action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/send-notification-action.md)**  

@@ -7,7 +7,7 @@ release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Personal Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_pers.fnol\_representative, sn\_ins\_claim\_pers.a
 
 3.  Open the task from the case playbook or the Personal auto claim adjuster tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d73805e85">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d74332e85">
 
 Option
 
-</th><th align="left" id="d73805e88">
+</th><th align="left" id="d74332e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d73805e94">
+</th></tr></thead><tbody><tr><td id="d74332e94">
 
 **From the case playbook**
 
@@ -46,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d73805e118">
+</td></tr><tr><td id="d74332e118">
 
 **From the Personal auto claim adjuster tasks list**
 

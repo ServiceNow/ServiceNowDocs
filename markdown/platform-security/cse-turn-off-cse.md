@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cse-turn-off-cse.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Code Signing, Platform Security]
 ---
@@ -56,4 +56,6 @@ Role required: admin, codesigning\_admin
 ## Result
 
 You can verify successful completion by looking at your system properties. Look for the **com.snc.kmf.signature.validation.flag** property on the System Properties \[sys\_property\] table, and verify that it has a value of **false**.
+
+**Parent Topic:**[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/config-code-signing.md)
 

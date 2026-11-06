@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/healthscan-definitions-aug-store.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [HealthScan definitions, HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
@@ -749,7 +749,7 @@ HSD0004658
 
 </td><td>
 
-Adoption of ATF Quickstart Test 'CSM Extension for Proxy Contacts'
+Adoption of ATF Quickstart Test 'Customer Proxy Contacts'
 
 </td><td>
 

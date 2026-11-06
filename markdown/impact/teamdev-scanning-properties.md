@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/teamdev-scanning-properties.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure scanning properties per persona
@@ -52,6 +52,8 @@ The team and team leads defined here can view the Team Lead information in the A
     |My Team - Groups|Specify the group or list of groups that are part of this team.|
 
 
+**Important:** The teams and members are used to populate the **Technical debt by developer over time** chart on the Health Analytics dashboard. If these are Teams aren't defined, the chart will be empty.
+
 ## Set requirements for automatic approval or rejection
 
 To automatically scan TeamDev code pushes when they are committed, configure the **Automatically Scan Pushes Pending Code Review** option:
@@ -65,12 +67,8 @@ To automatically scan TeamDev code pushes when they are committed, configure the
 
     If it does not meet these rules, it will be rejected.
 
-    **Note:** By default, one condition is already set, which says that the total number of errors found must be zero.
-
 
 You can add and configure additional filter conditions by selecting **Add filter condition**. You can also add and configure OR clauses by selecting **Add OR clause**.
 
-**Note:** You can append filter conditions and OR clauses to existing conditions by selecting the **AND** or **OR** options next to them.
-
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 

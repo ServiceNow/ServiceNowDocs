@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-servicenowottoforcollaborativeworkmanagementcwmcwm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -376,7 +376,7 @@ Zurich
  [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
 
 -   In Zurich Patch 4, some Now Assist are now turned on by default.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 -   Help increase the efficiency of your teams using the generative AI capabilities of ServiceNow Otto for CWM.
 
  See [ServiceNow Otto for CWM](https://www.servicenow.com/docs/access?context=now-assist-for-cwm-landing&family=zurich&ft:locale=en-US) for more information.

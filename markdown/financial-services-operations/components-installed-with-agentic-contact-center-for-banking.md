@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/components-installed-with-agentic-contact-center-for-banking.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [agentic contact center for banking installed components, agentic contact center for banking roles, csr banking business agent, csr banking personal agent, sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent, app\_fso\_csr]
 breadcrumb: [Reference, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]

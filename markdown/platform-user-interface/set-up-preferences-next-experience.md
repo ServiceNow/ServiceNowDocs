@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/set-up-preferences-next-experience.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -14,7 +14,9 @@ breadcrumb: [Use, Next Experience UI, Configure UIs and portals, Configure user 
 
 Next Experience offers user preferences to personalize your instance UI.
 
-Next Experience preferences let you personalize how the interface looks, behaves, and communicates with you; some options are available to all users, while others appear only to administrators or in specific contexts. If you have the admin role, you can customize the behavior of Next Experience across your instance by setting global preferences.
+Next Experience preferences let you personalize how the interface looks, behaves, and communicates with you. Some options are available to all users, while others appear only to administrators or in specific contexts.
+
+If you have the admin role, you can customize the behavior of Next Experience across your instance by setting global preferences. Global preferences are configured as system‑wide user preference records and define default values that apply to users who have not customized their own preferences. Global preferences are managed from the User Preferences table.
 
 The Preference modal is divided into three parts: a search field, preference category panel, and a preferences panel that displays the associated preferences for each selected preference category. Once a preference category is selected you see all the preference toggles for that category listed in the Preferences panel.
 

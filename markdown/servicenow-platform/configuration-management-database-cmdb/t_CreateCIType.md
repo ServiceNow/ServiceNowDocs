@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,7 +29,7 @@ Role required:
 
 The CI Class Manager is a centralized location for managing CMDB tables and for creating a class that is derived from another CMDB class. Creating a class requires basic details such as a label and a name. Identification and reconciliation rules are also required to ensure that the class can be successfully identified by the identification engine.
 
-For more information about extending a class and how attributes are derived from a parent class in that process, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-extension-and-classes.md).
+For more information about extending a class and how attributes are derived from a parent class in that process, see .
 
 ## Procedure
 
@@ -59,7 +59,7 @@ Display name
 
 </td><td>
 
-A unique label for the class \(such as Laptops or Thin Clients\). The label appears on list and form views for the class. Updating the **Label** field also updates the label record in the language file for the current language. See Field Labels in [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataDictionaryTables.md).Maximum string length is 80 characters.
+A unique label for the class \(such as Laptops or Thin Clients\). The label appears on list and form views for the class. Updating the **Label** field also updates the label record in the language file for the current language. See Field Labels in Data dictionary tables.Maximum string length is 80 characters.
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ Principal Class
 
 </td><td>
 
-Denotes whether this class is included in the [Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md). If this class is included in the Principal Class filter, then CIs from this class appear in CI list views when the Principal Class filter is applied.
+Denotes whether this class is included in the [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md) filter. If this class is included in the Principal Class filter, then CIs from this class appear in CI list views when the Principal Class filter is applied.
 
 </td></tr></tbody>
 </table>6.  On the **Add Attributes** tab, click the + sign and enter details for each new class column.
@@ -148,19 +148,19 @@ Denotes whether this class is included in the [Principal Class filter](https://r
 **Related topics**  
 
 
-[Dependent CIs management]()
-
 [CMDB record types]()
 
 [Related Lists of CI components]()
 
-[Reclassify a CI]()
+[Principal Class]()
 
-[Delete CIs]()
+[Dependent CIs management]()
 
 [View and edit class definitions and metadata]()
 
-[Principal Class]()
+[Reclassify a CI]()
+
+[Delete CIs]()
 
 [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
 

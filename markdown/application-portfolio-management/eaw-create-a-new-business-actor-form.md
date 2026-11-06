@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-a-new-business-actor-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business actor, form fields, organizational structure]
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Business actor form
@@ -23,7 +23,7 @@ The Business Actor form contains fields that define individuals or teams who per
 |Group|Organizational group that the business actor is part of.|
 |Location|Physical or logical location of the business actor.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 

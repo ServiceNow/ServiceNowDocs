@@ -1,18 +1,18 @@
 ---
 title: Predictive Intelligence for Incident Management
-description: Use your instance records to build specific solutions for Incident Management.
+description: Use your instance records to build classification and similarity solutions for Incident Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/predictive-intelligence-for-incident.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Machine learning solutions for IT Service Management, IT Service Management]
 ---
 
 # Predictive Intelligence for Incident Management
 
-Use your instance records to build specific solutions for Incident Management.
+Use your instance records to build classification and similarity solutions for Incident Management.
 
 ## Solution definitions
 
@@ -20,11 +20,11 @@ These solution definitions are available as templates on instances where both Pr
 
 <table id="table_bdh_nzs_kbb"><thead><tr><th>
 
-Solution Definition
+Solution definition
 
 </th><th>
 
-Solution Type
+Solution type
 
 </th><th>
 
@@ -88,7 +88,7 @@ Similarity
 
 </td><td>
 
-Recommends similar active major incidents which the current incident can be linked to.
+Recommends similar active major incidents that the current incident can be linked to.
 
  Recommends similar incidents to propose a major incident.
 
@@ -153,7 +153,7 @@ Similarity
 Recommends similar resolved incidents to help with incident investigation and resolution processes.
 
 </td></tr></tbody>
-</table>Solution definitions and the required plugins are as follows:
+</table>The following table lists the plugins that each solution definition requires.
 
 <table id="table_ekm_dwq_hnb"><thead><tr><th>
 
@@ -202,27 +202,27 @@ The plugins com.snc.contextual\_search\_ml and com.snc.incident.mim.ml\_solution
 The plugins com.snc.contextual\_search\_ml and com.snc.incident.mim.ml\_solution must be active.
 
 </td></tr></tbody>
-</table>For more information on classification and similarity solution, refer to [Create solution definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-solution-definition.md) and [Create similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-similarity-solution.md).
+</table>For more information about creating classification and similarity solutions, see [Create solution definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-solution-definition.md) and [Create similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-similarity-solution.md).
 
 ## Business rule for classification solutions
 
-This business rule applies only to the Incident Assignment and Incident Categorization solution definitions and is available only on instances where both Predictive Intelligence and Incident Management are active. Create your own business rules on the Incident table to customize prediction and reporting behaviors.
+This business rule applies only to the Incident Assignment and Incident Categorization solution definitions and is available only on instances where both Predictive Intelligence and Incident Management are active. Create your own business rules on the Incident \[incident\] table to customize prediction and reporting behaviors.
 
 |Business rule|Table|Description|
 |-------------|-----|-----------|
 |Update Prediction Results|Incident|Updates the solution precision and coverage statistics. Runs when an incident record is closed.|
 
-**Upgrade Information**
+## Upgrade Information
 
-If your instance is running on the Kingston release and you are upgrading to the Australia release:
+If your instance is running on the Kingston release and you are upgrading to the Brazil release:
 
--   In a global domain environment, use the new solutionNames array variable which requires that you explicitly provide the solutions that are called by the business rule.
--   In a domain-separated environment, such as an MSP environment, refer to the commented code in the business rule template for easy customization.
--   The business rule template now calls the applyPredictionForSolution\(\) method to predict regardless of any changes to the default value.
+-   In a global domain environment, use the *solutionNames* array variable, which requires that you explicitly provide the solutions that are called by the business rule.
+-   In a domain-separated environment, such as a managed service provider \(MSP\) environment, see the commented code in the business rule template to customize the business rule.
+-   The business rule template calls the applyPredictionForSolution\(\) method to predict values regardless of any changes to the default value.
 
-**Maintaining prediction accuracy**
+## Maintaining prediction accuracy
 
-You can manage prediction drift by retraining, modifying, or creating new solutions to reflect changes in your business conditions. Test and modify your business rule over time to ensure it works as desired across multiple consumption points and user Personas.
+You can manage prediction drift by retraining, modifying, or creating new solutions to reflect changes in your business conditions. Test and modify your business rule over time to verify that it works as expected across multiple consumption points and user personas.
 
 **Parent Topic:**[Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/machine-learning-itsm.md)
 

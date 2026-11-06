@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/now-assist-vr-generating-approvals.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-26"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -63,9 +63,4 @@ The Approval Recommendation generative AI skill considers information from follo
 |Configuration Compliance \(CC\)|Test result data is used instead of vulnerability data. Total counts of tests, test source category, test subcategory, criticality, and technology.|
 
 The Approval Recommendation generative AI skill provides its suggestions and is visible on approval request records \(CA\)s. For more information about how to invoke the agent and get the recommendations, see [Generate approval recommendations with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-approval-recommendation-skill.md).
-
--   **[Generate approval recommendations with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-approval-recommendation-skill.md)**  
-Use a generative AI skill to streamline the approval process for exceptions and false positive requests with AI-driven recommendations. Reduce manual effort and improve decision accuracy for your approvers in the Security Exposure Management Workspace.
-
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

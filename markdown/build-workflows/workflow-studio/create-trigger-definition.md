@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Triggers, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -53,7 +53,7 @@ Define the type of trigger that determines when to start running your playbook.
 
 7.  In the Table list, select a table whose record operations you want to trigger your playbook.
 
-8.  Under Condition, use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to add field conditions for when you want to trigger your playbook.
+8.  Under Condition, use the condition builder to add field conditions for when you want to trigger your playbook.
 
 9.  To trigger your playbook for tables that extend your selected table, select the **Run On Extended** check box.
 

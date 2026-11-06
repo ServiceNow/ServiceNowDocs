@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_EnablingLinksToServiceNowRecords.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -42,7 +42,7 @@ is satisfied. Additionally, the script sets the view to `incident_active`.
 
 ## Linking to a record in Workspace
 
-The `${URI}` and `${URI_REF}` variables don't apply to records in Workspace. To link to a record in Workspace, create a mail script and reference it in your notification. For more information on using mail scripts, see .
+The `${URI}` and `${URI_REF}` variables don't apply to records in Workspace. To link to a record in Workspace, create a mail script and reference it in your notification. For more information on using mail scripts, see [JavaScript in emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_UseJavaScriptInEmails.md).
 
 The mail script that you create should print a URL to the notification. The URL must have the following format:
 

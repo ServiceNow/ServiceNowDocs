@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,8 +38,8 @@ Role required: sn\_cmdb\_admin \(CMDB Admin\) and import\_admin.
 
     For more information about data sources, see:
 
-    -   [Create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_CreateNewDataSource.md)
-    -   [Data source fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_DataSourceFileTypeFields.md)
+    -   
+    -   
 8.  Select **Update**.
 
 

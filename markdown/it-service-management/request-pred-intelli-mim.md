@@ -1,16 +1,16 @@
 ---
-title: Request Predictive Intelligence for Major Incident Management
+title: Activate Predictive Intelligence for Major Incident Management
 description: Activate Predictive Intelligence for Major Incident Management by requesting the Predictive Intelligence for Major Incident Management plugin \(com.snc.incident.mim.ml\_solution\) through the Now Support Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/request-pred-intelli-mim.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Machine learning solutions for IT Service Management, IT Service Management]
 ---
 
-# Request Predictive Intelligence for Major Incident Management
+# Activate Predictive Intelligence for Major Incident Management
 
 Activate Predictive Intelligence for Major Incident Management by requesting the Predictive Intelligence for Major Incident Management plugin \(com.snc.incident.mim.ml\_solution\) through the Now Support Service Catalog.
 
@@ -29,11 +29,15 @@ The following plugins are installed with Predictive Intelligence for Major Incid
 -   Incident Management - Major Incident Management \(com.snc.incident.mim\)
 -   Predictive Intelligence for Incident Management \(com.snc.incident.ml\_solution\)
 
+On a non-production instance, you can install the plugin through the Application Manager.
+
+For a production instance, request the plugin through the Now Support Service Catalog after you purchase a subscription.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
+2.  Select **Request plugin** to open the Activate Plugin form on Now Support.
 
 3.  On the form, fill in the fields.
 
@@ -59,7 +63,7 @@ Plugin Name
 
 </td><td>
 
-Enter: ``
+Name and ID of the plugin to request: `Predictive Intelligence for Major Incident Management (com.snc.incident.mim.ml_solution)`
 
 </td></tr><tr><td>
 

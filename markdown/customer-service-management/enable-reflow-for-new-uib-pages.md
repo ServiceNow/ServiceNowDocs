@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/enable-reflow-for-new-uib-pages.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portal, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Enable a reflow for your UI Builder pages

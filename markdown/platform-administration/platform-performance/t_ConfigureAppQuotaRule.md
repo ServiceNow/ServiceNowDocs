@@ -7,7 +7,7 @@ release: australia
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application quotas, Configure, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Configure an application quota rule to limit the number of events or jobs that c
 
 ## Before you begin
 
-Role required: admin
+Role required: app\_resource\_quota\_admin or admin
 
 ## About this task
 

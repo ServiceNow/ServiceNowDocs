@@ -1,22 +1,22 @@
 ---
-title: Configuring Multi-factor Authentication with Biometrics
-description: Administrators can use the User Public Credentials list to view and manager user created credentials.
+title: Biometric credentials for multi-factor authentication
+description: Administrators can use the User Public Credentials list to view and manage user created credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/user-pub-cred.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Web Authentication, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
-# Configuring Multi-factor Authentication with Biometrics
+# Biometric credentials for multi-factor authentication
 
-Administrators can use the User Public Credentials list to view and manager user created credentials.
+Administrators can use the User Public Credentials list to view and manage user created credentials.
 
-When a user registers an authenticator application, biometric authentication, or hardware key, you instance creates a record on the **User Public Credentials**\[sys\_user\_public\_credential\] table. Use this table to see which users have registered an authenticator, as well as what types, and when they were registered and used. You can also mark these records as inactive to prevent the credentials to prevent users from using these credentials.
+When a user registers an authenticator application, biometric authentication, or hardware key, your instance creates a record on the **User Public Credentials** \[sys\_user\_public\_credential\] table. Use this table to see which users have registered an authenticator, the types, and when they were registered and used. You can also mark these records as inactive to prevent users from using these credentials.
 
 The **Integration - Web Authentication \(com.snc.integration.webauthn\)** plugin must be activated for Web Authentication \(FIDO2\).
 
@@ -28,7 +28,7 @@ The **Integration - Web Authentication \(com.snc.integration.webauthn\)** plugin
 |User|User associated with the credential|
 |Active|Whether the credential is active. Administrators can set a record to inactive to prevent a user from authenticating with this credential.|
 |Authenticator|The type of authenticator registered by the user.|
-|Registration Time|The date and time the user-created this credential|
+|Registration Time|The date and time that the user created this credential|
 |Last Used Time|The last date and time the user logged in with this credential.|
 
 ## Restricted authenticator types

@@ -7,8 +7,8 @@ release: australia
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Create a role, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -28,7 +28,7 @@ To grant the admin role to a user, you must also have the admin role. To grant t
 
 You can't delete roles that are assigned to the group from the user record. You must remove the user from the group record.
 
-**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-subscription-auto-assignment.md).
+**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see .
 
 ## Procedure
 

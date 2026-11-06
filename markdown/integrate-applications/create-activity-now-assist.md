@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-activity-now-assist.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
 breadcrumb: [Build, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
@@ -77,15 +77,15 @@ To create an activity manually, see [Create an activity manually in RPA Desktop 
 
     \[Omitted image "new-activity-options.png"\] Alt text: New activity window displays the options to regenerate a preview, clear a workflow, cancel an automation, or add an activity.
 
-<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d366582e352">
+<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d361491e352">
 
 Option
 
-</th><th align="left" id="d366582e355">
+</th><th align="left" id="d361491e355">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d366582e361">
+</th></tr></thead><tbody><tr><td id="d361491e361">
 
 **Regenerate preview**
 
@@ -93,7 +93,7 @@ Procedure
 
 If the generated automation preview doesn’t meet your needs, you can update the AI instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your AI subscription. To track your AI usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-</td></tr><tr><td id="d366582e379">
+</td></tr><tr><td id="d361491e379">
 
 **Clear**
 
@@ -101,7 +101,7 @@ If the generated automation preview doesn’t meet your needs, you can update th
 
 If you want to clear the workflow that was created by the AI instructions, select **Clear** and then select **Yes** in the Confirm clear automation window.
 
-</td></tr><tr><td id="d366582e394">
+</td></tr><tr><td id="d361491e394">
 
 **Cancel**
 
@@ -109,7 +109,7 @@ If you want to clear the workflow that was created by the AI instructions, selec
 
 If you want to stop creating an automation and return to the design surface, select **Cancel**. In the Confirm cancel window, select **Yes** to return to the previous screen.The added content isn’t saved.
 
-</td></tr><tr><td id="d366582e411">
+</td></tr><tr><td id="d361491e411">
 
 **Add activity**
 

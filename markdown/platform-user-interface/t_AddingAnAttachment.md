@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_AddingAnAttachment.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Administrators can configure attachments and how they work in the system. For more information, see Administering attachments.
+Administrators can configure attachments and how they work in the system. For more information, see [Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdministeringAttachments.md).
 
 The default maximum size limit for an attachment file that can be added to a record on the ServiceNow AI Platform is 1024MB for a new out-of-box instance. If the field is left blank the default limit \(currently set at 1GB\) will be used as the maximum attachment file size.
 
@@ -64,7 +64,7 @@ The default maximum size limit for an attachment file that can be added to a rec
 
 ## What to do next
 
-Limit the users who can view attachments by applying ACL rules. For more information on ACL rules, see Access control list rules.
+Limit the users who can view attachments by applying ACL rules. For more information on ACL rules, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md).
 
 -   **[Manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_ManagingAttachments.md)**  
 View, rename, and remove the attachments on a record and adjust the maximum allowable size of attachments.

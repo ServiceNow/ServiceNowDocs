@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/telecom-network-inventory.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -45,8 +45,7 @@ Watch this short video for an introduction to the Telecommunications Network Inv
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/telecommunications-network-inventory-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/telecommunications-network-inventory-rn.md).
--   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://www.servicenow.com/docs/access?context=tmt-api-reference&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).
+-   Learn more about what's new and changed, see the 
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications Network Inventory features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University.](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=Telecommunications%20Network%20inventory&spa=1)
 -   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).

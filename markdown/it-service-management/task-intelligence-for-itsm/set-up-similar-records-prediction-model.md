@@ -7,7 +7,7 @@ release: australia
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [similar records prediction model, Task Intelligence for ITSM, similar incidents, similar change requests, similar problems, major incident recommendation, machine learning model, prediction model setup, model training, model deployment, Service Operations Workspace, recommended actions, similarity-based models]
 audience: administrator

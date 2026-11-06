@@ -7,7 +7,7 @@ release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Proactive Service Experience Workflows, Product Support for Technology]
 ---

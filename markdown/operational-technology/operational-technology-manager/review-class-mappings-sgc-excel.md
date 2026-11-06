@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Service Graph Connector for Microsoft Excel, Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -23,7 +23,7 @@ Review and update the class mappings available for the Service Graph Connector f
 
 ## About this task
 
-The Service Graph Connector for Microsoft Excel uses the configuration available in the Excel SGC Class Mapping \[excel\_sgc\_class\_mapping\] table to determine the best ServiceNow Configuration Management Database \(CMDB\) class each configuration item \(CI\) should be placed into. You can modify these settings at any time but it is best to review the current configuration before running your first import.
+The Service Graph Connector for Microsoft Excel uses the configuration available in the Excel SGC Class Mapping \[excel\_sgc\_class\_mapping\] table to determine the best ServiceNow Configuration Management Database \(CMDB\) class for each configuration item \(CI\). You can modify these settings at any time but it is best to review the current configuration before running your first import.
 
 ## Procedure
 
@@ -71,7 +71,7 @@ Allow OS classification
 
 </td><td>
 
-When set to **True**, if an operating system is found on the CI, the target is switched away from the target CMDB class to a ServiceNow class that matches its OS.
+When set to **True**, if an operating system is found on the CI, the target is switched away from the target CMDB class. The CI is assigned to a ServiceNow class that matches its OS.
 
 </td></tr><tr><td>
 

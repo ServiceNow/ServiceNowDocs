@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/configure-data-visualizations.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -30,6 +30,10 @@ In most data visualizations, you can configure how numerical values look when yo
 You can set what occurs when a user interacts with a visualization, such as by selecting a bar column. Possibilities include navigating to a URL, opening another data visualization, and filtering all visualizations on the dashboard by the selected value.
 -   **[Function fields in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/function-fields-dvs.md)**  
 While regular fields store a value in the database, a function field displays the results of a database query. The function field generates the value based on computations of other fields and constants. You can use these fields in reports and data visualizations as you would other fields.
+-   **[Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/report-view-access-control.md)**  
+The report\_view operation is a record type ACL that restricts access to data visualizations and Core UI reports. Only users who have one of the required roles can view visualizations that contain the restricted resource.
+-   **[ACL Assessment for Data Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/report-view-acl-dashboard.md)**  
+Use the ServiceNow® ACL Assessment for Data Visualizations to identify data visualizations and reports whose contents are blocked by report\_view or read ACLs \(access control lists\).
 -   **[Questions in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/questions-in-dv.md)**  
 You can group or filter table data in data visualizations by questions. The table must support questions.
 -   **[Service catalog variables in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-rep-sc-variables.md)**  

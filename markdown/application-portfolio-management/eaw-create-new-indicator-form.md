@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-new-indicator-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create indicator form
@@ -174,7 +174,7 @@ A script to evaluate and score business applications and capabilities using stan
 |Click through URL navigation type|Select whether to view the application or capability indicator details in a new window, in the same window, or in a dialog box.|
 |Click through URL script|The script associated with an indicator that allows users to select a URL and view the indicator data in a related application or dashboard. This enables quick access to relevant information, or actions related to the indicator data.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 

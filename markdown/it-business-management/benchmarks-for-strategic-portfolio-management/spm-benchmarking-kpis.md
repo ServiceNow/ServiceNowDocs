@@ -7,7 +7,7 @@ release: australia
 product: Benchmarks for Strategic Portfolio Management
 classification: benchmarks-for-strategic-portfolio-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [SPM Benchmarks reference, SPM Benchmarks, Strategic Portfolio Management]
 ---

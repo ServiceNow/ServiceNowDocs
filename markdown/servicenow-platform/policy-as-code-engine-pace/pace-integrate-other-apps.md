@@ -7,7 +7,7 @@ release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ Digital Product Release \(DPR\)
 
 </td><td>
 
-Define policies in Digital Product Release, see the [Define policies in Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dpr-create-policy-admin.md) topic.
+Define policies in Digital Product Release, see the  topic.
 
 </td></tr><tr><td>
 

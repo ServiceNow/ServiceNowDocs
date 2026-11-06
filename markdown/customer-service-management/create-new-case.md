@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-new-case.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Microsoft Outlook with CSM, Schedules and sites, Use, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ If a customer whose contact details are available sends an email stating an issu
 
 ## Before you begin
 
-Role required: sn\_customerservice.contact\_manager and sn\_customerservice.proxy\_contact
+Role required: sn\_customerservice.contact\_manager and sn\_csm\_proxy\_cont
 
 ## Procedure
 

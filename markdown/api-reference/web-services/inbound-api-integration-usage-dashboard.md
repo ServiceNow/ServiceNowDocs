@@ -7,8 +7,9 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2025-09-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
+keywords: [inbound API integration, data egress, domain separation]
 breadcrumb: [Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 

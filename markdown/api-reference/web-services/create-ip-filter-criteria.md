@@ -9,7 +9,7 @@ classification: web-services
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Live Connect configuration on your ServiceNow instance, Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
 # Create IP filter criteria
@@ -36,6 +36,8 @@ By default, all incoming IP addresses are blocked for Live Connect connections. 
 1.  Navigate to **All** &gt; **Adaptive Authentication** &gt; **Authentication Policies** &gt; **All Policies**.
 
 2.  Search for **Live Connect Authentication Policy** and open it.
+
+    **Warning:** In versions prior to Zurich Patch 13 and Australia Patch 6, this policy may be named **SQL API Authentication Policy**. If you can't find **Live Connect Authentication Policy**, search for **SQL API Authentication Policy** instead. Don't create a new policy — a duplicate policy can cause queries to fail.
 
 3.  From the **Policy Inputs** tab, select **New**.
 
@@ -88,5 +90,5 @@ You have successfully configured IP filtering for Live Connect access. Your Serv
 
 Your user account can connect to ServiceNow via ODBC or JDBC from the permitted client machines.
 
-**Parent Topic:**[Live Connect configuration on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/configure-sql-api-overview.md)
+**Parent Topic:**[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/configuring-sql-api.md)
 

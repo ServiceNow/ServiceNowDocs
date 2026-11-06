@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-bulk-edit-assign.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -49,8 +49,6 @@ Role required:
 ## Result
 
 Open a record for which you updated the assignment group and navigate to the **Overview** tab. The user group to which the record is assigned appears in the **Assignment group** field.
-
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-using-bulk-edit.md)
 
 **Related topics**  
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-studio-config-action-function.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Action functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
     The Mobile App Builder opens in a new browser tab and displays the application scope selection screen.
 
-2.  Search for the application scope you are working in and then select the name of the application screen.
+2.  Search for the application scope you're working in and then select the name of the application screen.
 
     The Mobile App Builder categories home screen displays.
 

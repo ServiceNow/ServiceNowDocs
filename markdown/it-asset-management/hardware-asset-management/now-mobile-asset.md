@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Mobile app for Hardware Asset Management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---

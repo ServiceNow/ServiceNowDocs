@@ -9,7 +9,7 @@ last_updated: "2026-09-23"
 reading_time_minutes: 1
 keywords: [Autonomous Engineer, limitations, constraints, Build Agent, regulated environments]
 audience: programmer
-breadcrumb: [Overview, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Autonomous Engineer limitations

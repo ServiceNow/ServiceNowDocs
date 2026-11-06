@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SOAP web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
@@ -25,6 +25,8 @@ Role required: web\_service\_admin or admin
 1.  Navigate to **All** &gt; **System Web Services** &gt; **Properties**.
 
 2.  For **Require WS-Security header verification for all incoming SOAP requests**, select **Yes**.
+
+    \[Omitted image "RequireWS-Security.png"\] Alt text: Require WS-Security header verification
 
     **Note:** Selecting this option enables WS-Security for all inbound SOAP requests. It is not possible to enable WS-Security for only some requests.
 

@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using UI extension points in server-side UI macros, Using extension points to extend application functionality, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
@@ -90,7 +90,7 @@ Allow access over AJAX/REST
 
 </td><td>
 
-Option for enabling or disabling access to the UI extension point over AJAX or REST. To learn more about these development architectures and techniques, see [AJAX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_AJAX.md) and [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
+Option for enabling or disabling access to the UI extension point over AJAX or REST. To learn more about these development architectures and techniques, see [AJAX scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_AJAX.md) and [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 </td></tr><tr><td>
 

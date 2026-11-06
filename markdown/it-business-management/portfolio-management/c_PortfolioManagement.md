@@ -7,8 +7,8 @@ release: australia
 product: Portfolio Management
 classification: portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -36,6 +36,8 @@ Install the [Scenario Planning for PPM](https://raw.githubusercontent.com/Servic
 Create a portfolio to manage related programs, projects, and demands.
 -   **[Open a portfolio status list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/t_OpenThePortfolioStatusList.md)**  
 Open the status list of a portfolio to see the projects that are included in it.
+-   **[Legacy portfolio workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/c_PortfolioWorkbench.md)**  
+The portfolio workbench provides a central location for viewing a list of associated demands and projects, planning a portfolio, and tracking its progress. Portfolio workbench is deprecated in the Paris release. Portfolio workbench is still available on instances upgraded from a previous release but is not available for new instances.
 -   **[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/portfolio-planning-overview.md)**  
 The Scenario Planning for PPM application provides a central location for portfolio managers to create and track the roadmap for project execution for a given fiscal year. Optimize your budget and resource usage by creating and comparing different scenarios for your project and demand roadmap or resources.
 -   **[Portfolio Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/c_PortfolioManagerDashboard.md)**  

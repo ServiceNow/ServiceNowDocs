@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbooks-using-activity-stream.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Page components, Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Using playbooks, Automate and optimize, Use, Customer Service Management]
 ---
 
 # Using the activity stream in the contextual side panel
@@ -81,7 +81,7 @@ Expand and collapse posts
 
 </td><td>
 
-Select expand icon \(\[Omitted image "expand-arrow.png"\] Alt text: More options icon.\) to expand posts and collapse icon \[Omitted image "Collapse\_icon\_eaai\_new.png"\] Alt text: collapse icon to collapse posts.
+Select expand icon \(\[Omitted image "expand-arrow.png"\] Alt text: More options icon.\) to expand posts and collapse icon \[Omitted image "Collapse\_icon\_eaai\_new.png"\] Alt text: expand posts and collapse icon to collapse posts.
 
 </td></tr><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_HideEmailAddressesInAWatchList.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure email notifications for watch lists, Add users to a watch list, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -40,5 +40,5 @@ The email entry field is hidden. Users can select users from the reference field
 **Related topics**  
 
 
-[bundle-platadm.c_DictionaryAttributes]
+[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SOAP web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
@@ -23,6 +23,8 @@ Role required: admin
 ## Procedure
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **Logged in users**.
+
+    \[Omitted image "LoggedInUsers.png"\] Alt text: Logged In Users
 
 2.  Open an active SOAP session to see the transactions log.
 

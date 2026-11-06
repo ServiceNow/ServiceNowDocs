@@ -7,8 +7,9 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [inbound data exclusion, filtering rules, source records filter]
 breadcrumb: [About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

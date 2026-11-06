@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Administer HLA, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ When the storage space used by all log sources exceeds 80 percent of the total, 
 
 By default, logs are retained for three days. You can adjust this period to 3, 7, 14, or 30 days. For more information, see [Modify the log source retention period in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-log-retention.md).
 
-If the storage space used by all log sources reaches 100 percent, the number of retention days allocated per source is automatically lowered by one level and you receive an email notification with the specifics. The automatic reduction process starts with the sources that were allocated the highest number of retention days. For example, for a source with 30 retention days, the number is reduced to 14. If the source has 14 retention days, the number is reduced to 7, and so on.
+If the storage space used by all log sources reaches 100 percent, the number of retention days allocated per source is automatically lowered by one level. You receive an email notification with the specifics. The automatic reduction process starts with the sources that were allocated the highest number of retention days. For example, for a source with 30 retention days, the number is reduced to 14. If the source has 14 retention days, the number is reduced to 7, and so on.
 
 You can change the threshold percentage for the automatic reduction of log retention days by modifying the **sn\_occ.log\_retention.automatic\_reduction\_utilization\_percent** system property in the System Properties table.
 

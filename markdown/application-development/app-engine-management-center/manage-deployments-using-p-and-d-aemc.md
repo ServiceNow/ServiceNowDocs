@@ -7,15 +7,17 @@ release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Use, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Managing deployments using Pipelines and Deployments
 
 Manage deployments using Pipelines and Deployments in the App Engine Management Center \(AEMC\).
 
+-   **[Manage deployment requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/manage-deployment-requests.md)**  
+Review and approve or reject deployment requests in the App Engine Management Center \(AEMC\) as applications move from development to production.
 -   **[Schedule app deployments in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/schedule-app-deployments.md)**  
 Schedule apps to deploy to production at a future time to load balance your systems using the App Engine Management Center \(AEMC\).
 -   **[Update a deployment request in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/update-deployment-request.md)**  

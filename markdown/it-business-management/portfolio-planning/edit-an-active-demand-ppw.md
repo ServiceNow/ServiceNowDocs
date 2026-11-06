@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [edit, demand, My Demands widget, Employee Work]
 breadcrumb: [Work with demands in Employee Slate, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
@@ -29,15 +29,15 @@ Role required: snc\_internal
 
 2.  Open a demand from **My Demands** or **Requests**.
 
-<table id="choicetable_dx3_nxp_jkc"><thead><tr><th align="left" id="d124358e108">
+<table id="choicetable_dx3_nxp_jkc"><thead><tr><th align="left" id="d126657e108">
 
 Goal
 
-</th><th align="left" id="d124358e111">
+</th><th align="left" id="d126657e111">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d124358e117">
+</th></tr></thead><tbody><tr><td id="d126657e117">
 
 **From My Demands**
 
@@ -49,7 +49,7 @@ Action
     2.  Select a demand from the list.
 
 
-</td></tr><tr><td id="d124358e143">
+</td></tr><tr><td id="d126657e143">
 
 **From Requests**
 
@@ -66,7 +66,7 @@ Action
 
 4.  Update the fields.
 
-    For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/demand-form-ppw.md).
+    For information on the field values, see [Demand details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/demand-form-ppw.md).
 
 5.  Select **Save**.
 

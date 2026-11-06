@@ -7,7 +7,7 @@ release: australia
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Gamification user interface components, Gamification, Using communities, Communities, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Gamification user interface components, Gamification, Using communi
 # Leaderboard widgets
 
 Leaderboard widgets appear on the Community homepage and on forum and topic landing pages. These widgets display the users with the highest point totals within the community, forum, or topic.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The leaderboard widget shows the top five users. If there are more than five users that have earned points within the community, forum, or topic, **Show Leaderboard** appears at the bottom. Click this button to display all of the users on the [leaderboard page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/gamification-ui-leaderboard.md).
 

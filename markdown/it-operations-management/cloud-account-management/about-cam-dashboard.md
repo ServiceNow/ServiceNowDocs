@@ -7,8 +7,8 @@ release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [View cloud workspace dashboard]
 breadcrumb: [Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -49,7 +49,7 @@ View and manage cloud account requests on requester page. The home page provides
 
 Requesters can access the requester home page by navigating to **All** &gt; **Cloud Workspace**
 
-\[Omitted image "cam-dashboard.gif"\] Alt text: Requester home page
+\[Omitted image "cam-requests-dashboard-new.png"\] Alt text: Requester home page
 
 ## Viewing the Cloud asset overview page
 
@@ -60,4 +60,21 @@ can access the Cloud asset overview page by navigating to **All** &gt; **Cloud W
 \[Omitted image "cam-cloud-asset-overview.png"\] Alt text: Cloud asset overview page
 
 **Note:** You can enable or disable the Asset collection configuration to list the CIs. For more information, see [Configure cloud asset collection table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/configure-cloud-asset-collection-table.md).
+
+-   **[Viewing the account requests page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/view-requester-dashboard.md)**  
+View and manage cloud account requests on requester page. The home page provides a view of requested, approved, denied, pending, and active accounts.
+-   **[Viewing the home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/view-home-page.md)**  
+View account statuses and violations, actionable insights, and administrative controls on the home page.
+-   **[Viewing the compliance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/viewing-compliance-dashboard.md)**  
+
+-   **[Viewing the cloud asset explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/viewing-cloud-asset-explorer.md)**  
+The dashboard helps cloud governance and operations teams monitor, track, and act on compliance and asset details more efficiently. As an asset viewer, you can view all assets and drill down to see detailed information for each configuration item \(CI\).
+-   **[Viewing cloud assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/viewing-cloud-assets.md)**  
+This page displays the Cloud assets view. It lists all compute assets across connected cloud providers such as AWS, Azure, GCP, and OCI. Details include location, cloud account, installation status, owner, discovered dates, ownership attestation, and cost center.
+-   **[Viewing the cloud accounts page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/viewing-cloud-accounts-page.md)**  
+The Cloud accounts page displays information used to access and manage the life cycle of multiple cloud subscription accounts.
+-   **[Viewing cloud account records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/viewing-cloud-account-records.md)**  
+The Cloud account records page is a comprehensive dashboard that provides information to help you manage a cloud account.
+
+**Parent Topic:**[Using Cloud Account Management in Cloud Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/using-cam.md)
 

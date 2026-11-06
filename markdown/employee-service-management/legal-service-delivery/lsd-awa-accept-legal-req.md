@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Advanced work assignment for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -30,15 +30,15 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 4.  When a legal request assignment comes through the chat queue, accept or reject the **Accept**.
 
-<table id="choicetable_ytq_1bt_xbc"><thead><tr><th align="left" id="d149418e100">
+<table id="choicetable_ytq_1bt_xbc"><thead><tr><th align="left" id="d149670e100">
 
 Action
 
-</th><th align="left" id="d149418e103">
+</th><th align="left" id="d149670e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d149418e109">
+</th></tr></thead><tbody><tr><td id="d149670e109">
 
 **Accept assignment**
 
@@ -46,7 +46,7 @@ Steps
 
 Select **Accept**.**Note:** The legal request will be assigned to you.
 
-</td></tr><tr><td id="d149418e123">
+</td></tr><tr><td id="d149670e123">
 
 **Reject assignment**
 

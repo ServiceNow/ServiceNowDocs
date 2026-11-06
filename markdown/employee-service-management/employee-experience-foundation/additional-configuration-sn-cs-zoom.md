@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Enhance employee experience by integrating ServiceNow with Zoom, Integrating and using ServiceNow with Zoom, ServiceNow for Zoom, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Enhance employee experience by integrating ServiceNow with Zoom, Integrating and using ServiceNow with Zoom, ServiceNow for Zoom, EmployeeWorks, Employee Service Management]
 ---
 
 # Chat-specific configuration for Collaboration services for Zoom

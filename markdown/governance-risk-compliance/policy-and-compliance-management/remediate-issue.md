@@ -7,7 +7,7 @@ release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage issues, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -34,10 +34,10 @@ Remediating an issue marks an intention to fix the underlying issue causing the 
 
 2.  Select the **Remediation Tasks** tab.
 
-    **Note:** You have two options for creating a remediation task:
+    You have two options to create a remediation task:
 
-    -   Select **Suggested Remediation Tasks** and select **Copy** to use an existing task as a basis for creating this task. A copy of the selected remediation task is created with certain information from that task copied to the new task. You can manually complete the other fields.
-    -   Selecting **New** and manually creating the task.
+    -   Select **Suggested Remediation Tasks** and then select**Copy** to use an existing task as a basis for creating this task. A copy of the selected remediation task is created with certain information from that task copied to the new task. You can manually complete the other fields.
+    -   Select **New** and manually create the task.
     **Important:** You can't assign a single remediation task or response to multiple issues at the same time. To remediate several related issues together, group them under a parent issue, then create the remediation task on the parent.
 
 3.  On the form, fill in the fields.

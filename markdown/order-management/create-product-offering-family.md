@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-product-offering-family.html
 release: australia
 topic_type: task
-last_updated: "2026-04-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -20,15 +20,18 @@ Role required: sn\_prd\_pm. product\_catalog\_admin or sn\_prd\_pm.product\_cata
 
 ## About this task
 
-A product offering family is a hierarchical classification of product offerings, like a category tree. Product families can have parent-child relationships \(multi-level tree\). You can define parent-child relationships, where each node in the family tree can have a parent, forming a multi-level hierarchy. With a product family you can aggregate sales data by family, such as total revenue across sub-family products, as a rollup dimension for sales forecasting.
+A product offering family is a hierarchical classification of product offerings, like a category tree. Product families can have parent-child relationships \(multi-level tree\). You can define parent-child relationships, where each node in the family tree can have a parent, forming a multi-level hierarchy. With a product family you can:
 
-For example, a product offering family hierarchy could be Hardware &gt; Computers &gt; Laptops. After you create product offering families, you assign a product offering to a product offering family when you create a product offering.
+-   Aggregate sales data by family, such as total revenue across sub-family products, as a rollup dimension for sales forecasting.
+-   Define rules, such as a pricing rule, that target a family by referencing the product offering family field on the product offering.
+
+For example, a product offering family hierarchy could be Hardware &gt; Computers &gt; Laptops. Rules aren't inherited through the family hierarchy. A rule defined for the Computers family doesn't automatically apply to the Laptops sub-family or to the product offerings under it. Define a rule for each family that you want it to apply to. After you create product offering families, you assign a product offering to a product offering family when you create a product offering.
 
 **Note:** A product offering family can't be its own ancestor or descendant. If you select a parent family that would create a circular hierarchy, the save is blocked with an error.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

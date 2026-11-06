@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/now-assist-mobile-search.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI, AI Search]
 breadcrumb: [Exploring Otto, ServiceNow Otto for Mobile, Mobile Platform]

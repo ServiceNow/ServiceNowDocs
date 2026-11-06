@@ -7,14 +7,16 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Working with responsive dashboards
 
 Responsive dashboards enable you to share widgets such as reports and Performance Analytics visualizations in the classic environment. An easy-to-use drag and drop canvas helps you create, edit, and arrange content, and then share it with colleagues.
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md).
 
 The ServiceNow AI Platform platform supports two dashboard technologies:
 

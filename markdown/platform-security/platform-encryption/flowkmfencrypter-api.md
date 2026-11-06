@@ -7,7 +7,7 @@ release: australia
 product: Platform Encryption
 classification: platform-encryption
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [FlowKMFEncrypter, encryption, decryption, Flow Actions, Key Management Framework, KMF, Flow Engine, Module Access Policy, MAP, encrypt, decrypt]
 breadcrumb: [Key Management Framework, Encryption]

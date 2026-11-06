@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/create-and-publish-a-product-adoption-roadmap.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
@@ -30,15 +30,15 @@ Role required: Impact admin, Platform Owner, Impact Portfolio Owner, and Impact 
 
 5.  In **How do you want to start?**, complete any of the following actions.
 
-<table id="choicetable_vlt_5mw_42c"><thead><tr><th align="left" id="d44315e107">
+<table id="choicetable_vlt_5mw_42c"><thead><tr><th align="left" id="d46974e107">
 
 How do you want to start?
 
-</th><th align="left" id="d44315e110">
+</th><th align="left" id="d46974e110">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d44315e116">
+</th></tr></thead><tbody><tr><td id="d46974e116">
 
 **Create from a Template**
 
@@ -48,7 +48,7 @@ Actions
 2.  Select a template in **Choose a template**.
 
 
-</td></tr><tr><td id="d44315e143">
+</td></tr><tr><td id="d46974e143">
 
 **Create a roadmap manually**
 
@@ -98,5 +98,5 @@ This feature is in the Impact Delivery Instance. Download Impact from the Servic
 
 **Note:** The Impact Delivery Instance, \[impact.servicenow.com\], won't include new features.
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-delivery-instance-reference.md)
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/idi-reference.md)
 

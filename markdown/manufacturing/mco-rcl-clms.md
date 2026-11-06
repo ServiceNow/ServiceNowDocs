@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-rcl-clms.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MCO core, Explore, Manufacturing Commercial Operations]
 ---
@@ -25,7 +25,5 @@ The MCO agent portal enables manufacturers to manage recall campaigns through a 
 To learn more about configuring and using recall campaign, see:
 
 -   [Recall campaign data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/recall-claims.md)
--   [Install Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/install-manufacturing-commercial-operations-core.md)
--   [Implement a recall campaign set up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-recall-campaign-setup.md)
 -   [Recall management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-recall-management.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Workflow Editor, Workflow, Flow]
 breadcrumb: [Service Level Management reference, Service Level Management, IT Service Management]
@@ -21,7 +21,7 @@ Starting with the Yokohama release, the new base system flows replace the existi
 
 You can create and edit flows using Workflow Studio. The default flow that is available with the Service Level Management plugin is **Default SLA flow**.
 
-The Default SLA flow creates events to send notifications. For example, it notifies the assigned user when a task SLA reaches 50% completion.
+The **Default SLA flow** creates the events that send out notifications. For example, it creates an event to send a notification to the user assigned to a task, such as an incident, when the task SLA reaches 50% of its allotted time.
 
 The **SLA Notification and Escalation flow** creates the events that send out notifications. When a task reaches 50% of its allotted SLA duration, a notification is sent to the assignee and the user listed in the **Supported by** field on the configuration item. At 75% and 100%, a notification is sent to the assignee and the assignee's manager.
 

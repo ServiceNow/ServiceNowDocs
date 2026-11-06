@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace for ITSM reference, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -27,11 +27,11 @@ The following diagram shows the tables and their relationships within SOW for IT
 **Related topics**  
 
 
-[Terminology in Service Operations Workspace for ITSM]()
-
 [Additional roles for SOW admin]()
 
 [Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM]()
 
 [Components installed with Service Operations Workspace ITSM Applications]()
+
+[Service Operations Workspace for ITSM glossary]()
 

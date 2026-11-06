@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/multiuser-general-guidelines.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Multiple users on a shared device, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [App-level configuration, Multiple users on a shared device, Mobile instances, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # General Guidelines for multiple users using a shared device

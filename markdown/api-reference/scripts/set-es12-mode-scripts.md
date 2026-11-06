@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [JavaScript modes, JavaScript engine, Server-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [JavaScript modes, JavaScript engine, Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Turn on ECMAScript 2021 \(ES12\) mode for a script

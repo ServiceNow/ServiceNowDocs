@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow Studio, Build workflows]
 ---
@@ -38,7 +38,7 @@ Each workflow application within Workflow Studio has its own installation and su
 
 -   **Decision Builder**
 
-    Decision Builder is a ServiceNow AI Platform feature that is available for installation and update from the ServiceNow Store. For installation and update information, see [Configure decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configuring-decision-builder.md).
+    Decision Builder is a ServiceNow AI Platform feature that is available for installation and update from the ServiceNow Store. For installation and update information, see [Configuring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configuring-decision-builder.md).
 
 
 -   **[Update to the latest version of Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/update-to-the-latest-version-of-workflow-studio.md)**  

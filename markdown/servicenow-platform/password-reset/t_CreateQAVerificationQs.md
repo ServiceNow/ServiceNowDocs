@@ -7,7 +7,7 @@ release: australia
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customizing Password Reset processes, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -49,7 +49,7 @@ The base system provides a large set of default questions in all supported langu
 
     2.  Create a record in the **sys\_translated** table for the non-English language question.
 
-        Details appear at [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_TranslatedNameFieldTable.md) and [Languages table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_LanguagesTable.md).
+        Details appear at Translated Name / Field table and Languages table.
 
         |Field|Description|
         |-----|-----------|

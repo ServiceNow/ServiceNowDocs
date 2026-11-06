@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/contextual-sidebar-configurable-workspace.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Learn about the components in UI Builder that enable admins to create and custom
 
 The tabs sidebar is a flexible panel on a record page that provides agents with additional tools and information displayed as tabs.
 
-\[Omitted image "configurable-workspace-sidebar-record.png"\] Alt text: Standard record page screenshot with the tabs sidebar highlighted
+\[Omitted image "configurable-workspace-sidebar-record.png"\] Alt text: Tabs sidebar on a Configurable Workspace record
 
 ## Tabs component
 

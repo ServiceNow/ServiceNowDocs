@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-07-01"
 reading_time_minutes: 1
 keywords: [topic pages, content organization, widgets]
-breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Browse and topic pages

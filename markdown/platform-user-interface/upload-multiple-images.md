@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/upload-multiple-images.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Storing images in the database, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -65,5 +65,5 @@ Role required: image\_admin or content\_admin
 
 [Restrict file extensions]()
 
-[bundle-psec.r_SystemLogs]
+[System log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SystemLogs.md)
 

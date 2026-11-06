@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/run-rda-robot.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Attended Robot, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -69,15 +69,15 @@ You can run an automation using an attended robot in two ways. Do these tasks af
 
 2.  To run an attended robot, do any one of the following actions.
 
-<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d120641e320">
+<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d119135e320">
 
 Option
 
-</th><th align="left" id="d120641e323">
+</th><th align="left" id="d119135e323">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d120641e329">
+</th></tr></thead><tbody><tr><td id="d119135e329">
 
 **From the Run option**
 
@@ -85,7 +85,7 @@ Action
 
 Select the Run icon \(\[Omitted image "rda-runtime-icon-run.png"\] Alt text: Run icon.\).The Attended Robot runs the automation.
 
-</td></tr><tr><td id="d120641e350">
+</td></tr><tr><td id="d119135e350">
 
 **From the Desktop In Desktop option**
 

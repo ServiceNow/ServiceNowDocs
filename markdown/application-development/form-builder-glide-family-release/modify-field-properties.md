@@ -7,9 +7,9 @@ release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Forms in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working with forms, Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Modify field properties in Table Builder form editor
@@ -34,6 +34,10 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 2.  In the form editor, select a field to highlight it.
 
+    The following example shows that the panel on the right displays the **Properties** tab. This tab shows the basic properties of the selected field.
+
+    \[Omitted image "config-tab.png"\] Alt text: Properties tab.
+
 3.  Edit the basic field properties as needed for the selected field.
 
     The sections displayed vary depending on the field type. For a description about these fields, see [Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/field-parameters.md).
@@ -42,7 +46,7 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 4.  To view any UI policies that are set up for the selected field and make edits to that field, select the **UI Policies** tab.
 
-    For more information about the policies and properties, see [Policies and rules properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/ui-policy-fields.md).
+    For more information about the policies and properties, see [Policies and rules fields in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/ui-policy-fields.md).
 
 5.  Select **Save**.
 

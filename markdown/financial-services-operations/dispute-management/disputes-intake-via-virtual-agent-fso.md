@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Intake, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---

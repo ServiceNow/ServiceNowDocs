@@ -7,7 +7,7 @@ release: australia
 product: Localization Workspace
 classification: localization-workspace
 topic_type: reference
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Localization Workspace reference, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -97,11 +97,27 @@ Glossary Info \(from version 3.0.0\)
 
 </td></tr><tr><td>
 
+Glossary Items \(from version 4.0\)
+
+</td><td>
+
+\[sn\_lw\_glossary\_item\]
+
+</td></tr><tr><td>
+
 Glossary Translation \(from version 3.0.0\)
 
 </td><td>
 
 \[sn\_lw\_glossary\_translation\]
+
+</td></tr><tr><td>
+
+KB Cache \(from version 4.0\)
+
+</td><td>
+
+\[sn\_lw\_kb\_cache\]
 
 </td></tr><tr><td>
 

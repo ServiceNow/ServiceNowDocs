@@ -7,9 +7,9 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Document permissions, Using Document Management System in Audit Workspace, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Document permissions, Using Document Management System in Audit Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Set document permissions
@@ -22,13 +22,13 @@ Role required: sn\_grc\_workspace.admin
 
 ## About this task
 
-For more information on the two types of permissions, see [Manage document permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/manage-document-permissions.md).
+See [Manage document permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/manage-document-permissions.md) for more information on the two types of permissions.
 
 ## Procedure
 
 1.  From the Documents panel, select the document, then select **Manage permissions**.
 
-2.  To grant a role-based permission, in the **Roles** section, select the role, then select **Reader** or **Writer**.
+2.  To grant a role-based permission, in the **Roles** section, select a role, then select **Reader** or **Writer**.
 
 3.  To grant a user-based permission, in the **Users** section, select a user, a group, or an existing condition, then select **Reader** or **Writer**.
 

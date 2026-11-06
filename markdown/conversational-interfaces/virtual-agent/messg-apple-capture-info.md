@@ -1,24 +1,24 @@
 ---
 title: Capturing information from a user in a Apple Messages for Business chat conversation
-description: Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user.
+description: Use Assistant Designer for creating and managing topics, which are blueprints for conversations between a virtual agent and user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/messg-apple-capture-info.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use, Conversational Integration with Apple Messages for Business, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use, Apple Messages for Business, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Capturing information from a user in a Apple Messages for Business chat conversation
 
-Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user.
+Use Assistant Designer for creating and managing topics, which are blueprints for conversations between a virtual agent and user.
 
-Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from a requester in a Apple Messages for Business chat conversation. For more information, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+Use the collection of input controls provided by the Assistant Designer to prompt and capture information from a requester in a Apple Messages for Business chat conversation. For more information, see [Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
-For more information about displaying images along with external links, see [Using link unfurling in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-link-unfurling.md).
+For more information about displaying images along with external links, see [Link unfurling in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-link-unfurling.md).
 
 Apple Messages for Business has an array of interactive features that are native to the app. For more information about these interactive features, see [Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integration-apple-mssg.md).
 
@@ -37,7 +37,7 @@ There are two ways for users to grant consent to receive notifications:
 
 ## User input controls
 
-The Conversational Integration with Apple Messages for Business application supports the following user input controls in Virtual Agent Designer.
+The Conversational Integration with Apple Messages for Business application supports the following user input controls in Assistant Designer.
 
 |User input control|Description|
 |------------------|-----------|
@@ -51,7 +51,7 @@ The Conversational Integration with Apple Messages for Business application supp
 
 For more information about configuring user input controls, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-user-inputs.md).
 
-The Conversational Integration with Apple Messages for Business application supports the following bot responses in Virtual Agent Designer.
+The Conversational Integration with Apple Messages for Business application supports the following bot responses in Assistant Designer.
 
 <table id="table_mq2_gqz_2mb"><thead><tr><th>
 

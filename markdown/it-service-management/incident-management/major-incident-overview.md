@@ -1,39 +1,39 @@
 ---
 title: Legacy: Major incident overview dashboard
-description: Major Incident Overview module provides two versions of the Performance Analytics \(PA\) Dashboard to review major incident information at a glance.
+description: The Major Incident Overview module provides two versions of the Performance Analytics \(PA\) dashboard for reviewing major incident information at a glance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/major-incident-overview.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing major incidents, Incident Management, IT Service Management]
 ---
 
 # Legacy: Major incident overview dashboard
 
-Major Incident Overview module provides two versions of the Performance Analytics \(PA\) Dashboard to review major incident information at a glance.
+The Major Incident Overview module provides two versions of the Performance Analytics \(PA\) dashboard for reviewing major incident information at a glance.
 
 **Important:**
 
-Starting in Xanadu release, the Major incident overview dashboard is deprecated. Users can use [Major incident dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/major-incident.md) to view the process and communication related metrics for Open and Closed major incidents.
+Starting with the Xanadu release, the Major incident overview dashboard is deprecated. Users can use [Major incident dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/major-incident.md) to view the process and communication-related metrics for open and closed major incidents.
 
-Users with itil, sn\_incident\_write, major\_incident\_manager or communication\_manager role can access the dashboard.
+Users with the itil, sn\_incident\_write, major\_incident\_manager, or communication\_manager role can access the dashboard.
 
-The two versions of the Performance Analytics \(PA\) Dashboard are normal and premium. You must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) to view the normal dashboard. To access the premium version of Major Incident Overview dashboard, activate Performance Analytics – Content Pack for Major Incident Management \(com.snc.pa.incident.mim\).
+The two versions of the Performance Analytics \(PA\) dashboard are normal and premium. You must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) to view the normal dashboard. To access the premium version of the Major Incident Overview dashboard, activate the Performance Analytics – Content Pack for Major Incident Management \(com.snc.pa.incident.mim\).
 
 You can navigate to the dashboard in the following ways:
 
 -   **Incident** &gt; **Major Incidents** &gt; **Overview**
--   **Self – Service** &gt; **Dashboard** &gt; **Major Incident Overview**
+-   **Self-Service** &gt; **Dashboard** &gt; **Major Incident Overview**
 
 ## Major incident overview
 
-\[Omitted image "major-incident-overview.png"\] Alt text: major incident overview
+\[Omitted image "major-incident-overview.png"\] Alt text: Major Incident Overview dashboard with numbered callouts for each UI component
 
-Major Incident Overview module provides information on the following content:
+The following table describes the components of the Major Incident Overview module.
 
 <table id="table_xcw_qrv_kbb"><thead><tr><th>
 
@@ -57,7 +57,7 @@ Dashboard controls
 
 </td><td>
 
-Provides options to create, duplicate, or delete a dashboard. You can copy the dashboard URL or duplicate the dashboard. In addition, you can add the dashboard in your favorite list, create a tab, or reset filters in the dashboard.
+Provides options to create, duplicate, or delete a dashboard. You can also copy the dashboard URL, add the dashboard to your favorites, create a tab, or reset filters in the dashboard.
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ Dashboard overview
 
 </td><td>
 
-Takes you to the UI page where you view the recently accessed dashboard, dashboards owned or shared by you, or all the dashboards in the system. To create a new dashboard, click **New**.
+Takes you to the UI page where you view the recently accessed dashboard, dashboards owned or shared by you, or all the dashboards in the system. To create a new dashboard, select **New**.
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ Takes you to the UI page where you view the recently accessed dashboard, dashboa
 
 </td><td>
 
-Dashboard choice list
+Dashboard list
 
 </td><td>
 
@@ -93,7 +93,7 @@ Add widgets
 
 </td><td>
 
-Provides option to add widgets. You can drag to move or resize the widget on the dashboard.
+Provides options to add widgets. You can drag to move or resize the widget on the dashboard.
 
 </td></tr><tr><td>
 
@@ -105,7 +105,7 @@ Sharing
 
 </td><td>
 
-Provides option to specify groups, users, and roles for the dashboard.
+Provides options to specify groups, users, and roles for the dashboard.
 
 </td></tr><tr><td>
 
@@ -151,9 +151,9 @@ Tabs
 Major Incident Overview – Premium provides the following additional functions:
 
 -   **Process KPIs**: Provides information on **Active Major Incidents**, **Number of resolved major incidents**, **Average resolution time of Major Incidents**, and **New Major Incidents Vs Resolved**.
--   Interactive filters: Helps to filter incidents based on category, priority, assignment group, and state.
+-   Interactive filters: Filters incidents by category, priority, assignment group, and state.
 
-\[Omitted image "major-incident-overview-premium.png"\] Alt text: Major incident overview - premium
+\[Omitted image "major-incident-overview-premium.png"\] Alt text: Major Incident Overview – Premium dashboard with process KPIs and interactive filters
 
 **Parent Topic:**[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/major-incident-management.md)
 

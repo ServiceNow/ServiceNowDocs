@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
@@ -19,7 +19,7 @@ Use an existing AI agent as an activity in your playbook to automate tasks. The 
 
 ## Before you begin
 
-Make sure that ServiceNow Otto® AI agents plugin is installed and you have AI agents available in your instance. For information about installing the ServiceNow Otto® AI agents plugin, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md). For information about creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+Make sure that ServiceNow Otto® AI agents plugin is installed and you have AI agents available in your instance. For information about installing the ServiceNow Otto® AI agents plugin, see . For information about creating an AI agent, see .
 
 Role required: playbook.admin or pd\_author.
 

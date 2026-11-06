@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a threshold for a metric definition, Configuring metrics, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -65,7 +65,7 @@ Valid from
 
 </td><td>
 
-Date from which the threshold configuration is valid.
+Date from which the threshold configuration is valid.**Note:** The threshold applies only to metric data tasks whose interval date falls within the **Valid from** and **Valid until** range.
 
 </td></tr><tr><td>
 

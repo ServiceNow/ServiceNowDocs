@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-fsm.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Explore, Field Service Management]
 ---
 
@@ -20,11 +20,24 @@ Workforce Optimization for Field Service introduces Manager Workspace, which pro
 
 \[Omitted image "wfo-infographic.png"\] Alt text: person sitting in chair with key features of workforce optimization in text around them
 
+## Example: Improve Technician Utilization
+
+A field service organization identifies underutilized technicians and needs to rebalance workloads across the team without manually reassigning individual tasks. Workforce Optimization for Field Service gives managers real-time visibility into team utilization, enables workload and territory adjustments, and automatically redistributes assignments so technicians receive balanced, up-to-date schedules.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Manager|Reviews utilization dashboards|
+|2|System|Identifies underutilized technicians|
+|3|Manager|Adjusts workloads and territories|
+|4|System|Redistributes assignments|
+|5|Technician|Receives and approves or rejects updated schedule|
+|6|Manager|Monitors utilization improvements|
+
 ## Key Features
 
 -   **Scheduling**
 
-    Manage the scheduling for your agents from Manager Workspace. You can access your team's calendar to view the agent's schedule for coverage and their time-off. This information can help you create shift plans and schedule plans, assign agents to shifts, and publish schedules. You can also create personal events such appointments and meetings on behalf of the agent using calendar.
+    Manage the scheduling for your agents from Manager Workspace. You can access your team's calendar to view the agent's schedule for coverage and their time-off. This information can help you create shift plans and schedule plans, assign agents to shifts, and publish schedules. You can also create personal events such appointments and meetings on behalf of the agent using calendar. Embedded breaks and lunches let technicians take scheduled time away directly within a work order task, pausing and resuming the task automatically, or by manual action, depending on your Auto-status breaks configuration.
 
 -   **Team performance**
 
@@ -43,4 +56,6 @@ Workforce Optimization for Field Service introduces Manager Workspace, which pro
 [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-wfo-fsm.md)
 
 [Workforce Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/using-wfo-fsm.md)
+
+[Embedded breaks and lunches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/embedded-breaks-and-lunches.md)
 

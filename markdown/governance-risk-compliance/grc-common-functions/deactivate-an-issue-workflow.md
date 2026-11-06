@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Issue workflows, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ If this workflow has no trigger condition and the lowest priority number on its 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **GRC Issue Administration** &gt; **Issue Workflows**.
+1.  Navigate to **All** &gt; **GRC Issue Administration** &gt; **Issue workflows**.
 
 2.  Open the workflow that you want to deactivate.
 

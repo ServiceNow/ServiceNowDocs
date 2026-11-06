@@ -7,7 +7,7 @@ release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Conflict of interest, Conversational intake for COI, COI employee center, legal requests]
 breadcrumb: [Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]

@@ -1,18 +1,18 @@
 ---
 title: Questionnaires in Field Service Management
-description: Field Service Management supports questionnaires as a structured mechanism for collecting information from field service agents during the execution of work orders and work order tasks. Questionnaires can be used at any stage of a task—before work begins, while work is in progress, or as a condition for closing a task—and can be made mandatory to enforce compliance and completeness.
+description: Field Service Management supports questionnaires as a structured mechanism for collecting information from field service agents during the execution of work orders and work order tasks. Questionnaires can be used at any stage of a task—before work begins, while work is in progress, or as a condition for closing a task. They can be made mandatory to enforce compliance and completeness.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/questionnaires-in-field-service-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Field Service Management]
 ---
 
 # Questionnaires in Field Service Management
 
-Field Service Management supports questionnaires as a structured mechanism for collecting information from field service agents during the execution of work orders and work order tasks. Questionnaires can be used at any stage of a task—before work begins, while work is in progress, or as a condition for closing a task—and can be made mandatory to enforce compliance and completeness.
+Field Service Management supports questionnaires as a structured mechanism for collecting information from field service agents during the execution of work orders and work order tasks. Questionnaires can be used at any stage of a task—before work begins, while work is in progress, or as a condition for closing a task. They can be made mandatory to enforce compliance and completeness.
 
 Questionnaires serve several operational purposes across the field service lifecycle.
 

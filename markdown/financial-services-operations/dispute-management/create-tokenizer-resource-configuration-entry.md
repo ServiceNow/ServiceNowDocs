@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [create tokenizer resource configuration entry, tokenizer resource configuration table, add tokenizer resource, rest message function mapping, target system configuration, card data security configuration entry, tokenization service endpoint mapping]
 breadcrumb: [Manage Tokenizer Resource Configurations, Administer, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]

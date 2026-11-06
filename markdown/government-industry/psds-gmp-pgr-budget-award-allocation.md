@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-gmp-pgr-budget-award-allocation.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [program budget, award allocation, grants management, budget categories]
 breadcrumb: [Set up a grant program, Grants Management Program Setup, Grants Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]

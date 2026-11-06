@@ -7,7 +7,7 @@ release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2026-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Encryption at rest, BYOK, Bring your own key, encrypt messages]
 breadcrumb: [Explore, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]

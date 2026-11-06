@@ -7,7 +7,7 @@ release: australia
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Lifecycle Events reference, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -193,7 +193,7 @@ Details of an activity field mapping that pass information from the parent life 
 
 </td></tr><tr><td>
 
-Activity Set\[sn\_hr\_le\_activity\_set\]
+Activity Set\[sn\_hr\_le\_activity set\]
 
 </td><td>
 

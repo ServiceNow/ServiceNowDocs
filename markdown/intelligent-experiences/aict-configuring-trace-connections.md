@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-configuring-trace-connections.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configuring trace connections

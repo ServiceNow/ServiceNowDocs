@@ -7,8 +7,8 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [AWS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -1469,9 +1469,6 @@ Additional information about AWS data sources:
 -   The basic information about an AWS resource is stored in the SG-AWS Extension Attributes \[sn\_aws\_extension\_attributes\] table.
 -   In Service Graph Connector for AWS version 2.10.0 and later, the SG-AWS-Get-Inventory data source runs before the SG-AWS-EC2 data source and creates a Server \[cmdb\_ci\_server\] CI with the host name mapped to the Name attribute, instead of being mapped to the VM name.
 -   The SG-AWS-GenericTags data source imports tag data only for generic resources that have an ARN key. You can use the SG-AWS Extension Attributes \[sn\_aws\_extension\_attributes\] table to verify which generic resources have an ARN key.
-
-    **Note:** The SG-AWS-GenericTags data source doesn't import tag data for Amazon CloudFront resources.
-
 -   The AWS configuration data for each connection is stored in the SG AWS Application Properties \[sn\_aws\_integ\_sg\_aws\_application\_properties\] table.
 -   When you run the diagnostic test, the data is loaded in the following tables:
     -   SG AWS Diagnostic Details \[sn\_aws\_integ\_sg\_aws\_diagnostic\_details\]

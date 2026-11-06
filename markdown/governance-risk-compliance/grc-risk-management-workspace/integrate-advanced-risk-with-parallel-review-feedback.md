@@ -1,24 +1,24 @@
 ---
 title: Parallel Review and Feedback in Advanced Risk
-description: The Parallel Review and Feedback workflow enables second-level and third-level line managers to review records and provide feedback at any stage, facilitating collaboration across management lines and ensuring feedback is tracked through closure.
+description: Learn how to use the Review and feedback workflow to enable the 2nd and 3rd line managers to review records, capture feedback, and track the closure of feedback.The Parallel Review and Feedback workflow enables second and third line managers to review records and capture feedback at any stage. This facilitates collaboration across management lines and ensures feedback is tracked through closure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/integrate-advanced-risk-with-parallel-review-feedback.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Parallel Review and Feedback in Advanced Risk
 
-The Parallel Review and Feedback workflow enables second-level and third-level line managers to review records and provide feedback at any stage, facilitating collaboration across management lines and ensuring feedback is tracked through closure.
+Learn how to use the Review and feedback workflow to enable the 2nd and 3rd line managers to review records, capture feedback, and track the closure of feedback.The Parallel Review and Feedback workflow enables second and third line managers to review records and capture feedback at any stage. This facilitates collaboration across management lines and ensures feedback is tracked through closure.
 
-## Overview of Parallel Review and Feedback
+## Overview of Parallel Review and FeedbackParallel Review and Feedback
 
-The Parallel Review and Feedback feature in the Advanced Risk application enables collaboration and engagement across different lines of management within an organization. The workflow enables the second-level and third-level line managers, such as Operational, IT, and Business Risk Managers, to provide feedback on records or fields in the records. For example, a risk manager can provide feedback by requesting a root cause analysis at the field level of the risk event. Alternatively, they may request the risk event owner to provide details of additional loss entries at the record level for the same risk event. Risk managers can create feedback on records available on the ServiceNow table and external records.
+The Parallel Review and Feedback feature in the Advanced Risk application helps in collaboration and engagement across different lines of management within an organization. The workflow enables the 2nd and 3rd line managers, such as Operational, IT, and Business Risk Managers, to provide feedback on records or fields in the records. For example, a risk manager can provide feedback by requesting a root cause analysis at the field level of the risk event. Alternatively, they may request the risk event owner to provide details of additional loss entries at the record level for the same risk event. Risk managers can create feedback on records available on the ServiceNow table and external records.
 
 ## Benefits of Parallel Review and Feedback
 

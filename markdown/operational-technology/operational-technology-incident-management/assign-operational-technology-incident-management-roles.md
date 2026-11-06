@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Operational Technology Incident Management, Operational Technology]
 ---
@@ -24,7 +24,7 @@ Role required: admin or user\_admin
 
 Users with the roles that are listed in the following table can use the Operational Technology Incident Management application.
 
-**Note:** The OT Incident User \[ot\_incident\_user\] role is deprecated. For users who are assigned with this role, you can execute the scheduled job "Assign New OT Incident Roles” to assign them with new Operational Technology Incident Management roles. For more information, see [Assign new roles to your users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/assign-operational-technology-incident-management-roles.md).
+**Note:** The OT Incident User \[ot\_incident\_user\] role is deprecated. For users who are assigned with this role, you can execute the scheduled job "Assign New OT Incident Roles” to assign them with new Operational Technology Incident Management roles. For more information, see [Assign roles to your users with a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/assign-operational-technology-incident-management-roles.md).
 
 <table id="table_q55_vpq_4nb"><thead><tr><th>
 
@@ -71,7 +71,7 @@ Can create, view, and edit OT incident records.
 
 **Parent Topic:**[Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
 
-## Assign new roles to your users
+## Assign roles to your users with a scheduled job
 
 Assign new roles to users who had the OT Incident User \[ot\_incident\_user\] role through a scheduled job in the Operational Technology Incident Management application.
 

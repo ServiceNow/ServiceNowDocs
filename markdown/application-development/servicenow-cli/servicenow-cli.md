@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow CLI
@@ -202,5 +202,5 @@ Commands and command arguments available to the base system ServiceNow CLI.
 -   **[Commands installed with CMDB Application CLI and API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-cli/cmdb-cli-commands.md)**  
 Commands and command groups available to the ServiceNow CLI when the app-cmdb-api-cli plugin is installed.
 
-**Parent Topic:**[Building low-code applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/building-low-code-applications-with-app-engine.md)
+**Parent Topic:**[Developing your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developing-applications.md)
 

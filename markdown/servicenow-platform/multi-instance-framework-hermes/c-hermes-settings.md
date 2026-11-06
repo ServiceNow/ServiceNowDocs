@@ -7,7 +7,7 @@ release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Hermes, Hermes settings, Hermes configuration, hermes\_admin, maint, Kafka integration, system settings, background jobs]
 breadcrumb: [Explore, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
@@ -51,7 +51,7 @@ The Hermes Messaging Service Settings page organizes properties into the categor
 
 Each settings category links to one or more background jobs that operate with the configurable properties. These jobs perform automated maintenance tasks such as heartbeat monitoring, metrics collection, metadata updates, cache cleanup, and IP ACL publishing. Jobs can be enabled, turned off, or have their intervals adjusted through the settings interface where applicable.
 
-For a list of Hermes Messaging Service background jobs, see [Hermes background jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-settings-background-jobs.md).
+For a list of Hermes Messaging Service background jobs, see .
 
 ## Implementation
 

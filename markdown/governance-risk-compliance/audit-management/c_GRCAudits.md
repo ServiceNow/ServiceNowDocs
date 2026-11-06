@@ -7,7 +7,7 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ The ServiceNow® Audit Management application involves a set of activities relat
 
 ## Audit Workspace
 
-As of version 13.0.2, there are two interfaces available for Audit Management users. They are the Classic model and Audit workspace. The Audit workspace offers a single-pane view for audit supervisors and auditors. It enables you to view the overall audit timeline and status, track budget and resources for engagement, and monitor control tests and audit task progress. For more information on the new workspace, see [Risk workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/audit-management-overview-ws.md).
+As of version 13.0.2, there are two interfaces available for Audit Management users. They are the Classic model and Audit workspace. The Audit workspace offers a single-pane view for the audit supervisors and auditors to view the overall audit timeline and status. You can track budget and resources for engagements and monitor control tests and audit task progress. For more information on the new workspace, see [Risk workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/audit-management-overview-ws.md).
 
 ## Request apps on the Store
 
@@ -46,7 +46,7 @@ The GRC: Audit Management product allows you to schedule internal audits, conduc
 
 </td><td>
 
-[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Time Card Management to track the time taken for engagement and audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/timecard-audit-integration.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Time Card Management to track the time taken for engagements and audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/timecard-audit-integration.md)
 
 </td><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Matrix report in Risk Workspace, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -32,9 +32,15 @@ Risk Workspace and Matrix report plugin should be installed to use the feature.
 
     For the landing page display type matrix configuration, you can view the Matrix report in the Risk Workspace.
 
-3.  Open the entity record for which you want to view the matrix report and select the **Matrix report** related list.
+3.  Select the View related information \[Omitted image "view-related-info-icon.png"\] Alt text: View related information. icon next to the entity name to view the matrix report.
 
-4.  Select the View related information \[Omitted image "view-related-info-icon.png"\] Alt text: View related information. icon next to the entity name to view the matrix report.
+    \[Omitted image "entity-related-matrix-report-risk-ws.png"\] Alt text: Matrix report on the landing page.
+
+4.  To view the matrix report on the entity record page, select the list \[Omitted image "list-icon.png"\] Alt text: List icon..
+
+5.  Open the entity record for which you want to view the matrix report and select the **Matrix report** related list.
+
+6.  Select the View related information \[Omitted image "view-related-info-icon.png"\] Alt text: View related information. icon next to the entity name to view the matrix report.
 
     \[Omitted image "entity-related-matrix-report-record-risk-ws.png"\] Alt text: Matrix report on the record page.
 

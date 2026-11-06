@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [BCM, issues, plan]
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
@@ -31,15 +31,15 @@ The **Issues** related list appears on a plan record when GRC: Profiles is insta
 
 2.  Complete the following steps to create or manage an issue from a plan record.
 
-<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d162084e109">
+<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d163577e109">
 
 Step
 
-</th><th align="left" id="d162084e112">
+</th><th align="left" id="d163577e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d162084e118">
+</th></tr></thead><tbody><tr><td id="d163577e118">
 
 **Create or add an issue from the plan record**
 
@@ -66,11 +66,13 @@ The classification, issue source, and issue source reference are set automatical
 
 Use this option when you want to associate an existing issue with the plan as an additional source. The plan is recorded as a secondary source of the issue.
 
+\[Omitted image "add-issue-from-plan.png"\] Alt text: Add issue from plan record.
+
 5.  To remove an issue, select it from the list and choose **Remove**.
 
 The issue association is removed from the plan; the issue record isn't deleted from the instance.
 
-</td></tr><tr><td id="d162084e188">
+</td></tr><tr><td id="d163577e193">
 
 **Link a plan from the issue record**
 

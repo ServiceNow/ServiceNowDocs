@@ -7,9 +7,11 @@ release: australia
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Knowledge Graph, Enable AI experiences]
+keywords: [Knowledge Graph, knowledge graph schema, Knowledge Graph Designer, natural language queries, semantic layer, graph entities, graph relationships, slot-filling, user context, kg\_admin, workflow data fabric, no-code schema design, enterprise data graph, personalized AI experiences]
+audience: administrator
+breadcrumb: [Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Exploring Knowledge Graph
@@ -61,7 +63,7 @@ In this release, the available prebuilt integrations are:
 
 1.  Integration with ServiceNow® Otto for Virtual Agent, ServiceNow Otto panel and AI agents for User Context: Helps users with personalized responses.
 2.  Integration with ServiceNow® Otto for Virtual Agent and ServiceNow Otto panel for Slot filling: Helps pre-fill the slots for Virtual Agent topics using the Natural Language Querying feature of Knowledge Graph.
-3.  Integration with ServiceNow® Otto for Virtual Agent and ServiceNow Otto panel for Employee schema: Helps requesters and fulfillers with personalized responses on people queries and Natural Language queries. Also supports people citation card. By default the user NLQ graph is connected which is used for people queries but you also have sample graph schema for other employee queries. To see more sample graphs for employee queries refer, [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2069778).
+3.  Integration with ServiceNow® Otto for Virtual Agent and the ServiceNow Otto panel for the Employee schema enables requesters and fulfillers to receive responses to people queries and natural language queries, and supports the **people citation card**. By default, the user NLQ graph connects to people queries. A sample graph schema is also available for other employee queries. For more sample graphs for employee queries, see [Sample graphs for employee queries \[KB2069778\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2069778).
 4.  Integration with AI agents as a tool: Used to retrieve results in Natural Language and perform follow up tasks that are assigned to the AI agents.
 
 ## Knowledge Graph users

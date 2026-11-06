@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/script-includes.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -322,7 +322,7 @@ Script include
 
 </td><td>
 
-Contains the utility functions that are being used to fetch the data from different places in Operational Resilience. Also fetches all the issues that are related to a business service's entity or configuration item \(CI\). Used for updating the CSDM, dependencies, and their red flags.
+Contains utility functions that fetch data from different places in Operational Resilience. Fetches all issues related to a business service's entity or configuration item \(CI\). Used for updating the CSDM, dependencies, and their red flags.
 
 </td></tr><tr><td>
 

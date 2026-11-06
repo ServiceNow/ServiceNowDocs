@@ -1,5 +1,5 @@
 ---
-title: Create an engagement from Audit Workbench
+title: Create an engagement from the Audit Engagement Workbench
 description: The Engagement Workbench provides a timeline view from which you can select an audit engagement to view details or create a new engagement. Audit managers create engagements directly from the Workbench to manage audit information and collect entities, controls, and control tests that are relevant to the audit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/create-engagement-from-workbench.html
@@ -7,12 +7,12 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use the Audit Engagement, Manage engagements, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
-# Create an engagement from Audit Workbench
+# Create an engagement from the Audit Engagement Workbench
 
 The Engagement Workbench provides a timeline view from which you can select an audit engagement to view details or create a new engagement. Audit managers create engagements directly from the Workbench to manage audit information and collect entities, controls, and control tests that are relevant to the audit.
 

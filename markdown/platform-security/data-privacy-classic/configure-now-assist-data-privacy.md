@@ -7,8 +7,8 @@ release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Data Privacy for ServiceNow Otto, Data Privacy, Platform Privacy]
 ---
 

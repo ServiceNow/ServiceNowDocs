@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [check break, break status, embedded break, mobile agent app]
 breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]

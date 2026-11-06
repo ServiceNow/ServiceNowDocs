@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-derived-pricing-source.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [derived pricing, product offering source, product offering target, Derived Pricing Matrix]
 audience: administrator
-breadcrumb: [Derived product pricing, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring derived pricing, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create rules for derived product pricing
@@ -39,7 +39,7 @@ Agents can review the line item for the target product to see how the derived pr
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

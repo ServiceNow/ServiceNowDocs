@@ -7,8 +7,8 @@ release: australia
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Monitoring user activity, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -35,6 +35,14 @@ The following actions or conditions cause a user impersonation to end:
 
     **Note:** When an administrator starts impersonating a user, the 'Impersonate Begin' event is logged in the system log. Similarly, the 'Impersonate End' event is recorded when impersonation concludes under one of the two conditions listed above.
 
+
+## Impersonating users in scoped applications
+
+Scope-protected roles are the roles of a scoped application that the developer or administrator marks as protected, such as the application administrator and designated developer roles.
+
+When an administrator with the **admin** or **impersonator** role impersonates a user in a scoped application, the protected roles of that application are stripped from the impersonated session. Impersonation also gives access to roles other than the stripped roles.
+
+The system property **glide.sys.allow\_scoped\_user\_impersonation** controls whether users in scoped applications can be impersonated. If it's set to `true`, you can impersonate the user, and the protected roles are stripped. If it's set to `false`, you can't impersonate the user.
 
 ## Impersonation requirements
 

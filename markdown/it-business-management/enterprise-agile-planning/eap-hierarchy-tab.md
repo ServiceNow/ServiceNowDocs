@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---

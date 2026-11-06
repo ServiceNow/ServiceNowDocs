@@ -7,7 +7,7 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [export,intelligence data,tisc,observables,marking definition,tlp2.0]
 breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]

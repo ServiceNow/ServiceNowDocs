@@ -7,9 +7,9 @@ release: australia
 product: Employee Document Management
 classification: employee-document-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Reference, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference - Employee Document Management, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Properties for Employee Document Management application
@@ -78,7 +78,7 @@ Determines the stride value for recalculating the purge dates for employee docum
 
 </td></tr><tr><td>
 
-sn\_hr\_ef.purge\_authorization\_interval \(The number of days before the next month a purge notification is sent \(value between 1-15\):\)
+sn\_hr\_ef.purge\_authorization\_interval \(The number of days before the next month a purge notification is sent \(value between 1-30\):\)
 
 </td><td>
 

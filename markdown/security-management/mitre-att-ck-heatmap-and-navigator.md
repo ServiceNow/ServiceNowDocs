@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/mitre-att-ck-heatmap-and-navigator.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 18
+last_updated: "2026-09-10"
+reading_time_minutes: 17
 breadcrumb: [Using MITRE-ATT&amp;CK to detect and analyze threats, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 
@@ -66,19 +66,15 @@ You can review the heat map, use the filters to correlate, and perform link anal
 
     **Note:** Only the [collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/setup-mitre-profile.md) and [matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-mitre-collection.md) that have been activated appear in the source list.
 
-    In the following illustration, you see how to navigate to the heat map and navigator, and how to select the source, which is Enterprise ATT&amp;CK in this example.
-
 3.  Use the search box to quickly find a particular tactic or technique by using its name or ID.
 
-    The following illustration shows how to search for a tactic, technique, or any information that is contained in them.
+4.  Select **Filters** and select a filter from the [Primary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md) or [Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md) filters.
 
-4.  Click **Filters** and select a filter from the [Primary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md) or [Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md) filters.
-
-5.  Click **Apply** and control the filters as follows:
+5.  Select **Apply** and control the filters as follows:
 
     -   To save your filters, [create a custom view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md). You can create and save three [custom views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md).
-    -   To remove the selected filters, click **Restore Default Filters** to load your default saved view.
-    -   To clear all filters and your existing view, click **Clear all filters**.
+    -   To remove the selected filters, select **Restore Default Filters** to load your default saved view.
+    -   To clear all filters and your existing view, select **Clear all filters**.
     **Note:** The views that you save are specific for a user.
 
 6.  Click **Hide Sub-Techniques** to remove all sub-techniques from the heatmap view.
@@ -94,7 +90,7 @@ Custom views in the MITRE-ATT&amp;CK heat map and navigator help you to save and
 
 ### Create a view
 
-Once you select the required filters from the [Primary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md) or [Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md) filters, click the ellipsis \(…\) button on the Filters header and select **Create a new view**. Enter the custom view name and **Save View**.
+Once you select the required filters from the [Primary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md) or [Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md) filters, select the ellipsis \(…\) button on the Filters header and select **Create a new view**. Enter the custom view name and **Save View**.
 
 ### Default views
 
@@ -104,13 +100,13 @@ Click **Save this as a default view** to directly load the view the next time th
 
 ### Update a view
 
-You can make updates to an existing custom view by modifying the required [Primary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md) or [Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md) filters. Select a custom view, update the filters as required, and then click the ellipsis \(…\) button on the Filters header and select **Update view** to save the filters.
+You can make updates to an existing custom view by modifying the required [Primary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md) or [Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/mitre-att-ck-heatmap-and-navigator.md) filters. Select a custom view, update the filters as required, and then select the ellipsis \(…\) button on the Filters header and select **Update view** to save the filters.
 
 ### Manage custom views
 
 Use the checkboxes next to each custom view to apply the selected custom view filter.
 
-Click the ellipsis \(…\) button next to each custom view name to control the custom views as follows:
+Select the ellipsis \(…\) button next to each custom view name to control the custom views as follows:
 
 -   Set a default view.
 -   Remove a custom view as the default view. This doesn’t delete the custom view.
@@ -123,7 +119,7 @@ To export the saved custom views to JSON files, click ellipsis \(…\) on the Fi
 
 ### Import a view
 
-You can import only JSON files. To import the custom views, click the ellipsis \(…\) button on the Filters header and select **Import view\(json\)**.
+You can import only JSON files. To import the custom views, select the ellipsis \(…\) button on the Filters header and select **Import view\(json\)**.
 
 Review the following conditions when importing views:
 
@@ -185,11 +181,7 @@ Data source
 Data sources that you are collecting in your environment and using to detect MITRE-ATT&amp;CK techniques.Examples are DLL monitoring, and browser extensions.
 
 </td></tr></tbody>
-</table>The following illustration shows all the primary filters available in the MITRE-ATT&amp;CK navigator.
-
-\[Omitted image "mitre-primary-filters.png"\] Alt text: Primary filters.
-
-## Using a heat map with primary and advanced features
+</table>## Using a heat map with primary and advanced features
 
 You can use a heat map with advanced filters to perform an analysis by correlating security incidents with MITRE-ATT&amp;CK information.
 

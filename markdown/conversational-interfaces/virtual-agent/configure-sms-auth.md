@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Conversational SMS Integration with Twilio, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, SMS Twilio, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure SMS authentication
@@ -73,7 +73,7 @@ Role required: virtual\_agent\_admin or admin
 
 
 -   **[Rate limiting policy for SMS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/sms-authentication.md)**  
-Rate limiting policy locks out a user when an invalid or incorrect Soft PIN is entered consecutively for 3 times in a span of 24 hours.
+Rate limiting policy locks out a user when an invalid or incorrect Soft PIN is entered consecutively for three times in a span of 24 hours.
 
 **Parent Topic:**[Configuring Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-sms-twilio-app.md)
 

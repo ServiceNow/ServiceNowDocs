@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-24"
 reading_time_minutes: 2
 keywords: [Add, custom control, Virtual Agent, topic, block]
-breadcrumb: [Customizing Virtual Agent with custom controls, Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use custom controls, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Add a custom control to a Virtual Agent topic or topic block
@@ -32,7 +32,7 @@ Role required: virtual\_agent\_admin or admin
 
 2.  Select the **Asset library** tab.
 
-3.  Open the topic where you will add the custom control.
+3.  In the Asset library, select the topic where you will add the custom control.
 
 4.  In the **Flow** tab, drag the Custom Control icon from the Utilities section of the palette to the appropriate position in the topic flow.
 
@@ -113,7 +113,7 @@ A no-code condition statement or low-code script that specifies a condition for 
 
     Your topic runs in a chat test window.
 
-9.  If no further changes are needed, select **Publish** in the Assistant Designer Asset library header bar.
+9.  If no further changes are needed, select **Publish** in the header bar.
 
 
 ## Result

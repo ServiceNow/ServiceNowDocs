@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/system-property-smart-documents.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate the smart documents skill, Configure, ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure the smart documents skill, Configure, ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # System property for Smart Documents skill

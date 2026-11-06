@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/legacy-scenario-analysis-ov.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -195,13 +195,13 @@ As a scenario analysis owner, when you create a scenario event and add a partici
 
 On the **Responses** tab, the details of the response task such as the response task number, name of the assigned participant, and state of the response task are displayed.
 
-The owner of the scenario event can add a service and a dependency to the response task. The assignee of the response task can complete the response task, add their notes about the scenario event, and update the impact duration of the scenario event.
+The owner of the scenario event can add a service and a dependency to the response task. The assignee of the response task can complete the response task and add their notes about the scenario event. The assignee can also update the impact duration of the scenario event as shown in the following example.
 
 \[Omitted image "sce-event-notes.png"\] Alt text: Notes about the scenario event.
 
 ## Known issue for upgrading from Release 15.x.x to Release 16.x.x
 
-When upgrading from Release 15.x.x to 16.x.x, a response task is not created automatically if a scenario analysis is in the **Analyze** state and a participant is already added. This is a known issue.
+When upgrading from Release 15.x.x to Release 16.x.x, a known issue can occur. If a scenario analysis is in the **Analyze** state and a participant is already added, a response task is not created automatically.
 
 As a workaround for this issue, the Operational Resilience manager must remove the participants from the scenario analysis and add them to the same scenario analysis. The Operational Resilience application then automatically creates a response task for the scenario analysis.
 

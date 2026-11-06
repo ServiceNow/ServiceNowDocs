@@ -1,5 +1,5 @@
 ---
-title: Configure remediation policies on tag audit findings
+title: Configure remediation policies for tag audit findings
 description: Configure and preview remediation options, generate keys, and perform actions to remediate non-compliance or failures that are based on tag audit reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/tag-governance/configure-remediation-tag-governance-.html
@@ -7,12 +7,12 @@ release: australia
 product: Tag Governance
 classification: tag-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Establish policies, Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure remediation policies on tag audit findings
+# Configure remediation policies for tag audit findings
 
 Configure and preview remediation options, generate keys, and perform actions to remediate non-compliance or failures that are based on tag audit reports.
 

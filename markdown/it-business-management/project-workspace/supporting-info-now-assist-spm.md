@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist for SPM supported versions, Now Assist for SPM licensing requirements, Now Assist for SPM application information]
 breadcrumb: [AI skills in Project Workspace, Explore, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
@@ -31,11 +31,11 @@ The ServiceNow Otto for SPM application requires an SPM Pro plus license.
 
 ## Application information
 
-Activate the latest ServiceNow Otto for SPM \(sn\_spm\_gen\_ai\) store app to use the Now Assist skills.
+Activate the latest ServiceNow Otto for SPM \(sn\_spm\_gen\_ai\) store app to use the ServiceNow Otto skills.
 
 This store app has the following dependencies:
 
--   Now Assist for Platform \(sn\_genai\_platform\)
+-   ServiceNow Otto for Platform \(sn\_genai\_platform\)
 -   Strategic Planning
 -   Project Workspace
 -   Enterprise Agile Planning

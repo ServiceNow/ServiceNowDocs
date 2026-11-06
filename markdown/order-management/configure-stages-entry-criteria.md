@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-stages-entry-criteria.html
 release: australia
 topic_type: task
-last_updated: "2026-06-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [approvals, stages, entry criteria, rule groups, configuration]
 breadcrumb: [Set up the environment to manage approvals, Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]

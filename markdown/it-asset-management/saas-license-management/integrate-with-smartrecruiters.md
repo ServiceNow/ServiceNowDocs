@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -77,15 +77,15 @@ If you’re using Software Asset Workspace, the option to create the SmartRecrui
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d83611e384">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d84601e384">
 
 Interface
 
-</th><th align="left" id="d83611e387">
+</th><th align="left" id="d84601e387">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d83611e393">
+</th></tr></thead><tbody><tr><td id="d84601e393">
 
 **Core UI**
 
@@ -96,7 +96,7 @@ Action
 3.  Select **SmartRecruiters Integration Profile**.
 
 
-</td></tr><tr><td id="d83611e435">
+</td></tr><tr><td id="d84601e435">
 
 **Software Asset Workspace**
 
@@ -158,7 +158,7 @@ Type of integration profile. This field is automatically set to **SmartRecruiter
 
         **Note:** The **Download Activity** check box is selected by default. If you clear it, the activity scheduled job **SAM - Refresh &lt;displayname&gt; Activity** isn't created.
 
-        In the **Analyze user activity** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days prior to the current date and view events performed by individual users from the time you create this profile.
+        In the **Analyze user activity from** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days before the current date and view events performed by individual users from the time you create this profile.
 
         **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
@@ -253,7 +253,7 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
@@ -261,7 +261,7 @@ Review all automatically generated reclamation rules to reclaim user subscriptio
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

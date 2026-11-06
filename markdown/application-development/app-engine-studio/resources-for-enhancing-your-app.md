@@ -7,9 +7,9 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Resources for enhancing your app
@@ -37,7 +37,6 @@ Add security
 Add data to your application in App Engine Studio.-   [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/add-data.md)
 -   [Create a blank table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/use-existing-table.md)
 -   [Use a spreadsheet to add data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/upload-multi-sheets.md)
--   [Use a PDF to create data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/pdf-extractor.md)
 -   [Create a data integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/import-map-data-existing-table.md)
 -   [Modify application data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/edit-data.md)
 

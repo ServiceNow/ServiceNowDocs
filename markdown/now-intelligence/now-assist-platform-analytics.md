@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/now-assist-platform-analytics.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics]
 ---

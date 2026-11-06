@@ -7,7 +7,7 @@ release: australia
 product: Service Level Management
 classification: service-level-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Level Management plugins, Configuring Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -55,5 +55,5 @@ When SLA Timer Config API is activated, script includes are installed.
 
 [Activate SLA timeline]()
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

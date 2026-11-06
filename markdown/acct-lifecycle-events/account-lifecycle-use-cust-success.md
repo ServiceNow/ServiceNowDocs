@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-use-cust-success.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Customer Success Management]
 ---
@@ -13,8 +13,6 @@ breadcrumb: [Use, Customer Success Management]
 # Customer success
 
 Learn how your organization can use the customer success solution to engage with your customers, mitigate risks by running success plays, and identify opportunities for expansion and renewals.
-
-**Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
 
 -   **[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-dashboards.md)**  
 Monitor engagement health, portfolio performance, and risk trends using the customer success dashboards.
@@ -32,6 +30,10 @@ View the customer success case records or case task records on the Customer Serv
 The Related Items component provides access to related lists associated with engagements, customer plays, and internal plays
 -   **[AI search with recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-ai-search.md)**  
 Use AI search with recommended actions to create contexts and search for relevant records.
+-   **[Request ServiceNow Otto capabilities for Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-otto-request-panel.md)**  
+Request generative AI capabilities for Customer Success Management, such as an engagement summary or a renewal insight, by using the conversational interface in the ServiceNow Otto panel.
+-   **[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) adaptive desktop actions for customer experimentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/now-assist-adaptive-desktop-actions.md)**  
+Use ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) adaptive desktop actions in Customer Success Management to test prompt-driven models on your workflows.
 
 **Parent Topic:**[Use Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-customer-success-landing-page.md)
 

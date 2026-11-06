@@ -1,18 +1,18 @@
 ---
 title: Create a connection for ServiceNow Quote Experience calls
-description: Add a connection in CPQ to define the host, path, and authentication credentials used when ServiceNow Quote Experience calls an external system during a transaction.
+description: Add a connection in ServiceNow CPQ to define the host, path, and authentication credentials used when ServiceNow Quote Experience calls an external system during a transaction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-a-connection.html
 release: australia
 topic_type: task
-last_updated: "2026-04-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrations, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a connection for ServiceNow Quote Experience calls
 
-Add a connection in CPQ to define the host, path, and authentication credentials used when ServiceNow Quote Experience calls an external system during a transaction.
+Add a connection in ServiceNow CPQ to define the host, path, and authentication credentials used when ServiceNow Quote Experience calls an external system during a transaction.
 
 ## Before you begin
 
@@ -20,9 +20,9 @@ Role required: admin
 
 ## About this task
 
-Connections are used in transaction rules only. Each connection stores the host URL, an optional path, and authentication credentials. When you configure an integration in ServiceNow Quote Experience, you select a connection and CPQ uses the stored credentials to authenticate outbound requests during a transaction.
+Connections are used in transaction rules only. Each connection stores the host URL, an optional path, and authentication credentials. When you configure an integration in ServiceNow Quote Experience, you select a connection and ServiceNow CPQ uses the stored credentials to authenticate outbound requests during a transaction.
 
-To call an external system from a configuration rule instead, configure an external connection. For more information, see [Set up External connections for configuration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/external-connections.md).
+To call an external system from a configuration rule instead, configure an external connection.
 
 The following authentication types are available: bearer token, OAuth client credentials, and JWT client credentials.
 
@@ -48,15 +48,15 @@ The following authentication types are available: bearer token, OAuth client cre
 
 9.  In the **Authentication type** field, select the credential method that the external system requires, then complete the fields for that authentication type.
 
-<table id="choicetable_ets_krs_djc"><thead><tr><th align="left" id="d58039e224">
+<table id="choicetable_ets_krs_djc"><thead><tr><th align="left" id="d59211e211">
 
 Authentication type
 
-</th><th align="left" id="d58039e227">
+</th><th align="left" id="d59211e214">
 
 Fields to complete
 
-</th></tr></thead><tbody><tr><td id="d58039e233">
+</th></tr></thead><tbody><tr><td id="d59211e220">
 
 **Bearer token**
 
@@ -64,7 +64,7 @@ Fields to complete
 
 In the **Authentication token** field, enter the token used to authenticate outbound requests.
 
-</td></tr><tr><td id="d58039e245">
+</td></tr><tr><td id="d59211e232">
 
 **OAuth client credentials**
 
@@ -76,7 +76,7 @@ In the **Authentication token** field, enter the token used to authenticate outb
 -   **Scope** \(optional\): the permissions granted to the token on the external system, if required.
 
 
-</td></tr><tr><td id="d58039e277">
+</td></tr><tr><td id="d59211e264">
 
 **JWT client credentials**
 
@@ -110,8 +110,6 @@ In the **Authentication token** field, enter the token used to authenticate outb
 ## Result
 
 The connection is saved and available for selection when configuring integrations.
-
-**Parent Topic:**[Quote transaction integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-integrations.md)
 
 **Related topics**  
 

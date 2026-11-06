@@ -7,7 +7,7 @@ release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -71,11 +71,11 @@ The SAFe PI dashboard provides the following details:
 
 -   **Percent Completed**
 
-    Indicates the percentage of work that has been completed in the PI using story points. This widget lets you see at a glance how much work has been completed in the PI. Together with the adjacent Time Elapsed widget, these widgets let you easily see whether you are completing work at a rate consistent with achieving the PI goal on schedule.
+    Indicates the percentage of work that has been completed in the PI using story points. This widget lets you see at a glance how much work has been completed in the PI. Together with the adjacent Time Elapsed widget, these widgets let you see whether you are completing work at a rate that meets the PI goal on schedule.
 
 -   **Time Elapsed**
 
-    Indicates the percentage of time that has elapsed between the start date and planned end date of the PI. Together with the adjacent Percent Completed widget, these widgets let you easily see whether you are completing work at a rate consistent with achieving the PI goal on schedule.
+    Indicates the percentage of time that has elapsed between the start date and planned end date of the PI. Together with the adjacent Percent Completed widget, these widgets let you see whether you are completing work at a rate that meets the PI goal on schedule.
 
 -   **Features**
 
@@ -234,7 +234,7 @@ Identify the time taken for each story in the PI to move from an in-progress sta
 
  From the Story State section towards the right of the report, you can filter the report to view the cycle time of the stories for the selected states. The chart displays the cycle time for each story as the cumulative sum of all duration of the selected states.
 
- If there are too many stories at any area of the chart and the bubbles appear crowded on the report, you can zoom in that particular area of the report for a clearer view.
+ If the bubbles appear crowded in an area of the chart, zoom in on that area for a clearer view.
 
  \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 

@@ -7,9 +7,9 @@ release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-26"
 reading_time_minutes: 3
-breadcrumb: [Explore, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Explore, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # General guidelines and use cases for Developer Sandboxes
@@ -24,7 +24,7 @@ Entitlements can be stacked, supporting up to 30 sandboxes per instance.
 
 **Note:** The number of sandboxes does not impact the instance performance.
 
-Users can be signed into the base instance and multiple sandboxes at the same time. Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-installing.md).
+Users can be signed into the base instance and multiple sandboxes at the same time. Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\), enabling it on the base instance also authenticates Developer Sandboxes using the same credentials. For information on enabling SSO, see [Single sign-on for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-sso.md).
 
 **Note:** Instances with vanity URLs support SSO.
 
@@ -60,7 +60,7 @@ The following table compares how non-production instances and Developer Sandboxe
 |Concurrent workstreams are isolated or minimally aligned|Development activities follow a consistent cadence.|
 |Durable environment for long-term changes|Work can be completed in a temporary environment and committed to version control.|
 
-For more information on setting up sandboxes on instances, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-installing.md).
+For more information on setting up sandboxes on instances, see [Developer Sandboxes installation and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dsb-configuring-landing.md).
 
 ## Developer Sandboxes and ServiceNow Fluent
 
@@ -75,4 +75,6 @@ You can use Developer Sandboxes with System Update Sets, but a more forward-look
 ## Developer Sandboxes FAQs
 
 See the ServiceNow Community article on [Developer Sandboxes: FAQ and Getting Started Guide](https://www.servicenow.com/community/app-engine-blog/developer-sandboxes-faq-and-getting-started-guide/ba-p/3433961).
+
+**Parent Topic:**[Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/exploring-sandboxes.md)
 

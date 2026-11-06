@@ -7,14 +7,16 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [List reports, Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [List reports, Core UI Report types, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Group records in list reports
 
 Grouped list reports can display only the records in each group that are configured to appear in a normal list. You can group rows of information in list reports by specific fields. You cannot group list reports by service catalog variables.
+
+**Important:** This topic is about Core UI List reports. For information about the newer Platform Analytics lists, see [Create a Platform Analytics list visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-analytics-list.md).
 
 A list configured to display 100 records at a time can show only the first 100 records, regardless of the number of records in that group. Paging is not available within groups, and you cannot access the remaining records without leaving the grouped list. To access all the records in a group:
 

@@ -7,9 +7,9 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Create Core UI reports from MetricBase time-series data
@@ -22,9 +22,15 @@ You must have the MetricBase product. To get it, see [Requesting the MetricBase 
 
 Roles required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
+## About this task
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
+1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
+
+    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
 
 2.  On the **Data** tab, enter a report name that reflects the information in the report.
 
@@ -43,11 +49,11 @@ Roles required: itil, report\_user, report\_group, report\_global, report\_admin
 
 4.  Choose an existing MetricBase table.
 
-5.  Select **Next**.
+5.  Click **Next**.
 
-6.  On the **Type** tab, select the type of report to create and select **Next**.
+6.  On the **Type** tab, select the type of report to create and click **Next**.
 
-    Only time series reports are available. For information on specific reports types, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md). To view the updated report, select **Run**.
+    Only time series reports are available. For information on specific reports types, see [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md). To view the updated report, click **Run**.
 
 7.  On the **Configure** tab, fill in the following fields and select **Next**.
 
@@ -73,7 +79,7 @@ Metric
 
 </td><td>
 
-Metrics determined in your MetricBase database. Select the plus icon \(**+**\) to add multiple metrics. For each metric, you can set one or more transforms. Select the minus icon \(**-**\) to remove a metric.
+Metrics determined in your MetricBase database. Click the plus icon \(**+**\) to add multiple metrics. For each metric, you can set one or more transforms. Click the minus icon \(**-**\) to remove a metric.
 
 </td></tr><tr><td>
 
@@ -111,7 +117,7 @@ Select this option to show report data in a list below the report. The list appe
 
 9.  On the **Style** tab, fill in the fields as appropriate to configure the appearance of the report.
 
-    See the Style options section of the report that you're creating for more information.
+    See the Style options section of the report that you are creating for more information.
 
     -   [Area and spline report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_CreateAreaAndSplineCharts.md)
     -   [Line report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_CreateLineCharts.md)

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-retail-store-services.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prebuilt Retail case types, Retail case types, Explore, Retail]
+breadcrumb: [Retail case types, Explore, Retail]
 ---
 
 # Store inquiry case
@@ -31,5 +31,5 @@ By using the store inquiry case type, retail stores can: 
 
 For information on the components installed with store inquiry case type, see [Components installed with Retail Store Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-components-store-services.md).
 
-**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types-revamp.md)
+**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types.md)
 

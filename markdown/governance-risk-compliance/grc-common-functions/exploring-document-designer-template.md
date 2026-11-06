@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Microsoft Word based audit report templates using Document designer
 
 Create and customize audit report templates using a Word template. You can configure this template to match your specific needs. Once the template is set up, it can be applied to one or more audit engagements, automatically generating audit reports in Word format.
 
-This feature enables users to build audit report templates using a Word template. They can configure the template, apply it to one or more audit engagements, and generate the audit report in Word format. The generated report can then be collaboratively edited using Document designer, streamlining the review and approval process.
+This feature enables customers to build audit report templates using a Word template. They can configure the template, apply it to one or more audit engagements, and generate the audit report in Word format. The generated report can then be collaboratively edited using Document designer, streamlining the review and approval process.
 
 ## Benefits of the Word-based audit report templates
 

@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Process Mining for Workday and Salesforce, Import external data, Process Mining, Platform Analytics]
 ---

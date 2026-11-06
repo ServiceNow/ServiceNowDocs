@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/service-order-mgt-service-order-tasks.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Approve and fulfill service orders, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -54,8 +54,8 @@ To learn more about order fallout, see [Managing order fallout](https://raw.gith
     |Action|Description|
     |------|-----------|
     |**Save the updated order task**|Select **Save**.|
-    |**Delete the order task**|Select the options icon \[Omitted image "more-options.png"\] Alt text: next to the **Save** button, and then select **Delete**.|
-    |**Create a fallout record**|Select the options icon \[Omitted image "more-options.png"\] Alt text: next to the **Save** button, and then select **Create Fallout**. To learn more, see [Create a manual fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-manual-order-fallout-record.md).|
+    |**Delete the order task**|Select the options icon \[Omitted image "Form\_MoreOptions.png"\] Alt text: next to the **Save** button, and then select **Delete**.|
+    |**Create a fallout record**|Select the options icon \[Omitted image "Form\_MoreOptions.png"\] Alt text: next to the **Save** button, and then select **Create Fallout**. To learn more, see [Create a manual fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-manual-order-fallout-record.md).|
 
 
 ## Result

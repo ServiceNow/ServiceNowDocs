@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use AI agent or agentic workflows, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -20,7 +20,7 @@ Use the Monitor project tasks agentic workflow to autonomously generate a projec
 
 The Monitor project tasks agentic workflow can help to trigger a project insights email and provide real-time visibility into key project updates. Use the project insights generation skill to generate a project summary and send it as an email to the project managers.
 
-This proactive monitoring and alert system saves time and effort for project managers, ensuring that they can respond promptly to keep project schedules on track. By leveraging these AI agents, project managers can optimize their operations and enhance the overall project efficiency.
+This proactive monitoring and alert system saves time and effort for project managers, ensuring that they can respond promptly to keep project schedules on track. By using these AI agents, project managers can optimize their operations and enhance the overall project efficiency.
 
 The email summary includes the following sections:
 

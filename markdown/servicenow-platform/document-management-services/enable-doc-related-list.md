@@ -7,7 +7,7 @@ release: australia
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Linking documents to a parent record, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Navigate to the record, \(for example, Incident, Interaction, and so on\).
 
-2.  Select the Additional Actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\) and select **Configure** &gt; **Related Lists**.
+2.  Select the Additional Actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\) and select **Configure** &gt; **Related Lists** .
 
 3.  Move **Documents** from the Available list to the Selected list.
 

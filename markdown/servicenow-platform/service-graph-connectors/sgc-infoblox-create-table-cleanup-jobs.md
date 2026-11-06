@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Infoblox, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ Role required: admin
 
 1.  Set the application scope to **CMDB CI Class Models** by using the application picker.
 
-    The IPAM tables \(Managed Network, IP Pool, Subnet, and Allocated IP Address\) belong to the CMDB CI Class Models scope. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+    The IPAM tables \(Managed Network, IP Pool, Subnet, and Allocated IP Address\) belong to the CMDB CI Class Models scope. For more information, see Application picker.
 
 2.  Navigate to **All** &gt; **System Maintenance** &gt; **Table Cleanup**.
 

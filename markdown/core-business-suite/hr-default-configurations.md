@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/hr-default-configurations.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install Human Resources, Install Core Business Suite applications, Configure, Core Business Suite]
 ---
@@ -19,7 +19,7 @@ These default configurations are applied automatically when Apply default config
 |configuration|Description|
 |-------------|-----------|
 |Notifications|Configures standard notifications to support Human Resources workflows and employee communication.|
-|Intake forms|Activates required intake forms for submitting Human Resources requests and capturing request details.|
+|Record producers|Activates required record producers for submitting Human Resources requests and capturing request details.|
 |Human Resources services|Configures required Human Resources services that define service offerings and support request routing and fulfillment.|
 
 **Parent Topic:**[Install Human Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/install-human-resources.md)

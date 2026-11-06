@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/integrate-external-aia.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Integrate external AI agents

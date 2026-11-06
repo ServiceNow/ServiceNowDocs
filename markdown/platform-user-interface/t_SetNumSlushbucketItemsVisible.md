@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_SetNumSlushbucketItemsVisible.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure items on forms or in lists using a list collector, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -36,5 +36,5 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-platadm.t_AddAPropertyUsingSysPropsList]
+[Add a property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 

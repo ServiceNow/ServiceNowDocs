@@ -7,7 +7,7 @@ release: australia
 product: Legal Investigations
 classification: legal-investigations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Requests, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Open the Anonymous Report Center portal either via Employee Center portal or using a direct URL.
 
-<table id="choicetable_bkg_zx3_vfc"><thead><tr><th align="left" id="d388443e89">
+<table id="choicetable_bkg_zx3_vfc"><thead><tr><th align="left" id="d387687e89">
 
 Option
 
-</th><th align="left" id="d388443e92">
+</th><th align="left" id="d387687e92">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d388443e98">
+</th></tr></thead><tbody><tr><td id="d387687e98">
 
 **From Employee Center**
 
@@ -51,7 +51,7 @@ Steps
 3.  In the Ethics and Compliance request category page, select **Anonymous Ethics Complaint**.
 
 
-</td></tr><tr><td id="d388443e145">
+</td></tr><tr><td id="d387687e145">
 
 **Using direct URL that does not require a log in**
 
@@ -59,7 +59,7 @@ Steps
 
 Navigate to the Anonymous Report Center by accessing your instance URL and adding a /arc suffix. For example, https://example.com/arc
 
-</td></tr><tr><td id="d388443e154">
+</td></tr><tr><td id="d387687e154">
 
 **From Legal Service Portal**
 

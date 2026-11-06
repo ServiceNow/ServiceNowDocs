@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/configure-dashboard-summary.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure]
 breadcrumb: [Dashboard Summary, ServiceNow Otto for Platform Analytics, Platform Analytics]

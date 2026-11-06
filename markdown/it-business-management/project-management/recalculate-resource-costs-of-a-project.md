@@ -121,6 +121,10 @@ Option for including the planned cost of a Confirmed or Allocated plan.The optio
 
 [Create and manage waterfall projects]()
 
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
+
 [Update a project]()
 
 [Copy a project]()

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/config-db-in-ac.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [How to change dashboard visibility, How to add dashboard description, How to certify a dashboard, How to set dashboard owner, How to see dashboard creator, How to see whom the dashboard has been shared with, How to make a dashboard available on a workspace]
 breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -19,7 +19,7 @@ You can change a dashboard name, add a description, certify it, configure visibi
 
 You can edit **Dashboard Details** for both dashboards created in UI Builder and dashboards created with the inline editor.
 
-Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards.
+Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards. Users who only have viewing rights can make changes to the dashboard's content, but aren't able to save those changes.
 
 ## Procedure
 

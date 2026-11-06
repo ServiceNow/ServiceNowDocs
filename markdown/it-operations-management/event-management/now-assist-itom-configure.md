@@ -1,5 +1,5 @@
 ---
-title: Configure ServiceNow Otto for IT Operations Management \(ITOM\)
+title: Configure ServiceNow Otto for ITOM
 description: Enable Event Management users to view alert analyses that ServiceNow Otto for ITOM creates using generative AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/now-assist-itom-configure.html
@@ -7,13 +7,13 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, configuration]
 breadcrumb: [Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Configure ServiceNow Otto for IT Operations Management \(ITOM\)
+# Configure ServiceNow Otto for ITOM
 
 Enable Event Management users to view alert analyses that ServiceNow Otto for ITOM creates using generative AI.
 

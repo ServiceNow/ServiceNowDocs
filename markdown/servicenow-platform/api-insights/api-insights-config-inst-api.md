@@ -7,7 +7,7 @@ release: australia
 product: API Insights
 classification: api-insights
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CMDB administrator tasks, Configure, API Insights, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Set options to import custom and ServiceNow APIs from your instance into the CMD
 
 ## Before you begin
 
-Configure the **Import ServiceNow API to API Insights** scheduled job to automatically import configured APIs from your ServiceNow instance into the API Insights workspace at regular intervals. For more information, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md).
+Configure the **Import ServiceNow API to API Insights** scheduled job to automatically import configured APIs from your ServiceNow instance into the API Insights workspace at regular intervals. For more information, see .
 
 Role required: sn\_cmdb\_admin
 

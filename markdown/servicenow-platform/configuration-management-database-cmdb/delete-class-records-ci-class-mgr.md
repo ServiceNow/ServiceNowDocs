@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_cmdb\_admin or itil\_admin
 
 For information about policy-based, large scale automated CI deletions, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
 
-**Note:** You can't delete base system tables. For information about deleting custom tables, see [Deleting custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DeleteATable.md).
+**Note:** You can't delete base system tables. For information about deleting custom tables, see .
 
 ## Procedure
 
@@ -52,17 +52,17 @@ After deleting CIs that a dependent CI depends on, the dependent relationship is
 **Related topics**  
 
 
-[Dependent CIs management]()
-
 [CMDB record types]()
 
 [Related Lists of CI components]()
 
-[Create a CI class]()
+[Principal Class]()
 
-[Reclassify a CI]()
+[Dependent CIs management]()
+
+[Create a CI class]()
 
 [View and edit class definitions and metadata]()
 
-[Principal Class]()
+[Reclassify a CI]()
 

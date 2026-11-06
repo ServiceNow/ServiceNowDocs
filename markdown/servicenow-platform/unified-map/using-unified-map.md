@@ -7,7 +7,7 @@ release: australia
 product: Unified Map
 classification: unified-map
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [use]
 breadcrumb: [Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -40,7 +40,7 @@ Use any of the following methods to open Unified Map:
 -   [Use filters to specify which nodes should appear on a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-configure-filters.md)
 -   [View a summary of map contents on the Overview panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-show-overview-panel.md)
 -   [View the attributes of a CI or a relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-show-attributes.md)
--   [View service instances for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-show-app-service.md)
+-   [View service instances on Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-show-app-service.md)
 -   [View related items for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-show-related-items.md)
 -   [Viewing related items on the Unified Map timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-timeline-working-on.md)
 -   [View historical changes for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-show-ci-changes.md)

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/service-bridge-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact reference, Impact]
+breadcrumb: [Data synchronization reference, Impact reference, Impact]
 ---
 
 # Secure data transfer using Service Bridge
@@ -22,5 +22,5 @@ For more information on Service Bridge, see [Service Exchange](https://raw.githu
 
 For more information on Impact table mapping, see [Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/table-field-level-mapping.md) and [Dependent applications installed with the Impact Store App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-sync-idi-store.md).
 
-**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-reference.md)
+**Parent Topic:**[Data synchronization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-synchronization-reference.md)
 

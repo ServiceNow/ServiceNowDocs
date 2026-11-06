@@ -1,7 +1,7 @@
 ---
 title: Route Live Connect calls to Read Replica
 description: Route Live Connect calls to a Read Replica database to reduce the processing load on the primary database in your ServiceNow instance.
-locale: en-US
+locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/web-services/routing-sql-api-calls-to-read-replica.html
 release: australia
 product: Web Services
@@ -48,6 +48,10 @@ Query routing directs SELECT queries to a Read Replica database instead of the p
 
 6.  Select **Update**.
 
+
+## Result
+
+Live Connect SELECT queries are routed to the Read Replica database. The primary database handles only write operations.
 
 **Parent Topic:**[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/configuring-sql-api.md)
 

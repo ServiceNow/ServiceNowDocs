@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/configure-clone.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,7 +32,7 @@ Register your instance for cloning and create a custom clone profile.
 
     Exclude a table to create an empty but usable table on the target instance.
 
-5.  [Create cleanup scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-cleanup-script.md).
+5.  [Create cleanup scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-cleanup-script-latest.md).
 
     Use cleanup scripts to automate post-clone steps or to modify data after your clone.
 

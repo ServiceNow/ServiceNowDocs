@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Concierge agentic workflow, Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
     The email address for Workplace Concierge is configured by your admin.
 
-<table id="choicetable_lpt_w3n_r3c"><thead><tr><th align="left" id="d417860e75">
+<table id="choicetable_lpt_w3n_r3c"><thead><tr><th align="left" id="d416679e75">
 
 Choice
 
-</th><th align="left" id="d417860e78">
+</th><th align="left" id="d416679e78">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d417860e84">
+</th></tr></thead><tbody><tr><td id="d416679e84">
 
 **Calendar invite**
 
@@ -44,7 +44,7 @@ Description
 
 Add Workplace Concierge as a guest to the calendar invite.Workplace Concierge extracts the meeting date and time, host identity, location, and attendee email addresses.
 
-</td></tr><tr><td id="d417860e100">
+</td></tr><tr><td id="d416679e100">
 
 **Email thread**
 

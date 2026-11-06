@@ -7,10 +7,10 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [join, subscribe, reservation waitlist, waitlist]
-breadcrumb: [Manage and configure reservation waitlist, Manage employee reservations, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reservation Waitlist data model, Manage employee reservations, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a reservation waitlist
@@ -187,9 +187,5 @@ Select an end time for your waitlist.**Note:** End time must be after start time
     **Note:** When the employee has an waitlist for the same module, date, and overlapping time, the waitlist record is created and the employee is informed. Resolving a waitlist item, will not complete any other overlapping items. These remain in the queue until these are cancelled, confirmed, or expired.
 
 
-**Parent Topic:**[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)
-
-**Previous topic:**[Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/waitlist-configuration.md)
-
-**Next topic:**[Create a schedule job for waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/schedule-job-waitlist.md)
+**Parent Topic:**[Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/waitlist-configuration.md)
 

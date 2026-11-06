@@ -7,9 +7,9 @@ release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 111
-breadcrumb: [Quick start tests, Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 110
+breadcrumb: [Quick start tests, Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Available quick start tests by application or feature
@@ -18,7 +18,7 @@ Validate that your instance still works after you make any configuration change 
 
 **Danger**
 
-By default, the system property that is used to run automated tests is turned off to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-enable-tests.md).
+By default, the system property that is used to run automated tests is disabled to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-enable-tests.md).
 
 ## Agile Development 2.0
 
@@ -223,7 +223,7 @@ To learn more about Enterprise Architecture \(formerly Application Portfolio Man
 
 ## Assessments and Surveys
 
-Assessments and Surveys quick start tests require activating the Automated Test Framework for Survey plugin \(com.glide.automated\_testing\_impl. Survey\).
+Assessments and Surveys quick start tests require activating the Automated Test Framework for Survey plugin \(com.glide.automated\_testing\_impl.survey\).
 
 |Name|Description|Release version|
 |----|-----------|---------------|
@@ -531,7 +531,7 @@ Paris
 |Test|Description|Release version|
 |----|-----------|---------------|
 |CMDB REL EDITOR:Relationship Editor|Check addition of relations to a CI and deletion of relations from a CI using sn\_cmdb\_editor and itil user roles.|New York|
-|CMDB REL FORMATTER:Relationship Formatter|Check accuracy of CI information, relationship types, relationships, associated records such as change tickets, and settings such as CMDB views \(relationship filters\), displayed for a specific CI in relationship formatter using sn\_cmdb\_editor and itil user roles.|New York|
+|CMDB REL FORMATTER:Relationship Formatter|Check CI information, relationship types, relationships, associated records, and CMDB views displayed in relationship formatter using sn\_cmdb\_editor and itil user roles.|New York|
 
 |Test|Description|Release version|
 |----|-----------|---------------|
@@ -567,7 +567,7 @@ All Customer Service Management quick start tests require activating the Custome
 -   Case Playbook for Onboarding \(sn\_onboarding\)
 -   Consumer Service Portal \(com.glide.service-portal.consumer-portal\)
 -   CSM Contributor User \(com.snc\_csm\_contributor\_user\)
--   CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
+-   Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
 -   Customer Household Data Model \(com.snc.household\)
 -   Customer Service Management for Orders \(com.snc.csm.order\)
 -   Customer Service Portal \(com.glide.service-portal.customer-portal\)
@@ -997,7 +997,7 @@ CSM - Employee creating case OBO customer
 
 </td><td>
 
-As an employee with the proxy contact role \(sn\_customerservice\_proxy\_contact\), create a case from the self-service portal on behalf of a customer. **Note:** Requires the CSM Extension for Proxy Contacts.
+As an employee with the proxy contact role \(sn\_customerservice\_proxy\_contact\), create a case from the self-service portal on behalf of a customer. **Note:** Requires the Customer Proxy Contacts.
 
 </td><td>
 
@@ -1618,7 +1618,7 @@ CSP - Create product case as an internal unified consumer from CSP Portal
 
 </td><td>
 
-This test verifies the functionality of creating a product case as an internal unified consumer from the CSP portal in conjunction with the Customer Service and Consumer Service Portal plugins, using the Customer Service Management \(CSM\) demo data plugin.
+Verifies creating a product case as an internal unified consumer from the CSP portal. Requires the Customer Service and Consumer Service Portal plugins with the Customer Service Management \(CSM\) demo data plugin.
 
 </td><td>
 
@@ -1630,7 +1630,7 @@ CSP - Create product case as an external unified consumer from CSP Portal
 
 </td><td>
 
-This test verifies the functionality of creating a product case as an external unified consumer from the CSP portal in conjunction with the Customer Service and Consumer Service Portal plugins, using the Customer Service Management \(CSM\) demo data plugin.
+Verifies creating a product case as an external unified consumer from the CSP portal. Requires the Customer Service and Consumer Service Portal plugins with the Customer Service Management \(CSM\) demo data plugin.
 
 </td><td>
 
@@ -2154,7 +2154,7 @@ Essential SAFe: Team PI Objective tests
 
 Verify the functionality of creating and updating team PI Objectives-   Verify that you can create a team-level PI objective
 -   Verify that you can update the created PI objective with the planned business value \(PBV\) and actual business value \(ABV\)
--   Verify that the percentage of business value achieved is computed as the percentage of ABV complete for committed PI objectives compared to the team PBV in the PI
+-   Verify that the percentage of business value achieved is computed as the percentage of ABV complete for committed PI objectives compared to team PBV
 
 </td><td>
 
@@ -2585,7 +2585,7 @@ Create a time worked entry as a dispatcher or qualifier
 
 </td><td>
 
-Australia
+Brazil
 
 </td></tr><tr><td>
 
@@ -2600,7 +2600,7 @@ Flag a work order task from CSM/FSM Configurable workspace
 
 </td><td>
 
-Australia
+Brazil
 
 </td></tr></tbody>
 </table>## Finance Close Automation
@@ -2639,7 +2639,7 @@ Granular Delegation quick start tests require activating the Granular Delegation
 
 |Test|Description|Release version|
 |----|-----------|---------------|
-|\[Delegation\] Admin - Adding a delegation rule with delegator and delegate user criteria|Ensures a delegate or delegator honors the user criteria assigned to an HR task.|Australia|
+|\[Delegation\] Admin - Adding a delegation rule with delegator and delegate user criteria|Ensures a delegate or delegator honors the user criteria assigned to an HR task.|Brazil|
 
 ## GRC Audit Management
 
@@ -2675,7 +2675,7 @@ GRC: Create and process a milestone
 
 </td><td>
 
-Create a milestone in an engagement. The due date cannot be in the past and the completion date cannot be in the future. For a milestone in open state, the percent complete is 0 and changes when the milestone state changes.
+Create a milestone in an engagement. The due date cannot be in the past and the completion date cannot be in the future. For a milestone in open state, the percent complete is 0 and changes with the milestone state.
 
 </td><td>
 
@@ -2687,7 +2687,7 @@ GRC: Cost and Resource plan rollup
 
 </td><td>
 
-Create an audit plan and associate an engagement to it. Add a cost plan and resource plan to this engagement. Notice that these costs are rolled up to the plan. Any edits to these costs in the engagement are reflected in the plan.
+Create an audit plan and associate an engagement to it. Add a cost plan and resource plan to this engagement. Notice that these costs are rolled up to the plan. Any edits to these costs in engagement reflects in the plan.
 
 </td><td>
 
@@ -2699,7 +2699,7 @@ GRC: Create Engagement Project Manual and automatic
 
 </td><td>
 
-On an engagement in the validate state, perform the Enable advanced planning ui-action. Notice that an engagement project gets created. When the state of an engagement associated to an audit plan having "Advanced planning capabilities" is changed to validate, an engagement project gets created automatically.
+On an engagement in the validate state, perform the Enable advanced planning ui-action. An engagement project gets created. When the state of an engagement associated to an audit plan having "Advanced planning capabilities" is changed to validate, an engagement project gets created automatically.
 
 </td><td>
 
@@ -2711,7 +2711,7 @@ GRC: Auditable Unit with Detailed Risk Assessment
 
 </td><td>
 
-Create an Auditable unit with method as "Detailed Risk Assessment." Request for Assessing the Risk Assessment by adding the Assessor. After the assessor responds and marks Assessment as Complete, the risk assessment fields are automatically updated.
+Create an Auditable unit with method as "Detailed Risk Assessment" and request for Assessing the Risk Assessment by adding the Assessor. Once the assessor responds and marks Assessment as Complete after performing the control assessment and residual assessment, the risk assessment fields are automatically updated.
 
 </td><td>
 
@@ -3492,7 +3492,7 @@ Paris
 
 ## Knowledge Management
 
-Knowledge Management quick start tests require activating the following plugins: Knowledge Management Core \(com.glideapp.knowledge\), Knowledge Management Advanced Installer \(com.snc.knowledge\_advanced.installer\), Knowledge Blocks \(com.snc.knowledge\_blocks\), and Customer Service Management Demo Data \(com.snc.customerservice.demo\).
+Knowledge Management quick start tests require activating the Knowledge Management Core plugin \(com.glideapp.knowledge\), the Knowledge Management Advanced Installer plugin \(com.snc.knowledge\_advanced.installer\), and the Knowledge Blocks plugin \(com.snc.knowledge\_blocks\). The tests also require activating the Customer Service Management Demo Data plugin \(com.snc.customerservice.demo\).
 
 <table id="table_whf_nfg_h1c"><thead><tr><th>
 
@@ -3915,7 +3915,7 @@ Madrid
 
 ## Predictive Intelligence
 
-Predictive Intelligence quick start tests require activating the Predictive Intelligence \[com.glide.platform\_ml\] plugin. To execute critical upgrade tests on existing machine learning solutions, create a basic authorization profile named ml\_atf in the Basic Auth Configurations table \(sys\_auth\_profile\_basic.list\). The user attached to the ml\_atf authorization profile must have the ml\_admin role.
+Predictive Intelligence quick start tests require activating the Predictive Intelligence \[com.glide.platform\_ml\] plugin. To execute critical upgrade tests on existing machine learning solutions, create a basic authorization profile named ml\_atf in the Basic Auth Configurations table \(sys\_auth\_profile\_basic.list\). To run the tests successfully, the user attached to the ml\_atf authorization profile must have the ml\_admin role.
 
 |Test|Description|
 |----|-----------|
@@ -4459,7 +4459,7 @@ Validate project preference "close project milestone tasks when they change to w
 
 </td><td>
 
-Validate that milestone tasks are closed when their state is changed to Work in Progress. This test uses the project preference "close project milestone tasks when they change to work state".
+Validate that milestone tasks are closed when their state changes to Work in Progress. The project preference "close project milestone tasks when they change to work state" must be set.
 
 </td><td>
 
@@ -4471,7 +4471,7 @@ Validate project preference "Enable move project for WIP projects"
 
 </td><td>
 
-Validate that the project start date changes appropriately for a project in WIP state. This test uses the project preference "Enable move project for WIP projects".
+Validate that the project start date changes appropriately for a WIP project after setting the "Enable move project for WIP projects" preference.
 
 </td><td>
 
@@ -4483,7 +4483,7 @@ Validate project preference "Rollup project start date from tasks"
 
 </td><td>
 
-Validate that the start date of a project task does not roll up to the project. This test deselects the project preference "Rollup project start date from tasks" and verifies behavior when project planned dates differ from the project task start date.
+Validate that the project task start date does not roll up to the project after deselecting the "Rollup project start date from tasks" preference.
 
 </td><td>
 
@@ -4508,7 +4508,7 @@ Validate Planned start date of a project can be shifted by using the Move projec
 
 </td><td>
 
-Validate that the Planned start date can be updated to a later or earlier date using the Move project related link.
+Validate that the Planned start date can be updated to a later or earlier date using the Move project related link for projects in Planning or Open state.
 
 </td><td>
 
@@ -4633,7 +4633,7 @@ Verify aggregated cost of all resource plans roll up to the corresponding projec
 
 </td><td>
 
-Validate that the aggregated cost of all resource plans on a project or demand roll up to the Planned Cost and Allocated Cost fields. Verify that costs also roll up to the Resource Cost section of respective projects and demands.
+Validate that the aggregated cost of all resource plans on a project or demand roll up to the Planned Cost and Allocated Cost fields. Verify the costs also roll up to the Resource Cost section of respective projects and demands.
 
 </td><td>
 
@@ -4735,7 +4735,7 @@ Validate that actual hours in operational resource plan and time card are equal
 
 </td><td>
 
-Validate that when a time card category is mapped with an operational work type, the actual hours match between the resource plan and time card after submission.
+Validate that a time card category is mapped with an operational work type. On submitting the time card, verify that the actual hours in the resource plan and time card are equal.
 
 </td><td>
 
@@ -4830,7 +4830,7 @@ SAM - Oracle PaaS BYOL
 </td><td>
 
 -   Validates the addition of the new Serverless Hardware \[cmdb\_ci\_serverless\_hardware\] table, which stores information about PaaS devices.
--   Validates the license compliance of Oracle Database in Amazon Web Services \(AWS\) PaaS environments.
+-   Validates the license compliance of Oracle Database servers in Amazon Web Services \(AWS\) PaaS environments.
 
  **Note:** Requires the Software Asset Management Professional for Oracle \(com.snc.samp.oracle\) plugin and the CMDB CI Class Models store application.
 
@@ -5004,7 +5004,7 @@ SAM - Software Entitlement Creation Using Custom PPN
 
 </td><td>
 
-Creates a custom software product, a custom DMAP for the custom product, a custom Part Number for the custom DMAP, and a software entitlement using the custom Part Number. Verifies that a software model is automatically created.
+Creates a custom software product, custom DMAP, custom Part Number, and software entitlement using the custom Part Number. Verifies that a software model is automatically created.
 
 </td><td>
 
@@ -5338,7 +5338,7 @@ Zurich
 
 ## Service Level Management
 
-Service Level Management quick start tests require activating the Service Level Management - ATF Tests plugin \(com.snc.service\_level\_management.atf\).
+Service Level Management quick start tests require activating the Service Level Management - ATF Tests plugin \(com.snc.sla.atf\).
 
 |Test|Description|Release version|
 |----|-----------|---------------|
@@ -5723,7 +5723,7 @@ Skills Management quick start tests require activating the Skills Management plu
 |Skills MGMT: Create a skill from Manage IT Skills user interface.|Verify that you can create a skill from the Manage IT Skills user interface.|Orlando|
 |Skills MGMT: Add skills and skill levels to users in the Manage IT Skills user interface.|Verify that you can add skills and associated skill levels to users in the Manage IT Skills user interface.|Orlando|
 |Skills MGMT: Select a skill and add users to the skill in the Manage IT Skills user interface.|Verify that you can select a skill and add the skill and associated skill levels to one or more users in the Manage IT Skills user interface.|Orlando|
-|Skills MGMT: Select a skill that does not have a skill level and add users to that skill in the Manage IT Skills user interface.|Verify that you can select a skill without a skill level and add it to one or more users in the Manage IT skills user interface.|Orlando|
+|Skills MGMT: Select a skill that does not have a skill level and add users to that skill in the Manage IT Skills user interface.|Verify that you can select a skill without a skill level and add it to users in the Manage IT skills user interface.|Orlando|
 
 To learn more about Skills Management, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management.md).
 
@@ -5828,7 +5828,7 @@ Vulnerability Response quick start tests require activating the Vulnerability Re
 |VR: Create Vulnerable Item via Form|Determine whether a user can successfully create a vulnerable item from the Vulnerable Item form.|Madrid|
 |VR: Vulnerability Group Life Cycle|Determine whether a user can successfully resolve a vulnerability group.|Madrid|
 |VR: Vulnerable Item life cycle|Determine whether a user can successfully move a vulnerable item through its life cycle, and also determine whether a closed vulnerable item can be reopened.|Madrid|
-|VR: Rollup Calculator|Determine whether the rollup risk calculator can provide an overall risk score for an entire group of vulnerable items. The score uses the scores for all vulnerable items in a vulnerability group.|New York|
+|VR: Rollup Calculator|Determine whether the rollup risk calculator can provide an overall risk score for an entire group of vulnerable items. The score uses the scores for all the vulnerable items in a vulnerability group.|New York|
 |VR: Vulnerability Response Assignment Rules|Determine whether a sample set of assignment rules can successfully auto-assign vulnerable items to an assignment group for remediation.|New York|
 |VR: Vulnerability Calculators|Test the vulnerability calculators.|New York|
 |VR: CI Lookup - Qualys|Create a new lookup rule with method "field\_matching" called "Lookup By Network Adapter" for Qualys. Determine whether a configuration item is successfully matched in the Discovered Item table by network adapter and IP address with the new lookup rule.|Orlando|

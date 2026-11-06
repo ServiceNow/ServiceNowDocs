@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-plan-edit-an-intake-record.html
 release: australia
 topic_type: task
-last_updated: "2026-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prioritize AI plan intake, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
+breadcrumb: [Prioritize AI plan intake, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Manage intake records

@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect with CWM, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -47,7 +47,10 @@ Role required: sn\_apw\_advanced.eap\_admin
 
     \[Omitted image "eap-cwm-space-board.png"\] Alt text: EAP team's Space and Board in CWM.
 
--   The Backlog and Hierarchy tabs remain available for this team in EAP, but the **Start Sprint** and **Complete Sprint** options are no longer available there. Start and complete sprints from the Collaborative Work Management Board instead.
+-   The Backlog, Hierarchy, Planning board, and Docs tabs remain available for this team in EAP, but the **Start Sprint** and **Complete Sprint** options are no longer available there. Start and complete sprints from the Collaborative Work Management Board instead.
+-   On the team page in EAP, select **Go to CWM** to open the team's board. The team shows the label **Connected to CWM** in the Agile structure.
+
+**Important:** Connecting a team to CWM is permanent. After the space and board are created, the **Team agile tool** and **CWM board** fields are read-only. You can't delete the linked board, its space, or the sprints created from EAP iterations.
 
 ## What to do next
 

@@ -1,5 +1,5 @@
 ---
-title: Domain separation and Microsoft Azure Sentinel integration
+title: Domain separation
 description: Domain separation is supported for this application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/azure-sentinel-domain-separation.html
@@ -7,12 +7,12 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Microsoft Azure Sentinel integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Domain separation and Microsoft Azure Sentinel integration
+# Domain separation
 
 Domain separation is supported for this application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 

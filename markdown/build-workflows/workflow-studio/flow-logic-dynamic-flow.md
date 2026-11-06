@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -89,7 +89,7 @@ For more information on using Get Flow Outputs, see [Getting started with Dynami
 
 -   **Use dynamic flows if you have multiple subflows with similar functionality**
 
-    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md) spokes.
+    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for IntegrationHub spokes.
 
 -   **Ensure dynamically called subflow inputs match template flow inputs**
 

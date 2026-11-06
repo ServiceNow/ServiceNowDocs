@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -84,9 +84,9 @@ Configure the parameters that are displayed on a project card in **My Projects S
 View the summary of a project in **Analytics** tab of classic Project Workspace.
 -   **[Define a project in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/define-project-in-project-workspace.md)**  
 Define important aspects of the selected project such as duration, estimated cost, and the net value to the organization in classic Project Workspace.
--   **[Plan a project using planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/plan-project-using-planning-console.md)**  
+-   **[Plan a project using planning console in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/plan-project-using-planning-console.md)**  
 Perform the project planning such as create project schedule, make resource assignments, create baselines, and view critical path, using planning console in the classic Project Workspace.
--   **[Track a project using project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/track-project-using-project-workbench.md)**  
+-   **[Track a project using project workbench in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/track-project-using-project-workbench.md)**  
 As a project manager, track and manage a project in Project Workbench.
 -   **[Create and manage resource plans for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/manage-resources-for-project.md)**  
 As a resource requester, find the availability of the resources, and create and manage the resource plans for the project and project tasks in the project workspace.
@@ -94,7 +94,7 @@ As a resource requester, find the availability of the resources, and create and 
 Use the **Financials** tab in Project Workspace to capture the costs and benefits of a project.
 -   **[Request funds for a project in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/request-project-funds.md)**  
 Request funds for your project investment to work on project activities and meet the business goals.
--   **[Enter actuals spent in a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/enter-actuals-for-project.md)**  
+-   **[Enter actuals spent in a project in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/enter-actuals-for-project.md)**  
 Enter actual spends in your project to track the fund utilization.
 -   **[View a project status report in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/view-project-status-reports.md)**  
 As a project manager, view the project status reports for a project using **Status Report** tab in classic Project Workspace.

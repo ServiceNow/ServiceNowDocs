@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/now-assist-move-order-somt.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Standalone AI agents, Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Standalone AI agents, Use agentic workflows, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent Move order voice AI agent

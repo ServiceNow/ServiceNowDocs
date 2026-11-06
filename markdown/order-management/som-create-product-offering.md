@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-create-product-offering.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_prd\_pm.product\_catalog\_admin or sn\_prd\_pm.product\_manag
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -93,9 +93,9 @@ Configuration Status
 </td><td>
 
 Indicates the status of the product offering: -   None: The product offering is not configured. This is the default value.
--   Creating: Creation of the product offering in CPQ Administration is in progress.
--   Created: The product offering is created in CPQ Administration and is available as a blueprint.
--   Error: An error occurred while creating blueprint for the product offering in CPQ Administration.
+-   Creating: Creation of the product offering in ServiceNow CPQ Administration is in progress.
+-   Created: The product offering is created in ServiceNow CPQ Administration and is available as a blueprint.
+-   Error: An error occurred while creating blueprint for the product offering in ServiceNow CPQ Administration.
 
 
 </td></tr><tr><td>
@@ -104,7 +104,7 @@ Configurable
 
 </td><td>
 
-Option that indicates the product is customizable and can be configured by agents and customers using the CPQ Configurator, if implemented in your organization. For more information, see [Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md).
+Option that indicates the product is customizable and can be configured by agents and customers using the CPQ Configurator, if implemented in your organization. For more information, see [Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md).
 
 </td></tr><tr><td>
 

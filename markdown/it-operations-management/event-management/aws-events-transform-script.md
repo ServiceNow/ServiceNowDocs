@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -59,7 +59,7 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) event rules provid
 
     4.  Set **Endpoint** to: `https://<username>:<password>@<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=aws`
 
-    If AWS platform multi-factor authentication \(MFA\) is enabled, when signing in to the AWS platform website, you're prompted for the user name and password, as well as an authentication code from the AWS platform MFA device of the user.
+    If AWS platform multi-factor authentication \(MFA\) is enabled, sign-in requires a user name, password, and MFA authentication code.
 
 3.  Wait until the subscription changes from `Pending` to `Confirmed` and the subscription ARN is populated.
 
@@ -94,7 +94,7 @@ AWS - General
 Bind AWS platform alarms on the Load Balancer \(LB\) to the Cloud Load Balancer CI, Amazon Relational Database Service \(RDS\) to the Cloud Database CI, and Host or Virtual Machine \(VM\) to the Virtual Machine Instance CI.**Note:** To bind events from the Host or Virtual Machine to the Virtual Machine Instance CI, disable the AWS host binding rule.
 
 </td></tr></tbody>
-</table>    **Note:** For the push connector to handle the incoming event, you must sent a request header **x-amz-sns-message-type** with value **Notification**.
+</table>    **Note:** For the push connector to handle the incoming event, you must send the `x-amz-sns-message-type` request header with the value `Notification`.
 
     This example shows a JSON string for AWS VM binding:
 
@@ -113,9 +113,9 @@ Bind AWS platform alarms on the Load Balancer \(LB\) to the Cloud Load Balancer 
     }
     ```
 
-5.  To enable multiple member accounts to forward CloudWatch or EventBridge events to a centralized account, where a single SNS topic delivers them to the ServiceNow Event Ingestion endpoint, you need to make configuration on AWS side.
+5.  Configure AWS to forward CloudWatch or EventBridge events from multiple accounts to a centralized account using a single SNS topic.
 
-    To configure it, see [https://repost.aws/knowledge-center/cloudwatch-cross-account-sns](https://repost.aws/knowledge-center/cloudwatch-cross-account-sns). This design simplifies integration, avoids duplicating SNS topics across accounts, and provides a single entry point for all monitoring events flowing into ServiceNow.
+    The SNS topic delivers events to the ServiceNow Event Ingestion endpoint. To configure it, see [https://repost.aws/knowledge-center/cloudwatch-cross-account-sns](https://repost.aws/knowledge-center/cloudwatch-cross-account-sns). This design simplifies integration, avoids duplicating SNS topics across accounts, and provides a single entry point for all monitoring events flowing into ServiceNow.
 
 
 -   **[Integrate AWS with REST API key token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/integrate-aws-api-key.md)**  

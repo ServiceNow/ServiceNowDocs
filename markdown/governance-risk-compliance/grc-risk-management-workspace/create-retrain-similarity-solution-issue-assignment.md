@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Issue assignment using the Governance, Risk, and Compliance Predictive Intelligence plugin, Manually create issues, Use, Risk Management, Governance, Risk, and Compliance]
 ---

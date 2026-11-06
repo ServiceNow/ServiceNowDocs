@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage expiring lease contracts, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage your expiring contracts for leased hardware assets, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Return your leased hardware asset
@@ -28,15 +28,15 @@ After you choose to return your leased asset, various Contract Asset tasks are c
 
 1.  Open a lease record.
 
-<table id="choicetable_fkk_5d3_4xb"><thead><tr><th align="left" id="d305738e56">
+<table id="choicetable_fkk_5d3_4xb"><thead><tr><th align="left" id="d311086e56">
 
 UI
 
-</th><th align="left" id="d305738e59">
+</th><th align="left" id="d311086e59">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d305738e65">
+</th></tr></thead><tbody><tr><td id="d311086e65">
 
 **Core UI**
 
@@ -46,7 +46,7 @@ Action
 2.  Select a lease record.
 
 
-</td></tr><tr><td id="d305738e98">
+</td></tr><tr><td id="d311086e98">
 
 **Hardware Asset Workspace**
 

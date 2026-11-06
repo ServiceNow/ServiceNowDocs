@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AI agents, agentic AI]
 breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
@@ -61,7 +61,7 @@ You can run this workflow on the Testing page of AI Agent Studio with the follow
 
 "Resolve HRC000XXX"
 
-The AI agent decision log displays the AI agents that are working to resolve the case, and you can watch their interactions, decisions, and thought processes as they happen in real time.
+The AI agent decision log displays the AI agents that are working to resolve the case, and you can watch their interactions, decisions, and thought processes as they happen live.
 
 **Note:** The AI agent decision log is available in the **Testing** section in AI Agent Studio and is intended for testing purposes only.
 

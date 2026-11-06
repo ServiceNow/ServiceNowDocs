@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/t\_ExportCIHistoryChanges.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [History Timeline, Knowing about History sets, Auditing]
 ---
@@ -34,7 +34,7 @@ You can export a snapshot of the CI to an XML, PDF \(Portal\), or PDF \(Landscap
 
 4.  Select the bubble representing the time for which you want to export a snapshot of the CI.
 
-5.  Click the export icon \(\[Omitted image "ExportCIHistoryChanges.png"\] Alt text: export icon\).
+5.  Click the export icon \(\[Omitted image "ExportCIHistoryChanges.png"\] Alt text:\).
 
 6.  Select the file format to use for the export.
 

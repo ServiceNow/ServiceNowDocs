@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational SMS Integration with AWS End User Messaging, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [SMS with Amazon End User Messaging, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Configuring Conversational SMS Integration with AWS End User Messaging
@@ -26,7 +26,7 @@ Install and set up the Conversational SMS Integration with AWS End User Messagin
 
     Set up conversational SMS with Amazon Web Services \(AWS\) end user messaging.
 
-3.  [Set up SMS integration on ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-up-sms-integration-on-servicenow-instance.md)
+3.  [Set up SMS integration on a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-up-sms-integration-on-servicenow-instance.md)
 
     Set up conversational SMS on a ServiceNow instance.
 
@@ -35,7 +35,7 @@ Install and set up the Conversational SMS Integration with AWS End User Messagin
 You can install the Conversational SMS Integration with AWS End User Messaging application \(sn\_sms\_aws\_adapter\) from the ServiceNow store and integrate it with AWS End User Messaging to enable customer support agent conversations via an SMS channel.
 -   **[Set up SMS End User Messaging Service and AWS resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-up-sms-integration-on-amazon-web-services.md)**  
 Set up conversational SMS with Amazon Web Services \(AWS\) end user messaging to enable customers to seamlessly talk to virtual or live agents.
--   **[Set up SMS integration on ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-up-sms-integration-on-servicenow-instance.md)**  
+-   **[Set up SMS integration on a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-up-sms-integration-on-servicenow-instance.md)**  
 Set up conversational SMS on a ServiceNow instance to enable customers to seamlessly talk to virtual or live agents.
 
 **Parent Topic:**[Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversational-sms-integration-amazon.md)

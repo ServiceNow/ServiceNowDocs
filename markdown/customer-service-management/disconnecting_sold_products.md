@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/disconnecting\_sold\_products.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -47,7 +47,9 @@ Role required: sn\_ind\_tmt\_orm.order\_admin or sn\_ind\_tmt\_orm.order\_agent
 
 5.  Select **Disconnect**.
 
-6.  In the Disconnect sold product pop-up window, enter when you want the disconnection to start in the **Start date and time** field and the reason why you want to disconnect the product in the **Reason for disconnection** field.
+6.  In the Disconnect sold product pop-up window, enter when you want the disconnection to start in the **Start date and time** field.
+
+    Enter the reason why you want to disconnect the product in the **Reason for disconnection** field.
 
 7.  Select **Submit**.
 
@@ -60,11 +62,13 @@ An order for a disconnection is created. After the order is fulfilled, the sold 
 
 Create an order to disconnect multiple sold products and their hierarchy on the CRM Workspace.
 
+### Before you begin
+
+Role required: sn\_ind\_tmt\_orm.order\_admin or sn\_ind\_tmt\_orm.order\_agent
+
 ### About this task
 
 After an order is created and marked **Complete**, the order to sold product flow is triggered after fulfillment. This flow creates sold products on the sold product table \(sn\_install\_base\_sold\_product\).
-
-Role required: sn\_ind\_tmt\_orm.order\_admin or sn\_ind\_tmt\_orm.order\_agent
 
 ### Procedure
 

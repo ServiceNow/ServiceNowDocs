@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -24,7 +24,7 @@ Disputes intake via Virtual Agent is an AI skill that uses a chat bot to collect
 
 Verify that Financial Services Card Operations \(sn\_bom\_credit\_card\) and ServiceNow Otto for Financial Services Operations \(FSO\) plugin \(sn\_fso\_gen\_ai\) are installed.
 
--   For information about the ServiceNow Otto installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   For information about the ServiceNow Otto installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   For general information about configuring AI skills in FSO, see [Configure Financial Services Operations AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-fso-now-assist-skills.md).
 
 Role required: admin
@@ -35,7 +35,7 @@ Use the AI Admin Hub console to configure ServiceNow Otto for FSO. This console 
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
+1.  Navigate to **Admin** &gt; **** &gt; **AI Skills**.
 
 2.  Select the **Customer** &gt; **FSO** workflow group.
 

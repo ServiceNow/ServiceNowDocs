@@ -7,9 +7,9 @@ release: australia
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud, Integrate with other applications, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud, Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Prisma Cloud REST Messages

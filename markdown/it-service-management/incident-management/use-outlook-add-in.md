@@ -1,36 +1,36 @@
 ---
 title: Use Microsoft Outlook to create incidents and VTB tasks
-description: Create an incident or VTB task or chat with a virtual agent directly from within Microsoft Outlook using ServiceNow icons.
+description: Create an incident or a Visual Task Board \(VTB\) task, or chat with a virtual agent, directly from Microsoft Outlook by using the ServiceNow add-in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/use-outlook-add-in.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
 
 # Use Microsoft Outlook to create incidents and VTB tasks
 
-Create an incident or VTB task or chat with a virtual agent directly from within Microsoft Outlook using ServiceNow icons.
+Create an incident or a Visual Task Board \(VTB\) task, or chat with a virtual agent, directly from Microsoft Outlook by using the ServiceNow add-in.
 
 ## Before you begin
 
-You must activate and deploy the ServiceNow Add-in for Microsoft outlook. For more information, see [Configuring Microsoft Outlook to create incidents and VTB tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/create-incident-outlook.md)
+The ServiceNow Add-in for Microsoft Outlook must be activated and deployed. For more information, see [Configuring Microsoft Outlook to create incidents and VTB tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/create-incident-outlook.md)
 
 Role required: none
 
 ## Procedure
 
-1.  On the Microsoft Outlook Home tab, click the **ServiceNow** icon \(\[Omitted image "outlook-add-in-icon.png"\] Alt text: OutlookAddInIcon\) and select **Create Incident** or **Create VTB Task**.
+1.  On the Microsoft Outlook Home tab, select the **ServiceNow** icon \(\[Omitted image "outlook-add-in-icon.png"\] Alt text: OutlookAddInIcon\) and select **Create Incident** or **Create VTB Task**.
 
-2.  In the ServiceNow IT Service Management pane, click **Login** and enter your ServiceNow credentials.
+2.  In the ServiceNow IT Service Management pane, select **Login** and enter your ServiceNow credentials.
 
     You may need to reauthenticate if your session has expired.
 
-3.  For an incident record, fill in the following fields and click **Submit**.
+3.  For an incident record, fill in the following fields and select **Submit**.
 
 <table id="table_ssz_g5z_dgb"><thead><tr><th>
 
@@ -54,7 +54,7 @@ Caller
 
 </td><td>
 
-Current logged in user \(default\).
+Currently logged-in user \(default\).
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Category
 
 </td><td>
 
-Category of incident.-   Inquiry / Help
+Category of the incident.-   Inquiry / Help
 -   Software
 -   Hardware
 -   Network
@@ -88,13 +88,13 @@ Category of incident.-   Inquiry / Help
 </td></tr></tbody>
 </table>    You can add or remove fields directly on the Incident form for users with the itil role by customizing the Outlook view form layout.
 
-    **Note:** For users that do not have the itil role, the configured Service Catalog form for creating new incidents is shown.
+    **Note:** For users who don't have the itil role, the configured Service Catalog form for creating new incidents is shown.
 
-4.  For a task record, see fill in the following fields and click **Create**.
+4.  For a task record, fill in the following fields and select **Create**.
 
     |Field|Description|
     |-----|-----------|
-    |Select Board|VTB board to which task belongs.|
+    |Select Board|Visual task board to which the task belongs.|
     |Select Lane|Lane of the VTB board.|
     |Short Description|Short description of the task.|
 

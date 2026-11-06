@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Integrate with SSO providers, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -106,7 +106,18 @@ Application administrator
 okta.apps.manage
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integrate with SSO providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/saas-sso-integration.md)
+</table>You can also integrate with Okta using the Configuration Console for Software Asset Management. For more details about the Configuration Console, see [Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/config-console-sam.md).
+
+**Parent Topic:**[Integrate with SSO providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/saas-sso-integration.md)
+
+**Related topics**  
+
+
+[Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/config-console-sam.md)
+
+[Configuration Console overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/config-console-overview.md)
+
+[Configure Software Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-sam-from-config-console.md)
 
 ## Create an Okta application
 
@@ -160,15 +171,15 @@ If you’re using Software Asset Workspace, the option to create the Okta integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_fcx_4nx_qtb"><thead><tr><th align="left" id="d248040e515">
+<table id="choicetable_fcx_4nx_qtb"><thead><tr><th align="left" id="d252695e572">
 
 Interface
 
-</th><th align="left" id="d248040e518">
+</th><th align="left" id="d252695e575">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d248040e524">
+</th></tr></thead><tbody><tr><td id="d252695e581">
 
 **Core UI**
 
@@ -179,7 +190,7 @@ Action
 3.  Select **Okta Integration Profile**.
 
 
-</td></tr><tr><td id="d248040e566">
+</td></tr><tr><td id="d252695e623">
 
 **Software Asset Workspace**
 
@@ -283,15 +294,15 @@ Option for creating a direct integration profile to view Okta subscriptions afte
 
 5.  Open the Create Connection and Credential dialog box.
 
-<table id="choicetable_oww_kmj_lzb"><thead><tr><th align="left" id="d248040e945">
+<table id="choicetable_oww_kmj_lzb"><thead><tr><th align="left" id="d252695e1002">
 
 Interface
 
-</th><th align="left" id="d248040e948">
+</th><th align="left" id="d252695e1005">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d248040e954">
+</th></tr></thead><tbody><tr><td id="d252695e1011">
 
 **Core UI**
 
@@ -299,7 +310,7 @@ Action
 
 Select the **Create New Connection &amp; Credential** related link on the SSO integration profile form.
 
-</td></tr><tr><td id="d248040e966">
+</td></tr><tr><td id="d252695e1023">
 
 **Software Asset Workspace**
 
@@ -355,7 +366,7 @@ When your OAuth token expires, your Okta integration profile displays an error m
 
 Don’t delete the OAuth 2.0 credential record that is associated with the connection record for your Okta integration profile. If you delete the OAuth 2.0 credential record, you won’t be able to get a new OAuth token after your current OAuth token expires.
 
-After you publish the integration profile and connect applications to the profile, you can view events performed by individual users up to 60 days prior to the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
+After you publish the integration profile and connect applications to the profile, you can view events performed by individual users up to 60 days before the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 ## Okta SSO direct integration profile
 
@@ -432,7 +443,7 @@ If you have already created a direct integration for an application, then connec
 
 3.  If the **Software model** field is empty, add a software model for the application.
 
-    Before you can connect an application, it must be associated with a software model. ServiceNow® Software Asset Management automatically creates software models for applications with an external catalog ID that matches an **Identifier** in the Subscription Product Definitions \[samp\_sw\_subscription\_product\_definition\] table. For all other applications, you can create a software model manually. For detailed instructions, see [Create software models in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/record-terms-software-licenses.md).
+    Before you can connect an application, it must be associated with a software model. ServiceNow® Software Asset Management automatically creates software models for applications with an external catalog ID that matches an **Identifier** in the Subscription Product Definitions \[samp\_sw\_subscription\_product\_definition\] table. For all other applications, you can create a software model manually. For detailed instructions, see [Create software models in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/record-terms-software-licenses.md).
 
 4.  Select the **Enable group based software model** check box for mapping an SSO group with a specific software model for the application.
 
@@ -467,9 +478,9 @@ After connecting the SSO application, view information about the SSO profile in 
 -   Directory Job Results
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/subscription-exclusions.md).
 
-Create software entitlements for the automatically generated software models to track used software against owned software. For more information on creating software entitlements in the Software Asset Management classic application, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md). For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md). For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/guidedwalk-workspace.md).
+Create software entitlements for the automatically generated software models to track used software against owned software. For more information on creating software entitlements in the Software Asset Management classic application, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md). For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md). For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
 Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance. For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_RunReconciliation.md). For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/run-recon-workspace.md).
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/associate-multiple-install-base-items-case.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -34,4 +34,9 @@ Role required: sn\_customerservice\_manager and admin
 
 6.  Select **Save**.
 
+
+**Related topics**  
+
+
+[Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-install-base-item.md)
 

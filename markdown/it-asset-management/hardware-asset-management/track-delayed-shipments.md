@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Stale shipments, Track shipments using the integration framework, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Stale shipments, Track shipments using the integration framework, Procurement and fulfillment, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Continue to track delayed shipments

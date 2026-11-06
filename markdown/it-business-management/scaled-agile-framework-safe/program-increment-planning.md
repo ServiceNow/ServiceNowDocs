@@ -7,7 +7,7 @@ release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SAFe Board — ART level, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -60,6 +60,8 @@ Role required: safe\_admin or safe\_art\_user
 7.  To personalise and view columns on a list, click the Personalize icon.
 
 8.  To start the first PI, click **Start** that appears in its section.
+
+    Only one PI of a program can be current. Complete the current PI before you start the next one.
 
     The **Planning** tab opens.
 

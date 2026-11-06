@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -67,7 +67,7 @@ Performance Analytics includes the following concepts and components:
 
 -   **[Breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_DefiningABreakdownSource.md)**
 
-    specify which unique values, called breakdown elements, a breakdown contains. A breakdown source is defined as a set of records from a table or database view or as a bucket group. External data is supported via Workflow Data Fabric tables. Multiple breakdowns can use the same breakdown source. For example, instead of seeing ALL assignment groups for the Number of Open Changes indicator, you can limit the element list to just those groups that are part of the change process by configuring the Breakdown Source.
+    specify which unique values, called breakdown elements, a breakdown contains. A breakdown source is defined as a set of records from a table \(including Workflow Data Fabric\) or database view or as a bucket group. External data is supported via Workflow Data Fabric tables. Multiple breakdowns can use the same breakdown source. For example, instead of seeing ALL assignment groups for the Number of Open Changes indicator, you can limit the element list to just those groups that are part of the change process by configuring the Breakdown Source.
 
 -   **[Bucket groups]()**
 

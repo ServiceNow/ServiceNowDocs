@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -86,5 +86,5 @@ Automatically update the shopping cart across all sessions when users make chang
 
 [Clone a widget]()
 
-[bundle-platcap.add-to-cart-portal]
+[Add a catalog item to the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/add-to-cart-portal.md)
 

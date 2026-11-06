@@ -7,8 +7,8 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Discovery classifiers, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -70,7 +70,7 @@ Select an operator for the classification condition. In networks containing serv
 
 </td><td>
 
-Enter the value for the condition. In our example of a network with a server naming convention, this value would be the root of that convention, such as **SRV** This condition will classify all computers as servers if their machine name is SRVXXX.
+Value for the condition. For example, enter **SRV** to classify all computers with a machine name starting with `SRV` as servers.
 
 </td></tr></tbody>
 </table>6.  Select the **Triggers Probe** related list and add the appropriate probes.

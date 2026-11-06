@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-configuring-security-connections.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configuring security connections
@@ -18,7 +18,7 @@ Connect AI Control Tower to the platforms where your AI agents run and to your i
 ## Key benefits
 
 -   Connect AI Control Tower to these platforms that host your AI agents: Agent Client Collector \(ACC\), AWS Bedrock, AWS Bedrock Agent Core, Gemini Enterprise Agent Platform, Azure AI Foundry, and ServiceNow Agents. Also, you can use Okta as an identity provider, so policy and containment actions can reach agents no matter where they run.
--   Deactivate an AI agent through Deny Resource policies applied directly on the hyperscaler platform, without requiring a separate identity provider connection.
+-   Deactivate an AI agent through Deny Resource policies applied directly on the AI agent runtime platform, without requiring a separate identity provider connection.
 -   Add an Okta connection to strengthen containment: when an agent's identity is federated through Okta, deactivating the agent also prevents future tokens from being issued to it.
 
 ## Security connections and AI agent containment
@@ -27,7 +27,7 @@ A security connection authenticates AI Control Tower to the platform or identity
 
 Behind the scenes, AI agent containment is enforced differently depending on which connections you have in place:
 
--   On a supported hyperscaler platform \(AWS, Gemini Enterprise Agent Platform, and ServiceNow\), deactivating an AI agent using kill switch protocol applies a Deny Resource policy directly on that platform. This alone is enough to fully disable the agent.
+-   On a supported AI agent runtime platform \(AWS, Gemini Enterprise Agent Platform, and ServiceNow\), deactivating an AI agent using kill switch protocol applies a Deny Resource policy directly on that platform. This prevents the agent from acting on that platform.
 -   On Azure AI Foundry, deactivating an AI agent using kill switch protocol disables the agent application directly through the Azure Resource Manager API, rather than applying a Deny Resource policy.
 -   If you also add an Okta connection, and the AI agent's identity is federated through Okta \(AWS Bedrock, AWS Bedrock Agent Core, Gemini Enterprise Agent Platform, and ServiceNow Agents\), deactivating the agent additionally prevents future tokens from being assigned to it.
 
@@ -40,7 +40,7 @@ Connect Azure AI Foundry to AI Control Tower so that policies and AI agent conta
 -   **[Add a Gemini Enterprise Agent Platform connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-gcp-vertex-ai-security-connection.md)**  
 Connect Gemini Enterprise Agent Platform to AI Control Tower using a service account and OAuth 2.0 JWT Bearer authentication, so policies and AI agent containment using kill switch protocol can reach and act on agents running on Gemini Enterprise Agent Platform.
 -   **[Add an Okta connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-okta-security-connection.md)**  
-Connect Okta to AI Control Tower so that policies and AI agent containment with kill switch protocol prevent future tokens from being issued to a deactivated AI agent. If your AI agent is on ServiceNow or AWS Bedrock, the agent's identity is federated through Okta.
+Connect Okta to AI Control Tower so that policies and AI agent containment with kill switch protocol prevent future tokens from being issued to a deactivated AI agent.
 -   **[Add an Agent Client Collector \(ACC\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-acc-cep.md)**  
 Block and unblock AI usage on managed devices by configuring Agent Client Collector \(ACC\) as a control enforcement point.
 

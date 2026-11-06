@@ -7,7 +7,7 @@ release: australia
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Gamification user interface components, Gamification, Using communities, Communities, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Gamification user interface components, Gamification, Using communi
 # Community content pages
 
 The user's gamification level and badges are displayed on the content pages, so that other community users can view the reputation of the content contributor.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Pointing to a user name on content pages such as questions, blogs, and videos displays a pop-up window with gamification information including badges earned, point total, and level name. This information is available for the author or a user who has replied or commented on that content.
 

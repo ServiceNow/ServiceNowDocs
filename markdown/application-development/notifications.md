@@ -1,18 +1,18 @@
 ---
 title: Notifications
-description: After the data model is defined and users are able to interact with the application, determine how the application should communicate with users. Configure notifications to alert users to important application related events, share application information in the knowledge base, and add translations to allow users to interact with the application in their native language.
+description: After the data model is defined and users are able to interact with the application, determine how the application should communicate with users. Configure notifications to alert users to application-related events, share information in the knowledge base, and add translations so users can interact with the application in their native language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/notifications.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create design elements, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Create design elements, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Notifications
 
-After the data model is defined and users are able to interact with the application, determine how the application should communicate with users. Configure notifications to alert users to important application related events, share application information in the knowledge base, and add translations to allow users to interact with the application in their native language.
+After the data model is defined and users are able to interact with the application, determine how the application should communicate with users. Configure notifications to alert users to application-related events, share information in the knowledge base, and add translations so users can interact with the application in their native language.
 
 The ServiceNow AI Platform can notify users by email, SMS text message, or push notifications.
 
@@ -38,11 +38,11 @@ Create [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 ## Configure recipients
 
-ServiceNow emails can be sent to users, groups, or individual email addresses. When sending to groups, check the **Include members** field on the group record for the notification to be sent to all members of the group in addition to the group email.
+ServiceNow emails can be sent to users, groups, or individual email addresses. When sending to groups, check the **Include members** field on the group record for the notification to be sent to the group email and all members individually.
 
 [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md) - Select the **Subscribable** option on the notification to allow recipients to pick and choose the emails they want to receive.
 
-For a subscription-based notification, the [Make a notification mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_MakingANotificationMandatory.md) option can be set to true for the recipients to receive the notification regardless of their individual preferences. Optionally, configure [Email unsubscribe links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-unsubscribe.md) in the outgoing email to allow users to remove themselves from the notification.
+For a subscription-based notification, the [Mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_MakingANotificationMandatory.md) option can be set to true for the recipients to receive the notification regardless of their individual preferences. Optionally, configure [Email unsubscribe links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-unsubscribe.md) in the outgoing email to allow users to remove themselves from the notification.
 
 ServiceNow uses email watermarks to correctly process user responses to notifications. Email notifications automatically include watermarks unless the **Omit watermark** option is selected in the notification. Omit watermarks only when no email response is expected from the recipients.
 

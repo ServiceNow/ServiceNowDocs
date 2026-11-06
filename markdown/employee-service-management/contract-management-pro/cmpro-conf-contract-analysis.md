@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Contract analysis, Now Assist use cases, Now Assist in contract management pro, Now Assist for contract management pro, ServiceNow Otto use cases, ServiceNow Otto for contract management pro, AI for contract management pro]
 breadcrumb: [Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]

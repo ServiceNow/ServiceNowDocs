@@ -1,5 +1,5 @@
 ---
-title: MPN Latency Dashboard
+title: MPN latency metrics
 description: Monitor UE-to-switch latency and related KPIs across MPN-connected devices, with combined and per-KPI trend views, an instance summary table, and a last-recorded-value panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/mpn-latency-dashboard.html
@@ -13,13 +13,9 @@ keywords: [Nokia MPN]
 breadcrumb: [Fault Management: Events and alerts, Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---
 
-# MPN Latency Dashboard
+# MPN latency metrics
 
 Monitor UE-to-switch latency and related KPIs across MPN-connected devices, with combined and per-KPI trend views, an instance summary table, and a last-recorded-value panel.
-
-## Access the MPN Latency Dashboard
-
-Access the MPN Latency Dashboard by navigating to **All** &gt; **Platform Analytics &gt; Dashboards** and searching for or selecting MPN Latency Dashboard.
 
 ## Average Latency for All KPIs
 

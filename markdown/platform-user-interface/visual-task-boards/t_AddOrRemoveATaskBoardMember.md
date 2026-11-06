@@ -7,9 +7,9 @@ release: australia
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Add or remove a Visual Task Board member
@@ -34,7 +34,7 @@ Only members of a task board can access the board. Any board member can add or r
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_e3x_3n5_1r"><tbody><tr><td id="d97269e94">
+<table id="choicetable_e3x_3n5_1r"><tbody><tr><td id="d97459e94">
 
 **Add a member**
 
@@ -44,7 +44,7 @@ Only members of a task board can access the board. Any board member can add or r
 2.  Enter a user's name or select a user from the drop-down menu.
 
 
-</td></tr><tr><td id="d97269e118">
+</td></tr><tr><td id="d97459e118">
 
 **Remove a member**
 
@@ -54,7 +54,7 @@ Only members of a task board can access the board. Any board member can add or r
 2.  Click the remove icon \(\[Omitted image "RemoveUserIcon.png"\] Alt text: Remove user icon\).
 
 
-</td></tr><tr><td id="d97269e145">
+</td></tr><tr><td id="d97459e145">
 
 **Promote an assignee to a member**
 
@@ -64,7 +64,7 @@ Only members of a task board can access the board. Any board member can add or r
 2.  Click the upward arrow icon.
 
 
-</td></tr><tr><td id="d97269e166">
+</td></tr><tr><td id="d97459e166">
 
 **Promote all assignees to members**
 

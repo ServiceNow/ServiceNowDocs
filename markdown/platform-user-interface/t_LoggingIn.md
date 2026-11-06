@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_LoggingIn.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-Users log in to the instance from a web browser. Administrators can associate a custom URL, such as support.myurl.com, that resolves to point to instancename.service-now.com.
+Users log in to the instance from a web browser. Administrators can [associate a custom URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/custom-url.md), such as support.myurl.com, that resolves to point to instancename.service-now.com.
 
 **Note:** ServiceNow does not support any other methodologies to associate a custom or vanity URL. If you have a custom or vanity URL associated with an instance prior to the Madrid release, contact Support.
 
@@ -34,7 +34,7 @@ Users log in to the instance from a web browser. Administrators can associate a 
 
 3.  Select the **Remember Me** check box to remain logged in until you manually log out.
 
-    The administrator can enable or disable this option. For more information, see Change settings for the Remember me check box and cookie.
+    The administrator can enable or disable this option. For more information, see [Change settings for the Remember me check box and cookie](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ChSetRemMeChkbxCookie.md).
 
 4.  Press the Enter key or click **Login**.
 

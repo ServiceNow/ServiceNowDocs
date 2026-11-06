@@ -1,27 +1,27 @@
 ---
 title: Time-based one-time password \(TOTP\) authentication
-description: A time based one-time password \(TOTP\) is a secure authentication factor that verifies user identity by generating a unique, time-sensitive code.
+description: A time-based one-time password \(TOTP\) is a secure authentication factor that verifies user identity by generating a unique, time-sensitive code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/totp-authenticator-apps.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Time-based one-time password, TOTP, authenticator apps, ServiceNow, user authentication, authentication factor, Okta Verify]
-breadcrumb: [Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
 # Time-based one-time password \(TOTP\) authentication
 
-A time based one-time password \(TOTP\) is a secure authentication factor that verifies user identity by generating a unique, time-sensitive code.
+A time-based one-time password \(TOTP\) is a secure authentication factor that verifies user identity by generating a unique, time-sensitive code.
 
 TOTP authenticator apps like **Okta Verify** generate temporary numeric codes on a registered device, usually a mobile phone. These codes are only valid for a short time and can’t be used more than once. This approach offers enhanced security compared to static passwords.
 
 ## Use case
 
-TOTP authenticator apps are suitable for users who require stronger protection than standard multi-factor authentication \(MFA\) methods.
+TOTP authenticator apps are suitable for users who require stronger protection than standard multi-factor authentication \(MFA\) methods. TOTP factor can also be used for step-up authentication. For more information, see [Step-up authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/step-up-authentication.md).
 
 ## Key strengths
 
@@ -32,11 +32,11 @@ The TOTP authenticator apps method offers the following advantages:
 
 ## Important considerations
 
-While TOTP authenticator apps are a secure and convenient authentication method, there are few considerations to keep in mind:
+The following considerations apply to TOTP authenticator apps:
 
 -   Initial setup: Users must set up the authenticator app on a registered device.
 -   Device management: Users must re-enroll when devices are replaced or reset.
 -   Phishing risk: One-time codes can be compromised if entered on untrusted or malicious sites.
 
-TOTP authenticator apps are an effective method to strengthen your organization’s security posture. For detailed configuration instructions, see [Authenticator applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-auth-app.md).
+TOTP authenticator apps can help strengthen your organization’s security posture. For detailed configuration instructions, see [Authenticator applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-auth-app.md).
 

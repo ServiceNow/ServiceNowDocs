@@ -1,20 +1,20 @@
 ---
 title: Register a hardware security key
-description: Register a hardware key to use as part of your MFA login.
+description: Register a hardware key to use as part of your multi-factor authentication \(MFA\) login.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-setup-hardware-key-auth.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Web Authentication, Using MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
 # Register a hardware security key
 
-Register a hardware key to use as part of your MFA login.
+Register a hardware key to use as part of your multi-factor authentication \(MFA\) login.
 
 ## Before you begin
 
@@ -24,21 +24,21 @@ Role required: none
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **My Profile**.
 
-2.  Under **Related Links**, click **Multi-factor Authentication**.
+2.  Under **Related Links**, select **Multi-factor Authentication**.
 
     The Multi-factor authentication page opens.
 
-3.  Click **Register hardware security Key**.
+3.  Select **Register hardware security Key**.
 
     \[Omitted image "mfa-authenticator.png"\] Alt text: MFA Authenticators
 
-4.  Enter a nickname for your hardware key and click **Register**.
+4.  Enter a nickname for your hardware key and select **Register**.
 
     \[Omitted image "mfa-hardware-key.png"\] Alt text: MFA - Hardware key setup
 
 5.  When prompted, insert your hardware security key and activate it.
 
-    After authenticating successfully, you see a confirmation window. Click X to close the confirmation.
+    After authenticating successfully, you see a confirmation window. Select X to close the confirmation.
 
 
 ## Result

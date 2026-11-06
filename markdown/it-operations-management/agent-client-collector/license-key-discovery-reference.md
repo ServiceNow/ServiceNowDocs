@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [license key discovery, ACC-VC, license keys table, license registry configuration, agent client collector]
 breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]

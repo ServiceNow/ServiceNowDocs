@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/we-event-handlers-object-list.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Web Embeddables event handlers, Web Embeddables reference, Reference, Customer Service Management]
 ---
@@ -16,10 +16,10 @@ A component triggers an event when a certain condition is met or on user interac
 
 |Event handler|Description|
 |-------------|-----------|
-|SN\_EMBEDX\_OBJECT\_LIST\#FOOTER\_LINK\_SELECTED|This event is dispatched when footer link is selected.|
-|SN\_EMBEDX\_OBJECT\_LIST\#COMPONENT\_ERROR|This event is dispatched when a property validation or internal error occurs.|
+|N\_EMBEDX\_OBJECT\_LIST\#FOOTER\_LINK\_SELECTED|This event is dispatched when footer link is selected.|
+|N\_EMBEDX\_OBJECT\_LIST\#COMPONENT\_ERROR|This event is dispatched when a property validation or internal error occurs.|
 |SN\_EMBEDX\_OBJECT\_LIST\#RECORD\_SELECTED|This event is dispatched when a record is selected.|
-|SN\_EMBEDX\_OBJECT\_LIST\#COMPONENT\_READY|This event is dispatched when a component is ready and usable.|
+|N\_EMBEDX\_OBJECT\_LIST\#COMPONENT\_READY|This event is dispatched when a component is ready and usable.|
 
 **Related topics**  
 

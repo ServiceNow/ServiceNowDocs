@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/deactivate-attend-config-rpa.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Embedded Task Automation \(ETA\), Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -36,15 +36,15 @@ Deactivating an attended configuration record moves the state from **Active** to
 
 3.  Navigate to the Attended Configuration record either from the Attended Configuration menu list or from an attended bot process record's related list.
 
-<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d409482e140">
+<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d402732e140">
 
 Option
 
-</th><th align="left" id="d409482e143">
+</th><th align="left" id="d402732e143">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d409482e149">
+</th></tr></thead><tbody><tr><td id="d402732e149">
 
 **From an Attended Configuration menu list**
 
@@ -54,7 +54,7 @@ Action
 2.  Open an attended configuration record.
 
 
-</td></tr><tr><td id="d409482e176">
+</td></tr><tr><td id="d402732e176">
 
 **From an attended bot process record's related list**
 

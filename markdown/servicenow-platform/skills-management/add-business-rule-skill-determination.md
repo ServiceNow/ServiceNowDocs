@@ -7,7 +7,7 @@ release: australia
 product: Skills Management
 classification: skills-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Routing work items to agents based on skills, Using Skills Management, Skills Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -76,7 +76,7 @@ Advanced
 
 **Note:** This script uses the SkillDeterminationUtils utility to identify which skills are needed for the current work item \(such as an incident or task\) and then assigns those skills to it automatically. This helps ensure that the work item has the correct skill requirements based on its details.
 
-4.  In the **When to run** tab, set when you want the business rule to execute. For more information, see [Create a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).
+4.  In the **When to run** tab, set when you want the business rule to execute. For more information, see Create a business rule.
 
 
 </td></tr></tbody>

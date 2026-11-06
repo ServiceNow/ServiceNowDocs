@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Requesting and receiving required parts, Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
@@ -46,15 +46,15 @@ You can process only transfer orders that contain parts sourced from a warehouse
     -   The short description text for the transfer order line task for drop off is "Receive" and the state is Open.
 6.  Drop off or prepare for shipment.
 
-<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d121757e137">
+<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d124658e137">
 
 To
 
-</th><th align="left" id="d121757e140">
+</th><th align="left" id="d124658e140">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d121757e146">
+</th></tr></thead><tbody><tr><td id="d124658e146">
 
 **Prepare for shipment**
 
@@ -96,7 +96,7 @@ This task has the short description text "Deliver" and the state Open.
 
 This task automatically moves to the Closed Complete state.
 
-</td></tr><tr><td id="d121757e228">
+</td></tr><tr><td id="d124658e228">
 
 **Drop off**
 

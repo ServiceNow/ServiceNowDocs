@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/start-event.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Start an event
@@ -101,7 +101,7 @@ Role required: sn\_recovery.event\_user, sn\_recovery.event\_manager
 
     **Note:**
 
-    "If an asset is recovered during an earlier task \(step 4\), actual start and end times are calculated through the last event task \(step 6\).
+    If an asset is recovered during an earlier task \(step 4\), actual start and end times are calculated through the last event task \(step 6\).
 
     \[Omitted image "event-task-time-taken.png"\] Alt text: Event tasks.
 
@@ -109,7 +109,7 @@ Role required: sn\_recovery.event\_user, sn\_recovery.event\_manager
 
     Verify that all plans and tasks are closed before submitting the event for an approval.
 
-8.  Update the **Actual start** and **Actual end** dates for the event task in the **Results** section on the **Details** tab.
+8.  Update the **Actual start** and **Actual end** dates for the event task the **Results** section on the **Details** tab.
 
 9.  Update the assignment fields as necessary.
 
@@ -130,5 +130,5 @@ Role required: sn\_recovery.event\_user, sn\_recovery.event\_manager
 
 To request an approval, see [Request an approval and approve the event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/submit-an-event-task-uib-ws.md).
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

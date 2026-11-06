@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workflow validator, Workflow validation, Workflow management, Classic Workflow, Build workflows]
 ---
@@ -18,7 +18,7 @@ The **ValidateUpdateSetDependencies** validator identifies all the subflows call
 
 This warning informs the user that this workflow and one or more of its dependencies are being actively modified in a way that will not deploy concurrently to another instance without additional effort.
 
-For information about update sets, see [Create and select an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-select-update-set.md).
+For information about update sets, see Create and select an update set.
 
 ## Validation summary
 

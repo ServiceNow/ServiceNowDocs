@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Operational Technology Manager, Operational Technology]
 ---
@@ -53,7 +53,7 @@ Operational Technology Discovery Administrator \[ot\_discovery\_admin\]
 
 </td><td>
 
-Can run the Discovery for Operational Technology process, but cannot access the Configuration Management Database \(CMDB\) to view the configuration items \(CIs\) and related Operational Technology \(OT\) entities that are created from discovered items. To learn more, see [Create an OT Discovery schedule and run the Discovery process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/run-discovery-for-operational-technology.md).
+Can run the Discovery for Operational Technology process, but cannot access the Configuration Management Database \(CMDB\) to view the configuration items \(CIs\) and related Operational Technology \(OT\) entities that are created from discovered items. To learn more, see [Create and run the OT Discovery schedule and the Discovery process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/run-discovery-for-operational-technology.md).
 
 </td></tr><tr><td>
 

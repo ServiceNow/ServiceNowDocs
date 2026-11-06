@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Cryptographic Asset Compliance, ITOM Visibility, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ Cryptographic Asset Compliance inventories the assets that ServiceNow [Certifica
 
 You must configure the discovery of cryptographic assets:
 
--   Certificate discovery in [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-inventory-mgmt.md) to catalog certificates \(on-premises and URL-based\). For more information, see [Visibility to TLS certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/run-cert-discovery.md).
+-   Certificate discovery in [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-inventory-mgmt.md) to catalog certificates \(on-premises and URL-based\). For more information, see [Get started with Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/get-started-cert-inventory-mgmt.md).
 -   Cloud discovery in [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r-discovery.md) to catalog keys from AWS KMS and Azure Key Vault. For more information, see [Discovery for cloud environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cloud-discovery-wizard.md).
 
 After discovery is set up, a scheduled job syncs discovered assets into Cryptographic Asset Compliance periodically.

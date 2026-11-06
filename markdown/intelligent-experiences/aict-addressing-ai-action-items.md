@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-addressing-ai-action-items.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Activity Center, action item]
-breadcrumb: [AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Addressing your AI action items

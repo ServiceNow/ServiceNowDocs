@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreateAChecklist.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Checklists, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ You can create a unique checklist for each task record. You can quickly create a
 
 ## Before you begin
 
-The Checklist formatter must be added to the form by a user with the personalize\_form role.
+The Checklist formatter must be [added to the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FormDesign.md) by a user with the personalize\_form role.
 
 Role required: for the write role, read role, and delete role, the logged in user must be sys\_created\_by.
 
@@ -34,7 +34,7 @@ A template saves time by creating checklist items automatically. You can add, ed
 
 3.  Complete one of the following steps.
 
-<table id="choicetable_zzd_cd3_xbb"><tbody><tr><td id="d105582e88">
+<table id="choicetable_zzd_cd3_xbb"><tbody><tr><td id="d106357e88">
 
 **To create a new checklist**
 
@@ -42,7 +42,7 @@ A template saves time by creating checklist items automatically. You can add, ed
 
 Select **Create new**.
 
-</td></tr><tr><td id="d105582e100">
+</td></tr><tr><td id="d106357e100">
 
 **To create a checklist by using a template**
 

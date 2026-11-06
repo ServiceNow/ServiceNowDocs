@@ -1,16 +1,16 @@
 ---
-title: Open CSM Configurable Workspace
+title: Open CRM Workspace
 description: Open CRM Workspace so that you can work on customer service cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspaces-open.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-27"
 reading_time_minutes: 1
 breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
-# Open CSM Configurable Workspace
+# Open CRM Workspace
 
 Open CRM Workspace so that you can work on customer service cases.
 

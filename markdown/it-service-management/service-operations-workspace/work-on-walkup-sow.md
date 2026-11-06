@@ -1,5 +1,5 @@
 ---
-title: Work on Walk-up interaction in Service Operations Workspace
+title: Work on a Walk-up interaction in Service Operations Workspace
 description: Manage your Walk-up appointments in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/work-on-walkup-sow.html
@@ -7,12 +7,12 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Walk-up Experience management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Work on Walk-up interaction in Service Operations Workspace
+# Work on a Walk-up interaction in Service Operations Workspace
 
 Manage your Walk-up appointments in Service Operations Workspace.
 

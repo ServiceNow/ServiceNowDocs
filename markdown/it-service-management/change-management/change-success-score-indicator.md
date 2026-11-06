@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Change success score, Configure, Change Management, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Change success score, Configure, Change Management, IT Service Mana
 
 Change Success score contains Performance Analytics indicators for data collection. Indicators define a performance measurement taken at regular intervals of a business service, an activity, or organizational behavior. These performance measurements result in a series of indicator scores over time.
 
-The following are the Change Success Score indicators that are used to collect data daily for the changes completed on the previous day.
+Change Success Score uses the following indicators to collect data each day for the changes completed on the previous day.
 
 -   **Total Changes**
 
@@ -28,11 +28,11 @@ The following are the Change Success Score indicators that are used to collect d
 
 -   **Unsuccessful changes**
 
-    The number of change requests that was not resolved.
+    The number of change requests that weren't resolved.
 
 -   **Successful changes with issues**
 
-    The number of change requests that was resolved, but had other defects that were not addressed.
+    The number of change requests that were resolved but had other defects that weren't addressed.
 
 -   **P1 incidents caused by change**
 
@@ -47,7 +47,7 @@ The following are the Change Success Score indicators that are used to collect d
     The total number of P3 incidents that were reported as caused by one of the changes completed by the team.
 
 
-For more information on the PA indicators, see [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_Indicators.md)
+For more information on Performance Analytics indicators, see [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_Indicators.md)
 
 **Parent Topic:**[Change success score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-success-score.md)
 

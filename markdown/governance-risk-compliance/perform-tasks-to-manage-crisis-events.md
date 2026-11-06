@@ -1,16 +1,16 @@
 ---
-title: Structured workflows for Crisis events
+title: Structured workflows for crisis events
 description: Manage crisis events using structured workflows in the Business Continuity Workspace \(also known as BCM Configurable Workspace\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Structured workflows for Crisis events
+# Structured workflows for crisis events
 
 Manage crisis events using structured workflows in the Business Continuity Workspace \(also known as BCM Configurable Workspace\).
 
@@ -20,11 +20,12 @@ Business Continuity Management \(BCM\) program managers create crisis events to 
 -   For more information on adding an asset and plan to the crisis event, see [Track impacted assets and add related plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-asset-plan-to-crisis-event-uib-ws.md).
 -   For more information on adding an event task to the crisis event, see [Add a task to the crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-event-task-to-crisis-event.md).
 -   For more information on submitting the event task, see [Request an approval and approve the crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/submit-event-task-for-crisis-event-uib-ws.md).
--   You can add event tasks in bulk by applying task template groups or individual task templates from the **Event tasks** tab. For details, see [Add a task to the crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-event-task-to-crisis-event.md) and [Event task creation progress in exercise and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-event-task-template-progress.md).
 
 ## Bulk editing of tasks from the Event tasks related list
 
-Starting with version 6.1.x of the Business Continuity Management application, users with editing access to event records can perform bulk edits from the Event tasks related list. This feature is beneficial for users who manage multiple event tasks simultaneously.
+Starting with version 6.1.x, users who have editing access to the event record can perform bulk edits on tasks directly from the Event tasks related list.
+
+This feature benefits users who manage multiple event tasks simultaneously.
 
 In the recovery tasks list, users with the necessary edit permissions can modify these fields simultaneously:
 
@@ -89,23 +90,23 @@ For information on importing the automated task in an event, see [Import automat
 -   For information on performing administrative tasks in the Crisis map interface, see [Setup for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/crisis-map-admin-tasks.md).
 
 -   **[Start a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/start-crisis-event-in-uib-ws.md)**  
-Report a crisis event in the BCM Configurable Workspace. A crisis event is any significant disruption that threatens business operations. The Business Continuity Workspace enables you to create crisis records, classify severity levels, set priorities, assign response teams, and document initial actions.
+Report a crisis event in the BCM Configurable Workspace. A crisis event is any significant disruption that threatens business operations. The Business Continuity Workspace enables you to create crisis records and document initial actions.
 -   **[Using nested plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/creating-nested-plan-in-event.md)**  
 Configure a system property to control activated plan levels in an event. The system automatically creates nested plans within an event, reducing the manual effort of adding plans and improving system performance. You can also add dependencies between multiple activated plans by updating the **Dependencies** field in the event tasks.
 -   **[Track impacted assets and add related plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-asset-plan-to-crisis-event-uib-ws.md)**  
 Track the impacted assets and add a related plan during a crisis event. You can monitor the assets and plans for the crisis event in BCM UIB Workspace. You can then recover your assets in the planning stage.
 -   **[Add a task to the crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-event-task-to-crisis-event.md)**  
 Add a task to the crisis event in BCM UIB Workspace. You can then monitor and complete the required actions to respond to the crisis event.
--   **[Import automated tasks and start an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/import-the-automated-task-in-an-event.md)**  
-Import the automated task from the business continuity plan in an actual event. Utilizing automated tasks during an actual event enhances efficiency and reduces response time for users.
 -   **[Creating action items in crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/creating-action-items-in-crisis.md)**  
-Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime during open crisis events or exercises. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
+Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams during open crisis events or exercises.
 -   **[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/creating-collaboration-threads-in-crisis.md)**  
 Starting with BCM core release 12.x.x, crisis managers can create collaboration threads on crisis events to coordinate responses with recovery teams and send email updates.
--   **[Create a similar tasks group in a crisis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-sim-tasks-grp-crisis.md)**  
+-   **[Create a similar tasks group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-sim-tasks-grp-crisis.md)**  
 Identify and group similar or duplicate tasks related to a crisis event using the **Similar tasks groups** tab. Grouping similar tasks helps you to optimize event task management and minimize redundant work.
 -   **[Add or create an issue from a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-or-create-issue-from-crisis-event.md)**  
 Add an existing issue or create an issue to track problems identified during a crisis event.
+-   **[Import automated tasks and start an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/import-the-automated-task-in-an-event.md)**  
+Import the automated task from the business continuity plan in an actual event. Utilizing automated tasks during an actual event enhances efficiency and reduces response time for users.
 -   **[Request an approval and approve the crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/submit-event-task-for-crisis-event-uib-ws.md)**  
 Approve the crisis event in BCM UIB Workspace.
 

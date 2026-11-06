@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [browser extension categorization, browser extension signatures, ACC-VC]
 breadcrumb: [Browser extension discovery and categorization, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]

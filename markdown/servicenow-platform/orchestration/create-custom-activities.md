@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,11 +38,11 @@ The Activity Designer contains common steps which are applicable to all the acti
 
     \[Omitted image "ActivityDesignerStepIndicator.png"\] Alt text: Activity designer stage indicator
 
-3.  Add the [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/General-Flds-Templates.md).
+3.  Add the general properties.
 
     This information is standard for each custom activity, include a name, description, and other related information.
 
-4.  Create the template [Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/CreateInputVariables.md) for the template.
+4.  Create the template  for the template.
 
     Create the variables to pass into the activity in the Inputs form of the activity designer.
 
@@ -54,7 +54,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 6.  Click **Continue** to open the Execution Command form, then fill out the **Execution Command** step based on the corresponding execution templates:
 
-    -   [Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)
+    -   [Create a SOAP web service activity]()
     -   [Create a JDBC activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAJDBCActivity.md)
     -   [Create a JavaScript Probe activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAJavaScriptProbeActivity.md)
     -   [Create a PowerShell activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAPowershellActivity.md)
@@ -74,7 +74,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 9.  Use one of the options to assign values to Outputs.
 
-<table id="choicetable_lh4_h3j_4y"><tbody><tr><td id="d583684e333">
+<table id="choicetable_lh4_h3j_4y"><tbody><tr><td id="d590297e332">
 
 **Parsing rule**
 
@@ -82,7 +82,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 You can create a parsing rule and map them to the output fields by dragging and dropping the variables into the [parsing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAParsingRule.md) structure. The REST, SOAP, and JDBC templates provide auto-mapping to create the parsing rules automatically. If available from the test inputs form, auto-mapping should be used when possible.
 
-</td></tr><tr><td id="d583684e349">
+</td></tr><tr><td id="d590297e348">
 
 **[Post-processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAParsingRule.md)**
 
@@ -91,7 +91,7 @@ You can create a parsing rule and map them to the output fields by dragging and 
 Post-processing scripts allow you to code your own output data validation, output parsing code, and related tasks. Post-processing executes after the execution command results have been returned and before the parsing rules and conditions are run. Click **Go to Post-Processing \(Advanced\)** to create a post-processing script. **Note:** If you create a script, this step reflects as a stage in the indicator.
 
 </td></tr></tbody>
-</table>10. Click **Continue** to open the [Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditions.md) form to create exit condition rules for your activity and then click **Save**.
+</table>10. Click **Continue** to open the Conditions form to create exit condition rules for your activity and then click **Save**.
 
 
 -   **[General properties for activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/General-Flds-Templates.md)**  

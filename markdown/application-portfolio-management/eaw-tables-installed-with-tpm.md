@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-tables-installed-with-tpm.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate the Technology Lifecycle Management \(TLM\) plugin, Configure Technology Lifecycle Management, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Tables installed with TLM in the EA Workspace
@@ -71,7 +71,7 @@ TPM Technology Risk \[sn\_apm\_tpm\_technology\_risk\]
 Stores the TPM technology risk information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-install-tpm.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 

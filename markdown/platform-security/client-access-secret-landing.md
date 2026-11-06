@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/client-access-secret-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Secrets Management, Platform Security]
 ---
@@ -56,7 +56,7 @@ Create encryption keys and a certificate using terminal commands on your local e
 -   **[Add your certificate to the ServiceNow Trusted Key Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/client-access-example-2.md)**  
 Upload your key and certificate to the ServiceNow Trusted Key Store.
 -   **[Create a secret group with criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/client-access-example-3.md)**  
-Secret groups organize secrets and apply access policies at the group level. Associate a secret group with an identity group to control MID Server access.
+Create a group for your secrets. Secret groups to organize your secrets into groups, and enable you to apply access policies to those secrets at a group level. Then associate your secrets group to an identity group, and add your MID Server to that identity group.
 -   **[Upload the public/private keypair to the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/client-access-example-5.md)**  
 Upload your public/private keypair to your MID Server. This keypair enables the MID Server to handle authentication requests from your instance.
 -   **[Create credentials and test credential encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/client-access-example-4.md)**  

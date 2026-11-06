@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/exploring-dcnam.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Data Center and Network Asset Management, DCNAM, asset lifecycle, data center management, network asset management]
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
@@ -18,8 +18,6 @@ Data Center and Network Asset Management delivers end-to-end lifecycle managemen
 Organizations depend on private data centers for trading systems, network infrastructure, protected patient data, AI research, government IT, and mission-critical applications. As these environments grow in complexity, the cost of fragmented management compounds. Teams lose track of capacity, miss compliance windows, and struggle to demonstrate the value of infrastructure investment.
 
 Data Center and Network Asset Management enables organizations running private data centers to eliminate operational uncertainty and take decisive action. Built on the ServiceNow AI Platform, the application delivers end-to-end lifecycle management across all data center assets—from initial planning and acquisition through decommissioning and disposal—on a single platform.
-
-\[Omitted image "dcnam-explore.png"\] Alt text: Data Center and Network Asset Management capability
 
 ## Key benefits
 
@@ -57,7 +55,6 @@ The solution combines purpose-built applications for the telecom, media, and tec
 
 ## Additional resources
 
--   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/data-center-and-network-asset-management-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/data-center-and-network-asset-management-rn.md).
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/tmt-api-reference.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Service Problem Management features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=data%20center%20and%20network%20asset%20management&spa=1)

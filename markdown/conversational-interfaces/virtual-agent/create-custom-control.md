@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-24"
 reading_time_minutes: 4
 keywords: [Virtual Agent, custom control, custom input, response control]
-breadcrumb: [Customizing Virtual Agent with custom controls, Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use custom controls, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Create a Virtual Agent custom control
@@ -29,11 +29,11 @@ Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assisant Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
 2.  Select the **Asset library** tab.
 
-3.  On the home page, select **Create asset** if you're in LLM topic discovery, or **Create topic** if you're in NLU/Keyword topic discovery.
+3.  In the Asset library, select **Create Asset**.
 
 4.  On the form, fill in the fields.
 
@@ -101,7 +101,7 @@ Enable
 
 </td><td>
 
-Toggle switch that determines whether the custom control appears as its own icon in the Utilities section of the palette on the **Flow** tab. This provides easy access to the control for other authors.
+Toggle switch that determines whether the custom control appears as its own icon in the Utilities section of the palette on the **Flow** tab. This provides access to the control for other authors.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

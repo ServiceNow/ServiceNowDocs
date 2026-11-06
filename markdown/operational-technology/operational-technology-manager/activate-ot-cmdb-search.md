@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring the OT Manager Foundation, Configure, Operational Technology Manager, Operational Technology]
 ---

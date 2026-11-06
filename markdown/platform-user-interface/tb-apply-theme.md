@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-apply-theme.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Publish multiple themes to your web instance or a single theme to your mobile in
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see .
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
 
 You can also watch a short video on how to publish a theme.
 
@@ -46,15 +46,15 @@ Next Experience Polaris and Coral themes are available for publishing from Theme
 
 4.  To publish your themes, complete any of the following actions.
 
-<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d117499e159">
+<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d118197e156">
 
 Option
 
-</th><th align="left" id="d117499e162">
+</th><th align="left" id="d118197e159">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d117499e168">
+</th></tr></thead><tbody><tr><td id="d118197e165">
 
 **Publish using the List or Grid view More Actions menu**
 
@@ -62,7 +62,7 @@ Description
 
 From the Unpublished section, select the More actions icon \[Omitted image "tb-more-actions.png"\] Alt text:from the theme that you want published, and select **Publish**.\[Omitted image "tb-more-actions-publish.png"\] Alt text: More actions menu opened with Publish selected.
 
-</td></tr><tr><td id="d117499e193">
+</td></tr><tr><td id="d118197e190">
 
 **Publish using the List view drag-and-drop feature**
 
@@ -93,9 +93,11 @@ From the Unpublished section, hover over the theme you want published, and drag 
 
 8.  Refresh your browser to view the new theme published to your instance.
 
-    **Note:** Only themes that are created in Theme Builder can be edited and published using Theme Builder. Web and mobile themes you may have created outside of Next Experience \(for example, in the mobile legacy UI or Core UI\) can’t be viewed or edited within Theme Builder. To reuse these legacy themes, you must re-create them in Theme Builder.
+    **Note:** Only themes that are created in Theme Builder can be edited and published using Theme Builder. Web and mobile themes you may have created outside of Next Experience \(for example, in the mobile legacy UI or Core UI\) can't be viewed or edited within Theme Builder. To reuse these legacy themes, you must re-create them in Theme Builder.
 
-    Additionally, if you created and published themes outside of Theme Builder, and you want to revert them, you must navigate to the tables that they’re stored in and reapply them. If, however, you want to change themes in individual mobile applications, you can do so using [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md).
+    If you created and published themes outside of Theme Builder and want to revert them, navigate to the tables where they're stored and reapply them.
+
+    To change themes in individual mobile applications, use [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md).
 
 
 -   **[Set the default theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-the-default-theme.md)**  

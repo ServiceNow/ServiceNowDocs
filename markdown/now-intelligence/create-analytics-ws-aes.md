@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-analytics-ws-aes.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ The App Engine Studio includes a prebuilt workspace that you can add to an appli
 
 The event handlers for the Analytics Center components of the workspace are all preconfigured. For example, selecting an indicator in the Indicator Scorecard opens that indicator in KPI Details.
 
-For more information about using App Engine Studio to create a workspace with an Analytics Center, see Add an application experience.
+For more information about using App Engine Studio to create a workspace with an Analytics Center, see [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-experience.md).
 
 **Parent Topic:**[Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/adding-analytics-center-to-ws.md)
 

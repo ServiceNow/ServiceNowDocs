@@ -7,10 +7,10 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Now Assist, generative AI]
-breadcrumb: [AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [AI tools and files, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # App summary generation
@@ -68,7 +68,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which App generation was utilized. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which App generation was utilized. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 -   **[Exploring ServiceNow Otto for app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-exploring-now-assist-app-summarize.md)**  
 With the ServiceNow Otto for Creator application, you can generate a summary of an app. You can then copy the summary to the description for the app, and use it to check for duplicate apps.

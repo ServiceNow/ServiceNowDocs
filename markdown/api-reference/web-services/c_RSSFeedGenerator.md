@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [RSS web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
@@ -38,7 +38,9 @@ If you want to query on a field that is a reference to another file then you nee
 https://<instance name>.service-now.com/incident.do?sysparm_query=assigned_to=javascript:GetIDValue('sys_user','ITIL%20User')&RSS
 ```
 
-**Note:** You can in most cases simply append "&amp;RSS" to a URL that you generate in the U.I. or that of your favorite module. The easiest way to get the URL is to simply click the last breadcrumb from the list view. After appending "&amp;RSS" then you can use this URL in your RSS feed reader.
+**Note:** You can in most cases simply append "&amp;RSS" to a URL that you generate in the U.I. or that of your favorite module. The easiest way to get the URL is to simply click the last breadcrumb from the list view. After appending "&amp;RSS" then you can use this URL in your RSS feed reader
+
+\[Omitted image "GetBreadURL.png"\] Alt text:
 
 -   **[Limiting results with a view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_LimitingResultsWithAView.md)**  
 The description element in the returned RSS xml is constructed using the view as specified in the URL, when no view is specified, the default no-name view is used.

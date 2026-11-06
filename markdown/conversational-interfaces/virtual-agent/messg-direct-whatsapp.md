@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Conversational Integration with WhatsApp \(WhatsApp Cloud API\)
@@ -36,7 +36,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 -   **[Configure Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-direct-whatsapp-configure.md)**  
 Install and set up the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application to enable requesters to interact with virtual and live agents.
 -   **[Using Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-direct-whatsapp-using.md)**  
-Agents and requesters can use WhatsApp chat conversations through Virtual Agent to communicate across active interactions, notifications, and service channels.
+Enable a requester to converse with an agent at their convenience using the WhatsApp chat conversations through Virtual Agent.
 
 **Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure outbound FDS as consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
@@ -56,7 +56,7 @@ After the offering is published, when your provider accepts the subscription, it
 
 </td><td>
 
-If it isn’t already selected, select the **Auto publish FDS subscriptions** check box.
+If it isn't already selected, select the **Auto publish FDS subscriptions** check box.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Manually publish FDS subscriptions
 
 </td><td>
 
-After the offering is published and the provider accepts the subscription, you must acknowledge it manually. Then send sample files to let them know about the type of data they’ll receive.For the detailed procedure, see TBD.
+After the offering is published and the provider accepts the subscription, you must acknowledge it manually. Then send sample files to let them know about the type of data they will receive.For the detailed procedure, see TBD.
 
 </td><td>
 
@@ -75,7 +75,7 @@ Clear the **Auto publish FDS subscriptions** check box.
 
     |Method|Description|Action|
     |------|-----------|------|
-    |Auto acknowledge FDS requests|After the offering is published, all FDS requests from providers are automatically acknowledged and a sample payload is sent to the provider in response to each FDS request.|If it isn’t already selected, select the **Auto Acknowledge FDS Requests** check box.|
+    |Auto acknowledge FDS requests|After the offering is published, all FDS requests from providers are automatically acknowledged and a sample payload is sent to the provider in response to each FDS request.|If it isn't already selected, select the **Auto Acknowledge FDS Requests** check box.|
     |Manually acknowledge FDS requests|After the offering is published, provider FDS requests must be acknowledged manually. For the detailed procedure, see TBD.|Clear the **Auto Acknowledge FDS Requests** check box.|
 
 5.  Provide a name and description for the offering definition.
@@ -100,13 +100,13 @@ Clear the **Auto publish FDS subscriptions** check box.
 
     4.  In the **Outbound fields**, select the table fields you want to share by selecting the lock icon and moving them from the **Available** to the **Selected** column.
 
-    5.  If it isn’t already selected, select the **AccountSecure** check box to ensure data security.
+    5.  If it isn't already selected, select the **AccountSecure** check box to ensure data security.
 
         When enabled, only records where the company field matches the connection company are synchronized. Clear this option to synchronize all records regardless of company.
 
         **AccountSecure** option is selected by default.
 
-    6.  If it isn’t already selected, select **Send attachments** check box to send attachments.
+    6.  If it isn't already selected, select **Send attachments** check box to send attachments.
 
         When enabled, file attachments linked to records are included in the synchronization.
 
@@ -116,7 +116,7 @@ Clear the **Auto publish FDS subscriptions** check box.
 
         Coalesce fields help identify unique records when synchronizing data between instances.
 
-    8.  If it isn’t already selected, select the **Maintain SysID** check box to preserve referential integrity.
+    8.  If it isn't already selected, select the **Maintain SysID** check box to preserve referential integrity.
 
         When enabled, new records created in the destination instance maintain their original sys\_id. However, if an existing record is updated, the sys\_id may not be preserved.
 
@@ -130,7 +130,7 @@ Clear the **Auto publish FDS subscriptions** check box.
 
 8.  Create a dependent relationship for the offering item.
 
-    If the table you’re offering depends on another table, you must create a dependent table offering to share the related table. You can create multiple dependent offerings to maintain referential integrity.
+    If the table you're offering depends on another table, you must create a dependent table offering to share the related table. You can create multiple dependent offerings to maintain referential integrity.
 
     1.  Select **Create Dependent Offering Item**.
 

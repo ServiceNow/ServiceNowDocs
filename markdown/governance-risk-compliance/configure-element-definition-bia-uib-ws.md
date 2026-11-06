@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-element-definition-bia-uib-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -22,13 +22,13 @@ Role required: sn\_bcm.admin
 
 Avoid creating overlapping element definitions where one asset could fit into multiple categories. Each element definition should be unique and not overlap with another. For instance, do not define both server and Linux server as separate element definitions since a Linux server is inherently a server. The BCM application is structured to use only one of these definitions, not both, ensuring that an element definition appears in only one category.
 
-To define Server and Linux Server as distinct element definitions without overlap, apply a filter to the Server element definition specifying that class is not Linux. This approach maintains mutual exclusivity between the two definitions.
+To define Server and Linux Server as distinct element definitions without overlap, apply a filter to the Server element definition. Specify that the class is not Linux. This approach maintains mutual exclusivity between the two definitions.
 
 If you select the Servers asset type as shown in the example and select **Add**, the configuration shows all the servers including Solaris, ESX, Windows, and so on.
 
 \[Omitted image "ele-def-server-type.png"\] Alt text: Server type.
 
-If you define the server element as a generic bucket, you can select any of the server types as shown in the example. The Servers asset type has a Linux server as a child item. However, a separate asset type called Linux server is available in the Asset types list.
+If you define the server element as a generic bucket, you can select any of the server types as shown in the example. The Servers asset type has a Linux server as a child item. However, a separate asset type called as Linux server is available in the Asset types list.
 
 \[Omitted image "ele-def-servers-allocation.png"\] Alt text: Servers list.
 
@@ -48,7 +48,7 @@ Starting with the Xanadu release, the element definition filter for the Hardware
 
 \[Omitted image "ele-def-hardware.png"\] Alt text: Hardware element definition.
 
-However, you can now add a Windows server asset in the Windows Server element definition or a Linux server asset in the Linux Server element definition.
+However, you can now add a Windows server asset in the Windows Server element definition. You can also add a Linux server asset in the Linux Server element definition.
 
 \[Omitted image "ele-def-linux-server-for-hardware.png"\] Alt text: Linux server element definition.\[Omitted image "ele-def-windows-server-for-hardware.png"\] Alt text: Windows server element definition.
 
@@ -66,10 +66,22 @@ However, you can now add a Windows server asset in the Windows Server element de
 
 3.  On the form, fill in the fields.
 
+    1.  In the **Name** field, enter `Database servers`, and from the **Source Table** list, select **Server**.
+
+    2.  Select one or more fields from the **Source Table Fields** list.
+
+    3.  Set **Requires data backup** to **Yes**, and select **Submit**.
+
+    4.  Repeat substeps a–c to create a second element definition named `Web servers`, setting **Requires data backup** to **No**.
+
     For more information on the fields in the form, see [Element definition record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/element-definition-record-form.md).
 
 4.  Select **Submit**.
 
+
+## Element definition for Linux servers
+
+In this example, the element definition is named `Linux servers` and uses the Server source table with a filter set to **Class is Linux Server**. The **Name** and **Operating System** source table fields are selected. Plan contributors can select this element definition when adding assets to a plan. For more information, see [Add asset and scope to the BCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-asset-plan-scope-for-bcp-uib-ws.md).
 
 -   **[Element definition record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/element-definition-record-form.md)**  
 Use the Element definition record form to configure a recovery tier with a set of business applications by using BCM UIB Workspace.

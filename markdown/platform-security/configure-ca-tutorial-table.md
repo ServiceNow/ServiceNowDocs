@@ -1,18 +1,18 @@
 ---
 title: Tutorial: Configure Continuous Authentication for a Table
-description: Procedure that describes end to end configuration of continuous authentication policy for a table and the impacts to the users due to the configuration changes.
+description: Procedure that describes end-to-end configuration of continuous authentication policy for a table and the impacts to the users due to the configuration changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/configure-ca-tutorial-table.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring CA, Continuous Authentication \(CA\), Zero Trust Access, Access Management]
 ---
 
 # Tutorial: Configure Continuous Authentication for a Table
 
-Procedure that describes end to end configuration of continuous authentication policy for a table and the impacts to the users due to the configuration changes.
+Procedure that describes end-to-end configuration of continuous authentication policy for a table and the impacts to the users due to the configuration changes.
 
 ## Before you begin
 
@@ -20,8 +20,8 @@ Procedure that describes end to end configuration of continuous authentication p
 
     **Note:** You must elevate your role to **ca\_admin**.
 
--   You must install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) for opting CA which requires a license.
--   Enable the Continuous Authentication \(**glide.zta.continuous\_authentication.enabled**\) system property. For more information, see [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-system-properties.md).
+-   You must install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) to use CA, which requires a license.
+-   Enable the Continuous Authentication \(**glide.zta.continuous\_authentication.enabled**\) system property. For more information, see [Continuous authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-system-properties.md).
 -   Activate the Integration - Multiple Provider Single Sign-On Installer \(**com.snc.integration.sso.multi.installer**\) plugin.
 -   Understand the pre-work that is required before configuring CA for the instance. For more information, see [Pre-work for Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/pre-work-ca.md).
 
@@ -33,7 +33,7 @@ Procedure that describes end to end configuration of continuous authentication p
 
 3.  Select **New**.
 
-4.  On the form, fill the fields:
+4.  On the form, fill in the fields:
 
 <table id="table_cvy_xnw_ycc"><thead><tr><th>
 
@@ -67,7 +67,7 @@ Select the resources
 
 Select the **Table**.**Note:**
 
--   In this example, **Incident** table is selected. You can select as many as tables based on your requirement.
+-   In this example, **Incident** table is selected. You can select as many tables as you need.
 -   Table selected with metadata displays an error. You need to check if you actually want to restrict access to the metadata table, since it can impact configuration access to your users.
 -   The **sys\_properties**, **sys\_continuous\_auth\_policy**, **sys\_user** tables are excluded for CA and cannot be added to the CA policy configuration.
 
@@ -77,11 +77,11 @@ Select the **Table**.**Note:**
 
     **Note:** You can use either of the login methods for the CA policy:
 
-    -   **SSO based login**: Specify the fields in the **Continuous Authentication** tab within the Identity Provider record and the set the Identity Provider record as **Active**. \[Omitted image "ca-tab.png"\] Alt text: Continuous Authentication - tab information
+    -   **SSO based login**: Specify the fields in the **Continuous Authentication** tab within the Identity Provider record and set the Identity Provider record as **Active**. \[Omitted image "ca-tab.png"\] Alt text: Continuous Authentication - tab information
 
         To know more about Identity Providers configuration, see [OIDC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-OIDC-configuration-SSO.md) and [SAML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_CreateASAML2Upd1SSOConfigMultiSSO.md).
 
-    -   **Non-SSO based login**: By default, if there are no Identity Provider with Continuous Authentication configuration, Multi-factor Authentication \(MFA\) is used as a login method. Make sure the MFA properties are Active and configured based on your requirement. To know more about MFA properties, see [Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-properties.md).
+    -   **Non-SSO based login**: By default, if there are no Identity Providers with Continuous Authentication configuration, Multi-factor Authentication \(MFA\) is used as a login method. Make sure the MFA properties are Active and configured based on your requirement. To know more about MFA properties, see [Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-properties.md).
 5.  Select **Save &amp; Activate**.
 
 
@@ -91,7 +91,7 @@ Based on the details provided for the configuration, CA policy is created with A
 
 \[Omitted image "ca-acl-details.png"\] Alt text: CA ACL details
 
-The CA policy created, prompts the user for authentication to access table \(in this case **Incident** table\) that you've protected using the policy. The users can select **Authenticate** option.
+The created CA policy prompts the user for authentication to access table \(in this case **Incident** table\) that you've protected using the policy. The users can select **Authenticate** option.
 
 \[Omitted image "ca-policy-enforced-tables.png"\] Alt text: CA Policy enforced
 
@@ -110,14 +110,14 @@ After successful authentication the table is displayed.
 
 \[Omitted image "ca-incident-table-after-login.png"\] Alt text: Incident table after successful login
 
-An high assurance session is now established for the user. High assurance session is limited to the High Assurance session length \(**glide.zta.high\_assurance.session.timeout**\) system property. If the high assurance session time exceeds the property length, the user is prompted for re-authentication or step up authentication.
+A high assurance session is now established for the user. High assurance session is limited to the High Assurance session length \(**glide.zta.high\_assurance.session.timeout**\) system property. If the high assurance session time exceeds the property length, the user is prompted for re-authentication or step-up authentication.
 
 **Related topics**  
 
 
-[Configuring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-ca.md)
+[Configure Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-ca.md)
 
-[High Assurance session with Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/high-assurance-ca.md)
+[High assurance session with continuous authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/high-assurance-ca.md)
 
 [Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/explore-continuous-auth.md)
 

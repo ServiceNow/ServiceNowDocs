@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-04-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use AI Admin Hub, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---

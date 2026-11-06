@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure ACC data inputs manually, Set up additional ACC data inputs, Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: MetricBase
 classification: metricbase
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Define and collect data, MetricBase, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ You can access and visualize time-series data in the MetricBase database by usin
 
 -   Reporting application
 
-    You can generate reports and graphs from the time-series data that is stored in the MetricBase database. For more information, see [Create reports from MetricBase time-series data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-report-with-metricbase-data.md).
+    You can generate reports and graphs from the time-series data that is stored in the MetricBase database. For more information, see Create reports from MetricBase time-series data.
 
 -   Table lists using the `.list` command
 

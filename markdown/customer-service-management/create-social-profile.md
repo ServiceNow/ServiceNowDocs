@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-social-profile.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer management, Use, Customer Service Management]
 ---
@@ -92,5 +92,5 @@ The link to the user's social media account.
 **Related topics**  
 
 
-[Social media communication channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/social-media-integration.md)
+[Social media integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/social-media-integration.md)
 

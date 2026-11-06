@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/employee-slate-config-cbs.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Employee Slate, Employee Experience, Core Business Suite, Moveworks, Now Assist, employee portal, configure]
 breadcrumb: [Configure, Core Business Suite]
@@ -64,5 +64,5 @@ Configure Employee Slate for Moveworks to provide a conversational interface for
 -   **[Configure Employee Slate for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/config-es-cbs-na.md)**  
 Configure Employee Slate for Now Assist to provide a conversational interface for employee portal queries on CBS. Use the Configuration Summary page to complete setup across six sections and export the finished configuration.
 
-**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CSDM and CMDB Data Foundations Dashboards, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,11 +20,14 @@ The CSDM Data Foundations dashboard displays key CSDM indicators on a single pag
 
 Use either of the following methods to open the dashboard:
 
-Navigate to **All** &gt; **Configuration**, and then select **CSDM Data Foundations Dashboard**.
+-   **Link to the dashboard**
 
-1.  In CMDB Workspace, navigate to **Workspaces** &gt; **Service Graph Workspace** or**Workspaces** &gt; **CMDB Workspace**.
-2.  Select **Management** in the workspace menu bar.
-3.  Select **CSDM Data Foundations Dashboard** in the Optimize section of the Management tools.
+    Navigate to **All** &gt; **Configuration**, and then select **CSDM Data Foundations Dashboard**.
+
+-   **From a workspace**
+    1.  In CMDB Workspace, navigate to **Workspaces** &gt; **Service Graph Workspace** or**Workspaces** &gt; **CMDB Workspace**.
+    2.  Select **Management** in the workspace menu bar.
+    3.  Select **CSDM Data Foundations Dashboard** in the Optimize section of the Management tools.
 
 Select the change dashboard icon \(\[Omitted image "ChangeDashboard.png"\] Alt text: Change dashboard.\) to toggle between the CSDM and CMDB dashboards.
 

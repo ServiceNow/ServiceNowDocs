@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Base Asset Management, Common applications, Asset Management]
 ---
@@ -32,4 +32,6 @@ Manage pre-allocated assets, which are the assets that the vendor still owns, bu
 Manage the asset movement from one stockroom to the other using transfer order.
 -   **[Use Organization Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/org-mgmt.md)**  
 The Organization Management application provides an easy way to perform such asset management tasks as updating users and adding vendors.
+
+**Parent Topic:**[Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/am-landing-page.md)
 

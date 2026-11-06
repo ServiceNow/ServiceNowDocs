@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational SMS Integration with Twilio, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [SMS Twilio, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Using Conversational SMS Integration with Twilio
@@ -20,7 +20,7 @@ An administrator can configure Conversational SMS Integration with Twilio with a
 
 A requester can initiate SMS conversations with a virtual agent or a live agent.
 
-A live agent can:
+A live agent can do the following:
 
 -   Accept SMS conversations as work items from their Agent Workspace Inbox to converse with a requester.
 -   Initiate SMS chat conversations from interactions of type Chat from their Agent Workspace Inbox to converse with a requester.
@@ -28,7 +28,7 @@ A live agent can:
 
 ## Accepting SMS conversations
 
-As a live agent interacting with a requester over the SMS service channel, you can:
+As a live agent interacting with a requester over the SMS service channel, you can do the following:
 
 -   Converse with the requester through text messages.
 -   Share a knowledge article displayed as a link to the requester.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-outbound-dms-integration.html
 release: australia
 topic_type: task
-last_updated: "2026-07-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [outbound DMS integration, DMS, SOAP message, WSDL, repair claim, OEM instance, dealer record, business rule, claim adjudication, outbound integration]
 breadcrumb: [DMS integration, Integrate, Manufacturing Commercial Operations]

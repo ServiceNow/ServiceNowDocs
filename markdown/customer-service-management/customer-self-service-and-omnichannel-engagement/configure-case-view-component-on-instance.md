@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Case view component, Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Case view component, Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the Case view component instance

@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [PDR external form configuration, configure public form]
 breadcrumb: [Configure the external-facing PDR form, Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]

@@ -7,8 +7,8 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Applying CSDM guidelines to Incident Management, Configuring Incident Management, Incident Management, IT Service Management]
 ---
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Incident Management leverages the CSDM data structure to display information that assists in solving the incident.
+Incident Management uses the CSDM data structure to display information that assists in solving the incident.
 
 [Go to the 1:00:00 mark on this video](https://www.youtube.com/watch?v=EbuHgr10P98&list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK&index=57) to learn about setting up the Incident form to include the related lists that leverage the CSDM framework.
 
@@ -37,7 +37,7 @@ Incident Management leverages the CSDM data structure to display information tha
     -   **Populate the Service Offering related list for incidents**
     The properties are fully described in [Incident Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-management-properties.md).
 
-3.  Ensure that the **Principle Class** option is selected for the CI or CI class as described in [Create a CI class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIType.md) and [Update the list of classes in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/update-principal-class-filter.md).
+3.  Ensure that the **Principal Class** option is selected for the CI or CI class as described in [Create a CI class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIType.md) and [Update the list of classes in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/update-principal-class-filter.md).
 
 4.  Navigate to **All** &gt; **Incident** &gt; **Open** and fill in the following fields:
 
@@ -77,9 +77,9 @@ Configuration Item
 
 </td><td>
 
-The CI or the affected service. \(Hardware, application, and cloud \[physical CIs\] or application service \[logical CIs\]\)
+The CI or the affected service, such as hardware, application, and cloud CIs \(physical CIs\) or application services \(logical CIs\).
 
- You can then use the CI to identify details for incident routing. For example, you can use the CI data like Support Group and provide information about the service impact by using dependency relationships.
+ You can then use the CI to identify details for incident routing. For example, you can use CI data, such as the support group, and provide information about the service impact by using dependency relationships.
 
 </td></tr></tbody>
 </table>5.  Review the information.

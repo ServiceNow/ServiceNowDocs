@@ -7,9 +7,9 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Audit Supervisor Workspace, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Supervisor Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Request evidence during audits using Audit Workspace
@@ -333,8 +333,8 @@ Instructions for providing evidence. For example, list of supporting documents, 
 
 10. Select **Request Evidence**.
 
-    When an evidence request is already in the Work in Progress state, and a new evidence collection detail is added, the evidence request task is sent to the assignee immediately.
+    When an evidence request is in **Work in Progress** and a new evidence collection detail is added, the evidence request task is sent to the assignee immediately.
 
-    The Evidence related list appears with the list of evidences and the person who is assigned the request receives an email notification to provide the requested evidence. Also, the state of the request changes to **Work in Progress**.You can view the description. Monitor the state of the Evidence request in the stepper of the Overview page as it progresses through the evidence request process flow.
+    The Evidence related list appears with the list of evidences. The person who is assigned the request receives an email notification to provide the requested evidence. Also, the state of the request changes to **Work in Progress**.You can view the description. Monitor the state of the Evidence request in the stepper of the Overview page as it progresses through the evidence request process flow.
 
 

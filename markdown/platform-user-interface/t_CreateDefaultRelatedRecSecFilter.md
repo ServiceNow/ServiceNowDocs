@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreateDefaultRelatedRecSecFilter.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Related lists, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -52,7 +52,7 @@ A filter is used to restrict the records that are listed in the slushbucket that
 
 [Add fields to selections in a related list]()
 
-[bundle-platadm.t_ConfigureReferenceQualifiers]
+[Configure reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureReferenceQualifiers.md)
 
 [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_ConditionBuilder.md)
 

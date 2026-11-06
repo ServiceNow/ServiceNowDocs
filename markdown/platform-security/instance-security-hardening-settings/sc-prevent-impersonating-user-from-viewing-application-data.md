@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -38,7 +38,7 @@ For each application with the **&lt;scope&gt;.impersonateCheck** property in the
 
 **Note:** These properties can only be modified by the scoped administrator for the specific application.
 
-Use this script to find which properties need to be updated or created on the instance:
+Use this script to identify properties that require updates or creation on the instance:
 
 ```
 var properties = [
@@ -116,7 +116,7 @@ Default value
 
 </td><td>
 
-false
+true
 
 </td></tr><tr><td>
 
@@ -150,7 +150,7 @@ Functional impact
 
 </td><td>
 
-Admin level users are not be able to impersonate another user and view that user's data in a specific application context.
+Admin level users aren't be able to impersonate another user and view that user's data in a specific application context.
 
 </td></tr><tr><td>
 

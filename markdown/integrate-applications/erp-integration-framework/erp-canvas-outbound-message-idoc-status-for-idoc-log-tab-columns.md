@@ -19,7 +19,7 @@ The outbound message IDoc status for IDoc log tab in Zero Copy Connector for ERP
 
 For process details, see [View and troubleshoot IDoc messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/view-and-troubleshoot-idoc-messages.md).
 
-Explore the API for interacting with Zero Copy Connector for ERP models. For details and examples of using the API, see .
+Explore the API for interacting with Zero Copy Connector for ERP models. For details and examples of using the API, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
 
 <table id="table_c51_mfb_ghc"><thead><tr><th>
 

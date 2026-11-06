@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -22,7 +22,7 @@ Available as an Workflow Studio action step. Users with the action\_designer rol
 
 -   **AI Skill Kit requirements**
 
-    This step requires the AI Skill Kit. For more information, see [Exploring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md).
+    This step requires the AI Skill Kit. For more information, see .
 
 -   **Role requirements**
 

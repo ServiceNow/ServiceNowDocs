@@ -1,20 +1,20 @@
 ---
 title: Attach a script file to a file synchronized MID Server
-description: You can attach a script file to synchronize to a connected MID Server.Script files attached to a record stay synchronized with a connected MID Server.
+description: You can attach a script file to synchronize to a connected MID Server. Windows Internet Explorer enhanced security blocks downloaded files that it determines are potentially dangerous. However synchronizing the files avoids this security problem.Script files attached to a record stay synchronized with a connected MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-server-script-attach.html
 release: australia
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Attach a script file to a file synchronized MID Server
 
-You can attach a script file to synchronize to a connected MID Server.
+You can attach a script file to synchronize to a connected MID Server. Windows Internet Explorer enhanced security blocks downloaded files that it determines are potentially dangerous. However synchronizing the files avoids this security problem.
 
 ## Before you begin
 
@@ -27,7 +27,9 @@ Role required: **admin**
 </td></tr></tbody>
 </table>## About this task
 
-Use file synchronization to make script files available on a connected MID Server. The files on the instance and the MID Server stay synchronized, so there is no need for the MID Server to download the whole file. File synchronization also helps prevent updates you make in those script files from being overwritten during an instance upgrade.
+Enhanced security in Windows browsers, such as Internet Explorer, blocks downloaded files that it determines are potentially dangerous. This would block files downloaded for use by the MID Server. You would need to unblock each file manually through the browser.
+
+To get around this issue, use file synchronization. File synchronization requires you to proactively take script files from your instance and save them on the MID Server. The files on the instance and the MID server stay synchronized, but there is no longer any need for the MID Server to download the whole file. File synchronization also protects any updates you make in those script files from being overwritten during the upgrade of an instance.
 
 You can attach multiple files, but the last attached file gets synchronized to the MID Server. If you delete the attachment, the script file becomes inactive, and the synchronized file is deleted from the MID Server.
 
@@ -59,6 +61,8 @@ You can attach multiple files, but the last attached file gets synchronized to t
 
 [MID Server configuration file security]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server authentication credentials and SOAP requests]()
 
 [MID Server unified key store]()
@@ -73,13 +77,13 @@ You can attach multiple files, but the last attached file gets synchronized to t
 
 [Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server]()
-
 [MID Server SSH cryptographic algorithms]()
 
 [MID Server FIPS Enforced Mode]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 
 ## How script file synchronization works on the MID Server
 

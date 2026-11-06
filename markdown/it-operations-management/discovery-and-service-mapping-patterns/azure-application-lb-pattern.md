@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-06-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Azure Application LB, Azure Application Gateway, Azure discovery, Azure patterns, Application LB pattern]
 breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]

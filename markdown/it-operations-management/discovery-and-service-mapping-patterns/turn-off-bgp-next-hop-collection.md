@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [BGP discovery, network router discovery, SNMP routing pattern, next-hop route data, MID Server performance]
 breadcrumb: [Network router, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ You can turn off Next Hop Routing Rule \[dscy\_route\_next\_hop\] table collecti
 
 ## Before you begin
 
--   Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+-   Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 -   Navigate to `sys_properties.list` and verify that the **glide.discovery.bgp\_router\_disable** property is set to false.
 
 Role required: discovery\_admin

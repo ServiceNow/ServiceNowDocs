@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MFA Dashboard, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -21,7 +21,7 @@ User Metrics on the MFA Dashboard are as follows:
 -   [Users enrolled in Multi-factor Authentication \(MFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/user-metrics.md)
 -   [Privileged admins without Multi-factor Authentication \(MFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/user-metrics.md)
 
-## Users enrolled in Multi-factor Authentication \(MFA\)
+## Users enrolled in multi-factor authentication \(MFA\)
 
 The percentage of users who can perform username-password based login and enrolled in MFA. This metric provides an insight on the adoption of MFA by the users over a period of time.
 
@@ -29,9 +29,9 @@ The percentage of users who can perform username-password based login and enroll
 
 **Note:** Ideally, the score should gradually increase and should be 100% over a period of time \(Refreshed once a day to collect records for a day before\).
 
-## Privileged admins without Multi-factor Authentication \(MFA\)
+## Privileged admins without multi-factor authentication \(MFA\)
 
-Privileged admins not using MFA is a significant risk to platform security. It’s recommended that you get these people using MFA.
+Privileged admins not using MFA is a significant risk to platform security. Have these users enroll in MFA.
 
 \[Omitted image "mfa-dashboard-privileged-admins.png"\] Alt text: Privileged admins without MFA
 

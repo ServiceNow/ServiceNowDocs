@@ -7,9 +7,9 @@ release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-21"
 reading_time_minutes: 3
-breadcrumb: [Exploring Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Explore, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Accessing Table Builder
@@ -81,7 +81,7 @@ Table Builder can be accessed from within UI Builder by selecting **Edit form vi
 To use Table Builder, you must either:
 
 -   be an administrator, or
--   have the following role permissions in ServiceNow AI Platform, or
+-   have role permissions that are listed in the following table, or
 -   have the relevant AES user role and delegated developer permissions.
 
 For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-
 release: australia
 topic_type: concept
 last_updated: "2026-06-28"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [extend retail case, custom case type, retail case extension]
 breadcrumb: [Retail case types, Explore, Retail]
 ---
@@ -33,6 +33,8 @@ Use the following questions to determine whether your organization needs a new c
 -   Do access and visibility requirements differ? For example, do the records generated for this use case have distinct view restrictions?
 -   Do fulfillers need a different workspace experience and guidance for this case type?
 -   Are there future scalability needs, or change-management considerations where shared intake forms and workflows would increase complexity across teams?
+
+**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types-revamp.md)
 
 **Related topics**  
 

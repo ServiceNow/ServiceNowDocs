@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/json-param-search-option-banner-widget.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configurable Portal Widgets reference, Reference, Customer Service Management]
+breadcrumb: [Portal Banner widget JSON parameters, JSON parameter in Configurable Portal Widgets, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
 
 # Script parameters for the search option in the Portal Banner widget

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-configuring-connectors.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-05"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configuring connectors
@@ -24,6 +24,8 @@ Discover AI assets running on external platforms and hyperscaler environments to
 ## Available connectors
 
 For the complete list of supported service graph connectors, their prerequisites, and connector-specific configuration fields, see the [AI Control Tower- AI Discovery Connectors \[KB2986990\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2986990) article in the Now Support Knowledge Base.
+
+AI Control Tower also provides the Veza access intelligence connector, which enriches AI agents already in your inventory with access risk scores and severity levels. For more information, see [Create an AI connection for Veza access intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-create-ai-connection-veza.md).
 
 ## How connectors discover AI assets
 
@@ -52,6 +54,8 @@ Discovery connectors and trace connectors both discover AI assets and feed the s
 
 -   **[Create an AI connection for discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-create-ai-connection-discovery.md)**  
 Bring AI assets from an external platform into your AI asset inventory by creating an AI connection. AI Control Tower authenticates to the platform using your credentials and imports assets on a schedule, so they're governed and monitored alongside AI systems built natively on ServiceNow.
+-   **[Create an AI connection for Veza access intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-create-ai-connection-veza.md)**  
+Connect AI Control Tower to Veza using OAuth 2.0 so that agent risk scores and severity levels from Veza access intelligence appear in the agent map. Since Veza is an enrichment connector, it doesn't import new assets.
 
 **Parent Topic:**[Configuring integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-integrations.md)
 

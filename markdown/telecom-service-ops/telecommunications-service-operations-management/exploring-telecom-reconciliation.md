@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
@@ -52,7 +52,7 @@ Once the discovery process is complete, the CMDB Compliance framework identifies
 CMDB Compliance is a toolset that enables administrators to certify CMDB data for accuracy and identify discrepancies detected during compliance audits. It can also automatically generate and assign Follow-on Tasks for failed audit records, which serve as tasks to trigger an appropriate remediation subflow to correct discrepancies. CMDB Compliance Audits form the foundation of the Telecom Discrepancy Identification &amp; Reconciliation.
 
 -   CMDB Compliance runs audits as a post-processing rule, identifying anomalies \(discrepancies\) in the CMDB.
--   CMDB Compliance creates a Follow-On Task for each Audit Record in a failed state. An audit record fails when an audit finds an anomaly or discrepancy in the CMDB. A remediation flow can be designed and triggered for each Follow-On Task to address and resolve the discrepancy.
+-   CMDB Compliance creates a Follow-On Task for each Audit Record in a failed state. The failed state results from an audit finding an anomaly or discrepancy in the CMDB. A remediation flow can be designed and triggered for each Follow-On Task to address and resolve the discrepancy.
 
 The logic for Telecom Discrepancy Identification &amp; Reconciliation, and the example remediation subflows, are automatically with the TSOM Visibility plugin. For more information on the general CMDB Compliance toolset, see [CMDB Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Compliance.md).
 
@@ -87,19 +87,19 @@ You can use the following audits to identify the discrepancies in the discovered
 
 ## Follow-On Task types created for failed Audit Result Records
 
-The following discrepancy types \(Audit Results\) can be found for Parent CI and child CIs for each relationship record in the CI Relationship \[cmdb\_rel\_ci\] table that matches the conditions. Follow-On Tasks can be created for each of the failed Audit Results:
+The following discrepancy types \(Audit Results\) can be found for Parent CI and child CIs for each relationship record in the CI Relationship table \(cmdb\_rel\_ci\) that matches the conditions. You can create Follow-On Tasks for each failed Audit Result:
 
 1.  The most recent discovery date not set - generated in case the Most recent discovery date field in CI is missing.
-2.  The most recent discovery date not within configured threshold is generated when the Most recent discovery date field value difference between a Parent CI and child CI exceeds the configured threshold. The default threshold is 2.5 days. To change this value, use the **sn\_tsom\_core.discovered\_date.diff.threshold.in.days** system property.
+2.  The most recent discovery date not within configured threshold - generated when the field value difference between a Parent CI and child CI exceeds the configured threshold. The default threshold is 2.5 days. To change this value, use the **sn\_tsom\_core.discovered\_date.diff.threshold.in.days** system property.
 3.  CI model not found \(the ‘Model ID’ field isn’t set or data is invalid\) - generated in case a corresponding CI model isn’t found. If a CI model isn’t found, the next validations \(4-6\) are irrelevant because they rely on CI models. In case a CI model is found, the audit will continue to the next validations \(4-6\).
 4.  Slots occupied discrepancy - generated in case a card occupies an incorrect number of Slots.
 5.  Model relationships not defined - relevant only if TNI is installed. Generated if the audit is unable to find a relationship between Parent and child CI models in the Network Model Relationships table.
-6.  Incorrect number of relationships - relevant only if TNI is installed. Generated if the number of discovered child CI records exceeds the maximum number defined in the model relationship Count field in the Network Model Relationship table.
+6.  Incorrect number of relationships - relevant only if TNI is installed. Generated if the audit finds that the number of discovered child CI records exceeds the maximum number of its corresponding Parent CI record in the model relationship Count field in the Network Model Relationship table.
 7.  Incorrect number of relationships - generated during the Logical Connection Discrepancy Audit when a logical interface is associated with more than one logical connection, violating the expected one-to-one mapping.
 8.  Incorrect number of relationships - generated during the Network Topology Discrepancy Audit when a network topology record does not meet the required relationship criteria. Specifically:
     -   The record must have at least one "Contains:Contained By" relationship with an equipment CI.
     -   The record must also have at least one "Members:Member Of" relationship with a logical connection CI.
-9.  Reference to Logical Interface not found - generated during the Logical Connection Discrepancy Audit when a logical connection is missing one or both end points.
+9.  Reference to Logical Interface not found - generated during the Logical Connection Discrepancy Audit when a logical connection is missing one of the end points \(Port A or Port z, or both\).
 
 ## Telecom Reconciliation
 

@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [API Key and HMAC Authentication for inbound REST APIs, Token-based authentication, API Authentication, Authentication, Access Management]
+breadcrumb: [API key and HMAC authentication for inbound REST APIs, Token-based authentication, API authentication, Authentication, Access Management]
 ---
 
 # Configure API key - Token-based authentication
@@ -77,7 +77,7 @@ Select the auth parameter for the authentication request. You can select the def
 
         \[Omitted image "api-parameter.png"\] Alt text: API Parameter
 
-        **Note:** If you wish to add a prefix for the API-Key, Open the Auth Parameter file that you have selected and specify the **Prefix** field.
+        **Note:** To add a prefix for the API-Key, open the Auth Parameter file that you have selected and specify the **Prefix** field.
 
     5.  Submit the form.
 
@@ -87,7 +87,7 @@ Select the auth parameter for the authentication request. You can select the def
 
     2.  Select **New**.
 
-    3.  On the form, fill the fields:
+    3.  On the form, fill in the fields:
 
 <table id="table_ehg_jtx_mzb"><thead><tr><th>
 
@@ -151,7 +151,7 @@ Expiry
 
 </td><td>
 
-Time after which the credential is no longer valid. Empty value means no expiration.**Note:** For more information, about expiry of token, see [Cleaning up token Expiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/token-expiry-api-and-hmac.md) .
+Time after which the credential is no longer valid. Empty value means no expiration.**Note:** For more information, about expiry of token, see [Cleaning up token expiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/token-expiry-api-and-hmac.md) .
 
 </td></tr></tbody>
 </table>    4.  Submit the form.
@@ -222,7 +222,7 @@ Version
 
 </td><td>
 
-Version of the API. For example, **v1**. This field is auto-populated based on the selected REST API.**Note:** If you want to create an authentication policy for all versions of a REST API, you must create individual policies for each version.
+Version of the API. For example, **v1**. This field is auto-populated based on the selected REST API.**Note:** To create an authentication policy for all versions of a REST API, you must create individual policies for each version.
 
 </td></tr><tr><td>
 

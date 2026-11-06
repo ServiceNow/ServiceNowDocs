@@ -1,46 +1,67 @@
 ---
 title: Monitoring data usage in Hermes
-description: Monitor data usage in Hermes over time.
+description: Monitor the amount of data produced to and consumed from the Hermes cluster over time. Use the Hermes Usage Dashboard to track data inflow and outflow by topic, application, and time period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/multi-instance-framework-hermes/monitoring-data-usage-hermes.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+keywords: [Usage dashboard, Monitor data usage, Usage data]
 breadcrumb: [Administer, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Monitoring data usage in Hermes
 
-Monitor data usage in Hermes over time.
+Monitor the amount of data produced to and consumed from the Hermes cluster over time. Use the Hermes Usage Dashboard to track data inflow and outflow by topic, application, and time period.
 
-Monitor the amount of data that is produced to and consumed from the Hermes cluster over time in the Hermes Usage Dashboard.
+\[Omitted video\] Description: Hermes Usage Dashboard overview video.
+
+This video covers the Hermes Usage Dashboard.
 
 Usage data is calculated by aggregating the size of all messages sent to the cluster. The size of the message is determined by the total payload present in Kafka, including key, header, value, and overhead. If compression is enabled, the dashboard reports the compressed payload size, which includes key, header, and message.
 
 ## Key benefits
 
 -   Monitor Hermes performance with insights into data inflow and data outflow in megabytes for a specified time period.
--   Visualize data usage over time for all topics or a single topic.
+-   Visualize data usage over time for all topics, a single topic, or multiple applications.
 -   Compare data usage for topics that belong to an application.
 
-\[Omitted image "hermes-usage-dashboard.png"\] Alt text: Hermes Metrics Dashboard.
+\[Omitted image "hermes-usage-dashboard.png"\] Alt text: Usage Dashboard showing data inflow and outflow metrics by topic and time period.
 
 ## Required roles
 
-The hermes\_admin is required to view the Hermes Usage Dashboard.
+The hermes\_admin role is required to view the Hermes Usage Dashboard.
 
 ## Accessing the Hermes Usage Dashboard
 
 View usage by navigating to **All** &gt; **Hermes Messaging Service** &gt; **Usage Dashboard**.
 
+## Multi-select for Application ID filter
+
+The Application ID filter displays full descriptive names alongside application identifiers so you can identify and select the application without needing to know internal shorthand codes. Only applications with active metrics collection appear in the filter.
+
+|Application ID|Display Name|
+|--------------|------------|
+|idr|Instance Data Replication|
+|cnc|ITSM DEX|
+|sn\_streamconnect|Stream Connect|
+|sn\_logstoanalytics|Log Export Service|
+
+The Application ID filter supports selecting multiple applications simultaneously. With the multi-select option, you can do the following:
+
+-   Compare data usage across multiple applications in a single view.
+-   View aggregate Total MB In and MB Out across all selected applications.
+-   View Topic Usage Data table with a separate row per selected application.
+
+For example, you can select both IDR – Instance Data Replication and Stream Connect to view their combined and individual usage side by side.
+
 ## Use cases
 
 -   Monitor data usage for an application. Determine if usage has increased or decreased over time.
 -   View data usage for a specific topic. Determine if usage patterns changed by looking for spikes or drops in usage.
--   Look for decreased usage over time to determine if your application is producing data that isn't supported by Hermes.
 -   Compare data usage for topics in a single application or all applications that belong to you.
 -   Analyze total bytes in and bytes out based on the source.
     -   **Instance**
@@ -66,8 +87,24 @@ Data displayed in the Hermes Metrics Dashboard is collected from the Hermes usag
 
 -   Metric data is captured hourly, with each collection point reflecting the latest value recorded within that hour.
 -   Metric data is aggregated and displayed over time. This means the dashboard enables you to view an overall trend rather than precise moment-to-moment traffic.
--   Metric data displayed on the dashboard is initially aggregated daily. Depending on the date range you select, the dashboard dynamically adjusts its view. For example, for ranges greater than 60 days, it presents the data in monthly summaries. For ranges less than 60 days, it displays daily summaries.
+-   Metric data displayed on the dashboard is initially aggregated daily. The dashboard automatically determines the best aggregation based on the date range selected:
+    -   Previous months: Data is displayed using monthly aggregates, giving you a clean summary of usage for each completed month.
+    -   Current month: Data is displayed using daily aggregates, so you can see up-to-date usage as it accumulates throughout the month.
+    -   Today: When your end date is today, hourly data is included, giving you the most current view of usage activity.
 -   Metric data is retained for 12 months.
+
+    If your selected date range spans both past and current months, the dashboard combines monthly summaries for the historical portion with daily and hourly data for the current period. For example, querying January 1 – April 9 \(today is April 9\).
+
+    |Period|Aggregation|
+    |------|-----------|
+    |January|Monthly|
+    |February|Monthly|
+    |March|Monthly|
+    |April 1 – April 8|Daily|
+    |April 9 \(today\)|Hourly|
+
+    The line graph has also been updated to display monthly trends when viewing extended date ranges, making it easier to identify long-term usage patterns.
+
 
 |Title|Type|Source table|Description|
 |-----|----|------------|-----------|
@@ -80,17 +117,22 @@ Data displayed in the Hermes Metrics Dashboard is collected from the Hermes usag
 
 View data usage \(bytes in and bytes out\) by source based on the combination of application ID, service ID, and topic that you select.
 
-Topics with the prefix \[Internal\] are for applications used only by ServiceNow. Topics that don't have this prefix are considered external.
+The Topic Usage Data table displays only topics associated with a recognized application. Topics that were created without an Application ID no longer appear in the table or in the Hermes Topic filter.
 
-|Application ID|Hermes Topic Option|What You See|How You Might Use It|
+The following are the available options in the Hermes Topic filter:
+
+-   **All - Summary** — Displays one aggregated total row per selected application. Use this for a quick snapshot of overall usage.
+-   **All - Detailed** — Displays individual rows per topic. Use this to identify which specific topics are driving the most data usage. The sum of all rows in All - Detailed equals the All - Summary total.
+
+|Application ID|Hermes Topic Option|What you see|How you might use it|
 |--------------|-------------------|------------|--------------------|
-|All|All|Two roll-up rows: one for external topics \(\*All Topics\*\), one for internal topics \(“\[Internal\]\*All Topics\*”\).|Quickly compare total data usage for external integrations and internal ServiceNow workflows organization-wide.|
-|All|INSTANCE\_ALL\_TOPICS|Roll-up plus individual topic rows for all topics \(external + internal\) across the organization.|Identify which specific topics are driving the most data usage while still seeing the aggregate totals.|
-|All|\*All Topics\*|External topics roll-up per application \(topics without \[Internal\] prefix\), grouped by app.|Compare external integration usage across different applications \(for example, Stream Connect, Log Export Service\).|
-|All|\[Internal\]All Topics|Internal topics roll-up per application \(topics with \[Internal\] prefix\), grouped by app.|Monitor internal ServiceNow data flows across applications \(for example, IDR internal topics\).|
-|Specific App|Any topic option|Usage for topics related to that application, based on the topic filter selected.|Focus on data usage for a particular application \(for example, view Log Export Service topic usage\).|
-
-**Note:** When **All** is selected for both the Application ID and Hermes Topic, the Topic Usage Data table displays two roll-up rows: one for external topics \(\*All Topics\*\) and one for internal topics \(\[Internal\]\*All Topics\*\).
+|All|All - Summary|One aggregate row per selected application.|Quickly compare total data usage across applications.|
+|All|All - Detailed|Individual topic rows for all applications, excluding aggregate entries.|Identify which specific topics are driving the most usage across your organization.|
+|Single App|All - Summary|One aggregate row for that application.|Get a total usage snapshot for a specific application.|
+|Single App|All - Detailed|One row per individual topic for that application.|Drill into topic-level usage for a specific application.|
+|Multiple Apps|All - Summary|One aggregate row per each selected application.|Compare total usage side by side across selected applications.|
+|Multiple Apps|All - Detailed|One row per topic for each selected application.|Analyze topic-level breakdown across multiple applications simultaneously.|
+|Any|Specific Topic|One row for that topic.|Focus on usage patterns for a single topic.|
 
 **Parent Topic:**[Administering Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-administration.md)
 

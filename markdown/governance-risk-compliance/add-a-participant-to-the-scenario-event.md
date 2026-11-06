@@ -1,16 +1,16 @@
 ---
-title: Add a participant and monitor the responses
+title: Add a participant to a scenario analysis
 description: Add a participant to the scenario analysis first and then add the scenario event, services, issues, and so on. If you are the scenario analysis owner, you can add the stakeholders and reviewers to the scenario analysis in Operational Resilience Workspace. You can then collate the observations of all participants and monitor their responses to analyze the scenario.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-a-participant-to-the-scenario-event.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Add a participant and monitor the responses
+# Add a participant to a scenario analysis
 
 Add a participant to the scenario analysis first and then add the scenario event, services, issues, and so on. If you are the scenario analysis owner, you can add the stakeholders and reviewers to the scenario analysis in Operational Resilience Workspace. You can then collate the observations of all participants and monitor their responses to analyze the scenario.
 
@@ -22,40 +22,35 @@ Role required: sn\_oper\_res.manager
 
 1.  Navigate to **Workspaces** &gt; **Operational Resilience Workspace** &gt; **All scenario analysis** and select the scenario analysis that you own.
 
-2.  Navigate to the **Participants** tab in the scenario event form and then either add a participant from an available list or add a new participant.
+2.  Create a participant on the scenario analysis record.
 
-    |Step|Description|
-    |----|-----------|
-    |**Select __Add__.**|Add a participant from the available list of participants for the scenario analysis.|
-    |**Select __New__.**|Add a participant to the scenario event.|
+    1.  On the **Participants** tab of the scenario analysis, select **New**.
 
-    1.  Select **New**.
-
-        The Create New Participant form is displayed as shown in the following example.
-
-        \[Omitted image "create-new-participant-for-scenario-analysis.png"\] Alt text: Create a participant for the scenario analysis.
+        The Create Participant form is displayed.
 
         The name of the scenario analysis is auto-filled by default.
 
-    2.  In the **Participant** field, select a participant from the list in the Participant form.
+    2.  In the **Participant** field, select a participant from the list.
 
-        When you select a participant, the role is auto-filled in the Role field.
+        The **Role** field is filled in with a default role. You can change it if needed.
 
     3.  In the **Instruction** field, add instructions for the participant.
 
     4.  Select **Save**.
 
-        You can view the tabs on the Participant form as shown in the following example.
+        The participant is now available to be added to any scenario event within this scenario analysis.
 
-        \[Omitted image "scenario-events-associated-with-participant.png"\] Alt text: Tabs on the Participant form.
+3.  On the **Scenario events** tab, open a scenario event, and then on the **Participants** tab of the scenario event, select **Add** to associate the participant with the event.
 
-        When you create a scenario event and add a participant to it, a response task is automatically created for the participant. The following example shows that when a participant is assigned to a scenario event, a response task is created.
+    **Note:** In the legacy scenario analysis flow, creating a participant from a scenario event is not supported. You create participants from the scenario analysis. If you select **New** on the **Participants** tab of a scenario event, the **Participant**, **Role**, and **Instruction** fields are read-only. You must create the participant on the scenario analysis, as described in the previous step, and then use **Add** here to select it from the list. You can't add the same participant to a scenario event more than once.
 
-        An email notification is automatically sent to the participant.
+    When the scenario analysis is in the **Analyze** state and you add a participant to a scenario event, a response task is created for the participant.
 
-        On the **Responses** tab, the response task details are displayed. These details include the response task number, assigned participant name, and response task state.
+    An email notification is also sent to the participant.
 
-3.  On the **Responses** tab, fill in the fields.
+    On the **Responses** tab, the response task details are displayed. These details include the response task number, assigned participant name, and task state.
+
+4.  On the **Responses** tab, fill in the fields.
 
     1.  Log in as the assigned user and update the impact duration in the **Impact Duration** field.
 
@@ -73,19 +68,19 @@ Role required: sn\_oper\_res.manager
 
     For the descriptions of the field values on the scenario analysis response task form, see [Scenario analysis response task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/response-task-form.md).
 
-4.  Log in as the owner of the scenario event.
+5.  Log in as the owner of the scenario event.
 
-5.  On the **Dependencies** tab, add a dependency for the scenario event.
+6.  On the **Dependencies** tab, add a dependency for the scenario event.
 
-6.  On the **Scope** tab, add the scope for the scenario event.
+7.  On the **Scope** tab, add the scope for the scenario event.
 
-7.  On the **Issues** tab, select the issues that are associated with the event.
+8.  On the **Issues** tab, select the issues that are associated with the event.
 
-8.  Ensure that the open response task is complete.
+9.  Verify that the open response task is complete.
 
-9.  Verify that the **Potential start date time** and **Potential start date time** are filled in for the scenario event.
+10. Verify that the **Potential start date time** and **Potential end date time** are filled in for the scenario event.
 
-10. Update the state of the scenario event from **Draft** to **Completed**.
+11. Update the state of the scenario event from **Draft** to **Completed**.
 
 
 ## What to do next

@@ -1,20 +1,20 @@
 ---
 title: Definitions of AI asset inventory
-description: Define the AI asset inventory, and AI assets.
+description: Explore AI asset inventory, and AI assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/definitions-of-ai-asset-inventory.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Definitions of AI asset inventory
 
-Define the AI asset inventory, and AI assets.
+Explore AI asset inventory, and AI assets.
 
 ## AI asset inventory overview
 

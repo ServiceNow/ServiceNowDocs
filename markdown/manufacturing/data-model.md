@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/data-model.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Manufacturing Commercial Operations]
 ---
@@ -23,7 +23,7 @@ The repair claims framework enables the dealer to raise a reimbursement claim re
 -   **[Recall campaign data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/recall-claims.md)**  
 The recall campaign framework enables you to initiate the reimbursement claim request from the OEM for the recalled products.
 -   **[Quality issue management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-quality-issue-management-data-model.md)**  
-The quality issue management \(QIM\) framework enables OEMs for documenting non-conformance, evaluating their effects on assets and customers, conducting root cause analysis, and implementing corrective, containment, and other remediation actions.
+The quality issue management \(QIM\) framework helps original equipment manufacturers \(OEMs\) centralize non-conformance data and act on root causes.
 
 **Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/manufacturing-reference.md)
 

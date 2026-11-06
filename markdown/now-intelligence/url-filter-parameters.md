@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/url-filter-parameters.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-15"
+last_updated: "2026-10-07"
 reading_time_minutes: 2
 keywords: [URL parameters, dashboard filters, filter state, Platform Analytics]
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
@@ -48,12 +48,15 @@ The following filter types can be encoded in the URL:
 -   Lookup filters \(reference fields\)
 -   Boolean \(yes/no\) filters
 
+Date filters aren't encoded in the URL.
+
 ## Limitations
 
 URL filter parameters have the following known limitations:
 
 -   URLs longer than 2000 characters are automatically shortened via TinyURL.
 -   Special characters in filter values must be URL-encoded; the system handles this automatically
+-   Date filters aren't encoded in dashboards with encoded filter parameters.
 
 ## Filter URL example with filter sys\_IDs
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-cloudcostmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 12
+last_updated: "2026-11-06"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -158,10 +158,6 @@ Gain access to the spend reporting and recommendations for Azure based MCA contr
 Australia
 
 </td><td>
-
--   **[Make smarter cloud cost decisions with AI-powered summarization of cloud spend](https://www.servicenow.com/docs/access?context=spend-summary-otto-ccm&family=australia&ft:locale=en-US)**
-
-Get an AI-generated summary of your cloud spend trends, top cost drivers, and budget alignment with your selected filters and groupings. The **Summarize** button enables you to view month-over-month changes, commitments coverage, and the top five recommendations to reduce costs. Use these insights to make more informed decisions about your cloud spend.
 
 -   **[Get complete cost visibility with TCO and unit economics](https://www.servicenow.com/docs/access?context=business-insights-ccm-ws&family=australia&ft:locale=en-US)**
 

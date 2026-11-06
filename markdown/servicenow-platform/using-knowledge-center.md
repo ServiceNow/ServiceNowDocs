@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/using-knowledge-center.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,7 +29,7 @@ Following is the list of features and how they can be useful to you.
 
 **Search**
 
-Find knowledge material by title or text. Search is equipped with the AI, providing more guided and relevant results.
+Find knowledge material by title or text. Search is equipped with the Now Assist feature, providing more guided and relevant results.
 
 **Note:** When the AI Search feature is active, searches are performed using AI. If it's not enabled, contextual search is used instead.
 
@@ -41,7 +41,7 @@ Discover areas of improvement in the knowledge base through Potential gaps, Pote
 -   Potential duplicates
 -   Article optimization
 
-**Note:** This feature works only if the ServiceNow Otto Skill is enabled for your role. See [Configure custom prompts for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md).
+**Note:** This feature works only if the Now Assist Skill is enabled for your role. See [Configure custom prompts for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md).
 
 **Requires Attention**
 

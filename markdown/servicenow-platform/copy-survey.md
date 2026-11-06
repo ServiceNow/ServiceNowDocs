@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/copy-survey.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,15 +32,15 @@ All associated questions \(type\), configurations, categories, metrics, domain s
 
 3.  Perform any of the following steps.
 
-<table id="choicetable_vbb_qcl_l2b"><thead><tr><th align="left" id="d146447e89">
+<table id="choicetable_vbb_qcl_l2b"><thead><tr><th align="left" id="d145993e89">
 
 Option
 
-</th><th align="left" id="d146447e92">
+</th><th align="left" id="d145993e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d146447e98">
+</th></tr></thead><tbody><tr><td id="d145993e98">
 
 **From Platform**
 
@@ -48,7 +48,7 @@ Description
 
 In the title bar, click **Copy**.
 
-</td></tr><tr><td id="d146447e110">
+</td></tr><tr><td id="d145993e110">
 
 **From Platform**
 
@@ -56,7 +56,7 @@ In the title bar, click **Copy**.
 
 In the title bar, select **Copy** from the context menu.
 
-</td></tr><tr><td id="d146447e122">
+</td></tr><tr><td id="d145993e122">
 
 **From survey designer**
 

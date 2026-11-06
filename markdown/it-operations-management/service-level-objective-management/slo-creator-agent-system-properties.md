@@ -7,7 +7,7 @@ release: australia
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: reference
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM AIOps, IT Operations Management]

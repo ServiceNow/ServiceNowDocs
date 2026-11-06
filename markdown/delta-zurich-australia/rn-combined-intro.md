@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australi
 release: australia
 topic_type: concept
 last_updated: "2025-06-02"
-reading_time_minutes: 47
+reading_time_minutes: 48
 ---
 
 # Products combined by family
@@ -53,6 +53,8 @@ Consolidated page of all release notes for AI Agent Advisor from Zurich to Austr
 Consolidated page of all release notes for AI Agent Studio from Zurich to Australia.
 -   **[Combined AI Control Tower release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-aicontroltower-release-notes.md)**  
 Consolidated page of all release notes for AI Control Tower from Zurich to Australia.
+-   **[Combined AI Cost Management release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-aicostmanagement-release-notes.md)**  
+Consolidated page of all release notes for AI Cost Management from Zurich to Australia.
 -   **[Combined AI Desktop Actions release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-aidesktopactions-release-notes.md)**  
 Consolidated page of all release notes for AI Desktop Actions from Zurich to Australia.
 -   **[Combined AIOps LEAP release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-aiopsleap-release-notes.md)**  
@@ -161,8 +163,6 @@ Consolidated page of all release notes for Conversation Improvement Themes from 
 Consolidated page of all release notes for Conversation Insights from Zurich to Australia.
 -   **[Combined Core Business Suite release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-corebusinesssuite-release-notes.md)**  
 Consolidated page of all release notes for Core Business Suite from Zurich to Australia.
--   **[Combined CPQ release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-cpq-release-notes.md)**  
-Consolidated page of all release notes for CPQ from Zurich to Australia.
 -   **[Combined CPQ Configurator release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-cpqconfigurator-release-notes.md)**  
 Consolidated page of all release notes for CPQ Configurator from Zurich to Australia.
 -   **[Combined Creator Studio release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-creatorstudio-release-notes.md)**  
@@ -193,6 +193,8 @@ Consolidated page of all release notes for Data Privacy from Zurich to Australia
 Consolidated page of all release notes for Data products from Zurich to Australia.
 -   **[Combined Data Separation release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-dataseparation-release-notes.md)**  
 Consolidated page of all release notes for Data Separation from Zurich to Australia.
+-   **[Combined Decision tables release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-decisiontables-release-notes.md)**  
+Consolidated page of all release notes for Decision tables from Zurich to Australia.
 -   **[Combined Developer Sandboxes release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-developersandboxes-release-notes.md)**  
 Consolidated page of all release notes for Developer Sandboxes from Zurich to Australia.
 -   **[Combined DevOps Change Velocity release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-devopschangevelocity-release-notes.md)**  
@@ -363,6 +365,8 @@ Consolidated page of all release notes for Legal Hold Notification from Zurich t
 Consolidated page of all release notes for Legal Matter Management from Zurich to Australia.
 -   **[Combined Legal Request Management release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-legalrequestmanagement-release-notes.md)**  
 Consolidated page of all release notes for Legal Request Management from Zurich to Australia.
+-   **[Combined Legal Virtual Agent Conversations release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-legalvirtualagentconversations-release-notes.md)**  
+Consolidated page of all release notes for Legal Virtual Agent Conversations from Zurich to Australia.
 -   **[Combined Lifecycle Events release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-lifecycleevents-release-notes.md)**  
 Consolidated page of all release notes for Lifecycle Events from Zurich to Australia.
 -   **[Combined Listening Posts release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-listeningposts-release-notes.md)**  
@@ -371,6 +375,10 @@ Consolidated page of all release notes for Listening Posts from Zurich to Austra
 Consolidated page of all release notes for Live Connect from Zurich to Australia.
 -   **[Combined Localization Workspace release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-localizationworkspace-release-notes.md)**  
 Consolidated page of all release notes for Localization Workspace from Zurich to Australia.
+-   **[Combined Lux release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-lux-release-notes.md)**  
+Consolidated page of all release notes for Lux from Zurich to Australia.
+-   **[Combined Lux Lab release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-luxlab-release-notes.md)**  
+Consolidated page of all release notes for Lux Lab from Zurich to Australia.
 -   **[Combined Manufacturing Commercial Operations release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-manufacturingcommercialoperations-release-notes.md)**  
 Consolidated page of all release notes for Manufacturing Commercial Operations from Zurich to Australia.
 -   **[Combined Mastercard Spoke release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-mastercardspoke-release-notes.md)**  
@@ -435,6 +443,8 @@ Consolidated page of all release notes for Operational Technology Vulnerability 
 Consolidated page of all release notes for Opportunity Management from Zurich to Australia.
 -   **[Combined Order Management release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-ordermanagement-release-notes.md)**  
 Consolidated page of all release notes for Order Management from Zurich to Australia.
+-   **[Combined Partner Passport Portal release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-partnerpassportportal-release-notes.md)**  
+Consolidated page of all release notes for Partner Passport Portal from Zurich to Australia.
 -   **[Combined Partner Relationship Management release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-partnerrelationshipmanagement-release-notes.md)**  
 Consolidated page of all release notes for Partner Relationship Management from Zurich to Australia.
 -   **[Combined Password Reset release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-passwordreset-release-notes.md)**  
@@ -457,6 +467,8 @@ Consolidated page of all release notes for Portfolio Planning from Zurich to Aus
 Consolidated page of all release notes for Predictive AI for CSM from Zurich to Australia.
 -   **[Combined Predictive Intelligence release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-predictiveintelligence-release-notes.md)**  
 Consolidated page of all release notes for Predictive Intelligence from Zurich to Australia. Predictive Intelligence was previously called Agent Intelligence.
+-   **[Combined Predictive intelligence for Legal Service Delivery release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-predictiveintelligenceforlegalservicedelivery-release-notes.md)**  
+Consolidated page of all release notes for Predictive intelligence for Legal Service Delivery from Zurich to Australia.
 -   **[Combined Privacy Management release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-privacymanagement-release-notes.md)**  
 Consolidated page of all release notes for Privacy Management from Zurich to Australia.
 -   **[Combined Proactive Service Experience Workflows release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-proactiveserviceexperienceworkflows-release-notes.md)**  
@@ -535,10 +547,12 @@ Consolidated page of all release notes for Service Level Management from Zurich 
 Consolidated page of all release notes for ServiceNow AI Lens from Zurich to Australia.
 -   **[Combined ServiceNow AI Platform core feature release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-servicenowaiplatformcorefeature-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow AI Platform core feature from Zurich to Australia.
+-   **[Combined ServiceNow Arc release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-servicenowarc-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Arc from Zurich to Australia.
 -   **[Combined ServiceNow CLI release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-servicenowcli-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow CLI from Zurich to Australia.
--   **[Combined ServiceNow Cowork release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-servicenowcowork-release-notes.md)**  
-Consolidated page of all release notes for ServiceNow Cowork from Zurich to Australia.
+-   **[Combined ServiceNow CPQ release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-servicenowcpq-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow CPQ from Zurich to Australia.
 -   **[Combined ServiceNow IDE release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-servicenowide-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow IDE from Zurich to Australia.
 -   **[Combined ServiceNow Lux Lab for VS Code release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-servicenowluxlabforvscode-release-notes.md)**  
@@ -549,6 +563,8 @@ Consolidated page of all release notes for ServiceNow Otto from Zurich to Austra
 Consolidated page of all release notes for ServiceNow Otto for App Engine from Zurich to Australia.
 -   **[Combined ServiceNow Otto for Care Team Operations release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-servicenowottoforcareteamoperations-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow Otto for Care Team Operations from Zurich to Australia.
+-   **[Combined ServiceNow Otto for Cloud Cost Management \(CCM\) release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-servicenowottoforcloudcostmanagementccm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Cloud Cost Management \(CCM\) from Zurich to Australia.
 -   **[Combined ServiceNow Otto for CMDB release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-servicenowottoforcmdb-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow Otto for CMDB from Zurich to Australia.
 -   **[Combined ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) release notes for upgrades from Zurich to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/australia-zurich-servicenowottoforcollaborativeworkmanagementcwmcwm-release-notes.md)**  

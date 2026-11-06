@@ -7,9 +7,9 @@ release: australia
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-21"
 reading_time_minutes: 1
-breadcrumb: [Entitlements and usage, Product adoption, Using Impact, Impact]
+breadcrumb: [Entitlements and usage using capabilities, Product adoption, Using Impact, Impact]
 ---
 
 # Capability details

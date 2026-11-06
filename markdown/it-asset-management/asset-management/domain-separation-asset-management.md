@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
@@ -27,6 +27,8 @@ Domain separation is supported in Base Asset Management. Domain separation enabl
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+
+**Parent Topic:**[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/references-asset-management.md)
 
 **Related topics**  
 

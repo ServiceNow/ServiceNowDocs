@@ -7,8 +7,8 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -76,6 +76,8 @@ MIIDKzCCAhOgAwIBAgIEPqMQqDANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJV
 
 [MID Server configuration file security]()
 
+[MID Server authentication methods comparison]()
+
 [MID Server authentication credentials and SOAP requests]()
 
 [Enable MID Server mutual authentication]()
@@ -88,8 +90,6 @@ MIIDKzCCAhOgAwIBAgIEPqMQqDANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJV
 
 [Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server]()
-
 [MID Server SSH cryptographic algorithms]()
 
 [Attach a script file to a file synchronized MID Server]()
@@ -97,6 +97,8 @@ MIIDKzCCAhOgAwIBAgIEPqMQqDANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJV
 [MID Server FIPS Enforced Mode]()
 
 [MID Server Governance]()
+
+[MID Server IPKI authentication]()
 
 ## Install custom certificates in the MID Server unified key store
 
@@ -215,27 +217,27 @@ The **manage-certificates** has the following functions and the scripts must be 
 
     The `alias` is a unique name given to the certificate being imported. The MID Server requires a custom certificate for mutual authentication, with the default alias name `defaultsecuritykeypairhandle`. To configure MTLS communication between the MID Server and instance, the certificate entry must be added to the key store using the alias name `defaultsecuritykeypairhandle`.
 
-    The `fileName` is a file path that can contain a PEM certificate, or certificate chain, and a PCKS\#8 private key. The file path to the PEM bundle can contain multiple certificates and a single private key. The header and footer of each PEM certificate must be the following:
+    The `fileName` is the path to a PEM bundle file that contains one or more certificates and a private key in PKCS\#8 format. Include the private key and certificates in the following order:
 
     ```
-     -----BEGIN CERTIFICATE----- 
-    ```
-
-    ```
-     -----END CERTIFICATE----- 
-    ```
-
-    The header and footer of the PKCS\#8 syntax must be the following:
-
-    ```
-     -----BEGIN PRIVATE KEY----- 
-    ```
-
-    ```
+     -----BEGIN CERTIFICATE-----
+    Leaf certificate
+    -----END CERTIFICATE-----
+    
+     -----BEGIN CERTIFICATE-----
+    Intermediate certificate
+     -----END CERTIFICATE-----
+    
+     -----BEGIN CERTIFICATE-----
+     Root certificate
+     -----END CERTIFICATE-----
+    
+     -----BEGIN PRIVATE KEY-----
+     Private key
      -----END PRIVATE KEY----- 
     ```
 
-    An exception is thrown if the certificate chain fails validation. If the file contains multiple certificates, they must be ordered: leaf certificate, intermediate certificates, then root certificates.
+    The private key can go at the top or the bottom of the file. If the file contains multiple certificates, order them as follows: leaf certificate, intermediate certificates, then root certificates. The system throws an exception if the certificate chain fails validation.
 
 -   **Display certificate details for the specified alias**
 

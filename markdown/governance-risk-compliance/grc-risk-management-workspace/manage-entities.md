@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -19,7 +19,7 @@ Entities are one of the most fundamental and crucial elements for using Governan
 To effectively maintain the risk universe of your organization, we recommend that you define entity types, entity classes, and entity tiers. A risk universe refers to a list of risks that your organization either faces or might face in the future. The list contains a description of each risk's criticality and frequency. Entities are used within all offerings of GRC such as GRC: Policy and Compliance Management, Audit Management, and GRC: Regulatory Change Management.
 
 -   **[Entities in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/what-is-an-entity.md)**  
-An entity is a person, process, department, application, or other object whose compliance exposure is tracked in GRC. Each entity has an owner, so non-compliant items and their owners can be identified individually.
+In Governance, Risk, and Compliance, an entity can be a person, process, department, application, or object, whose exposure must be managed. These entities have controls that are defined to view the status.
 -   **[Entity types in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/what-is-an-entity-type.md)**  
 Entity types enable you to find and create entities that match a set of filter conditions. Entity types also enable you to create risks and controls for each entity without spending much time.
 -   **[Entity classes in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/entity-class.md)**  

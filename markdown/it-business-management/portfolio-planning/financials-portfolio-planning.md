@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Explore, Portfolio Planning, Strategic Portfolio Management]
 
 Plan, re-forecast, track the financials, and create baselines for projects and demands.
 
-The financials view provides a streamlined perspective, showcasing the actual and planned expenses for the entire fiscal period. You can view the latest estimated cost of completion by displaying the Actual costs for the past fiscal periods, planned costs for the current and future fiscal periods, the totals for quarter, year, and total duration of work.
+The financials view provides a streamlined perspective, showcasing the actual and planned expenses for the entire fiscal period. You can view the latest estimated cost of completion in this view. It displays the actual costs for past fiscal periods and the planned costs for current and future fiscal periods. It also displays the totals for the quarter, the year, and the total duration of work.
 
 The interface gives you the ability to create cost plans, expense lines, and baselines. As a project manager or a financial user, you can:
 
@@ -27,13 +27,14 @@ The interface gives you the ability to create cost plans, expense lines, and bas
 -   [Add, edit, or delete cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-cost-plan-spw.md) effortlessly from the Cost screen.
 -   Re-forecast your planned expenses using the in-line editing feature.
 -   View a streamlined perspective, showcasing your actual costs for the past and planned expenses for the future, for the entire time scope of the planning item.
--   Get a better comprehensive solution by viewing the Forecast \(previously EAC - Estimate at Completion\), Remaining Estimates \(previously ETC - Estimate to Completion\), and Actuals of each cost plan for the total time scope and the yearly breakdowns.
+-   You get a comprehensive solution by viewing the Forecast, Remaining Estimates, and Actuals of each cost plan. You can view them for the total time scope and for the yearly breakdowns. Forecast was previously EAC \(Estimate at Completion\), and Remaining Estimates was previously ETC \(Estimate to Completion\).
+
 -   Re-forecast the planned cost for future fiscal periods by directly updating the quarterly and yearly totals using the in-line editing capability of the grid.
 -   [Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/gen-labor-costs-spw.md) depending on the resource assignments for the entire scope of the planning item broken down by the financial attributes configured for your organization. For more information on the planning attributes for attribute-based mapping, see [Using the Planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/planning-attributes.md).
 -   [Add or edit expense lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-expense-line.md) against the cost plans easily from the side panel with the associated cost plan details pre-populated.
 -   Record unplanned expenses using the New expense line side panel.
 -   Create and compare financial baseline to track the financials of your planning items.
--   Compare the latest costs \(actual expenses for past fiscal periods and planned costs for current and future fiscal periods\) with the initial forecasted planned costs by creating financial baseline and using the compare baselines capability.
+-   Compare the latest costs \(actual expenses for past fiscal periods and planned costs for current and future fiscal periods\) with the initial forecasted planned costs.
 -   Analyze the cause of variance in costs and when did this occur over time by capturing the financial baselines manually or automatically.
 
 \[Omitted image "financials-screen.png"\] Alt text: Financials screen.
@@ -52,12 +53,12 @@ You can view the following information on the financials screen.
 
     **Note:** This option is enabled for the projects with resource assignments only.
 
--   The pane gives you a tabulated view of the cost plan attributes displaying the Name, Cost type, Expense type, Stat fiscal period, End fiscal period, Total planned cost, Employee type, and Role. You can customize these fields. For more information, see [Customize the left pane view for financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/customize-fin-left-pane-pp.md).
+-   The pane gives you a tabulated view of the cost plan attributes suc as Name, Cost type, Expense type, Stat fiscal period, End fiscal period, and so on. For more information on how to customize these fields, see [Customize the left pane view for financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/customize-fin-left-pane-pp.md).
 -   In the right pane, you can view the total Actuals, Forecast, and Remaining Estimates for the selected Time scope duration. Actual expenses against a cost plan for the past fiscal periods, Actuals, Forecast, and Remaining Estimates for the current fiscal year, and planned costs for the current and future fiscal periods.
 
     **Note:** The header rows of actuals and planned are color-coded differently to help you easily identify and differentiate between the expense types.
 
--   New cost plan: opens a simplified side-panel to create a new cost plan for the entity.
+-   New cost plan: opens a simplified side-panel to create cost plan for the entity.
 -   Personalize option to customize the columns in the left pane of the table.
 -   Export option to download Cost or Baselines comparison as Microsoft Excel or CSV file.
 

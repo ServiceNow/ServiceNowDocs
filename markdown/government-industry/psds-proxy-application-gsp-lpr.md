@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-proxy-application-gsp-lpr.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [How to create a License and Permit request on behalf of a constituent or business, Create a License and Permit request]
-breadcrumb: [Using License and Permit Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Create a License and Permit request on behalf of a constituent or business
@@ -21,7 +21,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ## Procedure
 
-1.  In the CRM Workspace, navigate to **Lists** &gt; **License &amp; Permit Requests** &gt; **All**.
+1.  In the Public Sector Workspace, navigate to **Lists** &gt; **License &amp; Permit Requests** &gt; **All**.
 
 2.  Select **New** to create a case.
 
@@ -29,7 +29,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 4.  Select **Create Case**.
 
-    The License and Permit Playbook opens and initiates the first activity for collecting the request details.
+    The License and Permit Administration opens and initiates the first activity for collecting the request details.
 
 5.  On the **Enter Application Details** activity card, confirm the applicant's eligibility and select **Continue**.
 

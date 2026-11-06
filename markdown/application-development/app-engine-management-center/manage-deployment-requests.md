@@ -7,9 +7,9 @@ release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage requests, Manage app development, Use, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Manage deployments, Use, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Manage deployment requests
@@ -52,5 +52,5 @@ To view deployment requests in AEMC, pipelines must be configured correctly. For
     **Note:** Unless you are assigned a Change Management role, most of the information on the **Change Request** tab is read-only. You can monitor the change request and see as it changes states. However, if you have Change Management permissions, you may be able to update certain fields on the change request such as the planned start and end date or the state.
 
 
-**Parent Topic:**[Managing requests using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/manage-aemc-requests.md)
+**Parent Topic:**[Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md)
 

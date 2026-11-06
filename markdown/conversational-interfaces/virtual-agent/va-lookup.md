@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-24"
 reading_time_minutes: 1
-breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Lookup utility
@@ -40,7 +40,7 @@ Variable name
 
 </td><td>
 
-The variable that stores the record returned by the script. The variable name is automatically created from the Node name property.
+The variable that stores the record returned by the script. The variable name is automatically created from the **Node name** property.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 ```
 (function execute(table) {
 
-       var now_GR = new GlideRecord(table);
+       var gr = new GlideRecord(table);
        gr.addEncodedQuery('active=true');
        gr.setLimit(1);
        gr.query();
@@ -95,7 +95,9 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 ```
 
-In this example, a table is queried for the first active record. The table to be queried is defined in the **Table** property found in the lookup utility control. The `setLimit()` method ensures that only a single record is returned from the database. If a record is found, it is returned. For more information on GlideRecord queries, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md) .
+In this example, a table is queried for the first active record. The table to be queried is defined in the **Table** property found in the lookup utility control. The `setLimit()` method limits the query so that only a single record is returned from the database. If a record is found, it is returned. For more information on GlideRecord queries, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md) .
+
+The Lookup utility stores the record it finds in the variable named in the **Variable name** property.
 
 **Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-utilities.md)
 

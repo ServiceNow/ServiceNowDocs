@@ -7,9 +7,9 @@ release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Change the default appearance of components
@@ -28,7 +28,7 @@ This task describes how to add styles to components and the wrappers \(such as B
 
 For information about adding styling to your entire experience, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md).
 
-This task applies to the new layout system introduced in Australia. If your page is using the old layout system, see [Add styling to a component using the old layout system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/add-styling-to-component.md) for more information.
+This task applies to the new layout system introduced in Brazil. If your page is using the old layout system, see [Add styling to a component using the old layout system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/add-styling-to-component.md) for more information.
 
 **Note:** As you add and configure components on the page, the stage shows your work. If you make changes and the updates do not load on the stage, select the **Open menu** icon and then select **Developer &gt; Reload Stage**. Reloading the stage shows your changes, but does not save them. To save your work, select **Save** at the top right.
 

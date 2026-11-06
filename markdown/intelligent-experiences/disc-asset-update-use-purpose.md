@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/disc-asset-update-use-purpose.html
 release: australia
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI asset, use and purpose, system autonomy, human involvement, interaction type, intended outcome]
-breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Update the use and purpose of an AI asset

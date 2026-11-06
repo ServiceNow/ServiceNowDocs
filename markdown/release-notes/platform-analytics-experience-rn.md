@@ -1,25 +1,25 @@
 ---
 title: Platform Analytics experience release notes
-description: The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.
+description: The Platform Analytics experience application enables you to distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data.External pages and UI Builder pages can now pass filter parameters via URL to pre-apply filters on Platform Analytics inline dashboards and visualizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/platform-analytics-experience-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-28"
 reading_time_minutes: 5
-breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Platform Analytics experience release notes
 
-The ServiceNow® Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.
+The Platform Analytics experience application enables you to distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data.
 
 ## About Platform Analytics experience
 
--   Embed dashboards and visualizations directly in workspaces to see relevant KPIs where they act.
--   Use a single, consistent visualization and filter model for table data, Performance Analytics indicators, Workflow Data Fabric, and UX analytics.
--   Author and adjust layouts within the dashboard, which enables business owners to make changes without heavy developer involvement.
--   Use performance enhancements, such as dashboard caching and UX improvements, to help shorten load times and improve day-to-day usability for high-traffic dashboards.
+-   Create dashboards to visually share your data with stakeholders in your organization.
+-   Create, update, and share visualizations based on indicators, tables or other data to share with others.
+-   Filter lists and visualizations on dashboards based on values, date, or true/false.
+-   Delve into the information behind your Key Performance Indicators \(KPIs\) and learn when processes behave in unexpected ways.
 
 See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md) for more information.
 
@@ -27,135 +27,64 @@ See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow
 
 -   **Activation information**
 
-    Platform Analytics experience is a ServiceNow AI Platform feature that is active by default.
+    Platform Analytics experience is enabled by default on upgrade to Brazil.
 
 -   **Upgrade information**
 
-    When upgrading, all Core UI reports and dashboards are identified as such in the library under the **UI version** column. Users can edit these legacy artifacts in the Report Builder and Dashboard Builder applications.
-
-    **Note:** Users who have not migrated their instances to Platform Analytics experience have the option to create dashboards and data visualizations in either Core UI or Next Experience. Next Experience is recommended.
-
-    All Core UI public reports are unpublished after upgrading. Report administrators can make these reports available to logged-in users.
-
-    After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub are redirected to KPI Details.
+    Core UI dashboards and reports are visible from the Platform Analytics Dashboard and Data visualization libraries.
 
 
 **Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/analytics-intel-report-rn-landing.md)
 
-## Australia
+## Platform Analytics experience Bundle — v9.0
 
-The ServiceNow® Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.
+External pages and UI Builder pages can now pass filter parameters via URL to pre-apply filters on Platform Analytics inline dashboards and visualizations.
 
 ### What's new
 
--   **[Use new UI Builder templates for Dashboards and Data visualization libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reuse-page-definitions.md)**
+-   **[Explore mode for read-only users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/editing-dv-in-line-db.md)**
 
-    Create Dashboard and Data Visualization library pages within your workspaces in UI Builder by using new page templates.
+    Read-only users can temporarily reconfigure a visualization in-session — on inline dashboards or in the Visualization Designer — without saving changes. When Explore mode is active, an informational alert indicates that changes aren't persisted, and the Save action is not available. This enables dashboard consumers to explore data on their own terms without requiring edit access.
 
--   **[View usage information in the data visualization library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboards-for-admin-users.md)**
+-   **[Share dashboard with all internal users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-db-in-ac.md)**
 
-    As an analytics manager, view usage statistics in the data visualization library. Those statistics include the number of reports, data visualizations that aren't used in any dashboards, and the number of data visualizations not viewed for more than six months.
-
--   **[Get recommendations to review problematic analytics resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-library-recommendations.md)**
-
-    As an analytics manager, view recommendations for which artifacts you should fix or delete in the Dashboard, Data Visualization, and Indicator libraries.
-
--   **[Executive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/executive-dashboard-overview.md)**
-
-    Use the new Executive Dashboards, which have been rebuilt using the Platform Analytics in-line dashboard capabilities.
-
--   **[View data snapshot indicators in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-dv-sing-sc-ind-data.md)**
-
-    Add indicators that are built from data snapshots sources to data visualizations.
+    Administrators can share a Platform Analytics dashboard with all authenticated users by assigning it to the `dashboard_user` role, which ships with the base system. Any user who holds at least one role automatically receives read access to dashboards shared this way. The role name used as the sentinel is configurable via the system property `com.glide.par_dashboards.security.all_users_role`. This replaces the need to manage individual user, group, or role assignments for organization-wide dashboards.
 
 
 ### What's changed
 
--   **[Use simplified navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-the-next-experience-global-header.md)**
+-   **[URL filter parameters for inline dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/url-filter-parameters.md)**
 
-    When you are moved to Next Experience navigation:
+    External pages and UI Builder pages can now pass filter values to Platform Analytics inline dashboards and the Visualization Designer using URL parameters. The feature introduces a standard mechanism that accepts filter payloads in `encodedQuery` format, validates and maps them to filter state, and applies them when the dashboard or visualization loads. Supported filter types include choice and Boolean. Deep links and drill-down workflows that previously relied on Classic or Core UI URL-based filtering are now supported in Platform Analytics experiences.
 
-    -   The Analytics Overview page and all library pages now contain their own Platform Analytics navigation tree.
-    -   The navigation path **Self-Service** &gt; **Dashboards** redirects to **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
-    -   The navigation path **Reports** &gt; **View / Run** redirects to **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
--   **[Sort library records by column values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/find-dashboard-library.md)**
+    Copying a dashboard link now includes active filter state in the URL using the format `/unified-filters-param/filterId:value1,value2`, removing the back-end dependency on the `par_dashboard` filter record.
 
-    Select the header of any column in a library page to sort the library by that column.
+-   **[Updated creation flow for dashboards and data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)**
 
--   **[New settings in Single Score data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-sing-sc-ac.md)**
+    The creation flow for Platform Analytics dashboards and data visualizations now clearly surfaces Next Experience as the recommended path. Core UI creation remains available for users who need it. The updated flow applies when the system properties `com.snc.par.coreui.dashboard_create.enabled` and `com.snc.par.coreui.report_create.enabled` are set to `true`. Instances where migration is complete and Core UI creation is inactive aren't affected. A new informational modal for data visualization creation has been added. The create flow now routes Core UI dashboard creation to the `pa_dashboard` record form and Core UI report creation to the Report Designer.
 
-    Configure new color settings for Single Score data visualizations. You can also change the relative position of both the score and the title header.
+-   **[Configurable list view for drilldowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-chart-interactions.md)**
 
+    Dashboard and report designers can now select which list view opens when users drill down to data using the **Go to Data View** chart interaction. The configuration option is available in the **Chart Interaction** section of the Visualization and Dashboard Designers. Designers can specify a view from the `sys_ui_view_list` table, providing flexibility to target different views for different roles or use cases. Tooltip text in the visualization now dynamically reflects the configured destination — showing the data source name for **Go to Data View** interactions and the page name for **Go to URL** interactions. The **Go to URL** interaction now redirects in the same browser tab.
 
--   **[Manage Platform Analytics in the improved Analytics Overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md)**
+-   **Export quality improvements**
+    -   A system property enables or disables the export button globally. A second property accepts a comma-separated list of roles permitted to export when the first property is enabled. When the roles list is empty, export is available to all users. This applies to on-demand export at both the dashboard and data visualization level, including client-side export.
+    -   The export modal now includes a documentation link for supported and unsupported components. It also provides options to enable or disable sending exports via email and displays improved error messages after export failures. UI controls in export modals have been updated from toggles to check boxes.
+    -   PDF exports now correctly apply the selected orientation \(landscape or portrait\) for list-type visualizations. Previously the orientation setting was recognized in the UI but exports always rendered in portrait.
+    -   Users can select specific dashboard tabs to include when exporting to PDF, consistent with existing PPT export tab selection. Dashboards with applied filters respect the filter state in PDF exports.
+    -   Scheduled export now supports additional file types and page format options that were previously available in Core UI but missing from the scheduled export UI. Day-of-week scheduling options \(Monday to Friday\) are now available. Core UI reports are hidden from the scheduled export library page.
+-   **[Dashboard PDF export improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-pae-dashboard-ppt.md)**
 
-    Quickly discover artifacts, access relevant information and key metrics, and take actions to manage the health of the library. The Analytics Overview page \(formerly Analytics Center\) acts as a one-stop shop and entry point for role-specific access to all important information related to Platform Analytics.
+    Platform Analytics dashboard PDF and PowerPoint export includes the following improvements:
 
--   **[Platform Analytics experience is enabled by default for all users on upgrade to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md)**
+    -   You can now select which dashboard tabs to include when exporting to PDF, consistent with the existing tab selection available for PPT export.
+    -   When exporting a dashboard to PDF, you can choose whether to apply or exclude the active dashboard filters in the exported output.
+    -   Visualizations in exported PDF and PPT files now follow the layout order displayed on the dashboard, with the top layout rendered first and widgets ordered left to right.
+    -   Filters, images, and headings are now included in dashboard PDF exports. Previously these components were excluded because `par_metadata` records were not present for them.
+    -   When a dashboard contains only unsupported components, the export now returns a meaningful error message rather than an empty PDF.
+    -   Dashboards containing only list visualizations no longer trigger an unnecessary export server call.
+-   **[Library page bookmark icon theme alignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/bookmark-dashboard-ac.md)**
 
-    Create content entirely within Platform Analytics.
-
--   **[Take role-based tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-tours.md)**
-
-    Role-based guided tours are added to the Platform Analytics Migration Center and the Dashboards and Data Visualizations library pages.
-
--   **[Filter dashboards by string field values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-select-filter-workspace.md)**
-
-    Filter data by the contents of string-type fields with a single-select or multiple-select filter.
-
--   **[View the percentage each data segment contributes to the total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-donut-ac.md)**
-
-    Enable the **Show % of total in tooltip** option to show the percentage each data point contributes to the total alongside absolute values in the tooltip. Applies to time series, bar, bubble, donut, geomap, and heatmap visualizations.
-
--   **Publish report functionality replaced with Read-only link option in Report Designer**
-
-    It is no longer possible to publish a report. The **Read-only** option provides a URL that authenticated users can follow to view a report.
-
--   **[Explore native data snapshots indicators in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md)**
-    -   Employ intraday analysis with granularity based on work shifts.
-    -   Customize score formatting options.
-    -   Adjust breakdowns, calendar, and aggregation periods while exploring an indicator.
-    -   Set up subscriptions for alerts on targets and thresholds directly from the targets and thresholds panels.
-    -   Define hierarchical breakdowns with scores rolled up to parent elements.
--   **[Create hierarchical filters for Industrial Connected Workforce indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-hierarchical-filter.md)**
-
-    Create multilevel filters with roll-up aggregation across nested organizational structures, which moves from site, to plan, to department, to functional location.
-
--   **[Download data visualizations as CSV or Excel files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-data-vis-from-dboard.md)**
-
-    As a viewer, you now can download any data visualization, not only a List, as a CSV or XLS file.
-
--   **[Automatically set the aggregation period of data snapshots indicator trend lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-dv-time-series-ind-data.md)**
-
-    Set the **Aggregation period** field in the **Trend by** settings to Auto so ****, the system automatically selects the aggregation period of data snapshot indicator trend lines based on the date range and business calendar.
-
--   **[Automatic aggregation of date-filtered data based on date range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-date-filter-workspace.md)**
-
-    Filter dashboards by business calendar and have the system infer the appropriate aggregation level at runtime. If you put a time series data visualization on a dashboard with a date filter, the aggregation of shown data adjusts automatically depending on the selected date range. This adjustment applies to both table and data snapshots indicator data.
-
--   **[Create custom data visualization filters with an improved condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-dv-condition-builder.md)**
-
-    When creating a data visualization for table data, you can create a custom filter when you specify the data source. The condition builder for the custom filter now has menus of fields, operators, values, and related tables.
-
--   **[Hide the Refresh action on data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-sing-sc-ac.md)**
-
-    In the Headers and Borders section of data visualizations, use the **Show refresh option** check box to hide the **Refresh** icon \[Omitted image "refresh-icon.jpg"\] Alt text: in the Configuration settings of data visualizations. Data visualizations on cached dashboards never have the Refresh icon.
-
--   **[Migration Center enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration.md)**
-    -   As an analytics manager, migrate any Core UI dashboard to Platform Analytics in the Dashboard library.
-    -   Edit migrated content before activating it in the Platform Analytics experience.
-    -   Activate content selectively.
-    -   Total views of Core UI reports and other widgets are now migrated along with the Core UI content.
--   **[Dashboard element enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-elements-in-ac.md)**
-
-    Moving and resizing dashboard elements no longer opens the configuration panel.
-
--   **[Enhanced scheduled exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/schedule-export-dboards-data-viz.md)**
-
-    When scheduling the email of dashboards or data visualizations, limit recipients based on reference qualifiers.
-
--   **[Public reports are unpublished](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-permission-issues.md)**
-
-    On upgrade, all public Core UI reports are unpublished to enhance security control. Report administrators can find the unpublished reports on the Reports Public \[sys\_report\_public\] table. They can then make the reports available through the Sharing UI in the Report Designer.
+    The bookmark icon in the Dashboard library page and the Data Visualization library page now renders in the applied theme color, consistent with the Indicators library page. Previously the bookmark icon displayed in blue regardless of the active theme.
 
 

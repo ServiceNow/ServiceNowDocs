@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,13 +18,17 @@ Configure a metric definition to create or modify the existing base system CI me
 
 ## Before you begin
 
+**Important:**
+
+Starting with the Brazil release, Microsoft Endpoint Configuration Manager for Investigation and Agent Client Collector for Investigation are being prepared for future deprecation. They will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: sn\_cimaf.sn\_cimaf\_admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Metrics and CI Actions Framework** &gt; **Administration** &gt; **Metric Definitions**.
 
-    These following existing metric definition tables are displayed:
+    The following existing metric definition tables are displayed:
 
     -   Asset usage
     -   Installed Applications
@@ -54,7 +58,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 3.  On the Adapter Configuration related list, create a record.
 
-    Adapter configuration for the metric definition enables you to define the provider and the query, as well as transform flows or scripts.
+    Adapter configuration for the metric definition enables you to define the provider, the query, and transform flows or scripts.
 
     1.  Select **New**.
 
@@ -100,7 +104,7 @@ Order
 
 </td><td>
 
-Sequence order in which the adapter configuration record applies to the metric definition when there are multiple configurations available.**Note:** The first applicable adapter configuration that is based on the **Order** value is only considered for fetching the metrics.
+Sequence order in which the adapter configuration record applies to the metric definition when there are multiple configurations available.**Note:** Only the first applicable adapter configuration, based on the **Order** value, is used to fetch the metrics.
 
 </td></tr><tr><td>
 
@@ -108,7 +112,7 @@ Duplicate request time limit \(seconds\)
 
 </td><td>
 
-Sets the number of seconds to prevent duplicate metric requests when one is already in progress.
+Number of seconds during which duplicate metric requests are prevented while one is already in progress.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -128,7 +132,7 @@ Query Flow/script
 
 </td><td>
 
-Flow or script that is used to retrieve the metric from the provider.**Note:** In case no flow or script is defined, the default query flow of the provider is considered.
+Flow or script that is used to retrieve the metric from the provider.**Note:** If no flow or script is defined, the default query flow of the provider is used.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -148,7 +152,7 @@ Transform Flow/script
 
 </td><td>
 
-Flow or script that is used to transform the metric data, which is retrieved by the provider, to output.**Note:** In case no flow or script is defined, the default transform flow of the provider is considered.
+Flow or script that is used to transform the metric data, which is retrieved by the provider, to output.**Note:** If no flow or script is defined, the default transform flow of the provider is used.
 
 </td></tr></tbody>
 </table>    3.  Select **Submit**.
@@ -161,7 +165,7 @@ Flow or script that is used to transform the metric data, which is retrieved by 
 
         You can also select an existing provider specific adapter configuration record to modify the record.
 
-        A list of specific provider action configuration table is displayed, such as ACC Action Configuration and MECM Action Configuration.
+        A list of provider-specific action configuration tables is displayed, such as ACC Action Configuration and MECM Action Configuration.
 
     2.  Select the provider for which you want to create an adapter configuration.
 
@@ -173,7 +177,7 @@ Field
 
 </th><th>
 
-Option
+Description
 
 </th></tr></thead><tbody><tr><td>
 
@@ -205,7 +209,7 @@ Check Definition
 
 </td><td>
 
-Check definition that is used for the execution and handling the output of the command or query. For example, app-ci-metrics-acc-adapter.osquery.**Note:** This is applicable only if the provider is Agent Client Collector for Investigation.
+Check definition that is used to run the command or query and handle its output. For example, app-ci-metrics-acc-adapter.osquery.**Note:** This is applicable only if the provider is Agent Client Collector for Investigation.
 
 </td></tr><tr><td>
 

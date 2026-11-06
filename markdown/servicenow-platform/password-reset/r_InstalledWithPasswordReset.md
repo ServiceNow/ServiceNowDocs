@@ -7,8 +7,8 @@ release: australia
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 15
+last_updated: "2026-09-10"
+reading_time_minutes: 14
 breadcrumb: [Password Reset reference, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -142,11 +142,11 @@ Snapshot of user enrollment by verification.
 
  The Sync Password Reset Enrollment Snapshot Data Monthly scheduled job runs once a month to generate or sync snapshot data in this table. The data, such as sys\_user creation or deletion, verification to process creation or deletion, and so on, is synchronized.
 
- Password Reset DB listener is used to create or update the data in this table which is managed by the **pwd\_reset.enable.dbListener** property with default value as true.
+ Password Reset DB listener is used to create or update the data in this table which is managed by the **pwd\_reset.enable.dbListener** property with default value as false.
 
  If you’re an admin and want to manually sync the data in this table related to an active process, select **Sync Enrollment Snapshot Data** on that Password Reset process.
 
- You can turn off the data synchronization in this table through the DB listener or the monthly scheduled job by setting the **pwd\_reset.enable.enrollment\_snapshot** property to false.
+ Data synchronization in this table will be turned off if any of the **pwd\_reset.enable.enrollment\_snapshot** or **pwd\_reset.enable.dbListener property** is false.
 
  **Note:** Initially, an inactive record is created by the DB listener for a user-verification pair. When the users enrol themselves on the Password Reset Enrolment page, the record becomes active in this table.
 

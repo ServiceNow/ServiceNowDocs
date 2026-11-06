@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -27,7 +27,7 @@ A good risk statement should answer:
 -   Why do we care?
 
 -   **[Workflow of a risk using Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-lifecycle-using-advanced-risk.md)**  
-When you migrate to advanced risk assessment, you can view the various states of the risks take the necessary actions. This ability simplifies your view of the risk form.
+When you migrate to advanced risk assessment, you can view the various states of risks and take the necessary actions from the risk form.
 -   **[Manage risks linked to the same risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/manage_risks_linked_to_same_risk_stmnt.md)**  
 You can create and associate multiple risks to the same risk statement and entity combination. This association benefits the risk managers and the entity owners.
 -   **[Risk hierarchy and scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-hierarchy-scoring.md)**  

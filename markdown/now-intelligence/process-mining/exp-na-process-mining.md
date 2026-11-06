@@ -7,8 +7,8 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
 
@@ -24,7 +24,7 @@ This feature is accessible to customers with both Process Mining and GenAI.
 
 ## Transition Work Notes Analysis skill
 
-ServiceNow Otto for Process Mining includes the Transition Work Notes Analysis skill. This skill must be activated to use ServiceNow Otto for Process Mining to analyze work notes. For more information, see [Activate work notes analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-na-skill.md).
+ServiceNow Otto for Process Mining includes the Transition Work Notes Analysis skill. This skill must be activated to use ServiceNow Otto for Process Mining to analyze work notes. For more information, see [Activate transition work notes analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-na-skill.md).
 
 **Note:** You can use the ServiceNow Otto feature for work notes analysis with 5-50 eligible work notes. If there are less than 25 eligible work notes, the system will not run clustering, but will put all the work notes into one LLM call, otherwise clustering will be performed before calling the LLM.
 
@@ -43,6 +43,14 @@ ServiceNow Otto for Process Mining includes the Process Inefficiency Highlights 
 ## Intent and Activity Analysis skill
 
 ServiceNow Otto for Process Mining includes the Intent and Activity Analysis skill. This skill must be activated to use ServiceNow Otto for Process Mining to understand the intent of the requester and gain insight into the related tasks and actions needed to complete the tasks. For more information, see [Activate Process Inefficiency Highlights skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-highlight-skills.md).
+
+## Generate process configuration
+
+ServiceNow Otto for Process Mining includes the Generate process configuration skill. This skill generates process configuration for a table using AI. This skill is activated by default. For more information, see [Generate process configuration using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-pro-config-skill.md).
+
+## Generate state responsibility mapping
+
+ServiceNow Otto for Process Mining includes the Generate state responsibility mapping skill. This skill maps process steps to stakeholder responsibilities using AI. This skill is activated by default. For more information, see [Generate state responsibility mapping using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-gen-state-resp.md).
 
 ## What to explore next
 

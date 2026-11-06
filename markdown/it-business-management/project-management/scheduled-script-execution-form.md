@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -56,7 +56,7 @@ Time interval to use for running the scheduled job:
 -   **On Demand**: Runs immediately on demand.
 -   **Business Calendar: Entry Start**: Runs on the starting entry dates for the business calendar that you select in the **Business Calendar** field. A scheduled job runs for the starting date of each of the business entries that you defined for the business calendar.
 
-For example, if the business calendar represents a fiscal year, and the starting date of each entry is a fiscal month, the scheduled job runs on the first day of each month.
+For example, consider a business calendar representing a fiscal year. Starting date of each entry is a fiscal month, the scheduled job runs on the first day of each month.
 
 -   **Business Calendar: Entry End**: Runs for the ending date for the business calendar that you select in the **Business Calendar** field. This selection runs in the same manner as **Business Calendar: Entry Start**, but for the end dates of the associated business calendar entries.
 
@@ -219,7 +219,9 @@ Starting
 Date and time of the first scheduled job generation. Select the calendar date and time. This field appears only if you select **Periodically** in the **Run** field.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/form-field-information-for-project-management.md)
+
+**Related topics**  
 
 
 [Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/gen-cost-pln-prj-wrkspc.md)

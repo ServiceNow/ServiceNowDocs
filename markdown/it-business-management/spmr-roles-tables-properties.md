@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/spmr-roles-tables-properties.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [roles, permissions, SPM Retail]
 breadcrumb: [Reference, Retail Strategic Portfolio Management Suite, Strategic Portfolio Management]

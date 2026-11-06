@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/restructured-rpa-hub-tables-utah.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migrate data, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Starting with the Utah release, the Robotic Process Automation \(RPA\) tables ar
 
 The table architecture that supports the RPA Hub application has been restructured to extend the Application file \(sys\_metadata\). This action automatically captures all the data into the update sets.
 
-If you are upgrading from Tokyo or older to Australia, the bot process definitions change to the new structure, that is the bot process configuration.
+If you are upgrading from Tokyo or older to Brazil, the bot process definitions change to the new structure, that is the bot process configuration.
 
 The following diagram shows the tables of RPA Hub before restructuring.
 

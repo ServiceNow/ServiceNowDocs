@@ -1,6 +1,6 @@
 ---
 title: Run the Migrate BA Product Model Map job
-description: Run this job to migrate existing AI system-to-business application associations to the new Enterprise Architecture for AICT data model after activating the AI Control Tower and Enterprise Architecture integration.
+description: Migrate existing AI system-to-business application associations to the new Enterprise Architecture for AICT data model after activating the AI Control Tower and Enterprise Architecture integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-run-migrate-ba-product-model-map-job.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Working with an application portfolio, Working with Portfolio list 
 
 # Run the Migrate BA Product Model Map job
 
-Run this job to migrate existing AI system-to-business application associations to the new Enterprise Architecture for AICT data model after activating the AI Control Tower and Enterprise Architecture integration.
+Migrate existing AI system-to-business application associations to the new Enterprise Architecture for AICT data model after activating the AI Control Tower and Enterprise Architecture integration.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-This job does not run automatically. This scheduled job is installed with the Enterprise Architecture for AICT plugin. In Enterprise Architecture Workspace versions earlier than 10.1.3, associations between AI systems and business applications were stored in the Enterprise Architecture Workspace map \[sn\_apm\_ws\_ba\_product\_model\_map\]. In version 10.1.3 and later, they're stored in the Enterprise Architecture for AICT plugin's map \[sn\_ea\_aict\_ba\_product\_model\_map\]. If you had this integration active before upgrading, the old table retains your existing associations until you run this job.
+This job does not run automatically. This scheduled job is installed with the Enterprise Architecture for AICT plugin. In Enterprise Architecture Workspace versions earlier than 10.1.3, associations between AI systems and business applications were stored in the Enterprise Architecture Workspace map \[sn\_apm\_ws\_ba\_product\_model\_map\]. Starting with version 10.1.3, they're stored in the map of the Enterprise Architecture for AICT plugin \[sn\_ea\_aict\_ba\_product\_model\_map\]. If you had this integration active before upgrading, the old table retains your existing associations until you run this job.
 
 ## Procedure
 

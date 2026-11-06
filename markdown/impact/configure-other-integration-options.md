@@ -1,48 +1,58 @@
 ---
 title: Configure other integration options
-description: Configure the Other integration type to create work items in any external system using a custom payload script and basic authentication.The following leading practices are guidelines for creating other integration type scripts.
+description: Configure the Other integration to create work items in any external system by using a payload script, an endpoint, a username, and an API token.The following leading practices are guidelines for creating other integration type scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/configure-other-integration-options.html
 release: australia
 topic_type: task
-last_updated: "2026-05-05"
-reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine integrations, Configuring Impact, Impact]
+last_updated: "2026-10-27"
+reading_time_minutes: 3
+breadcrumb: [Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure other integration options
 
-Configure the Other integration type to create work items in any external system using a custom payload script and basic authentication.
+Configure the Other integration to create work items in any external system by using a payload script, an endpoint, a username, and an API token.
 
 ## Before you begin
 
-Confirm the API endpoint URL and request body format required by your external system. The payload script must produce a request body in the format your system expects.
+The API endpoint URL, the username, and the API token for your external system must be available. The request body format that the external system expects must also be known, because the payload script must produce it.
 
-Role required: Scan Engine admin \(sn\_se.scan\_engine\_admin\)
+Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\). Only users with this role can edit the Payload script.
+
+Configure this integration on the instance where Scan Engine runs and the findings are generated. You don't select a target instance, and no My SN Instances record is required.
 
 ## Procedure
 
-1.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** and select the **User Story Integration** properties tab.
+1.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** and select the **User Story Integration** properties tab.
 
-2.  Set **Integration Type** to `Other`.
+2.  Set **Integration** to `Other`.
+
+    The **Payload** field appears only when **Integration** is set to `Other`.
 
 3.  Populate the following fields.
 
     |Field|Value|
     |-----|-----|
-    |Integration name|A descriptive name for this integration.|
-    |Endpoint|The full URL of the API to call. Determine what the API expects in the request body to format the payload correctly.|
-    |Content type|The content type required by the external API \(for example, `application/json`\).|
-    |Issue type|The work item type to create in the external system.|
+    |Integration Name|A descriptive name for this integration.|
+    |End Point|The full URL of the API to call. Select the lock icon next to the field to enter the URL.|
+    |Content Type|The content type required by the external API \(for example, `application/json`\).|
+    |Issue Type|The work item type to create in the external system.|
 
 4.  In the **Payload** field, enter the script that builds the request body.
 
-    The credentials provided on the form are used in a basic authentication authorization header. See [Other integration leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-other-integration-options.md) for available script variables and leading practices.
+    See [Other integration leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-other-integration-options.md) for available script variables and leading practices.
 
-5.  Enter the **Username** and **API token** for authentication.
+5.  Enter the **Username** and **API Token** for the external system.
+
+    Select the lock icon next to **API Token** to enter the token. The username and API token are used in a basic authentication authorization header. See the security note that follows these steps.
 
 
-**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-integration-scan-engine.md)
+## What to do next
+
+**Important:** The API token field is a text field, so the platform doesn't encrypt its value by default. If your organization uses Edge Encryption, you can encrypt this field. Restrict access to Scan Engine Properties to users who need it, and use a token with the narrowest access your external system allows.
+
+**Parent Topic:**[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-integration-scan-engine.md)
 
 ## Other integration leading practices
 

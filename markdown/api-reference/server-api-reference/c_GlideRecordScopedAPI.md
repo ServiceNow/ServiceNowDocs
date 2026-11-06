@@ -7,8 +7,8 @@ release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 70
+last_updated: "2026-09-10"
+reading_time_minutes: 69
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -20,7 +20,7 @@ The GlideRecord API is the primary means of interfacing with the database on the
 
 See the [GlideRecord](https://developer.servicenow.com/dev.do#!/learn/courses/utah/app_store_learnv2_scripting_utah_scripting_in_servicenow/app_store_learnv2_scripting_utah_server_side_scripting/app_store_learnv2_scripting_utah_gliderecord) article for details on building and running queries.
 
-For information on a class that performs the same functions as GlideRecord and enforces ACLs, see [Using GlideRecordSecure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_GlideServerAPIs.md).
+For information on a class that performs the same functions as GlideRecord and enforces ACLs, see [Enforcing ACLs with GlideRecordSecure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/useful-server-side-scripts.md).
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
@@ -530,7 +530,7 @@ Additional methods for system-level access that bypass query ACL checks:
 -   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 -   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 
-For information on using this method with GlideRecordSecure, see [Enforcing query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_GlideServerAPIs.md).
+For information on using this method with GlideRecordSecure, see [Enforcing query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/useful-server-side-scripts.md).
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
@@ -838,7 +838,7 @@ Additional methods for enforcing query ACL checks:
 -   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 -   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 
-For information on using this method with GlideRecordSecure, see [Enforcing query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_GlideServerAPIs.md).
+For information on using this method with GlideRecordSecure, see [Enforcing query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/useful-server-side-scripts.md).
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
@@ -2586,7 +2586,7 @@ Determines if an operation is insert, update, or delete.
 
 Knowing the operation enables using current.operation\(\) to make a generic business rule which can handle each operation uniquely.
 
-For information on using the global variable current, refer to [Global variables in business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/business-rules-classic/c_BusinessRules.md).
+For information on using the global variable current, refer to [Global variables in business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/business-rules-classic/c_UsingPredefinedGlobalVariables.md).
 
 |Name|Type|Description|
 |----|----|-----------|

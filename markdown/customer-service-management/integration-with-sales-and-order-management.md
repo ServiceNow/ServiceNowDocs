@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/integration-with-sales-and-order-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -41,6 +41,8 @@ This integration enables business organization \(formerly business location\) ba
 |sn\_bus\_loc.org\_b2c\_sales\_order\_specialist|Role assigned to organization staff to create and manage Leads, Quotes, Opportunities, and Orders for consumers.|
 |sn\_bus\_loc.org\_b2c\_sales\_rep|Role assigned to organization staff to create and manage Leads, Quotes, and Opportunities for consumers.|
 |sn\_bus\_loc.org\_sales\_mgr|Role assigned to organization staff to create and manage account and consumer related Leads, Quotes, Opportunities, and Orders for their hierarchy.|
+
+If a business organization enables [Restricted Customer Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-customers-or-bus-loc-to-so.md), the account and consumer visibility restriction also applies to sales personas such as B2B and B2C sales representatives. In other words, these personas can view only the accounts and consumers supported by their own business organization, and cannot view accounts and consumers supported by other business organizations. For upgrade customers, this restriction has no effect until an admin runs the **Remove Legacy Roles from Loc Mgr Contrib** scheduled job. For more information, see [Enable restricted customer access for Business Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/remove-legacy-contributor-roles-from-loc-mgr-contrib.md)
 
 **Related topics**  
 

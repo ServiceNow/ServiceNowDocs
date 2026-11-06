@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/self-service-options-csm-customers.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Explore, Customer Service Management]
 ---
 
@@ -52,13 +52,13 @@ Web Embeddables offer the following benefits:
 
 ## Self-service portals
 
-By using the Service Portal web application, you can create portals that empower your customers to resolve issues and submit cases and requests for themselves. To help direct customers to the right portal resources, you can also activate the Virtual Agent application for Customer Service Management.
+Use the Service Portal web application to create portals that empower your customers to resolve issues and submit cases and requests for themselves. To help direct customers to the right portal resources, you can also activate the Virtual Agent application for Customer Service Management.
 
 ## Self-service portal types
 
-You can configure four types of portals. The Business Portal and Consumer Portal are enhanced portals built on configurable widgets, while the Customer Service Portal and Consumer Portal are standard portals. New implementations should use the enhanced portals.
+You can configure four types of portals. The Business Portal and Consumer Portal are enhanced portals built on configurable widgets, while the Customer Service Portal and Consumer Service Portal are standard portals. New implementations should use the enhanced portals.
 
-**Note:** The Business Portal and Consumer Portal plugins are installed automatically when customers install the Customer Service Portal and Consumer Service Portal plugins respectively.
+**Note:** The Business Portal and Consumer Portal plugins are installed automatically when customers install the Customer Service Portal and Consumer Service Portal plugins respectively. For details, see [Configure Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.md).
 
 The following table describes the four self-service portals:
 

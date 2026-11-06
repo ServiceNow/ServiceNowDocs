@@ -1,20 +1,20 @@
 ---
 title: Interaction Management in Service Operations Workspace
-description: Interactions are a centralized location for all communication channels in Service Operations Workspace. You can respond to an incoming chat, phone, walk-up, or messaging interactions faster.
+description: Interactions are a centralized location for all communication channels in Service Operations Workspace. You can respond to incoming chat, phone, walk-up, or messaging interactions from one location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/interaction-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Interaction Management in Service Operations Workspace
 
-Interactions are a centralized location for all communication channels in Service Operations Workspace. You can respond to an incoming chat, phone, walk-up, or messaging interactions faster.
+Interactions are a centralized location for all communication channels in Service Operations Workspace. You can respond to incoming chat, phone, walk-up, or messaging interactions from one location.
 
 \[Omitted image "interaction-sow-aug24.png"\] Alt text: Interaction landing page
 
@@ -41,9 +41,9 @@ Track an interaction that is a centralized location for all communication channe
 -   **[Work on an interaction in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-on-interaction-sow.md)**  
 Work on customer conversations to resolve issues.
 -   **[Collaborate using Microsoft Teams from an interaction record in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/collaborate-interaction-ms-teams-sow.md)**  
-You can initiate a chat or make conference calls using Microsoft Teams to communicate with stakeholders to resolve the issue.
+Initiate a chat or make conference calls using Microsoft Teams to communicate with stakeholders and resolve the issue.
 -   **[Associate an interaction with a task record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/associate-interaction-record-sow.md)**  
-Associating a record to an interaction leverages data to streamline processes, enhance the customer experience, and improve resolution time.
+Associate a record with an interaction to use data to streamline processes, enhance the customer experience, and improve resolution time.
 
 **Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
 

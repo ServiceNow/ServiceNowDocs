@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Work item dependencies in EAP, Perform PI planning, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---

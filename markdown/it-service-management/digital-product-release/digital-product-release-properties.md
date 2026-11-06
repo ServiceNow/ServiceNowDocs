@@ -1,5 +1,5 @@
 ---
-title: Digital Product Release properties
+title: Digital Product Release system properties
 description: Configure the system properties to customize various features of Digital Product Release according to your organization's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-product-release/digital-product-release-properties.html
@@ -7,12 +7,12 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Reference, Digital Product Release, IT Service Management]
 ---
 
-# Digital Product Release properties
+# Digital Product Release system properties
 
 Configure the system properties to customize various features of Digital Product Release according to your organization's needs.
 
@@ -239,6 +239,7 @@ Controls whether you can create timeline releases with flexible date configurati
     -   Enables creation of releases even if the start dates are before today.
     -   Enables creation of tasks and key dates in the past, but only after the release start date.
     -   Restricts release targets to be set to today or future dates only.
+    -   Enables retargeting releases with dates before today.
 
 -   Type: true\|false
 -   Default value: false

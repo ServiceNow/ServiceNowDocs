@@ -1,20 +1,20 @@
 ---
 title: Playbook recommendations for placeholder activity
-description: Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.
+description: Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity's name and description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/playbook-recommendations.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbook recommendations for placeholder activity
 
-Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.
+Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity's name and description.
 
 \[Omitted video\] Description: Generate a outline and get recommendations for placeholder activities
 
@@ -34,7 +34,7 @@ Access the Playbook Recommendations skill from the Playbooks user interface.
 
 The AI recommendations skill uses the name and description of the activity to generate one to five recommendations for the activity definition to use for a placeholder activity. If there are no recommendations listed, then no activity definitions are considered relevant to the activity name and description.
 
-The system can only recommend activity definitions, flows, subflows, and actions that are available from ServiceNow. Recommendations can’t include user-created activity definitions, flows, subflows, or actions.
+The system can only recommend activity definitions, flows, subflows, and actions that are available from ServiceNow. Recommendations can't include user-created activity definitions, flows, subflows, or actions.
 
 ## Generative AI model training
 

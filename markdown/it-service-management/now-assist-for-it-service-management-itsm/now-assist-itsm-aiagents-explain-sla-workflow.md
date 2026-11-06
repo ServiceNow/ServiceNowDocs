@@ -7,10 +7,10 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [agentic AI, generative AI, Gen AI]
-breadcrumb: [Change Management, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
+keywords: [Now Assist, agentic AI, generative AI, Gen AI]
+breadcrumb: [Service Level Management, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # IT Service Management AI agent collection explain SLA agentic workflow
@@ -62,14 +62,16 @@ The following SLA details can be traced by conversing with the agent:
 In the agentic workflow record:
 
 1.  Review the information in the Describe and connect screen and in the Define trigger screen, make the necessary updates, and then select **Save and Continue**.
-2.  In the Select a UI display screen, turn on the **Display** option to add the icon for the ServiceNow Otto panel in the menu bar.
+2.  In the Select a UI display screen, turn on the **Display** option to add the icon for the Now Assist panel in the menu bar.
 3.  Select **Save and test**.
 
 The AI agent executes the request for the agentic workflow.
 
 ## Example of the explain SLA agentic workflow output in the ServiceNow® AI Agent Studio
 
-Access and use the explain SLA agentic workflow from the ServiceNow Otto panel.
+\[Omitted image "now-assist-itsm-aiagents-explain-sla-workflow.png"\] Alt text: Explain SLA agentic workflow output in AI Agent Studio.
+
+Access and use the explain SLA agentic workflow from the Now Assist panel.
 
 You can add a query using the change request number to use the AI agent. You can enter the number from the suggested questions, add keywords from the questions, or ask custom questions to the agent.
 

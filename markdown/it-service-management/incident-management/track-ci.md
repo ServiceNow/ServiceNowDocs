@@ -1,32 +1,32 @@
 ---
-title: Capture information on affected configuration items in an incident
-description: Capture information on affected configuration items \(CIs\), with type as asset, in an incident to keep a record of the updated, repaired, swapped, or retired configuration items.
+title: Capture information on affected configuration items
+description: Capture information about the asset configuration items \(CIs\) that are affected by an incident to keep a record of the CIs that are updated, repaired, swapped, or retired.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/track-ci.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
 
-# Capture information on affected configuration items in an incident
+# Capture information on affected configuration items
 
-Capture information on affected configuration items \(CIs\), with type as asset, in an incident to keep a record of the updated, repaired, swapped, or retired configuration items.
+Capture information about the asset configuration items \(CIs\) that are affected by an incident to keep a record of the CIs that are updated, repaired, swapped, or retired.
 
 ## Before you begin
 
 Role required: itil or admin
 
-Activate the Hardware Asset Management Professional plugin \(com.sn\_hamp\).
+The Hardware Asset Management Professional plugin \(com.sn\_hamp\) must be activated.
 
 ## About this task
 
-You can tell where the assets are located, by keeping track of the assets, how they are used, and when changes were made to them. This information helps you to monitor and manage the assets in your company using a systematic approach.
+Tracking assets shows where they're located, how they're used, and when they changed. This information helps you monitor and manage the assets in your organization.
 
-If you are not the caller of the incident and have a CI value in the affected CIs list, it is mandatory to provide information on the CI before changing the state of the incident to **Resolved**.
+If you aren't the incident caller and the Affected CIs related list contains a CI, provide CI information before changing the incident state to **Resolved**.
 
 You can enter CI information either from the **Affected CIs** related list or from the form layout of the Affected CIs. You need to manually add the **Asset Action** and the **Swapped CI** fields in the related list.
 
@@ -44,15 +44,15 @@ Related list
 
 </td><td>
 
--   In the **Affected CIs** related list, click the settings icon \[Omitted image "personalize-setting-list.png"\] Alt text: Personalize list.
+-   In the **Affected CIs** related list, select the settings icon \[Omitted image "personalize-setting-list.png"\] Alt text: Personalize list.
 -   Move the **Asset Action** and the **Swapped CI** fields from the **Available** column to the **Selected** column.
--   Click **OK**.
+-   Select **OK**.
 
 </td></tr></tbody>
-</table>**Note:** The CI value is updated only if the incident state is updated to **Resolved** by any user excluding the caller. The CI value is not updated if:
+</table>**Note:** The CI value is updated only if the incident state is updated to **Resolved** by any user other than the caller. The CI value isn't updated if:
 
--   The incident state is updated as **Resolved** by the caller even if the **Asset Action** is populated.
--   The incident is directly moved to **Closed** state.
+-   The incident state is set to **Resolved** by the caller, even if the **Asset Action** field is populated.
+-   The incident is moved directly to the **Closed** state.
 
 ## Procedure
 
@@ -64,7 +64,7 @@ Related list
 
 3.  Navigate to the **Affected CIs** related list before resolving the incident.
 
-4.  If you want to enter information in the form layout, click the CI.
+4.  To enter information in the form layout, select the CI.
 
 5.  On the related list or the form, fill in the fields.
 
@@ -82,7 +82,7 @@ Asset Action
 
 </td><td>
 
-Information on whether a CI is updated or repaired, swapped with another CI, or retired from the system. The options available are: No action, Update/Repair, Swap, and Retire.**Note:** If you swap or retire a CI, the sn\_hamp\_asset.swap or sn\_hamp\_asset.retire events are generated respectively.
+Information on whether a CI is updated or repaired, swapped with another CI, or retired from the system. The options available are: No action, Update/Repair, Swap, and Retire.**Note:** If you swap or retire a CI, the **sn\_hamp\_asset.swap** or **sn\_hamp\_asset.retire** events are generated respectively.
 
 </td></tr><tr><td>
 
@@ -92,16 +92,16 @@ Swapped CI
 
 Information on the new CI that is swapped with the existing CI.**Note:**
 
--   This field appears only when you select the value of the **Asset Action** field as **Swap**.
--   The CI values available for swapped CI are the ones with asset CI class as hardware.
--   The Swapped CI is assigned to the Caller. If the Caller is an Asset Manager, they have the option to reassign it to the appropriate user.
+-   This field appears only when **Swap** is selected from the **Asset Action** field.
+-   Only CIs with the hardware asset CI class are available to swap.
+-   The swapped CI is assigned to the caller. If the caller is an asset manager, they can reassign it to the appropriate user.
 
 
 </td></tr></tbody>
-</table>6.  Click **Update**.
+</table>6.  Select **Update**.
 
     The record is saved and the information about CI is stored in the \[task\_ci\] table.
 
-    **Note:** You can filter the **Affected CIs** related list to have the list of affected CIs with class as Asset.
+    **Note:** You can filter the **Affected CIs** related list to show only the affected CIs with the Asset class.
 
 

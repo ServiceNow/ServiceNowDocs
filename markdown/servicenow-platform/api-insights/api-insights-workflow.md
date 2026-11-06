@@ -7,7 +7,7 @@ release: australia
 product: API Insights
 classification: api-insights
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enterprise architect administrator tasks, Configure, API Insights, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ The **API Grant/Reject Access Template** subflow is available with the API Insig
 
 To manage API access requests through custom flows, it's essential to configure the flow with specific input parameters. These parameters guide the flow's behavior.
 
-To learn about creating flows, see [Getting started with flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/getting-started-flow.md).
+To learn about creating flows, see .
 
 When creating a flow for API access request automation, you must use specific parameters that control how the flow works.
 

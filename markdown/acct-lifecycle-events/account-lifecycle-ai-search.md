@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-ai-search.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer success, Use, Customer Success Management]
 ---
@@ -16,7 +16,7 @@ Use AI search with recommended actions to create contexts and search for relevan
 
 **Note:** The AI search is available only if you have configured the Recommended Actions application to display relevant results for the search query. See [Set up recommended actions for account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-setup-rec-action.md) for details.
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 2.  Select one of the following:
     -   Account onboarding cases and case tasks
     -   Success cases and success case tasks

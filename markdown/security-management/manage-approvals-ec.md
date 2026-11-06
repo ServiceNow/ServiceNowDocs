@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/manage-approvals-ec.html
 release: australia
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Employee service center for Vulnerability Response, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -55,6 +55,4 @@ Each task provides a summary including:
 
     Detailed audit data is available, including who approved, comments provided, actions performed. No further actions are allowed in this tab.
 
-
-**Parent Topic:**[Employee service center for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/employee-center-vr-overview.md)
 

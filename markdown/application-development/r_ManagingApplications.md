@@ -5,18 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/r\_ManagingApplications.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Deploying applications, Building applications]
+breadcrumb: [Deploying applications, Classic app development, Building applications]
 ---
 
 # Administer your apps
 
 The system offers several ways to manage applications. You must have the admin role to perform these procedures.
-
-## Legacy Application Manager
-
-The legacy application manager provides information on how to administer your applications in your instance. For more information about installing, updating, or removing an application see [Available actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/app-installation.md).
 
 ## Application Manager
 

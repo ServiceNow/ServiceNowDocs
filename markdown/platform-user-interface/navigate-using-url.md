@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/navigate-using-url.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -29,7 +29,7 @@ Role required: admin
 
 1.  To access the unique, secure web address for each instance, enter the default format: `https://<instancename>.service-now.com`.
 
-    **Note:** To display a custom base URL in email notifications, set the **glide.email.override.url** property. For more information, see Advanced email properties.
+    **Note:** To display a custom base URL in email notifications, set the **glide.email.override.url** property. For more information, see [Advanced email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdditionalProperties.md).
 
 2.  For other URL displays, enter one of the following schemas:
 

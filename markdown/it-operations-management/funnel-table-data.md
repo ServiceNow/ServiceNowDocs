@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/funnel-table-data.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a funnel visualization, Data visualization in ITOM, AIOps Dashboards in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---

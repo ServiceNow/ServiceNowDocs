@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/assign-roles-to-data-catalog-users.html
 release: australia
 topic_type: task
-last_updated: "2026-03-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Data Catalog, Workflow Data Fabric]
 ---
@@ -24,10 +24,10 @@ For detailed information about roles that are installed with Data Catalog, see [
 
 ## Procedure
 
--   Assign roles to users and groups using the Data Catalog feature.
+-   Assign [roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-catalog-roles.md) to users and groups using the Data Catalog feature.
 
     -   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md)
     -   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md)
 
-**Parent Topic:**[Configuring the data catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-data-catalog.md)
+**Parent Topic:**[Configure data catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-data-catalog.md)
 

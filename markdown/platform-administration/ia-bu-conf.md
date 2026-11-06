@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-bu-conf.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -22,6 +22,12 @@ Explore the following information to know more about the configurations of speci
 -   Employee Slate: See [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-config-admin-console.md) for more information on configuration of the Employee Slate product module.
 -   Strategic Portfolio Management \(SPM\): See [Modules in ServiceNow Otto for Setup \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spm-config-console-modules.md) for more information on configuration of the Strategic Portfolio Management \(SPM\) product module.
 -   AI Control Tower \(AICT\): See [Guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-guided-setup.md) for more information on configuration of the AICT module.
+-   Hardware Asset Management \(HAM\): See [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/config-console-ham.md) for more information on configuration of the HAM module.
+-   Cloud Cost Management \(CCM\): See [Configuring ServiceNow Otto for Cloud Cost Management \(CCM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/configuring-otto-ccm.md) for more information on configuration of the CCM module.
+-   HR Service Delivery \(HRSD\): See [AI-Native HR Service Delivery Implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-ai-native-hrsd.md) for more information on configuration of the HRSD module.
+-   Operational Technology: See [Access ServiceNow Otto for Setup \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/access-sn-otto-setup-ot.md) for more information on configuration of the Operational Technology module.
+-   Enterprise Asset Management \(EAM\): See [Install Enterprise Asset Management from the Admin Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/install-eam-admin-home-page.md) for more information on configuration of the EAM module.
+-   Software Asset Management \(SAM\): See [Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/config-console-sam.md) for more information on configuration of the SAM module.
 
 **Parent Topic:**[Configure in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-landing.md)
 

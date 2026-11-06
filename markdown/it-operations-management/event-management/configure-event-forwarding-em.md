@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-07-06"
+last_updated: "2026-11-01"
 reading_time_minutes: 2
 breadcrumb: [Event forwarding, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -19,6 +19,8 @@ Create an event forwarding configuration record to enable events to flow from on
 ## Before you begin
 
 You must have a credential with the evt\_mgmt\_integration role, which enables you to create events in the target instance. If you don't have this credential, see [Create basic auth server credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-credentials-basic-auth.md) for information on how to create it.
+
+If the target instance enforces basic authentication restrictions, the user specified in the credential must be permitted to access APIs through basic authentication. Configure the user as Web Service Access Only or assign the `snc_basic_auth_api_access` role.
 
 Role required: evt\_mgmt\_admin
 

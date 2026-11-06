@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -18,13 +18,13 @@ The Unused resources feature analyzes usage data to identify resources that are 
 
 ## Recommendations
 
-The Cloud Cost Management application generates or fetches recommendations based on the cloud provider. The following table summarizes the recommendation types and sources for each provider.
+The Cloud Cost Management application generates its own recommendations for unused resources and also pulls in recommendations that cloud providers generate. The following table summarizes the recommendation types and sources for each provider.
 
 |Recommendation type|AWS|Azure|GCP|
 |-------------------|---|-----|---|
 |Database recommendations|Fetched from provider|Cloud Cost Management identifies idle databases and generates recommendations|Fetched from provider|
-|Storage volume recommendations|AWS Elastic Block Store \(EBS\)|Azure Disk|Persistent Disk|
-|Aged snapshot recommendations|Amazon EBS Snapshot|Azure Snapshot|GCP Snapshot|
+|Storage volume recommendations|Fetched from provider usingAWS Elastic Block Store \(EBS\)|Fetched from provider using Azure Disk|Fetched from provider using Persistent Disk|
+|Aged snapshot recommendations|Cloud Cost Management generates recommendations using Amazon EBS Snapshot|Cloud Cost Management generates recommendations usingAzure Snapshot|CloudCost Management generates recommendations GCP Snapshot|
 
 Cloud Cost Management uses an optimized process for each provider.
 

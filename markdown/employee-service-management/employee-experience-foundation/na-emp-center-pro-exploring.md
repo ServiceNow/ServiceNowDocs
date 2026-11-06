@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-08-06"
 reading_time_minutes: 2
 keywords: [Now Assist for Employee Center Pro, Now Assist, Agentic AI]
-breadcrumb: [ServiceNow Otto for Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Exploring ServiceNow Otto for Employee Center Pro

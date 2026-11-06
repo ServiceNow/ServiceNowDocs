@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-management-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 ---
 
@@ -21,9 +21,9 @@ Access Management enables you to have access to ServiceNow® instance securely.
 
 </td><td>
 
-[Access Analyzer\[Omitted image "access\_analyzer\_yg.png"\] Alt text: Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-analyzer.md)
+[Access Analyzer\[Omitted image "access\_analyzer\_yg.png"\] Alt text: Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-analyzer.md)
 
- [Access Analyzer is a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-analyzer.md)[ServiceNow® Store App which is an access diagnostic tool. It helps to determine who has access to a resource.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-analyzer.md)
+ [Access Analyzer is a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-analyzer.md)[ServiceNow® Store App which is an access diagnostic tool. It helps to determine who has access to a resource.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-analyzer.md)
 
 </td><td>
 

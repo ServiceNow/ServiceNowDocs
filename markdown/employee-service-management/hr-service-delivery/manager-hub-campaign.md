@@ -1,22 +1,22 @@
 ---
 title: Campaign configurations for Manager Hub
-description: Default campaign configurations are available to use after you have activated Manager Hub Campaigns display predefined content on Manager Hub.
+description: Default campaign configurations are available to use after you have activated Manager Hub. Campaigns display predefined content on Manager Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/manager-hub-campaign.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference for Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Campaign configurations for Manager Hub
 
-Default campaign configurations are available to use after you have activated Manager Hub Campaigns display predefined content on Manager Hub.
+Default campaign configurations are available to use after you have activated Manager Hub. Campaigns display predefined content on Manager Hub.
 
-The Manager Library campaign is published by default. It displays a banner with the following content on the Manager Library tab in Your team menu.
+The Manager Library campaign is published by default. It displays a banner with the following content on the Manager Library tab in Your team menu in Employee Center.
 
 |Campaign content|Description|
 |----------------|-----------|
@@ -24,7 +24,7 @@ The Manager Library campaign is published by default. It displays a banner with 
 |Annual goals|Use the guide or a tool that helps to set your annual goals.|
 |Coaching and feedback|Learn best practices on giving feedback and honing your coaching style.|
 
-**Note:** The Manager Hub example campaign is also available to use. You must publish the campaign to display a banner on the Manager Hub page in Your team menu.
+**Note:** The Manager Hub example campaign is also available to use. You must publish the campaign to display a banner on the Manager Hub page in Your team menu in Employee Center.
 
 For more details on these campaigns, navigate to **All** &gt; **Content Experiences** &gt; **Configurations** &gt; **Campaign Content**.
 

@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Install SAM, Install SAM using Product Hub]
 breadcrumb: [Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
@@ -23,32 +23,12 @@ Before you can use Software Asset Management capabilities, you must install the 
 
 Choose an installation method based on your needs:
 
-<table id="table_installation_methods"><thead><tr><th>
+|Method|When to use|
+|------|-----------|
+|Product Hub|You are installing the SAM application for the first time and want a guided installation experience. Product Hub installs your entitled application and displays additional applications and plugins available for your subscription tier.|
+|ServiceNow Store|You are installing the SAM application without using the guided Product Hub experience, or your instance does not have the [Setup Hub](https://store.servicenow.com/store/app/4f085e4997e9831876b932471153afa8) \(sn\_ia\_base\) or ServiceNow Otto for Setup \(sn\_ia\) application installed.|
 
-Method
-
-</th><th>
-
-When to use
-
-</th></tr></thead><tbody><tr><td>
-
-Product Hub
-
-</td><td>
-
-You are installing the SAM application for the first time and want a guided installation experience. Product Hub installs your entitled application and displays additional applications and plugins available for your subscription tier.**Important:** Product Hub and Configuration Console are available starting from Australia Patch 7.
-
-</td></tr><tr><td>
-
-ServiceNow Store
-
-</td><td>
-
-You are installing the SAM application without using the guided Product Hub experience, or your instance does not have the [Setup Hub](https://store.servicenow.com/store/app/4f085e4997e9831876b932471153afa8) \(sn\_ia\_base\) or ServiceNow Otto for Setup \(sn\_ia\) application installed.
-
-</td></tr></tbody>
-</table>-   **[Product Hub for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-product-hub.md)**  
+-   **[Product Hub for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-product-hub.md)**  
 The Product Hub provides a guided installation and management interface for the Software Asset Management application. Administrators can install the application, apply default configurations, track progress, and access the Configuration Console from the Software Asset Management Admin Home tile.
 -   **[Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/config-console-sam.md)**  
 Use the Configuration Console to configure Software Asset Management after installation. Complete platform-level settings, configure key items with AI assistance, and package configurations for deployment to other instances.

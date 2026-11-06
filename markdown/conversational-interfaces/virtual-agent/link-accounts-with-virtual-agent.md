@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Account linking in pre-built messaging integrations, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Account linking in pre-built messaging integrations, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Link your ServiceNow user account to a messaging application for Virtual Agent conversations
@@ -22,9 +22,9 @@ Role required: user
 
 ## About this task
 
-If the same email account is defined for both your messaging and ServiceNow accounts, then when you first use the Virtual Agent, your messaging account is automatically linked to your ServiceNow account.
+If the same email account is defined for both your messaging and ServiceNow accounts, your messaging account is automatically linked to your ServiceNow account when you first use Virtual Agent.
 
-However, after you unlink your messaging account from your ServiceNow account \(using the **logout** command\), then each time you start a new Virtual Agent session, the bot gives you the option to link to your ServiceNow account or continue as a guest. The authentication step \(linking\) occurs in your instance or in a specific Service Portal, as set by your admin.
+However, after you unlink your messaging account from your ServiceNow account \(using the **logout** command\), the bot gives you the option to link to your ServiceNow account or continue as a guest each time you start a new Virtual Agent session. The authentication step \(linking\) occurs in your instance or in a specific Service Portal, as set by your admin.
 
 ## Procedure
 

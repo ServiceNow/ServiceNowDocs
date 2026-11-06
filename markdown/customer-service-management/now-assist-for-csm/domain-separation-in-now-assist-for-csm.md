@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -19,7 +19,7 @@ Domain separation allows users to separate data, processes, and administrative t
 
 Setting up domain separation for ServiceNow Otto for CSM involves requesting activation of a plugin, setting options, and assigning users and records to domains.
 
-Domain separation is possible at the skill level and at the individual configuration level. When using the guided setup in the AI Admin Hub, each configuration option has its own record that you can separate by domain. To create a record in a different domain, you must set up the skill in the scope of your preferred domain.
+Domain separation is possible at the skill level and at the individual configuration level. When using the guided setup in the AI Admin Hub console, each configuration option has its own record that you can separate by domain. To create a record in a different domain, you must set up the skill in the scope of your preferred domain.
 
 Global domain is the default domain, and all new domains are created under it. New domains inherit the settings from the global domain if users don’t override the settings in the new domain.
 

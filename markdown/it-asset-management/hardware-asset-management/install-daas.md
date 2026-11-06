@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring DaaS, Device as a Service, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -55,4 +55,6 @@ For more information, see [Components installed with Hardware Asset Management f
 
 6.  Select **Install**.
 
+
+**Parent Topic:**[Configuring DaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/configuring-daas.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Remove Conversational Integration with Facebook Messenger
+title: Uninstall Conversational Integration with Facebook Messenger
 description: Users can remove the Conversational Integration with Facebook Messenger application when the app is no longer needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/remove-conv-integ-fbm.html
@@ -7,12 +7,12 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Conversational Integration with Facebook Messenger, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, Facebook Messenger, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Remove Conversational Integration with Facebook Messenger
+# Uninstall Conversational Integration with Facebook Messenger
 
 Users can remove the Conversational Integration with Facebook Messenger application when the app is no longer needed.
 

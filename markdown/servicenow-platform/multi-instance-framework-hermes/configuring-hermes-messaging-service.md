@@ -7,7 +7,7 @@ release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,7 +23,7 @@ The Hermes Messaging Service is a ServiceNow AI Platform capability that is avai
 To successfully set up and configure Stream Connect or Log Export Service, you must complete the steps in [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.md).
 
 -   **[Activating the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md)**  
-The Hermes Messaging Service is enabled when the Glide Hermes Message Queue plugin \(com.glide.hermes\) is activated.
+The Hermes Messaging Service is not a standalone plugin.
 -   **[Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.md)**  
 Secure your Kafka topics by generating a ServiceNow® instance-signed certificate.
 -   **[Revoke a Hermes certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/revoke-certificate.md)**  

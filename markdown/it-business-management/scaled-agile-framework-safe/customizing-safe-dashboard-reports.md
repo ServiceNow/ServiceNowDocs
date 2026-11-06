@@ -7,7 +7,7 @@ release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Customize the Burnup, Burndown, and Cumulative Flow Diagram reports of your dash
 
 -   Configure indicators to reflect your customizations.
 
-    For example, if there are any new states introduced to the SAFe story table, then the corresponding indicators and indicator sources for the story table that rely on the **State** field must be updated as well.
+    For example, if you add states to the SAFe story table, you must update the indicators and indicator sources that rely on the **State** field.
 
     For more information, see [Customize indicators of your Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scaled-agile-framework-safe/customize-indicators-of-safe-dashboard-reports.md).
 

@@ -7,7 +7,7 @@ release: australia
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---

@@ -20,7 +20,7 @@ Role required: sn\_sales\_forecast.forecast\_viewer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-data-model-tables.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Service Model Foundation overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Service Model Foundation tables and plugins
@@ -240,7 +240,7 @@ New columns
 
 </th></tr></thead><tbody><tr><td rowspan="4">
 
-Customer Service \(com.sn\_customerservice\)
+Case Management Core \(com.sn\_customerservice\)
 
 </td><td>
 
@@ -312,7 +312,7 @@ Order\[csm\_order\]​
 
 Household​
 
- Service Organization
+ Service Organization​
 
 </td></tr></tbody>
 </table>

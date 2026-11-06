@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ConfigureAnEmailAccount.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Email accounts, Create, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -206,7 +206,7 @@ System address filter to apply to the email account. If left blank, the system u
 
     The system displays a pop-up window with the results of the connection test.
 
-    \[Omitted image "connection-successful.png"\] Alt text: Connection Test dialog showing a successful connection result
+    \[Omitted image "connection-successful.png"\] Alt text: Connection Test pop-up window displaying the results connection successful.
 
     If the test succeeds, select **Close** to return to the email account record. If the test fails, select **View Logs** to display more information about the test results.
 

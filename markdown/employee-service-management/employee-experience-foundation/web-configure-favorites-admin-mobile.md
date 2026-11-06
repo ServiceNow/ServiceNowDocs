@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-04-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cross-channel favorites, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Cross-channel favorites, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure favorite content type on Mobile
@@ -27,8 +27,6 @@ Role required: portal admin and sp\_admin
 2.  Edit the mobile UI rules to suit your needs.
 
     See [Mobile UI Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-mobile-ui-rule.md) and configure the following field values.
-
-    **Note:** The my **Favorites** widget syncs instantly with other widgets in real-time on the web. However, when adding favorites items across devices \(example: mobile to the web\), a manual refresh is required to reflect the latest changes — **Reload the page** on web or **Pull to refresh** on mobile.
 
     |Field|Description|
     |-----|-----------|

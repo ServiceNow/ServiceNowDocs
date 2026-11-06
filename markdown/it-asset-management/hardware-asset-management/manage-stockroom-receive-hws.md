@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage the receiving of assets at stockrooms in the Hardware Asset Workspace
@@ -34,5 +34,22 @@ Receive hardware and consumable assets from one or more shipments that are in tr
 -   **[Import and receive assets in bulk at your stockroom in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/import-assets-for-receive-ham.md)**  
 Receive multiple hardware and consumable assets at your stockroom by importing the asset records using an Excel template in the Hardware Asset Workspace.
 
-**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
+**Parent Topic:**[Inventory and stockroom operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
+
+**Related topics**  
+
+
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
+
+[Manage asset put away using the Hardware Asset Workspace]()
+
+[Audit hardware asset inventory]()
+
+[View RFID information of assets]()
+
+[Track asset location using indoor maps]()
+
+[Manage your inventory through pallet assets]()
+
+[View stockroom details]()
 

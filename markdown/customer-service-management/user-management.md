@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/user-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up your environment, Configure, Customer Service Management]
 ---
@@ -74,7 +74,7 @@ Create teams made up of employees and customer contacts who fulfill the roles an
 
 </td></tr><tr><td>
 
-[Configure Contributor Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-contributor-user.md)
+[Configure contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-contributor-user.md)
 
 </td><td>
 

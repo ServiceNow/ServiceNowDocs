@@ -7,7 +7,7 @@ release: australia
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Types of tracking consent policies, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---

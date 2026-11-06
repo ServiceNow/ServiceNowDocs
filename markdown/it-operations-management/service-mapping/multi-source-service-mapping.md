@@ -61,6 +61,10 @@ Multi-source service mapping offers several advantages for organizations managin
 
     Service-level actions can improve Mean Time to Resolve \(MTTR\) and business outcomes compared to CI-level fixes, as teams work from a unified view rather than fragmented information.
 
+-   **Business context and reporting**
+
+    Enriching unified services with business context details such as business applications, parent services, and service offerings enables better visibility into how technical services support business operations. This improves reporting and analytics.
+
 
 ## Use cases
 
@@ -76,7 +80,7 @@ Multi-source service mapping is valuable in the following scenarios:
 
 -   **Reporting and Compliance**
 
-    A unified view enables more accurate statistics and reports for Service Level Agreement \(SLA\) compliance. Organizations can avoid manually correlating data from multiple separate service maps.
+    A unified view provides more accurate statistics and reports for Service Level Agreement \(SLA\) compliance than manually correlating data from multiple separate service maps.
 
 
 ## Multi-source service-mapping workflows
@@ -91,7 +95,7 @@ The multi-source service-mapping process follows these key phases:
 
     After creating the unified service, the feature automatically transforms the selected unmapped services into non-operational service instances. This happens in order to prevent automatic discovery and impact on ITOM or ITSM processes. The Service Mapping administrator can choose to convert the services to operational using the **Mapped application services** list.
 
-    When the process of creating the unified service is complete, the unified service map is displayed in the "Unified map" format through the CMDB Workspace. This view shows the complete consolidated service.
+    When the process of creating the unified service is complete, the unified service map is displayed in the "Unified map" format through the CMDB Workspace. This shows the complete consolidated view.
 
 -   **[Editing the unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/unified-map-edit-unified-service.md)**
 

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-01"
 reading_time_minutes: 9
 keywords: [agentic AI Security, ACLs in AI agents]
-breadcrumb: [Explore, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Implement access control in AI agents

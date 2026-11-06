@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/view-insurance-policies-coverages.html
 release: australia
 topic_type: task
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [insurance customer 360 view policies, insurance customer 360 view coverages, insurance customer 360 policy card, insurance customer 360 policy status, insurance customer 360 policy premium, insurance customer 360 coverage details, insurance customer 360 coverage amount, insurance customer 360 policyholder role, customer 360 page]
 breadcrumb: [Using Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]

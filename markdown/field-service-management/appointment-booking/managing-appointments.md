@@ -7,7 +7,7 @@ release: australia
 product: Appointment Booking
 classification: appointment-booking
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Field Service Management]
 ---
@@ -23,7 +23,7 @@ Agents and dispatchers can also book appointments on behalf of customers. Bookin
 **Note:**
 
 -   Work order tasks are scheduled according to the dependencies set in the template.
--   The predecessor task must be assigned first. You can't book an appointment for a successor task until the predecessor task is assigned.
+-   The predecessor task must be assigned first. You cannot book an appointment for a successor task until the predecessor task is assigned.
 -   The start and end times for successor tasks are automatically adjusted according to when the predecessor task is completed.
     -   If the predecessor task ends at 11:00 AM on a given day, the appointment for a successor task is scheduled only after 11:00 AM on that day.
     -   When a minimum lag time is defined between tasks, the window start of the successor task is calculated as per the specified lag time. For example, if the predecessor task ends on 12 May, 1.00 p.m, and the lag time is 3 days, the appointment for the successor task is scheduled only after 1.00 p.m on 15 May.

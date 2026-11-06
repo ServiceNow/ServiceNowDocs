@@ -7,7 +7,7 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Task Mining, Platform Analytics]
 ---
@@ -42,7 +42,7 @@ These configuration tasks must be performed on each instance being used. After i
 
     Modify the default retention configuration rules to delete data automatically.
 
--   **[Avoid capturing and displaying application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/replace-application-details.md)**
+-   **[Create event filters to capture or exclude activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/replace-application-details.md)**
 
     Prevent the Task Mining agent from collecting application details but still collect timestamps by replacing application details that match event filters.
 

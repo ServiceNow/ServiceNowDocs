@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ACC scheduled upgrade, Upgrade agents incrementally, mass upgrade]
 breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -31,7 +31,7 @@ The **Upgrade agents incrementally** scheduled job upgrades all eligible agents 
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 
-2.  Search for **Upgrade agents incrementally** and select record.
+2.  Search for and select **Upgrade agents incrementally**.
 
 3.  Set **Active** to **true**.
 

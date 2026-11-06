@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_OnScreenAlerts.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
@@ -143,7 +143,7 @@ The **Deactivate Special Handling Notes** scheduled job, which runs daily at mid
 
 ## Special handling notes plugin
 
-Activating the Customer Service plugin \(com.sn\_customerservice\) provides the CRM Workspace functionality, including the CSM Configurable Workspace Lookup and Verify plugin \(com.snc.uib.lookup\_verify\).
+Activating the Case Management Core plugin \(com.sn\_customerservice\) provides the CRM Workspace functionality, including the CRM Workspace Special Handling Notes \(com.snc.uib.special\_handling\_notes\).
 
 ## Domain separation for Special Handling Notes
 

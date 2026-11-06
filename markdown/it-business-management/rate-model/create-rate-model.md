@@ -7,7 +7,7 @@ release: australia
 product: Rate Model
 classification: rate-model
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rate Models, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,15 +26,15 @@ Create or modify a rate model that can be linked to a project or demand to deter
 
 1.  Create a rate model.
 
-<table id="create-rate-model-option"><thead><tr><th align="left" id="d183287e71">
+<table id="create-rate-model-option"><thead><tr><th align="left" id="d189447e71">
 
 Option
 
-</th><th align="left" id="d183287e74">
+</th><th align="left" id="d189447e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d183287e80">
+</th></tr></thead><tbody><tr><td id="d189447e80">
 
 **From Project Administration**
 
@@ -44,7 +44,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d183287e116">
+</td></tr><tr><td id="d189447e116">
 
 **From Time Sheets**
 

@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI, Discovery, agentic workflow, pattern diagnostic, certificate renewal, firewall rules, error framework]
 breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]

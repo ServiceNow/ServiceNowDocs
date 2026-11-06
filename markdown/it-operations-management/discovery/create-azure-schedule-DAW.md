@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for Microsoft Azure, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -23,7 +23,7 @@ Verify the following:
 
 -   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
--   You have configured a service principal in the Azure Active Directory that has the necessary permissions so that the MID Server can access the cloud resources you plan to discover. For more information, see [Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/azure-cloud-discovery.md).
+-   You have configured a service principal in the Azure Active Directory with the necessary permissions to access the cloud resources you plan to discover. For more information, see [Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/azure-cloud-discovery.md).
 -   You have created suitable credentials in the ServiceNow AI Platform to connect with the service accounts on which you want to perform the discovery. For more information, see [Create Azure cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/create-azure-cloud-credentials.md).
 -   You're using Discovery Admin Workspace v1.11.0 or later.
 
@@ -53,15 +53,15 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d565014e328">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d606271e325">
 
 Option
 
-</th><th align="left" id="d565014e331">
+</th><th align="left" id="d606271e328">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d565014e337">
+</th></tr></thead><tbody><tr><td id="d606271e334">
 
 **Existing cloud account**
 
@@ -69,7 +69,7 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name** and **Subscription ID/Management Group ID** fields auto-populate.
 
-</td></tr><tr><td id="d565014e352">
+</td></tr><tr><td id="d606271e349">
 
 **New cloud account**
 

@@ -1,25 +1,25 @@
 ---
 title: Complete ReleaseOps guided setup
-description: Guided setup helps to make the initial configuration of ReleaseOps easier. Follow the steps in guided setup to begin using ReleaseOps quickly.
+description: Starting with version 1.2.1 of ReleaseOps, guided setup helps to make the initial configuration of ReleaseOps easier. Follow the steps in guided setup to begin using ReleaseOps quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/releaseops/complete-guided-setup.html
 release: australia
 product: ReleaseOps
 classification: releaseops
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [large scale deployment ServiceNow, ReleaseOps guided setup]
-breadcrumb: [Configure, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Configure, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Complete ReleaseOps guided setup
 
-Guided setup helps to make the initial configuration of ReleaseOps easier. Follow the steps in guided setup to begin using ReleaseOps quickly.
+Starting with version 1.2.1 of ReleaseOps, guided setup helps to make the initial configuration of ReleaseOps easier. Follow the steps in guided setup to begin using ReleaseOps quickly.
 
 ## About this task
 
-For more complex setup scenarios, use the procedure outlined in [ReleaseOps manual setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/configure-new-releaseops-ecosystem.md).
+For more complex setup scenarios, or when making changes to your existing ReleaseOps ecosystem, use the procedure outlined in [ReleaseOps manual setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/configure-new-releaseops-ecosystem.md).
 
 When completing guided setup, you define several kinds of instances for your ReleaseOps pipeline. To learn more about each instance, see [Instances in ReleaseOps configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/instances-in-releaseops-configuration.md).
 
@@ -30,10 +30,6 @@ Role required: admin or sn\_releaseops.releaseops\_pipeline\_admin
 ## Procedure
 
 1.  Navigate to **All** &gt; **ReleaseOps** &gt; **ReleaseOps Guided Setup**.
-
-    **Note:** If you're completing ReleaseOps guided setup as part of App Engine Management Center \(AEMC\) guided setup, you're automatically redirected to the ReleaseOps guided setup page. Select **Resume** to continue with ReleaseOps guided setup and proceed to step 2b.
-
-    \[Omitted image "releaseops-guided-setup-page.png"\] Alt text: ReleaseOps guided setup page with categories to complete.
 
 2.  Select the instances that you want to participate in your ReleaseOps pipeline.
 
@@ -131,4 +127,6 @@ Role required: admin or sn\_releaseops.releaseops\_pipeline\_admin
 ## Result
 
 You have completed guided setup for ReleaseOps. You can start using ReleaseOps to manage your deployments. For more information, see [Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/using-releaseops-to-manage-deployments.md).
+
+**Parent Topic:**[Configuring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/configuring-releaseops.md)
 

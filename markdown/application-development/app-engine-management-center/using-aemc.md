@@ -7,9 +7,9 @@ release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Using AEMC
@@ -28,7 +28,7 @@ The App Engine Management Center \(AEMC\) is designed to empower App Engine admi
 -   View insights about developers and custom apps within their ServiceNow environment.
 
 -   **[Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/managing-app-development-using-aemc.md)**  
-Track and manage requests, deployments, applications, and collaborative developers for your custom applications using the App Engine Management Center \(AEMC\) in your production instance.
+Track and manage requests for new applications, collaboration requests, and insights into developer contributions and custom app production across your organization. You can also assign Developer Sandboxes licenses to managed instances.
 -   **[Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md)**  
 Manage deployments using Pipelines and Deployments in the App Engine Management Center \(AEMC\).
 

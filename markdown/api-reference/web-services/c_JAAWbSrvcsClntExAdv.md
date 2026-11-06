@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Java Apache Axis2, Examples, Inbound, Web services, API implementation, API implementation and reference]
 ---
@@ -27,6 +27,9 @@ This example uses Eclipse SDK Version: 3.4.2 for managing the source code and ex
 -   Verify that the correct JRE is specified.
     -   If using wsdl2java run "java -version" on the command line and this will be the version to specify for the project specific JRE.
     -   If using the Axis2 Codegen plugin use default JRE.
+
+        \[Omitted image "JavaProject.png"\] Alt text:
+
 
 ## Generate your Axis2 client code
 

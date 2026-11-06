@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -40,15 +40,15 @@ You can associate a monetary benefit plan with a non-monetary benefit plan and v
 
 6.  Associate a monetary or non-monetary benefit plan.
 
-<table id="choicetable_CreateAnEpic"><thead><tr><th align="left" id="d78186e115">
+<table id="choicetable_CreateAnEpic"><thead><tr><th align="left" id="d79049e115">
 
 Option
 
-</th><th align="left" id="d78186e118">
+</th><th align="left" id="d79049e118">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d78186e124">
+</th></tr></thead><tbody><tr><td id="d79049e124">
 
 **Associate an existing benefit plan**
 
@@ -56,7 +56,7 @@ Action
 
 On the Benefit Plan form, fill in the **Associated benefit** field with the benefit plan that you want to associate.
 
-</td></tr><tr><td id="d78186e136">
+</td></tr><tr><td id="d79049e136">
 
 **Associate a new benefit plan**
 
@@ -98,6 +98,10 @@ Select the **View Associated benefit plan** related link to view the associated 
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

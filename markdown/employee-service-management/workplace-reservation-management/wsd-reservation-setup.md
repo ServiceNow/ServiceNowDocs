@@ -7,8 +7,8 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -44,15 +44,15 @@ As a Workplace Reservation Management admin, the application enables you to perf
 -   Assign workplace locations that are allowed to be reserved in a reservable module.
 
 -   **[Install Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/install-wsd-reservation-mgmt.md)**  
-Install the Workplace Reservation Management application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install the Workplace Reservation Management application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 -   **[Add a workplace space for reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-reservable-items.md)**  
-Add different types of workplace spaces like a workspace, desk, or similar spaces for employees to reserve.
+Configure workplace spaces, such as desks and meeting rooms, to make them available for reservation in the Workplace Reservation Management application.
 -   **[Add a workplace room for reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-workplace-rooms.md)**  
-Add a workplace room for employees to reserve.
+Add rooms to Workplace Reservation Management so that employees can find and reserve them.
 -   **[Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md)**  
-Create a Reservable Module to add a group of similar reservable workplace items. These workplace items are displayed in a single category on the Reservation portal.
+Create a reservable module to group similar workplace items. Employees can see them in a single category on the Reservation portal.
 -   **[Assign spaces to an area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-neighbourhood-spaces-to-an-area.md)**  
-Add spaces to an area to make them available for reservation. On the Reservation portal, when an employee searches for an area, all the available spaces that are assigned to that area are displayed.
+Assign spaces to an area. Employees can find and reserve them when they search for an area on the Reservation portal.
 -   **[Create a standard service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-standard-services.md)**  
 Create a Standard service to make it available to employees by default when they make a reservation.
 -   **[Create a flexible service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-flexible-service.md)**  

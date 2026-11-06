@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-health-admin-config-use-case.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [ITOM Health, admin configuration, AIOps setup, Event Management, Service Operations Workspace]
 breadcrumb: [Explore, ITOM AIOps, IT Operations Management]

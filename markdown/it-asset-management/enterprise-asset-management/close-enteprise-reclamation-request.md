@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -20,7 +20,7 @@ Close an asset reclamation request to efficiently reclaim enterprise assets when
 
 For each reclaimed asset, an Enterprise Asset Reclamation Line is created. You must close all the tasks of a Enterprise Asset Reclamation Line to close the Enterprise Asset Reclamation Line. Once all Enterprise Asset Reclamation Lines are closed, the Asset Reclamation Request is closed.
 
-Role required: sn\_eam.enterptrise\_asset\_manager or sn\_eam.enterptrise\_asset\_technician
+Role required: sn\_eam.enterprise\_asset\_manager or sn\_eam.enterprise\_asset\_technician
 
 ## Procedure
 
@@ -40,15 +40,15 @@ Role required: sn\_eam.enterptrise\_asset\_manager or sn\_eam.enterptrise\_asset
     |Task Name|Name of the task.|
     |Asset|Asset number and short description of the asset.|
     |State|Current state of the task.|
-    |Return stockroom|Location where the reclaimed assets will be stored.|
+    |Return stockroom|Stockroom that you want to store the reclaimed asset in.|
     |Assignment group|Group to which the Schedule shipment task is assigned.|
     |Assigned to|User from the assignment group to whom the Schedule shipment task is assigned.|
     |Quantity received|Number of consumables received.|
     |Short description|Short description of the task.|
     |Description|Detailed description of the task.|
-    |Carrier|Name of the carrier vendor who ships the asset to the stockroom. This is a mandatory field.|
-    |Tracking number|Shipment reference number given by the carrier vendor. This is a mandatory field.|
-    |Ship date|Date on which the asset is shipped. This is a mandatory field.|
+    |Carrier|Name of the carrier vendor who ships the asset to the stockroom.|
+    |Tracking number|Shipment reference number given by the carrier vendor.|
+    |Ship date|Date on which the asset is shipped.|
     |Work notes|Any additional information that you want to mention.|
 
 5.  Select **Close Task**.
@@ -67,9 +67,9 @@ Role required: sn\_eam.enterptrise\_asset\_manager or sn\_eam.enterptrise\_asset
     |Task name|Name of the task.|
     |Asset|Asset number and short description of the asset.|
     |State|Current state of the task.|
-    |Return stockroom| |
+    |Return stockroom|Stockroom that you want to store the reclaimed asset in.|
     |Assignment group|Group to which the Receive asset task is assigned.|
-    |Quantity received|Number of consumables received. This field appears only if the Hardware Asset Reclamation Line was created for a consumable, and this is a mandatory field.|
+    |Quantity received|Number of assets received. This field appears only if the Enterprise Asset Reclamation Line was created for a consumable or a pre-assembled asset.|
     |Assigned to|User from the assignment group to whom the Receive asset task is assigned.|
     |Short description|Short description of the task.|
     |Description|Detailed description of the task.|
@@ -82,7 +82,7 @@ Role required: sn\_eam.enterptrise\_asset\_manager or sn\_eam.enterptrise\_asset
     After an asset is received, in the asset form, the following changes occur:
 
     -   The **Assigned to** field on the asset record becomes empty.
-    -   State of the asset changes to **In stock** and substate changes to**Pending repair**.
+    -   State of the asset changes to **In stock** and the substate changes to **Pending evaluation**.
 9.  Open the Evaluate asset task.
 
 10. On the Evaluate asset task form, fill in the fields.
@@ -117,7 +117,7 @@ Evaluation status
 
 </td><td>
 
-Status of the reclaimed asset. This is a mandatory drop-down list and the values are:-   Re-deployable
+Status of the reclaimed asset. The values are:-   Re-deployable
 -   Needs repair
 -   To be disposed
 

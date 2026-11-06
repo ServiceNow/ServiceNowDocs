@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,14 +22,14 @@ Role required: admin
 
 Complete the previous tasks:
 
-1.  Activate External User Registration
-2.  Configure the registration form for an external user configuration
+1.  [Activate External User Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/external-user-registration-plugin.md)
+2.  [Configure the registration form for an external user configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/external-user-configuration.md)
 
 Role required: admin
 
 ## About this task
 
-External user self-registration enables a large group of users to register to a ServiceNow app without the help of an administrator. For more information, see Enable external users to self-register to your ServiceNow instance.
+External user self-registration enables a large group of users to register to a ServiceNow app without the help of an administrator. For more information, see [Enable external users to self-register to your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/external-user-self-registration.md).
 
 ## Procedure
 

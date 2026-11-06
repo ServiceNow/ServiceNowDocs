@@ -7,7 +7,7 @@ release: australia
 product: Platform Encryption
 classification: platform-encryption
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [FlowKMFEncrypter, Restricted Caller Access Privilege, Flow Action, troubleshooting, undefined is not a function]
 breadcrumb: [FlowKMFEncrypter API, Key Management Framework, Encryption]

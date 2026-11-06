@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing access to knowledge bases and knowledge articles, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -47,7 +47,7 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
         |Can Contribute|Users can create, modify, and retire knowledge articles in a knowledge base. Contribute access to a knowledge base also provides read access to all articles in the knowledge base.|
         |Cannot Contribute|Users can't create, modify, retire, or read knowledge articles in the knowledge base.|
 
-        **Note:** If the related lists aren't visible, configure the Knowledge form to display them. For more information, see [Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+        **Note:** If the related lists aren't visible, configure the Knowledge form to display them. For more information, see Add a related list to a form.
 
     2.  In the selected related list, add the required user criteria.
 

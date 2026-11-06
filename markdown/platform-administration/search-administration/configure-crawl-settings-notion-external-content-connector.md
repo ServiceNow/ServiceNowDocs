@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Notion external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -45,7 +45,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 2.  In the Connectors list, select the record for the Notion external content connector whose settings you want to modify.
 
-3.  In the connector editor's Settings tab, select **Crawl settings**.
+3.  In the connector editor's **Settings** tab, select **Crawl settings**.
 
 4.  Select **Go to Notion to share content**, then perform the following steps in your Notion workspace for each page you want the connector to be able to retrieve searchable content, metadata, and files from:
 

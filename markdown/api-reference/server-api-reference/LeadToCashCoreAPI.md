@@ -7,8 +7,8 @@ release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 47
+last_updated: "2026-09-10"
+reading_time_minutes: 46
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -2553,12 +2553,7 @@ Object
 
 </td><td>
 
-Optional. Additional parameters to use.```
-"additionalParams": {
-  "returnDeletedGr": Boolean,
-  "useNumberGeneartor": Boolean
-}
-```
+Optional. Additional parameters to use.
 
 </td></tr><tr><td>
 
@@ -2576,25 +2571,6 @@ Optional. Flag that indicates if to generate sys\_numbers in bulk. Applicable va
 -   incorrect: Generate the sys\_number individually at the time of insertion for each record.
 
 Default: incorrect
-
-</td></tr><tr><td>
-
-additionalParams.returnDeletedGr
-
-</td><td>
-
-Boolean
-
-</td><td>
-
-Optional. Flag that indicates whether to trigger post processing upon a DELETE operation. Only set **returnDeletedGr** to `true` if your subclass overrides `_postProcess` or `_postHierarchyCommit` and contains logic that should execute after DELETE operations.
-
-Valid values:
-
--   true: The deleted GlideRecord is returned after a DELETE operation and assigned to target, which causes **\_postProcess** and **\_postHierarchyCommit** to fire.
--   false: DELETE operations don't trigger**\_postProcess** or **\_postHierarchyCommit**.
-
-Default: false
 
 </td></tr></tbody>
 </table><table id="table_mmb_zym_d1c" class="returns"><thead><tr><th>
@@ -3454,30 +3430,5 @@ gs.info("Merged createInstance output: " + JSON.stringify(mergedInstance));
 var effectOutput = service.effect(mergedInstance);
 var commitOutput = service.commitInstance(effectOutput);
 gs.info("commitInstance output: " + JSON.stringify(commitOutput));
-```
-
-### Using returnDeletedGr
-
-The following example deletes a line item and triggers `_postProcess` and `_postHierarchyCommit` on the deleted GlideRecord by setting **returnDeletedGr** to `true`.
-
-```
-var util = new sn_l2c_core.PrimitiveUtil();
-var service = util.getPrimitivesEPService('test_l2c_order_order');
-
-var jsonObj = {
-    "sys_id": "076d6729ffa012104790ffffffffff54",
-    "table": "sn_ind_tmt_orm_order",
-    "_glide_action": "NO_CHANGE",
-    "lineItems": [
-        {
-            "sys_id": "3a8d6b29ffa012104790ffffffffff5c",
-            "table": "sn_ind_tmt_orm_order_line_item",
-            "_glide_action": "DELETE"
-        }
-    ]
-};
-
-var additionalParams = { returnDeletedGr: true };
-var response = service.commitInstance(jsonObj, additionalParams);
 ```
 

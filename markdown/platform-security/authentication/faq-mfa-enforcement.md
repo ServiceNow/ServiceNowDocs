@@ -1,5 +1,5 @@
 ---
-title: MFA enforcement requirements – What and Why
+title: MFA enforcement requirements and reasons
 description: FAQ related to MFA enforcement and why it’s important.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/faq-mfa-enforcement.html
@@ -7,12 +7,12 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Frequently asked questions, MFA enforcement, Multi-factor authentication, Authentication, Access Management]
 ---
 
-# MFA enforcement requirements – What and Why
+# MFA enforcement requirements and reasons
 
 FAQ related to MFA enforcement and why it’s important.
 
@@ -24,15 +24,15 @@ FAQ related to MFA enforcement and why it’s important.
 
     MFA is mandated to protect your account and data security. Cyberthreats are ever-changing, and passwords alone no longer provide sufficient protection against unauthorized access.
 
-    -   With MFA enabled, even if attackers have your password, the attackers still need a second form of verification. This additional layer significantly blocks most unauthorized attempts, keeping your information more secure.
-    -   Setting MFA as the default, minimize the risk of security breaches and safeguarding your account automatically. This means you get enhanced peace of mind without having to make any extra security decisions.
+    -   With MFA enabled, even if attackers have your password, the attackers still need a second form of verification. This additional layer helps block unauthorized attempts, keeping your information more secure.
+    -   Setting MFA as the default minimizes the risk of security breaches and safeguards your account automatically. This means you get enhanced peace of mind without having to make any extra security decisions.
 3.  Why is it important to enable MFA?
 
     Enabling MFA boosts your account security. Passwords alone aren't enough because passwords can be exposed in data breaches. With MFA, even if someone knows your password, they can't access your account without a second verification step.
 
 4.  Why does ServiceNow require MFA?
 
-    ServiceNow is mandating MFA to protect you from these threats. It's a simple yet effective way to reduce unauthorized access. By requiring MFA, there's a strong layer of protection to every account, reducing security risks for you and all users.
+    ServiceNow is mandating MFA to protect you from these threats. It helps reduce unauthorized access. By requiring MFA, there's a strong layer of protection to every account, reducing security risks for you and all users.
 
 5.  What is the MFA requirement for existing customers?
 

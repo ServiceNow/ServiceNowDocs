@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-risk-issues-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Risk portfolio dashboard, Dashboards, Customer success, Use, Customer Success Management]
 ---
@@ -17,7 +17,7 @@ This page provides detailed information about a risk signal including risk occur
 To view this page, follow these steps:
 
 1.  Login as a user with the `sn_acct_lc.customer_success_agent` role.
-2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workpace** and select the **List** icon.
+2.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the **List** icon.
 3.  Navigate to **Customer Success** &gt; **All Risks and Issues** and select **Number** column to open the record. You can also navigate to this page from the [Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-risk-portfolio.md).
 
 \*\*\* to be updated \*\*\*
@@ -47,7 +47,7 @@ The following options are available:
 
 This option identifies and executes success plays that address an unaddressed risk.
 
-1.  Select **Recommend Solution**. The ServiceNow Ottopanel opens and automatically starts the agentic workflow for that specific risk signal.
+1.  Select **Recommend Solution**. The ServiceNow Otto opens and automatically starts the agentic workflow for that specific risk signal.
 2.  The panel displays up to three solution options, each containing one or more success plays. The solutions are arrived at using the following approaches:
 3.  -   Machine learning similarity model: Identifies past risks similar to the current risk and recommends the success plays that resolved those risks. Navigate to **All** &gt; **Predictive Intelligence** &gt; **Similarity** &gt; **Solution Definitions**. Select the **Risk similarity** solution definition that is available with the base system and do the following:
     -   Select the **Active** check box to enable this similarity solution.
@@ -62,11 +62,16 @@ This option identifies and executes success plays that address an unaddressed ri
 
 5.  Provide the required inputs, such as the planned start date and planned end date, for each success play. Once all the inputs have been provided, the success plays are initiated and run in the background. Optionally, you can select additional plays from the success catalog.
 6.  After the plays have been completed, the solutions are automatically added to the Risk solutions related list on the risk signal record.
-7.  A scheduled job runs every day and automatically identifies risk signals that are eligible for closure and generates closure notes. See [Draft close notes for a risk signal using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/draft-risk-close-notes.md) for details.
+7.  A scheduled job runs every day and automatically identifies risk signals that are eligible for closure and generates closure notes. See [Draft close notes for a risk signal using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/draft-risk-close-notes.md) for details.
 8.  When the risk is closed, closure notes are automatically generated and are visible in the Activity stream and Closure Notes in the risk record.
 
     **Note:** Closure notes are automatically generated only when the **Draft closure notes** skill is enabled, all associated risk solutions are closed, and no new risk occurrences exist for the risk signal.
 
+
+-   **[Recommend risk signal solutions agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/now-assist-tmt-resolve-risk.md)**  
+Use the Analyze risk and recommend solutions agentic workflow to monitor and mitigate risks in customer engagements with minimal user intervention.
+-   **[Summarize a risk signal using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/now-assist-tmt-summarize-risk-signals-issues.md)**  
+Generate a summary from a risk signal and issues record and all associated tasks.
 
 **Parent Topic:**[Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-risk-portfolio.md)
 

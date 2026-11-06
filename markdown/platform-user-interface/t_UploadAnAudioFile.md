@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_UploadAnAudioFile.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ Role required: image\_admin
 
 ## About this task
 
-The Database Storage for Audio Files \(com.glide.db\_audio\) feature must be activated to store audio files. The plugin is activated by default on new instances. For upgraded instances, you can activate the plugin if you have the admin role. For more information on activating a plugin, see Activate a plugin.
+The Database Storage for Audio Files \(com.glide.db\_audio\) feature must be activated to store audio files. The plugin is activated by default on new instances. For upgraded instances, you can activate the plugin if you have the admin role. For more information on activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 ## Procedure
 

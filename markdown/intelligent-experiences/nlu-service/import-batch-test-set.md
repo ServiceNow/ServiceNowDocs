@@ -1,5 +1,5 @@
 ---
-title: Create a test set
+title: \(Legacy\) Create a test set
 description: To create or add to an NLU test set, you can upload a file of test utterances matched with correct intents. Use the test set to assess the performance of your model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/import-batch-test-set.html
@@ -7,12 +7,12 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Multi-model Batch Testing, NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Multi-model Batch Testing, \(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Create a test set
+# \(Legacy\) Create a test set
 
 To create or add to an NLU test set, you can upload a file of test utterances matched with correct intents. Use the test set to assess the performance of your model.
 
@@ -66,7 +66,7 @@ Aim to include about 10% of test utterances with no expected intents. Including 
 
 ## What to do next
 
-Use the test set to run a test on your models. To learn how, see [Test your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/test-your-model.md) or [Run a multi-model batch test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/run-batch-test.md).
+Use the test set to run a test on your models. To learn how, see [\(Legacy\) Test your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/test-your-model.md) or [\(Legacy\) Run a multi-model batch test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/run-batch-test.md).
 
 After you have created a test set, you can add more utterances to it. When viewing a test set, click **Import utterances**.
 

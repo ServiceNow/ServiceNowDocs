@@ -7,7 +7,7 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [scrum tasks, ServiceNow Otto, AI generation, CWM, story, agile, sprint, generate]
 breadcrumb: [Scrum tasks for stories, Agile in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]

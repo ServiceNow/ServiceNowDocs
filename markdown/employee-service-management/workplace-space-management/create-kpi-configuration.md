@@ -7,8 +7,8 @@ release: australia
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2026-05-11"
-reading_time_minutes: 3
+last_updated: "2026-10-22"
+reading_time_minutes: 1
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -30,6 +30,8 @@ Role required: sn\_wsd\_spcmgmt.admin
 
     For a description of the field values, see [KPI Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/kpi-configuration-form.md).
 
+    If you set **Type** to SUM, AVG, or COUNT DISTINCT, you must also select a **Computation field**. You can't save two KPI configurations that have the same Type and Computation field.
+
 4.  Select **Submit**.
 
     The KPI Configuration record is saved and added to the **KPI Configurations** list.
@@ -41,40 +43,9 @@ A KPI Configuration record is created on the KPI Configuration \[sn\_wsd\_spcmgm
 
 For more information about the Space Planning workspace, see [Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/space-planning.md).
 
-**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
+The KPI appears on the details panel of the Space Planning workspace, in the order that you set in the **Order** field. For the KPIs that are installed by default, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/default-kpis-installed-with-workplace-space-mgmt.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/default-kpis-installed-with-workplace-space-mgmt.md). To change, deactivate, or delete a KPI, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/edit-kpi-configuration.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/edit-kpi-configuration.md).
 
-**Related topics**  
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/edit-kpi-configuration.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/edit-kpi-configuration.md)
 
-
-[Add a campus]()
-
-[Add a building using Workplace Space Management]()
-
-[Add a floor using Workplace Space Management]()
-
-[Add an area using Workplace Space Management]()
-
-[Add a room using Workplace Space Management]()
-
-[Add a space using Workplace Space Management]()
-
-[Allocate a cost center, department, or workplace entity]()
-
-[Configure a workspace or desk as flexible or permanent]()
-
-[Update the measurement details of a workplace location]()
-
-[Change the status of a workplace location]()
-
-[Configure a BOMA type]()
-
-[Map a space type with BOMA type]()
-
-[Create a Space Recommender rule]()
-
-[Raise a space assistance request]()
-
-[Create a view-by configuration]()
-
-[Reviewing allocation changes]()
+**Parent Topic:**[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/configurable-kpis-space-planning.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/configurable-kpis-space-planning.md)
 

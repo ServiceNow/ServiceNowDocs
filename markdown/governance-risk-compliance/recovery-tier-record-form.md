@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/recovery-tier-record-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure recovery tiers for BIA, General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---

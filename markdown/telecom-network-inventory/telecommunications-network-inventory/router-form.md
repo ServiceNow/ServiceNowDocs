@@ -1,20 +1,20 @@
 ---
 title: Router, Switch, Firewall, Virtual Machine, Load Balancer, and Server forms
-description: The equipment form enables you to create, review, and modify the network asset details in the Telecommunications Network Inventory application for the router, switch, firewall, virtual machine, load balancer, or server.
+description: The equipment form enables you to create, review, and modify network asset details in the Telecommunications Network Inventory application. This applies to the router, switch, firewall, virtual machine, load balancer, or server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/router-form.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # Router, Switch, Firewall, Virtual Machine, Load Balancer, and Server forms
 
-The equipment form enables you to create, review, and modify the network asset details in the Telecommunications Network Inventory application for the router, switch, firewall, virtual machine, load balancer, or server.
+The equipment form enables you to create, review, and modify network asset details in the Telecommunications Network Inventory application. This applies to the router, switch, firewall, virtual machine, load balancer, or server.
 
 <table id="table_f3c_dmd_wrb"><thead><tr><th>
 

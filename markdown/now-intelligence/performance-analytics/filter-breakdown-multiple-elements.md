@@ -7,9 +7,9 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Working with responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Working with responsive dashboards, Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Filter dashboards on breakdown elements
@@ -28,7 +28,7 @@ To filter a dashboard on breakdown elements, such as priorities or categories, s
 
 For performance reasons, there is no option to select all breakdown elements.
 
-**Note:** If you view a breakdown dashboard with a breakdown applied but no elements, the widgets show the base indicator scores. The breakdown does not filter the scores. These scores are usually higher than the scores when you select a breakdown and all elements. Often not all elements are available due to element security or an element filter. You also usually can't select the Unassigned score, which contributes to the indicator scores.
+**Note:** If you view a breakdown dashboard with a breakdown applied but no elements, the widgets show the base indicator scores. The breakdown does not filter the scores. These scores are usually higher than the scores when you select a breakdown and all elements. Often not all elements are available due to element security or an element filter. You also usually cannot select the Unassigned score, which contributes to the indicator scores.
 
 ## Procedure
 

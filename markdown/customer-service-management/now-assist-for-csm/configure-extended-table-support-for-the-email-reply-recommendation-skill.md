@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents, Email Reply Recommendation, extended table, child skill, Now Assist, Now Assist Skill Kit, NASK, CSM]
 breadcrumb: [Email recommendation, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]

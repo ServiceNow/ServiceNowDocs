@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/plat-not-notification-agent-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Notifications AI agents, ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Notifications AI agents, ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Notification AI agent

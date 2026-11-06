@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Forms, Reference, Content Understanding, Enable AI experiences]
+breadcrumb: [Forms, Reference, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Field form fields

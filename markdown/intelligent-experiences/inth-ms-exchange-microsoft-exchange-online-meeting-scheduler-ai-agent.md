@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-30"
 reading_time_minutes: 2
-breadcrumb: [Microsoft Exchange Online Spoke AI agents, Integration Hub AI agents, Integration Hub, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Microsoft Exchange Online Spoke AI agents, Integration Hub AI agents, Integration Hub, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Microsoft Exchange Online meeting scheduler AI agent

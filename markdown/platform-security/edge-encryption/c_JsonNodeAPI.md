@@ -7,7 +7,7 @@ release: australia
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [JSON APIs, Encryption rule objects and APIs, Define a custom encryption rule, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---

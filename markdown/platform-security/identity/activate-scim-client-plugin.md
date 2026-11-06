@@ -1,5 +1,5 @@
 ---
-title: Activate the SCIM Client plugin
+title: Activate the SCIM Client
 description: For SCIM Client activation, install the SCIM v2 - ServiceNow Cross-domain Identity Management Client \(com.snc.integration.scim2.client\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/activate-scim-client-plugin.html
@@ -7,12 +7,12 @@ release: australia
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SCIM Client, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
 
-# Activate the SCIM Client plugin
+# Activate the SCIM Client
 
 For SCIM Client activation, install the SCIM v2 - ServiceNow Cross-domain Identity Management Client \(com.snc.integration.scim2.client\) plugin.
 

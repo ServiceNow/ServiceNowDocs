@@ -1,24 +1,24 @@
 ---
-title: Identity Provider attributes for Security Assertion Markup Language
-description: Use the Identity Provider attributes that are received from the Security Assertion Markup Language \(SAML\) response and OpenID Connect \(OIDC\) from the Identity Provider \(IdP\) as a filter criteria for authentication.
+title: Identity provider attributes for Security Assertion Markup Language
+description: Use the Identity Provider attributes that are received from the Security Assertion Markup Language \(SAML\) response and OpenID Connect \(OIDC\) from the Identity Provider \(IdP\) as filter criteria for authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/idp-attributes-saml.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Identity Provider Attributes Filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
+breadcrumb: [Identity provider attributes filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
 ---
 
-# Identity Provider attributes for Security Assertion Markup Language
+# Identity provider attributes for Security Assertion Markup Language
 
-Use the Identity Provider attributes that are received from the Security Assertion Markup Language \(SAML\) response and OpenID Connect \(OIDC\) from the Identity Provider \(IdP\) as a filter criteria for authentication.
+Use the Identity Provider attributes that are received from the Security Assertion Markup Language \(SAML\) response and OpenID Connect \(OIDC\) from the Identity Provider \(IdP\) as filter criteria for authentication.
 
 To fetch all the attributes from an IdP through the SAML response, you should perform a test connection with the IdP. After a successful test connection, the attributes are added in a new tab in the Identity Provider configuration page.
 
--   Identity Provider filter is available with Zero Trust Access feature. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/session-access.md).
+-   Identity Provider filter is available with the Zero Trust Access feature. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/session-access.md).
 -   IdP attribute filter criteria can be used in [Post-authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/post-auth-context.md), [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/session-access.md) session relegation, and [Multi-factor Authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-auth-context.md).
 
 \[Omitted image "identity-provider-attributes.png"\] Alt text: Identity Provider
@@ -68,7 +68,7 @@ Use in Adaptive Authentication
 Option to use the Attribute in the Adaptive Authentication.
 
 </td></tr></tbody>
-</table>**Note:** Attributes that are populated from Azure IdP have name and display name limited to characters, due to the name length of the attribute.
+</table>**Note:** Attributes that are populated from Azure IdP have name and display name limited in length.
 
 You can also add new attributes by selecting **New** in the **Identity Providers Attributes** section.
 

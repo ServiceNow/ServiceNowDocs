@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/fsm-contractor-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Field Service Management]
 ---
@@ -19,6 +19,20 @@ The Field Service Contractor Management application enables Field Service manage
 The managers of these contractor companies use the [Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/field-service-contractor-portal.md) to review the assigned work order task details and can choose to reject work on the tasks. If they accept the task, they can then reassign the tasks to their contractor team members.
 
 If the preferred assignment group is internal but no one in the internal group qualifies for the assignment group criterion, then the system searches for a suitable external group to assign the task to and vice versa.
+
+## Example: Assign Work to Contractor
+
+A dispatcher needs to assign a work order task to contractors when no qualified internal agent is available or when an external agent is preferred. Using Field Service Contractor Management, organizations identify qualified external contractor groups based on skills, location, and coverage area, and gives contractor managers the tools to accept and reassign tasks through the Contractor Portal.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|System|Identifies contractor need|
+|2|System|Sends request to contractors|
+|3|System|Assigns work order|
+|4|Contractor manager|Receives and accepts task|
+|5|Contractor agent|Performs work|
+|6|Contractor agent|Updates system|
+|7|System|Closes work order|
 
 **Related topics**  
 

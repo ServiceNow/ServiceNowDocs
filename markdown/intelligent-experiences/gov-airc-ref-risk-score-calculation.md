@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-10-05"
 reading_time_minutes: 4
 keywords: [inherent risk, control effectiveness, residual risk, risk rollup, rating bands, AI Risk and Compliance]
-breadcrumb: [Reference, Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI risk score calculation reference

@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-22"
 reading_time_minutes: 2
-breadcrumb: [Zero Copy Connector for ERP AI agents, Zero Copy Connector AI agents, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Zero Copy Connector for ERP AI agents, Zero Copy Connector AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # OData service recommender AI agent

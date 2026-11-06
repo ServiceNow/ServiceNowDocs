@@ -7,7 +7,7 @@ release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -50,8 +50,10 @@ The Workplace Task form specifies details to assign a space to a neighborhood.
 The Neighborhood User Assignment Rule form specifies conditions based on which users or their profiles must be assigned to the neighborhood.
 -   **[User Workplace Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/user-workplace-profile-form.md)**  
 The User Workplace Profile form specifies details about an employee like their name, primary location, and allocation.
--   **[Resolving custom variant issues in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/custom-variants-in-workplace-central.md)**  
-After upgrading Workplace Service Delivery \(WSD\) to a later release, custom variants created using the legacy application-specific screen collection model no longer display correctly in Workplace Central. Affected variants must be migrated to the new standardized unified screen collection model.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+
 
 **Parent Topic:**[Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-feat.md)
 

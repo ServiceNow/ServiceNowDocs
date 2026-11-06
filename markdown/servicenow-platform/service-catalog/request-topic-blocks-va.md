@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -66,7 +66,7 @@ You can use this topic block to request for a catalog item.
 |Parameter|Description|
 |---------|-----------|
 |catalog\_item\_id|sys\_id of the catalog item that should be requested.|
-|execute\_contextual\_search|Option to specify if the contextual search should be run for a record producer based on its configuration. For information on defining contextual search for a record producer, see [Define contextual search for record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CntxtSearchRP.md).|
+|execute\_contextual\_search|Option to specify if the contextual search should be run for a record producer based on its configuration. For information on defining contextual search for a record producer, see Define contextual search for record producer.|
 |confirm\_catalog\_item|Option to specify whether the user must confirm the catalog item before continuing with the next step. If this is set to `false`, user can answer the catalog items questions by skipping the confirmation.|
 |show\_end\_state\_card|Option to display the end state card information about the generated record to the user.|
 

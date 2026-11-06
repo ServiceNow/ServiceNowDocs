@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Day 1 setup guide for Amazon Web Services on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ Starting with the Vancouver release, the Billing dashboard is no longer availabl
 -   The View Dashboard widget in the Cloud User portal is replaced by the View Resources widget.
 -   The Current Month Spend widget and the Budget widget on the Cloud User portal do not show any data if Cloud Cost Management is activated on the instance.
 
-If you have activated the Cloud Cost Management app, you can only navigate to the Billing Dashboard, if you are using Cloud Provisioning and Governance on a domain separated instance.
+If you have activated the Cloud Cost Management app, you can navigate to the Billing Dashboard only on a domain separated instance.
 
 -   Set up a payer account that gets billing information for all linked accounts.
 -   Create the Amazon S3 bucket that is the data storage area for the daily detailed billing records on the AWS account. The credential that is used to access the report must have permissions to the S3 bucket. Set the S3 bucket based on the Order location. The `AssumeRole` policies MUST include an S3 access policy. You might assume that the AWS account that you always use can create an S3 bucket in the region where the CFT is being provisioned. If you use STS-based authentication, however, the AWS account might not be able to create the bucket because authentication is tied to the `AssumeRole` policies. See the "Setting Up an Amazon S3 Bucket for AWS Cost and Usage Reports" page in the [AWS documentation](https://aws.amazon.com/documentation/) for details.

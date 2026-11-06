@@ -1,13 +1,13 @@
 ---
 title: Receive certificate notifications via email
-description: Configure certificate notifications to be delivered via email to relevant recipients.
+description: Configure certificate notifications to be delivered via email to relevant recipients. Configure certificate notifications so that you can receive alerts and initiate certificate renewal workflows directly from email
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/receive-email-certificate-notifications.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Certificate alerts and notifications, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---

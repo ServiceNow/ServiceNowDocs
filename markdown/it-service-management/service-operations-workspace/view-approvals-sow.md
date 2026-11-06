@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Request Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -20,7 +20,7 @@ Access the My Approvals in SOW to manage the approval requests for change, reque
 
 Role required: itil, sn\_change\_read, sn\_request\_read
 
-Confirm that the **Approvals** component is enabled in the SOW layout. For more information, see .
+Confirm that the **Approvals** component is enabled in the SOW layout.
 
 **Note:** If **My Approvals** doesn't appear under **List**, verify that approval requests are actively assigned to you and that you have one of the required roles: itil, sn\_change\_read, or sn\_request\_read
 

@@ -1,20 +1,20 @@
 ---
 title: Template versioning
-description: Template versioning in Smart Assessment Engine enables organizations to maintain multiple versions of assessment templates over time. The ongoing assessments continue to exist even if their related version is retired or superseded by new versions.
+description: Template versioning enables organizations to maintain multiple versions of assessment templates over time. The ongoing assessments continue to exist even if a their related version is retired or superseded by new versions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/template-versioning.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Template versioning
 
-Template versioning in Smart Assessment Engine enables organizations to maintain multiple versions of assessment templates over time. The ongoing assessments continue to exist even if their related version is retired or superseded by new versions.
+Template versioning enables organizations to maintain multiple versions of assessment templates over time. The ongoing assessments continue to exist even if a their related version is retired or superseded by new versions.
 
 ## Template versioning overview
 
@@ -82,7 +82,7 @@ Template versioning in Smart Assessment Engine provides the following benefits:
 -   The system maintains complete version lineage, supporting conformance auditing and historical analysis.
 -   Reduces manual tracking of which assessments must be restarted or updated after template changes.
 -   Automated policy execution eliminates the need for administrators to manually review and update assessments after template changes.
--   Trigger points continue to work after publishing a new version, eliminating the need to manually update flows, scripts, or related lists that reference the template.
+-   Trigger points continue to work after publishing a new version, eliminating the must manually update flows, scripts, or related lists that reference the template.
 -   Copy response from previous assessments continues to work for questions that have not been structurally changed across versions.
 -   Reports continue to aggregate responses across versions for unchanged questions, preserving longitudinal reporting.
 -   Supports templates maintained in multiple languages, so internationalized templates can be versioned without losing translated content.

@@ -7,7 +7,7 @@ release: australia
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Extend ServiceNow AI Platform capabilities]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Extend ServiceNow AI Platform capabilities]
 # ATF Test Generator and Cloud Runner
 
 ATF Test Generator and Cloud Runner is a tool that enables you to leverage ServiceNow’s ability to intelligently generate regression tests for a specific instance.
-
-**Note:** The  application is planned for future deprecation. ATF Test Generator and Cloud Runner remain available and is not affected.
 
 The test generator intelligently creates tests by analyzing instance behavior and workflows. The ATF Test Generator integrates with the existing ATF framework providing you with a seamless user experience. You also have the option to execute these tests using ServiceNow’s Cloud Runner which runs ATF tests on a headless browser hosted by ServiceNow.
 

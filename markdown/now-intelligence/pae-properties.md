@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/pae-
 release: australia
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [report, responsive dashboards, data visualizations]
 breadcrumb: [Reference, Platform Analytics experience, Platform Analytics]
 ---
@@ -125,7 +125,7 @@ com.snc.par.coreui.dashboard\_create.enabled
 
 </td><td>
 
-Enables any user with an internal role to create a Core UI dashboard by selecting **Create new** in the Dashboards library. If absent or false, only a user with the dashboard\_admin role or higher can create a Core UI dashboard, and only in the Dashboards \[pa-dashboard\] table.-   Type: true \| false \(Boolean\)
+Enables any user with an internal role to create a Core UI dashboard by selecting **Create new** in the Dashboards library. If absent or false, only a user with the dashboard\_admin role or higher can create a Core UI dashboard, and only directly in the Dashboards \[pa-dashboard\] table.-   Type: true \| false \(Boolean\)
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table. Exists only on upgraded instances.
 
@@ -135,7 +135,7 @@ com.snc.par.coreui.report\_create.enabled
 
 </td><td>
 
-Enables any user with an internal role to create a Core UI report by selecting **Create new** in the Data visualizations library. If absent or false, only a user with the report\_admin role or higher can create a Core UI report, and only in the Reports \[sys\_report\] table.-   Type: true \| false \(Boolean\)
+Enables any user with an internal role to create a Core UI report by selecting **Create new** in the Data visualizations library. If absent or false, only a user with the report\_admin role or higher can create a Core UI report, and only directly in the Reports \[sys\_report\] table.-   Type: true \| false \(Boolean\)
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table. Exists only on upgraded instances.
 

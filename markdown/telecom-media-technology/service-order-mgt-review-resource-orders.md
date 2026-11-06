@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/service-order-mgt-review-resource-orders.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Review the domain service orders, Approve and fulfill service orders, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -28,15 +28,15 @@ The domain resource orders manage the resources required for fulfillment of the 
 
 2.  Select an associated resource order to review or create a resource order.
 
-<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d39534e72">
+<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d41129e72">
 
 Task
 
-</th><th align="left" id="d39534e75">
+</th><th align="left" id="d41129e75">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d39534e81">
+</th></tr></thead><tbody><tr><td id="d41129e81">
 
 **Review an existing resource order**
 
@@ -48,7 +48,7 @@ Action
 -   To filter existing resource orders, click the filter icon \[Omitted image "form-filter.png"\] Alt text:.
 
 
-</td></tr><tr><td id="d39534e124">
+</td></tr><tr><td id="d41129e124">
 
 **Create a resource order**
 

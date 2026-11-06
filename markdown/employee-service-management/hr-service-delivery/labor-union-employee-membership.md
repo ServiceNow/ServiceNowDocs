@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Labor unions, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -43,6 +43,8 @@ Employee
 </td><td>
 
 The employee and member of a union.Selecting the Lookup using icon \(\[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon\) displays all employees with an HR profile.
+
+ **Note:** There is an **Employee Union Membership** tab on an HR profile for employees that are part of an employee union membership. For more information, see .
 
 </td></tr><tr><td>
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/troubleshoot-aia-test.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-10-16"
 reading_time_minutes: 1
-breadcrumb: [Reference, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Reference, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Troubleshooting agentic AI manual testing failures
@@ -26,10 +26,10 @@ Most failures in a first manual test of an agentic AI asset can be traced to iss
 
 -   **Inconsistent access to subcomponents**
 
-    Check whether all of the components of the agentic AI asset have the same ACL requirements. A tool whose ACL the running identity cannot pass may fail for some users and not others. Compare the invoking user roles against what the tool requires. Run tests as different users to verify the security constraints you've added.
+    Check whether all of the components of the agentic AI asset have the same ACL requirements. A tool whose ACL the running identity cannot pass may fail for some users and not others. Compare the invoking user roles against what the tool requires. Then run tests as different users to confirm that the security constraints you added work as intended.
 
 -   **Incorrect tool calling**
 
-    Multipurpose or loosely described tools can lead the Orchestrator to select the wrong tool. Give each tool a single purpose. Tool descriptions should also include when it does not apply.
+    Multipurpose or loosely described tools can lead the Orchestrator to select the wrong tool. Give each tool a single purpose. Tool descriptions should also say when the tool doesn't apply.
 
 

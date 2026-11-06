@@ -1,0 +1,35 @@
+---
+title: Automated root cause analysis
+description: Find where and why inefficiencies occur within your processes using automated root cause analysis.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/process-mining/auto-rca.html
+release: australia
+product: Process Mining
+classification: process-mining
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Analyzing and getting process insights, Use, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Automated root cause analysis
+
+Find where and why inefficiencies occur within your processes using automated root cause analysis.
+
+Automated root cause analysis finds why and where a particular process performance occurs. This enables you to take appropriate action to solve the root cause of the issue. You will also understand which attributes are impacting them.
+
+**Note:** Automated root cause analysis is available only with more than 100 records.
+
+Run root cause analysis from your Insights or on specific map connections within Analyst workbench.
+
+Process owners and admins can customize automated root cause analysis to specify which fields are analysed, and optionally configure the analysis to run automatically.
+
+-   **[Configure automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/config-finding-def-auto-rca.md)**  
+Configure automated root cause analysis from the process configuration record.
+-   **[Run automated root cause analysis reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/run-view-arca.md)**  
+Execute automated root cause analysis to optimize your processes.
+-   **[Review and interpret automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/review-rca.md)**  
+Review the analysis report and understand the root cause of performance issues. Use this information to optimize your processes.
+
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/analyze-get-process-insights.md)
+

@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Multi-factor authentication Providers, SMS as an MFA factor, MFA factor policies, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [Multi-factor authentication providers, SMS as an MFA factor, MFA factor policies, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
 # Configure MFA Provider
@@ -24,16 +24,16 @@ Role required: adaptive\_auth\_admin
 
 1.  Navigate to **All** &gt; **Multi-factor Authentication** &gt; **Providers**.
 
-    Following provider configuration are available for MFA within the ServiceNow AI Platform:
+    Following provider configurations are available for MFA within the ServiceNow AI Platform:
 
     -   Email Provider Configuration
     -   Twilio Provider Configuration
     -   Infobip Provider Configuration.
     \[Omitted image "mfa-provider.png"\] Alt text: MFA Providers
 
-2.  To create a new provider, click **New**.
+2.  To create a new provider, select **New**.
 
-3.  On the form, fill the fields.
+3.  On the form, fill in the fields.
 
 <table id="table_mxz_wyp_znb"><thead><tr><th>
 
@@ -65,7 +65,7 @@ Provider
 
 </td><td>
 
-Choose **Twilio** or **Custom**.**Note:** To configure Twilio, see [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureNotifyWithTwilio.md).
+The provider type, either **Twilio** or **Custom**.**Note:** To configure Twilio, see [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureNotifyWithTwilio.md).
 
  When choosing **Custom**, you need to specify the following fields:
 
@@ -93,7 +93,7 @@ Active
 Option to make the provider configuration active.
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
     Based on the message template and provider configurations, the SMS or Email is sent to users as a factor for authentication during the login process.
 

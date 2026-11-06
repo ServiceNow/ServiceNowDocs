@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -22,8 +22,6 @@ A check is a combination of a command and its configuration. The check is execut
 Configuration data files store dynamic instance data, such as virtual machine details, that check definitions use during execution. This ensures that checks are executed with up-to-date and accurate information about the instance being monitored.
 -   **[Agent Client Collector API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-api.md)**  
 Use the Agent Client Collector \(ACC\) API to create a flow that executes an `osquery` command on agents and processes the results. By leveraging the ACC API, you can automate the querying of agent data and streamline the processing of results, making it easier to monitor and manage system performance.
--   **[Agent Client Collector health instance scan suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-instance-scan-suite.md)**  
-The Agent Client Collector \(ACC\) health instance scan suite consists of checks that detect anomalies and other issues that might occur on your instance. These checks ensure the overall health and performance of the ACC, proactively identifying potential problems before they impact system operations.
 -   **[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-certificates.md)**  
 Agent Client Collector certificates verify the authenticity of your agents, servers, and users. Using Agent Client Collector certificates ensures the safety of your environment.
 -   **[Using Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/logs-acc.md)**  
@@ -50,6 +48,8 @@ Portable applications are those applications that don’t need to be installed o
 Cloud Native Operations for Visibility \(CNO for Visibility\) has been renamed Agent Client Collector for Kubernetes – Visibility. The term Cloud Native Operations for Visibility has been deprecated.
 -   **[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/data-collection-enabling.md)**  
 You can perform actions which enhance data collection from the hosts on which Agent Client Collector is running.
+-   **[Create a golden image for a virtual machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-vdi-golden-image.md)**  
+Create a golden image to run on a VIrtual Desktop Infrastructure \(VDI\) machine. The golden image enables installing a virtual agent on VDI virtual machine, which generates data quicker than standard agents.
 
 **Parent Topic:**[Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-landing-page.md)
 

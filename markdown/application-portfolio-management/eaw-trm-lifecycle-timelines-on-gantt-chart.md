@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-trm-lifecycle-timelines-on-gantt-chart.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Gantt view of TLM and TRM lifecycle timelines, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -23,6 +23,8 @@ Whether your instance displays TPM or TLM also depends on your application versi
 \[Omitted image "TRM-gantt-chart.png"\] Alt text: TRM view of the Gantt chart.
 
 In TRM view, the lifecycles aren’t aggregated to application services or business applications.
+
+Grouping rows, such as an application service or the **Hardware models** and **Software products** headings, don’t display timeline bars. Only the rows of individual hardware models and software product versions display timeline bars.
 
 It displays the following TRM related information:
 
@@ -53,6 +55,7 @@ If you have TRM products that aren't aligned with TRM phases and standards, then
 |TRM Product Name|Not applicable|Product lifecycle|The software version isn’t defined in the TRM product lifecycle.|No TRM lifecycle is available for the TRM product.|
 |TRM Product Name|Not applicable|Product lifecycle|The software version isn’t defined in the TRM product lifecycle.|TRM lifecycle with full version information isn’t available.|
 |TRM Product Name|Not applicable|Product lifecycle|The software version isn’t defined in the TRM product lifecycle.|TRM lifecycle with version information isn’t available.|
+|TRM Product Name|Not applicable|Product lifecycle|The software version isn’t defined in the TRM product lifecycle.|TRM lifecycle with version information isn’t available.|
 |TRM Product Name|Lifecycle phase|Product lifecycle|The software version isn’t approved for production.|TRM lifecycle with full version information isn’t production approved.|
 |TRM Product Name|Not applicable|Product lifecycle|The software version isn’t approved for production.|TRM lifecycle with full version isn’t available for current date.|
 |TRM Product Name|Lifecycle phase|Product lifecycle|The software version isn’t approved for production.|TRM lifecycle with version and edition information isn’t production approved.|
@@ -73,15 +76,15 @@ For the last phase, the end date is calculated by adding the time value as defin
 
 The TRM product lifecycle timeline bars are displayed on the Gantt chart. However, for the lifecycle timeline bars to be displayed, some criteria must be fulfilled.
 
--   Software products: For software products, the TRM product **Name** and **Product full version** values must match the corresponding values in the TPM Technology Lifecycle table \(sn\_apm\_tpm\_technology\_lifecycle\). These values should match the **TRM Product** and **Version** values entered when creating the TRM lifecycle for that product.
+-   Software products: For software products, the TRM product **Name** and **Product full version** values for that particular software product as defined in the TPM Technology Lifecycle table \(sn\_apm\_tpm\_technology\_lifecycle\) should match the **TRM Product** and **Version** values that are entered while creating the TRM lifecycle for that product.
 
-    Alternatively, the TRM product **Name**, **Version**, and **Edition** values in the TLM Technology Lifecycle table \(sn\_apm\_tpm\_technology\_lifecycle\) should match the **TRM Product**, **Version**, and **Edition** values entered when creating the TRM lifecycle for that product.
+    Alternatively, the TRM product **Name**, **Version**, and **Edition** values in the TPM Technology Lifecycle table \(sn\_apm\_tpm\_technology\_lifecycle\) should match the **TRM Product**, **Version**, and **Edition** values entered when creating the TRM lifecycle for that product.
 
 -   Hardware models: For hardware models, the TRM product hardware model value for that application service should match the hardware model value in the lifecycle. This value is entered when creating the TRM lifecycle for that application service.
 
-For details on how to create a TRM product, see [Add a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle.md).
+For details on how to create a TRM product, see [Create a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle.md).
 
-For details on how to create a TRM product lifecycle request, see [Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md).
+For details on how to create a TRM product lifecycle request, see [Create TRM product lifecycles in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md).
 
 For details on how to approve or reject a TRM product or lifecycle request, see [Approve or reject TRM requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-approve-trm-req.md).
 
@@ -96,5 +99,5 @@ You can also change the TRM phase colors according to your requirement. For deta
 **Related topics**  
 
 
-[View TLM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
+[View TPM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
 

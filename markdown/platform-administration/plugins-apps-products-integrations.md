@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/plugins-apps-products-integrations.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [servicenow store, store, app store, application store, app store user documentation, servicenow app store, store app, store application, app, application, plugin, integration, product, store plugin, plugins on store, plugins on servicenow store, third party integration, third-party integration, 3rd party app integration]
 breadcrumb: [Explore, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]

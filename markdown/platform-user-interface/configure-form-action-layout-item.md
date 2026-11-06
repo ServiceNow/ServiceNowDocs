@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-form-action-layout-item.html
 release: australia
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

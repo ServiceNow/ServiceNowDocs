@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Network Inventory Workspace, Explore, Telecommunications Network Inventory]
 ---
@@ -40,7 +40,7 @@ Sites
 
 </td><td>
 
-View listings of network sites and data centers. Update or create site details. To learn more about network site, see [febcfe12194eeb91c09e3996e78edd4ed1efeb0b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md). To learn more about data centers, see [Define the datacenter details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-data-center-details.md).
+View listings of network sites and data centers. Update or create site details. To learn more about network site, see [be43dd816efb936e2eb2535d35766c61b2d804a6.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md). To learn more about data centers, see [Define the datacenter details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-data-center-details.md).
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Import
 
 </td><td>
 
-Import your models an templates using Import in the Telecommunications Network Inventory application. To learn more, see [Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md).
+Import your models an templates using Import in the Telecommunications Network Inventory application. To learn more, see [Import Models and Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md).
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Software Asset Management publisher pack for Oracle, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -28,8 +28,8 @@ To view this report, launch the Software Asset Workspace by navigating to **Work
 |Edition|Oracle Database edition that is installed or running on your servers.|
 |License metric|License metric that the Oracle Database license is counted against when reconciliation runs. The options are **Named User Plus** and **Per Processor**.|
 |Agreement type|Agreement type for your Oracle Database deployment. The options are **ULA** \(Unlimited License Agreement\) and **Generic**.|
-|Cloud provider|Cloud provider through which your Oracle Database are deployed.|
-|Cloud service type|Cloud service model through which your Oracle Database are deployed. The options are **PaaS** and **IaaS**.|
+|Cloud provider|Cloud provider through which your Oracle Database is deployed.|
+|Cloud service type|Cloud service model through which your Oracle Database is deployed. The options are **PaaS** and **IaaS**.|
 
 **Parent Topic:**[Software Asset Management publisher pack for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/oracle-publisher-pack.md)
 

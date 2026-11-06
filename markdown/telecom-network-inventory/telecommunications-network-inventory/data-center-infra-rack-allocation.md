@@ -1,20 +1,20 @@
 ---
 title: Data center infrastructure rack allocation
-description: Data center infrastructure allocation reserves rack unit space in a data center based on the requirements specified in a change request and the placement policies that you have configured.
+description: Data center infrastructure allocation reserves rack unit space in a data center. The allocation is based on the requirements specified in a change request and the placement policies that you have configured.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-rack-allocation.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
 
 # Data center infrastructure rack allocation
 
-Data center infrastructure allocation reserves rack unit space in a data center based on the requirements specified in a change request and the placement policies that you have configured.
+Data center infrastructure allocation reserves rack unit space in a data center. The allocation is based on the requirements specified in a change request and the placement policies that you have configured.
 
 Data center infrastructure allocation evaluates racks in the target data center against the requirements in the change request and against the placement policies you have configured. The infrastructure then reserves rack unit space in the most suitable rack.
 

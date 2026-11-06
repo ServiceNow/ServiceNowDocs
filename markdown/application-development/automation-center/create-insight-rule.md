@@ -1,0 +1,51 @@
+---
+title: Create an insight rule
+description: Create an insight rule to generate custom insights for an automation business process.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automation-center/create-insight-rule.html
+release: australia
+product: Automation Center
+classification: automation-center
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Working with automations, Use, Automation Center, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Create an insight rule
+
+Create an insight rule to generate custom insights for an automation business process.
+
+## Before you begin
+
+This task must be performed in the classic environment.
+
+Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
+
+## About this task
+
+When an insight rule is processed, it generates an insight. Insights appear on the Insights widget in the Executions dashboard of Automation Center Workspace.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Automation Center** &gt; **Administration** &gt; **Insight Rules**.
+
+2.  Select **New**.
+
+3.  On the form, fill in the fields.
+
+4.  Select **Submit**.
+
+
+-   **[Create an insight trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automation-center/create-insight-trigger.md)**  
+Create an active insight trigger so that you can run the related insight rule.
+-   **[Write a script for an automation message variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automation-center/create-message-variable-auto-center.md)**  
+Write JavaScript code input for variables that are added in the message of an insight rule.
+
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automation-center/automations.md)
+
+**Related topics**  
+
+
+[Insight rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automation-center/insight-rule-form.md)
+

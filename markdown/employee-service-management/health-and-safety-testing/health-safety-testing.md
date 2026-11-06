@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety Testing
 classification: health-and-safety-testing
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-09"
 reading_time_minutes: 6
 breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 # Health and Safety Testing
 
 Streamline the user health testing process to help organizations reduce the spread of infectious diseases in the workplace.
+
+**Note:** Starting with the Brazil release, Health and Safety Testing is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 \[Omitted image "health-safety-testing.png"\] Alt text: Request, schedule, and report testing with the Health and Safety Testing application.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-fdtn-scripted-ext-pt.html
 release: australia
 topic_type: task
-last_updated: "2026-03-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Foundation, Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -61,5 +61,5 @@ The publishing extension point is implemented. Grant programs and authorized rep
 
 **Previous topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-foundation.md)
 
-**Next topic:**[Configure Restricted Caller Access \(RCA\) for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-fdtn-doc-template-rca.md)
+**Next topic:**[Configure the related party extension point in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-fdtn-rpmanagement-ext-pt.md)
 

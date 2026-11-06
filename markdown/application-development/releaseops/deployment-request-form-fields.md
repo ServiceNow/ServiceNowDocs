@@ -7,9 +7,9 @@ release: australia
 product: ReleaseOps
 classification: releaseops
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Reference, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Deployment Request form
@@ -31,6 +31,22 @@ Release
 </td><td>
 
 The release that the deployment request is associated with. A deployment request can only be attached to one release. **Note:** Deployment requests are deferred if they aren't in the Ready for Deployment state at the freeze date. If the deployment request is deferred, a new release must be associated with the deployment request to reset its state back to Draft and successfully deploy.
+
+</td></tr><tr><td>
+
+Pipeline
+
+</td><td>
+
+The pipeline that the deployment request will be assessed and deployed against, when no release is assigned. Only active pipelines can be selected.
+
+</td></tr><tr><td>
+
+Destination environment
+
+</td><td>
+
+The instance that the deployment request's update sets will be deployed to when no release is assigned. Used to run Code Diff for the deployment request and, for on-demand deployment requests, to determine where the resulting release deploys.
 
 </td></tr><tr><td>
 

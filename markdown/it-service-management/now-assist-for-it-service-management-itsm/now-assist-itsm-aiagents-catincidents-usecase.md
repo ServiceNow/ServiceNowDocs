@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [ITSM, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -174,7 +174,7 @@ As a user, do the following in the Otto panel:
 
         The orchestrator then moves to the next available agent.
 
-        \[Omitted image "now-assist-itsm-inc-cat-nap.png"\] Alt text:
+        \[Omitted image "now-assist-itsm-inc-cat-nap.png"\] Alt text: Orchestrator then moves to the next available agent
 
 3.  The second agent, which is the Classify Service and CI AI agent updates the following fields in the incident record after the execution:
 
@@ -183,11 +183,11 @@ As a user, do the following in the Otto panel:
     -   Configuration item
     It also updates the **Additional comments** and **Work notes** fields.
 
-    \[Omitted image "now-assist-itsm-inc-cat-add-comm.png"\] Alt text: ServiceNow Otto for ITSM Categorize Incidents Additional Comments
+    \[Omitted image "now-assist-itsm-inc-cat-add-comm.png"\] Alt text: Now Assist for ITSM Categorize Incidents Additional Comments
 
 4.  The third agent, which is the Link major incident or problem AI agent updates the parent **incident** or **problem** field in the incident's related record. The AI agent updates the changes in the **Additional comments** field.
 
-\[Omitted image "now-assist-itsm-inc-cat-related-records.png"\] Alt text: ServiceNow Otto for ITSM Categorize Incidents Related Records
+\[Omitted image "now-assist-itsm-inc-cat-related-records.png"\] Alt text: Now Assist ITSM Categorize Incidents Related Records
 
 The image below shows the following:
 
@@ -195,5 +195,5 @@ The image below shows the following:
 -   The Classify service and CI AI agent populates the **Service**, **Service offering**, and **Configuration items** fields.
 -   The Link major incident or problem AI agent populates the **Parent incident** or the **Problem** field.
 
-\[Omitted image "now-assist-itsm-inc-cat-fields.png"\] Alt text: ServiceNow Otto for ITSM categorize incidents workflow fields populated
+\[Omitted image "now-assist-itsm-inc-cat-fields.png"\] Alt text: Now Assist ITSM categorize incidents workflow fields populated
 

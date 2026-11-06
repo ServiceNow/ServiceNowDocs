@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-ws-time-tracking.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-16"
+last_updated: "2026-09-18"
 reading_time_minutes: 3
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -40,7 +40,7 @@ The Time Entry table stores the start and stop events and the time captured for 
 
 When the system administrator configures the activity timer log feature, the timer component appears in the record header next to the short description. Agents can use this timer to view the time elapsed on a record.
 
-\[Omitted image "activity-timer-log-component.png"\] Alt text: case page with timer component
+\[Omitted image "activity-timer-log-component.png"\] Alt text: The timer component appears in the record header next to the short description and displays the elapsed time for the record.
 
 ## My Timelog list
 
@@ -64,7 +64,7 @@ The **My Timelog** list includes these default filter conditions:
 -   Start and end time: Yesterday's data appears by default.
 -   User: The current logged-in user. Agents can only view their own data.
 
-Agents can filter and sort the information in this list to see different views. For example, agents can filter to see all of the entries for a single record or the total time worked on a record. For more information, see the table descriptions in [Activity timer log components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activity-timer-log-components.md).
+Agents can filter and sort the information in this list to see different views. For example, agents can view all of the entries for a single record or the total time worked on a record. For more information, see the table descriptions in [Activity timer log components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activity-timer-log-components.md).
 
 ## Plugin
 

@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Plan and configure your Knowledge Management implementation.
 
 Visit the following page on the ServiceNow Community for information on setting up Knowledge Management: [Knowledge Management Getting Started](https://www.servicenow.com/community/knowledge-management-articles/knowledge-management-getting-started/ta-p/2533067).
 
-You can also use Knowledge Management capabilities within a website built on Adobe Experience Manager \(AEM\). For more information, see [Integration with Adobe Experience Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-integration.md).
+You can also use Knowledge Management capabilities within a website built on Adobe Experience Manager \(AEM\). For more information, see Integration with Adobe Experience Manager.
 
 ## Using guided setup to implement Knowledge Management
 

@@ -7,7 +7,7 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [knowledge base permissions, Can Contribute, KB routing, knowledge base user collections]
 breadcrumb: [Reference, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]

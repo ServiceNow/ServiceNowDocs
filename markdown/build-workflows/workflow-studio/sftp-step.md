@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -18,8 +18,8 @@ Create a reusable action to manage files and directories on an SFTP server and t
 
 **Note:**
 
--   This step requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf). For more information about the ServiceNow® Integration Hub subscription packages, see [Integration Hub usage and subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/subscription-usage.md). After the required plugin is activated, the step is visible under Integrations.
--   The SFTP step runs only on a ServiceNow® MID Server with SSH capabilities. Activate the plugin, Integration Hub in Workflow Data Fabric Professional \(com.glide.hub.integrations.professional\) to use the JDBC capability for the MID Server. For more information, see [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-integrationhub.md).
+-   This step requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf). For more information about the ServiceNow® Integration Hub subscription packages, see Integration Hub usage and subscription. After the required plugin is activated, the step is visible under Integrations.
+-   The SFTP step runs only on a ServiceNow® MID Server with SSH capabilities. Activate the plugin, Integration Hub in Workflow Data Fabric Professional \(com.glide.hub.integrations.professional\) to use the JDBC capability for the MID Server. For more information, see .
 -   The SFTP step requires a credential record that supports either SSH private key credentials or SSH credentials. This step does not support Windows credentials where the **Use MID Server service account** option is selected.
 
 ## Roles and availability

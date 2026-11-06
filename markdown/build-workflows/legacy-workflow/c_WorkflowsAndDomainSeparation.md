@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workflow concepts, Classic Workflow, Build workflows]
 ---
@@ -32,8 +32,8 @@ When domain separation is enabled, workflows and workflow activities inherit the
 
 While workflows are managed by multiple tables, only the following tables are used for domain separation features:
 
--   **Workflow \[wf\_workflow\]** and **Workflow Version \[wf\_workflow\_version\]**: used for [Process administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DelegatedAdministration.md) or process separation.
--   **Workflow Context \[wf\_context\]**: used for [Understanding domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md).
+-   **Workflow \[wf\_workflow\]** and **Workflow Version \[wf\_workflow\_version\]**: used for Process administration or process separation.
+-   **Workflow Context \[wf\_context\]**: used for Understanding domain separation.
 
 **Note:** The Workflow Version table \[wf\_workflow\_version\] table does not contain a domain field; Workflow Version records inherit their domain from the parent Workflow record.
 

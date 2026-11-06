@@ -22,17 +22,17 @@ Integrate the ServiceNow instance and Craft spoke by using the basic authenticat
 -   Activate the Craft spoke.
 -   Role required: admin.
 
-## Configure a connection for Craft spoke
+## Configure a connection for the Craft spoke
 
 Add and configure a Craft spoke connection to authenticate ServiceNow requests.
 
 ### Before you begin
 
-Role required: admin
+Role required: admin.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio.**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
 2.  Click the **Integrations** tab.
 
@@ -40,8 +40,8 @@ Role required: admin
 
 4.  Locate the alias for **sn\_craft\_spoke** and click **View Details**.
 
-    -   To configure the default connection and credential alias record that is shipped along with the Azure DevOps Boards spoke, click **View Details**.\[Omitted image "craft-spoke-conn-template.png"\] Alt text: Craft spoke connection template details
-    -   To manage more than one Azure DevOps Boards spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To configure the default connection and credential alias record that is shipped along with the Craft spoke, click **View Details**.\[Omitted image "craft-spoke-conn-template.png"\] Alt text: Craft spoke connection template details
+    -   To manage more than one Craft spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "craft-spoke-conn-temp-config.png"\] Alt text: Craft spoke connection template configuration for the first time
@@ -50,8 +50,10 @@ Role required: admin
 
     |Field|Description|
     |-----|-----------|
+    |Connection Information|
     |Connection name|Name to uniquely identify the connection record. For example, `Craft connection`.|
-    |Connection URL|URL of the Craft instance. For example, enter the URL in this format: `https:://api.craft.co/`|
+    |Connection URL|URL of the Craft instance. For example, enter the URL in this format: `https://api.craft.co/`|
+    |Credential Information|
     |API Key|API key from your Craft account.|
 
     \[Omitted image "craft-spoke-conn-temp-form.png"\] Alt text: Craft spoke connection template configuration form

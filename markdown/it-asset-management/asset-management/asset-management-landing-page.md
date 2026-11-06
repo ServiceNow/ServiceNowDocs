@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2026-04-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 ---
 
@@ -157,4 +157,7 @@ Asset Management works with the following ServiceNow applications to support ass
 -   [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_Procurement.md)
 -   [Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ProductCatalog.md)
 -   [IT Asset Management content request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/content-request-itam.md)
+
+-   **[Common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-related-apps-landing-page.md)**  
+The IT Asset Management application relies on a seamless integrated ecosystem of applications to deliver complete visibility, control, and optimization of IT assets throughout their lifecycle.
 

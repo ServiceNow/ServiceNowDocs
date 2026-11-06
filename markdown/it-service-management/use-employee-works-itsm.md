@@ -16,6 +16,13 @@ View active outages and degradations using the Service Health Broadcast widget. 
 
 ## Before you begin
 
+**Important:** In the EmployeeWorks Web App Product Configuration console, your system administrator:
+
+-   Must activate the Service health banner widget in the widget library so that you can view the banner for P1 outages.
+-   Can add or remove quick links from the Home section in the Configuration console.
+
+For more information, see [Configure EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/empworks-configure-employee-slate-moveworks.md).
+
 Role required: none
 
 ## Service health status values

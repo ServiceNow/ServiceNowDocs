@@ -7,10 +7,10 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-07-31"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 keywords: [Convert an app, Fluent source code, ServiceNow Studio]
-breadcrumb: [Building apps in source code in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Building apps in source code in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Convert an application to Fluent
@@ -23,29 +23,29 @@ Role required: admin
 
 ## About this task
 
-Existing applications that weren't created in source code must be converted to support development. Converting an application adds the necessary files and directories for developing it in source code. You can choose whether to convert existing application metadata into ServiceNow Fluent code.
+Convert existing applications that were not created in source code to support development in source code. Converting an application adds the necessary files and directories for developing it in source code. You can choose whether to convert existing application metadata into ServiceNow Fluent code.
 
-**Important:** Only admins can work on Fluent apps. Don't convert the app if you want delegated developers to continue working on the application.
+**Important:** Only admins can work on Fluent apps. Do not convert the app if you want delegated developers to continue working on the application.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Open the application you want to convert.
+2.  Open the application you want to convert from the Apps tab \[Omitted image "sn-studio-apps-icon.png"\] Alt text:.
 
 3.  Select **App details**.
 
-4.  In the Convert app to ServiceNow Fluent message, select **Convert**.
+4.  In the **Convert app to ServiceNow Fluent** message, select **Convert**.
 
 5.  Select **Convert**.
 
-    The application is added to your workspace with the default application structure, but the application metadata isn’t converted into ServiceNow Fluent code. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
+    The application is added to your workspace with the default application structure, but the application metadata is not converted into ServiceNow Fluent code. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
 
 6.  To convert existing metadata into ServiceNow Fluent code, complete the following steps.
 
-    1.  From the Navigator panel, select the Explorer tab.
+    1.  From the Navigator panel, select the Explorer tab icon \[Omitted image "sn-studio-explorer-icon.png"\] Alt text:.
 
-    2.  Right-click the `metadata` directory for the application and select **Convert Directory to Fluent**.
+    2.  Select and hold \(or right-click\) the `metadata` directory for the application and select **Convert Directory to Fluent**.
 
         \[Omitted image "sn-studio-convert-metadata-fluent.png"\] Alt text: Menu option to convert application metadata to ServiceNow Fluent.
 

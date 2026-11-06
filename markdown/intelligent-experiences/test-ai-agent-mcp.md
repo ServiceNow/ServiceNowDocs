@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/test-ai-agent-mcp.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client Legacy, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Test an AI agent
@@ -38,7 +38,7 @@ After you create an AI agent and a Model Context Protocol to it as a tool, test 
 
     \[Omitted image "test-aia-mcp.png"\] Alt text: Selecting an AI agent for testing in the AI Agent Studio.
 
-    You’re directed to the **Chat responses** tab, where you can see ServiceNow Otto executing operations to test the AI agent.
+    You’re directed to the **Chat responses** tab, where you can see Now Assist executing operations to test the AI agent.
 
     \[Omitted image "chat-response-mcp-test.png"\] Alt text: Initial chat response from testing an AI agent that has an MCP tool indicating that it requires authentication.
 

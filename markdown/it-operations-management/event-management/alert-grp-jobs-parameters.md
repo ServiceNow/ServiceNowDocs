@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -25,7 +25,7 @@ To define which alerts are grouped, the following parameters are used:
     **Note:** This property also applies to Tag Cluster and Network Traffic Correlation grouping.
 
 -   **sa\_analytics.agg.query\_dynamic\_window**: By default, this is set to 10 minutes \(600 seconds\). It defines the maximum time difference allowed between the last event generation times of two alerts that can be grouped together.
--   **sa\_analytics.agg.query\_max\_group\_lifetime**: This parameter specifies the maximum time period from the generation of the first alert to the last alert in a group, with a default of 30 minutes \(1800 seconds\). If events arrive with a delay exceeding this period, the **sa\_analytics.agg.group\_expiration\_time** parameter can be used to extend the grouping time beyond 30 minutes.
+-   **sa\_analytics.agg.query\_max\_group\_lifetime**: Maximum time from the first alert to the last alert in a group. The default is 30 minutes \(1800 seconds\). If events arrive with a delay exceeding this period, the **sa\_analytics.agg.group\_expiration\_time** parameter can be used to extend the grouping time beyond 30 minutes.
 
 **Note:** Some parameters, such as **sa\_analytics.agg.query\_dynamic\_window**, **sa\_analytics.agg.query\_max\_group\_lifetime**, and **sa\_analytics.agg.group\_expiration\_time**, are not provided out of the box. To use these properties, you need to create properties with the same names and assign the required values to them. For more information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
@@ -47,7 +47,7 @@ Alert1 and Alert2 are not grouped due to the time gap exceeding 10 minutes. Aler
 
 -   Alert4 is added to the group at 01:16:00 AM, restarting the 10-minute window.
 -   Alert5 and Alert6 are added to the group as their event times are within the 10-minute window.
--   Alert7 is not added to the group because it arrives 9 minutes after Alert6, exceeding the **sa\_analytics.agg.query\_max\_group\_lifetime** limit of 30-minute maximum group lifetime from the initial group creation \(01:13:00 AM + 30 minutes = 01:43:00 AM\).
+-   Alert7 is not added because it arrives 9 minutes after Alert6, exceeding the 30-minute group lifetime from initial group creation \(01:13:00 AM + 30 minutes = 01:43:00 AM\).
 
 **Note:** After an alert is created, correlation logic is applied only once. Changes to the alert after its creation are not re-evaluated for correlation. If correlation is not established initially, the alert may still be added to a group later—but only if a new incoming alert matches and triggers grouping logic.
 

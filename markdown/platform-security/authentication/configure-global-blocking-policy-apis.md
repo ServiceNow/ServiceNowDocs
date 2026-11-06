@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [API Authentication Policies, API access policy, Authentication, Access Management]
+breadcrumb: [API authentication policies, API access policy, Authentication, Access Management]
 ---
 
 # Configure global blocking policy for APIs
@@ -24,13 +24,13 @@ Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
 1.  Navigate to **All** &gt; **System Web Services** &gt; **API Authentication Policy** &gt; **Global Blocking Policy**.
 
-2.  From the **Policy Inputs** tab, click **Edit**.
+2.  From the **Policy Inputs** tab, select **Edit**.
 
 3.  Select one or more filter criteria from the **Collection** list and move them to **Global Blocking Policy** list.
 
     You can also add additional filters.
 
-4.  From the **Policy Conditions** tab, click **New**.
+4.  From the **Policy Conditions** tab, select **New**.
 
 5.  On the form, fill these fields:
 

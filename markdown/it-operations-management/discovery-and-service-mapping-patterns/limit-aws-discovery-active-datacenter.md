@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ Optimize AWS discovery by limiting it to datacenters with resources.
 ## Before you begin
 
 -   Verify that you have installed Discovery and Service Mapping Patterns, starting with version 1.29.0.
--   Verify that your service account has the following IAM permissions to access the Resource Explorer API \(starting with Discovery and Service Mapping Patterns version 1.35.0\).
+-   Verify that your service account has the following IAM permissions to access the Resource Explorer API \(starting with Discovery and Service Mapping Patterns version 1.35.1\).
 
     |IAM permission|Coverage|
     |--------------|--------|
@@ -52,7 +52,7 @@ Starting with version 1.29.0, Discovery and Service Mapping Patterns introduces 
 
 ## What to do next
 
-To exclude specific resource types from AWS datacenter discovery, configure the **sn\_itom\_pattern.discovery.aws.ldc.excluded\_resource\_types** system property with a comma-separated list of resource types to exclude \(starting with Discovery and Service Mapping Patterns version 1.35.0\). For more information, see [Exclude AWS resource types from datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/exclude-aws-resource-ldc-discovery.md).
+To exclude specific resource types from AWS datacenter discovery, configure the **sn\_itom\_pattern.discovery.aws.ldc.excluded\_resource\_types** system property with a comma-separated list of resource types to exclude \(starting with Discovery and Service Mapping Patterns version 1.35.1\). For more information, see [Exclude AWS resource types from datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/exclude-aws-resource-ldc-discovery.md).
 
 **Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

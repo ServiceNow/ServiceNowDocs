@@ -1,0 +1,78 @@
+---
+title: Configure assistants overview
+description: Use Assistant Designer to build and optimize large language model \(LLM\) assistants for your conversational needs. Assistant Designer is a centralized assistant administrator experience that enables you to create and manage both chat and voice assistants.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/configure-now-assist-va.html
+release: australia
+product: Virtual Agent
+classification: virtual-agent
+topic_type: task
+last_updated: "2026-10-27"
+reading_time_minutes: 3
+breadcrumb: [Create assistants, Virtual Agent, Conversational Interfaces]
+---
+
+# Configure assistants overview
+
+Use Assistant Designer to build and optimize large language model \(LLM\) assistants for your conversational needs. Assistant Designer is a centralized assistant administrator experience that enables you to create and manage both chat and voice assistants.
+
+## Before you begin
+
+See [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/assistant-designer.md).
+
+Role required: virtual\_agent\_admin or admin
+
+## About this task
+
+You can create and configure more than one chat or voice assistant within [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/assistant-designer.md). ServiceNow Otto panel only supports the default assistants for Platform and Developer. Additional ServiceNow Otto panel assistants can't be created.
+
+**Note:** Existing and newly created assistants run on the latest version of Agentic Orchestrator \(v2\), and you don’t need to take further action.
+
+For chat assistants, a primary assistant can be linked to one or more secondary assistants. The linkage enables a primary assistant to use search sources from secondary assistants. For more information on primary and secondary assistants, see [Create LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/llm-assistants.md). If multiple assistants are created, users can chat simultaneously with multiple assistants. Conversations are independent from each other.
+
+Each assistant can have more than one display experience, using either the standard chat or enhanced chat experience, depending on the display experience that's configured. Enhanced chat offers a conversational search experience that integrates Virtual Agent chat with search results. For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/nava-standard-chat.md) or [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/nava-enhanced-chat.md). For a comparison of the two, see [Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-now-assist-in-va.md).
+
+**Note:** Opt into premium chat if your instance meets certain criteria. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/display-assistant-portal-channel.md) or [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/display-nap-assistant.md).
+
+When configuring a chat assistant, notes throughout the procedures show where there are differences between the setup for ServiceNow Otto for Virtual Agent assistants and the setup for ServiceNow Otto panel assistants. You can't create additional ServiceNow Otto panel assistants.
+
+For voice assistants, a voice assistant can be mapped to one or more AI agents. The linkage enables a voice assistant to use agentic capabilities to resolve user queries by phone.
+
+## Procedure
+
+1.  To access assistants in [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/assistant-designer.md), navigate to **All** &gt; **Assistant Designer** &gt; **Assistants** tab.
+
+    The **Assistants** tab in [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/assistant-designer.md) can also be accessed from different entry points.
+
+<table id="table_b1j_2hm_w2c"><thead><tr><th>
+
+Entry point
+
+</th><th>
+
+Accessing assistants
+
+</th></tr></thead><tbody><tr><td>
+
+**All** &gt; **Conversational Interfaces** &gt; **Assistants**
+
+</td><td>
+
+Select **Manage assistants**.\[Omitted image "sno-assistants-home.png"\] Alt text: Manage assistants links to Assistant Designer.
+
+</td></tr><tr><td>
+
+**All** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Platform**
+
+</td><td>
+
+Select the **Set up ServiceNow Otto for Virtual Agent** link. \[Omitted image "sno-ai-admin-hub-skills-0826.png"\] Alt text: ServiceNow Otto skills for Platform.
+
+</td></tr></tbody>
+</table>2.  To view and create chat or voice assistants, see [View assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/view-assistants.md).
+
+
+## What to do next
+
+See [View assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/view-assistants.md).
+

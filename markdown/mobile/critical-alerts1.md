@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/critical-alerts1.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -17,7 +17,7 @@ Send your users critical alerts, even if they set their mobile device to Do Not 
 For users to receive critical alerts, the feature must be enabled on the user’s mobile device. If the feature is not enabled, the critical alert is delivered as a regular push notification, however it is labeled as critical in the notifications area.
 
 -   For more information on enabling critical alerts, see [Enable critical alerts to override do not disturb setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/critical-alerts-override.md).
--   For the user-related topic, see [Enabling critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/critical-alert-enable.md).
+-   For the user-related topic, see [Critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/critical-alert-enable.md).
 
 -   **[Enable critical alerts to override do not disturb setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/critical-alerts-override.md)**  
 Enable the Override do not disturb setting to receive critical push notifications. Managers and admins can reach out to their on-call members even when their phones are set to Do Not Disturb mode.

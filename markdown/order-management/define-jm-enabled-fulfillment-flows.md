@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/define-jm-enabled-fulfillment-flows.html
 release: australia
 topic_type: task
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Jeopardy Management, Order management, Configure, Sales Customer Relationship Management]
 ---

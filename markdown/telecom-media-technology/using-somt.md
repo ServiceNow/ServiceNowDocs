@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/using-somt.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---

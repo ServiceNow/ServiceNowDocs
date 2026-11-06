@@ -1,18 +1,18 @@
 ---
 title: Setup checklist for the Operational Sustainability Management \(formerly ESG Management\) application
-description: This checklist includes the set up tasks that you're required to complete in your ServiceNow AI Platform instance. When you have completed these tasks, the base system is ready for operation.
+description: This checklist includes the set up tasks that you are required to complete in your ServiceNow AI Platform instance. When you have completed these tasks, the base system is ready for operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/setup-checklist-esg.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Operational Sustainability Management \(formerly ESG Management\) implementation, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Setup checklist for the Operational Sustainability Management \(formerly ESG Management\) application
 
-This checklist includes the set up tasks that you're required to complete in your ServiceNow AI Platform® instance. When you have completed these tasks, the base system is ready for operation.
+This checklist includes the set up tasks that you are required to complete in your ServiceNow AI Platform® instance. When you have completed these tasks, the base system is ready for operation.
 
 ## Before you begin
 

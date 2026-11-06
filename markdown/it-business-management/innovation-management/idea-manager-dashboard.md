@@ -7,7 +7,7 @@ release: australia
 product: Innovation Management
 classification: innovation-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -39,7 +39,7 @@ The dashboard displays ideas related to Project Portfolio Management.
 
 Only ideas associated with categories are displayed in the dashboard. Ideas marked for deletion are not displayed. By default, the dashboard displays one-year data. Use the interactive date filter to view monthly, quarterly, or yearly data.
 
-You can drill down within an idea indicator data for further analysis by navigating to Idea Portal from the dashboard. For example, to view individual records of Open ideas in the Idea Portal, click the **Open ideas** indicator value to open the Analytics Hub. In the Analytics Hub, click **Show Records** to view the list of open ideas, open an idea in the form view, and then click the **Idea Portal** related link to view the idea record in the Idea Portal.
+You can drill down within an idea indicator data for further analysis by navigating to Idea Portal from the dashboard. For example, to view individual records of Open ideas in the Idea Portal, select the **Open ideas** indicator value to open the Analytics Hub. In the Analytics Hub, select **Show Records** to view the list of open ideas. Open an idea in the form view, and select the **Idea Portal** related link to view the idea record in the Idea Portal.
 
 ## Indicators
 

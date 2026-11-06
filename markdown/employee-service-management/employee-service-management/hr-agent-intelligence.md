@@ -4,7 +4,7 @@ description: Automatically categorize HR cases submitted by email. Auto-case cre
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 ---
 

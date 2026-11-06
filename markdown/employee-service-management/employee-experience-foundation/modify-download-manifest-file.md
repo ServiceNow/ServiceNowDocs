@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating Employee Center and Virtual Agent with Microsoft Teams for GCC-H or DoD, Integrating ServiceNow with Microsoft Teams for GCC-H or DoD, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrating Employee Center and Virtual Agent with Microsoft Teams for GCC-H or DoD, Integrating ServiceNow with Microsoft Teams for GCC-H or DoD, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Modify and download the manifest file for GCC-H or DoD
@@ -83,6 +83,8 @@ Role required:external\_app\_install\_admin
 8.  In the **Ready** section, select **Enable Activity Feed** option to receive notifications for campaigns.
 
     Verify the details provided and click **Download Manifest** to download the manifest file.
+
+    \[Omitted image "activity-feed-manifest-file.png"\] Alt text: Manifest file
 
     The manifest file downloads in the zip format.
 

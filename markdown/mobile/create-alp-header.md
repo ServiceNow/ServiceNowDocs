@@ -1,16 +1,16 @@
 ---
-title: Configure a launcher screen text header
+title: Configure a launcher screen header
 description: Create a launcher screen header to define how the title of the screen appears. There is an option to add a variable, to help personalize your heading,
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/create-alp-header.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Launcher screen headers, Create a launcher screen, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
-# Configure a launcher screen text header
+# Configure a launcher screen header
 
 Create a launcher screen header to define how the title of the screen appears. There is an option to add a variable, to help personalize your heading,
 
@@ -46,7 +46,7 @@ Role required: admin
 
     1.  Instead of selecting **New** in the Settings pane, select **Choose**.
     2.  Select one of the base system header titles.
-7.  Configure the header function instance, select **Launcher screen** in the menu on the left. In the Launcher screen page, locate the Header function instance section.
+7.  To configure the header function instance, select **Launcher screen** in the menu on the left. In the Launcher screen page, locate the Header function instance section.
 
     When you configure a header function instance, an icon appears in the header:
 

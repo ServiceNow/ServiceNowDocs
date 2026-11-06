@@ -7,8 +7,8 @@ release: australia
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [HR Service Delivery for Healthcare, HR Service Delivery, Employee Service Management]
 ---
 
@@ -19,7 +19,7 @@ Reference topics provide additional information about the lists and forms that y
 -   **[Installed with HR Service Delivery for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery-for-healthcare/installed-with-hr-hc.md)**  
 Several types of components are installed with activation of the HR Service Delivery for Healthcare plugin, including tables and user roles.
 -   **[Healthcare professional profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery-for-healthcare/hr-service-healthcare.md)**  
-Access and update confidential HR data of an healthcare professional, such as name, personal contact information, email addresses, professional liability insurance details, and medical degree, using the Healthcare professional profile form.
+Access and update confidential HR data for a healthcare professional. This includes name, personal contact information, email addresses, professional liability insurance details, and medical degree.
 -   **[Professional ID form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery-for-healthcare/hc-professional-profile.md)**  
 Access, update, and validate the Professional ID details of a healthcare professional in the Professional ID form.
 -   **[Professional liability Insurances form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery-for-healthcare/hr-prof-liab.md)**  

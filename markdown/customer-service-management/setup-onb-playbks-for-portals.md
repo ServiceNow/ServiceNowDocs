@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/setup-onb-playbks-for-portals.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Portal, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Set up predefined Playbooks for Portals
@@ -27,7 +27,7 @@ Plugins required:
 -   Case Playbook for Onboarding: sn\_onboarding \(required if you need the predefined playbook experience\)
 -   Case Playbook for Product Support: sn\_product \(required if you want to use the product case playbook and record generator\)
 
-Plugins are available from the ServiceNow® Store. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md).
+Plugins are available from the ServiceNow® Store. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-case-playbooks.md).
 
 ## Summary of steps for setting up predefined Playbooks for Portals
 
@@ -38,17 +38,4 @@ You can set up Playbooks for Portals using the following high level steps.
 3.  [Activate a new onboarding playbook with self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-a-new-onboarding-playbook-with-self-service-in-pad.md)
 4.  Activate guided onboarding in the playbook content items. For more information, see [Activate guided onboarding in Playbook content items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-guided-onboarding-in-playbook-content-items.md).
 5.  Add a **Process** tab to the Portal so that users can see where they are in the Playbook process. See [Add the Process tab to the portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/add-process-tab-portal.md) for more information.
-
-**Related topics**  
-
-
-[Set up custom Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-playbooks-for-portals.md)
-
-[Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbooks-for-portals.md)
-
-[Using Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/using-playbooks-for-portals.md)
-
-[Creating an onboarding case with Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-an-onboarding-case-with-portal-playbook.md)
-
-[Activate the record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-the-record-generator.md)
 

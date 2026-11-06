@@ -7,7 +7,7 @@ release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Loss Prevention Incident Response Integration with Proofpoint, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -80,8 +80,14 @@ Description to help distinguish this profile from other profiles.
 
 -   **[Define filters to apply for the Incident creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/define-filters-incident-creation-proofpoint.md)**  
 Define and set filter conditions to filter the incoming  Proofpoint DLP  incidents. Control which DLP incidents should be created on ServiceNow®.
+-   **[Configure evidence file storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/configure-evidence-file-storage.md)**  
+Configure evidence file storage to securely store the evidence files in the ServiceNow instance or external for the Proofpoint email DLP Incidents.
+-   **[Download DLP incidents evidence files on Proofpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/download-proofpoint-evidence-files.md)**  
+Download DLP incident evidence files that violate the DLP policy on Proofpoint.
 -   **[Preview evidence files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/preview-file-proofpoint.md)**  
 Preview Data Loss Prevention Incident Response evidence files in the DLP IR Analyst workspace.
+-   **[Email remediation actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/email-actions.md)**  
+Perform the remediation action on the email quarantined for Proofpoint.
 
 **Parent Topic:**[Data Loss Prevention Incident Response Integration with Proofpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/dlp-incident-response-integration-proofpoint.md)
 

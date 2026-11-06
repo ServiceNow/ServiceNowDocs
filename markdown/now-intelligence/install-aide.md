@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/install-aide.html
 release: australia
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -46,7 +46,7 @@ You are navigated to a location where you can get the plugin. Follow all steps o
 **Related topics**  
 
 
-[Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md)
+[Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md)
 
 [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-trials.md)
 

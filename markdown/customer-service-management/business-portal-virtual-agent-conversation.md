@@ -1,18 +1,18 @@
 ---
 title: Get help using virtual agent conversations from Business Portal
-description: Predefined Customer Service Virtual Agent chatbot conversations help customers complete common self-service tasks, such as getting help with a product or checking the status of a case.
+description: Predefined Customer Service Virtual Agent chatbot conversations help end users complete common self-service tasks. Configure chatbot topics with predefined NLU to interpret user input and return relevant responses based on conversation context.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/business-portal-virtual-agent-conversation.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Get help using virtual agent conversations from Business Portal
 
-Predefined Customer Service Virtual Agent chatbot conversations help customers complete common self-service tasks, such as getting help with a product or checking the status of a case.
+Predefined Customer Service Virtual Agent chatbot conversations help end users complete common self-service tasks. Configure chatbot topics with predefined NLU to interpret user input and return relevant responses based on conversation context.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ A user with a proxy\_contact role can also check the case status for a customer.
 
 ## About this task
 
-The information exchanged during the conversation flow \(user inputs and bot responses\) enables the chatbot to fulfill a user request or assist a user in completing a task. If the user has a question or an issue with an existing product or order, the virtual agent searches the keyword and displays relevant knowledge articles. If no relevant articles are found, it creates a case. Predefined NLU chatbot topics assess user intent and provide the best response based on the conversation context.
+The information exchanged during the conversation flow \(user inputs and bot responses\) enables the chatbot to fulfill a user request or assist a user in completing a task. If the user has a question or an issue with an existing product or order, the virtual agent searches the keyword and displays relevant knowledge articles that can help resolve the issue. If there are no relevant articles, it creates a case.
 
 ServiceNow NLU enables discovery of the chatbot topics based on either the keywords entered in the chat or the user-intent and matches an entity with the user input. It also makes the entity available to the topic if there’s a match.
 
@@ -46,15 +46,15 @@ ServiceNow NLU enables discovery of the chatbot topics based on either the keywo
 
 4.  Use
 
-<table id="choicetable_cfq_4xm_rgb"><thead><tr><th align="left" id="d331033e133">
+<table id="choicetable_cfq_4xm_rgb"><thead><tr><th align="left" id="d338092e133">
 
 To
 
-</th><th align="left" id="d331033e136">
+</th><th align="left" id="d338092e136">
 
 Follow these steps
 
-</th></tr></thead><tbody><tr><td id="d331033e142">
+</th></tr></thead><tbody><tr><td id="d338092e142">
 
 **Check the status of a case**
 
@@ -74,7 +74,7 @@ Follow these steps
     -   Contact an agent.
 
 
-</td></tr><tr><td id="d331033e190">
+</td></tr><tr><td id="d338092e190">
 
 **Get help with a product**
 
@@ -94,7 +94,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
 -   Contact an agent
 
 
-</td></tr><tr><td id="d331033e233">
+</td></tr><tr><td id="d338092e233">
 
 **Get help**
 
@@ -102,7 +102,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
 
 If you’re an anonymous user not logged in to the application, enter keywords for your issue. The chatbot returns a list of related knowledge articles that have been made public. If there are no matching articles that would help resolve the issue, you can choose to be transferred to a live agent.
 
-</td></tr><tr><td id="d331033e245">
+</td></tr><tr><td id="d338092e245">
 
 **Submit Request**
 
@@ -118,7 +118,7 @@ If you’re an anonymous user not logged in to the application, enter keywords f
 3.  Click on the link displayed and exit the virtual agent if you do not have any further request.
 
 
-</td></tr><tr><td id="d331033e287">
+</td></tr><tr><td id="d338092e287">
 
 **Create Case**
 
@@ -133,7 +133,7 @@ Creates a case from Virtual Agent. You need the following fields to create a cas
 -   consumer\_sys\_id
 The values of these can be empty. If the account, contact, and consumer fields are empty, the logged in user details are populated. The topic block returns the variable case\_sys\_id from the toic block.
 
-</td></tr><tr><td id="d331033e317">
+</td></tr><tr><td id="d338092e317">
 
 **Update Case**
 

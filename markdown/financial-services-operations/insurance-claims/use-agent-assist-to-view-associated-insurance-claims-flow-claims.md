@@ -7,7 +7,7 @@ release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -32,15 +32,15 @@ This procedure references service definitions and products that are used in the 
 
 3.  Open the task from the case playbook or the Insurance claim adjuster tasks list.
 
-<table id="choicetable_fhd_gh3_vcc"><thead><tr><th align="left" id="d51374e103">
+<table id="choicetable_fhd_gh3_vcc"><thead><tr><th align="left" id="d51456e103">
 
 Option
 
-</th><th align="left" id="d51374e106">
+</th><th align="left" id="d51456e106">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d51374e112">
+</th></tr></thead><tbody><tr><td id="d51456e112">
 
 **From the case playbook**
 
@@ -50,7 +50,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d51374e136">
+</td></tr><tr><td id="d51456e136">
 
 **From the Insurance claim adjuster tasks list**
 

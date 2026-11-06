@@ -7,9 +7,9 @@ release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-keywords: [Branding, chat, client, customize, interface, brand, Microsoft Teams, Facebook, Messenger, Conversational Integration, Virtual agent]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [Branding, chat, client, customize, interface, brand, Conversational Integration, Virtual agent]
 breadcrumb: [General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
 
@@ -17,7 +17,7 @@ breadcrumb: [General chat settings, Configuring Conversational Interfaces, Conve
 
 Customize your chat interface with your own brand, including company logo and bot avatar, UI color schemes, fonts, and the chat support menu displayed to your users.
 
-**Note:** For new customers onboarding from Vancouver onward, the chat widget is only accessible to authenticated users by default. To allow unauthenticated users to access the chat widget, enable **Public access** in **Conversational Interfaces** &gt; **Settings** &gt; **General**. For more information, see [Enable public access to the chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/enable-public-access-web-client.md).
+**Note:** The chat widget is only accessible to authenticated users by default. To enable unauthenticated users to access the chat widget, enable **Public access** in **Conversational Interfaces** &gt; **Settings** &gt; **General**. For more information, see [Enable public access to the chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/enable-public-access-web-client.md).
 
 ## Multiple branding configurations
 
@@ -45,15 +45,15 @@ Conversational Interfaces provides a default branding configuration that you can
 
     If you want to change the color of interface items, determine the Hex number or RGBA color for those items. When you specify the Hex or RBGA colors during configuration, you can immediately see your changes in the example chat window. To learn more about Hex numbers and RGB color specifications, see [HTML Color Names \(W3CSchools\)](http://www.w3schools.com/tags/ref_colornames.asp).
 
-    \[Omitted image "chat-window-labels.png"\] Alt text: UI features in the chat window include the logo, menu icon, avatar, bot bubble, timestamp, chat background, user bubble, etc.
+    \[Omitted image "chat-window-labels.png"\] Alt text: UI features in the chat window.
 
     1.  Logo and chat header
     2.  Menu icon
     3.  Avatar
     4.  Bot bubble
-    5.  Timestamp
-    6.  Chat background
-    7.  User bubble
+    5.  Chat background
+    6.  User bubble
+    7.  Timestamp
     8.  Category background
     9.  Link text
     10. Button background
@@ -64,18 +64,24 @@ Conversational Interfaces provides a default branding configuration that you can
 
     You can also change the default menu icons or add icons for new menu items. The icons must be in .svg file format. For better resolution, use a single-color icon.
 
-    \[Omitted image "support-menu-callouts.png"\] Alt text: The chat menu includes the menu title, menu icon, menu label, and a toggle switch to enable audible alerts.
+    \[Omitted image "support-menu-callouts.png"\] Alt text: The chat menu.
 
     1.  Menu title
     2.  Menu icon
     3.  Menu label
     4.  Audible alert enabled for Virtual Agent chats
-    5.  \(not shown\) Wait time display if a live agent is available
+    5.  Notifications turned off for chats
+    6.  \(not shown\) Wait time display if a live agent is available
 
--   **[Create a new user for a branded bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ci-create-new-branded-bot.md)**  
+-   **[Create a user for a branded bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ci-create-new-branded-bot.md)**  
 The default branding configuration includes the Virtual Agent bot, which has a ServiceNow avatar. To create a new bot with your own branding, create an active user profile for the bot and link it to a Live Profile.
 -   **[Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-chat-branding.md)**  
 Create different Virtual Agent branding configurations for the various organizations that use your instance. These configurations apply to the web-based chat and mobile clients only.
 
 **Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ci-configuring-chat-features.md)
+
+**Related topics**  
+
+
+[Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-conversation-settings.md)
 

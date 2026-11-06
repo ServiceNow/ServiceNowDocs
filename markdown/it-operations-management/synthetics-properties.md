@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/synthetics-properties.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
@@ -38,6 +38,54 @@ Controls logging output. Valid values are:-   debug
 -   warning
 -   err
 -   crit
+
+</td></tr><tr><td>
+
+sn\_sow\_synthetics.auto\_mid\_selection.skip\_phases
+
+</td><td>
+
+Determines the number of comma-separated phases to skip in selection cascade. Default value is empty.
+
+</td></tr><tr><td>
+
+sow.recommendation.enabled
+
+</td><td>
+
+Feature flag to enable recommendation tile on incidents and by default it is set to 'false'.
+
+</td></tr><tr><td>
+
+sow.recommendation.max\_endpoints
+
+</td><td>
+
+Determines the max endpoints to be shown in recommendation panel. The default value is 50.
+
+</td></tr><tr><td>
+
+sn\_sow\_synthetics.default\_mid\_location
+
+</td><td>
+
+Displays default location sys\_id for auto MID selection phase 5. The default value is 'null'.
+
+</td></tr><tr><td>
+
+sn\_sow\_synthetics.auto\_mid\_selection.enabled
+
+</td><td>
+
+Flag to enable/disable auto MID selection and be default it is set to 'true'.
+
+</td></tr><tr><td>
+
+sn\_sow\_synthetics.auto\_mid\_selection.dns\_cache\_ttl
+
+</td><td>
+
+Determines the DNS cache time for IP affinity phase. The default value is 300 seconds.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/synthetic-monitoring-reference.md)

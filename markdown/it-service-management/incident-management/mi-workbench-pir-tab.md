@@ -1,61 +1,61 @@
 ---
-title: Post Incident Report tab
-description: The Post Incident Report tab helps you to understand the cause of the major incident, and the actions taken by the teams to resolve the incident.
+title: Post Incident Report tab in the Major Incident workbench
+description: The Post Incident Report tab shows the cause of the major incident and the actions that teams took to resolve it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/mi-workbench-pir-tab.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Major incident workbench UI elements, Major incident workbench, Managing major incidents, Incident Management, IT Service Management]
 ---
 
-# Post Incident Report tab
+# Post Incident Report tab in the Major Incident workbench
 
-The **Post Incident Report** tab helps you to understand the cause of the major incident, and the actions taken by the teams to resolve the incident.
+The **Post Incident Report** tab shows the cause of the major incident and the actions that teams took to resolve it.
 
-The teams can assess the incident response and resolution process and determine follow-up action items. The post incident report is required to record the actions performed, the reasons for doing them, and findings.
+The teams can assess the incident response and resolution process and determine follow-up action items. The post-incident report records the actions performed, the reasons for them, and the findings.
 
 **Note:** The major incident manager can edit a report when the incident is in the **Resolved** state.
 
-\[Omitted image "mim-pir-tab.png"\] Alt text: Post incident report tab
+\[Omitted image "mim-pir-tab.png"\] Alt text: Post Incident Report tab showing the Overview, Findings, Resolution, and Timeline sections
 
-The post incident report includes the following sections where a major incident manager can provide required information:
+The post-incident report includes the following sections, where a major incident manager provides the required information:
 
 -   **Overview**: Summary of the incident.
 -   **Findings**: Information on what caused the major incident and any lessons learned in the process.
--   **Resolution**: Information on the resolution steps taken to resolve the issue. The major incident manager can also add or edit any related Problem or Change information by clicking **Add** or **Manage** respectively.
--   **Timeline**: Information of all the activity feeds, not only of the incident but also of the incident communication plan and incident communication tasks related to the incident. You can update the timeline with the latest activity by clicking **Regenerate Timeline**.
+-   **Resolution**: Steps taken to resolve the issue. The major incident manager can also add or edit related problem or change information by selecting **Add** or **Manage**, respectively.
+-   **Timeline**: Activity feeds of the incident and its related incident communication plans and incident communication tasks. You can update the timeline with the latest activity by selecting **Regenerate Timeline**.
 
-    **Note:** The information that you provide for **Overview**, **Findings**, and **Timeline** gets updated in the Post Incident Report section on the Incident form.
+    **Note:** The information that you provide for **Overview**, **Findings**, and **Timeline** is updated in the Post Incident Report section of the Incident form.
 
 
 If you activate the Continual Improvement Management \(CIM\) plugin \(com.sn\_cim\), the Related Improvement Records section is displayed in the report. This section displays the Inbound CIM Integrations records.
 
-When you click **View Complete Report**, all the information entered by the major incident manager is compiled together and you can download the report in the .PDF format by clicking **Download Report PDF**.
+When you select **View Complete Report**, the information that the major incident manager entered is compiled, and you can download the report as a PDF file by selecting **Download Report PDF**.
 
 The following links appear in the Incident form under the Related Links section:
 
--   **Regenerate PIR Timeline**: This link appears when incident is in the **Resolved** state and the user has the major\_incident\_manager role.
--   **Preview PIR**: This link appears when incident is in the **Resolved** or **Closed** state and the user has the itil role.
+-   **Regenerate PIR Timeline**: This link appears when the incident is in the **Resolved** state and the user has the major\_incident\_manager role.
+-   **Preview PIR**: This link appears when the incident is in the **Resolved** or **Closed** state and the user has the itil role.
 
 **Note:** On the downloaded report, under **Incident Response Timeline**, the time displayed in the timing type **Time to Identify** is calculated in the following ways:
 
--   If you propose the incident as a major incident: The time indicates the time from creation of the first related alert for this incident or creation of the incident \(in case there is no alert or the Event Management plugin is inactive\), whichever occurs first, until the time the incident is first proposed as a major incident.
--   If you create a major incident directly: The time indicates the time from creation of the first related alert for this incident or creation of the incident \(in case there is no alert or the Event Management plugin is inactive\), whichever occurs first, until the time the incident is promoted as a major incident.
+-   If you propose the incident as a major incident: The time is measured from the first related alert. If no alert exists or the Event Management plugin is inactive, the time is measured from the incident creation. The end point is when the incident is first proposed as a major incident.
+-   If you create a major incident directly: The time is measured from the first related alert. If no alert exists or the Event Management plugin is inactive, the time is measured from the incident creation. The end point is when the incident is promoted to a major incident.
 
 **Parent Topic:**[Major incident workbench UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/mi-workbench-ui-elements.md)
 
 **Related topics**  
 
 
-[Major Incident workbench — Summary tab]()
+[Summary tab in the Major Incident workbench]()
 
-[The Communicate tab in the Major Incident workbench]()
+[Communicate tab in the Major Incident workbench]()
 
-[Major Incident workbench — the Collaborate tab]()
+[Collaborate tab in the Major Incident workbench]()
 
-[Associate a new post incident report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/asso-new-post-incident-report.md)
+[Associate a new post-incident report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/asso-new-post-incident-report.md)
 

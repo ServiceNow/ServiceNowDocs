@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/approve-access-requests-wdf.html
 release: australia
 topic_type: task
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Products, Workflow Data Fabric]
 ---

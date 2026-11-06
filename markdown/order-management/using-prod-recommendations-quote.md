@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-prod-recommendations-quote.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -18,7 +18,7 @@ As a sales agent, you can use recommended product offerings to upsell or cross-s
 
 Product recommendations appear as cards in the contextual side panel in the CRM Workspace when you're adding, updating, or viewing quote line items using the Catalog or Line items tab. Each card provides a recommendation to either upsell or cross-sell a product.
 
-\[Omitted image "prod-recommendations-quote.png"\] Alt text: Contextual side panel in the CSM Configurable Workspace that displays product offering recommendation cards, which are described in the next section
+\[Omitted image "prod-recommendations-quote.png"\] Alt text: Contextual side panel in the CRM Workspace that displays product offering recommendation cards, which are described in the next section
 
 Product recommendation cards display the following information:
 

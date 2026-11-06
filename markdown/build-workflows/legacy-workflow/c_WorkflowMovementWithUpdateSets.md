@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Workflow administration, Classic Workflow, Build workflows]
 ---
@@ -18,7 +18,7 @@ The system tracks workflows in update sets differently than other records becaus
 
 Changes made to a workflow version are not added to the update set until the [workflow is published](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/work-on-workflows.md), at which point the entire workflow is added into the update set. Update sets store workflows as a single Workflow \[wf\_workflow\] record and only retain the latest version with the update type of Workflow.
 
-For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
+For information about update sets, see System update sets.
 
 **Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowAdministration.md)
 

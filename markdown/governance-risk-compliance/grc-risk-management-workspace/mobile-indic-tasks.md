@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile experience for GRC Risk Management, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -32,13 +32,19 @@ Assign an Indicator Task from the list of records. Alternatively, view the detai
 
     If you navigate away from the GRC Mobile application after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
+    \[Omitted image "mobile\_Risk\_overview-app-redo.png"\] Alt text: Indicator tasks applet highlighted.
+
     The Indicator Tasks screen is displayed with a list of records.
+
+    \[Omitted image "mobile-risk-indatask-list.jpg"\] Alt text: Indicator tasks record list.
 
 3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
 4.  To assign a task directly from the list of records displayed on the Indicator Tasks screen, swipe left on a record to open the menu.
+
+    \[Omitted image "mobile-risk-indic-tasks-swipe.jpg"\] Alt text: Swipe action on indicator task record.
 
 5.  Tap **Assign**.
 
@@ -56,15 +62,17 @@ Assign an Indicator Task from the list of records. Alternatively, view the detai
 
 9.  With the fields on the record displayed, choose one in the following table to continue.
 
-<table id="choicetable_qrs_kqz_13b"><thead><tr><th align="left" id="d439849e191">
+    \[Omitted image "mobile-risk-indc-task-record.jpg"\] Alt text: Indicator task record details.
+
+<table id="choicetable_qrs_kqz_13b"><thead><tr><th align="left" id="d443651e233">
 
 Option
 
-</th><th align="left" id="d439849e194">
+</th><th align="left" id="d443651e236">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d439849e200">
+</th></tr></thead><tbody><tr><td id="d443651e242">
 
 **Details tab**
 
@@ -72,7 +80,7 @@ Description
 
 With the Details tab selected, to assign the record, at the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon\). Follow the steps described in the preceding table.
 
-</td></tr><tr><td id="d439849e215">
+</td></tr><tr><td id="d443651e257">
 
 **Activity Stream tab**
 
@@ -82,7 +90,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\). Tap Assign. On the screen that is displayed, tap a user. Alternatively, enter text in the Search field. Tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
 
-</td></tr><tr><td id="d439849e254">
+</td></tr><tr><td id="d443651e296">
 
 **Tap a screen icon at the bottom of the screen.**
 

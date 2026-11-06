@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-mcp-client-aias-new.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Model Context Protocol Client, MCP Client, AI Agent Studio, Enable AI experiences]
+breadcrumb: [MCP Client, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Adding an MCP Server Console in AI Agent Studio
@@ -18,7 +18,7 @@ Connecting an MCP Server Console with the AI Agent Studio simplifies the integra
 
 Adding an MCP Server Console requires you to add an MCP Server Console in the AI Agent Studio. You can add an MCP Server Console with one of the following authentication options:
 
-1.  **OAuth 2.1**: Helps add an MCP Server Console with an authentication code. For more information, see [Add an MCP server with OAuth 2.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-an-oauth-2-1-mcp-server.md).
+1.  **OAuth 2.1**: Helps add an MCP Server Console with an authentication code. For more information, see [Add an MCP Server with OAuth 2.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-an-oauth-2-1-mcp-server.md).
 2.  **API Key**: Helps add an MCP Server Console with an API Key. For more information, see [Add an MCP Server with API Key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-an-api-key-mcp-server.md).
 3.  **Others**: Helps add an MCP Server Console in a manual way by selecting a Connection and Credential Alias record. For more information, see [Add an MCP Server with Connection and Credential Alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-an-mcp-server-with-connection-and-credential-alias.md).
 

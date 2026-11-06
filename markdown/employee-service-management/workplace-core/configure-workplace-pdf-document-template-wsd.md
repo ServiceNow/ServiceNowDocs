@@ -7,9 +7,9 @@ release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing workplace tasks, Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Managing workplace tasks, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure a workplace task signing template

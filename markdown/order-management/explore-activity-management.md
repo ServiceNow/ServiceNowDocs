@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/explore-activity-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore, Activity Management, Outlook add-in, CRM]
 breadcrumb: [Sales automation, Explore, Sales Customer Relationship Management]

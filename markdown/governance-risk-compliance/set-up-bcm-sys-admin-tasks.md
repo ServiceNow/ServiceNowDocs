@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/set-up-bcm-sys-admin-tasks.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,6 +20,7 @@ Setting up the common administrative tasks requires configuring the pre-requisit
 -   To update the number of the element definitions for dependency assessment, see [Update the number of element definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/update-ele-def-for-dependency-assessment.md).
 -   To set up an approval configuration in the Business Continuity Management \(BCM\) application, see [Approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcm-approval-configuration.md).
 -   To refer to the BCM application menu options, see [Application menu options for BCM users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/app-menu-views-bcm-viewers.md).
+-   To configure the email account and properties required for sending and receiving email from collaboration threads, see [Configure email for collaboration threads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-email-for-collaboration-threads.md).
 
 -   **[Configure email for collaboration threads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-email-for-collaboration-threads.md)**  
 Configure an email account and enable the outbound and inbound email properties so that crisis managers can send and receive email from collaboration threads.

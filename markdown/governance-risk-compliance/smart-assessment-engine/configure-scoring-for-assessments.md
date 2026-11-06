@@ -7,7 +7,7 @@ release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scoring assessments, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -36,6 +36,8 @@ Set up scoring for your assessment responses to calculate meaningful scores at t
 2.  Create an assessment or open an existing assessment template, which is in a draft state to configure scoring.
 
 3.  Select the **Scoring** tab.
+
+    **Note:** Your changes on the **Questions**, **Automations**, and **Scoring** tabs are retained when you switch between tabs.
 
 4.  Under **Scoring settings**, select the **Enable scoring for this template** option.
 

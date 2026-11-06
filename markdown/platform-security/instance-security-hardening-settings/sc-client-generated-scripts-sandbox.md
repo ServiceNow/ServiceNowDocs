@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
@@ -42,7 +42,7 @@ If you enable the script sandbox, the script being evaluated at either of these 
 -   Certain API calls \(largely, but not entirely, limited to ones dealing with direct DB access are not allowed.\)
 -   You can't insert, update, or delete data from within the sandbox. For example, any calls to `current.update()`, are ignored. If you run the ServiceNow AI Platform without enabling script sandboxing, none of these restrictions apply.
 
-**Note:** Beginning with the Xanadu release, script includes marked as **Glide AJAX enabled** \(previously named **Client callable**\) aren’t accessible within the sandbox. Only those marked **Sandbox enabled** are available within the sandbox. When upgrading to the Australia release from the Washington DC release or earlier, any script includes marked as **Client callable** are also marked as **Sandbox enabled**.
+**Note:** Beginning with the Xanadu release, script includes marked as **Glide AJAX enabled** \(previously named **Client callable**\) aren’t accessible within the sandbox. Only those marked **Sandbox enabled** are available within the sandbox. When upgrading to the Brazil release from the Washington DC release or earlier, any script includes marked as **Client callable** are also marked as **Sandbox enabled**.
 
 ## More information
 

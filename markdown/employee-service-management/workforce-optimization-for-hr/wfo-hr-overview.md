@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [HR Service Delivery, Employee Service Management]
 # Workforce Optimization for HR Overview
 
 Workforce Optimization for HR simplifies the daily routine of HR Agent Managers to develop high-performing teams by optimizing schedules and work assignments, respond to ad hoc changes in real time, manage time-off requests and providing the skills they need to succeed—all in one workspace.
-
-**Note:** Workforce Optimization for HR \(com.sn\_hr\_wfo\) is planned for deprecation in July 2027. There is no replacement for this application as of now.
 
 ## Workforce Optimization for HR
 

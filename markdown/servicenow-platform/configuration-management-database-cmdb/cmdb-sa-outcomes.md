@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Supported business outcomes, CMDB success advisor outcomes, Data Foundations HAM SAM outcomes, choosing a CMDB success advisor outcome]
 breadcrumb: [CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -27,11 +27,11 @@ CMDB success advisor helps improve CMDB data quality by aligning data quality ef
 
 </td></tr><tr><td>
 
-[Hardware Asset Management \(HAM\)\[Omitted image "bus-asset.svg"\] Alt text:Identify missing hardware asset data and improve normalization rates.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-use.md)
+Hardware Asset Management \(HAM\)\[Omitted image "bus-asset.svg"\] Alt text:Identify missing hardware asset data and improve normalization rates.
 
 </td></tr><tr><td>
 
-[Software Asset Management \(SAM\)\[Omitted image "bus-contract.svg"\] Alt text:Identify software install data quality issues and improve licensing compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-sam-use.md)
+Software Asset Management \(SAM\)\[Omitted image "bus-contract.svg"\] Alt text:Identify software install data quality issues and improve licensing compliance.
 
 </td></tr></tbody>
 </table>## Choosing your CMDB success advisor outcome

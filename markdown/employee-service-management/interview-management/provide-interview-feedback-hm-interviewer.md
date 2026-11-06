@@ -7,9 +7,9 @@ release: australia
 product: Interview Management
 classification: interview-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing interviews as an interviewer, Use, Interview Management, Hiring Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Interview Management, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Provide interview feedback
@@ -53,5 +53,5 @@ Role required: sn\_ta\_hiring\_core.interviewer or sn\_ta\_hiring\_core.hiring\_
     4.  Select **Submit**.
 
 
-**Parent Topic:**[Managing interviews as an interviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/manage-interviews-interviewer.md)
+**Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/using-interview-mgmnt.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Safe Workplace for mobile
 classification: safe-workplace-for-mobile
 topic_type: concept
-last_updated: "2025-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -20,15 +20,15 @@ The ServiceNow® Safe Workplace mobile experience enables organizations to manag
 
 <table id="table_lbx_xss_fgc"><tbody><tr><td>
 
-
-
-</td><td>
-
- 
+\[Omitted image "health-applet-launcher.jpg"\] Alt text: Health applet launcher page
 
 </td><td>
 
- 
+\[Omitted image "self-report-menu.jpg"\] Alt text: Self report menu in the Now Mobile app
+
+</td><td>
+
+\[Omitted image "employee-form.jpg"\] Alt text: Employee record screen
 
 </td></tr></tbody>
 </table>## Access other applications from Safe Workplace for mobile
@@ -70,7 +70,7 @@ Safe Workplace applications
 
 <table id="table_xy4_pts_fgc"><tbody><tr><td>
 
- 
+\[Omitted image "recieve-notif-icon.png"\] Alt text: Receive and respond to outreach notifications.
 
 </td><td>
 
@@ -85,7 +85,7 @@ For information on how to report your health status through push notifications, 
 
 </td></tr><tr><td>
 
- 
+\[Omitted image "report-health.png"\] Alt text: Report your health status on the service response dashboard.
 
 </td><td>
 
@@ -96,7 +96,7 @@ Under My Current Health Status, click your name to report your health status. Fo
 
 </td></tr><tr><td>
 
- 
+\[Omitted image "direct-reports.png"\] Alt text: View the status of your direct reports.
 
 </td><td>
 
@@ -107,7 +107,7 @@ As a manager, you can view **My Team's Health** in the **My Team** section to se
 
 </td></tr><tr><td>
 
- 
+\[Omitted image "reassign-critical.png"\] Alt text: Re-assign critical tasks to your working employees.
 
 </td><td>
 
@@ -378,6 +378,14 @@ ServiceNow is offering this application to government agencies and their authori
 
 All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
 
+## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+
 -   **[Install Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-for-mobile/install-safe-workplace-mobile.md)**  
 Install the Now® Mobile app and Safe Workplace for mobile app.
 -   **[Report your health status in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-for-mobile/mobile-self-report.md)**  
@@ -401,5 +409,5 @@ As a manager, view a list of tasks assigned to your team members and reassign th
 
 **Parent Topic:**[Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/safe-workplace.md)
 
-**Parent Topic:**[Emergency Response Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-response-management.md)
+**Parent Topic:**[Emergency Response Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery/emergency-response-management.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-config-navigation.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 ---
 
@@ -21,7 +21,7 @@ This video highlights some of the capabilities of the 2 ServiceNow® mobile apps
 
 Select one of these tiles to learn about the ServiceNow Mobile Platform. Learn how to use the mobile apps to manage incidents, collaborate with teams, access the knowledge base, and much more.
 
-Starting with the Australia release, Mobile Studio is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+Starting with the Brazil release, Mobile Studio is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 <table id="table_pzb_2hx_rvb" class="nav-card"><tbody><tr><td>
 

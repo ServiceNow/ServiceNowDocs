@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ACC log policies, Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
 ---
@@ -304,7 +304,7 @@ The log path used for collecting logs from certain servers may contain environme
 
 Agent Client Collector Log Analytics \(ACC-L\) provides the following default **Type=Log** checks.
 
--   The **log shipper** check launches a background process that sends logs from servers to an agent data input, according to the check's configured log path. When access permissions are lacking or the log path is configured incorrectly, the system sends an alert to the instance. For proper log configuration, ensure that the **servicenow** user has permissions to access the configured log path on the machine that is hosting the agent, and that the log path is configured correctly.
+-   The **log shipper** check launches a background process that sends logs from servers to an agent data input, according to the check's configured log path. When access permissions are lacking or the log path is configured incorrectly, the system sends an alert to the instance. For proper log configuration, ensure that the **servicenow** user has permissions to access the configured log path on the machine that is hosting the agent. Also verify that the log path is configured correctly.
 -   The **log shipper for win events** check is similar to the **log shipper** check, but sends event logs from Windows OS servers to the agent data input.
 
     **Note:** To collect Security Windows event logs, **servicenow** users on an agent hosting machine must have admin privileges.

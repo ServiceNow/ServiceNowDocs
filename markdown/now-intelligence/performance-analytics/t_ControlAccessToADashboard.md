@@ -7,10 +7,10 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [allow a user access to a dashboard, determine dashboard access, share a dashboard]
-breadcrumb: [Working with responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Working with responsive dashboards, Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Share a responsive dashboard
@@ -30,7 +30,7 @@ Role required:
 
 Access control list \(ACL\) rules for scoped applications apply to dashboards created within scoped applications. To apply pa\_dashboard ACLs to dashboards within a scoped app, see [Enable pa\_dashboard records in scoped applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/enable-pa-db-records-scoped-apps.md).
 
-Reports and other data visualizations on dashboards are subject to report\_view ACLs and may not be visible to all users you share a dashboard with. For more information, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md).
+Reports and other data visualizations on dashboards are subject to report\_view ACLs and may not be visible to all users you share a dashboard with. For more information, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/report-view-access-control.md).
 
 Administrators can set two properties that affect how you share responsive dashboards:
 
@@ -45,7 +45,7 @@ Administrators can set two properties that affect how you share responsive dashb
     In this system property, the admin can specify that security rules are applied to the lists of users, user groups, and roles that are visible when users share responsive dashboards. Only users with one of these roles can see roles in the **Sharing** panel: admin, dashboard\_admin, pa\_admin, and pa\_power\_user.
 
 
-For more information, see [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_DashboardRoles.md).
+For more information, see [Core UI dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_DashboardRoles.md).
 
 ## About this task
 

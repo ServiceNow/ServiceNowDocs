@@ -7,9 +7,8 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [hiring tab, hiring manager portal, manager hub hiring, hiring process overview, job requisition tracking]
 breadcrumb: [Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -34,7 +33,7 @@ The Hiring tab is a centralized hub for hiring managers, designed to facilitate 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Hiring Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/talent-acquisition-rn-landing.md).
+-   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -33,7 +33,7 @@ Role required: admin
 
 ## Result
 
-With e-signature enabled, approvers are required to provide a password to approve or reject any requests. Authentication with touch ID works in the mobile app. On the mobile web, approvers are still required to enter a password. For more information on configuring e-signature, see .
+With e-signature enabled, approvers are required to provide a password to approve or reject any requests. Authentication with touch ID works in the mobile app. On the mobile web, approvers are still required to enter a password. For more information on configuring e-signature, see [Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approval-with-e-signature.md).
 
 **Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/portal-security.md)
 

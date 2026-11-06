@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-input-attributes.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MCO input attribute, Manufacturing Commercial Operations, input attribute, sales promotion campaign, Promotion Questionnaire]
 breadcrumb: [Set up Sales promotion, Configure, Manufacturing Commercial Operations]
@@ -21,7 +21,7 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Sales Promotion Setup** &gt; **Promotion Questionnaire** &gt; **MCO Input Attributes**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Sales Promotion Setup** &gt; **Promotion Questionnaire** &gt; **MCO Input Attributes**.
 
 2.  Select **New**.
 

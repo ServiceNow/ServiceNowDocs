@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-sb-playbooks.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 
 If you're a social benefits case agent or manager, you can use the Social Benefits Playbook for Public Sector Digital Services to manage and resolve requests for social benefits.
 
-The Social Benefits Playbook automatically appears in the **Playbook** tab when you create a social benefits request case by using the CRM Workspace. A playbook takes a workflow and breaks it into multiple stages or lanes. Each stage in a playbook includes one or more activities, or steps, for you to complete. Stages can also include automated activities, such as auto-sending an email to a customer when a stage or activity is complete. When using a playbook, you can:
+The Social Benefits Playbook automatically appears in the **Playbook** tab when you create a social benefits request case by using the Public Sector Workspace. A playbook takes a workflow and breaks it into multiple stages or lanes. Each stage in a playbook includes one or more activities, or steps, for you to complete. Stages can also include automated activities, such as auto-sending an email to a customer when a stage or activity is complete. When using a playbook, you can:
 
 -   View the playbook stages and activities.
 -   Select an activity and perform the work to complete that activity.

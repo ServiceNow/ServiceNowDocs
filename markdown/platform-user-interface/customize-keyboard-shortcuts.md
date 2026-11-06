@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/customize-keyboard-shortcuts.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Keyboard shortcuts, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---

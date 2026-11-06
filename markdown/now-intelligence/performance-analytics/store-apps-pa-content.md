@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics solutions, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -28,8 +28,8 @@ A Performance Analytics administrator may need to reschedule the [data collectio
 
 ## Customer Service applications
 
--   
--   Workforce Optimization for Customer Service Management
+-   [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/VA-dashboard-landing-page-pae.md)
+-   [Workforce Optimization for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-wfo-cs.md)
 
 ## DevOps applications
 
@@ -37,11 +37,11 @@ A Performance Analytics administrator may need to reschedule the [data collectio
 
 ## Employee Service Management
 
-Safe Workplace dashboard
+[Safe Workplace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard.md)
 
 ## IT Asset Management applications
 
-Cloud Insights
+[Cloud Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-insights-landing-page.md)
 
 ## Strategic Portfolio Management applications
 

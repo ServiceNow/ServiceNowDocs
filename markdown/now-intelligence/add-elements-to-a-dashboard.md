@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/add-elements-to-a-dashboard.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Edit a dashboard, Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Populate your dashboard with a selection of widgets, including data visualizatio
 
 ## Before you begin
 
-Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards.
+Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards. Users who only have viewing rights can make changes to the dashboard's content, but aren't able to save those changes.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
     \[Omitted image "inline-db-elements.png"\] Alt text: Untitled dashboard with the Add new element menu expanded to show elements you can add to the dashboard
 
-    Available elements include Data visualization, Divider, Filter, Filter Group, Heading, Image, List, Process Mining - Map, Rich Text, and Workbench. Workbench elements can only be created in Core UI and are added to Platform Analytics experience in iframes.
+    Available [elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md) include Data visualization, Divider, [Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md), Filter Group, Heading, Image, List, Process Mining - Map, Rich Text, and Workbench. Workbench elements can only be created in Core UI and are added to Platform Analytics experience in iframes.
 
 5.  Select an element to add.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/setting-up-fso-integration-with-friss.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [FRISS, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -20,7 +20,7 @@ Set up your integration:
 
 1.  Request an Integration Hub subscription. To learn how, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-ih-overview.md).
 2.  Activate Financial Services Operations Integration with FRISS from ServiceNow Store, which automatically activates the FRISS spoke.
-3.  Set up the FRISS spoke. To learn how, see .
+3.  Set up the FRISS spoke. To learn how, see [Set up the FRISS spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-the-friss-spoke.md).
 
 **Parent Topic:**[Financial Services Operations Integration with FRISS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-integration-with-friss-overview.md)
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-emergency-notification-uib-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Integrate, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -53,8 +53,6 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager, or sn\_bcm.admin
     If the notification isn’t sent due to an error, the Notification state moves to **Error**.
 
 9.  Select **Get response status** to retrieve the notification status from Everbridge for contacts in the **Communication status** field.
-
-    You can close an event in the workspace when a notification is in progress. If the status of the event moves to **Closed Complete** or **Closed Incomplete** in Business Continuity Workspace, then the incident is **Closed** in Everbridge also. However, you have to close the notification that is in the **In Progress** state manually.
 
     Before you submit an event for approval, all the notifications that are **In Progress** must be closed.
 

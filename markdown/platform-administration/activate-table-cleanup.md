@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/activate-table-cleanup.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Deleting older or unwanted records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,15 +22,15 @@ Role required: admin
 
 1.  Access the new Auto Flush form in one of the following ways.
 
-<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d73062e52">
+<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d73328e52">
 
 Option
 
-</th><th align="left" id="d73062e55">
+</th><th align="left" id="d73328e55">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d73062e61">
+</th></tr></thead><tbody><tr><td id="d73328e61">
 
 **Using the Data Management Console**
 
@@ -40,7 +40,7 @@ Steps
 2.  On the Overview tab, select **New cleanup rule**.
 
 
-</td></tr><tr><td id="d73062e96">
+</td></tr><tr><td id="d73328e96">
 
 **Using a data management policy**
 

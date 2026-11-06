@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Frequently asked questions, MFA enforcement, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Frequently asked questions, MFA enforcement, Multi-factor authentic
 
 FAQ related to MFA reset and why it’s important.
 
-1.  Lost the authenticator app setup. How can I reset?
+1.  Lost the authenticator app setup. How can you reset?
 
-    It’s better if the users enroll in multiple factors so that they aren’t locked out due to MFA. For example, you can have the TOTP authenticator app, passkey, and email OTP-based MFA.
+    Enroll in multiple factors so that users aren’t locked out due to multi-factor authentication \(MFA\). For example, you can have the TOTP authenticator app, passkey, and email OTP-based MFA.
 
     In case users are unable to use any of the enrolled MFA factors the administrator can reset the MFA by following these steps.
 
@@ -36,7 +36,7 @@ FAQ related to MFA reset and why it’s important.
         -   Delete the records associated with the user
     In case no one including the admin can access the instance. The admin can perform a self-service MFA reset using a catalog item available at [Now support](https://support.servicenow.com/now).
 
-2.  How to avoid administrators from lockout due to MFA?
+2.  How can administrators avoid lockout due to MFA?
 
     The administrators enroll for multiple MFA factors so that they aren’t blocked from accessing the instance.
 

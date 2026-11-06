@@ -7,7 +7,7 @@ release: australia
 product: Cost Management
 classification: cost-management
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Manage a labor rate card, Task and labor rate cards, Cost Management, Strategic Portfolio Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Manage a labor rate card, Task and labor rate cards, Cost Managemen
 
 The rate type functionality is used to categorize different types of work. For example, Standard versus Overtime.
 
-The Labor Rate Card form contains options to specify rate type, specify hourly rate for the rate type, and specify users for whom the labor rate card is applicable. A single user can be associated with multiple labor rate cards that contain different rate types.
+The Labor Rate Card form lets you specify the rate type, the hourly rate for that type, and the users it applies to. A single user can be associated with multiple labor rate cards that have different rate types.
 
-Assume that a user logs time against a task and selects the rate type Standard in the Time Cards form. Upon approval, the expense line \(cost\) for the time card is derived by matching the user and rate type on the time card to a labor rate card assigned to that user, and that has the same rate type. When the user has multiple labor rate cards with the same rate type, the expense line is generated based on the labor rate card that has the lowest value in the **Order** field. When there is no labor rate card associated with the user and rate type, the default hourly rate found in the**Time Sheets** &gt; **Administration** &gt; **Time Sheet Policy** form is used \(**com.snc.time\_card.default\_rate** property\).
+Assume that a user logs time against a task and selects the rate type Standard in the Time Cards form. After approval, the system derives the expense line \(cost\) for the time card. The system looks for a labor rate card that is assigned to the user and has the same rate type. If the user has multiple matching cards, the system uses the card with the lowest value in the Order field. If no labor rate card matches the user and rate type, the system uses the default hourly rate. This rate is in the Time Sheets Administration Time Sheet Policy form \(com.snc.time\_card.default\_rate\) property.
 
 **Note:** A user can enter a rate type only if it is permitted by the users [Time sheet policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/time-sheet-policies.md).
 

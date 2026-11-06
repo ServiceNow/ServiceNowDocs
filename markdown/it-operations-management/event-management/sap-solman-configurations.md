@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable SAP connector configurations, Configure SAP Solution Manager connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ As part of the SAP Solution Manager setup, you must perform several configuratio
 -   **[Configure RFC in SAP Solution Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-sap-solution-mgr.md)**  
 As part of enabling communication with Event Management, you must create a Remote Function Call \(RFC\) in the SAP Solution Manager and install a transport.
 -   **[Configure SAP to forward alerts to your BADI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-sap-fwd-alerts-badi.md)**  
-Configure SAP to forward alerts to the BADI \(Business Add-in\) you create for the SAP integration.
+Configure SAP to forward alerts to the BADI \(Business Add-in\) you create for the integration.
 -   **[Configure the alert inbox in SAP Solution Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-sap-solman-alert-inbox.md)**  
 Configure SAP solution manager to retrieve alerts in the system by enabling the alert inbox with the SOA manager.
 -   **[View alerts in the SAP Solution Manager inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/sap-view-alerts.md)**  

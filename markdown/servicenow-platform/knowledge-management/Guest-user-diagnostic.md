@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User criteria diagnostics for Knowledge Management, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,7 +40,7 @@ Monitor the knowledge usage metrics to improve the overall effectiveness of the 
 
 4.  In the **Run** field, select **Periodically** as the frequency of the scheduled job.
 
-    See the [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md) topic for other frequency options.
+    See the Scheduled jobs topic for other frequency options.
 
 5.  In the **Repeat Interval** field, enter the repeated time interval at which the scheduled job should run.
 

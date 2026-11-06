@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GRC notification redirection, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -32,15 +32,15 @@ Notification routing rules determine which workspace a user is directed to when 
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_yhj_ymw_h3c"><thead><tr><th align="left" id="d335839e98">
+<table id="choicetable_yhj_ymw_h3c"><thead><tr><th align="left" id="d338069e98">
 
 Field
 
-</th><th align="left" id="d335839e101">
+</th><th align="left" id="d338069e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d335839e107">
+</th></tr></thead><tbody><tr><td id="d338069e107">
 
 **Table**
 
@@ -48,7 +48,7 @@ Description
 
 The table for which notification links are redirected to workspace view.
 
-</td></tr><tr><td id="d335839e116">
+</td></tr><tr><td id="d338069e116">
 
 **Target Workspace**
 
@@ -56,7 +56,7 @@ The table for which notification links are redirected to workspace view.
 
 The workspace to which users are redirected when they select notification links.
 
-</td></tr><tr><td id="d335839e125">
+</td></tr><tr><td id="d338069e125">
 
 **Order**
 
@@ -64,7 +64,7 @@ The workspace to which users are redirected when they select notification links.
 
 The evaluation priority for the routing rule. Lower values are evaluated first when multiple rules exist for the same table.
 
-</td></tr><tr><td id="d335839e134">
+</td></tr><tr><td id="d338069e134">
 
 **Active**
 
@@ -74,7 +74,7 @@ Indicates whether the routing rule is active.
 
  Only active rules apply to notification redirection.
 
-</td></tr><tr><td id="d335839e150">
+</td></tr><tr><td id="d338069e150">
 
 **Table filter**
 

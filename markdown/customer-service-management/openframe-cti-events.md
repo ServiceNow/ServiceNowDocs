@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/openframe-cti-events.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [OpenFrame overview, Configure voice, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [OpenFrame overview, Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # OpenFrame events for work items, agent presence, and interactions
@@ -16,7 +16,7 @@ Use OpenFrame events to achieve better integration between Advanced Work Assignm
 
 OpenFrame events are enabled by default when your administrator installs the Openframe plugin \(com.sn\_openframe\) and Advanced Work Assignment for CSM plugin \(com.sn\_csm.awa\).
 
-**Note:** The Advanced Work Assignment for CSM \(com.sn\_csm.awa\) plugin is automatically installed with the Customer Service plugin \(com.sn\_customerservice\).
+**Note:** The Advanced Work Assignment for CSM \(com.sn\_csm.awa\) plugin is automatically installed with the Case Management Core plugin \(com.sn\_customerservice\).
 
 As a CTI developer, ensure that you subscribe to the following events by using the subscribe method of the openFrameAPI.​ For more information, see [openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md).
 

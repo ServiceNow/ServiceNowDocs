@@ -7,9 +7,9 @@ release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Configure Success Dashboard indicators KPIs, ITSM Success Dashboard Admin console, Configure, ITSM Success Dashboard indicators, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [KPI configuration for Success Dashboard indicators, ITSM Success Dashboard Admin console, Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
 
 # Add contributing indicators
@@ -26,15 +26,15 @@ Your organization can add the new contributing sources as the primary indicator.
 
 ## Procedure
 
-1.  Create a Performance Analytics \(PA\) indicator and its data collection job that measures the daily score \(count\) of the metric that you want to measure.
+1.  Create a Performance Analytics \(PA\) indicator and its data collection job that measures the daily score \(count\) of the metric that you need to measure.
 
-    The description set for this PA indicator is used to describe the indicator when the user selects the information icon on the score card. Alternatively, if you already have a PA indicator that measures daily scores of the metric you want to measure, you can directly proceed to register and use the PA indicator.
+    The description set for this PA indicator is used to describe the indicator when the user selects the information icon on the score card. Alternatively, if you already have a PA indicator that measures daily scores of the metric you need to measure, you can directly proceed to register and use the PA indicator.
 
-    For information on permissions required to create a PA indicator, see [Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/r_PARoles.md) for more details.
+    For information about permissions required to create a PA indicator, see [Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/r_PARoles.md).
 
-2.  Register the PA indicator against the Primary Indicator that it must be reported in by creating a record in the Contributing Indicator Registry table \(sn\_sd\_contributing\_indicator\_registry\).
+2.  Register the PA indicator against the Primary Indicator that it must be reported in by creating a record in the Contributing Indicator Registry \[sn\_sd\_contributing\_indicator\_registry\] table.
 
-    1.  Navigate to **All &gt; sn\_sd\_contributing\_indicator\_registry.list**.
+    1.  Navigate to **All** &gt; **sn\_sd\_contributing\_indicator\_registry.list**.
 
     2.  Select **New**.
 
@@ -81,25 +81,25 @@ Service group
 Service group of the performance indicator.**Note:** ITSM or HR must be selected as a service group, as required.
 
 </td></tr></tbody>
-</table>    4.  Right-click the header and select **Save**.
+</table>    4.  Open the context menu for the header and select **Save**.
 
     5.  Add More information context cards for this indicator so that the user viewing the primary and contributing indicator details understands this KPI.
 
         See [Update more information cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/update-sidepanel-more.md) for details.
 
-    6.  In the **Persona Group Time Savings** related list, click **New**.
+    6.  In the Persona Group Time Savings related list, select **New**.
 
     7.  On the form, fill in the fields.
 
         |Field|Description|
         |-----|-----------|
-        |Persona Group|Option to select the persona group fr the contributing indicator.|
-        |Time saved|Option to enter the time that will be saved to complete the request.|
+        |Persona Group|Option to select the persona group for the contributing indicator.|
+        |Time saved|Option to enter the time that is saved to complete the request.|
 
-    8.  Right-click the header and select **Save**.
+    8.  Open the context menu for the header and select **Save**.
 
-        **Note:** You can also update the values for the indicators in **Persona Group Time Savings** section for the out of the box indicators that are **Automatic** type.
+        **Note:** You can also update the values for the indicators in **Persona Group Time Savings** section for the base system indicators that are **Automatic** type.
 
 
-**Parent Topic:**[Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md)
+**Parent Topic:**[KPI configuration for Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md)
 

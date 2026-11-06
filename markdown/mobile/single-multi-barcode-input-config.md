@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/single-multi-barcode-input-config.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -52,15 +52,15 @@ Barcode inputs are available [offline](https://raw.githubusercontent.com/Service
 
 6.  Depending on the type of barcode scan input you want to configure.
 
-<table id="choicetable_dwz_qrl_zvb"><thead><tr><th align="left" id="d51339e249">
+<table id="choicetable_dwz_qrl_zvb"><thead><tr><th align="left" id="d51749e249">
 
 Option
 
-</th><th align="left" id="d51339e252">
+</th><th align="left" id="d51749e252">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d51339e258">
+</th></tr></thead><tbody><tr><td id="d51749e258">
 
 **Single scan barcode inputs**
 
@@ -68,7 +68,7 @@ Description
 
 When you finish configuring all the fields you want, select **Update**.
 
-</td></tr><tr><td id="d51339e270">
+</td></tr><tr><td id="d51749e270">
 
 **Multi-scan barcode inputs**
 

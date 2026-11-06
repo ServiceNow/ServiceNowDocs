@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Promoted, topics, Virtual Agent, Conversational Integration, Microsoft Teams, MSTeams, bot]
-breadcrumb: [Configure VA for Teams, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure VA for Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure promoted topics for Conversational Integration with Microsoft Teams
@@ -27,7 +27,7 @@ Role required: admin or va\_admin
 
 2.  In **Virtual Agent settings** under **Custom greetings and setup**, select **View All**.
 
-    The promoted topics that you have previously configured will reside in the default chat experience. For more information, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-default-chat-experience.md). If default chat experience is the only row that you have on your instance, then you observe that the promoted topics will be applied to chat widget, Microsoft Teams, and Slack \(unless you configure something unique for Microsoft Teams as instructed below.\)
+    The promoted topics that you have previously configured will reside in the default chat experience. For more information, see [\(Legacy\) Configure a Virtual Agent NLU chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/configure-default-chat-experience.md). If default chat experience is the only row that you have on your instance, then you observe that the promoted topics will be applied to chat widget, Microsoft Teams, and Slack \(unless you configure something unique for Microsoft Teams as instructed below.\)
 
     If you want to set up unique promoted topics for Microsoft Teams that have to be different from the chat widget, follow the procedure below.
 

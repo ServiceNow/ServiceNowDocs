@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/spc-clone-policy.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use the workspace, Security Posture Control, Security Operations]
 ---
@@ -32,15 +32,15 @@ Roles required: SPC Admin Group or SPC Analyst Group
 
 3.  Select one from the more options menu next to **Activate policy**.
 
-<table id="choicetable_mvf_ylm_dcc"><thead><tr><th align="left" id="d248797e116">
+<table id="choicetable_mvf_ylm_dcc"><thead><tr><th align="left" id="d250227e116">
 
 Option
 
-</th><th align="left" id="d248797e119">
+</th><th align="left" id="d250227e119">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d248797e125">
+</th></tr></thead><tbody><tr><td id="d250227e125">
 
 **Clone policy**
 
@@ -52,7 +52,7 @@ Select this option if you want to use the conditions of an existing policy as a 
 
  \(Optional\) Select Base policy and add one from the list for your new policy.
 
-</td></tr><tr><td id="d248797e143">
+</td></tr><tr><td id="d250227e143">
 
 **Create child policy**
 

@@ -7,7 +7,7 @@ release: australia
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer and maintain the Talent Development Core app, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ From the Now Assist Admin console, view related information for Growth plans cre
 
 ## Before you begin
 
-Role required: sn\_na\_analytics.viewer, platform\_analytics\_admin, or sn\_td\_na.admin
+Role required: admin
 
 ## About this task
 

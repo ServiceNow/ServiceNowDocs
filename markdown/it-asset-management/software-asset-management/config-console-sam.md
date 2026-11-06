@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Software Asset Management installation methods, Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Software Asset Management installation methods, Configuring Softwar
 
 Use the Configuration Console to configure Software Asset Management after installation. Complete platform-level settings, configure key items with AI assistance, and package configurations for deployment to other instances.
 
-**Important:** Product Hub and Configuration Console are available starting from Australia Patch 7. To access the Configuration Console for Software Asset Management, you must have the sam\_admin and sn\_ia\_config.ia\_user roles.
+**Note:** To access the Configuration Console for Software Asset Management, you must have the sam\_admin and sn\_ia\_config.ia\_user roles.
 
 The Configuration Console for Software Asset Management groups configuration items under the following three categories:
 

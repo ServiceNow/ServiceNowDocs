@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/resolve-customer-dispute.html
 release: australia
 topic_type: task
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [resolve, dispute analysis, dispute analysis, customer dispute management]
 breadcrumb: [Use Customer DIspute Management, Use, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
@@ -25,7 +25,7 @@ This stage in the Customer Dispute Management \(CDM\) playbook focuses on implem
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the lists \(\[Omitted image "Lists.png"\] Alt text: Lists Icon.\) icon.
 

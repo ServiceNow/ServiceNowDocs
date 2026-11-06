@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -48,7 +48,7 @@ The home page for a service catalog provides the primary front end for ordering 
 When you configure Service Catalog on a Classic Mobile device, you can define the layout and presentation of catalogs. You can then perform actions such as ordering products and services, submit incidents and problems using record producers.
 -   **[Using the content management system with the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/p_ConfigureContentManagementSystem.md)**  
 Use the content management system \(CMS\) to create a custom interface for the service catalog.
--   **[Customization vs configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/customization-vs-configuration-concepts.md)**  
+-   **[Customization vs configuration]()**  
 There are important differences between customizing and configuring ServiceNow applications. The ServiceNow platform is built to embrace customization and configuration but how you do so can have significant impacts on ServiceNow support, upgrading to future ServiceNow platform versions, and the functionality of the ServiceNow platform.
 
 **Parent Topic:**[Types of catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_ExtendedCatalogItemFunctions.md)

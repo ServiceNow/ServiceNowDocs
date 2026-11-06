@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/additional-build-agent-use-cases.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-20"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Build Agent use cases
@@ -37,9 +37,13 @@ Use Build Agent to refine application development ideas and capture structured r
 
 Use the following scenarios to identify specific ways to apply Build Agent in your development workflow.
 
+-   **Specification-driven implementation with Autonomous Engineer**
+
+    Provide requirements as a prompt or a file upload. Build Agent interviews you to resolve ambiguity, queries your instance for existing artifacts, and generates a plan with work items in an Agile user story format. After you approve the plan, Build Agent builds all work items in parallel in the background, generates and runs Automated Test Framework \(ATF\) tests, and produces an update set on completion. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-autonomous-engineer.md).
+
 -   **Playbook authoring**
 
-    Use Build Agent to author Playbook Designer artifacts through a conversation. As of Australia Patch 6, you can have Build Agent do the following for playbooks that it generates:
+    Use Build Agent to author Playbook Designer artifacts through a conversation. You can have Build Agent do the following for playbooks that it generates:
 
     -   Generate runtime permissions at the playbook and stage levels
     -   Define on-demand launcher configurations
@@ -51,6 +55,10 @@ Use the following scenarios to identify specific ways to apply Build Agent in yo
 -   **App gap analysis**
 
     Summarize an existing app, identify gaps in coverage, and propose targeted enhancements. For example, Build Agent identifies tables without ACLs, business rules with no test coverage, and manual steps that could be automated with flows.
+
+-   **Existing app analysis and process improvement**
+
+    Analyze an existing custom scoped application, including one built on custom tables, to identify the business processes that it supports. Build Agent uses its awareness of your instance and data model to describe how the application’s tables, business rules, and flows work together. Build Agent can also propose process improvements and provides technical guidance for implementing them. This analysis is useful for applications that have limited documentation, such as applications built by teams that are no longer available. AI-generated results might not be accurate in all cases, so review the results before you act on them.
 
 -   **Security posture review**
 
@@ -160,6 +168,24 @@ Enhance \(modifications, reviewable before promotion\)
 
 -   Generate ATF test suites for untested apps, then run and triage them to establish a quality baseline
 -   Add instance scan checks to enforce governance standards across the platform
+
+</td></tr><tr><td>
+
+Implement \(specification-driven, parallel execution\)
+
+</td><td>
+
+Provide requirements as a prompt or file and let Autonomous Engineer generate and build a full plan
+
+</td><td>
+
+-   Review, edit, and approve work items before execution to align the plan with your standards
+-   Use agent packs to implement custom applications on your instance.
+
+</td><td>
+
+-   Compress multi-month implementation timelines to hours by executing all work items in parallel with automated ATF test generation and self-healing
+-   Export the completed update set and deploy to UAT or production
 
 </td></tr><tr><td>
 

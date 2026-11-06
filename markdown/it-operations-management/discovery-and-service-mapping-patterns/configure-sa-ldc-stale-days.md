@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-07-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [PopulateSALDC, stale job threshold, system property, service account, logical data center, CI tables]
 breadcrumb: [Improved query performance with direct field population in CI tables, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]

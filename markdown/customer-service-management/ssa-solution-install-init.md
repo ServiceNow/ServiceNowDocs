@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ssa-solution-install-init.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Performance Analytics, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ Role required: admin
 
     When you install this application, you also activate the following plugins:
 
-    -   Customer Service \(com.sn\_customerservice\)
+    -   Case Management Core \(com.sn\_customerservice\)
     -   Self-Service Analytics PA \(com.snc.pa.self\_service\_analytics\)
     -   Self-Service Analytics Core \(com.snc.self-service\_analytics\_core\)
 

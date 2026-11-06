@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [AI Control Tower, Agent Client Collector, IT Operations Management]
 ---
@@ -35,5 +35,5 @@ After detecting AI traffic, the AI Proxy enforces policies based on your organiz
 
 ## Policy enforcement and monitoring
 
-AI Proxy tracks AI activities by intercepting and monitoring AI-related traffic. The system detects policy violations in real time. Your ServiceNow instance syncs governance policies for applicable devices and users. AI Proxy then sends this data to ServiceNow, where the system maps the data to users, devices, and departments to provide comprehensive insights into AI usage across your organization.
+AI Proxy tracks AI activities by intercepting and monitoring AI-related traffic. The system detects policy violations in real time. Your ServiceNow instance syncs governance policies for applicable devices and users. AI Proxy then sends this data to ServiceNow. The system maps the data to users, devices, and departments to provide comprehensive insights into AI usage across your organization.
 

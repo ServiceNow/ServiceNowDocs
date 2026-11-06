@@ -7,7 +7,7 @@ release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Agent Workspaces, Universal Request, Employee Service Management]
 ---
@@ -35,6 +35,8 @@ The Universal Request Overview dashboard is the default landing page of the Univ
 -   Report on your team's work.
 
 You can view more details of the universal requests by clicking the universal request number.
+
+\[Omitted image "ur-aws-landing-page.png"\] Alt text: Universal Request Overview landing page
 
 **Parent Topic:**[Universal Request in Agent Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/universal-request-workspace.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/set-up-google-a2a.html
 release: australia
 topic_type: task
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Integrate external AI agents, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Integrate external AI agents, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Setting up A2A authentication for ServiceNow AI agents

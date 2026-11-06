@@ -1,18 +1,18 @@
 ---
 title: Set up the Operational vulnerability type
-description: Set up the Operational vulnerability type. Defining the type and nature helps administrators assign vulnerabilities to the appropriate teams and address issues promptly.
+description: Set up the Operational vulnerability type. By defining the type and nature of the Operational vulnerability, Operational Resilience administrators can efficiently assign operational vulnerabilities to the appropriate teams and address issues promptly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/set-up-op-vul-type.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up the Operational vulnerability module, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Set up the Operational vulnerability type
 
-Set up the Operational vulnerability type. Defining the type and nature helps administrators assign vulnerabilities to the appropriate teams and address issues promptly.
+Set up the Operational vulnerability type. By defining the type and nature of the Operational vulnerability, Operational Resilience administrators can efficiently assign operational vulnerabilities to the appropriate teams and address issues promptly.
 
 ## Before you begin
 

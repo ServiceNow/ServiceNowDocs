@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 keywords: [Now Assist, generative AI]
 breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
@@ -23,7 +23,7 @@ Organizations working in regulated environments must regularly interpret new and
 
 ServiceNow Otto in RCM provides a set of generative AI skills and agentic workflows designed to address these challenges.
 
-The summarization skill enables you to generate summaries of a regulatory alert and recommend impacted areas, including citations, control objectives, controls, and policies, for alerts in any state except Closed or Cancelled. The recommendation skills analyzes incoming alerts against existing citations, control objectives, controls and policies to generate suggestions, leveraging generative AI to support more consistent and efficient compliance analysis.
+The summarization skill enables you to generate summaries of a regulatory alert and recommend impacted areas, including citations, control objectives, controls, and policies. The recommendation skills analyzes incoming alerts against existing citations, control objectives, controls and policies to generate suggestions, leveraging generative AI to support more consistent and efficient compliance analysis.
 
 The Get Regulatory Analysis agentic workflow analyzes and enriches regulatory alerts in any state except Closed or Cancelled by leveraging web search and organizational data. It provides additional context for each alert and recommends potential impacts on citations, control objectives, controls, and policies. The Generate Regulatory Action Plan agentic workflow generates regulatory action plans for regulatory alert in the In Progress state by analyzing impacted areas and referencing similar historical alerts. It creates change tasks and action items that help teams implement regulatory changes.
 

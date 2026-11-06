@@ -7,7 +7,7 @@ release: australia
 product: Platform Encryption
 classification: platform-encryption
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Key Management Framework Resource Exchange, Key Management Framework, Encryption]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create monetary benefit plans for your planning items in Portfolio Planning, Manage financials for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -31,15 +31,15 @@ Edit a planned monetary benefit plan to revise the benefits, dates, offset, and 
 
 3.  Update a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d52238e95">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d51858e95">
 
 Option
 
-</th><th align="left" id="d52238e98">
+</th><th align="left" id="d51858e98">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d52238e104">
+</th></tr></thead><tbody><tr><td id="d51858e104">
 
 **Using Monetary benefit plan related list**
 
@@ -50,7 +50,7 @@ Procedure
 3.  In the Details tab, edit the required fields and select **Save**.
 
 
-</td></tr><tr><td id="d52238e131">
+</td></tr><tr><td id="d51858e131">
 
 **Using finanicals record page**
 

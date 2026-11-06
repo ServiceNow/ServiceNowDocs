@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -65,7 +65,7 @@ The Software Asset Management publisher pack for IBM adds license metrics for va
 -   **[IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md)**  
 You can use an IBM License Metric Tool \(ILMT\) or BigFix Inventory integration to create a connection between your IBM servers and the ServiceNow AI Platform. Use this connection to import data into your ServiceNow instance so that you can track and optimize licensing for your IBM software products.
 -   **[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-asp-integration.md)**  
-Integrate the Software Asset Management publisher pack for IBM with authorized Software Asset Management providers to track and manage IBM licenses across virtualized VMware vSphere and Nutanix environments, and IBM LPAR infrastructures. These integrations help you to track and manage IBM licensing directly without integrating with theIBM License Metric Tool \(ILMT\) or BigFix Inventory.
+Integrate the Software Asset Management publisher pack for IBM with authorized Software Asset Management providers to track and manage IBM licenses across virtualized VMware vSphere and Nutanix environments, and IBM LPAR infrastructures. These integrations help you to track and manage IBM licensing directly without integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory.
 -   **[Software Publisher Analytics dashboard for IBM in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/dashboard-ibm.md)**  
 View compliance analysis results related to IBM on the Software Publisher Analytics dashboard in the Software Asset Management classic application.
 -   **[Publisher overview for IBM in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/publisher-overview-ibm.md)**  

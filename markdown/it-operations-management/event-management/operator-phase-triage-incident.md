@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Operator responsibilities, Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -189,7 +189,7 @@ As an Event Management operator, you can also launch a web application from an a
 -   **[Associate a knowledge base article with an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-associate-kb.md)**  
 As an Event Management operator, you can associate a knowledge base \(KB\) article with the alert to capture additional information about the alert. This might include a procedure that someone has to follow to resolve the underlying issue on your network, or a best practice to prevent the issue from reoccurring.
 -   **[Put an alert into maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-put-alert-into-maintenance.md)**  
-As an Event Management operator, you can put an alert into maintenance if the alert does not require further action but you want to keep it active. Putting the alert into maintenance hides it from the Service Operations Workspace dashboard so that other operators do not need to access it, but it does not close the alert.
+As an Event Management operator, you can put an alert into maintenance if the alert does not require further action but you still want to keep it active. Putting the alert into maintenance hides it from the Service Operations Workspace dashboard so that other operators do not need to access it, but it does not close the alert.
 
 **Parent Topic:**[What Event Management operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-process.md)
 

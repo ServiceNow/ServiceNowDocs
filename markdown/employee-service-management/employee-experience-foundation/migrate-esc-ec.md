@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Upgrading to Employee Center Pro, Admin configurations, Configuring Employee Center Pro, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Upgrading to Employee Center Pro, Admin configurations, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Upgrade to Employee Center Pro from Employee Service Center \(HR\)

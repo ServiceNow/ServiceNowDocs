@@ -7,7 +7,7 @@ release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 6
 breadcrumb: [Work with solution data in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
 ---
@@ -46,7 +46,7 @@ You can identify problems on the following solutions.
 
 Prior to the November 2024 Store release, you could see the records of incidents, problems, and changes in the Needs attention panel only if the service instance is added to the Configuration item field of a related item \(for example, to an incident record\).
 
-As of the November 2024 Store release, items or records are reflected in the Needs attention panel when an incident, problem, or change includes the service instance in the Impacted services or the Affected CIs related list, in addition to the Configuration item field.
+As of the November 2024 Store release, items or records are reflected in the Needs attention panel when an incident, problem, or change includes the service instance in the Impacted services or the Affected CIs related list, and the Configuration item field.
 
 After the service instances are added to the Configuration item field, Impacted services, or the Affected CIs related list, you can see them under the Needs attention section in the base level \(service instance\). The data also rolls up to the following levels in the DPM Workspace:
 
@@ -89,7 +89,7 @@ Services and service offerings
 
 -   Needs attention icon \(\[Omitted image "icon-information.png"\] Alt text: Needs attention icon\) to show or hide the Needs attention panels. This toggle isn't on the DPM Workspace home page.
 -   Contacts icon \(\[Omitted image "contacts.png"\] Alt text: Contacts icon.\) to view team members and the all the teams that support the service offering.
--   Knowledge articles icon\(\[Omitted image "dpm-kb-icon.png"\] Alt text: Knowledge articles icon.\) to search for related knowledge articles.
+-   Knowledge articles icon \(\[Omitted image "dpm-kb-icon.png"\] Alt text: Knowledge articles icon.\) to search for related knowledge articles.
 -   Attachments icon \(\[Omitted image "attachment.png"\] Alt text: Attachments icon.\) to view and add attachments to the record.
 -   Catalog items icon \(\[Omitted image "catalog-items.png"\] Alt text: Catalog items icon.\) to search for catalog items on a service or service offering record.
 
@@ -146,7 +146,7 @@ Business applications
 -   Outages
 -   Changes
 
- For new and zBoot customers, all the above plus Audit and Risks.
+ For new and zBoot customers, all of these plus Audit and Risks.
 
 </td><td>
 
@@ -156,7 +156,7 @@ Business applications
 -   Alerts
 -   Risks
 
- For new and zBoot customers, all the above plus Audits.
+ For new and zBoot customers, all of these plus Audits.
 
 </td><td>
 

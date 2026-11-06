@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a status report in Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -38,7 +38,7 @@ Role required: it\_pps\_admin, it\_project\_manager
 
         \[Omitted image "status-report-add-dynamic-content.png"\] Alt text: Mention a record in status report.
 
-        Once you insert a record, it is embedded as a link, which you can click to open the related record and see its details.
+        After you insert a record, it is embedded as a link, using which you can open the related record and see its details.
 
     3.  You can type in `/` \(forward slash\) and select **Insert a dynamic content** to insert dynamic content into your status report or Project Docs template.
 

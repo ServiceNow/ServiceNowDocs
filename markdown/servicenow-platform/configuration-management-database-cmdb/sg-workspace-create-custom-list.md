@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Create your own lists of classes that you can then navigate in the Lists view in
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_cmdb\_user
 
 ## Procedure
 

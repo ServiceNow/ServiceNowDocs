@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itam-purchase-order-creation-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Asset Management AI agents, IT Asset Management, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Asset Management AI agents, IT Asset Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Purchase order creation AI agent

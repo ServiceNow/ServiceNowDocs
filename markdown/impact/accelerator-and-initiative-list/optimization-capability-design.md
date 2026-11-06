@@ -7,7 +7,7 @@ release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Optimization, Capability Design, Platform Health, User Stories, ServiceNow Adoption]
 breadcrumb: [Optimization Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]

@@ -1,6 +1,6 @@
 ---
 title: Test what you built with Build Agent
-description: Test Agent generates test coverage for code created by Build Agent or Autonomous Engineer, executes tests, and performs root cause analysis \(RCA\) on failures. Prompt Test Agent to complete build-to-test workflows in a single development session without manual test authoring or failure investigation.
+description: Test Agent generates test coverage for code created by Build Agent, executes tests, and performs root cause analysis \(RCA\) on failures. Prompt Test Agent to complete build-to-test workflows in a single development session without manual test authoring or failure investigation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent-testing.html
 release: australia
@@ -8,14 +8,14 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Test what you built with Build Agent
 
-Test Agent generates test coverage for code created by Build Agent or Autonomous Engineer, executes tests, and performs root cause analysis \(RCA\) on failures. Prompt Test Agent to complete build-to-test workflows in a single development session without manual test authoring or failure investigation.
+Test Agent generates test coverage for code created by Build Agent, executes tests, and performs root cause analysis \(RCA\) on failures. Prompt Test Agent to complete build-to-test workflows in a single development session without manual test authoring or failure investigation.
 
-Test Agent extends Build Agent or Autonomous Engineer by making every build safe before release. After Build Agent or Autonomous Engineer produces code changes in a development instance, Test Agent consumes the same prompt and code context. It uses those to author functional Automated Test Framework \(ATF\) tests, execute those tests, and triage any failures automatically.
+Test Agent extends Build Agent by making every build safe before release. After Build Agent produces code changes in a development instance, Test Agent consumes the same prompt and code context. It uses those to author functional Automated Test Framework \(ATF\) tests, execute those tests, and triage any failures automatically.
 
 -   For details on configuring tests in Build Agent, see [Configure auto test prompting and UI tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-config-testing.md).
 -   For more information ATF test generation, see [ATF test generation in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-atf-test-gen-ba.md).
@@ -34,13 +34,13 @@ Test Agent delivers the following measurable outcomes:
 
 ## Test generation prompting
 
-After each development action in Build Agent or Autonomous Engineer, Test Agent asks whether to generate ATF tests for what you just built. You can accept or decline the prompt at each step. When you accept the prompt, Test Agent generates tests before returning control to you in the chat panel.
+After each development action in Build Agent, Test Agent asks whether to generate ATF tests for what you just built. You can accept or decline the prompt at each step. When you accept the prompt, Test Agent generates tests before returning control to you in the chat panel.
 
 \[Omitted image "ba-tests-prompt-for.png"\] Alt text: Prompt asking whether to write tests to cover the app, with Yes, proceed selected and a Submit button.
 
 Automatic prompting for tests reduces the chance of skipping test coverage during rapid development by keeping test generation as part of the standard development loop.
 
-To manually prompt for tests, ask Build Agent or Autonomous Engineer to `Generate ATF tests for all the feature permutations on the app we built`. Then, you can tell Build Agent or Autonomous Engineer to `Execute all ATF tests.`
+To manually prompt for tests, ask Build Agent to `Generate ATF tests for all the feature permutations on the app we built`. Then, you can tell Build Agent to `Execute all ATF tests.`
 
 ## Test Agent workflow
 

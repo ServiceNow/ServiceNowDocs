@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Additional Cloud Provisioning and Governance setup on day 2, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -42,9 +42,9 @@ Role required: sn\_cmp.cloud\_admin
 
     **Note:** To create a service account, select **Add Account** and then fill in the form. For details, see the process of setting up a service account in the Day 1 setup guide.
 
-5.  On the Select Datacenters page, move the datacenters to discover into the **Selected** list.
+5.  On the Select Datacenters page, specify which datacenters to discover.
 
-    To select all datacenters, select **Discover all datacenters listed below**.
+    Move individual datacenters to the **Selected** list, or select **Discover all datacenters listed below** to move all datacenters.
 
 6.  Click **Next**.
 
@@ -160,7 +160,7 @@ Cancel Discovery if longer than
 
 </td><td>
 
-Time limit for running the Discovery. Whecified time elapses, the remaining tasks for the Discovery are canceled even if the Discovery runs unt isn’t finished. If the check box isn’t selected, the Discovery runs until finished. This setting constrains system load to a desirable time window.
+Time limit for running the Discovery. When the specified time elapses, the remaining tasks for the Discovery are canceled even if the Discovery isn’t finished. If the check box isn’t selected, the Discovery runs until finished. This setting constrains system load to a desirable time window.
 
 </td></tr></tbody>
 </table>8.  Select **Finish** and **Run Now**.

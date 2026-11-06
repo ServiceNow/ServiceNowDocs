@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/employee-slate-cbs.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Employee Slate, CBS portal, employee support portal, Core Business Suite]
 breadcrumb: [Exploring employee support, Core Business Suite]

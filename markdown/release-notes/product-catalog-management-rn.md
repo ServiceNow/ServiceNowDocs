@@ -1,0 +1,119 @@
+---
+title: Product Catalog Management release notes
+description: The ServiceNow Product Catalog Management application helps your organization manage product offerings by grouping them into catalogs and categories, which streamlines the ordering process for leads, opportunities, quotes, and orders. See the following sections for release notes by version.Retrieve smaller, more targeted responses from the Product Catalog Search REST API. Limit the catalog hierarchy to a single catalog and request only the product details you need.Validate catalog changes before publishing, control when a published offering becomes available on each sales channel. Add optional characteristics and child offerings to published records without creating new versions. Generate multilingual catalog configurations automatically and set a custom display order for catalogs and categories.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/product-catalog-management-rn.html
+release: australia
+topic_type: topic
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+---
+
+# Product Catalog Management release notes
+
+The ServiceNow® Product Catalog Management application helps your organization manage product offerings by grouping them into catalogs and categories, which streamlines the ordering process for leads, opportunities, quotes, and orders. See the following sections for release notes by version.
+
+## About Product Catalog Management
+
+-   Accelerate product launches by creating, publishing, and managing commercial and technical offerings from a centralized catalog foundation.
+-   Simplify complex product sales with support for configurable products, bundles, and service-based offerings.
+-   Connect sales and fulfillment processes through a unified catalog that powers the lead-to-cash life cycle.
+-   Manage catalog changes with confidence using controlled versioning and scheduled product updates.
+-   Help sellers find and sell the right products faster with organized catalogs, eligibility controls, and intuitive navigation.
+
+See [Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md) for more information.
+
+## Activation and other requirements
+
+-   **Activation information**
+
+    Activate Product Catalog Management Core \(sn\_prd\_pm\) from the plugin activation page. A System Administrator role is required. Activation includes demo data and installs any related applications and plugins that aren't already active on your instance.
+
+
+## Accessibility and localization
+
+-   **Localization information**
+
+    Certain Product Catalog Management fields, such as product offering name and description, support multilingual text. Admins can display these fields in multiple languages in the product catalog interface when the corresponding ServiceNow base system language plugin is active.
+
+
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/sales-order-management-rn-landing.md)
+
+## October 2026
+
+Retrieve smaller, more targeted responses from the Product Catalog Search REST API. Limit the catalog hierarchy to a single catalog and request only the product details you need.
+
+### What's changed
+
+-   **Catalog filtering for the eligible catalog-category hierarchy**
+
+    Retrieve only the catalog you need when loading the eligible catalog-category hierarchy. Previously, the response included the complete hierarchy for all eligible catalogs, even when a catalog was specified in the **selectedCatalog** parameter. Now, when you specify a catalog, the response includes only that catalog and its category hierarchy. The default value, `allCatalog`, still returns the complete hierarchy.
+
+-   **Optional product details in catalog search results**
+
+    Reduce response size and processing time by requesting only the product details your integration needs.
+
+    -   Previously, the search response didn't include product offering characteristics or categories. Now, you can include the **additionalFields** object in the request to return the product offering family, characteristics, and categories, for example, `"additionalFields": {"family": true, "characteristics": true, "categories": true}`. These fields aren't returned unless you request them.
+    -   Previously, the search response included the **productOfferingFamily** object by default \(added in the September 2026 release\). Now, it's returned only when you set **family** to `true` in the **additionalFields** object. If your integration reads the product offering family from the search response, update your requests to include it.
+-   **Improved search result ranking in the product catalog**
+
+    Reindex the product catalog to help agents and customers find the exact product offering they're looking for, even when several similar offerings are indexed. Previously, a product offering could rank lower in search results than other offerings that only referenced it, such as a bundle that included it. Now, admins can reindex the product catalog so that the offering that most closely matches a search term ranks highest.
+
+
+## Brazil Early Availability \(September 2026\)
+
+Validate catalog changes before publishing, control when a published offering becomes available on each sales channel. Add optional characteristics and child offerings to published records without creating new versions. Generate multilingual catalog configurations automatically and set a custom display order for catalogs and categories.
+
+### What's new
+
+-   **Extended product life cycle states for product offerings and specifications**
+
+    Validate product offerings and specifications before publication by moving them through the In Test and Staged life cycle states. Build and test catalog hierarchies without publishing unfinished records, helping reduce unnecessary revisions and prevent incomplete catalog content from becoming available to users.
+
+-   **Channel-specific availability for product offerings**
+
+    Coordinate phased product launches by releasing a published product offering to different distribution channels on different dates. Use channel overrides to align product availability with channel readiness, training, partner enablement, or regional rollout plans without delaying channels that are ready to launch. The offering stays hidden from a channel, in both catalog search and AI Search, until that channel's release date arrives.
+
+    A new table, Product Offering Channel Override \[sn\_prd\_pm\_product\_offering\_channel\_override\], has been introduced to support this feature.
+
+-   **Localized product catalog experiences**
+
+    Generate language-specific versions of product catalogs and product offerings when they are published so sales agents can view product names, descriptions, and characteristics in their preferred language across configurator screens, carts, and quotes. If translated content isn't available for a language, the default-language version is displayed automatically.
+
+    The following new tables have been introduced to support this feature:
+
+    -   Product Offering Translation \[sn\_prd\_pm\_product\_offering\_translation\]
+    -   Product Offering Catalog Translation \[sn\_prd\_pm\_product\_offering\_catalog\_translation\]
+-   **[Customize the display order of product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-managing-product-catalogs.md)**
+
+    Help sales agents find relevant product offerings faster by defining how offerings appear in the Catalog UI, both on the CRM Workspace and Business Portal. Sales agents can sort product offerings by Display Order, making it easier to surface prioritized offerings while creating quotes and orders instead of sorting alphabetically. A catalog or category without a configured order continues to sort alphabetically.
+
+
+### What's changed
+
+-   **[Minor updates to published product offerings and specifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/minor-updates-published-offerings-specs.md)**
+
+    Simplify updates to published product offerings by adding optional characteristics and optional child offerings without creating a new offering version. Set a future effective date for the child-offering relationship to control when the child becomes available for new purchases or order changes. Previously, these updates required a new version of the parent offering and replication of its related configuration.
+
+    Previously, turning on the transient setting for a published product offering required creating a new version. Now, turning it on doesn't require a new version. Turning it off still requires one.
+
+-   **[Product catalog sort options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)**
+
+    Previously, the sort drop-down menu in the product catalog was hidden unless AI Search was turned on. Now it is always available, and includes a new Display Order option that sorts by your configured display order. The Relevancy option still appears only when AI Search is on.
+
+-   **Product Catalog Management data model changes**
+
+    New columns have been added to the Product Catalog Management tables to enable new life cycle states, channel-specific launch dates, and control the display sequence of offerings in the catalog.
+
+    -   Value column has been added to the Distribution Channel \[sn\_prd\_pm\_distribution\_channel\] table. It canonically maps the channel name resolved from the context variable or the Sales CRM entity header to the sys\_id \(Name\) in the Distribution Channel \[sn\_prd\_pm\_distribution\_channel\] table.
+    -   State column on the Product Offering \[sn\_prd\_pm\_product\_offering\] table now includes In Test and Staged values, sequenced between Draft and Published. A new Approval state column has been added, with values Not yet requested \(default\), In Review, Approved, Rejected, and Recalled. A new Active channels column has also been added. It's a read-only, comma-separated list of distribution channel references that stores the channels the offering is currently available on, so catalog search can filter on availability without a table join.
+    -   State column on the Specification \[sn\_prd\_pm\_specification\] table now includes In Test and Staged values, sequenced between Draft and Published.
+    -   Effective from column has been added to the Product Offering Relationship \[sn\_prd\_pm\_product\_offering\_relationship\] and Specification Relationship \[sn\_prd\_pm\_specification\_relationship\] tables.
+    -   Order column has been added to the Catalog Category \[sn\_prd\_pm\_catalog\_category\_relationship\] and Product Offering Catalog \[sn\_prd\_pm\_product\_offering\_catalog\] tables.
+    -   Display Order column has been added to the Product Offering \[sn\_prd\_pm\_product\_offering\] table
+-   **Product offering family in catalog search results**
+
+    Identify the product offering family of each search result without a separate lookup. Previously, the catalog search REST API response didn't include the product offering family. Now, the response returns the **productOfferingFamily** object for each product offering, whether or not AI Search is turned on.
+
+

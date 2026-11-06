@@ -7,7 +7,7 @@ release: australia
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,7 +37,7 @@ Digital signing for documents is configured with a document template. You must d
 
 To configure digital signing for CAC or PIV smart cards, the following must be done:
 
--   Use [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/document-templates-overview.md) to create and upload a PDF document
+-   Use  to create and upload a PDF document
 -   Set up certificates in the sys\_ca\_certificate table
 -   Set up a map certificate in the sys\_user\_certificate table
 -   [Review the **com.snc.pdfsigning.validation.method** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/property-value-cac-piv-signing.md)

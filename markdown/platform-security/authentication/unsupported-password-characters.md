@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Password complexity requirements, Local authentication, Authentication, Access Management]
 ---
@@ -16,10 +16,10 @@ breadcrumb: [Password complexity requirements, Local authentication, Authenticat
 
 There are password characters that are not supported. Users cannot use these characters, based on ServiceNow password complexity requirements.
 
-To enable a secure network environment, it is necessary for users to use strong passwords that include combination of letters, numbers, and symbols. These combinations help to prevent unauthorized users who usually use manual or automated methods to guess weak passwords.
+To enable a secure network environment, users must use strong passwords that include a combination of letters, numbers, and symbols. These combinations help to prevent unauthorized users who usually use manual or automated methods to guess weak passwords.
 
--   The password policy requirements are based on the Basic Multilingual Plane \(BMP\) that contains characters for all modern languages. ServiceNow instance is shipped with BMPs of around 10000 characters.
--   Password characters within this permissible BMPs can be set for your instance, the password characters that do not adhere within this BMPs are not allowed.
+-   The password policy requirements are based on the Basic Multilingual Plane \(BMP\) that contains characters for many languages. ServiceNow instance is shipped with BMPs of around 10000 characters.
+-   Password characters within these permissible BMPs can be set for your instance. Password characters that do not adhere to these BMPs aren't allowed.
 
 **Note:** User or company-specific characters that cannot be used in the password can be configured in the exclude password list.
 

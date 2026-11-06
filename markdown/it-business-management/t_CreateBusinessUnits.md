@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/t\_CreateBusinessUnits.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business units, Business Planning Portal, Strategic Portfolio Management]
 ---
@@ -17,6 +17,10 @@ Create a business unit to define your organizational functions. A business unit 
 ## Before you begin
 
 Role required: business\_planner
+
+**Note:**
+
+Starting with the Brazil release, Business Planner plugin and Business Planner role are being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 

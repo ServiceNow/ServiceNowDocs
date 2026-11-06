@@ -7,9 +7,9 @@ release: australia
 product: Safe Workplace for mobile
 classification: safe-workplace-for-mobile
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile experience for Emergency Response Management, Safe Workplace, Health and Safety, Employee Service Management]
+breadcrumb: [Safe Workplace for mobile, Safe Workplace, Health and Safety, Employee Service Management]
 ---
 
 # Report your health status in Now Mobile

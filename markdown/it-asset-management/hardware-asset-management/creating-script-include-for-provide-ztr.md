@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Zero Touch request flow, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure Zero Touch request flow, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a Script Include to transform Scratchpad updates from the provider
@@ -33,4 +33,6 @@ Consider the following points when you create the Script Include:
     }
     ```
 
+
+**Parent Topic:**[Configure Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/configure-ztr-flow.md)
 

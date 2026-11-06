@@ -7,7 +7,7 @@ release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -83,7 +83,7 @@ The Hermes Messaging Service is a ServiceNow AI Platform capability that is avai
 |-------|-----------|-----|
 |Export data from your ServiceNow instance to an external application using the Hermes Messaging Service with Workflow Studio.|[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)|Administrator|
 |Export log data securely from your instance to your external data lake for reporting, auditing, or regulatory purposes by using the Hermes Messaging Service with the Log Export Service.|[Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-landing-page.md)|Administrator|
-|Trigger flows from incoming Kafka events and trigger outgoing messages to your Kafka environment using the Hermes Messaging Service with Stream Connect.|[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/stream-connect-apache-kafka.md)|Administrator|
+|Trigger flows from incoming Kafka events and trigger outgoing messages to your Kafka environment using the Hermes Messaging Service with Stream Connect.||Administrator|
 |Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading replication sets that you created prior to the Utah release to use the Hermes Messaging Service.|[Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/instance-data-replication-idr/instance-data-replication.md)|Administrator|
 
 ## Limitations

@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Release states, On Hold state, Release state model, Hold reason]
 breadcrumb: [Release for a product or service, Explore, Digital Product Release, IT Service Management]

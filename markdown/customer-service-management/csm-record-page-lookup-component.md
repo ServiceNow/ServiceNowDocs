@@ -1,18 +1,18 @@
 ---
 title: Lookup component
-description: Use the lookup component on interaction record pages in CSM Configurable Workspace to look up, link, and verify a contact or consumer on an interaction record.
+description: Use the lookup component on interaction record pages in CRM Workspace to look up, link, and verify a contact or consumer on an interaction record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-record-page-lookup-component.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Components, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Lookup component
 
-Use the lookup component on interaction record pages in CSM Configurable Workspace to look up, link, and verify a contact or consumer on an interaction record.
+Use the lookup component on interaction record pages in CRM Workspace to look up, link, and verify a contact or consumer on an interaction record.
 
 \[Omitted image "lookup-and-verify-component.png"\] Alt text: Lookup and verify contact card includes the contact name plus selectable fields for account name, email address, and phone numbers
 

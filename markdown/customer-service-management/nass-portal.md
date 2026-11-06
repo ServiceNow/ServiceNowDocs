@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/nass-portal.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automate and optimize, Use, Customer Service Management]
 ---
@@ -37,7 +37,7 @@ You can enable enhanced chat experience from the ServiceNow Otto in Virtual Agen
     The new theme is visually appealing, engaging, and user-friendly, with a focus on enhancing productivity.
 
 
-## Search experience 
+## Search experience
 
 When you search for information using the Now Assist enhanced chat on your self-service portals, you receive comprehensive and detailed answers compared to the traditional AI search.
 

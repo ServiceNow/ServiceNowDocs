@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Google Drive external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -35,7 +35,7 @@ To learn more about labels and their IDs and values in Google Drive, see the [La
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sn_ext_conn_base_connector_configuration.list`.
+    2.  In the navigation field, enter `sn_ext_conn_base_connector_configuration.list`.
 
     3.  Press Enter.
 

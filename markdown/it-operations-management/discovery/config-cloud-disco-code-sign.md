@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ Configure a system property to disable unsupported script tracking for Cloud Dis
 
 Confirm the following:
 
--   You're using the Australia version of the ServiceNow AI Platform.
+-   You're using the Brazil version of the ServiceNow AI Platform.
 -   You're using the following ServiceNow Store applications and versions:
     -   Discovery Admin Workspace v1.13.0.
     -   Visibility Content v6.13.10.

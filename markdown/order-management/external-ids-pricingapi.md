@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/external-ids-pricingapi.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -26,6 +26,7 @@ You can use external codes for the following reference fields \(objects\), inclu
 -   Characteristics and characteristic options
 -   Pricing adjustment type
 -   Account
+-   Consumer
 
 **Note:** External IDs apply to REST API pricing requests and do not affect UI‑based flows. Pricing execution can use internal system IDs, external IDs, or a combination of both IDs in pricing requests. For more information on the pricing API, see [Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales-crm-pricing-api.md).
 

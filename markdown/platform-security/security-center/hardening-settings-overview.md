@@ -7,7 +7,7 @@ release: australia
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [All settings, Security hardening, Security configuration console, Security Center, Platform Security]
 ---
@@ -93,14 +93,6 @@ Setting configuration
 </td><td>
 
 Details related to the compliance status of your hardening setting along with instructions on how to make them compliant.**Note:** Some hardening settings may require you to configure multiple properties and plugins to make them compliant.
-
-</td></tr><tr><td>
-
-Accept compliance risk
-
-</td><td>
-
-If you're unable to make a hardening setting compliant, but the risk is acceptable, you can accept the risk and document an explanation.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[All settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/all-settings.md)

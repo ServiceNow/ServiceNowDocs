@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Portal content, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Portal content, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Create video content
@@ -106,9 +106,4 @@ The link to the video you want to appear as content.Only YouTube and Vimeo video
 
         **Note:** To edit the content after a review, the content request item state must be changed to **Work in Progress**.
 
-
-**Related topics**  
-
-
-[Embed videos in the HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EmbeddingVideoInHTMLFields.md)
 

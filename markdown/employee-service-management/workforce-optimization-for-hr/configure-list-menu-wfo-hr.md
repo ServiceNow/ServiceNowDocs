@@ -7,9 +7,9 @@ release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure coaching, Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Setting up Coaching in Workforce Optimization for HR, Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure a list menu to display in the Learning tab in Workforce Optimization for HR
@@ -59,5 +59,5 @@ Role required: sn\_hr\_wfo.admin
 9.  Click **Update**.
 
 
-**Parent Topic:**[Configure Coaching in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/setup-coaching-wfo-hr.md)
+**Parent Topic:**[Setting up Coaching in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/setup-coaching-wfo-hr.md)
 

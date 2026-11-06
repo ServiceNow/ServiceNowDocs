@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [backfill, planning item, scheduled job, RIDAC, migration]
 breadcrumb: [Configure, RIDAC, Strategic Planning, Strategic Portfolio Management]

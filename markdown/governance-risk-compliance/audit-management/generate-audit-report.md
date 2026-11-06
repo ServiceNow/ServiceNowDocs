@@ -7,10 +7,10 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Generate audit report in audit Word template, Audit report template, Word report template for audit, Generate audit report, Audit report in Word template for an engagement record]
-breadcrumb: [Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Generate an audit report for an engagement using Microsoft Word template
@@ -21,7 +21,7 @@ Generate an audit report for an engagement record using Microsoft Word template 
 
 Role required: sn\_audit.manager, sn\_audit\_ws.supervisor, sn\_irm\_shared\_cmn.word\_template\_reader
 
-1.  To apply the Word template in the engagement record and to generate the report in the Audit Workspace, you must have the Audit manager role \(sn\_audit.manager\) and also the Word template reader role \(sn\_irm\_shared\_cmn.word\_template\_reader\). More importantly, you must have access to the Audit Workspace.
+1.  You must have the Audit manager role \(sn\_audit.manager\) and the Word template reader role \(sn\_irm\_shared\_cmn.word\_template\_reader\). You must also have access to the Audit Workspace.
 2.  To generate the report for the engagement, the record must be in the Validate, Fieldwork, or Follow Up state.
 3.  To view the **Generate report** button in the engagement record, you should have selected the **Word report template** option in the **Template type** field while creating the record.
 
@@ -37,15 +37,15 @@ To generate an audit Word report, you must navigate to **All** &gt; **Audit** &g
 -   [Create Word Report Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/audit-word-template-form.md)
 -   [Create Word Template Categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/audit-word-template-category.md)
 
--   If you had selected the **Classic report template** option in the **Template type** field while creating the engagement record, then the reports are generated as a Knowledge Base, while the input template is in HTML, script, or XML. For more information, see [Create an audit report template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/create-audit-report-temp.md).
--   If you had selected the **Word report template** option in the **Template type** field as an input template while creating the engagement, then the Word template report that is generated is a Word file.
+-   If you selected the **Classic report template** option in the **Template type** field while creating the engagement record, the reports are generated as a Knowledge Base. The input template is in HTML, script, or XML. For more information, see [Create an audit report template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/create-audit-report-temp.md).
+-   If you selected the **Word report template** option in the **Template type** field while creating the engagement record, the reports are generated as Word files.
 
 You can apply the Microsoft Word template to one or more audit engagement records and generate the audit report in Word format. You can use the Word document to collaborate with other stakeholders for report editing.
 
 There are two steps to this process:
 
 1.  As an audit admin, you can navigate to the Word template module and configure the record for a particular table or a document.
-2.  As an audit manager, audit supervisor, or auditor you can then associate the Word report template to the engagement record and generate the audit report, provided you also have the template reader \(sn\_irm\_shared\_cmn.word\_template\_reader\) role.
+2.  As an audit manager, audit supervisor, or auditor you can then associate the Word report template to the engagement record and generate the audit report. You must also have the template reader \(sn\_irm\_shared\_cmn.word\_template\_reader\) role.
 
 You also have the option to manage the generated report either as an sys\_attachment or on cloud in the Audit Workspace.
 
@@ -103,7 +103,7 @@ The generated report can be saved at the Microsoft SharePoint or Google Drive si
 
     A Word report attachment is created each time you generate the report. By default, only the latest Word report is attached to the record. However, there's a system property that you can set to retain the previous attachments even when a new report is generated with the latest attachment.
 
-    By default, the property is set as false, which means that the previous Word report as a sys attachment is deleted from the engagement record when the report is generated again. The engagement, therefore, has the latest report, which is attached to the record.
+    By default, the property is set as false. This means that the previous Word report as a sys attachment is deleted from the engagement record when the report is generated again. The engagement has only the latest report attached to the record.
 
     As an audit admin, you can set the property as true to retain the previous attachments with the engagement record. All the previous attachments are available to view in the Attachments section. Retaining the previous attachments helps you to track an audit trail on the engagement.
 

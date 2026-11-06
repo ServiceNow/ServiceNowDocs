@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/define-field-mappings-sol-config.html
 release: australia
 topic_type: task
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [field mapping, source field, target field, configurable product action, admin]
-breadcrumb: [Enable solution configuration, Set up Solution Configuration, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Enable solution configuration, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Define field mappings for a solution configuration
@@ -26,7 +26,7 @@ Role required: admin
 
 Field mappings are defined as part of a configurable product action. Each mapping specifies a source field on the parent blueprint and a target field on the child blueprint. The value of the source field is passed to the target field when the child configuration is created, and again whenever the source field value changes during a session.
 
-Target fields become read-only in the child configuration — the buyer can't change a mapped value directly. To continue mapping across multiple levels in a solution hierarchy, define the relevant mappings on each blueprint in the chain independently.
+Target fields become read-only in the child configuration — the buyer cannot change a mapped value directly. To continue mapping across multiple levels in a solution hierarchy, define the relevant mappings on each blueprint in the chain independently.
 
 ## Procedure
 

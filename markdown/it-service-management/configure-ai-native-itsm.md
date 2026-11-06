@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/configure-ai-native-itsm.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure and integrate, Simplified IT Service Management, IT Service Management]
 ---
@@ -34,15 +34,15 @@ Ensure that both the ServiceNow Otto for Setup and the relevant IT Service Manag
 
 4.  From the Configure IT Service Management page, perform any of the following tasks.
 
-<table><thead><tr><th align="left" id="d486802e148">
+<table><thead><tr><th align="left" id="d444816e148">
 
 Choice
 
-</th><th align="left" id="d486802e151">
+</th><th align="left" id="d444816e151">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d486802e157">
+</th></tr></thead><tbody><tr><td id="d444816e157">
 
 **Configuration summary in the left navigation pane**
 
@@ -50,7 +50,7 @@ Description
 
 Provides the summary of configuration activity and progress.
 
-</td></tr><tr><td id="d486802e166">
+</td></tr><tr><td id="d444816e166">
 
 **Configure with AI**
 
@@ -58,7 +58,7 @@ Provides the summary of configuration activity and progress.
 
 Configures Simplified IT Service Management using the Now Assist agent. It also displays all available AI agents in IT Service Management. Ensure that the ServiceNow Otto with ServiceNow Otto for Setup application is installed. See [Set up ServiceNow Otto with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-now-assist.md).
 
-</td></tr><tr><td id="d486802e199">
+</td></tr><tr><td id="d444816e199">
 
 **Configurations for Platform setup, employee, and fulfiller experiences in the left navigation pane**
 
@@ -71,7 +71,7 @@ For information about configuration page options, see [Understand the Configurat
 
 **Important:** For each configuration, use the guided configuration experience or the conversation AI agent \(if available\). You can use the conversation AI agent by selecting **Configure with AI** on that configuration UI page. For information about AI agents for configurations, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
 
-</td></tr><tr><td id="d486802e267">
+</td></tr><tr><td id="d444816e267">
 
 **Package and download**
 

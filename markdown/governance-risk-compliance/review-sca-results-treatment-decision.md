@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/review-sca-results-treatment-decision.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Scenario Analysis, Operational Resilience, simulation results, treatment decision, Accept, Mitigate, Avoid, Transfer]
-breadcrumb: [Building a scenario analysis using simulation, Scenario analysis using simulation, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Building a scenario analysis using simulation, Conducting a scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Review results and decide the treatment

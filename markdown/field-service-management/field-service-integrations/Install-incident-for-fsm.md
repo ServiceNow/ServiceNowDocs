@@ -1,5 +1,5 @@
 ---
-title: Activate Incident Management for Field Service
+title: Install Incident Management for Field Service
 description: You can install the Incident Management for Field Service application \(sn\_fsm\_inc\_mng\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-integrations/Install-incident-for-fsm.html
@@ -7,12 +7,12 @@ release: australia
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration with Incident Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
 
-# Activate Incident Management for Field Service
+# Install Incident Management for Field Service
 
 You can install the Incident Management for Field Service application \(sn\_fsm\_inc\_mng\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 

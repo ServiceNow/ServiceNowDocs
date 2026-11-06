@@ -7,7 +7,7 @@ release: australia
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -20,7 +20,7 @@ After the resource plan is requested, as a resource manager, you can directly al
 
 **Important:** Resource plans in Resource Management will no longer be available for new customers from future releases.
 
-You're encouraged [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility and [Create resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
+You're encouraged [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility and [Create resource assignments and operation resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
 
 Resource managers can [assign and approve the unassigned resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/allocate-resources-rmw.md) using Resource Management Workspace.
 
@@ -62,11 +62,11 @@ Any errors or warnings during allocations are logged in the Resource Plan Logs r
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan]()
+[Recalculate costs of a resource plan of a project or demand]()
 
 [Update cost plan related to a resource plan]()
 
-[Complete an allocated resource plan]()
+[Complete a resource plan]()
 
 [Cancel a resource plan]()
 

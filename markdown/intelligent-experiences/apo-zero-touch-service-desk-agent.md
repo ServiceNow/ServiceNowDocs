@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-06"
 reading_time_minutes: 2
-breadcrumb: [Accounts Payable Operations AI agents, Accounts Payable Operations \(APO\), AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Accounts Payable Operations AI agents, Accounts Payable Operations \(APO\), AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Zero touch service desk agent

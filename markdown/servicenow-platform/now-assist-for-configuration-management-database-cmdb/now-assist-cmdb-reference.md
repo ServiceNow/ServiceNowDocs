@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,7 +21,7 @@ List of system properties for the agents used by ServiceNow Otto for CMDB agents
 -   **[Data Model Navigator app features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-data-model-nav-ref.md)**  
 The Data Model Navigator app provides comprehensive information about CMDB tables, attributes, and relationships with context-aware guidance for specific use cases. While users can view the data, the primary purpose is to generate up-to-date indexed data for use by ServiceNow Otto agents and skills.
 -   **[CMDB impact analysis agentic workflow details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md)**  
-Reference information for the Assess CMDB impact agentic workflow, including input modes, output schema, supported record types, workflow tools, and constraints.
+Reference information for the Impact analysis agentic workflow, including input modes, output schema, supported record types, workflow tools, and constraints.
 -   **[Business application candidate agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-agent-biz-app-candidate-ref.md)**  
 Reference information for the Business application candidate agent, including system properties, configuration limits, table names, role requirements, and operational constraints.
 -   **[CMDB MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server-ref.md)**  

@@ -7,7 +7,7 @@ release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating an assessment template from legacy assessment metric types, Configure, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---

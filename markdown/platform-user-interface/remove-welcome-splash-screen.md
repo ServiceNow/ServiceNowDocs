@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/remove-welcome-splash-screen.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [User preferences, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -32,7 +32,7 @@ This welcome splash screen appears for admins only. It informs you about the Nex
 
 3.  Enter the following values.
 
-<table id="choicetable_h1c_4hh_jw"><tbody><tr><td id="d148454e120">
+<table id="choicetable_h1c_4hh_jw"><tbody><tr><td id="d149916e120">
 
 **Description**
 
@@ -40,7 +40,7 @@ This welcome splash screen appears for admins only. It informs you about the Nex
 
 A description of the user preference. For example, `Remove the welcome splash screen.`
 
-</td></tr><tr><td id="d148454e132">
+</td></tr><tr><td id="d149916e132">
 
 **User**
 
@@ -52,7 +52,7 @@ The user that the splash screen is turned off for.
 
  To turn off the splash screen for specific users, user the search icon \(\[Omitted image "SearchIcon.png"\] Alt text: Search image.\) to find the user and select them in the search results.
 
-</td></tr><tr><td id="d148454e156">
+</td></tr><tr><td id="d149916e156">
 
 **Name**
 
@@ -62,7 +62,7 @@ User preference name. To turn off the welcome splash screen, enter the following
 
  `overview_help.visited.navui`
 
-</td></tr><tr><td id="d148454e172">
+</td></tr><tr><td id="d149916e172">
 
 **Value**
 
@@ -70,7 +70,7 @@ User preference name. To turn off the welcome splash screen, enter the following
 
 Enter `true` to enable this user preference, which turns off the welcome splash screen.
 
-</td></tr><tr><td id="d148454e184">
+</td></tr><tr><td id="d149916e184">
 
 **Type**
 
@@ -78,7 +78,7 @@ Enter `true` to enable this user preference, which turns off the welcome splash 
 
 Select **string**.
 
-</td></tr><tr><td id="d148454e197">
+</td></tr><tr><td id="d149916e197">
 
 **System**
 

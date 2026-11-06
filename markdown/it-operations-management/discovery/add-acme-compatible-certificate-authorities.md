@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---

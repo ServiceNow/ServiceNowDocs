@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/spc-install.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Explore, Security Posture Control, Security Operations]
 ---
 
@@ -66,11 +66,6 @@ Role required: admin for download, installation, and activation of all applicati
 
     A dialog is displayed after an application is successfully activated.
 
-    For more information about downloading and installing applications from the ServiceNow Store:
-
-    -   To Opt in to ServiceNow products, follow the steps in [Opt in to the ServiceNow Store products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/optin-optout-prod.md).
-    -   To install an application that you have purchased from the ServiceNow Store, follow the steps in [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
-    -   Alternatively, if you want to manage your entitlement for the applications on other ServiceNow AI Platform instances, follow the steps in [Manage entitlements from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/entite-app.md).
 4.  After you have installed and activated the applications, assign users to the following Security Posture Control groups:
 
     These groups inherit all the roles necessary to read and edit SPC records.

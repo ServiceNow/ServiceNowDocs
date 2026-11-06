@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configuring-related-product-pricing.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-11-04"
+reading_time_minutes: 8
 keywords: [derived pricing, price list line, product offering source, product offering target, Derived Pricing Matrix]
 audience: administrator
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
@@ -104,6 +104,69 @@ Formulas \(SUM, MIN, MAX, AVG\) used to determine a single derived product price
 </table>## Scope: Quotes and orders
 
 Derived pricing applies to both quotes and orders. When you configure rules in the Derived Pricing Matrix, the system automatically applies those rules to derived line items in both transaction types. The system handles all line-level changes \(adds, updates, and removals\) without requiring manual edits from agents.
+
+## Automatic generation of derived pricing lines
+
+The pricing engine generates the derived product lines for a transaction and aligns their dates to the source lines that fund them. Sellers add the source products and the derived product to the transaction; they don't work out how many derived lines are needed or what dates each line carries. Automatic generation is enabled by default. To turn it off, see [Disable auto-generation of derived pricing lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-derived-pricing-auto-generation.md).
+
+The pricing engine reads source lines from one of two origins, depending on the scope set for the derived product. For bundle and cart scope, it reads the source lines on the transaction itself, such as the quote lines that a seller adds. For account scope, it reads the source lines on the account's sold product records. In either case, a source product can take any of the following shapes:
+
+-   A standalone product
+-   A bundle
+-   A product within a bundle
+
+Before automatic generation was available, sellers added each account-scope derived line themselves with start and end dates that matched the sources, recalculated those dates whenever a source changed, and split derived lines manually when a source split. A derived line whose dates didn't align with its sources was excluded from the price calculation without warning, so a date entered incorrectly produced an undervalued quote.
+
+The following table describes how the pricing engine responds to the source products.
+
+|Source condition|Result for the derived product|
+|----------------|------------------------------|
+|A source is ramped across multiple date ranges.|The pricing engine creates one derived line for each date range. When several sources are ramped, it segments the derived product on the most granular set of non-overlapping date ranges.|
+|A ramp is added, changed, or removed.|The pricing engine adds, updates, or removes derived lines so that they match the new set of date ranges.|
+|A seller adds a derived line whose dates don't align with the sources.|The pricing engine changes the dates on that line and creates additional derived lines to cover the remaining date ranges.|
+|A contract is amended and a source line splits, such as an upsell part-way through the term.|The derived product splits the same way. A new derived line covers the period from the amendment date to the end of the term.|
+|The derived product sits inside a bundle.|The pricing engine takes the most recent configuration of the derived product from the account's sold product records, then adds both the bundle line and the derived line to the transaction.|
+|The sources belong to more than one contract.|The pricing engine generates the derived lines from the sold products across those contracts. A derived line can extend beyond the end date of a contributing contract.|
+
+When derived lines already exist for the product, the pricing engine uses one of them as the reference line and copies its priced characteristics and context variables to every line it creates. On a new transaction, the reference line is the derived line that the seller added. On an amendment or a renewal, it's the most recent derived line in the account's sold product records.
+
+The Derived Pricing Matrix v2 supports auto-generation of derived pricing lines.
+
+## Date segments with term-aware pricing
+
+ServiceNow uses the stateless date-segments approach to generate derived pricing. For subscriptions, this method performs the following steps:
+
+1.  Analyzes all source product start and end dates to identify time boundaries
+2.  Creates one non-overlapping target segment for each distinct time interval
+3.  Calculates cumulative net price for active sources, accounting for monthly recurring price and months in each segment
+4.  Applies a fixed percentage \(for example, 10%\) to derive the target product price
+5.  Optionally applies a manual discount to the target product
+6.  Marks all system-generated target lines with a SYSTEM\_GEN flag to prevent manual edits
+
+For how the pricing engine calculates the derived price for each segment, including what happens on an upsell, downsell, or renewal, see [Calculating derived pricing for subscription products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/calculating-derived-pricing-subscriptions.md).
+
+## System-generated derived pricing lines
+
+Derived lines that the pricing engine creates have the **System generated** \[**system\_generated**\] field set to true. Derived lines that a seller adds keep this field set to false. Use the field to tell the two apart in reports, integrations, and downstream business logic.
+
+On a system-generated line, a seller can change the start date of the first date segment. The pricing engine applies that change and recalculates the remaining segments from it. The pricing engine manages the quantity, the dates on later segments, and the priced characteristics that it copied from the reference line.
+
+A system-generated line can span a date range that reaches past the end of one contributing contract, so date validation is relaxed for these lines.
+
+Generated lines, including sold product lines, derived product lines, and other generated lines, take the auto-renew value from the sold product. Only sold products in the transaction currency contribute to a derived price.
+
+## Cached derived price rule results
+
+Derived pricing caches the rule matrix result for each source and target product offering pair. Caching reduces repeated rule matrix evaluations and improves derived pricing performance across scenarios. The performance improvement is most significant for account-level derived pricing, where accounts with thousands of sold products can require the rule matrix to evaluate a large number of source and target product offering pairs.
+
+The cache is enabled by default, and cached results expire after 72 hours. To evaluate the rule matrix on every request instead, set the **sn\_csm\_pricing.derived\_price\_cache\_enabled** property to `false`. Use the **sn\_csm\_pricing.derived\_price\_cache\_ttl\_hours** property to change how long cached results are kept. For more information, see [Pricing Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/pricing-management-properties.md).
+
+To refresh cached results daily, activate the Derived Price Rules Cache - Scheduled Refresh scheduled job. The job is inactive by default.
+
+Changes to the Derived Pricing Matrix v2 don't automatically invalidate existing cached results. If you want rule changes to take effect before the cached results expire, use one of these methods:
+
+-   Refresh the cache on demand. Open the Derived Price Rules Cache - Scheduled Refresh scheduled job and select **Execute Now**, or run `new sn_csm_pricing.DerivedPriceCacheWarmer().run()` from a background script. Refreshing the cache re-evaluates the existing cached results against the current matrix.
+-   Delete the affected cached results. Delete rows from the Derived Price Rules Cache \[sn\_csm\_pricing\_der\_rules\_cache\] table. You can delete all cached results or only the results for the affected target product offering.
 
 ## Limitations for derived pricing
 

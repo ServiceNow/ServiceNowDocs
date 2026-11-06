@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/addl-inf-io-anomaly.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Anomaly details]
 breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]

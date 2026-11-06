@@ -1,6 +1,6 @@
 ---
 title: Set up the Cornerstone spoke
-description: Integrate your Cornerstone application with your ServiceNow instance. Register an OAuth application in Cornerstone and authenticate requests from ServiceNow.Register an application in the Cornerstone instance and record the generated Client ID and Client Secret for later use.Add and configure a Cornerstone connection to authenticate ServiceNow requests in Cornerstone spoke.
+description: Integrate your Cornerstone application with your ServiceNow instance. Register an OAuth application in Cornerstone and authenticate requests from ServiceNow.Register an application in the Cornerstone instance and record the generated Client ID and Client Secret for later use.Add and configure a Cornerstone connection to authenticate ServiceNow requests in the Cornerstone spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-cornerstone.html
 release: australia
@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Cornerstone Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -66,9 +66,9 @@ Role required: admin
     The values of Client ID and Client Secret are generated. Copy and record these values for later use.
 
 
-## Configure connection for the Cornerstone spoke
+## Configure a connection for the Cornerstone spoke
 
-Add and configure a Cornerstone connection to authenticate ServiceNow requests in Cornerstone spoke.
+Add and configure a Cornerstone connection to authenticate ServiceNow requests in the Cornerstone spoke.
 
 ### Before you begin
 
@@ -76,31 +76,40 @@ Role required: admin.
 
 ### Procedure
 
-1.  Navigate to **Process Automation** &gt; **Flow Designer**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Click the **Connections** tab.
+2.  Click the **Integrations** tab.
 
-3.  Locate the **Cornerstone** connection alias in the outbound connections.
+3.  Under **Connections**, the **Outbound** connections are displayed by default. Locate the **Cornerstone** connection alias.
 
 4.  Click **View Details**.
 
-    **Note:** Don't click **Add Connection**.
+    -   To configure the default connection and credential alias record that is shipped along with the Cornerstone spoke, click **View Details**.
 
+        \[Omitted image "cornerstone-connection.png"\] Alt text: Connection for the Cornerstone spoke with View Details highlighted.
+
+    -   To manage more than one Cornerstone spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
 5.  Click **Edit** or if you are configuring the spoke for the first time, click **Configure**.
+
+    \[Omitted image "cornerstone-connection-conf.png"\] Alt text: Initial connection configuration with Configure highlighted.
 
 6.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
+    |Connection Information|
     |Connection Name|Name to identify the connection record.|
     |Connection URL|URL of the Cornerstone instance.|
     |Base URL|URL of the Cornerstone instance.|
+    |Credential Information|
     |OAuth Entity Name|Name to identify the application registry record.|
     |OAuth Client ID|Client ID created during the application configuration in Cornerstone.|
     |OAuth Client Secret|Client Secret created during the application configuration in Cornerstone.|
     |Token URL|OAuth server token endpoint. For example, `https://<Cornerstone-Instance>.com/services/api/oauth2/token`.|
 
-7.  Click **Configure and Get OAuth Token**.
+    \[Omitted image "cornerstone-conf-temp.png"\] Alt text: Configure a connection for the Cornerstone spoke.
+
+7.  Click **Save and Get OAuth Token**.
 
 
 ### Result

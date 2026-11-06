@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/enable-healthscore-calculation.html
 release: australia
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [article health score, knowledge management properties, knowledge center properties, health score calculation]
 breadcrumb: [Configuring Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]

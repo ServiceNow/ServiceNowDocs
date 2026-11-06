@@ -7,7 +7,7 @@ release: australia
 product: Cost Management
 classification: cost-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using distribution costs and rules, Cost Management, Strategic Portfolio Management]
 ---

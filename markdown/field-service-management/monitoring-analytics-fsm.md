@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/monitoring-analytics-fsm.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Explore, Field Service Management]
 ---
 
@@ -65,13 +65,26 @@ The Emergency Exposure Management application enables you to do the following:
 
 Resolve work orders more efficiently by using Predictive Intelligence for Field Service Management to identify work orders with similar issues. Each group of similar work orders represents a work order trends topic.
 
+### Example: Predict Parts and Job Duration
+
+A dispatcher needs to identify required parts and estimate job duration accurately without manually reviewing historical records. Predictive Intelligence analyzes historical work order data and asset history to predict required parts and job duration, giving dispatchers the information needed to schedule jobs accurately.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|System|Creates work order|
+|2|System|Analyzes historical data and asset history|
+|3|System|Identifies required parts and estimated duration|
+|4|Dispatcher|Reviews predictions|
+|5|Dispatcher|Reserves parts|
+|6|Dispatcher|Schedules job with accurate timing|
+
 ### Key benefits
 
 Using work order trends topic has the following benefits:
 
 -   Increase manager productivity: Quickly identify clusters of cases that point to similar underlying issues and act to resolve them.
--   Improve agent experiences: Proactively resolve issues by analyzing other work orders in the topic.​
--   Enhance operational efficiency: Reduce the backlog of work orders by resolving several similar types of work orders at once.​
+-   Improve agent experiences: Proactively resolve issues by analyzing other work orders in the topic.
+-   Enhance operational efficiency: Reduce the backlog of work orders by resolving several similar types of work orders at once.
 
 System administrators train solution definitions to identify and cluster similar type of work orders. Managers use the **Work Order Trends** topic lists to analyze the backlog of work orders.
 

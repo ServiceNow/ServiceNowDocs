@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-csm-config-ws-highlight-value.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-20"
 reading_time_minutes: 1
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---

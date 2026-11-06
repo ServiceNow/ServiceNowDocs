@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -268,5 +268,5 @@ Reference to the \[cmdb\_ci\] table
 **Related topics**  
 
 
-[Discover java installation data using Agent Client Collector for Visibility Content file-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-file-based-discovery.md)
+[Discover Java installation data using Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-file-based-discovery.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a scripted REST API to require an ACL, Create a scripted REST API, Scripted REST APIs, REST APIs, Web services, API implementation, API implementation and reference]
 ---

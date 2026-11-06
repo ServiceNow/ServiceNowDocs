@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Reclaim software
@@ -25,6 +25,8 @@ Role required: sam\_admin
 Reclaiming software involves a workflow to remove software for a user. You can reclaim software for multiple reasons such as low usage, optimization generated due to consolidation, or overlapping subscriptions. The reclamation process can be managed manually through the creation of tasks or automatically using the Client Software Distribution \(CSD 2.0\) capabilities.
 
 You can select **Show Workflow** at any point of time in the reclamation workflow to see the current stage the workflow is in. For information on CSD 2.0, see [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/csd-app-2.md).
+
+Starting from the Brazil release, the reclamation workflow can also be completed using the Software Reclamation Flow in the Flow Designer application along with additional error handling functionality.
 
 ## Procedure
 

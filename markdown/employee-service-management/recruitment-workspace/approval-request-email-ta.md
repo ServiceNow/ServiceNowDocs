@@ -7,7 +7,7 @@ release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approve job requisition, Use, Recruitment Workspace, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -16,7 +16,9 @@ breadcrumb: [Approve job requisition, Use, Recruitment Workspace, Hiring Experie
 
 Email notification for an approval request helps the approver be notified without delay.
 
-An email notification is sent to your registered email address when a job requisition approval request is raised for you.
+An email notification comes to your registered email address when a job requisition approval request is raised for you.
+
+
 
 Get the details of the approval request like job title, hiring manager, recruiter, employment type, compensation range from the email notification.
 

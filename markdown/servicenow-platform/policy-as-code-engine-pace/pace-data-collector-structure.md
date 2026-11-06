@@ -7,7 +7,7 @@ release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Passing parameters to PaCE policies, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ When you create a data collector, you can add inputs and outputs in the Javascri
 
 The following image shows a sample data collector:
 
-To debug the data collector script, select the Debugger script icon \[Omitted image "pace-debug-icon.jpg"\] Alt text: Debugger icon. For more information, see [Script Debugger API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scriptdebugger-api.md).
+To debug the data collector script, select the Debugger script icon \[Omitted image "pace-debug-icon.jpg"\] Alt text: Debugger icon. For more information, see .
 
 The following table lists the data collector function parameters and how they can be used in the script.
 

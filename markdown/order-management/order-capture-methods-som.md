@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-capture-methods-som.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ Orders can be created by agents, customers, or using APIs in ServiceNow Order Ma
 
 ## Order capture by the agents
 
-Order agents and service agents can capture orders for existing customers from the CSM/FSM Configurable Workspace. Sales agents can create orders by converting an approved quote. The following table lists the various order creation channels and their benefits.
+Order agents and service agents can capture orders for existing customers from the CRM Workspace. Sales agents can create orders by converting an approved quote. The following table lists the various order creation channels and their benefits.
 
 <table id="table_ar5_brv_4gc"><thead><tr><th>
 

@@ -7,7 +7,7 @@ release: australia
 product: Product Catalog
 classification: product-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Product Catalog, Common applications, Asset Management]
 ---
@@ -18,7 +18,7 @@ Model categories associate CI classes with asset classes. Model categories are p
 
 The model category configuration determines if the ServiceNow platform creates an asset from a CI, and, if so, what class of asset. Asset classes in the base system are **Hardware**, **Software License**, and **Consumable**. You can associate a model category to many models and a model to many model categories. For example, a specific model of a computer can be a **Computer** and a **Server**.
 
-\[Omitted image "mmasset0021989-models-diagram.svg"\] Alt text: Model diagram
+\[Omitted image "ModelsDiagram.png"\] Alt text: Models diagram
 
 Any item that is provided as a service or sold to your customer is tracked as an Install Base Item \(IBI\). The Model category table associates Asset class, CI class, and Install Base Item \(IBI\) class.
 

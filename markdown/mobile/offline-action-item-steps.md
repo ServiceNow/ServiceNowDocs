@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/offline-action-item-steps.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -24,7 +24,7 @@ Examples of writeback actions:
 
     Save or submit the form by creating or updating a record, add a work note or comment, or attach a photo or file.
 
--   **From a recprd screen**
+-   **From a record screen**
 
     Accept a work order task, assign or reassign a record, or record the start or end of a shift.
 
@@ -65,9 +65,9 @@ The writeback action serves as the parent, containing one or more steps that can
         -   Marks changes for later sync to the instance but reflects the changes for the user within the app and affecting workflows where this data is used while offline. For example, for filtering data in lists which show/hide buttons according to conditions.
         -   Limited to simple, rule-based validations \(no advanced scripting\).
         -   Final updates and server logic occur only after the device reconnects.
--   **When to use an offline multistep**
+-   **What to use an offline multistep**
 
-    You should consider using offline multistep when users need to continue working without connectivity and immediate feedback of their actions that affect workflows within the app is important also in offline. Offline steps are used for:
+    You should consider using offline multistep when users need to continue working without connectivity and immediate feedback of their actions that affect workflows within the app is important also in Offline. Offline steps are used for:
 
     -   Showing users the look and feel of their changes while offline.
     -   Applying basic record updates that don’t require complex scripting.

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-08-05"
 reading_time_minutes: 1
 keywords: [erp, integration, canvas, data hub, sap, zero, copy, connector, entity, idoc]
-breadcrumb: [IDoc, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [IDoc, Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Complete IDOC prerequisites
@@ -25,7 +25,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Set up [partner profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/view-erp-system-partner-profile-information.md).
 
-2.  Explore the API for interacting with models.
+2.  [Explore the API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md) for interacting with models.
 
 3.  [Add an IDoc entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-an-idoc-entity-to-a-model-operation.md) to a model.
 

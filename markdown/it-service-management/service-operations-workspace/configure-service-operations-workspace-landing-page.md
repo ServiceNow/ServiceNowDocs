@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customizing Service Operations Workspace for ITSM to align with your requirements, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -42,5 +42,5 @@ Role required: admin
 
 [Create a copy of the Service Operations Workspace landing page]()
 
-[Customize the incident record page]()
+[Incident record page customization]()
 

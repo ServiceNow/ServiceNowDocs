@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-ne-theme-in-mab.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure theming, Next Experience theming, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 To use Next Experience theming, you must have Next Experience enabled on your instance. For activation instructions and more information on Next Experience, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 
-**Note:** If you are a new customer starting with the Australia release, Next Experience is active by default on your instance. No activation is required, and your mobile apps use the **Coral** theme automatically.
+**Note:** If you are a new customer starting with the Brazil release, Next Experience is active by default on your instance. No activation is required, and your mobile apps use the **Coral** theme automatically.
 
 ## Procedure
 

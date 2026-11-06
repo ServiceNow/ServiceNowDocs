@@ -5,14 +5,30 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/create-scan-engine-definition-suites.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Customize Scan Engine definition suites
 
 Follow these steps to create or modify Scan Engine definition suites.
+
+## About this task
+
+Definition suites are useful as they allow scanning of the entire instance or all definitions. Admins can focus on a suite that represents a logical category and improve efficiency and precision in code quality checks.
+
+By default, the following suites are available:
+
+-   Scan Engine
+-   JavaScript Naming Conventions
+-   Scoped Application
+-   ITOM
+-   Workflow Engine
+-   Security and Instance Hardening
+-   IL4 \(Impact Level 4\)
+-   HR Scoped Applications
+-   Artificial Intelligence Readiness
 
 ## Before you begin
 
@@ -35,11 +51,6 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin_role` role\)
     |Description|Detailed description of why the suite was created.|
 
 5.  Modify Scan Engine Definition Suites
-
-    **Note:** Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\).
-
-    While only Scan Engine admins can modify definitions, any user with the Scan Engine user role can view them.
-
 6.  Navigate to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Definition Suites**.
 
 7.  Select a suite number to open its details and modify its properties.

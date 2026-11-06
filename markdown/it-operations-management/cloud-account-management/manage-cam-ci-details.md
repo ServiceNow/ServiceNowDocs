@@ -7,8 +7,8 @@ release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Viewing the cloud asset explorer, Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Viewing the cloud asset explorer, Viewing Cloud Account Management 
 
 Use the cloud asset form in the Cloud Account Management to view, edit, and manage cloud asset details such as attributes, health, and records.
 
-The cloud asset form is a centralized, highly organized, and comprehensive set of sections with cloud asset details. Use this form to examine and edit cloud asset attributes, relationships, tags, services and offerings. You can also view account health and data associated with the cloud asset, resources, activities, and related services.
+The cloud asset form is a centralized, highly organized, and comprehensive set of sections with cloud asset details. Use this form to examine and edit cloud asset attributes, relationships, tags, services and offerings, and account health. You can also view data associated with the cloud asset, resources, activities, and related services.
 
 The following sections describe the various sections of the cloud asset form.
 
@@ -71,4 +71,6 @@ This section shows cards with counts of the following services and offerings ass
 This section shows aggregations from the latest CMDB Health test results for the Completeness, Correctness, Compliance, and Relationship KPIs, and the aggregated state of attestation. Color codes are used to denote pass/fail scores.
 
 **Note:** For more information on each section, see [Manage CI details using CI Form in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ci-form-cmdb-workspace.md).
+
+**Parent Topic:**[Viewing the cloud asset explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/viewing-cloud-asset-explorer.md)
 

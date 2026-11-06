@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Employees can directly edit some information in their HR profile, such as emerge
 
 ## Before you begin
 
-Role required: sn\_hr\_core.secure\_info\_writer, sn\_hr\_core.basic, or sn\_hr\_core.manager
+Role required: sn\_hr\_core.profile\_writer, sn\_hr\_core.secure\_info\_writer, sn\_hr\_core.basic, or sn\_hr\_core.manager
 
 ## About this task
 
@@ -177,6 +177,26 @@ Ethnicity
 </td><td>
 
 Enter the ethnic group the user identifies with.
+
+</td></tr><tr><td>
+
+Ready to return to workplace
+
+</td><td>
+
+Identifies if the employee is ready to return to work. Works with Enterprise Employee Experience Packs for employees working from home during a health crisis.Select **Yes** and the employee is included in campaigns and lifecycle events related to returning to work.
+
+ Select **I'm not sure** and the employee is included in some of the lifecycle events related to returning to work. An HR task triggers for HR to review the employee's concerns.
+
+ For more information, see Enterprise Employee Experience Pack.
+
+</td></tr><tr><td>
+
+Return to workplace date
+
+</td><td>
+
+Works with the **Ready to return to workplace** field. Select a date when the employee plans to return to work.
 
 </td></tr><tr><td>
 

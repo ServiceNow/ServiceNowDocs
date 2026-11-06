@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/managing-issues-in-bcm.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [BCM, issues, remediation, plan]
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]
@@ -44,7 +44,7 @@ For more information, see [Issues module integration dependencies with BCM](http
 
 ## Classification and source
 
-When you create an issue from a plan, the issue is given the **Business continuity management** classification. The issue source and issue source reference are set to the plan that you created it from, the primary source of the issue.
+When you create an issue from a plan, the issue is given the **Business continuity management** classification. The issue source and issue source reference are set to the plan that you created it from, which is the primary source of the issue.
 
 \[Omitted image "create-issue-from-plan-record.png"\] Alt text: Create an issue from plan record.
 

@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 27
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -2042,7 +2042,7 @@ Description
 
 affectedService
 
-</td><td id="d4318e76">
+</td><td id="d3088e76">
 
 List of one or more services affected by the alarm.Data type: Array of Objects
 
@@ -2059,7 +2059,7 @@ List of one or more services affected by the alarm.Data type: Array of Objects
 
 affectedService.href
 
-</td><td id="d4318e89">
+</td><td id="d3088e89">
 
 URL reference that provides details of the affected service.Data type: String
 
@@ -2107,7 +2107,7 @@ Unique identifier of the alarm object. This value maps to a CI in the system. Da
 
 alarmedObject.href
 
-</td><td id="d4318e404">
+</td><td id="d3088e404">
 
 URL reference to get the details of the alarm object.
 
@@ -2332,7 +2332,7 @@ Instance ID of the source alarm. Data type: String
 
 specificProblem
 
-</td><td id="d4318e342">
+</td><td id="d3088e342">
 
 Specific problem that triggers the alarm. Use with the **probableCause** tparameter o qualify the alarm.Data type: String
 

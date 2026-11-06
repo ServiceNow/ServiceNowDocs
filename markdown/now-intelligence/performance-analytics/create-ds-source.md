@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Data snapshots logs, logs]
 breadcrumb: [Data snapshots sources and collection, Data snapshots and multiple breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
@@ -25,7 +25,7 @@ Role required: pa\_data\_collector or higher
 
 1.  Select the application scope.
 
-    The Data snapshots source inherits your application scope. With this Data snapshots source, you can only create indicators in that application scope. You can only create one Data snapshots source for a fact table, so the choice of application scope is important. For more information, see .
+    The Data snapshots source inherits your application scope. With this Data snapshots source, you can only create indicators in that application scope. You can only create one Data snapshots source for a fact table, so the choice of application scope is important. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
 
 2.  Navigate to **All** &gt; **Data Snapshots** &gt; **Sources**.
 
@@ -41,9 +41,9 @@ Role required: pa\_data\_collector or higher
 
 6.  Select which **Fields** of the fact table to include in the Data snapshots source.
 
-    Only the fields you specify in the Data snapshots source are tracked historically, or can be used to filter the resulting indicators. You can add more fields after creating the Data snapshots source. However, you won't have data about fields from before you added them. Nor can you remove fields.
+    Only the fields you specify in the Data snapshots source are tracked historically. Also, only these fields can be used to filter the resulting indicators. You can add more fields after creating the Data snapshots source. However, you won't have data about fields from before you added them. Nor can you remove fields.
 
-    **Note:** If you add a field that references a table with a record hierarchy, you can roll up the scores for that hierarchy through a [hierarchical dashboard filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-hierarchical-filter.md) or in [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/filter-data-snapshots-indicator-scores.md).
+    **Note:** If you add a field that references a table with a record hierarchy, you can roll up the scores for that hierarchy. To do so, use a [hierarchical dashboard filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-hierarchical-filter.md) or do it in [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/filter-data-snapshots-indicator-scores.md).
 
 7.  To activate data mining for the Data snapshots source, turn on **Data collection enabled**.
 

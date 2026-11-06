@@ -7,7 +7,7 @@ release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Question bank, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -44,6 +44,8 @@ Role required: sn\_smart\_asmt.question\_bank\_manager or sn\_smart\_asmt.assess
 4.  Enter a name and description for the section and then select **Save**.
 
 5.  Select a section or subsection in the list and then select **Add question**.
+
+    \[Omitted image "question-bank-detail.png"\] Alt text: Questions tab on the question bank, showing the section and question content tree and a radio button question being configured with its choices.
 
     Configure a question bank question the same way that you configure a template question, except that conditional visibility and response automation aren't available. For information about configuring each question type, see one of the following topics.
 

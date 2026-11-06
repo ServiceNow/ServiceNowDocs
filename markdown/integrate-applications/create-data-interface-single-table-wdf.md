@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-data-interface-single-table-wdf.html
 release: australia
 topic_type: task
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing data interfaces, Data Products, Workflow Data Fabric]
 ---
@@ -16,24 +16,26 @@ Create a governed data interface on a single source table and publish it to the 
 
 ## Before you begin
 
-Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df\_data\_steward, and delegatedadmin \(scope admin\)
+Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, and delegatedadmin \(scope admin\)
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Data Workbench**.
+1.  In the Unified Navigation menu, select the picker icon \(\[Omitted image "icon-scope.png"\] Alt text:\), then set the **Application scope** to the scope in which you want to create the data interfaces.
 
-2.  Select **Create** &gt; **Create data interface**.
+2.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Data Workbench**.
+
+3.  Select **Create** &gt; **Create data interface**.
 
     The data interface wizard opens to the **Basic details** step.
 
-3.  Enter the basic details for the data interface and select **Continue**.
+4.  Enter the basic details for the data interface and select **Continue**.
 
     -   **Interface label**: Enter a name for the data interface. This label identifies the data interface in the Data Catalog.
     -   **Unique name**: Auto-generated from the data interface label.
     -   **Application scope**: Select the scope in which to create the data interface.
-4.  On the Select source tables page, select **Add**.
+5.  On the Select source tables page, select **Add**.
 
-5.  Search for the source table in the Data Catalog and add tables to your selection.
+6.  Search for the source table in the Data Catalog and add tables to your selection.
 
     \[Omitted image "wdf-data-interface-single-select-table.png"\] Alt text: Table selection panel showing available source tables
 
@@ -41,17 +43,17 @@ Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df
 
     -   Tables with names that begin with `sys_`
     -   Child tables
-6.  Review the list of tables and select **Continue**.
+7.  Review the list of tables and select **Continue**.
 
     Because one table is selected, no combination method is required. The wizard advances to column selection.
 
-7.  Select the columns to include in the data interface and select **Continue**.
+8.  Select the columns to include in the data interface and select **Continue**.
 
     Select only the columns that consumers require. Limiting columns reduces the impact of future schema changes in the source table.
 
     \[Omitted image "wdf-data-interface-single-select-columns.png"\] Alt text: Select columns
 
-8.  Review the target table column mapping and select **Create table**.
+9.  Review the target table column mapping and select **Create table**.
 
     The **Define target table** step shows the selected columns with their auto-mapped target names and data types. You can adjust column labels and types before creating the table.
 
@@ -59,7 +61,7 @@ Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df
 
     The system creates the data interface table and the underlying Data Fabric Table. The wizard advances to the **Connect and verify** step.
 
-9.  Connect and verify the source table.
+10. Connect and verify the source table.
 
     1.  Select **Connect and verify** next to the source table.
 
@@ -69,17 +71,17 @@ Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df
 
         The table shows a **Verified** status when the connection is confirmed. \[Omitted image "wdf-data-interface-single-verify.png"\] Alt text: Connect and verify
 
-10. Select **Preview** to review sample data from the data interface.
+11. Select **Preview** to review sample data from the data interface.
 
     The preview shows the top 10 live records from the combined output. Verify the columns and data match what consumers expect before continuing.
 
-11. Review the permissions and select **Continue**.
+12. Review the permissions and select **Continue**.
 
     For data interfaces built entirely on external source tables, the system automatically configures the required access roles.
 
     **Note:** If the data interface includes any ServiceNow tables, this step requires a manual permissions request. Copy the provided email template and send it to the security administrator. The security administrator must add the correct read roles to the composite role generated for the data interface. Select the confirmation check box before continuing.
 
-12. Review the data interface configuration on the **Review and finalize** page and select **Done**.
+13. Review the data interface configuration on the **Review and finalize** page and select **Done**.
 
     \[Omitted image "wdf-data-interface-single-review.png"\] Alt text: Review the data interface
 

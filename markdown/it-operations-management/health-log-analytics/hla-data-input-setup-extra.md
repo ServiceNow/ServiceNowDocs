@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -19,11 +19,11 @@ After performing the initial data input setup and configuration in Health Log An
 -   **[Add a timestamp format in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-timestamp-formats-add.md)**  
 Define any timestamp format that does not appear in the list of defined formats. Health Log Analytics must be able to read timestamps of any format contained in your log files.
 -   **[Add a source type manually in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-source-types-manual.md)**  
-Create a source type manually to stream log data to a specific source type instead of using the source type automatically extracted by Health Log Analytics.
+Create a source type manually before you configure a data input if you want to stream log data to a specific source type. By default, Health Log Analytics automatically extracts the source type during the mapping process.
 -   **[Configure source type capabilities in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-source-types.md)**  
 Health Log Analytics extracts source types automatically in the mapping process. You can add timestamp formats and specify, delete, or exclude keywords for individual source types.
 -   **[Verify your log sources in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-log-sources-review.md)**  
-Verify that all your log sources are present and active after tagging and automatic mapping.
+Verify that all your log sources are present and active. Health Log Analytics tagging assigns logs to service instances and components, and automatically maps logs to sources.
 -   **[Delete a log source in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-log-source-delete.md)**  
 Delete a log source with or without its associated log data in Health Log Analytics.
 -   **[Review properties extracted from a source type in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-sts-properties-table.md)**  
@@ -31,7 +31,7 @@ Inspect the properties that were extracted from all the source types in a source
 -   **[Review patterns extracted from a source type in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-view-source-type-patterns.md)**  
 Inspect all learned patterns extracted from a source type in a source type structure, together with the log sources in which these patterns appeared. Reviewing these patterns can provide valuable insights into the log message patterns that Health Log Analytics tracks for each source type and log source.
 -   **[Modify a data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-modify.md)**  
-Change the configuration of a data input for Health Log Analytics by adding a new path to an existing data input configuration or modifying the data input's MID Server destination and port.
+Change the configuration of a data input for Health Log Analytics. You can add a new path to an existing configuration or modify the MID Server destination and port.
 
 **Parent Topic:**[Set up data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md)
 

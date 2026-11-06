@@ -1,20 +1,20 @@
 ---
 title: Apache Kafka Consumer Connector
-description: The Apache Kafka Consumer connector instance enables you to create events from messages collected from the Apache Kafka topic as a JSON payload that contains essential information in a data block.
+description: The Apache Kafka Consumer connector creates events from messages collected from the Apache Kafka topic as a JSON payload in a data block.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/apache-kafka-consumer-connector.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Apache Kafka Consumer Connector
 
-The Apache Kafka Consumer connector instance enables you to create events from messages collected from the Apache Kafka topic as a JSON payload that contains essential information in a data block.
+The Apache Kafka Consumer connector creates events from messages collected from the Apache Kafka topic as a JSON payload in a data block.
 
 Apache Kafka is a distributed publish-subscribe messaging system that receives data from disparate source systems and makes the data available to target systems in real time.
 

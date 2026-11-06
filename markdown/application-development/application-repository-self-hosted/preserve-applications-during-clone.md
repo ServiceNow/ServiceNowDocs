@@ -7,9 +7,9 @@ release: australia
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Preserve applications and customizations in development during a system clone
@@ -138,11 +138,15 @@ Because the application was already installed on the source instance, you apply 
 **Related topics**  
 
 
-[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
+[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/link-app-to-source-control.md)
+
+[Commit changes to a repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-sc-commit-changes-to-repository.md)
 
 [Publish an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md)
 
-[Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md)
+[Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md)
+
+[Import an app from source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-sc-import-app-source-control.md)
 
 [Load customizations from a single XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md)
 

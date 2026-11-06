@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Safety risk assessment, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ You can add actions from the Actions tab on a Health and Safety record or by usi
 
 3.  Create an action from a risk assessment record or the Risk actions list.
 
-<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d775029e97">
+<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d771976e97">
 
 Option
 
-</th><th align="left" id="d775029e100">
+</th><th align="left" id="d771976e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d775029e106">
+</th></tr></thead><tbody><tr><td id="d771976e106">
 
 **From a Risk assessment record \(Scheduled actions\)**
 
@@ -54,7 +54,7 @@ For more information, see [Create a Health and Safety action schedule](https://r
 
  The action schedule creates actions in the **Risk actions** tab and auto-assigns them to individuals using the condition builder.
 
-</td></tr><tr><td id="d775029e151">
+</td></tr><tr><td id="d771976e151">
 
 **From the Risk actions list**
 

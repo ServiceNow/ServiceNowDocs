@@ -1,20 +1,20 @@
 ---
 title: Create a checklist for work order tasks using the Mobile Agent application
-description: Manage your work order tasks by creating a checklist of all items that you must complete for a work order or work order task using the Mobile Agent application.
+description: Create a checklist of all items that you must complete for a work order task by using the Mobile Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/enterprise-asset-management/manage-work-orders-using-checklist.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a checklist for work order tasks using the Mobile Agent application
 
-Manage your work order tasks by creating a checklist of all items that you must complete for a work order or work order task using the Mobile Agent application.
+Create a checklist of all items that you must complete for a work order task by using the Mobile Agent application.
 
 ## Before you begin
 
@@ -36,24 +36,26 @@ Role required: wm\_agent
     -   To sort your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text:, tap **Sort by**, and select the fields to sort your tasks.
 5.  Tap the work order task for which you want to create a checklist.
 
-6.  Tap the **Related** tab.
+6.  Tap the **Related** tab and then locate the Checklist section.
 
-    The Checklist section of the Related tab shows the existing checklists for the work order task. The checklists marked as complete are displayed at the bottom of the list.
+    This section displays the checklist of items that you must complete for the work order task. Each time you mark a checklist item as complete, it moves to the bottom of the list.
 
-7.  In the **Checklist** section, tap **Add item**.
+7.  Add items to the checklist.
 
-8.  On the **Add checklist** screen, in the **Name** field, enter the name of the checklist.
+    1.  In the Checklist section, tap **Add item**.
 
-9.  In the **Order** field, enter the order in which the checklist item should be completed.
+        The Add checklist screen opens.
 
-    For example, a value of `1` indicates that the given checklist item is the first item you must complete.
+    2.  In the **Name** field, enter the name of the checklist item.
 
-10. Tap **Done** and then tap **Submit**.
+    3.  In the **Order** field, enter the order in which you must complete the checklist item.
 
+        For example, a value of `1` indicates that the given checklist item is the first item you must complete within the checklist.
 
-## Result
+    4.  Tap **Done** and then tap **Submit**.
 
-The checklist is displayed in the specified order in the Checklist section.
+    5.  Repeat steps a to d for each checklist item that you want to add.
+
 
 **Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
 

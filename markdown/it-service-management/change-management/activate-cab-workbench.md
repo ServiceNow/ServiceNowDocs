@@ -1,20 +1,20 @@
 ---
 title: Activate Change Management - CAB Workbench
-description: You can activate the Change Management - CAB Workbench plugin \(com.snc.change\_management.cab\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+description: Activate the Change Management - CAB Workbench plugin \(com.snc.change\_management.cab\) with the admin role. It includes demo data and activates related plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/activate-cab-workbench.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Activate Change Management - CAB Workbench
 
-You can activate the Change Management - CAB Workbench plugin \(com.snc.change\_management.cab\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Change Management - CAB Workbench plugin \(com.snc.change\_management.cab\) with the admin role. It includes demo data and activates related plugins.
 
 ## Before you begin
 
@@ -63,14 +63,14 @@ Common application components for Service Portal.
 
 
 -   **[Installed with Change Management - CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/instlled-with-cab-wrkbench.md)**  
-Several types of components are installed with Change Management - CAB Workbench.
+Several types of components are installed with the Change Management - CAB Workbench plugin.
 
 **Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -90,9 +90,9 @@ Several types of components are installed with Change Management - CAB Workbench
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -100,7 +100,7 @@ Several types of components are installed with Change Management - CAB Workbench
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -108,9 +108,9 @@ Several types of components are installed with Change Management - CAB Workbench
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

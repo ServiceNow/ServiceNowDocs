@@ -1,20 +1,20 @@
 ---
-title: Self-register to ServiceNow instance
-description: Use external user self-registration to on-board a large volume of external users to your instance. This feature enhances identity verification to improve customer experiences and supports commonly used registration flows.
+title: Self-registration to ServiceNow instance
+description: Use external user self-registration to onboard a large volume of external users to your instance. This feature enhances identity verification to improve customer experiences and supports commonly used registration flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/external-user-self-registration.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Access Management]
 ---
 
-# Self-register to ServiceNow instance
+# Self-registration to ServiceNow instance
 
-Use external user self-registration to on-board a large volume of external users to your instance. This feature enhances identity verification to improve customer experiences and supports commonly used registration flows.
+Use external user self-registration to onboard a large volume of external users to your instance. This feature enhances identity verification to improve customer experiences and supports commonly used registration flows.
 
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 

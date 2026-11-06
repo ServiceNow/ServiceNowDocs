@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure search and navigation, Service catalog home page configuration, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -64,13 +64,13 @@ The search results are sorted in the following order based on the frequency of t
 **Related topics**  
 
 
-[Search administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration.md)
+[bundle-platadm.search-administration]
 
 [Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
 
-[Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RegenerateATextIndexForATable.md)
+[bundle-platadm.t_RegenerateATextIndexForATable]
 
-[Configure a "Did You Mean?" suggestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureADidYouMeanSuggestion.md)
+[bundle-platadm.t_ConfigureADidYouMeanSuggestion]
 
 [Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_DefineACatalogItem.md)
 

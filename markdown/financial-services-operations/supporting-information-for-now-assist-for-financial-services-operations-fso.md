@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/supporting-information-for-now-assist-for-financial-services-operations-fso.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generative AI for financial services operations versions, generative AI for financial services operations licensing, generative AI for financial services operations dependencies, generative AI for financial services operations activation]
 breadcrumb: [AI in FSO, Explore, Financial Services Operations \(FSO\)]

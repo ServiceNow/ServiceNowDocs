@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ The following graphic illustrates how resource blocks fit between other componen
 
 -   **The CMDB**
 
-    Each resource block is based on a CI type from the CMDB. Resource blocks also have a response processor that handles responses from the cloud provider. The response processor takes actions in the CMDB, such as creating or updating a CI.
+    Each resource block is based on a CI type from the CMDB. Resource blocks also have a response processor that handles responses from the cloud provider. The response processor takes action in the CMDB, such as creating or updating a CI.
 
 
 ## How resource blocks are connected

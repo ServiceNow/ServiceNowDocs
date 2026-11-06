@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/explicit-roles-in-csm.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Roles installed with Customer Service Management, Components installed with Customer Service Management, Reference, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ You can give both internal users and external users access to your instance. How
 
 As of the Paris release, no user can have both of the explicit roles \(snc\_internal and snc\_external\). Groups and role containment cannot include both roles, either, since that would cause any group member or user who is assigned to such a group or such a role to automatically have both roles. The ServiceNow AI Platform aborts any operation that would create such a scenario.
 
-External users must obtain, at minimum, the snc\_external role. The snc\_external role indicates that the user is external to your organization. They should not have any access to resources unless explicitly allowed through ACLs for the snc\_external role or additional roles that inherit the snc\_external role. By default, users with the snc\_external role cannot access:
+External users must obtain, at minimum, the snc\_external role. The snc\_external role indicates that the user is external to your organization. They should not have any access to resources unless explicitly allowed through ACLs for the snc\_external role or additional roles that inherit the snc\_external role. By default, users with the snc\_external role can't access:
 
 -   Tables without the role that inherits the snc\_external role or the public role.
 -   Non-record type resources, such as processors and UI pages without granting access to the snc\_external role or a role that inherits the snc\_external role.
@@ -30,7 +30,7 @@ Customers \(external users\) using the Customer Service Management application s
 
 ## Explicit Roles plugin
 
-The Customer Service plugin \(com.sn\_customerservice\) activates the Explicit Roles plugin \(com.glide.explicit\_roles\), which adds the snc\_external and snc\_internal roles. When the plugin is activated:
+The Case Management Core plugin \(com.sn\_customerservice\) activates the Explicit Roles plugin \(com.glide.explicit\_roles\), which adds the snc\_external and snc\_internal roles. When the plugin is activated:
 
 -   All users must have either the snc\_internal role to access internal resources or the snc\_external role to access external resources.
 -   All existing users are automatically assigned the snc\_internal role. This role does not change existing access levels or system behavior. Instead, it provides a category to differentiate internal users from external users. All internal users maintain the same level of access as before the plugin was activated.

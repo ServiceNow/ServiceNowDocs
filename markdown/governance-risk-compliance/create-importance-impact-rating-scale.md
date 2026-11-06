@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-importance-impact-rating-scale.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -41,9 +41,9 @@ A user with the sn\_oper\_res.admin role can change the rating scale for the ind
 
     \[Omitted image "importance-and-impact-rating-scale-module.png"\] Alt text: Importance and Impact Tolerance Rating Scales module.
 
-2.  Select **New**.
+2.  Click **New**.
 
-    You can define new parameters such as the importance, impact tolerance, impact tolerance icon and color, minimum and maximum tolerance value, and tolerance order.
+    You can define new parameters such as the importance, impact tolerance, impact tolerance icon and its color, and the tolerance order. You can also set minimum and maximum tolerance values for your business service.
 
 3.  On the form, fill in the fields and click **Submit**.
 

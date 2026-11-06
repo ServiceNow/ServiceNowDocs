@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 keywords: [Virtual Agent, scripts, context, topics, user input, record, variables, vaSystem, methods]
-breadcrumb: [Virtual Agent technical reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Virtual Agent technical reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Virtual Agent scripts
@@ -59,7 +59,7 @@ vaInputs.myvar == "expected value"
 
 Evaluates whether `myvar` matches an expected value. **Note:** Values for user input variables are assigned using user input controls. These values can’t be changed in your scripts.
 
- -   The Australia release supports additional data types. For more information, see [Input data types in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-data-types.md).
+ -   The Brazil release supports additional data types. For more information, see [Input data types in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-data-types.md).
 -   By default, the user variable is available and is a reference to the sys\_user record for the user.
 
 
@@ -400,13 +400,11 @@ Gets the transcript for the current Virtual Agent conversation.
 **Related topics**  
 
 
-[Domain separation and Virtual Agent]()
-
 [Virtual Agent interaction records]()
 
-[Input data types in Virtual Agent topics]()
+[Data management in Conversational Interfaces]()
 
-[NLU system entities]()
+[Input data types in Virtual Agent topics]()
 
 [Virtual Agent URL parameters]()
 

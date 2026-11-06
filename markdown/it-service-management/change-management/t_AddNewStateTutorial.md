@@ -1,20 +1,20 @@
 ---
-title: Tutorial: add a new change management state
-description: This tutorial provides an example of adding a new state to the existing state model.
+title: Tutorial: Add a new change management state
+description: Add a Complete state between the Implement and Review states as an example of extending the state model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_AddNewStateTutorial.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Change Management, IT Service Management]
 ---
 
-# Tutorial: add a new change management state
+# Tutorial: Add a new change management state
 
-This tutorial provides an example of adding a new state to the existing state model.
+Add a Complete state between the Implement and Review states as an example of extending the state model.
 
 ## Before you begin
 

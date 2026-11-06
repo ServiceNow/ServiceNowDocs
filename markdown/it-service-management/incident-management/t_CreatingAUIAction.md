@@ -7,14 +7,14 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Incident resolution and closure, Managing incidents, Incident Management, IT Service Management]
 ---
 
 # Create a UI action to close multiple incidents
 
-Create a UI action to close multiple incidents at once from the **Actions** list in the list view.
+Create a UI action to close multiple incidents at once from the Actions list in the list view.
 
 ## Before you begin
 
@@ -22,13 +22,13 @@ Role required: business\_rule\_admin \(for business rule\), ui\_action\_admin \(
 
 ## About this task
 
-Closing an incident from **Actions** list adds the same close note to all the incidents that are closed and does not require the list\_updater role. Implementing this process requires a script include that is referred from a UI action and a custom UI page.
+Closing incidents from the Actions list adds the same close note to all the incidents that are closed and doesn't require the list\_updater role. Implementing this process requires a script include that is called from a UI action and a custom UI page.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Definition** &gt; **Script Includes** and click **New**.
+1.  Navigate to **All** &gt; **System Definition** &gt; **Script Includes** and select **New**.
 
-2.  Create the script includes with the following information.
+2.  Create the script include with the following information.
 
     -   **Name**: IncidentClosure
     -   **Client callable**: Select the check box
@@ -60,7 +60,7 @@ Closing an incident from **Actions** list adds the same close note to all the in
 
 3.  Save the record.
 
-4.  Create the following steps to create a UI page.
+4.  Navigate to **All** &gt; **System UI** &gt; **UI Pages**, select **New**, and create a UI page with the following information.
 
     -   **Name**: mandatory\_fields\_to\_close\_incident\_ui
     -   **HTML**: Paste the following information:
@@ -163,9 +163,9 @@ Closing an incident from **Actions** list adds the same close note to all the in
 
 6.  Complete the following steps to create the UI action for closing multiple incidents.
 
-    1.  Navigate to **System Definition** &gt; **UI Actions** and click **New**.
+    1.  Navigate to **System Definition** &gt; **UI Actions** and select **New**.
 
-    2.  Create the UI actions with the following information:
+    2.  Create the UI action with the following information:
 
         -   **Name**: Close incidents
         -   **Table**: Incident \[incident\]
@@ -173,9 +173,9 @@ Closing an incident from **Actions** list adds the same close note to all the in
         -   **List choice**: Select the check box
         -   **List v2 Compatible**: Select the check box
         -   **Client**: Select the check box
-        -   **Onclick**: closeIncidents\(\)
-        -   **Condition**: current.getValue\('state'\) !== '7'
-        -   **Script**: paste the following information
+        -   **Onclick**: `closeIncidents()`
+        -   **Condition**: `current.getValue('state') !== '7'`
+        -   **Script**: Paste the following information:
         ```
         function closeIncidents() {
             var list = GlideList2.get('incident');
@@ -198,7 +198,7 @@ Closing an incident from **Actions** list adds the same close note to all the in
 
 ## Result
 
-Service desk agents can close multiple incidents using **Close incidents** in the **Actions** list below the Incident list.
+Service desk agents can close multiple incidents using **Close incidents** from the Actions list on the Incident list.
 
 **Parent Topic:**[Incident resolution and closure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/c_IncidentResolutionAndRecovery.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/using-now-assist-tisc.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Threat Intelligence Security Center \(TISC\), Security Operations]
 ---

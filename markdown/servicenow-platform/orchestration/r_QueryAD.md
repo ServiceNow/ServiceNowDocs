@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Active Directory activity pack, Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -72,5 +72,5 @@ An LDAP filter string that defines the search parameters. Use any valid LDAP fil
 |Success|The query completed as expected.|
 |Failure|An error occurred while processing the query. Additional details may be available in the workflow log.|
 
-**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md)
+**Parent Topic:**[Active Directory activity pack]()
 

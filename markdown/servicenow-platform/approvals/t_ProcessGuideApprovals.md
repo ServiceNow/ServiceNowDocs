@@ -7,7 +7,7 @@ release: australia
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval rules, Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Approval rules, Classic approvals, Exploring Service Administration
 
 Process guides work similarly to approval rules in that their execution is controlled via a condition.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio . Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Before you begin
 

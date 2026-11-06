@@ -7,7 +7,7 @@ release: australia
 product: MetricBase
 classification: metricbase
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, MetricBase, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,18 +18,18 @@ Developers can use JavaScript or REST APIs to insert and retrieve time-series da
 
 ## REST APIs
 
-For information about the MetricBase REST APIs that return time-series data from the MetricBase database, see [MetricBase Time Series API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/Clotho-Time-Series-API.md).
+For information about the MetricBase REST APIs that return time-series data from the MetricBase database, see MetricBase Time Series API.
 
 ## JavaScript APIs
 
 For information about the MetricBase JavaScript APIs that return time-series data from the MetricBase database, see:
 
--   [Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClientScopedAPI.md) — Execute transforms on the MetricBase database and receive the results.
--   [Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DataScopedAPI.md) — Return the object that contains the result of a transform.
--   [DataBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DataBuilderScopedAPI.md) — Create a series of data points for a metric.
--   [Transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformerScopedAPI.md) — Manipulate time-series data to prepare the data for evaluation and analysis.
--   [TransformPart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformPartScopedAPI.md) — Specify details of the transform to be done.
--   [TransformResult](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformResultScopedAPI.md) — Return the object that contains the result of the transformation.
+-   Client — Execute transforms on the MetricBase database and receive the results.
+-   Data — Return the object that contains the result of a transform.
+-   DataBuilder — Create a series of data points for a metric.
+-   Transformer — Manipulate time-series data to prepare the data for evaluation and analysis.
+-   TransformPart — Specify details of the transform to be done.
+-   TransformResult — Return the object that contains the result of the transformation.
 
 ## Transformations
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/configuring-esg.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -21,7 +21,7 @@ Create material topics for your organization so that you can identify the areas 
 -   **[Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-esg-goal.md)**  
 Establish operational sustainability goals to track your progress toward your chosen material topics.
 -   **[Create an Operational Sustainability Management \(formerly ESG Management\) target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-esg-target.md)**  
-Create an operational sustainability target to help track the progress toward your operational sustainability goal.
+Create an operational sustainability target to help track the progress towards your operational sustainability goal.
 -   **[Set up the emission factor library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/set-up-the-emission-factor-library.md)**  
 To calculate your emissions accurately, you must set up your emission factor library. The emission factor library consists of emission factors, emission activities, activity sources and factor locations.
 -   **[Create a new schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-new-schedule.md)**  

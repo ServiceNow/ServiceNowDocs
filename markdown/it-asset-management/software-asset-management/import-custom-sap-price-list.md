@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -150,6 +150,8 @@ Microsoft Excel spreadsheet that contains the data that you want to insert or up
 **Related topics**  
 
 
+[SAP publisher pack integration architecture]()
+
 [Tables installed with the SAP publisher pack]()
 
 [Set up SAP integration to establish a connection with SAP]()
@@ -158,9 +160,9 @@ Microsoft Excel spreadsheet that contains the data that you want to insert or up
 
 [Establish an SAP connection using OAuth 2.0]()
 
-[Create entitlements for SAP]()
-
 [Create software models for SAP]()
+
+[Create entitlements for SAP]()
 
 [Create a custom SAP named user type]()
 

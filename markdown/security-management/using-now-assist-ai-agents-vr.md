@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/using-now-assist-ai-agents-vr.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AI agents, agentic AI]
 breadcrumb: [ServiceNow Otto for Unified Security Exposure Management, Security Operations]

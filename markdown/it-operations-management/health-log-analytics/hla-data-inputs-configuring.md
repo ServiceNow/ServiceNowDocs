@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow, Health Log Analytics, HLA, data input, connector, data input configuration, manual configuration]
 breadcrumb: [Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -17,13 +17,15 @@ breadcrumb: [Set up data inputs manually, Set up HLA on your instance, Configuri
 
 Configure the data input process manually in Health Log Analytics. Data input configuration is an essential step in setting up the Health Log Analytics application.
 
+**Note:** You're encouraged to integrate available data inputs from the Integrations Launchpad instead of configuring them manually. This tool provides a unified interface for convenient integration with connectors that feed raw log messages from external sources into your instance for processing and analysis. For more information, see [Set up integrations for Health Log Analytics from the Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md).
+
 -   **[Configure an Amazon CloudWatch data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-cloudwatch.md)**  
 Set up a data input for streaming log data from Amazon CloudWatch to your ServiceNow instance.
 -   **[Configure an Amazon S3 data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-s3.md)**  
 Set up a data input for streaming log data from Amazon S3 \(Simple Storage Service\) buckets to your ServiceNow instance.
 -   **[Configure an Apache Kafka data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-kafka.md)**  
 Set up a data input for streaming log data from Apache Kafka to your ServiceNow instance.
--   **[Configure a Cribl data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-cribl.md)**  
+-   **[Configure a Cribl data input in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-cribl.md)**  
 Configure a dedicated Cribl data input to enable Health Log Analytics to process Cribl log messages streaming into your ServiceNow instance.
 -   **[Configure an Edge Delta data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-edge-delta.md)**  
 Set up an Edge Delta data input to enable Health Log Analytics to process Edge Delta log messages streaming into your ServiceNow instance.

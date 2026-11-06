@@ -7,7 +7,7 @@ release: australia
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Level Management, IT Service Management]
 ---
@@ -44,10 +44,6 @@ The SLA timeline is a feature of the Service Level Management application. The S
 If you are on an earlier version of the SLA engine, you can upgrade to the 2011 engine to make use of the complete service level management functionality.
 -   **[Task SLA table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/r_TaskSLATable.md)**  
 The Task SLA \[task\_sla\] table stores Task SLA records for the SLAs attached to particular tasks.
--   **[Service level management overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/slm-overview-dashboard.md)**  
-The Service Level Management Overview Dashboard provides insight into Service Level Agreement \(SLA\) information relevant to the logged-in user. By default, the Overview dashboard is available to users who possess the itil role.
--   **[Legacy: Platform Analytics Solutions for Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/service-level-mgmt-content-pack.md)**  
-This Platform Analytics Solution contains preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 -   **[Domain separation and Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/domain-separation-sla.md)**  
 Domain separation is supported in Service Level Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Quick start tests for Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/quick-start-tests-sla.md)**  

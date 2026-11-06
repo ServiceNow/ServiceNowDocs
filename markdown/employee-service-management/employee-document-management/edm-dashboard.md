@@ -7,7 +7,7 @@ release: australia
 product: Employee Document Management
 classification: employee-document-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
@@ -69,6 +69,6 @@ Role required: admin
 
     The **Documents and Purging** tab shows by default.
 
-2.  The Click the **Legal Holds** tab to view the number of employees, document types, and documents on legal hold.
+2.  Select the **Legal Holds** tab to view the number of employees, document types, and documents on legal hold.
 
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-users-and-roles.html
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure users and roles

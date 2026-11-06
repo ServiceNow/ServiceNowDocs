@@ -7,7 +7,7 @@ release: australia
 product: GRC: 360 Degree Relationship Visualization
 classification: grc-360-degree-relationship-visualization
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [360° Relationship Visualization, Common GRC features, Governance, Risk, and Compliance]
 ---

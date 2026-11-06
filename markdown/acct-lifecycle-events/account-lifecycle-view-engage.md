@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-view-engage.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
@@ -17,7 +17,7 @@ This page provides detailed information of an engagement including internal and 
 To view this page, follow these steps:
 
 1.  Login as a user with the `sn_acct_lc.customer_success_agent` role.
-2.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workpace** and select the **List** icon.
+2.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace** and select the **List** icon.
 3.  Navigate to **Customer Success** &gt; **All Engagements** and select **Number** column to open the engagement record. You can also navigate to this page from the [Success portfolio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-success-landing.md).
 
 The following options are available:
@@ -230,6 +230,8 @@ The Customer timeline tab shows visual display of the Engagement records activit
 The engagement brief summarizes recent signals across risk, adoption, and market activity for a specific engagement.
 -   **[View and execute recommended actions for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-360-view-reco-actions.md)**  
 Open the **Recommendations** panel from an engagement record to review AI-generated success play suggestions and execute or dismiss a recommended play without leaving the engagement context.
+-   **[Summarize an engagement using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/now-assist-tmt-summarize-engagement.md)**  
+Generate a summary from the fields you select on the engagement record. Get up to speed on success initiatives, outcomes, risks, and internal plays associated with an engagement.
 
 **Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

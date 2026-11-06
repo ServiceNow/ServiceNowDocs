@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-23"
 reading_time_minutes: 2
 keywords: [Retail MCP Server, install, OAuth, MCP client, roles]
-breadcrumb: [Retail MCP Server, Configure, Retail]
+breadcrumb: [Retail MCP Server, ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
 # Set up the Retail MCP Server

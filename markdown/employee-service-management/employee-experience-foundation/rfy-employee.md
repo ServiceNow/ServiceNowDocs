@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # View the Recommended for you content
@@ -22,7 +22,7 @@ As an employee, you can access the recommended knowledge articles or catalog ite
 -   Catalog item recommendations are based on the number of times it is requested for.
 -   The recommendations associated to the portal taxonomy are displayed on the home page.
 
-
+\[Omitted image "standard-ec-homepage.jpg"\] Alt text: recommended for you
 
 For more information, see [Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/rfy-ec.md)
 
@@ -48,8 +48,6 @@ For more information, see [Recommended for you](https://raw.githubusercontent.co
 [Use Employee Center from Zoom]()
 
 [View employee profile]()
-
-[Use Employee Profile with HR Service Delivery]()
 
 [Use Personalized Answers]()
 

@@ -7,8 +7,9 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [manage mitigations, MITRE mitigations, attack prevention]
 breadcrumb: [MITRE-ATT&amp;CK repository, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 

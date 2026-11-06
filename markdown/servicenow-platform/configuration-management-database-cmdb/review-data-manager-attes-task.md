@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [CIs attestation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,7 +37,7 @@ As you process the CIs in the task, only the fields **Attestation Status** \(val
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Tasks view**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**. In the navigation panel select the Tasks icon, and then, in the Tasks navigation panel select **Attestation**.
 
     Any attestation tasks that are assigned to you or to assignment groups you belong to, appear in the **Attestation tasks** tab in the My tasks section. Attestation tasks are associated with details such as the due dates and short descriptions for those tasks. Assignment groups that you are a member of, are also listed.
 

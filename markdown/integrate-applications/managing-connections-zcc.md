@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/managing-connections-zcc.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -33,6 +33,10 @@ A connection admin with the df\_connection\_admin role can create connections to
     Community connectors are developed by the open-source community and made available by ServiceNow. These connectors are certified for essential functionality but are not part of the ServiceNow support scope.
 
 
+-   **[Primary connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/primary-connectors-zcc.md)**  
+Connect to external data sources using primary connectors in Zero Copy Connector Hub.
+-   **[Community connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/community-connectors-zcc.md)**  
+Connect to external data sources using community connectors in Zero Copy Connector Hub.
 -   **[Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-access-connection-zcc.md)**  
 Manage which data stewards can access an established connection and create data fabric tables.
 -   **[View data assets from an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/view-assets-connection-zcc.md)**  

@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Oracle GLAS, Oracle GLAS V2, Oracle GLAS data collection]
 audience: administrator

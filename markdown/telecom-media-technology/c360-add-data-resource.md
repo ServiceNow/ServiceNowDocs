@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-add-data-resource.html
 release: australia
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Setup Customer360 Context, data resource, Telecom Customer 360]
 breadcrumb: [Telecommunications Customer 360 component, Add the Customer 360 tab to a record page, Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]

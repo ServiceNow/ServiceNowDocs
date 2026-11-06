@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analytics and Reporting Solutions for Legal Service Delivery, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Activate the content pack ServiceNow Store application for the Analytics and Rep
 
 ## Before you begin
 
-Activate the full, subscription version of Performance Analytics on the instance where you're activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
+Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
 
 Review the [Performance Analytics Content Pack for Legal Service Delivery](https://store.servicenow.com/sn_appstore_store.do#!/store/application/7c8ec9b21837b010fa9b661eb110eaf1) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 

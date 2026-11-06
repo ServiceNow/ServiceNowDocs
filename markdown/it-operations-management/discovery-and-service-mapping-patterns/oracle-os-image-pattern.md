@@ -7,8 +7,8 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-07-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [Oracle OCI - Image \(LP\), Oracle OCI - Cloud OS Image \(LP\), Oracle OS image, Oracle OCI discovery, Oracle patterns]
 breadcrumb: [OCI discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -24,6 +24,10 @@ Discovery uses the Oracle OCI - Image \(LP\) pattern to discover OCI OS images f
 When using the Image \[cmdb\_ci\_os\_template\] table to store Cloud OS images, you may notice an unusually large number of records. To avoid this issue, you can store the discovered OS images in the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table. When enabled, Discovery launches the Oracle OCI - Cloud OS Image \(LP\) pattern, which populates the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table. For more information, see [Enable Cloud OS Image discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/enable-cloud-os-image-discovery-pattern.md).
 
 ## Pattern-based discovery and mapping requirements
+
+-   **Verify the REST API permissions**
+
+    Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
 -   **Verify the OCI discovery prerequisites**
 
@@ -115,7 +119,7 @@ The OCI OS image patterns create the following relationships and references to s
 |---|-----|-------------|
 |Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|Image \[cmdb\_ci\_os\_template\] or Cloud Image \[cmdb\_ci\_cloud\_os\_image\]|
 
-## OCI Tag discovery
+## OCI tag discovery
 
 The OCI OS image patterns collect tags and populate them in the Key Value \[cmdb\_key\_value\] table.
 

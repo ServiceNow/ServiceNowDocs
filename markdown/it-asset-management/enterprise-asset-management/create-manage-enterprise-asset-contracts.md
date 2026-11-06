@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -32,4 +32,6 @@ For more information on managing expiring lease contracts, see [Managing expirin
 Create a contract to define the lease details of your enterprise assets.
 -   **[Managing expiring contracts for leased enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md)**  
 You can use the Contract and lease management view to track and take action on leased enterprise assets that are nearing the end of their contracts. You can choose to return your leased enterprise assets, buy out your leased enterprise assets, or extend your lease contracts.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
 

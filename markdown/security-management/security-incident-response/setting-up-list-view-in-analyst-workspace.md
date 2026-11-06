@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -21,6 +21,8 @@ The list view has pre applied filters such as Assigned to Me, Assigned to Team, 
 Using these list categories and filtered lists, analysts can quickly find the required Security Incidents and Response Tasks records that they need to work on.
 
 To get to the list view, select the list icon \(\[Omitted image "listview-icon.png"\] Alt text: list view icon\). When you select a record in a list view, the record opens in a new tab.
+
+In SIR Workspace 2.0, selecting **New** still creates the incident and opens it in the current classic form, not the new Investigate page. This is current, interim behavior.
 
 ## List types
 

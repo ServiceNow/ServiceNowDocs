@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -20,7 +20,7 @@ Playbooks for the ServiceNow Agent application provide a guided experience for c
 
 Playbooks for the ServiceNow Agent application include stages for completing a work order task. Playbooks can be viewed under a selected work order task on the **My work** page. Tasks that have an active playbook associated with it display a **View Playbooks** button.
 
-Playbooks are organized in stages to provide a guided experience. They direct you to new or existing features of the mobile application and maintain a checklist of completed stages on that work order task. Stages can be marked complete or skipped at your discretion. The stages progress as follows:
+Playbooks direct you to new or existing features of the mobile application and maintain a checklist of completed stages on that work order task. Stages can be marked complete or skipped at your discretion. The stages progress as follows:
 
 1.  Troubleshoot
 2.  Parts
@@ -28,8 +28,6 @@ Playbooks are organized in stages to provide a guided experience. They direct yo
 4.  Log incidentals
 5.  Verify work completion
 6.  Close work order task
-
-For more information, see [Playbooks on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/playbooks-now-mobile-agent-app.md).
 
 \[Omitted image "playbooks-fsm-mobile-agent.png"\] Alt text: Playbooks on the ServiceNow Agent phone application.
 

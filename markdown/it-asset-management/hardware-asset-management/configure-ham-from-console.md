@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuration Console for Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configuration Console for HAM, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Configure Hardware Asset Management using the Configuration Console
@@ -18,7 +18,10 @@ Configure the Hardware Asset Management application to manage hardware asset lif
 
 ## Before you begin
 
-The Hardware Asset Management \(HAM\) application must be installed on your ServiceNow instance.
+The following applications must be installed on your ServiceNow instance:
+
+-   Hardware Asset Management \(HAM\) version 16.0.0 or later
+-   Setup Hub \(sn\_ia\_base\) version 3.0.4 or later
 
 Role required: To access the Configuration Console, you must have the ham\_admin and ia\_user roles. The setup items available within the console depend on the additional roles assigned. For more information on roles required for modules, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/config-console-ham.md).
 
@@ -34,30 +37,30 @@ When you make changes through the Configuration Console, the system captures the
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **Admin Home**.
+1.  Navigate to **Manage Platform** &gt; **Hardware Asset Management**.
 
-2.  In the **Manage your products** section of the Admin Home page, select the **Hardware Asset Management** card to open the Product Hub.
+    The Product Hub opens.
 
-3.  In the Configure your product section, select **Configure**.
+2.  In the Configure your product section, select **Configure**.
 
     -   The Configure Hardware Asset Management page opens in the Configuration Console.
     -   The Setup section displays a progress card for each module showing the total number of setup items and how many are configured. The Setup status section tracks your overall configuration progress
     -   The Configuration Summary in the navigation menu shows the configuration modules and setup items.
     **Tip:** To find a specific setup item without expanding modules manually, enter a keyword in the **Search configurations** field at the top of the console.
 
-4.  Select a module that you want to configure.
+3.  Select a module that you want to configure.
 
     -   From the Configuration Summary navigation menu, select a module.
     -   From the Setup status section, select **Get started** on the module that you want to configure.
     You can configure the modules and their setup items in any order. For a complete list of modules and setup items, see [Modules in the Configuration Console for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/config-console-modules-ham.md).
 
-5.  After completing a setup item, select **Mark as configured**.
+4.  After completing a setup item, select **Mark as configured**.
 
     **Note:** Marking an item as configured is reversible. You can return to any setup item and change its configuration status at any time.
 
-6.  Review the **Setup status** section to confirm the overall configuration progress.
+5.  Review the **Setup status** section to confirm the overall configuration progress.
 
-7.  To bundle your configuration changes for deployment, select **Package and download**.
+6.  To bundle your configuration changes for deployment, select **Package and download**.
 
     The update set is packaged and downloaded as an XML file. Apply this file to a production instance to replicate the same configuration.
 
@@ -69,4 +72,6 @@ When you make changes through the Configuration Console, the system captures the
 
     **Note:** You can apply the Update Set to a production instance to replicate the same configuration.
 
+
+**Parent Topic:**[Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/config-console-ham.md)
 

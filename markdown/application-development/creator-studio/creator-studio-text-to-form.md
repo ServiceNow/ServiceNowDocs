@@ -7,9 +7,9 @@ release: australia
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Forms in apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Forms in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Generating forms with AI
@@ -54,6 +54,8 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md).
 
 **Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creator-studio/creator-studio-work-with-forms.md)
 

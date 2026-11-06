@@ -1,46 +1,51 @@
 ---
-title: RaptorDB
-description: RaptorDB, the new ServiceNow database, optimizes ServiceNow AI Platform workloads, enabling your organization to support more users, workflows, and data on a single platform.
+title: RaptorDB Professional
+description: ServiceNow RaptorDB Professional is a database tier for ServiceNow AI Platform workloads. Administrators move inactive records to archive storage; analysts query current and archived data through SQL clients.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/raptordb.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Extend ServiceNow AI Platform capabilities]
 ---
 
-# RaptorDB
+# RaptorDB Professional
 
-RaptorDB, the new ServiceNow database, optimizes ServiceNow AI Platform workloads, enabling your organization to support more users, workflows, and data on a single platform.
+ServiceNow® RaptorDB Professional is a database tier for ServiceNow AI Platform workloads. Administrators move inactive records to archive storage; analysts query current and archived data through SQL clients.
 
-\[Omitted video\] Description: Now Insights podcast episode with Will Johnson, VP of Data Platform Engineering, who shares the journey of integrating advanced columnar storage technology into the ServiceNow platform.
+## Get started
 
-RaptorDB will underpin ServiceNow AI Platform core services, applications, and data.
+<table id="table_zrc_gld_fkc" class="nav-card"><tbody><tr><td>
 
-**Note:** The roll-out of RaptorDB is not tied to your organization's upgrade to Australia. Please speak with your account team for more information.
+[RaptorDB Professional\[Omitted image "bus-database.svg"\] Alt text:Database that optimizes ServiceNow AI Platform workloads.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/raptordb-pro.md)
 
-## Benefits
+</td><td>
 
-With RaptorDB, your organization gets the benefits of database features owned and maintained by ServiceNow, as well as optimized for ServiceNow applications and workloads. This enables your organization to confidently grow your use of the ServiceNow AI Platform over time.
+[Compare tiers\[Omitted image "bus-balance-scale.svg"\] Alt text:Compare RaptorDB Standard and RaptorDB Professional tier features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/raptordb-std.md)
 
-RaptorDB Professional unlocks additional functionality and higher performance, allowing your organization to do even more with ServiceNow.
+</td><td>
 
-## RaptorDB Standard and RaptorDB Professional
+[Archive data requirements\[Omitted image "bus-checkmark-circle.svg"\] Alt text:Platform and ACL requirements for querying archives.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/working-with-archive-data.md)
 
-RaptorDB Standard is the target state default primary database, built to provide improved scale and performance capabilities for ServiceNow AI Platform workloads and queries.
+</td></tr></tbody>
+</table>## Explore
 
-If your organization is looking to drive ultra-scale and high performance to support ServiceNow AI Platform generative AI and machine-scale data use cases, user growth, applications, workloads, and analytics, you may wish to leverage RaptorDB Professional. RaptorDB Professional is a licensed database; for more information, contact your account team.
+<table id="table_gkd_mnb_2kc" class="nav-card"><tbody><tr><td>
 
-|Feature|RaptorDB Standard|RaptorDB Professional|
-|-------|-----------------|---------------------|
-|Optimized for ServiceNow workloads|Yes|Yes|
-|Improved response time|Yes|Yes|
-|Ultra-scale performance and scalability|No|Yes|
-|Enhanced analytics with built-in column store|No|Yes|
-|Advanced instance topology support|No|Yes|
-|Support for self-hosted environments|No|Yes|
-|Enable Data snapshots|No|Yes|
-|Enable SQL API|No|Yes, starting in Australia|
-|Enable Archive Tier 2 storage|No|Yes, starting in Australia|
+[Database capabilities\[Omitted image "bus-database.svg"\] Alt text:Column store index, query parallelism, resource allocation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/exploring-raptordb-professional.md)
 
+</td><td>
+
+[Live Connect\[Omitted image "bus-integration-and-apis.svg"\] Alt text:SQL access via ODBC and JDBC clients.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-connect.md)
+
+</td></tr><tr><td>
+
+[Live Archive\[Omitted image "bus-cloud.svg"\] Alt text:Move inactive records to queryable archive tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/live-archive.md)
+
+</td><td>
+
+[Sample queries\[Omitted image "bus-documentation.svg"\] Alt text:Example queries for combining live and archive data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/archive-data-query-examples.md)
+
+</td></tr></tbody>
+</table>

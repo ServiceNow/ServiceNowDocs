@@ -7,8 +7,8 @@ release: australia
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -29,6 +29,8 @@ Use test results obtained from third-party Secure Configuration Assessment \(SCA
 The ServiceNow® Configuration Compliance application enables you to prioritize and remediate the most critical configuration-related vulnerabilities in your environment quickly and efficiently. Configuration Compliance is available by subscription in the ServiceNow® Store.
 
 \[Omitted image "cc-overview-image.png"\] Alt text: Configuration Compliance workflow
+
+\[Omitted image "cc-overview-diagram.svg"\] Alt text: Configuration Compliance workflow
 
 ## Key features of Configuration Compliance
 
@@ -67,7 +69,7 @@ Configuration Compliance tasks involve the following roles.
 
 When the Qualys Vulnerability Integration and the Tenable Vulnerability Integration are installed, access to Vulnerability Response becomes available. You can have multiple deployments of these integrations. Data sourced from each deployment is identified and available in a single instance of GRC.
 
-## Available versions for Australia
+## Available versions for Brazil
 
 <table id="table_svr_hvj_xlb"><thead><tr><th>
 
@@ -79,21 +81,13 @@ Release notes
 
 </th></tr></thead><tbody><tr><td>
 
-If you intend to upgrade to a version that is compatible with Unified Security Exposure Management \(USEM\), please select a version starting with 30.x when installing or upgrading.
+Configuration Compliance v15.4
 
 </td><td>
 
 [Configuration Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-cc-rn.md).For compatibility information, see [KB0856498 Vulnerability Response Compatibility Matrix and Release Schema Changes](https://support.servicenow.com/kb_view.do?sysparm_article=KB0856498)
 
 See [Setting up, installing, and configuring the Configuration Compliance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/cc-configuring.md) for more information about activating the application.
-
-</td></tr><tr><td>
-
-If you do not intend to upgrade to a version that is compatible with Unified Security Exposure Management \(USEM\), please select a version below 30.x when installing or upgrading.
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>

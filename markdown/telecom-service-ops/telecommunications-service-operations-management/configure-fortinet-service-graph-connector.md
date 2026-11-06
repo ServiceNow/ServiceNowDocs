@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -20,7 +20,7 @@ FortiManager is the Fortinet centralized management platform that enables you to
 
 The FortiManager JSON API is used to perform configuration and monitoring tasks on a FortiManager device. The SGC for Fortinet SD-WAN uses JSON to gather information and populate the CMDB.
 
-By using structured JSON requests over HTTPS, you can efficiently interact with FortiManager to streamline operations and scale network management tasks across multiple Fortinet devices. These APIs enable automated tasks within the Fortinet ecosystem, such as bulk configuration changes, device management, status monitoring, and inventory collection. To access the Fortinet APIs, create a user and key credentials from FortiManager. For API reference examples, see [Fortinet Service Graph Connector API Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/fortinet-service-graph-connector-api-endpoints.md).
+By using structured JSON requests over HTTPS, you can efficiently interact with FortiManager to streamline operations and scale network management tasks across multiple Fortinet devices. These APIs enable automated tasks within the Fortinet ecosystem, such as bulk configuration changes, device management, status monitoring, and inventory collection. To access the Fortinet APIs, create a user and key credentials from FortiManager. For API reference examples, see [Fortinet Service Graph Connector API endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/fortinet-service-graph-connector-api-endpoints.md).
 
 **Note:** A valid Telecommunications Service Operations Management subscription is required to use this connector.
 

@@ -7,7 +7,7 @@ release: australia
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using communities, Communities, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Using communities, Communities, Customer Service Management]
 # Community subscriptions
 
 Using subscriptions, you can choose specific areas of interest. Your activity feed and notifications are personalized according to your subscriptions.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 <table id="table_yjx_2k5_vz"><thead><tr><th>
 

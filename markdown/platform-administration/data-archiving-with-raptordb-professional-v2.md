@@ -41,7 +41,7 @@ Live Archive extends the existing archive rules framework. When records match th
 
     Live Archive automatically creates two S3 facade endpoints, one per datacenter in your instance's datacenter pair. If one datacenter is unavailable, the other endpoint keeps the archived records remain accessible. The S3 facade is verified during Live Archive installation.
 
-    \[Omitted image "s3-facade-data-archiving.png"\] Alt text: Live Archive routes archived data through the S3 facade.
+    \[Omitted image "image.s3-facade-data-archiving"\] Alt text: Live Archive routes archived data through the S3 facade.
 
 -   **Archive rules**
 

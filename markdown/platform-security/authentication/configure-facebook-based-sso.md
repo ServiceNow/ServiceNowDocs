@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [OIDC as a SSO identity provider, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -31,9 +31,9 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 1.  Navigate to **All** &gt; **Multi-Provider SSO** &gt; **Identity Providers**.
 
-2.  To create a new Facebook identity provider, click **New**.
+2.  To create a new Facebook identity provider, select **New**.
 
-3.  Click **OpenID Connect**.
+3.  Select **OpenID Connect**.
 
 4.  On the form, fill in the fields.
 
@@ -44,13 +44,13 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
     |Client Secret|The client secret of the application registered in the third-party OIDC identity provider.|
     |Well known Configuration URL|The URL that contains metadata about the third-party OIDC identity provider.|
 
-5.  Click **Import**.
+5.  Select **Import**.
 
     The Facebook-based IdP is created.
 
 6.  Select the Facebook IdP.
 
-7.  In the Facebook idP, do the following:
+7.  In the Facebook IdP, do the following:
 
     1.  Validate all the fields such as **Name**, **OIDC Entity Profile**, **External logout redirect**, and **ServiceNow Homepage**.
 
@@ -62,21 +62,21 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 9.  In the **OIDC Entity** tab, do the following:
 
-    1.  Click the entity.
+    1.  Select the entity.
 
     2.  Set the **Redirect URL** field to your Facebook redirect URL.
 
 10. In the **OAuth Entity Profiles** tab, do the following:
 
-    1.  In the profile details, click a profile.
+    1.  In the profile details, select a profile.
 
     2.  Select a scope and verify the details.
 
         For example, select **scope-1**
 
-11. In the **OAuth Entity Scopes** tab, click the **scope-1** link and add the scope as `email`.
+11. In the **OAuth Entity Scopes** tab, select the **scope-1** link and add the scope as `email`.
 
-12. To save the configuration, right-click the header and click **Save**.
+12. To save the configuration, select and hold \(or right-click\) the header and select **Save**.
 
 13. To set the configuration as active, select **Active**.
 

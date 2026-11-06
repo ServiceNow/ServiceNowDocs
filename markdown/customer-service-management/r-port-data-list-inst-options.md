@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/r-port-data-list-inst-options.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configurable Portal widgets instance options, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
@@ -45,6 +45,7 @@ Option to display records dynamically based on the configuration provided in the
 </table>|Instance option|Description|
 |---------------|-----------|
 |Categories heading|Required title for all categories. The default text is `Categories`.|
+|Show list title|Show or hide the list title. The default value is `true`.|
 
 <table id="table_hsg_14z_2zb"><thead><tr><th>
 

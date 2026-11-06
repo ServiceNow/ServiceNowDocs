@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-11-01"
 reading_time_minutes: 8
 breadcrumb: [Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -68,7 +68,7 @@ Layer 2 Discovery uses the following strategies to create relationships between 
 
 -   **VMLayer2ConnectionStrategy**
 
-    This strategy creates a connection between a VM and a network device. If the number of exceptional MAC addresses is very low \(less than 3 and less than 15% of all MAC address of the ESX server and its VMs\), Discovery creates a Layer 2 connection.
+    This strategy creates a connection between a VM and a network device. Discovery creates a Layer 2 connection when the number of exceptional MAC addresses is very low — fewer than 3 and fewer than 15% of all MAC addresses on the ESX server and its VMs.
 
 -   **NetworkDeviceLayer2ConnnectionStrategy**
 

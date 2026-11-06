@@ -7,7 +7,7 @@ release: australia
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -81,7 +81,7 @@ The space type is mapped with a BOMA type. All the spaces that are assigned to t
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

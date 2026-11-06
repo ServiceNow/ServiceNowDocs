@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create report, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,7 +23,7 @@ Ensure that the query that you want to create a dynamic report for is a saved qu
 Role required:
 
 -   To create: cmdb\_query\_builder and report\_user
--   To view: Reporting role requirements might apply, see [Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_AdminsteringReports.md) for Reporting role requirements.
+-   To view: Reporting role requirements might apply, see Administering reports for Reporting role requirements.
 
 ## About this task
 
@@ -61,7 +61,7 @@ However, if you change the query definition itself, the query and the report are
     -   **Source type** is set to **Data source**.
     -   **Data source** is set to the table in which the query results are stored.
     -   **Query Sys ID** is the ID of the latest run of the query.
-    For more details about Reporting and about configuring a report in the Report Designer, see [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting-landing-page.md), [Creating reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-types-creation-details-rd.md).
+    For more details about Reporting and about configuring a report in the Report Designer, see Reporting, Creating reports.
 
 6.  Click **Save** or **Run**.
 

@@ -1,18 +1,18 @@
 ---
 title: Operational Technology Native Discovery components
-description: The ServiceNow Discovery for Operational Technology \(OT\) Native components provide a solution that gives you visibility of your OT devices and imports your device data into ServiceNow using the Service Graph Connector for ServiceNow OT Discovery. Using the OT components, that is, the Discovery Console for OT, Discovery Sensor for OT, and OT Discovery Collector, you can monitor and query your devices within the OT environment.
+description: The ServiceNow Discovery for Operational Technology \(OT\) Native components give you visibility of your OT devices. The components import your device data into ServiceNow using the Service Graph Connector for ServiceNow OT Discovery. Using the OT components, that is, the Discovery Console for OT, Discovery Sensor for OT, and OT Discovery Collector, you can monitor and query your devices within the OT environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-discovery-native-components.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Discovery, Operational Technology]
 ---
 
 # Operational Technology Native Discovery components
 
-The ServiceNow® Discovery for Operational Technology \(OT\) Native components provide a solution that gives you visibility of your OT devices and imports your device data into ServiceNow using the Service Graph Connector for ServiceNow OT Discovery. Using the OT components, that is, the Discovery Console for OT, Discovery Sensor for OT, and OT Discovery Collector, you can monitor and query your devices within the OT environment.
+The ServiceNow® Discovery for Operational Technology \(OT\) Native components give you visibility of your OT devices. The components import your device data into ServiceNow using the Service Graph Connector for ServiceNow OT Discovery. Using the OT components, that is, the Discovery Console for OT, Discovery Sensor for OT, and OT Discovery Collector, you can monitor and query your devices within the OT environment.
 
 ## Operational Technology Native Discovery components
 

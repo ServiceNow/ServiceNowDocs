@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_ConstructAnEmailMessage.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Email templates, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,13 +16,13 @@ Email templates provide a list of the fields from database tables that are avail
 
 An email template can include a **mailto** automatic response link, which enables the email recipient to simply choose a link that sends a preformatted response back to the instance. An example is the email template used for notification that an approval is required. The following example shows the base email:
 
-\[Omitted image "approval-request-notification.png"\] Alt text: Screenshot of the Approval Request Notification form showing configuration fields, along with email template selected under the What it will contain tab
+\[Omitted image "approval\_request\_notification.png"\] Alt text: The Approval Request notification uses the change.itil.approve.role email template.
 
 In this case, when a change request approval is requested, an update is made to the `sysapproval_approval` table. The "approval events" business rule is then executed, which creates the "approval.inserted" event. The "Approval Request" email event is defined to process the approval.inserted event, and this email event is defined to use the following change.itil.approve.role email template. Notice that this template has two mailto: items specified. One for "mailto.approval" and one for "mailto.rejection." This email template builds an automatic response that lets the email receiver simply click a link in the email to either approve or reject the change request.
 
 Here is what the **change.itil.approve.role** template looks like using the rich HTML editor:
 
-\[Omitted image "email-template-change-approval.png"\] Alt text: The change.itil.approve.role template specifies the HTML message content in the approval request email
+\[Omitted image "EmailTemplateChangeApproval.png"\] Alt text: The change.itil.approve.role template specifies the HTML message contents in the approval request email.
 
 The selection list on the right shows the available fields from the `sysapproval_approver` table.
 
@@ -30,7 +30,7 @@ Notice the **change.itil.approve.role** template also uses a predefined email la
 
 And here is the **mailto.approval** template:
 
-\[Omitted image "email-template-mailto-approval.png"\] Alt text: The mailto.approval template defines the approval notification link
+\[Omitted image "MailtoApprovalTemplate.png"\] Alt text: The mailto.approval template defines the approval notification link.
 
 **Note:** If you put text on the lines following the **Click here to approve $\{sysapproval\}** line, this text forms the actual body of the email.
 

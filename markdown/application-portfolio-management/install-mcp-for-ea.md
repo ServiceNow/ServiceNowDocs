@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [EA MCP server]
-breadcrumb: [Configure, MCP for Enterprise Architecture, Enterprise Architecture]
+breadcrumb: [Configure MCP, MCP for Enterprise Architecture, Enterprise Architecture]
 ---
 
 # Install MCP for Enterprise Architecture
@@ -18,7 +18,7 @@ You can install the MCP for Enterprise Architecture application \(sn\_ea\_mcp\_s
 ## Before you begin
 
 -   Review the [MCP for Enterprise Architecture](https://store.servicenow.com/store/app/aca7e28993e9cfd41caaf76e1dba1098) application listing in the ServiceNow Store for information on dependencies, and release compatibility. Check your entitlements to determine whether you have access to this application.
--   The application requires the MCP Server plugin \(com.sn\_mcp\_server\) and the ServiceNow Otto for Enterprise Architecture \(EA\) plugin \(com.sn.ea.gen.ai\).
+-   Ensure the MCP Server plugin \(com.sn\_mcp\_server\) and the ServiceNow Otto for Enterprise Architecture \(EA\) plugin \(com.sn.ea.gen.ai\) are installed.
 
 Role required: admin
 
@@ -28,10 +28,10 @@ Role required: admin
 
 2.  Activate the MCP for Enterprise Architecture server.
 
-    Navigate to **All** &gt; **MCP Server Console** and enable the MCP for Enterprise Architecture server before connecting it to an AI assistant.
+3.  Navigate to **All** &gt; **MCP Server Console** and enable the MCP for Enterprise Architecture server before connecting it to an AI assistant.
 
 
-**Parent Topic:**[Configuring MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configuring-ea-mcp-server.md)
+**Parent Topic:**[Configure MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configuring-ea-mcp-server.md)
 
 **Related topics**  
 

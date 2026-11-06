@@ -1,26 +1,28 @@
 ---
-title: Life cycle of an Incident
-description: Incident Management is responsible for managing the life cycle of incidents, from creation to closure.
+title: Incident life cycle
+description: Incident Management manages incidents through a defined set of states, from creation to closure, so you can track where each incident is in its life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/c\_IncidentManagementStateModel.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Incident Management, IT Service Management]
 ---
 
-# Life cycle of an Incident
+# Incident life cycle
 
-Incident Management is responsible for managing the life cycle of incidents, from creation to closure.
+Incident Management manages incidents through a defined set of states, from creation to closure, so you can track where each incident is in its life cycle.
 
-The Incident Management process has many states, and each is vitally important to the success of the process and the quality of service delivered. The different states can be represented in a diagram as follows:
+Each incident moves through a set of states in the Incident Management process, as shown in the following diagram:
 
 \[Omitted image "IM\_StateModel.png"\] Alt text: Incident state flow diagram
 
-**Note:** The state names in the diagram correspond to the states described in the following table.
+**Note:**
+
+The state names in the diagram correspond to the states described in the following table.
 
 <table id="table_t51_21c_b5"><thead><tr><th>
 
@@ -55,11 +57,11 @@ On Hold
 The responsibility for the incident shifts temporarily to another entity to provide further information, evidence, or a resolution. When you select the **On Hold** option, the following **On hold reason** list appears. -   Awaiting Caller
 -   Awaiting Change
 -   Awaiting Problem
--   Awaiting vendor
+-   Awaiting Vendor
 
-If the **On hold reason** is **Awaiting Caller**, the **Additional comments** becomes mandatory.
+If the **On hold reason** is **Awaiting Caller**, the **Additional comments** field becomes required.
 
-**Note:** If the caller updates the incident, the **On hold reason** field is cleared and the state of the incident is changed to **In Progress**. An email notification is sent to the user whose name is mentioned in the **Assigned to** field as well as to the users in the **Watch list**. An incident can be placed in the **On hold** state one or more times prior to being closed.
+**Note:** If the caller updates the incident, the **On hold reason** field is cleared and the state of the incident is changed to **In Progress**. An email notification is sent to the user whose name is mentioned in the **Assigned to** field and to the users in the **Watch list**. An incident can be placed in the **On Hold** state one or more times before being closed.
 
 </td></tr><tr><td>
 
@@ -67,7 +69,7 @@ Resolved
 
 </td><td>
 
-A satisfactory fix is provided for the incident to ensure that it does not occur again.
+A satisfactory fix is provided for the incident to help keep it from recurring.
 
 </td></tr><tr><td>
 
@@ -83,7 +85,7 @@ Canceled
 
 </td><td>
 
-Incident was triaged but found to be a duplicate incident, an unnecessary incident, or not an incident at all.
+Incident is triaged but found to be a duplicate incident, an unnecessary incident, or not an incident at all.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Exploring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-management-process.md)

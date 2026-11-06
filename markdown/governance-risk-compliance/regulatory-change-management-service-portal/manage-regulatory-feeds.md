@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Regulatory alerts, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -248,7 +248,7 @@ The regulatory event alert is assigned to the selected user and it is listed und
 
 [Add an AI-recommended citation to a regulatory alert]()
 
-[Train and use the similarity solution to recommend citations on regulatory alerts]()
+[Recommend citations on regulatory alerts]()
 
 [Manage and assign source document alerts]()
 

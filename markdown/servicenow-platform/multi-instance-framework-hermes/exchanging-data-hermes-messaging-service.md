@@ -7,7 +7,7 @@ release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,7 +31,7 @@ You can also produce messages from an external application and then consume the 
 
 \[Omitted image "stream-connect.png"\] Alt text: Producing and consuming with Stream Connect for Apache Kafka.
 
-For details, see [Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/stream-connect-apache-kafka.md).
+For details, see Stream Connect for Apache Kafka.
 
 ## Using Log Export Service
 

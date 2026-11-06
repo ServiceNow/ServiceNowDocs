@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-modeling-create-diagram.html
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---

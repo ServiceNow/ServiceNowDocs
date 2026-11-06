@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-order-header-task.html
 release: australia
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order header tasks, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -26,7 +26,7 @@ Order header tasks remain open until explicitly closed. The order is not marked 
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Open the order for which you want to create a task.
 

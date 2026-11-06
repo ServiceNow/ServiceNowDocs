@@ -7,7 +7,7 @@ release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -70,18 +70,6 @@ Included with the Conversational Messaging plugin \(com.glide.messaging.awa\).
 
 </td></tr><tr><td>
 
-Facebook Messenger
-
-</td><td>
-
-Routes requests from the Facebook Messenger chat conversations.
-
-</td><td>
-
-Included with the [Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-fbm.md) store application.
-
-</td></tr><tr><td>
-
 Incident
 
 </td><td>
@@ -91,18 +79,6 @@ Routes and assigns incidents.
 </td><td>
 
 Included with the Advanced Work Assignment for incidents plugin \(com.snc.incident.awa\).
-
-</td></tr><tr><td>
-
-Line
-
-</td><td>
-
-Routes requests from LINE chat conversations.
-
-</td><td>
-
-Included with the [Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-line.md) store application.
 
 </td></tr><tr><td>
 

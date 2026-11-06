@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/column-level-encryption-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Encryption]
 ---
@@ -54,7 +54,7 @@ In this example, you can see four users attempting to access data stored in two 
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
 -   **[Exploring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/exploring-column-level-encryption.md)**  
-Learn more about Field Encryption.
+Learn more about Column Level Encryption.
 -   **[Configuring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configuring-column-level-encryption-2.md)**  
 Learn how to activate and configure Column Level Encryption and manage migration from Encryption Support.
 -   **[Using Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/using-column-level-encryption-2.md)**  

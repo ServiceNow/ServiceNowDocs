@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/vr-retrieve-benchmark-results.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [how to opt-in for benchmark scores]
 breadcrumb: [Cybersecurity Executive Dashboard, Security Operations]
@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-For more information on Benchmarking, see [Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks-landing.md).
+For more information on Benchmarking, see .
 
 ## Procedure
 

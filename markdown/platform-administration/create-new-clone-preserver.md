@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/create-new-clone-preserver.html
 release: australia
 topic_type: task
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [clone preserver, data preserver, preserve data, clone conditions, target instance]
 breadcrumb: [Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]

@@ -77,21 +77,21 @@ The connection and credentials contain the details such as the client ID, client
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Select the **Integrations** tab.
+2.  Click the **Integrations** tab.
 
-3.  Select the **Connections** tab.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-4.  In the Search all connections field, enter `Gmail`.
-
-5.  Select **View Details**.
+4.  Locate the alias for **Gmail** and click **View Details**.
 
     \[Omitted image "gmail-spk-conn-alias.png"\] Alt text: View Details button on Gmail spoke connection alias.
 
-6.  Select **Configure**.
+    To manage more than one Gmail connection record, create a new child alias record by selecting **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
+
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "gmail-spk-alias-config-button.png"\] Alt text: Configure button on Gmail spoke connection alias.
 
-7.  Fill the form with the details given in the table.
+5.  On the form, fill in these fields:
 
 <table id="table_ebx_vjh_gxb"><thead><tr><th>
 
@@ -101,7 +101,11 @@ Field
 
 Description
 
-</th></tr></thead><tbody><tr><td>
+</th></tr></thead><tbody><tr><td colspan="2">
+
+Connection Information
+
+</td></tr><tr><td>
 
 Connection Name
 
@@ -118,6 +122,10 @@ Connection URL
 Enter the URL `https://www.googleapis.com`**Note:** Make sure that you don't include spaces before or after this URL. If there are spaces, the connection fails.
 
 .
+
+</td></tr><tr><td colspan="2">
+
+Credential Information
 
 </td></tr><tr><td>
 
@@ -154,7 +162,7 @@ The OAuth redirect URL. It must be in the format: `https://<instance-name>.servi
 </td></tr></tbody>
 </table>    \[Omitted image "gmail-spk-conn-form.png"\] Alt text: Gmail connection form.
 
-8.  Select **Configure and Get OAuth Token**.
+6.  Click **Save and Get OAuth Token**.
 
     You must log into Gmail after the OAuth token is issued.
 

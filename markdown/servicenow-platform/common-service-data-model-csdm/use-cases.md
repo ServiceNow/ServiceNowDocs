@@ -7,8 +7,8 @@ release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -37,31 +37,31 @@ The topics do not address the following information:
 
 -   **Change Management**
 
-    [Applying CSDM guidelines to Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-change-use-case-product-view.md)
+
 
 -   **Customer Service Management**
 
-    [Customer Service Management and the CSDM guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-use-case-product-view.md)
+
 
 -   **Digital Portfolio Management**
 
-    [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dpm-csdm.md)
+
 
 -   **Enterprise Architecture**
 
-    [Enterprise Architecture \(EA\) and the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/apm-use-case-product-view.md)
+
 
 -   **HR Service Delivery for Healthcare**
 
-    [HR Service Delivery and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hrsd-csdm.md)
+
 
 -   **Incident Management**
 
-    [Applying CSDM guidelines to Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-incident-use-case-product-view.md)
+
 
 -   **Install Base Management**
 
-    [Common Service Data Model framework for Install Base Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csdm-framework-for-install-base-management.md)
+
 
 -   **ITOM AIOps**
 
@@ -73,15 +73,15 @@ The topics do not address the following information:
 
 -   **Operational Technology Manager**
 
-    [Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-use-case-product-view.md)
+
 
 -   **Problem Management**
 
-    [Applying CSDM guidelines to Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/pm-use-case-product-view.md)
+
 
 -   **RPA Hub**
 
-    [Applying the CSDM guidelines to RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-apply-csdm.md)
+
 
 -   **Service Catalog**
 
@@ -89,7 +89,7 @@ The topics do not address the following information:
 
 -   **Service Portfolio Management**
 
-    [Applying the CSDM guidelines to Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/SPM2-csdm.md)
+
 
 -   **Vulnerability Response**
 

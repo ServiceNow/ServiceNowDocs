@@ -1,5 +1,5 @@
 ---
-title: Create a SCIM Extension schema
+title: Create a SCIM extension schema
 description: Create custom attributes to map to fields that are not mapped as part of either the core schema or the ServiceNow extension schema.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/create-scim-extension-schemas.html
@@ -7,12 +7,12 @@ release: australia
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SCIM customization, SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
 
-# Create a SCIM Extension schema
+# Create a SCIM extension schema
 
 Create custom attributes to map to fields that are not mapped as part of either the core schema or the ServiceNow extension schema.
 
@@ -26,7 +26,7 @@ Role required: scim\_config\_admin
 
 1.  Navigate to **All** &gt; **SCIM** &gt; **SCIM Extension schemas**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -85,9 +85,9 @@ Details within the JSON schemas. For more information about defining the extensi
 </td></tr></tbody>
 </table>    \[Omitted image "scim-extension-schemas.png"\] Alt text: SCIM Extension schema
 
-4.  Validate the attributes by clicking **Validate**.
+4.  Validate the attributes by selecting **Validate**.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 
 ## Result

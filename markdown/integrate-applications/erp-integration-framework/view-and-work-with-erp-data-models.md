@@ -30,9 +30,9 @@ Role required: sn\_erp\_integration.erp\_admin
 
 ## About this task
 
-A model functions as a staging area that contains all potential fields you can add to remote and extraction tables, as well as, create, read, and update operations. You can then use the tables and queried data as a data source on the ServiceNow AI Platform.
+A model functions as a staging area that contains all potential fields you can add to remote and extraction tables, as well as create, read, and update operations. You can then use the tables and queried data as a data source on the ServiceNow AI Platform.
 
-Zero Copy Connector for ERP provides a standard set of models, such as SAP Material Stock and SAP Purchase Document. For a list, see [Standard extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.md). For information about building new models, see [Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md). Use Zero Copy Connector for ERP data products, sets of predefined models and process extensions, as examples to help you implement and deploy applications with less manual work. For more information, see [Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md).
+Zero Copy Connector for ERP provides a standard set of models, such as SAP Material Stock and SAP Purchase Document. For a list, see [Standard extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.md). For information about building new models, see [Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md). Use Zero Copy Connector for ERP data products, sets of predefined models and process extensions, as examples to help you implement and deploy applications with less manual work. For more information, see [Accelerating SAP integrations with Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md).
 
 ## Procedure
 
@@ -91,7 +91,7 @@ Alias
 
 Alias for the table.The alias refers to an alternative or substitute name for the table. An alias enables you to assign and customize a recognizable name for easier reference and identification.
 
-The alias can be a maximum of 40 characters, and contain a-z, A-Z, 0-9, and underscores.
+The aliases can be a maximum of 40 characters, and contain a-z, A-Z, 0-9, and underscores.
 
 </td></tr><tr><td>
 

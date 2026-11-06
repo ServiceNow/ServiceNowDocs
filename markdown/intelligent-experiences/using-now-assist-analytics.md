@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/using-now-assist-analytics.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-01"
+last_updated: "2026-09-30"
 reading_time_minutes: 1
 keywords: [Now Assist Analytics, dashboard, GenAI, GenerativeAI, sn\_na\_analytics\_admin, sn\_na\_analytics\_viewer]
-breadcrumb: [Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Using AI Analytics

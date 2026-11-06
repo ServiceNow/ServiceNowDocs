@@ -5,16 +5,23 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/lang-support-aiw.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-01"
+last_updated: "2026-10-13"
 reading_time_minutes: 1
-breadcrumb: [Explore, Autonomous Workforce, Enable AI experiences]
+keywords: [language support ai specialists, multilingual support ai specialists, language support ai workforce, multilingual support ai workforce, language support autonomous workforce, multilingual support autonomous workforce, translation ai specialists, translation ai workforce, translation autonomous workforce]
+breadcrumb: [Explore, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Multilingual support for AI specialists
 
 AI specialists can respond to users in multiple languages.
 
-The AI specialist can communicate with users in several languages, depending on their preference and language availability, using the built-in language capabilities of the large language model \(LLM\). The language that the AI specialist responds with is based on the language used for the majority of the activity and interactions for the record. Language detection is first done with an AI skill, then Dynamic Translation, then, as a fallback, it uses the user's language set in their user preferences.
+The AI specialist can communicate with users in several languages, depending on their preference and language availability, using the built-in language capabilities of the large language model \(LLM\). It responds in the language used for most of the activity and interactions on the record.
+
+To detect that language, the AI specialist checks the following sources in order:
+
+1.  An AI skill that detects the language of the record's activity
+2.  Dynamic Translation
+3.  The language set in the user's preferences
 
 For example, if a user leaves a comment in Spanish, the underlying LLM supports Spanish, so it reads the Spanish input directly. It then generates a response in Spanish, regardless of the language used in the source material it uses to create that response.
 
@@ -24,38 +31,9 @@ Some content in response templates may not be translated.
 
 Supported languages are categorized into three groups of fluency.
 
-P1 languages have the strongest support, meaning generally high-quality translation and generative capabilities. Nuance, idioms, and context are usually handled well because these languages are deeply integrated into the models.
-
-P2 languages are supported, and accuracy is good, but there may be occasional gaps in nuance compared to P1 languages.
-
-P3 languages include a broader set of languages. While coverage can be comprehensive, these languages generally have less training depth, so subtle tone or idiomatic expressions may be harder to capture perfectly.
-
--   P1
-    -   English
-    -   French
-    -   German
-    -   Italian
-    -   Spanish
-    -   Brazilian Portuguese
--   P2
-    -   Canadian French
-    -   Japanese
-    -   Dutch
--   P3
-    -   Swedish
-    -   Finnish
-    -   Czech
-    -   Hebrew
-    -   Hungarian
-    -   Korean
-    -   Norwegian
-    -   Polish
-    -   Portuguese
-    -   Russian
-    -   Simplified Chinese
-    -   Traditional Chinese
-    -   Thai
-    -   Turkish
-    -   Arabic
-    -   Danish
+|Tier|Support level|Languages|
+|----|-------------|---------|
+|P1|Strongest support. Nuance, idioms, and context are usually handled well.|Brazilian Portuguese, English, French, German, Italian, Spanish|
+|P2|Good accuracy, with occasional gaps in nuance compared to P1.|Canadian French, Dutch, Japanese|
+|P3|Broad coverage with less training depth. Subtle tone and idioms may be harder to capture.|Arabic, Czech, Danish, Finnish, Hebrew, Hungarian, Korean, Norwegian, Polish, Portuguese, Russian, Simplified Chinese, Swedish, Thai, Traditional Chinese, Turkish|
 

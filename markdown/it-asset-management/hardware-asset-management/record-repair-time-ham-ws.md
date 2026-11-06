@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage asset repair in stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage repair of defective assets in your stockroom in the Hardware Asset Workspace, Repair and maintenance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Record time worked on asset repair tasks in the Hardware Asset Workspace

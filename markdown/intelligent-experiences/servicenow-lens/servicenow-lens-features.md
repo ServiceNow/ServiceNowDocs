@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Explore, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Explore, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # ServiceNow AI Lens features

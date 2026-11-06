@@ -7,9 +7,9 @@ release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Data Kit, Enable AI experiences]
+breadcrumb: [AI Data Kit, Managing data for AI, Enable AI Experiences]
 ---
 
 # AI Data Kit reference

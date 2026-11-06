@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-identity-access-mgmt.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Identity &amp; access, Device security, Mobile security, Configuring the Mobile Platform, Mobile Platform]
 ---

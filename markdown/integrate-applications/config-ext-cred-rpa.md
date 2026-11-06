@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/config-ext-cred-rpa.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [External credential vault, Credential Management, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -55,7 +55,7 @@ Populate values for **appID** and **query**.
 
 </td></tr><tr><td>
 
-1.B. You can use the REST Step in the subflow to connect with the external credential vault. You can also use other integration steps such as SOAP. For more information, see .
+1.B. You can use the REST Step in the subflow to connect with the external credential vault. You can also use other integration steps such as SOAP. For more information, see [Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/steps.md).
 
 </td><td>
 

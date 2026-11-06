@@ -7,9 +7,9 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-keywords: [ServiceNow, Health Log Analytics, HLA, data input, configuration]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [ServiceNow, Health Log Analytics, HLA, manual, data input, configuration]
 breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -25,9 +25,9 @@ Set up a data input for streaming log data from Elasticsearch indices to your Se
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
--   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
+-   Unless the MID Server and external clients are on the same network, verify that the MID Server has a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
 
-Health Log Analytics supports Elasticsearch versions above 7.10.2 and below 8.18.2.
+Health Log Analytics supports Elasticsearch version 7.10.2 or later.
 
 **Note:** For advanced information about streaming log data from Elasticsearch indices to your instance, see the [Stream logs using Elasticsearch data input - Advanced guide](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1080162) \[KB1080162\] article in the Now Support knowledge base.
 
@@ -47,15 +47,9 @@ Role required: evt\_mgmt\_admin
 
 5.  Select **Advanced** to set advanced configuration fields.
 
-    For a description of the fields, see [Elasticsearch data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-elastic-ref.md). For information about configuring the advanced settings later, see [Configure advanced settings for Elasticsearch data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-adv-elastic.md).
-
 6.  On the **Transport** tab, fill in the fields.
 
-    For a description of the fields, see [Elasticsearch data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-elastic-ref.md).
-
 7.  On the **Query Settings** tab, fill in the fields.
-
-    For a description of the fields, see [Elasticsearch data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-elastic-ref.md).
 
 8.  Select **Save**.
 
@@ -74,14 +68,16 @@ Role required: evt\_mgmt\_admin
 
         **Note:** You can only publish the data input configuration when the connection is created successfully.
 
-    **Note:** You can revert to the last published configuration by selecting **Revert Changes**. This option is available only when you're modifying a configuration that has been published previously.
+10. Revert to the last published configuration by selecting **Revert Changes**.
 
-10. Select **Publish** to publish the data input to the MID Server.
+    **Note:** This option is available only when you're modifying a previously published configuration.
+
+11. Select **Publish** to publish the data input to the MID Server.
 
 
 ## Result
 
-The data input configuration process is complete. Health Log Analytics adds the data input record to the **Data Inputs** table and attaches the configuration file to the data input record. The data input starts streaming log data from Elasticsearch indices to your ServiceNow instance.
+The data input configuration process is complete. Health Log Analytics adds the data input record to the **Data Inputs** table. The data input starts streaming log data from Elasticsearch indices to your ServiceNow instance.
 
 For more information about streaming logs using the Elasticsearch data input, see the [Stream logs using Elasticsearch data input - Advanced guide \[KB1080162\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1080162) article in the Now Support Knowledge Base.
 
@@ -89,14 +85,9 @@ For more information about streaming logs using the Elasticsearch data input, se
 
 ## What to do next
 
-[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
+[Verify that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
 **Note:** If you experience permissions-related issues with streaming log data from Elasticsearch, refer to the [Granting privileges for data streams from Elasticsearch \[KB0967366\]](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=9648a9281b61b4100b8a9979b04bcb04) article in the Now Support Knowledge Base.
 
 **Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
-
-**Related topics**  
-
-
-[Configure advanced settings for Elasticsearch data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-adv-elastic.md)
 

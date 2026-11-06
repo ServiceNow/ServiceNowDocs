@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [dependencies, OT dependencies]
 breadcrumb: [Reference, Operational Technology Manager, Operational Technology]
@@ -16,6 +16,8 @@ breadcrumb: [Reference, Operational Technology Manager, Operational Technology]
 # Operational Technology dependencies
 
 The following tables describe the application dependencies required for Operational Technology \(OT\) device management and OT vulnerability management.
+
+With the full Operational Technology product, you can track and manage your device and vulnerability data within an OT environment. For more information about the applications and features included with the OT product, see the [Operational Technology store listing](https://store.servicenow.com/store/product/2418155297e887900cd036a71153aff4).
 
 ## OT device management
 

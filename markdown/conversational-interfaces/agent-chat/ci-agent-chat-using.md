@@ -7,7 +7,7 @@ release: australia
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 keywords: [Using, Agent Chat, Virtual Agent, live, conversation]
 breadcrumb: [Agent Chat, Conversational Interfaces]

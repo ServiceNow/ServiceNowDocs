@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/install-dashboard-cco.html
 release: australia
 topic_type: task
-last_updated: "2026-09-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Chief Customer Operations Officer \(CCO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---

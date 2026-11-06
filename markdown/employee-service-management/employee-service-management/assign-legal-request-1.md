@@ -4,7 +4,7 @@ description: Assign a legal request to yourself or to someone in your assignment
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 ---
 

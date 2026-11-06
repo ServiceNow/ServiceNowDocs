@@ -7,7 +7,7 @@ release: australia
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migration job, Migration Utility, Configuring Problem Management, Problem Management, IT Service Management]
 ---
@@ -34,7 +34,7 @@ New York Patch 9 or Orlando Patch 3 or later are required before the administrat
 
     If you have the required patch level, you have access to the plugin and can activate it. If you do not have the patch level, you must request it.
 
-<table id="choicetable_zxl_xhm_plb"><tbody><tr><td id="d400152e92">
+<table id="choicetable_zxl_xhm_plb"><tbody><tr><td id="d282699e92">
 
 **Activate the plugin \(required patch level is installed\)**
 
@@ -47,7 +47,7 @@ New York Patch 9 or Orlando Patch 3 or later are required before the administrat
 
 The plugin status changes to **Activated**. You can return to the Migration Utility and continue with the migration.
 
-</td></tr><tr><td id="d400152e130">
+</td></tr><tr><td id="d282699e130">
 
 **Request the plugin**
 

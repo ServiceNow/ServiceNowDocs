@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-08-06"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, content, pack, content pack, sales, order, model, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Quote to Cash, Available content packs, Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Quote to Cash, Available SAP content packs, Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP Quote to Cash content pack models

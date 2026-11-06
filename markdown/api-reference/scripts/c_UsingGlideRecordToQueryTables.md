@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Server-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Querying tables in script
@@ -22,7 +22,7 @@ Query tables using the GlideRecord API. For API reference, see [GlideRecord - Sc
 
 To query a table, first create a GlideRecord object. To create a GlideRecord, create the following in script:
 
-```
+```javascript
 var target = new GlideRecord('incident');
 ```
 
@@ -30,7 +30,7 @@ Creating a GlideRecord creates a `target` variable which is a GlideRecord object
 
 To process all records from the incident table, add the following script:
 
-```
+```javascript
 target.query(); // Issue the query to the database to get all records 
 while (target.next()) { 
   // add code here to process the incident record 
@@ -43,7 +43,7 @@ This script issues the query\(\) to the database. Each call to next\(\) would lo
 
 Most of the time, you want to retrieve a specific record or a specific set of records, and you have some criteria \(query conditions\) that define the records you want to obtain. For example, say that you want to obtain all the incident records that have a priority value of 1. Here is the code that would accomplish that.
 
-```
+```javascript
 var target = new GlideRecord('incident'); 
 target.addQuery('priority',1);
 target.query(); // Issue the query to the database to get relevant records 
@@ -54,7 +54,7 @@ while (target.next()) {
 
 Notice that the example script includes `target.addQuery('priority', 1);`. This line indicates that you only want the records where the **priority** field is equal to 1. In general, most queries that you want to perform are equality queries; queries where you want to find records with a field equal to a value. For this reason, you do not need to provide an equality operator. However, lets say you wanted to find all incidents where the **priority** field is greater than 1. In this case, you would provide the operator that you want to apply to the query.
 
-```
+```javascript
 var target = new GlideRecord('incident') ; 
 target.addQuery('priority','>',1);
 target.query(); // Issue the query to the database to get relevant records 
@@ -67,7 +67,7 @@ while (target.next()) {
 
 Use the `'123TEXTQUERY321'` reserved name to search for string matches in all fields on a table. For example, this script returns records from the Incident table with field values that include the 'email' string.
 
-```
+```javascript
 var now_GR = new GlideRecord('incident');
 gr.addQuery('123TEXTQUERY321', 'email');
 gr.query();
@@ -87,7 +87,7 @@ Use the `'123TEXTINDEXGROUP321'` reserved name to search for a string in a table
 
 For example, this script returns records from the Knowledge table that include the keyword 'email', with relevancy scores computed for the 'portal' index group.
 
-```
+```javascript
 var now_GR = new GlideRecord('kb_knowledge');
 gr.addQuery('123TEXTQUERY321', 'email');
 gr.addQuery('123TEXTINDEXGROUP321', 'portal');
@@ -102,7 +102,7 @@ Multi-table string search is case-insensitive. The system returns the same resul
 
 **Note:** Before you can query tables in an index group, you must configure text indexing and search attributes for those tables and include them in the index group. For more information, see [Configure multiple tables for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/index-multiple-tables.md). All tables in the index group must use the V4 indexing format.
 
-**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ServerScripting.md)
+**Parent Topic:**[Writing server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/server-side-scripting-overview.md)
 
 ## Available JavaScript operators
 
@@ -281,7 +281,7 @@ addQuery\('sys\_class\_name', 'INSTANCEOF', 'cmdb\_ci\_computer'\);
 
 There are also some special methods that you can use to search for data that is NULL or NOT NULL. To search for all incidents where the *short\_description* field has not been supplied \(is null\), use the following query:
 
-```
+```javascript
 var target = new GlideRecord('incident'); 
 target.addNullQuery('short_description');
 target.query(); // Issue the query to the database to get all records 
@@ -292,7 +292,7 @@ while (target.next()) {
 
 To find all incidents in which a *short\_description* has been supplied, use the following query:
 
-```
+```javascript
 var target = new GlideRecord('incident'); 
 target.addNotNullQuery('short_description');
 target.query(); // Issue the query to the database to get all records 
@@ -309,7 +309,7 @@ These examples demonstrate how to perform various GlideRecord queries.
 
 ### query
 
-```
+```javascript
 var rec = new GlideRecord('incident');
 rec.query(); 
 while(rec.next()) { 
@@ -318,7 +318,7 @@ while(rec.next()) {
 
 ### update
 
-```
+```javascript
 var rec = new GlideRecord('incident');
 rec.addQuery('active',true);
 rec.query(); 
@@ -330,7 +330,7 @@ while(rec.next()) {
 
 ### insert
 
-```
+```javascript
 var rec = new GlideRecord('incident');
 rec.initialize();
 rec.short_description = 'Network problem'; 
@@ -340,7 +340,7 @@ rec.insert();
 
 ### delete
 
-```
+```javascript
 var rec = new GlideRecord('incident');
 rec.addQuery('active',false);
 rec.query(); 
@@ -353,7 +353,7 @@ while(rec.next()) {
 
 You cannot directly query the variables of the Service Catalog Request Item table \[sc\_req\_item\]. Instead, query the Variable Ownership table, \[sc\_item\_option\_mtom\], by adding two queries, one for the variable name and another for the value. The query returns the many-to-many relationship, which you can dot-walk to the requested item. The following example finds the request items that have the variable *item\_name* with a value of *item\_value* and displays the request item numbers:
 
-```
+```javascript
 var now_GR = new GlideRecord('sc_item_option_mtom');
 gr.addQuery('sc_item_option.item_option_new.name','item_name');
 gr.addQuery('sc_item_option.value','item_value');

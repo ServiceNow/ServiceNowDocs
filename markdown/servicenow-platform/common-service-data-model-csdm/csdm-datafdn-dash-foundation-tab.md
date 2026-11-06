@@ -7,7 +7,7 @@ release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,8 +38,6 @@ To view detailed information on the impact of a metric and for details on workin
 -   **Named Product Models without Product Owners**
 
     Application, service, and software class instance CIs aren't created through Discovery, so their **Model ID \[model\_id\]** values might not refer to product model records. To help you to migrate to a product-centric management paradigm, each instance of a logical CI should be associated with a product model. For recommendations, see [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
-
-    For more information, see [Products and product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/foundation-domain.md).
 
 -   **Locations without Parents**
 

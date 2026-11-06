@@ -1,5 +1,5 @@
 ---
-title: Creating custom UI Pages and UI macros
+title: UI pages and macros
 description: Use UI pages to create custom pages for an application and UI macros for custom controls or interfaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/create-custom-ui-pages.html
@@ -7,12 +7,12 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scripting, API implementation, API implementation and reference]
+breadcrumb: [Write client-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
-# Creating custom UI Pages and UI macros
+# UI pages and macros
 
 Use UI pages to create custom pages for an application and UI macros for custom controls or interfaces.
 
@@ -26,6 +26,8 @@ UI pages can be used to create and display forms, dialogs, lists, and other UI c
 UI macros are discrete scripted components administrators can add to the user interface.
 -   **[Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_JellyTags.md)**  
 Use Jelly to turn XML into HTML.
+-   **[HTML syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/html-syntax-editor.md)**  
+The HTML syntax editor provides support for editing HTML and Jelly scripts and defines what's rendered when the page is displayed. The HTML syntax editor can contain either static XHTML or dynamically generated content defined as Jelly, and can call script includes and UI Macros.
 
-**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
+**Parent Topic:**[Writing client-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
 

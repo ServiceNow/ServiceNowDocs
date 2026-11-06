@@ -7,7 +7,7 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage employee reservations, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -40,5 +40,5 @@ Role required: approver\_user
 
 [Print workplace reservations]()
 
-[Manage and configure reservation waitlist]()
+[Reservation Waitlist data model]()
 

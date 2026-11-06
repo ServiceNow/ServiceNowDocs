@@ -7,7 +7,7 @@ release: australia
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Service Delivery, Employee Service Management]
 ---
@@ -20,19 +20,19 @@ Efficiently supervise every single location of your organization by using the Se
 
 <table id="table_sdw_cwc_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about Workplace Space Management concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/explore_wsm.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn about Workplace Space Management concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/explore_wsm.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Install and Configure Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/configure-space-management.md)
+[Configure \[Omitted image "icon-configure.png"\] Alt text: Configure. Install and Configure Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/configure-space-management.md)
 
 </td></tr><tr><td>
 
-[Manage \[Omitted image "bus-headset.svg"\] Alt text: Manage Workplace Space Management location records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
+[Manage \[Omitted image "icon-managing.png"\] Alt text: Manage Manage Workplace Space Management location records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 </td><td>
 
-[References \[Omitted image "bus-learn.svg"\] Alt text: Learn about Workplace Space Management roles, properties, and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/workplace-space-mgmt-references.md) 
+[References \[Omitted image "icon-reference.png"\] Alt text: References Learn about Workplace Space Management roles, properties, and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/workplace-space-mgmt-references.md) 
 
 </td></tr></tbody>
 </table>## Additional resources

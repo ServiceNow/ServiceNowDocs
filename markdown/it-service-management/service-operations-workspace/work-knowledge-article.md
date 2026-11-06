@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Knowledge Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -26,34 +26,34 @@ Role required: itil
 
 2.  Perform any of the following actions on the record page.
 
-<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d138424e61">
+<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d224662e63">
 
 Option
 
-</th><th align="left" id="d138424e64">
+</th><th align="left" id="d224662e66">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d138424e70">
+</th></tr></thead><tbody><tr><td id="d224662e72">
 
-**Create a new version of the knowledge article that we can publish**
+**Create a new version of the knowledge article that you can publish**
 
 </td><td>
 
 Select **Checkout**.
 
-</td></tr><tr><td id="d138424e82">
+</td></tr><tr><td id="d224662e84">
 
 **Translate an article after its comparison in its original language and the language it will be translated into**
 
 </td><td>
 
 1.  Select **Translate**.
-2.  Review the translation and click **Create draft article**.
+2.  Review the translation and select **Create draft article**.
 
-**Note:** If Dynamic Translation is enabled, click **Machine Translate** to view machine translations.
+**Note:** If Dynamic Translation is enabled, select **Machine Translate** to view machine translations.
 
-</td></tr><tr><td id="d138424e112">
+</td></tr><tr><td id="d224662e118">
 
 **View a knowledge article including the article number, short description, and article content**
 
@@ -61,78 +61,78 @@ Select **Checkout**.
 
 Select **View Article**.
 
-</td></tr><tr><td id="d138424e124">
+</td></tr><tr><td id="d224662e130">
 
 **Initiate the retirement workflow associated with the article**
 
 </td><td>
 
-From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\), select **Retire**. For information about retiring a knowledge article, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RetiredKnowledgeArticles.md).
+From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt text:\), select **Retire**. For information about retiring a knowledge article, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RetiredKnowledgeArticles.md).
 
-</td></tr><tr><td id="d138424e147">
+</td></tr><tr><td id="d224662e152">
 
 **Translate an article into multiple languages**
 
 </td><td>
 
-1.  From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\), select **Request translations**.
-2.  Select the languages you want to translate the article into.
+1.  From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt text:\), select **Request translations**.
+2.  Select the languages to translate the article into.
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d138424e180">
+</td></tr><tr><td id="d224662e184">
 
 **Copy the record page URL to easily access the record**
 
 </td><td>
 
-Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Copy URL**.
+Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and select **Copy URL**.
 
-</td></tr><tr><td id="d138424e198">
+</td></tr><tr><td id="d224662e201">
 
 **Reuse a knowledge block when creating or editing the article**
 
 </td><td>
 
-1.  From the contextual side panel, select the add blocks icon \(\[Omitted image "add-blocks-icon.png"\] Alt text: add blocks icon\).
+1.  From the contextual side panel, select the add blocks icon \(\[Omitted image "add-blocks-icon.png"\] Alt text:\).
 2.  Select the required knowledge block to add it to the article.
 
 
-</td></tr><tr><td id="d138424e222">
+</td></tr><tr><td id="d224662e224">
 
 **Attach a record that helps in quick resolution of the interaction**
 
 </td><td>
 
-1.  From the contextual side panel, select the agent assist icon \(\[Omitted image "agent-assist-icon.png"\] Alt text: agent assist icon\).
+1.  From the contextual side panel, select the agent assist icon \(\[Omitted image "agent-assist-icon.png"\] Alt text:\).
 2.  Search for a resource and perform the required action, for example, find a relevant knowledge base article and attach a link to it to work notes.
  **Note:** The agent assist icon is available only for users with the following roles: itil or interaction\_agent.
 
  For information on configuring additional search resources, see [Configure search resources for an interaction in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-resources-for-an-interaction.md).
 
-</td></tr><tr><td id="d138424e259">
+</td></tr><tr><td id="d224662e260">
 
 **Add attachments**
 
 </td><td>
 
-From the contextual side panel, select the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text: attachments icon\). Alternatively, you can drag and drop the attachment into the **Active Chat** window of the interaction.**Note:** The added attachments are displayed in the activity stream in the **Compose** section.
+From the contextual side panel, select the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text:\). Alternatively, you can drag the attachment into the **Active Chat** window of the interaction.**Note:** The added attachments are displayed in the activity stream in the **Compose** section.
 
-</td></tr><tr><td id="d138424e283">
+</td></tr><tr><td id="d224662e283">
 
 **Create templates for reuse**
 
 </td><td>
 
-From the contextual side panel, select the templates icon \(\[Omitted image "template-icon.png"\] Alt text: templates icon\) and create a template or reuse an existing one.
+From the contextual side panel, select the templates icon \(\[Omitted image "template-icon.png"\] Alt text:\) and create a template or reuse an existing one.
 
-</td></tr><tr><td id="d138424e299">
+</td></tr><tr><td id="d224662e298">
 
 **Most recent task**
 
 </td><td>
 
-Related list of task records to which the knowledge article is recently attached. You can select the task record link to open the record another tab within the workspace view. These records are retrieved from the **Knowledge Applied Tasks** \[**m2m\_kb\_task**\] table. **Note:** The related list section is displayed only if the **Display recent task for knowledge article** \(**glide.knowman.recent\_task.display**\) system property is enabled.
+Related list of task records to which the knowledge article is recently attached. You can select the task record link to open the record in another tab within the workspace view. These records are retrieved from the **Knowledge Applied Tasks** \[**m2m\_kb\_task**\] table. **Note:** The related list section is displayed only if the **Display recent task for knowledge article** \(**glide.knowman.recent\_task.display**\) system property is enabled.
 
 </td></tr></tbody>
 </table>

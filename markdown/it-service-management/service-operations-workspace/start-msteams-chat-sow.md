@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow integrations with Microsoft Teams in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -52,15 +52,15 @@ When you view or import a Microsoft Teams chat conversation for a task record, t
 
 6.  To import a chat conversation, perform one of the following actions.
 
-<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d307220e237">
+<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d124033e237">
 
 Option
 
-</th><th align="left" id="d307220e240">
+</th><th align="left" id="d124033e240">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d307220e246">
+</th></tr></thead><tbody><tr><td id="d124033e246">
 
 **Import a chat from any conversation**
 
@@ -71,7 +71,7 @@ Description
 3.  Select the chat and select **Import**.
 
 
-</td></tr><tr><td id="d307220e276">
+</td></tr><tr><td id="d124033e276">
 
 **Import a chat from a conversation in which you are a member**
 

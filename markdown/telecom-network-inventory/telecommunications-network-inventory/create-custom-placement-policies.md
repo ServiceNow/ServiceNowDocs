@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Data center infrastructure rack allocation, Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -53,8 +53,6 @@ Structure your article with:
 7.  Open the knowledge article you created.
 
 8.  Add the configuration item for your data center or rack.
-
-    \[Omitted image "create-knowledge-article.png"\] Alt text: Knowledge article form with the configuration item field
 
 9.  Enter the policy parameters in plain language in the article body.
 

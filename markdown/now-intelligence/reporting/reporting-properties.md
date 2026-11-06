@@ -1,5 +1,5 @@
 ---
-title: Reporting properties
+title: Core UI Reporting properties
 description: Use properties to fine-tune report behavior and appearance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/reporting-properties.html
@@ -7,12 +7,12 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Reporting reference, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Core UI Reporting reference, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Reporting properties
+# Core UI Reporting properties
 
 Use properties to fine-tune report behavior and appearance.
 
@@ -34,7 +34,7 @@ Enable fulfiller creation of Core UI reportscom.snc.par.coreui.report\_create.en
 
 </td><td>
 
-Allows fulfiller users to create Core UI reports after upgrade to Australia. **Create new** button available in the Data Visualizations library with the option to create Core UI reports in the modal.-   Type: true \| false
+Allows fulfiller users to create Core UI reports after upgrade to Brazil. **Create new** button available in the Data Visualizations library with the option to create Core UI reports in the modal.-   Type: true \| false
 -   Default value: true
 -   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 
@@ -450,5 +450,5 @@ Maximum number of choices for radio button and check box interactive filters.-  
  Category: Choice list, Reference field, Date, Group
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-reference.md)
+</table>**Parent Topic:**[Core UI Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-reference.md)
 

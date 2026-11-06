@@ -7,7 +7,7 @@ release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 28
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -18,7 +18,7 @@ The scoped GlideDateTime class provides methods for performing operations on Gli
 
 Use the GlideDateTime methods to perform date-time operations, such as instantiating a GlideDateTime object, performing date-time calculations, formatting a date-time, or converting between date-time formats.
 
-For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_GlideServerAPIs.md).
+For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/useful-server-side-scripts.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 

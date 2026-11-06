@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configuring-fso-integration-with-jha.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Jack Henry jXchange, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 2.  To customize the connection configuration, access the connection settings in **Flow Designer** &gt; **Connections** and select **JHA**.
 
-    For more information on how to update the connection configuration, see Set up Jack Henry jXchange Spoke.
+    For more information on how to update the connection configuration, see [Set up Jack Henry jXchange Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/jha-spk-setup.md).
 
 3.  To update other attributes, navigate to **Integration Hub** &gt; **Connection &amp; Credential Aliases** and edit the required information.
 

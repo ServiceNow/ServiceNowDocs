@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-10-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Obligation extraction, Configure obligation extraction]
 breadcrumb: [Configure agentic workflows, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -58,5 +58,5 @@ If your generative AI service provider isn’t Now LLM Service, verify that the 
 |Name|Description|
 |----|-----------|
 |Search contracts AI agent|This agent helps you find and understand legal contracts and documents by giving search results for questions asked in natural language. It works as a conversational search and Q&amp;A tool within the Contract Lifecycle Management system.|
-|Document and visual insights AI agent|This agent helps with tasks related to processing of documents. For more information, see [Document and visual insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-and-visual-insights-ai-agent.md).|
+|Document and visual insights AI agent|This agent helps with tasks related to processing of documents.|
 

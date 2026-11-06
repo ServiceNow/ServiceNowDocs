@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 54
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -163,7 +163,7 @@ shift
 
 </td><td>
 
-Required if the specified reservable modules are based on a shift. Sys\_id of the shift to associate with the reservation. If this parameter is passed in, the **end** parameter isn't required.
+Required if the specified reservable modules are based on a shift. Conditional. Sys\_id of the shift to associate with the reservation. If this parameter is passed in, the **end** parameter isn't required.
 
 For additional information on shift-based reservations, see [Enable shift-based reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsd-reservation-setup.md).
 
@@ -3086,7 +3086,7 @@ shift
 
 </td><td id="shift-update_reserv-entry">
 
-Sys\_id of the shift to associate with the reservation. If this parameter is passed in, the **end** parameter isn't required.
+Conditional. Sys\_id of the shift to associate with the reservation. If this parameter is passed in, the **end** parameter isn't required.
 
 For additional information on shift-based reservations, see [Enable shift-based reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsd-reservation-setup.md).
 

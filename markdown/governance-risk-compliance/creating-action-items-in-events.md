@@ -1,18 +1,18 @@
 ---
 title: Creating action items in events
-description: Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime for open crisis events or exercises. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
+description: Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams during a crisis event or exercise. These tasks can be created on the fly without mapping them to event assets or recovery plans. Action tasks are not included in the event recovery timeline and can be created while the event remains open.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/creating-action-items-in-events.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Creating action items in events
 
-Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime for open crisis events or exercises. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
+Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams during a crisis event or exercise. These tasks can be created on the fly without mapping them to event assets or recovery plans. Action tasks are not included in the event recovery timeline and can be created while the event remains open.
 
 ## Action items in real-time
 
@@ -198,5 +198,5 @@ When users are assigned to a recovery action item, they are automatically synced
 -   **[Create task and assessment-type action items in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-action-items-in-events.md)**  
 Use integration of events and Smart Assessment for creating necessary action items related to an event.
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

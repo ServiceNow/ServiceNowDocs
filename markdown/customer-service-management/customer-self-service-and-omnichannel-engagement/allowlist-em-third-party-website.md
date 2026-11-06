@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Enable Engagement Messenger on a website when third-party application cookies are blocked
@@ -43,7 +43,7 @@ You must add a CNAME record to your website domain’s DNS records where Engagem
 support.acme.com 300 IN CNAME acme.servicenow.com
 ```
 
-where `acme.service-now.com` is the ServiceNow instance and `acme.com` is your website on which Engagement Messenger is integrated.
+where `acme.servicenow.com` is the ServiceNow instance and `acme.com` is your website on which Engagement Messenger is integrated.
 
 ## Procedure
 

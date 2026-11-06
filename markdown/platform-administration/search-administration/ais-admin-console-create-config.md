@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI Search Admin console reference, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -27,11 +27,11 @@ Role required: admin or ais\_admin
 
 2.  Select the Shared Configurations tab.
 
-3.  Select the desired table tab where you wish to create the configuration.
+3.  Select the table tab where you want to create the configuration.
 
 4.  Select **New**.
 
-5.  Fill in the form fields, depending on your desired configuration.
+5.  Fill in the form fields, depending on your preferred configuration.
 
     |Table|Form|
     |-----|----|

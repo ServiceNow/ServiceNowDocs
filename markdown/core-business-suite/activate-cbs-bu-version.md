@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/activate-cbs-bu-version.html
 release: australia
 topic_type: task
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Core Business Suite]
 ---
@@ -51,5 +51,5 @@ Role required: admin
 
 The Core Business Suite business unit appears in the installation section.
 
-**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
 

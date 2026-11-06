@@ -1,27 +1,29 @@
 ---
-title: Install ITOM AIOps apps using ServiceNow Otto for Setup
+title: Install ITOM AIOps apps using Setup Hub
 description: Install two plugins to enable ITOM AIOps functionality: ITOM AIOps and ServiceNow Otto for ITOM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/install-aiops-plugins.html
 release: australia
 topic_type: task
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ITOM AIOps, plugin installation, Now Assist, IT Operations Management, apps]
 breadcrumb: [ITOM AIOps, IT Operations Management]
 ---
 
-# Install ITOM AIOps apps using ServiceNow Otto for Setup
+# Install ITOM AIOps apps using Setup Hub
 
 Install two plugins to enable ITOM AIOps functionality: ITOM AIOps and ServiceNow Otto for ITOM.
 
 ## Before you begin
 
+Verify that the sn\_ia\_config.ia\_user role is assigned to the evt\_mgmt\_admin role.
+
 Role required: evt\_mgmt\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
+1.  Navigate to **Admin** &gt; **Home**.
 
     The Admin Home page opens.
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/run-sca-manual-method.html
 release: australia
 topic_type: task
-last_updated: "2026-05-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [Scenario Analysis, Operational Resilience, manual method, SME assessment, Scenario analysis manual template]
-breadcrumb: [Building a scenario analysis using simulation, Scenario analysis using simulation, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Building a scenario analysis using simulation, Conducting a scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Run a scenario analysis using the manual method

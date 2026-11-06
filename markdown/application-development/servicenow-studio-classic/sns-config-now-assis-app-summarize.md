@@ -7,10 +7,10 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [App summary generation, AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [App summary generation, AI tools and files, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Configuring ServiceNow Otto for app summary generation
@@ -19,6 +19,8 @@ Enable the app summary generation skill in the ServiceNow Otto for Creator appli
 
 -   **[Install ServiceNow Otto for app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-summarize-install.md)**  
 Install the ServiceNow Otto for Creator application so that you can use app summary generation for your organization.
+-   **[Enable the App Summary AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/enable-the-app-summary-ai-agent.md)**  
+Enable the App Summary AI agent to generate application summaries in ServiceNow Studio.
 
 **Parent Topic:**[App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
 

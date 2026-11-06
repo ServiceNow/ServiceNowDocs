@@ -7,7 +7,7 @@ release: australia
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [API implementation and reference]
 ---
@@ -28,10 +28,6 @@ Use ServiceNow APIs to change functionality and add features on the ServiceNow A
 
 [Client mobile \[Omitted image "bus-mobile-native.svg"\] Alt text: Build custom mobile experiences inside of ServiceNow AI Platform native mobile apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
 
-</td><td>
-
-[Mobile SDK \[Omitted image "bus-mobile-phone.svg"\] Alt text: Leverage the ServiceNow AI Platform within standalone Android and iOS apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/api-mobile_sdk.md)
-
 </td></tr><tr><td>
 
 [Server \[Omitted image "bus-server.svg"\] Alt text: Build and update applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
@@ -43,6 +39,14 @@ Use ServiceNow APIs to change functionality and add features on the ServiceNow A
 </td><td>
 
 [UI Builder \[Omitted image "bus-service-map.svg"\] Alt text: Build client scripts in UI Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/ui-builder-api-reference/api-uib.md)
+
+</td></tr><tr><td>
+
+[Mobile Scripting \[Omitted image "bus-database.svg"\] Alt text:Run scripts against the local database on a mobile device so that they work in both offline and online mode.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-mobile-scripting.md)
+
+</td><td>
+
+[Mobile SDK \[Omitted image "bus-mobile-phone.svg"\] Alt text: Leverage the ServiceNow AI Platform within standalone Android and iOS apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/api-mobile_sdk.md)
 
 </td><td>
 

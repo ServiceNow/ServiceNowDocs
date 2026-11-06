@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -18,7 +18,7 @@ Configure this property to control if inactive users can authenticate on your in
 
 When the **glide.authenticate.only.allow.active.user.login** system property is not set to **true**, users in the User \[sys\_user\] table marked inactive can still login to the instance. Users may be marked inactive if they no longer have permission to login \(such as during termination from a company\).
 
-Set the **glide.authenticate.only.allow.active.user.login** property value to the recommended value of **true** \(recommended\), to ensures the users in the User \[sys\_user\] table marked inactive cannot log in to the instance and are locked out.
+Set the **glide.authenticate.only.allow.active.user.login** property value to the recommended value of **true** \(recommended\), to ensures the users in the User \[sys\_user\] table marked inactive can't log in to the instance and are locked out.
 
 ## More information
 

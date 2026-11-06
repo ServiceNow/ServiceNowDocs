@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-order-management.html
 release: australia
 topic_type: concept
-last_updated: "2025-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [use]
 breadcrumb: [Use, Sales Customer Relationship Management]
@@ -17,7 +17,7 @@ ServiceNow Order Management provides a centralized platform to create and manage
 
 ## Overview of the order life cycle
 
-Access the Order Management capabilities from the CSM/FSM Configurable Workspace to capture and manage orders. A typical order life cycle is a structured, multiphase process that guides a customer's request from initial submission to final delivery and fulfillment, as shown in the following illustration.
+Access the Order Management capabilities from the CRM Workspace to capture and manage orders. A typical order life cycle is a structured, multiphase process that guides a customer's request from initial submission to final delivery and fulfillment, as shown in the following illustration.
 
 \[Omitted image "using-order-management-landing.svg"\] Alt text: Order life cycle Infographic showing how to create and manage orders using Order Management. For details, refer to the list of task topics that follows.
 

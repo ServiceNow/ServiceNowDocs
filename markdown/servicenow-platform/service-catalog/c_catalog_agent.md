@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [catalog agent, agentic AI, Catalog Builder, conversational catalog request]
 breadcrumb: [Conversational catalog item requests, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]

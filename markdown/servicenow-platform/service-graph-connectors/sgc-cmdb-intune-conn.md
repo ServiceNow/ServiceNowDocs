@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SGC-Intune, SGC-Microsoft Intune, SGC Intune, SGC Microsoft Intune, SGC for Intune, SGC for Microsoft Intune, Intune SGC, Microsoft Intune SGC, Service Graph Connector for Intune, Service Graph Connector for Microsoft Intune, Intune connection details, Intune connection, common connection framework, CCF, SGC-Intune, SGC-Microsoft Intune, SGC Intune, SGC Microsoft Intune, SGC for Intune, SGC for Microsoft Intune, Intune SGC, Microsoft Intune SGC, Service Graph Connector for Intune, Service Graph Connector for Microsoft Intune, Intune connection details, Intune connection, common connection framework, CCF]
 breadcrumb: [Microsoft Intune, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]

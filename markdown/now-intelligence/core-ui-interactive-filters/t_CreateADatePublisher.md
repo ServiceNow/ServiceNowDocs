@@ -7,7 +7,7 @@ release: australia
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Creating Interactive Filters, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ A date interactive filter allows users to filter report widgets based on the val
 
 ## Before you begin
 
-Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin role exists only for managing interactive filters in Core UI. By default, it contains the role analytics\_filter\_admin for managing Core UI filters that are migrated to Platform Analytics experience.
+Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin role exists only for managing interactive filters in Core UI. By default, it contains the role analytics\_filter\_admin for managing Core UI filters that are migrated to Platform Analytics experience. It isn't possible to create Core UI interactive filters in net new instances from Yokohama forward.
 
 When a user selects `All`, they do not see a report with all filter options applied, they see the unfiltered report. This example of date filter shows a number of date ranges you can filter on.
 

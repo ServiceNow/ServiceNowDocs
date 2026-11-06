@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -73,6 +73,4 @@ Create a mapping for an SSO group with a software model to manage your licenses 
 [Delete an integration profile]()
 
 [Subscription identifiers for SaaS and SSO applications]()
-
-[Subscription exclusions for SaaS and SSO applications]()
 

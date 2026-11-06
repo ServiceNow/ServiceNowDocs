@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Unix discovery, AIX discovery, HP-UX discovery, Solaris discovery, patch discovery, cmdb\_ci\_patches]
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]

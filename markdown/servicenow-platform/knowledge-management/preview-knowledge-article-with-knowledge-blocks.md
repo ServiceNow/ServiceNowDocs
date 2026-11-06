@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using knowledge blocks, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,15 +30,15 @@ Role required: user must have contributor access to the knowledge base.
 
 4.  Preview the article as one of the following.
 
-<table id="choicetable_of1_rfr_4fb"><thead><tr><th align="left" id="d141466e92">
+<table id="choicetable_of1_rfr_4fb"><thead><tr><th align="left" id="d140976e92">
 
 Option
 
-</th><th align="left" id="d141466e95">
+</th><th align="left" id="d140976e95">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d141466e101">
+</th></tr></thead><tbody><tr><td id="d140976e101">
 
 **Unpublished article**
 
@@ -46,7 +46,7 @@ Details
 
 Preview the article by user. In the **View As** field, you can search for and impersonate different users to see how the article appears based on the can and cannot read access of the user.
 
-</td></tr><tr><td id="d141466e113">
+</td></tr><tr><td id="d140976e113">
 
 **Published article**
 

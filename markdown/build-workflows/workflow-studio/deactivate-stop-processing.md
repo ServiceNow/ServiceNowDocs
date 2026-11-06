@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [With inbound email trigger, Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -28,7 +28,7 @@ Although you can process an inbound email with multiple inbound email actions, y
 
 ## Procedure
 
-1.  [Add a property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) with the following settings:
+1.  Add a property with the following settings:
 
     -   Name: **glide.hub.flow.inbound\_email\_trigger.show\_advanced**
     -   Type: true \| false

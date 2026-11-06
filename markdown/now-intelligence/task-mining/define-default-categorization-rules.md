@@ -7,7 +7,7 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Task Mining, Platform Analytics]
 ---
@@ -46,7 +46,7 @@ You create categorization rules with a condition builder. Each rule matches acti
 
     4.  Select **Save**.
 
-    \[Omitted image "tm-cat-3.png"\] Alt text: Screenshot showing the Categories and Applications options.
+    \[Omitted image "tm-cat-3.png"\] Alt text: The Categories and Applications options.
 
 4.  Verify whether all of the applications your organization wants to analyze are listed on the categorization rule form and add any that are missing.
 
@@ -70,7 +70,7 @@ You create categorization rules with a condition builder. Each rule matches acti
 
         **Note:** If the MAX list is empty, check the date range. The range defaults to the last 3 days, so activity collected earlier doesn't appear until you extend it to cover your collection period. You can select a range up to 90 days.
 
-        \[Omitted image "tm-cat-4.png"\] Alt text: Screenshot showing the Open calendar icon.
+        \[Omitted image "tm-cat-4.png"\] Alt text: The Open calendar icon.
 
     3.  Narrow the list to find the activities to categorize.
 
@@ -89,7 +89,7 @@ You create categorization rules with a condition builder. Each rule matches acti
 
     2.  Select **and** to match one or more conditions, **or** to match any of several values, or **Add condition set** to add a separate group of conditions.
 
-    \[Omitted image "tm-cat-1.png"\] Alt text: Screenshot showing the Conditions section of the rule builder.
+    \[Omitted image "tm-cat-1.png"\] Alt text: The Conditions section of the rule builder.
 
 7.  Change the **Rank** value.
 
@@ -107,7 +107,7 @@ You create categorization rules with a condition builder. Each rule matches acti
 
     For a description of the field values, see [Categorization rule form in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/categorization-rules.md).
 
-    \[Omitted image "tm-cat-2.png"\] Alt text: Screenshot showing the Categories section of the rule builder.
+    \[Omitted image "tm-cat-2.png"\] Alt text: The Categories section of the rule builder.
 
 9.  Select **Save rule**.
 

@@ -7,7 +7,7 @@ release: australia
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Uploading your config data, Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Uploading your config data, Configuring DevOps Config, DevOps Confi
 
 An application in CDM is the full collection of config data for an application service, application model, or dynamic CI group \[infrastructure\] in the CMDB. After you upload your source config data, the application can support all potential deployables that make up each version of the development, test, and production environments of the service.
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 ## Overview: Preparing an application to accept uploaded config data
 

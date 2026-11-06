@@ -7,7 +7,7 @@ release: australia
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Create a data source, Data sources, Import sets, Imports, Workflow Data Fabric]
 ---

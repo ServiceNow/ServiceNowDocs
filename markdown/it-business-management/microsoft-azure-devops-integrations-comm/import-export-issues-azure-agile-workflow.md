@@ -7,8 +7,8 @@ release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---
 
@@ -26,6 +26,7 @@ To enable import and export of work items between Agile Development 2.0 and Azur
     The relationship between the story and its epic is retained as it is in Azure DevOps.
 
 -   Only the fields that are defined in the field map configuration are retained in the story or epic. For the details of the default map configuration, see [Default map configuration for Azure DevOps integration with Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/default-agile-azure-mapping.md).
+-   The **Assigned To** field of the story or epic shows the user from Azure DevOps only if a matching user record is found. The match uses **Lookup Column Name** of the **Assigned To** field map. For more information, see [Configuring a reference field in Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/custom-field-map-config-azure-agile.md).
 -   When you add an attachment to a work item in Azure DevOps, the same attachment is added to the corresponding story or epic in Agile Development 2.0.
 -   Any new iterations created in Azure DevOps do not create a corresponding sprint record in Agile Development 2.0 immediately.
 

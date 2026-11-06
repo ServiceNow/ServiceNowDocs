@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-feature-availability.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Feature availability, Impact Package]
 breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]

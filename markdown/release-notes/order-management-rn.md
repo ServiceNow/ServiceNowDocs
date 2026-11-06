@@ -1,33 +1,31 @@
 ---
 title: Order Management release notes
-description: The ServiceNow Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Australia release.The September 2026 release adds configurable fulfillment milestones to track order progress and automatically generate with order lines for integrated fulfillment tracking.The ServiceNow Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Australia release.The ServiceNow Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Australia release.The ServiceNow Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Australia release.The ServiceNow Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Australia release.
+description: The ServiceNow Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. See the following sections for release notes by version.The October 2026 release includes enhancements for creating new orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/order-management-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-06-03"
-reading_time_minutes: 4
-breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Order Management release notes
 
-The ServiceNow® Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Australia release.
+The ServiceNow® Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. See the following sections for release notes by version.
 
 ## About Order Management
 
--   Enable agents and customers to make faster, more confident decisions on orders by instantly seeing the impact of price and quantity changes, ensuring clarity on what's owed for every update.
--   Improve order approval accuracy by validating contract start and end dates and terms for recurring and entitlement orders, while preventing contract dates from being set on one-time orders. This helps orders process correctly the first and contract obligations to be properly tracked.
--   Enhance the Order management \(OM\) integration with Strategic Portfolio Management \(SPM\) for in-flight orders to support projects for site and maintain program project and sub-project hierarchy.
--   Improve pricing accuracy on orders by automatically adding, updating, and removing system-generated lines in response to pricing rule changes, without requiring manual edits.
--   Enable visibility into all entities involved in a deal by viewing billing, shipping, entitlement, and partner details on the customer order.
--   Enable order agents to create, track, and complete order-level tasks at the order header and top order line item level, with support for dependent task chains that automatically sequence work across submission, post-approval, and post-fulfillment stages.
+-   Create and implement enrichment flows that the system applies during order orchestration.
+-   Configure jeopardy management rules to monitor fulfillment tasks and alert managers when tasks are at risk.
+-   Detect errors or exceptions during order processing and take corrective actions to improve SLA compliance and expedite order processing.
+-   Create and track orders via the workspace, or import orders from third-party systems.
+-   Speed up fulfillment with orchestration workflows driven by an advanced product catalog using the order orchestration UI.
+-   Enable post-sale support and drive customer satisfaction by effectively managing customer requests for disconnecting, suspending, or resuming products or services.
 
 See [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md) for more information.
 
 ## Activation and other requirements
-
-**Important:** Order Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
@@ -36,79 +34,18 @@ See [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 **Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/sales-order-management-rn-landing.md)
 
-## September 2026
+## Version 16.4.1
 
-The September 2026 release adds configurable fulfillment milestones to track order progress and automatically generate with order lines for integrated fulfillment tracking.
+The October 2026 release includes enhancements for creating new orders.
 
 ### What's new
+
+-   **[Order creation for buyer organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-product-order.md)**
+
+    Enable users to create and manage orders for a buyer organization. Two new fields have been added: Buyer Organization and Buyer Organization Member. Buyer Organization captures the name of the organization for which the order is created and Buyer Organization Member is the employee for whom the order is created.
 
 -   ****
 
-    Track order progress through configurable fulfillment milestones mapped to order specifications. Milestones are automatically generated when order lines are created and can be manually marked as reached. View milestone details, track milestone status on order lines, and associate milestones with tasks for integrated fulfillment tracking and visibility.
-
-
-## July 2026
-
-The ServiceNow® Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Australia release.
-
-### What's new
-
--   **Derived pricing on order line items**
-
-    Improve pricing accuracy by letting the system automatically manage derived order lines based on pricing rule responses. When pricing rules are evaluated, the system handles line-level changes for you based on source product offer lines and their date ranges:
-
-    -   Adds new system-generated lines when pricing rules require them.
-    -   Updates existing derived lines when pricing conditions change.
-    -   Removes derived lines that no longer apply.
-    -   Restricts editing and copying on system-generated lines to preserve pricing integrity.
-
-## June 2026
-
-The ServiceNow® Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Order header tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-header-tasks.md)**
-
-    Create and track tasks at the order and top order line level, independent of order line items, across all stages of the order lifecycle from pre-decomposition through post-fulfillment to support operational tasks such as customer onboarding, compliance review, approval tracking, customer notifications, and post-activation follow-up.
-
-
-## Australia General Availability
-
-The ServiceNow® Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Customer entities on Order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-product-order.md)**
-
-    Capture Deal Type \(Direct or Indirect\) and Route to Market on every order to ensure the right parties are assigned, and deal structure is consistent from quote through to order.
-
-
-## Australia
-
-The ServiceNow® Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Delta pricing on orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/net-pricing-sp-contracts.md)**
-
-    Calculate pricing and quantity changes during MACD activities and renewals by deriving deltas from existing products, contracts, or purchases. This improves accuracy when processing order modifications.
-
-    -   Defaults contract type and contract line type when empty, based on the order and line actions being performed.
-    -   Adds delta pricing–related header and line fields, along with pricing adjustment rule identifiers and conditions, and supports mapping these fields across order, product instance, and order copy flows.
--   **[Price and quantity ramps on order line items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/defining-products-with-ramps.md)**
-
-    View price and quantity ramps directly on order line items to model planned changes over time within a single order, providing visibility into pricing changes without managing multiple orders. For more information, see the [Product Catalog Management and Pricing Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/product-catalog-pricing-management-rn.md)
-
--   **[Manage order updates with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/bulk-update-order-lines-with-now-assist.md)**
-
-    Use a conversational AI assistant to improve order triage and resolution. The assistant understands order context and supports guided actions such as updating shipping addresses and quantities across order line items.
-
-
-### What's changed
-
--   **[Managing inflight order for site projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-offering-somt.md)**
-
-    Use the OM integration with SPM for in-flight orders to support projects for site and maintain program project and sub-project hierarchy.
+    Automate order creation from multiple sources including completed quotes, Excel attachments, and email documents. The Order Assist Agent intelligently matches products using Catalog AI Search, extracts details from Zoom transcripts, and automatically splits orders by delivery location. The Order capture AI agent can also perform order reprocessing, multi-source line creation via natural language, and quote data preservation.
 
 

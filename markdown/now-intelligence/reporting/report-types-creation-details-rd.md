@@ -1,22 +1,22 @@
 ---
-title: Report types
-description: Learn about the different types of reports that you can create, and when and how to create them.
+title: Core UI Report types
+description: Learn about the different types of Core UI reports that you can create, and when and how to create them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/report-types-creation-details-rd.html
 release: australia
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 8
-breadcrumb: [Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Report types
+# Core UI Report types
 
-Learn about the different types of reports that you can create, and when and how to create them.
+Learn about the different types of Core UI reports that you can create, and when and how to create them.
 
-Watch this four-minute video to learn how to create and configure a report visualization.
+Watch this four-minute video to learn how to create and configure a Core UI report.
 
 \[Omitted video\] Description: How to create, style, and share reports in Core UI
 
@@ -122,4 +122,10 @@ Provides visual interpretation of numerical data by indicating the number of dat
 |\[Omitted image "inline-data-vis-geomap.png"\] Alt text: Data visualization geomap type - icon|[Map reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_MapReport.md)|Displays data on a geographical map image.|
 |\[Omitted image "inline-data-vis-96px-pivot-table.png"\] Alt text: Data visualization pivot table type - large|[Pivot tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_PivotTables.md)|Aggregates data from a table to display the source of summarized data. This functionality is expanded in [multilevel pivot reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_MultilevelPivotCharts.md).|
 |\[Omitted image "inline-data-vis-96px-pyramid.png"\] Alt text: Data visualization pyramid type - large|[Pyramid reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_CreateFunnelAndPyramidCharts.md)|Visualizes a variation on a bar report using pyramid sections instead of rectangles. \(Found in the Other reports section.\)|
+
+## Choosing a report type
+
+Choose a report type based on the story that you want data to tell.
+
+\[Omitted image "data-vis-diagram.png"\] Alt text: Report type uses
 

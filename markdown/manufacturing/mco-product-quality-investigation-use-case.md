@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-product-quality-investigation-use-case.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quality management, Explore, Manufacturing Commercial Operations]
 ---

@@ -8,14 +8,14 @@ topic_type: reference
 last_updated: "2026-09-29"
 reading_time_minutes: 5
 keywords: [theme.js configuration reference, Scaffolded theme file, Fields, Applying the theme, Precedence, Generated color scales, Custom fonts, token\_overrides, Key to selector, Key resolution, Application CSS precedence, Storage and request flow, Switching light and dark at runtime, Reacting to the theme mode, Related]
-breadcrumb: [Lux Reference, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Lux Reference, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # theme.js configuration reference
 
 A Lux application declares its brand in one file at the project root, and the framework generates every color, radius, and font token from it. Restyling a Lux application goes through that file rather than through component CSS.
 
-**Important:** Two files carry the name `theme.js`, and this page is about your application's own root `theme.js`, which holds four keys of brand input. The framework's internal token-definitions module, `libraries/theme-generation/src/algorithm/theme.js`, is documented in . If you are looking for `ROOT_TOKENS`, look there.
+**Important:** Two files carry the name `theme.js`, and this page is about your application's own root `theme.js`, which holds four keys of brand input. The framework's internal token-definitions module, `libraries/theme-generation/src/algorithm/theme.js`, is documented in [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/design-tokens.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/design-tokens.md). If you are looking for `ROOT_TOKENS`, look there.
 
 ## Scaffolded theme file
 

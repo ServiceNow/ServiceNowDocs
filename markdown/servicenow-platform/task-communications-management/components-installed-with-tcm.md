@@ -7,7 +7,7 @@ release: australia
 product: Task Communications Management
 classification: task-communications-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate Task Communications Management, Task Communications Management plugins, Task Communications Management, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -235,7 +235,7 @@ Configure all Task Communications Management features including communication pl
 -   sn\_comm\_management.comm\_plan\_mgr
 
 </td></tr></tbody>
-</table>To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+</table>To learn more about managing subscriptions, see  and contact your account representative.
 
 **Parent Topic:**[Activate Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/task-communications-management/activate-tcm-plugin.md)
 

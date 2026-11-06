@@ -7,7 +7,7 @@ release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---

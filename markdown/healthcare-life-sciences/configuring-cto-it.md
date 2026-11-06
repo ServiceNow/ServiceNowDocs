@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/configuring-cto-it.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -48,4 +48,6 @@ The following setup steps need to occur before using Care Team Operations for He
 
     Use Decision Builder to change the state mappings for cases and incidents in Care Team Operations for Healthcare IT.
 
+
+**Note:** This application includes a knowledge base article that defines which details the ServiceNow Otto case intake AI agent asks for when it creates a case. To change the intake questions, see [Manage domain intelligence for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-manage-domain-intelligence.md).
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-referencefield-system-property.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setup by system administrators, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -62,7 +62,7 @@ You can configure the **referenceFieldLoadLimit** system property for the refere
 
     You’ve configured the **referenceFieldLoadLimit** property for the selected assessment as shown in the example. \[Omitted image "configured-value.png"\] Alt text: Property set for the assessment.
 
-    **Note:** As outlined in the context of this task, you can set the **referenceFieldLoadLimit** property to control the number of the reference fields on different grid configuration pages.
+    **Note:** As outlined in the context of this task, you can set the **referenceFieldLoadLimit** property to control the number the reference fields on different grid configuration pages.
 
     The example shows the updated number of the records for the **Disruption Duration** field in the **RTO Impact Assessment** tab.
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-review-change-request.html
 release: australia
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Change and offboarding requests, Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Change and offboarding requests, Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Review and approve a change request
@@ -43,15 +43,15 @@ Role required: sn\_ai\_governance.ai\_steward
 
 7.  Approve or reject the change request.
 
-<table><thead><tr><th align="left" id="d246915e155">
+<table><thead><tr><th align="left" id="d233613e158">
 
 Option
 
-</th><th align="left" id="d246915e158">
+</th><th align="left" id="d233613e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d246915e164">
+</th></tr></thead><tbody><tr><td id="d233613e167">
 
 **Approve the request**
 
@@ -62,7 +62,7 @@ Description
 3.  Confirm the approval. AI Control Tower applies the change to the asset and updates the asset record with the new values.
 
 
-</td></tr><tr><td id="d246915e188">
+</td></tr><tr><td id="d233613e191">
 
 **Reject the request**
 

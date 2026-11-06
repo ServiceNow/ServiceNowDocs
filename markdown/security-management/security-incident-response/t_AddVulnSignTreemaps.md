@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response Overview dashboard, Visual representation of Security Incident Response reporting, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

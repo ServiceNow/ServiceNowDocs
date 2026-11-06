@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/wdf.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow Data Fabric]
 ---
@@ -26,7 +26,7 @@ Unify data from different systems into one consistent, governed layer. Package t
 
 </td><td>
 
-[Ask Now Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how to use ServiceNow Otto for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/ask-now-assist-for-recommendation.md)
+[Ask ServiceNow Otto\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how to use ServiceNow Otto for WDF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/ask-now-assist-for-recommendation.md)
 
 </td></tr><tr><td>
 
@@ -34,7 +34,7 @@ Unify data from different systems into one consistent, governed layer. Package t
 
 </td><td>
 
-[Build data assets\[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text:Learn about data products and data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-products.md)
+
 
 </td><td>
 

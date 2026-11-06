@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 keywords: [Parts Manager, AI agent, validate parts, mobile]
 breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
@@ -39,28 +39,23 @@ Role required: wm\_agent
 
 5.  Either close the task after work is complete or close it with a follow-on task pending.
 
-<table id="choicetable_rb4_1gc_qfb"><thead><tr><th align="left" id="d73661e163">
+<table id="choicetable_rb4_1gc_qfb"><thead><tr><th align="left" id="d75811e163">
 
 To
 
-</th><th align="left" id="d73661e166">
+</th><th align="left" id="d75811e166">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d73661e172">
+</th></tr></thead><tbody><tr><td id="d75811e172">
 
 **Close a work order task after work has been completed**
 
 </td><td>
 
-1.  Select **Close Complete**.
-2.  In the **Close Complete** page, select **Closure Note**.
-3.  Provide the work completion details.
-4.  Select **Done** to save the details.
-5.  Automatically create and route a new work order task when the current task is closed as complete by turning on the **Has follow-on task** option.
- **Note:** Your **Work agent status** is automatically updated as On Shift to indicate that you are available to work on another task.
+Select **Close Complete**.**Note:** Your **Work agent status** is automatically updated as On Shift to indicate that you are available to work on another task.
 
-</td></tr><tr><td id="d73661e223">
+</td></tr><tr><td id="d75811e190">
 
 **Close a work order task as incomplete**
 
@@ -86,7 +81,7 @@ A clone of the work order task set to **Draft** state is created and the origina
 </td></tr></tbody>
 </table>6.  Generate a signed PDF summary for the work order task by tapping **Preview Work Summary**.
 
-    The PDF summary captures the details of the task, and the responses submitted in the smart assessment questionnaire along with the score. For more information, see [Enable PDF summaries at work order task level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/enable-pdf-summary.md). For more information on assessment scoring, see [Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scoring-in-assessments.md)
+    The PDF summary captures the details of the task, and the responses submitted in the smart assessment questionnaire along with the score. For more information, see [Enable PDF summaries at work order task level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/enable-pdf-summary.md).
 
 
 ### Result
@@ -210,15 +205,15 @@ Role required: admin
 
 5.  Do one of the following to enable the **Sign and Confirm** button.
 
-<table id="choicetable_jfb_1sy_cgb"><thead><tr><th align="left" id="d73661e907">
+<table id="choicetable_jfb_1sy_cgb"><thead><tr><th align="left" id="d75811e871">
 
 To
 
-</th><th align="left" id="d73661e910">
+</th><th align="left" id="d75811e874">
 
 Complete these steps
 
-</th></tr></thead><tbody><tr><td id="d73661e916">
+</th></tr></thead><tbody><tr><td id="d75811e880">
 
 **Enable the Sign and confirm option to display when you swipe a work order from a list**
 
@@ -229,7 +224,7 @@ Complete these steps
 3.  Select the **Button Instances belonging to Master Item** tab.
 
 
-</td></tr><tr><td id="d73661e946">
+</td></tr><tr><td id="d75811e910">
 
 **Enable the Sign and confirm option to display when you open a work order form**
 
@@ -440,6 +435,10 @@ Role required: wm\_qualifier, wm\_dispatcher, wm\_agent
 
 A summary is generated for the work order task.
 
+### Generate a summary for a work-in-progress task
+
+Alex the technician is finishing a printer repair task. To wrap up the task, they generate a summary using the procedure.
+
 ### What to do next
 
 You can mark the summary as helpful or unhelpful, copy the summary, or refresh to generate the summary again.
@@ -470,7 +469,7 @@ Role required: agent
 
 4.  Tap the **Closure notes** field.
 
-5.  Tap \[Omitted image "icon-ai-sparkle.png"\] Alt text: Generate closure notes icon. **Generate closure notes**.
+5.  Tap \[Omitted image "icon-otto-outline-24.svg"\] Alt text: Otto icon **Generate closure notes**.
 
 
 ### Result
@@ -491,25 +490,23 @@ Role required: wm\_agent
 
 The Parts Manager AI agent analyzes your work notes to identify which parts were used during a service task. After validation, the agent automatically updates inventory and parts statuses.
 
-**Note:** This feature uses AI to generate results. AI-generated content may not be accurate or complete. Review the validated parts summary before confirming the results.
+**Note:** This feature uses AI to generate results. AI-generated content may not always be accurate or complete. Review the validated parts summary before confirming the results.
 
 ### Procedure
 
-1.  Log in to the ServiceNow Agent mobile application.
+1.  Navigate to **My Work**.
 
-2.  Tap **My Work**.
+2.  Tap a work order task under **My Tasks**.
 
-3.  Tap a work order task under **My Tasks**.
+3.  Tap ServiceNow Otto® from the navigation bar to open ServiceNow Otto® Virtual Agent.
 
-4.  Tap **ServiceNow Otto** on the navigation bar to open ServiceNow Otto Virtual Agent.
-
-5.  Ask AI to validate parts for the work order task.
+4.  Ask Now Assist to validate parts for the work order task.
 
     The Parts Manager AI agent analyzes your work notes and the work order task details, then presents a summary of validated parts. The summary includes parts used, parts removed, and parts not used.
 
-6.  Review the validated parts summary and select **Yes** or **No** when prompted to mark the validation as done.
+5.  Review the validated parts summary and select **Yes** or **No** when prompted to mark the validation as done.
 
-7.  Tap **Submit**.
+6.  Tap **Submit**.
 
     The parts statuses and inventory are updated based on the validated results.
 

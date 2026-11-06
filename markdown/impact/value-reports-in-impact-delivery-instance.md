@@ -5,30 +5,32 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/value-reports-in-impact-delivery-instance.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Value Reports in Impact Delivery Instance
 
-Your impact squad can work with you to calculate the operational or monetized value you have realized with ServiceNow in a **Value Report.**
+Your impact squad can work with you to calculate the operational or monetized value you have realized with ServiceNow in a **Value Report**.
 
 To access the value report in Impact Delivery Instance, navigate to **Impact** &gt; **Value Management** &gt; **Value reports**.
 
 **Note:** A product needs at least two years of data available before a Value Report can be generated for it.
 
-You may work with your squad to assess overall value realized with ServiceNow \(comparing pre and post-implementation performance\) if you can provide pre-ServiceNow baseline information for the success metrics.
+You can work with your squad to assess overall value realized with ServiceNow \(comparing pre-implementation and post-implementation performance\) if you can provide pre-ServiceNow baseline information for the success metrics.
+
+Value reports can be filtered using the instance, product line, and outcome model filters.
 
 **Note:** Each Value Report reflects a single outcome model, either Standard or Enhanced, never a combination of the two. Since the outcome model is selected before outcomes are chosen, a product tracked under both models results in two separate reports, one for each model.
 
-You may have already initiated ongoing data collection for these key success metrics through your Quarterly Review Cycle. If not, however, your Impact squad will work with you to provide an overview of data collection options to support this process of ongoing value management.
+You can have already initiated ongoing data collection for these key success metrics through your Quarterly Review Cycle. If not, however, your Impact squad will work with you to provide an overview of data collection options to support this process of ongoing value management.
 
 **Note:** An option for data collection is the Impact Value Journey data collection applications. These applications can be accessed through the ServiceNow Store.
 
 <table id="table_ah3_3rr_tzb"><thead><tr><th>
 
-Key Elements of value report
+Key elements of value report
 
 </th><th>
 
@@ -43,7 +45,7 @@ Historical baseline
 -   The Impact squad will work with you to identify a historical baseline period that you would like to use for your value report.
 -   If you would like to assess overall value of ServiceNow \(pre vs. post Implementation\) 12 months of historical data points from your legacy system should be gathered before decommissioning.
 -   Otherwise, the impact squad will work with you to identify an appropriate period, typically a 12 month-window ending at least one year ago, to be able to compare recent results to a historical baseline.
--   As part of the value realization assessment, the success squad delivers a value report to highlight the value you’ve realized compared to if you had not moved to the ServiceNow platform.
+-   As part of the value realization assessment, the success squad delivers a value report to highlight the value you've realized compared to if you had not moved to the ServiceNow platform.
 -   Baseline data is ideally collected for all success metrics that are linked to your objectives and outcomes.
 
 </td></tr><tr><td>
@@ -61,8 +63,8 @@ Value reporting actuals
 
 </td><td>
 
--   To quantify these improvements financially, the Squad collaborates with you to validate key assumptions in the report.
--   Aligning on these assumptions ensures an accurate estimation of the value achieved.
+-   To quantify these improvements financially, the squad collaborates with you to validate key assumptions in the report.
+-   Aligning on these assumptions supports an accurate estimation of the value achieved.
 
 </td></tr></tbody>
 </table>## Upgrade to the Impact Store Application
@@ -71,5 +73,5 @@ This feature is in the Impact Delivery Instance. Download Impact from the Servic
 
 **Note:** The Impact Delivery Instance, \[impact.servicenow.com\], won't include new features.
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-delivery-instance-reference.md)
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/idi-reference.md)
 

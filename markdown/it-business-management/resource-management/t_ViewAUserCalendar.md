@@ -7,7 +7,7 @@ release: australia
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [My Calendar, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ You can view a calendar for a specific user, and not for all users in a group.
 
 2.  Do one of the following options.
 
-<table id="choicetable_g3t_jz2_zs"><tbody><tr><td id="d183486e86">
+<table id="choicetable_g3t_jz2_zs"><tbody><tr><td id="d189646e86">
 
 **From the User list**
 
@@ -38,7 +38,7 @@ You can view a calendar for a specific user, and not for all users in a group.
 
 Right-click a user name in the Users list and select **View Calendar**.
 
-</td></tr><tr><td id="d183486e98">
+</td></tr><tr><td id="d189646e98">
 
 **From the User form**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/explore-ai-in-itom-aiops.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [AI, ITOM AIOps, generative AI, agentic AI]
 breadcrumb: [ITOM AIOps, IT Operations Management]

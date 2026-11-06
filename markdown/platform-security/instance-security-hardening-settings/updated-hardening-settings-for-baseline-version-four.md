@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 24
 breadcrumb: [Updated hardening settings, Baseline versions, Hardening settings, Platform Security]
 ---
@@ -42,7 +42,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Escape jelly script \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-escape-jelly.md)
+[Escape jelly script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-escape-jelly.md)
 
 </td><td>
 
@@ -73,7 +73,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md)
+[Enable anti-CSRF token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md)
 
 </td><td>
 
@@ -82,7 +82,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Enable HTML Sanitizer within Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-html-sanitizer.md)
+[Enable HTML sanitizer within Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-html-sanitizer.md)
 
 </td><td>
 
@@ -129,7 +129,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Define restricted downloadable MIME types \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-downloadable-mime-types.md)
+[Define restricted downloadable MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-downloadable-mime-types.md)
 
 </td><td>
 
@@ -149,7 +149,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Restrict email domains for external user registration \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-external-user-registration-email-domain-allowlist.md)
+[Restrict email domains for external user registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-external-user-registration-email-domain-allowlist.md)
 
 </td><td>
 
@@ -161,7 +161,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable CAPTCHA for External User Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-captcha-external-user-registration.md)
+[Enable CAPTCHA for external user registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-captcha-external-user-registration.md)
 
 </td><td>
 
@@ -193,7 +193,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.md)
+[Validate file MIME type in AttachmentCreator web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.md)
 
 </td><td>
 
@@ -204,7 +204,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable MultiSSO Debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-multisso-debugging.md)
+[Disable Multi-SSO debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-multisso-debugging.md)
 
 </td><td>
 
@@ -213,7 +213,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Reduce the Scope of the IP Allow List for an Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)
+[Reduce the scope of the IP allow List for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)
 
 </td><td>
 
@@ -255,7 +255,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require clearing pasteboard when backgrounding mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-require-clearing-pasteboard-when-backgrounding-mobile-application.md)
+[Clear pasteboard when app backgrounds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-require-clearing-pasteboard-when-backgrounding-mobile-application.md)
 
 </td><td>
 
@@ -291,7 +291,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize Entity Expansion Threshold for GlideXMLUtil Scriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-setting-entity-expansion-threshold.md)
+[Minimize entity expansion threshold for GlideXMLUtil scriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-setting-entity-expansion-threshold.md)
 
 </td><td>
 
@@ -303,12 +303,21 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable GlideRecord Scope Fencing Legacy Behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-gliderecord-scope-fencing-legacy-behavior.md)
+[Disable GlideRecord scope fencing legacy behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-gliderecord-scope-fencing-legacy-behavior.md)
 
 </td><td>
 
 -   New description: GlideRecord provided cross scope create/update access to tables that were not configured with that level of access. In order to prevent customers from having applications broken when this scoped access behavior was patched, the property **glide.record.legacy\_cross\_scope\_access\_policy\_in\_script** was created. When true, cross scope access falls back onto legacy behavior \(insecure\). This property disables scope fencing, allowing scoped apps to access global script interfaces. It is best security practice to have scope fencing restrictions in place. Scoping ensures applications can only access resources with explicit access or within their scope, following the principle of least privilege. Disabiling this feature could lead to confidentiality, availability, and integrity impacts.
 -   Old description: Legacy behavior provided create/update access to tables that did not allow so. In order to prevent legacy customers from having applications broken when this scoped access behavior was patched, the property **glide.record.legacy\_cross\_scope\_access\_policy\_in\_script** was created. When true, cross scope access falls back onto legacy behavior \(insecure\). This property disables scope fencing, allowing scoped apps to access global script interfaces. It is best security practice to have scope fencing restrictions in place. Scoping ensures applications can only access resources with explicit access or within their scope, following the principle of least privilege. Disabiling this feature could lead to confidentiality, availability, and integrity impacts.
+
+</td></tr><tr><td>
+
+
+
+</td><td>
+
+-   New short description: Enable Updated Version of Multi SSO Plugin
+-   Old short description: Enable Updated Version of Multi SSO Plugin \(Plugin Applicability: Multiple Provider Single Sign-On\)
 
 </td></tr><tr><td>
 
@@ -320,7 +329,7 @@ Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enforce password reset on api requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-password-reset-on-api-requests.md)
+[Enforce password reset on API requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-password-reset-on-api-requests.md)
 
 </td><td>
 
@@ -467,7 +476,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Proactively Invalidate Sessions After Defined Durations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-proactively-invalidate-inactive-sessions.md)
+[Proactively invalidate sessions after defined durations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-proactively-invalidate-inactive-sessions.md)
 
 </td><td>
 

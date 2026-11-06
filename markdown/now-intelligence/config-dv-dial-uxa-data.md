@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/config-dv-dial-uxa-data.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Dial visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -163,8 +163,12 @@ Period
 </td><td>
 
 Time interval for each date period. -   Days `D`
+-   Weeks `W`
 -   Months `M`
+-   Quarters `Q`
 -   Years `Y`
+
+ The available periods depend on the time aggregation. A period can't be shorter than the time aggregation unit. If you change the time aggregation to a longer unit than the selected period, the period changes to the shortest period that is still available.
 
  This property applies only when **Set absolute period** is false.
 
@@ -186,7 +190,7 @@ Show metric label
 
 </td><td>
 
-Option to show the metric label. In donut charts, the value is not shown if it cannot fit the donut.
+Option to show the metric label. In donut charts, the value is not shown if it can't fit the donut.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

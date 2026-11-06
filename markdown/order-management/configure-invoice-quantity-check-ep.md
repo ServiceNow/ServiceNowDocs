@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-invoice-quantity-check-ep.html
 release: australia
 topic_type: task
-last_updated: "2026-02-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring the Manage Invoice Operations application, Business Portal, Configure, Sales Customer Relationship Management]

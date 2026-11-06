@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -48,8 +48,6 @@ Triage and categorize ITSM incidents
  Notify users withTwilio
 
  Incident assist
-
- Who is On Call
 
 </td></tr><tr><td>
 

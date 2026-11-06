@@ -7,9 +7,9 @@ release: australia
 product: Conversational Intelligence
 classification: conversational-intelligence
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Conversation Insights, Enable AI experiences]
+breadcrumb: [Conversation Insights, Analyzing AI effectiveness, Enable AI Experiences]
 ---
 
 # Exploring Conversation Insights
@@ -34,11 +34,11 @@ Inferred CSAT scores and factors are calculated for each conversation. Conversat
 
 The data retention period for the Conversation Insights \[sn\_aci\_insights\] table is two years. For more information on creating custom dashboards, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md) and [Select a table data source for a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-table-data-source.md).
 
-Conversation Insights are also supported by Voice Agents, Now Assist Panel and Now Assist Virtual Agent.
+Conversation Insights are also supported by Voice Agents, ServiceNow Otto panel, and Virtual Agent.
 
 To view the conversation insights for Voice Agents, go to **Assistant Designer** &gt; **Analytics** &gt; **Sentiment** dashboard.
 
-To view the conversation insights for Now Assist Panel or Now Assist Virtual Agent, go to **Platform Analytics** &gt; **Dashboards** &gt; **AI Engagement Analytics**.
+To view the conversation insights for ServiceNow Otto panel or Virtual Agent, go to **Platform Analytics** &gt; **Dashboards** &gt; **AI Engagement Analytics**.
 
 ## Inferred CSAT segmented by intent
 
@@ -48,7 +48,7 @@ The score for Inferred CSAT segmented by intent is automatically generated when 
 
 These metrics are available in the [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-dashboard.md), under the Insights tab, where you can find two new charts.
 
-You can also explore the conversational insights for Now Assist Panel and Now Assist Virtual Agent. To view the dashboard, go to **Dashboards** &gt; **AI Engagement Analytics** &gt; **Platform Analytics** section or **Dashboards** &gt; **AI Engagement Analytics** &gt; **Voice Agents** Agents section.
+You can also explore the conversational insights for ServiceNow Otto panel and Virtual Agent. To view the dashboard, go to **Dashboards** &gt; **AI Engagement Analytics** &gt; **Platform Analytics** section or **Dashboards** &gt; **AI Engagement Analytics** &gt; **Voice Agents** Agents section.
 
 Additionally you can also go to **Assistant Designer** &gt; **Analytics** &gt; **Sentiment** dashboard to view these insights.
 

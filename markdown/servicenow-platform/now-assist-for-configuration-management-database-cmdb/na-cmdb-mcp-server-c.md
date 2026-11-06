@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [MCP Server, Model Context Protocol, CMDB MCP]
 breadcrumb: [Using agentic workflows, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]

@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Manage favorites
@@ -84,8 +84,6 @@ You can add the frequently used content to your favorites list. Click the favori
 [Use Employee Center from Zoom]()
 
 [View employee profile]()
-
-[Use Employee Profile with HR Service Delivery]()
 
 [Use Personalized Answers]()
 

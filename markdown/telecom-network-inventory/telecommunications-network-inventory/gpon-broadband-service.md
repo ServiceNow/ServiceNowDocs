@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -26,7 +26,7 @@ The change request execution process includes the task stages that you need to c
 
 -   **Create the change request**
 
-    Create the change request by using the GPON Broadband Service change model. To learn more, see [Create and execute a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md). .
+    Create the change request by using the GPON Broadband Service change model. To learn more, see [Create and execute a change task in Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md). .
 
 -   **Path compute and create logical connection**
 
@@ -70,8 +70,8 @@ The following scenarios are handled in the path computation when you execute the
 
 The path computation uses record producers in each change task that is associated with the GPON Broadband Service change model to collect the required data. It collects most of its connection data when you complete the Compute and Create logical connection change task that you created from a GPON Broadband Service change model.
 
-1.  The path search is between the equipment model that you specified for the A connection end of the connection and the equipment model that you specified in the Z end connection.
-2.  The path search is between the equipment model that you specified for the A connection end of the connection and the equipment type that you specified in the Z end connection.
+1.  The path search is between the equipment model specified for the A connection end and the equipment model specified for the Z end connection.
+2.  The path search is between the equipment model specified for the A connection end and the equipment type specified for the Z end connection.
     -   The logical connection model indicates what model of logical connection must be created after the path computation.
     -   The bandwidth refers to the bandwidth table.
     -   The allowed physical connection model captures the physical connection CI model, which can be used to find a path and is added in the path element.

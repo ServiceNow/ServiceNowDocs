@@ -7,7 +7,7 @@ release: australia
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -34,15 +34,15 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d70728e101">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d72789e101">
 
 Option
 
-</th><th align="left" id="d70728e104">
+</th><th align="left" id="d72789e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d70728e110">
+</th></tr></thead><tbody><tr><td id="d72789e110">
 
 **In the incident list view**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select **OK**.
  **Tip:** If you have the srm\_admin role, you can update multiple incidents at once. First, select the relevant incidents and select **Edit**. Then use the **State** drop-down to choose the appropriate value and select **Update**.
 
-</td></tr><tr><td id="d70728e146">
+</td></tr><tr><td id="d72789e146">
 
 **In the incident form**
 

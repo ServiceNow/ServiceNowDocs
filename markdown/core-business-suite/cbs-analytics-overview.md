@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-analytics-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [CBS Analytics, Core Business Suite Analytics, Performance Analytics, dashboard, resolution rate]
 breadcrumb: [View Core Business Suite Analytics, Use, Core Business Suite]

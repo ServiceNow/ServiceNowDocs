@@ -7,9 +7,9 @@ release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Search in mobile, Configuring Now Mobile, Now Mobile app, Unified Employee Experience, Employee Service Management]
+breadcrumb: [AI Search in mobile, Configuring Now Mobile, EmployeeWorks, Employee Service Management]
 ---
 
 # Add AI Search to a launcher screen

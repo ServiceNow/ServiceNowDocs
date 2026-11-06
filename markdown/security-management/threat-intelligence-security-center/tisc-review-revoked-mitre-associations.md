@@ -7,7 +7,7 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [revoked tactic technique, MITRE ATT&amp;CK, Delete Associations, Re-Map Associations]
 breadcrumb: [MITRE-ATT&amp;CK repository, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]

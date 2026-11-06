@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/address-knowledge-gaps.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Suggested reading: [Configure skills for potential gaps](https://raw.githubuserc
 
 Potential gaps also known as Knowledge gaps represent missing documentation for recurring issues. If it’s unresolved, these gaps lead to repeated incidents and higher support costs. Addressing gaps promotes comprehensive coverage, reduces ticket volume, and enhances self-service adoption.
 
-**Note:** Currently, the Potential Gap feature is supported in CSM, ITSM, and HR products.
+**Note:** Currently, the Potential Gap feature is supported only in CSM, ITSM, and HR products.
 
 ## Procedure
 

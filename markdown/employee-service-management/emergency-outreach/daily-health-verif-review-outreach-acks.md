@@ -7,9 +7,9 @@ release: australia
 product: Emergency Outreach
 classification: emergency-outreach
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Emergency Outreach, Emergency Response Management, Employee Service Management]
+breadcrumb: [Emergency Outreach, Emergency Response Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Review daily health verification acknowledgements

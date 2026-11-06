@@ -1,20 +1,20 @@
 ---
 title: Activate the associated AI skills
-description: Enable the AI skills to allow the system to analyze interview notes and job descriptions, extract keywords, and identify relevant skills. This improves skill gap analysis and ensures accurate, personalized ramp-up plans for new employees.
+description: Activate the AI skills to analyze interview notes and job descriptions, extract keywords, and identify relevant skills for improved skill gap analysis and personalized ramp-up plans. Enable the AI skills to allow the system to analyze interview notes and job descriptions, extract keywords, and identify relevant skills. This improves skill gap analysis and ensures accurate, personalized ramp-up plans for new employees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/turn-on-nowassist-skills.html
 release: australia
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Generate onboarding ramp-up plan, AI in Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Generate onboarding ramp-up plan agentic workflow, AI in Journey designer, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate the associated AI skills
 
-Enable the AI skills to allow the system to analyze interview notes and job descriptions, extract keywords, and identify relevant skills. This improves skill gap analysis and ensures accurate, personalized ramp-up plans for new employees.
+Activate the AI skills to analyze interview notes and job descriptions, extract keywords, and identify relevant skills for improved skill gap analysis and personalized ramp-up plans. Enable the AI skills to allow the system to analyze interview notes and job descriptions, extract keywords, and identify relevant skills. This improves skill gap analysis and ensures accurate, personalized ramp-up plans for new employees.
 
 ## Before you begin
 
@@ -33,4 +33,6 @@ Role required: sn\_hr\_gen\_ai.admin
     -   Skill keyword extractor
     -   Resume skill extraction
     -   JNY Relevant Catalog Items
+
+**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)
 

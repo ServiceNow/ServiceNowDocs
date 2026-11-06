@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,9 +20,9 @@ Data Owner view in CMDB Workspace provides a filtered view for data owner users 
 
 Navigate to **Workspaces** &gt; **CMDB Workspace**, and then, in the navigation panel, select the Data Owner Home icon.
 
-Role required: sn\_cmdb\_editor or sn\_cmdb\_admin
+Role required: sn\_cmdb\_user, sn\_cmdb\_editor, or sn\_cmdb\_admin
 
-The Data Owner Home view shows users CIs that they own or manage, related health, related records, and related services and offerings. This view also provides AI-assisted insights, recommended actions, and important notifications. Service instance owners can view and manage their Service Instances.
+The Data Owner view shows users CIs that they own or manage, related health, related records, and related services and offerings. This view also provides AI-assisted insights, recommended actions, and important notifications. Service instance owners can view and manage their Service Instances.
 
 As a data owner, you can view the following types of information:
 

@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security findings, Exploring Machine Identity Console, Machine Identity Console, Identity]
 ---
@@ -19,6 +19,8 @@ Display the findings about the accounts that are using only basic authentication
 Accounts using basic authentication displays the non human identity accounts that using basic authentication for the APIs to login to ServiceNow.
 
 **Note:** The accounts displayed on the page are the accounts that are using username and password for authentication in the last 30 days.
+
+An account is listed when it authenticates API requests with a username and password. To restrict Basic Authentication on the instance, see [Basic authentication restriction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/basic-auth-restriction.md).
 
 \[Omitted image "mic-basic-auth.png"\] Alt text: Accounts using basic authentication
 

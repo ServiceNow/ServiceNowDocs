@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [MCP Server, Service Mapping, activate, OAuth, MCP Server Console, Machine Identity Console]
 breadcrumb: [Service Mapping MCP tools, AI in Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
@@ -22,7 +22,7 @@ Activate the CMDB MCP Server and configure the OAuth inbound integration so that
 Before activating the CMDB MCP Server, confirm the following requirements are met.
 
 -   You have MCP Platform Manager version 1.4 or later installed.
--   You have at least version 1.1.1 of the CMDB MCP Server \[sn\_cmdb\_mcp\_server\] application installed.
+-   You have the CMDB MCP Server \[sn\_cmdb\_mcp\_server\], version 1.1.1 or later, application installed.
 -   You have the roles required as described in [Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md).
 
 **Important:** The Service Mapping tools are added to the CMDB MCP Server only if com.sn.itom.sm.gen.ai was active when the CMDB MCP Server application was installed. If com.sn.itom.sm.gen.ai was activated after the application was installed, reinstall the CMDB MCP Server \[sn\_cmdb\_mcp\_server\] application to add the Service Mapping tool records.

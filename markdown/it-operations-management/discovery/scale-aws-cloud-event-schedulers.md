@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AWS events-driven discovery, Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -37,7 +37,7 @@ If the instance receives a huge number of events and it doesn’t process them w
         **Important:**
 
         -   Make sure that the value of the **sn\_cmp.cloud\_event.parallel\_scheduler\_count** property doesn’t exceed the count of available worker nodes.
-        -   If you have multiple domains where cloud events are configured, use the **sn\_cmp.cloud\_event.parallel\_scheduler\_count** property with caution because each cloud event scheduler has multiple iterations for each domain in which cloud events are active.
+        -   If you have multiple domains where cloud events are configured, use the **sn\_cmp.cloud\_event.parallel\_scheduler\_count** property with caution. Each cloud event scheduler has multiple iterations for each domain in which cloud events are active.
     4.  Select **Update**.
 
 2.  Execute the Cloud Event Scheduler Count Monitor scheduled job.

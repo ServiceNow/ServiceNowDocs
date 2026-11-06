@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Recommended Actions for ITSM, Service Operations Workspace, resource generator, action types, guidance-based recommendations, field recommendations, Predictive Intelligence, Task Intelligence for ITSM, incident recommendations, problem recommendations, change request recommendations, machine learning solutions, recommendation workflow]
 breadcrumb: [Configuring Recommended Actions for ITSM, Contextual side panel configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]

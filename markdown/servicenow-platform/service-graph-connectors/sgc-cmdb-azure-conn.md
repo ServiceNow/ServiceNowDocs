@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SGC-Azure, SGC-Microsoft Azure, SGC Azure, SGC Microsoft Azure, SGC for Azure, SGC for Microsoft Azure, Azure SGC, Microsoft Azure SGC, Service Graph Connector for Microsoft Azure, Service Graph Connector for Azure, Azure connection details, Azure connection, common connection framework, CCF, SGC-Azure, SGC-Microsoft Azure, SGC Azure, SGC Microsoft Azure, SGC for Azure, SGC for Microsoft Azure, Azure SGC, Microsoft Azure SGC, Service Graph Connector for Microsoft Azure, Service Graph Connector for Azure, Azure connection details, Azure connection, common connection framework, CCF]
 breadcrumb: [Microsoft Azure, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]

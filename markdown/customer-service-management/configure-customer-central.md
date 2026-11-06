@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-customer-central.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -50,7 +50,7 @@ Activate Customer Central
 
 </td><td>
 
-The Customer Central application \(com.sn\_csm\_customer\_central\) is activated with the CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CRM Workspace application is activated with the Customer Service plugin \(com.sn\_customerservice\).**Note:** Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store.
+The Customer Central application \(com.sn\_csm\_customer\_central\) is activated with the CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CRM Workspace application is activated with the Case Management Core plugin \(com.sn\_customerservice\).**Note:** Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Configure the Customer History component
 
 </td><td>
 
-Starting with the Yokohama release, the Customer History component displays customer activity information on some record pages in CSM Configurable Workspace.
+Starting with the Yokohama release, the Customer History component displays customer activity information on some record pages in CRM Workspace.
 
 </td></tr></tbody>
 </table>4.  To perform a task, select **Configure**.

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-trigger-aw-new.html
 release: australia
 topic_type: task
-last_updated: "2026-06-06"
+last_updated: "2026-10-23"
 reading_time_minutes: 2
-breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add a trigger to an agentic workflow
@@ -50,7 +50,7 @@ If you don't want to add a trigger, skip to the next step, [Configure where your
 
     2.  Select the AI user identity.
 
-        **Note:** This trigger runs as a type of user identity with roles and associated data access rules it can impose on the agentic workflow. Review the agentic workflow's access rules to prevent any rule conflicts or gaps.
+        **Note:** This trigger runs as a user identity. The identity's roles and data access rules apply to the agentic workflow. Review the agentic workflow's access rules to avoid rule conflicts or gaps.
 
 4.  Configure the trigger channel.
 
@@ -64,7 +64,7 @@ If you don't want to add a trigger, skip to the next step, [Configure where your
 
     If you choose a scheduled trigger, additional options are available, such as the day of the week and time when you want the trigger to run.
 
-    **Note:** When running a scheduled trigger, not every record is included in the execution. By default, the value is 10. If you want to change this number, you must set the **sn\_aia.max\_scheduled\_trigger\_query** system property to a different value.
+    **Note:** When running a scheduled trigger, not every record is included in the execution. The default is 10 records. To change this number, set the **sn\_aia.max\_scheduled\_trigger\_query** system property to a different value.
 
     If you choose an email trigger, the target emails must exist on the Reply \[sys\_reply\] table. New emails aren't available as triggers.
 
@@ -77,5 +77,5 @@ You have added triggers to your agentic workflow to run it automatically under t
 
 ## What to do next
 
-Scroll down to the next section of the guided setup, **Channel and display**, to [configure where the agentic workflow can be invoked and set processing messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/channels-access-aw-new.md).
+Scroll down to the next section of the guided setup, **Channel and display**, to [Select channels and messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/channels-access-aw-new.md).
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/configure-eaw.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -15,7 +15,7 @@ breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture]
 As an administrator, use this section to configure the Enterprise Architecture Workspace.
 
 -   **[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/install-ea-workspace.md)**  
-Install the Enterprise Architecture Workspace application \(sn\_apm\_ws\) if you have the admin role.
+Install the Enterprise Architecture Workspace application \(sn\_apm\_ws\)if you have the admin role.
 -   **[Enterprise Architecture \(EA\) and the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/apm-use-case-product-view.md)**  
 Use Enterprise Architecture to gain a comprehensive understanding of your organization's applications so you can identify redundancies and decrease budgetary costs. The goal of this product view is to help you to understand how Enterprise Architecture key entities work with the core CSDM framework.
 -   **[Personalize the Enterprise Architecture Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-personalize-the-enterprise-architecture-workspace-home-page.md)**  

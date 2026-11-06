@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/assets-page-console.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---

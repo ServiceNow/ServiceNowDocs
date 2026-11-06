@@ -7,7 +7,7 @@ release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-21"
 reading_time_minutes: 1
 breadcrumb: [Service offerings in Service Portfolio Management, Use, Service Portfolio Management, IT Service Management]
 ---
@@ -38,13 +38,17 @@ The service offering team table \[cmdb\_rel\_team\] enables multiple groups to b
 
 4.  In the Related Links **Teams** tab, add more support groups \(of the same group type\) to the **User group** list.
 
+    \[Omitted image "spm2-teams-rl1.png"\] Alt text: Add more support groups in Related Links
+
     1.  Select **Edit**.
 
-    2.  Move one or more groups from the **Collection** to the **Teams List**, and then **Save**.
+    2.  Move one or more groups in the List Collector from **Collection** to the **Teams List**, and then **Save** the List Collector settings.
 
 5.  **Save** the offering record.
 
-6.  The Related Links **Teams** tab contains all the teams that you added.
+6.  The Related Links **Teams** tab contains all the support teams that you added.
+
+    \[Omitted image "spm2-teams-newgroup.png"\] Alt text: View added support group in Related Links
 
     You can select any team in the **User group** column to change the team. You can also select any **Group type** to change it to one of the other options: Support Group, Approver Group, Change Group, or Managed By Group.
 

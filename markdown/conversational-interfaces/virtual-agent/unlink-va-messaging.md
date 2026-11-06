@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Account linking in pre-built messaging integrations, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Account linking in pre-built messaging integrations, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Unlink your ServiceNow user account from a messaging application for Virtual Agent conversations
@@ -22,7 +22,7 @@ Role required: user
 
 ## About this task
 
-Unlinking your account from a selected Conversational Integration for Slack, Microsoft Teams or Workplace, deactivates the association between your ServiceNow account and the messaging app. After you unlink your account, you can no longer engage in Virtual Agent conversations that query or change records in the ServiceNow database.
+Unlinking your account from a selected Conversational Integration for Slack or Microsoft Teams deactivates the association between your ServiceNow account and the messaging app. After you unlink your account, you can no longer engage in Virtual Agent conversations that query or change records in the ServiceNow database.
 
 ## Procedure
 

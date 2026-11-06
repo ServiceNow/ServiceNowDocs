@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/manage-alerts-in-crisis-map-interface-uib-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Structured workflows for Crisis map, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -72,7 +72,7 @@ The Crisis map interface has been optimized to handle over 10,000 resources and 
 
     2.  In the Edit Impacted Area pop over that opens on the map, select either **Custom Shape** or **Custom Radius** depending on the shape of the impacted area.
 
-        -   Select **Custom Shape** if the impacted area is a polygonal shape.
+        -   Select **Custom Shape** if the impacted area is polygonal shape.
         -   Select **Custom Radius** if the impacted area is a circle.
     3.  Select and drag the vertex on the boundary of the impacted area to include the asset location.
 

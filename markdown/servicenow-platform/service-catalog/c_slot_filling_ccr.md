@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [slot filling, Conversational Catalog Requests, LLM, pre-fill]
 breadcrumb: [LLM topic blocks, Conversational Catalog Requests reference, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]

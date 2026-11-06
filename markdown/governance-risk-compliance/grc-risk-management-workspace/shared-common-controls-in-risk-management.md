@@ -7,8 +7,8 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-04-28"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -31,21 +31,29 @@ A common control has the following benefits:
 
 ## Common controls in a risk
 
-If a control objective and risk statement are associated and the reliant entity of the control matches the risk entity, the risk-control association is established automatically. You can also inherit common controls to a risk when the risk entity is marked as a reliant entity in a common control. Any changes to the risk statement and the control's objective relationship can impact the risk-control association as well.
+If a control objective and risk statement are associated and the reliant entity of the control matches the risk entity, the risk-control association is established automatically. You can also inherit common controls to a risk when the risk entity is marked as a reliant entity in a common control. Any changes to the risk statement and the control's objective relationship can impact the risk-control association as well. The following example shows the inherit common controls option on the risk form:
+
+\[Omitted image "inherit-common-control.png"\] Alt text: Inherit common controls.
 
 **Note:** Only active relationships between risks and controls are maintained and any historic relationships are automatically deleted.
 
 ## Common controls in a risk assessment
 
-You can inherit common controls in the risk assessment when the entity is marked as a reliant entity in the common control.
+You can inherit common controls in the risk assessment when the entity is marked as a reliant entity in the common control. The following example shows the inherit common controls option on the risk assessment form.
+
+\[Omitted image "inhert-common-control-risk-assessment.png"\] Alt text: Inherit common controls in a risk assessment.
 
 ## Common controls in a risk-mitigation task
 
-You can inherit the common controls to a risk-mitigating task when the entity is marked as a reliant entity in the common control. You can inherit the common controls to a risk-mitigating task when it is in the Draft or Work In Progress state.
+You can inherit the common controls to a risk-mitigating task when the entity is marked as a reliant entity in the common control. You can inherit the common controls to a risk-mitigating task when it is in the Draft or Work In Progress state. The following example shows the inherit common controls option on the risk-mitigation task form.
+
+\[Omitted image "inherit-control-risk-mitigation.png"\] Alt text: Inherit common controls in risk mitigation.
 
 ## Common controls in a risk event
 
-A common control is automatically linked to a risk event when the underlying risk has materialized for the risk event. It enables the control owner to identify when the common control fails and to take immediate action if a common control does fail.
+A common control is automatically linked to a risk event when the underlying risk has materialized for the risk event. It enables the control owner to identify when the common control fails and to take immediate action if a common control does fail. The following example shows the inherit common controls option on the risk event form:
+
+\[Omitted image "inherit-common-control-risk-event.png"\] Alt text: Inherit common controls in risk mitigation.
 
 **Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

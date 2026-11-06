@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Process Mining, Platform Analytics]
 ---
@@ -25,7 +25,7 @@ Process Mining enables you to find answers to process improvement questions such
 -   What's the estimated cost and potential savings for each activity within a process?
 -   How much deviation is the business seeing in its process?
 
-\[Omitted image "process-optimization-explore-overview.gif"\] Alt text: Explore Process Mining - Overview
+\[Omitted video\] Description: Process Mining Overview
 
 As an analyst, you can:
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Incident Management in Service Operations Workspace reference, Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -219,7 +219,7 @@ Action Output\[sn\_cimaf\_action\_output\]
 List of the CI action output records. Each record is linked to the record in action request table. The record includes information such as action request record, action configuration step, payload, state, and request ID.**Note:** This table is read only.
 
 </td></tr></tbody>
-</table>**Note:** Deny unless ACLs are added to all the tables. The Deny unless ACLs restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on the tables related to the mentioned applications, such as reading, writing, deleting, creating, or accessing the report view. For more information on Deny-Unless ACLs and enhanced security model adoption features, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/acl-denial-behavior.md) and [Features of enhanced security model adoption for incident tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.md).
+</table>**Note:** Deny unless ACLs are added to all the tables. The Deny unless ACLs restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on the tables related to the mentioned applications, such as reading, writing, deleting, creating, or accessing the report view. For more information on Deny-Unless ACLs and enhanced security model adoption features, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/acl-denial-behavior.md) and [Enhanced security model features for incident tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.md).
 
 **Parent Topic:**[Incident Management in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-im-reference.md)
 

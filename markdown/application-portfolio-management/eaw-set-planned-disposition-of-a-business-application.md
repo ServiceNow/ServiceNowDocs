@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -32,15 +32,15 @@ Setting the planned disposition of a business application results in better data
 
 4.  Select the bubble for the relevant application that you want to set the planned disposition for and perform the following.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d48990e92">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d48863e92">
 
 Bubble type
 
-</th><th align="left" id="d48990e95">
+</th><th align="left" id="d48863e95">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d48990e101">
+</th></tr></thead><tbody><tr><td id="d48863e101">
 
 **Single bubble**
 
@@ -51,7 +51,7 @@ Action
 
 \[Omitted image "bubble-chart-menu-set-planned-disposition.png"\] Alt text: Set planned disposition button highlighted.
 
-</td></tr><tr><td id="d48990e139">
+</td></tr><tr><td id="d48863e139">
 
 **Grouped bubble**
 

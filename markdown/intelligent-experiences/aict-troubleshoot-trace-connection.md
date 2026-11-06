@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-troubleshoot-trace-connection.html
 release: australia
 topic_type: task
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Troubleshoot a trace connection

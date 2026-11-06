@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access
 
 Familiarize yourself with these SAML concepts.
 
-Review the following topics to become familiar with SAML 2.0:
+Review the following topics to know more about SAML 2.0:
 
 -   [Typical SAML process flow \(diagram\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/c_TypicalProcessFlowDiagram.md)
 -   [Login \(AuthnRequest\) process flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/c_LoginAuthnRequestProcessFlow.md)

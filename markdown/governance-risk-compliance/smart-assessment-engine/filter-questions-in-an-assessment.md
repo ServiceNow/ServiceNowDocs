@@ -1,13 +1,13 @@
 ---
 title: Filter questions in an assessment
-description: In SAE, narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Combine filters to focus on questions that match every selected criterion.
+description: Narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Combine filters to focus on questions that match every selected criterion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/filter-questions-in-an-assessment.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [filter, filtering, question filter]
 breadcrumb: [Filtering questions in an assessment, Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
@@ -15,7 +15,7 @@ breadcrumb: [Filtering questions in an assessment, Respond to assessments, Manag
 
 # Filter questions in an assessment
 
-In SAE, narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Combine filters to focus on questions that match every selected criterion.
+Narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Combine filters to focus on questions that match every selected criterion.
 
 ## Before you begin
 

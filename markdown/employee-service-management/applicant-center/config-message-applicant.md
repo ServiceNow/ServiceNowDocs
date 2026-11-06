@@ -7,7 +7,7 @@ release: australia
 product: Applicant Center
 classification: applicant-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Applicant Center, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---

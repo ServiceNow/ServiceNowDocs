@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-studio-domain-separation.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [AI agents, agentic AI]
-breadcrumb: [Reference, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Reference, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Domain separation in AI Agent Studio

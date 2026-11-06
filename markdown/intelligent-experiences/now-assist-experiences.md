@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-experiences.html
 release: australia
 topic_type: concept
-last_updated: "2025-11-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # ServiceNow Otto Experiences

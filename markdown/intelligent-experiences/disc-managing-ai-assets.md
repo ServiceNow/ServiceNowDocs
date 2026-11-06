@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/disc-managing-ai-assets.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Working with AI asset records

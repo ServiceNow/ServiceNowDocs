@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.html
 release: australia
 topic_type: task
-last_updated: "2026-01-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Opt out, Now Assist, data sharing, Admin console, settings page, account]
-breadcrumb: [Data sharing and processes, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Data sharing and processes, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Opt out of data sharing for Now Assist

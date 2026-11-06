@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_PersonalizeAForm.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -28,7 +28,7 @@ In contrast to configuring a form, personalizing a form does not enable users to
 -   Add fields that are not configured to appear on the form.
 -   Hide mandatory fields.
 
-**Note:** Personalizing a form in this way modifies the form for you only. To make changes to a form that are visible to all users, you must configure the form.
+**Note:** Personalizing a form in this way modifies the form for you only. To make changes to a form that are visible to all users, you must [configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 ## Procedure
 
@@ -60,5 +60,5 @@ In contrast to configuring a form, personalizing a form does not enable users to
 **Related topics**  
 
 
-[bundle-platadm.c_FormPersonalizationAdmin]
+[Administering form personalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FormPersonalizationAdmin.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-06-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -120,11 +120,11 @@ Gets Oracle home from the listener process path. Used when the ORACLE\_HOME envi
 
 </td><td>
 
-Gets Oracle Grid home from the CRS daemon process path.
+Gets Oracle Grid home from the CRS daemon process path. Paths that contain `flashgrid` are excluded. If `*grid\_home*/bin/crsctl` does not exist, the pattern stops running.
 
 </td></tr><tr><td>
 
-`/u01/app/12.1.0.2/grid/bin/olsnodes -c | egrep -v 'error|return code'`
+`/u01/app/12.1.0.2/grid/bin/olsnodes -c | egrep -vi 'error|return code|DIA|Additional'`
 
 </td><td>
 
@@ -132,7 +132,7 @@ Gets Oracle CRS cluster name.
 
 </td></tr><tr><td>
 
-`sudo /u01/app/12.1.0.2/grid/bin/ocrcheck | egrep -v 'error|return code'`
+`sudo /u01/app/12.1.0.2/grid/bin/ocrcheck | egrep -vi 'error|return code|DIA|Additional'`
 
 </td><td>
 
@@ -140,7 +140,7 @@ Gets Oracle CRS cluster ID.
 
 </td></tr><tr><td>
 
-`/u01/app/12.1.0.2/grid/bin/crsctl query crs softwareversion| egrep -v 'error|return code'`
+`/u01/app/12.1.0.2/grid/bin/crsctl query crs softwareversion| egrep -vi 'error|return code|DIA|Additional'`
 
 </td><td>
 
@@ -148,7 +148,7 @@ Gets Oracle CRS version.
 
 </td></tr><tr><td>
 
-`/u01/app/12.1.0.2/grid/bin/olsnodes | egrep -v 'error|return code'`
+`/u01/app/12.1.0.2/grid/bin/olsnodes | egrep -vi 'error|return code|DIA|Additional'`
 
 </td><td>
 
@@ -156,7 +156,7 @@ Gets Oracle CRS nodes.
 
 </td></tr><tr><td>
 
-`/u01/app/12.1.0.2/grid/bin/crsctl status server | egrep -v 'error|return code'`
+`/u01/app/12.1.0.2/grid/bin/crsctl status server | egrep -vi 'error|return code|DIA|Additional'`
 
 </td><td>
 
@@ -180,7 +180,7 @@ Gets Oracle CRS VIP resources.
 
 </td></tr><tr><td>
 
-`/u01/app/12.1.0.2/grid/bin/srvctl config scan | tr '\n' ‘ '`
+`/u01/app/12.1.0.2/grid/bin/srvctl config scan | tr '\n' ' '`
 
 </td><td>
 
@@ -200,10 +200,10 @@ Gets Oracle CRS VIPs name.
 
 </td><td>
 
-Get Oracle CRS VIPs ip\_address.
+Gets Oracle CRS VIPs IP address.
 
 </td></tr></tbody>
-</table>**Important:** Sudo permission are required to run `sudo /u01/app/12.1.0.2/grid/bin/ocrcheck | egrep -v 'error|return code'`.
+</table>**Important:** Sudo permission is required to run `sudo /u01/app/12.1.0.2/grid/bin/ocrcheck | egrep -vi 'error|return code|DIA|Additional'`.
 
 ## Classifiers, patterns, and probes
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-exploring.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, explore]
-breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Exploring security in AI Control Tower
@@ -48,7 +48,7 @@ To learn more about configuring and using AI Control Tower, see:
 -   **[Basic concepts for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-basic-concepts.md)**  
 Learn more about the AI asset security score, agent map, AI asset security events, and internal and external agents.
 -   **[AI agent containment using kill switch protocol manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-exploring-ai-agent-containment.md)**  
-Explore how detecting malicious activity and deactivating AI agents works to enforce guardrails and help improve your security posture.
+Explore how deactivating AI agents works to enforce guardrails and help improve your security posture.
 
 **Parent Topic:**[Managing AI asset security with AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-landing.md)
 

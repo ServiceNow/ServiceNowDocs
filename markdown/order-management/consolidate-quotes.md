@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/consolidate-quotes.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_customerservice\_manager and sn\_sales\_common.sales\_agent.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace.**.
+1.  Navigate to **All** &gt; **CRM Workspace.**.
 
 2.  In the List view, navigate to **Accounts** and select the required account.
 

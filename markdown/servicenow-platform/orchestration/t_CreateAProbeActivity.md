@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,13 +26,13 @@ For instructions on using the activity template process flow, see [create custom
 
 ## Procedure
 
-1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-custom-activities.md).
+1.  Create a custom activity.
 
     This action creates a custom activity using a template.
 
 2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/CreateInputVariables.md), configure the Probe Execution Command.
 
-<table id="choicetable_bf3_bpv_vz"><tbody><tr><td id="d401462e117">
+<table id="choicetable_bf3_bpv_vz"><tbody><tr><td id="d406486e117">
 
 **[Map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/CreateInputVariables.md)**
 
@@ -40,7 +40,7 @@ For instructions on using the activity template process flow, see [create custom
 
 Use the variables you created to configure the command that Orchestration executes.
 
-</td></tr><tr><td id="d401462e133">
+</td></tr><tr><td id="d406486e133">
 
 **Probe**
 
@@ -48,7 +48,7 @@ Use the variables you created to configure the command that Orchestration execut
 
 Probe to run with this activity, from the list of probes in the system
 
-</td></tr><tr><td id="d401462e142">
+</td></tr><tr><td id="d406486e142">
 
 **Target host**
 
@@ -56,7 +56,7 @@ Probe to run with this activity, from the list of probes in the system
 
 Host name or IP address of the target server for this activity.
 
-</td></tr><tr><td id="d401462e151">
+</td></tr><tr><td id="d406486e151">
 
 **Parameters**
 
@@ -64,7 +64,7 @@ Host name or IP address of the target server for this activity.
 
 MID Server to use, by capabilities.
 
-</td></tr><tr><td id="d401462e160">
+</td></tr><tr><td id="d406486e160">
 
 **Required MID Server capabilities**
 

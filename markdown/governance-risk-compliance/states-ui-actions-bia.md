@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/states-ui-actions-bia.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -69,8 +69,6 @@ Select **Submit for approval**.
 </td><td>
 
 When you select **Submit for approval** in the Create New Impact analysis form, the state of the business impact analysis is updated to **Pending approval**.
-
- In the **Pending approval** state, the business impact analysis is not editable. You cannot add items to a Dependency assessment because the **Add** and **Add first level CMDB dependencies** actions are unavailable until the business impact analysis returns to an editable state.
 
 </td></tr><tr><td>
 

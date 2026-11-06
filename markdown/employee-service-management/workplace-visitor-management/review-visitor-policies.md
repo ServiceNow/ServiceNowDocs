@@ -7,7 +7,7 @@ release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Registering a visitor, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -36,15 +36,15 @@ You can also accept the policies on the Workplace Services Kiosk during the visi
 
 2.  Accept or decline the visitor policies based on your preference.
 
-<table id="choicetable_if1_vtw_tfc"><thead><tr><th align="left" id="d129656e93">
+<table id="choicetable_if1_vtw_tfc"><thead><tr><th align="left" id="d129650e94">
 
 Choice
 
-</th><th align="left" id="d129656e96">
+</th><th align="left" id="d129650e97">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d129656e102">
+</th></tr></thead><tbody><tr><td id="d129650e103">
 
 **Accept the policies**
 
@@ -58,7 +58,7 @@ The Visitor Policies page opens with details about all visitor policies.
 
 Based on the configuration set by the admin, you might have to add a signature to agree to the policies.
 
-</td></tr><tr><td id="d129656e130">
+</td></tr><tr><td id="d129650e131">
 
 **Decline the policies**
 

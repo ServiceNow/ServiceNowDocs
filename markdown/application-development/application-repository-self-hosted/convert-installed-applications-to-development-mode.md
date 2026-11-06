@@ -7,9 +7,9 @@ release: australia
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Convert your installed applications to development mode

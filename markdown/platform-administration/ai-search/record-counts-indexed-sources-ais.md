@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -30,7 +30,7 @@ The AI Search Indexed Source Statistics \[ais\_datasource\_stats\] table contain
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `ais_datasource_stats.list`.
+    2.  In the navigation field, enter `ais_datasource_stats.list`.
 
     3.  Press Enter.
 

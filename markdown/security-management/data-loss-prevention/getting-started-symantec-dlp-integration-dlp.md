@@ -7,7 +7,7 @@ release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Symantec Integration for Data Loss Prevention Incident Response, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -48,11 +48,11 @@ Review the Symantec DLP integration roles and permissions.
 
 </td></tr><tr><td>
 
-Verify the Symantec DLP version
+Verify you are using Symantec DLP 15.8
 
 </td><td>
 
-Ensure that you're using Symantec DLP version 15.8 or higher.
+The Symantec DLP integration for Data Loss Prevention is tested with 15.8 version of Symantec Data Loss Prevention.**Note:** Ensure that you are using Symantec DLP 15.8
 
 </td></tr><tr><td>
 

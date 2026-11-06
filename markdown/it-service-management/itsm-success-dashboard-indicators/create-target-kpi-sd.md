@@ -1,5 +1,5 @@
 ---
-title: Create target for the KPI in the Success Dashboard
+title: Create a target for the KPI in the Success Dashboard
 description: Create a target for a KPI to be on par with the benchmark score or the organizational targets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-success-dashboard-indicators/create-target-kpi-sd.html
@@ -7,12 +7,12 @@ release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Maximise the benefits, ITSM Success Dashboard indicators, IT Service Management]
+breadcrumb: [Maximizing the benefits, ITSM Success Dashboard indicators, IT Service Management]
 ---
 
-# Create target for the KPI in the Success Dashboard
+# Create a target for the KPI in the Success Dashboard
 
 Create a target for a KPI to be on par with the benchmark score or the organizational targets.
 
@@ -24,11 +24,11 @@ Role required: user
 
 1.  Navigate to **All** &gt; **Success Dashboard** &gt; **Success Dashboard**.
 
-2.  Select **Performance Quality** tab.
+2.  Select the **Performance Quality** tab.
 
 3.  Select **Targets**.
 
-4.  Select **Create Target** \(+\) icon.
+4.  Select the **Create Target** \(+\) icon.
 
     \[Omitted image "create-target.png"\] Alt text: Create target option
 
@@ -45,5 +45,5 @@ Role required: user
     **Note:** Select **Refresh** to view the target set on the trendline.
 
 
-**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
+**Parent Topic:**[Maximizing the benefits of using the ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
 

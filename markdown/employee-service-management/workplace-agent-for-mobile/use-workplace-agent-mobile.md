@@ -7,7 +7,7 @@ release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
 ---
@@ -18,6 +18,8 @@ Use the Workplace Agent for mobile to perform workplace case or task related act
 
 -   **[Manage workplace cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-agent-for-mobile/manage-workplace-cases-and-tasks-assigned-to-you-agentmobile.md)**  
 Track the workplace cases and tasks that are assigned to you and your assignment group. Know the number of cases that are open, critical, and breached at any time. View the details of the case and perform an action accordingly.
+-   **[Assign an unassigned case or task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-agent-for-mobile/assign-an-unassigned-case-or-task-agentmobile.md)**  
+Work on an unassigned case or task. Assign the case or task to yourself or to another agent.
 -   **[Edit or view case details on the Workplace Agent for mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-agent-for-mobile/edit-or-view-case-details-agentmobile.md)**  
 Update a workplace case at any time on the go. The application provides you with all the edit-related options to make relevant changes whenever you want to edit.
 -   **[Print workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-agent-for-mobile/print-workplace-cases-mobile.md)**  

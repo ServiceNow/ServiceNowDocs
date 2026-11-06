@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/set-up-sae-templates.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Configure, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -78,6 +78,8 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
     \[Omitted image "dri-regu-report-asmt-automations-tab.png"\] Alt text: Example showing the Automations tab.
 
+    **Note:** Automate response \(auto-fill\) is not currently supported for Reference-type questions in Digital resilience incident reporting templates. Answers to Reference-type questions are not carried forward between the Regulatory reporting assessment of IT incidents, DRI Initial report, DRI Intermediate report, and DRI Final report assessments, and must be entered manually on each report.
+
     Follow these steps to add automations to your assessment template.
 
     1.  Select **+ Create automation**, add the name and description for the rule, and select **Create**.
@@ -118,6 +120,12 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
         \[Omitted image "dri-automation-activated.png"\] Alt text: Activated automation displayed in the list on the Automations tab.
 
+        User role filtering for contributor and reassign actions: When contributors or reassigners manage an assessment, the system applies role-based filtering to the user list. Only users assigned the DRIR role are available for selection in the Manage contributors and Reassign dialogs.
+
+        The DRIR application uses a user filter extension point integrated with Smart Assessment. When an assessment action task is opened, the filter restricts the available user list to those with the required DRIR role. This filtering applies regardless of which template is used or how the assessment was initiated.
+
+        Administrator responsibility: Verify that users who need to be assigned as contributors or reassigned have the appropriate DRIR role granted in your instance \(typically sn\_dri\_inc\_rptg.digital\_resilience\_incident\_user\). Verify role assignments are active and not suspended or expired.
+
         For more information on automations, see [Automate response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/automate-response.md) and [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.md).
 
 8.  Configure scoring settings on the **Scoring** tab.
@@ -128,7 +136,9 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
 10. To copy a published template, select **Copy template**, update the fields, and save your changes.
 
-    **Note:** The shipped DRI Initial report, DRI Intermediate report, DRI Final report, and Regulatory reporting assessment of IT incidents templates are published and may already be associated with existing DRI assessments. As long as the template is associated with one or more assessments, it cannot be moved back to Draft and the question structure cannot be edited. To customize the questionnaire for your organization, use 'Copy template' to create an editable copy, modify the copy, publish it, and update the corresponding Action Task Configuration on the Regulatory Body Management Agency Profile to point to the new template. You also need the sn\_dri\_inc\_rptg.digital\_resilience\_incident\_admin or sn\_oper\_res.admin role to edit DRI templates.
+    The shipped DRI Initial report, DRI Intermediate report, DRI Final report, and Regulatory reporting assessment of IT incidents templates are published. They may already be associated with existing DRI assessments. As long as the template is associated with one or more assessments, it cannot be moved back to Draft and the question structure cannot be edited. To customize the questionnaire for your organization, use **Copy template** to create an editable copy. Modify the copy, publish it, and update the corresponding action task configuration on the Regulatory Body Management Agency Profile to point to the new template. You also need the sn\_dri\_inc\_rptg.digital\_resilience\_incident\_admin or sn\_oper\_res.admin role to edit DRI templates.
+
+    **Note:** Copying a template does not automatically update the "Automate response" scripts on its questions. If the copied template's questions use response automation to auto-fill answers from a prior report, you must update the DriIncRptgConstants and DRIIncRptgResponseAutomation Script Includes, and the corresponding question scripts, to reference the new template before auto-fill works for it. This must be repeated for every new custom template you create. For more information about these Script Includes, see [Script includes installed with Digital resilience incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/script-incl-drir.md).
 
 11. To edit a published template, verify you have the required roles, select **Edit**, update the fields, and save your changes.
 

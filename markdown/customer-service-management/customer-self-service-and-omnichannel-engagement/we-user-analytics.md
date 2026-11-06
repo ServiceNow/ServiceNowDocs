@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Navigating the Usage Insights for Web Embeddable application

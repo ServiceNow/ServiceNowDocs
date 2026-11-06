@@ -7,7 +7,7 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Exchange]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Service Exchange]
 
 Use the Service Exchange for Consumers application to seamlessly interact and collaborate with your providers.
 
-## Service Exchange overview
+## Service Exchange Overview
 
 As a consumer, you can:
 
@@ -30,7 +30,7 @@ As a consumer, you can:
 
 </td><td>
 
-[Use for consumers\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn how to use Service Exchange for consumers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/se-consumer-using.md)
+[User for consumers\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn how to use Service Exchange for consumers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/se-consumer-using.md)
 
 </td></tr></tbody>
 </table>

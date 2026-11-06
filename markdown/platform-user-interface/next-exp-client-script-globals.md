@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-exp-client-script-globals.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -41,5 +41,5 @@ if (NOW.isUsingPolaris && (!top.NOW || top.NOW.isPolarisWrapper !== "true")) {
 **Related topics**  
 
 
-[bundle-crapiref.PolarisUIScopedAPI]
+[PolarisUI API - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PolarisUIScopedAPI.md)
 

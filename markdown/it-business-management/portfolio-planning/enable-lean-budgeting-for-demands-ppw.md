@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create monetary benefit plans, Manage financials for demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ Role required: it\_demand\_manager
 
 4.  Edit a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d272917e101">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d283228e101">
 
 Option
 
-</th><th align="left" id="d272917e104">
+</th><th align="left" id="d283228e104">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d272917e110">
+</th></tr></thead><tbody><tr><td id="d283228e110">
 
 **Using the __Monetary Benefit Plans__ tab**
 
@@ -55,7 +55,7 @@ Procedure
 4.  Edit the required fields and select **Save**.
 
 
-</td></tr><tr><td id="d272917e160">
+</td></tr><tr><td id="d283228e160">
 
 **Using the __Financials__ page**
 

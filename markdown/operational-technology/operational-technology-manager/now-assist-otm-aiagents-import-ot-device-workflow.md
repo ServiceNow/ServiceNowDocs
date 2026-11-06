@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Agentic AI for the Operational Technology Manager, Use, Operational Technology Manager, Operational Technology]
 ---

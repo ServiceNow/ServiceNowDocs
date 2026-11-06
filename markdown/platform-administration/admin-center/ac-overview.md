@@ -7,7 +7,7 @@ release: australia
 product: Admin Center
 classification: admin-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring Admin Center, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -24,7 +24,7 @@ Admin Center offers easy access to a number of key applications administrators n
 
     **Note:** Adoption Blueprints platform feature is available by default with instance upgrade to Tokyo and above.
 
--   AI Admin Hub: The AI Admin Hub console provides you with quick and effortless access to the important information that you need to set up, configure, and monitor ServiceNow Otto features and skills. See [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md) for more information.
+-   AI Admin Hub: The AI Admin Hub console provides you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist features and skills. See [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md) for more information.
 -   Application Manager: As an admin, you have the ability to install, update, and manage licensed applications and plugins on your instance using the Application Manager application. See [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/application-manager.md) for more information.
 
     **Note:** Application Manager store application is available by default with the instance upgrade of Vancouver and above.

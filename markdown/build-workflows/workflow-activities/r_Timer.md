@@ -7,7 +7,7 @@ release: australia
 product: Workflow Activities
 classification: workflow-activities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Timer workflow activities, Workflow activities reference, Workflow activities, Classic Workflow, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Timer workflow activities, Workflow activities reference, Workflow 
 
 The **Timer** activity pauses the workflow for a specified period of time.
 
-This duration can be an absolute time value or a relative value based on a defined [Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseSchedules.md). It is best to adjust the **Duration** so the workflow can progress in a timely manner. To pause a workflow indefinitely until a condition is met, see [wait for condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_WaitForCondition.md).
+This duration can be an absolute time value or a relative value based on a defined Creating and using schedules. It is best to adjust the **Duration** so the workflow can progress in a timely manner. To pause a workflow indefinitely until a condition is met, see wait for condition.
 
 **Note:** Timer activities run as the System user because the system scheduler advances the workflow.
 

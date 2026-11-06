@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+true
 
 </td></tr><tr><td>
 
@@ -94,7 +94,10 @@ Security risk
 
 -   Severity score: 8.8
 -   CVSS rating: High
--   Security risk details: This increases the risk of session hijacking, as attackers could reuse session identifiers to gain unauthorized access.
+-   Security risk details:
+
+Not setting **glide.ui.rotate\_sessions** system property to the recommended value of **true** increases the risk of session hijacking, as attackers could reuse session identifiers to gain unauthorized access.
+
 
 </td></tr><tr><td>
 

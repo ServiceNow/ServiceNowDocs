@@ -7,7 +7,7 @@ release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-05-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product Support for Technology]
 ---
@@ -33,6 +33,14 @@ The Proactive Service Experience Workflows application enables service providers
 </td><td>
 
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional details including glossary.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+
+</td></tr><tr><td>
+
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use generative AI skills to automate Proactive Service Experience Workflows tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-otto-about.md)
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>

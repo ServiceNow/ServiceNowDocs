@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]

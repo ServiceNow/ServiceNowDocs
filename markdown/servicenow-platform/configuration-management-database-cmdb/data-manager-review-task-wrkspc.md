@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,7 +29,7 @@ Canceling a life-cycle task is available only for tasks that are in the 'Not sta
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **My Work** in the CMDB Workspace menu bar.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Tasks**. In the Tasks navigation panel, select **Certification**.
 
     Any attestation tasks that are assigned to you or to assignment groups you belong to, appear in the **Attestation tasks** tab in the My tasks section. Attestation tasks are associated with details such as the due dates and short descriptions for those tasks. Assignment groups that you are a member of, are also listed.
 

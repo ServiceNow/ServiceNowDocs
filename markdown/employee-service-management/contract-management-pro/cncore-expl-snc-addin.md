@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Word content controls, Self-served contract request, Configure contract templates, Configure Contract Workspace, Configure Obligation Management, Create word document template, Contract configuration, Legal document word template, Microsoft Word add-in for ServiceNow Contracts]
 breadcrumb: [Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]

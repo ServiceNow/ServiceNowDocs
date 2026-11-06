@@ -7,7 +7,7 @@ release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Hermes, Hermes settings, Hermes configuration, background jobs, hermes\_admin, maint, scheduled jobs]
 breadcrumb: [Managing Hermes settings, Administer, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]

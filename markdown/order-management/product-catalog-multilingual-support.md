@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/product-catalog-multilingual-support.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product Catalog Management reference, Lead-to-cash foundation, Reference, Sales Customer Relationship Management]
 ---
@@ -104,4 +104,11 @@ Option
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Product Catalog Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-management-reference.md)
+
+**Related topics**  
+
+
+[Enable localized product catalogs and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/enable-multi-locale-catalogs.md)
+
+[ServiceNow AI Platform translation and localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/translation-and-localization.md)
 

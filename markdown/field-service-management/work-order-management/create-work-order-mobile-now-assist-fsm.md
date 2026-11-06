@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [create work order, AI agent, mobile, image]
 breadcrumb: [Create a task, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
@@ -27,15 +27,15 @@ Role required: wm\_qualifier or wm\_dispatcher or wm\_agent
 
 ## Procedure
 
-1.  Tap ServiceNow Otto on the navigation bar.
+1.  Tap ServiceNow Otto® from the navigation bar.
 
 2.  Navigate to **My Work**.
 
 3.  Tap the plus icon \[Omitted image "mobile-plus-icon.png"\] Alt text:.
 
-4.  Tap **Ask ServiceNow Otto**.
+4.  Tap **Ask Otto**.
 
-5.  Tap **Create work order**, or ask AI to create a work order.
+5.  Tap **Create work order**, or ask ServiceNow Otto® to create a work order.
 
 6.  Provide a description of the issue for the work order.
 

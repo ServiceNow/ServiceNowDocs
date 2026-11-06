@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Processing an ACH dispute, Resolving ACH disputes, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -26,7 +26,7 @@ Once the merchant analysis has been conducted and Nacha guidelines have been ana
 
 **Note:** The ACH dispute return recommendation AI agent can review past disputes with similar transaction values and recommend an action — **Deny**, **File return**, or **Follow up with ODFI** — along with a reason for the recommendation. It applies predefined rules when historical data is limited. When this agent isn't enabled, determine the final action manually.
 
-Ensure that your assignment logic, such as Advanced Work Assignment \(AWA\), is configured correctly. When a dispute case is assigned to an agent, all associated transactions are automatically assigned to the same agent. This alignment helps maintain consistency and speeds up case resolution.
+Ensure that your assignment logic, such as Advanced Work Assignment \(AWA\), is configured so that when a dispute case is assigned to an agent, all associated transactions are automatically assigned to the same agent. This alignment helps maintain consistency and speeds up case resolution.
 
 ## Procedure
 
@@ -57,6 +57,8 @@ Ensure that your assignment logic, such as Advanced Work Assignment \(AWA\), is 
     -   **Deny**
     -   **File Return**
     -   **Followup ODFI**
+    \[Omitted image "now-assist-recommend-analysis.png"\] Alt text: Recommendation AI agent
+
 9.  Review the AI agent's analysis and select one of these options on the workspace.
 
     -   **Apply Recommendation**: Accept the recommendation after reviewing the analysis. The recommended **Outcome** and **Rationale** on the recommendation card component are copied to **Final action** and **Resolution reason** respectively, and the task closes automatically.

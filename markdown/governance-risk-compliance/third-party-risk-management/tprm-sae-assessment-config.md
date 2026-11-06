@@ -269,7 +269,7 @@ This task is optional.
 
  Install ServiceNow Otto for Smart Assessment Engine \(SAE\) and activate the Smart Assessment Response Assist skill, then configure template categories for document-assisted drafting in TPRM.
 
- For more information, see [Activate Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.md) and [Configure AI-assisted questionnaire pre-fill for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dms-sae-config.md).
+ For more information, see [Activate smart assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.md) and [Configure AI-assisted questionnaire pre-fill for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dms-sae-config.md).
 
 </td></tr><tr><td>
 

@@ -1,20 +1,20 @@
 ---
 title: Add participants to a conference call from an incident
-description: Add participants to an active conference call from an incident to discuss about the resolution of an incident.
+description: Add participants to an active conference call from an incident to discuss the resolution of an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/add-participants-inc-call-itsm-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collaboration with incidents, My incidents, Managing incidents and tasks using My Work applet, ITSM Mobile Agent, IT Service Management]
+breadcrumb: [Collaboration with incidents, Work on incidents assigned to you, Managing incidents and tasks using the My Work applet, ITSM Mobile Agent, IT Service Management]
 ---
 
 # Add participants to a conference call from an incident
 
-Add participants to an active conference call from an incident to discuss about the resolution of an incident.
+Add participants to an active conference call from an incident to discuss the resolution of an incident.
 
 ## Before you begin
 
@@ -22,34 +22,34 @@ Role required: itil, itil\_admin, or admin
 
 ## Procedure
 
-1.  Open ITSM Mobile Agent app.
+1.  Open the ITSM Mobile Agent app.
 
-2.  In **My work** tab, tap **See All**.
+2.  On the **My work** tab, tap **See All**.
 
     \[Omitted image "my-work-itsm-mobile.png"\] Alt text: My work.
 
-3.  Open the incident where the conference call is originated.
+3.  Open the incident from which the conference call originated.
 
 4.  Tap **Collaborate**.
 
-    \[Omitted image "incident-collaborate-itsm-mobile.png"\] Alt text: My work.
+    \[Omitted image "incident-collaborate-itsm-mobile.png"\] Alt text: Collaborate option on the incident screen
 
-5.  Tap on the active conference call.
+5.  Tap the active conference call.
 
-    \[Omitted image "active-call-inc-itsm-mobile.png"\] Alt text: My work.
+    \[Omitted image "active-call-inc-itsm-mobile.png"\] Alt text: Active conference call in the Collaborate list
 
 6.  Tap **Add participants**.
 
-    \[Omitted image "add-participants-active-call-itsm-mobile.png"\] Alt text: My work.
+    \[Omitted image "add-participants-active-call-itsm-mobile.png"\] Alt text: Add participants option on the conference call screen
 
 7.  Provide the following details:
 
-    1.  **Recommended participants**: The list of participants associated with the incident will be displayed. Select the required users, and tap **Submit**.
+    1.  **Recommended participants**: The list of participants associated with the incident is displayed. Select the required users, and tap **Submit**.
     2.  **Users**: Select the required users, and tap **Submit**.
     3.  **Groups**: Select the required group, and tap **Submit**.
     \[Omitted image "add-participant-inc-call-itsm-mobile.png"\] Alt text: Add participants
 
-8.  In the **Add participants** screen, click **Submit**.
+8.  In the **Add participants** screen, tap **Submit**.
 
 
 **Parent Topic:**[Collaboration with incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mobile-agent/collaboration-incident-itsm-mobile.md)

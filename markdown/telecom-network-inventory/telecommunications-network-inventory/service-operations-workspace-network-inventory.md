@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
@@ -45,7 +45,7 @@ The Service Operations Workspace for TNI a converged experience for agents to vi
 **Related topics**  
 
 
-[Telecom Network Inventory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.md)
+[Assign user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.md)
 
 [Exploring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/exploring-telecommunicatons-network-inventory.md)
 

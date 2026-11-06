@@ -7,7 +7,7 @@ release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -32,12 +32,6 @@ As a case manager, apart from managing workplace cases, you can also print a wor
 Filter workplace cases using criteria such as Short Description, Workplace Location, or other relevant fields to generate a consolidated report using the Workplace Central Case management workspace.
 -   **[Cancel or delete a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/cancel-or-delete-a-case-casemgmtworkspace.md)**  
 As a case manager, cancel a workplace case at any time if it’s no longer required. As an admin, delete a case record completely from the application if it’s no longer required.
--   **[Manage workplace cases in calendar view in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/manage-workplace-cases-in-calendar-view-in-workplace-central.md)**  
-The Calendar view in Workplace Central enables case managers and case agents to view and manage assigned cases in a color-coded, week-based layout. Cases are organized chronologically by date field and can be filtered, grouped, and navigated by time zone.
--   **[Workplace cases in List view in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/manage-cases-in-list-view-in-workplace-central.md)**  
-The List view tab provides a traditional list view of cases in Workplace Central.
--   **[View facility assets in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/view-facility-assets-in-workplace-central.md)**  
-Use the Facility Assets list to look up an asset and its related cases without leaving Workplace Central.
 
 **Parent Topic:**[Use Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/use-workplace-central.md)
 

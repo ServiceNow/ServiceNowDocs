@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/use-alternative-dispute-resolution-case.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -32,7 +32,7 @@ Resolve customer disputes by creating resolution tasks, documenting dispute anal
 -   **[Close a customer dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/close-customer-dispute.md)**  
 Notify the customer of the outcome, capture the customer's feedback, and record closing information before closing the dispute.
 -   **[View a Customer Dispute Management case record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/view-adr-case.md)**  
-View the details of an Customer Dispute Management \(CDM\) case record in the CSM/FSM Configurable Workspace so that you can review the customer dispute information.
+View the details of an Customer Dispute Management \(CDM\) case record in the CRM Workspace so that you can review the customer dispute information.
 
 **Parent Topic:**[Using Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/using-spm.md)
 

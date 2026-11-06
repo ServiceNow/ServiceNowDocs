@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Third-party contract review requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Open the third-party contract review request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d794717e83">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d791468e83">
 
 Method
 
-</th><th align="left" id="d794717e86">
+</th><th align="left" id="d791468e86">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d794717e92">
+</th></tr></thead><tbody><tr><td id="d791468e92">
 
 **Employee Center**
 
@@ -47,7 +47,7 @@ Action
 5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
 
 
-</td></tr><tr><td id="d794717e140">
+</td></tr><tr><td id="d791468e140">
 
 **Using Legal Service Portal**
 

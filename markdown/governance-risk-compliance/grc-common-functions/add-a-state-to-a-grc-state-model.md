@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Issue workflows, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -57,7 +57,7 @@ Each state can be configured with its own stepper display, transitions, and attr
 
 9.  Select **Save**.
 
-10. Repeat [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/add-a-state-to-a-grc-state-model.md) through [9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/add-a-state-to-a-grc-state-model.md) for each additional state that you want to include in the state model.
+10. Repeat through for each additional state that you want to include in the state model.
 
 
 ## Result
@@ -65,14 +65,7 @@ Each state can be configured with its own stepper display, transitions, and attr
 The state model is saved with its states, transitions, and attributes. You can select the state model when adding components to an issue workflow.
 
 -   **[State model attributes for the Issue table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/state-model-attributes-for-the-issue-table.md)**  
-Attributes available for states in a GRC state model applied to the Issue table.
+Each state in a GRC state model applied to the Issue table can carry attributes that determine how an issue behaves when it reaches that state.
 
 **Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-workflows.md)
-
-**Related topics**  
-
-
-[Add the layout, state model, and playbook to a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/add-the-layout-state-model-and-playbook-to-a-workflow.md)
-
-[Map states to playbook stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/map-states-to-playbook-stages.md)
 

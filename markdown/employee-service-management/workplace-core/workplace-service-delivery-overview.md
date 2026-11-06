@@ -7,7 +7,7 @@ release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
@@ -27,7 +27,7 @@ The ServiceNow® Workplace Core application manages workplace locations, reserva
     -   Regions of all locations
     As a workplace manager, you can upload floor plans of your organization so employees can more easily view and select available spaces when they request workplace reservations.
 
-    Define arrival intervals and have employees schedule their arrivals. This helps avoid large gatherings or long queues at workplace locations such as the cafeteria, gym, and entry and exit gates.
+    Define arrival intervals for large gatherings or long queues. Define entry and exit gates where employees can schedule their arrivals.
 
 -   **Shift management**
 
@@ -78,7 +78,7 @@ The ServiceNow® Workplace Core application manages workplace locations, reserva
 
 In Workplace Core \[sn\_wsd\_core\] starting with version 2.19.0, the navigation path for Workplace Services Portal is not available in the application context search menu **All** &gt; **Workplace Core**. You can access the Workplace Service from the Employee Center portal home page. Select **Workplace Service**, **Site safety**. For more information, see [Workplace services on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-services-on-employee-center.md).
 
-Workplace Core customers using Workplace Core starting with version 2.18.1 can access Workplace services portal from **All** &gt; **Workplace Core** &gt; **Workplace service portal** &gt; **Workplace Service Portal Home**.
+Workplace Core users using Workplace Core starting with version 2.18.1 can access Workplace services portal from **All** &gt; **Workplace Core** &gt; **Workplace service portal** &gt; **Workplace Service Portal Home**.
 
 ## Use with other Workplace Service Delivery applications
 
@@ -89,7 +89,7 @@ All Safe Workplace suite applications are available in the [ServiceNow Store](ht
 -   **[Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-services-portal-wsd.md)**  
 The Workplace Service Portal is a self-service portal for employees, delivering workplace services from a central location. Employees can make reservations, view knowledge base articles, submit and review requests, and get help using virtual agent chat support.
 -   **[Workplace services on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/workplace-services-on-employee-center.md)**  
-Avail workplace-related services using the Employee Center portal. The Employee Center portal is a unified portal that brings all the employee-related services at one place.
+Access workplace-related services using the Employee Center portal, a unified portal that brings all employee-related services together in one place.
 -   **[Virtual Agent for Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/va-conversations-wsd.md)**  
 Workplace Service Delivery provides you with delivered conversations in Virtual Agent, which is an automated chatbot that enables employees to request services or raise inquiries. The Virtual Agent is available on the Employee Center where employees can find all their workplace-related information.
 

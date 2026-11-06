@@ -1,38 +1,64 @@
 ---
-title: Add or modify a beneficiary
-description: As an employee, you add a beneficiary to your benefit plan from the Employee Center.
+title: Add a beneficiary
+description: Add a beneficiary to a human resources profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/t\_CreateOrModifyABeneficiary.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Add or modify a beneficiary
+# Add a beneficiary
 
-As an employee, you add a beneficiary to your benefit plan from the Employee Center.
+Add a beneficiary to a human resources profile.
 
 ## Before you begin
 
-Role required: none
-
-## About this task
-
-Employees can request to add or modify a beneficiary to a benefit plan by submitting a request through the Employee Center.
-
-Alternatively, a manager can submit a tuition reimbursement request by opening an HR case: [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/search-hr-case.md).
+Role required: sn\_hr\_core.profile\_writer
 
 ## Procedure
 
-1.  From the Employee Center menu, navigate to **Human Resources** &gt; **Benefits** &gt; **Health and wellness**.
+1.  Navigate to the HR Beneficiary form either via the Beneficiaries module or an employee's HR profile:
 
-2.  Click the **Add Beneficiaries** request.
+2.  <table id="table_emg_jm5_w2c"><thead><tr><th>
 
-3.  Complete the form.
+To
+
+</th><th>
+
+Do this
+
+</th></tr></thead><tbody><tr><td>
+
+Beneficiaries module
+
+</td><td>
+
+1.  Go to **All** &gt; **HR Profile** &gt; **Beneficiaries**.
+2.  Select **New**.
+
+
+</td></tr><tr><td>
+
+Employee's HR Profile
+
+</td><td>
+
+1.  Go to **All** &gt; **HR Profiles**.
+2.  Select a profile. Be sure to select the HR profile number, not the employee name.
+
+\[Omitted image "hr-profile.png"\] Alt text: HR Profiles list showing employee information including profile numbers, names, departments, and job titles.
+
+3.  Scroll down to the related lists to the Beneficiaries module.
+4.  Select **New**.
+
+
+</td></tr></tbody>
+</table>3.  Complete the form.
 
     The fields you see depend on how the form is configured and what fields are selected to display.
 
@@ -133,9 +159,7 @@ Percentage
 Percentage amount of the benefit distributed to the beneficiary.
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
-
-    The system creates an HR case and assigns it to the configured HR person. View the status of your request from the **My Requests** tab.
+</table>4.  Select **Submit**.
 
 
 **Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)

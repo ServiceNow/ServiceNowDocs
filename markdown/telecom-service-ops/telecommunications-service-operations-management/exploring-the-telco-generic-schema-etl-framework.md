@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
@@ -18,7 +18,7 @@ The Telecom Discovery Builder framework ETL \(Extract, Transform, Load\) is a re
 
 The Telecom Discovery Builder framework ETL serves as a baseline data ingestion utility to handle telecom-specific configuration item \(CI\) data. It enables connector development teams to avoid building ETLs from scratch by offering a standardized transform logic that can be duplicated and customized for each connector. It provides a standardized, reusable foundation that promotes consistency across implementations.
 
-After the TSOM Core plugin is activated, the generic ETL is auto-provisioned and becomes available in the Integration Hub ETL Studio. You can reuse and adapt it to connector-specific needs.
+Once the TSOM Core plugin is activated, the generic ETL is auto-provisioned and becomes available in the Integration Hub ETL Studio. It is ready to be reused and adapted to connector-specific needs.
 
 ## Why and when to use the Telecom Discovery Builder framework
 

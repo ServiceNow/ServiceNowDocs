@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-insights-card.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Home page, Use, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -24,6 +24,9 @@ The following insights are displayed on the card:
 \[Omitted image "c360-insights.jpg"\] Alt text: Customer 360 insights
 
 You can configure variables such as tables, display fields, and query conditions. See [Configure the insights card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-insights-card.md) for details.
+
+-   **[Generate Telecom customer 360 insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-ai-insights.md)**  
+Generate customer health insights and recent customer issue insights for a customer or consumer account.
 
 **Parent Topic:**[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-home-page.md)
 

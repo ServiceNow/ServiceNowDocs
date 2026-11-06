@@ -7,7 +7,7 @@ release: australia
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: concept
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Compliance Case Management, Governance, Risk, and Compliance]
 ---

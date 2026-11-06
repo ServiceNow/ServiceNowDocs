@@ -7,7 +7,7 @@ release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Explore, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,7 +38,7 @@ As described in [Exploring the CSDM model](https://raw.githubusercontent.com/Ser
 
 -   **Build &amp; Integration domain**
 
-    Development teams use the tables in the Build &amp; Integration domain during the build effort \(systems development life cycle — AGILE DEVELOPMENT\) of digital products. The tables represent the logical development details of the enterprise applications \(digital products\) to be deployed and used by your organization. These are not operational CIs. For more information, see [Build &amp; Integration domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/build-domain.md).
+    Development teams use the tables in the Build &amp; Integration domain during the build effort \(systems development life cycle — Agile development\) of digital products. The tables represent the logical development details of the enterprise applications \(digital products\) to be deployed and used by your organization. These are not operational CIs. For more information, see [Build &amp; Integration domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/build-domain.md).
 
 -   **Service Delivery domain**
 
@@ -105,7 +105,7 @@ The Ideation &amp; Strategy domain represents the ideas, concepts, and considera
 -   **[Design &amp; Planning domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/design-domain.md)**  
 Enterprise architects and digital product owners work on the design and planning of digital products that your organization can either buy or build.
 -   **[Build &amp; Integration domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/build-domain.md)**  
-Development teams use the tables in the Build &amp; Integration domain during the build effort \(systems development life cycle — AGILE DEVELOPMENT\) of digital products. The tables represent the logical development details of the enterprise applications \(digital products\) to be deployed and used by your organization. These are not operational CIs.
+Development teams use the tables in the Build &amp; Integration domain during the build effort \(systems development life cycle — Agile development\) of digital products. The tables represent the logical development details of the enterprise applications \(digital products\) to be deployed and used by your organization. These are not operational CIs.
 -   **[Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md)**  
 The Service Delivery domain represents the overall end-to-end service delivery system that includes the infrastructure, technologies, integration patterns \(infrastructure, systems, data, processes, dependency models\), service delivery networks, and operational models. Together, these items deliver the services that conform to CSDM to internal and external users and organizations.
 -   **[Service Consumption domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md)**  

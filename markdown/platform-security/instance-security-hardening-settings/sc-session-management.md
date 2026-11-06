@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Hardening settings, Platform Security]
 ---
@@ -24,11 +24,11 @@ Use the **glide.ui.user\_cookie.max\_life\_span\_in\_days** property to set a ma
 Use a system property to exempt roles from active session timeout limits.
 -   **[Enable UserCookie version 3.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-usercookie-version-3-1.md)**  
 Manage the version of UserCookie that is enabled on your instance to secure the storage of the secret key in the source code.
--   **[Enforce password reset on api requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-password-reset-on-api-requests.md)**  
+-   **[Enforce password reset on API requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-password-reset-on-api-requests.md)**  
 Manage how the password reset functionality operates on your instance.
 -   **[Enable HTTP Only Cookie Flag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-http-only-cookie-flag.md)**  
 Use the **glide.cookies.http\_only** property to enable the HTTPOnly attribute for sensitive cookies.
--   **[Enable MID Server Governance Checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-mid-server-governance-checks.md)**  
+-   **[Enable MID Server governance checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-mid-server-governance-checks.md)**  
 Use an inactivity timeout on your MID Servers to reduce exposure to potential attackers.
 -   **[Invalidate Session After OAuth Token Expiration \[New in Security Center 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-invalidate-session-after-oauth-token-expiration.md)**  
 Use a system property to the secure value to prevent users from continuing to use a session via cookies after the OAuth token used to create the session expires.
@@ -43,21 +43,23 @@ Use the **glide.guest.active.session.life\_span** property to control the durati
 -   **[Minimize Concurrent Interactive Sessions with Limit Concurrent Sessions Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-glide-authenticate-limit-concurrent-interactive-sessions.md)**  
 Manage the number of interactive sessions on your instance.
 -   **[Limit integrations' active session life span](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-limit-integrations-active-session-life-span.md)**  
-The **glide.integrations.active.session.life\_span** property enforces max lifespan on active guest HTTP sessions irrespective of inactive timeout. The configured value is in minutes. A value of zero will disable timing out the active sessions.
--   **[Limit policy based session access mobile refresh token interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-limit-policy-based-session-access-mobile-refresh.md)**  
+Use the **glide.integrations.active.session.life\_span** property to enforce the maximum lifespan on active integration HTTP sessions, regardless of session inactivity.
+-   **[Limit the policy-based mobile refresh token interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-limit-policy-based-session-access-mobile-refresh.md)**  
 Use the **glide.authenticate.session\_access.mobile.refresh\_token\_interval** property to govern the length of time that must elapse before a mobile device user will be forced to re-authenticate.
 -   **[Limit UI active session life span](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-limit-ui-active-session-life-span.md)**  
 The **glide.ui.active.session.life\_span** property enforces max lifespan on active authenticated HTTP sessions irrespective of inactive timeout.
 -   **[Limit session length for high assurance sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-limit-session-length-for-high-assurance-sessions.md)**  
 Reduce the risk of account takeover in high assurance sessions by limiting session length
--   **[Proactively Invalidate Sessions After Defined Durations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-proactively-invalidate-inactive-sessions.md)**  
-The **glide.active.session.timeout.invalidate.session** property controls whether a timeout session is proactively invalidated before the Tomcat server.
+-   **[Proactively invalidate sessions after defined durations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-proactively-invalidate-inactive-sessions.md)**  
+The **glide.active.session.timeout.invalidate.session** property controls whether a timed-out session is proactively invalidated before the Tomcat server processes it.
+-   **[Require JWT trust verification for guest embedded sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-require-jwt-trust-verification-for-guest-embedded-sessions.md)**  
+The **glide.embedded.session.trust.verification.enabled** property determines whether guest embeddable sessions require JSON Web Tokens \(JWT\) validation for third-party origin verification.
 -   **[Rotate HTTP session identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-rotate-http-session-identifiers.md)**  
 Use the **glide.ui.rotate\_sessions** property to enable rotation of the HTTP session identifiers to reduce security vulnerabilities.
 -   **[Minimize concurrent interactive session quantity \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-minimize-concurrent-interactive-session-quantity.md)**  
 Use this property with the Limit Concurrent Sessions plugin to control the number of active sessions that can be opened by a user.
 -   **[Minimize session activity timeout duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-session-activity-timeout.md)**  
-Use the **glide.ui.session\_timeout** property to designate, in minutes, activity timeout value.
+Use the **glide.ui.session\_timeout** property to set the session activity timeout duration in minutes.
 -   **[Minimize session window timeout duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-session-window-timeout.md)**  
 Use the **glide.ui.user\_cookie.life\_span\_in\_days** property to set the expiration time period for the Remember Me cookie. The default value is 15 days and the maximum cap is at 30 days.
 

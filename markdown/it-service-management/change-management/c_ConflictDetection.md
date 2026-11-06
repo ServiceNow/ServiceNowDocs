@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
@@ -26,21 +26,21 @@ Conflict detection identifies conflicts for any of the following reasons:
 -   A parent or child of the CI is in a blackout window.
 -   The CI is assigned to a person already scheduled at the given date and time.
 
-Using the **change.conflict.useprogressworker** system property, the conflict detection process can now be managed in two ways. By default, the value of this property is set as false, and conflict detection is executed using the Change Management Worker table and the Change - Conflict Detection flow \(that runs as a System user\).
+Using the **change.conflict.useprogressworker** system property, you can manage the conflict detection process in two ways. By default, this property is set to false. Conflict detection then runs through the Change Management Worker \[chg\_mgt\_worker\] table and the Change - Conflict Detection flow \(which runs as a System user\).
 
-If you set the value of this property as true, conflict detection uses Progress Workers instead, as it used previously.
+If you set this property to true, conflict detection uses Progress Workers instead.
 
 You can also manually execute conflict detection. For more information, see [Detect conflicts manually and review conflict details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_RunManualConflictDetection.md).
 
 ## Conflict detection process
 
-Conflict detection can run automatically when you provide values for the Configuration item, planned start and end date fields in the change form. It can also run when the values in any one of these fields are updated, or when values for these fields are available and the state of the change request is updated.
+Conflict detection can run automatically when you provide values for the Configuration item, planned start and end date fields in the change form. It can also run when any of these field values are updated. It runs as well when these field values are available and the change request state is updated.
 
-When Conflicts are identified, the conflict status and conflict last run fields are updated to reflect the outcome. Conflicts can be reviewed in the Conflict section of the change request form.
+When conflict detection identifies conflicts, it updates the conflict status and conflict last run fields. You can review conflicts in the Conflict section of the Change Request form.
 
 ## Conflict detection process using flows
 
-When the value in the **change.conflict.useprogressworker** system property is set to false, the Change Management Worker \(chg\_mgt\_worker\) table and the Change - Conflict Detection flow \(that runs as a System user\) can be used to track the execution of conflict detection for a change request. You can view the associated Change - Conflict Detection flow by selecting Show Flows on the change form.
+When the **change.conflict.useprogressworker** system property is set to false, conflict detection runs through the Change Management Worker \[chg\_mgt\_worker\] table and the Change - Conflict Detection flow. The flow runs as a System user. To view the associated flow, select **Show Flows** on the Change Request form.
 
 ## Conflict Calendar
 
@@ -50,8 +50,10 @@ You can choose to display a conflict calendar to view identified scheduling conf
 Detect change conflicts by setting Change Management conflict analysis properties. Use the resulting information to calculate conflicts for change requests and review and modify the change to eliminate conflicts.
 -   **[Create blackout and maintenance schedules in Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateBlkoutMaintSched.md)**  
 Use the Blackout and Maintenance windows to schedule a change. Blackout windows specify times during which normal change activity should not be scheduled. Maintenance windows specify times during which change requests should be scheduled. For example, create a blackout schedule for code freezes at the end of the year.
+-   **[Schedule types in conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/schedule-types-conflict-detection.md)**  
+Conflict detection uses maintenance, blackout, and information schedules to evaluate when change requests can be implemented. Each schedule type supports a category and optional ownership fields.
 -   **[Configure a change request to monitor outside maintenance schedule conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/monitor-maintenance-schedule.md)**  
-When a change request is configured to display the conflicts that are outside the maintenance schedule, conflict detection indicates whether the planned start and end dates occur outside the maintenance window or not. By reviewing the conflicts that are detected, you can modify the change schedule.
+Configure a change request to detect conflicts outside the maintenance window. Conflict detection flags planned start and end dates that fall outside the maintenance schedule, so you can modify the change schedule accordingly.
 -   **[Conflict calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-conflict-calendar.md)**  
 The conflict calendar graphically represents the potential scheduling conflicts for a change request. Conflicts are identified as active change requests, blackout schedules, and changes scheduled outside maintenance schedules. Use the **Scheduling Assistant** to resolve any schedule conflicts.
 -   **[Enable automatic change conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_RunAutomatedConflictDetection.md)**  

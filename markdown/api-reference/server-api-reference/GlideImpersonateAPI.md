@@ -7,7 +7,7 @@ release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -18,7 +18,10 @@ The GlideImpersonate API enables administrators to pose as another authenticated
 
 Use this API when you need to act as another user so to test functionality within your application. When impersonating another user, the administrator has access to exactly what the impersonated user would have access to in the system, including the same menus and modules.
 
-**Note:** The system records anything the administrator does while impersonating another user as having been done by that user.
+**Note:**
+
+-   GlideImpersonate API is recommended to be used when impersonating a user inside a background transaction like scheduled jobs.
+-   The system records anything the administrator does while impersonating another user as having been done by that user.
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -55,7 +55,7 @@ A cryptographic manager configures the fields or applications that are to be enc
 -   From the module access policy, set the role for encryption access. Specify the role to the user adding employee documents. Users with this role can access encrypted documents. See [Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-module-access-policy.md).
 -   Employees can view their own documents when HR Service Delivery is licensed, activated, and the document type allows employee access. The role specified in the encryption module is not required for employees to view their own documents that are encrypted. [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-doc-management-config.md) To configure the field or attachment for encryption, see [Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption-key-management.md).
 
-**Note:** Documents that were previously encrypted using encryption contexts have the same access using encryption modules in Australia.
+**Note:** Documents that were previously encrypted using encryption contexts have the same access using encryption modules in Brazil.
 
 For details on Field Encryption see, [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption.md).
 

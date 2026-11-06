@@ -1,20 +1,20 @@
 ---
 title: Configure HCM AI agents from the HR Service Delivery AI Agent Collection
-description: Enable your employees to place requests to the Human Capital Management \(HCM\) system using the ServiceNow Otto for HR Service Delivery \(HRSD\) agent collection.
+description: Enable employees to place requests to the Human Capital Management \(HCM\) system using the ServiceNow Otto for HR Service Delivery \(HRSD\) agent collection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/configure-hcm-agents.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Configure HCM AI agents from the HR Service Delivery AI Agent Collection
 
-Enable your employees to place requests to the Human Capital Management \(HCM\) system using the ServiceNow Otto for HR Service Delivery \(HRSD\) agent collection.
+Enable employees to place requests to the Human Capital Management \(HCM\) system using the ServiceNow Otto for HR Service Delivery \(HRSD\) agent collection.
 
 ## Before you begin
 

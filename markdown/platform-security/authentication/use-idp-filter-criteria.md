@@ -1,20 +1,20 @@
 ---
-title: Use Identity Provider Attribute as Filter Criteria for SAML
-description: Use the Identity Provider \(IDP\) attribute from the Security Assertion Markup Language \(SAML\) response as a filter criteria for authentication policy.
+title: Use identity provider attribute as filter criteria for SAML
+description: Use the Identity Provider \(IDP\) attribute from the Security Assertion Markup Language \(SAML\) response as a filter criterion for authentication policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/use-idp-filter-criteria.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Attributes for SAML, Identity Provider Attributes Filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
+breadcrumb: [Attributes for SAML, Identity provider attributes filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
 ---
 
-# Use Identity Provider Attribute as Filter Criteria for SAML
+# Use identity provider attribute as filter criteria for SAML
 
-Use the Identity Provider \(IDP\) attribute from the Security Assertion Markup Language \(SAML\) response as a filter criteria for authentication policy.
+Use the Identity Provider \(IDP\) attribute from the Security Assertion Markup Language \(SAML\) response as a filter criterion for authentication policy.
 
 ## Before you begin
 
@@ -28,15 +28,15 @@ The Okta IDP attributes are as displayed in the following screenshot. You should
 
 \[Omitted image "idp-attributes-okta.png"\] Alt text: Okta Idp attributes
 
-**Note:** Policies in the post-authorization, MFA, Zero Trust - Policy based session access execute after the users enter the credentials or SSO response.
+**Note:** Policies in the post-authentication, MFA, Zero Trust - Policy based session access execute after the users enter the credentials or SSO response.
 
 ## Procedure
 
-1.  Use of IDP attribute in Post Authentication Policy Context.
+1.  Use the IDP attribute in Post Authentication Policy Context.
 
     Example: Configuring to enable logins from the Okta IDP attributes if the device is trusted.
 
-    1.  Navigate to **All** &gt; **Adaptive Authentication** &gt; **Auth Policy Contexts** &gt; **Post Authentication Policy Context.**.
+    1.  Navigate to **All** &gt; **Adaptive Authentication** &gt; **Auth Policy Contexts** &gt; **Post Authentication Policy Context**.
 
     2.  Select **Allow Policy** and open the policy record.
 
@@ -54,11 +54,11 @@ The Okta IDP attributes are as displayed in the following screenshot. You should
 
         For more information on how to create Post Authentication Context with Policy and Condition, see [Post-authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/post-auth-context.md).
 
-2.  Use of IDP attribute in MFA Policy Context.
+2.  Use the IDP attribute in MFA Policy Context.
 
     Example: Configuring to enable MFA from the Okta IDP attributes if the device isn’t trusted.
 
-    1.  Navigate to **All** &gt; **Adaptive Authentication** &gt; **Auth Policy Contexts** &gt; **MFA Authentication Policy Context.**.
+    1.  Navigate to **All** &gt; **Adaptive Authentication** &gt; **Auth Policy Contexts** &gt; **MFA Authentication Policy Context**.
 
     2.  In the Policy Input, create the Policy Input and Policy Condition.
 
@@ -70,11 +70,11 @@ The Okta IDP attributes are as displayed in the following screenshot. You should
 
             \[Omitted image "mfa-idp-filter.png"\] Alt text: MFA IDP Filter condition
 
-        Based on this configuration, when the device is not-trusted from the Okta \(IdP\), then the user shown a second factor authentication to log in to the instance.
+        Based on this configuration, when the device is not-trusted from the Okta \(IdP\), then the user is shown a second factor authentication to log in to the instance.
 
         For more information on how to create MFA Context with Policy and Condition, see [Multi-factor Authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-auth-context.md).
 
-3.  Use of IDP attribute in Zero Trust - Policy based session access.
+3.  Use the IDP attribute in Zero Trust - Policy based session access.
 
     Example: Configuring to reduce the privilege of `Itil` role from Okta IDP attributes if the device isn’t trusted.
 
@@ -92,7 +92,7 @@ The Okta IDP attributes are as displayed in the following screenshot. You should
 
             \[Omitted image "zta-idp-filter-condition.png"\] Alt text: Session Access - IDP condition
 
-        Based on this configuration, when the `itil` user using a device that is not-trusted from the Okta \(IdP\), then the user's privileges are reduced for the logged in session.
+        Based on this configuration, when the `itil` user using a device that is not-trusted from the Okta \(IdP\), then the user's privileges are reduced for the logged-in session.
 
         For more information on how to create Zero Trust - Policy based session access with Policy and Condition, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/session-access.md).
 

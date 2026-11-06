@@ -7,7 +7,7 @@ release: australia
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a monetary benefit plan for an epic, Create an epic in Agile Development 2.0, Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ Role required: scrum\_master, scrum\_product\_owner, or scrum\_admin
 
 8.  On the Monetary Benefit Plan Breakdown form, view and update the enabled fields.
 
-<table id="choicetable_os3_4p1_dcb"><thead><tr><th align="left" id="d242066e131">
+<table id="choicetable_os3_4p1_dcb"><thead><tr><th align="left" id="d251108e131">
 
 Field
 
-</th><th align="left" id="d242066e134">
+</th><th align="left" id="d251108e134">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d242066e140">
+</th></tr></thead><tbody><tr><td id="d251108e140">
 
 **Task**
 
@@ -54,7 +54,7 @@ Description
 
 Task to which the benefit plan breakdown belongs.
 
-</td></tr><tr><td id="d242066e149">
+</td></tr><tr><td id="d251108e149">
 
 **Portfolio**
 
@@ -62,7 +62,7 @@ Task to which the benefit plan breakdown belongs.
 
 Portfolio to which the benefit plan breakdown belongs.
 
-</td></tr><tr><td id="d242066e158">
+</td></tr><tr><td id="d251108e158">
 
 **Entered currency**
 
@@ -70,7 +70,7 @@ Portfolio to which the benefit plan breakdown belongs.
 
 Currency specified in the benefit plan.
 
-</td></tr><tr><td id="d242066e167">
+</td></tr><tr><td id="d251108e167">
 
 **Exchange rate**
 
@@ -78,7 +78,7 @@ Currency specified in the benefit plan.
 
 Rate in effect for the period corresponding to the benefit plan breakdown. When the period corresponding to the benefit plan break down has multiple rates, the rate in effect on the first date of that period is used. Exchange rate is used to convert the entered benefit into the functional benefit. It is obtained from the itfm\_fx\_rate \[budget\_reference\_rates\] table.
 
-</td></tr><tr><td id="d242066e180">
+</td></tr><tr><td id="d251108e180">
 
 **Actual benefit**
 
@@ -86,7 +86,7 @@ Rate in effect for the period corresponding to the benefit plan breakdown. When 
 
 Actual benefit that is incurred from the epic.
 
-</td></tr><tr><td id="d242066e189">
+</td></tr><tr><td id="d251108e189">
 
 **Benefit plan**
 
@@ -94,7 +94,7 @@ Actual benefit that is incurred from the epic.
 
 Benefit plan to which the benefit plan breakdown belongs.
 
-</td></tr><tr><td id="d242066e198">
+</td></tr><tr><td id="d251108e198">
 
 **Fiscal period**
 
@@ -102,7 +102,7 @@ Benefit plan to which the benefit plan breakdown belongs.
 
 Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FiscalCalendar.md).
 
-</td></tr><tr><td id="d242066e211">
+</td></tr><tr><td id="d251108e211">
 
 **Entered benefit**
 
@@ -110,7 +110,7 @@ Fiscals generated at the period level. For information on periods, see [fiscal c
 
 Benefit in entered currency.
 
-</td></tr><tr><td id="d242066e220">
+</td></tr><tr><td id="d251108e220">
 
 **Functional benefit**
 
@@ -118,7 +118,7 @@ Benefit in entered currency.
 
 Functional benefit obtained by multiplying the exchange rate with the entered benefit.
 
-</td></tr><tr><td id="d242066e229">
+</td></tr><tr><td id="d251108e229">
 
 **Exchange rate date**
 

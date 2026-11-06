@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/activity-stream-configurable-workspace.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Learn about the components in UI Builder that enable admins to create and custom
 
 The Activity stream helps agents stay informed by displaying a running history of updates and communications within a Configurable Workspace record like field changes, comments, work notes, and emails.
 
-\[Omitted image "configurable-workspace-activity-stream-record.png"\] Alt text: Standard record page screenshot with the Activity stream highlighted
+\[Omitted image "configurable-workspace-activity-stream-record.png"\] Alt text: Activity stream on a Configurable Workspace record
 
 ## Activity Stream component
 

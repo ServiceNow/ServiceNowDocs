@@ -7,7 +7,7 @@ release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [question bank, assessment questions, question repository, question lifecycle, assessment templates]
 breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
@@ -21,13 +21,11 @@ A question bank is a centralized repository for creating, managing, and reusing 
 
 The question bank supports the same question types as assessment templates and adds dedicated user roles and a publishing workflow for managing questions independently of any single template. The question bank hub is the central landing page within the Assessment Workspace. From this hub, you can access every question bank that you have access to, create question banks, and manage the question lifecycle across your organization. You can also migrate a classic question bank or an existing assessment template into a question bank. See [Migrate a classic question bank or assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-migrate-question-bank.md).
 
-**Note:** This feature is available starting with Australia Patch 2.
-
 \[Omitted image "question-bank-hub.png"\] Alt text: Question bank hub listing question banks with their template name, description, purposes, draft and published question counts, and a Create question bank button to create a question bank.
 
 ## Access to question banks
 
-Access to a question bank depends on both a base question bank role and a category role. A base question bank role, such as **question\_bank\_manager** or **question\_bank\_reader**, lets you create or view question banks in general. You also need one of the roles configured in that category's **Question bank category roles** field, which controls access to question banks associated with that specific category. For more information, see [Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md) and [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+Access to a question bank depends on both a base role and a category role. To create or view question banks associated with a category, a base question bank role is required. You also need one of the roles configured in that category's **QB category roles** field. Access to a question bank depends on both a base question bank role and a category role. A base question bank role, such as **question\_bank\_manager** or **question\_bank\_reader**, lets you create or view question banks in general. You also need one of the roles configured in that category's **Question bank category roles** field, which controls access to question banks associated with that specific category. For more information, see [Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md) and [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 
 ## Question lifecycle
 

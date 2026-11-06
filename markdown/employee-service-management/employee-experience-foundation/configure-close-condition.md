@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Import messages from Microsoft Teams to ServiceNow, HR Service Delivery integration, Microsoft Teams Integration for Employee Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Import messages from Microsoft Teams to ServiceNow, HR Service Delivery integration, Microsoft Teams Integration for Employee Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure close condition
@@ -33,6 +33,8 @@ Alternately, to adhere to platform standards, consider adding an active field to
 1.  Navigate to **All** &gt; **ServiceNow for Microsoft 365** &gt; **Chat Administration** &gt; **Close Conditions**.
 
 2.  Click **New**.
+
+    \[Omitted image "configure-close-condition.png"\] Alt text: Configure close condition
 
 3.  On the form, fill in the fields.
 

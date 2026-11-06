@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -167,7 +167,7 @@ Credential alias
 
 </td><td>
 
-Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow. You can assign different credentials to each occurrence of the same activity type.
+Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow. You can also assign different credentials to each occurrence of the same activity type.
 
 </td></tr><tr><td>
 

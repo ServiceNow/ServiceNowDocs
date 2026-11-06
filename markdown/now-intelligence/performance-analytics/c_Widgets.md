@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -71,7 +71,7 @@ Upgraded instances cannot automatically follow the rules introduced in Quebec be
 
 ## Data tables for widget accessibility
 
-If under Preferences you have enabled **Accessibility** &gt; **Enable data table for charts and graphs**, tables replace the graphical charts for all Performance Analytics widgets on your instance. Workspace widgets are an exception, as they show both charts and tables. For more information about accessibility and widgets, including how to replace colors with patterns, see [Accessibility options on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/analytics-accessibility-options.md).
+If under Preferences you have enabled **Accessibility** &gt; **Enable data table for charts and graphs**, tables replace the graphical charts for all Performance Analytics widgets on your instance. Workspace widgets are an exception, as they show both charts and tables. For more information about accessibility and widgets, including how to replace colors with patterns, see [Accessibility options on Core UI dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/analytics-accessibility-options.md).
 
 \[Omitted image "widget-accessibility-table.png"\] Alt text: Workbench widget with the Data tables accessibility preference activated, showing both a chart and a table.
 

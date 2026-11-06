@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/tpsm-about.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -22,8 +22,6 @@ Technology providers often operate with fragmented, legacy architectures and sil
 -   Agents spend excessive time on repetitive case management, resulting in slower resolutions and inconsistent updates.
 
 These inefficiencies reduce operational performance, increase customer dissatisfaction, and raise churn risk. Addressing these challenges requires an integrated, modern architecture that enables automation, real-time insights, and seamless customer engagement.
-
-\[Omitted image "tpsm-workflow-mmasset0021666.png"\] Alt text: TPSM workflow diagram showing the process flow.
 
 ## TPSM benefits
 

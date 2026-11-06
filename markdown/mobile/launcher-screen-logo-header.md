@@ -23,7 +23,6 @@ Role required: admin
 -   You must be using one of the following ServiceNow patches:
     -   Brazil Patch 1 and later
     -   Australia Patch 7 and later
-    -   Zurich Patch 13 and later
 
 ## About this task
 
@@ -45,7 +44,7 @@ For the images used in the logo, consider the following:
 
 3.  Complete the fields in the launcher screen table as needed.
 
-    The mandsatory fields for this feature are detailed after the table.
+    The mandatory fields for this feature are detailed after the table.
 
 <table id="table_ob2_jtl_tkc"><thead><tr><th>
 

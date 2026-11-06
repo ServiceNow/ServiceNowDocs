@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Script bot response control
@@ -73,18 +73,11 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 |Channel|Support|Constraints|
 |-------|-------|-----------|
-|Web UI|Supported|None|
-|Mobile UI|Supported|None|
-|ServiceNow Otto panel|Not supported|Not applicable|
 |Microsoft Teams|Supported|None|
 |Slack|Supported|None|
-|Workplace|Supported|None|
-|Facebook Messenger|Not supported|Not applicable|
 |SMS Twilio|Not supported|Not applicable|
-|LINE|Not supported|Not applicable|
 |WhatsApp|Not supported|Not applicable|
-|Apple Messages for Business|Not supported|Not applicable|
-|Alexa \(Voice\)|Partial support|Support depends on the type of response. For example, images and links may only be available on devices with screens. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
+|Google Chat|Supported|None|
 
 ## Example script
 

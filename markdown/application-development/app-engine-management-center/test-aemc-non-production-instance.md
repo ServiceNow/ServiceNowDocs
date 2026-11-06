@@ -7,9 +7,9 @@ release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure AEMC, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configure AEMC, Configure, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Test App Engine Management Center functionality on a non-production instance
@@ -36,4 +36,6 @@ To test AEMC and pipelines before you proceed to a production environment, pick 
 
 4.  When you're done testing, change the **Instance type** of the non-production pipeline environment record to the correct type of instance.
 
+
+**Parent Topic:**[Configure the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/configure-aemc.md)
 

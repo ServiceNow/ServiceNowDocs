@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-07-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workflow pause utility, Workflow administration, Classic Workflow, Build workflows]
 ---

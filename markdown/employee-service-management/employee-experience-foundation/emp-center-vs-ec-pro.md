@@ -7,10 +7,10 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [employee center vs employee center pro, ec vs ec pro, employee center employee center pro, difference between employee center and employee center pro, employee center pro]
-breadcrumb: [Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Exploring Employee Center Pro

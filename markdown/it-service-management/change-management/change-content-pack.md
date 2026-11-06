@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Change Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Platform Analytics Solutions and in-form analytics contain preconfigured dashboa
 
 **Important:**
 
-Starting in Xanadu release, the Core UI Change Management dashboards are deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change.md) to view the information about the Change requests in one place.
+Starting in Xanadu release, the Core UI Change Management dashboards are deprecated. You can use Platform Analytics [Change dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change.md) to view the information about the Change requests in one place.
 
 ## Platform Analytics Solutions
 

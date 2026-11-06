@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/install-guided-decisions-exp-app-new.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -18,6 +18,8 @@ You can install the Guided Decisions Experience application \(sn\_ga\_exp\) if y
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Guided Decisions Experience](https://store.servicenow.com/sn_appstore_store.do#!/store/application/d603ab3a77070010d7159b71a910614d) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+
+**Note:** The Guided Decisions Experience\[com.snc.guided\_decisions\_playbook\_experience\] plugin is planned for deprecation in the Denmark release. Existing customers who already have the plugin installed can continue to access and migrate their Guided Decision Trees to Guided Decision Playbooks. However, new customers, or customers who have not previously installed the Guided Decisions Experience plugin, must create new decision flows using Guided Decision Playbooks, as Guided Decisions is no longer available for new installations. For migration guidance, see the [Guided Decisions Experience Deprecation: Migrating Guided Decision Trees to Guided Decision Playbooks](https://support.servicenow.com/kb?sys_kb_id=4c606e1847030f1c3b05ff48436d434d&id=kb_article_view) KB article.
 
 Role required: admin
 

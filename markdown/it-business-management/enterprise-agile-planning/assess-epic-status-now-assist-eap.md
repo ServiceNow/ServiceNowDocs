@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [epic status assessment, epic health, ServiceNow Otto, Enterprise Agile Planning]
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]

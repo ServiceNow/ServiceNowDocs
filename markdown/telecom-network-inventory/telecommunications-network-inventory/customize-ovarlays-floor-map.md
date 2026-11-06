@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Overlays on floor map, Configure, Telecommunications Network Inventory]
 ---
@@ -40,15 +40,15 @@ You can edit the overlay option in the floor map by configuring the decision tab
 
 4.  Do one of the following.
 
-<table id="choicetable_tyg_2bt_nfc"><thead><tr><th align="left" id="d43940e116">
+<table id="choicetable_tyg_2bt_nfc"><thead><tr><th align="left" id="d44118e116">
 
 Action
 
-</th><th align="left" id="d43940e119">
+</th><th align="left" id="d44118e119">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d43940e125">
+</th></tr></thead><tbody><tr><td id="d44118e125">
 
 **Add a new overlay**
 
@@ -62,7 +62,7 @@ Details
 6.  In the Condition section, add the metric values and color code.
 
 
-</td></tr><tr><td id="d43940e174">
+</td></tr><tr><td id="d44118e174">
 
 **Edit an existing overlay**
 
@@ -74,7 +74,7 @@ Details
 4.  In the Condition section, edit the metric values and color code.
 
 
-</td></tr><tr><td id="d43940e207">
+</td></tr><tr><td id="d44118e207">
 
 **Delete an overlay**
 

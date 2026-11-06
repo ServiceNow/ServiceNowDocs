@@ -7,8 +7,8 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-06-17"
-reading_time_minutes: 9
+last_updated: "2026-11-01"
+reading_time_minutes: 8
 breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -113,7 +113,7 @@ For more information, see:
 
 ## Choosing methods for desired business outcomes
 
-Choosing the right discovery methods at the cloud metadata and OS layers for your desired business outcomes is essential for optimizing your configuration management strategy and achieving operational goals.
+Choosing the right discovery methods at the cloud metadata and OS layers is essential for your configuration management strategy. Select methods that align with your desired business outcomes and operational goals.
 
 Cloud metadata layer discovery methods support the following business outcomes:
 
@@ -140,5 +140,5 @@ OS layer discovery methods support the following business outcomes:
 
 Discovery Admin Workspace provides a centralized location for managing and monitoring discovery operations, including performance monitoring, issue diagnosis, and maintaining configuration accuracy. From tracking schedules and diagnosing errors to tuning configurations and accessing insights, Discovery Admin Workspace integrates key tools to improve efficiency and visibility. You can identify critical tasks, manage discovery processes, and resolve issues with enhanced diagnostics and reporting. For more information, see [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace.md).
 
-If you have Cloud Account Management \(CAM\) within Cloud Workspace, you can use CAM to access your cloud account and resource inventory through the Cloud Asset Explorer, Cloud Compliance, and Cloud Accounts dashboards. Cloud Workspace provides comprehensive visibility into cloud accounts and assets across providers, enabling you to track ownership, monitor account trends, and promote regulatory compliance. For more information, see [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/cam-landing.md).
+If you have Cloud Account Management \(CAM\) within Cloud Workspace, you can use CAM to access your cloud account and resource inventory through the Cloud Asset Explorer, Cloud Compliance, and Cloud Accounts dashboards. Cloud Workspace provides visibility into cloud accounts and assets across providers. Use it to track ownership, monitor account trends, and promote regulatory compliance. For more information, see [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/cam-landing.md).
 

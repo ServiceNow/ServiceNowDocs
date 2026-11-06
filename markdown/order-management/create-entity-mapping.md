@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-entity-mapping.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure Lead to Cash Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Install and configure CRM Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create an entity mapping
@@ -54,5 +54,5 @@ Role required: admin
 
 [Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-foundation.md)
 
-[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)
+[CRM Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)
 

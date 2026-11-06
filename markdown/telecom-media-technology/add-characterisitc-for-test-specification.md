@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/add-characterisitc-for-test-specification.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up test definitions, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Setting up test definitions, Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Define a characteristic for the test definition
@@ -65,6 +65,15 @@ Test definition
 Auto-populated name of the test definition for which you’re defining the characteristics.
 
 </td></tr></tbody>
-</table>5.  Select **Submit**.
+</table>    **Note:** A characteristic belongs to either a test definition or a test group, not both. To define a characteristic for a test group, see [Define a characteristic for a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/define-characteristic-for-test-group.md).
 
+5.  Select **Submit**.
+
+
+**Related topics**  
+
+
+[Test definitions in Service Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/test-definition-stm.md)
+
+[Test groups in Service Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/test-group-stm.md)
 

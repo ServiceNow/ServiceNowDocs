@@ -7,9 +7,9 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Legacy: Incident SLA Management Platform Analytics Solutions, Reporting incidents, Incident Management, IT Service Management]
+breadcrumb: [Legacy: Incident SLA Management Platform Analytics Solutions, Incident reporting, Incident Management, IT Service Management]
 ---
 
 # Legacy: Incident SLA Management dashboard
@@ -22,7 +22,7 @@ Starting in Xanadu release, the Incident SLA Management dashboard is deprecated.
 
 The dashboard title indicates that it is inactive because you activate the solution after configuration and data collection.
 
-\[Omitted image "image.incident-sla-management"\] Alt text: Animated tour of the tabs of the Incident SLA Management dashboard
+\[Omitted image "incident-sla-management.gif"\] Alt text: Animated tour of the tabs of the Incident SLA Management dashboard
 
 ## End user and roles
 

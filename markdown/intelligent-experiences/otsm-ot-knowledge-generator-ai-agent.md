@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Operational Technology Service Management AI agents, Operational Technology Service Management \(OTSM\), AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Operational Technology Service Management AI agents, Operational Technology Service Management \(OTSM\), AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # OT knowledge generator AI agent

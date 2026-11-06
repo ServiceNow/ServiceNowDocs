@@ -1,49 +1,51 @@
 ---
 title: GRC Risk Workspace
-description: Starting with version 13.0.5, the GRC Risk Workspace provides a new and simplified user experience with a single-pane view. In the workspace, you can perform the same functions as the classic environment, but with more intuitive functionality. These functions include risk assessments, risk events processing, and so on.
+description: The GRC Risk Workspace provides a simplified, single-pane user experience. In the workspace, you can perform the same functions as the classic environment, including risk assessments and risk event processing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/risk-workspace.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-04-28"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Explore, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # GRC Risk Workspace
 
-Starting with version 13.0.5, the GRC Risk Workspace provides a new and simplified user experience with a single-pane view. In the workspace, you can perform the same functions as the classic environment, but with more intuitive functionality. These functions include risk assessments, risk events processing, and so on.
+The GRC Risk Workspace provides a simplified, single-pane user experience. In the workspace, you can perform the same functions as the classic environment, including risk assessments and risk event processing.
 
-The Risk Workspace is highly configurable and role-driven. Being role-driven means that the Risk Workspace is customized or unique for each user or role in your organization. In the workspace, different users with specific roles can perform different functions and have views that differ from each other. The workspace also reduces the number of apps that the users must install to utilize the Risk Management application. For example, if you want to manage your IT risks, you must install only one application. The workspace makes the management and installations of apps easier. To use the Risk Workspace, you must install and activate the **GRC: Risk Management workspace** \(com.sn\_risk\_workspace\) plugin.
+The Risk Workspace is highly configurable and role-driven. Being role-driven means that the Risk Workspace is customized or unique for each user or role in your organization. In the workspace, different users with specific roles can perform different functions and have views that differ from each other. The workspace also reduces the number of apps that the users must install to use the Risk Management application. For example, if you need to manage your IT risks, you must install only one application. The workspace simplifies the management and installation of apps. To use the Risk Workspace, activate the GRC: Risk Management workspace plugin \(com.sn\_risk\_workspace\).
 
-The starting point in the Risk Workspace is the Home page \[Omitted image "homepage\_risk\_workspace.jpg"\] Alt text: Home page button..
+The starting point in the Risk Workspace is the Home page \[Omitted image "homepage\_risk\_workspace.jpg"\] Alt text:.
 
-The Home pages show you the complete view of the risk status across your organization. Some of the key items that you can see are the key risk indicator \(KRI\) breaches, the risk heatmaps, the risk classification and breakdown, entities at the highest risk and so on.
+The Home pages show you the complete view of the risk status across your organization. Key items include KRI breaches, risk heatmaps, risk classification and breakdown, and entities at the highest risk.
 
 The Home page offers the following benefits:
 
 -   Provides a different view for each role.
--   Is designed for the specific responsibilities of each role.
--   Shows the day-to-day tasks for each role depending on the user. For example, the Home page for an Operational Risk Manager differs from that of the Home page of the IT Risk Manager.
--   Displays the key tasks assigned to you and your group. This makes it easier to get a complete view of your actionable tasks. For more information on the new user experience for Advanced Risk Assessments, see [Advanced Risk Assessments in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/ara-in-ws.md).
+-   Addresses the specific responsibilities of each role.
+-   Shows the day-to-day tasks for each role depending on the user. For example, the Home page for an operational risk manager differs from that of an IT risk manager.
+-   Displays the key tasks assigned to you and your group, providing a complete view of actionable tasks. For more information about the user experience for Advanced Risk Assessments, see [Advanced Risk Assessments in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/ara-in-ws.md).
 -   Shows the risk profile for the top entities. This consolidated view enables easier reporting.
--   Enables customization to suit your needs. For example, you can configure your own color codes for heatmaps and reports. For more information, see [Operational risk heatmap for Advanced Risk Assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-heatmaps-in-ws.md)
--   Provides quick links for performing key tasks such as scheduling risk assessments, creating new key risk indicators, and so on.
+-   Enables customization to suit your needs. For example, you can configure your own color codes for heatmaps and reports. For more information, see [Operational risk heatmap for Advanced Risk Assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-heatmaps-in-ws.md).
+-   Provides quick links for performing key tasks such as scheduling risk assessments, creating key risk indicators.
 -   Provides data in a way that you can select and view the details.
 -   Shows the classic risk assessment scores if the Advanced Risk application is not enabled.
 
+
+
 ## Roles and user enhancements in the Risk Workspace
 
-The roles for the Risk Workspace are the Operational Risk Manager and IT Risk Manager. See the following sections for the description of each role, its responsibilities, and its tasks.
+The roles for the Risk Workspace are the operational risk manager and IT risk manager. See the following sections for the description of each role, its responsibilities, and its tasks.
 
-**Note:** Because the roles in your organization might be different from what is presented here, use these roles as references or models.
+**Note:** Because the roles in your organization might differ from what is presented here, use these roles as references or models.
 
-Multiple enhancements have also been made to the user experience in the Risk Workspace. Each enhancement is described in detail in the subsequent sections.
+Multiple enhancements have also been made to the user experience in the Risk Workspace. Each enhancement is described in detail in the following sections.
 
 -   **[Risk Workspace for the operational risk manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-workspace-operational-risk.md)**  
-Operational risk managers manage operational risks such as losses due to errors, breaches, or damages that are caused by people, internal processes, systems, or external events. Operational risks range from the small, such as the risk of loss due to minor human errors, to the large, such as the risk of bankruptcy due to serious fraud.
+Operational risk managers manage operational risks such as losses due to errors, breaches, or damages that are caused by people, internal processes, systems, or external events. Operational risks range from minor losses due to human errors to major losses such as bankruptcy due to serious fraud.
 -   **[Risk Workspace for the business operational risk manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/business-op-risk-manager.md)**  
 Business operational risk managers are the first lines of defense for each individual line of business. They are responsible to manage the risk posture of their specific business units.
 -   **[Risk Workspace for the IT risk manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-workspace-for-it-risk-manager.md)**  

@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Debugging scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Debugging classifications

@@ -7,7 +7,7 @@ release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Proactive Triggers reference, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---
@@ -27,6 +27,8 @@ Domain separation is supported for Proactive Triggers. Domain separation enables
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+
+## Overview
 
 The Proactive Triggers rich text pop-up messages provide users with actions according to real-time Proactive Triggers data. Domain separation is enabled and supported at the basic level.
 

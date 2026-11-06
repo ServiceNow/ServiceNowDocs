@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 31
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -1454,14 +1454,56 @@ Content type of the file to attach, such as image/jpeg or \*/\*. This header is 
 
 The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
-|Status code|Description|
-|-----------|-----------|
-|201|Indicates the query ran successfully.|
-|400|Indicates that one or more mandatory parameters were missing from the request.|
-|404|Indicates the record specified by the **table\_name** and **table\_sys\_id** parameters does not exist or is not accessible to the current user.|
-|500|Internal server error. An unexpected error occurred while processing the request. The response contains additional information about the error.|
+<table><thead><tr><th>
 
-### Response body parameters \(JSON or XML\)
+Status code
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+201
+
+</td><td>
+
+Indicates the query ran successfully.
+
+</td></tr><tr><td>
+
+400
+
+</td><td>
+
+Indicates that one or more mandatory parameters were missing from the request.
+
+</td></tr><tr><td>
+
+403
+
+</td><td>
+
+Forbidden. The user doesn't have access rights to the specified record.**Note:** To authenticate with this API, use OAuth 2.0 or enable preemptive authentication on the REST client. For more information, see [KB3054410](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3054410).
+
+</td></tr><tr><td>
+
+404
+
+</td><td>
+
+Indicates the record specified by the **table\_name** and **table\_sys\_id** parameters does not exist or is not accessible to the current user.
+
+</td></tr><tr><td>
+
+500
+
+</td><td id="entry-500-status-code">
+
+Internal server error. An unexpected error occurred while processing the request. The response contains additional information about the error.
+
+</td></tr></tbody>
+</table>### Response body parameters \(JSON or XML\)
 
 <table id="table_kbr_qck_llb"><thead><tr><th>
 

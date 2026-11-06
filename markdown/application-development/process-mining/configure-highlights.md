@@ -1,0 +1,28 @@
+---
+title: Configuring improvement opportunities in Process Mining
+description: Configure improvement opportunities for a process table so that any project that is based on the process table has improvement opportunities configured. You must configure improvement opportunities for your project.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/process-mining/configure-highlights.html
+release: australia
+product: Process Mining
+classification: process-mining
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Working with process inefficiency highlights using AI, Configure, ServiceNow Otto for Process Mining, Use, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Configuring improvement opportunities in Process Mining
+
+Configure improvement opportunities for a process table so that any project that is based on the process table has improvement opportunities configured. You must configure improvement opportunities for your project.
+
+For the detailed procedure of configuring improvement opportunities for a process table, see [Configure improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/improvement-opportunities.md).
+
+For the detailed procedure of configuring improvement opportunities for a project, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/improve-opportunities.md).
+
+For detailed information about how to generate and view the highlights for improvement opportunities, see [Opportunity details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/opportunity-details.md).
+
+There are system properties that determine how process inefficiency work. For information about the system properties, see [Improvement opportunities highlights properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/data-cleanup.md).
+
+**Parent Topic:**[Working with process inefficiency highlights using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/highlights.md)
+

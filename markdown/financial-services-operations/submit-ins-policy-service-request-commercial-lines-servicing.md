@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/submit-ins-policy-service-request-commercial-lines-servicing.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Commercial Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -38,15 +38,15 @@ Customers can submit policy service requests from the Consumer Service Portal or
 
 3.  Create a policy service request from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d63239e127">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d63537e127">
 
 Option
 
-</th><th align="left" id="d63239e130">
+</th><th align="left" id="d63537e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d63239e136">
+</th></tr></thead><tbody><tr><td id="d63537e136">
 
 **Policy service request from a customer record**
 
@@ -56,7 +56,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d63239e163">
+</td></tr><tr><td id="d63537e163">
 
 **Policy service request from an interaction record**
 

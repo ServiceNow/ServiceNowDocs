@@ -7,7 +7,7 @@ release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -19,8 +19,6 @@ Delegation lets another user act on your assessments on your behalf for a set pe
 ## Delegation overview
 
 In an assessment, some actions can be done only by specific people: only the owner can submit, and only the requestor or an assessment admin can cancel or reassign. If that person is unavailable, their part of the workflow stalls. Delegation addresses this by letting a user name another user to act on their behalf for a defined time period.
-
-**Note:** This feature is available starting with Australia Patch 2.
 
 Delegation in the Smart Assessment Engine uses the standard ServiceNow platform delegate feature. A user adds a delegate on their user profile, selects the **Assignments** option, and sets a start and end date. During that period, the delegate can act on the user's Smart Assessments. For the steps, see [Set up a delegate for your assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/set-up-delegation-for-assessments.md).
 

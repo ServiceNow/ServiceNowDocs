@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-Ideally, you should not reopen a project after it is closed. Updating the project state from Closed to Work In Progress, Pending, or Open is not allowed. If you still need to reopen a closed project, reopen an existing project task or add a new task to the project. This action for a task moves the project from Closed to Work in Progress state without affecting the other closed tasks. You can cancel the associated future resource plans and complete the allocated resource plans for a closed project.
+Ideally, you should not reopen a project after it is closed. Updating the project state from Closed to Work In Progress, Pending, or Open is not allowed. To reopen a closed project, reopen an existing project task or add a task to the project. This action for a task moves the project from Closed to Work in Progress state without affecting the other closed tasks. You can cancel the associated future resource plans and complete the allocated resource plans for a closed project.
 
 ## Procedure
 

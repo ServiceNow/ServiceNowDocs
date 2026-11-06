@@ -1,20 +1,20 @@
 ---
 title: Filter decision tables
-description: Apply filters to condition and result columns in the Decision Tables in Workflow Studio to view, modify, and reorder a subset of rows without exporting the table to Excel.
+description: Apply filters to both condition and result columns in the Decision Tables in Workflow Studio. Filters can enhance the usability and efficiency of managing large Decision Tables. This feature can be used to view, modify, and reorder a subset of rows directly within the Decision Tables, without exporting the table to Excel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/filtering-overview.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Filter decision tables
 
-Apply filters to condition and result columns in the Decision Tables in Workflow Studio to view, modify, and reorder a subset of rows without exporting the table to Excel.
+Apply filters to both condition and result columns in the Decision Tables in Workflow Studio. Filters can enhance the usability and efficiency of managing large Decision Tables. This feature can be used to view, modify, and reorder a subset of rows directly within the Decision Tables, without exporting the table to Excel.
 
 ## Filtering rules and conditions
 
@@ -30,4 +30,6 @@ The default filtering operator is "is", when no other filtering is applied.
 The following image shows a table interface that includes filtering functionality.
 
 \[Omitted image "filtering-decision-table.png"\] Alt text: Decision Table Filter
+
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
 

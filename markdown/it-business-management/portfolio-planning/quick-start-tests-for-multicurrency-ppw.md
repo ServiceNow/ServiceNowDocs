@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Multicurrency in demands, Configure financials for demands, Configure, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Quick tests enable you to validate that the multicurrency feature in Next Experi
 
 **Danger**
 
-By default, the system property that is used to run automated tests is turned off to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-enable-tests.md).
+By default, the system property that is used to run automated tests is disabled to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-enable-tests.md).
 
 To use demand currency quick start tests, the PPM Standard Multicurrency – ATF Tests plugin \(com.snc.ppm\_multicurrency.atf\) must have been activated.
 

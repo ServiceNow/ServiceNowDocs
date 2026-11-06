@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-request-from-businessportal.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Request an item or service from the Business Portal
@@ -16,7 +16,7 @@ Browse the catalog and create a request for an item or a service from the busine
 
 ## Before you begin
 
-Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner, sn\_customerservice.customer\_case\_manager, sn\_customerservice.customer, sn\_customerservice.consumer, sn\_customerservice.proxy\_contact
+Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner, sn\_customerservice.customer\_case\_manager, sn\_customerservice.customer, sn\_customerservice.consumer, sn\_csm\_proxy\_cont
 
 ## About this task
 

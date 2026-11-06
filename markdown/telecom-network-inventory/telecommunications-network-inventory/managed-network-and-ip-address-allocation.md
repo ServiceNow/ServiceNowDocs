@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [IP address management, Inventory number allocation, Explore, Telecommunications Network Inventory]
 ---
@@ -30,7 +30,7 @@ The Managed Network value defines the scope within which an IP Address Block's C
 **Related topics**  
 
 
-[Create a managed network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md)
+[Create Managed Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md)
 
 [Create an IP Address Block record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-block-record.md)
 

@@ -7,9 +7,9 @@ release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Mapping employees to their designated workspaces, Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Mapping employees to their designated workspaces, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Map designated workspaces to user profiles

@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -186,26 +186,6 @@ Created via scheduled job.
 </td><td>
 
 [Tag cluster alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-clustering-tag-definitions-concept.md)
-
-</td></tr><tr><td>
-
-Shared Impacted Services
-
-</td><td>
-
-Impacted Services
-
-</td><td>
-
-Shared Impacted Services groups consist of related alerts that are automatically clustered based on a shared Top Service — the highest-priority Business Service linked to each alert's configuration item.
-
-</td><td>
-
-Created automatically by the alert grouping job when alerts resolve to the same Top Service.
-
-</td><td>
-
-[Shared impacted services alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/shared-impacted-services-grouping.md)
 
 </td></tr><tr><td>
 

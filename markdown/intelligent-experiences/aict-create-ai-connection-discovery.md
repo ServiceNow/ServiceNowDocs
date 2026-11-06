@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-create-ai-connection-discovery.html
 release: australia
 topic_type: task
-last_updated: "2026-08-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring connectors, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configuring connectors, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create an AI connection for discovery

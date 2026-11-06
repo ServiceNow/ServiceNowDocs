@@ -7,8 +7,8 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -23,10 +23,15 @@ Role required: itil
 
 ## About this task
 
-**Important:**
+**Important:** The features in the \[DEPRECATED\] Incident assist skill are available in the Incident assist workflow. You can turn off this skill and use the [Incident assist agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist-workflow.md) that has enhanced capabilities.
 
--   Starting with the Australia Patch 2, the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
--   Starting Australia Patch 5, Now Assist is renamed to ServiceNow Otto.
+To turn off the skill:
+
+1.  Navigate to **Admin** &gt; **AI Admin Hub**.
+2.  Select the **AI Skills** tab.
+3.  Go to **Technology** &gt; **ITSM**.
+4.  Select the Ask questions about an incident by using the ServiceNow Otto panel skill.
+5.  Select **Deactivate skill**.
 
 \[DEPRECATED\] Incident assist topics in the ServiceNow Otto panel include:
 

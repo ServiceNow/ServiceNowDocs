@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CWM connected tasks, show connected tasks, hide connected tasks, settings panel, planning page]
 breadcrumb: [Integration with CWM, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]

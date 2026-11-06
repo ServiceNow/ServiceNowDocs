@@ -52,21 +52,21 @@ You can use the ER case summarization skill in either Core UI or Agent Workspace
 
         **Note:** Attachment related details are added to the summary only when an attachment is present on ER case irrespective of case state.
 
-    \[Omitted image "image.er-summarize-aws"\] Alt text: ER case summary on Agent Workspace for HR Case Management \[Omitted image "image.er-summarize-aws1"\] Alt text: ER case summary on Agent Workspace for HR Case Management
+    \[Omitted image "er-summarize-aws.png"\] Alt text: ER case summary on Agent Workspace for HR Case Management \[Omitted image "er-summarize-aws1.png"\] Alt text: ER case summary on Agent Workspace for HR Case Management
 
-    \[Omitted image "image.er-summarize-core"\] Alt text: ER case summary on Core UI \[Omitted image "image.er-summarize-core1"\] Alt text: ER case summary on Core UI
+    \[Omitted image "er-summarize-core.png"\] Alt text: ER case summary on Core UI \[Omitted image "er-summarize-core1.png"\] Alt text: ER case summary on Core UI
 
 6.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d379589e241">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d379085e235">
 
 Option
 
-</th><th align="left" id="d379589e244">
+</th><th align="left" id="d379085e238">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d379589e250">
+</th></tr></thead><tbody><tr><td id="d379085e244">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -77,7 +77,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d379589e277">
+</td></tr><tr><td id="d379085e271">
 
 **Expand or collapse the summary**
 
@@ -85,7 +85,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d379589e298">
+</td></tr><tr><td id="d379085e292">
 
 **Provide feedback for the summary**
 
@@ -93,7 +93,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d379589e321">
+</td></tr><tr><td id="d379085e315">
 
 **Copy the case summary**
 
@@ -101,7 +101,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d379589e337">
+</td></tr><tr><td id="d379085e331">
 
 **View the information about the case summary**
 
@@ -109,7 +109,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: 
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d379589e352">
+</td></tr><tr><td id="d379085e346">
 
 **Refine list**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-customer-discovery-hub.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Customer success, Explore, Customer Success Management]
 ---
@@ -35,7 +35,7 @@ Customer Discovery Hub is used by pre-sales personas \(account executives, solut
 
 **Note:** Customer Discovery Hub does not include automated flows. The tables and forms are available for manual data entry and are accessible as related list items from the engagement record.
 
-To view the Customer Discovery Hub tables, navigate to **All** &gt; **CSM/FSM Configurable Workspace**, open an engagement, and select the **Related Items** related list.
+To view the Customer Discovery Hub tables, navigate to **All** &gt; **CRM Workspace**, open an engagement, and select the **Related Items** related list.
 
 \[Omitted image "cust-discovery-hub.png"\] Alt text: Customer discovery hub related items
 

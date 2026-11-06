@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/exploring-now-assist-notifications.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
-breadcrumb: [Notification agent and agentic workflows in Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Explore AI in Notifications
@@ -70,5 +70,4 @@ To learn more about configuring and using the Notification agent and agentic wor
 
 -   [Configure email agentic workflows in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configuring-agentic-workflows-in-notifications.md)
 -   [General guidelines for creating and mapping an intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/guidelines-creating-intent.md)
--   [Notification agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/notification-creation-agent.md)
 

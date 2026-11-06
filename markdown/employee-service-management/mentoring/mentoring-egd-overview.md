@@ -7,7 +7,7 @@ release: australia
 product: Mentoring
 classification: mentoring
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Growth Experiences, HR Service Delivery, Employee Service Managemen
 # Mentoring
 
 The ServiceNow® Mentoring application is a platform that connects individuals seeking mentorship with experienced mentors. It creates a seamless experience for both mentees and mentors.
+
+\[Omitted image "mentorship-overview.gif"\] Alt text: Mentoring Overview
 
 Mentoring has the following features:
 

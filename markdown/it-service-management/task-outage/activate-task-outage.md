@@ -7,7 +7,7 @@ release: australia
 product: Task Outage
 classification: task-outage
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Task Outage, IT Service Management]
 ---
@@ -47,5 +47,5 @@ The Task Outage table is installed with activation of the Task-Outage Relationsh
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

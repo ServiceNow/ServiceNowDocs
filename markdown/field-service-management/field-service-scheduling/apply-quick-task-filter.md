@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [quick task filter, task panel]
 breadcrumb: [Quick task and calendar filters, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]

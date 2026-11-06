@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [HPE BladeSystem discovery, serial number, UUID, cmdb\_ci\_hpe\_bladesystem\_enclosure, cmdb\_ci\_hpe\_bladesystem\_blade, cmdb\_serial\_number, scheduled job]
 breadcrumb: [HPE BladeSystem Enclosure, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]

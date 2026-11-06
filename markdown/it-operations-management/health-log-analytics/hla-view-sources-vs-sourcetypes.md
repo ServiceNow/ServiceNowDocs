@@ -1,5 +1,5 @@
 ---
-title: Source type and log source relationships
+title: View source type and log source relationships
 description: Explore the many-to-many relationships between source types and log sources to help you optimize data input mapping in Health Log Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-view-sources-vs-sourcetypes.html
@@ -7,13 +7,13 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow, Health Log Analytics, HLA, relationship, source type, log source, data input, mapping, parsing, anomalies]
-breadcrumb: [Log data auto-mapping and mapping, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Source type and log source relationships
+# View source type and log source relationships
 
 Explore the many-to-many relationships between source types and log sources to help you optimize data input mapping in Health Log Analytics.
 
@@ -47,5 +47,5 @@ Health Log Analytics uses source types to parse logs and utilizes log sources as
     **Note:** The displayed results are updated once a day. Results that are older than 24 hours are deleted automatically.
 
 
-**Parent Topic:**[Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-implement.md)
 

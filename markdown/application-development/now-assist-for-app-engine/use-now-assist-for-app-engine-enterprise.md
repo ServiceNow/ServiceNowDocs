@@ -7,10 +7,10 @@ release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: concept
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, ServiceNow Otto for App Engine, now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app, use generative AI]
-breadcrumb: [ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [ServiceNow Otto for App Engine, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Using ServiceNow Otto for App Engine
@@ -49,7 +49,7 @@ The following list outlines the process for implementing an AI agent and agentic
 
 -   **[Summarize a record in-product using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/summarize-record-in-product-na-for-app-engine.md)**  
 Quickly understand the contents of a record in a custom application within Core UI or a custom workspace.
--   **[Summarize a record through chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md)**  
+-   **[Summarize a record through chat using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md)**  
 Quickly understand the contents of a record through a conversation with ServiceNow Otto.
 
 **Parent Topic:**[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)

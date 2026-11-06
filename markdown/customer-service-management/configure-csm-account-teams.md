@@ -1,20 +1,22 @@
 ---
-title: Creating an account team
-description: Create an account team that is made up of both employees and customer contacts who fulfill the jobs or roles for a particular account in the Customer Service Management \(CSM\) application. By defining responsibilities or roles for your team and customer contacts, you confirm that your account team has the functions needed to support customer accounts.
+title: Creating an account team member
+description: Create an account team member that is made up of both employees and customer contacts, fulfilling the jobs or roles for a particular account within the Customer Service Management \(CSM\) application. By defining responsibilities or roles for your team and customer contacts, you confirm that your account team has the functions needed to support customer accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-csm-account-teams.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Creating an account team
+# Creating an account team member
 
-Create an account team that is made up of both employees and customer contacts who fulfill the jobs or roles for a particular account in the Customer Service Management \(CSM\) application. By defining responsibilities or roles for your team and customer contacts, you confirm that your account team has the functions needed to support customer accounts.
+Create an account team member that is made up of both employees and customer contacts, fulfilling the jobs or roles for a particular account within the Customer Service Management \(CSM\) application. By defining responsibilities or roles for your team and customer contacts, you confirm that your account team has the functions needed to support customer accounts.
 
-If you have any one of the sn\_crm\_foundation\_admin, sn\_crm\_foundation\_data\_manager, and sn\_crm\_account\_relationship\_data\_manager roles, you can create an account team by using a responsibility definition. By defining the responsibilities that you need for this account team, you create the relationships between the different entities like the accounts, contacts, and more.If you have sn\_crm\_account\_relationship\_viewer or sn\_crm\_foundation\_data\_viewer role, you can view the Account team members table.
+If you have any one of the sn\_crm\_foundation\_admin, sn\_crm\_foundation\_data\_manager, and sn\_crm\_account\_relationship\_data\_manager roles, you can create an account team by using a responsibility definition. By defining the responsibilities that you need for this account team, you create the relationships between the different entities like the accounts, contacts, and more.
+
+If you have sn\_crm\_account\_relationship\_viewer or sn\_crm\_foundation\_data\_viewer role, you can view the Account team members table.
 
 You can create two types of responsibility definitions. You can create a definition for an employee and a definition for a contact.
 

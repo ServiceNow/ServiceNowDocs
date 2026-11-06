@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -68,7 +68,7 @@ Use these general guidelines with a For Each flow logic.
 
 -   **Avoid nested For Each loops**
 
-    Avoid nested For Each loops that process many records. Nested loops may cause the flow to run until it is stopped by the flow transaction quota rule, which prevents flows from running longer than an hour. For more information about transaction quotas, see [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TransactionQuotas.md).
+    Avoid nested For Each loops that process many records. Nested loops may cause the flow to run until it is stopped by the flow transaction quota rule, which prevents flows from running longer than an hour. For more information about transaction quotas, see Transaction quotas.
 
 
 **Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-logic.md)

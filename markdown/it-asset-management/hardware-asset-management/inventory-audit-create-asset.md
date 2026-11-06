@@ -7,10 +7,10 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [create an asset, create new asset inventory audit screen]
-breadcrumb: [Audit hardware asset inventory, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Audit hardware asset inventory, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an asset from the inventory audit screen

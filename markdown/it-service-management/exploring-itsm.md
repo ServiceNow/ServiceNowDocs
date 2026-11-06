@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/exploring-itsm.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-01"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [explore]
 breadcrumb: [IT Service Management]
 ---
@@ -33,7 +33,7 @@ Reduce ticket volume by giving employees the tools to find answers without conta
 
 Digital End-User Experience monitors device health and application performance, enabling proactive issue resolution before employees experience problems. Automated remediation and the Desktop Experience application give employees self-service tools to resolve common device issues without creating tickets.
 
-See: [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-landing.md), [Use DEX Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/use-dex-desktop-exp.md), [Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/proactive-engagement/proactive-engagement-landing-page.md), [Digital End-user Experience Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-self-service/dex-self-service.md), [DEX for service desk agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-service-desk-agents.md)
+See: , , , , 
 
 ## Improve IT productivity
 

@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assign higher or lower significance to an alert, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -30,6 +30,4 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 ## Result
 
 The metric that is associated with the alert returns to normal importance.
-
-**Parent Topic:**[Assign higher or lower significance to an alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-significance.md)
 

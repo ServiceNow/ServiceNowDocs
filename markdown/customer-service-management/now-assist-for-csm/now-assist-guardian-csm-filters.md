@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -84,5 +84,5 @@ Test the filter by creating a test case with sample phrases that should trigger 
 **Related topics**  
 
 
-[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)
+[bundle-platai.now-assist-guardian]
 

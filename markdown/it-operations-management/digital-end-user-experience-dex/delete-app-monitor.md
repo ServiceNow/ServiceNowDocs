@@ -1,0 +1,46 @@
+---
+title: Delete an application from the monitoring list
+description: Delete an application from the monitoring list when there’s no longer a need to track its performance or activity. If necessary, you can add the application to the monitoring list later.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/delete-app-monitor.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [delete application from monitoring, remove monitored application, delete monitored application, remove application from list]
+breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Operations Management]
+---
+
+# Delete an application from the monitoring list
+
+Delete an application from the monitoring list when there’s no longer a need to track its performance or activity. If necessary, you can add the application to the monitoring list later.
+
+## Before you begin
+
+Confirm that the DEX plugin \(sn\_dex\) is installed.
+
+Role required: sn\_dex.admin
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
+
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
+
+3.  On the Application management card, select **Configure applications**.
+
+    The list of monitored applications appears.
+
+4.  Select the check box next to the application name that you want to delete.
+
+5.  Select **Delete selected applications** in the **Actions** drop-down list.
+
+6.  In the confirmation dialog box, select **Delete**.
+
+
+## Result
+
+The application is deleted from the list of monitored applications.
+

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-analytics.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Analytics, Generative AI, Gen AI, usage, performance]
-breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Analyzing AI performance
@@ -53,4 +53,6 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-products.md).
 

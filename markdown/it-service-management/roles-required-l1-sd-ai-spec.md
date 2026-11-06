@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/roles-required-l1-sd-ai-spec.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, L1 IT Service Desk AI Specialist, IT Service Management]
 ---

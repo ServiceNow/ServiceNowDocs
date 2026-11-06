@@ -7,14 +7,14 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Client Value Acceleration \(CVA\) integrations for IBM
 
-Integrate the Software Asset Management publisher pack for IBM with authorized Software Asset Management providers to track and manage IBM licenses across virtualized VMware vSphere and Nutanix environments, and IBM LPAR infrastructures. These integrations help you to track and manage IBM licensing directly without integrating with theIBM License Metric Tool \(ILMT\) or BigFix Inventory.
+Integrate the Software Asset Management publisher pack for IBM with authorized Software Asset Management providers to track and manage IBM licenses across virtualized VMware vSphere and Nutanix environments, and IBM LPAR infrastructures. These integrations help you to track and manage IBM licensing directly without integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory.
 
 The CVA Program is a license verification program that allows clients who contract with Authorized SAM Providers \(ASPs\) to report on their IBM license usage independently. For more information on the CVA Program, refer to the [IBM CVA Program](https://www.ibm.com/about/software-licensing/us-en/sam/cva_program) page.
 
@@ -58,7 +58,7 @@ If you are integrating the IBM publisher pack with Anglepoint, you must also com
 -   Set up the Anglepoint Elevate platform.
 
 -   **[Virtualization technologies and public cloud platforms supported by IBM Authorized SAM Provider \(ASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/supported-virtualization-technologies-iasp-integrations.md)**  
-IBM ASP integrations support IBM licensing in VMware vSphere, Nutanix, and IBM LPAR infrastructures.These integrations also support IBM licensing in public cloud environments that are owned and managed by AWS, Microsoft Azure, and Google Cloud Platform \(GCP\).
+IBM ASP integrations support IBM licensing in VMware vSphere Nutanix, and IBM LPAR infrastructures.These integrations also support IBM licensing in public cloud environments that are owned and managed by AWS, Microsoft Azure, and Google Cloud Platform \(GCP\).
 -   **[Licensing for IBM Cloud Paks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/licensing-ibm-cloud-paks.md)**  
 When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports licensing rules for IBM Cloud Paks.
 -   **[IBM reconciliation for IBM Authorized SAM Provider \(ASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/ibm-reconciliation-iasp-integrations.md)**  

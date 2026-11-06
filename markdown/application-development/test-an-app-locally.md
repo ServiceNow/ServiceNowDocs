@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 3
 keywords: [Test an app locally, Prerequisites, Steps, Other test types, Don't test the mock, Next steps]
-breadcrumb: [Test and deploy a Lux app, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Test and deploy a Lux app, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Test an app locally
@@ -135,5 +135,5 @@ A common mistake is mocking a call to return `X`, then asserting the result is `
 
 ## What to do next
 
-After your tests pass, move on to [Deploy to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/deploy-to-an-instance.md), `pnpm test` is the first item on that topic's ship checklist. For diagnosing a failure you can't explain from a test alone, see . For the build-time and CI checks that run beyond what you can trigger locally, see .
+After your tests pass, move on to [Deploy to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/deploy-to-an-instance.md), `pnpm test` is the first item on that topic's ship checklist. For diagnosing a failure you can't explain from a test alone, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/debug-an-experience.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/debug-an-experience.md). For the build-time and CI checks that run beyond what you can trigger locally, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/validation-checks-and-when-they-run.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/validation-checks-and-when-they-run.md).
 

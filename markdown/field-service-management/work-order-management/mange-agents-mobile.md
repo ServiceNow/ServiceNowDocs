@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Manager Mobile, Completing work on mobile, Use, Field Service Management]
 ---
@@ -30,15 +30,15 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 4.  Choose from the following.
 
-<table id="choicetable_yv1_mhr_2hc"><thead><tr><th align="left" id="d107711e98">
+<table id="choicetable_yv1_mhr_2hc"><thead><tr><th align="left" id="d110217e98">
 
 Selection
 
-</th><th align="left" id="d107711e101">
+</th><th align="left" id="d110217e101">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d107711e107">
+</th></tr></thead><tbody><tr><td id="d110217e107">
 
 **Contact**
 
@@ -46,7 +46,7 @@ Action
 
 Displays a choice to call or message the agent.
 
-</td></tr><tr><td id="d107711e116">
+</td></tr><tr><td id="d110217e116">
 
 **View tasks**
 
@@ -54,7 +54,7 @@ Displays a choice to call or message the agent.
 
 Shows the tasks that are assigned to the selected agent.
 
-</td></tr><tr><td id="d107711e125">
+</td></tr><tr><td id="d110217e125">
 
 **View schedule**
 
@@ -62,7 +62,7 @@ Shows the tasks that are assigned to the selected agent.
 
 Shows the selected agent’s schedule. **Note:** Tap a different day at the top of your screen to see the agent’s schedule for a different day.
 
-</td></tr><tr><td id="d107711e137">
+</td></tr><tr><td id="d110217e137">
 
 **View profile**
 

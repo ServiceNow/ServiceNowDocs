@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
 breadcrumb: [ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
@@ -35,13 +35,13 @@ Help resolve tuition requests
 
 </td><td>
 
-AI agents resolve tuition reimbursement pre-approval requests by connecting to various parties \(for example, the manager for approval\) and resolving the case, while keeping the human agent in the loop.
+AI agents resolve tuition reimbursement pre-approval requests by connecting to various parties \(for example, the manager for approval\) and resolving the case. The human agent stays in the loop.
 
 </td><td>
 
 -   Tuition reimbursement policy based HR case evaluation AI agent
 -   Tuition reimbursement case closure AI agent
--   Tuition reimbursement preapproval task generation AI agent
+-   Tuition reimbursement pre-approval task generation AI agent
 
 </td></tr><tr><td>
 

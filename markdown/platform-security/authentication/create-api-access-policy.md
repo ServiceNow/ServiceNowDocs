@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [REST API access policies, API access policy, Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ Create an API access policy and map an authentication profile to restrict the au
 
 ## Before you begin
 
-Make sure that an authentication profile is created. For more information, see [Create an authentication profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-authentication-profile.md).
+An authentication profile must be created. For more information, see [Create an authentication profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-authentication-profile.md).
 
 Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
@@ -28,7 +28,7 @@ Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
 2.  Select **New**.
 
-3.  On the form, fill in the mandatory fields and submit.
+3.  On the form, fill in the required fields and submit.
 
     \[Omitted image "rest-api-access-policy.png"\] Alt text: API access policy fields
 
@@ -88,7 +88,7 @@ Version
 
 </td><td>
 
-Version of the API. For example, **v1**. This field is auto-populated based on the selected REST API.**Note:** If you want to create an authentication policy for all versions of a REST API, you must create individual policies for each version.
+Version of the API. For example, **v1**. This field is auto-populated based on the selected REST API.**Note:** To create an authentication policy for all versions of a REST API, you must create individual policies for each version.
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Apply to all resources
 
 </td><td>
 
-Option to apply the policy to all or the API resources.
+Option to apply the policy to all or some of the API resources.
 
 </td></tr><tr><td>
 
@@ -144,7 +144,7 @@ Apply to all versions
 
 </td><td>
 
-Option to apply the policy to all or the API versions.
+Option to apply the policy to all or some of the API versions.
 
 </td></tr><tr><td>
 
@@ -160,7 +160,7 @@ Option to apply the policy to all tables. This option only applies to policies f
 
 </td><td>
 
-Determines whether the `WWW-Authenticate` header includes all configured authentication schemes. When set to `false` \(default\), the header includes only the most recently configured authentication profile in the policy. When set to `true`, the header lists all configured authentication schemes.
+Setting that determines whether the `WWW-Authenticate` header includes all configured authentication schemes. When set to `false` \(default\), the header includes only the most recently configured authentication profile in the policy. When set to `true`, the header lists all configured authentication schemes.
 
 </td></tr></tbody>
 </table>    **Note:** To understand more about the API access policy prioritization, see [API access policy prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/api-access-policy-prioritization.md).

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-delete-ex-rule.html
 release: australia
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configuring an exception rule, Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -36,6 +36,4 @@ Deleting a rule cancels the associated remediation task \(VUL\). The related fin
 
     The associated remediation task is also deleted. The related findings are reopened, and group rules are applied to the individual findings.
 
-
-**Parent Topic:**[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-exception-rule.md)
 

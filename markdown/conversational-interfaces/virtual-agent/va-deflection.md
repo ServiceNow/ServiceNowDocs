@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Deflection utility
@@ -46,7 +46,7 @@ Deflection configuration
 
 </td><td>
 
-Select from a list of pre-defined deflection configurations. For more information, see [Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md).
+Select from a list of pre-defined deflection configurations. For more information, see [\(Legacy\) Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/set-up-deflection-settings-va.md).
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Deflection pattern
 
 </td><td>
 
-Select from a list of pre-defined deflection patterns. Ensure that your selection is tied to a pre-defined deflection. See [Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md) for more.
+Select from a list of pre-defined deflection patterns. Ensure that your selection is tied to a pre-defined deflection. See [\(Legacy\) Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/set-up-deflection-settings-va.md) for more.
 
 </td></tr><tr><td>
 

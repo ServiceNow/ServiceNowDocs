@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -39,11 +39,11 @@ Use RIDAC by Type page to focus on specific RIDAC record types. Each tab display
     -   **Decisions**: View all decision records for the project
     -   **Actions**: View all action records for the project
     -   **Change Requests**: View all change request records for the project
-    \[Omitted image "ridac-by-type-page-pw.png"\] Alt text: RIDAC by type page.
+    \[Omitted image "image.ridac-by-type-page-pw"\] Alt text: RIDAC by type page.
 
 4.  Select **New** to create a risk, issue, decision, action, or change request.
 
-    You can personalize fields that you want to display on RIDAC list using more actions \(\[Omitted image "more-actions-homepage-icon.png"\] Alt text: more action icons.\) menu. You can apply advanced filters, sort, or group by fields to the RIDAC list.
+    You can personalize fields that you want to display on RIDAC list using more actions \(\[Omitted image "more-actions-homepage-icon.png"\] Alt text: more action icons.\) menu. You can apply advanced filters, sort, or group by fields to the RIDAC list. To filter the list, enter a value in the filter row below a column header. The condition is added next to the fixed filter conditions above the list.
 
 5.  On the form, fill in the fields.
 
@@ -60,7 +60,7 @@ Use RIDAC by Type page to focus on specific RIDAC record types. Each tab display
 
     For more information on export RIDAC, see [Export RIDAC data from All RIDAC page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/export-ridac-pw.md).
 
-8.  From RIDAC by type page, select Convert to RIDAC \(\[Omitted image "convert-to-ridac-icon.png"\] Alt text:\) icon to convert a RIDAC record to another record.
+8.  From RIDAC by type page, select Convert to RIDAC \(\[Omitted image "image.convert-to-ridac-icon"\] Alt text:\) icon to convert a RIDAC record to another record.
 
     For more information, see [Convert one RIDAC record to another for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/convert-ridac-project-workspace.md).
 

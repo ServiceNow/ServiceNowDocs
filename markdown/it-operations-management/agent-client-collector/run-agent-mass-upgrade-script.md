@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ACC mass upgrade, background script upgrade, AgentUpgradeUtil]
 breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -19,7 +19,7 @@ Trigger an immediate upgrade of all eligible Agent Client Collector agents witho
 
 ## Before you begin
 
-Configure the required upgrade properties before running the script. For details, see [Agent Client Collector upgrade properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-agent-upgrade-properties.md).
+Configure the required upgrade properties before running the script. For details, see [Configure Agent Client Collector upgrade properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/configure-agent-upgrade-properties.md).
 
 Role required: agent\_client\_collector\_admin
 

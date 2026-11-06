@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/service-contract-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Contracts and Entitlements reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -64,6 +64,22 @@ Consumer
 </td><td>
 
 The name of the consumer associated with the contract.**Note:** If no consumer record is found, you can create a consumer and add it to the customer contract. For more information, see [Create a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-consumer-record.md).
+
+</td></tr><tr><td>
+
+Buyer Organization
+
+</td><td>
+
+The name of the organization for which the order is created.
+
+</td></tr><tr><td>
+
+Buyer Organization Member
+
+</td><td>
+
+The individual who created the order on behalf of the Buyer Organization.
 
 </td></tr><tr><td>
 

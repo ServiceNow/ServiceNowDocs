@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -28,7 +28,7 @@ When you create a network topology record, it creates a corresponding configurat
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  From the list icon \(\[Omitted image "lists\_icon-proactive.png"\] Alt text: List icon, go to **Inventory** &gt; **Network Topology**.
+2.  From the list icon \(\[Omitted image "Lists.png"\] Alt text: List icon.\), go to **Inventory** &gt; **Network Topology**.
 
 3.  Select **New**.
 

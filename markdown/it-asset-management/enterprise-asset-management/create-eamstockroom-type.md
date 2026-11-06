@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -18,7 +18,7 @@ If the base system stockroom types don't meet your needs, you can create a custo
 
 ## Before you begin
 
-Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
+Role required: sn\_eam.enterprise\_admin
 
 ## About this task
 
@@ -26,11 +26,15 @@ Stockroom types are categories of stockrooms. For detailed information on stockr
 
 ## Procedure
 
-1.  Navigate to **Enterprise Asset Workspace** &gt; **Inventory** &gt; **Stockroom types**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  Select **New**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  On the form, fill in the details.
+3.  In the navigation panel of the Admin center view, select **Stockroom types**.
+
+4.  Select **New**.
+
+5.  On the form, fill in the details.
 
     |Field|Description|
     |-----|-----------|
@@ -41,7 +45,7 @@ Stockroom types are categories of stockrooms. For detailed information on stockr
     |Shipment required|Option that determines if stockrooms of this type require shipment by default.|
     |External stockroom|Indicates if stockrooms of this type are managed internally \(check box cleared\) or managed externally by a third party \(check box selected\).|
 
-4.  Select **Save**.
+6.  Select **Save**.
 
     The newly created stockroom type appears in the **Stockroom types** tab.
 

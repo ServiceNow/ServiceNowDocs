@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-PagerDuty spoke v1.6.0 is the latest version. For version history of the spoke, see [PagerDuty spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-pagerduty.html).
+PagerDuty spoke v1.6.1 is the latest version. For version history of the spoke, see [PagerDuty spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-pagerduty.html).
 
 ## Supported versions
 
@@ -155,7 +155,7 @@ The PagerDuty spoke provides actions to automate PagerDuty tasks when events occ
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 

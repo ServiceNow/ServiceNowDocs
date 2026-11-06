@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-09-21"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configuring pages in AI Control Tower
@@ -31,7 +31,7 @@ Cards that read directly from tables on your instance also provide a condition b
 
 ## Required roles
 
-The workspace administrator \[sn\_ai\_governance.workspace\_admin\] role is required to edit cards on AI Control Tower pages.
+The aix\_config\_admin role is required to edit cards on AI Control Tower pages. The sn\_ai\_governance.workspace\_admin role includes this role.
 
 ## How configurations are saved and applied
 

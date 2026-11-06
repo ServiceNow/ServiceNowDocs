@@ -7,7 +7,7 @@ release: australia
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_lg\_ip.patent\_fulfiller
 
 2.  Based on the resolution of the patent application review by the outside counsel, either close the request or indicate that the patent was filed.
 
-<table id="choicetable_nvq_xwj_lzb"><thead><tr><th align="left" id="d111357e69">
+<table id="choicetable_nvq_xwj_lzb"><thead><tr><th align="left" id="d111287e69">
 
 Outside counsel decision
 
-</th><th align="left" id="d111357e72">
+</th><th align="left" id="d111287e72">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d111357e78">
+</th></tr></thead><tbody><tr><td id="d111287e78">
 
 **Accepted**
 
@@ -54,7 +54,7 @@ Actions
     -   If an optional reward for the inventor at the Patent filed stage has been set up, it is processed and sent to the inventor.
 
 
-</td></tr><tr><td id="d111357e153">
+</td></tr><tr><td id="d111287e153">
 
 **Rejected**
 
@@ -72,15 +72,15 @@ Actions
 </td></tr></tbody>
 </table>3.  Once the outside counsel notifies the patent fulfiller about the resolution of the patent application to the patent authorities, either close the request if the patent was rejected or indicate that the patent was granted.
 
-<table id="choicetable_z5n_zlr_lzb"><thead><tr><th align="left" id="d111357e226">
+<table id="choicetable_z5n_zlr_lzb"><thead><tr><th align="left" id="d111287e226">
 
 Outside counsel decision
 
-</th><th align="left" id="d111357e229">
+</th><th align="left" id="d111287e229">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d111357e235">
+</th></tr></thead><tbody><tr><td id="d111287e235">
 
 **Accepted**
 
@@ -99,7 +99,7 @@ Actions
     -   If an optional reward for the inventor at the Patent granted stage has been set up, it is processed and sent to the inventor.
 
 
-</td></tr><tr><td id="d111357e312">
+</td></tr><tr><td id="d111287e312">
 
 **Rejected**
 

@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Domain configurations, Domain separation, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -18,7 +18,7 @@ To transfer between instances a Performance Analytics domain configuration that 
 
 ## Before you begin
 
-Transfer the domain configuration with an update set. For more information about using update sets to transfer configurations between instances, see System update sets.
+Transfer the domain configuration with an update set. For more information about using update sets to transfer configurations between instances, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
 
 Role required: admin
 

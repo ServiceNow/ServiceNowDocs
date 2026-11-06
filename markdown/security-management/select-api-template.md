@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/select-api-template.html
 release: australia
 topic_type: task
-last_updated: "2026-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Creating an API connector with a generative AI skill, Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -106,6 +106,4 @@ You might prefer to use this field if the API page has too many details, if it's
 
 9.  See [Validate your connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/spc-sgc-validate-api-connector.md) in the Security Posture Control product documentation for information about the validation step, publishing your connector, and completing the process.
 
-
-**Parent Topic:**[Creating an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-now-assist-api-connector.md)
 

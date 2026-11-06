@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/update-ele-def-for-dependency-assessment.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup by system administrators, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -58,7 +58,7 @@ Role required: admin
 
     \[Omitted image "configured-element-def.png"\] Alt text: Sample display of the property.
 
-    The updated element definitions are displayed on the **Dependency Assessment** tab.
+    The updated number of the element definitions are displayed on the **Dependency Assessment** tab.
 
 
 **Parent Topic:**[Setup by system administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-bcm-sys-admin-tasks.md)

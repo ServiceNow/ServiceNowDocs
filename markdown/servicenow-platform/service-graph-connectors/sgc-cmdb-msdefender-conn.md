@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [SGC-Defender, SGC-Microsoft Defender, SGC-Microsoft Defender for Endpoint, SGC Defender, SGC Microsoft Defender, SGC Microsoft Defender for Endpoint, SGC for Defender, SGC for Microsoft Defender, SGC for Microsoft Defender for Endpoint, Defender SGC, Microsoft Defender SGC, Microsoft Defender for Endpoint SGC, Service Graph Connector for Defender, Service Graph Connector for Microsoft Defender, Service Graph Connector for Microsoft Defender for Endpoint, Defender connection details, Defender for Endpoint connection details, Defender connection, Defender for Endpoint connection, common connection framework, CCF, SGC-Defender, SGC-Microsoft Defender, SGC-Microsoft Defender for Endpoint, SGC Defender, SGC Microsoft Defender, SGC Microsoft Defender for Endpoint, SGC for Defender, SGC for Microsoft Defender, SGC for Microsoft Defender for Endpoint, Defender SGC, Microsoft Defender SGC, Microsoft Defender for Endpoint SGC, Service Graph Connector for Defender, Service Graph Connector for Microsoft Defender, Service Graph Connector for Microsoft Defender for Endpoint, Defender connection details, Defender for Endpoint connection details, Defender connection, Defender for Endpoint connection, common connection framework, CCF]
 breadcrumb: [Microsoft Defender for Endpoint, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]

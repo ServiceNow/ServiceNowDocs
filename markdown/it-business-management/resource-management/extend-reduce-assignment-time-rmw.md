@@ -7,7 +7,7 @@ release: australia
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [extend assignment, reduce assignment, resource assignment dates, resource management workspace]
 breadcrumb: [Using Resource Management Workspace, Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]

@@ -7,14 +7,16 @@ release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Configure properties to integrate Change Management
 
 Configure predefined properties through the Pipelines and Deployments Guided Setup to tailor your Change Management and AEMC integration to your company's needs. Configuring these properties is optional.
+
+**Parent Topic:**[Pipelines and Deployments configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/p-and-d-config-tasks.md)
 
 ## Configure the change model
 
@@ -114,11 +116,11 @@ By default, the **Create CMDB CI if not present** subflow will run automatically
 
     1.  Navigate to **All** &gt; **Flow Designer**.
 
-    2.  Select the update personalized list icon \(\[Omitted image "update-personalized-list-icon.png"\] Alt text:\) from the list header.
+    2.  Select the update personalized list icon \[Omitted image "update-personalized-list-icon.png"\] Alt text: from the list header.
 
-    3.  In the Available column, select **Template** and use the move icon \(\[Omitted image "app-tutorial-move-right-icon.png"\] Alt text:\) to add it to the Selected column.
+    3.  In the Available column, select **Template** and use the move icon \[Omitted image "app-tutorial-move-right-icon.png"\] Alt text: to add it to the Selected column.
 
-    4.  Select the More Actions menu icon \(\[Omitted image "MoreActionsIcon.png"\] Alt text:\), and select **Copy subflow**.
+    4.  Select the More Actions menu icon \[Omitted image "MoreActionsIcon.png"\] Alt text:, and select **Copy subflow**.
 
     5.  Enter a name for the subflow, and make sure the application is in the **Deployment Pipeline** scope.
 
@@ -126,7 +128,7 @@ By default, the **Create CMDB CI if not present** subflow will run automatically
 
     7.  Modify the subflow, and select **Save**.
 
-    8.  To find the sys\_id of the subflow, select the More Actions menu icon \(\[Omitted image "MoreActionsIcon.png"\] Alt text:\), and select **Executions**.
+    8.  To find the sys\_id of the subflow, select the More Actions menu icon \[Omitted image "MoreActionsIcon.png"\] Alt text:, and select **Executions**.
 
     9.  Copy the sys\_id.
 

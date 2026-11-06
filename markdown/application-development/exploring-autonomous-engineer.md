@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/exploring-autonomous-engineer.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-08"
+last_updated: "2026-10-19"
 reading_time_minutes: 5
 keywords: [Autonomous Engineer, Build Agent, planning phase, execution phase, work items, agent packs, background agents, implementation plan, ATF tests, ServiceNow Studio]
 audience: programmer
-breadcrumb: [Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Exploring Autonomous Engineer
@@ -18,7 +18,7 @@ Autonomous Engineer is an agentic worker that accepts requirements, generates a 
 
 ## Autonomous Engineer overview
 
-Implementing applications on the ServiceNow AI Platform can require significant manual effort between defining requirements and delivering value to users. Autonomous Engineer reduces that time to value by taking your specifications as input and driving the full implementation lifecycle end-to-end.
+Implementing applications on the ServiceNow AI Platform can require manual effort between defining requirements and building the application. Autonomous Engineer takes your specifications as input and drives the full implementation lifecycle end-to-end.
 
 Autonomous Engineer follows two sequential phases: planning and execution. You remain in control throughout both phases. Autonomous Engineer requires your review and approval before building.
 
@@ -55,10 +55,10 @@ Some implementation tasks fall outside what Autonomous Engineer can perform auto
 
 ## Autonomous Engineer benefits
 
-Autonomous Engineer accelerates application development on the ServiceNow AI Platform by enabling:
+Autonomous Engineer supports application development on the ServiceNow AI Platform in the following ways:
 
--   Parallel execution of work items, reducing total implementation time.
--   Automatic ATF test generation and self-healing retry cycles.
+-   Parallel execution of work items.
+-   Automatic ATF test generation and retry cycles for failed tests.
 -   Structured planning with dependency sequencing so artifacts are built in the correct order.
 -   A single update set output, ready for deployment to test or production environments.
 -   Consolidation of requirements across multiple sources and systems.

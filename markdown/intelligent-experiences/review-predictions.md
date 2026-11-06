@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2025-07-14"
 reading_time_minutes: 1
-breadcrumb: [Information Extraction skill, Use, Content Understanding, Enable AI experiences]
+breadcrumb: [Information Extraction skill, Use, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Review predictions in Information Extraction skill

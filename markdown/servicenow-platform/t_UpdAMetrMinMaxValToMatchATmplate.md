@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_UpdAMetrMinMaxValToMatchATmplate.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a metric template, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ To edit the minimum and maximum values for a question that has the Template data
 
 1.  Navigate to **All** &gt; **Assessments** &gt; **Metric Definition** &gt; **Metrics**.
 
-2.  Configure the [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureTheListLayout.md) to show the **Min** and **Max** columns.
+2.  Configure the Configure the list layout to show the **Min** and **Max** columns.
 
 3.  Run the following list filter condition: `[Template] [is] [<select the template you updated>]`
 

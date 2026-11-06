@@ -1,44 +1,27 @@
 ---
 title: Telecommunications Customer 360 release notes
-description: The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.
+description: The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. See the following sections for release notes by version.Perform MACD actions on child product inventory from Customer 360 and view all of a customer's billing accounts on the Billing card.The September 2026 release introduces the Party Relationship Center, an interactive node map displaying entities connected to a consumer or account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/telecom-customer-360-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-03-12"
-reading_time_minutes: 6
-breadcrumb: [Telecommunications, Media, and Technology release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Telecommunications, Media, and Technology release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Telecommunications Customer 360 release notes
 
-The ServiceNow® Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.
+The ServiceNow® Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. See the following sections for release notes by version.
 
 ## About Telecommunications Customer 360
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
-
--   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
--   Automate customer issue diagnosis with the Smart Actions for Telecom agentic workflow which checks product inventory, open cases, billing status, and incidents from the Recommended Actions panel.
--   Access Customer 360, Run Diagnostics, and Recommended Actions in a single workspace from any record page.
-
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
-
--   Add the 360-degree customer view to any record page with the Telecom Customer 360 UI Builder component.
--   Find KB articles and agentic workflows for the current customer with the Recommendations panel.
-
-**Australia Early Availability**
-
--   Provide agents with customer information, context, and insights for service problem analysis and faster resolution.
--   Enable agents to create cases for billing and service-related issues, manage orders, and book field service appointments directly from the customer view.
--   Provides data source configurability to bring call, chat, and billing data from external sources and generate insights.
--   Receive insights on customer health and top recent issues.
+-   View all entities connected to a consumer or account as an interactive node map from the Telecommunications Customer 360 record page.
+-   Configure which entities appear in the map and what information displays on each node card.
 
 See [Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-land-page.md) for more information.
 
 ## Activation and other requirements
-
-**Important:** Telecommunications Customer 360 is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
@@ -47,132 +30,36 @@ See [Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceN
 
 **Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/technology-industry-rn-landing.md)
 
-## August 2026
+## Version 3.2.0
 
-The ServiceNow® Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.
-
-### What's new
-
--   **[Add the Customer 360 view to a record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-c360.md)A**
-
-    Add Customer 360 as a dedicated tab to any record page along with the Run Diagnostics and Recommended Actions options to the contextual side panel. The Customer 360 tab replaces the Customer Details tab on the record page.
-
-
--   **[Smart actions for Telecom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-smart-actions-agentic-workflow.md)**
-
-    Diagnose customer issues automatically from the Recommended Actions panel using the Smart Actions for Telecom AI agentic workflow. The workflow checks product inventory, open cases and incidents, work orders, and outstanding billing for the current account or consumer record and returns a structured summary with findings.
-
-
--   **[Launch agentic workflow guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-launch-agentic-workflow-guidance.md)**
-
-    Automatically launch agentic workflows in the Recommendations panel based on the current interaction or case record, and provide context data during the execution of the workflow.
-
-
-## July 2026
-
-The ServiceNow® Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.
-
-### What's changed
-
--   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
-
-    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-
-
-## June 2026
-
-The ServiceNow® Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.
+Perform MACD actions on child product inventory from Customer 360 and view all of a customer's billing accounts on the Billing card.
 
 ### What's new
 
--   **[Telecom Customer 360 component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-component.md)**
+-   **[Products card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-products-card.md)**
 
-    Embed the 360-degree customer view as a tab on any record page in the CSM/FSM Configurable Workspace by adding the Telecom Customer 360 UI Builder component. The component is shipped on the complaint case record page by default.
-
--   **[Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-recommendations.md)**
-
-    View Knowledge Base article suggestions and search for KB articles and agentic workflows directly from the Telecommunications Customer 360 page using the contextual Recommendations side panel.
-
-
-## Australia General Availability
-
-The ServiceNow® Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.
-
-### What's new
-
--   **[Interaction record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-view-inter-record.md)**
-
-    View customer phone interaction records, verify and open records to view details.
+    Perform Suspend, Resume, Disconnect, and Modify actions on a child product inventory record from Customer 360. The action also updates the parent product inventory. The actions require the sn\_contract\_ent\_wf plugin to be active.
 
 
 ### What's changed
 
--   **[Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-products-card.md)**
-    -   Filter the list of sold products displayed by product characteristic values.
-    -   Modify configurations, suspend, resume, or disconnect one or more sold products and their services.
--   **[Customer history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-inter-history-card.md)**
+-   **[Billing card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-billing-card.md)**
 
-    The **Interaction history** card has been renamed to **Customer history**. Phone interactions, chat messages, cases, contracts, work orders, and other activity types that have been configured are displayed.
+    The Billing card in Customer 360 displays billing accounts of any Billing Account Type, including Customer Account, instead of only Company.
 
+-   **[Party Relationship Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-prc-overview.md)**
 
-## April 2026
-
-The ServiceNow® Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.
-
-### What's new
-
--   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
-
-    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    Each node in the Relationship viewer shows its table label as a tagline, so you can identify the record type at a glance.
 
 
-## Australia Early Availability
+## Version 3.1.0
 
-The ServiceNow® Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.
+The September 2026 release introduces the Party Relationship Center, an interactive node map displaying entities connected to a consumer or account.
 
 ### What's new
 
--   **[Customer information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md)**
+-   **[Party Relationship Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-prc-overview.md)**
 
-    View customer account, contact, or consumer information including contact details, location, and recent interaction summary for efficient service delivery.
+    View the network of entities connected to a consumer or account, including billing accounts, sold products, related parties, and active cases as an interactive node map from any Telecommunications Customer 360 record page.
 
--   **[Interaction history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-inter-history-card.md)**
-
-    Track customer interactions over time with date range filtering. View the chronological history of customer engagements to understand previous communication context.
-
--   **[Trend charts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-data-visual-card.md)**
-
-    Monitor key customer metrics through visual charts including NPS and CSAT scores with target comparisons and trend lines. View the last updated timestamps for each metric.
-
--   **[Billing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-billing-card.md)**
-
-    Review customer billing information and invoices for the selected billing account. Search and filter billing records to quickly locate specific invoice details.
-
--   **[Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-products-card.md)**
-
-    Identify active products and services associated with the customer account. View counts of related cases, service problem cases, incidents, and test results for each product to understand product-specific issues.
-
--   **[Cases, tasks, and orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-tasks-card.md)**
-
-    Manage multiple task types including service problem cases, cases, customer orders, work orders, complaint cases, and invoice cases in a unified view. View details such as case numbers, descriptions, state, sold products, and priority levels across all task records.
-
-
-## Australia
-
-The ServiceNow® Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. Telecommunications Customer 360 is a new application in the Australia release.
-
-### Plugin information
-
--   **New plugins**
-
-    The following plugins are new in Australia.
-
-    -   Telecommunications Customer 360 \(com.sn\_telecom\_c360\): The Telecommunications Customer 360 plugin is a scoped application that includes the data model and all the modules of the Telecommunications Customer 360 application.
-
-    -   Recommended actions for Telecommunications \(com.snc.sn\_telecom\_ra\): Enables you to search for Knowledge Base articles and trigger agentic workflows relevant to the current account or consumer record.
 

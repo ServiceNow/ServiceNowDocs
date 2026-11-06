@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with Advanced Risk, Reference, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Components installed with Advanced Risk, Reference, Risk Management
 
 When you integrate advanced risk assessment with other applications, you must ensure the users have the necessary roles to perform and approve the assessments.
 
-Starting with version 14.1.2, several new roles have been introduced to enable users of other applications to successfully use the advanced risk assessments feature. These independent roles have been created to provide the users the required ability to perform advanced risk assessment without requiring the Integrated Risk Management specific roles such as Risk Admin, GRC Business User.
+Starting with version 14.1.2, several new roles have been introduced to enable users of other applications to successfully use the advanced risk assessments feature. These independent roles have been created to provide the users the required ability to perform advanced risk assessment without requiring the Integrated Risk Management specific roles such as Risk admin, GRC Business User.
 
 **Note:** You must manually assign the advanced risk assessment roles to the sn\_grc.business\_user role. To understand how you can adjust granting of roles and groups, see the [How to adjust granting of roles and groups to use background jobs \[KB0963693\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0963693) article in the Now Support Knowledge Base. To understand more about the GRC business user role, see the [GRC Business User \[KB0864247\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0864247) article in the Now Support Knowledge Base article in the Now Support Knowledge Base. You must log in to Now Support to view the article.
 
@@ -42,7 +42,7 @@ sn\_risk\_advanced.ara\_admin
 
 </td><td>
 
-sn\_risk.admin
+sn\_risk.admin, sn\_grc.admin, sn\_compliance.admin, sn\_grc.sn\_grc\_system\_admin
 
 </td><td>
 
@@ -55,6 +55,7 @@ Users with this role can:-   Create risk assessment methodologies
 -   sn\_risk\_advanced.ara\_assessor
 -   sn\_risk\_advanced.ara\_approver
 -   sn\_risk\_advanced.ara\_reader
+-   sn\_risk\_advanced.ara\_planner
 
 </td></tr><tr><td>
 
@@ -78,7 +79,7 @@ sn\_risk\_advanced.ara\_assessor
 
 </td><td>
 
-sn\_grc.business.user
+sn\_risk.user, sn\_risk\_advanced.ara\_admin, sn\_risk\_advanced.risk\_identification\_owner
 
 </td><td>
 
@@ -95,7 +96,7 @@ sn\_risk\_advanced.ara\_approver
 
 </td><td>
 
-sn\_grc.business.user
+sn\_risk.user, sn\_risk\_advanced.ara\_admin, sn\_risk\_advanced.risk\_identification\_owner
 
 </td><td>
 
@@ -107,11 +108,27 @@ sn\_risk\_advanced.ara\_reader
 
 </td></tr><tr><td>
 
+sn\_risk\_advanced.ara\_planner
+
+</td><td>
+
+sn\_risk\_advanced.ara\_admin
+
+</td><td>
+
+Users with this role can reassign one or more in-progress risk assessments to a different assessor from the **In Progress Assessments** list.
+
+</td><td>
+
+sn\_risk\_advanced.ara\_creator, sn\_risk\_advanced.ara\_reader
+
+</td></tr><tr><td>
+
 sn\_risk\_advanced.ara\_reader
 
 </td><td>
 
-sn\_risk.reader
+sn\_risk.reader, sn\_risk\_advanced.ara\_admin, sn\_risk\_advanced.ara\_approver, sn\_risk\_advanced.ara\_assessor, sn\_risk\_advanced.ara\_creator, sn\_risk\_advanced.ara\_planner, sn\_risk\_advanced.risk\_identification\_admin
 
 </td><td>
 
@@ -127,9 +144,7 @@ sn\_risk\_advanced.qualitative\_risk\_appetite\_reader
 
 </td><td>
 
-sn\_risk.user
-
- sn\_risk.reader
+sn\_risk.reader
 
 </td><td>
 

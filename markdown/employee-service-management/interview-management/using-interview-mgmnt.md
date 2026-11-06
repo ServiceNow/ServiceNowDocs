@@ -7,7 +7,7 @@ release: australia
 product: Interview Management
 classification: interview-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Interview Management, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -32,14 +32,14 @@ As a recruiter, remove interview phases that you had set up once they aren’t n
 Schedule interview with applicants on a job requisition to get started with the interview journey.
 -   **[Manage interviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/manage-interviews-recruiter.md)**  
 Manage interviews as a recruiter or recruitment coordinator. Update interviews as needed.
--   **[Tracking interview health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/tracking-interview-health.md)**  
-The Interview health tracker gives recruiters and coordinators a unified view to monitor interview health and address support needs proactively, reducing reactive coordination effort.
 -   **[Provide interview feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/provide-interview-feedback-recruiter.md)**  
 As a recruiter or recruitment coordinator, provide feedback for interviews that you're part of.
 -   **[Share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/share-availability-interviewer.md)**  
 As an interviewer, when requested by recruiters, share your scheduling preferences to help them schedule interviews accordingly.
 -   **[Managing interviews as an interviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/manage-interviews-interviewer.md)**  
 As an interviewer, view and manage interviews that you’re part of.
+-   **[Provide interview feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/provide-interview-feedback-hm-interviewer.md)**  
+As an interviewer or hiring manager, provide feedback for interviews that you're part of.
 
 **Parent Topic:**[Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/interview-management/interview-management-landing.md)
 

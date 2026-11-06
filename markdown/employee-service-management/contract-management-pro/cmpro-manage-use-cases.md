@@ -39,7 +39,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
         Modify the use case by adding new fields, or updating, deactivating, or deleting existing fields.
 
-        For more information on the **Field** form, see [Field form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-extraction-single-field-form.md) and [Question form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-qna-single-field-form.md).
+        For more information on the **Field** form, see [Field form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/field-form.md) and [Question form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/question-form.md).
 
         The base system use cases, **CM Pro - Contract Metadata Extraction** for contract metadata extraction, **CM Pro - Contract Obligation Extraction** for obligation extraction, and **CM Pro - Contract Analysis** for contract analysis cannot be edited, deleted, or deactivated. To customize these use cases, make a copy of the base system use cases and update the copied versions.
 

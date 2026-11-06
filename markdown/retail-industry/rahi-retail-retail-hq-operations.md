@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-retail-hq-operations.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prebuilt Retail case types, Retail case types, Explore, Retail]
+breadcrumb: [Retail case types, Explore, Retail]
 ---
 
 # HQ communications case
@@ -18,5 +18,5 @@ The HQ communications case enables effective coordination between HQ teams. It f
 
 For information on the components installed with HQ communications case, see [Components installed with Retail HQ Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-components-retail-hq-operations.md).
 
-**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types-revamp.md)
+**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types.md)
 

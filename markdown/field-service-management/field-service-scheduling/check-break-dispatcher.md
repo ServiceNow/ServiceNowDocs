@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [check break, break status, embedded break, Dispatcher Workspace]
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]

@@ -1,21 +1,21 @@
 ---
-title: ERP data extraction and transformation
-description: ERP \(Enterprise Resource Planning\) extraction tables enable you to create daily processes that extract large amounts of data. You can then include the extracted data in an ERP model in Zero Copy Connector for ERP.
+title: Extracting and transforming ERP data with Zero Copy Connector for ERP extraction tables
+description: Use ERP extraction tables in Zero Copy Connector for ERP to schedule processes that extract large volumes of ERP data into local tables on the ServiceNow AI Platform. Then the data is transformed with table maps and can be used in ERP models and applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-08-05"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
-keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, extract, extraction table]
+keywords: [extraction table, zero copy connector for erp, erp extraction table, erp data extraction, standard extraction tables, transform table map, erp etl, import set, scheduled data extraction]
 breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# ERP data extraction and transformation
+# Extracting and transforming ERP data with Zero Copy Connector for ERP extraction tables
 
-ERP \(Enterprise Resource Planning\) extraction tables enable you to create daily processes that extract large amounts of data. You can then include the extracted data in an ERP model in Zero Copy Connector for ERP.
+Use ERP extraction tables in Zero Copy Connector for ERP to schedule processes that extract large volumes of ERP data into local tables on the ServiceNow AI Platform. Then the data is transformed with table maps and can be used in ERP models and applications.
 
 ## Data in extraction tables
 
@@ -31,7 +31,7 @@ ERP extraction tables save data to a local transform table on the ServiceNow AI 
 
 If you use a custom transform table, you must first create the table on the ServiceNow AI Platform, and the table must be in the application scope. For more information on creating table transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/t_CreateATransformMap.md).
 
-ETL processes in Zero Copy Connector for ERP are configured in the ServiceNow AI Platform app that needs the data, not Zero Copy Connector for ERP. For example, you can configure an extraction process in a flow in Workflow Studio.
+ETL processes in Zero Copy Connector for ERP \(Enterprise Resource Planning\) are configured in the ServiceNow AI Platform app that needs the data, not Zero Copy Connector for ERP. For example, you can configure an extraction process in a flow in Workflow Studio.
 
 ## Automatically available standard extraction tables
 

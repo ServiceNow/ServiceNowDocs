@@ -7,7 +7,7 @@ release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Opportunity Marketplace, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -40,7 +40,7 @@ Description
 
 </td><td>
 
-The names of the applicants links to their **Employee Profile**, see [Use Employee Profile with HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/employee-profile.md).
+The names of the applicants links to their **Employee Profile**, see .
 
 </td></tr><tr><td>
 

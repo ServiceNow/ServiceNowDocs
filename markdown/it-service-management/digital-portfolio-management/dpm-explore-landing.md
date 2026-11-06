@@ -7,7 +7,7 @@ release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Digital Portfolio Management, IT Service Management]
 ---
@@ -42,7 +42,7 @@ You're encouraged to personalize the Current status section to see those solutio
 
 \[Omitted image "dpm-homepage-solution-card-overview.png"\] Alt text: DPM homepage solution card overview
 
-**Important:** For the Australia release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. Prior to the Australia release, the labels are technology management service and technology management service Offering.
+**Important:** For the Brazil release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. Prior to the Brazil release, the labels are technology management service and technology management service Offering.
 
 1.  Solution name and type \(service, service offering, business application, or service instance\).
 2.  Actions menu \[Omitted image "icon-actions.png"\] Alt text: Actions menu icon to view the solution's details, its relationship map, or remove the item from your homepage. For more information, see [Personalize the Digital Portfolio Management Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).

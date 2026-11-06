@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/dmc-create-onetime-delete-rule.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Previewing and deleting records in Data Management Console, Manage data growth in Data Management, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,15 +26,15 @@ Create a one-time delete rule to delete records once. To delete records on a rec
 
 1.  Access the create rule wizard in the Data Management Console in one of the following ways.
 
-<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d134856e72">
+<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d135451e71">
 
 Option
 
-</th><th align="left" id="d134856e75">
+</th><th align="left" id="d135451e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d134856e81">
+</th></tr></thead><tbody><tr><td id="d135451e80">
 
 **Overview tab**
 
@@ -45,7 +45,7 @@ Steps
 3.  Select **Create rule**.
 
 
-</td></tr><tr><td id="d134856e119">
+</td></tr><tr><td id="d135451e118">
 
 **Rules tab**
 
@@ -151,15 +151,15 @@ Consider scheduling the one-time delete rule to run during non-business hours to
 
 1.  On the Set up schedule page, schedule the one-time delete rule to run now or at a later date.
 
-<table id="choicetable_orr_f3t_13c"><thead><tr><th align="left" id="d134856e499">
+<table id="choicetable_orr_f3t_13c"><thead><tr><th align="left" id="d135451e497">
 
 Option
 
-</th><th align="left" id="d134856e502">
+</th><th align="left" id="d135451e500">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d134856e508">
+</th></tr></thead><tbody><tr><td id="d135451e506">
 
 **Schedule later**
 
@@ -167,7 +167,7 @@ Description
 
 Set up a schedule at a later time.
 
-</td></tr><tr><td id="d134856e517">
+</td></tr><tr><td id="d135451e515">
 
 **Execute upon creation**
 
@@ -175,7 +175,7 @@ Set up a schedule at a later time.
 
 Run the one-time delete rule immediately after you finish creating it.
 
-</td></tr><tr><td id="d134856e526">
+</td></tr><tr><td id="d135451e524">
 
 **Run at**
 

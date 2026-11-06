@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+FALSE
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Security risk
 
 -   Severity score: 6.5
 -   CVSS rating: Medium
--   Security risk details: Emails that lack a specific target record may become visible to all users, resulting in unauthorized access to potentially sensitive communication and violating principles of least privilege and data confidentiality.
+-   Security risk details: Emails without a target record are visible to all users, allowing unauthorized access to sensitive communication and violating data confidentiality principles.
 
 </td></tr><tr><td>
 

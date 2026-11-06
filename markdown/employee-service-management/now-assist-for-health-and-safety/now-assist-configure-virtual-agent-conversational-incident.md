@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure conversational AI, Configure, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -31,7 +31,7 @@ Role required: admin
 
     For more information, see [Install Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md)
 
-4.  For detailed information about configuring ServiceNow Otto for Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+4.  For detailed information about configuring ServiceNow Otto for Virtual Agent, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 ## Procedure
 

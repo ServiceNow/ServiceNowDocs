@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/create-test-specification.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up test definitions, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Setting up test definitions, Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Create a test definition
@@ -26,87 +26,21 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-<table id="table_ehw_2p5_3bc"><thead><tr><th>
+    For more information about the fields, see [Service Test Definition form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/test-definition-fields.md).
 
-Field
+4.  Select **Submit**.
 
-</th><th>
 
-Description
+## Result
 
-</th></tr></thead><tbody><tr><td>
+The system creates a test definition record and sets its state to Draft. While the test definition is in the Draft state, you can edit it and its related records.
 
-Number
+## What to do next
 
-</td><td>
+Define the values that the test captures. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/define-test-measure-spm.md).
 
-Auto-generated ID for the test definition.
+**Related topics**  
 
-</td></tr><tr><td>
 
-Name
-
-</td><td>
-
-Name of the test definition.
-
-</td></tr><tr><td>
-
-Owner
-
-</td><td>
-
-Name of the person who is responsible for maintaining this definition.
-
-</td></tr><tr><td>
-
-State
-
-</td><td>
-
-State of the test definition.-   **Draft**
-
-Unpublished draft service test definition that is assigned when you first create the definition record.
-
--   **Published**
-
-Published service test definition that is assigned when you formally publish it for use.
-
-The service test definition and the related tables cannot be modified in the published state.
-
--   **Retired**
-
-Service test definition that is retired.
-
--   **Archived**
-
-Service test definition is no longer used in diagnosing process.
-
-</td></tr><tr><td>
-
-Published on
-
-</td><td>
-
-Date on which the test definition is published.
-
-</td></tr><tr><td>
-
-Retired on
-
-</td><td>
-
-Date on which the test definition is retired.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-Description for the test definition.
-
-</td></tr></tbody>
-</table>4.  Select **Submit**.
-
+[Test definitions in Service Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/test-definition-stm.md)
 

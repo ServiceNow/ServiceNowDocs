@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/bulk-export-glossary-terms.html
 release: australia
 topic_type: task
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [glossary export bulk operations data catalog XLSX]
 breadcrumb: [Managing glossary terms, Data Catalog, Workflow Data Fabric]

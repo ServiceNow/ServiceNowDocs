@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [demand record, landing page, system property, sn\_align\_ws]
 breadcrumb: [Configure, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]

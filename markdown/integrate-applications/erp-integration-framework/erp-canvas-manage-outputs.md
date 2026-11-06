@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-10-22"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, output, parameter, read, update, model, operation, map]
 breadcrumb: [Model management, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -41,7 +41,7 @@ If you're already in the process of managing a model and ready to specify output
 
 6.  Open an entity.
 
-    If you don't have an entity, add one to the operation. For more information, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+    If you don't have an entity, add one to the operation. For more information, see [Adding an entity to a Zero Copy Connector for ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
 7.  Select the **Choose outputs** tab.
 
@@ -55,7 +55,7 @@ If you're already in the process of managing a model and ready to specify output
 
     In the Table/Functioncall section, define the parameters the operation uses. The Table section appears for read operations, and the Functioncall section appears for BAPI operations.
 
-    Zero Copy Connector for ERP automatically suggests mappings between table fields in source systems and target models. For example, map the fields of source table "purchase order - v2" with the fields of a relevant target table such as "platform table purchase order." This reduces the amount of manual work to do, while still giving you control to edit the mappings as needed. For more information, see [Zero Copy Connector for ERP AI semantic field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-semantic-mapping.md).
+    Zero Copy Connector for ERP automatically suggests mappings between table fields in source systems and target models. For example, map the fields of source table **purchase order - v2** with the fields of a relevant target table such as **platform table purchase order**. This reduces the amount of manual work to do, while still giving you control to edit the mappings as needed. For more information, see [Zero Copy Connector for ERP AI semantic field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-semantic-mapping.md).
 
     **Note:** The system generates mapped value names in inputs and outputs automatically, but you can edit them manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-edit-mapped-value-name-in-model-manager.md).
 
@@ -71,7 +71,7 @@ If you're already in the process of managing a model and ready to specify output
 
     3.  Enter the corresponding value in the **Mapped value** field.
 
-    If you're adding a complex, nested parameter, such as an address that includes other parameters \(for street, for city, etc.\), Zero Copy Connector for ERP automatically identifies that it needs additional related parameters. Zero Copy Connector for ERP creates new, nested parameter rows that you must then populate with the related values. You can nest only parameters with **Object** or **Array** as the **Data type**.
+    If you're adding a complex, nested parameter, such as an address that includes other parameters, Zero Copy Connector for ERP automatically identifies that it needs additional related parameters. Zero Copy Connector for ERP creates new, nested parameter rows that you must then populate with the related values. You can nest only parameters with **Object** or **Array** as the **Data type**.
 
     The following example shows outputs and nested outputs for a BAPI.
 

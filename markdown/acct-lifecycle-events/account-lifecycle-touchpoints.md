@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-touchpoints.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer success, Explore, Customer Success Management]
 ---

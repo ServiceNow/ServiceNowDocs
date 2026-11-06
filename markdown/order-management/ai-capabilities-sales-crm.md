@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/ai-capabilities-sales-crm.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
@@ -37,7 +37,7 @@ Each ServiceNow Otto plugin packages the individual AI plugins and required depe
 |Benefit|Feature|Store plugin|Used with|
 |-------|-------|------------|---------|
 |Manage the lead life cycle using an agentic workflow.|[Nurturing leads using agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/help-nurture-new-leads-agentic-workflow.md)|Sales Development AI Agents \(com.sn\_sd\_ai\_agents\)|Lead Management|
-|Retrieve, update, create, and delete opportunity records and related CRM data from an MCP client using natural language.|[CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-opportunity-records.md)|Opportunity Management AI Features \(com.sn\_opty\_mgmt\_ai\)|Opportunity Management|
+|Retrieve, update, create, and delete opportunity records and related CRM data from ServiceNow Otto and an MCP client using natural language.|[CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-opportunity-records.md)|Opportunity Management AI Features \(com.sn\_opty\_mgmt\_ai\)|Opportunity Management|
 |Get an immediate view of key details, customer needs, recent activity, and risks about an opportunity without reviewing multiple records.|[Summarize opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/now-assist-som-summarize-opportunity.md)|Opportunity Management AI Features \(com.sn\_opty\_mgmt\_ai\)|Opportunity Management|
 |Score opportunities, surface risk signals, and deliver qualitative insights that help sellers and leaders make faster, more confident decisions using machine learning.|[View opportunity scores and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-opty-scores-insights.md)|Opportunity Management ML \(sn\_opty\_mgmt\_ml\)|Opportunity Management|
 |Associate sales emails with CRM records using AI-powered workflow.|[AI sales activity association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-ai-sales-activity-association.md)|AI sales activity association \(com.sn\_act\_assoc\_agent\)|Activity Management|
@@ -87,4 +87,6 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md).
 

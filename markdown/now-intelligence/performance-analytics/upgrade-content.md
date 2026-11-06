@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install a dashboard, Platform Analytics solutions, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Role required: pa\_admin
 
 ## About this task
 
-When you install or upgrade a Performance Analytics solution, out of the box content in the instance is overwritten and new content is added to the dashboard. Any content that you have previously customized on the dashboard is not changed.
+When you install or upgrade a Performance Analytics solution, base system content in the instance is overwritten and new content is added to the dashboard. Any content that you have previously customized on the dashboard is not changed.
 
 ## Procedure
 

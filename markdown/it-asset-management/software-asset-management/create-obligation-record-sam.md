@@ -7,10 +7,10 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [obligation in software asset workspace, obligation record]
-breadcrumb: [Manage obligation tasks in the Software Asset Workspace, Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage obligation tasks in the Software Asset Workspace, Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an obligation record in the Software Asset Workspace
@@ -33,7 +33,7 @@ Recurring obligation tasks are automatically created from the obligation record.
 
 2.  Select **Software contracts**.
 
-3.  Select an active contract record.
+3.  Select the active contract record.
 
 4.  Select the **Obligations** tab.
 

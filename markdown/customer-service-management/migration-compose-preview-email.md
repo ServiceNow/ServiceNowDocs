@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migration-compose-preview-email.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CRM Workspace, Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrate to CRM Workspace, Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Email Composer and Email Viewer
@@ -28,7 +28,7 @@ For more information about the Email Composer component, see [Next Experience Co
 
 ## Email Viewer
 
-The Email Viewer component enables customer service agents to preview emails in CSM Configurable Workspace before sending them to customers. The component is associated with a record to include emails as part of the record.
+The Email Viewer component enables customer service agents to preview emails in CRM Workspace before sending them to customers. The component is associated with a record to include emails as part of the record.
 
 |Legacy table name|UIB table name|
 |-----------------|--------------|

@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Training your teams, Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Training your teams, Coaching, Workforce Optimization for ITSM, IT 
 
 Assess the quality of your teams' completed tasks. Use surveys to get feedback on from your team.
 
-**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+**Important:** Starting with the Brazil release, User Surveys in Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 **Note:** For detailed information on how to create a survey and associate with a coaching opportunity, see [Create a survey and associate with a Coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/coaching/cf-create-survey-coaching-opportunity.md).
 

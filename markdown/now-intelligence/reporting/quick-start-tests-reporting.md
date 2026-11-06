@@ -7,9 +7,9 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Quick start tests for Reporting
@@ -24,7 +24,7 @@ The Reporting quick start test Automated Test Framework - Reporting plugin \(com
 |----|-----------|---------------|
 |Report Visibility|Confirm whether reports are still visible to users whom they are shared with.|Madrid|
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 
 **Related topics**  
 

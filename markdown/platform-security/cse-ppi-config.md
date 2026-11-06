@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cse-ppi-config.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Code Signing, Platform Security]
 ---
@@ -78,4 +78,6 @@ Roles required:
 Signature validation is now being enforced on your production instance. You can verify successful completion by looking at your system properties. Look for the **com.snc.kmf.signature.validation.flag** property on the System Properties \[sys\_property\] table, and verify that it has a value of **true**. Verify that the **com.snc.kmf.signature.validation.certificate\_trust** property doesn’t have an empty value.
 
 \[Omitted image "cse-verify.png"\] Alt text: Property values verifying that signature validation is now being enforced
+
+**Parent Topic:**[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/config-code-signing.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/scenario-analysis-forecast.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -32,7 +32,7 @@ After creating an analysis record, a standard forecast graph and adjustable para
 
 The following example shows a generated standard forecast.
 
-\[Omitted image "standard-forecast.png"\] Alt text: Standard forecast. For the text description, refer to the text that preceded this example.
+\[Omitted image "standard-forecast.png"\] Alt text: IStandard forecast. For the text description, refer to the text that preceded this example.
 
 You can create forecast interventions, to explore different possible outcomes by updating input parameters. A graph is generated showing the standard forecast and the new adjusted forecast.
 

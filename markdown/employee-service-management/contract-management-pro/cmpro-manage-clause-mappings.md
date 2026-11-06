@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Update clause mappings, Modify clause mappings, Edit clause mappings, Delete clause mappings, Deactivate clause mappings]
 breadcrumb: [Manage AI skills, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]

@@ -1,22 +1,22 @@
 ---
 title: Outbound Request
-description: Initiate outbound requests to manage service orders by interacting with external Service Order Management \(SOM\) to facilitate end-to-end order fulfillment. This process requires specific roles and is enabled via bi-directional REST API integration with Order Management for Sales and Service API Core.
+description: Initiate outbound requests to manage service orders by interacting with external Service Order Management \(SOM\) to facilitate end-to-end order fulfillment. This process requires specific roles and is enabled via bi-directional REST API integration with Order Management for CRM API Core.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/outbound-request-configuration-table.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Sales and Service API Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [CRM API Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Outbound Request
 
-Initiate outbound requests to manage service orders by interacting with external Service Order Management \(SOM\) to facilitate end-to-end order fulfillment. This process requires specific roles and is enabled via bi-directional REST API integration with Order Management for Sales and Service API Core.
+Initiate outbound requests to manage service orders by interacting with external Service Order Management \(SOM\) to facilitate end-to-end order fulfillment. This process requires specific roles and is enabled via bi-directional REST API integration with Order Management for CRM API Core.
 
 ## Overview of the Outbound Request table
 
-The Sales and Service Core API \(com.sn\_tmt\_core\) plugin is required to use the Outbound Request table \(sn\_tmt\_core\_outbound\_request\).
+The CRM API Core \(com.sn\_tmt\_core\) plugin is required to use the Outbound Request table \(sn\_tmt\_core\_outbound\_request\).
 
 As a provider, you can initiate an outbound request to manage service orders by interacting with external systems such as Service Order Management \(SOM\). This process supports the end-to-end order fulfillment life cycle, enabling seamless coordination between internal and external platforms.
 

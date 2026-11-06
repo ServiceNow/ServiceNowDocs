@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opportunity-mgmt-using.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales automation apps, Use, Sales Customer Relationship Management]
 ---

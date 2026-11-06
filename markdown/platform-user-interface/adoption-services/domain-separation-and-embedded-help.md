@@ -7,7 +7,7 @@ release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Embedded Help reference, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
@@ -47,5 +47,5 @@ If your organization uses domain separation, you can create custom embedded help
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

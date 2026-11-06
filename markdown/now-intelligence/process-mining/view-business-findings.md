@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---

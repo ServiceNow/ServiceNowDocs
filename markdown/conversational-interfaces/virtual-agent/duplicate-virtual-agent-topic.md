@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Virtual Agent, topic, duplicate, duplication, copy, NLU, LLM]
-breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Duplicating a Virtual Agent topic
@@ -27,7 +27,6 @@ Consider duplicating topics in the following scenarios:
 
 -   When you want to use an existing topic, such as a prebuilt topic or topic block, as the basis for a new topic or topic block.
 -   When you want to modify an active topic while preserving the original topic for reference purposes or as a backup.
--   When you want to convert a Natural Language Understanding \(NLU\) topic to a large language model \(LLM\) topic.
 
 ## Procedure
 
@@ -45,7 +44,7 @@ Consider duplicating topics in the following scenarios:
 
 5.  Update the properties on the **Properties** tab and on the **Flow** tab, change the conversation flow design as needed.
 
-    **Note:** Keep in mind the goal or purpose of your new topic as you set the properties and update the flow. For example, if you're using keyword-based topics, you might need to change certain keywords based on the purpose of your new topic. For LLM topics, you might need to select one or more LLM assistants. For Natural Language Understanding \(NLU\)-enabled topics, you might need to change the NLU model and intent associated with the topic.
+    **Note:** Keep in mind the goal or purpose of your new topic as you set the properties and update the flow. For example, you might need to select one or more LLM assistants.
 
 <table id="table_ahw_hqt_hmb"><thead><tr><th>
 
@@ -74,14 +73,12 @@ See [Create a reusable topic block](https://raw.githubusercontent.com/ServiceNow
 </td></tr></tbody>
 </table>6.  As you update your design, use the **Test** option to run your design in a chat test window, then fine-tune your design flow accordingly.
 
-    For details on test features of LLM topics, see [Testing LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/test-llm-topics.md).
-
-    For details on test features regarding NLU topics, see [Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-designer-testing.md).
+    For more information, see [Testing LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/test-llm-topics.md).
 
 
 ## What to do next
 
 If you’ve completed the topic or topic block, [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md) it to deploy it to your Virtual Agent clients.
 
-**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

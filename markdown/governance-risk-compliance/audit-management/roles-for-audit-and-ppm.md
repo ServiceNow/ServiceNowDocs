@@ -7,9 +7,9 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Audit Management reference, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Reference, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Roles required for Advanced planning capability
@@ -88,8 +88,8 @@ You can log hours in a time card for an engagement and other tasks on an engagem
 </td><td>
 
 -   Users need timecard\_user role to create a time card.
--   Users who already have access to the engagement, audit tasks, milestones, and issues can view all time cards if they have the sn\_ppm\_read, timecard\_approver, or timecard\_admin role.
--   Users with the timecard\_user role can view only the time cards they reported on engagements, audit tasks, milestones, and issues they can access.
+-   Users who already have access to the engagement, audit tasks, milestones, and issues can view all time cards on these items. They must also have sn\_ppm\_read or timecard\_approver or timecard\_admin roles.
+-   Users who already have access to the engagement, audit tasks, milestones, and issues and also have the timecard\_user role can view only their own time cards. They can view time cards they reported on the engagement, audit tasks, milestones, and issues.
 -   Users need timecard\_approver role to approve a submitted time card. The time sheet policy assigned to the user governs the approval process.
 
 </td></tr></tbody>

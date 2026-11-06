@@ -7,9 +7,9 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [ServiceNow, Health Log Analytics, HLA, GCP PubSub, data input, configuration, setup]
+keywords: [ServiceNow, Health Log Analytics, HLA, GCP PubSub, data input, manual, configuration, setup]
 breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -25,7 +25,7 @@ Set up a data input for receiving log messages that were published to a Google C
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
--   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
+-   Unless the MID Server and external clients are on the same network, verify that the MID Server has a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
 -   For shipping your logs encrypted using SSL TLS, see the [Streaming Data With Rsyslog &amp; Filebeat Using SSL \[KB0866319\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0866319) article in the Now Support Knowledge Base.
 
 Role required: evt\_mgmt\_admin
@@ -46,8 +46,6 @@ Role required: evt\_mgmt\_admin
 
 5.  Select **Advanced** to set additional configuration fields.
 
-    For a description of the fields, see [GCP PubSub data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub-ref.md).
-
 6.  Select **Save**.
 
     Health Log Analytics adds the data input record to the Data Inputs table.
@@ -63,14 +61,16 @@ Role required: evt\_mgmt\_admin
 
         **Note:** You can only publish the data input configuration when the connection is created successfully.
 
-    **Note:** You can revert to the last published configuration by selecting **Revert Changes**. This option is available only when you're modifying a configuration that has been published previously.
+8.  Revert to the last published configuration by selecting **Revert Changes**.
 
-8.  Select **Publish** to publish the data input to the MID Server.
+    **Note:** This option is available only when you're modifying a previously published configuration.
+
+9.  Select **Publish** to publish the data input to the MID Server.
 
 
 ## Result
 
-The data input configuration process is complete. Health Log Analytics adds the data input record to the **Data Inputs** table and attaches the configuration file to the data input record. The data input starts to receive log messages from the Google Cloud Pub/Sub topic and streams them to your ServiceNow instance via the MID Server.
+The data input configuration process is complete. Health Log Analytics adds the data input record to the **Data Inputs** table. The data input starts to receive log messages from the Google Cloud Pub/Sub topic and streams them to your ServiceNow instance via the MID Server.
 
 **Note:** If the HLA engine is down and data has stopped streaming, a notification appears at the top of the data input configuration page. When this happens, contact ServiceNow support.
 

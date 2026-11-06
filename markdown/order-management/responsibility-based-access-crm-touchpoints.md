@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/responsibility-based-access-crm-touchpoints.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Sales automation apps, Configure, Sales Customer Relationship Management]
 ---

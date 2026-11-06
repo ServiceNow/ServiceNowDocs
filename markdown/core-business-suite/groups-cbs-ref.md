@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/groups-cbs-ref.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [create group form, Core Business Suite, field descriptions]
 breadcrumb: [Reference, Core Business Suite]

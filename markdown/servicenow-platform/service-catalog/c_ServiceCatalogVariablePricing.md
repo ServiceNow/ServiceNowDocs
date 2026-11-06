@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,7 +39,7 @@ Under the **Type Specifications** tab, you can specify the price in different cu
 -   Fixed
 -   Multiple
 
-For information on the pricing models, see [Price fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/price-fields.md) .
+For information on the pricing models, see Price fields .
 
 ## Multiple choice
 

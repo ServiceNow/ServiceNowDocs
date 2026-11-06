@@ -1,20 +1,20 @@
 ---
 title: Correcting employee documents in the staging table
-description: Use the Employee Document Staging form to correct staging records prior to importing to HR Service Delivery. Staging records are created after you have mapped your source employee documents and the Start staging job has run.
+description: Use the Employee Document Staging form to correct staging records before importing to HR Service Delivery. Staging records are created after you have mapped your source employee documents and the Start staging job has run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-document-management/edm-doc-staging.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Bulk imports, Use, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Employee Document Management bulk imports, Using Employee Document Management, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Correcting employee documents in the staging table
 
-Use the Employee Document Staging form to correct staging records prior to importing to HR Service Delivery. Staging records are created after you have mapped your source employee documents and the Start staging job has run.
+Use the Employee Document Staging form to correct staging records before importing to HR Service Delivery. Staging records are created after you have mapped your source employee documents and the Start staging job has run.
 
 ## Before you begin
 
@@ -24,21 +24,21 @@ Role required: sn\_hr\_ef.admin, sn\_hr\_ef.document\_import
 
 1.  Navigate to **All** &gt; **HR Administration** &gt; **Bulk Import** &gt; **Document Staging**.
 
-    Or, from the Employee Document Import Configuration form, click the **Start staging job** related link.
+    Or, from the Employee Document Import Configuration form, select the **Start staging job** related link.
 
     After the Employee Document Staging job runs successfully, you can review and correct any errors.
 
-2.  Click an employee name.
+2.  Select an employee name.
 
-3.  Click the **Validate** button.
+3.  Select the **Validate** button.
 
     The Verify Fields pop-up appears.
 
 4.  Edit incorrect information.
 
-5.  Click **Complete**.
+5.  Select **Complete**.
 
-6.  Click **Ready for Import**.
+6.  Select **Ready for Import**.
 
     You can also correct fields from the **Employee Document Staging** form.
 
@@ -87,7 +87,7 @@ The state of the employee document.-   Ready: Document is ready to be captured a
 
 
 </td></tr></tbody>
-</table>7.  Click the **Attachment Content** tab.
+</table>7.  Select the **Attachment Content** tab.
 
 <table id="table_alk_zzw_qfb"><thead><tr><th>
 
@@ -116,7 +116,7 @@ Content
 The path in the source repository that the staged document resides.
 
 </td></tr></tbody>
-</table>8.  Click the Additional Information tab.
+</table>8.  Select the Additional Information tab.
 
 <table id="table_evg_c1x_qfb"><thead><tr><th>
 
@@ -140,7 +140,7 @@ Configuration
 
 </td><td>
 
-The name of that identifies your employee document bulk import configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md).
+The name of that identifies your employee document bulk import configuration. See [Configure employee document bulk import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md).
 
 </td></tr><tr><td>
 
@@ -159,16 +159,16 @@ Domain
 Automatically populated via domain separation and identifies the specific domain you are configuring employee documentation bulk uploads for.For more information on domain separation, see [Domain Separation and HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-domain-separation.md).
 
 </td></tr></tbody>
-</table>9.  Click **Validate** to ensure that the employee and document type are correct.
+</table>9.  Select **Validate** to confirm that the employee and document type are correct.
 
     You can change this information from the pop-up.
 
-10. After making changes, click **Update**.
+10. After making changes, select **Update**.
 
     The Employee Document Import Configuration form returns. You can continue reviewing and correcting Employee Document Staging records.
 
-11. After reviewing and determining the staging records look correct, click the **Start capture job** related link to start the import process.
+11. After reviewing and determining the staging records look correct, select the **Start capture job** related link to start the import process.
 
 
-**Parent Topic:**[Employee document management bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-uploads.md)
+**Parent Topic:**[Employee Document Management bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-uploads.md)
 

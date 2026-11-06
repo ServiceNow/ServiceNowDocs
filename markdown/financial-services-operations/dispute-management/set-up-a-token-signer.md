@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [set up token signer, data token signer, jwt bearer grant type, oauth entity profile, token signing, context-aware authorization, carddatasecurity datatokensigner, token signer configuration, jwt bearer authentication]
 breadcrumb: [Set up OAuth for Card Data Security, Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]

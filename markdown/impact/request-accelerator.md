@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/request-accelerator.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
+breadcrumb: [Manage Initiative and Accelerator permissions, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Request an Accelerator from IDI
@@ -45,5 +45,5 @@ Role required: Impact platform owner
     **Note:** An Impact Permissions Authorizer will grant or deny the request to start the initiative. See [Manage Initiative and Accelerator permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/grant-ide-permissions.md) for additional information.
 
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-delivery-instance-reference.md)
+**Parent Topic:**[Manage Initiative and Accelerator permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/grant-ide-permissions.md)
 

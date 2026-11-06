@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [RADAC fields, field reference, RADAC table, data type]
 breadcrumb: [Reference, RIDAC, Strategic Planning, Strategic Portfolio Management]

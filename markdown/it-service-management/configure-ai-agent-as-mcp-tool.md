@@ -23,11 +23,15 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to the MCP server authentication configuration and activate the ITSM MCP server.
+1.  Make sure the ITSM MCP Server is activated.
 
-    In the authentication scope field, select **A2A auth scope**. This enables the REST A2A protocol to access your AI agent MCP tools. For information on activating the ITSM MCP Server, see [Activate the ITSM MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/set-up-itsm-mcp-server.md).
+    For information on activating the ITSM MCP Server, see [Activate the ITSM MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/set-up-itsm-mcp-server.md).
 
-2.  Configure the communication mode for external AI agents in AI Agent Studio.
+2.  Authenticate the ITSM MCP Server with your ServiceNow instance.
+
+    -   See the [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md) to set up the OAuth and connect to the ITSM MCP Server.
+    -   In the authentication scope field, select **a2aauthscope**. This enables the REST A2A protocol to access your AI agent MCP tools.
+3.  Configure the communication mode for external AI agents in AI Agent Studio.
 
     1.  Navigate to **AI Agent Studio** &gt; **Settings**.
 
@@ -37,7 +41,7 @@ Role required: admin
 
     For more information on the communication modes, see [Integrate external AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-external-aia.md).
 
-3.  Enable third-party access on the AI agent definition.
+4.  Enable third-party access on the AI agent definition.
 
     In AI Agent Studio, open the AI agent and navigate to the **Define the specialty** screen. Enable the toggle for **Allow third party access to this AI agent**.
 

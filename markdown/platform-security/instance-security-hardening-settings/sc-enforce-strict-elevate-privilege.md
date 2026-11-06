@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Use the **glide.security.strict\_elevate\_privilege** property to control whether roles marked as privileged must be manually elevated for the user to be granted the role's capabilities.
 
-When the **glide.security.strict\_elevate\_privilege** system property is set to **true**, roles marked as privileged must always be manually elevated by an admin user upon new session creation in order for the user to be granted the role's capabilities. When **false**, roles marked as privileged are automatically elevated upon an admin user new session, and do not need to be manually elevated \(with exception of security\_admin\). Setting this property to secure value adds an extra layer of security validation to role elevation by privileged user.
+When the **glide.security.strict\_elevate\_privilege** system property is set to **true**, roles marked as privileged must be manually elevated by an admin user when creating a new session. This grants the user the role's capabilities. When set to **false**, roles marked as privileged are automatically elevated during an admin user new session, and don't require manual elevation \(with exception of security\_admin\). Setting this property to the secure value adds an extra layer of security validation to role elevation by privileged user.
 
 Ensure that **glide.security.strict\_elevate\_privilege** is set to **true** as it allows a user with admin to manually elevate to a role they want.
 
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+true
 
 </td></tr><tr><td>
 

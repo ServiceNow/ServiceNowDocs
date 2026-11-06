@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/use-itom-mcp-server.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI in ITOM, IT Operations Management]

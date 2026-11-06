@@ -7,8 +7,8 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 2
+last_updated: "2026-11-06"
+reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 

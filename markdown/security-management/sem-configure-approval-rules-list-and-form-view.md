@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-approval-rules-list-and-form-view.html
 release: australia
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Unified Approval Rules Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,7 +16,7 @@ Create and activate an approval rule by selecting a rule type, choosing the targ
 
 ## Before you begin
 
-Role required: sn\_vul\_container.vulnerability\_admin, sn\_vul\_cmn.vulnerability\_admin, sn\_vul.remediation\_owner, sn\_vulc.remediation\_owner, sn\_vul\_container.remediation\_owner
+Role required: sn\_vul\_container.vulnerability\_admin, sn\_vul\_cmn.vulnerability\_admin
 
 ## Procedure
 
@@ -128,6 +128,4 @@ Indicates whether the rule can be used. Activation requires at least one approva
 
     The rule is active and routed based on the defined levels, tables, and conditions.
 
-
-**Parent Topic:**[Unified Approval Rules Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-approval-rules-overiew.md)
 

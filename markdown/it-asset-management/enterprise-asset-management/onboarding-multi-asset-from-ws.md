@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -27,4 +27,6 @@ The enterprise asset manager reviews and completes the activities listed in the 
 Create an onboarding order in the Asset operations view to initiate the onboarding of multiple enterprise assets.
 -   **[Add details of the enterprise assets to an onboarding order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/add-eam-assets-onboard-order.md)**  
 Specify the details of the enterprise assets that you want to onboard through an onboarding order.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
 

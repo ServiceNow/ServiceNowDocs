@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
@@ -69,5 +69,5 @@ The cumulative amount of time worked on the task is captured in the **Actual Wor
 **Related topics**  
 
 
-[Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/Configuring-cust-exp.md)
+[Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/Customer-notification-work-order-tasks.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Center, Platform Security]
 ---
@@ -38,6 +38,8 @@ The Security Tasks use the following roles:
 ## Quickly assign to yourself Security Tasks
 
 Use the check boxes to the left of the items in the list to select multiple items. When one of more tasks is selected, you can use the **Delete** button to delete the selected tasks, or the **Edit** button to assign the selected tasks to yourself.
+
+\[Omitted image "sec-task-mgr-2.png"\] Alt text: Selected tasks on the task list
 
 ## Create Security Tasks
 
@@ -71,7 +73,7 @@ Learn about how and when your instance generates Security Tasks.
 -   **[Edit Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/create-edit-security-tasks.md)**  
 Learn how to create, edit, delete, or export Security Tasks in Security Center
 -   **[Export Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/export-security-tasks.md)**  
-Export Security Tasks into files that you can download and use in other software.
+Learn how to export Security Tasks into files you can download and use in other software.
 
 **Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sec-center-v2.md)
 

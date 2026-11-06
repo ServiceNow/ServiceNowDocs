@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/managing-your-ai-gateway.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Working with MCP server records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Managing your AI Gateway

@@ -7,9 +7,9 @@ release: australia
 product: Workspace Builder
 classification: workspace-builder
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Builder library, Developing your application, Building applications]
+breadcrumb: [Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Workspace Builder
@@ -18,7 +18,7 @@ Workspace Builder enables you to quickly create and tailor custom workspaces whe
 
 This video shows you how to create a workspace in Workspace Builder.
 
-You can use Workspace Builder to quickly create workspaces for workspaces built starting with Australia. Workspace Builder enables you to edit the workspace home page, list pages, and record page contextual side panel directly in the Workspace Builder preview canvas. For workspaces created before Australia, or if you need more robust functionalities and configurations, edit the workspace in UI Builder from a tab within AES.
+You can use Workspace Builder to quickly create workspaces for workspaces built starting with Brazil. Workspace Builder enables you to edit the workspace home page, list pages, and record page contextual side panel directly in the Workspace Builder preview canvas. For workspaces created before Brazil, or if you need more robust functionalities and configurations, edit the workspace in UI Builder from a tab within AES.
 
 ## Get started
 

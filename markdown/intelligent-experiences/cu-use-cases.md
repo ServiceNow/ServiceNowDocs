@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/cu-use-cases.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 keywords: [use case, information extraction, generative AI]
-breadcrumb: [Information Extraction skill, Explore, Content Understanding, Enable AI experiences]
+breadcrumb: [Information Extraction skill, Explore, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Use cases in Information Extraction skill

@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -28,7 +28,7 @@ To use this API, ensure the following tables are populated with records:
 -   Notification Content \[sn\_pren\_notification\_content\]
 -   Provider \[sn\_pren\_provider\]
 
-For more information, see [Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement-landing-page.md)
+For more information, see .
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 

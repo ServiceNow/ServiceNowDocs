@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/reviewing-orchestration-plans-order-fulfillment.html
 release: australia
 topic_type: concept
-last_updated: "2025-10-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---

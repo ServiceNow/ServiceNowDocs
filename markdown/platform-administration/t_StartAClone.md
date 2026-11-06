@@ -22,7 +22,7 @@ Role required: clone\_admin
 
 Configure a clone profile. See [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-clone-profile.md).
 
-For self-hosted customer instances that use an Oracle database, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0563847](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0563847).
+For self-hosted customer instances that use an Oracle database, see [Cloning an Oracle Database \(KB0563847\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0563847).
 
 ## About this task
 

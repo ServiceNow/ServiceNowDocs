@@ -1,20 +1,20 @@
 ---
 title: Request Change Management - Risk Assessment
-description: To activate Change Management capability to predict change risk using Predictive Intelligence, request the Change Management - Risk Intelligence plugin \(com.snc.change\_management.ml.risk\) through the Now Support Customer Service system.
+description: To activate the Change Management capability to predict change risk using Predictive Intelligence, request the Change Management - Risk Intelligence plugin \(com.snc.change\_management.ml.risk\) through the Now Support Customer Service system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/request-cm-risk-assessment.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Request Change Management - Risk Assessment
 
-To activate Change Management capability to predict change risk using Predictive Intelligence, request the Change Management - Risk Intelligence plugin \(com.snc.change\_management.ml.risk\) through the Now Support Customer Service system.
+To activate the Change Management capability to predict change risk using Predictive Intelligence, request the Change Management - Risk Intelligence plugin \(com.snc.change\_management.ml.risk\) through the Now Support Customer Service system.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: maint
 
 ## About this task
 
-The Change Management - Risk Intelligence \(com.snc.change\_management.ml.risk\) plugin activates these related plugins if they are not already active.
+The Change Management - Risk Intelligence plugin \(com.snc.change\_management.ml.risk\) activates these related plugins if they are not already active.
 
 <table id="table_fvt_nq2_plb"><thead><tr><th>
 
@@ -73,7 +73,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
+ **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
 
 </td></tr><tr id="date-time"><td>
 
@@ -92,14 +92,14 @@ Select the date and time to activate the plugin.
 
 
 -   **[Components installed with Change Management - Risk Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-with-risk-intelligence.md)**  
-Several types of components are installed with activation of the Change Management - Risk Intelligence plugin, that includes tables.
+Several types of components are installed with activation of the Change Management - Risk Intelligence plugin, including tables.
 
 **Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -119,17 +119,17 @@ Several types of components are installed with activation of the Change Manageme
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -137,9 +137,9 @@ Several types of components are installed with activation of the Change Manageme
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

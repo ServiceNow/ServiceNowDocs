@@ -7,7 +7,7 @@ release: australia
 product: Remote Tables
 classification: remote-tables
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -62,7 +62,7 @@ Set up and use remote tables in your enterprise when:
 -   You want to fetch external data for temporary use without storing it in the ServiceNow AI Platform. For example, you can create a remote table that fetches weather-related data that appears on a home page when a user logs in. You would then create an associated query script definition that retrieves this data from a third-party weather source that is based on the user's location.
 -   You want to retrieve customer details that are stored in an external Customer Relationship Management \(CRM\) application for viewing in Customer Service Management functions such as Agent Workspace.
 
-    **Note:** To learn more about data retrieval for Customer Service Management, see [Third-party data integration for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-third-party-data-integration.md).
+    **Note:** To learn more about data retrieval for Customer Service Management, see Third-party data integration for CSM.
 
 -   You want to retrieve and view personnel data from Human Capital Management \(HCM\) applications such as Workday or SAP SuccessFactors for use in HR Service Delivery functions.
 
@@ -81,7 +81,7 @@ Choose whether to use a remote table or Integration Hub to process external data
 -   When you want to cache external data temporarily, use remote tables.
 -   If you want more advanced importing and transformation options, including Workflow Studio, or if you want to develop custom integrations, use the Integration Hub.
 
-**Note:** If you create a remote table that uses the data from an external source that is outside of the ServiceNow AI Platform, you must have an Integration Hub subscription entitlement. To learn more about the Integration Hub, see [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md).
+**Note:** If you create a remote table that uses the data from an external source that is outside of the ServiceNow AI Platform, you must have an Integration Hub subscription entitlement. To learn more about the Integration Hub, see Integration Hub.
 
 -   **[Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/remote-tables/activate-remote-tables-plugin.md)**  
 If you have the admin role, you can activate the Remote Tables plugin \(com.glide.script.vtable\). This plugin includes demo data and activates related plugins if they aren’t already active.

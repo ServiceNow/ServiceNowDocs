@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Sandbox environment, Server-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Sandbox environment, Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Script sandboxevaluator

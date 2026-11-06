@@ -7,7 +7,7 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -31,6 +31,8 @@ Role required: sn\_wsd\_core.workplace\_user
     You can also access the Emergency Maintenance request form using the Employee Center portal. Navigate to **All** &gt; **Self-Service** &gt; **Employee Center** &gt; **Workplace Services** &gt; **Maintenance** &gt; **Change Event Reservation**.
 
 2.  Select **Change Event Reservation** record form.
+
+    \[Omitted image "wsd-change-event-reservation-date.png"\] Alt text: Change Event Reservation form record showing New reservation date, time, and duration.
 
 3.  Fill in the field information.
 

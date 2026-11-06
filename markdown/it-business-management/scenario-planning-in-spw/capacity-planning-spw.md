@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -20,7 +20,7 @@ Analyzing the Capacity screen, you can:
 
 -   View resource capacity for prioritized items in your portfolio.
 
-    **Note:** The Capacity screen displays effort only from prioritized planning items for the **Filtered Out Items** and **Estimate outside portfolio** rows. This design choice may result in different utilization values compared to Resource Management Workspace, which includes all planning items regardless of state.
+    **Note:** The Capacity screen displays effort only from prioritized planning items for the **Filtered Out Items** and **Estimate outside portfolio** rows. This may result in different utilization values compared to Resource Management Workspace, which includes all planning items regardless of state.
 
 -   Understand the resource capacity needs and estimates across your organization by using key attributes such as group, role, and skill.
 -   Effectively forecast the supply of resources and the demand of work in your portfolio.

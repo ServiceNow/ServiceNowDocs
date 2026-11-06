@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/vault-suite.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [vault suite, vault, plugins, installation]
 breadcrumb: [Exploring ServiceNow Vault, ServiceNow Vault]
@@ -54,18 +54,6 @@ Store app \(Scope:sn\_dp\_store\_app\)
 </td><td>
 
 Discovers, classifies, and anonymizes sensitive data to prevent leakage during clone, fulfill Right to Be Forgotten requests, and mask PII across platform channels.
-
-</td></tr><tr><td>
-
-Code Signing
-
-</td><td>
-
-com.glide.code\_signing\_enterprise
-
-</td><td>
-
-Verifies the integrity of code artifacts on the platform.
 
 </td></tr><tr><td>
 

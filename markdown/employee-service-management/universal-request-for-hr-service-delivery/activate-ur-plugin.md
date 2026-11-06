@@ -7,7 +7,7 @@ release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Universal Request plugins, Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
@@ -104,5 +104,5 @@ Several types of components are installed with activation of the Universal Reque
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

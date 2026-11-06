@@ -7,7 +7,7 @@ release: australia
 product: System Events
 classification: system-events
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing system events, System Events, Build workflows]
 ---
@@ -18,7 +18,7 @@ If you do not find a suitable existing event, you can create your own.
 
 ## Before you begin
 
-Role required: events\_admin
+Role required: admin
 
 ## About this task
 
@@ -60,7 +60,7 @@ Queue
 
 </td><td>
 
-Name of the queue that the event is placed into when triggered.Use only lowercase letters, no spaces, and no special characters except underscore \(\_\). For example, `my_queue`. See [Using custom queues to process events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/useful-server-side-scripts.md).
+Name of the queue that the event is placed into when triggered.Use only lowercase letters, no spaces, and no special characters except underscore \(\_\). For example, `my_queue`. See .
 
 </td></tr><tr><td>
 

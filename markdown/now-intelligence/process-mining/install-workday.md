@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate, Process Mining, Platform Analytics]
 ---
@@ -23,7 +23,7 @@ Role required: admin
 Verify that you have already installed:
 
 -   Process Mining for External Data \(version 29.5.3\). For more information, see [Request Process Mining for external data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/access-ext-data.md).
--   Workday HR Spoke \(sn\_workday\_hr\_spke\) \(version 3.0.2\): For more information, see .
+-   Workday HR Spoke \(sn\_workday\_hr\_spke\) \(version 3.0.2\): For more information, see [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workday-hr-spoke.md).
 
 ## Procedure
 

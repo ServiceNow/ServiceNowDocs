@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-rc-my-campaign-phases.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 ## Procedure
 
-1.  **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **All Campaigns**
+1.  **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **All Campaigns**
 
     **Note:** A recall campaign must be in an In-progress state before creating a recall campaign phases.
 
@@ -34,4 +34,6 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 5.  Select **Save**.
 
+
+**Parent Topic:**[Recall management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-recall-management.md)
 

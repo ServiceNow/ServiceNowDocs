@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -24,11 +24,11 @@ These are the things you can do with probes and sensors:
 
 -   **Review the base system probes**
 
-    Review the [List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_ListOfDiscoveryProbes.md) to see the probes that exist in the base system. Probes need to be active on classifiers for Discovery to trigger the probes. However, not all probes are active on classifiers as more patterns replace probes and sensors. To see a list of patterns, see [Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md).
+    Review the [List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_ListOfDiscoveryProbes.md) to see the probes that exist in the base system. Probes need to be active on classifiers for Discovery to trigger the probes. However, not all probes are active on classifiers because patterns increasingly replace probes and sensors. To see a list of patterns, see [Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md).
 
 -   **Create or modify a probe**
 
-    You can [create a new probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/modify-a-probe.md) to discover additional CIs that Discovery does not find with the base system probes or patterns, or modify an existing probe to collect additional information on the type of CI. After you create or modify a probe, test it. You can also create multiprobes and multisensors. See [Create a Discovery multiprobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_MultiprobesIncludedWithDiscovery.md) for more information.
+    You can [create a new probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/modify-a-probe.md) to discover additional CIs that the base system probes or patterns do not find. You can also modify an existing probe to collect additional information on the type of CI. After you create or modify a probe, test it. You can also create multiprobes and multisensors. See [Create a Discovery multiprobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_MultiprobesIncludedWithDiscovery.md) for more information.
 
 -   **Upgrade to the latest version of a probe or sensor**
 
@@ -36,11 +36,11 @@ These are the things you can do with probes and sensors:
 
 -   **Set probe parameters**
 
-    Probe parameters control several aspects about how probes function. With each probe provided in the base system, certain parameters are allowed. These are specified in the [list of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_ListOfDiscoveryProbes.md). See [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_SetProbeParameters.md) for instructions on how to set a parameter.
+    Probe parameters control several aspects of how probes function. With each probe provided in the base system, certain parameters are allowed. These are specified in the [list of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_ListOfDiscoveryProbes.md). See [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_SetProbeParameters.md) for instructions on how to set a parameter.
 
 -   **Review probe permissions**
 
-    Certain probes need permissions to run on the target machines or CIs that you are trying to discover. See [Discovery probe permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_AdditionalPermissions.md) for more information.
+    Certain probes require permissions to run on the target machines or CIs that you are trying to discover. See [Discovery probe permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_AdditionalPermissions.md) for more information.
 
 
 -   **[Create or modify a probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/modify-a-probe.md)**  

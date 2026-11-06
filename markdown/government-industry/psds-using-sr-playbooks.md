@@ -1,22 +1,22 @@
 ---
 title: Using Service Request Playbooks
-description: If you're a government service agent or manager, you can use the Service Request Playbook for Public Sector Digital Services to manage and resolve requests for services like park maintenance, broken stop signs, or other types of community issues.
+description: If you're a government service agent or manager, you can use the Service Request Administration for Public Sector Digital Services to manage and resolve requests for services like park maintenance, broken stop signs, or other types of community issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-sr-playbooks.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using Service Request Playbooks
 
-If you're a government service agent or manager, you can use the Service Request Playbook for Public Sector Digital Services to manage and resolve requests for services like park maintenance, broken stop signs, or other types of community issues.
+If you're a government service agent or manager, you can use the Service Request Administration for Public Sector Digital Services to manage and resolve requests for services like park maintenance, broken stop signs, or other types of community issues.
 
 A playbook provides a step-by-step guidance through the life cycle of a government service case.
 
-The Service Request Playbook automatically appears in the **Playbook** tab when you open or create a service request case in the CRM Workspace.
+The Service Request Administration automatically appears in the **Playbook** tab when you open or create a service request case in the Public Sector Workspace.
 
 A playbook takes a workflow and breaks it into multiple stages or lanes. Each stage in a playbook includes one or more activities, or steps, for you to complete. Stages can also include automated activities, such as auto-sending an email to a constituent when a stage or activity is complete, or auto-sending a work order to a field service agent. When using a playbook, you can:
 
@@ -29,7 +29,7 @@ The workflows that are associated with a specific type of case and the activitie
 
 ## Playbook stages
 
-The Service Request Playbook has four stages, listed in the following table.
+The Service Request Administration has four stages, listed in the following table.
 
 |Task|Description|
 |----|-----------|
@@ -42,7 +42,7 @@ The Service Request Playbook has four stages, listed in the following table.
 
 A playbook is made up of several areas, including the playbook life cycle, the playbook work area, and the contextual side panel. The activity view determines how the stages and activities appear in the playbook.
 
-The default activity view for the Service Request Playbook is the Process-based experience view. This view, which is shown in the following example, shows constituent or business information and case task information at the forefront of the playbook work area as you work on it.
+The default activity view for the Service Request Administration is the Process-based experience view. This view, which is shown in the following example, shows constituent or business information and case task information at the forefront of the playbook work area as you work on it.
 
 The process-based playbook layout shows the following features:
 
@@ -53,7 +53,7 @@ The process-based playbook layout shows the following features:
 
 \[Omitted image "service-request-process-based-layout.png"\] Alt text: Agent workspace view of the playbook lifecycle, case record information, and service request details, shown in process-based activity view. For the text description, refer to the Playbook components table.
 
-The following table shows the components that you can see in the Service Request Playbook process-based workspace.
+The following table shows the components that you can see in the Service Request Administration process-based workspace.
 
 <table id="table_j4r_cww_5pb"><thead><tr><th>
 

@@ -7,7 +7,7 @@ release: australia
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic translation on forms and activity streams, Translating with Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -34,10 +34,10 @@ Dynamic Translation supports only the following field types:
 
 **Note:**
 
--   The following are the length limitations for translation service providers:
+-   The following are the length limitations for some translation service providers. If you use a different third-party provider, check that provider's documentation.
 
-    -   For Google, the recommended maximum length of each request is 5,000 characters. The maximum size of the input text cannot exceed 30,000 code points. For more information, see the [Google Documentation](https://cloud.google.com/translate/quotas).
-    -   For Microsoft, the input text for translation cannot have more than 50,000 characters including spaces. The input text for detection also has a maximum of limit of 50,000 characters. For more information, see the [Microsoft Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/request-limits#character-and-array-limits-per-request).
+    -   For Google, the recommended maximum length of each request is 5,000 characters. The maximum size of the input text can't exceed 30,000 code points. For more information, see the [Google Documentation](https://cloud.google.com/translate/quotas).
+    -   For Microsoft, the input text for translation can't have more than 50,000 characters including spaces. The input text for detection also has a maximum of limit of 50,000 characters. For more information, see the [Microsoft Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/request-limits#character-and-array-limits-per-request).
 -   You cannot translate a field on Agent Workspace forms.
 
 ## Procedure

@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,11 +16,13 @@ breadcrumb: [Configuration Management Database \(CMDB\), Configuration Managemen
 
 Baseline CMDB provides capabilities that help you understand and control the changes that have been made to your configuration items \(CIs\) in the CMDB.
 
+**Note:** Starting with the Brazil release, Baseline CMDB is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-landing-page.md) provides the latest experience for this functionality. For more information, refer to the [Application/Plugin Deprecation Process \[KB05484748\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 -   You can create a baseline, which is a snapshot of your configuration items in the CMDB. You can review the changes that have been made to that configuration item since a previous baseline. Multiple baselines may be created and the system tracks the changes that have been made per baseline.
 
-    Creating a baseline captures the attributes of the CI as well as all first-level relationships for the CI. Any changes to the base CI or to any related CIs are captured and displayed. Newly created CIs are not automatically added to a baseline.
+    Creating a baseline captures the attributes of the CI and all first-level relationships for the CI. Any changes to the base CI or to any related CIs are captured and displayed. Newly created CIs aren't automatically added to a baseline.
 
--   Associate a configuration item with a task, a change or change task, and to propose changes to the CI after the change is complete. You can record changes, and these changes are not applied to the CI immediately but are delayed until the change is complete.
+-   Associate a configuration item with a task, a change or change task, and to propose changes to the CI after the change is complete. You can record changes, and these changes aren't applied to the CI immediately but are delayed until the change is complete.
 
     When the change is complete, you can choose to apply the proposed changes which makes all changes previously proposed and associates the changes with the task.
 
@@ -86,7 +88,7 @@ Changes are displayed only for the cmdb\_ci table and child tables. You can chan
 To improve performance and prevent memory issues when showing large amounts of baseline differences data on CI forms, complete the following steps:
 
 1.  Set the system property **com.cmdb.baseline.entry.attachment** to true.
-2.  Manually run once the **CMDB Baseline convert XML to attachment** fix script. For information about running a fix script, see [Run fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_RunFixScripts.md).
+2.  Manually run once the **CMDB Baseline convert XML to attachment** fix script. For information about running a fix script, see .
 
 **Related topics**  
 

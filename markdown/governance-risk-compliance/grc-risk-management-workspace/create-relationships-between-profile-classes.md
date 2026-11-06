@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use entity and risk dependencies using the GRC: Workbench, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ Entity classes can roll up to each other, leading to the development of the depe
 
 4.  Do one of the following actions.
 
-<table id="choicetable_klb_sq3_4w"><tbody><tr><td id="d90545e98">
+<table id="choicetable_klb_sq3_4w"><tbody><tr><td id="d91549e98">
 
 **If there are no relationships between entity classes**
 
@@ -42,7 +42,7 @@ Entity classes can roll up to each other, leading to the development of the depe
 
 Drag an entity class from the left to the center and drop it.
 
-</td></tr><tr><td id="d90545e107">
+</td></tr><tr><td id="d91549e107">
 
 **If there are relationships between entity classes**
 

@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Authoring a knowledge article in Microsoft Word, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -146,7 +146,7 @@ Date this knowledge article expires.
 </table>**Related topics**  
 
 
-[Create a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-article-word.md)
+[Create a knowledge article in Microsoft Word]()
 
 [Edit a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/edit-article-word.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage engagements, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -26,13 +26,13 @@ Role required: sn\_audit.manager or sn\_audit.admin
 
 2.  Open an engagement in the **Scope** state.
 
-3.  In the **Entities** related list, select **Add**.
+3.  In the **Entities** related list, click **Add**.
 
 4.  Select the desired entities that are included in the audit engagement.
 
-5.  Select **Add**.
+5.  Click **Add**.
 
-    If there are risks and controls, test plans, and indicator results associated with an entity then they appear in their respective sections. \[Omitted image "audit-entities-engagement-scope.gif"\] Alt text: Audit engagement.
+    If there are risks and controls, test plans, and indicator results associated with an entity then they appear in their respective sections. \[Omitted image "audit-entities-engagement-scope.gif"\] Alt text: Adding entities to the engagement
 
 
 **Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/c_Engagements.md)

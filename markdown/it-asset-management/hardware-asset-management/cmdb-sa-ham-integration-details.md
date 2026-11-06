@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [review HAM data integrations, discovery pattern fields to monitor, Service Graph Connector fields to monitor, attribute coverage by model category, integration effectiveness evaluation]
 breadcrumb: [Analyze data integrations, Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]

@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Telecommunications Service Operations Management]
 ---
@@ -23,12 +23,12 @@ Once TSOM is configured, you can use its capabilities to:
 -   Run Telecom Discrepancy audits: Identify inconsistencies in network relationships and configurations by running certification audits based on discovered data and reconciliation rules.
 -   Validate attribute value mismatches in CMDB 360: Use the Attribute Value Discrepancy feature in CMDB 360 to compare attribute values across different discovery sources and detect conflicts or outdated records.
 -   Use Telecom Discovery Patterns: Apply Telecom Discovery Patterns to accurately discover and populate telecom-specific Configuration Items \(CIs\) and their relationships.
--   Run and verify import jobs from service graph connectors: Manually trigger import schedules \(e.g., for the Nokia Altiplano connector\). Verify that topology and device data is successfully imported into the CMDB and mapped to the correct CI classes.
+-   Run and verify import jobs from service graph connectors: Manually trigger import schedules \(for example, for the Nokia Altiplano connector\). Verify that topology and device data is successfully imported into the CMDB and mapped to the correct CI classes.
 
 These tasks help verify that your telecom network is continuously synchronized, accurate, and operationally visible within ServiceNow.
 
 -   **[Use Telecom Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/using-telecom-discovery-patterns.md)**  
-Use Telecom Discovery patterns to identify and classify network functions \(xNFs\) from vendor devices such as Cisco, Juniper, routers, or switches. Leverage pattern-based discovery to map telecom resources into the CMDB.
+Use Telecom Discovery patterns to identify and classify network functions \(xNFs\) from vendor devices such as Cisco, Juniper, routers, or switches. Use pattern-based discovery to map telecom resources into the CMDB.
 -   **[Validating JSON payloads using TSOM Schema Validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/validating-json-payloads-using-tsom-schema-validator.md)**  
 Use the TsomSchemaValidator utility class to validate JSON payloads against TSOM schemas before importing data. This helps identify errors early, reduce ETL failures, and confirm data quality.
 -   **[Run Telecom Discrepancy audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/run-audits.md)**  

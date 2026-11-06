@@ -1,5 +1,5 @@
 ---
-title: Escape jelly script \[Updated in Security Center 1.3 and 1.5\]
+title: Escape jelly script
 description: Use the glide.ui.escape\_all\_script property to force escape of all scripts injected into Jelly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-escape-jelly.html
@@ -7,12 +7,12 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Escape jelly script \[Updated in Security Center 1.3 and 1.5\]
+# Escape jelly script
 
 Use the **glide.ui.escape\_all\_script** property to force escape of all scripts injected into Jelly.
 

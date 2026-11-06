@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Build triggers, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -82,7 +82,7 @@ Domain
 
 </td><td>
 
-Domain scope of the flow. For more information about domain separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md).
+Domain scope of the flow. For more information about domain separation, see .
 
 </td></tr></tbody>
 </table>4.  Select **Show additional properties** and fill any additional properties.
@@ -190,7 +190,7 @@ Runs only once at the specified date and time.
 
 ## Result
 
-The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/use-saved-trigger.md).
+The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/use-saved-trigger.md)
 
 -   **[Create a scheduled trigger using business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-trigger-business-calendar.md)**  
 Schedule a recurring trigger to run based on a business calendar, so your automation run only when your business is actually operating, on working days, active shifts, or custom production schedules.

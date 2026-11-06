@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a SCIM Provider Resource Mapping, SCIM Client, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
@@ -18,7 +18,7 @@ Create a SCIM attribute mapping and use it as a single source of resource to the
 
 ## Before you begin
 
-Roles required: scim\_client\_config\_admin
+Role required: scim\_client\_config\_admin
 
 ## About this task
 
@@ -39,9 +39,9 @@ The following are the attribute mapping types and their descriptions.
 
 1.  Navigate to **All** &gt; **SCIM Client** &gt; **SCIM Provider Resource Mapping**.
 
-2.  Selected the SCIM Resource Mapping that is created for the configuration.
+2.  Select the SCIM Resource Mapping that is created for the configuration.
 
-3.  In the  SCIM Attribute Mappings  related list, click  **New**.
+3.  In the  SCIM Attribute Mappings  related list, select  **New**.
 
     \[Omitted image "new-attribute-mappings.png"\] Alt text: SCIM Provider Resource Mapping
 
@@ -123,7 +123,7 @@ Filter Condition
 
 Some multi-valued attributes can have additional information that can be specified by using a [Filter Condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/attribute-mapping-references.md). The choices of filter condition are populated using the schemas defined by the SCIM Provider.
 
- For example, the **phoneNumbers** attribute has multiple types like work, mobile, home, and so on
+ For example, the **phoneNumbers** attribute has multiple types like work, mobile, home, and so on.
 
 </td></tr><tr><td>
 
@@ -177,7 +177,7 @@ Option to fetch the value of the attribute via script.
 
  This option is required for the multi-valued attributes that don’t contain a filter condition. For a complex type of attribute, a script can supply the value at an attribute or sub-attribute level.
 
- For example, the **Members** attribute of group resource has no filter condition. So, the script option should be defined on the parent attribute level of the **Members** attribute.
+ For example, the **Members** attribute of the group resource has no filter condition. So, the script option should be defined on the parent attribute level of the **Members** attribute.
 
 </td></tr><tr><td>
 
@@ -192,6 +192,6 @@ Script that is used to fetch the attribute value.
  The output of the script should be in the proper format as expected by the provider for that attribute.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
 

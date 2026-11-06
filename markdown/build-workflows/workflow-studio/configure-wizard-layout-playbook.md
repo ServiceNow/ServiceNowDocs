@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Playbooks patterns, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -30,7 +30,7 @@ Use a wizard layout when end users benefit from explicit guidance through a mult
 
 **Note:** For complex playbooks with branching logic, consider a Guided Decision Playbook instead. For playbooks where users should see and interact with multiple activities at once, consider a Focused or Stacked layout.
 
-\[Omitted image "playbk-wizard-layout.png"\] Alt text: Screenshot showing the runtime UI experience for the wizard layout.
+\[Omitted image "playbk-wizard-layout.png"\] Alt text: The runtime UI experience for the wizard layout.
 
 ## Procedure
 
@@ -38,7 +38,7 @@ Use a wizard layout when end users benefit from explicit guidance through a mult
 
 2.  Go to UI Builder, and create or open an Experience to host the playbook so end users can access it from the Playbook Experience, and create a page.
 
-    For more information, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page.md).
+    For more information, see .
 
 3.  Open the page that you created, and then in the panel select **Add content**.
 
@@ -52,7 +52,7 @@ Use a wizard layout when end users benefit from explicit guidance through a mult
 
     4.  Select **Add**.
 
-    \[Omitted image "playbk-wizard-component.png"\] Alt text: Screenshot showing the Playbook horizontal wizard layout bundle.
+    \[Omitted image "playbk-wizard-component.png"\] Alt text: Playbook horizontal wizard layout bundle.
 
 5.  Select the Playbook Wizard component on the canvas.
 

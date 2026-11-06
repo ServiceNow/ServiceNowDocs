@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Explore, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Plugins for Conversational Integration with Microsoft Teams
@@ -22,7 +22,7 @@ You must have either the virtual\_agent\_admin or admin role and the external\_a
 
 -   Install the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin.
 
-    For more information about activating the Glide Virtual Agent plugin, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
+    For more information about activating the Glide Virtual Agent plugin, see [\(Legacy\) Activate Virtual Agent for NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/activate-virtual-agent.md).
 
 -   Download the Conversational Integration with Microsoft Teams app from the ServiceNow® Store.
 

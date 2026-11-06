@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -72,4 +72,6 @@ The system validates the data in the ASN import template to verify its accuracy 
     2.  If the provided quantity exceeds 1, logs an error message in the staging table, resets the quantity to **1**, and creates an asset record.
 
 For more details on ASN import process, see [Use Advanced Shipment Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/advanced-shipment-notification.md).
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-ham.md)
 

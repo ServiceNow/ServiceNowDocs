@@ -1,18 +1,18 @@
 ---
 title: Configure Service Model Foundation
-description: Configure the Service Model Foundation feature to enable a foundational data model framework. You can use this framework to create structured and flexible data models that represent your business needs.
+description: Configure the Service Model Foundation feature to create structured data models for your customer service operations. You can use this framework to create structured and flexible data models that represent your business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-industry-data-model.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configure Service Model Foundation
 
-Configure the Service Model Foundation feature to enable a foundational data model framework. You can use this framework to create structured and flexible data models that represent your business needs.
+Configure the Service Model Foundation feature to create structured data models for your customer service operations. You can use this framework to create structured and flexible data models that represent your business needs.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ For more information about this feature, see [Service Model Foundation overview]
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup**.
 
-2.  On the Getting Started page of the guided setup, select **Get Started**.
+2.  Select **Get Started** on the Getting Started page.
 
 3.  In the Service Model Foundation category, view the list of tasks to configure the feature.
 

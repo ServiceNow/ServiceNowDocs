@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/define-scenarios.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ A scenario helps you to determine the risks that are applicable to your business
 
     The sample configuration for the Scenario New record form is shown in the following example.
 
-    \[Omitted image "new-scenario-active.png"\] Alt text: Sample configuration for the Scenario record form.
+    \[Omitted image "new-scenario-active.png"\] Alt text: Sample configuration for the Scenario New record form.
 
 3.  On the form, fill in the fields.
 

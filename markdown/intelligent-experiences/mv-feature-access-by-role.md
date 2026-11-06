@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-feature-access-by-role.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Reference, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Feature access by role

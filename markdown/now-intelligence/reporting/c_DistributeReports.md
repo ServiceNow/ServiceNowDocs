@@ -1,5 +1,5 @@
 ---
-title: Distribute reports
+title: Distribute Core UI reports
 description: Distribute reports to provide business information to other users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/c\_DistributeReports.html
@@ -9,14 +9,14 @@ classification: reporting
 topic_type: concept
 last_updated: "2026-09-24"
 reading_time_minutes: 2
-breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Distribute reports
+# Distribute Core UI reports
 
 Distribute reports to provide business information to other users.
 
-On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Exploring the Data Visualizations library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/explore-data-vis-library.md).
+On instances with Unified Analytics enabled, and on new Brazil instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Exploring the Data Visualizations library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/explore-data-vis-library.md).
 
 ## Report access control
 
@@ -46,7 +46,7 @@ Make actionable decisions faster by combining relevant reports and widgets onto 
 -   **[Export a report to PDF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/export-report-pdf.md)**  
 Export a report to PDF to use it outside of your ServiceNow instance.
 
-**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
+**Parent Topic:**[Using Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
 
 **Related topics**  
 

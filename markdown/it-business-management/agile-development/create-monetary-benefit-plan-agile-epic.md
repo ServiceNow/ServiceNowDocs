@@ -7,7 +7,7 @@ release: australia
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create an epic in Agile Development 2.0, Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -119,7 +119,7 @@ Field to indicate when the benefits start realizing. Select any of the following
 -   **Milestone**: After completion of a milestone.
 -   **Start Date**: At the start of the epic.
 -   **End Date**: After the epic ends.
- If the value in the selected offset type changes, the benefit plan start date shifts accordingly. For example, if the offset type is set to **End Date** and the end date of the epic changes, the benefit plan start date shifts to align with the new end date of the epic.
+ If the value in the selected offset type changes, the benefit plan start date shifts accordingly. For example, conosider the offset type is set to **End Date** and the end date of the epic changes. Then the benefit plan start date shifts to align with the new end date of the epic.
 
 </td></tr><tr><td>
 

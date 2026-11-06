@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-service-mobile-interface.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Schedules and sites, Use, Customer Service Management]
 ---
@@ -52,7 +52,7 @@ The Customer Service Management mobile application runs on the ServiceNow® mobi
 To use the Customer Service Management mobile application, activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\). This plugin activates the following plugins:
 
 -   Mobile Agent Native Client plugin \(com.glide.sg.agent\_native\_client\)
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   Customer Service Case Action Status \(com.sn.csm\_action\_status\)
 
 To provide support for major cases, you can activate the optional Major Issue Management plugin \(com.sn\_majorissue\_mgt\).

@@ -1,13 +1,13 @@
 ---
 title: Read-only and client script modifiable fields in Asset Management tables
-description: Comprehensive reference of Base Asset Management table fields that are restricted from UI editing and those which can be modified using client scripts.
+description: Comprehensive reference of Asset Management table fields that are restricted from UI editing and those which can be modified using client scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/read-only-fields-am.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Read-only fields in Asset Management, Client script modifiable fields in Asset Management, Asset Management, Asset Management tables]
 breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
@@ -15,9 +15,9 @@ breadcrumb: [Reference, Base Asset Management, Common applications, Asset Manage
 
 # Read-only and client script modifiable fields in Asset Management tables
 
-Comprehensive reference of Base Asset Management table fields that are restricted from UI editing and those which can be modified using client scripts.
+Comprehensive reference of Asset Management table fields that are restricted from UI editing and those which can be modified using client scripts.
 
-## Strict read-only fields in Base Asset Management tables
+## Strict read-only fields in Asset Management tables
 
 <table id="table_nyc_vsz_g3c"><thead><tr><th>
 
@@ -458,7 +458,7 @@ Zero Touch Refresh Fulfillment Request
 -   Number \[number\]
 
 </td></tr></tbody>
-</table>## Client script modifiable fields in Base Asset Management tables
+</table>## Client script modifiable fields in Asset Management tables
 
 <table id="table_y2l_nnq_h3c"><thead><tr><th>
 
@@ -500,4 +500,5 @@ Purchase order line items
 Total cost \[total\_cost\]
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/references-asset-management.md)
+

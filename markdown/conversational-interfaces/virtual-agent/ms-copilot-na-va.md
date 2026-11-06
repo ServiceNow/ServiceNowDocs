@@ -1,23 +1,23 @@
 ---
-title: Integrating with Microsoft Copilot
-description: Integrate with Microsoft Copilot using Conversational Integration with Microsoft Teams to leverage the generative AI conversational experience.
+title: Integrating ServiceNow Otto for Virtual Agent with Microsoft Copilot
+description: Integrate ServiceNow Otto for Virtual Agent with Microsoft Copilot using Conversational Integration with Microsoft Teams to leverage the generative AI conversational experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/ms-copilot-na-va.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-keywords: [Integrating, Now Assist, Otto, Virtual Agent, Microsoft, Copilot, Conversational Integration, Teams, MSTeams, sn\_va\_teams]
-breadcrumb: [Use ServiceNow Otto for Virtual Agent in Teams conversations, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+keywords: [Integrating, Otto, Virtual Agent, Microsoft, Copilot, Conversational Integration, Teams, MSTeams, sn\_va\_teams]
+breadcrumb: [Use ServiceNow Otto for Virtual Agent in Teams conversations, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Integrating  with Microsoft Copilot
+# Integrating ServiceNow Otto for Virtual Agent with Microsoft Copilot
 
-Integrate  with Microsoft Copilot using Conversational Integration with Microsoft Teams to leverage the generative AI conversational experience.
+Integrate ServiceNow Otto for Virtual Agent with Microsoft Copilot using Conversational Integration with Microsoft Teams to leverage the generative AI conversational experience.
 
-**Note:** Custom Engine Agent \(CEA\) is replacing Declarative Agent \(DA\), the prior Microsoft Copilot integration. The CEA enables Virtual Agent to be discoverable by Microsoft Copilot, with full functional access to ServiceNow Otto in Virtual Agent and multi-turn conversations.
+**Note:** Custom Engine Agent \(CEA\) is replacing Declarative Agent \(DA\), the prior Microsoft Copilot integration. The CEA enables Virtual Agent to be discoverable by Microsoft Copilot, with full functional access to ServiceNow Otto for Virtual Agent and multi-turn conversations.
 
 You must have version 10.1.1 or higher of the Microsoft Teams plugin to have CEA support. In version 10.2 of the Microsoft Teams plugin, streaming is inactive by default and CEA is active by default.
 
@@ -35,10 +35,10 @@ The default Conversational Integration with Microsoft Teams plugin \(sn\_va\_tea
     -   Before the integration, make sure that Copilot is enabled on your Microsoft Teams tenant.
     -   No configuration changes are required on your ServiceNow instance to integrate with Microsoft Copilot.
     -   There are no additional configurations required for Copilot.
--   The ServiceNow Otto license and verify that ServiceNow Otto in Virtual Agent is configured. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
--   Enable the teams bot \(the Now Virtual Agent bot or the Self-configured bot, which you would like to use for Copilot integration\) for the ServiceNow Otto Conversations in the **All** &gt; **Conversational Interfaces** &gt; **Assistants** &gt; **Display experience** &gt; **Channels** section.
+-   The ServiceNow Otto license and verify that ServiceNow Otto in Virtual Agent is configured. For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
+-   Enable the teams bot \(the ServiceNow Otto bot or the Self-configured bot, which you would like to use for Copilot integration\) for the ServiceNow Otto Conversations in the **All** &gt; **Conversational Interfaces** &gt; **Assistants** &gt; **Display experience** &gt; **Channels** section.
 
-    For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+    For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
 
 
 ## Integrate Microsoft Copilot with Now Virtual Agent bot
@@ -61,7 +61,7 @@ The self-configured bot will support the latest Copilot CEA experience. The prod
 
 -   **[Setting up the Self-configured bot for using Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/setup-self-bot-copilot.md)**  
 Using your Self-configured bot with Microsoft Copilot for ServiceNow Otto conversations requires you to complete a few additional setup actions.
--   **[ServiceNow Otto in Virtual Agent conversations with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/na-ms-copilot-conversations.md)**  
+-   **[ServiceNow Otto for Virtual Agent in conversations with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/na-ms-copilot-conversations.md)**  
 Use ServiceNow Otto plugins in Microsoft Copilot to connect with the Copilot by providing your bot or plugin name during your generative AI conversations.
 
 **Parent Topic:**[Using ServiceNow Otto for Virtual Agent conversations with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/na-va-llm-teams.md)

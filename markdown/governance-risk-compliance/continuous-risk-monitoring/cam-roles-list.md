@@ -7,7 +7,7 @@ release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -181,6 +181,20 @@ Responsible for performing actual work in the system. They can update authorizat
 -   sn\_audit.user
 -   sn\_irm\_cont\_auth.reader
 -   business user
+
+</td></tr><tr><td>
+
+POAM User\(sn\_irm\_cont\_auth.poam\_user\)
+
+</td><td>
+
+Responsible for executing plan of action and milestones \(POA&amp;M\) work and managing assigned tasks in the CAM application.
+
+</td><td>
+
+Users with the POAM User role can:-   View and update assigned POA&amp;Ms
+-   Assigned acceptance tasks
+-   Assigned milestone tasks
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)

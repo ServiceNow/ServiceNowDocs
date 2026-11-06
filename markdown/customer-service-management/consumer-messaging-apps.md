@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/consumer-messaging-apps.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [consumer messaging, WhatsApp, Facebook Messenger, LINE, Apple Messages for Business, omnichannel, messaging integration]
 breadcrumb: [Configure omnichannel, Configure, Customer Service Management]

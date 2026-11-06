@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ You can customize check instances - such as adjusting the frequency or specifyin
 
 After installation, the agent collects information on its host and processes. The agent pushes the collected data to the ServiceNow instance through the MID Server. The MID Server serves as a bridge between the agent and the ServiceNow instance, ensuring the data is transformed and securely sent for processing.
 
-On the instance, CIs are created for the host and applications classified from the running processes \(such as Microsoft SQL Server\). Once these CIs are created, the active monitoring policies associated with the CIs are downloaded to the agent’s MID Server, which then pushes the policies to the agent for execution.
+On the instance, CIs are created for the host and applications classified from the running processes \(such as Microsoft SQL Server\). After these CIs are created, the active monitoring policies associated with the CIs are downloaded to the agent’s MID Server. The MID Server then pushes the policies to the agent for execution.
 
 ## Data storage and use
 
@@ -50,5 +50,5 @@ This data can be leveraged for monitoring, alerting, and reporting. Integration 
 
 The commands and their configurations that run on the Agent are called **checks**. The Agent comes by default with **check definitions**, which determine a specific command and the default frequency with which it runs. Checks are defined on the instance and are passed to the Agent via the MID Server.
 
-A **policy** is a combination of the CIs being monitored by the Agent Client Collector and the checks that run on those CIs. You associate check definitions with policies. Those check definitions are then referred to as **check instances**. You can customize check instances to meet your needs. For example, customize the running interval or the parameters specific to the policy, such as the login credentials to access a MySQL database. Customization of a check instance takes effect only on the check instance associated with the policy, which does not affect the original check definition or already created check instances in other policies.
+A **policy** is a combination of the CIs being monitored by the Agent Client Collector and the checks that run on those CIs. You associate check definitions with policies. Those check definitions are then referred to as **check instances**. You can customize check instances to meet your needs. For example, customize the running interval or the parameters specific to the policy, such as the login credentials to access a MySQL database. Customization of a check instance takes effect only on the check instance associated with the policy. It does not affect the original check definition or check instances already created in other policies.
 

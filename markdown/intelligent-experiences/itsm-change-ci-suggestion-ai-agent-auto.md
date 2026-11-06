@@ -5,16 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itsm-change-ci-suggestion-ai-agent-auto.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Change CI suggestion AI agent \(latest\)
 
 This AI agent autonomously identifies and populates both the primary configuration item \(CI\) and affected configuration items on a change request without requiring multiple user interactions.
-
-**Note:** Available starting with the Australia Patch 5 release. Requires ServiceNow Otto for IT Service Management \(ITSM\) v17.1.2 or later.
 
 ## Workflow
 

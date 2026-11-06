@@ -18,6 +18,8 @@ Learn about Public Sector Digital Services \(PSDS\) features to help create a se
 
 Public Sector Digital Services helps government agencies manage the complete lifecycle of constituent public service delivery. The solution is built on a government data model that standardizes how constituents, businesses, households, agencies, and service interactions are represented across your implementation. You can use this foundation as-is or extend it to create workflows that are specific to your agency's processes. Public Sector Digital Services includes a set of applications that support common government service types. Many are playbook-driven, guiding agents through each stage of a service request, from intake to decision. Others support different kinds of work—for example, the Investigative Case Management solution helps investigators process investigations and connect the records and evidence related to a case. Constituents and businesses access services through self-service portals, and agents manage their work from a configurable workspace. [ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/sn-otto-for-psds.md) adds AI capabilities to help agents work through cases faster, including case summarization, chat summarization, and resolution notes generation. Public Sector Digital Services supports three primary service delivery scenarios: government to constituent, government to business, and government to agency. You can implement one or more of these scenarios depending on your agency's requirements.
 
+\[Omitted video\] Description: Public Sector Digital Services Overview
+
 ## Public Sector Applications
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
@@ -34,7 +36,7 @@ Public Sector Digital Services helps government agencies manage the complete lif
 
 </td></tr><tr><td>
 
-[License and Permit Playbook \[Omitted image "bus-profile.svg"\] Alt text:Handle license and permit requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-exploring-pbs-license-permit.md)
+[License and Permit Administration \[Omitted image "bus-profile.svg"\] Alt text:Handle license and permit requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-exploring-pbs-license-permit.md)
 
 </td><td>
 
@@ -42,7 +44,7 @@ Public Sector Digital Services helps government agencies manage the complete lif
 
 </td><td>
 
-[Service Request Playbook \[Omitted image "bus-demand-management.svg"\] Alt text:Handle non-emergency service requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-exploring-pbs-service-request.md)
+[Service Request Administration \[Omitted image "bus-demand-management.svg"\] Alt text:Handle non-emergency service requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-exploring-pbs-service-request.md)
 
 </td></tr><tr><td>
 
@@ -182,7 +184,7 @@ A dedicated, customizable workspace for government agents and agents from extern
 
 </td><td>
 
-[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-using-csm-workspace.md)
+[Public Sector Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-using-csm-workspace.md)
 
 </td><td>
 

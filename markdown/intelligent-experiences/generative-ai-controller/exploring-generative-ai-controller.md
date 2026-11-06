@@ -7,9 +7,9 @@ release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Exploring Generative AI Controller
@@ -54,7 +54,7 @@ Generative AI Controller manages the following controls for generative AI activi
 |Benefit|Feature|
 |-------|-------|
 |Integrate with third-party AI service providers to customize your AI experience|OpenAI, Azure OpenAI, Google AI, IBM watsonx, Amazon Bedrock|
-|Govern and monitor all generative AI activity in your ServiceNow applications|Data Privacy, Guardian guardrails, [Rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configure-rate-limit.md), and Activity logging|
+|Govern and monitor all generative AI activity in your ServiceNow applications|Data Privacy, [Guardian guardrails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-guardian.md), [Rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configure-rate-limit.md), and Activity logging|
 |Use your own API keys for AI processing|[Bring your own key for third-party AI provider integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/byok-for-azure-open-ai.md)|
 
 ## Get started with Generative AI Controller
@@ -68,7 +68,7 @@ Generative AI Controller manages the following controls for generative AI activi
     -   To get started with IBM watsonx, go to [Getting started with IBM watsonx as a Service](https://www.ibm.com/docs/en/watsonx/saas?topic=getting-started).
     -   To get started with Amazon Bedrock, [set up an IAM user with the correct permissions](https://repost.aws/knowledge-center/create-access-key) and then [explore the Converse API](https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_Converse.html).
 -   [Configure credentials for your preferred AI service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configuring-api-credentials-for-generative-ai-capabilities.md) for the Generative AI Controller capabilities.
--   Activate AI assets for your workflows and configure governance settings such as data privacy, guardrails, and [rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configure-rate-limit.md).
+-   Activate [AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platai-generative-ai-skills.md) for your workflows and configure governance settings such as data privacy, [guardrails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-guardian.md), and [rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configure-rate-limit.md).
 -   Build custom skills for your organization's unique requirements using [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 -   [Monitor generative AI activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/generative-ai-controller-tables.md) through logs for troubleshooting and compliance.
 

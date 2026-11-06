@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Assistant Designer user input controls
@@ -27,7 +27,7 @@ In addition to [data pills and condition controls](https://raw.githubusercontent
     \[Omitted image "va-text-input-node-var-name.png"\] Alt text: The Variable name field is populated automatically under Text input.
 
 
-## Large Language Model \(LLM\) user input controls
+## Large language model \(LLM\) user input controls
 
 The following user input controls are supported in LLM topics when you create an LLM Virtual Agent topic. LLM user inputs include the following.
 
@@ -40,23 +40,6 @@ The following user input controls are supported in LLM topics when you create an
 -   [Carousel input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-carousel-input.md)
 
 **Note:** Avoid placing more than five user input controls in a single LLM topic, or more than five in a single Input Collector. Excessive user input controls can overwhelm the LLM and may lead to inaccurate or unexpected responses.
-
-## Natural Language Understanding \(NLU\) entity properties
-
--   ****
-
-    If NLU is enabled, the following properties are displayed in the property sheet for the **Text**, **Static Choice**, **Dynamic Choice**, **Boolean**, **Date Time**, and **Carousel** input controls. To view or enable these properties, go to the Advanced options section.
-
-    -   **NLU entity**: The entity that corresponds to the input variable for the control. You select the entity from the list of entities associated with the topic intent, as defined in the NLU model that you’re using for the topic. When Virtual Agent recognizes the entity value in user utterances and if the value meets the entity prediction confidence threshold, then Virtual Agent extracts the value. The value is stored in the input variable for the node. This storing action is called slot filling. Slot filling recognizes when multiple values for the same NLU entity occur in a conversation. Users are prompted with a list to confirm which node value to select when multiple nodes are tied to the same NLU entity. This property is available only for NLU topic discovery.
-    -   **Enable NLU to switch topics**: Enables NLU prediction for the node. If enabled, users can enter text to answer questions, regardless of the type of input control being used. Virtual Agent uses this utterance to match another existing intent, letting the user switch topics. To enable this property on a node, navigate to **Advanced options** &gt; **Topic switching**.
--   **Default value**
-
-    An input prompt can have a preset value that you define. This value can be either a string or a script that returns a string. This property is in the Advanced options section.
-
--   **Confirmation messages**
-
-    These bot response messages signal the end of the node interaction and ask the users to confirm their response. This property is in the Advanced options section.
-
 
 -   **[Input Collector user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-ai-data-collector.md)**  
 Use the Input Collector control to gather data for use by ServiceNow Otto in conversations that use large language model \(LLM\) topic discovery.

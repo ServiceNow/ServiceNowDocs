@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -21,6 +21,8 @@ The Contract Management view includes important actions for managing your contra
 \[Omitted image "contract-mgmt-view.png"\] Alt text: This view includes the contract overview details such as expiring contracts, contract expenditure by type and vendor.
 
 To create a contract, select **New contract**. For more details, see [Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/contract-management/t_CreateAContract.md).
+
+**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-workspace.md)
 
 **Related topics**  
 

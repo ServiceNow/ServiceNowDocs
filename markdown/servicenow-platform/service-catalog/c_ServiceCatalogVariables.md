@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,7 +40,7 @@ When catalog item requesters want to order items on portals or Next Experience U
 **Related topics**  
 
 
-[Scriptable service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptableServiceCatalogVariables.md)
+[Scriptable service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ScriptableServiceCatalogVariables.md)
 
-[Use service catalog variables in a report – Report Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-service-catalog-variables-in-report.md)
+[bundle-par.use-service-catalog-variables-in-report]
 

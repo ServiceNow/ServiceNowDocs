@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure document templates using Document Designer, Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -27,6 +27,8 @@ Role required: sn\_grc\_doc\_design.admin and sn\_audit.admin
 2.  Open the template for which you want to create content configurations.
 
 3.  On the Content configurations related list, select **New**.
+
+    \[Omitted image "template-configuration.png"\] Alt text: New content configuration form.
 
 4.  On the form, fill in the fields.
 

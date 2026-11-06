@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/recovery-strategy-and-task-templates-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---

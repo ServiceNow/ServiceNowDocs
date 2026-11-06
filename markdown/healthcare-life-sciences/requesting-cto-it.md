@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/requesting-cto-it.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -13,6 +13,8 @@ breadcrumb: [Care Team Operations for Healthcare IT, Healthcare Operations, Heal
 # Creating service requests in Care Team Operations for Healthcare IT
 
 Use the Care Team Portal to report EMR or other IT issues to support teams for fulfillment.
+
+**Note:** You can also create a request conversationally instead of using a form. See [Request care team assistance agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-request-assistance.md) or [Care Team Operations Case Creation AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-voice-agent.md).
 
 -   [Report an EMR issue with Care Team Operations for IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hcls-cto-it-report-emr-issue.md)
 

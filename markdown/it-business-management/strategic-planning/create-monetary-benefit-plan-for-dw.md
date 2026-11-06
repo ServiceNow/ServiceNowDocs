@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create monetary benefit plans, Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ Role required: it\_demand\_manager
 
 4.  Edit a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d88412e100">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d89421e100">
 
 Option
 
-</th><th align="left" id="d88412e103">
+</th><th align="left" id="d89421e103">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d88412e109">
+</th></tr></thead><tbody><tr><td id="d89421e109">
 
 **Using the __Monetary Benefit Plans__ tab**
 
@@ -55,7 +55,7 @@ Procedure
 4.  Edit the required fields and select **Save**.
 
 
-</td></tr><tr><td id="d88412e159">
+</td></tr><tr><td id="d89421e159">
 
 **Using the __Financials__ page**
 

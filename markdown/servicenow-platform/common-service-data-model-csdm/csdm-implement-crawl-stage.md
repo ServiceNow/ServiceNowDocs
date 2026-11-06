@@ -7,7 +7,7 @@ release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -54,7 +54,7 @@ Start by focusing on applications and the application-related data in these area
 
 -   **Agile Development Component \[cmdb\_ci\_sdlc\_component\] table**
 
-    An AGILE DEVELOPMENT component is a CI that represents a unique development effort of code. It represents parts of a larger business application or digital product broken down into its individually developed components. In other words, the AGILE DEVELOPMENT component is a software element of a larger application or technology. AGILE DEVELOPMENT component CI records in the AGILE DEVELOPMENT Component \[cmdb\_ci\_sdlc\_component\] table enable the DevOps product to provide enhanced capabilities for visualizing and managing your application development pipeline.
+    An Agile development component is a CI that represents a unique development effort of code. It represents parts of a larger business application or digital product broken down into its individually developed components. In other words, the Agile development component is a software element of a larger application or technology. Agile development component CI records in the Agile Development Component \[cmdb\_ci\_sdlc\_component\] table enable the DevOps product to provide enhanced capabilities for visualizing and managing your application development pipeline.
 
     The table represents the software part or element of a larger whole for applications and infrastructure. Related material may serve as representative of developmental details. It can be used if you must identify the stratification of a business application or digital product.
 

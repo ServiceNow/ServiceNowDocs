@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,8 +26,12 @@ Configure various aspects of Resource Management based on your requirements in P
 Customize financials view, planning attributes, and activate scheduled jobs to work on the financial planning for your projects.
 -   **[Configuring security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-security-for-a-project-in-pw.md)**  
 Configure security in a project to make the project confidential to ensure that only the authorized users can access the project and its sub projects and related entities.
--   **[Configure project type fields and layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-project-type-pw.md)**  
-Define custom fields, a unique form layout, and the visible modules to support configuration independence across different types of projects.
+-   **[Configuring project types in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-project-types-pw.md)**  
+Configure project types so that each type of project in Project Workspace has its own custom fields, form view, and visible modules.
+-   **[Configure the default AI status report template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/config-default-ai-status-report-template.md)**  
+Configure which template ServiceNow Otto should use by default when it generates an AI status report.
+-   **[Configure standard note for a skipped status report section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/config-skipped-section-note.md)**  
+Configure a standard note that ServiceNow Otto appends to an AI status report section when it skips that section.
 
 **Parent Topic:**[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-workspace-landing-page.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Applying CSDM guidelines to Change Management
-description: Change Management lets you control every aspect of the IT change process from creation to approval. When you have accurate information, you can minimize risks to your business and avoid conflicts with scheduling. The goal of this product view is to help you to understand how Change Management key entities work with the core CSDM framework.
+description: Change Management lets you control every aspect of the IT change process from creation to approval. When you have accurate information, you can minimize risks to your business and avoid conflicts with scheduling. This product view helps you understand how Change Management key entities work with the core CSDM framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/itsm-change-use-case-product-view.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
 
 # Applying CSDM guidelines to Change Management
 
-Change Management lets you control every aspect of the IT change process from creation to approval. When you have accurate information, you can minimize risks to your business and avoid conflicts with scheduling. The goal of this product view is to help you to understand how Change Management key entities work with the core CSDM framework.
+Change Management lets you control every aspect of the IT change process from creation to approval. When you have accurate information, you can minimize risks to your business and avoid conflicts with scheduling. This product view helps you understand how Change Management key entities work with the core CSDM framework.
 
 ## Change Management
 
@@ -22,7 +22,7 @@ Change Management includes the following features:
 
 -   Manage changes more quickly by using the Change Advisory Board \(CAB\) Workbench to schedule, plan, and manage CAB meetings from one interface.
 -   The Change Management backlog analysis dashboard provides increased visibility into any changes.
--   Service Maps let you see the change impacts at-a-glance.
+-   Service Maps let you see the change impacts at a glance.
 -   The change approval policies increase DevOps velocity and remove IT friction.
 
 For details on implementing the CSDM framework, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-implementation-stages.md).
@@ -33,11 +33,11 @@ The Change Request form references the following attributes and related lists.
 
 <table id="table_rsk_l4b_1wb"><thead><tr><th>
 
- 
+Attribute or related list
 
 </th><th>
 
- 
+Description
 
 </th></tr></thead><tbody><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [license key discovery, ACC-VC, Windows registry, software license, agent client collector]
 breadcrumb: [ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -33,8 +33,6 @@ No role can delete license key records. If a key that was previously detected is
 
 -   **[Configure license key discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/configure-license-key-discovery.md)**  
 Enable license key discovery and define the registry paths and values you want the Agent Client Collector for Visibility Content Windows agent to collect from managed endpoints.
--   **[Configure a license key discovery rule and write a parser script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/configure-license-key-rule.md)**  
-Enable license key discovery to verify the legitimacy of your software installation. Set up support for a new vendor's license file format by creating a parser script and defining a matching rule.
 
 **Parent Topic:**[Agent Client Collector Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-discovery.md)
 

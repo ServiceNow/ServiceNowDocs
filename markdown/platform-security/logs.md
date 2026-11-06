@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/logs.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Security]
 ---
@@ -18,7 +18,7 @@ Logs module provides a variety of logs that you can use to troubleshoot and debu
 
 <table id="table_vcy_yrq_dsb" class="nav-card"><tbody><tr><td>
 
-[System Logs\[Omitted image "bus-actionable-analytics.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/system-logs.md)
+[System Logs\[Omitted image "bus-actionable-analytics.svg"\] Alt text: Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/system-logs.md)
 
  [The System Logs module provides a variety of logs that you can use to troubleshoot and debug transactions and events that take place within the instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/system-logs.md)
 

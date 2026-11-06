@@ -7,7 +7,7 @@ release: australia
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customizing Password Reset processes, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,7 +44,7 @@ Role required: password\_reset\_admin
 
 7.  Verify the appearance of the end-user pages.
 
-<table id="choicetable_pzg_5m2_wbb"><tbody><tr><td id="d297477e178">
+<table id="choicetable_pzg_5m2_wbb"><tbody><tr><td id="d299704e178">
 
 **If the reset pages are Public Access**
 
@@ -52,7 +52,7 @@ Role required: password\_reset\_admin
 
 On the **Password Reset Details** tab, click the **Public URL**.
 
-</td></tr><tr><td id="d297477e193">
+</td></tr><tr><td id="d299704e193">
 
 **If the reset pages are not Public Access**
 

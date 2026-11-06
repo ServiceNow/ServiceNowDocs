@@ -7,7 +7,7 @@ release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Third-party contract review requests, Requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -34,15 +34,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d299912e121">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d299681e121">
 
 Option
 
-</th><th align="left" id="d299912e124">
+</th><th align="left" id="d299681e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d299912e130">
+</th></tr></thead><tbody><tr><td id="d299681e130">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d299912e159">
+</td></tr><tr><td id="d299681e159">
 
 **As a collaborator**
 
@@ -73,15 +73,15 @@ The state of the legal request is Work in progress and the document is Legal rev
 
 5.  In the **Document Revisions** tab, manage all revisions of the contract document.
 
-<table id="choicetable_v1f_bjj_bwb"><thead><tr><th align="left" id="d299912e213">
+<table id="choicetable_v1f_bjj_bwb"><thead><tr><th align="left" id="d299681e213">
 
 Option
 
-</th><th align="left" id="d299912e216">
+</th><th align="left" id="d299681e216">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d299912e222">
+</th></tr></thead><tbody><tr><td id="d299681e222">
 
 **To review an existing document revision**
 
@@ -93,7 +93,7 @@ Steps
 -   To mark the document revision as ready, select **Ready**.
 
 
-</td></tr><tr><td id="d299912e258">
+</td></tr><tr><td id="d299681e258">
 
 **To create another document revision**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/communications.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Deploy Operational Technology Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---

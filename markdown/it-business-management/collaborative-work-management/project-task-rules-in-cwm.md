@@ -7,8 +7,8 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-07-23"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [project task, assignee, permission, hierarchy, project phase]
 breadcrumb: [Integration with Project Workspace, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -37,10 +37,7 @@ The **Project task** column dropdown on a Board excludes project tasks that alre
 
 ## Child task and story creation availability
 
-Both the **Add child CWM task** and **Add child story** options appear on every project task, regardless of its phase type. Whether the action completes depends on the phase type:
-
--   On an agile project phase, both **Add child CWM task** and **Add child story** complete successfully.
--   On a project task with any other phase type, only **Add child CWM task** completes. Selecting **Add child story** displays an error notification instead of creating the story.
+Both the **Add child CWM task** and **Add child story** options appear on every project task, regardless of its phase type. Both actions complete successfully on any project task, whether the phase is agile or waterfall.
 
 ## Restriction signals on the Board
 

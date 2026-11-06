@@ -19,7 +19,7 @@ Create knowledge articles from content stored in a SharePoint account. When you 
 
 The prerequisites for using SharePoint to create knowledge articles in the Knowledge Center are:
 
--   Verify that your administrator has configured Microsoft SharePoint for your instance by following the steps in [Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/microsoft-sharepoint-online-external-content-connector.md).
+-   Verify that your administrator has configured Microsoft SharePoint for your instance by following the steps in .
 -   Your administrator must set up the SharePoint External Connector. This includes plugin activation, admin setup on the SharePoint side, credential setup on the ServiceNow side, the crawling schedule, and user mapping.
 -   To create articles using SharePoint, you must have a Microsoft SharePoint user account.
 

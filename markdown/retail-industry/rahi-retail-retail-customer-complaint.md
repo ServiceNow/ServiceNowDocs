@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-retail-customer-complaint.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prebuilt Retail case types, Retail case types, Explore, Retail]
+breadcrumb: [Retail case types, Explore, Retail]
 ---
 
 # Customer complaint case
@@ -28,5 +28,5 @@ The customer complaint case feature enables back-office teams to capture, classi
 
 In accordance with the Australia Security Directive, designated fields are required to be read‑only to enforce appropriate access controls. This requirement is implemented at the user interface layer through UI Policies, ensuring that restricted fields cannot be modified while preserving consistency with established platform security patterns and maintaining configuration flexibility.
 
-**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types-revamp.md)
+**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types.md)
 

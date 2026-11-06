@@ -7,8 +7,8 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Hardening settings, Platform Security]
 ---
 
@@ -26,7 +26,7 @@ Use the **glide.authenticate.multifactor** property to enforce role-based multi-
 Use the **glide.authenticate.multifactor** property to enforce role-based multi-factor authentication \(MFA\) for all users assigned to specific roles.
 -   **[Anti-CSRF token \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/anti-csrf-token.md)**  
 Use the **glide.security.use\_csrf\_token** property to ensure the use of a secure token to identify and validates incoming requests, which in turn are used to prevent these attacks.
--   **[Control Lockout Time for Invalid Password Reset Attempts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-reset-password-request-max-attempts-window.md)**  
+-   **[Control lockout time for invalid password reset attempts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-reset-password-request-max-attempts-window.md)**  
 The **password\_reset.request.max\_attempt\_window** property controls the number of minutes a user must wait to reset or change their password after exceeding the maximum number of unsuccessful attempts that is set with the **password\_reset.request.max\_attempt** property.
 -   **[Disable creating users from incoming emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-emails-by-domain.md)**  
 Use the **glide.user.trusted\_domain** property to specify the comma-separated list of trusted domains used in the creation of users from incoming emails.
@@ -35,16 +35,18 @@ Prevent Resource Owner Password Credentials \(ROPC\) from granting OAuth 2 token
 -   **[Do not apply password policy at login \[Updated in Security Center 1.5 and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-do-not-apply-password-policy-at-login.md)**  
 Manage how password complexity is handled in your instance.
 -   **[Enable account recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-account-recovery.md)**  
-The **glide.sso.acr.enabled** property controls the account recovery feature.
+Use the **glide.sso.acr.enabled** property to manage the account recovery feature.
+-   **[Enable basic authentication restriction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-basic-auth-restriction.md)**  
+The **glide.authenticate.basic\_auth.restriction.active** property controls whether the platform evaluates inbound basic-auth API requests against allowed access paths.
 -   **[Enable CAPTCHA for customer registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-captcha-for-customer-registration.md)**  
 Reduce the risk of requests by malicious bots by enabling CAPTCHA for customer registration.
 -   **[Enable a deny-list password validation check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-blacklisted-passwords-validation-check.md)**  
 Manage the deny-list passwords in the Excluded Password table.
--   **[Enable CAPTCHA for External User Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-captcha-external-user-registration.md)**  
+-   **[Enable CAPTCHA for external user registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-captcha-external-user-registration.md)**  
 The **sn\_ext\_usr\_reg.captchaEnabled** controls if CAPTCHA will be validated for external user registration.
 -   **[Enable CAPTCHA in password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-captcha-in-password-reset.md)**  
 Use the **password\_reset.captcha.ignore** property to enable or disable requiring a CAPTCHA challenge when a user resets their password.
--   **[Enable email OTP for multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-email-otp-for-multi-factor-authentication.md)**  
+-   **[Disable email OTP for multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-email-otp-for-multi-factor-authentication.md)**  
 Manage how two-factor authentication is applied on your instance.
 -   **[Enable password reset policy checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-password-reset-policy-checks.md)**  
 Use the **glide.enable.password\_policy** property to enable password policy checks whenever a user changes their password using the user interface.
@@ -57,7 +59,11 @@ Manage the encryption of LDAP authentication requests on your instance.
 -   **[Enforce current password policy compliance requirements on login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-current-password-policy-compliance-requirements-on-login.md)**  
 Reduce the risk of brute force account login by enforcing current password policy compliance requirements on login.
 -   **[Enforce device encryption and passcode requirements \[New in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-device-encryption-and-passcode-requirements.md)**  
-The **glide.sg.device\_encryption\_enabled** property enforces the Federal Information Processing Standard \(FIPS 140-2\) Encryption. Mobile device encryption and passcode ensure that an unauthorized user cannot access the content of a device even if the device is physically obtained.
+The **glide.sg.device\_encryption\_enabled** property enforces the Federal Information Processing Standard \(FIPS 140-2\) Encryption. Mobile device encryption and passcode ensure that an unauthorized user can't access the content of a device even if the device is physically obtained.
+-   **[Limit basic authentication restriction allowed roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-limit-basic-authentication-restriction-allowed-roles.md)**  
+The **glide.authenticate.basic\_auth.allowed\_roles** property defines roles that bypass the Basic Authentication Restriction gate without multi-factor authentication.
+-   **[Limit basic authentication restriction allowed users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-limit-basic-auth-restriction-allowed-users.md)**  
+The **glide.authenticate.basic\_auth.allowed\_users** property defines specific user accounts that bypass the Basic Authentication Restriction gate without multi-factor authentication.
 -   **[Limit Invalid Password Reset Attempts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-reset-password-request-max-attempts.md)**  
 The **password\_reset.request.max\_attempt** is used to control the maximum number of unsuccessful attempts that a user can reset or change their password before being locked out for a specified period of time.
 -   **[Limit Allowed Number of Failed Login Attempts Before Lockout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-managing-failed-login-attempts.md)**  
@@ -106,6 +112,12 @@ Use the **glide.ui.m.blur\_ui\_when\_backgrounded** property to obfuscate all fi
 Configure the **glide.sg.blur\_ui\_when\_backgrounded** property so that the UI of the app is blurred when the app is running in the background.
 -   **[Require Minimum and Maximum Password Length](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-set-minimal-password-length.md)**  
 Set minimum and maximum password lengths to avoid compliance issues and reduce the risk of a successful brute force attack
+-   **[Restrict basic authentication external role exemption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-basic-authentication.md)**  
+The **glide.authenticate.basic\_auth.allow\_snc\_external** property controls whether users with the snc\_external role are exempt from the basic authentication restriction.
+-   **[Restrict MID IPKI registration key retry attempts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-mid-ipki-registration-key-retry.md)**  
+Configure the registration key retry threshold to prevent unauthorized Management, Instrumentation, and Discovery \(MID\) Server registration attempts. Setting the **sn\_mid\_infra.registration\_key.max\_use\_count** property limits how many times a registration key can be used before it is revoked.
+-   **[Set basic authentication restriction default decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-set-basic-authentication-restriction-default-decision.md)**  
+The **glide.authenticate.basic\_auth.restriction.default\_decision** property controls the automatic decision applied to basic-auth accounts during the Basic Authentication Restriction tracking period.
 -   **[Set OTP lifetime for password reset to 1 hour \[Updated in Security Center 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-set-otp-lifetime-for-password-reset-to-12-hours-or-less.md)**  
 Control the time duration of the link in the password reset email.
 

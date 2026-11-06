@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/apo-inquiry-resolution-provider-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Accounts Payable Operations AI agents, Accounts Payable Operations \(APO\), AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Accounts Payable Operations AI agents, Accounts Payable Operations \(APO\), AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Inquiry resolution provider AI agent
@@ -73,7 +73,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-sn\_ap\_cm.agent
+sn\_ap\_cm.agent, now\_assist\_panel\_user
 
 </td></tr><tr><td>
 
@@ -81,7 +81,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-sn\_ap\_cm.agent
+sn\_ap\_cm.agent, now\_assist\_panel\_user
 
 </td></tr><tr><td>
 

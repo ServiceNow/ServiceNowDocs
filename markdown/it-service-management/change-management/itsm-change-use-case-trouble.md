@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Applying CSDM guidelines to Change Management, Configure, Change Management, IT Service Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Applying CSDM guidelines to Change Management, Configure, Change Ma
 
 Consider these points while implementing the CSDM framework.
 
--   Business applications not referenced in the Change Management use case: Business applications are portfolio objects you can use for designing and planning an Enterprise Architecture. Business application portfolio objects don't contain version, environment, and localization details for deployments using one or more applications.
--   Change approval process: It depends on how you implement Change Management. After you populate the CIs on the Change form \(if there's a relationship between the CI and the impacted services and service offerings\), the Approval group approves the change.
--   CI attributes used for routing changes: If you are initiating the change or the change task, use the Assignment Group attribute CI. If you are using build run teams, you could use the Support Group attribute CI for the team assignments.
+-   Business applications not referenced in the Change Management use case: Business applications are portfolio objects you can use for designing and planning an enterprise architecture. Business application portfolio objects don't contain version, environment, and localization details for deployments using one or more applications.
+-   Change approval process: The approval process depends on how you implement Change Management. After you populate the CIs on the Change form \(if there's a relationship between the CI and the impacted services and service offerings\), the Approval group approves the change.
+-   CI attributes used for routing changes: If you are initiating the change or the change task, use the Assignment group attribute of the CI. If you use build and run teams, you can use the Support group attribute of the CI for team assignments.
 
 ## For more information
 

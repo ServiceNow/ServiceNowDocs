@@ -7,9 +7,9 @@ release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure a workplace card, Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure a workplace card, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure a space details card
@@ -76,6 +76,10 @@ Card configuration allows you to customize the appearance and features of space 
 
     \[Omitted image "wsd-card-config-user.png"\] Alt text: field details configuration on the space card.
 
+
+## What to do next
+
+For more information and examples of elements that can be added to cards, see [Card Configuration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/card-configuration-examples.md).
 
 **Parent Topic:**[Configure a workplace card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/configure-workplace-card.md)
 

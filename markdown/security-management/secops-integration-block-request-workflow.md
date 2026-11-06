@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/secops-integration-block-request-workflow.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration- Block Request capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---

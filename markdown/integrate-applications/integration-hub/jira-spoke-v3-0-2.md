@@ -1,6 +1,6 @@
 ---
 title: Jira Spoke
-description: Manage issues, users, stories, groups, projects, sprints, and webhooks, and look up audit logs in Jira. Retrieve Jira data to use in a flow. Use bi-directional webhooks and subscribe to Jira with a ServiceNow callback URL. Install Now Assist for Integration Hub and start using the available AI agents to perform tasks in your ServiceNow instance. Set up triggers for the required events to enable webhooks to connect with your ServiceNow instance.
+description: Manage issues, users, stories, and groups in Jira. Retrieve Jira data to use in a flow. Use bi-directional webhooks and subscribe to Jira with a ServiceNow callback URL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/jira-spoke-v3-0-2.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workfl
 
 # Jira Spoke
 
-Manage issues, users, stories, groups, projects, sprints, and webhooks, and look up audit logs in Jira. Retrieve Jira data to use in a flow. Use bi-directional webhooks and subscribe to Jira with a ServiceNow callback URL. Install Now Assist for Integration Hub and start using the available AI agents to perform tasks in your ServiceNow instance. Set up triggers for the required events to enable webhooks to connect with your ServiceNow instance.
+Manage issues, users, stories, and groups in Jira. Retrieve Jira data to use in a flow. Use bi-directional webhooks and subscribe to Jira with a ServiceNow callback URL.
 
 ## Request apps on the Store
 
@@ -808,7 +808,7 @@ Updates webhook with the given ID in Jira.**Note:** This action isn’t supporte
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 

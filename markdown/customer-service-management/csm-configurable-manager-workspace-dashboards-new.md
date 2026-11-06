@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-configurable-manager-workspace-dashboards-new.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -86,7 +86,7 @@ The available widgets and tabs depend on which capabilities are enabled in the i
 **Related topics**  
 
 
-[Create Manager Workspace Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-configurable-csm-landing-page.md)
+[Create Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-configurable-csm-landing-page.md)
 
 [Use sentiment analysis dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/use-sentiment-analysis-dashboard.md)
 

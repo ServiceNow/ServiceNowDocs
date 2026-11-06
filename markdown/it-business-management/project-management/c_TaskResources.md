@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Basics of Project Management, Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -46,6 +46,8 @@ You can use Resource Management to [set up resource plans](https://raw.githubuse
 [Project and portfolio funding]()
 
 [Project scheduling in Project Management]()
+
+[Task constraints]()
 
 [Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourceManagement.md)
 

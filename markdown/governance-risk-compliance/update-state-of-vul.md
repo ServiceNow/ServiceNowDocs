@@ -1,16 +1,16 @@
 ---
-title: Update the state of the Operational vulnerability
+title: Update the state of the operational vulnerability
 description: Update the state of the Operational vulnerability record to the Assessment or Treatment state. At this stage, the vulnerability is being evaluated to determine the best course of action and create an action task accordingly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/update-state-of-vul.html
 release: australia
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Update the state of the Operational vulnerability
+# Update the state of the operational vulnerability
 
 Update the state of the Operational vulnerability record to the **Assessment** or **Treatment** state. At this stage, the vulnerability is being evaluated to determine the best course of action and create an action task accordingly.
 

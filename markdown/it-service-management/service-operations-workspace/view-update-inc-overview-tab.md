@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -147,8 +147,6 @@ User who reported the incident.
 
 </td></tr></tbody>
 </table>    3.  Select the **Save Summary** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save icon\) icon.
-
-    **Note:** The static Summary card section is not available. Instead, you can use the AI summary and suggestion card to view the incident summary and resolution information.
 
 4.  On the Impact Summary section, edit the information as needed.
 

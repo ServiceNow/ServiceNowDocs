@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/provide-knowledge-community-sp-case-business-portal.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Deflect cases with knowledge content
@@ -32,7 +32,7 @@ The business portal Case form displays contextual search results based on text e
 
 3.  Start entering in the **Subject** field.
 
-    If there are any search results that match, they’re displayed in the **Related Search Results** widget.
+    If there are any search results that match, they’re displayed in the **Related Content** widget.
 
     **Note:** If embedded search has been enabled, the results are displayed inline in the Case form in a **Knowledge results** section and are read only.
 

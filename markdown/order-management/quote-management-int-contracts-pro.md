@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-management-int-contracts-pro.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Quote Management integration with Contract Management Pro

@@ -1,18 +1,18 @@
 ---
 title: Create additional account addresses
-description: An account can have multiple addresses, such as a main address as well as shipping and billing addresses.
+description: An account can have multiple addresses, such as a main address and shipping and billing addresses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-account-address.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create customer accounts, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create additional account addresses
 
-An account can have multiple addresses, such as a main address as well as shipping and billing addresses.
+An account can have multiple addresses, such as a main address and shipping and billing addresses.
 
 ## Before you begin
 

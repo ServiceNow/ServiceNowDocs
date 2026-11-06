@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-cont-ent-workflows-csm.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configuring Contracts and Entitlement Workflows, Customer Contracts and Entitlements, Product data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Configuring Contracts and Entitlement Workflows, Configure Customer Contracts and Entitlements, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Creating contracts and entitlements using workflows

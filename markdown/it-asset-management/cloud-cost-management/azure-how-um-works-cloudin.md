@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Unused resources, Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -29,5 +29,5 @@ Cloud Cost Management generates recommendations that appear in the Unused resour
     These recommendations are integrated from Azure Advisor service and are refreshed when the integration job completes.
 
 
-For details on how the values are generated, see the Azure Advisor documentation at [Microsoft Learn](https://docs.microsoft.com).
+For details on how the values are generated, see the [Azure Advisor documentation](https://learn.microsoft.com/en-us/azure/advisor/advisor-overview).
 

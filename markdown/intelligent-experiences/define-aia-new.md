@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/define-aia-new.html
 release: australia
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-10-23"
 reading_time_minutes: 3
-breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Define the expected behavior of an AI agent
@@ -16,7 +16,7 @@ In the guided setup for an AI agent, write a clear description defining your AI 
 
 ## Before you begin
 
-You must either create an AI agent or edit an existing one to get to this step in the guided step. To learn how to get started creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-aia-new.md). Otherwise, navigate to the AI Agent Studio and select the AI agent you want to define to enter the guided setup.
+You must either create an AI agent or edit an existing one to get to this step in the guided setep. To learn how to get started creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-aia-new.md). Otherwise, navigate to the AI Agent Studio and select the AI agent you want to define to enter the guided setup.
 
 The name, description, modality, AI agent role, and instructions are all required. If the agent was drafted in a conversation, or created from an opportunity, these fields are pre-filled as a first draft. Treat pre-filled content as generated text to be reviewed, not as confirmed configuration.
 
@@ -30,7 +30,7 @@ The first step of the guided setup enables you to define the fundamentals of the
 
 1.  Verify the name and description summarize the main intention of the AI agent.
 
-    If the name and description aren't clear or correct, the Orchestrator won't know how to wield the AI agent in context.
+    If the name and description aren't clear or correct, the Orchestrator won't know when or how to use the AI agent.
 
 2.  Check that the modality of the AI agent is correct.
 

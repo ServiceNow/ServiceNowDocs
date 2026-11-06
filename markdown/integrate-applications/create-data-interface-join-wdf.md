@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-data-interface-join-wdf.html
 release: australia
 topic_type: task
-last_updated: "2026-03-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Managing data interfaces, Data Products, Workflow Data Fabric]
 ---
@@ -16,38 +16,40 @@ Create a governed data interface that combines rows from two or more source tabl
 
 ## Before you begin
 
-Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df\_data\_steward, and delegatedadmin \(scope admin\)
+Role required: data\_product\_admin, delegated\_developer, df\_data\_steward, and delegatedadmin \(scope admin\)
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Data Workbench**.
+1.  In the Unified Navigation menu, select the picker icon \(\[Omitted image "icon-scope.png"\] Alt text:\), then set the **Application scope** to the scope in which you want to create the data interfaces.
 
-2.  Select **Create** &gt; **Create data interface**.
+2.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Data Workbench**.
+
+3.  Select **Create** &gt; **Create data interface**.
 
     The data interface wizard opens to the **Basic details** step.
 
-3.  Enter the basic details for the data interface and select **Continue**.
+4.  Enter the basic details for the data interface and select **Continue**.
 
     -   **Interface label**: Enter a name for the data interface. This label identifies the data interface in the Data Catalog.
     -   **Unique name**: Auto-generated from the data interface label.
     -   **Application scope**: Select the scope in which to create the data interface.
-4.  On the Select source tables page, select **Add**.
+5.  On the Select source tables page, select **Add**.
 
-5.  Search for the source table in the Data Catalog and add tables to your selection.
+6.  Search for the source table in the Data Catalog and add tables to your selection.
 
     **Note:** The following platform table types are not supported as source tables:
 
     -   Tables with names that begin with `sys_`
     -   Child tables
-6.  Review the list of tables and select **Continue \[Omitted image "wdf-data-interface-join-select-table.png"\] Alt text: Select source tables page showing three selected tables with Continue button.**.
+7.  Review the list of tables and select **Continue \[Omitted image "wdf-data-interface-join-select-table.png"\] Alt text: Select source tables page showing three selected tables with Continue button.**.
 
     The wizard advances to the combination method step.
 
-7.  Select **Join** as the combination method and select **Continue**.
+8.  Select **Join** as the combination method and select **Continue**.
 
     Under **Define join sequence**, the selected tables are listed in the order they are joined. The first table in the list acts as the primary source. Drag the tables to reorder them before continuing.
 
-8.  Define the join conditions and select **Continue**.
+9.  Define the join conditions and select **Continue**.
 
     For each join condition, select a column from one table and the matching column from another table. The columns must have compatible data types. Select **Add matching column** to add more conditions.
 
@@ -57,7 +59,7 @@ Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df
 
     \[Omitted image "wdf-data-interface-join-select\_columns.png"\] Alt text: Data interface wizard showing join condition configuration with column selection dropdowns and Add matching column button.
 
-9.  Review the target table column mapping and select **Create table**.
+10. Review the target table column mapping and select **Create table**.
 
     The **Define target table** step shows the selected columns with their auto-mapped target names and data types. You can adjust column labels and types before creating the table.
 
@@ -65,7 +67,7 @@ Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df
 
     The system creates the data interface table, the underlying Data Fabric Tables, and the database view that represents the JOIN. The wizard advances to the **Connect and verify** step.
 
-10. Connect and verify each source table.
+11. Connect and verify each source table.
 
     Repeat the following substeps for each source table.
 
@@ -79,17 +81,17 @@ Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df
 
     \[Omitted image "wdf-data-interface-join-verify.png"\] Alt text: Connect and verify step showing source tables with verification status and data interface summary.
 
-11. Select **Preview** to review sample data from the data interface.
+12. Select **Preview** to review sample data from the data interface.
 
     The preview shows the top 10 live records from the combined output. Verify the columns and data match what consumers expect before continuing.
 
-12. Review the permissions and select **Continue**.
+13. Review the permissions and select **Continue**.
 
     For data interfaces built entirely on external source tables, the system automatically configures the required access roles.
 
     **Note:** If the data interface includes any ServiceNow tables, this step requires a manual permissions request. Copy the email template provided and send it to your Security Administrator. The Security Administrator must add the correct read roles to the composite role generated for the data interface. Select the confirmation check box before continuing.
 
-13. Review the data interface configuration on the **Review and finalize** page and select **Done**.
+14. Review the data interface configuration on the **Review and finalize** page and select **Done**.
 
     \[Omitted image "wdf-data-interface-join-review.png"\] Alt text: Review and finalize page displaying table details, source tables, and table structure configuration.
 

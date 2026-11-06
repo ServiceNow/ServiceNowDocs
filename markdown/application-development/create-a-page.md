@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/australia/application-developme
 release: australia
 topic_type: task
 last_updated: "2026-09-29"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Create a page, Goal, Prerequisites, Verify, See also]
-breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a page
@@ -165,7 +165,7 @@ Create a working page that renders at a URL in your app, optionally fetching dat
 
 ## What to do next
 
--   [Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/page-collections.md): serving different page implementations from the same route
--   : wiring a page into the app's shell and navigation
--   : the full loader contract and `ctx` shape
+-   [Page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/page-collections.md): serving different page implementations from the same route
+-   [Layouts and editable regions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/layouts-and-editable-regions.md): wiring a page into the app's shell and navigation
+-   [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/data-and-apis.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/data-and-apis.md): the full loader contract and `ctx` shape
 

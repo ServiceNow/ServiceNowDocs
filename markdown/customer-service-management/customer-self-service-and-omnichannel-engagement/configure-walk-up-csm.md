@@ -1,20 +1,20 @@
 ---
 title: Configure Walk-up Experience for Customer Service Management
-description: Configure various aspects of Walk-up Experience based on the specific requirements of your organization. Users with the sn\_csm\_walkup.walkup\_admin role and administrators can activate and configure the application to meet specific requirements.
+description: Configure various aspects of Walk-up Experience based on the specific requirements of your organization. Walk-up Experience users with the sn\_csm\_walkup.walkup\_admin role and administrators can activate and configure the application to meet specific requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-walk-up-csm.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure Walk-up Experience for Customer Service Management
 
-Configure various aspects of Walk-up Experience based on the specific requirements of your organization. Users with the `sn_csm_walkup.walkup_admin` role and administrators can activate and configure the application to meet specific requirements.
+Configure various aspects of Walk-up Experience based on the specific requirements of your organization. Walk-up Experience users with the sn\_csm\_walkup.walkup\_admin role and administrators can activate and configure the application to meet specific requirements.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ There is a sequence of tasks that enable you to configure CSM Walk-up Experience
 
 You can configure appointments, decide when to send notifications to users, establish and configure physical queue locations and operating schedules, integrate with CSAT surveys, and associate stockrooms with queue locations. You can also customize your Walk-up Experience portal with a unique logo and branding.
 
-To configure CSM Walk-up Experience, use the configuration tasks listed in the following table which takes you through the entire configuration process.
+To configure CSM Walk-up Experience, use the configuration tasks listed in the table below which takes you through the entire configuration process.
 
 ## Procedure
 
@@ -48,13 +48,11 @@ Activate CSM Walk-up Experience.
 
 </td><td>
 
-Activate the Walk-up for CSM plugin \(`com.snc.walkup_for_csm`\). For details, see [Activate Walk-up Experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-walk-up-experience-for-customer-service-management.md).
-
-**Note:** This plugin includes demo data.
+Activate the Walk-up for CSM plugin \(com.snc.walkup\_for\_csm\). For details, see [Activate Walk-up Experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-walk-up-experience-for-customer-service-management.md).**Note:** This plugin includes demo data.
 
 </td></tr><tr><td>
 
-Select **Walk-up Locations** .
+Click **Walk-up Locations** for configuring locations.
 
 </td><td>
 
@@ -62,7 +60,7 @@ Create walk-up location queues with custom schedules, assignment groups, average
 
 </td></tr><tr><td>
 
-Select **Schedules**.
+Click **Schedules**.
 
 </td><td>
 
@@ -70,7 +68,7 @@ View, create, or modify walk-up venue schedules, such as 8-5 weekdays, and assoc
 
 </td></tr><tr><td>
 
-Select **Appointment Configurations** .
+Click **Appointment Configurations** for configuring appointments.
 
 </td><td>
 
@@ -78,7 +76,7 @@ Create service configurations for individual walk-up queue locations. You can co
 
 </td></tr><tr><td>
 
-Select **Portal Configurations** .
+Click **Portal Configurations** for configuring a portal.
 
 </td><td>
 
@@ -86,7 +84,7 @@ Create and modify custom Walk-up Experience online and on-site service portals. 
 
 </td></tr><tr><td>
 
-Select **Notifications** .
+Click **Notifications** for configuring notifications.
 
 </td><td>
 
@@ -94,7 +92,7 @@ Access and configure alerts that keep users and fulfillers informed of events th
 
 </td></tr><tr><td>
 
-Select **Surveys**.
+Surveys
 
 </td><td>
 

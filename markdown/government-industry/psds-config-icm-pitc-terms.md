@@ -16,22 +16,24 @@ Configure the terms and conditions that are displayed when investigators are ask
 
 ## About this task
 
-Create or modify point in time content, such as terms and conditions, so that you can provide investigators an opportunity to make attestations before signing the chain of custody log form. Terms and conditions information is stored in the table.
+Create or modify point in time content, such as terms and conditions, that are displayed when investigators provide a signature before submitting a chain of custody log entry. This provides investigators an opportunity to make attestations before signing the chain of custody log form, creating a formal confirmation that the investigator has or will comply with evidence handling requirements. Terms and conditions information is stored in the table.
 
 ## Before you begin
 
 Role required: admin
 
+Ensure that the scope selected is the Investigative Case Management application scope.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Constituent Service** &gt; **Point in Time Content**.
+1.  Navigate to **All** &gt; **System UI** &gt; **Messages**.
 
-2.  Select **New**.
+2.  Select **psds.chain\_of\_custody.user\_acknowledgement** in the Key field.
 
-3.  On the form, fill in the fields.
+3.  Add the following text to the Message field.
 
-4.  Right select the header to open the context menu, then select **Save**.
+    `I confirm that I understand and comply with all evidence handling, security, and chain of custody requirements. I acknowledge that all information provided is accurate and complete. I attest that the property listed above is in the condition described and has been handled in accordance with federal evidence management standards.`
 
-5.  Select **Publish**, then select **Update**.
+4.  Select **Update**.
 
 

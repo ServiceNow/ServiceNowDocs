@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-work-order.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Product non-conformance without playbook, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a work order
@@ -26,7 +26,7 @@ Role required: Quality Issue Management Admin, product non-conformance submitter
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Correction Actions**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Correction Actions**.
 
     **Note:** Work order can be created from Product Non Conformance tasks, Containment actions, Product Quality Investigation Tasks, Corrective, and Preventive actions.
 
@@ -48,4 +48,6 @@ Role required: Quality Issue Management Admin, product non-conformance submitter
 ## Result
 
 The work order is created and awaits for qualification to create a work order task.
+
+**Parent Topic:**[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-related-lists-product-non-conformance.md)
 

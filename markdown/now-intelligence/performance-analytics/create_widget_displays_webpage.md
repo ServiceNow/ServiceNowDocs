@@ -7,8 +7,8 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [UI page, Dashboards]
 breadcrumb: [Widgets, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,6 +22,8 @@ You can create a ServiceNow UI page that displays a web page. You can then add t
 Role required: admin
 
 ## About this task
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md).
 
 A UI page is a ServiceNow page that is not a list or a form. Not every UI page will fit in a widget. Some UI pages, such as external site widgets or gadgets, don’t display properly when placed in a dashboard.
 

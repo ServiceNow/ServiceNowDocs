@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-csm-ws-agent-assist-table-configid.html
 release: australia
 topic_type: task
-last_updated: "2026-03-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -74,7 +74,7 @@ You can also use operators to match multiple tables in the property configuratio
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Experiences**.
 
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the CRM Workspace experience.
 
 3.  In the UX Page Properties related list, select **New**.
 
@@ -94,7 +94,7 @@ Page
 
 </td><td>
 
-CSM/FSM Configurable Workspace
+CRM Workspace
 
 </td></tr><tr><td>
 

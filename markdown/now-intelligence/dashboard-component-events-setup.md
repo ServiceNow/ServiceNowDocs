@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dashboard-component-events-setup.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Add a dashboard to a page, Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
@@ -113,8 +113,6 @@ Dispatched whenever the dashboard component would normally update URL parameters
 ```
 
  For more information, see [Dashboard URL parameter delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboard-url-parameter-delegation.md).
-
-**Note:** This functionality requires the latest Platform Analytics experience application from the ServiceNow® Store.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-dashboard-to-workspace.md)

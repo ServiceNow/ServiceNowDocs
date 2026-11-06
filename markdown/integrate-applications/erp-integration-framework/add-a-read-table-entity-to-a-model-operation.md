@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-08-07"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, read, table, entity, model, operation]
-breadcrumb: [Adding an entity to a model, ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Add entity to model, ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add a read table entity to a model operation

@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Timeline-oriented releases, Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
 ---

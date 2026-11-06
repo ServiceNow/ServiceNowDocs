@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/administer-forms-configurable-workspace.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 2
+last_updated: "2026-11-06"
+reading_time_minutes: 3
 breadcrumb: [Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -50,6 +50,10 @@ Administer form features that aren't configured in UI Builder with components.
 
     Configure a highlighted value for a form header in a workspace.
 
+-   **[Configure a background color for unsaved fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-background-color-unsaved-indicator.md)**
+
+    Configure a background color to display on unsaved fields across the entire workspace experience.
+
 -   **[Configure script fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/use-script-field-types-in-your-configurable-workspace.md)**
 
     Configure Configurable Workspace forms to support script fields.
@@ -70,9 +74,17 @@ Administer form features that aren't configured in UI Builder with components.
 
     Configure a character counter to display the number of remaining characters in a journal field.
 
+-   **[Hide journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/hide-work-notes.md)**
+
+    Hide journal fields for forms so that work notes and comments only appear in the Activity stream.
+
 -   **[Configure inline validation for string fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/format-regex-pattern-string-fields.md)**
 
     Configure guidance text to display in string fields with format requirements such as account ID, SSN, or SIN. Use regular expression inline validation to display an error message if the input doesn't meet format requirements.
+
+-   **[Configure form template semantic search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-form-template-search.md)**
+
+    Configure AI-powered semantic search for form templates.
 
 -   **[Resize modals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/enable-workspace-users-to-resize-modals.md)**
 

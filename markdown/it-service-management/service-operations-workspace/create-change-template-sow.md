@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a change request in Service Operations Workspace, Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -49,7 +49,7 @@ You must have a role with the following access with regard to the change model t
 
 ## What to do next
 
-Modify information in existing change templates available in the Create a change request page by selecting **Edit template** from the More actions menu. You are redirected to the Change Template page in the UI16 module where you can modify the details as required. For more information, see [Modify a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/modify-or-retire-template.md).
+Modify information in existing change templates available in the Create a change request page by selecting **Edit template** from the More actions menu. You are redirected to the Change Template page in the UI16 module where you can modify the details as required. For more information, see [Modify a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/modify-or-retire-template.md).
 
 Manage and retire change templates as needed. For more information, see [Retire a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/retire-a-change-template.md).
 

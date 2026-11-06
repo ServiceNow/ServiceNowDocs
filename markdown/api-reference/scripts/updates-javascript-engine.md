@@ -1,44 +1,56 @@
 ---
-title: Updates to the JavaScript engine in Australia
-description: Review the updates to the JavaScript engine on the ServiceNow AI Platform in the Australia release.
+title: Updates to the JavaScript engine in Brazil
+description: Review the updates to the JavaScript engine on the ServiceNow AI Platform in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/updates-javascript-engine.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [JavaScript engine, Server-side scripting, Scripting, API implementation, API implementation and reference]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [JavaScript engine]
+breadcrumb: [JavaScript engine, Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
-# Updates to the JavaScript engine in Australia
+# Updates to the JavaScript engine in Brazil
 
-Review the updates to the JavaScript engine on the ServiceNow AI Platform in the Australia release.
+Review the updates to the JavaScript engine on the ServiceNow AI Platform in the Brazil release.
 
-The JavaScript engine is built on the open-source Rhino JavaScript engine and customized for scripting on the platform. In the Australia release, the JavaScript engine was updated to include the following commits from Rhino. For more information about Rhino, see the [Rhino repository](https://github.com/mozilla/rhino) on GitHub.
+The JavaScript engine is built on the open-source Rhino JavaScript engine and customized for scripting on the platform. In the Brazil release, the JavaScript engine was updated to include the following commits from Rhino. For more information about Rhino, see the [Rhino repository](https://github.com/mozilla/rhino) on GitHub.
 
 |Pull request|Description|Applicable JavaScript mode|Update type|
 |------------|-----------|--------------------------|-----------|
-|\#2048|Add `Error.isError`|ECMAScript 2021 \(ES12\)|Feature|
-|\#2029|Add new `Set` methods|ECMAScript 2021 \(ES12\)|Feature|
-|\#2025|Add `Promise.try`|ECMAScript 2021 \(ES12\)|Feature|
-|\#1966|Add `TypedArray.from` and `TypedArray.of`|ECMAScript 2021 \(ES12\)|Feature|
-|\#1980|Add `Promise.withResolvers`|ECMAScript 2021 \(ES12\)|Feature|
-|\#1905|Support `ArrayBuffer` detachment|ECMAScript 2021 \(ES12\)|Feature|
-|\#1896|Enhance date string parsing with optional millisecond digits|All modes|Feature|
-|\#1751, \#1872|Support `Symbol.hasInstance` on `Function.prototype`|ECMAScript 2021 \(ES12\)|Feature|
-|\#1870|Rework `String.prototype.search`, `replace`, `replaceAll`, and `split`|ECMAScript 2021 \(ES12\)|Feature|
-|\#2073, \#2107|Support duplicate keys in object literals|ECMAScript 2021 \(ES12\)|Fix|
-|\#2097|Calling `eval` of a function returns `undefined`|ECMAScript 2021 \(ES12\)|Fix|
-|\#2065|Correct template literal to string conversion|ECMAScript 2021 \(ES12\)|Fix|
-|\#2060|Don’t propagate strict mode when compiling scripts|ES5 Standards|Fix|
-|\#1979|Support `BigInt.asUintN` and `BigInt.asIntN`|ECMAScript 2021 \(ES12\)|Fix|
-|\#1860|Correct `this` in `apply` and `call`|ECMAScript 2021 \(ES12\)|Fix|
-|\#1982|Correct `this` in `Array.from`|ECMAScript 2021 \(ES12\)|Fix|
-|\#1945|Correct `this` in `require`|ECMAScript 2021 \(ES12\)|Fix|
-|\#1774|Don't allow methods to be used as constructors|ECMAScript 2021 \(ES12\)|Fix|
-|\#1806|Fix hoisting behavior|All modes|Fix|
+|\#1949|Infer function names|ECMAScript 2021 \(ES12\)|Feature|
+|\#1973|Make the `__parent__` property no longer available in ES6|ECMAScript 2021 \(ES12\)|Feature|
+|\#1976|Update `__proto__` support|ECMAScript 2021 \(ES12\)|Feature|
+|\#1978|Enhance ISO date parsing with proper millisecond rounding|All modes|Feature|
+|\#2004|Implement spread for object literals|ECMAScript 2021 \(ES12\)|Feature|
+|\#2027|Clean up wrapping for Java method arguments, constructor arguments, and method return values|All modes|Feature|
+|\#2030|Add `ArrayBuffer` transfer methods|ECMAScript 2021 \(ES12\)|Feature|
+|\#2041|Optimize `undefined` lookup|All modes|Feature|
+|\#2049|Implement `Math.f16round` method|ECMAScript 2021 \(ES12\)|Feature|
+|\#1912|Adjust order of evaluation of function arguments to match the specification|All modes|Fix|
+|\#1990|Improve super put processing|ECMAScript 2021 \(ES12\)|Fix|
+|\#2008|Handle bound arguments correctly when the bound function is `call`|All modes|Fix|
+|\#2017|Fix combination of `apply` and `call` in the interpreter|All modes|Fix|
+|\#2031|Fix methods so they no longer have a `prototype` property|ECMAScript 2021 \(ES12\)|Fix|
+|\#2038|Fix several issues with calling `bind()` in the interpreter|All modes|Fix|
+|\#2047|Fix stack generation in interpreted mode|All modes|Fix|
+|\#2077|Fix `Array.from` to prioritize iterable over array-like objects|ECMAScript 2021 \(ES12\)|Fix|
+|\#2114|Fix the order of evaluation of various operations in compiled mode|All modes|Fix|
+|\#1918|Fix performance regression from `LookupResult` change|All modes|Refactor|
+|\#1930|Replace internal use of old `FunctionAndThis` methods|All modes|Refactor|
+|\#1955|Refactor CallFrame|All modes|Refactor|
+|\#1956|Refactor exception handling|All modes|Refactor|
+|\#1958|Extract the inner loop of the interpreter to a separate method|All modes|Refactor|
+|\#1959|Refactor interpreter dispatch|All modes|Refactor|
+|\#1971|Remove leftover code from refactoring to lambda|All modes|Refactor|
+|\#1984|Remove `VMBridge`|All modes|Refactor|
+|\#2002|Remove unused `call` and `var` handling|All modes|Refactor|
+|\#2095|Delegate Java getter and setter calling to `NativeJavaMethod` instead of `MemberBox`|All modes|Refactor|
+|\#2105|Clean up symbol implementation in preparation for scope work|ECMAScript 2021 \(ES12\)|Refactor|
+|\#2015|Add tests and fix the package and JavaScript version used|All modes|Test|
 
 **Parent Topic:**[JavaScript engine on the platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_JS_engine_upgrade.md)
 

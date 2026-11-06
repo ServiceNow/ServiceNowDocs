@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/product-inventory-closed-loop-somt.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [product inventory, closed loop, order fulfillment, sold product, TMF637, inventory lifecycle, MACD orders, suspend resume disconnect]
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]

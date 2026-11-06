@@ -1,20 +1,20 @@
 ---
 title: Activate Workforce Optimization for HR
-description: Workforce Optimization for HR solution is highly modular, offering a wide range of capabilities such as Scheduling, Coaching, and Teams applications in Manager Workspace. Configurable Workspace \(sn\_hr\_wfo\_workspa\) plugin activates all other dependent plugins to enable users to access Scheduling, Coaching, and Teams applications in Workforce Optimization for HR.
+description: Workforce Optimization for HR solution is highly modular, offering a wide range of capabilities such as Scheduling, Coaching, and Teams applications in Manager Workspace. Configurable Workspace \(sn\_hr\_wfo\) plugin activates all other dependent plugins to enable users to access Scheduling, Coaching, and Teams applications in Workforce Optimization for HR.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/activate-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate Workforce Optimization for HR
 
-Workforce Optimization for HR solution is highly modular, offering a wide range of capabilities such as Scheduling, Coaching, and Teams applications in Manager Workspace. Configurable Workspace \(sn\_hr\_wfo\_workspa\) plugin activates all other dependent plugins to enable users to access Scheduling, Coaching, and Teams applications in Workforce Optimization for HR.
+Workforce Optimization for HR solution is highly modular, offering a wide range of capabilities such as Scheduling, Coaching, and Teams applications in Manager Workspace. Configurable Workspace \(sn\_hr\_wfo\) plugin activates all other dependent plugins to enable users to access Scheduling, Coaching, and Teams applications in Workforce Optimization for HR.
 
 ## Before you begin
 
@@ -43,11 +43,11 @@ After you install or upgrade to the latest Workforce Optimization for HR from Se
 
 [Workforce Optimization for HR Domain Separation]()
 
-[Configure Scheduling for Workforce Optimization for HR]()
+[Setting up Scheduling for Workforce Optimization for HR]()
 
-[Configure Teams in Workforce Optimization for HR]()
+[Setting up Teams in Workforce Optimization for HR]()
 
-[Configure Coaching in Workforce Optimization for HR]()
+[Setting up Coaching in Workforce Optimization for HR]()
 
 [Setting up Demand Forecast in Workforce Optimization for HR]()
 

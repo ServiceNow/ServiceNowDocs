@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Landing page configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -51,7 +51,7 @@ Donut area colors are based on the element that the donut is grouped by.
         3.  To customize the color of the **Catalog tasks assigned to me** card, filter records with **Name** as **sc\_task** and **Element** as **state**.
     3.  On the Chart Colors form, select the required color in the **Color name** field.
 
-    4.  Click **Update**.
+    4.  Select **Update**.
 
 2.  To change the donut area color for the Incident SLAs card in the tier-1 landing page, perform the following steps.
 
@@ -63,7 +63,7 @@ Donut area colors are based on the element that the donut is grouped by.
 
     4.  On the Range form, select the required color in the **Color name** field.
 
-    5.  Click **Update**.
+    5.  Select **Update**.
 
 3.  To change the donut area colors for the tier-2 landing page, perform the following steps.
 
@@ -77,7 +77,7 @@ Donut area colors are based on the element that the donut is grouped by.
         4.  To customize the color of the **Tasks assigned to me** card, filter records with **Name** as **sc\_task** and **Element** as **state**.
     3.  On the Chart Colors form, select the required color in the **Color name** field.
 
-    4.  Click **Update**.
+    4.  Select **Update**.
 
 
 **Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)

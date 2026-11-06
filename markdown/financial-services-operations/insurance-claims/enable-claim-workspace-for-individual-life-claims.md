@@ -7,7 +7,7 @@ release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -28,21 +28,21 @@ Role required: admin
 
 3.  In CSM/CSM/FSM Configurable Workspace, enable the CSM default record page.
 
-    For more information, see .
+    For more information, see [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md).
 
 4.  From the CSM default record page, set the page order.
 
 5.  Set the variant conditions and audience on the following record pages.
 
-<table id="choicetable_zkh_1dq_4bc"><thead><tr><th align="left" id="d42579e131">
+<table id="choicetable_zkh_1dq_4bc"><thead><tr><th align="left" id="d42644e132">
 
 Claims page variant
 
-</th><th align="left" id="d42579e134">
+</th><th align="left" id="d42644e135">
 
 Navigation to page records
 
-</th></tr></thead><tbody><tr><td id="d42579e140">
+</th></tr></thead><tbody><tr><td id="d42644e141">
 
 **Claim workspace page**
 

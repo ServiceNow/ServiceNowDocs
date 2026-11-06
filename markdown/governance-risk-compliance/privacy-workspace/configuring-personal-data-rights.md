@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -20,8 +20,6 @@ The following are the configuration tasks that must be performed before using th
 
 -   **[Configuring Personal Data Rights request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/configure-pdr-request-type.md)**  
 Create a request type in the Personal Data Rights application to categorize and manage the personal data rights requests. After you create a request type, the personal data rights agents and the task owners can select the required request type on the request form while working on a personal data rights request.
--   **[Configure request types and map jurisdictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/configure-request-types-and-map-jurisdictions.md)**  
-Configure new privacy request types by adding a request type with relevant details, and then map it to a specific jurisdiction.
 -   **[Create an action task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/create-an-action-task-template.md)**  
 Create action task templates accessible to personal data rights administrators to align with various request types, such as the right to correct, delete, know, or opt-out. Using these templates for auto-generated action tasks ensures that each task meets the specific requirements of the request type. This alignment guarantees consistency, compliance, and efficiency in handling personal data rights requests.
 -   **[Create a data registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/create-data-registry.md)**  

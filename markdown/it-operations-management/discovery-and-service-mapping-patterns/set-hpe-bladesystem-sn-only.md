@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [HPE BladeSystem discovery, serial number, cmdb\_ci\_hpe\_bladesystem\_enclosure, cmdb\_ci\_hpe\_bladesystem\_blade, MID Server property]
 breadcrumb: [HPE BladeSystem Enclosure, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ You can exclude the universally unique identifier \(UUID\) from the **Serial num
 
 ## Before you begin
 
-Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 
 Role required: discovery\_admin
 

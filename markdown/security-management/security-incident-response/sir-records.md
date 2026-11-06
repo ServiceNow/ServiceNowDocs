@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -121,9 +121,7 @@ Endpoint Detection and Response \(EDR\)
 -   Microsoft Defender for Endpoint-Related Machines Details
 
 </td></tr></tbody>
-</table>\[Omitted image "sir-records.png"\] Alt text: Related Records
-
-**Note:** In general, you'd be able to create new records, link, or unlink existing records or new records against the related list group as applicable.
+</table>**Note:** In general, you'd be able to create new records, link, or unlink existing records or new records against the related list group as applicable.
 
 **Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 

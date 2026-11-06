@@ -7,7 +7,7 @@ release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data privacy, Data Privacy, Platform Privacy]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Data privacy, Data Privacy, Platform Privacy]
 Use the real time anonymization\(RTA\) policy to anonymize data entries in real time.
 
 ## Real time anonymization Overview
-
-Role required: data\_discovery\_admin, data\_privacy\_admin
 
 Users create an RTA policy by selecting real time anonymization in the [Anonymization Policies page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/dps-create-anonymization-policies.md), and then selecting the appropriate data channel. For example you can use Virtual Agent with real time anonymization: create an anonymization policy with the Virtual Agent selected as its **Data Channel**.
 

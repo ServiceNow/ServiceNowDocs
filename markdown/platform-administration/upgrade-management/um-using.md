@@ -7,7 +7,7 @@ release: australia
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -20,8 +20,6 @@ Review the following for a seamless upgrade experience.
 
 -   **[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-tools.md)**  
 Access all the necessary tools you might require for a seamless upgrade experience on your instance.
--   **[Auto-upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/um-auto-upgrade.md)**  
-The auto-upgrade mechanism automatically upgrades ServiceNow-managed applications and plugins across your instances on a regular schedule without requiring manual intervention. Auto-upgrade applies exclusively to ServiceNow-managed applications and plugins; customer-customized or third-party applications aren't included in automatic upgrades.
 
 **Parent Topic:**[Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-landing-page.md)
 

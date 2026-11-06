@@ -235,5 +235,3 @@ Remediation guidance
 
 [View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/viewing-scan-results-scan-engine.md)
 
-[scan-engine-assignment-overview]
-

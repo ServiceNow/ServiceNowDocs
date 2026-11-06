@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Build triggers, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -68,7 +68,7 @@ For more information about creating an event source, see [Create an external eve
     |Description|Description of the trigger.|
     |Application|Application scope to create the trigger. Workflow Studio displays the configured spokes that are supported.|
     |Event source|The third party system that will send the events to ServiceNow.|
-    |Domain|Domain scope of the flow. For more information about domain separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md).|
+    |Domain|Domain scope of the flow. For more information about domain separation, see .|
 
 4.  Select **Show additional properties** and fill in the fields.
 
@@ -111,7 +111,7 @@ For more information about creating an event source, see [Create an external eve
 
 ## Result
 
-The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/use-saved-trigger.md).
+The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/use-saved-trigger.md)
 
 -   **[Managing external event sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/manage-external-event-sources.md)**  
 Create and manage external event sources for a spoke or a scoped application that listen to events occurring in an application outside ServiceNow. Then, you can create external trigger definitions and associate them with the external event sources. When the event that you specify in the external trigger definition occurs, it starts one or more flows on your ServiceNow instance.

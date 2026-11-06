@@ -1,11 +1,11 @@
 ---
 title: Create an intelligent approval
-description: Generate an intelligent approval policy from an existing policy document.
+description: Generate an intelligent approval from an existing policy document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/create-an-intelligent-approval.html
 release: australia
 topic_type: task
-last_updated: "2026-07-01"
+last_updated: "2026-10-19"
 reading_time_minutes: 4
 keywords: [intelligent approvals, create approval policy, upload policy document, AI approval, publish policy]
 breadcrumb: [Build intelligent approvals, Intelligent approvals, Build workflows]
@@ -13,7 +13,7 @@ breadcrumb: [Build intelligent approvals, Intelligent approvals, Build workflows
 
 # Create an intelligent approval
 
-Generate an intelligent approval policy from an existing policy document.
+Generate an intelligent approval from an existing policy document.
 
 ## Before you begin
 
@@ -49,13 +49,13 @@ Role required: sn\_iap.policy\_manager or sn\_iap.policy\_admin
 
     **Important:** Review the AI-generated trigger conditions carefully, as outputs may be inaccurate or incomplete.
 
-    Select the **Define my own** tab to override the **Suggested options** scope and start conditions. Enter a description of the record types, field values, and start conditions that you want to use for this intelligent approval.
+    Select **Edit** to override the table name and field conditions of the **Suggested options** scope and start conditions. Select the table, fields, and field values that you want to use to start this intelligent approval. Alternatively, you can select **Define my own** to enter a text description of the table and field conditions that you want to use, and AI will convert your text into a new set of suggested approval conditions.
 
     \[Omitted image "intelligent-approval-create-05-0A.png"\] Alt text: Define my own text box option with the tooltip, "Describe in your own words what kind of requests you want to apply this intelligent approval to."
 
 6.  Select either the **Suggested options** or **Define my own** descriptive text, and then select **Next**.
 
-    \[Omitted image "intelligent-approval-create-06.png"\] Alt text: Sample Suggested options descriptive text for a Change Request policy
+    \[Omitted image "intelligent-approval-create-05.png"\] Alt text: Sample Suggested options descriptive text for a Change Request policy
 
     The system reviews your policy document and generates the intelligent approval. The generation process may take a moment to complete.
 
@@ -65,17 +65,23 @@ Role required: sn\_iap.policy\_manager or sn\_iap.policy\_admin
 
 7.  Review the **Overview** and **Test results** tabs of your intelligent approval policy.
 
-    \[Omitted image "intelligent-approval-create-09.png"\] Alt text: Intelligent approval Overview tab displaying a 73% rate of test approvals that can be automated
+    \[Omitted image "intelligent-approval-create-09.png"\] Alt text: Intelligent approval Overview tab displaying a 85% rate of test approvals that can be automated
 
     A high percentage of **AI approved/rejected** results indicates that the policy document provides clear, consistent criteria for the system to evaluate. A high percentage of **Can't decide** results indicates that the policy document needs improvement.
 
     **Important:** AI-generated approvals and rejections may be inaccurate or inappropriate. Review the approval results before publishing the policy.
 
-8.  Review the **Suggested improvements** tab.
+8.  Review the **Interpreted policy areas**, **Source document**, **Test results**, and **Suggested improvements** tabs.
 
     \[Omitted image "intelligent-approval-create-09-0D.png"\] Alt text: Sample suggested improvements document
 
-    The suggested improvements document contains items that you can add, edit, or remove from your policy source document.
+    |Tab|Description|
+    |---|-----------|
+    |Overview|This tab describes how the intelligent approval was generated and its expected automation rate.|
+    |Interpreted policy areas|This tab describes the table and fields used to trigger the intelligent approval. It also lists when human review is needed.|
+    |Source document|This tab shows a read-only copy of the PDF source document.|
+    |Test results|This tab shows the test cases that were generated and run, the decision that the AI made, and the reasoning the AI used to make the decision.|
+    |Suggested improvements|This tab shows a list of items that you can add, edit, or remove from your policy source document to potentially improve the automation rate.|
 
 9.  From the PDF document viewer toolbar, select **Download** to save a PDF copy of the suggestions.
 
@@ -110,11 +116,13 @@ Role required: sn\_iap.policy\_manager or sn\_iap.policy\_admin
 
 ## Result
 
-\[Omitted image "intelligent-approval-create-12.png"\] Alt text: Intelligent approvals homepage with the Change Request Policy v1 card showing an active status
+\[Omitted image "intelligent-approval-create-12.png"\] Alt text: Intelligent approvals homepage with the Change Request Policy card showing an active status
 
-The intelligent approval policy is published and activated for all incoming requests that match the configured trigger conditions. The system evaluates matching requests as they are created and automatically approves or rejects requests that clearly meet the policy criteria. Requests that the system can't evaluate are routed to human reviewers for approval.
+The intelligent approval policy is published and activated for all incoming requests that match the configured trigger conditions. The system evaluates matching requests as they are created and automatically approves or rejects requests that clearly meet the policy criteria. Requests that the system can't evaluate remain open for human reviewers to approve.
 
-If intelligent approvals don't start when expected, verify the intelligent approvals start conditions. Use the **Define my own** option to override the suggested options.
+If intelligent approvals don't start when expected, verify the intelligent approvals start conditions. Use the **Edit** option to update the table and field conditions.
 
 If too many intelligent approvals result in a **Can't decide** decision, review and update your policy document. Load your updated policy and use the suggested improvements to raise the percentage of **AI approved/rejected** results.
+
+**Note:** If your policy requires manual review and approval from humans, the percentage of **Can't decide** approvals will remain high. Intelligent approvals can't automate approval processes that require human review and approval.
 

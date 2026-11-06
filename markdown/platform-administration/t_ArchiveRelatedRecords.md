@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ArchiveRelatedRecords.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Archiving records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,15 +22,15 @@ Role required: admin.
 
 1.  Access the archive rule that you want to configure in one of the following ways.
 
-<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d130363e59">
+<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d130726e59">
 
 Option
 
-</th><th align="left" id="d130363e62">
+</th><th align="left" id="d130726e62">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d130363e68">
+</th></tr></thead><tbody><tr><td id="d130726e68">
 
 **Using a data management policy**
 
@@ -42,7 +42,7 @@ Steps
 4.  In the **Archive Related Records** related list, select **New**.
 
 
-</td></tr><tr><td id="d130363e110">
+</td></tr><tr><td id="d130726e110">
 
 **Using the Archive Rules module**
 

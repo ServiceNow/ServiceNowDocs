@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Complex data, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -33,7 +33,7 @@ A data structure is a collection of related data elements organized into a hiera
     |---|---|
     |**Action or subflow input**|Click **Create Input**|
     |**Action or subflow output**|Click **Create Output**|
-    |**XML parser step**|See [XML parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/xml-parser-step-action-designer.md)|
+    |**XML parser step**|See XML parser step|
 
 2.  Set **Type** to **Object**.
 

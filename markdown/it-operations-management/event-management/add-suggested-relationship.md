@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CMDB based alert grouping, Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -23,8 +23,6 @@ Role required: evt\_mgmt\_admin
 ## About this task
 
 Configure the **sa\_analytics.agg.query\_cmdb\_suggested\_relationship\_enabled** property to further enhance alert grouping by using suggested relationships. For more information on properties, see [CMDB alert grouping — properties and functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/cmdb-alert-group-properties.md).
-
-To create CMDB-based alert grouping, you can also create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/group-alert-sow-itom.md).
 
 ## Procedure
 

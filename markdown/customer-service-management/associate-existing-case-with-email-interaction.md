@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/associate-existing-case-with-email-interaction.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
 breadcrumb: [Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
@@ -29,7 +29,7 @@ The interaction must be in a closed complete state before it can be linked to an
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon that displays the interactions.\).
+2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon\).
 
 3.  In the Interactions section, select **My Interactions**.
 

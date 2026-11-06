@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/es-na-cbs-fsummary.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Employee Slate, Now Assist, Configuration Summary, navigation, branding, data sources, conversational assistant, canvas, Core Business Suite]
 breadcrumb: [Reference, Core Business Suite]

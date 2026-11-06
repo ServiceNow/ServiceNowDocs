@@ -7,7 +7,7 @@ release: australia
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a role, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-subscription-auto-assignment.md).
+**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see .
 
 ## Procedure
 

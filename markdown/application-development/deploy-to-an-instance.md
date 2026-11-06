@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 3
 keywords: [Deploy to an instance, Prerequisites, Steps, What gets installed where, Release and promotion, Roll back a deploy, Promote between instances, Install through an update set, Deploying from Lux Lab, Deploying from ServiceNow IDE, Deploying through Maven, Diagnose a failed deploy, Ship checklist, Next steps]
-breadcrumb: [Test and deploy a Lux app, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Test and deploy a Lux app, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Deploy to an instance
@@ -105,7 +105,7 @@ Source code  →  pnpm build  →  pnpm deploy  →  ServiceNow instance
 
     Open `https://<instance>/aiux/<basename>/<landing>` and confirm the app loads. Check server-side rendering \(SSR\) output through **DevTools** &gt; **Network** &gt; **Preview**, and check the real-time log viewer at `https://<instance>/aiux/<basename>/logs` for server-side loader or SSR failures.
 
-    For the SSR check in detail, see [Ways to preview a Lux experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ways-to-preview-an-experience.md). For the `/aiux/ready` route and the other checks that run before and during a deploy, see .
+    For the SSR check in detail, see [Ways to preview a Lux experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ways-to-preview-an-experience.md). For the `/aiux/ready` route and the other checks that run before and during a deploy, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/validation-checks-and-when-they-run.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/validation-checks-and-when-they-run.md).
 
 
 ## What gets installed where

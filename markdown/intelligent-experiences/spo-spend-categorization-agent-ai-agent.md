@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/spo-spend-categorization-agent-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Sourcing and Procurement Operations AI agents, Sourcing and Procurement Operations, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Sourcing and Procurement Operations AI agents, Sourcing and Procurement Operations, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Spend categorization AI agent

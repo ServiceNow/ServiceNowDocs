@@ -7,7 +7,7 @@ release: australia
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI skill, ServiceNow Otto, Gen AI, Generative AI, SPM, Strategic Portfolio Management, Identify similar demand records]
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]

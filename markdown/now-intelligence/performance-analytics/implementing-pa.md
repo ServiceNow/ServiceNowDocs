@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -30,7 +30,7 @@ For a tool to help you plan and prepare your Performance Analytics solution, see
 
 ## Start with Platform Analytics Solutions
 
-Before you create new indicators, try out the built-in dashboards and indicators available in Platform Analytics Solutions.
+Before you create indicators, try out the built-in dashboards and indicators available in Platform Analytics Solutions.
 
 **Important:** Set up and test Platform Analytics Solutions on a non-production instance before enabling them in production.
 
@@ -42,7 +42,7 @@ Before you create new indicators, try out the built-in dashboards and indicators
 
 ## Collect data
 
-Collection jobs need to be configured to run with the desired frequency and activated.
+Collection jobs must be configured to run with the desired frequency and activated.
 
 1.  Schedule and activate data collector jobs.
 2.  Run historical data collector jobs as a one-off to populate empty indicators.

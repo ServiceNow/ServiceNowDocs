@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: task
 last_updated: "2026-10-02"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using other AI applications from AI Admin Center, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
+breadcrumb: [Using other AI applications from AI Admin Center, Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Use AI Guardian features in AI Admin Center\(Next Experience UI\)
@@ -17,7 +17,7 @@ Use AI Guardian features in the AI Admin Center workspace to detect offensive co
 
 **Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
 
-The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+The Next Experience AI Admin Center workspace is being prepared for future deprecation and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
 
 In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
@@ -44,7 +44,7 @@ AI Guardian provides safety and governance controls for AI-generated content. It
 
 In AI Admin Center, the integration of AI Guardian includes multi-tabbing support for working with safety and governance controls without leaving the application context.
 
-For more information on AI Guardian, see .
+For more information on AI Guardian, see [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-guardian.md).
 
 **Note:** This topic describes the AI Admin Center feature based on the Next Experience UI. If you're using the Lux user experience for AI Admin Center, see the Lux UI version of this topic.
 
@@ -60,15 +60,15 @@ For more information on AI Guardian, see .
 
     AI Guardian provides three guardrails. Each guardrail has a different scope.
 
-<table id="choicetable_bs2_qzh_w3c"><thead><tr><th align="left" id="d357690e296">
+<table id="choicetable_bs2_qzh_w3c"><thead><tr><th align="left" id="d338818e305">
 
 Guardrail
 
-</th><th align="left" id="d357690e299">
+</th><th align="left" id="d338818e308">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d357690e305">
+</th></tr></thead><tbody><tr><td id="d338818e314">
 
 **Prompt injection detection**
 
@@ -78,9 +78,9 @@ This guardrail attempts to override LLM instructions or expose restricted inform
 
  Select **Prompt injection** to open the Prompt injection tab.
 
- For more information on how to configure this guardrail, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-prompt-injection-attack-protection.md).
+ For more information on how to configure this guardrail, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-prompt-injection-attack-protection.md).
 
-</td></tr><tr><td id="d357690e330">
+</td></tr><tr><td id="d338818e342">
 
 **Offensiveness detection**
 
@@ -90,9 +90,9 @@ This guardrail detects offensive or harmful content in AI inputs and outputs. It
 
  Select **Offensiveness** to open the Offensiveness tab.
 
- For more information on how to configure this guardrail, see [Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-offensiveness-protection-for-generative-ai.md).
+ For more information on how to configure this guardrail, see [Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-offensiveness-protection-for-generative-ai.md).
 
-</td></tr><tr><td id="d357690e355">
+</td></tr><tr><td id="d338818e380">
 
 **Sensitive topic filters**
 
@@ -102,7 +102,7 @@ This guardrail filters subjects not suited for AI responses, such as workplace s
 
  Select **Sensitive Filters** to open the Filters tab.
 
- For more information on how to configure this guardrail, see [Configure sensitive topic filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-sensitive-topic-filters.md).
+ For more information on how to configure this guardrail, see [Configure sensitive topic filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-sensitive-topic-filters.md).
 
 </td></tr></tbody>
 </table>

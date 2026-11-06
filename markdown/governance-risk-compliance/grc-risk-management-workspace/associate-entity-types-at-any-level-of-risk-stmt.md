@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Risk hierarchy and scoring, Manage risks, risk statements, and risk frameworks, Explore, Risk Management, Governance, Risk, and Compliance]
 ---

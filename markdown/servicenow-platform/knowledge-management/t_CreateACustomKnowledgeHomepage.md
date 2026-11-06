@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,7 +36,7 @@ Role required: admin
 
 5.  In the **Arguments** field, append one or more of the following values to `$knowledge.do#/search?`.
 
-<table id="choicetable_c4x_2q1_5r"><tbody><tr><td id="d452604e115">
+<table id="choicetable_c4x_2q1_5r"><tbody><tr><td id="d457309e115">
 
 **sysparm\_kb=&lt;knowledge base sys\_id&gt;**
 
@@ -46,7 +46,7 @@ Enter the sys\_id of a knowledge base to show knowledge articles from that knowl
 
  If the specified knowledge base does not exist, the default knowledge homepage appears when accessing the custom homepage module.
 
-</td></tr><tr><td id="d452604e130">
+</td></tr><tr><td id="d457309e130">
 
 **sysparm\_category=&lt;knowledge category sys\_id&gt;**
 
@@ -58,7 +58,7 @@ Enter the sys\_id of a knowledge category to show knowledge articles from that c
 
 **Note:** The category passed in this parameter must belong to the knowledge base passed in the **sysparm\_kb** parameter.
 
-</td></tr><tr><td id="d452604e150">
+</td></tr><tr><td id="d457309e150">
 
 **sysparm\_order=&lt;view\_count, last\_modified, or relevancy&gt;**
 

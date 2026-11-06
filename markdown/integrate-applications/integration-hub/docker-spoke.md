@@ -90,7 +90,7 @@ The Docker spoke provides actions to automate Docker tasks when events occur in 
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-This spoke uses the Docker alias record to authorize actions. To use the spoke connection alias, create an associated Connection record. This spoke does not require a credential record. For information about setting up the spoke, see [Configure a connection for Docker spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-docker-spoke.md).
+This spoke uses the Docker alias record to authorize actions. To use the spoke connection alias, create an associated Connection record. This spoke does not require a credential record. For information about setting up the spoke, see [Configure a connection for the Docker spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-docker-spoke.md).
 
 ## MID Server requirements
 

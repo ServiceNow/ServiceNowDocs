@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-record-page-record-list-component-bundle.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Components, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -14,9 +14,9 @@ breadcrumb: [Components, Record pages and page templates, CRM Workspace, Organiz
 
 The Record List component bundle is a list component bundle that uses a dedicated controller to configure list actions such as sorting, filtering, and grouping.
 
-The Record List component bundle includes a record list header with declarative actions as well as pagination control for navigating list pages.
+The Record List component bundle includes a record list header with declarative actions and pagination control for navigating list pages.
 
-Starting with the Zurich release, CSM Configurable Workspace record pages use the Record List component bundle. This list component bundle is the default experience for both new \(zboot\) and upgrade customers.
+Starting with the Zurich release, CRM Workspace record pages use the Record List component bundle. This list component bundle is the default experience for both new \(zboot\) and upgrade customers.
 
 For more information, see the following topics:
 
@@ -25,7 +25,7 @@ For more information, see the following topics:
 
 ## Upgrade information
 
-The default declarative actions included with CSM Configurable Workspace record pages work with the Record List component bundle.
+The default declarative actions included with CRM Workspace record pages work with the Record List component bundle.
 
 Customer declarative actions that open a modal on the list page require some configuration to work with the Record List component. See the example below for details.
 
@@ -64,7 +64,7 @@ This example uses the Customer Service Case Types application, which includes mu
 To make the modal available, add it to the List Page Modals page collection.
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Open the CSM/FSM Configurable Workspace experience.
+2.  Open the CRM Workspace experience.
 3.  Select **List \(List bundle default\)** in the experience header.
 4.  In the content tree on the left side, select **List Viewport Modal**.
 5.  In the Configure tab on the right side, select the icon in the **Page collections** field to display the List page modals page collection.

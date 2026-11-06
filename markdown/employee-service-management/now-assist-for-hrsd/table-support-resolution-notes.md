@@ -7,9 +7,9 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure resolution notes, Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure resolution notes, Configure skills, Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Extend table support for resolution notes generation
@@ -26,7 +26,7 @@ Role required: sn\_hr\_core.admin
 
 2.  Select your skill from the **Custom skills** or **ServiceNow skills** tab.
 
-3.  In the Skill contents section, select the Edit Skill Input icon \[Omitted image "edit-new.png"\] Alt text: beside **inputs**.
+3.  In the Skill contents section, select the Edit Skill Input icon \[Omitted image "edit-new.png"\] Alt text: Edit icon beside **inputs**.
 
 4.  In the **Input table** field, select the table you want to include as a data source.
 

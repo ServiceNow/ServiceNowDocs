@@ -7,7 +7,7 @@ release: australia
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Google Drive integration with Document Services, Integrate with Document Services, Multi Provider Document Services Framework, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,15 +26,15 @@ Role required: admin
 
 1.  Set up and connect Google Drive Spoke.
 
-    For more information, see [Set up Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-gdrive.md).
+    For more information, see .
 
 2.  Set up and connect Google Directory Spoke.
 
-    For more information, see [Google Directory Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/gdirectory-spoke.md).
+    For more information, see .
 
 3.  Set up and connect Google Doc Spoke.
 
-    For more information, see [Google Docs Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/gdocs-spoke.md).
+    For more information, see .
 
 4.  Activate Document Services for Google Drive Spoke.
 

@@ -46,15 +46,15 @@ For example, a financial institution wants to improve its loan approval process 
 
 1.  Request an AI system from the Employee Center or from the AI Control Tower dashboard.
 
-<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d280863e228">
+<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d282449e228">
 
 Option
 
-</th><th align="left" id="d280863e231">
+</th><th align="left" id="d282449e231">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d280863e237">
+</th></tr></thead><tbody><tr><td id="d282449e237">
 
 **Request an AI system using AI Risk and Compliance**
 
@@ -66,7 +66,7 @@ Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**. 1.  Select *
 
 AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-</td></tr><tr><td id="d280863e288">
+</td></tr><tr><td id="d282449e288">
 
 **Request an AI system using AI Control Tower**
 

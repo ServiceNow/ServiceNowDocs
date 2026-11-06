@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/administering-tags.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Tags, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -112,7 +112,7 @@ Configure the system to automatically assign a tag to records that match conditi
 
 ### Before you begin
 
-Role required: tags\_admin, however for users with the tags\_admin role to be able to create conditions for labels, you need to create the following ACLs. Creating ACLs requires the security\_admin elevated role. Include tags\_admin as a required role for each ACL. For more information on creating an ACL, see Create an ACL rule.
+Role required: tags\_admin, however for users with the tags\_admin role to be able to create conditions for labels, you need to create the following ACLs. Creating ACLs requires the security\_admin elevated role. Include tags\_admin as a required role for each ACL. For more information on creating an ACL, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md).
 
 |Name|Operation|
 |----|---------|
@@ -159,7 +159,7 @@ Use automatically assigned tags to group high urgency incidents, overdue inciden
 **Related topics**  
 
 
-[bundle-platadm.configure-form-layout]
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
 
 ## Configure notifications for tagged records
 

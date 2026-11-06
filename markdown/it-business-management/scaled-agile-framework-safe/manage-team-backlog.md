@@ -7,7 +7,7 @@ release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [SAFe Board — Team level, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -124,6 +124,8 @@ In SAFe, the main portion of sprint planning occurs during the Big Room Planning
 5.  To personalize columns in a list, click the Personalize icon.
 
 6.  To start a sprint, click **Start** that appears at right corner of the first or top sprint.
+
+    You can start a sprint only when its program increment is current. A team can have only one current sprint at a time, so complete the current sprint before you start the next one.
 
 7.  To complete a sprint, click **Complete Sprint** that appears at right corner of the first or top sprint.
 

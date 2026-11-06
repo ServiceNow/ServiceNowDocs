@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/using-email-interaction-customer-service-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [Email Interaction for CSM, email replies closed interactions, AI summarization email interactions]
 breadcrumb: [Customer communication, Use, Customer Service Management]
@@ -56,7 +56,7 @@ For more information on how the system evaluates and routes replies, see [Email 
 
 ## Outbound email interactions
 
-Agents can initiate outbound email interactions directly from contact or consumer records in the CRM Workspace. When an agent composes and sends an email from a contact or consumer record, the system automatically creates a Work-In-Progress \(WIP\) outbound interaction. The interaction is assigned to the agent.
+Agents can initiate outbound email interactions directly from contact or consumer records in the CRM Workspace. When an agent composes and sends an email from a contact or consumer record, the system automatically creates a Work-In-Progress \(WIP\) outbound interaction. The system assigns the interaction to the agent.
 
 Outbound email interactions support the following features:
 
@@ -69,7 +69,7 @@ Outbound email interactions support the following features:
 
 ## Multiple agents composing email for the same customer
 
-By default, when multiple agents initiate outbound emails for the same customer, the system consolidates all drafts into a single WIP interaction. The outbound interaction is assigned to the agent who initiates the email. If the agent composes the email but doesn’t send it immediately, the draft remains in the WIP interaction. When another agent composes an email to the same contact or consumer, the system links the second email to the same outbound interaction. The system reassigns ownership to the second agent. When the email is sent, the interaction is assigned to the agent who sends it.
+By default, when multiple agents initiate outbound emails for the same customer, the system consolidates all drafts into a single WIP interaction. The outbound interaction is assigned to the agent who initiates the email. If the agent composes the email but doesn’t send it immediately, the draft remains in WIP status. When another agent composes an email to the same contact or consumer, the second email is linked to the same outbound interaction. Ownership is reassigned to the second agent. When the email is sent, the interaction is assigned to the agent who sends it.
 
 This behavior is configurable using the \(**sn\_eaai\_core.create\_outbound\_interaction\_per\_agent.target\_tables**\) system property. When a table is listed in this property, a new outbound interaction is created for each outbound email initiated by different agents for the same customer. For example, if Agent A and Agent B both compose emails to the same contact, each agent gets a separate outbound interaction instead of sharing one. When a table isn’t listed, all agent drafts are consolidated into a single WIP interaction.
 

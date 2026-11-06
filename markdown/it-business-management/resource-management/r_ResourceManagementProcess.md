@@ -7,7 +7,7 @@ release: australia
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -20,7 +20,7 @@ The resource plan is the key to understanding how resource management works.
 
 You're encouraged to work on resource assignments which offers more flexibility using Resource Management Workspace or Project Workspace.
 
-For more information about migrating from resource plans to resource assignments, see [Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md).
+For more information about migrating from resource plans to resource assignments, see [Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md).
 
 **Which approach applies to you?**
 

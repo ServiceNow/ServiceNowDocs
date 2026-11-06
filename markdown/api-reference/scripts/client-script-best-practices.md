@@ -1,5 +1,5 @@
 ---
-title: Client-side scripting design and processing
+title: General guidelines for client script design and processing
 description: Well-designed client scripts can reduce the amount of time it takes users to complete a form.If you create UI policies or client scripts for fields on a form, you must use another method to ensure that data in those fields is similarly controlled in a list.Use client data as much as possible to eliminate the need for time-consuming server lookups.When using setValue\(\) on a reference field, include the displayValue parameter to avoid additional server calls.When possible, consider using a UI policy instead of a client script.An excellent use for a client script is to validate the input from the user.Control the order of execution for your client scripts using the Order field. To avoid having two or more client scripts run concurrently and then conflict, you can add an order for the scripts to run in. Avoid Document Object Model \(DOM\) manipulation if possible. It can cause a maintainability issue when browsers are updated.A global client script is any client script where the selected Table is Global. Global client scripts have no table restrictions, therefore they will load on every page in the system introducing browser load delay in the process.Enclose the code in a client script inside a function.To avoid running time-consuming scripts unnecessarily, make sure that client scripts perform only necessary tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/client-script-best-practices.html
@@ -7,12 +7,12 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 11
-breadcrumb: [Client-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Write client-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
-# Client-side scripting design and processing
+# General guidelines for client script design and processing
 
 Well-designed client scripts can reduce the amount of time it takes users to complete a form.
 
@@ -25,7 +25,7 @@ If you create client scripts to control field values on a form, you must use ano
 -   Create data policies.
 -   Create a separate onCellEdit client script.
 
-**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
+**Parent Topic:**[Writing client-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
 
 ## Restrict list editing
 
@@ -64,7 +64,7 @@ For example, assume you open an incident and need to pass this information to th
 
 A display business rule sends this information to the client using the following script:
 
-```
+```javascript
 g_scratchpad.css = gs.getProperty('css.base.color');
 g_scratchpad.hasAttachments = current.hasAttachments();
 g_scratchpad.managerName = current.caller_id.manager.getDisplayValue();
@@ -72,7 +72,7 @@ g_scratchpad.managerName = current.caller_id.manager.getDisplayValue();
 
 To access scratchpad data using a client script:
 
-```
+```javascript
 // Check if the form has attachments
 if (g_scratchpad.hasAttachments)
     // do something interesting here
@@ -86,7 +86,7 @@ Asynchronous GlideAjax allows you to dynamically request information from the se
 
 This script compares the support group of the CI and the assignment group of the incident by name:
 
-```
+```javascript
 //Alert if the assignment groups name matches the support group
 function onChange(control, oldValue, newValue, isLoading) {
  
@@ -112,7 +112,7 @@ function doAlert(response) {
 
 This script relies on the accompanying script include:
 
-```
+```javascript
 var ciCheck = Class.create();
  
 ciCheck.prototype = Object.extendsObject(AbstractAjaxProcessor, {
@@ -150,7 +150,7 @@ When using setValue\(\) on a reference field, be sure to include the reference f
 
 This example demonstrates the incorrect way to call setValue:
 
-```
+```javascript
 var id = '5137153cc611227c000bbd1bd8cd2005';
  
 g_form.setValue('assigned_to', id); // Client needs to go back to the server to
@@ -159,7 +159,7 @@ g_form.setValue('assigned_to', id); // Client needs to go back to the server to
 
 Instead, include the display value as an optional parameter in setValue\(\):
 
-```
+```javascript
 var id = '5137153cc611227c000bbd1bd8cd2005';
 var name = 'Fred Luddy';
  
@@ -185,7 +185,7 @@ This validation improves the user experience because the user finds out if there
 
 An example of validation is to verify that the **Impact** field value is valid with the **Priority** field value. In this example, Low impact is not allowed with High priority.
 
-```
+```javascript
 if (g_form.getValue('impact') == '3' && g_form.getValue('priority') == '1')
    g_form.showFieldMsg('impact', getMessage('Low impact now allowed with High priority'), 'error');
 
@@ -236,7 +236,7 @@ Client scripts without a function cause issues with variable scope. When code is
 
 Consider this example:
 
-```
+```javascript
 var state = "6";
  
 function onSubmit() {
@@ -249,7 +249,7 @@ function onSubmit() {
 
 Because the *state* variable is not enclosed in a function, all client-side scripts, have access to it. Other scripts may also use the common variable name *state*. The duplicate names can conflict and lead to unexpected results. These issues are difficult to isolate and resolve. To avoid this issue, ensure that all code is wrapped in a function:
 
-```
+```javascript
 function onSubmit() {
  
    var state = "6";
@@ -270,7 +270,7 @@ The following examples demonstrate improvements to the initial code sample. Each
 
 Remember that client scripts have no **Condition** field. This means that onLoad\(\) and onChange\(\) scripts run in their entirety every time the appropriate form is loaded. This example is an inefficient onChange\(\) client script set to run when the **Configuration item** field changes.
 
-```
+```javascript
 //Set Assignment Group to CI's support group if assignment group is empty
 function onChange(control, oldValue, newValue, isLoading) {
  
@@ -283,7 +283,7 @@ function onChange(control, oldValue, newValue, isLoading) {
 
 This example improves upon the first by replacing the getReference\(\) or GlideRecord lookup with an asynchronous GlideAjax call.
 
-```
+```javascript
 //Set Assignment Group to support group if assignment group is empty
 function onChange(control, oldValue, newValue, isLoading) {
  
@@ -306,7 +306,7 @@ The **isLoading** flag is the simplest way to prevent unnecessary code from taki
 
 The **isTemplate** flag indicates that a template is loading.
 
-```
+```javascript
 //Set Assignment Group to CI's support group if assignment group is empty
 function onChange(control, oldValue, newValue, isLoading, isTemplate) {
  
@@ -331,7 +331,7 @@ function setAssignmentGroup(response) {
 
 If the onChange script should run during loading, use the following convention:
 
-```
+```javascript
 function onChange(control, oldValue, newValue, isLoading, isTemplate) {
  
     if (isLoading) {}; // run during loading
@@ -343,7 +343,7 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 
 The newValue check tells this script to continue only if there is a valid value in the relevant field. This prevents the script from running when the field value is removed or blanked out. This also ensures that there will always be a valid value available when the rest of the script runs.
 
-```
+```javascript
 //Set Assignment Group to CI's support group if assignment group is empty
 function onChange(control, oldValue, newValue, isLoading, isTemplate) {
  
@@ -371,7 +371,7 @@ To have the script react to a value that changes after the form loads, use the n
 
 **Note:** This example does not catch users changing a value and then changing it back to its original value.
 
-```
+```javascript
 //Set Assignment Group to CI's support group if assignment group is empty
 function onChange(control, oldValue, newValue, isLoading, isTemplate) {
  
@@ -399,7 +399,7 @@ function setAssignmentGroup(response) {
 
 In this example, the GlideAjax call is buried one level deeper by rearranging the script to check as many things available to the client as possible before running the server calls. The script checks the assignment before executing the GlideAjax call. This prevents the server lookup when the **assignment\_group** field is already set.
 
-```
+```javascript
 //Set Assignment Group to CI's support group if assignment group is empty
 function onChange(control, oldValue, newValue, isLoading, isTemplate) {
  

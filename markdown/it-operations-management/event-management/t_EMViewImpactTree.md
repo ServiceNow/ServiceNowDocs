@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -51,7 +51,7 @@ You can also learn about the impact tree from the following video tutorial.
     -   **OK \(green\)**: An alert is created. The resource is still functional.
 6.  Do one or more of the following.
 
-<table id="choicetable_rdg_w1m_35"><tbody><tr><td id="d329069e208">
+<table id="choicetable_rdg_w1m_35"><tbody><tr><td id="d351836e208">
 
 **Adjust impact rules**
 
@@ -61,7 +61,7 @@ You can also learn about the impact tree from the following video tutorial.
 2.  Review and adjust the impact rules as necessary.
 
 
-</td></tr><tr><td id="d329069e229">
+</td></tr><tr><td id="d351836e229">
 
 **Remediate an alert**
 

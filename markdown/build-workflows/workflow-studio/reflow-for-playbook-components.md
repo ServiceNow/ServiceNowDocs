@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -21,4 +21,6 @@ Reflow, is a configurable workspace feature that enables pages and content to be
 \[Omitted video\]
 
 If you want Reflow to work for your Playbook Experience components, see [Apply Reflow to playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/apply-reflow-playbook-components.md).
+
+For more information about Reflow, see .
 

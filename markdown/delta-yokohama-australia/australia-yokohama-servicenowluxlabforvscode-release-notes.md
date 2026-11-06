@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-servicenowluxlabforvscode-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 3
+last_updated: "2026-11-06"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -231,7 +231,12 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install ServiceNow Lux Lab for VS Code by requesting it from the Visual Studio Code Marketplace.
+
+
+**Note:** ServiceNow Lux Lab for VS Code is available in the Visual Studio Code Marketplace. For details, see the following activation information.
 
 </td></tr><tr><td>
 
@@ -273,7 +278,87 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Additional requirements**
+
+The ServiceNow Lux Lab for VS Code extension requires the following:
+
+<table><thead><tr><th>
+
+Application
+
+</th><th>
+
+Version
+
+</th><th>
+
+Resources for more information
+
+</th></tr></thead><tbody><tr><td>
+
+Visual Studio Code
+
+</td><td>
+
+1.97 later
+
+</td><td>
+
+[Visual Studio Code updates](https://code.visualstudio.com/updates/v1_132)
+
+</td></tr><tr><td>
+
+Node.js
+
+</td><td>
+
+24 or later
+
+</td><td>
+
+[Node.js](https://nodejs.org/en/download)
+
+</td></tr><tr><td>
+
+pnpm
+
+</td><td>
+
+10 or later
+
+</td><td>
+
+[pnpm](https://pnpm.io/installation)
+
+</td></tr><tr><td>
+
+ServiceNow SDK
+
+</td><td>
+
+4.14 or later
+
+</td><td>
+
+[ServiceNow SDK](https://www.npmjs.com/package/@servicenow/sdk)
+
+</td></tr><tr><td>
+
+ServiceNow instance
+
+</td><td>
+
+-   Australia Patch 5 or later
+-   Zurich Patch 12 or later
+
+
+</td><td>
+
+[Prepare your upgrade](https://www.servicenow.com/docs/access?context=rn-prepare-landing-page&family=zurich&ft:locale=en-US)
+
+</td></tr></tbody>
+</table>
+
 
 </td></tr><tr><td>
 
@@ -339,7 +424,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.12.1 or later
+4.14 or later
 
 </td><td>
 
@@ -501,7 +586,14 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   Scaffold experiences, pages, and widgets with framework intelligence.
+-   Extend base system applications with experiences and pages tailored to your organization's needs.
+-   Run commands via the ServiceNow Lux Lab for VS Code extension interface rather than using the terminal.
+-   Preview your application in real time without leaving Visual Studio Code.
+-   Access relevant experiences, pages, and widgets from your instance.
+-   Develop tailored experiences with AI tools.
+
+ See [ServiceNow AI Experience Lab for VS Code extension](https://www.servicenow.com/docs/access?context=servicenow-ai-experience-lab-for-vs-code-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-crm-entity-outlook.html
 release: australia
 topic_type: task
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow CRM for Outlook, create lead, create contact, create and associate]
 breadcrumb: [Activity Management, Sales automation apps, Use, Sales Customer Relationship Management]
@@ -47,7 +47,7 @@ Role required: sn\_crm\_outlook.crm\_outlook\_user
 
 ## Result
 
-The CRM record is created and the email association is logged, enabling you to continue engagement tracking from either Microsoft Outlook or CSM/FSM Configurable Workspace.
+The CRM record is created and the email association is logged, enabling you to continue engagement tracking from either Microsoft Outlook or CRM Workspace.
 
 ## What to do next
 

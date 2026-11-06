@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/integrate-application
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [data asset details]
 breadcrumb: [Finding and accessing data assets, Data Catalog, Workflow Data Fabric]
 ---
@@ -56,6 +56,8 @@ Asset detail pages organize information into tabs for easy navigation. The Overv
 8.  On the Sensitivity tab, view the sensitivity classification assigned to the columns of a table.
 
     This tab is populated for the ServiceNow collectors and for collectors for which [Vault classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/enable-vault-classification.md) is enabled.
+
+    **Note:** ServiceNow Vault data classifications can be generated automatically for ServiceNow assets using the Classifying ServiceNow assets with Vault agents agentic workflow. Classifications produced by the agent are written to Vault's classification tables and are picked up by the metadata collector on its next run. Avoid running the agent and the collector at the same time to prevent a mismatch between source data and the catalog.
 
 9.  On the Activity tab, review the activities performed on the data asset.
 

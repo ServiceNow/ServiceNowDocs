@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Linking parent-child contracts, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -38,15 +38,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the contract request from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d371047e88">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d370310e88">
 
 Method
 
-</th><th align="left" id="d371047e91">
+</th><th align="left" id="d370310e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d371047e97">
+</th></tr></thead><tbody><tr><td id="d370310e97">
 
 **Contract Workspace listing**
 
@@ -58,7 +58,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d371047e144">
+</td></tr><tr><td id="d370310e144">
 
 **Workspace used by your application**
 

@@ -7,7 +7,7 @@ release: australia
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,7 +34,7 @@ To enhance the security, another set of user credentials are added in the system
 
 **Note:** Twilio Direct creates the Standard type API keys.
 
-If the instance is connected to Twilio and you upgrade to Australia, the Twilio will not be disconnected from your instance and continues to use the Account SID and Auth key. However, if the administrator disconnects Twilio from the instance and re-connect the Twilio service, the additional record will be created to enhance the security.
+If the instance is connected to Twilio and you upgrade to Brazil, the Twilio will not be disconnected from your instance and continues to use the Account SID and Auth key. However, if the administrator disconnects Twilio from the instance and re-connect the Twilio service, the additional record will be created to enhance the security.
 
 ## Activation Information
 

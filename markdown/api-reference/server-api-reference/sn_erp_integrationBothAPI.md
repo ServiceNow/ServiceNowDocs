@@ -1,14 +1,14 @@
 ---
 title: sn\_erp\_integration API - Scoped, Global
-description: Script include providing a chainable API for interacting with Zero Copy Connector for ERP \(Enterprise Resource Planning\) models.Initializes a new Zero Copy Connector for ERP API instance.Filters records using an encoded query.Add an OR query condition.Add a query condition for filtering data.Executes the configured operation.Specifies the model fields to return. This is the primary method for field selection.Alias for the execute\(\) method for retrieving a single record in the results.Gets the available IDoc configuration details for the selected system.Returns a list of all available input fields for the selected operation.Returns a list of available models for the selected system.Gets the available operations for the selected model.Gets a list of all available output fields for the selected operation.Gets a list of all available ERP systems that can be accessed through the API.Returns of list of only the required input fields for the selected model and create operation.Selects an IDoc configuration to operate on.Limits the number of results returned.Selects a model to operate on.Sets the starting offset for results.Selects an operation to use on a selected model.Sets a single field value for create or update operations.Selects a system to operate on.Sets JSON data for the operation. For read operations, this method sets filter conditions. For create or update operations, this method sets the fields with data to be created or updated.
+description: Script include providing a chainable API for interacting with Zero Copy Connector for ERP \(Enterprise Resource Planning\) models.Initializes a new Zero Copy Connector for ERP API instance.Filters records using an encoded query.Add an OR query condition.Add a query condition for filtering data.Executes the configured operation.Specifies the model fields to return. This is the primary method for field selection.Alias for the execute\(\) method for retrieving a single record in the results.Gets the available IDoc configuration details for the selected system.Returns a list of all available input fields for the selected operation.Returns a list of available models for the selected system.Gets the available operations for the selected model.Gets a list of all available output fields for the selected operation.Gets a list of all available ERP systems that can be accessed through the API.Returns of list of only the required input fields for the selected model and create operation.Returns the total number of rows that a Zero Copy Connector for ERP model operation would return, without retrieving the records themselves.Selects an IDoc configuration to operate on.Limits the number of results returned.Selects a model to operate on.Sets the starting offset for results.Selects an operation to use on a selected model.Sets a single field value for create or update operations.Selects a system to operate on.Sets JSON data for the operation. For read operations, this method sets filter conditions. For create or update operations, this method sets the fields with data to be created or updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/sn\_erp\_integrationBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 15
+last_updated: "2026-09-10"
+reading_time_minutes: 17
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -16,21 +16,20 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 Script include providing a chainable API for interacting with Zero Copy Connector for ERP \(Enterprise Resource Planning\) models.
 
-This script include requires the Zero Copy Connector for ERP \(com.sn\_erp\_integration\) store application and is provided within the sn\_erp\_integration namespace. For more information, refer to [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-overview.md).
-
-Role required: sn\_erp\_integration.erp\_user
+## Purpose
 
 -   **Metadata**
 
     Use metadata methods to discover the system, model, and IDoc information available in your Zero Copy Connector for ERP environment.
 
-    -   getAvailableSystems\(\)
+    -   getAvailableIdocConfigs\(\)
+    -   getAvailableInputs\(\)
     -   getAvailableModels\(\)
     -   getAvailableOperations\(\)
-    -   getAvailableInputs\(\)
-    -   getRequiredInputs\(\)
     -   getAvailableOutputs\(\)
-    -   getAvailableIdocConfigs\(\)
+    -   getAvailableSystems\(\)
+    -   getRequiredInputs\(\)
+    -   getRowCount\(\)
 -   **Configuration**
 
     Use configuration methods to select available systems, models, operations, and IDoc configurations for processing. You can also use these methods to filter model field return values.
@@ -61,6 +60,12 @@ Role required: sn\_erp\_integration.erp\_user
 
     -   execute\(\)
     -   get\(\)
+
+## Access requirements
+
+This script include requires the Zero Copy Connector for ERP \(com.sn\_erp\_integration\) store application and the Zero Copy Connector for ERP \(com.snc.sn\_erp\_integration\) plugin. This script is provided within the sn\_erp\_integration namespace. For more information, refer to [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-overview.md).
+
+Role required: sn\_erp\_integration.erp\_user
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
@@ -1022,6 +1027,81 @@ Output:
   "data_type": "array",
   "required": true
 }
+```
+
+## API - getRowCount\(\)
+
+Returns the total number of rows that a Zero Copy Connector for ERP model operation would return, without retrieving the records themselves.
+
+Use getRowCount\(\) as a terminal method in place of execute\(\) when you need only a count. You configure the query the same way you would for a normal run, then call getRowCount\(\) instead.
+
+The source of the count depends on the protocol that the model operation uses, and whether that protocol can report a count without returning the records:
+
+|Protocol|Source of the count|
+|--------|-------------------|
+|Read table|Total record count reported in the connector response metadata.|
+|OData|The OData count endpoint. Supported for both direct execution and execution through a MID Server.|
+|BAPI|Uses the default fallback. SAP provides no native count capability for BAPI calls.|
+|REST|Uses the default fallback.|
+|Default fallback|Counts the items actually returned in the response, which is equivalent to counting the rows that would land in a remote table.|
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+### Basic count
+
+The following example shows how to return the number of US company codes without retrieving the records.
+
+```
+// Count the US company codes
+    const rowCount = new sn_erp_integration.API()
+      .system('system1')
+      .model('company_code')
+      .operation('read')
+      .addQuery('company_codes_countryregion_key', 'US')
+      .getRowCount();
+
+    gs.info(rowCount);
+```
+
+Output:
+
+```
+42
+```
+
+### Checking the count before running the operation
+
+The following example shows how to check the row count before deciding whether to run the full operation.
+
+```
+const api = new sn_erp_integration.API()
+      .system('system1')
+      .model('company_code')
+      .operation('read')
+      .addQuery('company_codes_countryregion_key', 'US');
+
+    const rowCount = api.getRowCount();
+
+    if (rowCount > 1000) {
+      gs.info(`Skipping retrieval. ${rowCount} records match the query.`);
+    } else {
+      const companyCodes = api
+        .fields(['company_codes_company_code', 'company_codes_company_name'])
+        .execute();
+      gs.info(`Retrieved ${companyCodes.length} of ${rowCount} records.`);
+    }
+```
+
+Output:
+
+```
+Retrieved 42 of 42 records.
 ```
 
 ## API - idocConfig\(String configId\)

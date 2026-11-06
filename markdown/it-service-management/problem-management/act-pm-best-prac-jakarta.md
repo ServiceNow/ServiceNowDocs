@@ -7,7 +7,7 @@ release: australia
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Problem Management plugins, Configuring Problem Management, Problem Management, IT Service Management]
 ---
@@ -46,5 +46,5 @@ If you have modified the base functionality required for the [Problem Management
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: API Insights
 classification: api-insights
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Monitor connections, Manage API data connections, API Insights, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -46,7 +46,7 @@ Role required: sn\_cmdb\_admin and cmdb\_inst\_admin
 
     -   Select a connector to access the connector in Application Manager and then install any updates.
     -   Select **Install updates** to open Application Manager, and then view and install updates for a connector from the **Updates** tab.
-    For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager.md).
+    For more information, see .
 
 
 ## Install a Service Graph Connector with an available entitlement in API Insights
@@ -69,7 +69,7 @@ Role required: sn\_cmdb\_admin and cmdb\_inst\_admin
 
 5.  In Application Manager, review the entitlements and install a connector for API data.
 
-    For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager.md).
+    For more information, see .
 
 
 ## Install a Service Graph Connector from ServiceNow Store within API Insights

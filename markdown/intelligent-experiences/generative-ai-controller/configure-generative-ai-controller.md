@@ -7,9 +7,9 @@ release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Configuring Generative AI Controller
@@ -27,7 +27,7 @@ Generative AI Controller enables you to choose between several AI providers or a
 -   IBM watsonx
 -   Amazon Bedrock
 
-After you configure Generative AI Controller, activate and manage generative AI skills through the AI Admin Hub console to deliver generative AI capabilities to your users. For more information, see .
+After you configure Generative AI Controller, activate and manage generative AI skills through the AI Admin Hub console to deliver generative AI capabilities to your users. For more information, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platai-generative-ai-skills.md).
 
 -   **[Configure API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configuring-api-credentials-for-generative-ai-capabilities.md)**
 

@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 45
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -1898,11 +1898,11 @@ Name
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d5923e138">
+</th></tr></thead><tbody><tr><td id="d3511e138">
 
 @type
 
-</td><td id="d5923e141">
+</td><td id="d3511e141">
 
 Type of resource.Valid values:
 
@@ -2958,11 +2958,11 @@ Name
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d5923e138">
+</th></tr></thead><tbody><tr><td id="d3511e138">
 
 @type
 
-</td><td id="d5923e141">
+</td><td id="d3511e141">
 
 Type of resource.Valid values:
 
@@ -3105,7 +3105,7 @@ Data type: String
 
 Table: Network Site \[cmdb\_ci\_ni\_site\]
 
-</td></tr><tr><td id="d5923e405">
+</td></tr><tr><td id="d3511e405">
 
 relatedParty
 

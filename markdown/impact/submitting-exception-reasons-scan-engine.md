@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/submitting-exception-reasons-scan-engine.html
 release: australia
 topic_type: task
-last_updated: "2026-09-21"
-reading_time_minutes: 2
-breadcrumb: [Exception handling in Scan Engine, Prevent technical debt with real-time code fixes, Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
+last_updated: "2026-10-28"
+reading_time_minutes: 3
+breadcrumb: [Prevent technical debt with real-time code fixes, Platform Health, Using Impact, Impact]
 ---
 
 # Submit exceptions for Scan Engine findings
@@ -16,9 +16,9 @@ Developers can submit exception requests for Suggest, Review, Recommend, and Act
 
 ## Before you begin
 
-Exceptions can be submitted for any finding level, Suggest, Review, Recommend, or Act, depending on the exception reason scope configured by your system administrator. Exceptions require approval from a user with the approval role. If the exception is approved, the finding is excluded from technical debt.
+Exceptions can be submitted for any finding level, Suggest, Review, Recommend, or Act, depending on the exception reason scope configured by your system administrator. Exceptions generally require approval from a user with the exception approval role. Certain settings configured by a system administrator can determine whether an exception is approved or rejected automatically. If the exception is approved, the finding is excluded from technical debt.
 
-**Note:** The record under the Scanned Record field of the finding, sn\_se\_finding, record should be extending sys\_metadata table in order for the Scan Engine Exceptions UI action button to be available. For more information on configuring exception properties, refer to [Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/exception-reason-properties.md).
+**Note:** The record under the Scanned Record field of the finding, sn\_se\_finding, record must extend the sys\_metadata table for the Create exception button, which comes from the Scan Engine Exceptions UI action, to be available. For more information on configuring exception properties, refer to [Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/exception-reason-properties.md).
 
 Role required: sn\_se.scan\_engine\_admin, sn\_impact\_common.Impact Developer, or sn\_impact\_common.Impact App Admin
 
@@ -36,7 +36,7 @@ Role required: sn\_se.scan\_engine\_admin, sn\_impact\_common.Impact Developer, 
 
 5.  Enter the reason in the **Exception Reason** field for why an exception should be made for this finding.
 
-6.  Choose how to proceed with your exception:
+6.  Choose how to proceed with your exception.
 
 <table id="exception-button-states"><thead><tr><th>
 
@@ -52,7 +52,7 @@ Outcome
 
 </th></tr></thead><tbody><tr><td>
 
-**Save as draft**
+**Save as Draft**
 
 </td><td>
 
@@ -62,11 +62,11 @@ Outcome
 
 </td><td>
 
-Exception state set to Draft. Finding card displays the Draft badge. You can select **Update draft** or **Submit for approval** when ready.
+Exception state set to **Draft**. Finding card displays the Exception drafted badge. You can select **View exception reason** to update the reason, and then select **Save as Draft** or **Submit for Approval** when ready.
 
 </td></tr><tr><td>
 
-**Submit for approval**
+**Submit for Approval**
 
 </td><td>
 
@@ -74,23 +74,26 @@ Send the exception to an exception approver for review and approval decision.
 
 </td><td>
 
--   Exception state set to **Requested**.
--   Finding card displays the **Exception drafted** badge.
--   Exception is submitted for review and you can withdraw the request, if needed.
+-   Exception state set to **Pending**.
+-   Finding card displays the **Exception requested** badge.
+-   Exception is submitted for review by an exception approver.
 
 
 </td></tr></tbody>
 </table>7.  Review your exception state on the finding card:
 
     -   **Exception drafted**: Draft created.
-    -   Select **View exception reason** to modify your exception reason. or Submit for approval to send it for review. \[Omitted image "se-exceptions-submit-draft.png"\] Alt text: A finding card in draft state with the Exception drafted badge and View exception reason buttons.
-    -   **Pending approval**: The finding card displays the Pending approval badge with the submission date.
-    -   An approver will either approve or reject your exception. You can select **Withdraw request** to cancel the submission.
-
-        \[Omitted image "se-exceptions-pending-withdraw-request.png"\] Alt text: A finding card in the pending approval state with the Pending approval badge and Withdraw request button.
-
-    You receive notification of the approval decision. If approved, the finding card displays the **Approved** badge with the approval date and is excluded from technical debt calculations. If rejected, you can submit a new exception request or work to resolve the finding.
+    -   Select **View exception reason** to modify your exception reason, or select **Submit for Approval** to send it for review. \[Omitted image "se-exceptions-submit-draft.png"\] Alt text: A finding card in draft state with the Exception drafted badge and View exception reason button.
+    -   **Exception requested**: The finding card displays the Exception requested badge. Select **View exception reason** to see the reason you entered. The exception is read-only, and only an exception approver can open the exception record, using the **View exception record** button, to approve or reject it.
+    -   An approver approves or rejects your exception.
+    You receive notification of the approval decision. If approved, the finding card displays the **Exception approved** badge. The exception reason is read-only, and you can open it with the **View exception** button. If rejected, open the exception record and read **Rejection Comments** to see why. Then select **Update Exception Reason** to resubmit, or work to resolve the finding.
 
     **Note:** If the requester name or email notification does not display correctly in the exception record after submission, verify your user account is properly synchronized between development and production environments. The Scan Engine exception workflow requires consistent user identification across instances.
 
+
+If the **Create exception** button doesn't appear on a finding card, check the following:
+
+-   The Scan Engine Exceptions UI action was modified.
+-   The exception reason scope doesn't include the level of the finding.
+-   The scanned record of the finding was deleted.
 

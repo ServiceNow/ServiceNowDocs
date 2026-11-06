@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-dv-dial-ac.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [Create dial report, Create dial visualization]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -17,7 +17,7 @@ Use a dial visualization to show where a value lies between expected minimum and
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -139,7 +139,7 @@ Show refresh option
 
 </td><td>
 
-Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is always hidden.
+Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is hidden.
 
 </td></tr><tr id="ac-dv-show-export-option"><td>
 
@@ -284,7 +284,7 @@ Allow chart interaction
 
 </td><td>
 
-Enable an event to occur when a user clicks in a visualization or one of its segments.
+Enable an event to occur when a user selects a visualization or one of its segments.
 
 </td></tr><tr><td>
 

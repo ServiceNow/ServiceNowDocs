@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vc-build-agent-studio-vs-ide.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Studio, ServiceNow IDE, Build Agent, low-code, full-stack generation]
-breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Build Agent overview, Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Build Agent and ServiceNow AI Platform tools

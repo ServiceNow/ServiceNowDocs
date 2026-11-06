@@ -7,8 +7,8 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-08-24"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Security Incident Response integration with Zscaler, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -64,7 +64,9 @@ Flow priority. The value for this field indicates the order of the workflows whe
 
  The flow with the lowest number has the highest priority.
 
-To set the order of operation, enter a value. For example, 100, 200, 300, 400.The default is 100.
+ To set the order of operation, enter a value. For example, 100, 200, 300, 400.
+
+ The default is 100.
 
 </td></tr><tr><td>
 
@@ -76,11 +78,45 @@ Base URL that hosts the Zscaler API. For example, `[https://example.zscalerbeta.
 
 </td></tr><tr><td>
 
+Authentication Type
+
+</td><td>
+
+Method that ServiceNow uses to authenticate the Zscaler API.-   **Basic Auth**: Authenticates with the Zscaler Internet Access admin user name, password, and API key. This option is the default.
+-   **OAuth 2.0**: Authenticates with an OAuth 2.0 Client ID, Client Secret, and Vanity Domain from Zscaler ZIdentity.
+
+
+</td></tr><tr><td>
+
+Vanity Domain \(Token Domain\)
+
+</td><td>
+
+Organization's ZIdentity sign-in hostname, consisting of your vanity name and the Zscaler login domain. For example, `acme + zslogin.net = acme.zslogin.net`.Required when **Authentication Type** is **OAuth 2.0**.
+
+</td></tr><tr><td>
+
+Client ID
+
+</td><td>
+
+OAuth 2.0 client ID that ServiceNow uses for Zscaler authentication.Required when **Authentication Type** is **OAuth 2.0**.
+
+</td></tr><tr><td>
+
+Client Secret
+
+</td><td>
+
+OAuth 2.0 client secret key for Zscaler authentication.Required when **Authentication Type** is **OAuth 2.0**.
+
+</td></tr><tr><td>
+
 User Name
 
 </td><td>
 
-User name for the Zscaler Internet Access admin account.
+User name for the Zscaler Internet Access admin account.Required when **Authentication Type** is **Basic Auth**.
 
 </td></tr><tr><td>
 
@@ -88,7 +124,7 @@ Password
 
 </td><td>
 
-Password for the Zscaler Internet Access admin account.
+Password for the Zscaler Internet Access admin account.Required when **Authentication Type** is **Basic Auth**.
 
 </td></tr><tr><td>
 
@@ -96,10 +132,16 @@ API Key
 
 </td><td>
 
-API key that you obtained from the Zscaler Internet Access administration portal.**Note:** **The user must have sn\_si.admin role to setup the integration.**
+API key that you obtained from the Zscaler Internet Access administration portal.Required when **Authentication Type** is **Basic Auth**.
+
+**Note:** **The user must have sn\_si.admin role to setup the integration.**
 
 </td></tr></tbody>
-</table>5.  Select **Validate and Update**.
+</table>    **Note:** Configurations that you created before OAuth 2.0 support was available using Basic Auth. To switch authentication methods, change the **Authentication Type**, fill in the fields for the new method, and select **Validate and Update**.
+
+5.  Select **Validate and Update**.
+
+    The instance checks that the fields for the selected authentication type are filled in and then validates the connection. For OAuth 2.0, the instance requests an access token from `https://{vanity_domain}/oauth2/v1/token`.
 
 
 ## Result

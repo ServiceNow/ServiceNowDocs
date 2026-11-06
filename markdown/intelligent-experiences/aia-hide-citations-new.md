@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-hide-citations-new.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-15"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Citations in Now Assist AI agents, Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Citations in Now Assist AI agents, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Disable citations in AI Agent Studio

@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-28"
 reading_time_minutes: 2
-breadcrumb: [Financial Services Operations AI Agents, Financial Services Operations, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Financial Services Operations AI Agents, Financial Services Operations, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Friendly fraud AI agent
@@ -108,7 +108,7 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aia.md).
+No triggers are defined in this AI agent; it is invoked by the **Evaluate Friendly Fraud** workflow.
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ Used in agentic workflows
 
 </td><td>
 
-Friendly fraud resolving
+Help resolve friendly fraud disputes
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Financial Services Operations AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/fso-ai-agents-overview.md)

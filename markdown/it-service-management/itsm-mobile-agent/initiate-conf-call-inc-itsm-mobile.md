@@ -1,20 +1,20 @@
 ---
 title: Initiate a conference call with the caller from an incident
-description: Initiate a conference call from an incident to discuss about the resolution of an incident.
+description: Initiate a conference call from an incident to discuss the resolution of an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/initiate-conf-call-inc-itsm-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collaboration with incidents, My incidents, Managing incidents and tasks using My Work applet, ITSM Mobile Agent, IT Service Management]
+breadcrumb: [Collaboration with incidents, Work on incidents assigned to you, Managing incidents and tasks using the My Work applet, ITSM Mobile Agent, IT Service Management]
 ---
 
 # Initiate a conference call with the caller from an incident
 
-Initiate a conference call from an incident to discuss about the resolution of an incident.
+Initiate a conference call from an incident to discuss the resolution of an incident.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: itil, itil\_admin, or admin
 
 ## Procedure
 
-1.  Open ITSM Mobile Agent app.
+1.  Open the ITSM Mobile Agent app.
 
-2.  In **My work** tab, tap **See All**.
+2.  On the **My work** tab, tap **See All**.
 
     \[Omitted image "my-work-itsm-mobile.png"\] Alt text: My work.
 
@@ -32,9 +32,9 @@ Role required: itil, itil\_admin, or admin
 
     \[Omitted image "call-incident-itsm-mobile-agent.png"\] Alt text: Call from ITSM Mobile Agent
 
-4.  Tap \[Omitted image "more-options-itsm-mobile-agent.png"\] Alt text: More options.
+4.  Tap the more options icon \[Omitted image "more-options-itsm-mobile-agent.png"\] Alt text:.
 
-5.  Tap **Start call** button.
+5.  Tap **Start call**.
 
 6.  Provide the following details:
 

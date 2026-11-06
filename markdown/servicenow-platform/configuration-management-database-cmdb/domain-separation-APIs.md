@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,11 +20,11 @@ Use CMDB APIs to create, update, and read operations on the CMDB. Domain separat
 
 Use the following CMDB APIs to create, update, and read operations on the CMDB:
 
--   [CMDBGroupAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CMDBGroupAPIScoped.md)
--   [CMDBTransformUtil - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CMDBTransformUtilAPI.md)
--   [CMDBUtil - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CMDBUtilAPI.md)
--   [IdentificationEngineScriptableApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_IdentEngineScriptAPI.md)
--   [IdentificationEngine - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md)
+-   CMDBGroupAPI - Scoped
+-   CMDBTransformUtil - Global
+-   CMDBUtil - Global
+-   IdentificationEngineScriptableApi
+-   IdentificationEngine - Scoped
 
 ## Domain separation in CMDB APIs
 

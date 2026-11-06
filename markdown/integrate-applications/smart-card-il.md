@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/smart-card-il.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Secure login method for Windows machine, Smart Card for login to Windows machine]
 breadcrumb: [Credential Management, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]

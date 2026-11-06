@@ -1,5 +1,5 @@
 ---
-title: Organize dashboards into groups
+title: Organize Core UI dashboards into groups
 description: Assign dashboards to groups so that users can find the dashboards they want more easily. Dashboard groups determine how dashboards appear in the dashboard picker when you navigate to Self-Service Dashboards . You can also add view permissions to dashboard groups.Dashboard group and dashboard permissions are not additive. Depending on how permissions are defined on a dashboard, dashboard group permissions may not apply.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_GroupDashboards.html
@@ -7,12 +7,12 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Organize dashboards into groups
+# Organize Core UI dashboards into groups
 
 Assign dashboards to groups so that users can find the dashboards they want more easily. Dashboard groups determine how dashboards appear in the dashboard picker when you navigate to **Self-Service** &gt; **Dashboards**. You can also add view permissions to dashboard groups.
 
@@ -21,6 +21,8 @@ Assign dashboards to groups so that users can find the dashboards they want more
 Role required: admin, pa\_admin, or pa\_power\_user.
 
 ## About this task
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md).
 
 Permissions on dashboard groups apply to all the dashboards in that group.
 

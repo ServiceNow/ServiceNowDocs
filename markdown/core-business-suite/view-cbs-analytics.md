@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/view-cbs-analytics.html
 release: australia
 topic_type: task
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CBS analytics, Core Business Suite analytics, My Assets Analytics]
 breadcrumb: [Use, Core Business Suite]

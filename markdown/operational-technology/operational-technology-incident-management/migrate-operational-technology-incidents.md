@@ -1,5 +1,5 @@
 ---
-title: Migrate incidents to the new incident table
+title: Migrate incidents to another incident table
 description: Migrate Operational Technology incidents from the old incident table to the new incident table. Migrating incidents lets the Operational Technology Incident Management application know that the old table is no longer applicable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-incident-management/migrate-operational-technology-incidents.html
@@ -7,12 +7,12 @@ release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Technology Incident Management, Operational Technology]
 ---
 
-# Migrate incidents to the new incident table
+# Migrate incidents to another incident table
 
 Migrate Operational Technology incidents from the old incident table to the new incident table. Migrating incidents lets the Operational Technology Incident Management application know that the old table is no longer applicable.
 

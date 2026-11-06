@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Supplier Lifecycle Operations AI agents, Supplier Lifecycle Operations, AI agents library, AI assets, Enable AI experiences]
+reading_time_minutes: 1
+breadcrumb: [Supplier Lifecycle Operations AI agents, Supplier Lifecycle Operations, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Supplier data validator AI agent

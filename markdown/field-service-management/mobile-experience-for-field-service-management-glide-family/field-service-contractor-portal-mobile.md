@@ -7,7 +7,7 @@ release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Setting up Field Service Mobile Agent, Configure, Field Service Man
 
 The Field Service Contractor for mobile feature of the Now Mobile Agent application enables contractors to manage work order tasks.
 
-The Field Service Contractor for mobile application enables managers and field service agents of contractor companies to manage and work on assigned work order tasks. When not connected to the internet, agents can use the mobile application to perform activities like adding notes, referring to attached knowledge articles and also closing work order tasks. The Now Mobile Agent application syncs the information and provides the latest information when it is online again.
+The Field Service Contractor for mobile application enables managers and technicians of contractor companies to manage and work on assigned work order tasks. When not connected to the internet, agents can use the mobile application to perform activities like adding notes, referring to attached knowledge articles and also closing work order tasks. The Now Mobile Agent application syncs the information and provides the latest information when it is online again.
 
 The steps for configuring Field Service Contractor for mobile are:
 

@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [New hardening settings, Baseline versions, Hardening settings, Platform Security]
 ---
@@ -19,7 +19,7 @@ New hardening settings have been released with Security Center baseline version 
 -   [Review extraneous explicit role access control conditions \[Removed in Security Center 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-review-extraneous-explicit-role-access-control-conditions.md)
 -   [Enable work order management query rules for service organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-work-order-management-query-rules.md)
 -   [Restrict flow context read access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-flow-context-read-access.md)
--   [Limit policy based session access mobile refresh token interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-limit-policy-based-session-access-mobile-refresh.md)
+-   [Limit the policy-based mobile refresh token interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-limit-policy-based-session-access-mobile-refresh.md)
 -   [Enable policy based session access for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-policy-based-session-access-for-mobile.md)
 -   [Prevent inactive users from logging in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-prevent-inactive-users-from-logging-in.md)
 -   [Configure event management assignment group admin roles \[New in Security Center 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-configure-event-management-assignment-group-admin-roles.md)

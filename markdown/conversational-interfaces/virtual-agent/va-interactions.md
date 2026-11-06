@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 keywords: [Virtual Agent, interaction, records, interactions, table]
-breadcrumb: [Virtual Agent technical reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Virtual Agent technical reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Virtual Agent interaction records
@@ -396,7 +396,7 @@ From the Interactions table, you can open a specific record to see additional de
 
 -   **Related Tasks**
 
-    Any cases, incidents, or requests created or updated during the conversation are automatically attached to the interaction record as a Related Task. To ensure that these tasks are included with the interaction record, design your conversation topics using certain Assistant Designer utilities and the system method vaSystem.attachRecordToConversation. For details, see [Topic design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-interactions.md) below.
+    Any cases, incidents, or requests created or updated during the conversation are automatically attached to the interaction record as a Related Task. To ensure that these tasks are included with the interaction record, design your conversation topics using certain Assistant Designer utilities and the system method vaSystem.attachRecordToConversation. For details, see the [Topic design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-interactions.md) section.
 
     \[Omitted image "VA-interaction-relatedtask.png"\] Alt text: The Related Tasks tab on the Interactions record shows the incident record that was created during the interaction.
 
@@ -413,7 +413,7 @@ Information in conversation transcripts is viewable to all users. If you need to
 
 ## Topic design considerations
 
-If your Virtual Agent conversations create or update incidents, cases, or requests, consider designing your topics with the following [Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-utilities.md) and system method:
+If your Virtual Agent conversations create or update incidents, cases, or requests, consider designing your topics with the following [Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-utilities.md) and system method:
 
 -   [Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-action.md) to create or update incidents or cases
 -   [Lookup utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-lookup.md) to view information
@@ -428,13 +428,11 @@ Use these utilities and system method so that incidents, cases, or requests crea
 **Related topics**  
 
 
-[Domain separation and Virtual Agent]()
+[Data management in Conversational Interfaces]()
 
 [Virtual Agent scripts]()
 
 [Input data types in Virtual Agent topics]()
-
-[NLU system entities]()
 
 [Virtual Agent URL parameters]()
 

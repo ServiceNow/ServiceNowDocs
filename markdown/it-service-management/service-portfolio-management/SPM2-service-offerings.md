@@ -7,7 +7,7 @@ release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Offering records define different levels of performance for an existing service.
 
 Service offering types include business service offerings and technical service offerings.
 
-**Important:** For the Australia release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. Prior to the Australia release, the labels are Technical Service and Technical Service Offering.
+**Important:** For the Brazil release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. Prior to the Brazil release, the labels are Technical Service and Technical Service Offering.
 
 Create a complete set of service offerings defined by commitments that define the specifics of the offering. Each service must have at least one defined offering to move to the Catalog phase. This is because service offerings are where you define Service Level Agreements \(SLAs\) and where metrics are collated.
 

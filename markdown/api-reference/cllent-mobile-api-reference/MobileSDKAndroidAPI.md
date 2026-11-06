@@ -7,7 +7,7 @@ release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Mobile SDK API reference, API reference, API implementation and reference]
 ---

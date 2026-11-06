@@ -7,7 +7,7 @@ release: australia
 product: Procurement
 classification: procurement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Receive assets, Procurement, Asset Management common applications, IT Service Management]
 ---
@@ -31,7 +31,7 @@ For records to merge, the consumable can't be listed on an active transfer order
 -   Active-to \(matched as true, or as false-or-empty\)
 -   Planned-for-disposal \(matched as false or empty\)
 
-If consumables are merged into an existing consumable record, the cost of the additional consumables received is added to that of the existing consumables in the record. For example, if 50 computer keyboards arrive and 20 keyboards of the same model exists in the receiving stockroom, the two records are merged showing 70 keyboards in the stockroom with a combined total cost.
+When consumables are merged into an existing record, the cost of the additional consumables is added to the current record. For example, if 50 computer keyboards arrive and 20 keyboards of the same model exists in the receiving stockroom, the two records are merged showing 70 keyboards in the stockroom with a combined total cost.
 
 If no matching consumable record exists in the receiving stockroom, a record is created. After the consumables are received, the quantity is updated, but individual consumables are no longer tracked within the Procurement application and aren't displayed on receiving slip lines.
 

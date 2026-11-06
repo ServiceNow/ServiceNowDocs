@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Digital Product Release, IT Service Management]
 ---
@@ -41,7 +41,15 @@ A digital product or service has a release life cycle that starts with planning,
 
 Digital Product Release is aimed at the following personas:
 
-<table id="table_knl_gfb_myb"><tbody><tr><td>
+<table id="id_v5l_bw5_5kc"><thead><tr><th>
+
+Persona
+
+</th><th>
+
+Responsibilities
+
+</th></tr></thead><tbody><tr><td>
 
 Release manager
 

@@ -7,7 +7,7 @@ release: australia
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -42,7 +42,7 @@ Localization Framework extends its framework capabilities to certain artifacts a
 -   **[Localization Framework support for Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/lf-support-for-catalog-items.md)**  
 Localization Framework enables translation of Service Catalog items when a catalog item is requested for translation into a language and a localization requested item \(LRITM\) is created.
 -   **[Virtual Agent Designer integration with Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/va-designer-lf-integration.md)**  
-The integration of Virtual Agent Designer with Localization Framework enables you to translate Virtual Agent topics using the translation modes supported by Localization Framework with or without a localization task.
+The integration of Virtual Agent Designer with Localization Framework enables you to translate Virtual Agent NLU topics using the translation modes supported by Localization Framework with or without a localization task.
 -   **[Localization Framework support for Natural Language Understanding models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/lf-support-for-nlu.md)**  
 Localization Framework integrates with NLU Workbench to translate the Natural Language Understanding models along with their associated intents, utterances, and entities into multiple languages.
 -   **[Localization Framework support for Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-framework/lf-support-for-surveys.md)**  

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/schedule-assessment-and-validation-tasks.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Model Risk Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ This task guides you on how to schedule assessment and validation tasks manually
 
 1.  Navigate to **All** &gt; **Model Risk Workspace**.
 
-2.  Select the list icon \[Omitted image "list-icon-mrm.png"\] Alt text:.
+2.  Select the list icon \[Omitted image "list-icon.png"\] Alt text:.
 
 3.  From the list, navigate to **Models** &gt; **Monitor**.
 

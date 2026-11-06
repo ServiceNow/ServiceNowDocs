@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/view-knowledge-health-base.html
 release: australia
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [knowledge health score, knowledge management dashboard, knowledge base health, health score gauge]
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
@@ -50,7 +50,7 @@ You must enable [Enable article health score calculation](https://raw.githubuser
 
 ## Result
 
-The Knowledge Base health view displays the health scores for the selected Knowledge Base, the finding cards with affected article counts, and the list of articles with their individual health scores.
+The Knowledge base health view displays the health scores for the selected Knowledge Base, the finding cards with affected article counts, and the list of articles with their individual health scores.
 
 **Related topics**  
 

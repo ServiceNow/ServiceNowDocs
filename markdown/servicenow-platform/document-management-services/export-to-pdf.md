@@ -7,7 +7,7 @@ release: australia
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [PDF generation and accessibility, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,7 +35,7 @@ To enable accessibility, select the **Accessible PDF** check box.
 
 **Note:** Adding accessibility tags to a PDF increases the file size.
 
-To export a PDF list, see [Export data from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/export-list-data.md).
+To export a PDF list, see .
 
 ## Export to PDF for a single record
 
@@ -52,7 +52,7 @@ To enable accessibility, select the **Accessible PDF** check box.
 
 **Note:** Adding accessibility tags to a PDF increases the file size.
 
-To generate a single PDF record, see [Export data from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/export-form-data.md).
+To generate a single PDF record, see .
 
 **Parent Topic:**[PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/pdf-generation-accessibility.md)
 

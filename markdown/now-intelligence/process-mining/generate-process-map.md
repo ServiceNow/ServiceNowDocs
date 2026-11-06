@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a project using Classic view, Use, Process Mining, Platform Analytics]
 ---
@@ -75,7 +75,7 @@ Role required: none
 
     It can take several minutes before the cancel process completes. The unit of work in progress at the time of canceling mining must complete before cancellation occurs.
 
-    The mining state on the Project Definition form shows as **Cancelled**.
+    The mining status on the projects list shows as **Cancelled**.
 
 
 ## Mining states
@@ -136,7 +136,7 @@ Error
 
 </td><td>
 
-Mining was attempted but did not complete successfully. -   New projects that have not yet been successfully mined cannot be opened in Analyst workbench.
+Mining was attempted but did not complete successfully. -   New projects that have not yet been successfully mined can't be opened in Analyst workbench.
 -   You can attempt a data refresh from Analyst workbench on a project that has been successfully mined from its workflow record. An error icon \[Omitted image "extract-error-icon.png"\] Alt text: error icon displays when project data does not refresh successfully. To investigate for details, view the **Extract Data Log** tab from the Project Definition form.
 
 </td></tr><tr><td>

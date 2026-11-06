@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-an-issue-to-the-analysis.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_oper\_res.manager
 
     **Note:** If you’ve associated an open issue with your scenario analysis, you can still request an approval for the scenario analysis. It isn’t required to close the open issues for requesting an approval for the scenario analysis.
 
-<table id="choicetable_am1_gr2_bwb"><thead><tr><th align="left" id="d220669e89">
+<table id="choicetable_am1_gr2_bwb"><thead><tr><th align="left" id="d222034e89">
 
 Step
 
-</th><th align="left" id="d220669e92">
+</th><th align="left" id="d222034e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d220669e98">
+</th></tr></thead><tbody><tr><td id="d222034e98">
 
 **Select __Add__.**
 
@@ -44,7 +44,7 @@ Description
 
 Add an existing issue to the analysis. The following example shows how to add an existing issue to the analysis.\[Omitted image "add-issue.png"\] Alt text: Add an existing issue to the analysis.
 
-</td></tr><tr><td id="d220669e122">
+</td></tr><tr><td id="d222034e122">
 
 **Select __New__.**
 

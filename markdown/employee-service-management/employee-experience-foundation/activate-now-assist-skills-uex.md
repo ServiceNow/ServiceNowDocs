@@ -7,10 +7,10 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-04-27"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [generative AI for Employee Center, generative AI for UEX, configuration]
-breadcrumb: [Explore, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
 ---
 
 # Activate ServiceNow Otto for Employee Experience skills
@@ -79,12 +79,8 @@ On successful configuration, approval users can see summarization for approvals.
 
 **Note:** After installing ServiceNow Otto for Employee Experience \[sn\_ex\_gen\_ai\] plugin and activating the skills in the AI Admin Center, the Summary appears in Approvals on Employee Center and service portals. To enable the summary on the custom portals, follow the instructions available in [KB2739995](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2739995) and update the `sn_nowassist_skill_config` table.
 
-**Parent Topic:**[Explore ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/explore-now-assist-for-emp-exp.md)
-
 **Related topics**  
 
 
-[Supporting information for ServiceNow Otto for Employee Experience]()
-
-[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
+[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a scripted REST API, Scripted REST APIs, REST APIs, Web services, API implementation, API implementation and reference]
 ---
@@ -24,15 +24,15 @@ Role required: web\_service\_admin
 
 1.  Create a REST response header in one of the following ways.
 
-<table id="choicetable_rv3_mwc_j3c"><thead><tr><th align="left" id="d237351e60">
+<table id="choicetable_rv3_mwc_j3c"><thead><tr><th align="left" id="d248583e60">
 
 Option
 
-</th><th align="left" id="d237351e63">
+</th><th align="left" id="d248583e63">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d237351e69">
+</th></tr></thead><tbody><tr><td id="d248583e69">
 
 **Create a response header from a REST API**
 
@@ -43,7 +43,7 @@ Procedure
 3.  In the **Response Headers** related list, select **New**.
 
 
-</td></tr><tr><td id="d237351e108">
+</td></tr><tr><td id="d248583e110">
 
 **Create a response header and associate it with a REST API**
 

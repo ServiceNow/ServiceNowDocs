@@ -1,18 +1,18 @@
 ---
-title: Creating or updating an app file with Build Agent
+title: Creating or updating an app file with Build Agent default mode
 description: Use Build Agent to add new files or modify existing files in ServiceNow applications to support ongoing app development and maintenance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/creating-or-updating-an-app-file.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [create app file, update app file, add file to application, modify application file, build agent create file, build agent update file, application scope, conversational change log, checkpoints, app development, app maintenance, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: programmer
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Creating or updating an app file with Build Agent
+# Creating or updating an app file with Build Agent default mode
 
 Use Build Agent to add new files or modify existing files in ServiceNow applications to support ongoing app development and maintenance.
 

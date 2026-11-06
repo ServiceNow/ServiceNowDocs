@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,6 +22,8 @@ Project currency quick start tests require activating the PPM Standard Multicurr
 |----|-----------|---------------|
 |Verify cost in project currency on cost plan|Validate the calculation of cost line breakdown with budget reference rate and verify roll up to cost plan and also for the project in project currency.|Orlando|
 |Verify benefit in project currency on benefit plan|Validate the calculation of benefit line breakdown with budget reference rate and verify roll up to benefit plan and also for the project in project currency.|Orlando|
+
+**Parent Topic:**[Project Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-management-reference.md)
 
 **Related topics**  
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-best-practices.html
 release: australia
 topic_type: concept
-last_updated: "2025-10-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Best practices for AI agents configuration

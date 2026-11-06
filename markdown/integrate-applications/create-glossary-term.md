@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-glossary-term.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [glossary term, business glossary, data catalog]
 breadcrumb: [Managing glossary terms, Data Catalog, Workflow Data Fabric]

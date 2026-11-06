@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Group Filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
+breadcrumb: [Group filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
 ---
 
 # Create group filter criteria
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Adaptive Authentication** &gt; **Filter Criteria** &gt; **Group Filter Criteria**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in these fields.
 
@@ -38,8 +38,8 @@ Role required: admin
 
 4.  From the **Groups for criteria** tab, double-click **Insert a new row**.
 
-5.  Click the search icon \[Omitted image "search.png"\] Alt text: search icon, look up, and select a user group.
+5.  Select the search icon \[Omitted image "search.png"\] Alt text: search icon, look up, and select a user group.
 
-6.  Click the save icon.
+6.  Select the save icon.
 
 

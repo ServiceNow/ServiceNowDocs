@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -20,7 +20,7 @@ Activate the Business Stakeholder plugin \(com.snc.business\_stakeholder\) if yo
 
 Role required: admin
 
-**Note:** Ensure that ITSM Roles plugin \(com.snc.itsm.roles\) is activated before you activate the Business Stakeholder plugin. For more information to activate ITSM Roles plugin, refer [Request ITSM Roles- Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/request-itsm-roles-cm.md).
+**Note:** Ensure that ITSM Roles plugin \(com.snc.itsm.roles\) is activated before you activate the Business Stakeholder plugin. For more information to activate ITSM Roles plugin, refer [Request ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/request-itsm-roles-cm.md).
 
 ## Procedure
 
@@ -51,7 +51,7 @@ The Business Stakeholder plugin \(com.snc.business\_stakeholder\) installs the B
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Change Management - State Model]()
 
@@ -69,11 +69,11 @@ The Business Stakeholder plugin \(com.snc.business\_stakeholder\) installs the B
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -81,7 +81,7 @@ The Business Stakeholder plugin \(com.snc.business\_stakeholder\) installs the B
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -89,9 +89,9 @@ The Business Stakeholder plugin \(com.snc.business\_stakeholder\) installs the B
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

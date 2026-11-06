@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-work-with-trm.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -24,16 +24,24 @@ You can view the list of all Technology Reference Model \(TRM\) categories in th
 You can view all your Technology Reference Model \(TRM\) products, grouped by category, in the Enterprise Architecture Workspace.
 -   **[View all TRM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-trm-products.md)**  
 You can view all available Technology Reference Model \(TRM\) products in the Enterprise Architecture Workspace.
--   **[Request a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-request-a-trm-products.md)**  
-You can request a TRM product using the TRM catalog to add a new software or hardware to the TRM library.
--   **[Request a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-request-a-trm-product-lifecycle.md)**  
-You can add a new request to create a life cycle for a TRM product.
--   **[Add a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle.md)**  
-As an Enterprise Architect, you can add a new TRM product to the TRM library.
+-   **[Request a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-request-a-trm-products.md)**  
+Submit a request to add a software or hardware product to the TRM library and optionally include one or more lifecycle records with the request.
+-   **[Request a TRM product lifecycle in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-request-a-trm-product-lifecycle.md)**  
+Submit a request to add one or more lifecycle records to an existing TRM product.
+-   **[Request a TRM product from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/add-edit-trm-prod-req.md)**  
+Submit a request from the service catalog to add a software or hardware product to the TRM library. Optionally, include one or more lifecycle records with the request.
+-   **[Request a TRM product lifecycle from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/add-edit-trm-lifecycle-req.md)**  
+Submit a request from the service catalog to add one or more lifecycle records to an existing TRM product.
+-   **[View or update your TRM requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-update-trm-requests.md)**  
+View all your product requests, product lifecycle requests, track their statuses, and edit your existing requests. You can also manage the approvers for your request
+-   **[Approve or reject TRM requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-approve-trm-req.md)**  
+As an Enterprise Architect, approve or reject a TRM product or product lifecycle requests submitted by other users.
+-   **[Create a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle.md)**  
+Create a TRM product and optionally add one or more product lifecycles in a single operation.
+-   **[Create TRM product lifecycles in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)**  
+Add one or more lifecycle records to an existing TRM product.
 -   **[Associate an Architectural Artifact to a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-assoicate-artifact-trm-prod.md)**  
 As an Enterprise Architect, you can associate an architectural artifact to a TRM product.
--   **[Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)**  
-As an Enterprise Architect, you can add a new TRM product lifecycle.
 -   **[View product capabilities associated with a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-capabilities-associated-with-trm-product.md)**  
 You can view the list of product capabilities associated with Technology Reference Model \(TRM\) product, in the Enterprise Architecture Workspace.
 -   **[Create product capabilities and associate it with a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-a-new-product-capability-and-assoc-trm-product.md)**  
@@ -59,7 +67,7 @@ Change how long an Archived technical debt record is retained before the **Delet
 -   **[Run the Delete Archived Tech Debts job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-job-delete-archived-tech-debts.md)**  
 Run the **Delete Archived Tech Debts** scheduled job manually or modify its default monthly schedule to match your maintenance window.
 -   **[Run a job to sync TRM product names in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-schedule-job-sync-trm-product-names.md)**  
-Run a scheduled job to sync the names of Technology Reference Model \(TRM\) products with the names of their linked Software Asset Management software products.
+Run a scheduled job to sync the names of Technology Reference Model \(TRM\) products with the names of their linked Software Asset Management \(ServiceNow Otto for SAM\) software products.
 -   **[Export Technology Reference Model product category data to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-export-trm-prod-cat-data.md)**  
 Export the Technology Reference Model \(TRM\) list view data to Microsoft Excel or CSV so that you can use the data to share with stakeholders and prepare for analysis.
 

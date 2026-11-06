@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configuring-business-continuity-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -46,7 +46,7 @@ Configuring Business Continuity Management involves installing the application f
 
 **Note:**
 
-Both BCM classic Workspace and BCM Configurable Workspace use the Workspace view. If you have made any customizations in other UI views, you must apply the same customizations before or after upgrading from a prior release to the Australia release.
+Both BCM classic Workspace and BCM Configurable Workspace use the Workspace view. If you have made any customizations in other UI views, you must apply the same customizations before or after upgrading from a prior release to the Brazil release.
 
 For information on the custom components configuration in BCM classic Workspace, see the [KB1442692](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1442692) article.
 

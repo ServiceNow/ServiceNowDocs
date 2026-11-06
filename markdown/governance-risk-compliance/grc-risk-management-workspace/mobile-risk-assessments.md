@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Mobile experience for GRC Risk Management, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -32,13 +32,19 @@ Reassign a risk assessment that is past its due date directly from the list of r
 
     If you navigate away from the GRC Mobile application after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
+    \[Omitted image "mobile\_Risk\_overview-app-redo.png"\] Alt text: Assessments applet highlighted.
+
     The Assessments screen is displayed with a list of records.
+
+    \[Omitted image "mobile\_risk\_assessment\_list.jpg"\] Alt text: Assessment list of records.
 
 3.  See [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
 4.  To reassign a risk assessment directly from the list of records, with the Assessments screen displayed, swipe left on a record to open the menu.
+
+    \[Omitted image "mobile\_risk\_assessment\_swipe.jpg"\] Alt text: Swipe action on an assessment record.
 
 5.  Tap **Reassign**, and, tap the **Assigned to** field.
 
@@ -50,15 +56,17 @@ Reassign a risk assessment that is past its due date directly from the list of r
 
 9.  Choose one from the following table to continue.
 
-<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d45203e179">
+    \[Omitted image "mobile\_risk\_assment\_rcd.jpg"\] Alt text: Assessment record details.
+
+<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d45407e218">
 
 Option
 
-</th><th align="left" id="d45203e182">
+</th><th align="left" id="d45407e221">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d45203e188">
+</th></tr></thead><tbody><tr><td id="d45407e227">
 
 **Reassign**
 
@@ -66,7 +74,7 @@ Description
 
 With the record displayed, review the details and tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to reassign the assessment.
 
-</td></tr><tr><td id="d45203e203">
+</td></tr><tr><td id="d45407e242">
 
 **Tap a screen icon at the bottom of the screen.**
 

@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Conversational Integration with Slack
@@ -30,20 +30,20 @@ Select a tile to get started.
 
 </td></tr><tr><td>
 
-[ServiceNow Otto®\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use ServiceNow Otto for Virtual Agent in your Slack integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/na-va-llm-slack.md)
+[ServiceNow Otto®\[Omitted image "bus-ai-otto.svg"\] Alt text:Use ServiceNow Otto for Virtual Agent in your Slack integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/na-va-llm-slack.md)
 
 </td><td>
 
 [Design\[Omitted image "bus-manage.svg"\] Alt text: Use supported Virtual Agent features in Slack conversations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-slack-other-features.md)
 
 </td></tr></tbody>
-</table>**Note:** In earlier releases, the pre-built Virtual Agent messaging integration for Slack was part of the Virtual Agent platform. This integration is now the Conversational Integration with Slack app, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+</table>**Note:** In earlier releases, the prebuilt Virtual Agent messaging integration for Slack was part of the Virtual Agent platform. This integration is now the Conversational Integration with Slack app, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
 ## Request apps on the Store
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
--   **[Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-slack.md)**  
+-   **[Integrating Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-slack.md)**  
 The Virtual Agent integration with Slack creates a one-to-one association between the ServiceNow instance that you are installing from and the Slack workspace in which the integration runs. By default, Virtual Agent supports one-click installation that integrates one Slack workspace with one ServiceNow instance.
 -   **[Configure Virtual Agent settings for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-slack-settings.md)**  
 Configure your Slack bots that are integrated with Virtual Agent to enable notifications, to link ServiceNow user profiles, and to set up system messages and contextual actions.

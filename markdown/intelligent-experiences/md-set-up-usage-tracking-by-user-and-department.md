@@ -1,18 +1,18 @@
 ---
 title: Set up usage tracking by user and department
-description: Add user email and department information to the User table so that the AI Control Tower can break down usage and cost by user and by department.
+description: Add user email and department information to the User table so that AI Control Tower can break down usage and cost by user and by department.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/md-set-up-usage-tracking-by-user-and-department.html
 release: australia
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Dashboards, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Dashboards, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Set up usage tracking by user and department
 
-Add user email and department information to the User table so that the AI Control Tower can break down usage and cost by user and by department.
+Add user email and department information to the User table so that AI Control Tower can break down usage and cost by user and by department.
 
 ## Before you begin
 

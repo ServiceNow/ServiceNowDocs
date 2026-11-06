@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-mcp-server-aoauth-2.1.html
 release: australia
 topic_type: task
-last_updated: "2025-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Adding an MCP Server Console in AI Agent Studio, Configuring Model Context Protocol Client, MCP Client, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Adding an MCP Server Console in AI Agent Studio, MCP Client, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add an MCP server with OAuth 2.1

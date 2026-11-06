@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configure-now-assist-document-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure]
 breadcrumb: [ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
@@ -21,7 +21,7 @@ Configure how agents use generative AI capabilities to generate the document ins
 
 For Zurich Patch 11, Australia Patch 4, and later releases, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configure-skill-smart-documents.md).
 
-For Zurich Patch 10, Australia Patch 3, and earlier releases, see [Activate the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/activate-smart-documents.md).
+For Zurich Patch 10, Australia Patch 3, and earlier releases, see .
 
-To generate audio summaries and query documents using voice, [Configure Voice Assist for Docs skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configure-skill-voice-assist.md)
+To generate audio summaries and query documents using voice, 
 

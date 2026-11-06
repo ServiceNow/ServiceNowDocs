@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/activate-now-assist-panel.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-keywords: [Activate, Now Assist, panel, skills, admin, experiences]
-breadcrumb: [Configuring AI skills, AI Admin Hub, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [Activate, Now Assist, ServiceNow, Otto, panel, skills, admin, experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Activate the ServiceNow Otto panel standard chat
@@ -37,11 +37,11 @@ To learn more about the ServiceNow Otto panel, and how it can assist your agents
 
 3.  Select **Turn On**.
 
-    \[Omitted image "config-now-assist-2.png"\] Alt text: On the Settings tab, select Now Assist panel, and then select Turn on.
+    **Note:** If **Turn On** is unavailable, verify that at least one ServiceNow Otto application is installed on your instance and that you have the sn\_generative\_ai.nsa\_admin role. If you have the role but **Turn On** remains unavailable, see [Solving installation and configuration issues with ServiceNow AI features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-install-config-checklist.md).
+
+    \[Omitted image "config-now-assist-2.png"\] Alt text: On the Settings tab, select ServiceNow Otto panel, and then select Turn on.
 
 4.  In the Turn on ServiceNow Otto Panel dialog box, select **Turn on**.
-
-    \[Omitted image "config-now-assist-3.png"\] Alt text: On the Settings tab, select Now Assist panel, and then select Turn on.
 
 5.  If you want to use assistants, you must activate them.
 
@@ -59,5 +59,5 @@ For examples of the ServiceNow Otto panel in action for ServiceNow Otto applicat
 -   [Summarize an issue using ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/summarize-an-issue.md)
 -   [Generate a knowledge article from HR Agent Workspace with ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/gen-kb-now-assisthr.md)
 
-**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-na-landing.md)
 

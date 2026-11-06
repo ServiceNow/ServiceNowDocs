@@ -1,5 +1,5 @@
 ---
-title: Create a system-derived entity
+title: \(Legacy\) Create a system-derived entity
 description: Create a custom entity that's derived from a default system entity such as date, time, duration, or location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/create-system-derived-entity.html
@@ -7,12 +7,12 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) NLU entities, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Create a system-derived entity
+# \(Legacy\) Create a system-derived entity
 
 Create a custom entity that's derived from a default system entity such as date, time, duration, or location.
 

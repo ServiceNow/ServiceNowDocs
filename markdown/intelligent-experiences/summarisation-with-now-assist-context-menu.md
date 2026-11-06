@@ -1,20 +1,20 @@
 ---
-title: Summarize records with the ServiceNow Otto context menu
-description: Use the ServiceNow Otto context menu to generate a record summary for the page, using Generative AI application assisted summarization capabilities in workspaces and UI16. The ServiceNow Otto context menu can generate a new summary, expand or collapse the summary card, share the summary to work notes, regenerate, or copy the summary.
+title: Summarize records with the Now Assist context menu
+description: Use the ServiceNow Otto context menu to generate a record summary for the page, using Generative AI application assisted summarization capabilities in workspaces and UI16. The Now Assist context menu can generate a new summary, expand or collapse the summary card, share the summary to work notes, regenerate, or copy the summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/summarisation-with-now-assist-context-menu.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Otto context menu, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [ServiceNow Otto context menu, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Summarize records with the ServiceNow Otto context menu
+# Summarize records with the Now Assist context menu
 
-Use the ServiceNow Otto context menu to generate a record summary for the page, using Generative AI application assisted summarization capabilities in workspaces and UI16. The ServiceNow Otto context menu can generate a new summary, expand or collapse the summary card, share the summary to work notes, regenerate, or copy the summary.
+Use the ServiceNow Otto context menu to generate a record summary for the page, using Generative AI application assisted summarization capabilities in workspaces and UI16. The Now Assist context menu can generate a new summary, expand or collapse the summary card, share the summary to work notes, regenerate, or copy the summary.
 
-Go to any record page to access the ServiceNow Otto context menu icon \(\[Omitted image "icon-otto-outline-24.svg"\] Alt text: ServiceNow Otto context menu icon.\) with the message `Incident Summary by Now Assist`. Select **Summarize** to use generative AI to generate a record summary.
+Go to any record page to access the Now Assist context menu icon \(\[Omitted image "bus-ai-otto.svg"\] Alt text:\) with the message `Incident Summary by Now Assist`. Select **Summarize** to use generative AI to generate a record summary.
 
 \[Omitted image "nacm-summarize-record.png"\] Alt text: Summarize using Now Assist.
 

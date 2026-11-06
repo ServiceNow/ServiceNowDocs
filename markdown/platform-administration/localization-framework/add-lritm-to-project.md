@@ -7,7 +7,7 @@ release: australia
 product: Localization Framework
 classification: localization-framework
 topic_type: task
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create translation projects, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---

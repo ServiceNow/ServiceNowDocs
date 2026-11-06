@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist Security Operations]
 breadcrumb: [Use generative AI skills, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
@@ -33,15 +33,15 @@ If the Close code or Close notes fields are already updated for a security incid
 
 3.  Close the security incident.
 
-<table id="choicetable_dkw_4rr_1cc"><thead><tr><th align="left" id="d307728e118">
+<table id="choicetable_dkw_4rr_1cc"><thead><tr><th align="left" id="d309676e118">
 
 Option
 
-</th><th align="left" id="d307728e121">
+</th><th align="left" id="d309676e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d307728e127">
+</th></tr></thead><tbody><tr><td id="d309676e127">
 
 **Close the security incident in legacy Core UI16**
 
@@ -62,7 +62,7 @@ The resolution summary is displayed in the Resolution Information section on the
 
 **Note:** Using the ServiceNow Otto context menu, you can directly add or generate the resolution notes in the **Close notes** section on the incident record itself, when the incident is in the **Review** state. For more information, see the screen shot below.
 
-</td></tr><tr><td id="d307728e203">
+</td></tr><tr><td id="d309676e203">
 
 **Close the security incident from the Security Incident Response Workspace**
 

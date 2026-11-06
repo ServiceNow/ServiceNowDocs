@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-doc-intel-configuring-.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configure, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
@@ -41,7 +41,7 @@ The Task Intelligence for Customer Service application enables customers to crea
  This application automatically activates the following plugins:
 
 -   Predictive Intelligence for Customer Service Management \(com.snc.csm\_ml\)
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   Skills Management \(com.snc.skills\_management\)
 -   Dynamic Translation \(com.glide.dynamic\_translation\)
 -   ServiceNow Language Detection Service Spoke \(com.glide.language\_detection\_spoke\)
@@ -91,6 +91,4 @@ When you create a case type that extends the Case \[sn\_customerservice\_case\] 
 [Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-document-intelligence.md)
 
 [Review and submit values predicted by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-doc-intel-review-values.md)
-
-[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md)
 

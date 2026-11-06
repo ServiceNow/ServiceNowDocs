@@ -7,7 +7,7 @@ release: australia
 product: Alumni Center
 classification: alumni-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Alumni Center, HR Service Delivery, Employee Service Management]
 ---
@@ -25,7 +25,7 @@ For more information on requesting activation of a plugin, see [Request a plugin
 
 To set up Alumni Center, you must request activation for the following: Explicit Roles \(com.glide.explicit\_roles\). The Alumni Center uses this plugin to help segregate external users from internal users.
 
-**Note:** The Explicit Roles \(com.glide.explicit\_roles\) plugin must be activated before activating the Alumni Center \(sn\_asc\). For information on installing a ServiceNow Store application, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+**Note:** The Explicit Roles \(com.glide.explicit\_roles\) plugin must be activated before activating the Alumni Center \(sn\_asc\). For information on installing a ServiceNow Store application, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 -   **Roles installed**
 

@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -34,15 +34,15 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 5.  Configure the signatories.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d461324e117">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d460375e117">
 
 Option
 
-</th><th align="left" id="d461324e120">
+</th><th align="left" id="d460375e120">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d461324e126">
+</th></tr></thead><tbody><tr><td id="d460375e126">
 
 **Internal**
 
@@ -67,7 +67,7 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 4.  Select **Add**.
 
 
-</td></tr><tr><td id="d461324e216">
+</td></tr><tr><td id="d460375e216">
 
 **External**
 

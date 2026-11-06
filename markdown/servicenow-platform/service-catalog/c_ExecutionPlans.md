@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog request fulfillment, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,6 +34,8 @@ An execution plan contains one or more execution plan tasks, such as for obtaini
 An execution plan contains one or more task templates. Each task template defines work that can be completed by a specific fulfillment group.
 -   **[Service catalog execution plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_UsingExecutionPlans.md)**  
 Service catalog enables you to associate execution plans with catalog items.
+-   **[Using Service Catalog execution plans scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_ScptblAsmtExctnPlns.md)**  
+Each Service Catalog catalog item has an associated execution plan, used whenever an item of that type is ordered; if no plan is specified, the default plan is used. This default is effective for most organizations, but your execution plan may need to vary based on additional criteria.
 
 **Parent Topic:**[Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/request-fulfillment.md)
 

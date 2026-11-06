@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -51,7 +51,7 @@ Role required: flow\_designer
 
     For example, provide the details needed to create an address.
 
-    \[Omitted image "example-test-subflow-conversation.png"\] Alt text: Sample conversation to test Create Address subflow
+    \[Omitted image "example-test-subflow-conversation.png"\] Alt text:
 
 10. Review the execution details.
 

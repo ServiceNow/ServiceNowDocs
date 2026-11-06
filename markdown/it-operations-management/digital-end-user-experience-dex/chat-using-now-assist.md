@@ -1,0 +1,37 @@
+---
+title: Chat using ServiceNow Otto in Virtual Agent
+description: Use Digital End-User Experience \(DEX\) Virtual Agent to access chat-based support powered by ServiceNow Otto to find answers and guidance.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/chat-using-now-assist.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Desktop Assistant, Solve issues, Digital End-User Experience, IT Operations Management]
+---
+
+# Chat using ServiceNow Otto in Virtual Agent
+
+Use Digital End-User Experience \(DEX\) Virtual Agent to access chat-based support powered by ServiceNow Otto to find answers and guidance.
+
+## Before you begin
+
+DEX Desktop Assistant \[sn\_dex\_desktop\] application must be installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/download-desktop-experience.md).
+
+Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
+
+## Procedure
+
+1.  On the Desktop Assistant home page, select the Virtual Agent or chat icon \[Omitted image "icon-virtual-agent.png"\] Alt text: that appears on the Desktop Assistant header.
+
+2.  In the chat window, enter your question in the **Please type your request** field and press Enter.
+
+3.  Use the prompts from ServiceNow Otto to create a ticket, check the status of an existing ticket, or resolve other issues you might have.
+
+    **Note:**
+
+    -   To customize the topics that must be displayed and available on the Show me everything window, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)
+    -   To monitor and improve your device performance using ServiceNow Otto in Virtual Agent, see [Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/check-your-device-s-health-using-now-assist-for-itsm.md)
+

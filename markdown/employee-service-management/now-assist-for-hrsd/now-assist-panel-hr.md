@@ -7,8 +7,8 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
@@ -29,7 +29,7 @@ Role required:
 
 1.  Open an HR case that is assigned to you.
 
-2.  Select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: ServiceNow Otto icon..
+2.  Select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist icon..
 
 3.  Select a skill from the menu.
 

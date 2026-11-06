@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/activate-templated-snippets.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Response templates, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -64,5 +64,5 @@ Several types of components are installed with activation of the Templated Respo
 **Related topics**  
 
 
-[List of plugins \(Madrid\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 

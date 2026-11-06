@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-events.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -42,7 +42,7 @@ If you have the sn\_oper\_res.admin role, you can create an event in the Operati
 
     You can classify an event under an event group as shown in the following example.
 
-    \[Omitted image "new-event.png"\] Alt text: Sample configuration for the Event record form.
+    \[Omitted image "new-event.png"\] Alt text: Sample configuration for the Event New record form.
 
     As shown in the example, the scenarios for an event can be associated with different pillars.
 

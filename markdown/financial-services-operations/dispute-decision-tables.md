@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-decision-tables.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Card Disputes, Data Models, Explore, Financial Services Operations \(FSO\)]
 ---
@@ -165,5 +165,5 @@ Determines whether an ACH dispute requires a Written Statement of Unauthorized D
 **Related topics**  
 
 
-[bundle-cadev.decision-table]
+[Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md)
 

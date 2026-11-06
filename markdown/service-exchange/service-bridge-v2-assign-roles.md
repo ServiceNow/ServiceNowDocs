@@ -7,9 +7,9 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [User roles for providers, Configure for providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Personas for providers, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Assign roles to groups for Service Exchange
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-A user role is a preconfigured role in the application consisting of multiple granular roles. The user roles are designed to correspond to the common job titles for managers, analysts, and service owners in an IT organization. For more details, see [User roles for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-personas.md).
+A user role is a preconfigured role in the application consisting of multiple granular roles. The user roles are designed to correspond to the common job titles for managers, analysts, and service owners in an IT organization. For more details, see [Personas for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-personas.md).
 
 ## Procedure
 

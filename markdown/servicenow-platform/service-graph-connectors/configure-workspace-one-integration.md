@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [VMware Workspace ONE UEM, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -182,7 +182,7 @@ Client secret of your VMware Workspace ONE UEM client application as noted in th
 
     3.  On the Scheduled Data Import form, verify the field values for the scheduled job.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see .
 
     4.  Select the **Active** check box to activate the SG-Workspace ONE UEM Devices and Apps scheduled job.
 
@@ -350,7 +350,7 @@ Connection URL of your VMware Workspace ONE UEM controller.Use the format `https
         2.  Select the **SG-Workspace ONE UEM Devices and Apps** scheduled job.
         3.  On the Scheduled Data Import form, verify the field values for the scheduled job.
 
-            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+            For more information, see .
 
         4.  Select the **Active** check box to activate the SG-Workspace ONE UEM Devices and Apps scheduled job.
         5.  In the **Run** field, select **Periodically** to specify how often the job should run.

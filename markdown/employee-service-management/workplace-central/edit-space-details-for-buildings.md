@@ -7,7 +7,7 @@ release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Map based space administration, Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---

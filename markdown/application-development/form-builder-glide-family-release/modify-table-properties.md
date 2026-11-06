@@ -7,9 +7,9 @@ release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 11
-breadcrumb: [Data in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [Working with data, Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Fields view in Table Builder
@@ -49,15 +49,17 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 3.  On the resulting blank row, fill in the desired properties for the new data table column.
 
-<table id="choicetable_wqj_vdz_5wb"><thead><tr><th align="left" id="d200040e254">
+    \[Omitted image "tb-add-new-field.png"\] Alt text: Adding a new field to a table.
+
+<table id="choicetable_wqj_vdz_5wb"><thead><tr><th align="left" id="d334955e279">
 
 Field
 
-</th><th align="left" id="d200040e257">
+</th><th align="left" id="d334955e282">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d200040e263">
+</th></tr></thead><tbody><tr><td id="d334955e288">
 
 **Column label**
 
@@ -65,7 +67,7 @@ Description
 
 Unique label for the column.
 
-</td></tr><tr><td id="d200040e272">
+</td></tr><tr><td id="d334955e297">
 
 **Column name**
 
@@ -73,7 +75,7 @@ Unique label for the column.
 
 Database name for the column.
 
-</td></tr><tr><td id="d200040e281">
+</td></tr><tr><td id="d334955e306">
 
 **Type**
 
@@ -85,7 +87,7 @@ Type of information that the column contains. For example, to contain plain text
 
  See [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
-</td></tr><tr><td id="d200040e312">
+</td></tr><tr><td id="d334955e337">
 
 **Reference**
 
@@ -93,7 +95,7 @@ Type of information that the column contains. For example, to contain plain text
 
 Table that is associated with the column. This field applies only if the column type is **Reference**.
 
-</td></tr><tr><td id="d200040e325">
+</td></tr><tr><td id="d334955e350">
 
 **Max length**
 
@@ -101,7 +103,7 @@ Table that is associated with the column. This field applies only if the column 
 
 Maximum number of characters that users can enter in the field.
 
-</td></tr><tr><td id="d200040e334">
+</td></tr><tr><td id="d334955e359">
 
 **Default value**
 
@@ -109,7 +111,7 @@ Maximum number of characters that users can enter in the field.
 
 Value that populates the field automatically after a new record is created.
 
-</td></tr><tr><td id="d200040e343">
+</td></tr><tr><td id="d334955e368">
 
 **Display**
 
@@ -119,7 +121,7 @@ Option to set the column as the display value for the table. A reference field s
 
  Only one column can act as the display value for a table.
 
-</td></tr><tr><td id="d200040e373">
+</td></tr><tr><td id="d334955e398">
 
 **Updated**
 
@@ -191,7 +193,7 @@ Use a column label that describes the specific information that you expect users
 3.  Select **Save**.
 
 
-## Changing a table column name in Table Builder
+## Change a table column name in Table Builder
 
 Change the database name for the column. You may opt to change the column name manually if a reviewer finds that the column name in the database was causing issues in testing.
 

@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Applying templates to projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ When applying a template to a project, the project state is set to the default s
 
 1.  Apply project template to an existing project from any of the following locations.
 
-<table id="choicetable_fl1_dqc_mlb"><thead><tr><th align="left" id="d304440e67">
+<table id="choicetable_fl1_dqc_mlb"><thead><tr><th align="left" id="d316066e67">
 
 Location
 
-</th><th align="left" id="d304440e70">
+</th><th align="left" id="d316066e70">
 
 Step
 
-</th></tr></thead><tbody><tr><td id="d304440e76">
+</th></tr></thead><tbody><tr><td id="d316066e76">
 
 **From Project form**
 
@@ -53,7 +53,7 @@ Step
     -   If there are tasks or subprojects, select the **Apply Template** related link.
 
 
-</td></tr><tr><td id="d304440e126">
+</td></tr><tr><td id="d316066e126">
 
 **From Planning Console**
 

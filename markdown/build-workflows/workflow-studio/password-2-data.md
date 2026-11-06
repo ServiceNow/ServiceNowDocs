@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Input and output data variables, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -72,7 +72,7 @@ Follow these general guidelines when designing flows containing Password \(2 Way
 
 -   **Set up encryption modules for decryption**
 
-    Only users with a valid encryption module access can decrypt and view the contents of password2 variables. To specify the encryption algorithm and which roles can access encrypted data, see [Password2 encryption with KMF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/password-2way-encrypted-fields.md) .
+    Only users with a valid encryption module access can decrypt and view the contents of password2 variables. To specify the encryption algorithm and which roles can access encrypted data, see Password2 encryption with KMF .
 
 
 **Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-inputs-outputs.md)

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/update-pdf-format-for-bia-bcp-event.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -73,7 +73,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
 5.  To add blocks for advanced search, select **Add Blocks**.
 
-<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d230502e247">
+<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d231949e247">
 
 **To add an existing document block to the template**
 
@@ -81,7 +81,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
 In Search blocks, type in the name of an existing document block, select the document block, and select **Insert**.
 
-</td></tr><tr><td id="d230502e259">
+</td></tr><tr><td id="d231949e259">
 
 **To add a new document block to the template**
 

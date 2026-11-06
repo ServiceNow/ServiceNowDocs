@@ -7,7 +7,7 @@ release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Service Delivery, Employee Service Management]
 ---
@@ -20,11 +20,11 @@ Welcome your guests and off-site employees with a smoother, more hassle-free exp
 
 <table id="table_s3z_wrb_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about Workplace Visitor Management concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-ovw.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn about Workplace Visitor Management concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-ovw.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the application and setup the visitor-related settings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
+[Configure \[Omitted image "icon-configure.png"\] Alt text: Configure. Configure the application and setup the visitor-related settings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 </td><td>
 
@@ -32,15 +32,15 @@ Welcome your guests and off-site employees with a smoother, more hassle-free exp
 
 </td></tr><tr><td>
 
-[Manage \[Omitted image "bus-headset.svg"\] Alt text: Manage visitor registrations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
+[Manage \[Omitted image "icon-managing.png"\] Alt text: Manage Manage visitor registrations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
 </td><td>
 
-[Analytics and Reporting Solutions \[Omitted image "bus-elevate.svg"\] Alt text: Coordinate work and improve processes with dashboards and reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/analytics-reporting-for-visitor-mgmt.md)
+[Analytics and Reporting Solutions \[Omitted image "icon-report.png"\] Alt text: Analytics and Reporting Solutions Coordinate work and improve processes with dashboards and reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/analytics-reporting-for-visitor-mgmt.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 </td></tr></tbody>
 </table>## Additional resources

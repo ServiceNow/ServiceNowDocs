@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -205,15 +205,15 @@ Attachments related to the task.
 
 10. In the Import Task section, insert a new citation or update an existing citation as described in the table.
 
-<table id="choicetable_sdj_byp_crb"><thead><tr><th align="left" id="d188417e408">
+<table id="choicetable_sdj_byp_crb"><thead><tr><th align="left" id="d189558e408">
 
 Field
 
-</th><th align="left" id="d188417e411">
+</th><th align="left" id="d189558e411">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d188417e417">
+</th></tr></thead><tbody><tr><td id="d189558e417">
 
 **Insert action**
 
@@ -221,7 +221,7 @@ Description
 
 Action associated with the citation. Select **Insert** to insert a new citation.**Note:** The **Insert** or **Update** action related to the citation is available only when the source document import task is in the **In progress** state.
 
-</td></tr><tr><td id="d188417e441">
+</td></tr><tr><td id="d189558e441">
 
 **Create under an existing Authority Document or Citation**
 
@@ -229,7 +229,7 @@ Action associated with the citation. Select **Insert** to insert a new citation.
 
 Option to create a new citation under an existing authority document or citation. When this option is selected, a child authority document or a child citation is created under an existing citation. This option is displayed only when the **Insert** action is selected.
 
-</td></tr><tr><td id="d188417e453">
+</td></tr><tr><td id="d189558e453">
 
 **Parent type**
 
@@ -237,7 +237,7 @@ Option to create a new citation under an existing authority document or citation
 
 Parent authority document or citation. This field is displayed only when the **Create under an existing Authority Document or Citation** option is enabled.
 
-</td></tr><tr><td id="d188417e465">
+</td></tr><tr><td id="d189558e465">
 
 **Parent authority document**
 
@@ -245,7 +245,7 @@ Parent authority document or citation. This field is displayed only when the **C
 
 Parent authority document or citation from the library. This field is displayed only when the **Create under an existing Authority Document or Citation** option is enabled.
 
-</td></tr><tr><td id="d188417e478">
+</td></tr><tr><td id="d189558e478">
 
 **Update action**
 

@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ For information on probe-based network switch and router discovery, see [Network
 
 ## Cisco Nexus Virtual Routing and Forwarding \(VRF\) data model
 
-The pattern introduces the following CI class starting with Discovery and Service Mapping Patterns version 1.35.0.
+The pattern introduces the following CI class starting with Discovery and Service Mapping Patterns version 1.35.1.
 
 |CI class|Extends from|
 |--------|------------|
@@ -92,7 +92,7 @@ Disables running the SNMP – Routing pattern when discovering a router running 
 
     Verify the following requirements:
 
-    -   Discovery and Service Mapping Patterns starting from version 1.35.0.
+    -   Discovery and Service Mapping Patterns starting from version 1.35.1.
     -   Read permissions for the following commands on the Cisco Nexus device:
         -   `sh vrf`
         -   `sh hsrp br`

@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Case task workflow, Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -38,15 +38,15 @@ If a case task is of type **Assessment**, a case requires the case task owner to
 
 6.  Depending on your case task type, perform the following steps.
 
-<table id="choicetable_ehd_gyn_pvb"><thead><tr><th align="left" id="d63586e127">
+<table id="choicetable_ehd_gyn_pvb"><thead><tr><th align="left" id="d64024e127">
 
 Choice
 
-</th><th align="left" id="d63586e130">
+</th><th align="left" id="d64024e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d63586e136">
+</th></tr></thead><tbody><tr><td id="d64024e136">
 
 **If the task is of type Assessment**
 
@@ -58,7 +58,7 @@ Steps
 4.  Save the **Save**.
 
 
-</td></tr><tr><td id="d63586e169">
+</td></tr><tr><td id="d64024e169">
 
 **If the task is of type Investigation or Others**
 

@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Survey-based questionnaires, Questionnaires, Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: Admin
 
 -   Ensure that the following plugins are activated before you install Field Service com.snc.wm\_questionnaire.
     -   **Required ServiceNow plugins**
-        -   **Customer Service \(com.sn\_customerservice\)**
+        -   **Case Management Core \(com.sn\_customerservice\)**
         -   **Customer Service Management Demo Data \(com.snc.customerservice.demo\)**
         -   **Field Service Management**
 

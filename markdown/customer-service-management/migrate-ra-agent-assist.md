@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migrate-ra-agent-assist.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring AI search, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -74,7 +74,7 @@ Agent Assist is enabled by default with the option to manually migrate to Recomm
     |Type|True or False|
     |Value|Enables or disables the property. Set the value to `true` to enable the property.|
     |Application|Application scope in which the property is being created.|
-    |Description|Brief description of the UX page property that you are creating.|
+    |Description|Brief description of the UX page property that you're creating.|
 
 5.  Select **Save**.
 

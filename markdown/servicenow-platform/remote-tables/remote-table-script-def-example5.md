@@ -7,7 +7,7 @@ release: australia
 product: Remote Tables
 classification: remote-tables
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create script definitions, Remote tables, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,9 +18,9 @@ In this example, we create a script to delete an incident record from the extern
 
 For Remote Table API information, refer to:
 
--   [v\_query – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_queryAPI.md)
--   [v\_record - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_recordAPI.md)
--   [v\_table – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md)
+-   
+-   
+-   
 
 ```javascript
 (function executeDelete(v_record) {

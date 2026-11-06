@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/email-bounce.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -21,6 +21,8 @@ An email bounce signifies the non-delivery of your email message according to [R
 An email address is blocked after it reaches a certain threshold of bounced emails. The default count for blocking the bounced email addresses is 10.
 
 To view the bounce email addresses, navigate to **All** &gt; **System Logs** &gt; **Bounce Email Addresses**.
+
+Each bounce email address record includes a **Bounce Email Address Logs** related list with an **Original Email** field that provides access to the original email associated with the bounce.
 
 **Important:** Disabling bounce management is not recommended as it may lead to slow delivery or blocking of emails by the email provider.
 

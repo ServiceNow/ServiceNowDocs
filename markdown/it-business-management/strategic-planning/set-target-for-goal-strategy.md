@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage enterprise goals, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -43,15 +43,15 @@ A SMART target can be defined as S = Specific, M = Measurable, A = Attainable, R
 
 3.  Add a target for your goal using one of the following methods depending on your board type.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d152396e142">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d155955e142">
 
 Option
 
-</th><th align="left" id="d152396e145">
+</th><th align="left" id="d155955e145">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d152396e151">
+</th></tr></thead><tbody><tr><td id="d155955e151">
 
 **From the Goals page**
 
@@ -59,7 +59,7 @@ Steps
 
 Next to the goal that you want to add a target for, select the row context menu icon \(\[Omitted image "action-menu-icon.png"\] Alt text: Row context menu icon.\) and select **Add target**.
 
-</td></tr><tr><td id="d152396e169">
+</td></tr><tr><td id="d155955e169">
 
 **From the Strategy page**
 

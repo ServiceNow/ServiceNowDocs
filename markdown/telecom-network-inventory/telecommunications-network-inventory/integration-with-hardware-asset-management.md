@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrate, Telecommunications Network Inventory]
 ---
@@ -26,7 +26,7 @@ The Hardware Asset Management fulfills the service request and executes the work
 
 After the assets are acquired or available in a stockroom, the procurement managers can use the ServiceNow® Procurement application to create the configuration items \(CIs\) for these assets. You can use these CIs for equipment instantiation by tagging them.
 
-When you instantiate equipment at a network site with an inventory template, the system picks the assets that match with the interface card models if they’re in the same network site location. Otherwise, the application creates a CI for the interface card. The system makes a relationship with the other assets that are available in a stockroom. These relationships are made only if the related assets are available in a stockroom.
+When you instantiate equipment at a network site with an inventory template, the system picks matching assets. The system selects assets that match the interface card models if they’re in the same network site location. Otherwise, the application creates a CI for the interface card. The system makes a relationship with the other assets that are available in a stockroom. These relationships are made only if the related assets are available in a stockroom.
 
 ## Hardware Asset Management integration workflow
 

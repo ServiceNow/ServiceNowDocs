@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [create new connection card data security, add tokenized connection, third-party system integration, tokenizer service configuration, card data security routes, workflow studio subflow, decision table entry, rest message function, tokenizer resource configuration entry, enable card data security subflow]
 breadcrumb: [Administer, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
@@ -107,7 +107,7 @@ ServiceNow
 
 </td></tr><tr><td>
 
-
+[Define a REST message HTTP method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_DefineAnHTTPMethod.md)
 
 </td><td>
 

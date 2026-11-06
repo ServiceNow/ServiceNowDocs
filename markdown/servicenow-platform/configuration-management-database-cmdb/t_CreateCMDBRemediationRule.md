@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,7 +23,7 @@ You must first create and publish a remediation workflow that addresses the CI i
 -   The table in the workflow must match the task type in the remediation rule.
 -   The workflow isn't configured with any filter conditions by setting **If condition matches** to `None`, so that the filters of the CMDB remediation rule will apply.
 
-For more information about using Classic Workflows, see [Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowOverview.md).
+For more information about using Classic Workflows, see .
 
 Role required: sn\_cmdb\_admin or itil\_admin \(on top of sn\_cmdb\_editor or itil\)
 

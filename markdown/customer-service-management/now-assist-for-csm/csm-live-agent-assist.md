@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [Agentic AI, Agentic AI for Customer Service Management, Live interaction recommendations AI Agents for customer service agents]
 breadcrumb: [Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
@@ -91,7 +91,7 @@ Required role: B2B agents \(sn\_customerservice\_agent\) and B2C agents \(sn\_cu
 
 **Important:** To access data in the agentic workflow, the admin role must include the specified roles under **Contains roles**.
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/implement-aias-security-new.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 In the data access settings, you must also add the necessary roles to enable agents to resolve cases efficiently. For example, add the csm role to the agentic workflow's list of approved roles to enable access to case records.
 

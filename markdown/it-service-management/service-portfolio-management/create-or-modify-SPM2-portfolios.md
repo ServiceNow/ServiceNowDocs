@@ -7,7 +7,7 @@ release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
@@ -117,7 +117,7 @@ When checked, the **Number of offerings per service** field displays, enabling y
 
 </td></tr><tr><td colspan="2">
 
-**Important:** The following performance fields only appear if you're using the deprecated Service Owner Workspace plugin.
+**Important:** The following performance fields only appear if you're using the deprecated Service Owner Workspace plugin. For more information on the deprecation of Service Owner Workspace, see .
 
 </td></tr><tr><td>
 

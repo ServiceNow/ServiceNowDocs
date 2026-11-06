@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/configure-jira-integration-options.html
 release: australia
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [User story integration, Configure Scan Engine integrations, Configuring Impact, Impact]
+breadcrumb: [User story integration, Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure Jira user story integration
@@ -16,13 +16,15 @@ Configure the Jira user story integration to create work items in a Jira project
 
 ## Before you begin
 
-Gather the following from your Jira environment:
+The following information from your Jira environment is required:
 
--   Jira Project Key
+-   Jira project key
 -   Work item type
 -   Domain name: the subdomain of your Jira URL \(for example, `companyname` from `companyname.atlassian.net/jira`\)
 
 Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\)
+
+Configure this integration on the instance where Scan Engine runs and the findings are generated. No My SN Instances record is required.
 
 ## Procedure
 
@@ -36,9 +38,9 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\)
 
     Create one basic auth record per user who will create Jira work items. Set **Username** to the user's Jira email address and paste the API token in **Password**.
 
-6.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** and select the **User Story Integration** properties tab.
+6.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** and select the **User Story Integration** properties tab.
 
-7.  Set **Integration Type** to `Jira` and populate the following fields: **Project key**, **Domain name**, **Work item type**.
+7.  Set **Integration** to `Jira` and populate the following fields: **Project key**, **Domain name**, **Work item type**.
 
 8.  Select **Update**.
 

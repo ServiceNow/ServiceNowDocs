@@ -1,5 +1,5 @@
 ---
-title: MCP Server Tools reference
+title: MCP Server Tools
 description: Reference for the tools available in the HRSD MCP Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/mcp-server-tools-reference.html
@@ -7,12 +7,12 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: reference
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [HRSD MCP Server, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# MCP Server Tools reference
+# MCP Server Tools
 
 Reference for the tools available in the HRSD MCP Server.
 
@@ -30,7 +30,7 @@ sn\_hr\_mcp\_server.hrsd\_case\_initiate
 
 </td><td>
 
-Opens an HR case for an employee and returns the case number and state.
+Opens an HR case for an employee and returns the case number and state. For services backed by a record producer, it collects the required answers before creating a case.
 
 </td></tr><tr><td>
 
@@ -157,4 +157,5 @@ Example:
 ```
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Reference for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
+

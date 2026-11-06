@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-09-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -53,6 +53,10 @@ A schedule-locked work order task has a fixed start and end time that can't shif
 
     Adjust a break's timing or remove it entirely when a technician's schedule changes.
 
+-   [Edit or delete a break from the CSP in Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/edit-break-csp-workforce.md)
+
+    Make the same update without leaving the calendar, so you can manage a technician's schedule faster.
+
 -   [Check a break in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/check-break-dispatcher.md)
 
     See whether a technician's break is planned or already taken before you assign or reschedule work.
@@ -61,8 +65,16 @@ A schedule-locked work order task has a fixed start and end time that can't shif
 
     Confirm your own break status from the field so you know when you're expected back on task.
 
+-   [Check a break in Manager Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/check-break-manager-mobile.md)
+
+    Check a technician's break status on the go, without needing to be at a desk.
+
 -   [Take a break manually in the mobile agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/take-break-manually-mobile.md)
 
     Manually record a break when Auto-status breaks is turned off.
+
+-   [Configure event colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/configure-event-colors-wfo-fsm.md)
+
+    Administrators can set border and background colors so breaks and other events stand out clearly on the calendar.
 
 

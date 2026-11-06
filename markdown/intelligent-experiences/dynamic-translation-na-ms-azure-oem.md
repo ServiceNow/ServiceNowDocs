@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/dynamic-translation-na-ms-azure-oem.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Microsoft Azure OEM, Dynamic Translation, Now Assist, multi-language input, generative AI controller, translator configurations]
-breadcrumb: [Configure multilingual service for ServiceNow Otto applications, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configure multilingual service for ServiceNow Otto applications, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Microsoft Azure OEM for Dynamic Translation in Now Assist

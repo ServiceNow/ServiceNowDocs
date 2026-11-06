@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI in Software Asset Management, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [AI in Software Asset Management, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Supporting information for ServiceNow Otto for Software Asset Management \(SAM\)
@@ -18,11 +18,11 @@ Get a quick overview of the important information that is related to the Service
 
 ## Supported versions
 
-ServiceNow Otto for SAM is supported starting with the Yokohama release.
+Now Assist for SAM is supported starting with the Yokohama release.
 
 ## Languages supported
 
-The ServiceNow Otto for SAM application supports the following languages:
+The Now Assist for SAM application supports the following languages:
 
 -   Arabic
 -   Czech
@@ -50,7 +50,7 @@ The ServiceNow Otto for SAM application supports the following languages:
 
 ## Application information
 
-Activate the ServiceNow Otto for Software Asset Management \(SAM\) store app \(sn\_now\_assist\_sam\) to use the Software Asset Management skills.
+Activate the ServiceNow Otto for Software Asset Management \(SAM\) store app \(sn\_now\_assist\_sam\) to use the publisher compliance summarization skill.
 
 This store app has the following dependencies:
 

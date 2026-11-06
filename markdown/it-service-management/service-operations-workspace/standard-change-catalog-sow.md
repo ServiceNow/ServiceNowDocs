@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -22,7 +22,7 @@ The standard change catalog enables you to perform the following activities:
 -   Request pre-approved standard changes.
 -   Determine access to standard change templates at the user level.
 
-    **Note:** You must have read access to the standard change template. Please ensure you have the correct roles to access the templates.
+    **Note:** You must have read access to the standard change template. Make sure you have the correct roles to access the templates.
 
 
 You can propose, modify, and retire standard change templates based on the requirements of your organization.

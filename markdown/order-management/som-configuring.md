@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-configuring.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Sales Customer Relationship Management]
 ---
@@ -73,6 +73,8 @@ Enable B2B customers to self-serve key processes such as order creation, order c
 The applications in Sales Customer Relationship Management share common features and tools for agents.
 -   **[Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-ai-capabilities-sales-crm.md)**  
 Use the AI Admin Hub console to activate the various AI applications and skills that you're entitled to use.
+-   **[Configure Sales CRM Mobile Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-sales-crm-mobile.md)**  
+Activate the Sales CRM Mobile plugin, then use the Now Agent mobile app to log in and access Sales CRM Mobile application.
 
 **Parent Topic:**[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-overview.md)
 

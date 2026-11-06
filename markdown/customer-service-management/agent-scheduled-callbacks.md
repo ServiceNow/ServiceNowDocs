@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/agent-scheduled-callbacks.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Callback requests by agents, Use omnichannel callback, Customer communication, Use, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ Schedule callbacks on behalf of customers from CSM Configurable Workspace.
 
 Ensure the following:
 
--   Customer Service Management \(CSM\) \[com.sn\_customerservice\] plugin is activated
+-   Case Management Core \[com.sn\_customerservice\] plugin is activated
 -   Omnichannel Callback for Customer Service Management \(com.sn\_omnichannel\_callback\) plugin is installed
 -   Appointment booking \[com.snc.appointment\_booking\] plugin is installed \(automatically installed with omnichannel callback \[sn\_callback\] plugin\)
 -   System property **sn\_callback.enable\_agent\_scheduled\_callback** is enabled

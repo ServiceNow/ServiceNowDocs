@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/now-assist-order-mgmt-summarize-order.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
@@ -35,15 +35,15 @@ Role required: sn\_ind\_tmt\_orm.order\_agent, sn\_ind\_tmt\_orm.order\_fulfilme
 
 4.  When you're finished summarizing an order, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_z3p_sn2_3hc"><thead><tr><th align="left" id="d45088e133">
+<table id="choicetable_z3p_sn2_3hc"><thead><tr><th align="left" id="d45912e133">
 
 Option
 
-</th><th align="left" id="d45088e136">
+</th><th align="left" id="d45912e136">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d45088e142">
+</th></tr></thead><tbody><tr><td id="d45912e142">
 
 **Save the summary information by adding it to the work notes**
 
@@ -54,7 +54,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d45088e169">
+</td></tr><tr><td id="d45912e169">
 
 **Expand or collapse the summary**
 
@@ -62,7 +62,7 @@ Procedure
 
 Select the expand card icon \[Omitted image "icon-expand.png"\] Alt text: or the collapse card icon \[Omitted image "icon-collapse.png"\] Alt text: to see more details or fewer summary details.
 
-</td></tr><tr><td id="d45088e184">
+</td></tr><tr><td id="d45912e184">
 
 **Provide feedback for the summary**
 
@@ -70,7 +70,7 @@ Select the expand card icon \[Omitted image "icon-expand.png"\] Alt text: or the
 
 If you think that the summary was helpful, select the helpful icon \[Omitted image "icon-helpful.png"\] Alt text:. If you think that the summary wasn’t helpful, select the not helpful icon \[Omitted image "icon-not-helpful.png"\] Alt text:.This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d45088e201">
+</td></tr><tr><td id="d45912e201">
 
 **Copy the order summary**
 
@@ -78,7 +78,7 @@ If you think that the summary was helpful, select the helpful icon \[Omitted ima
 
 Select the copy to clipboard icon \[Omitted image "icon-copy.png"\] Alt text: to use the order summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d45088e214">
+</td></tr><tr><td id="d45912e214">
 
 **View the information about the order summary**
 

@@ -5,14 +5,18 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/work-items-assignment-matching-criteria-wfo-cs.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Create a criteria for a matching rule in Work scheduler, Assigning work using Work Scheduler, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
 # Matching criteria for work items in Work scheduler
 
 The assignment workbench uses configurable matching criteria, such as skills and availability, to evaluate the agents in a selected group and provide an overall ranking.
+
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 There are three types of matching criteria:
 

@@ -1,31 +1,32 @@
 ---
 title: Map application services based on Automated Service Suggestions
-description: Map a new application service based on automatically generated suggestions. Use the Automated Service Suggestions or Service Fingerprints features to create a new application service or add to an existing service in a few clicks.
+description: Map a new application service based on automatically generated suggestions. Use the Automated Service Suggestions or Service Fingerprints features to create an application service or add to an existing service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/service-mapping/map-application-suggestion.html
 release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Map application services based on Automated Service Suggestions
 
-Map a new application service based on automatically generated suggestions. Use the Automated Service Suggestions or Service Fingerprints features to create a new application service or add to an existing service in a few clicks.
+Map a new application service based on automatically generated suggestions. Use the Automated Service Suggestions or Service Fingerprints features to create an application service or add to an existing service.
 
 ## Before you begin
 
 -   Service Mapping Plus must be installed. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/install-service-mapping-plus.md).
 -   Confirm that the application is ready to discover and map application services. See [Application service readiness dashboard in configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/readiness-dashboard-ml.md).
+-   In domain-separated environments, switch to a leaf domain before you map an application service. A leaf domain is a child domain of the lowest level, meaning it does not have any child domains itself.
 
 Role required: service\_mapping\_admin
 
 ## About this task
 
-In addition to being provided with automatically generated suggestions, you can also identify and choose an application service by using Service Fingerprints suggestions that include information about the components in the application service candidates. For more information, see [Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/auto-serv-suggest.md).
+Along with automatically generated suggestions, you can identify and choose an application service by using Service Fingerprints suggestions. These suggestions include information about the components in the application service candidates. For more information, see [Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/auto-serv-suggest.md).
 
 ## Procedure
 
@@ -37,15 +38,15 @@ In addition to being provided with automatically generated suggestions, you can 
 
 3.  Select an application service either based on candidate suggestions or identify services with desired component.
 
-<table id="sm-auto-sug"><thead><tr><th align="left" id="d503814e160">
+<table id="sm-auto-sug"><thead><tr><th align="left" id="d540487e165">
 
 Search method
 
-</th><th align="left" id="d503814e163">
+</th><th align="left" id="d540487e168">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d503814e169">
+</th></tr></thead><tbody><tr><td id="d540487e174">
 
 **Select from candidates based on a desired component**
 
@@ -56,13 +57,13 @@ Actions
 3.  Select your preferred application service candidate.
 
 
-</td></tr><tr><td id="d503814e196">
+</td></tr><tr><td id="d540487e201">
 
 **Select the candidate using basic details**
 
 </td><td>
 
-1.  Select the Application Service Suggestions tab.
+1.  Select the **Application Service Suggestions** tab.
 2.  Review the list of suggested application services.
 3.  Select your preferred candidate.
 
@@ -80,26 +81,11 @@ Actions
 
 5.  Select **Map application service**.
 
-6.  Either create a new application service with the suggested candidate or add the suggested candidate to an existing application service.
+6.  Either create an application service with the suggested candidate or add the suggested candidate to an existing application service.
 
-<table id="choicetable_mwr_xjr_ycc"><thead><tr><th align="left" id="d503814e285">
+7.  -   Select **Create new service**. On the form, fill in the fields.
 
-Action
-
-</th><th align="left" id="d503814e288">
-
-Steps
-
-</th></tr></thead><tbody><tr><td id="d503814e294">
-
-**Create a new application service**
-
-</td><td>
-
-1.  Select **Create new service**.
-2.  On the form, fill in the fields.
-
-<table id="table_iyx_5kr_ycc"><thead><tr><th>
+<table id="table_xrh_ftl_wkc"><thead><tr><th>
 
 Field
 
@@ -150,22 +136,10 @@ Service group
 A specific application services group to which you want to add this service. The default All setting means the application service is available to all groups.
 
 </td></tr></tbody>
-</table>
+</table>-   Alternatively, to add the suggested candidate to an existing application service, select **Add to existing service**. Start typing the name of an existing service and select the desired service from the list.
+8.  Select **Map service**.
 
-</td></tr><tr><td id="d503814e411">
-
-**Add a candidate to an existing service**
-
-</td><td>
-
-1.  Select **Add to existing service**.
-2.  Begin entering the name of the existing service and select the desired service from the list.
-
-
-</td></tr></tbody>
-</table>7.  Select **Map service**.
-
-8.  Select **View map** to view the new or modified application service.
+9.  Select **View map** to view the new or modified application service.
 
 
 **Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/using-service-mapping.md)

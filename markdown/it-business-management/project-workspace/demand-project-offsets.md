@@ -19,7 +19,7 @@ When you create a project from a demand, resource assignments keep their start d
 
 ## How offsets work
 
-The **Offset** field on a resource assignment shows, in days, the difference between the start date of the project or task and the start date of the resource assignment.
+The Offset field on a resource assignment shows the difference, in days, between the project or task start date and the resource assignment start date.
 
 A demand has no schedule, so the offset on a demand counts every day, including Saturdays and Sundays. A project has a schedule, so the offset on a project counts only the working days defined in that schedule.
 
@@ -39,7 +39,7 @@ When a demand is converted to a project, the following happens:
 
 1.  Each resource assignment keeps its start date.
 2.  The offset is recalculated as the number of working days between the project start date and the assignment start date.
-3.  The working days come from the schedule in the **Schedule** field of the project.
+3.  The working days are calculated from the defined schedule in the **Schedule** field of the project.
 
 For example, a demand and its project both start on August 3, and a resource assignment starts on August 17. The offset for the same assignment is shown in the following table.
 
@@ -55,7 +55,7 @@ The assignment keeps its start date. The offset drops from 14 to 10 because the 
 Consider the following when you work with offsets in projects created from a demand:
 
 -   Holidays and other non-working days that are defined in the schedule aren't counted in the offset.
--   The **Schedule** field of the project is populated with a default schedule, Project Management Schedule, in which the working days are Monday to Friday. The default schedule can be replaced with a different one.
+-   The Schedule field of the project is populated with a default schedule, Project Management Schedule, in which the working days are Monday to Friday. The default schedule can be replaced with a different one.
 
 **Parent Topic:**[Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-project-from-project-workspace.md)
 

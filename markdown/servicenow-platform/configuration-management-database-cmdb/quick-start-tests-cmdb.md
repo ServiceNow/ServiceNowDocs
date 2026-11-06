@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -124,7 +124,7 @@ Paris
 |Test|Description|Release version|
 |----|-----------|---------------|
 |CMDB REL EDITOR:Relationship Editor|Check addition of relations to a CI and deletion of relations from a CI using sn\_cmdb\_editor and itil user roles.|New York|
-|CMDB REL FORMATTER:Relationship Formatter|Check accuracy of CI information, relationship types, relationships, associated records such as change tickets, and settings such as CMDB views \(relationship filters\), displayed for a specific CI in relationship formatter using sn\_cmdb\_editor and itil user roles.|New York|
+|CMDB REL FORMATTER:Relationship Formatter|Check CI information, relationship types, relationships, associated records, and CMDB views displayed in relationship formatter using sn\_cmdb\_editor and itil user roles.|New York|
 
 |Test|Description|Release version|
 |----|-----------|---------------|

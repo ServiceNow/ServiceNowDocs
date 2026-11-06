@@ -7,9 +7,9 @@ release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Create and train a classification solution
@@ -21,7 +21,7 @@ Specify the records used to train a classification solution, what fields trigger
 -   [Create a custom stopwords list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/create-custom-stopwords-list.md) if needed.
 -   Role required: admin or ml\_admin
 
-**Important:** In the Australia release, models in the classification, clustering, and similarity frameworks use Workflow solutions. These are pre-trained, so a word corpus isn't needed for your new solutions. When your existing solutions with a word corpus are re-trained after upgrading, they become Workflow solutions, and the Word Corpus field is removed from the form.
+**Important:** In the Brazil release, models in the classification, clustering, and similarity frameworks use Workflow solutions. These are pre-trained, so a word corpus isn't needed for your new solutions. When your existing solutions with a word corpus are re-trained after upgrading, they become Workflow solutions, and the Word Corpus field is removed from the form.
 
 ## About this task
 

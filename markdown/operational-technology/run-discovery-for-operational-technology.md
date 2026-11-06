@@ -1,18 +1,18 @@
 ---
-title: Create an OT Discovery schedule and run the Discovery process
-description: Define Operational Technology \(OT\) Discovery schedules that orchestrate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
+title: Create and run the OT Discovery schedule and the Discovery process
+description: Define Operational Technology \(OT\) Discovery schedules that orche schedules that orchestrate how and when the Discovery strate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/run-discovery-for-operational-technology.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [IT Discovery for Operational Technology \(OT\) Networks, Operational Technology Discovery, Operational Technology]
 ---
 
-# Create an OT Discovery schedule and run the Discovery process
+# Create and run the OT Discovery schedule and the Discovery process
 
-Define Operational Technology \(OT\) Discovery schedules that orchestrate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
+Define Operational Technology \(OT\) Discovery schedules that orche schedules that orchestrate how and when the Discovery strate how and when the Discovery for an OT function should run. You can also perform an immediate Quick Discovery or an actual OT Discovery run.
 
 ## Before you begin
 
@@ -28,17 +28,17 @@ Role required: ot\_discovery\_admin
 
 1.  Navigate to **All** &gt; **OT Discovery** &gt; **OT Discovery Schedules**.
 
-2.  Run Quick Discovery or select or create an OT discovery schedule.
+2.  Run Quick Discovery or select or create an OT Discovery schedule.
 
-<table id="choicetable_dcf_hl5_vpb"><thead><tr><th align="left" id="d26805e145">
+<table id="choicetable_dcf_hl5_vpb"><thead><tr><th align="left" id="d26709e154">
 
 Task
 
-</th><th align="left" id="d26805e148">
+</th><th align="left" id="d26709e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26805e154">
+</th></tr></thead><tbody><tr><td id="d26709e163">
 
 **Run an immediate Quick Discovery**
 
@@ -49,36 +49,36 @@ Select **Quick Discovery** and do the following actions:1.  In the **Target IP**
 3.  Select **OK**.
 
 
-</td></tr><tr><td id="d26805e196">
+</td></tr><tr><td id="d26709e205">
 
-**Select or create an OT discover schedule**
+**Select or create an OT Discovery schedule**
 
 </td><td>
 
-1.  Select an existing OT discovery schedule or select **New** to create one.
+1.  Select an existing OT Discovery schedule or select **New** to create a new schedule.
 2.  Perform the steps that follow to create the OT discovery schedule record in the OT Discovery Schedule form.
 
 
 </td></tr></tbody>
 </table>3.  In the form, fill in the OT Discovery Schedule fields.
 
-<table id="choicetable_fxf_qpx_nsb"><thead><tr><th align="left" id="d26805e229">
+<table id="choicetable_fxf_qpx_nsb"><thead><tr><th align="left" id="d26709e244">
 
 Field
 
-</th><th align="left" id="d26805e232">
+</th><th align="left" id="d26709e247">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26805e238">
+</th></tr></thead><tbody><tr><td id="d26709e253">
 
 **Name**
 
 </td><td>
 
-Unique, descriptive name for your OT discovery schedule.
+Unique, descriptive name for your OT Discovery schedule.
 
-</td></tr><tr><td id="d26805e247">
+</td></tr><tr><td id="d26709e265">
 
 **Discover**
 
@@ -90,9 +90,9 @@ Uses Discovery identifiers to match devices with configuration items \(CIs\) in 
 
 -   **IP addresses**
 
-Scans devices without the use of credentials. These scans discover all the active IP addresses in the specified range and create device history records, but don't update the CMDB. IP address scans also show multiple IP addresses that are running on a single device. Identify devices by class and by type, such as Windows computers and Cisco network gear.
+Scans devices without the use of credentials. These scans discover all the active IP addresses in the specified range and create device history records, but do not update the CMDB. IP address scans also show multiple IP addresses that are running on a single device. Identify devices by class and by type, such as Windows computers and Cisco network gear.
 
-</td></tr><tr><td id="d26805e298">
+</td></tr><tr><td id="d26709e316">
 
 **Default Purdue level**
 

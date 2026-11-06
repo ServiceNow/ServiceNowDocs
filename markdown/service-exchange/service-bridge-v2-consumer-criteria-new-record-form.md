@@ -1,5 +1,5 @@
 ---
-title: Consumer criteria record form
+title: Consumer criteria new record form
 description: Field descriptions for the consumer criteria new record form contains information on consumer criteria new record form field values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/service-exchange/service-bridge-v2-consumer-criteria-new-record-form.html
@@ -7,12 +7,12 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Service Exchange]
 ---
 
-# Consumer criteria record form
+# Consumer criteria new record form
 
 Field descriptions for the consumer criteria new record form contains information on consumer criteria new record form field values.
 

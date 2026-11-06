@@ -7,9 +7,9 @@ release: australia
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Form generation, Configure, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Form generation, Configure, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Install ServiceNow Otto for Creator for form generation in Creator Studio

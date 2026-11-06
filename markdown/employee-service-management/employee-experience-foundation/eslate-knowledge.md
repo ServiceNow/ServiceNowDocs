@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-08-03"
 reading_time_minutes: 1
 keywords: [Knowledge Management, knowledge articles, Knowledge widget, conversational search, Employee Slate, knowledge base]
-breadcrumb: [Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Knowledge widget overview

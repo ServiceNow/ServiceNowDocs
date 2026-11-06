@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference for Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Default configurations for team requests
@@ -18,8 +18,8 @@ Predefined set of team request configurations are available to use after you hav
 
 |Request type|Description|
 |------------|-----------|
-|cat\_item|Configuration to display items \(of type hardware and software\) that are requested by an employee.|
-|hr\_service|Configuration to display cases \(except for employee relations cases\) opened by an employee.|
+|cat\_item|Configuration to display items \(of type hardware and software\) that are requested by an employee in Manager Hub|
+|hr\_service|Configuration to display cases \(except for employee relations cases\) opened by an employee in Manager Hub.|
 
 For more details, navigate to **All** &gt; **Manager Hub** &gt; **Administration** &gt; **Team Requests Configurations**.
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Reference, GCP, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -307,7 +307,7 @@ sn\_gcp\_integ.sg\_gcp\_software\_inventory\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Software Inventory data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -316,7 +316,7 @@ sn\_gcp\_integ.sg\_gcp\_cloud\_db\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Cloud Database data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -325,7 +325,7 @@ sn\_gcp\_integ.sg\_gcp\_cloud\_function\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Cloud Function data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -334,7 +334,7 @@ sn\_gcp\_integ.sg\_gcp\_kubernetes\_cluster\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Kubernetes Cluster data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -343,7 +343,7 @@ sn\_gcp\_integ.sg\_gcp\_kubernetes\_deployment\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Kubernetes Deployment data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -352,7 +352,7 @@ sn\_gcp\_integ.sg\_gcp\_kubernetes\_namespace\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Kubernetes Namespace data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -361,7 +361,7 @@ sn\_gcp\_integ.sg\_gcp\_kubernetes\_node\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Kubernetes Node data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -370,7 +370,7 @@ sn\_gcp\_integ.sg\_gcp\_kubernetes\_node\_pool\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Kubernetes Node Pool data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -379,7 +379,7 @@ sn\_gcp\_integ.sg\_gcp\_kubernetes\_cluster\_role\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Kubernetes Cluster Roles data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -388,7 +388,7 @@ sn\_gcp\_integ.sg\_gcp\_kubernetes\_cluster\_role\_binding\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Kubernetes Cluster Role Binding data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -397,7 +397,7 @@ sn\_gcp\_integ.sg\_gcp\_kubernetes\_pod\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Kubernetes Pod data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -406,7 +406,7 @@ sn\_gcp\_integ.sg\_gcp\_kubernetes\_replicaset\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Kubernetes Replicaset data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -415,7 +415,7 @@ sn\_gcp\_integ.sg\_gcp\_kubernetes\_service\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Kubernetes Service data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -424,7 +424,7 @@ sn\_gcp\_integ.sg\_gcp\_lb\_health\_service\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Load Balancer Health Service data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -433,7 +433,7 @@ sn\_gcp\_integ.sg\_gcp\_lb\_pool\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Load Balancer Pool data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -442,7 +442,7 @@ sn\_gcp\_integ.sg\_gcp\_lb\_pool\_member\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Load Balancer Pool Member data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -451,7 +451,7 @@ sn\_gcp\_integ.sg\_gcp\_lb\_service\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Load Balancer Service data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -460,7 +460,7 @@ sn\_gcp\_integ.sg\_gcp\_load\_balancer\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Load Balancer data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -469,7 +469,7 @@ sn\_gcp\_integ.sg\_gcp\_network\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Network data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -478,7 +478,7 @@ sn\_gcp\_integ.sg\_gcp\_object\_storage\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Cloud Object Storage data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -487,7 +487,7 @@ sn\_gcp\_integ.sg\_gcp\_security\_group\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Security Group data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -496,7 +496,7 @@ sn\_gcp\_integ.sg\_gcp\_storage\_volume\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Storage Volume data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -505,7 +505,7 @@ sn\_gcp\_integ.sg\_gcp\_storage\_vol\_snapshot\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Storage Volume Snapshot data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -514,7 +514,7 @@ sn\_gcp\_integ.sg\_gcp\_subnet\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Subnet data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -523,7 +523,7 @@ sn\_gcp\_integ.sg\_gcp\_vm\_instance\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP VM Instance data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -532,7 +532,7 @@ sn\_gcp\_integ.sg\_gcp\_machine\_image\_batch\_size
 </td><td>
 
 Set the batch size of the API response for the SG-GCP Machine Image data source. Specify a value between `1` and `100`.-   Type: integer
--   Default value: `100`
+-   Default value: `50`
 
 </td></tr><tr><td>
 
@@ -541,7 +541,7 @@ sn\_gcp\_integ.sg\_gcp\_list\_generic\_resource\_page\_size
 </td><td>
 
 Set the page size for the list generic resource API response. Specify a value between `1` and `1000`.-   Type: integer
--   Default value: `1000`
+-   Default value: `100`
 
 </td></tr><tr><td>
 
@@ -550,7 +550,7 @@ sn\_gcp\_integ.sg\_gcp\_list\_annotation\_resource\_page\_size
 </td><td>
 
 Set the page size for the list annotation resource API response. Specify a value between `1` and `1000`.-   Type: integer
--   Default value: `1000`
+-   Default value: `100`
 
 </td></tr><tr><td>
 

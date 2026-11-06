@@ -7,9 +7,9 @@ release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Component Builder

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-guardian-new.html
 release: australia
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-10-23"
 reading_time_minutes: 1
-breadcrumb: [AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Enable Now Assist Guardian in AI Agent Studio

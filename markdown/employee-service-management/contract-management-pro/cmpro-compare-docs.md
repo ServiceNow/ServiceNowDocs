@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-11-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Compare contract documents, Compare contract revisions]
 breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]

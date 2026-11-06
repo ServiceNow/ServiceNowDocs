@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-events-landing-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Success Management]
 ---
@@ -13,8 +13,6 @@ breadcrumb: [Customer Success Management]
 # Configure Customer Success Management
 
 Configure Customer Success Management to support your customer success journey. Use this reference to find configuration tasks for installation, account onboarding, and customer success capabilities.
-
-**Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
 
 |Task|Description|
 |----|-----------|

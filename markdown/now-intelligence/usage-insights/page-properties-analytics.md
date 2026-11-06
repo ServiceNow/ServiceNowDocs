@@ -7,7 +7,7 @@ release: australia
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [page properties]
 breadcrumb: [Viewing session analytics, Using Usage Insights, Usage Insights, Platform Analytics]

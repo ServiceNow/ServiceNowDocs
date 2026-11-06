@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-data-model-responsibilities.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-28"
-reading_time_minutes: 2
-breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Service Model Foundation overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Service Model Foundation responsibilities
@@ -101,6 +101,42 @@ Relationship Manager
 </td><td>
 
 A household can have only one Relationship Manager but a user with the Relationship Manager responsibility can manage multiple households.
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Org Hierarchy Contributor
+
+</td><td>
+
+Creates and tracks cases but can't fulfill.
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Org Hierarchy Agent
+
+</td><td>
+
+Fulfills and resolves business-customer cases
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Org Hierarchy Consumer Agent
+
+</td><td>
+
+Fulfills and resolves consumer cases.
 
 </td></tr></tbody>
 </table>**Note:** The unique behavior of a responsibility definition isn’t enforced when the responsibility is used for relationships between consumers or household members.

@@ -1,24 +1,24 @@
 ---
 title: Universal Request Router agentic workflow
-description: Enables employees to request a department agnostic ticket to avail services that are not readily accessible/understandable via the catalog listings or the services that require collaboration across multiple departments.
+description: Helps employees request a department-agnostic ticket for services that are hard to find in the catalog or that need collaboration across departments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/universal-request-for-hr-service-delivery/agentic-flow-ur.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using agentic flows in Universal Request AI agent collection, Universal Request, Employee Service Management]
 ---
 
 # Universal Request Router agentic workflow
 
-Enables employees to request a department agnostic ticket to avail services that are not readily accessible/understandable via the catalog listings or the services that require collaboration across multiple departments.
+Helps employees request a department-agnostic ticket for services that are hard to find in the catalog or that need collaboration across departments.
 
 ## Overview of Universal Request Router agentic workflow
 
-The agents, tools, and triggers that are associated with the Universal Request Router agentic workflow are provided by Now Assist applications. You can activate the agentic workflow template by making triggers active. If you want to change this agentic workflow's instructions, you must duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+The agents, tools, and triggers for the Universal Request Router agentic workflow come from Now Assist applications. To activate the workflow template, make its triggers active. To change the workflow’s instructions, duplicate it, adjust the settings for your needs, and activate the duplicate instead.
 
 ## Prerequisites and setup
 
@@ -59,7 +59,7 @@ Universal Request departmental ticket creator
 
 </td><td>
 
-Automates the routing of universal requests to appropriate departmental ticketing systems by analyzing department predictions and creating properly configured HR cases or IT incidents with all necessary field mappings and reference tracking.
+Automates the routing of universal requests to the right departmental ticketing systems. It analyzes department predictions and creates properly configured HR cases or IT incidents. These include all necessary field mappings and reference tracking.
 
 </td></tr><tr><td>
 

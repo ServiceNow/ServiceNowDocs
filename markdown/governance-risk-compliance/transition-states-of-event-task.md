@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/transition-states-of-event-task.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating similar tasks groups, Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Creating similar tasks groups, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # State changes for event tasks in groups

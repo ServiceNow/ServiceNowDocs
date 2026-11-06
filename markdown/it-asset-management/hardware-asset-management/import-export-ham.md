@@ -7,10 +7,10 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [import hardware asset management content library, export hardware normalization data, Manage Hardware Library module]
-breadcrumb: [Work with hardware normalization, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Opt-in to the Hardware Asset Management Content Service, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Import and export content data
@@ -59,5 +59,5 @@ Role required:
     5.  Download and send this zip file to the ServiceNow content service team.
 
 
-**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
+**Parent Topic:**[Opt-in to the Hardware Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/opt-in-hardware-normalization.md)
 

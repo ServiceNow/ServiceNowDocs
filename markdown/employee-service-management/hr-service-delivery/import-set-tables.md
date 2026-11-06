@@ -7,16 +7,16 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, HR Service Delivery Integration with Workday Learning, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using HR Service Delivery Integration with Workday Learning, HR Service Delivery Integration with Workday Learning, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Import set tables in HR Service Delivery Integration with Workday Learning
 
 Import set tables into HR Service Delivery Integration with Workday Learning
 
--   **[HR Service Delivery Integration with Workday Learning to-dos staging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/wdl-todos.md)**  
+-   **[HR Service Delivery Integration with Workday Learning todos staging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/wdl-todos.md)**  
 Import workday learning todos.
 -   **[HR Service Delivery Integration with Workday Learning user course activity staging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/wdl-user-course-activity.md)**  
 Import workday learning user course activity staging information.

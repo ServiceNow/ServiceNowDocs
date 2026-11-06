@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,7 +44,7 @@ MID Servers offer these types of criteria that help an application determine whi
     An **ALL** application option is also available. By default, this option includes all applications. You can [configure which applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md) are included in the **ALL** designation.
 
 -   **IP address or range**: The IP address or the IP ranges that the MID Server is allowed to work within. You can specify an IP address or IP range in the application, such as on a Discovery schedule or an Orchestration activity, and for the MID Server. If the IP configured in the application matches the IP address or falls within the allowable IP range configured on the MID Server, a match is possible, and that MID Server passes this criteria. To have the instance automatically assign IP ranges \(subnets\) to available MID Servers, see [Using MID Server IP range auto-assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-servers-auto-assignment.md).
--   **Capabilities**: The [network capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) an application needs to use, such as the [PowerShell Orchestration activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/mid-server-powershell-files.md) or the Workflow Studio [PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/powershell-step-action-designer.md). Some applications, like Cloud Management, require a specific capability.
+-   **Capabilities**: The [network capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) an application needs to use, such as the [PowerShell Orchestration activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/mid-server-powershell-files.md) or the Workflow Studio PowerShell step. Some applications, like Cloud Management, require a specific capability.
 
     **Note:** Discovery and Service Mapping can also use behaviors, which determine the type of port probes used during the port scan phase of Discovery. Both Discovery and Service Mapping use a behavior to discover [Create a discovery behavior for Unix-based load balancers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_CreateDiscoBehavior4LB.md). Other applications do not use behaviors. Behaviors are not used for auto-selection, default MID Servers, or specific MID Servers as described below. See [Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_DiscoveryBehaviors.md) for more information.
 

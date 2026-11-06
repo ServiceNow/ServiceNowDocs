@@ -7,7 +7,7 @@ release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Proactive Service Experience Workflows, Product Support for Technology]
 ---
@@ -20,12 +20,12 @@ Reference topics provide additional information about Proactive Service Experien
 Domain separation is supported for Proactive Service Experience Workflows. With Proactive Service Experience Workflows, you can quickly restore normal service operation when network-initiated incidents occur and proactively identify and notify the customers that are impacted by those incidents. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Affected customers list columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/affected-customer-list-columns.md)**  
 Column details for the Affected customer section in a Customer tab.
--   **[Executive Portfolio Adoption and health tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-adoption-health-tab.md)**  
-View the account health trends, feature adoption gaps, product usage, and customer satisfaction.
--   **[Executive Portfolio Financials tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-financials-tab.md)**  
-View detailed breakdown of Total Annual Recurring Revenue \(ARR\), retention rates, at-risk revenue, and quarterly revenue movement.
 -   **[Portfolio overview tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-overview-tab.md)**  
 The Portfolio overview tab displays revenue retention metrics, renewal risks, growth opportunities, and an AI-generated portfolio briefing.
+-   **[Executive Portfolio Financials tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-financials-tab.md)**  
+View detailed breakdown of Total Annual Recurring Revenue \(ARR\), retention rates, at-risk revenue, and quarterly revenue movement.
+-   **[Executive Portfolio Adoption and health tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-adoption-health-tab.md)**  
+View the account health trends, feature adoption gaps, product usage, and customer satisfaction.
 -   **[Technology Account 360 Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-overview-tab.md)**  
 The Overview tab in the Technology Account 360 displays touchpoints, escalations, milestones, and a daily account briefing for the customer account.
 -   **[Technology Account 360 Account health tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-account-health-tab.md)**  

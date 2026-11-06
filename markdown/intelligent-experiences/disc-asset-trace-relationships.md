@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/disc-asset-trace-relationships.html
 release: australia
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [asset relationship map, asset map, dependencies, related AI assets, change impact]
-breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Trace the relationships between AI assets

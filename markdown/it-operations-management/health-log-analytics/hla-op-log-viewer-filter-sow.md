@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [filter search results, Log Viewer filters, field filters, column filters, filter operators, exclude filters, negative filters, remove filters, Selected fields, Available fields, filter values, field value filters]
 breadcrumb: [Review alert-related logs on the Log Viewer, Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -37,7 +37,7 @@ This feature is supported in the Health Log Analytics application, Version 20.0.
 
 3.  Filter the search results in one of the following ways.
 
-<table id="choicetable_ymv_1jg_ftb"><tbody><tr><td id="d396377e182">
+<table id="choicetable_ymv_1jg_ftb"><tbody><tr><td id="d424104e182">
 
 **Add filters using the fields list**
 
@@ -64,7 +64,7 @@ For example, to set the filter **\[Level\]\[is\]\[critical\]**, select **Add** f
 
 For example, to set the filter **\[Level\]\[is not\]\[critical\]**, select **Exclude** for the value "critical" in the Level field.
 
-</td></tr><tr><td id="d396377e256">
+</td></tr><tr><td id="d424104e256">
 
 **Add filters from the __Log Viewer__ table**
 

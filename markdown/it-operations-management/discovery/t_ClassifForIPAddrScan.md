@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Classification for IP address discovery, Discovery classifiers, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ To use IP address classification, follow these steps:
 
 ## Procedure
 
-1.  Determine what ports to use for classification and run a scan program such as Nmap on specific IP addresses to decide which ports reveal the desired information about a device or application.
+1.  Run a port scan, for example using Nmap, on specific IP addresses to identify which ports reveal the required information about a device or application.
 
     The scan can reveal several pieces of data that are useful for configuring classification parameters. An Nmap scan displays port numbers, their state \(open or closed\), their service names, and any version information it can find. From the port information returned in the example below, we can construct criteria to classify UNIX servers \(port 22\), MySQL \(port 3306\), and Apache Tomcat \(port 16000\).
 

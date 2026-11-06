@@ -1,22 +1,22 @@
 ---
-title: Creating and resolving case tasks as a government service agent in CRM Workspace
-description: Service request case tasks in Public Sector Digital Services are automatically created and assigned to agents as each service request case moves through its life cycle. Government service agents can view and complete these case tasks \(or even create their own tasks\) in the CRM Workspace.View a list of the case tasks that are associated with a service request case, regardless of whether the case task was created automatically or manually, in the CRM Workspace.Manually create case tasks from information that you gathered from a service request case in CRM Workspace.Resolve a service request case in CRM Workspace. After all information has been added to the comments or work notes of a service request case task, you can mark the case task as resolved.
+title: Creating and resolving case tasks as a government service agent in Public Sector Workspace
+description: Service request case tasks in Public Sector Digital Services are automatically created and assigned to agents as each service request case moves through its life cycle. Government service agents can view and complete these case tasks \(or even create their own tasks\) in the Public Sector Workspace.View a list of the case tasks that are associated with a service request case, regardless of whether the case task was created automatically or manually, in the Public Sector Workspace.Manually create case tasks from information that you gathered from a service request case in Public Sector Workspace.Resolve a service request case in Public Sector Workspace. After all information has been added to the comments or work notes of a service request case task, you can mark the case task as resolved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-gsp-resolving-case-tasks-agent.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CRM Workspace, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Public Sector Workspace, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Creating and resolving case tasks as a government service agent in CRM Workspace
+# Creating and resolving case tasks as a government service agent in Public Sector Workspace
 
-Service request case tasks in Public Sector Digital Services are automatically created and assigned to agents as each service request case moves through its life cycle. Government service agents can view and complete these case tasks \(or even create their own tasks\) in the CRM Workspace.
+Service request case tasks in Public Sector Digital Services are automatically created and assigned to agents as each service request case moves through its life cycle. Government service agents can view and complete these case tasks \(or even create their own tasks\) in the Public Sector Workspace.
 
-## View existing service request case tasks in CRM Workspace
+## View existing service request case tasks in Public Sector Workspace
 
-View a list of the case tasks that are associated with a service request case, regardless of whether the case task was created automatically or manually, in the CRM Workspace.
+View a list of the case tasks that are associated with a service request case, regardless of whether the case task was created automatically or manually, in the Public Sector Workspace.
 
 ### Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_gsm.agency\_manager, sn\_gsm.government\_service\_manager, sn
 
 ### Procedure
 
-1.  From the Lists menu in the CRM Workspace sidebar, navigate to **Service Requests** &gt; **All**.
+1.  From the Lists menu in the Public Sector Workspace sidebar, navigate to **Service Requests** &gt; **All**.
 
 2.  Open the service request case by selecting the case number.
 
@@ -37,9 +37,9 @@ Role required: sn\_gsm.agency\_manager, sn\_gsm.government\_service\_manager, sn
 
 To view a list of every service request case task that has been assigned to an agent in your agency, navigate to **Lists** &gt; **Government Service Case Tasks** &gt; **All**.
 
-## Create a service request case task in CRM Workspace
+## Create a service request case task in Public Sector Workspace
 
-Manually create case tasks from information that you gathered from a service request case in CRM Workspace.
+Manually create case tasks from information that you gathered from a service request case in Public Sector Workspace.
 
 ### Before you begin
 
@@ -62,9 +62,9 @@ When an agent creates a service request case task, the system uses information f
 4.  Select **Save**.
 
 
-## Resolve a service request case task in CRM Workspace
+## Resolve a service request case task in Public Sector Workspace
 
-Resolve a service request case in CRM Workspace. After all information has been added to the comments or work notes of a service request case task, you can mark the case task as resolved.
+Resolve a service request case in Public Sector Workspace. After all information has been added to the comments or work notes of a service request case task, you can mark the case task as resolved.
 
 ### Before you begin
 
@@ -72,9 +72,9 @@ Role required: sn\_gsm.agency\_manager, sn\_gsm.government\_service\_manager, sn
 
 ### Procedure
 
-1.  Navigate to the Lists menu in the CRM Workspace sidebar.
+1.  Navigate to the Lists menu in the Public Sector Workspace sidebar.
 
-2.  From the Lists menu in CRM Workspace, navigate to **Service Requests** &gt; **All**.
+2.  From the Lists menu in Public Sector Workspace, navigate to **Service Requests** &gt; **All**.
 
 3.  Open the service request case by selecting the case number.
 

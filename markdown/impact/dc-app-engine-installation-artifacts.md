@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/dc-app-engine-installation-artifacts.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for App Engine, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for App Engine, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
 # Review App Engine artifacts

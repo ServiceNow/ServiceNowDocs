@@ -7,8 +7,8 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [data input connectors]
 breadcrumb: [Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -20,7 +20,9 @@ Implement Health Log Analytics on your ServiceNow instance.
 **Important:**
 
 -   Install Health Log Analytics on your instance before implementation. For more information, see [Install Health Log Analytics \(HLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/install-health-log-analytics.md).
--   Regardless of how you implement Health Log Analytics, you must configure [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) and ensure that the MID Server log ingestion capability is enabled.
+-   Regardless of how you set up data inputs in Health Log Analytics, you must meet the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) and verify that the MID Server log ingestion capability is enabled.
+
+    **Note:** This requirement doesn't apply when using MID-less integrations to stream logs to Health Log Analytics.
 
     For MID Server proxy requirements, see [MID Server proxy preconditions for streaming logs to Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-mid-proxy-configure.md).
 
@@ -44,10 +46,14 @@ Set up your Health Log Analytics data inputs for Health Log Analytics manually. 
 Use the Data Input Preprocessor to filter, split, or sanitize raw log data before it is treated in the MID Server and mapped and structured by Health Log Analytics.
 -   **[Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-automapping.md)**  
 By default, the HLA Engine tries to auto-map every incoming log line to the correct tags. You can change automatic mapping results manually by defining a JavaScript function.
+-   **[Mapping logs for contextual alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-log-context-mapping.md)**  
+Map your incoming log data to service instances, components, and source types so that Health Log Analytics can generate alerts in context.
+-   **[View source type and log source relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-view-sources-vs-sourcetypes.md)**  
+Explore the many-to-many relationships between source types and log sources to help you optimize data input mapping in Health Log Analytics.
 -   **[Source type structure adjustment in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md)**  
 Health Log Analytics \(HLA\) enables you to reclassify auto-classified log properties and change auto-mapped labels. These adjustments help HLA machine learning analyze your data accurately.
 -   **[Health Log Analytics content packs for quicker time to value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-content-packs.md)**  
-Shorten onboarding time for the Health Log Analytics application by installing content packs. The packs contain default source types and mapping script templates that save you the time it takes to create them from scratch.
+Shorten time to value for the Health Log Analytics application by installing content packs. The packs contain default source types and mapping script templates that save you the time it takes to create them from scratch.
 -   **[Migrating a Health Log Analytics data input configuration between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-migration.md)**  
 Export a Health Log Analytics data input and source types configuration as an update set and import it to a different ServiceNow instance. In the target environment, you can use the migrated data input for streaming and processing log data. This functionality saves time and reduces possible errors by avoiding the need to configure the settings again on the target instance.
 -   **[Check gRPC and network connectivity for Health Log Analytics on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-grpc-connectivity-check.md)**  

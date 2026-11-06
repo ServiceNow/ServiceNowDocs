@@ -7,7 +7,7 @@ release: australia
 product: Omnichannel Callback
 classification: omnichannel-callback
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Omnichannel Callback, Manage people and work, Conversational Interfaces]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Omnichannel Callback, Manage people and work, Conversational Interf
 Reference topics provide additional information that you can use to configure and administer Omnichannel Callback.
 
 -   **[Components installed with Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/omnichannel-callback/installed-with-omnichannel-callback.md)**  
-Several types of components are installed with activation of the Omnichannel Callback plugin, including user roles, scheduled jobs, and tables.
+Activating the Omnichannel Callback plugin installs user roles, scheduled jobs, and tables on your instance.
 -   **[Domain separation and Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/omnichannel-callback/omnichannel-callback-domain-separation.md)**  
 Domain separation is supported for Omnichannel Callback. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 

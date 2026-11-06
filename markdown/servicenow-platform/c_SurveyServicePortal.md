@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/c\_SurveyServicePortal.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -61,7 +61,7 @@ When you assign a survey to a user an email notification about taking the survey
 
 \[Omitted image "AssessmentsandSurveysInNowMobilApp.png"\] Alt text: Mobile survey.
 
-**Note:** In the Australia version, you now see the assessments and surveys assigned in the card view instead of the item view. If you customize the styles of the legacy card item views in older versions of  Assessments and Surveys, the card continues to appear in the item view even after you upgrade to Australia. You can view the new card view in Australia only if no customizations were made to the legacy cards.
+**Note:** In the Brazil version, you now see the assessments and surveys assigned in the card view instead of the item view. If you customize the styles of the legacy card item views in older versions of  Assessments and Surveys, the card continues to appear in the item view even after you upgrade to Brazil. You can view the new card view in Brazil only if no customizations were made to the legacy cards.
 
 When users open a survey either in Service Portal or the Now Mobile app, the surveys provide the following features:
 

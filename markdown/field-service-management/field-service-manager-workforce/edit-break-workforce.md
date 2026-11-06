@@ -7,7 +7,7 @@ release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-09-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [edit break, delete break, embedded break, Manager Workforce]
 breadcrumb: [Using the team calendar, Managing agents and tasks from Workforce, Managing workforce, Use, Field Service Management]
@@ -29,27 +29,27 @@ Role required: wm\_manager.
 
 3.  Select the shift that you want to edit.
 
-4.  Select the **Edit** \[Omitted image "image.edit-schedule"\] Alt text: edit icon, then choose an option.
+4.  Select the **Edit** \[Omitted image "edit-schedule.png"\] Alt text: edit icon, then choose an option.
 
-<table><thead><tr><th align="left" id="d45263e104">
+<table><thead><tr><th align="left" id="d46713e106">
 
 Option
 
-</th><th align="left" id="d45263e107">
+</th><th align="left" id="d46713e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d45263e113">
+</th></tr></thead><tbody><tr><td id="d46713e115">
 
 **__Delete__**
 
 </td><td>
 
-Remove the break.1.  Select the **Delete break** \[Omitted image "image.delete-break"\] Alt text: edit icon.
+Remove the break.1.  Select the **Delete break** \[Omitted image "delete-break.png"\] Alt text: edit icon.
 2.  Select **Save**.
 
 
-</td></tr><tr><td id="d45263e143">
+</td></tr><tr><td id="d46713e145">
 
 **__Edit__**
 

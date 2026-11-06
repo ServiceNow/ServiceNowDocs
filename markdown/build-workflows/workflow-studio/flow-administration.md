@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -61,6 +61,8 @@ Choose whether to generate execution details for all flows and actions run, just
 Use a single dashboard to view usage, execution, and debug information for Workflow Studio and Integration Hub transactions. Open links to related Workflow Studio properties, logs, events, and editors.
 -   **[Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-priority.md)**  
 Specify the priority that you want a background flow to have in relation to other flows waiting to be run. Run a group of higher priority flows before running any lower priority flows.
+-   **[Publish a system event for an unexpected state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/publish-a-system-event-when-a-flow-has-an-unexpected-state.md)**  
+Publish a system event when a flow enters the error, cancelled, or presumed interrupted states. Use the default event name or specify a custom event name.
 -   **[See related flows for action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/see-related-flows-for-action.md)**  
 See the list of flows that include a custom action. Determine the impact that changes to an action have on published and draft flows.
 -   **[See related flows for subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/see-related-flows-for-subflow.md)**  

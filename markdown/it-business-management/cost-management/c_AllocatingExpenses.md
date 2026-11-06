@@ -7,7 +7,7 @@ release: australia
 product: Cost Management
 classification: cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cost Management, Strategic Portfolio Management]
 ---
@@ -24,11 +24,11 @@ This example demonstrates allocating every server-related expense line to the de
 
 To view the example:
 
-1.  Navigate to **Financial Management** &gt; **Expense Allocation Rules**.
-2.  Remove the list filter to view inactive rules as well as active ones.
+1.  Navigate to **All** &gt; **Financial Management** &gt; **Expense Allocation Rules**.
+2.  Remove the list filter to view inactive rules and active ones.
 3.  Select the **Server - Department** rule.
 
-The rule states that for every expense line associated \(**Expense source** field\) with a server that has one of the selected statuses, generate an expense location record for 100% of the expense amount and assign the allocation to the server's department.
+The rule states that for every expense line associated \(**Expense source** field\) with a server with one of the selected statuses, generate an expense location record for 100% of the expense amount and assign the allocation to the server's department.
 
 To view expense allocations, add the **Expense Allocation** related list to the form. The **Target** field is the business unit that the expense is allocated to.
 

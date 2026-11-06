@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-16"
 reading_time_minutes: 1
-breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Default and target model version

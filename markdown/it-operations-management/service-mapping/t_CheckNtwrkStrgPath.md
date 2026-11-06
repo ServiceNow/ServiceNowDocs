@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Application service analysis and maintenance using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -69,11 +69,11 @@ You can see the change history for network and storage paths for application ser
 
     If Service Mapping cannot discover all objects in a connection, the connector line on the network or storage path appears dotted as shown above.
 
-5.  For storage paths, use the Storage Mapping tab at the bottom of the screen to view correlation between file systems on the host and the storage volume or the shared folder on the storage device.
+5.  For storage paths, use the Storage Mapping tab at the bottom of the screen. It shows the correlation between file systems on the host and the storage volume or shared folder on the storage device.
 
 6.  To view the change history for network paths, perform steps in [View the change history of application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/t_ViewCIChanges.md).
 
-7.  If you access the network or storage path map from Event Management, you can see the list of alerts related to this path appear at the bottom of the screen.
+7.  If you access the network or storage path map from Event Management, the list of alerts related to this path appears at the bottom of the screen.
 
 
 **Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)

@@ -7,7 +7,7 @@ release: australia
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -34,15 +34,15 @@ Configure additional fields that teams can use when setting up escalation trigge
 
     **Note:** Selecting fields not listed in the table might cause performance issues.
 
-<table id="choicetable_uxy_qdw_3hc"><thead><tr><th align="left" id="d413733e110">
+<table id="choicetable_uxy_qdw_3hc"><thead><tr><th align="left" id="d442777e110">
 
 Table
 
-</th><th align="left" id="d413733e113">
+</th><th align="left" id="d442777e113">
 
 Supported fields
 
-</th></tr></thead><tbody><tr><td id="d413733e119">
+</th></tr></thead><tbody><tr><td id="d442777e119">
 
 **em\_alert**
 
@@ -57,7 +57,7 @@ Supported fields
 -   Overall Event Count
 
 
-</td></tr><tr><td id="d413733e153">
+</td></tr><tr><td id="d442777e153">
 
 **incident**
 

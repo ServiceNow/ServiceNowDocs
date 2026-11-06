@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -20,7 +20,7 @@ Set up access to AWS billing and usage data by following the steps.
 2.  [Create a record of AWS credentials in Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/create-aws-credential-record-ccm.md)
 3.  [Enable cost allocation in AWS for Kubernetes cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/enable-cost-allocation-aws.md)
 4.  [Schedule and manage the jobs that download AWS billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/aws-bill-dwnld-job-cloudin.md)
-5.  [Add an AWS CI class type to ensure accurate billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/aws-class-type-add-cloudin.md)
+5.  [Add an AWS CI class type for billing data accuracy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/aws-class-type-add-cloudin.md)
 
 **Related topics**  
 

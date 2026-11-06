@@ -7,7 +7,7 @@ release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -37,7 +37,7 @@ You can view the security scan results in the related list of a Change Request, 
 
 ## Get started
 
-You must install the DevOps Vulnerability Integrations \(sn\_devops\_vul\_ints\) and Vulnerability Response Integration with Veracode \(sn\_vul\_veracode\) plugins before connecting your Veracode instance to ServiceNow. For more information on activating a plugin, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+You must install the DevOps Vulnerability Integrations \(sn\_devops\_vul\_ints\) and Vulnerability Response Integration with Veracode \(sn\_vul\_veracode\) plugins before connecting your Veracode instance to ServiceNow. For more information on activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 **Note:**
 

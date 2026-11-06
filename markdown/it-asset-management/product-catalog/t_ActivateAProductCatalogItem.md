@@ -7,7 +7,7 @@ release: australia
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product catalog items, Product Catalog, Common applications, Asset Management]
 ---
@@ -30,7 +30,7 @@ You can activate the item from either the list view or the record.
 
 2.  Complete one of the following actions.
 
-<table id="choicetable_wlj_fwj_k5"><tbody><tr><td id="d132623e92">
+<table id="choicetable_wlj_fwj_k5"><tbody><tr><td id="d134113e92">
 
 **Activate one or more items from the list view**
 
@@ -38,7 +38,7 @@ You can activate the item from either the list view or the record.
 
 Select the check box next to one or more items in the record list and select **Activate** below the list.
 
-</td></tr><tr><td id="d132623e109">
+</td></tr><tr><td id="d134113e109">
 
 **Activate from the record**
 

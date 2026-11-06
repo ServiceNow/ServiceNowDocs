@@ -7,7 +7,7 @@ release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [SAFe entities, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -24,15 +24,15 @@ Role required: safe\_sprint\_planner, safe\_art\_user, safe\_scrum\_master, safe
 
 1.  Create a story using either of the following options.
 
-<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d105124e61">
+<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d105909e61">
 
 Option
 
-</th><th align="left" id="d105124e64">
+</th><th align="left" id="d105909e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d105124e70">
+</th></tr></thead><tbody><tr><td id="d105909e70">
 
 **From the Story module**
 
@@ -42,7 +42,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d105124e100">
+</td></tr><tr><td id="d105909e100">
 
 **From the SAFe stories related list**
 

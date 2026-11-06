@@ -7,7 +7,7 @@ release: australia
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the Career Conversations application, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -35,15 +35,15 @@ Role required: employee \[sn\_egd\_act.employee\] or manager \[sn\_egd\_act.mana
 
 3.  Use the widget that corresponds to your role within your organization to select the conversation that you want to update.
 
-<table id="choicetable_k4c_xgc_xzb"><thead><tr><th align="left" id="d331634e150">
+<table id="choicetable_k4c_xgc_xzb"><thead><tr><th align="left" id="d331015e150">
 
 Role
 
-</th><th align="left" id="d331634e153">
+</th><th align="left" id="d331015e153">
 
 Widget
 
-</th></tr></thead><tbody><tr><td id="d331634e159">
+</th></tr></thead><tbody><tr><td id="d331015e159">
 
 **Employee**
 
@@ -51,7 +51,7 @@ Widget
 
 Your conversations
 
-</td></tr><tr><td id="d331634e168">
+</td></tr><tr><td id="d331015e168">
 
 **Manager**
 

@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up access to Google Cloud billing and usage data, Configure Cloud Cost Management for Google Cloud, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -18,7 +18,7 @@ To access data securely on your provider account, the Discovery process must be 
 
 ## Before you begin
 
-Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or admin
+Role required: Insights admin \(sn\_clin\_core.insights\_admin\) or admin
 
 ## Procedure
 
@@ -37,7 +37,7 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or admin
     |Type|Provider name, GCP.|
     |Applies to|Indicates the MID Servers. If all, type All MID Servers.|
     |EMail|Billing service account email.|
-    |Secret Key|Secret key that you generated on the Google Cloud Console.|
+    |Secret Key|Secret key that you generated on the Google Cloud Console. For more information, see [Set up and configure billing data export in Google Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/create-gcp-service-account.md).|
 
 5.  Select **Save**.
 

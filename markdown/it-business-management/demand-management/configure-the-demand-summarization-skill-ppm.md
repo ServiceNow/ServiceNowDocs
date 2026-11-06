@@ -7,7 +7,7 @@ release: australia
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---

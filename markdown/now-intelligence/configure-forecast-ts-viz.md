@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/configure-forecast-ts-viz.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -91,7 +91,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 </td></tr></tbody>
 </table>5.  Select which data to base the forecast on.
 
-<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d58356e223">
+<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d59321e223">
 
 **Visualization date range**
 
@@ -99,7 +99,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 
 All data within the date range of the visualization
 
-</td></tr><tr><td id="d58356e232">
+</td></tr><tr><td id="d59321e232">
 
 **Previous periods**
 
@@ -107,7 +107,7 @@ All data within the date range of the visualization
 
 The number of data periods before the present to base forecasts on. These data periods are the same length as the ones in **Period length**.If you select Previous periods, also specify the number of periods in the **Number of periods to consider** field.
 
-</td></tr><tr><td id="d58356e249">
+</td></tr><tr><td id="d59321e249">
 
 **Specific starting date**
 

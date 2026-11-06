@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/config-url-filter-params.html
 release: australia
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [enable, configure, URL parameters, dashboard, Platform Analytics]
 breadcrumb: [URL filter parameters for dashboard filters, Filters, Platform Analytics experience, Platform Analytics]

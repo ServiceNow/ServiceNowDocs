@@ -7,7 +7,7 @@ release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compli
 
 A policy is a set of guidelines and rules established by a business organization to govern its operations. Creating an approval configuration record for a policy enables you to define one or more approval levels and approval rules based on various dynamic conditions.
 
-Beginning with the Australia release, you can set up dynamic approval configuration on a policy record. The policy table consists of the policy records that regulate the status of the policies. Before implementing a policy, it goes through a review and approval process.
+Beginning with the Brazil release, you can set up dynamic approval configuration on a policy record. The policy table consists of the policy records that regulate the status of the policies. Before implementing a policy, it goes through a review and approval process.
 
 Setting up dynamic approval configuration on a policy record enables you to define multiple levels of approvals based on various dynamic conditions such as policy type, state, and owner that are related to the policy fields. When you set up dynamic approval configuration on a policy record, the approvers for a policy are added dynamically to the policy record.
 

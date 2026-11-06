@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/direct-cloud-api-system-property-configuration.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API, Integrating with consumer messaging apps, Integrate, Customer Service Management]
 ---

@@ -7,9 +7,8 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Analytics and Reporting, content pack, prepackaged content, Performance Analytics, reporting content, IT issues predicted, critical outages prevented, cost savings analysis, user impact prevention, solution installation, solution activation, indicators and breakdowns, widgets and dashboards, data collection setup, dashboard sharing, stakeholder access]
 breadcrumb: [Analytics and Reporting in Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 

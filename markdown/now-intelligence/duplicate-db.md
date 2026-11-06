@@ -17,9 +17,12 @@ Duplicate a dashboard created in the in-line editor so that you can share a modi
 
 ## Before you begin
 
-Role required: At least one role, as well as access to the dashboard.
+Role required: At least one internal role and access to the dashboard.
 
-**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see .
+**Note:**
+
+-   The user must be allowed to create dashboards. By default, anybody with an internal role can create a dashboard, but your organization might restrict this permission.
+-   This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
 
 ## About this task
 
@@ -56,7 +59,7 @@ Duplicate a dashboard tab created in the in-line editor so that you can add rela
 
 Role required: At least one role, as well as edit rights to the dashboard.
 
-**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see .
+**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
 
 ### Procedure
 

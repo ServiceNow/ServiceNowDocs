@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-complaint-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [Applications, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Playbook applications, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case Playbook for Complaints
@@ -16,9 +16,9 @@ Use the Case Playbook for Complaints to guide agents through the steps that are 
 
 A complaint case captures the information about the customer, the product, and the details about the complaint. The complaint playbook provides the activities and tasks that agents can perform to research and resolve the complaint. Agents can also create and assign tasks as needed and use the playbook to communicate with the customer.
 
-The Case Playbook for Complaints can be used with cases that are created using the complaint case type. This playbook is available for both CRM Workspace and CSM Agent Workspace. In the CSM Workspaces, the playbook appears in the **Playbook** tab on the case record.
+The Case Playbook for Complaints can be used with cases that are created using the complaint case type. This playbook is available for both CRM Workspace and CSM Agent Workspace. In the CSM workspaces, the playbook appears in the **Playbook** tab on the case record.
 
-**Note:** If you have the admin role, you can configure a playbook to use the compact mode in CRM Workspace. Use the compact mode to move the playbook from a tab in the Workspace to a tab in the contextual side panel.
+**Note:** If you have the admin role, you can configure a playbook to use the compact mode in CRM Workspace. Use the compact mode to move the playbook from a tab in the workspace to a tab in the contextual side panel.
 
 ## Case Playbook for Complaints application
 
@@ -63,9 +63,9 @@ Focused activity view
 
 </td><td>
 
-Feature that determines how the stages and activities appear in the playbook. [Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-select-activity-view.md)
+Feature that determines how the stages and activities appear in the playbook.
 
- The Case Playbook for Complaints uses the Focused Activity View, which enables agents to see:
+ The Case Playbook for Complaints uses the [Focused activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-layout.md), which enables agents to see
 
 -   The end-to-end life cycle of the complaint workflow in the playbook life-cycle panel.
 -   The current stage is expanded and the current activity is highlighted within the playbook life-cycle panel.
@@ -110,7 +110,7 @@ Compact mode
 
 </td><td>
 
-Mode that moves the playbook from a tab in the Workspace to the contextual side panel. Agents can complete the playbook activities in the side panel while they’re viewing the other tabs in the record page. **Note:** This mode is available in CRM Workspace only.
+Mode that moves the playbook from a tab in the workspace to the contextual side panel. Agents can complete the playbook activities in the side panel while they’re viewing the other tabs in the record page. **Note:** This mode is available in CRM Workspace only.
 
  Users with the admin role can configure a playbook to use the compact mode in the playbook component configuration in UI Builder.
 
@@ -497,5 +497,5 @@ The Case Playbook for Complaints v5.0 application includes a process-based page 
 -   Email templates that are displayed in the contextual side panel.
 -   Customization of the start and end states of the approval flow as fields in the Approval request activity.
 
-Agents can create tasks as needed as well as view and update case details. For more information, see [Configure templates and pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-pages.md).
+Agents can create tasks as needed as well as view and update case details. For more information, see [Playbook pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-pages.md).
 

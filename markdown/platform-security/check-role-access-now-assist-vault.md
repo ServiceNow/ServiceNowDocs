@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/check-role-access-now-assist-vault.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use generative AI skills, ServiceNow Vault]
 ---
@@ -19,7 +19,9 @@ Use the check role access for encrypted column skill to identify user roles that
 -   Install ServiceNow Vault. For more information, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configuring-servicenow-vault.md).
 -   Ensure that the check role access for encrypted column skill is active. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
-Role required: sn\_vault\_console.vault\_console\_admin
+Roles required: sn\_vault\_console.vault\_console\_admin and security\_admin
+
+**Note:** The `security_admin` role isn't included in the `sn_vault_console.vault_console_admin` role composition and doesn't appear in the Elevate role list. A user with the admin role must assign it through the standard user-administration process. If the skill reports that you don't have the `security_admin` role, or that the role isn't active for your session, contact your admin. For more information, see [ServiceNow Vault roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-roles.md).
 
 ## Procedure
 

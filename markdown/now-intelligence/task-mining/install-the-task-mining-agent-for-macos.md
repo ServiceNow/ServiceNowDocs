@@ -7,7 +7,7 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Install the Task Mining agent, Configure, Task Mining, Platform Analytics]
 ---
@@ -34,15 +34,15 @@ The JAMF deployment creates two scripts, two policies, and a configuration profi
 
     The instance URL and registration key values are the same for Windows and macOS agents.
 
-    1.  Navigate to **All** &gt; **Task Mining** &gt; **Agent Installation**.
+    1.  Navigate to **All** &gt; **Task Mining** &gt; **System Settings** &gt; **Agent Installation**.
 
     2.  Select an existing key or create one.
 
-        \[Omitted image "tm-agent-3.png"\] Alt text: Screenshot of registration key selection.
+        \[Omitted image "tm-agent-3.png"\] Alt text: A registration key selection.
 
     3.  Copy the **Instance URL** and **Registration key** on the Agent Installation page.
 
-    \[Omitted image "tm-agent-4.png"\] Alt text: Screenshot of instance URL and registration key.
+    \[Omitted image "tm-agent-4.png"\] Alt text: An instance URL and registration key.
 
 2.  Install the macOS agent by running the terminal script.
 
@@ -50,7 +50,7 @@ The JAMF deployment creates two scripts, two policies, and a configuration profi
 
     2.  Select **Copy** next to **Download and Install** to collect the one-line macOS command line script.
 
-        \[Omitted image "tm-agent-2.png"\] Alt text: Screenshot of macOS command line.
+        \[Omitted image "tm-agent-2.png"\] Alt text: A macOS command line.
 
     3.  Open the macOS **Terminal** application.
 
@@ -60,7 +60,7 @@ The JAMF deployment creates two scripts, two policies, and a configuration profi
 
     **Note:** For a manual install, download the Intel &amp; Apple Silicon and JSON files. Place both files in the same folder. Do not rename the JSON file. Double-click \(or use the keyboard shortcut\) the .pkg file to launch the installer, and follow the on-screen instructions.
 
-    \[Omitted image "tm-agent-1.png"\] Alt text: Screenshot of JSON and Intel &amp; Apple Silicon.
+    \[Omitted image "tm-agent-1.png"\] Alt text: A JSON and Intel &amp; Apple Silicon.
 
 3.  Add the agent package to JAMF.
 

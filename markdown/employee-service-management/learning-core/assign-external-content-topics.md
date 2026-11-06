@@ -7,7 +7,7 @@ release: australia
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View external Learning content, Manage Learning, Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---

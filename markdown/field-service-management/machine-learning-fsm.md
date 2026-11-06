@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/machine-learning-fsm.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrated work order entry, Explore, Field Service Management]
 ---
@@ -15,6 +15,19 @@ breadcrumb: [Integrated work order entry, Explore, Field Service Management]
 Use machine learning algorithms in the Predictive Intelligence feature to recommend solutions for work orders.
 
 Predictive Intelligence for Field Service Management enables you to train predictive models and apply machine-learning solutions to your data. These solutions help you find knowledge articles and similar work orders containing information to help resolve your current issue.
+
+## Example: Reuse Prior from Similar Work Order
+
+A service technician opens a work order and needs to identify the right fix quickly without spending time on diagnosis from scratch. Field Service Management surfaces similar past work orders at the point of work, giving technicians access to prior fixes and resolutions that can be applied immediately to complete the job faster.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Technician|Opens work order|
+|2|System|Surfaces similar past work orders|
+|3|Technician|Reviews prior fixes|
+|4|Technician|Applies solution|
+|5|Technician|Completes work faster|
+|6|System|Retains knowledge for future work orders|
 
 ## Key benefits
 

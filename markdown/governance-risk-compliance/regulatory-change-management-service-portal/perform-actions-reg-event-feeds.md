@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Regulatory alerts, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -66,7 +66,7 @@ In the following procedure, steps 3 and after describe the various actions that 
 
 7.  To cancel the alert, select **Cancel Regulatory Alert**.
 
-    This action is available to managers and users of regulatory event alerts, and to managers of source document alerts; but it is not available to the users of source document alerts.
+    This action is available to managers and users of regulatory event alerts, and to managers of source document alerts. Users of source document alerts cannot perform this action.
 
     This action moves the alert to the **Cancelled** state. The alert is moved to the Closed Alerts module.
 
@@ -84,7 +84,7 @@ In the following procedure, steps 3 and after describe the various actions that 
 
 [Manage and assign regulatory event alerts]()
 
-[Train and use the similarity solution to recommend citations on regulatory alerts]()
+[Recommend citations on regulatory alerts]()
 
 [Manage and assign source document alerts]()
 

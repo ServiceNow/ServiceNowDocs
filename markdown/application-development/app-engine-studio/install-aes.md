@@ -7,9 +7,9 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configure, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Installing App Engine Studio
@@ -60,15 +60,11 @@ Learn more about AES installation
 
 Additional ServiceNow resources
 
-</th></tr></thead><tbody><tr><td rowspan="3">
+</th></tr></thead><tbody><tr><td rowspan="2">
 
 ServiceNow provides several additional resources on installing and administering App Engine Studio.
 
 </td><td>
-
-\[Omitted image "bus-try-a-demo.svg"\] Alt text: [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/app-engine-studio-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/app-engine-studio-rn.md)
-
-</td></tr><tr><td>
 
 \[Omitted image "bus-3-person.svg"\] Alt text: [ServiceNow Community site](https://community.servicenow.com/community?id=community_search&q=app%20engine%20studio&spa=1)
 

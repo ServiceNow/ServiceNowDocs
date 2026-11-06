@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/main-node-config-bs-to-dep.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring 360º views for services and processes, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -22,5 +22,5 @@ You can configure the node relationships such as the sequence, source table, rel
 
 \[Omitted image "node-rel-config-bs-to-dep.png"\] Alt text: Business service to dependencies Main node configuration.
 
-TPRM integration: If you have the TPRM application installed, you can establish relationships between a business service and a contract. You can also establish relationships from a contract to a company or an engagement.
+TPRM integration: As shown in the node relationship configuration of the Business Service to Dependencies, you can establish relationships between a business service and a contract. You can also establish relationships from a contract to a company or an engagement if you have the TPRM application installed.
 

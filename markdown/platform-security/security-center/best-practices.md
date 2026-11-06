@@ -7,7 +7,7 @@ release: australia
 product: Security Center
 classification: security-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
 breadcrumb: [Security Best Practices, Security posture console, Security Center, Platform Security]
 ---
@@ -176,7 +176,7 @@ Use the High Security plugin \(HSP\) to enhance security management and applying
 
  HSP is installed and enabled by default on all new instances. You can request HSP activation for older instances, including instances that have had upgrades from an older version. Enabling HSP should be done only after careful testing in a non-production environment, as activation changes some fundamental properties and behaviors.
 
- For more details on the High Security plugin, see [Enable High Security Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md).
+ For more details on the High Security plugin, see [Enable High Security plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md).
 
 </td></tr><tr><td>
 
@@ -461,7 +461,7 @@ Validate access using Access Analyzer
 
 Use the ServiceNow Access Analyzer tool to help you compare and analyze permissions for selected users, roles, or groups. You can use this information to troubleshoot access issues, identify who has access to your sensitive data, and determine the correct level of access for users on your instance.
 
- Learn more about the benefits of Access Analyzer at [Exploring Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/explore-access-analyzer.md).
+ Learn more about the benefits of Access Analyzer at [Exploring Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/explore-access-analyzer.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/security-best-practices-manager.md)

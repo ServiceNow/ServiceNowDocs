@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_set-up-configurable-workspace.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -32,7 +32,7 @@ To update an existing Configurable Workspace experience, see [Open a Configurabl
 
     Create a Configurable Workspace page from scratch or with a page template in UI Builder.
 
--   **UI Builder**
+-   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)**
 
     Receive additional, detailed documentation on configuring and using UI Builder.
 

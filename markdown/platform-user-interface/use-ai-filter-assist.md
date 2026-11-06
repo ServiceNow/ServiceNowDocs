@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/use-ai-filter-assist.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lists, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -32,8 +32,8 @@ Role required: workspace\_user
 
 3.  Select one of the following options from the menu.
 
-    -   Select **Add to current filters** to add additional conditions onto the filter that's currently applied.
-    -   Select **Edit current filters** to refine the filter that's currently applied.
+    -   Select **Add to existing filters** to add additional conditions onto the filter that's currently applied.
+    -   Select **Edit existing filters** to refine the filter that's currently applied.
     -   Select **Start new** to generate a new filter.
 4.  Create a query with everyday language using one of the following options.
 

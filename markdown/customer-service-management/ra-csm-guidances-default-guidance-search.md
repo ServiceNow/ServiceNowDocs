@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-guidances-default-guidance-search.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Guidances, Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -23,7 +23,7 @@ When an admin creates or updates the search application configuration for a cont
 -   If a search source does not have an existing mapping to an action, the system maps the search source to the default guidance.
 -   If a search source has an existing mapping to a specific action, the system keeps that mapping and does not overwrite it with the default guidance.
 
-The default guidance enables agents to view search results for any type of record. The agent can view the search results in the Recommended Actions tab in the contextual side panel in CSM Configurable Workspace. Search results are displayed in a card format.
+The default guidance enables agents to view search results for any type of record. The agent can view the search results in the Recommended Actions tab in the contextual side panel in CRM Workspace. Search results are displayed in a card format.
 
 The default guidance is available on the following pages:
 

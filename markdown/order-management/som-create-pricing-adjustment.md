@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-create-pricing-adjustment.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.price
 
 ## About this task
 
-In this task, you specify the product characteristics to which the pricing adjustment applies. Next, you use a decision table to set the attribute adjustment rule, which defines the conditions for applying the pricing adjustment. For more information on using decision tables, see [Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/using-decision-builder.md).
+In this task, you specify the product characteristics to which the pricing adjustment applies. Next, you use a decision table to set the attribute adjustment rule, which defines the conditions for applying the pricing adjustment. For more information on using decision tables, see [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/using-decision-builder.md).
 
 **Note:** Starting with Pricing Matrixes release v10.0.0, a decision rule row can have more than one condition.
 

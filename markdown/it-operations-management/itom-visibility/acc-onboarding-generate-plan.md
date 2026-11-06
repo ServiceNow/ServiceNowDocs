@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [agent onboarding, installation plan, agent configuration]
 breadcrumb: [Use the Agent Client Collector \(ACC\) admin workspace, Use ITOM Infra Services Workspace, ITOM Infra Services Workspace, ITOM Visibility, IT Operations Management]

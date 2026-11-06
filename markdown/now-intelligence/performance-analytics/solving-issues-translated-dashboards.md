@@ -1,5 +1,5 @@
 ---
-title: Solving issues on translated dashboards
+title: Solving issues on translated Core UI dashboards
 description: Users can only find translated dashboards under certain configurations. You can translate the dashboard name to make it searchable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/solving-issues-translated-dashboards.html
@@ -7,12 +7,12 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Solving issues on translated dashboards
+# Solving issues on translated Core UI dashboards
 
 Users can only find translated dashboards under certain configurations. You can translate the dashboard name to make it searchable.
 
@@ -23,6 +23,10 @@ On instances with language plugins enabled, the application first determines the
 The search function only works for translated dashboards when the instance uses the MySQL database and the dashboard translation is provided.
 
 Role required: admin
+
+## About this task
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md).
 
 ## Procedure
 

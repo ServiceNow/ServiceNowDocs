@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Conversational Integration with WhatsApp \(powered by Twilio\), Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [WhatsApp \(powered by Twilio\), Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Using Conversational Integration with WhatsApp \(powered by Twilio\)
@@ -51,7 +51,7 @@ Execute the following steps to create a provider notification for Virtual Agent 
 -   **[Transfer WhatsApp chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-whatsapp-live-agent-conv.md)**  
 Configure the Advanced Work Assignment application to transfer a WhatsApp chat conversation initiated by a requester to a live agent.
 -   **[Capturing information from a user in a WhatsApp chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-whatsapp-capture-info.md)**  
-Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from a requester in a WhatsApp chat conversation.
+Use the collection of input controls provided by the Assistant Designer to prompt and capture information from a requester in a WhatsApp chat conversation.
 
 **Parent Topic:**[Conversational Integration with WhatsApp \(powered by Twilio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-whatsapp-twilio.md)
 

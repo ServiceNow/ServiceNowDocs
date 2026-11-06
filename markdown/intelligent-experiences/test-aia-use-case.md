@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/test-aia-use-case.html
 release: australia
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Manually test the execution of an agentic workflow
@@ -52,7 +52,7 @@ When manually testing performance, you can see how the agentic workflow and its 
 
     **Note:** In the task summary, include a reference number for a specific record for better results during your testing.
 
-    \[Omitted image "test-aw-manually-new.png"\] Alt text: Complete the testing form.
+    \[Omitted image "image.test-aw-manually-new"\] Alt text: Complete the testing form.
 
 8.  Select **Continue to Test Chat Response**.
 

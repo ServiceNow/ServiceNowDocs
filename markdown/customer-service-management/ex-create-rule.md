@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ex-create-rule.html
 release: australia
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example: Link the similar major case to the current case, Example configurations, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---

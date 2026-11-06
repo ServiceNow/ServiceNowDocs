@@ -1,24 +1,28 @@
 ---
-title: Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation
-description: Set up the Investigation Framework in Service Operations Workspace using Microsoft Endpoint Configuration Manager for Investigation to enable the display of the CI metrics information on the Investigation tab of the Incident records.
+title: Setting up Investigation Framework using Microsoft Endpoint Configuration Manager for Investigation
+description: Set up the Investigation Framework in Service Operations Workspace using Microsoft Endpoint Configuration Manager for Investigation to display CI metrics on the Investigation tab of the incident records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/set-up-investigate-fw-mecm.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation
+# Setting up Investigation Framework using Microsoft Endpoint Configuration Manager for Investigation
 
-Set up the Investigation Framework in Service Operations Workspace using Microsoft Endpoint Configuration Manager for Investigation to enable the display of the CI metrics information on the **Investigation** tab of the Incident records.
+Set up the Investigation Framework in Service Operations Workspace using Microsoft Endpoint Configuration Manager for Investigation to display CI metrics on the **Investigation** tab of the incident records.
+
+**Important:**
+
+Starting with the Brazil release, Microsoft Endpoint Configuration Manager for Investigation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 You must ensure that the following requirements are met:
 
--   Service Operations Workspace for ITSM \(sn\_sow\_itsm\_cont\) application set up is complete and configured as per your requirement. For more information, see [Getting started with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/getting-started-sow.md)
+-   Service Operations Workspace for ITSM \(sn\_sow\_itsm\_cont\) application setup is complete and configured to meet your requirements. For more information, see [Getting started with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/getting-started-sow.md)
 -   Install and configure Microsoft Endpoint Configuration Manager Spoke \(sn\_ms\_epcfgmgr\_spk\) application. For more information, see [Microsoft Endpoint Configuration Manager spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ms-endpoint.md) and [Service Graph Connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MicrosoftSCCMIntegration.md).
 -   Install the Microsoft Endpoint Configuration Manager for Investigation application.
 

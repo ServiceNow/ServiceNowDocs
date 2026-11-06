@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent, sn\
 
 ## About this task
 
-The numbering that you define in this process creates VLAN and LAG number ranges, allowing for the assignment of numbers from those ranges to network connections and equipment ports. When you provision a network connection over an Ethernet network interface to fulfill a customer order, you create a VLAN interface to support your network topology. You must assign a VLAN number from 1 through 4096 for this interface. You use this VLAN number to create an interface name so that you can activate the interface on the network.
+The numbering that you define in this process creates VLAN and LAG number ranges. You can then assign numbers from those ranges to network connections and equipment ports. When you provision a network connection over an Ethernet network interface to fulfill a customer order, you create a VLAN interface to support your network topology. You must assign a VLAN number from 1 through 4096 for this interface. You use this VLAN number to create an interface name so that you can activate the interface on the network.
 
 ## Procedure
 

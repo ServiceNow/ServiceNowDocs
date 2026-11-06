@@ -1,24 +1,22 @@
 ---
 title: Create Event Task form
-description: Use the Create New Event Task form in BCM UIB Workspace to add details about an event task.
+description: Use the Create Event Task form in BCM UIB Workspace to add details about an event task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-event-task-form-uib-ws.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Monitor event tasks and create ad-hoc tasks, Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Monitor event tasks and create ad-hoc tasks, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create Event Task form
 
-Use the Create New Event Task form in BCM UIB Workspace to add details about an event task.
+Use the Create Event Task form in BCM UIB Workspace to add details about an event task.
 
 ## Create Event Task form
 
 For description of the field values, see the table.
-
-**Note:** When event tasks are created in bulk through **Add groups** or **Add tasks**, the **Phase**, element definition, and other context-derived fields may be pre-populated from list filters or from the Source task template. The values shown on the form reflect those pre-populations and can be overridden. Source task template fields are the first priority and list filters are the second.
 
 <table id="table_FloorForm"><thead><tr><th>
 
@@ -87,7 +85,7 @@ Active phase to be associated with the event task. You can associate these phase
 -   **Return to normal validation**
 -   **Post-incident review**
 
-Use the **Group by Phase** option in the Phases column to organize event tasks by a specific phase and its order, making it easier to filter and manage related tasks.
+You can use the **Group by Phase** option in the Phases column to organize event tasks by a specific phase and its order. This makes it easier to filter and manage related tasks.
 
 \[Omitted image "event-task-phase-order.png"\] Alt text: Phase order.When you order the event tasks by the phase order, you can view the event tasks in a sequence in which they are executed.
 
@@ -125,7 +123,7 @@ Dependencies
 
 Dependencies for the tasks. For tasks copied from the plan level, dependencies are copied from the plan recovery task. Dependencies cannot be added for ad-hoc tasks.**Note:**
 
-Beginning with the Australia release, you can now manually add a dependency for the event task or select an event task from the list in the **Dependencies** field. Only applicable event tasks are shown in this field.
+Beginning with the Brazil release, you can now manually add a dependency for the event task or select an event task from the list in the **Dependencies** field. Only applicable event tasks are shown in this field.
 
 \[Omitted image "event-task-dependency-field.png"\] Alt text: Dependency.
 

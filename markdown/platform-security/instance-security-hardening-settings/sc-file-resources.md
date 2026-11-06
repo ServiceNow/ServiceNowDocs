@@ -7,8 +7,8 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Hardening settings, Platform Security]
 ---
 
@@ -36,7 +36,7 @@ Configure the **glide.http.response.get\_body.limit.enabled** and **glide.http.r
 Configure the number of inbound email attachments allowed per Email \[sys\_email\] record on your instance.
 -   **[Maximum allowed attachment size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-max-allowed-attachment-size.md)**  
 Configure the **com.glide.attachment.max\_size** property to control the maximum size \(in megabytes\) permitted for an uploaded attachment.
--   **[Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.md)**  
+-   **[Validate file MIME type in AttachmentCreator web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.md)**  
 The **glide.attachment.enforce\_security\_validation** property determines whether Multipurpose internet Mail Extensions \(MIME\) files undergo validation.
 -   **[Validate MIME Type of Attachments from Inbound Emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-validate-mime-type-of-attachments-from-inbound-emails.md)**  
 Use a system property to validate attachments uploaded from inbound emails.

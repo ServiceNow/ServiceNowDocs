@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/request-test-pub-branded-mob-app.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -171,7 +171,7 @@ None
 </td></tr></tbody>
 </table>-   **[Mobile Publishing build statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mob-pub-build-statuses.md)**  
 Learn what the Mobile Publishing build statuses "Build in progress" and "Ready for testing" mean and what actions they require from you.
--   **[Request a branded Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/request-private-branded-android-app.md)**  
+-   **[Request a new branded Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/request-private-branded-android-app.md)**  
 Request, test, and publish a custom Android app that has your unique company identity. Then make the app available for private distribution.
 -   **[Request a new branded iOS app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/request-private-branded-ios-app.md)**  
 Request, test, and publish a custom iOS app that has your unique company identity. Then make the app available for private distribution.

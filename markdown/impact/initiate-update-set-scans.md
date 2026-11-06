@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/initiate-update-set-scans.html
 release: australia
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-10-29"
 reading_time_minutes: 2
 keywords: [update set scans, Suite Scan, scan engine]
-breadcrumb: [Run on-demand scans, Run your first scan, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Initiate and monitor scans, Scan your instance, Platform Health, Using Impact, Impact]
 ---
 
 # Initiate update set scans
@@ -17,9 +17,11 @@ Scan open update sets for findings to gain insights into what you're importing a
 
 ## Before you begin
 
+By default, Scan Engine scans update sets whose State is In progress and whose names don't start with Default. Your Scan Engine administrator can change this condition.
+
 Local update set scans are performed in batches. Retrieved update set scans are scanned individually.
 
-Role required: scan\_engine\_admin or system administrator
+Role required: sn\_se.scan\_engine\_user
 
 ## Procedure
 
@@ -29,7 +31,9 @@ Role required: scan\_engine\_admin or system administrator
     -   **Retrieved Update Sets**
 2.  Select the name of the update set to scan.
 
-3.  In **Related Links**, select **Update Set Scan**.
+3.  On the update set form, select **Update Set Scan**.
+
+    The form also has a **Scan Update Set** related link. That link starts a Platform Scan scan, not a Scan Engine scan.
 
 4.  Select a scan type.
 
@@ -79,8 +83,6 @@ Displays: "The Scan Engine 'Update Set completion condition' requires a scan res
 
     If the scan fails to meet completion criteria, a message explains which conditions were not met.
 
-
-**Parent Topic:**[Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/using-impact-scan-engine.md)
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: australia
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail Task Management, Retail]
 ---
@@ -38,7 +38,7 @@ Role required: admin
 
 5.  Fill in other fields as needed.
 
-    For information on these fields, see [Create a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-definition.md).
+    For information on these fields, see .
 
 
 ## Result

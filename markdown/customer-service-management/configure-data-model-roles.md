@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-data-model-roles.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -53,10 +53,12 @@ A location manager contributor is employed at the business organization and mana
 
 </td><td>
 
--   sn\_customerservice.consumer\_contributor
 -   sn\_customerservice.svc\_location\_manager\_core
 -   sn\_customerservice.service\_organization\_contributor
--   sn\_customerservice.account\_contributor
+-   sn\_bus\_loc.business\_org\_account\_contributor
+-   sn\_bus\_loc.business\_org\_consumer\_contributor
+
+ **Note:** The Location manager contributor reflects the role's containment after the **Remove Legacy Roles from Loc Mgr Contrib** job has been run. For upgrade customers who haven't run this job yet, this role still contains sn\_customerservice.account\_contributor and sn\_customerservice.consumer\_contributor instead. For more information, see [Enable restricted customer access for Business Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/remove-legacy-contributor-roles-from-loc-mgr-contrib.md).
 
 </td></tr><tr><td>
 
@@ -88,7 +90,7 @@ Location agent\[sn\_customerservice.svc\_location\_agent\]
 
 A location agent performs the following tasks:
 
--   View all customer service management \(CSM\) entities.
+ -   View all customer service management \(CSM\) entities.
 -   Create cases for any account, household, consumer, or service organization.
 -   Fulfill cases for any account, household, consumer, or service organization created at the agent’s location.
 
@@ -107,7 +109,7 @@ Location consumer agent\[sn\_customerservice.svc\_location\_consumer\_agent\]
 
 A location consumer agent performs the following tasks:
 
--   View all CSM entities.
+ -   View all CSM entities.
 -   Create cases for any account, household, consumer, or service organization.
 -   Fulfill cases for any account, household, consumer, or service organization created at the service organization or any child service organization.
 -   Assign related staff to any account, household, or consumer.
@@ -127,7 +129,7 @@ Location manager\[sn\_customerservice.svc\_location\_manager\]
 
 A location manager performs the following tasks:
 
--   View all CSM entities for a related account, household, consumer, or service organization.
+ -   View all CSM entities for a related account, household, consumer, or service organization.
 -   Create, update, and close cases for any related account, household, consumer, or service organization created at the consumer’s location.
 
 </td><td>
@@ -188,7 +190,7 @@ A service management location agent is an agent for a business organization.
 -   email\_composer
 -   template\_editor\_global
 
-</td></tr><tr><td>
+</td></tr><tr><td id="entry-lsa-role">
 
 Location support agent\[sn\_bus\_loc.svc\_location\_support\_agent\]
 
@@ -198,6 +200,10 @@ A location support agent is a organization member \(formerly service organizatio
 -   Create and resolve cases.
 -   Access the CRM Workspace.
 -   Use business location 360 to view details of internal and external organizations \(formerly internal and external business locations\) that they support, sold products, location members, install base items, and available services.
+-   View customer contract records \(Business Organization as a customer\) and their associated entitlements, and edit entitlement usage when either of the following is true:
+
+    -   The channel partner is one of their organizations, and a buyer organization is specified.
+    -   The buyer organization is one of the organizations that they manage.
 
 **Note:** The role of location support agent isn’t supported for external organizations since case fulfillment isn't enabled for these locations.
 
@@ -205,9 +211,12 @@ A location support agent is a organization member \(formerly service organizatio
 
 -   sn\_esm\_location\_agent
 -   sn\_csm\_case\_types.service\_definition\_viewer
+-   sn\_pss\_core.service\_contract\_viewer
 
 </td></tr></tbody>
 </table>**Note:** If contributor users, like relationship contributors, account contributors, or consumer contributors associated with business organizations, have a location contributor \(sn\_customerservice.service\_organization\_contributor\) role, they can access the business organizations.
+
+For the complete, current list of Service Model Foundation roles, see [Service Model Foundation roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-data-model-roles.md).
 
 ## Procedure
 

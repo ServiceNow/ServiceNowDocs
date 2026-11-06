@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspaces-configure.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-10-22"
+reading_time_minutes: 2
 breadcrumb: [Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -14,44 +14,44 @@ breadcrumb: [Organize agent workspaces, Configure, Customer Service Management]
 
 CRM Workspace is a user interface that provides customer service agents with the tools they need to assist customers, answer questions, and resolve issues quickly and efficiently.
 
-\[Omitted image "front-line-case-page-template.png"\] Alt text: CRM Workspace enables agents to focus on the information, such as record details and activities, and the tools they need to resolve customer issues, including search and recommended actions.
+\[Omitted image "front-line-case-page-template.png"\] Alt text: Workspace interface showing record details, activities, and tools for resolving customer issues, including search and recommended actions.
 
-CRM Workspace provides agents with a unified workspace to handle customer requests. Agents can manage cases, accounts, and contacts from multiple channels, like email, voice, and chat on a single screen, eliminating the need to switch between tabs.
+CRM Workspace provides agents with a unified workspace to handle customer requests. Agents can manage cases, accounts, and contacts from multiple channels, such as email, voice, and chat on a single screen, eliminating the need to switch between tabs.
 
 ## CRM Workspace features
 
-Key features of CRM Workspace include list views for managing cases, interactions, and other records and tabs for multitasking. It also provides agents with the ability to access customer history and context without leaving the main screen.
+Key features of CRM Workspace include list views for managing cases, interactions, and other records and tabs for multitasking. It also enables agents to access customer history and context without leaving the main screen.
 
 |Feature|Description|
 |-------|-----------|
-|Unified workspace|Provides the tools and information that an agent needs into a single, customizable interface.|
-|List views|Provide filtered lists of cases, interactions, and other records such as accounts and contacts. Agents can also create and save their own lists.|
+|Unified workspace|Consolidates the tools and information an agent needs into a single, customizable interface.|
+|List pages|Provide filtered lists of cases, interactions, and other records such as accounts and contacts. Agents can also create and save their own lists.|
 |Multi-tab interface|Tabs and subtabs enable agents to work on multiple cases, tasks, and other customer records within a single browser window. Agents can quickly move between records without losing their place.|
 |Contextual display|Agents get a complete view of a customer's history, including interactions, products, and cases.|
 |Channel integration|Agents can manage customer interactions from various channels, including email, chat, and phone, all within the same interface.|
 |Contextual side panel|A configurable panel that provides agents with additional tools and information such as search, Recommended Actions, attachments, and templates.|
 |AI tools|Summarize interaction chats and calls, summarize case information, and generate case resolution notes.|
 
-For more information, see [CSM Configurable Workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-workspace-feature-overview.md).
+For more information, see [CRM Workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-workspace-feature-overview.md).
 
 ## CRM Workspace benefits
 
-The ServiceNow [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) is designed to improve user efficiency and facilitate resolutions. CRM Workspace, which is built from the Configurable Workspace UI, is specifically designed for customer service agents.
+The ServiceNow [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) improves user efficiency and facilitates resolutions. CRM Workspace, which is built from the Configurable Workspace UI, is built specifically for customer service agents.
 
 CRM Workspace brings together customer information, case management, and collaboration tools into a single window. This user experience enables agents to manage several cases and interactions across different channels at the same time.
 
 CRM Workspace presents the Core UI lists and forms in one interface and consolidates multiple tabs into a single, focused work area. From this single view, agents can:
 
 -   Work on multiple issues concurrently in an intuitive layout, reducing context and tab switching.
--   Resolve issues faster with automated suggestions powered by machine learning.
+-   Resolve issues with automated suggestions powered by machine learning.
 -   Get notified of potential major incidents based on issue frequency and impact.
 -   Keep informed of updates and surface important insights with a live activity feed and analytics.
 
-For more information, see [CSM Configurable Workspace overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-overview.md).
+For more information, see [CRM Workspace overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-overview.md).
 
 ## Application information
 
-The CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\) is activated with the Customer Service plugin \(com.sn\_customerservice\).
+The CRM Workspace plugin \(com.snc.uib.csm\_agent\_workspace\) is activated with the Case Management Core plugin \(com.sn\_customerservice\).
 
 **Note:** Starting with the Yokohama release, CRM Workspace has a dependency on the Customer Central plugin. For more information, see [Customer Central plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central.md).
 

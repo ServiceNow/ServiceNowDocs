@@ -1,20 +1,20 @@
 ---
 title: Exploring Employee Relations
-description: Learn how to use Employee Relations starting from raising a complaint till the closure of ER case.
+description: Learn how to use Employee Relations starting from raising a complaint until the closure of ER case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/explore-er.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Exploring Employee Relations
 
-Learn how to use Employee Relations starting from raising a complaint till the closure of ER case.
+Learn how to use Employee Relations starting from raising a complaint until the closure of ER case.
 
 Following are some of the key features of Employee Relations:
 
@@ -29,7 +29,7 @@ Following are some of the key features of Employee Relations:
     Mitigate risk for your organization when handling employee relation cases.
 
     -   Enhanced security verifying that the right people with the right roles and assignment groups have visibility into the ER case.
-    -   Case restricting capabilities such as restricting the view of case to specific ER agents or ER groups or restricting the case view if the ER agent is listed in the involved parties of the case.
+    -   Case restricting capabilities control who can view a case. For example, you can restrict the view to specific ER agents or ER groups. You can also restrict the view if the ER agent is listed in the involved parties of the case
     -   Flexible data model to capture details on involved parties, allegations, allegation subtypes, corrective actions and outcomes.
     -   End to end investigation flow with capabilities such as evidence management and interview management.
     -   Assess organizational performance with the Analytics and Reporting Solution that provides you with historical trends and data comparisons for Employee Relations.

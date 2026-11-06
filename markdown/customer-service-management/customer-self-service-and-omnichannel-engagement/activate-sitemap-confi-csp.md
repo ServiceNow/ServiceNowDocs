@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure the Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Activate the sitemap configuration and definition records for the Consumer Service Portal
@@ -26,7 +26,7 @@ Role required: admin
 
 ## About this task
 
-Beginning with the Australia release, the Sitemap Generator configuration is available with the base system and is inactive by default.
+Beginning with the Brazil release, the Sitemap Generator configuration is available with the base system and is inactive by default.
 
 ## Procedure
 

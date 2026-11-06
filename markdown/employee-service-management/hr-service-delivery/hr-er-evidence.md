@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Evidence Management, Using HR Service Delivery Employee Relations, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Evidence Management, Use, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Adding evidence to an Employee Relations case in legacy UI

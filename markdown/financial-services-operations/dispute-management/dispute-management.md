@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -16,8 +16,10 @@ breadcrumb: [Banking applications, Financial Services Operations \(FSO\)]
 
 Dispute management helps agents create dispute cases for both personal and business debit and credit card accounts, as well as non-card \(ACH\) transactions, and automate the process of dispute routing and fraud-related activities.
 
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-management-compliance-updates-mastercard.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-management-compliance-updates-mastercard.md)**  
+
 -   **[Set up Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/setting-up-disputes-management.md)**  
-Set up your Dispute Management implementation by installing the required plugins.
+Configure Dispute Management to process card payment network and ACH disputes. Installation requirements vary by network provider.
 -   **[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/managing-card-disputes.md)**  
 Dispute management enables agents to create dispute cases for both personal and business debit and credit card accounts, as well as non-card ACH transactions, and automate the process of dispute routing and fraud-related activities. Learn how agents initiate, investigate, and resolve dispute cases for personal and commercial customers.
 -   **[Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/card-data-security.md)**  
@@ -34,4 +36,9 @@ The ServiceNow® Dispute Content Pack for US Regulations enables issuers in the 
 Learn about managing the archive dispute service case and the retention policy of inactive cases.
 
 **Parent Topic:**[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-overview.md)
+
+**Related topics**  
+
+
+[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/dispute-management.md)
 

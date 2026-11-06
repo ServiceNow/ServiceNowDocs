@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/crisis-map-uib-ws.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [BCM Configurable Workspace, Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -16,14 +16,14 @@ When you install the GRC: Crisis map application in your instance, you can view 
 
 ## Panels displayed in Crisis map
 
-The Crisis map displays real‑time alerts from integrated threat feeds. Users can search locations, view assets at risk, and respond to alerts. Panels include:
+The Crisis map displays real-time alerts from integrated threat feeds. You can search for locations, view assets at risk, and respond to alerts. Panels include:
 
 -   Alerts panel for viewing and filtering alerts
 -   Map view for exploring impacted locations
 
     **Note:**
 
-    To enable the search functionality in Crisis map, you must set the **sn\_bcm\_map.use\_google\_places\_lib** system property. For more information on setting the property, see [Properties installed with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/properties-bcm.md).
+    To enable the search functionality in Crisis map, you must set the **sn\_bcm\_map.use\_google\_places\_lib** system property. To set the property, refer to [Properties installed with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/properties-bcm.md).
 
     To enable Crisis map functionality in the GRC: Crisis map application, you must set up Google maps. For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md).
 
@@ -33,41 +33,41 @@ A typical view of the Crisis map application is shown in the example.
 
 \[Omitted image "crisis-map-uib-ws.png"\] Alt text: Integrating alerts in Crisis map.
 
-For more information on the feeds, alerts, and events in Crisis map, see [Crisis map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/threats-feeds-alerts-crisis-map.md).
+To learn about the feeds, alerts, and events in Crisis map, refer to [Crisis map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/threats-feeds-alerts-crisis-map.md).
 
 ## Tasks for BCM administrators
 
-With the BCM administrator role, perform these setup tasks for Crisis map:
+If you have the BCM administrator role, you can perform these setup tasks for Crisis map:
 
 -   Enable threat feed integrations that are provided by the base system.
--   Configure additional threat feeds into the Crisis Management application. These configurations alert the crisis managers about the threats and aid them to take an appropriate action on time.
+-   Configure additional threat feeds into the Crisis Management application. These configurations alert crisis managers about the threats and help them take appropriate action on time.
 
-For more information on the setup tasks for Crisis map, see [Setup for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/crisis-map-admin-tasks.md) in the configuration section.
+To learn more about the setup tasks for Crisis map, refer to [Setup for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/crisis-map-admin-tasks.md) in the configuration section.
 
 ## Alerts panel in Crisis map
 
 The **Alerts** panel in Crisis map displays the details:
 
--   **Search field**: You can search for an alert by using specific keywords.
+-   **Search**: You can search for an alert by using specific keywords.
 -   **Show**: You can select this option to display types of alerts:
     -   **Active Alerts**
     -   **Dismissed Alerts**
 -   **Sort by**: You can select this option to sort the alerts. Select one of these options:
     -   **Severity**: Select this option to sort and display the alerts based on their severity such as **Extreme** or **Severe**.
     -   **Created**: Select this option to sort and display the alerts based on their creation date.
-    -   **Updated**: Select this option to sort and display the alerts based on the date that they were updated on.
-    -   **Change sort order**: Select this option to display the alerts in an ascending or descending order.
+    -   **Updated**: Select this option to sort and display the alerts based on the date when they were updated.
+    -   **Change sort order**: Select this option to display the alerts in ascending or descending order.
     -   **Refresh**: Select this option to refresh the alerts display.
 
-You can open or dismiss an alert in the alerts panel. You can also subscribe to an alert by selecting the bell icon as shown in the example.
+You can open or dismiss an alert in the Alerts panel. You can also subscribe to an alert by selecting the bell icon as shown in the example.
 
 \[Omitted image "alerts-panel-crisis-map.png"\] Alt text: Single alert panel.
 
-## Alerts panel
+## Alert details
 
 When you select an alert in the **Alerts** panel, it launches a zoomed-in view with the alert details such as category and event.
 
-\[Omitted image "single-alert-zoomed-in-view.png"\] Alt text: Focussed view for an alert.
+\[Omitted image "single-alert-zoomed-in-view.png"\] Alt text: Focused view for an alert.
 
 You can view details of a single alert in the Alerts panel:
 
@@ -84,12 +84,12 @@ You can view details of a single alert in the Alerts panel:
 |Longitude|Longitude of the alert such as 13.0958574.|
 |Web URL|Web URL of the alert such as Web [https://www.gdacs.org/report.aspx?eventtype=DR&amp;eventid=1014416](https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1014416).|
 |Description|Description of the alert such as The Drought alert level is Red.|
-|Details tab|
-|Assets at risk|Number of assets that are at risk as per locations. You can select the locations to view details such as Name, Contact, Phone, City, Latitude, Longitude, Updated, and so on. The Map view in the right panel shows the zoomed-in location and highlighted area of the alert.|
+|**Details** tab|
+|Assets at risk|Number of assets that are at risk as per locations. You can select the locations to view details such as Name, Contact, Phone, City, Latitude, Longitude, Updated. The Map view in the right panel shows the zoomed-in location and highlighted area of the alert.|
 |Response tasks|Response tasks that are associated with the alert.|
 |Activity|Activity related to the alert. It displays the Activity panel and the Compose section where you can add your notes.|
 |Suggested actions|Suggested actions for the alert. For example, Notify Stakeholders: Use notifications to deliver important information to impacted stakeholders.|
-|Back|Option to navigate to the Alerts panel view.|
+|**Back**|Option to navigate to the Alerts panel view.|
 
 ## Map view in Crisis map
 
@@ -113,7 +113,7 @@ Description
 
 </td><td>
 
-Search bar in the Map view. You can enter a location or a datacenter that is impacted by an alert. When you search for a location, a mixed list displays company results with record display values and icons, along with Google map pin icons.
+Search bar in the Map view. You can enter a location or a datacenter that is impacted by an alert. When you search for a location, a mixed list displays your company results. The list shows the display value of the records with their icons and Google map pin icons.
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ Layers icon
 
 </td><td>
 
-Layers icon to select and display the assets such as asset locations, datacenters, or core companies on the map. The layers on the map are displayed as pins on a Google map and they are configurable. All the layer details such as the asset locations, assets, datacenters, and core companies are displayed on the map by their configured icons.
+Layers icon to select and display the assets such as asset locations, datacenters, or core companies on the map. The map displays the layers as pins on a Google map and you can configure them. All the layer details such as the asset locations, assets, datacenters, and core companies are displayed on the map by their configured icons.
 
 Use the Layers icon to view only the selected or all assets that can be toggled on and off on the map. As a crisis manager, when viewing the active alerts you can make an informed decision by concentrating on a single asset that can be critical at that moment from the rest. The assets are displayed:
 

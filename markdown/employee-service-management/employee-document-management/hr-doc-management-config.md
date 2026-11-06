@@ -1,20 +1,20 @@
 ---
 title: Defining and setting for employee documents
-description: Use Employee Document Management to configure how employee documents should be handled based on company policy, processes, and regulatory compliance.For each document type, you can determine who can access a document as well as define the retention policies associated with it, or place a legal hold. A document type can manage multiple documents.A retention period defines how long an employee document should be saved before being discarded. Retention periods are combined with conditions or criteria to form a retention policy.Default retention policies ensure that employee documents are not mistakenly purged. When a retention policy has not been assigned to a document type, the default retention policy is used.Set policies determining how long documents should be retained and who is covered. Retention policies combine the retention period and conditions or criteria.Default security policies ensure that employee documents are secure. The HR Service Delivery base system provides default security policies for each document type and determines who can access and has purge authorization.Many employee documents contain confidential and personal information. Use document security policies to define access to employee documents and ensure that they are secure.Add or modify expiration notification policies on a document type. Allow setting an expiration date on a document and sending email notifications to document owners, managers, or HR representatives when the document expires or nearing its expiration.
+description: Use Employee Document Management to configure how employee documents should be handled based on company policy, processes, and regulatory conformance.For each document type, you can determine who can access a document and define the retention policies associated with it, or place a legal hold. A document type can manage multiple documents.A retention period defines how long an employee document should be saved before being discarded. Retention periods are combined with conditions or criteria to form a retention policy.Create or modify default retention policies to control how long employee documents are retained when no specific retention policy is assigned to a document type.Set policies determining how long documents should be retained and who is covered. Retention policies combine the retention period and conditions or criteria.Create or modify default security policies to control who can access employee documents and who has purge authorization for each document type.Many employee documents contain confidential and personal information. Use document security policies to define access to employee documents and ensure that they are secure.Add or modify expiration notification policies on a document type. Allow setting an expiration date on a document and sending email notifications to document owners, managers, or HR representatives when the document expires or nearing its expiration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-document-management/hr-doc-management-config.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
-breadcrumb: [Configure, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configuring Employee Document Management, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Defining and setting for employee documents
 
-Use Employee Document Management to configure how employee documents should be handled based on company policy, processes, and regulatory compliance.
+Use Employee Document Management to configure how employee documents should be handled based on company policy, processes, and regulatory conformance.
 
 ## Document types
 
@@ -37,7 +37,7 @@ Document types are at the center of the Employee Document Management application
 
 ## Define policies for a document type
 
-For each document type, you can determine who can access a document as well as define the retention policies associated with it, or place a legal hold. A document type can manage multiple documents.
+For each document type, you can determine who can access a document and define the retention policies associated with it, or place a legal hold. A document type can manage multiple documents.
 
 ### Before you begin
 
@@ -121,7 +121,7 @@ Expiration date
 
 </td><td>
 
-Option to set expiration date on a document. Email notifications will be sent to document owners, managers, or HR representatives \(as per expiration policies\) when the document expires or nearing its expiration.
+Option to set expiration date on a document. Email notifications will be sent to document owners, managers, or HR representatives \(according to expiration policies\) when the document expires or nearing its expiration.
 
 </td></tr></tbody>
 </table>4.  From the Context Menu, click **Save** to remain on the Document Type form.
@@ -178,7 +178,7 @@ Expiration Policies
 Expiration policies enable an administrator to filter documents of a document type based on HR criteria or on fields of employee document table or as a combination. It also enables an administrator to configure groups or recipients that could receive email notifications when document expires or nears its expiration.
 
 </td></tr></tbody>
-</table>5.  After adding or editing the retention policy, click **Save** to remain on the Document Type form or click **Submit** to return to the Document Type list.
+</table>5.  After adding or editing the retention policy, select **Save** to remain on the Document Type form or select **Submit** to return to the Document Type list.
 
 
 ## Define how long to retain employee documents
@@ -189,7 +189,7 @@ A retention period defines how long an employee document should be saved before 
 
 Role required: sn\_hr\_ef.manager
 
-**Note:** Retention periods are unique and cannot be duplicated. Before you can delete a retention period, you must be sure that a document type is not associated with the retention policy.
+**Note:** Retention periods are unique and can't be duplicated. Before you can delete a retention period, you must be sure that a document type is not associated with the retention policy.
 
 ### Procedure
 
@@ -264,12 +264,12 @@ Date offset quantity
 Number of months or years before or after the **Date field** selection.
 
 </td></tr></tbody>
-</table>3.  Click **Submit** or **Update**.
+</table>3.  Select **Submit** or **Update**.
 
 
 ## Add or modify default retention policies
 
-Default retention policies ensure that employee documents are not mistakenly purged. When a retention policy has not been assigned to a document type, the default retention policy is used.
+Create or modify default retention policies to control how long employee documents are retained when no specific retention policy is assigned to a document type.
 
 ### Before you begin
 
@@ -285,7 +285,7 @@ Default retention policies are assigned to all documents that fall under a COE a
 
 **Note:** If you change the default retention period, all new documents are assigned the new period, but existing documents still use the original retention period.
 
-Default retention policies cannot be deleted when being used by a document type. Only one default policy for a COE is allowed.
+Default retention policies can't be deleted when being used by a document type. Only one default policy for a COE is allowed.
 
 Once a purge date is calculated and a legal hold is placed, the purge date does not change.
 
@@ -293,7 +293,7 @@ Once a purge date is calculated and a legal hold is placed, the purge date does 
 
 1.  Navigate to **All** &gt; **HR Administration** &gt; **Employee Documents** &gt; **Default Retention Policies**.
 
-2.  Click **New** to create a default retention policy or on an existing policy to edit.
+2.  Select **New** to create a default retention policy or on an existing policy to edit.
 
 3.  Fill in the fields as appropriate.
 
@@ -330,7 +330,7 @@ Application type
 Application associated with the default retention policy.
 
 </td></tr></tbody>
-</table>4.  Click **Submit** or **Update**.
+</table>4.  Select **Submit** or **Update**.
 
 
 ## Add or modify a retention policy
@@ -354,7 +354,7 @@ When a document type is covered by multiple retention policies:
 -   The policy with the longest retention period applies.
 -   When there is a non-default default retention policy and a default retention policy with a retention period of indefinite, the non-default retention policy applies. Assuming the HR criteria matches and the retention period is applicable.
 
-Retention policies have a one-to-one relationship to a document type, you cannot have the same retention policy for multiple document types.
+Retention policies have a one-to-one relationship to a document type, you can't have the same retention policy for multiple document types.
 
 **Note:** You can use the same retention period for multiple retention policies.
 
@@ -373,7 +373,7 @@ For example: Document type = Disciplinary Notice
 
 1.  Navigate to **All** &gt; **HR Administration** &gt; **Employee Documents** &gt; **Retention Policies**.
 
-2.  Click **New** or an existing retention policy to edit.
+2.  Select **New** or an existing retention policy to edit.
 
 3.  Fill in the fields as appropriate.
 
@@ -399,7 +399,7 @@ HR criteria
 
 </td><td>
 
-Who the retention policy applies to. For example, you can select HR criteria based on a country. This criteria ensures everyone based in the selected country has the same retention policy.
+Who the retention policy applies to. For example, you can select HR criteria based on a country. This criteria makes sure that the employees based in the selected country have the same retention policy.
 
 **Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
@@ -417,15 +417,15 @@ Active
 
 </td><td>
 
-Indicates if the retention policy is active and in use.**Note:** Default retention policies cannot be deactivated.
+Indicates if the retention policy is active and in use.**Note:** Default retention policies can't be deactivated.
 
 </td></tr></tbody>
-</table>4.  Click **Submit** or **Update**.
+</table>4.  Select **Submit** or **Update**.
 
 
 ## Add or modify default security policies
 
-Default security policies ensure that employee documents are secure. The HR Service Delivery base system provides default security policies for each document type and determines who can access and has purge authorization.
+Create or modify default security policies to control who can access employee documents and who has purge authorization for each document type.
 
 ### Before you begin
 
@@ -445,7 +445,7 @@ See [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 1.  Navigate to **All** &gt; **HR Administration** &gt; **Employee Documents** &gt; **Default Security Policies**.
 
-2.  Click **New** or an existing default security policy to edit.
+2.  Select **New** or an existing default security policy to edit.
 
 3.  Fill in the fields as appropriate.
 
@@ -490,7 +490,7 @@ Applies when
 Filters defining additional conditions on a security policy.
 
 </td></tr></tbody>
-</table>4.  Click **Submit** or **Update**.
+</table>4.  Select **Submit** or **Update**.
 
 
 ## Add or modify document security policies
@@ -521,7 +521,7 @@ See [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 1.  Navigate to **All** &gt; **HR Administration** &gt; **Employee Documents** &gt; **Security Policies**.
 
-2.  Click **New** or an existing security policy to edit.
+2.  Select **New** or an existing security policy to edit.
 
 3.  Fill in the fields as appropriate.
 
@@ -615,11 +615,11 @@ Authorization is required to purge documents, or send a notification before the 
 **Note:** Only one person in the group is required to authorize.
 
 </td></tr></tbody>
-</table>4.  Click **Save** and the **Document Types** related list appears.
+</table>4.  Select **Save** and the **Document Types** related list appears.
 
-5.  Click **New** and you can create a document type to be associated with the security policy.
+5.  Select **New** and you can create a document type to be associated with the security policy.
 
-6.  Click **Submit** or **Update**.
+6.  Select **Submit** or **Update**.
 
 
 ## Add or modify expiration policies on a document type
@@ -632,13 +632,13 @@ Role required: admin
 
 ### About this task
 
-Certain documents, such as passports or training certificates, have expiration dates. For organizations to adhere to compliance policies, the latest versions of employee documents are to be maintained. With this feature, an administrator can set up expiration notification policies on a document type and a user can set an expiration date for a document while uploading it to Employee Document Management or when moving a case to Employee Document Management.
+Certain documents, such as passports or training certificates, have expiration dates. For organizations to adhere to conformance policies, the latest versions of employee documents are to be maintained. An administrator can set up expiration notification policies on a document type. A user can set an expiration date for a document while uploading it to Employee Document Management or when moving a case to Employee Document Management.
 
 ### Procedure
 
 1.  Navigate to **All** &gt; **HR Administration** &gt; **Employee Documents** &gt; **Expiration Notification Policies**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields:
 
@@ -653,7 +653,7 @@ Certain documents, such as passports or training certificates, have expiration d
     |Applies when|Filter conditions that you want to apply on fields of employee document.|
     |Match both|When there is more than one filter condition, enable this option. Documents are filtered based on all conditions specified.|
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 ### What to do next
@@ -700,7 +700,7 @@ Data offset quantity
 
 </td><td>
 
-Value specified for data offset. For example, assume you have selected Data offset type as **Before**, Date offset units as **Days**, and Date offset quantity as **3**, then email notifications will be sent three days before the expiration date of the document.
+Value specified for data offset. For example, you can select Data offset type as **Before**, Date offset units as **Days**, and Date offset quantity as **3**. Email notifications will be sent three days before the expiration date of the document.
 
 </td></tr><tr><td>
 
@@ -724,9 +724,9 @@ Active
 
 </td><td>
 
-Option to activate the expiration notification recipient.
+Option to set an expiration date for a document while uploading it or when moving a case to Employee Document Management.
 
 </td></tr></tbody>
 </table>4.  In the Groups section, add groups to which you want to send notifications. Groups receive notifications at the same time as the recipients.
-5.  Click **Submit**.
+5.  Select **Submit**.
 

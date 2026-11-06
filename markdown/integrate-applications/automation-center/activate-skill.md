@@ -7,7 +7,7 @@ release: australia
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for Automation Center, Use, Automation Center, Workflow Data Fabric]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
     The skill is activated on your instance.
 
-    -   User task step summarization skill: Creates automation requests from the Task Mining Workspace and generate automations from Task Mining recordings. For more information, see [Create an agent for Task Mining requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-agent.md) and [Generate automations from a Task Mining request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/generate-automations-tm.md).
+    -   User task step summarization skill: Creates automation requests from the Task Mining Workspace and generate automations from Task Mining recordings. For more information, see [Create an agent for Task Mining requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-agent.md) and .
     -   Saving Estimator skill: Explores automations from your ServiceNow instance. For more information, see [Explore automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/auto-explorer.md).
 
 **Parent Topic:**[Configuring ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/config-na-ac.md)

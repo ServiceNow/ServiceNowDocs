@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/ot-setup-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology]
 ---

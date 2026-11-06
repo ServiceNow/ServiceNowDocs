@@ -48,8 +48,12 @@ After completing all procedures, your user account can connect to your ServiceNo
 
 -   **[Install Live Connect on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/install-sql-api-plugin.md)**  
 Install Live Connect to enable secure, read-only access to your instance data from external applications.
--   **[Live Connect configuration on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/configure-sql-api-overview.md)**  
-Complete the three-step configuration that's required to enable Live Connect access.
+-   **[Assign roles and create service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/create-service-account.md)**  
+Assign the **sn\_odbc\_rest\_access** or **sn\_jdbc\_rest\_access** role to users who need Live Connect access. You can assign these roles to personal user accounts or create dedicated non-interactive \(Machine\) service accounts.
+-   **[Create Access Control Lists \(ACLs\) for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/create-acls-sql-api.md)**  
+Grant user accounts query access to specific ServiceNow tables through Live Connect using table-level ACLs.
+-   **[Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/create-ip-filter-criteria.md)**  
+Define which IP addresses or IP ranges are permitted to connect to your ServiceNow instance via the Live Connect ODBC/JDBC driver.
 -   **[Enable OAuth for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/enable-oauth-for-live-connect.md)**  
 Configure OAuth as an additional authentication method for Live Connect connections. This adds OAuth alongside basic authentication without replacing it.
 -   **[Download the Live Connect drivers on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/download-sql-api-drivers.md)**  

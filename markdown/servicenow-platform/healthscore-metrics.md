@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/healthscore-metrics.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Knowledge Health Score, Exploring Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -61,7 +61,7 @@ The following parameters are evaluated for every article:
 
 The Article health score is an aggregate of the Article optimization score and the Duplicate score, in the ratio of 80% and 20%, respectively. This is the default ratio that can be customized in the health score configuration section of the Knowledge Center.
 
-## Article optimization score
+## Article Optimization score
 
 Each article is evaluated against seven scan parameters. Every parameter carries a weight that represents its proportional contribution to the overall article score.
 
@@ -69,7 +69,7 @@ To show how a single parameter score feeds into the total, consider the Bad link
 
 For example, an article contains 10 links. The scan detects 4 broken links, leaving 6 good links. The Bad links score is round \(6 / 10 × 100\) = 60. This score of 60 is then multiplied by the Bad links weight of 0.15. This is one of seven such contributions, one from each scan parameter as in the following table. When all seven are added together \(11.2 + 10.5 + 9.0 + 8.4 + 11.2 + 12.6 + 11.2\), the total is 74.1, which rounds to an article optimization score of 74. The article optimization score contributes to 80% of the aggregate article health score.
 
-|Scan parameter|Weight|Parameter score|Contribution to article optimization score|
+|Scan parameter|Weight|Parameter score|Contribution to Article Optimization score|
 |--------------|------|---------------|------------------------------------------|
 |Image alt tags|0.14 \(14%\)|80|11.2|
 |Multiple H1 tags|0.15 \(15%\)|70|10.5|
@@ -83,6 +83,8 @@ For example, an article contains 10 links. The scan detects 4 broken links, leav
 ## Duplicate score
 
 When multiple articles cover the same topic, merging them helps users find a single, reliable answer. Presence of potential duplicate articles identified during a scan results in a reduced score \(on a scale of 100\). The duplicate score contributes to 20% of the aggregate article health score. For example, if the duplicate score for an article is 50, \(20/100 x 50\) = 10 is the number considered for calculating the overall score.
+
+## Article health score
 
 The final Article health score would be a sum of 80% of the Article optimization score and 20% of the Duplicate score. Applying this to the above example, the Article health score will be \(80/100\) x 74 + \(20/100\) x 50 = 69.2, that rounds off to 69.
 

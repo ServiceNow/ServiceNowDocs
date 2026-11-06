@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure stockrooms, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Delete a stockroom with assets
@@ -33,5 +33,5 @@ Role required: inventory\_admin
 5.  After removing assets from the stockroom you want to delete, continue with the instructions for [deleting a stockroom with no assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/t_DeleteAStockroomWithNoAssets.md).
 
 
-**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
+**Parent Topic:**[Configure stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/configure-stockrooms-ham.md)
 

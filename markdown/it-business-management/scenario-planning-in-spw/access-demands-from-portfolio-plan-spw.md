@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ An execution record is created in the Demands module for each planning item dema
 
 3.  Open an execution demand from the Prioritization, Kanban, or Roadmap view.
 
-<table id="choicetable_access_demands_ppw"><thead><tr><th align="left" id="d245651e118">
+<table id="choicetable_access_demands_ppw"><thead><tr><th align="left" id="d254793e118">
 
 View
 
-</th><th align="left" id="d245651e121">
+</th><th align="left" id="d254793e121">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d245651e127">
+</th></tr></thead><tbody><tr><td id="d254793e127">
 
 **Prioritization**
 
@@ -51,7 +51,7 @@ Action
 
 \[Omitted image "ppw-open-demand.png"\] Alt text: Row context menu with the Open demand option.
 
-</td></tr><tr><td id="d245651e155">
+</td></tr><tr><td id="d254793e155">
 
 **Kanban**
 
@@ -62,7 +62,7 @@ Action
 
 \[Omitted image "demand-kanban-ppw.png"\] Alt text: Actions menu with the Open demand option.
 
-</td></tr><tr><td id="d245651e183">
+</td></tr><tr><td id="d254793e183">
 
 **Roadmap view**
 

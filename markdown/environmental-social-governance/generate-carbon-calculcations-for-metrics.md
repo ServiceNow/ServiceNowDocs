@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/generate-carbon-calculcations-for-metrics.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use agentic workflows in ESG, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Use agentic workflows in ESG, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Generate Scope 3 carbon calculations
@@ -27,9 +27,11 @@ Role required: sn\_esg\_gen\_ai.cmd\_agent\_user
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace**.
 
-2.  Open the ServiceNow Otto panel.
+2.  Select the Now Assist \(\[Omitted image "nap-icon.png"\] Alt text: Now Assist panel icon.\) icon.
 
-3.  In the text column, provide a prompt for ServiceNow Otto to create a CMD.
+    A conversational assistant opens in the Now Assist panel.
+
+3.  In the text column, provide a prompt for Now Assist to create a CMD.
 
     Some prompt example to be used in this context are as follows:
 

@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Fulfill a Zero Touch Refresh Fulfillment Request
@@ -70,13 +70,5 @@ An asset with the serial number and asset tag specified in the Zero Touch Refres
 **Related topics**  
 
 
-[Configure replacement models for a refresh model]()
-
-[Request a hardware asset refresh through Zero Touch Refresh]()
-
 [Process a Zero Touch Refresh request]()
-
-[Acknowledge receipt of an asset on a mobile device]()
-
-[Acknowledge receipt of an asset through the Core UI]()
 

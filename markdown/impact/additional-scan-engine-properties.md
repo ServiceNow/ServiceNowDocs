@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/additional-scan-engine-properties.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Manage definition properties
@@ -64,7 +64,5 @@ Entitlement hashing integrity
 -   No regressions occur for states that existed before this feature was introduced.
 
 </td></tr></tbody>
-</table>**Note:** Deactivating a definition does not remove it from the system. It only changes the active status. If you need to completely remove a definition, contact your system administrator.
-
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
+</table>**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 

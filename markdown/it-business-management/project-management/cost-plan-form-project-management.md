@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -177,10 +177,12 @@ Estimate at Completion
 
 </td><td>
 
-Sum of all actuals for past fiscal periods added to the functional cost for future fiscal periods.For example, the duration of a project is from January 01 to December 31, and if you check the Estimate at Completion in the month of May, it is calculated as: `Sum of actuals from Jan to April + Sum of functional cost from May to December`.
+Sum of all actuals for past fiscal periods added to the functional cost for future fiscal periods.For example, if a project is from January 01 to December 31, and if you check the Estimate at Completion in the month of May, it is calculated as: `Sum of actuals from Jan to April + Sum of functional cost from May to December`.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/form-field-information-for-project-management.md)
+
+**Related topics**  
 
 
 [Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectCostPlan.md)

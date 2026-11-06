@@ -1,0 +1,96 @@
+---
+title: DEX policies for non-persistent VDIs
+description: DEX policies for Windows non-persistent \(NP\) Virtual Desktop Infrastructures \(VDIs\) define the check instances, frequencies, and parameters for application, network, and device monitoring.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/dex-policies-np-vdis.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [DEX Content Playbook reference, Reference, Digital End-User Experience, IT Operations Management]
+---
+
+# DEX policies for non-persistent VDIs
+
+DEX policies for Windows non-persistent \(NP\) Virtual Desktop Infrastructures \(VDIs\) define the check instances, frequencies, and parameters for application, network, and device monitoring.
+
+## Policies for Windows — Application
+
+DEX provides the following policies for applications.
+
+<table id="table_cyl_3cq_53c"><thead><tr><th>
+
+Check instance
+
+</th><th>
+
+Description
+
+</th><th>
+
+Frequency
+
+</th><th>
+
+Historical or latest
+
+</th><th>
+
+Check instance parameters\*
+
+</th></tr></thead><tbody><tr><td>
+
+os.win.check-app-historical
+
+</td><td>
+
+Collects app metrics from the non-persistent VDI Windows machine and sends metric data to MetricBase and the ServiceNow instance.
+
+</td><td>
+
+5 minutes
+
+</td><td>
+
+Historical
+
+</td><td>
+
+cpu\_usage, memory\_usage, uptime, last\_access\_time, crashes, is\_running, freezes
+
+</td></tr><tr><td>
+
+os.win.check-app-sccm-latest
+
+</td><td>
+
+Collects application-specific metrics for the Microsoft System Center Configuration Manager app on the Windows device.
+
+</td><td>
+
+24 hours
+
+</td><td>
+
+Latest
+
+</td><td>
+
+Not applicable
+
+</td></tr><tr><td colspan="5">
+
+**Important:** \* DEX Windows Apps Metrics with the uptime check instance parameter only runs with the Local System account.
+
+</td></tr></tbody>
+</table>## Policies for Windows — Device
+
+DEX provides the following policies for non-persistent VDI devices.
+
+| | | | | |
+|---|---|---|---|---|
+|os.win.check-system-metrics-historical|Collects all historical metrics.|5 minutes|Historical|memory\_details, io\_usage\_write, io\_usage\_read, cpu\_usage|
+|os.win.check-system-metrics-latest|Collects all latest metrics.|24 hours|Latest|cpu\_usage|
+

@@ -7,10 +7,10 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, alert analysis, Express List]
-breadcrumb: [Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View an alert analysis by ServiceNow Otto in Express List

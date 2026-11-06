@@ -7,9 +7,9 @@ release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 10
-breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Add tabbed content to UI Builder pages
@@ -263,7 +263,7 @@ Role required: admin
 
 ### About this task
 
-A page collection is a group of prebuilt globally available pages. Use page collection tabs to render each page in a page collection as a tab. You can select an existing page collection or can create your own. A controller is required to add a page collection. For more information about page collections, see [Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/page-collections.md).
+A page collection is a group of prebuilt globally available pages. Use page collection tabs to render each page in a page collection as a tab. You can select an existing page collection or can create your own. A controller is required to add a page collection. For more information about page collections, see [Lux Page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/page-collections.md).
 
 ### Procedure
 

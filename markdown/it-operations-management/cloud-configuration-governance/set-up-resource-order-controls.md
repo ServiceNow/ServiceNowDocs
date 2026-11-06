@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Resource order controls, Quotas and resource order controls, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -42,7 +42,7 @@ Consider the following points before you begin setting up resource order control
 
     2.  Specify quota definitions.
 
-        The Resource Order Control base system policy has the default ServiceNow approval policy rule configured by default. You can trigger other actions such as notifications or a custom approval subflow when the resource limit is exceeded. To do this, either modify the base system policy action or create a custom policy for your instance.
+        The Resource Order Control base system policy has the default ServiceNow approval policy rule configured by default. If you want to trigger other actions such as notifications or a custom approval subflow when the resource limit is exceeded, you have two options. You can either modify the base system policy action or create a custom policy for your instance.
 
     -   Modify a base system quota definition by specifying the default quota values per user and user group and the user groups to which the defined quota applies.
 

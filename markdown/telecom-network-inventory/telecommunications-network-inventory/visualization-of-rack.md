@@ -1,20 +1,20 @@
 ---
-title: Visualization of a rack or cabinet
-description: Using rack or cabinet visualization in the Telecommunications Network Inventory application, you can visualize a rack or cabinet in the canvas. Here you can observe the loading of equipment and shelves into the front and rear accessible racks or cabinets, with each item placed in its designated Rack Units.
+title: Visualizing a rack or cabinet
+description: Visualize a rack or cabinet on the canvas using rack or cabinet visualization in the Telecommunications Network Inventory application. Observe the loading of equipment and shelves into front- and rear-accessible racks or cabinets, with each item placed in its designated slot—Rack Units
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/visualization-of-rack.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
 
-# Visualization of a rack or cabinet
+# Visualizing a rack or cabinet
 
-Using rack or cabinet visualization in the Telecommunications Network Inventory application, you can visualize a rack or cabinet in the canvas. Here you can observe the loading of equipment and shelves into the front and rear accessible racks or cabinets, with each item placed in its designated Rack Units.
+Visualize a rack or cabinet on the canvas using rack or cabinet visualization in the Telecommunications Network Inventory application. Observe the loading of equipment and shelves into front- and rear-accessible racks or cabinets, with each item placed in its designated slot—Rack Units
 
 ## Rack visualization overview
 
@@ -87,6 +87,9 @@ To instantiate the creation of a rack or cabinet, you must:
 
     To learn more, see [Create a change request from Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_in_tni.md).
 
+
+-   See all the network interfaces for the equipment placed in a rack or cabinet, without opening each equipment record individually. To learn more, see [View network interfaces for rack or cabinet equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/view-network-interfaces-for-rack-or-cabinet-equipment.md)
+-   See all the physical connections for the equipment placed in a rack or cabinet, to audit connection status or find an available port before creating a new connection. To learn more, see [View physical connections for rack or cabinet equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/view-physical-connections-for-rack-or-cabinet-equipment.md)
 
 **Related topics**  
 

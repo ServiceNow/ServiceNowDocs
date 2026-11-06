@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Automated Service Suggestions, Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -52,7 +52,7 @@ If necessary, you can modify the number of the local or global connection rules 
 
 ## Enabling discovery based on Predictive Intelligence
 
-Discovery based on Predictive Intelligence works at the product level. The **sa\_ml.connection\_suggestions.active** property controls this feature. If traffic-based discovery was enabled in your deployment prior to the Quebec release and you used it to discover at least one application service, discovery based on Predictive Intelligence is disabled by default.
+Discovery based on Predictive Intelligence works at the product level. The **sa\_ml.connection\_suggestions.active** property controls this feature. If traffic-based discovery was enabled in your deployment prior to the Quebec release, discovery based on Predictive Intelligence is disabled by default if you used it to discover at least one application service.
 
 **Related topics**  
 

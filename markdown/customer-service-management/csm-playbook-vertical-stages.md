@@ -5,24 +5,18 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-vertical-stages.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 8
-breadcrumb: [Configure templates and pages, Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case playbook: vertical stages record page
 
 The Case playbook: vertical stages page is a record page that you can use in CRM Workspace. This page includes a playbook with a vertical stage picker that displays in the left panel and can track overall progress on the UI in a vertical view.
 
-The Case playbook: vertical stages record page is created from the [Case playbook: vertical stages template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-vertical-stages.md).
+The Case playbook: vertical stages record page is created from the [Case playbook: vertical stages template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-templates.md).
 
 The Case playbook: vertical stages record page is available with the Playbooks for Customer Service Management v6.0 store application. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md).
-
-## Case playbook: vertical stages page template
-
-The Case playbook: Vertical stages page template includes a vertical stage picker on the left side of the page. For details about the components included in this template, see [Playbook template components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-templates.md).
-
-\[Omitted image "case-playbook-template-vertical-stages.png"\] Alt text: Case playbook: vertical stages page template with a stage picker that displays on the side of the user interface
 
 ## Case playbook: vertical stages page variant
 
@@ -72,7 +66,7 @@ The audience determines who can see the page variant. The Case playbook: vertica
 </table>To access the settings for this page variant:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the CRM Workspace experience.
 3.  In the Record section of the Pages and variants list, select **Case playbook: vertical stages**.
 4.  Select **Settings** at the top of the page.
 

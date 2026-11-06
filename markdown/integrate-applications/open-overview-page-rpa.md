@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/open-overview-page-rpa.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View the bot processes details, Monitor, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---

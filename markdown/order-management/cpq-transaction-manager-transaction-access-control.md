@@ -69,5 +69,3 @@ When quote-managed access control is enabled on an instance that already contain
 
 You can grant or revoke quote-managed access through API calls. You can also use the API to retrieve the list of quotes a user can access and to return a history of users who were granted or revoked access. For a Postman collection of ServiceNow Quote Experience access control API calls, contact support.
 
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
-

@@ -7,10 +7,10 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 keywords: [Fluent source control, ServiceNow Studio, Fluent, Git repository]
-breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Initialize a Git repository
@@ -27,13 +27,13 @@ Role required: admin
 
 ## About this task
 
-An application on an instance can be connected to only one repository at a time. To clone an application that exists in a remote Git repository, see [Clone a Git repository from ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-clone-git-repository.md).
+An application on an instance connects to only one repository at a time. To clone an application that exists in a remote Git repository, see [Clone a Git repository from ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-sc-clone-git-repository.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Add an application that isn't connected to a Git repository to the Explorer tab.
+2.  Add an application that is not connected to a Git repository to the Explorer tab.
 
     1.  On the Apps tab, select the application you want to add.
 
@@ -43,7 +43,7 @@ An application on an instance can be connected to only one repository at a time.
 
     -   Windows: Ctrl-Shift-P
     -   Mac: Cmd-Shift-P
-4.  Enter `Git: Initialize Repository` and press Enter.
+4.  Enter `Git: Initialize Repository` and press Enter to start initializing the repository.
 
 5.  Select the application for which you want to initialize a Git repository and press Enter.
 
@@ -55,7 +55,7 @@ An application on an instance can be connected to only one repository at a time.
 
 9.  Select the more actions menu icon \[Omitted image "servicenow-ide-more-actions-icon.png"\] Alt text: and select **Push**.
 
-10. Enter a remote repository URL and press Enter.
+10. Enter a remote repository URL and press Enter to push the application to that repository.
 
 
 ## Result

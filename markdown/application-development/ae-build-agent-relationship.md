@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ae-build-agent-relationship.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-16"
+last_updated: "2026-10-28"
 reading_time_minutes: 3
 keywords: [Autonomous Engineer, Build Agent, agentic development, ServiceNow Studio, agent packs, update sets]
 audience: programmer
-breadcrumb: [Overview, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Autonomous Engineer and Build Agent
@@ -26,7 +26,7 @@ Autonomous Engineer and Build Agent are separately entitled products. Check your
 
 -   **Autonomous Engineer**
 
-    An agentic worker that accepts requirements, generates a structured implementation plan, and builds all work items in parallel using background agents. Autonomous Engineer handles large or complex implementations where building each artifact manually is not practical. Autonomous Engineer is available in ServiceNow Studio.
+    An agentic worker that accepts requirements, generates a structured implementation plan, and builds work items in parallel using background agents. Autonomous Engineer handles large or complex implementations where building each artifact manually is not practical. Autonomous Engineer is available in ServiceNow Studio.
 
 
 **Note:** Autonomous Engineer is a separate application available in the ServiceNow Store. Installing Autonomous Engineer also installs Build Agent as a dependency. Installing Build Agent alone does not install Autonomous Engineer.

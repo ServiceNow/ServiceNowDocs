@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [SAP WSDL, service definition, SOA Manager, SAP integration]
 breadcrumb: [Set up SAP integration to establish a connection with SAP, Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
@@ -72,7 +72,7 @@ After importing the transport files into your SAP system, configure the service 
 
 13. Verify that the **NOW\_SAMP** service appears in the list of available services and bindings.
 
-    \[Omitted image "wsdl-services.png"\] Alt text: Details of Service Definition screen showing available services and bindings
+    \[Omitted image "wsdl-services.png"\] Alt text: Details of Service Definition page showing available services and bindings
 
 14. In the **NOW\_SAMP** list entry, select the **Open service WSDL generation** icon to generate a WSDL URL for the service.
 

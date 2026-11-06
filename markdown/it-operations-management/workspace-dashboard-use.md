@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/workspace-dashboard-use.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Application service health information, Create or delete user view, Application service details, Manage list, Unified map and impact paths, Alert metric trends, CI health in metric explorer]
 breadcrumb: [Configure, ITOM AIOps, IT Operations Management]
@@ -46,7 +46,7 @@ Configure the metrics you want to be visible for Service Operations Workspace al
 -   **[View CI health in Metric Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/view-metric-explorer.md)**  
 View the health and performance of an alert's CI using Metric Explorer, to help troubleshoot problematic areas in the CI.
 -   **[View alert metric trends in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/customize-alert-metrics-itom.md)**  
-View the metrics for an alert and adjust the time range to see the trends for either the alert or its associated Configuration Item \(CI\).
+View the metrics for an alert and adjust the time range to see the trends for the alert or its associated Configuration Item \(CI\).
 
 **Parent Topic:**[Configuring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-sow-itom.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [AI ROI dashboard, value realization, time saved, AI adoption, assist consumption, Now Assist for Security Incident Response]
 breadcrumb: [View SIR Workspace Dashboards, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]

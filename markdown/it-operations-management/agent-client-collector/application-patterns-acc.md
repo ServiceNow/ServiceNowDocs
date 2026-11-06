@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -152,11 +152,11 @@ When performing Discovery with Agent Client Collector, ensure that you have the 
     **Note:** Oracle Java discovery with ACC is applicable in all server environments. However, currently, it's partially supported for different Desktop environments. For a Windows Desktop update set, see the KB article [KB1705845](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1705845).
 
 
-For information on java installation Discovery using Agent Client Collector for Visibility Content, see [Discover java installation data using Agent Client Collector for Visibility Content file-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-file-based-discovery.md).
+For information on java installation Discovery using Agent Client Collector for Visibility Content, see [Discover Java installation data using Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-file-based-discovery.md).
 
 For information on the collected data, see [Data collected during Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/data-collected-file-based-discovery.md).
 
-Application patterns support Oracle GLAS data collection in a Linux environment. For details on using patterns, see [Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md).
+Agent Client Collector supports Oracle GLAS data collection and reporting in Linux and Windows environments, except middleware data collection, which is not supported at all. For details on using patterns, see [Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md).
 
 Although Oracle GLAS supports Put file operations, the related files are deployed using Agent Client Collector plugins instead of SSH or WMI.
 

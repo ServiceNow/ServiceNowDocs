@@ -7,8 +7,8 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 13
+last_updated: "2026-09-10"
+reading_time_minutes: 14
 breadcrumb: [Hardening settings, Platform Security]
 ---
 
@@ -30,22 +30,26 @@ Block expired CSRF tokens to prevent cross-site request forgery attacks.
 Use the **glide.security.strict.actions** property to enable checking of UI actions conditions in forms and lists before they execute. When you set this property to true, it adds an extra layer of validation on the table UI actions before they are executed.
 -   **[Configure event management assignment group admin roles \[New in Security Center 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-configure-event-management-assignment-group-admin-roles.md)**  
 Use the **evt\_mgmt.connector\_assignment\_group\_admin\_roles** property to set which roles are authorized for admin access over the assignment group field in connector instances.
--   **[Configure Service Portal Widgets Allow List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-configure-service-portal-widgets-allow-list.md)**  
-Learn how to configure the glide.service\_portal.widget.allow\_list property securely so that the access control lists \(ACLs\) for the tables do not expose sensitive information.
--   **[Configure Service Portal Widgets Table Allow List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-configure-service-portal-widgets-table-allow-list.md)**  
+-   **[Configure service portal widgets allow list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-configure-service-portal-widgets-allow-list.md)**  
+Learn how to configure the glide.service\_portal.widget.allow\_list property securely so that the access control lists \(ACLs\) for the tables don't expose sensitive information.
+-   **[Configure service portal widgets table allow list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-configure-service-portal-widgets-table-allow-list.md)**  
 Learn how the **glide.service\_portal.widget.table\_allow\_list** property enhances security by listing tables accessible to unauthenticated users through Service Portal widgets, dependent on additional checks and specific glide property settings.
--   **[Configure Unique MID Server Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-configure-unique-mid-server-users.md)**  
-Use unique user account for each of your MID Servers to promote auditability and security controls as well as least privilege access.
+-   **[Configure unique MID Server users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-configure-unique-mid-server-users.md)**  
+Create a unique user account for each of your MID Servers to support auditability, enforce security controls, and enable least privilege access.
+-   **[CSRF enforcement for session-authenticated REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-csrf-enforcement-for-session-authenticated-rest-apis.md)**  
+The **glide.security.csrf.rest.public\_csrf.enabled** property enables Cross-Site Request Forgery \(CSRF\) token validation for public REST APIs that use session-cookie authentication.
 -   **[Deny internal access to explicit external roles \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-explicit-roles-internal-denylist.md)**  
 Use system properties to determine whether external users can be assigned the snc\_internal role.
 -   **[Deny unauthorized access to request items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-deny-unauthorized-access-to-request-items.md)**  
 The **glide.sc.req\_for.roles.default** property defines a default behavior for the retrieveAddress API.
 -   **[Display recommendations for high risk UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-display-recommendations-for-high-risk-ui-pages.md)**  
 Decrease the likelihood of authorization errors, and unintended information disclosure by displaying recommendations for high risk UI pages.
--   **[Disable Adding Default Roles to Skill ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-adding-default-roles-to-skill-acls.md)**  
+-   **[Disable adding default roles to skill ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-adding-default-roles-to-skill-acls.md)**  
 Use system properties to control what roles are automatically added to generative AI skill ACLs.
 -   **[Disable inbound emails for locked out users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-inbound-emails-locked-out-users.md)**  
 Use the **glide.pop3.process\_locked\_out** property to control inbound email actions for locked out, active users.
+-   **[Disable log-and-allow mode for cross-scope dot-walk access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-log-and-allow-cross-scope-dot-walk-access.md)**  
+The **glide.script.dot\_walk.log\_and\_allow\_violations** property controls logging and enforcement of access violations when dot-walk is used cross-scope.
 -   **[Disable Voice Chat Guest Impersonation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-voice-chat-guest-impersonation.md)**  
 Use a system property to ensure that voice interactions/conversations are recorded under the appropriate internal integration user.
 -   **[Double check inbound transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-double-check-inbound-transactions.md)**  
@@ -60,23 +64,23 @@ Use the **glide.live\_profile.details** property to designate whether a user sho
 Learn how to set the **glide.service\_portal.enable\_acls\_for\_encoded\_query\_in\_list** property to the secure value to prevent users from bypassing access control list \(ACL\) evaluations on a query condition in the Simple List Widget.
 -   **[Enable Guardian for External Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-guardian-for-external-agents.md)**  
 Use a system property to protect your Language Learning Models \(LLMs\) with Guardian.
--   **[Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md)**  
-Use the **glide.security.use\_csrf\_token** property to ensure the use of a secure token to identify and validates incoming requests, which in turn are used to prevent these attacks.
--   **[Enforce credential alias usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-credential-alias-usage.md)**  
-Learn how to secure your credentials from unauthorized use by configuring the MID Server property.
+-   **[Enable anti-CSRF token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md)**  
+Use the **glide.security.use\_csrf\_token** property to confirm the use of a secure token to identify and validates incoming requests, which in turn are used to prevent these attacks.
 -   **[Enable contextual security plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-contextual-security-plugin.md)**  
 Activate the Contextual Security Plugin \(**com.glide.role\_management**\) plugin to enable contextual security, which secures a record/information using create, read, write, and delete functionality.
 -   **[Enable Cross Scope Privilege Checks on Service Portal Form \[New in Security Center 7.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-cross-scope-privilege-checks-on-service-portal-form.md)**  
 Use a system property to enforce cross scope privilege checks on the Service Portal form widget and prevent unauthorized retrieval of forms and table data between scopes.
+-   **[Enable CSRF enforcement for authenticated processors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-csrf-enforcement-for-authenticated-processors.md)**  
+Enable Cross-Site Request Forgery \(CSRF\) enforcement to protect authenticated processor requests from CSRF attacks when session cookies are used for authentication.
 -   **[Enable policy based session access for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-policy-based-session-access-for-mobile.md)**  
 Use the The Zero Trust- Policy Based Session Access plugin to control if users authenticating through a mobile app will have their roles reduced.
 -   **[Enable Role Masking for Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-role-masking-for-agents.md)**  
 Use a system property to enable the role masking feature.
--   **[Enable multiple \(permission policy and boundary\) checks to ensure that the Role is privileged in AWS/Bedrock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-multiple-permission.md)**  
-Use a system property to determine what checks are used to verify whether a role is allowed to perform a privileged operation.
+-   **[Enable IAM and boundary checks for Amazon Bedrock access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-multiple-permission.md)**  
+Enable IAM and Boundary Checks for Amazon Bedrock access.
 -   **[Enable report view ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-report-view-acls.md)**  
 Manage a check for report\_view ACLs of published reports.
--   **[Enforce ACL on HR Lifecycle Events Data \[New in Security Center 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-acl-on-hr-lifecycle-events-data.md)**  
+-   **[Enforce ACL on HR lifecycle events data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-acl-on-hr-lifecycle-events-data.md)**  
 Learn how to prevent unauthorized access to data in the Human Resources Lifecycle Events application by verifying that the **glide.enforce\_security\_scope.sn\_hr\_le property** is set to the secured value.
 -   **[Enforce ACL on HR Core Data \[New in Security Center 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-acl-on-hr-core-data.md)**  
 Learn how to configure the **glide.enforce\_security\_scope.sn\_hr\_core** property so that the Human Resources Scoped App: Core \(com.sn\_hr\_core\) plugin does not expose sensitive data to access control lists \(ACLs\) from all other scopes.
@@ -86,7 +90,13 @@ Discover how to set the **glide.enforce\_security\_scope.sn\_hr\_va** property t
 Avoid unauthorized or undesired access to application data by enforcing application-specific access control lists \(ACLs\) only for application data.
 -   **[Enforce application scope restrictions \[New in Security Center 1.3 and removed in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-application-scope-restrictions.md)**  
 Use the **glide.record.legacy\_cross\_scope\_access\_policy\_in\_script** property to control the permissions of scoped apps.
--   **[Enforce field-level ACLs on records created from the query string of the Filtered List view UI of a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-field-level-acls-on.md)**  
+-   **[Enforce credential alias usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-credential-alias-usage.md)**  
+Learn how to secure your credentials from unauthorized use by configuring the MID Server property.
+-   **[Enforce cross-scope table access when performing dot-walk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-cross-scope-table-access-when-performing-dot-walk.md)**  
+The **glide.script.dot\_walk.enforce\_cross\_scope\_access\_all\_tables** property defines the base access control decision for all table data accessed through dot-walk when the access is cross-scope.
+-   **[Enforce least privilege on scoped MCP OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-least-privilege-in-scoped-outbound-tokens.md)**  
+The **com.snc.platform.security.oauth.mcp.aig\_scope\_support** property controls how OAuth access tokens are cached and reused for Model Context Protocol \(MCP\) flows in AI Gateway \(AIG\).
+-   **[Enforce field-level ACLs on records created from the filtered list view UI query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-field-level-acls-on.md)**  
 Use a system property to prevent list filters from affecting the initial values of created records.
 -   **[Enforce Read Roles for Catalog Variable Search \[New in Security Center 7.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-read-roles-for-catalog-variable-search.md)**  
 Use system properties to ensure that only catalog variables with an empty read role are indexed for search.
@@ -96,6 +106,8 @@ Use the **glide.cms.dashboards.sharing\_with\_secure\_search** property to contr
 Use the **glide.enforce\_security\_scope.sn\_gsm** property to control how the application data from the Public Sector Digital Services application is accessed.
 -   **[Enforce scoped ACL access for information request playbooks \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-scoped-acl-access-for-information-request-playbooks.md)**  
 Use the **glide.enforce\_security\_scope.sn\_gsm\_info\_req** property to control access to playbook data for the Information Request playbooks feature.
+-   **[Enforce strict deny for ACLs referencing only deleted or non-existent roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-deny-acls-referencing-deleted-roles.md)**  
+Manage how the system handles access control lists that reference roles deleted from the system.
 -   **[Enforce strict elevate privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-strict-elevate-privilege.md)**  
 Use the **glide.security.strict\_elevate\_privilege** property to control whether roles marked as privileged must be manually elevated for the user to be granted the role's capabilities.
 -   **[Enforce security scope license and permit playbook \[New in Security Center 1.5 and updated in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-security-scope-license-and-permit-playbook.md)**  
@@ -136,26 +148,26 @@ Enable the approval flow for adding or removing Office 365 group members through
 Use system properties to prevent an impersonating user from viewing application data.
 -   **[Enforce oauth state parameter validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-oauth-state-parameter-validation.md)**  
 Configure the **glide.oauth.state.parameter.required** property to prevent your instance from cross-site request forgery \(CSRF\) attacks.
--   **[Enforce Strict User Image Upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-strict-user-image-upload.md)**  
-Use the **glide.security.strict.user\_image\_upload** property to enable Access Control for the upload/update of a profile picture when performed on a user record.
--   **[Restrict email domains for external user registration \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-external-user-registration-email-domain-allowlist.md)**  
+-   **[Enforce strict user image upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-strict-user-image-upload.md)**  
+Use the **glide.security.strict.user\_image\_upload** property to enable access control for the upload/update of a profile picture when performed on a user record.
+-   **[Restrict email domains for external user registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-external-user-registration-email-domain-allowlist.md)**  
 Use the **sn\_ext\_usr\_reg.allowed\_email\_domains** property to list acceptable external email domains.
--   **[Enable High Security Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md)**  
+-   **[Enable High Security plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md)**  
 When you activate the High Security plugin, it creates or updates hundreds of different configurations to control the level of security on your instance. These configurations mitigate many of the top OWASP attacks by enabling strict access control, input validation, and output encoding.
 -   **[Honor admin override ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-honor-admin-override-acls.md)**  
-The **glide.security.admin.override.accessterm** property controls whether an administrator can bypass an access rule when a resource \(a table or a field\) has multiple access rules.
+The **glide.security.admin.override.accessterm** property controls whether admins can control override access control list \(ACL\) evaluation.
 -   **[Prevent inactive users from logging in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-prevent-inactive-users-from-logging-in.md)**  
 Configure this property to control if inactive users can authenticate on your instance.
+-   **[Prevent unauthenticated roleless ACL in scripted ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-prevent-unauthenticated-roleless-acl-in-scripted-acls.md)**  
+The **glide.security.allow\_unauth\_roleless\_acl** property controls whether scripted Access Control Lists \(ACLs\) can grant access to unauthenticated users when the ACL is otherwise roleless.
 -   **[Prevent Unauthenticated Access to Virtual Agent Embedded Web Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-publicly-exposed-virtual-agent-embedded-web-client.md)**  
 Learn how to configure the **sn\_va\_web\_client\_app\_embed** table to block unauthenticated users from accessing embedded web clients.
--   **[Restrict JSONP Requests to Trusted URLs \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-jsonp-requests-to-trusted-urls.md)**  
+-   **[Restrict JSONP requests to trusted URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-jsonp-requests-to-trusted-urls.md)**  
 Specify trusted URLs for the AngularJS $http service to allow or reject JSONP requests.
 -   **[Prevent users from accepting warning to bypass CSRF validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-prevent-users-from-accepting-warning-to-bypass-csrf-validation.md)**  
 Reduce the risk of Cross-Site Request Forgery \(CSRF\) by preventing users from accepting warning to bypass CSRF validation.
 -   **[Disable raw database query execution \[Updated in Security Center 1.3 and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-operation-level-access-control-requirements.md)**  
 Control whether a user can perform raw SQL queries on the database.
--   **[Hide user comments on articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-hide-user-comments-on-articles.md)**  
-Use the **glide.knowman.show\_user\_feedback** property to control whether feedback comments are visible.
 -   **[Require authentication by default for client-callable script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-privacy-on-client-callable-script-includes.md)**  
 By default, client-callable script includes that do not explicitly set visibility, are public. If needed, add the **glide.script.ccsi.ispublic** property to enable privacy control over all client-callable script includes accessed by public pages.
 -   **[Enforce production instance behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-production-instance-behavior.md)**  
@@ -164,14 +176,16 @@ Configure whether your instance should be handled like a production or non-produ
 Use a system property to set a role requirement for accessing the Script Background module.
 -   **[Restrict access to emails with empty target table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-access-to-emails-with-empty-target-table.md)**  
 Activate the **glide.email.email\_with\_no\_target\_visible\_to\_all** property to restrict user access to emails, unless they were the one who sent the email or have an admin role.
--   **[Restrict MID Server Users from Authenticating via the UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
-Reduce risk from a compromised MID Server account by disallowing UI authentication
+-   **[Restrict MID Server users from authenticating using UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-mid-server-users-from-authenticating-via-the-ui.md)**  
+Reduce risk from a compromised MID Server account by disallowing UI authentication.
 -   **[Restrict access to specific IP ranges plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-access-to-specific-ip-ranges-plugin.md)**  
 Use the **com.snc.ipauthenticator** plugin to restrict access to specific IP ranges. Unless public access is intended for the instance, administrators should limit access to their assigned IP net blocks.
 -   **[Restrict knowledge bases access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-knowledge-bases-access.md)**  
 The **glide.knowman.block\_access\_with\_no\_user\_criteria** property is used to control the read/write access of users on knowledge based articles.
 -   **[Restrict permissions for CMDB model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-permissions-cmdb-model.md)**  
 Use the **csm\_cmdb\_model.customer\_visible\_flag** system property to limit customer access to data in the Product Models table as an additional access control to the CMDB model.
+-   **[Restrict platform analytics export to authorized roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-platform-analytics-export.md)**  
+The **glide.par.export.allowed\_roles** property is a comma-separated list of role names permitted to export Platform Analytics dashboards and visualizations to PDF or PPT format.
 -   **[Restrict unauthenticated access to attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-unauthenticated-access-attachments.md)**  
 Restrict unauthenticated access to image attachments using a system property.
 -   **[Restrict access to custom journal entries \[Updated in Security Center 1.3 and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-secure-custom-journal-entries.md)**  
@@ -180,6 +194,8 @@ Use the **glide.live\_feed.custom\_journal.acl\_check\_enabled** property to res
 Use the **com.snc.process\_flow.reporting.require\_flow\_access** property to enforce if an additional access check is required for a user to read a flow check.
 -   **[Restrict Impersonation to Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-impersonation-to-admin.md)**  
 The **glide.sys.permissive.impersonate** property can be used to prevent non-admin roles from impersonating other users.
+-   **[Restrict script authorship to authorized users only](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-restrict-script-authorship-to-authorized-users.md)**  
+The **glide.security.scripting\_governance.enabled** property controls whether users must hold the script-writer role to create or modify executable script content across the platform.
 -   **[Enable security jump start plugin \(ACL Rules\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-security-jump-start-plugin-acl-rules.md)**  
 Activate the Security Jump Start \(ACL Rules\) \(com.snc.system\_security\) plugin to create several important ACLs that validate the Access Controls on some of the key system tables within the ServiceNow AI Platform.
 -   **[Use of secure insert multiple operation within import set API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-use-of-secure-insert-multiple-operation-within-import-set-api.md)**  

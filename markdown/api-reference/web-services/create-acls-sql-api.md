@@ -9,7 +9,7 @@ classification: web-services
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Live Connect configuration on your ServiceNow instance, Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
 # Create Access Control Lists \(ACLs\) for Live Connect
@@ -112,5 +112,5 @@ Enter the role assigned to your user account \(for example, **sn\_odbc\_rest\_ac
 
 You have successfully configured table-level access control for Live Connect. The user account can query the tables for which both egress\_sql and read ACLs have been created, subject to the role requirements you specified.
 
-**Parent Topic:**[Live Connect configuration on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/configure-sql-api-overview.md)
+**Parent Topic:**[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/configuring-sql-api.md)
 

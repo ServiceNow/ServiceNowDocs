@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage contract repository agentic workflow, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage contract repository agentic workflow, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Review AI-extracted metadata and contract reminder date in the Hardware Asset Workspace

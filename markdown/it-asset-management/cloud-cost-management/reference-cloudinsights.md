@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -19,7 +19,7 @@ Reference topics provide additional information about the lists and forms that y
 -   **[Domain separation and Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/domain-separation-cloudin.md)**  
 Domain separation is unsupported for Cloud Cost Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Cloud Cost Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/cloud-insights-roles.md)**  
-You assign Cloud Cost Management roles to user groups and to individual users based on user activities and responsibilities.
+Roles are installed with the activation of the Cloud Cost Management application.
 -   **[Components installed with Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/installed-with-ci.md)**  
 Several types of components are installed with activation of the Cloud Cost Management application, including tables, user roles, and scheduled jobs.
 -   **[System properties for Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/sys-pro-ci.md)**  
@@ -44,4 +44,6 @@ Supported CI class types for AWS enable assigning cost and usage data correctly 
 Supported CI class types for Microsoft Azure enable assigning cost and usage data correctly using the CI placement process. The CI placement process places a subset of CIs into corresponding CI tables that are used in the recommendation generation process for Cloud Cost Management.
 -   **[Supported CI class types for Google Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/gcp-supported-ci-class-types.md)**  
 Supported CI class types for Google Cloud enable assigning cost and usage data correctly using the CI placement process. Some CI class types are placed immediately. The CI placement process places a subset of CIs into corresponding CI tables that are used in the recommendation generation process for Cloud Cost Management.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
 

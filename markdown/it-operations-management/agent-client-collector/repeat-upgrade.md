@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -21,7 +21,7 @@ If high-volume upgrade fails for specific agents, you must clear the problematic
 Roles required: agent\_client\_collector\_admin
 
 -   In a Windows environment: Local SYSTEM account
--   In a Linux environment: sudo rpm/dpkg
+-   In a Linux environment: sudo rpm/dpkg/systemd-run
 -   In a macOS environment: sudo pkg
 
 ## Procedure
@@ -34,7 +34,7 @@ Roles required: agent\_client\_collector\_admin
 
     \[Omitted image "agent-upgrade-histories-tab.png"\] Alt text: Agent Upgrade Histories tab
 
-4.  Underneath the check box \[Omitted image "check-box-icon.png"\] Alt text: Check box icon, hover next to a failed upgrade entry and select the check box that appears.
+4.  Underneath the check box \[Omitted image "check-box-icon.png"\] Alt text: Check box, hover next to a failed upgrade entry and select the check box that appears.
 
 5.  Select the arrow next to the **Actions on selected rows...** drop-down and select **Delete**.
 

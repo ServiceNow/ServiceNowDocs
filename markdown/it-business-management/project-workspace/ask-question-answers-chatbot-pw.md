@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -37,7 +37,7 @@ Ask questions about tasks, risks, resources, costs, and schedule using the Proje
     -   What is the status of this project?
     -   What are the key milestones on this project?
     -   What tasks are due next week?
-    \[Omitted image "project-question-answers-chatbot.png"\] Alt text: Question answers chatbot.
+    \[Omitted image "image.project-question-answers-chatbot"\] Alt text: Question answers chatbot.
 
 4.  Review the response from the chatbot.
 

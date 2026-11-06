@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Using Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Use the My To-dos page
@@ -131,8 +131,6 @@ Use the To-dos page to review all tasks that are assigned to you and prioritize 
 [Use Employee Center from Zoom]()
 
 [View employee profile]()
-
-[Use Employee Profile with HR Service Delivery]()
 
 [Use Personalized Answers]()
 

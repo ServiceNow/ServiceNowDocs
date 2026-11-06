@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Applying templates to projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,15 +28,15 @@ When you create a template from a project, all the project attachments and check
 
 1.  Create a template.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d352631e68">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d365459e68">
 
 Option
 
-</th><th align="left" id="d352631e71">
+</th><th align="left" id="d365459e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d352631e77">
+</th></tr></thead><tbody><tr><td id="d365459e77">
 
 **From an existing template**
 
@@ -48,7 +48,7 @@ Steps
 4.  The Copy Template dialog box opens. The **Template** field is auto-filled with the current template name.
 
 
-</td></tr><tr><td id="d352631e122">
+</td></tr><tr><td id="d365459e122">
 
 **From a project**
 

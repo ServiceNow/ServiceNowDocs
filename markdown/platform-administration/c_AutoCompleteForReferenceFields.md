@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_AutoCompleteForReferenceFields.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -57,7 +57,21 @@ ref\_ac\_order\_by
 Specifies the reference table column that sorts the auto-completion choices. For example, **ref\_ac\_order\_by=name** sorts the auto-completion choices alphabetically by name.
 
 </td></tr></tbody>
-</table>## Define auto-complete attributes for all references to a table
+</table>## Auto-complete UI features
+
+The AJAX table completer class has a number of UI improvements.
+
+-   The table completer always displays the number of records the auto-complete query finds.
+-   The table completer highlights the entire selected row by changing the color of the background and text.
+-   The table completer lists a value for every column.
+    -   The first time a value appears in a column, the table completer displays it in black text.
+    -   The table completer displays subsequent duplicate values in grey text. Previously, the table completer displayed an empty cell in a column containing a duplicate value.
+
+\[Omitted image "Autocomplete\_highlighting.png"\] Alt text:
+
+Set the **ref\_auto\_completer=AJAXTableCompleter** dictionary attribute to use these improvements.
+
+## Define auto-complete attributes for all references to a table
 
 A field inherits and uses the reference table's auto-complete attributes unless the field has its own value for the same attributes. You can define the attributes for references to a table, and it affects every form that references that table.
 

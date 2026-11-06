@@ -1,23 +1,23 @@
 ---
 title: Contain AI agents manually using kill switch protocol
-description: Deactivate or reinstate AI agents using kill switch protocol to eliminate malicious activity and improve your security posture.
+description: Deactivate or reinstate AI agents using kill switch protocol to help improve your security posture and stop malicous activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.html
 release: australia
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Contain AI agents manually using kill switch protocol
 
-Deactivate or reinstate AI agents using kill switch protocol to eliminate malicious activity and improve your security posture.
+Deactivate or reinstate AI agents using kill switch protocol to help improve your security posture and stop malicous activity.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
+Role required: sn\_ai\_security.operator or sn\_ai\_governance.ai\_steward
 
 Make sure that you have configured connectors and optional identity providers for AI agent containment. For more information, see [Configure AI agent containment using kill switch protocol manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-ai-agent-containment.md).
 
@@ -46,11 +46,9 @@ You can also manually deactivate any managed AI agent directly, whether or not i
 
     \[Omitted image "gov-sec-malicious-activity-banner.png"\] Alt text: Banner indicating that malicious activity was detected for the AI agent.
 
-    A pane appears with information about the activity detected for this AI asset, and the next best action to take.
+    A pane appears with information about the activity detected for this AI asset.
 
 5.  Select **Deactivate**.
-
-    \[Omitted image "gov-sec-malicious-activity.png"\] Alt text: Malicious activity evidence shown for an agent.
 
 6.  Provide the reason for the deactivation and select **Deactivate**.
 

@@ -25,7 +25,7 @@ The SLO creator agent requires ServiceNow Otto for ITOM and Service Reliability 
 2.  For each service or CI, the agent analyzes critical alerts, incidents, and outages, including data from related CIs.
 3.  The agent uses existing availability commitments, when available, or business criticality to determine the SLO target.
 4.  For every service or CI that it analyzes, the agent generates one SLO with up to 10 SLIs.
-5.  The relevant team manger receives an email when the SLO is generated.
+5.  The relevant team manager receives an email when the SLO is generated.
 6.  The generated SLO is active by default and the assigned team receives an email when the error budget falls to 25% or below.
 
     SRM managers and responders can review, edit, or turn off generated SLOs.

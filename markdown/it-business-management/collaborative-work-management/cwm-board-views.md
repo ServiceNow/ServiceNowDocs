@@ -7,7 +7,7 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [board views, Dashboard view, List view, Gantt view, Kanban view, CWM, quick filters, scrum tasks, sprint tracking]
 breadcrumb: [Board views in CWM, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]

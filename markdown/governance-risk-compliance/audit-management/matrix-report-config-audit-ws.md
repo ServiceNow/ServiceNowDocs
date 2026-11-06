@@ -1,5 +1,5 @@
 ---
-title: Configure matrix report registry to set up base table for audit matrix report
+title: Configure matrix report registry base table
 description: Configure the Matrix report registry to select the base table. You can create a relationship with the target table to configure the details of the report for an audit-related record or a landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/matrix-report-config-audit-ws.html
@@ -7,12 +7,12 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Matrix report in Audit Workspace, Audit Workspace for the Auditor, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Matrix report in Audit Workspace, Audit Workspace for the Auditor, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
-# Configure matrix report registry to set up base table for audit matrix report
+# Configure matrix report registry base table
 
 Configure the Matrix report registry to select the base table. You can create a relationship with the target table to configure the details of the report for an audit-related record or a landing page.
 

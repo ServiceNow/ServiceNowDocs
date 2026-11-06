@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-08-05"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, connect, remote, table, remote table, model, extract, extraction table]
 breadcrumb: [Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -71,7 +71,7 @@ ERP extraction tables
 
 </td><td>
 
-Extraction tables use an extract, transform, load \(ETL\) process to extract large amounts of data from the ERP system at regular intervals, and then transform and save it to a Glide table.For more information, see [ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md).
+Extraction tables use an extract, transform, load \(ETL\) process to extract large amounts of data from the ERP system at regular intervals, and then transform and save it to a Glide table.For more information, see [Extracting and transforming ERP data with Zero Copy Connector for ERP extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md).
 
 </td></tr></tbody>
 </table>

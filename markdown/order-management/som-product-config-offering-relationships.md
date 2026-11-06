@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-product-config-offering-relationships.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -16,7 +16,7 @@ Create product relationships to bundle products and services together to make or
 
 ## Before you begin
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_catalog\_manager
+Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_catalog\_manager
 
 ## About this task
 
@@ -78,6 +78,14 @@ Option that identifies how the products are related:-   None - Indicates that th
 
 </td></tr><tr><td>
 
+Order
+
+</td><td>
+
+Numerical order for the options. Options designated with the number 1 appear first in the order.
+
+</td></tr><tr><td>
+
 Product offering relationship group
 
 </td><td>
@@ -86,7 +94,7 @@ Reference to offer relationship groups used to logically group similar product o
 
 </td></tr><tr><td>
 
-Unit of measurement
+Unit of measure
 
 </td><td>
 
@@ -131,6 +139,14 @@ Min quantity
 </td><td>
 
 Option indicating the minimum quantity of products in the bundle. These flags mean different things depending on whether each relationship is or is not part of a relationship group.
+
+</td></tr><tr><td>
+
+Effective from
+
+</td><td>
+
+Future date on which the product offering is available for quoting or ordering.
 
 </td></tr></tbody>
 </table>6.  Select **Save**.

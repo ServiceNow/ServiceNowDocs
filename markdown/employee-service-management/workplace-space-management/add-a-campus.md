@@ -7,8 +7,8 @@ release: australia
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -216,7 +216,7 @@ Search and select the Indoor Mapping campus that you want to integrate with Work
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

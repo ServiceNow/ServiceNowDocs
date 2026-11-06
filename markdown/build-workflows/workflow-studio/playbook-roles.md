@@ -28,7 +28,7 @@ Playbook roles are hierarchical. A higher role contains the roles beneath it, so
 
 -   **playbook.write**
 
-    Assign instead of pd\_author when content access filtering restricts what the user sees. Use it for cases where pd\_author is too broad a role. On its own it grants no read access to playbooks. Pair it with playbook.read or with a content access filtering rule to let users edit playbooks and use activity definitions. For more information, see [Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/content-filtering-playbooks.md).
+    Assign instead of pd\_author when content access filtering restricts what the user sees. Use it for cases where pd\_author is too broad a role. On its own it grants no read access to playbooks. Pair it with playbook.read or with a content access filtering rule to let users edit playbooks and use activity definitions. For more information, see .
 
 -   **playbook.read**
 

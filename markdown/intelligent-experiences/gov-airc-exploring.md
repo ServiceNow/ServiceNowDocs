@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 4
 keywords: [explore]
-breadcrumb: [Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Exploring Risk and Compliance
@@ -54,8 +54,6 @@ For more information about Risk and Compliance in AI Control Tower, see:
 -   [Compliance score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-compliance-score-calculation.md)
 -   [AI system compliance score calculation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-ref-compliance-score.md)
 -   [Configuring Risk and Compliance in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-configuring.md)
--   
--   
 -   [Reviewing AI governance posture and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-using.md)
 -   [Reviewing regulatory classification and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-regulatory-status.md)
 -   [Reviewing AI risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-risk-posture.md)

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-history-component-features.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Customer Central, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ The Search icon introduces keyword-based search functionality enabling agents to
 -   Admins can configure a toggle option to have the search bar open by default when the page loads.
 -   Agents can enter a keyword or partial match to find relevant results. For example, entering `connect` displays cases with terms like connect, connected, or connection.
 
-\[Omitted image "cust-central-history-component.png"\] Alt text: Customer History search bar
+\[Omitted image "cust-central-search-feature.png"\] Alt text: Customer History search bar
 
 ## Filter
 
@@ -69,7 +69,7 @@ The **Resizable Layout Blocks ** feature enables agents to adjust the size of 
 1.  Click the edges of the block. 
 2.  Drag to adjust the size as needed.
 
-This feature is available across record pages in CSM Configurable Workspace and enables agents to optimize their workspace based on their needs.
+This feature is available across record pages in CRM Workspace and enables agents to optimize their workspace based on their needs.
 
 ## Real-Time updates in Customer History
 
@@ -78,7 +78,7 @@ The Customer History view updates in real time. When an agent adds a new case or
 **Note:**
 
 -   The view refreshes only for new activities created in the \[sn\_actsub\_activity\] table that are linked to the currently open customer record.
--   Changes to existing records or knowledge articles do not trigger a refresh.
+-   Changes to existing records or knowledge articles don't trigger a refresh.
 -   The view updates only for the specific record that you're viewing. For example, if you’re viewing a contact, updates to the associated account won’t appear unless you open the account record directly.
 -   Real-time updates are supported only on the Front-line case page and CSM default record page.
 

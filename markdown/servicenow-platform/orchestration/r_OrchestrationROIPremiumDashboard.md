@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Orchestration ROI reports, Orchestration ROI, Orchestration applications, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Orchestration ROI reports, Orchestration ROI, Orchestration applica
 
 The premium dashboard provides detailed reports on calculated savings over time.
 
-The ROI premium reports require the Orchestration - ROI Premium plugin and are built using [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PerformanceAnalytics.md). The Orchestration - ROI Premium plugin is dependent on the [Performance Analytics - Premium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md) plugin which requires a separate subscription.
+The ROI premium reports require the Orchestration - ROI Premium plugin and are built using Performance Analytics. The Orchestration - ROI Premium plugin is dependent on the [Performance Analytics - Premium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md) plugin which requires a separate subscription.
 
 **Important:** You must activate the Performance Analytics [scheduled collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_OrchestrationROIPremiumDashboard.md) before Orchestration ROI premium can display data.
 
@@ -141,7 +141,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
+ **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
 
 </td></tr><tr id="date-time"><td>
 
@@ -181,7 +181,7 @@ The scheduled job required to calculate premium ROI reports is called \[PA ROI\]
 
 4.  The scheduling options appear for the value selected in the **Run** field.
 
-    For instructions on creating a schedule, see [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_CreatASchedDataCollJob.md).
+    For instructions on creating a schedule, see Create or schedule a data collection job.
 
 5.  To execute the schedule directly from the job definition, click **Execute Now**.
 

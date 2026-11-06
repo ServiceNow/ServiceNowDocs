@@ -16,7 +16,7 @@ breadcrumb: [Managing playbook permissions, Configure, Playbooks, Workflow Studi
 
 Access control rules operate at the platform level, independently of playbook permissions. A user can satisfy every playbook permission and still be blocked.
 
-Playbook tables are subject to access control rules in the same way as any other table. Access control rules are the platform-level access mechanism and operate independently of playbook permissions. For general information, see [Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md).
+Playbook tables are subject to access control rules in the same way as any other table. Access control rules are the platform-level access mechanism and operate independently of playbook permissions. For general information, see .
 
 Because the two are independent, a user can satisfy every playbook permission and still be blocked by an access control rule. The following sections cover where this happens.
 

@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics solutions, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Role required: pa\_admin.
 
 ## About this task
 
-When you install or upgrade a Performance Analytics solution, out of the box content in the instance is overwritten and new content is added to the dashboard. Any content that you have previously customized on the dashboard is not changed.
+When you install or upgrade a Performance Analytics solution, base system content in the instance is overwritten and new content is added to the dashboard. Any content that you have previously customized on the dashboard is not changed.
 
 To reinstall a solution metadata record from a dashboard, such as a widget, without impacting other records used by the same dashboard, see [Install a single solution metadata record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/install-content-single-record.md).
 

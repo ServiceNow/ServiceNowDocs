@@ -1,20 +1,20 @@
 ---
 title: Create Physical Connection function
-description: The Create Physical Connection function enables you to create a physical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
+description: The Create Physical Connection function enables you to create a physical connection record in the Telecommunications Network Inventory application. The record is based on the input that you receive when you instantiate an inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create-physical-connection-action.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
 
 # Create Physical Connection function
 
-The Create Physical Connection function enables you to create a physical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
+The Create Physical Connection function enables you to create a physical connection record in the Telecommunications Network Inventory application. The record is based on the input that you receive when you instantiate an inventory.
 
 You can use the Create Physical Connection function to create a physical port connection on the interface cards in your networks.
 

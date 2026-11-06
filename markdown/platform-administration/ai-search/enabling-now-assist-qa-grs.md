@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Knowledge base articles Genius Results, Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -33,7 +33,7 @@ The [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 The AI Search for Next Experience application must be installed and enabled on your instance. For more information about the application, see [AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/ais-next-experience-app.md).
 
-The ServiceNow Otto for AI Search application must be installed on your instance. For details on installing this application from the AI Admin Hub console, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/install-now-assist-ais.md).
+The Now Assist for Search application must be installed on your instance. For details on installing this application from the AI Admin Hub console, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/install-now-assist-ais.md).
 
 Role required: ais\_admin
 

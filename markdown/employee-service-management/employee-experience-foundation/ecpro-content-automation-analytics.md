@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Setup continuous improvement, Configuring Employee Center Pro, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup continuous improvement, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Content Analytics
@@ -38,28 +38,20 @@ Dashboards display data visualizations in widgets. Each widget displays data for
 1.  [Activate Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-content-analytics-plugin.md)
 2.  Establish the tracking profile, by performing one of the following steps:
 
-    -   Activate one of the default tracking profiles and set it as the default tracking profile: [Activate a tracking profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-tracking-profile.md)
+    -   Activate one of the out-of-the-box tracking profiles and set it as the default tracking profile: [Activate a tracking profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-tracking-profile.md)
     -   Create a custom tracking profile: [Create a Content Analytics tracking profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-analytics-setup.md)
-    For more information on tracking profiles, see the following.
+    For more information on tracking profiles, see the section below.
 
 3.  To track analytics for a custom widget or page, you must add the tracking profile to the header: [Set up Content Analytics tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-content-analytics-tracking-setup.md)
 
-    **Important:** A new **Enable Tracking** field has been introduced to content notifications, designed specifically for email content. Existing notification records will have this field inactive by default, in line with prior system settings and by default, existing email content will have tracking turned off. However, for new email notification contents, the **Enable Tracking** option will be available for your selection and will be automatically enabled on new record creation. This feature provides greater flexibility, allowing you to determine whether tracking should be applied to specific email content record.
+    **Important:** A new **Enable Tracking** field has been introduced to content notifications, designed specifically for email content. Existing notification records will have this field disabled by default, in line with prior system settings and by default, existing email content will have tracking turned off. However, for new email notification contents, the **Enable Tracking**option will be available for your selection and will be automatically enabled on new record creation. This feature provides greater flexibility, allowing you to determine whether tracking should be applied to specific email content record.
 
-
-## Content Analytics audience calculation
-
-Audience calculation may now be turned off to accommodate complex audiences that could potentially hinder the performance of certain analytics processes.
-
-**Note:** When enabling audience calculation for analytics the audience size is computed for each content item. When disabling audience calculation for analytics, audience count will show zero in Analytics dashboards.
-
-In system properties the name should be set to **sn\_cd.analytics.audience\_calculation\_enabled**. The **Type** field should be set to **true/false** and the **Value** field should be set to **true**.
 
 ## Tracking profiles
 
 Tracking profiles define a bucket where you want to capture analytics. It can correspond to a portal, campaign, application, or any context you like.
 
-Two tracking profiles are included by default: Content Experiences and Content Publishing. You can use either one to collect data on content that is displayed with a default widget. If your portal is publishing content to custom widgets, you must update a default tracking profile to collect data for those widgets or create tracking profile.
+Two tracking profiles are included out-of-the-box: Content Experiences and Content Publishing. You can use either one to collect data on content that is displayed with an out-of-the-box widget. If your portal is publishing content to custom widgets, you must update an out-of-the-box tracking profile to collect data for those widgets or create a new tracking profile.
 
 ## Data collection and storage
 

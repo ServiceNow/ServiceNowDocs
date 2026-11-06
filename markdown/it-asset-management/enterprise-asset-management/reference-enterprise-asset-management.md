@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Enterprise Asset Management, Asset Management]
 ---
@@ -58,4 +58,6 @@ Terms commonly used for linear assets in the Enterprise Asset Management applica
 Scheduled jobs that run during the normalization of firmware models embedded into Operational Technology \(OT\) assets and tables that store firmware normalization details are installed with the OT Asset Management application.
 -   **[Asset put away task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/put-away-task-form-eam.md)**  
 Fields on the Asset put away task form help you create a put away task for the in stock assets.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
 

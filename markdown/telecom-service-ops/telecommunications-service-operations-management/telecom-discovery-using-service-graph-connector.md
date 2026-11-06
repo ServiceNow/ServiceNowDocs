@@ -1,24 +1,24 @@
 ---
 title: Indirect Discovery using Service Graph Connectors
-description: ServiceNow Telecom Discovery using Service Graph Connectors \(SGC s\) integrates network infrastructure data from external management systems into the Configuration Management Database \(CMDB\).
+description: Telecom Discovery using Service Graph Connectors \(SGC s\) integrates network infrastructure data from external management systems into the Configuration Management Database \(CMDB\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-service-graph-connector.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
 
 # Indirect Discovery using Service Graph Connectors
 
-ServiceNow Telecom Discovery using Service Graph Connectors \(SGC s\) integrates network infrastructure data from external management systems into the Configuration Management Database \(CMDB\).
+Telecom Discovery using Service Graph Connectors \(SGC s\) integrates network infrastructure data from external management systems into the Configuration Management Database \(CMDB\).
 
 This approach helps Communication Service Providers \(CSPs\) maintain a current and accurate view of their multivendor telecom network resources, services, and configurations.
 
-By leveraging predefined connectors and robust data transformation tools, you can unify your inventory across domains and confirm that the CMDB and Telecom Network Inventory \(TNI\) reflect real-time network insights aligned with your telecom data model.
+By using predefined connectors and robust data transformation tools, you can unify your inventory across domains and confirm that the CMDB and Telecom Network Inventory \(TNI\) reflect real-time network insights aligned with your telecom data model.
 
 **Note:** Telecom Service Graph Connectors are part of the TSOM Visibility subscription and extend the capabilities of the standard Service Graph Connector framework.
 

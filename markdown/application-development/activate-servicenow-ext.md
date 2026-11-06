@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/activate-servicenow-ext.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Activate ServiceNow Extensions for VS Code

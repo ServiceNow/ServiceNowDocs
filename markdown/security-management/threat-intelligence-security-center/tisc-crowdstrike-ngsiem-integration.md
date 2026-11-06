@@ -7,7 +7,7 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [configure, crowdstrike, nextgen siem, sighting search]
 breadcrumb: [Get started with Sighting Search Configurations, Configure Sighting Search, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]

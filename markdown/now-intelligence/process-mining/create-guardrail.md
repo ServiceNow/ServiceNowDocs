@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [process mining, guardrails, admin panel]
 breadcrumb: [Meter-based guardrails and controls, Use, Process Mining, Platform Analytics]

@@ -1,5 +1,5 @@
 ---
-title: Integrate ServiceNow Virtual Agent with Slack
+title: Integrate Virtual Agent with Slack
 description: Add the Virtual Agent bot to your ServiceNow instance to integrate with Slack.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/add-slack-snow-bot.html
@@ -7,19 +7,19 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Virtual Agent, Slack, Conversational Integration, sn\_va\_slack]
-breadcrumb: [Integrate VA with Slack, Conversational Integration with Slack, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate Virtual Agent with Slack, Slack, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Integrate ServiceNow Virtual Agent with Slack
+# Integrate Virtual Agent with Slack
 
 Add the Virtual Agent bot to your ServiceNow® instance to integrate with Slack.
 
 ## Before you begin
 
-Ensure that you have installed the Conversational Integration with Slack plugin \(sn\_va\_slack\) on your ServiceNow instance before adding any integrations.
+Ensure that you have installed the Conversational Integration with Slack plugin \(sn\_va\_slack\) on your instance before adding any integrations.
 
 Role required: admin
 
@@ -49,11 +49,11 @@ Role required: admin
 
     \[Omitted image "va-request-permission.png"\] Alt text: Logging into the Slack workspace to integrate with your Now Virtual Agent requires you to accept the requested permissions to access the workspace.
 
-7.  If the selected workspace ant has already been assigned to Virtual Agent, you must first uninstall from the previously associated instance.
+7.  If the selected workspace has already been assigned to Virtual Agent, you must first uninstall from the previously associated instance.
 
     **Note:**
 
-    Starting from Utah release, if your Slack workspace is already associated with another ServiceNow instance, but if you intend to associate it with a new instance, then you're asked to reach out to the administrator to first uninstall it from the previously associated instance. For more information, see [Override Slack integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/override-slack-install.md).
+    Starting with the Utah release, if your Slack workspace is already associated with another ServiceNow instance, but you intend to associate it with a new instance, then you must reach out to the administrator to first uninstall it from the previously associated instance. For more information, see [Associate a Slack integration with a different instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/override-slack-install.md).
 
     \[Omitted image "slack-new-proceed-install.png"\] Alt text: A message appears when the Slack workspace is already associated with a ServiceNow instance.
 
@@ -68,11 +68,11 @@ Role required: admin
 
 ## What to do next
 
-If you would like to integrate your ServiceNow instance with another Slack bot, select the plus icon in the ServiceNow Virtual Agent tile, or select the **Add integration** list on the Manage Slack channel page.
+If you want to integrate your ServiceNow instance with another Slack bot, select the plus icon in the Virtual Agent tile, or select the **Add integration** list on the Manage Slack channel page.
 
-\[Omitted image "add-integration-icon-slck.png"\] Alt text: Manage Slack channel view in Conversational Interfaces General settings. The plus icon in the ServiceNow Virtual Agent tile and the Add Integration list are highlighted..
+\[Omitted image "add-integration-icon-slck.png"\] Alt text: Manage Slack channel view in Conversational Interfaces General settings. The plus icon in the Virtual Agent tile and the Add Integration list are highlighted..
 
-For more information, see [Manage the ServiceNow Virtual Agent integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-slack.md).
+For more information, see [Manage the Virtual Agent integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-slack.md).
 
-**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-slack.md)
+**Parent Topic:**[Integrating Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-slack.md)
 

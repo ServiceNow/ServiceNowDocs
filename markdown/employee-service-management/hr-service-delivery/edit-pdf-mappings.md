@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Document Templates of type PDF \(Advanced forms\), Configuring Document Templates, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Define editable fields and store signature mappings using the PDF field mappings
 
 ## Before you begin
 
-Role required: sn\_doc.admin
+Role required: sn\_hr\_core.admin
 
 ## About this task
 

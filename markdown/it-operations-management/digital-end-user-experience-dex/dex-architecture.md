@@ -1,0 +1,94 @@
+---
+title: DEX architecture
+description: Digital End-User Experience \(DEX\) architecture describes the cloud-native services, endpoint agents, and data flows that connect end-user devices to your ServiceNow instance.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/dex-architecture.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: concept
+last_updated: "2026-11-06"
+reading_time_minutes: 5
+keywords: [dex architecture, cloud-native services, endpoint agents, agent client collector \(acc\), browser extension, dex desktop assistant, shared services architecture, mtls authentication, grpc connection, data security, data isolation, data retention, role-based access, agent registration, certificate signing, hermes messaging service, stream connect]
+breadcrumb: [Explore, Digital End-User Experience, IT Operations Management]
+---
+
+# DEX architecture
+
+Digital End-User Experience \(DEX\) architecture describes the cloud-native services, endpoint agents, and data flows that connect end-user devices to your ServiceNow instance.
+
+DEX uses a set of multitenant, cloud-native services called ServiceNow shared services. In this architecture, DEX endpoint agents can communicate with the ServiceNow shared services without a MID Server. ServiceNow shared services provide authentication to DEX agents and enable message buffering and stateful stream processing of data sent to your ServiceNow instance and a time series datastore. ServiceNow shared services also enable a secure way to send policy updates and on-demand execution of checks on the DEX agents. ServiceNow shared services enable secure bi-directional communication between your ServiceNow instance and the DEX endpoint agents.
+
+\[Omitted image "architecture-diagram-MMASSET0021829.svg"\] Alt text: High-level architectural diagram of Digital End-User Experience.
+
+## Binaries installed on endpoints
+
+-   Agent Client Collector \(ACC\): Deployed onto the end-user device endpoints such as a laptop or virtual desktop infrastructure \(VDI\) to collect various device-level performance and operational metrics. ACC enables you to do the following:
+    -   Configure a policy frequency to control what metrics are collected and the frequency of collection. To learn more about the metrics collected by DEX, see [View collected metrics with Metrics analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/view-dex-metrics.md).
+    -   Run remedial actions on the endpoint, such as clearing cache and restarting an application.
+-   Browser extension: Helps track application performance and network metrics like page load time and network jitter. Communication between the browser extension and ACC, and the device and application metrics, are routed through the ServiceNow shared services. For more information, see [Enable the DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/enable-dex-browser-extension.md).
+-   DEX Desktop Assistant: Enables employees to incorporate ServiceNow functionality into their daily workflow, providing access to monitoring local applications, requests, and push notifications and to performing network tests.
+
+## Agent registration highlights
+
+-   After the installation, ACC is registered on your organization's ServiceNow instance and the required certificates are downloaded from the instance. All the communication between ACC and your instance happens over secured HTTPS.
+-   After the ACC registration, a connection with the ServiceNow shared services is established. The agent is authenticated with the shared services through the downloaded certificates.
+-   ACC opens a bi-directional communication with the ServiceNow shared services using Remote Procedure Call \(gRPC\) connection. gRPC connection is a secure and encrypted channel to send and receive data from the endpoints. The channel is secured via mutual Transport Layer Security \(mTLS\).
+-   ACC sends various device and application performance metrics to the shared services.
+-   The instance also pushes data, such as DEX policies, to the agent via this bi-directional channel.
+-   The ServiceNow shared services use the ServiceNow Hermes Messaging Service and Stream Connect to isolate your organization's data.
+
+    For more information, see [Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/hermes-messaging-service.md) and [Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/stream-connect-quick-start.md).
+
+-   Raw metrics collected from endpoints are processed further using the shared services and eventually pushed to your ServiceNow instance.
+-   Some of the configuration device metrics and agent heartbeats are directly pushed to the ServiceNow instance. The operation is performed over a secured HTTPS channel via a REST endpoint.
+
+## Data security
+
+Various security measures help verify that scripts run securely.
+
+-   Allowlist: File shipped along with the agent verifying that no command other than the ones in the allowlists can be executed.
+
+    For more information about the list, see [Generate an Agent Client Collector allow list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-generate-allow-list.md).
+
+-   Plugins certificate signing: The scripts are packaged in plugins which are deployed to the endpoint. To verify data integrity, the plugins can be signed by a certificate to help prevent malicious plugins from being deployed.
+
+    For more information about certificate signing, see [Secure a custom plugin with a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-self-sign-certificate.md).
+
+-   Role-based access: All actions are available to only specific roles and user criteria within ServiceNow. For example, advanced actions can be assigned to the DEX engineer role and basic actions to the Service Desk.
+
+    For more information, see [Configure the Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/config-remedial-action-fw.md).
+
+-   Audit: All action runs are audited in the Remedial Action Executions \[ssn\_reacf\_remedial\_action\_execution\] table.
+
+    For information about emergency plans \(such as notification and service restoration\), see [DEX subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-subscription.md).
+
+
+## Data isolation
+
+Your data is stored in a separate topic when the Hermes Messaging Service and Stream Connect persist in the file system while data is sent and received.
+
+The agent client certificate issued by your ServiceNow instance holds the instance name for your organization. After the agent is authenticated, the instance name from the agent certificate is used to keep data isolated within a shared services cluster.
+
+Mutual TLS \(mTLS\) is used for secure communication between the agent and server components. The agent authenticates itself using a client certificate with the following parameters:
+
+-   Public Key Algorithm: id-ecPublicKey \(ECDSA\)
+-   Key Size: 256-bit
+-   Elliptic Curve: NIST Curve P-256
+
+Elliptic curve cryptography provides strong encryption and efficient key exchange.
+
+Agent assets and plugins \(like DEX\) that are downloaded from your ServiceNow instance through the shared services are signed by ServiceNow or the asset owners during their release. Signing verifies the authentication and integrity of the agent asset or plugin.
+
+## Data access
+
+All collected data is transformed and presented on your ServiceNow instance.
+
+Any data collected in the context of DEX is visible only to users with the appropriate DEX roles. For more information about the DEX roles, see [Installed with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/components-installed-with-dex.md).
+
+When following the standard ServiceNow practices on data governance, no special handling is required for DEX.
+
+## Data retention
+
+All the raw metrics collected from devices are stored in the ServiceNow instance for a maximum of seven days. Aggregated metrics are stored for a longer duration based on the type of aggregation. Aggregated metrics are used to show trend lines for various metrics. Hermes Messaging Service stores data for 36 hours by default. No other ServiceNow shared services store any metric data in transit.
+

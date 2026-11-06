@@ -23,7 +23,6 @@ Before you begin, verify the following:
 
 -   ITOM AI agents for Service Mapping \[sn\_sm\_gen\_ai, version 1.3.1 or later\] is installed as part of ServiceNow Otto for ITOM.
 -   Service Mapping Plus version 1.20.0 or later is installed. The AI Agent UI is delivered through Service Mapping Plus.
--   Zurich Patch 9 or Australia Patch 2.
 
 Role required: service\_mapping\_admin
 

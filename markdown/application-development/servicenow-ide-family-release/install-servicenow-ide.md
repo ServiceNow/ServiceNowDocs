@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Configure, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Install or update the ServiceNow IDE
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-ServiceNow IDE is active by default on instances on the Australia release. Update to the latest version of the ServiceNow IDE to use the latest features.
+ServiceNow IDE is active by default on instances on the Brazil release. Update to the latest version of the ServiceNow IDE to use the latest features.
 
 ## Procedure
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-administration-console.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -18,12 +18,12 @@ The Administration Console centralizes configuration and administration for all 
 
 \[Omitted video\] Description: Administration Console overview
 
--   **Integrations**: The Integration status page provides a comprehensive overview of installed third-party applications and their integration runs. Real-time status updates enable administrators to diagnose and resolve issues related to failed integration runs. For more information, see [Review Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/review-usem-integrations.md).
+-   **Integrations**: The Integration status page provides a comprehensive overview of installed third-party applications and their integration runs. Real-time status updates enable administrators to diagnose and resolve issues related to failed integration runs. For more information, see [Manage Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/review-usem-integrations.md).
 -   **Configurations**: Configuring rules automates, organizes, and manages the lifecycle of findings, ensuring scalability, data consistency, and faster response times by reducing manual intervention. For more information, see [Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md).
 -   **Additional Configuration Options**
     -   **Email Notifications**: Set up email notifications to share important updates and activities, such as approval and rejection of false-positive requests. Specify when to send notifications, who receives them, and their content. For more information, see [Configure email notifications in Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-email-notifications.md).
     -   **Email Templates**: Create and manage preconfigured email templates for sending notifications. For more information, see [Configure email templates in Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-email-templates.md).
-    -   **Severity Mapping**: The Security Exposure Management Workspace severity mapping transforms third-party source severity fields to recognizable fields in Unified Security Exposure Management. For more information, see .
+    -   **Severity Mapping**: The Security Exposure Management Workspace severity mapping transforms third-party source severity fields to recognizable fields in Unified Security Exposure Management. For more information, see [Severity mapping for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-severity-mapping.md).
     -   **Visualization Library**: Configure the Visualization library to select columns for the Findings view page, including available widgets, activation status, and additional details. For more information, see [Configure Visualization library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-visualization-library.md).
 
 **Related topics**  

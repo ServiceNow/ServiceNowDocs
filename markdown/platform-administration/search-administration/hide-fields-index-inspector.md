@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Review content item indexing status, Review, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -33,7 +33,7 @@ To learn about the index inspector, see [Review indexing status for individual c
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_properties.list`.
+    2.  In the navigation field, enter `sys_properties.list`.
 
     3.  Press Enter.
 

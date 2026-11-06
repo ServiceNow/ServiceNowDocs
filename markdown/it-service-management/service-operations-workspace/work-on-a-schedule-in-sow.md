@@ -1,24 +1,24 @@
 ---
 title: Manage your work and schedule absence
-description: Request absence and provide coverage for a shift. You can also request over-time for a shift.
+description: Request absence and provide coverage for a shift. You can also request overtime for a shift.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/work-on-a-schedule-in-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scheduling in service operation workspace, On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Scheduling in Service Operations Workspace, On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Manage your work and schedule absence
 
-Request absence and provide coverage for a shift. You can also request over-time for a shift.
+Request absence and provide coverage for a shift. You can also request overtime for a shift.
 
 ## About this task
 
-You can schedule your own time off and suggest a suitable cover from among the fellow roster members. This helps the shift manager and on-call admin in planning shifts and making sure that members are available to respond to incidents and escalations at all times.
+You can schedule your own time off and suggest a suitable cover from among the fellow roster members. This helps the shift manager and on-call administrator plan shifts so that members are available to respond to incidents and escalations.
 
 Get an overview of how to schedule an absence with this video.
 
@@ -28,16 +28,16 @@ Role required: itil
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Operation Workspace**.
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
 2.  Select the **Schedule** menu to view your calendar.
 
     You can also do the following to view your calendar:
 
-    -   Navigate to **Workspaces** &gt; **Service Operation Workspace**.
-    -   Select **Teams** menu from home page and select a team.
-    -   Select **Schedule** tab to view all the schedules for the team.
-3.  Select a shift card and select \[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: More icon or right-click a shift card.
+    -   Navigate to **Workspaces** &gt; **Service Operations Workspace**.
+    -   Select the **Teams** menu from the home page, and then select a team.
+    -   Select the **Schedule** tab to view all schedules for the team.
+3.  Select a shift card and select \[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: More icon, or select and hold \(or right-click\) a shift card.
 
     \[Omitted image "schedule\_absence\_schedule\_sow.png"\] Alt text: Schedule with a schedule absence
 
@@ -53,5 +53,5 @@ Role required: itil
 5.  Select **Schedule absence**.
 
 
-**Parent Topic:**[Scheduling in service operation workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)
+**Parent Topic:**[Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)
 

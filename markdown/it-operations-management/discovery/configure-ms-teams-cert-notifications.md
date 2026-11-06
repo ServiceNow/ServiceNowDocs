@@ -1,13 +1,13 @@
 ---
 title: Receive certificate notifications via Microsoft Teams
-description: Configure certificate notifications to be delivered to a Microsoft Teams channel so that you can receive alerts and initiate certificate renewal workflows directly from Microsoft Teams.
+description: Configure certificate notifications to be delivered to a Microsoft Teams channel so that you can receive alerts and initiate certificate renewal workflows directly from Microsoft Teams. Configure certificate notifications to be delivered to a Microsoft Teams channel so that you can receive alerts and initiate certificate renewal workflows directly from Microsoft Teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/configure-ms-teams-cert-notifications.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [configure Microsoft Teams CIM notifications, certificate expiration Teams channel, CIM Teams spoke setup]
 breadcrumb: [Certificate alerts and notifications, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]

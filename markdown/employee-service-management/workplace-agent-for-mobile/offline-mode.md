@@ -7,7 +7,7 @@ release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
 ---
@@ -37,6 +37,8 @@ To turn on offline mode, perform the following steps:
 
 
 [Manage workplace cases and tasks]()
+
+[Assign an unassigned case or task]()
 
 [Edit or view case details on the Workplace Agent for mobile app]()
 

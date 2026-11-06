@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
@@ -36,15 +36,15 @@ Ensure to install the following plugins
 
 1.  Create the work order.
 
-<table id="choicetable_psz_bkq_v1b"><thead><tr><th align="left" id="d46423e103">
+<table id="choicetable_psz_bkq_v1b"><thead><tr><th align="left" id="d47870e103">
 
 Option
 
-</th><th align="left" id="d46423e106">
+</th><th align="left" id="d47870e106">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d46423e112">
+</th></tr></thead><tbody><tr><td id="d47870e112">
 
 **Create a new work order**
 
@@ -58,7 +58,7 @@ Optionally, you can click the search knowledge icon \(\[Omitted image "SearchKno
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d46423e159">
+</td></tr><tr><td id="d47870e159">
 
 **Create a work order from an incident, problem, change, project task, or another work order.**
 

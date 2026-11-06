@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-core-implementation.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MCO, Manufacturing Commercial Operations, core implementation, foundational configuration, implementation planning]
 breadcrumb: [Configure, Manufacturing Commercial Operations]

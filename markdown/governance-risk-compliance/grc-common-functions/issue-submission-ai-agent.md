@@ -7,10 +7,10 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI features, AI products, Now Assist, GenAI, generative AI]
-breadcrumb: [Explore, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Explore, ServiceNow Otto for Integrated Risk Management \(IRM\), Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Report a GRC issue AI agent

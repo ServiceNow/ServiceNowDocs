@@ -1,5 +1,5 @@
 ---
-title: IBM licensing in VMware vSphere and Nutanix environments
+title: IBM licensing in VMware vSphere environments
 description: When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports IBM licensing rules for VMware vSphere and Nutanix.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/ibm-licensing-vmware-vsphere-environment.html
@@ -7,14 +7,14 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Virtualization technologies and cloud platforms supported by ASP integrations, CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# IBM licensing in VMware vSphere and Nutanix environments
+# IBM licensing in VMware vSphere environments
 
-When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports IBM licensing rules for VMware vSphereand Nutanix.
+When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports IBM licensing rules for VMware vSphere and Nutanix.
 
 VMware vSphere and Nutanix are virtualization platforms through which you can install and run IBM software products on virtual machines \(VMs\). The Software Asset Management application supports both full capacity and sub-capacity processor value unit \(PVU\), resource value unit \(RVU\), and virtual processor core \(VPC\) licensing for IBM software products in VMware vSphere and Nutanix environments.
 

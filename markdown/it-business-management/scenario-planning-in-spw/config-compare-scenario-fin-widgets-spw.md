@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring scenario planning in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ Role required: admin
 
 3.  Edit an existing widget or create a widget to use it in scenario planning.
 
-<table id="choicetable_rl1_scr_dfc"><thead><tr><th align="left" id="d270799e96">
+<table id="choicetable_rl1_scr_dfc"><thead><tr><th align="left" id="d281083e96">
 
 Choice
 
-</th><th align="left" id="d270799e99">
+</th><th align="left" id="d281083e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d270799e105">
+</th></tr></thead><tbody><tr><td id="d281083e105">
 
 **Edit an existing widget**
 
@@ -50,7 +50,7 @@ Description
 2.  Edit the **Script** field to customize and fetch required financial information into the widget.
 
 
-</td></tr><tr><td id="d270799e126">
+</td></tr><tr><td id="d281083e126">
 
 **Create a widget**
 

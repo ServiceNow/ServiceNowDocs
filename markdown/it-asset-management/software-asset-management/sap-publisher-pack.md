@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -24,7 +24,7 @@ Use the Software Asset Management publisher pack for SAP to manage and optimize 
 
 ## Supported license types
 
-The SAP publisher pack supports licensing for named users, engine measurement, third-party access, and full-usage equivalent.
+The SAP publisher pack supports licensing for named users, engine measurement, third-party access, user subscription, and full usage equivalent.
 
 -   **Named Users**
 
@@ -47,7 +47,7 @@ The SAP publisher pack supports licensing for named users, engine measurement, t
 
     The SAP publisher pack supports engine licenses for both SAP ERP Central Component \(ECC\) applications and SAP S/4 HANA applications.
 
-    **Note:** Starting with the Australia release, revenue-based licensing support is enabled for SAP Engine products. You can use higher value revenue-based products for purchased rights and unit cost. For details on enabling the support for revenue-based licensing, see the knowledge base article [KB1641524](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1641524).
+    **Note:** Starting with the Brazil release, revenue-based licensing support is enabled for SAP Engine products. You can use higher value revenue-based products for purchased rights and unit cost. For details on enabling the support for revenue-based licensing, see the knowledge base article [KB1641524](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1641524).
 
 -   **Digital Access**
 
@@ -92,33 +92,31 @@ The SAP publisher pack supports licensing for named users, engine measurement, t
 
     Reconciliation for the SAP Digital Access software model is done by comparing the Purchased rights with the licenses that you consumed.
 
--   **Full Usage Equivalent \(FUE\)**
+-   **User Subscription and Full Usage Equivalent \(FUE\)**
 
-    The FUE license applies to the users of SAP S/4HANA Cloud applications. FUE is granted to the number of users that are authorized to access specified solution capabilities. A single FUE can be allocated to different use types with a specific weighting factor.
+    Full Usage Equivalent \(FUE\) is a licensing framework for SAP S/4HANA Cloud applications. FUE grants access to the number of users that are authorized to access specified solution capabilities. A single FUE can be allocated across four cloud use types and each use type has a specific weighting factor:
 
-    The FUE framework for licensing provides the required level of access and flexibility to different cloud use types. An FUE license can be distributed to any of the four different cloud use types that have a specified weighting factor.
+    -   Self-Service
+    -   Core
+    -   Advanced
+    -   Development
+    The FUE framework applies to both SAP S/4HANA Cloud, Public Edition and SAP S/4HANA Cloud, Private Edition. The license metric name differs by deployment:
 
-    -   Self-Service Use: This FUE applies to users that are using the SAP S/4HANA Cloud application through self-service portals, providing access to basic business processes, data viewing, and report generation. This use type is intended for users who mainly access information or engage with the application via predefined self-service features. Additionally, it’s used to display and manage use rights, data consumption, and lightweight tasks.
-    -   Core Use: This FUE includes all rights from the Self-Service use type and is designed for users who need restricted access to the SAP S/4HANA Cloud application. Core users can view data, run reports, and run basic business processes. This use type is ideal for users who require access to specific information or perform routine tasks without needing comprehensive functionality.
-    -   Advanced Use: This FUE includes all rights from the Core use type and grants users full access to the SAP S/4HANA Cloud application. This type of access enables users to create and edit data, run reports, and use all available business processes. It’s assigned to users who need extensive functionality that is crucial for managing key business operations.
-    -   Development Use: This FUE grants authorized users the license to access the development tools provided with the SAP S/4HANA Cloud ABAP Environment.
-    The details of the predefined cloud use types are stored in the SAP Cloud Use Types \[samp\_sap\_cloud\_use\_type\] table that's installed with the SAP S/4HANA spoke plugin. For more information, see [License calculation for SAP cloud use types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/license-calculation-sap-cloud.md).
+    -   For SAP S/4HANA Cloud, Public Edition, the metric is named **User Subscription**. In releases earlier than Brazil, this metric was named Full Usage Equivalent.
+    -   For SAP S/4HANA Cloud, Private Edition, the metric is named **Full Usage Equivalent**.
+    The predefined cloud use types for SAP S/4HANA Cloud, Public Edition are stored in the SAP Cloud Use Types \[samp\_sap\_cloud\_use\_type\] table that’s installed with the SAP S/4HANA Spoke plugin \(sn\_s4\_hana\_cld\_spk\).
 
-    |Cloud user type|Weighing factor|
-    |---------------|---------------|
-    |Development User|One FUE = 0.5|
-    |Advanced User|One FUE = 1|
-    |Core User|One FUE = 5|
-    |Self-Service User|One FUE = 30|
+    For SAP S/4HANA Cloud, Private Edition, the use type for each user is determined on the SAP system during use collection. Based on this classification during data collection. For details on uploading the license ruleset for Private Edition, see [Upload the license ruleset for SAP S/4HANA Private Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/upload-license-ruleset-sap-private-cloud.md). For details on SAP S/4HANA Cloud, Public Edition, see [Integrating with SAP S/4HANA Cloud Public Edition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/integrate-with-hana.md).
 
-    An example of FUE license allocation to different cloud user types:
+    For descriptions of each cloud use type, the weighting factors, and how FUE licenses are calculated, see [License calculation for SAP cloud use types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/license-calculation-sap-cloud.md).
 
-    40 SAP S/4HANA Cloud users for advanced use = 40 FUE licenses
+    **Note:** The FUE feature requires the following minimum system requirements:
 
-    75 SAP S/4HANA Cloud users for core use = 15 FUE licenses
-
-    270 SAP S/4HANA Cloud users for self-service use = 9 FUE licenses
-
+    -   Environment: ECS
+    -   Deployment Type: SAP S/4HANA Cloud Private Edition
+    -   SAP S/4HANA Version: 2025
+    -   FPS Level: FPS01 \(02/2026\)
+    -   SAP\_BASIS: 816
 
 ## SAP connection with the ServiceNow AI Platform
 
@@ -145,18 +143,20 @@ Reconciliation runs weekly or on demand to determine your license compliance pos
 
 To view Software license compliance position reports for SAP, navigate to **License usage** &gt; **Reports** &gt; **Software license compliance position** in the Software Asset Workspace.
 
+-   **[SAP publisher pack integration architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sap-integration-architecture.md)**  
+The SAP publisher pack integration architecture defines how licensing, user, engine, and database usage data flows from SAP systems to ServiceNow for software reconciliation and compliance reporting.
 -   **[Tables installed with the SAP publisher pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/component-installed-sap-plugin.md)**  
 Tables are installed with the Software Asset Management Professional for SAP plugin. The tables store data pulled from the SAP systems.
 -   **[Set up SAP integration to establish a connection with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/setup-sap-integration.md)**  
-Configure and set up SAP integration to establish a connection between your Software Asset Management application and SAP.
+Configure SAP integration to establish a connection between your Software Asset Management application and SAP.
 -   **[Establish an SAP connection using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/add-sap-connection.md)**  
 After you have deployed the Advanced Business Application Programming \(ABAP\) program in your SAP system, create a connection profile to establish a connection between your SAP system and your ServiceNow instance using basic authentication.
 -   **[Establish an SAP connection using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/add-sap-connection-oauth.md)**  
 Create a connection profile to establish a connection between your SAP system and your ServiceNow instance using OAuth 2.0 authentication.
--   **[Create entitlements for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlement-sap.md)**  
-Create software entitlements to record your license information for SAP products. You can create entitlements individually or import them from a spreadsheet.
 -   **[Create software models for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/add-software-model-sap.md)**  
 Create software models to record SAP product information.
+-   **[Create entitlements for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlement-sap.md)**  
+Create software entitlements to record your license information for SAP products. You can create entitlements individually or import them from a spreadsheet.
 -   **[Create a custom SAP named user type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-named-user.md)**  
 Create a custom SAP named user type so that you can track and manage your SAP licenses based on the named user type that is specific to your SAP system.
 -   **[Map a role to a named user type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-named-user-type-role-mapping.md)**  

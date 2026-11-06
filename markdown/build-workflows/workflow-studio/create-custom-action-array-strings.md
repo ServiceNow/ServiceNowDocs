@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Script support for complex data, Complex data, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -39,7 +39,7 @@ Use this example to see demonstrations of these operations and steps.
 
 1.  Create an application to store your work.
 
-    You can use App Engine Studio to plan, create, and deploy applications. For more information about building a custom application, see [Building apps in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-app-creation.md).
+    You can use App Engine Studio to plan, create, and deploy applications. For more information about building a custom application, see .
 
     For example, create an application called `My Application`.
 

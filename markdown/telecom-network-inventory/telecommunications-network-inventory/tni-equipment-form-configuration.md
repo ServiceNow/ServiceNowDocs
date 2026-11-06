@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -96,5 +96,5 @@ Storage size of the device, in gigabytes. For example, 2.5 GB.
 **Related topics**  
 
 
-[ee9363b19ca20d3f5503d82662539f1c1d1d3c8f.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment.md)
+[c34dfa3ebe4836be12d0445996e12e130c3bff07.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment.md)
 

@@ -1,13 +1,13 @@
 ---
 title: Help resolve tuition requests agentic workflow for ServiceNow Otto for HRSD
-description: The Help resolve tuition requests agentic workflow evaluates employee-submitted course information against company tuition policies found in knowledge articles to help employees understand whether their proposed course meets reimbursement requirements and directs them through the pre-approval flow.
+description: The Help resolve tuition requests agentic workflow evaluates employee-submitted course information against company tuition policies. It helps employees understand whether their proposed course meets reimbursement requirements and directs them through the pre-approval flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI]
 breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
@@ -15,7 +15,7 @@ breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HR
 
 # Help resolve tuition requests agentic workflow for ServiceNow Otto for HRSD
 
-The Help resolve tuition requests agentic workflow evaluates employee-submitted course information against company tuition policies found in knowledge articles to help employees understand whether their proposed course meets reimbursement requirements and directs them through the pre-approval flow.
+The Help resolve tuition requests agentic workflow evaluates employee-submitted course information against company tuition policies. It helps employees understand whether their proposed course meets reimbursement requirements and directs them through the pre-approval flow.
 
 ## Help resolve tuition requests overview
 

@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -331,5 +331,5 @@ Unit in which weight of the asset is measured. Select any one of the following.-
 **Related topics**  
 
 
-[49fbb00d55deb1d629af60c609556de00b5cd94c.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md)
+[ede366041141768232d5979c423fe2306515ea1d.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md)
 

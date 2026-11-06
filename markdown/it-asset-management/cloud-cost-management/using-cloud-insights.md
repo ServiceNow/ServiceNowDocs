@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -44,4 +44,6 @@ Create a shared cost allocation policy with  different allocation types to spl
 Set up or update the preferred currency options for your cloud cost and usage data to gain reporting flexibility. These currency options become available for Cloud Cost Management users to choose from.
 -   **[Compare MetricBase data with spend data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/compare-metricbase-spend.md)**  
 Compare MetricBase \(Clotho\) data with your Spend data for Amazon Web Services \(AWS\), Microsoft Azure, and Google Cloud Platform \(GCP\) to diagnose and troubleshoot Cloud Cost Management billing issues.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
 

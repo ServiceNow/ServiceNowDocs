@@ -7,8 +7,8 @@ release: australia
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2026-05-28"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Language Asset Management, Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -26,6 +26,8 @@ Download your glossary as a CSV or spreadsheet file to share with stakeholders, 
 If you plan to export a glossary to a CSV \(comma-separated values\) file, confirm that your local settings support non-ASCII characters.
 
 Translations into custom \(self-localized\) languages can't be exported. Only glossary translations into default supported languages can be exported using this method.
+
+Glossaries can be exported regardless of source \([upload method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-lam-upload-glossaries.md), or [generated using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-create-glossary-using-ai.md)\).
 
 ## Procedure
 
@@ -52,6 +54,8 @@ Translations into custom \(self-localized\) languages can't be exported. Only gl
 
 **Related topics**  
 
+
+[Create a glossary using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-create-glossary-using-ai.md)
 
 [Upload glossaries to Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-lam-upload-glossaries.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Spotlight
 classification: spotlight
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up Spotlight, Ranking records with Spotlight, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---

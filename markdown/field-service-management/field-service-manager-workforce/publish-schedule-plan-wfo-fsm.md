@@ -7,7 +7,7 @@ release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduling, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---

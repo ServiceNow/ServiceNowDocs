@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [CAB in Service Operations Workspace, CAB Workbench in Service Operations Workspace]
 breadcrumb: [Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
@@ -25,7 +25,7 @@ Role required: sn\_change\_cab.cab\_manager
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the List icon \(\[Omitted image "sow-list.png"\] Alt text: List icon.\).
+2.  Select the List icon \(\[Omitted image "sow-list.png"\] Alt text:\).
 
 3.  In the **Change Advisory Board** tab, select **My upcoming CAB meetings**.
 
@@ -70,13 +70,13 @@ Role required: sn\_change\_cab.cab\_manager
 
     6.  Select **Resume** to resume the timer of the current agenda item.
 
-    7.  Select **Next item** if you want to skip an agenda item.
+    7.  To skip an agenda item, select **Next item**.
 
         **Note:** The current agenda item is moved as the last card in the **Up next** tab. The next agenda item in the list displays.
 
     8.  In the **Up next** tab, select the second or any subsequent agenda item to move it to the top of the list by selecting **Make next agenda item**.
 
-    9.  In the **Deferred** tab, view the deferred agenda items and select an agenda item and select **Restore** to restore them for discussion.
+    9.  In the **Deferred** tab, select a deferred agenda item and then select **Restore** to restore it for discussion.
 
         The agenda item moves to the **Up next** tab.
 
@@ -84,12 +84,12 @@ Role required: sn\_change\_cab.cab\_manager
 
 8.  In the contextual menu, view the meeting details, attendees list, and take meeting notes.
 
-    -   Select the meeting information icon \(\[Omitted image "cm-icon-meeting-info.png"\] Alt text: Meeting information icon.\) to view the meeting details.
-    -   Select the attendees icon \(\[Omitted image "cm-icon-attendee.png"\] Alt text: Attendees icon.\) to view the list of attendees along with their response to the meeting invitation.
+    -   Select the meeting information icon \(\[Omitted image "cm-icon-meeting-info.png"\] Alt text:\) to view the meeting details.
+    -   Select the attendees icon \(\[Omitted image "cm-icon-attendee.png"\] Alt text:\) to view the list of attendees along with their response to the meeting invitation.
 
         The green circle mark next to the name of attendees indicates they are currently connected to the meeting.
 
-    -   Select the notes icon \(\[Omitted image "cm-icon-meeting-notes.png"\] Alt text: Notes icon.\) to enter meeting notes and save into the CAB meeting record or email it to the attendees.
+    -   Select the notes icon \(\[Omitted image "cm-icon-meeting-notes.png"\] Alt text:\) to enter meeting notes and save into the CAB meeting record or email it to the attendees.
 
         **Note:** Only the CAB manager or delegates can enter the notes for the overall meeting. Other attendees in the meeting can review the notes in the read-only mode.
 

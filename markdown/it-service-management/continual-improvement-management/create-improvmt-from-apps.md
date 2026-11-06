@@ -7,7 +7,7 @@ release: australia
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an improvement request, Continual Improvement Management, IT Service Management]
 ---

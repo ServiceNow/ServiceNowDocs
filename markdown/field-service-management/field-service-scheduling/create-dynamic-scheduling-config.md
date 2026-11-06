@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 22
 breadcrumb: [Dynamic Scheduling, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -648,22 +648,6 @@ Matching Agent Efficiency Criteria for Dynamic Scheduling**Note:** Needs Field S
 </td><td>
 
 Assigns a work order task to an agent by matching the Agent Efficiency criteria specified in the work order task with the agent's efficiency criteria.
-
-</td><td>
-
-Scripted
-
-</td><td>
-
-wm\_task
-
-</td></tr><tr><td>
-
-Matching Demand Channel For Dynamic Scheduling**Note:** Needs Workforce Optimization and Territory model to be enabled.
-
-</td><td>
-
-Identifies technicians who support the demand channel of a work order task in the selected territory during auto-assignment.
 
 </td><td>
 

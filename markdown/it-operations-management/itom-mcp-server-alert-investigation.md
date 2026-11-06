@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-mcp-server-alert-investigation.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-14"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [ITOM MCP Server, investigate, analyze, alert, natural language prompts, AI workflow]
 breadcrumb: [Use the ITOM MCP Server Console, AI in ITOM, IT Operations Management]

@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -54,4 +54,6 @@ Enable the Asset put away task explicitly for your stockroom to put away the ass
 As an enterprise asset manager or enterprise asset technician, receive enterprise and consumable assets at stockrooms from any workflow at a centralized location on the stockroom form in the Enterprise Asset Workspace.
 -   **[Manage stockrooms with inventory reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/manage-stockroom-inventory-reports.md)**  
 Track and manage stockrooms efficiently by evaluating the inventory reports in the Enterprise Asset Workspace.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
 

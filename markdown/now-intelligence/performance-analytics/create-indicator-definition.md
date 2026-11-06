@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -17,6 +17,10 @@ breadcrumb: [Design your indicator solution, Configure fundamentals, Performance
 You can create a new KPI Composer indicator definition directly from the relevant artifact in the Data Definition tab. Fill the indicator definition with the necessary information for creating a Performance Analytics indicator.
 
 ## Before you begin
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 You have an existing [KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/kpi-composer-projects.md) with a complete draft of the [KPI tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/design-kpi-tree.md) in the Analytics tab. You also need technical knowledge of Performance Analytics indicators.
 
@@ -66,15 +70,15 @@ You can create an indicator definition for every artifact in your project, wheth
 
 8.  Decide whether an Automated, Formula, or Manual indicator best represents the information in the artifact.
 
-<table id="choicetable_tkh_r5y_4jb"><thead><tr><th align="left" id="d175014e276">
+<table id="choicetable_tkh_r5y_4jb"><thead><tr><th align="left" id="d177619e289">
 
 Indicator Type
 
-</th><th align="left" id="d175014e279">
+</th><th align="left" id="d177619e292">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d175014e285">
+</th></tr></thead><tbody><tr><td id="d177619e298">
 
 **Automated**
 
@@ -82,7 +86,7 @@ Description
 
 An automated indicator uses an indicator source as its data set. The indicator source specifies a table or database view, conditions for filtering records from that source, and the frequency at which you expect to display the data. The indicator applies an aggregator and optional conditions to this data.
 
-</td></tr><tr><td id="d175014e297">
+</td></tr><tr><td id="d177619e310">
 
 **Formula**
 
@@ -90,7 +94,7 @@ An automated indicator uses an indicator source as its data set. The indicator s
 
 Calculate scores from the scores of one or more other indicators. Apply mathematical operations or a preset method, such as the method to calculate the gap between an indicator score and the indicator target.
 
-</td></tr><tr><td id="d175014e309">
+</td></tr><tr><td id="d177619e322">
 
 **Manual**
 

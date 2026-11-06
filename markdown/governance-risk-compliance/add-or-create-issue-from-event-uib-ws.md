@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [BCM, issues, exercise]
-breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Add or create an issue from an exercise
@@ -31,15 +31,15 @@ The **Issues** related list appears on the exercise record when GRC: Profiles is
 
 2.  Complete the following steps to create or manage an issue from an exercise.
 
-<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d107900e109">
+<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d109060e109">
 
 Step
 
-</th><th align="left" id="d107900e112">
+</th><th align="left" id="d109060e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d107900e118">
+</th></tr></thead><tbody><tr><td id="d109060e118">
 
 **Create an issue from the exercise record**
 
@@ -66,11 +66,13 @@ The classification, issue source, and issue source reference are set automatical
 
 Use this option when you want to associate an existing issue with the exercise as an additional source. The exercise is recorded as a secondary source of the issue.
 
+\[Omitted image "add-button-exercise.png"\] Alt text: Add button in exercise record.
+
 5.  To remove an issue, select it from the list and select **Remove**.
 
 The issue association is removed from the exercise; the issue record isn't deleted from the instance.
 
-</td></tr><tr><td id="d107900e191">
+</td></tr><tr><td id="d109060e196">
 
 **Link an exercise from the issue record**
 
@@ -94,7 +96,7 @@ The **Exercises** tab appears as its own category under **Impacted items**, sepa
     \[Omitted image "issues-section-in-pdf.png"\] Alt text: Issue details in the report.
 
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 
 **Related topics**  
 

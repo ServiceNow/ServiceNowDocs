@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/certificate-revocation.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 1
+last_updated: "2026-11-06"
+reading_time_minutes: 2
 breadcrumb: [Configure, Code Signing, Platform Security]
 ---
 
@@ -23,4 +23,13 @@ This topic provides the high-level process overview for securely revoking certif
 **Note:**
 
 Your **update set**expires after the time window defined by the **`com.snc.kmf.signature.validity_window`** property. If it expires, you can export a new signed update set from the trusted instance. This validity window applies to all update set operations, including export, import, and enabling Code Signing. This validity window is not related to the request time window that you specify when creating the request.
+
+-   **[Export Revocation Request Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/export_certificate.md)**  
+Start the certificate revocation process by selecting the certificate that you want to revoke. Provide the required configuration properties. Export this transaction as part of an update set, which is imported into the protected instance for approval and execution.
+-   **[Import the revocation request configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/import-certificate.md)**  
+Import the update set into the protected instance to initiate the certificate revocation process. Approvers receive email notifications and they should complete the approval workflow before the certificate is revoked. The approval means that the revocations are confirmed, authorized, and traceable for security and compliance purposes.
+-   **[Approve certificate revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cerificate-revocation-approval.md)**  
+Review and approve certificate revocation requests from the email approval notifications that are sent to your registered email address. Review the approval notification and select the **Click here to approve** or **Click here to reject** link to access the protected instance and act. You can also access the approval request and the code-signing quorum request directly from the email.
+
+**Parent Topic:**[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/config-code-signing.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/schedule-optimization-components.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Field Service Management]
 ---
@@ -138,7 +138,7 @@ Planner role for the Schedule Optimization application. This role allows adminis
 </table>-   **[Tables installed with FSM for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/tables-installed-with-fsm-for-schedule-optimization.md)**  
 The following tables are installed with the Field Service Management plugin, but are only used by Schedule Optimization.
 -   **[Objectives and constraints used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/hard-soft-constraints.md)**  
-Objectives and constraints are optimization features that determine how tasks are assigned to technicians in Schedule Optimization.
+Objectives and constraints are optimization features that determine how tasks are assigned to agents in Schedule Optimization.
 -   **[Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/schedule-optimization-properties.md)**  
 You can set parameters that control how optimization runs.
 -   **[Schedule Optimization integration user access requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/schedule-optimization-integration-user-access-requirements.md)**  

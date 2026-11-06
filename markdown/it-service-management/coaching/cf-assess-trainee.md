@@ -7,7 +7,7 @@ release: australia
 product: Coaching
 classification: coaching
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Coaching your trainee, Training agents using Coaching with Learning, Coaching, IT Service Management]
 ---

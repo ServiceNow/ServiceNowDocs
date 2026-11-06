@@ -7,8 +7,8 @@ release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 breadcrumb: [Reference, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -110,7 +110,7 @@ The default view of the case details provides the following options:
 
     -   **Details**
 
-        Displays case details including the description, workplace service, requesting employee, case opener, and workplace location. Also displays the request date, expected start time, and due date.
+        Displays the details of the case such as the description, the workplace service using which the case is requested, the employee for whom the case is requested, the user who opened the case, the workplace location for which the case is created, the date when the case was requested and other details like expected start time and due date.
 
         -   If you’re viewing a move case, you can view the details such as the **From location**, **To location**, **Reason** for move, **Requested move date** and the **Due date** by when the move must be performed.
         -   If you’re viewing a maintenance case, you can view the details such as the **Product model** of an asset and **Enterprise asset**.
@@ -161,7 +161,7 @@ The default view of the case details provides the following options:
     When you open a move case, the following related lists are displayed:
 
 
-The Case details page provides the following options.
+The case details page provides you with the following action options:
 
 -   **Edit case**
 
@@ -176,7 +176,7 @@ The Case details page provides the following options.
     The **Assign to me** option enables you to assign the case to yourself if the case is unassigned and if the case belongs to the assignment group to which you belong. The option is displayed only if the case is unassigned.
 
 
-Select the action menu \(\[Omitted image "actions.png"\] Alt text: Action menu icon.\) on the top-right header of the case details page to view further actions listed below:
+Select the action menu \(\[Omitted image "wsdagentmob-actions.png"\] Alt text: Menu icon\) on the top-right header of the case details page to view further actions listed below:
 
 -   **Add comments**
 

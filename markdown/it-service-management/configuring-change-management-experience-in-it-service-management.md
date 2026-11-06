@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/configuring-change-management-experience-in-it-service-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Configuring the fulfiller experience in Simplified IT Service Management, Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]
 ---

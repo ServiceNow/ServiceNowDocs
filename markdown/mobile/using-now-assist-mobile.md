@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/using-now-assist-mobile.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Mobile, Mobile Platform]
 ---
@@ -20,14 +20,12 @@ Generate resolution notes in your Mobile app that summarize your work order task
 Standard chat on mobile delivers an intuitive, text-based support experience within a static chat window, enhanced by AI-powered responses and integrated knowledge resources. You can interact with a Virtual Agent to resolve issues, access knowledge articles, and request catalog items all in one place.
 -   **[Using enhanced chat on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-enhanced-chat-mobile.md)**  
 Enhanced Chat on mobile offers a dynamic conversational support experience that integrates powerful AI-driven search and chat capabilities. You can seamlessly switch between multiple conversations, receive synthesized responses with inline citations, and access both knowledge articles and catalog items.
--   **[Using premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-premium-chat.md)**  
-Premium Chat delivers a hybrid conversational experience that combines the flexibility of web-based Now Assist capabilities with the native mobile interface.
 -   **[Using Now Assist web search on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-na-web-search-mobile.md)**  
 Web search mode for Now Assist lets you perform an internet search from within Now Assist, showing external results from outside your organization.
 -   **[Generate a record summary on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/generate-a-record-summary-on-mobile.md)**  
 Generate a summary of a record in your Now mobile app using Now Assist.
 -   **[Using the prominent action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-prominent-action-button.md)**  
-Use the prominent action button to quickly access your Now Assist agent chat no matter where you're in the app.
+Use the prominent action button to quickly access your Now Assist agent chat no matter where you are in the app.
 -   **[Using Voice Input for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/na-using-voice-to-text.md)**  
 The Voice Input feature allows users to easily transcribe spoken words into written text. Voice-to-text can be accessed directly from the search bar or Otto chat.
 -   **[Using People Genius results on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-people-genius-results.md)**  

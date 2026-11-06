@@ -7,7 +7,7 @@ release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -113,5 +113,7 @@ Workplace case record that is created for assignment changes of the user.Workpla
 
 [User Workplace Profile form]()
 
-[Resolving custom variant issues in Workplace Central]()
+[]()
+
+[]()
 

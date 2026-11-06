@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/review-and-approve-quote.html
 release: australia
 topic_type: task
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [approvals, quote, approve, review]
 breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
@@ -50,7 +50,7 @@ Approval requests may be configured to work in different ways:
     You can access approval requests from:
 
     -   Email notification from the approval system
-    -   Approval section in your CSM/FSM Configurable Workspace
+    -   Approval section in your CRM Workspace
     -   Dedicated approval dashboard or approval center
     -   Directly on the quote record by clicking **View Approval**
 2.  Click on the approval request to open the quote details.

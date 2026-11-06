@@ -7,7 +7,7 @@ release: australia
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Creating business calendars, Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Create a definition record for an individual parent or child business calendar. 
 
 ## Before you begin
 
-Role required: business\_calendar\_admin
+Role required: admin
 
 ## About this task
 

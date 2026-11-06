@@ -7,9 +7,9 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tutorial: add a new change management state, Reference, Change Management, IT Service Management]
+breadcrumb: [Tutorial: Add a new change management state, Reference, Change Management, IT Service Management]
 ---
 
 # Create a process flow record
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Open the **Normal Change – Implement state** record.
 
-3.  Open the form context menu and click **Insert and Stay** to create a duplicate record.
+3.  Open the form context menu and select **Insert and Stay** to create a duplicate record.
 
 4.  Modify the following fields with new values.
 
@@ -39,10 +39,10 @@ Role required: admin
 
     \[Omitted image "NewStateTutProcFlow1.png"\] Alt text: Process flow
 
-5.  Click **Update**.
+5.  **Update**.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: Add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)
 
 **Previous topic:**[Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateNewUIAction.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/somt-map-sid-catalog.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -16,9 +16,7 @@ The Sales CRM for Telecommunications PSR catalog entities, product offering, pro
 
 ## TMF SID model
 
-The TMF SID model is an industry-agreed framework by TM Forum that provides a common language and data model for communications service providers \(CSPs\). It defines business entities such as customer, product, service, and resource and their relationships across enterprise systems. The Sales CRM for Telecommunications PSR catalog maps its core entities to the product, service, and resource layers of the TMF SID model. The TMF APIs that the catalog supports, including TMF 620 and TMF 633, are also based on the SID model.
-
-\[Omitted image "somt-psr-sid.jpg"\] Alt text: Diagram showing relationships between Product Offering, Product Specification, CFSS, RFSS, and Resource Specification entities in TMF SID model.
+The TMF SID model is an industry-agreed framework by TM Forum that provides a common language and data model for communications service providers \(CSPs\). It defines business entities such as customer, product, service, and resource and their relationships across enterprise systems. The Sales CRM for Telecommunications PSR catalog maps its core entities to the product, service, and resource layers of the TMF SID model. The TMF APIs that the catalog supports, including TMF 620 and TMF 633, are also based on the SID model.\[Omitted image "somt-psr-sid-example.jpg"\] Alt text: Diagram showing relationships between Product Offering, Product Specification, CFSS, RFSS, and Resource Specification entities in TMF SID model.
 
 ## Product offering
 
@@ -81,7 +79,7 @@ A resource-facing service specification \(RFSS\) defines the technical character
 
 ## Product definition in the Sales CRM for Telecommunications catalog
 
-The following example shows how the SASE Custom Solution Bundle is defined in the Sales CRM for Telecommunications catalog. The bundle product offering contains three child product offerings, internet connectivity, SD WAN GW, and SD WAN Controller each of which is linked to its own product specification. The product specifications are mapped to service specifications. For example, Site Connectivity PS is mapped to SD WAN Edge and Connectivity service specifications, which in turn require resource specifications such as Edge Router, VNF, OLT Port, and ONT.
+The following example shows how the SASE Custom Solution Bundle is defined in the Sales CRM for Telecommunications catalog. The bundle product offering contains three child product offerings: internet connectivity, SD WAN GW, and SD WAN Controller. Each child offering is linked to its own product specification, which maps to service specifications. For example, Site Connectivity PS maps to SD WAN Edge and Connectivity service specifications. Those service specifications require resource specifications such as Edge Router, VNF, OLT Port, and ONT.
 
 \[Omitted image "somt-psr-sid-example.jpg"\] Alt text: Catalog hierarchy showing SASE Custom Solution Bundle with three child offerings mapped to product specifications and resource specifications.
 

@@ -7,7 +7,7 @@ release: australia
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Complaint Management, Common applications, Financial Services Operations \(FSO\)]
 ---
@@ -42,7 +42,7 @@ Each template is associated with the Complaint Case \[sn\_bom\_compl\_service\] 
 
     -   Click **New** to create a new channel that gets added to the response template.
 
-        **Note:** For information on Response Template Channel form fields, see Create a response template channel.
+        **Note:** For information on Response Template Channel form fields, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-templated-snippets.md).
 
     -   Click **Edit** to access and add an existing channel to the response template.
     The Response Template form returns.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/create-qr-login.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile authentication, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -55,7 +55,7 @@ Role required: none
 
     **Note:** ServiceNow instances do not provide a method to create QR codes, however there are many online resources you can use to create QR codes using the JSON created in the previous steps.
 
-3.  Use your QR code to access the mobile app. For steps to use a QR code with the app, see [Add a ServiceNow account to ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/login-end-user.md).
+3.  Use your QR code to access the mobile app. For steps to use a QR code with the app, see [Add a ServiceNow instance to ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/login-end-user.md).
 
 
 **Parent Topic:**[Mobile authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-authentication.md)

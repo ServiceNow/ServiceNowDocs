@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-predictiveaiforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
@@ -408,7 +408,7 @@ Australia
 
 Customer Service Management is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=australia&ft:locale=en-US).
 
-Now Assist features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
+Now Assist features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see [Install AI plugins in AI Admin Hub](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
 
 Starting with Vancouver Patch 4, ServiceNow Otto for CSM is supported.
 
@@ -601,6 +601,8 @@ Australia
 -   Simplify metadata management by granting developer roles and privileges to your granular admin users.
 
  See [Intelligence for CSM](https://www.servicenow.com/docs/access?context=intelligence-csm&family=australia&ft:locale=en-US) for more information.
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)

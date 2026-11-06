@@ -1,20 +1,20 @@
 ---
-title: Activate Change Management -Approval policy
-description: You can activate the Change Management -Approval policy plugin \(com.sn\_chg\_pol\_appr\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+title: Activate Change Management - Approval policy
+description: Activate the Change Management - Approval policy plugin \(com.sn\_chg\_pol\_appr\) with the admin role. It includes demo data and activates related plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/activate-change-approval-policy.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
-# Activate Change Management -Approval policy
+# Activate Change Management - Approval policy
 
-You can activate the Change Management -Approval policy plugin \(com.sn\_chg\_pol\_appr\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Change Management - Approval policy plugin \(com.sn\_chg\_pol\_appr\) with the admin role. It includes demo data and activates related plugins.
 
 ## Before you begin
 
@@ -37,15 +37,15 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with Change Management -Approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-with-approval-policy.md)**  
-Several types of components are installed with activation of the Change Management -Approval policy plugin, that includes tables.
+-   **[Components installed with Change Management - Approval Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-with-approval-policy.md)**  
+Several types of components are installed with activation of the Change Management - Approval Policy plugin, including tables.
 
 **Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -67,7 +67,7 @@ Several types of components are installed with activation of the Change Manageme
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -75,7 +75,7 @@ Several types of components are installed with activation of the Change Manageme
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -83,7 +83,7 @@ Several types of components are installed with activation of the Change Manageme
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 

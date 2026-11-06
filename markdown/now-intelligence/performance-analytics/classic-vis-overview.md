@@ -20,7 +20,7 @@ Present analytics on Core UI dashboards through reports and Performance Analytic
 
 Visualizations in the Core UI tools include dashboards, reports, and analytics hubs. These visualizations empower administrators and other stakeholders to address statuses and correctly evaluate trends with real-time data.
 
-**Note:** For net new instances, reporting, dashboards, and Performance Analytics in the Core UI are replaced in the Australia release with Platform Analytics experience functionality:
+**Note:** For net new instances, reporting, dashboards, and Performance Analytics in the Core UI are replaced in the Brazil release with Platform Analytics experience functionality:
 
 -   [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md)
 -   [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md)

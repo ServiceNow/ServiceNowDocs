@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-create-blueprint.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a success blueprint, Manage engagements, Customer success, Use, Customer Success Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Navigate to the **Customer Success Management** &gt; **All Engagements** and open an engagement record.
 

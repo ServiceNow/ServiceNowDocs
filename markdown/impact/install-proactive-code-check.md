@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/install-proactive-code-check.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Proactive Code Check, Impact reference, Impact]
+breadcrumb: [Proactive Code Check, General reference, Impact reference, Impact]
 ---
 
 # Use Proactive Code Check for the Impact Store Application

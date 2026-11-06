@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/exploring-ot-employee-portal.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
 breadcrumb: [Employee Center for OT, Operational Technology]
@@ -36,7 +36,7 @@ You can access the Employee Center for OT on both the desktop and the Now Mobile
 
 |Feature|Description|
 |-------|-----------|
-|Report an OT incident without an OT incident role|If you're not assigned an OT incident role but still need to report an OT incident, you can do so in real time using the Report OT incident option.|
+|Report an OT incident without an OT incident role|Use the Report OT incident option to report an OT incident in real time, if you're not assigned an OT incident role.|
 |Search knowledge articles|If you're looking for additional information, you can search for knowledge articles directly in the Employee Center using keywords.|
 
 ## What to explore next

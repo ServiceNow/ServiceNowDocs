@@ -7,7 +7,7 @@ release: australia
 product: Workflow Activities
 classification: workflow-activities
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,14 +24,14 @@ For information about configuring different types of activities, click an activi
 
 ## Core activities provided in the base system
 
--   [Approval and rollback workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/c_ApprovalAndRollbackActivities.md)
--   [Condition Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_ConditionActivites.md)
--   [Notification workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_NotificationActivity.md)
+-   [Approval and rollback workflow activities]()
+-   [Condition Workflow activities]()
+-   [Notification workflow activity]()
 -   [Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NotifyActivities.md)
 -   [Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/legacy-workflow/workflows-as-subflows.md)
 -   [Task workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_TaskActivities.md)
--   [Timer workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/c_TimerActivities.md)
--   [Utility workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/c_UtilityActivities.md)
+-   [Timer workflow activities]()
+-   [Utility workflow activities]()
 
 ## Activities provided with Orchestration
 

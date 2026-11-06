@@ -7,8 +7,8 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 keywords: [Discovery role, Pattern role]
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -105,6 +105,14 @@ Can view, create, edit, and publish patterns. The role enables users to run disc
 
 </td></tr><tr><td>
 
+PD user
+
+</td><td>
+
+Has read-only access to **Discovery Pattern Log**.
+
+</td></tr><tr><td>
+
 PD admin
 
 </td><td>
@@ -134,6 +142,14 @@ PD MID
 </td><td>
 
 Not assigned to a user directly but to the MID Server record or the user under which the MID Server runs. The role enables the MID Server to interpret and run pattern-based probes.
+
+</td></tr><tr><td>
+
+Discovery operator
+
+</td><td>
+
+Can run or cancel existing discovery schedules and view discovery-related data, including logs, ECC queue payloads, device history, and MID Server logs. Can't create, edit, or delete records.Starting with Discovery Admin Workspace v1.22.0, has read-only access to the workspace and can run existing schedules with **Discover now**. For more information, see Discovery Operator role access.
 
 </td></tr><tr><td>
 

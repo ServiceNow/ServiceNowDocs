@@ -1,20 +1,20 @@
 ---
 title: Configure a change request to monitor outside maintenance schedule conflicts
-description: When a change request is configured to display the conflicts that are outside the maintenance schedule, conflict detection indicates whether the planned start and end dates occur outside the maintenance window or not. By reviewing the conflicts that are detected, you can modify the change schedule.
+description: Configure a change request to detect conflicts outside the maintenance window. Conflict detection flags planned start and end dates that fall outside the maintenance schedule, so you can modify the change schedule accordingly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/monitor-maintenance-schedule.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Conflict detection, Configure, Change Management, IT Service Management]
 ---
 
 # Configure a change request to monitor outside maintenance schedule conflicts
 
-When a change request is configured to display the conflicts that are outside the maintenance schedule, conflict detection indicates whether the planned start and end dates occur outside the maintenance window or not. By reviewing the conflicts that are detected, you can modify the change schedule.
+Configure a change request to detect conflicts outside the maintenance window. Conflict detection flags planned start and end dates that fall outside the maintenance schedule, so you can modify the change schedule accordingly.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: personalize\_ui or admin
 
 ## About this task
 
-The Outside maintenance schedule check box is informational and the instance sets this value and disregards any changes that you make to this check box. The check box is selected by default if either of the following actions occur.
+The **Outside maintenance schedule** check box is informational. The instance sets its value and disregards any changes that you make to it. The check box is selected automatically when either of the following occurs:
 
--   The planned start and end dates in the change request with an associated configuration item \(CI\) are compared to the maintenance schedule and are determined to be outside the schedule.
+-   The planned start and end dates in the change request with an associated CI are outside the maintenance schedule.
 -   Affected CIs associated with the change request are checked against their assigned maintenance schedules, if any.
 
 **Note:** Only the maintenance window for the primary CI or affected CIs is checked; the upstream and downstream items are not checked.
@@ -35,11 +35,11 @@ The Outside maintenance schedule check box is informational and the instance set
 
 2.  If the **Outside maintenance schedule** field does not appear, add the field to the form.
 
-    1.  Click the context menu icon and then click **Additional actions** &gt; **Configure** &gt; **Form Layout**.
+    1.  Select the form context menu icon, and then select **Additional actions** &gt; **Configure** &gt; **Form Layout**.
 
     2.  Move **Outside maintenance schedule** to the Selected list.
 
-    3.  Click **Save**.
+    3.  Select **Save**.
 
 
 ## Result
@@ -54,6 +54,8 @@ When you save a change request that is outside the maintenance schedule, a warni
 [Detect change conflicts]()
 
 [Create blackout and maintenance schedules in Change Management]()
+
+[Schedule types in conflict detection]()
 
 [Conflict calendar]()
 

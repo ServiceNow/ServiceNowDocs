@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Next-Gen SIEM integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,15 +20,7 @@ Install and configure the CrowdStrike Next-Gen SIEM integration for Security Ope
 
 Role required: sn\_si.ingestion\_profile\_admin
 
-Minimum scopes needed to configure CrowdStrike Next-Gen SIEM in ServiceNow® instance include:
-
-|Action|Scope Needed|
-|------|------------|
-|Fetch Detections|Alerts- Read|
-|Update Comments/State|Alerts- Write|
-|Create Search Query Job|NGSIEM- Write|
-|Fetch Search Query Job|NGSIEM- Read|
-|Fetch Correlation Rules|Correlation Rules- Read|
+**Note:** Users with the sn\_si.admin role can perform all operations available to a profile admin because this role inherits the required permissions by default.
 
 ## Procedure
 

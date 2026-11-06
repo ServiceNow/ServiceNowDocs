@@ -7,7 +7,7 @@ release: australia
 product: Upgrade Management
 classification: upgrade-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -38,9 +38,4 @@ Create skipped record rules, based on your specified conditions, to define custo
 Accelerate your upgrades using the Upgrade Plan that automates the installation of applications during upgrades, giving you a seamless upgrade experience. It helps you define applications and target versions to be installed in your instance.
 
 **Parent Topic:**[Using Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-using.md)
-
-**Related topics**  
-
-
-[Auto-upgrade]()
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/reset-project.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Reset a project in Visual Studio Code
@@ -44,5 +44,5 @@ The project is reset to its original state.
 **Related topics**  
 
 
-[Create a project in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-project.md)
+[Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/create-project.md)
 

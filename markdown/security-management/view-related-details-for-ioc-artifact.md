@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/view-related-details-for-ioc-artifact.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Related details for case artifacts, Security artifact analysis, Security Case Management, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---

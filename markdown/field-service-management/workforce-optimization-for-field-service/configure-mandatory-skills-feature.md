@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mandatory skills, Manage skills, Users, Set up workforce, Configure, Field Service Management]
 ---
@@ -90,4 +90,8 @@ Contains a list of tables for which the **Skills** field has already been migrat
 -   **Default value**: none
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Skills table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/skills-table-fields.md)
+

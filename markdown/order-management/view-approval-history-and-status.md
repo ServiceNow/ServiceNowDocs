@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/view-approval-history-and-status.html
 release: australia
 topic_type: task
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [approvals, history, status, tracking]
 breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]

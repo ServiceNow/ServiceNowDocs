@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/common-dashboard-tasks.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Dashboard record, Clear dashboard filters]
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
@@ -19,7 +19,7 @@ The majority of tasks you need to perform on a dashboard are available in the da
 
 \[Omitted image "db-more-actions-menu.png"\] Alt text: The more actions menu.
 
-Anyone can duplicate, print, or bookmark any dashboard to which they have access. If you have filters on the dashboard, you can clear all their values in one action. If you own a dashboard, you can also share or delete it. When you share a dashboard, you can let the user with whom you share the dashboard edit it or share it with more users. Dashboard administrators \(dashboard\_admin role\) and ServiceNow AI Platform admins can perform any of these actions on any dashboard, or open the underlying PAR Dashboard \[par\_dashboard\] record.
+Anyone can duplicate, print, or [bookmark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md) any dashboard to which they have access. If you have filters on the dashboard, you can clear all their values in one action. If you own a dashboard, you can also share or delete it. When you share a dashboard, you can let the user with whom you share the dashboard edit it or share it with more users. Dashboard administrators \(dashboard\_admin role\) and ServiceNow AI Platform admins can perform any of these actions on any dashboard, or open the underlying PAR Dashboard \[par\_dashboard\] record.
 
 -   **[Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-db-in-ac.md)**  
 In the Platform Analytics experience, you can create shareable dashboards with data visualizations, filters, and other elements. You can create elements and add existing elements from the inline editor.
@@ -56,4 +56,6 @@ You can delete a dashboard that is no longer useful. The Analytics Overview invo
 [Technical dashboards]()
 
 [Dashboard reference]()
+
+[Dashboard terms]()
 

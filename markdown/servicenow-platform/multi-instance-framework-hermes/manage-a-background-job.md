@@ -7,7 +7,7 @@ release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Hermes, Hermes settings, Hermes configuration, background jobs, hermes\_admin, maint, scheduled jobs]
 breadcrumb: [Managing Hermes settings, Administer, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
@@ -23,7 +23,7 @@ Role required: maint or hermes\_admin
 
 ## About this task
 
-For a list of Hermes background jobs and their default frequencies, see [Hermes background jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-settings-background-jobs.md).
+For a list of Hermes background jobs and their default frequencies, see .
 
 ## Procedure
 

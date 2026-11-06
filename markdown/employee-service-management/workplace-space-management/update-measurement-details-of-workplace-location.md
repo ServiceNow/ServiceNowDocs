@@ -7,7 +7,7 @@ release: australia
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -108,7 +108,7 @@ The size of the workplace location is updated.
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

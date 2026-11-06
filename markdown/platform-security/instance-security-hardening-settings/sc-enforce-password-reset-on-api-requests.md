@@ -1,5 +1,5 @@
 ---
-title: Enforce password reset on api requests
+title: Enforce password reset on API requests
 description: Manage how the password reset functionality operates on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-enforce-password-reset-on-api-requests.html
@@ -7,12 +7,12 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Enforce password reset on api requests
+# Enforce password reset on API requests
 
 Manage how the password reset functionality operates on your instance.
 
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+true
 
 </td></tr><tr><td>
 

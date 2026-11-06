@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-resolving-ai-recommendations.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [use]
-breadcrumb: [Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Resolving AI recommendations in Activity Center

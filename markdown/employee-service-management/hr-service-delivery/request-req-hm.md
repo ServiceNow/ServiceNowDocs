@@ -7,9 +7,8 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [create job requisition, request job opening, hiring manager requisition, new job request, raise requisition]
 breadcrumb: [Use, Hiring tab, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -48,6 +47,9 @@ Role required: sn\_ta\_hiring\_core.hiring\_manager
 ## Result
 
 A job requisition is created and in New state.
+
+-   **[Use Now Assist to open a job requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/request-req-hm-now-assist.md)**  
+Use Now Assist in Virtual Agent to create or duplicate a job requisition for a vacancy that you want to fill in your organization.
 
 **Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/use-hiring.md)
 

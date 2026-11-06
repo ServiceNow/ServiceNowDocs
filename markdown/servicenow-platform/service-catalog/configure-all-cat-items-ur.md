@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog configuration for Universal Request, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ For catalog items, RITM should be registered as a service in Universal Request.
 
 For record producers, the target table should be registered as a service in Universal Request.
 
-For information about service configurations, see [Service Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ur-service-config-form.md).
+For information about service configurations, see Service Configuration form.
 
 ## Procedure
 

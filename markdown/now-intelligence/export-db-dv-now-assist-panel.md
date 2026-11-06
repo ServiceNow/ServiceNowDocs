@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/export-db-dv-now-assist-panel.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [export, schedule, schedule export, Now Assist, Now Assist Panel, Platform Analytics AI]
 breadcrumb: [Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -23,7 +23,7 @@ Role required: now\_assist\_panel\_user. To schedule an export, you also need pa
 
 1.  Open the ServiceNow Otto panel.
 
-    \[Omitted image "nowass-open-nowass-panel.png"\] Alt text: Control for opening the Now Assist panel.
+    \[Omitted image "nowass-open-nowass-panel.png"\] Alt text: Control for opening the ServiceNow Otto panel.
 
     \[Omitted image "otto-panel-landing.png"\] Alt text: Initial ServiceNow Otto panel.
 
@@ -62,7 +62,7 @@ In your prompts for the dashboard and visualization export skill, you can descri
 **Related topics**  
 
 
-[Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md)
+[Export a Platform Analytics data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md)
 
 [Export a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-pae-dashboard-ppt.md)
 

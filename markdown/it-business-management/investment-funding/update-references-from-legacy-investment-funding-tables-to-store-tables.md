@@ -1,20 +1,20 @@
 ---
 title: Update references from legacy Investment Funding tables to Store tables
-description: Post migration of your legacy Investment Funding data, you must update the reference tables for the Investment and Funding Entity fields from the legacy Investment Funding tables to the ServiceNow Store application tables.
+description: Post migration of your legacy Investment Funding data, you must update the reference tables for the Investment and Funding Entity fields from the legacy Investment Funding tables to the ServiceNow Store application tables in the required tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/investment-funding/update-references-from-legacy-investment-funding-tables-to-store-tables.html
 release: australia
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upgrading legacy Investment Funding to Store application, Investment Funding, Strategic Portfolio Management]
 ---
 
 # Update references from legacy Investment Funding tables to Store tables
 
-Post migration of your legacy Investment Funding data, you must update the reference tables for the **Investment** and **Funding Entity** fields from the legacy Investment Funding tables to the ServiceNow Store application tables.
+Post migration of your legacy Investment Funding data, you must update the reference tables for the **Investment** and **Funding Entity** fields from the legacy Investment Funding tables to the ServiceNow Store application tables in the required tables.
 
 ## Before you begin
 

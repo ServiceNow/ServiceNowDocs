@@ -52,3 +52,5 @@ For more information, see [Components installed with Enterprise Asset Management
 5.  Select **Install**.
 
 
+**Parent Topic:**[Installing Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/installing-eam.md)
+

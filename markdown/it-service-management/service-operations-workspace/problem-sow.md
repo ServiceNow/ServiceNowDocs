@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -49,11 +49,11 @@ All fields that are available on the Problem form in ServiceNow AI Platform are 
 
 For information on how you can configure fields in this tab, see [Configuring Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-problem-management-sow.md).
 
-## Problem Tasks tab
+## Problem tasks tab
 
-This section displays problems tasks associated with this problem. Problem tasks are created when you need help from other teams to identify a fix for the problem. For information about creating a problem task, see [Create a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-problem-task-sow.md).
+This section displays problem tasks associated with this problem. Problem tasks are created when you need help from other teams to identify a fix for the problem. For information about creating a problem task, see [Create a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-problem-task-sow.md).
 
-## Fix Tasks tab
+## Fix tasks tab
 
 This section displays fix tasks associated with the problem. In Service Operations Workspace, only change requests are configured as fix tasks. For information about the **List of related task records \(comma-separated\) to track as fixes for this Problem** property where the fix tasks are configured, see [Configure properties for Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-problem-properties-sow.md).
 
@@ -83,7 +83,7 @@ When you need to engage another team or agent for help, create and assign a prob
 -   **[Work on a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-on-problem-task-sow.md)**  
 Manage problems and problem tasks through their life cycle, share workarounds or fixes with related incidents, and create known error articles to help deflect incidents.
 -   **[Problem Management in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/reference-problem-management-sow.md)**  
-Reference topics provide additional information about Problem Management in Service Operations Workspace.
+Find additional information about Problem Management in Service Operations Workspace.
 
 **Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
 

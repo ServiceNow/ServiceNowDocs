@@ -7,7 +7,7 @@ release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -62,7 +62,7 @@ The Assess state adds **Control Assessments** and **Risk Summary** related lists
 
 5.  Select the **Test plans** tab.
 
-    Test plans are automatically created for the control. For more information on test plans, see [Generate assessment procedure plans for a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assess-controls-assess-obj.md).
+    Test plans are automatically created for the control. For more information on test plans, see [Generate assessment procedure plans for a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/cam-assess-controls-assess-obj.md).
 
 6.  Select the **Control tests** tab to view the tasks for assessing the controls.
 
@@ -70,7 +70,7 @@ The Assess state adds **Control Assessments** and **Risk Summary** related lists
 
     \[Omitted image "cam-control-tests.png"\] Alt text: Control tests tab.
 
-    For more information on test plans, see [Determine control effectiveness of a control test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-control-effectiveness-control-test.md).
+    For more information on test plans, see [Determine control effectiveness of a control test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/continuous-risk-monitoring/cam-control-effectiveness-control-test.md).
 
     1.  Select a control test.
 

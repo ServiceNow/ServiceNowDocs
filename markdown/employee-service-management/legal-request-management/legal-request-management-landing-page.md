@@ -1,20 +1,20 @@
 ---
 title: Legal Request Management
-description: The ServiceNow Legal Request Management application provides a unified mechanism for employees to get all the information, services, and help that they need from the legal department through web, mobile, and Virtual Agent channels. AI workflows automatically triage and categorize requests and summarize requests and matters, helping legal teams quickly understand context and resolve issues.
+description: The ServiceNow Legal Request Management application provides a unified mechanism for employees to get all the information, services, and help that they need from the legal department through web, mobile, and Virtual Agent channels. Embedded AI assists legal professionals by identifying request intent, recommending appropriate assignment paths, summarizing key context, and enabling faster resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-request-management/legal-request-management-landing-page.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Legal Request Management
 
-The ServiceNow® Legal Request Management application provides a unified mechanism for employees to get all the information, services, and help that they need from the legal department through web, mobile, and Virtual Agent channels. AI workflows automatically triage and categorize requests and summarize requests and matters, helping legal teams quickly understand context and resolve issues.
+The ServiceNow® Legal Request Management application provides a unified mechanism for employees to get all the information, services, and help that they need from the legal department through web, mobile, and Virtual Agent channels. Embedded AI assists legal professionals by identifying request intent, recommending appropriate assignment paths, summarizing key context, and enabling faster resolution.
 
 Employees can submit legal requests, monitor their progress, and read legal knowledge base articles across a web portal, mobile platform, and Virtual Agent.
 

@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [add product to multi-product release, catalog request add product, Integration Hub add product]
 breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]

@@ -7,7 +7,7 @@ release: australia
 product: System Localization
 classification: system-localization
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-20"
 reading_time_minutes: 1
 breadcrumb: [Exploring System Localization, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -27,5 +27,5 @@ The **Language** field in the User \[sys\_user\] table overrides the default glo
 
 \[Omitted image "UserLanguage.png"\] Alt text: Selection of languages in a User record.
 
-**Note:** Setting the language for the system guest user sets the language for both the login page and all users without a user role.
+**Note:** Defining the system default language using the glide.sys.language property sets the language for both the login page and all users without a user role.
 

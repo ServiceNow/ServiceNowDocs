@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/request-callback-from-em.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Callback requests from customers, Use omnichannel callback, Customer communication, Use, Customer Service Management]
 ---
@@ -36,15 +36,15 @@ You can request an immediate callback only over a voice channel. Use the **Call 
 
 4.  Select whether to receive an immediate voice callback from an agent or schedule a voice or video callback for later.
 
-<table id="choicetable_dlg_q4r_2wb"><thead><tr><th align="left" id="d72778e133">
+<table id="choicetable_dlg_q4r_2wb"><thead><tr><th align="left" id="d74581e133">
 
 Type of callback
 
-</th><th align="left" id="d72778e136">
+</th><th align="left" id="d74581e136">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d72778e142">
+</th></tr></thead><tbody><tr><td id="d74581e142">
 
 **Immediate voice callback**
 
@@ -52,7 +52,7 @@ Action
 
 Select **Call me now**.
 
-</td></tr><tr><td id="d72778e154">
+</td></tr><tr><td id="d74581e154">
 
 **Scheduled voice or video callback**
 

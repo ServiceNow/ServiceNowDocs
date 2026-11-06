@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Change Management
 classification: operational-technology-change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Select a change model to fulfill change requests, Configure, Operational Technology Change Management, Operational Technology]
 ---

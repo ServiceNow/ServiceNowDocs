@@ -4,7 +4,7 @@ description: Generate an endpoint that the external webhook in the third-party a
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 ---
 

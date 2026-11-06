@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/push-connector.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Integrations Launchpad in SOW for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure an event push connector

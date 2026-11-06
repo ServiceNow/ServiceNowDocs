@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-09-15"
-reading_time_minutes: 9
+reading_time_minutes: 8
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -17,16 +17,14 @@ breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow 
 
 Use generative AI to create a flow from text directionsand images.
 
-\[Omitted video\] Description: Create a flow with Now Assist
-
 ## Before you begin
 
 -   Roles required:
     -   admin, flow\_designer, or a delegated developer permission
     -   now.assist.creator
--   Turn on the flow generation skill. See [Turn on the flow generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/turn-on-the-flow-generation-skill.md).
+-   Turn on the flow generation skill.
 -   Turn on the flow generation with images skill. See [Turn on the flow generation with images skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/turn-on-the-flow-generation-with-images-skill.md).
--   Turn on the flow recommendations skill. See [Turn on the flow recommendations skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+-   Turn on the flow recommendations skill.
 
 ## About this task
 
@@ -72,11 +70,11 @@ Application scope to create your flow in. Global is the default. The application
 
 </td></tr><tr><td>
 
-Now Assist directions
+AI directions
 
 </td><td>
 
-Text and image used by AI to create your flow. You can use only text, only image, or image and text both to create the flow. For example, if you attach an image of a flow chart, you can add additional information about the flow as text directions.Describe the flow trigger and its data first. Then describe all the actions and flow logic in the order you want them in the flow. Include as much detail as possible for the best results.
+Text and image used by flow generation to create your flow. You can use only text, only image, or image and text both to create the flow. For example, if you attach an image of a flow chart, you can add additional information about the flow as text directions.Describe the flow trigger and its data first. Then describe all the actions and flow logic in the order you want them in the flow. Include as much detail as possible for the best results.
 
 </td></tr><tr><td>
 
@@ -151,11 +149,11 @@ Option to specify the user that runs the flow. You can select the system user or
 
  **Note:** By default, flows run as the user who initiates the session.
 
- To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/oauth-2-credentials.md).
+ To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see OAuth 2.0 credentials.
 
  When flows run as the user who initiates the session, the system limits flow actions by user ACL restrictions. Ensure that security restrictions don't prevent users who trigger the flow from performing flow actions. Flows run by the initiating user also respect user-specific settings such as date/time formats.
 
- **Note:** Inbound email flows ignore this setting and run as the user who initiates the session. To test access controls for an inbound email flow, impersonate a typical inbound email user and manually trigger the flow.
+ **Note:** Inbound email flows ignore this setting and always run as the user who initiates the session. To test access controls for an inbound email flow, impersonate a typical inbound email user and manually trigger the flow.
 
 </td></tr><tr><td>
 
@@ -185,15 +183,11 @@ Priority level at which you want the system to run this flow by default. Options
 
 7.  Select **Build flow with AI**.
 
-    \[Omitted image "example-build-flow-with-now-assist.png"\] Alt text: Example Build with AI window with a flow named test flow and directions to build a flow that runs every day at midnight.
-
     Workflow Studio uses your text directions to build a flow outline. If successful, Workflow Studio displays a preview of the flow in the diagramming view. Beneath each node of the flow there is an annotation showing the text directions used to generate the item.
-
-    \[Omitted image "example-flow-preview-with-annotations.png"\] Alt text: Example flow preview in diagramming view. Each node shows an annotation of the text directions used.
 
 8.  If the generated flow preview does not meet your needs, you can update the AI directions, and select **Rebuild flow**.
 
-    Each time you build or rebuild a flow, the operation counts as AI usage tracked by your subscription. To track your AI usage, see [Monitoring in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-monitoring.md).
+    Each time you build or rebuild a flow, the operation counts as AI usage tracked by your subscription. To track your AI usage, see .
 
 9.  If you want to stop creating a flow and return to the Workflow Studio homepage, you can select **Discard flow**.
 
@@ -206,13 +200,9 @@ Priority level at which you want the system to run this flow by default. Options
 
 ## Result
 
-The flow generation skill creates a flow outline with the name you provided. If the large language model couldn't find a matching action, flow logic, or subflow for your request, it may add one or more placeholder steps instead.
+Workflow Studio creates a flow outline with the name you provided. If the large language model couldn't find a matching action, flow logic, or subflow for your request, it may add one or more placeholder steps instead.
 
 ## Create a flow with a scheduled trigger
-
-\[Omitted image "example-build-with-now-assist-with-preview.png"\] Alt text: Create flow screen with options to build a flow with AI
-
-\[Omitted image "example-build-flow-with-now-assist.png"\] Alt text: Example Build with AI window with directions to build a flow that runs every day at midnight.
 
 You can use these prompt values to create a flow with a scheduled trigger.
 
@@ -222,7 +212,7 @@ You can use these prompt values to create a flow with a scheduled trigger.
 
 -   **AI directions**
 
-    Create a flow that runs every day at midnight to find newly created problem records for the past day. Iterate over them. If they aren't assigned, update it to assign the problem to level 1 triage group. Move the state to "triaged," and then send a notification to the group.
+    Create a flow that runs every day at midnight to find newly created problem records. Iterate over them. If they aren't assigned, update it to assign the problem to level 1 triage group. Move the state to "triaged," and then send a notification to the group.
 
 
 ## What to do next

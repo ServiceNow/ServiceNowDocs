@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-touchpoint-planner.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Touchpoints, Customer success, Use, Customer Success Management]
 ---
@@ -23,7 +23,7 @@ The touchpoint planner shows a calendar view of different touchpoints across all
 The touchpoint planner provides a calendar view of touchpoints organized by account engagement and the type of touchpoint, priority, and status. To view the Touchpoint planner, follow these steps:
 
 1.  Login as a user with the `sn_acct_lc.customer_success_agent` role.
-2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the **Touchpoint planner** icon on the left navigation pane.
+2.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the **Touchpoint planner** icon on the left navigation pane.
 
 \[Omitted image "account-lifecycle-touch-plan.png"\] Alt text: Touchpoint planner
 

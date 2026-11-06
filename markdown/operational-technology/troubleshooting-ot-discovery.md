@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/troubleshooting-ot-discovery.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -30,7 +30,7 @@ In the list view, you should see the URL hostname that you specified when settin
 
 \[Omitted image "mission-secure-outbound-log.png"\] Alt text: Review the URL hostname that you specified when setting up the connection parameters
 
-By default, the log level is set to Basic, so you can’t see the response body or quest body, but the response status indicates the issue. For example, a 401 in the Response status indicates an unauthorized request. To resolve the issue, navigate to the connection and verify that you have the correct Client ID and Client Secret entered for the connection. For more information, see [Install the Service Graph Connector for ServiceNow Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/install-sgc-ot-discovery.md).
+By default, the log level is set to Basic, so you can’t see the response body or quest body, but the response status indicates the issue. For example, a 401 in the Response status indicates an unauthorized request. To resolve the issue, navigate to the connection and verify that you have the correct Client ID and Client Secret entered for the connection. For more information, see [Install the Service Graph Connector for ServiceNow OT Discovery Service Graph Connector for ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/install-sgc-ot-discovery.md).
 
 ## Additional diagnosis
 

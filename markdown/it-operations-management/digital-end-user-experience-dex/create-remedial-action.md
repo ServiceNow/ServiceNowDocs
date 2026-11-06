@@ -1,0 +1,64 @@
+---
+title: Create a remedial action
+description: Create custom remedial actions from check definitions to resolve endpoint-related issues using Playbook.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/create-remedial-action.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: task
+last_updated: "2026-10-23"
+reading_time_minutes: 1
+breadcrumb: [Creating DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
+---
+
+# Create a remedial action
+
+Create custom remedial actions from check definitions to resolve endpoint-related issues using Playbook.
+
+## Before you begin
+
+Role required: admin, dex\_admin
+
+**Note:** To learn more about different remedial actions, see [Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-diff-ra.md).
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Workspaces** &gt; **Services Operations Workspace** &gt; **DEX Administration**.
+
+    \[Omitted video\] Description: Create remedial action
+
+2.  Select **Create new** in the Create Remedial Actions section.
+
+3.  Select **Create new** or **Map to an existing remedial action** according to the requirement.
+
+    |Option|Description|
+    |------|-----------|
+    |**Create net new action**|Select this option to create a new remedial action from a check definition.|
+    |**Map to an existing remedial action**|Select this option when a remedial action exists for a particular operating system \(OS\) and you want to map the same action to another OS by selecting a check definition.|
+
+4.  If you're creating a new action, enter a name in the **Remedial action name** field.
+
+5.  If you choose to map to an existing remedial action, select from the existing remedial actions.
+
+6.  Enter a short description.
+
+7.  Select the roles for those who can execute the remedial action.
+
+    This option is available for sn\_dex.engineer and sn\_dex.service\_desk\_user.
+
+8.  Select the origin of remediation.
+
+    This setting indicates where the remedial action should be executed from the device health page or alert details.
+
+9.  Select the **Remedial Action** check box if it’s available for bulk remediation.
+
+10. Select the operating system of the impacted device from the drop-down menu.
+
+11. Select the base check definition for this remedial action and select **Save**.
+
+    **Note:**
+
+    -   Confirm that the selected check definition is applicable for the selected OS.
+    -   Depending on the check definition selected, the related check definition parameters are listed.
+

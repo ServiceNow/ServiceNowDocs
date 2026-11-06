@@ -7,14 +7,20 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring CI metrics for MECM, Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring CI metrics for MECM, Setting up Investigation Framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Create a script in Microsoft Endpoint Configuration Manager
 
 Create a script in the Microsoft Endpoint Configuration Manager to configure the display of the processes metrics on the **Investigation** tab of the Incident record.
+
+## About this task
+
+**Important:**
+
+Starting with the Brazil release, Microsoft Endpoint Configuration Manager for Investigation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Before you begin
 
@@ -38,9 +44,9 @@ Role required: admin
 
     \[Omitted image "add-script-block.png"\] Alt text: Add script block
 
-6.  Click **Next**.
+6.  Select **Next**.
 
-7.  Click **Next &amp; Close**.
+7.  Select **Next &amp; Close**.
 
     A script record is created with **Approval State** as **Waiting for Approval**.
 

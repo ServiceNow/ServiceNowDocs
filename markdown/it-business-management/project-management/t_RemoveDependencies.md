@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a dependency from the planning console, Using Planning console - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ Removing the dependency also deletes the dependency record in the Planned Task R
 
 2.  Do either of the following.
 
-<table id="choicetable_pjv_3lx_ft"><tbody><tr><td id="d112833e71">
+<table id="choicetable_pjv_3lx_ft"><tbody><tr><td id="d114319e71">
 
 **On the Gantt chart**
 
@@ -40,7 +40,7 @@ Removing the dependency also deletes the dependency record in the Planned Task R
 -   Double-click the relationship and then select **Delete** on the **Planned Task Relationship** form that appears.
 
 
-</td></tr><tr><td id="d112833e98">
+</td></tr><tr><td id="d114319e98">
 
 **On the WBS list**
 

@@ -7,7 +7,7 @@ release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_cml.fnol\_representative, sn\_ins\_claim\_cml.aut
 
 3.  Open the task from the case playbook or the Commercial auto claim adjuster tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d118155e85">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d120159e85">
 
 Option
 
-</th><th align="left" id="d118155e88">
+</th><th align="left" id="d120159e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d118155e94">
+</th></tr></thead><tbody><tr><td id="d120159e94">
 
 **From the case playbook**
 
@@ -46,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d118155e118">
+</td></tr><tr><td id="d120159e118">
 
 **From the Commercial auto claim adjuster tasks list**
 

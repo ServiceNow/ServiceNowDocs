@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/jeopardy-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Order management, Explore, Sales Customer Relationship Management]
 ---

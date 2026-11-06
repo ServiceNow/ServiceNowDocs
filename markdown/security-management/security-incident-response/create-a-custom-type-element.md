@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create Report Subsection Element template, Configure Major Security Incident status reports, Manage MSIM status reports, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -44,15 +44,15 @@ Role required: sn\_msi.workspace\_manager
 
 9.  On the Custom content form, fill in the fields.
 
-<table id="choicetable_dyq_gmn_ysb"><thead><tr><th align="left" id="d430423e142">
+<table id="choicetable_dyq_gmn_ysb"><thead><tr><th align="left" id="d432601e142">
 
 Field
 
-</th><th align="left" id="d430423e145">
+</th><th align="left" id="d432601e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d430423e151">
+</th></tr></thead><tbody><tr><td id="d432601e151">
 
 **Dynamic content**
 
@@ -60,7 +60,7 @@ Description
 
 Enter the dynamic content such as the template scripts.
 
-</td></tr><tr><td id="d430423e160">
+</td></tr><tr><td id="d432601e160">
 
 **Run time configurable**
 
@@ -68,7 +68,7 @@ Enter the dynamic content such as the template scripts.
 
 Select this check box if the custom element type is run time configurable.
 
-</td></tr><tr><td id="d430423e169">
+</td></tr><tr><td id="d432601e169">
 
 **Runtime config UX App Route**
 

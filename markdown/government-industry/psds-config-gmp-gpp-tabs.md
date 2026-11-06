@@ -24,7 +24,7 @@ Set the application scope in your instance to **Service Applicant Program Manage
 
 1.  Navigate to **All** &gt; **sys\_ux\_app\_route.list**.
 
-2.  In the Extension Point column, select the More Options \[Omitted image "contextual-side-panel-more-options.png"\] Alt text: Activity stream more options menu icon.\) icon, and select **Group by Extension Point**.
+2.  In the Extension Point column, select the More Options \[Omitted image "contextual-side-panel-more-options.png"\] Alt text: more options icon\) icon, and select **Group by Extension Point**.
 
 3.  Select **Grant Program Record Page Collection**.
 

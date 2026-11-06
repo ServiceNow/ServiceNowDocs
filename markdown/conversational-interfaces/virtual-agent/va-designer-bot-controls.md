@@ -1,20 +1,20 @@
 ---
 title: Assistant Designer Asset library user input and bot response controls in Microsoft Teams
-description: Use the Assistant Designer Asset library user input and bot response controls for creating conversation topics are supported in Microsoft Teams conversations, including the table bot response, the card control that can display images, and the image bot response controls.
+description: The Assistant Designer Asset library user input and bot response controls for creating conversation topics are supported in Microsoft Teams conversations, including the table bot response, the card control that can display images, and the image bot response controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/va-designer-bot-controls.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [VA feature support in Teams conversations, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [VA feature support in Teams conversations, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Assistant Designer Asset library user input and bot response controls in Microsoft Teams
 
-Use the Assistant Designer Asset library user input and bot response controls for creating conversation topics are supported in Microsoft Teams conversations, including the table bot response, the card control that can display images, and the image bot response controls.
+The Assistant Designer Asset library user input and bot response controls for creating conversation topics are supported in Microsoft Teams conversations, including the table bot response, the card control that can display images, and the image bot response controls.
 
 Starting with Version 2.0.0, the updated card and new video bot response controls are supported in Microsoft Teams conversations. The video control displays a thumbnail image of the video that users select to open the video in their preferred web browser.
 

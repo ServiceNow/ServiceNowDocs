@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_ConfigureLayoutVisualIndicators.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lists and forms in scoped applications, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Lists and forms in scoped applications, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Layout visual indicators
@@ -21,7 +21,7 @@ You can only edit fields, views, and sections when you are in the same applicati
 -   Save button with a blue background.
 -   Editable fields in the **Create new field** section.
 
-\[Omitted image "FormLayoutEditable.png"\] Alt text: Visual indicators of editable sections.
+\[Omitted image "FormLayoutEditable.png"\] Alt text: Fields on a form appear differently when they can be edited or selected.
 
 Views and sections in another application scope display as read only. Read-only sections have:
 
@@ -31,7 +31,7 @@ Views and sections in another application scope display as read only. Read-only 
 -   Save button with a gray background.
 -   Read only fields in the **Create new field** section.
 
-\[Omitted image "FormLayoutReadonly.png"\] Alt text: Visual indicators of read-only sections.
+\[Omitted image "FormLayoutReadonly.png"\] Alt text: Read-only fields display as grayed out, with no selection available.
 
 **Related topics**  
 

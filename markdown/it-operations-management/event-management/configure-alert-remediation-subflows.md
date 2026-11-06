@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -38,10 +38,6 @@ Add credentials to the credential aliases that come with the base system:
 -   windowsAdmin
 
 Role required: evt\_mgmt\_admin or flow\_designer
-
-## About this task
-
-To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/respond-alert-sow-itom.md).
 
 ## Procedure
 

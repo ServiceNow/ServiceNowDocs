@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itsm-change-create-change-ai-agent-auto.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-01"
-reading_time_minutes: 3
-breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI assets, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create change request AI agent \(autonomous\)

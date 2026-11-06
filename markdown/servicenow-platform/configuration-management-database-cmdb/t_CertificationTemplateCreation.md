@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Certification templates, CMDB Compliance, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ To create a certification template, follow these instructions.
 
 Activate the Certification Core plugin to enable the Compliance functionality. See [Compliance Activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_ActivatingCompliance.md) for details.
 
-Role required: certification\_admin
+Role required: sn\_cmdb\_admin and certification\_admin have full access, and sn\_cmdb\_editor has read access
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Usage Insights for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -34,7 +34,7 @@ Use system properties to configure Usage Insights for Service Portal.
 **Related topics**  
 
 
-[bundle-platadm.t_AddAPropertyUsingSysPropsList]
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
-[bundle-platadm.c_UniqueRecordIdentifier]
+[Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md)
 

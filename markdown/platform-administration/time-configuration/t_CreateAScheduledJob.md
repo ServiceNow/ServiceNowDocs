@@ -7,7 +7,7 @@ release: australia
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduled jobs, System scheduler, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Create a scheduled job on the Schedule Job \[sysauto\] table.
 
 ## Before you begin
 
-Role required: system\_scheduler\_admin
+Role required: admin
 
 ## About this task
 
@@ -50,17 +50,4 @@ Schedule both conditional and non-conditional scripts. If Domain Separation is i
 The run types; **Day and Month in Year**, **Day in Week in Month in Year**, and **Week in Month**, require the fields; **Day**, **Month**, and **Year** to be visible. Child tables which don’t display those fields can't create jobs with that run type selected.
 
 **Parent Topic:**[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/c_ScheduledJobs.md)
-
-**Related topics**  
-
-
-[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
-
-[Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_PersonalizeTheSystemDateFormat.md)
-
-[Set a system time zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_SetASystemTimeZone.md)
-
-[Special cases in job schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/r_SpecialCasesInJobSchedules.md)
-
-[View a schedule item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/t_ViewAScheduleItem.md)
 

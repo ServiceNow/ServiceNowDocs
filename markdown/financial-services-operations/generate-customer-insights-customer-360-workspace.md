@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/generate-customer-insights-customer-360-workspace.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,7 +20,9 @@ Role required: sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent
 
 ## About this task
 
-When requested, the Banking CSR customer insights AI agent consolidates customer data and presents persona-based insights. These insights help CSR agents prepare for callbacks, perform proactive outreach, or identify high-value customers that need attention.
+When requested, the Banking CSR customer insights AI agent will begin consolidating customer data and presents persona-based insights to help CSR agents prepare for callbacks, perform proactive outreach, or identify high-value customers that need attention.
+
+\[Omitted image "agentic-contact-center-c360-na-panel.png"\] Alt text: Customer 360 Insights panel showing customer details, financial overview, AI-generated summary, and ServiceNow Otto panel with AI agent conversation.
 
 ## Procedure
 

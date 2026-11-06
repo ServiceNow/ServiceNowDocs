@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 14
-breadcrumb: [Scripting, API implementation, API implementation and reference]
+breadcrumb: [Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Packages Call Removal Tool
@@ -28,7 +28,7 @@ The tool might generate errors as it tries to generate preferred, scriptable alt
 
 **Note:** Create an update set before migrating the changes that result from running the Packages Call Removal Tool. For information, see [Get started with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/get-started-update-sets.md).
 
-**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
+**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-debug-overview.md)
 
 ## Activate the Packages Call Removal Tool
 

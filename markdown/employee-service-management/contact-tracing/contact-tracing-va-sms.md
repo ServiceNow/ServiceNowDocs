@@ -7,7 +7,7 @@ release: australia
 product: Contact Tracing
 classification: contact-tracing
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setting up Contact Tracing, Contact Tracing, Safe Workplace, Health and Safety, Employee Service Management]
 ---

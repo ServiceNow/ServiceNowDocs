@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational Integration with Apple Messages for Business, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Apple Messages for Business, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Configuring Conversational Integration with Apple Messages for Business
@@ -24,5 +24,5 @@ This task provides the general steps to integrate Apple Messages for Business wi
 4.  Enable authentication with your Identity Provider \(IdP\) by configuring the [OAuth setup for Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/oauth-setup-apple.md)
 5.  Enable Apple Pay on Apple Messages for Business interactions.
     -   Refer to the [Apple documentation](https://register.apple.com/resources/messages/msp-rest-api/type-interactive#apple-pay-message) for details about configuring your Apple merchant account.
-    -   Refer to [Complete the Payment Provider Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/payment-provider-configuration.md) to connect your payment provider information to your ServiceNow® instance.
+    -   Refer to [Complete the payment provider configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/payment-provider-configuration.md) to connect your payment provider information to your ServiceNow® instance.
 

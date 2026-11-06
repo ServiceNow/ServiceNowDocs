@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration tasks for knowledge demand insights, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,7 +33,7 @@ Role required: admin
     -   For customer service cases, select **\[Knowledge Curation\]: Generate Case Clusters**.
     -   For incidents, select **\[Knowledge Curation\]: Generate Incident Clusters**.
     -   For HR cases, select **\[Knowledge Curation\]: Generate HR Case Clusters**.
-    -   For tasks other than customer service cases, incidents, and HR cases, create another scheduled job. For more information, see [Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAScheduledJob.md).
+    -   For tasks other than customer service cases, incidents, and HR cases, create another scheduled job. For more information, see Create a scheduled job.
 3.  On the Scheduled Script Execution form, either accept the default value of running the analysis once a quarter \(every 90 days\) or change the frequency.
 
     **Note:** For best performance results, try not to perform knowledge gap analysis more frequently than once a month.

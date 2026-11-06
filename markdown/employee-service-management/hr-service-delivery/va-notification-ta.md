@@ -7,9 +7,8 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Virtual Agent notifications, requisition notifications, hiring manager notifications, recruiter notifications, chat notifications]
 breadcrumb: [Notifications in Hiring Experiences, Reference, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 

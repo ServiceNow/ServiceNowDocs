@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SMS as an MFA factor, MFA factor policies, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -28,13 +28,13 @@ Role required: adaptive\_auth\_admin
 
 1.  Navigate to **All** &gt; **Multi-factor Authentication** &gt; **MFA Context**.
 
-2.  Click the **MFA Factor Policies** tab.
+2.  Select the **MFA Factor Policies** tab.
 
 3.  Select the **Display SMS OTP as an MFA Factor Policy**.
 
     \[Omitted image "sms-factor.png"\] Alt text: SMS - Factor
 
-4.  Click **New** to add **Policy Inputs**.
+4.  Select **New** to add **Policy Inputs**.
 
     \[Omitted image "sms-mfa.png"\] Alt text: Policy Inputs
 
@@ -49,15 +49,15 @@ Role required: adaptive\_auth\_admin
 
     \[Omitted image "mfa-email-filter.png"\] Alt text: Filter Criteria.
 
-6.  Click **Role Filter Criteria**, fill the fields for the role filter criteria and submit the record.
+6.  Select **Role Filter Criteria**, fill the fields for the role filter criteria and submit the record.
 
     The new policy is created. For more information, see [Role Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-role-filter-criteria.md).
 
-7.  On the Policy - Display SMS OTP as an MFA Factor Policy page, click Policy conditions.
+7.  On the Policy - Display SMS OTP as an MFA Factor Policy page, select Policy conditions.
 
     \[Omitted image "sms-mfa-condition.png"\] Alt text: Policy form with Policy Conditions highlighted.
 
-8.  Click **New** to add **Policy Conditions**.
+8.  Select **New** to add **Policy Conditions**.
 
 9.  On the form, fill in the fields.
 
@@ -91,14 +91,14 @@ Condition
 
 </td><td>
 
-Logical combination of multiple policy inputs \(filter criteria\) that is used to evaluate authentication requests.Select the role-based filter criteria policy that was created for the condition.
+Logical combination of multiple policy inputs \(filter criteria\) that is used to evaluate authentication requests.The role-based filter criteria policy that was created for the condition.
 
 </td></tr></tbody>
-</table>10. Click **Submit**.
+</table>10. Select **Submit**.
 
 11. Repeat step 8 to create additional policy conditions.
 
-    **Note:** If you create multiple policy conditions, the final output of the access policy depends on the logical OR output of the all policy conditions. This means that the policy evaluates to true if any one of your policy conditions is met.
+    **Note:** If you create multiple policy conditions, the final output of the access policy depends on the logical OR output of all policy conditions. This means that the policy evaluates to true if any one of your policy conditions is met.
 
     Based on the role filter \(users\) policy and the conditions specified for the role is matched, the SMS as MFA factor is shown as an option for authentication for the users.
 

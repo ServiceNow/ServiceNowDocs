@@ -7,7 +7,7 @@ release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [change history, question history, audit, activity]
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
@@ -20,8 +20,6 @@ Review a log of every response, justification, and flag state change made to a q
 ## Change history overview
 
 Question change history tracks changes to a question's response, justification, and flag state. Changes are tracked regardless of whether the assessment is open, closed, or cancelled. Each entry records a timestamp, who made the change, what changed, and the previous and new values.
-
-**Note:** This feature is available starting with Australia Patch 2.
 
 Each question card includes a change history icon. Selecting it opens the **Change history** panel. The panel logs changes to three parts of a question: the response, the justification, and the flag state. Changes are tracked for the entire lifecycle of the assessment.
 
@@ -47,7 +45,7 @@ AI assisted response changes follow the same merge rule as manual changes. Conse
 
 **Note:**
 
--   The default merge window is 300 seconds. An Assessment admin can change this value in the `sn_smart_asmt.activity_merge_window_in_seconds` system property.
+-   The default merge window is 300 seconds. An Assessment admin can change this value in the `sn_smart_asmt.activity_merge_window_in_seconds` system property. For details, see [Properties installed with Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/properties-installed-in-smart-assessment-engine.md).
 -   Reducing the value produces more granular history; increasing it produces fewer, larger entries. A change to this property applies only to activity recorded after the change is made.
 
 ## Who made the change

@@ -1,18 +1,18 @@
 ---
 title: Claims for reporting
-description: Claims for reporting are narrative statements or data points that organizations want to document and track for potential future use in disclosures.
+description: Claims for reporting are narrative statements or data points that organizations wish to document and track for potential future use in disclosures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/claims-for-reporting.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Claims for reporting
 
-Claims for reporting are narrative statements or data points that organizations want to document and track for potential future use in disclosures.
+Claims for reporting are narrative statements or data points that organizations wish to document and track for potential future use in disclosures.
 
 ## Using claims
 

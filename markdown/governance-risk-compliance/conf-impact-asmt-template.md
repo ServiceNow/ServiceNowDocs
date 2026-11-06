@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/conf-impact-asmt-template.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Setup for a BIA, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -127,7 +127,7 @@ To configure a BIA template using Smart Assessment, see [Configure BIA templates
 
         \[Omitted image "bia-flows-in-flow-designer.png"\] Alt text: Flows.\[Omitted image "bia-rpo-flow.png"\] Alt text: RPO flow.
 
-        In the properties of the subflow, the **Category** field is set to **Business impact assessment**. When the action category and the template category are mapped in the BIA, the **Set recovery point objective flow** is displayed in the **Action type** field in the Set actions dialog box.
+        In the properties of the subflow, the **Category** field is set to **Business impact assessment**. When the action category and the template category are mapped in the BIA as shown in the example, the **Set recovery point objective flow** is displayed. It appears in the **Action type** field in the Set actions dialog box.
 
         \[Omitted image "mapping-of-action-and-template-category.png"\] Alt text: Mapping.\[Omitted image "automations-tab-set-actions.png"\] Alt text: Actions.
 

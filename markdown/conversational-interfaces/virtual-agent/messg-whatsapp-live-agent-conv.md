@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Transfer, Whatsapp, Live agent, Advanced Work Assignment, AWA, Twilio, Service channels, Application picker, Conversational Messaging]
-breadcrumb: [Using, Conversational Integration with WhatsApp \(powered by Twilio\), Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Using, WhatsApp \(powered by Twilio\), Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Transfer WhatsApp chat conversations to live agents
@@ -66,7 +66,7 @@ Role required: admin
 
     2.  In the **Name** column of the Presence States list, select an existing state.
 
-    3.  In the Apply to groups section of the Presence State form, select the add icon &gt; to move the **Agent WhatsApp Group** group from the **Available** column to the **Selected** column.
+    3.  In the Apply to groups section of the Presence State form, select the add icon to move the **Agent WhatsApp Group** group from the **Available** column to the **Selected** column.
 
         **Note:** You can ignore this step if you have selected the **Apply to all groups** check box.
 

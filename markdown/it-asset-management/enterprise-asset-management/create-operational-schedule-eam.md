@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring KPI monitoring settings, Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -28,13 +28,15 @@ An operational schedule record is stored in the Asset schedule \[sn\_itam\_commo
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace** &gt; **Admin center** &gt; **KPI configuration**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  From the KPI configuration list, select **Operational schedules**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Select **New**.
+3.  From the navigation panel of the Admin center view, navigate to **KPI configuration** &gt; **Operational schedules**.
 
-4.  On the form, fill in the fields.
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
 <table id="table_izq_htb_wfc"><thead><tr><th>
 
@@ -79,9 +81,9 @@ Description
 Description of the operational schedule.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>6.  Select **Save**.
 
-6.  Add one or more schedule entries to the operational schedule.
+7.  Add one or more schedule entries to the operational schedule.
 
     1.  Select the **Schedule Entries** tab.
 
@@ -99,7 +101,7 @@ Description of the operational schedule.
 
     You can’t edit a schedule or its entries. If you want to stop using an asset schedule, you can deactivate it by deselecting the **Active** check box. You can then create a schedule as needed.
 
-7.  To view the calendar view of the schedule with the schedule entries, select **Show schedule**.
+8.  To view the calendar view of the schedule with the schedule entries, select **Show schedule**.
 
 
 ## What to do next

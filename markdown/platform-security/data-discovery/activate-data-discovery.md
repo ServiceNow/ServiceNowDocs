@@ -7,7 +7,7 @@ release: australia
 product: Data Discovery
 classification: data-discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---
@@ -37,7 +37,7 @@ The following items are installed with data discovery:
 -   Roles
 -   Tables
 
-For more information on the roles and tables installed, see [Data Discovery roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-discovery/data-discovery-roles.md) and [Default regular expression data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-discovery/default-data-patterns.md).
+For more information on the roles and tables installed, see [Data Discovery roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-discovery/data-discovery-roles.md) and [Default data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-discovery/default-data-patterns.md).
 
 ## Procedure
 

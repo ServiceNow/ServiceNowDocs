@@ -7,9 +7,9 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # HRSD MCP Server
@@ -41,4 +41,9 @@ Employees can:
 -   Get direct, cited answers to HR policy questions
 -   Check eligibility and required documents for HR services
 -   Browse and search for eligible HR services
+
+-   **[Configure the HRSD MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-hrsd-mcp-server.md)**  
+Activate the HRSD MCP Server to enable AI-driven case management and employee experience on your ServiceNow instance.
+
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

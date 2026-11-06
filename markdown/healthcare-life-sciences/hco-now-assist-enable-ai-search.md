@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-now-assist-enable-ai-search.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Enable ServiceNow Otto for AI Search for case intake

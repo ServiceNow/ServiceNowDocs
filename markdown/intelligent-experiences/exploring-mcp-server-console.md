@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/exploring-mcp-server-console.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [explore]
-breadcrumb: [MCP Server Console, Enable AI experiences]
+breadcrumb: [MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Exploring MCP Server Console
@@ -27,7 +27,7 @@ Then any AI application, such as Microsoft Copilot or Claude, can call a server 
 
 -   Only stateless and remote servers are supported.
 -   MCP resources and prompts aren't supported.
--   MCP Server Console supports the Streamable HTTP transport. By default, tool calls return a single JSON response. Server-Sent Events \(SSE\) are optionally available for streaming response types. Studio is not supported.
+-   MCP Server Console supports the Streamable HTTP transport. By default, tool calls return a single JSON response. Server-Sent Events \(SSE\) are optionally available for streaming response types. Stdio is not supported.
 -   The MCP rate limit is not configurable currently, and adjusting the rate limit requires a service restart. Contact your ServiceNow representative to learn more.
 
 ## MCP Server Console users
@@ -55,7 +55,7 @@ The following infographic shows the workflow for AI administrators to get starte
 
 6.  Employees use clients, such as AI agents, to prompt the server for data from the instance or to perform an action on the instance.
 
-**Note:** With AI Gateway in AI Control Tower, AI administrators can monitor MCP server access and view metrics for servers and their tools. For more information, see .
+**Note:** With AI Gateway in AI Control Tower, AI administrators can monitor MCP server access and view metrics for servers and their tools. For more information, see [AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/ai-gateway-overview.md).
 
 ## MCP Server Console benefits
 
@@ -87,5 +87,5 @@ To learn more about configuring and using MCP Server Console, see:
 **Related topics**  
 
 
-[Model Context Protocol Client Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mcp-client.md)
+[Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mcp-client.md)
 

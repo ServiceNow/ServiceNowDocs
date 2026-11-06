@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -32,15 +32,15 @@ While responding to an assessment, you can reassign the assessment to another us
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_o5d_vrr_xxb"><thead><tr><th align="left" id="d261532e99">
+<table id="choicetable_o5d_vrr_xxb"><thead><tr><th align="left" id="d263110e99">
 
 Choice
 
-</th><th align="left" id="d261532e102">
+</th><th align="left" id="d263110e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d261532e108">
+</th></tr></thead><tbody><tr><td id="d263110e108">
 
 **To take the assessment**
 
@@ -60,7 +60,7 @@ Action
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d261532e158">
+</td></tr><tr><td id="d263110e158">
 
 **To reassign the assessment**
 

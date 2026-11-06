@@ -7,7 +7,7 @@ release: australia
 product: Rate Model
 classification: rate-model
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -33,6 +33,8 @@ To derive hourly rates from a rate model for the resource plans and time cards o
 The rate model associated with a project or demand evaluates the rate lines to find and return the hourly rate that matches the requested criteria. The rates are derived from the rate model during resource planning or allocation, and during time card processing.
 
 The rate is returned in the functional currency specified in the matching rate line.
+
+\[Omitted image "rate-model-processing-flowdiagram.png"\] Alt text: Flow diagram of rate model processing
 
 The following video describes how to set up a rate model and the evaluation method to find and return the hourly rate for a request.
 

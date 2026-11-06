@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-sessions-traces-spans.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Sessions, traces, and spans

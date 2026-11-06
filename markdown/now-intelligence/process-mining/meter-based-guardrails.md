@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [process mining, guardrails, entitlement, meter-based]
 breadcrumb: [Use, Process Mining, Platform Analytics]
@@ -21,7 +21,7 @@ Meter-based guardrails and controls help you in identifying situations when you 
 
 There are two types of guardrails:
 
--   Table-level guardrails: An administrator can define one mandatory filter condition per table \(for example, "only cases resolved in the last 12 months"\). Once active, this condition is automatically applied to every project built on that table. The person creating the project can add their own filters on top, but can't remove or edit the administrator's condition.
+-   Table-level guardrails: An administrator can define one mandatory filter condition per table \(for example, "only cases resolved in the last 12 months"\). When active, this condition is automatically applied to every project built on that table. The person creating the project can add their own filters on top, but can't remove or edit the administrator's condition.
 -   Entitlement enforcement: This only applies if your subscription uses a meter-based or AI Native SKU. If you're on a different license type, the platform's existing licensing checks apply instead.
 
     When you mine a project, the system checks your project's scope against your remaining entitlement:

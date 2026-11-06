@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Gantt chart, Using Planning console - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -42,7 +42,7 @@ Planned start date for the project
 
 Modify the dates in the **Planned start date** column on the console.
 
- You can add tasks that start earlier than the project's planned start date. By default, the planned start date shifts earlier or later when you add tasks to align with the earliest task start date. However, you can enable the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Rollup project start date from tasks** to retain the planned start date of the project even if you add tasks with a planned start date that is earlier or later.
+ You can add tasks that start earlier than the project's planned start date. By default, the planned start date shifts earlier or later when you add tasks to align with the earliest task start date. However, you can enable the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Rollup project start date from tasks** to retain the planned start date of the project. This setting applies even when tasks have a planned start date that is earlier or later.
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Planned end date
 
 </td><td>
 
-Drag the right edge of the task bar to extend the planned end date. You can extend the planned of date only for tasks that are not parent tasks and that have not yet ended.
+Drag the right edge of the task bar to extend the planned end date. You can extend the planned of date only for tasks that aren't parent tasks and that have not yet ended.
 
 </td></tr><tr><td>
 

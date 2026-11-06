@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 breadcrumb: [Integrate Dynatrace platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is inst
 
 Ensure that configuration items for the hosts managed by Dynatrace exist in the ServiceNow AI Platform instance. These CIs can be physical or virtual and can be either manually created or discovered via IP discovery or Cloud Discovery.
 
-Ensure you have created a user with an **Identify Type** of **Machine** and the evt\_mgmt\_integration role.
+Confirm you have created a user with an **Identify Type** of **Machine** and the evt\_mgmt\_integration role.
 
 Roles required: evt\_mgmt\_integration and web\_service\_admin
 
@@ -54,15 +54,17 @@ Configure the Event Management environment for the collection of events from Dyn
 
     2.  In the Set up custom integration form, add the Webhook URL: `https://<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=dynatrace`
 
+        **Note:**
+
         For basic authentication, select **Create basic authorization header**. You can see the username and password fields for the user.
 
     3.  Enter the user name and password of the relevant user.
 
         **Note:** Ensure the evt\_mgmt\_integration role is assigned to the selected user. To ensure proper authentication, use the least privileged user with the evt\_mgmt\_integration role, rather than a high privileged user.
 
-    4.  In the Custom payload section, add in the following payload structure for the events that will be generated.
+    4.  In the Custom payload section, add the following payload structure for the events that will be generated.
 
-        It confirms that ImpactedEntities and ProblemDetailsJSONv2 are passed as JSON objects, not strings.
+        Ensure that ImpactedEntities and ProblemDetailsJSONv2 are passed as JSON objects, not strings.
 
         ```
         { 
@@ -83,7 +85,7 @@ Configure the Event Management environment for the collection of events from Dyn
         }
         ```
 
-4.  Define the integration settings for the Grail problem event, which ServiceNow supports through its new payload.
+4.  Define the integration settings for the Grail problem event, which ServiceNow® now supports through its new payload.
 
     1.  Log in to the Dynatrace instance and, from the left-hand panel, select **Workflow**.
     2.  On the Workflow page, select **+ Workflow** to create a new workflow.

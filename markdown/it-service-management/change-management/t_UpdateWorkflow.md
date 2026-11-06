@@ -7,9 +7,9 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tutorial: add a new change management state, Reference, Change Management, IT Service Management]
+breadcrumb: [Tutorial: Add a new change management state, Reference, Change Management, IT Service Management]
 ---
 
 # Update the change request workflow
@@ -45,7 +45,7 @@ The functionality is available only for the new customers.
     |Name|Move to Complete|
     |Set these values|State = Complete|
 
-5.  Click **Update**.
+5.  Select **Update**.
 
 6.  Open the **Wait for conditions** activity that transitions to the End activity and modify the following fields.
 
@@ -56,12 +56,12 @@ The functionality is available only for the new customers.
 
     \[Omitted image "Change\_Workflow1.png"\] Alt text: Editing the condition
 
-7.  Click **Update**.
+7.  Select **Update**.
 
-8.  Open the Workflow Actions menu and click **Publish**.
+8.  Open the Workflow Actions menu and select **Publish**.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: Add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)
 
 **Previous topic:**[Create a process flow record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateNewProcessFlowRecord.md)
 

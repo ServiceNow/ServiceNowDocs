@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Updating and synchronizing signatories, Work on NDA legal requests, Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -39,7 +39,7 @@ If the signatory information is missing, the contract request will be saved as a
 
 5.  Select the **Contract Requests** tab and open the request.
 
-6.  Select the **Activity** stream to know the validation error.
+6.  Select the **Activity** stream to find the validation error.
 
 7.  Select the **Signatories** tab.
 

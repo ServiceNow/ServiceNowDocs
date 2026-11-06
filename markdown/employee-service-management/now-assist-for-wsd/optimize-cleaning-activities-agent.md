@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Optimize cleaning activities agent overview, Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---

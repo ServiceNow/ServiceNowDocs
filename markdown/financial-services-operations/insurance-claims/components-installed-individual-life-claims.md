@@ -7,7 +7,7 @@ release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,7 +20,7 @@ Several types of components are installed with the activation of the Individual 
 
 |Plugin|Description|
 |------|-----------|
-|Customer Service \[com.sn\_customerservice\]|Enables the extension of tables from the Customer Service Management application into the Financial Services Operations applications.|
+|Case Management Core \[com.sn\_customerservice\]|Enables the extension of tables from the Customer Service Management application into the Financial Services Operations applications.|
 
 ## Store applications installed
 

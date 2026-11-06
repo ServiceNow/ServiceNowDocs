@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-06-17"
 reading_time_minutes: 2
 keywords: [role-based productivity, productivity tiers, specialized assistants, role-based canvas, manager productivity]
-breadcrumb: [EmployeeWorks introduction, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks introduction, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Key user roles and personas
@@ -25,7 +25,7 @@ EmployeeWorks Web App serves different categories of employees with experiences 
 
 Plan implementation, install Moveworks or Now Assist Chat, and configure branding and data sources from the admin console. Extend the canvas with AI-built widgets, track adoption in analytics, and expand the experience to Microsoft Teams, Slack, and mobile.
 
-\[Omitted image "admin-journey-es.png"\] Alt text: Diagram showing administrator use cases for Employee Slate
+\[Omitted image "image.admin-journey-es"\] Alt text: Diagram showing administrator use cases for Employee Slate
 
 |Action|Responsibility|
 |------|--------------|
@@ -42,7 +42,7 @@ For more information on configuration, see [Get started with EmployeeWorks Web A
 
 From the moment you log in to the moment the task is done, everything runs from one AI front door. This tier provides a conversation-first interface for everyday tasks such as service requests, knowledge search, research, and integration-powered actions.
 
-\[Omitted image "employee-journey-es.png"\] Alt text: Diagram showing everyday employee use cases for Employee Slate
+\[Omitted image "image.employee-journey-es"\] Alt text: Diagram showing everyday employee use cases for Employee Slate
 
 |Action|ResponsibilityEmployeeWorks Web App|
 |------|-----------------------------------|
@@ -58,7 +58,7 @@ For more information, see [EmployeeWorks capabilities](https://raw.githubusercon
 
 Draft announcements with conversational AI and target the right employees by role, location, or group. Publish across portal, mobile, Microsoft Teams, and Slack. Then track engagement and refine the next message with sharper targeting.
 
-\[Omitted image "content-manager-journey-es.png"\] Alt text: Diagram showing content manager use cases for Employee Slate
+\[Omitted image "image.content-manager-journey-es"\] Alt text: Diagram showing content manager use cases for Employee Slate
 
 |Action|Responsibility|
 |------|--------------|

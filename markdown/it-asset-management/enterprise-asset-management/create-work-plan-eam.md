@@ -7,9 +7,9 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a work plan for your enterprise assets
@@ -18,9 +18,7 @@ Create and manage work plans to specify how and when the work should be performe
 
 ## About this task
 
-Use the Planned Work Management application's functionality to create work plans from within the Enterprise Asset Workspace. This enables managers to create work orders for the future and allocate them to technicians so that the technicians can review and plan their work accordingly.
-
-**Note:** Ensure that you have activated the Planned Work Management plugin \[sn\_fsm\_planned\_wm\] plugin.
+To create work plans from within the Enterprise Asset Workspace, install the Planned Work Management \(sn\_fsm\_planned\_wm\) application from the ServiceNow Store. Work plans enable managers to create work orders and allocate them to technicians so that the technicians can review and plan their work accordingly.
 
 A work plan consists of an effective start and end date that determines the period for which the plan can be scheduled for execution. Each work plan must have at least one or more records associated with it for which you want to apply the work plan.
 

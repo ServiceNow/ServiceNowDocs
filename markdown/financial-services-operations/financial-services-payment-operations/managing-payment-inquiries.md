@@ -7,7 +7,7 @@ release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [payment inquiries, Beneficiary Claim Non-Receipt, BCNR, Payment in Error, PiE, internal inquiries, external inquiries, inquiry cases, payment claims, Customer Service Portal, Consumer Service Portal, third-party banks, assignment rules, inquiry agents]
 audience: [other, other, other]

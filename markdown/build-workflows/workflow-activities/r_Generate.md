@@ -7,7 +7,7 @@ release: australia
 product: Workflow Activities
 classification: workflow-activities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Approval and rollback workflow activities, Workflow activities reference, Workflow activities, Classic Workflow, Build workflows]
 ---
@@ -22,7 +22,7 @@ By default, the workflow does not create any tasks or approvals until it reaches
 
 The **Generate** activity follows all transitions through the workflow to each activity. For each activity:
 
--   If it is a [task activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_TaskActivities.md), creates the task and sets:
+-   If it is a task activity, creates the task and sets:
 
     -   The **State** to **Pending**
     -   The **Expected Start Date**

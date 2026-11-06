@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring shipping, Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -22,13 +22,15 @@ Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 
-1.  Navigate to **Enterprise Asset Workspace** &gt; **Admin center**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  Select **Shipping carrier** from the Shipping list.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Select **New**.
+3.  From the navigation panel of the Admin center view, navigate to **Shipping** &gt; **Shipping carrier**.
 
-4.  On the form fill in the fields.
+4.  Select **New**.
+
+5.  On the form fill in the fields.
 
 <table id="table_j25_fts_rzb"><thead><tr><th>
 
@@ -107,7 +109,7 @@ Notes
 Additional information about the carrier.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>6.  Select **Save**.
 
     The shipping carrier record is created and added to the Shipping carrier list.
 

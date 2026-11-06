@@ -1,20 +1,20 @@
 ---
 title: Declarative actions
-description: Learn how the Workspace declarative actions function with configurable workspace.
+description: Learn how the Workspace declarative actions function with CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migration-form-declarative-actions.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CRM Workspace, Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrate to CRM Workspace, Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Declarative actions
 
-Learn how the Workspace declarative actions function with configurable workspace.
+Learn how the Workspace declarative actions function with CRM Workspace.
 
-Declarative actions add custom functionality to your Workspace forms, fields, lists, and related lists without writing custom scripts or learning APIs. Declarative actions include: form and list actions, related list actions, and field decorators.
+Declarative actions add custom functionality to your CRM Workspace forms, fields, lists, and related lists without writing custom scripts or learning APIs. Declarative actions include: form and list actions, related list actions, and field decorators.
 
 <table id="table_lby_n12_jqb"><thead><tr><th>
 

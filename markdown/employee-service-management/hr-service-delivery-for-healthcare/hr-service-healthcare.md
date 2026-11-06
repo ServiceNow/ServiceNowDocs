@@ -1,20 +1,20 @@
 ---
 title: Healthcare professional profile form
-description: Access and update confidential HR data of an healthcare professional, such as name, personal contact information, email addresses, professional liability insurance details, and medical degree, using the Healthcare professional profile form.
+description: Access and update confidential HR data for a healthcare professional. This includes name, personal contact information, email addresses, professional liability insurance details, and medical degree.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery-for-healthcare/hr-service-healthcare.html
 release: australia
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [HR Service Delivery for Healthcare reference, HR Service Delivery for Healthcare, HR Service Delivery, Employee Service Management]
 ---
 
 # Healthcare professional profile form
 
-Access and update confidential HR data of an healthcare professional, such as name, personal contact information, email addresses, professional liability insurance details, and medical degree, using the Healthcare professional profile form.
+Access and update confidential HR data for a healthcare professional. This includes name, personal contact information, email addresses, professional liability insurance details, and medical degree.
 
 <table id="table_qvq_3sj_jbc"><thead><tr><th>
 

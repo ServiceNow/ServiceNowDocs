@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Channels, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_channel\_mgmt.admin
 
 1.  Add KPIs to a queue.
 
-<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d124149e73">
+<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d196103e73">
 
 To
 
-</th><th align="left" id="d124149e76">
+</th><th align="left" id="d196103e76">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d124149e82">
+</th></tr></thead><tbody><tr><td id="d196103e82">
 
 **Add from a service channel**
 
@@ -46,7 +46,7 @@ Do This
 4.  Select a queue.
 
 
-</td></tr><tr><td id="d124149e120">
+</td></tr><tr><td id="d196103e120">
 
 **Add from a queue**
 

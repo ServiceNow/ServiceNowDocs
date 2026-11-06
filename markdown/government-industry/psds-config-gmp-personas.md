@@ -18,7 +18,7 @@ Understand the key personas involved in Grants Management and their responsibili
 
 Grants Management supports collaboration between multiple personas, each playing a distinct role in managing, delivering, and consuming services. Understanding these roles helps administrators assign the right access, responsibilities, and tools within the framework.
 
-Grants Management supports access based on predefined personas that reflect the type of work users perform within an agency. These personas can be assigned and tailored to match your agency’s needs. A persona role may contain several roles within. The roles within are automatically added to the user when the persona role is added.
+Grants Management supports access based on predefined personas that reflect the type of work users perform within an agency. These personas can be assigned and tailored to match your agency's needs. A persona role may contain several roles within. The roles within are automatically added to the user when the persona role is added.
 
 Grants Management models this flexibility through:
 
@@ -35,7 +35,7 @@ The combination of user roles and responsibilities determines what a user can do
 
 ## Grants Management user personas
 
-A persona role is a pre-configured role made up of multiple granular roles. Each persona role corresponds to a common job title for agency members and represents a different way a user interacts with an agency. The following table contains the persona roles included with the Grants Management, and a description of each persona as it may pertain to an agency. For more information on the roles installed with Grants Management, including the roles contained in each persona, see [Grants Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/roles-installed-with-public-sector-digital-services.md).
+A persona role is a pre-configured role made up of multiple granular roles. Persona roles correspond to common job titles for agency members, and each represents a different way a user interacts with an agency. The following table contains the persona roles included with the Grants Management, and a description of each persona as it applies to an agency. For more information on the roles installed with Grants Management, including the roles contained in each persona, see [Grants Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/roles-installed-with-public-sector-digital-services.md).
 
 <table id="table_idr_2r2_1hc"><thead><tr><th>
 
@@ -55,7 +55,7 @@ Admin\[sn\_svc\_appl\_pgm\_mg.grant\_program\_admin\], \[sn\_gsm\_grnt\_mgmt.gra
 
 </td><td>
 
-An administrator is a certified ServiceNow system administrator of the agency. Administrators don't use the application directly. They support agency configuration, instance management, hierarchy management, and member role and responsibility assignments, including related-party configurations and general data management.
+An administrator is a certified ServiceNow system administrator of the agency. An administrator doesn't use the application directly. This role supports agency configuration, instance management, and hierarchy management. It also covers assignment of member roles and responsibilities, including related-party configurations and general data management.
 
 </td><td>
 
@@ -67,7 +67,7 @@ Grant Program Director\[sn\_svc\_appl\_pgm\_mg.grant\_program\_director\], \[pps
 
 </td><td>
 
-The Grant Program Director provides oversight and final approval for program setup and funding decisions. They ensure the program aligns with agency goals, compliance requirements, and available funding. The Grant Program Director serves as the senior authority responsible for the strategic oversight and governance of the grant program. This role involves approving final program configurations, ensuring compliance with organizational policies, and making key decisions regarding program direction and resource allocation. The Director reviews and authorizes the publication of opportunities, working closely with the Grant Program Manager to verify that all requirements and standards are met. Additionally, the Director provides guidance on complex issues, helps resolve escalations, and maintains accountability for the program’s overall success.
+The Grant Program Director provides oversight and final approval for program setup and funding decisions. They ensure the program aligns with agency goals, compliance requirements, and available funding. The Grant Program Director serves as the senior authority responsible for the strategic oversight and governance of the grant program. This role involves approving final program configurations, ensuring compliance with organizational policies, and making key decisions regarding program direction and resource allocation. The Director reviews and authorizes the publication of opportunities, working closely with the Grant Program Manager to verify that all requirements and standards are met. Additionally, the Director provides guidance on complex issues, helps resolve escalations, and maintains accountability for the program's overall success.
 
 </td><td>
 
@@ -119,7 +119,7 @@ roles.
 
 </td><td>
 
-An applicant seeking funding works through the Grant Applicant Portal. They review program requirements, adhere to compliance mandates, and confirm all conditions are met before submitting an application. The role involves collaborating internally to gather data and signatures, and serving as the main contact for communications with the Grant Program Manager.
+Applicants work through the Grant Applicant Portal to review program requirements, meet compliance mandates, and submit their application. They collaborate internally to gather required data and signatures, and serve as the main point of contact for communications with the Grant Program Manager.
 
 </td></tr><tr><td>
 

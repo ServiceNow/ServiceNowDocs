@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/publish-automation-project.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -51,15 +51,15 @@ Publishing an automation project as a template makes it the framework for creati
     -   When you enable the **sn\_rpa\_fdn.code\_signing\_required** system property on the instance, it impacts the existing bot processes that are associated with the packages on the same instance because you didn't enable code signing on them earlier while you were publishing from RPA Desktop Design Studio to RPA Hub. As a result, the automations that corresponded to these bot processes failed. To run the failed automation successfully, you must publish the package again with the code signing from RPA Desktop Design Studio to RPA Hub.
 3.  Publish an automation project as a package or template.
 
-<table><thead><tr><th align="left" id="d208376e251">
+<table><thead><tr><th align="left" id="d206423e251">
 
 Option
 
-</th><th align="left" id="d208376e254">
+</th><th align="left" id="d206423e254">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d208376e260">
+</th></tr></thead><tbody><tr><td id="d206423e260">
 
 **Publish the automation project as a package**
 
@@ -85,7 +85,7 @@ Action
 7.  Select **OK**.
 
 
-</td></tr><tr><td id="d208376e342">
+</td></tr><tr><td id="d206423e342">
 
 **Publish the automation project as a template**
 

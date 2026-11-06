@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Sandbox environment, Server-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Sandbox environment, Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Guarded script evaluator
@@ -29,7 +29,7 @@ Scripts with a guarded-script exemption bypass guarded script restrictions and a
 
 ## Guarded script enforcement
 
-Beginning with the Australia Patch 2 release, incompatible scripts sent to the server by guest users are rejected on all instances by default. Scripts sent by authenticated users are evaluated differently depending on the instance type.
+Incompatible scripts sent to the server by guest users are rejected on all instances by default. Scripts sent by authenticated users are evaluated differently depending on the instance type.
 
 <table id="tableID-guarded_script_default_enforcement"><thead><tr><th>
 
@@ -107,7 +107,7 @@ Phase 3: Full enforcement
 </td></tr></tbody>
 </table>## Configuring guarded script
 
-Beginning with the Australia Patch 2 release, administrators can configure the enforcement process for authenticated traffic using the following system properties and script include.
+Administrators can configure the enforcement process for authenticated traffic using the following system properties and script include.
 
 <table id="table_tzb_vzf_y3c"><thead><tr><th>
 
@@ -180,7 +180,7 @@ The GlideGuardedScript script include supports methods for transitioning between
 |`new GlideGuardedScript().advanceToPhase2()`|Validates that Phase 1: Detection is complete, creates exemptions for scripts with incompatible syntax, and advances the instance to Phase 2: Syntax enforcement for authenticated transactions.|
 |`new GlideGuardedScript().advanceToPhase3()`|Validates that Phase 2: Syntax enforcement is complete, creates exemptions for scripts that use incompatible APIs, and advances the instance to Phase 3: Full enforcement for authenticated transactions.|
 
-For information about running background scripts, see [Scripts - Background module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ScriptsBackground.md).
+For information about running background scripts, see [Background scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ScriptsBackground.md).
 
 ## JavaScript features supported by guarded script
 

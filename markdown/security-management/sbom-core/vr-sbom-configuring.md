@@ -7,7 +7,7 @@ release: australia
 product: SBOM Core
 classification: sbom-core
 topic_type: concept
-last_updated: "2026-04-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---

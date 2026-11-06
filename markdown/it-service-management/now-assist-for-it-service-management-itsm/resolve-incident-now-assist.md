@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -34,6 +34,7 @@ Incident resolution notes are generated from the information that you enter in t
 
 -   Short description
 -   Description
+-   State
 -   Work notes
 -   Additional comments
 
@@ -116,15 +117,15 @@ If you want to check some details about the resolution notes, select the more in
 
 5.  In Core UI or Service Operations Workspace for ITSM, resolve the incident by changing its state.
 
-<table id="choicetable_uh4_l1f_xyb"><thead><tr><th align="left" id="d198186e400">
+<table id="choicetable_uh4_l1f_xyb"><thead><tr><th align="left" id="d335035e403">
 
 Interface
 
-</th><th align="left" id="d198186e403">
+</th><th align="left" id="d335035e406">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d198186e409">
+</th></tr></thead><tbody><tr><td id="d335035e412">
 
 **Core UI**
 
@@ -134,7 +135,7 @@ Procedure
 2.  Update the resolution code and select **Resolve**. The resolution summary is displayed in the **Resolution Information** tab on the Incident form.
 
 
-</td></tr><tr><td id="d198186e434">
+</td></tr><tr><td id="d335035e437">
 
 **Service Operations Workspace for ITSM**
 

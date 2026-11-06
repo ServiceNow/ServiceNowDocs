@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -38,7 +38,7 @@ Use the following links to configure Discovery for your environment. You don't n
 
 </td></tr><tr><td>
 
-[Domain Separation and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryDomainSeparation.md)
+[Domain separation and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryDomainSeparation.md)
 
 </td><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Health Log Analytics, HLA, severity words, severity values, log severity]
 breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -17,7 +17,7 @@ breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, I
 
 Health Log Analytics \(HLA\) uses common severity values to identify severity labels in the Source Type Structure.
 
-The **Log severity mapping** table shows how HLA identifies severity words from raw logs \(left column\) and maps them to its own severity values \(middle column\). These values are then presented in Event Management alerts \(right column\).
+The **Log severity mapping** table shows how HLA identifies severity words from raw logs \(left column\) and maps them to its own severity values \(middle column\). HLA then presents them in Event Management alerts \(right column\).
 
 |Raw log severity|HLA log severity|Event Management alert severity|
 |----------------|----------------|-------------------------------|

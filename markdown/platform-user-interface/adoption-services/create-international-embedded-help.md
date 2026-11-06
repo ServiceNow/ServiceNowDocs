@@ -7,7 +7,7 @@ release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Embedded Help internationalization, Embedded Help planning, Configuring Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---

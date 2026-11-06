@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/agentic-contact-center-for-banking-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [agentic contact center for banking, banking contact center, customer service representative workspace, csr workspace, ai-powered workspace, handle customer calls, customer profile review, banking csr, financial services contact center]
 breadcrumb: [Banking applications, Financial Services Operations \(FSO\)]

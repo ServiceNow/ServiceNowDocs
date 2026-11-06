@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configure-skill-smart-documents.html
 release: australia
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 **Note:** From Zurich Patch 11 and Australia Patch 4 onwards, Smart documents skill is enabled by default for all tables. Disable it if not required on any table.
 
-For earlier versions, see [Activate the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/activate-smart-documents.md).
+For earlier versions, see .
 
 ## Procedure
 

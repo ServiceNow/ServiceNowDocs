@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-mcp-server.html
 release: australia
 topic_type: task
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, MCP Server Console, Enable AI experiences]
+breadcrumb: [Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Create a Model Context Protocol server

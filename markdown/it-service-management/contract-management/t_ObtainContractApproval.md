@@ -7,7 +7,7 @@ release: australia
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Send the contract for approval, Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---

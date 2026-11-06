@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cse-turn-on-cse.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Code Signing, Platform Security]
 ---
@@ -64,4 +64,6 @@ You must have at least one cryptographic key pair and certificate \(p12 file ext
 
     **Note:** Code Signing enforces limits on large update sets to improve the user experience. The maximum size for an update set is 10,000 records.
 
+
+**Parent Topic:**[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/config-code-signing.md)
 

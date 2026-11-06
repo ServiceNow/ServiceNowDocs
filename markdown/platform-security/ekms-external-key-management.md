@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ekms-external-key-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-24"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Field Encryption, Encryption]
 ---
 
@@ -33,25 +33,27 @@ Currently, EKMS for Field Encryption supports AWS Key Management Service \(AWS K
 EKMS uses a key wrapping chain to secure data. See the EKMS key wrapping diagram below for a visual representation. When EKMS is configured:
 
 1.  A Key Encryption Key \(KEK\) is generated in your instance. For EKMS, this key is called an External Key Encryption Key \(EKEK\).
-2.  The EKEK is wrapped by an internal Instance Root Key \(IRK\), which is unique to your instance and stored securely in a ServiceNow-managed Hardware Security Module \(HSM\).
+2.  The EKEK is wrapped by an internal Instance Root Key \(IRK\), which is managed by your instance.
 3.  The IRK-wrapped EKEK is then wrapped again by your AWS KMS key, which you manage in AWS.
 4.  The wrapped EKEK is stored in the External Instance Keys table.
 5.  Data Encryption Keys \(DEKs\) for a cryptographic module are wrapped by the EKEK and stored in the module key table. The DEKs are what encrypts your field data.
 6.  Field data is encrypted using the cryptographic module's DEKs.
 
-\[Omitted image "ekms-diagram.png"\] Alt text: External Key Management Service diagram
-
-This architecture ensures that your instance never has direct access to decrypt the data without access to the external AWS key.
+\[Omitted image "ekms-diagram.png"\] Alt text: External Key Management Service diagramThis architecture ensures that your instance never has direct access to decrypt the data without access to the external AWS key.
 
 ## Key status synchronization
 
-The EKMS Health Check background job runs every 30 minutes to synchronize the AWS key status with your instance. The synchronization ensures that key state changes in AWS \(enabled, disabled, pending deletion, deleted\) are reflected in the key's status in the EKMS configuration. Users with the security\_admin role can change this frequency by modifying the `com.glide.encryption.ekms.scheduler.health_check_interval`system property. See [Change synchronization frequency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-change-synchronization-frequency.md).
+A background job runs every 30 minutes to synchronize the AWS key status with your instance. This default frequency is configurable if you need a different synchronization interval. The synchronization ensures that key state changes in AWS \(enabled, disabled, pending deletion, deleted\) are reflected in your instance.
 
 **Important:** AWS-deleted keys require a minimum of seven days before showing the deleted status, as this is controlled by AWS retention policies.
 
 ## Integration with Field Encryption Enterprise
 
-EKMS integrates with Field Encryption Enterprise \(FEE\) through cryptographic modules. Cryptographic modules use your external AWS KMS key to wrap encryption keys, and Encrypted Field Configurations specify which data to encrypt.
+EKMS integrates with Field Encryption Enterprise \(FEE\) functionality through cryptographic modules. Your AWS KMS key credentials and connection are managed on the EKMS Configuration page. On the Cryptographic Modules page, you configure the module to use EKMS for external key wrapping. When you create an Encrypted Field Configuration \(EFC\), you specify which table and column should be encrypted, and which cryptographic module with external key wrapping should be used for encryption.
+
+EKMS integrates with Field Encryption Enterprise \(FEE\) through cryptographic modules. Cryptographic modules use your external AWS KMS key to wrap encryption keys, and Encrypted Field Configurations specify which data to encrypt. To use EKMS with FEE, you enable the External Wrap Key option on a cryptographic module and select your EKMS Configuration.
+
+\[Omitted image "ekms-crypto-module.png"\] Alt text: Field Encryption Enterprise EKMS fields for cyrpto modules
 
 ## Access control
 
@@ -100,7 +102,7 @@ The ServiceNow Platform Encryption subscription bundle is a group commercial ent
 
 Field Encryption Enterprise is the unlimited license of Field Encryption Starter. Field Encryption Enterprise is available with the activation of the com.glide.field.encryption.enterprise plugin. For details, see [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/encryption-sku.md).
 
-Once you’ve installed the Field Encryption Enterprise plugin, install the EKMS plugin called “Platform Encryption External Key Management”. The plugin id is com.glide.encryption.external\_kms. See [Activate External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-activate-external-key-management.md) for more information.
+Once you’ve installed the Field Encryption Enterprise plugin, you then need to install the EKMS plugin called “Platform Encryption External Key Management”. The plugin id is com.glide.encryption.external\_kms. See [Activate External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-activate-external-key-management.md) for more information.
 
 -   **[Configuring External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-configuring-external-key-management.md)**  
 Set up External Key Management Service \(EKMS\) to control the encryption of your ServiceNow data using your Amazon Web Service Key Management System \(AWS KMS\).

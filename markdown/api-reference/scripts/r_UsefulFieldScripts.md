@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Useful scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Example scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Field script use cases
@@ -32,7 +32,7 @@ Client script settings:
 -   **Table name** = incident
 -   **Field name** = Subcategory
 
-```
+```javascript
 function onChange(control, oldValue, newValue, isLoading){
     if(isLoading){return;}
     var newrec = gel('sys_row');
@@ -63,7 +63,7 @@ function onChange(control, oldValue, newValue, isLoading){
 
 This code disables HTML tags in **Description** and **Short Description** fields by substituting the tags with non-executing versions.
 
-```
+```javascript
 doit();
  
 function doit(){ 
@@ -81,7 +81,7 @@ function doit(){
 
 This example of the script trims trailing and leading spaces in the **FirstName** and **LastName** fields of the sys\_user.
 
-```
+```javascript
 doit();
  
 function doit(){ 
@@ -100,7 +100,7 @@ function doit(){
 
 The following client script example is for the number field on incident. The label flashes for two seconds.
 
-```
+```javascript
 g_form.flash("incident.number","#FFFACD",0);
 ```
 
@@ -120,7 +120,7 @@ The arguments for the flash method are as follows:
 
 This client script makes the label of a particular field bold. In this case, the field is the **Short Description** on the **Incident Table**.
 
-```
+```javascript
 function onLoad(){
   var l = g_form.getLabel('incident.short_description');
   l.style.fontWeight = 'bold';}
@@ -139,7 +139,7 @@ This onLoad client script makes the following fields on the Incident \[incident\
 
 The script also removes the magnifying glass for the read-only Reference Fields \(**Configuration item** and **Assigned to**\).
 
-```
+```javascript
 function onLoad(){
 var incidentState = g_form.getValue('incident_state');
 if( incidentState == '6'|| incidentState == '7'){
@@ -159,7 +159,7 @@ You can set date and time values in client scripts and script includes.
 
     You can use the following two lines to set the current date and time in a date/time field. This approach bypasses the problem of getting the value into the proper format and proper time zone.
 
-    ```
+    ```javascript
     var ajax = new GlideAjax('MyDateTimeAjax');
       ajax.addParam('sysparm_name','nowDateTime');
       ajax.getXML(function(){
@@ -170,7 +170,7 @@ You can set date and time values in client scripts and script includes.
 
 -   **System script include**
 
-    ```
+    ```javascript
     // Be sure the Glide AJAX enabled option is checked
      
     var MyDateTimeAjax = Class.create();
@@ -184,7 +184,7 @@ You can set date and time values in client scripts and script includes.
 
 The following client script toggles the timer field based on a particular field name.
 
-```
+```javascript
 function toggleTimerByFieldName(fieldName){
  //Step 1: Find the timer object
  //timeObjectName: the timer objects name as it would normally be referenced
@@ -231,7 +231,7 @@ The following server-side script example shows how to modify values using the Gl
 
 **Note:** The following script is only intended for global applications.
 
-```
+```javascript
 //You first need a GlideDateTime object
 //this can be from instantiating a new object "var gdt = new GlideDateTime()"
 //or getting the object from a GlideDateTime field
@@ -268,7 +268,7 @@ gs.info('In ' + GlideSession.get().getTimeZoneName() + ": " + gdt.getDisplayValu
 
 See also:
 
--   [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_GlideServerAPIs.md)
+-   [Manipulate date and time values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/useful-server-side-scripts.md)
 -   [GlideDate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/GlideDateAPI.md)
 -   [GlideDate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
 -   [GlideDateTime - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideDateTimeAPI.md)
@@ -280,5 +280,5 @@ See also:
 -   **[Approval assignment scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_UsefulApprovalAssignmentScripts.md)**  
 This is a searchable version of the useful approval and assignment scripts.
 
-**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/usefulScripts.md)
+**Parent Topic:**[Example scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/usefulScripts.md)
 

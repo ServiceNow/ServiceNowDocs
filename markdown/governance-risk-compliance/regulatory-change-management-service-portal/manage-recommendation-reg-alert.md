@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
 breadcrumb: [Generate recommendations for regulatory alert impacted areas, AI-generated recommendations for a regulatory alert skill, AI in Regulatory Change Management, Regulatory Change Management, Governance, Risk, and Compliance]

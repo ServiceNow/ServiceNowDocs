@@ -1,13 +1,14 @@
 ---
 title: AICT security analyzer AI agent
-description: This AI agent generates context for a detected AI security event by aggregating asset, prompt, cross-threat, and correlation data. It then computes a confidence score from detection strength, event risk, and authorization signals.
+description: This AI agent generates context for a detected AI security event by aggregating asset, prompt, cross-threat, and correlation data. It then computes a confidence score from detection strength, event risk, and authorization signals.Post-runtime probabilistic metrics require that the AICT Security Analyzer agent is turned on. Both the AI agent and probabilistic metrics are turned off by default, and the sampling rate for the metrics is set to 1%. Turn them on to get additional monitoring and analysis of your AI systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/plat-ai-aict-security-analyzer-agent-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-01"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI assets, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # AICT security analyzer AI agent
@@ -111,4 +112,23 @@ Not applicable.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[ServiceNow AI Platform AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-ai-agents-overview.md)
+
+## AICT Security Analyzer agent and Post-runtime settings
+
+Post-runtime probabilistic metrics require that the AICT Security Analyzer agent is turned on. Both the AI agent and probabilistic metrics are turned off by default, and the sampling rate for the metrics is set to 1%. Turn them on to get additional monitoring and analysis of your AI systems.
+
+### Metrics turned off by default
+
+The following metrics are turned off by default so that no AI usage is consumed until you choose to turn them on. For more information about configuring these metrics, see [Configure post-runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-event-metrics.md).
+
+**Warning:** AI judge model classifications are probabilistic in nature and may be incomplete or incorrect. They don't constitute professional advice and shouldn't be relied on as the sole basis for assessing risk.
+
+-   Agent goal deviation
+-   Correctness detection
+-   Data integrity incident detection
+-   Excessive agency
+-   Improper input and output handling
+-   Prompt injection
+-   Sensitive data disclosure
+-   System prompt leakage
 

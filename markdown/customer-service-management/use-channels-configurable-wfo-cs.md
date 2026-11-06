@@ -1,16 +1,16 @@
 ---
-title: Using Channel Management in WFO
+title: Using Channel Management in Workforce Optimization for Customer Service
 description: Route work items to assigned groups using channels. Use skill-based routing to ensure that the right work goes to the right agent. Review real-time performance as your team is actively working on tasks across channels. When you see escalations, you can help your agents resolve issues without the requester being aware of it.Assist agents in real time by joining their chat conversation and collaborate on any record by connecting with the right people instantly to achieve faster resolution​.Monitor your agents' workload and the status of their work items against each service channel and queue so that you can get an idea of how efficiently work is moving through the queue and to your agents.Allocate pending work items to agents to complete the work. Track your agent's performance in overview so that you can analyze and review how that agent is doing.Change the default number of work items that an agent can handle for a service channel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/use-channels-configurable-wfo-cs.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Using Channel Management, Channel Management, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
-# Using Channel Management in WFO
+# Using Channel Management in Workforce Optimization for Customer Service
 
 Route work items to assigned groups using channels. Use skill-based routing to ensure that the right work goes to the right agent. Review real-time performance as your team is actively working on tasks across channels. When you see escalations, you can help your agents resolve issues without the requester being aware of it.
 
@@ -30,9 +30,9 @@ Review real-time performance as your team is actively working on tasks across ch
 -   The **All Queues** and **All Agents** lists offer a default sorting and filtering mechanism that lets you to view the records of the selected fields based on a default sort order. Click a column heading to toggle between ascending and descending order. The sorting order turns to the default configuration as you leave the page. Administrator can customize the default sort order by creating an implementation using the extension points. For more information, see [Use extension points to configure the sort order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-channels-queues-configurable-wfo-cs.md).
 -   You will also receive an email notification of your agents' work summary at the end of each day if a [scheduled report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-channels-queues-configurable-wfo-cs.md) is configured.
 
-**Parent Topic:**[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configurable-channels-wfo-cs.md)
+**Parent Topic:**[Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configurable-channels-wfo-cs.md)
 
-## Assist agents in live chat conversations
+## Assist agents by joining their chat conversations with their end users
 
 Assist agents in real time by joining their chat conversation and collaborate on any record by connecting with the right people instantly to achieve faster resolution​.
 
@@ -127,15 +127,15 @@ The active work items remain in the queue and are pending manual allocation for 
 
 3.  Select the work item using one of the following actions.
 
-<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d316476e675">
+<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d323341e673">
 
 Navigate To
 
-</th><th align="left" id="d316476e678">
+</th><th align="left" id="d323341e676">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d316476e684">
+</th></tr></thead><tbody><tr><td id="d323341e682">
 
 **Queued Work tab**
 
@@ -143,7 +143,7 @@ Do this
 
 Select the work item.
 
-</td></tr><tr><td id="d316476e693">
+</td></tr><tr><td id="d323341e691">
 
 **Service Channel page**
 
@@ -154,7 +154,7 @@ Select the work item.
 3.  Select the work item.
 
 
-</td></tr><tr><td id="d316476e717">
+</td></tr><tr><td id="d323341e715">
 
 **All Queues**
 
@@ -319,15 +319,15 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile page.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d316476e1175">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d323341e1173">
 
 To set the override capacity
 
-</th><th align="left" id="d316476e1178">
+</th><th align="left" id="d323341e1176">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d316476e1184">
+</th></tr></thead><tbody><tr><td id="d323341e1182">
 
 **From Channels**
 
@@ -338,7 +338,7 @@ Do this
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d316476e1214">
+</td></tr><tr><td id="d323341e1212">
 
 **From Teams**
 

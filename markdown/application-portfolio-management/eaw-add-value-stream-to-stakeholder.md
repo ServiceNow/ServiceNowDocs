@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-add-value-stream-to-stakeholder.html
 release: australia
 topic_type: task
-last_updated: "2026-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [value stream, stakeholder, business architecture]
 breadcrumb: [Manage stakeholders, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]

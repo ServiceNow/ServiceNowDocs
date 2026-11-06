@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/exploring-emp-home.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [explore]
 breadcrumb: [Core Business Suite]
@@ -48,9 +48,7 @@ CBS requestersn\_cbs.requestor
 Has permission to submit requests for different services in CBS.
 
 </td></tr></tbody>
-</table>nbb
-
-## Core Business Suite benefits
+</table>## Core Business Suite benefits
 
 <table id="table_ocs_nps_3hc"><thead><tr><th>
 
@@ -139,7 +137,7 @@ CBS requester\[sn\_cbs.requestor\]
 
 To learn more about configuring and using Core Business Suite, see:
 
--   [Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
+-   
 -   [Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-using-parent.md)
 -   [Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-reference-parent.md)
 

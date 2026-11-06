@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 6
 keywords: [Lux Lab, System requirements, Installation, First launch, What's in the window, Project templates, Run and preview actions, Deployment, Privacy]
-breadcrumb: [Development tooling, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Development tooling, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Lux Lab
@@ -36,8 +36,6 @@ Lux Lab is one of the tools you can use to create or extend Lux experiences. The
 You also need Node.js v24 or later, pnpm v10 or later, Git v2.30 or later, and an internet connection for instance connectivity and agent features.
 
 ## Installation
-
-Download the Lux Lab app using the following link. [Lux Lab installation files](https://install.service-now.com/glide/distribution/builds/package/app-signed/aiux/Lux-Lab-official-release.zip).
 
 For more information on installing Lux Lab, see [Install Lux Lab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/installing-lux-lab.md).
 

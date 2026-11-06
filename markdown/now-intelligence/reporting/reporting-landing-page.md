@@ -1,5 +1,5 @@
 ---
-title: Reporting
+title: Core UI Reporting
 description: ServiceNow Reporting enables you to create and distribute reports that show the current state of instance data, such as the number of open incidents of each priority. Reporting functionality is available by default for all tables, except for system tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/reporting-landing-page.html
@@ -7,16 +7,16 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Reporting
+# Core UI Reporting
 
 ServiceNow® Reporting enables you to create and distribute reports that show the current state of instance data, such as the number of open incidents of each priority. Reporting functionality is available by default for all tables, except for system tables.
 
-**Note:** On net new Australia instances and instances migrated to Platform Analytics experience, Reporting functionality is replaced with Data Visualizations. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md).
+**Note:** On net new Brazil instances and instances migrated to Platform Analytics experience, Reporting functionality is replaced with Data Visualizations. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md).
 
 Core UI Reporting functionality is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 

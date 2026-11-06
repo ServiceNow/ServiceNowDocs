@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/domain-sep-data-viz.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -34,12 +34,12 @@ For more information on support levels, see [Application support for domain sepa
 Separated data includes data visualization designs and data visualization content. A data visualization defined at the global level is visible to users in all child domains.
 
 -   Data visualizations created in the TOP domain are visible to users in the Joe's Company domain and in the HR, CS, and IT child domains of Joe's Company.
--   Data visualizations created in either the IT, CS, or HR child domains aren’t visible to users in the other child domains, but they are visible to users in the parent Joe's Company domain.
+-   Data visualizations created in either the IT, CS, or HR child domains aren’t visible to users in the other child domains. However, they are visible to users in the parent Joe's Company domain.
 -   Data visualizations created in the parent \(Joe's Company\) domain are available only to users in that domain, but not to users in the child domains.
 
 \[Omitted image "domains-list-example.png"\] Alt text: List of company departments in separate domains including IT, CS, and HR. IT, CS, and HR are child domains of Joe's Company.
 
-If you create a data visualization in one domain and copy it to another, the data visualization structure remains the same, but the data visualization data is adjusted for the domain. For example, a data visualization with data from the Incident table where Active=true shows all active incidents to a user in the parent global domain, but only IT incidents to a user in the IT domain.
+If you create a data visualization in one domain and copy it to another, the data visualization structure remains the same. However, the data visualization data is adjusted for the domain. For example, a data visualization with data from the Incident table where Active=true shows all active incidents to a user in the parent global domain. However, it shows IT incidents only to a user in the IT domain.
 
 **Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-data-visualizations.md)
 

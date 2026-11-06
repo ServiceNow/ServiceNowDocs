@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-manage-business-roles.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business roles, business actors, Enterprise Architecture Workspace, reporting hierarchy]
 breadcrumb: [Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]

@@ -7,7 +7,7 @@ release: australia
 product: Proactive Prompts
 classification: proactive-prompts
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference for Proactive Prompts, Proactive Prompts, HR Service Delivery, Employee Service Management]
 ---
@@ -66,30 +66,6 @@ Can view, modify, or create prompts. Write access on the Prompt \[sn\_pp\_prompt
 </td><td>
 
 sn\_pp.reader
-
-</td></tr><tr><td>
-
-sn\_pp.config\_reader
-
-</td><td>
-
-Read access to signal configurations.
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-sn\_pp.dashboard\_viewer
-
-</td><td>
-
-View access to dashboard
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>You can assign these roles to the appropriate roles, groups, or users in your application.
@@ -158,14 +134,6 @@ Stores additional criteria applied to users eligible for prompt.
 
 </td></tr><tr><td>
 
-Signal user preference\[sn\_pp\_signal\_user\_preference\]
-
-</td><td>
-
-Stores the signal per user prefrences.
-
-</td></tr><tr><td>
-
 Signal category\[sn\_pp\_signal\_category\]
 
 </td><td>
@@ -195,14 +163,6 @@ Prompt details\[sn\_pp\_prompt\_details\]
 </td><td>
 
 Stores the employee information qualified for the prompt or signal when the receiving user is the manager.
-
-</td></tr><tr><td>
-
-Prompt header configuration\[sn\_pp\_prompt\_header\_config\]
-
-</td><td>
-
-Stores the prompt header configuration details.
 
 </td></tr><tr><td>
 

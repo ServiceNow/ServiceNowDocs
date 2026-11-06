@@ -7,9 +7,9 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 22
-breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Install a MID Server on Windows
@@ -345,7 +345,11 @@ Role required: admin
 
 If you installed the MID Server using the native installer, you will not need to complete this procedure. However, to change the service user after the installation for any reason, use this procedure.
 
-Windows service credentials control the level of privilege on the device. The user should not be a local system or an administrator level account \(local admin, domain admin, etc.\) The service account provided should have the **log on as service** right, which is a requirement for an account to be used as the **log on user** for a service.
+Windows service credentials control the level of privilege on the device. The service account must meet the following requirements:
+
+-   The account cannot be a local system or an administrator-level account \(local admin, domain admin, and so on\).
+-   The account must have the **Log on as a service** right, which is required for an account to be used as the log on user for a service.
+-   The account must have the **Increase a process working set** privilege, which is required for the MID Server to manage its memory allocation.
 
 **Note:**
 
@@ -463,8 +467,6 @@ Install MID Servers with the ZIP file installation package and verify it is acti
 Role required: admin or mid\_server
 
 ### About this task
-
-Click this link to view the installation video:
 
 MID Servers can be configured to run using non-administrative accounts. Using non-admin accounts in conjunction with file permission enforcement can improve security by restricting access to MID Server files. sIf you choose to run a MID Server with a non-admin account, there are limitations that change the behavior of other applications. The following behavior changes can occur:
 

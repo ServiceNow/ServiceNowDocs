@@ -7,7 +7,7 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ Use the **Heating and cooling** workplace service to report temperature issues f
 
 1.  Navigate to the portal from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d679998e70">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d677416e70">
 
 Location
 
-</th><th align="left" id="d679998e73">
+</th><th align="left" id="d677416e73">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d679998e79">
+</th></tr></thead><tbody><tr><td id="d677416e79">
 
 **Workplace Service Portal**
 
@@ -56,7 +56,7 @@ The portal homepage opens.
 3.  Select **Submit a maintenance request**.
 
 
-</td></tr><tr><td id="d679998e149">
+</td></tr><tr><td id="d677416e149">
 
 **Employee Center**
 

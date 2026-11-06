@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/buy-partner-app.html
 release: australia
 topic_type: task
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [buy app, servicenow store, store, app store, application store, app store user documentation, servicenow app store, buy app with credit card, purchase app]
 breadcrumb: [Getting apps, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
@@ -31,15 +31,15 @@ Role required: none
 
     If an application requires additional approval from the provider, the listing details page displays a **Request purchase** option. If the application doesn't require any additional approval, the listing details page displays **Contact seller** instead.
 
-<table id="choicetable_bcb_3ct_hjc"><thead><tr><th align="left" id="d290503e136">
+<table id="choicetable_bcb_3ct_hjc"><thead><tr><th align="left" id="d291775e136">
 
 Option
 
-</th><th align="left" id="d290503e139">
+</th><th align="left" id="d291775e139">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d290503e145">
+</th></tr></thead><tbody><tr><td id="d291775e145">
 
 **Request purchase**
 
@@ -47,7 +47,7 @@ Procedure
 
 Select **Request purchase** to send a request to the provider. Approval is granted at the provider's discretion.
 
-</td></tr><tr><td id="d290503e157">
+</td></tr><tr><td id="d291775e157">
 
 **Contact seller**
 

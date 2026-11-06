@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Authoring a knowledge article in Agent Workspace, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ If you have manually mapped related articles when editing an article in Agent Wo
 
 **Note:** An administrator can train the solution definition for Knowledge Management within the Predictive Intelligence feature to find related articles. For more information, see [Train the similarity solution for Knowledge Management to find related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/train-similarity-solution-km.md).
 
-This task provides steps to manually map related articles when editing an article in Agent Workspace. You can also manually map related articles when editing an article from the Knowledge Management application in the ServiceNow AI Platform interface. For more information, see [Map related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/map-related-articles.md).
+This task provides steps to manually map related articles when editing an article in Agent Workspace. You can also manually map related articles when editing an article from the Knowledge Management application in the ServiceNow AI Platform interface. For more information, see [Map related articles]().
 
 ## Procedure
 
@@ -95,5 +95,5 @@ The mapped articles are available in the Related Articles section on the Knowled
 **Related topics**  
 
 
-[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/edit-article-workspace.md)
+[Edit a knowledge article in Agent Workspace]()
 

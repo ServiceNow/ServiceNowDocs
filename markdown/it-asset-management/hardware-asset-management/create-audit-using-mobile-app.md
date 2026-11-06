@@ -7,10 +7,10 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [create an audit record]
-breadcrumb: [Audit hardware asset inventory, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Audit hardware asset inventory, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an audit record using the ServiceNow Agent app
@@ -34,15 +34,15 @@ Role required: asset, and sn\_itam\_common.asset\_audit\_admin, or sn\_itam\_com
 
 3.  Select the audit that you want to perform.
 
-<table id="choicetable_bpk_mvc_whc"><thead><tr><th align="left" id="d260509e102">
+<table id="choicetable_bpk_mvc_whc"><thead><tr><th align="left" id="d265258e102">
 
 Audit type
 
-</th><th align="left" id="d260509e105">
+</th><th align="left" id="d265258e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d260509e111">
+</th></tr></thead><tbody><tr><td id="d265258e111">
 
 **To perform stockroom audits**
 
@@ -53,7 +53,7 @@ Action
 3.  Tap **New stockroom audit**.
 
 
-</td></tr><tr><td id="d260509e140">
+</td></tr><tr><td id="d265258e140">
 
 **To perform location audits**
 

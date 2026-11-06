@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration, Activate, Process Mining, Platform Analytics]
 ---
@@ -53,15 +53,15 @@ Activate the Continual Improvement Management plugin \(com.sn\_cim\) and the Pro
 
 1.  Navigate to the **Process Mining** workbench in any one of the following ways.
 
-<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d107398e231">
+<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d109036e231">
 
 From where
 
-</th><th align="left" id="d107398e234">
+</th><th align="left" id="d109036e234">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d107398e240">
+</th></tr></thead><tbody><tr><td id="d109036e240">
 
 **Continual Improvement Workbench**
 
@@ -73,7 +73,7 @@ Steps
 
 **Note:** For more information, refer to [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/define-workflow-model.md).
 
-</td></tr><tr><td id="d107398e291">
+</td></tr><tr><td id="d109036e291">
 
 **Improvement Initiative**
 

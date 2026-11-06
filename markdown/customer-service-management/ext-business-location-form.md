@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ext-business-location-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
@@ -124,20 +124,11 @@ Associate a channel partner to add roles in the Service Organization tab.
 
 </td></tr><tr><td>
 
-Business organizations served
+Excluded from hierarchy overrides
 
 </td><td>
 
-Types of business organizations that are served at a business location. -   **Criteria based**: Enables staff members within a organization to create and resolve cases for organizations that meet with specific criteria.
--   **Hierarchy based**: Enables staff members within a organizations to create and resolve cases for organizations that are linked to the organization cores through hierarchical relationships.
-
-</td></tr><tr><td>
-
-Restricted
-
-</td><td>
-
-Restrict all organization hierarchy contributors and agents from accessing this organization
+Enabling this, the hierarchy agents can't view the location or its details.
 
 </td></tr><tr><td>
 
@@ -145,7 +136,7 @@ Website
 
 </td><td>
 
-Web address for the internal organization \(formerly internal business location\).
+Web address for the internal business location.
 
 </td></tr><tr><td>
 
@@ -169,7 +160,7 @@ Open date
 
 </td><td>
 
-Date on which the business organization becomes operational and available for customers.
+Date on which the business location becomes operational and available for customers.
 
 </td></tr><tr><td>
 
@@ -177,7 +168,7 @@ Close date
 
 </td><td>
 
-Date on which the business organization becomes non-operational and unavailable for customers.**Note:** The closed date must not be earlier than the open date.
+Date on which the business location becomes non-operational and unavailable for customers.**Note:** The closed date must not be earlier than the open date.
 
 </td></tr><tr><td>
 
@@ -241,7 +232,7 @@ Available Services
 
 </td><td>
 
-List of services supported by the business organization .For more information, see [Setting up products and available services at a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/products-services-at-bus-loc.md).
+List of services supported by the business organization .For more information, see [Setting up products and available services at a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/products-services-at-bus-loc.md).
 
 </td></tr><tr><td>
 
@@ -266,7 +257,7 @@ Organization Customer Criteria
 
 </td><td>
 
-List of customers supported by an external organization.For more information about associating customer criteria to an external organization, see [Define the configuration type for customers or business organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-customer-criteria-to-service-organization.md).
+List of customers supported by an external organization.For more information about associating customer criteria to an external organization, see [Define the configuration type for customers or business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-customer-criteria-to-service-organization.md).
 
 </td></tr><tr><td>
 

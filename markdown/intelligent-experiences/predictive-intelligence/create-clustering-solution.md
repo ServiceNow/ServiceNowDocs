@@ -7,9 +7,9 @@ release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Create and train a clustering solution
@@ -20,7 +20,7 @@ Group similar records into clusters so you can address them collectively or iden
 
 Role required: ml\_admin or admin
 
-**Important:** In the Australia release, models in the classification, clustering, and similarity frameworks use Workflow solutions. These are pre-trained, so a word corpus isn't needed for your new solutions. When your existing solutions with a word corpus are re-trained after upgrading, they become Workflow solutions, and the Word Corpus field is removed from the form.
+**Important:** In the Brazil release, models in the classification, clustering, and similarity frameworks use Workflow solutions. These are pre-trained, so a word corpus isn't needed for your new solutions. When your existing solutions with a word corpus are re-trained after upgrading, they become Workflow solutions, and the Word Corpus field is removed from the form.
 
 ## About this task
 
@@ -68,7 +68,7 @@ Word Corpus
 
 If you have a legacy clustering solution, you can select a relevant word corpus from the **Word Corpus** field in the definition form.
 
- **Note:** With the Australia release, a word corpus is not required, because a pre-trained model is used instead. The **Word Corpus** field is not visible in the definition form for pre-trained models.
+ **Note:** With the Brazil release, a word corpus is not required, because a pre-trained model is used instead. The **Word Corpus** field is not visible in the definition form for pre-trained models.
 
  For more information, see [Create a word corpus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/create-word-corpus.md).
 

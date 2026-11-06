@@ -7,8 +7,8 @@ release: australia
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configuring Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
 
@@ -37,7 +37,7 @@ The Metric Intelligence automated setup performs the following setup tasks:
 5.  Creates a Metric Intelligence Metrics Extension and starts it
 6.  Opens the Metric Intelligence Metrics Context form. On this form, you can click the **Setup REST Listener** UI action to create the MID Web Server extension configured with the ‘Enable REST Listener’ option and default port 8097
 
-If automatic setup fails, you can create a MID Server distributed cluster manually, as described in the Use the **Setup Metric Intelligence** link only to create the first MID Server distributed cluster that contains a single MID Server, with default values. After the automated setup completes, you have to manually create any additional MID Server distributed clusters or add Metric Intelligence MID Servers.
+If automatic setup fails, create a MID Server distributed cluster manually. Use the **Setup Metric Intelligence** link only to create the first cluster, which contains a single MID Server with default values. After the automated setup completes, you have to manually create any additional MID Server distributed clusters or add Metric Intelligence MID Servers.
 
 ## Procedure
 

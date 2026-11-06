@@ -7,7 +7,7 @@ release: australia
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migration from Test Management 1.0 to Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---

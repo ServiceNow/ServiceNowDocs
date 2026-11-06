@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [HR Knowledge Management, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -35,21 +35,19 @@ Role required: hr\_basic or hr\_case\_writer
     -   **Knowledge Articles**: Based on the short description of the HR case and the user criteria that is associated with the knowledge base, relevant knowledge articles are displayed in two tabs: **My Results** displays a list of articles you can access. **\[employee name\] Results** displays a list of articles that the Opened for employee can access.
     -   **Similar Knowledge Articles**: Based on the short description of the HR case, user criteria associated with the knowledge base, auto-training of the Similar Knowledge Articles for HR Case \(ml\_sn\_sn\_hr\_core\_global\_case\_to\_articles\) solution definition, similar knowledge articles are displayed in the **My Results** tab.
 
-        The **Similar Knowledge Articles** option narrows down and displays the most relevant knowledge articles to resolve the HR case.
-
-        **Important:** This option is displayed only when the Predictive Intelligence for Contextual Search plugin is activated along with Human Resources Scoped App: Core plugin.
+        The **Similar Knowledge Articles** option narrows down and displays the most relevant knowledge articles to resolve the HR case. This option is displayed only when the Predictive Intelligence for Contextual Search plugin is activated along with Human Resources Scoped App: Core plugin.
 
 4.  Review the list of suggested knowledge articles.
 
-<table id="choicetable_pgl_nkt_hcc"><thead><tr><th align="left" id="d148194e139">
+<table id="choicetable_pgl_nkt_hcc"><thead><tr><th align="left" id="d148449e137">
 
 Action
 
-</th><th align="left" id="d148194e142">
+</th><th align="left" id="d148449e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d148194e148">
+</th></tr></thead><tbody><tr><td id="d148449e146">
 
 **Preview the article**
 
@@ -57,7 +55,7 @@ Description
 
 Click the article title. After reviewing the article in the pop-up window, click **Attach to HR Case** if it is relevant, or click **\(X\)** to close the article.
 
-</td></tr><tr><td id="d148194e163">
+</td></tr><tr><td id="d148449e161">
 
 **Attach the article without previewing it**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-ir-playbook-view-service-request-cases-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -29,7 +29,7 @@ When you select a case, a form opens with the following sections:
 
 ## Procedure
 
-1.  Open the Information Request Administration by navigating to Lists in the CRM Workspace.
+1.  Open the Information Request Administration by navigating to Lists in the Public Sector Workspace.
 
 2.  Navigate to the **Information Requests** list and select **All**.
 

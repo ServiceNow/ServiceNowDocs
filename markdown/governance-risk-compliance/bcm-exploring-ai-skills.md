@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bcm-exploring-ai-skills.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto for IRM]
 breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Compliance]
@@ -87,8 +87,7 @@ The following table shows different assets and their description.
 
 |Asset|Description|
 |-----|-----------|
-|GRC Issue agent|Report and manage GRC issues|
-|Issue submission agent|Employee Center integrated issue submission|
+|Report a GRC issue agent|Report and manage GRC issues from the Employee Center and Workspace|
 |Issue resolution agent|AI-assisted issue resolution and remediation|
 |Remediation task agent|Automated remediation task generation|
 |Issue summarization|Automatic issue summarization and analysis|
@@ -103,7 +102,7 @@ To configure and use ServiceNow Otto for IRM, see the following links:
 -   [Supporting information for Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/now-assist-irm-supporting-info.md)
 -   [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
 -   [Activate skills in Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md)
--   Activate agentic workflows in Now Assist for IRM
+-   [Activate agentic workflows in Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/activate-agentic-workflows.md)
 -   [Customize the issue summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/customize-issue-summarization-skill.md)
 
 **Related topics**  

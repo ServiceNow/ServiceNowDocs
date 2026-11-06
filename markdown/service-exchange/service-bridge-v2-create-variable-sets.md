@@ -7,7 +7,7 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create remote catalogs, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -123,7 +123,7 @@ Description of the variable set.
 
     1.  In the Variables related list, click **New**.
 
-    2.  Follow the steps listed in [Create variables for remote record producers for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-assign-variables-ser-defn.md) to create variables.
+    2.  Follow the steps listed in [Create variables for remote record producers in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-assign-variables-ser-defn.md) to create variables.
 
         **Note:** For a multi-row variable set:
 

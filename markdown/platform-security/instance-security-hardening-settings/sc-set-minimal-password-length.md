@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Authentication, Hardening settings, Platform Security]
 Set minimum and maximum password lengths to avoid compliance issues and reduce the risk of a successful brute force attack
 
 Password policies define the requirements for passwords your users create on your instance. The password length must fall within the range accepted by the NIST 800-63B document.
+
+Allowing passwords that are too short increases the risk of an attacker successfully brute forcing passwords. Shorter passwords create significant compliance violations.
 
 Ensure that a password policy is being enforced for each password credential store in use on your instance. Ensure that the password policy mandates a minimum password length of at least 15 characters and maximum password length of at least 64 characters.
 
@@ -79,7 +81,7 @@ Recommended value
 
 -   The **Enable password policy** field on each Password Reset Credential Stores \[pwd\_cred\_store\] record must be activated\(true\).
 -   The **Minimum Password Length** on the associated Password Policy \[password\_policy\] record must be at least 15.
--   The **Maximum Password Length** on the associated Password Policy \[password\_policy\] record must be at least 64.
+-   The **Maximum Password Length** on the associated Password Policy \[password\_policy\] record must be equal or less than 64.
 
 </td></tr><tr><td>
 
@@ -115,7 +117,7 @@ Security risk
 
 -   Severity score: 5.9
 -   CVSS score: Medium
--   Security risk details: Allowing passwords that are too short or not long enough could lead to compliance issues and increases the risk of an attacker successfully brute forcing passwords.
+-   Security risk details: Allowing passwords that are too short increases the risk of an attacker successfully brute forcing passwords. Shorter passwords create significant compliance violations.
 
 </td></tr><tr><td>
 
@@ -123,7 +125,7 @@ Functional impact
 
 </td><td>
 
-Instances do not suffer any impact from a minimum password length of 15 or maximum password length of 64.
+Instances don't suffer any impact from a minimum password length of 15 or maximum password length of at least 64.
 
 </td></tr><tr><td>
 

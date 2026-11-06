@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/set-up-ai-agent-advisor.html
 release: australia
 topic_type: task
-last_updated: "2026-10-02"
+last_updated: "2026-11-03"
 reading_time_minutes: 2
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [Configure, AI Agent Advisor, AI Admin Center, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Confirm installation of AI Agent Advisor
@@ -17,7 +17,7 @@ Confirm the installation of the AI Agent Advisor application.
 
 **Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
 
-The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+The Next Experience AI Admin Center workspace is being prepared for future deprecation and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
 
 In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 

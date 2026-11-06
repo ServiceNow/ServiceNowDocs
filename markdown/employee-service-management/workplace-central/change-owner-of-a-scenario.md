@@ -7,7 +7,7 @@ release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -47,15 +47,15 @@ Change the ownership of a published scenario to enable other space planners to i
 
     Follow any one of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d424978e157">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d423963e157">
 
 Path
 
-</th><th align="left" id="d424978e160">
+</th><th align="left" id="d423963e160">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d424978e166">
+</th></tr></thead><tbody><tr><td id="d423963e166">
 
 **From the Scenarios list section**
 
@@ -69,7 +69,7 @@ A list of all the scenarios created in the application are displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d424978e191">
+</td></tr><tr><td id="d423963e191">
 
 **From the Buildings list section**
 

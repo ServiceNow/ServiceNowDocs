@@ -7,7 +7,7 @@ release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [UI Builder for Agent Workspace for HR Case Management, Setting up Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---

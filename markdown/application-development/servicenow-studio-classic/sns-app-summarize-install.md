@@ -7,10 +7,10 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configuring, App summary generation, AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Configuring, App summary generation, AI tools and files, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Install ServiceNow Otto for app summary generation
@@ -45,7 +45,7 @@ Role required: admin
 
     3.  Verify that the app summary generation skill and the table summary generation skill are active by selecting **View details** on the **App** card.
 
-    For more information about using the AI Admin Hub to access information about setting up, configuring, and monitoring ServiceNow Otto applications, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+    For more information about using the Now Assist Admin console to access information about setting up, configuring, and monitoring Now Assist applications, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 
 ## What to do next

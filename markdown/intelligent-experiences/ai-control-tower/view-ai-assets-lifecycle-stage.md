@@ -7,10 +7,10 @@ release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # View AI assets by life-cycle stage

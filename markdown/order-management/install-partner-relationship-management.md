@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-partner-relationship-management.html
 release: australia
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 1
+last_updated: "2026-11-06"
+reading_time_minutes: 2
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
@@ -41,36 +41,40 @@ For more information on viewing components that are installed with an applicatio
 
 3.  In the Application installation dialog box, review the application dependencies.
 
-    Dependent plugins and applications appear if they’re installed, or are currently installed, or must be installed. If any plugins or applications require installation, you must install them before you can install Partner Relationship Management.
+    Dependent plugins and applications appear if they're installed, or are currently installed, or must be installed. If any plugins or applications require installation, you must install them before you can install Partner Relationship Management.
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d182501e144">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d188214e144">
 
 Demo data install task
 
-</th><th align="left" id="d182501e147">
+</th><th align="left" id="d188214e147">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d182501e153">
+</th></tr></thead><tbody><tr><td id="d188214e153">
 
 **If demo data is available and you want to install it**
 
 </td><td>
 
-1.  Select the **Load Demo Data** option.
-2.  Select **Install**.
+1.  Select the **Partner Relationship Management** application. If the application is installed, it appears in the **Installed** tab.
+2.  Select the **Load Demo Data** option in **Quick Actions**.
+
+You get a prompt to confirm whether you want to continue with the loading of demo data.
+
+3.  Select **OK**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d182501e183">
+</td></tr><tr><td id="d188214e200">
 
-**If the Load Demo Data option isn’t available but you want demo data**
+**If the Load Demo Data option isn't available but you want demo data**
 
 </td><td>
 
 Load the demo data after installing Partner Relationship Management.1.  Install Partner Relationship Management \(com.snc.partner\_relationship\_management\).
-2.  Navigate to the **All** and in the Filter, type `v_plugin.list`.
+2.  Navigate to **All** and in the Filter, type `v_plugin.list`.
 3.  In the **System Plugin** list, search for Partner Relationship Management plugin.
 4.  In the System **Plugin Partner Relationship Management data model** window, under Related Links, select **Install Demo Data Only**.
 

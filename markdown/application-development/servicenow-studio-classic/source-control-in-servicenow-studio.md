@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Metadata source control in ServiceNow Studio

@@ -1,20 +1,20 @@
 ---
-title: Components installed with Incident Management - Major Incident Management
-description: Several types of components are installed with activation of the Incident Management - Major Incident Management plugin, including tables and user roles.
+title: Components installed with Major Incident Management
+description: Activating the Incident Management - Major Incident Management plugin installs several types of components, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/installed-with-mim.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Activate Major Incident Management, Major Incident Management plugins, Managing major incidents, Incident Management, IT Service Management]
 ---
 
-# Components installed with Incident Management - Major Incident Management
+# Components installed with Major Incident Management
 
-Several types of components are installed with activation of the Incident Management - Major Incident Management plugin, including tables and user roles.
+Activating the Incident Management - Major Incident Management plugin installs several types of components, including tables and user roles.
 
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
@@ -44,14 +44,25 @@ A major incident manager can:-   Initiate the major incident process by assessin
 -   Reject a major incident candidate.
 -   Demote a major incident after it is accepted so that the incident can be handled as a regular incident.
 -   Maintain the ownership and accountability for the life cycle of the incident.
--   Identifies the users and groups to be involved in the resolution activities.
--   Creates adhoc communication plans and tasks.
--   Edits a communication plan that is attached to a major incident.
+-   Identify the users and groups to be involved in the resolution activities.
+-   Create ad hoc communication plans and tasks.
+-   Edit a communication plan that is attached to a major incident.
 -   Close a major incident.
 
 </td><td>
 
-This role inherits the ia\_admin role.
+-   sn\_comm\_management.comm\_plan\_viewer
+-   sn\_comm\_management.comm\_plan\_manager
+-   ia\_admin
+-   sn\_incident\_write
+-   sn\_problem\_write
+-   sn\_change\_write
+-   sn\_request\_write
+-   itil
+
+ **Note:** Starting with Brazil, for zBoot instances, the major incident manager \[major\_incident\_manager\] role no longer inherits the itil role. Instead, it inherits the sn\_incident\_write, sn\_problem\_write, sn\_change\_write, and sn\_request\_write granular roles from the ITSM Roles plugin \(com.snc.itsm.roles\).
+
+For upgraded instances, the itil role remains inherited. Additionally, the sn\_incident\_write, sn\_problem\_write, sn\_change\_write, and sn\_request\_write granular roles are added if the ITSM Roles plugin \(com.snc.itsm.roles\) is installed.
 
 </td></tr><tr><td>
 
@@ -59,7 +70,7 @@ Major incident admin\[sn\_mim\_admin\]
 
 </td><td>
 
-Configure all Major Incident Management features including major incident properties and trigger rules.
+Configures all Major Incident Management features including major incident properties and trigger rules.
 
 </td><td>
 
@@ -74,23 +85,33 @@ Communications manager\[communication\_manager\]
 </td><td>
 
 -   Manages communications for major incidents and is responsible for communicating with all stakeholders.
--   Creates adhoc communication plans and tasks.
+-   Creates ad hoc communication plans and tasks.
 -   Edits a communication plan that is attached to a major incident.
 
 </td><td>
 
-This role inherits the ia\_admin role.
+-   sn\_comm\_management.comm\_plan\_viewer
+-   ia\_admin
+-   sn\_incident\_write
+-   sn\_problem\_write
+-   sn\_change\_write
+-   sn\_request\_write
+-   itil
+
+ **Note:** Starting with Brazil, for zBoot instances, the communications manager \[communication\_manager\] role no longer inherits the itil role. Instead, it inherits the sn\_incident\_write, sn\_problem\_write, sn\_change\_write, and sn\_request\_write granular roles from the ITSM Roles plugin \(com.snc.itsm.roles\).
+
+For upgraded instances, the itil role remains inherited. Additionally, the sn\_incident\_write, sn\_problem\_write, sn\_change\_write, and sn\_request\_write granular roles are added if the ITSM Roles plugin \(com.snc.itsm.roles\) is installed.
 
 </td></tr><tr><td>
 
-Incident Manager \[incident\_manager\]
+Incident manager \[incident\_manager\]
 
 \(Existing role with added responsibilities\)
 
 </td><td>
 
 -   Manages incident properties and major incident trigger rules.
--   Can create and edit Communication Plan Definitions.
+-   Creates and edits communication plan definitions.
 
 </td><td>
 

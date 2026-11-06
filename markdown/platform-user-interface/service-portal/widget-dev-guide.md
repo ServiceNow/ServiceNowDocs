@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -73,10 +73,10 @@ Like Angular directives, widgets execute a specified behavior within a Service P
 
     An optional widget component.
 
-    Enables a Service Portal admin to configure a widget. Use the option schema to:
+    Allows a Service Portal admin to configure a widget. Use the option schema to:
 
     -   Specify the parameters for a widget.
-    -   Enable admin users to define instance options for a widget instance.
+    -   Allow admin users to define instance options for a widget instance.
     -   Develop flexible, reusable widgets.
 -   **Angular Providers**
 
@@ -99,7 +99,7 @@ Like Angular directives, widgets execute a specified behavior within a Service P
 
 When a widget begins to render for the first time on a page, the server script executes first and accesses three global objects: **input**, **options**, and **data**. Because the **input** variable is a data object sent from the client script, this variable is undefined when first initialized.
 
-\[Omitted image "Server-ClientGlobalScripts.png"\] Alt text: Available variables in server and client script global.
+\[Omitted image "Server-ClientGlobalScripts.png"\] Alt text: Available variables in server and client script global
 
 When a widget is first instantiated, the server script:
 
@@ -111,7 +111,7 @@ The client script:
 
 1.  Accesses the server **data** object using `c.data`.
 
-    **Note:** By default, widgets use the **c** variable to represent the controller instance using `controller as` syntax. You can change this variable when creating or copying widgets.
+    **Note:** By default, widgets use the **c** variable to represent the controller instance using `controller as` syntax. You can change this variable when creating or cloning widgets.
 
 2.  Uses `server.update()` to post changes to the data model. This method updates the server script using the **input** object.
 
@@ -123,9 +123,9 @@ The client script:
 
 When you create a widget, a record is created in the sp\_widget table. However, you can use the Widget Editor in Service Portal Configuration as your scripting environment. The Widget Editor is a full page application similar to an IDE. You can show the parts of the widget you want to edit and hide the rest, while previewing your changes in real time.
 
-**Note:** For server-side scripts, you can turn on using the ECMAScript 2021 \(ES12\) JavaScript mode if your application uses ES5 Standards mode or Compatibility mode. Scripts in applications with the JavaScript mode set to ECMAScript 2021 \(ES12\) use ECMAScript 2021 \(ES12\) by default. For more information, see .
+**Note:** For server-side scripts, you can turn on using the ECMAScript 2021 \(ES12\) JavaScript mode if your application uses ES5 Standards mode or Compatibility mode. Scripts in applications with the JavaScript mode set to ECMAScript 2021 \(ES12\) use ECMAScript 2021 \(ES12\) by default. For more information, see [Turn on ECMAScript 2021 \(ES12\) mode for a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/set-es12-mode-scripts.md).
 
-\[Omitted image "basic-widget.png"\] Alt text: Widget Editor in Service Portal Configuration as a script editor.
+\[Omitted image "basic-widget.png"\] Alt text: Widget editor IDE
 
 -   **[General guidelines for developing widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/general-guidelines-developing-widgets.md)**  
 When developing custom widgets, keep these general guidelines in mind for optimal performance, scalable development, and a good user experience.

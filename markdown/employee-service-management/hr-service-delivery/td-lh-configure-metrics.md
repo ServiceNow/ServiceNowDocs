@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Install and configure, Leader Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Installing and configuring Leader Hub, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure metrics for employee engagement
@@ -18,7 +18,7 @@ Use the Leader Hub Metric Configurations table to configure metrics for employee
 
 ## Before you begin
 
-Role required: sn\_egd\_lh.admin
+Role required: admin \[sn\_egd\_lh.admin\]
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-07-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Configuring Software Asset Management, Software Asset Management, I
 Configure the ServiceNow Otto for Software Asset Management \(SAM\) application to use the agentic workflow and generativeAI skills for managing your software assets autonomously.
 
 -   **[Install ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/install-now-assist-sam.md)**  
-If you have the admin role, you can install the ServiceNow Otto for SAM application. The ServiceNow Otto for SAM application integrates generative AI capabilities into your daily workflow tasks.
+If you have the admin role, you can install the ServiceNow Otto for Software Asset Management \(SAM\) application. The ServiceNow Otto for Software Asset Management \(SAM\) application integrates generative AI capabilities into your daily workflow tasks.
 -   **[Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-now-assist-sam.md)**  
 If you have the admin role, you can configure the ServiceNow Otto for Software Asset Management \(SAM\) application to use generative AI skills in the Software Asset Workspace.
 -   **[Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/now-assist-sam-skills-inputs.md)**  

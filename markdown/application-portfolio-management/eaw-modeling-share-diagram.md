@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-modeling-share-diagram.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_apm.apm\_user
 
     You can provide the following access levels to the members and groups:
 
-    -   **Owner**: You can edit the diagram, share the diagram, and modify access levels for other users \(except for the actual owner of the diagram\).
+    -   **Owner**: With this access, you can edit the diagram, share the diagram, and modify access levels for other users \(except for the actual owner of the diagram\).
     -   **Editor**: You can edit the diagram, share the diagram with Editor or Viewer access for other users, and modify access levels for the users added by you.
     -   **Viewer**: With this access, you can only view the diagram, and can’t perform any other actions for the diagram.
     \[Omitted image "modeling-share-diagram.png"\] Alt text: Share a digram

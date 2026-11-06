@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/bulk-update-order-lines-with-now-assist.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -80,7 +80,7 @@ Acknowledged
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List \[Omitted image "list-outline-24.svg"\] Alt text: icon.
 
@@ -96,15 +96,15 @@ Acknowledged
 
 8.  Choose the order update that you want to perform.
 
-<table id="choicetable_cyq_1s4_k3c"><thead><tr><th align="left" id="d141918e282">
+<table id="choicetable_cyq_1s4_k3c"><thead><tr><th align="left" id="d145660e283">
 
 Action
 
-</th><th align="left" id="d141918e285">
+</th><th align="left" id="d145660e286">
 
 What to do in ServiceNow Otto panel
 
-</th></tr></thead><tbody><tr><td id="d141918e294">
+</th></tr></thead><tbody><tr><td id="d145660e295">
 
 **Bulk update quantity**
 
@@ -114,7 +114,7 @@ What to do in ServiceNow Otto panel
 2.  Confirm the bulk update.
 
 
-</td></tr><tr><td id="d141918e312">
+</td></tr><tr><td id="d145660e313">
 
 **Bulk update shipping address**
 
@@ -124,7 +124,7 @@ What to do in ServiceNow Otto panel
 2.  Confirm the bulk update.
 
 
-</td></tr><tr><td id="d141918e330">
+</td></tr><tr><td id="d145660e331">
 
 **Apply bulk discount**
 
@@ -135,7 +135,7 @@ What to do in ServiceNow Otto panel
 3.  Confirm the bulk update.
 
 
-</td></tr><tr><td id="d141918e351">
+</td></tr><tr><td id="d145660e352">
 
 **Delete order line**
 
@@ -143,7 +143,7 @@ What to do in ServiceNow Otto panel
 
 Specify the top-level order line you want to remove when prompted, then confirm the deletion.
 
-</td></tr><tr><td id="d141918e361">
+</td></tr><tr><td id="d145660e362">
 
 **Create Order case**
 

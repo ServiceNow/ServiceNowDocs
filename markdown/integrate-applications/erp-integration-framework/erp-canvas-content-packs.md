@@ -1,21 +1,21 @@
 ---
-title: Zero Copy Connector for ERP content packs
-description: Use Zero Copy Connector for ERP content packs as examples to help you implement and deploy applications with less manual work.
+title: Accelerating SAP integrations with Zero Copy Connector for ERP content packs
+description: Zero Copy Connector for ERP content packs provide predefined SAP models and process extensions that you can copy and customize, so that you can build SAP integrations without deep SAP expertise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-content-packs.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
-keywords: [erp, canvas, erp canvas, content, pack, content pack, model, integration, data hub, zero, copy, connector, sap]
+keywords: [content pack, sap, zero copy connector for erp, erp content pack, process extension, predefined sap model, copy content pack model, install content pack, servicenow store]
 breadcrumb: [Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Zero Copy Connector for ERP content packs
+# Accelerating SAP integrations with Zero Copy Connector for ERP content packs
 
-Use Zero Copy Connector for ERP content packs as examples to help you implement and deploy applications with less manual work.
+Zero Copy Connector for ERP content packs provide predefined SAP models and process extensions that you can copy and customize, so that you can build SAP integrations without deep SAP expertise.
 
 ## Content packs
 

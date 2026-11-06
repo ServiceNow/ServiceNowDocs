@@ -7,7 +7,7 @@ release: australia
 product: Applicant Center
 classification: applicant-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Applicant Center, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -27,6 +27,8 @@ An applicant can log in to the Applicant Center without the need for a password 
 ## Procedure
 
 1.  Go to your registered email address and open the email notification.
+
+
 
 2.  Select **View Applicant Center**.
 

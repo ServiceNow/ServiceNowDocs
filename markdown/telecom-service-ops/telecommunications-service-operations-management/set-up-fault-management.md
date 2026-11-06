@@ -7,8 +7,8 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configure, Telecommunications Service Operations Management]
 ---
 
@@ -32,6 +32,12 @@ Configure a mobile private network \(MPN\) pull connector instance to collect me
 Configure a connector instance to collect fault management alarm data from a Mobile Private Network \(MPN\) Elastic index and forward events to Event Management.
 -   **[Configure security log collection for MPN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configure-security-log-collection-for-mpn.md)**  
 Configure the out-of-box Health Log Analytics security log data input, an Elasticsearch collector, to collect Mobile Private Network \(MPN\) security logs and convert them into structured log records.
+-   **[Configure an anomaly alert for an MPN data input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configure-anomaly-alert-for-new-mpn-data-input.md)**  
+Configure a log anomaly alert for a Mobile Private Network \(MPN\) data input that generated its own source type.
+-   **[Configure elastic connectors for MPN health status collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configure-mpn-rag-status-collection.md)**  
+Configure a connector instance to collect health status data from an MPN Elastic index, and optionally customize the rules used to calculate that status.
+-   **[Configure the Equinix pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/set-up-connector-instance-equinix.md)**  
+Configure a connector instance to collect power and environmental metrics from Equinix IBX data center facilities and forward alerts to Event Management.
 -   **[Override default metric-to-CI binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/override-metric-ci-binding-tsom-sgc.md)**  
 Replace the shipped logic that binds collected metrics to configuration items \(CIs\) for a Telecommunications Service Operations Management metric source. Create your own implementation of the `EventFieldMapping` extension point and wire it into an event field mapping rule.
 -   **[Configure a metric aggregation job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/configure-metric-aggregation-job.md)**  

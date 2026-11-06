@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csdm-framework-for-install-base-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -20,5 +20,5 @@ To set up a CSDM environment for Install Base Management, see [Activate the CSDM
 
 **Note:** It's optional to adopt CSDM. You can either adopt the CSDM framework or continue using the existing model.
 
-You can use a migration script to update the CSDM life-cycle values in the existing install base records. To learn about the migration script, see [Synchronizing the install base life cycle fields with the state and status fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/synchronizing-install-base-lifecycle-fields-state-field.md).
+You can use a migration script to update the CSDM life-cycle values in the existing install base records. To learn about the migration script, see [Synchronize install base life cycle fields with state and status fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/synchronizing-install-base-lifecycle-fields-state-field.md).
 

@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing access to the experience switcher, Configure, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Managing access to the experience switcher, Configure, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Configure non-default access to the experience switcher

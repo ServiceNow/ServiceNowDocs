@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [ITSM, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -112,7 +112,7 @@ The agent continues until you ask something outside its scope or end the convers
 
 See examples of the screens for different use cases for this workflow in the Otto panel.
 
-**Example of options available using the Incident assist agentic workflow in the Otto panel**\[Omitted image "now-assist-itsm-incident-assist-nap.png"\] Alt text: Example of options available using the Incident assist agentic workflow in the Otto panel
+**Example of options available using the Incident assist agentic workflow in the Otto panel**\[Omitted image "now-assist-itsm-incident-assist-nap.png"\] Alt text: Options available using the Incident assist agentic workflow in the Otto panel
 
-**Example of getting similar resolved incidents using the Incident assist agentic workflow in the Otto panel**\[Omitted image "now-assist-itsm-incident-assist-similar-incidents.png"\] Alt text: Example of getting similar resolved incidents using the Incident assist agentic workflow in the Otto panel
+**Example of getting similar resolved incidents using the Incident assist agentic workflow in the Otto panel**\[Omitted image "now-assist-itsm-incident-assist-similar-incidents.png"\] Alt text: Getting similar resolved incidents using the Incident assist agentic workflow in the Otto panel
 

@@ -7,7 +7,7 @@ release: australia
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a case from a discussion, Configuring communities, Communities, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Create a case from a discussion, Configuring communities, Communiti
 # Administer create case from discussion
 
 Configure parameters for the case generated from the community discussion so that it can be routed accordingly.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Creating a case from a discussion requires a configuration that maps information from the question in the community to fields on the Case form. The **Create Case** configuration is included with the feature. This configuration defines the source and destination tables and maps source fields to destination fields. This configuration is stored in the CSM Table Map table \[csm\_table\_map\]. The system administrator can modify this configuration as needed.
 

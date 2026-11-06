@@ -7,7 +7,7 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -20,7 +20,7 @@ Display the name of a person who booked a space on the floor map.
 
 On the floor map, when a space is booked, an option to display the name of the person who reserved the space is available.
 
-Verify that the following plugins are installed:
+Ensure that the following plugins are installed:
 
 -   Workplace Core
 -   Indoor Mapping
@@ -32,7 +32,7 @@ Role required: admin
 
 1.  In the navigation filter search context, enter **sys\_properties.list**.
 
-    The System Properties \[sys\_properties\] table displays a list of properties.
+    List of properties in the System Properties \[sys\_properties\] table appears.
 
 2.  Search for **sn\_wsd\_core.floor\_plan.portal.show\_reservation\_details** and set the Workplace Core property **sn\_wsd\_core.floor\_plan.portal.show\_reservation\_details** to **true**.
 
@@ -42,7 +42,7 @@ Role required: admin
 
 4.  On the Map view, select the location, building, and a floor where you have made the reservation.
 
-5.  Select the map gear icon \(\[Omitted image "wsd-gear-settings-icon.png"\] Alt text: Floor map gear settings icon.\) to view Display options.
+5.  Select the map gear settings icon \(\[Omitted image "wsd-gear-settings-icon.png"\] Alt text: Floor map gear settings icon.\) to view Display options.
 
 6.  Select **Show name of the person who booked the space**.
 
@@ -50,9 +50,9 @@ Role required: admin
 
     Reserved or booked spaces show the name of person who booked the space.
 
-8.  Select a reserved space to open the Space details page.
+8.  Select a reserved space to open the Space details page
 
-    The name of the person who booked or reserved the space is shown.
+    Name of the person who booked or reserved the space is shown.
 
 
 **Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)

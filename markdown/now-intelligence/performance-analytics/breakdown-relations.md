@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [Indicator breakdowns, Configure fundamentals, Performance Analytics
 
 Breakdown relations open a new navigation path for viewing breakdown scores, by moving from one breakdown element to another element of the same breakdown. The elements should be in an hierarchical relationship.
 
-**Important:** Platform Analytics features other than indicator scorecardsdo not support breakdown relations.
+**Important:** Platform Analytics features other than indicator scorecards do not support breakdown relations.
 
 You can use breakdown relations to navigate between the elements of a single breakdown that are in a hierarchical relationship. For example, the Location breakdown has a hierarchy of 'parent' and 'child' elements, where a country can be the parent of cities. Breakdown relations let an Analytics Hub viewer navigate from a country down into a city, from a city to the country, or between cities in the same country.
 
-In Platform Analytics, breakdown relations can be applied only on indicator scorecards. The latest version of the Data Visualizations application from the ServiceNow® Store is required. In the Core UI, breakdown relations affect navigation on the Analytics Hub and in breakdown widgets.
+In Platform Analytics, breakdown relations can be applied only on indicator scorecards. In the Core UI, breakdown relations affect navigation on the Analytics Hub and in breakdown widgets.
 
 ## Breakdown relations on Next Experience dashboards
 

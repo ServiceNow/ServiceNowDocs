@@ -1,34 +1,38 @@
 ---
-title: Provisioning user using Basic Authentication
-description: Configuring SCIM automatically provisions and de-provisions users and groups to ServiceNow by using the providers' provisioning service with Basic Authentication.
+title: Provision users using basic authentication
+description: Configure SCIM to automatically provision and de-provision users and groups to ServiceNow by using the providers' provisioning service with basic authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/provisioning-user-basic-auth.html
 release: australia
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tutorial: Configure SCIM for user provisioning with a Provider, SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
+breadcrumb: [Configure SCIM for user provisioning with a provider, SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
 
-# Provisioning user using Basic Authentication
+# Provision users using basic authentication
 
-Configuring SCIM automatically provisions and de-provisions users and groups to ServiceNow by using the providers' provisioning service with Basic Authentication.
+Configure SCIM to automatically provision and de-provision users and groups to ServiceNow by using the providers' provisioning service with basic authentication.
 
 ## Before you begin
 
 Role required: scim\_admin
 
-**Warning:** Grant this role carefully. The scim\_admin role is equivalent to giving the user the admin role, where the scmin\_admin can add or update Personally Identifiable Information \(PII\).
+**Warning:** Grant this role carefully. The scim\_admin role is equivalent to giving the user the admin role, where the scim\_admin can add or update Personally Identifiable Information \(PII\).
 
-You must activate the SCIM plugin.
+The SCIM plugin must be activated.
+
+## About this task
+
+**Important:** Basic authentication is being prepared for future deprecation. Starting with the Brazil release, migrate your SCIM provisioning to OAuth 2.0, mutual TLS \(mTLS\), or federated token-based authentication. Basic authentication remains supported until a future release, subject to the restrictions described in the Basic authentication restriction topic. For guidance on identifying and migrating these integrations, see the [KB3220405](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3220405) article.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Web Services** &gt; **REST API Access Policies** to check the details on the REST API Access Policies.
 
-2.  In the API Access Policy page, click the **SCIM API Policy** record.
+2.  In the API Access Policy page, select the **SCIM API Policy** record.
 
 3.  Verify the **SCIM API Basic Auth** record is available in the Authentication Profiles sections.
 

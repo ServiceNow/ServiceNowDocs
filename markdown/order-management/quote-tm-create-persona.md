@@ -1,6 +1,6 @@
 ---
 title: Create a transaction persona
-description: Create a persona in ServiceNow Quote Experience to define a user type and assign user accounts to it in CPQ.
+description: Create a persona in ServiceNow Quote Experience to define a user type and assign user accounts to it in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-create-persona.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Personas, ServiceNow Quote Experience, Configure, price, quote apps
 
 # Create a transaction persona
 
-Create a persona in ServiceNow Quote Experience to define a user type and assign user accounts to it in CPQ.
+Create a persona in ServiceNow Quote Experience to define a user type and assign user accounts to it in ServiceNow CPQ.
 
 ## Before you begin
 
@@ -48,6 +48,4 @@ Role required: admin
 ## What to do next
 
 Assign the persona to a view to define its field and event access at each stage. For more information, see [Create a transaction view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-configure-view.md).
-
-**Parent Topic:**[Quote transaction personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-personas.md)
 

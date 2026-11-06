@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [employee communications, announcements, content library, employee slate, chat promotion]
-breadcrumb: [Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuration flow, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Before you start with EmployeeWorks Web App

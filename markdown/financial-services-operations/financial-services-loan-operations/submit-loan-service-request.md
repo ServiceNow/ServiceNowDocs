@@ -7,7 +7,7 @@ release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Submitting a loan service request, Use, Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -37,15 +37,15 @@ Business customers and consumers can also submit loan service requests from the 
 
 3.  Create a loan request from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d105518e115">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d107485e115">
 
 Option
 
-</th><th align="left" id="d105518e118">
+</th><th align="left" id="d107485e118">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d105518e124">
+</th></tr></thead><tbody><tr><td id="d107485e124">
 
 **Personal loan service request for a consumer**
 
@@ -55,7 +55,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d105518e151">
+</td></tr><tr><td id="d107485e151">
 
 **Business loan service request for a business customer**
 
@@ -65,7 +65,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d105518e181">
+</td></tr><tr><td id="d107485e181">
 
 **Loan service request from an interaction record**
 

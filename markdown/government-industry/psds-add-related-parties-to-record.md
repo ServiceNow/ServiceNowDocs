@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-add-related-parties-to-record.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User management, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -20,7 +20,7 @@ Role required: admin, sn\_gsm.constituent, sn\_gsm.constituent\_agent, sn\_gsm.b
 
 ## Procedure
 
-1.  Navigate to the CRM Workspace and select the Lists icon \[Omitted image "lists-icon.png"\] Alt text: Lists icon. in the sidebar.
+1.  Navigate to the Public Sector Workspace and select the Lists icon \[Omitted image "lists-icon.png"\] Alt text: Lists icon. in the sidebar.
 
 2.  Navigate to **Item Received** &gt; **All**.
 

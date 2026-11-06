@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/order-capture-create-service-order.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Services, service changes, or disconnects, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -38,21 +38,21 @@ When you directly enter a service order, it creates a service order record in th
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Access Order Capture from the **Configurable Workspace Lists** tab.
 
 3.  Depending on whether you're creating an order for an existing customer account, or first creating a customer account before you create the order, you can select one of the following actions.
 
-<table id="choicetable_hfw_sqp_wrb"><thead><tr><th align="left" id="d32952e147">
+<table id="choicetable_hfw_sqp_wrb"><thead><tr><th align="left" id="d32580e148">
 
  
 
-</th><th align="left" id="d32952e149">
+</th><th align="left" id="d32580e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d32952e155">
+</th></tr></thead><tbody><tr><td id="d32580e156">
 
 **Create an order for an existing customer account**
 
@@ -63,7 +63,7 @@ Description
 3.  To create order, select **New**.
 
 
-</td></tr><tr><td id="d32952e199">
+</td></tr><tr><td id="d32580e200">
 
 **Create a customer account before creating the order**
 

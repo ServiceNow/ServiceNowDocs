@@ -7,7 +7,7 @@ release: australia
 product: Instance Scan
 classification: instance-scan
 topic_type: concept
-last_updated: "2026-07-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---

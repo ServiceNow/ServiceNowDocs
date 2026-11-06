@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Employee Relations integration with Navex Ethicspoint, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -24,5 +24,4 @@ After you set up the Employee Relations integration with Navex Ethicspoint appli
 |----|-----------|
 |Update Employee Relation Cases|Pushes data from ServiceNow Platform into Navex EthicsPoint. For example, when an employee relation case is closed its status is pushed to Navex EthicsPoint.|
 |Get Employee Relation Cases|Pulls employee relation cases from Navex EthicsPoint into ServiceNow Platform.|
-|Update Employee Relation cases to Navex|Pushes data to Navex EthicPoint when Employee Relation case is updated in ServiceNow.|
 

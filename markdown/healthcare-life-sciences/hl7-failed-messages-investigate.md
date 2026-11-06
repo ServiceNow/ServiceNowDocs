@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hl7-failed-messages-investigate.html
 release: australia
 topic_type: task
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [failed messages, AE, AR, troubleshoot HL7]
 breadcrumb: [View and filter the HL7 message log, HL7 v2.x Integration, Healthcare Integrations, Healthcare and Life Sciences]

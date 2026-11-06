@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -31,7 +31,7 @@ This tab displays the following information about an incident:
 
 From the Compose section, you can add comments and work notes for the incident.
 
-The Overview tab displays the field information along with the field labels, including when you're in read mode.
+The **Overview** tab displays the field information along with the field labels, including when you're in read mode.
 
 For more information on the fields displayed on the **Overview** tab, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
 
@@ -39,7 +39,7 @@ You can customize the display of the information on the **Overview** tab. For mo
 
 ## Investigation tab
 
-This tab enables you to investigate any affected CIs with the ci\_computer or ci\_server class associated with the incidents. The tab displays the metrics information of the associated primary CI or any affected CI that is selected, which helps you to analyze and resolve the issue. You can use the various remedial actions on this tab to resolve the CI-related issues.
+This tab enables you to investigate any affected CIs with the ci\_computer or ci\_server class associated with the incidents. The tab displays the metrics information of the associated primary CI or any affected CI that is selected, which helps you analyze and resolve the issue. You can use the various remedial actions on this tab to resolve the CI-related issues.
 
 By default, the tab displays metrics information of the primary affected CI associated with the incident. But you can also select and view the information for any affected CI with the ci\_computer or ci\_server class that is associated with the incident. For information about how you can set up Investigation Framework, see [Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/set-up-investigate.md).
 
@@ -60,9 +60,7 @@ For more information on the metrics displayed on this tab, see [Features of the 
 This tab displays all the communication tasks and options that enable you to communicate with the stakeholders in the various phases of an incident. This tab is available only if any of the following conditions are met:
 
 -   For a major incident - The Major Incident Management \(sn-sow-mim\) plugin is active and configured in Admin Center, for Service Operations Workspace. For more information, see [Setting up Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/setup-mim-sow.md).
--   For Incident – The Task Communications Management and Incident Communications Management applications are installed, active, and configured in the instance and you select the **New Communication** option from the **More Actions** \(\[Omitted image "mim-more-actions-top-icon.png"\] Alt text: More actions icon\) icon of the Incident record page. For more information, see [Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/tcm-landing-page.md) and [Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/c_IncidentAlertManagement.md).
-
-For more information on the features of the **Communicate** tab, see [Communicating with stakeholders about incidents and major incidents in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md).
+-   For Incident – The Task Communications Management and Incident Communications Management applications must be installed, active, and configured on your instance. On the incident record page, select the **New Communication** option from the **More Actions** \(\[Omitted image "mim-more-actions-top-icon.png"\] Alt text: More actions icon\) icon. For more information, see [Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/tcm-landing-page.md) and [Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/c_IncidentAlertManagement.md).
 
 ## Post incident report tab
 
@@ -75,11 +73,13 @@ For more information on the features of the **Post incident report** tab, see [R
 
 ## Details tab
 
-This tab displays detailed information about the incident. For example, the short description, assignment details, and related records. For more information on how you can configure fields in this tab, see [Configure a task record form in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-form-layout-task.md).
+This tab displays detailed information about the incident, for example, the short description, assignment details, and related records. For more information on how you can configure fields in this tab, see [Configure a task record form in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-form-layout-task.md).
 
 ## Related records tab
 
-This tab provides a list view of the records associated with the incident. For example, task SLAs and affected CIs.
+This tab provides a list view of the records associated with the incident, for example, task SLAs and affected CIs.
+
+If a knowledge article is attached to the incident record, the attached knowledge related list appears in the **Related records** tab by default.
 
 ## Contextual side panel
 
@@ -92,19 +92,19 @@ Track the investigation, possible solutions, and resolution of a problem for a c
 -   **[View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md)**  
 View and update the incident information, such as summary, impact, cause, and resolution, from the **Overview** tab. This incident information helps you analyze the issue and resolve the incident quickly.
 -   **[Viewing incident record information using the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/view-inc-record-info-contextual-sidepanel.md)**  
-View the incident record information, such as caller details and assets, from the Contextual side panel. Use this information to help manage an incident more efficiently.
+View the incident record information, such as caller details and assets, from the Contextual side panel. Use this information to help manage an incident.
 -   **[Work on an incident list page in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-incident-list-page-sow.md)**  
 Perform various actions on an incident from the incident list page in Service Operations Workspace \(SOW\).
 -   **[Work on an incident record in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-on-incident-sow.md)**  
 If resolving the incident involves creating a problem, change, service request, and so on, you can create them directly from the incident record.
 -   **[Remedial actions using Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/remedial-actions-playbook.md)**  
-Resolve the CI-related issues using the remedial actions using Playbook in the Investigate tab.
+Resolve CI-related issues by using remedial action playbooks on the Investigate tab.
 -   **[Close resolved incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/close-resolved-incident-sow.md)**  
 Close a resolved incident when the user is satisfied with the provided resolution.
 -   **[Reopen an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/reopen-incident-sow.md)**  
 Reopen a resolved incident from the incident record in Service Operations Workspace \(SOW\).
 -   **[Incident Management in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-im-reference.md)**  
-Reference topics provide additional information about Incident Management in Service Operations Workspace.
+Find additional information about Incident Management in Service Operations Workspace.
 
 **Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
 

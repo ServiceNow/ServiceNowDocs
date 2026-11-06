@@ -7,7 +7,7 @@ release: australia
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contract renewal workflow, Contract Management, Asset Management common applications, IT Service Management]
 ---
@@ -34,15 +34,15 @@ This task must be completed before the contract renewal request is eligible for 
 
 4.  Determine whether to close this task.
 
-<table id="choicetable_vzl_j1k_25b"><thead><tr><th align="left" id="d426564e77">
+<table id="choicetable_vzl_j1k_25b"><thead><tr><th align="left" id="d330236e77">
 
 Result of review
 
-</th><th align="left" id="d426564e80">
+</th><th align="left" id="d330236e80">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d426564e86">
+</th></tr></thead><tbody><tr><td id="d330236e86">
 
 **The details are accurate**
 
@@ -50,7 +50,7 @@ Action
 
 Select **Yes**.
 
-</td></tr><tr><td id="d426564e101">
+</td></tr><tr><td id="d330236e101">
 
 **The details are not accurate**
 

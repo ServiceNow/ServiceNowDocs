@@ -7,9 +7,9 @@ release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2026-04-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Explore, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Get help with Developer Sandboxes
@@ -38,4 +38,6 @@ ServiceNow resources that can provide you with helpful information include:
 
     [Community post on the Now Learning course](https://www.servicenow.com/community/app-engine-blog/now-learning-course-developer-sandbox-basics/ba-p/3394661)
 
+
+**Parent Topic:**[Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/exploring-sandboxes.md)
 

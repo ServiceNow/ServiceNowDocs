@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install Expanded Model and Asset Classes, Expanded Model and Asset Classes, Enterprise Asset Management, Asset Management]
 ---

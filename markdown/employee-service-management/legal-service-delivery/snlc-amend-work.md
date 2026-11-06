@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Contract amendments, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -73,15 +73,15 @@ Identify the legal and contract requests created for amendment using the followi
 
 3.  Modify legal request.
 
-<table id="choicetable_rxb_zfw_fhc"><thead><tr><th align="left" id="d760042e246">
+<table id="choicetable_rxb_zfw_fhc"><thead><tr><th align="left" id="d757206e246">
 
 Options
 
-</th><th align="left" id="d760042e249">
+</th><th align="left" id="d757206e249">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d760042e255">
+</th></tr></thead><tbody><tr><td id="d757206e255">
 
 **Add collaborators**
 
@@ -91,7 +91,7 @@ If you need help from other fulfillers to work on the legal request, add them in
 
 The collaborators are notified via email that they’ve been added as collaborators to a legal request.
 
-</td></tr><tr><td id="d760042e274">
+</td></tr><tr><td id="d757206e274">
 
 **Update the users in watch list and requested for**
 

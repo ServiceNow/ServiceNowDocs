@@ -7,16 +7,19 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Using breakdowns on responsive dashboards
 
 You can add breakdown sources to a responsive Core UI dashboard. Dashboard users then can select a breakdown source and one or more breakdown elements to filter scores in the visualizations on the dashboard.
 
-**Note:** Platform Analytics uses a combination of breakdowns specified in the Data visualization configuration and breakdown filters on dashboards. For more information, see [Viewing multiple breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/view-multiple-breakdown-elements.md).
+**Note:**
+
+-   This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md).
+-   Platform Analytics does not have a special way to choose breakdown sources to apply to a dashboard. Instead, you create a normal filter on a dashboard and use an indicator as the filter source. When a dashboard with breakdown sources is migrated to Platform Analytics, a Select filter is created for each breakdown source. For more information, see [Viewing multiple breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/view-multiple-breakdown-elements.md) and [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-select-filter-workspace.md).
 
 The selected elements filter those Performance Analytics widgets on the dashboard that follow these conditions:
 
@@ -30,13 +33,13 @@ The selected elements filter reports on the dashboard under the following condit
 
 If the dashboard user selects multiple elements, widgets can show scores separately for those elements, or show a single aggregate, depending on the widget type and configuration. For more information, see [Showing multiple elements separately or aggregated in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
 
-**Note:** If you show a breakdown relation on a widget, that widget can't show multiple elements. For more information, see [Showing breakdown relations on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ShowBkdwnRltnsWdgts.md).
+**Note:** If you show a breakdown relation on a widget, that widget cannot show multiple elements. For more information, see [Showing breakdown relations on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ShowBkdwnRltnsWdgts.md).
 
-The following illustration shows a breakdown widget with the scores given separately for each selected element of the Category breakdown. The dashboard user has selected three elements of the Incident.Category breakdown source. If this user has access to the Analytics Hub, they can select any score to view the score trend in the Analytics Hub.
+The following illustration shows a breakdown widget with the scores given separately for each selected element of the Category breakdown. The dashboard user has selected three elements of the Incident.Category breakdown source. If this user has access to the Analytics Hub, they can click any score to view the score trend in the Analytics Hub.
 
 \[Omitted image "breakdown-db-with-mes3.png"\] Alt text: Dashboard with multiple breakdown elements applied from the Category breakdown
 
-**Note:** If you view a breakdown dashboard with a breakdown applied but no elements, the widgets show the base indicator scores. The breakdown does not filter the scores. These scores are usually higher than the scores when you select a breakdown and all elements. Often not all elements are available due to element security or an element filter. You also usually can't select the Unassigned score, which contributes to the indicator scores.
+**Note:** If you view a breakdown dashboard with a breakdown applied but no elements, the widgets show the base indicator scores. The breakdown does not filter the scores. These scores are usually higher than the scores when you select a breakdown and all elements. Often not all elements are available due to element security or an element filter. You also usually cannot select the Unassigned score, which contributes to the indicator scores.
 
 -   **[Add breakdown sources to a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_ExistingBreakdownDashboard.md)**  
 To enable dashboard users to filter visualizations on a Core UI dashboard by breakdown element, add breakdown sources to the dashboard.

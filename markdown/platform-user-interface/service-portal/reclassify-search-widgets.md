@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 1
 breadcrumb: [Enable and configure AI Search in Service Portal, AI Search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -21,7 +21,7 @@ Search widgets that you cloned or customized before a system upgrade may not be 
 1.  [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-ais-sp.md)
 2.  Run the Portal Analyzer to identify all cloned or customized search widgets. For more information, see [Get a list of widgets per page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/portal-analyzer.md).
 3.  For each cloned or customized search widget, copy the sys\_id value of each widget instance that is associated with the widget.
-4.  For each cloned or customized search widget, ensure that the widget and its corresponding widget instances have the latest AI Search code from the base system search widget.
+4.  For each cloned or customized search widget, ensure that the widget and its corresponding widget instances have the latest AI Search code from the base system search widget. For more information, see [Widget diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-diagnostic-tool.md).
 
     **Warning:** Run the fix script only after you've updated all cloned or customized search widgets. If you run the fix script without first updating the widget code, the widgets won't be able to uptake the AI Search code later.
 

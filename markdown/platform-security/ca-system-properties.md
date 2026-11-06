@@ -1,16 +1,16 @@
 ---
-title: System properties
+title: Continuous authentication system properties
 description: Use system properties to enable and customize continuous authentication \(CA\) to meet your zero trust access security requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ca-system-properties.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring CA, Continuous Authentication \(CA\), Zero Trust Access, Access Management]
 ---
 
-# System properties
+# Continuous authentication system properties
 
 Use system properties to enable and customize continuous authentication \(CA\) to meet your zero trust access security requirements.
 
@@ -20,7 +20,7 @@ To access the properties page, navigate to **All** &gt; **Continuous Authenticat
 
 \[Omitted image "ca-system-properties.png"\] Alt text: CA System Properties
 
-Following are the different system properties for CA:
+The following system properties are available for CA.
 
 <table id="table_vkg_2wf_twb"><thead><tr><th>
 
@@ -68,7 +68,7 @@ Default high-assurance session length upon login \(**glide.zta.default.high\_ass
 
 </td><td>
 
-Specify the duration in minutes for the default high-assurance session length upon user login. Default value: **5** minutes.**Note:** The property is only applicable for local login.
+Specify the duration in minutes for the default high-assurance session length upon user login. Default value: 5 minutes.**Note:** The property is only applicable for local login.
 
 </td></tr><tr><td>
 
@@ -96,7 +96,7 @@ Total no of days to keep audit records \(**glide.zta.continuous\_authentication.
 
 </td><td>
 
-Specify the no of days you want to save the audit records for CA.**Note:** The value must be between 1 and 180.
+Specify the number of days to save the audit records for CA.**Note:** The value must be between 1 and 180.
 
 </td></tr><tr><td>
 
@@ -110,16 +110,16 @@ Specify the no of days after which the CA policies are deleted.
 </table>**Important:**
 
 -   By default, high-assurance sessions are not required for mobile app sessions, even when a continuous authentication policy is active on source. To change this behavior and block access from mobile app sessions, update the **glide.zta.high\_assurance.mobile.session.allowed** property value to `false`.
--   The **sys\_properties**, **sys\_continuous\_auth\_policy**, **sys\_user** tables are excluded for CA and cannot be added to the CA policy configuration.
+-   The sys\_properties, sys\_continuous\_auth\_policy, and sys\_user tables are excluded for CA and cannot be added to the CA policy configuration.
 
 **Related topics**  
 
 
 [Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/explore-continuous-auth.md)
 
-[Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-policies.md)
+[Continuous authentication policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-policies.md)
 
-[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-metrics.md)
+[Continuous authentication metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-metrics.md)
 
 [Pre-work for Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/pre-work-ca.md)
 

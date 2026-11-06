@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -19,9 +19,9 @@ You can use Workflow Studio subflows in the Telecommunications Network Inventory
 -   **[Create Logical Connection with template subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-template-subflow.md)**  
 The Create Logical Connection with template subflow enables you to create a logical connection record from an inventory template in the Telecommunications Network Inventory application. The logical connection record is created based on the input that you receive when you instantiate an inventory using an inventory template.
 -   **[Logical Connection Creation subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/logical-connection-creation-subflow.md)**  
-The Logical Connection Creation subflow enables you to create a logical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
--   **[Physical connection creation subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/physical-connection-creation-subflow.md)**  
-The Physical Connection Creation subflow enables you to create a physical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
+The Logical Connection Creation subflow enables you to create a logical connection record in the Telecommunications Network Inventory application. The record is based on the input that you receive when you instantiate an inventory.
+-   **[Physical Connection Creation subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/physical-connection-creation-subflow.md)**  
+The Physical Connection Creation subflow enables you to create a physical connection record in the Telecommunications Network Inventory application. The record is based on the input that you receive when you instantiate an inventory.
 -   **[Design Assign Connection Element Creation subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-design-assign-connection-element-creation-subflow.md)**  
 The TNI Design Assign Connection Element Creation subflow enables you to create the connection element records in the Telecommunications Network Inventory application. You can use this flow action to configure the activities in a Design and Assign playbook for logical connection.
 -   **[Design Assign Protected Path Assignment subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-design-assign-protected-path-assignment-subflow.md)**  

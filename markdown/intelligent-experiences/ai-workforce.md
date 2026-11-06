@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-workforce.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-20"
+last_updated: "2026-10-13"
 reading_time_minutes: 3
-breadcrumb: [Enable AI experiences]
+breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Autonomous Workforce
@@ -36,7 +36,7 @@ Contact your account manager for information about accessing this product.
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Review roles associated with AI specialists.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-workforce-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Review roles and metrics associated with AI specialists.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-workforce-reference.md)
 
 </td></tr></tbody>
 </table>Autonomous Workforce consists of your AI specialists that augment entire roles, not just individual business processes. As pre-trained, agentic AI, they arrive equipped with the capabilities and tasks enabled to handle jobs without needing to iterate on prompts.
@@ -60,27 +60,29 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-products.md).
+
 ## Helpful resources
 
 Some ServiceNow resources that can provide you with helpful information are:
 
--   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
+-   **\[Omitted image "dcx-icon-community.svg"\] Alt text:ServiceNow Community**
 
     [ServiceNow Community](https://community.servicenow.com/community)
 
--   **\[Omitted image "dcx-icon-dev-portal.svg"\] Developer**
+-   **\[Omitted image "dcx-icon-dev-portal.svg"\] Alt text: Developer**
 
     [developer.servicenow.com](https://developer.servicenow.com/)
 
--   **\[Omitted image "dcx-icon.svg"\] ServiceNow**
+-   **\[Omitted image "dcx-icon.svg"\] Alt text: ServiceNow**
 
     [http://servicenow.com](http://servicenow.com)
 
--   **\[Omitted image "dcx-icon-store.svg"\] ServiceNow Store**
+-   **\[Omitted image "dcx-icon-store.svg"\] Alt text: ServiceNow Store**
 
     [http://servicenow.com](http://servicenow.com)
 
--   **\[Omitted image "dcx-icon-support.svg"\] Support**
+-   **\[Omitted image "dcx-icon-support.svg"\] Alt text: Support**
     -   [https://support.servicenow.com/now](https://support.servicenow.com/now)
     -   [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
 

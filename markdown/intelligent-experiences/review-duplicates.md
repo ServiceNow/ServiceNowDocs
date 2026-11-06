@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/review-duplicates.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-28"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [AI asset deduplication, duplicate assets, AI Inventory, AI stewards]
-breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Duplicate AI assets
@@ -57,6 +57,18 @@ The two detection methods:
 
 -   Off \(false\): The system uses Predictive Intelligence clustering only.
 -   On \(true\): The LLM-powered detection is enabled for Agentic AI assets.
+
+## Enabling intelligent asset duplicate detection
+
+To identify duplicate AI systems with higher accuracy than machine learning clustering alone, turn on LLM-powered detection. Detection is off by default, so AI asset inventory uses Predictive Intelligence clustering until an AI Steward turns it on.
+
+When LLM-powered detection is on, a daily scheduled job uses the AI Asset Tag Generator skill to generate descriptive tags for each AI system from its metadata. AI asset inventory then groups AI systems with similar tags as duplicates. By default, AI systems with less than 70% metadata completeness aren't tagged, so LLM-powered detection doesn't evaluate them.
+
+**Note:** To use LLM-powered detection, install the ServiceNow Otto for AI Control Tower \(com.sn\_aict\_genai\) plugin.
+
+To turn on LLM-powered detection, navigate to **Settings** &gt; **Rules and templates** &gt; **AI skills** and set the **Intelligent Asset Deduplication** toggle to **Active**. The toggle sets the sn\_ai\_governance.asset\_dedup.agent.enabled system property to true. To return to Predictive Intelligence clustering, set the toggle to **Inactive**.
+
+Only users with the AI Steward role can change this setting.
 
 ## Main asset selection
 

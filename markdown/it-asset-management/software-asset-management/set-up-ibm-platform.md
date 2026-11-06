@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [ILMT and BigFix Inventory integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -185,19 +185,19 @@ Select one of the following options:
 
 If you select this option, the **Advanced MID Server Configuration** tab displays the **Capabilities** and **MID Application** fields. You can use these fields to filter the list of available MID Servers based on supported MID Server capabilities and applications.
 
-                -   To filter this list based on MID Server capabilities, select the Unlock Capabilities icon \(\[Omitted image "unlock-icon.png"\] Alt text: Unlock capabilities icon.\) in the **Capabilities** field. After you unlock the field, select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon.\) to search for and select the desired capabilities.
-                -   To filter this list based on MID Server applications, select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon.\) in the **MID Application** field to search for and select the desired applications.
+                -   To filter this list based on MID Server capabilities, select the Unlock Capabilities icon \[Omitted image "bus-unlock.svg"\] Alt text: in the **Capabilities** field. After you unlock the field, select the Lookup using list icon \[Omitted image "search-icon.png"\] to search for and select the desired capabilities.
+                -   To filter this list based on MID Server applications, select the Lookup using list icon \[Omitted image "search-icon.png"\] in the **MID Application** field to search for and select the desired applications.
 See [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md) for more information on MID Server capabilities and applications.
 
             -   **Specific MID Server**: Enables you to select a specific MID Server for the connection.
 
-If you select this option, the **Advanced MID Server Configuration** tab displays the **MID Server** field. Select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon.\) in the **MID Server** field to search for and select the MID Server that you want to use for the connection.
+If you select this option, the **Advanced MID Server Configuration** tab displays the **MID Server** field. Select the Lookup using list icon \[Omitted image "search-icon.png"\] in the **MID Server** field to search for and select the MID Server that you want to use for the connection.
 
 **Important:** To select a specific MID Server for the connection, you must deselect the **Included in application ALL** check box for any applications that are configured to use the specified MID Server. For more information on this check box, refer to the Select applications to include in the definition of ALL for a MID Server section of [Configure a default MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SpecifyMIDServerApplications.md).
 
             -   **Specific MID Cluster**: Enables you to select a specific MID Server cluster for the connection.
 
-If you select this option, the **Advanced MID Server Configuration** tab displays the **MID Cluster** field. Select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon.\) in the **MID Cluster** field to search for and select the MID Server cluster that you want to use for the connection.
+If you select this option, the **Advanced MID Server Configuration** tab displays the **MID Cluster** field. Select the Lookup using list icon \[Omitted image "search-icon.png"\] in the **MID Cluster** field to search for and select the MID Server cluster that you want to use for the connection.
 
 </td></tr></tbody>
 </table>5.  Set up the connection timeout.

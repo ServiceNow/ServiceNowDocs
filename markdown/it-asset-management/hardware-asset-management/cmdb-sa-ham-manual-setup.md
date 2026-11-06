@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [manual dashboard setup, select model categories, HAM scope configuration, Select model categories dialog box, opt in resource categories]
 breadcrumb: [Get started with dashboard setup, Set up advisor, Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]

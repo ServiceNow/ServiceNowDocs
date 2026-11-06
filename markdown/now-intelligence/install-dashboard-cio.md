@@ -43,8 +43,6 @@ Plugins:
 -   com.snc.pa.premium.sam
 -   com.snc.pa.pmo\_dashboards
 -   com.snc.pa.self\_service\_analytics
--   com.sn\_communities
--   com.snc.pa.request2
 
 Applications:
 

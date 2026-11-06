@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -16,6 +16,8 @@ breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Plann
 
 Reference information to provide additional details about Strategic Planning such as the fields, user roles, tables, guidelines, and domain separation information.
 
+-   **[Check-in frequency values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/check-in-frequency-values-spw.md)**  
+The check-in frequency of a target sets how often its actual value must be updated. This reference lists each value and when it is displayed on the target form.
 -   **[Customizing milestones display on roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/personalizing-the-milestones-display-on-the-roadmap.md)**  
 Easily track the milestones of your roadmap timeline or its planning items by choosing how the milestones are displayed on the roadmap view.
 -   **[Dependencies display on the roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/customizing-dependencies-display-on-roadmap.md)**  

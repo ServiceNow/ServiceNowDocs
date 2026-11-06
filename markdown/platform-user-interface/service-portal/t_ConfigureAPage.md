@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Creating portal pages, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -40,7 +40,7 @@ These steps are intended for users with little to no coding experience. The Serv
 
 6.  Drag one of the other layouts and drop it in the container.
 
-    This layout defines the structure of your page and the space available to drop widgets. The structure of the layout aligns with the Bootstrap grid template and adds up to 12.
+    This layout defines the structure of your page and the space available to drop widgets. The structure of the layout aligns with the Bootstrap grid template and always adds up to 12.
 
 7.  Use the filter to search for a widget, then drag the widget to the layout.
 
@@ -144,7 +144,7 @@ Clone Page
 
 </td><td>
 
-Enables you to make a copy of a page that can be modified. If you copy a base system page, a new widget instance is created for each widget on the page.
+Enables you to make a copy of a page that can be modified. If you clone a base system page, a new widget instance is created for each widget on the page.
 
 </td></tr><tr><td>
 
@@ -325,7 +325,7 @@ Move to header
 
 </td><td>
 
-When selected, the container sticks to the header and doesn’t scroll. Use this option to create a subheader.
+If selected, the container sticks to the header and doesn’t scroll. Use this option to create a subheader.
 
 </td></tr></tbody>
 </table>10. To switch to a different page, select the **Pages** tab in the left pane, then select the next page you want to configure.
@@ -334,7 +334,7 @@ When selected, the container sticks to the header and doesn’t scroll. Use this
 
     You can also use **Preview** to view your page in mobile or tablet mode through the controls presented in the header.
 
-    \[Omitted image "DesignerIPadView.png"\] Alt text: Page preview with the iPad view mode selected.
+    \[Omitted image "DesignerIPadView.png"\] Alt text: Page preview with the iPad view mode selected
 
 
 **Parent Topic:**[Creating portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/c_Pages.md)

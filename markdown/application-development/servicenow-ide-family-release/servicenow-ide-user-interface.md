@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Explore, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow IDE user interface
@@ -93,7 +93,7 @@ See changes to files grouped by application and the type of change. Stage, commi
 
 \[Omitted image "servicenow-ide-create-file.png"\] Alt text: File Categories view
 
-Create, update, and view application metadata in the most applicable embedded ServiceNow AI Platform user interface in the editor. If you need to create some application metadata outside of source code, you can create application files from the File Categories view. For more information, see [Create an application file in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.md).
+Create, update, and view application metadata in the most applicable embedded ServiceNow AI Platform user interface in the editor. If you need to create some application metadata outside of source code, you can create application files from the File Categories view. For more information, see [Create an application file from the File Categories view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.md).
 
 ### Now SDK view
 

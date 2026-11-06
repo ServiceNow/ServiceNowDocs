@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/monitor-data-using-esg-dashboards.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -20,7 +20,7 @@ You can view the page by navigating to **All** &gt; **Operational Sustainability
 
 ## Analytics dashboard
 
-The Analytics dashboard landing page opens as a blank canvas, allowing users to create dashboards. Once a dashboard is created, users can add various elements such as data visualizations, bar charts, trend analyzes, and score reports to create custom sections and data visualizations. ESG data owners and metric managers can create, edit, and share this dashboard.
+The Analytics dashboard landing page opens as a blank canvas, allowing users to create new dashboards. Once a dashboard is created, users can add various elements such as data visualizations, bar charts, trend analyzes, and score reports to create custom sections and data visualizations. ESG data owners and metric managers can create, edit, and share this dashboard.
 
 \[Omitted image "analytics-dashboard.png"\] Alt text: Analytics dashboard homepage
 

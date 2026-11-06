@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2026-02-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
@@ -53,15 +53,15 @@ You can use the workplace case summarization skill in either the Core UI or Work
 
 5.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about the case.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d258057e201">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d257693e201">
 
 Option
 
-</th><th align="left" id="d258057e204">
+</th><th align="left" id="d257693e204">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d258057e210">
+</th></tr></thead><tbody><tr><td id="d257693e210">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -72,7 +72,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d258057e237">
+</td></tr><tr><td id="d257693e237">
 
 **Expand or collapse the summary**
 
@@ -80,7 +80,7 @@ Procedure
 
 Select **Show more** or **Show less** to see more or fewer summary details.
 
-</td></tr><tr><td id="d258057e252">
+</td></tr><tr><td id="d257693e252">
 
 **Provide feedback for the summary**
 
@@ -88,7 +88,7 @@ Select **Show more** or **Show less** to see more or fewer summary details.
 
 If you think that the summary was helpful, select the helpful icon \[Omitted image "icon-helpful.png"\] Alt text:. If you think that the summary wasn’t helpful, select the not helpful icon \[Omitted image "icon-not-helpful.png"\] Alt text:.This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d258057e273">
+</td></tr><tr><td id="d257693e273">
 
 **Copy the case summary**
 
@@ -96,7 +96,7 @@ If you think that the summary was helpful, select the helpful icon \[Omitted ima
 
 Select the copy icon \[Omitted image "icon-copy.png"\] Alt text: to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d258057e288">
+</td></tr><tr><td id="d257693e288">
 
 **View the information about the case summary**
 

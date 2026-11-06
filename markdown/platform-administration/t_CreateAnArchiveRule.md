@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateAnArchiveRule.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Archiving records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Access the new archive rule form in one of the following ways.
 
-<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d168471e66">
+<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d169841e66">
 
 Option
 
-</th><th align="left" id="d168471e69">
+</th><th align="left" id="d169841e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d168471e75">
+</th></tr></thead><tbody><tr><td id="d169841e75">
 
 **Using the Data Management Console**
 
@@ -42,7 +42,7 @@ Steps
 2.  On the Overview tab, select **New archive rule**.
 
 
-</td></tr><tr><td id="d168471e110">
+</td></tr><tr><td id="d169841e110">
 
 **Using a data management policy**
 
@@ -53,7 +53,7 @@ Steps
 3.  In the Archive Rules related list, select **New**.
 
 
-</td></tr><tr><td id="d168471e146">
+</td></tr><tr><td id="d169841e146">
 
 **Using the Archive Rules module**
 
@@ -179,15 +179,15 @@ The sample archive rules are inactive by default.
 
 1.  Access the archive rule that you want to activate in one of the following ways.
 
-<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d168471e458">
+<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d169841e458">
 
 Option
 
-</th><th align="left" id="d168471e461">
+</th><th align="left" id="d169841e461">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d168471e467">
+</th></tr></thead><tbody><tr><td id="d169841e467">
 
 **Using a data management policy**
 
@@ -198,7 +198,7 @@ Steps
 3.  In the Archive Rules related list, select the archive rule that you want to activate.
 
 
-</td></tr><tr><td id="d168471e500">
+</td></tr><tr><td id="d169841e500">
 
 **Using the Archive Rules module**
 

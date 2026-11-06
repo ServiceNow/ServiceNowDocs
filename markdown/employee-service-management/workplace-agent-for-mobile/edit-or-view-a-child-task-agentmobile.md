@@ -7,7 +7,7 @@ release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
 ---
@@ -70,7 +70,7 @@ Role required: sn\_wsd\_case.workplace\_agent
 
     5.  To take a photo or video, select \[Omitted image "wsdagentmob-uploadpic.png"\] Alt text: Attach photo or video icon..
 
-8.  To perform other actions, select the \[Omitted image "actions.png"\] Alt text: icon on the top-right of the header and do the following:
+8.  To perform other actions, select the \[Omitted image "wsdagentmob-actions.png"\] Alt text: More options icon. icon on the top-right of the header and do the following:
 
     1.  To update the checklist of the task, select **Update checklist**.
 
@@ -108,6 +108,8 @@ Role required: sn\_wsd\_case.workplace\_agent
 
 
 [Manage workplace cases and tasks]()
+
+[Assign an unassigned case or task]()
 
 [Edit or view case details on the Workplace Agent for mobile app]()
 

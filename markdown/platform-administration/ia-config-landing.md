@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-config-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -20,7 +20,7 @@ Understand and learn how to configure the Platform module and other product modu
 
 </td><td>
 
-[Configure Platform module\[Omitted image "bus-sdlc.svg"\] Alt text: Configure Platform module Learn how to configure the Platform module with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)
+[Configure Platform module\[Omitted image "um-icon-guided-setup.png"\] Alt text: Configure Platform module. Learn how to configure the Platform module with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)
 
 </td><td>
 
@@ -29,8 +29,8 @@ Understand and learn how to configure the Platform module and other product modu
 </td></tr></tbody>
 </table>-   **[Understand the Configuration page flow in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-configure-il.md)**  
 Implement the following steps to understand the configuration page flow to start the configuration process for either the Platform module or a specific product module on your instance.
--   **[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)**  
-Follow through all the console items configuration to configure the Platform module.
+-   **[Configure the Platform module in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md)**  
+Complete the following steps to configure the Platform module.
 -   **[Product modules configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-bu-conf.md)**  
 Explore the following information to know more about the configurations of specific product modules.
 

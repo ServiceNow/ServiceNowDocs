@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ To enable translation of knowledge articles, you must activate multiple plugins.
 
 -   Knowledge Management Advanced \(com.snc.knowledge\_advanced\) plugin. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md)
 -   I18N:Knowledge Management Internationalization Plugin v2 \(com.glideapp.knowledge.i18n2\) plugin. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
--   Internationalization plugins for each appropriate language. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
+-   Internationalization plugins for each appropriate language. For more information, see Activate a language.
 
     **Note:**
 

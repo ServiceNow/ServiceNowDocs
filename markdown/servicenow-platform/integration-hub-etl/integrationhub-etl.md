@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub ETL
 classification: integration-hub-etl
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,7 +31,7 @@ Users with the cmdb\_inst\_admin role can use IntegrationHub ETL to create integ
 
 ## Support for non-CMDB tables
 
-Starting with the Australia release, IntegrationHub ETL supports the integration of third-party data into some non-CMDB tables. IntegrationHub ETL supports those non-CMDB tables that are supported by Identification and Reconciliation \(IRE\). For details about which non-CMDB tables are supported and any needed configuration, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
+Starting with the Brazil release, IntegrationHub ETL supports the integration of third-party data into some non-CMDB tables. IntegrationHub ETL supports those non-CMDB tables that are supported by Identification and Reconciliation \(IRE\). For details about which non-CMDB tables are supported and any needed configuration, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
 
 Supported non-CMDB tables are available in IntegrationHub ETL when specifying classes, conditional classes, class associations, and reference sources in mapping definitions. However, there are some differences between using CMDB classes and non-CMDB tables in IntegrationHub ETL:
 
@@ -45,7 +45,7 @@ Supported non-CMDB tables are available in IntegrationHub ETL when specifying cl
 
 The two key components that IntegrationHub ETL uses for processing are:
 
--   [Robust Transform Engine \(RTE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robust-import-set-transformers.md): Used to transform raw source data that is stored in staging tables, into the data that is mapped and integrated into the CMDB. RTE uses ETL transform maps that were created for the integration during data transformation.
+-   Robust Transform Engine \(RTE\): Used to transform raw source data that is stored in staging tables, into the data that is mapped and integrated into the CMDB. RTE uses ETL transform maps that were created for the integration during data transformation.
 -   [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ire.md): Used as a centralized framework for identification and reconciliation processes across different data sources. IRE processes help maintain data integrity in the CMDB and in supported non-CMDB tables.
 
 IntegrationHub ETL uses RTE and IRE which work together to process and integrate data. Data is first imported from a data source, and is then stored in temporary staging tables in Import Sets systems. Using the data in the staging tables and the ETL transform map created by IntegrationHub ETL, RTE creates IRE payloads which are then processed by IRE. IRE applies reconciliation processes to avoid potential problems such as duplicate CIs, ensuring that the CMDB or non-CMDB tables remain healthy, and then integrates the resulting data.
@@ -115,7 +115,7 @@ For example:
 
 ## Nested data payloads
 
-To process nested data payloads, you must first ensure that the data source that is used for the integration, is set with the [Data in single column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_DataSourceFileTypeFields.md) option. With that setting, you can correctly represent nested data in a JSON payload which IntegrationHub ETL then processes as nested data, rather than as flat data.
+To process nested data payloads, you must first ensure that the data source that is used for the integration, is set with the Data in single column option. With that setting, you can correctly represent nested data in a JSON payload which IntegrationHub ETL then processes as nested data, rather than as flat data.
 
 Sample of nested data:
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-manual-metric-definition.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -28,13 +28,13 @@ In the manual metric definition, the mode of data collection is manual. An optio
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Metrics** &gt; **Manual metric definitions**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
     For information about the fields, refer to [Manual metric definition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/manual-md-reuse.md).
 
-4.  Select **Save**.
+4.  Click **Save**.
 
 
 ## Result

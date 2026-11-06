@@ -222,7 +222,7 @@ Role required: admin or sp\_admin
 
 AI Search is enabled in Service Portal for all new and zBoot customers by default.
 
-If you're upgrading to Australia as an existing customer, AI Search is inactive in Service Portal by default. You can enable it by updating the portal record.
+If you're upgrading to Brazil as an existing customer, AI Search is inactive in Service Portal by default. You can enable it by updating the portal record.
 
 If you leave AI Search inactive, the portal uses the legacy search experience.
 

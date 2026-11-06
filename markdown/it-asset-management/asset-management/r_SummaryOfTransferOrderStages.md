@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
@@ -73,7 +73,9 @@ Delivered
 After the **Received** task is closed, this task is created. After you close the **Delivered** task, the transfer order line is completed. On the asset form, the **State** field value remains **In stock** and the **Substate** field value is updated to **Reserved**.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/references-asset-management.md)
+
+**Related topics**  
 
 
 [Transfer order line asset tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/r_TransferOrderLineAssetTracking.md)

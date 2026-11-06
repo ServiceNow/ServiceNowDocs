@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/set-breakpoint-rpa-studio.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -36,15 +36,15 @@ Role required: none
 
 2.  Choose an option and complete the action.
 
-<table id="choicetable_otx_hcg_wrb"><thead><tr><th align="left" id="d660334e122">
+<table id="choicetable_otx_hcg_wrb"><thead><tr><th align="left" id="d648447e122">
 
 Option
 
-</th><th align="left" id="d660334e125">
+</th><th align="left" id="d648447e125">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d660334e131">
+</th></tr></thead><tbody><tr><td id="d648447e131">
 
 **To execute the component where the breakpoint is set**
 
@@ -52,7 +52,7 @@ Action
 
 Click **Move next** under the **Design** tab or press the **Ctrl+F8** keys.For a step-by-step execution of the workflow, continue clicking the **Move next** button.
 
-</td></tr><tr><td id="d660334e155">
+</td></tr><tr><td id="d648447e155">
 
 **To continue the execution of the remaining components**
 
@@ -60,7 +60,7 @@ Click **Move next** under the **Design** tab or press the **Ctrl+F8** keys.For a
 
 Click **Run** under the **Design** tab.
 
-</td></tr><tr><td id="d660334e170">
+</td></tr><tr><td id="d648447e170">
 
 **To find all the breakpoints in the automation**
 
@@ -68,7 +68,7 @@ Click **Run** under the **Design** tab.
 
 Click the down arrow button next to the **Clear Breakpoints** button under the **Design** tab and select **Find all**.A list of breakpoints appears in the Find All References section.
 
-</td></tr><tr><td id="d660334e191">
+</td></tr><tr><td id="d648447e191">
 
 **To remove a breakpoint**
 
@@ -76,7 +76,7 @@ Click the down arrow button next to the **Clear Breakpoints** button under the *
 
 Right-click a desired component and select **Breakpoint**.
 
-</td></tr><tr><td id="d660334e204">
+</td></tr><tr><td id="d648447e204">
 
 **To remove all the breakpoints**
 

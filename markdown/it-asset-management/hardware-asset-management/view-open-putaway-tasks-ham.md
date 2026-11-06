@@ -7,10 +7,10 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [asset put away tasks, open asset put away tasks]
-breadcrumb: [Manage asset put away for stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage asset put away using the Hardware Asset Workspace, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View open put away tasks for your stockroom

@@ -7,7 +7,7 @@ release: australia
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Key management for Edge Encryption, Exploring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -26,7 +26,7 @@ You must first schedule a mass key rotation job or a single key rotation job to 
 
 If using SafeNet versioned keys, the Change Default Keys section of the Encryption Key Configuration form includes new fields for the **Key version** of the default 128-bit and 256-bit keys. **Key version** fields are grayed out and cannot be edited.
 
-\[Omitted image "safenet-key-versioning-2.png"\] Alt text: Change default keys, Key version
+\[Omitted image "safenet-key-versioning.png"\] Alt text: Change default keys, Key version
 
 For procedures, see [Configure encryption keys on the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/t_RotateEncryptionKeys.md).
 
@@ -34,7 +34,7 @@ For procedures, see [Configure encryption keys on the instance](https://raw.gith
 
 If using SafeNet versioned keys, when you navigate to **Edge Encryption Configuration** &gt; **Encryption Key Configuration** &gt; **All Keys**, versioned keys include the **Key version**.
 
-\[Omitted image "versioned-keys-2.png"\] Alt text: Versioned keys, Key version
+\[Omitted image "versioned-keys.png"\] Alt text: Versioned keys, Key version
 
 A version number does not appear for the initial entries you make in the Change Default Keys section of the Encryption Key Configuration form. When the proxy server requests a key from SafeNet, the system adds a new line for the alias and adds the **Key version**.
 

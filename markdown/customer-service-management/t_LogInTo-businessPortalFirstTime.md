@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_LogInTo-businessPortalFirstTime.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Self-register, Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Self-register, Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Log in to the Business Portal for the first time
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-After a registration request is approved, the customer contact receives an email with a user ID and temporary password. When logging in for the first time, the contact is asked to change the password.
+After a customer administrator creates your account or approves your registration request, you receive a temporary password by email. You must log in with that temporary password and then set a permanent password before you can use the Business Portal.
 
 ## Procedure
 

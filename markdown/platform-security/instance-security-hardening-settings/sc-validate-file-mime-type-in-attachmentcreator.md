@@ -1,5 +1,5 @@
 ---
-title: Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]
+title: Validate file MIME type in AttachmentCreator web service
 description: The glide.attachment.enforce\_security\_validation property determines whether Multipurpose internet Mail Extensions \(MIME\) files undergo validation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.html
@@ -7,12 +7,12 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [File and resources, Hardening settings, Platform Security]
 ---
 
-# Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]
+# Validate file MIME type in AttachmentCreator web service
 
 The **glide.attachment.enforce\_security\_validation** property determines whether Multipurpose internet Mail Extensions \(MIME\) files undergo validation.
 
@@ -65,6 +65,14 @@ true
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 

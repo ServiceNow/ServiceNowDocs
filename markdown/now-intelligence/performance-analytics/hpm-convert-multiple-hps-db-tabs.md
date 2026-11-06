@@ -9,7 +9,7 @@ classification: performance-analytics
 topic_type: task
 last_updated: "2023-08-03"
 reading_time_minutes: 1
-breadcrumb: [Convert homepages to individual dashboards, Homepage deprecation, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Convert homepages to individual dashboards, Homepage deprecation, Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Convert homepages to dashboard tabs

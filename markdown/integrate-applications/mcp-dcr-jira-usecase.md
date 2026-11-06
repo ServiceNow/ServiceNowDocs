@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/mcp-dcr-jira-usecase.html
 release: australia
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dynamic client registration, Model Context Protocol connectors, Build integrations with connectors, Connect, Workflow Data Fabric]
+breadcrumb: [Dynamic client registration, Model Context Protocol connectors, Build integrations with connectors, Connect, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
 # Dynamic client registration use case: Jira

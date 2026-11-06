@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Advanced manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 You can set system parameters for reading log data that determine the actions that the system performs on log data arriving on log data arriving on the MID Server. For example, you can set the time zone to use if a log lacks a timestamp. If no advanced settings are configured, the system uses the default values.
 
-For information about how to change settings that were configured when the data input was created, such as adding a new path or changing the data input's MID Server destination or port, see [Modify a data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-modify.md).
+To change settings configured when the data input was created, such as adding a new path or changing the MID Server destination or port, see [Modify a data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-modify.md).
 
 ## Procedure
 

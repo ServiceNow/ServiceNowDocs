@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -70,6 +70,8 @@ Using Capacity Planning, you can:
 -   View the capacity allocations of prioritized planning items for your current portfolio and better forecast your future resource requirements.
 -   Use the filter option \(\[Omitted image "cp-filter-button.png"\] Alt text: Capacity planning filter button.\) to view planning items by their type, state, priority or any by any required attributes to create capacity plans.
 
+    Quick filters help you filter the data shown in the List, Kanban, and Hierarchy views of Prioritization, Timeline and Kanban views of Roadmap, and Capacity Planning. These filters are saved as your preferences. This way, you can view the same data across all views for a tab, helping you seamlessly plan, prioritize and roadmap work.
+
     **Note:** Default filter is set to display prioritized planning items only.
 
 -   View the updated resource capacity based on the assigned operational resource assignments.
@@ -89,7 +91,7 @@ Consider a group with capacity of 2 FTE and resource manager creates a Group typ
 
 When a resource manager creates a Group type operation resource assignment for time off, this doesn't update the **Operational work** line item but reduces the total available capacity.
 
-Consider the same group for which resource manager creates an operation resource assignment for 25% of the capacity for time off, for a quarter from April to June. The total available capacity of the group for the quarter April to June will be 1.5 FTE, which is 75% of the total capacity after reducing the 25% time off.
+Consider the same group with operation resource assignment for 25% of the capacity for time off from April to June. The total available capacity of the group for the quarter April to June will be 1.5 FTE, which is 75% of the total capacity.
 
 0.5 FTE, which is 25% of total capacity of the group will be reduced.
 

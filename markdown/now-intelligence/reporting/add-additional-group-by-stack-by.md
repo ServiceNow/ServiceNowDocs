@@ -7,9 +7,9 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Add an additional group by or stack by
@@ -22,13 +22,15 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 ## About this task
 
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 Configure **Additional group by** and **Stack by** choices that users can select when viewing the chart. Additional group bys can be added to any report that supports group bys \(such as bar or pie\) and to list reports as columns. When you configure an additional group by to a bar or horizontal bar, it is also added as an additional stack by. You can add variables and variable groups as additional group bys.
 
 **Note:**
 
 -   Available **Stack by** fields are limited to catalog variables, reference fields, choice lists, and boolean values. Date/time, integer, long, string, list, and text fields cannot be used as stacked fields.
 -   You can see choices in the **Additional group by** list that do not appear in the main **Group by** list. The report does not support grouping or stacking by the extra fields you see. Unlike the main **Group by** choices, the **Additional group by** fields are not filtered. If you select an unsupported field, it has no effect.
--   When you select an Additional Group by field on a report and then export that report, the export shows only the initial group by set on the report, not the additional group by that you have selected.
+-   When you select an Additional Group by field on a report and then export that report, the export shows only the initial group by set on the report. It does not show the additional group by that you have selected.
 
 ## Procedure
 

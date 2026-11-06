@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/update-set-scanning-properties2.html
 release: australia
 topic_type: task
-last_updated: "2026-07-10"
+last_updated: "2026-10-29"
 reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure update set scanning properties
@@ -16,30 +16,30 @@ The Scan Engine provides several options to further configure update set scannin
 
 ## Before you begin
 
-Update sets are scanned in two scenarios:
+Update sets are scanned in the following scenarios:
 
 -   During scheduled instance scans
+-   When a user starts an update set scan manually
+-   When an update set scan is triggered through the API
 -   When a user attempts to mark an update set as Complete
 
 Role required: scan\_engine\_admin
 
 ## Procedure
 
-1.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
+1.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
 
-2.  Select the **Update Sets** tab.
+2.  Select the **Update Set Scanning** tab.
 
 3.  Configure the update set scanning condition using the condition builder.
 
-    These conditions determine which update sets to scan. By default, conditions filter out non-active and default update sets.
+    These conditions determine which update sets to scan. By default, the condition scans update sets whose State is In progress and whose names don't start with Default.
 
 4.  Select the **Enforce update set validation** check box to require update sets to meet completion conditions.
 
     When enabled, update sets must meet the conditions specified in the **Conditions for completing an update set** field.
 
     When enforcement is enabled, a completion enforcement message appears in the scan modal warning users of requirements to complete the update set. Message content changes based on the scan type and enforcement condition. For example, if a specific suite is required, the message directs the user to select that suite.
-
-    **Warning:** Update sets can't be marked complete until conditions are met.
 
 5.  Configure conditions for completing an update set using the condition builder.
 
@@ -73,11 +73,11 @@ Specifies which table the scan condition builder references. By default, this is
 
 </td></tr><tr><td>
 
-Override Environment Check for Update Set Scans
+Override environment check for update set scans
 
 </td><td>
 
-Enables all active definitions to run during update set scans regardless of instance-specific settings. Useful for validating update sets before promoting them to production.
+Enables all active definitions to run during update set scans regardless of instance-specific settings. This setting is on the **Definition** tab. Useful for validating update sets before promoting them to production.
 
 </td></tr><tr><td>
 
@@ -96,7 +96,7 @@ Allow Suite Scan for update sets
 </table>7.  Select **Save**.
 
 
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 
 **Related topics**  
 

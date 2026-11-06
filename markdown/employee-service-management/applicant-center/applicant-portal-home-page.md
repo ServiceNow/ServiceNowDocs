@@ -7,7 +7,7 @@ release: australia
 product: Applicant Center
 classification: applicant-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Applicant Center, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Use, Applicant Center, Hiring Experiences, HR Service Delivery, Emp
 Applicant Center is the dedicated and personalized portal for your applicants.
 
 The applicant Center provides the applicants with a wholesome hiring experience.
+
+\[Omitted image "applicant-home.png"\] Alt text: Applicant Center home page shows application tracking widget, Content Experiences widgets, and Quick links
 
 As an admin, it brings you:
 

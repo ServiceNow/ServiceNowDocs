@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/integrating-o365-with-servicenow.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -89,8 +89,8 @@ Install the ServiceNow Document designer add-in to your Microsoft Word document.
 Set up the Microsoft 365 reporting configuration records to specify the data points and reports that you want to import in to a Microsoft Word document for disclosure reporting purposes.
 -   **[Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/add-additional-reporting-filters.md)**  
 Add additional reporting filters to specify at a granular level what data must be imported to the disclosure report from a table.
--   **[Add the ServiceNow Document designer add-in into Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/add-the-sn-esg-addin-into-ms-word.md)**  
-Before you can import data into your Microsoft Word document to create your disclosure reports, you must add the ServiceNow Document designer add-in to your Microsoft Word application.
+-   **[Add the ServiceNow Reporting add-in into Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/add-the-sn-esg-addin-into-ms-word.md)**  
+Before you can import data into your Microsoft Word document to create your disclosure reports, you must add the ServiceNow Reporting add-in to your Microsoft Word.
 -   **[Import data in to a Microsoft Word disclosure report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/import-data-into-ms-word.md)**  
 Import and insert data and reports into a Microsoft Word disclosure report document from a ServiceNow instance. You can only import and insert the data that is configured in your reporting configurations.
 

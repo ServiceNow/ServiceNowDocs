@@ -7,7 +7,7 @@ release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Replicate data, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -78,7 +78,7 @@ Trigger workflows after replication using platform business rules.
 
 Inserts and updates that are replicated to a consumer instance can trigger business rules configured on the target table. A business rule is a server-side script that is associated with a table. Use business rules to trigger workflows that are associated with replications, such as sending a notification or validating the replicated data.
 
-Business rules are part of the ServiceNow AI Platform. For more information, see [Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).
+Business rules are part of the ServiceNow AI Platform. For more information, see Business rules.
 
 To run a business rule after replication, select the **Run Business Rule** option on the Inbound Entry form in a consumer replication set. IDR will invoke the business rules that are associated with the specified table after replicating the data to the table.
 

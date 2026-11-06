@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -40,4 +40,6 @@ For more information, see [Close an asset reclamation request](https://raw.githu
 The Hardware Asset Reclamation Sub Flow decision table enables you to trigger your custom reclamation sub flow for hardware and consumable assets. Based on the condition related to the asset that you specify in the decision table, the corresponding sub flow is triggered, and the reclamation process completes.
 
 To use Service Catalog Request, you must install SAM Professional or HAM Professional. If you have installed only SAM Professional, you can access the Service Catalog, but only the Software Asset Reclamation flow gets triggered.
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-ham.md)
 

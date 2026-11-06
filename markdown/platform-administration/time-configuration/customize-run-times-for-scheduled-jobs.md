@@ -7,7 +7,7 @@ release: australia
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a scheduled job, Scheduled jobs, System scheduler, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,7 +20,7 @@ The run types; **Day and Month in Year**, **Day in Week in Month in Year**, and 
 
 Identify the child table for which you’re configuring new run times. To find child tables, follow the instructions in [Find child tables for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md).
 
-Role required: system\_scheduler\_admin
+Role required: admin
 
 ## Procedure
 
@@ -48,7 +48,7 @@ Identify child tables in scheduled jobs to promote consistent configuration acro
 
 ### Before you begin
 
-Role required: system\_scheduler\_admin
+Role required: admin
 
 ### About this task
 

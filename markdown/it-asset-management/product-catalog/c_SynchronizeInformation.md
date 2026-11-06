@@ -7,7 +7,7 @@ release: australia
 product: Product Catalog
 classification: product-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Vendor catalog items, Product Catalog, Common applications, Asset Management]
 ---

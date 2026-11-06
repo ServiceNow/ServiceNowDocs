@@ -7,7 +7,7 @@ release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a Profile for Netskope DLP integration, Data Loss Prevention Incident Response Integration with Netskope, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---

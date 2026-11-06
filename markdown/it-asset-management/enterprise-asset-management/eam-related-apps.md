@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enterprise Asset Management, Asset Management]
 ---
@@ -22,7 +22,7 @@ Enterprise Asset Management includes a set of specialized applications that expa
 |-----------|-----------|
 |Enterprise Asset Management for Healthcare|Extends EAM to manage medical equipment and healthcare facility assets.|
 |Enterprise Asset Management for Facilities|Extends EAM to manage facility assets.|
-|OT Asset Management|Extends EAM to manage operational technology assets with OT-specific workflows and licensing.|
+|OT Asset Management|Extends EAM to manage operational technology assets.|
 |Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)|Extends EAM to manage data center and network infrastructure assets.|
 |Enterprise Asset Management for Providers|Extends EAM to support device-as-a-service \(DaaS\) asset management, including RMA response orders and inbound asset orders.|
 
@@ -34,4 +34,6 @@ Operational Technology \(OT\) Asset Management is a specialized offering within 
 Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) is a licensable application that enables you to manage the life cycles of your mission-critical facility-based enterprise assets and linear assets for telecommunications networks.
 -   **[Enterprise Asset Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/eam-providers.md)**  
 Enterprise Asset Management for Providers is a licensable application that enables Device as a Service \(DaaS\) providers, vendors, and manufacturers to manage all DaaS-related activities, including the fulfillment of Return Merchandise Authorization \(RMA\) requests, from a single location.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
 

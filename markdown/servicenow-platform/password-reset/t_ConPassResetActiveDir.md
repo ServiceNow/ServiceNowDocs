@@ -7,7 +7,7 @@ release: australia
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Credentials Store for Password Reset for Active Directory, Credential stores for Password Reset, Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,7 +52,7 @@ Descendent Group objects:
     |Password|Enter your Active Directory domain user password.|
     |Applies to|Select the MID Server that you use to access the Active Directory server.|
 
-    **Note:** If you are using Integration Hub, from the Microsoft AD Credential store, click **Microsoft AD Connection Alias** to create a new connection. To learn more, see [Set up the Microsoft AD v2 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-ms-ad-v2.md).
+    **Note:** If you are using Integration Hub, from the Microsoft AD Credential store, click **Microsoft AD Connection Alias** to create a new connection. To learn more, see Set up the Microsoft AD v2 spoke.
 
 
 ## What to do next

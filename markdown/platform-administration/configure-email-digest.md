@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/configure-email-digest.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Email digests, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -35,15 +35,15 @@ When you [create or update a notification](https://raw.githubusercontent.com/Ser
 
 3.  Select the **Digest type**.
 
-<table id="choicetable_jb2_kxp_1fc"><thead><tr><th align="left" id="d266571e165">
+<table id="choicetable_jb2_kxp_1fc"><thead><tr><th align="left" id="d267675e165">
 
 Digest Type
 
-</th><th align="left" id="d266571e168">
+</th><th align="left" id="d267675e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d266571e174">
+</th></tr></thead><tbody><tr><td id="d267675e174">
 
 **Single target record**
 
@@ -51,7 +51,7 @@ Description
 
 Allows this notification to be sent in an email digest when it is triggered multiple times during the selected interval for a single target record, for example INC001 only.
 
-</td></tr><tr><td id="d266571e190">
+</td></tr><tr><td id="d267675e190">
 
 **Multiple target record**
 

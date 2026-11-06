@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-security-tasks.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, security task, AI security, threat detection]
-breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Security tasks

@@ -7,10 +7,10 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [update CIMD client, edit CIMD client, metadata sync mode, switch Live Static, Live to Static, Static to Live]
-breadcrumb: [CIMD client integration, Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [CIMD client integration, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Update a CIMD client
@@ -43,13 +43,13 @@ The sync mode you select determines which fields you maintain:
 
 1.  Navigate to **All** &gt; **System OAuth** &gt; **CIMD Clients**.
 
-2.  Open the CIMD client you want to update from the **CIMD Registered Clients** list.
+2.  Open the CIMD client to update from the **CIMD Registered Clients** list.
 
 3.  Update the client fields as needed.
 
     For field descriptions, see the CIMD client fields reference in [Configure a CIMD client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-cimd-client.md).
 
-4.  To switch the sync mode, set **Metadata Sync Mode** to the value you want:
+4.  To switch the sync mode, set **Metadata Sync Mode** to the value you need:
 
     -   **Live to Static** — set **Metadata Sync Mode** to **Static**, and then enter the **Client URI**, **Redirect URL**, and **Response Types** values. The instance stops fetching these values from the metadata and uses the values you enter.
 

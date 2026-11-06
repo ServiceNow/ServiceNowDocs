@@ -7,7 +7,7 @@ release: australia
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MetricBase templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---

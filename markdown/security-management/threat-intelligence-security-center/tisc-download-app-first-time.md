@@ -7,8 +7,9 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [download application, install application, ServiceNow Store, Threat Intelligence Security Center workspace, application setup]
 breadcrumb: [Configure, Threat Intelligence Security Center, Security Operations]
 ---
 

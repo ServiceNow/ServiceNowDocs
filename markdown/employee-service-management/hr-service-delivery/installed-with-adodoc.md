@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document Template integration with AdobeSign, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -50,5 +50,5 @@ None
 
 |Table|Description|
 |-----|-----------|
-|Document temoplate Adobe Sign groups \[sn\_dt\_adobesign\_group\]|Stores Adobe Sign groups. For more information, see [Create adobe sign groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-adobe-groups.md)|
+|Document temoplate Adobe Sign groups \[sn\_dt\_adobesign\_group\]|Stores Adobe Sign groups. For more information, see[Create adobe sign groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/create-adobe-groups.md)|
 

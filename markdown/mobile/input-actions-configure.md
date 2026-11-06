@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/input-actions-configure.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Input form actions, Input actions and input sources, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -185,15 +185,15 @@ Determine where or how the action handles the generated data.**Note:** Unless ot
 
 12. Do the following for input actions that you want to include to the input field area.
 
-<table id="choicetable_p4n_gxy_42c"><thead><tr><th align="left" id="d71203e487">
+<table id="choicetable_p4n_gxy_42c"><thead><tr><th align="left" id="d71758e487">
 
 Input action type
 
-</th><th align="left" id="d71203e490">
+</th><th align="left" id="d71758e490">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d71203e496">
+</th></tr></thead><tbody><tr><td id="d71758e496">
 
 **Attachment**
 
@@ -204,7 +204,7 @@ Procedure
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d71203e532">
+</td></tr><tr><td id="d71758e532">
 
 **Comment**
 
@@ -215,7 +215,7 @@ Procedure
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d71203e568">
+</td></tr><tr><td id="d71758e568">
 
 **Navigation button**
 

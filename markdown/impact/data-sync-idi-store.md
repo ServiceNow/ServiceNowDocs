@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/data-sync-idi-store.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Impact reference, Impact]
+breadcrumb: [Data synchronization reference, Impact reference, Impact]
 ---
 
 # Dependent applications installed with the Impact Store App
@@ -45,5 +45,5 @@ Following is a comprehensive overview of the dependent apps that are included wi
 |[SPM Common UI Component](https://store.servicenow.com/store/app/3a5b676a1b246a50a85b16db234bcb31)|UI component for SPM; needed for SPM integration.|Yes|No|Direct|
 |[Transporter](https://store.servicenow.com/store/app/9bc8efea1be06a50a85b16db234bcbc0)|Supporting component for Service Bridge for Consumers.|No|Yes|Indirect|
 
-**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-reference.md)
+**Parent Topic:**[Data synchronization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-synchronization-reference.md)
 

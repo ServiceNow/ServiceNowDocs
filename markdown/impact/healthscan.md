@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/healthscan.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
@@ -23,5 +23,5 @@ Impact uses HealthScan to help you understand and improve the health of your Ser
 -   **[Diagnose with tech KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-tech-kpis.md)**  
 Tech Key Performance Indicators\(KPIs\) show how closely you're aligned to ServiceNow technical leading practices, offer recommendations for improvement, and help you monitor your instance health.
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-delivery-instance-reference.md)
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/idi-reference.md)
 

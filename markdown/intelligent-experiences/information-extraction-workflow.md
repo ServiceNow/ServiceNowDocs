@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/information-extraction-workflow.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [information extraction, document processing, skill workflow]
-breadcrumb: [Information Extraction skill, Explore, Content Understanding, Enable AI experiences]
+breadcrumb: [Information Extraction skill, Explore, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Information Extraction skill workflow

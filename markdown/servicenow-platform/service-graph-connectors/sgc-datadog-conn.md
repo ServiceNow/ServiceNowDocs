@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SGC-Datadog, SGC Datadog, SGC for Datadog, Datadog SGC, Service Graph Connector for Datadog, Service Graph Connector for Observability - Datadog, Datadog connection details, Datadog connection, common connection framework, CCF, SGC-Datadog, SGC Datadog, SGC for Datadog, Datadog SGC, Service Graph Connector for Datadog, Service Graph Connector for Observability - Datadog, Datadog connection details, Datadog connection, common connection framework, CCF]
 breadcrumb: [Observability-Datadog, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]

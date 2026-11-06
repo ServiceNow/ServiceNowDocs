@@ -1,20 +1,20 @@
 ---
 title: Create IT Asset Management content request
-description: Create request for new content via the Service Catalog application for the IT Asset Management content service.
+description: Create a request for new content through the Service Catalog application for the IT Asset Management content service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/create-itam-content-request.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ITAM content request, IT Asset Management, Asset Management]
+breadcrumb: [IT Asset Management content request process, IT Asset Management, Asset Management]
 ---
 
 # Create IT Asset Management content request
 
-Create request for new content via the Service Catalog application for the IT Asset Management content service.
+Create a request for new content through the Service Catalog application for the IT Asset Management content service.
 
 ## Before you begin
 
@@ -24,77 +24,29 @@ Role required: customer user or partner user
 
 ## Procedure
 
-1.  Login to the ServiceNow Now Support portal.
+1.  Log in to the [ServiceNow Now Support](https://support.servicenow.com/now/ns/home) portal.
 
 2.  Navigate to **Automation Store** &gt; **Service Catalog**.
 
 3.  Search and select the catalog item **Asset Management Content Request**.
 
-    On the Catalog Item form, the **Catalog Request number \(CR\)**, **Requested by**, and the **Company** fields populate automatically.
+    On the Catalog Item form, the **ID**, **State**, **Requested by**, and the **Company** fields populate automatically.
 
 4.  Fill in the details on the form.
 
-<table id="table_csk_5yn_zvb"><thead><tr><th>
+    |Field|Description|
+    |-----|-----------|
+    |Title|Summary of your request.|
+    |Description|Details of your request.|
+    |Selected instance|Instance you are requesting the content for.|
+    |Watch list|Individuals in your organization who can view the progress of this request.|
+    |Content category|The content category for your request. You can select the Software Asset Management content service or the Hardware Asset Management content service.|
+    |Attachment|Excel sheet with the information needed for the requested content.|
 
-Field
+5.  Select **Submit**.
 
-</th><th>
+6.  View your current content requests by navigating to **Automation Store** &gt; **Service Catalog** &gt; **My Content Requests**.
 
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Title
-
-</td><td>
-
-Summary of your request.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-Details of your request.
-
-</td></tr><tr><td>
-
-Selected instance
-
-</td><td>
-
-Instance you are requesting the content for.
-
-</td></tr><tr><td>
-
-Watch list
-
-</td><td>
-
-Add individuals within your organisation to view the progress of this request.
-
-</td></tr><tr><td>
-
-Content category
-
-</td><td>
-
-The content category for your request. You can select the Software Asset Management content service or the Hardware Asset Management content service.
-
-</td></tr><tr><td>
-
-Attachment
-
-</td><td>
-
-Attach an excel sheet with the needed information about the content requested.
-
-</td></tr></tbody>
-</table>5.  Click **Submit**.
-
-6.  You can view your current content requests by navigating to **Automation Store** &gt; **Service Catalog** &gt; **My Content Requests**
-
-    The default filter only shows your active requests. If you want to see all your requests \(including closed ones\), you need to adjust the filter.
+    The default filter only shows your active requests. To see all your requests, including closed ones, adjust the filter.
 
 

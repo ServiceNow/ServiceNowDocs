@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Recurring obligation task, Recurring schedule]
 breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]

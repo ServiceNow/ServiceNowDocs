@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Time series widgets, Performance Analytics widgets, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -40,15 +40,15 @@ For example, this visualization shows the change of the total number of open inc
 
 5.  Specify which indicators to include in the visualization with one of the following options.
 
-<table id="choicetable_pm3_bj1_kt"><thead><tr><th align="left" id="d75062e131">
+<table id="choicetable_pm3_bj1_kt"><thead><tr><th align="left" id="d76265e131">
 
 Option
 
-</th><th align="left" id="d75062e134">
+</th><th align="left" id="d76265e134">
 
 Note
 
-</th></tr></thead><tbody><tr><td id="d75062e140">
+</th></tr></thead><tbody><tr><td id="d76265e140">
 
 **Indicator group**
 
@@ -56,7 +56,7 @@ Note
 
 If you select an indicator group, you cannot select a single indicator.**Warning:** This option is not currently functional. Specify a single indicator and additional widget indicators.
 
-</td></tr><tr><td id="d75062e152">
+</td></tr><tr><td id="d76265e152">
 
 **Indicator**
 

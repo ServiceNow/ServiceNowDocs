@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/set-up-from-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up pillars, entity types, entity filters, and entities, Configure, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Setting up pillars, entity types, and entities, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Set up pillars and entity types from Workspace UI
@@ -17,6 +17,8 @@ Set up the pillars and entity types from the Operational Resilience Workspace UI
 ## Before you begin
 
 Role required: sn\_oper\_res.admin, sn\_oper\_res.manager
+
+Only users with the sn\_oper\_res.admin role can create or edit pillars. Users with the sn\_oper\_res.manager role can view pillars and can create and edit entity types.
 
 ## Procedure
 

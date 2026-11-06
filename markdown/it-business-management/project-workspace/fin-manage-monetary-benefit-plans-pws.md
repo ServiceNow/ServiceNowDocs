@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -31,15 +31,15 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 2.  Create a monetary benefit plan using one of the options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d354943e102">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d367804e102">
 
 Option
 
-</th><th align="left" id="d354943e105">
+</th><th align="left" id="d367804e105">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d354943e111">
+</th></tr></thead><tbody><tr><td id="d367804e111">
 
 **Using Monetary benefit plan related list**
 
@@ -50,7 +50,7 @@ Procedure
 
 \[Omitted image "fin-slct-monetary-benefit-plan-gif.gif"\] Alt text: GIF showing selection of Monetary Benefit Plans related link.
 
-</td></tr><tr><td id="d354943e141">
+</td></tr><tr><td id="d367804e141">
 
 **Using finanicals record page**
 

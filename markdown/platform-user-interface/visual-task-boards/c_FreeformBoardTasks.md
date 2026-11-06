@@ -7,9 +7,9 @@ release: australia
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Freeform Visual Task Boards

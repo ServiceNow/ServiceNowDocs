@@ -7,7 +7,7 @@ release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Data anonymization, Data privacy, Data Privacy, Platform Privacy]
 ---
@@ -18,7 +18,7 @@ Configure an anonymization policy to specify which techniques are used when anon
 
 ## Before you begin
 
-The data privacy configuration defines tables, `sys_user` and other, and columns to the de-identified, depending on the use case and specifies parameterized types of the techniques to be used while de-identifying data.
+The data privacy configuration defines tables, `sys_user` and columns to anonymized information, depending on the use case and specific parameterized types of the techniques used.
 
 **Note:** To complete a privacy configuration, you must first configure a data privacy technique configuration. See [Create anonymization techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-privacy-classic/dps-create-anonymization-techniques.md) for more information.
 
@@ -36,7 +36,7 @@ Role required: data\_privacy\_admin and admin
 
 3.  Select **Create new policy**.
 
-4.  Select to either anonymize **Data tables or columns**, **User specific data**, **Catalog variable**, or **Real time data**.
+4.  Select to either anonymize **Data tables or columns**, **User specific data**, **Catalog variable**, or **Real-time data**.
 
     |Data Type|Description|
     |---------|-----------|
@@ -55,12 +55,12 @@ Role required: data\_privacy\_admin and admin
 
     **Note:** Data pattern anonymization uses the information currently in the active data pattern table.
 
-6.  Define the details for the new anonymization policy.
+6.  Define the details for the new anonymization policy, which will vary depending on the chosen data type.
 
     -   Enter the policy name in the **Name** field, and the policy description in the **Description** field.
     -   Define what channels automatically activate the policy and the channel priority in **Activation Channels**
-    -   In the **Data Class** field, select the data class to use with this policy.
-    -   Turn on or off real time data anonymization.
+    -   In the **Data to process** field, select the data class to use with this policy.
+    -   If you're configuring real-time anonymization, you can select specific child tables from different scopes to include in your anonymization policy. Enter their columns in this field, then select the child tables in the following menu.
     **Note:** If you are not anonymizing an entry, select the **DoNothing** technique rather than leaving the entry empty. Policies with empty values in the Privacy Technique Configuration field cannot execute when used in data privacy jobs.
 
 7.  Select **Continue** to move to the next configuration step.

@@ -7,7 +7,7 @@ release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customizing map configuration for your Jira projects, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
@@ -81,7 +81,7 @@ External Choice Name
 
 </td><td>
 
-Display name of the workflow transition in Jira.**Note:** In case there is no transition, insert the display name of the workflow state.
+Display name of the workflow transition in Jira. When you export a State change to Jira, this value must match the Jira transition name exactly, including case.**Note:** In case there is no transition, insert the display name of the workflow state. Export works only if this name matches a transition that Jira allows from the current status of the issue.
 
 </td></tr></tbody>
 </table>7.  Click **Update**.

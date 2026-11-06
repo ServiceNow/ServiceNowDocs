@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/buttons-offline.html
 release: australia
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Supported functions, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---

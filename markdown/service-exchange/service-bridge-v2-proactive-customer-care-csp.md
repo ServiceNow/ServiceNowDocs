@@ -7,7 +7,7 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -41,8 +41,7 @@ Some common Service Exchange Remote Catalog items are as follows:
 
     The Actions menu displays the following options, **Accept**, **Reject**, or **Cancel**.
 
-    If the consumer accepts the resolution, the state of the provider task on the consumer's instance is updated to **Closed**. The state of the request on the provider's instance is also updated to **Closed**.
-
+9.  If the consumer accepts the resolution, the state of the provider task on the consumer's instance, and the state of the request on the provider's instance, are updated to **Closed**.
 
 **Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-administer.md)
 

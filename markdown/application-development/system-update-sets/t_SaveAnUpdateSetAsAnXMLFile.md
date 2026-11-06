@@ -7,9 +7,9 @@ release: australia
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, System update sets, Deploying applications, Building applications]
+breadcrumb: [Configure, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Save an update set as a local XML file

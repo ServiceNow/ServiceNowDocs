@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-mobile-migration-script.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migrate to New York &amp; later, Plugins &amp; upgrades, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -18,7 +18,7 @@ Run the mobile migration script to convert Madrid mobile applications you have c
 
 Role required: admin
 
-Mobile applications created in the Madrid release still work in the Australia release, but cannot be edited in Studio. To continue editing in Studio, and to take advantage of new features available in the Australia release, run the mobile migration script.
+Mobile applications created in the Madrid release still work in the Brazil release, but cannot be edited in Studio. To continue editing in Studio, and to take advantage of new features available in the Brazil release, run the mobile migration script.
 
 ## Procedure
 

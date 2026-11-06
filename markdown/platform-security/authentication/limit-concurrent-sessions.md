@@ -1,5 +1,5 @@
 ---
-title: Limit concurrent sessions
+title: Concurrent session limits
 description: You can limit the number of concurrent interactive sessions for a user or role on an instance across all nodes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/limit-concurrent-sessions.html
@@ -7,12 +7,12 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Access Management]
 ---
 
-# Limit concurrent sessions
+# Concurrent session limits
 
 You can limit the number of concurrent interactive sessions for a user or role on an instance across all nodes.
 

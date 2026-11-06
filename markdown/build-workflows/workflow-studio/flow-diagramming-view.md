@@ -7,9 +7,9 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Flow diagramming view

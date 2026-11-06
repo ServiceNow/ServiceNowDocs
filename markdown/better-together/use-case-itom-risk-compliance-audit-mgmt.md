@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/better-together/use-case-itom-risk-compliance-audit-mgmt.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Automating and optimizing your services and operations using Service Operations Workspace, Solutions]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 19
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -73,7 +73,7 @@ Discovery and Service Mapping Patterns finds IBM Flash System storage servers in
 -   **[IBM Informix Dynamic Server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/ibm-informix-discovery.md)**  
 The ServiceNow Discovery and Service Mapping applications can find and map the Informix Dynamic Server. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[IBM PowerHA SystemMirror for AIX discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/ibm-powerha-hamcp-discovery.md)**  
-The ServiceNow Discovery application uses the IBM PowerHA Cluster \(HACMP\) pattern to find IBM PowerHA SystemMirror for AIX \(formerly HACMP\) high-availability clusters on AIX UNIX and Linux systems running on IBM platforms. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the IBM PowerHA Cluster \(HACMP\) pattern to find IBM PowerHA SystemMirror for AIX \(formerly HACMP\) high-availability clusters. These clusters run on AIX UNIX and Linux systems on IBM platforms. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[IBM Virtualization and Hardware Management Console discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/ibm-hmc-discovery.md)**  
 The Discovery and Service Mapping Patterns application uses the IBM HMC Server pattern to find information about Hardware Management Console \(HMC\), frame, and logical partition \(LPAR\) servers. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[IBM WebSEAL discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/ibm_webseal_discovery_patterns.md)**  

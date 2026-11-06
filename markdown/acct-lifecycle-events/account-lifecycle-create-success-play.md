@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-create-success-play.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
@@ -31,7 +31,7 @@ With success plays, you can use Flow Designer and playbooks to quickly create ac
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  On the Success landing page, select **View engagement** and then select **Create success play**.
 

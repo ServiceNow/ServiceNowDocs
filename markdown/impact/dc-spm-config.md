@@ -1,22 +1,22 @@
 ---
-title: Configure Data Collection for SPM
-description: Configure Data Collection for SPM.
+title: Configure Data Collection for Strategic Portfolio Management
+description: Configure Data Collection for Strategic Portfolio Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/dc-spm-config.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for SPM, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for Strategic Portfolio Management, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
-# Configure Data Collection for SPM
+# Configure Data Collection for Strategic Portfolio Management
 
-Configure Data Collection for SPM.
+Configure Data Collection for Strategic Portfolio Management.
 
 ## Before you begin
 
-You do not need to assign Group Types to configure Data Collection for SPM, but you do need to enter manual data points.
+You don't need to assign Group Types to configure Data Collection for Strategic Portfolio Management, but you do need to enter manual data points.
 
 For the Manual Indicators, you must add a new data point every month. For example, given the fixed nature of the Impact VM - Legacy SPM Systems Annual Run-Rate indicator, you only need to enter this data point once.
 
@@ -26,12 +26,12 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
 ## Procedure
 
-1.  Navigate to **Performance/PlatformAnalytics** &gt; **Scoresheet**, and then select **Impact VM - Legacy SPM Systems Annual Run-Rate**.
+1.  Navigate to **Performance/PlatformAnalytics** &gt; **Scoresheet**, and then select **Impact VM - Legacy SPM Systems Monthly Run-Rate**.
 
 2.  Enter the data point in the relevant month cell.
 
     \[Omitted image "dct\_config\_spm.png"\] Alt text: Example with Jul 2024 cell selected with an Indicator score value of 5,000.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-spm.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-spm.md)
 

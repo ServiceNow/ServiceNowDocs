@@ -7,7 +7,7 @@ release: australia
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Service Delivery, Employee Service Management]
 ---
@@ -20,19 +20,19 @@ Workplace Connectors is a generic framework using which data from the badging or
 
 <table id="table_sbm_3nx_zvb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about Workplace Connectors concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/explore-workplace-connectors.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore workplace connectors icon Learn about Workplace Connectors concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/explore-workplace-connectors.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
+[Configure \[Omitted image "icon-configure.png"\] Alt text: Configure workplace connectors icon Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
 </td><td>
 
-[Setup \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Setup Workplace Connectors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
+[Setup \[Omitted image "icon-workspace.png"\] Alt text: Manage Setup Workplace Connectors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 
 </td></tr><tr><td colspan="2">
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like fields, tables, and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/workplace-connectors-references.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference workplace connectors icon Get details about components like fields, tables, and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-connectors/workplace-connectors-references.md)
 
 </td><td>
 

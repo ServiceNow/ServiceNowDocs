@@ -7,7 +7,7 @@ release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
@@ -35,15 +35,15 @@ If you've cleared the **Mapping Config** field or deleted the existing table map
 
 3.  Reset the mappings of multiple Jira projects using one of the following ways.
 
-<table id="choicetable_evm_cms_ymb"><thead><tr><th align="left" id="d83782e102">
+<table id="choicetable_evm_cms_ymb"><thead><tr><th align="left" id="d84603e102">
 
 Choice
 
-</th><th align="left" id="d83782e105">
+</th><th align="left" id="d84603e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d83782e111">
+</th></tr></thead><tbody><tr><td id="d84603e111">
 
 **Reset mappings for a single project**
 
@@ -53,7 +53,7 @@ Action
 2.  Click **Reset Mappings**.
 
 
-</td></tr><tr><td id="d83782e132">
+</td></tr><tr><td id="d84603e132">
 
 **Reset mappings of multiple projects that belong to different project styles**
 
@@ -64,7 +64,7 @@ Action
 3.  Click **Reset Mappings**.
 
 
-</td></tr><tr><td id="d83782e159">
+</td></tr><tr><td id="d84603e159">
 
 **Reset mappings of multiple projects that belong to the same project style**
 
@@ -78,7 +78,7 @@ From the Project Style Mappings related list, open a project template.For exampl
 4.  Click **Reset Mappings**.
 
 
-</td></tr><tr><td id="d83782e198">
+</td></tr><tr><td id="d84603e198">
 
 **Reset mappings of all projects that belong to the same project style**
 

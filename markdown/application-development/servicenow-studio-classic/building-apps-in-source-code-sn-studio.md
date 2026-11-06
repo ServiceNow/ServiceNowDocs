@@ -7,10 +7,10 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-07-15"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
-keywords: [Source code, custom applications, pro-code development, servicenow studio]
-breadcrumb: [Use, ServiceNow Studio, Developing your application, Building applications]
+keywords: [Source code, custom applications, pro-code development, ServiceNow Studio]
+breadcrumb: [Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Building apps in source code in ServiceNow Studio
@@ -25,7 +25,7 @@ The concept of workspaces is a bit different in ServiceNow Studio than in Servic
 
 In ServiceNow Studio, the **Explorer** tab acts as a single, persistent workspace, where you can add any application that has been converted to Fluent. For that reason, workspaces don't need to be created in ServiceNow Studio to create or group applications.
 
-## Application structure
+## What is the structure of a source code application?
 
 Fluent applications created or converted in ServiceNow Studio include source code files and metadata XML files. The `package.json` and `now.config.json` files define the application structure, which is similar to that of Node.js applications or Node Package Manager \(npm\) packages.
 
@@ -66,7 +66,7 @@ metadata
 
 Directory containing the application metadata \(XML\) of the application, such as table schemas and business rules, organized in the same directory structure as existing ServiceNow applications.
 
- **Note:** Application metadata shouldn't be edited from the XML files. Edit application metadata in the source code or on the ServiceNow AI Platform.
+ **Note:** Do not edit application metadata in the XML files. Edit application metadata in the source code or on the ServiceNow AI Platform.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ File containing the ESLint configuration. ESLint helps identify and fix issues i
 
 </td><td>
 
-File containing a list of directories or files for Git to ignore. These files aren't tracked in source control.
+File containing a list of directories or files for Git to ignore. These files are not tracked in source control.
 
 </td></tr><tr><td>
 

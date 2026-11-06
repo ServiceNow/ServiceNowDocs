@@ -7,8 +7,8 @@ release: australia
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-10-29"
+reading_time_minutes: 4
 breadcrumb: [Explore, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -61,11 +61,13 @@ User records are associated with records on several other tables to control perm
 
 ## Date and time formatting
 
-You can set your preferred date and time formatting through the User record. If you don't specify a preference in these fields, the system applies default formatting.
+**Note:** From the Brazil release, Date format and Time format settings are available in both the user profile and the [Language &amp; Region](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-language-preferences.md) section within the user's Preferences. The time zone setting continues to be available in the user profile from the Brazil release.
 
-The Date format field appears in the User record by default and can be modified without specific permissions. However, the Time format field must be added to the User record by revealing additional form fields. For instructions on showing or hiding form fields, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md). If you can't modify form fields, contact your organization's user administrator to update your time format preferences.
+For releases before Brazil, you can set your preferred date and time formatting through the User record. If you don't specify a preference in these fields, the system applies default formatting.
 
-The Date and time format field in **User Menu** &gt; **Preferences** &gt; **Language &amp; Region** extends the options you select in the Date format and Time format fields of your User record. For more information, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md). Time zone settings automatically sync between the User record and your preferences.
+Before the Brazil release, the Date format field appears in the User record by default and can be modified without specific permissions. However, the Time format field must be added to the User record by revealing additional form fields. For instructions on showing or hiding form fields, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/configure-form-layout.md). If you can't modify form fields, contact your organization's user administrator to update your time format preferences.
+
+The Date and time format field in **User Menu** &gt; **Preferences** &gt; **Language &amp; Region** extends the options you select in the Date format and Time format fields of your User record. For more information, see [Configure Next Experience language and region preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-language-preferences.md). Time zone settings automatically sync between the User record and your preferences.
 
 ## System and guest users
 

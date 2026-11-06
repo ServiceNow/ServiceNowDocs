@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work with Asset and CI, Use, Base Asset Management, Common applications, Asset Management]
 ---
@@ -33,15 +33,15 @@ Role required: asset
 
 1.  Create an asset.
 
-<table id="choicetable_tcm_zwf_cxb"><thead><tr><th align="left" id="d239494e99">
+<table id="choicetable_tcm_zwf_cxb"><thead><tr><th align="left" id="d243508e99">
 
 Interface
 
-</th><th align="left" id="d239494e102">
+</th><th align="left" id="d243508e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d239494e108">
+</th></tr></thead><tbody><tr><td id="d243508e108">
 
 **Core UI**
 
@@ -52,7 +52,7 @@ Action
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d239494e147">
+</td></tr><tr><td id="d243508e147">
 
 **Hardware Asset Workspace**
 

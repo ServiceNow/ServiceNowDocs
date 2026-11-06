@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/early-warning-install.html
 release: australia
 topic_type: task
-last_updated: "2026-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Early Warning for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 3.  Select the card to open it and select **Install**.
 
-    See [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md) for more information about installing Store applications.
+    See [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md) for more information about installing Store applications.
 
     The Dependency Checklist dialog is displayed. Select any **\(Needs to be installed\)** links to install any required dependencies you have not already installed.
 
@@ -40,6 +40,4 @@ Role required: admin
 ## What to do next
 
 [Set up requirements for Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/early-warning-integration-setup.md)[Configure the Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configure-early-warning-integration.md)
-
-**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/armis-early-warning-integration.md)
 

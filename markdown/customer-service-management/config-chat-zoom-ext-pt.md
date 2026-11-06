@@ -18,7 +18,7 @@ Use scripted extension points to enable the copying of application-specific fiel
 
 Role required: admin
 
-Install the Chat Zoom Connector application. For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+Install the Chat Zoom Connector application. For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 ## About this task
 
@@ -45,7 +45,7 @@ An implementation is available in the base system for scripted extension points.
         **Note:** By default, the ZoomInteractionExtPoint and CSMZoomInteractionImpl script includes that use the sn\_chat\_zoom.ZoomInteractionExtPoint extension point are available for Global and Chat Zoom Connector applications.
 
         -   The ZoomInteractionExtPoint script include for the Global application copies the field values from the parent chat interaction record to the Zoom interaction record.
-        -   If the Customer Service application is installed, the CSMZoomInteractionImpl script include for the Chat Zoom Connector application copies the value of the **Consumer**, **Account**, and **Contact** fields from the interaction record of the parent chat to the Zoom interaction record. The CSMZoomInteractionImpl script include is available only when the Customer Service application is installed.
+        -   If the Customer Service application is installed, the CSMZoomInteractionImpl script include for the Chat Zoom Connector application copies the **Consumer**, **Account**, and **Contact** field values. The values are copied from the interaction record of the parent chat to the Zoom interaction record. This script include is available only when the Customer Service application is installed.
 4.  Include application-specific fields by adding the sn\_chat\_zoom.ZoomInteractionExtPoint extension point in the script include.
 
     You can create multiple implementations for an extension point and provide an order number for each implementation. The implementation that has the lowest order number is executed first.

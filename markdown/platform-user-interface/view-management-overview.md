@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/view-management-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -14,7 +14,13 @@ breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and
 
 A view defines the elements that appear when a user opens a form or a list, and you can switch the view from the default for lists and forms.
 
-When the system displays a form or list it usually displays only a subset of the fields belonging to the underlying table.
+When the system displays a form or list it usually displays only a subset of the fields belonging to the underlying table. For example, this is the Incident form in the **Self-Service View**:
+
+\[Omitted image "SelfServiceView.png"\] Alt text:
+
+This is the Incident form in the **Metrics View**:
+
+\[Omitted image "MetricsView.png"\] Alt text:
 
 Administrators and users with the personalize role have permission to perform the key tasks related to views:
 
@@ -26,13 +32,23 @@ Administrators and users with the personalize role have permission to perform th
 
 Users with the admin or view\_changer roles can change views.
 
+## Views included with the base system
+
 Several views are included with the base system, including the Default view and Advanced view.
 
 **Warning:** Do not delete any of the base system views.
 
 ## Switching views
 
-To switch between list views, click the list context menu at the top left corner of the list, and then select **View** &gt; **\[Desired View\]**.
+To switch between list views, click the list context menu at the top left corner of the list, and then select **Views** &gt; **\[Desired View\]**.
+
+\[Omitted image "ListViewDropdown.png"\] Alt text:
+
+To switch between the list view in list v3, click the context menu, then select **Change view** &gt; **\[Desired View\]**.
+
+To switch between form views, click the context menu at the left side of the form header, and then select **Views** &gt; **\[Desired View\]**:
+
+\[Omitted image "FormViewDropdown.png"\] Alt text:
 
 Switching views submits the form, which saves all changes and triggers any **onSubmit** client scripts that apply. You cannot switch form views on a new form that has not been saved yet.
 

@@ -7,8 +7,8 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Transform functions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
@@ -79,6 +79,36 @@ Returns the first character of the input String.
 In this example, the flow triggers when a User \[sys\_user\] record is created. The flow then updates the **City** field for the User \[sys\_user\] record with a code that is represented as the first character of the city's name.
 
 \[Omitted image "first-character-transform-function-example.png"\] Alt text: Update the city code for a user.
+
+## Get Display Value
+
+Returns the display value of the input Choice field.
+
+|Input data pill|Output data pill|
+|---------------|----------------|
+|Data pill path to Choice field.|String - Display value for the Choice field data pill.|
+
+-   Input: **\[Trigger\]** &gt; **\[Incident Record\]** &gt; **\[State\]**
+-   Output: `On Hold`
+
+In this example, the flow triggers when an incident record is created. The flow looks up the value of the **State** field for use in an email notification.
+
+
+
+## Get Value
+
+Returns the actual value of the input Choice field.
+
+|Input data pill|Output data pill|
+|---------------|----------------|
+|Data pill path to Choice field.|String - Actual value for the Choice field data pill.|
+
+-   Input: **\[Trigger\]** &gt; **\[Incident Record\]** &gt; **\[State\]**
+-   Output: `3`
+
+In this example, the flow triggers when an incident record is created. The flow looks up the value of the **State** field for use in an email notification.
+
+
 
 ## Last Character
 

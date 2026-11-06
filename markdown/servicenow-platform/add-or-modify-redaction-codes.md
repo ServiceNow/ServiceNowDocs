@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/add-or-modify-redaction-codes.html
 release: australia
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Redact sensitive data from documents using AI, Use, ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---

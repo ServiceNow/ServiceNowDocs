@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/ac-elements.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Use Platform Analytics dashboards to access, organize, and share data in a visua
 
 ## Dashboards library overview
 
-You can find all the dashboards that you have permission to access, dashboards that you own, dashboards that you have bookmarked, and dashboards that have been shared with you by navigating to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**. You can also directly access Dashboards from the filter navigation in Platform Analytics library pages.
+You can find all the [dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md) that you have permission to access by navigating to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**. You can filter what dashboards are listed, for example seeing only dashboards you own or you have bookmarked. You can also directly access Dashboards from the filter navigation in Platform Analytics library pages.
 
 Library pages like this one include a navigation pane that provides access to the other libraries and the Usage Insights page. Use it to navigate between the libraries without interrupting your workflow.
 
@@ -28,7 +28,7 @@ For more information on Dashboards library, see [Dashboards in the library](http
 
 The configuration of the Dashboards page and the data access depends on the user roles. Users without admin roles have limited capabilities, as compared to the analytics admins. The analytics admins can perform actions such as deactivating, activating, deleting, or creating categories. For Dashboards, the applicable roles are dashboard\_admin, platform\_analytics\_admin, and admin. The lowest role required is dashboard\_admin. For more information on all dashboard roles, see table [Dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
-On Australia instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
+On Brazil instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
 
 For more information, see [Dashboards for analytics admins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-for-admin-users.md). For more information on the types of admin roles in Platform Analytics, see [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
@@ -56,6 +56,18 @@ Description
 
 </td><td>
 
+Open library
+
+</td><td>
+
+Returns the viewer to the Dashboard library
+
+</td></tr><tr><td>
+
+2
+
+</td><td>
+
 Dashboard title
 
 </td><td>
@@ -64,23 +76,11 @@ Displays the dashboard title. Select the arrow to choose a different dashboard.
 
 </td></tr><tr><td>
 
-2
-
-</td><td>
-
-Refresh information
-
-</td><td>
-
-Displays the time or duration when the dashboard was last refreshed. Users with admin roles can configure the refresh intervals. For more information, see [Configure Platform Analytics dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-ac-db-settings.md).
-
-</td></tr><tr><td>
-
 3
 
 </td><td>
 
-Certification badge
+[Certification badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md)
 
 </td><td>
 
@@ -108,7 +108,7 @@ Refresh button
 
 </td><td>
 
-Button for refreshing all the visualizations on the dashboard.
+Button for refreshing all the visualizations on the dashboard. In the dashboard settings, an admin user can set whether to display the last refresh near the title. They can also set up automatic dashboard refreshes. For more information, see [Configure Platform Analytics dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-ac-db-settings.md).
 
 </td></tr><tr><td>
 
@@ -156,7 +156,7 @@ More actions button
 
 </td><td>
 
-Button for creating, duplicating, sharing, printing, bookmarking, clearing the filters for, or deleting the dashboard. For more information on sharing the dashboard information, see [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/share-db-in-ac.md).\[Omitted image "db-share-dialog.png"\] Alt text: Dashboard sharing dialog that shows who the dashboard has been shared with and whether they can edit or only view it.
+Button for creating, duplicating, sharing, printing, bookmarking, clearing the filters for, or deleting the dashboard. For more information on sharing the dashboard information, see [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/share-db-in-ac.md).
 
 </td></tr><tr><td>
 
@@ -164,11 +164,11 @@ Button for creating, duplicating, sharing, printing, bookmarking, clearing the f
 
 </td><td>
 
-Top stage
+Collapse/Expand container
 
 </td><td>
 
-Elements that are visible no matter which tab has the focus. Filters in this section apply to visualizations on all of the tabs.
+Some dashboard elements, typically filters, can be in a container above or below the tabs. This control hides or shows that container and its contents.
 
 </td></tr><tr><td>
 
@@ -176,7 +176,19 @@ Elements that are visible no matter which tab has the focus. Filters in this sec
 
 </td><td>
 
-Tabs
+Filter
+
+</td><td>
+
+In this example dashboard, there is a filter in a container above the tabs. Because it is outside the tabs, it applies to the contents of all tabs. For more information, see [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/select-workspace-filter-type.md).
+
+</td></tr><tr><td>
+
+12
+
+</td><td>
+
+[Tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md)
 
 </td><td>
 
@@ -208,4 +220,6 @@ Depending on your needs, you have four different ways to present a collection of
 [Technical dashboards]()
 
 [Dashboard reference]()
+
+[Dashboard terms]()
 

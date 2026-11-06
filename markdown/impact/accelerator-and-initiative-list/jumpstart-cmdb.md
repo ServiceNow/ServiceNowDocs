@@ -1,30 +1,28 @@
 ---
 title: Jumpstart Your CMDB
-description: The Jumpstart Your Configuration Management Database \(CMDB\) Accelerator provides a demonstration of the possibilities and capabilities of CMDB.
+description: Learn how to get started with your Configuration Management Database \(CMDB\) through hands-on coaching and access to platform capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/jumpstart-cmdb.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your CMDB
 
-The Jumpstart Your Configuration Management Database \(CMDB\) Accelerator provides a demonstration of the possibilities and capabilities of CMDB.
+Learn how to get started with your Configuration Management Database \(CMDB\) through hands-on coaching and access to platform capabilities.
 
-## Overview
+## Accelerator Overview
 
-Jumpstart Your CMDB provides Impact customers with a comprehensive overview of platform CMDB capabilities to ensure customers have a sound understanding of CMDB fundamentals and a strategic plan for success. Our goal is to place customers in a position for success from the very start, enabling you to create a strategy for leveraging ServiceNow resources. Resources include the CMDB Workspace, CI Class Manager, and Reconciliation rules to streamline working in your CMDB. See [Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-cmdb.md) for information on CMDB.
+Jumpstart Your CMDB provides Impact customers with a comprehensive overview of platform CMDB capabilities. This helps customers understand CMDB fundamentals and develop a strategic plan for adoption success. ServiceNow resources—including the CMDB Workspace, Data Manager, and AI-powered capabilities—help with CMDB management and optimization.
 
 ## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
-
-Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What you get
 
@@ -33,32 +31,34 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
     The Technical Accelerator Consultant:
 
     -   Provisions a temporary instance
-    -   Installs or updates necessary CMDB related plugins
--   **Customer Coaching Session \#1 \(up to 90 min\)**
+    -   Installs or updates necessary CMDB-related plugins
+-   **Customer Coaching Session \#1 \(up to 1.5 hrs\)**
 
     Includes the following:
 
     -   Overview and demonstrate CMDB
     -   Review of the functionality of CMDB tools:
         -   CMDB workspace
-        -   Identification Reconciliation Engine
+        -   Identification and Reconciliation Engine
         -   CMDB Data Manager
         -   CMDB health dashboards
-    -   Temporary instance with 30 days granted access
--   **Customer Coaching Session \#2 \(Optional upon Customer request – up to 60 min\)**
+-   **Customer Coaching Session \#2 \(Optional upon Customer request – up to 1 hr\)**
 
     Opportunity for Q&amp;A related to CMDB
 
+-   **Outputs**
+    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Coaching Session Deck
 
 ## Requested customer resources
 
 <table id="table_gg4_g12_fsb"><thead><tr><th>
 
-Customer Resource 
+Customer Resource
 
 </th><th>
 
-Responsibilities 
+Responsibilities
 
 </th></tr></thead><tbody><tr><td>
 
@@ -66,7 +66,7 @@ Platform Owner \(Required\)
 
 </td><td>
 
-Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.
+Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators and ensures team alignment to business strategy and the ServiceNow roadmap. Actively involved in the overarching governance of the platform.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ System Administrator\(s\) \(Required\)
 
 </td><td>
 
-Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.
+Maintains the stability and usability of the ServiceNow platform by performing application maintenance and managing support for cases related to ServiceNow applications. Contributes to ServiceNow software releases by delivering configuration tasks and features.
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Process Owner\(s\) \(Required\)
 
 </td><td>
 
-A senior leader within each business unit for each major process or service \(e.g., incident, change, employee onboarding\) who is accountable for ensuring the process is fit for purpose.
+A senior leader within each business unit for each major process or service \(for example, incident, change, employee onboarding\). This person is accountable for ensuring the process is fit for purpose.
 
 </td></tr><tr><td>
 
@@ -101,13 +101,11 @@ Trusted Service Partners \(Recommended\)
 Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.
 
 </td></tr></tbody>
-</table>## Requested information / access
+</table>## Requested Information/Access
 
-Refer to the applicable Impact Accelerator description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## Exceptions
 
-This Impact Accelerator in its entirety or portions of the Impact Accelerator Activities may not be available to customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, to self-hosted customers, or in other restricted environments.
-
-ServiceNow is not responsible for implementing any of the recommended CMDB configuration changes in Customer’s sub-production or production instances.
+ServiceNow is not responsible for implementing any of the recommended CMDB configuration changes in Customer's sub-production or production instances.
 

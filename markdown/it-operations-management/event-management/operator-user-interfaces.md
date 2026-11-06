@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -111,7 +111,7 @@ Click a tile to show a summary of alerts associated with the application service
 
 <table id="table_zkt_jlr_hdb"><tbody><tr><td>
 
-You can filter or sort the list to find an alert. Sort by any alert details, such as the **Priority**, which considers multiple factors for how serious the alert is. You can also sort by the **Severity**, which is the value provided by the event monitoring tool.
+You can filter or sort the list to find an alert. Sort by any alert details, such as the **Priority**, which considers multiple factors for how serious the alert is. You can also sort by the **Severity**, which is a value provided by the event monitoring tool.
 
  \[Omitted image "sort-by-severity.png"\] Alt text: Sort icon
 

@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Configure, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Managing access to the experience switcher
@@ -17,6 +17,8 @@ breadcrumb: [Configure, ServiceNow Studio, Developing your application, Building
 The experience switcher can provide access to Creator Studio, ServiceNow Studio, ServiceNow IDE. However, whether you can see and select all of those depends on your role or access level.
 
 There are several factors that determine what you can choose from the experience switcher: your role, whether the selected studio is installed on the instance, and which version is installed.
+
+**Note:** As of version 30.1.1, the experience switcher is no longer available in ServiceNow Studio.
 
 ## How do roles control access to the experience switcher?
 

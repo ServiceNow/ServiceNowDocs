@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/approve-a-mt.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a material topic, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -31,7 +31,7 @@ Role required: sn\_esg.program\_manager
     |**To approve**|To approve the topic.|
     |**To reject**|To reject the topic.|
 
-4.  Select **Save**.
+4.  Click **Save**.
 
 
 ## Result

@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure the external-facing PDR form, Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -40,15 +40,15 @@ For each mapping, you can hide specific fields from the form and mark others as 
 
 5.  Map request types in one of the following ways.
 
-<table><thead><tr><th align="left" id="d106574e124">
+<table><thead><tr><th align="left" id="d107812e124">
 
 Choice
 
-</th><th align="left" id="d106574e127">
+</th><th align="left" id="d107812e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d106574e133">
+</th></tr></thead><tbody><tr><td id="d107812e133">
 
 **Map all active request types at once**
 
@@ -61,7 +61,7 @@ This creates an active mapping for every re quest type currently active in the r
 2.  Verify that the activated mappings appear in the PDR external facing form request type maps related list.
  To customize an individual mapping afterward, open the record from the PDR external facing form request type maps related list, and update it.
 
-</td></tr><tr><td id="d106574e159">
+</td></tr><tr><td id="d107812e159">
 
 **Map one request type at a time**
 

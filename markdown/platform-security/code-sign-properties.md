@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/code-sign-properties.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Administer and Troubleshoot, Code Signing, Platform Security]
 ---
 
@@ -61,6 +61,18 @@ String
 </td><td>
 
 Comma-separated list of topics to be subject to increased meta-stack tracking.**Important:** Elevated Security is needed to modify this property.
+
+</td></tr><tr><td>
+
+com.glide.codesigning.tables.excluded\_from\_audit
+
+</td><td>
+
+String
+
+</td><td>
+
+Comma-separated list of tables that are excluded from Code Signing change auditing. Create, update, and delete operations on these tables don't generate an audit record. By default, this property excludes the internal tables that Code Signing uses for certificate storage, cryptographic module and policy configuration, and signing job tracking. For more information, see [Code Signing change audit data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cs-vault-audit-data.md).
 
 </td></tr><tr><td>
 
@@ -217,6 +229,54 @@ true\|false
 </td><td>
 
 When true, enables RESTMessageV2 Code Signing tracking.**Important:** Elevated Security is needed to modify this property.
+
+</td></tr><tr><td>
+
+sn\_cse.com.snc.csf.vault\_audit\_enabled
+
+</td><td>
+
+true\|false
+
+</td><td>
+
+When true, the platform records create, update, and delete operations on records protected by Code Signing in the **sn\_cse\_vault\_codesigning\_audit\_data** table. The default value is `true`. For more information, see [Code Signing change audit data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cs-vault-audit-data.md).**Important:** Only a user with the codesigning\_admin role can modify this property.
+
+</td></tr><tr><td>
+
+sn\_cse.com.snc.csf.vault\_audit\_data\_max\_size
+
+</td><td>
+
+Integer
+
+</td><td>
+
+Maximum number of records that the **sn\_cse\_vault\_codesigning\_audit\_data** table retains. The default value is 9000. When the record count exceeds this value, the Vault Code Signing Audit Data Cleaner scheduled job deletes the oldest audit records until the count matches this value.**Important:** Only a user with the codesigning\_admin role can modify this property.
+
+</td></tr><tr><td>
+
+sn\_cse.com.snc.csf.vault\_audit\_data\_retention\_days
+
+</td><td>
+
+Integer
+
+</td><td>
+
+Number of days that the **sn\_cse\_vault\_codesigning\_audit\_data** table retains an audit record. The default value is 90. Values below 30 are treated as 30, and values above 360 are treated as 360.**Important:** Only a user with the codesigning\_admin role can modify this property.
+
+</td></tr><tr><td>
+
+sn\_cse.com.snc.csf.generate\_signature\_commit
+
+</td><td>
+
+true\|false
+
+</td><td>
+
+When true, a trusted instance generates signatures for eligible records during a source control commit from ServiceNow Studio. The default value is `false`. For more information, see [Signature generation during source control commit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).**Important:** Only a user with the codesigning\_admin role can modify this property.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/code-signing-reference.md)

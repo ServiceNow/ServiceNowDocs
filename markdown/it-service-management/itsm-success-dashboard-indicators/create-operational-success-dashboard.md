@@ -1,20 +1,20 @@
 ---
 title: Create an operational success dashboard
-description: Create a KPI category and map with the operational dashboard to view the performance of the ITSM processes in your organization.
+description: Create a KPI category and map it to the operational dashboard to view the performance of the ITSM processes in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-success-dashboard-indicators/create-operational-success-dashboard.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Operational Success Admin Console, Configure, ITSM Success Dashboard indicators, IT Service Management]
+breadcrumb: [Operational Success Admin dashboard Console, Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
 
 # Create an operational success dashboard
 
-Create a KPI category and map with the operational dashboard to view the performance of the ITSM processes in your organization.
+Create a KPI category and map it to the operational dashboard to view the performance of the ITSM processes in your organization.
 
 ## Before you begin
 
@@ -55,5 +55,5 @@ Role required: sn\_sd.success\_dashboard\_admin
 
 The new dashboard appears on the Operational success dashboard.
 
-**Parent Topic:**[Operational Success Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/admin-console-os.md)
+**Parent Topic:**[Operational Success Admin dashboard Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/admin-console-os.md)
 

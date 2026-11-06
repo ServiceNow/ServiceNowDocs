@@ -7,7 +7,7 @@ release: australia
 product: Access Control
 classification: access-control
 topic_type: task
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Datatype ACL, ACL types, Explore Access Control Lists, Access Control Lists \(ACLs\), Access Management]
 ---
@@ -40,6 +40,6 @@ Role required: admin
 
 8.  Verify the security rules for the ACL in the popup **Verify Security Rules** window.
 
-    \[Omitted image "acl-datatype-verify.png"\] Alt text: An example verifying security rules.
+    \[Omitted image "acl-datatype-verify.png"\] Alt text: An example of verifying security rules.
 
 

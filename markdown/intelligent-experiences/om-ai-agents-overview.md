@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 3
-breadcrumb: [Sales CRM AI agents, Sales CRM, AI agents library, AI assets, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [Sales CRM AI agents, Sales CRM, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Order Management AI agents
@@ -29,11 +29,13 @@ This AI agent helps requesters identify the correct invoice, confirm dispute det
 -   **[Invoice dispute support assistant AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/om-inv-invoice-dispute-support-assistant-ai-agent.md)**  
 This agent helps users efficiently identify, review, and answer questions related to invoice disputes. It validates information, maintains data integrity, and answers questions regarding the invoice case.
 -   **[Manage order operations AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/om-ord-manage-order-operations-ai-agent.md)**  
-This AI agent helps customers request faster delivery of an order.
+This AI agent helps customers change an order by requesting faster delivery, increasing quantities, changing the shipping address, or combining these changes. The agent checks inventory, delivery, and pricing, then resolves the case within a price threshold, creates a quote, or hands off to a specialist.
 -   **[Order capture AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/om-order-capture-ai-agent.md)**  
-This AI agent helps order-management agents investigate, understand, and update customer orders in any form, whether direct \(“apply 10% discount to all lines”\), corrective \(“this address is wrong, fix it”\), bulk \(“set quantity to 50 for every item”\), diagnostic \(“why is this order delayed?”\), or follow-up \(“undo the last change”\).
+The Order capture AI agent helps you create orders from quote lines or uploaded files, and manage, investigate, and update existing orders. For example, you can apply discounts, change quantities, fix shipping addresses, remove lines, create cases, and undo changes.
 -   **[Order exception AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/om-ord-order-exception-voice-ai-voice-agent.md)**  
-This AI voice agent helps customers request faster delivery of an order.
+This AI voice agent helps customers change an order after they place it. Customers can request faster delivery, a higher quantity, or a different shipping location, in any combination, for one order line. The agent creates one case for the requested changes and can connect the customer to a live agent.
+-   **[Telco order fulfilment template creation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/som-telco-order-fulfilment-template-creation-agent-ai-agent.md)**  
+This Sales Customer Relationship Management AI agent generates a task plan template using the provided specification and dependency JSON.
 
 **Parent Topic:**[Sales CRM AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sales-crm-ai-agents-overview.md)
 

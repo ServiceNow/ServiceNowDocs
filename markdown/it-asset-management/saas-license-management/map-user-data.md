@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 keywords: [user resolution, map user data, user field empty, unresolved subscriptions]
 breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
@@ -84,6 +84,4 @@ If you find multiple records with the same email address but different User IDs 
 [Delete an integration profile]()
 
 [Subscription identifiers for SaaS and SSO applications]()
-
-[Subscription exclusions for SaaS and SSO applications]()
 

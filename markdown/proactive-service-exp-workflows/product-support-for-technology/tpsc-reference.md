@@ -7,7 +7,7 @@ release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Technology Product Support Case, Product Support for Technology]
 ---

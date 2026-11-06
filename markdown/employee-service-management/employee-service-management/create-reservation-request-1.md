@@ -4,7 +4,7 @@ description: Create reservations across multiple buildings, campuses, neighborho
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 38
 ---
 
@@ -48,15 +48,15 @@ For example, reservation planners or space planners with the dedicated role \(sn
 
 1.  Select any of the following context menu navigation options to make a workplace reservation.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d573065e156">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d572338e157">
 
 Location
 
-</th><th align="left" id="d573065e159">
+</th><th align="left" id="d572338e160">
 
 Navigation path
 
-</th></tr></thead><tbody><tr><td id="d573065e165">
+</th></tr></thead><tbody><tr><td id="d572338e166">
 
 **From Employee Center Portal**
 
@@ -770,9 +770,9 @@ While reserving or viewing a space, the employee can see if a space is part of a
 **Related topics**  
 
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
 
 [Set a location as favorite using the Space details page]()
 
@@ -801,4 +801,6 @@ While reserving or viewing a space, the employee can see if a space is part of a
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

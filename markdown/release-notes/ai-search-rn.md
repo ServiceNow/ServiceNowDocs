@@ -1,13 +1,14 @@
 ---
 title: AI Search release notes
-description: The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. See the following sections for release notes by version.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Australia release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Australia release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Australia release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Australia release.
+description: The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. See the following sections for release notes by version.The Brazil Patch 2 release adds the ability to exclude high-churn fields from indexing.The Brazil Early Availability 2 release adds the option to display search suggestions and search result titles as links that you can open in new browser tabs, expands hybrid search to support all indexed sources configured for semantic vector indexing, and updates the list of LLMs supported by the Now LLM Service.the option to open Summary Genius Results citations in new browser tabsthe ability to use separate search application configurations for portal search and ServiceNow Otto for Virtual Agent enhanced chat
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/ai-search-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-09-03"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-10-19"
+reading_time_minutes: 2
+keywords: [AI Search, AI Search]
+breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # AI Search release notes
@@ -22,7 +23,7 @@ The ServiceNow® AI Search application provides a consumer-grade search experien
 -   Genius Results highlight the best answers for a search query and provide immediate access to relevant actions.
 -   Content security preserves user access permissions for your searchable content.
 
-See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -39,88 +40,48 @@ See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aust
 
 -   **Localization information**
 
-    AI Search supports indexing and search in all languages offered by the ServiceNow AI Platform. Search features, such as stop words and synonyms, are available in many supported languages. For details of language support by feature, see [Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/international-language-support-ais.md).
+    AI Search supports indexing and search in all languages offered by the ServiceNow AI Platform. Search features, such as stop words and synonyms, are available in many supported languages. For details of language support by feature, see .
 
 
 **Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-admin-rn-landing.md)
 
-## September 2026
+## Brazil Patch 2
 
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md)**
-
-    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows. Name changes include but aren't limited to:
-
-    -   Now Assist in AI Search is now ServiceNow Otto for AI Search.
-    -   Now Assist Action Genius Results are now Action Genius Results.
-    -   Now Assist Q&amp;A Genius Results are now Knowledge base article Genius Results.
-    -   Now Assist Multi-Content Response Genius Results are now Summary Genius Results.
--   **[MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-platform-manager-landing.md)**
-
-    AI Search capabilities are now available through the Model Context Protocol \(MCP\) Search tool category.
-
-
-## August 2026
-
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Australia release.
+The Brazil Patch 2 release adds the ability to exclude high-churn fields from indexing.
 
 ### What's new
 
--   **[Generate multi-content synthesized responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/generate-multi-content-synthesized-sources.md)**
+-   **Exclude high-churn fields from indexing**
 
-    AI Search can now use multi-source synthesis to gather and combine information from any indexed source in your system.
-
-
-## June 2026
-
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Multimodal captioning for attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-multimodal-captioning.md)**
-
-    Multimodal captioning automatically generates searchable descriptive captions for images, tables, charts, and other visual elements in indexed attachments. Find attachments by searching for keywords from generated captions.
+    Reduce the frequency and duration of indexing operations and improve search performance by excluding frequently updated fields from the index. Excluding these high-churn fields avoids needless reindexing and reduces the size of your index, making search more efficient.
 
 
-### Plugin information
+## Brazil Early Availability 2
 
--   **New plugins**
-
-    The following plugins are new in Australia:
-
-    Platform Multimodal Service \(com.glide.platform\_mm\_service\): Integrates with the multimodal service backend to provide automatic generation of searchable descriptive captions for images, tables, charts, and other visual elements in attachment files indexed for search. This plugin is available beginning with the [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md) release.
-
-
-## April 2026
-
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Australia release.
+The Brazil Early Availability 2 release adds the option to display search suggestions and search result titles as links that you can open in new browser tabs, expands hybrid search to support all indexed sources configured for semantic vector indexing, and updates the list of LLMs supported by the Now LLM Service.
 
 ### What's new
 
--   **[Improve search precision and contextual relevance with hybrid search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hybrid-search-ais.md)**
+-   **Display search suggestion links as standard HTML anchors**
 
-    Beginning with Now Assist in AI Search 15.0, administrators on instances with Now Assist in AI Search installed can enable the new hybrid search mode. Hybrid search combines keyword-based search with semantic understanding to deliver more accurate and relevant search results, with fewer zero-result searches.
+    Preserve your search state in portal search and global/workspace search by configuring display of search suggestion links as standard HTML anchors. With this setting configured, you can open search suggestions in new browser tabs using your browser's native right-click or long-press functionality.
 
--   **[Configure AI Search as the source for Ask ServiceNow Otto suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-ai-search-source-ask-now-assist-suggestions.md)**
+-   **Display search result title links as standard HTML anchors**
 
-    Admins can configure the system to use AI Search as the source for Ask Now Assist suggestions in enhanced chat. Making this change activates suggestion term highlighting in Ask Now Assist and provides improvements such as wildcard searching and lemmatization for suggestions.
+    Preserve your search state in portal search and global/workspace search by configuring display of search result title links as standard HTML anchors. With this setting configured, you can open search results in new browser tabs using your browser's native right-click or long-press functionality.
 
 
 ### What's changed
 
--   **[Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md)**
+-   **Expanded support for hybrid search**
 
-    If you have Now Assist in AI Search installed, Now Assist Multi-Content Response Genius Results are supported in global and workspace search. Activating Now Assist Multi-Content Response Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Now Assist Multi-Content Response Genius Results. Virtual Agent topic citations from Now Assist Multi-Content Response Genius Result answers in global or workspace search open the selected topic in the Now Assist panel so the user can continue their conversation on that topic.
+    Hybrid search now supports all indexed sources that have semantic vector indexing configured.
 
--   **[Search Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions-overview.md)**
 
-    Search administrators with the ais\_admin granular admin role can access all Search Suggestions tables. Assign search administrators this role to eliminate needless propagation of full admin access.
+### What's deprecated or removed
 
--   **[Gain insights into search behavior with a refreshed and updated Search Preview UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-preview-ui-new.md)**
+-   **Now LLM Service**
 
-    Preview search query results using settings from a search application configuration or a search profile. Choose between keyword and hybrid search modes. Display search results as individual EVAM cards or as a JSON-format search query response object, with search and syntax highlighting. Review search query behavior and results and specify search query settings with the new Summary, Genius Results, Details, and Profile admin tools.
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 

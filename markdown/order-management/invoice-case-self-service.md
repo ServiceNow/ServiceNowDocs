@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/invoice-case-self-service.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
 ---
@@ -24,7 +24,7 @@ Business Portal enables customers to view invoices, dispute discrepancies across
 
     ServiceNow Otto for Order Management includes the invoice dispute assist agentic workflow. Billing specialists can invoke the invoice dispute assist agentic workflow from the ServiceNow Otto panel to review the invoice case, validate the dispute, view similar cases, and complete resolution actions using a guided experience. Using an agentic workflow helps reduce manual investigation, improves consistency, and helps agents resolve invoice disputes efficiently while keeping customers informed throughout the process.
 
-    Email notifications are sent to the customer when an invoice case is created or closed, but only for cases initiated through the ServiceNow Otto Virtual Agent in the Business Portal. Notifications are triggered for the following closure outcomes: Credit note issued or replacement order placed. Case closure can be performed either by the customer using the ServiceNow Otto Virtual Agent in the Business Portal, or by a billing specialist from the ServiceNow Otto in the CSM/FSM Configurable Workspace.
+    Email notifications are sent to the customer when an invoice case is created or closed, but only for cases initiated through the ServiceNow Otto Virtual Agent in the Business Portal. Notifications are triggered for the following closure outcomes: Credit note issued or replacement order placed. Case closure can be performed either by the customer using the ServiceNow Otto Virtual Agent in the Business Portal, or by a billing specialist from the ServiceNow Otto in the CRM Workspace.
 
 
 -   **[View invoices on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-invoices-business-portal.md)**  
@@ -42,7 +42,7 @@ Pick up an invoice case where you left off by resuming draft invoice cases from 
 -   **[View invoice case details in the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-invoice-cases-business-portal.md)**  
 View invoice case details, status, activity history, and attachments from the Business Portal.
 -   **[Resolve invoice disputes using agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/resolve-invoice-case-now-assist-agent.md)**  
-Resolve invoice dispute cases using ServiceNow Otto directly from the CSM/FSM Configurable Workspace.
+Resolve invoice dispute cases using ServiceNow Otto directly from the CRM Workspace.
 -   **[Communicate and share supporting documents for an invoice case from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-invoice-cases-bp.md)**  
 Stay engaged on your invoice dispute case by communicating with a billing specialist and uploading supporting documents, such as proof of delivery or receipts, directly from the Business Portal to help expedite resolution.
 

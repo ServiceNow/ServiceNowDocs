@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Use AI Agents, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
 ---
 
 # Manage approvals with Approval Assistance AI agent
@@ -78,4 +78,17 @@ Review how to set up and use the Approval Assistance AI agent. For more informat
 -   [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md)
 
 There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+
+**Parent Topic:**[Using ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
+
+**Related topics**  
+
+
+[Check your to-do tasks by using the ServiceNow Otto for Virtual Agent]()
+
+[Check your approvals by using ServiceNow Otto for Virtual Agent]()
+
+[Check company news and events]()
+
+[View summarization for approvals]()
 

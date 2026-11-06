@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/recommendations-aisteward-newexperience.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [recommendation, Top action items, asset record]
-breadcrumb: [Reviewing AI asset status, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reviewing AI asset status, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Recommendations for your AI assets

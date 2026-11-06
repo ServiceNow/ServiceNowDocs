@@ -7,8 +7,8 @@ release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---
 
@@ -53,6 +53,19 @@ To ensure consistent data across the two applications at all times, create sprin
 
 </td></tr><tr><td>
 
+Work items are not imported from Azure DevOps to Agile Development 2.0, but projects and sprints are.
+
+</td><td>
+
+The import returns only work items that were modified in Azure DevOps since the **From date time** that you entered. Check the following causes:
+
+ -   The **From date time** is too recent. For example, a time a few seconds before you click **Submit** returns no work items. Enter an earlier date and time, and import again.
+-   The work items were imported earlier and haven't changed in Azure DevOps since then. The import skips these work items.
+
+ For more information, see [Import work items from Azure DevOps to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/bulk-import-agile-azure.md).
+
+</td></tr><tr><td>
+
 An assignment group is not populated for a story or an epic.
 
 </td><td>
@@ -60,6 +73,39 @@ An assignment group is not populated for a story or an epic.
 If the team is not associated with an assignment group in Agile Development 2.0, it can result in assignment group not being populated. Verify that project integration settings exist for your Azure DevOps team.
 
  If the area of a work item is mapped to multiple teams, the assignment group for that work item in Agile Development 2.0 is empty. In such cases, you can manually select an assignment group for this work item.
+
+</td></tr><tr><td>
+
+The assignment group of a story or epic changes or becomes empty after the Area Path changes in Azure DevOps.
+
+</td><td>
+
+The integration sets the assignment group from the Area Path each time Azure DevOps sends an update to Agile Development 2.0. If the new Area Path belongs to a different team that has team integration settings, the work item moves to that team's assignment group.
+
+ If the new Area Path isn't mapped to any team, the assignment group becomes empty.
+
+ The integration maps only the area paths that Azure DevOps lists for a team. It doesn't map sub-areas that the team includes through a parent area.
+
+ To keep the assignment group, take the following actions:
+
+ -   In Azure DevOps, add each sub-area to the areas of the team. For example, add `Contoso\Payments\Checkout` as well as `Contoso\Payments`.
+-   Import the areas, teams, and iterations again. For more information, see [Import areas, teams, and iterations from Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/import-areas-teams-azure-agile.md).
+-   Ensure that each area is mapped to only one team and that the team has team integration settings. For more information, see [Associate Azure DevOps projects with assignment groups in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/set-up-import-export-azure-agile.md).
+
+</td></tr><tr><td>
+
+The **Assigned To** field is empty in Agile Development 2.0 for a work item that is assigned to a user in Azure DevOps.
+
+</td><td>
+
+The integration finds the user by using the column that you select in **Lookup Column Name** on the **Assigned To** field map. If no user record has a matching value in that column, **Assigned To** stays empty.
+
+ Take the following actions:
+
+ -   Verify that the user record has a value in the lookup column that matches the unique name of the user in Azure DevOps, for example the sign-in name.
+-   Change **Lookup Column Name** on the **Assigned To** field map to the column that holds that value.
+
+ For more information, see [Configuring a reference field in Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/microsoft-azure-devops-integrations-comm/custom-field-map-config-azure-agile.md).
 
 </td></tr><tr><td>
 

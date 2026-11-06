@@ -1,16 +1,16 @@
 ---
-title: Convert and aggregate contractual expenses
+title: Convert and aggregate expenses to required currencies
 description: Convert and aggregate contractual expenses to regulator-required currencies and generate consolidated reports for reporting submissions. Beginning with Digital Operational Resilience Management \(sn\_dora\_accel\), version 22.x.x, these currency conversion and third-party aggregation capabilities are supported for DORA reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-excel-report-aggregate-expenses.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Currency conversion and third-party aggregation, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Currency conversion and third-party aggregation, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Convert and aggregate contractual expenses
+# Convert and aggregate expenses to required currencies
 
 Convert and aggregate contractual expenses to regulator-required currencies and generate consolidated reports for reporting submissions. Beginning with Digital Operational Resilience Management \(sn\_dora\_accel\), version 22.x.x, these currency conversion and third-party aggregation capabilities are supported for DORA reporting.
 

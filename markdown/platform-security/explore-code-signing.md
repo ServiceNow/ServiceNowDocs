@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/explore-code-signing.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Code Signing, Platform Security]
 ---
 
@@ -64,6 +64,10 @@ Code Signing provides several key advantages:
 
     All signature verification failures generate detailed audit records.
 
+-   **Change audit trail**
+
+    Code Signing records every create, update, and delete operation on a protected record, so you can identify who changed a record and when. For more information, see [Code Signing change audit data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cs-vault-audit-data.md).
+
 
 ## Code Signing validation and jobs
 
@@ -72,6 +76,8 @@ All the metadata tables with valid configurations are signed at build time using
 -   Sign update sets.
 -   Mass sign records.
 -   Mass sign attachments.
+
+You can also generate signatures automatically when you commit application files to source control from a trusted instance. For more information, see [Signature generation during source control commit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 -   **Sign update set**
 

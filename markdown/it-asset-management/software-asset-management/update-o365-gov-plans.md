@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -50,7 +50,7 @@ The detailed usage metrics for these Microsoft products \(except Power BI\) are 
 
         Microsoft provides various endpoints for Microsoft Office 365 Government plans. For more information on the available endpoints, see [Office 365 U.S. Government GCC High endpoints](https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints?view=o365-worldwide).
 
-        **Important:** You must change the `.com` to `.us` in the URL of each endpoint. For example, for Microsoft Graph API you must change `https://graph.microsoft.com/v1.0/reports` to `https://graph.microsoft.us/v1.0/reports`. For Get PowerBI Usage API, you must change `https://api.powerbi.com/v1.0/myorg/admin/activityevents` to `https://api.powerbigov.us/v1.0/myorg/admin/activityevents`.
+        **Important:** You must change the `.com` to `.us` in the URL of each endpoint. For example, you must change `https://graph.microsoft.com/v1.0/reports` to `https://graph.microsoft.us/v1.0/reports`.
 
     2.  Select **Save**.
 

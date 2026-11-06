@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
@@ -23,6 +23,8 @@ Asset Management quick start tests requires the Asset Management plugin \(com.sn
 |Name|Description|Release version|
 |----|-----------|---------------|
 |Asset Sourcing - Consume local asset stock|Validates the consume local asset stock flow.|Yokohama|
+
+**Parent Topic:**[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/references-asset-management.md)
 
 **Related topics**  
 

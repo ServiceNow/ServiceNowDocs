@@ -7,7 +7,7 @@ release: australia
 product: Asset Audits
 classification: asset-audits
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Asset Audit Response, IT Asset Management, Asset Management]
 ---
@@ -20,4 +20,6 @@ Configure the Asset Audit Response application so that you can track and manage 
 
 -   **[Install Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-audits/install-asset-audit-response.md)**  
 You can install the Asset Audit Response application \(com.sn\_audit\_response\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
 

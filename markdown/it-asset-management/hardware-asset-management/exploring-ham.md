@@ -7,8 +7,8 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -19,6 +19,8 @@ Learn more about Hardware Asset Management by reviewing the benefits that it can
 ## Hardware Asset Management overview
 
 Hardware Asset Management enables you to track and manage the end-to-end life-cycle of all your organizational assets such as hardware and consumables. You can simplify every stage of the asset life-cycle with prescriptive workflows and tasks. Asset tagging, assigning ownership, and location tracking of the asset mitigate the risk of asset loss. Hardware Asset Management can also identify unapproved hardware assets and ensure compliance with established policies and regulations of your organization.
+
+\[Omitted image "ham-architecture-dia.svg"\] Alt text: HAM architecture diagram showing the HAM tables, workflows, and better together solutions
 
 ## Hardware Asset Management benefits
 
@@ -49,4 +51,71 @@ Hardware Asset Management enables you to track and manage the end-to-end life-cy
 ## Using Guided Setup to implement Hardware Asset Management
 
 Hardware Asset Management Guided Setup provides a sequence of tasks that help you configure Hardware Asset Management on your ServiceNow instance. To open Hardware Asset Management guided setup, navigate to **App** &gt; **Guided Setup**. For more information about using the Guided Setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
+
+-   **[AI in Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ai-in-ham.md)**  
+Set up, manage, and optimize your generative AI solutions on the ServiceNow AI Platform® from a single workspace.
+-   **[Hardware Asset Management subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-subscription.md)**  
+The ServiceNow platform uses a licensing method where your organization is charged for using the IT Asset Management application- ServiceNow Hardware Asset Management.
+-   **[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-workspace.md)**  
+The Hardware Asset Workspace is the intuitive and streamlined user interface of the Hardware Asset Management application to manage your hardware assets.
+-   **[Mobile app for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/mobile-my-asset.md)**  
+Use the ServiceNow Mobile and ServiceNow Agent apps to manage your assets.
+-   **[Asset Management Executive Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-mgmt-exec-dash.md)**  
+Use the Asset Management Executive Dashboard to gain visibility into critical KPIs for Hardware Asset Management, Software Asset Management, and Cloud Cost Management applications via a single dashboard.
+-   **[Analytics and Reporting Solutions for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/hardware-asset-content-pack.md)**  
+This Platform Analytics Solution contains preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
+-   **[Product Instance feature in Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/product-instance-for-assets.md)**  
+You can consistently represent a product along all applications, processes, workflows, and user interactions through the Product Instance feature. Changes made to any of the product representations are synchronized automatically.
+-   **[Asset life-cycle automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-lifecycle-automation.md)**  
+Automate the update of your asset records throughout its life cycle and remove the effort of manually maintaining asset accuracy.
+-   **[Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/hardware-normalization.md)**  
+ Hardware Model Normalization standardizes the manufacturer, product, model, and device type, of your hardware and consumable models. The system compares the details on each model against the Hardware Model Normalization Content Service and fills in the standard values it finds.
+-   **[Hardware Asset Management flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/readily-available-dec-tables-ham.md)**  
+Customize the flows in some of the Hardware Asset Management features by using the available decision tables.
+-   **[Return Merchandise Authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/return-merchandise-authorization.md)**  
+Return Merchandise Authorization \(RMA\) is an agreement between a buyer and seller that lets the buyer return or replace a faulty product. The Asset RMA Order catalog item has prescriptive flows to streamline the RMA process.
+-   **[Integrating Zebra technology RFID system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/integrating-rfid.md)**  
+Integrating a Zebra technology Radio Frequency Identification \(RFID\) system with your ServiceNow instance enables you to identify , track, and manage your hardware asset locations automatically.
+-   **[Asset bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-bundles-concept.md)**  
+Asset bundles help you bundle a group of assets, already in your inventory, as a single entity.
+-   **[Asset reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/reclaim-asset.md)**  
+Reclaim Asset catalog item integrates Asset Management module with HR module to let you efficiently reclaim assets.
+-   **[Asset donation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-donation.md)**  
+You can easily donate hardware and consumable assets in stock in your organization to charity organizations through an Asset Donation Order.
+-   **[Pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/pre-allocated-asset.md)**  
+Pre-allocated assets are often assets that the vendor still owns, but has agreed to store in a customer stockroom for just-in-time procurement.
+-   **[Pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/pallet-assets.md)**  
+Use the Pallet asset class to track and manage assets in your inventory as a group. You can easily move a group of assets between locations or dispose of them as a group.
+-   **[Loaner assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/loaner-asset.md)**  
+Request a loaner asset or consumable when you need it for a short period of time.
+-   **[Advanced Shipment Notification \(ASN\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asn-for-ham.md)**  
+Advanced Shipment Notification \(ASN\) automates the creation of asset records in the In transit state when vendors supply both asset and shipment details before delivery.
+-   **[Integration with Lenovo for asset warranty details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/integration-with-lenovo-asset-warranty.md)**  
+The Lenovo Asset Warranty Flow enables you to get the warranty information of hardware assets by connecting to the Lenovo Warranty API.
+-   **[Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/zero-touch-asset-refresh.md)**  
+Use the Zero Touch Refresh flow to fulfill employee hardware refresh requests through an external vendor without having to maintain new assets in the local stockroom.
+-   **[Managing shipments by integrating with third-party carrier applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/integrating-with-third-party-carrier-apps.md)**  
+You can check the status of your shipments in real time by integrating your ServiceNow instance with a third-party carrier application using the integration framework provided by the IT Asset Management application.
+-   **[Asset Total Cost of Ownership for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-mgmt-tco.md)**  
+Assets incur costs throughout their life cycle, including initial capital costs and operational costs. Asset Total Cost of Ownership helps Asset managers to understand, analyze, and track the Total Cost of Ownership \(TCO\) of assets, where the total cost includes initial capital cost and operation cost.
+-   **[Manage onboarding of hardware products using Application Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/trm-for-tech-onboarding.md)**  
+Onboard your hardware products and manage the Technology Reference Model \(TRM\) life-cycle by using Technology Reference Model \(TRM\) of Application Portfolio Management along with the Hardware Asset Management application.
+-   **[Repair flow to fix defective hardware assets within a stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/requesting-hardware-asset-repair.md)**  
+Use the Repair flow to get the defective hardware assets in your stockroom fixed so that the repaired assets can be used in different Hardware Asset Management workflows.
+-   **[Inventory picking for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/managing-hardware-asset-pickup.md)**  
+As an inventory user working in large stockrooms, use the Inventory picking feature to pick the assets in the stockroom easily and facilitate the asset pick-up by technicians.
+-   **[Managing inventory by putting away assets in the stockroom drop-off location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/managing-inventory-by-putting-away-asset.md)**  
+Use the Asset put away feature to track asset movement efficiently in the inventory.
+-   **[Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/zero-touch-request.md)**  
+Fulfill the hardware requests of your employees through an external provider with minimal intervention by using the Zero Touch request flow.
+-   **[Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-attestation-ham.md)**  
+Use Asset Attestation to maintain accurate details of all the serialized hardware assets that are assigned to your employees.
+-   **[Receiving hardware and consumable assets at stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/stockroom-receiving-ham.md)**  
+As an inventory user, you can receive assets at a stockroom from any workflow using the unified and standardized receiving mechanism.
+-   **[Asset performance reports in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-performance-reports-ham.md)**  
+Gain insights into the overall operational efficiency of your organization's hardware assets by using the asset performance reports available in the Asset analytics view.
+-   **[Approximated lifecycle and lifecycle code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/approximated-lifecycles-hardware-products.md)**  
+Leverage the expanded lifecycle coverage for hardware and consumable models available in the ServiceNow® Content library portal when explicit dates from the manufacturer aren’t available. Hardware models with approximated lifecycle dates contain a lifecycle code that indicates the dates are approximate.
+
+**Parent Topic:**[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-landing-page.md)
 

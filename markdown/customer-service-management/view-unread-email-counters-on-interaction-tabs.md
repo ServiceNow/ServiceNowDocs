@@ -1,18 +1,18 @@
 ---
 title: View unread email counters on interaction tabs
-description: Unread email counters display on email interaction tabs in CSM Configurable Workspace to help agents track new email activity across multiple interactions.
+description: Unread email counters display on email interaction tabs in CRM Workspace to help agents track new email activity across multiple interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-unread-email-counters-on-interaction-tabs.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # View unread email counters on interaction tabs
 
-Unread email counters display on email interaction tabs in CSM Configurable Workspace to help agents track new email activity across multiple interactions.
+Unread email counters display on email interaction tabs in CRM Workspace to help agents track new email activity across multiple interactions.
 
 ## Before you begin
 

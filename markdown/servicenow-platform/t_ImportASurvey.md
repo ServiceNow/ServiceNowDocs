@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ImportASurvey.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Share surveys, Survey distribution, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ Role required: admin or survey\_admin
 
 1.  Verify that the target instance has assessments enabled.
 
-2.  Follow the steps in [Import data from XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/import-xml-file.md) to import the assessment.
+2.  Follow the steps in  to import the assessment.
 
 
 **Parent Topic:**[Sharing surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/c_SurveyInportAndExport.md)

@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Edit a contract template in Microsoft Word, Manage clauses, tables, and contract templates, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -40,15 +40,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 7.  Edit or delete the signatory.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d640602e142">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d639487e142">
 
 Action
 
-</th><th align="left" id="d640602e145">
+</th><th align="left" id="d639487e145">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d640602e151">
+</th></tr></thead><tbody><tr><td id="d639487e151">
 
 **Edit the signatory**
 
@@ -59,7 +59,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d640602e178">
+</td></tr><tr><td id="d639487e178">
 
 **Delete the signatory**
 

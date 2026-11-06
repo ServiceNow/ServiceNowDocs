@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-playbooks.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Playbooks in Recommended Actions, Recommended Actions, Playbooks action type, Create playbooks action type in Recommended Actions]
 breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
@@ -48,5 +48,5 @@ As an admin, you can perform the following on the playbooks in Recommended Actio
 **Related topics**  
 
 
-[ra-configure-playbook-action]
+[Configure a playbook as a Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-configure-playbook-action.md)
 

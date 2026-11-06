@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -61,15 +61,15 @@ If an agent is part of more than one assignment group or territory, then dispatc
 
 3.  Assign the work order task to agents.
 
-<table id="choicetable_sbq_vhp_b4b"><thead><tr><th align="left" id="d28187e309">
+<table id="choicetable_sbq_vhp_b4b"><thead><tr><th align="left" id="d28362e309">
 
 To
 
-</th><th align="left" id="d28187e312">
+</th><th align="left" id="d28362e312">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d28187e318">
+</th></tr></thead><tbody><tr><td id="d28362e318">
 
 **Assign a task manually from the task panel**
 
@@ -80,7 +80,7 @@ Do this
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d28187e342">
+</td></tr><tr><td id="d28362e342">
 
 **Assign a task manually from the contextual side panel**
 
@@ -93,7 +93,7 @@ Do this
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d28187e390">
+</td></tr><tr><td id="d28362e390">
 
 **Assign a task manually from the map**
 
@@ -105,7 +105,7 @@ Do this
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d28187e423">
+</td></tr><tr><td id="d28362e423">
 
 **Auto-assign a task from the task panel**
 
@@ -116,7 +116,7 @@ Do this
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d28187e457">
+</td></tr><tr><td id="d28362e457">
 
 **Auto-assign a task from the contextual side panel**
 
@@ -128,7 +128,7 @@ Do this
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d28187e499">
+</td></tr><tr><td id="d28362e499">
 
 **Auto-assign from the task record**
 
@@ -139,7 +139,7 @@ Do this
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d28187e526">
+</td></tr><tr><td id="d28362e526">
 
 **Auto-assign a task from a list**
 
@@ -151,7 +151,7 @@ Do this
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d28187e565">
+</td></tr><tr><td id="d28362e565">
 
 **Auto-assign a task from the map**
 
@@ -193,10 +193,8 @@ Intelligent Task Recommendations identifies and recommends the best available ta
 
 -   Start and end time of the task.
 -   Excludes the work order tasks that are schedule locked.
--   Agent's territory and task's territory if Field Service Territory Planning plugin \(com.snc.fsm\_territory\_planning\) is enabled.
 -   Considers the agent's start and end locations from the **Resource Schedule Attributes** table for the given day.
--   Integrates agent's schedule and events from the Workforce Optimization for Field Service application when the **Enable Shift Scheduling for FSM to Determine Availability** configuration is enabled. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/t_ConfigureFieldService.md) and [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
--   Considers technician-demand channel association when **Enable Shift Scheduling for FSM to Determine Availability**, **Enable/disable association of territory resources with demand channels**, and territory model is enabled.
+-   Integrates agent's schedule and events from the Workforce Optimization for Field Service application if the **Enable Shift Scheduling for FSM to Determine Availability** configuration is enabled. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/t_ConfigureFieldService.md) and [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 ### Procedure
 

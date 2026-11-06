@@ -7,7 +7,7 @@ release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrating Azure DevOps and CI-CD tool, Configure, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---

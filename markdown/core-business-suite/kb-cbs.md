@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/kb-cbs.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [knowledge base, Core Business Suite, Configuration Console, knowledge management]
 breadcrumb: [Configure, Core Business Suite]
@@ -98,5 +98,5 @@ Edit the Can Contribute user criteria to add knowledge authors and editors in Co
 -   **[Edit permissions for CBS Knowledge Readers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/cbs-perm-kb-read.md)**  
 Edit the Can Read user criteria to add knowledge readers in Core Business Suite.
 
-**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
 

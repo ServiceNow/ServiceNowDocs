@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/interactive-filters-workspace.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Platform Analytics experience, Platform Analytics]
 ---
@@ -22,6 +22,8 @@ To find Filters in Platform Analytics, navigate to **All** &gt; **Platform Analy
 
 This video illustrates how to create a filter, in this case a multi-select filter for table data.
 
+[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md) lists and data visualizations on an inline or technical dashboard.
+
 Technical dashboards are populated in the UI Builder and are more flexible but require considerably more expertise. For example, on a technical dashboard, you have to create custom event handlers for filters to apply to lists or data visualizations.
 
 **Note:** When you enable Usage Insights filters within Platform Analytics dashboards, they operate as global filters. This means they impact all visualizations across the entire dashboard, not just a single visualization.
@@ -32,13 +34,13 @@ When you edit Core UI filters dashboards migrated in compatibility mode, you do 
 
 ## Filters on inline dashboards
 
-For inline dashboards, you can create a filter directly on the dashboard through the inline editor, or add a filter from the filter library. In either case, you can add filters to a specific tab or have them apply to the entire dashboard. To take these actions, you only need the right to edit the dashboard.
+For inline dashboards, you can create a filter directly on the dashboard through the [inline editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md), or add a filter from the filter library. In either case, you can add filters to a specific tab or have them apply to the entire dashboard. To take these actions, you only need the right to edit the dashboard.
 
 If you have the analytics\_filter\_admin role, you can also create a filter for the library through the Filter Designer or copy an existing filter to the library.
 
 The filter applies to those data visualizations and list components that contain a target of the filter.
 
-In a filter group, you configure several filters and apply or clear them with one action, making one database call. A filter group may therefore be more efficient than multiple separate filters.
+In a [filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md), you configure several filters and apply or clear them with one action, making one database call. A filter group may therefore be more efficient than multiple separate filters.
 
 When you create a filter, you first specify the filter type. All further configuration options depend on the selected type.
 

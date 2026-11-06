@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Scripting, API implementation, API implementation and reference]
+breadcrumb: [Explore, Scripting, API implementation, API implementation and reference]
 ---
 
 # Execution order of scripts and engines
@@ -51,5 +51,5 @@ The order of execution is as follows:
 
 **Note:** Like After business rules, Async business rules execute their logic after a database operation occurs. Unlike After business rules, Async business rules execute asynchronously, running in the background simultaneously with other processes. Async business rules run after the user submits the form and after the scheduler runs the scheduled job created from the business rule. The system creates a scheduled job from the business rule after the user submits the form but before any action is taken on the record in the database.
 
-**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
+**Parent Topic:**[Exploring scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
 

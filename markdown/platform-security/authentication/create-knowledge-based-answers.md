@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure KBA, Knowledge-based authentication, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Configure KBA, Knowledge-based authentication, Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
 # Create KBA answers
@@ -20,7 +20,7 @@ Create knowledge-based answers for the preconfigured security questions to confi
 
 Role required: auth\_factors\_admin
 
-KBA validates answers against records in ServiceNow AI Platform tables by default. To  validate against  an external source such as a CRM or order management platform, select Identification or Authentication in the Script Configuration field. External data is never imported or stored in ServiceNow AI Platform.
+KBA validates answers against records in ServiceNow AI Platform tables by default. To validate against an external source such as a CRM or order management platform, select Identification or Authentication in the Script Configuration field. External data is not imported or stored in ServiceNow AI Platform.
 
 The User Column field determines whether an identified caller can proceed to authentication. When populated with a field that links to a system user account, the caller is eligible for authentication. When left empty or mapped incorrectly, the caller is treated as a guest — the caller can access personalized, non-sensitive information but can't be authenticated.
 
@@ -30,7 +30,7 @@ The User Column field determines whether an identified caller can proceed to aut
 
 2.  Select **New** on the Knowledge Based Answers page.
 
-3.  Specify the following fields on the form:
+3.  Specify the following fields on the form.
 
 <table id="table_ucp_d5x_l3c"><thead><tr><th>
 
@@ -46,8 +46,8 @@ Script Configuration
 
 </td><td>
 
-Select the type of script-based validation. Options: -   **None**: Validate the caller's answer against a ServiceNow AI Platform table.
--   **Identification**: validate a caller's identity via a custom script against an external system.
+Type of script-based validation. Options: -   **None**: Validate the caller's answer against a ServiceNow AI Platform table.
+-   **Identification**: Validate a caller's identity via a custom script against an external system.
 -   **Authentication**: Validate a caller's authentication via a custom script against an external system.
 **Note:** When Script Configuration is set to **Identification** or **Authentication**, the Answer Table, Answer Column, and User Column fields are replaced by a script editor.
 
@@ -57,7 +57,7 @@ Description
 
 </td><td>
 
-Define a description for the answer. For example: Business Phone Number.
+Description for the answer. For example: Business Phone Number.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Answer Table
 
 </td><td>
 
-Select the answer table.**Note:** The selected table should have a field referenced to the `sys_user` table.
+Table that contains the answers.**Note:** The selected table should have a field referenced to the `sys_user` table.
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Answer Column
 
 </td><td>
 
-Select the answer column from the **Available** list. Example: `Business phone`.
+Answer column from the **Available** list. Example: `Business phone`.
 
 </td></tr><tr><td>
 
@@ -102,18 +102,16 @@ User Column
 
 </td><td>
 
-Select the field that links records in the Answer Table to a system user account. For example: sys\_user.All fields of type reference from the Answer Table are displayed and can be selected.
+Field that links records in the Answer Table to a system user account. For example: sys\_user.All fields of type reference from the Answer Table are displayed and can be selected.
 
 When populated with a valid `sys_user` reference, the answer supports identification and authentication. When left empty, the answer supports guest identification only and the caller can't be authenticated.
 
-Whether this field is required is controlled by the property. To know more, see [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-answers.md).
+Whether this field is required is controlled by the property. To learn more, see [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-answers.md).
 
 </td></tr></tbody>
 </table>        \[Omitted image "kba-answers-1.png"\] Alt text: Knowledge Based Answer - Script Configuration as None
 
     2.  Script Configuration as **Identification**: Validate against an external system during identification:
-
-        **Note:** KBA Answers - **Script Configuration**: Works for only users with `snc_external`role users.
 
 <table><thead><tr><th>
 
@@ -129,7 +127,7 @@ Script
 
 </td><td>
 
-Define the custom script to validate the caller's answer against an external system and return the location of the matched ServiceNow AI Platform record.
+Custom script that validates the caller's answer against an external system and returns the location of the matched ServiceNow AI Platform record.
 
  Script input: `user_input`, the caller's answer.
 
@@ -137,6 +135,8 @@ Define the custom script to validate the caller's answer against an external sys
 
  -   `table_name`: The ServiceNow AI Platform table where the matched record is located.
 -   `sys_id`: The `sys_id` of the matched record within the specified table.
+ If no matching record is found, leave `table_name` and `sys_id` empty. The caller isn't identified with this answer.
+
  For script execution time limits, see [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-answers.md).
 
 </td></tr></tbody>
@@ -144,7 +144,7 @@ Define the custom script to validate the caller's answer against an external sys
 
     3.  Script Configuration as **Authentication**: Validate against an external system during authentication:
 
-        **Note:** KBA Answers - **Script Configuration**: Works for only users with `snc_external`role users.
+        **Note:** KBA Answers - **Script Configuration**: Works only for users with the `snc_external` role.
 
 <table><thead><tr><th>
 
@@ -160,13 +160,13 @@ Script
 
 </td><td>
 
-Define the custom script to verify the caller's answer against an external system and return a pass or fail result.
+Custom script that verifies the caller's answer against an external system and returns a pass or fail result.
 
  Script input:
 
  -   `user_id`: The sys\_id of the user being authenticated.
 -   `user_input`: The caller's answer.
--   `kba_session_context`: a JSON object containing questions presented to the caller and the answers they provided, captured across identification and authentication steps in the current session. Only questions configured with a scripted answer are included. This allows the script to reference prior responses when validating the current answer — for example, to cross-check answers or apply multi-field logic. Example:
+-   `kba_session_context`: a JSON object containing questions presented to the caller and the answers they provided, captured across identification and authentication steps in the current session. Only questions configured with a scripted answer are included. This enables the script to reference prior responses when validating the current answer — for example, to cross-check answers or apply multi-field logic. Example:
 
     ```
 { 
@@ -218,7 +218,7 @@ Default Value
 
 </td><td>
 
-Controls whether the User Column field is mandatory when creating or updating an answer.
+Controls whether the User Column field is required when creating or updating an answer.
 
  **Note:** All answers mapped to the same question must follow the same pattern — either all supporting identification and authentication, or all supporting identification only.
 

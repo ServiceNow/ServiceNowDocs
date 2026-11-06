@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 42
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -20,7 +20,7 @@ The Quote Management Open API is a ServiceNow implementation of the TM Forum Quo
 
 This API can be extended to make customizations around required parameters, request body validation, additional REST operations and field mappings.
 
-The Quote Management API requires the Quote Management \(com.sn\_quote\_mgmt\) plugin and the quote\_integrator role. This API belongs to the sn\_tmf\_api namespace. See .
+The Quote Management API requires the Quote Management \(com.sn\_quote\_mgmt\) plugin and the quote\_integrator role. This API belongs to the sn\_tmf\_api namespace. See [Install Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-quote-management.md).
 
 The Quote Management API creates or updates data in the following tables:
 

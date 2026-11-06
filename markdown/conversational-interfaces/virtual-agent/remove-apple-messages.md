@@ -1,5 +1,5 @@
 ---
-title: Remove the integration for Apple Messages for Business
+title: Uninstall the integration for Apple Messages for Business
 description: To remove the integration of Apple Messages for Business with your ServiceNow instance, you need to log in to your Apple Messages for Business account, and then unlink your Apple Messages for Business partner account from your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/remove-apple-messages.html
@@ -7,12 +7,12 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Conversational Integration with Apple Messages for Business, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, Apple Messages for Business, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Remove the integration for Apple Messages for Business
+# Uninstall the integration for Apple Messages for Business
 
 To remove the integration of Apple Messages for Business with your ServiceNow® instance, you need to log in to your Apple Messages for Business account, and then unlink your Apple Messages for Business partner account from your ServiceNow® instance.
 

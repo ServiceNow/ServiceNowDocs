@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # ServiceNow Studio reference
@@ -23,11 +23,11 @@ Configure system properties to control ServiceNow Studio application behavior an
 -   **[ServiceNow Studio supported file types using code search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sn-studio-file-types.md)**  
 Reference the file types that ServiceNow Studio supports when using code search to locate scripts and metadata across an instance.
 -   **[Supported preview file types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/supported-preview-file-types.md)**  
-Reference the file types that ServiceNow Studio supports when using preview features to confirm or update user-facing page functionality.
+Find the file types that ServiceNow Studio supports in preview features to confirm or update user-facing page functionality.
 -   **[Collaboration permissions for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-collab-permissions.md)**  
 Collaboration permissions determine what delegated developers can do when working on an app in ServiceNow Studio. Admins or app owners set these permissions.
 -   **[Custom Application record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/application-record-field-descriptions.md)**  
-The Custom Application form enables you to add or modify information about a custom application to define its behavior.
+Use the Custom Application form to add or modify information that defines the behavior of a custom application.
 
 **Parent Topic:**[ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
 

@@ -7,9 +7,9 @@ release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Component Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Component Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Enable configuration of components with inherited controllers in component builder

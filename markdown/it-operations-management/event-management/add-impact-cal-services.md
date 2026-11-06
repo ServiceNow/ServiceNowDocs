@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ Organizations may have thousands—or even hundreds of thousands—of applicatio
     -   Set their status to false in the em\_impact\_filter\_service.list.
     For information on how to remove the application service from the list, see [Remove application services from impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/remove-impact-cal-services.md).
 
--   Scenario 2: CMDB class is not added to em\_impact\_inclusion\_class.list. So, none of the application services related to this class are considered for impact calculation. However, you want only specific application services from this class to be included, you can directly add those services to the em\_impact\_filter\_service.list table and set their status to true without adding the CMDB class to the em\_impact\_inclusion\_class.list table.
+-   Scenario 2: CMDB class is not in em\_impact\_inclusion\_class.list, so no services in this class are included in impact calculation. To include specific services, add them to the em\_impact\_filter\_service.list table and set their status to true.
 
 The following procedure shows how to add an application service directly to the em\_impact\_filter\_service.list table so that it is considered for impact calculation.
 

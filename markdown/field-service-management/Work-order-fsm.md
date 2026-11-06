@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/Work-order-fsm.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Explore, Field Service Management]
 ---
 
@@ -22,6 +22,19 @@ When you create a work order from an integrated product:
 
 -   Data from the product record automatically copies to the new work order.
 -   The work order is available from within the integrated product.
+
+## Example: Case Escalation to Field Service
+
+A customer issue cannot be resolved remotely and requires a field technician to visit the site. The CSM and Field Service Management integration allows support agents to create a linked work order from an open case, passing all relevant data to dispatch automatically and updating the case when the work order is closed.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Customer or Customer Service Agent|Creates case in CSM|
+|2|Customer Service Agent|Determines field service is needed|
+|3|System|Generates linked work order with case data|
+|4|System|Routes work order to dispatch|
+|5|Technician|Completes job|
+|6|System|Updates work order and closes case|
 
 You can create a work order from the following integrated record types:
 

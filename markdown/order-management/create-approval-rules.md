@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-approval-rules.html
 release: australia
 topic_type: task
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an approval configuration, Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -28,7 +28,7 @@ Approval rules define the approvers for the rule, associate the trigger conditio
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

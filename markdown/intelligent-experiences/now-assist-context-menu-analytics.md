@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-context-menu-analytics.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # ServiceNow Otto context menu analytics

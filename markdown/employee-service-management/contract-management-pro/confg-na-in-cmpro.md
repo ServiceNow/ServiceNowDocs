@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [activate now assist in contract management, activate now assist in contract management pro, now assist in contract management pro, now assist for contract management pro, Now Assist in contract management pro, ServiceNow Otto for contract management pro, AI for contract management pro, AI in contract management pro]
 breadcrumb: [Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -33,13 +33,13 @@ The following skills are available for Contract Management Pro in the AI Admin H
 -   Contract obligation extraction
 -   Contract analysis
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Procedure
 
 1.  Install the Contract Management Pro - Prime plugin \(sn\_cm\_ai\_prime\).
 
-    For information about the plugin installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For information about the plugin installation process, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 2.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
@@ -59,7 +59,7 @@ You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on 
 
 6.  In the Define access page, select the roles to specify who can access the skills.
 
-    -   If custom roles were added before upgrading to ServiceNow Otto for Contract Management Pro Australia patch 1, they are updated automatically by a script and appear in the Define access page.
+    -   If custom roles were added before upgrading to ServiceNow Otto for Contract Management Pro Brazil patch 1, they are updated automatically by a script and appear in the Define access page.
     -   If custom roles were not added, the default role sn\_cm\_gen\_ai.ai\_contract\_fulfiller, sn\_cm\_gen\_ai.ai\_contract\_admin, and sn\_cm\_gen\_ai.ai\_contract\_config automatically appear in the Define access page.
     -   If new roles are created after the upgrade, add them manually in the Define access page.
 7.  In the Review and activate page, select **Activate**.

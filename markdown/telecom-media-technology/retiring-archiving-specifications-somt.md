@@ -1,16 +1,16 @@
 ---
-title: Retiring or archiving versioned specifications and product offerings
-description: You can move a published specification or a product offering to a Retired or Archived state when it is no longer being used. When you retire a specification version, you can't use it in a product offering or create specification versions.
+title: Retiring and archiving specifications
+description: When a published specification or product offering is no longer being used, you can retire it. A retired version stays in the operational tables, but you can't use it in a product offering or create specification versions from it. To remove a retired version from the operational tables, archive it. Archiving doesn't permanently delete the version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/retiring-archiving-specifications-somt.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Retiring or archiving versioned specifications and product offerings
+# Retiring and archiving specifications
 
-You can move a published specification or a product offering to a Retired or Archived state when it is no longer being used. When you retire a specification version, you can't use it in a product offering or create specification versions.
+When a published specification or product offering is no longer being used, you can retire it. A retired version stays in the operational tables, but you can't use it in a product offering or create specification versions from it. To remove a retired version from the operational tables, archive it. Archiving doesn't permanently delete the version.
 

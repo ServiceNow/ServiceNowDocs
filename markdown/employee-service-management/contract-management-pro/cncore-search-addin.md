@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -38,15 +38,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 5.  Search for clauses that are either in the template or only in the clause library.
 
-<table id="choicetable_esb_crp_dzb"><thead><tr><th align="left" id="d593271e154">
+<table id="choicetable_esb_crp_dzb"><thead><tr><th align="left" id="d592792e154">
 
 Location of the clause
 
-</th><th align="left" id="d593271e157">
+</th><th align="left" id="d592792e157">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d593271e163">
+</th></tr></thead><tbody><tr><td id="d592792e163">
 
 **Part of the template**
 
@@ -58,7 +58,7 @@ Actions
 4.  In the **Search clauses** field, enter the name of the clause you want to search.
 
 
-</td></tr><tr><td id="d593271e196">
+</td></tr><tr><td id="d592792e196">
 
 **Clause library**
 

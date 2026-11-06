@@ -5,14 +5,18 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itsm-change-request-plans-ai-agent-auto.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-01"
-reading_time_minutes: 2
-breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI assets, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Change request plans AI agent \(autonomous\)
 
 This AI agent autonomously drafts change plan fields during the readiness phase. Field population is governed by a resolved change policy to ensure consistent behavior without requiring user input.
+
+**Note:** This version of the AI agent is available on Zurich Patch 12, Australia Patch 5, and later releases, and replaces the earlier version of the agent. If you're using an earlier release, see [Change request plans AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-change-request-plans-ai-agent.md).
+
+**Note:** This version of the AI agent is available on Zurich Patch 12, Australia Patch 5, and later releases, and replaces the earlier version of the agent. If you're using an earlier release, see [Change request plans AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-change-request-plans-ai-agent.md).
 
 ## Workflow
 

@@ -7,14 +7,16 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Embedding reports in Jelly
 
 You can embed reports in any Jelly-based element, such as a UI page.
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 ## Enabling Embedding
 

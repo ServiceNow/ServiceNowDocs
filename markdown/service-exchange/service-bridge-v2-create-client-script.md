@@ -7,7 +7,7 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -38,7 +38,7 @@ You can apply catalog client scripts to a catalog item or a variable set. These 
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values, see [Catalog client script record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-cat-script-fd.dita.md).
+    For a description of the field values, see [Catalog client script new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-cat-script-fd.dita.md).
 
 5.  Select **Submit**.
 

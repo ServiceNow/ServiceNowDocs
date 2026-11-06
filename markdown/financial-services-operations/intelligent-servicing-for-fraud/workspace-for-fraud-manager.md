@@ -7,7 +7,7 @@ release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [workspace for fraud manager, fraud manager workspace, approve or reject fraud cases, fraud case review, fraud performance analytics, process optimization for fraud, fraud manager dashboard, pending approval tasks, team fraud cases, sla indicators]
 breadcrumb: [Use, Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]

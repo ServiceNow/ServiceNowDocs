@@ -7,8 +7,8 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-07-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Telecommunications Service Operations Management]
 ---
 
@@ -20,6 +20,8 @@ Telecommunications Service Operations Management is a solution for telecom provi
 
 ## How TSOM works
 
+\[Omitted image "telecom-discovery.png"\] Alt text: Diagram: TSOM architecture showing Service Graph Connectors, TSOM Visibility CMDB, Horizontal Discovery patterns, and IT/Cloud Discovery patterns integrated with MID Server
+
 Telecommunications Service Operations Management simplifies telecom operations by connecting with existing monitoring and telemetry platforms, identifying actionable patterns, and automating resolution workflows. It leverages:
 
 -   External event management via Telecommunications API notifications for standardized alarm ingestion.
@@ -28,8 +30,6 @@ Telecommunications Service Operations Management simplifies telecom operations b
 -   Health Log Analytics to analyze log data, triage related issues, and identify root causes before users are impacted.
 -   Service Impact Analysis to assess and trace service disruptions based on impacted infrastructure and business services.
 -   Service Graph Connectors and Discovery to build a dynamic, telecom-aware CMDB.
-
-\[Omitted image "exploring-telecom.png"\] Alt text: Architecture diagram showing Service Graph Connectors feeding into AI-Powered Platform Architecture with TNI, TSOM Visibility, CMDB, and MID Server, alongside Horizontal Discovery and IT/Cloud Discovery Patterns
 
 ## Key features
 
@@ -77,6 +77,4 @@ This integration confirms consistent workflows, accurate service models, and uni
 [External event management via Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
 
 [Telecom Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/tsom-visibility.md)
-
-[Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/telecom-assurance.md)
 

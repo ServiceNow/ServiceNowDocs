@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,9 +29,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 -   Supported versions:
     -   Minimum version supported: Dynatrace SaaS; Version 1.284
 -   Supported ServiceNow versions:
-    -   Yokohama
     -   Zurich
     -   Australia
+    -   Brazil
 
 ## Important information for upgrading Service Graph Connector for Observability - Dynatrace
 

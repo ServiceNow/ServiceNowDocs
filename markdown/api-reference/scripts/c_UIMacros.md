@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Creating UI pages and macros, Scripting, API implementation, API implementation and reference]
+breadcrumb: [UI pages and macros, Write client-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # UI macros
@@ -29,7 +29,7 @@ Administrators can create their own UI macros to provide custom controls or inte
 
 **Note:** To view available UI macros, navigate to **All** &gt; **System UI** &gt; **UI Macros**.
 
-**Parent Topic:**[Creating custom UI Pages and UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/create-custom-ui-pages.md)
+**Parent Topic:**[UI pages and macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/create-custom-ui-pages.md)
 
 **Related topics**  
 
@@ -48,7 +48,7 @@ Several UI macros are available in the UI macros \[ui\_macros\] table. These UI 
 
 A UI macro can be included in a UI page with the &lt;g:&gt; Jelly tag. The following example includes the ui\_date\_time UI Macro, providing two optional attributes to the UI Macro:
 
-```
+```xml
 <g:ui_date_time name="due_date" value="2023-11-24 08:30:00" onchange="checkDateValue()" />
 ```
 
@@ -76,7 +76,7 @@ The ui\_example UI macro uses three jvar-prefixed variables: jvar\_name, jvar\_t
 
     Name the macro `ui_example` and add the following script to the **XML** field:
 
-    ```
+    ```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <j:jelly trim="true" xmlns:j="jelly:core" xmlns:g="glide">
         <div>name jvar: ${jvar_name}</div>
@@ -91,7 +91,7 @@ The ui\_example UI macro uses three jvar-prefixed variables: jvar\_name, jvar\_t
 
     Name the UI page and add the following script to the **HTML** field:
 
-    ```
+    ```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
         <div style="text-decoration:underline">Template include one:</div>
@@ -142,7 +142,7 @@ Dictionary attribute
 
 Display an icon for a reference field:
 
- ```
+ ```xml
 ref_contributions=ui_macro_name
 ```
 
@@ -154,7 +154,7 @@ UI page
 
 Display something on a UI page:
 
- ```
+ ```xml
 <g:macro_invoke macro="ui_macro_name" />
 ```
 
@@ -166,7 +166,7 @@ UI macro
 
 Call a UI macro from another UI macro:
 
- ```
+ ```xml
 <?xml version= "1.0" encoding="utf-8"&nbsp;?>
 <j:jelly trim= "false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
   <g:ui_macro_name />
@@ -202,7 +202,7 @@ Copy the XML script at the bottom of this article into the XML code window in th
 
 The following example script has a link into the item ordered, a short description \(which contains the ability to expand the variables from the item\), price, quantity and the total price. This helps the approver in that it shows more detail. They can now see what they are actually approving.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
     <j:jelly trim="true" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
     <tr>

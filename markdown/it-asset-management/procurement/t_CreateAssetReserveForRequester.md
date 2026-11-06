@@ -7,7 +7,7 @@ release: australia
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Procurement purchase order management for assets, Procurement, Common applications, Asset Management]
 ---

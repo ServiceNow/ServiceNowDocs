@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Contract negotiation, Negotiate contract document, Contract analysis playbook, Claude for Microsoft Word, AI contract review]
 breadcrumb: [Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]

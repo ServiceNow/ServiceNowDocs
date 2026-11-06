@@ -1,20 +1,20 @@
 ---
 title: Install base characteristics
-description: Customer service managers can create the characteristics of the install base items, while administrators can capture and track the characteristics of the install base items by using the Customer Service Management application. These characteristics can provide information about the service requirements and verify timely maintenance services for the install base item.
+description: Customer service managers can create characteristics of install base items. Administrators can capture and track these characteristics by using the Customer Service Management application. These characteristics provide information about service requirements and verify timely maintenance services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/attributes-and-configuration-of-install-base-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Install base characteristics
 
-Customer service managers can create the characteristics of the install base items, while administrators can capture and track the characteristics of the install base items by using the Customer Service Management application. These characteristics can provide information about the service requirements and verify timely maintenance services for the install base item.
+Customer service managers can create characteristics of install base items. Administrators can capture and track these characteristics by using the Customer Service Management application. These characteristics provide information about service requirements and verify timely maintenance services.
 
-## Overview
+## Overview of install base characteristics
 
 Install base characteristics enable flows like case management, field service management, planned maintenance, and reactive service requirements to occur on a schedule. Some install base characteristics are configurable and vary from product to product. The product model characteristics are non-configurable and are directly taken from the product model that is associated with the install base item.
 
@@ -26,7 +26,7 @@ The Install base characteristics data model represents how the characteristics o
 
 With the admin role, you can track the characteristics to provide the required product information to administrators, agents, business stakeholders, and customers. You can also track the services that are associated with an install base item at the time of purchase. With this role, you can capture the configurable and non-configurable characteristics to view the configuration specifications for an install base item.
 
-With the sn\_customerservice\_manager role, you can create a set of configurable characteristics for an install base item on the Customer Service Management \(CSM\) application. It enables you to view the install base item details and its associated services. After you create an install base characteristic, the characteristic appears in the related list on the install base item form. For more information, see [Create the install base characteristics for an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-install-base-characteristics.md).
+With the sn\_customerservice\_manager role, you can create a set of configurable characteristics for an install base item on the Customer Service Management \(CSM\) application. It enables you to view the install base item details and its associated services. After you create an install base characteristic, the characteristic appears in the related list on the install base item form. For more information, see [Create install base characteristics for an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-install-base-characteristics.md).
 
 There are different functional and granular roles to provide varying levels of permissions to users. For information on the different access levels, see [Security roles for the install base characteristics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/security-roles-for-install-base-attributes.md).
 

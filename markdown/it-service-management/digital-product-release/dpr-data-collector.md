@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Digital Product Release \(DPR\), Digital Product Release Data Collectors, DevOps data collectors, Data Collectors, Digital Product Release Policy Content Pack]
 breadcrumb: [Digital Product Release Policy Content Pack, Digital Product Release, IT Service Management]

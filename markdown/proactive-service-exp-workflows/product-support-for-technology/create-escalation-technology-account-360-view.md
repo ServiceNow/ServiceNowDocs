@@ -7,7 +7,7 @@ release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Review customer or partner accounts, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent, sn\_ind\_tsm\_sdwan.app\_e
 
 6.  On the Escalation form, fill in the fields.
 
-    For more information about the fields, see [Escalate a case or an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/escalate-csm-case.md).
+    For more information about the fields, see .
 
 7.  Select **Save**.
 

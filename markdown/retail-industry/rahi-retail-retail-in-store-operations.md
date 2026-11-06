@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-retail-in-store-operations.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prebuilt Retail case types, Retail case types, Explore, Retail]
+breadcrumb: [Retail case types, Explore, Retail]
 ---
 
 # In-store operations case
@@ -20,5 +20,5 @@ In-store operation task is used to support daily in-store activities. These task
 
 For information on the components installed with in-store operations case, see [Components installed with Retail In-store Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-components-in-store-operations.md).
 
-**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types-revamp.md)
+**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types.md)
 

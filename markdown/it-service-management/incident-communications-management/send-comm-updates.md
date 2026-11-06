@@ -7,9 +7,9 @@ release: australia
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing Incident Communications, Incident Communications Management, IT Service Management]
+breadcrumb: [Managing incident communications, Incident Communications Management, IT Service Management]
 ---
 
 # Send communication updates
@@ -18,9 +18,10 @@ Update users on the latest communication on an incident through selected communi
 
 ## Before you begin
 
--   Role required: itil \(itil user is assigned to incident communication task\) or ia\_admin or mim\_manager or admin.
--   Activate the Notify plugin \(com.snc.notify\) if you want to send communication through SMS.
--   Set atleast one communication channel of a communication task as SMS or email.
+-   To send communication through SMS, the Notify plugin \(com.snc.notify\) must be active.
+-   At least one communication channel of the communication task must be set to SMS or email.
+
+Role required: itil \(assigned to the incident communication task\), ia\_admin, mim\_manager, or admin
 
 ## Procedure
 
@@ -32,16 +33,16 @@ Update users on the latest communication on an incident through selected communi
 
 3.  From the Incident Communication Tasks related list, open the incident communication task for which you want to send updates.
 
-4.  In the related links, click **Send Updates**.
+4.  In the related links, select **Send Updates**.
 
-5.  Fill in the required information and click **Compose**.
+5.  Fill in the required information.
 
-    For sending an SMS communication, in the **From** list, select a number from which you want to send the communication. It contains a list of phone numbers derived from the selected **Provider selector** column which is a reference to the Provider selector table \[notify\_group\_selector\]. The **From** list displays phone numbers of all the groups associated with the Provider selector only when the following conditions are met:
+    To send an SMS communication, in the **From** list, select the number from which to send the communication. The list contains phone numbers derived from the selected **Provider selector** column, which references the Provider selector table \[notify\_group\_selector\]. The **From** list displays phone numbers of all the groups associated with the Provider selector only when the following conditions are met:
 
     -   The **Manual selector** check box in the Provider selector form is selected.
     -   The value of the **Source table** field in the Provider selector is either empty or the same table that you have selected.
-6.  Click **Compose**.
+6.  Select **Compose**.
 
 
-**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing incident communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

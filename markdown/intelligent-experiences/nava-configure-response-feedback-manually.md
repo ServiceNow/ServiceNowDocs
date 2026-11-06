@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nava-configure-response-feedback-manually.html
 release: australia
 topic_type: task
-last_updated: "2026-03-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring AI skills, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure response feedback
@@ -51,5 +51,5 @@ Role required: admin
 14. For more information on accessing the stored feedback data, see [Granular Feedback and Analytics in ServiceNow Otto for Virtual Agent \(KB3060968\).](https://support.servicenow.com/kb_view.do?sysparm_article=KB1213249)
 
 
-**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-na-landing.md)
 

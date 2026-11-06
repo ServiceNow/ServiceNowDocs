@@ -7,7 +7,7 @@ release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 30
 keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 breadcrumb: [Reference, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
@@ -27,22 +27,11 @@ A Care Team Mobile feature that allows care team members to scan QR codes or bar
 
 For example, a nurse scans the barcode on an infusion pump using Care Team Mobile and sees its maintenance history before submitting a new repair request.
 
-To learn how to scan asset tags, see [Asset Scan in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-mobile-asset-scan.md).
-
 ### Assignment Group
 
 A group of users associated with a healthcare organization that determines which agents are responsible for fulfilling cases or work orders for that organization. Multiple assignment groups can be linked to a single organization.
 
 For example, the Biomed Dispatcher assignment group is associated with the Biomed Support organization so that device repair work orders are routed to the correct agents.
-
-To learn how to associate assignment groups, see:
-
--   [Associate assignment groups with a healthcare organization in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hco-assign-roles-responsibilities-members.md)
--   [Set up assignment groups for Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-biomed-set-up-assignment-groups.md)
--   [Set up assignment groups for Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-evs-assignment-groups.md)
--   [Set up assignment groups for Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-facilities-assignment-groups.md)
--   [Create assignment groups for Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-create-assignment-groups.md)
--   [Set up assignment groups for Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/cto-it-assignment-groups.md)
 
 ## B
 
@@ -54,8 +43,6 @@ A service organization record that is automatically created when a healthcare or
 
 For example, when the "Cardiology Department" healthcare organization is created, an associated internal business location with the same name is auto-generated.
 
-To learn more about business locations, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md).
-
 ## C
 
 Glossary terms are grouped alphabetically.
@@ -65,8 +52,6 @@ Glossary terms are grouped alphabetically.
 A user role that inherits all Care Team Member permissions and additionally allows the user to add or remove members within their healthcare organizations. Role name: sn\_hco.care\_team\_manager
 
 For example, a unit manager uses the Care Team Portal to add a newly hired nurse to the ICU team and assign them the Team Member responsibility.
-
-To learn more about Care Team Manager and other responsibilities, see [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md).
 
 ### Care Team Member
 
@@ -164,7 +149,14 @@ A responsive web portal within Healthcare Operations Core where care team member
 
 For example, a nurse navigates to https:// .service-now.com/careteam to submit a request for a linen change in a patient room.
 
-To learn more about Care Team Portal, see [Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/care-team-portal-landing.md).
+To learn more, see:
+
+-   [Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hcls-cto-care-team-portal.md)
+-   [Using Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/care-team-portal-using.md)
+-   [Create requests in the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hcls-cto-create-requests-portal.md)
+-   [Track requests in the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hcls-cto-track-requests.md)
+-   [Manage your teams in the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hcls-cto-manage-teams.md)
+-   [Embedding Care Team Portal in Epic Hyperspace via Hyperdrive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/configure-care-team-portal.md)
 
 ### Care Team Work Management
 
@@ -172,7 +164,13 @@ An application that streamlines task creation, assignment, and tracking for care
 
 For example, a unit manager creates a "Shift Readiness" task plan template that generates a care team case with individual safety check tasks for each nurse at shift change.
 
-To learn more about Care Team Work Management, see [Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-landing.md).
+To learn more, see:
+
+-   [Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-landing.md)
+-   [Activate Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-activate.md)
+-   [Configuring Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-configuring.md)
+-   [Care team cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-care-team-case.md)
+-   [Fulfilling care team task plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-fulfilling.md)
 
 ### Common Location
 
@@ -180,7 +178,10 @@ A record in the cmn\_location table that provides the foundational location data
 
 For example, an administrator sets up a common location for "Building A" and then creates a healthcare location that references it and adds the physical type "Building."
 
-To learn more about common locations, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md).
+To learn more, see:
+
+-   [Create a healthcare location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hcls-sm-configure-healthcare-location.md)
+-   [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md)
 
 ### CSM/FSM Configurable Workspace
 
@@ -423,8 +424,8 @@ For example, the Care Team Member responsibility in HCO maps to the "Service loc
 
 To learn more, see:
 
--   
--   
+-   [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-industry-data-model.md)
+-   [Service Model Foundation data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/data-models-smf.md)
 -   [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md)
 -   [Assign responsibilities to Healthcare Operations Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hco-assign-responsibilities.md)
 -   [Roles and responsibilities in Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-understanding-roles-responsibilities.md)
@@ -485,8 +486,6 @@ For example, a nurse opens the chat icon in the Care Team Portal and asks Virtua
 To learn more, see:
 
 -   [Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hcls-cto-care-team-portal.md)
--   [Create a chat launcher button in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-now-assist-create-launcher-button.md)
--   [Assign the chat launcher to a Care Team Mobile assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-now-assist-assign-launcher-assistants.md)
 
 ## W
 

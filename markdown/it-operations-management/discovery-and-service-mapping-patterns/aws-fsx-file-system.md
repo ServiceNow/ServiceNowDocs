@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Amazon FSx File System, AWS FSx discovery, AWS patterns, FSx Extended Inventory]
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]

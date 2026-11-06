@@ -7,7 +7,7 @@ release: australia
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, Card Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -32,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service\[com.sn\_customerservice\]
+Case Management Core\[com.sn\_customerservice\]
 
 </td><td>
 

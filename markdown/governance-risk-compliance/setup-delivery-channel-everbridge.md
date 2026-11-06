@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/setup-delivery-channel-everbridge.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup steps for emergency notification, Integrating Crisis Management with Everbridge, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Role required: BCM admin \(sn\_bcm.admin\)
 
 ## About this task
 
-Finding out how to reach or connect with your stakeholders at the time of crisis may have many challenges. Your notifications may not reach them as they may no longer use those delivery methods through which you are trying. Having imported delivery channels to reach your contacts and selected groups makes your notification service much more certain and manageable.
+Finding out how to reach or connect with your stakeholders at the time of crisis may have many challenges. Your notifications may not reach them as they may no longer use those delivery methods through which you are trying. Having imported delivery channels to reach your contacts and selected groups make your notification service much more certain and manageable.
 
 ## Procedure
 

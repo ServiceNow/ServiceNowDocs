@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/conf-bia-temp-smart-asmt-type.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Setup for a BIA, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -56,7 +56,9 @@ For the initial setup checklist for Smart Assessment Engine, see [Configuring Sm
 
 7.  To save the BIA template, select **Submit**.
 
-8.  To display result fields on the assessment card in Impact analysis record, open the BIA template, map BIA fields to the Impact assessment template, and save the mapping.
+8.  Open the BIA template.
+
+    To display result fields on the assessment card in the Impact analysis record, map the BIA fields to the Impact assessment template and save the mapping.
 
     The BIA template with the Smart Assessment type is set up in the instance. The related list for the BIA template depends on the selected impact assessment template. For example, choosing the Recovery Point Objective template shows the same related list mapped to the BIA fields. For more information, see [Create Smart Assessment templates for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/conf-impact-asmt-template.md).
 
@@ -70,7 +72,7 @@ For the initial setup checklist for Smart Assessment Engine, see [Configuring Sm
 
     \[Omitted image "bia-asmts-based-on-imp-asmt-templates.png"\] Alt text: Cards.
 
-    Previously, the **Assessments** tab showed a single assessment card and an **Open assessment** button. The layout has been updated to a two-column arrangement. Assessment cards are now displayed dynamically, enabling you to attach multiple assessments to a BIA. For example, one card appears in a single row, while seven cards are distributed across four rows: three rows of two cards and one row of one card.
+    Previously, the **Assessments** tab showed a single assessment card and an **Open assessment** button. Beginning with the Yokohama release, the layout has been updated to a two-column arrangement. Assessment cards are now displayed dynamically, enabling you to attach multiple assessments to a BIA. For example, one card is shown alone in a row, while seven cards are distributed across four rows: three rows of two cards and one row of one card.
 
     **Note:** The selected BIA fields are populated on the cards only if they are not empty.
 

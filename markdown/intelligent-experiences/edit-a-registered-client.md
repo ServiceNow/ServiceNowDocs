@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/edit-a-registered-client.html
 release: australia
 topic_type: task
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Client registration and AI Gateway setup, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Client registration and AI Gateway setup, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Edit a registered client

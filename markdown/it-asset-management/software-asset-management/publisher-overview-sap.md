@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -19,6 +19,8 @@ View license usage information related to SAP in the publisher overview for SAP 
 From the Software Asset Workspace, access the SAP publisher overview by navigating to **License usage** &gt; **Publishers** and then selecting **SAP** from the list of available software publishers.
 
 Results are updated whenever a new reconciliation result is available.
+
+**Note:** Compliance results for SAP S/4HANA Cloud, Private Edition appear under the SAP S/4HANA product results. On-premises Named User compliance results appear under the Named User product results. If your organization has both on-premises and Private Cloud SAP systems, the results are shown separately for each deployment.
 
 \[Omitted image "publisher-overview-sap.png"\] Alt text: SAP publisher overview.
 
@@ -108,6 +110,8 @@ Total number of SAP users with indirect access to the SAP system based on user t
 **Related topics**  
 
 
+[SAP publisher pack integration architecture]()
+
 [Tables installed with the SAP publisher pack]()
 
 [Set up SAP integration to establish a connection with SAP]()
@@ -116,9 +120,9 @@ Total number of SAP users with indirect access to the SAP system based on user t
 
 [Establish an SAP connection using OAuth 2.0]()
 
-[Create entitlements for SAP]()
-
 [Create software models for SAP]()
+
+[Create entitlements for SAP]()
 
 [Create a custom SAP named user type]()
 

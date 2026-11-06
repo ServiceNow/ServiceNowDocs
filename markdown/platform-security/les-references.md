@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/les-references.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Log Export Service \(LES\), Platform Security]
 ---
@@ -18,6 +18,8 @@ Find all the miscellaneous information about LES in the reference section.
 Log Export Service is installed with these roles.
 -   **[Log Export Service actions and required roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-actions-roles.md)**  
 Log Export Service uses role-based access control to restrict actions to authorized users.
+-   **[Properties installed with Log Export Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/properties-installed-with-les.md)**  
+Log Export Service \(LES\) adds the following instance system properties and MID Server properties.
 
 **Parent Topic:**[Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-intro.md)
 

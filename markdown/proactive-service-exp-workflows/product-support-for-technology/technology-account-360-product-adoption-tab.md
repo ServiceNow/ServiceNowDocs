@@ -7,7 +7,7 @@ release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2024-01-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [product adoption, customer account, adoption insights, implementation, onboarding]
 breadcrumb: [Reference, Proactive Service Experience Workflows, Product Support for Technology]

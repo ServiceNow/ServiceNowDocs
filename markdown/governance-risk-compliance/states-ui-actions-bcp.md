@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/states-ui-actions-bcp.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -147,17 +147,5 @@ Select **Reject**.
 When the BCP is rejected, it is set to **Returned**. You can edit the business continuity plan in the **Returned** state.
 
 </td></tr></tbody>
-</table>## Plan state lifecycle on the plan's Overview tab
-
-Progress each Business Continuity Plan through a numbered sequence of states on the plan's Overview tab:
-
-1.  **Shared**
-2.  **Reviewed**
-3.  **Pending approval**
-4.  **Approved**
-5.  **Archived**
-
-The current state is marked **In progress** and future states are labeled **Upcoming**. Use **Submit for review** and **Submit for approval** in the plan header to advance states.
-
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+</table>**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

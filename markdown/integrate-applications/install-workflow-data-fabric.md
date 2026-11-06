@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/install-workflow-data-fabric.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
@@ -23,15 +23,7 @@ Role required: admin
 
 ## About this task
 
-The following items are installed with Workflow Data Fabric Home:
-
--   Plugins
--   Store applications
--   Roles
--   Scheduled jobs
--   Tables
-
-For more information, see [Workflow Data Fabric Home roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/installed-with-workflow-data-fabric.md).
+Roles are installed with the Workflow Data Fabric Home store applications. For more information, see [Workflow Data Fabric Home roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/installed-with-workflow-data-fabric.md).
 
 ## Procedure
 
@@ -46,7 +38,7 @@ For more information, see [Workflow Data Fabric Home roles](https://raw.githubus
     |WDF Unified Hub|sn\_wdf\_unified\_hub|
     |ServiceNow Otto for Workflow Data Fabric \(WDF\)|sn\_nowassist\_wdf|
 
-    A list of the versions available to you is displayed.
+    A list of the versions available to you are displayed.
 
 3.  Select a version from the list and select **Install**.
 

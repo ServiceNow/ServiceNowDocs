@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -29,15 +29,15 @@ Planning items that meet the criteria of your portfolio plan or free-form roadma
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d258898e99">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d268640e99">
 
 Roadmap type
 
-</th><th align="left" id="d258898e102">
+</th><th align="left" id="d268640e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d258898e108">
+</th></tr></thead><tbody><tr><td id="d268640e108">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d258898e129">
+</td></tr><tr><td id="d268640e129">
 
 **Free-form roadmap**
 

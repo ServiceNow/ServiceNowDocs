@@ -7,9 +7,9 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Audit Management reference, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Reference, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Roles required for Engagement project planning for Project Portfolio Management
@@ -69,7 +69,7 @@ Users can enter the project budget, move projects, calculate completion estimate
 </td><td>
 
 -   Users need portfolio\_manager role to create project budget. If a user role is being added manually, use the it\_portfolio\_manager role instead of portfolio\_manager role.
--   Users need project\_manager role to be able to calculate completion estimates, and move project. If a user role is being added manually, use the it\_project\_manager role instead of project\_manager role.
+-   Users need project\_manager role to be able to calculate completion estimates, and move projects. If a user role is being added manually, use the it\_project\_manager role instead of project\_manager role.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Audit Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/audit-management-reference.md)

@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [OIDC as a SSO identity provider, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -20,7 +20,7 @@ Log in to your ServiceNow instance by using your Facebook credentials on the Fac
 
 The Facebook-based SSO is shipped along with your ServiceNow instance.
 
-You can define the Identity Provider \(Idp\) configurations to the **OIDC\_Facebook** IdP as your **Identity Providers**. For more information about Idp configurations, see [Configure a Facebook-based Single Sign-On \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-facebook-based-sso.md).
+You can define the Identity Provider \(IdP\) configurations to the **OIDC\_Facebook** IdP as your **Identity Providers**. For more information about IdP configurations, see [Configure a Facebook-based Single Sign-On \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-facebook-based-sso.md).
 
 Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
@@ -51,7 +51,7 @@ Name
 
 </td><td>
 
-Name of the OIDC IdP record. Enter `OIDC_Facebook`.
+Name of the OIDC IdP record. Value is `OIDC_Facebook`.
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ OIDC Entity Profile
 
 </td><td>
 
-OAuth Entity Profile for the OIDC configuration. Enter `Facebook default_profile`.
+OAuth Entity Profile for the OIDC configuration. Value is `Facebook default_profile`.
 
 </td></tr><tr><td>
 
@@ -189,7 +189,7 @@ Update User Interval Time \(Seconds\)
 
 </td><td>
 
-Minimum time interval \(in seconds\) to update a user record between subsequent logins. This field is automatically set to 3600 seconds. For example, after a user logs in, the user record will be updated after 3,600 seconds until the next login. This field is available only when the **Update User on next login** field is enabled.
+Minimum time interval \(in seconds\) to update a user record between subsequent logins. This field is automatically set to 3600 seconds. For example, after a user logs in, the user record is updated after 3,600 seconds until the next login. This field is available only when the **Update User on next login** field is enabled.
 
 </td></tr><tr><td>
 
@@ -204,7 +204,7 @@ List of roles applied to the newly provisioned users.
 
     For more information related to OIDC-based configuration, see [Configure an OAuth OIDC provider for accepting third-party token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/add-OIDC-entity.md)
 
-6.  In the **OIDC Provider Configuration** tab, view and modify the well-know configuration URL of the OIDC IdP.
+6.  In the **OIDC Provider Configuration** tab, view and modify the well-known configuration URL of the OIDC IdP.
 
 7.  Open the **Advanced** tab, and fill in the fields.
 
@@ -215,9 +215,9 @@ List of roles applied to the newly provisioned users.
 
     **Note:** Scripts are run during single sign-on and logout.
 
-8.  To enable and test the configuration, click **Active**.
+8.  To enable and test the configuration, select **Active**.
 
-9.  To update the record, click **Update**.
+9.  To update the record, select **Update**.
 
     The Facebook-based login option is displayed on the login form.
 

@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Review, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -53,7 +53,7 @@ The Atlassian Confluence Cloud external content connector only retrieves permiss
 
     1.  Perform the appropriate action for your version of the UI:
 
-<table id="table_els_wyl_vpb"><thead><tr><th>
+<table><thead><tr><th>
 
 UI version
 

@@ -1,18 +1,18 @@
 ---
 title: Apply Task templates and Task template groups
-description: Save individual tasks or groups of tasks for reuse across plans. You can add templates to new plans or insert them into existing plans. You can also generate templates directly from tasks and plans that already exist in the system.
+description: Save individual tasks or groups of tasks for reuse across plans. You can add templates to new plans or insert them into existing ones. You can also generate templates directly from tasks and plans that already exist in the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-reco-task-tem-groups.html
 release: australia
 topic_type: task
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Apply Task templates and Task template groups
 
-Save individual tasks or groups of tasks for reuse across plans. You can add templates to new plans or insert them into existing plans. You can also generate templates directly from tasks and plans that already exist in the system.
+Save individual tasks or groups of tasks for reuse across plans. You can add templates to new plans or insert them into existing ones. You can also generate templates directly from tasks and plans that already exist in the system.
 
 ## Before you begin
 
@@ -50,7 +50,7 @@ When applying a template group to a plan, use the **Add groups** toolbar control
 
         The tasks from the group or template are added to the plan.
 
-3.  To create a template from an existing task, open the plan that contains the task you want to convert to a template.
+3.  To create a template from an existing task \(upgraded customers\), Open the plan that contains the task you want to convert to a template.
 
     1.  Locate the task in the Recovery tasks list.
 

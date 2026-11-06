@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/request-pred-intelli-inc-mgmt.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Machine learning solutions for IT Service Management, IT Service Management]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
+2.  Select **Request plugin** to open the Activate Plugin form on Now Support.
 
 3.  On the form, fill in the fields.
 
@@ -52,7 +52,7 @@ Plugin Name
 
 </td><td>
 
-Enter: ``
+Name and ID of the plugin to request: `Predictive Intelligence for Incident Management (com.snc.incident.ml_solution)`
 
 </td></tr><tr><td>
 

@@ -7,8 +7,8 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
@@ -39,8 +39,10 @@ The overview page consists of the data visualization widgets that display the re
 The GRC: Regulatory Change Management landing page displays the following sections:
 
 -   Activity overview
--   Trends
 -   Tracking
+-   Trends
+
+Regulatory change managers can select the Explore with AI icon \[Omitted image "icon-otto-outline-24.svg"\] on the widgets of the RCM home page to analyze regulatory data using natural language queries. For information on installing, configuring and using it, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer.md).
 
 \[Omitted image "rcm-homepage-ws.png"\] Alt text: RCM dashboard view from the Compliance Workspace with activity, tracking, and trend reports.
 
@@ -68,7 +70,7 @@ The GRC: Regulatory Change Management landing page displays the following sectio
 
     |Section|Description|
     |-------|-----------|
-    |Open alerts for last 12 months|Timeline of the incoming regulatory alerts that are active and are not closed over a period of 12 months. For example, if 10 records are received every month, they are grouped by a quarter and a total of 30 records for each quarter are displayed in the line graph. Four plots are displayed on the X-axis and 30 records are displayed in each plot.|
+    |Open alerts for last 12 months|Timeline of the incoming regulatory alerts that are active and are not closed over a period of 12 months. For example, if 10 records are received every month, they are grouped by quarter. A total of 30 records per quarter are displayed in the line graph. Four plots are displayed on the X-axis, with 30 records in each plot.|
     |Trends by taxonomy|Trends noted by the taxonomy elements such as content type, jurisdiction, regulatory body, sector, and theme.|
 
 -   Tasks: This section contains an overview of the user's tasks and user group's tasks.

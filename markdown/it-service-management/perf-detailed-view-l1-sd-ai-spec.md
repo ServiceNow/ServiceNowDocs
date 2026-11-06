@@ -1,11 +1,11 @@
 ---
 title: Detailed view of L1 IT Service Desk AI Specialist performance
-description: The detailed view helps you identify which services or categories need the most attention by showing how the AI specialist resolves incidents, why incidents get reassigned, and how many exchanges are needed for each service or category.
+description: The detailed view of L1 IT Service Desk AI Specialist performance breaks down incident outcomes, reassignment reasons, and average exchanges by service or category. Use this view to identify which services need the most attention and how closely proposed solutions align with actual resolutions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/perf-detailed-view-l1-sd-ai-spec.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [L1 Service Desk AI Specialist, performance analytics, detailed view, incident outcomes]
 breadcrumb: [View the performance, Use, L1 IT Service Desk AI Specialist, IT Service Management]
@@ -13,11 +13,15 @@ breadcrumb: [View the performance, Use, L1 IT Service Desk AI Specialist, IT Ser
 
 # Detailed view of L1 IT Service Desk AI Specialist performance
 
-The detailed view helps you identify which services or categories need the most attention by showing how the AI specialist resolves incidents, why incidents get reassigned, and how many exchanges are needed for each service or category.
+The detailed view of L1 IT Service Desk AI Specialist performance breaks down incident outcomes, reassignment reasons, and average exchanges by service or category. Use this view to identify which services need the most attention and how closely proposed solutions align with actual resolutions.
 
 ## AI-handled incidents by service
 
-The AI-handled incidents by service view shows percentages for how incidents handled by the AI specialist ended up \(resolved, in progress, reassigned, or reopened\), broken down by service. This view includes the following metrics:
+The AI-handled incidents by service view shows percentages for how incidents handled by the AI specialist ended up \(resolved, in progress, reassigned, or reopened\), broken down by service.
+
+Select a visualization to open a filtered list of the records behind it. The list applies the Assignment group, AI Specialist, and Date filters from the dashboard. In Service Operations Workspace, the list opens in the workspace. Otherwise, the classic list opens in a new browser tab.
+
+This view includes the following metrics:
 
 -   Incident outcomes by service: Shows the total number of incidents handled by the AI specialist in each service. Expand a service to see outcomes.
 -   Reassignment reasons for unresolved incidents by service: Shows why unresolved incidents were reassigned \(low confidence, failed execution, or time-out\) for each service.

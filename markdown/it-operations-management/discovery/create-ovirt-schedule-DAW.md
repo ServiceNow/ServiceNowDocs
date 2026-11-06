@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -53,15 +53,15 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d424314e325">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d454804e325">
 
 Option
 
-</th><th align="left" id="d424314e328">
+</th><th align="left" id="d454804e328">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d424314e334">
+</th></tr></thead><tbody><tr><td id="d454804e334">
 
 **Existing cloud account**
 
@@ -69,7 +69,7 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name** and **Manager URL** fields auto-populate.
 
-</td></tr><tr><td id="d424314e349">
+</td></tr><tr><td id="d454804e349">
 
 **New cloud account**
 

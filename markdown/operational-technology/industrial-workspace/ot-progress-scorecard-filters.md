@@ -7,7 +7,7 @@ release: australia
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Industrial Workspace, Operational Technology]
 ---
@@ -28,7 +28,7 @@ The business unit \(BU\) filter lets you do the following actions:
 -   View the scorecard metrics for a specific business unit.
 -   View the scorecard metrics for multiple business units.
 
-By default, the scorecard shows the metrics for all of your available BUs as shown in the following example.\[Omitted image "bu-filter-otpsc.png"\] Alt text: The business unit filter in the OT Progress Scorecard showing All Sites by default.
+By default, the scorecard shows the metrics for all of your available BUs.
 
 After you set the BU filter, the scorecard displays the data from every site that is included in the selected BUs. You can then select a site from the All Sites menu, which is described in the next section. If you change the BU filter and select different BUs, the site filter is updated to only include the sites that are associated with the BU that you selected.
 
@@ -42,15 +42,13 @@ The site filter lets you do the following actions:
 -   View the scorecard metrics for a specific site.
 -   View the scorecard metrics for multiple sites.
 
-By default, the scorecard shows the metrics for all the sites that are shown in the following example.\[Omitted image "all-sites-otpsc.png"\] Alt text: The site filter in the OT Progress Scorecard showing All Sites by default.
+By default, the scorecard shows the metrics for all sites.
 
 ## Date filter
 
 The date filter lets you view the scorecard metrics for a specific calendar month in the selected year. By default, the scorecard shows the metrics for the previous month and year.
 
 **Note:** If the \[PA OTPSC\] Monthly Data Collection job hasn't run yet, the scorecard shows a score of 0. For more information about the \[PA OTPSC\] Monthly Data Collection job, see [Configure the data collection for the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/configure-data-collection-for-ot-progress-scorecard.md).
-
-\[Omitted image "date-otpsc.png"\] Alt text: The date filter on the OT Progress Scorecard showing the metrics for May 2024.
 
 -   **[Use the Operational Technology Progress Scorecard filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-workspace/use-filters-ot-progress-scorecard.md)**  
 Use the business unit \(BU\) and site filters on the Operational Technology \(OT\) Progress Scorecard to filter the data by business unit, site, or date.

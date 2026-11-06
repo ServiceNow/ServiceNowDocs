@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Dynamic outputs, Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -20,7 +20,7 @@ Create an action to collect output values. Then, pass the values to a parent act
 
 Role required: action\_designer or admin
 
-**Note:** Dynamic outputs are not available in the base system. To use dynamic outputs in Workflow Studio, you must [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-integrationhub.md).
+**Note:** Dynamic outputs are not available in the base system. To use dynamic outputs in Workflow Studio, you must Request an Integration Hub plugin.
 
 ## About this task
 

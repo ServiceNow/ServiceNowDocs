@@ -4,7 +4,7 @@ description: Many employee documents contain confidential and personal informati
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 ---
 
@@ -36,7 +36,7 @@ See [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 1.  Navigate to **All** &gt; **HR Administration** &gt; **Employee Documents** &gt; **Security Policies**.
 
-2.  Click **New** or an existing security policy to edit.
+2.  Select **New** or an existing security policy to edit.
 
 3.  Fill in the fields as appropriate.
 
@@ -130,10 +130,10 @@ Authorization is required to purge documents, or send a notification before the 
 **Note:** Only one person in the group is required to authorize.
 
 </td></tr></tbody>
-</table>4.  Click **Save** and the **Document Types** related list appears.
+</table>4.  Select **Save** and the **Document Types** related list appears.
 
-5.  Click **New** and you can create a document type to be associated with the security policy.
+5.  Select **New** and you can create a document type to be associated with the security policy.
 
-6.  Click **Submit** or **Update**.
+6.  Select **Submit** or **Update**.
 
 

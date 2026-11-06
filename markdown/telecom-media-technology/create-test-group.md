@@ -1,20 +1,24 @@
 ---
 title: Create a test group
-description: Create a test group to combine various tests that can assist in troubleshooting issues encountered by specific types of services or product models. For instance, grouping a speed test and a ping test together can effectively help in diagnosing internet-related problems.
+description: Create a test group to group related service tests, such as speed and ping tests, to streamline diagnostics for specific service types or product models in Service Test Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/create-test-group.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up a test group, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Setting up a test group, Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Create a test group
 
-Create a test group to combine various tests that can assist in troubleshooting issues encountered by specific types of services or product models. For instance, grouping a speed test and a ping test together can effectively help in diagnosing internet-related problems.
+Create a test group to group related service tests, such as speed and ping tests, to streamline diagnostics for specific service types or product models in Service Test Management.
 
 ## Before you begin
+
+To create an automated test group, create the flow that the test group runs. For more details, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md) and [Service Test Management automation framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/stm-automation-framework.md).
+
+Create the test definitions that you want to add to the test group. A test definition must be in the Draft or Published state. For more details, see [Create a test definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/create-test-specification.md).
 
 Role required: sn\_st\_mgmt.test\_def\_creator
 
@@ -26,73 +30,14 @@ Role required: sn\_st\_mgmt.test\_def\_creator
 
 3.  On the form, fill in the fields.
 
-<table id="table_ndt_z23_4fc"><thead><tr><th>
+    For more information about the fields, see [Service Test Group form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/test-group-fields.md).
 
-Field
+4.  Select **Submit**.
 
-</th><th>
 
-Description
+## What to do next
 
-</th></tr></thead><tbody><tr><td>
+For a manual test group, add the test definitions that the test group runs. For more details, see [Map test definitions to a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/add-test-definitions-to-test-group.md).
 
-Number
-
-</td><td>
-
-Auto-generated ID for the test group.
-
-</td></tr><tr><td>
-
-Name
-
-</td><td>
-
-Name of the test group.
-
-</td></tr><tr><td>
-
-State
-
-</td><td>
-
-State of the test group.-   **Draft**
-
-Unpublished draft service test group that is assigned when you first create the group record.
-
--   **Published**
-
-Published service test group that is assigned when you formally publish it for use.
-
-The service test group and the related tables can’t be modified in the published state.
-
--   **Retired**
-
-Service test group that is retired.
-
-</td></tr><tr><td>
-
-Execution Type
-
-</td><td>
-
-Execution type of the test group.-   **Manual**
-
-The test definitions can be mapped to the test group in the related list.
-
--   **Automated**
-
-A subflow has to be created and mapped to the automated test group.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-Description for the test group.
-
-</td></tr></tbody>
-</table>4.  Select **Submit**.
-
+Publish the test group. For more details, see [Publish a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/publish-test-groups.md).
 

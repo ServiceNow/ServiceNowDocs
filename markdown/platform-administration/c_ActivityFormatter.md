@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_ActivityFormatter.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Formatters, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Activity type and a time stamp display in the top of each entry.
 
 In Core UI, the activity formatter shows updates in real time so you can see the latest information without refreshing the form. User presence enables you to see when other users are entering comments.
 
-\[Omitted image "image.activity-formatter"\] Alt text: Core UI activity formatter
+\[Omitted image "activity-formatter.png"\] Alt text: Core UI activity formatter
 
 **Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_Formatters.md)
 

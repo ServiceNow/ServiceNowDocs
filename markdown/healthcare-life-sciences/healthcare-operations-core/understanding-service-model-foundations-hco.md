@@ -7,7 +7,7 @@ release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: concept
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Organizations and locations overview, Configure, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -18,7 +18,7 @@ Understand how the Service Model Foundation \(SMF\) tables relate to each other 
 
 ## The Service Model Foundation data model
 
-Healthcare Operations Core is built on the Service Model Foundation \(SMF\) framework, the same platform framework used across industries such as banking, retail, and manufacturing. For the platform-wide overview of these tables, see .
+Healthcare Operations Core is built on the Service Model Foundation \(SMF\) framework, the same platform framework used across industries such as banking, retail, and manufacturing. For the platform-wide overview of these tables, see [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-industry-data-model.md).
 
 The SMF location tables form an extension hierarchy. From parent to child:
 
@@ -28,11 +28,11 @@ The SMF location tables form an extension hierarchy. From parent to child:
 
 \[Omitted image "smf-data-model.png"\] Alt text: ERD diagram showing the Service Model Foundation data model, from the case table through Organization Core, Business Organization, Internal Organization, External Organization, healthcare organization, and common location.
 
-For the complete field-level reference for these tables, see .
+For the complete field-level reference for these tables, see [Service Model Foundation tables and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-tables.md).
 
 **Note:**
 
-These tables were previously labeled **Service Organization**, **Business Location**, **Internal Business Location**, and **External Business Location**. Only the display name changed—the table names \(`sn_customer_service_organization`, `sn_csm_business_location`, `sn_csm_business_location_internal`, `sn_csm_business_location_external`\) and the Business Location plugin itself are unchanged. If you see the older names in existing configuration steps, integrations, or an instance that hasn't picked up the rename yet, they refer to the same tables. For the complete list of renamed entities and field labels, see .
+These tables were previously labeled **Service Organization**, **Business Location**, **Internal Business Location**, and **External Business Location**. Only the display name changed—the table names \(`sn_customer_service_organization`, `sn_csm_business_location`, `sn_csm_business_location_internal`, `sn_csm_business_location_external`\) and the Business Location plugin itself are unchanged. If you see the older names in existing configuration steps, integrations, or an instance that hasn't picked up the rename yet, they refer to the same tables. For the complete list of renamed entities and field labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
 
 Two additional tables relate to this hierarchy by reference rather than by extension:
 
@@ -52,19 +52,19 @@ The healthcare organization is like a profile: a one-to-one repository of health
 Whether a location is internal or external depends on its relationship to the organization that owns the ServiceNow instance.
 
 -   **Internal Organization** records are internal to your organization. For example, the hospital that owns the ServiceNow instance, the units within that hospital, or the individual floors and rooms within the hospital.
--   **External Organization** records are external to your organization, such as those for private practices or healthcare affiliates that consume your healthcare services. For example, an affiliate might log into your organization's Epic environment through Epic Community Connect. To report EMR issues requires an External Organization record in ServiceNow, along with the corresponding membership setup.
+-   **External Organization** records are external to your organization. For example, private practices or healthcare affiliates that consume your healthcare services. An affiliate that logs into your organization's Epic environment through Epic Community Connect and needs to report EMR issues requires an External Organization record in ServiceNow, along with the corresponding membership setup.
 
-## Service organization fields on cases
+## Service organization fields on the case
 
 The Healthcare Operations case \[sn\_hco\_case\] form has two service organization fields. Configure them correctly to preserve out-of-box case visibility. For the platform-wide pattern this is based on, including the shared-visibility model and how CSM and ITSM divide the work, see .
 
 -   **Requesting service org**
 
-    Represents the organization that needs support \(the requester\). This out-of-box field is used in every SMF implementation and drives shared case visibility. If the requesting service org isn't populated on the case, none of the shared visibility works.
+    Represents the organization that needs support—the requester. This out-of-box field is used in every SMF implementation and drives shared case visibility. If the requesting service org isn't populated on the case, none of the shared visibility works.
 
 -   **Supporting service org**
 
-    Represents the organization that's fulfilling the case \(the fulfiller\). This field isn't used in every implementation.
+    Represents the organization that's fulfilling the case—the fulfiller. This field isn't used in every implementation.
 
 
 **Note:**
@@ -73,7 +73,7 @@ A common configuration error is displaying the healthcare organization on the ca
 
 ## Common locations and Business Organization
 
-The common location \[cmn\_location\] table represents the physical address of a record and is used across the ServiceNow platform. Because several tables contain *location* in their name, it's commonly assumed that one table extends another, but they don't. Organization Core holds a reference field to the common location record.
+The common location \[cmn\_location\] table represents the physical address of a record and is used across the ServiceNow platform. Because several tables contain *location* in their name, it's commonly assumed that one table extends another. They don't. Organization Core holds a reference field to the common location record.
 
 For healthcare use cases, configure the healthcare location \[sn\_hcls\_location\] table rather than customizing the common location table directly. The healthcare location is a profile for an individual location—a repository of fields and information that aren't available on the common location table. For more information, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md).
 

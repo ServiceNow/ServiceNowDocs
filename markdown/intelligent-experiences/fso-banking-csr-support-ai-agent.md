@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-28"
 reading_time_minutes: 2
-breadcrumb: [Financial Services Operations AI Agents, Financial Services Operations, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Financial Services Operations AI Agents, Financial Services Operations, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Banking CSR support AI agent
@@ -16,7 +16,7 @@ The AI agent acts as a copilot for a customer service representative on a live b
 
 ## Workflow
 
-The AI agent helps the CSR retrieve banking customer information during a live interaction and keeps the conversation moving.
+The agent helps the CSR retrieve banking customer information during a live interaction and keeps the conversation moving.
 
 1.  When the CSR opens a new customer interaction, load that interaction's context and reset any prior conversation state.
 2.  Take the CSR's question — a typed banking query or a request to check for a new customer interaction — and send it, with the current customer context, to the query analysis tool.

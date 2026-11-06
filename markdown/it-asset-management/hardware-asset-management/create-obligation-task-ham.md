@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an obligation record, Manage obligations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Create an obligation record, Manage obligations, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an ad hoc obligation task in Hardware Asset Workspace
@@ -24,15 +24,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open an active obligation record.
 
-<table id="choicetable_a12_4dt_3kc"><thead><tr><th align="left" id="d337896e62">
+<table id="choicetable_a12_4dt_3kc"><thead><tr><th align="left" id="d343781e62">
 
 Hardware Asset Workspace view
 
-</th><th align="left" id="d337896e67">
+</th><th align="left" id="d343781e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d337896e73">
+</th></tr></thead><tbody><tr><td id="d343781e73">
 
 **Contract management**
 
@@ -52,7 +52,7 @@ Steps
 5.  Select an active obligation record.
 
 
-</td></tr><tr><td id="d337896e134">
+</td></tr><tr><td id="d343781e134">
 
 **Asset operations**
 
@@ -91,7 +91,7 @@ Steps
 **Related topics**  
 
 
-[Create obligations manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-work-on-ob-tasks.md)
+[Work on obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-work-on-ob-tasks.md)
 
 [Approve or reject obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-manage-ob-tasks.md)
 

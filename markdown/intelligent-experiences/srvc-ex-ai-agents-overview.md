@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-08-04"
 reading_time_minutes: 1
-breadcrumb: [Service Exchange, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Service Exchange AI agents
@@ -21,5 +21,5 @@ This AI agent initiates the registration process and manages its early stages, i
 -   **[Registration monitor AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/srvc-ex-registration-monitor-ai-agent.md)**  
 This AI agent monitors registration task state changes, validates system configurations, and posts audit results to work notes.
 
-**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[Telecommunications, Media and Technology AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/tmt-ai-agents-overview.md)
 

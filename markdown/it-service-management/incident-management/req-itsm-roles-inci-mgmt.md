@@ -7,7 +7,7 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Incident Management plugins, Reference, Incident Management, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The ITSM Roles plugin \(com.snc.itsm.roles\) includes an additional security model. The security model provides more granular roles across ITSM applications as well as within them, allowing you flexibility in setting up access controls. The ITSM Roles plugin is available by default in new instances. Users upgrading from Madrid or earlier versions must request the plugin.
+The ITSM Roles plugin \(com.snc.itsm.roles\) includes an additional security model. The security model provides more granular roles across ITSM applications and within them, allowing you flexibility in setting up access controls. The ITSM Roles plugin is available by default in new instances. Users upgrading from Madrid or earlier versions must request the plugin.
 
 <table id="table_ayg_r2j_nhb"><thead><tr><th>
 
@@ -34,7 +34,7 @@ Adds roles
 
 </th></tr></thead><tbody><tr><td>
 
-Business Stakeholder \[com.snc.business\_stakeholder\]
+Business Stakeholder \(com.snc.business\_stakeholder\)
 
 </td><td>
 
@@ -42,7 +42,7 @@ business\_stakeholder**Note:** The business\_stakeholder role contains the sn\_i
 
 </td></tr><tr><td>
 
-ITSM Roles — Incident Management \[com.snc.itsm.roles.incident\_management\]
+ITSM Roles — Incident Management \(com.snc.itsm.roles.incident\_management\)
 
 </td><td>
 
@@ -54,7 +54,7 @@ ITSM Roles — Incident Management \[com.snc.itsm.roles.incident\_management\]
 
 </td></tr><tr><td>
 
-ITSM Roles — Problem Management \[com.snc.itsm.roles.problem\_management\]
+ITSM Roles — Problem Management \(com.snc.itsm.roles.problem\_management\)
 
 </td><td>
 
@@ -63,7 +63,7 @@ ITSM Roles — Problem Management \[com.snc.itsm.roles.problem\_management\]
 
 </td></tr><tr><td>
 
-ITSM Roles — Change Management \[com.snc.itsm.roles.change\_management\]
+ITSM Roles — Change Management \(com.snc.itsm.roles.change\_management\)
 
 </td><td>
 
@@ -72,13 +72,13 @@ ITSM Roles — Change Management \[com.snc.itsm.roles.change\_management\]
 
 </td></tr><tr><td>
 
-ITSM Roles — Request Management \[com.snc.service\_management.roles.request\_management\]
+ITSM Roles — Request Management \(com.snc.service\_management.roles.request\_management\)
 
 </td><td>
 
 -   sn\_request\_read
 
-**Note:** As there are future updates expected for the sn\_request\_read role, do not assign it to users without the business\_stakeholder role.
+**Note:** Because future updates are expected for the sn\_request\_read role, don't assign it to users who don't have the business\_stakeholder role.
 
 -   sn\_request\_write
 
@@ -87,7 +87,9 @@ ITSM Roles — Request Management \[com.snc.service\_management.roles.request\_m
 
 If you don't have an account manager, decide to delay activation after purchase, or want to evaluate the product on a subproduction instance without charge, follow these steps.
 
-**Note:** Activate the ITSM Roles plugin on a subproduction environment and test the functionality before requesting activation in the production environment. For assistance, contact the ServiceNow Professional Services team.
+**Note:**
+
+Activate the ITSM Roles plugin on a non-production environment and test the functionality before requesting activation in the production environment. For assistance, contact the ServiceNow Professional Services team.
 
 ## Procedure
 
@@ -121,7 +123,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
+ **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
 
 </td></tr><tr id="date-time"><td>
 
@@ -147,5 +149,5 @@ Several user roles are installed with activation of the ITSM Roles — Incident 
 **Related topics**  
 
 
-[List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Universal Task
 classification: universal-task
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Universal Task reference, Universal Task, Employee Service Management]
 ---
@@ -68,10 +68,10 @@ Type
 
 Type of task being assigned. The available options are:-   Submit Catalog Item
 -   Upload Documents
+-   Upload Documents
 -   Mark When Complete
 -   Checklist
 -   Collect Employee Input
--   URL
 
 </td></tr><tr><td>
 

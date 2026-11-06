@@ -1,20 +1,20 @@
 ---
 title: Configure an ACL
-description: Configure custom access control lists \(ACLs\) to secure access to new objects or to change the default security behavior.
+description: Configure custom access control list \(ACLs\) to secure access to new objects or to change the default security behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/t\_CreateAnACLRule.html
 release: australia
 product: Access Control
 classification: access-control
 topic_type: task
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Configure an ACL
 
-Configure custom access control lists \(ACLs\) to secure access to new objects or to change the default security behavior.
+Configure custom access control list \(ACLs\) to secure access to new objects or to change the default security behavior.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: security\_admin
 
 To create ACLs, you must elevate privileges to the security\_admin role.
 
-For tables that are in a different scope from the ACL record, the types of rules are limited. For Scope Master tables to derive scope and execute scoped ACLs, set the **glide.enforce\_security\_scope.&lt;scope\_name&gt;** property to **true**. This ensures ACLs in the global scope don’t match when there are scope-specific ACLs created on the relevant table. Examples are when securing data within shared application tables in the Global scope, such as sys\_attachment or sys\_question\_answer tables.
+For tables that are in a different scope from the ACL record, the types of ACLs are limited. For Scope Master tables to derive scope and execute scoped ACLs, set the **glide.enforce\_security\_scope.&lt;scope\_name&gt;** property to **true**. This ensures ACLs in the global scope don’t match when there are scope-specific ACLs created on the relevant table. Examples are when securing data within shared application tables in the Global scope, such as sys\_attachment or sys\_question\_answer tables.
 
 ## Procedure
 
@@ -52,7 +52,7 @@ Type
 
 </td><td>
 
-Select what kind of object this ACL secures. The type of object determines how the object is named and what operations are available. This field is read only after the ACL is created. If you want to change the type, you must delete the ACL and create one with the correct type.
+Select what kind of object this ACL secures. The type of object determines how the object is named and what operations are available. This field becomes read only after the ACL is created. If you want to change the type, you must delete the ACL and create one with the correct type.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Protection Policy
 
 </td><td>
 
-Select this option to set the protection policy on the ACL.
+Select this to set the protection policy on the ACL.
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ Requires role
 
 </td><td>
 
-Use this list to specify the roles a user must have to access the object. If you list multiple roles, a user with any one of the listed roles can access the object. The Requires role list appears as a related list.**Note:** Users with the admin role always pass this permissions check because the admin role automatically grants users all other roles.
+Use this list to specify the roles a user must have to access the object. If you list multiple roles, a user with any one of the listed roles can access the object. The Requires role list appears as a related list. If none of the roles you add exist on the instance, the system will deny users access to the object.**Note:** Users with the admin role always pass this permissions check because the admin role automatically grants users all other roles.
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Security Attribute Condition
 
 </td><td>
 
-Use this section to define what the user can access based on user and environment criteria. For more information, see [Security Attributes Fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/security-attribute-fundamentals.md) and [Security Attribute Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/security-attribute-scope.md).**Note:** The Condition field is case-sensitive.
+Use this section to define what the user can access based on user and environment criteria. For more information, see [Security Attributes Fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-attribute-fundamentals.md) and [Security Attribute Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-attribute-scope.md).**Note:** The Condition field is case-sensitive.
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ Data Condition
 
 </td><td>
 
-Use this [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to select the fields and values that must be true for users to access the object.**Note:** The Condition field is case-sensitive.
+Use this [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to select the fields and values that must be true for users to access the object.**Note:** The Condition field is case-sensitive
 
 </td></tr></tbody>
 </table>6.  If the **Advanced** box is checked, fill in the **Advanced Conditions** fields as necessary.
@@ -176,7 +176,7 @@ Enter a custom script describing the permissions required to access the object. 
 -   evaluate to true or false
  In either case, users only gain access to the object when the script evaluates to true and the user meets any conditions the ACL has. Both the conditions and the script must evaluate to true for a user to access the object.
 
-If there’s script in the **Script** field. This script executes even if the field isn’t displayed on the form.
+If there’s a script in the **Script** field, this script executes even if the field isn’t displayed on the form.
 
  **Note:** If the evaluated item is in a related list, **current** points to the item the related list is on, not to the current item the ACL is for. However, If the item you’re evaluating the ACL for isn’t in a related list, **current** points to the actual item.
 

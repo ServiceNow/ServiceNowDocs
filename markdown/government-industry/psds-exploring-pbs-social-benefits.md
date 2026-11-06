@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-exploring-pbs-social-benefits.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbooks, Playbooks and Solutions, Explore, Public Sector Digital Services \(PSDS\)]
 ---

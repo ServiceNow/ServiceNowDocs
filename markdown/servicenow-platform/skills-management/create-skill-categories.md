@@ -7,7 +7,7 @@ release: australia
 product: Skills Management
 classification: skills-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Skills Management, Skills Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,15 +44,15 @@ You can build your skill taxonomy from scratch or use the sample data provided w
 
 6.  Add sub-categories or skills.
 
-<table id="choicetable_fnj_ytd_hhb"><thead><tr><th align="left" id="d508218e132">
+<table id="choicetable_fnj_ytd_hhb"><thead><tr><th align="left" id="d513026e132">
 
 To add
 
-</th><th align="left" id="d508218e135">
+</th><th align="left" id="d513026e135">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d508218e141">
+</th></tr></thead><tbody><tr><td id="d513026e141">
 
 **Sub-categories**
 
@@ -62,7 +62,7 @@ Do this
 -   In the **Name** field, enter a unique name for the category.
 
 
-</td></tr><tr><td id="d508218e168">
+</td></tr><tr><td id="d513026e168">
 
 **Skills**
 

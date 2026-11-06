@@ -1,5 +1,5 @@
 ---
-title: Domain Separation and Discovery
+title: Domain separation and Discovery
 description: Domain separation is supported in Discovery. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/c\_DiscoveryDomainSeparation.html
@@ -7,12 +7,12 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-15"
 reading_time_minutes: 4
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Domain Separation and Discovery
+# Domain separation and Discovery
 
 Domain separation is supported in Discovery. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
@@ -31,19 +31,19 @@ For more information on support levels, see [Application support for domain sepa
 
 
 
-Service Providers \(SPs\) use domain separation to segregate data for each customer. Users in a given domain have visibility only to the data in their own domains or in child domains. SPs typically control the top-level domain, which gives them visibility to data associated with all domains. Given that Discovery domain separation support is considered **Standard** there is no delegated administration to the child domains. The SPs must retain administrative control.
+SPs use domain separation to segregate data for each customer. Users in a given domain have visibility only to the data in their own domains or in child domains. SPs typically control the top-level domain, which gives them visibility to data associated with all domains. Given that Discovery domain separation support is considered **Standard**, there is no delegated administration to the child domains. The SPs must retain administrative control.
 
 ## How domain separation works in Discovery
 
-Multiple domains can be supported by a single MID Server. In releases prior to Kingston, each MID Server could support only a single domain. In newer releases, segregating domains by MID Server is useful when the domain is large, or when the domain's resources are held in a customer's data center rather than the SP's. For Discovery on MID Servers supporting a single domain, the discovered CIs are assigned to the domain of the MID User used to authenticated against the ServiceNow instance. In multi-domain MID Servers, the discovered CIs are assigned to the domain of the user who created the Discovery schedule.
+A single MID Server can support multiple domains. Segregating domains by MID Server is useful when the domain is large. It is also useful when the domain's resources are held in a customer's data center rather than the SP's. For Discovery on MID Servers supporting a single domain, the discovered CIs are assigned to the domain of the MID User used to authenticate against the ServiceNow instance. In multi-domain MID Servers, the discovered CIs are assigned to the domain of the user who created the Discovery schedule.
 
-Discovery implements data domain separation through the MID Server by impersonating the MID Server user during sensor processing. Discovery uses the domain, that the MID Server user is in, to determine which domain the discovered data should be put into. Discovery configuration information, including classifiers, identifiers, probes, and sensors, is not domain separated.
+Discovery implements data domain separation through the MID Server by impersonating the MID Server user during sensor processing. Discovery uses the domain, that the MID Server user is in, to determine which domain the discovered data should be put into. Discovery configuration information, including classifiers, identifiers, probes, and sensors, isn't domain separated.
 
-Service providers generally use IP-based Discovery. In cases where the SP controls the network addressing, they divide the address space among their customers to ensure that each domain has a distinct IP address space. The SP assigns one or more subnets to a customer or domain and creates Discovery schedules for those subnets.
+SPs generally use IP-based discovery. In cases where the SP controls the network addressing, they divide the address space among their customers to ensure that each domain has a distinct IP address space. The SP assigns one or more subnets to a customer or domain and creates Discovery schedules for those subnets.
 
 If the SP is remotely managing their customer's data center, there will often be some overlap between address spaces different customers use. In these cases, the SP can use network address translation \(NAT\) on the IP range and run a Discovery schedule.
 
-Once the CIs are assigned to the correct domain, the visibility and read/write access control are provided by the platform through the domain hierarchy. Schedules are visible to users in their respective domains. Cross-domain schedule visibility is not possible, except for the SP who controls the parent domain and has visibility to all domains.
+Once the CIs are assigned to the correct domain, the visibility and read/write access control are provided by the platform through the domain hierarchy. Schedules are visible to users in their respective domains. Cross-domain schedule visibility isn't possible, except for the SP who controls the parent domain and has visibility to all domains.
 
 ## Domain separation for MID Server files
 
@@ -55,7 +55,7 @@ You can create versions of these specific MID Server policy records that only a 
 
 By default, all records in these tables are members of the global domain. A user can override the default global domain and create a version of these policies for use in the user's own domain.
 
-**Note:** Attachments on MIB or JAR file records might not appear as they did in a non-domain separated environment. The attachments do not appear because the **Attachments** \[sys\_attachment\] table is data separated. When data is separated between domains, a record in a child domain cannot access records in a parent domain.
+**Note:** Attachments on MIB or JAR file records might not appear as they did in a non-domain separated environment. The attachments don't appear because the **Attachments** \[sys\_attachment\] table is data separated. When data is separated between domains, a record in a child domain can't access records in a parent domain.
 
 See [MID Server domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerDomainSeparation.md) for instructions on setting up domain separation through the MID Server.
 

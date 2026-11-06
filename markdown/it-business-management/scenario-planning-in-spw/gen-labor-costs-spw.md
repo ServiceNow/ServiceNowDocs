@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -36,6 +36,6 @@ When the distribution of effort for a resource assignment is adjusted without ch
 
 5.  Select **Generate** on the Generate labor costs confirmation window.
 
-    **Note:** Alternatively, you can activate a scheduled job to generate labor costs at the required cadence. For more information, see [Activate scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md).
+    **Note:** Alternatively, you can activate a scheduled job to generate labor costs at the required cadence. For more information, see [Scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md).
 
 

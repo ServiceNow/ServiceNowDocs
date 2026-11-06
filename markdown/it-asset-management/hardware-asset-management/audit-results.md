@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -34,7 +34,7 @@ The following related lists show asset information:
 -   Scanned Assets: Shows a list of all assets that are scanned during the audit. The list is updated each time scans are submitted from the ServiceNow Agent app.
 -   Excluded Assets: Shows a list of all assets scanned as part of the audit which are excluded from Hardware Asset Management.
 
-**Important:** If you have set the **sn\_hamp.migrate\_hamaudit** system property value to **true** to enable audit enhancements in your ServiceNow instance, the audit results are populated from the Asset Audits \[sn\_itam\_common\_asset\_audit\] table.
+**Important:** If you have set the **sn\_hamp.smigrate\_hamaudit** system property value to **true** to enable audit enhancements in your ServiceNow instance, the audit results are populated from the Asset Audits \[sn\_itam\_common\_asset\_audit\] table.
 
 <table id="table_i33_kdp_13c"><thead><tr><th>
 

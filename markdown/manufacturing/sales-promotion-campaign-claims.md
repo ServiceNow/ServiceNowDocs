@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/sales-promotion-campaign-claims.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data model, Reference, Manufacturing Commercial Operations]
 ---
@@ -35,7 +35,7 @@ The sales promotion supports bulk import functionality, where the dealer sales a
 To learn more about the Business Location Service Portal, see [Using the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-blsp-portal.md).
 
 -   **[Sales Promotion Campaign Claim tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/sales-promotion-campaign-claim-table.md)**  
-This section explains the sales promotion campaign claims tables in Manufacturing Commercial Operations.
+The sales promotion campaign claim tables store the promotion, case, and claim details used to manage sales promotion campaigns in Manufacturing Commercial Operations.
 
 **Parent Topic:**[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/data-model.md)
 

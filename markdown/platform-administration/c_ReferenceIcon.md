@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_ReferenceIcon.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Decorations, Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Decorations, Reference field type, Reference, Field administration,
 
 On forms, the reference icon \(\[Omitted image "IconReferenceUI15.png"\] Alt text: Core UI reference icon\) appears by populated reference fields. Clicking the icon opens a read-only preview of the referenced record.
 
-\[Omitted image "image.referenced-record-b20"\] Alt text: Pointing to the reference icon, which looks like the letter I in a circle, opens a preview of the record over the form
+\[Omitted image "ReferencedRecordUI15.png"\] Alt text: Pointing to the reference icon, which looks like the letter I in a circle, opens a preview of the record over the form
 
 The preview remains open until you click somewhere else on the form.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/na-ai-agents.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Enable AI experiences]
+breadcrumb: [AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # AI Agent Studio \(legacy\)
@@ -32,7 +32,7 @@ Select a tile to get started with AI agents.
 
 </td><td>
 
-[Create an AI agent\[Omitted image "bus-virtual-agent.svg"\] Alt text:Create your own custom AI agents conversationally or manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-next-best-action-agent.md)
+[Create an AI agent\[Omitted image "bus-virtual-agent.svg"\] Alt text:Create your own custom AI agents with advanced multi-agent reasoning frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-next-best-action-agent.md)
 
 </td></tr><tr><td>
 
@@ -68,5 +68,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-products.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-products.md).
 

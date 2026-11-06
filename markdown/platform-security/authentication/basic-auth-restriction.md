@@ -7,15 +7,17 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-06-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [basic authentication restriction, basic auth, enforcement, snc\_basic\_auth\_api\_access]
-breadcrumb: [Basic authentication, API Authentication, Authentication, Access Management]
+breadcrumb: [Basic authentication, API authentication, Authentication, Access Management]
 ---
 
 # Basic authentication restriction
 
 Basic authentication restriction is a security feature that controls which accounts can use basic authentication on a ServiceNow instance. Administrators can review identified users and assign per-account decisions before enforcement begins.
+
+**Important:** Basic authentication is being prepared for future deprecation. Starting with the Brazil release, migrate your integrations to OAuth 2.0, mutual TLS \(mTLS\), or federated token-based authentication. Basic authentication remains supported until a future release, subject to the restrictions described in this topic. For guidance on identifying and migrating these integrations, see the [KB3220405](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3220405) article.
 
 The Basic Auth Restriction page provides guidance on available actions and controls the enforcement configuration. Administrators are prompted to review the identified users and take action before the enforcement period begins.
 
@@ -48,7 +50,7 @@ Administrators should also review and adjust the start of the enforcement period
 
 ## How enforcement works
 
-Once enforcement is enabled, basic authentication requests are blocked unless the requesting account matches one of the following:
+When enforcement is enabled, basic authentication requests are blocked unless the requesting account matches one of the following:
 
 -   Accounts having Web Services Access Only \(WSAO\).
 -   Accounts presenting a valid MFA one-time password.
@@ -64,10 +66,10 @@ The Basic Auth Restriction page includes the following configurable settings:
 
 -   **Feature toggle**
 
-    A feature toggle for the Basic Authentication restriction feature on the instance. When unchecked \(false\), no enforcement occurs regardless of the value of `glide.authenticate.basic_auth.restriction.enforce`. Use this as an emergency disable to halt the feature without changing other settings.
+    A feature toggle for the Basic Authentication restriction feature on the instance. When cleared \(false\), no enforcement occurs regardless of the value of `glide.authenticate.basic_auth.restriction.enforce`. Use this to turn off the feature in an emergency without changing other settings.
 
 -   **Enforcement toggle**
 
-    Controls whether enforcement is active. When unchecked \(false\), accounts using basic authentication are recorded but no requests are blocked — tracking mode. When checked \(true\), basic authentication requests are blocked unless the requesting account is on the allow-list — enforcing mode. Has no effect when the feature toggle is set to false.
+    Controls whether enforcement is active. When cleared \(false\), accounts using basic authentication are recorded but no requests are blocked — tracking mode. When selected \(true\), basic authentication requests are blocked unless the requesting account is on the allow-list — enforcing mode. Has no effect when the feature toggle is set to false.
 
 

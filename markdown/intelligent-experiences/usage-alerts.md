@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-08-04"
 reading_time_minutes: 1
 keywords: [Usage alerts, skill usage alerts, email notification for skill usage]
-breadcrumb: [AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Usage alerts

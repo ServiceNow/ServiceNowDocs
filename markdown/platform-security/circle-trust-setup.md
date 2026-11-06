@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/circle-trust-setup.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Code Signing, Platform Security]
 ---
@@ -68,4 +68,6 @@ The first step in establishing the relationship is to establish the trust founda
 ## What to do next
 
 Export the certificate to production. See [Prepare Circle of Trust certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/create-updateset-nonprod.md) for details.
+
+**Parent Topic:**[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/config-code-signing.md)
 

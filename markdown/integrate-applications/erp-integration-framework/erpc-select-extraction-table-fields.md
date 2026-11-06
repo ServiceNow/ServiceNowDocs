@@ -1,6 +1,6 @@
 ---
 title: Select fields for an extraction table in Zero Copy Connector for ERP
-description: Add or remove fields for an extraction table in Zero Copy Connector for ERP\(Enterprise Resource Planning\). For example, you may want to remove fields with sensitive information, such as birthdays.
+description: Add or remove fields for an extraction table in Zero Copy Connector for ERP \(Enterprise Resource Planning\). For example, you may want to remove fields with sensitive information, such as birthdays.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erpc-select-extraction-table-fields.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Extracting and transforming data, Configuring, Zero Copy Connector 
 
 # Select fields for an extraction table in Zero Copy Connector for ERP
 
-Add or remove fields for an extraction table in Zero Copy Connector for ERP\(Enterprise Resource Planning\). For example, you may want to remove fields with sensitive information, such as birthdays.
+Add or remove fields for an extraction table in Zero Copy Connector for ERP \(Enterprise Resource Planning\). For example, you may want to remove fields with sensitive information, such as birthdays.
 
 ## Before you begin
 

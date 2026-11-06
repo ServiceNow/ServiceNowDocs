@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/launch-aia-eval.html
 release: australia
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [agentic evaluation, automated evaluation, automatic evaluation, batch testing, test scenarios, test objectives]
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Launch an automated evaluation of an agentic AI asset

@@ -1,20 +1,20 @@
 ---
 title: Attribute Mapping references
-description: The attribute mappings enables you to use the attributes as a single source of resource to the ServiceNow table fields.
+description: The attribute mappings enable you to use the attributes as a single source of resource to the ServiceNow table fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/attribute-mapping-references.html
 release: australia
 product: Identity
 classification: identity
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a SCIM Provider Resource Mapping, SCIM Client, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
 
 # Attribute Mapping references
 
-The attribute mappings enables you to use the attributes as a single source of resource to the ServiceNow table fields.
+The attribute mappings enable you to use the attributes as a single source of resource to the ServiceNow table fields.
 
 ## Attribute
 
@@ -58,7 +58,7 @@ You can also dot-walk using the **Database Field Name**. For example, the **depa
 
 \[Omitted image "attribute-dot-mapping.png"\] Alt text: Attribute - Dot walk
 
-Here the Database Table is **User** and the Database field Name is **Department Name**.
+Here the Database Table is **User** and the Database Field Name is **Department Name**.
 
 \[Omitted image "attribute-departmentname.png"\] Alt text: Attribute - Department Name
 
@@ -68,21 +68,21 @@ The default value is passed to the SCIM Provider if direct attribute mapping of 
 
 In the case of a hard-coded value, the database table name and field name should be **None**.
 
-For example, the primary sub-attribute value of work email can be hard coded as **true**.
+For example, the primary sub-attribute value of work email can be hard-coded as **true**.
 
 \[Omitted image "attribute-default-value.png"\] Alt text: Attribute Default Value
 
 ## Script
 
-The script is used to fetch the attribute value. The return type of the script should be always a string, or a JSON converted as a string. The output of the script should be in the proper format as expected by the provider for that attribute.
+The script is used to fetch the attribute value. The return type of the script should be a string, or a JSON converted as a string. The output of the script should be in the proper format as expected by the provider for that attribute.
 
 The following is a sample script for a multi-valued attribute.
 
 \[Omitted image "attribute-script.png"\] Alt text: Attribute Script
 
-The output of the script should have a stringified JSON Array.
+The output of the script should have a stringified JSON array.
 
-The following is a sample Script of a simple-valued Attribute.
+The following is a sample script of a simple-valued Attribute.
 
 \[Omitted image "attribute-employeenumberscript.png"\] Alt text: Attribute Employee Number - Run script
 

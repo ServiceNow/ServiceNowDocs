@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-all-customer-service-apps.html
 release: australia
 topic_type: task
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [install CSM, activate CSM]
 breadcrumb: [Getting started with Customer Service Management, Set up your environment, Configure, Customer Service Management]
@@ -27,9 +27,9 @@ A ServiceNow Store product groups multiple Store applications into one installab
 -   See which apps they're entitled to, based on their licenses.
 -   Choose which apps to include at install time.
 
-CSM capabilities are delivered through many individual applications. Currently, customers must locate and install each app one at a time through the ServiceNow Store or Application Manager — a fragmented experience that increases the risk of missing apps. Because of the volume of apps, customers also frequently miss newly released CSM applications they're entitled to use.
+CSM capabilities are delivered through many individual applications. Currently, customers must locate and install each app one at a time through the ServiceNow Store or Application Manager. This creates a fragmented experience that increases the risk of missing apps. Because of the volume of apps, customers also frequently miss newly released CSM applications they're entitled to use.
 
-The [Install all CSM Apps](https://store.servicenow.com/store/product/04085a37938bba501caaf76e1dba10fa) Store product consolidates the experience: customers see every CSM app they qualify for in one list and install them together.
+The [Install all CSM Apps](https://store.servicenow.com/store/product/04085a37938bba501caaf76e1dba10fa) Store product consolidates the experience. Customers see every CSM app they qualify for in one list and install them together.
 
 ## Procedure
 

@@ -7,8 +7,8 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -26,15 +26,15 @@ Role required: it\_project\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d196717e85">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d203113e85">
 
 Choice
 
-</th><th align="left" id="d196717e88">
+</th><th align="left" id="d203113e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d196717e94">
+</th></tr></thead><tbody><tr><td id="d203113e94">
 
 **Using list actions**
 
@@ -45,7 +45,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d196717e124">
+</td></tr><tr><td id="d203113e124">
 
 **Using related links**
 
@@ -56,7 +56,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d196717e151">
+</td></tr><tr><td id="d203113e151">
 
 **Activate a scheduled job**
 
@@ -97,6 +97,10 @@ For a description of the field names, see [Scheduled Script Execution Form](http
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

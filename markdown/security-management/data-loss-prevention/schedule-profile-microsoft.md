@@ -7,7 +7,7 @@ release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a new incident profile for Microsoft DLP integration, Data Loss Prevention Incident Response with Microsoft, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---

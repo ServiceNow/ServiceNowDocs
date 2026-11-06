@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [saved searches, load search, modify search, manage searches, search ownership, update search values, discard changes, search results, Results over time chart, column filters, assignment group access]
 breadcrumb: [Review alert-related logs on the Log Viewer, Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/schedule-execute-job-update-records.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Updating records safely in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -30,15 +30,15 @@ Consider scheduling the update job to run during non-business hours to minimize 
 
 3.  Determine whether to schedule the update job for a later time or run it right away.
 
-<table id="choicetable_vjl_krf_vtb"><thead><tr><th align="left" id="d267267e88">
+<table id="choicetable_vjl_krf_vtb"><thead><tr><th align="left" id="d268400e88">
 
 Option
 
-</th><th align="left" id="d267267e91">
+</th><th align="left" id="d268400e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d267267e97">
+</th></tr></thead><tbody><tr><td id="d268400e97">
 
 **Schedule the update job**
 
@@ -49,7 +49,7 @@ Description
 3.  Select **Update**. Note that you must select **Update** to successfully schedule the job.
 
 
-</td></tr><tr><td id="d267267e127">
+</td></tr><tr><td id="d268400e127">
 
 **Run the update job now**
 

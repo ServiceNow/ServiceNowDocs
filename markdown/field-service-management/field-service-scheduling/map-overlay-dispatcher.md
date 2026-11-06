@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -30,15 +30,15 @@ Role required: wm\_dispatcher
 
 4.  Choose from the following options.
 
-<table id="choicetable_rtg_3ss_mhc"><thead><tr><th align="left" id="d36561e104">
+<table id="choicetable_rtg_3ss_mhc"><thead><tr><th align="left" id="d37920e104">
 
 Option
 
-</th><th align="left" id="d36561e107">
+</th><th align="left" id="d37920e107">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d36561e113">
+</th></tr></thead><tbody><tr><td id="d37920e113">
 
 **Traffic**
 
@@ -46,7 +46,7 @@ Result
 
 Displays real‑time traffic conditions on the map.
 
-</td></tr><tr><td id="d36561e122">
+</td></tr><tr><td id="d37920e122">
 
 **Agent markers**
 
@@ -54,7 +54,7 @@ Displays real‑time traffic conditions on the map.
 
 Displays agent locations on the map.
 
-</td></tr><tr><td id="d36561e131">
+</td></tr><tr><td id="d37920e131">
 
 **Task markers**
 
@@ -62,7 +62,7 @@ Displays agent locations on the map.
 
 Displays task locations on the map.
 
-</td></tr><tr><td id="d36561e140">
+</td></tr><tr><td id="d37920e140">
 
 **Event markers**
 

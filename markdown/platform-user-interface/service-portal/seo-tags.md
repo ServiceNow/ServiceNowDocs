@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Improving search engine optimization for portals, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -179,7 +179,7 @@ Table field
 
 </td><td>
 
-Select a field from the table defined in the **Table** field. This field is used to generate the value of the content tag.**Important:** To support SEO, ensure that the referenced table field is public. For more information on granting access to a table field, see Create an ACL rule.
+Select a field from the table defined in the **Table** field. This field is used to generate the value of the content tag.**Important:** To support SEO, ensure that the referenced table field is public. For more information on granting access to a table field, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md).
 
 </td></tr></tbody>
 </table>        If more than one content variables match a variable defined in the **Content** field of the meta tag record, the record with the earliest Created date is used.

@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-08-07"
+last_updated: "2026-10-29"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, create, configure, erp, system]
 breadcrumb: [Working with ERP systems, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -37,13 +37,15 @@ Beginning with the Australia Patch 8 release \(September 2026\), you can select 
 
 3.  Select **New**.
 
-4.  On the form, fill in the fields.
+4.  On the form, fill in the **ERP system** and **Short description**.
+
+5.  Select **Save**.
+
+6.  Fill in the remaining fields.
 
     \[Omitted image "erpc-system-new-ys2.png"\] Alt text: Zero Copy Connector for ERP new ERP system form.
 
     For a description of the field values, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
-
-5.  Select **Save**.
 
 
 ## Result

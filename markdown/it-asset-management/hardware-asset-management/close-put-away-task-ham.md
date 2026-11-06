@@ -7,10 +7,10 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [close asset put away task, asset put away task]
-breadcrumb: [Manage asset put away for stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage asset put away using the Hardware Asset Workspace, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Close an Asset put away task
@@ -36,15 +36,15 @@ You can bulk close selected Asset put away tasks that are open and assigned to y
 
 2.  Open the put away task either from the Inventory overview section or the **All Stockrooms** tab.
 
-<table id="choicetable_t5y_1ct_xfc"><thead><tr><th align="left" id="d161016e107">
+<table id="choicetable_t5y_1ct_xfc"><thead><tr><th align="left" id="d163154e107">
 
 Option
 
-</th><th align="left" id="d161016e110">
+</th><th align="left" id="d163154e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d161016e116">
+</th></tr></thead><tbody><tr><td id="d163154e116">
 
 **From the Inventory overview section**
 
@@ -54,7 +54,7 @@ Description
 2.  Select the **Number** link to open the Asset put away task.
 
 
-</td></tr><tr><td id="d161016e140">
+</td></tr><tr><td id="d163154e140">
 
 **From the __All Stockrooms__ tab.**
 

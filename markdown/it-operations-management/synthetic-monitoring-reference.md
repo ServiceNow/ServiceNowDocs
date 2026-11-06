@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/synthetic-monitoring-reference.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
@@ -29,7 +29,7 @@ Read these topics to understand how to fix common issues in synthetic monitoring
 -   **[Synthetic monitoring Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/ref-synthetic-monitoring-landing-page.md)**  
 Read the following to understand what is displayed on the Synthetic monitoring landing page where you can view aggregate information about your synthetic monitors.
 -   **[Details page of a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/monitor-details-page.md)**  
-Use the details page of a synthetic monitor to view test results, monitor status, and configuration settings.
+Read the following to understand how to use the Details page of a synthetic monitor to view the results of its tests.
 
 **Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-health-landing-page.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -32,7 +32,7 @@ You can navigate to a published RAM and select **Open reporting view** to access
 
 \[Omitted image "risk-reporting-view.png"\] Alt text: Open reporting view button the published RAM.
 
-You can expand individual records to review detailed factor responses, scores, and other assessment information.
+You can expand individual records to review detailed factor responses, scores, and other assessment information.\[Omitted image "risk-reporting-view-expanded.png"\] Alt text: View of expanded risk assessment records.
 
 **Note:** Automatic creation of Reporting views isn’t supported on Xanadu. For instructions on creating them manually, refer to [KB2547071](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2547071).
 

@@ -1,22 +1,22 @@
 ---
 title: Capturing information from a user in a WhatsApp chat conversation
-description: Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from a requester in a WhatsApp chat conversation.
+description: Use the collection of input controls provided by the Assistant Designer to prompt and capture information from a requester in a WhatsApp chat conversation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/messg-whatsapp-capture-info.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using, Conversational Integration with WhatsApp \(powered by Twilio\), Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Using, WhatsApp \(powered by Twilio\), Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Capturing information from a user in a WhatsApp chat conversation
 
-Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from a requester in a WhatsApp chat conversation.
+Use the collection of input controls provided by the Assistant Designer to prompt and capture information from a requester in a WhatsApp chat conversation.
 
-Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. For more information, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+The Assistant Designer Asset library contains a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. For more information, see [Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 ## User notification consent
 
@@ -29,7 +29,7 @@ There are two ways for users to grant consent to receive notifications:
 
 ## User input controls
 
-The Conversational Integration with WhatsApp \(powered by Twilio\) application supports the following user input controls in Virtual Agent Designer.
+The Conversational Integration with WhatsApp \(powered by Twilio\) application supports the following user input controls in Assistant Designer.
 
 |User input control|Description|
 |------------------|-----------|
@@ -42,7 +42,7 @@ The Conversational Integration with WhatsApp \(powered by Twilio\) application s
 
 For more information about configuring user input controls, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-user-inputs.md).
 
-The Conversational Integration with WhatsApp \(powered by Twilio\) application supports the following bot responses in Virtual Agent Designer.
+The Conversational Integration with WhatsApp \(powered by Twilio\) application supports the following bot responses in Assistant Designer.
 
 |Bot response|Description|
 |------------|-----------|

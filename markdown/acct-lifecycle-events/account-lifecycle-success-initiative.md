@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-success-initiative.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a success blueprint manually, Create a success blueprint, Manage engagements, Customer success, Use, Customer Success Management]
 ---
@@ -26,7 +26,7 @@ Success initiatives are a set of planned activities or tasks that a provider and
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to the **Customer Success** &gt; **All Initiatives** and select **New** to launch the playbook.
 
@@ -205,6 +205,9 @@ You can perform the following actions:
 
     **Note:** You can send emails only to the team members associated with the account.
 
+
+-   **[Summarize a success initiative using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/now-assist-tmt-summarize-success-init.md)**  
+Generate a summary from a success initiative record and all associated success tasks.
 
 **Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
 

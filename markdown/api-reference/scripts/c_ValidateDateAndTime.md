@@ -1,5 +1,5 @@
 ---
-title: Validation script use case - Date and time
+title: Validation script use cases
 description: To validate the input of all date/time fields, you can use the following in a validation script \( System Definition Validation Scripts \).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_ValidateDateAndTime.html
@@ -7,12 +7,12 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Useful scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Example scripts, Scripting, API implementation, API implementation and reference]
 ---
 
-# Validation script use case - Date and time
+# Validation script use cases
 
 To validate the input of all date/time fields, you can use the following in a validation script \(**System Definition** &gt; **Validation Scripts**\).
 
@@ -20,7 +20,7 @@ Because the date/time format is hard-coded in this script, it must match your in
 
 Set the validation script's type to "`glide_date_time`". Then, with this validation script, if a user enters an incorrect format in a date/time field, they will receive an error message.
 
-```
+```javascript
 function validate (value){ 
  if (!value) {
     return true;
@@ -30,7 +30,7 @@ function validate (value){
 }
 ```
 
-For a comprehensive use case, see [Restricting record access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ExScptDftBfrQryBsnRu.md).
+For a comprehensive use case, see [Restricting record access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/useful-business-rules.md).
 
-**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/usefulScripts.md)
+**Parent Topic:**[Example scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/usefulScripts.md)
 

@@ -7,16 +7,14 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Server-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Setting a GlideRecord variable to 'NULL'
 
 GlideRecord variables \(including current\) are initially null in the database. Setting these back to an empty string, a space, or the JavaScript null value will not result in a return to this initial state.
-
-**Note:** This functionality requires a knowledge of JavaScript.
 
 To set it back to the initial state, simply set the value to 'NULL'. Note that the update\(\) function does not run on the current object but rather on the record. The object displays the initial value until it is called again from the record.
 
@@ -24,7 +22,7 @@ To set it back to the initial state, simply set the value to 'NULL'. Note that t
 
 ## Example 1
 
-```
+```javascript
 var grIncident = new GlideRecord('incident');
 grIncident.addNotNullQuery("assigned_to");
 grIncident.query();
@@ -39,10 +37,10 @@ if (grIncident.next()) {
 
 ## Example 2 \(Business Rule\)
 
-```
+```javascript
 current.u_affected_value = 'NULL';
 current.update();
 ```
 
-**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ServerScripting.md)
+**Parent Topic:**[Writing server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/server-side-scripting-overview.md)
 

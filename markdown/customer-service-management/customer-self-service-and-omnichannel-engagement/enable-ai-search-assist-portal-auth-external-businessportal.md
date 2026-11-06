@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Search Assist for authenticated external users, Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [AI Search Assist for authenticated external users, Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure AI Search Assist for authenticated external users in the Business and Consumer Portal
@@ -45,9 +45,4 @@ Role required: admin
 
 
 **Parent Topic:**[AI Search Assist for authenticated external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-for-business-portal-auth-external.md)
-
-**Related topics**  
-
-
-[Configure AI Search Assist Actions for authenticated external users in Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-assist-actions-businessportal-auth-ext.md)
 

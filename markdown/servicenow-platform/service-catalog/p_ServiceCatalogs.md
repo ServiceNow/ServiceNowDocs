@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,6 +26,8 @@ You can direct users to a specific catalog via a URL to a module in that particu
 Multiple service catalogs enable your organization to offer different sets of services to different teams within the organization, such as IT services, human resources, and facilities management.
 -   **[Tables provided with multiple service catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_UpgradToMultpleServiceCats.md)**  
 Administrators and catalog administrators must consider these points before they upgrade to multiple service catalogs.
+-   **[Migrating from Core UI to Angular portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/migrate-core-ui-to-angular-catalog-exp.md)**  
+Administrators on upgraded instances must install the `com.glideapp.servicecatalog.ui16_portal` plugin to migrate from the Core UI catalog experience to the Angular portal.
 
 **Parent Topic:**[Configuring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/configuring-service-catalog.md)
 

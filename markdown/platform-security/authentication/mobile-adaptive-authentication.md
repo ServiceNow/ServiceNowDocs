@@ -1,5 +1,5 @@
 ---
-title: Adaptive authentication for Trusted Mobile apps
+title: Adaptive authentication for Trusted mobile apps
 description: Access your ServiceNow from untrusted networks by using the Now Mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mobile-adaptive-authentication.html
@@ -7,20 +7,20 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Adaptive authentication, Authentication, Access Management]
 ---
 
-# Adaptive authentication for Trusted Mobile apps
+# Adaptive authentication for Trusted mobile apps
 
 Access your ServiceNow from untrusted networks by using the Now Mobile app.
 
-Adaptive authentication for Trusted Mobile apps enables users to access the ServiceNow instance using the Now Mobile app. The instance is protected behind a trusted IP network boundary.
+Adaptive authentication for Trusted mobile apps enables users to access the ServiceNow instance using the Now Mobile app. The instance is protected behind a trusted IP network boundary.
 
 The following are some of the scenarios where you need access to the instance while you are outside your network.
 
-As an employee, you require access the Now Mobile app and Employee Service Center \(portal\) from outside the network. The Trusted mobile app filter enables you to identify the incoming request originating from a trusted Now Mobile app that is linked to a user account.
+As an employee, you need access to the Now Mobile app and Employee Service Center \(portal\) from outside the network. The Trusted mobile app filter enables you to identify the incoming request originating from a trusted Now Mobile app that is linked to a user account.
 
 As an admin, you can configure the policy. The policy enables users to register their mobile devices and access the instance on a trusted network.
 

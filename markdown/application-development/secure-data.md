@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/secure-data.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Define and build the data model, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Define and build the data model, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Secure data
@@ -18,7 +18,7 @@ Use access control rules to configure table and column-level security in the Ser
 
 Self-Paced Training: [Securing Applications](https://developer.servicenow.com/dev.do#!/learn/courses/rome/app_store_learnv2_securingapps_rome_securing_applications)
 
-Documentation: [Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md)
+Documentation: [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md)
 
 When considering security:
 

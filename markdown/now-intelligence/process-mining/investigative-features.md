@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [With Process Configuration Builder, Creating process configuration, Use, Process Mining, Platform Analytics]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
     -   Automated root cause analysis
     -   Cluster analysis
-    -   Work notes analysis
+    -   Transition work notes analysis
     \[Omitted image "invest-features-config.png"\] Alt text: Investigative features in process configuration
 
 4.  Add fields that you want for automated root cause analysis in the **Automated root cause analysis** field.
@@ -79,9 +79,9 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
     Select the help icon \(?\) to view details about how and why these details must be set. You also get a list of resources.
 
-    For information on running work notes analysis, see [Perform work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/perform-worknotes-analysis.md).
+    For information on running transition work notes analysis, see [Perform work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/perform-worknotes-analysis.md).
 
-    **Note:** Work notes analysis isn’t available unless it’s set up in the process configuration.
+    **Note:** Transition work notes analysis isn’t available unless it’s set up in the process configuration.
 
     You can use the AI for work notes analysis even with 5-50 eligible work notes. If there are less than 25 eligible work notes, clustering isn’t performed. It puts all the work notes into one LLM call. Otherwise, clustering is performed before calling the LLM.
 

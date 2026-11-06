@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-mcp-server-bulk-alert-actions.html
 release: australia
 topic_type: task
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Alert actions, Use the ITOM MCP Server Console, AI in ITOM, IT Operations Management]
 ---

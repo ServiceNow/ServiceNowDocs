@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-servicenowottoforcontractmanagementpro-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
@@ -514,7 +514,7 @@ Australia
 
 -   **Now LLM Service**
 
-Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 
 </td></tr></tbody>
@@ -813,6 +813,8 @@ Australia
 -   Use AI powered conversational search to query contract documents using natural language and dialogue-driven queries, making it easier to find relevant information.
 
  See [AI capabilities in Contract Management Pro](https://www.servicenow.com/docs/access?context=cncore-exp-now-assist-land&family=australia&ft:locale=en-US) for more information.
+
+ **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-xanadu-australia/rn-combined-intro.md)

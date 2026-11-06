@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -123,7 +123,7 @@ Select **Public** to make the resource block operation available from the catalo
 
         Mappings specify where to pull the information in the system. You do not have to change the mapping values except for **ResourceScript** type parameters, where you must enter the expression.
 
-    6.  In the **Default Value** column, specify a value to use when the user does not provide a value or when the **Datasource Value** is empty.
+    6.  In the **Default Value** column, specify a value to use when no value is passed or entered in **Datasource Value**.
 
     7.  Select **Create Form** to make this attribute available in the order form that the user sees when trying to provision the stack item.
 

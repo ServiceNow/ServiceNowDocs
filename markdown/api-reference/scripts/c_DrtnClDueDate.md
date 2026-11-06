@@ -1,26 +1,26 @@
 ---
-title: Using DurationCalculator to calculate a due date
-description: Using the DurationCalculator script include, you can calculate a due date, using either a simple duration or a relative duration base on schedules.A simple duration is the number of seconds between two date times.Relative duration is very similar to simple duration except a piece of script is used to determine what parts of a day to remove from the difference calculation.
+title: Calculating a due date with DurationCalculator
+description: Using the DurationCalculator script include, you can calculate a due date with either a simple duration or a relative duration base on schedules.A simple duration is the number of seconds between two date times.Relative duration is very similar to simple duration except a piece of script is used to determine what parts of a day to remove from the difference calculation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_DrtnClDueDate.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Server-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
-# Using DurationCalculator to calculate a due date
+# Calculating a due date with DurationCalculator
 
-Using the DurationCalculator script include, you can calculate a due date, using either a simple duration or a relative duration base on schedules.
+Using the DurationCalculator script include, you can calculate a due date with either a simple duration or a relative duration base on schedules.
 
 The following script demonstrates how to use the global API [DurationCalculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_DurationCalculatorAPI.md) to calculate a due date. The first part of the script illustrates how to set a start datetime using the [setStartDateTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_DurationCalculatorAPI.md) method and then use the [calcDuration\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_DurationCalculatorAPI.md) method to determine a due date that is "x" amount of continuous time \(seconds\) from the specified start datetime. The second half of the script illustrates how to use DurationCalculator to calculate a due date based on a schedule. Schedules enable you to apply a "filter" on future time, such as only including the days in a work week within the calculation. For example, if you apply a schedule "weekdays" \(which only includes Monday through Friday\) to your duration calculation, and the start datetime is Friday at 5:00 pm, when you add a duration of two days, your due date would be Tuesday at 5:00 pm. If you did not use a schedule, your due date would be Sunday at 5:00 pm. For additional information on schedules, see [Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseSchedules.md).
 
 This script can be cut and pasted into the Scripts Background page and run as is. It can also serve as an example for authoring business rules, UI actions, or used any other place that server-side script can be authored.
 
-```
+```javascript
 /**
  * Demonstrate the use of DurationCalculator to compute a due date.
  * 
@@ -133,7 +133,7 @@ function addSchedule(durationCalculator){
 }
 ```
 
-**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ServerScripting.md)
+**Parent Topic:**[Writing server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/server-side-scripting-overview.md)
 
 ## Using DurationCalculator to compute a simple duration
 
@@ -143,7 +143,7 @@ If no schedule is used then this is a simple time date subtraction. If a schedul
 
 This script demonstrates how to use DurationCalculator to compute a simple duration.
 
-```
+```javascript
 /**
  * Sample script demonstrating use of DurationCalculator to compute simple durations
  * 
@@ -216,7 +216,7 @@ A relative duration sys\_id is passed to the method calcRelativeDuration\(\) of 
 
 The following script demonstrates how to use DurationCalculator to calculate a relative duration.
 
-```
+```javascript
 /**
  * Sample use of relative duration calculation.
  * 

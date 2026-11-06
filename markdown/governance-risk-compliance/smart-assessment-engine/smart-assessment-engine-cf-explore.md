@@ -7,7 +7,7 @@ release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -58,7 +58,7 @@ Template reader \[sn\_smart\_asmt.template\_reader\], Template manager \[sn\_sma
 
 Use the template designer for the following tasks:
 
- -   Create and customize the assessment templates that support a range of types including Control Attestation and Risk Identification \(processes that verify adherence to established controls and identify potential risks\).
+ -   Create and customize the assessment templates that support a range of types including Control Attestation and Risk Identification.
 -   Set the assessment parameters such as the question types, justifications, and conditional visibility.
 -   Add the instructions, questions, and reference information by using the template designer.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-05"
 reading_time_minutes: 2
-breadcrumb: [Client Software Distribution 2.0 AI agents, Integration Hub AI agents, Integration Hub, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Client Software Distribution 2.0 AI agents, Integration Hub AI agents, Integration Hub, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Microsoft Intune application assignment creation AI agent

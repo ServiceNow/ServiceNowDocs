@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -55,7 +55,7 @@ You can view the following information on the financials screen.
 
     **Note:** The header rows of actuals and planned are color-coded differently to help you easily identify and differentiate between the expense types.
 
--   New cost plan: opens a simplified side-panel to create cost plan for the entity.
+-   New cost plan: opens a simplified side-panel to create a new cost plan for the entity.
 -   Personalize option to customize the columns in the left pane of the table.
 -   Export option to download Cost or Baselines comparison as Microsoft Excel or CSV file.
 

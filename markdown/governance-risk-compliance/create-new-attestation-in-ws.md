@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-new-attestation-in-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Certifying services using self-attestation, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -36,15 +36,15 @@ Role required: sn\_oper\_res.manager
 
     You can select the type of assessment as shown in the table.
 
-<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d130778e125">
+<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d131908e125">
 
 Choice
 
-</th><th align="left" id="d130778e128">
+</th><th align="left" id="d131908e128">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d130778e134">
+</th></tr></thead><tbody><tr><td id="d131908e134">
 
 **Select __Smart assessment__.**
 
@@ -52,7 +52,7 @@ Description
 
 Select the Smart Assessment method for performing the self-attestation.
 
-</td></tr><tr><td id="d130778e152">
+</td></tr><tr><td id="d131908e152">
 
 **Select __Legacy assessment__.**
 
@@ -97,7 +97,7 @@ Select the Legacy assessment method for performing the self-attestation.
 
     The following informational message is displayed: **Select the e-signature to be embedded in the template.**
 
-    **Note:** You must select the supported file format, such as either the JPEG, PNG, BMP, GIF, ICO, SVG format, for the signature image. If you select a file format that is not supported, such as the Microsoft Word format, the following error message is displayed on the screen: **Selected file type is invalid. Valid field types: JPEG, PNG, BMP, GIF, ICO, SVG.**
+    **Note:** You must select the supported file format, such as either the JPEG, PNG, BMP, GIF, ICO, SVG format, for the signature image. If you select a file format that is not supported, such as the Microsoft Word format, the following error message is displayed on the screen: **Selected file type is invalid. Valid file types: JPEG, PNG, BMP, GIF, ICO, SVG.**
 
     If you want to delete an existing image and add a new image instead, you can use the **Delete** icon in the **Signature** field and add another signature image.
 

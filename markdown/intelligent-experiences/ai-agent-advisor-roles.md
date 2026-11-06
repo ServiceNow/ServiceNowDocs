@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup, AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup, AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup, AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [Reference, AI Agent Advisor, AI Admin Center, Enable AI experiences]
+breadcrumb: [Reference, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # AI Agent Advisor roles

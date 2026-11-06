@@ -7,7 +7,7 @@ release: australia
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,7 +44,7 @@ If you used Collaboration in the Fuji release, the Connect plugin is activated a
 **Related topics**  
 
 
-[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 
 ## Properties installed with Connect
 

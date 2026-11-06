@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scripting, API implementation, API implementation and reference]
+breadcrumb: [Explore, Scripting, API implementation, API implementation and reference]
 ---
 
 # Script evaluation of fields by data type
@@ -191,5 +191,5 @@ Returns a string of comma-separated Sys IDs
 \[Omitted image "GlideListExample.png"\] Alt text: &gt; 5137153cc611227c000bbd1bd8cd2007,46d14f04a9fe19810142e40c6b071512
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
+</table>**Parent Topic:**[Exploring scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
 

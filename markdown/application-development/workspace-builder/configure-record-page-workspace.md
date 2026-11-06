@@ -7,9 +7,9 @@ release: australia
 product: Workspace Builder
 classification: workspace-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Add a record page for a workspace in Workspace Builder
@@ -142,8 +142,6 @@ Option to enable the Activity stream for the record page. The Activity stream en
     Each related information component has an information icon \(\[Omitted image "icon-information.png"\] Alt text: Information icon\) that, when selected, displays its related table.
 
 5.  Provide fulfillers with visibility into cross-business workflows and the actionable tasks used to complete these workflows by specifying the playbook.
-
-    For more information on playbooks, see .
 
     **Note:** You must have the Playbook Experience plugin installed.If you used a template to create the app, you can't add a playbook to the record page. For details on how to add a playbook for workspaces created from templates, see [this knowledgebase article](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=13fd98de1bfd6510a4de35df034bcbce).
 
@@ -313,7 +311,7 @@ Display the contextual side panel ribbon, which contains tools to help agents re
 
 7.  Complete any additional changes and configurations.
 
-<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d271365e924">
+<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d200652e921">
 
 **Update the name of the record page**
 
@@ -330,7 +328,7 @@ A preview of the record page appears.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d271365e959">
+</td></tr><tr><td id="d200652e956">
 
 **Preview the record page in a new browser tab**
 
@@ -338,7 +336,7 @@ A preview of the record page appears.
 
 Select **Preview** in the Workspace Builder header.The record page appears in the workspace. If no data exists for the table, AES displays a page where you can add data to the table.
 
-</td></tr><tr><td id="d271365e980">
+</td></tr><tr><td id="d200652e977">
 
 **Delete a record page**
 

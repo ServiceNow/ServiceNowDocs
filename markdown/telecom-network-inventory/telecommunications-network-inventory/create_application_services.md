@@ -1,5 +1,5 @@
 ---
-title: Define network service instance details
+title: Define the network service instance details
 description: Create an application service instance using the Telecommunications Network Inventory application. You can create service instances to model different types of network functions.Created topics for STRY55389656 - DOC1072742
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create\_application\_services.html
@@ -7,12 +7,12 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage your network functions, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
-# Define network service instance details
+# Define the network service instance details
 
 Create an application service instance using the Telecommunications Network Inventory application. You can create service instances to model different types of network functions.
 

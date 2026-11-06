@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-configure-c360.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -22,7 +22,7 @@ Use the following guidance to determine which approach to use:
 -   **[Add Telecom Customer 360 to any record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-add-page-collection.md)**  
 Follow this procedure to add the Customer 360 to any record page and enable recommended actions and diagnostics in the contextual side panel.
 -   **[Telecommunications Customer 360 component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-component.md)**  
-**Telecom Customer 360** is a UI Builder component that provides a comprehensive 360 degree view of a customer record in the **CSM/FSM Configurable Workspace**. You can embed this component as a tab on the record page of any customer record.
+**Telecom Customer 360** is a UI Builder component that provides a comprehensive 360 degree view of a customer record in the **CRM Workspace**. You can embed this component as a tab on the record page of any customer record.
 
 **Parent Topic:**[Configure Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure.md)
 

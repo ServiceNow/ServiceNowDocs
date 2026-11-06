@@ -7,7 +7,7 @@ release: australia
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Edge Encryption, Encryption]
 ---
@@ -126,15 +126,15 @@ If a scheduled proxy upgrade fails repeatedly, you can manually upgrade your pro
 
 ## Java minimum requirements
 
-The host machine installing or running the Edge Encryption proxy server must maintain a supported version of Java. Current supported versions are Java 17.0.3 or later in the 17.x version series.
+The host machine installing or running the Edge Encryption proxy server is required to maintain a supported version of Java. Current supported versions are Java 21 or later.
 
-**Note:** Java 11 is no longer be supported as of the Yokohama release. Upgrade your environment with the Edge Encryption proxy to Java 17 before you attempt to install Yokohama or later versions of the Edge Encryption proxy.
+**Note:** Java 17 is no longer supported as of the Brazil release. Java 11 is no longer supported as of the Yokohama release. If upgrading from a pre-Yokohama version, you're likely on Java 11 and are required to upgrade to Java 21 before installing Brazil or later versions of the Edge Encryption proxy. If upgrading from a Yokohama, Zurich, or Australia version, you're likely on Java 17 and are required to upgrade to Java 21 before installing Brazil or later versions of the Edge Encryption proxy.
 
 If using AES 256-bit encryption with Java 8 update 141 \(8u141\) or lower, you must install the Java Cryptography Extension \(JCE\) jurisdiction policy files by copying them into the system Java home directory of each Edge Encryption proxy server host. Add these files to the `<Java-home-directory>/jre/lib/security` folder before performing a scheduled or manual upgrade. To install the AES 256-bit encryption policy files, see [Configure the AES 256-bit encryption key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/configure-256-key.md).
 
 ## Mixed proxy-version environments
 
-Although an environment running old versions of the proxy server with up-to-date versions of the proxy server is not recommended, it is supported if all proxy servers are within the same version family as your instance. For example, if you have an instance on the Australia release, your environment supports proxy servers from any Australia patch or hot fix. However, the following limitations apply.
+Although an environment running old versions of the proxy server with up-to-date versions of the proxy server is not recommended, it is supported if all proxy servers are within the same version family as your instance. For example, if you have an instance on the Brazil release, your environment supports proxy servers from any Brazil patch or hot fix. However, the following limitations apply.
 
 -   If one proxy server supports functionality that another proxy does not support, you will see inconsistent behavior, depending on which proxy server is used.
 -   If a proxy server is out-of-date, it may not include recent security enhancements.

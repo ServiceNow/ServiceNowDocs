@@ -1,142 +1,104 @@
 ---
 title: AI Risk and Compliance release notes
-description: The ServiceNow AI Risk and Compliance application helps you to manage your AI capabilities ethically, mitigate AI risks, and maintain compliance. AI Risk and Compliance was enhanced and updated in the Australia release.The ServiceNow AI Risk and Compliance application helps you to manage your AI capabilities ethically, mitigate AI risks, and maintain compliance. AI Risk and Compliance was enhanced and updated in the Australia release.The ServiceNow AI Risk and Compliance application helps you to manage your AI capabilities ethically, mitigate AI risks, and maintain compliance. AI Risk and Compliance was enhanced and updated in the Australia release.The ServiceNow AI Risk and Compliance application helps you to manage your AI capabilities ethically, mitigate AI risks, and maintain compliance. AI Risk and Compliance was enhanced and updated in the Australia release.The ServiceNow AI Risk and Compliance application helps you to manage your AI capabilities ethically, mitigate AI risks, and maintain compliance. AI Risk and Compliance was enhanced and updated in the Australia release.
+description: The ServiceNow AI Risk and Compliance application provides a centralized process for assessing AI assets, scoring risk, and driving remediation. Release notes are organized by version.Version 23.0 introduces updated playbooks, risk classification for unmanaged assets, and domain separation for governance assets are available in this release.Version 23.1 introduces direct business application associations for AI assets and improves Employee Center redirection to AI Control Tower workspace records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/grc-ai-risk-and-compliance-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-06-01"
-reading_time_minutes: 8
-keywords: [AI Risk and Compliance, AIRC release notes, AI governance, SB 53, Colorado AI Act, impact assessment auto-population, template versioning, multi-framework citations, AI Risk and Compliance, AIRC release notes, AI governance, SB 53, Colorado AI Act, impact assessment auto-population, template versioning, multi-framework citations, AI Risk and Compliance, AIRC release notes, AI governance, SB 53, Colorado AI Act, impact assessment auto-population, template versioning, multi-framework citations, AI Risk and Compliance, AIRC release notes, AI governance, SB 53, Colorado AI Act, impact assessment auto-population, template versioning, multi-framework citations, AI Risk and Compliance, AIRC release notes, AI governance, SB 53, Colorado AI Act, impact assessment auto-population, template versioning, multi-framework citations]
-breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+keywords: [AI risk and compliance, AIRC, AI Risk and Compliance]
+breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # AI Risk and Compliance release notes
 
-The ServiceNow® AI Risk and Compliance application helps you to manage your AI capabilities ethically, mitigate AI risks, and maintain compliance. AI Risk and Compliance was enhanced and updated in the Australia release.
+The ServiceNow® AI Risk and Compliance application provides a centralized process for assessing AI assets, scoring risk, and driving remediation. Release notes are organized by version.
 
 ## About AI Risk and Compliance
 
--   Manage Smart Assessment templates with versioning support. Create, publish, and delete template versions to support consistent assessment governance.
--   View the related entity \(AI record, model, or dataset\) and control for each control attestation-based assessment directly in task and work queue lists, without opening the individual record.
--   Access authority documents, agency mappings, and citations for additional AI regulatory frameworks in the AI Risk and Compliance content pack.
--   Classify AI systems based on regulatory risk at intake by applying a configured Risk Assessment Methodology \(RAM\), enabling early risk identification and consistent AI governance decisions across the system life cycle.
--   Submit AI cases anonymously to report potential AI risks or concerns without disclosing your identity, helping improve early risk visibility and participation in AI governance.
--   Offboard AI assets with structured life-cycle tasks to support completion of governance and risk activities when systems are retired or replaced.
+-   Assess, score, and monitor risk across your AI assets, from onboarding through deployment, until retirement.
+-   Centralize regulatory risk assessments, impact assessments, issue tracking, and remediation in a single workspace.
+-   Manage risk and compliance scores for AI assets throughout their life cycle with workflows for ongoing oversight and risk management.
+-   Manage conformity of AI assets with global regulations and frameworks.
+-   Identify and address potential impacts on privacy, non-discrimination, and other human rights.
 
-See [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-and-compliance.md) for more information.
+See [September 2026](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/grc-ai-risk-and-compliance-rn.md) for more information.
+
+**Important:** For Now LLM Service model updates for each release, see .
 
 ## Activation and other requirements
-
-**Important:** AI Risk and Compliance is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
     Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
+    **Important:** Governance workstream activities, including impact assessments, risk assessments, control attestations, issues, policy exceptions, AI cases, and AI inquiries, aren't supported in the AI-native experience. This also applies to business configuration and administration activities, such as setting up risk assessment methodologies and assessment templates. Access and view the system of record through the workspace-based experience.
+
+-   **Upgrade information**
+
+    If you're upgrading from an earlier release, upgrade sequentially through each release. Upgrade scripts depend on running in order, and skipping releases can cause data inconsistencies or broken functionality.
+
+    **Warning:** If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see  and .
+
+
+**Note:** AI Risk and Compliance is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 **Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/grc-rn-landing.md)
 
-## August 2026
+## September 2026
 
-The ServiceNow® AI Risk and Compliance application helps you to manage your AI capabilities ethically, mitigate AI risks, and maintain compliance. AI Risk and Compliance was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Continuous controls monitoring in the AI Risk and Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-continuous-controls-monitoring.md)**
-
-    Use Continuous Controls Monitoring to automate control verification and gather real-time visibility into control health. After upgrading to version 22.5.x, users with the AI Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] role can create a compliance evaluation configuration. Indicators that use metrics from ServiceNow or Traceloop, can run on a schedule and evaluate whether a control associated with the asset is compliant or non-compliant. When an indicator fails, a GRC issue is created so that the product owner of the affected asset can remediate it. Users with the AI Risk and Compliance Analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] role can access the configurations but can't make changes.
-
--   **[Risk and compliance tasks for Asset owners in Activity center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-activity-center.md)**
-
-    After upgrading to version 22.5.x, if you have the AI Asset Owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, you can access and act on risk and compliance life cycle tasks, such as impact assessments and control attestations, from the Activity Center in AI Control Tower. The Activity Center surfaces AI asset tasks, issues, policy exceptions, and AI cases for the asset owner. On the asset record page, all life cycle tasks specific to the assigned assets can be accessed and performed.
-
--   **[AI Risk and Compliance lifecycle tasks in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/risk-compliance-lifecycle-tasks-aict.md)**
-
-    After upgrading to version 22.5.x, if you have the AI Steward \[sn\_ai\_governance.ai\_steward\] and AI Risk and Compliance Analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] roles, you can take and manage risk assessments directly from the playbook within the AI Control Tower workspace, without switching between workspaces.
-
-
-## July 2026
-
-The ServiceNow® AI Risk and Compliance application helps you to manage your AI capabilities ethically, mitigate AI risks, and maintain compliance. AI Risk and Compliance was enhanced and updated in the Australia release.
+Version 23.0 introduces updated playbooks, risk classification for unmanaged assets, and domain separation for governance assets are available in this release.
 
 ### What's new
 
--   **[ServiceNow Otto for AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-exploring-now-assist.md)**
+-   ****
 
-    Use Now Assist for AI Risk and Compliance to get AI-powered assistance throughout the AI asset lifecycle. After upgrading to version 22.4.x, users with the AI Risk and Compliance AI user \[sn\_airc\_gen\_ai.airc\_ai\_user\] and AI Risk and Compliance AI agent user \[sn\_airc\_gen\_ai.airc\_ai\_agent\] roles can access the following capabilities:
+    After upgrading to version 23.0.3, manage AI assets through structured life cycle workflows using the updated playbooks in AI Control Tower. These playbooks automate governance tasks, route approvals, and track compliance requirements across onboarding, maintenance, and retirement phases. Use the **Review and switch** button to review the effect on your existing playbooks, flows, and subflows before switching to the new playbook.
 
-    -   Create and document governance, risk, and compliance issues with guided assistance from the employee center.
-    -   Generate concise summaries of complex GRC issues for faster review and decision-making.
-    -   Create executive summaries of risk assessments to communicate findings to stakeholders.
-    -   Generate responses to assessment questions based on past assessments and reference documentation.
-    -   Identify related control objectives from your controls library to reduce duplication.
-    Use these capabilities to capture AI risk context early in the development process and address compliance requirements throughout the system lifecycle.
+-   ****
 
-
-## June 2026
-
-The ServiceNow® AI Risk and Compliance application helps you to manage your AI capabilities ethically, mitigate AI risks, and maintain compliance. AI Risk and Compliance was enhanced and updated in the Australia release.
-
-### What's changed
-
--   **AI record labels**
-
-    The AI assets \(sn\_grc\_ai\_gov\_ai\_system\) table has been renamed to AI records \(sn\_grc\_ai\_gov\_ai\_system\). Two field labels on AI system, AI model, and dataset record pages in the AI Risk and Compliance Workspace have changed. The **Record type** field now displays **AI record** instead of the previous asset-specific labels. On AI system records, the **Asset type** field has been replaced by **Parent category**, which displays **AI system**.
-
-
--   **[Smart Assessment Engine template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-assessment-templates.md)**
-
-    After upgrading to version 22.3.5, if you have the AI risk and compliance admin \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin\] role, you can use Smart Assessment templates that support versioning. A new version is created automatically when you edit and save a template. Publishing a new version retires the previously published version. Existing templates are set to Version 1.
-
--   **[Assessment scope context in task and work queue lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tasks-ai-risk-compliance.md)**
-
-    After upgrading to version 22.3.5, if you have the AI risk and compliance analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] or AI risk and compliance manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] role, assessment task list and work queue views display additional columns that show the governance scope \(related entity such as AI asset, model, or dataset\) of each control attestation-based assessment. These columns let you identify which AI asset, entity, and control an assessment belongs to without opening the individual record.
-
--   **[Impact assessment field auto-population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-intake.md)**
-
-    After upgrading to version 22.3.5, if you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] or AI risk and compliance business user \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] role, the screening question responses that capture the AI system's intended use and operational context from the Use and Purpose section of the AI use case request form are automatically populated in the corresponding Use and Purpose fields of a new impact assessment. This synchronization reduces manual entry and helps ensure that impact assessment responses are consistent with the information submitted at intake.
-
--   **[AI Risk and Compliance Content Pack regulatory frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-content-pack.md)**
-
-    After upgrading to version 22.3.0, if you have the AI Risk and Compliance Content application installed and the admin role, the AI Risk and Compliance content pack includes additional authority documents, agency mappings, and citations for the following regulatory frameworks: the Transparency in Frontier Artificial Intelligence Act \(SB 53\) and the Colorado Artificial Intelligence Act \(SB 205\). When at least one regulatory framework is activated, control objective records display citations from all activated authority documents in the **Citations** tab. This enables you to assess cross-framework regulatory coverage from a single control objective record without navigating each framework separately.
-
-
-## Australia Early Availability
-
-The ServiceNow® AI Risk and Compliance application helps you to manage your AI capabilities ethically, mitigate AI risks, and maintain compliance. AI Risk and Compliance was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Risk‑based classification during intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-ai-system.md)**
-
-    After upgrading to version 22.0.3, if you have the AI risk and compliance business user \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] role, you can now classify AI systems using a risk‑based approach at intake, enabling organizations to capture AI risk context early and align governance workflows with regulatory and internal risk requirements. This improvement to the AI use case request form supports more accurate AI oversight throughout the system life cycle.
-
--   **[Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-ai-case-anon.md)**
-
-    After upgrading to version 22.0.3, if you have the AI Case Management \(sn\_ai\_case\_mgmt\) application installed and the AI case business user \[sn\_ai\_case\_mgmt.ai\_case\_business\_user\] role, you can navigate to the Employee Center to access the Anonymous Reporting Center and submit AI cases anonymously, enabling broader participation in AI governance while protecting the identity of reporters. No additional role is required to submit an anonymous report directly through the Anonymous Reporting Center. Broader participation helps organizations identify potential AI risks earlier by removing barriers to case submission.
-
--   **[Offboard AI models and datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-offboarding-ai-assets.md)**
-
-    After upgrading to version 22.0.3, if you have the AI risk and compliance analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] or AI risk and compliance manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] role you can manage AI asset offboarding life cycle tasks. Managing these tasks supports completion of governance-related activities, such as risk and impact assessments, conformity reviews, issue closure, and audit documentation, when an AI asset is retired or removed from active use.
+    After upgrading to version 23.0.2, AI Risk and Compliance analysts reviewing assessments can review AI-assisted recommendations and assign relevant control objectives and risk statements from the compliance library. The Control Objective Recommender and Risk Statement Recommender skills generate the recommendations. The skills analyze the completed assessment responses and display relevant control objectives and risk statements from the Risk and Compliance library. Accepted recommendations apply automatically to the AI asset.
 
 
 ### What's changed
 
--   **[Operations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/operations-tab.md)**
+-   ****
 
-    On the Operations tab in the AI Risk and Compliance Workspace, the AI systems by state section includes an Offboard state to track AI systems in retirement or offboarding and the AI systems by department section now supports grouping by Risk classification from the Show by drop-down list to view the distribution of AI systems in each department.
+    Domain separation is supported for AI Control Tower. Domain separation enables separation of data, processes, and administrative tasks into logical groupings called domains. Administrators can control several aspects of this separation, including which users can see and access data. For AI Risk and Compliance, domain separation isolates each domain's risk posture while letting administrators at a parent domain see and manage risk across their child domains.
 
--   **[AI use case request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-intake.md)**
+-   ** for unmanaged AI systems**
 
-    A Use and Purpose section containing screening questions has been added to the AI use case request form to capture contextual information about how an AI system will be used and supports automated risk‑based classification during submission.
+    After upgrading to version 23.0.3, unmanaged AI systems receive a risk classification and appear on the Regulatory risk classification donut chart. The risk classification is calculated from the **Use and purpose** fields completed when the asset is created. After the asset moves to the **Managed** state, the risk classification is revised based on updates to the **Use and purpose** fields or based on regulatory risk classification updates.
 
--   **[AI system record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-system-airc.md)**
+-   ****
 
-    A Use and Purpose section has been added to the AI system record page, which you can access from the AI asset inventory list in the AI Risk and Compliance Workspace.
+    After upgrading to version 23.0.3, the **Save** button in the Compliance evaluation enables AI Risk and Compliance Analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] to maintain the configuration changes in **Draft** state before publishing. A dedicated **Owner** field lets you specify the owner of individual compliance evaluation configurations and displays the owner name in a column. Assigning ownership adds accountability and shows users who configured the rule.
 
--   **[Anonymous AI case reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-cases-inquiries.md)**
 
-    A Visit Anonymous Reporting Center card is available in the Support resources section of the AI assets page in the Employee Center, enabling you to navigate to the Anonymous Reporting Center to submit an anonymous AI case.
+## October 2026
+
+Version 23.1 introduces direct business application associations for AI assets and improves Employee Center redirection to AI Control Tower workspace records.
+
+### What's new
+
+-   **Direct business application associations for AI systems**
+
+    Business applications can be mapped directly to AI system records during intake, without requiring Enterprise Architecture Workspace to be installed. After upgrading AI Control Tower to version 9.0.3 and AI Risk and Compliance to version 23.1.1, Enterprise Architecture for AICT \(com.sn\_ea\_aict\) decouples the AI system-to-business-application association from Enterprise Architecture Workspace. The plugin installs automatically with AI Control Tower Core at the required version.
+
+    **Warning:** If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see , [Enterprise Architecture for AICT plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-aict.md), and .
+
+
+### What's changed
+
+-   **Links to AI Control Tower updated for Employee Center submissions**
+
+    After upgrading AI Risk and Compliance to version 23.1.1, for AI use case, AI model, and dataset submissions in Employee Center, the **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page now open the corresponding record in AI Control Tower instead of the legacy AI Control Tower workspace. You still land on the Employee Center governance-details page immediately after submitting; only the destination of these links changed.
+
+    The Employee Center AI asset list view's redirection link was also updated to open the AI Control Tower inventory.
+
+    The AI system, AI model, and dataset record headers also display the corresponding record name and identifier after submission.
+
+    **Note:** AI case and AI inquiry submissions in Employee Center aren't affected by this change.
 
 

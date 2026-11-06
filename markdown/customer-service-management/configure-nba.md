@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-nba.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -117,11 +117,11 @@ Configuring a recommended action is a multi-step process that involves:
 
     A recommendation is a way to suggest an action to an agent. You can create recommendations with action types of guidance, field recommendation, and playbook. For more information, see [Recommendations in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-recommendations.md).
 
--   **Resource generators**
+-   **Resource generator**
 
     Resource generators provide helpful information for guidance and field recommendations. The resource generators use decision table, flow, scripts, Predictive Intelligence framework, or AI search capabilities to generate resources. For example, a resource generator can provide a knowledge article link that can then be used as a recommended action for a case. For more information, see [Resource generators in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-resource-generators.md).
 
--   **Arbitration parameters**
+-   **Arbitration parameter**
 
     Arbitration parameters determine the frequency of issues or the priority order of the recommended actions so that agents get the guidance that they must help resolve customer issues.
 

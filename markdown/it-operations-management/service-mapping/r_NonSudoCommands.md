@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 40
 breadcrumb: [Prerequisites for performing top-down discovery, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -391,7 +391,7 @@ Various options
 
 </td><td>
 
-Shows the current time, how long the system has been running, how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes.
+Shows the current time, how long the system has been running, and how many users are currently logged on. It also shows the system load averages for the past 1, 5, and 15 minutes.
 
 </td></tr><tr><td>
 

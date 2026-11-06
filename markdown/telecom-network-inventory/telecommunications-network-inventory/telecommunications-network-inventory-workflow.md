@@ -1,5 +1,5 @@
 ---
-title: Modeling your workflow
+title: Model your workflow
 description: Learn how to create a network inventory record in the Telecommunications Network Inventory application to store the details about your network assets. As you create the records, you can also define the relationship between each inventory record so that you can design a digital model of your network.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.html
@@ -7,18 +7,18 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
 
-# Modeling your workflow
+# Model your workflow
 
 Learn how to create a network inventory record in the Telecommunications Network Inventory application to store the details about your network assets. As you create the records, you can also define the relationship between each inventory record so that you can design a digital model of your network.
 
 ## Network inventory workflow overview
 
-By building an accurate digital representation of your network, you can view physical and logical resources. This helps improve resource utilization and reduce the operational costs of your network.
+By building an accurate digital representation of your network, you can view your physical and logical resources. You can also improve how those resources are used and reduce the operational costs of your network.
 
 You use a series of forms such as telco equipment and network interface, to create and maintain your network inventory records. You can access these forms in the Inventory node in the Network Inventory Workspace List view.
 
@@ -38,7 +38,7 @@ You can create the models, templates, and the relationships between them. You ca
 
 -   To learn more about the inventory model, see [Network inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/using-inventory-models-tni.md).
 -   To learn more about the inventory template, see [Network inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/using-templates-tni.md).
--   To learn more about the inventory model relationship, see [Modeling network inventory relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md).
+-   To learn more about the inventory model relationship, see [Model relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md).
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [GRC Risk Workspace, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -43,7 +43,7 @@ In the workspace, while responding to factors, you can quickly view the guidance
 
 ## Reassign assessments
 
-If you are assigned a risk assessment that must be assessed by another user, you can reassign the assessment from the risk assessment home page. In case there are two users with the same name, you have the ability to view their email addresses while reassigning the assessment. This ability prevents users from assigning the assessment to the wrong users.
+If you are assigned a risk assessment that must be assessed by another user, you can reassign the assessment from the risk assessment home page. In case there are two users with the same name, you have the ability to view their email addresses while reassigning the assessment. This ability prevents users from assigning the assessment to the wrong users.\[Omitted image "reassign-assessment.jpg"\] Alt text: Reassign assessment to another user.
 
 ## View factor weighting information
 

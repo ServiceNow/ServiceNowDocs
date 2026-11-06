@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Summarize CMDB readiness skill, ServiceNow Otto for CMDB, CMDB success advisor dashboard, configure skill]
 breadcrumb: [Configure, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -47,7 +47,7 @@ HAM
 
 </td><td>
 
-Set up the CMDB success advisor for Hardware Asset Management \(HAM\). See [CMDB success advisor for HAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-config-settings.md).
+Set up the CMDB success advisor for Hardware Asset Management \(HAM\). See .
 
 </td></tr><tr><td>
 

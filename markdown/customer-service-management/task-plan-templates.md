@@ -1,18 +1,18 @@
 ---
 title: Task Plan Templates
-description: Use a task plan template to define the repeatable tasks and records that must be created for a business process. When the template is applied, these tasks and records are automatically created.
+description: Use a task plan template to define the repeatable tasks and records that need to be created for a business process. When the template is applied, these tasks and records are automatically created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/task-plan-templates.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 8
+last_updated: "2026-09-04"
+reading_time_minutes: 10
 breadcrumb: [Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Task Plan Templates
 
-Use a task plan template to define the repeatable tasks and records that must be created for a business process. When the template is applied, these tasks and records are automatically created.
+Use a task plan template to define the repeatable tasks and records that need to be created for a business process. When the template is applied, these tasks and records are automatically created.
 
 \[Omitted image "task-plan-template-items-list.png"\] Alt text: The template items list includes a hierarchical list of the tasks, child, cases, records, and other items that are part of the template.
 
@@ -31,7 +31,7 @@ Business users can define how a business process should be handled by using a ta
 -   The task plan template and the conditions for when the template applies.
 -   The template items to be generated. This can include tasks, child cases, child case tasks, and other records such as work order tasks. Template items can also include attachments. These attachments are available on the tasks created from the template items.
 -   The task order.
--   Conditions that specify when tasks must be created.
+-   Conditions that specify when tasks need to be created.
 
 ## Benefits of task plan templates
 
@@ -59,7 +59,10 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Creating task plan templates
 
-A business process owner can create a task plan template by following these steps.
+Business process owners can create a task plan template in either of the following ways:
+
+-   **Manually**: Add the template, template items, conditions, and dependencies field by field. Follow the steps in this section.
+-   **From an uploaded document**: Upload a process document or diagram and let the AI agentic workflow extract the tasks and dependencies to generate a draft template. For more information, see [Create a task plan template from a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-task-plan-template-from-document.md).
 
 <table id="table_p2k_vsl_rfc"><thead><tr><th>
 
@@ -94,6 +97,16 @@ Create the template items to include in the task plan template. These items can 
 </td><td>
 
 Set conditions as needed for each of the template items that identifies when a template item should be created.
+
+</td></tr><tr><td>
+
+Publish the task plan template.
+
+</td><td>
+
+While in the Draft state, you can make changes to the template, template items, and template item conditions.Publish the task plan template to apply it to cases and case types.
+
+To publish a task plan template, select **Publish** on the Task Plan Template form.
 
 </td></tr></tbody>
 </table>## Editing task plan templates
@@ -157,9 +170,13 @@ You can apply task plan templates to existing cases or to new cases. When a case
 
 Task plan templates can be applied manually or automatically to an existing entity.
 
+Before generating records for multiple business organizations, populate the tracking fields on each template item, or on the template item configuration that the template item references. These fields record the template item, the template execution, and the business organization for each generated record. For more information, see [Template item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/task-plan-template-item-form.md).
+
+When records are generated for multiple business organizations, task dependencies and document references defined on the template items carry through to the generated records. Dependencies are paired within each business organization, and each generated record keeps the document references of its source template item. For more information, see [Task Dependencies for Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/task-dependencies-for-task-plan-templates.md) and [Document References in Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/adding-and-managing-document-references-in-task-plan-templates.md).
+
 ## Get Started tab in the contextual side panel
 
-The Get Started tab in the contextual side panel in CSM Configurable Workspace displays information about task plan templates, template items, and template item conditions.
+The Get Started tab in the contextual side panel in CRM Workspace displays information about task plan templates, template items, and template item conditions.
 
 This tab is available for the following tables:
 
@@ -185,7 +202,7 @@ Task plan template
 
 </td><td>
 
-A reusable framework that you can use to define and generate a sequence of tasks.Use a task plan template to define tasks and the conditions under which those tasks must be created.
+A reusable framework that you can use to define and generate a sequence of tasks.Use a task plan template to define tasks and the conditions under which those tasks need to be created.
 
 </td><td>
 

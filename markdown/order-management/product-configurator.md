@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/product-configurator.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Configurator

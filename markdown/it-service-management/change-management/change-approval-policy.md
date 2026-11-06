@@ -1,26 +1,26 @@
 ---
 title: Change approval policies
-description: In Change approval policies, approval definitions are used to generate approvals according to your business requirements.
+description: Change approval policies use approval definitions to generate approvals according to your business requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-approval-policy.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Change Management, IT Service Management]
 ---
 
 # Change approval policies
 
-In Change approval policies, approval definitions are used to generate approvals according to your business requirements.
+Change approval policies use approval definitions to generate approvals according to your business requirements.
 
 A change approval policy is a course of action that can be applied to a change request. It uses a set of variable inputs to evaluate the decisions that are associated with it. For each matching decision, the associated approval definition is applied.
 
-An approval policy can contain multiple decisions allowing a single policy to handle every approval required for a change type. When a decision condition matches, the related approval definition is evaluated. If one or more decisions match, all the related approval definitions are evaluated.
+An approval policy can contain multiple decisions, so a single policy can handle every approval required for a change type. When a decision condition matches, the related approval definition is evaluated. If one or more decisions match, all the related approval definitions are evaluated.
 
-**Important:** It is recommended to use only one instance of the **Change Approval Policy** workflow activity in a workflow at a time.
+**Important:** Use only one **Change Approval Policy** workflow activity in a workflow.
 
 Use the **Change Approval Policy** workflow activity instead of the **User** and **Group Approval** workflow activities to manage the approvals at a particular stage of the workflow. For more information, see [Change Approval Policy workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-approval-policiy-wf-activity.md)
 
@@ -32,8 +32,8 @@ Use the **Change Approval Policy** workflow activity instead of the **User** and
 A change approval policy consists of three components:
 
 -   **Policy inputs**: The variable sources evaluated within the condition defined on a decision.
--   **Decisions**: Based on the conditions, determines whether the associated Change approval definition applies.
--   **Approval definitions**: Defines the type of approval that can applied.
+-   **Decisions**: Conditions that determine whether the associated change approval definition applies.
+-   **Approval definitions**: Type of approval that can be applied.
 
 **Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/exploring-change-management.md)
 

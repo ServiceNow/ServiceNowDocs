@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-instances-admin-concept.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -16,7 +16,7 @@ Instances available on your ServiceNow mobile apps correspond to at least one in
 
 A ServiceNow platform configuration can contain one or more instances. Each ServiceNow mobile app must be connected to at least one of these instances. If only one instance is added to a mobile app, this is known as a single instance. Whereas if more than one instance is added, this is known as either multiple instance or multi-instance.
 
-For information on user-side documentation regarding instances, see [Working with mobile accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/instances-concept.md).
+For information on user-side documentation regarding instances, see [Working with mobile instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/instances-concept.md).
 
 ## Single instance
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-ltm-categories-new.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up long-term memory, AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Set up long-term memory, AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Long-term memory categories

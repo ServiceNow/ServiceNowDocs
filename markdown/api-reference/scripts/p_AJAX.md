@@ -1,30 +1,28 @@
 ---
-title: AJAX
-description: AJAX \(asynchronous JavaScript and XML\) is a group of interrelated, client-side development techniques used to create asynchronous Web applications.The GlideAjax class allows the execution of server-side code from the client. GlideAjax calls pass parameters to the script includes, and, using naming conventions, allows the use of these parameters.There are two parts to the asynchronous GlideAjax script: client-side and server-side code.Use synchronous when your script cannot continue without the GlideAjax response. This stops the session until the response is received.Provides helper functions for Ajax clients to retrieve a value from an Ajax client.
+title: AJAX scripts
+description: AJAX \(asynchronous JavaScript and XML\) is a group of interrelated, client-side development techniques used to create asynchronous Web applications.The GlideAjax class allows the execution of server-side code from the client. GlideAjax calls pass parameters to the script includes, and, using naming conventions, allows the use of these parameters.The AJAXClientHelper script include provides helper functions for Ajax clients to retrieve a value from an Ajax client.There are two parts to the asynchronous GlideAjax script: client-side and server-side code.Use synchronous when your script cannot continue without the GlideAjax response. This stops the session until the response is received.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/p\_AJAX.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Client-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Write client-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
-# AJAX
+# AJAX scripts
 
 AJAX \(asynchronous JavaScript and XML\) is a group of interrelated, client-side development techniques used to create asynchronous Web applications.
 
 AJAX enables web applications to send and retrieve information to and from a server in the background, without impacting the user experience with the displayed web page.
 
-**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
+**Parent Topic:**[Writing client-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
 
-## GlideAjax
+## GlideAjax class
 
 The GlideAjax class allows the execution of server-side code from the client. GlideAjax calls pass parameters to the script includes, and, using naming conventions, allows the use of these parameters.
-
-**Note:** This functionality requires a knowledge of JavaScript.
 
 Using GlideAjax:
 
@@ -41,19 +39,51 @@ Using GlideAjax:
 
 For additional information, refer to the [GlideAjax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/c_GlideAjaxAPI.md) API.
 
-## Examples of asynchronous GlideAjax
+### Helper functions for Ajax clients
+
+The AJAXClientHelper script include provides helper functions for Ajax clients to retrieve a value from an Ajax client.
+
+Use this script include wherever your need to retrieve a value from an Ajax client.
+
+#### Method summary
+
+|Method summary|Description|
+|--------------|-----------|
+|getDisplay\(\)|Gets the display value from the choice list.|
+
+#### Method detail
+
+|API method|Description|Input parameters|Output returns|
+|----------|-----------|----------------|--------------|
+|getDisplay\(\)|Gets the display value from the choice list.|none|The display value.|
+
+#### Using AJAXClientHelper
+
+```javascript
+// getDisplay
+(function(table, sysId) {
+    var ga = new GlideAjax('AjaxClientHelper');
+    ga.addParam("sysparm_name", "getDisplay");
+    ga.addParam('sysparm_table', 'incident');
+    ga.addParam('sysparm_value', "0598b22b877313003c1c8467a7cb0b71");
+    ga.getXMLWait();
+    return ga.getAnswer();
+}("incident", "0598b22b877313003c1c8467a7cb0b71")); // Returns 'INC0010001'
+```
+
+### Asynchronous GlideAjax examples
 
 There are two parts to the asynchronous GlideAjax script: client-side and server-side code.
 
-### Hello World: Returning a value from the server
+#### Hello World: Returning a value from the server
 
-### Client side
+#### Client side
 
 This code runs on the client \(the web browser\). Create a client script as normal. This sends the parameters to server, which then does the processing. So that the client does not wait for the result, a callback function is used to return the result, passed to the getXML\(\) function. \(In this case it is called `HelloWorldParse`.\)
 
 The getXMLWait\(\) function does not need a separate callback function, but this will block the client. If the client-server communication takes a long time \(for example on slow networks\), the application will seem unresponsive and slow. An example of getXMLWait\(\) is in the following section.
 
-```
+```javascript
 var ga = new GlideAjax('HelloWorld');
 ga.addParam('sysparm_name', 'helloWorld');
 ga.addParam('sysparm_user_name', "Bob");
@@ -64,7 +94,7 @@ function HelloWorldParse(response) {
   alert(answer); }
 ```
 
-### Server side
+#### Server side
 
 The server-side code for the above function. Do not create a business rule, but instead navigate to **System Definition &gt; Script Include** and create a new script. Paste in the code below.
 
@@ -74,7 +104,7 @@ The server-side code for the above function. Do not create a business rule, but 
 -   Function names starting with "\_" are considered private and are not callable from the client.
 -   Avoid overriding methods of AbstractAjaxProcessor, including `initialize`. While it is possible to invoke methods of your superclass object which you have overridden, it is complicated and best avoided altogether.
 
-```
+```javascript
 var HelloWorld = Class.create();
 HelloWorld.prototype = Object.extendsObject(AbstractAjaxProcessor, {
    helloWorld:function() { return "Hello " + this.getParameter('sysparm_user_name') + "!"; } ,
@@ -85,13 +115,13 @@ HelloWorld.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 
 This results in an alert box that says 'Hello Bob!' when you visit the form.
 
-### Returning multiple values
+#### Returning multiple values
 
 Since the response is an XML document we are not limited to returning a single `answer` value. Here is a more complex example returning multiple XML nodes and attributes.
 
-### AJAX processor script include
+#### AJAX processor script include
 
-```
+```javascript
 /*
  * MyFavoritesAjax script include Description - sample AJAX processor returning multiple value pairs
  */ 
@@ -123,9 +153,9 @@ MyFavoritesAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
  });
 ```
 
-### Client script
+#### Client script
 
-```
+```javascript
 // new GlideAjax object referencing name of AJAX script include 
 var ga = new GlideAjax("MyFavoritesAjax"); 
 // add name parameter to define which function we want to call 
@@ -157,9 +187,9 @@ function ajaxResponse(serverResponse) {
   alert(output); }
 ```
 
-### XML response
+#### XML response
 
-```
+```javascript
 <xml sysparm_max= "15" sysparm_name="getFavorites" sysparm_processor="MyFavoritesAjax">
   <result message = "returning all favorites"></result>
   <favorite name = "color" value = "blue"></favorite>
@@ -168,7 +198,7 @@ function ajaxResponse(serverResponse) {
 </xml>
 ```
 
-## Examples of synchronous GlideAjax
+### Synchronous GlideAjax examples
 
 Use synchronous when your script cannot continue without the GlideAjax response. This stops the session until the response is received.
 
@@ -182,7 +212,7 @@ This code results in a client-side alert that displays `The Server Says Hello Bo
 
 The client code.
 
-```
+```javascript
 var ga = new GlideAjax('HelloWorld') ;
 ga.addParam('sysparm_name','helloWorld');
 ga.addParam('sysparm_user_name',"Bob");
@@ -192,44 +222,10 @@ alert(ga.getAnswer());
 
 The server-side script include code.
 
-```
+```javascript
 var HelloWorld = Class.create();
 HelloWorld.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 helloWorld: function() 
  { return "The Server Says Hello " + this.getParameter('sysparm_user_name') + "!"; } } );
-```
-
-## AJAXClientHelper
-
-Provides helper functions for Ajax clients to retrieve a value from an Ajax client.
-
-### Where to use
-
-Use this script include wherever your need to retrieve a value from an Ajax client.
-
-### Method summary
-
-|Method summary|Description|
-|--------------|-----------|
-|getDisplay\(\)|Gets the display value from the choice list.|
-
-### Method detail
-
-|API method|Description|Input parameters|Output returns|
-|----------|-----------|----------------|--------------|
-|getDisplay\(\)|Gets the display value from the choice list.|none|The display value.|
-
-### Curl
-
-```
-// getDisplay
-(function(table, sysId) {
-    var ga = new GlideAjax('AjaxClientHelper');
-    ga.addParam("sysparm_name", "getDisplay");
-    ga.addParam('sysparm_table', 'incident');
-    ga.addParam('sysparm_value', "0598b22b877313003c1c8467a7cb0b71");
-    ga.getXMLWait();
-    return ga.getAnswer();
-}("incident", "0598b22b877313003c1c8467a7cb0b71")); // Returns 'INC0010001'
 ```
 

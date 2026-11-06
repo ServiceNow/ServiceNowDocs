@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/relationship-view-bcp.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -41,7 +41,7 @@ The configurations for the 360° view are stored in **360° View Configurations*
     -   **Scope**: Scope of the business continuity plan such as **Related plans**.
     -   **Events**: Events that are associated with the business continuity plan such as **Ongoing events**.
     -   **Include**: Entities that are associated with the business continuity plan such as **Loss scenario**, **Documentation**, and **Recovery tasks** as shown in the example.
-    The example shows the 360° relationship view for the Customer Support Continuity Plan and its related entities. When you select **Loss scenario** in the 360° view, the details of the associated loss scenarios for the Customer Support Continuity Plan are displayed in the Loss scenario panel.
+    The example shows the 360° relationship view for the Customer Support Continuity Plan and its related entities. When you select **Loss scenario** in the 360° view, the Loss scenario panel on the right displays the details of the associated loss scenarios for the Customer Support Continuity Plan.
 
     \[Omitted image "360-bcp-loss-scenario.png"\] Alt text: 360-view-for-a-loss-scenario.
 

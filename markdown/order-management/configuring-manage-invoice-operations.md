@@ -1,18 +1,18 @@
 ---
 title: Configuring the Manage Invoice Operations application
-description: Business-to-business \(B2B\) customers can submit invoice cases using ServiceNow Otto Virtual Agent from the Business Portal. Interaction channels include chat and voice options. Billing specialists and agents can use the invoice dispute assist agentic workflow from the CSM/FSM Configurable Workspace to resolve invoice cases.
+description: Business-to-business \(B2B\) customers can submit invoice cases using ServiceNow Otto Virtual Agent from the Business Portal. Interaction channels include chat and voice options. Billing specialists and agents can use the invoice dispute assist agentic workflow from the CRM Workspace to resolve invoice cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configuring-manage-invoice-operations.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Configuring the Manage Invoice Operations application
 
-Business-to-business \(B2B\) customers can submit invoice cases using ServiceNow Otto Virtual Agent from the Business Portal. Interaction channels include chat and voice options. Billing specialists and agents can use the invoice dispute assist agentic workflow from the CSM/FSM Configurable Workspace to resolve invoice cases.
+Business-to-business \(B2B\) customers can submit invoice cases using ServiceNow Otto Virtual Agent from the Business Portal. Interaction channels include chat and voice options. Billing specialists and agents can use the invoice dispute assist agentic workflow from the CRM Workspace to resolve invoice cases.
 
 Before you can use the AI agents for managing order operations agent in the Business Portal:
 

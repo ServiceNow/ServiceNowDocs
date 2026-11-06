@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-macd-orders.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing post-fulfillment order changes, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_ind\_tmt\_orm.order\_agent, sn\_ind\_tmt\_orm.service\_order\
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Document Templates of type HTML, Configuring Document Templates, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
@@ -113,6 +113,6 @@ Following is an example of how dynamic tokens are translated in an HTML doc temp
 2.  The HTML document template is referenced in an HR case.
 3.  When the agent previews the document, generates the attachment, or initiates document tasks for participants, priority and relationship fields are translated into the German language, and dates appear in the dd/MM/yyyy format.
 
-    \[Omitted image "preview-output.png"\] Alt text: The translated preview of the document template. It is translated to German.
+    \[Omitted image "preview-output.png"\] Alt text: The translated preview of the document template. I is translated to German.
 
 

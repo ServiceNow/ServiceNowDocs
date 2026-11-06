@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-case-task-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
@@ -96,7 +96,7 @@ Service
 
 If a service has been selected for a case task, the service is displayed in this field. The **Service** field is a reference to the [Service Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-service-definitions.md) table \(sn\_case\_type\_selection\).
 
- **Note:** The Customer Service plugin \(com.sn\_customerservice\) and the Customer Service Case Types plugin \(com.snc.csm\_case\_types\) are required for the **Service** field to appear on case task lists and forms.
+ **Note:** The Case Management Core plugin \(com.sn\_customerservice\) and the Customer Service Case Types plugin \(com.snc.csm\_case\_types\) are required for the **Service** field to appear on case task lists and forms.
 
 </td></tr><tr><td>
 
@@ -165,6 +165,22 @@ Visible to customer
 </td><td>
 
 If this check box is enabled, the case task is visible to end users from the Customer or Consumer Portals.
+
+</td></tr><tr><td>
+
+Template item
+
+</td><td>
+
+The task plan template item that created this record. This field is read-only, and is a reference to the Template Item \[sn\_task\_plan\_template\_item\] table and appears only when the Task Plan Templates plugin is active.
+
+</td></tr><tr><td>
+
+Template execution
+
+</td><td>
+
+The task plan template execution that created this record. This field is read-only, and is a reference to the Task Plan Template Execution table and appears only when the Task Plan Templates plugin is active.
 
 </td></tr></tbody>
 </table>

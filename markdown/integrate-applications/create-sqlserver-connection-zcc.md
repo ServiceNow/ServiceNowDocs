@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-30"
 reading_time_minutes: 3
 keywords: [Microsoft SQL Server connection, zero-copy connector, JDBC connector, data fabric connection, relational database]
-breadcrumb: [Microsoft SQL Server, Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Microsoft SQL Server, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create a Microsoft SQL Server connection
@@ -81,13 +81,15 @@ Connection URL
 
 </td><td>
 
-JDBC URL to establish the connection. The `encrypt` and `trustServerCertificate` parameters in the URL are optional; setting SSL in the Connection security configurations section is the recommended approach. If you specify these parameters in the URL, they take precedence over that setting. Azure SQL example:
+JDBC URL to establish the connection. For example: -   Azure SQL:
 
- `jdbc:sqlserver://<server>.database.windows.net:1433;database=<db>;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30`
+`jdbc:sqlserver://<server>.database.windows.net:1433;database=<db>;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30`
 
- GCP / on-premises example:
+-   GCP or on-premises:
 
- jdbc:sqlserver://&lt;host&gt;:1433;databaseName=&lt;db&gt;;encrypt=true;trustServerCertificate=true
+`jdbc:sqlserver://<host>:1433;databaseName=<db>;encrypt=true;trustServerCertificate=true`
+
+ The `encrypt` and `trustServerCertificate` parameters in the URL are optional. Setting SSL in the Connection security configurations section is the recommended approach; if you specify these parameters in the URL, they take precedence over that setting.
 
 </td></tr><tr><td>
 
@@ -100,15 +102,15 @@ Option to enable or disable SSL for the connection. When **Enabled**, additional
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Microsoft SQL Server.
 
-<table id="choicetable_sqlserver_auth"><thead><tr><th align="left" id="d143645e265">
+<table id="choicetable_sqlserver_auth"><thead><tr><th align="left" id="d141763e267">
 
 Option
 
-</th><th align="left" id="d143645e268">
+</th><th align="left" id="d141763e270">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d143645e274">
+</th></tr></thead><tbody><tr><td id="d141763e276">
 
 **Basic**
 
@@ -120,7 +122,7 @@ Option to use a Microsoft SQL Server login username and password. Compatible wit
 2.  Enter the password associated with the username.
 
 
-</td></tr><tr><td id="d143645e295">
+</td></tr><tr><td id="d141763e297">
 
 **OAuth**
 

@@ -7,7 +7,7 @@ release: australia
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect Support, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ If an escalation path is defined for a Connect Support conversation, you can use
 
 ## Before you begin
 
-Define an escalation path for the queue, using the **Escalate to** field on the Chat Queue \[chat\_queue\] table. For more information, see [Administer Connect Support queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/connect/t_AdministerConnectSupportQueues.md).
+Define an escalation path for the queue, using the **Escalate to** field on the Chat Queue \[chat\_queue\] table. For more information, see [Administer Connect Support queues]().
 
 ## Procedure
 

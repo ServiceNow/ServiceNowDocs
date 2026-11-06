@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety
 classification: health-and-safety
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Health and Safety Incident Management OSHA Content Pack, Health and Safety injury and illness reports, Health and Safety, Employee Service Management]
 ---

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-process-based-page.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure templates and pages, Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activate a playbook page or page variant
@@ -24,7 +24,7 @@ Some playbook pages and page variants are not active by default. You need to act
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-2.  In the Experiences list, select **CSM/FSM Configurable Workspace**.
+2.  In the Experiences list, select CRM Workspace.
 
 3.  Find one of the following pages by scrolling through the Pages and variants list to the Record section:
 

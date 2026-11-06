@@ -7,77 +7,77 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Explore, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Use App Engine instead of customization
 
 App Engine development tools, such as App Engine Studio, offer an excellent alternative to customizing existing applications on the ServiceNow AI Platform.
 
-When your company needs to add new functionality to the ServiceNow AI Platform, you can customize existing applications, such as IT Service Management \(ITSM\), or create a new application using App Engine developer products, such as App Engine Studio, Creator Studio, or ServiceNow Studio. A simple guideline for which path to choose is:
+To add new functionality to the ServiceNow AI Platform, customize an existing application, such as IT Service Management \(ITSM\), or create a new application with App Engine developer products, such as App Engine Studio, Creator Studio, or ServiceNow Studio. Use this guideline to choose a path:
 
--   If the customization extends the intended purpose of the application, it works better to customize. For example, you can add IT functionality to ITSM.
--   If the customization doesn’t extend the intended purpose of the application, it works better to create a new application using App Engine developer products. For example, do not repurpose the ITSM workflow to add a travel request workflow.
+-   Customize an existing application if the customization extends the application’s intended purpose. For example, add IT functionality to ITSM.
+-   Create a new application with App Engine developer products if the customization does not extend the application’s intended purpose. For example, do not repurpose the ITSM workflow to add a travel request workflow.
 
-## Examples of when to use App Engine
+## When should you use App Engine?
 
-ServiceNow products work best when they’re used as they were intended. If you find yourself heavily customizing an application to repurpose it, a better plan is to create a new application using App Engine developer products.
+ServiceNow products work best when you use them as intended. If you heavily customize an application to repurpose it, create a new application with App Engine developer products instead.
 
-The following scenarios demonstrate where creating a new application works better than heavily customizing an existing ServiceNow application:
+Create a new application instead of heavily customizing an existing ServiceNow application in these scenarios:
 
--   Your company has a business process that augments existing product functionality but doesn’t follow the same workflow exactly.
--   You have a novel use case for an app that doesn’t align with any product workflow.
--   You have a use case that could be built by heavily customizing an out-of-the-box application, but it doesn’t align with what the existing application was intended to do.
+-   Your company has a business process that augments existing product functionality but does not follow the same workflow exactly.
+-   You have a novel use case for an app that does not align with any product workflow.
+-   You have a use case that you could build by heavily customizing an out-of-the-box application, but it does not align with the intended purpose of that application.
 
-Let’s dive deeper into the last use case.
+The following sections examine the last scenario in more detail.
 
-## Issues with repurposing existing products
+## What issues does repurposing existing products cause?
 
-ServiceNow applications come with roles, processes, and flows that are specially tailored to their use case. For example, ITSM apps help with IT users, IT issues, IT reports, and IT cases.
+ServiceNow applications include roles, processes, and flows tailored to their use case. For example, ITSM apps support IT users, IT issues, IT reports, and IT cases.
 
-You might have an idea for an app that’s similar to but doesn't exactly align with ITSM. Because ITSM gives you a starting point, you might be tempted to customize ITSM to add the new functionality. For example, ITSM tracks IT issues, and a travel app you want to create might track travel requests. While the workflows sound similar, in fact, they use very different data, different user interfaces, and the details of each workflow vary greatly. Rather than heavily customize ITSM to repurpose it, a better plan is to use App Engine developer products for the following reasons:
+An app idea might be similar to ITSM but not align with it exactly. Because ITSM provides a starting point, it can be tempting to customize ITSM to add the new functionality. For example, ITSM tracks IT issues, and a travel app might track travel requests. The workflows sound similar, but they use different data and different user interfaces, and the details of each workflow vary greatly. Use App Engine developer products instead of heavily customizing ITSM to repurpose it, for these reasons:
 
 -   Combining two workflows creates conflicts.
 -   Customizing applications has implications.
 
-## Combining two workflows creates conflicts
+## Why does combining two workflows create conflicts?
 
-In the ITSM example, the repurposing of ITSM to include a travel workflow uses different data, different tables, different roles, and different workflows than ITSM. As ITSM, ITSM customizations, and the travel workflow grow over time:
+In the ITSM example, repurposing ITSM to include a travel workflow requires different data, tables, roles, and workflows than ITSM uses. As ITSM, the ITSM customizations, and the travel workflow grow over time:
 
--   Their features will continue to diverge.
--   Adding new functionality or fixing problems in one workflow might adversely impact the other.
--   The performance of ITSM may suffer.
--   The code base will grow and the two purposes of ITSM will make troubleshooting more difficult.
--   Quality engineers will require two different testing frameworks.
+-   Their features continue to diverge.
+-   Adding new functionality or fixing problems in one workflow can adversely affect the other.
+-   ITSM performance can suffer.
+-   The code base grows, and the two purposes of ITSM make troubleshooting more difficult.
+-   Quality engineers need two different testing frameworks.
 
-All these issues may cause unnecessary complications, poorer performance, upgrade delays, and software problems.
+These issues can cause unnecessary complications, poorer performance, upgrade delays, and software problems.
 
-## Customizing applications has implications
+## What are the implications of customizing applications?
 
-The ServiceNow AI Platform is built to embrace customization and configuration. The ServiceNow AI Platform is flexible enough to fit your company’s business needs. How you customize ServiceNow applications, however, can have significant impacts on ServiceNow support, upgrading to future ServiceNow AI Platform versions, and the functionality of the platform.
+The ServiceNow AI Platform supports both customization and configuration and is flexible enough to fit your company’s business needs. However, how you customize ServiceNow applications can significantly affect ServiceNow support, upgrades to future ServiceNow AI Platform versions, and platform functionality.
 
-Let’s start by differentiating customization and configuration:
+Customization and configuration differ as follows:
 
--   Customization is any change made to the code that is part of the baseline installation of a ServiceNow instance. You use code to customize applications.
+-   Customization is any change to the code in the baseline installation of a ServiceNow instance. You use code to customize applications.
 -   Configuration is any change you make to the behavior of a product that does not touch the code in the baseline installation of a ServiceNow instance. You can use system properties, ServiceNow products, or code to configure an application.
 
-The following are some of the implications that result from customizing applications:
+Customizing applications has these implications:
 
--   If you add code to an application, you own it whether or not it modifies the code in the baseline installation on a ServiceNow instance.
--   The platform marks all customizations and skips them when you update to a new version of the platform. That means you are responsible for manually updating the customizations. This can have a significant impact on the time and resources required to update to new platform versions.
--   The ServiceNow AI Platform uses a framework that supports applications in how they process tasks, how forms are rendered in multiple browsers, and the overall user experience. Introducing customizations can have unintended consequences on this framework.
--   You own the burden of testing custom code and determining if it impacts platform functionality.
+-   If you add code to an application, you own it, whether or not it modifies the code in the baseline installation on a ServiceNow instance.
+-   The platform marks all customizations and skips them when you update to a new version of the platform. You are responsible for manually updating the customizations, which can significantly affect the time and resources required to update to new platform versions.
+-   The ServiceNow AI Platform uses a framework that supports how applications process tasks, how forms render in multiple browsers, and the overall user experience. Customizations can have unintended consequences on this framework.
+-   You are responsible for testing custom code and determining whether it affects platform functionality.
 -   ServiceNow Customer Support cannot troubleshoot custom code or issues caused by custom code.
 
-Customization is one of the key features of the ServiceNow AI Platform. However, over-customizing an application to repurpose it is likely to generate technical debt, lengthen your upgrade cycle, and complicate future platform upgrades because the custom code may not easily migrate to new platform versions.
+Customization is a key feature of the ServiceNow AI Platform. However, over-customizing an application to repurpose it is likely to generate technical debt, lengthen your upgrade cycle, and complicate future platform upgrades, because custom code might not migrate easily to new platform versions.
 
-## Conclusion
+## What is the recommended order for customization and configuration?
 
-Customization and configuration are hallmarks of the ServiceNow AI Platform that enable your company to customize workflows to fit its specific needs. Proceed with these tasks in the following order:
+Customization and configuration let your company tailor workflows to its specific needs on the ServiceNow AI Platform. Follow this order:
 
 1.  Configure ServiceNow applications as much as you can before customizing them.
-2.  Customize an application only when it extends the intent of the application.
-3.  Use App Engine developer products, such as App Engine Studio, Creator Studio, and ServiceNow Studio, to create new applications rather than customizing an application to create functionality that doesn’t align with its original purpose.
+2.  Customize an application only when it extends the application’s intent.
+3.  Use App Engine developer products, such as App Engine Studio, Creator Studio, and ServiceNow Studio, to create new applications rather than customizing an application to create functionality that does not align with its original purpose.
 

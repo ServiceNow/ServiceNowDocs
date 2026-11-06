@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [MID-less log streaming via ITOM Gateway, MID-less integrations, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -75,5 +75,5 @@ For more information about connecting a Cribl Stream instance to the ServiceNow 
     If these values appear, log streaming via ITOM Gateway setup is complete.
 
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[MID-less log streaming via ITOM Gateway in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-midless-streaming.md)
 

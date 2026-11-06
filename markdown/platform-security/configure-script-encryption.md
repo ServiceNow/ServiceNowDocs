@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/configure-script-encryption.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Script access for cryptographic modules, Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -102,7 +102,7 @@ Advanced tab
 </td><td>
 
 On the **Advanced** tab, paste the following script text at line 3: ```
-
+//
 var gc = global.GlideCryptoModule.getModule('global.acme_mod');
 var value = 'test';
 var encrypted = gc.encryptData(value);

@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated certificate renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -24,5 +24,5 @@ The certificate renewal AI agent is part of AI Agents for Discovery. You interac
 Before you use the agent, configure your system for automatic certificate renewal:
 
 1.  [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md)
-2.  [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
+2.  [Add required applications and capabilities to MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
 

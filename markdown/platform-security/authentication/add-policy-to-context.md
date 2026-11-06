@@ -1,20 +1,20 @@
 ---
 title: Add an authentication policy to an authentication policy context
-description: Add an authentication policy to one of the authentication policy contexts. The authentication context uses the policy inputs and conditions to determine whether uses are granted access to the instance, or whether MFA is enforced for your users.
+description: Add an authentication policy to one of the authentication policy contexts. The authentication context uses the policy inputs and conditions to determine whether users are granted access to the instance, or whether MFA is enforced for your users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/add-policy-to-context.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication policies, Adaptive authentication, Authentication, Access Management]
 ---
 
 # Add an authentication policy to an authentication policy context
 
-Add an authentication policy to one of the authentication policy contexts. The authentication context uses the policy inputs and conditions to determine whether uses are granted access to the instance, or whether MFA is enforced for your users.
+Add an authentication policy to one of the authentication policy contexts. The authentication context uses the policy inputs and conditions to determine whether users are granted access to the instance, or whether MFA is enforced for your users.
 
 ## Before you begin
 
@@ -38,7 +38,7 @@ Role required: adaptive\_auth\_admin
 
     -   **Session Validation Context**
 
-        Use the session validation context to evaluate the IP-Address that are set based on the conditions defined as a filter and allows access to the instance within a session.
+        Use the session validation context to evaluate the IP addresses that are set based on the conditions defined as a filter and allow access to the instance within a session.
 
 2.  In the **Default Policy** field, select a value.
 
@@ -60,9 +60,9 @@ Role required: adaptive\_auth\_admin
 
     -   **Session validation context**
 
-        This context has a **Allow Policy** or **Deny Policy** field, depending on the selection in the **Default Policy** field.
+        This context has an **Allow Policy** field.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
     After updating the record, you can see your policy's inputs and conditions in the **Policy Input** and **Policy Conditions** tabs.
 

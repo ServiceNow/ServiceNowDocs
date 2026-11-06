@@ -1,22 +1,24 @@
 ---
-title: Prerequisites for setting up CPQ
-description: Verify that you have completed the prerequisites before setting up the Configurator.
+title: Prerequisites for setting up ServiceNow CPQ
+description: Complete the prerequisites before you set up the Configurator and ServiceNow Quote Experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/prereq-for-cpq-config.html
 release: australia
 topic_type: task
 last_updated: "2026-05-05"
 reading_time_minutes: 2
-breadcrumb: [With guided setup, Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [With guided setup, Setting up ServiceNow CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Prerequisites for setting up CPQ
+# Prerequisites for setting up ServiceNow CPQ
 
-Verify that you have completed the prerequisites before setting up the Configurator.
+Complete the prerequisites before you set up the Configurator and ServiceNow Quote Experience.
 
 ## Before you begin
 
 Role required: admin
+
+Set the application scope to Quote Experience \(sn\_quote\_mgmt\_adv\)
 
 ## Procedure
 
@@ -30,7 +32,7 @@ Role required: admin
     -   Order Management \(sn\_ind\_tmt\_orm\)
     -   Product Catalog Management Core \(sn\_prd\_pm\)
     -   Price Management \(sn\_csm\_pricing\)
-    -   Quote Management Application \(sn\_quote\_mgmt\)
+    -   Quote Experience
     -   Product Configurator \(sn\_prd\_config\_ui\)
     -   Customer Life Cycle Management Workflows \(sn\_l2c\_cust\_flows\)
     -   Product and pricing rules \(sn\_csm\_price\_mtrx\)
@@ -46,26 +48,26 @@ Role required: admin
     -   CPQ Configurator \(sn\_cpq\_config\)
     -   Contracts and Entitlement Workflows \(sn\_contract\_ent\_wf\)
     -   Sales Quota Application \(sn\_quota\_app\)
-    The following are dependent plugins that are installed with the above mentioned plugins. Review and install the plugins if they aren't installed already.
+    The following are dependent plugins that are installed with the earlier mentioned plugins. Review and install the plugins if they aren't installed already.
 
     -   Product Catalog Management Core \(sn\_prd\_pm\) - installed with Price Management, Product Configurator, Product Offering Recommendations
-    -   Customer Life Cycle Management Workflows \(sn\_l2c\_cust\_flows\) - installed with Order management and Quote Management Application, Contracts and Entitlement Workflows
+    -   Customer Life Cycle Management Workflows \(sn\_l2c\_cust\_flows\) - installed with Order management and Quote Experience, Contracts and Entitlement Workflows
     -   Price Management \(sn\_csm\_pricing\) - installed with Product and pricing rules, Sales Cart
     -   Order Management \(sn\_ind\_tmt\_orm\) - installed with Order Management Portal, Order Operations Case Management
-    -   CPQ Integration \(sn\_cpq\_intg\) - installed with CPQ Configurator
+    -   CPQ Integration \(sn\_cpq\_intg\) - installed with ServiceNow CPQ Configurator
 3.  Gather information regarding your instance.
 
     1.  Navigate to `https://<service_instance_url>/oauth_entity.do?sys_id=3b119df83b566210a0c0989e53e45a15` for the OAuth Entity record to retrieve the Client ID and Secret.
 
         **Note:** Replace `<service_instance_url>` with your ServiceNow instance in the URL mentioned above.
 
-    2.  Verify the CPQ Admin UI Application Registry exists with a **ClientID** and **Client secret**.
+    2.  Verify the ServiceNow CPQ Admin UI Application Registry exists with a **ClientID** and **Client secret**.
 
     3.  Select the lock icon of the **Client secret** field to make it visible.
 
-    4.  Copy the  **Client ID ** and **Client secret** if exists; use them to request a CPQ instance.
+    4.  Copy the **Client ID** and **Client secret** if exists; use them to request a ServiceNow CPQ instance.
 
-4.  Request a CPQ instance using the following the steps.
+4.  Request a ServiceNow CPQ instance using the following steps.
 
     1.  Navigate to [Now Support](https://support.servicenow.com/now?id=ns_get_help).
 
@@ -89,18 +91,22 @@ Role required: admin
         -   Primary Business Contact \(name and email address\)
         -   Instance Owner \(name and email address\)
         -   ServiceNow Instance URL
-    9.  Select **Continue**.
+    9.  Enable the Quote Experience tenant settings.
 
-    10. Review the summary and select **Confirm and Submit**.
+        For more information, see [ServiceNow Quote Experience tenant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-exp-tenant-settings.md)
+
+    10. Select **Continue**.
+
+    11. Review the summary and select **Confirm and Submit**.
 
 
 ## Result
 
-You will receive an email with the CPQ details. Select the **View request** to access the support portal and set a password.
+You will receive an email with the ServiceNow CPQ details. Select the **View request** to access the support portal and set a password.
 
-**Note:** You can proceed with the guided setup only after you receive CPQ details.
+**Note:** You can proceed with the guided setup only after you receive ServiceNow CPQ details.
 
 ## What to do next
 
-[Set up CPQ using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-cpq-using-guided-setup.md)
+[Set up ServiceNow CPQ configurator using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-cpq-using-guided-setup.md)
 

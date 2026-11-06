@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Process Mining, Platform Analytics]
 ---
@@ -111,13 +111,15 @@ Select the **Auto Retire** check box if you want to automatically retire the pro
 
  The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/data-cleanup.md).
 
+ **Note:** If a project has been automatically retired, you can remine it directly. Remining a retired project automatically sets its state to Draft if the project wasn't shared earlier, or to Published if it was shared. Previously, you had to open the project and manually change its state to Draft or Published before you could remine it.
+
 </td></tr><tr><td>
 
 Template
 
 </td><td>
 
-Whether to create a default or Workforce Optimization template.
+Whether to create a default template.
 
 </td></tr><tr><td>
 

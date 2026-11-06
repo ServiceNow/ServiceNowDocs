@@ -7,7 +7,7 @@ release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Non-disclosure agreement requests in Legal Simple Contracts, Requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Access the non-disclosure agreement intake form.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d231956e71">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d232077e71">
 
 Option
 
-</th><th align="left" id="d231956e74">
+</th><th align="left" id="d232077e74">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d231956e80">
+</th></tr></thead><tbody><tr><td id="d232077e80">
 
 **Using __Employee Center__**
 
@@ -43,7 +43,7 @@ Description
 3.  Search for and open the **Non-disclosure agreement** request item.
 
 
-</td></tr><tr><td id="d231956e123">
+</td></tr><tr><td id="d232077e123">
 
 **Using __Legal Service Portal__**
 

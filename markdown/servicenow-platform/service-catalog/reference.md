@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Types of service catalog variables, Service catalog variables, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ For attributes supported by this variable, see [variable attributes](https://raw
 
 Keep the following information in mind when you create a reference variable:
 
--   Reference variables use the [auto-complete feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AutoCompleteForReferenceFields.md) . To ensure that users have enough information to make the selection, configure the [reference lookup list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceLookup.md) .
+-   Reference variables use the auto-complete feature . To ensure that users have enough information to make the selection, configure the [reference lookup list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceLookup.md) .
 -   Reference variables store the sys\_id of the selected record \(like reference fields\). To use the display value in a script, use the same methods as for a reference field.
 
 ```

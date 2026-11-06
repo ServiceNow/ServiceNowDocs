@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-lists-sp-ibi.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer Customer Contracts and Entitlements, Administer, Customer Service Management]
 ---
@@ -28,15 +28,15 @@ To see the contracts, contract line items, and entitlements associated with a so
 
 1.  Add related lists to sold products and install base items.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d119409e65">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d121610e65">
 
 Add to
 
-</th><th align="left" id="d119409e68">
+</th><th align="left" id="d121610e68">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d119409e74">
+</th></tr></thead><tbody><tr><td id="d121610e74">
 
 **Sold Product**
 
@@ -46,7 +46,7 @@ Procedure
 2.  Select the sold product.
 
 
-</td></tr><tr><td id="d119409e107">
+</td></tr><tr><td id="d121610e107">
 
 **Install Base Item**
 

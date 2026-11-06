@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-approval-view.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -42,14 +42,18 @@ You can use generative AI to streamline the approval process for exceptions and 
 
 All requests including pending, overdue, or completed, are easy to locate and manage in the single view. Links to legacy approval requests are available for items that remain in the old flow during the migration period.
 
--   **[Add an approver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-add-false-positive-approver.md)**  
-Users added to the False Positive, Unassign, Exception Approver group can approve findings and remediation tasks \(VULs\). Granting a false positive, unassign, exception is a single-level approval process.
--   **[Configure Approval List and Form View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-approval-view.md)**  
-Optimize the review and approval process by configuring list views and form layouts for unified exception and approval management.
--   **[Reviewing an Approval Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-review-approval-request.md)**  
-Review an approval request form to perform the required action according to the role assigned to you.
--   **[Review questionnaire to approve or reject requets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-smart-assessment-flow.md)**  
-Approvers review the questionnaire and make approval/rejection decisions based on the provided information. Remediation owners must fill out the questionnaire before submitting for approval, if questionnaire configuration was selected during exception rule configuration..
+Each change approval request includes additional attributes such as **Risk Rating** \(Critical, High, Medium, Low, None\), **Remediation Status** \(No Target, In-flight, Approaching Target, Target Missed, Target Met\), **Decision date**, **Impacted services**, and **Approval levels**. Approvers can also use the bulk approve and reject capability to process multiple eligible approval requests simultaneously.
 
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
+## Bulk approve or reject requests
+
+From any list view in the Unified Approvals View, approvers can act on multiple requests at once:
+
+1.  Select the checkboxes beside the requests to act on, or use the header checkbox to select all visible requests.
+2.  Select **Bulk Approve** or **Bulk Reject** from the action bar at the top of the list.
+3.  Optionally, enter a single justification that applies to all selected requests; the justification is recorded against each approval record.
+4.  Select **Confirm**. The system processes each request in turn and reports a per-request outcome.
+
+Only requests in the **Requested** state are eligible for bulk action. Requests in other states are skipped and listed in the result panel. If a single request fails \(for example, because the approval rule requires individual approval\), the remaining requests still process; failures do not block the batch.
+
+**Note:** Bulk action runs the same approval logic as individual approvals, including multi-level routing. A request that requires a second-level approval moves to the next level after the bulk action approves the first level.
 

@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Update Engagement Messenger launch URLs to the latest version
@@ -24,7 +24,7 @@ Role required: Website administrator
 
 1.  Open the HTML file of the web page on the website where you integrate Engagement Messenger.
 
-2.  Change the existing version number to `v=3.1`.
+2.  Change the existing version number to the latest version.
 
     For example:\[Omitted image "em-version-no-update.png"\] Alt text: Engagement Messenger with the version number highlighted in the Embed code.
 

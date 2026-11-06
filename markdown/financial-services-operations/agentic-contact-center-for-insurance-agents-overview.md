@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/agentic-contact-center-for-insurance-agents-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [insurance csr support ai agent, insurance csr customer insights ai agent, agentic contact center insurance ai agents, insurance ai agent overview, now assist insurance agents, insurance knowledge graph]
 breadcrumb: [Exploring Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]

@@ -1,31 +1,32 @@
 ---
 title: On-Call Scheduling release notes
-description: The ServiceNow On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Australia release.The ServiceNow On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Australia release.
+description: The ServiceNow On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Brazil release.The ServiceNow On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/on-call-scheduling-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-21"
 reading_time_minutes: 1
-breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # On-Call Scheduling release notes
 
-The ServiceNow® On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Australia release.
+The ServiceNow® On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Brazil release.
 
 ## About On-Call Scheduling
 
--   Configure on-call schedule features using granular roles.
--   Configure a monthly roster rotation for an on-call schedule to simplify shift management.
+-   Respond to incidents faster by ensuring a dedicated support team member always responds. Define on-call schedules, roster rotations, and escalation policies, and automatically escalate to the next responder until someone acknowledges.
+-   Give every on-call responder one place to view their schedule, manage shifts, request time off, and track escalation status, from the desktop or the mobile app.
+-   Ensure faster response times by reaching responders over the channels they already use and see the delivery status of every notification sent.
 
-See [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_OnCallScheduling.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
 -   **Activation information**
 
-    On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see [Activate On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_ActivateOnCallScheduling.md). Activating this plugin activates the following third-party libraries:
+    On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see . Activating this plugin activates the following third-party libraries:
 
     -   FullCalendar library
     -   DHTMLX scheduler
@@ -34,22 +35,26 @@ See [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 **Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-service-management-rn-landing.md)
 
-## Australia
+## Brazil
 
-The ServiceNow® On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Australia release.
+The ServiceNow® On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Brazil release.
 
 ### What's new
 
--   **[Monthly roster rotation for an on-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-update-schedule-oncall.md)**
+-   ****
 
-    Simplify shift management by configuring a monthly roster rotation for an on-call schedule. This option is available only for the 2024 schedule engine.
+    Track on-call escalation notification delivery status from dispatch through acknowledgment across all supported channels. View failure reasons for each contact mode when notifications fail to reach recipients.
 
--   **[Granular role for on-call schedule configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/roles-assigning-oncall.md)**
 
-    Configure on-call schedule features using the granular and specific role, sn\_on\_call\_admin. It contains sn\_trigger\_table\_cfg\_read and sn\_trigger\_table\_cfg\_write roles.
+### What's changed
 
--   **[Bulk on-call schedule setup wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/oc-create-bulk-schedule-onboarding.md)**
+-   **On-Call read role coverage for on-call read access**
 
-    Admins with the rota\_admin role can now onboard many teams onto on-call rotations in a single guided flow, instead of configuring each team one-by-one in On-Call Scheduling. Select the **On-Call Bulk Onboarding** in Service Operations Workspace \(SOW\).
+    The On-Call read \[oc\_read\] role grants read-only access to On-Call Scheduling rotations, rosters, schedules, escalations, communication channel configuration, and reports, and dashboards.
+
+
+-   **Escalation logging is true by default**
+
+    The `com.snc.on_call_rotation.log_escalations` property, which controls whether on-call escalations are logged, is enabled by default. After upgrade, the existing value on this property remains unaffacted.
 
 

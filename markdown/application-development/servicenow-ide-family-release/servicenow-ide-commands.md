@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reference, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow IDE commands
@@ -173,7 +173,7 @@ File Categories: Focus on File Categories View
 
 </td><td>
 
-Navigate to the File Categories view.Learn more: [Create an application file in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.md)
+Navigate to the File Categories view.Learn more: [Create an application file from the File Categories view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.md)
 
 </td></tr><tr><td>
 

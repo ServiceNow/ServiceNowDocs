@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure and customize the migration to SOW, Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM, Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -47,7 +47,7 @@ The SOW migration utility uses the following sequence to migrate the form header
 -   **[Perform post-migration tasks for form headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/verify-migration-status-form-headers-sow.md)**  
 Verify that the form header in Service Operations Workspace \(SOW\) are consistent with the form header in ITSM Agent Workspace \(ITSM AW\) and are ready for use in SOW. You can update the migrated form header settings in SOW based on your requirements.
 
-**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
+**Parent Topic:**[Migration of ITSM Agent workspace configurations to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
 
 **Related topics**  
 

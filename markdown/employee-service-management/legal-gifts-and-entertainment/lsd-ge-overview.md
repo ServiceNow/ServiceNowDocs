@@ -7,7 +7,7 @@ release: australia
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Gifts and Entertainment Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---

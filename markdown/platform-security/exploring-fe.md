@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/exploring-fe.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-26"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Field Encryption, Encryption]
 ---
 
@@ -18,233 +18,32 @@ Learn the details of Field Encryption Starter and Field Encryption Enterprise
 
 \[Omitted video\] Description: This video provides an overview of Field Encryption, including how it protects sensitive data at rest by encrypting individual fields and attachments, and how its key components work together.
 
-By default, Field Encryption blocks all users, scripts, and system processes from accessing encrypted data. However, Field Encryption has an access control feature that works in combination with Access Control Lists \(ACLs\). This feature is also separate from ACLs and ensures only the correct users, scripts, or system processes can access encrypted data.
+By default, Field Encryption blocks all users, scripts, and system processes from accessing encrypted data. However, Field Encryption has an access control feature that works with Access Control Lists \(ACLs\). This feature ensures only the correct users, scripts, or system processes can access encrypted data.
 
-You can configure Field Encryption access control feature through a combination of Field Encryption Modules, Encrypted Field Configurations, and Module Access Policies \(MAPs\). The next image shows how these three components work together.
+You can configure Field Encryption access control feature through a combination of Field Encryption Modules, Encrypted Field Configurations, and Module Access Policies. The next image shows how these three components work together.
 
-\[Omitted image "fe\_field\_encryption\_components\_diagram.svg"\] Alt text: Field encryption and supporting components
+\[Omitted image "fe-diagram-1.png"\] Alt text: Field encryption and supporting components
 
-By default, encrypted data is locked down from all access. A MAP defines which accessor \(users, scripts, and system processes\) can be authorized to access the data.
+Module Access Policies \(shown in the next image\) authorize users, scripts, or system processes to access encrypted data. By default, encrypted data is locked down from any access in the instance.
 
-\[Omitted image "fe\_map\_diagram.svg"\] Alt text: Module access policy flow
+\[Omitted image "fe-diagram-2.png"\] Alt text: Module access policy flow
 
-You can configure multiple MAPs to apply different access rules to different encrypted fields. In this diagram, Module Access Policy A covers columns A, B, C, and D. Module Access Policy B covers column E. Each policy has its own rules per accessor.
-
-\[Omitted image "fe\_map\_example\_diagram.svg"\] Alt text: Multiple module access policy example
-
-Access rules can differ between two policies for each accessor type. The following table reflects the access rules defined for Module Access Policy A and Module Access Policy B. Module Access Policy A applies to columns A, B, C, and D. Module Access Policy B applies to column E.
-
-<table><thead><tr><th>
-
-Accessor
-
-</th><th>
-
-MAP A Columns A, B, C, D
-
-</th><th>
-
-MAP B Column E
-
-</th></tr></thead><tbody><tr><td>
-
-Role A
-
-</td><td>
-
-Allow
-
-</td><td>
-
-Block
-
-</td></tr><tr><td>
-
-Role B
-
-</td><td>
-
-Allow
-
-</td><td>
-
-Block
-
-</td></tr><tr><td>
-
-Role C
-
-</td><td>
-
-Block
-
-</td><td>
-
-Allow
-
-</td></tr><tr><td>
-
-Script A
-
-</td><td>
-
-Allow
-
-</td><td>
-
-Block
-
-</td></tr><tr><td>
-
-Script B
-
-</td><td>
-
-Block
-
-</td><td>
-
-Block
-
-</td></tr><tr><td>
-
-Script C
-
-</td><td>
-
-Block
-
-</td><td>
-
-Allow
-
-</td></tr><tr><td>
-
-System Context Processes
-
-</td><td>
-
-Block
-
-</td><td>
-
-Allow
-
-</td></tr></tbody>
-</table>## Differences between Field Encryption Starter and Field Encryption Enterprise
+## Differences between Field Encryption Starter and Field Encryption Enterprise
 
 The feature-set is different between Field Encryption Starter and Field Encryption Enterprise.
 
-<table id="table_uk2_b3n_b2c"><thead><tr><th>
+|Feature|Field Encryption Starter|Field Encryption Enterprise|
+|-------|------------------------|---------------------------|
+|Number of encrypted fields|Up to 5 encrypted fields|No restriction on number of encrypted fields|
+|Attachment encryption|No|Yes|
+|Key management|None \(Contact ServiceNow Support for key rotation\)|Manage keys from your instance with no involvement from ServiceNow Support|
+|Supported data types|All supported data types|All supported data types|
+|Number of Field Encryption Modules|No restriction|No restriction|
+|Number of Module Access Policies|No restriction|No restriction|
+|Customer-Supplied Key \(BYOK\)|No|Yes|
+|External Key Management Service \(HYOK\)|No|Yes|
 
-Feature
-
-</th><th>
-
-Field Encryption Starter
-
-</th><th>
-
-Field Encryption Enterprise
-
-</th></tr></thead><tbody><tr><td>
-
-Number of encrypted fields
-
-</td><td>
-
-Up to 5 encrypted fields**Note:** Field Encryption Starter limits the number of encrypted fields, not encryption modules or contexts. Field Encryption replaces the deprecated Column Level Encryption product, which used a module and context-based limit.
-
-</td><td>
-
-No restriction on number of encrypted fields
-
-</td></tr><tr><td>
-
-Attachment encryption
-
-</td><td>
-
-No
-
-</td><td>
-
-Yes
-
-</td></tr><tr><td>
-
-Key management
-
-</td><td>
-
-None \(Contact ServiceNow Support for key rotation\)
-
-</td><td>
-
-Manage keys from your instance with no involvement from ServiceNow Support
-
-</td></tr><tr><td>
-
-Supported data types
-
-</td><td>
-
-All supported data types
-
-</td><td>
-
-All supported data types
-
-</td></tr><tr><td>
-
-Number of Field Encryption Modules
-
-</td><td>
-
-No restriction
-
-</td><td>
-
-No restriction
-
-</td></tr><tr><td>
-
-Number of Module Access Policies
-
-</td><td>
-
-No restriction
-
-</td><td>
-
-No restriction
-
-</td></tr><tr><td>
-
-Customer-Supplied Key \(BYOK\)
-
-</td><td>
-
-No
-
-</td><td>
-
-Yes
-
-</td></tr><tr><td>
-
-External Key Management Service \(HYOK\)
-
-</td><td>
-
-No
-
-</td><td>
-
-Yes
-
-</td></tr></tbody>
-</table>## Field Encryption users
+## Field Encryption users
 
 <table id="table_k3r_dhn_b2c"><thead><tr><th>
 
@@ -284,7 +83,11 @@ Changes to fields encrypted with Field Encryption are not tracked in the activit
 
 ## Encryption on system tables
 
-Field Encryption currently doesn’t support the encryption of fields and attachments of system tables \(system tables whose names begin with `sys_`\).
+Field Encryption currently doesn't support the encryption of fields and attachments of system tables \(system tables whose names begin with `sys_`\).
+
+## Field Encryption and archive tables
+
+Archive tables store historical data from base tables. When you create Encrypted Field Configurations, define them on your base tables, not on archive tables. Encrypted data from base tables automatically moves to archive tables in an encrypted state. For detailed information on how encryption interacts with archive tables and best practices, see [Archive Tables and Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/archive-tables-fe.md).
 
 ## Cloning considerations
 

@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrate Meeting Extensions self-configured app with Microsoft Teams, Integration for Agent Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrate Meeting Extensions self-configured app with Microsoft Teams, Integration for Agent Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Create and configure an app for Meeting Extensions in the Microsoft Teams Developer Portal
@@ -178,25 +178,19 @@ Option to allow users to reconfigure the Meeting Extensions app.
 </td></tr></tbody>
 </table>    3.  Select **Save**.
 
-4.  Assign the chat and meeting permissions.
-
-    1.  Navigate to **Permissions** &gt; **Chat/Meeting permissions**.
-
-    2.  Select **MeetingStage.Write.Chat**.
-
-    3.  Select **Save**.
-
-5.  Go to **Single sign-on** and enter the Application ID URI in the format `api://<instance_name>.service-now.com/<client ID in Microsoft Azure>`.
+4.  Go to **Single sign-on** and enter the Application ID URI in the format `api://<instance_name>.service-now.com/<client ID in Microsoft Azure>`.
 
     For information about the Client ID, see [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-app-ms-teams.md).
 
-6.  Add a domain.
+5.  Add a domain.
 
     1.  Navigate to **Domains** &gt; **Create your first domain**.
 
     2.  Enter `*.service-now.com` in the Add domain dialog box to allow authorizations for ServiceNow URLs.
 
-7.  Select **Publish/Distribute**.
+6.  Select **Publish**.
+
+7.  Select **Download the app package**.
 
 
 ## What to do next

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-07-13"
 reading_time_minutes: 1
 keywords: [use]
-breadcrumb: [Content Understanding, Enable AI experiences]
+breadcrumb: [Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Using Content Understanding

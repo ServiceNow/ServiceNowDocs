@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge blocks authoring in Agent Workspace, Using knowledge blocks, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ Role required: agent\_workspace\_user and knowledge
 
 3.  Click an existing article link.
 
-    For more information, see [Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/edit-article-workspace.md).
+    For more information, see [Edit a knowledge article in Agent Workspace]().
 
     **Note:**
 

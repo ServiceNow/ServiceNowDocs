@@ -9,7 +9,7 @@ classification: portfolio-planning
 topic_type: task
 last_updated: "2026-10-01"
 reading_time_minutes: 1
-breadcrumb: [Demand experiences, Configure, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Configuring demand experiences, EWD for demands, Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Create a demand experience
@@ -23,6 +23,8 @@ If the demand experience uses a dynamic category, the dynamic category that defi
 Role required: pps\_admin
 
 ## About this task
+
+\[Omitted video\] Description: Create and manage demand experiences
 
 A demand experience consists of a custom form view, demand modules, and, optionally, a dynamic category that defines custom fields for that experience. For example, you can create experiences for Marketing or IT governance processes. For more information, see [Demand experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/demand-experiences-ppw.md).
 

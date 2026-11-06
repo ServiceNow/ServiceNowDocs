@@ -1,18 +1,18 @@
 ---
-title: Configure service definition catalog items for License and Permit Playbook application
-description: Create a service definition for use with the License and Permit Playbook in Public Sector Digital Services.
+title: Configure service definition catalog items for License and Permit Administration application
+description: Create a service definition for use with the License and Permit Administration in Public Sector Digital Services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-create-service-definition-catalog-item.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure service definition catalog items for License and Permit Playbook application
+# Configure service definition catalog items for License and Permit Administration application
 
-Create a service definition for use with the License and Permit Playbook in Public Sector Digital Services.
+Create a service definition for use with the License and Permit Administration in Public Sector Digital Services.
 
 ## Before you begin
 
@@ -72,7 +72,7 @@ Application
 
 </td><td>
 
-Application scope of the service. If blank, select License and Permit Playbook.
+Application scope of the service. If blank, select License and Permit Administration.
 
 </td></tr><tr><td>
 
@@ -103,6 +103,6 @@ Description of the public service.
 </td></tr></tbody>
 </table>6.  Select **Submit**.
 
-    Your catalog item is created and ready for use by constituents submitting cases through the Government Service Portal, or agents creating a case from scratch in the CRM Workspace.
+    Your catalog item is created and ready for use by constituents submitting cases through the Government Service Portal, or agents creating a case from scratch in the Public Sector Workspace.
 
 

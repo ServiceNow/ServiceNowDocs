@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [set up jwt provider, jwt provider, json web token provider, signing configuration, standard claims, custom claims, claim value, tokenuri, clientid, jwt bearer token, configure jwt provider]
 breadcrumb: [Set up OAuth for Card Data Security, Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
@@ -67,7 +67,7 @@ A JWT key created for Card Data Security. See [Set up a JWT key](https://raw.git
 
 5.  Do the following in the **Standard Claims** related list.
 
-<table id="choicetable_cxk_mzn_kjc"><tbody><tr><td id="d80146e323">
+<table id="choicetable_cxk_mzn_kjc"><tbody><tr><td id="d80672e323">
 
 **Card network \(Visa, Mastercard\)**
 
@@ -78,7 +78,7 @@ A JWT key created for Card Data Security. See [Set up a JWT key](https://raw.git
 3.  In the `sub` record, update the **Claim Value** with a descriptive name.
 
 
-</td></tr><tr><td id="d80146e374">
+</td></tr><tr><td id="d80672e374">
 
 **Verifi**
 

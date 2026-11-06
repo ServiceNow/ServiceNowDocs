@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-publicsectordigitalservices-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 18
+last_updated: "2026-11-06"
+reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
 
@@ -104,7 +104,12 @@ Australia
 
 </td><td>
 
--   **[Rolling grant approvals](https://www.servicenow.com/docs/access?context=psds-gm-rolling-grant-approvals-concept&family=australia&ft:locale=en-US)**
+-   **[Urban Planning and Administration Data Model](https://www.servicenow.com/docs/access?context=psds-explore-urb-plan-admin&family=australia&ft:locale=en-US)**
+
+The Urban Planning &amp; Permitting Administration data model provides ServiceNow developers with the foundation for building and customizing a unified platform for government land management, deigned to modernize property administration, streamline permitting workflows, and enable evidence-based urban planning decisions. Manage complex property portfolios, zoning regulations, and permitting workflows, and support cross-jurisdictional land administration with a government-optimized data model. Transform fragmented land records and spreadsheet-driven permitting processes into a single source of truth for urban planning operations with property-centric data models, planning workflows, and enterprise-grade architecture.
+
+
+ -   **[Rolling grant approvals](https://www.servicenow.com/docs/access?context=psds-gm-rolling-grant-approvals-concept&family=australia&ft:locale=en-US)**
 
 Propose awards and declines for any scored subset of applications at any time. The Rolling grant approval feature enhances the Grants management funding workflow, by giving Grant Program Managers the flexibility to propose awards and declines for any scored subset of applications at any time, without waiting for the entire proposal portfolio to complete review. From this release, Grant Program Managers can choose to process funding decisions incrementally as proposals are scored, or continue working in the traditional full-portfolio model.
 
@@ -205,7 +210,24 @@ Australia
 
 </td><td>
 
--   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
+-   **[Enhancements to Investigative Case Management](https://www.servicenow.com/docs/access?context=psds-explore-inv-case-management&family=australia&ft:locale=en-US)**
+    -   Render all entities, evidence, tasks, and related cases as an interactive knowledge graph with Case Link Analysis Data Visualization, and set any node as the home node to re-map relationships. Add ​control and transparency to entity updates with Master Index Versioning, creating an immutable, time-stamped snapshot of that entity that cannot be altered, and a complete audit trail – who changed it, when they changed it, what changed. Update entities across all cases or create a case-specific version for an investigation for a unified, searchable record of every entity across your cases \(Persons, Vehicles, Organizations, Locations, Property, Firearms\).
+
+    -   Manage field operations and view/create investigative tasks directly within the case context using the Tasks tab, found within an ICM investigative case record. Use the `Create Work Order` button to allow a case to be escalated to an Field Service Management work order without leaving the ICM workspace and context-switching between systems.
+
+    -   Added lead management capabilities for lead submission, intake, triage, assignment, tracking, and investigation workflows, including portal experiences for submitting and monitoring leads.
+
+-   **[Use Page Patterns with GOV.UK Developer Toolkit](https://www.servicenow.com/docs/access?context=psds-config-govuk-dev-tk-portal-patterns&family=australia&ft:locale=en-US)**
+    -   The GOV.UK Developer Toolkit has been updated to include three page patterns that confirm to GOV.UK Design System guidelines:
+
+        -   Question pages: forms experience where the questions are surfaced one by one on the UI
+        -   Step by step navigation: Where a user can view all the steps required to complete a task in one view
+        -   Confirmation page: Where a user sees a confirmation page after submitting their answer to the last question
+-   **[\[Placeholder link text to key bundle-gvin.psds-identity-framework-landing\]](https://www.servicenow.com/docs/access?context=psds-identity-framework-landing&family=australia&ft:locale=en-US)**
+    -   The Identity Provider Integration plugin \(sn\_idp\_integ\) allows provides ServiceNow developers with the data model foundation to develop OpenID Connect \(OIDC\) integrations that authenticate and verify constituent identities through approved government OpenID Connect \(OIDC\) providers — ID.me \(US\), myID \(Australia\), GOV.UK One Login \(UK\) — replacing email-only identification. It standardizes and enhances the identity verification process, delivering a provider-neutral OIDC framework for capturing and storing key identity provider data, including identity provider issuer, identity provider ID, and assurance level from OIDC providers on top of the existing Multi-Provider SSO \(MPSSO\) plugin.
+
+
+ -   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
@@ -249,7 +271,7 @@ Applicants can select a specific document type from a pre-configured, category-s
 
  -   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
 
-Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 

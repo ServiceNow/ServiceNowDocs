@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-rto-rpo-sa-templates.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Setup for a BIA, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -53,11 +53,11 @@ The **Automations** tab only appears when the Impact Automation \(Post Assessmen
 
         \[Omitted image "bia-sa-temp-categories-rpo-rto-templates.png"\] Alt text: Impact assessment templates field.
 
-        **Note:** The **Business impact assessment** template category also controls how the Smart Assessment Engine handles open BIA assessments when an impact assessment template is re-versioned. Set **Assessment handling on version retirement** to **Retain** to let in-progress BIAs complete on the retired version, or to **Cancel** to force in-progress BIAs to a canceled state so all active BIAs use the latest version. For more information, see [Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-smart-asmt-template.md).
-
 2.  Select **New template** in the Assessment Workspace or open an existing template.
 
-    When you select **New template**, the Create assessment template form is displayed.
+    When you select **New template**, the Create assessment template form, **General** tab, and **Questions** tab are displayed.
+
+    \[Omitted image "bia-asmt-ws-general-tab.png"\] Alt text: New template.\[Omitted image "bia-asmt-ws-general-tab.png"\] Alt text: General tab.
 
     1.  To configure the **General** tab, fill in the fields in the Create assessment template form and select **Create**.
 
@@ -123,8 +123,6 @@ The **Automations** tab only appears when the Impact Automation \(Post Assessmen
     4.  Select the **Publish** button and verify that the template status changes to Published.
 
         **Note:** The Create automation option only appears after publishing the template.
-
-        **Note:** Starting with GRC: Business Continuity Management - Core, version 11.0.1, Smart Assessment templates support version control, and version details are displayed on each template.
 
 4.  Create automation rules in the **Automations** tab.
 
@@ -203,7 +201,7 @@ If
 
 </td><td>
 
-Response based &gt; Section: Data change frequency &gt; What is the data change frequency? **is** Medium
+Response based &gt; Section: Data change frequency &gt; What is the data change frequency? **is**Medium
 
  **and**
 
@@ -242,7 +240,7 @@ If
 
 </td><td>
 
-Response based &gt; Section: Data change frequency &gt; What is the data change frequency? **is** Low
+Response based &gt; Section: Data change frequency &gt; What is the data change frequency? **is**Low
 
  **and**
 
@@ -264,14 +262,6 @@ Set recovery point objective: **1 week**
     3.  To enable automation, select **Activate** after configuring all action sets and verify that the automation status shows as “Active.”
 
         **Note:** Automations only run when they’re activated. Deactivated automations don’t set RTO and RPO values.
-
-    4.  Review and publish Post Assessment Actions after publishing a new template version.
-
-        A new version is required when a change affects question meaning, scoring, or structure. When a new version is published, the Smart Assessment Engine automatically copies the existing Post Assessment Actions to the new version in the **Draft** state.
-
-        Draft Post Assessment Actions do not run until published. Once you publish the Post Assessment Actions, BIAs triggered from the new version update the RTO, RPO, MTPD, or Recovery Tier fields.
-
-        BIAs triggered from the retired version continue to use that version's Post Assessment Actions.
 
 5.  Verify the Action type subflows in the Workflow Studio.
 

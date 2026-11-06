@@ -1,5 +1,5 @@
 ---
-title: Add an AWS CI class type to ensure accurate billing data
+title: Add an AWS CI class type for billing data accuracy
 description: Specify the details of a new CI or CI type to enable the CI placement process to assign cost and usage data correctly. The process is a part of Billing Download job execution. The CI placement process associates downloaded cost and usage data with the appropriate CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/cloud-cost-management/aws-class-type-add-cloudin.html
@@ -7,12 +7,12 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
-# Add an AWS CI class type to ensure accurate billing data
+# Add an AWS CI class type for billing data accuracy
 
 Specify the details of a new CI or CI type to enable the CI placement process to assign cost and usage data correctly. The process is a part of Billing Download job execution. The CI placement process associates downloaded cost and usage data with the appropriate CIs.
 

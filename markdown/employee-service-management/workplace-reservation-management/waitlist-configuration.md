@@ -7,9 +7,9 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage and configure reservation waitlist, Manage employee reservations, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage employee reservations, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Reservation Waitlist data model
@@ -54,9 +54,17 @@ The following configuration options must be enabled in the Reservable Module Con
     For more information, see [Create a reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-rsv-waitlist.md).
 
 
-**Parent Topic:**[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)
+-   **[Create a reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-rsv-waitlist.md)**  
+When work spaces in a location are fully booked, and employees are unable to find a space, they can join a reservation waitlist.
 
-**Previous topic:**[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)
+**Parent Topic:**[Manage employee reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/manage-reservation-requests.md)
 
-**Next topic:**[Create a reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-rsv-waitlist.md)
+**Related topics**  
+
+
+[View or update reservations]()
+
+[Approve a reservation]()
+
+[Print workplace reservations]()
 

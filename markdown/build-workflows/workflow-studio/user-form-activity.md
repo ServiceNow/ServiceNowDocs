@@ -1,5 +1,5 @@
 ---
-title: User Form activity
+title: Record Form activity
 description: Use this activity to surface a record to the end user. This activity requires you to select a table and record, and the desired form view that should be surfaced to the end user in your playbook. The end user can then interact with this record accordingly. Display a form during runtime to collect input values for your playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/user-form-activity.html
@@ -7,12 +7,12 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# User Form activity
+# Record Form activity
 
 Use this activity to surface a record to the end user. This activity requires you to select a table and record, and the desired form view that should be surfaced to the end user in your playbook. The end user can then interact with this record accordingly. Display a form during runtime to collect input values for your playbook.
 
@@ -22,7 +22,7 @@ This activity is available as a common activity. Users with the admin, playbook.
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
 
 <table id="table_ajt_sr3_plb"><thead><tr><th>
 

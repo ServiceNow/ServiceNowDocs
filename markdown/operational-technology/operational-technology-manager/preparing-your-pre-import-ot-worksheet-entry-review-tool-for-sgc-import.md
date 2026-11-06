@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Create an import task, Using the Service Graph Connector for Microsoft Excel through import tasks, Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -26,7 +26,11 @@ Role required: ot\_excel\_import\_user
 
 1.  Fill the following columns in the Microsoft Excel spreadsheet.
 
-    **Note:** Column names cannot be changed. Extra columns can be added to the staging table. For more information about adding a new custom field mapping in the staging table, see [Add a custom field mapping in the staging table for Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/add-new-column-mappings-excel-service-graph.md).
+    **Note:** Column names cannot be changed. Extra columns can be added to the staging table.
+
+    For more information about adding a new custom field mapping in the staging table, see [Add a custom field mapping in the staging table for Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/add-new-column-mappings-excel-service-graph.md). For more information about adding a custom column to the staging table, see [Add a custom column to the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/add-custom-column-staging-table.md).
+
+    .
 
     Refer to the following tables for guidance while filling in the spreadsheet. The spreadsheet contains many columns. The examples and field descriptions are split into multiple sections.
 
@@ -921,7 +925,7 @@ string
 
 </td><td>
 
-The equipment models start at the site level and contain a detailed hierarchical structure that describes each industrial site.For more information, see [Industrial Process Manager common terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/isa-95-equipment-model.md).
+The equipment models start at the site level and contain a detailed hierarchical structure that describes each industrial site.For more information, see [ISA-95 equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/isa-95-equipment-model.md).
 
 </td></tr><tr><td>
 

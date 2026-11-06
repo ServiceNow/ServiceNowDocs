@@ -1,43 +1,43 @@
 ---
 title: Attach files to a standard change template
-description: Attach files, such as documents, spreadsheet, and images to a standard change proposal. Standard change templates copy any file attached to the template to a change request that the template creates.
+description: Attach files, such as documents, spreadsheets, and images, to a standard change proposal. Standard change templates copy any file attached to the template to a change request that the template creates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/attach-files-change-templates.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Standard change catalog, Configure, Change Management, IT Service Management]
 ---
 
 # Attach files to a standard change template
 
-Attach files, such as documents, spreadsheet, and images to a standard change proposal. Standard change templates copy any file attached to the template to a change request that the template creates.
+Attach files, such as documents, spreadsheets, and images, to a standard change proposal. Standard change templates copy any file attached to the template to a change request that the template creates.
 
 ## Before you begin
 
-Role required: itil, admin
+Role required: itil or admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Change** &gt; **Standard Change** &gt; **My Proposals**.
 
-2.  Open the proposal to which you want to add the attachment to.
+2.  Open the proposal that you want to add the attachment to.
 
-3.  Click the \[Omitted image "attachfiles.png"\] Alt text: Manage Attachments. icon to browse and select the file.
+3.  Select the Manage Attachments icon \[Omitted image "attachfiles.png"\] Alt text: to browse and select the file.
 
     The attached file appears at the top of the proposal.
 
     **Note:** You can add more than one file as an attachment.
 
-4.  Click **Update** and request approval for the proposal.
+4.  Select **Update** and request approval for the proposal.
 
 
 ## Result
 
-Any attachment associated with a standard change proposal gets copied to the standard change template that is created when the proposal is approved. When that template is used to create a standard change, any attachment associated to it is also copied to those standard change requests.
+Any attachment associated with a standard change proposal is copied to the standard change template that is created when the proposal is approved. When that template is used to create a standard change, any attachment associated with it is also copied to those standard change requests.
 
 **Parent Topic:**[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)
 

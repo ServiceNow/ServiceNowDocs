@@ -7,9 +7,9 @@ release: australia
 product: Emergency Outreach
 classification: emergency-outreach
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Emergency Response Management, Employee Service Management]
+breadcrumb: [Emergency Response Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Emergency Outreach
@@ -121,5 +121,5 @@ Use response scripts to automatically take actions based on user responses to su
 -   **[Domain separation for Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-outreach/emergency-outreach-domain-separation.md)**  
 This application fully supports domain separation service provider \(SP\) use cases. The following table lists the domain separation use cases for service providers \(SPs\) using this application.
 
-**Parent Topic:**[Emergency Response Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-response-management.md)
+**Parent Topic:**[Emergency Response Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery/emergency-response-management.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,9 +26,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Supported ServiceNow versions:
 
--   Xanadu
--   Yokohama
 -   Zurich
+-   Australia
+-   Brazil
 
 ## Use cases
 
@@ -39,7 +39,7 @@ The following are examples on how you can use the Service Graph Connector for di
     -   Detailed hardware and software inventory tracking for hardware and apps for both iPhones and iPads. The tracking can be done with or without Software Asset Management \(SAM\).
     -   Compliance tracking for mobile devices and end-user computers.
     -   Duplicate data detection on imports to improve performance of nightly imports.
--   [Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_SoftwareAssetMgmt.md) and [IT Asset Management \(ITAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
+-   [Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_SoftwareAssetMgmt.md) and IT Asset Management \(ITAM\)
     -   Software package and installation tracking.
     -   License reclamation by detecting removed software.
     -   Software Usage tracking.
@@ -91,9 +91,9 @@ The following data sources are included for the Jamf application:
 
 -   **SG-Jamf Software Usage**
 
-    Imports the software usage details from the Jamf environment to track which software data is being used infrequently, hasn't been used recently enough, or isn't being used at all and loads the imported data in the SG-Jamf Software Usage \[sn\_jamf\_integrate\_jamf\_software\_usage\] staging table. Based on the software usage information, you can add a reclamation rule to aggregate usage records and to identify unused software devices. See [Software reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/sw-reclamation-rules.md).
+    Imports the software usage details from the Jamf environment to track which software data is being used infrequently, hasn't been used recently enough, or isn't being used at all and loads the imported data in the SG-Jamf Software Usage \[sn\_jamf\_integrate\_jamf\_software\_usage\] staging table. Based on the software usage information, you can add a reclamation rule to aggregate usage records and to identify unused software devices. See .
 
-    **Note:** The SG-Jamf Software Usage data source is available only when the Software Asset Management Professional plugin \(com.snc.samp\) is activated on your ServiceNow instance. See [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/t_RequSoftwareAssetMgmt.md).
+    **Note:** The SG-Jamf Software Usage data source is available only when the Software Asset Management Professional plugin \(com.snc.samp\) is activated on your ServiceNow instance. See .
 
 
 The imported data is then inserted into the following target tables:

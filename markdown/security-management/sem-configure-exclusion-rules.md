@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-exclusion-rules.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -35,11 +35,6 @@ The execution order defines the priority in which exclusion rules are processed.
     -   Between two rules: New execution order = \(Order of previous rule + Order of next rule\) ÷ 2
     -   Moved to the top of the list: New execution order = \(Execution order of current top rule\) ÷ 2
     -   Moved to the bottom of the list: New execution order = \(Execution order of current bottom rule + 1000\)
-
--   **[Create or edit exclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-create-or-edit-exclusion-rules.md)**  
-Create a rule to filter or exclude detections from getting converted into vulnerable items \(VITs\) during ingestion.
-
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 
 **Related topics**  
 

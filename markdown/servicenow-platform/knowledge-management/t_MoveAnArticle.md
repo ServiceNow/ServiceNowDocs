@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Role required: User must have contributor access to the knowledge base.
 
 **Note:**
 
--   When versioning is enabled, and you move an article from one knowledge base to another, the latest version of an article is moved to the new knowledge base. However, the previous versions of the article remain in the old knowledge base. It is recommended to retire the article from the old knowledge base. For more information, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/c_RetiredKnowledgeArticles.md).
+-   When versioning is enabled, and you move an article from one knowledge base to another, the latest version of an article is moved to the new knowledge base. However, the previous versions of the article remain in the old knowledge base. It is recommended to retire the article from the old knowledge base. For more information, see [Retire a knowledge article]().
 -   Although you can move an article from one knowledge base to another consider creating an article in new knowledge base.
 
 ## Procedure

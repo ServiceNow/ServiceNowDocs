@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Application Repository in ServiceNow Studio, App deployment in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Publish app changes to the Application Repository from ServiceNow Studio
@@ -31,7 +31,7 @@ The App Repo is one deployment option available in ServiceNow. You can also [cre
 2.  Open the **App details** page for the application you want to update.
 
     -   On the ServiceNow Studio home page, select the **Deployment** tab, select **Applications**, then select your application from the **Name** column.
-    -   In the Navigator panel, select the Apps icon \[Omitted image "sn-studio-app-nav-icon.png"\] Alt text: Apps icon, select your application, then select **App details**.
+    -   In the Navigator panel, select the Apps icon \[Omitted image "sn-studio-apps-icon.png"\] Alt text:, select your application, then select **App details**.
 3.  On the App details page, select **Publish**.
 
 4.  In the **New version** field, enter a version number for the changes.
@@ -42,4 +42,6 @@ The App Repo is one deployment option available in ServiceNow. You can also [cre
 
     Your changes are submitted for review and approval. After approval, your updates are available to all instances of your application.
 
+
+**Parent Topic:**[Application Repository in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/working-with-the-app-repo-in-servicenow-studio.md)
 

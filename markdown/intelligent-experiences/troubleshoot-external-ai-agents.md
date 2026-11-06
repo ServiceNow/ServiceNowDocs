@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Reference, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Troubleshoot external AI agents
@@ -47,6 +47,6 @@ Use the following documentation resources for more information:
 -   [AI Agents FAQ and Troubleshooting](https://www.servicenow.com/community/servicenow-otto-articles/ai-agents-faq-and-troubleshooting/ta-p/3200454)
 -   [Troubleshooting AI Agents](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2419769)
 -   [External AI agents in ServiceNow via A2A - ServiceNow as primary agent](https://www.servicenow.com/community/servicenow-otto-articles/external-agents-in-servicenow-via-google-a2a-servicenow-as/ta-p/3467587)
--   [Generative AI skill support in MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-support-mcp.md)
+-   [AI skill support in MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-support-mcp.md)
 -   [Troubleshooting RaptorDB](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1513425)
 

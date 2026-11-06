@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ An application service map provides a visualization of data for the CIs comprisi
 
 ## Before you begin
 
-Role required: app\_service\_user to view the map in View mode, and app\_service\_admin to modify services in Edit mode.
+Role required: app\_service\_user to view the map in View mode, app\_service\_admin to modify services in Edit mode, and itil to view incident/problem/change data in the map.
 
 ## About this task
 
@@ -81,7 +81,7 @@ Perform any of the following operations in the application service map.
 
 ## What to do next
 
-You can change the details that appear in the Properties pane by updating the form view 'Form view and section', as described in [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+You can change the details that appear in the Properties pane by updating the form view 'Form view and section', as described in Configuring the form layout.
 
 **Related topics**  
 

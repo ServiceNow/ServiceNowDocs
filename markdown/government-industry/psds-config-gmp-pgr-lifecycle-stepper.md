@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-config-gmp-pgr-lifecycle-stepper.html
 release: australia
 topic_type: task
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [program lifecycle stepper, grants management, stepper configuration]
 breadcrumb: [Set up a grant program, Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]

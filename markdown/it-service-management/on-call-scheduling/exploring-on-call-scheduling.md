@@ -7,7 +7,7 @@ release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [On-Call Scheduling, IT Service Management]
 ---
@@ -136,8 +136,8 @@ If the UI16 module link redirection feature is enabled in Service Operations Wor
 
 **Note:** For new instances, this redirection configuration is automatically available in the base system. For upgrade instances, administrators can configure the redirection behavior from the SOW Admin Center.
 
--   **[On-Call Scheduling capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/on-call-scheduling-capabilities.md)**  
-The key features and capabilities of On-Call Scheduling can be used by the various user roles.
+-   **[On-Call Scheduling actions by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/on-call-scheduling-capabilities.md)**  
+On-Call Scheduling provides role-based capabilities for members, shift managers, and shift administrators to manage on-call schedules, time-off requests, and escalations.On-Call Scheduling can be used by the various user roles.
 -   **[On-Call Scheduling new schedule engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/oncall-schedule-engine.md)**  
 Introducing the new On-call schedule engine with enhanced capabilities and user experience.
 -   **[On-Call Scheduling new trigger engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/on-call-new-trigger-engine.md)**  

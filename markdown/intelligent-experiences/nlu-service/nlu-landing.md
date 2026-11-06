@@ -1,5 +1,5 @@
 ---
-title: Natural Language Understanding
+title: \(Legacy\) Natural Language Understanding
 description: ServiceNow Natural Language Understanding \(NLU\) provides an NLU Workbench and an NLU inference service that you can use to enable the system to learn and respond to human-expressed intent. By entering natural language examples into the system, you help it understand word meanings and contexts so it can infer user or system actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/nlu-landing.html
@@ -7,18 +7,20 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: reference
-last_updated: "2026-04-23"
-reading_time_minutes: 4
-breadcrumb: [Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Natural Language Understanding
+# \(Legacy\) Natural Language Understanding
 
 ServiceNow® Natural Language Understanding \(NLU\) provides an NLU Workbench and an NLU inference service that you can use to enable the system to learn and respond to human-expressed intent. By entering natural language examples into the system, you help it understand word meanings and contexts so it can infer user or system actions.
 
 ## Overview of Natural Language Understanding
 
-For an overview of Natural Language Understanding, see [Exploring Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-explore.md).
+Starting with the Brazil release, Natural Language Understanding is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+For an overview of Natural Language Understanding, see [\(Legacy\) Exploring Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-explore.md).
 
 ## NLU terminology
 

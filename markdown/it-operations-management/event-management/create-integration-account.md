@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [EM integration account]
 breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]

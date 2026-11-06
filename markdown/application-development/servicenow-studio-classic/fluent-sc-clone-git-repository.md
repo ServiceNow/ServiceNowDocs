@@ -7,10 +7,10 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-07-27"
-reading_time_minutes: 1
+last_updated: "2026-10-08"
+reading_time_minutes: 2
 keywords: [Fluent source control, Clone a git repository, servicenow studio]
-breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Clone a Git repository from ServiceNow Studio
@@ -29,7 +29,7 @@ You can clone a remote Git repository that contains Fluent applications. The rep
 
 **Note:** ServiceNow Studio supports cloning from Git servers on Git version 2.3.2 or later.
 
-Cloning is intended for developing an application on multiple non-production instances and managing it in a single repository. To publish an application and deploy it to a production instance, use the Application Repository. For more information, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/app-repo.md).
+Use cloning to develop an application on multiple non-production instances and manage it in a single repository. To publish an application and deploy it to a production instance, use the Application Repository. For more information, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/app-repo.md).
 
 ## Procedure
 
@@ -41,16 +41,16 @@ Cloning is intended for developing an application on multiple non-production ins
 
     -   Windows: Ctrl-Shift-P
     -   Mac: Cmd-Shift-P
-4.  Enter `Git: Clone` and press Enter.
+4.  Enter `Git: Clone` and press Enter to start the clone.
 
-5.  Enter a remote Git repository URL and press Enter.
+5.  Enter a remote Git repository URL and press Enter to specify the repository to clone.
 
-6.  On the Status bar, select **Build and Install**.
+6.  On the Status bar, select **Build and Install** to add the application to the instance and your workspace.
 
 
 ## Result
 
-The application is added to the instance and your workspace with the files from the remote repository. Only the default branch is cloned initially. To check out another branch, you must fetch the other branches from the remote repository using the `Git: Fetch` command from the command palette.
+The application is added to the instance and your workspace with the files from the remote repository. Only the default branch is cloned initially. To check out another branch, fetch the other branches from the remote repository using the `Git: Fetch` command from the command palette.
 
 ## What to do next
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/import-financial-accounts-products-institutions.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Financial Services Operations \(FSO\)]
 ---
@@ -40,7 +40,7 @@ Role required: sn\_bom.admin
 
 6.  Transform the data from the import set table to the target table.
 
-    For more information, see Run an import.
+    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_RunImport.md).
 
 7.  Verify that the data records are imported into the target tables by navigating to the target tables.
 

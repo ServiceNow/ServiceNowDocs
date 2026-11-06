@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reviewing and finalizing a self-served contract document, Work on NDA legal requests, Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -40,15 +40,15 @@ Role required: sn\_cm\_core.contract\_user and sn\_lg\_ops.legal\_user
 
 5.  Access the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d161502e131">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d161457e131">
 
 Location
 
-</th><th align="left" id="d161502e134">
+</th><th align="left" id="d161457e134">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d161502e140">
+</th></tr></thead><tbody><tr><td id="d161457e140">
 
 **From internal storage**
 
@@ -59,7 +59,7 @@ Action
 3.  Select **Preview** to view the document.
 
 
-</td></tr><tr><td id="d161502e167">
+</td></tr><tr><td id="d161457e167">
 
 **From external storage**
 
@@ -70,15 +70,15 @@ Select the link in the **URL** column. The document opens from the external stor
 </td></tr></tbody>
 </table>6.  Review the contract document.
 
-<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d161502e191">
+<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d161457e191">
 
 Review result
 
-</th><th align="left" id="d161502e194">
+</th><th align="left" id="d161457e194">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d161502e200">
+</th></tr></thead><tbody><tr><td id="d161457e200">
 
 **No change is required**
 
@@ -86,7 +86,7 @@ Action
 
 Send the document for signature. For more information, see [Send a non-disclosure agreement document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-send-doc-sign-nda.md).
 
-</td></tr><tr><td id="d161502e218">
+</td></tr><tr><td id="d161457e218">
 
 **Changes are required**
 

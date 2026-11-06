@@ -1,20 +1,20 @@
 ---
-title: Create Location filter criteria
-description: Use location filter criteria to filter input for users authentication based on the user location.
+title: Create location filter criteria
+description: Use location filter criteria to filter input for user authentication based on the user location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-location-filter-criteria.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Location Filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
+breadcrumb: [Location filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
 ---
 
-# Create Location filter criteria
+# Create location filter criteria
 
-Use location filter criteria to filter input for users authentication based on the user location.
+Use location filter criteria to filter input for user authentication based on the user location.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: adaptive\_auth\_admin
 
 Plugin required: **Zero Trust - Location Based Access** \(`com.snc.zero_trust_location_access`\).
 
-Property: Enable the Adaptive authentication property.
+Property: The Adaptive authentication property must be enabled.
 
 **Note:** Administrators can only create the policy based on location filters if the location is available for the current user session.
 
@@ -40,7 +40,7 @@ Property: Enable the Adaptive authentication property.
     |Description|Short description of the criteria.|
     |Application|Scope of the application.|
 
-4.  In the **Locations** sections, under the Locations for criteria tab, double-click to **Insert a new row**.
+4.  In the **Locations** section, under the Locations for criteria tab, double-click to **Insert a new row**.
 
 5.  Specify the locations.
 

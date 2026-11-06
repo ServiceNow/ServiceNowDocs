@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional features, AWS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ When the SG-AWS-Software-Inventory data source is being used, enable the **sn\_a
 
 **Important:** The **sn\_aws\_integ.is\_software\_inventory\_enabled** system property is not supported in Service Graph Connector for AWS version 2.10.0 and later.
 
-Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see Application picker.
 
 Role required: admin
 

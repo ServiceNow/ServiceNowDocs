@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-servicenowaiplatformcorefeature-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
@@ -123,7 +123,12 @@ Zurich
 
 </td><td>
 
--   **[Access and test pre-release features](https://www.servicenow.com/docs/access?context=feature-preview-program&family=zurich&ft:locale=en-US)**
+-   **[MCP server logging](https://www.servicenow.com/docs/access?context=view-mcp-server-logs&family=zurich&ft:locale=en-US)**
+
+Troubleshoot MCP server connections and tool calls by enabling logging for MCP servers and reviewing the system logs, starting with Zurich Patch 13.
+
+
+ -   **[Access and test pre-release features](https://www.servicenow.com/docs/access?context=feature-preview-program&family=zurich&ft:locale=en-US)**
 
 The Feature Preview Program provides a centralized location to discover, activate, and test pre-release capabilities on your instance. When a pre-release feature is added to your instance, you receive a notification and can access the Feature Preview Program to review feature details, activate features for testing, and provide feedback.
 
@@ -171,7 +176,12 @@ Australia
 
 </td><td>
 
--   **[Access and test pre-release features](https://www.servicenow.com/docs/access?context=feature-preview-program&family=australia&ft:locale=en-US)**
+-   **[MCP server logging](https://www.servicenow.com/docs/access?context=view-mcp-server-logs&family=australia&ft:locale=en-US)**
+
+Troubleshoot MCP server connections and tool calls by enabling logging for MCP servers and reviewing the system logs, starting with Australia Patch 7.
+
+
+ -   **[Access and test pre-release features](https://www.servicenow.com/docs/access?context=feature-preview-program&family=australia&ft:locale=en-US)**
 
 The Feature Preview Program provides a centralized location to discover, activate, and test pre-release capabilities on your instance. When a pre-release feature is added to your instance, you receive a notification and can access the Feature Preview Program to review feature details, activate features for testing, and provide feedback.
 

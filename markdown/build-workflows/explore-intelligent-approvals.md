@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/explore-intelligent-approvals.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [explore, intelligent approvals, approval policies, AI approvals]
 breadcrumb: [Intelligent approvals, Build workflows]

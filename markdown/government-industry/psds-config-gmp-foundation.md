@@ -16,17 +16,19 @@ Configure the foundational details of Grants Management.
 
 1.  [Configure scripted extension points in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-fdtn-scripted-ext-pt.md)  
 Enable publishing of grant programs and authorized representative activities.
-2.  [Configure Restricted Caller Access \(RCA\) for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-fdtn-doc-template-rca.md)  
+2.  [Configure the related party extension point in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-fdtn-rpmanagement-ext-pt.md)  
+Remove related parties from a proposal when an applicant removes key personnel or an authorized representative.
+3.  [Configure Restricted Caller Access \(RCA\) for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-fdtn-doc-template-rca.md)  
 Allow secure, controlled access for generating results letters.
-3.  [Assign user personas, roles, groups, and responsibilities in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-assign-user-roles-responsibilities.md)  
+4.  [Assign user personas, roles, groups, and responsibilities in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-assign-user-roles-responsibilities.md)  
 By default, Grants Management comes with roles, personas, and responsibilities that can be assigned to existing users on the platform.
-4.  [Toggle character count display for form fields in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-gmp-config-show-character-count.md)  
+5.  [Toggle character count display for form fields in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-gmp-config-show-character-count.md)  
 Toggle the character count for form fields in the Grants Management to display the remaining number of characters available in the text field.
-5.  [Configure a retention policy for grant cases in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-setup-retention-policy.md)  
+6.  [Configure a retention policy for grant cases in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-setup-retention-policy.md)  
 Set up an Archive Rule to automatically purge active grant cases and their associated data after a set period of time.
-6.  [Configure a currency in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-single-currency-setup.md)  
+7.  [Configure a currency in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-single-currency-setup.md)  
 Grants Management currently only supports single-currency mode.
-7.  [Configure export application functionality in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-export-pdf.md)  
+8.  [Configure export application functionality in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-export-pdf.md)  
 Configure the export to PDF functionality so that grants program can export grants proposals directly to PDF.
 
 **Parent Topic:**[Configuring Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/configuring-grants-management-playbook.md)

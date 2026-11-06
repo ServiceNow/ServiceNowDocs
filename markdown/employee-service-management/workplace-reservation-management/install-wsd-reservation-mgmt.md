@@ -1,34 +1,34 @@
 ---
 title: Install Workplace Reservation Management
-description: Install the Workplace Reservation Management application from ServiceNow Store applications. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
+description: Install the Workplace Reservation Management application from the ServiceNow Store. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/install-wsd-reservation-mgmt.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Install Workplace Reservation Management
 
-Install the Workplace Reservation Management application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install the Workplace Reservation Management application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Before you begin
 
-Complete the following setup checklist for a smooth installation and configuration.
+The following requirement must be met before installation.
 
 |Setup tasks|Description|
 |-----------|-----------|
-|Verify that Workplace Service Delivery - Core \(sn\_wsd\_core\) plugin of minimum version 2.0 is activated.|Navigate to **Subscription Management** &gt; **Subscriptions** in your instance. The list displays the subscriptions that your organization has purchased.|
+|Verify that Workplace Service Delivery - Core plugin \(sn\_wsd\_core\) version 2.0 or later is activated.|Navigate to **Subscription Management** &gt; **Subscriptions** in your instance. The list displays the subscriptions that your organization has purchased.|
 
 Role required: admin
 
 ## About this task
 
-Activate the Workplace Service Delivery - Core plugin \(sn\_wsd\_core\) of minimum version 2.0 in your ServiceNow instance before you install Workplace Reservation Management.
+Workplace Reservation Management requires the Workplace Service Delivery - Core plugin \(sn\_wsd\_core\) version 2.0 or later in your ServiceNow instance.
 
 ## Procedure
 
@@ -100,5 +100,5 @@ Activate the Workplace Service Delivery - Core plugin \(sn\_wsd\_core\) of minim
 
 [Configure reservation multi-day settings in Reservable Module]()
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

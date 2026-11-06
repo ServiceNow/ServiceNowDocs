@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC installation on a macOS system, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ Perform a manual upgrade of your existing Agent Client Collector version on a sy
 ## Before you begin
 
 -   The upgrade procedure is the same for both MID Server and MID-less deployments.
--   Enable golden image mode for cloning additional agents by setting the golden image marker located at `/Library/Preferences/acc.rc.plist`.
+-   \(Optional\): Enable golden image mode for cloning additional agents by setting the golden image marker located at `/Library/Preferences/acc.rc.plist`.
 -   Role required: agent\_client\_collector\_admin
 
 ## Procedure

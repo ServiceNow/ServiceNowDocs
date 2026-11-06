@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring AI Search for Next Experience, AI Search for Next Experience, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,7 +28,7 @@ At installation time, the AI Search for Next Experience application includes sea
 
 If you activate a new ServiceNow AI Platform language plugin in an instance that already has AI Search for Next Experience installed, the application doesn't automatically update to include UI element translations for the newly added language. To install these translations, you can repair the AI Search for Next Experience application.
 
-For more details on repairing applications, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/repair-app.md).
+For more details on repairing applications, see Repair a ServiceNow application.
 
 ## Procedure
 

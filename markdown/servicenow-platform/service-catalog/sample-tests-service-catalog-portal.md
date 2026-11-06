@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabili
 
 Validate the continued functionality of Service Catalog after any configuration change such as an upgrade or after developing an application. All test suites and tests should pass on a default implementation. To validate a custom implementation, copy the automated tests and configure them for your customizations.
 
-Service Catalog sample tests require activating the Service Catalog - ATF Tests plugin \(com.glideapp.servicecatalog.atf.test\) along with the demo data. To run these tests using a suite, follow the procedure described in [Run an automated test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-run-suite.md) by selecting the **Service Catalog - ATF Tests** test suite. These sample tests are dependent on the demo data items.
+Service Catalog sample tests require activating the Service Catalog - ATF Tests plugin \(com.glideapp.servicecatalog.atf.test\) along with the demo data. To run these tests using a suite, follow the procedure described in Run an automated test suite by selecting the **Service Catalog - ATF Tests** test suite. These sample tests are dependent on the demo data items.
 
 |Test|Description|
 |----|-----------|

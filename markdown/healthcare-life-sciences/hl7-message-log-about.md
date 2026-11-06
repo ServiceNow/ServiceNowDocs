@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hl7-message-log-about.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [HL7 message log, message log, ACK]
 breadcrumb: [HL7 v2.x Integration, Healthcare Integrations, Healthcare and Life Sciences]

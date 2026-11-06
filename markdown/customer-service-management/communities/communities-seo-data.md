@@ -7,7 +7,7 @@ release: australia
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Community Service Portal, Configuring communities, Communities, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Community Service Portal, Configuring communities, Communities, Cus
 # Community pages that support SEO data
 
 To improve search results for community members using external search engines, the Communities application generates SEO meta tags and injects the tags into questions, topics, forums, and other page types.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 **Note:** If the auto-generated SEO tags in a page does not meet your needs, you can change the SEO tags. See [Modify SEO in community pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/communities/seo-communities-modify.md).
 

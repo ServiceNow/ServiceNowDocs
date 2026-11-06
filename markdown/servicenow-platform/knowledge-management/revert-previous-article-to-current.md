@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use article versioning, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,7 +34,7 @@ This action is available for earlier published versions that have a state of **O
 
 3.  Select **Make this current** in the Knowledge form header.
 
-    \[Omitted image "MakeCurrent.png"\] Alt text: Knowledge article record in outdated state with make this current button highlighted.
+    \[Omitted image "image.MakeCurrent"\] Alt text: Knowledge article record in outdated state with make this current button highlighted.
 
     The system displays the Knowledge form. The version number increments to the latest version number plus 0.01 and the state changes to **Draft**. For example, if the latest published version of an article is 3.0 and you select the outdated 1.0 version to become the current version, the version number increments to 3.01.
 

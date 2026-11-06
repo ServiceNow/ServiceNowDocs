@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Email as an MFA factor, MFA factor policies, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -24,7 +24,7 @@ Role required: adaptive\_auth\_admin
 
 1.  Navigate to **All** &gt; **Multi-factor Authentication** &gt; **MFA Context**.
 
-2.  Click **MFA Factor Policies** tab.
+2.  Select **MFA Factor Policies** tab.
 
     **Note:** The **EMAIL** as **MFA Factor with a Policy** is available by default. You can edit the policy and specify the policy inputs and conditions.
 
@@ -32,7 +32,7 @@ Role required: adaptive\_auth\_admin
 
     \[Omitted image "email-factor.png"\] Alt text: Email - Factor
 
-4.  Click **New** to add **Policy Inputs**.
+4.  Select **New** to add **Policy Inputs**.
 
 5.  Select the filter criteria that you want to create.
 
@@ -45,13 +45,13 @@ Role required: adaptive\_auth\_admin
 
     \[Omitted image "mfa-email-filter.png"\] Alt text: Filter Criteria
 
-6.  Click **Role Filter Criteria**, fill the fields for the role filter criteria and submit the record.
+6.  Select **Role Filter Criteria**, fill the fields for the role filter criteria and submit the record.
 
     The new policy is created. For more information, see [Role Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-role-filter-criteria.md).
 
-7.  On the Policy - Display Email OTP as an MFA Factor Policy page, click **Policy conditions**.
+7.  On the Policy - Display Email OTP as an MFA Factor Policy page, select **Policy conditions**.
 
-8.  Click **New** to add **Policy Conditions**.
+8.  Select **New** to add **Policy Conditions**.
 
 9.  On the form, fill in the fields:
 
@@ -88,11 +88,11 @@ Condition
 Logical combination of multiple policy inputs \(filter criteria\) that is used to evaluate authentication requests.Select the role based filter criteria policy that was created for the condition.
 
 </td></tr></tbody>
-</table>10. Click **Submit**.
+</table>10. Select **Submit**.
 
 11. Repeat step 8 to create additional policy conditions.
 
-    **Note:** If you create multiple policy conditions, the final output of the access policy depends on the logical OR output of the all policy conditions. This means the policy will evaluate to true if any one of your policy conditions is met.
+    **Note:** If you create multiple policy conditions, the final output of the access policy depends on the logical OR output of all policy conditions. This means the policy will evaluate to true if any one of your policy conditions is met.
 
     Based on the role filter \(users\) policy and the conditions specified for the role is matched, the Email MFA factor is shown as an options for authentication for the users.
 

@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Complex data, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -26,9 +26,9 @@ Use script to create complex data when data comes from these sources.
 
 ## Data Stream action response stream
 
-Data Stream actions use a parser script to map stream item values to complex object values. When writing a parser script, use JavaScript methods appropriate to the data stream format. For example, use the [JSON - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/JSONScopedAPI.md) class to parse or encode a JSON data stream.
+Data Stream actions use a parser script to map stream item values to complex object values. When writing a parser script, use JavaScript methods appropriate to the data stream format. For example, use the JSON - Scoped class to parse or encode a JSON data stream.
 
-Parser scripts have access to the data stream input and output objects as well as a targetObject property. See [Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-data-stream-action.md) for more information about parsing a response stream to create complex data.
+Parser scripts have access to the data stream input and output objects as well as a targetObject property. See Data Stream actions for more information about parsing a response stream to create complex data.
 
 ## REST step response
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2026-03-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 
 Service Portfolio Management leverages the Service Level Management application and includes a module to manage your Service Level Agreement \(SLA\) definitions and results.
 
-You can view, modify, or create SLA definitions from the Service Portfolio Management application. You can also view, modify, or create SLA results. Refer to  and [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/t_CreateAnSLADefinition.md) for information about SLA definitions and configuration. For complete detailed information about SLAs, refer to [Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/service-level-mgmt-landing-page.md).
+You can view, modify, or create SLA definitions from the Service Portfolio Management application. You can also view, modify, or create SLA results. Refer to [Service Level Agreement \(SLA\) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/c_SLADefinitions.md) and [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/t_CreateAnSLADefinition.md) for information about SLA definitions and configuration. For complete detailed information about SLAs, refer to [Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/service-level-mgmt-landing-page.md).
 
 After you define service commitments for your offerings, you can monitor the SLA results to manage performance by the running a daily job that generates the SLA results.
 

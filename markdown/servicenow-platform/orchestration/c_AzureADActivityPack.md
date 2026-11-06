@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,17 +20,17 @@ Use the Azure AD activities to add and remove users to Azure Active Directory, m
 
 The Azure AD activities were created with the Orchestration [REST Web Service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateARESTWebServiceActivity.md).
 
--   **[Add User to Group Azure AD activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_AddUserToGroupAzureADActivity.md)**  
+-   **[Add User to Group Azure AD activity]()**  
 The Add User to Group activity adds a user to an existing security group in Azure Active Directory.
--   **[Assign User License Azure AD activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_AssignUserLicenseAzureADActivity.md)**  
+-   **[Assign User License Azure AD activity]()**  
 The Assign User License activity assigns an additional Office 365 software license to the named user.
--   **[Create User Azure AD activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_CreateUserAzureADActivity.md)**  
+-   **[Create User Azure AD activity]()**  
 The Create User activity creates a user for the Azure Active Directory tenant.
 -   **[Delete User Azure AD activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_DeleteUserAzureADActivity.md)**  
 The Delete User activity deletes the named user's account from the Azure Active Directory tenant.
 -   **[Get User Info Azure AD activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_GetUserInfoAzureADActivity.md)**  
 The Get User Info activity returns the named user's information from the Azure Active Directory.
--   **[Remove User from Group Azure AD activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_RemoveUserFromGroupAzureActivity.md)**  
+-   **[Remove User from Group Azure AD activity]()**  
 The Remove User from Group activity removes an existing user from a security group in Azure Active Directory.
 -   **[Remove User License Azure AD activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_RemoveUserLicenseAzureADActivity.md)**  
 The Remove User License activity revokes the specified Office 365 software license for the named user.

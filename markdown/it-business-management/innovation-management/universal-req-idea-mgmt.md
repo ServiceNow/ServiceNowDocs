@@ -7,7 +7,7 @@ release: australia
 product: Innovation Management
 classification: innovation-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -35,11 +35,11 @@ The integration provides the following functionalities:
 
     The relevant information of the universal request such as details from the **Short description** and **Description** fields are copied to the **Title** and **Idea Description** fields of the idea.
 
-    Also, the idea created from the universal request becomes the primary ticket for the universal request and the **Primary Ticket** field is populated with the idea number.
+    Also, the idea created from the universal request is set to the primary ticket for the universal request and the **Primary Ticket** field is populated with the idea number.
 
--   Transfer the idea to another department with or without resolution: If the idea is rejected or cannot be implemented, the routing agent can transfer the idea to another department.
+-   Transfer the idea to another department with or without resolution: If the idea is rejected or can't be implemented, the routing agent can transfer the idea to another department.
 
-    When an idea is transferred to another department, the idea is closed and a new record is created. For example, a universal request related to HR process improvement can be converted to an idea and then transferred to the HR department as an HRC when the idea is deemed not feasible.
+    When an idea is transferred to another department, the idea is closed and a record is created. A request related to HR process can be converted to an idea and transferred to the HR department as an HRC when the idea is deemed not feasible.
 
     **Note:** When the idea created from a universal request is transferred to another department, the resulting INC, HRC, or custom task becomes the primary ticket for the parent universal request.
 

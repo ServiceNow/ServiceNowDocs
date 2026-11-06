@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pre-visit-view-cases.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage procedure requests, Pre-Visit Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -56,7 +56,7 @@ A procedure request case is based on a healthcare case that instead is based on 
 
 **Note:** The **Patient** field is mandatory for a procedure request case.
 
-For more information on tabs available for a customer service case, see Customer service case form.
+For more information on tabs available for a customer service case, see [Customer service case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServiceCaseForm.md).
 
 ## What to do next
 

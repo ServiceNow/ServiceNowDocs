@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/migrate-bot-process.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Migrating the bot process configuration, Migrate data, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---

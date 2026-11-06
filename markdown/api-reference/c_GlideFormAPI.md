@@ -7,8 +7,8 @@ release: australia
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 47
+last_updated: "2026-09-10"
+reading_time_minutes: 46
 breadcrumb: [Client API reference, API reference, API implementation and reference]
 ---
 
@@ -2662,10 +2662,6 @@ Sets the value of a specified form field to the specified value or the value of 
 
 To improve performance by preventing a round trip when setting the value for a reference field, use this method, not setValue\(fieldName, value\). When setting multiple reference values for a list collector field, pass arrays in the **value** and **displayValue** parameters.
 
-This method also supports setting values in a multi-row variable set \(MRVS\). You must first use `JSON.parse(getValue('<mrvs_field_name>'))` to obtain the MRVS array and then use indexing to update the fields within the row objects. Once all values are updated in the MRVS, use the setValue\(\) method to save the updated MRVS array. For more details, see the code example below.
-
-**Note:** This method can't be used to update fields set to strict read only. If this method is called on strict read only fields, the field isn't updated and a warning is logged in the browser console. For more information, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
-
 **Note:** This method can't be used to update fields set to strict read only. If this method is called on strict read only fields, the field isn't updated and a warning is logged in the browser console. For more information, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
 
 **Note:** The method setValue\(\) can cause a stack overflow when used in an `onchange` client script. This is because every time the value is set, it will register as a change, which may re-trigger the OnChange client script. To prevent this, perform a check that will validate that the new value will be different from the old value. For example, before performing `setValue(shortDesc, newValue.toUpperCase());`, validate that the short description is not already uppercase. This will prevent the client script from applying the toUpperCase\(\) more than once.
@@ -2718,44 +2714,14 @@ String or Array
 
 </td><td id="g_form-setValue-displayValue-entry">
 
-Optional. Field within the specified reference record to use to update the specified field. For example, in the User \[sys\_user\] table it might be userName.If the specified field is a GlideList, this parameter can contain an array of display value names.
+Field within the specified reference record to use to update the specified field. For example, in the User \[sys\_user\] table it might be userName.If the specified field is a GlideList, this parameter can contain an array of display value names.
 
 For additional information on display values, see [Display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|None| |
-
-The following example shows how to set the short description in the current form.
-
-```
-g_form.setValue('short_description', 'replace this with appropriate text');
-```
-
-The following example shows how to set values in an MRVS. In this example, salaries are being managed through the Service Catalog. The client script searches all rows within the MRVS for the value entered in the **Job title** and then updates the matching entries within the MRVS with what is entered in the **Salary** field. The MRVS is named "variable\_set\_1" and contains the following fields within each row object: Employee name \[employee\_name\], Job title \[employee\_job\_title\], and Salary \[employee\_salary\]. In addition, the Catalog Item contains: Job title \[job\_title\] and Salary \[salary\].
-
-```
-function onChange(control, oldValue, newValue, isLoading) {
-if (isLoading || newValue == '') {
-return;
-}
-
-// Get the MRVS
-var multiRowVariableSet = JSON.parse(g_form.getValue('variable_set_1'));
-
-for (var i = 0; i < multiRowVariableSet.length; i++) {
-// Check if the entered job title matches the title in the current MRVS row
-  if (multiRowVariableSet[i].employee_job_title == g_form.getValue("job_title")){
-    // Update the value of a matching field with the new salary
-    multiRowVariableSet[i].employee_salary = newValue;
-  }
-}
-
-// Update the MRVS
-g_form.setValue('variable_set_1', JSON.stringify(multiRowVariableSet));
-}
-```
+|void| |
 
 This example shows passing the sys\_id of the reference record that contains the userName field to use to update the **assigned\_to** form field.
 

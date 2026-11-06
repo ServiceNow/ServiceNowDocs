@@ -30,7 +30,7 @@ As a search administrator, you can specify the factoid extraction mode for Q&amp
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_properties.list`.
+    2.  In the navigation field, enter `sys_properties.list`.
 
     3.  Press Enter.
 

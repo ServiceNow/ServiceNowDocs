@@ -1,0 +1,55 @@
+---
+title: DEX system tables for remedial actions
+description: DEX system tables store the configuration settings for remedial actions and track the progress of each remedial action execution.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/dex-sys-table-ra.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Operations Management]
+---
+
+# DEX system tables for remedial actions
+
+DEX system tables store the configuration settings for remedial actions and track the progress of each remedial action execution.
+
+## Remedial action configuration
+
+Stores the configuration settings for remedial actions.
+
+|Field|Description|
+|-----|-----------|
+|OS|Operating system compatibility \(macOS, Windows, all\)|
+|source|Origin of the remedial action \(alert, configuration\_item\)|
+|playbook\_type|Type of playbook \(generic, tailored\)|
+|check\_definition|Reference to associated check definitions|
+|is\_bulk\_action|Flag for bulk action capability|
+|active|Status of the configuration|
+
+## Remedial action execution
+
+Tracks the progress of remedial action executions.
+
+|Field|Description|
+|-----|-----------|
+|state|UI progress state|
+|device\_list|List of target devices|
+|source\_record\_table|Source table reference|
+|source\_record\_id|Source record identifier|
+
+## M2M remedial action execution
+
+Maps the relationship between tracking and actual execution.
+
+| | |
+|---|---|
+|dex\_remedial\_action\_execution|Links to UI execution record|
+|remedial\_action\_execution|Links to actual execution record|
+
+**Note:** For more information about the base system remedial actions, see [Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-diff-ra.md).
+
+**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
+

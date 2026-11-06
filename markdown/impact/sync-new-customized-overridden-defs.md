@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/sync-new-customized-overridden-defs.html
 release: australia
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Definitions integration, Configure Scan Engine integrations, Configuring Impact, Impact]
+breadcrumb: [Definitions integration, Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Sync definitions

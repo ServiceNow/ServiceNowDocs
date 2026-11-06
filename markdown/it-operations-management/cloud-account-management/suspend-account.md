@@ -7,7 +7,7 @@ release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing cloud accounts, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,22 +18,7 @@ Suspend an account when thereâ€™s a budget constraint or the account owner isnâ€
 
 ## Before you begin
 
-An account requires a suspend profile to be suspended. For more information, see [Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/configure-suspension-policy.md).
+To suspend an account, it must have a suspend profile and be managed by CAM. For more information, see [Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/configure-suspension-policy.md).
 
-Role required: sn\_itom\_cam.cw\_admin or sn\_itom\_cam.cw\_requestor
-
-## Procedure
-
-1.  Navigate to **All** &gt; **Cloud Workspace** &gt; **Home**.
-
-2.  Select **Subscription Accounts**.
-
-3.  Under the **Managed Accounts** section, select **Active**.
-
-4.  Select an account check box and select **Suspend**.
-
-5.  In the confirmation dialog box, enter the reason for suspension and select **Yes**.
-
-    -   Once you have created a suspension request, the request is sent to the admin for approval.
-    -   Suspended accounts are listed under the **Managed Accounts** &gt; **Suspended** section.
+**Parent Topic:**[Managing cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/managing-an-account.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [generative AI for FSO overview, generative AI for financial service operations overview, generative AI for financial service operations sensitive data handling]
 breadcrumb: [Explore, Financial Services Operations \(FSO\)]
@@ -27,7 +27,7 @@ Use AI in FSO to do the following:
 
 For a full list of all AI skills, AI agents, and agentic workflows in FSO, see [AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/ai-capabilities-in-fso.md).
 
-Other AI features and skills are also available in ServiceNow Otto and ServiceNow Otto for Customer Service Management. For more information, see [Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md) and .
+Other AI features and skills are also available in ServiceNow Otto and ServiceNow Otto for Customer Service Management. For more information, see [Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md) and [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm.md).
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 

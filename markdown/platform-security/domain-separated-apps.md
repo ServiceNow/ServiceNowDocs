@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/domain-separated-apps.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Domain separation for service providers, Access Management]
 ---
 
@@ -16,7 +16,7 @@ Many ServiceNow applications support domain separation in the base system but no
 
 ## Domain separation support levels
 
-ServiceNow applications that support domain separation may support the separation of data and data routing only. They may also have advanced business logic separation or support tenant \(customer\) level administration of the application. ServiceNow applications are defined with the following incremental support levels.
+ServiceNow applications that support domain separation may support the separation of data and data routing only. They may also have advanced business logic separation, or support tenant \(customer\) level administration of the application. ServiceNow applications are defined with the following incremental support levels.
 
 \[Omitted image "ds-support-levels.png"\] Alt text: Domain separation support levels
 
@@ -86,8 +86,10 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm.md)|Basic|
 |[DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dev-ops-landing-page.md)|[Dev Ops](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-domain-separation.md)|No support|
 |[Dev Ops Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-config-domain-separation.md)|No support|
-|[Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-service-management-overview.md)|[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-domain-separation.md)|Basic\*|
+|[Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-service-management-overview.md)|[Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-domain-separation.md)|Basic|
+|[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-domain-separation.md)|Basic\*|
 |[Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-safety-domain-separation.md)|No support|
+|[Legal and contract operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-domain-separation.md)|Basic|
 |[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-domain-separation.md)|Basic|
 |Moveworks|No support|
 |[Procurement Service Management \(PSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/psm-domain-separation.md)|No support|
@@ -118,7 +120,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |•[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-overview.md)|Financial Services Card Operations|Basic|
 |Financial Services Deposit Operations|Basic|
 |Financial Services Loan Operations|Basic|
-|Financial Services Payment Operations|Basic|
+|[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/domain-separation-financial-services-payment-operations.md)|Basic|
 |Financial Services Treasury Operations|Basic|
 |Intelligent Servicing for Fraud|Basic|
 |Property and Casualty Insurance Servicing|Basic|
@@ -210,7 +212,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/SPM2-landing-page.md)|Basic\*|
 |Site Reliability Operations|Basic\*|
 |Task outage|Basic|
-||No support|
+|Vendor management workspace|No support|
 |[Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-walkup-experience.md)|Basic|
 |[Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-now-assist-for-itsm.md)|Basic|
 |[Mobile Configuration and Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-config-navigation.md)|[Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-domain-separation.md)|Basic|
@@ -234,7 +236,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/domain-separation-content-management.md)|No support|
 |[Credentials and Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/domain-separation-credentials_conn.md)|Standard|
 |Data Certification|Basic\*|
-|Data Certification|Enhanced|
+|[Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-classification/domain-separation-data-classification.md)|Enhanced|
 |Data Privacy|No support|
 |[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-data-management.md)|Basic\*|
 |[Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/domain-separation-delegated-development.md)|No support|

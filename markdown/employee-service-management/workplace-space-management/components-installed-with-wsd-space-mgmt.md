@@ -7,7 +7,7 @@ release: australia
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -246,9 +246,13 @@ Stores information about the KPIs that are configured for Workplace Space Manage
 **Related topics**  
 
 
+[Allocation - types, setting, and impact]()
+
 [Properties installed with Workplace Space Management]()
 
 [View by Configuration form]()
 
 [KPI Configuration form]()
+
+[]()
 

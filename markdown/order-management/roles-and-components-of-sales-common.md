@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/roles-and-components-of-sales-common.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Install Sales Common for Partner Relationship Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -28,7 +28,7 @@ The PRM plugin \(com.snc.partner\_relationship\_management\) comes with a set of
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 

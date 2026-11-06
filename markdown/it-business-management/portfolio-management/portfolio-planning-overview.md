@@ -7,8 +7,8 @@ release: australia
 product: Portfolio Management
 classification: portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -16,13 +16,25 @@ breadcrumb: [Portfolio Management, Project Portfolio Management, Strategic Portf
 
 The Scenario Planning for PPM application provides a central location for portfolio managers to create and track the roadmap for project execution for a given fiscal year. Optimize your budget and resource usage by creating and comparing different scenarios for your project and demand roadmap or resources.
 
-**Important:** Starting with Australia release, Scenario Planning for PPM \(com.snc.ppm\_scenario\_planning\) is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+**Important:** Starting with Brazil release, Scenario Planning for PPM \(com.snc.ppm\_scenario\_planning\) is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Alternatively, Strategic Planning Workspace \(for SPM pro users\) or Portfolio Planning Workspace \(for SPM standard users\) provides the Scenario Planning capability. For details, see [Scenario planning in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/scenario-planning-in-strategic-planning.md) or [Scenario planning in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/scenario-planning-in-portfolio-planning.md).
 
 A scenario is a collection of demands and projects that serves as a planning instance for the selected fiscal year to support funding decisions.
 
 Eligible demands and projects in the portfolio are collected into a default or existing scenario of the planning cycle. You use the default or existing scenario as a basis to create additional scenarios. A demand or project can belong to more than one scenario in the current planning cycle but it cannot belong to more than one portfolio. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/create-scenarios.md).
+
+## Impact on portfolio planning using Portfolio Workbench
+
+Portfolio Workbench does not support a scenario-based portfolio planning. You can plan your portfolio in simple or advanced planning modes. In advanced mode, you can repromote budget plan and create a forecast plan. Starting with the Paris release, the Portfolio Workbench has been deprecated for new customers. For more information, see [Portfolio Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/c_PortfolioWorkbench.md).
+
+With scenario-based planning, you can create multiple scenarios, compare them, and confirm or reconfirm a scenario.
+
+If you are using the Portfolio Workbench for portfolio planning and want to switch to a scenario-based planning, note the following points:
+
+-   After installing Scenario Planning for PPM, remove the Portfolio Workbench module and related link from the Portfolio form. The de-activation of Portfolio Workbench is required to avoid conflicts with two methods of planning and data corruption. For more information, see [Enable or disable an application menu or module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EnDisableAppMenuOrMod.md).
+-   Use the **Portfolio Planning** related link or the Portfolio Planning Workbench module to navigate to Portfolio Planning Workbench.
+-   All your existing selections of demands and projects for a portfolio appear as a default scenario when you open the Portfolio Planning Workbench. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/create-scenarios.md).
 
 ## Features
 
@@ -68,6 +80,8 @@ After confirming a scenario to complete planning of your portfolio, track the pr
 [Create a portfolio]()
 
 [Open a portfolio status list]()
+
+[Legacy portfolio workbench]()
 
 [Portfolio Dashboard]()
 

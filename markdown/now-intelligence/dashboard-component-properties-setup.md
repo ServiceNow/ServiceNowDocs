@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dashboard-component-properties-setup.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Add a dashboard to a page, Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
@@ -108,15 +108,13 @@ Allows the UIB pages which contains the dashboard to take control of how the Das
 
 For more information, see [Dashboard URL parameter delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboard-url-parameter-delegation.md).
 
-**Note:** This functionality requires the latest Platform Analytics experience application from the ServiceNow® Store.
-
 </td></tr><tr><td>
 
 Default dashboard \[defaultDashboard\]
 
 </td><td>
 
-Select an existing dashboard to show in this dashboard component. This other dashboard is usually in the Platform Analytics experience. For that dashboard to be shown, it must include your workspace or experience in the **Dashboard Visibility** field in its dashboard details, as described in [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-db-in-ac.md).You can select a dashboard statically or dynamically, through a state variable or a script.
+Select an existing dashboard to show in this dashboard component. This other dashboard is usually in the Platform Analytics Experience. For that dashboard to be shown, it must include your workspace or experience in the **Dashboard Visibility** field in its dashboard details, as described in [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-db-in-ac.md).You can select a dashboard statically or dynamically, through a state variable or a script.
 
 </td></tr><tr><td>
 

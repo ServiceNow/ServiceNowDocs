@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-multple-nacm-skill-configuration.html
 release: australia
 topic_type: task
-last_updated: "2025-11-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use ServiceNow Otto context menu for custom skill deployment, ServiceNow Otto context menu, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Use ServiceNow Otto context menu for custom skill deployment, ServiceNow Otto context menu, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Create multiple ServiceNow Otto context menu skill configurations
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Admin center** &gt; **AI Admin Hub** &gt; **AI Experiences** &gt; **ServiceNow Otto context menu**.
+1.  Navigate to **All** &gt; **ServiceNow Otto Admin** &gt; **ServiceNow Otto Experiences** &gt; **ServiceNow Otto Context Menu**.
 
 2.  Select **Configurations** tab in the ServiceNow Otto context menu home page.
 

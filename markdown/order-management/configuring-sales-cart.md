@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configuring-sales-cart.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Portal, Configure, Sales Customer Relationship Management]
 ---
@@ -29,5 +29,9 @@ Customize Sales Cart to support your organization's branding, data retention, an
 -   [Modify terms and conditions for the sales cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/modify-terms-conditions-sales-cart.md)
 
     Add order checkout terms and conditions in the CartTermsAndCo document template block for your Business Portal.
+
+-   [Sales Cart integration with external ordering systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-cart-external-integration.md)
+
+    Learn how the cart enforces states, ownership, and validation when an external ordering system creates and manages carts programmatically.
 
 

@@ -7,7 +7,7 @@ release: australia
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
@@ -21,6 +21,10 @@ View feedback and bookmarks tables to view which community content was given fee
 Role required: sn\_communities.admin, sn\_communities.community\_moderator, sn\_communities.moderation\_admin, sn\_communities.forum\_admin, or sn\_communities.forum\_moderator
 
 **Note:** Communities users \(sn\_communities.community\_user\) have read access to the bookmarks table and the feedback table. Users can only view another user's bookmark and feedback records for content they themselves can access. Bookmark and feedback record visibility is constrained by the viewer's access to the underlying content.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 

@@ -1,21 +1,21 @@
 ---
-title: Security for Oracle E-Business Suite connections
-description: Oracle E-Business Suite \(EBS\) connections in Zero Copy Connector for ERP use role-based access control, encrypted transport, and token-based authentication to protect ERP data.
+title: Security for Oracle E-Business Suite connections in Zero Copy Connector for ERP
+description: Learn how access control lists \(ACLs\) protect Oracle E-Business Suite \(EBS\) data in Zero Copy Connector for ERP, and which authentication methods Oracle EBS connections support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-security.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-08-24"
+last_updated: "2026-10-22"
 reading_time_minutes: 1
-keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, oracle, ebs, security, acl, role, authentication]
+keywords: [oracle, ebs, security, acl, zero copy connector for erp, oracle e-business suite, oracle ebs security, oracle ebs acl, access control list, oracle ebs authentication]
 breadcrumb: [Connecting to Oracle EBS, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Security for Oracle E-Business Suite connections
+# Security for Oracle E-Business Suite connections in Zero Copy Connector for ERP
 
-Oracle E-Business Suite \(EBS\) connections in Zero Copy Connector for ERP use role-based access control, encrypted transport, and token-based authentication to protect ERP data.
+Learn how access control lists \(ACLs\) protect Oracle E-Business Suite \(EBS\) data in Zero Copy Connector for ERP, and which authentication methods Oracle EBS connections support.
 
 ## Role-based access to Oracle EBS data
 

@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -47,9 +47,11 @@ Alert field value
 
 </td><td>
 
-Value that will be set in the alert field:-   If you select **Same as** in the Map field column, the alert field value that you want to appear in the incident field also appears in the Incident field name column.
+Value that will be set in the alert field:-   If you select **Same as** in the Map field column, the alert field value appears in the Incident field name column.
 -   If you select **To** in the Map field column, enter the alert field value that you want to appear in the specified incident field.
 
 </td></tr></tbody>
 </table>To return to the procedure, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/respond-alert-sow-itom.md).
+
+**Parent Topic:**[Express List reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/express-list-reference.md)
 

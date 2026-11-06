@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [esc, servicenow esc, Now Assist, AI Agents, Agentic AI]
-breadcrumb: [Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks, Employee Service Management]
 ---
 
 # ServiceNow Otto for Employee Center Pro

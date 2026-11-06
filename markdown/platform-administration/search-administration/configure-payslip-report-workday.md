@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-20"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Workday external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -53,7 +53,7 @@ This task is optional. The Workday external content connector can retrieve paysl
 
 3.  In the Data Source field, search for the **Payroll Results** entry and select it.
 
-    Workday automatically populates the Data Source Filter field.
+    Workday automatically populates the Data Source navigation filter.
 
 4.  Configure the columns for your new custom report.
 

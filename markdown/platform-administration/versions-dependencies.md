@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/versions-dependencies.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [servicenow store, store, app store, application store, app store user documentation, servicenow app store, auto-procurement, dependency, dependencies, application dependencies, application dependency, app dependencies, app dependency, app compatibility, compatibility, version compatibility, unresolved dependencies, can't install app]
 breadcrumb: [Getting apps, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]

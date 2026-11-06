@@ -1,5 +1,5 @@
 ---
-title: Import primary model content to a secondary model
+title: \(Legacy\) Import primary model content to a secondary model
 description: When content in your primary NLU model is updated, you can import the updates directly to secondary models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/import-primary-model-content-to-secondary-model.html
@@ -7,12 +7,12 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Multilingual model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Multilingual model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Import primary model content to a secondary model
+# \(Legacy\) Import primary model content to a secondary model
 
 When content in your primary NLU model is updated, you can import the updates directly to secondary models.
 

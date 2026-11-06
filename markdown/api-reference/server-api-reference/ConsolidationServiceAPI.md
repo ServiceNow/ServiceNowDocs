@@ -1,51 +1,40 @@
 ---
-title: ConsolidationService - Scoped, Global
-description: The ConsolidationService API is a script include with methods for merging and de-duplicating complex, hierarchical business data \(such as contracts, quotes, line items, and entitlements\) using custom logic.Overridable method for specifying which child entity types can be consolidated within a JSON. The base implementation returns false for all entity types if not overridden.Overridable method that adds conditions for determining whether two entity JSONs with the same hash can be consolidated. The base implementation returns false if not overridden.Overridable method for specifying which child entity types can be merged from source JSONs into the target JSON. The base implementation returns false for all entity types if not overridden.Merges source entity JSON\(s\) into a target entity JSON and consolidates child entities within the merged result based on hash-based grouping and pairwise consolidation logic.Overridable method that controls whether consolidation is enabled for this service instance. The base implementation returns false if not overridden. Implementing classes must override this method to return true to enable consolidation.Overridable method that returns the hash configuration for grouping entities before consolidation. The configuration specifies which attributes and child context types generate an MD5 hash for each entity. Entities with the same hash are grouped for pairwise consolidation. The base implementation returns an empty object when not overridden.Overridable method to determine the primary JSON when two JSONs are being consolidated. For non-overridden attributes, the primary JSON's attribute values are used on the consolidated result. The base implementation returns json1 if not overridden.Overridable method, called after two JSONs are consolidated, for updating attributes on the consolidated JSON. The base implementation is a no-op if not overridden.Overridable method that applies final modifications to the consolidated JSON after hierarchy consolidation is complete. The base implementation is a no-op if not overridden.Overridable method called before merge and consolidation for performing custom pre-processing tasks such as bulk map creation or caching lookup data.
+title: ConsolidationService - Scoped, Gobal
+description: The ConsolidationServiceSNC API is a script include with methods for merging and de-duplicating complex, hierarchical business data \(such as contracts, quotes, line items, and entitlements\) using custom logic.Overridable method for specifying which child entity types within a JSON can be deduplicated during consolidation. The base implementation returns false for all entity types if not overridden.Overridable method that adds conditions for determining whether two entity JSONs with the same hash can be consolidated. The base implementation returns false if not overridden.Overridable method for specifying which child entity types can be merged from source JSONs into the target JSON. The base implementation returns false for all entity types if not overridden.Merges source entity JSON\(s\) into a target entity JSON and deduplicates child entities within the merged result based on hash-based grouping and pairwise consolidation logic.Overridable method that controls whether consolidation is enabled for this service instance. The base implementation returns false if not overridden. Implementing classes must override this method to return true to enable consolidation.Overridable method that returns the hash configuration for grouping entities before consolidation. The configuration specifies which attributes and child context types generate an MD5 hash for each entity. Entities with the same hash are grouped for pairwise consolidation. The base implementation returns an empty object when not overridden.Overridable method to determine the primary JSON when two JSONs are being consolidated. For non-overridden attributes, the primary JSON's attribute values are used on the consolidated result. The base implementation returns json1 if not overridden.Overridable method, called after two JSONs are consolidated, for updating attributes on the consolidated JSON. The base implementation is a no-op if not overridden.Overridable method that applies final modifications to the consolidated JSON after hierarchy consolidation is complete. The base implementation is a no-op if not overridden.Overridable method called before merge and consolidation for performing custom pre-processing tasks such as bulk map creation or caching lookup data..
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/ConsolidationServiceAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-04-01"
-reading_time_minutes: 22
+last_updated: "2026-09-10"
+reading_time_minutes: 17
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
-# ConsolidationService- Scoped, Global
+# ConsolidationService- Scoped, Gobal
 
-The ConsolidationService API is a script include with methods for merging and de-duplicating complex, hierarchical business data \(such as contracts, quotes, line items, and entitlements\) using custom logic.
+The ConsolidationServiceSNC API is a script include with methods for merging and de-duplicating complex, hierarchical business data \(such as contracts, quotes, line items, and entitlements\) using custom logic.
 
 This API belongs to the sn\_l2c\_core namespace, and requires the admin role and the Lead to Cash Core \(com.snc.l2c\_core\) plugin to access it.
 
-Use the ConsolidationService API when you need precise control over how records are combined. This API provides complex functionality not available on the UI, such as:
+Use the ConsolidationServiceSNC API when you need precise control over how records are combined, such as deciding which items are duplicates, how attributes like quantities or dates are calculated, and how nested child records are handled. This API provides complex functionality not available on the UI, such as:
 
 -   Defining what makes two records the same across multiple attributes or nested child entities.
 -   Conditionally merging records when certain criteria are met.
 -   Applying custom calculations during consolidation, like summing quantities or calculating date ranges.
--   Recursively deduplicating \(consolidating\) deeply nested child structures.
+-   Recursively deduplicating deeply nested child structures.
 -   Reusing the same consolidation logic consistently across flows and integrations.
 
-The ConsolidationService is part of the Lead to Cash Core primitives engine and is accessed via the Lead to Cash Core product.
+The ConsolidationServiceSNC is part of the Lead to Cash \(L2C\) Core primitives engine and is accessed via the LeadToCashCore application.
 
-## Before you begin
+## ConsolidationServiceSNC API extension and workflow
 
-Before implementing ConsolidationService, ensure you have:
+The ConsolidationServiceSNC API's base system is disabled by default to ensure that unwanted consolidation isn't applied unknowingly. To enable consolidation or deduplication actions, you must create custom logic and optionally override methods provided with the ConsolidationServiceSNC script include.
 
--   The Lead to Cash Core plugin \(`com.snc.l2c_core`\) installed and the `admin` role.
--   Two custom script includes: a `ConsolidationService` subclass containing your consolidation logic, and a `LeadToCashService` subclass that returns it from `getConsolidationService()`. The subclass wires your consolidation logic into the pipeline so PrimitiveUtil can resolve it at runtime. See the 'Extension and workflow' section for more information.
--   Familiarity with PrimitiveUtil, which is the entry point for invoking L2C Core primitives, including consolidation. See [LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LeadToCashCoreAPI.md) for more information.
+To extend and use the ConsolidationServiceSNC API:
 
-    **Note:** If no custom implementation is registered, PrimitiveUtil falls back to the base `sn_l2c_core.LeadToCashService` automatically which has consolidation disabled by default, meaning no merging or deduplication is performed. You never need to instantiate or reference this fallback directly in your code.
-
-
-## ConsolidationService API extension and workflow
-
-The ConsolidationService API's base system is disabled by default to ensure that unwanted consolidation isn't applied unknowingly. To enable consolidation actions, you must create custom logic and optionally override methods provided with the ConsolidationService script include.
-
-To extend and use the ConsolidationService API:
-
-1.  Required. Create a custom script include that extends `sn_l2c_core.ConsolidationService`.
+1.  Required. Create a custom script include that extends sn\_l2c\_core.ConsolidationService.
 2.  Required. Override enableConsolidation\(\) to return `true`. This flag enables the system to allow consolidation on your service. Example script:
 
     ```
@@ -61,13 +50,13 @@ To extend and use the ConsolidationService API:
     });
     ```
 
-3.  Depending on the entities you want to control, optionally override any number of these additional methods:
+3.  Depending on the entities you want to control, optionally override \(or enable\) any number of these additional methods:
 
-    **Note:** If you don’t override any methods, `consolidate()` returns the target JSON unchanged with no merging or consolidation performed.
+    **Note:** If you don’t override any methods, `consolidate()` returns the target JSON unchanged with no merging or deduplication performed.
 
     |Method|Action|
     |------|------|
-    |canConsolidateEntity\(contextType\)|Choose which child arrays to consolidate within a target.|
+    |canConsolidateEntity\(contextType\)|Choose which child arrays to deduplicate within a target.|
     |canMergeEntity\(contextType\)|Merge source children into a target.|
     |getHashConfig\(\)|Specify how entities are grouped \(hashing\).|
     |canConsolidateJSONs\(json1, json2\)|Decide if two JSONs should merge.|
@@ -76,8 +65,7 @@ To extend and use the ConsolidationService API:
     |preProcess\(\)|Pre-hook for computing data.|
     |postHierarchyConsolidation\(\)|Post-hook for final cleanup.|
 
-4.  Register your custom `ConsolidationService` against the extension point so that PrimitiveUtil can resolve it at runtime.
-5.  Return your custom `ConsolidationService` from `sn_l2c_core.LeadToCashService`. `LeadToCashService` is the entry point that wires your consolidation logic into the Lead‑to‑Cash pipeline so that it's actually used whenever consolidation is invoked. Example script:
+4.  Return your custom ConsolidationService from sn\_l2c\_core.LeadToCashService. `LeadToCashService` is the entry point that wires your consolidation logic into the Lead‑to‑Cash pipeline so that it's actually used whenever consolidation is invoked. Example script:
 
     ```
     var MyLeadToCashService = Class.create();
@@ -92,13 +80,13 @@ To extend and use the ConsolidationService API:
     });
     ```
 
-6.  Invoke your consolidation by calling consolidate\(\) either directly from a server‑side script or indirectly via Lead‑to‑Cash Flow Designer primitives.
+5.  Invoke your consolidation by calling LeadToCashService.consolidate\(\) either directly from a server‑side script or indirectly via Lead‑to‑Cash Flow Designer primitives.
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## ConsolidationService - canConsolidateEntity\(String contextType\)
 
-Overridable method for specifying which child entity types can be consolidated within a JSON. The base implementation returns `false` for all entity types if not overridden.
+Overridable method for specifying which child entity types within a JSON can be deduplicated during consolidation. The base implementation returns `false` for all entity types if not overridden.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -118,9 +106,9 @@ Boolean
 
 </td><td>
 
-Flag indicating whether consolidation is possible on the selected entity type.Valid values:
+Flag indicating whether consolidation \(that is, deduplication\) is possible on the selected entity type.Valid values:
 
--   true: Groups entities of this type by hash and consolidates them.
+-   true: Groups entities of this type by hash and deduplicates them.
 -   false: Doesn't consolidate entities of this type.
 
 Default: false
@@ -131,30 +119,23 @@ Default: false
 ```
 var MyConsolidationService = Class.create();
 
-MyConsolidationService.prototype = Object.extendsObject(
-    sn_l2c_core.ConsolidationService,
-    {
-        enableConsolidation: function () {
-            return true;
-        },
+MyConsolidationService.prototype = Object.extendsObject(sn_l2c_core.ConsolidationService, {
+    enableConsolidation: function() {
+        return true;
+    },
 
-        canConsolidateEntity: function (contextType) {
-            return contextType === "lineItems" ||
-                   contextType === "coveredProducts";
-        },
+    canConsolidateEntity: function(contextType) {
+        return contextType == "lineItems" || contextType == "coveredProducts";
+    },
 
-        type: "MyConsolidationService"
-    }
-);
+    type: 'MyConsolidationService'
+});
 
-// Example usage
 var service = new MyConsolidationService();
 
 gs.info("Can consolidate lineItems = " + service.canConsolidateEntity("lineItems"));
-gs.info(
-    "Can consolidate characteristics = " +
-    service.canConsolidateEntity("characteristics")
-);
+
+gs.info("Can consolidate characteristics = " + service.canConsolidateEntity("characteristics"));
 ```
 
 Output:
@@ -189,7 +170,7 @@ Boolean
 
 Flag that indicates whether the two JSONs can be consolidated into one.Valid values:
 
--   true: Both JSONs can be merged via consolidate\(\).
+-   true: Both JSONs can be merged via consolidateJSONs\(\).
 -   false: Both JSONs remain separate.
 
 Default: false
@@ -202,21 +183,22 @@ var MyConsolidationService = Class.create();
 
 MyConsolidationService.prototype = Object.extendsObject(sn_l2c_core.ConsolidationService, {
 
+
     enableConsolidation: function() {
+
         return true;
+
     },
+
 
     canConsolidateJSONs: function(json1, json2) {
 
         if (json1.table == "sn_quote_mgmt_core_quote_line_item") {
 
-            // Fall back to empty string if product_offering has no value
             var po1 = json1.attributes.product_offering ? json1.attributes.product_offering.value : "";
 
-            // Fall back to empty string if product_offering has no value
             var po2 = json2.attributes.product_offering ? json2.attributes.product_offering.value : "";
 
-            // Consolidate only if both line items share the same product offering, and that value is not empty
             return po1 == po2 && po1 != "";
 
         }
@@ -225,44 +207,10 @@ MyConsolidationService.prototype = Object.extendsObject(sn_l2c_core.Consolidatio
 
     },
 
+
     type: 'MyConsolidationService'
 
 });
-
-var service = new MyConsolidationService();
-
-// Two line items with the same product offering — should consolidate
-var json1 = {
-    table: "sn_quote_mgmt_core_quote_line_item",
-    attributes: {
-        product_offering: { value: "po_001" }
-    }
-};
-
-var json2 = {
-    table: "sn_quote_mgmt_core_quote_line_item",
-    attributes: {
-        product_offering: { value: "po_001" }
-    }
-};
-
-// Two line items with different product offerings — should not consolidate
-var json3 = {
-    table: "sn_quote_mgmt_core_quote_line_item",
-    attributes: {
-        product_offering: { value: "po_002" }
-    }
-};
-
-gs.info("Same product offering = " + service.canConsolidateJSONs(json1, json2));
-gs.info("Different product offering = " + service.canConsolidateJSONs(json1, json3));
-```
-
-Output:
-
-```
-Same product offering = true
-Different product offering = false
 ```
 
 ## ConsolidationService - canMergeEntity\(String contextType\)
@@ -300,26 +248,32 @@ Default: false
 ```
 var MyConsolidationService = Class.create();
 
-MyConsolidationService.prototype = Object.extendsObject(
-    sn_l2c_core.ConsolidationService,
-    {
-        enableConsolidation: function () {
-            return true;
-        },
+MyConsolidationService.prototype = Object.extendsObject(sn_l2c_core.ConsolidationService, {
 
-        canMergeEntity: function (contextType) {
-            return contextType === "lineItems" ||
-                   contextType === "coveredProducts";
-        },
 
-        type: "MyConsolidationService"
-    }
-);
+    enableConsolidation: function() {
 
-// Example usage
+        return true;
+
+    },
+
+
+    canMergeEntity: function(contextType) {
+
+        return contextType == "lineItems" || contextType == "coveredProducts";
+
+    },
+
+
+    type: 'MyConsolidationService'
+
+});
+
+
 var service = new MyConsolidationService();
 
 gs.info("Can merge lineItems = " + service.canMergeEntity("lineItems"));
+
 gs.info("Can merge characteristics = " + service.canMergeEntity("characteristics"));
 ```
 
@@ -332,7 +286,7 @@ Can merge characteristics = false
 
 ## ConsolidationService - consolidate\(Object sourceJSON, Object targetJSON, Object additionalParams\)
 
-Merges source entity JSON\(s\) into a target entity JSON and consolidates child entities within the merged result based on hash-based grouping and pairwise consolidation logic.
+Merges source entity JSON\(s\) into a target entity JSON and deduplicates child entities within the merged result based on hash-based grouping and pairwise consolidation logic.
 
 The consolidate\(\) method acts as the main entry point for consolidating JSONs. This method handles both single JSON and multiple JSONs, via the **items** array, as source input.
 
@@ -350,6 +304,18 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+additionalParams
+
+</td><td>
+
+Object
+
+</td><td>
+
+Optional. Extra configuration parameters passed through to the consolidation methods. Stored on the instance as this.additionalParams and accessible in all overridable methods. Can contain any custom key-value pairs needed by the implementing class.
+
+</td></tr><tr><td>
+
 sourceJSON
 
 </td><td>
@@ -358,15 +324,13 @@ Object
 
 </td><td>
 
-Accepts the JSON output of the [LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LeadToCashCoreAPI.md) createInstance\(\) or effect\(\) method. Can be a single entity JSON object, or a JSON object containing an items array of multiple entity JSONs.If you're not piping output from another primitive, you can also construct this JSON manually following the structure below."
+Output of Create/Effect primitive. Single JSON object or a JSON object containing an items array with multiple entity JSONs. Can be null or empty if only target consolidation is needed. If sourceJSON doesn't contain an items array, it's treated as a single entity and wrapped in an array.
 
 ```
 "sourceJSON": {
     "items": [Array]
 }
 ```
-
-If sourceJSON doesn't contain an items array, the method treats it as a single entity and wraps it in an array automatically. Pass null or omit this parameter if only target consolidation is needed.
 
 </td></tr><tr><td>
 
@@ -563,192 +527,7 @@ Array of Objects
 </td><td>
 
 Optional. Array of covered product entity JSONs.```
-coveredProducts: [
- {
-  "sys_id": {Object},
-  "table": "String",
-  "attributes": {Object}
- }
-]
-```
-
-</td></tr><tr><td>
-
-sourceJSON.items.coveredProducts.sys\_id
-
-</td><td>
-
-Object
-
-</td><td>
-
-Sys\_id of the covered product record.```
-sys_id: { 
-  value: "String"
-}
-```
-
-</td></tr><tr><td>
-
-sourceJSON.items.coveredProducts.table
-
-</td><td>
-
-String
-
-</td><td>
-
-Table name containing the covered product record. For example, `sn_install_base_m2m_contract_sold_product`.
-
-</td></tr><tr><td>
-
-sourceJSON.items.coveredProducts.attributes
-
-</td><td>
-
-Object
-
-</td><td>
-
-Attributes of the covered product. Fields may vary based on the record.```
-attributes: {
-            sold_product: { value: "String" },
-            contract: { value: "String" },
-            service_contract_line: { value: "String" },
-            entitlement: { value: "String" },
-            install_base: { value: "String" },
-            covering_sold_product: { value: "String" },
-            date_added: { value: "String" },
-            date_removed: { value: "String" }
-  }
-```
-
-</td></tr><tr><td>
-
-sourceJSON.items.coveredProducts.attributes.sold\_product
-
-</td><td>
-
-Object
-
-</td><td>
-
-Sold product record associated with this covered product.```
-"sold_product": {
-  "value": "String"
-}
-```
-
-</td></tr><tr><td>
-
-sourceJSON.items.coveredProducts.attributes.contract
-
-</td><td>
-
-Object
-
-</td><td>
-
-Parent contract record under which coverage is defined.```
-"contract": {
-  "value": "String"
-}
-```
-
-</td></tr><tr><td>
-
-sourceJSON.items.coveredProducts.attributes.service\_contract\_line
-
-</td><td>
-
-Object
-
-</td><td>
-
-Specific service contract line item linked to this covered product.```
-"service_contract_line": {
-  "value": "String"
-}
-```
-
-</td></tr><tr><td>
-
-sourceJSON.items.coveredProducts.attributes.entitlement
-
-</td><td>
-
-Object
-
-</td><td>
-
-Entitlement record governing the coverage terms.```
-"entitlement": {
-  "value": "String"
-}
-```
-
-</td></tr><tr><td>
-
-sourceJSON.items.coveredProducts.attributes.install\_base
-
-</td><td>
-
-Object
-
-</td><td>
-
-Install base record representing the deployed asset.```
-"install_base": {
-  "value": "String"
-}
-```
-
-</td></tr><tr><td>
-
-sourceJSON.items.coveredProducts.attributes.covering\_sold\_product
-
-</td><td>
-
-Object
-
-</td><td>
-
-Sold product providing coverage for this entry.```
-"covering_sold_product": {
-  "value": "String"
-}
-```
-
-</td></tr><tr><td>
-
-sourceJSON.items.coveredProducts.attributes.date\_added
-
-</td><td>
-
-Object
-
-</td><td>
-
-ISO 8601 date string indicating when the product was added to coverage.```
-"date_added": {
-  "value": "String"
-}
-```
-
-</td></tr><tr><td>
-
-sourceJSON.items.coveredProducts.attributes.date\_removed
-
-</td><td>
-
-Object
-
-</td><td>
-
-ISO 8601 date string indicating when the product was removed from coverage. Null or empty if currently active.```
-"date_removed": {
-  "value": "String"
-}
+"coveredProducts": [Array]
 ```
 
 </td></tr><tr><td>
@@ -814,18 +593,12 @@ sourceJSON.items.lineItems.coveredProducts
 
 </td><td>
 
-Array of Objects
+ 
 
 </td><td>
 
 Array of covered product entity JSONs associated with the line item. Follows the same structure as **sourceJSON.items.coveredProducts**.```
-coveredProducts: [
- {
-  "sys_id": {Object},
-  "table": "String",
-  "attributes": {Object}
- }
-]
+"coveredProducts": [Array]
 ```
 
 </td></tr><tr><td>
@@ -834,7 +607,7 @@ sourceJSON.items.lineItems.sys\_id
 
 </td><td>
 
-String
+ 
 
 </td><td>
 
@@ -846,7 +619,7 @@ sourceJSON.items.lineItems.table
 
 </td><td>
 
-String
+ 
 
 </td><td>
 
@@ -889,9 +662,10 @@ Object
 Required. Target entity JSON to consolidate the source JSON into. Must not be null or empty. Follows the same object structure as the source entity \(**sourceJSON** parameter\).```
 targetJSON={
   "attributes": {Object},
-  "lineitems": {Object},
+  "entitlement_characteristic": {Object},
   "sys_id": "String",
-  "table": "String"
+  "table": "String,
+  "line_item": {Object}
   }
 }
 ```
@@ -975,7 +749,7 @@ targetJSON.lineItems.coveredProducts
 
 </td><td>
 
-Array of Objects
+ 
 
 </td><td>
 
@@ -989,7 +763,7 @@ targetJSON.lineItems.sys\_id
 
 </td><td>
 
-String
+ 
 
 </td><td>
 
@@ -1001,7 +775,7 @@ targetJSON.lineItems.table
 
 </td><td>
 
-String
+ 
 
 </td><td>
 
@@ -1031,18 +805,6 @@ String
 
 Table name of the target entity. Example: `sn_pss_core_service_contract`
 
-</td></tr><tr><td>
-
-additionalParams
-
-</td><td>
-
-Object
-
-</td><td>
-
-Optional. Extra configuration parameters passed through to the consolidation methods. Stored on the instance as `this.additionalParams` and is accessible in all overridable methods. Can contain any custom key-value pairs needed by the implementing class.
-
 </td></tr></tbody>
 </table><table id="table_zch_wng_53c" class="returns"><thead><tr><th>
 
@@ -1058,16 +820,14 @@ Object
 
 </td><td>
 
-Consolidated JSON result. The merged and consolidated entity JSON contains all attributes from the target and merged/consolidated child arrays.Returns targetJSON if consolidation is disabled or sourceJSON is invalid.
+Consolidated JSON result. The merged and deduplicated entity JSON contains all attributes from the target and merged/consolidated child arrays.Returns targetJSON if consolidation is disabled or sourceJSON is invalid.
 
 Returns null if targetJSON is null or empty.
 
 </td></tr></tbody>
-</table>The following example shows how to invoke the consolidate method via LeadToCashService. It consolidates a source entity JSON containing line items into a target entity JSON. Line items with the same product offering are consolidated.
+</table>The following example shows how to invoke the consolidate method via LeadToCashService. It consolidates a source entity JSON containing line items into a target entity JSON. Line items with the same product offering are deduplicated.
 
-This example instantiates `LeadToCashService` directly for simplicity, but in production use, your custom subclass should be registered via the extension point and invoked through PrimitiveUtil.
-
-**Note:** MyConsolidationService is a custom script include that needs to be created by extending ConsolidationService. The logic for the overridable methods \(enableConsolidation\(\), getHashConfig\(\), canConsolidateEntity\(\), canMergeEntity\(\), canConsolidateJSONs\(\), overrideAttributeValues\(\)\) needs to be added within MyConsolidationService. MyLeadToCashService extends LeadToCashService and returns MyConsolidationService from getConsolidationService\(\).
+**Note:** MyConsolidationService is a custom script include that needs to be created by extending ConsolidationService. The logic for the overridable methods \(enableConsolidation, getHashConfig, canConsolidateEntity, canMergeEntity, canConsolidateJSONs, overrideAttributeValues\) needs to be added within MyConsolidationService. MyLeadToCashService extends LeadToCashService and returns MyConsolidationService from getConsolidationService\(\).
 
 ```
 var sourceToTargetConfigID = "sn_cont_ent_wf_contract_to_quote";
@@ -1203,7 +963,7 @@ Output:
 }
 ```
 
-The following example shows how to invoke the consolidate method with null sourceJSON. In this case, only the child entities within the targetJSON are consolidated. This is useful when the target already contains duplicate line items that need to be merged.
+The following example shows how to invoke the consolidate method with null sourceJSON. In this case, only the child entities within the targetJSON are consolidated \(deduplicated\). This is useful when the target already contains duplicate line items that need to be merged.
 
 ```
 var sourceToTargetConfigID = "sn_cont_ent_wf_contract_to_quote";
@@ -1464,64 +1224,32 @@ Overridable method to determine the primary JSON when two JSONs are being consol
 The following example shows how to override getPrimary\(\) to select the entity with the earlier start date as primary.
 
 ```
-// Custom ConsolidationService with getPrimary override
 var MyConsolidationService = Class.create();
 
 MyConsolidationService.prototype = Object.extendsObject(sn_l2c_core.ConsolidationService, {
 
+
     enableConsolidation: function() {
+
         return true;
+
     },
+
 
     getPrimary: function(json1, json2) {
+
         var date1 = json1.attributes.start_date ? json1.attributes.start_date.value : "";
+
         var date2 = json2.attributes.start_date ? json2.attributes.start_date.value : "";
+
         return date1 <= date2 ? json1 : json2;
+
     },
 
+
     type: 'MyConsolidationService'
+
 });
-
-// json1 — earlier start date
-var json1 = {
-    sys_id: { value: "a1b2c3d4e5f6" },
-    table: "sn_pss_core_service_contract_line",
-    attributes: {
-        product_offering: { value: "po_abc123" },
-        quantity: { value: "5" },
-        start_date: { value: "2024-01-01" }
-    }
-};
-
-// json2 — later start date
-var json2 = {
-    sys_id: { value: "f6e5d4c3b2a1" },
-    table: "sn_pss_core_service_contract_line",
-    attributes: {
-        product_offering: { value: "po_abc123" },
-        quantity: { value: "3" },
-        start_date: { value: "2024-06-01" }
-    }
-};
-
-var result = new MyConsolidationService().getPrimary(json1, json2);
-```
-
-Output:
-
-```
-// result === json1 → true
-// "2024-01-01" <= "2024-06-01" is true, so json1 (earlier start date) is returned
-
-{
-    sys_id: { value: "a1b2c3d4e5f6" },
-    table: "sn_pss_core_service_contract_line",
-    attributes: {
-        product_offering: { value: "po_abc123" },
-        quantity: { value: "5" },
-        start_date: { value: "2024-01-01" }
-    }
-}
 ```
 
 ## ConsolidationService - overrideAttributeValues\(Object json1, Object json2, Object consolidatedJSON\)
@@ -1547,44 +1275,63 @@ var MyConsolidationService = Class.create();
 
 MyConsolidationService.prototype = Object.extendsObject(sn_l2c_core.ConsolidationService, {
 
+
     enableConsolidation: function() {
 
         return true;
 
     },
 
+
     overrideAttributeValues: function(json1, json2, consolidatedJSON) {
 
-        // Sum quantities from both entities; fall back to 0 if quantity has no value
+        // Sum quantities
+
         var qty1 = parseInt(json1.attributes.quantity ? json1.attributes.quantity.value : "0");
+
         var qty2 = parseInt(json2.attributes.quantity ? json2.attributes.quantity.value : "0");
+
         consolidatedJSON.attributes.quantity = {
             "value": String(qty1 + qty2)
         };
 
-        // Use the earliest start date; fall back to empty string if start_date has no value
+
+        // Earliest start date
+
         var start1 = json1.attributes.start_date ? json1.attributes.start_date.value : "";
+
         var start2 = json2.attributes.start_date ? json2.attributes.start_date.value : "";
+
         consolidatedJSON.attributes.start_date = {
             "value": start1 <= start2 ? start1 : start2
         };
 
-        // Use the latest end date; fall back to empty string if end_date has no value
+
+        // Latest end date
+
         var end1 = json1.attributes.end_date ? json1.attributes.end_date.value : "";
+
         var end2 = json2.attributes.end_date ? json2.attributes.end_date.value : "";
+
         consolidatedJSON.attributes.end_date = {
             "value": end1 >= end2 ? end1 : end2
         };
 
-        // Record the sys_ids of the source entities that were merged into this consolidated result
+
+        // Track which entities were consolidated
+
         var consolidatedFrom = [];
+
         if (json1.sys_id) consolidatedFrom.push(json1.sys_id);
+
         if (json2.sys_id) consolidatedFrom.push(json2.sys_id);
+
         consolidatedJSON.attributes.consolidated_from = {
             "value": consolidatedFrom.join(",")
         };
 
     },
+
 
     type: 'MyConsolidationService'
 
@@ -1599,7 +1346,7 @@ The system calls this method on the final consolidated result in the consolidate
 
 |Name|Type|Description|
 |----|----|-----------|
-|consolidatedJSON|Object|Fully processed consolidated JSON object after all merging and consolidation is complete. Modify this object directly to apply final transformations.|
+|consolidatedJSON|Object|Fully processed consolidated JSON object after all merging and deduplication is complete. Modify this object directly to apply final transformations.|
 
 |Type|Description|
 |----|-----------|
@@ -1640,13 +1387,13 @@ MyConsolidationService.prototype = Object.extendsObject(sn_l2c_core.Consolidatio
 
 ## ConsolidationService - preProcess\(Object sourceJSON, Object targetJSON, Object additionalParams\)
 
-Overridable method called before merge and consolidation for performing custom pre-processing tasks such as bulk map creation or caching lookup data.
+Overridable method called before merge and consolidation for performing custom pre-processing tasks such as bulk map creation or caching lookup data..
 
 Store computed results on the `this` object \(for example, `this.targetHeaderId = "sample_sys_id"`\). This method doesn't return any value.
 
 |Name|Type|Description|
 |----|----|-----------|
-|sourceJSON|Object|Output of sourceJSON to consolidate. Accepts the JSON output of the [LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LeadToCashCoreAPI.md) createInstance\(\) or effect\(\) method. Can be a single entity JSON object, or a JSON object containing an items array of multiple entity JSONs. Can be null or empty.|
+|sourceTarget|Object|Output of Create/Effect primitive. Source JSON\(s\) to consolidate. Can be null or empty.|
 |targetJSON|Object|Required. Target entity JSON for consolidation.|
 |additionalParams|Object|Optional. Additional data passed from the caller.|
 
@@ -1659,18 +1406,16 @@ The following example shows how to override preProcess\(\) to cache a target hea
 ```
 var MyConsolidationService = Class.create();
 MyConsolidationService.prototype = Object.extendsObject(sn_l2c_core.ConsolidationService, {
-
+ 
     enableConsolidation: function() {
         return true;
     },
-
+ 
     preProcess: function(sourceJSON, targetJSON, additionalParams) {
-        // Cache the target entity's sys_id for use in subsequent consolidation steps
         this.targetHeaderId = targetJSON.sys_id;
-        // If sourceJSON and sourceJSON.items are both present, store the item count; otherwise default to 0
         this.sourceCount = sourceJSON && sourceJSON.items ? sourceJSON.items.length : 0;
     },
-
+ 
     type: 'MyConsolidationService'
 });
 ```

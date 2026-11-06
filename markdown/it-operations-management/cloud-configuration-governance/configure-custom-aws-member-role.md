@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Day 1 setup guide for Amazon Web Services on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Values that you enter in the Cloud Service Account &gt; AWS Org Assume Role Params \[cloud\_service\_account\_aws\_org\_assume\_role\_params\] table are passed as parameters to the AWS AssumeRole API. These parameters apply to the named service account.
+Values in the Cloud Service Account &gt; AWS Org Assume Role Params \[cloud\_service\_account\_aws\_org\_assume\_role\_params\] table are passed as parameters to the AWS AssumeRole API.
 
 ## Procedure
 

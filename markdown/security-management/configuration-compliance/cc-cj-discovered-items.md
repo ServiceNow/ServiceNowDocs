@@ -7,7 +7,7 @@ release: australia
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration Compliance imported data, Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -22,7 +22,7 @@ To make it easier to find potential matching issues, the CI Lookup Rule that mat
 
 **Note:** **CI matching rule** field support is available only for the Qualys integration.
 
-If a match was not found, a CI is created in the Unmatched CI class `[sn_sec_cmn_unmatched_ci]`, `[cmdb_ci_unclassed_hardware]`, or `[cmdb_ci_incomplete_ip]` of the CMDB. If the original unmatched CI was reclassified, Discovered item records are updated to reflect that state. For more information, see [Working with unmatched CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/working-unmatched-cis.md) and [View and reclassify unmatched configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/view-discovered-items.md) for more information.
+If a match was not found, a CI is created in the Unmatched CI class `[sn_sec_cmn_unmatched_ci]`, `[cmdb_ci_unclassed_hardware]`, or `[cmdb_ci_incomplete_ip]` of the CMDB. If the original unmatched CI was reclassified, Discovered item records are updated to reflect that state. For more information, see Unmatched CIs and [View and reclassify unmatched configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/view-discovered-items.md) for more information.
 
 By default, the **Security Operations** &gt; **CMDB** &gt; **Discovered Items** module lists unmatched configuration items. You can view all discovered items from an import by removing the filter.
 

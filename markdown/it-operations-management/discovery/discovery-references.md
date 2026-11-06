@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -25,7 +25,7 @@ The **Command List** form contains all commands used in discovery by infrastruct
 -   **[Discovery log details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-log.md)**  
 Discovery logs contain information on the horizontal discovery process based on probes and patterns.
 -   **[Discovery Schedule form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-schedule-form.md)**  
-The Discovery Schedule form provides details about the configuration items \(CIs\) targeted for discovery, the associated MID Server, and the schedule settings for when and how the discovery runs.
+The Discovery Schedule form provides details about the configuration items \(CIs\) targeted for discovery, the associated MID Server, and the schedule settings for the discovery run.
 -   **[Create a new discovery schedule form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/create-a-new-discovery-schedule-form.md)**  
 The Create a new discovery schedule form displays information related to the schedule and the target cloud provider. The Create a new discovery schedule form is available in the Cloud Discovery Workspace.
 -   **[Discovery Admin Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_discovery-admin-workspace-reference.md)**  

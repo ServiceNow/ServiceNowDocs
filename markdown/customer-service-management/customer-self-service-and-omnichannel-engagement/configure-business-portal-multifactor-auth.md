@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Multi-factor authentication for Business and Consumer Portal
@@ -76,9 +76,4 @@ The property's value is used in the following calculation: `current time - x/2` 
 Add the external role sn\_customerservice.customer to the multi-factor roles.
 
 Users with this role is required to use multi-factor authentication. For more information, see [Configure user-based multi-factor criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_RequireMultifactorAuthForAUser.md).
-
-**Related topics**  
-
-
-[Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/mfa-landing.md)
 

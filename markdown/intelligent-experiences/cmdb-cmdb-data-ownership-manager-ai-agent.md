@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/cmdb-cmdb-data-ownership-manager-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # CMDB data ownership manager AI agent
@@ -18,13 +18,12 @@ Performs actions related to the data ownership of configuration item \(CI\) clas
 
 The agent helps users complete tasks related to CMDB data ownership manager.
 
-1.  If you have done it before, skip to step 2.
-2.  Ask the user what CI class they would like to check the data ownership for.
-3.  Determine the ownership field of the specified CI class.
-4.  Ask the user whether the determined ownership field is correct.
-5.  Evaluate the quality of the data ownership of the specified CI class.
-6.  Ask the user if they want to check the data ownership of another CI class.
-7.  Inform the user that they have completed the step of going through the data ownership of CIs.
+1.  Ask the user what CI class they would like to check the data ownership for.
+2.  Determine the ownership field of the specified CI class.
+3.  Ask the user whether the determined ownership field is correct.
+4.  Evaluate the quality of the data ownership of the specified CI class.
+5.  Ask the user if they want to check the data ownership of another CI class.
+6.  Inform the user that they have completed the step of going through the data ownership of CIs.
 
 <table><thead><tr><th>
 
@@ -79,7 +78,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-sn\_cmdb\_admin, snc\_internal
+sn\_cmdb\_admin
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -115,7 +115,7 @@ Territory
 
 </td><td>
 
-Option to display the assigned territory.**Note:** This field appears when the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md) and [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
+Option to display the assigned territory. **Note:** This field appears when the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md) and [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 </td></tr><tr><td>
 
@@ -423,7 +423,7 @@ Operational Status
 
 </td><td>
 
-Status of the equipment. For example, a bucket truck is Unavailable because there's maintenance being completed on it. The available values are:
+Status of the equipment. For example, a bucket truck is Unavailable because there’s maintenance being completed on it. The available values are:
 
 -   Available
 -   In Use

@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ The CMDB Workspace is an efficient, central, and modernized way for you to work.
 
 ## General interaction and additional information
 
--   CMDB Workspace leverages many [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md) capabilities and features, such as indicator sources. Throughout the CMDB Workspace views, you can select the various cards to drill down to Performance Analytics KPI Details panes that show trends for the associated data. On a KPI Details pane, you can modify different settings to change the scope of the data. You can also select **Show Records** to list the records associated with the chart.
+-   CMDB Workspace leverages many Performance Analytics capabilities and features, such as indicator sources. Throughout the CMDB Workspace views, you can select the various cards to drill down to Performance Analytics KPI Details panes that show trends for the associated data. On a KPI Details pane, you can modify different settings to change the scope of the data. You can also select **Show Records** to list the records associated with the chart.
 -   Lists throughout the CMDB Workspace have a filter icon that you can select to show the filter definition used for the list.
 -   You can [open your Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md) to access and edit your CMDB Workspace experience.
 -   See [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md) for a list of all Workspaces that ServiceNow® provides.
@@ -72,7 +72,7 @@ When you drill down to CI details, how those details appear depends on system se
     -   Select **Save** to save any changes made to attributes for the CI record.
 
     -   Select the More Actions icon \(...\) for additional functions:
-        -   Select **Create Change** to [create a new change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAChange.md) for the CI record.
+        -   Select **Create Change** to create a new change request for the CI record.
         -   Select **Create Incident** to [create a new incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-an-incident.md) for the CI record.
         -   Select **Delete** to delete the CI record.
 <table id="table_cxt_nn4_mrb"><thead><tr><th>
@@ -210,8 +210,8 @@ To learn more about configuring and using CMDB Workspace, see:
 
 -   **[Home view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-home-view.md)**  
 Home view is the default view in CMDB Workspace. It shows important tasks that you should tend to, various counts for activities in CMDB such as new CIs, CMDB Health aggregations, and various charts. The Home view also provides several links with immediate access to key CMDB tools.
--   **[SGC view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)**  
-The Overview page in the Ingestion view in Service Graph Workspace provides a centralized dashboard view for administrators to monitor the installation, performance, and error handling of Service Graph Connectors.
+-   **[SGC Central view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)**  
+The Overview page in the SGC Central view in CMDB Workspace provides a centralized dashboard view for administrators to monitor the installation, performance, and error handling of Service Graph Connectors.
 -   **[Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md)**  
 Governance view in CMDB Workspace provides administrators with important information, actions, and links to tools that are used to manage, monitor, and administer data ingestion and other CMDB functions.
 -   **[Explore and Search view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md)**  

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-create-policy.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -16,7 +16,7 @@ Creating a data certification policy serves as a governance mechanism to ensure 
 
 ## Before you begin
 
-\[Omitted video\] Description: Video demonstrating how to create and and publish a certification policy in Enterprise Architecture Workspace.
+\[Omitted video\] Description: Video demonstrating how to create and publish a certification policy in Enterprise Architecture Workspace.
 
 Role required: sn\_cmdb\_admin + sn\_apm.apm\_analyst
 

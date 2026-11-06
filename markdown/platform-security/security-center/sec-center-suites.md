@@ -7,7 +7,7 @@ release: australia
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security scanner, Security configuration console, Security Center, Platform Security]
 ---
@@ -51,7 +51,7 @@ Select the **Name** field of a suite to view the suite details. This page provid
 
 -   **[Access Controls Auditor checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/auditor-control-checks.md)**  
 Learn about the checks available in the default Access Controls Auditor Suites, what criteria they evaluate, and how they can be used to improve the security of your instance.
--   **[Security Center Scan Suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/auditor.md)**  
+-   **[Auditor checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/auditor.md)**  
 Use the Auditor suite to SecureCheck to detect misconfiguration that can impact the security posture of your instance.
 -   **[Create a scan suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/create-new-suite.md)**  
 Create and schedule a custom suite so that you can analyze the security of your instance for your organization.

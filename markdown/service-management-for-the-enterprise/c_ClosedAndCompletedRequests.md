@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/c\_ClosedAndCompletedRequests.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Close a request, Request Management in a Service Management application, Service Management]
 ---

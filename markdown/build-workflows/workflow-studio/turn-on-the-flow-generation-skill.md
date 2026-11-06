@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Flow generation, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -18,7 +18,7 @@ Turn on the flow generation skill to use generative AI to create and edit flows.
 
 ## Before you begin
 
--   Install the ServiceNow Otto for Creator application. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
+-   Install the ServiceNow Otto for Creator application. See .
 -   Role required: admin
 
 ## About this task

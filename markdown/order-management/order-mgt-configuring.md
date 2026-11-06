@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-configuring.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
@@ -35,7 +35,7 @@ As a provider, you can use compatibility rules to establish horizontal relations
 -   **[Asynchronous order processing for large customer and consumer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/asynchronous-order-processing.md)**  
 Asynchronous order processing handles high-volume enterprise and consumer orders without waiting for immediate processing, improving system performance for communications service providers \(CSP\) using Order Management.
 -   **[Customize an order summarization skill in ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/customize-order-summarization-skill-now-assist-order-management.md)**  
-Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CRM Workspace and Business Portal.
 
 **Parent Topic:**[Configuring Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-configuring.md)
 

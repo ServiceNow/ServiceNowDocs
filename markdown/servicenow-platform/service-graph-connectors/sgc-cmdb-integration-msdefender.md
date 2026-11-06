@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,9 +26,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Microsoft Defender for Endpoint Plan 1
     -   Microsoft Defender for Endpoint Plan 2
 -   Supported ServiceNow versions:
-    -   Washington DC
-    -   Xanadu
-    -   Yokohama
+    -   Zurich
+    -   Australia
+    -   Brazil
 
 ## Use cases
 

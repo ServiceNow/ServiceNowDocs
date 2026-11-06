@@ -1,6 +1,6 @@
 ---
 title: Conversation-first catalog and knowledge
-description: The chat in Employee Slate resolves plain-language requests to catalog items and knowledge articles. Employees submit requests and get answers without knowing the exact item or article name.
+description: The chat in EmployeeWorks resolves plain-language requests to catalog items and knowledge articles. Employees submit requests and get answers without knowing the exact item or article name.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/eslate-conversational-catalog.html
 release: australia
@@ -9,18 +9,20 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-04-22"
 reading_time_minutes: 1
-breadcrumb: [Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Conversation-first catalog and knowledge
 
-The chat in Employee Slate resolves plain-language requests to catalog items and knowledge articles. Employees submit requests and get answers without knowing the exact item or article name.
+The chat in EmployeeWorks resolves plain-language requests to catalog items and knowledge articles. Employees submit requests and get answers without knowing the exact item or article name.
 
 Based on your query, the chat locates the correct catalog item or knowledge article. You can open it in a **split view**. The chat performs the following actions:
 
 -   Interprets the intent and query.
 -   Matches and displays the catalog item or KB article based on your intent.
 -   Displays answers to follow-up questions about the opened KB article or catalog in the **split view**.
+
+**Note:** For more information on split view opened from Moveworks chat, see .
 
 ## Chat assistance for catalog
 

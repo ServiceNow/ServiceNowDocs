@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tag mapping in the workspace, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---

@@ -7,9 +7,9 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure AI Admin features, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configure AI Admin features, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Configure the Monitor project tasks AI agent in AI Agent Studio

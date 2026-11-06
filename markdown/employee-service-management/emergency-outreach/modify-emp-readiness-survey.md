@@ -7,9 +7,9 @@ release: australia
 product: Emergency Outreach
 classification: emergency-outreach
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Emergency Outreach, Emergency Response Management, Employee Service Management]
+breadcrumb: [Emergency Outreach, Emergency Response Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Modify or add Employee Readiness Surveys
@@ -36,15 +36,15 @@ Users with the sn\_imt\_checkin.checkin\_admin role have the survey\_creator rol
 
 2.  Using the plan that you made for changing the survey, update any of the following survey elements.
 
-<table id="reuse-choicetable_afj_nqk_qlb"><thead><tr><th align="left" id="d378873e114">
+<table id="reuse-choicetable_afj_nqk_qlb"><thead><tr><th align="left" id="d378217e114">
 
 Option
 
-</th><th align="left" id="d378873e117">
+</th><th align="left" id="d378217e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d378873e123">
+</th></tr></thead><tbody><tr><td id="d378217e123">
 
 **Add owners**
 
@@ -52,7 +52,7 @@ Description
 
 Select the lock icon \(\[Omitted image "icon-lock.png"\] Alt text: Lock icon\) beside **Owners** to unlock the list of survey owners. Add the user to collaborate with on this survey.
 
-</td></tr><tr><td id="d378873e141">
+</td></tr><tr><td id="d378217e141">
 
 **Update the introductory and ending text**
 
@@ -60,7 +60,7 @@ Select the lock icon \(\[Omitted image "icon-lock.png"\] Alt text: Lock icon\) b
 
 Select the Introduction &amp; End Notes section tab and update the text.
 
-</td></tr><tr><td id="d378873e150">
+</td></tr><tr><td id="d378217e150">
 
 **Work with the questions**
 
@@ -70,7 +70,7 @@ Select the Introduction &amp; End Notes section tab and update the text.
 2.  Select the question to open the Survey Question form. Modify and complete your edits. The answers are listed in the Assessment Metric Definitions related list.
 
 
-</td></tr><tr><td id="d378873e171">
+</td></tr><tr><td id="d378217e171">
 
 **Work with the question responses**
 

@@ -7,7 +7,7 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Requesting workstation user data, Use, Task Mining, Platform Analytics]
 ---
@@ -28,18 +28,18 @@ Role required: sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
 3.  Under **Data Request**, select **All**.
 
-4.  Select the data log request that you want more information about.
+4.  Select the data request that you want more information about.
 
-5.  Check the approval progress of the request in the **Stage** column.
+5.  Check the approval progress of the data request in the **Stage** column.
 
     The data request statuses are:
 
     -   Waiting for Approval: Data request for at least one workstation user has not been approved.
     -   Request Approved: Data requests for all workstation users have been approved.
     -   Request Cancelled: The data request was rejected.
-6.  Follow-up on a data request that is waiting for approval or find out why a request was rejected.
+6.  Follow-up on a data request that is waiting for approval or find out why a data request was rejected.
 
-    1.  Select the request link in the **Number** column.
+    1.  Select the data request link in the **Number** column.
 
     2.  Select the **Approvers** tab.
 
@@ -47,7 +47,7 @@ Role required: sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
         -   **Approver**: Manager who is required to act on the data request.
         -   **State**: Status of the data request.
-        -   **Comments**: Names of the workstation users in the data request or the reason the request was rejected.
-7.  If you want to accelerate the progress of a pending request, contact the approver and urge action before the project is set to begin.
+        -   **Comments**: Names of the workstation users in the data request or the reason the data request was rejected.
+7.  If you want to accelerate the progress of a pending data request, contact the approver and urge action before the project is set to begin.
 
 

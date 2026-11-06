@@ -7,7 +7,7 @@ release: australia
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Normalization data services, Creating users, companies, departments, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,7 +32,7 @@ You can change normalized company names by editing records in the Normalized Com
 
 ### Before you begin
 
-Role required: nds\_admin
+Role required: admin
 
 ### About this task
 

@@ -25,7 +25,7 @@ By default, the following models are provided as examples for ITIL mode 1 and mo
 -   ITIL mode 1- This is a traditional and sequential approach to process the Change Requests. This mode goes through a sequential process defined to complete a change successfully.
 -   ITIL mode 2- This is an adaptable approach to expedite the change request. This mode supports the right process for a given change to verify that it isn't a blocker for another change being processed.
 
-Change models have been categorized based on IT Infrastructure Library \(ITIL\) Change types and federated change types. The following types of change models are based on the ITIL change types:
+Change models are categorized by IT Infrastructure Library \(ITIL\) change types and federated change types. The following types of change models are based on the ITIL change types:
 
 -   Normal: Used for ITIL mode 1 Normal changes.
 -   Standard: Used for ITIL mode 1 Standard changes where some of the change states and approvals are pre-approved by default.
@@ -33,14 +33,14 @@ Change models have been categorized based on IT Infrastructure Library \(ITIL\) 
 
 **Important:** The default change model configured for an instance can override the **Type** value copied by the **Copy Change** action. Even when the `type` is listed in the **com.snc.change\_request.copy.attributes** property, the **Change Model: Reusables** client script can reset the new change to the default model. For example, copying an emergency change can open the new change as Normal.
 
-The following change models are based on the federated change types that combines multiple states tailored to the purpose and management of specific change use cases:
+The following change models are based on the federated change types that combine multiple states tailored to the purpose and management of specific change use cases:
 
 -   DevOps: Change model used for DevOps change requests. For more information, see [DevOps change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-change-multimodel.md).
--   Cloud Infrastructure: Used for change requests that commission and decommission Cloud infrastructure services.
+-   Cloud Infrastructure: Used for change requests that commission and decommission cloud infrastructure services.
 -   Unauthorized: Used for change requests that are created from the unauthorized change events.
--   App: Change model used for application based change requests that skip the assessment state.
--   Low Risk: Change model used for low risk based changes.
--   Patching: Change model used for low risk defect and patching related changes.
+-   App: Change model used for application-based change requests that skip the assessment state.
+-   Low Risk: Change model used for low-risk changes.
+-   Patching: Change model used for low-risk defect and patching related changes.
 
 Change models can be tailored to address specific use cases and role-based access is configured to maintain compliance and mitigate risks. Change models can be made available while creating new change requests and standard information for specific fields can be configured to be displayed when a new change request is created using the model.
 
@@ -50,12 +50,12 @@ Change models can be configured so that each change can go through a series of s
 
 Configure change model states and transition processes for the newly created change models. For more information, see [Configure change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-change-model-states.md).
 
-After creating a change model, you can create a change template for the model to pre-populate data and make the change creation process faster and more consistent. You can configure parent and child categories for templates and manage their proposal, creation and approval process. For more information, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-change-template.md).
+After creating a change model, you can create a change template for the model to pre-populate data and make the change creation process faster and more consistent. You can configure parent and child categories for templates and manage their proposal, creation, and approval process. For more information, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-change-template.md).
 
 -   **[Change Models properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-models-properties.md)**  
 Configure the Change Models properties to access the Change models capabilities when creating a Change request.
 -   **[Create a user criteria record for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-user-criteria.md)**  
-Create a user criteria record to control user access to widgets.
+Create a user criteria record and add it to a change model to control which users can view and use that change model.
 
 **Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/exploring-change-management.md)
 

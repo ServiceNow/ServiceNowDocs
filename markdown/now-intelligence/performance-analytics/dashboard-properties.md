@@ -7,14 +7,16 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Responsive dashboard properties
 
 Use properties to fine-tune dashboard behavior and appearance.
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md).
 
 Navigate to **System Properties** &gt; **Dashboard Properties** to configure the main responsive dashboard properties. In the Filter navigator, enter `sys_properties.list` to configure other reporting properties.
 
@@ -48,7 +50,7 @@ Enable fulfiller creation of Core UI dashboardscom.snc.par.coreui.dashboard\_cre
 
 </td><td>
 
-Allows any internal user to create Core UI dashboards on an upgraded instance, using the Core UI workflow. The instance must not have been net new on Xanadu or later, or Core UI dashboards are not supported and this property has no effect.When the `true` value of this property is in effect, you can create Core UI dashboards through the **Create new** button in the Dashboards library.
+Allows any internal user to create Core UI dashboards on an upgraded instance. The instance must not have been net new on Xanadu or later, or Core UI dashboards are not supported and this property has no effect.When the `true` value of this property is in effect, you can create Core UI dashboards through the **Create new** button in the Dashboards library.
 
 -   Type: true \| false
 -   Default value: true

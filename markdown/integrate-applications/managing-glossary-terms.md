@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/managing-glossary-terms.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [glossary term, business glossary, data catalog, business context]
 breadcrumb: [Data Catalog, Workflow Data Fabric]

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/configure-user-selected-start-page-preference.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Landing pages, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ Configure a user-selected start page to override the administrator‑configured 
 
 ## Before you begin
 
-Confirm you have enabled the Next Experience before beginning this task. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-adoption-paths.md).
+Ensure you have enabled the Next Experience prior to beginning this task. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-adoption-paths.md).
 
 Role required: none
 
@@ -24,7 +24,7 @@ Role required: none
 
 1.  The admin must enable the **glide.next\_experience.user\_selected\_landing\_page\_enabled** system property.
 
-    If the property doesn't already exist, see  to create it.
+    If the property doesn't already exist, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to create it.
 
     1.  Select **All** to open the navigation filter, enter `sys_properties.list`, and press Enter to view the System Property table in list view.
 

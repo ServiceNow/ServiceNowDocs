@@ -1,18 +1,18 @@
 ---
 title: Properties installed with Workplace Space Mapping
-description: The following properties are installed with Workplace Space Mapping. Navigate to All Workplace Space Mapping Properties or enter sys\_properties.list in the context menu and search for Workplace Space Mapping properties.
+description: The following properties are installed with Workplace Space Mapping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/wsd-space-mapping-properties.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Reference, Workplace Space Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Properties installed with Workplace Space Mapping
 
-The following properties are installed with Workplace Space Mapping. Navigate to **All** &gt; **Workplace Space Mapping** &gt; **Properties** or enter sys\_properties.list in the context menu and search for Workplace Space Mapping properties.
+The following properties are installed with Workplace Space Mapping.
 
 <table id="table_hs1_nrx_bbc"><thead><tr><th>
 
@@ -28,7 +28,7 @@ sn\_wsd\_space\_map.mapping\_technology
 
 </td><td>
 
-Map provider used for workplace reservations and wayfinding.You can select Mappedin or Indoor Mapping as the map provider for your instance.
+Specifies the map provider that is used for workplace reservations and wayfinding.You can select Mappedin or Indoor Mapping as the map provider for your instance.
 
 </td></tr><tr><td>
 
@@ -149,6 +149,7 @@ Default location that is zoomed into when you open the location directory.You ca
 
 -   **World map**: The location directory opens in the world map view and doesn’t zoom into any location.
 -   **Workplace Profile**: The location directory opens and zooms into your workplace profile location.
+-   **User preference**: The location directory zooms into the location that you select.
 
 </td></tr><tr><td>
 
@@ -156,55 +157,11 @@ sn\_wsd\_space\_map.default\_label\_on\_map
 
 </td><td>
 
-Default value that is used for the labels on the map.Select one of the following options:
+Default value that is used for the labels on the map.You can select one of the following options:
 
--   **Space name**: Only the space name or space ID is displayed on the map.
--   **Space and user names**: The space name and the assigned user's name are displayed on the map. If a space doesn't have an assigned user, only the space name or space ID is displayed.
--   **User preference**: Your last session details are cached in the Map settings. Selecting the map displays these options on your next login. For example, if in your previous login session, you selected **Space Name**, the application caches this information and the Space name option for a space is displayed when you login next
-
-The map label shows personalized option based on the employee's selection from their previous login session.
-
-
-</td></tr><tr><td>
-
-sn\_wsd\_space\_map.default\_label\_on\_map\_reservation
-
-</td><td>
-
-Default value used to display labels on map on the reservation portal search page.**Note:** This property is displayed only when any of the following properties are enabled in Workplace Space Mapping and Workplace Core respectively:
-
--   sn\_wsd\_space\_map.display\_seat\_assignment: Displays the permanent seat assignments on the location directory. For more information, see [Properties installed with Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsd-space-mapping-properties.md)
--   sn\_wsd\_core.floor\_plan.portal.show\_reservation\_details:Determines whether reservation details appear when users select booked spaces on the floor plan in Workplace Service Portal. For more information, see [Properties installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-core/properties-installed-with-workplace-service-delivery.md).
-    -   Type: true\|false
-    -   Default value: false
-
-Employees can select one of following options in \(sn\_wsd\_space\_map.default\_label\_on\_map\_reservation\):
-
--   **Space name**: The space name or space ID is displayed on the map. Default value is set to Space name.
-
-After enabling this property, navigate to the reservation portal search page and select the Map view option. Spaces on the map shows space IDs or names. Example: A1.0501, A1.0502. Select map settings and notice that the **Don’t show employee names** option is enabled. The map shows only space identifiers or space names and doesn't show employee names.
-
--   **Assigned user**: The assigned employee name or permanent seats for employees with a workplace profile are displayed on the map. For this property to work, make sure that you have enabled the **Enable Display of permanent seat assignments on map** property in Workplace Space Mapping.
-
-After enabling **Enable Display of permanent seat assignments on map**, navigate to the Reservation portal search page and select the Map view option.
-
-**Note:** If a space doesn't have an permanent seat assignment or workplace profile assigned to it, only the space name or space IDs are displayed. Enabling the **Enable Display of permanent seat assignments on map** property shows only permanent seating of employees on the map and it doesn't show temporary reservations.
-
--   **Reserved User**: The reserved user's name is displayed on the name along with the space name.
-
-**Note:** Make sure to enable sn\_wsd\_core.floor\_plan.portal.show\_reservation\_details property on Workplace Core.
-
-After enabling the **sn\_wsd\_core.floor\_plan.portal.show\_reservation\_details** Workplace Core property, navigate to the reservation portal search page and select the Map view option. For reserved spaces, the map shows the name of the person who reserved it. For example, if Abel Tuter reserved a space, the map shows Abel Tuter.
-
--   **User preference**: Your last session details are cached in the Map settings on the reservation portal search page. Selecting the map displays these options on your next login. For example, if in your previous login session, you selected Reserved User, the application caches this information and the **Reserved User** option for a space is displayed when you login next.
-
-For example, if an employee selects the following:
-
-    -   Space name: Map shows the space IDs or space names.
-    -   Assigned user: Map shows permanent seating names.
-    -   Reserved user: Map shows reservation owner names.
-The map label shows personalized option based on the employee's selection from their previous login session.
-
+-   **Space names**: Only the space name is displayed on the map.
+-   **Space and user names**: The space name and the assigned user's name are displayed on the map. If a space doesn't have an assigned user, only the space name is displayed.
+-   **User preference**: You can select whether only space names or space and user names are displayed on the map.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Workplace Space Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-reference.md)

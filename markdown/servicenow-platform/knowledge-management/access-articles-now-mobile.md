@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Now Mobile for Knowledge Management, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -63,7 +63,7 @@ Up to five of the most popular knowledge articles.The Now Mobile app homepage in
 **Related topics**  
 
 
-[Browse articles in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/browse-articles-now-mobile.md)
+[Browse articles in the Now Mobile Information applet]()
 
 [Search for an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/search-article-now-mobile.md)
 

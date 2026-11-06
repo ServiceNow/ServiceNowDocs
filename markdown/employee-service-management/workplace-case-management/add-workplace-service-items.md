@@ -7,7 +7,7 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -37,12 +37,6 @@ Add a workplace item to make it available for employees to order when they make 
 -   Time duration required to prepare the item and clean up the item. You can specify the time in days and or hours.
 -   Specify if you want to enable employees to specify their required quantity or capacity.
 -   Configure the locations where the workplace service item shall be available.
-
-**Note:** Some fields might not be applicable based on whether the case is standalone or linked to a reservation.
-
-For example, while reserving a room with a projector from 10:00 am to 11:00am, the preparation and cleanup time is applicable to set up and remove the projector. If the preparation and cleanup duration is 30 minutes each, the room is reserved from 9:30am to 11:30am.
-
-For standalone cases, users have the flexibility to raise a request at any time. The request doesn't need a start time and end time, therefore, preparation and cleanup time aren't applicable.
 
 Example: Workplace service items added with 'Request Furniture' workplace service:\[Omitted image "wcasemgmt-workplceserviceservice-itemsl.png"\] Alt text: Workplace service items added with 'Request Furniture' workplace service.
 

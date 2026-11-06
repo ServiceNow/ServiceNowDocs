@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow stages, Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Workflow fields may indicate when a record required by the workflow is deleted.
 
 After a referenced record is deleted, the reference in the primary record is no longer valid. If the stage renderer detects a reference that is no longer valid, the stage field displays a message about the deleted record.
 
-Administrators can restore deleted records. For more information, see [Use the Deleted Records module to restore a deleted record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RestoreADeletedRecordAndRef.md).
+Administrators can restore deleted records. For more information, see Use the Deleted Records module to restore a deleted record.
 
 \[Omitted image "600pxWFRenderMissingrecordEdited.png"\] Alt text:
 

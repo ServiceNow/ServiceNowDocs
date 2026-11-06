@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Process Mining, Platform Analytics]
 ---
@@ -24,7 +24,7 @@ The following process graph displays details about the reassignment analysis.
 
 \[Omitted image "process-graph.png"\] Alt text: Process graph
 
-Select any node of the process graph and the graph changes to the node star diagram displaying all the incoming and outgoing arcs from the selected node. When you select the **Process graph** button again, the entire graph is displayed as a process graph. You can also apply a view based on the activity definitions for the project. Multi-dimensional maps are supported on the Platform Analytics dashboards. You can also run work notes analysis from Platform Analytics dashboards. For more information about work notes analysis, see [Working with work notes using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/worknotes.md).
+Select any node of the process graph and the graph changes to the node star diagram displaying all the incoming and outgoing arcs from the selected node. When you select the **Process graph** button again, the entire graph is displayed as a process graph. You can also apply a view based on the activity definitions for the project. Multi-dimensional maps are supported on the Platform Analytics dashboards. You can also run work notes analysis from Platform Analytics dashboards. For more information about work notes analysis, see [Working with transition work notes using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/worknotes.md).
 
 If you select PO Group 10, a node star diagram similar to the following figure is displayed. You can view the records assigned to PO Group 10. You can also view the records that are assigned from PO Group 10 to other groups.
 

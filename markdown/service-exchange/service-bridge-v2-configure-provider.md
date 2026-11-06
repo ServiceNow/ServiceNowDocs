@@ -7,7 +7,7 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Exchange for Providers, Service Exchange]
 ---
@@ -24,7 +24,7 @@ To set up and configure the Service Exchange for Providers application, follow t
 |----|----|
 |Install the Service Exchange for Providers application.|See [Install Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/install-service-bridge-v2-provider.md).|
 |Set up a new provider record.|See [Set up a Service Exchange provider record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-new-provider.md).|
-|Assign Service Exchange roles for providers.|See [User roles for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-personas.md).|
+|Assign Service Exchange roles for providers.|See [Personas for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-personas.md).|
 |Create catalog personas.|See [Create catalog personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-catalog-persona.md).|
 |Create remote choice definitions.|See [Create remote choice definitions in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-create-remote-choice-fld-defs.md)|
 |Create remote catalog items.|See [Create remote catalogs in Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-remote-catalog.md).|

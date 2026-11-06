@@ -1,18 +1,18 @@
 ---
 title: Maintaining Digital resilience third-party registers
-description: The Digital resilience third-party registers application enables you to maintain contractual arrangements for Information and Communication Technology \(ICT\) services that support critical or important functions. You can manage contractual arrangement details through the graphical user interface or by importing or exporting Microsoft Excel files.
+description: The Digital resilience third-party registers application enables customers to maintain contractual arrangements for Information and Communication Technology \(ICT\) services from ICT third-party service providers. These services support critical or important functions. Customers can manage contractual arrangement details through the graphical user interface \(GUI\) or by importing or exporting Microsoft Excel files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/digi-resi-third-party-registers.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Maintaining Digital resilience third-party registers
 
-The Digital resilience third-party registers application enables you to maintain contractual arrangements for Information and Communication Technology \(ICT\) services that support critical or important functions. You can manage contractual arrangement details through the graphical user interface or by importing or exporting Microsoft Excel files.
+The Digital resilience third-party registers application enables customers to maintain contractual arrangements for Information and Communication Technology \(ICT\) services from ICT third-party service providers. These services support critical or important functions. Customers can manage contractual arrangement details through the graphical user interface \(GUI\) or by importing or exporting Microsoft Excel files.
 
 ## Get started
 

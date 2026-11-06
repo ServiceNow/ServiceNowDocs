@@ -7,10 +7,10 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-05"
 reading_time_minutes: 4
 keywords: [admin console, branding, themes, data sources, conversational assistant, canvas configuration, internal search, external search, Employee Slate]
-breadcrumb: [Employee Slate \(built for Now Assist\), Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Slate \(built for Now Assist\), EmployeeWorks, Employee Service Management]
 ---
 
 # Configure branding and theme
@@ -48,11 +48,18 @@ The Product Configuration console organizes the configuration work into modules 
 
 4.  Select **Configure** to open the Product Configuration console.
 
-5.  In the **Appearance** module, set the branding and theming for the experience.
+5.  In the **Appearance** module, select **Branding and theming** to customize with your brand and themes.
 
     \[Omitted image "es-admin-console.png"\] Alt text: Configure branding and theme
 
-    Set the portal name, URL suffix, light and dark mode logos, the favicon, and the primary, accent, and neutral palette colors. Preview the experience in desktop, mobile, light mode, and dark mode, then save and mark the module as configured.
+    You can set the following:
+
+    -   Portal name and URL Suffix
+    -   Brand logo \(light and dark mode\)
+    -   Relevant theme
+    -   Corner radius
+    -   Homepage background
+    Preview the experience in desktop, mobile, light mode, and dark mode, then save and mark the module as configured.
 
 6.  [Configure additional themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/es-configure-multi-theme.md) based on your requirements.
 

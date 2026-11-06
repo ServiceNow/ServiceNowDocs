@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Insights view, Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -113,7 +113,7 @@ Data ingestion contains the following features and aggregations:
 
 -   **CMDB application for APIs and CLI**
 
-    Determines whether the [CMDB application for APIs and CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/cmdb-cli-commands.md) store app is installed.
+    Determines whether the CMDB application for APIs and CLI store app is installed.
 
     This card appears only if the store app isn't installed, providing helpful resources for exploration and adoption.
 
@@ -154,7 +154,7 @@ The overall level of adoption of data governance is based on whether [CMDB Data 
 
     Checks if the Principal Class filter is configured with at least one principal class. The Principal Class filter limits the number of CIs that appear in list views, to show only CIs of principal classes. Reducing the amount of data in list views to only relevant data, improves performance and efficiency.
 
-    For more information about Principal Class and how to manage the Principal Class filter in CI Class Manager, see [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md).
+    For more information about Principal Class and managing the Principal Class filter in CI Class Manager, see [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md).
 
 
 ## CMDB feature adoption: Search &amp; analytics

@@ -7,8 +7,8 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Multi-factor authentication, Authentication, Access Management]
 ---
 
@@ -16,9 +16,9 @@ breadcrumb: [Multi-factor authentication, Authentication, Access Management]
 
 Learn how to use multi-factor authentication tools to securely access your instance.
 
-## Login with MFA
+## Log in with MFA
 
-ServiceNow requires authenticator applications that support Time-based One-time Passwords \(TOTP\). ServiceNow tests MFA with the following authenticators:
+ServiceNow requires authenticator applications that support time-based one-time passwords \(TOTP\). ServiceNow tests MFA with the following authenticators:
 
 -   Google Authenticator
 -   Microsoft Authenticator
@@ -50,12 +50,12 @@ If your administrator has enabled multi-factor authentication \(MFA\) on your in
 
 -   **Validation with Authenticator app**
 
-Enter the code displayed on your authenticator app to login.
+Enter the code displayed on your authenticator app to log in.
 
 
 </td><td>
 
-If you haven't configured a second form of authentication, you will see a configuration page after logging in to guide you through the process of setting up an authentication app. For details on this setup, see [Set up Multi-factor authentication for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_SetUpMultiFactorAuthUponLogin.md).
+If you haven't configured a second form of authentication, you will see a configuration page after logging in to guide you through the process of setting up an authentication app. For details on this setup, see [Set up multi-factor authentication for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_SetUpMultiFactorAuthUponLogin.md).
 
 \[Omitted image "auth-app.png"\] Alt text: Authenticator
 
@@ -90,12 +90,12 @@ Hardware keys are physical security devices you can use for authentication. You 
 
 -   **Validation with Biometric or Hardware Key**
 
-Use the biometric or hardware key to login.
+Use the biometric or hardware key to log in.
 
 
 </td><td>
 
-Use the Biometric or Security Key to login.\[Omitted image "biometirc-mfa.png"\] Alt text: MFA - Biometric or Hardware
+Use the biometric or security key to log in.\[Omitted image "biometirc-mfa.png"\] Alt text: MFA - Biometric or Hardware
 
 </td></tr></tbody>
 </table>## Register a phone number for OTP
@@ -104,12 +104,12 @@ Use the Biometric or Security Key to login.\[Omitted image "biometirc-mfa.png"\]
 
 -   **SMS**
 
-Use SMS based OTP to require users who attempt to login.
+Use SMS-based OTP to require users who attempt to log in.
 
 
 </td><td>
 
-When users attempt to login to ServiceNow, SMS OTP is sent to the mobile number associated with the sys\_user record. Users can enter the six-digit verification code that it sent to the mobile device and verify their identity.
+When users attempt to log in to ServiceNow, SMS OTP is sent to the mobile number associated with the sys\_user record. Users can enter the six-digit verification code that it sent to the mobile device and verify their identity.
 
  \[Omitted image "sms.png"\] Alt text: SMS.
 
@@ -117,26 +117,26 @@ When users attempt to login to ServiceNow, SMS OTP is sent to the mobile number 
 
 -   **Validation with SMS**
 
-Use the validation with SMS to login based on the OTP generated.
+Use the validation with SMS to log in based on the OTP generated.
 
 
 </td><td>
 
-You need to enter the 6-digit code sent to the mobile number to login. The code sent is valid for the next 5 minutes. You can use resend code to again send the code.
+You need to enter the 6-digit code sent to the mobile number to log in. The code sent is valid for the next 5 minutes. You can use resend code to again send the code.
 
 </td></tr></tbody>
-</table>## Register an Email address for OTP
+</table>## Register an email address for OTP
 
 <table id="table_xwx_dwb_2vb"><tbody><tr><td>
 
 -   **Email address**
 
-Use Email based OTP to require users who attempt to login.
+Use email-based OTP to require users who attempt to log in.
 
 
 </td><td>
 
-When users attempt to login to ServiceNow, Email OTP is sent to the email address associated to the user. User's can enter the six-digit verification code that it sent to the mobile device and verify their identity.
+When users attempt to log in to ServiceNow, Email OTP is sent to the email address associated to the user. Users can enter the six-digit verification code that it sent to the mobile device and verify their identity.
 
  \[Omitted image "email.png"\] Alt text: Email.
 
@@ -144,12 +144,12 @@ When users attempt to login to ServiceNow, Email OTP is sent to the email addres
 
 -   **Validation with Email**
 
-Use the validation with Email to login based on the OTP generated.
+Use the validation with Email to log in based on the OTP generated.
 
 
 </td><td>
 
-You need to enter the 6-digit code sent to the email address to login. The code sent is valid for the next 5 minutes. You can use resend code to again send the code.\[Omitted image "email-screen-mfa.png"\] Alt text: MFA-Email.
+You need to enter the 6-digit code sent to the email address to log in. The code sent is valid for the next 5 minutes. You can use resend code to again send the code.\[Omitted image "email-screen-mfa.png"\] Alt text: MFA-Email.
 
 </td></tr></tbody>
 </table>

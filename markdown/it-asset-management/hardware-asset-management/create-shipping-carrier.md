@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Track shipments using the integration framework, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure shipment tracking, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a shipping carrier record
@@ -100,26 +100,5 @@ Additional information about the carrier.
 
 The shipping carrier record is created and added to the Shipping carriers list.
 
-**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
-
-**Related topics**  
-
-
-[Creating an integration script include for third-party carrier applications]()
-
-[Connect your ServiceNow instance with a shipping carrier application]()
-
-[Remove a shipping carrier from an integration profile]()
-
-[Create a carrier integration profile]()
-
-[View the carrier integration profile details]()
-
-[Test the integration with the carrier API]()
-
-[View hardware asset shipment details]()
-
-[Stale shipments]()
-
-[Track a hardware asset shipment]()
+**Parent Topic:**[Integration framework configuration for shipment tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/configure-int-frame-shipment.md)
 

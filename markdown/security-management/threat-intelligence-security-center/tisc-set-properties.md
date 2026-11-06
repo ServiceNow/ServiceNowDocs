@@ -7,8 +7,9 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-04-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
+keywords: [TISC properties, set properties, system properties]
 breadcrumb: [Configure, Threat Intelligence Security Center, Security Operations]
 ---
 

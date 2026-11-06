@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,9 +22,9 @@ Role required: activity\_admin, activity\_creator
 
 ## About this task
 
-The JDBC activity template allows you to execute ANSI SQL statements or stored procedures on a target database. Support for stored procedures with IN, OUT, and INOUT parameters are available in Australia. To learn how to set up these parameters, see [JDBC stored procedure parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAJDBCActivity.md).
+The JDBC activity template allows you to execute ANSI SQL statements or stored procedures on a target database. Support for stored procedures with IN, OUT, and INOUT parameters are available in Brazil. To learn how to set up these parameters, see [JDBC stored procedure parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAJDBCActivity.md).
 
-**Note:** If you are transferring bulk data into a ServiceNow instance from an external data source, use [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_ImportSetsKeyConcepts.md). The JDBC activities allow you to transfer data between external data sources and ServiceNow within a workflow. It is not intended to replace the bulk import features of data sources.
+**Note:** If you are transferring bulk data into a ServiceNow instance from an external data source, use Import sets key concepts. The JDBC activities allow you to transfer data between external data sources and ServiceNow within a workflow. It is not intended to replace the bulk import features of data sources.
 
 ## Procedure
 
@@ -36,13 +36,13 @@ The JDBC activity template allows you to execute ANSI SQL statements or stored p
 
     Your JDBC connection must be configured with valid JDBC credentials set up before you can create a JDBC activity.
 
-3.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-custom-activities.md).
+3.  Create a custom activity.
 
     This action creates a custom activity using a template.
 
 4.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/CreateInputVariables.md), configure the JDBC Execution Command.
 
-<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d560155e157">
+<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d566721e157">
 
 **[JDBC Connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/t_CreateAJDBCActivity.md)**
 
@@ -54,7 +54,7 @@ Configure or reference the appropriate JDBC Connection for the database. The con
 -   Database instance name
 
 
-</td></tr><tr><td id="d560155e188">
+</td></tr><tr><td id="d566721e188">
 
 **Credential**
 
@@ -62,7 +62,7 @@ Configure or reference the appropriate JDBC Connection for the database. The con
 
 JDBC credential to use for your JDBC connection.
 
-</td></tr><tr><td id="d560155e197">
+</td></tr><tr><td id="d566721e197">
 
 **SQL statement**
 
@@ -79,7 +79,7 @@ Input the ANSI SQL to execute on the JDBC target database. **Note:** This field 
 -   describe
 For added security measure, a MID Server property controls the operations that this JDBCOrchestrationProbe executes, which restricts the SQL commands used. This property protects against potentially destructive commands, such as drop database. The mid.property.jdbc\_operations contains the MID Server property controls.**Note:** You cannot run multiple statements of different types. For example, you cannot run a select statement and an update statement together, but you can run two insert statements. However, you cannot run multiple select statements in this activity.
 
-</td></tr><tr><td id="d560155e244">
+</td></tr><tr><td id="d566721e244">
 
 **Maximum rows**
 
@@ -87,7 +87,7 @@ For added security measure, a MID Server property controls the operations that t
 
 Maximum number of records to retrieve from database. The default is 1000.
 
-</td></tr><tr><td id="d560155e253">
+</td></tr><tr><td id="d566721e253">
 
 **Maximum payload size \(KB\)**
 
@@ -95,7 +95,7 @@ Maximum number of records to retrieve from database. The default is 1000.
 
 You can set a limit on the maximum payload size of data retrieved from the database. The default is 64 kilobytes.
 
-</td></tr><tr><td id="d560155e263">
+</td></tr><tr><td id="d566721e263">
 
 **Connection timeout**
 
@@ -103,7 +103,7 @@ You can set a limit on the maximum payload size of data retrieved from the datab
 
 How long the activity waits to make the connection. This field is populated automatically from the data source, but can be changed for this activity.
 
-</td></tr><tr><td id="d560155e272">
+</td></tr><tr><td id="d566721e272">
 
 **Query timeout**
 
@@ -111,7 +111,7 @@ How long the activity waits to make the connection. This field is populated auto
 
 Elapsed time to wait after running the query until the data is returned. This field is populated automatically from the data source, but can be changed for this activity.
 
-</td></tr><tr><td id="d560155e281">
+</td></tr><tr><td id="d566721e281">
 
 **Required MID Server capabilities**
 
@@ -119,7 +119,7 @@ Elapsed time to wait after running the query until the data is returned. This fi
 
 MID Server to use for querying JDBC, by capabilities. By default, the system selects a MID Server that has JDBC capability.
 
-</td></tr><tr><td id="d560155e290">
+</td></tr><tr><td id="d566721e290">
 
 **Use stored procedure**
 

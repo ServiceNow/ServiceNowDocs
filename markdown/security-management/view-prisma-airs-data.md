@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/security-management/v
 release: australia
 topic_type: concept
 last_updated: "2026-10-02"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Palo Alto Prisma AIRS Integration for AI Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -124,6 +124,4 @@ Authentication errors
 
     Use ServiceNow reporting to track AI security trends over time.
 
-
-**Parent Topic:**[Palo Alto Prisma AIRS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/prisma-airs-integration.md)
 

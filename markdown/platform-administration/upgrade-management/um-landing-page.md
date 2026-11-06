@@ -7,7 +7,7 @@ release: australia
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -43,7 +43,7 @@ Leverage ServiceNow Upgrade Console for a comprehensive and efficient upgrade ex
  
 
 </td></tr></tbody>
-</table>**Note:** Starting Australia release, the Upgrade Console store app can be installed from the ServiceNow® store.
+</table>**Note:** Starting Brazil release, the Upgrade Console store app can be installed from the ServiceNow® store.
 
 ## Troubleshoot and get help
 

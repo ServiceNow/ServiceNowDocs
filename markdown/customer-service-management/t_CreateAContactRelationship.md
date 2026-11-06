@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_CreateAContactRelationship.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Contact relationships, Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -26,7 +26,7 @@ Role required: One of the following roles:
 
 ## About this task
 
-Starting with the Australia release, Customer Service Management \(CSM\) introduced the `Prevent duplicate for account-contact`business rule. By using this business rule, an administrator can assign multiple responsibilities per account for a contact.
+Starting with the Brazil release, Customer Service Management \(CSM\) introduced the `Prevent duplicate for account-contact`business rule. By using this business rule, an administrator can assign multiple responsibilities per account for a contact.
 
 ## Procedure
 

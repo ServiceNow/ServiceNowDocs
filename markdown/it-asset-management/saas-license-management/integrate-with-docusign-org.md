@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Integrating with Docusign, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Integrating with Docusign, Integrate with SaaS applications, SaaS L
 
 Integrating your Software Asset Management application with the Docusign service at the organization level enables you to track your software subscriptions and envelope consumption data.
 
-**Note:** Integration with Docusign at the organization level is done using the Data Feed API, so the user's last activities aren’t tracked as part of this integration.
+**Note:** Integration with Docusign at the organization level is done using the Data feed API, so the user's last activities aren’t tracked as part of this integration.
 
 For more information about the Docusign service, see [the DocuSign Developer site](https://developers.docusign.com/ios_sdk/developer.html).
 
@@ -117,13 +117,6 @@ Generate a Java Key Store \(JKS\) certificate for the JSON Web Token \(JWT\) aut
 
 Role required: admin
 
-### About this task
-
-The JKS file that you generate is required for uploading to retrieve the OAuth token when you create a Docusign integration profile. For this upload to be successful, one of the following conditions must be true for the glide.attachment.extensions system property:
-
--   If the property value is empty, the upload is successful.
--   If the property value isn't empty, then the jks value must be present for the upload to be successful. For example, if the property already has values such as xlsx, json, and so on, then jks must be present too.
-
 ### Procedure
 
 1.  Open a text editor for code, such as Sublime Text, and create a file.
@@ -199,15 +192,15 @@ If you're using Software Asset Workspace, the option to create the Docusign inte
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d236114e848">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d240230e831">
 
 Interface
 
-</th><th align="left" id="d236114e851">
+</th><th align="left" id="d240230e834">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d236114e857">
+</th></tr></thead><tbody><tr><td id="d240230e840">
 
 **Core UI**
 
@@ -218,7 +211,7 @@ Action
 3.  Select **DocuSign Integration Profile**.
 
 
-</td></tr><tr><td id="d236114e899">
+</td></tr><tr><td id="d240230e882">
 
 **Software Asset Workspace**
 
@@ -348,13 +341,13 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

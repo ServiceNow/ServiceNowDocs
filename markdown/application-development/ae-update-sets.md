@@ -7,7 +7,8 @@ release: australia
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+keywords: [Autonomous Engineer, update sets, checkpoints, batch update set, deployment]
+breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Update sets and Autonomous Engineer

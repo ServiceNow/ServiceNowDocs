@@ -1,22 +1,22 @@
 ---
 title: Benchmarks for Success Dashboard indicators
-description: You can view the global benchmark score for the Success Dashboard KPIs and trends along with comparative insight relative to the customers using Success Dashboard.
+description: View the global benchmark score for Success Dashboard KPIs and trends to compare them with other Success Dashboard customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-success-dashboard-indicators/success-dashboard-benchmark.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Maximise the benefits, ITSM Success Dashboard indicators, IT Service Management]
+breadcrumb: [Maximizing the benefits, ITSM Success Dashboard indicators, IT Service Management]
 ---
 
 # Benchmarks for Success Dashboard indicators
 
-You can view the global benchmark score for the Success Dashboard KPIs and trends along with comparative insight relative to the customers using Success Dashboard.
+View the global benchmark score for Success Dashboard KPIs and trends to compare them with other Success Dashboard customers.
 
-You must enable the Benchmarks and allowed to share the organization’s indicators data. For more information on Success Dashboards KPIs, refer .
+You must enable the Benchmarks and be allowed to share the organization’s indicator data. For more information about Success Dashboard KPIs, see .
 
-**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
+**Parent Topic:**[Maximizing the benefits of using the ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
 

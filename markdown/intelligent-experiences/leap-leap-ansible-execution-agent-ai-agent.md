@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-05"
 reading_time_minutes: 2
-breadcrumb: [AIOps and Leap AI agents, AIOps and AIOps Leap, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [AIOps and Leap AI agents, AIOps and AIOps Leap, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # LEAP Ansible Execution Agent AI agent
@@ -90,7 +90,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-Not defined.
+sn\_itom\_leap.leap\_ansible\_agent\_worker
 
 </td></tr><tr><td>
 

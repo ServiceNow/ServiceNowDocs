@@ -7,7 +7,7 @@ release: australia
 product: Request Management
 classification: request-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Request ITSM Roles - Request Management, Reference, Request Management, IT Service Management]
 ---

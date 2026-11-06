@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using knowledge blocks, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,15 +52,15 @@ Role required: user must have contributor access to the knowledge base.
     -   If there are knowledge blocks you cannot find, make sure that the blocks are published, in the same language, and in the same knowledge base as an article.
 6.  Rearrange knowledge block in the article body.
 
-<table id="choicetable_fph_h4t_rhb"><thead><tr><th align="left" id="d435946e210">
+<table id="choicetable_fph_h4t_rhb"><thead><tr><th align="left" id="d440782e210">
 
 Option
 
-</th><th align="left" id="d435946e213">
+</th><th align="left" id="d440782e213">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d435946e219">
+</th></tr></thead><tbody><tr><td id="d440782e219">
 
 **If you are using a mouse**
 
@@ -70,7 +70,7 @@ Steps
 2.  Drag and drop the block within the article.
 
 
-</td></tr><tr><td id="d435946e237">
+</td></tr><tr><td id="d440782e237">
 
 **If you are using a keyboard**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-an-assessment-for-services-in-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Performing Importance and impact tolerance assessment, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -42,15 +42,15 @@ Operational Resilience Managers \(sn\_oper\_res.manager\) have the Smart Assessm
 
     -   Smart Assessment: You can add multiple smart assessment templates for the `Assessment type: Smart assessment` in the **Smart assessment templates** field.
     -   Legacy Assessment: You can add a single assessment template for the `Assessment type: Legacy assessment` in the **Assessment template** field.
-<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d326259e176">
+<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d328073e176">
 
 Choice
 
-</th><th align="left" id="d326259e179">
+</th><th align="left" id="d328073e179">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d326259e185">
+</th></tr></thead><tbody><tr><td id="d328073e185">
 
 **Select __Smart assessment__.**
 
@@ -62,7 +62,7 @@ Smart Assessment method for performing the importance and impact tolerance asses
 
 -   **Importance assessment template**: Use this template to measure the importance of a service.
 -   **Impact tolerance assessment template**: Use this template to measure the impact tolerance of a service.
--   **Importance and impact tolerance assessment template**: Use this template to importance and assess the impact tolerance of a service.
+-   **Importance and impact tolerance assessment template**: Use this template to measure the importance and impact tolerance of a service.
 **Note:** Templates are provided as demo data only. You can modify the existing templates or use them to create new templates for your specific requirements.
 
  You can select multiple templates and assign them to different users, enabling for separate assessments. For example, one user can work on the importance assessment and another user can work on the impact tolerance assessment.
@@ -80,7 +80,7 @@ Only when these conditions are met, the template is available for selection in t
 
  **Note:** For information on setting up Smart Assessment templates, see [Create a Smart Assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-sm-asmt-temp-as-ws.md) and [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
-</td></tr><tr><td id="d326259e324">
+</td></tr><tr><td id="d328073e324">
 
 **Select __Legacy assessment__.**
 

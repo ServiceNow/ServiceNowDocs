@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-ui-admin.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -20,7 +20,7 @@ Select the following links to learn about Next Experience functionality with the
 Next Experience delivers a next generation, intuitive, personalized experience to drive productivity, improve engagement, and surface insights across the ServiceNow AI Platform. Your path to activating Next Experience may depend on your instance's level of customization.
 -   **[Next Experience Readiness Checker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-readiness-checker.md)**  
 The Next Experience Readiness Checker assists users with deciding whether to turn on Next Experience after an upgrade.
--   **[Configure Next Experience start page options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Configuring Next Experience start page options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 Multiple start page options help you determine where best to start your day in Next Experience. Configure the landing page so that you and your users start on a page tailored to your needs in ServiceNow.
 -   **[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-theming.md)**  
 Themes let you customize the visual experience to match your brand.
@@ -37,13 +37,11 @@ Configure the Unified Navigation to display a workspace in the Workspaces menu.
 -   **[Set the order of your workspaces in the Unified Navigation Workspaces menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/set-order-workspace-unified-navigation.md)**  
 Control the display order of workspaces in the Unified Navigation Workspaces menu by setting a numerical order value on each workspace record.
 -   **[Configuring search in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configuring-search-next-experience.md)**  
-Administrators can customize Next Experience search settings. Add new searchable tables, modify the fields displayed for search results from a table, or add workspace applications to the search context menu for users.
+Customize Next Experience search settings. Add searchable tables, modify the fields displayed for search results from a table, or add workspace applications to the search context menu.
 -   **[Create custom notifications in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/create-custom-notifications-next-experience.md)**  
 Provide better context and information about users' work by creating custom content for in-product notifications in Next Experience.
 -   **[Next Experience in-product help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-in-product-help.md)**  
 Providing instructions that display in your Next Experience UI can help orient your users to the UI and provide information about their tasks.
--   **[In-Product Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/in-product-surveys-overview.md)**  
-Manage in-product surveys for your Next Experience instance.
 -   **[Next Experience banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-banner-announcements.md)**  
 Banner announcements enable you to communicate planned maintenance, unplanned outages, or important events like ESPP stock plans or benefits enrollment to those affected or to everyone. You can target specific experiences or all experiences.
 -   **[Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-pickers.md)**  

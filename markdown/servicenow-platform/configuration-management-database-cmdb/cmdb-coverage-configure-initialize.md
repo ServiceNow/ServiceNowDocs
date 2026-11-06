@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CMDB Coverage, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_cmdb\_admin
 
 1.  Use one of the following methods to open the **Get started with CMDB Coverage** page:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** &gt; **Governance**, and then select **CMDB Coverage Dashboard** from the Manage group in Management tools.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** &gt; **Management tools** &gt; **CMDB Coverage Dashboard**.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Quick links** &gt; **CMDB Coverage Dashboard**.
 2.  For the Configure an IPAM connector activity, select one of the following options:
 

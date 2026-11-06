@@ -7,9 +7,9 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational subflows, Explore subflows, Flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Conversational subflows, Explore subflows, Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Check for conversational compatible subflows

@@ -7,8 +7,9 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [object-object relationships, SDO relationships, define relationships]
 breadcrumb: [Relationships Objects, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -32,15 +33,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d186388e98">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d187287e110">
 
 Field
 
-</th><th align="left" id="d186388e101">
+</th><th align="left" id="d187287e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d186388e107">
+</th></tr></thead><tbody><tr><td id="d187287e119">
 
 **Source Object**
 
@@ -48,7 +49,7 @@ Description
 
 Select and define the source object.
 
-</td></tr><tr><td id="d186388e116">
+</td></tr><tr><td id="d187287e128">
 
 **Source Object Type**
 
@@ -56,7 +57,7 @@ Select and define the source object.
 
 Defines the type of source object.
 
-</td></tr><tr><td id="d186388e125">
+</td></tr><tr><td id="d187287e137">
 
 **Target Object**
 
@@ -64,7 +65,7 @@ Defines the type of source object.
 
 Select and define the target object.
 
-</td></tr><tr><td id="d186388e134">
+</td></tr><tr><td id="d187287e146">
 
 **Target Object Type**
 
@@ -72,7 +73,7 @@ Select and define the target object.
 
 Defines the type of target object.
 
-</td></tr><tr><td id="d186388e144">
+</td></tr><tr><td id="d187287e156">
 
 **Relationship Type**
 
@@ -84,7 +85,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d186388e163">
+</td></tr><tr><td id="d187287e175">
 
 **Start Time**
 
@@ -92,7 +93,7 @@ A description that provides more details and context about the relationship type
 
 Specifies the time when the relationship is created.
 
-</td></tr><tr><td id="d186388e172">
+</td></tr><tr><td id="d187287e184">
 
 **Stop Time**
 
@@ -100,7 +101,7 @@ Specifies the time when the relationship is created.
 
 Specifies the time when the relationship is stopped or removed.
 
-</td></tr><tr><td id="d186388e181">
+</td></tr><tr><td id="d187287e193">
 
 **Description**
 

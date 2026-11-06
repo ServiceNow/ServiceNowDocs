@@ -55,3 +55,5 @@ For more information, see [Components installed with Enterprise Asset Management
 
 After the application is installed successfully, the card moves from the **Not installed** tab to the **Installed** tab. You can view additional details about the application, including the application version, release compatibility, and dependencies, by selecting the Open Application Manager icon \[Omitted image "open-application-manager-icon.png"\] Alt text: on the card.
 
+**Parent Topic:**[Installing Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/installing-eam.md)
+

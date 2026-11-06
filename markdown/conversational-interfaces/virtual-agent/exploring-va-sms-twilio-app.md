@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Conversational SMS Integration with Twilio, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [SMS Twilio, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Exploring Conversational SMS Integration with Twilio
@@ -22,13 +22,13 @@ Conversational SMS Integration with Twilio enables users to initiate conversatio
 
 If a bot transfers the conversation to a live agent, the agent can respond to SMS messages in Agent Workspace.
 
-After you set up the Conversational SMS Integration with Twilio, you can create SMS conversation topics in Virtual Agent Designer. For more information about using the tool, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+After you set up the Conversational SMS Integration with Twilio, you can create SMS conversation topics in Assistant Designer. For more information about using the tool, see [Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 ## Capturing information from a user in an SMS chat conversation
 
 ## Supported controls
 
-The Conversational SMS Integration with Twilio does not support all the available controls in Virtual Agent Designer.
+The Conversational SMS Integration with Twilio does not support all the available controls in Assistant Designer.
 
 The following user input controls are supported in Twilio SMS conversations:
 
@@ -91,7 +91,7 @@ User sends a file to the bot.**Note:** Conversational SMS Integration with Twili
 \[Omitted image "sms-image-input.png"\] Alt text: The bot displays an example image that indicates the serial number location. The user uploads a photo of their product's serial number.
 
 </td></tr></tbody>
-</table>For more information on configuring user input controls, see [Virtual Agent Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-user-inputs.md).
+</table>For more information on configuring user input controls, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-user-inputs.md).
 
 The following bot responses are supported in Twilio SMS conversations:
 
@@ -136,7 +136,7 @@ Card
 Bot sends selected information from a record on your instance. \[Omitted image "sms-bot-card.png"\] Alt text: When the user says their router is on fire, the bot creates a case and sends the card with the number, priority, assigned agent, and a link.
 
 </td></tr></tbody>
-</table>For more information on configuring bot responses, see [Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-bot-responses.md).
+</table>For more information on configuring bot responses, see [Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-bot-responses.md).
 
 Live agents can use the Text, Card, and Image response controls to reply to users in SMS conversations.
 
@@ -160,7 +160,7 @@ For details about creating content for a messaging notification, see [Define Vir
 
 ## What to explore next
 
-To learn more about configuring and using , see:
+To learn more about configuring and using Conversational SMS Integration with Twilio, see:
 
 -   [Configuring Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-sms-twilio-app.md)
 -   [Using Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-sms-integ-twilio.md)

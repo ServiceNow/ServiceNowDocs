@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-09-25"
+last_updated: "2026-10-26"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, workday, raas, rest, report]
 breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -64,5 +64,5 @@ const rows = new API()
   .execute();
 ```
 
-For the full method reference, see .
+For the full method reference, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
 

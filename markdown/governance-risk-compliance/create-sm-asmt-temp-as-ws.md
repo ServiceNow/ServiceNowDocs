@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-sm-asmt-temp-as-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -32,7 +32,7 @@ Operational Resilience administrators contain the flow\_designer role, enabling 
 
     \[Omitted image "asmt-workspace.png"\] Alt text: Assessment Workspace.
 
-    When you select **New template**, the form is displayed.
+    When you select **New template**, the **General** and **Questions** tabs are displayed.
 
 3.  In the Create assessment template form, fill in the fields.
 
@@ -61,13 +61,9 @@ Operational Resilience administrators contain the flow\_designer role, enabling 
 
     \[Omitted image "asmt-temp-questions-tab.png"\] Alt text: Questions.
 
-6.  Select **Publish**.
+6.  In the **Automations** tab, view the user responses and select **Open** to view the actions that are automatically triggered based on user responses.
 
-7.  In the **Automations** tab, view the user responses and select **Open** to view the actions that are automatically triggered based on user responses.
-
-8.  Select **Save** and **Publish**.
-
-    **Note:** Starting with GRC: Operational Resilience, version 22.3.1, Smart Assessment templates support version control, and version details are displayed on each template.
+7.  Select **Save** and **Publish**.
 
     A message is displayed that the assessment template is published and it can be used to send assessments. You can select **OK** or select **Return to template list**. The **Automations** and **Scoring** tabs are displayed in the assessment template. The Smart Assessment template is created and saved in the instance.
 

@@ -7,8 +7,8 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-10"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -100,6 +100,8 @@ Define an indexed source to make content and metadata from ServiceNow AI Platfor
 To limit the set of records indexed from source tables, you can configure retention policies and filter conditions for your indexed sources. AI Search also uses these settings to automatically purge stale records from the index, optimizing search performance.
 -   **[Indexed source guardrails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/indexed-source-guardrails-ais.md)**  
 Reduce index size and increase search performance with guardrails that limit the number of task and alert source records indexed from indexed sources.
+-   **[High-churn field detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/high-churn-field-detection-ais.md)**  
+Some indexed source fields change so frequently that repeatedly reindexing them adds load to AI Search without adding search value. AI Search automatically identifies these high-churn fields and lets an admin decide whether to continue indexing them or to exclude them from the index going forward.
 -   **[Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/semantic-index-cfg-ais.md)**  
 The AI Search generalized RAG \(Retrieval-Augmented Generation\) framework offers a streamlined way to configure semantic indexing settings for records indexed from ServiceNow AI Platform® tables.
 -   **[Exclude knowledge block content from the AI Search index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/exclude-know-blocks-ais-index.md)**  

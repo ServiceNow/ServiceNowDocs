@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/make-a-copy-of-a-now-assist-skill.html
 release: australia
 topic_type: task
-last_updated: "2026-09-23"
+last_updated: "2026-10-06"
 reading_time_minutes: 2
 keywords: [Copy, Now Assist, skill, admin, features]
-breadcrumb: [Using AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Using AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Make a copy of an AI skill
@@ -27,6 +27,7 @@ The skills that come with the generative AI applications have default configurat
 
 -   The **Make a copy** function is not available for all AI skills.
 -   In a default scenario, only one version of a skill can be active at a time. When you create and activate a copy of a skill, any previously activated version of the skill is deactivated.
+-   One-step activation is not available for copied skills, so use the guided setup to configure and activate.
 
 ## Procedure
 
@@ -54,7 +55,7 @@ Continue the steps in the guided setup to activate the skill. For more informati
 If you're making a copy of the case or incident summarization skill and would like to learn more about your options, see the [documentation for configuring record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md).
 
 -   **[Configure case or incident summarization in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md)**  
-Configure case or incident summarization by using the guided setup in the AI Admin Hub console. You can choose the input tables and fields and customize the prompt output for copies of the record summarization skills.
+Configure case or incident summarization by using the guided setup in the AI Admin Hub console. You can choose the input tables and fields, and also customize the prompt output for copies of the record summarization skills.
 
 **Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-now-assist-admin_0.md)
 

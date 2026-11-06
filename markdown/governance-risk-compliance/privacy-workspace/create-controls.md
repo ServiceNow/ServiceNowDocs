@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -43,15 +43,15 @@ You can add or manage controls to a processing activity in the following ways:
 
 4.  To add a control to the processing activity, do one of the following.
 
-<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d278542e123">
+<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d280105e123">
 
 Option
 
-</th><th align="left" id="d278542e126">
+</th><th align="left" id="d280105e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d278542e132">
+</th></tr></thead><tbody><tr><td id="d280105e132">
 
 **To create a control**
 
@@ -59,7 +59,7 @@ Description
 
 Click **New** and fill in the form.For details see, [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/c_GRCControls.md).
 
-</td></tr><tr><td id="d278542e154">
+</td></tr><tr><td id="d280105e154">
 
 **To add a control by using the existing control objectives**
 
@@ -70,7 +70,7 @@ Click **New** and fill in the form.For details see, [Create a control](https://r
 3.  Click **Add**.
 
 
-</td></tr><tr><td id="d278542e181">
+</td></tr><tr><td id="d280105e181">
 
 **To select a control from the list of recommended controls**
 

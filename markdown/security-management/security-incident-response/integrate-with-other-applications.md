@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ Extend the capabilities of Major Security Incident Management and connect with S
 Integrate your Microsoft SharePoint with Major Security Incident Management.
 -   **[Integrate Major Security Incident Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/integrate-teams-msim.md)**  
 Integrate your Microsoft Teams with Major Security Incident Management.
--   **[Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msim-micorsoft-team-requirements.md)**  
+-   **[Establish Microsoft Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msim-micorsoft-team-requirements.md)**  
 Integrate ServiceNow AI Platform instance and Microsoft Teams account by establishing a Microsoft Teams Graph connection.
 -   **[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/integrate-msim-conference-calls.md)**  
 With Major Security Incident Management conference calls integration, you can collaborate with your customers and peer agents to resolve customer issues using the video and screen sharing options in Microsoft Teams, Cisco Webex, or Zoom from the MSIM application.

@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Conflict detection, Configure, Change Management, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Conflict detection, Configure, Change Management, IT Service Manage
 
 The conflict calendar graphically represents the potential scheduling conflicts for a change request. Conflicts are identified as active change requests, blackout schedules, and changes scheduled outside maintenance schedules. Use the **Scheduling Assistant** to resolve any schedule conflicts.
 
-\[Omitted image "change-req-conflict-calendar.png"\] Alt text: Conflict Calendar page with highlighted callouts. For the text descriptions, refer to the table that follows.
+\[Omitted image "change-req-conflict-calendar.png"\] Alt text: Conflict calendar with numbered UI components. For descriptions, see the following table.
 
 <table id="table_cv4_kmd_gdb"><thead><tr><th>
 
@@ -24,7 +24,7 @@ SI \#
 
 </th><th>
 
-UI Component
+UI component
 
 </th><th>
 
@@ -76,7 +76,7 @@ Current day or month
 
 </td><td>
 
-Enables you to view the schedule of the current day or month when you click **Today**.
+Enables you to view the schedule of the current day or month when you select **Today**.
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Navigating dates
 
 </td><td>
 
-Enables you to navigate to the previous day, the next day, or month, depending on the view type when you click the arrow buttons.
+Enables you to navigate to the previous day, the next day, or month, depending on the view type when you select the arrow buttons.
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ Options
 
 </td><td>
 
-Enables you to control the view of the calender, customize settings, or set the configuration filters using the **Settings** tab and the **Configuration** tab. From the configuration filters you can select and display the **Assigned to**, **Assignment group**, **Configuration item**, or **Show all** options in the Related Changes section. This section has the same value of the option selected for the current change.
+Enables you to control the view of the calendar, customize settings, or set the configuration filters using the **Settings** tab and the **Configuration** tab. From the configuration filters you can select and display the **Assigned to**, **Assignment group**, **Configuration item**, or **Show all** options in the Related Changes section. This section has the same value of the option selected for the current change.
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Change request block
 
 </td><td>
 
-Enables you to view the details of the change request.**Note:** Related changes section is displayed if other scheduled changes that potentially conflict with the change based on a schedule or assignment is detected. For example, if the same person is assigned to two or more changes at the same date and time, you can visually see the conflict and update one of the scheduled changes, as appropriate.
+Enables you to view the details of the change request.**Note:** The Related Changes section appears when the system detects other scheduled changes that potentially conflict with the change because of a schedule or assignment. For example, if the same person is assigned to two or more changes at the same date and time, you can visually see the conflict and update one of the scheduled changes, as appropriate.
 
 </td></tr></tbody>
 </table>-   **[Manage your change schedules and resolve conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/use-conflict-calendar.md)**  
@@ -150,6 +150,8 @@ Prevent schedule conflicts by using the conflict calendar to manage your change 
 [Detect change conflicts]()
 
 [Create blackout and maintenance schedules in Change Management]()
+
+[Schedule types in conflict detection]()
 
 [Configure a change request to monitor outside maintenance schedule conflicts]()
 

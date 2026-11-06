@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 1
 keywords: [Work items, Work items and plan mode, Work item access, Work item creation, Work item storage]
-breadcrumb: [Exploring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Work items

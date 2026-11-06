@@ -1,33 +1,33 @@
 ---
-title: Identity Provider attributes for OpenID Connect
-description: Use the Identity Provider attributes that are received from the OpenID Connect \(OIDC\) from the Identity Provider \(IdP\) as a filter criteria for authentication.
+title: Identity provider attributes for OpenID Connect
+description: Use the Identity Provider attributes that are received from the OpenID Connect \(OIDC\) from the Identity Provider \(IdP\) as filter criteria for authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/idp-attributes-oidc.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Identity Provider Attributes Filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
+breadcrumb: [Identity provider attributes filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
 ---
 
-# Identity Provider attributes for OpenID Connect
+# Identity provider attributes for OpenID Connect
 
-Use the Identity Provider attributes that are received from the OpenID Connect \(OIDC\) from the Identity Provider \(IdP\) as a filter criteria for authentication.
+Use the Identity Provider attributes that are received from the OpenID Connect \(OIDC\) from the Identity Provider \(IdP\) as filter criteria for authentication.
 
 You can manually create the IdP attributes based on the claims received as part of the ID token.
 
 **Note:**
 
--   Identity Provider filter is available with Zero Trust Access feature. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/session-access.md).
+-   Identity Provider filter is available with the Zero Trust Access feature. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/session-access.md).
 -   IdP attribute filter criteria can be used in [Post-authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/post-auth-context.md), [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/session-access.md) session relegation, and [Multi-factor Authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-auth-context.md).
 
 Start the configuration by adding the IdP attributes by selecting **New** from the Identity Provider Attributes section and use those attributes for Adaptive Authentication by setting it to `true`.
 
 \[Omitted image "idp-attribute-oidc.png"\] Alt text: IdP Attributes for OIDC
 
-The **RiskFactor** defined in the OIDC configuration in the Identity Provider Attributes is from the ID token claims. This value can be an existing claim or custom claim as configured in the IdP side. Use this claim in various authentication context to customize and control the log in behavior of the user.
+The **RiskFactor** defined in the OIDC configuration in the Identity Provider Attributes is from the ID token claims. This value can be an existing claim or custom claim as configured in the IdP side. Use this claim in various authentication contexts to customize and control the login behavior of users.
 
 The **Identity Provider Attributes** are displayed with the following details:
 
@@ -72,7 +72,7 @@ Use in Adaptive Authentication
 Option to use the Attribute in the Adaptive Authentication.
 
 </td></tr></tbody>
-</table>**Note:** Attributes that are populated from Azure IdP have name and display name limited to characters, due to the name length of the attribute.
+</table>**Note:** Attributes that are populated from Azure IdP have name and display name limited in length.
 
 You can also add new attributes by selecting **New** in the **Identity Providers Attributes** section.
 

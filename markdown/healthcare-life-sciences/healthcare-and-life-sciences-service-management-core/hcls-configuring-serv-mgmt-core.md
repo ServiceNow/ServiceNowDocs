@@ -148,7 +148,7 @@ Enable a custom integration application to exchange data with an external Redox 
 
 </td></tr><tr><td>
 
-[Secure sensitive information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-encryption-support.md).
+[Secure sensitive information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/cryptographic-modules-in-healthcare-and-life-science-service-management-core.md).
 
 </td><td>
 

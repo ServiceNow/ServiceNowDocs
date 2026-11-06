@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Manage approvals from a Microsoft Outlook email
@@ -36,15 +36,15 @@ Role required: approver\_user
 
     **Note:** You cannot accept or reject a report if the assigned approver has been modified or the report has been updated or closed.
 
-<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d105570e108">
+<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d105689e108">
 
 Decision
 
-</th><th align="left" id="d105570e111">
+</th><th align="left" id="d105689e111">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d105570e117">
+</th></tr></thead><tbody><tr><td id="d105689e117">
 
 **Approve the report**
 
@@ -52,7 +52,7 @@ Action
 
 Select **Approve**.
 
-</td></tr><tr><td id="d105570e129">
+</td></tr><tr><td id="d105689e129">
 
 **Reject the report**
 
@@ -88,8 +88,6 @@ Select **Approve**.
 [Use Employee Center from Zoom]()
 
 [View employee profile]()
-
-[Use Employee Profile with HR Service Delivery]()
 
 [Use Personalized Answers]()
 

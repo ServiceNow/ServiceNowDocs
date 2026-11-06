@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/components-installed-with-sales-cart-plugin.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Portal reference, Reference, Sales Customer Relationship Management]
 ---
@@ -41,6 +41,20 @@ Creates, deletes, and edits sales cart and sales cart-related entities.
 </td><td>
 
 sn\_sales\_cart.cart\_viewer
+
+</td></tr><tr><td>
+
+Cart integrator
+
+ \[sn\_sales\_cart.cart\_integrator\]
+
+</td><td>
+
+Controls access to the cart records, separately from the access control on the REST endpoints. This role is installed and used only when you have configured a ServiceNow CPQ instance with Sales CRM.
+
+</td><td>
+
+sn\_sales\_cart.cart\_editor
 
 </td></tr><tr><td>
 
@@ -130,4 +144,9 @@ Stores pricing adjustments applied to a sales cart or its line items, including 
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-business-portal-reference.md)
+
+**Related topics**  
+
+
+[Configuring Sales Cart for Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-sales-cart.md)
 

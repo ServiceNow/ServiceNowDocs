@@ -1,33 +1,33 @@
 ---
 title: Add a comment or work note to a question
-description: In SAE, post a comment or a private work note on a specific question in an assessment so that reviewers and contributors can discuss the question.
+description: Post a comment or a private work note on a specific question in an assessment so that reviewers and contributors can discuss the question.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/add-comment-to-question.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Add a comment or work note to a question
 
-In SAE, post a comment or a private work note on a specific question in an assessment so that reviewers and contributors can discuss the question.
+Post a comment or a private work note on a specific question in an assessment so that reviewers and contributors can discuss the question.
 
 ## Before you begin
 
 Role required:
 
 -   For comments: sn\_smart\_asmt.actor, sn\_smart\_asmt.assessment\_admin, or sn\_smart\_asmt.assessment\_reader.
--   For worknote: sn\_smart\_asmt.assessment\_admin or role configured in the **Worknote roles** field on the template category
+-   For worknote: sn\_smart\_asmt.assessment\_admin or role configured in the **Worknotes roles** field on the template category
 
 **Note:** To post a work note, your user account must have one of the roles configured in the **Worknotes roles** field on the template category. Work notes are inactive by default; if no roles are configured, the Work notes tab is hidden for all users except the assessment administrator. For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 
 ## About this task
 
-Use question-level comments to discuss a specific question with other collaborators. Use work notes for internal conversations that should not be visible to all participants, for more details on question-level communication, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
+Use question-level comments to discuss a specific question with other contributors. Use work notes for internal conversations that should not be visible to all participants, for more details on question-level communication, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
 
 ## Procedure
 
@@ -39,7 +39,7 @@ Use question-level comments to discuss a specific question with other collaborat
     2.  Select the tasks icon \[Omitted image "list-icon.png"\] Alt text:.
     3.  Select the **Control attestations** &gt; **Smart Assessments** on the left panel.
     4.  The smart assessments list is displayed.
-2.  Select the assessment that contains the question you want to comment on.
+2.  Select the assessment in which you want to comment the questions.
 
 3.  Open the question that you want to comment on.
 
@@ -60,7 +60,7 @@ Use question-level comments to discuss a specific question with other collaborat
 
 ## Result
 
-The comment or work note is posted and visible to all collaborators on that question.
+The comment or work note is posted and visible to all contributors on that question.
 
 ## What to do next
 
@@ -73,5 +73,5 @@ To find all questions on the assessment that have comments, use the **With comme
 
 [Flag or resolve a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/flag-a-question.md)
 
-[Add comments to an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/adding-comments-to-assessments.md)
+[Adding comments to assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/adding-comments-to-assessments.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -24,11 +24,11 @@ The [Technology Controls Monitoring Accelerator](https://raw.githubusercontent.c
 
 ## Support for CIS Controls ™ v8
 
-Beginning with the Australia release, Cybersecurity Controls Accelerator supports CIS Controls ™ v8 authority documents, citations, and control objectives that are related to the citations.
+Beginning with the Brazil release, Cybersecurity Controls Accelerator supports CIS Controls ™ v8 authority documents, citations, and control objectives that are related to the citations.
 
 ## Content for CSA CCM v4.0
 
-Beginning with the Australia release, Cybersecurity Controls Accelerator supports the Cloud Security Alliance Cloud Controls Matrix \(CSA CCM v4.0\) content such as Authority Document, Citations, and Control Objectives.
+Beginning with the Brazil release, Cybersecurity Controls Accelerator supports the Cloud Security Alliance Cloud Controls Matrix \(CSA CCM v4.0\) content such as Authority Document, Citations, and Control Objectives.
 
 **Parent Topic:**[Governance, Risk, and Compliance use case accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-use-case-accelerators.md)
 

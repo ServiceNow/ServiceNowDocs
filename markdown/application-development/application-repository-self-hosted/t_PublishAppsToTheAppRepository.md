@@ -7,9 +7,9 @@ release: australia
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Manage applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Publish an application to the application repository
@@ -47,5 +47,5 @@ By default, after you publish an application to the application repository, all 
 
 The **Can Edit Application in Studio** property defaults to true for new applications, but you can set it false before publishing.
 
-For more information, see [Manage application entitlements from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/manage-app-entitlements.md).
+For more information, see [Manage application entitlements from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/manage-app-entitlements.md) and [Access ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/access-servicenow-studio.md).
 

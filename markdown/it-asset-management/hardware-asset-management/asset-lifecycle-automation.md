@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -83,4 +83,5 @@ Field Service Management
 Deploy
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-ham.md)
+

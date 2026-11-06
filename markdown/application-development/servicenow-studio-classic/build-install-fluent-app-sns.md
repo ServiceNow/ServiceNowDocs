@@ -7,9 +7,10 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
-breadcrumb: [Building apps in source code in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+keywords: [Fluent application, Build and install application, ServiceNow Studio]
+breadcrumb: [Building apps in source code in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Build and install a Fluent app in ServiceNow Studio
@@ -24,15 +25,15 @@ Role required: admin
 
 ## About this task
 
-When you build an application, ServiceNow Fluent code is compiled into application metadata, and modules in the application are added to the EcmaScript Module \[sys\_module\] table on the instance.
+When you build an application, the build compiles ServiceNow Fluent code into application metadata and adds modules in the application to the EcmaScript Module \[sys\_module\] table on the instance.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  From the Status bar, select **Sync Changes** to synchronize changes made to the application metadata from across the instance.
+2.  From the Status bar, select **Sync Changes** to synchronize changes made to the application metadata on the instance.
 
-    Synchronizing an application confirms you have the latest changes before making additional changes. Only the changes made since the last time the app was synched are downloaded and transformed. For more information, see [Synchronizing Fluent apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/synchronizing-fluent-apps.md).
+    Synchronizing an application confirms you have the latest changes before making additional changes. Synchronizing downloads and transforms only the changes made since the last sync. For more information, see [Synchronizing Fluent apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/synchronizing-fluent-apps.md).
 
 3.  Select the Explorer tab, and modify your application in one of the following ways.
 
@@ -56,11 +57,11 @@ When you build an application, ServiceNow Fluent code is compiled into applicati
 
 ## Result
 
-The application is updated across the instance to reflect your changes. Other users can modify the application metadata simultaneous with modifications to the source code. Also, other developers can reuse module code in other modules or scripts within an application.
+The application is updated across the instance to reflect your changes. Other users can modify the application metadata while you modify the source code. Other developers can reuse module code in other modules or scripts within an application.
 
 Confirm that the metadata on the instance matches the metadata in the installation package by uninstalling and reinstalling the application on the instance using the `Fluent: Reinstall Fluent App` command. For more information, see [ServiceNow IDE commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/servicenow-ide-commands.md).
 
-**Warning:** Changes to metadata on the instance that haven’t been synced into your application in ServiceNow Studio are removed.
+**Warning:** Changes to metadata on the instance that have not been synced into your application in ServiceNow Studio are removed.
 
 ## What to do next
 

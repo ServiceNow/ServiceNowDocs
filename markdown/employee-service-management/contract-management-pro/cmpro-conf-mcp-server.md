@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [MCP server, Contract Management Pro MCP Server, OAuth, Contract negotiation, Configure MCP server]
 breadcrumb: [Configure Contract Management Pro MCP Server, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -50,15 +50,15 @@ Role required: sn\_mcp\_server.admin or admin
 
     **Note:** Change the application scope to **Global**.
 
-<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d148651e227">
+<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d148903e227">
 
 Authentication option
 
-</th><th align="left" id="d148651e230">
+</th><th align="left" id="d148903e230">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d148651e236">
+</th></tr></thead><tbody><tr><td id="d148903e236">
 
 **Use the Contract Management Pro MCP Server OAuth client entry**
 
@@ -73,7 +73,7 @@ The fields on the Authorization code grant page are automatically populated.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d148651e274">
+</td></tr><tr><td id="d148903e274">
 
 **Set up your own OAuth connection**
 

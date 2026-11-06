@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-core-roles.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [User management, Explore, Financial Services Operations \(FSO\)]
 ---
@@ -141,7 +141,7 @@ Universal role for financial services agent. All other agent roles in Financial 
 
 Location manager contributor\[sn\_bom.location\_manager\_contributor\]
 
-**Note:** The Business Location plugin must additionally be activated for this role to be enabled. For more information, see Activate business locations
+**Note:** The Business Location plugin must additionally be activated for this role to be enabled. For more information, see [Activate business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-business-location.md)
 
 </td><td>
 

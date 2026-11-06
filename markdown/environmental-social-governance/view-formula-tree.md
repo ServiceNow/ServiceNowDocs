@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/view-formula-tree.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reviewing calculation details with formula trees, Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -36,7 +36,7 @@ A formula tree provides transparency by displaying the detailed breakdown of how
 
     You can view a visual representation of the entire calculation chain. The formula, associated metric definitions, sub formulas, functions, and so on, are shown.
 
-    **Note:** If you’re seeing an empty page, it's because the formula tree or formula operands are currently empty and are being updated asynchronously. If you’re seeing an error page, it's due to errors in the formula operands that must be corrected.
+    **Note:** If you’re seeing an empty page, it's because the formula tree or formula operands are currently empty and are being updated asynchronously. If you’re seeing an error page, it's due to errors in the formula operands that need to be corrected.
 
 
 **Parent Topic:**[Reviewing calculation details with formula trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/reviewing-formula-tree.md)

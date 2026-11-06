@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/crisis-map-migration.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Structured workflows for Crisis map, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -84,7 +84,7 @@ For information on creating a Resource configuration in Crisis map, see [Configu
 
 ## Alert details page
 
-When you select an alert, the map zooms into a smaller area centered on the alert's latitude and longitude, providing a focused view of the specific location.
+When you select an alert, the map zooms into a smaller area centered on the alert's latitude and longitude. This provides a focused view of the specific location.
 
 In the alert details, additional information on the alert is listed.
 

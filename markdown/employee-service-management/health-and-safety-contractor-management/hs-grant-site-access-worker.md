@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage contractors, Health and Safety Contractor Management, Health and Safety, Employee Service Management]
 ---
@@ -30,15 +30,15 @@ Adding site access for workers also helps the safety team to know who's checked 
 
 2.  Open a contractor worker record to grant the site access to.
 
-<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d440871e79">
+<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d440886e79">
 
 Option
 
-</th><th align="left" id="d440871e82">
+</th><th align="left" id="d440886e82">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d440871e88">
+</th></tr></thead><tbody><tr><td id="d440886e88">
 
 **From a contractor company record**
 
@@ -50,7 +50,7 @@ Steps
 4.  In the **Workers** tab, select the worker from the list to grant the site access to.
 
 
-</td></tr><tr><td id="d440871e133">
+</td></tr><tr><td id="d440886e133">
 
 **From Health and Safety user profile list**
 

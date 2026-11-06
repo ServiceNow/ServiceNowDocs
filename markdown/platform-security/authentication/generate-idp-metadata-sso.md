@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Custom instance URLs, Authentication, Access Management]
 ---
@@ -28,7 +28,7 @@ The IdP needs SP metadata for the instance to authenticate and forward requests.
 
 1.  Choose your installed SSO plugin:
 
-<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d39639e84">
+<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d40624e84">
 
 **Multi-Provider SSO**
 
@@ -36,7 +36,7 @@ The IdP needs SP metadata for the instance to authenticate and forward requests.
 
 Navigate to **Multi-Provider SSO** &gt; **Identity Providers**. Choose an IdP and click the **Generate Metadata** button. The integration automatically generates the instance's SP metadata from the system property settings.
 
-</td></tr><tr><td id="d39639e105">
+</td></tr><tr><td id="d40624e105">
 
 **SAML 2 SSO**
 

@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating a Virtual Agent topic, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Creating a Virtual Agent topic, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Insert a header card in a Static Choice or Dynamic Choice control
@@ -57,7 +57,7 @@ Card type
 Type of header card:-   Large image with text
 -   Small image with text
 -   Youtube Video Card
- The fields in the dialog box change according to your choice.
+The fields in the dialog box change according to your choice.
 
 </td></tr><tr><td>
 
@@ -136,5 +136,5 @@ The alphanumeric string at the end of the YouTube URL. For example, in the URL `
 8.  Select **Save**.
 
 
-**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

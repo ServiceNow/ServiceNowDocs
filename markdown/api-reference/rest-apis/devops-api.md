@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 98
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -4930,7 +4930,7 @@ curl -X POST "https://instance.servicenow.com/api/sn_devops/v1/devops/orchestrat
       "assigned_to":"1832fbe1d701120035ae23c7ce610369",
       "category":"Service",
       "sys_created_on":"2021-02-09 18:58:41",
-      "priority":"2"
+      "priority":"2",
     }
   }
 }"

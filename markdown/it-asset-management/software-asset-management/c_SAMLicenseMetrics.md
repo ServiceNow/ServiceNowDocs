@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software license metrics
@@ -248,7 +248,8 @@ SAP **Note:** SAP license metrics are visible only if the SAP publisher pack is 
 -   Named User: Licenses the number of named users that can be assigned a Named User Type. The Named User Type is defined by the software model linked to the entitlement.
 -   Engine Measurement: Licenses the amount of engine usage.
 -   Digital Access: Licenses the indirect usage of SAP applications through a third-party application or a non-SAP intermediary software by the count of documents created by the third-party application.
--   Full Usage Equivalent \(FUE\): Licenses the number of users that are authorized to access specified solution capabilities of SAP S/4HANA Cloud Public Edition.
+-   User Subscription: Licenses the number of users that are authorized to access specified solution capabilities of SAP S/4HANA Cloud, Public Edition.
+-   Full Usage Equivalent \(FUE\): Licenses the number of users that are authorized to access specified solution capabilities of SAP S/4HANA Cloud, Private Edition.
 
 </td></tr><tr><td>
 

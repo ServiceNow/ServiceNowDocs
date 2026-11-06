@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a CAB meeting, Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_change\_cab.cab\_manager
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the list icon \(\[Omitted image "sow-list.png"\] Alt text: List icon.\).
+2.  Select the list icon \(\[Omitted image "sow-list.png"\] Alt text:\).
 
 3.  In the **Change Advisory Board**, select **My upcoming CAB meetings**.
 
@@ -43,13 +43,13 @@ Role required: sn\_change\_cab.cab\_manager
 
     4.  Select **New**.
 
-    5.  On the form, select attendee name and tasks \(change request\) for which they will attend the meeting.
+    5.  On the form, select the attendee name and the tasks \(change requests\) for which they attend the meeting.
 
     6.  Select **Save**.
 
     The new attendees are added to the CAB meeting and are listed in the Attendees list.
 
-6.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\) and then select **Send meeting request to attendees** to send the meeting invite to the new and existing attendees.
+6.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and then select **Send meeting request to attendees** to send the meeting invite to the new and existing attendees.
 
 
 **Parent Topic:**[Create a CAB meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/cm-create-cab-meeting-sow.md)

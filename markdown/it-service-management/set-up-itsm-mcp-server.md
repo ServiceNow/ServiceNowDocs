@@ -43,11 +43,7 @@ Role required: sn\_mcp\_server.admin or admin
 
         \[Omitted image "itsm-mcp-server-console.png"\] Alt text: ITSM MCP server Oauth access
 
-    4.  In the **Auth scope** field, select **a2aauthscope**.
-
-        Selecting this option enables the REST A2A protocol to access the AI Agent MCP tools.
-
-    5.  From the **Deactivate** list, select **Activate**.
+    4.  From the **Deactivate** list, select **Activate**.
 
         **Note:**
 
@@ -62,6 +58,9 @@ Role required: sn\_mcp\_server.admin or admin
         \[Omitted image "itsm-mcp-server-setup-oauth.png"\] Alt text: OAuth authorization code grant configuration form in Machine Identity Console showing fields for Name, Provider name, Redirect URLs, Client ID, and Client secret.
 
     -   If you're setting up your own OAuth connection, the oauth\_admin or admin role is required to configure your OAuth client entry. See the [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md) to set up the OAuth and connect to the ITSM MCP Server.
+
+        **Note:** In the **Auth scope** field, select **a2aauthscope**. Selecting this option enables the REST A2A protocol to access the AI Agent MCP tools.
+
 
 **Related topics**  
 

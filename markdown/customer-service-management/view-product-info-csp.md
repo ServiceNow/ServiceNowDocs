@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-product-info-csp.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -42,11 +42,11 @@ If product catalog items have been set up in your instance, you can use the **Se
 
 1.  Navigate to the Customer Service homepage.
 
-2.  Click **Support** &gt; **Products** in the header menu.
+2.  Select **Support** &gt; **Products** in the header menu.
 
     The system displays a list of products or services sold to your account.
 
-3.  Click a product to view the details and any cases created on the product in the last 30 days.
+3.  Select a product to view the details and any cases created on the product in the last 30 days.
 
 4.  View all active contracts and entitlements for the sold product.
 

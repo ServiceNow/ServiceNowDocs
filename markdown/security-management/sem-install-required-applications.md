@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-install-required-applications.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Installing Security Exposure Management Workspace applications, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -59,6 +59,8 @@ Role required: admin for download, installation, and activation of all applicati
     |Configuration Compliance dependencies|com.snc.vulc\_dep|Plugin that provides dependencies for the Configuration Compliance application.|
     |Configuration Compliance|com.snc.vulc|Exposes configuration-related security vulnerabilities.|
     |Vulnerability Response and Configuration Compliance for Containers|sn\_vul\_container|Imports vulnerability scan data from leading container security vendors.|
+    |Fix Intel for Security Exposure Management|sn\_vul\_fix|Accelerates remediation using the deduplicated Unified Security Exposure Management exposure findings and fix guidance.|
+    |Unified Exposure Pipeline|sn\_vul\_int\_cmn|Centralizes scanner integration through a unified ingestion and normalization pipeline that normalizes assets and exposure findings from across scanners.|
 
     [Security Exposure Management Workspace Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-new-roles-installed.md)
 

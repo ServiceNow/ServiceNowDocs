@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-va-topic-new.html
 release: australia
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-10-15"
 reading_time_minutes: 2
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add a conversational topic tool to an AI agent
@@ -59,7 +59,7 @@ Conversational topic tools allow AI agents to utilize conversational topics. Whe
         -   **Custom**: Output data is changed into a format you specify \(consider data loss and performance issues\).
     2.  Write processing messages for users under **Write processing messages for users**.
 
-        Describe the action that happens while the tool is running in the **In-progress message** field and the final action when the tool completes in the **Completion message** field. For example, users can see "Requesting a service" when the tool is in progress and "Requested a service" when the tool is done.
+        Describe the action that happens while the tool is running in the **In-progress message** field and the final action when the tool completes in the **Completion message** field. For example, users can see "Asking for a date range" when the tool is in progress and "Date range received" when the tool is done.
 
 
 ## Result

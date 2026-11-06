@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Matching rules for prioritized intraday optimization, Optimization for prioritized events, Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -119,7 +119,7 @@ The matching rule is added to the configuration and executes when the specified 
 **Related topics**  
 
 
-[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
+[Optimizing technician schedules at set intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
 
 [Optimizing technician schedules in response to urgent events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/triggering-optimization-on-task-or-agent-availability-change.md)
 

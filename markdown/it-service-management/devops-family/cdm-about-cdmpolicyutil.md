@@ -7,7 +7,7 @@ release: australia
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validating and correcting configuration data, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Validating and correcting configuration data, Using DevOps Config, 
 
 You use the `CdmPolicyUtil` script include to add warning and failure messages to validation results in the CDM Policy Validation Results table. CDM expects validation warnings and failures to contain a node path, a snapshot ID, and a reference to the impacted node.
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 ## CdmPolicyUtil
 

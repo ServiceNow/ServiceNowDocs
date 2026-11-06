@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 36
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -1156,7 +1156,7 @@ Format: yyyy-mm-dd hh:mm:ss
 
 type
 
-</td><td id="d3158e3625">
+</td><td id="d2755e3625">
 
 Node type.
 

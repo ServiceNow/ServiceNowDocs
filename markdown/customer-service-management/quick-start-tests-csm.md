@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/quick-start-tests-csm.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 15
+last_updated: "2026-09-10"
+reading_time_minutes: 14
 breadcrumb: [Getting started with Customer Service Management, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -45,7 +45,7 @@ All Customer Service Management quick start tests require activating the Custome
 -   Case Playbook for Onboarding \(sn\_onboarding\)
 -   Consumer Service Portal \(com.glide.service-portal.consumer-portal\)
 -   CSM Contributor User \(com.snc\_csm\_contributor\_user\)
--   CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
+-   Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
 -   Customer Household Data Model \(com.snc.household\)
 -   Customer Service Management for Orders \(com.snc.csm.order\)
 -   Customer Service Portal \(com.glide.service-portal.customer-portal\)
@@ -475,7 +475,7 @@ CSM - Employee creating case OBO customer
 
 </td><td>
 
-As an employee with the proxy contact role \(sn\_customerservice\_proxy\_contact\), create a case from the self-service portal on behalf of a customer. **Note:** Requires the CSM Extension for Proxy Contacts.
+As an employee with the proxy contact role \(sn\_customerservice\_proxy\_contact\), create a case from the self-service portal on behalf of a customer. **Note:** Requires the Customer Proxy Contacts.
 
 </td><td>
 
@@ -1096,7 +1096,7 @@ CSP - Create product case as an internal unified consumer from CSP Portal
 
 </td><td>
 
-This test verifies the functionality of creating a product case as an internal unified consumer from the CSP portal in conjunction with the Customer Service and Consumer Service Portal plugins, using the Customer Service Management \(CSM\) demo data plugin.
+Verifies creating a product case as an internal unified consumer from the CSP portal. Requires the Customer Service and Consumer Service Portal plugins with the Customer Service Management \(CSM\) demo data plugin.
 
 </td><td>
 
@@ -1108,7 +1108,7 @@ CSP - Create product case as an external unified consumer from CSP Portal
 
 </td><td>
 
-This test verifies the functionality of creating a product case as an external unified consumer from the CSP portal in conjunction with the Customer Service and Consumer Service Portal plugins, using the Customer Service Management \(CSM\) demo data plugin.
+Verifies creating a product case as an external unified consumer from the CSP portal. Requires the Customer Service and Consumer Service Portal plugins with the Customer Service Management \(CSM\) demo data plugin.
 
 </td><td>
 

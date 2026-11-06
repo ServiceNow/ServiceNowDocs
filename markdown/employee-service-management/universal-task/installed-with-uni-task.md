@@ -7,7 +7,7 @@ release: australia
 product: Universal Task
 classification: universal-task
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install Universal Task, Setting up and configuring Universal Task, Universal Task, Employee Service Management]
 ---
@@ -23,7 +23,6 @@ Demo data is available for this feature.
 |Role title \[name\]|Description|Contains roles|
 |-------------------|-----------|--------------|
 |Admin \[sn\_uni\_task.admin\]|View and configure the Universal Task application|None|
-|Agent \[sn\_uni\_task.agent\]|Enable agents to be assigned Universal Task work items.| |
 |Report view \[sn\_uni\_task.report\_view\]|Access and view Universal Task reports|None|
 |Employee form admin \[sn\_uni\_task.emp\_form\_admin\]|Create and manage Employee forms|survey\_admin|
 |Employee form creator \[sn\_uni\_task.emp\_form\_creator\]|Create and modify employee forms|survey\_creator|

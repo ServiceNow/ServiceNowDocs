@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/grant-ide-permissions.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
@@ -115,5 +115,8 @@ Role required: Impact Permissions Authorizer
     The option to **Start Initiative** becomes available.\[Omitted image "permissions-yes.png"\] Alt text: Impact Accelerator granted permissions
 
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-delivery-instance-reference.md)
+-   **[Request an Accelerator from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/request-accelerator.md)**  
+Depending on the Impact package that you are subscribed to, you can request and consume a designated number of concurrent Impact Accelerators, from the IDI.
+
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/idi-reference.md)
 

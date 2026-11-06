@@ -164,9 +164,7 @@ Work notes
 Text that you enter to describe the changes.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-using-bulk-edit.md)
-
-**Related topics**  
+</table>**Related topics**  
 
 
 [Request bulk exception in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-bulk-edit-request-exception.md)

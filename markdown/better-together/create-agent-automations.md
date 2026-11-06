@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/better-together/create-agent-automations.html
 release: australia
 topic_type: task
-last_updated: "2026-06-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [create agent, decomposed automations, automations blocks, desktop actions, automation center, UI block, non UI block, deterministic desktop actions]
 breadcrumb: [Building desktop automations from Task Mining data, Solutions]
@@ -33,7 +33,7 @@ After the agent is created, you must review the agent instructions and test each
 
 **Important:**
 
-Agent testing and AI Desktop Actions tool execution require a Windows machine with the AI Desktop Actions application installed. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+Agent testing and AI Desktop Actions tool execution require a Windows machine with the AI Desktop Actions application installed. For more information, see .
 
 ## Procedure
 
@@ -89,7 +89,7 @@ Agent testing and AI Desktop Actions tool execution require a Windows machine wi
 
     2.  Test the on-screen task desktop action.
 
-        For more information, see [Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-activate-desktop-action-ad.md).
+        For more information, see .
 
     3.  Verify the position of failed anchors and adjust for each screen in the desktop action.
 
@@ -129,5 +129,5 @@ When an authorized user types a request in the ServiceNow Otto panel that matche
 
 Example: The HR team is now ready to execute the employee onboarding agent. When a new hire is added to the system, an HR coordinator types the new employee's name and hire date into the ServiceNow Otto panel. The AI agent automatically executes the complete onboarding workflow, reducing manual data entry time from 30 minutes to seconds and eliminating errors caused by manual form filling.
 
-For more information about executing desktop actions, see [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md).
+For more information about executing desktop actions, see .
 

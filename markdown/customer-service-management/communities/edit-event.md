@@ -7,8 +7,8 @@ release: australia
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Community events, Post and respond to content in the community, Using communities, Communities, Customer Service Management]
 ---
 
@@ -19,6 +19,10 @@ Edit the details of past and upcoming events. By editing a past event, you can a
 ## Before you begin
 
 Role required: sn\_communities.community\_user, sn\_communities.moderation\_admin, sn\_communities.community\_moderator, sn\_communities.forum\_moderator, or sn\_communities.forum\_admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -221,15 +225,15 @@ No
 </td></tr></tbody>
 </table>4.  Perform one of the following actions.
 
-<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d281442e366">
+<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d288261e385">
 
 To
 
-</th><th align="left" id="d281442e369">
+</th><th align="left" id="d288261e388">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d281442e375">
+</th></tr></thead><tbody><tr><td id="d288261e394">
 
 **Save**
 
@@ -237,7 +241,7 @@ Do this
 
 To save the details, click **Save**.
 
-</td></tr><tr><td id="d281442e387">
+</td></tr><tr><td id="d288261e406">
 
 **Schedule**
 
@@ -245,7 +249,7 @@ To save the details, click **Save**.
 
 To publish an event on the specified date, click **Schedule**. **Note:** This option appears for a draft event that the**Schedule Publish** check box is selected for.
 
-</td></tr><tr><td id="d281442e405">
+</td></tr><tr><td id="d288261e424">
 
 **Publish**
 

@@ -1,20 +1,20 @@
 ---
 title: Create Logical Connection function
-description: The Create Logical Connection function enables you to create a logical connection record in the Telecommunications Network Inventory application based on the input \(interfaces\) that you receive when you instantiate an inventory.
+description: The Create Logical Connection function enables you to create a logical connection record in the Telecommunications Network Inventory application. The record is based on the input \(interfaces\) that you receive when you instantiate an inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-action.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
 
 # Create Logical Connection function
 
-The Create Logical Connection function enables you to create a logical connection record in the Telecommunications Network Inventory application based on the input \(interfaces\) that you receive when you instantiate an inventory.
+The Create Logical Connection function enables you to create a logical connection record in the Telecommunications Network Inventory application. The record is based on the input \(interfaces\) that you receive when you instantiate an inventory.
 
 You can use the Create Logical Connection function to create a logical connection on your network interface cards.
 
@@ -22,7 +22,7 @@ When you enter the Interface A, this function automatically retrieves the data f
 
 This function also creates the connection elements and associates them to the logical connection.
 
-If you configure a network interface, equipment, physical connection, logical connection, or managed function as a connection element, the Logical Connection Creation function creates the corresponding connection element and associates it to a logical connection.
+If you configure a network interface, equipment, physical connection, logical connection, or managed function as a connection element, the Logical Connection Creation function creates the corresponding connection element. It then associates it to a logical connection.
 
 You can use this function as a Workflow Studio action in the Telecommunications Network Inventory workflow.
 

@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [saas integrations, saas applications, third-party integrations, saas license management]
 breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
@@ -64,6 +64,8 @@ You can also create integrations for Adobe Cloud and Microsoft Office 365. For m
 
 If you want to integrate with a SaaS application that is not on this list, you can create a custom integration profile. For more information, see [Create a custom integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-integration-custom.md).
 
+You can also integrate with SaaS applications using the Configuration Console for Software Asset Management. For more details about the Configuration Console, see [Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/config-console-sam.md).
+
 **Note:**
 
 The SaaS integration automatically creates a software model and a reclamation rule for the software. Always [review the reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/add-reclamation-rule-sub.md) to make sure that reclamation candidates are identified using the criteria you want.
@@ -73,4 +75,13 @@ After reviewing the reclamation rule, [create a software entitlement](https://ra
 \[Omitted image "mmasset0021802-saas-integration.svg"\] Alt text: Process for setting up a SaaS integration: Initiate the connection in the software admin account, create an integration profile, add a software entitlement, and review the reclamation rule.
 
 After following this process, you're ready to start reclaiming unused licenses to reduce software costs for your company.
+
+**Related topics**  
+
+
+[Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/config-console-sam.md)
+
+[Configuration Console overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/config-console-overview.md)
+
+[Configure Software Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-sam-from-config-console.md)
 

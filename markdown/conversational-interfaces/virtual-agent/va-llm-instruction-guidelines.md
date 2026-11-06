@@ -7,7 +7,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [LLM topic discovery in Virtual Agent, Explore, Virtual Agent, Conversational Interfaces]
 ---
@@ -18,7 +18,7 @@ When you create large language model \(LLM\) topics, you provide instructions th
 
 ## Overview of LLM description and instruction guidelines
 
-Topic authors can use plain text wording to tell the LLM how to discover an LLM topic, as well as tell the LLM how to respond. The Virtual Agent Designer interface provides text fields that let you provide both.
+Topic authors can use plain text wording to tell the LLM how to discover an LLM topic, as well as tell the LLM how to respond. The Assistant Designer interface provides text fields that let you provide both.
 
 -   **Descriptions**
 

@@ -7,7 +7,7 @@ release: australia
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
@@ -20,11 +20,9 @@ Integrate Workplace Services Kiosk with Workplace Visitor Management to create a
 
 1.  Create page configurations based on the flows you want to support on the kiosk. For more information, see [Configure pages for Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/create-kiosk-pages.md).
 
-    The Authentication, Summary, and End page configurations are required to support check-in and check-out flows. The Self registration page configuration is required to support the self-registration flow. Additionally, you can create an acknowledgment page to display visitor policies on the kiosk.
+    The Authentication, Summary, and End page configurations are required to support check-in and check-out flows. The Self registration page configuration is required to support the self-registration flow. Additionally, you can create an acknowledgement page to display visitor policies on the kiosk.
 
-    You can customize the initial and additional requirements for the self-registration flow. For more information about creating visit requirements, see [Configure visit requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/configure-visit-requirements.md).
-
-    **Important:** If the visitor policies for the acknowledgment page contain hyperlinks, visitors can use the links to leave the kiosk environment and they cannot return to the kiosk. The kiosk operator must reload the kiosk environment by using the kiosk URL.
+    **Important:** If the visitor policies for the acknowledgement page contain hyperlinks, visitors can use the links to leave the kiosk environment and they cannot return to the kiosk. The kiosk operator must reload the kiosk environment by using the kiosk URL.
 
 2.  Create check-in and check-out flows for the kiosk by using the page configurations. For more information, see [Create a flow for Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-visitor-management/create-kiosk-flow.md).
 

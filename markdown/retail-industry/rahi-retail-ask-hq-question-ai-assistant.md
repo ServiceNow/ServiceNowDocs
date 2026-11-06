@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-23"
 reading_time_minutes: 1
 keywords: [store inquiry, AI assistant, Retail MCP Server, HQ question]
-breadcrumb: [Retail MCP Server, Configure, Retail]
+breadcrumb: [Retail MCP Server, ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
 # Ask HQ a question from your AI assistant

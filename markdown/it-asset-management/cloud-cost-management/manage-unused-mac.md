@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -43,7 +43,7 @@ New
 
 </td><td>
 
-Resources that are candidates for Unused resources. Each successful execution of a Billing Download job triggers the Budget Forecast, Business Hours, Commitments, Rightsizing, and Unused resources jobs to analyze the spend and usage data of resources and to update the actionable recommendations in reports.**Note:** Microsoft Azure only: The Azure Advisor service generates the recommendations that appear in Rightsizing and Unused resources reports. Cloud Cost Management doesn’t generate the recommendations.
+Resources that are candidates for Unused resources. Each successful execution of a Billing Download job triggers the Budget Forecast, Business Hours, Reservation Plans, Rightsizing, and Unused resources jobs to analyze the spend and usage data of resources and to update the actionable recommendations in reports.**Note:** Microsoft Azure only: The Azure Advisor service generates the recommendations that appear in Rightsizing and Unused resources reports. Cloud Cost Management doesn’t generate the recommendations.
 
 </td><td>
 

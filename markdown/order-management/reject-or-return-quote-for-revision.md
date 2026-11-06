@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/reject-or-return-quote-for-revision.html
 release: australia
 topic_type: task
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [approvals, quote, reject, revision]
 breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
@@ -35,7 +35,7 @@ When you reject an approval request:
 -   The approval request is marked as rejected and removed from active approval workflows
 -   The quote requester receives a notification with your rejection comments
 -   The requester can make changes and resubmit the quote
--   When resubmitted, the quote goes through the complete approval process again, starting from the first approver
+-   When resubmitted, the quote goes through the complete approval process again , starting from the first approver
 
 ## Procedure
 

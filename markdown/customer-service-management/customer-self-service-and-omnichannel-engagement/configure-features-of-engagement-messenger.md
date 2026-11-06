@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Feature configuration for Engagement Messenger
@@ -52,7 +52,7 @@ Use the Features section of the guided configuration to customize the messenger 
         **Note:**
 
         -   The knowledge article, catalog item, and case links sent by an agent can be opened within Engagement Messenger. You can configure how links should be open in a messenger. For more information, see [Create a smart link preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-smart-link-preference.md).
-        -   You can also enable the Now Assist in Virtual Agent in Engagement Messenger by [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md) and then [Display your assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md) in Engagement Messenger.
+        -   You can also enable the Now Assist in Virtual Agent in Engagement Messenger by [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md) and then [Display your assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md) in Engagement Messenger.
     -   Configurable Cards: See [Configurable Cards feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configurable-card.md).
     -   Callback: See [Callback feature configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/em-callback.md).
 5.  You can also add a feature in the **Features** section using Configurable Cards.

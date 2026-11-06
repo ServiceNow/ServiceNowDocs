@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-crew-scheduling.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Explore, Field Service Management]
 ---
 
@@ -16,7 +16,7 @@ Simplify your scheduling process and create a crew of Field Service technicians 
 
 Field Service Crew Operations enable you to assign the same set of resources repeatedly to recurring tasks. Crew members work together on the assigned task for a set number of hours, days, weeks, or months. The crew leader can record the crew's work contributions using the mobile application.
 
-\[Omitted image "Crew-operations-fsm.png"\] Alt text:
+\[Omitted image "MMASSET0022199-fsc-ops-landing.svg"\] Alt text:
 
 Field Service Crew Operations provides easier assignment of multiple agents to tasks, better management of agents, improved visibility into long-cycle tasks, and real time visibility on schedule tasks. Benefits of Field Service Crew Operations include:
 
@@ -30,6 +30,19 @@ Field Service Crew Operations provides easier assignment of multiple agents to t
 
 -   Automatically assign tasks to crews based on dynamic scheduling rules.
 
+
+## Example: Solar Installation
+
+A field service organization needs to manage groups of technicians working together on complex jobs. Field Service Crew Operations assigns crews based on skills, location, and availability, distributes tasks across crew members, and provides real-time visibility into progress through consolidated closure.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|System|Creates work order|
+|2|Dispatcher or System|Assigns crew|
+|3|System|Distributes tasks across crew members|
+|4|System|Schedules coordination across members|
+|5|Crew|Executes task|
+|6|Crew|Consolidates and closes work order|
 
 **Related topics**  
 

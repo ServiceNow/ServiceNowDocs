@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-sca-op-vul-and-issues.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Scenario Analysis, Operational Resilience, operational vulnerabilities, issues, remediation]
-breadcrumb: [Building a scenario analysis using simulation, Scenario analysis using simulation, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Building a scenario analysis using simulation, Conducting a scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Log operational vulnerabilities and issues
@@ -59,7 +59,7 @@ Steps to identify operational vulnerabilities and log issues are optional. They 
 
     The **Mark as Complete** button remains inactive until an issue is added, so **Skip** is the only way to leave the step empty.
 
-    \[Omitted image "sca-issues-stage-skip-option.png"\] Alt text: Scenario Issues step with an empty list, the Complete Analysis button,Skip button, and \(an inactive\) Mark as Complete button shown on the form.
+    \[Omitted image "sca-issues-stage-skip-option.png"\] Alt text: Scenario Issues step with an empty list, the Complete Analysis button, Skip button, and \(an inactive\) Mark as Complete button shown on the form.
 
 
 ## Result

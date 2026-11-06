@@ -1,14 +1,14 @@
 ---
 title: ProcessMiningIntegrationAPI - Scoped
-description: The ProcessMiningIntegrationAPI script include provides methods to manage process mining projects and retrieve findings and breakdowns.Creates a process mining project.Deletes a process mining project.Gets breakdown statistics for a process mining project.Gets findings for a process mining project.Gets the mining status of a process mining project.Retrieves a process mining project.Submits a process mining project for mining.
+description: The ProcessMiningIntegrationAPI script include provides methods to manage process mining projects and retrieve findings and breakdowns.Creates a process mining project.Creates a process mining project.Deletes a process mining project.Gets breakdown statistics for a process mining project.Gets findings for a process mining project.Gets the mining status of a process mining project.Retrieves a process mining project.Submits a process mining project for mining.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/ProcessMiningIntAPIScoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 15
+last_updated: "2026-09-10"
+reading_time_minutes: 20
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -40,13 +40,13 @@ The following system properties can be used to manage API functionality.
 
     Default: 1.
 
--   **__promin.api.allow\_no\_role\_mining__**
+-   **\(Deprecated\) __promin.api.allow\_no\_role\_mining__**
 
     Allows projects to be mined by users without the sn\_process\_mining\_analyst role.
 
     Default: False.
 
--   **__promin.api.auto\_share\_project\_with\_creator__**
+-   **\(Deprecated\) __promin.api.auto\_share\_project\_with\_creator__**
 
     Automatically shares the project with the creator of the project.
 
@@ -60,6 +60,8 @@ The following system properties can be used to manage API functionality.
 Creates a process mining project.
 
 A project acts as a blueprint for Process Mining operations. It selects the process that the mining is done on and which attributes of the process are considered while mining.
+
+**Note:** This method is deprecated. Use [createProjectFromApi\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ProcessMiningIntAPIScoped.md) instead. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 <table id="table_xs3_lqs_kdc" class="parameters"><thead><tr><th>
 
@@ -452,6 +454,468 @@ SNC.ProcessMiningIntegrationAPI
 ["priority"], // breakdown definitions
 "sys_created_onONLast month@javascript:gs.beginningOfLastMonth()@javascript:gs.endOfLastMonth()", // incident created on last month
 "DEFAULT", // template type
+{"02acf036b3120010ed7fc9c316a8dc0c":"user"}, // map of permissions "sys_id":"type"
+true // auto retire project
+);
+```
+
+Output:
+
+```
+{
+   "entity":{
+      "table":"incident",
+      "condition":"sys_created_onONLast month@javascript:gs.beginningOfLastMonth()@javascript:gs.endOfLastMonth()",
+      "activityDefinitions":[
+         {
+            "field":"assignment_group",
+            "type":"DEFAULT",
+            "activityOfInterest":false
+         },
+         {
+            "field":"business_service",
+            "type":"DEFAULT",
+            "activityOfInterest":false
+         },
+         {
+            "field":"category",
+            "type":"DEFAULT",
+            "activityOfInterest":false
+         },
+         {
+            "field":"priority",
+            "type":"DEFAULT",
+            "activityOfInterest":false
+         },
+         {
+            "field":"state",
+            "type":"DEFAULT",
+            "activityOfInterest":false
+         }
+      ],
+      "breakdownDefinitions":[
+         {
+            "field":"contact_type",
+            "fieldLabel":"Channel"
+         },
+         {
+            "field":"assignment_group",
+            "fieldLabel":"Assignment group"
+         },
+         {
+            "field":"location",
+            "fieldLabel":"Location"
+         },
+         {
+            "field":"priority",
+            "fieldLabel":"Priority"
+         },
+         {
+            "field":"category",
+            "fieldLabel":"Category"
+         }
+      ]
+   },
+   "name":"Incident Process",
+   "permissions":[
+      {
+         "value":"62826bf03710200044e0bfc8bcbe5df1",
+         "type":"user"
+      },
+      {
+         "value":"02acf036b3120010ed7fc9c316a8dc0c",
+         "type":"user"
+      }
+   ],
+   "id":"a4286c4f4f831210c98b8a4a91ce0bf5",
+   "miningState":"NEW",
+   "findingDefinitionKPIMap":{
+      "f23c20c34fc31210c98b8a4a91ce0bac":[
+         "002d65c3d7131100b96d45a3ce6103e2"
+      ]
+   },
+   "retiredDate":null,
+   "lastMined":null
+}
+```
+
+## ProcessMiningIntegrationAPI - createProjectFromApi\(String table, Array activities, Array breakdowns, String encodedQuery, Object permissions, Boolean autoRetire\)
+
+Creates a process mining project.
+
+A project acts as a blueprint for Process Mining operations. It selects the process that the mining is done on and which attributes of the process are considered while mining.
+
+<table id="table_xs3_lqs_kdc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+table
+
+</td><td>
+
+String
+
+</td><td>
+
+Name of the table containing the data to analyze.
+
+</td></tr><tr><td>
+
+activities
+
+</td><td>
+
+Array
+
+</td><td>
+
+Activity definitions for the project. An activity definition is an attribute of the process to consider while mining, such as state or assignment group. It must be a column from the table specified in the **table** parameter. At least one activity definition is required to mine a project. For more information about activity definitions, see [Set activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/set-activity-def.md).
+
+**Note:** Activity definitions are also included in the project template specified in the **templateType** parameter. Use the **activities** parameter to specify any additional activities not included in the template.
+
+```
+["<column_name>"]
+```
+
+</td></tr><tr><td>
+
+breakdowns
+
+</td><td>
+
+Array
+
+</td><td>
+
+Breakdown definitions for the project.A breakdown definition allows you to filter records and analyze a process map by categories, such as priority or business category. It must be a column from the table specified in the **table** parameter. Breakdown definitions aren't required to mine a project. For more information about breakdown definitions, see [Set breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/breakdown.md).
+
+**Note:** Breakdown definitions are also included in the project template specified in the **templateType** parameter. Use the **breakdowns** parameter to specify any additional breakdowns not included in the template.
+
+```
+["<column_name>"]
+```
+
+</td></tr><tr><td>
+
+encodedQuery
+
+</td><td>
+
+String
+
+</td><td>
+
+Encoded query to select the data to analyze. This allows you to limit the data that is analyzed, such as by selecting data only from a specified time period.To include all data in the table, you can pass an empty string.
+
+</td></tr><tr><td>
+
+permissions
+
+</td><td>
+
+Object
+
+</td><td>
+
+Map of groups, roles, and users to share the project with, where the key is a sys\_id and the value specifies the type \(group, role, or user\).All users who the project is shared with can view the analyzed model and view project configurations. Only users with the sn\_process\_optimization\_analyst or sn\_process\_optimization\_power\_user can mine the project.
+
+```
+{
+   "<user_sys_id>":"user",
+   "<role_sys_id>":"role",
+   "<group_sys_id>":"group"
+}
+```
+
+</td></tr><tr><td>
+
+autoRetire
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Optional. Flag that indicates whether to automatically retire the project.
+
+ Valid values:
+
+-   true: The project is automatically retired seven days after creation.
+-   false: The project isn't automatically retired.
+
+ Default: False
+
+</td></tr></tbody>
+</table><table id="id_x1l_krq_c2c" class="returns"><thead><tr><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Object
+
+</td><td>
+
+Object containing information about the project.```
+{
+   "entity": {Object},
+   "findingDefinitionKPIMap": {Object},
+   "id": "String",
+   "lastMined": String",
+   "miningState": "String",
+   "name": "String",
+   "permissions": [Array],
+   "retiredDate": "String"
+}
+```
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.entity
+
+</td><td>
+
+Object containing information about the data analyzed in the project.Data type: Object
+
+```
+{
+   "activityDefinitions": [Array],
+   "breakdownDefinitions": [Array],
+   "condition": "String,"
+   "table": "String"
+}
+```
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.entity.activityDefinitions
+
+</td><td>
+
+Activity definitions for the project.Data type: Array
+
+```
+[
+   {
+      "activityOfInterest":Boolean,
+      "field":"String",
+      "type":"String"      
+   }
+]
+```
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.entity.activityDefinitions.activityOfInterest
+
+</td><td>
+
+Flag that indicates whether field changes appear in the analyst workbench.
+
+ Valid values:
+
+-   true: Field changes appear in the analyst workbench.
+-   false: Field changes don’t appear in the analyst workbench, but can still be used in contextual conditions in transitions or findings.
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.entity.activityDefinitions.field
+
+</td><td>
+
+Field containing the data to analyze. The field must be from the table specified in the **table** parameter.
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.entity.activityDefinitions.type
+
+</td><td>
+
+The type of values to mine.Valid values:
+
+-   Field Values \(Default\): This is the default selection. This option is available whenever you create an activity definition.
+-   Date Time: Uses date time value from the actual record rather than the audit history and is displayed as a grouped node on the process map.
+-   Compound: One node or process graph representing change in the multiple field value from the actual record rather than the audit history.
+-   Child Attached: This option is available when you have selected two tables for table configuration and have set a child-parent relationship. This option is available only for the parent table configuration. In the visualization, you will see when the child was attached in the process.
+-   Parent Attached: This option creates a node on the child process representing when a parent record was attached to a child.
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.entity.breakdownDefinitions
+
+</td><td>
+
+Breakdown definitions for the project.Data type: Array
+
+```
+[
+ {
+   "field":"String",
+   "fieldLabel":"String"
+ }
+]
+```
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.entity.breakdownDefinitions.field
+
+</td><td>
+
+Name of the field used in the breakdown.Data type: String
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.entity.breakdownDefinitions.fieldLabel
+
+</td><td>
+
+Label of the field used in the breakdown.Data type: String
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.entity.condition
+
+</td><td>
+
+Encoded query to select the data to analyze.Data type: String
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.entity.table
+
+</td><td>
+
+Name of the table containing the data to analyze.Data type: String
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.findingDefinitionKPIMap
+
+</td><td>
+
+Map of improvement opportunities and key performance indicators \(KPIs\), where the map key is an improvement opportunity sys\_id and the value is an array of sys\_ids of the KPIs impacted by the improvement opportunity.Improvement opportunities are located in the Finding Definition \[promin\_finding\_def\] and Automated Finding Definition \[promin\_automated\_finding\] tables. KPIs are located in the Indicator \[pa\_indicators\] table.
+
+For more information about improvement opportunities and KPIs, see [Setting improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/working-with-imp-opp.md) and [Viewing business insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-business-findings.md).
+
+Data type: Object
+
+```
+{
+   "<finding_def_sys_id":[
+      "<kpi_sys_id>"
+   ]
+}
+```
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.id
+
+</td><td>
+
+Sys\_id of the project.Table: Project Definition \[promin\_project\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.lastMined
+
+</td><td>
+
+Date the project was last mined.Data type: String
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.miningState
+
+</td><td>
+
+Mining state for the project.For descriptions of mining states, see [Mining states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/generate-process-map.md).
+
+Data type: String
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.name
+
+</td><td>
+
+Name of the project.Data type: String
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.permissions
+
+</td><td>
+
+Group, role, and user permissions for the project.Data type: Object
+
+```
+[
+   {
+      "type":"String",
+      "value":"String"      
+   }
+]
+```
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.permissions.type
+
+</td><td>
+
+Type of permission.Valid values:
+
+-   group
+-   role
+-   user
+
+Data type: String
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.permissions.value
+
+</td><td>
+
+Sys\_id of the group, role, or user to grant permissions.Data type: String
+
+</td></tr><tr><td>
+
+&lt;Object&gt;.retiredDate
+
+</td><td>
+
+Date the project will be retired.Data type: String
+
+</td></tr></tbody>
+</table>This example creates a project using data from incidents created last month.
+
+```
+SNC.ProcessMiningIntegrationAPI
+.createProjectFromApi(
+"incident", // table name
+["state"], // activity definitions
+["priority"], // breakdown definitions
+"sys_created_onONLast month@javascript:gs.beginningOfLastMonth()@javascript:gs.endOfLastMonth()", // incident created on last month
 {"02acf036b3120010ed7fc9c316a8dc0c":"user"}, // map of permissions "sys_id":"type"
 true // auto retire project
 );

@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MFA factor policies, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [MFA factor policies, MFA verification methods, Configuring MFA, Mul
 
 Multi-factor authentication \(MFA\) with SMS as a factor for your authentication.
 
-Admin can configure ServiceNow instance to require users who attempt to login the instance using SMS based OTP.
+Admin can configure ServiceNow instance to require users who attempt to log in to the instance using SMS-based OTP.
 
-When users attempt to login to ServiceNow, SMS OTP is sent to the mobile number associated with the sys\_user record. User's can enter the six-digit verification code that it sent to the mobile device and verify their identity.
+When users attempt to log in to ServiceNow, SMS OTP is sent to the mobile number associated with the sys\_user record. Users can enter the six-digit verification code that it sent to the mobile device and verify their identity.
 
-You can configure MFA with SMS using the out of the box Twilio as well. For more information, see [Multi-factor authentication Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/multi-factor-authentication-providers.md).
+You can configure MFA with SMS using the default Twilio as well. For more information, see [Multi-factor authentication providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/multi-factor-authentication-providers.md).
 
 \[Omitted image "mobile-screen-mfa.png"\] Alt text: MFA-SMS
 

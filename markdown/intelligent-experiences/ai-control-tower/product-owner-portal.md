@@ -1,21 +1,21 @@
 ---
 title: Product Owner portal
-description: Explore the product owner view and navigate through the accessible tabs in the AI Control Tower.
+description: Explore the product owner view and navigate through the accessible tabs on AI Control Tower to ensure a comprehensive understanding of the features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/product-owner-portal.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Product Owner portal
 
-Explore the product owner view and navigate through the accessible tabs in the AI Control Tower.
+Explore the product owner view and navigate through the accessible tabs on AI Control Tower to ensure a comprehensive understanding of the features.
 
 ## Product owner view
 

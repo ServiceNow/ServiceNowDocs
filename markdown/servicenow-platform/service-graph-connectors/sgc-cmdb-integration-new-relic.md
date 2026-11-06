@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,9 +24,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   New Relic version: Last tested on July 01, 2025
 -   Supported ServiceNow versions:
-    -   Xanadu
-    -   Yokohama
     -   Zurich
+    -   Australia
+    -   Brazil
 
 ## Configuring a connection for the connector
 

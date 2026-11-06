@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/terminology-definitions-reference.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Terminology definitions for ROI, Exploring Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Terminology definitions for ROI, Explore, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Terminology definitions fields

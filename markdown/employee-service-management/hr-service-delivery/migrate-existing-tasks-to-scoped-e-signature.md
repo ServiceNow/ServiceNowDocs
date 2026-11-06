@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR e-signature, HR Documents, HR Service Delivery, Employee Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_hr\_core.admin
 
 **Important:**
 
-Starting with the Australia release, HR task types: Credential, E-signature \(e\_signature\), and Sign Document are now deprecated and no longer supported or available for new activation. E-signature provides the latest experience for this functionality.
+Starting with the Brazil release, HR task types: Credential, E-signature \(e\_signature\), and Sign Document are now deprecated and no longer supported or available for new activation. E-signature provides the latest experience for this functionality.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 

@@ -7,8 +7,9 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [import taxonomies, taxonomy values, bulk import, CSV XLSX import]
 breadcrumb: [Creating Taxonomies, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

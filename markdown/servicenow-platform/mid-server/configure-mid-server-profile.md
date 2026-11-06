@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MID Server profiles, configure MID Server, assign MID Server profile]
 breadcrumb: [MID Server profiles, Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]

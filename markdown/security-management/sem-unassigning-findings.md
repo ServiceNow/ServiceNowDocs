@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-unassigning-findings.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Assigning findings to remediation teams using assignment rules, Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -84,4 +84,6 @@ Each reassigned record retains a reference to its original assignment rule. The 
 
 
 [Remove assignments from findings and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-assignment-rules.md)
+
+[Approve or reject an unassign request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-approve-unassign-requests.md)
 

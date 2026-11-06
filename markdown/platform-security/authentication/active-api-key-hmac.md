@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [API Key and HMAC Authentication for inbound REST APIs, Token-based authentication, API Authentication, Authentication, Access Management]
+breadcrumb: [API key and HMAC authentication for inbound REST APIs, Token-based authentication, API authentication, Authentication, Access Management]
 ---
 
 # Activate API Key and HMAC Authentication

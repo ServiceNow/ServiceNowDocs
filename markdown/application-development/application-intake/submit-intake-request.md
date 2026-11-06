@@ -7,9 +7,9 @@ release: australia
 product: Application Intake
 classification: application-intake
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Planning your application, Building applications]
+breadcrumb: [Planning your application, Classic app development, Building applications]
 ---
 
 # Submit your idea for app development

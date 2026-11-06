@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Confirming the assigned serialized hardware assets, Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Confirming the assigned serialized hardware assets, Employee self-service, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Confirm the assigned assets on the Employee Center portal

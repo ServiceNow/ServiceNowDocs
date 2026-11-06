@@ -7,7 +7,7 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working on major incident management, Managing major incidents, Incident Management, IT Service Management]
 ---
@@ -26,41 +26,41 @@ Role required: major\_incident\_manager
 
     **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
-<table id="choicetable_r21_xbw_3db"><thead><tr><th align="left" id="d180434e78">
+<table id="choicetable_r21_xbw_3db"><thead><tr><th align="left" id="d301429e77">
 
 Option
 
-</th><th align="left" id="d180434e81">
+</th><th align="left" id="d301429e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d180434e87">
+</th></tr></thead><tbody><tr><td id="d301429e86">
 
 **Accept a major incident candidate**
 
 </td><td>
 
 1.  Navigate to **Incident** &gt; **Major Incidents** &gt; **Candidates** and open the candidate to be approved.
-2.  Click the additional actions icon \[Omitted image "context-menu.png"\] Alt text: Additional actions icon and select **Promote to Major Incident**.
+2.  Select the **Additional actions** icon \(\[Omitted image "context-menu.png"\] Alt text: Additional action icon\) and select **Promote to Major Incident**.
  **Note:**
 
 -   While promoting the candidate, the major incident manager is prompted to enter work notes and business impact.
--   The incident is promoted to a major incident, and the **Major incident state** field under the Major incident section is changed from **Proposed** to **Accepted**.
+-   The incident is promoted to a major incident, and the **Major incident state** field under the Major incident section changes from **Proposed** to **Accepted**.
 -   The incident is assigned to the user who approves the major incident.
 
 
-</td></tr><tr><td id="d180434e148">
+</td></tr><tr><td id="d301429e150">
 
 **Reject a major incident candidate**
 
 </td><td>
 
 1.  Navigate to **Incident** &gt; **Major Incidents** &gt; **Candidates** and open the candidate to be rejected.
-2.  Click the additional actions menu icon \[Omitted image "context-menu.png"\] Alt text: Additional actions menu icon and select **Reject Major Incident Candidate**.
+2.  Select the **Additional actions** icon \(\[Omitted image "context-menu.png"\] Alt text:\) and select **Reject Major Incident Candidate**.
  **Note:**
 
 -   While rejecting the candidate, the major incident manager is prompted to enter the reason for rejecting the candidate. A notification is sent to the user in the **Assigned to** field.
--   The state of the incident remains the same while the **Major incident state** field is changed to **Rejected**.
+-   The state of the incident remains the same while the **Major incident state** field changes to **Rejected**.
 
 
 </td></tr></tbody>

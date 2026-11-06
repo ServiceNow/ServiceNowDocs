@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-sales-forecasting.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -22,7 +22,7 @@ You can view the Sales Forecast dashboard to see the current sales status and ta
 
 ## Using the Sales Forecast dashboard
 
-To access the Sales Forecast dashboard, navigate to **CSM/FSM Configurable Workspace** and select the **Sales Forecast** view. Select the refresh icon \[Omitted image "form-refresh.png"\] Alt text: to see the latest sales forecast data. Select **Update Forecast** on the dashboard to fetch the data to generate the latest forecast information. The Active Forecasts list on the side panel displays the forecast models configured for your Sales Forecasting dashboard. Select the forecast model that you want to view. You can view forecasts with one hierarchy or two hierarchies. You can customize your Sales Forecast dashboard columns and view. For more info, see [Customizing Sales Forecast dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/customizing-sales-forecast-dashboard.md).
+To access the Sales Forecast dashboard, navigate to **CRM Workspace** and select the **Sales Forecast** view. Select the refresh icon \[Omitted image "form-refresh.png"\] Alt text: to see the latest sales forecast data. Select **Update Forecast** on the dashboard to fetch the data to generate the latest forecast information. The Active Forecasts list on the side panel displays the forecast models configured for your Sales Forecasting dashboard. Select the forecast model that you want to view. You can view forecasts with one hierarchy or two hierarchies.
 
 \[Omitted image "sales-forecasting-dashboard.png"\] Alt text: Sales Forecast dashboard.
 

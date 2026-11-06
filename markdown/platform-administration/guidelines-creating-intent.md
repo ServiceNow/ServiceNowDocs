@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/guidelines-creating-intent.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Email agentic workflow, Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email agentic workflow, Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # General guidelines for creating and mapping an intent

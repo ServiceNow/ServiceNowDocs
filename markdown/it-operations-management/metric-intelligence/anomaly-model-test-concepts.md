@@ -7,7 +7,7 @@ release: australia
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Use anomaly model testing to apply and evaluate anomaly detection for a small se
 
 For example, before enabling anomaly detection for Linux Servers, you can use anomaly model testing with actual metric data collected for those Linux Servers. Existing alerts might indicate an anomaly for a specific metric and CI. You can create an anomaly test rule to test anomaly detection for those CIs and metrics, and then check if the expected anomaly is detected. You can also examine the bounds calculated by the anomaly model to see if they match expected bounds. After you fine-tune the test model, you can enable anomaly detection for Linux Servers.
 
-Anomaly model testing supports up to 20 time series, which can include 20 metric types for the same CI, the same metric type for 20 different CIs, or any combination of those options.
+Anomaly model testing supports up to 20 time series: 20 metric types for one CI, one metric type for 20 CIs, or any combination.
 
 ## View test results in the Insights Explorer
 

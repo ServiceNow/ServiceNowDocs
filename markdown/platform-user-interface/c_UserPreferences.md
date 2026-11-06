@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_UserPreferences.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -61,7 +61,7 @@ Create system-wide or global user preferences to set a default preference for yo
 
 ## User preferences and update sets
 
-User preference records for system-wide values, also called the default or global values, are stored in update sets. Any changes are implemented when you import the update set and affect all users who have not customized the feature. User preference records for specific users aren’t stored in update sets, so user customizations are retained when you import an update set. For more information, see .
+User preference records for system-wide values, also called the default or global values, are stored in update sets. Any changes are implemented when you import the update set and affect all users who have not customized the feature. User preference records for specific users aren’t stored in update sets, so user customizations are retained when you import an update set. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
 
 -   **[User preference settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_UserPreferenceSettings.md)**  
 User preferences primarily track the way individual users interact with various features so that new sessions activate the user's last settings. For example, user preferences track whether the user activates the tabbed or scrolling interface for multi-section forms. Other user preference records enable users with the admin role to adjust certain feature settings.

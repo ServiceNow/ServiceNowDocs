@@ -7,9 +7,9 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Customize calendar reports
@@ -27,5 +27,5 @@ Field styles control the highlighting of events in calendar reports. Manage fiel
 -   **[Customize start and end dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CustomizeAStartAndEndDate.md)**  
 You can configure calendar reports to support the spanning of multi-day events across calendar cells.
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 

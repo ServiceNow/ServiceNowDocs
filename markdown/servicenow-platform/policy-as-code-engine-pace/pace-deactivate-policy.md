@@ -7,7 +7,7 @@ release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage PaCE policies, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,15 +45,15 @@ Deactivating a policy enables you to place the policy into a maintenance-like mo
 
 3.  Activate or deactivate the selected policy.
 
-<table id="choicetable_gth_bhk_1pb"><thead><tr><th align="left" id="d472221e159">
+<table id="choicetable_gth_bhk_1pb"><thead><tr><th align="left" id="d476490e159">
 
 Task
 
-</th><th align="left" id="d472221e162">
+</th><th align="left" id="d476490e162">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d472221e168">
+</th></tr></thead><tbody><tr><td id="d476490e168">
 
 **Activate a policy**
 
@@ -73,7 +73,7 @@ Validation of the activated policy and its associated mapping inputs is performe
 
 **Note:** This only works with content-based policies.
 
-</td></tr><tr><td id="d472221e212">
+</td></tr><tr><td id="d476490e212">
 
 **Deactivate a policy**
 

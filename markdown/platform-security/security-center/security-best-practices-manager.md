@@ -7,7 +7,7 @@ release: australia
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Security posture console, Security Center, Platform Security]
 ---
@@ -165,12 +165,12 @@ This page provides more information on the best practice, divided into tabs:
 
 
 -   **[Complete a security best practice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/complete-a-security-best-practice-on-your-servicenow-instance.md)**  
-Complete a security best practice to implement security configurations on your ServiceNow instance.
+Learn how to complete a security best practice on your ServiceNow instance.
 -   **[View activity of a best practice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/view-activity-of-a-best-practice.md)**  
 Track the chronological and timestamped history related to a security best practice that you're completing on your ServiceNow instance, along with the user that initiated the activity.
 -   **[View data of completed best practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/view-statistics-of-completed-best-practices.md)**  
 See visual representations of the total amount of best practices completed, or segmented by maturity level.
--   **[Filter the security best practices table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/apply-filters-to-the-security-best-practices-table.md)**  
+-   **[Filters the security best practices table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/apply-filters-to-the-security-best-practices-table.md)**  
 Apply filters to return more relevant results for your security best practices.
 -   **[Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/best-practices.md)**  
 Learn details about the Best Practices in the Security Posture Console.

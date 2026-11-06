@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Scheduling your teams' work, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -40,15 +40,15 @@ You can create custom event types and add or remove the desired fields. For more
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d67837e138">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d82905e138">
 
 To
 
-</th><th align="left" id="d67837e141">
+</th><th align="left" id="d82905e141">
 
 Perform these tasks
 
-</th></tr></thead><tbody><tr><td id="d67837e147">
+</th></tr></thead><tbody><tr><td id="d82905e147">
 
 **Create a meeting, training, or time-off request**
 
@@ -74,7 +74,7 @@ In the **Attendees** field, start entering the name of each of the attendees for
     7.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d67837e254">
+</td></tr><tr><td id="d82905e254">
 
 **Create a custom event**
 
@@ -94,7 +94,7 @@ In the **Attendees** field, start entering the name of each of the attendees for
 9.  In the **Select Incident** field, select an incident you want to associate with this event.
 
 
-</td></tr><tr><td id="d67837e329">
+</td></tr><tr><td id="d82905e329">
 
 **Create a work shift**
 

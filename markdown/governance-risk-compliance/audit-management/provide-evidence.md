@@ -7,7 +7,7 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Evidence request workflow, Audit evidence request, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_grc.business\_user
 
 ## About this task
 
-When the assignee receives the email to provide the requested evidence, the assignee can either provide the requested evidence or reassign the request to another user. The assignee can also add approvers before sending the requested evidence to ensure additional security of the evidence. If the assignee reassigns the request to some other user, the original assignee can no longer view the request. If the evidence provided does not need an approver, then the assignee can directly request a review of the evidence, and the requester gets a notification to review the evidence.
+When the assignee receives the email to provide the requested evidence, the assignee can either provide the requested evidence or reassign the request to another user. The assignee can also add approvers before sending the requested evidence to ensure additional security of the evidence. If the assignee reassigns the request to some other user, the original assignee can no longer view the request. If the evidence provided does not need an approver, the assignee can directly request a review of the evidence. The requester gets a notification to review the evidence.
 
 ## Procedure
 

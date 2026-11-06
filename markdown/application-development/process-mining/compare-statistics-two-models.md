@@ -1,0 +1,45 @@
+---
+title: Compare statistics and transitions between two projects
+description: Compare records, routes, average case duration, and transitions of two side-by-side projects.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/process-mining/compare-statistics-two-models.html
+release: australia
+product: Process Mining
+classification: process-mining
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Comparing projects, Analyzing and getting process insights, Use, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Compare statistics and transitions between two projects
+
+Compare records, routes, average case duration, and transitions of two side-by-side projects.
+
+## Before you begin
+
+Role required: none
+
+## Procedure
+
+1.  Expand the Bottleneck Analysis table in either project and select the combine/split icon \(\[Omitted image "combine-split-icon.png"\] Alt text: Split icon\) to show statistics or transitions for both projects in a combined table.
+
+    \[Omitted image "compare-model-stats.gif"\] Alt text: Compare model statistics
+
+    The combined statistics table shows the number of records and routes, and average case duration statistics for each project, as well as the differential statistics between them.
+
+    \[Omitted image "combined-model-statistics.png"\] Alt text: Combined model statistics
+
+    The combined Transitions table shows a side-by-side view of the **Overall Transitions** or **State Transitions** you specify to display for each project. Enable the **Mirror transition type** toggle to automatically show both projects with the same transition type and metrics. Disable the toggle to be able to select different transition types and metrics between the projects.
+
+    \[Omitted image "combined-transitions.png"\] Alt text: Combined transitions
+
+2.  To reposition each project's statistics table back into their corresponding maps, select the split icon \(\[Omitted image "combine-split-icon.png"\] Alt text: Split icon\).
+
+
+## What to do next
+
+When you're finished reviewing from the comparison view, select the Stop comparison view icon \(\[Omitted image "stop-comparison-mode.png"\] Alt text: Stop comparison view\) of the project you want to stop viewing. The remaining project shows as the main view with any filters you've applied.
+
+**Parent Topic:**[Comparing projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/comparing-models.md)
+

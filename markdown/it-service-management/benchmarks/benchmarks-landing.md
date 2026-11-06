@@ -7,7 +7,7 @@ release: australia
 product: Benchmarks
 classification: benchmarks
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
@@ -18,7 +18,7 @@ The ServiceNow® Benchmarks application gives you instant visibility into your k
 
 ## Benchmarks overview
 
-This video provides you with an overview of Benchmarks.\[Omitted video\] Description: Benchmarks Overview
+This video provides you with an overview of Benchmarks. \[Omitted video\] Description: Benchmarks overview
 
 ## Get started
 

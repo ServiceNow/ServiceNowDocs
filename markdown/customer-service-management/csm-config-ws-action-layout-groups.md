@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-ws-action-layout-groups.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Front-line case page, Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -16,11 +16,11 @@ The **Create** action on the Front-line case page displays a list of available a
 
 ## Actions and action groups
 
-Workspace record pages include individual actions that users can take when working with forms, such as **Save** or **Discuss**. Action groups combine multiple actions in the same button, such as **Create**, which displays a drop-down list with the available actions.
+Configurable workspace record pages include individual actions that users can take when working with forms, such as **Save** or **Discuss**. Action groups combine multiple actions in the same button, such as **Create**, which displays a drop-down list with the available actions.
 
 Customers can configure these action groups and arrange the order of the actions in the list using customizable form action layout groups.
 
-Action groups are stored in the UX Form Actions Layout Group table \[sys\_ux\_form\_action\_layout\_group\]. The actions included in a group are displayed in the **Form actions in group** related list on the UX Form Actions Layout Group form and are stored in the Sys Ux M2m Action Layout Group Actions table \[sys\_ux\_m2m\_action\_layout\_group\_action\].
+Action groups are stored in the UX Form Actions Layout Group table \[sys\_ux\_form\_action\_layout\_group\]. The actions included in a group are displayed in the **Form actions in group** related list on the UX Form Actions Layout Group form. They are stored in the Sys Ux M2m Action Layout Group Actions table \[sys\_ux\_m2m\_action\_layout\_group\_action\].
 
 For more information about form action layout groups, see [Declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/declarative-actions-landing.md) in the [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) documentation.
 

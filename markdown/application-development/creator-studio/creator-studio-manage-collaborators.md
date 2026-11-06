@@ -7,9 +7,9 @@ release: australia
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Collaborate to build apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Collaborate to build apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Manage collaborators for an app in Creator Studio

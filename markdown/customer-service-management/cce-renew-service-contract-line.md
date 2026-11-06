@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/cce-renew-service-contract-line.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Customer management, Use, Customer Service Management]
 ---
@@ -29,7 +29,7 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  In the list view, navigate to **Contracts and Entitlements** &gt; **Customer Contracts**.
 
@@ -52,11 +52,14 @@ Role required:
 
 6.  Perform an early or late renewal on the customer contract line.
 
-    In early renewal, you can terminate the contract before the expiry date and create a new contract with the desired start date. For late renewal, you can renew expired contracts that are not renewed.
+    For an early renewal, you can terminate the contract before the expiry date and create a new contract with the new start date. For a late renewal, you can renew expired contracts that are not renewed.
 
     -   Select a date before the contract expiry date in the **Renew from** field to perform an early renewal. Two quote or order line items are created. One change order or quote line is created with the modified expiry date of the current service contract line. A new renewal quote or order line is created with the new start date.
     -   For an expired contract line, enter a new date to renew the service contract line in the **Start from** field. A new renewal quote or order line is created with a new start date.
     -   For a ramped contract line, select a date before the contract expiry date in the **Renew from** field to perform an early renewal. The contract line splits into two contract lines. One contract line has the early renewal end date that you selected and the second contract line has the original end date with State as **Canceled** and Quantity as **Zero**. The remaining segments are canceled and their quantities are zero.
+
+        **Note:** If a customer contract line is terminated before its end date, the status of that contract line is updated to **Canceled** after its end date. That early terminated customer contract line is excluded from the renewal workflow and any renewal quote line for that contract line is deleted.
+
 7.  After the order line items are fulfilled, set the status to **Completed**.
 
     A new customer contract line is created.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/add-custom-drilldown-event-saved-dv.html
 release: australia
 topic_type: task
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Add a drilldown event to a data visualization in UI Builder, Add a drilldown event to a report in UI Builder]
 breadcrumb: [Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]

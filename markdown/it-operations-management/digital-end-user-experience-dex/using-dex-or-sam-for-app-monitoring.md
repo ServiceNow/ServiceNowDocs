@@ -1,0 +1,68 @@
+---
+title: Using DEX or SAM for application monitoring
+description: You can monitor your application usage and performance with Software Asset Management \(SAM\) or Digital End-User Experience \(DEX\), depending on your organization's needs. SAM and DEX both use the Agent Client Collector \(ACC\).
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/using-dex-or-sam-for-app-monitoring.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Explore, Digital End-User Experience, IT Operations Management]
+---
+
+# Using DEX or SAM for application monitoring
+
+You can monitor your application usage and performance with Software Asset Management \(SAM\) or Digital End-User Experience \(DEX\), depending on your organization's needs. SAM and DEX both use the Agent Client Collector \(ACC\).
+
+DEX supports software metering through its integration with ACC and SAM. The following table helps you choose the appropriate application monitoring option for your organization.
+
+<table id="table_x5y_rkg_wfc"><thead><tr><th>
+
+Use case
+
+</th><th>
+
+DEX or SAM
+
+</th></tr></thead><tbody><tr><td>
+
+Monitor both performance and usage
+
+</td><td>
+
+DEX
+
+</td></tr><tr><td>
+
+Monitor usage only
+
+</td><td>
+
+SAM
+
+</td></tr><tr><td>
+
+Maximum number of applications monitored
+
+</td><td>
+
+DEXUp to 200 apps
+
+</td></tr><tr><td>
+
+Large-scale software metering
+
+</td><td>
+
+SAMScalable beyond 200 apps
+
+</td></tr></tbody>
+</table>For more information about application monitoring with DEX, see [Add an application for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/add-new-application.md).
+
+For more information about application monitoring with SAM, see the following:
+
+-   [Using push-based Discovery and SAM together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/using-enhanced-discovery-and-sam-together.md)
+-   [SaaS detection report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/shadow-saas-analytics.md)
+

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/phase-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up the phases, Configure, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Set up the phases, General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Phase form
@@ -23,4 +23,6 @@ For description of the field values, see the table.
 |Name|Unique name of the phase. For example, Ready for preparation.|
 |Order|Unique order assigned to the phase. You can, however, manually adjust this order using inline editing if required, ensuring that the order remains unique across all phases.|
 |Active|Option to mark the phase as active or inactive.|
+
+**Parent Topic:**[Set up the phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-phases.md)
 

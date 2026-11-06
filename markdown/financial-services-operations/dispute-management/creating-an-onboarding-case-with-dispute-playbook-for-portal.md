@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Intake, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -36,9 +36,9 @@ Let's see how to create a disputes case from the dispute intake in portal. Perfo
 
 2.  Initiate a dispute.
 
-    Select the financial account to initiate a dispute. A series of questions need to be answered by the user to arrive at the category and reason code. Choose the disputed transaction from the list of transactions under the financial account and provide additional information to determine the dispute category by answering the questions. For more details on the various stages of activities, see [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/create-case-with-intake-workspace.md).
+    Select the financial account to initiate a dispute. A series of questions needs to be answered by the user to arrive at the category and reason code. Choose the disputed transaction from the list of transactions under the financial account and provide additional information to determine the dispute category by answering the questions. For more details on the various stages of activities, see [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/create-case-with-intake-workspace.md).
 
-    **Note:** If the dispute category is Fraud, select additional transactions from the transaction list if more than one transaction is being disputed.
+    **Note:** If the dispute category is enabled for multiple transaction selection, select additional transactions from the transaction list.
 
 3.  Fill out the dispute questionnaire.
 

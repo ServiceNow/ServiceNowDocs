@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-qim-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Reference, Manufacturing Commercial Operations]
 ---
 
@@ -28,8 +28,8 @@ The CoPQ planned line charge form contains fields for defining planned costs on 
 The corrective action form enables you to add the details for PQI.
 -   **[Correction actions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-correction-actions-form.md)**  
 The Correction action form enables you to enter the correction action details for the issue.
--   **[Part requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-part-requirement-form.md)**  
-Create a part requirement to include fields for part model, required quantity, reserved quantity, and delivery status for a work order task.
+-   **[Effectiveness target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-qualitative-targets-form.md)**  
+The Qualitative targets form enables you to add the qualitative target details, such as name, goal, progress, ownership, and target values.
 -   **[Preventive action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-preventive-action-form.md)**  
 The preventive action form captures the remediation plan, cost, priority, and status details for a quality issue \(QI\).
 -   **[Report a product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-report-a-product-non-conformance.md)**  
@@ -50,6 +50,10 @@ Root cause analysis task form enables you to enter the root cause of the product
 The stakeholders form enables you to add the stakeholder details involved in the issue.
 -   **[Work order form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/work-order-form.md)**  
 Create and track field service work orders for on-site correction, containment, or repair activities linked to a QIM record.
+-   **[Effectiveness goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-effectiveness-goal-form.md)**  
+The effectiveness goal form captures the fields used to track and measure a remediation action or action plan's outcome against defined targets.
+-   **[Supporting goals form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-supporting-goals-form.md)**  
+The Supporting goals form enables you to add the supporting goal details, such as name, parent goal, owner, start date, end date, and target review date.
 
 **Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/manufacturing-reference.md)
 

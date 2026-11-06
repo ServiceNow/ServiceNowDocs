@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Project export to Microsoft Project, Importing and exporting projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ The option for exporting the project data in MPP and CSV format is available whe
 
 1.  Export the project data from any of the following options.
 
-<table id="choicetable_jrq_jjk_jlb"><thead><tr><th align="left" id="d338661e86">
+<table id="choicetable_jrq_jjk_jlb"><thead><tr><th align="left" id="d351267e86">
 
 Location
 
-</th><th align="left" id="d338661e89">
+</th><th align="left" id="d351267e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d338661e95">
+</th></tr></thead><tbody><tr><td id="d351267e95">
 
 **From the Export module**
 
@@ -48,7 +48,7 @@ Steps
 2.  Select a project From the Project to export list and select **Export**.
 
 
-</td></tr><tr><td id="d338661e131">
+</td></tr><tr><td id="d351267e131">
 
 **From the Project form**
 
@@ -59,7 +59,7 @@ Steps
 3.  In the Project form, select **Export to MS Project** from the context menu.
 
 
-</td></tr><tr><td id="d338661e170">
+</td></tr><tr><td id="d351267e170">
 
 **From the Planning Console**
 

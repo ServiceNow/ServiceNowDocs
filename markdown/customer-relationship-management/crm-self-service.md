@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-self-service.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Relationship Management]
 ---

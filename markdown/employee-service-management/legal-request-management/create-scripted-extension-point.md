@@ -7,7 +7,7 @@ release: australia
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure legal storage system, Configure, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---

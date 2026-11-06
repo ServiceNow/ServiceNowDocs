@@ -1,5 +1,5 @@
 ---
-title: Enable Identity and Access Audit Tool
+title: Enable Identity and Access Audit tool
 description: Use Identity and Access Audit to track changes to user accounts, groups, and roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-enable-identity-and-access-audit-tool.html
@@ -7,12 +7,12 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Error handling and logging, Hardening settings, Platform Security]
 ---
 
-# Enable Identity and Access Audit Tool
+# Enable Identity and Access Audit tool
 
 Use Identity and Access Audit to track changes to user accounts, groups, and roles.
 
@@ -22,7 +22,7 @@ This tool stores audit records of successful create, update, and delete transact
 
 **Important:** Identity and Access Audit doesn’t audit successful read transactions, or any unsuccessful transactions.
 
-Ensure that the Identity Security Audit \(com.glide.security.audit\) plugin is installed. After the plugin is installed, ensure that the **glide.identity.security.audit.enabled** system property is set to `true`, or doesn’t exist in the System Properties \[sys\_properties\] table.
+Ensure that the Identity Security Audit \(**com.glide.security.audit**\) plugin is installed. After the plugin is installed, ensure that the **glide.identity.security.audit.enabled** system property is set to `true`, or doesn’t exist in the System Properties \[sys\_properties\] table.
 
 ## More information
 
@@ -40,8 +40,8 @@ Configuration name
 
 </td><td>
 
--   **com.glide.security.audit**
 -   **glide.identity.security.audit.enabled**
+-   **com.glide.security.audit**
 
 </td></tr><tr><td>
 

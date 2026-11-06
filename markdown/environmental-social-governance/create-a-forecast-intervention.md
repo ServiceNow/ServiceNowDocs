@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-a-forecast-intervention.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Set up analysis contexts and analyses, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -81,7 +81,7 @@ Choose an adjustment type absolute \(123\) or percentage \(%\) and enter the cor
 </td></tr></tbody>
 </table>5.  Select **Save**.
 
-    The updated parameters are used to simulate the calculation based on the updated values that were entered. The forecast graph shows the original standard forecast and the new adjusted forecast and the formula parameters for each are shown in the Formula parameters section.
+    The updated parameters are used to simulate the calculation based upon the updated values that were entered. The forecast graph shows the original standard forecast and the new adjusted forecast and the formula parameters for each are shown in the Formula parameters section.
 
 6.  Repeat the above until the new adjusted forecast and formula parameters meet your requirements.
 

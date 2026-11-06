@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
 breadcrumb: [CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ The CI Form feature is a centralized location with a comprehensive set of CI det
 
 General operations you can perform in CI Form:
 
--   Select the CI Summarization skill: Requires that ServiceNow Otto for CMDB is set up. For more information, see [Configure the CI summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-config-ci-summary.md).
+-   Select the CI Summarization skill: Requires that ServiceNow Otto® for CMDB is set up. For more information, see [Configure the CI summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-config-ci-summary.md).
 -   Select **Open map** to open the CI map in [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/cmdb-workspace-unified-map.md). This function isn't available for a non-operational CI. For information about using the **Life cycle stage** attribute to define a CI's operational state, see [Configure CIs to appear based on life cycle stage value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-confg-operational-state.md).
 
 In general, a CMDB Admin and a CMDB Editor can view and edit CI records, and a CMDB User can view CI details on the form.
@@ -45,7 +45,7 @@ You can control the use and content of CI Form as follows:
 
     -   Select **Configure attributes** to modify the Summary and Attributes sections on the form, in Form Builder. For example, to add sections, modify section titles or the attributes included in sections: Requires the personalize\_form user role.
 
-        For more information about Form Builder and Table Builder, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-view-configuration.md) and [Add fields to a form layout in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-form-fields.md).
+        For more information about Form Builder and Table Builder, see  and .
 
     -   Select **Configure resources** to modify the Resources section on the form. For example, to add or remove subsections or items within subsections: Requires the personalize\_list user role.
 
@@ -58,7 +58,7 @@ Several key attributes are preconfigured to be highlighted on a CI form when spe
 
 To see those preconfigured highlight records that are used in CI Form and in various other CMDB Workspace features, navigate to **All** &gt; **Workspace Experience** &gt; **Administration** &gt; **Highlighted Values**.
 
-For more information about configuring attribute highlights in the ServiceNow AI Platform, see [Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/highlight-list-fields-platform.md).
+For more information about configuring attribute highlights in the ServiceNow AI Platform, see .
 
 ## Summary
 
@@ -158,7 +158,13 @@ This section shows related items such as open incidents and the activity stream 
     In this tab, you can:
 
     -   Select a chart to drill down to the records associated with different chart sections. Depending on configuration, records open in CMDB Workspace or in another workspace.
-    -   Configure the list of tables for which charts appear, which is stored in the Explore CI Related Item Configurations \[sn\_cmdb\_ws\_explore\_ci\_related\_item\_config\] table. You can add records to that table, or modify behavior settings such as where a record opens when selected: Requires the sn\_cmdb\_ws.config\_editor role.
+
+        Requires the itil user role.
+
+    -   Configure the list of tables for which charts appear, which is stored in the Explore CI Related Item Configurations \[sn\_cmdb\_ws\_explore\_ci\_related\_item\_config\] table. You can add records to that table, or modify behavior settings such as where a record opens when selected.
+
+        Requires the sn\_cmdb\_ws.config\_editor role.
+
     -   Configure your preferences for which of the available charts appear when you log in. Select the Related Item Settings icon in the Related Items tab and in the Related item settings dialog box, select any charts that you prefer to hide.
 -   **CI history**
 

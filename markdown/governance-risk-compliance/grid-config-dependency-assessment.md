@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grid-config-dependency-assessment.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [BCM in the Classic Workspace, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -13,6 +13,8 @@ breadcrumb: [BCM in the Classic Workspace, Configure, Business Continuity Manage
 # Grid configuration in BIA dependency assessment
 
 Grid configuration for column display helps you to capture specific columns in the dependency grid that corresponds to an element.
+
+A grid configuration defines which columns and fields appear in the dependency grid of a Business Impact Analysis \(BIA\) dependency assessment. The dependency grid lists the assets, configuration items, locations, or third-party suppliers that a critical business process depends on. It groups them so that evaluators can review the components supporting that process. Configuring the grid ensures that planners and managers see the asset attributes relevant to each dependency type, such as criticality. This visibility helps them set recovery time objectives \(RTO\) and recovery point objectives \(RPO\).
 
 Set up these configurations to display the desired columns in each dependency group grid by selecting the fields from the configuration table.
 

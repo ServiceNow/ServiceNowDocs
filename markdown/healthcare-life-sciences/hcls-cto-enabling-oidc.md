@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcls-cto-enabling-oidc.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Embed Care Team Portal in Epic, Configure, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
 ---

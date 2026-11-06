@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -52,7 +52,7 @@ Site A
 
 </td><td>
 
-Originating network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [febcfe12194eeb91c09e3996e78edd4ed1efeb0b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
+Originating network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [be43dd816efb936e2eb2535d35766c61b2d804a6.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Site Z
 
 </td><td>
 
-Destination network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [febcfe12194eeb91c09e3996e78edd4ed1efeb0b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
+Destination network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [be43dd816efb936e2eb2535d35766c61b2d804a6.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
 
 </td></tr></tbody>
 </table>**Related topics**  

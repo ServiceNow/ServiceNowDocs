@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prepare-to-run-amazon-s3-collector.html
 release: australia
 topic_type: task
-last_updated: "2026-06-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Amazon S3, metadata collector, IAM user, access key, credentials, permissions]
 breadcrumb: [Amazon S3 metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]

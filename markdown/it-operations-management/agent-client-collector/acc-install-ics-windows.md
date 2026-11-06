@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Installing MID-less ACC, Configuring MID-less ACC, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -25,7 +25,7 @@ Install MID-less Agent Client Collector on a Windows machine to enable sending d
 
 ## About this task
 
-For details on sending data through the cloud in a MID-less deployment, see [DEX Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dex-architecture.md).
+For details on sending data through the cloud in a MID-less deployment, see [DEX architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-architecture.md).
 
 ## Procedure
 

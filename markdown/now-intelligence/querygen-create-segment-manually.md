@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/querygen-create-segment-manually.html
 release: australia
 topic_type: task
-last_updated: "2026-04-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [manual segments, query generation, semantic layer, saved searches]
 breadcrumb: [Segments, Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -65,7 +65,7 @@ Follow these guidelines when creating segment names and descriptions:
 
     |Field|Description|
     |-----|-----------|
-    |Table Name|The table \(entity\) the segment applies to. Must have an active entity in the semantic layer. The system looks for the entity table first, then the segment within that table.|
+    |Entity|The table \(entity\) the segment applies to. Must have an active entity in the semantic layer. The system looks for the entity first, then the segment within that table.|
     |Name|User-friendly name describing the segment in plain language a user would use when asking a question. Use the same language a user would use when asking a question. Avoid abbreviations, internal codes, or technical jargon. Maximum 255 characters. Examples: "Critical Open Incidents" \(good\) instead of "P1\_OPEN\_INC" \(poor\), "Active Benefits HR Cases" \(good\) instead of "HR Cases — Active, Cat=Benefits" \(poor\).|
     |Description|Optional but strongly recommended. Gives the LLM additional context to decide whether a segment is relevant. Use commonly-used terms and explain what the segment captures. Helps disambiguate similar segments. Maximum 4,000 characters. Example: "High priority incidents that are currently open and unresolved. Includes all assignment groups. Useful for executive dashboards and escalation reporting." \(good\) instead of "Filters for priority 1." \(poor\).|
     |Filter|Encoded query defining the segment's filter conditions. Uses the condition builder \(v2\). Maximum 4,000 characters, although filters longer than 2,000 characters may be truncated in the LLM prompt.|
@@ -84,8 +84,8 @@ The manual segment is active and available for Query Generation searches.
 
 The following examples show well-crafted manual segments for the `incident` table:
 
-|Name|Description|Table|Filter|
-|----|-----------|-----|------|
+|Name|Description|Entity \(Table\)|Filter|
+|----|-----------|----------------|------|
 |Critical Open Incidents|High priority incidents that are currently open and unresolved. Includes all assignment groups.|`incident`|`priority=1^state!=7^state!=8`|
 |My Team's Overdue Incidents|Incidents assigned to the current user's group that have passed their SLA due date.|`incident`|`assignment_group=javascript:getMyGroups()^sla_due<javascript:gs.nowDateTime()^state!=7`|
 |Recent P1 and P2 Escalations|Priority 1 and 2 incidents escalated in the last 7 days.|`incident`|`priority<=2^escalation=1^sys_updated_on>=javascript:gs.daysAgoStart(7)`|

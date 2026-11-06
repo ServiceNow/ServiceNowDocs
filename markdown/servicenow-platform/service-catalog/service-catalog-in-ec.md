@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,8 +20,8 @@ ServiceNow® Employee Center provides a single and unified portal experience for
 
 To enable Service Catalog on the Employee Center portal, ensure you've the following ServiceNow applications and plugins installed:
 
--   [Employee Center plugin \(sn\_ex\_sp\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/activate-ec.md)
--   [Employee Experience Taxonomy plugin \(sn\_ect\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/config-taxonomy.md)
+-   Employee Center plugin \(sn\_ex\_sp\)
+-   Employee Experience Taxonomy plugin \(sn\_ect\)
 
 ## IT taxonomy on Employee Center
 

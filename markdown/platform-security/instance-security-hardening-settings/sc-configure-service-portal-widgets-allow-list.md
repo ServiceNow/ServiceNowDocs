@@ -1,22 +1,22 @@
 ---
-title: Configure Service Portal Widgets Allow List
-description: Learn how to configure the glide.service\_portal.widget.allow\_list property securely so that the access control lists \(ACLs\) for the tables do not expose sensitive information.
+title: Configure service portal widgets allow list
+description: Learn how to configure the glide.service\_portal.widget.allow\_list property securely so that the access control lists \(ACLs\) for the tables don't expose sensitive information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-configure-service-portal-widgets-allow-list.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Configure Service Portal Widgets Allow List
+# Configure service portal widgets allow list
 
-Learn how to configure the glide.service\_portal.widget.allow\_list property securely so that the access control lists \(ACLs\) for the tables do not expose sensitive information.
+Learn how to configure the glide.service\_portal.widget.allow\_list property securely so that the access control lists \(ACLs\) for the tables don't expose sensitive information.
 
-The **glide.service\_portal.widget.allow\_list** system property determines the list of widgets that are allowed to attempt to access any table on the instance. ACLs for those tables will still be enforced. If there are misconfigured empty ACLs on tables on the instance, widgets in this list may allow access to those tables, leading to information disclosure. This property is only enforced if the widget makes use of SNCACLWidgetUtil, and the property **glide.service\_portal.widget.enforce\_public\_check** is set to '**true**.
+The **glide.service\_portal.widget.allow\_list** system property determines the list of widgets that are allowed to attempt to access any table on the instance. ACLs for those tables will still be enforced. If there are misconfigured empty ACLs on tables on the instance, widgets in this list allow access to those tables, leading to information disclosure. This property is only enforced if the widget makes use of SNCACLWidgetUtil, and the property **glide.service\_portal.widget.enforce\_public\_check** is set to '**true**.
 
 Ensure that the **glide.service\_portal.widget.allow\_list** system property has an empty value empty or does not exist.
 
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+''
 
 </td></tr><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/create-PE-cryptographic-module.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -28,9 +28,11 @@ This procedure describes options that are available with Field Encryption with t
 
 2.  Enter the module name and select the algorithm.
 
+    \[Omitted image "fe-create-crypto-module.png"\] Alt text: Shows new crypto module creation.
+
 3.  Select **Create**.
 
-4.  Select **Submit**.
+4.  Click **Submit**.
 
     After submitting successfully, your cryptographic module is listed in the Field Encryption modules overview.
 
@@ -44,9 +46,9 @@ This procedure describes options that are available with Field Encryption with t
 
     A default cryptographic specification is created with the crypto purpose set to Symmetric Data Encryption/Decryption and the algorithm as AES 256 CBC. Select the algorithm for updates.
 
-5.  To open the configuration options, select the newly created cryptographic module.
+5.  To open the configuration options, click the newly created cryptographic module.
 
-    **Note:** A maximum of five Field Encryption fields are allowed before upgrading to Field Encryption Enterprise. An error message displays and you're prevented from adding additional cryptographic modules. \[Omitted image "cle\_limits-modules.png"\] Alt text: Error message for maximum modules created in FEE.
+    **Note:** A maximum of five Field Encryption fields are allowed before upgrading to Field Encryption Enterprise. An error message displays and you are prevented from adding additional cryptographic modules. \[Omitted image "cle\_limits-modules.png"\] Alt text: Error message for maximum modules created in FEE.
 
 
 ## Result
@@ -66,7 +68,7 @@ After submitting successfully, your cryptographic module is listed on the Field 
 
 To open the configuration options, click the newly created cryptographic module.
 
-**Note:** A maximum of five Field Encryption fields are allowed before upgrading to Field Encryption Enterprise. A message displays at the top stating the allowance and the number of encrypted fields that you currently have is listed. Once that maximum allowance is met, the **Create new** button is grayed out and you're prevented from adding additional cryptographic modules.
+**Note:** A maximum of five Field Encryption fields are allowed before upgrading to Field Encryption Enterprise. A message displays at the top stating the allowance and the number of encrypted fields that you currently have is listed. Once that maximum allowance is met, the **Create new** button is grayed out and you are prevented from adding additional cryptographic modules. \[Omitted image "fe-efc-limit.png"\] Alt text: Shows encrypted fields limit reached.
 
 [Create a cryptographic specification for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/create-crypto-spec-pe.md).
 

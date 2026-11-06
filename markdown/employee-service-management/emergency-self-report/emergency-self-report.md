@@ -7,9 +7,9 @@ release: australia
 product: Emergency Self Report
 classification: emergency-self-report
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Emergency Response Management, Employee Service Management]
+breadcrumb: [Emergency Response Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Emergency Self Report
@@ -125,5 +125,5 @@ As a crisis task administrator, upload a spreadsheet of self-reported health sta
 -   **[Domain separation for Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-self-report/emergency-self-report-domain-separation.md)**  
 The following table lists the domain separation use cases for service providers \(SPs\) using this application.
 
-**Parent Topic:**[Emergency Response Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/emergency-response-management.md)
+**Parent Topic:**[Emergency Response Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-service-delivery/emergency-response-management.md)
 

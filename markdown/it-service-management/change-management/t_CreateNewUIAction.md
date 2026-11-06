@@ -7,9 +7,9 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tutorial: add a new change management state, Reference, Change Management, IT Service Management]
+breadcrumb: [Tutorial: Add a new change management state, Reference, Change Management, IT Service Management]
 ---
 
 # Create a UI action
@@ -32,7 +32,7 @@ The UI action must contain a condition that uses the state model script include 
 
 3.  Locate and open the existing **Implement** UI action.
 
-4.  Open the form context menu and click **Insert and Stay** to create a duplicate record.
+4.  Open the form context menu and select **Insert and Stay** to create a duplicate record.
 
 5.  Modify the following fields with new values.
 
@@ -112,10 +112,10 @@ function moveToComplete(){
 .
 
 </td></tr></tbody>
-</table>6.  Click **Update**.
+</table>6.  **Update**.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: Add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)
 
 **Previous topic:**[Update the state model script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_UpdateStateModelScriptInclude.md)
 

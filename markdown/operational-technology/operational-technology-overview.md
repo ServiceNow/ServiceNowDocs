@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 ---
 
@@ -120,7 +120,7 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
 -   For information on how to request and set up Operational Technology, see
     -   [Configuring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-operational-technology-manager.md)
     -   [Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/configuring-na-otm.md)
-    -   [Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
+    -   [Configure the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
     -   [Configuring Operational Technology Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-vulnerability-response/configuring-oper-tech-vulnerability-response.md)
     -   [Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
     -   [Configure ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/configuring-now-assist-otsm.md)

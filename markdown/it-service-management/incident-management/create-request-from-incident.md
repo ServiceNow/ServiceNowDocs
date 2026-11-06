@@ -1,28 +1,28 @@
 ---
 title: Create a request from an incident
-description: When you work on an incident and determine that the user needs one or more catalog items, such as an application or a new laptop, you can create a request from the incident. It helps you in tracking the requests associated with an incident and vice versa.
+description: If a user needs catalog items such as an application or a laptop, create a request from the incident. Linking the request to the incident helps you track associated requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/create-request-from-incident.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
 
 # Create a request from an incident
 
-When you work on an incident and determine that the user needs one or more catalog items, such as an application or a new laptop, you can create a request from the incident. It helps you in tracking the requests associated with an incident and vice versa.
+If a user needs catalog items such as an application or a laptop, create a request from the incident. Linking the request to the incident helps you track associated requests.
 
 ## Before you begin
 
 Role required: itil or sn\_incident\_write
 
-The Best Practice - Incident Resolution Workflow plugin \(com.snc.bestpractice.incident\) should be active for creating a request from an incident. To associate a parent incident with the request created for a record producer, the catalog\_admin should add the following script in the script block of the record incident.
+The Best Practice - Incident Resolution Workflow plugin \(com.snc.bestpractice.incident\) must be active to create a request from an incident.
 
-To associate a parent incident with the request created for a record producer, the administrator should add the following script in the script block of the record producer:
+To associate a parent incident with the request created for a record producer, the following script must be added to the script block of the record producer:
 
 ```
 var incRPUtil = new LinkRecordProducerToIncident();
@@ -40,7 +40,7 @@ incRPUtil.linkRecordProducerToParentIncident(RP.getParameterValue('sysparm_req_p
 
 2.  Select the required open incident.
 
-3.  Click the additional actions menu icon \[Omitted image "AdditionalActions.png"\] Alt text: Additional actions menu icon. and select **Create Request**.
+3.  Select the Additional actions icon \[Omitted image "AdditionalActions.png"\] Alt text: and select **Create Request**.
 
     The Catalogs home page is displayed with all active catalogs that you can access.
 
@@ -57,6 +57,6 @@ incRPUtil.linkRecordProducerToParentIncident(RP.getParameterValue('sysparm_req_p
     **Note:**
 
     -   The associated incident is specified in the annotation message throughout the request process.
-    -   Both for the one-step and two-step checkout, the caller of the incident is automatically set as the **Requested For** user for the request. If the two-step checkout is enabled, the fulfiller can change the **Requested For**.
-    -   You cannot add items to the wish list, or save a record producer in this flow.
+    -   For both one-step and two-step checkout, the caller of the incident is automatically set as the **Requested For** user for the request. If the two-step checkout is enabled, the fulfiller can change the **Requested For**.
+    -   You can't add items to the wish list or save a record producer in this flow.
 

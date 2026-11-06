@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -47,15 +47,15 @@ You can do these actions by using the ServiceNow Otto icon:
 
 4.  In the chat message window, either type a response, or leave blank, and then select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d410533e186">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d409354e174">
 
 Chat message window
 
-</th><th align="left" id="d410533e189">
+</th><th align="left" id="d409354e177">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d410533e197">
+</th></tr></thead><tbody><tr><td id="d409354e185">
 
 **Typed response**
 
@@ -67,7 +67,7 @@ Provides the option to refine your response:
 -   Shorten
 
 
-</td></tr><tr><td id="d410533e217">
+</td></tr><tr><td id="d409354e205">
 
 **Left blank**
 

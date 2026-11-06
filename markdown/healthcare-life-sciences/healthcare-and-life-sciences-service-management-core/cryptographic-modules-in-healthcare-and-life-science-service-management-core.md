@@ -7,7 +7,7 @@ release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Reference, Healthcare and Life Sciences Service Management Core, He
 # Cryptographic Modules in Healthcare and Life Science Service Management Core
 
 Healthcare and Life Sciences Service Management Core contains the following cryptographic modules.
+
+This requires Field Encryption activated in your instance. For more information, see Activate Field Encryption.
 
 ## sn\_hcls.clinical\_data
 

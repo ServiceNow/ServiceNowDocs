@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-create-outcome.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a success blueprint manually, Create a success blueprint, Manage engagements, Customer success, Use, Customer Success Management]
 ---
@@ -24,7 +24,7 @@ Primary success outcomes are measurable components of success objectives. Theyâ€
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to the **Customer Success** &gt; **All Outcomes** and select **New**.
 

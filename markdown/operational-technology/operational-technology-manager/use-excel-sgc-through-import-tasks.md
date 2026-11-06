@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -22,7 +22,7 @@ Users assigned the OT Excel Import User \[ot\_excel\_import\_user\] role can cre
 
 -   Upload the populated Microsoft Excel spreadsheet into staging table.
 -   Validate the staging records created from the Microsoft Excel spreadsheet.
--   Import the valid staging records into the CMDB from the Industrial Workspace.
+-   Import the valid staging records into the CMDB.
 -   Optionally, create remediation tasks for invalid staging records.
 
 -   **[Create an import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/create-import-task-excel-sgc.md)**  

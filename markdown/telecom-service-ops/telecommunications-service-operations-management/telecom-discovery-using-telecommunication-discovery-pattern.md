@@ -7,8 +7,8 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
 
@@ -47,6 +47,21 @@ Telecommunications Discovery Patterns are executed through Horizontal Discovery 
 The discovery logic follows the TNI data model, which restructures complex CI relationships \(e.g., card-on-card scenarios\) to align with telecom modeling best practices. For example, If a child card is discovered inside a parent card, Telecom Discovery synthesizes a subslot to insert the child, avoiding an invalid card-on-card configuration.
 
 For every discovered network interface, both logical \(such as VLANs\) and physical \(such as Gigabit Ethernet ports\), Telecom Discovery sets the Equipment reference field to the parent equipment. This applies even when the underlying port resides on a card or on a card within a card. The interface's relationship to that card is captured separately in the CI relationship hierarchy. The Equipment reference field consistently resolves to the parent equipment. This alignment follows the TNI data model.
+
+## Discovery payload cleanup before reconciliation
+
+Before sending discovered data to the Identification and Reconciliation Engine \(IRE\), Telecom Discovery Patterns clean up two common data issues:
+
+-   **Duplicate interface cards.** If two interface cards report the same serial number, Telecom Discovery keeps only the card with more discovered sub-components \(such as ports or subslots\). It removes the other card, along with anything discovered underneath it. If both cards have the same number of sub-components, the pattern keeps whichever card it discovered first.
+-   **Missing containment relationships.** If a discovered network interface, slot, or subslot isn't already linked to its parent router or switch, Telecom Discovery automatically adds that containment relationship. This happens before the data reaches IRE.
+
+Both of these actions are recorded in the discovery log, so you can confirm whether a device's structure was adjusted during discovery.
+
+## Default life cycle values for discovered CIs
+
+When Telecom Discovery Patterns create or update a CI, they set default life cycle values. The **Life cycle stage** is set to **Operational** and the **Life cycle stage status** is set to **In Use**. Your instance customizations can return different values. Discovery doesn't overwrite either field if it's already set.
+
+If you use life cycle fields to distinguish newly discovered, not-yet-provisioned equipment from equipment already in production, confirm this default matches your operational process before relying on it.
 
 ## Architecture using Horizontal Discovery and Telecommunications Discovery Patterns
 

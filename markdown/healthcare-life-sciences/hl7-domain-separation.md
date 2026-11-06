@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hl7-domain-separation.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [domain separation, HL7 v2.x Integration]
 breadcrumb: [HL7 v2.x Integration, Healthcare Integrations, Healthcare and Life Sciences]

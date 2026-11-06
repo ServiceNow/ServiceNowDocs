@@ -1,20 +1,20 @@
 ---
 title: An overview of alerts for Event Management operators
-description: Understand how alerts are generated from events, what to look for in an alert, and how alerts can be grouped together.
+description: As an Event Management operator, understand how alerts are generated from events, what to look for in alerts, and how alerts are grouped.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/operator-events-alerts.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # An overview of alerts for Event Management operators
 
-Understand how alerts are generated from events, what to look for in an alert, and how alerts can be grouped together.
+As an Event Management operator, understand how alerts are generated from events, what to look for in alerts, and how alerts are grouped.
 
 This is the first lesson in the Event Management tutorial.
 
@@ -71,7 +71,7 @@ Lesson 4
 
 \[Omitted image "operator-event-management-overview.png"\] Alt text: An operator view of Event Management
 
-As an Event Management operator, your role is to view alerts. Depending on how Event Management is implemented in your organization, take an action to help resolve the underlying issue or notify someone who can. You will see the phases of a typical alert management process later in this tutorial.
+As an Event Management operator, your role is to view alerts. Depending on how Event Management is implemented in your organization, take an action to help resolve the underlying issue or notify someone who can. Later in this tutorial, you will see the phases of a typical alert management process.
 
 ## Alert priority and severity
 
@@ -140,7 +140,7 @@ The alert no longer needs action.
 </table>
 ## Correlated alerts
 
-Some alerts are related to each other. For example, if a router goes down, several separate alerts could be generated, one for each server connected to the router. All of these alerts are related, or correlated. To help you manage correlated alerts, Event Management can automatically group them and establish a two-level hierarchy. One root alert, called the primary alert, appears at the top. Other related alerts, called secondary alerts, appear under the primary alert. When you view alerts, primary alerts stand out by default so you know which alert to focus on without being distracted by the secondary alerts.
+Some alerts are related to each other. For example, if a router goes down, several separate alerts could be generated, one for each server connected to the router. All of these alerts are related, or correlated. To help you manage correlated alerts, Event Management can automatically group them and establish a two-level hierarchy. One root alert, called the primary alert, appears at the top, and other related alerts, called secondary alerts, appear under the primary alert. When you view alerts, primary alerts stand out by default so you know which alert to focus on without being distracted by the secondary alerts.
 
 In our example, if a router goes down on your network, network communication is also affected for connected servers, assuming they cannot reach any other routers. The router outage becomes the primary alert and the alerts generated on the server are secondary alerts that are correlated under the router alert.
 

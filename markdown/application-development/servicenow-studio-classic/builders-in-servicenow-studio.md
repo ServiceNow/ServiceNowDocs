@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Builders in ServiceNow Studio
@@ -26,7 +26,7 @@ For a full list of the builders integrated in ServiceNow Studio, see [Integrated
 
 Decision tables and most other automation file types open in new tabs within ServiceNow Studio.
 
-\[Omitted image "sn-studio-builder-dt-as1.png"\] Alt text: Decision tables open in the Workflow Studio builder.
+\[Omitted image "sn-studio-builder-dt-bs1.png"\] Alt text: Decision tables open in the Workflow Studio builder in ServiceNow Studio.
 
 Mobile App Builder opens in a new browser tab.
 

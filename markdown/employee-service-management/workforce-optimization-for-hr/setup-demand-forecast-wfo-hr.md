@@ -7,9 +7,9 @@ release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Setting up Demand Forecast in Workforce Optimization for HR
@@ -32,9 +32,9 @@ Adjust forecasts manually to fine-tune them for greater accuracy. Create the adj
 
 [Workforce Optimization for HR Domain Separation]()
 
-[Configure Scheduling for Workforce Optimization for HR]()
+[Setting up Scheduling for Workforce Optimization for HR]()
 
-[Configure Teams in Workforce Optimization for HR]()
+[Setting up Teams in Workforce Optimization for HR]()
 
-[Configure Coaching in Workforce Optimization for HR]()
+[Setting up Coaching in Workforce Optimization for HR]()
 

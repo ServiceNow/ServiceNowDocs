@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-trm-technical-debt-states.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [technical debt, state]
 breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]

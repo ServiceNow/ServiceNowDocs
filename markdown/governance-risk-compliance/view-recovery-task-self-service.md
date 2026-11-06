@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/view-recovery-task-self-service.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Structured workflows for Exercise and Crisis Management, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_bcm.recovery\_team\_member
 
 6.  To add any notes to the event task activity, click the Activity related list and add the information in the **Work notes** field.
 
-7.  To update the task to **In progress**, click the **Work in Progress** button.
+7.  To update the task to in progress **State** field, click the **Work in Progress** button.
 
 8.  To close the task, click either **Close Complete** or **Close Incomplete** button.
 

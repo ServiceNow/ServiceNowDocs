@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -79,15 +79,15 @@ If you’re using Software Asset Workspace, the option to create the Workfront i
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d150059e377">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d151897e377">
 
 Interface
 
-</th><th align="left" id="d150059e380">
+</th><th align="left" id="d151897e380">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d150059e386">
+</th></tr></thead><tbody><tr><td id="d151897e386">
 
 **Core UI**
 
@@ -98,7 +98,7 @@ Action
 3.  Select **Workfront Integration Profile**.
 
 
-</td></tr><tr><td id="d150059e428">
+</td></tr><tr><td id="d151897e428">
 
 **Software Asset Workspace**
 
@@ -267,7 +267,7 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
@@ -275,7 +275,7 @@ Review all automatically generated reclamation rules to reclaim user subscriptio
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

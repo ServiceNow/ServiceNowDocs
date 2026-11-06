@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -38,7 +38,7 @@ Resource
 
 </td><td>
 
-Get the Software Asset Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) or [Install Software Asset Management from the Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/install-sam-product-hub.md).**Important:** Product Hub and Configuration Console are available starting from Australia Patch 7.
+Get the Software Asset Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) or [Install Software Asset Management from the Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/install-sam-product-hub.md).
 
 </td><td>
 
@@ -80,6 +80,8 @@ Configure the ServiceNow Otto for Software Asset Management \(SAM\) application 
 When migrating from the Software Asset Management plugin \(ITSM Software Asset Management feature of Asset Management\) to the Software Asset Management application, further actions are required by the customer after plugin activation to ensure successful migration of customized forms and lists.
 -   **[Configure SCCM for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-sccm-sam.md)**  
 Set up Microsoft SCCM for Software Asset Management to populate the Software Installation \[cmdb\_sam\_sw\_install\] table with client software found in your environment. You can also set up SCCM for Client Software Distribution to reclaim unused and underused software.
+-   **[License exclusions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-asset-management-license-exclusions.md)**  
+Exclude software on specific configuration items or subscriptions from license calculations, so only the items you choose count toward compliance.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

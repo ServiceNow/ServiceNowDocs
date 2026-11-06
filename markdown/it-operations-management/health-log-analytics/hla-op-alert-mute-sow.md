@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assign higher or lower significance to an alert, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -44,11 +44,6 @@ When you mute an alert that is based on the keyword metric or the pattern severi
 
     If you no longer want the muted alert to be treated specially, you can restore normal significance to the alert metric. For more information, see [Restore normal importance to an alert metric in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-restore-user-defined-sow.md).
 
-
--   **[View the list of muted metrics in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-view-ignored-list.md)**  
-View the list of metrics that were muted so that they no longer generate alerts.
-
-**Parent Topic:**[Assign higher or lower significance to an alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-significance.md)
 
 **Related topics**  
 

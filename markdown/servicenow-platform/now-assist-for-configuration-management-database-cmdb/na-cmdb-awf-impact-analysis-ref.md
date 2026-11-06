@@ -1,13 +1,13 @@
 ---
 title: CMDB impact analysis agentic workflow details
-description: Reference information for the Assess CMDB impact agentic workflow, including input modes, output schema, supported record types, workflow tools, and constraints.
+description: Reference information for the Impact analysis agentic workflow, including input modes, output schema, supported record types, workflow tools, and constraints.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.html
 release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [impact analysis, reference, API, schema, CMDB, ServiceNow Otto for CMDB]
 breadcrumb: [Reference, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -15,13 +15,13 @@ breadcrumb: [Reference, ServiceNow Otto for Configuration Management Database \(
 
 # CMDB impact analysis agentic workflow details
 
-Reference information for the Assess CMDB impact agentic workflow, including input modes, output schema, supported record types, workflow tools, and constraints.
+Reference information for the Impact analysis agentic workflow, including input modes, output schema, supported record types, workflow tools, and constraints.
 
-**Note:** The Assess CMDB impact agentic workflow is deactivated by default. Activate it from Agentic Solutions before use, as described in [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md).
+**Note:** The Impact analysis agentic workflow is deactivated by default. Activate it from Agentic Solutions before use, as described in [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md).
 
 ## Role requirements
 
-Access to the Assess CMDB impact agentic workflow requires the `itil` role to perform the following actions:
+Access to the Impact analysis agentic workflow requires the `itil` role to perform the following actions:
 
 -   Read CMDB CI records and CI relationship data
 -   Read change request and incident records
@@ -125,7 +125,7 @@ The workflow delegates to an agent that uses the following tools:
 
 ## Limitations
 
-The Assess CMDB impact agentic workflow considers only the semantics of CMDB topology. It does not include data on similar past changes, ongoing incidents, upcoming scheduled changes, or business context.
+The Impact analysis agentic workflow considers only the semantics of CMDB topology. It does not include data on similar past changes, ongoing incidents, upcoming scheduled changes, or business context.
 
 LLM reasoning accuracy depends on the richness and clarity of the change description provided. Short or vague descriptions produce lower-quality impact assessments.
 

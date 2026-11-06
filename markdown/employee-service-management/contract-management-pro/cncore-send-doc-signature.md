@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Contract signature]
 breadcrumb: [Signature workflow for a contract request, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -56,6 +56,8 @@ Role required: sn\_cm\_core.contract\_user
 The document is sent for signature to the specified signatories. The activity stream displays details of the contract document that is sent for signature.
 
 The contract request state and contract status updates to Awaiting signature. For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
+
+If the signing order of the signatories contains gaps, the signing order is updated automatically so that the sequence remains consistent. Gaps are adjusted for both electronic signature and wet signature. For more information, see [Modify the signing order for signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-set-signing-order.md).
 
 **Parent Topic:**[Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signature-workflow.md)
 

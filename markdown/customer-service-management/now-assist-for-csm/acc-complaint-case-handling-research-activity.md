@@ -20,7 +20,7 @@ Use the **Research AI agent** activity in the Research stage of the Case Playboo
 
 The **Research AI agent** activity embeds the Complaint Case Research AI agent directly into the Case Playbook for Complaints. It's the first activity displayed under the **Research** stage.
 
-By default, this activity is included in the playbook when the Complaint Case Research AI Agent trigger is inactive in the Accelerate Complaint Case Handling agentic workflow. For more information about the trigger, see [Configure AI Agents for CSM - Complaint Case workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.md). If you don't want to include this activity, you can edit the complaint playbook to remove it.
+By default, this activity is included in the playbook when the Complaint Case Research AI Agent trigger is inactive in the Accelerate Complaint Case Handling agentic workflow. For more information about the trigger, see [Configure the Accelerate Complaint Case Handling agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.md). If you don't want to include this activity, you can edit the complaint playbook to remove it.
 
 ## Before you begin
 

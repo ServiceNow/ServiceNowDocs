@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: reference
 last_updated: "2026-10-05"
-reading_time_minutes: 2
-breadcrumb: [AIOps and Leap AI agents, AIOps and AIOps Leap, AI agents library, AI assets, Enable AI experiences]
+reading_time_minutes: 1
+breadcrumb: [AIOps and Leap AI agents, AIOps and AIOps Leap, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Artifact creation agent AI agent
@@ -72,7 +72,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-Not defined.
+sn\_itom\_leap.leap\_genai\_worker
 
 </td></tr><tr><td>
 

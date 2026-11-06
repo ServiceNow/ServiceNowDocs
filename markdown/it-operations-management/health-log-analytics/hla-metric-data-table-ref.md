@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Health Log Analytics, HLA, Metric Data table, metric name, metric type, metric class, log source, metric record, meter, gauge]
 breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]

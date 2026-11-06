@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/integration-capabilities.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -14,9 +14,7 @@ breadcrumb: [Security Operations Integration Reference, Security Operations comm
 
 The Integration Capabilities framework provides a consistent architecture to support interoperability with third-party integrations. This abstracted interface and data model insulates integrations from changes to the core application and ensures a consistent experience for similar types of integrations.
 
-Each integration capability persists in the Integration Capability `[sn_sec_cmn_capability]` table. Integration capability flows cannot be executed alone, and require the launch of an implementation flow. Any plugin that provides an implementation of the capability adds their implementation to the child table: Integration Capability Implementation`[sn_sec_cmn_capability_implementation]`.
-
-**Note:** As of version 13.3.1 and later, integration capability settings are stored in the Capabilities `[sn_sec_cmn_capability]` table instead of the Integration Capability `[sn_sec_cmn_integration_capability]` table.
+Each integration capability persists in the Integration Capability `[sn_sec_cmn_integration_capability]` table. Integration capability flows cannot be executed alone, and require the launch of an implementation flow. Any plugin that provides an implementation of the capability adds their implementation to the child table: Integration Capability Implementation`[sn_sec_cmn_integration_capability_implementation]`.
 
 The implementation specifies the flow to be executed, the related integration \(plugin id\), and the capability it implements. These flows can be executed in parallel using the parallel flow launcher; however, sequential execution is the default in the base system. If needed, you can [change the order of execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/change-wf-execution-order.md).
 

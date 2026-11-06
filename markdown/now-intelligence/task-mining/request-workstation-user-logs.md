@@ -1,5 +1,5 @@
 ---
-title: Submit a data collection request
+title: Submit a data request
 description: Enable data collection for workstation users for a specific time range by completing a data request from the Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/task-mining/request-workstation-user-logs.html
@@ -7,12 +7,12 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Requesting workstation user data, Use, Task Mining, Platform Analytics]
 ---
 
-# Submit a data collection request
+# Submit a data request
 
 Enable data collection for workstation users for a specific time range by completing a data request from the Employee Center.
 
@@ -30,15 +30,15 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
 4.  |Field|Description|
 |-----|-----------|
-|Name|Name for the request.|
-|Description|Description for the request.|
+|Name|Name for the data request.|
+|Description|Description for the data request.|
 |Date from|Date to start collecting workstation user data.|
 |Date to|Optional date to stop collecting workstation user data.|
 |Workstation users|Name of the workstation users you want to collect workstation data from.|
 
 5.  Select **Request**.
 
-6.  On the confirmation form, select a user from the **Request for** menu to submit the request on behalf of another user.
+6.  On the confirmation form, select a user from the **Request for** menu to submit the data request on behalf of another user.
 
 7.  Select **Request**.
 
@@ -51,5 +51,5 @@ A data request goes to every manager of each workstation user for approval.
 
 If you are an approver, [Approve workspace user data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/approve-workspace-user-log-requests.md).
 
-If you want to track the progress of data log requests, see [Follow data request progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/manage-data-log-requests.md).
+If you want to track the progress of data requests, see [Follow data request progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/manage-data-log-requests.md).
 

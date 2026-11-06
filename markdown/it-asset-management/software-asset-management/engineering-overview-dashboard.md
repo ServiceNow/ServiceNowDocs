@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Platform Analytics Solution for Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Platform Analytics Solution for Software Asset Management classic, 
 
 Monitor and gain insights into your engineering applications license position and usage by viewing product usage reports in the Engineering License Overview dashboard.
 
-**Note:** The Engineering License Overview dashboard is no longer available for new Australia users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Australia without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Australia.
+**Note:** The Engineering License Overview dashboard is no longer available for new Brazil users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Brazil without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil.
 
--   If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Australia but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard.
+-   If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard.
 -   If you activated the Software Asset Workspace \(sn\_sam\_workspace\) store application after upgrading to Zurich, you won’t be able to access this dashboard from the **Software Asset** navigation menu in your instance. You can however access this dashboard from the **Dashboards** navigation menu.
 
 The Engineering License Overview dashboard displays reports on normalized products and publishers that belong to engineering applications such as AutoCAD, GIS.

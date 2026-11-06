@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-alerts-intro.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Alerts in Instance Observer]
 breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
@@ -104,7 +104,7 @@ ServiceNow Instance Observer provides a comprehensive set of alerts designed to 
 
 
 -   **[Key alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-alerts.md)**  
-Use the Instance Observer Key Alerts functionality for flexibility to set alerts with historical thresholds from four week increments specific to your business needs and configure who on your team receives notifications.
+Use the Instance Observer Key Alerts functionality to set alerts with historical thresholds from four-week increments specific to your business needs. Configure who on your team receives notifications.
 -   **[Manage Instance Observer alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/manage-io-alerts.md)**  
 Act on Instance Observer \(IO\) threshold alerts directly from the notification.
 -   **[Monitor the average response time of applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-app-monitor-alert-card.md)**  

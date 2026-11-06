@@ -7,7 +7,7 @@ release: australia
 product: User Administration
 classification: user-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 43
 breadcrumb: [Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -2863,7 +2863,7 @@ Users with the ts\_admin role can administer the [Zing text indexing and search 
 -   **[Special administrative roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/r_SpecialAdministrativeRoles.md)**  
 Certain roles grant specific administrative rights without the full privileges of the admin role. For example, an administrator can grant a user the right to change UI policy but not client scripts.
 -   **[Read-only role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/c_ReadOnlyRole.md)**  
-The read-only role \(snc\_read\_only\) restricts a user or a group of users to read-only access on the tables to which the user already has access.
+The read-only role \(**snc\_read\_only**\) restricts a user or a group of users to read-only access on the tables to which the user already has access.
 -   **[Application specific roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/application-specific-roles.md)**  
 Applications you install on your instance may include additional roles. Follow the links in this section to see roles installed along with applications.
 

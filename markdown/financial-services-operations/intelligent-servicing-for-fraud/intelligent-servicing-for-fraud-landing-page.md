@@ -7,7 +7,7 @@ release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [intelligent servicing for fraud, fraud case management, create fraud cases, fraud alerts, suspicious fraud alerts, alert detection system, fraud reported by customer, fraud analytics and reporting, fraud dashboard, process optimization for fraud]
 breadcrumb: [Banking applications, Financial Services Operations \(FSO\)]

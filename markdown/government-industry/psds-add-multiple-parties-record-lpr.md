@@ -1,16 +1,16 @@
 ---
-title: Add Multiple Parties to a record in License and Permit Playbook
+title: Add Multiple Parties to a record in License and Permit Administration
 description: As a government agent, you can add other business contacts or constituents to a license or permit application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-add-multiple-parties-record-lpr.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using License and Permit Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Add Multiple Parties to a record in License and Permit Playbook
+# Add Multiple Parties to a record in License and Permit Administration
 
 As a government agent, you can add other business contacts or constituents to a license or permit application.
 
@@ -20,7 +20,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ## Procedure
 
-1.  Open the License and Permit Playbook by navigating to Lists in the CRM Workspace.
+1.  Open the License and Permit Administration by navigating to Lists in the Public Sector Workspace.
 
 2.  Navigate to the **License and Permit Requests** list and select **All**.
 
@@ -28,7 +28,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
     **Note:** Related parties can only be edited if the case is in the **Intake** or **Review** stage.
 
-4.  Navigate to the **Add related parties** activity in the Intake stage of License and Permit Playbook.
+4.  Navigate to the **Add related parties** activity in the Intake stage of License and Permit Administration.
 
 5.  Select **Add Related Party**.
 

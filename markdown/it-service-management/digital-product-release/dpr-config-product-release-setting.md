@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [product-level settings, release settings, configure product, restricted access product settings, product team release access]
 breadcrumb: [Use, Digital Product Release, IT Service Management]

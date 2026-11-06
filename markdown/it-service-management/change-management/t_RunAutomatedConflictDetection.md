@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Conflict detection, Configure, Change Management, IT Service Management]
 ---
@@ -41,7 +41,7 @@ Role required: change\_manager or admin
 
 2.  Select one of the following options.
 
-<table id="choicetable_kz3_j3d_3t"><tbody><tr><td id="d74779e112">
+<table id="choicetable_kz3_j3d_3t"><tbody><tr><td id="d94632e112">
 
 **Run conflict detection automatically after changes to Configuration item, Planned start date, Planned end date, or State when a change request is updated**
 
@@ -53,7 +53,7 @@ When selected, runs conflict detection automatically when a change to one or mor
 -   **State**
 
 
-</td></tr><tr><td id="d74779e140">
+</td></tr><tr><td id="d94632e140">
 
 **Enable the scheduled change conflict checker**
 
@@ -66,7 +66,7 @@ When selected, runs the following conflict detection scheduled jobs at these int
  **Change Conflict Detection &gt;=1 Month Away** is scheduled every seven days.
 
 </td></tr></tbody>
-</table>3.  Click **Save**.
+</table>3.  Select **Save**.
 
     You can view the conflicts on the **Conflicts** tab on the change request record.
 
@@ -79,6 +79,8 @@ When selected, runs the following conflict detection scheduled jobs at these int
 [Detect change conflicts]()
 
 [Create blackout and maintenance schedules in Change Management]()
+
+[Schedule types in conflict detection]()
 
 [Configure a change request to monitor outside maintenance schedule conflicts]()
 

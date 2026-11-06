@@ -1,22 +1,22 @@
 ---
 title: ServiceNow Quote Experience runtime API calls
-description: Reference for the runtime APIs used in the ServiceNow Quote Experience, including their purposes, responses, and a Postman collection for testing in CPQ.
+description: Reference for the runtime APIs used in the ServiceNow Quote Experience, including their purposes, responses, and a OpenAPI Specification for testing in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-runtime-api-calls.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-07"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # ServiceNow Quote Experience runtime API calls
 
-Reference for the runtime APIs used in the ServiceNow Quote Experience, including their purposes, responses, and a Postman collection for testing in CPQ.
+Reference for the runtime APIs used in the ServiceNow Quote Experience, including their purposes, responses, and a OpenAPI Specification for testing in ServiceNow CPQ.
 
 ## API overview
 
-CPQ APIs are divided into two categories: runtime APIs and admin APIs. Runtime APIs are the same APIs used in the runtime quote experience. The following table lists the runtime APIs for ServiceNow Quote Experience.
+ServiceNow CPQ APIs are divided into two categories: runtime APIs and admin APIs. Runtime APIs are the same APIs used in the runtime quote experience. The following table lists the runtime APIs for ServiceNow Quote Experience.
 
 |API action|Purpose|Response|
 |----------|-------|--------|
@@ -35,136 +35,7 @@ CPQ APIs are divided into two categories: runtime APIs and admin APIs. Runtime A
 
 For details about the API that retrieves metrics for transactions, see [Quote Experience metrics API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-metrics-api.md).
 
-## Postman collection
+## OpenAPI Specification
 
-The following Postman collection provides ready-to-use API requests for the ServiceNow Quote Experience runtime APIs.
-
-```
-{
-  "info": {
-    "_postman_id": "0112bd72-984c-4285-a40f-5724e5d799cb",
-    "name": "1 - ServiceNow Quote Experience Headless Runtime APIs",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_exporter_id": "40935282"
-  },
-  "item": [
-    {
-      "name": "Initialize a session",
-      "request": {
-        "method": "POST",
-        "header": [{"key": "Origin","value": "{{baseUrl}}","type": "text"}],
-        "body": {
-          "mode": "raw",
-          "raw": "{\"id\": \"{{transactionId}}\", \"stateful\": false}",
-          "options": {"raw": {"language": "json"}}
-        },
-        "url": {"raw": "{{baseUrl}}/api/t","host": ["{{baseUrl}}"],"path": ["api","t"]}
-      }
-    },
-    {
-      "name": "Create a new transaction",
-      "request": {
-        "method": "POST",
-        "header": [{"key": "Origin","value": "{{baseUrl}}","type": "text"}],
-        "body": {
-          "mode": "raw",
-          "raw": "{\"stateful\": false}",
-          "options": {"raw": {"language": "json"}}
-        },
-        "url": {"raw": "{{baseUrl}}/api/t","host": ["{{baseUrl}}"],"path": ["api","t"]}
-      }
-    },
-    {
-      "name": "Run an event (using existing session)",
-      "request": {
-        "method": "POST",
-        "header": [{"key": "Origin","value": "{{baseUrl}}","type": "text"}],
-        "body": {
-          "mode": "raw",
-          "raw": "{\"context\": {\"session\": \"{{session}}\"}}",
-          "options": {"raw": {"language": "json"}}
-        },
-        "url": {
-          "raw": "{{baseUrl}}/api/t/{{transactionId}}/events/test_event_transitions",
-          "host": ["{{baseUrl}}"],"path": ["api","t","{{transactionId}}","events","test_event_transitions"]
-        }
-      }
-    },
-    {
-      "name": "Upsert lines",
-      "request": {
-        "method": "POST",
-        "header": [
-          {"key": "Content-Type","value": "application/json"},
-          {"key": "Origin","value": "{{baseUrl}}","type": "text"}
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\"context\": {\"stateful\": false},\"items\": [{\"configurationId\": \"626923a6-2bab-4755-90ae-60d40bbb55c4\"},{\"id\": \"SimpleProductId\"}]}",
-          "options": {"raw": {"language": "json"}}
-        },
-        "url": {
-          "raw": "{{baseUrl}}/api/t/{{transactionId}}/events/upsertLines",
-          "host": ["{{baseUrl}}"],"path": ["api","t","{{transactionId}}","events","upsertLines"]
-        }
-      }
-    },
-    {
-      "name": "Copy transaction",
-      "request": {
-        "method": "POST",
-        "header": [{"key": "Origin","value": "{{baseUrl}}","type": "text"}],
-        "body": {
-          "mode": "raw",
-          "raw": "{\"context\": {\"stateful\": false}}",
-          "options": {"raw": {"language": "json"}}
-        },
-        "url": {
-          "raw": "{{baseUrl}}/api/t/{{transactionId}}/events/copyTransaction",
-          "host": ["{{baseUrl}}"],"path": ["api","t","{{transactionId}}","events","copyTransaction"]
-        }
-      }
-    },
-    {
-      "name": "Delete session",
-      "request": {
-        "method": "DELETE",
-        "header": [{"key": "Origin","value": "{{baseUrl}}","type": "text"}],
-        "url": {"raw": "{{baseUrl}}/api/t/{{session}}","host": ["{{baseUrl}}"],"path": ["api","t","{{session}}"]}
-      }
-    },
-    {
-      "name": "Get transaction",
-      "request": {
-        "auth": {"type": "bearer","bearer": [{"key": "token","value": "{{adminToken}}","type": "string"}]},
-        "method": "GET",
-        "header": [{"key": "Origin","value": "{{baseUrl}}","type": "text"}],
-        "url": {"raw": "{{baseUrl}}/api/txn/{{transactionId}}","host": ["{{baseUrl}}"],"path": ["api","txn","{{transactionId}}"]}
-      }
-    },
-    {
-      "name": "Get transaction lines",
-      "request": {
-        "auth": {"type": "bearer","bearer": [{"key": "token","value": "{{adminToken}}","type": "string"}]},
-        "method": "GET",
-        "header": [
-          {"key": "Origin","value": "{{baseUrl}}","type": "text"},
-          {"key": "Cookie","value": "SESSION=05eb312c-e0a9-4340-b0ae-cfcc8db9e36f;","type": "text"}
-        ],
-        "url": {"raw": "{{baseUrl}}/api/txn/{{transactionId}}/lines","host": ["{{baseUrl}}"],"path": ["api","txn","{{transactionId}}","lines"]}
-      }
-    }
-  ],
-  "auth": {
-    "type": "bearer",
-    "bearer": [{"key": "token","value": "{{runtimeToken}}","type": "string"}]
-  },
-  "variable": [
-    {"key": "session","value": "","type": "string"},
-    {"key": "transactionId","value": "","type": "string"}
-  ]
-}
-```
-
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
+The following OpenAPI specification describes all available REST endpoints, request payloads, response formats, parameters, and data models for the ServiceNow Quote Experience runtime APIs. For more information, see [KB3229681](https://support.servicenow.com/kb?sys_kb_id=ac68a3a947901b582c31b98a436d435a&id=kb_article_view).
 

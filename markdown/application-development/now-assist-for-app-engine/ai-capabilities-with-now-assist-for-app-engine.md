@@ -7,10 +7,10 @@ release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: concept
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, ServiceNow Otto for App Engine, Now Assist, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, App Engine, custom app]
-breadcrumb: [Explore, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, ServiceNow Otto for App Engine, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # AI capabilities for enhancing custom applications
@@ -175,4 +175,5 @@ Can be designed to work within custom apps during the creation process, when you
 -   [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md)
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Exploring ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.md)
+

@@ -7,8 +7,8 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Working with the CAB Workbench, Use, Change Management, IT Service Management]
 ---
 
@@ -26,7 +26,7 @@ Role required: sn\_change\_cab.cab\_manager
 
     **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the CAB Definition form, fill in the fields.
 
@@ -162,7 +162,7 @@ Automatically Add Change Requests
 
 </td><td>
 
-Check box to define the types of change requests that are automatically added to the CAB meeting agenda.When you select **Automatically Add Change Requests**, the **Refresh CAB Meetings** related link appears. If you click this link, search is performed for change requests that match the value in the **Change Request Addition Conditions** field. If there are any matching change requests, agenda items are created for them and added to the CAB agenda.
+Check box to define the types of change requests that are automatically added to the CAB meeting agenda.When you select **Automatically Add Change Requests**, the **Refresh CAB Meetings** related link appears. If you select this link, search is performed for change requests that match the value in the **Change Request Addition Conditions** field. If there are any matching change requests, agenda items are created for them and added to the CAB agenda.
 
  If you do not select **Automatically Add Change Requests**, then you need to create individual agenda item for the associated change request for the meeting agenda.
 
@@ -172,9 +172,9 @@ Change Request Addition Conditions
 
 </td><td>
 
-Condition builder to specify which change requests are added to the CAB meeting agenda.-   **Add Filter Condition**: Click to add additional filter conditions, or click **AND** next to the existing filter condition.
--   **Add “OR” Clause**: Click to display the results of multiple filter criteria in a single list.
--   **Add Sort**: Click to define the order of the change requests in this CAB meeting agenda. The agenda order can be defined in CAB Definitions or CAB Meetings, and can be based on one or more fields.
+Condition builder to specify which change requests are added to the CAB meeting agenda.-   **Add Filter Condition**: Select to add more filter conditions, or select **AND** next to the existing filter condition.
+-   **Add “OR” Clause**: Select to display the results of multiple filter criteria in a single list.
+-   **Add Sort**: Select to define the order of the change requests in this CAB meeting agenda. The agenda order can be defined in CAB Definitions or CAB Meetings, and can be based on one or more fields.
 
 
 </td></tr><tr><td>
@@ -202,9 +202,9 @@ Check box to mark each pre-approved change request as **Complete** in the CAB me
 
     You can add one or more schedule entries to a CAB definition to schedule the series of CAB meetings. These schedule entries let you set valid days and times for holding CAB meetings.
 
-    1.  In the **Schedule Entries** related list, click **New**.
+    1.  In the **Schedule Entries** related list, select **New**.
 
-    2.  On the Schedule Entry fields form, fill in these fields.
+    2.  On the Schedule Entry form, fill in the fields.
 
 <table id="table_dms_nhl_2w"><thead><tr><th>
 
@@ -306,26 +306,26 @@ Repeat until
 
 </td><td>
 
-If the schedule entry is scheduled to repeat, specifies an end date until which the schedule entry is repeated.
+End date for a repeating schedule entry.
 
 </td></tr></tbody>
-</table>    3.  To add the schedule entry to the CAB definition, click **Submit**.
+</table>    3.  To add the schedule entry to the CAB definition, select **Submit**.
 
-    4.  To view the series of CAB meetings in a calendar view in a new browser window or tab, click the **Show Schedule** related link.
+    4.  To view the series of CAB meetings in a calendar view in a new browser window or tab, select the **Show Schedule** related link.
 
-6.  To set a related schedule for your CAB meeting series, complete the following steps:
+6.  Set a related schedule for your CAB meeting series.
 
-    You can add one or more related schedules to a CAB definition. Related schedules enable you to set valid schedules for holding CAB meetings. For example, if you set the public holiday schedule as a related schedule, it ensures that no CAB meeting is scheduled on a public holiday.
+    You can add one or more related schedules to a CAB definition. Related schedules enable you to set valid schedules for holding CAB meetings. For example, if you set the public holiday schedule as a related schedule, CAB meetings aren't scheduled on public holidays.
 
-    1.  In the **Related Schedules** related list, click **Edit**.
+    1.  In the Related Schedules related list, select **Edit**.
 
     2.  Select one or more related schedules and move them to the **Related Schedules List**.
 
-    3.  Click **Save**.
+    3.  Select **Save**.
 
-    4.  On the **CAB Definition** form, click the **Show Schedule** related link to view the defined schedule in the calendar.
+    4.  On the **CAB Definition** form, select the **Show Schedule** related link to view the defined schedule in the calendar.
 
-7.  In the **Related Links** section, click **Refresh CAB Meetings**.
+7.  In the **Related Links** section, select **Refresh CAB Meetings**.
 
     The CAB meeting series created from CAB definitions inherit the criteria of the CAB definition.
 

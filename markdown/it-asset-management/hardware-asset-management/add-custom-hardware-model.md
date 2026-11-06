@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work with hardware normalization, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure Hardware Model Normalization, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Add a custom product
@@ -42,5 +42,5 @@ Role required: ham\_admin
 
 After you've created the hardware model, [normalize the model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/normalize-hardware-consumable-models.md).
 
-**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
+**Parent Topic:**[Configure Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

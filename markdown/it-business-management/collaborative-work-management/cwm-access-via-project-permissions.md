@@ -7,7 +7,7 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: reference
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [access control, ACL, project permissions, project task]
 breadcrumb: [Reference, Collaborative Work Management, Strategic Portfolio Management]

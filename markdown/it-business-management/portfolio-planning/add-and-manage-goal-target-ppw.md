@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-To create, edit, or remove goal/target relationship records, you can also use the **Add secondary goals** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+To create, edit, or remove goal/target relationship records, you can also use the **Add secondary goals** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 
 ## Procedure
 

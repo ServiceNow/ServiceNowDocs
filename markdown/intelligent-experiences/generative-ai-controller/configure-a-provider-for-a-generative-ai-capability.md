@@ -7,9 +7,9 @@ release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Set a provider for a generative AI capability
@@ -102,5 +102,5 @@ The provider configuration is applied at the OneExtend Capability level and is a
 
 ## What to do next
 
-To configure generative AI capabilities through the standard approach, see , [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md), and [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-now-assist-landing.md).
+To configure generative AI capabilities through the standard approach, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platai-generative-ai-skills.md), [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md), and [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-now-assist-landing.md).
 

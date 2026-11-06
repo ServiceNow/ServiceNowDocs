@@ -1,33 +1,33 @@
 ---
 title: Create a change schedule from the change schedule definition
-description: You can define a change schedule from a change schedule definition record. Change schedule definitions help you to define the content that displays in the change summary popover, the users, groups or roles with whom a schedule is to be shared, and related span style colors.
+description: You can define a change schedule from a change schedule definition record. Change schedule definitions help you to define the content that displays in the change summary popover, the users, groups, or roles to share a schedule with, and related span style colors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/create-chng-sch-from-chng-sch-def.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Change schedules, Configure, Change Management, IT Service Management]
 ---
 
 # Create a change schedule from the change schedule definition
 
-You can define a change schedule from a change schedule definition record. Change schedule definitions help you to define the content that displays in the change summary popover, the users, groups or roles with whom a schedule is to be shared, and related span style colors.
+You can define a change schedule from a change schedule definition record. Change schedule definitions help you to define the content that displays in the change summary popover, the users, groups, or roles to share a schedule with, and related span style colors.
 
 ## Before you begin
 
--   You have activated Change Management - Change Schedule plugin \(com.snc.change\_management.soc\).
--   Role required: itil, sn\_chg\_soc.change\_soc\_admin, sn\_change\_role, sn\_change\_write roles, sn\_change\_write, or admin
+-   The Change Management - Change Schedule plugin \(com.snc.change\_management.soc\) must be active.
+-   Role required: itil, sn\_chg\_soc.change\_soc\_admin, sn\_change\_role, sn\_change\_write, or admin
 
 ## About this task
 
-To create a new Change Schedule, specify the start and end date fields that you want to be represented in the user interface and also specify the conditions to determine which change requests to display.
+To create a change schedule, specify the start and end date fields that you want to be represented in the user interface and also specify the conditions to determine which change requests to display.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Change** &gt; **Schedules** &gt; **Change Schedule Definitions** and click **New**.
+1.  Navigate to **All** &gt; **Change** &gt; **Schedules** &gt; **Change Schedule Definitions** and select **New**.
 
 2.  On the form, fill in the fields.
 
@@ -53,7 +53,7 @@ Active
 
 </td><td>
 
-Check box to select if a schedule is active.
+Check box that, when selected, makes the schedule active.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -81,7 +81,7 @@ Condition
 
 </td><td>
 
-Conditions which determine which change requests display in the Change Schedule interface and the order those change requests are sorted.
+Conditions that determine which change requests display in the Change Schedule interface and the order in which those change requests are sorted.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -93,7 +93,7 @@ Left column fields
 
 </td><td>
 
-List of fields which appear on the left column of the record summary pop-up. The record summary pop-up appears when you click any span on the change schedule timeline.
+List of fields that appear on the left column of the record summary pop-up. The record summary pop-up appears when you select any span on the change schedule timeline.
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ Right column fields
 
 </td><td>
 
-List of fields that appear on the right of the window when you click any span on the change schedule timeline. The record summary pop-up appears when you click any span on the change schedule timeline.
+List of fields that appear on the right of the window when you select any span on the change schedule timeline. The record summary pop-up appears when you select any span on the change schedule timeline.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -113,7 +113,7 @@ Show blackout window
 
 </td><td>
 
-Check box to select if blackout window associated to a change request appears in the change schedule timeline.
+Check box that, when selected, shows the blackout window associated with a change request in the change schedule timeline.
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ Show maintenance window
 
 </td><td>
 
-Check box to select if maintenance window associated to a change request appears in the change schedule.
+Check box that, when selected, shows the maintenance window associated with a change request in the change schedule.
 
 </td></tr><tr><td>
 
@@ -189,7 +189,7 @@ Related Definitions
 
 </td><td>
 
-Details of related child schedules
+Details of related child schedules.
 
 </td></tr><tr><td>
 
@@ -197,10 +197,10 @@ Style Rules
 
 </td><td>
 
-Options to define style conditions to determine the color of a span using a condition builder. For example, if you want all changes of type Emergency to show as a red span, a span style can be defined for that condition.
+Options to define style conditions to determine the color of a span using a condition builder. For example, to show all Emergency changes as a red span, define a span style for that condition.
 
 </td></tr></tbody>
-</table>3.  Click **Submit**.
+</table>3.  Select **Submit**.
 
 
 **Parent Topic:**[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-schedule.md)

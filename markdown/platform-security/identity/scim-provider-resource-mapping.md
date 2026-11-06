@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SCIM Client, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
@@ -18,7 +18,7 @@ Define the mappings of SCIM attributes to ServiceNow attributes for a particular
 
 ## Before you begin
 
-Roles required: scim\_client\_config\_admin
+Role required: scim\_client\_config\_admin
 
 ## Procedure
 
@@ -26,23 +26,23 @@ Roles required: scim\_client\_config\_admin
 
     The SCIM Provider Resource Mapping is shipped with the User and Group mapping by default.
 
-    **Note:** The User or Group mappings contains sample mappings, which you can use as a reference. You can also create mapping based on the user or group resources.
+    **Note:** The User or Group mappings contain sample mappings, which you can use as a reference. You can also create mapping based on the user or group resources.
 
     \[Omitted image "scim-provider-resource-mapping.png"\] Alt text: SCIM Provider Resource Mapping
 
-2.  Create a resource mapping by clicking **New**.
+2.  Create a resource mapping by selecting **New**.
 
 3.  On the form, fill in the fields.
 
-    |Fields|Description|
-    |------|-----------|
+    |Field|Description|
+    |-----|-----------|
     |Provider|Name of the SCIM Provider. Refer to the configured Provider name when creating a SCIM Provider.|
     |Resource Name|Resource for which the mapping must be defined.|
     |Primary Table|The table that contains the sys\_id of the resource being mapped.|
 
     \[Omitted image "resource-mapping-group.png"\] Alt text: SCIM Provider Resource Mapping - New record
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 ## Result

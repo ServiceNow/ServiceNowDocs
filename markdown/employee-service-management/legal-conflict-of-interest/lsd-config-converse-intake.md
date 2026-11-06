@@ -7,7 +7,7 @@ release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, ServiceNow Otto, generative AI]
 breadcrumb: [Configure, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]

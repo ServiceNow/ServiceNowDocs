@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-11-01"
 reading_time_minutes: 10
 breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -56,7 +56,7 @@ Discovery performance metrics data is stored in these tables:
 
 Performance metrics properties control whether or not aggregation occurs, but not what data is included in the aggregation. Status and IP target data is collected as follows:
 
--   Rollups for status always contain new data. Discovery continuously collects data on all probes and sensors during the discovery execution for that discovery status and stores it in the Probe and Sensor Metrics \(Individual\) \[discovery\_perf\_metric\_probe\_sensor\] table. Aggregation rolls up all probe and sensor data for that particular status after **discovery.cancel** and **discovery.complete** events are fired for that status, but only if the aggregation property for status roll-ups is enabled.
+-   Rollups for status always contain new data. During discovery execution, Discovery continuously collects probe and sensor data for that discovery status. The data is stored in the Probe and Sensor Metrics \(Individual\) \[discovery\_perf\_metric\_probe\_sensor\] table. Aggregation rolls up all probe and sensor data for that particular status after **discovery.cancel** and **discovery.complete** events are fired for that status, but only if the aggregation property for status roll-ups is enabled.
 -   Discovery continuously collects data on IP targets and stores it in the Probe and Sensor Metrics \(Individual\) \[discovery\_perf\_metric\_probe\_sensor\] table. Aggregation rolls up all existing IP target data after the **glide.discovery.perf.metrics.rollup\_by\_target** property is enabled and creates records in the Probe and Sensor Metrics \(Aggregated by Target\) \[discovery\_perf\_metric\_probe\_sensor\_rollup\_by\_target\] table.
 
 These properties control the gathering of probe and sensor metrics:
@@ -112,7 +112,7 @@ By default, Discovery tracks the performance of individual probes, sensors, and 
 
 ### Before you begin
 
-Role required: discovery\_admin or admin
+Role required: discovery\_admin, discovery\_operator, or admin
 
 ### Procedure
 
@@ -150,7 +150,7 @@ Use the roll-up by build data to ensure that the processing times for Discovery 
 
 ### Before you begin
 
-Role required: discovery\_admin or admin
+Role required: discovery\_admin, discovery\_operator, or admin
 
 ### Procedure
 
@@ -175,7 +175,7 @@ Use the roll-up by status data to ensure that the processing times for probes/pa
 
 ### Before you begin
 
-Role required: discovery\_admin or admin
+Role required: discovery\_admin, discovery\_operator, or admin
 
 ### About this task
 
@@ -202,7 +202,7 @@ Use the roll-up by target data to ensure that the processing times for probes/pa
 
 ### Before you begin
 
-Role required: discovery\_admin or admin
+Role required: discovery\_admin, discovery\_operator, or admin
 
 ### Procedure
 

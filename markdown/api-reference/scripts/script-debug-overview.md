@@ -7,7 +7,7 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scripting, API implementation, API implementation and reference]
 ---
@@ -44,10 +44,12 @@ Application developers can display debug messages about configuration records to
 Debugging business rules can be achieved with resources available in the ServiceNow product.
 -   **[Debugging classifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_DebuggingClassifications.md)**  
 You must add a system property to enable classification debugging.
--   **[JS Code Coverage Debug](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/js-code-coverage-debug.md)**  
+-   **[JS Code Coverage Debug utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/js-code-coverage-debug.md)**  
 JS Code Coverage Debug allows administrators and application developers to log the server-side scripts triggered during a user session and then review which lines of code the system ran.
 -   **[JavaScript debug window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_JavaScriptDebugWindow.md)**  
 The JavaScript debug window appears in a bottom pane of the user interface when an administrator turns on debugging.
+-   **[Packages Call Removal Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_PackagesCallRemovalTool.md)**  
+The Packages Call Removal Tool provides modules to identify fields that might contain scripts, find scripts that contain Packages calls to ServiceNow Java classes, and to examine proposed script changes that eliminate those Packages calls.
 
-**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
+**Parent Topic:**[Scripting on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/scripting-landing.md)
 

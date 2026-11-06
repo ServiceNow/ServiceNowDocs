@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Plugins for CCaaS, contact center plugins for nvc, contact center plugins for Interaction Controls Component \(ICC\)]
 breadcrumb: [Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
@@ -17,10 +17,7 @@ For the Interaction Controls Component \(ICC\) call features to work, you must h
 
 The CCaaS providers must integrate with the ServiceNow platform. Additionally, they must submit their plugin for certification, to be made available for use from the ServiceNow® Store.
 
-**Note:**
-
--   Verify plugin dependencies against the store listing to ensure you're using the latest compatible versions.
--   Prerequisite for CCaaS callbacks: Verify that agents are configured through their contact center integration to receive callbacks and access the ServiceNow Workspace. Agent profiles are synced automatically when agents log in through the contact center connector in OpenFrame. For example, an agent must be able to log in to both the contact center and ServiceNow workspace. The agent presence state must match between both systems, as callbacks only route to available agents. In some cases, the state "available" might be labeled differently in the contact center, such as "on queue." Presence mismatches can prevent agents from receiving callbacks.
+**Note:** Verify plugin dependencies against the store listing to ensure you're using the latest compatible versions.
 
 The following plugins are required to deploy the call control integration with the contact center platform:
 

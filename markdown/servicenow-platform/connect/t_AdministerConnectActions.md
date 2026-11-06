@@ -7,7 +7,7 @@ release: australia
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect administration, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,7 +52,7 @@ Condition
 
 </td><td>
 
-JavaScript condition statement that must return true for the action to be available in a conversation. For example, to show the action in Connect Support conversations only, enter `conversation.type === "support"` or `conversation.table === 'chat_queue_entry'`.For information about the conversation object, see the [GlideConversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideConversationAPI.md) API reference documentation.
+JavaScript condition statement that must return true for the action to be available in a conversation. For example, to show the action in Connect Support conversations only, enter `conversation.type === "support"` or `conversation.table === 'chat_queue_entry'`.For information about the conversation object, see the GlideConversation API reference documentation.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ response.newRecord("incident",{
 });
 ```
 
-For information about the response object, see the [ConnectActionResponse](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_ConnectActionResponseAPI.md) API reference documentation.**Note:** You can only create a Connect action that is based on a task table.
+For information about the response object, see the ConnectActionResponse API reference documentation.**Note:** You can only create a Connect action that is based on a task table.
 
 </td></tr><tr><td>
 

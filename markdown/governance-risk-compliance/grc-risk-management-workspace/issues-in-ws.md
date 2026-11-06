@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -25,13 +25,13 @@ The issues landing page is available in the following workspaces:
 
 ## Open the Issues overview landing page
 
-On each of the listed workspaces, you can access the issues by selecting the Issue overview icon \(\[Omitted image "issue-landing-page.jpg"\] Alt text: Issue landing page.\).
+On each of the listed workspaces, you can access the issues by clicking the Issue overview icon \(\[Omitted image "issue-landing-page.jpg"\] Alt text: Issue landing page.\).
 
-\[Omitted image "issues-overview-landing-page.jpg"\] Alt text: Issues overview landing page.
+Click this icon to open the Issues overview landing page.
+
+\[Omitted image "issues-ov.png"\] Alt text: Issues overview page.
 
 ## Sections of the Issues overview landing page
-
-The landing page is organized into Overview, Tracking, Performance, My issues, and My group's issues panels, each described in the following table.
 
 <table id="table_FloorForm"><tbody><tr><td class="sub-head" colspan="2">
 

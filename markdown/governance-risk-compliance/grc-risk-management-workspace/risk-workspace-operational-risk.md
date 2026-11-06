@@ -1,28 +1,28 @@
 ---
 title: Risk Workspace for the operational risk manager
-description: Operational risk managers manage operational risks such as losses due to errors, breaches, or damages that are caused by people, internal processes, systems, or external events. Operational risks range from the small, such as the risk of loss due to minor human errors, to the large, such as the risk of bankruptcy due to serious fraud.
+description: Operational risk managers manage operational risks such as losses due to errors, breaches, or damages that are caused by people, internal processes, systems, or external events. Operational risks range from minor losses due to human errors to major losses such as bankruptcy due to serious fraud.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/risk-workspace-operational-risk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [GRC Risk Workspace, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Risk Workspace for the operational risk manager
 
-Operational risk managers manage operational risks such as losses due to errors, breaches, or damages that are caused by people, internal processes, systems, or external events. Operational risks range from the small, such as the risk of loss due to minor human errors, to the large, such as the risk of bankruptcy due to serious fraud.
+Operational risk managers manage operational risks such as losses due to errors, breaches, or damages that are caused by people, internal processes, systems, or external events. Operational risks range from minor losses due to human errors to major losses such as bankruptcy due to serious fraud.
 
 ## Operational risk manager
 
-Operational risk managers are a part of the operational risk team that manages the risk posture of the organization. Risk posture is the current risk profile for a company. As an operational risk manager, you must perform the following tasks.
+Operational risk managers are part of the operational risk team that manages the risk posture of the organization. Risk posture is the current risk profile for a company. As an operational risk manager, you must perform the following tasks.
 
 -   **Define the operational risk framework**
 
-    Effectively manage the operational risks of an organization by defining a robust risk management framework. This framework helps to identify risks and to define the control framework to mitigate those risks. A risk management framework consists of the following components:
+    Effectively manage the operational risks of an organization by defining a risk management framework. This framework helps to identify risks and to define the control framework to mitigate those risks. A risk management framework consists of the following components:
 
     -   Risk identification
     -   Risk measurement or scoring
@@ -34,13 +34,13 @@ Operational risk managers are a part of the operational risk team that manages t
 
     -   Creating risk statements: A risk statement is used to record a risk in a way that everyone can reach a common agreement on its severity or relative priority.
     -   Creating control objectives: A control objective defines the aim or purpose of risk-mitigating controls. These controls need continuous monitoring.
-    -   Defining entity classes, entity types, and entities: For more information on entities, see [Understanding entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/manage-entities.md).
+    -   Defining entity classes, entity types, and entities: For more information about entities, see [Understanding entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/manage-entities.md).
     -   Defining the upstream and downstream entities.
-    The first step is to set up risk statements so that your team has a specific idea of the risk. For example, simply calling a risk as a cybersecurity risk is not specific. Cybersecurity risks could mean different things to different people. Therefore, a common statement to define cybersecurity is created as a risk statement. To create risk statements and their hierarchy, clearly define the risk impact, the assets at risk, and the source of risk. By defining the risk statements and creating their hierarchy, you can ensure that the risk scores are aggregated thus giving the complete risk status.
+    The first step is to set up risk statements so that your team has a specific idea of the risk. For example, simply calling a risk a cybersecurity risk is not specific. Cybersecurity risks could mean different things to different people. A common statement to define cybersecurity is created as a risk statement. To create risk statements and their hierarchy, clearly define the risk impact, the assets at risk, and the source of risk. By defining the risk statements and creating their hierarchy, you can aggregate the risk scores to give a complete view of the risk status.
 
 -   **Conduct risk assessments on a periodic basis**
 
-    Perform the annual risk assessments according to your organization's policies. Also, ensure that the risk register is updated and accurate. Create risk assessment scopes and schedule assessments. To learn more about risk registers, see [Risk register in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-register-workspace.md).
+    Perform the annual risk assessments according to your organization's policies. Verify that the risk register is up to date and accurate. Create risk assessment scopes and schedule assessments. To learn more about risk registers, see [Risk register in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-register-workspace.md).
 
 -   **Record and monitor risk events**
 
@@ -48,15 +48,15 @@ Operational risk managers are a part of the operational risk team that manages t
 
 -   **Define key risk indicators**
 
-    Monitor the risk posture of your enterprise on a continuous basis. Continuous monitoring of risks and controls involves identifying and creating key risk and control indicators. Supporting information can be collected for those indicators through automatic data collection or manual tasks. Indicator results are then used to create issues for controls, signal a change in the risk posture, and to provide supporting information for audit activities and control testing. If the indicator thresholds are breached, you must escalate to the respective stakeholders.
+    Monitor the risk posture of your enterprise on a continuous basis. Continuous monitoring of risks and controls involves identifying and creating key risk and control indicators. Supporting information can be collected for those indicators through automatic data collection or manual tasks. Indicator results are then used to create issues for controls and to signal a change in the risk posture. Results also provide supporting information for audit activities and control testing. If the indicator thresholds are breached, you must escalate to the respective stakeholders.
 
 -   **Manage issues and incidents**
 
-    An issue is created when there is a change in the environment, process, or system that poses a threat. An issue requires action to prevent an incident or loss. An incident is a successful outcome or event with a negative impact. As the operational risk manager, you can view, create, and manage issues and incidents. Ensure tracking, proper closure, remediation, and monitoring of issues and incidents.
+    An issue is created when there is a change in the environment, process, or system that poses a threat. An issue requires action to help prevent an incident or loss. An incident is a successful outcome or event with a negative impact. As the operational risk manager, you can view, create, and manage issues and incidents. Ensure tracking, proper closure, remediation, and monitoring of issues and incidents.
 
 -   **Communicate the operational risk posture**
 
-    Define dashboards to report data effectively and accurately. You must create the required reports which can be shared with the executives and the head of the operational risk team. The reports and dashboards ensure that the aggregated assessment results across the organization help to identify the top operational risks for the enterprise.
+    Define dashboards to report data effectively and accurately. You must create the required reports that can be shared with the executives and the head of the operational risk team. The reports and dashboards show the aggregated assessment results across the organization to help identify the top operational risks for the enterprise.
 
 
 The following table lists the key tasks that you perform in your role as an operational risk manager.
@@ -136,11 +136,7 @@ Create aggregated risk reports
 [Reports in the Risk Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
 
 </td></tr></tbody>
-</table>The following image shows the view for the operational risk manager.
-
-\[Omitted image "op-risk-manager-homepage.jpg"\] Alt text: Operational risk manager home page.
-
-**Parent Topic:**[GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-workspace.md)
+</table>**Parent Topic:**[GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-workspace.md)
 
 **Related topics**  
 

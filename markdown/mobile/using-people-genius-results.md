@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/using-people-genius-results.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Using Otto, ServiceNow Otto for Mobile, Mobile Platform]
 
 Search for people in your organization and view their profiles by entering their name into your search bar.
 
-\[Omitted image "na-people-citations.png"\] Alt text: the org chart and contact information for an employee
+\[Omitted image "image.na-people-citations"\] Alt text: the org chart and contact information for an employee
 
 To search for a user, enter their name into a Now Assist enabled search bar. This can be done from your home page search, or using the Now Assist chat. Up to three possible matches will display for the entered name.
 

@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Mobile app for Hardware Asset Management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -129,6 +129,10 @@ On the app, you can use the same functionalities when you are offline. For more 
     -   Swipe a verification task to the left.
     -   Tap a verification task to open it and then tap **Scan**.
     You can scan multiple assets together. After you open a verification task, the verification task shows the number of assets that are verified, not verified, or expected to be verified. Click **Expected**, **Verified**, or **Not verified** to view the respective types of assets.
+
+    Here is an example of a **Verification** tab that shows expected, verified, and not verified assets.
+
+    \[Omitted image "expected-assets.png"\] Alt text: Verification tab.
 
 3.  Tap **Review** &gt; **Submit**.
 

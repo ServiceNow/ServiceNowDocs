@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [set up rest message record, tokenized rest message, rest message endpoint, update endpoint url, visa resolve online rest message, mastercom rest message, system web services outbound, tokenizer connection base uri, rest message function setup]
 breadcrumb: [Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-03"
 reading_time_minutes: 2
 keywords: [Configuration model, Three players, Default value, Promotion and upgrade safety, What this chapter covers]
-breadcrumb: [Configure experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Configure experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Configuration model
@@ -53,9 +53,11 @@ A `@config` property resolves to its developer default, the value assigned in yo
 
 [Inline configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/inline-configuration.md)
 
-[admin-experience]
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/admin-experience.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/admin-experience.md)
 
 [Regions and the wrapper contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/regions-and-the-wrapper-contract.md)
 
 [Theming model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/theming-model.md)
+
+[lux-schema]
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/employee-experience-using-employee-slate.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Simplified IT Service Management, IT Service Management]
+breadcrumb: [Employee experience, Simplified IT Service Management, IT Service Management]
 ---
 
 # Employee experience in Employee Slate
@@ -37,5 +37,5 @@ Save time in searching for catalog items and submitting requests.
 -   **[Submit an incident in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-submit-incident-employee-slate.md)**  
 Save time in submitting and resolving incidents.
 
-**Parent Topic:**[Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/ai-native-it-service-desk-landing-page.md)
+**Parent Topic:**[Employee experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/employee-experience-native-ai-itsm.md)
 

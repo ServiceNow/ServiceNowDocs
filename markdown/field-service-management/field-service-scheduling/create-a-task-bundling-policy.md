@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic Task Bundling, Task Bundling, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -39,7 +39,7 @@ Task bundling policies are groups of rules that dictate how work order tasks are
     |Order|Order of when this policy is applied to a task relative to other policies.|
     |Active|Option to make the policy active or inactive.|
     |Sort by|Dictates how subtasks are sorted before bundling.|
-    |Minimum records|The minimum number of records enabled per bundle.|
+    |Minimum records|The minimum number of records enabled per bundle. The minimum value is 2.|
     |Maximum records|The maximum number of records enabled per bundle.|
     |Duration field|The duration type that this policy should target.|
     |Maximum duration|The maximum duration per task bundle created by this policy.|

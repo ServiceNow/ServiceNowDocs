@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-select-filter-workspace.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
@@ -110,7 +110,7 @@ A Multiple select filter lets users select multiple values of a field or breakdo
 
     If you select **Ascending**, the lowest filtered values are shown first. If you select **Descending**, the highest values are shown first. The user can change this value.
 
-10. To let users clear the values they selected for the filter, enable **Allow filter clearance**.
+10. To let users clear the values they selected for the filter, enable **Allow user to clear filter**.
 
 11. Set the maximum number of elements that are loaded initially and at each page refresh.
 

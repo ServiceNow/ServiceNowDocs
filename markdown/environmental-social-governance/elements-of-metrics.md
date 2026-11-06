@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/elements-of-metrics.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -16,7 +16,7 @@ A metric consists of several components such metric definition, metric data, met
 
 ## Metric definitions
 
-A metric definition is a template-level record that helps set the core properties of a metric. These properties include the unit, direction, nature, precision, frequency of data collection, and category of the metric. The metric itself collects scores, which are then aggregated into the defined metric template. The advantage of creating and using a metric definition lies in its ability to streamline the process of creating metrics using these metric definition templates. For instance, imagine you have several business units, and you must collect revenue data for each of them. Without a metric definition, you would have to create separate templates for every business unit and repeatedly specify the metric properties. However, by using a metric definition, you simplify this task. Once you have created the metric definition, you can easily attach your entities \(business units in this case\) and collect the metrics without duplicating efforts.
+A metric definition is a template-level record that helps set the core properties of a metric. These properties include the unit, direction, nature, precision, frequency of data collection, and category of the metric. The metric itself collects scores, which are then aggregated into the defined metric template. The advantage of creating and using a metric definition lies in its ability to streamline the process of creating metrics using these metric definition templates. For instance, imagine you have several business units, and you need to collect revenue data for each of them. Without a metric definition, you would have to create separate templates for every business unit and repeatedly specify the metric properties. However, by using a metric definition, you simplify this task. Once you've created the metric definition, you can easily attach your entities \(business units in this case\) and collect the metrics without duplicating efforts.
 
 The GRC: Metrics application provides the following types of metric definitions:
 

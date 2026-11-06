@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-management-configure-pdf-documents.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -36,13 +36,4 @@ Sales operation specialist can set up PDF document signers in Quote Management. 
 -   Internal signers are all the users that have either sales\_agent or sales\_ops\_specialist roles in Quote Management.
 
 See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgt-configure-pdf-document-signers.md) for more information.
-
--   **[Configure quote document generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-generate-document.md)**  
-The Generate PDF Document feature generates a PDF document of the current quote based on the selected template. After the document is generated, it is available in the **Attachments** section of the Contextual Side Panel \(CSP\). To enable this feature, an administrator configures a custom integration and a custom event that initiate the document generation process.
--   **[Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgt-configure-pdf-document-signers.md)**  
-Sales operations specialists can set up signers in Quote Management so that PDF quotes can be sent to either internal and external signers for review and signatures.
--   **[Set up PDF document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgt-setup-pdf-document-templates.md)**  
-Sales operation specialists can set up templates for PDF documents in Quote Management.
-
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 

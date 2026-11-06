@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Data Foundations advisor setup, Data Foundations plugins and dependencies, advisor dashboard configuration, principal class scope setup]
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]

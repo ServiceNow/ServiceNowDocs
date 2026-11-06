@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/launch-ai-data-explorer.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -23,7 +23,7 @@ Role required: now\_assist\_explorer\_user to create or edit explorations, any r
 1.  Perform one of the following actions:
 
     -   To launch AI Data Explorer from Unified Navigation, navigate to **All** &gt; **AI Data Explorer** &gt; **AI Data Explorer**.
-    -   To launch AI Data Explorer from a data visualization or list, select the Explore with AI button \[Omitted image "analyze-ai-icon.png"\] Alt text: Explore with AI button.A data visualization can show either table data or an automated indicator. Lists show only table data.
+    -   To launch AI Data Explorer from a data visualization or list, select the Explore with AI button \[Omitted image "analyze-ai-icon.png"\] Alt text: Explore with AI button.A data visualization can show either table data or an automated or formula indicator. Lists show only table data.
 
         \[Omitted image "explore-icon-dv-tile.png"\] Alt text: Data visualization tile with Explore with AI button highlighted.
 
@@ -39,7 +39,7 @@ Role required: now\_assist\_explorer\_user to create or edit explorations, any r
     -   Add the visualization or list to a new exploration or one that is open in another tab. For more information about adding visualizations to existing explorations, see [Add an existing visualization to an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/import-data-viz-list-exploration.md).
     **Important:**
 
-    -   A data visualization must display table or automated indicatordata. Otherwise, the Explore with AI button does not appear. \(Lists can only display table data.\)
+    -   A data visualization must display table data or automated or formula indicatordata. Otherwise, the Explore with AI button does not appear. \(Lists can only display table data.\)
     -   Supported table data sources include database views and Workflow Data Fabric tables.
     -   The table or database view must be included in the Query Generation semantic layer. For more information, see [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-table-semantic-layer.md).
     -   If the data is from an application with a protected scope, access to that scope must be configured. Otherwise, the Explore with AI icon does not appear.For more information, see [Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/enable-aide-secure-scope-apps.md).

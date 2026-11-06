@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Claude Desktop, MCP Server, Service Mapping, connect, OAuth, ITOM, Now Assist, CMDB]
 breadcrumb: [Service Mapping MCP tools, AI in Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]

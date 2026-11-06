@@ -1,18 +1,18 @@
 ---
 title: Exploring Portfolio list view
-description: As an Enterprise Architect, use the Portfolio list view in the Enterprise Architecture Workspace to manage your business architecture, application portfolio, technology portfolio, information portfolio, and custom entities.
+description: As an Enterprise Architect, use the Portfolio list view in the Enterprise Architecture Workspace to manage your business architecture, application portfolio, technology portfolio, and information portfolio. You can also manage your own entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/portfolio-list-view.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Exploring Portfolio list view
 
-As an Enterprise Architect, use the Portfolio list view in the Enterprise Architecture Workspace to manage your business architecture, application portfolio, technology portfolio, information portfolio, and custom entities.
+As an Enterprise Architect, use the Portfolio list view in the Enterprise Architecture Workspace to manage your business architecture, application portfolio, technology portfolio, and information portfolio. You can also manage your own entities.
 
 The My Lists view shows a list of records that you have been assigned. Select the filter icon \(\[Omitted image "icon-filter.png"\] Alt text: Filter icon\) to check the applied fields.
 
@@ -45,8 +45,8 @@ The Business Architecture section within the Portfolio page of the Enterprise Ar
 The Application Portfolio section within the Portfolio page of the Enterprise Architecture Workspace helps you to manage business applications, application services, digital integrations, and digital interfaces.
 -   **[Exploring the information portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-information-portfolio.md)**  
 Use the information portfolio to capture information from the assets of your organization as information objects. You can categorize the information assets and determine its business application use. You can also connect the different layers where data exists and map the layers. Mapping helps to retrieve the information and track the information flow.
--   **[Exploring the AI Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-exploring-the-ai-portfolio.md)**  
-The AI Portfolio section within the Portfolio page of the Enterprise Architecture Workspace helps you in managing structured governance, traceability, and lifecycles of AI assets.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-exploring-the-ai-portfolio.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-exploring-the-ai-portfolio.md)**  
+
 -   **[Exploring the AI Portfolio tab on the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-dashboard-exploring-ai-portfolio-tab.md)**  
 The **AI Portfolio** tab on the Enterprise Architecture Workspace dashboard provides visualization widgets that show how business applications and AI systems in your organization are associated.
 -   **[Manage your entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-my-entities.md)**  

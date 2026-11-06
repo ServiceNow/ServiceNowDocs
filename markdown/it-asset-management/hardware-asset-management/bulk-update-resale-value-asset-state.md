@@ -7,10 +7,10 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [download disposal assets, bulk update resale value, hardware asset resale]
-breadcrumb: [Create a disposal order, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Create a disposal order, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Perform bulk update of resale value for the assets

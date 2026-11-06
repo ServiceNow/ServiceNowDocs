@@ -9,7 +9,7 @@ classification: now-assist-skill-kit
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring AI Skill Kit, AI Skill Kit, Enable AI experiences]
+breadcrumb: [Exploring AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # Example use case for AI Skill Kit

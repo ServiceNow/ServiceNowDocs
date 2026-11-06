@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migrate-15-minute-forecasting.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Demand Forecast, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ Starting with the Tokyo release, 15-minute forecasting is the default forecastin
 
     3.  In the **Value** field, enter `15`.
 
-    4.  Select **Update**.
+    4.  Click **Update**.
 
 2.  Deactivate the existing demo data definitions.
 
@@ -50,7 +50,7 @@ Starting with the Tokyo release, 15-minute forecasting is the default forecastin
 
     2.  Search for **Collect historical data** and select it.
 
-    3.  Select **Execute Now**.
+    3.  Click **Execute Now**.
 
 5.  Run the **Forecast resources for future** scheduled job for staffing forecast that can be viewed on team calendar.
 
@@ -58,7 +58,7 @@ Starting with the Tokyo release, 15-minute forecasting is the default forecastin
 
     2.  Search for **Forecast resources for future** and select it.
 
-    3.  Select **Execute Now**.
+    3.  Click **Execute Now**.
 
 
 **Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configuring-demand-forecast-configurable-wfo-cs.md)

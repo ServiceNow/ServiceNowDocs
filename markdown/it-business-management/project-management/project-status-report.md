@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Create a project status report, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ The project status report shows snapshot status of RIDAC \(Risk, Issues, Decisio
 
 1.  Open a project status report.
 
-<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d64743e74">
+<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d65050e74">
 
 Option
 
-</th><th align="left" id="d64743e77">
+</th><th align="left" id="d65050e77">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d64743e83">
+</th></tr></thead><tbody><tr><td id="d65050e83">
 
 **From project workspace**
 
@@ -52,7 +52,7 @@ Steps
 4.  Select a status report from the list to view its contents.
 
 
-</td></tr><tr><td id="d64743e119">
+</td></tr><tr><td id="d65050e119">
 
 **From project record**
 
@@ -64,7 +64,7 @@ Steps
 4.  Select a status report from the list.
 
 
-</td></tr><tr><td id="d64743e161">
+</td></tr><tr><td id="d65050e161">
 
 **From Project Status form**
 

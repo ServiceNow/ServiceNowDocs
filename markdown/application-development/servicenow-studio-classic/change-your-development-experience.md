@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-27"
-reading_time_minutes: 1
-breadcrumb: [Use, ServiceNow Studio, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Change your development experience in ServiceNow Studio
@@ -23,6 +23,10 @@ Role required: admin or delegated\_developer
 ## About this task
 
 Use the experience switcher when you need to continue app development in a different environment. For example, create an app in Creator Studio and continue working on it in ServiceNow Studio. The experience switcher provides access to Creator Studio, ServiceNow Studio, and ServiceNow IDE.
+
+**Important:**
+
+As of version 30.1.1, the experience switcher has been removed from ServiceNow Studio. Each development tool can still be accessed separately through the ServiceNow AI Platform.
 
 As of version 29.2.11, ServiceNow IDE capabilities have been integrated into ServiceNow Studio. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
 

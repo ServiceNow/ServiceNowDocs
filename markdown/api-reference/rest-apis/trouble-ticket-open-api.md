@@ -7,8 +7,8 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 28
+last_updated: "2026-09-30"
+reading_time_minutes: 32
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -16,29 +16,87 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Trouble Ticket Open API provides endpoints to create, update, and retrieve data from the Case \[sn\_customerservice\_case\], Incident \[incident\], and Service Problem Case \[sn\_sprb\_mgmt\_case\] tables.
 
+## API overview
+
 Use this API to manage ticket information between external ticketing systems and the ServiceNow AI Platform.
-
-This API is included in the [Proactive Service Experience Workflows](https://store.servicenow.com/sn_appstore_store.do#!/store/application/9e07323d5b2110100206cb837b81c773) application, which is available on the ServiceNow Store. The Customer Service \(com.sn\_customerservice\) and Customer Service Install Base Management \(com.snc.install\_base\) applications are required to use this API with the Case \[sn\_customerservice\_case\] table.
-
-This API is provided within the `sn_ind_tsm_sdwan` namespace.
-
-The calling user must have the ticket\_integrator role.
-
-This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. For more information, see the [Trouble Ticket Open API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/trouble-ticket_dev-guide.md).
 
 The Trouble Ticket Open API is a ServiceNow® implementation of the TM Forum Trouble Ticket Management API REST specification. This implementation is based on the [TMF621 Trouble Ticket Management API User Guide v5.0.0](https://www.tmforum.org/resources/specifications/tmf621-trouble-ticket-management-api-user-guide-v5-0-0/), September 2024. The Trouble Ticket Open API is conformance certified by TM Forum.
 
 \[Omitted image "tmf-conformance.png"\] Alt text: TMF conformance logo
 
+## Scope changes \(November 2026 store\)
+
+**Important:**
+
+**Endpoint migration**: Starting with the November 2026 release, this API transitions from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`. URL endpoint paths change from `/api/sn_ind_tsm_sdwan/ticket/troubleTicket` to `/api/sn_ind_tsm_core/ticket/troubleTicket`.
+
+**Deprecation timeline:**
+
+-   **October–November 2026:** Both endpoint paths are active. Plan and test your migration to the new endpoints.
+-   **November 2026:** New `sn_ind_tsm_core` endpoints live. Existing `sn_ind_tsm_sdwan` endpoints are deprecated but still available.
+-   Before Denmark release: Switch all integrations to the new `sn_ind_tsm_core` endpoints.
+-   **Denmark release:** Old `sn_ind_tsm_sdwan` endpoints are officially removed and sunset from use.
+
+See 'Migration Guidance' for details about how to upgrade to use the new endpoints.
+
+|Operation|New endpoint|Deprecated endpoint \(to be removed in Denmark release\)|
+|---------|------------|--------------------------------------------------------|
+|Create ticket|POST /api/sn\_ind\_tsm\_core/ticket/troubleTicket|POST /api/sn\_ind\_tsm\_sdwan/ticket/troubleTicket|
+|List tickets|GET /api/sn\_ind\_tsm\_core/ticket/troubleTicket|GET /api/sn\_ind\_tsm\_sdwan/ticket/troubleTicket|
+|Get ticket by ID|GET /api/sn\_ind\_tsm\_core/ticket/troubleTicket/\{id\}|GET /api/sn\_ind\_tsm\_sdwan/ticket/troubleTicket/\{id\}|
+|Update ticket|PATCH /api/sn\_ind\_tsm\_core/ticket/troubleTicket/\{id\}|PATCH /api/sn\_ind\_tsm\_sdwan/ticket/troubleTicket/\{id\}|
+
+## Access requirements
+
+This API requires the following applications which are available on the ServiceNow Store:
+
+-   Service Experience Workflows / SD-WAN \(sn\_ind\_tsm\_sdwan\) or Telecom Core \(sn\_ind\_tsm\_core\)
+-   Case Management Core \(com.sn\_customerservice\) and Customer Service Install Base Management \(com.snc.install\_base\) applications when interacting with data in the Case \[sn\_customerservice\_case\] table.
+
+The calling user must have the ticket\_integrator role.
+
+## Migration guidance
+
+**New users:** Use the new `/api/sn_ind_tsm_core/ticket/troubleTicket` endpoints immediately.
+
+**Existing SD-WAN users:** If your integrations currently use the `/api/sn_ind_tsm_sdwan/ticket/troubleTicket` endpoints, prepare for the transition to `sn_ind_tsm_core` before Denmark. To upgrade, simply install or upgrade Telecom Service Management Core. A one-time fix script runs on install.
+
+The installation script automatically:
+
+-   Moves the Trouble Ticket API records \(flows, script includes, ACLs, roles, properties, rate limits, REST operations and so on\) from the SD-WAN scope to TSM Core.
+-   Renames the identifiers listed below from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`.
+
+After installing or upgrading to use the new scope, use the following checklist to keep your endpoints running properly:
+
+-   Update endpoint URLs in all custom integrations, REST calls, and scripts from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`.
+-   Update any custom script references to scope identifiers from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core` \(for example, `gs.getProperty()` or `gs.hasRole()` calls\).
+-   Review and update ACL definitions and role references.
+-   Test integrations against the new endpoints before the mid-Denmark release.
+-   When you install or upgrade Telecom Service Management Core, a one-time fix script automatically moves all API records and renames scope identifiers. Verify that any customized property values are preserved after upgrade.
+
+Request and response payloads, authentication, and access control remain unchanged.
+
+## Extensible options
+
+This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. For more information, see the [Trouble Ticket Open API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/trouble-ticket_dev-guide.md).
+
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
-## Trouble Ticket - GET /sn\_ind\_tsm\_sdwan/ticket/troubleTicket 
+## Trouble Ticket - GET /api/sn\_ind\_tsm\_core/ticket/troubleTicket
 
 Retrieves a list of all trouble ticket records from the Case \[sn\_customerservice\_case\], Incident \[incident\], and Service Problem Case \[sn\_sprb\_mgmt\_case\] tables.
 
+### Scope migration \(November 2026\)
+
+Starting with the November 2026 store release, Trouble Ticket Open API endpoints transition from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`. Both endpoint sets work identically until the Denmark release, when the `sdwan` endpoints are officially removed. See [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/trouble-ticket-open-api.md) for migration details and timelines.
+
+**Note:** Request and response payloads, authentication, and access control remain unchanged between both sets of endpoints. API behavior is identical between both sets.
+
 ### URL format
 
-Default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket`
+TSM Core default URL: `/api/sn_ind_tsm_core/ticket/troubleTicket`
+
+S-DWAN default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket`
 
 ### Supported request parameters
 
@@ -99,7 +157,7 @@ Maximum number of records to return. For requests that exceed this number of rec
 
 Maximum: 100
 
-You can change the default and maximum values by updating the **sn\_ind\_tsm\_sdwan.pagination.set\_limit** and **sn\_ind\_tsm\_sdwan.pagination.max\_limit** system properties.
+You can change the default and maximum values by updating the **sn\_ind\_tsm\_core.pagination.set\_limit** and **sn\_ind\_tsm\_core.pagination.max\_limit** system properties.
 
 Data type: Number
 
@@ -579,7 +637,7 @@ This value is always `TroubleTicket`.Data type: String
 This example returns specified fields for the first five trouble ticket case records.
 
 ```
-curl "https://instance.servicenow.com/api/sn_ind_tsm_sdwan/ticket/troubleTicket?limit=5&fields=id%2Cname%2Cdescription%2Cstatus%2Cseverity%2CticketType&ticketType=case" \
+curl "https://instance.servicenow.com/api/sn_ind_tsm_core/ticket/troubleTicket?limit=5&fields=id%2Cname%2Cdescription%2Cstatus%2Cseverity%2CticketType&ticketType=case" \
 --request GET \
 --user 'username':'password'
 ```
@@ -631,13 +689,21 @@ Response body.
 ]
 ```
 
-## Trouble Ticket - GET /sn\_ind\_tsm\_sdwan/ticket/troubleTicket/\{id\}
+## Trouble Ticket - GET /api/sn\_ind\_tsm\_core/ticket/troubleTicket/\{id\}
 
 Retrieves a specified record from the Case \[sn\_customerservice\_case\], Incident \[incident\], or Service Problem Case \[sn\_sprb\_mgmt\_case\] table.
 
+### Scope migration \(November 2026\)
+
+Starting with the November 2026 store release, Trouble Ticket Open API endpoints transition from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`. Both endpoint sets work identically until the Denmark release, when the `sdwan` endpoints are officially removed. See [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/trouble-ticket-open-api.md) for migration details and timelines.
+
+**Note:** Request and response payloads, authentication, and access control remain unchanged between both sets of endpoints. API behavior is identical between both sets.
+
 ### URL format
 
-Default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket/{id}`
+TSM Core default URL: `/api/sn_ind_tsm_core/ticket/troubleTicket/{id}`
+
+S-DWAN default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket/{id}`
 
 ### Supported request parameters
 
@@ -1081,7 +1147,7 @@ This value is always `TroubleTicket`.Data type: String
 This example retrieves a trouble ticket record from the Case \[sn\_customerservice\_case\] table.
 
 ```
-curl "https://instance.servicenow.com/api/sn_ind_tsm_sdwan/ticket/troubleTicket/6467508d47e345508761b955d36d43f6" \
+curl "https://instance.servicenow.com/api/sn_ind_tsm_core/ticket/troubleTicket/6467508d47e345508761b955d36d43f6" \
 --request GET \
 --header "Accept:application/json" \
 --user 'username':'password'
@@ -1092,7 +1158,7 @@ Response body.
 ```
 {
     "id": "370415f03c20e910f8772f1bc332b31b",
-    "href": "/api/sn_ind_tsm_sdwan/ticket/troubleTicket/370415f03c20e910f8772f1bc332b31b",
+    "href": "/api/sn_ind_tsm_core/ticket/troubleTicket/370415f03c20e910f8772f1bc332b31b",
     "creationDate": "2023-01-19 22:39:28",
     "lastUpdate": "2023-01-19 22:41:39",
     "description": "Router is not working, my devices cannot detect any signals from the router. First button from the left is flashing red, all others are black. Resetting the router does not solve the problem, I need urgent assistance.",
@@ -1169,13 +1235,21 @@ Response body.
 }
 ```
 
-## Trouble Ticket - PATCH /sn\_ind\_tsm\_sdwan/ticket/troubleTicket/\{id\}
+## Trouble Ticket - PATCH /api/sn\_ind\_tsm\_core/ticket/troubleTicket/\{id\}
 
 Updates a specified record in the Case \[sn\_customerservice\_case\], Incident \[incident\], or Service Problem Case \[sn\_sprb\_mgmt\_case\] table.
 
+### Scope migration \(November 2026\)
+
+Starting with the November 2026 store release, Trouble Ticket Open API endpoints transition from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`. Both endpoint sets work identically until the Denmark release, when the `sdwan` endpoints are officially removed. See [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/trouble-ticket-open-api.md) for migration details and timelines.
+
+**Note:** Request and response payloads, authentication, and access control remain unchanged between both sets of endpoints. API behavior is identical between both sets.
+
 ### URL format
 
-Default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket/{id}`
+TSM Core default URL: `/api/sn_ind_tsm_core/ticket/troubleTicket/{id}`
+
+S-DWAN default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket/{id}`
 
 ### Supported request parameters
 
@@ -1795,7 +1869,7 @@ This value is always `TroubleTicket`.Data type: String
 This example updates a case record.
 
 ```
-curl "https://instance.servicenow.com/api/sn_ind_tsm_sdwan/ticket/troubleTicket/6467508d47e345508761b955d36d43f6" \
+curl "https://instance.servicenow.com/api//api/sn_ind_tsm_core/ticket/troubleTicket/6467508d47e345508761b955d36d43f6" \
 --request PATCH \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
@@ -1816,7 +1890,7 @@ Response body.
 ```
 {
    "id": "6467508d47e345508761b955d36d43f6",
-   "href": "/api/sn_ind_tsm_sdwan/ticket/troubleTicket/6467508d47e345508761b955d36d43f6",
+   "href": "/api/sn_ind_tsm_core/ticket/troubleTicket/6467508d47e345508761b955d36d43f6",
    "creationDate": "2022-05-16 23:38:55",
    "lastUpdate": "2022-05-16 23:48:42",
    "description": "Updated description",
@@ -1893,13 +1967,21 @@ Response body.
 }
 ```
 
-## Trouble Ticket - POST /sn\_ind\_tsm\_sdwan/ticket/troubleTicket 
+## Trouble Ticket - POST /api/sn\_ind\_tsm\_core/ticket/troubleTicket
 
 Creates a record in the Case \[sn\_customerservice\_case\], Incident \[incident\], or Service Problem Case \[sn\_sprb\_mgmt\_case\] table.
 
+### Scope migration \(November 2026\)
+
+Starting with the November 2026 store release, Trouble Ticket Open API endpoints transition from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`. Both endpoint sets work identically until the Denmark release, when the `sdwan` endpoints are officially removed. See [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/trouble-ticket-open-api.md) for migration details and timelines.
+
+**Note:** Request and response payloads, authentication, and access control remain unchanged between both sets of endpoints. API behavior is identical between both sets.
+
 ### URL format
 
-Default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket`
+TSM Core default URL: `/api/sn_ind_tsm_core/ticket/troubleTicket`
+
+S-DWAN default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket`
 
 ### Supported request parameters
 
@@ -2514,7 +2596,7 @@ Data type: String
 This example creates a trouble ticket case record.
 
 ```
-curl "https://instance.servicenow.com/api/sn_ind_tsm_sdwan/ticket/troubleTicket" \
+curl "https://instance.servicenow.com/api/sn_ind_tsm_core/ticket/troubleTicket" \
 --request POST \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
@@ -2558,7 +2640,7 @@ Response body.
 ```
 {
    "id": "6467508d47e345508761b955d36d43f6",
-   "href": "/api/sn_ind_tsm_sdwan/ticket/troubleTicket/6467508d47e345508761b955d36d43f6",
+   "href": "/api/sn_ind_tsm_core/ticket/troubleTicket/6467508d47e345508761b955d36d43f6",
    "creationDate": "2022-05-16 23:38:55",
    "lastUpdate": "2022-05-16 23:38:55",
    "description": "Laptop keeps shutting off unexpectedly",

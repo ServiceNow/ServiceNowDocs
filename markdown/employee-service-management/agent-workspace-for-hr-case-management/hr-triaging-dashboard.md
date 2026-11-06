@@ -7,9 +7,9 @@ release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # HR Triaging Dashboard
@@ -40,7 +40,7 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Select the Triaging Dashboard icon \(\[Omitted image "triaging-dashboard-icon.png"\]\).
 
-3.  Select the Settings icon \[Omitted image "triage-settings.png"\].
+3.  Select the Settings icon \[Omitted image "triage-settings.png"\] Alt text: Settings.
 
 4.  In the Settings section, perform the following steps:
 

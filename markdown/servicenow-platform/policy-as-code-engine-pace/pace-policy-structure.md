@@ -7,7 +7,7 @@ release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Write and test policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ When a policy is executed, a set of parameters is passed and the policy develope
 
 \[Omitted image "pace-sample-script-new-names.jpg"\] Alt text: Sample script policy.
 
-To debug the script, select the Debugger script icon \[Omitted image "pace-debug-icon.jpg"\] Alt text: Debugger icon. For more information, see [Script Debugger API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scriptdebugger-api.md).
+To debug the script, select the Debugger script icon \[Omitted image "pace-debug-icon.jpg"\] Alt text: Debugger icon. For more information, see .
 
 The following table lists the policy function parameters and how can they be used in your policy script.
 

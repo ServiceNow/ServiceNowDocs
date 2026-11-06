@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/import-certificate.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quorum Controlled Certificate Revocation, Configure, Code Signing, Platform Security]
 ---
@@ -55,4 +55,6 @@ Role required: sn\_cse.codesigning\_admin, sn\_cse.quorum\_requester, security\_
 
 9.  Select **Approver details** and review the status of the quorum requests.
 
+
+**Parent Topic:**[Quorum Controlled Certificate Revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/certificate-revocation.md)
 

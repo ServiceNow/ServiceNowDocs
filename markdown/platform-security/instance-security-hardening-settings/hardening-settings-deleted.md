@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Baseline versions, Hardening settings, Platform Security]
 ---
@@ -16,6 +16,8 @@ breadcrumb: [Baseline versions, Hardening settings, Platform Security]
 
 Some hardening settings are removed from Security Center baselines.
 
+-   **[Deleted hardening settings for baseline version 9.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/deleted-hardening-settings-for-baseline-version-nine.md)**  
+Some hardening settings have been removed with the release of Security Center baseline version 9.0.
 -   **[Deleted hardening settings for baseline version 8.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/deleted-hardening-settings-for-baseline-version-eight.md)**  
 Some hardening settings have been removed with the release of Security Center baseline version 8.0.
 -   **[Deleted hardening settings for baseline version 7.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/deleted-hardening-settings-for-baseline-version-seven.md)**  

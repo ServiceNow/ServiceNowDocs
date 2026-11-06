@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/view-order-timelines.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order fulfillment, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace.** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace.** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -34,15 +34,15 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 6.  To change the information or elements displayed in the timeline view, use these options.
 
-<table id="choicetable_pwy_bnv_c1c"><thead><tr><th align="left" id="d36088e116">
+<table id="choicetable_pwy_bnv_c1c"><thead><tr><th align="left" id="d36641e118">
 
 Option
 
-</th><th align="left" id="d36088e119">
+</th><th align="left" id="d36641e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d36088e125">
+</th></tr></thead><tbody><tr><td id="d36641e127">
 
 **Add or change columns**
 
@@ -53,7 +53,7 @@ Description
 3.  Select **Apply**.
 
 
-</td></tr><tr><td id="d36088e157">
+</td></tr><tr><td id="d36641e159">
 
 **Change the timeline elements displayed**
 
@@ -64,7 +64,7 @@ Description
 3.  Select **Apply**.
 
 
-</td></tr><tr><td id="d36088e189">
+</td></tr><tr><td id="d36641e191">
 
 **Adjust the time scale used**
 

@@ -7,7 +7,7 @@ release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Data export reference, Exporting data, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -275,5 +275,10 @@ The Excel export cell threshold is customizable using the **glide.xlsx.max\_cell
 
 **Note:** Increasing this threshold may cause a memory issue in your instance. The threshold is set at an appropriate level to prevent resource issues.
 
-The export puts the information into the Excel document with 32,000 rows per spreadsheet.
+The export puts the information into the Excel document with 32,000 rows per spreadsheet. You can customize this limit by setting the following properties:
+
+|Property|Maximum export limits|
+|--------|---------------------|
+|glide.export.xls.max.rows.per.sheet|64,000|
+|glide.export.xlsx.max.rows.per.sheet|1,000,000|
 

@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Perform Advanced Risk Assessment, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -91,6 +91,22 @@ Description
 
 Brief description about the purpose of the factor and where to use the factor. This description is for the administrator to understand the factor.
 
+</td></tr><tr><td>
+
+Group factor comments
+
+</td><td>
+
+Option to enable comments for this group factor in the risk assessment form. You must enable this option before you can require comments for the group factor.
+
+</td></tr><tr><td>
+
+Comments required
+
+</td><td>
+
+Option to make comments mandatory when an assessor responds to this group factor. This option is available only when **Group factor comments** is enabled.
+
 </td></tr><tr><td class="sub-head" colspan="2">
 
 Qualitative Score
@@ -120,7 +136,7 @@ Transform qualitative score
 
 </td><td>
 
-Option to transform the overall group qualitative score based on an interval scale.For example, assume the **User response** field is set to **Percentage**. As the admin, you can transform the percentage value into a qualitative score, such that 0% to 30% is low, 30% to 60% is medium, and 60% and higher is high. In this case, the ratings 1, 2, and 3 can be assigned to low, medium, and high.
+Option to transform the overall group qualitative score based on an interval scale.For example, assume the **User response** field is set to **Percentage**. As the admin, you can transform the percentage value into a qualitative score. For example, 0% to 30% is low, 30% to 60% is medium, and 60% and higher is high. The ratings 1, 2, and 3 can be assigned to low, medium, and high.
 
  This field appears only when **Qualitative** is selected from the **Factor contribution** field.
 
@@ -149,7 +165,7 @@ Formula for calculating the overall qualitative risk score. Choices are the foll
 </td></tr></tbody>
 </table>4.  Select **Save**.
 
-5.  In the Factors related list, click **Edit** and add the required factors.
+5.  In the Factors related list, select **Edit** and add the required factors.
 
 6.  Select **Save**.
 

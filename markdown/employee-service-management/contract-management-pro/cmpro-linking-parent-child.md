@@ -22,7 +22,7 @@ When you open a contract request and navigate to the **Related contract requests
 
 From the same tab, you can link a parent contract request, inherit fields from it, or remove an existing link. When linked, the **Parent contract** field in the contract request Details tab is automatically populated with the parent contract request number. The associated contract repository records for the parent and child contract requests are also automatically linked.
 
-When a renewal request is linked to a previous contract, the renewal does not inherit the previous contract's parent-child hierarchy or related-contract family structure. The renewed contract is a new contract connected to the previous one through the renewal link, not a child of it.
+Linking a parent contract request is optional. You can create and process a contract request as a standalone request, without a parent record such as a purchase request, sourcing event, or legal request. Existing contract requests that are linked to a parent record continue to work as before, with no reconfiguration required.
 
 The **Related contract requests** tab displays the following records:
 

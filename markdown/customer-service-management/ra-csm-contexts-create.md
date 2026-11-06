@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-contexts-create.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -80,7 +80,7 @@ When selected, enables asynchronous mode of evaluating recommendations on the co
 
 </td></tr><tr><td>
 
-Exclude fields
+Excluded fields
 
 </td><td>
 

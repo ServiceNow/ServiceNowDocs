@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ For unplanned expense lines not associated to any cost plan, the system creates 
 
 4.  Use one of the following options to add an expense line.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d156729e113">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d160673e113">
 
 Choice
 
-</th><th align="left" id="d156729e116">
+</th><th align="left" id="d160673e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d156729e122">
+</th></tr></thead><tbody><tr><td id="d160673e122">
 
 **Select a cost plan**
 
@@ -56,7 +56,7 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d156729e143">
+</td></tr><tr><td id="d160673e143">
 
 **Select options**
 
@@ -66,7 +66,7 @@ Description
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d156729e170">
+</td></tr><tr><td id="d160673e170">
 
 **Select new expense line option**
 

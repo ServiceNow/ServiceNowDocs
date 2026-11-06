@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-fso-integ-with-friss.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [FRISS, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -32,15 +32,15 @@ In this procedure, you can select either the **Look up Claim Fraud Score via Spo
 
 3.  Depending on which subflow option you select, complete the following actions.
 
-<table id="choicetable_ldc_fz3_zwb"><thead><tr><th align="left" id="d125246e108">
+<table id="choicetable_ldc_fz3_zwb"><thead><tr><th align="left" id="d127255e108">
 
 Option
 
-</th><th align="left" id="d125246e111">
+</th><th align="left" id="d127255e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d125246e117">
+</th></tr></thead><tbody><tr><td id="d127255e117">
 
 **Look up Claim Fraud Score**
 
@@ -50,7 +50,7 @@ Description
 2.  From the list of saved subflows, look for the **Look up Claim Fraud Score** option and open it.
 
 
-</td></tr><tr><td id="d125246e144">
+</td></tr><tr><td id="d127255e144">
 
 **Look up Claim Fraud Score via Spoke selector**
 

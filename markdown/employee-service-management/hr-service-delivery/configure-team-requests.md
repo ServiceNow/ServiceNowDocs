@@ -1,20 +1,20 @@
 ---
 title: Configure team requests
-description: Configure the type of team requests that you want to display on the Requests opened by your team widget in Manager Hub.
+description: Configure the type of team requests that you want to display on the Requests opened by your team widget in Manager Hub in Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-team-requests.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure team requests
 
-Configure the type of team requests that you want to display on the **Requests opened by your team** widget in Manager Hub.
+Configure the type of team requests that you want to display on the **Requests opened by your team** widget in Manager Hub in Employee Center.
 
 ## Before you begin
 
@@ -90,7 +90,7 @@ Action type
 
 </td><td>
 
-Type of action displayed against the team request on, such as URL or Email.
+Type of action displayed against the team request on Manager Hub in Employee Center, such as URL or Email.
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ URL
 
 </td><td>
 
-URL to be displayed against the team request.
+URL to be displayed against the team request on Manager Hub in Employee Center.
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Action icon
 
 </td><td>
 
-Display icon to be displayed against the team request.
+Display icon to be displayed against the team request on Manager Hub in Employee Center.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Order
 
 </td><td>
 
-Order in which the team request configuration records are to be displayed. The team request configuration record with the lowest order number appears first, and the team request configuration record with the highest order number appears last on the user interface.
+Order in which the team request configuration records are to be displayed on Manager Hub in Employee Center. The team request configuration record with the lowest order number appears first, and the team request configuration record with the highest order number appears last on the user interface.
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ Single record display label
 
 </td><td>
 
-Text that must appear when a single request.For example: $\{employee\_name\} requested for $\{request\_type\}
+Text that must appear when a single request is displayed on Manager Hub in Employee Center.For example: $\{employee\_name\} requested for $\{request\_type\}
 
  **Note:** Use tokens in display labels to show dynamic variables to end users. Available tokens: $\{employee\_name\}, $\{request\_type\}
 
@@ -132,7 +132,7 @@ Multiple record display label
 
 </td><td>
 
-Text that must appear when multiple requests are displayed.For example: $\{count\} employee's requested for $\{request\_type\}
+Text that must appear when multiple requests are displayed on Manager Hub in Employee Center.For example: $\{count\} employee's requested for $\{request\_type\}
 
  **Note:** Use tokens in display labels to show dynamic variables to end users. Available tokens: $\{request\_type\}, $\{count\}
 
@@ -150,8 +150,6 @@ Text that must appear when multiple requests are displayed.For example: $\{count
 [Activate a scheduled job]()
 
 [Configure important dates]()
-
-[Configure manager insights for ServiceNow Otto for HRSD]()
 
 [Configure team data]()
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-generate-document.html
 release: australia
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [PDF template for Quotes, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -24,7 +24,7 @@ Before you configure the document generation feature, complete the following ins
 2.  Submit a support ticket requesting to enable the **Document Generation** tenant setting.
 3.  When the tenant setting is enabled, export and import the transaction blueprint.
 
-You must also create a document template before you configure this feature. Document templates are created and managed outside CPQ Administration. For instructions, see [Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-configure-pdf-documents.md).
+You must also create a document template before you configure this feature. Document templates are created and managed outside ServiceNow CPQ Administration. For instructions, see [Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-configure-pdf-documents.md).
 
 ## About this task
 
@@ -95,6 +95,4 @@ To configure the feature, update the system fields, create a custom integration 
 ## Result
 
 When a user selects the generate-document button on a quote, the integration generates a PDF document from the selected template and attaches it to the quote. The document is available in the **Attachments** section of the Contextual Side Panel \(CSP\).
-
-**Parent Topic:**[Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-configure-pdf-documents.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud File Access Setup, Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -32,17 +32,19 @@ Role required: sn\_grc\_workspace.admin \(CRUD\), sn\_grc\_workspace.user \(Read
 
     \[Omitted image "cloud-file-configuration-record.png"\] Alt text: Cloud file configuration record.
 
+    In the **File location ID** field, enter the ID of the Microsoft SharePoint site or document library where the files are uploaded. For steps to find the ID, see [Find the File location ID for a Cloud file configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/get-sharepoint-file-location-id.md).
+
     Cloud file and folders are validated based on the following:
 
     -   **Folder structure**
 
         You can either dynamically configure the folder structure or enter a static folder structure.
 
-        In the folder path, the name of the engagement `${name}` may change, which might change the folder path too. However, the folder path to which the first file was uploaded for this record is picked for all subsequent uploads, even if the values in the dynamic fields change.
+        In the folder path, the name of the engagement `${name}` may change, which might change the folder path too. However, the folder path to which the first file was uploaded for this record is picked for all subsequent uploads. This applies even if the values in the dynamic fields change.
 
     -   **Folder access**
-        -   If you have access to the folder but no access to the file in the folder, then you cannot view the particular file but can view the other files in the folder that you have access to.
-        -   If you do not have access to the folder but can access the file in the folder, then you can view only that particular file in the folder that you have access to.
+        -   If you have access to the folder but no access to the file in the folder, you cannot view that file. However, you can view the other files in the folder that you have access to.
+        -   If you do not have access to the folder but can access the file, you can view only that file.
     -   **Folder name**
 
         If you change the name of the folder or the folder path, then you must manually migrate all the files from the older file path to the new file path. The same must be changed in the cloud folder structure as well.

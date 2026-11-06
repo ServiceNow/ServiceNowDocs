@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-host-health-perf-metrics.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---

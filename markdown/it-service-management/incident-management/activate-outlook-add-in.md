@@ -1,20 +1,20 @@
 ---
 title: Activate the ServiceNow Add-in for Microsoft Office
-description: You can activate the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
+description: You can install the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/activate-outlook-add-in.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Microsoft Outlook to create incidents and VTB tasks, Configuring Incident Management, Incident Management, IT Service Management]
 ---
 
 # Activate the ServiceNow Add-in for Microsoft Office
 
-You can activate the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
+You can install the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
 
 ## Before you begin
 
@@ -41,7 +41,7 @@ For more information, see [Install the ServiceNow Add-in for Microsoft 365](http
 
 2.  Find the ServiceNow Add-in for Microsoft 365 application \(sn\_outlook\_addin\) using the filter criteria and search bar.
 
-    You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
+    You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
     In the list next to the **Install** button, the versions that are available to you are displayed.
 
@@ -63,5 +63,5 @@ For more information, see [Install the ServiceNow Add-in for Microsoft 365](http
 **Related topics**  
 
 
-[List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Authentication policy contexts, Adaptive authentication, Authentication, Access Management]
 ---
@@ -26,8 +26,8 @@ Use the fields in the Post-authentication policy context record to define how yo
 
 **Note:**
 
--   If the default policy is **Step-Up MFA Policy**, users will be shown with Multi-factor Authentication if policy configured in **Step-Up MFA Policy** evaluates to true. Policy takes precedence over the user or role based configuration.
--   MFA with SSO login will only be available if `glide.authenticate.mfa.with.multisso.enabled` Property is set to true.
+-   If the default policy is **Step-Up MFA Policy**, users are shown with Multi-factor Authentication if policy configured in **Step-Up MFA Policy** evaluates to true. Policy takes precedence over the user or role based configuration.
+-   MFA with SSO login is available only if `glide.authenticate.mfa.with.multisso.enabled` property is set to true.
 -   You can navigate to the Authentication Policy record to Add or Edit the 'Policy Input\(s\)' to the referenced Policy field \(**Step-Up MFA Policy** or **Step-Down MFA Policy**\).
 -   MFA context policy applies only for user log ins. It does not apply for API authentication, basic auth, and OAuth resource owner password credential grant.
 
@@ -76,7 +76,7 @@ Step-Up MFA Policy
 
 </td><td>
 
-The policy used for this context uses. This field appears only when the **Default Policy** field is set to **Step-Up MFA Policy**.
+The policy that this context uses. This field appears only when the **Default Policy** field is set to **Step-Up MFA Policy**.
 
 </td></tr><tr><td>
 
@@ -84,14 +84,14 @@ Step-Down MFA Policy
 
 </td><td>
 
-The policy used for this context uses. This field appears only when the **Default Policy** field is set to **Step-Down MFA Policy**.
+The policy that this context uses. This field appears only when the **Default Policy** field is set to **Step-Down MFA Policy**.
 
 </td></tr></tbody>
 </table>## Policy inputs and conditions
 
 The **Policy Input** and **Policy Conditions** tabs display the inputs and conditions of the policy selected in the **Step-Up MFA Policy** or **Step-Down MFA Policy** field. These tabs serve as a reference, but cannot be used to change the policy inputs or conditions. To modify your policy settings, navigate to the policy using the reference icon \(\[Omitted image "reference-icon.png"\] Alt text: Reference icon\) next to the **Step-Up MFA Policy** or **Step-Down MFA Policy** field.
 
-**Note:** Policy conditions can be created from here, but as a good practise it is recommended to add new policy conditions from policy page.
+**Note:** Policy conditions can be created from here, but add new policy conditions from the policy page.
 
 This example shows an MFA context record configured using a step-up MFA policy. This default policy means that MFA is enforced only when the conditions defined in the policy evaluate to true. The context uses a policy called **Step-Up MFA policy**. That policy has a set of inputs and conditions that are displayed in the **Policy Input** and **Policy Condition** tabs.
 
@@ -99,5 +99,5 @@ This example shows an MFA context record configured using a step-up MFA policy. 
 
 ## MFA factor policies
 
-MFA factor policies are a critical component of an organization's security posture, enabling you to enforce additional verification steps beyond passwords. These policies define the authentication methods that users must employ to access providing a flexible and customizable approach to authentication. For more information, see [Multi-Factor Authentication factor policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-factor-policies.md).
+MFA factor policies are a critical component of an organization's security posture, enabling you to enforce additional verification steps beyond passwords. These policies define the authentication methods that users must employ to access providing a flexible and customizable approach to authentication. For more information, see [Multi-factor Authentication factor policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-factor-policies.md).
 

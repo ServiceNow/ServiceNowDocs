@@ -7,7 +7,7 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Defining the scope of projects, Use, Task Mining, Platform Analytics]
 ---
@@ -28,11 +28,11 @@ Role required: admin
 
 3.  Select the More actions icon \[Omitted image "more-actions-menu-icon.png"\].
 
-    \[Omitted image "tm-archive.png"\] Alt text: Screenshot showing the More actions menu and the Archive option highlighted.
+    \[Omitted image "tm-archive.png"\] Alt text: The More actions menu and the Archive option highlighted.
 
 4.  Select **Archive** and confirm.
 
-    \[Omitted image "tm-archive-confirm.png"\] Alt text: Screenshot showing the Archive confirmation panel.
+    \[Omitted image "tm-archive-confirm.png"\] Alt text: The Archive confirmation panel.
 
     Your project is scheduled to close after the end of your Project retention period. For more information, see [Modify the Task Mining data retention period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/define-data-retention.md).
 
@@ -40,11 +40,11 @@ Role required: admin
 
 6.  Select the More actions icon \[Omitted image "more-actions-menu-icon.png"\].
 
-    \[Omitted image "tm-reopen.png"\] Alt text: Screenshot showing the More actions menu and the Reopen option highlighted.
+    \[Omitted image "tm-reopen.png"\] Alt text: The More actions menu and the Reopen option highlighted.
 
 7.  Select **Reopen** and confirm.
 
-    \[Omitted image "tm-reopen-confirm.png"\] Alt text: Screenshot showing the Reopen confirmation panel.
+    \[Omitted image "tm-reopen-confirm.png"\] Alt text: The Reopen confirmation panel.
 
 
 **Related topics**  

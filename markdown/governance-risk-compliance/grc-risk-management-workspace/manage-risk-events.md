@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -56,8 +56,6 @@ The life cycle for risk events goes through the following stages:
 3.  Awaiting approval for the risk event: After all the data is entered and validated, the risk manager may request that the event be approved. The need for approval is determined by the loss threshold defined by the organization. For example, your organization may decide that if a risk event leads to a loss of $100000, then it must be approved by the senior risk management teams. Each event might go through several rounds of approval.
 4.  Approving, rejecting, or canceling a risk event: After the event is approved, the risk manager ensures that the issues created for the risk event are closed and that the root-cause analysis \(RCA\) is complete before the event is closed. At this stage, the approver can also choose to reject or cancel the event with adequate reasons.
 5.  Closing a risk event: After a user with the sn\_risk.manager role is certain that the event has been captured and that the RCA has been completed, the event coordinator can close the risk event. If a risk event has open issues and tasks, then the risk event cannot be closed until the associated issues and tasks are closed.
-
-**Note:** Risk event administrators can also manage the entire risk event workflow, with permissions aligned to the Risk Manager role, including the ability to reopen closed risk events.
 
 The risk events workflow is summarized in the following figure:
 

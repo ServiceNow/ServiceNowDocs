@@ -7,8 +7,8 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -69,23 +69,23 @@ Select an application to learn about the Service Graph Connector available for i
 
 </td><td>
 
-[Tanium \[Omitted image "sgc-tanium.png"\] Alt text: Tanium logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-integration-tanium.md)
+[Omnissa Workspace ONE UEM\[Omitted image "sgc-omnissa.png"\] Alt text: Omnissa Workspace ONE UEM logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-omnissa-works.md)
 
 </td><td>
 
-[Tanium Endpoints \[Omitted image "sgc-tanium.png"\] Alt text: Tanium logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-tanium-endpoints.md)
+[Tanium \[Omitted image "sgc-tanium.png"\] Alt text: Tanium logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-integration-tanium.md)
 
 </td></tr><tr><td>
 
+[Tanium Atlas \[Omitted image "sgc-tanium.png"\] Alt text: Tanium logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-tanium-atlas.md)
+
+</td><td>
+
+[Tanium Atlas Endpoints \[Omitted image "sgc-tanium.png"\] Alt text: Tanium logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-tanium-endpoints.md)
+
+</td><td>
+
 [VMware Workspace ONE UEM\[Omitted image "sgc-vmware-ws-one.png"\] Alt text: VMware Workspace ONE UEM logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/cmdb-integration-workspace-one.md)
-
-</td><td>
-
- 
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>## Monitoring and observability applications
@@ -170,34 +170,46 @@ Select an application to learn about the Service Graph Connector available for i
 
 <table id="table_vyy_h2k_jxb" class="nav-card"><tbody><tr><td>
 
+[BlueCat \[Omitted image "sgc-bluecat.png"\] Alt text: BlueCat logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-bluecat.md)
+
+</td><td>
+
+[Confluent \[Omitted image "sgc-temp-icon.png"\] Alt text: logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-confluent.md)
+
+</td><td>
+
 [Infoblox \[Omitted image "sgc-infoblox.png"\] Alt text: Infoblox logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-infoblox.md)
+
+</td></tr><tr><td>
+
+[Nautobot \[Omitted image "sgc-nautobot.png"\] Alt text: Nautobot logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-nautobot.md)
+
+</td><td>
+
+[NetBrain \[Omitted image "sgc-temp-icon.png"\] Alt text: logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-netbrain.md)
 
 </td><td>
 
 [Trellix\[Omitted image "sgc-trellix.png"\] Alt text: Trellix logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/sgc-integration-trellix.md)
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>## Operational Technology \(OT\) applications
 
 <table id="table_ip4_44q_byb" class="nav-card"><tbody><tr><td>
 
-[Claroty CTD\[Omitted image "sgc-claroty.png"\] Alt text: Claroty CTD logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-cmdb-integration-claroty-ctd.md)
+Claroty CTD\[Omitted image "sgc-claroty.png"\] Alt text: Claroty CTD logo.
 
 </td><td>
 
-[Microsoft Defender for IoT \(On-premises Management Console\)\[Omitted image "sgc-iot-onpremise.png"\] Alt text: A decorative graphic for Microsoft Defender for IoT on-premises management console.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/integration-sgc-microsoft-defender-iot-on-prem.md)
+Microsoft Defender for IoT \(On-premises Management Console\)\[Omitted image "sgc-iot-onpremise.png"\] Alt text: A decorative graphic for Microsoft Defender for IoT on-premises management console.
 
 </td><td>
 
-[Microsoft Defender for IoT \(Azure\)\[Omitted image "sgc-iot-azure.png"\] Alt text: A decorative graphic for Microsoft Defender for IoT Azure graphic.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/integration-sgc-microsoft-defender-iot-azure.md)
+Microsoft Defender for IoT \(Azure\)\[Omitted image "sgc-iot-azure.png"\] Alt text: A decorative graphic for Microsoft Defender for IoT Azure graphic.
 
 </td></tr><tr><td>
 
-[Operational Technology \(Excel import\)\[Omitted image "sgc-ms-excel.png"\] Alt text: Microsoft Excel logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/service-graph-connector-for-OT-excel.md)
+Operational Technology \(Excel import\)\[Omitted image "sgc-ms-excel.png"\] Alt text: Microsoft Excel logo.
 
 </td><td>
 

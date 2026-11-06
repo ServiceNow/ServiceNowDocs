@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/explore-crm-outlook-add-in.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Activity Management, Sales automation, Explore, Sales Customer Relationship Management]
 ---
@@ -68,7 +68,7 @@ The following workflow illustration shows how a sales representative captures an
 7.  The representative searches for existing CRM records matching the sender's name, email, company, or other identifying information.
     -   If a matching record exists, the representative associates the email to the lead, contact, opportunity, or account.
     -   If no matching record exists, the representative creates a lead or contact record and associates the email to that record in one action.
-8.  Sales teams can view the associated email on the CSM/FSM Configurable Workspace.
+8.  Sales teams can view the associated email on the CRM Workspace.
 
 ## CRM Outlook Add-in benefits
 

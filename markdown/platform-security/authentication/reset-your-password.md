@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure your password policy, Password complexity requirements, Local authentication, Authentication, Access Management]
 ---
@@ -20,7 +20,7 @@ Set your user's password for the instance based on the password policy that is c
 
 Users created for setting the password for their first login. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md).
 
-To populate the **Password** field directly on the user form, enable the **Enable to show the password field on the sys\_user Form** \(glide.user.show.password.field\). To know more about the properties, see [Password policy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/password-policy-properties.md).
+To populate the **Password** field directly on the user form, the **Enable to show the password field on the sys\_user Form** \(glide.user.show.password.field\) property must be enabled. To know more about the properties, see [Password policy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/password-policy-properties.md).
 
 Role required: password\_policy\_admin
 
@@ -30,30 +30,30 @@ Role required: password\_policy\_admin
 
 2.  Select the user from the list in the Users page.
 
-3.  To set the password based on the password policy, click **Set Password**.
+3.  To set the password based on the password policy, select **Set Password**.
 
     The Set Password pop-up is displayed.
 
     \[Omitted image "set-password.png"\] Alt text: Set Password
 
-4.  In the Set Password, perform the following.
+4.  In the Set Password pop-up, perform the following.
 
-    1.  Click **Generate** to generate the password.
+    1.  Select **Generate** to generate the password.
 
         \[Omitted image "generate-password.png"\] Alt text: Generate Password
 
-    2.  Click the **View** icon to view the password.
+    2.  Select the **View** icon to view the password.
 
         \[Omitted image "view-password.png"\] Alt text: View Password
 
-    3.  Click the **Copy** icon to copy the password to share to the user.
+    3.  Select the **Copy** icon to copy the password to share with the user.
 
         \[Omitted image "copy-password.png"\] Alt text: Copy Password
 
-5.  Click **Save Password**.
+5.  Select **Save Password**.
 
-    The password is set for the user. Also the Password needs rest check-box is automatically enabled.
+    The password is set for the user. Also the **Password needs reset** check box is automatically selected.
 
-    The user during the first login must use the same password for login and change the password upon login adhering to the password policy configured by the administrators.
+    The user during the first login must use the same password for login and change the password on login adhering to the password policy configured by the administrators.
 
 

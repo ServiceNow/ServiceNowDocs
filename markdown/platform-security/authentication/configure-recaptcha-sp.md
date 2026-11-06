@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure a user registration configuration for external users, Self-register to ServiceNow instance, Authentication, Access Management]
+breadcrumb: [Configure a user registration configuration for external users, Self-registration to ServiceNow instance, Authentication, Access Management]
 ---
 
 # Configure Google reCAPTCHA for external user self-registration
@@ -63,7 +63,7 @@ glide.user.registration.captcha.widget
 
 </td><td>
 
-The Sys\_ID of the Captcha Widget.
+The sys\_id of the Captcha Widget.
 
  Type: String
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/now-assist-notifications.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Notification agent and agentic workflows in Notifications
@@ -41,7 +41,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for chat summarization, resolution notes generation, knowledge generation, call summarization\), chat transcripts \(for chat recommendation\), and email information \(for email response\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for chat summarization, resolution notes generation, knowledge generation, call summarization\), chat transcripts \(for chat recommendation\), and email information \(for email response\). Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md).
 

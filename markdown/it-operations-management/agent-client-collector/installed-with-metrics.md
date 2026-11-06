@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -124,7 +124,7 @@ Metric Intelligence — Validate MID Distributed cluster
 
 1.  Checks the status of the cluster node.
 
-If status is **Started** and the status of the Metric Intelligence extension is not any of **Started**/**Starting**/**Warning** \[warning with specific errors\], the job changes the status of the cluster node to **Stopped**.
+If status is **Started** and the status of the Metric Intelligence extension is not any of **Started**/**Starting**/**Warning** \[warning with specific errors\], the job takes action. The job changes the status of the cluster node to **Stopped**.
 
 This happens when MID Server stops unexpectedly without notifying the instance that it is stopping.
 
@@ -190,7 +190,7 @@ Metric Intelligence - Combined Model Learner Job
 
 </td><td>
 
-Constructs information for real time anomaly detection \(calculating data frequency and building statistical models\) on a subset of collected series.
+Constructs information for real time anomaly detection on a subset of collected series. Calculates data frequency and builds statistical models.
 
 </td></tr></tbody>
 </table>## Tables installed

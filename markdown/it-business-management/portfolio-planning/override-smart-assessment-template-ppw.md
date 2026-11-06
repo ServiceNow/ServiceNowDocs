@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-10-05"
 reading_time_minutes: 1
 keywords: [smart assessment template override, DemandSmartAssessmentUtils, change assessment template]
-breadcrumb: [Configure, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Assess demands with smart assessments, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Use a custom smart assessment template for demands

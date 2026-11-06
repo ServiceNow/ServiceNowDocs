@@ -7,9 +7,9 @@ release: australia
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2025-11-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Tagging in Knowledge Graph Designer, Using Enterprise graph schema, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Tagging in Knowledge Graph Designer, Using Enterprise graph schema, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Create Knowledge Graph tag
@@ -64,7 +64,7 @@ Role required: admin
     -   Use the commonly used table names as synonyms to help AI recognize it in natural language queries.
     -   Example: you can add Tickets as a synonym for the Incident table.
     -   You can add up to five synonyms only.
-6.  To delete a synonym, select \[Omitted image "icon-docintel-delete-grid-line.png"\] icon next to the synonym.
+6.  To delete a synonym, select \[Omitted image "image.icon-docintel-delete-grid-line"\] icon next to the synonym.
 
 7.  Add AI Instructions in the Table Configurations section and select **Add**.
 

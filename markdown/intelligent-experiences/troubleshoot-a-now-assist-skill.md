@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [Now Assist, skill, troubleshoot, diagnostic, nsa\_admin, Generative AI, GenAI]
-breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Troubleshoot an AI skill
@@ -25,9 +25,9 @@ Certain skills have diagnostic scripts that you can run from the AI Admin Hub co
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
-    If you’re already in the AI Admin Hub, select the **AI Skills** tab.
+    If you’re already in the AI Admin Hub console, select the **AI Skills** tab.
 
 2.  In the navigation pane, select the workflow of the skill that you want to troubleshoot, such as **Technology** or **Customer**.
 

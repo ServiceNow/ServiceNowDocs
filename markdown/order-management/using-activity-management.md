@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-activity-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [use]
 breadcrumb: [Sales automation apps, Use, Sales Customer Relationship Management]
@@ -51,7 +51,7 @@ Schedule appointments with customers and stakeholders directly from a touchpoint
 -   **[Associate an email with an existing CRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/associate-email-crm-outlook.md)**  
 Link an email to an existing lead, account, contact, or opportunity record directly from Microsoft Outlook. Associating emails with CRM records helps maintain a complete engagement history without having to switch between applications.
 -   **[Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-associated-emails-crm.md)**  
-View emails that have been linked to CRM records using the Microsoft Outlook directly from the CSM/FSM Configurable Workspace.
+View emails that have been linked to CRM records using the Microsoft Outlook directly from the CRM Workspace.
 -   **[Create a CRM record from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-crm-entity-outlook.md)**  
 Create a new lead or contact record and associate an email with it directly from Microsoft Outlook, enabling you to capture new prospects without having to leave your email inbox.
 

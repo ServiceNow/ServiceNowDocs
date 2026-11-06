@@ -9,7 +9,7 @@ classification: strategic-planning
 topic_type: concept
 last_updated: "2026-09-25"
 reading_time_minutes: 4
-breadcrumb: [Explore, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Enterprise-Wide Deployment for demands

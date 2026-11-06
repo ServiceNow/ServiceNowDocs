@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/task-plan-template-access-record.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Service forms, Reference, Customer Service Management]
+breadcrumb: [Share a task plan template with other users or groups, Sharing task plan templates, Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Task plan template access record

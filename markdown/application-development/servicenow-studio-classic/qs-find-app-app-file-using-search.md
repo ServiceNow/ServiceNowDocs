@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Find an app or app file using Search
@@ -24,13 +24,8 @@ Role required: admin or delegated\_developer
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Select the Search bar using one of the following options.
+2.  Select the Search icon \[Omitted image "sn-studio-search-icon.png"\] Alt text: in the Navigator panel.
 
-    -   If you are on the ServiceNow Studio home page, select the Search icon \[Omitted image "sn-studio-search-icon.png"\] Alt text: Search icon in the Navigator panel, or select the main Search bar.
-
-        \[Omitted image "sn-studio-main-search.png"\] Alt text: Main Search bar in ServiceNow Studio
-
-    -   If you are on any other page, such as Tools or Deployment, select the Search icon \[Omitted image "sn-studio-search-icon.png"\] Alt text: Search icon in the left side navigation.
     **Note:** To access Search from any page using a keyboard shortcut, press `⌘ + /` or `ctrl + /`.
 
 3.  To search within code, select the switch next to **Activate code search**.

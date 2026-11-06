@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent-general-guidelines.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-24"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # General guidelines for Build Agent
@@ -34,6 +34,10 @@ To maximize Build Agent effectiveness, use the following practices:
 
 Use the following guidelines to get better results from Build Agent.
 
+-   **Use Autonomous Engineer for large implementations**
+
+    For complex apps or ServiceNow product implementations, use Autonomous Engineer. Autonomous Engineer interviews you, generates a plan with work items, and builds all work items in parallel in the background. Review and approve the plan before Build Agent starts building. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-autonomous-engineer.md).
+
 -   **Ask Build Agent to prompt for you**
 
     Ask Build Agent to suggest an ideal prompt for your goal or coach you on common pitfalls for a given metadata type. To learn more, see this Community article on [The fastest way to learn Build Agent prompting? Ask Build Agent](https://www.servicenow.com/community/now-assist-for-creator-articles/the-fastest-way-to-learn-build-agent-prompting-ask-build-agent/ta-p/3533544).
@@ -42,13 +46,9 @@ Use the following guidelines to get better results from Build Agent.
 
     One detailed prompt can provide better results than several vague ones. Include tables, fields, roles, and automation in a single prompt.
 
--   **Use the planning tool**
-
-    For complex apps, ask Build Agent to create a plan first. Review and approve before it starts building.
-
 -   **Let Build Agent interview you**
 
-    For broad ideas, let Build Agent ask clarifying questions before planning. This produces better results than guessing at details yourself.
+    For broad ideas, let Build Agent ask clarifying questions before planning. In Autonomous Engineer, this interview is built into the workflow. In standard chat, you can prompt Build Agent to ask questions before it starts building. Both approaches produce better results than trying to anticipate every detail yourself.
 
 -   **Use specific ServiceNow terminology**
 

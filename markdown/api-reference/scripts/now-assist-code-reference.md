@@ -7,7 +7,7 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
@@ -23,5 +23,5 @@ Understand the roles needed to use ServiceNow Otto for Code. These roles are cre
 -   **[Keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/keyboard-shortcuts.md)**  
 Learn about the keyboard shortcuts that you can use in the script editor on the ServiceNow AI Platform®.
 
-**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
+**Parent Topic:**[Scripting on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/scripting-landing.md)
 

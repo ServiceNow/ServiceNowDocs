@@ -7,8 +7,8 @@ release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 13
+last_updated: "2026-09-10"
+reading_time_minutes: 12
 keywords: [Virtual, Agent, branding]
 breadcrumb: [Branding your chat client, General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
@@ -18,8 +18,6 @@ breadcrumb: [Branding your chat client, General chat settings, Configuring Conve
 Create different Virtual Agent branding configurations for the various organizations that use your instance. These configurations apply to the web-based chat and mobile clients only.
 
 ## Before you begin
-
-If you're using ServiceNow® mobile, make sure you set up Virtual Agent for mobile chat. For details, see [Configure Virtual Agent for a ServiceNow mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-mobile-web-client.md).
 
 Check for updates and improvements to the Omni-Experience Standard Feature Set application on the ServiceNow Store.
 
@@ -51,7 +49,7 @@ Branding name
 
 </td><td>
 
-Name of the branding configuration.Create a new branding configuration or select one of the available choices. For the Australia release, the choices include:
+Name of the branding configuration.Create a new branding configuration or select one of the available choices. For the Brazil release, the choices include:
 
 -   Coral Light
 -   Polaris-Dark
@@ -112,7 +110,7 @@ Bot Profile
 
 </td><td>
 
-List that opens the Live Profile form to select or create a new bot user profile, which includes the bot picture \(avatar\). This bot picture appears in the chat messages.-   To review and edit the Virtual Agentor Now Assist bot profile, select the information icon.
+List that opens the Live Profile form to select or create a new bot user profile, which includes the bot picture \(avatar\). This bot picture appears in the chat messages.-   To review and edit the Virtual Agent or ServiceNow Otto bot profile, select the information icon.
     -   To change the bot picture or description, select **Edit record** in the message at the top of the page.
     -   In the Live Profile form, modify the fields and select **Update**.
 -   To choose or change the bot for the configuration, select the search icon and select the **Bot Profile** field. Choose the bot profile that you created in a previous step.
@@ -138,7 +136,9 @@ Enable showing the 'New Messages Below' or 'New Messages Above' notification
 Select this option to display notifications for new messages below or above your current view of the chat.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>    \[Omitted image "create-branding.png"\] Alt text: Setting up a new chat brand.
+
+5.  Select **Save**.
 
     From here, you can adjust the color, icons, and font type and size of the chat client to match your brand. For example, you can:
 
@@ -339,7 +339,7 @@ Global.
 
 10. Navigate to the Branding table \[sys\_cs\_branding\_setup.list\], and select the Branding Name you created.
 
-    **Note:** This step is only applicable if you’re configuring an assistant using Now Assist in Virtual Agent enhanced chat or enhanced chat's full-page experience.
+    **Note:** This step is only applicable if you’re configuring an assistant using ServiceNow Otto for Virtual Agent enhanced chat or enhanced chat's full-page experience.
 
     1.  Select **Configure** &gt; **Form Layout** from the Additional Actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\).
 
@@ -358,7 +358,7 @@ Global.
 
 11. Do one of the following to apply the branding configuration:
 
-    -   Apply the branding configuration to a Service Portal Agent Chat Configuration. In the server script that passes page and widget data to an Agent Chat \(Virtual Agent or Live Agent\) conversation, specify the branding key to be used. Items passed in this script are available to all pages in the portal. For details on setting up Service Portal Agent Chat, see [Add your bot to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-bot-portal.md).
+    -   Apply the branding configuration to a Service Portal Agent Chat Configuration. In the server script that passes page and widget data to an Agent Chat \(Virtual Agent or Live Agent\) conversation, specify the branding key to be used. Items passed in this script are available to all pages in the portal. For details on setting up Service Portal Agent Chat, see [Add your bot to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-bot-portal.md).
 
         For example, the following Service Portal Agent Chat Configuration for the Knowledge Portal uses the chat branding key `custom_1`.
 

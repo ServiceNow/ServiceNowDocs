@@ -1,13 +1,13 @@
 ---
 title: Cloud Runner TestGenerationApi – Scoped, Global
-description: Manages test job generation to be executed in a cloud runner for Automated Test Framework \(ATF\). This API is part of the CloudRunnerApi script include.Sets the test generation job and its associated update set record to complete status. If any test jobs are in progress on cancellation, this method sets any of the in-progress test records generated to skipped.Provides the status of each generated test for a provided Browser Orchestration Queue \(BOQ\) record.Inserts a record into the Browser Orchestration Queue \(BOQ\) \[sn\_atf\_tg\_sn\_boq\] table to start a test job.
+description: Manages test job generation to be executed in a cloud runner for Automated Test Framework \(ATF\). This API is part of the CloudRunnerApi script include.Sets the test generation job and its associated update set record to complete status. Cancels the root trackers of any generated tests that are running. If any test jobs are in progress on cancellation, this method sets any of the in-progress test records generated to skipped.Provides the status of each generated test for a provided Browser Orchestration Queue \(BOQ\) record.Inserts a record into the Browser Orchestration Queue \(BOQ\) \[sn\_atf\_tg\_sn\_boq\] table to start a test job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/cloudrnr-TestGenerationAPI-scoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -34,7 +34,7 @@ See also:
 
 ## TestGenerationApi – cancelJob\(String snboqId\)
 
-Sets the test generation job and its associated update set record to complete status. If any test jobs are in progress on cancellation, this method sets any of the in-progress test records generated to skipped.
+Sets the test generation job and its associated update set record to complete status. Cancels the root trackers of any generated tests that are running. If any test jobs are in progress on cancellation, this method sets any of the in-progress test records generated to skipped.
 
 |Name|Type|Description|
 |----|----|-----------|

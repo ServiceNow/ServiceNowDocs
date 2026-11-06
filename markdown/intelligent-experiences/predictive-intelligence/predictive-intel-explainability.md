@@ -7,9 +7,9 @@ release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create and train a classification solution, Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Create and train a classification solution, Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Model Explainability
@@ -73,15 +73,15 @@ The script provided in the procedure creates and trains a model with explainabil
 
     -   The label for this drop-down list is the name of your output \(predicted\) field, so the label is specific to each model.
     -   The values in the drop-down list are the possible output classes for your output field, plus the **Global** option.
-<table id="choicetable_afh_pny_12c"><thead><tr><th align="left" id="d359437e157">
+<table id="choicetable_afh_pny_12c"><thead><tr><th align="left" id="d340963e157">
 
 List option
 
-</th><th align="left" id="d359437e160">
+</th><th align="left" id="d340963e160">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d359437e166">
+</th></tr></thead><tbody><tr><td id="d340963e166">
 
 **__Global__**
 
@@ -89,7 +89,7 @@ Description
 
 Provides an overview of how the model behaves across all predictions, showing the overall impact of each input feature.Select **Global** to open a graph of the importance of your input fields to predictions for all output classes as a whole.
 
-</td></tr><tr><td id="d359437e181">
+</td></tr><tr><td id="d340963e181">
 
 **`Your output class value`**
 

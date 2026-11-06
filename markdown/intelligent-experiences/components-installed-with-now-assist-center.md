@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-10-02"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Reference, AI Admin Center, Enable AI experiences]
+breadcrumb: [Reference, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Components installed with AI Admin Center

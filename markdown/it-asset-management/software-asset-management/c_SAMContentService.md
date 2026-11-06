@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 7
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management Content Service
@@ -275,7 +275,9 @@ Software entitlement details are extracted from software contracts using machine
 -   Agreement type
 
 </td></tr></tbody>
-</table>## Opting out
+</table>You can opt in to Content Service from the Configuration Console for Software Asset Management. The Console provides an AI-guided setup to walk you through the process. For more details about the Configuration Console, see [Configure Content Service setup using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-content-service-otto.md).
+
+## Opting out
 
 You can opt out at any time from the Content Service Setup page.
 
@@ -294,4 +296,10 @@ The Software Asset Management Content Service provides content updates to your i
 [Normalization and Content Service dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-normalization-dash.md)
 
 [Enable sharing information with Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_EnableSAMContentService.md)
+
+[Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/config-console-sam.md)
+
+[Configuration Console overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/config-console-overview.md)
+
+[Configure Software Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-sam-from-config-console.md)
 

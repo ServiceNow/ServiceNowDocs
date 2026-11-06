@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/hr-analytics-cbs-dashboard.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Human Resources analytics, CBS Analytics, Core Business Suite dashboard, HR cases, performance trends]
 breadcrumb: [CBS Analytics overview, View Core Business Suite Analytics, Use, Core Business Suite]

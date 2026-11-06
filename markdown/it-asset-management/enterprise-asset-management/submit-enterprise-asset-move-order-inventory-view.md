@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Submitting an enterprise asset move order, Managing enterprise asset move orders, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
     |Field|Description|
     |-----|-----------|
-    |Requested for|User who the move order is being submitted for. If you specify a user in this field, the move order can include enterprise assets that are assigned only to that user.|
+    |Requested for|User who the move order is being submitted for.|
     |Move date|Date on which you want to move the enterprise assets.|
     |Assignment group|Group that you want to assign the move order to.|
     |Assigned to|User who you want to assign the move order to.|

@@ -1,18 +1,18 @@
 ---
-title: Track government service requests using Service Request Playbook
-description: Track all the service requests that are assigned to you or other agents in your government agency by using the Service Request Playbook.
+title: Track government service requests using Service Request Administration
+description: Track all the service requests that are assigned to you or other agents in your government agency by using the Service Request Administration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-playbook-view-service-request-cases-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Service Request Playbooks, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Track government service requests using Service Request Playbook
+# Track government service requests using Service Request Administration
 
-Track all the service requests that are assigned to you or other agents in your government agency by using the Service Request Playbook.
+Track all the service requests that are assigned to you or other agents in your government agency by using the Service Request Administration.
 
 ## Before you begin
 
@@ -29,7 +29,7 @@ When you select a case, a form opens with the following sections:
 
 ## Procedure
 
-1.  Open the Service Request Playbook by navigating to Lists in the CRM Workspace.
+1.  Open the Service Request Administration by navigating to Lists in the Public Sector Workspace.
 
 2.  Navigate to the **Service Requests** list and click **All**.
 

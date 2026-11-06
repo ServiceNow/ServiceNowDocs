@@ -1,5 +1,5 @@
 ---
-title: Require authorization for data broker rest API \[Updated in Security Center 1.3\]
+title: Require authorization for data broker rest API
 description: Use the glide.basicauth.required.databrokerrestapiprocessor property to require basic authorization for all inbound Data Broker Rest API requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-data-broker-rest-api-authorization.html
@@ -7,12 +7,12 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Platform Security]
 ---
 
-# Require authorization for data broker rest API \[Updated in Security Center 1.3\]
+# Require authorization for data broker rest API
 
 Use the **glide.basicauth.required.databrokerrestapiprocessor** property to require basic authorization for all inbound Data Broker Rest API requests.
 

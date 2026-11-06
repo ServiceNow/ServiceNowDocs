@@ -1,46 +1,44 @@
 ---
-title: Major Incident workbench — Summary tab
-description: The Summary tab provides a unified view of information in the form of a card layout. The information on impacted services, affected CIs, active outages, locations that are impacted, and child incidents helps to keep you informed about related records associated with an incident.
+title: Summary tab in the Major Incident workbench
+description: The Summary tab displays information about records related to an incident in a card layout, including impacted services, affected configuration items \(CIs\), active outages, impacted locations, and child incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/mi-workbench-summary-tab.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Major incident workbench UI elements, Major incident workbench, Managing major incidents, Incident Management, IT Service Management]
 ---
 
-# Major Incident workbench — Summary tab
+# Summary tab in the Major Incident workbench
 
-The **Summary** tab provides a unified view of information in the form of a card layout. The information on impacted services, affected CIs, active outages, locations that are impacted, and child incidents helps to keep you informed about related records associated with an incident.
+The **Summary** tab displays information about records related to an incident in a card layout, including impacted services, affected configuration items \(CIs\), active outages, impacted locations, and child incidents.
 
-## Summary tab
-
-\[Omitted image "major-incident-workbench.png"\] Alt text: major-incident-workbench
+\[Omitted image "major-incident-workbench.png"\] Alt text: Summary tab of the major incident workbench with cards for related records
 
 You can add, create, or edit each of the components. You can also view, post, or filter the latest activity on the major incident.
 
-The tab also provides a quantitative summary of the active and completed tasks, as well as users or groups who are involved in resolving the major incident. The communication tasks are sorted in ascending order based on the order value.
+The tab also provides a quantitative summary of the active and completed tasks and of the users or groups involved in resolving the major incident. The communication tasks are sorted in ascending order based on the order value.
 
-The **Time remaining** column provides information regarding the time when the communication task is due.
+The **Time remaining** column shows when the communication task is due.
 
--   If you do not perform the communication task within the set time, the value changes to **Overdue**.
--   If you activate the On-call Scheduling plugin \(com.snc.on\_call\_rotation\): The user who is on-call for the respective group and the group name appear in the summary.
+-   If you don't perform the communication task within the set time, the value changes to **Overdue**.
+-   If you activate the On-Call Scheduling plugin \(com.snc.on\_call\_rotation\), the summary displays each group name and the user who is on call for that group.
 
-The Groups section displays On-Call information, including the On-Call Escalation Tracking icon \(\[Omitted image "icon-esc-tracking-oncall.png"\] Alt text: On-Call Escalation Tracking icon\) that indicates the active status of the escalation. Green indicates an active escalation, and black indicates a finished escalation. Click the icon to view the On-Call Escalation Tracking pop-up.
+The Groups section displays on-call information, including the On-Call Escalation Tracking icon \[Omitted image "icon-esc-tracking-oncall.png"\] Alt text: that indicates the active status of the escalation. Green indicates an active escalation, and black indicates a finished escalation. Select the icon to view the On-Call Escalation Tracking pop-up.
 
-Activate the Event Management plugin \(com.glideapp.itom.snac\) to add an **Alert** card under the **Summary** tab that keeps you up-to-date on the number of alerts for each incident. The count is the total of all primary and secondary alerts for the incident.
+Activate the Event Management plugin \(com.glideapp.itom.snac\) to add an **Alert** card to the **Summary** tab that shows the number of alerts for each incident. The count is the total of all primary and secondary alerts for the incident.
 
 **Parent Topic:**[Major incident workbench UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/mi-workbench-ui-elements.md)
 
 **Related topics**  
 
 
-[Post Incident Report tab]()
+[Post Incident Report tab in the Major Incident workbench]()
 
-[The Communicate tab in the Major Incident workbench]()
+[Communicate tab in the Major Incident workbench]()
 
-[Major Incident workbench — the Collaborate tab]()
+[Collaborate tab in the Major Incident workbench]()
 

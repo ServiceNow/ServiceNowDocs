@@ -7,7 +7,7 @@ release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -193,7 +193,7 @@ Hovering your mouse cursor over a bubble displays the following details about th
 
  From the Story State section towards the right of the report, you can filter the report to view the cycle time of the stories for the selected states. The chart displays the cycle time for each story as the cumulative sum of all duration of the selected states.
 
-If there are too many stories at any area of the chart and the bubbles appear crowded on the report, you can zoom in that particular area of the report for clearer view.
+If the bubbles appear crowded in an area of the chart, zoom in on that area for a clearer view.
 
  \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 

@@ -7,7 +7,7 @@ release: australia
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a proxy server using PAC file \(automatic configuration script method\), Configure the Password Reset Windows Application to use a proxy server, Installing and configuring Password Reset Windows Application, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---

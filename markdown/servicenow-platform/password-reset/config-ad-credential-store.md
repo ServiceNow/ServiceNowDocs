@@ -7,7 +7,7 @@ release: australia
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Credentials Store for Password Reset for Active Directory, Credential stores for Password Reset, Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -143,7 +143,7 @@ Default settings:-   Selected for local ServiceNow credential stores
 
 7.  Click **Submit**.
 
-8.  Set up the [Microsoft AD v2 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-ms-ad-v2.md)
+8.  Set up the Microsoft AD v2 spoke
 
 9.  [Test the connection to the credential store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/test-cxn-to-credential-store.md).
 

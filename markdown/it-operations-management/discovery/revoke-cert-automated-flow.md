@@ -1,5 +1,5 @@
 ---
-title: Revoke a certificate using automated certificate management
+title: Revoke certificates using automated certificate management
 description: Revoke certificate for an application. Revocation doesn't require approval if order Id and certificate Id are present in the Certificate Extension table. If order Id and certificate Id aren't present in the Certificate Extension table, then you need approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/revoke-cert-automated-flow.html
@@ -7,12 +7,12 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Automated certificate management for TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Revoke a certificate using automated certificate management
+# Revoke certificates using automated certificate management
 
 Revoke certificate for an application. Revocation doesn't require approval if **order Id** and **certificate Id** are present in the Certificate Extension table. If **order Id** and **certificate Id** aren't present in the Certificate Extension table, then you need approval.
 

@@ -7,7 +7,7 @@ release: australia
 product: Machine Learning solutions for Search
 classification: machine-learning-solutions-for-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Machine learning solutions for Search administration, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---

@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Network SME AI agent

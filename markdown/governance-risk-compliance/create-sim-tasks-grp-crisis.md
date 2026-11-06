@@ -1,16 +1,16 @@
 ---
-title: Create a similar tasks group in a crisis
+title: Create a similar tasks group
 description: Identify and group similar or duplicate tasks related to a crisis event using the Similar tasks groups tab. Grouping similar tasks helps you to optimize event task management and minimize redundant work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-sim-tasks-grp-crisis.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Structured workflows for Crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Create a similar tasks group in a crisis
+# Create a similar tasks group
 
 Identify and group similar or duplicate tasks related to a crisis event using the **Similar tasks groups** tab. Grouping similar tasks helps you to optimize event task management and minimize redundant work.
 
@@ -49,7 +49,7 @@ For information on the state changes for event tasks in similar tasks groups, se
 
         **Note:** When you select **Add** in the **Event tasks** tab, the modal displays only applicable event tasks, helping to prevent cyclic dependencies.
 
-    To add events tasks with dependencies to the Similar tasks group, a cyclic dependency validation check is performed by the system. An event task and its dependent event task can't be added to the same similar task group. For example, if you add task 4 to an event task group and task 5 depends on it, task 5 can't be added to the same group.
+    To add events tasks with dependencies to the Similar tasks group, a cyclic dependency validation check is performed by the system. An event task and its dependent event task can't be added to the same similar task group. For example, if you add task 4 into an event task group and task 5 is dependent on task 4, task 5 cannot be added. The example shows this dependency relationship.
 
     \[Omitted image "event-task-cyclic-check.png"\] Alt text: Cyclic check.
 
@@ -68,5 +68,5 @@ For information on the state changes for event tasks in similar tasks groups, se
     The event task is deleted from the event.
 
 
-**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
+**Parent Topic:**[Structured workflows for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
 

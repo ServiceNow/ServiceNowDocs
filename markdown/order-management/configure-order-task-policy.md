@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-order-task-policy.html
 release: australia
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
 ---

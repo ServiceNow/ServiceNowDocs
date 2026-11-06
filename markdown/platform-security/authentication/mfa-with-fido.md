@@ -1,32 +1,32 @@
 ---
 title: FIDO2 as an MFA factor
-description: You can configure FIDO2 as an MFA factor policy to enforce MFA for yours.
+description: You can configure FIDO2 as an MFA factor policy to enforce MFA for your users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-with-fido.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [MFA factor policies, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
 # FIDO2 as an MFA factor
 
-You can configure FIDO2 as an MFA factor policy to enforce MFA for yours.
+You can configure FIDO2 as an MFA factor policy to enforce MFA for your users.
 
-FIDO2 is a password-less authentication standard that enables users to authenticate using a physical security key or biometric authentication. It provides a more secure alternative to traditional MFA methods, reducing the risk of phishing and other cyberattack.
+FIDO2 is a passwordless authentication standard that enables users to authenticate using a physical security key or biometric authentication. It provides a more secure alternative to traditional MFA methods, reducing the risk of phishing and other cyberattacks.
 
 The FIDO2 factor policy enhancement provides a secure authentication method to your multi-factor authentication \(MFA\) policies. You can configure FIDO2 as an MFA factor policy option, providing a higher level of security compared to traditional methods like Email and SMS.
 
 \[Omitted image "biometirc-mfa.png"\] Alt text: MFA- Biometric or Hardware keys
 
-You can configure FIDO2 factor policy and when the users satisfies the factor policy condition, the during log in to ServiceNow, FIDO2 setup is displayed for the users who haven't already added registered Hardware key or Biometric on their profile.
+You can configure a FIDO2 factor policy. When the user satisfies the factor policy condition and logs in to ServiceNow, FIDO2 setup is displayed for the users who haven't already added registered Hardware key or Biometric on their profile.
 
 If the registration is completed, then second factor validation screen is displayed to log in.
 
-**Note:** FIDO2 can also be self-enrolled by the users. To know more about how to self-enroll, see [Set up Multi-factor authentication on your user profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-setup-profile.md).
+**Note:** FIDO2 can also be self-enrolled by the users. To know more about how to self-enroll, see [Set up multi-factor authentication on your user profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-setup-profile.md).
 
 ## Key Benefits
 
@@ -34,7 +34,7 @@ The following are some of the key benefits of using FIDO2 as an MFA factor:
 
 -   **Exclusive FIDO2 Authentication**
 
-    Ensure high-privilege accounts can only authenticate using FIDO2's strong authentication capabilities \(biometrics, passkeys, or hardware security keys\).
+    Limit high-privilege accounts to authenticating by using FIDO2's strong authentication capabilities \(biometrics, passkeys, or hardware security keys\).
 
 -   **Exclusion of less secure methods**
 
@@ -51,7 +51,7 @@ The following are some of the key benefits of using FIDO2 as an MFA factor:
 
 As a higher-security factor, FIDO2 has exclusive enforcement capabilities. When it's the only matching policy for a user:
 
--   Overrides other enroll-enrolled factors.
+-   Overrides other enrolled factors.
 -   Forces FIDO2 registration, if the user isn’t enrolled.
 -   Becomes the exclusive authentication option.
 
@@ -61,7 +61,7 @@ The following table illustrates how different user scenarios are handled based o
 
 Example Factor Policy Conditions:
 
--   **FIDO2 Factory Policy**: Condition is "ITIL role should be true".
+-   **FIDO2 Factor Policy**: Condition is "ITIL role should be true".
 -   **EMAIL Factor Policy**: Condition is "ASSET role should be true".
 
 <table id="table_pvx_pgx_bgc"><thead><tr><th>
@@ -86,7 +86,7 @@ Behavior
 
 </th></tr></thead><tbody><tr><td>
 
-andrew.och
+david.loo
 
 </td><td>
 
@@ -126,7 +126,7 @@ User is redirected to MFA setup with FIDO2 only, even if the user has Authentica
 
 </td></tr><tr><td>
 
-aileen.motterm
+beth.anglin
 
 </td><td>
 
@@ -165,5 +165,5 @@ Email and FIDO2
 Sees Email and Authenticator option during log in. The user can register FIDO2 during validation. After registration, the user can see all the 3 factors.
 
 </td></tr></tbody>
-</table>By configuring FIDO2 as an MFA factor policy, you can significantly enhance the security of your authentication processes.
+</table>By configuring FIDO2 as an MFA factor policy, you can enhance the security of your authentication processes.
 

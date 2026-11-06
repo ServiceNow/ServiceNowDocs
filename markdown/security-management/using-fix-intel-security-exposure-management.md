@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/using-fix-intel-security-exposure-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [use]
 breadcrumb: [Fix Intelligence for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
@@ -31,7 +31,7 @@ After Fix Intelligence for SEM is installed and configured, use the following ca
 
     Group the findings that share a fix into a single remediation task.
 
--   [Fix links on findings and vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-links-on-findings.md)
+-   
 
     See which fix resolves a finding directly from the finding or vulnerable item.
 
@@ -40,8 +40,4 @@ After Fix Intelligence for SEM is installed and configured, use the following ca
 Review the fixes that Fix Intelligence for SEM has identified, and see the findings and assets each one resolves. A Fix record represents a single remediation action that resolves one or more findings.
 -   **[Group findings by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/group-findings-by-fix.md)**  
 Use a remediation task rule to group the findings that share a fix, so your team can remediate them together as a single unit of work.
--   **[Fix links on findings and vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-links-on-findings.md)**  
-Fix Intelligence for SEM adds a read-only Fix reference to vulnerable items and vulnerabilities, so you can see which fix resolves a given finding directly from the finding.
-
-**Parent Topic:**[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-intel-for-usem-landing.md)
 

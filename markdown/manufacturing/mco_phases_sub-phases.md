@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco\_phases\_sub-phases.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Recall a campaign phase, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Recall a campaign phase, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a phase and sub-phase in a recall campaign
@@ -20,7 +20,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager and sn\_rcl\_claim\_mgmt.rec
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns**
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns**
 
 2.  Select the corresponding campaign record in which you want to create the phases and sub-phases.
 
@@ -66,4 +66,6 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager and sn\_rcl\_claim\_mgmt.rec
 
 9.  Select **Submit**.
 
+
+**Parent Topic:**[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-recall-campaign-phases.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/client-access-example-1.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring client accessible secrets, Secrets Management, Platform Security]
 ---
@@ -49,7 +49,7 @@ Role required: none
 
     \[Omitted image "client-side-1.png"\] Alt text: Prompts displayed by openssl
 
-5.  Check the folder you that you chose in step 2 to verify that the private key and public certificate have been created.
+5.  Check the folder you that chose in step 2 to verify that the private key and public certificate have been created.
 
     If you used the same file names as in the step 3 example, you should see the following files:
 

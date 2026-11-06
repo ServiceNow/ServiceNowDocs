@@ -1,5 +1,5 @@
 ---
-title: JS Code Coverage Debug
+title: JS Code Coverage Debug utility
 description: JS Code Coverage Debug allows administrators and application developers to log the server-side scripts triggered during a user session and then review which lines of code the system ran.The JS Code Coverage application highlights script fields to indicate whether the system ran or skipped each line.You can activate the JS Code Coverage Debug plugin \(com.glide.js.coverage\) if you have the admin role.Use JS Code Coverage Debug to record a user session and then review which server-side scripts and lines of code the system ran.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/js-code-coverage-debug.html
@@ -7,12 +7,12 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Debugging scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
-# JS Code Coverage Debug
+# JS Code Coverage Debug utility
 
 JS Code Coverage Debug allows administrators and application developers to log the server-side scripts triggered during a user session and then review which lines of code the system ran.
 
@@ -25,7 +25,7 @@ Users with the js\_coverage\_debugger role can debug server-side scripts without
 -   The start time of the transaction.
 -   The contents of the script field highlighted to indicate which lines the system ran.
 
-**Note:** JS Code Coverage Debug doesn't log information for client-side scripts.
+**Note:** The JS Code Coverage Debug application doesn't log information for client-side scripts.
 
 **Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-debug-overview.md)
 
@@ -80,7 +80,7 @@ To see the components the plugin installed, refresh the plugin form and select t
 **Related topics**  
 
 
-[List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 
 ## Debug with JS Code Coverage Debug
 

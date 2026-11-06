@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,11 +45,11 @@ The Knowledge list in Workspace is available with the activation of the Agent Wo
 
 [View a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/view-article-agent.md)
 
-[Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/create-article-workspace.md)
+[Create a knowledge article in Agent Workspace]()
 
-[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/edit-article-workspace.md)
+[Edit a knowledge article in Agent Workspace]()
 
-[Schedule a knowledge article for publishing in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/schedule-article-publishing-agent.md)
+[Schedule a knowledge article for publishing in Agent Workspace]()
 
 [Work on a feedback task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/respond-feedback-workspace.md)
 

@@ -1,17 +1,17 @@
 ---
 title: Security Operations
-description: ServiceNow Security Operations applications import incident data from your security tools into a structured response engine. Intelligent workflows, automation, and data visualizations help you prioritize and resolve threats based on their impact to your organization.
+description: ServiceNow Security Operations applications import incident data from your security tools into a structured response engine. The engine uses intelligent workflows, automation, data visualizations, and a deep connection with IT to prioritize and resolve threats based on their impact to your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-operations-landing-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 ---
 
 # Security Operations
 
-ServiceNow® Security Operations applications import incident data from your security tools into a structured response engine. Intelligent workflows, automation, and data visualizations help you prioritize and resolve threats based on their impact to your organization.
+ServiceNow® Security Operations applications import incident data from your security tools into a structured response engine. The engine uses intelligent workflows, automation, data visualizations, and a deep connection with IT to prioritize and resolve threats based on their impact to your organization.
 
 Choose one of these tiles to get started.
 
@@ -41,21 +41,17 @@ Choose one of these tiles to get started.
 
 </td></tr><tr><td>
 
-[Enterprise security case management applications\[Omitted image "bus-security-incident-response.svg"\] Alt text:Learn about the applications in Security Incident Response that help you analyze, isolate, and fix critical security incidents as they evolve.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sir-apps-landing-page.md)
-
-</td><td>
-
 [Security Posture Control applications\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Learn about the applications that help you gain insights into your overall security posture.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/spc-landing.md)
 
 </td><td>
 
 [Cybersecurity Executive Dashboard\[Omitted image "bus-infographic.svg"\] Alt text:Learn how the Cybersecurity Executive Dashboard consolidates data from the various SecOps products into a unified dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vr-unified-CISO-dashboard.md)
 
-</td></tr><tr><td>
+</td><td>
 
 [Threat Intelligence Security Center\[Omitted image "bus-management-console.svg"\] Alt text:Learn how the Threat Intelligence Security Center \(TISC\) platform provides technology solutions for aggregation and management of threat intelligence.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-landing-page.md)
 
-</td><td>
+</td></tr><tr><td>
 
 [Data Loss Prevention Incident Response\[Omitted image "bus-database.svg"\] Alt text:Learn how you can manage sensitive information for your customers and identify and protect your data loss channels.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/data-loss-prevention/dlp-landing.md)
 
@@ -63,9 +59,13 @@ Choose one of these tiles to get started.
 
 [Security Operations shared applications \[Omitted image "bus-share.svg"\] Alt text:Learn about features and modules that provide common functionality across Security Operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sec-ops-common-functionality.md)
 
-</td></tr><tr><td>
+</td><td>
 
 Security Operations scenarios and examples\[Omitted image "bus-case-study.svg"\] Alt text:Learn more about how to get Security Operations applications from the ServiceNow® Store and scenarios for applications that you can employ while using the products.
+
+</td></tr><tr><td>
+
+[Enterprise security case management applications\[Omitted image "bus-security-incident-response.svg"\] Alt text:Learn about the applications in Security Incident Response that help you analyze, isolate, and fix critical security incidents as they evolve.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sir-apps-landing-page.md)
 
 </td><td>
 

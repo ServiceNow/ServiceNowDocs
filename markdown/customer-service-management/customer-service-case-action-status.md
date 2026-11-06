@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-service-case-action-status.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -15,6 +15,8 @@ breadcrumb: [Configure case management, Case management, Organize agent workspac
 The case action status feature displays the status of cases in the Case list. With this feature, customer service agents can easily identify cases that need attention.
 
 The case action status feature provides visual indicators in the **Action status** column on the My Cases and My Open lists to highlight case status. In addition to the colored indicators, the **Action status** column also displays a brief status message.
+
+\[Omitted image "case-action-status-csm-config-workspace.png"\] Alt text: The Action status column on the Case list displays color-coded indicators and messages for cases that are blocked or need attention.
 
 ## Actionable case flows
 

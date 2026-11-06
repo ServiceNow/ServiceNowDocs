@@ -7,8 +7,8 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Explore, Base Asset Management, Common applications, Asset Management]
 ---
 
@@ -42,4 +42,6 @@ The system property **sn\_itam\_workspace.asset\_estate\_enable\_lazy\_loading*
 Any item that is provided as a service or sold to your customer is tracked as an Install Base Item \(IBI\). The Model category table associates Asset class, CI class, and Install Base Item \(IBI\) class.
 
 By default, the reports and Important Actions in the Asset estate view include all the assets in the Asset \[alm\_asset\] table. However, you can filter IBI assets from reports and Important Actions cards. For details on configuration required to filter IBI assets, see the [Sold products exclusion from the reports and Important Actions of Asset Workspace \[KB1584331\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584331) article in the Now Support Knowledge Base
+
+**Parent Topic:**[Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/exploring-asset-management.md)
 

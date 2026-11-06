@@ -1,13 +1,13 @@
 ---
 title: Configuring Health Log Analytics
-description: As an administrator, set up and configure Health Log Analytics for operators to use, and carry out administration tasks to confirm that the system runs efficiently.
+description: As an Administrator, set up and configure Health Log Analytics for Operators to use, and carry out administration tasks to ensure that the system runs efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-configuring.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Health Log Analytics, data input, connector, configuration, setup]
 breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -15,13 +15,17 @@ breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
 
 # Configuring Health Log Analytics
 
-As an administrator, set up and configure Health Log Analytics for operators to use, and carry out administration tasks to confirm that the system runs efficiently.
+As an Administrator, set up and configure Health Log Analytics for Operators to use, and carry out administration tasks to ensure that the system runs efficiently.
 
 ## Configuration overview
 
 Complete the following tasks for a successful setup and configuration of Health Log Analytics.
 
-**Important:** Regardless of how you implement Health Log Analytics, for log data ingestion via a MID Server you must first configure [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) and ensure that the MID Server log ingestion capability is enabled.
+**Important:**
+
+Regardless of how you set up data inputs in Health Log Analytics, you must meet the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) and verify that the MID Server log ingestion capability is enabled.
+
+**Note:** This requirement doesn't apply when using MID-less integrations to stream logs to Health Log Analytics.
 
 For MID Server proxy requirements, see [MID Server proxy preconditions for streaming logs to Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-mid-proxy-configure.md).
 
@@ -31,19 +35,19 @@ Setup and configuration tasks:
 
     Install the Health Log Analytics application.
 
-2.  Set up log data inputs for streaming raw log messages from external sources into your ServiceNow instance.
+2.  Set up log data inputs for streaming raw log messages to your ServiceNow instance.
 
-    You're encouraged to integrate data inputs with Health Log Analytics from the Integrations Launchpad. This tool provides a unified interface for convenient integration setup:
+    Use any of the following methods:
 
     -   [Set up integrations for Health Log Analytics from the Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md).
 
-        Alternatively, you can set up data inputs in one of the following ways:
+        You're encouraged to set up data input integrations from the Integrations Launchpad, which provides a unified interface for convenient integration.
 
     -   [Set up data inputs in Health Log Analytics using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-setup-guided.md).
     -   [Set up data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md).
 3.  [Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-streaming.md).
 
-    Identify and address log streaming issues to confirm that the data inputs you have configured are streaming data properly to your instance.
+    Identify and address log streaming issues to ensure that the data inputs you have configured are streaming data properly to your instance.
 
 4.  [Edit raw log data before processing in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-preprocess.md).
 

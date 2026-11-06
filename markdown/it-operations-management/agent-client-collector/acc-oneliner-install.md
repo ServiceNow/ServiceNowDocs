@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ACC installation on a Linux OS system, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ Use an efficient single-line command script to install Agent Client Collector on
 -   Ensure that you have the `gpg` package available for validation \(for Ubuntu/Debian installation\).
 -   Enable golden image mode for cloning additional instances by setting the golden image marker located at `/tmp/acc-goldenimage`. The golden image marker takes no action during new Linux installations, as there is nothing which requires cleaning.
 -   When performing single-line installation on more than one agent, download the agent package to your local machine. Place the package on your `ftp` server, using an Ansible script. For details on mass deployment of agents, see [Deploy the Agent Client Collector using a custom base image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-virtual-deployment.md).
--   In order for the Agent to retrieve the OS serial numbers and TCP connections along with associated running processes, sudo access for “dmidecode” and “ss” is required on Linux systems.
+-   To retrieve OS serial numbers and TCP connections along with associated running processes, sudo access for `dmidecode` and `ss` is required on Linux systems.
 
 Role required: agent\_client\_collector\_admin
 
@@ -67,11 +67,11 @@ ACC\_MID
 The URL of the MID Server websocket.If you are specifying multiple MID Servers, enter a string separated by commas for each MID Server.
 
 </td></tr></tbody>
-</table>3.  If you need to create new check definitions to be included in the allow list that indicates the checks enabled to run on the agent, disable the allow list by adding **ACC\_ALLOW\_LIST=0** to the single-line command string.
+</table>3.  To add new check definitions to the allow list, disable the allow list by adding **ACC\_ALLOW\_LIST=0** to the single-line command string.
 
     **Note:** This action compromises your system's security and is recommended only as a temporary measure until you finish updating the allow list. After completing the update, re-activate the allow list by removing **ACC\_ALLOW\_LIST=0** from the single-line command string.
 
-4.  If the certificate validation process is too time consuming or if you are using the agent for development purposes, you can bypass certificate validation by adding **ACC\_VALIDATE\_SIG=0** to the single-line command string.
+4.  To bypass certificate validation for development purposes or when the validation process takes too long, add **ACC\_VALIDATE\_SIG=0** to the single-line command string.
 
 5.  Run the single-line command \(specified in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-oneliner-install.md), above\) on the server where the Agent Client Collector is installed.
 

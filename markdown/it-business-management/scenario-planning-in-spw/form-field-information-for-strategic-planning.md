@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -91,7 +91,7 @@ Learn about the fields of the view rule form. Use this form to define workspace 
 -   **[Widget association form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/widget-association-form-spw-fin.md)**  
 Use these form fields to associate a widget with project table and view it on financials.
 -   **[Widget New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/widget-new-record-form.md)**  
-Use these form fields to create widget for your project administration.
+Use these form fields to create a new widget for your project administration.
 
 **Parent Topic:**[Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md)
 

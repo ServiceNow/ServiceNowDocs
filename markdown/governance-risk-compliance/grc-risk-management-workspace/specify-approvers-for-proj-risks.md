@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Project Risk Assessment using Advanced Risk Assessment, Integrate, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -41,9 +41,9 @@ Two predefined RAMs are provided for Enterprise Risk Assessment and Project Risk
 
 1.  Navigate to **All** &gt; **Advanced Risk Assessment** &gt; **Administration** &gt; **Project Integration Configuration**.
 
-2.  Select the information \[Omitted image "icon-information.png"\] Alt text: Information icon. icon to view the project risk integration configuration record.
+2.  Click the information \[Omitted image "icon-information.png"\] Alt text: Information icon. icon to view the project risk integration configuration record.
 
-3.  Select **Open Record**.
+3.  Click **Open Record**.
 
 4.  On the form, fill in the fields.
 
@@ -144,7 +144,7 @@ Assessor group
 The group which assesses the enterprise risk if the **Assessor type** field has **Group**.
 
 </td></tr></tbody>
-</table>5.  Select **Update**.
+</table>5.  Click **Update**.
 
 
 ## Result

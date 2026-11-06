@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [File-based Discovery, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -46,7 +46,7 @@ Role required: admin
 
 3.  Enable and configure File-based Discovery.
 
-    Using the [Discovery Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryConfigurationConsole.md), you can enable File-based Discovery as well as configure several components to find and manage all of your installed software.
+    Using the [Discovery Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryConfigurationConsole.md), you can enable File-based Discovery and configure several components to find and manage all of your installed software.
 
     To avoid impacting performance for existing customers, File-based Discovery is turned off by default.
 

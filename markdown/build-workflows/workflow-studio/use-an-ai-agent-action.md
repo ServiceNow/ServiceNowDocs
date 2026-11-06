@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -28,7 +28,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Reference**
 
-    The AI Agent that you want to use in this flow. You must install the Now Assist AI agents plugin and create and configure an AI agent. For information about installing the Now Assist AI agents plugin, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md). For information about creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+    The AI Agent that you want to use in this flow. You must install the Now Assist AI agents plugin and create and configure an AI agent. For information about installing the Now Assist AI agents plugin, see . For information about creating an AI agent, see .
 
 -   **Support User**
 

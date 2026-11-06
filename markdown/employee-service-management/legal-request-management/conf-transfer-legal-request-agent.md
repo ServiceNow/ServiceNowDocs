@@ -7,7 +7,7 @@ release: australia
 product: Legal Request Management
 classification: legal-request-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, ServiceNow Otto, generative AI, Configure AI Agents]
 breadcrumb: [Configure AI capabilities for LSD, Configure, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
@@ -21,7 +21,7 @@ You must complete the following tasks to activate and use the Triage legal reque
 
 1.  Install the Legal Service Delivery - Prime plugin \(sn\_lg\_ai\_prime\).
 2.  Confirm the ServiceNow Otto panel is turned on. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
-3.  Confirm the **ServiceNow Otto Panel - Platform \(default\)** assistant in the CI Admin Experience is turned on. For more information, see [Manage LLM virtual agents on the Assistants screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-llm-va.md).
+3.  Confirm the **ServiceNow Otto Panel - Platform \(default\)** assistant in the CI Admin Experience is turned on. For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 4.  Configure AI Search. For more information, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md).
 5.  Activate the Triage Legal request use case business rule to activate the Triage legal requests agentic workflow. For more information, see [Activate the business rule for the Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/lsd-agentic-config-BR.md).
 6.  Include the legal practice application tables for AI Search indexing. For more information, see [Add legal request tables for data indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/add-tables-legal-requests.md).

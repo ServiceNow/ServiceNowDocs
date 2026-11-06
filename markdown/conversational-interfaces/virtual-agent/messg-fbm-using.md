@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational Integration with Facebook Messenger, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Facebook Messenger, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Using Conversational Integration with Facebook Messenger
@@ -37,7 +37,7 @@ As a live agent interacting with a requester over the Facebook Messenger service
 -   **[Transfer Facebook Messenger chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.md)**  
 Configure the Advanced Work Assignment application to transfer a Facebook Messenger chat conversation initiated by a requester \(customer contact or consumer\) to a live agent.
 -   **[Capturing information from a user in a Facebook Messenger chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-fbm-capture-info.md)**  
-Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from the user in a Facebook Messenger chat conversation.
+Use the collection of input controls provided by Assistant Designer to prompt and capture information from the user in a Facebook Messenger chat conversation.
 
 **Parent Topic:**[Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-fbm.md)
 

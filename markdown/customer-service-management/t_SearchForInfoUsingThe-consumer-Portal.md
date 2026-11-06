@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_SearchForInfoUsingThe-consumer-Portal.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -67,7 +67,7 @@ The Consumer Portal includes a link to the knowledge base that you can use to se
     -   Most viewed
 3.  Do one of the following,
 
-<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d119543e234">
+<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d121744e240">
 
 **Select a product to display more specific information**
 
@@ -75,7 +75,7 @@ The Consumer Portal includes a link to the knowledge base that you can use to se
 
 Displays a list of categories on the left and articles on the right. Select a category to drill down even further.
 
-</td></tr><tr><td id="d119543e243">
+</td></tr><tr><td id="d121744e249">
 
 **Select a link from one of the lists**
 
@@ -83,7 +83,7 @@ Displays a list of categories on the left and articles on the right. Select a ca
 
 Displays the article.
 
-</td></tr><tr><td id="d119543e252">
+</td></tr><tr><td id="d121744e258">
 
 **Type a topic in the __Search__ field and press the Enter key**
 

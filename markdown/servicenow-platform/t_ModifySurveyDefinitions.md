@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_ModifySurveyDefinitions.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Survey definitions, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -114,7 +114,7 @@ Assessment duration
 
 </td><td>
 
-The length of time to complete assigned survey instances, starting from the time the survey instance is generated. The assessment duration sets the Due date for each survey instance. The default duration is 14 days. [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to view this field.
+The length of time to complete assigned survey instances, starting from the time the survey instance is generated. The assessment duration sets the Due date for each survey instance. The default duration is 14 days. Configure the form to view this field.
 
 </td></tr><tr><td>
 
@@ -378,5 +378,5 @@ Recipients lists that are added to the survey.
 
 [Publish a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/t_PublishASurvey.md)
 
-[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduleEvents.md)
+[bundle-platadm.c_ScheduleEvents]
 

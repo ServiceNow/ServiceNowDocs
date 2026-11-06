@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Creating UI pages and macros, Scripting, API implementation, API implementation and reference]
+breadcrumb: [UI pages and macros, Write client-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # UI pages
@@ -144,7 +144,7 @@ UI pages are considered high risk with any of the following attributes:
 -   For instances with glide.installation.developer is set to **true**.
 -   If resource is customized content for a customer instance.
 
-**Parent Topic:**[Creating custom UI Pages and UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/create-custom-ui-pages.md)
+**Parent Topic:**[UI pages and macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/create-custom-ui-pages.md)
 
 ## UI page access
 
@@ -154,7 +154,7 @@ For example, to display the page called glidewindow\_example on the demo system,
 
 You can also add additional parameters to a URL that can be accessed within a page's HTML section as jelly variables. That is, appending arguments to the URL as follows: `/my_test_page.do?sysparm_verbose=true` creates jelly variables called **verbose** that can be accessed as follows:
 
-```
+```xml
 <j2:if test="$[!empty(sysparm_verbose)]"> <span>show extra stuff </span> </j2:if >
 ```
 
@@ -162,7 +162,7 @@ A common practical example of this might be retrieving a database record for dis
 
 `role_select.do?sysparm_user=5137153cc611227c000bbd1bd8cd2007`
 
-```
+```xml
 <j:set var = "jvar_user_id" value = "${sysparm_user}" />
  
   <g:evaluate> var userRoles = new GlideRecord('sys_user_has_role');
@@ -276,7 +276,7 @@ If your UI page contains a form \(uses the *&lt;g:form&gt;* tag\), you can submi
 
 The processing script can naturally access fields on the form. For example, if your form contained the *application\_sys\_id* field:
 
-```
+```xml
 <g:ui_form>
   <p>Click OK to run the processing script.</p>
   <g:dialog_buttons_ok_cancel ok="return true" />
@@ -286,7 +286,7 @@ The processing script can naturally access fields on the form. For example, if y
 
 You can access the field using *application\_sys\_id*:
 
-```
+```javascript
 var application = new GlideRecord('hr_application');
  application.get(application_sys_id);
  application.status = "Rejected";

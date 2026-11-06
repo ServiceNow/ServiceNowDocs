@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/existing-map-pins.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the appearance of map n Dispatcher Workspace, Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---

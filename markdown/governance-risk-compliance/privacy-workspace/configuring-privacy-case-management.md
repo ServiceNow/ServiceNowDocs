@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -28,10 +28,6 @@ Create state models to control the workflow of a privacy case by defining the st
 Define the transition conditions to control how a compliance case traverses through the different workflow states by using the Privacy Case Management application.
 -   **[Create a privacy case assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/prm-create-assessment-template.md)**  
 Create an assessment and send those assessments to the privacy case task owners to collect their responses. The responses help the privacy case analysts to determine the breaches that have occurred due to the privacy case.
--   **[Configure inbound email to enable privacy case creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/configure-inbound-email-configuration.md)**  
-Set up a designated email address that employees can use to report privacy cases through email.
--   **[Configure Record Type Area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/configure-record-type-area.md)**  
-The Record Type Area Configuration feature allows privacy case managers or analysts to add additional relevant business area types in impacted and related areas.
 
 **Parent Topic:**[Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/privacy-case-management-overview.md)
 

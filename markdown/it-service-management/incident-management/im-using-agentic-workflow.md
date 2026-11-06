@@ -7,9 +7,9 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
+keywords: [Now Assist, agentic AI, generative AI, Gen AI]
 breadcrumb: [Incident Management, IT Service Management]
 ---
 
@@ -27,9 +27,9 @@ To access the agentic workflow for Incident Management, make sure that you insta
 **Note:**
 
 -   Before you begin, review these [Important considerations for using ServiceNow Otto for IT Service Management \(ITSM\) agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/important-considerations-itsm-agentic-ai.md).
--   For all available ITSM Agentic AI applications, see [Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md).
+-   For all available ITSM agentic AI applications, see [Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md).
 
-The Wrap-up and resolve incident agentic workflow enables users to generate resolution notes and select resolution code to resolve an incident. Attach the Knowledge Base \(KB\) article or create a draft Knowledge article. Attach a Known Error \(KE\) article to the incident record when the resolution code is selected as Known Error. Update duplicate incident information when the resolution code is Duplicate.
+The Wrap-up and resolve incident agentic workflow enables users to generate resolution notes and select a resolution code to resolve an incident. The workflow can also attach a Knowledge Base \(KB\) article or create a draft Knowledge article, attach a known error \(KE\) article when the resolution code is Known Error, and update duplicate incident information when the resolution code is Duplicate.
 
 The agentic workflow uses the following AI agents:
 

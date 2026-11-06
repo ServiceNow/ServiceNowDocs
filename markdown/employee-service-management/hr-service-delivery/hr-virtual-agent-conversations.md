@@ -1,13 +1,13 @@
 ---
 title: Virtual Agent for HR Service Delivery
-description: HR Service Delivery and Virtual Agent provide an automated chat with an employee requesting HR services. You can program Virtual Agent to understand the intent of an employee to handle repeatable requests.Activate Virtual Agent for HR Service Delivery to provide user assistance through a conversational messaging interface. You can also activate Virtual Agent for HR Service Delivery with ServiceNow Natural Language Understanding \(NLU\).Configuring Virtual Agent or Virtual Agent with NLU for HR Service Delivery requires multiple steps.Define a custom HR Service Delivery greeting experience for a specific context in which your users run Virtual Agent. Configure your greeting experience to initiate the virtual agent automatically or immediately transfer to a live agent.HR Service Delivery Virtual Agent provides pre-built patterns that enable you to track whether Virtual Agent conversations helped the end user.
+description: HR Service Delivery and Virtual Agent provide an automated chat with an employee requesting HR services. You can program Virtual Agent to understand the intent of an employee to handle repeatable requests.Activate Virtual Agent for HR Service Delivery to provide user assistance through a conversational messaging interface. You can also activate Virtual Agent for HR Service Delivery with ServiceNow Natural Language Understanding \(NLU\).Setting up Virtual Agent or Virtual Agent with NLU for HR Service Delivery requires multiple steps.Define a custom HR Service Delivery greeting experience for a specific context in which your users run Virtual Agent. Configure your greeting experience to initiate the virtual agent automatically or immediately transfer to a live agent.HR Service Delivery Virtual Agent provides pre-built patterns that enable you to track whether Virtual Agent conversations helped the end user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
@@ -57,8 +57,6 @@ The following predefined, HR Service Delivery Virtual Agent topics are available
 
 **Note:** Employee info update topic enables you to update information like Email, Address and Phone number, at one place instead of going to the individual topics separately.
 
-**Warning:** General HR Inquiry is no longer available as one of the predefined topics.
-
 A topic defines the dialog between the Virtual Agent \(chat support bot\) and user to accomplish a specific goal. The information exchanged during the conversation flow \(user inputs and bot responses\) enables the chatbot to fulfill a user request or assist a user in completing a task.
 
 For more information, see [Designing a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/design-va-topic.md).
@@ -82,6 +80,8 @@ You can set up HR Service Delivery Virtual Agent to use Natural Language Underst
 For more information about NLU and the NLU Workbench, see [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-landing.md) and [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-nlu-workbench.md).
 
 Also, see [Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-NLU.md).
+
+**Note:** This feature is only available with the HR Professional and HR Enterprise packages.
 
 ## Reusable HR Service Delivery Virtual Agent topic blocks
 
@@ -120,7 +120,7 @@ Get pre-built topics or create new topics from the recommended topics for HR Ser
 
 \[Omitted image "topic-recom-setting.png"\] Alt text: Topic recommendation setting.
 
-For HR Cases, this default setting is shipped with Taxonomy preselected to HRSD and the Filtered by setting set to display the cases created after the last 90 days. For more information on Topic Recommendations, see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-topic-recommendations.md).
+For HR Cases, this default setting ships with Taxonomy preselected to HRSD. The Filtered by setting displays cases created in the last 90 days. For more information on Topic Recommendations, see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-topic-recommendations.md).
 
 In the Topic Recommendations page, under Get new recommendations, select **HR Cases** and click on **Get new recommendations**. Once the new recommendations are available, select your preferred recommendations and add them to the Virtual Agent using the **Add to VA** option. For more information, see [Topic Recommendations page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/topic-recommendations-page.md).
 
@@ -178,9 +178,9 @@ When an employee opens an HR case using Virtual Agent for HR Service Delivery, t
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-## Configure Virtual Agent for HR
+## Set up Virtual Agent for HR
 
-Configuring Virtual Agent or Virtual Agent with NLU for HR Service Delivery requires multiple steps.
+Setting up Virtual Agent or Virtual Agent with NLU for HR Service Delivery requires multiple steps.
 
 ### Before you begin
 

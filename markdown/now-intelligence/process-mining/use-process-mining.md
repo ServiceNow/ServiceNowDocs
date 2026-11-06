@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Process Mining, Platform Analytics]
 ---
@@ -36,12 +36,16 @@ The following flowchart displays the steps that you use to set up a project for 
 
 -   **[Creating process configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/creating-process-config.md)**  
 Process configurations include process preferences that activate features in the Process Mining workspace and assist in the creation of projects. Having complete process configurations enables you to independently create projects and quickly gain insights, even without prior process mining knowledge. This enhances the scalability of process mining across the organization.
+-   **[Process Mining templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/pm_templates.md)**  
+Templates let you save a reusable Process Mining project configuration and reapply it across your organization, instead of configuring each new project from scratch.
 -   **[Meter-based guardrails and controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/meter-based-guardrails.md)**  
 Meter-based guardrails and controls help you in identifying situations when you unexpectedly exceed your entitled record count.
 -   **[Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/define-workflow-model.md)**  
 Create and mine a project using the Project Builder to analyze and optimize your business processes. Create a template to reuse it when you want to use the same project conditions multiple times. In the Project Builder, the entire process is broken down into three sections and an overview to make the task easier and more efficient.
--   **[Create a project using Agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/project-agentic-ai.md)**  
-Create a project using Agentic AI data to understand any bottlenecks and inefficiencies caused when using agentic AI in your processes.
+-   **[Create a Process Mining project from a workspace list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/list-proj-crt.md)**  
+Create a Process Mining project directly from a list of records from any ServiceNow workspace.
+-   **[Create a project using agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/project-agentic-ai.md)**  
+Create a project using agentic AI data to understand any bottlenecks and inefficiencies caused when using agentic AI in your processes.
 -   **[Create a project using Playbook data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/playbook-project.md)**  
 Use Process Mining to analyze Playbook executions and identify bottlenecks in your workflows. Process Mining works alongside Playbooks configured in Workflow Studio. By analyzing execution logs generated during playbook runs, Process Mining enables post-execution visibility into how human agents are handling playbooks.
 -   **[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-proj.md)**  

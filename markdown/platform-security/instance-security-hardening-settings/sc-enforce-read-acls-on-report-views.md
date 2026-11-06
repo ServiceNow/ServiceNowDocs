@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Platform Security]
 ---
@@ -65,6 +65,14 @@ enforce
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+enforce
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 

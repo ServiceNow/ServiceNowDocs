@@ -7,7 +7,7 @@ release: australia
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migrate automations to ServiceNow RPA Hub, Migrating automations from third-party applications, Use, Automation Center, Workflow Data Fabric]
 ---

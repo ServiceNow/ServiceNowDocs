@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -21,7 +21,7 @@ Determine the order in which to handle alerts according to the alert priority sc
 The value of the alert priority score is a composite of the value of the category and its relative weight. You can configure the factors that make up the score, as described in the following sections, according to **Category order**, **Category value mapping**, and **CI type weight factor mapping**. The categories are:
 
 -   **Accumulated categories** - These categories accumulate items with different sub-types that may have a different status or weighing factor. For example, services that are factored according to different criticality or services that are factored according to cost.
--   **Choice-list categories** - A list of items. You can map any of the items to a different value, thereby changing the priority for that item. For example, critical severity, which has the value of 1 by default, can be mapped to 4 to give it a higher weight in the calculated alert priority score.
+-   **Choice-list categories** - A list of items. You can map any of the items to a different value, thereby changing the priority for that item. For example, critical severity, which defaults to 1, can be mapped to 4 to give it a higher weight in the alert priority score.
 
 <table id="table_wsm_v5d_sbb"><thead><tr><th>
 
@@ -41,7 +41,7 @@ Number of impacted business-services
 
 </td><td>
 
-This category is factored by the business-criticality of the service. An alert that has an impact on one service has a lower priority score than an alert that has an impact on many services. For example, if a router is down, then it might affect many services and a higher priority ensures that this alert is handled before handling another alert that has an impact on fewer services. An alert that has an impact on many non-critical services must be handled with priority. However, if an alert has an impact on only a few services, but they are critical services, then this alert has a higher priority.
+This category is factored by the business-criticality of the service. An alert that has an impact on one service has a lower priority score than an alert that has an impact on many services. For example, if a router is down, it may affect many services, so a higher priority ensures it is handled before alerts with fewer impacted services. An alert that has an impact on many non-critical services must be handled with priority. However, if an alert has an impact on only a few services, but they are critical services, then this alert has a higher priority.
 
 </td></tr><tr><td>
 
@@ -49,7 +49,7 @@ CI type
 
 </td><td>
 
-This category distinguishes between various CI types. For example, an alert on a CI type that is a router or switch may have a higher priority than an alert on another CI type, like a server or application.
+This category distinguishes between various CI types. For example, an alert on a router or switch CI type may have a higher priority than one on a server or application.
 
 </td></tr><tr><td>
 
@@ -230,7 +230,7 @@ Existing alert that changes from closed to any other state
 
 </td><td>
 
-Priority is not calculated for a closed alert, so if the alert state is changed from its current state of closed to open, reopen, or flapping, that change is a trigger to recalculate the alert priority score.
+Priority is not calculated for closed alerts. A state change from closed to open, reopen, or flapping triggers recalculation of the alert priority score.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Subflows, Reference, Telecommunications Network Inventory]
 ---
@@ -54,7 +54,7 @@ The TNI Design Assign Request Details Update subflow output are as follows.
 
 [Logical Connection Creation subflow]()
 
-[Physical connection creation subflow]()
+[Physical Connection Creation subflow]()
 
 [Design Assign Connection Element Creation subflow]()
 

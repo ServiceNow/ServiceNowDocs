@@ -7,7 +7,7 @@ release: australia
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Change Management, Integration with Change Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---

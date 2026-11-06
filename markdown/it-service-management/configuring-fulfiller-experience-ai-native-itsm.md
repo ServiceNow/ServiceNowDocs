@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/configuring-fulfiller-experience-ai-native-itsm.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]
 ---
@@ -55,7 +55,7 @@ Incident form is preconfigured.
 
 </td><td>
 
-Review and update the form layout based on business requirement. For information about creating an incident using Form Builder, see [Working with incident record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/working-incident-record-form.md) and [Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/form-configurable-workspace.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident form configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
+Review and update the form layout based on business requirement. For information about creating an incident using Form Builder, see [Working with the incident record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/working-incident-record-form.md) and [Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/form-configurable-workspace.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident form configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Incident list and related lists are preconfigured.
 
 </td><td>
 
-Review and update list layouts based on business requirements. For information about updating these fields, see [Working with incident record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/working-incident-record-form.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident list configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
+Review and update list layouts based on business requirements. For information about updating these fields, see [Working with the incident record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/working-incident-record-form.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident list configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +119,7 @@ None
 
 </td><td>
 
-For information about incident assignment rules, [Define assignment rules for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_DefinAnAssignRuleIncidents.md).
+For information about incident assignment rules, [Define an assignment rule for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_DefinAnAssignRuleIncidents.md).
 
  For information about business rules, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).
 

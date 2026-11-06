@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-receive-notification-customer-conf-webhook.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Configure notification, Integrations]
 breadcrumb: [Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
@@ -93,7 +93,7 @@ Webhook URL as configured on the ServiceNow instance.**Note:** This URL is for c
 
 Create a webhook and web service while selecting the appropriate authentication access using your ServiceNow instance admin role.
 
-For more information, see [Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/t_CreateAScriptedRESTService.md)
+For more information, see 
 
 </td></tr></tbody>
 </table>    \[Omitted image "io-webhook-sn-integ.png"\] Alt text: Create a webhook integration for a ServiceNow instance.

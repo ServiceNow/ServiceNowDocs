@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/references-spm-retail-suite.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [reference, SPM Retail]
 breadcrumb: [Retail Strategic Portfolio Management Suite, Strategic Portfolio Management]

@@ -8,14 +8,14 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 5
 keywords: [Inline configuration, Four configuration modes, External config with @externalConfig, Custom URL with inline-simple, Self-config with inline-auto, Custom component in the props pane, How configuration is stored, sys\_aix\_configuration, sys\_user\_preference, REST surface, Server-side resolution, Related]
-breadcrumb: [Configure experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Configure experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Inline configuration
 
 Inline configuration turns a property a developer declares in code into something a customer admin can change on a live page, without a code change or a redeploy. An author picks one of four modes per property, and the framework stores and reads back the resulting values.
 
-The mechanics of declaring a property are in [Configurable properties for Lux experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configurable-properties.md); what the admin sees is in .
+The mechanics of declaring a property are in [Configurable properties for Lux experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configurable-properties.md); what the admin sees is in [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/admin-experience.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/admin-experience.md).
 
 ## Four configuration modes
 
@@ -140,7 +140,7 @@ No schema changes. User layers use dot-separated keys:
 
 [Configurable properties for Lux experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configurable-properties.md)
 
-[admin-experience]
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/admin-experience.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/admin-experience.md)
 
 [Regions and the wrapper contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/regions-and-the-wrapper-contract.md)
 

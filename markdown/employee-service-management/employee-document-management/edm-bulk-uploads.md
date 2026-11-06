@@ -1,24 +1,24 @@
 ---
-title: Employee document management bulk imports
-description: Use the Employee Document Management Bulk Imports feature to copy your employee documents from an external third-party cloud-based storage or a local network directory to Employee Document Management. Having your employee documents within HR Service Delivery makes administration efficient and convenient.
+title: Employee Document Management bulk imports
+description: The Employee Document Management Bulk Imports feature copies employee documents from external cloud storage or a local network directory to Employee Document Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-document-management/edm-bulk-uploads.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Use, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Employee Document Management, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
-# Employee document management bulk imports
+# Employee Document Management bulk imports
 
-Use the Employee Document Management Bulk Imports feature to copy your employee documents from an external third-party cloud-based storage or a local network directory to Employee Document Management. Having your employee documents within HR Service Delivery makes administration efficient and convenient.
+The Employee Document Management Bulk Imports feature copies employee documents from external cloud storage or a local network directory to Employee Document Management.
 
 **Note:** Starting with the Zurich release, Bulk Import for EDM is being prepared for deprecation. If you're an existing customer, you can continue using this feature as-is, with no new functionality. New customers will not have access to this feature.
 
--   You can use the **Stage local files** workflow in Employee document management to import files using the SSH protocol through MID server.
+-   You can use the **Stage local files** workflow in Employee Document Management to import files using the SSH protocol through MID Server.
 -   The **Stage local files** workflow will be available only if you have installed the Orchestration plugin \(com.snc.runbook\_automation\). The SSH related activities in this workflow are available as part of the Orchestration plugin only.
 
 If you currently store your employee documents outside of HR Service Delivery, you can consolidate and maintain these documents over the duration of your employees tenure.
@@ -47,20 +47,20 @@ The process for configuring HR Service Delivery with a local document repository
     **Important:** By default, this feature expects the file server to be UNIX. If the file server is any OS other than UNIX, then you must customize the solution.
 
     -   Only Secure Shell Protocol \(SSH\) credentials are supported.
-    -   The MID server can be on a Windows or Linux server. The server that hosts the files to be imported must be non-windows.
+    -   The MID Server can be on a Windows or Linux server. The server that hosts the files to be imported must be non-windows.
 
         **Note:** Other methods of configuring your local document storage requires custom development.
 
     Create a credential to use for authentication with the local document storage. See [Set up SSH credentials to the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/set-up-and-config-MID-server.md).
 
-    **Note:** When connecting to a local document repository, you may need to grant admin rights.
+    **Note:** When connecting to a local document repository, you may have to grant admin rights.
 
 2.  Create or edit the Verify source step. This step creates a source step required to validate the connection between your local directory and Employee Document Management.
 
     **Note:** Having your source employee documents in a central repository, simple directory structure, and consistent file naming convention is highly recommended and reduces errors.
 
 3.  Run the Start verify source job to verify the connection and validate source employee documents are identified and located.
-4.  Create or edit the Employee Document Import Sources. This step identifies the source documents you want to import from your local document storage to Employee Document Management.
+4.  Create or edit the Employee Document Import Sources. This step identifies the source documents you want to import from your local document storage to .
 5.  Run the staging job. This step saves information about your source employee documents into the Employee Document Staging \[sn\_hr\_ef\_import\_staging\] table. All required information to import the employee document is contained in this record.
 6.  Verify that steps 3 and 4 are correct by viewing your staging records. You can fix errors in the staging table.
 7.  Create or edit the Capture Source step. This source step imports the staging records and source employee documents to Employee Document Management.
@@ -70,7 +70,7 @@ The process for configuring HR Service Delivery with a local document repository
 
 Activating the ServiceNow IntegrationHub Installer \[com.glide.hub.integrations\] plugin is required for importing employee documents from a third-party, cloud-based document repository.
 
-**Note:** Integrating with a third-party, cloud-based document storage is considered a custom implementation. Employee document management bulk imports provides a basic framework to integrate with third-party, cloud-based document storage. You may need to consult with your ServiceNow Solution Consultant.
+**Note:** Integrating with a third-party, cloud-based document storage is considered a custom implementation. Employee Document Management bulk imports provides a basic framework to integrate with third-party, cloud-based document storage. You may have to consult with your ServiceNow Solution Consultant.
 
 \[Omitted image "edm-cloud-diagram.png"\] Alt text: EDM — Cloud diagram
 
@@ -104,14 +104,14 @@ Use the **sn\_hr\_ef.max\_file\_size** field in the Properties for Employee Docu
 
 For more information, see [Properties for Employee Document Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/employee-doc-properties.md).
 
--   **[Use import mapping to locate and transform source employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/import-mapping.md)**  
+-   **[Import mapping for source employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/import-mapping.md)**  
 Import mapping locates your source employee documents from your source document repository and transforms them to import them to Employee Document Management.
--   **[Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md)**  
+-   **[Configure employee document bulk import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md)**  
 Use Employee Document Import Configuration to identify and communicate with the source document repository. The source document repository is where you currently store your employee documents.
 -   **[Bulk import map examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-map-examples.md)**  
 Mapping your source employee documents to required elements in Employee Document Management is crucial for a successful bulk import.
 -   **[Correcting employee documents in the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-doc-staging.md)**  
-Use the Employee Document Staging form to correct staging records prior to importing to HR Service Delivery. Staging records are created after you have mapped your source employee documents and the Start staging job has run.
+Use the Employee Document Staging form to correct staging records before importing to HR Service Delivery. Staging records are created after you have mapped your source employee documents and the Start staging job has run.
 
 **Parent Topic:**[Using Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/using-employee-document-management.md)
 

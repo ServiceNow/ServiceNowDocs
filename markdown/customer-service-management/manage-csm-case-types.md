@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/manage-csm-case-types.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customer service case types, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -60,15 +60,15 @@ Launch Guided Setup for AWA
 
 </td><td>
 
-Goes to the Advanced Work Assignment \(AWA\) setup tasks in Agent Workspace Guided Setup.
+Goes to the Advanced Work Assignment \(AWA\) setup tasks in CRM Workspace Guided Setup.
 
 </td></tr><tr><td>
 
-Launch Guided Setup for Agent Workspace
+Launch Guided Setup for CRM Workspace
 
 </td><td>
 
-Goes to the Agent Workspace for CSM setup tasks in Customer Service Management Guided Setup.
+Goes to the CRM Workspace setup tasks in Customer Service Management Guided Setup.
 
 </td></tr></tbody>
 </table>## Case Type form related lists

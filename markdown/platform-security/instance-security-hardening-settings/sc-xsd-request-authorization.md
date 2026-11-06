@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API and web service, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [API and web service, Hardening settings, Platform Security]
 
 Use the **glide.basicauth.required.xsd** property to designate if incoming XSD \(XML Schema Definition\) requests should require basic authentication.
 
-The **glide.basicauth.required.xsd** system property controls whether authentication is required in order to make a XSD request to an instance. If **glide.basicauth.required.xsd** is not set to the recommended value of **true**, then authentication is disabled for XSD requests on the instance.
+The **glide.basicauth.required.xsd** system property controls whether authentication is required to make a XSD request to an instance. If **glide.basicauth.required.xsd** is not set to the recommended value of **true**, then authentication is turned off for XSD requests on the instance.
 
 Ensure the property **glide.basicauth.required.xsd** exists in the System Properties \[sys\_properties\] table and is set to **true**.
 
@@ -70,7 +70,7 @@ Default value
 
 </td><td>
 
-&lt;None&gt;
+TRUE
 
 </td></tr><tr><td>
 

@@ -1,20 +1,20 @@
 ---
-title: Create averages for product life cycles in Software Asset Management Core UI
-description: Create averages to calculate software End of Life \(EOL\) and End of Support \(EOS\) life cycles in the Software Asset Management Core UI application.
+title: Create averages for product life cycles in Software Asset Management classic
+description: Create averages to calculate software End of Life \(EOL\) and End of Support \(EOS\) life cycles in the Software Asset Management classic application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/create-lifecycle-averages-classic.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Create averages for product life cycles in Software Asset Management Core UI
+# Create averages for product life cycles in Software Asset Management classic
 
-Create averages to calculate software End of Life \(EOL\) and End of Support \(EOS\) life cycles in the Software Asset Management Core UI application.
+Create averages to calculate software End of Life \(EOL\) and End of Support \(EOS\) life cycles in the Software Asset Management classic application.
 
 ## Before you begin
 
@@ -113,5 +113,5 @@ Indicates that the life cycle average record will be used for creating software 
     The record is created and appears in the Software lifecycle averages list view.
 
 
-**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-classic.md)
 

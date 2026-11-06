@@ -7,7 +7,7 @@ release: australia
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Anomaly alerts indicate a deviation from projected metric values for monitored C
 
 The Advanced Promotion Engine is activated automatically as part of the Metric Intelligence application.
 
-You can use the Advanced Promotion Engine definitions that come with the base system \(for the Linux server and for the Windows server\), or you can create definitions on the different CI classes. The base system definitions indicate that the CIs on the Linux and Windows servers are operational, and those CIs that have a minimum severity of Major are to be promoted to the All Alerts table.
+You can use the Advanced Promotion Engine definitions that come with the base system \(for the Linux server and for the Windows server\). You can also create definitions on different CI classes. The base system definitions indicate that the CIs on the Linux and Windows servers are operational, and those CIs that have a minimum severity of Major are to be promoted to the All Alerts table.
 
 All Advanced Promotion Engine tasks require the evt\_mgmt\_admin role. The evt\_mgmt\_user role enables you to view definitions and properties only.
 

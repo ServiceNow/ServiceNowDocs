@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [Set up the Troubleshooting steps identification AI agent, Configure, ServiceNow Otto for CSM, Customer Service Management]

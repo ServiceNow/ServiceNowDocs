@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [SolarWinds, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -57,7 +57,7 @@ The playbook experience for onboarding connectors is activated with SGC Central 
         2.  Select **Continue**.
     2.  Download and run the PowerShell scripts to set up an air gap connection.
 
-        **Note:** Before you add an air gap connection, you must configure the air gap solution for the Service Graph Connector for SolarWinds in your high-secure and low-secure servers. See [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
+        **Note:** Before you add an air gap data source, you must configure the air gap solution for the Service Graph Connector for SolarWinds in your high-secure and low-secure servers. See [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
 
         1.  In the **Setup** stage of the playbook, select the **Download PowerShell scripts** activity.
 
@@ -205,7 +205,7 @@ Name of the MID Server that you deployed in your low-secure server.See [Configur
         2.  Expand the Parent scheduled data import within the Import schedules list, and select the SG-Solarwinds Hardware import schedule.
         3.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+            For more information, see .
 
         4.  Select **Save**.
 

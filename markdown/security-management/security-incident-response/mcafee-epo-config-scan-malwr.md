@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure settings, Capability profiles, McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -34,15 +34,15 @@ As with the isolate host action, you can initiate an on-demand scan directly fro
 
 2.  Fill out the form.
 
-<table id="choicetable_mpd_zzq_1fb"><thead><tr><th align="left" id="d367825e117">
+<table id="choicetable_mpd_zzq_1fb"><thead><tr><th align="left" id="d369584e117">
 
 Option
 
-</th><th align="left" id="d367825e120">
+</th><th align="left" id="d369584e120">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d367825e126">
+</th></tr></thead><tbody><tr><td id="d369584e126">
 
 **Enable alternate CI trigger field**
 
@@ -54,7 +54,7 @@ Alternate configuration item \(CI\) trigger field. Default is disabled. For this
 
  For more information about the alternate CI trigger field, see [Defining triggering conditions with a Configuration item \(CI\) field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-alternate-ci.md) and [Create a capability profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-create-profile.md).
 
-</td></tr><tr><td id="d367825e170">
+</td></tr><tr><td id="d369584e170">
 
 **Display Tags**
 
@@ -68,7 +68,7 @@ Security tags on security incidents. Default is disabled.When this check box is 
 
  Tag names and colors can be edited. For more information, see [Edit security tags in the ServiceNow AI Platform for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-match-tags.md).
 
-</td></tr><tr><td id="d367825e210">
+</td></tr><tr><td id="d369584e210">
 
 **Auto trigger based on incident**
 
@@ -80,7 +80,7 @@ Filter conditions. Default is disabled. When the check box is cleared, and the o
 
  For this example, filters for `Category is Malicious code activity` and `Business impact is 1 - Critical` are used. For more information about the filter condition builder, see [Create a capability profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/mcafee-epo-create-profile.md).
 
-</td></tr><tr><td id="d367825e244">
+</td></tr><tr><td id="d369584e244">
 
 **Require Approval**
 

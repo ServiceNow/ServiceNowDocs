@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/empx-company-news-events-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Employee Experience AI agents, Employee Experience, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Employee Experience AI agents, Employee Experience, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Company news &amp; events AI agent
@@ -113,7 +113,7 @@ Used in agentic workflows
 Not applicable.
 
 </td></tr></tbody>
-</table>Learn more about Employee Experience at [Unified Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ec-and-ecpro-landing-page.md).
+</table>Learn more about Employee Experience at [EmployeeWorks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ec-and-ecpro-landing-page.md).
 
 **Parent Topic:**[Employee Experience AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/employee-experience-ai-agents-overview.md)
 

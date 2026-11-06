@@ -7,9 +7,9 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a remote task definition, Configure for providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Remote task definition, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Create a remote task using Workflow Studio in Service Exchange for Providers

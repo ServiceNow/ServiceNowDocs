@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/now-assist-vault-securing-custom-apps-agents.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, agentic AI]
 breadcrumb: [Use agentic AI, ServiceNow Vault]

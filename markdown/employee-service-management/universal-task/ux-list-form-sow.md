@@ -7,7 +7,7 @@ release: australia
 product: Universal Task
 classification: universal-task
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add lists under list categories, Add list category in SOW core, Using Universal Task, Universal Task, Employee Service Management]
 ---

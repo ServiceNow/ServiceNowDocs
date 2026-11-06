@@ -7,8 +7,8 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Collect employee input, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 ## About this task
 
-Answers from the employee form are stored in the Metric Results \[asmt\_metric\_result\] table. You can query the answers using HR criteria. For example, if on an invention disclosure form, the new hire answers yes, then you can use that answer to trigger the creation of another task to collect details on the invention.
+Answers from the employee form are stored in the Metric Results \[asmt\_metric\_result\] table. You can query the answers using HR criteria. For example, if a new hire answers yes on an invention disclosure form, that answer can trigger the creation of another task to collect details on the invention.
 
 ## Procedure
 
@@ -60,7 +60,7 @@ Name
 
 </td><td>
 
-Name for the HR condition.
+&lt;Name for the HR condition&gt;
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ Active
 
 </td><td>
 
-Option to activate the HR condition for use.
+Selected
 
 </td></tr><tr><td>
 

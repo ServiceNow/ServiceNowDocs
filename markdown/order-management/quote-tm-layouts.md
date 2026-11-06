@@ -1,18 +1,18 @@
 ---
 title: Quote transaction layouts
-description: Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in CPQ.
+description: Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-layouts.html
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
-reading_time_minutes: 12
+reading_time_minutes: 13
 breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Quote transaction layouts
 
-Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in CPQ.
+Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in ServiceNow CPQ.
 
 Layouts in ServiceNow Quote Experience retain much of the look and feel of the configuration experience. Layouts can be managed in the administration interface using the visual layout editor or directly in YAML. The visual layout editor is selected by default. The option to edit layouts in JSON is retired in favor of the visual editor.
 
@@ -62,7 +62,7 @@ Access layout settings by selecting the gear icon in the layout subheader. The f
 
 -   **Highlight field changes**
 
-    Briefly highlights fields when their values are updated by rules or integrations. Enable this setting when concurrent users are expected or when fields update frequently. This setting also highlights pricing fields when their values change after a reprice.
+    Briefly highlights fields when their values are updated by rules or integrations. Enable this setting when concurrent users are expected or when fields update frequently.
 
 -   **Hide Header**
 
@@ -79,9 +79,11 @@ Layouts are organized using tiers, columnsets, and a line item grid.
 
 -   **Columnsets**
 
-    Columnsets organize fields and events horizontally within a tier. Multiple columnsets in the same tier arrange content vertically. Fields, images, text, and buttons can be added within a columnset.
+    Columnsets organize fields and events horizontally within a tier. Multiple columnsets in the same tier arrange content vertically. Fields, images, text, and buttons can be added within a columnset. Columnsets support two configuration modes:
 
-    Fields are added to the elements array of a columnset. After adding a field, additional field properties can be set on the Edit Field Info tab. Changing a field display type to "text area" enables users to resize the field .
+    -   Responsive — The default mode. Fields automatically reflow to fit available screen space. When the window is resized or space is limited, fields wrap to a new line rather than being cut off or squeezed. No column structure is defined; you simply add fields to the columnset.
+    -   Defined Columns — You specify a fixed number of columns \(1–5\), creating a structured, table-based layout. Content remains in its assigned columns and does not wrap on resize. This mode is recommended for structured layouts such as product pickers and e-commerce product grids. For detailed configuration instructions, see [Defined column set reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-defined-column-sets.md).
+    Fields are added to the elements array of a columnset. After adding a field, additional field properties can be set on the Edit Field Info tab. Changing a field display type to "text area" enables users to resize the field.
 
     Events are represented as buttons in a columnset. To add an event, add a button to a columnset and enable the **Event Button** setting, then select the event from the Event picklist.
 
@@ -92,13 +94,11 @@ Layouts are organized using tiers, columnsets, and a line item grid.
     -   **Line item grid header** — buttons that appear above the grid at runtime.
     -   **Line item grid column** — fields that appear as columns in the grid.
     -   **Line level buttons** — buttons that appear on each individual line in the grid.
-    When pricing is enabled, you can surface pricing in the line item grid: add the **Reprice** event button to the line item grid header or line-level buttons so users can recalculate pricing, and add the line pricing-state field \(`txn.line.pricing.state`\) as a grid column to show which lines need repricing. For more information about the Reprice event, see [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-events.md).
-
     The following layout properties apply to the line item grid and must be defined in the main YAML editor. Each property is enabled when its value is `true`.
 
     -   `showLineNumbers` — enables user-friendly sequential line numbers for visible lines. Numbering resets when a filter or search is applied.
     -   `supportLongText` — enables a popover on a field when the user selects it.
-    -   `autoScrollIntoView` — automatically scrolls the view to keep the transaction body and line item grid in sync .
+    -   `autoScrollIntoView` — automatically scrolls the view to keep the transaction body and line item grid in sync.
 
 ## Line numbering options
 
@@ -112,13 +112,13 @@ Three options are available for displaying line numbers in the quote lines grid.
 
     Displays hierarchical line numbering for all lines — for example, 1, 1.1, 2, 2.1, 2.2, 2.2.1. Numbers do not reset when a filter or search is applied. Maximum of 2,000 lines. The field has the same layout properties as other line-level fields and is added in the `lineGrid` section of the layout.
 
-    **Note:** To enable this field, submit a request to customer support through the CPQ Support portal.
+    **Note:** To enable this field, submit a request to customer support through the ServiceNow CPQ Support portal.
 
 -   **`txn.line.number` system field**
 
     Displays sequential line numbering for all lines \(1, 2, 3\). Numbers do not reset when a filter or search is applied. Maximum of 2,000 lines. The field has the same layout properties as other line-level fields and is added in the `lineGrid` section of the layout.
 
-    **Note:** To enable this field, submit a request to customer support through the CPQ Support portal.
+    **Note:** To enable this field, submit a request to customer support through the ServiceNow CPQ Support portal.
 
 
 ## Line-level button icons
@@ -235,6 +235,55 @@ ServiceNow Quote Experience layouts can be customized with themes by setting pro
 ## Stage progress chevron
 
 The Stages Progress Chevron component displays a horizontal chevron bar that shows a transaction's progression through its stages. It can be defined statically using a fixed stage list or dynamically using custom picklist fields, and is configured through the layout YAML or JSON. For configuration options, combination rules, and CSS theming variables, see [Stage progress chevron](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-stage-progress-chevron.md).
+
+## Dynamic field formatting
+
+Dynamic field formatting sets a field's display format based on the value of another field in the same layout. For example, the manual price adjustment value in productized pricing displays as a currency amount or a percentage, depending on the selected adjustment type.
+
+Dynamic field formatting can be set only in the YAML editor. The visual layout editor doesn't support it.
+
+A dynamic format uses the following properties.
+
+-   **`type`**
+
+    Set to `dynamic`. Keep the field's `type` as `FormattedNumber`, and change only the `format` property.
+
+-   **`controller`**
+
+    The variable name of the field whose value determines the format. The controller field must be a `Picklist` in the same layout.
+
+-   **`rules`**
+
+    An ordered array of rules. Each rule has a `format` and a `values` array. Rules are evaluated in order, and the first matching rule applies. If no rule matches, the value displays without formatting.
+
+-   **`format` \(in a rule\)**
+
+    The format to apply when the rule matches. It uses the same schema as the outer format. A `dynamic` format can't be nested inside a rule.
+
+-   **`values` \(in a rule\)**
+
+    The underlying values of the controller field for which the rule applies. Use the underlying values, not the display labels.
+
+
+For manual price adjustments, the controller is the discount adjustment type field, `txn.line.pricing.discount.adjustmentType`. The adjustment value field is `txn.line.pricing.discount.value`. The discount reason field, `txn.line.pricing.discount.description`, is optional. The following example formats the adjustment value as a currency for markdown amounts and price overrides, and as a percentage for markdown percentages.
+
+```
+format:
+  type: dynamic
+  controller: txn.line.pricing.discount.adjustmentType
+  rules:
+    - format:
+        type: currency
+      values: [MARKDOWN_AMT, PRICE_OVERRIDE]
+    - format:
+        type: unit
+        unit: percent
+      values: [MARKDOWN_PER]
+```
+
+**Warning:** Don't use `type: percent` for `MARKDOWN_PER`. The percent format type displays the underlying value multiplied by 100, but the adjustment is sent to pricing as-is, so the adjusted values are off by a factor of 2. Use `type: unit` with `unit: percent` instead.
+
+For the steps to configure dynamic formatting, see [Configure dynamic formatting for the adjustment value field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure_dynamic_formatting_price_adjustments.md). For details on how price adjustments work, see and [Formatting manual price adjustment values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/dynamic_formatting_price_adjustments.md).
 
 ## YAML reference snippets
 
@@ -353,15 +402,6 @@ productList:
     - externallyConfigurable,desc
     - name
 ```
-
--   **[Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-layout.md)**  
-Create a layout in ServiceNow Quote Experience to define the quote interface for a stage in CPQ.
--   **[ServiceNow Quote Experience layout UI effects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-ui-effects.md)**  
-Reference for UI effect types, parameters, access conditions, and YAML and JSON code examples for configuring button behavior in ServiceNow Quote Experience layouts in CPQ.
--   **[Stage progress chevron](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-stage-progress-chevron.md)**  
-Reference for configuring the Stages Progress Chevron component in ServiceNow Quote Experience layouts, including static and dynamic configuration options, combination rules, and CSS custom property theming in CPQ.
-
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 
 **Related topics**  
 

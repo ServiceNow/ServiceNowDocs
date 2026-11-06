@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -18,27 +18,25 @@ Configure role mappings on a business domain to control which users can select t
 
 ## Before you begin
 
-A business domain must be available. For more information, see [Create a business domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/create-a-business-domain.md).
-
 Role required: sn\_business\_domain.admin
 
 ## Procedure
 
-1.  In the Filter navigator, enter `sn_grc_business_domain.LIST`.
+1.  Enter `sn_grc_business_domain.LIST` in the filter navigator.
 
-2.  In the Business domains page, select the business domain record you want to configure.
+    The **Business domains** list opens in a new tab.
 
-3.  In the Role mappings related list, select **New**.
+2.  Select the business domain record you want to configure.
 
-4.  In the Context field, select **Document designer**.
+3.  In the **Role mappings** related list, select **New**.
 
-5.  Add the required roles.
+4.  In the **Context** field, select **Document designer**.
 
-    1.  In the Roles field, select the edit icon.
+5.  In the **Roles** field, select the edit icon.
 
-    2.  Select the required roles from the available list.
+    1.  Select the required roles.
 
-    3.  Select **Done**.
+    2.  Select **Done**.
 
 6.  Select **Submit**.
 

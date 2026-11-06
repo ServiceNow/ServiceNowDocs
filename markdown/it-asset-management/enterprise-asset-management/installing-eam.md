@@ -16,3 +16,10 @@ breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 
 Install the Enterprise Asset Management application so that you can manage the life cycles of your enterprise connected and non connected assets. You can install the application from either the ServiceNow® Store or the Admin Home page.
 
+-   **[Install Enterprise Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/install-eam.md)**  
+You can install the Enterprise Asset Management application \(com.sn\_eam\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
+-   **[Install Enterprise Asset Management from the Admin Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/install-eam-admin-home-page.md)**  
+You can install the Enterprise Asset Management application \(com.sn\_eam\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
+

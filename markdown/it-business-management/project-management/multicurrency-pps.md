@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Exploring Project Management, Project Management, Project Portfolio
 
 Use the multicurrency feature to execute a project or part of a project in a different geographic location that has a different local currency.
 
-The feature helps you to view the cost details of the project in a currency that is different from your functional currency. The values in the project's cost plans, benefit plans, and corresponding cost fields of the project form are also converted to a currency that you specify as project currency. Therefore, you don't need to convert the project currency to the functional currency of the project when the project is executed at a location that uses a currency different than your functional currency.
+The feature helps you to view the cost details of the project in a currency that is different from your functional currency. The values in the project's cost plans, benefit plans, and corresponding cost fields of the project form are also converted to a currency that you specify as project currency. Therefore, you need not convert the project currency to the functional currency of the project when the project is executed at a location that uses a currency different than your functional currency.
 
 ## Activation information
 
@@ -34,7 +34,7 @@ You can designate a currency other than the functional currency as the processin
 
 **Note:**
 
-The **Project currency** field of a project becomes read-only field and locked down for updating the currency once you create a cost plan, cost plan breakdown, benefit plan, benefit plan breakdown, or an expense line for the project.
+The **Project currency** field of a project is set to read-only field after you create a cost plan, cost plan breakdown, benefit plan, benefit plan breakdown, or an expense line for the project.
 
 ## Specify project currency in Demand
 

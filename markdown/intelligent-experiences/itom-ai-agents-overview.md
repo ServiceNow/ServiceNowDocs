@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 6
-breadcrumb: [IT Operations Management, AI agents library, AI assets, Enable AI experiences]
+reading_time_minutes: 3
+breadcrumb: [IT Operations Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # IT Operations Management AI agents
@@ -40,8 +40,8 @@ This AI agent investigates network issues and recommends next steps.
 This AI agent queries and interprets observability data from New Relic using the full suite of New Relic MCP server tools.
 -   **[Prometheus API AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itom-obs-prometheus-api-agent-ai-agent.md)**  
 This AI agent analyzes and investigates Prometheus alerts and answers general Prometheus questions, surfacing infrastructure metrics through instant and range queries.
--   **[Service map creation AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itom-service-map-creation-ai-specialist-ai-agent.md)**  
-This AI specialist discovers service infrastructure from application service candidates using ML analysis, and then it maps and persists the full service topology in CMDB.
+-   **[Service map AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itom-service-map-creation-ai-specialist-ai-agent.md)**  
+This AI agent runs automatically on a schedule and creates service maps from ML-based and tag-based candidates.
 -   **[SolarWinds analysis AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itom-obs-solarwinds-analysis-ai-agent.md)**  
 This AI agent fetches the details related to a SolarWinds alert by executing SWQL queries against SolarWinds.
 -   **[Splunk MCP server AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itom-obs-splunk-mcp-server-agent-ai-agent.md)**  
@@ -50,6 +50,8 @@ This AI agent investigates Splunk Cloud and compatible Splunk Enterprise alerts 
 This AI agent coordinates investigation activities across multiple observability platforms by orchestrating tool-specific agents. It correlates findings, identifies probable root causes, and synthesizes comprehensive investigation reports.
 -   **[ThousandEyes MCP server AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itom-obs-thousandeyes-mcp-server-agent-ai-agent.md)**  
 This AI agent investigates ThousandEyes tests by analyzing metrics, anomalies, network events, and outages. It returns probable causes and recommended next steps.
+-   **[Pattern Diagnostic AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/pattern-diagnostic-ai-agent.md)**  
+The Pattern Diagnostic Agent AI agent analyzes CMDB configuration item \(CI\) data quality by using Discovery pattern metadata. The agent identifies CIs with missing attribute values, parses discovery logs to diagnose the failures, and prepares the error data for remediation through the Error Framework.
 
 **Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-landing-page.md)
 

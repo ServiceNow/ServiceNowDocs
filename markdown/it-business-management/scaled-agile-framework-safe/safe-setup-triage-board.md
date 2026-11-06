@@ -7,8 +7,8 @@ release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [SAFe — Unified Backlog, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
 
@@ -17,6 +17,16 @@ breadcrumb: [SAFe — Unified Backlog, Scaled Agile Framework \(SAFe\), Strategi
 Set up your own triage board by defining filter criteria, and view records that are important to your team, such as problems, incident tasks, defects, or change requests. For example, you can create one triage board for defects and another for incidents.
 
 ## Before you begin
+
+The Agile - Scaled Agile Framework - Unified Backlog plugin must be active. Otherwise, the **Triage Board** option doesn't appear on the SAFe Board.
+
+**Important:**
+
+Starting with the Xanadu release, the plugins Portfolio SAFe, Essential SAFe, Performance Analytics Content Pack for Essential SAFe, Work Progress Status for SAFe, Agile - Scaled Agile Framework - Unified Backlog, and Read only roles for SAFe are being prepared for future deprecation. These plugins will be hidden and can no longer be activated on new instances but will continue to be supported. [Enterprise Agile Planning in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/eap-landing.md) provides the latest experience for this functionality.
+
+For more information on the deprecation process and its impact, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+The team must have a current program increment. Otherwise, the **Backlog** tab shows the message **There are no active program increments**, and the **Triage Board** option doesn't appear.
 
 You must be added to the SAFe team that would be responsible for handling work from this triage board.
 

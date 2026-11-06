@@ -7,9 +7,9 @@ release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Success Dashboard indicators KPIs, ITSM Success Dashboard Admin console, Configure, ITSM Success Dashboard indicators, IT Service Management]
+breadcrumb: [KPI configuration for Success Dashboard indicators, ITSM Success Dashboard Admin console, Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
 
 # Update more information cards
@@ -22,7 +22,7 @@ Role required: sn\_sd.success\_dashboard\_admin
 
 ## Procedure
 
-1.  Navigate to **All &gt; sn\_sd\_m2m\_indicator\_context\_information.list**.
+1.  Navigate to **All** &gt; **sn\_sd\_m2m\_indicator\_context\_information.list**.
 
 2.  Find the context information record in the table based on the Primary Indicator or the Contributing Indicator Registry that the card is associated with.
 
@@ -35,9 +35,9 @@ Role required: sn\_sd.success\_dashboard\_admin
 
 ## What to do next
 
-Associate the new context information card with an indicator. To associate a new context information card to a primary or contributing indicator, perform the following steps:
+Associate the new context information card with an indicator. To associate a new context information card with a primary or contributing indicator, perform the following steps:
 
-1.  Navigate to **All &gt; sn\_sd\_indicator\_context\_information.list**.
+1.  Navigate to **All** &gt; **sn\_sd\_indicator\_context\_information.list**.
 2.  Select **New**.
 3.  On the form, fill in the following fields:
 
@@ -50,18 +50,18 @@ Associate the new context information card with an indicator. To associate a new
     |Footer|Footer of the card.|
 
 4.  Select **Submit**.
-5.  Navigate to **All &gt; sn\_sd\_m2m\_indicator\_context\_information.list**.
-6.  Select **New**
+5.  Navigate to **All** &gt; **sn\_sd\_m2m\_indicator\_context\_information.list**.
+6.  Select **New**.
 7.  On the form, fill in the following fields:
 
     |Field|Description|
     |-----|-----------|
     |Indicator Context information|The record that is being created.|
-    |Contributing Indicator Registry \(if applicable|The contributing indicator with which the card is associated with.|
-    |Primary Indicator \(if applicable\)|The primary indicator with which the card is associated with.|
+    |Contributing Indicator Registry|The contributing indicator with which the card is associated.|
+    |Primary Indicator|The primary indicator with which the card is associated.|
     |Order|The order in which the card should appear.|
 
 8.  Select **Submit**.
 
-**Parent Topic:**[Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md)
+**Parent Topic:**[KPI configuration for Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md)
 

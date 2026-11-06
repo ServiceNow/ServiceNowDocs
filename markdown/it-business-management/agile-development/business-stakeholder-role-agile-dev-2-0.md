@@ -7,7 +7,7 @@ release: australia
 product: Agile Development
 classification: agile-development
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Agile Development 2.0 reference, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---

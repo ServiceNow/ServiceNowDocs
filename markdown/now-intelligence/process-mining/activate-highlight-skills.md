@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with process inefficiency highlights using AI, Configure, ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
@@ -24,9 +24,9 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
-2.  Select **Creator**.
+2.  Select **Platform** &gt; **Other**.
 
-3.  Select **Process Inefficiency Highlights** from the list of AI skills for Creator.
+3.  Select **Process Inefficiency Highlights** from the list of AI skills for Platform.
 
 4.  Select **Turn on** for the Process Inefficiency Highlights skill.
 

@@ -7,9 +7,9 @@ release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring advanced settings for your ML solutions, Configure Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Configuring advanced settings for your ML solutions, Configure Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Configure XGBoost for classification or regression solutions
@@ -26,11 +26,13 @@ Apply XGBoost encoding to optimize the training for your classification or regre
 
 XGBoost is an optional gradient boosting framework that uses multiple decision trees and supports both Paragraph Vector-based text and TF-IDF distance-based text. LogR is the default distance-based model algorithm.
 
-Configuring advanced settings on your ML solutions is optional. If you choose to configure any of these settings, make sure you're well informed regarding the technology you're enabling in the solution, and that you have a use case that benefits from what the technology offers.
+From the Brazil release, [Test time explainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/predictive-intel-test-time-explain.md) is available when using xgboost in Classification solutions.
+
+Configuring advanced settings on your ML solutions is optional. If you choose to configure any of these settings, make sure you're well informed regarding the technology you're enabling in the solution. Also make sure you have a use case that benefits from what the technology offers.
 
 In this example scenario, you apply XGBoost to both a classification solution and a regression solution.
 
-**Note:** The regression framework is deprecated in the Australia release. You can continue to use existing regression solutions but you can't create new ones.
+**Note:** The regression framework is deprecated in the Brazil release. You can continue to use existing regression solutions but you can't initiate new ones.
 
 ## Procedure
 
@@ -85,4 +87,6 @@ In this example scenario, you apply XGBoost to both a classification solution an
 [Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/create-solution-definition.md)
 
 [Create and train a regression solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/create-regression-solution.md)
+
+[Test time explainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/predictive-intelligence/predictive-intel-test-time-explain.md)
 

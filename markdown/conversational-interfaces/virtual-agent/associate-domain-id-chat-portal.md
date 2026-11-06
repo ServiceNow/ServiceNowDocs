@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Associate, Domain, ID, chat, portal]
-breadcrumb: [Domain separation and Virtual Agent, Virtual Agent technical reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Domain separation, Explore, Virtual Agent, Conversational Interfaces]
 ---
 
 # Associate a domain ID with a chat portal
@@ -55,6 +55,4 @@ Elements of the Service Portal platform such as settings, portals, pages and wid
 ## Result
 
 The **sysparm\_domain\_id** parameter gets passed in the portal URL.
-
-**Parent Topic:**[Domain separation and Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/domain-separation-virtual-agent.md)
 

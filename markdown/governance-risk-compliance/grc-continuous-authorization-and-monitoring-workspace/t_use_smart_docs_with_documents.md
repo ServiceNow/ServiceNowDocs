@@ -7,7 +7,7 @@ release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 keywords: [Smart Docs, AI assistant, document summarization, document questions, Ask Otto, voice assistant, document analysis]
 breadcrumb: [Document reuse across records, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
@@ -18,6 +18,8 @@ breadcrumb: [Document reuse across records, Continuous authorization and monitor
 Use ServiceNow Otto to summarize documents, ask questions, and generate audio summaries without manually reviewing every page.
 
 ## Before you begin
+
+Before you begin, ensure Smart Docs and Voice Assist for Docs are configured. Refer [KB3152347](https://support.servicenow.com/kb?sys_kb_id=bc6d7df3477a8358a330b98a436d4353&id=kb_article_view) for configuration details.
 
 Role required:
 

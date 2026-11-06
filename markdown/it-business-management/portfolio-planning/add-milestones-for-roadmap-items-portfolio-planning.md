@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
@@ -37,15 +37,15 @@ However, any existing milestones of the project are visible on the roadmap if yo
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d182919e126">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d189077e126">
 
 Roadmap type
 
-</th><th align="left" id="d182919e129">
+</th><th align="left" id="d189077e129">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d182919e135">
+</th></tr></thead><tbody><tr><td id="d189077e135">
 
 **Portfolio plan roadmap**
 
@@ -55,7 +55,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d182919e156">
+</td></tr><tr><td id="d189077e156">
 
 **Free-form roadmap**
 

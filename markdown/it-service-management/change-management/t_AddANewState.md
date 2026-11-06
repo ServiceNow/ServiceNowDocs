@@ -1,50 +1,48 @@
 ---
-title: Legacy: Add a state to the state model
-description: You can add a new state to the existing state model for different change types based on the requirements of your organization.Any modification to the state model may impact the default workflows for change requests.
+title: Add a state to the state model
+description: Add a state to the state model for different change types to meet the requirements of your organization.Any modification to the state model may impact the default workflows for change requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/t\_AddANewState.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 6
-breadcrumb: [Legacy: State model and transitions, Configure, Change Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [State model and transitions, Configure, Change Management, IT Service Management]
 ---
 
-# Legacy: Add a state to the state model
+# Add a state to the state model
 
-You can add a new state to the existing state model for different change types based on the requirements of your organization.
+Add a state to the state model for different change types to meet the requirements of your organization.
 
 ## Before you begin
-
-**Note:** The change states functionality has been replaced with change models since the Quebec release. For more information, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-a-change-model.md).
 
 Role required: script\_include\_admin, ui\_policy\_admin, ui\_action\_admin, or admin
 
 ## About this task
 
-The [State model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_ActivateStateModel.md) plugin is activated by default. For more information about base system states for change requests, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ChangeStateModel.md).
+The [State model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_ActivateStateModel.md) plugin is activated by default. For more information about base system states for change requests, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ChangeStateModel.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Change** &gt; **Create New** and complete the following steps to add a choice to the choice list.
+1.  Navigate to **All** &gt; **Change** &gt; **Create New** and add a state choice to the **State** field.
 
-    1.  Right-click the **State** field and click **Configure dictionary**.
+    1.  Select and hold \(or right-click\) the **State** field label, and select **Configure dictionary**.
 
-    2.  In the **Choices** related list, run a filter for **\[Table\] \[is\] \[change\_request\]**.
+    2.  In the **Choices** related list, run a filter for \[**Table**\] \[**is**\] \[**change\_request**\].
 
-    3.  Click **New** and add the new state with the following information.
+    3.  Select **New** and add the new state with the following information.
 
         -   **Table**: Change Request \[change\_request\]
         -   **Label**: name of your new state
         -   **Value**: numerical value that is not already assigned to an existing state choice
         -   **Sequence**: number corresponding to the location for it to appear in the list of states. If you assign it the same sequence number as another choice, it appears below the other choice.
-    4.  Click **Submit**.
+    4.  Select **Submit**.
 
-2.  Navigate to **System definition** &gt; **Script includes**.
+2.  Navigate to **All** &gt; **System Definition** &gt; **Script Includes**.
 
-    Script include records that contain **SNC** in the name are read-only. As you complete the following steps, ensure that you are selecting the correct script include to modify. For example, modify **ChangeRequestStateHandler** not **ChangeRequestStateHandlerSNC**.
+    Script include records that contain **SNC** in the name are read-only. As you complete the following steps, make sure that you select the correct script include to modify. For example, modify **ChangeRequestStateHandler** not **ChangeRequestStateHandlerSNC**.
 
     **Note:** Extended script includes \(without **SNC**\) include all of the functionality of their SNC counterparts. If you modify a base script include \(appended with **SNC**\), it is no longer updated during system upgrades.
 
@@ -66,7 +64,7 @@ The [State model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/au
 
 4.  Edit the appropriate script include to incorporate the new states into the model for the relevant change request types.
 
-    Each type of change request has a corresponding script include named**ChangeRequestStateModel\_&lt;type&gt;** where **&lt;type&gt;** is the value of the change request type. For example, **ChangeRequestStateModel\_normal** defines the state model for change requests with a type of normal.
+    Each type of change request has a corresponding script include named **ChangeRequestStateModel\_&lt;type&gt;** where **&lt;type&gt;** is the value of the change request type. For example, **ChangeRequestStateModel\_normal** defines the state model for change requests with a type of normal.
 
     Each state model script include defines objects that specify the following information.
 
@@ -139,7 +137,7 @@ Script
 
 -   Update the function name to match the one specified in the **Onclick** field.
 -   Update the line that starts with `ga.addParam(“sysparm_state_name”,…` to enter the name of the new state as the second parameter of the `addParam` function.
--   Update the line starts with `gsftSubmit` and modify the third parameter of this function call to match the value entered in the **Action name** field.
+-   Update the line that starts with `gsftSubmit` and modify the third parameter of this function call to match the value entered in the **Action name** field.
 
 
 </td></tr></tbody>
@@ -149,15 +147,15 @@ Script
 
         The **ChangeRequestStateHandler** script include contains two functions that are used to determine if a UI action is displayed based on the current state of the change request.
 
-        -   `isNext(stateName)`: This function only checks if the **stateName** passed as a parameter is available as a next state for the current state of the change request.
+        -   `isNext(stateName)`: This function checks only whether the **stateName** passed as a parameter is available as a next state for the current state of the change request.
         -   `canMoveTo(stateName)`: This function performs the same check as the **isNext** function. However, it also checks the result of calling the appropriate **canMoveTo** function for the transition from the current state to the **stateName** passed as a parameter. This function is used if there are additional checks in the **canMove** functions such as checking that a field contains a particular value.
-6.  Complete the following steps to update the process flow configuration to incorporate the new change state.
+6.  Update the process flow configuration to incorporate the new change state.
 
     The process flow is displayed at the top of the Change Request form and is configured in various process flow records.
 
     \[Omitted image "AddNewStateProcFlow.png"\] Alt text: New state appears in the process flow
 
-    1.  Navigate to **System UI** &gt; **Process Flow** module and filter for **\[Table\] \[is\] \[change\_request\]**.
+    1.  Navigate to **System UI** &gt; **Process Flow** module and filter for \[**Table**\] \[**is**\] \[**change\_request**\].
 
     2.  Open a record and use **Insert and Stay** to make a copy.
 
@@ -170,22 +168,20 @@ Script
         |Order|Update this number so that the new state is in the correct sequence with the existing process flow records for other states.|
         |Condition|Update the filter to match the new state.|
 
-    4.  Click **Update**.
+    4.  Select **Update**.
 
 
 ## What to do next
 
-To ensure that the new state works as expected, review the default workflows. Add the new state to the workflow as necessary.
+To verify that the new state works as expected, review the default workflows. Add the new state to the workflow as necessary.
 
-**Parent Topic:**[Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ChangeStateModel.md)
+**Parent Topic:**[State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ChangeStateModel.md)
 
-## Legacy: Review default workflows
+## Review default workflows
 
 Any modification to the state model may impact the default workflows for change requests.
 
 ### Before you begin
-
-**Note:** The change states functionality has been replaced with change models since the Quebec release. For more information, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-a-change-model.md).
 
 Role required: admin
 

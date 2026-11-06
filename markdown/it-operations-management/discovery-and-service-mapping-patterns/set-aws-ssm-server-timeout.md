@@ -20,7 +20,7 @@ Increase the wait time for AWS Systems Manager \(AWS SSM\) commands to support S
 ## Before you begin
 
 -   Verify that the **sn\_itom\_pattern.aws\_cloud\_discovery\_populate\_server\_ci** system property is set to `true`. For more information, see [Configure Server CI creation during AWS cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/configure-aws-server-ci-cloud-discovery.md).
--   Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+-   Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 
 Role required: discovery\_admin
 

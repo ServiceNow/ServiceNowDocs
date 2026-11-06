@@ -1,22 +1,22 @@
 ---
 title: Regulatory assessment for a regulatory alert
-description: Utilize the Smart Assessment Engine to perform smart assessments on regulatory alerts. This ability enhances regulatory decision-making by enabling impact assessments directly at the regulatory alert level, streamlining processes through a unified core assessment framework, and assigning analysis to multiple stakeholders for improved collaboration and efficiency.
+description: Use the Smart Assessment Engine to perform smart assessments on regulatory alerts. This ability enhances regulatory decision-making by enabling impact assessments directly at the regulatory alert level. It also streamlines processes through a unified core assessment framework, and assignsanalysis to multiple stakeholders for improved collaboration and efficiency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-assessment-in-rcm.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Regulatory process flow and tasks, Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
 # Regulatory assessment for a regulatory alert
 
-Utilize the Smart Assessment Engine to perform smart assessments on regulatory alerts. This ability enhances regulatory decision-making by enabling impact assessments directly at the regulatory alert level, streamlining processes through a unified core assessment framework, and assigning analysis to multiple stakeholders for improved collaboration and efficiency.
+Use the Smart Assessment Engine to perform smart assessments on regulatory alerts. This ability enhances regulatory decision-making by enabling impact assessments directly at the regulatory alert level. It also streamlines processes through a unified core assessment framework, and assignsanalysis to multiple stakeholders for improved collaboration and efficiency.
 
-When you initiate an assessment to assess the impact of a regulatory alert, you get an option select either to start a regulatory assessment or the classic risk assessment. Regulatory assessment utilizes the Smart Assessment Engine application and when it is initiated, a new related list called **Regulatory assessments** is available on a regulatory alert that displays the list of uniquely generated regulatory assessments. The assessor can access the assessment from the unified **Tasks** page on the Employee Center. The unified **Tasks** page provides you a consolidated view of all your tasks, including all assessments, enabling you to access and complete them efficiently. For more information on how to perform a regulatory assessment, refer to [Respond to a regulatory assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/respond-to-a-regulatory-assessment.md).
+When you initiate an assessment on a regulatory alert, two options are available: a regulatory assessment or the classic risk assessment. Regulatory assessment uses the Smart Assessment Engine application. After it starts, a **Regulatory assessments** related list appears on the regulatory alert, displaying all uniquely generated regulatory assessments. Assessors can access assessments from the unified **Tasks** page on the Employee Center, which provides a consolidated view of all tasks. To perform a regulatory assessment, see [Respond to a regulatory assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/respond-to-a-regulatory-assessment.md).
 
 To understand the benefits of using the Smart Assessment Engine, refer to [Exploring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-explore.md).
 

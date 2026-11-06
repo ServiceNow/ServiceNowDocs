@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_StoringImagesInTheDatabase.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Administrators and users with the image\_admin or content\_admin role can upload
 
 ## Images vs attachments
 
-If you want to access an image from a record, or if you want to prevent users from appending the image name to the URL of the instance, upload it as an attachment instead. When you upload an image as an attachment, the image is saved in the Attachments \[sys\_attachment\] table. See Administer attachments and [Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_AddingAnAttachment.md) for more information.
+If you want to access an image from a record, or if you want to prevent users from appending the image name to the URL of the instance, upload it as an attachment instead. When you upload an image as an attachment, the image is saved in the Attachments \[sys\_attachment\] table. See [Administer attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdministeringAttachments.md) and [Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_AddingAnAttachment.md) for more information.
 
 ## Acceptable image file types
 

@@ -7,7 +7,7 @@ release: australia
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,15 +18,16 @@ Add and manage AI system associations directly from the **AI Associations** tab 
 
 ## Before you begin
 
--   The AI Control Tower plugin must be installed. For more information, see [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activation-and-installation-of-ai-control-tower.md).
--   The investment type of the demand is set to artificial intelligence.
--   Role required: it\_demand\_user, it\_demand\_manager
+-   The AI Control Tower Core plugin must be installed.
+-   Role required:
+    -   To associate AI systems: it\_demand\_user, it\_demand\_manager
+    -   To create AI systems: sn\_ai\_governance\_ai\_steward
 
 ## About this task
 
-Add and manage AI system associations directly from the AI Associations tab in a demand form.
+You can select the impacted AI systems for the demand.
 
-You can select the impacted AI systems for the demand. If the required AI systems aren’t available, you can create AI systems using the **Create AI System** related link directly within the demand workflow. You’re navigated to the AI Control Tower to create the AI system. The created AI system is then available for selection in the **Impacted AI Systems** list on the demand form.
+If the required AI systems aren’t available, you can create AI systems using the **Create AI System** related link directly within the demand workflow. This link is available if the AI Control Tower plug-in is installed and the investment type of the demand is set to artificial intelligence. You’re navigated to the AI Control Tower to create the AI system. The created AI system is then available for selection in the **Impacted AI Systems** list on the demand form.
 
 ## Procedure
 
@@ -45,7 +46,7 @@ You can select the impacted AI systems for the demand. If the required AI system
 
 4.  Select the **Create AI System** related link to create an AI system in the AI Control Tower.
 
-    **Note:** This related link is available for users with the sn\_ai\_steward role.
+    **Note:** This related link is available for users with the sn\_ai\_governance\_ai\_steward role.
 
     For more information on creating AI systems, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md).
 

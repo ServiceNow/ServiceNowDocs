@@ -1,20 +1,20 @@
 ---
 title: Components installed with ITSM Roles - Change Management
-description: Several user roles are installed with the activation of the ITSM Roles — Change Management plugin \(com.snc.itsm.roles.change\_management\). Security ACLs to support the security model for Change Management and related functionality are also installed.
+description: Several user roles are installed with the activation of the ITSM Roles - Change Management plugin \(com.snc.itsm.roles.change\_management\). Security ACLs to support the security model for Change Management and related functionality are also installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/installed-with-cm-itsm-roles.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Request ITSM Roles- Change Management, Change Management plugins, Configure, Change Management, IT Service Management]
+breadcrumb: [Request ITSM Roles - Change Management, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Components installed with ITSM Roles - Change Management
 
-Several user roles are installed with the activation of the ITSM Roles — Change Management plugin \(com.snc.itsm.roles.change\_management\). Security ACLs to support the security model for Change Management and related functionality are also installed.
+Several user roles are installed with the activation of the ITSM Roles - Change Management plugin \(com.snc.itsm.roles.change\_management\). Security ACLs to support the security model for Change Management and related functionality are also installed.
 
 When you install the ITSM Roles — Change Management plugin \(com.snc.itsm.roles.change\_management\), the plugin updates the Security Access Control Lists \(ACLs\), integrating revised scripts, and other files to overhaul the security model for these applications.
 
@@ -66,7 +66,7 @@ Change read\[sn\_change\_read\]
 
 </td><td>
 
-Read access to the Change Management application and related records.**Note:** A user with the sn\_change\_read role can view all change requests as well as the CAB workbench.
+Read access to the Change Management application and related records.**Note:** A user with the sn\_change\_read role can view all change requests and the CAB Workbench.
 
 </td><td>
 
@@ -151,7 +151,7 @@ sn\_request\_read
 
 </td><td>
 
-Read access to the Request \(sc\_request\) or Requested Item \(sc\_req\_item\) only for a user who is also an approver of the request or requested item.**Note:** As there are future updates expected for the sn\_request\_read role, do not assign it to users without the business\_stakeholder role.
+Read access to the Request \[sc\_request\] or Requested Item \[sc\_req\_item\] only for a user who is also an approver of the request or requested item.**Note:** As there are future updates expected for the sn\_request\_read role, do not assign it to users without the business\_stakeholder role.
 
 </td><td>
 
@@ -163,7 +163,7 @@ sn\_request\_write
 
 </td><td>
 
-Write access to the Request \(sc\_request\) or Requested Item \(sc\_req\_item\).
+Write access to the Request \[sc\_request\] or Requested Item \[sc\_req\_item\].
 
 </td><td>
 
@@ -181,7 +181,7 @@ sn\_request\_comment\_write
 
 </td><td>
 
-Write access to the comments for the Requested Item \(sc\_req\_item\).**Note:** The sn\_request\_comment\_write role alone does not give access to comments write, you will need write access for the table.
+Write access to the comments for the Requested Item \[sc\_req\_item\].**Note:** The sn\_request\_comment\_write role alone doesn't provide write access to comments. You also need write access to the table.
 
 </td><td>
 
@@ -193,7 +193,7 @@ NA
 
 </td><td>
 
-Enables gathering, and verifying information, as well as delivering quick resolutions for tier 1 service desk agents. This user role is available when the ITSM Roles plugin \(com.snc.itsm.roles\) is installed.
+Enables tier 1 service desk agents to gather and verify information and to deliver quick resolutions. This user role is available when the ITSM Roles plugin \(com.snc.itsm.roles\) is installed.
 
 </td><td>
 
@@ -209,5 +209,5 @@ Enables gathering, and verifying information, as well as delivering quick resolu
 -   now\_assist\_panel\_user
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request ITSM Roles- Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/request-itsm-roles-cm.md)
+</table>**Parent Topic:**[Request ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/request-itsm-roles-cm.md)
 

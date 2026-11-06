@@ -7,7 +7,7 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Defining the scope of projects, Use, Task Mining, Platform Analytics]
 ---
@@ -28,13 +28,13 @@ Role required: admin
 
 3.  Select the More actions icon \[Omitted image "more-actions-menu-icon.png"\].
 
-    \[Omitted image "tm-edit-project.png"\] Alt text: Screenshot showing the More actions menu and the Edit option.
+    \[Omitted image "tm-edit-project.png"\] Alt text: The More actions menu and the Edit option.
 
 4.  Select **Edit**.
 
 5.  Navigate to the project settings you want to modify using the navigation.
 
-    \[Omitted image "tm-edit-nav.png"\] Alt text: Screenshot showing the navigation menu in a project.
+    \[Omitted image "tm-edit-nav.png"\] Alt text: The navigation menu in a project.
 
 6.  Navigate to the **Summary** page when ready and select **Update project**.
 

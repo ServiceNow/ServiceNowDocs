@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-int\_guide-sys\_submit\_case.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration use cases, Developer resources, Financial Services Operations \(FSO\)]
 ---
@@ -16,13 +16,15 @@ This use case illustrates how the ServiceNow Financial Services Operations \(FSO
 
 Any system that can handle making REST API calls can implement this scenario to create customer cases in FSO. In this scenario, the fields consumer, financial account, category, short description, and notes are sent from the external system.
 
+\[Omitted image "fso-external\_case\_req.png"\] Alt text: FSO case flow showing requests from external systems.
+
 The table that is accessed in this scenario is the Loan Service Case \[sn\_bom\_loan\_service\].
 
 The following diagram shows the flow of the REST API calls for this scenario and provides brief remarks on the processing.
 
 <table id="table_rmq_ywq_bpb"><tbody><tr><td>
 
-
+\[Omitted image "fso-external\_case\_req-swim\_diagram.png"\] Alt text: Flow diagram shows how an agent creates a loan case record and the flow of various REST API calls for processing. the case.
 
 </td><td>
 

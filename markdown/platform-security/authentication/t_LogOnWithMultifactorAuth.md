@@ -1,20 +1,20 @@
 ---
 title: Log in with Multi-factor Authentication
-description: Login with MFA when it is enabled by your administrator on your instance.
+description: Log in with MFA when it is enabled by your administrator on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/t\_LogOnWithMultifactorAuth.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up MFA on your user profile, Using MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
 # Log in with Multi-factor Authentication
 
-Login with MFA when it is enabled by your administrator on your instance.
+Log in with MFA when it is enabled by your administrator on your instance.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ You must have MFA enabled for your profile. You can enable it yourself on your u
 
 Role required: none
 
-**Note:** The last used MFA verification factor is automatically shown for the users in the subsequent log in.
+**Note:** The last used MFA verification factor is automatically shown for the users in the subsequent login.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ Role required: none
 
 2.  Enter your user name and password.
 
-3.  Click **Log in**.
+3.  Select **Log in**.
 
     The multi-factor authentication screen appears.
 
@@ -38,18 +38,18 @@ Role required: none
 
 4.  Select one of the methods to complete the MFA setup.
 
-    For more information about each setup, see [Set up Multi-factor authentication for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_SetUpMultiFactorAuthUponLogin.md).
+    For more information about each setup, see [Set up multi-factor authentication for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_SetUpMultiFactorAuthUponLogin.md).
 
-    If you wish to postpone the setup, select **Postpone setup**. The maximum number of time you can postpone the setup is displayed on the screen and this value is configured by your administrator.
+    To postpone the setup, select **Postpone setup**. The maximum number of times you can postpone the setup is displayed on the screen and this value is configured by your administrator.
 
 
 ## Result
 
-If you have already setup MFA, the recently used factor is displayed when you login your instance after entering your username and password.
+If you have already set up MFA, the recently used factor is displayed when you log in to your instance after entering your username and password.
 
 ## Recently used MFA factor
 
-If the recent used factor was Biometric login, then upon login using your username and password, you're directly displayed with the Biometric MFA setup screen.
+If the recently used factor was Biometric login, then on login using your username and password, you're directly displayed with the Biometric MFA setup screen.
 
 \[Omitted image "biometirc-mfa-recent.png"\] Alt text: Used factor screen
 

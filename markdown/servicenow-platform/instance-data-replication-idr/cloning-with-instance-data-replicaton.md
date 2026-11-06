@@ -7,7 +7,7 @@ release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ There are multiple methods for copying an IDR configuration from one instance to
 
     Before you clone your instance, you must determine whether to exclude or include your IDR replication configuration.
 
-    For details on cloning, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-clone-landing.md).
+    For details on cloning, see .
 
 
 ## IDR cloning use cases

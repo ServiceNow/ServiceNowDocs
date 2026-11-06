@@ -1,31 +1,31 @@
 ---
-title: Resolving a license and permit case using License and Permit Playbook
-description: You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.Complete the Intake stage as your first step in resolving a case using the License and Permit Playbook.Complete the Review stage as your second step in resolving a case using the License and Permit Playbook.Complete the Process stage as your third step in resolving a case using the License and Permit Playbook.Complete the Decision stage as your last step in resolving a case using the License and Permit Playbook.
+title: Resolving a license and permit case using License and Permit Administration
+description: You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.Complete the Intake stage as your first step in resolving a case using the License and Permit Administration.Complete the Review stage as your second step in resolving a case using the License and Permit Administration.Complete the Process stage as your third step in resolving a case using the License and Permit Administration.Complete the Decision stage as your last step in resolving a case using the License and Permit Administration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/public-sector-resolving-lpr-case-playbooks.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Using License and Permit Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Resolving a license and permit case using License and Permit Playbook
+# Resolving a license and permit case using License and Permit Administration
 
 You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.
 
-**Note:** Verify that the License and Permit Playbook application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the License and Permit Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/configuring-license-permit-playbook.md).
+**Note:** Verify that the License and Permit Administration application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the License and Permit Administration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/configuring-license-permit-playbook.md).
 
-By default, the following stages are available to you as a government service agent in the License and Permit Playbook in the CRM Workspace.
+By default, the following stages are available to you as a government service agent in the License and Permit Administration in the Public Sector Workspace.
 
 -   Intake
 -   Review
 -   Processing
 -   Decision
 
-## Case Stages in License and Permit Playbook
+## Case Stages in License and Permit Administration
 
-The License and Permit Playbook experience starts with the **Intake** stage. This stage is the default playbook stage for a new license and permit request case.
+The License and Permit Administration experience starts with the **Intake** stage. This stage is the default playbook stage for a new license and permit request case.
 
 Use this playbook stage to gather and confirm information about the requester, the license or permit being requested, whether the requester is eligible for this type of license or permit, and whether they are exempt from the fees associated with the license or permit. You can also request additional information from the requester at this stage, upload additional documents, add additional comments, add related parties, and schedule a consultation through the work notes.
 
@@ -37,13 +37,13 @@ The playbook continues with the **Process** stage. In this stage, the case might
 
 Once requests for any additional information and any open case tasks are complete, the case is moved to the **Propose Decision** activity. Additional information may be solicited from the requester at any time during this stage. After the decision, often made by a higher-tier agent, is proposed, it is routed to the original agent, who may request or perform their own additional inspections, and add or request more information. This agent then has the option of confirming or vetoing the decision proposal of the other agent.
 
-The final stage of the License and Permit Playbook is the **Decision** stage. At the Decision stage, the status of the license or permit is changed to **Granted**, and the license or permit can be generated and routed to the constituent. A notification is sent to the requester that lets them know that license or permit approval has been has obtained and the requested license or permit has been digitally generated within the playbook, and delivered via the Government Service Portal.
+The final stage of the License and Permit Administration is the **Decision** stage. At the Decision stage, the status of the license or permit is changed to **Granted**, and the license or permit can be generated and routed to the constituent. A notification is sent to the requester that lets them know that license or permit approval has been has obtained and the requested license or permit has been digitally generated within the playbook, and delivered via the Government Service Portal.
 
 The requester can then either accept or reject the license or permit. If the requester accepts the outcome, the case is automatically closed. If the requester rejects the solution, the case is reopened, and the agent must propose another outcome. A request for a license or permit may also be conditionally approved, or denied. The agent can specify why in the work notes.
 
-## Complete the Intake stage in License and Permit Playbook
+## Complete the Intake stage in License and Permit Administration
 
-Complete the Intake stage as your first step in resolving a case using the License and Permit Playbook.
+Complete the Intake stage as your first step in resolving a case using the License and Permit Administration.
 
 ### Before you begin
 
@@ -51,7 +51,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ### Procedure
 
-1.  In the CRM Workspace, navigate to **Lists** &gt; **License &amp; Permit Requests** &gt; **All**.
+1.  In the Public Sector Workspace, navigate to **Lists** &gt; **License &amp; Permit Requests** &gt; **All**.
 
 2.  Select **New** to create a case.
 
@@ -59,7 +59,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 4.  Select **Create Case**.
 
-    The License and Permit Playbook opens and initiates the first activity for collecting the request details.
+    The License and Permit Administration opens and initiates the first activity for collecting the request details.
 
 5.  On the Enter Application Details activity card, confirm the applicant's eligibility and select **Continue**.
 
@@ -114,9 +114,9 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
     The case is moved to the **Review** stage, and the **Intake** stage is marked complete.
 
 
-## Complete the Review stage in License and Permit Playbook
+## Complete the Review stage in License and Permit Administration
 
-Complete the Review stage as your second step in resolving a case using the License and Permit Playbook.
+Complete the Review stage as your second step in resolving a case using the License and Permit Administration.
 
 ### Before you begin
 
@@ -156,9 +156,9 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
     The Review stage is now complete and the case is moved to the Process stage.
 
 
-## Complete the Process stage in License and Permit Playbook
+## Complete the Process stage in License and Permit Administration
 
-Complete the Process stage as your third step in resolving a case using the License and Permit Playbook.
+Complete the Process stage as your third step in resolving a case using the License and Permit Administration.
 
 ### Before you begin
 
@@ -183,9 +183,9 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
     The Process stage is complete and the case is moved to the Decision stage.
 
 
-## Complete the Decision stage in License and Permit Playbook
+## Complete the Decision stage in License and Permit Administration
 
-Complete the Decision stage as your last step in resolving a case using the License and Permit Playbook.
+Complete the Decision stage as your last step in resolving a case using the License and Permit Administration.
 
 ### Before you begin
 

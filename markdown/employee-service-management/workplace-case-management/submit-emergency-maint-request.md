@@ -7,7 +7,7 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -27,6 +27,8 @@ Role required: sn\_wsd\_core.workplace\_user
     You can also access the Emergency Maintenance request form using the Employee Center portal. Navigate to **All** &gt; **Self-Service** &gt; **Employee Center** &gt; **Workplace Services** &gt; **Maintenance** &gt; **Submit an emergency maintenance request**.
 
 2.  Select **Submit an emergency maintenance request** record form.
+
+    \[Omitted image "wsd-submit-emergency-request-form-use.png"\] Alt text: Submit an emergency maintenance request form.
 
 3.  Fill in the field information.
 

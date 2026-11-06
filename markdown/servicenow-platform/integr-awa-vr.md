@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/integr-awa-vr.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Voice with other applications, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,7 +39,7 @@ Role required: sn\_cti\_amzn\_cct.admin
 
     Complete the steps specified in the setup guide:
 
-    1.  Complete [AWS Lambda](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/aws-lambda-spoke.md) and OAuth credential setup.
+    1.  Complete AWS Lambda and OAuth credential setup.
 
     2.  Download the recommended hold music using the link in the setup guide \(you can choose your own hold music, but it cannot be longer than 5 seconds\).
 
@@ -47,7 +47,7 @@ Role required: sn\_cti\_amzn\_cct.admin
 
 6.  Set up AWA queue to route Amazon Connect phone calls.
 
-    To setup AWA, see [Get started with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/implement-awa.md)
+    To setup AWA, see 
 
 
 ## What to do next

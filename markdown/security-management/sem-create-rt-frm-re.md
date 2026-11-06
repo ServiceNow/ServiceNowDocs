@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-create-rt-frm-re.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Remediation Effort records, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -53,6 +53,4 @@ For version 18.0 of Vulnerability Response, you cannot create a Remediation Task
 
 10. The new remediation task is displayed with the active records you selected.
 
-
-**Parent Topic:**[Use Remediation Effort records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-ws-remed-eff-rcd.md)
 

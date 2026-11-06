@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Adaptive authentication, Authentication, Access Management]
 ---
@@ -27,8 +27,8 @@ Use the built-in authentication policies or create an authentication policy acco
 |Allow non local login users|Choose this policy to allow non-local login users. Used in the context of SSO recovery flows.|
 |Deny access policy|Allows the authentication requests by default. Denies only the authentication requests that match the specified policy conditions.|
 |Global blocking policy|Denies the access requests of users and APIs before authentication. This policy can be used as an alternative to the [IP Address Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_AccessControl.md).|
-|Session Validation Policy|The authentication policy evaluates Filter Criteria \(For example, IP address\) to determine whether a session should remain active for incoming requests. You must set the filter criteria on this policy.|
+|Session Validation Policy|The authentication policy evaluates filter criteria \(for example, IP address\) to determine whether a session should remain active for incoming requests. You must set the filter criteria on this policy.|
 |Local login deny policy|Choose this policy to block all local logins. Used in the context of SSO recovery flows.|
-|Step-down MFA policy|Choose **Step-Down MFA Policy** as the default policy in situations where users do not require MFA authentication. When the policy conditions defined in the Step-Up MFA Policy evaluate to true, users are not required to login using MFA.|
+|Step-down MFA policy|Choose **Step-Down MFA Policy** as the default policy in situations where users do not require MFA authentication. When the policy conditions defined in the Step-Up MFA Policy evaluate to true, users are not required to log in using MFA.|
 |Step-up MFA policy|Choose **Step-Up MFA Policy** as the default policy to require MFA authentication when the policy conditions defined in the Step-Up MFA Policy evaluate to true.|
 

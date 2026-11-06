@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [ServiceNow, Health Log Analytics, HLA, logs, manual mapping, auto-mapping, data input, source type, JavaScript function]
 breadcrumb: [Log data auto-mapping and mapping, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -202,7 +202,7 @@ The new script is automatically added to the list of JS function templates from 
 
 [Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
 
-[Source type and log source relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-view-sources-vs-sourcetypes.md)
+[View source type and log source relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-view-sources-vs-sourcetypes.md)
 
 [Header properties detection in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-header-detection.md)
 

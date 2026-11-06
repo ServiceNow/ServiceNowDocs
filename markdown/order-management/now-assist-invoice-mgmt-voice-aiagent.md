@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/now-assist-invoice-mgmt-voice-aiagent.html
 release: australia
 topic_type: task
-last_updated: "2026-03-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Invoice case self-service, Business Portal, Use, Sales Customer Relationship Management]

@@ -1,5 +1,5 @@
 ---
-title: Reports on Service Portal
+title: Core UI reports on Service Portal
 description: Show existing reports in a Service Portal.You can activate the Performance Analytics and Reporting - Service Portal Widgets plugin \(com.snc.pa.sp.widget\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/service-portal-reporting-widget.html
@@ -7,22 +7,22 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Reports on Service Portal
+# Core UI reports on Service Portal
 
 Show existing reports in a Service Portal.
 
-When you edit a portal, add the **Report** widget. Use the widget options to specify a report to show on the service portal and whether to show the title of the report. The widget lists created in the Report Designer. For more information, see [Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CreateYourOwnReport.md).
+When you edit a portal, add the **Report** widget. Use the widget options to specify a report to show on the service portal and whether to show the title of the report. The widget lists created in the Report Designer. For more information, see [Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CreateYourOwnReport.md).
 
 \[Omitted image "service-portal-report-widget2.png"\] Alt text: Report widget opened in the Service Portal Designer
 
 With the report widget, you can show all report types on your portal except for list reports. Use the [Simple List Widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/simple-list-widget.md) instead.
 
-**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
+**Parent Topic:**[Using Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md)
 
 **Related topics**  
 

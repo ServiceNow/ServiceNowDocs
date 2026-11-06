@@ -7,7 +7,7 @@ release: australia
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Domain separation and DevOps Config, DevOps Config reference, DevOps Config, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Domain separation and DevOps Config, DevOps Config reference, DevOp
 
 Domain separation is supported for CDM. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 ## Support level: Basic
 

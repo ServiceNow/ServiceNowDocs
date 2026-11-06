@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/RPO-asset-impact-assessment.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Assess impact categories and dependencies of process, Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ Not all elements require data backup, however technology assets like IT hardware
 
 2.  Click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon.\).
 
-    By default, the records in the **In Draft** state of the Business Impact Analysis list are displayed.
+    By default, the records in the **In Draft** state of the Business Impact Analysis list opens.
 
 3.  To create a business impact analysis \(BIA\) record, click **New**.
 
@@ -59,7 +59,7 @@ RPO depends on the rating or the response that you give for each question in the
 
 Based on your response that you have selected for each Impact analysis question of an impact category, the system calculates the RPO.
 
-For example, if two questions have a Medium \(value is 20\) response and one question has High \(value is 30\) as response, system considers the maximum response value. Therefore, in this case the impact rating is considered as High and the value is 30.
+For example, if two questions have a Medium \(value is 20\) response and one question has High \(value is 30\) as response, the system considers the maximum value. The impact rating is High. The value is 30.
 
 The impact rating has an integer value preconfigured in the Impact Rating table \[sn\_bcm\_impact\_rating\]. This value is updated as the **Category score** for the corresponding impact category in the Impact Category Results table \[sn\_bia\_category\_result\]. The system picks up the maximum category score across all impact categories. This score falls within a range of lower and upper threshold values. The threshold range within which the maximum score falls corresponds to a timeframe, which is stamped as **Recovery Point Objective \(RPO\)** in the **Impact Assessment Result** card of the BIA.
 

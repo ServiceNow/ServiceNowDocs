@@ -7,7 +7,7 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [LEAP AI agent, knowledge base article, problem record, AIOps LEAP]
 breadcrumb: [Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
@@ -35,7 +35,7 @@ The LEAP AI agent autonomously scans active automation opportunities and acts on
 
 -   **Create knowledge base articles**
 
-    The agent is triggered when resolution steps for automation opportunities are generated successfully. The agent documents and generates a draft knowledge base article that includes the automation opportunity title, resolution steps, and related incident context. You review the draft and publish it. Each published article remains traceable to its source automation opportunity. The agent doesn't create a knowledge base for an automation opportunity that is already linked to an open KB.
+    The agent is triggered when resolution steps for automation opportunities are generated successfully. It documents and generates a draft knowledge base article that includes the automation opportunity title, resolution steps, and related incident context. You review the draft and publish it. Each published article remains traceable to its source automation opportunity. The agent doesn't create a knowledge base for an automation opportunity that is already linked to an open KB.
 
 -   **Create problem records**
 

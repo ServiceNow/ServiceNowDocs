@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Impact radius typically refers to the extent to which a regulatory change affect
 
 ## Impacted areas
 
-The regulatory events that could have an impact on the compliance or risk posture of your organization should be assessed. Calculating the impact radius is a method for assessing the impact of the regulatory event on the GRC objects and for suggesting action tasks based on the assessment of the impact. The Regulatory Change Management application supports the impact radius calculation process for a regulatory alert. Calculating the impact radius is a method of automatically creating action tasks for the users.
+Assess regulatory events that could affect the compliance or risk posture of your organization. The impact radius measures how a regulatory event affects GRC objects and identifies action tasks. The Regulatory Change Management application supports impact radius calculation for regulatory alerts and automatically creates action tasks.
 
 Regulatory alerts are of two types:
 
@@ -43,7 +43,7 @@ Prior to the Yokohama release, the Regulatory Change Management users had the op
 
 ## Impact radius calculation
 
-When you add impacted areas to regulatory alerts of type regulatory event, assign it to a user, and the user marks the alert as applicable, regulatory tasks are automatically generated. The regulatory tasks are then assigned to a user. When the assigned user of the tasks chooses to respond to the tasks, action tasks for each impacted areas are generated. However, you can also manually add more action tasks, other than the ones that are automatically created based on the impacted areas.
+Add impacted areas to a regulatory alert of type regulatory event and assign it to a user. When the user marks the alert as applicable, regulatory tasks are automatically generated and assigned to a user. When the assigned user responds to the tasks, action tasks are generated for each impacted area. You can also manually add action tasks beyond those automatically created from the impacted areas.
 
 ## Representation of regulatory changes in the Compliance Workspace
 

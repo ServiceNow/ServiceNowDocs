@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/initiate-the-connection-impact-delivery-instance.html
 release: australia
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Use manual registration to configure the Impact Store Application, Impact reference, Impact]
+breadcrumb: [Use manual registration to configure the Impact Store Application, Data synchronization reference, Impact reference, Impact]
 ---
 
 # Initiate the connection to Impact data with manual registration

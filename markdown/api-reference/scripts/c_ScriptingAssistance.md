@@ -1,5 +1,5 @@
 ---
-title: JavaScript API Context-sensitive help
+title: JavaScript API context-sensitive help
 description: The syntax editor can display context-sensitive API information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_ScriptingAssistance.html
@@ -7,16 +7,16 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Server-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Using the JavaScript syntax editor, JavaScript syntax editor, Explore, Scripting, API implementation, API implementation and reference]
 ---
 
-# JavaScript API Context-sensitive help
+# JavaScript API context-sensitive help
 
 The syntax editor can display context-sensitive API information.
 
-JavaScript API Context-sensitive help includes the ability to:
+JavaScript API context-sensitive help includes the ability to:
 
 -   List script elements that are valid at the cursor's location. The system displays suggestions in a pop-up window.
 -   Add a selected script element at the cursor's location. If the cursor is within or adjacent to a partial entry, the system completes the entry with the selected script element.
@@ -30,5 +30,5 @@ If the cursor is adjacent to a text string, the system searches for script eleme
 
 Context-sensitive suggestions are based on script type. For example, when working on a business rule, only suggestions from the server API and for objects such as **current** and **previous** display. When working on a client script, the system only displays suggestions from the client API.
 
-**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ServerScripting.md)
+**Parent Topic:**[Using the JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_EdtJvaScptWSyntxEdtr.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Mark on hold, Hold reason, Resume release, On Hold state]
 breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]

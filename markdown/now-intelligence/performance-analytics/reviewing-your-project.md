@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Design your indicator solution, Configure fundamentals, Performance
 # Reviewing your project
 
 Summarize both the created KPI Composer project artifacts and the planned Performance Analytics components. Validate the contents of your project. Generate the tasks to build the planned Performance Analytics components.
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Navigate to the Review tab at any time for an up-to-date account of completed design work and pending Performance Analytics configurations.
 

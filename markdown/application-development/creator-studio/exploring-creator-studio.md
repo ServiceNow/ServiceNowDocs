@@ -7,9 +7,9 @@ release: australia
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Exploring Creator Studio

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/channels-access-aia-new.html
 release: australia
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-10-23"
 reading_time_minutes: 1
-breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Select channels and processing messages for an AI agent
@@ -26,9 +26,9 @@ In this section of the AI agent guided setup, you configure where the AI agent c
 
 1.  Choose whether to allow users to invoke your AI agent in the ServiceNow Otto panel.
 
-2.  Choose whether to engage via Otto assistants by toggling **Otto assistants**.
+2.  Choose whether to make the AI agent available through Otto assistants by turning on the **Otto assistants** toggle.
 
-    If enabled, you must select which chat assistants have access to the AI agent. You can edit assistants using Assistant Designer. If the list is empty, you may need to create a new assistant.
+    If enabled, select which chat assistants can access the AI agent. You can edit assistants in Assistant Designer.
 
     Assistant Designer is where chat and voice assistants are configured. The list of options is populated from it, so an assistant that does not exist there can't be selected. If the list is empty, or if you are configuring a voice agent and no voice assistant is offered, create the assistant in Assistant Designer first and return to this step.
 

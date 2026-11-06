@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Review, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -36,6 +36,8 @@ Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispu
 ## Result
 
 The interaction record is displayed with the interaction transcript.
+
+\[Omitted image "disputes-va-transcript.png"\] Alt text: The interaction transcript shows the conversation history between Virtual Agent and the customer.
 
 **Parent Topic:**[Review a dispute from portal or workspace intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/review-a-dispute-from-cardholder-intake.md)
 

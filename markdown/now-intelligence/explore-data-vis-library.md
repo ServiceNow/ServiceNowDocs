@@ -1,24 +1,24 @@
 ---
 title: Exploring the Data Visualizations library
-description: Find any data visualization in the Platform Analytics Data Visualizations library so that you can share information about your data with stakeholders and other users to evaluate the trends with real-time data. With the appropriate role, you can also create a visualization.
+description: Find any data visualization in the Platform Analytics Data Visualizations library. You can share information about your data with stakeholders and other users to evaluate the trends with real-time data. With the appropriate role, you can also create a visualization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/explore-data-vis-library.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
 # Exploring the Data Visualizations library
 
-Find any data visualization in the Platform Analytics Data Visualizations library so that you can share information about your data with stakeholders and other users to evaluate the trends with real-time data. With the appropriate role, you can also create a visualization.
+Find any data visualization in the Platform Analytics Data Visualizations library. You can share information about your data with stakeholders and other users to evaluate the trends with real-time data. With the appropriate role, you can also create a visualization.
 
 ## Data Visualizations Library overview
 
-On Australia instances, you can find both Core UI reports and Platform Analytics experience data visualizations in the Data Visualizations library.
+On Brazil instances, you can find both Core UI reports and Platform Analytics experience data visualizations in the Data Visualizations library.
 
-When you edit Core UI dashboards and their content, you do so in the Core UI tools including Report Designer. For more information, see [Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/classic-vis-overview.md) and [Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md).
+When you edit Core UI dashboards and their content, you do so in the Core UI tools including Report Designer. For more information, see [Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/classic-vis-overview.md) and [Using Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md).
 
 To open the data visualizations library, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. You can also navigate to this library from other Platform Analytics library pages.
 
@@ -28,11 +28,11 @@ Library pages like this one include a navigation pane that provides access to th
 
 Access to certain elements in the Data Visualizations library is based on whether the user is associated with specific admin roles. For Data Visualizations, the analytics admin roles include report\_admin, pa\_admin, platform\_analytics\_admin, and admin. The lowest required role is viz\_admin. For users with the lowest role, the application navigator provides a direct access only to the [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/find-dashboard-library.md), [Data Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/explore-data-vis-library.md), and [Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/your-kpis.md) from the Platform Analytics library. For more information on user roles in Data Visualizations, see [Data visualization roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
-The following image shows the Data Visualizations library elements that are accessible for users with analytics admin roles.
+The following image shows the Data Visualizations library elements that are accessible for users with the viz\_admin role or higher. \(The **Create data visualization** button requires only viz\_creator or higher.\)
 
 \[Omitted image "analytics-center-data-vis-tab.png"\] Alt text: Data Visualizations library for analytics admin roles.
 
-The following example shows the Data Visualizations library elements that are accessible for users with lower roles.
+The following example shows the Data Visualizations library elements that are accessible for users with any role.
 
 \[Omitted image "ac-data-vis-tab-non-admin.png"\] Alt text: Data Visualizations library for users with lower roles.
 
@@ -40,7 +40,7 @@ The following table lists the Data Visualizations library elements. Refer to the
 
 <table id="table_c2j_gs3_vfc"><thead><tr><th>
 
-No.
+Number
 
 </th><th>
 
@@ -64,12 +64,7 @@ Description
 
 </td><td>
 
--   report\_admin
--   pa\_admin
--   platform\_analytics\_admin
--   admin
--   viz\_admin
--   viz\_creator
+viz\_creator or higher
 
 </td><td>
 
@@ -85,11 +80,7 @@ Option to create data visualizations.
 
 </td><td>
 
--   report\_admin
--   pa\_admin
--   platform\_analytics\_admin
--   admin
--   viz\_admin
+Any
 
 </td><td>
 
@@ -108,10 +99,7 @@ Option for filtering the data visualizations list to display the data based on t
 
 </td><td>
 
--   report\_admin
--   pa\_admin
--   platform\_analytics\_admin
--   admin
+viz\_admin or higher
 
 </td><td>
 
@@ -133,11 +121,7 @@ Select a score to filter and display the dashboards that match the condition.
 
 </td><td>
 
--   report\_admin
--   pa\_admin
--   platform\_analytics\_admin
--   admin
--   viz\_admin
+Any
 
 </td><td>
 
@@ -153,15 +137,11 @@ Search box with a list filter to filter the list of data visualizations by name 
 
 </td><td>
 
--   report\_admin
--   pa\_admin
--   platform\_analytics\_admin
--   admin
--   viz\_admin
+Any
 
 </td><td>
 
-Launches the condition builder for the Data Visualizations library.
+Launches the condition builder for the Data Visualizations library. See [Data visualization library filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/explore-data-vis-library.md).
 
 </td></tr><tr><td>
 
@@ -173,11 +153,7 @@ Launches the condition builder for the Data Visualizations library.
 
 </td><td>
 
--   report\_admin
--   pa\_admin
--   platform\_analytics\_admin
--   admin
--   viz\_admin
+Any
 
 </td><td>
 
@@ -193,11 +169,7 @@ Option to add or remove columns in the data visualizations list \(\[Omitted imag
 
 </td><td>
 
--   report\_admin
--   pa\_admin
--   platform\_analytics\_admin
--   admin
--   viz\_admin
+viz\_admin or higher
 
 </td><td>
 
@@ -213,10 +185,7 @@ Option to delete the selected data visualizations.
 
 </td><td>
 
--   report\_admin
--   pa\_admin
--   platform\_analytics\_admin
--   admin
+viz\_admin or higher
 
 </td><td>
 
@@ -228,19 +197,15 @@ Option to deactivate or activate the selected data visualizations .
 
 </td><td>
 
-**Show/Hide labels**
+**Show column filter row**
 
 </td><td>
 
--   report\_admin
--   pa\_admin
--   platform\_analytics\_admin
--   admin
--   viz\_admin
+viz\_admin or higher
 
 </td><td>
 
-Option to show or hide labels for the fields **Field** and **Operator** in the condition builder.**Note:** The **Show/Hide labels** option is visible only on selecting the **Condition Filter icon**.
+Option for displaying the row of column filters \(12\) in the data visualizations to filter the data in the columns based on the specified condition. By default, the **Column Filter** is turned off.
 
 </td></tr><tr><td>
 
@@ -248,23 +213,15 @@ Option to show or hide labels for the fields **Field** and **Operator** in the c
 
 </td><td>
 
-**Saved filters**
+**Select all**
 
 </td><td>
 
--   report\_admin
--   pa\_admin
--   platform\_analytics\_admin
--   admin
--   viz\_admin
+viz\_admin or higher
 
 </td><td>
 
-Option to save the current condition filters that are set using the condition builder. You can select the visibility of the filter.
-
- \[Omitted image "analytics-center-saved-filters.png"\] Alt text: Save the current condition set
-
- **Note:** The **Saved filters** option is visible only on selecting the **Condition Filter icon**.
+Select this box to select all data visualizations currently visible. You can then delete, activate, or deactivate all these data visualizations.Alternatively, you can select or deselect individual data visualizations at the beginning of each row.
 
 </td></tr><tr><td>
 
@@ -272,19 +229,15 @@ Option to save the current condition filters that are set using the condition bu
 
 </td><td>
 
-**Condition builder**
+Sortable column names
 
 </td><td>
 
--   report\_admin
--   pa\_admin
--   platform\_analytics\_admin
--   admin
--   viz\_admin
+Any
 
 </td><td>
 
-Build condition set to filter data visualizations in the library.**Note:** The **Condition builder** option is visible only on selecting the **Condition Filter icon**.
+All columns can be sorted on the column name, either alphabetically or by date.
 
 </td></tr><tr><td>
 
@@ -292,60 +245,74 @@ Build condition set to filter data visualizations in the library.**Note:** The *
 
 </td><td>
 
-**Column Filter**
+Column filters
 
 </td><td>
 
--   report\_admin
--   pa\_admin
--   platform\_analytics\_admin
--   admin
--   viz\_admin
+Any
 
 </td><td>
 
-Option for displaying the column filters in the data visualizations to filter the data in the columns based on the specified condition. By default, the **Column Filter** is turned off.
-
-</td></tr><tr><td>
-
-13
-
-</td><td>
-
-**Data visualization List**
-
-</td><td>
-
--   report\_admin
--   pa\_admin
--   platform\_analytics\_admin
--   admin
--   viz\_admin
-
-</td><td>
-
-List of all data visualizations. You can personalize and also sort the list by Name, Description, Views, and Certified.
-
-</td></tr><tr><td>
-
-14
-
-</td><td>
-
-Application navigator
-
-</td><td>
-
--   report\_admin
--   pa\_admin
--   platform\_analytics\_admin
--   admin
--   viz\_admin
-
-</td><td>
-
-Provides direct access to the [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/find-dashboard-library.md), [Data Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/explore-data-vis-library.md), [Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/your-kpis.md), [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/interactive-filters-workspace.md), and [Scheduled exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/schedule-visn-export-vd.md) from the Platform Analytics library and the Usage Insights page.**Note:** Users with non-admin roles can only access Dashboards, Data Visualizations, and Indicators from the Platform Analytics library using the application navigator.
+Hidden or shown by **Show column filter row** \(9\). Lets you filter each column by value or date. For more information, see [Column filters in the Data visualization library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/column-filters-data-viz-library.md).
 
 </td></tr></tbody>
 </table>**Note:** A user with the viz\_admin role or higher might also see a panel with recommendations about problematic data visualizations. For more information, see [Platform Analytics library recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pa-library-recommendations.md).
 
+## Data visualization library filter
+
+The funnel button opens a filter on the library list.
+
+\[Omitted image "dv-library-filter.png"\] Alt text: Opened filter section on Data visualization library.
+
+<table id="table_tkb_bzz_wkc"><thead><tr><th>
+
+Number
+
+</th><th>
+
+Field \(or\) Element name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+1
+
+</td><td>
+
+**Show/Hide labels**
+
+</td><td>
+
+Option to show or hide labels for the fields **Field** and **Operator** in the condition builder.
+
+</td></tr><tr><td>
+
+2
+
+</td><td>
+
+**Saved filters**
+
+</td><td>
+
+Option to save the current condition filters that are set using the condition builder. You can select who can see the filter. The choices available depend on your role.
+
+ \[Omitted image "analytics-center-saved-filters.png"\] Alt text: Save the current condition set
+
+</td></tr><tr><td>
+
+3
+
+</td><td>
+
+**Condition builder**
+
+</td><td>
+
+Build condition set to filter data visualizations in the library. You can dot-walk reference fields.
+
+</td></tr></tbody>
+</table>

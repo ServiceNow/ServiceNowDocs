@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-reader-ref.html
 release: australia
 topic_type: reference
-last_updated: "2025-01-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CBS Knowledge Readers form, field descriptions, user criteria, Core Business Suite]
 breadcrumb: [Reference, Core Business Suite]

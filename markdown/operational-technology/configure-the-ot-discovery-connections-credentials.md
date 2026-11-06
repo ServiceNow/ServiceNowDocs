@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/configure-the-ot-discovery-connections-credentials.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -18,7 +18,7 @@ Configure the Service Graph Connector for ServiceNow Operational Technology \(OT
 
 Role required: admin
 
-**Note:** It's recommended that you switch to the application scope toService Graph Connector for ServiceNow Operational Technology \(OT\) Discovery.
+**Note:** It's recommended that you switch to the application scope to Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery.
 
 ## Procedure
 

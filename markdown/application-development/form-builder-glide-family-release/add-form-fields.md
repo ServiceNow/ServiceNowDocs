@@ -7,9 +7,9 @@ release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Forms in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working with forms, Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Add fields to a form layout in Table Builder
@@ -44,15 +44,15 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
     **Note:** Certain field types are only supported in Core UI. Fields are flagged with an exclamation icon \(!\) to indicate an unsupported type.
 
-<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d274495e200">
+<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d385758e206">
 
 Option
 
-</th><th align="left" id="d274495e203">
+</th><th align="left" id="d385758e209">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d274495e209">
+</th></tr></thead><tbody><tr><td id="d385758e215">
 
 **Add an existing field to a form**
 
@@ -65,7 +65,7 @@ Action
 2.  In the form editor, drag one or more selected fields to the desired location and then move them around as necessary.
 
 
-</td></tr><tr><td id="d274495e229">
+</td></tr><tr><td id="d385758e235">
 
 **Add a new field to a form**
 
@@ -78,13 +78,13 @@ Action
 
 To set additional properties for the field that you are creating, click **Advanced settings**. For information on field types and advanced settings, see [Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/field-parameters.md).
 
-5.  To add the field to the table, select **Add**.
+5.  To add the new field to the table, click **Add**.
 
-A confirmation dialog displays. Select **Done** to close it, or select **Add another one** to add more fields.
+A confirmation dialog displays. You can click **Done** to close it or click **Add another one** to add more fields to the table.
 
-The field appears at the top of the Fields list and can be dragged onto the form editor.
+The new field is displayed at the top of the Fields list and can be dragged onto the form editor.
 
-</td></tr><tr><td id="d274495e296">
+</td></tr><tr><td id="d385758e301">
 
 **Remove field from form**
 

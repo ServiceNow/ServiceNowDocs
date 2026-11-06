@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/kc-configuring-box-integration.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---

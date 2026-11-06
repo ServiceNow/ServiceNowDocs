@@ -1,0 +1,65 @@
+---
+title: Landing page cards
+description: The landing page cards provide a visual summary of active and impacted devices, and alerts for monitored applications.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/dashboard-cards.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
+---
+
+# Landing page cards
+
+The landing page cards provide a visual summary of active and impacted devices, and alerts for monitored applications.
+
+**Note:** The graphs display the latest data from the last two hours.
+
+<table id="table_bhl_gyt_mwb"><thead><tr><th>
+
+Cards
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Active alerts
+
+</td><td>
+
+Total number of active alerts.**Note:** The active alerts details page also shares the details of the impacted users and impacted devices.
+
+</td></tr><tr><td>
+
+Impacted devices
+
+</td><td>
+
+Count of impacted users based on the alerts of both the devices and the applications running on that device.
+
+</td></tr><tr><td>
+
+Active devices
+
+</td><td>
+
+Total number of active devices in the last 5 minutes. The graph indicates the trend of last 2 hours.
+
+</td></tr><tr><td>
+
+Devices
+
+</td><td>
+
+World map that shows device counts by location, with options to drill down into specific regions and open the Devices page for details.
+
+</td></tr></tbody>
+</table>To return to the main page, see [Landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-workspace-dashboard-tab.md).
+
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-console-reference.md)
+

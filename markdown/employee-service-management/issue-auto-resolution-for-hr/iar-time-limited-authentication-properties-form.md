@@ -7,7 +7,7 @@ release: australia
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Simplifying authentication experience, Use, Issue Auto Resolution for HR, HR Service Delivery, Employee Service Management]
 ---

@@ -1,30 +1,30 @@
 ---
-title: Refresh impacted services and CIs for incident
-description: The impacted services and CIs related list refreshes its records and also the records listed in the Service Offerings and Business Applications related lists based on the affected CIs. You can identify the impacted services and CIs and take necessary action.
+title: Refresh impacted services and CIs for an incident
+description: Refresh the Impacted Services or CIs related list of an incident to update its records and the records in the Service Offerings and Business Applications related lists. The records are refreshed and updated based on the affected CIs. You can then identify the impacted services and CIs and act on them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/refresh-impacted-cis.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
 
-# Refresh impacted services and CIs for incident
+# Refresh impacted services and CIs for an incident
 
-The impacted services and CIs related list refreshes its records and also the records listed in the Service Offerings and Business Applications related lists based on the affected CIs. You can identify the impacted services and CIs and take necessary action.
+Refresh the Impacted Services or CIs related list of an incident to update its records and the records in the Service Offerings and Business Applications related lists. The records are refreshed and updated based on the affected CIs. You can then identify the impacted services and CIs and act on them.
 
 ## Before you begin
 
-Role required: itil, incident\_manager, sn\_incident\_write, or admin
+The Business Applications related list must be configured.
 
-Ensure that you have configured the Business Applications related list.
+Role required: itil, incident\_manager, sn\_incident\_write, or admin
 
 ## About this task
 
-When you refresh impacted services, the Impacted Services/CIs, Business Applications, and the Service Offerings related lists get updated based on the affected CIs. The records in each of the related list are unique even though the impact can be from a single affected CI. The following properties are responsible for this functionality:
+When you refresh impacted services, the Impacted Services/CIs, Business Applications, and the Service Offerings related lists are updated based on the affected CIs. The records in each related list are unique even though the impact can be from a single affected CI. The following properties are responsible for this functionality:
 
 -   **Populate Impacted Services based on Affected CIs. Note: This requires any Business Service identified to have previously been converted to an Application Service.** \(**com.snc.incident.refresh\_impacted.include\_affected\_cis**\)
 -   **Impacted CIs/Services related list is generated via events. When enabled the refresh will be executed in the background and the user will be notified on completion.** \(**com.snc.incident.refresh\_impacted.event**\)
@@ -36,7 +36,7 @@ When you refresh impacted services, the Impacted Services/CIs, Business Applicat
 
 -   **Control and refresh the creation of live feed messages** \(**com.snc.incident.refresh\_impacted\_notify\_user**\)
 
-    **Note:** By default, the property is marked true.
+    **Note:** By default, the property is set to true.
 
 
 ## Procedure
@@ -45,9 +45,9 @@ When you refresh impacted services, the Impacted Services/CIs, Business Applicat
 
     **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
-2.  Open the incident record for which you want to refresh the related lists those values are based on affected CIs.
+2.  Open the incident record for which to refresh the related lists that are based on affected CIs.
 
-3.  Click the Additional actions icon \[Omitted image "context-menu.png"\] Alt text: The Additional actions icon and then select **Refresh Impacted Services**.
+3.  Select the Additional actions icon \[Omitted image "context-menu.png"\] Alt text: and then select **Refresh Impacted Services**.
 
     The records in the Impacted Services/CIs, Business Applications, and Service Offerings related lists are updated.
 

@@ -7,7 +7,7 @@ release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Recruitment Workspace, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -18,13 +18,12 @@ The List view in the Recruitment workspace displays all assigned job requisition
 
 Using the list categories and filters, you can quickly find the required job requisition, interview, or task that you must work on.
 
-To get to the list view, you must select the list icon \(\[Omitted image "ta-rw-list-icon.png"\]\). When you select a record in a list view, the record opens in a new tab.
+To get to the list view, you must select the list icon \(\[Omitted image "list-icon-hs.png"\] Alt text: List icon.\). When you select a record in a list view, the record opens in a new tab.
 
 ## Lists
 
 The Lists view enables you to manage your Recruitment workspace and all your own entities. You can view the following items in the **Recruitment workspace** &gt; **List** view:
 
--   Needs attention
 -   Job requisitions
 -   Applications
 -   Interviews

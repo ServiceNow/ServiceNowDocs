@@ -7,7 +7,7 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Industrial Process Manager, Operational Technology]
 ---
@@ -24,7 +24,7 @@ The following predefined filters are available for the Industrial Process Manage
 
 -   **ISA Equipment Model - OT Dependency Map**
 
-    The hierarchical structure of the selected equipment model entity and its relationship with other entities and Operational Technology \(OT devices in the production process.
+    The hierarchical structure of the selected equipment model entity and its relationship with other entities and Operational Technology \(OT\) devices in the production process.
 
 -   **ISA Equipment Model - OT Device Map**
 
@@ -35,7 +35,7 @@ The following predefined filters are available for the Industrial Process Manage
     The graphical representation of the selected equipment model entity and its relationship to the production process.
 
 
-You can view the equipment model dependency maps using the described predefined filters by navigating to the **Industrial Workspace** and opening the equipment model view. Then you can select the equipment model entity you want to view a dependency map for. When you open the record, you see the following UI actions to choose from:
+You can view the equipment model dependency maps using the described predefined filters by navigating to the **Industrial Workspace** and opening the equipment model view. Then you can select the equipment model entity whose dependency map you want to view. When you open the record, you see the following UI actions to choose from:
 
 -   View OT Dependency map
 

@@ -1,5 +1,5 @@
 ---
-title: Cancel a resource plan from a project or demand
+title: Cancel a resource plan from a project, planning console, or demand record
 description: If a project or a project task is marked Closed, the project manager can cancel the associated future resource plans. Similarly, the demand manager can cancel the future resource plans for a Closed or Deferred demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/resource-management/cancel-resource-plan-from-project-or-demand.html
@@ -7,12 +7,12 @@ release: australia
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cancel a resource plan, Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Cancel a resource plan from a project or demand
+# Cancel a resource plan from a project, planning console, or demand record
 
 If a project or a project task is marked Closed, the project manager can cancel the associated future resource plans. Similarly, the demand manager can cancel the future resource plans for a Closed or Deferred demand.
 
@@ -35,7 +35,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 
 1.  Open a project, task, or demand record in the Closed state.
 
-<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d347147e116">
+<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d359830e116">
 
 **Open a Closed project record**
 
@@ -46,7 +46,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 3.  Click the **Details** tab to display the project form.
 
 
-</td></tr><tr><td id="d347147e155">
+</td></tr><tr><td id="d359830e155">
 
 **Open a Closed project task record**
 
@@ -57,7 +57,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 3.  In the **Project Tasks** related list, open the project task record in the Closed state.
 
 
-</td></tr><tr><td id="d347147e194">
+</td></tr><tr><td id="d359830e194">
 
 **Open a Closed project in Planning Console**
 
@@ -68,7 +68,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 3.  Click the **Planning** tab to display the project in planning console.
 
 
-</td></tr><tr><td id="d347147e233">
+</td></tr><tr><td id="d359830e233">
 
 **Open a Closed or Deferred demand record**
 

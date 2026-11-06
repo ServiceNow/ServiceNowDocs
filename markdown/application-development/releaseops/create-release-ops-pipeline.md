@@ -7,10 +7,10 @@ release: australia
 product: ReleaseOps
 classification: releaseops
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer]
-breadcrumb: [Configure, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Configure, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Create a custom pipeline
@@ -69,6 +69,8 @@ Custom playbooks and pipelines enable you to create deployment structures tailor
 
     3.  Select **Submit**.
 
+
+**Parent Topic:**[Configuring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/configuring-releaseops.md)
 
 ## Example: Create an assessment playbook
 

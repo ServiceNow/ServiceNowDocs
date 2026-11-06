@@ -1,20 +1,20 @@
 ---
 title: Request Management in Service Operations Workspace
-description: Service Operations Workspace for Request Management integrates the platform functionality for tier 1 agents into a multi-tab interface that helps agents efficiently manage multiple incidents, catalog requests, and catalog tasks.
+description: Service Operations Workspace for Request Management integrates the platform functionality for tier 1 agents into a multi-tab interface that helps agents manage multiple incidents, catalog requests, and catalog tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/request-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Request Management in Service Operations Workspace
 
-Service Operations Workspace for Request Management integrates the platform functionality for tier 1 agents into a multi-tab interface that helps agents efficiently manage multiple incidents, catalog requests, and catalog tasks.
+Service Operations Workspace for Request Management integrates the platform functionality for tier 1 agents into a multi-tab interface that helps agents manage multiple incidents, catalog requests, and catalog tasks.
 
 As an agent, you can create a catalog request in Service Operations Workspace to initiate a catalog request flow from a different IT Service Management flow. For example, from an incident flow, you can create a request, and associate the request with the incident to help track requests associated with an incident and vice versa. You can also work on catalog tasks and update the state of the tasks, and manage approvals of requests and requested items.
 

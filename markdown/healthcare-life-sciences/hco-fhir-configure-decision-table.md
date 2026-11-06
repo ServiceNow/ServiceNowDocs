@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-fhir-configure-decision-table.html
 release: australia
 topic_type: task
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [decision table, business location, organization type]
 breadcrumb: [Prerequisites for the FHIR integration, EMR Provider Directory Sync, Healthcare Integrations, Healthcare and Life Sciences]

@@ -7,7 +7,7 @@ release: australia
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Edge Encryption, Encryption]
 ---
@@ -77,7 +77,7 @@ Edge Encryption supports both encryption \(through encryption configurations\) a
 
 **Note:** The Edge Encryption proxy server requires a MySQL database in your network only if using order preserving encryption or encryption patterns. Clear text values are stored in the proxy database in your network. For this reason, it is critical that you secure and regularly back up your proxy database. For recommendations, see [Edge Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/edge-encryption/c_EdgeEncryptionProxy.md).
 
-\[Omitted image "edge-overview-2.png"\] Alt text: Flow of data using Edge Encryption.
+\[Omitted image "edge-overview.png"\] Alt text: Flow of data using Edge Encryption.
 
 ## Edge Encryption on the ServiceNow AI Platform
 

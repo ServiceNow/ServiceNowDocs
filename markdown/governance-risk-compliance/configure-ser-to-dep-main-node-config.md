@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-ser-to-dep-main-node-config.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -56,7 +56,7 @@ For instructions on creating the Main node configuration records, see [Configure
 
     The following example shows the filter condition for the **Service to Dependencies** configuration.
 
-    \[Omitted image "ser-to-dep-main-node.png"\] Alt text: Service to dependency configuration.
+    \[Omitted image "ser-to-dep-main-node.png"\] Alt text: "Service to dependency" configuration.
 
 10. Select **Submit**.
 

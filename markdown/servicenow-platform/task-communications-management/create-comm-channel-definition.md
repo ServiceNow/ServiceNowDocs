@@ -7,7 +7,7 @@ release: australia
 product: Task Communications Management
 classification: task-communications-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Define a communication plan, Working with Task Communications Management, Task Communications Management, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ You have defined a communication plan and its related tasks.
 
 -   The modes of communication available are: email, SMS, conference, and Slack.
 -   For the incident table, the functionality for SMS and conference appears only if you activate the Notify plugin \(com.snc.notify\) and the **com.snc.iam.notify\_number** property value is set to the registered notify number. The notify number is registered while configuring the Twilio account.
--   For the incident table, the functionality for Slack appears only if you activate the Collaboration Services for Task Communications Management plugin \(sn\_tcm\_collab\_hook\). To activate the Collaboration Services for Task Communications Management plugin, navigate to [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and install the Collaboration Services for Task Communications Management application. For more information, refer [Collaboration services for Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collab-services-tcm.md).
+-   For the incident table, the functionality for Slack appears only if you activate the Collaboration Services for Task Communications Management plugin \(sn\_tcm\_collab\_hook\). To activate the Collaboration Services for Task Communications Management plugin, navigate to [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and install the Collaboration Services for Task Communications Management application. For more information, refer Collaboration services for Task Communications Management.
 
     **Note:** For information on how to configure Slack, refer to [Configure Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-slack.md) .
 
