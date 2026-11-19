@@ -20,7 +20,7 @@ All Logik.io versions are backwards-compatible and can be used on ServiceNow rel
 
 ## Installation
 
-For instructions on how to install and configure Logik.io on your on-premise environment, contact xxx.
+For instructions on how to install and configure Logik.io on your on-premise environment, contact [ServiceNow Support portal](https://support.servicenow.com).
 
 ## Release notes
 
@@ -121,6 +121,8 @@ ServiceNow CPQ October 23, 2026 release notes include bug fixes.
 ServiceNow CPQ October 30, 2026 release notes include new enhancements and bug fixes.
 -   **[ServiceNow CPQ 2026/11/06 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-11-06-.md)**  
 ServiceNow CPQ November 6, 2026 release notes include bug fixes.
+-   **[ServiceNow CPQ 2026/11/13 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-11-13-.md)**  
+ServiceNow CPQ November 13, 2026 release notes include bug fixes.
 
 **Parent Topic:**[OOB Other release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/sn-oob-rn.md)
 
