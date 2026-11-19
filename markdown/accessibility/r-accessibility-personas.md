@@ -19,6 +19,8 @@ Specific accessibility features and user preferences can help users with varying
 
 Creating inclusive digital experiences begins with understanding the diverse needs of users with disabilities. Accessibility personas are fictional yet research-informed profiles that represent users with varying abilities, such as visual, auditory, speech, cognitive or physical impairments. The following sections outline five main personas and ServiceNow's accessibility features that support them.
 
+\[Omitted image "accessible\_personas\_infographic.jpg"\] Alt text: Infographic showing accessibility personas organized by disability types and supporting features. For detailed descriptions, refer to the sections following this figure.
+
 ## Permanent, temporary, and situational disabilities
 
 Disabilities can be permanent, temporary, or situational. Understanding this spectrum helps teams design more inclusive experiences that benefit all users, not just those with permanent disabilities.

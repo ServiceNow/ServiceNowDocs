@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/accessibility/available-accessi
 release: nofamily
 topic_type: concept
 last_updated: "2026-05-08"
-reading_time_minutes: 17
+reading_time_minutes: 19
 keywords: [VPAT, VPATs, accessibility 508 conformance, section 508, us conformance code, voluntary product accessibility template, accessibility-508-conformance, conformance, european union accessibility, EN 301 549, ACR, accessibility conformance report, WCAG, WCAG 2.0, WCAG 2.1, Web content accessibility guidelines]
 breadcrumb: [Product accessibility]
 ---
@@ -21,7 +21,28 @@ The following reports are currently available:
 
 **Note:** If you don't see an ACR for the most recent release, the previous version is still valid. Reports are republished when there is a significant change in a product workflow or when multiple issues have been resolved.
 
-## Australia ACRs
+## Brazil ACRs
+
+<table id="table_i4p_gl2_tkc"><thead><tr><th>
+
+Product
+
+</th><th>
+
+Download
+
+</th></tr></thead><tbody><tr><td>
+
+ServiceNow AI Platform
+
+</td><td>
+
+[Knowledge Portal for Knowledge Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/brazil_acr_knowledge_portal.pdf)
+
+ [ServiceNow Otto Panel \(Formerly Now Assist panel\) \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/brazil_acr_now_assist_panel.pdf)
+
+</td></tr></tbody>
+</table>## Australia ACRs
 
 <table id="table_h23_sz4_2jc"><thead><tr><th>
 
@@ -33,15 +54,109 @@ Download
 
 </th></tr></thead><tbody><tr><td>
 
+Customer Service Management
+
+</td><td>
+
+[CSM Business Location Portal \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_csm_business_location_portal.pdf)
+
+ [CSM Business Portals for SOM \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_som_csm_business_portal.pdf)
+
+ [CSM Customer Service Portal\(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_csm_customer_service_portal.pdf)
+
+ [Customer Support Now Support \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_csm_customer_support_now_support.pdf)
+
+ [Gen AI page summarization \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_csm_gen_ai_page_summarization.pdf)
+
+</td></tr><tr><td>
+
 Employee Service Management
 
 </td><td>
 
 [Alumni Service Center \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_alumni_service_center.pdf)
 
+ [Contract Management pro for LSD \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_contract_management_pro_for_lsd.pdf)
+
  [Employee Slate powered by Moveworks \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_employee_slate_powered_by_moveworks.pdf)
 
  [Employee Slate powered by Nextwave \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_employee_slate_powered_by_nextwave.pdf)
+
+ [LSD Legal Counsel Center \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_lsd_legal_counsel_center.pdf)
+
+ [LSD Legal Mobile for Android \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_lsd_legal_mobile_for_android.pdf)
+
+ [LSD Legal Mobile for iOS \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_lsd_legal_mobile_for_ios.pdf)
+
+ [UEE Content Publishing \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_uee_content_publishing.pdf)
+
+ [UEE Employee Center \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_uee_employee_center.pdf)
+
+ [UEE Portal news Social Engagement \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_unified_employee_experience_portal_news_social_engagement.pdf)
+
+ [UEE Rich Content Editor \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_unified_employee_experiences_rce.pdf)
+
+ [Workplace Event Planner \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_workplace_event_planner.pdf)
+
+ [Workplace Lease Administration \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_wsd_workplace_lease_administration.pdf)
+
+ [Workplace Move Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_wsd_workplace_move_management.pdf)
+
+</td></tr><tr><td>
+
+Field Service Management
+
+</td><td>
+
+[FSM Work Order Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_fsm_work_order_management.pdf)
+
+</td></tr><tr><td>
+
+Financial Services Operations
+
+</td><td>
+
+[Financial Services Operations \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_financial_service_operations.pdf)
+
+</td></tr><tr><td>
+
+Governance, Risk, and Compliance
+
+</td><td>
+
+[GRC Environmental, Social, Governance \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_grc_esg.pdf)
+
+ [ESG Operational Sustainability Workspace \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_esg_operational_sustainability_workspace.pdf)
+
+ [GRC Business Continuity Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_grc_bcm.pdf)
+
+ [GRC Continuous Authorization and Monitoring \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_grc_continuous_authorization_monitoring.pdf)
+
+ [Operational Resilience \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_grc_operational_resilience.pdf)
+
+ [Privacy Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_grc_privacy_management.pdf)
+
+ [Risk Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_grc_risk_management.pdf)
+
+</td></tr><tr><td>
+
+Healthcare and Life Sciences
+
+</td><td>
+
+[Care Team Portal \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_hcls_care_team_portal.pdf)
+
+</td></tr><tr><td>
+
+HR Service Delivery
+
+</td><td>
+
+[HR Service Delivery Life Cycle Events \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_hr_service_delivery_life_cycle_events.pdf)
+
+ [Journey Designer \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_hrsd_journey_designer.pdf)
+
+ [Recruitment Workspace \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_hrsd_journey_designer.pdf)
 
 </td></tr><tr><td>
 
@@ -49,7 +164,27 @@ IT Asset Management
 
 </td><td>
 
-[ITAM EAM Provider Return Merchandise Authorization Workflow \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_itam_eam_provider_rma_workflow.pdf)
+[Cloud Cost Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_cloud_cost_management.pdf)
+
+ [ITAM EAM Provider Return Merchandise Authorization Workflow \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_itam_eam_provider_rma_workflow.pdf)
+
+ [ITAM Firmware Data Model \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_itam_firmware_data_model.pdf)
+
+ [Hardware Asset Management Workspace \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_ham_workspace.pdf)
+
+ [Software Asset Management Workspace \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_sam_workspace.pdf)
+
+</td></tr><tr><td>
+
+IT Operations Management
+
+</td><td>
+
+[Certificate Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_itom_certificate_management.pdf)
+
+ [Discovery Admin Workspace \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_itom_discovery_admin_workspace.pdf)
+
+ [Service Mapping \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_itom_service_mapping.pdf)
 
 </td></tr><tr><td>
 
@@ -59,6 +194,28 @@ IT Service Management
 
 [Change Advisory Board \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_itsm_cab_workbench.pdf)
 
+ [Applications Change Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_sow_itsm_applications_change_management.pdf)
+
+ [Applications Incident Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_sow_itsm_applications_incident_management.pdf)
+
+</td></tr><tr><td>
+
+ServiceNow Otto \(formerly Now Assist\)
+
+</td><td>
+
+[Now Assist Nextwave Experience \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_now_assist_nextwave_experience.pdf)
+
+ [Now Assist Panel \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_now_assist_panel.pdf)
+
+</td></tr><tr><td>
+
+Process Mining
+
+</td><td>
+
+[Process Mining \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_nowx_mining_process.pdf)
+
 </td></tr><tr><td>
 
 Public Sector Digital Services
@@ -67,6 +224,10 @@ Public Sector Digital Services
 
 [GOV.UK Developer Toolkit \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_gov_uk_dev_toolkit.pdf)
 
+ [Government Service Portal \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_psds_government_service_portal.pdf)
+
+ [PSDS Portals \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_psds_portals.pdf)
+
 </td></tr><tr><td>
 
 Security Operations
@@ -74,6 +235,12 @@ Security Operations
 </td><td>
 
 [Security Posture Control \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_secops_security_posture_control.pdf)
+
+ [SBOM Response \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_secops_sbom_response.pdf)
+
+ [Threat Intelligence Security Center \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_threat_intelligence_security_center.pdf)
+
+ [Vulnerability Manager Workspace \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_secops_vulnerability_manager_workspace.pdf)
 
 </td></tr><tr><td>
 
@@ -91,9 +258,13 @@ ServiceNow AI Platform
 
  [Data Management Console \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_data_management_console.pdf)
 
+ [Guided Setup Player \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_guided_setup_player.pdf)
+
  [List Selector Component \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_list_selector_component.pdf)
 
  [Localization Workspace \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_localization_workspace.pdf)
+
+ [Model Context Protocol \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_snai_platform_model_context_protocol.pdf)
 
  [Platform Core Subscription Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_platform_core_subscription_management_v2.pdf)
 
@@ -102,6 +273,14 @@ ServiceNow AI Platform
  [Security Center \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_security_center.pdf)
 
  [Upgrade Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_upgrade_management_v2.pdf)
+
+</td></tr><tr><td>
+
+Telecommunications Network Inventory
+
+</td><td>
+
+[Telecommunications Network Inventory \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_telecommunications_network_inventory.pdf)
 
 </td></tr></tbody>
 </table>## Zurich ACRs
@@ -168,9 +347,9 @@ Employee Service Management
 
 [Business Location Portal \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_business_location_portal.pdf)
 
-[Content Publishing \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_uee_content_publishing.pdf)
-
 [Employee Center Pro \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_employee_center_pro.pdf)
+
+[Content Publishing\(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_content_publishing.pdf)
 
 [Guided Setup \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_guided_setup_player.pdf)
 
