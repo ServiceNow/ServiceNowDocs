@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowmobile-intune-available-versions.html
 release: mobile
 topic_type: reference
-last_updated: "2026-11-05"
+last_updated: "2026-11-09"
 reading_time_minutes: 9
 breadcrumb: [Mobile app version history for iOS and Android]
 ---
@@ -26,6 +26,7 @@ To download the latest release, visit the [Apple App Store](https://apps.apple.c
 
 |Release version|Release type|Released in|Availability|
 |---------------|------------|-----------|------------|
+|[Now Mobile - Intune for iOS v22.3.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-ios-v22-3-1.md)|Hotfix|November 2026|Available|
 |[Now Mobile - Intune for iOS v22.3.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-ios-v22-3-0.md)|Version|November 2026|Available|
 |[Now Mobile - Intune for iOS v22.2.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-ios-v22-2-1.md)|Hotfix|October 2026|Unavailable|
 |[Now Mobile - Intune for iOS v22.2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-ios-v22-2-0.md)|Version|October 2026|Unavailable|
