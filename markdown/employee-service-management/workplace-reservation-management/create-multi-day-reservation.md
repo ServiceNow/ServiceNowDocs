@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 30
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -30,17 +30,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Select any of the following context menu navigation options to make a multi-day.
 
-    \[Omitted image "wsd-rsv-home-page-quick-rsv.png"\] Alt text: Make reservations using the Make Reservation and Quick Reservation Widget on the portal.
-
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d524675e104">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d516531e102">
 
 Location
 
-</th><th align="left" id="d524675e107">
+</th><th align="left" id="d516531e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d524675e113">
+</th></tr></thead><tbody><tr><td id="d516531e111">
 
 **Application navigation filter**
 
@@ -48,7 +46,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d524675e137">
+</td></tr><tr><td id="d516531e135">
 
 **From Employee Center Portal**
 
@@ -64,8 +62,6 @@ Make a reservation portal page opens for you to make workplace reservations.
 
 </td></tr></tbody>
 </table>    The Make a Reservation page opens in a new tab.
-
-    \[Omitted image "wsd-make-rsv.png"\] Alt text: Make a reservation page without the Search button. The search results after adding a location, date, and time are fetched automatically.
 
 2.  Select a Reservable Module configuration.
 
@@ -613,9 +609,9 @@ Review your reservation details on the Reservation summary page.
 
 [Create a reservation]()
 
-[Auto-resolve recurring reservations]()
-
 [Add invitees as collaborators and create a reservation]()
+
+[Auto-resolve recurring reservations]()
 
 [Set a location as favorite using the Space details page]()
 
@@ -642,6 +638,4 @@ Review your reservation details on the Reservation summary page.
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
-
-[Manage and configure reservation waitlist]()
 

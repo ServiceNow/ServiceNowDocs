@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 34
-breadcrumb: [Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Flows, subflows, and actions reference, Reference, Workflow Studio, Build workflows]
 ---
 
 # General guidelines for Workflow Studio flows, subflows, and actions

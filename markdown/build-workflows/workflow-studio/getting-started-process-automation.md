@@ -1,31 +1,31 @@
 ---
 title: Getting started with process automation
-description: Learn how process automation applications can help you use the ServiceNow AI Platform to transform your manual business processes into digitized, automated workflows.
+description: Learn how Process Automation applications can help you use the ServiceNow AI Platform to transform your manual business processes into digitized, automated workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/workflow-studio/getting-started-process-automation.html
 release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Explore, Workflow Studio, Build workflows]
+breadcrumb: [Playbook, Explore, Workflow Studio, Build workflows]
 ---
 
 # Getting started with process automation
 
-Learn how process automation applications can help you use the ServiceNow AI Platform® to transform your manual business processes into digitized, automated workflows.
+Learn how Process Automation applications can help you use the ServiceNow AI Platform® to transform your manual business processes into digitized, automated workflows.
 
-ServiceNow process automation applications help you digitize, visualize, and manage the cross-enterprise workflows for your business. Digitizing your business processes with process automation applications gives you these benefits:
+ServiceNow Process Automation applications help you digitize, visualize, and manage the cross-enterprise workflows for your business. Digitizing your business processes with Process Automation applications gives you these benefits:
 
 -   Management of process compliance
 -   Ownership of continual process improvement
 -   Collaboration across divisions and departments
 -   Visibility into process outcomes
 
-## Process automation applications
+## Process Automation applications
 
-The ServiceNow process automation applications that you can use to digitize your business processes into automated workflows on the ServiceNow AI Platform include:
+The ServiceNow Process Automation applications that you can use to digitize your business processes into automated workflows on the ServiceNow AI Platform include:
 
 -   **[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flows.md)**
 
@@ -33,12 +33,12 @@ The ServiceNow process automation applications that you can use to digitize your
 
 -   **[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer.md)**
 
-    Playbook enable process owners to author cross-enterprise workflows and create a single, unified process. Build the underlying processes for playbooks that Playbook Experience agents and fulfillers use.
+    Workflow Studio playbooks enable process owners to author cross-enterprise workflows and create a single, unified process. Build the underlying processes for playbooks that Playbook Experience agents and fulfillers use.
 
 
-## Roles involved in process automation
+## Roles involved in Process Automation
 
-Depending on the process automation application that you use, you may need to coordinate with other teams or individuals to ensure that your automated processes run smoothly. One possible way in which you could organize the roles for process automation applications is:
+Depending on the Process Automation application that you use, you may need to coordinate with other teams or individuals to ensure that your automated processes run smoothly. One possible way in which you could organize the roles for Process Automation applications is:
 
 -   A developer uses Workflow Studio to work on flows, actions, and activity definitions to automate individual pieces of a business process.
 -   A playbook owner uses Playbooks to organize the pieces of the business process into a digitized, cross-enterprise workflow.
@@ -49,13 +49,13 @@ Depending on the process automation application that you use, you may need to co
 
 Many different user roles are involved in creating effective digitized, automated processes on the ServiceNow AI Platform.
 
-## Learn more about process automation
+## Learn more about Process Automation
 
 To find out more about how you can use Workflow Studio and Playbooks to digitize your business processes, try checking out these resources:
 
 -   [Flow Designer fundamentals course](https://nowlearning.service-now.com/lxp?id=overview&sys_id=af2b04171b6f80905c28997fbd4bcb05&type=course)
 -   [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
--   [Building your first playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/getting-started-processes.md)
+-   [Getting started with Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/getting-started-processes.md)
 
-**Parent Topic:**[Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-workflow-studio.md)
+**Parent Topic:**[Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer.md)
 

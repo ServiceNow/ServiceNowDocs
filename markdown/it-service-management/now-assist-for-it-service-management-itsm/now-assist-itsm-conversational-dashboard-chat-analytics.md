@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-02"
 reading_time_minutes: 3
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
 breadcrumb: [Track metrics, Use ITSM Virtual Agent analytics dashboard, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -47,6 +47,8 @@ Apply filters to analyze chat data for specific time periods, organizations, or 
 
 ## Chat analytics—Usage and success
 
+\[Omitted image "now-assist-itsm-va-analytics-chatanalytics.png"\] Alt text: Usage and success tiles showing all chats closed, chats closed by Virtual Agent, and percent of chats closed by Virtual Agent, with trend lines
+
 The Usage and success section displays overall chat volume and resolution metrics.
 
 |Widget|Description|
@@ -54,6 +56,8 @@ The Usage and success section displays overall chat volume and resolution metric
 |Closed chats|Total closed customer chats within the selected date range. This metric represents overall support demand across all channels and handler types. The trend line identifies patterns in support volume, such as seasonal variations or the impact of product releases. Use this data to understand total workload and plan resource allocation.|
 
 ## Chat analytics—Engagement over time
+
+\[Omitted image "now-assist-itsm-va-analytics-engage-time.png"\] Alt text: Engagement over time section showing line charts of daily chat count and daily unique user count from November 2025 to January 2026
 
 The Engagement over time section displays daily chat volume, unique user counts, and abandonment rates.
 
@@ -64,6 +68,8 @@ The Engagement over time section displays daily chat volume, unique user counts,
 |Chat abandonment rate|Percentage of chats abandoned by users before resolution. The trend line shows abandonment patterns over time. High abandonment rates may indicate issues with conversation length, complexity, or user experience. Monitor this metric to identify and address user experience problems.|
 
 ## Chat analytics—Chat distribution
+
+\[Omitted image "now-assist-itsm-va-analytics-chatdistro.png"\] Alt text: Chat distribution section showing bar charts of chats by state, chats by department, and chats by user's location
 
 The Chat distribution section displays chat volume by department and user location.
 

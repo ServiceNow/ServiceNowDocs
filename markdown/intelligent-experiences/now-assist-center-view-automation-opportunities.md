@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-02"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [AI Agent Advisor in AI Admin Center, Use, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [AI Agent Advisor in AI Admin Center, Use, AI Agent Advisor, Enable AI experiences]
 ---
 
 # View your automation opportunities\(Next Experience UI\)
@@ -123,6 +123,8 @@ The status is empty for an opportunity that has at least one step requiring an A
 ## What to do next
 
 Implement an automation opportunity. For more information, see [Implement an automation opportunity from AI Admin Center \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-automation-opportunity-now-assist-center.md).
+
+**Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
 
 **Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
 

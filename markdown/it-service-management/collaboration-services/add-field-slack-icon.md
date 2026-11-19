@@ -7,9 +7,9 @@ release: zurich
 product: Collaboration Services
 classification: collaboration-services
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Slack integration - Incident Management, Collaboration services, IT Service Management]
+breadcrumb: [Configure, Collaboration services, IT Service Management]
 ---
 
 # Set up slack for a user or group
@@ -40,13 +40,18 @@ To enable slack for the **Assignment group** field, ensure you have set up a sla
 
 6.  Click **Run Fix Script**.
 
-    The slack icon appears next to the following fields mentioned in the script.
+    The Slack icon appears next to the following fields mentioned in the script.
 
     -   **Caller**
     -   **Assignment group**
     -   **Assigned to**
-    Clicking the icon takes you to the direct message with the user on slack or slack channel for an assignment group.
+    Clicking the icon takes you to the direct message with the user on Slack or Slack channel for an assignment group.
 
+
+-   **[Associate existing slack channel with a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/setup-slack-assign-grp.md)**  
+Associate an existing slack channel to reach out to an assignment group from an incident. Assignment groups are a great way to contact all your stakeholders at once.
+
+**Parent Topic:**[Configuring Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/configuring-collab-services.md)
 
 **Related topics**  
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-02"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using other AI applications from AI Admin Center, Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Using other AI applications from AI Admin Center, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
 # Set up AI guardrails in AI Admin Center \(Lux UI\)
@@ -47,15 +47,15 @@ For more information on AI Guardian, see [AI Guardian](https://raw.githubusercon
 
     AI Guardian provides three guardrails. Each guardrail has a different scope.
 
-<table id="choicetable_lux_guard"><thead><tr><th align="left" id="d169331e244">
+<table id="choicetable_lux_guard"><thead><tr><th align="left" id="d130837e244">
 
 Guardrail
 
-</th><th align="left" id="d169331e247">
+</th><th align="left" id="d130837e247">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d169331e253">
+</th></tr></thead><tbody><tr><td id="d130837e253">
 
 **Prompt injection detection**
 
@@ -67,7 +67,7 @@ This guardrail detects attempts to override LLM instructions or expose restricte
 
  For more information on how to configure this guardrail, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-prompt-injection-attack-protection.md).
 
-</td></tr><tr><td id="d169331e281">
+</td></tr><tr><td id="d130837e281">
 
 **Offensiveness detection**
 
@@ -79,7 +79,7 @@ This guardrail detects offensive or harmful content in AI inputs and outputs. It
 
  For more information on how to configure this guardrail, see [Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-offensiveness-protection-for-generative-ai.md).
 
-</td></tr><tr><td id="d169331e319">
+</td></tr><tr><td id="d130837e309">
 
 **Sensitive topic filters**
 

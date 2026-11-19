@@ -1,20 +1,20 @@
 ---
-title: Create an AI case in the AI Control Tower
-description: Create an AI case in the AI Control Tower by providing a detailed description, such as system behavior, affected users, and any relevant data. Ensure all necessary information, such as supporting attachments, is included for prompt resolution.
+title: Create an AI case in the Control Tower
+description: Create an AI case in the Control Tower by providing a detailed description, such as system behavior, affected users, and any relevant data. Ensure all necessary information, such as supporting attachments, is included for prompt resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/create-ai-case-in-the-ai-control-tower.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Use, Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# Create an AI case in the AI Control Tower
+# Create an AI case in the Control Tower
 
-Create an AI case in the AI Control Tower by providing a detailed description, such as system behavior, affected users, and any relevant data. Ensure all necessary information, such as supporting attachments, is included for prompt resolution.
+Create an AI case in the Control Tower by providing a detailed description, such as system behavior, affected users, and any relevant data. Ensure all necessary information, such as supporting attachments, is included for prompt resolution.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_analyst or sn\_ai\_case\_mgmt.ai\_ca
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower**.
+1.  Navigate to **All** &gt; **Control Tower**.
 
 2.  Go to the **AI cases** dashboard.
 
@@ -36,4 +36,9 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_analyst or sn\_ai\_case\_mgmt.ai\_ca
 
     After you submit this form, the AI case team will provide the insights and support you need.
 
+
+-   **[Create new AI case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-new-ai-case-form.md)**  
+Use the Create New AI case form in the Control Tower to report an AI case with the necessary details.
+
+**Parent Topic:**[Using Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

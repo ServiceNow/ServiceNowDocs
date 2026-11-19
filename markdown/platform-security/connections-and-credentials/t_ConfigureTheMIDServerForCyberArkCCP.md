@@ -7,7 +7,7 @@ release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [CyberArk integration configuration, CyberArk credential storage integration, External credential storage, Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -19,6 +19,14 @@ Configure the `config.xml` file to grant the MID Server access to the CyberArk C
 ## Before you begin
 
 Role required: admin
+
+## About this task
+
+CyberArk CCP supports certificate-based authentication.
+
+**Note:**
+
+In the Zurich family release, the instance needs an additional Update Set that can be downloaded from [Enable CyberArk Central Credential Provider \(CCP\) Integration in Zurich Release \[KB2682524\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2682524). Follow the provided installation steps. The Australia family release includes this script by default.
 
 ## Procedure
 
@@ -113,7 +121,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-ext.cred.timeout
+ext.cred.cyberark.timeout
 
 </td><td>
 
@@ -125,7 +133,7 @@ Timeout of each credential lookup in the vault, specified in seconds.
 
 </td></tr><tr><td>
 
-ext.cred.safe\_name
+ext.cred.cyberark.safe
 
 </td><td>
 
@@ -200,7 +208,7 @@ This parameter controls certificate revocation checking for the CCP server certi
 
 </td></tr><tr><td>
 
-ext.cred.snmpv2\_community\_property
+ext.cred.cyberark.snmpv2\_community\_property
 
 </td><td>
 

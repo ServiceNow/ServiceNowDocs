@@ -7,18 +7,18 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Third Party Token Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Third Party Token Grant, Inbound Integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Third party token workflow for user accounts
 
-This workflow can be used to integrate third-party identity providers \(IdPs\) with ServiceNow for secure API access. It allows client applications to obtain tokens directly from an IdP and use them to access ServiceNow APIs.
+This workflow can be used to integrate third-party identity providers \(IdPs\) with ServiceNow® for secure API access. It allows client applications to obtain tokens directly from an IdP and use them to access ServiceNow APIs.
 
 ## Before you begin
 
-Role required: `oauth_admin, mi_admin, admin`
+Role required: `admin`
 
 ## About this task
 

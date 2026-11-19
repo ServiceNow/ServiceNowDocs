@@ -7,9 +7,9 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Base Asset Management, Common applications, Asset Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Asset Management, IT Asset Management]
 ---
 
 # Exploring Asset Management Workspace
@@ -20,11 +20,13 @@ You can use the Base Asset Management new user interface, referred to as Asset W
 
 The Base Asset Management application's core functionality remains the same in both the user interfaces.
 
-If you’re using the Base Asset Management application newly from the Vancouver release, the Asset Workspace is installed by default.
+On ServiceNow instances newly provisioned on the San Diego release or later, the Asset Workspace installs by default with the Asset Management application.
+
+The Asset ManagementWorkspace plugin \(sn\_itam\_workspace\) installs automatically only on ServiceNow instances newly provisioned in the San Diego release or later. If you upgraded your instance, install the plugin manually to get all out-of-box workspace actions, such as Build Terms and Conditions on Statement of Work contracts.
 
 **Note:**
 
-Asset Workspace is not installed by default. It is available starting in the San Diego release. It is installed by default only on zBoot ServiceNow instances, not on ServiceNow instances upgraded to the latest version. When the Hardware Asset Management application is activated, the Hardware Asset Workspace replaces the Asset Workspace.
+When the Hardware Asset Management application is activated, the Hardware Asset Workspace replaces the Asset Workspace.
 
 ## Using the Asset Management Workspace
 
@@ -38,24 +40,7 @@ The Asset Workspace contains the following views:
 -   [Model management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/model-management-view-am.md)
 -   [Contract management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/contract-mgmt-view-am.md)
 
-If you’re upgrading to the Vancouver release, you must activate the Asset Management Workspace \(sn\_itam\_workspace\) plugin to use the Asset Workspace.
+If you upgraded from a release before San Diego, you must manually install the Asset Management Workspace \(sn\_itam\_workspace\) plugin to use the Asset Workspace.
 
 **Note:** After moving to Asset Workspace, you can still use the Asset Management classic. For more information, see [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_AssetManagement.md).
-
--   **[Hardware asset overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/hardware-asset-overview-am.md)**  
-Enhance your Base Asset Management experience by using the modernized and user-friendly Hardware asset overview view. The Hardware asset overview is a simplified and intuitive environment that helps you use the application more effectively by reducing complexity.
--   **[Inventory view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/inventory-view-am.md)**  
-Use the Inventory view in the Asset Workspace to view and manage inventory-related functions such as stockrooms and transfer orders.
--   **[Asset estate view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/asset-estate-view-am.md)**  
-Use the Asset estate view in the Asset Workspace to create, view, and modify the assets and also manage asset functions and notifications.
--   **[Model management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/model-management-view-am.md)**  
-Use the Model management view in the Asset Workspace to create or modify models and manage asset model-related functions. Track hardware and consumable models nearing end of life.
--   **[Contract management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/contract-mgmt-view-am.md)**  
-Use the Contract management view in the Asset Workspace to view and manage details of contracts such as Contract number, Contract start and end dates, terms and conditions statements.
--   **[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/c_ManagingAssets.md)**  
-Asset and configuration item \(CI\) management refers to creating assets, setting appropriate states and substates, synchronizing assets and CIs, managing consumables, and retiring assets.
--   **[Example Asset Management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/t_AssetManagementProcess.md)**  
-The best method for managing assets depends on business needs and how your business is organized.
-
-**Parent Topic:**[Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/am-landing-page.md)
 

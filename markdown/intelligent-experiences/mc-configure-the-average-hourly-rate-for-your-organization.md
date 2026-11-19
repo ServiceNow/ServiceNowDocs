@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mc-configure-the-average-hourly-rate-for-your-organization.html
 release: zurich
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Cost, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Cost, Configure, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Configure average hourly rate for your organization
@@ -28,9 +28,13 @@ Cost setup is a four-step process: configure hourly rates, add integrated vendor
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Settings** &gt; **Rules and Templates** &gt; **Cost**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Settings** &gt; **Rules and Templates** &gt; **Cost**.
+
+    \[Omitted image "mc-configure-average-cost.png"\] Alt text: Cost tab showing the value and cost configuration, with total savings, total Enterprise AI cost, and net returns for the last 30 days, plus the Edit configuration button.
 
 2.  Select **Configure** or **Edit configuration**.
+
+    \[Omitted image "mc-configure-avg-hourly-rate.png"\] Alt text: Configure hourly rates step of the Edit value and cost configuration page, with a global rate selected and the average hourly rate set to 50 USD.
 
     **Note:**
 

@@ -7,9 +7,8 @@ release: zurich
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-keywords: [stacked view, bulk risk assessment, risk assessment project]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -23,7 +22,7 @@ Role required: sn\_risk\_advanced.risk\_asmt\_project\_reader and sn\_risk\_adva
 
 ## About this task
 
-You can perform the bulk risk assessment either from the Employee Center or AI Control Tower Workspace.
+You can perform the bulk risk assessment either from the Employee Center or Control Tower Workspace.
 
 ## Procedure
 
@@ -37,7 +36,7 @@ You can perform the bulk risk assessment either from the Employee Center or AI C
 
     4.  Open the risk assessment project that you want to assess.
 
-2.  To perform bulk risk assessment from the AI Control Tower Workspace, do the following:
+2.  To perform bulk risk assessment from the Control Tower Workspace, do the following:
 
     1.  Navigate to **All** &gt; **AI Control Tower**.
 
@@ -96,22 +95,5 @@ You can perform the bulk risk assessment either from the Employee Center or AI C
     Assessments are validated again in this stage. Review the assessment summary before you submit. You can’t make any changes after submission.
 
 
-## Result
-
-The bulk risk assessment is submitted for approval. The project moves to the **Approval** stage. If any risk has a High inherent rating, the approval request is sent to the project owner. Once approved, the project moves to **Completed**.
-
-## What to do next
-
-After submission, the project moves to the Approval stage. If any risk has a High inherent rating, the approval is sent to the project owner. Once approved, the project moves to Completed. For an alternative assessment interface, see [Perform bulk assessment in grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-grid-view-airc.md).
-
 **Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
-
-**Related topics**  
-
-
-[Create bulk risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/create-bulk-risk-assessment-airc.md)
-
-[Perform bulk assessment in grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-grid-view-airc.md)
-
-[Risk assessment project in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/risk-assessment-project-airc.md)
 

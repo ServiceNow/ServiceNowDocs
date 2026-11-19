@@ -7,7 +7,7 @@ release: zurich
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-19"
 reading_time_minutes: 1
 keywords: [edit, demand, My Demands widget, Employee Work]
 breadcrumb: [Work with demands in Employee Slate, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
@@ -25,19 +25,17 @@ Role required: snc\_internal
 
 ## Procedure
 
-1.  Navigate to **Employee Slate** &gt; **Canvas**.
+1.  Open a demand from **My Demands** or **Requests**.
 
-2.  Open a demand from **My Demands** or **Requests**.
-
-<table id="choicetable_dx3_nxp_jkc"><thead><tr><th align="left" id="d63616e108">
+<table id="choicetable_dx3_nxp_jkc"><thead><tr><th align="left" id="d61184e93">
 
 Goal
 
-</th><th align="left" id="d63616e111">
+</th><th align="left" id="d61184e96">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d63616e117">
+</th></tr></thead><tbody><tr><td id="d61184e102">
 
 **From My Demands**
 
@@ -49,7 +47,7 @@ Action
     2.  Select a demand from the list.
 
 
-</td></tr><tr><td id="d63616e143">
+</td></tr><tr><td id="d61184e128">
 
 **From Requests**
 
@@ -62,18 +60,18 @@ Action
 
 
 </td></tr></tbody>
-</table>3.  In the Demand Details section, select the Edit icon.
+</table>2.  In the Demand Details section, select the Edit icon.
 
-4.  Update the fields.
+3.  Update the fields.
 
     For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/demand-form.md).
 
-5.  Select **Save**.
+4.  Select **Save**.
 
 
 ## Result
 
-After you submit the demand, the fields are set to read-only. You can still add comments and attachments.
+After you submit the demand, the fields are set to read-only, though you can still add comments and attachments.
 
 **Parent Topic:**[Work with demands in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/demand-management/my-demands-widget-ppm.md)
 

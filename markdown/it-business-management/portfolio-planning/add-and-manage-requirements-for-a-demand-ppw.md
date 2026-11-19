@@ -38,7 +38,7 @@ Role required: it\_demand\_manager
 
 7.  On the Requirement form, fill in the fields.
 
-    For a description of the field values, see [Requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-requirement-form-ppw.md).
+    For a description of the field values, see [Requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-requirement-form-ppw.md) form.
 
 8.  Select **Save**.
 

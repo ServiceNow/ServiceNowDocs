@@ -7,9 +7,9 @@ release: zurich
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2024-08-01"
 reading_time_minutes: 3
-breadcrumb: [Managing Entity View Action Mapper, Entity view action mapper, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use EVAM, EVAM, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a multi-data source list display in Entity View Action Mapper
@@ -109,4 +109,6 @@ This tutorial runs through creating an EVAM definition with two data sources, a 
 
     \[Omitted image "tutorial-card-list-display.png"\] Alt text: EVAM card list display
 
+
+**Parent Topic:**[Using Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/managing-entity-view-action-mapper.md)
 

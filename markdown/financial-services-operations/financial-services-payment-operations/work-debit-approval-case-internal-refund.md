@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Work on a claim with an internal refund, Managing payment claims and debit approvals, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -39,15 +39,15 @@ If there's a Customer or Consumer Service Portal available for customers, they g
 
 3.  Open the debit approval payment service case from a claim case or from the Debit Approvals list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d135810e110">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d122357e110">
 
 Option
 
-</th><th align="left" id="d135810e113">
+</th><th align="left" id="d122357e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d135810e119">
+</th></tr></thead><tbody><tr><td id="d122357e119">
 
 **From a claim case**
 
@@ -58,7 +58,7 @@ Steps
 3.  In the **Debit approval** field on the claim form, click the information icon \(\[Omitted image "information-icon.png"\] Alt text: Information icon\) next to the debit approval case number.
 
 
-</td></tr><tr><td id="d135810e158">
+</td></tr><tr><td id="d122357e158">
 
 **From the Debit Approvals list**
 

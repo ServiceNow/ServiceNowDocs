@@ -1,18 +1,18 @@
 ---
-title: Managing risk and compliance in AI Control Tower
-description: Gain visibility into AI-related risks, compliance posture, and governance outcomes for your AI portfolio in AI Control Tower.
+title: Managing risk and compliance in Control Tower
+description: Gain visibility into AI-related risks, compliance posture, and governance outcomes for your AI portfolio in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-airc-landing.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-05-13"
 reading_time_minutes: 2
-breadcrumb: [Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Managing risk and compliance in AI Control Tower
+# Managing risk and compliance in Control Tower
 
-Gain visibility into AI-related risks, compliance posture, and governance outcomes for your AI portfolio in AI Control Tower.
+Gain visibility into AI-related risks, compliance posture, and governance outcomes for your AI portfolio in Control Tower.
 
 ## Get started
 
@@ -22,19 +22,19 @@ Gain visibility into AI-related risks, compliance posture, and governance outcom
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how Risk and Compliance visibility depends on the governance applications, frameworks, and data available in your environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-airc-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Understand how Risk and Compliance visibility depends on the governance applications, frameworks, and data available in your environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-airc-configuring.md)
 
 </td><td>
 
-[Review AI governance posture and compliance status\[Omitted image "bus-compliance.svg"\] Alt text:Review regulatory classification, risk posture, and compliance information for your AI assets, and act on governance insights.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-airc-using.md)
+[Review risk posture\[Omitted image "bus-learn.svg"\] Alt text:Review aggregated risk posture and understand how inherent risk and control effectiveness affect residual risk.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-airc-risk-posture.md)
 
 </td></tr><tr><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Look up Risk and Compliance terminology and the governance records that support your AI portfolio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-airc-reference.md)
+[Review regulatory classification and compliance status\[Omitted image "bus-learn.svg"\] Alt text:Understand regulatory acceptability and compliance posture for priority frameworks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-airc-regulatory-status.md)
 
 </td><td>
 
- 
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Look up definitions for key Risk and Compliance terms, such as compliance score, regulatory risk classification, and control effectiveness.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-airc-reference.md)
 
 </td><td>
 

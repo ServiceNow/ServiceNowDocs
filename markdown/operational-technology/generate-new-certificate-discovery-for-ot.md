@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/generate-new-certificate-discovery-for-ot.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 After the Discovery Console for OT is installed, there are default, preloaded certificates that power up the Console. However, following this initial boot, it's recommended that you use the Console to generate a new Certificate Authority \(CA\). This task describes your options for generating the Console CA.
 
-\[Omitted image "settings-certificate-download.png"\] Alt text: Console certificate
+\[Omitted image "image.settings-certificate-download"\] Alt text: Console certificate
 
 **Note:** You can also select the link **Download Console Certificate Bundle \(.zip\)**. For more information, see the table.
 
@@ -36,15 +36,15 @@ After the Discovery Console for OT is installed, there are default, preloaded ce
 
     **Note:** You're not obligated to use the ServiceNow provided certificates and you may choose to use your own.
 
-<table id="choicetable_pp4_qnb_ghc"><thead><tr><th align="left" id="d29799e116">
+<table id="choicetable_pp4_qnb_ghc"><thead><tr><th align="left" id="d29693e114">
 
 Option
 
-</th><th align="left" id="d29799e119">
+</th><th align="left" id="d29693e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d29799e125">
+</th></tr></thead><tbody><tr><td id="d29693e123">
 
 **Generate a new bundle**
 
@@ -54,7 +54,7 @@ Description
 2.  Select the **Generate Bundle** button.
 
 
-</td></tr><tr><td id="d29799e152">
+</td></tr><tr><td id="d29693e150">
 
 **Upload an existing bundle**
 
@@ -66,7 +66,7 @@ Description
 4.  Select the **Upload Bundle** button.
 
 
-</td></tr><tr><td id="d29799e191">
+</td></tr><tr><td id="d29693e189">
 
 **Download Console Certificate Bundle \(.zip\)**
 
@@ -81,6 +81,4 @@ The bundle contains the Console's Certificate and the web browser certificate. T
 ## Result
 
 A certificate is generated. The Discovery Console for OT reboots.
-
-**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configure-ot-discovery-console.md)
 

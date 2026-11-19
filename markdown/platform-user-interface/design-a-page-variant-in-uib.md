@@ -1,16 +1,16 @@
 ---
-title: Design a page variant in UIB
+title: Customize a page variant in UI Builder
 description: Configure a UI Builder page variant to pass from a workspace modal into the variant. This step acts as part of the process to configure an action button to open a custom modal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/design-a-page-variant-in-uib.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Configure a custom form modal, Configure action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Design a page variant in UIB
+# Customize a page variant in UI Builder
 
 Configure a UI Builder page variant to pass from a workspace modal into the variant. This step acts as part of the process to configure an action button to open a custom modal.
 
@@ -19,13 +19,14 @@ Configure a UI Builder page variant to pass from a workspace modal into the vari
 Complete the following actions:
 
 -   [Create a form action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/create-a-new-form-action.md)
--   Open your record page in UIB or [create a page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-variant.md)
+-   [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/t_ActivateCustomerService.md)
+-   Open your record page in UI Builder or create a page variant in UI Builder
 
 Role required: admin
 
 ## Procedure
 
-1.  Open a page variant in UI Builder.
+1.  Open your page variant.
 
 2.  Add components to display on the page by selecting **+Add component** under the Body element.
 

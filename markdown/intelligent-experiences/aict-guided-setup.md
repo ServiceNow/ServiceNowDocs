@@ -1,19 +1,19 @@
 ---
 title: Guided setup
-description: Configure AI Control Tower in a logical sequence and track your progress from a single summary page, instead of navigating separate Settings pages.
+description: Configure Super Intelligence Control Tower in a logical sequence and track your progress from a single summary page, instead of navigating separate Settings pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-guided-setup.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-27"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Guided setup
 
-Configure AI Control Tower in a logical sequence and track your progress from a single summary page, instead of navigating separate Settings pages.
+Configure Super Intelligence Control Tower in a logical sequence and track your progress from a single summary page, instead of navigating separate Settings pages.
 
 ## Key benefits
 
@@ -30,7 +30,7 @@ Guided setup organizes configuration into four areas. [Guided setup areas](https
 -   **AI asset inventory.** Bring ServiceNow and external AI assets into your inventory, and decide which assets to manage.
 -   **Value and cost configuration.** Configure the templates and cost inputs used to calculate the value your AI assets deliver.
 -   **ServiceNow AI settings.** Configure data sharing, deployment approval, and AI model provider settings that apply across your instance.
--   **Connectors.** Connectors integrate with AI Control Tower to create AI connections with to discover AI agents from external AI platforms such as AWS, Azure, Copilot, Snowflake, Google Cloud Platform \(GCP\) Vertex AI and so on for centralized governance.
+-   **Connectors.** Connectors integrate with Control Tower to create AI connections to discover AI agents from external AI platforms such as AWS, Azure, Copilot, Snowflake, Google Cloud Platform \(GCP\) Vertex AI and so on for centralized governance.
 
     **Note:** The Connectors page is available only when the com.sn\_ai\_disc and sn\_sgc\_central plugins are installed.
 
@@ -41,9 +41,9 @@ Guided setup organizes configuration into four areas. [Guided setup areas](https
 The AI Steward \[sn\_ai\_governance.ai\_steward\] and sn\_ia\_config.ia\_user roles are required to access guided setup. For information about opening guided setup, see [Access guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-access-guided-setup.md).
 
 -   **[Access guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-access-guided-setup.md)**  
-Configure AI Control Tower in a logical sequence and track your progress toward a complete setup.
+Configure Super Intelligence Control Tower in a logical sequence and track your progress toward a complete setup.
 -   **[Guided setup areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-guided-setup-modules.md)**  
-Area-by-area listing of the setup items in guided setup, with cross-references to the topic each item relates to.
+Area-by-area listing of the setup items in Super Intelligence Control Tower guided setup, with cross-references to the topic each item relates to.
 
-**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring.md)
+**Parent Topic:**[Configuring Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring.md)
 

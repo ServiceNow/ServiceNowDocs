@@ -7,14 +7,16 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Data input configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Amazon CloudWatch data input configuration fields
 
 Description of the fields on the Amazon CloudWatch data input configuration form.
+
+## Basic configuration
 
 <table id="table_myk_sqb_x4b"><thead><tr><th>
 
@@ -38,7 +40,7 @@ Description
 
 </td><td>
 
-Optional description of the data input.
+Description of the data input.
 
 </td></tr><tr><td>
 
@@ -46,7 +48,7 @@ Execute on
 
 </td><td>
 
-Option to select whether to use a specific MID Server or a specific MID Server cluster. This field is required.
+Option to select whether to use a specific MID Server or a MID Server cluster. This field is required.
 
 </td></tr><tr><td>
 
@@ -56,8 +58,9 @@ MID
 
 \(Only when the **Execute on** field is set to Specific MID Server\)
 
-The MID Server to which log data from Amazon CloudWatch is pulled. **Note:**
+ MID Server to which log data from Amazon CloudWatch is pulled. **Note:**
 
+-   You can select only MID Servers that support basic authentication. MID Servers that support mTLS are not listed.
 -   The default maximum number of data inputs streaming logs to a single MID Server is 10. You can modify this number in the MID Server properties.
 -   If log ingestion is not enabled for the selected MID Server, Health Log Analytics enables it automatically.
 
@@ -87,12 +90,14 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. This field is required.Selecting the service instance enables HLA to correlate CIs and service instances in the CMDB for root cause analysis.
+The service instance to which to bind the log data.**Note:** If no relevant service instance exists, [Create an service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-it-services.md) and add CIs to it. Set the status of the new service instance to Operational.
 
-**Note:** If no appropriate service instance exists, create one, add CIs to it, and set its status to Operational. For more information, see [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-it-services.md).
+This field is required.
 
 </td></tr></tbody>
-</table><table id="table_wf3_5xs_y4b"><thead><tr><th>
+</table>The following fields show read-only information:
+
+<table id="table_wf3_5xs_y4b"><thead><tr><th>
 
 Field
 
@@ -106,7 +111,7 @@ Status
 
 </td><td>
 
-Status of the data input. This field is read-only.
+Status of the data input.
 
 </td></tr><tr><td>
 
@@ -114,7 +119,7 @@ Transport
 
 </td><td>
 
-Protocol used to stream the log data. This field is read-only.This data input uses Amazon CloudWatch to stream log data to your instance.
+Protocol used to stream the log data.This data input uses Amazon CloudWatch to stream log data to your instance.
 
 </td></tr><tr><td>
 
@@ -122,7 +127,7 @@ Sources count
 
 </td><td>
 
-The number of log sources this data input has created. This field is read-only.
+The number of log sources this data input has created.
 
 </td></tr><tr><td>
 
@@ -130,11 +135,11 @@ Disabled since
 
 </td><td>
 
-The time when the data input stopped or failed. This field is read-only.
+The time when the data input stopped or failed.
 
 </td></tr><tr><td>
 
-MID last receiving time
+Last log time
 
 </td><td>
 
@@ -147,14 +152,6 @@ Error message
 </td><td>
 
 The streaming error.This field is populated automatically. It displays only when a streaming error has occurred.
-
-</td></tr><tr><td>
-
-Advanced
-
-</td><td>
-
-Option to display the **Advanced** tab for advanced configuration.
 
 </td></tr></tbody>
 </table><table id="table_l5g_bct_y4b"><thead><tr><th>
@@ -266,19 +263,20 @@ The AWS region where the Amazon CloudWatch cluster runs, for example, us-west-1.
  This field is required.
 
 </td></tr></tbody>
-</table>|Field|Description|Default value|
+</table>## Advanced configuration
+
+|Field|Description|Default value|
 |-----|-----------|-------------|
 |Connection timeout|The number of milliseconds to wait before timing out the AWS connection attempt.|1000|
 |Batch size|The maximum number of logs retrieved per query.|2500|
-|Socket timeout \(ms\)|The number of milliseconds to wait before timing out a data transfer over an established connection.|10000|
-|Default timezone|The default time zone used when a log doesn't include time zone information.|GMT|
+|Socket timeout|The number of milliseconds to wait before timing out a data transfer over an established connection.|10000|
+|Default timezone|The default timezone if the log date and time doesn't include timezone information.|GMT|
 |Sub sample drop ratio|The number of logs to batch together, out of which one will be discarded. This setting is used to reduce the number of fetched logs.|-1|
 |Sub sample receive ratio|The number of logs to batch together, out of which all but one will be discarded. This setting is used to decrease the number of received logs.|-1|
 |Max length in bytes|The maximum length of log messages, in bytes.|32766|
-|Character encoding|The character encoding used for this data input. This field is read-only.|UTF-8|
 |Sleep interval|The interval, in seconds, to wait before querying again after a query has returned no logs.|60|
 |Polling interval|The interval, in seconds, to wait before polling for new logs.|0|
-|Drop if queue is full|Option to discard logs if many processes are waiting in the queue to access the MID Server.|Clear|
+|Drop if queue is full|Option for selecting to discard logs if there is a load on the MID Server.|False|
 
-**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+**Parent Topic:**[Data input configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

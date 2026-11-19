@@ -1,28 +1,26 @@
 ---
 title: UX: Catalog Request Experience Review
-description: This Accelerator reviews the Impact customer’s Service Catalog, request forms  and form  design and identifies areas  of improvement.
+description: This accelerator reviews the Impact customer’s Service Catalog, request forms  and form  design and identifies areas  of improvement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/ux-accelerator-service-request-experience-review.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
 
 # UX: Catalog Request Experience Review
 
-This Accelerator reviews the Impact customer’s Service Catalog, request forms  and form  design and identifies areas  of improvement.
+This accelerator reviews the Impact customer’s Service Catalog, request forms  and form  design and identifies areas  of improvement.
 
 ## Accelerator overview
 
 UX: Catalog Request Experience Review provides Impact customers with an assessment of the user experience of up to four catalog request forms. Through careful review, we offer valuable insights and recommendations to enhance the design and effectiveness of their forms. Additionally, this accelerator equips our customers with essential ServiceNow resources and leading practices guides on how to improve the usability of their Service Catalog.
 
-## Package Availability
-
-**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
+**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance\), Advanced and Total Packages.
 
 ## What you get
 

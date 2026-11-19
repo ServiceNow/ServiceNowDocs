@@ -1,19 +1,19 @@
 ---
-title: Exploring policies in AI Control Tower
-description: Learn how policies let you automatically respond to detected AI threats, block AI usage outright, or control what Arc can do on your users' devices, and where policies are enforced across AI Control Tower.
+title: Exploring policies
+description: Learn how policies let you automatically respond to detected AI threats or block AI usage outright, and where policies are enforced across Super Intelligence Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-pol-exploring.html
 release: zurich
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, explore]
-breadcrumb: [Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Exploring policies in AI Control Tower
+# Exploring policies
 
-Learn how policies let you automatically respond to detected AI threats, block AI usage outright, or control what Arc can do on your users' devices, and where policies are enforced across AI Control Tower.
+Learn how policies let you automatically respond to detected AI threats or block AI usage outright, and where policies are enforced across Super Intelligence Control Tower.
 
 ## Policies overview
 
@@ -23,7 +23,6 @@ Policies address this by letting you define that governance once, as a reusable 
 
 -   Respond automatically when a detected threat, such as a prompt injection or excessive data exposure, crosses a threshold you define.
 -   Stop a specific AI agent, model, or domain from being used, without writing a flow.
--   Control which tools, network destinations, and files Arc can use, and which of its actions wait for a person's approval.
 -   Preview which requests a policy would affect before publishing it.
 -   See exactly which policy blocked or allowed a given request, and why.
 
@@ -32,7 +31,6 @@ Policies address this by letting you define that governance once, as a reusable 
 |User|Description|
 |----|-----------|
 |AI steward|Creates, edits, clones, and deletes Threat Response and Explicit Block policies, and reviews policy enforcement activity to confirm policies are working as expected.|
-|AI steward with the Arc admin role|Creates, edits, and deletes Arc policies and the rules in them.|
 
 ## Policy types
 
@@ -45,10 +43,6 @@ Each policy type suits a different governance need.
 -   **Explicit Block**
 
     Stops a user, a department, or everyone from using a specific AI agent, model, or domain. Once initiated, the block stays in effect until the policy is deleted. For details, see [Explicit Block policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-explicit-block.md).
-
--   **Arc**
-
-    Shapes what ServiceNow Arc can do on users' devices, such as which tools it can call, which hosts it can reach, and which actions wait for approval. Each policy layers over the default Arc policy for the users it covers. For details, see [Arc policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-arc-policies.md).
 
 
 ## Policy enforcement points
@@ -76,7 +70,7 @@ For a complete list, see [Control enforcement points](https://raw.githubusercont
 
 ## Policies workflow
 
-This infographic shows a sample end-to-end workflow of the AI steward sets up policy enforcement points, creates policies, and reviews enforcement activity.
+This infographic shows a sample end-to-end workflow in which the AI steward sets up policy enforcement points, creates policies, and reviews enforcement activity.
 
 \[Omitted image "mmasset0022400-policies-workflow-ai-control-tower-vertical.svg"\] Alt text: Infographic showing policy enforcement configuration and actions taken by the AI steward. For details, refer to the following description.
 
@@ -94,16 +88,14 @@ In this workflow:
 |-------|-------|-----|
 |Respond automatically to a detected threat before it spreads further.|[Create a Threat Response policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-create-threat-response-policy.md)|AI steward|
 |Stop specific AI usage outright, without writing a flow.|[Create an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-create-explicit-block-policy.md)|AI steward|
-|Give specific groups different Arc behavior, without changing the default for everyone.|[Managing ServiceNow Arc policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-managing-arc-policies.md)|AI steward with the Arc admin role|
-|Confirm a policy is working as expected.|[Reviewing policy enforcement activities in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)|AI steward|
+|Confirm a policy is working as expected.|[Reviewing policy enforcement activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)|AI steward|
 
 ## What to explore next
 
 To learn more about configuring and using Policies, see:
 
--   [Configuring policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-configuring.md)
--   [Managing policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-managing-policies.md)
--   [Managing ServiceNow Arc policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-managing-arc-policies.md)
--   [Reviewing policy enforcement activities in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)
--   [AI Control Tower policies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reference.md)
+-   [Configuring policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-configuring.md)
+-   [Managing policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-managing-policies.md)
+-   [Reviewing policy enforcement activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)
+-   [Policies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reference.md)
 

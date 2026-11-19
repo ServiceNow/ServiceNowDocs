@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Developing custom widgets, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -141,7 +141,7 @@ Displays a red error message at the top of the browser window.
 
 </td></tr><tr><td>
 
-[spUtil.addErrorMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/spUtilAPI.md)
+spUtil.addErrorMessage\(\)
 
 </td><td>
 
@@ -153,7 +153,7 @@ Displays an error message within the browser window.
 
 </td></tr><tr><td>
 
-[spUtil.addInfoMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/spUtilAPI.md)
+spUtil.addInfoMessage\(\)
 
 </td><td>
 
@@ -165,7 +165,7 @@ Displays an Info message within the browser window.
 
 </td></tr><tr><td>
 
-[spUtil.addTrivialMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/spUtilAPI.md)
+spUtil.addTrivialMessage\(\)
 
 </td><td>
 
@@ -177,7 +177,7 @@ Displays a message which automatically disappears after a short time.
 
 </td></tr><tr><td>
 
-[debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/script-debugger.md)
+debugger
 
 </td><td>
 

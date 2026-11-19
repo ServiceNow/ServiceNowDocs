@@ -7,20 +7,14 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring CI metrics for MECM, Setting up Investigation Framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring CI metrics for MECM, Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Extend hardware inventory
 
 Extend the hardware inventory to add the CMPivot entity on the CMPivot entity list in the Microsoft Endpoint Configuration Manager.
-
-## About this task
-
-**Important:**
-
-Starting with the Brazil release, Microsoft Endpoint Configuration Manager for Investigation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Before you begin
 
@@ -42,7 +36,7 @@ Role required: admin
 
 5.  On the Default Settings window, select **Hardware Inventory**.
 
-6.  Select **Set Classes**.
+6.  Click **Set Classes**.
 
     A Hardware Inventory Classes pop-up window containing the list of Hardware Inventory Classes is displayed.
 
@@ -50,7 +44,7 @@ Role required: admin
 
     \[Omitted image "add-hardware-inventory.png"\] Alt text: Add hardware inventory
 
-8.  Select **OK**.
+8.  Click **OK**.
 
 
 ## Result

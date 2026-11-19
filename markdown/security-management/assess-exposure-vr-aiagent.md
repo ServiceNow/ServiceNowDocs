@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/assess-exposure-vr-aiagent.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-24"
 reading_time_minutes: 4
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 Chat with an AI agent to help you assess the potential exposure of your configuration items and your business services to vulnerabilities.
 
 ## Before you begin
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst
 
@@ -72,4 +70,6 @@ Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst
 
     Information about the business service includes associated vulnerable items, criticality \(risk\) and the configuration items by class are listed.
 
+
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-unified-security-exposure-management.md)
 

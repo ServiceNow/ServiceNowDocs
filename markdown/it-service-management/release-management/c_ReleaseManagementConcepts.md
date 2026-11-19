@@ -7,9 +7,9 @@ release: zurich
 product: Release Management
 classification: release-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Release Management, IT Service Management]
+breadcrumb: [Explore, Release Management, IT Service Management]
 ---
 
 # Release Management concepts
@@ -31,8 +31,5 @@ Release management comprises of a series of activities performed to ensure that 
 
 **Note:** The tables for Feature and Feature Task under a release are not removed. If you already use Feature and Feature Task under a release, you can continue doing so.
 
--   **[Default state categories for Release and Release task tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/default-state-categories-for-release-and-release-task-tables.md)**  
-Understand how the different states of the Release \[rm\_release\] and Release Task \[rm\_task\] tables are configured by default. Use this information to customize the states according to your organizational release processes.
-
-**Parent Topic:**[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/c_ITILReleaseManagement.md)
+**Parent Topic:**[Exploring Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/release-management/exploring-release-management.md)
 

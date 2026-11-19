@@ -1,27 +1,21 @@
 ---
 title: AI Admin Hub
-description: ServiceNow Otto uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences. Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center.
+description: ServiceNow Otto uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/platform-now-assist-landing.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-29"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 keywords: [generative AI, Gen AI, Now Assist, Artificial intelligence, Virtual Agent, LLM]
-breadcrumb: [Generative AI skills, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
 # AI Admin Hub
 
-ServiceNow Otto uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences. Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center.
+ServiceNow Otto uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 
-**Note:**
-
-Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by [AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-landing-page.md). Everything you manage here is available in AI Admin Center, plus more tools to manage and get the most from AI. You can continue to use AI Admin Hub for a limited time during the transition. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows and AI agents. For more information see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
-
-See [https://www.servicenow.com/community/now-assist-articles/now-assist-quick-start-guide/ta-p/2685044](https://www.servicenow.com/community/now-assist-articles/now-assist-quick-start-guide/ta-p/2685044) to read about the foundation of generative AI at ServiceNow®.
+See [https://www.servicenow.com/community/now-assist-articles/now-assist-quick-start-guide/ta-p/2685044](https://www.servicenow.com/community/now-assist-articles/now-assist-quick-start-guide/ta-p/2685044) to read about the foundation of generative AI at ServiceNow.
 
 ## Get started
 
@@ -35,7 +29,7 @@ See [https://www.servicenow.com/community/now-assist-articles/now-assist-quick-s
 
 </td><td>
 
-[Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Analyze and monitor Now Assist performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-analytics.md)
+[Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Analyze and monitor ServiceNow Otto performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-analytics.md)
 
 </td></tr><tr><td>
 
@@ -43,7 +37,7 @@ See [https://www.servicenow.com/community/now-assist-articles/now-assist-quick-s
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about user roles, data usage policy, and domain separation in Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-reference-landing.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about user roles, data usage policy, and domain separation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-reference-landing.md)
 
 </td><td>
 
@@ -56,6 +50,12 @@ See [https://www.servicenow.com/community/now-assist-articles/now-assist-quick-s
 -   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
 -   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
+
+## ServiceNow Otto products and skills
+
+The AI framework is supported across the ServiceNow AI Platform. To use generative AI skills, AI agents, or agentic workflows, activate a ServiceNow Otto product or purchase the appropriate product license for your needs.
+
+For a complete list of ServiceNow Otto skills and their workflows, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-skills.md).
 
 ## AI limitations
 

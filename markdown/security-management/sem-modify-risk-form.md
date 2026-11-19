@@ -59,7 +59,9 @@ Date on which the risk rating expires and the record reverts to its calculated r
 You can't select a past date. The maximum number of days you can select is determined by the **Maximum duration for exception \(days\)** field in the Exception Management form.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Modify the risk rating for a finding or remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-modify-risk.md)
+
+**Related topics**  
 
 
 [Modify the risk rating for a finding or remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-modify-risk.md)

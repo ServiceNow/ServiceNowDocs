@@ -1,32 +1,30 @@
 ---
 title: Create a remedial action
-description: Create custom remedial actions from check definitions to resolve endpoint-related issues using Playbook.
+description: Create your custom remedial actions from Check Definitions to resolve end-point related issues using Playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/create-remedial-action.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Creating DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Create a remedial action
 
-Create custom remedial actions from check definitions to resolve endpoint-related issues using Playbook.
+Create your custom remedial actions from Check Definitions to resolve end-point related issues using Playbook.
 
 ## Before you begin
 
 Role required: admin, dex\_admin
 
-**Note:** To learn more about different remedial actions, see [Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-diff-ra.md).
+**Note:** To learn more about different remedial actions, see [Digital End-User Experience Remedial Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-diff-ra.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Services Operations Workspace** &gt; **DEX Administration**.
-
-    \[Omitted video\] Description: Create remedial action
 
 2.  Select **Create new** in the Create Remedial Actions section.
 
@@ -34,14 +32,14 @@ Role required: admin, dex\_admin
 
     |Option|Description|
     |------|-----------|
-    |**Create net new action**|Select this option to create a new remedial action from a check definition.|
-    |**Map to an existing remedial action**|Select this option when a remedial action exists for a particular operating system \(OS\) and you want to map the same action to another OS by selecting a check definition.|
+    |**Create net new action**|Select this option to create a net new remedial action from a Check Definition.|
+    |**Map to an existing remedial action**|Select this option when a remedial action exists for a particular operating system \(OS\) and you want to map the same action to another OS by choosing a Check Definition.|
 
-4.  If you're creating a new action, enter a name in the **Remedial action name** field.
+4.  Enter a name in **Remedial action name** if you choose to create a net new action.
 
 5.  If you choose to map to an existing remedial action, select from the existing remedial actions.
 
-6.  Enter a short description.
+6.  Add a short description.
 
 7.  Select the roles for those who can execute the remedial action.
 
@@ -55,10 +53,12 @@ Role required: admin, dex\_admin
 
 10. Select the operating system of the impacted device from the drop-down menu.
 
-11. Select the base check definition for this remedial action and select **Save**.
+11. Select the base Check Definition for this remedial action and select **Save**.
 
     **Note:**
 
-    -   Confirm that the selected check definition is applicable for the selected OS.
-    -   Depending on the check definition selected, the related check definition parameters are listed.
+    -   Confirm that the selected Check Definition is applicable for the selected OS.
+    -   Depending on the Check Definition selected, the related Check Definition parameters are listed.
+
+**Parent Topic:**[DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-remedial-actions.md)
 

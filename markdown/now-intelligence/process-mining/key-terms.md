@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Reference, Process Mining, Platform Analytics]
+breadcrumb: [Process Mining reference, Process Mining, Platform Analytics]
 ---
 
 # Process Mining key terms

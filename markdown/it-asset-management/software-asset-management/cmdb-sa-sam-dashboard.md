@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 11
 keywords: [SAM advisor dashboard, monitor SAM data quality, software install data quality metrics, software installs missing edition version, duplicate software installs, virtual server host CI relationships]
-breadcrumb: [Use SAM advisor, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Use SAM advisor, Software Asset Management, IT Asset Management]
 ---
 
 # Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for SAM

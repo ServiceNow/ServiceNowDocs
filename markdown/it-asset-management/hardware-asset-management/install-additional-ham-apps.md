@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-13"
 reading_time_minutes: 1
-breadcrumb: [Install HAM from Product Hub, Hardware Asset Management on Product Hub, Installing Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Install HAM from Product Hub, Hardware Asset Management on Product Hub, Installing Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management]
 ---
 
 # Install additional HAM applications using Product Hub
@@ -20,7 +20,7 @@ Install the HAM applications and plugins included in your subscription tier that
 
 The HAM application must be installed in your ServiceNow instance.
 
-Role required: ia\_admin
+Role required: sn\_ia\_config.ia\_admin
 
 ## About this task
 
@@ -49,6 +49,4 @@ Use this procedure to install additional HAM applications and plugins after your
 ## What to do next
 
 To configure the installed application, see [Configure Hardware Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-ham-from-console.md).
-
-**Parent Topic:**[Install Hardware Asset Management from Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/install-ham-from-product-hub.md)
 

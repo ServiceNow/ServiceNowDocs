@@ -7,7 +7,7 @@ release: zurich
 product: Request Management
 classification: request-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-02-19"
 reading_time_minutes: 1
 breadcrumb: [Request Management, IT Service Management]
 ---

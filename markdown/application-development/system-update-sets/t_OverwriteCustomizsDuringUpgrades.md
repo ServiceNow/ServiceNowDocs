@@ -7,9 +7,9 @@ release: zurich
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, System update sets, Deploying applications, Classic app development, Building applications]
+breadcrumb: [Administer system update sets, System update sets, Deploying applications, Building applications]
 ---
 
 # Overwrite customizations during an upgrade
@@ -18,36 +18,24 @@ Specify which customized objects you want to replace during the next upgrade. By
 
 ## Before you begin
 
-Role required: admin
-
-Configuration changes you make such as modifying the dictionary record for a table or field are tracked. Each configuration change has a corresponding record in the customer update table, where **Replace on upgrade** is set to `false`.
+Role required: admin.
 
 ## About this task
 
-When updating to the latest software version, you can replace your custom changes. For instance, if you modified a script as a temporary fix, you’ll want to remove that workaround during the upgrade so you can benefit from new improvements and confirm compatibility with future updates.
+The systems tracks the configuration changes you make such as modifying the dictionary record for a table or field. Each configuration change you make has a corresponding record in the Customer Update `[sys_update_xml]` table where the **Replace on upgrade** field is set to false. You may want to overwrite your customizations with the next software version. For example, you may change a script to implement a temporary workaround for a problem that is fixed in the next version. You would want to overwrite your workaround when upgrading to the next version to ensure that you receive any future enhancements to the script.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System update sets** &gt; **Local update sets**
+1.  Open the customized object \(for example, the ArrayUtil script include\).
 
-2.  Select an update set.
+2.  Right-click the header and select **Show Latest Update**.
 
-3.  Select a customized object in the customer updates list.
+3.  Configure the form to add the **Replace on upgrade** field, if necessary.
 
-4.  Select and hold \(or right-click\) the header and select **Show Latest Update**.
-
-5.  Configure the form to add the **Replace on upgrade** field, if necessary.
-
-    1.  Hold \(or select and hold \(or right-click\)\) the header and select **Configure**.
-
-    2.  Select **Replace on upgrade** from the available list and add it to the form.
-
-    3.  Select **Save**.
-
-6.  Select the **Replace on upgrade** check box and select **Update**.
+4.  Select the **Replace on upgrade** check box and click **Update**.
 
     The customized object will be replaced on the next upgrade.
 
 
-**Parent Topic:**[Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/configure-system-update-sets.md)
+**Parent Topic:**[Administer system update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/administer-system-update-sets.md)
 

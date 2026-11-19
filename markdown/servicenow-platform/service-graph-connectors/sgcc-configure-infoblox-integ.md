@@ -7,7 +7,7 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-06"
 reading_time_minutes: 5
 breadcrumb: [Infoblox, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Use the playbook available with the SGC Central application to set up the Servic
 
 ## Before you begin
 
-Install Service Graph Connector for Infoblox version 1.2.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/installing-applications-in-application-manager.md).
+Install Service Graph Connector for Infoblox version 1.2.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
 
 Role required: The following table shows the roles required for each stage of the playbook.
 
@@ -37,7 +37,7 @@ The playbook experience for onboarding connectors is activated with SGC Central 
 
 1.  Use one of the following methods to open SGC Central:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon \[Omitted image "icon-sgc-central.png"\] to open the SGC Central view.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon to open the SGC Central view.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **SGC Central**.
 2.  On the Overview page, select **Create connection**.
 
@@ -87,7 +87,7 @@ User name
 
 </td><td>
 
-User name for authenticating the HTTP request.
+User name for authenticating the HTTPS request.
 
 </td></tr><tr><td>
 
@@ -95,7 +95,7 @@ Password
 
 </td><td>
 
-Password for the user name used for authenticating the HTTP request.
+Password for the user name used for authenticating the HTTPS request.
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ MID Server for the connection.This field appears only when you select the **Use 
 
         If you leave this field empty or set it to `Default`, the data sources within the connector import data from all the network views.
 
-    3.  In the **API version** field, enter the [version of WAPI](https://ipam.illinois.edu/wapidoc/) you’re using.
+    3.  In the **API version** field, enter the version of WAPI that you’re using.
 
         For more information about the Infoblox API, see the [Infoblox Developer documentation](https://www.infoblox.com/wp-content/uploads/infoblox-deployment-infoblox-rest-api.pdf).
 

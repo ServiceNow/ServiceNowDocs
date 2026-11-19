@@ -7,9 +7,9 @@ release: zurich
 product: Currency Administration
 classification: currency-administration
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Defaults required for standard currency use, Configure, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Defaults required for standard currency use, Configure, Currency administration, Configure core features, Administer]
 ---
 
 # Control default currency field configuration and use in an instance

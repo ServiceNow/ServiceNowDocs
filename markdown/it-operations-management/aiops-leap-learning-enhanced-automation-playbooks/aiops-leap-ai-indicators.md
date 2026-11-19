@@ -7,10 +7,10 @@ release: zurich
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-06-16"
 reading_time_minutes: 1
 keywords: [AI indicator, reference, AIOps LEAP]
-breadcrumb: [Reference, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
+breadcrumb: [LEAP reference, Learning Enhanced Automation Platform \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # LEAP AI indicators

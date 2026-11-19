@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -104,7 +104,7 @@ Discovery and Service Mapping find NetApp servers and clusters using patterns. D
 -   **[Manage large storage payloads in Linux and Solaris](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/manage-lg-payloads-linux-solaris.md)**  
 Large payloads for Linux and Solaris direct attached storage can cause out of memory errors if not configured to serialize the processing of the payload.
 -   **[Storage discovery examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/storage-discovery-examples.md)**  
-Discovery creates configuration items \(CIs\) and CI relationships for physical and logical storage components. Storage can be attached directly to servers or through fibre channel switched fabric.
+Discovery creates configuration items \(CI\) and CI relationships for physical and logical storage components attached to application and database servers or by fibre channel switched fabric.
 
 **Parent Topic:**[Data collected by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/data-collected-by-itom-visibility.md)
 

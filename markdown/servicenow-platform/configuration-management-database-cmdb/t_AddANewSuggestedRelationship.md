@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [CI relationships in the CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,12 +18,7 @@ Add a suggested relationship for a class. The list of suggested relationships fo
 
 ## Before you begin
 
-Role required:
-
--   sn\_cmdb\_editor or itil: Read access
--   sn\_cmdb\_admin or itil\_admin: Create, update, or delete suggested relationships
-
-.
+Role required: To view — itil. To create, update, or delete suggested relationships — itil\_admin.
 
 ## Procedure
 
@@ -33,17 +28,17 @@ Role required:
 
     2.  Select **Hierarchy** to expand the CI Classes list and then select the class to add a suggested relationship to.
 
-    3.  In the class navigation bar, select **Suggested Relationships**.
+    3.  In the class navigation bar, click **Suggested Relationships**.
 
-    4.  Select **New**.
+    4.  Click **New**.
 
     5.  In the Add Suggested Relationship dialog box, select a **Relationship** and a **Target Class** for the relationship. **This Class** and the **Target Class** become parent or child in the suggested relationship, based on your selection of the **Relationship**.
 
-    6.  Select **Save**.
+    6.  Click **Save**.
 
 2.  Or, navigate to **All** &gt; **Configuration** &gt; **Relationships** &gt; **Suggested Relationships**:
 
-    1.  Select **New**.
+    1.  Click **New**.
 
     2.  Complete the form.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [Deploying DEX to employees, Configure, Digital End-User Experience, IT Operations Management]
+last_updated: "2025-08-25"
+reading_time_minutes: 3
+breadcrumb: [Getting started, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Bulk deploy Agent Client Collector on macOS using Jamf
@@ -18,17 +18,14 @@ Use Jamf to install Agent Client Collector \(ACC\) on multiple macOS devices at 
 
 ## Before you begin
 
-\[Omitted video\] Description: Installing ACC on user devices using Jamf
-
--   An agent registration key must be created and its value retrieved for use in this procedure. For more information, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/create-acc-reg-key.md).
--   ACC must be installed on your local machine. For more information, see [Install ACC for DEX on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/install-acc-for-dex-macos.md).
--   The ACC agent must be uninstalled from your candidate test devices. For more information, see [Uninstall the Agent Client Collector agent from a device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/uninstall-acc-agent.md).
+-   Create an agent registration key and retrieve its value to use in the procedure. For more information, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/setup-acc.md).
+-   Install ACC on your local machine. For more information, see [Install ACC for DEX on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/install-acc-for-dex-macos.md).
 
 Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-Your organization might have a different method to deploy ACC.
+The following procedure describes how to mass-deploy ACC using Jamf. Your organization might have a different method to accomplish this task.
 
 ## Procedure
 
@@ -44,7 +41,7 @@ Your organization might have a different method to deploy ACC.
 
     2.  Select the **New** button.
 
-    3.  Enter a display name for the package.
+    3.  Provide a display name for a package.
 
     4.  Select **browse for a file** under **Filename** and select the package.
 
@@ -58,9 +55,9 @@ Your organization might have a different method to deploy ACC.
 
     3.  Confirm that the instance URL is accurate and insert the registration key.
 
-    4.  Verify that **verify-plugin-signature** is set to `true`.
+    4.  Verify that **verify-plugin-signature** is set to `false`.
 
-    5.  Save the `acc.yml` file.
+    5.  Save the `acc.yml`
 
 4.  Using the Terminal command line, convert your `acc.yml` file into a deploy package.
 
@@ -70,15 +67,14 @@ Your organization might have a different method to deploy ACC.
 
         ```
         #!/bin/bash
-        #!/bin/bash
         # === CONFIGURATION ===
         PKG_NAME="acc-yml.pkg"
-        INSTALL_PATH="/Library/Application Support/servicenow/agent-client-collector"
+        INSTALL_PATH="/Library/Application Support/servicenow/agent-clientcollector"
         YML_SOURCE_PATH="$HOME/Desktop/acc.yml" # Assuming you have your yml
         file on the Desktop folder, change it if needed
         # === CREATE BUILD STRUCTURE ===
         BUILD_DIR="$HOME/pkgbuild-yml"
-        PAYLOAD_DIR="$BUILD_DIR/payload"
+        PAYLOAD_DIR="$BUILD_DIR/payload$INSTALL_PATH"
         # Clean previous build
         rm -rf "$BUILD_DIR"
         mkdir -p "$PAYLOAD_DIR"
@@ -107,53 +103,24 @@ Your organization might have a different method to deploy ACC.
 
     2.  Select the **New** button.
 
-    3.  Enter a display name and complete the form as needed.
+    3.  Provide a display name and complete the form as needed.
 
-    4.  On the **Script** tab, paste the following script for the sudoers file.
+    4.  In the **Script** tab, paste the following script.
 
         ```
         # === 1. Create sudoers file ===
         SUDOERS_FILE="/private/etc/sudoers.d/_servicenow"
         cat <<EOF > "$SUDOERS_FILE"
-        # ServiceNow Agent Collector - Sudoers Configuration for macOS
-        
-        # Command alias for ServiceNow allowed commands
-        # These commands can be executed by the _servicenow user with sudo privileges
-        Cmnd_Alias SN_ALLOWED = /usr/bin/powermetrics, \
-                                /usr/bin/mdls, \
-                                /usr/bin/log, \
-                                /usr/bin/log show *, \
-                                /bin/kill, \
-                                /usr/bin/defaults, \
-                                /usr/local/bin/jamf, \
-                                /bin/rm, \
-                                /bin/ls, \
-                                /usr/bin/pgrep, \
-                                /usr/bin/find, \
-                                /usr/bin/pmset, \
-                                /usr/bin/open, \
-                                /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/app_freeze.sh, \
-                                /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/zscaler_zpa_reconnect.sh, \
-                                /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/clear_google_chrome_browsing_data.sh, \
-                                /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/services.sh, \
-                                /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/restart_service.sh *, \
-                                /Applications/Zscaler/Zscaler.app/Contents/PlugIns/zscli, \
-                                /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/elevate_temporary_admin.sh
-        
-        # ServiceNow user permissions
-        # _servicenow user can run osqueryi and all SN_ALLOWED commands without password
-        # SETENV allows environment variables to be preserved
-        _servicenow ALL=NOPASSWD: SETENV: /Library/Application\ Support/servicenow/agent-client-collector/cache/osquery/bin/osqueryi *, SN_ALLOWED
-        
-        # Defaults for _servicenow user
-        # !requiretty: Allow sudo without a TTY (required for automated scripts)
+        _servicenow ALL=NOPASSWD: SETENV: /Library/Application
+        Support/servicenow/agent-client-collector/cache/osquery/bin/osqueryi *,
+        /usr/bin/mdls, /usr/bin/log, /bin/kill, /bin/launchctl
         Defaults:_servicenow !requiretty
         EOF
         chmod 440 "$SUDOERS_FILE"
         echo "[INFO] Sudoers file created at $SUDOERS_FILE"
-        
         # === 2. Set permissions for the YAML file ===
-        YML_PATH="/Library/Application Support/servicenow/agent-client-collector/acc.yml"
+        YML_PATH="/Library/Application Support/servicenow/agent-clientcollector/
+        acc.yml"
         if [ -f "$YML_PATH" ]; then
         chmod 644 "$YML_PATH"
         echo "[INFO] Permissions set on acc.yml"
@@ -181,10 +148,8 @@ Your organization might have a different method to deploy ACC.
 
     2.  Select the **New** button.
 
-    3.  Enter a policy name, then set the trigger and execution frequency.
+    3.  Enter an appropriate policy name, trigger, and frequency.
 
-        -   Set **Trigger** to **Recurring Check-in**. Add other triggers as needed, for example **Login** or **Enrollment Complete**.
-        -   Set **Execution Frequency** to **Ongoing**.
     4.  Under **Scope**, add all the target computers.
 
     5.  Navigate to **Packages** &gt; **Configure** and add the installation and `acc-yml` packages to the record.
@@ -197,7 +162,7 @@ Your organization might have a different method to deploy ACC.
 
     7.  Select **Save**.
 
-    8.  On the **Scope** tab, add target computers and target users.
+    8.  On the Scope tab, add target computers and target users.
 
     9.  Select **Save**.
 

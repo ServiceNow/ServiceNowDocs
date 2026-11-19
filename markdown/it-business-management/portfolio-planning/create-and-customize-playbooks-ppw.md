@@ -22,7 +22,7 @@ Role required: admin, playbook.admin, or pd\_author
 
 ## About this task
 
-Next Experience for Demand Management includes one predefined playbook, Demand workflow. This playbook is active by default and is ready to use without any additional configuration. When the AI Control Tower Core plugin is installed, the playbook includes the AI checkpoint stage. For the stages and activities in the playbook, see [Demand workflow playbook stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/demand-default-playbook-stages-activities-ppw.md).
+Next Experience for Demand Management includes one predefined playbook, Demand workflow. This playbook is active by default and is ready to use without any additional configuration. When the Control Tower Core plugin is installed, the playbook includes the AI checkpoint stage. For the stages and activities in the playbook, see [Demand workflow playbook stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/demand-default-playbook-stages-activities-ppw.md).
 
 Customize the playbook when your demand processes differ from the default, for example when you use custom demand states, roles, or fields. The default playbook runs when a demand is created and has no additional conditions. It applies to every new demand, including records in tables that extend the Demand \[dmn\_demand\] table. Duplicate the Demand workflow playbook to customize it to preserve the default playbook as a base that you can refer to at any point.
 

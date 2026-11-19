@@ -1,5 +1,5 @@
 ---
-title: Product adoption
+title: Product Adoption
 description: View your capabilities, product adoption roadmaps, and subscriptions for your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-product-adoption-roadmap/product-adoption.html
@@ -7,24 +7,24 @@ release: zurich
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Using Impact, Impact]
 ---
 
-# Product adoption
+# Product Adoption
 
 View your capabilities, product adoption roadmaps, and subscriptions for your ServiceNow instance.
 
 <table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td>
 
-[Entitlements and usage using capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-product-adoption-roadmap/capabilities-map.md)
+[Capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-product-adoption-roadmap/capabilities-map.md)
 
  \[Omitted image "bus-extend-visability.svg"\] Alt text: View the full landscape of your licensed ServiceNow products and the status of their utilization.
 
 </td><td align="center">
 
-[Build implementation plans with product adoption roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-product-adoption-roadmap/impact-par.md)
+[Product Adoption Roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-product-adoption-roadmap/impact-par.md)
 
  \[Omitted image "bus-workflow.svg"\] Alt text:
 
@@ -32,7 +32,7 @@ View your capabilities, product adoption roadmaps, and subscriptions for your Se
 
 </td><td>
 
-[Subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/subscriptions.md)
+[Subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-product-adoption-roadmap/subscriptions.md)
 
  \[Omitted image "bus-business-management.svg"\] Alt text:
 

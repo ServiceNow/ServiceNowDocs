@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
+breadcrumb: [Create and manage enterprise assets, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create linear asset types
@@ -33,20 +33,18 @@ Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
+1.  Navigate to **Enterprise Asset Workspace** &gt; **Enterprise asset estate** &gt; **Linear asset types**.
 
-2.  From the Enterprise Asset Workspace, open the Admin center view.
+2.  Select **New**.
 
-3.  In the navigation panel of the Admin center view, select **Linear asset types**.
+3.  Enter a name for the linear asset type in the **Name** field.
 
-4.  Select **New**.
+4.  Select a parent for the linear asset type from the **Parent** list.
 
-5.  Enter a name for the linear asset type in the **Name** field.
-
-6.  Select a parent for the linear asset type from the **Parent** list.
-
-7.  Select **Save**.
+5.  Select **Save**.
 
     The new linear asset type appears in the Linear asset types related list. If you don't see it in the related list, select the Refresh List icon on the right side of the page.
 
+
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

@@ -1,28 +1,26 @@
 ---
 title: Create a theme with AI in Theme Builder
-description: Use AI-powered theme creation in Theme Builder to generate themes from brand images or brand guidelines. Preview and refine results in the Create a theme wizard.
+description: Use an AI-powered theme creation from within Theme Builder to generate themes from brand images, preview, and refine results all within the updated Create a theme wizard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/tb-create-a-theme-ai.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-01-22"
 reading_time_minutes: 3
 breadcrumb: [Theme creation with AI, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Create a theme with AI in Theme Builder
 
-Use AI-powered theme creation in Theme Builder to generate themes from brand images or brand guidelines. Preview and refine results in the Create a theme wizard.
+Use an AI-powered theme creation from within Theme Builder to generate themes from brand images, preview, and refine results all within the updated Create a theme wizard.
 
 ## Before you begin
 
 This feature requires:
 
--   The ServiceNow Otto for Creator application must be installed. See .
+-   ServiceNow Otto for Creator installed. See .
 
-Role required: ui\_builder\_admin
-
-For information on granular roles, see .
+Role required: admin
 
 ## Procedure
 
@@ -34,7 +32,7 @@ For information on granular roles, see .
 
 2.  Select **Create a theme**.
 
-    The Create a theme wizard opens. Selections are saved automatically as you progress through the wizard.
+    The Create a theme wizard appears to guide you through your brand configurations, as described in the next steps.Your selections are saved automatically as you progress through the wizard.
 
 3.  Enter the name and a description of your new theme, and select **Next**.
 
@@ -42,18 +40,16 @@ For information on granular roles, see .
 
     |Option|Action|
     |------|------|
-    |**Upload brand image or brand guidelines PDF**|AI automatically extracts a color palette from your image or brand guidelines PDF..|
+    |**Upload brand image**|AI automatically extracts a color palette from your image.|
     |**Select __Handpick my colors__**|Manually choose your theme colors|
 
+    \[Omitted image "tb-nap-wizard-flow-2.png"\] Alt text: Theme Creation wizard showing the option to upload a brand image or handpick colors to generate a color palette.
 
+5.  If you chose to upload a brand image, generate your theme colors using AI.
 
-    \[Omitted image "tb-nap-wizard-flow-2-ap2.png"\] Alt text: Theme Creation wizard showing the option to upload an image or PDF file or handpick colors to generate a color palette.
+    1.  Upload your brand image.
 
-5.  If you chose to upload a brand image or brand guidelines file, generate your theme colors using AI.
-
-    1.  Upload your brand image or brand guidelines file.
-
-        Supported formats are JPEG, JPG, PNG, and SVG with a maximum size of 1 MB.Supported formats for brand guidelines are PDF with a maximum size of 20 MB.\[Omitted image "tb-nap-wizard-upload-image.png"\] Alt text: Theme Creation wizard showing a brand image uploaded to generate a color palette using AI.
+        Supported formats are JPEG, JPG, PNG, and SVG with a maximum size of 1 MB.\[Omitted image "tb-nap-wizard-upload-image.png"\] Alt text: Theme Creation wizard showing a brand image uploaded to generate a color palette using AI.
 
     2.  Select **Generate Palette**.
 
@@ -73,13 +69,13 @@ For information on granular roles, see .
 
 6.  If you selected **Handpick my colors**, define your theme colors manually.
 
-    1.  Select the Primary tile and choose your brand's primary color from the color selector or enter a value using HEX, RGB, or HSL.
+    1.  Select the Primary tile and choose your brand’s primary color from the color selector or enter a value using HEX, RGB, or HSL.
 
         \[Omitted image "tb-select-primary-color.png"\] Alt text: Your brand's primary color
 
     2.  After you identify the primary color of your brand, select **Apply**.
 
-    3.  Select the Secondary tile and choose your brand's secondary color from the color selector.
+    3.  Select the Secondary tile and choose your brand’s secondary color from the color selector.
 
     4.  Select **Apply**.
 
@@ -89,7 +85,7 @@ For information on granular roles, see .
 
 7.  Upload your brand logo, confirm it appears correctly in the preview, and select **Next**.
 
-    If you don't add a logo, the ServiceNow logo is used.
+    If you don’t add a logo, the ServiceNow logo is used.
 
 8.  Select the preferred font for your text and select **Next**.
 
@@ -108,7 +104,7 @@ Your theme is saved as a draft in Theme Builder and appears in the Unpublished s
 
 ## What to do next
 
-The Editor view opens. From there, you can modify or publish your theme. See [Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-edit-theme.md) and [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-apply-theme.md).
+After creating your theme in the wizard, you are directed to the Editor view of the theme where you can continue [modifying](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-edit-theme.md) or [publish your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-apply-theme.md).
 
 **Parent Topic:**[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/theme-creation-with-ai.md)
 

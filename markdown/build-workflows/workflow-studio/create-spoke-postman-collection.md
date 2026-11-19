@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Building spokes using Spoke Generator, Workflow Studio, Build workflows]
+breadcrumb: [Building spokes using Spoke Generator, Use, Workflow Studio, Build workflows]
 ---
 
 # Create spoke and build actions by importing a Postman collection
@@ -96,7 +96,7 @@ Description about the custom spoke.
 
     2.  Install the spoke from the Store.
 
-        For more details, see [Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/installing-apps-app-manager.md).
+        For more details, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
 
     3.  After installing the spoke, navigate to the Workflow Studio tab.
 
@@ -228,4 +228,6 @@ Required authentication mechanism for this integration. Ensure that the authenti
 
     Along with **Spoke activity log**, you can also view details of the available flows, subflows, and actions in the spoke details page.
 
+
+**Parent Topic:**[Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/spoke-builder.md)
 

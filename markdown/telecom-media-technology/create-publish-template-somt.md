@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/create-publish-template-somt.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-16"
 reading_time_minutes: 2
-breadcrumb: [Retire or archive versions, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Retire or archive versions, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Create and publish a template
@@ -23,7 +23,7 @@ Role required:
 
 ## Procedure
 
-1.  Open CRM Workspace.
+1.  Open CSM Configurable Workspace.
 
 2.  Navigate to **List** &gt; **Templates** &gt; **All**.
 
@@ -109,15 +109,15 @@ The template is archived. You can archive only a retired template.
 
 9.  Publish, save, or copy the draft template.
 
-<table id="choicetable_q3p_bpt_txb"><thead><tr><th align="left" id="d23108e386">
+<table id="choicetable_q3p_bpt_txb"><thead><tr><th align="left" id="d21830e380">
 
 Action
 
-</th><th align="left" id="d23108e389">
+</th><th align="left" id="d21830e383">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d23108e395">
+</th></tr></thead><tbody><tr><td id="d21830e389">
 
 **Publish**
 
@@ -133,7 +133,7 @@ Do one of the following actions:
 -   To publish this template, select **OK**.
 When you publish it, its state changes from Draft to Published.
 
-</td></tr><tr><td id="d23108e424">
+</td></tr><tr><td id="d21830e418">
 
 **Save**
 
@@ -141,7 +141,7 @@ When you publish it, its state changes from Draft to Published.
 
 Update the template with the new data that you added.
 
-</td></tr><tr><td id="d23108e435">
+</td></tr><tr><td id="d21830e429">
 
 **Copy**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-mcp-server-approval-playbook-workflow.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-03"
 reading_time_minutes: 1
-breadcrumb: [Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Working with MCP server records, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # MCP server approval playbook workflow

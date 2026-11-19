@@ -7,7 +7,7 @@ release: zurich
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 7
 breadcrumb: [Resource Management reference, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -325,6 +325,20 @@ Edit effort fields for a resource assignment that has actuals \(**com.snc.resour
 </td><td>
 
 Edit the effort fields for a resource assignment even when actual values have been recorded.
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Manage your resource board performance based on how the entries result
+
+ **sn\_rm\_ws\_use\_progressive\_disclosure**
+
+</td><td>
+
+Manage the performance based on how the resource board loads.
 
 </td><td>
 

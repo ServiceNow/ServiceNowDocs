@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/earl
 release: zurich
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Early Warning, CVD attributes, field reference, threat intelligence, schema]
 breadcrumb: [Early Warning for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
@@ -148,4 +148,5 @@ External Note
 Structured free-text field containing sub-categories of intelligence detail: Intel Source, Honeypot, Research, Detection, Vulnerable, Malware hash, Analyst note, Intel note, and Admiralty score. Values are reported as `NA` when no data is available for a sub-category.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/armis-early-warning-integration.md)
+

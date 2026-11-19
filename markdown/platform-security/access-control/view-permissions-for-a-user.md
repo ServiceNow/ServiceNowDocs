@@ -1,0 +1,82 @@
+---
+title: View permissions for a user
+description: Use Access Analyzer to view permissions for a selected user.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/view-permissions-for-a-user.html
+release: zurich
+product: Access Control
+classification: access-control
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Use Evaluate access, Use Access Analyzer, Access analyzer, Access Management]
+---
+
+# View permissions for a user
+
+Use Access Analyzer to view permissions for a selected user.
+
+## Before you begin
+
+Role required: admin, access\_analyzer\_admin
+
+The following procedure describes the sample steps to view permissions for a selected user \(**ITIL User**\) to view the permissions of the **Incident** table using the Evaluate access in Access Analyzer.
+
+**Note:** Access Analyzer is a ServiceNow® Store app.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Access Analyzer** &gt; **Analyze Permissions**.
+
+    The Analyze access and permissions home page is displayed.
+
+2.  Select your criteria as follows.
+
+    |Field|Description|
+    |-----|-----------|
+    |Analyze by|**User**.|
+    |Select user|User name from the list. In this example, **ITIL User**.|
+    |Rule type|Access analysis for a **Table**, **UI page**, **REST Endpoint**, **client callable script include**, **AI agent**, or **Agentic workflow**. In the example, `Table`.|
+    |Select table|Table name from the list. In this example, **Incident**.|
+    |Select record|Record name from the list. In this example, **INC0000001**.|
+    |Select field|Field name from the list. This field can be used to analyze permission even at a field level. For example, Active, Created By, and so on.|
+
+3.  Specify the description in the **Description** field.
+
+4.  Select **Analyze permissions**.
+
+    \[Omitted image "view-permissions-for-a-user.png"\] Alt text: Permission evaluation of Abel Tuter
+
+    The **Access results** for the **ITIL User** are displayed.
+
+    \[Omitted image "permissions-for-a-user.png"\] Alt text: Permission results
+
+    The results can be read by referring to the Legends, access control list \(ACL\), IAccessHandler, and Data filters.
+
+    Let's take the example of **read** operation. For the **ITIL User**, overall access is Passed, which means the user can read the record with the correct permissions \(ACL\).
+
+    Similarly, for **create** operation, the overall access is passed with an alert icon, which means that there could be a presence of script for the ACL evaluation.
+
+    **Note:** In the example, **write** and **delete** operations are blocked for the selected user and the user can’t edit or delete the selected record \(INC0000001\).
+
+5.  Select read operation to learn more about the Debug logs.
+
+    \[Omitted image "acl-details-for-user.png"\] Alt text: ACL Details
+
+    The Debug logs page displays the business rule and associated ACLs that are required to perform the **read** operation for the record.
+
+    The Debug logs show that there’s a business rule and 4 ACLs associated for the read operation.
+
+    There’s a status **Passed** for one of the ACLs, which means to read the selected record, the user has the required ACL and can read the record. Because one of the ACLs is **Passed**, the other ACL evaluations are **Skipped**.
+
+6.  Select the Access Control that is Passed to learn the details of the ACL.
+
+    \[Omitted image "view-details-for-a-user.png"\] Alt text: Details of the Access Control for the selected ACL
+
+    The details of the Access Control for the selected ACL are displayed.
+
+    For a selected operation with the **Passed** status and a presence of a script, the Access Control page displays the associated script for the record.
+
+    \[Omitted image "script-for-a-user.png"\] Alt text: Script Condition in Access Control
+
+

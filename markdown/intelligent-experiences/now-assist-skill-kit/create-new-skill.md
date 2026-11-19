@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2026-10-22"
-reading_time_minutes: 6
-breadcrumb: [Using AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Create a skill
@@ -26,108 +26,111 @@ Role required: sn\_skill\_builder.admin
 
 1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
-2.  Select **Create skill**.
+2.  Select **Create new skill**.
 
-    The **New skill** page opens on the **Add general info** tab.
+3.  On the form, fill in the fields.
 
-3.  On the **Add general info** tab, describe the skill and choose its provider.
+    \[Omitted image "nask-new-skill.png"\] Alt text: New skill modal in AI Skill Kit.
 
-    1.  In the **Skill name** field, enter a unique name for the skill.
+<table id="table_chg_qth_lcc"><thead><tr><th>
 
-        Use only letters, numbers, and spaces. Special characters aren't allowed.
+Field
 
-    2.  In the **Description** field, describe the purpose of the skill.
+</th><th>
 
-    3.  Select a **Default provider**.
+Description
 
-        The list includes all providers. Providers that aren't available on your instance appear in the list but can't be selected.
+</th></tr></thead><tbody><tr><td>
 
-        Available providers:
+Skill name
 
-        -   Now LLM Service
-        -   External LLM
+</td><td>
 
-            You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+Name of the skill.
 
-            -   Spokes
-            -   Custom LLM
+</td></tr><tr><td>
 
-                For more information on setting up a custom large language model \(LLM\), see [Configure a generic large language model \(LLM\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md)
+Description
 
-        Available prebuilt spokes that enable you to connect with an external LLM:
+</td><td>
 
-        -   Microsoft Azure OpenAI Generative AI Spoke
-        -   OpenAI Generative AI Spoke
-        -   Aleph Alpha
-        -   IBM watsonx
-        -   Google Gemini \(MakerSuite and Vertex AI\)
-        **Note:** The spokes don't consume Integration Hub transactions. The spokes consume assists.
+Description of the skill.
 
-    4.  Select a **Default provider API**.
+</td></tr><tr><td>
 
-        After you select a provider and an API, the models available for them appear in the **Models** area. This list is for reference only. You can't select a model from it.
+Default provider
 
-        If the API that you select has no active models, the message `No active models found` appears and you can't continue.
+</td><td>
 
-4.  In the **Define user access with an Access Control List \(ACL\)** section, select who can access and run the skill.
+Available providers:-   Now LLM Service
+-   External LLM
 
-    -   **Any authenticated user**: Any logged-in user can access and run the skill.
-    -   **Select roles**: In the **Roles** field, select the roles that a user must have to run the skill. If you select multiple roles, a user needs only one of the roles to run the skill.
-    When you save the skill, an ACL is created. The section then shows the ACL as an entry that you can edit.
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-landing.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
-5.  In the **Apply role restrictions to skill** section, select the roles that the skill can inherit from the user who runs it.
+    -   Spokes
+    -   Custom LLM
 
-    Role restrictions are required. They limit the roles that the skill operates with when it runs, so that it doesn't access more resources than necessary. The ACL determines who can run the skill. Role restrictions determine what the skill can access while it runs.
+For more information on setting up a custom large language model \(LLM\), see [Configure a generic large language model \(LLM\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md)
 
-    If you selected roles for user access, you can select **Copy roles from user access** to use the same roles.
+Available prebuilt spokes that enable you to connect with an external LLM:
 
-6.  Select **Continue**.
+-   Microsoft Azure OpenAI Generative AI Spoke
+-   OpenAI Generative AI Spoke
+-   Aleph Alpha
+-   IBM watsonx
+-   Google Gemini \(MakerSuite and Vertex AI\)
+**Note:** The spokes don't consume Integration Hub transactions. The spokes consume assists.
 
-7.  On the **Start prompt creation** tab, select how you want to create the prompt for the skill.
+</td></tr><tr><td>
 
-    -   **Write from scratch**: Start with an empty prompt.
-    -   **Choose one from library**: On the card for the prompt that you want, select **View**, and then select **Use prompt**.
-    -   **Use an AI-generated prompt**: Generate a prompt from the details that you entered on the **Add general info** tab.
-8.  Select **Continue**.
+Provider API
 
-9.  On the **Add skill inputs** tab, add the inputs that the skill uses.
+</td><td>
 
-    To add more inputs, select **Add** again. To remove an input, select the delete icon on its card. To hide or show the details of an input, select the expand or collapse icon on its card.
+Provider of the API for the selected LLM.
 
-    1.  Select **Add**.
+</td></tr><tr><td>
 
-        A card for the new input appears.
+User access
 
-    2.  In the **Data type** field, select the data type of the input.
+</td><td>
 
-        Available data types:
+-   Any authenticated user
 
-        -   **Record**
-        -   **String**
-        -   **Numeric**
-        -   **Boolean**
-        -   **Simple array**
-        -   **JSON object**
-        -   **JSON array**
-    3.  In the **Name** field, enter a name for the input.
+Any logged-in user can access and run the skill.
 
-        The name is available in the pill picker.
+-   Select roles
 
-    4.  In the **Description** field, describe the input.
+Select the roles that a user must have to execute the skill.
 
-    5.  To require the input for the skill to run, select **Make input mandatory**.
+**Note:** If you select multiple roles, a user needs only one of the roles to run the skill.
 
-    6.  To trim the input when it's over the token limit and keep the prompt intact, select **Allow truncation**.
+</td></tr><tr><td>
 
-        This option is available only for **Record**, **String**, **Numeric**, and **Boolean** inputs.
+Role restrictions
 
-    7.  In the ct **Finish setup**ld, enter the default values to use when the skill runs.
+</td><td>
 
-        You can override these values when the skill runs.
+Roles that the skill runs as. Access control lists \(ACLs\) determine which user roles can trigger the skill, while role restrictions determine the roles that the skill operates with when it runs.
 
-10. Select **Continue to summary**.
+</td></tr></tbody>
+</table>4.  Select how you want to create the prompt for the skill.
 
-11. On the **Review summary** tab, review the skill details and select learn more, se.
+    -   Write from scratch
+    -   Choose one from library
+        1.  Find the prompt that you want to use.
+        2.  Select **View**.
+        3.  Select **Use prompt**.
+    -   Use an AI-generated prompt
+    \[Omitted image "nask-guided-setup.png"\] Alt text: Guided setup for AI Skill Kit
+
+5.  Select **Next**.
+
+6.  Add skill inputs and outputs.
+
+7.  Select **Go to summary**.
+
+8.  Select **Finish**.
 
 
 ## What to do next

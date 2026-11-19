@@ -7,8 +7,8 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-07-27"
+reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for Alibaba Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -21,11 +21,11 @@ Use the Discovery Admin Workspace dashboard to create an Alibaba Cloud Discovery
 
 Verify the following:
 
--   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-install-prereqs.md).
+-   At least one validated MID Server with a status of **Up** is installed. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
--   You have configured a Alibaba Cloud Random Access Memory \(RAM\) user or RAM role in the Alibaba Cloud console. The RAM user or role must have the permissions required for the MID Server to access the cloud resources you plan to discover.
--   You have created suitable Alibaba Cloud API credentials in the ServiceNow AI Platform. For more information, see [Create Alibaba Cloud API Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-alibaba-cloud-api-credentials.md).
--   You're using Discovery Admin Workspace v1.13.0 or later.
+-   A Alibaba Cloud Random Access Memory \(RAM\) user or RAM role is configured in the Alibaba Cloud console. The RAM user or role must have the permissions required for the MID Server to access the cloud resources you plan to discover.
+-   Suitable Alibaba Cloud API credentials are created in the ServiceNow AI Platform. For more information, see [Create Alibaba Cloud API Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-alibaba-cloud-api-credentials.md).
+-   Discovery Admin Workspace, starting with v1.13.0 is installed.
 
 Role required: discovery\_admin
 
@@ -56,7 +56,7 @@ Role required: discovery\_admin
     |Option|Description|
     |------|-----------|
     |**Existing cloud account**|Select an existing cloud account on your instance. Once an account is selected, the **Account name**, **Account ID**, **Discover GovCloud regions**, and **Datacenter URL** fields auto-populate.|
-    |**New cloud account**|Add a cloud account to your instance by entering an account name and ID.|
+    |**New cloud account**|Add a cloud account to your instance by entering an account name and ID. To discover GovCloud regions, set **Discover GovCloud regions** to **Yes** and enter the **Datacenter URL**.|
 
     Even if the cloud account was previously verified, you can reverify if policies or permissions may have changed by selecting **Verify information.**
 
@@ -89,6 +89,4 @@ Role required: discovery\_admin
     |**Finish and run**|After being selected, all the information provided is validated. Then, a Discovery schedule is created in the background, a Discovery status is created, and the schedule is run. You're redirected to the Status Details page for the schedule.|
     |**Finish**|After being selected, all the information provided is validated. A Discovery schedule is created, and you're redirected to its entry in the Discovery Schedules \[discovery\_schedule\] table. You can edit the schedule information or run it by selecting **Discover Now**.|
 
-
-**Parent Topic:**[Discovery for Alibaba Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/alibaba-cloud-discovery.md)
 

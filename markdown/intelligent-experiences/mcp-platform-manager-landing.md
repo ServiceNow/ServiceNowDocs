@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mcp-platform-manager-landing.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-07-29"
 reading_time_minutes: 3
-breadcrumb: [Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
 # MCP Server Console
@@ -15,8 +15,6 @@ breadcrumb: [Extending AI with external systems and providers, Enable AI Experie
 MCP Server Console enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol.
 
 You don't need specific licences to use the platform MCP Server Console. However, individual business unit servers will need matching entitlements. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/r/UBGwc5glUUjVANqQeiJeZA/QCGkmpN33vownhxo8L1ecg) or contact the account team.
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
 
 \[Omitted video\] Description: MCP Server Console overview
 

@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 11
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrating with Cisco Webex
@@ -227,15 +227,15 @@ If you’re using Software Asset Workspace, the option to create the Webex integ
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d209213e832">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d199469e832">
 
 Interface
 
-</th><th align="left" id="d209213e835">
+</th><th align="left" id="d199469e835">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d209213e841">
+</th></tr></thead><tbody><tr><td id="d199469e841">
 
 **Core UI**
 
@@ -246,7 +246,7 @@ Action
 3.  Select **Webex Integration Profile**.
 
 
-</td></tr><tr><td id="d209213e883">
+</td></tr><tr><td id="d199469e883">
 
 **Software Asset Workspace**
 

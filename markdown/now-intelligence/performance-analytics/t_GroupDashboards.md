@@ -1,5 +1,5 @@
 ---
-title: Organize Core UI dashboards into groups
+title: Organize dashboards into groups
 description: Assign dashboards to groups so that users can find the dashboards they want more easily. Dashboard groups determine how dashboards appear in the dashboard picker when you navigate to Self-Service Dashboards . You can also add view permissions to dashboard groups.Dashboard group and dashboard permissions are not additive. Depending on how permissions are defined on a dashboard, dashboard group permissions may not apply.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/t\_GroupDashboards.html
@@ -7,12 +7,12 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Organize Core UI dashboards into groups
+# Organize dashboards into groups
 
 Assign dashboards to groups so that users can find the dashboards they want more easily. Dashboard groups determine how dashboards appear in the dashboard picker when you navigate to **Self-Service** &gt; **Dashboards**. You can also add view permissions to dashboard groups.
 

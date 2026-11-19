@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/ea-qna-use.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+last_updated: "2026-05-26"
+reading_time_minutes: 3
+breadcrumb: [Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Working with Enterprise Architecture query agent
@@ -15,8 +15,6 @@ breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture
 You can ask the Enterprise Architecture query agent natural language questions about your enterprise architecture portfolio using the ServiceNow Otto® panel in Enterprise Architecture Workspace.
 
 ## Before you begin
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
@@ -92,6 +90,4 @@ The Enterprise Architecture query agent returns a structured answer based on you
 [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-now-assist-ea.md)
 
 [ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/sn-otto-access-roles.md)
-
-[Access Enterprise Architecture data using MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/access-ea-data-using-mcp-tools.md)
 

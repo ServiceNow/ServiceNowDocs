@@ -7,14 +7,20 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-08-12"
 reading_time_minutes: 9
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrating with Google Workspace
 
 Integrating your Software Asset Management application with the Google Workspace service enables you to track your software subscriptions and to reclaim unused licenses.
+
+**Note:** The Google Workspace integration supports the following products:
+
+-   Google Apps
+-   Google Vault SKUs
+-   Archived User SKUs
 
 For additional information about the Google Workspace service, see [Google Workspace Admin Help](https://support.google.com/a/?hl=en#topic=7570177).
 
@@ -196,7 +202,7 @@ Create an integration profile to track software subscriptions and optimize licen
 
 To create a Google Workspace integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: sam\_integrator or admin
 
 ### About this task
 
@@ -206,15 +212,15 @@ If you’re using Software Asset Workspace, the option to create the Google Work
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d44308e695">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d42290e716">
 
 Interface
 
-</th><th align="left" id="d44308e698">
+</th><th align="left" id="d42290e719">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d44308e704">
+</th></tr></thead><tbody><tr><td id="d42290e725">
 
 **Core UI**
 
@@ -225,7 +231,7 @@ Action
 3.  Select **Google Workspace Integration Profile**.
 
 
-</td></tr><tr><td id="d44308e746">
+</td></tr><tr><td id="d42290e767">
 
 **Software Asset Workspace**
 
@@ -294,7 +300,7 @@ You can view events performed by individual users up to one year before the curr
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
 
 -   Software Models
 -   Unrecognized Subscription Identifiers

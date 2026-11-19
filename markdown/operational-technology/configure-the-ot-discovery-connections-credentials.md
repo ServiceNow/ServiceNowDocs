@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/configure-the-ot-discovery-connections-credentials.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
@@ -18,7 +18,7 @@ Configure the Service Graph Connector for ServiceNow Operational Technology \(OT
 
 Role required: admin
 
-**Note:** It's recommended that you switch to the application scope to Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery.
+**Note:** It's recommended that you switch to the application scope toService Graph Connector for ServiceNow Operational Technology \(OT\) Discovery.
 
 ## Procedure
 
@@ -54,7 +54,7 @@ Role required: admin
 
 9.  In this window, fill in the following connection details as explained in the following table.
 
-    \[Omitted image "connection-window.png"\] Alt text: Create Connection
+    \[Omitted image "image.connection-window"\] Alt text: Create Connection
 
 <table id="table_utt_3fc_23c"><thead><tr><th>
 
@@ -122,6 +122,4 @@ This field is mandatory.
 ## What to do next
 
 The next step is to [Generate imports and validate the connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/generate-imports-validate-connections.md).
-
-**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-ot-discovery.md)
 

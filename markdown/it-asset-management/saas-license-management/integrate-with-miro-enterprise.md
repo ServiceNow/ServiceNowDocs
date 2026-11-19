@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 10
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrating with Miro Enterprise
@@ -64,8 +64,6 @@ Miro Role required: Refer to the [Minimal user permissions](https://raw.githubus
 
     OAuth scopes specify the level of access that the application has to your protected resources. The organizations:read OAuth scope enables your application to read information about your organization and organization members.
 
-13. Select **Install app and get OAuth token**.
-
 
 ### What to do next
 
@@ -81,15 +79,19 @@ Miro Role required: Refer to the [Minimal user permissions](https://raw.githubus
 
 ### Procedure
 
-1.  On the side navigation panel of your Miro organization profile, select **Apps and integrations** and then select **Enterprise integrations**.
+1.  On the left navigation pane of your Miro organization profile, select **Security**.
 
-2.  On the Enterprise integrations page, select the option to enable **SCIM Provisioning**.
+2.  On the Security page, select the option to **Enable SSO/SAML**.
 
-    The Miro account automatically generates and displays your API access token in the **API Token** field.
+3.  After SSO/SAML is enabled, select the option to enable **SCIM Provisioning**.
 
-3.  Select the **Send an email invite to join Miro to provisioned users** check box to enable Miro to send email notifications to all users that have been provisioned using SCIM.
+    Miro automatically generates and displays your API access token in the **Api Token** field.
 
-4.  Copy the API access token in the **API Token** field and secure it for later use.
+4.  Select the **Send email notifications to users provisioned by SCIM** check box to enable Miro to send email notifications to all users that have been provisioned using SCIM.
+
+5.  Copy the API access token in the **Api Token** field.
+
+    Save it in a secure location for later use.
 
 
 ## Create a Miro Enterprise integration profile
@@ -100,7 +102,7 @@ Create a Miro Enterprise integration profile to track software subscriptions and
 
 To create a Miro Enterprise integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: sam\_integrator or admin
 
 **Important:** You must select the **Miro Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -112,15 +114,15 @@ If you’re using Software Asset Workspace, the option to create the Miro Enterp
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d119812e581">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d114505e581">
 
 Interface
 
-</th><th align="left" id="d119812e584">
+</th><th align="left" id="d114505e584">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d119812e590">
+</th></tr></thead><tbody><tr><td id="d114505e590">
 
 **Core UI**
 
@@ -131,7 +133,7 @@ Action
 3.  Select **Miro Enterprise Integration Profile**.
 
 
-</td></tr><tr><td id="d119812e632">
+</td></tr><tr><td id="d114505e632">
 
 **Software Asset Workspace**
 
@@ -318,7 +320,7 @@ API access token for authenticating Miro API requests. Enter the same API access
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
 
 -   Software Models
 -   Unrecognized Subscription Identifiers

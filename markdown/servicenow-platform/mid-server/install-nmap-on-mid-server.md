@@ -7,7 +7,7 @@ release: zurich
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 12
 breadcrumb: [Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -145,8 +145,8 @@ You must install Nmap manually on each MID Server host and then configure the in
 
 2.  Download the correct installer executable from one of these URLs:
 
-    -   [https://nmap.org/dist/](https://nmap.org/dist/): If the Nmap version in the property is 7.98, the executable you need is `https://nmap.org/dist/nmap-7.98-setup.exe`.
-    -   `https://install.service-now.com/glide/distribution/builds/package/thirdparty/nmap/nmap-setup-xxx-windows.exe`. If the Nmap version in the property is 7.98, the executable you need is `https://install.service-now.com/glide/distribution/builds/package/thirdparty/nmap/nmap-setup-7.98-windows.exe`
+    -   [https://nmap.org/dist/](https://nmap.org/dist/): If the Nmap version in the property is 7.94, the executable you need is `https://nmap.org/dist/nmap-7.94-setup.exe`.
+    -   `https://install.service-now.com/glide/distribution/builds/package/thirdparty/nmap/nmap-setup-xxx-windows.exe`. If the Nmap version in the property is 7.94, the executable you need is `https://install.service-now.com/glide/distribution/builds/package/thirdparty/nmap/nmap-setup-7.94-windows.exe`
 3.  Create a folder called `nmap` in the MID Server `agent` folder of every MID Server you want to use for credential-less Discovery.
 
     \[Omitted image "NmapInstallFolder.png"\] Alt text: Nmap installer folder on MID Server

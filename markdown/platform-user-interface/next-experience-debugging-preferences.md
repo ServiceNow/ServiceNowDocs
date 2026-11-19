@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/next-experience-debugging-preferences.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure Next Experience debugging preferences
@@ -38,7 +38,7 @@ Script Debugger
 
 </td><td>
 
-Opens a JavaScript debugger with a script tracer and a session log. For more information, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/script-debug-overview.md).
+Opens a JavaScript debugger with a script tracer and a session log. For more information, see .
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Automated Test Framework Page Inspector
 
 </td><td>
 
-Enables you to identify and inspect pages created in classic custom UI pages using the page inspector. For more information, see [Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/atf-page-inspector.md).
+Enables you to identify and inspect pages created in classic custom UI pages using the page inspector. For more information, see Page Inspector.
 
 </td></tr><tr><td>
 

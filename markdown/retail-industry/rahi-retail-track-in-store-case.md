@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-track-in-store-case.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-02-23"
 reading_time_minutes: 1
 breadcrumb: [Track In-store operations cases and tasks, Manage store plans, Retail]
 ---
@@ -28,8 +28,6 @@ Role required: sn\_rtl\_instore\_ops.manager
 
 4.  Review the case details.
 
-    You can edit and save case details, or select **Close case** to close the case.
+    You can edit and save case details, or select **Close case** to close the case as needed.
 
-
-**Parent Topic:**[Track In-store operations cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-in-store-ops-track.md)
 

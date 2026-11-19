@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 14
 breadcrumb: [Forms, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -137,19 +137,29 @@ This field is carried forward to the **Approved end date** field of the Project 
 
 </td></tr><tr><td>
 
-Planned start date
+Start date
 
 </td><td>
 
 The preliminary or estimated date when the work is initially planned to begin. This date helps outline the intended timing for early demand planning and prioritization. You can set this date during initial demand creation or anytime in the planning phase when a rough idea forms. This date can be updated until the demand is officially approved. For example, you’re planning for a database upgrade to start on 2025-11-01.
 
+This date is changed to **Planned start date** when the demand is converted to a project.**Note:**
+
+-   When you change the planned start date of a demand or project, the associated cost plans and resource assignments also change. The **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property controls the behavior for a demand date change. This property isn’t enabled by default. For more information, see [Properties installed with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/r_InstalledWithProjectManagement.md).
+-   The **Start date** column label is changed to **Planned start date**. This change is applicable only for new customers who begin using the Zurich version. To ensure continuity, if you’re upgrading to the Zurich release from an earlier release, you’ll continue to see the prior labels.
+
 </td></tr><tr><td>
 
-Planned end date
+Due date
 
 </td><td>
 
 The preliminary or estimated date when the planned work is expected to be completed. This date provides an expected completion window for planning and stakeholder communication. You can set this date anytime in the planning phase when a rough idea forms and can be updated until the demand is officially approved.For example, you’re planning to complete the database upgrade by 2025-12-31.
+
+**Note:**
+
+-   The **Due date** column label is changed to **Planned end date**. This change is applicable only for new customers who begin using the Zurich version. To ensure continuity, if you’re upgrading to the Zurich release from an earlier release, you’ll continue to see the prior labels.
+-   This date is changed to **Planned end date** when the demand is converted to a project.
 
 </td></tr><tr><td>
 
@@ -583,6 +593,8 @@ The demand score is calculated based on the **risk**, **value**, and **size** at
 -   When the **risk** and **size** values are high, the score of the demand is low.
 -   When the **value** setting is high, the score of the demand is high.
 
+These scores are populated when the demand reaches the Qualified state.
+
 </td></tr><tr><td>
 
 Assessment Required
@@ -592,8 +604,6 @@ Assessment Required
 Option for enabling the assessments for the demand. This option is active by default. Only a demand manager can update this value when the demand is in the Draft or Submitted state.
 
  **Note:** If this option isn’t selected and you reset the demand to the Draft state, the option remains unselected.
-
-If smart assessments is enabled for the demand, this same field also determines whether a smart assessment is triggered when the demand reaches the Screening state. If this option isn't selected, the demand skips the assessment and moves directly to the Qualified state. For more information, see [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/smart-assessments-overview.md)
 
 </td></tr></tbody>
 </table>**Note:** The values in the **Value** and **Score** fields are updated when a cost plan, benefit plan, or resource assignment is created or updated for the Qualified or Approved demand. Updates stop after an artifact is created from the demand. Artifacts include projects, enhancements, defects, and changes.

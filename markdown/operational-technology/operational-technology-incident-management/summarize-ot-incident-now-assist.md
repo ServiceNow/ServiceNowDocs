@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use ServiceNow Otto for OT Service Management, Use, Operational Technology Incident Management, Operational Technology]
 ---
@@ -48,15 +48,15 @@ An OT incident summary provides you with a concise summary of an incident. The s
 
 6.  Manage the OT incident summary using the available options.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d49905e171">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d49272e169">
 
 Option
 
-</th><th align="left" id="d49905e174">
+</th><th align="left" id="d49272e172">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d49905e180">
+</th></tr></thead><tbody><tr><td id="d49272e178">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -67,7 +67,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d49905e207">
+</td></tr><tr><td id="d49272e205">
 
 **Expand or collapse the summary**
 
@@ -75,7 +75,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text:\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text:\) to view a collapsed summary.
 
-</td></tr><tr><td id="d49905e226">
+</td></tr><tr><td id="d49272e224">
 
 **Provide feedback for the summary**
 
@@ -83,7 +83,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text:\) to
 
 If the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text:\). If the summary wasn't helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text:\).**Note:** This feedback improves the generative AI model and can help improve future versions of this skill.
 
-</td></tr><tr><td id="d49905e247">
+</td></tr><tr><td id="d49272e245">
 
 **Copy the incident summary**
 
@@ -91,7 +91,7 @@ If the summary was helpful, select the helpful icon \(\[Omitted image "icon-help
 
 To reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text:\).
 
-</td></tr><tr><td id="d49905e262">
+</td></tr><tr><td id="d49272e260">
 
 **View the information about the incident summary**
 

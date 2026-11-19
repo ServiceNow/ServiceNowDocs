@@ -1,26 +1,22 @@
 ---
 title: Edit a certification policy
-description: Update an existing certification policy details.
+description: Update an certification existing policy details. You can edit the draft or inactive certification policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-data-cert-edit-policy.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-11-26"
 reading_time_minutes: 1
-breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Working with data certification, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Edit a certification policy
 
-Update an existing certification policy details.
+Update an certification existing policy details. You can edit the draft or inactive certification policies.
 
 ## Before you begin
 
-Role required: sn\_cmdb\_admin + sn\_apm.apm\_analyst
-
-## About this task
-
-You can edit the draft or inactive certification policies.
+Role required: System admin, cmdb admin + analyst
 
 ## Procedure
 

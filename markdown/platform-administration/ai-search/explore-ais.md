@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-28"
 reading_time_minutes: 2
-breadcrumb: [AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Exploring AI Search
@@ -44,8 +44,8 @@ AI Search supports indexing and search for all languages offered by the ServiceN
 AI Search is the default search engine for Unified Navigation searches in Next Experience, including global search and configurable workspace search.
 -   **[Deflect incidents in Service Portal with the AI Search Assist widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/explore-ais-assist-widget.md)**  
 Improve incident deflection for Service Portal users by displaying the most relevant search results within a record producer.
--   **[Search result disparities between AI Search and ServiceNow Otto search features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-disparities-ai-search-now-assist.md)**  
-The ServiceNow AI Platform® offers a variety of search tools, which may return different answers for the same or similar searches. This disparity in results is expected. It occurs because each tool uses a different approach and architecture to find results and generate answers that match your search.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-disparities-ai-search-now-assist.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-disparities-ai-search-now-assist.md)**  
+
 
 **Parent Topic:**[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/overview-ais.md)
 

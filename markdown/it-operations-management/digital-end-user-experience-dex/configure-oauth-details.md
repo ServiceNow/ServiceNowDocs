@@ -7,9 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Configure Open Authorization details
@@ -18,7 +18,7 @@ Edit the Open Authorization \(OAuth\) field values to update OAuth client applic
 
 ## Before you begin
 
-The SSO provider must be set up and configured in the instance.
+Verify that you have set up the SSO provider and configure it in the instance to ensure its functionality.
 
 Role required: sn\_dex\_desktop.admin
 
@@ -32,9 +32,9 @@ Role required: sn\_dex\_desktop.admin
 
     For a description of the field values, see [Application Registries form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/application-registries-form.md).
 
-4.  Customize the registry to skip the SSO screen when you log in to DEX Desktop Assistant:
+4.  Customize to avoid SSO Screen when logging in to DEX Desktop Assistant:
 
-    1.  Include `oauth_login.do` in the **Login URL** field.
+    1.  Include oauth\_login.do in the login\_url field.
 
     2.  Remove the client secret and save the page.
 

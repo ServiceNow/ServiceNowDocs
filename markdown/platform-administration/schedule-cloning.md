@@ -1,16 +1,16 @@
 ---
-title: Schedule recurring clones
+title: Schedule recurring clones \(legacy\)
 description: Schedule recurring clones to keep your cloned instances up to date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/schedule-cloning.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-10-02"
 reading_time_minutes: 1
-breadcrumb: [Manage, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Manage, Instance Clone, Configure core features, Administer]
 ---
 
-# Schedule recurring clones
+# Schedule recurring clones \(legacy\)
 
 Schedule recurring clones to keep your cloned instances up to date.
 
@@ -20,32 +20,70 @@ Role required: clone\_admin
 
 ## About this task
 
-Instead of manually cloning instances, you can schedule cloning that happens automatically. You create a cloning schedule in the same interface that you use to [create a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_StartAClone.md).
-
-**Note:** The system limits the number of future clones you can schedule at once. The following are the maximum allowed scheduled clones by frequency:
-
--   Every 4 weeks: 7 occurrences
--   Every 2 weeks: 13 occurrences
--   Weekly: 25 occurrences
+Instead of manually cloning instances, you can schedule cloning that happens automatically. You create a cloning schedule in the same interface that you use to [create a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_StartAClone.md). This topic assumes that you created a clone but not a cloning schedule for it.
 
 ## Procedure
 
-1.  Select **Clone Admin Console** &gt; **Request Clone**.
+1.  Select **Instance Clone** &gt; **Active Clones** &gt; **&lt;one-of-your-clones&gt;**.
 
-2.  Select your source instance and target instance for the clone.
+2.  If the Options panel isn't displayed, select the **Options** arrowhead so it turns downward.
 
-3.  Select a clone profile.
+    The **Options** panel appears.
 
-4.  Select the calendar icon \(\[Omitted image "clone-calendar.png"\]\).
+3.  A target instance must be selected or an error message appears.
 
-5.  Select a time slot for your instance to be cloned.
+4.  Select the **Conflict calendar** to view a calendar with the current clone time and potential conflicts if you want to schedule for a different time.
 
-6.  Select **Schedule**.
+    The conflict calendar appears in a new tab.\[Omitted image "schedule-conflict-calendar-new.png"\] Alt text: The schedule conflict calendar.
 
-7.  In the clone frequency option, select the frequency for your clone.
+5.  Enter values in the following fields to schedule automatic clones.
 
-8.  Enter the total number of clones to occur.
+<table id="choicetable_wdr_dfs_fhb"><thead><tr><th align="left" id="d297435e123">
 
-9.  Finish filling out the request form and select **Continue**.
+Field
 
+</th><th align="left" id="d297435e126">
+
+Description
+
+</th></tr></thead><tbody><tr><td id="d297435e132">
+
+**Clone frequency**
+
+</td><td>
+
+Defines how often this target automatically receives clone data and the maximum number of occurrences. -   Weekly – The maximum number of occurrences is 25.
+-   Twice a week – The maximum number of occurrences is 13.
+-   Monthly – The maximum number of occurrences is 7.
+
+</td></tr><tr><td id="d297435e162">
+
+**No. of occurrences**
+
+</td><td>
+
+Specify the number of clone requests. The maximum value you can enter depends on the value selected for the clone request in the **Clone Frequency** field.
+
+</td></tr></tbody>
+</table>6.  Select **Submit**.
+
+    The system displays the **Authenticate Target** modal.
+
+7.  Enter the **Username** and **Password** for an administrator account on the target instance and select **Authenticate**.
+
+8.  To see the cloning schedule for this target, select the **Recurring Clones** tab.
+
+    Each line in the list shows a separate, scheduled cloning session.
+
+9.  To see log messages for past clones on this target, select the **Clone Log** tab.
+
+10. To see cloning schedules for all the clones in the system, select **Instance Clone** &gt; **Live Clones** &gt; **Clone History**.
+
+    The **Instance Clones** page lists all the cloning instances in the system along with their scheduled clones.
+
+
+-   **[Cancel clone schedules \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/modify-cloning-schedule.md)**  
+Scheduled clones aren't able to be modified, you must cancel scheduled clones and make a new clone schedule.
+
+**Parent Topic:**[Managing Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/using-instance-clone.md)
 

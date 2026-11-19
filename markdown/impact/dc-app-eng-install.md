@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-app-eng-install.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for App Engine, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for App Engine, Impact Value Management data collection apps, Configuring Impact, Impact]
 ---
 
 # Install the Data Collection Content Pack for App Eng
@@ -36,6 +36,4 @@ Role required: Impact user
 
     See [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-install-plugins.md).
 
-
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-app-engine.md)
 

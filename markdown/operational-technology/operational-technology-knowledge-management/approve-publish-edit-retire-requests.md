@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Knowledge Management, Operational Technology]
 ---

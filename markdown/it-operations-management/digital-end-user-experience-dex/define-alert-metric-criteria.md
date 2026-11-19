@@ -7,10 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [metric alert criteria, alert severity, alert thresholds, network stability metrics, alert conditions]
-breadcrumb: [DEX metric rule creation, Managing alert rules, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Creating a metric rule, Alert rules, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Define alert criteria
@@ -27,7 +26,7 @@ Role required: sn\_dex.admin
 
 2.  Define the thresholds for the alert.
 
-    The predetermined metric types are based on the configuration item \(CI\).
+    The predetermined metrics types are based on the configuration item \(CI\).
 
 3.  Add another alert severity level by selecting **Add another alert severity**.
 
@@ -46,5 +45,5 @@ Role required: sn\_dex.admin
 
 ## What to do next
 
-For the next, optional step, see [Add an alert action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/add-alert-action.md).
+[Add an alert action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/add-alert-action.md) \(Optional\).
 

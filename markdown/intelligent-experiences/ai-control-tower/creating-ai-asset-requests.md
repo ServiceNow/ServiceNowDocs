@@ -7,12 +7,19 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-11-05"
 reading_time_minutes: 1
-breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Use, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Creating requests for AI assets
 
 You can manage deployed AI assets effectively by creating change requests for updates to existing assets or by creating offboarding requests for retiring assets.
+
+-   **[Create change requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-ai-asset-change-request.md)**  
+Create a change request to modify the relationships between a deployed AI asset and its related assets.
+-   **[Create offboarding requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-ai-asset-offboarding-request.md)**  
+Create an offboarding request to retire AI assets that are no longer needed.
+
+**Parent Topic:**[Using Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

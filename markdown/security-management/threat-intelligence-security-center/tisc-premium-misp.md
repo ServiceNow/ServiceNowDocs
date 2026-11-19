@@ -7,9 +7,8 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-05"
 reading_time_minutes: 3
-keywords: [MISP API feed, Malware Information Sharing Platform, custom feed, additional settings filters]
 breadcrumb: [View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 

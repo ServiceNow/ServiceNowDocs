@@ -7,9 +7,9 @@ release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer]
 ---
 
 # Modify dictionary entries
@@ -22,15 +22,13 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to the dictionary entry one of the following ways.
+1.  Do one of the following steps:
 
-    -   Navigate to a field on a form, right-click the field, and select **Configure Dictionary** or **Show &lt;field name&gt;**.
+    -   Navigate to a field on a form, right-click the field, and select **Configure Dictionary** or **Show &lt;field name&gt;**. The system dictionary entry for the field opens.
     -   Navigate to **System Definition** &gt; **Dictionary**, and click an entry for a field or table. Entries for tables have **Type** set to **Collection**.
-    The system dictionary entry opens.
-
 2.  Update the dictionary entry fields.
 
-3.  Select **Update**.
+3.  Click **Update**.
 
 
 -   **[Dictionary entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/r_DictionaryEntryForm.md)**  

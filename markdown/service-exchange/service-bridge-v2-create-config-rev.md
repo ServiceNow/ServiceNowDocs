@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Create configuration revisions
@@ -27,11 +27,11 @@ A configuration can be one of the following:
 
 **Note:** The following sections describe the various stages in the configuration revision life-cycle of a remote task definition. You can:
 
--   [Create a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-create-config-rev.md)
--   [Archive a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-create-config-rev.md)
--   [Retire a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-create-config-rev.md)
--   [Copy a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-create-config-rev.md)
--   [Delete a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-create-config-rev.md)
+-   [Create a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+-   [Archive a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+-   [Retire a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+-   [Copy a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+-   [Delete a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 
 You can follow the same process to create revisions for a remote record producer.
 

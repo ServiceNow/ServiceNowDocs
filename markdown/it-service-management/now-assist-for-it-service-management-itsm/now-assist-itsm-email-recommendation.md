@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -21,7 +21,7 @@ Generate an email as a recommendation based on the context of the incident using
 
 An admin must activate the email response skill. For more information, see [Configure email reply recommendation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-email-recommendation.md).
 
-Role required: itil
+Role required: itil, sn\_service\_desk\_agent
 
 ## About this task
 
@@ -38,15 +38,15 @@ As an agent, you can do these actions using the ServiceNow Otto icon:
 
 2.  Start composing an email using the More actions icon or from the activity stream.
 
-<table id="choicetable_gdb_tkm_pdc"><thead><tr><th align="left" id="d234448e125">
+<table id="choicetable_gdb_tkm_pdc"><thead><tr><th align="left" id="d228514e125">
 
 Method
 
-</th><th align="left" id="d234448e128">
+</th><th align="left" id="d228514e128">
 
 Instructions
 
-</th></tr></thead><tbody><tr><td id="d234448e134">
+</th></tr></thead><tbody><tr><td id="d228514e134">
 
 **Compose email using More actions icon\[Omitted image "now-assist-itsm-more-actions-icon.png"\] Alt text: More actions icon**
 
@@ -57,7 +57,7 @@ Instructions
 
 The ServiceNow Otto icon appears.
 
-3.  Select the ServiceNow Otto icon\[Omitted image "now-assist-sn-otto-dark-icon.png"\] Alt text:
+3.  Select the ServiceNow Otto icon. \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
 ServiceNow Otto creates an email response as a recommendation.
 
@@ -65,29 +65,29 @@ ServiceNow Otto creates an email response as a recommendation.
 
 Get an email response as a recommendation for the agent to ask more questions or sent notes to an end user.
 
-</td></tr><tr><td id="d234448e195">
+</td></tr><tr><td id="d228514e196">
 
 **Compose an email from Activity stream**
 
 </td><td>
 
 1.  In the activity stream, select an existing email that you want to reply to.
-2.  Position your cursor within the email message window to see the ServiceNow Otto icon \[Omitted image "now-assist-sn-otto-dark-icon.png"\] Alt text: ServiceNow Otto icon.
-3.  Select the ServiceNow Otto icon \[Omitted image "now-assist-sn-otto-dark-icon.png"\] Alt text: ServiceNow Otto icon to get an email response as a recommendation. This is for the agent to ask more questions or sent notes to an end user.
+2.  Position your cursor within the email message window to see the ServiceNow Otto icon \[Omitted image "now-assist-sn-otto-dark-icon.png"\] Alt text: Otto icon.
+3.  Select the ServiceNow Otto icon \[Omitted image "now-assist-sn-otto-dark-icon.png"\] Alt text: Otto icon to get an email response as a recommendation for the agent to ask more questions or sent notes to an end user.
 
 
 </td></tr></tbody>
-</table>3.  In the email message window, either type a response or leave it empty, and then select the ServiceNow Otto \[Omitted image "now-assist-sn-otto-dark-icon.png"\] Alt text: ServiceNow Otto icon icon.
+</table>3.  In the email message window, either type a response or leave it empty, and then select the ServiceNow Otto \[Omitted image "now-assist-sn-otto-dark-icon.png"\] Alt text: Otto icon icon.
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d234448e252">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d228514e253">
 
 Email message window
 
-</th><th align="left" id="d234448e255">
+</th><th align="left" id="d228514e256">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d234448e264">
+</th></tr></thead><tbody><tr><td id="d228514e265">
 
 **Typed response**
 
@@ -97,7 +97,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d234448e281">
+</td></tr><tr><td id="d228514e282">
 
 **Left blank**
 

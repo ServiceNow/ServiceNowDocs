@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Old inbound integrations experience, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -35,7 +35,7 @@ Generate a JWT with the following claims at the client side:
 
 Since using the JWT grant type doesn’t include the password in the request, it enables a greater security between web services. For example, you can develop an external application and use tokens to authenticate inbound requests to your ServiceNow instance.
 
-Role required: oauth\_admin
+Role required: admin
 
 For more information about JSON Web Tokens, see [https://jwt.io/](https://jwt.io/).
 
@@ -113,7 +113,7 @@ Accessible from
 
 </td><td>
 
-Cross-scope access policy. For more information, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationAccessSettings.md).
+Cross-scope access policy. For more information, see Application access settings.
 
 </td></tr><tr><td>
 
@@ -182,7 +182,7 @@ Client Type
 Choose the client type, based on the type of your client. Options:-   **iframe Embedded**
 -   **Integration as a User**
 -   **Integration as a Service**
-To know more, see [Client type configuration for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/client-type.md).
+To know more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/client-type.md).
 
 </td></tr></tbody>
 </table>    4.  Save the form.

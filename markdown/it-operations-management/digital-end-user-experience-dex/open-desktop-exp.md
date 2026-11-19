@@ -7,9 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Desktop Assistant, Solve issues, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Desktop Assistant, Digital End-User Experience, IT Operations Management]
 ---
 
 # Open and log in to Desktop Assistant
@@ -18,15 +18,15 @@ Open and log in to Desktop Assistant to get quick access to self-service tools, 
 
 ## Before you begin
 
--   DEX Desktop Assistant \[sn\_dex\_desktop\] application must be installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/download-desktop-experience.md).
+-   Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
--   The OAuth registry record for Desktop Assistant must be active.
+-   Confirm that the OAuth registry record for Desktop Assistant is active.
 
 Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
 ## Procedure
 
-1.  From your system tray, select and hold \(or right-click\) the Desktop Assistant icon \[Omitted image "icon-desktop-exp.png"\] Alt text:, and then select **Open**.
+1.  From your system tray, select and hold or select and hold \(or right-click\) the Desktop Assistant icon \[Omitted image "icon-desktop-exp.png"\], and then select **Open**.
 
 2.  Update the instance URL.
 
@@ -40,7 +40,7 @@ Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
 4.  Log in to Desktop Assistant.
 
-    -   When single sign-on \(SSO\) is not enabled:
+    -   When Single Sign-On \(SSO\) is not enabled:
 
         1.  Enter the user name and password for the instance in the **User name** and **Password** field.
         2.  If you can't remember your login details, select **Forgot password** to reset your password.
@@ -55,7 +55,7 @@ Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
             You’re redirected to the SSO login screen.
 
-        4.  Enter your login credentials and log in.
+        4.  Enter your login credentials and sign in.
         5.  Select **Allow** to grant Desktop Assistant permission to connect to your ServiceNow account.
 
 -   If you see an application version incompatibility error when opening Desktop Assistant, contact your administrator.

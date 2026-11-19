@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/column-filters-in-lists.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-03"
 reading_time_minutes: 2
 breadcrumb: [List visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/user-search-analyser.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # User search analyzer

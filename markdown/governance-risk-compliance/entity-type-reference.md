@@ -1,20 +1,20 @@
 ---
-title: Entity type record form
-description: Use the Entity type new record form to create an entity type depending on your business requirement.
+title: Entity Type New record form
+description: Use the Entity Type New record form to create an entity type depending on your business requirement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/entity-type-reference.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Set up pillars and entity types from Workspace UI, Setting up pillars, entity types, and entities, Configure, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Configuring entity types and entity filters, Set up pillars, entity types, and generate entities, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Entity type record form
+# Entity Type New record form
 
-Use the Entity type new record form to create an entity type depending on your business requirement.
+Use the Entity Type New record form to create an entity type depending on your business requirement.
 
-## Entity type record form
+## Entity Type New record form
 
 For a description of the field values, see the following table.
 

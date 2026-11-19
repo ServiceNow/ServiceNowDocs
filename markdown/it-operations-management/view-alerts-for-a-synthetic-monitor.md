@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/view-alerts-for-a-synthetic-monitor.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-09-02"
 reading_time_minutes: 1
-breadcrumb: [Identifying system issues with synthetic monitoring, Synthetic monitoring, ITOM AIOps, IT Operations Management]
+breadcrumb: [Identify system issues with Synthetic monitoring, Landing page, ITOM AIOps, IT Operations Management]
 ---
 
 # View alerts for a synthetic monitor

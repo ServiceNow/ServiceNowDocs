@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-11-02"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring ServiceNow AI settings, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring ServiceNow AI settings, Configure, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Configuring data controls
@@ -36,7 +36,7 @@ For details on how ServiceNow processes this data, see the [Data Processing FAQ 
 -   **[Opt out of data sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configure-opt-out-data-sharing.md)**  
 Stop your instance from contributing data that ServiceNow uses to improve its AI models and products.
 -   **[Change the data overflow processing setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configure-data-overflow.md)**  
-Keep all ServiceNow Otto traffic in ServiceNow datacenters by opting out of data overflow processing, or opt back in to restore bursting to Microsoft Azure during traffic spikes.
+Keep AI traffic in ServiceNow datacenters by opting out of data overflow processing, or opt back in to restore bursting to Microsoft Azure during traffic spikes.
 
 **Parent Topic:**[Configuring ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring-servicenow-ai-settings.md)
 

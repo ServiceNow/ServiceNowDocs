@@ -1,5 +1,5 @@
 ---
-title: Automatic AI case and inquiry creation from inbound email
+title: Automatic creation of AI cases and inquiries from inbound email
 description: The system automatically creates AI cases and inquiries from inbound emails using keywords in the subject line and body based on configured email intake settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/automatic-creation-cases-inquiries-from-email.html
@@ -7,13 +7,12 @@ release: zurich
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-keywords: [email-based AI case intake, automatic case creation, inbound email]
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
-# Automatic AI case and inquiry creation from inbound email
+# Automatic creation of AI cases and inquiries from inbound email
 
 The system automatically creates AI cases and inquiries from inbound emails using keywords in the subject line and body based on configured email intake settings.
 
@@ -51,13 +50,4 @@ When an inbound email is processed, information from the email is used to popula
 -   The email body populates the **Description** field.
 -   Email attachments are included and linked to the record.
 -   For AI cases, the **Source** field is set to **Email**.
-
-**Related topics**  
-
-
-[Configure email-based intake for AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/config-cases-inquiries-from-email.md)
-
-[AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md)
-
-[Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/airc_email_notifications.md)
 

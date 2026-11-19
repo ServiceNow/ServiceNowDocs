@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: task
 last_updated: "2026-10-02"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Agent Advisor]
-breadcrumb: [Setting up automation opportunity discovery, Configure, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Setting up automation opportunity discovery, Configure, AI Agent Advisor, Enable AI experiences]
 ---
 
 # Set up a data source for analysis\(Next Experience UI\)
@@ -121,8 +121,20 @@ View your automation opportunities on the home page. For more information, see [
 
 **Parent Topic:**[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-automation-discovery-setup.md)
 
+**Parent Topic:**[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-automation-discovery-setup.md)
+
 **Related topics**  
 
+
+[Set up a data source for analysis \(Lux UI\)]()
+
+[Edit an analysis data source]()
+
+[Deactivate an analysis data source]()
+
+[Delete an analysis data source]()
+
+[Activate a deactivated analysis data source]()
 
 [Set up a data source for analysis \(Lux UI\)]()
 

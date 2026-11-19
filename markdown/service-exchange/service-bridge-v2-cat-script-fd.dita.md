@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Reference, Service Exchange]
+breadcrumb: [Create catalog client scripts, Adding or creating scripts to a RRP, Use for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Catalog client script new record form

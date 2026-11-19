@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-09-30"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Configuring goals in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ When you rename the label for the Goal \[sn\_gf\_goal\] and Target \[sn\_gf\_goa
 
 2.  Customize the label name for the tables according to your requirement.
 
-<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d125636e91">
+<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d121643e89">
 
 For this table
 
-</th><th align="left" id="d125636e94">
+</th><th align="left" id="d121643e92">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d125636e100">
+</th></tr></thead><tbody><tr><td id="d121643e98">
 
 **Goal**
 
@@ -49,7 +49,7 @@ Perform these steps
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d125636e130">
+</td></tr><tr><td id="d121643e128">
 
 **Target**
 
@@ -63,9 +63,4 @@ Perform these steps
 </td></tr></tbody>
 </table>
 **Parent Topic:**[Configuring goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configuring-goal-framework-apw.md)
-
-**Related topics**  
-
-
-[Change the number prefix for goals and targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/change-number-prefix-goals-targets-spw.md)
 

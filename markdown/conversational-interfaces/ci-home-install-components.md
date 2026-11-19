@@ -1,16 +1,18 @@
 ---
-title: \(Legacy\) Installing Conversational Interfaces NLU components
+title: Installing Conversational Interfaces components
 description: Use the Conversational Interfaces Home page to install Virtual Agent and related plugins. Once installed, select a card to customize your bot or set up Agent Chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/ci-home-install-components.html
 release: zurich
+product: Conversational Interfaces
+classification: conversational-interfaces
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-10-08"
 reading_time_minutes: 2
-breadcrumb: [Configure NLU, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
+breadcrumb: [Conversational Interfaces Console, Conversational Interfaces]
 ---
 
-# \(Legacy\) Installing Conversational Interfaces NLU components
+# Installing Conversational Interfaces components
 
 Use the Conversational Interfaces Home page to install Virtual Agent and related plugins. Once installed, select a card to customize your bot or set up Agent Chat.
 
@@ -24,7 +26,7 @@ If you've never installed Virtual Agent, the Conversational Interfaces console p
 
 -   **Get pre-built bot topics**
 
-    Activate plugins that provide the pre-built topic conversations you want to use to handle common user requests. For example, IT-related support issues, such as resetting a password or HR-related issues such as requesting a leave of absence. For more information, see [\(Legacy\) Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/prebuilt-topics-ITSM.md).
+    Activate plugins that provide the pre-built topic conversations you want to use to handle common user requests. For example, IT-related support issues, such as resetting a password or HR-related issues such as requesting a leave of absence. For more information, see [Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md).
 
     \[Omitted image "ci-home-plugins.png"\] Alt text: After you install Virtual Agent, you can choose pre-built topic plugins to handle your user requests. Options include IT Service Management, Customer Service Management, and HR Service Delivery plugins.
 
@@ -58,7 +60,7 @@ If you've never installed Virtual Agent, the Conversational Interfaces console p
 
     If you have installed a Now Assist product, you can use the guided setup to install Now Assist in Virtual Agent. You can then activate the Now Assist Topics skill and create Virtual Agent topics that use LLM discovery. Select **Get started** to use the guided setup.
 
-    For more information, see [Exploring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/exploring-virtual-agent.md).
+    For more information, see [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
 
     \[Omitted image "ci-home-nava-llm.png"\] Alt text: If Now Assist is installed, you have the option to install Now Assist in Virtual Agent on the home page.
 

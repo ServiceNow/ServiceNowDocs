@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage control objective, Manage control objectives and policies, Use, GRC Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create a control objective using the Compliance Workspace
@@ -24,13 +24,9 @@ Role required: sn\_compliance.admin, sn\_compliance.manager, sn\_compliance.user
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the \[Omitted image "ws-list-icon.png"\] Alt text: List icon icon.
+2.  Click the **Create** list and select **Control objective**.
 
-3.  Navigate to **Compliance library** &gt; **Control objectives**.
-
-4.  Click the **Create** list and select **Control objective**.
-
-5.  On the form, fill in the fields.
+3.  On the form, fill in the fields.
 
 <table id="table_FloorForm"><thead><tr><th>
 
@@ -106,6 +102,20 @@ Creates controls automatically
 </td><td>
 
 Option that indicates that controls are automatically created from the control objective. **Note:** Select this option if the control objective can also serve as the control.
+
+</td></tr><tr><td>
+
+Create control requirements
+
+</td><td>
+
+Option to generate control requirements automatically for every control generated under an entity.
+
+**Note:**
+
+-   If no control objective requirements exist, then no control requirements are generated.
+-   The number of control requirements equals the number of control objective requirements.
+
 
 </td></tr><tr><td>
 
@@ -212,7 +222,7 @@ Description
 Description of the control objective.
 
 </td></tr></tbody>
-</table>6.  Click **Save**.
+</table>4.  Click **Save**.
 
     To view and manage the details of the control objective that you created, see [Manage a control objective from the overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-compliance-management-workspace/co-overview-pc-ws.md).
 
@@ -220,7 +230,7 @@ Description of the control objective.
 
     -   A control is created for every control objective when a policy is associated with an entity.
     -   The control attributes default to the same attributes as the related control objective.
-7.  From the **Overview** page, click the **More** tabs and select **Issues** tab.
+5.  From the **Overview** page, click the **More** tabs and select **Issues** tab.
 
     You can add existing one or more related issues to the control objective that you created. By mapping the existing issues to the control objective, you can reduce the count of open issues on the control objective.
 

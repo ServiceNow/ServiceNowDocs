@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Improve resource usage with Business hours, Use, Cloud Cost Management, IT Asset Management, Asset Management]
+breadcrumb: [Improve resource usage with Business hours, Use, Cloud Cost Management, IT Asset Management]
 ---
 
 # Create Business hours schedule
@@ -18,11 +18,9 @@ Create and apply a Business hours schedule to the cloud resources for enforcing 
 
 ## Before you begin
 
+**Important:** Starting with Cloud Cost Management v11.0.0, the `sn_change_write` role is no longer inherited by the insights\_admin and insights\_owner roles. Both roles now inherit the `sn_change_read` role instead. As a result, users with these roles can view change requests that are created when a recommendation is scheduled, but they can't create change requests directly. To schedule recommendations, configure a change creator user before using the Recommendations module. For more information, see [Configure a change creator user for Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/configure-change-creator-ccm.md).
+
 Role required: insights\_admin or insights\_owner
-
-## About this task
-
-**Important:** Starting with Cloud Cost Management v11.0.0, the `sn_change_write` role is no longer inherited by the insights\_admin and insights\_owner roles. Both roles now inherit the `sn_change_read` role instead. As a result, users with these roles can view change requests that are created when a recommendation is scheduled, but they can't create change requests directly. To schedule recommendations, configure a change creator user before using the Recommendations module. For more information, see.
 
 ## Procedure
 

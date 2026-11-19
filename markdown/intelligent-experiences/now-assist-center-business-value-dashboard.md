@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-05"
 reading_time_minutes: 7
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, business value]
-breadcrumb: [View AI assets usage and performance \(Next Experience UI\), Monitor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [View AI assets usage and performance \(Next Experience UI\), Monitor, AI Admin Center, Enable AI experiences]
 ---
 
 # AI Admin Center Business Value dashboard\(Next Experience UI\)

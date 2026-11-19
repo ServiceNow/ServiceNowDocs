@@ -1,26 +1,26 @@
 ---
 title: Focus the Navigator panel on an app or app file
-description: Focus the Navigator panel on any open app or app file in ServiceNow Studio so the Navigator panel reflects your current work context.
+description: Streamline your work by focusing the Navigator panel on an open app or app file in ServiceNow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/qs-focus-navigator-panel-on-app-app-file.html
 release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Focus the Navigator panel on an app or app file
 
-Focus the Navigator panel on any open app or app file in ServiceNow Studio so the Navigator panel reflects your current work context.
+Streamline your work by focusing the Navigator panel on an open app or app file in ServiceNow Studio.
 
 ## Before you begin
 
 Role required: admin or delegated\_developer
 
-Watch a short video on how to focus the Navigator panel on an app or app file.
+You can also watch this short video on how to focus the navigator panel on an app or app file.
 
 \[Omitted video\] Description: Video on how to focus the Navigator panel on an app or app file in ServiceNow Studio
 
@@ -28,20 +28,20 @@ Watch a short video on how to focus the Navigator panel on an app or app file.
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Open several files from different applications in the Navigator panel.
+2.  From the Navigator panel, open several different files from different applications.
 
-3.  Select and hold \(or right-click\) the tab of the file you want to focus on, then select **Show in Navigator**.
+3.  Select and hold \(or right-click\) the integrated tab of the file you want to open in the Navigator panel, and select **Show in File Navigator**.
 
-    In this example, the file open in the canvas and the Navigator panel are both from the Event Management application. Focus the Navigator panel on the Welcome flow from the College Asset Tracking application.
+    Notice in this example how the file open in the canvas and the Navigator panel are from the Damaged Order Replacement application.
 
     \[Omitted image "sn-studio-focus-navigator.png"\] Alt text: Several files are open, and you can select Show in File Navigator to focus the Navigator panel on that file.
 
-4.  Verify that the Navigator panel now shows the selected file.
+4.  View the opened file in the Navigator panel.
 
-    The Navigator panel displays the selected file's location — for example, the **Welcome flow** from the College Asset Tracking application — even with other application files still open.
+    Notice how the Navigator panel now shows the **Notes** form section from the Free Donut Fridays application, even with all the other application files still open.
 
-    **Note:** The file open in the canvas stays the same until you select a different tab.
+    **Note:** The file open in the canvas stays the same until you move away from that tab.
 
-    \[Omitted image "sn-studio-focus-nav-2.png"\] Alt text: The focused file displayed in the Navigator panel.
+    \[Omitted image "sn-studio-focus-nav-2.png"\] Alt text: See the focused file in the Navigator panel.
 
 

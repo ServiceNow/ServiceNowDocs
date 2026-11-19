@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/sn-store-tncs.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Getting apps, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Getting apps, ServiceNow Store, Administering applications, Get started, Administer]
 ---
 
 # Terms and conditions in the ServiceNow Store

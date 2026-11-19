@@ -5,38 +5,32 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/library\_functions.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-10-08"
 reading_time_minutes: 1
-breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Library functions
 
 Library functions can speed implementation and reduce maintenance costs by enabling code reuse across rules.
 
-Library functions enable efficient code reuse across rules and enrichments. They are designed to minimize redundant logic, speed up implementation, and reduce maintenance costs, especially in complex scenarios that involve high-SKU or physics-driven configurations.
+Library functions enable efficient code reuse across rules and enrichments. They are designed to minimize redundant logic, speed up implementation, and reduce maintenance costs, especially in complex scenarios involving high-SKU or physics-driven configurations.
 
 ## Attributes and capabilities
 
-Centralized management: Search and manage library functions through a dedicated UI.
+Reusable and namespaced: defined once and invoked using `fn.functionName(params)`.
 
-Reusable and namespaced: Define a library function once and invoke it using `fn.functionName(params)`.
+Parameter management: define input parameters with data types and default values.
 
-Configurable parameters: Define input parameters with data types and default values. Parameter schemas can be modified post-creation, allowing flexibility in managing function inputs.
+Output handling: specify return types.
 
-Customized output: Specify return types.
+Centralized management: searchable and manageable through a dedicated UI. Callable across modules: available in both the configurator and Transaction Manager.
 
-Callable across modules: Library functions are callable in both the configurator and ServiceNow Quote Experience.
-
-Managed table queries: Library functions support managed table lookups.
+Managed table queries: supports managed table lookups in functions.
 
 ## Enabling library functions
 
-Submit a support ticket to enable library functions.
-
-**Note:** Submit a support ticket by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
-
-Once library functions are enabled, turn on the new UI by navigating to **Utilities** &gt; **Settings** &gt; **Admin Version** &gt; **New**, and clicking **Save**.
+Submit a support ticket to enable library functions. Once the support ticket is completed, enable the new UI by navigating to Utilities &gt; Settings &gt; Admin Version &gt; New, and clicking **Save**.
 
 This setting can be toggled at any time.
 
@@ -72,15 +66,14 @@ Calling the function:
 
 \[Omitted image "cpq-library-functions-calling-the-function.png"\] Alt text: Code
 
-## Limitations
+## Limitations and technical considerations
 
+-   Functions must be free of side effects, external calls, and Logik field references.
 -   Recursive calls are not supported.
 -   External API calls and async operations are not supported.
+-   Enrichments are not supported.
 -   Parameters are passed by copy, not by reference.
--   Functions must be free of side effects, external calls, and ServiceNow CPQ field references.
-
-## General guidelines
-
+-   Parameter schemas can be modified post-creation, allowing flexibility in managing function inputs.
 -   When a library function changes, redeploy the affected blueprints.
--   When defining a function, name and describe its inputs to provide visibility into its usage.
+-   Provide function visibility into function usage before edits.
 

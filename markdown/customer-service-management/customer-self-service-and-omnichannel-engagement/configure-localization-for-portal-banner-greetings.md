@@ -7,7 +7,7 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-10-27"
 reading_time_minutes: 1
 breadcrumb: [Portal Banner widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ Configure the portal banner heading instance option to support localization and 
 
 ## Before you begin
 
-Role required: sp\_admin
+Role required: admin
 
 ## About this task
 

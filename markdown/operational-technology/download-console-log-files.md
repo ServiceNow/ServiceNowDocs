@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/download-console-log-files.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Settings page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Download Console log files
@@ -25,15 +25,15 @@ To download these logs, do the following.
 -   In the drop-down field, select one of the date settings.
     -   **Today**
 
-        \[Omitted image "log-download-today.png"\] Alt text: Download Today's logs
+        \[Omitted image "image.log-download-today"\] Alt text: Download Today's logs
 
     -   **Date range**
 
-        \[Omitted image "log-download-range-date.png"\] Alt text: Date range
+        \[Omitted image "image.log-download-range-date"\] Alt text: Date range
 
     -   **Custom date**
 
-        \[Omitted image "log-download-custom-date.png"\] Alt text: Custom date
+        \[Omitted image "image.log-download-custom-date"\] Alt text: Custom date
 
 -   Select **Download Logs** to download a compressed zip file of all log files.
 
@@ -42,6 +42,4 @@ To download these logs, do the following.
 The Console has an early access capability for retrieving Sensor logs. Currently, accessing these logs requires deep technical expertise of the system. Leave this feature inactive unless directed to enable from Customer Service and Support.
 
 If you have questions or need assistance, [contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
-
-**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/settings-page-console.md)
 

@@ -7,9 +7,8 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-keywords: [desktop assistant components, desktop assistant roles, desktop assistant administrator role, desktop assistant user role, desktop assistant tables, desktop assistant card table, desktop assistant section table, desktop assistant tab table, desktop assistant installation table]
 breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
@@ -25,11 +24,11 @@ Role title \[name\]
 
 </th><th>
 
-Contains roles
+Description
 
 </th><th>
 
-Description
+Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
@@ -37,11 +36,11 @@ Desktop Assistant administrator\[sn\_dex\_desktop.admin\]
 
 </td><td>
 
-sn\_dex\_desktop.user
+Responsible for managing configurations and resolving any issues that may arise within the application.
 
 </td><td>
 
-Responsible for managing configurations and resolving any issues that may arise within the application.
+sn\_dex\_desktop.user
 
 </td></tr><tr><td>
 
@@ -49,12 +48,12 @@ Desktop Assistant user\[sn\_dex\_desktop.user\]
 
 </td><td>
 
--   sn\_incident\_read
--   sn\_change\_read
+Responsible for using Desktop Assistant. They do not have the ability to configure any items within the application.
 
 </td><td>
 
-Responsible for using Desktop Assistant. Users with this role can't configure any items within the application.
+-   sn\_incident\_read
+-   sn\_change\_read
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -105,7 +104,7 @@ Desktop Assistant App to Tab Mapping\[sn\_dex\_desktop\_app\_to\_tab\_mapping\]
 
 </td><td>
 
-Records a mapping between the application and its tabs.
+Records a mapping between application and tabs.
 
 </td></tr><tr><td>
 
@@ -153,7 +152,7 @@ Tab to Section Mapping\[sn\_dex\_desktop\_tab\_to\_section\_mapping\]
 
 </td><td>
 
-Specifies all the sections within a page in a tab content.
+Specifies all the sections with in a page in a tab content.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)

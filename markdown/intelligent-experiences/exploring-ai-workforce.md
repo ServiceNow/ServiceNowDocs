@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/exploring-ai-workforce.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-13"
+last_updated: "2026-08-11"
 reading_time_minutes: 5
 keywords: [explore, autonomous workforce, AI specialist, AI agents, service desk]
-breadcrumb: [Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
 
 # Exploring Autonomous Workforce
@@ -80,11 +80,11 @@ Autonomous Workforce provides specific benefits in your organization.
 
 To learn more about configuring and using Autonomous Workforce, see:
 
--   [Edit the profile of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/modify-aiw-profile-new.md)
--   [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/modify-aiw-tasks-new.md)
--   [Preview an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/test-aiw-ais-new.md)
--   [View the activity of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/view-aiw-activity-new.md)
--   [Review the performance of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/view-aiw-performance-new.md)
+-   [Edit the profile of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/modify-aiw-profile.md)
+-   [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/modify-aiw-tasks.md)
+-   [Preview an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/test-aiw-ais.md)
+-   [View the activity of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/view-aiw-activity.md)
+-   [Review the performance of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/view-aiw-performance.md)
 
 ## Related products
 

@@ -1,6 +1,6 @@
 ---
-title: CMDB 360 experience in CMDB Workspace and in Service Graph Workspace
-description: The CMDB 360 view in CMDB Workspace and in Service Graph Workspace provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify Potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reports to explore CMDB data.
+title: CMDB 360 experience in CMDB Workspace
+description: The CMDB 360 view in CMDB Workspace provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify Potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reports to explore CMDB data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.html
 release: zurich
@@ -9,14 +9,14 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [CMDB 360, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB 360/Multisource CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# CMDB 360 experience in CMDB Workspaceand in Service Graph Workspace
+# CMDB 360 experience in CMDB Workspace
 
-The CMDB 360 view in CMDB Workspaceand in Service Graph Workspace provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify Potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reports to explore CMDB data.
+The CMDB 360 view in CMDB Workspace provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify Potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reports to explore CMDB data.
 
-Use the CMDB 360 view in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or the CMDB 360 insights page in , to access all of the CMDB 360 capabilities. For information about all CMDB 360 dashboard settings, see [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+Use the CMDB 360 view in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) to access all of the CMDB 360 capabilities. For information about all CMDB 360 dashboard settings, see [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
 
 **Note:** Most cards on the CMDB 360 dashboard support non-CMDB tables in their aggregation, or can be configured to provide support. However, the CIs not reported by discovery sources card, for example, doesn't apply to non-CMDB tables. Creating queries for non-CMDB tables is also supported. For information about support for non-CMDB tables, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
 
@@ -27,10 +27,7 @@ Requirements:
 -   Role required: sn\_cmdb\_user \(CMDB user\) or any role containing sn\_cmdb\_user
 -   Additional requirement: [Enable and configure CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
 
-To access the CMDB 360 experience:
-
--   In Service Graph Workspace: Navigate to **Workspaces** &gt; **Service Graph Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
--   In CMDB Workspace: Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
+Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **CMDB 360**.
 
 ## Potential issues
 

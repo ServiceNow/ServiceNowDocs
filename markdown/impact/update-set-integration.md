@@ -1,44 +1,35 @@
 ---
-title: Configure update set integration
-description: Synchronize update set scan results from the instance where you run the scan to production and the other instances in the integration.
+title: Update set integration
+description: Scans performed on update sets automatically sync from Developer to Production instances defined in My SN Instances once the update set scan is marked complete.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/update-set-integration.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-27"
+last_updated: "2025-11-18"
 reading_time_minutes: 1
-breadcrumb: [Deployment and synchronization integrations, Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Deployment and synchronization integrations, Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
 ---
 
-# Configure update set integration
+# Update set integration
 
-Synchronize update set scan results from the instance where you run the scan to production and the other instances in the integration.
+Scans performed on update sets automatically sync from Developer to Production instances defined in **My SN Instances** once the update set scan is marked complete.
 
 ## Before you begin
 
-My SN Instances registration and authentication must be complete. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/register-your-instance.md).
+Role required: admin
 
-Roles required: `sn_se.scan_engine_user` for the scanning user, or `sn_se.scan_engine_admin` if that user also manages definitions. The account that receives the summary sync requires `sn_se.internal_rest_integration`.
+Register your instances.
+
+See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/register-your-instance.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
+1.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
 
-2.  Select the **Update Set Scanning** properties tab.
+    For more information, see [Configure update set scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/update-set-scanning-properties.md).
 
-3.  Select **Enable update set summary scan synchronization** on each instance whose update set scan data you want to share.
+2.  Select the **Update set scanning** properties tab, and then configure the settings.
 
-    The setting is read-only on production.
+3.  Select **Enable update set summary scan synchronization** to automatically sync update set scans between instances.
 
-
-## Result
-
-Update set scan results from each enabled instance sync to the Production instance and to all other instances in the integration, so you can check results from any instance.
-
-**Parent Topic:**[Deployment and synchronization integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/deployment-sync-integrations.md)
-
-**Related topics**  
-
-
-[Configure AES/AEMC integration properties]()
 

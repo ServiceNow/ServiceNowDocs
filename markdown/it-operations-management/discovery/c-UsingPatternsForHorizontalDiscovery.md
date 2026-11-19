@@ -7,8 +7,8 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 10
+last_updated: "2025-07-31"
+reading_time_minutes: 9
 breadcrumb: [Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -28,8 +28,6 @@ This topic assumes you understand the phases of horizontal discovery. If you nee
 A pattern performs the same function as a probe: it identifies and explores a target CI. Discovery uses patterns only during the last two phases of discovery: Identification and Exploration.
 
 When you kick off horizontal discovery with patterns, the Scanning and Classification phases run as they would if you were not using patterns \(only using probes and sensors\). After the Classification stage completes, Discovery looks at the trigger probes on the classifier to see which probe to launch. When the **Horizontal Pattern** probe is specified as a trigger probe, Discovery launches both the **Horizontal Pattern** probe and the pattern that it specifies.
-
-**Important:** Discovery now enforces code signing for Horizontal Pattern probes, probe parameters, and sensors when code signing is enabled on the instance. Unsigned or tampered payloads are blocked, and signatures are validated before execution. For more information about code signing, see [Discovery on Code Signing instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/code-sign-disco-probes.md).
 
 ## Differences between probes and patterns
 

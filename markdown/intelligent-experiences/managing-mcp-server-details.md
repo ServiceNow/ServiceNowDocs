@@ -1,20 +1,20 @@
 ---
 title: Managing MCP server records
-description: Learn about the MCP server record, including the MCP server overview and details available in AI Control Tower.
+description: Learn about the MCP server record, including the MCP server overview and details available in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/managing-mcp-server-details.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-04"
 reading_time_minutes: 4
-breadcrumb: [Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Working with MCP server records, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Managing MCP server records
 
-Learn about the MCP server record, including the MCP server overview and details available in AI Control Tower.
+Learn about the MCP server record, including the MCP server overview and details available in Control Tower.
 
-An MCP server record in AI Control Tower provides a detailed view of a registered MCP server. The record shows the server's identity, connectivity configuration, AI Gateway integration details, lifecycle stage, and risk and compliance posture. Use the record to monitor server health, manage authorization, and apply governance controls.
+An MCP server record in Control Tower provides a detailed view of a registered MCP server. The record shows the server's identity, connectivity configuration, AI Gateway integration details, lifecycle stage, and risk and compliance posture. Use the record to monitor server health, manage authorization, and apply governance controls.
 
 ## MCP server Overview
 
@@ -27,7 +27,7 @@ The Key details panel on the Overview tab displays the primary identity and conn
 |Field|Description|
 |-----|-----------|
 |Asset tag|The unique ID assigned to this asset. Each asset tag consists of a type prefix followed by a 20-digit number.|
-|Name|The display name of the MCP server as registered in AI Control Tower.|
+|Name|The display name of the MCP server as registered in Control Tower.|
 |Description|A free-text description of the MCP server’s purpose, capabilities, or usage context.|
 |Lifecycle phase|The current lifecycle stage of the MCP server. Reflects the phase selected during registration or updated through the Lifecycle tab.|
 |Asset type|The classification of this record. Always MCP server for records of this type.|
@@ -92,18 +92,18 @@ The tab is divided into two main panels displayed side by side:
 
 ## Details panel
 
-The Details panel displays the governance attributes and system-generated timestamps for the MCP server. These fields reflect the server’s current state in the AI Control Tower governance framework.
+The Details panel displays the governance attributes and system-generated timestamps for the MCP server. These fields reflect the server’s current state in the Control Tower governance framework.
 
 |Field|Description|
 |-----|-----------|
-|Name|The display name of the MCP server as registered in AI Control Tower.|
+|Name|The display name of the MCP server as registered in Control Tower.|
 |Managed status|Indicates whether the MCP server is under active AI governance. Possible values are Managed and Unmanaged. A managed server is subject to approval workflows, policy enforcement, and audit logging.|
 |Asset type|The classification of this record. Always MCP server for records of this type.|
 |Managed by|The ServiceNow user responsible for governing this MCP server. This is the designated AI steward or asset owner.|
 |State|The current lifecycle stage of the MCP server. For example: Deployed. Reflects the phase set during registration or updated through the Lifecycle tab.|
 |Status|The approval status of the MCP server in the governance workflow.|
 |Risk classification|The assessed risk level of the MCP server. For example: To be determined. This value remains as To be determined until a formal risk assessment is completed through the Risk &amp; compliance tab.|
-|Created|The date and time the MCP server record was created in AI Control Tower. This field is system-generated and read-only.|
+|Created|The date and time the MCP server record was created in Control Tower. This field is system-generated and read-only.|
 |Updated|The date and time the MCP server record was last modified. This field is system-generated and read-only.|
 
 ## Available MCP tools panel

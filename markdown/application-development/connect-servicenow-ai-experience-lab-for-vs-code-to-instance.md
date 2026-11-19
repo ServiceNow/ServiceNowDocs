@@ -1,6 +1,6 @@
 ---
-title: Connect ServiceNow Lux Lab for VS Code extension to an instance
-description: Connect the ServiceNow Lux Lab for VS Code extension to your ServiceNow instance to access instance files, deploy changes, and preview your work.
+title: Connect ServiceNow AI Experience Lab for VS Code extension to an instance
+description: Connect the ServiceNow AI Experience Lab for VS Code extension to your ServiceNow instance to access instance files, deploy changes, and preview your work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/connect-servicenow-ai-experience-lab-for-vs-code-to-instance.html
 release: zurich
@@ -8,18 +8,18 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow AI Experience Lab for VS Code, VS Code, instance connection, authentication]
-breadcrumb: [Configure, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Configure, ServiceNow AI Experience Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
 ---
 
-# Connect ServiceNow Lux Lab for VS Code extension to an instance
+# Connect ServiceNow AI Experience Lab for VS Code extension to an instance
 
-Connect the ServiceNow Lux Lab for VS Code extension to your ServiceNow instance to access instance files, deploy changes, and preview your work.
+Connect the ServiceNow® AI Experience Lab for VS Code extension to your ServiceNow instance to access instance files, deploy changes, and preview your work.
 
 ## Before you begin
 
 Role required: none
 
-The ServiceNow Lux Lab for VS Code extension requires the following:
+The ServiceNow® AI Experience Lab for VS Code extension requires the following:
 
 <table id="table_imf_rfb_dkc"><thead><tr><th>
 

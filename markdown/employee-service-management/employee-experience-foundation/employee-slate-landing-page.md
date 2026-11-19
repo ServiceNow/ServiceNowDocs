@@ -20,7 +20,7 @@ ServiceNow EmployeeWorks Web App \(formerly known as Employee Slate\) is your AI
 
 <table id="table_topic-areas" class="nav-card presentation"><tbody><tr><td>
 
-[Getting started\[Omitted image "bus-service-aware.svg"\] Alt text:Install plugins, set up flows, configure branding, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md)
+[Getting started\[Omitted image "bus-service-aware.svg"\] Alt text:Install plugins, set up flows, configure branding, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/eslate-config-admin-console.md)
 
 </td><td>
 
@@ -32,7 +32,7 @@ ServiceNow EmployeeWorks Web App \(formerly known as Employee Slate\) is your AI
 
 </td></tr><tr><td>
 
-[Now Assist\[Omitted image "bus-chat.svg"\] Alt text:AI-powered assistance integrated into the EmployeeWorks Web App experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-nowassist.md)
+[Now Assist\[Omitted image "bus-chat.svg"\] Alt text:AI-powered assistance integrated into the EmployeeWorks Web App experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-slate-nowassist.md)
 
 </td><td>
 
@@ -43,9 +43,7 @@ ServiceNow EmployeeWorks Web App \(formerly known as Employee Slate\) is your AI
  
 
 </td></tr></tbody>
-</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
-
-## Additional resources
+</table>## Additional resources
 
 -   Learn what's new in the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/employee-slate-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/employee-slate-rn.md).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).

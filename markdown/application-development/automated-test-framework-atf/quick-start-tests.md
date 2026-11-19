@@ -7,9 +7,9 @@ release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
+breadcrumb: [Test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
 
 # Quick start tests
@@ -53,6 +53,4 @@ Validate that your instance still works after you make any configuration change 
 [Accelerate ATF tests failure resolution]()
 
 [Performance profiling]()
-
-[ATF Health Check]()
 

@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ Open OAuth tokens to provide access to restricted resources.
 
 ## Before you begin
 
-Role required: any user or oauth\_admin
+Role required: any user or admin
 
 ## About this task
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-internal-business-location-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
+breadcrumb: [Reference, Manufacturing Commercial Operations]
 ---
 
 # Internal business location form
@@ -174,5 +174,5 @@ Description
 Description of the business location.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/repair-form.md)
+</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-reference.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/edit-unified-navigation-component.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Edit components, Component styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,9 +16,7 @@ Align your experience more closely with your brand by editing the Unified Naviga
 
 ## Before you begin
 
-Role required: ui\_builder\_admin
-
-For information on granular roles, see .
+Role required: admin
 
 ## About this task
 
@@ -26,7 +24,7 @@ The Unified Navigation component is made up of several subcomponents that you mu
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Theme Builder**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Themes** &gt; **Theme Builder**.
 
 2.  From the Page drop-down list, select the Editor page view.
 
@@ -42,7 +40,7 @@ The Unified Navigation component is made up of several subcomponents that you mu
 
 6.  Filter the list to view the Unified Navigation component.
 
-    1.  Select the Filter icon \(\[Omitted image "tb-filter-icon.png"\] Alt text:\).
+    1.  Select the Filter icon \[Omitted image "tb-filter-icon.png"\] Alt text:\).
 
     2.  Expand the Navigation category and select the Unified Navigation component.
 

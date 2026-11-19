@@ -7,32 +7,31 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Apache Kafka data input configuration fields, Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Apache Kafka data input configuration fields, Data input configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Kafka SSL credentials fields
 
 Description of the fields on the Kafka SSL credentials form.
 
-|Field|Description|
+|FIeld|Description|
 |-----|-----------|
-|SSL keystore|The content of an actual server.keystore.jks file, encoded as a Base64 string. This field is mandatory.|
+|SSL keystore|The content of an actual server.keystore.jks file, encoded as a Base64 string.|
 |SSL keystore type|Format of the SSL keystore file. Default: Java KeyStore \(JKS\).|
-|SSL keystore password|Password to the keystore, identical to the value of the ssl.keystore.password property in Apache Kafka. This field is mandatory.|
-|SSL key password|Password, identical to the ssl.key.password property value in Apache Kafka. This field is mandatory.|
-|||
-|SSL truststore|The content of an actual client.truststore.jks file, encoded as a Base64 string. This field is mandatory.|
+|SSL keystore password|Password to the keystore, identical to the value of the ssl.keystore.password property in Apache Kafka.|
+|SSL key password|Password, identical to the ssl.key.password property value in Apache Kafka.|
+|SSL truststore|The content of an actual client.truststore.jks file, encoded as a Base64 string.|
 |SSL truststore type|Format of the truststore file. Default: Java KeyStore \(JKS\).|
-|SSL truststore password|Password to the truststore, identical to the value of the ssl.truststore.password property in Apache Kafka. This field is mandatory.|
+|SSL truststore password|Password to the truststore, identical to the value of the ssl.truststore.password property in Apache Kafka.|
 |SSL provider|Name of the security provider used for SSL connections.|
 |Disable hostname verification|Option to disable verification of the hostname.|
 |Additional Kafka consumer properties|Semicolon-separated string of additional Kafka consumer properties. For example: ssl.protocol=TLSv1.2;ssl.enabled.protocols=TLSv1.2,TLSv1.1|
 
 <table id="table_frn_5tz_htb"><thead><tr><th>
 
-Field
+FIeld
 
 </th><th>
 
@@ -44,7 +43,7 @@ SSL truststore
 
 </td><td>
 
-The content of an actual client.truststore.jks file, encoded as a Base64 string. This field is mandatory.
+The content of an actual client.truststore.jks file, encoded as a Base64 string.
 
 </td></tr><tr><td>
 
@@ -60,7 +59,7 @@ SSL truststore password
 
 </td><td>
 
-Password to the truststore, identical to the value of the ssl.truststore.password property in Apache Kafka. This field is mandatory.
+Password to the truststore, identical to the value of the ssl.truststore.password property in Apache Kafka.
 
 </td></tr><tr><td>
 
@@ -84,7 +83,7 @@ User name
 
 </td><td>
 
-The user name, if any, associated with this credential. This field is mandatory.**Note:** The specified user name is used for SASL authentication using JAAS. The following JAAS configuration is passed to the Kafka Server: `org.apache.kafka.common.security.plain.PlainLoginModule required username=<user_name> password=<password>`
+The user name, if any, associated with this credential.**Note:** The specified user name is used for SASL authentication using JAAS. The following JAAS configuration is passed to the Kafka Server: `org.apache.kafka.common.security.plain.PlainLoginModule required username=<user_name> password=<password>`
 
 </td></tr><tr><td>
 
@@ -92,31 +91,10 @@ Password
 
 </td><td>
 
-The password associated with this credential. This field is mandatory.**Note:**
+The password associated with this credential.**Note:**
 
 -   The specified password is used for SASL authentication using JAAS. The following JAAS configuration is passed to the Kafka Server: `org.apache.kafka.common.security.plain.PlainLoginModule required username=<user_name> password=<password>`
 -   The password you specify is invisible. It is stored in the database in encrypted form.
-
-</td></tr><tr><td>
-
-SASL Mechanism
-
-</td><td>
-
-The SASL authentication mechanism to be used by the Kafka client. The options are:-   PLAIN \(default\)
--   SCRAM-SHA-256
--   SCRAM-SHA-512
--   OAUTHBEARER
-
-This field is mandatory.
-
-</td></tr><tr><td>
-
-SASL JAAS config template
-
-</td><td>
-
-The JAAS configuration to be used by the Kafka client, with the placeholders $\[username\] for the username, and $\[password\] for the password. This field is mandatory.
 
 </td></tr><tr><td>
 
@@ -129,11 +107,11 @@ Semicolon-separated string of additional Kafka consumer properties. For example:
 </td></tr></tbody>
 </table><table id="table_yjt_wtz_htb"><thead><tr><th>
 
-Field
+ 
 
 </th><th>
 
-Description
+ 
 
 </th></tr></thead><tbody><tr><td>
 
@@ -141,7 +119,7 @@ User name
 
 </td><td>
 
-The user name, if any, associated with this credential. This field is mandatory.**Note:** The specified user name is used for SASL authentication using JAAS. The following JAAS configuration is passed to the Kafka Server: `org.apache.kafka.common.security.plain.PlainLoginModule required username=<user_name> password=<password>`
+The user name, if any, associated with this credential.**Note:** The specified user name is used for SASL authentication using JAAS. The following JAAS configuration is passed to the Kafka Server: `org.apache.kafka.common.security.plain.PlainLoginModule required username=<user_name> password=<password>`
 
 </td></tr><tr><td>
 
@@ -149,7 +127,7 @@ Password
 
 </td><td>
 
-The password associated with this credential. This field is mandatory.**Note:**
+The password associated with this credential.**Note:**
 
 -   The specified password is used for SASL authentication using JAAS. The following JAAS configuration is passed to the Kafka Server: `org.apache.kafka.common.security.plain.PlainLoginModule required username=<user_name> password=<password>`
 -   The password you specify is invisible. It is stored in the database in encrypted form.

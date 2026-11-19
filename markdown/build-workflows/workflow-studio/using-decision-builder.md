@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-10-20"
-reading_time_minutes: 3
-breadcrumb: [Decision tables, Workflow Studio, Build workflows]
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Use, Workflow Studio, Build workflows]
 ---
 
 # Using decision tables
@@ -29,7 +29,7 @@ Evolve with your business logic by modifying the rows, default result values, or
 -   **[Use decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/use-decision-tables.md)**  
 Decision tables built in Workflow Studio are executed in flows with flow logic or in scripts with API calls.
 -   **[Manage decision tables in Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/manage-decision-tables-ms-excel.md)**  
-If you have large decision tables to build or want to enhance decision tables outside of the ServiceNow AI Platform, manage them in Excel. Export a decision table to an Excel file, edit the downloaded file to add and edit rows, and then import the file back into Workflow Studio.
+Manage large decision tables in Excel. Export a decision table to an Excel file, edit the file to add or update rows, and import the file back into Workflow Studio.
 -   **[View related objects in a decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/view-related-objects-decision-table.md)**  
 See and open objects that are related to your decision table, such as flows, subflows,and playbooks.
 -   **[Test a decision table in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/test-decision-table-in-decision-builder.md)**  
@@ -46,8 +46,6 @@ Filter the conditions in the decision table to focus on the necessary data.
 View and manage records when referring to other records in the current Decision Tables, without switching to another screen.
 -   **[Set rows active or inactive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/set-active-inactive-rows.md)**  
 Activating a row in a Decision Tables includes its conditions and rules when executing the Decision Tables, while deactivating rows excludes the logic while executing the Decision Tables. This feature lets you use or skip conditions in the rows when executing the Decision Tables without deleting them.
--   **[Filter decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/filtering-overview.md)**  
-Apply filters to both condition and result columns in the Decision Tables in Workflow Studio. Filters can enhance the usability and efficiency of managing large Decision Tables. This feature can be used to view, modify, and reorder a subset of rows directly within the Decision Tables, without exporting the table to Excel.
 
-**Parent Topic:**[Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/workflow-studio-decision-tables-landing.md)
+**Parent Topic:**[Using Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-workflow-studio-components.md)
 

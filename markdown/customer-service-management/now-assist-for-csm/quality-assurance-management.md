@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-02-02"
 reading_time_minutes: 6
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -51,9 +51,10 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 
     -   Viewing Parameter Details
 
+        **Note:** You can search for parameters through the search option and also sort parameters based on their weights.
+
         1.  Select any parameter to view its detailed scoring rubric. The rubric explains the evaluation criteria and scoring methodology for the parameter.
-        2.  You can search for parameters through the search option and also sort parameters based on their weights.
-        3.  Review the rubric to understand how interactions are scored for this parameter. The total weight across all the categories and parameters should add up to 100%. For example, if there are 9 categories and 21 parameters, having just one parameter turned on with 100% weight meets the requirement.
+        2.  Review the rubric to understand how this parameter works. The total weight across all the categories and parameters should add up to 100%. For example, If there are 9 categories and 21 parameters, having just one parameter turned on with 100% weightage meets the requirement.
         |Category|Parameter|What it measures|
         |--------|---------|----------------|
         |Issue Understanding &amp; Diagnosis|Root cause analysis|Agent identifies and explains the underlying cause — not just surface symptoms. Good agents explain why the problem occurred; weak agents restate what the customer said.|
@@ -77,16 +78,13 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 
     -   Enabling or Disabling Parameters
 
-        1.  Locate the **Active** toggle or check box for the parameter you want to enable or disable.
+        1.  Locate the  **Active**  toggle or check box for the parameter you want to enable or disable.
         2.  Toggle the parameter status: Enable the toggle to activate the parameter in quality scoring and disable the toggle to exclude the parameter from quality scoring. When you disable a parameter, the system prompts you to redistribute its weight among remaining active parameters. Adjust the weights of other parameters to verify that the total equals 100%. Weight redistribution is required because all active parameter weights must sum to 100% for accurate scoring.
-    -   Adjusting Parameter Weights
+    -   Adjusting Parameter Weights.
 
-        1.  Select the weight field for any active parameter to edit it.
-        2.  Enter the new weight value as a percentage.
-        3.  Adjust weights for other parameters as needed to verify that the total equals 100%.
-
-            **Note:** The system validates that active parameter weights sum to exactly 100% before permitting you to save changes.
-
+        1.  Select the weights for any active parameter to edit it.
+        2.  Adjust weights for other parameters as needed to verify the total equals 100%.
+        3.  Choose how a base skill is automatically triggered. When a case is closed or resolved, the skill is triggered automatically.
 7.  Select **Define Availability** to review when the side panel on the dashboard is active and available to customize.
 
     Admins can customize availability and set specific conditions to enable the contextual side panel on the case record page. Alternatively, choose the default **Skill is always available** option to view the side panel for all cases. Select **Field** and **Value** to set conditions to define availability.
@@ -95,31 +93,22 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 
     When a case moves to the **Closed** or **Resolved** state the skill is triggered automatically.
 
-9.  In the **Enable dashboard** step, select the toggle in the **Quality assurance dashboard** to enable users to view the entire Auto QA dashboard.
+9.  In the **Enable dashboard** step, select the toggle in the **Quality assurance dashboard** to enable users to view automated quality assurance dashboard.
 
-    **Note:** As an admin, you can set conditions in the **Restrict access to the dashboard** fields to disable access to the dashboard to a select group of users. For example, you can restrict access to a group of users with a particular country code.
+    As an admin, you can set conditions in the **Restrict access to the dashboard** fields to disable access to the dashboard to a select group of users. For example, you can restrict access to a group of users with a particular country code.
 
-10. Select **Define access** to assign responsibilities and ACLs for user roles and groups that should have access the Auto QA dashboard.
+10. Select **Define access** to assign responsibilities and ACLs for user roles and groups that should have access to the dashboard.
 
 11. Select **Display** to activate the skill and make it visible in the In-product desktop for specific roles.
 
-    **Note:** The skill appears on forms and workspaces. By default, the skill is available to customer service managers and customer service agents' roles. Admins can deactivate the skill to hide it from managers and agents while you test the configuration.
+    **Note:** The skill appears on forms and work spaces. By default, the skill is available to customer service managers and customer service agents’ roles. Admins can deactivate the skill to hide it from managers and agents during testing the configuration accuracy.
 
 12. Select **Review and Activate** to check the default setup and a summary of your selections.
 
     Admins can copy a skill and customize the configurations according to their business needs. You can also choose your **Base input fields** to be the case table or its child tables in the **Choose inputs** screen or add new base input fields.
 
-13. Select **Save and continue.**
-
-14. Select **Activate skill** to turn on the skill for agents and complete the configuration.
+13. Select **Activate skill** to turn on the skill for agents and complete the configuration.
 
     Skill is activated for agents, and a success modal shows up with the option **Return to AI skills.**
 
-
-**Related topics**  
-
-
-[Use automated quality assurance dashboard as a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-an-agent.md)
-
-[Use automated quality assurance dashboard as a manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-a-manager.md)
 

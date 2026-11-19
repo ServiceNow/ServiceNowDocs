@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/browser-support.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Learn about the Brazil release, Brazil release notes]
+breadcrumb: [Learn about the Zurich release, Zurich release notes]
 ---
 
 # Browser support
@@ -122,19 +122,19 @@ Safari
 
 </td><td>
 
-Safari 18.2 and up
+Safari 17.5 and up
 
 </td><td>
 
-Safari 18.2 and up
+Safari 17.5 and up
 
 </td><td>
 
-Safari 18.2 and up
+Safari 17.5 and up
 
 </td><td>
 
-Safari 18.2 and up
+Safari 17.5 and up
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 8
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -35,13 +35,13 @@ A CI type is a generic notion that is used by several ServiceNow applications, b
 A CI type \(or class\) contains several important definitions that apply to all CIs belonging to it, such as:
 
 -   CI attributes are added as fields to the CMDB tables.
--   Identifiers help Service Mapping and Discovery to differentiate between new and existing CIs. For example, if there is an Apache Web Server CI type defined in the CMDB, and Service Mapping and Discovery both discover an Apache Web Server CI, it processes it using identifiers. It then recognizes it as an updated version of the Apache Web Server CI that already exists in the system, not a new Apache Web Server CI.
+-   Identifiers help Service Mapping and Discovery to differentiate between new and existing CIs. For example, if Service Mapping and Discovery both discover an Apache Web Server CI, identifiers determine whether it already exists in the CMDB.
 -   There are [reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_ReconciliationRulesPrinciples.md) that help the ServiceNow platform to consolidate CI attributes received from different applications correctly. These rules are necessary for organizations where more than one application participates in the discovery process. Reconciliation rules define how attributes of the same CI discovered by different discovery sources are merged. For example, Service Mapping discovers the version and home directory attributes of an Apache Web Server CI. Discovery discovers the version and patch level attributes for the same CI. The ServiceNow AI Platform applies the reconciliation rule and as a result Service Mapping does not overwrite the attributes found by Discovery.
 -   Related items, both CIs and non-CIs, serve as a reference and provide additional information about the CI. For example, you can define a serial number, a port and an network APR table as related items for a hardware server. The system does not use these items for identification. After you configure related items for the CI type, you can use horizontal discovery for CIs of this type together with their related items. For information, see [Discover related items together with the main CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/add-related-cis-to-the-main-ci-pattern.md).
 
     **Note:** Non-CIs are items that do not extend the Configuration Item \[cmdb\_ci\] table. Examples of non-CIs are ports, serial numbers, or Network ARP tables.
 
--   CMDB stores CI class in the form of a hierarchy where some CI classes are parents to other CI classes, who automatically derive their parent's attributes in addition to attributes you configure specifically for child CI classes. CI class hierarchy is used widely for configuring CI behavior, relationships, and display. In this example, the Apache Web Server CI is a child of the Web Server CI and derives many attributes from its parent, such as name, version, model ID. By default, child CI classes inherit identifiers from their parent CI classes.
+-   CMDB stores CI class in the form of a hierarchy where some CI classes are parents to other CI classes, who automatically derive their parent's attributes in addition to attributes you configure specifically for child CI classes. CI class hierarchy is used widely for configuring CI behavior, relationships, and display. In this example, the Apache Web Server CI is a child of the Web Server CI. It inherits attributes from its parent, such as name, version, and model ID. By default, child CI classes inherit identifiers from their parent CI classes.
 
 In addition to these CI type definitions, the horizontal discovery process uses a CI classification to define to which CI type a CI belongs. Create a device CI classification if you create a CI type for devices using SNMP and a process CI classification for an application CI type.
 

@@ -46,3 +46,5 @@ Activate the Fix Intelligence for Security Exposure Management plugin to install
 
 Fix Intelligence for Security Exposure Management is active. The Fix tables, role, and integration are installed on your instance.
 
+**Parent Topic:**[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/fix-intel-for-usem-landing.md)
+

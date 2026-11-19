@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-02-01"
 reading_time_minutes: 1
-breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector Discovery
@@ -33,5 +33,5 @@ You can persist the type of users that populate the CMDB depending on your parti
 -   **[License key discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/license-key-discovery.md)**  
 License key discovery in Agent Client Collector for Visibility Content automatically collects software license keys from the Windows registry on managed endpoints.
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-server-deployment.md)
+**Parent Topic:**[Agent Client Collector deployment - servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

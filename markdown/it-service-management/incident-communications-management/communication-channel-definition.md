@@ -1,22 +1,22 @@
 ---
-title: Communication channel definitions
-description: You can define a communication channel for each communication task. The communication channel determines which mode of communication to use for the task when a plan is attached to an incident. The modes of communication available are email, SMS, conference, and Slack.
+title: Communication channel definition
+description: You can define a communication channel for each communication task. The communication channel determines which mode of communication to use for the task when a plan is attached to an incident. The modes of communication available are: email, SMS, conference, and Slack.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-communications-management/communication-channel-definition.html
 release: zurich
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Managing incident communications, Incident Communications Management, IT Service Management]
+breadcrumb: [Manage, Incident Communications Management, IT Service Management]
 ---
 
-# Communication channel definitions
+# Communication channel definition
 
-You can define a communication channel for each communication task. The communication channel determines which mode of communication to use for the task when a plan is attached to an incident. The modes of communication available are email, SMS, conference, and Slack.
+You can define a communication channel for each communication task. The communication channel determines which mode of communication to use for the task when a plan is attached to an incident. The modes of communication available are: email, SMS, conference, and Slack.
 
-For instructions on creating a communication channel definition, see [Create communication channel definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-comm-channel-definition.md).
+For information on how to create a communication channel definition, refer to [Create communication channel definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-comm-channel-definition.md) .
 
-**Parent Topic:**[Managing incident communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

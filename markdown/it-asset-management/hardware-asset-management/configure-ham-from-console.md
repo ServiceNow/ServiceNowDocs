@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-18"
 reading_time_minutes: 3
-breadcrumb: [Configuration Console for HAM, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configuration Console for Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management]
 ---
 
 # Configure Hardware Asset Management using the Configuration Console
@@ -23,7 +23,7 @@ The following applications must be installed on your ServiceNow instance:
 -   Hardware Asset Management \(HAM\) version 16.0.0 or later
 -   Setup Hub \(sn\_ia\_base\) version 3.0.4 or later
 
-Role required: To access the Configuration Console, you must have the ham\_admin and ia\_user roles. The setup items available within the console depend on the additional roles assigned. For more information on roles required for modules, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/config-console-ham.md).
+Role required: To access the Configuration Console, you must have the ham\_admin and sn\_ia\_config.ia\_user roles. The setup items available within the console depend on the additional roles assigned. For more information on roles required for modules, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/config-console-ham.md).
 
 ## About this task
 
@@ -72,6 +72,4 @@ When you make changes through the Configuration Console, the system captures the
 
     **Note:** You can apply the Update Set to a production instance to replicate the same configuration.
 
-
-**Parent Topic:**[Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/config-console-ham.md)
 

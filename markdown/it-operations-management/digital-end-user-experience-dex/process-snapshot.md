@@ -1,5 +1,5 @@
 ---
-title: Top processes by resource usage in DEX incident investigation
+title: Reviewing top processes by resource usage in incident investigation with DEX
 description: Reviewing the top processes by CPU and memory usage on Digital End-User Experience \(DEX\) monitored devices helps you identify processes causing device issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/process-snapshot.html
@@ -7,12 +7,12 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-01-22"
 reading_time_minutes: 4
-breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Incident diagnostics and suggested resolutions, DEX for service desk agents, Digital End-User Experience, IT Operations Management]
 ---
 
-# Top processes by resource usage in DEX incident investigation
+# Reviewing top processes by resource usage in incident investigation with DEX
 
 Reviewing the top processes by CPU and memory usage on Digital End-User Experience \(DEX\) monitored devices helps you identify processes causing device issues.
 
@@ -24,7 +24,7 @@ Every snapshot captures the top 10 processes by CPU usage, top 10 processes by m
 
 ## Time ranges for viewing top processes by resource usage
 
-The **Timeframe** drop-down list provides different time range options for viewing snapshots of the top resource-using processes. Selecting a time range and then selecting **Go** displays the graph for the chosen period.
+The Timeframe drop-down list provides different time range options for viewing snapshots of the top resource-using processes. Selecting a time range and then selecting **Go** displays the graph for the chosen period.
 
 By default, the graph shows the date and time of the latest snapshot. Selecting a data point on the graph shows the corresponding date and time of that snapshot.
 
@@ -40,7 +40,7 @@ Some time ranges display individual snapshot data on the graph, while others dis
         **Note:** The Refresh icon is enabled only for the **Last 6 hours** time range and when the device is online.
 
     -   **Custom**: Snapshots are captured every 30 minutes for a custom date and time range within the last seven days, selected using the **Day** and **Slot** drop-down lists.
--   The following time ranges display aggregated data:
+-   Time ranges displaying aggregated data:
 
     -   **Last 12 hours**: Data is captured every 30 minutes and aggregated hourly.
     -   **Last 24 hours**: Data is captured every 30 minutes and aggregated every two hours.
@@ -64,7 +64,7 @@ For time ranges that display snapshots of aggregated data, the average CPU and m
 
 -   Graph data aggregation based on CPU and memory usage percentages: The average CPU and memory usage percentages by the top 10 processes in each individual snapshot during the aggregation period are combined and displayed in the corresponding data point on the graph.
 
-    For example, when you select **Last 12 hours** time range, data is aggregated hourly and shown as a data point on the graph. If three individual snapshots are captured in an hour with average memory usage of 88.88%, 92.97%, and 90.53%, the aggregated average memory usage is 90.79%.
+    For example, when you select the **Last 12 hours** time range, data is aggregated hourly and shown as a data point on the graph. If three individual snapshots are captured in an hour with average memory usage of 88.88%, 92.97%, and 90.53% respectively, then the aggregated average memory usage for that data point is 90.79%.
 
 -   Table data aggregation based on process name: If the same process is listed more than once in the top processes tables across multiple snapshots within the aggregation period, its CPU usage or memory usage values are combined. The process with its combined usage value is then listed as a single entry for the corresponding data point. As a result, the top process tables might show fewer than 10 unique processes.
 

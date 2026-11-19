@@ -45,6 +45,8 @@ The following diagram shows how a MID Server obtains a credential from Azure Key
 
 [Add SSL certificates for the MID Server]()
 
+[Specify an external TrustStore for the MID Server]()
+
 [MID Server SSH cryptographic algorithms]()
 
 [Attach a script file to a file synchronized MID Server]()

@@ -1,47 +1,46 @@
 ---
-title: Enable the DEX browser extension
-description: Activate the DEX Chrome or Edge extension on your system to collect different operational or performance-based metrics for the web applications.
+title: Enable DEX browser extension
+description: Activate the DEX Chrome or Edge Extension on your system to collect different operational or performance-based metrics for the web applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/enable-dex-browser-extension.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-keywords: [enable browser extension, dex browser extension, chrome extension, edge extension, web application monitoring]
-breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Getting started, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
-# Enable the DEX browser extension
+# Enable DEX browser extension
 
-Activate the DEX Chrome or Edge extension on your system to collect different operational or performance-based metrics for the web applications.
+Activate the DEX Chrome or Edge Extension on your system to collect different operational or performance-based metrics for the web applications.
 
 ## Before you begin
 
 \[Omitted video\] Description: Enable DEX browser extension
 
-Confirm that the DEX plugin \(sn\_dex\) is installed.
+Confirm that the DEX plugin \[sn\_dex\] is installed.
 
-Confirm that the browser versions are Google Chrome version 114 or later, and Microsoft Edge version 96 or later.
+Confirm that the browser versions are Google Chrome 114 or higher, and Microsoft Edge version 96 or higher.
 
-**Note:** DEX browser extension requires permission to read and change all your data on all websites.
+**Note:** DEX browser extension requires the permission to read and change all your data on all websites.
 
-Role required: none
+Role required: sn\_dex.admin
 
 ## Procedure
 
-1.  Install the DEX browser extension for your browser.
+1.  Perform the following steps to install DEX Browser Extension based on your browser.
 
-<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d557236e115">
+<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d546570e81">
 
 Browser
 
-</th><th align="left" id="d557236e118">
+</th><th align="left" id="d546570e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d557236e124">
+</th></tr></thead><tbody><tr><td id="d546570e90">
 
 **Google Chrome**
 
@@ -49,10 +48,10 @@ Steps
 
 1.  Navigate to [DEX Browser Extension](https://chrome.google.com/webstore/detail/dex-chrome-extension/egjklpkeefoaknigleepliepdbonpbec/related?hl=en&authuser=0).
 2.  Select **Add to Chrome**.
-3.  In the confirmation dialog box, select **Add extension**.
+3.  On the confirmation window, select **Add extension**.
 
 
-</td></tr><tr><td id="d557236e160">
+</td></tr><tr><td id="d546570e124">
 
 **Microsoft Edge**
 
@@ -60,7 +59,7 @@ Steps
 
 1.  Navigate to [DEX Browser Extension](https://microsoftedge.microsoft.com/addons/detail/dex-browser-extension/ccbeoedagdladbpanngeahmefniefkpf).
 2.  Select **Get**.
-3.  In the confirmation dialog box, select **Add extension**.
+3.  On the confirmation window, select **Add extension**.
 
 
 </td></tr></tbody>
@@ -71,5 +70,5 @@ The Google Chrome or Microsoft Edge extension is enabled by default, and when mo
 
 ## What to do next
 
-For the next setup task, see [Onboard for DEX Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-onboarding.md).
+[Onboard for DEX Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-onboarding.md).
 

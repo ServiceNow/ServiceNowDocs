@@ -7,7 +7,7 @@ release: zurich
 product: Tag Governance
 classification: tag-governance
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Reference, Tag Governance, ITOM Visibility, IT Operations Management]
 ---

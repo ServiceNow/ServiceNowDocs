@@ -7,10 +7,10 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Variables, sidebar, script, topic, Virtual Agent designer]
-breadcrumb: [Creating a Virtual Agent topic, Build conversations, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create a Virtual Agent asset, Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Define script variables for a topic
@@ -31,21 +31,23 @@ For more information about writing scripts for Virtual Agent, see [Virtual Agent
 
 2.  Select the **Asset library** tab.
 
-3.  On the home page, open an existing topic or create a new one.
+3.  Set the topic discovery type toggle switch to **LLM** or **NLU/Keyword** depending on your intended asset or topic.
+
+4.  On the home page, open an existing topic or create a new one.
 
     The **Flow** tab displays the conversation flow.
 
-4.  In the sidebar, select the Variables tab, then select the **Script** plus icon \[Omitted image "icon-plus-clear.png"\] Alt text:.
+5.  In the sidebar, select the Variables tab, then select the **Script** plus \[Omitted image "icon-plus-clear.png"\] Alt text: Script plus icon. icon.
 
-5.  On the form, fill in the fields.
+6.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Variable name|Name of the variable. The name is case-sensitive. Spaces in the name are replaced with an underscore character.|
     |Default value|Default value for the variable. You can use either a static value or a script that specifies a dynamic value for this variable.|
 
-6.  Select **Save**.
+7.  Select **Save**.
 
 
-**Parent Topic:**[Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Create a Virtual Agent asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

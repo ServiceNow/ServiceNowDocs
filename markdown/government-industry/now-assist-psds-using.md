@@ -60,7 +60,7 @@ The ServiceNow Otto for PSDS application includes the generative AI skills that 
 
 -   **Fee Waiver AI agent skill**
 
-    Determines the fee breakdown for an information request by working to arrive at a subtotal fee estimate, a recommendation for whether a fee waiver request should be approved or rejected, including reasons for any rejection, and a total fee estimate, with the fee waiver, if applicable. This skill works via the Information Request Fee Estimation AI Agent to provide an autonomous decision based on guidelines added in a specific knowledge article. For information on standalone AI agents in Public Sector, see .
+    Determines the fee breakdown for an information request by working to arrive at a subtotal fee estimate, a recommendation for whether a fee waiver request should be approved or rejected, including reasons for any rejection, and a total fee estimate, with the fee waiver, if applicable. This skill works via the Information Request Fee Estimation AI Agent to provide an autonomous decision based on guidelines added in a specific knowledge article. For information on standalone AI agents in Public Sector, see [Agentic AI for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/agentic-ai-psds-explore.md).
 
 
 **Important:**

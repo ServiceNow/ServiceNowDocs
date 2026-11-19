@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/enable-case-type-single-select-prop.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Configuring customer service case types, Customer service case types, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-In CRM Workspace, there are three versions of the case type selector available to agents when creating cases of a specific type.
+In CSM Configurable Workspace, there are three versions of the case type selector available to agents when creating cases of a specific type.
 
 -   With the multi-select version, the agent selects a case type and optionally selects a category and subtype to narrow the available choices before creating a case. This is the default functionality.
 -   With the single-select version, the agent selects a case type and creates a case. The system populates some of the fields on the Case form with values that have been predefined in the selection configuration.

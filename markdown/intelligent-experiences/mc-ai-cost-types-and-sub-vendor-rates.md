@@ -1,31 +1,31 @@
 ---
 title: Cost types and sub-vendor rates
-description: Record what your organization pays each AI vendor so that AI Control Tower can calculate total Enterprise AI cost and net returns. Choose the cost type that matches each contract, and set sub-vendor rates where a specific service is billed differently from its vendor.
+description: Record what your organization pays each AI vendor so that Control Tower can calculate total Enterprise AI cost and net returns. Choose the cost type that matches each contract, and set sub-vendor rates where a specific service is billed differently from its vendor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mc-ai-cost-types-and-sub-vendor-rates.html
 release: zurich
 topic_type: concept
 last_updated: "2026-09-23"
 reading_time_minutes: 3
-keywords: [AI cost, sub-vendor, subscription, cost type, AI Control Tower]
-breadcrumb: [Cost, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+keywords: [AI cost, sub-vendor, subscription, cost type, Control Tower]
+breadcrumb: [Cost, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Cost types and sub-vendor rates
 
-Record what your organization pays each AI vendor so that AI Control Tower can calculate total Enterprise AI cost and net returns. Choose the cost type that matches each contract, and set sub-vendor rates where a specific service is billed differently from its vendor.
+Record what your organization pays each AI vendor so that Control Tower can calculate total Enterprise AI cost and net returns. Choose the cost type that matches each contract, and set sub-vendor rates where a specific service is billed differently from its vendor.
 
-AI Control Tower estimates the financial value of your AI assets by comparing total savings with total Enterprise AI cost. Total savings come from productivity gains and the hourly rates that you configure. Total Enterprise AI cost is the sum of integrated vendor costs and other vendor costs. Net returns are total savings minus total Enterprise AI cost.
+Control Tower estimates the financial value of your AI assets by comparing total savings with total Enterprise AI cost. Total savings come from productivity gains and the hourly rates that you configure. Total Enterprise AI cost is the sum of integrated vendor costs and other vendor costs. Net returns are total savings minus total Enterprise AI cost.
 
 ## Integrated vendors and other vendors
 
-Integrated vendors are vendors that have a trace or SDK integration with AI Control Tower, such as Microsoft, Google Vertex AI, and Amazon Web Services \(AWS\). AI Control Tower gets token consumption metrics for these vendors from the traces.
+Integrated vendors are vendors that have a trace or SDK integration with Control Tower, such as Microsoft, Google Vertex AI, and Amazon Web Services \(AWS\). Control Tower gets token consumption metrics for these vendors from the traces.
 
-Other vendors are vendors that don't have a trace or SDK integration with AI Control Tower. Entering costs for these vendors is optional.
+Other vendors are vendors that don't have a trace or SDK integration with Control Tower. Entering costs for these vendors is optional.
 
 ## Cost types
 
-The cost type determines which values you enter and how AI Control Tower calculates the cost for a vendor.
+The cost type determines which values you enter and how Control Tower calculates the cost for a vendor.
 
 |Cost type|Values you enter|
 |---------|----------------|
@@ -51,7 +51,7 @@ A sub-vendor rate takes precedence over its vendor's rate. When a vendor has at 
 
 For a subscription, the **Estimated monthly cost** value is the number of licensed seats multiplied by the cost per seat per month. The value updates as you enter the details.
 
-If you add a one-time setup fee, AI Control Tower spreads the fee evenly over the number of months that you enter in **Amortise over \(months\)**. It adds the resulting monthly amount to the estimated monthly cost. The per-month amount of the fee appears after the field.
+If you add a one-time setup fee, Control Tower spreads the fee evenly over the number of months that you enter in **Amortise over \(months\)**. It adds the resulting monthly amount to the estimated monthly cost. The per-month amount of the fee appears after the field.
 
 ## Cost entry status
 

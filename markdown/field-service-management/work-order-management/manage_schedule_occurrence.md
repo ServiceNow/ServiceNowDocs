@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Plan calendar, Create a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
+breadcrumb: [Plan calendar, Manage a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Create and view events using the planning calendar

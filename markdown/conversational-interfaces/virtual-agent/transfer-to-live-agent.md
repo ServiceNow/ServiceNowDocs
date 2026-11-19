@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Escalate to human assistance, Use, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Using Virtual Agent with a live agent, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Transferring Virtual Agent conversations to a live agent
@@ -87,5 +87,5 @@ If you're using Agent Workspace, the conversation is automatically routed and as
 
 When configured, user sentiment analysis is performed on Virtual Agent and live agent conversations. The user sentiment is stored in the Interaction Insights \[sys\_cs\_interaction\_insight\] table. For details, see [Interaction Insights table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ci-interaction-insights-table.md).
 
-**Parent Topic:**[Escalate to human assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/using-va-agent-chat.md)
+**Parent Topic:**[Using Virtual Agent with a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/using-va-agent-chat.md)
 

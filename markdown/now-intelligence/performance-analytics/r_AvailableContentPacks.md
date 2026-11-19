@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Platform Analytics solutions, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -93,6 +93,7 @@ Activate the following Solutions when you have the Performance Analytics for Hum
 
 Activate the following solutions if you have an entitlement to Performance Analytics for Business Management, Performance Analytics for Financial Management, or Performance Analytics for Service Strategy:
 
+-   [Agile 2.0 \(sn\_scrum\_dashboard on ServiceNow Store\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/install-configure-agile-dashboard.md)
 -   [Essential SaFE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/pa-content-pack-essential-safe.md)
 -   Financial Management for Application Portfolio Management \(com.snc.pa.fm.apm\)
 -   Financial Management for Customer Service \(com.snc.pa.fm.csm\)

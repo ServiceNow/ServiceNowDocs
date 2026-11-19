@@ -1,18 +1,18 @@
 ---
 title: Activate the Return Merchandise Authorization plugin
-description: If you have the admin role, you can activate the RMA Case Management plugin \(com.sn\_csm\_rma\_case\). The plugin enables you to manage and triage return cases for customer products and services, addressing returns, replacements, and repair use cases.
+description: If you have the admin role, you can activate the RMA Case Management plugin \(com.sn\_csm\_rma\_case\). The plugin enables you to manage and triage return cases for install base items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/activate-return-merchandise-authorization-plugin.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Order operations apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Activate the Return Merchandise Authorization plugin
 
-If you have the admin role, you can activate the RMA Case Management plugin \(com.sn\_csm\_rma\_case\). The plugin enables you to manage and triage return cases for customer products and services, addressing returns, replacements, and repair use cases.
+If you have the admin role, you can activate the RMA Case Management plugin \(com.sn\_csm\_rma\_case\). The plugin enables you to manage and triage return cases for install base items.
 
 ## Before you begin
 
@@ -20,10 +20,11 @@ Install the following plugins or confirm that they exist before activating the R
 
 |Plugin|Description|
 |------|-----------|
-|Lead to Cash Core \[com.snc.l2c\_core\]|Enables you to compose Lead to Cash flow.|
-|Customer Install Base Management \[com.snc.install\_base\]|Enables you to capture the current state of the install base and establish the relationship to any downstream entities that may impact their functioning.|
-|Case lines and workflows \[com.sn\_case\_line\]|Enables a case to hold many line items. The line items are product instances and can be extended for various order to case operations entities.|
-|Entitlements Verification \[com.sn\_ent\_verify\]|Provides API to verify entitlement and characteristics.|
+|Lead to Cash Core \(com.snc.l2c\_core\)|Enables you to compose Lead to Cash flow.|
+|Customer Service Install Base Management \(com.snc.install\_base\)|Enables you to capture the current state of the install base and establish the relationship to any downstream entities that may impact their functioning.|
+|Case lines and workflows \(com.sn\_case\_line\)|Enables a case to hold many line items. The line items are product instances and can be extended for various order to case operations entities.|
+|Entitlements Verification \(com.sn\_ent\_verify\)|Provides API to verify entitlement and characteristics.|
+|Customer Service Install Base Characteristics \(com.snc.install\_base\_characteristics\)|Enable customers to capture characteristics for their install bases.|
 
 Role required: admin
 
@@ -47,15 +48,8 @@ For more information, see [Return Merchandise Authorization Case Management](htt
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
-
-**Related topics**  
-
-
-[Return Merchandise Authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/return-merchandise-authorization.md)
-
-[Using order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-order-operations.md)
 

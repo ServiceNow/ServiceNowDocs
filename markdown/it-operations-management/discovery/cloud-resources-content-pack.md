@@ -7,9 +7,9 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Cloud discovery reporting, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Cloud discovery reporting, Discovery Platform Analytics Solutions, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Analytics and Reporting for Cloud Resources

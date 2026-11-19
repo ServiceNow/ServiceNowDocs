@@ -7,9 +7,9 @@ release: zurich
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Working with forms, Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
+breadcrumb: [Forms in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
 ---
 
 # Create form annotations in Table Builder
@@ -57,15 +57,15 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 6.  Select an option for **Annotation text**.
 
-<table id="choicetable_ttw_vx3_fsb"><thead><tr><th align="left" id="d217346e317">
+<table id="choicetable_ttw_vx3_fsb"><thead><tr><th align="left" id="d276208e311">
 
 Annotation text option
 
-</th><th align="left" id="d217346e320">
+</th><th align="left" id="d276208e314">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d217346e326">
+</th></tr></thead><tbody><tr><td id="d276208e320">
 
 **Plain text**
 
@@ -73,7 +73,7 @@ Description
 
 Text that is entered renders on the form as plain text.
 
-</td></tr><tr><td id="d217346e335">
+</td></tr><tr><td id="d276208e329">
 
 **Rich text**
 

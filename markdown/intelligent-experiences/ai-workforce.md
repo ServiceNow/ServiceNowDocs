@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-workforce.html
 release: zurich
 topic_type: reference
-last_updated: "2026-10-13"
+last_updated: "2026-08-20"
 reading_time_minutes: 3
-breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
 
 # Autonomous Workforce
@@ -28,11 +28,11 @@ Contact your account manager for information about accessing this product.
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the basic details, profiles, and tasks of an AI specialist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-ai-workforce.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the basic details, profiles, and tasks of an AI specialist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-workforce-ais.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Onboard, preview, and monitor the performance of AI specialists as they accomplish tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-workforce.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Onboard, preview, and monitor the performance of AI specialists as they accomplish tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-workforce-ais-use.md)
 
 </td><td>
 

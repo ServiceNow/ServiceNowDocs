@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-09-22"
+last_updated: "2026-11-05"
 reading_time_minutes: 12
 keywords: [AI Agent, Agentic AI]
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
@@ -21,7 +21,7 @@ The Microsoft Exchange Online spoke creates and manages calendar and mail in Mic
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -29,7 +29,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Exchange Online spoke v4.1.3 is the latest version. For version history of the spoke, see [Microsoft Exchange Online Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-exchange-online.html).
+Microsoft Exchange Online spoke v3.15.3 is the latest version.
 
 ## Spoke dependencies
 
@@ -346,7 +346,7 @@ For information about setting up the spoke, see [Set up Microsoft Exchange Onlin
 
 ## MID Server requirements
 
-To use these actions, your instance must have a MID Server set up and configured to use PowerShell. Make sure that Power Shell with EXO V2 module is installed. This module is required for executing the Mailbox management actions. Use the connection record associated with the Mailbox alias to configure where actions run as well as set MID Server selection attributes. For more information about the MID Server, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-landing.md).
+To use these actions, your instance must have a MID Server set up and configured to use PowerShell. Make sure that PowerShell with the ExchangeOnlineManagement \(EXO\) module version 3.6.x or prior is installed. This module is required for executing the Mailbox management actions. Versions 3.7.0 and later aren’t supported. Use the connection record associated with the Mailbox alias to configure where actions run as well as set MID Server selection attributes. For more information about the MID Server, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-landing.md).
 
 To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

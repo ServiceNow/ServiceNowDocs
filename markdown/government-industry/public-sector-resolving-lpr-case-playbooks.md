@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/public-sector-resolving-lpr-case-playbooks.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 10
-breadcrumb: [Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [License and Permit Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Resolving a license and permit case using License and Permit Administration

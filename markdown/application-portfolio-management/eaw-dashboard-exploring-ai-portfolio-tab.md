@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-dashboard-exploring-ai-portfolio-tab.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-04"
 reading_time_minutes: 2
-breadcrumb: [Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Exploring Portfolio list view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Exploring the AI Portfolio tab on the Enterprise Architecture Workspace dashboard
@@ -50,5 +50,5 @@ If no AI systems are associated with any business applications, the widgets disp
 
 [Add an existing AI system to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-ai-system-to-ba.md)
 
-[AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower-home-page.md)
+[Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower-home-page.md)
 

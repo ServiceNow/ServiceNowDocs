@@ -1,20 +1,20 @@
 ---
-title: Visualize network infrastructure
-description: Use the Network visualization view in the Telecommunications Network Inventory to explore your network infrastructure. You can explore the details about your network site, datacenter, and topology of your network.
+title: Visualize your network infrastructure
+description: Use the network visualization view in the Telecommunications Network Inventory to explore your network infrastructure. You can explore the details about your network site, datacenter, and topology of your network.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/data-center-inventory-management.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
 
-# Visualize network infrastructure
+# Visualize your network infrastructure
 
-Use the Network visualization view in the Telecommunications Network Inventory to explore your network infrastructure. You can explore the details about your network site, datacenter, and topology of your network.
+Use the network visualization view in the Telecommunications Network Inventory to explore your network infrastructure. You can explore the details about your network site, datacenter, and topology of your network.
 
 ## Network visualization overview
 

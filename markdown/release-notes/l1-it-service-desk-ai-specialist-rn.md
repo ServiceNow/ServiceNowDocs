@@ -1,24 +1,24 @@
 ---
 title: L1 IT Service Desk AI Specialist release notes
-description: The ServiceNow L1 IT Service Desk AI Specialist application is an autonomous worker that investigates and resolves incidents end-to-end without human intervention. It's designed to support high-volume, repeatable L1 incidents enabling a live human agent to handle more complex issues. For incidents that come in as requests, it proposes the appropriate request item, such as a software access. See the following sections for release notes by version.Adds performance dashboard enhancements, cross-group reassignment outcome tracking, and requester portal configuration, and removes the routing journey count cards, Research depth, and Pre resolution condition settings.The L1 IT Service Desk AI Specialist has been updated.The L1 IT Service Desk AI Specialist is a new application in ServiceNow Otto for IT Service Management \(ITSM\) in the Brazil release.
+description: The ServiceNow L1 IT Service Desk AI Specialist application is an autonomous worker that investigates and resolves incidents end-to-end without human intervention. It's designed to support high-volume, repeatable L1 incidents enabling a live human agent to handle more complex issues. For incidents that come in as requests, the appropriate request item, such as software access, is proposed. The L1 IT Service Desk AI Specialist is a new application in the Zurich release. See the following sections for release notes by version.Adds performance dashboard enhancements, cross-group reassignment outcome tracking, and requester portal configuration, and removes the routing journey count cards, Research depth, and Pre resolution condition settings.The L1 IT Service Desk AI Specialist has been updated.The L1 IT Service Desk AI Specialist is a new application in ServiceNow Otto for IT Service Management \(ITSM\) in the Zurich release.The L1 IT Service Desk AI Specialist is a new application in ServiceNow Otto for ITSM in the Zurich release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/l1-it-service-desk-ai-specialist-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+last_updated: "2026-08-24"
+reading_time_minutes: 5
+breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
 # L1 IT Service Desk AI Specialist release notes
 
-The ServiceNow® L1 IT Service Desk AI Specialist application is an autonomous worker that investigates and resolves incidents end-to-end without human intervention. It's designed to support high-volume, repeatable L1 incidents enabling a live human agent to handle more complex issues. For incidents that come in as requests, it proposes the appropriate request item, such as a software access. See the following sections for release notes by version.
+The ServiceNow® L1 IT Service Desk AI Specialist application is an autonomous worker that investigates and resolves incidents end-to-end without human intervention. It's designed to support high-volume, repeatable L1 incidents enabling a live human agent to handle more complex issues. For incidents that come in as requests, the appropriate request item, such as software access, is proposed. The L1 IT Service Desk AI Specialist is a new application in the Zurich release. See the following sections for release notes by version.
 
 ## About L1 IT Service Desk AI Specialist
 
 -   Helps increase efficiency by automating high-volume, repeatable L1 incidents.
 -   Enables a human to intervene in the automated process, if needed.
--   Helps free up live human agents to handle more complex issues.
+-   Helps frees up live human agents to handle more complex issues.
 
 See [L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/l1-service-desk-ai-specialist.md) for more information.
 
@@ -26,11 +26,15 @@ See [L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/Service
 
 -   **Activation information**
 
-    Install L1 IT Service Desk AI Specialist by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install L1 IT Service Desk AI Specialist by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
     Contact your ServiceNow account manager to get started with L1 IT Service Desk AI Specialist.
 
     **Note:** Domain separation is not supported on this version of L1 IT Service Desk AI Specialist.
+
+-   **Additional requirements**
+
+    Your instance must be on Zurich Patch 12.
 
 
 ## Accessibility and localization
@@ -42,7 +46,7 @@ See [L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/Service
 
 **Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/it-service-management-rn-landing.md)
 
-## Version 1.3 \| Brazil Patch 0
+## Version 1.3 \| Zurich Patch 12
 
 Adds performance dashboard enhancements, cross-group reassignment outcome tracking, and requester portal configuration, and removes the routing journey count cards, Research depth, and Pre resolution condition settings.
 
@@ -87,7 +91,7 @@ Adds performance dashboard enhancements, cross-group reassignment outcome tracki
     Removed. The Pre resolution condition setting is no longer available, and incidents are no longer checked against it. There is no replacement.
 
 
-## Version 1.2 \| Brazil Patch 0
+## Version 1.2 \| Zurich Patch 12
 
 The L1 IT Service Desk AI Specialist has been updated.
 
@@ -101,6 +105,8 @@ The L1 IT Service Desk AI Specialist has been updated.
 
     The L1 IT Service Desk AI Specialist can resolve incidents by submitting service catalog requests on behalf of users. The L1 IT Service Desk AI Specialist collects the required details through guided questions, submits or drafts the request, and resolves the linked incident so users can track fulfillment through the request.
 
+    L1 IT Service Desk AI Specialist now uses dynamic response authoring for ZTS Action Agent and Catalog submission responses. Default instructions are provided so the agent composes each message fresh instead of relying on a fixed template.
+
 -   **[Catalog performance analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/catalog-tab-l1-sd-ai-spec.md)**
 
     A new Catalog tab on the AI Specialist performance dashboard shows drafted, submitted, abandoned, and canceled request volumes by catalog item. This gives administrators visibility into how well the AI Specialist is handling catalog-based resolutions.
@@ -112,7 +118,7 @@ The L1 IT Service Desk AI Specialist has been updated.
 
 ## Version 1.1
 
-The L1 IT Service Desk AI Specialist is a new application in ServiceNow Otto for IT Service Management \(ITSM\) in the Brazil release.
+The L1 IT Service Desk AI Specialist is a new application in ServiceNow Otto for IT Service Management \(ITSM\) in the Zurich release.
 
 ### What's new
 
@@ -127,5 +133,30 @@ The L1 IT Service Desk AI Specialist is a new application in ServiceNow Otto for
 -   **[Performance quality assessment analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/perf-quality-l1-sd-ai-spec.md)**
 
     Review how the AI Specialist measures up in each quality area using automatically generated quality assessments. You can monitor scores, compare different coaching opportunities, and pinpoint areas where quality can be enhanced.
+
+
+## Version 1.0
+
+The L1 IT Service Desk AI Specialist is a new application in ServiceNow Otto for ITSM in the Zurich release.
+
+### What's new
+
+The L1 IT Service Desk AI Specialist is an autonomous worker that helps handle incidents end-to-end without human intervention. It uses knowledge articles and historical data to investigate and resolve high-volume, repeatable level 1 \(L1\) incidents. It communicates directly with requesters and escalates incidents to human agents when confidence is low.
+
+-   ****
+
+    Choose from two types of execution modes for the L1 IT Service Desk AI Specialist during configuration or activation, Autonomous or Supervised. The execution mode of the L1 IT Service Desk AI Specialist determines its autonomy when performing tasks on incidents. You can change the execution mode at any time.
+
+-   **[Configure the L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/configuring-l1-sd-ai-specialist.md)**
+
+    Configure how the L1 IT Service Desk AI Specialist works an incident across each stage of its task pipeline from classifying and assigning fields to which team or whom it reassigns incidents. Each stage is configurable, so you control how incidents are handled from intake to resolution.
+
+-   **[View the performance of the L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/perf-l1-sd-ai-spec.md)**
+
+    Review performance analytics for the L1 IT Service Desk AI Specialist to track task execution success. You can use analytics to help make choices to tune the L1 IT Service Desk AI Specialist to suit your exact business needs.
+
+-   **[View the activity of the L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/activity-l1-sd-ai-spec.md)**
+
+    View the task execution history of the L1 IT Service Desk AI Specialist to track where and when it is planning and attempting executions. You can also give feedback on its performance.
 
 

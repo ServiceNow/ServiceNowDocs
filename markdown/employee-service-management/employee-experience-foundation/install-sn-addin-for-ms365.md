@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring ServiceNow Add-in for Microsoft 365, ServiceNow Add-in for Microsoft 365, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Add-in for Microsoft 365, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Install the ServiceNow Add-in for Microsoft 365
@@ -18,7 +18,7 @@ You can install the ServiceNow Add-in for Microsoft 365 application \(sn\_outloo
 
 ## Before you begin
 
--   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [ServiceNow Add-in for Microsoft 365](https://store.servicenow.com) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin

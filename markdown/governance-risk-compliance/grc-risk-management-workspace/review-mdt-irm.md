@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Review a metric data task
@@ -32,15 +32,15 @@ If you have been assigned as an approver as part of a metric definition record, 
 
 3.  Review the metric data tasks and perform one of the following actions.
 
-<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d227335e85">
+<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d408528e85">
 
 Choice
 
-</th><th align="left" id="d227335e88">
+</th><th align="left" id="d408528e88">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d227335e94">
+</th></tr></thead><tbody><tr><td id="d408528e94">
 
 **Reject**
 
@@ -50,7 +50,7 @@ Action
 2.  Select **Reject** and provide your reason for rejection.
 
 
-</td></tr><tr><td id="d227335e115">
+</td></tr><tr><td id="d408528e115">
 
 **Approve**
 

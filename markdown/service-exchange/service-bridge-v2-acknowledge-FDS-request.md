@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure outbound FDS as providers, Configure for providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Configure FDS for provider, Use for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Acknowledge foundation data sync offering request
@@ -46,12 +46,12 @@ Also, when a consumer requests an FDS offering, you receive an email notificatio
 
     2.  Select the **Send Sample** button.
 
-        The sample payload sent to your customer is listed under the **Sample Payload** column in the Subscription Items related list.
+        The sample payload sent to your customer is listed under the **Sample Payload** column in the Subscription Items related table.
 
 
 ## Result
 
-A sample payload for each subscription is sent to the consumer as sample data. Consumers can review the sample to verify the data structure and content before accepting the full data synchronization.
+A sample payload for each subscription is sent to the consumer as sample data.
 
 ## What to do next
 

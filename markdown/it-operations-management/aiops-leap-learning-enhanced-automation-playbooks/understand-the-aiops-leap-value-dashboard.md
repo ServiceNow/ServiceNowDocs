@@ -1,21 +1,21 @@
 ---
-title: Monitor automation outcomes using the LEAP value dashboard
-description: Use the LEAP value dashboard to monitor automation outcomes across ServiceNow playbooks, Ansible playbooks, KB articles, and problem records.
+title: Monitor automation opportunities using the LEAP value dashboard
+description: Use the dashboard to track automation opportunities, cost savings, and operational efficiency metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/understand-the-aiops-leap-value-dashboard.html
 release: zurich
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-keywords: [LEAP dashboard, automation opportunities, cost savings, operational efficiency, LEAP artifacts metrics, Ansible playbooks, KB articles, problem records]
-breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+keywords: [LEAP dashboard, automation opportunities, cost savings, operational efficiency]
+breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
-# Monitor automation outcomes using the LEAP value dashboard
+# Monitor automation opportunities using the LEAP value dashboard
 
-Use the LEAP value dashboard to monitor automation outcomes across ServiceNow playbooks, Ansible playbooks, KB articles, and problem records.
+Use the dashboard to track automation opportunities, cost savings, and operational efficiency metrics.
 
 ## Before you begin
 
@@ -23,62 +23,54 @@ Role required: LEAP admin
 
 ## About this task
 
-The LEAP value dashboard tracks automation outcomes across all outcome types that LEAP produces. Use the **Overview** tab to monitor cross-outcome metrics and identify high-value automation opportunities.
+The LEAP value dashboard provides real-time insights into automation opportunities within your IT operations. Use this dashboard to justify automation investments and track the return on automation initiatives.
 
 ## Procedure
 
 1.  Navigate to the LEAP dashboard by selecting the dashboard icon \[Omitted image "dashboard-icon.png"\] Alt text:.
 
-    The **Default - LEAP value dashboard** page opens. To view a different automation project dashboard, select **Switch project** in the upper-right corner.
+    The dashboard displays records analyzed and grouped into automation opportunities.
 
-    \[Omitted image "leap-value-dashboard.png"\] Alt text: LEAP value dashboard showing the Overview tab with Grouping value, LEAP artifacts metrics, Outcome by type, and Savings by playbooks sections
+    \[Omitted image "leap-value-dashboard.png"\] Alt text: LEAP value dashboard showing automation metrics and opportunities
 
-    The **Overview** tab opens by default, displaying grouping statistics and a summary of all automation outcomes.
+    The dashboard opens, displaying automation metrics and grouping statistics.
 
-2.  Review the **Grouping value** section to understand the scope and results of the analysis.
+2.  Review the Grouping statistics section.
 
-    This section displays key grouping metrics and analysis metadata:
+    1.  Review the total number of records analyzed.
 
-    -   **Records analyzed** - total number of records that LEAP processed in the current analysis run.
-    -   **Total groups** and **Average group size** - clusters of similar incidents that LEAP identified as candidates for automation.
-    -   **Large groups** - groups that exceed the automation threshold and represent high-value automation opportunities.
-    -   **Table analyzed** - the ServiceNow table that LEAP used as the data source, for example, Incident.
-    -   **Last run** - the date of the most recent GAF analysis run.
-    -   **Record date range** - date range of records included in the analysis.
-3.  Review the **LEAP artifacts metrics** section.
+        This metric shows the volume of data processed by LEAP.
 
-    Use the **Time Period** list in the upper-right of this section to filter all artifact counts by a time range. The default is **Last 6 months**.
+    2.  Check the number of groups created and average group size.
 
-    1.  Review the four artifact summary cards: **ServiceNow playbooks**, **Ansible playbooks**, **KB articles created**, and **Problem records created**.
+        Groups represent similar incidents that can be automated together.
 
-        Each card shows the total count of that artifact type that LEAP created in the selected time period.
+    3.  Identify large groups that exceed the automation threshold.
 
-    You can see a cross-outcome summary of all artifacts that LEAP generated.
+        Large groups indicate high-value automation opportunities.
 
-4.  Review the **Outcome by type** section.
+    4.  Note the record duration and last GAF run timestamp.
 
-    1.  Review the **Playbooks** donut chart.
+        This information shows the data freshness and analysis scope.
 
-        The chart breaks down total playbooks by type: **ServiceNow playbooks** and **Ansible playbooks**. The center value shows the combined total.
+3.  Review the Automation Value section.
 
-    2.  Review the **Automated Opportunities** donut chart.
+    1.  Review the predicted cost and time savings from automation.
 
-        The chart shows the proportion of automation opportunities that are automated compared to those that are not automated. The center value shows the total number of groups.
+        These projections help justify automation investments.
 
-5.  Review the **Savings by playbooks** section.
+    2.  Check the number of playbooks created and tickets resolved.
 
-    1.  Check **Total savings by playbooks** and **Total agent-hours saved by playbooks**.
+        These metrics demonstrate actual automation implementation and success.
 
-        These values show realized savings from ServiceNow and Ansible playbook executions.
+    You can see the quantified benefits of your automation initiatives.
 
-    2.  Review the **Savings distribution** chart.
+4.  Contact your LEAP administrator to customize settings when dashboard metrics don't align with organizational requirements.
 
-        The chart shows how total savings are distributed across playbook types.
-
-    You can see quantified savings from playbook-driven automation for the selected time period.
+    LEAP administrators can adjust calculation parameters, thresholds, and time ranges to match your business context.
 
 
 ## Result
 
-The **Overview** tab provides a cross-outcome snapshot of all artifacts that LEAP generated and the total savings from playbook automation. To review detailed metrics for a specific outcome type, see the related tasks: [Review ServiceNow playbook metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/review-servicenow-playbook-metrics.md), [Review Ansible playbook metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/review-ansible-playbook-metrics.md), [Review KB article metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/review-kb-article-metrics.md), and [Review problem record metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/review-problem-record-metrics.md).
+The dashboard displays current automation metrics including potential cost savings, time savings, and automation opportunities. Use these metrics to prioritize automation initiatives and demonstrate ROI to stakeholders. If the dashboard shows no data, verify that LEAP settings are configured correctly.
 

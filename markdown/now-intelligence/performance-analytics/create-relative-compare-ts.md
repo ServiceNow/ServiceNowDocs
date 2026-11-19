@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Time series widgets, Performance Analytics widgets, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ To show how the relative proportions of several indicators change over time, use
 
 ## Before you begin
 
-Role required: pa\_admin or admin
+Role required: pa\_power\_user or admin
 
 ## About this task
 
@@ -40,15 +40,15 @@ For example, this visualization shows the change of the total number of open inc
 
 5.  Specify which indicators to include in the visualization with one of the following options.
 
-<table id="choicetable_pm3_bj1_kt"><thead><tr><th align="left" id="d76253e131">
+<table id="choicetable_pm3_bj1_kt"><thead><tr><th align="left" id="d73523e127">
 
 Option
 
-</th><th align="left" id="d76253e134">
+</th><th align="left" id="d73523e130">
 
 Note
 
-</th></tr></thead><tbody><tr><td id="d76253e140">
+</th></tr></thead><tbody><tr><td id="d73523e136">
 
 **Indicator group**
 
@@ -56,7 +56,7 @@ Note
 
 If you select an indicator group, you cannot select a single indicator.**Warning:** This option is not currently functional. Specify a single indicator and additional widget indicators.
 
-</td></tr><tr><td id="d76253e152">
+</td></tr><tr><td id="d73523e148">
 
 **Indicator**
 

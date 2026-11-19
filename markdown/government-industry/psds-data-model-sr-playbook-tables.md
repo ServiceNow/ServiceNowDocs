@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-data-model-sr-playbook-tables.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-10-23"
 reading_time_minutes: 1
 breadcrumb: [Service Request, Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---

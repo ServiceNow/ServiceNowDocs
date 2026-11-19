@@ -7,9 +7,9 @@ release: zurich
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Exploring Machine Identity Console, Machine Identity Console, Identity]
+breadcrumb: [Explore Machine Identity Console, Machine Identity Console, Identity]
 ---
 
 # Metrics
@@ -30,7 +30,7 @@ The following results are unique API calls in the last 7 days. Records collected
 
 ## Machine identity accounts
 
-The following results are the machine integration accounts used for integrations. Records collected in this table are in real time.
+The following results are the machine integration accounts used for integrations. Records collected in this table are in real-time.
 
 \[Omitted image "metrics-mic-accounts.png"\] Alt text: Machine identity accounts
 
@@ -42,18 +42,16 @@ The following results are the high privilege machine integration accounts used f
 
 ## Requests that aren't counted
 
-The following requests are excluded from metrics. All other requests are counted and shown in the Machine Identity Console.
+The following requests are excluded from metrics:
 
-|Request type|Shown in the Machine Identity Console|
-|------------|-------------------------------------|
-|Maintenance sessions|No|
-|Impersonation sessions|No|
-|Failed logins|No|
-|Responses with status 400, 401, or 500|No|
-|MID Server traffic|No|
-|Requests from internal IP addresses|No|
-|GraphQL requests|No|
-|OAuth requests that use the authorization code grant type|No|
+-   Maintenance sessions
+-   Impersonation sessions
+-   Failed logins
+-   Responses with status 400, 401, or 500
+-   MID Server traffic
+-   Requests from internal IP addresses
+-   GraphQL requests
+-   OAuth requests that use the authorization code grant type
 
 The `sys_mi_resource_filter` table can include or exclude specific APIs.
 

@@ -1,55 +1,46 @@
 ---
 title: Translation modes
-description: Localization Framework offers several translation modes for completing localization tasks. As a localization admin, you can select one or more of these modes when configuring the procedures for localization tasks.
+description: The Localization Framework offers various translation modes for content translation. Localization fulfillers can use one of the translation modes to translate content and fulfill localization requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-framework/translation-modes.html
 release: zurich
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [Localization Framework reference, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2025-07-31"
+reading_time_minutes: 3
+breadcrumb: [Localization Framework reference, Localization Framework, Translation and localization, Configure core features, Administer]
 ---
 
 # Translation modes
 
-Localization Framework offers several translation modes for completing localization tasks. As a localization admin, you can select one or more of these modes when configuring the procedures for localization tasks.
+The Localization Framework offers various translation modes for content translation. Localization fulfillers can use one of the translation modes to translate content and fulfill localization requests.
 
-## Overview of translation modes in Localization Framework
+## Machine Translate
 
-Translation modes available to localization tasks include machine translation, translation management systems \(TMS\), send via email, and export/import. These modes apply to localization tasks that are not fulfilled manually, so they are described as Auto Translation.
+Machine translation in the Localization Framework is powered by Dynamic Translation.
 
-As a localization admin, you can configure these modes when configuring localization tasks in the [Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/localization-settings.md) \[sn\_lf\_setting\] table's web form. The modes that you enable and configure in the **Translation Preferences** tab become options for selection in the **Workflow Preferences** tab, under **Auto translation mode**.
+Activate the required translation service provider in the instance to machine translate the content. For information, see [Create a custom translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/create-custom-translator.md).
 
--   Before starting configuration of Translation Preferences in Settings, finish any applicable prerequisites such as setting up a machine translator service or TMS, enabling file formats for email, and so forth.
--   Complete Translation Preferences in Settings before configuring the next tab, **Workflow Preferences**.
+## Send to Translation Management Systems
 
-These translation modes also constrain the methods available to translation requests in [Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/localization-workspace.md). Translation modes must be enabled in Localization Framework before they are available in the translation request wizard of Localization Workspace.
+The Localization Framework integrates with third-party Translation Management Systems \(TMS\) to localize the content.
 
-## Machine Translation
+RWS and XTM Translation Management Systems are supported by default and requires configuration. For more information see, [Configure RWS TMS in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/configure-sdl-tms.md) and [Configure XTM TMS in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/configure-xtm-tms.md).
 
-Machine translation in Localization Framework is powered by [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/dynamic-translation-overview.md).
-
-Activate the required translation service provider in the instance to machine translate the content. For information, see [Integration with other translation services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/dynamic-translation/integration-with-other-translation-services.md).
-
-## Translation Management System
-
-Localization Framework integrates with third-party Translation Management Systems \(TMS\) to localize the content.
-
-RWS and XTM Translation Management Systems are supported by default and require configuration. For more information see, [Configure RWS TMS in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/configure-sdl-tms.md) and [Configure XTM TMS in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/configure-xtm-tms.md).
-
-Alternatively, you can configure a custom TMS of your choice. For more information, see [Create a custom translation management system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/create-custom-tms.md).
+You can configure a custom Translation Management System of your choice. For more information, see [Create a custom translation management system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/create-custom-tms.md).
 
 When the Localization Framework Hub and Spoke architecture is installed, the TMS must be configured accordingly. For more information, see [Localization Framework Hub and Spoke architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.md).
 
-Zip attachments must be supported on the instance. For details on attachment configuration, see [Configure system attachment properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_DisablingTheDragAndDropFeature.md).
+Zip attachment should be supported on the instance. For more details on attachment configuration, see [Configure system attachment properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_DisablingTheDragAndDropFeature.md)
 
 ## Send via Email
 
-Localization Framework provides **Send via Email** as a translation mode that can be used to send content for translation.
+The Localization Framework provides **Send via Email** as a translation mode that can be used to send the translatable content for translation to a TMS service via email.
 
-If you have more than one requested item in a task, then the requested CSV or XLIFF items are compressed into one ZIP file and attached to the email. Either the CSV or XLIFF attachment format must be supported on the instance. For details on attachment configuration, see [Configure system attachment properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_DisablingTheDragAndDropFeature.md).
+If you have more than one requested item in a task, then the requested CSV or XLIFF items are compressed into one ZIP file and attached to the email. Either CSV or XLIFF attachment should be supported on the instance. For more details on attachment configuration, see [Configure system attachment properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_DisablingTheDragAndDropFeature.md)
+
+You can configure the **Send via Email** mode as a translation preference for one or more activated languages. For more information see, [Configure Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/define-translation-preferences.md).
 
 ## Export/Import
 
@@ -58,14 +49,7 @@ Localization Framework supports the following translation modes:
 -   **Export**: Export the translatable content for translation to a TMS service. If you have more than one requested item in a task, the individual CSV or XLIFF files are compressed and downloaded as one zip file.
 -   **Import**: Import the translated content from a TMS service. If you have more than one requested item in the task, you can import individual CSV or XLIFF files or in a ZIP format. Any files unrelated to the task are skipped.
 
-Either the CSV or the XLIFF attachment format must be supported on the instance. For details on attachment configuration, see [Configure system attachment properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_DisablingTheDragAndDropFeature.md).
+Either CSV or XLIFF attachment should be supported on the instance. For more details on attachment configuration, see [Configure system attachment properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_DisablingTheDragAndDropFeature.md)
 
 **Parent Topic:**[Localization Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/reference-localization-framework.md)
-
-**Related topics**  
-
-
-[Requesting translations in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/requesting-translations-localization-workspace.md)
-
-[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/tms-configuration.md)
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/view-exercise-crisis-event-details.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2025-07-31"
+reading_time_minutes: 7
 breadcrumb: [Structured workflows for Exercise and Crisis Management, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -22,7 +22,9 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  On the Home page, click the event record link in the **Event** column of the **My exercises** section.
+2.  Open an active exercise or crisis event from the Home page.
+
+    In the **My exercises** section, select the link to the event record in the **Event** column.
 
 3.  To update the event from the lists view of the workspace, click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
@@ -46,9 +48,9 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
     The Plans section, which appears as a side panel, displays all the activated plans that are added to the event.
 
-    When a plan is activated, recovery tasks are added as event tasks for that plan. This includes all tasks where the scope is empty and tasks where the scope matches the impacted asset of the activated plan.
+    After a plan is activated, recovery tasks are added as event tasks for that plan. Tasks added include those with an empty scope and those whose scope matches the impacted asset of the activated plan.
 
-    Each activated plan is an interactive card. The card shows the number of assets being recovered and the number of completed event tasks for that plan. When you add an activated plan to the event task, all the recovery tasks of the plan are added as event tasks to the event.
+    Each activated plan is an interactive card that shows the number of assets being recovered and the number of completed event tasks for that plan. When you add an activated plan to the event task, all recovery tasks in the plan are added as event tasks to the event.
 
     You can also create a task for the event that is not covered in any of the existing plans for the event as an ad hoc task.
 
@@ -98,9 +100,9 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
     Actual duration to recover an event asset is calculated by `Actual end – Actual start of an event asset`
 
-    -   The actual start is the minimum start time of the event task for the impacted asset or the minimum start time of the activated plan without a task.
-    -   The actual end is the maximum end time of the event task for the impacted asset or the maximum end time of the activated plan without a task.
-    Total effort equals the actual time from all event tasks for the asset plus effort from associated activated plans without tasks.
+    -   The actual start of an event asset is the minimum start time of the event task executed for the event asset. This is the event task that has the event asset as impacted asset. It also includes the minimum start time of the activated plan without a task.
+    -   The actual end of an event asset is the maximum end time of the event task executed for the event asset. This is the event task that has the event asset as impacted asset. It also includes the maximum end time of the activated plan without a task.
+    Total effort of an event asset is the sum of actual time taken by all event tasks executed for that asset. This includes the total effort of all activated plans associated with the asset without a task.
 
     -   **Actual duration of an event task**
 
@@ -110,8 +112,8 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
         The difference between the actual start and actual end of the activated plan, where
 
-        -   the actual start of an activated plan is the minimum start time of the event task for that plan
-        -   the actual end of an activated plan is the maximum end time of the event task for the plan
+        -   the actual start is the minimum start time of the event task for that plan
+        -   the actual end is the maximum end time of the event task for the plan
     -   **Actual duration of an activated plan without a task**
 
         The difference between the actual start and actual end of the activated plan.

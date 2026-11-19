@@ -1,20 +1,20 @@
 ---
-title: Installed application Overview page
-description: The Overview page for an installed application provides information on active alerts, active incidents, currently impacted devices, and the mean time to resolve incidents. Tracking the total active incidents can help you to monitor and manage the overall health of the application.
+title: Installed application — Overview page
+description: The overview page for an installed application provides information on the active alerts, incidents, impacted devices, and the average-time-to-resolve for the incidents. Tracking the total active incidents can help you to monitor and manage the overall health of the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/installed-application-overview-form.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Applications list, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
-# Installed application Overview page
+# Installed application — Overview page
 
-The Overview page for an installed application provides information on active alerts, active incidents, currently impacted devices, and the mean time to resolve incidents. Tracking the total active incidents can help you to monitor and manage the overall health of the application.
+The overview page for an installed application provides information on the active alerts, incidents, impacted devices, and the average-time-to-resolve for the incidents. Tracking the total active incidents can help you to monitor and manage the overall health of the application.
 
 <table id="table_izd_ksn_ddc"><thead><tr><th>
 
@@ -70,10 +70,10 @@ Application versions
 
 </td><td>
 
-Total number of devices per version of the application.**Note:** You can navigate to all devices page that displays specific application version page by selecting the bar chart.
+Displays the total number of devices per version of the application.**Note:** You can navigate to all devices page that displays specific application version page by selecting the bar chart.
 
 </td></tr></tbody>
-</table>**Note:** The Active Alerts and Incidents bar chart shows the application version distribution.
+</table>**Note:** The Active Alerts and Incidents bar chart lets you quickly analyze application version distribution.
 
 **Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/application-form.md)
 

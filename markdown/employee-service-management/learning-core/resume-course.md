@@ -7,9 +7,9 @@ release: zurich
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Resume a course
@@ -30,23 +30,4 @@ Role required: admin
 
 3.  Select **Resume**.
 
-
-**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/learning-core/manage-your-learning.md)
-
-**Related topics**  
-
-
-[Enroll in a course collection on My Learning]()
-
-[Create a personal course collection]()
-
-[Create a Learning challenge]()
-
-[View recent activity]()
-
-[Assign Learning to your team]()
-
-[Manage Learning]()
-
-[Skill sensing for learning content]()
 

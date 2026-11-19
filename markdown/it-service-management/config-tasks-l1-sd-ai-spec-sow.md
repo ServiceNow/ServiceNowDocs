@@ -18,6 +18,8 @@ Select tasks that the L1 IT Service Desk AI Specialist is capable of.
 
 Role required: sn\_sow\_itsm\_common.sn\_service\_desk\_manager or admin
 
+Some settings in the Classify and assign, Triage and diagnose, Investigate and resolve, and Reassign sections require the admin role. See the step 3 note.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Service Operations Workspace**.
@@ -33,6 +35,14 @@ Role required: sn\_sow\_itsm\_common.sn\_service\_desk\_manager or admin
     -   Activity
 3.  Select **Tasks** to review or configure the following tasks on how the L1 IT Service Desk AI Specialist makes decisions, acts, and interacts with workflow.
 
+    **Note:** The following settings require the admin role:
+
+    -   **Similar records search profile**
+    -   **Map L1 Service Desk AI Specialist states to record states**
+    -   **Default routing decision**
+    -   **Knowledge sources**
+    -   **Execution mode**
+    -   **Replies before reassigning**
     1.  Configure the Classify and assign section, which changes how the L1 IT Service Desk AI Specialist identifies incidents, classifies them, and assigns a specific incident type for follow-up.
 
         \[Omitted image "config-task-settings-1\_classify-assign.png"\] Alt text: Screenshot of the Classify and assign configuration section, showing fields for incident identification, classification, and assignment settings.
@@ -108,7 +118,7 @@ Selects the fields the L1 IT Service Desk AI Specialist classifies when they are
 
 </td><td>
 
-Selects the AI Search profile used to fetch similar records.
+Selects the AI Search profile used to fetch similar records.Only users with the admin role can change this setting.
 
 </td></tr><tr><td>
 
@@ -145,14 +155,6 @@ Selects the record fields the L1 IT Service Desk AI Specialist uses to analyze n
 
 </td></tr><tr><td>
 
-**Use attachment content**
-
-</td><td>
-
-Controls whether the L1 IT Service Desk AI Specialist scans the content of attached files during incident triage and diagnosis. When on, it scans attachment content.
-
-</td></tr><tr><td>
-
 **Map L1 Service Desk AI Specialist states to record states**
 
 </td><td>
@@ -160,6 +162,8 @@ Controls whether the L1 IT Service Desk AI Specialist scans the content of attac
 Maps the states of the L1 IT Service Desk AI Specialist execution to the states of the incident record. For example, you can map the L1 IT Service Desk AI Specialist **Awaiting info** state to the incident **On Hold** state.
 
 If you customized state values for your Incident table, you can map them to the L1 IT Service Desk AI Specialist states here.
+
+Only users with the admin role can change this setting.
 
 </td></tr><tr><td>
 
@@ -171,6 +175,8 @@ Defines the routing decision the L1 IT Service Desk AI Specialist falls back to 
 -   Reassign: it will reassign the incident.
 
 Attempt resolution is the default.
+
+Only users with the admin role can change this setting.
 
 </td></tr><tr><td>
 
@@ -203,7 +209,9 @@ Description
 
 Selects a search profile that defines how the L1 IT Service Desk AI Specialist retrieves knowledge articles for investigation and resolution, so it uses relevant, accurate content to support incident handling. AI search profiles can include sources such as knowledge articles, ServiceNow documentation, or specific tables. You can create new AI Search profiles specifically for your L1 IT Service Desk AI Specialist. To customize the information the L1 IT Service Desk AI Specialist can access, add search profiles alongside the preinstalled ones, or remove them. Select at least one search profile for the L1 IT Service Desk AI Specialist to complete the Investigate and resolve task.
 
-**Note:** To ensure that the L1 IT Service Desk AI Specialist can search a table from your instance, grant it access through its assigned roles. Without access, it can't search that table.
+**Note:** To ensure that the L1 IT Service Desk AI Specialist can search a table from your instance, grant read access to the sn\_itsm\_l1\_ais.l1\_worker role. Without access, it can't search that table.
+
+Only users with the admin role can change this setting.
 
 </td></tr><tr><td>
 
@@ -222,25 +230,19 @@ Controls whether the L1 IT Service Desk AI Specialist creates a KB Feedback Task
 Determines how autonomously the L1 IT Service Desk AI Specialist acts. -   **Autonomous**: Marks a ticket as resolved after it sends the resolution steps.
 -   **Supervised**: Requires a human to accept its resolution proposal.
 
+Only users with the admin role can change this setting.
+
 </td></tr><tr><td>
 
 **Auto-submit catalog requests**
 
 </td><td>
 
-Controls whether the L1 IT Service Desk AI Specialist submits the catalog request on the employee's behalf when it has filled all required variables. When on: If there are no required variables, it submits the catalog request automatically. If there are required variables and the L1 IT Service Desk AI Specialist can fetch the information, it fills in those variables. If there are required variables and the L1 IT Service Desk AI Specialist can't fetch the information, it contacts the employee. It engages for as many replies as the **Replies before reassigning** setting allows, for example, three replies. Answering one variable can make other variables visible or required, based on the catalog item's configuration, and the L1 IT Service Desk AI Specialist requests these in the replies. After that, the L1 IT Service Desk AI Specialist auto-submits the catalog request. If it still does not have enough information, it creates a draft and routes it to the employee to complete.
+Controls whether the L1 IT Service Desk AI Specialist submits the catalog request on the employee's behalf when it has filled all required variables. When on: If there are no required variables, it submits the catalog request automatically. If there are required variables and the L1 IT Service Desk AI Specialist can fetch the information, it fills in those variables. If there are required variables and the L1 IT Service Desk AI Specialist can't fetch the information, it contacts the employee. It engages for as many replies as the **Replies before reassigning** setting allows, for example, 10 replies. Answering one variable can make other variables visible or required, based on the catalog item's configuration, and the L1 IT Service Desk AI Specialist requests these in the replies. After that, the L1 IT Service Desk AI Specialist auto-submits the catalog request. If it still does not have enough information, it creates a draft and routes it to the employee to complete.
 
 When off: the L1 IT Service Desk AI Specialist sends the employee a link to the catalog item to create a request manually.
 
 If the requester portal is an AIUX experience, the L1 IT Service Desk AI Specialist doesn't create a draft or ask follow-up questions on the incident. When auto-submit is on, it fills the variables once and submits the request if it filled every required variable. Otherwise, and when auto-submit is off, it sends the employee a link to the catalog item.
-
-</td></tr><tr><td>
-
-**Flag high-risk resolution steps**
-
-</td><td>
-
-Controls whether resolutions that require elevated access, backend changes, or irreversible actions go to a service desk agent instead of the requester. When on, these resolutions are sent to a service desk agent.
 
 </td></tr></tbody>
 </table>[Return to top](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/config-tasks-l1-sd-ai-spec-sow.md)
@@ -259,19 +261,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-**Inbound channels**
+**Inbound channels** and **Outbound channels**
 
 </td><td>
 
-Selects the inbound channels, such as Activity stream, through which the L1 IT Service Desk AI Specialist receives messages from requesters.
-
-</td></tr><tr><td>
-
-**Outbound channels**
-
-</td><td>
-
-Selects the outbound channels the L1 IT Service Desk AI Specialist uses to send responses or notifications, such as Activity stream, email, portal, or phone. You can also set the preferred message format, such as HTML or plain text.
+The L1 IT Service Desk AI Specialist receives and sends messages through incident comments \(activity stream\). These settings are fixed and you can't change them.
 
 </td></tr><tr><td>
 
@@ -279,7 +273,9 @@ Selects the outbound channels the L1 IT Service Desk AI Specialist uses to send 
 
 </td><td>
 
-Controls whether the L1 IT Service Desk AI Specialist logs its solution as a work note rather than proposing it directly. When on, it logs the solution as a work note.
+Controls whether the L1 IT Service Desk AI Specialist also adds its response as a work note, so fulfillers can see its reasoning.When on, it adds the work note. This setting is on by default.
+
+In Supervised execution mode, this work note is how the fulfiller sees the proposed solution in the incident journal.
 
 </td></tr><tr><td>
 
@@ -314,11 +310,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-**Maximum number of interactions before escalation**
+**Replies before reassigning**
 
 </td><td>
 
-Sets how many times the L1 IT Service Desk AI Specialist contacts the requester before sending the incident to an agent. Enter a number greater than zero.
+Sets how many requester replies the L1 IT Service Desk AI Specialist answers before reassigning the incident to a human fulfiller. The default is 10. Catalog questions use this setting too. Enter a number greater than zero.Only users with the admin role can change this setting.
 
 </td></tr><tr><td>
 
@@ -327,14 +323,6 @@ Sets how many times the L1 IT Service Desk AI Specialist contacts the requester 
 </td><td>
 
 Controls whether the ticket goes to a human agent when the requester asks a follow-up question. When off, the L1 IT Service Desk AI Specialist handles follow-ups. If you select Dynamic mode for Reassign to human, the L1 IT Service Desk AI Specialist uses your instruction to write the reassignment message instead of posting a generic template.
-
-</td></tr><tr><td>
-
-**Stuck monitor filter**
-
-</td><td>
-
-Sets the filter that identifies incidents considered stuck and in need of escalation.
 
 </td></tr><tr><td>
 
@@ -350,20 +338,14 @@ Selects the assignment group or specific person to reassign the ticket to after 
 
 </td><td>
 
-Controls whether the L1 IT Service Desk AI Specialist surfaces a routing recommendation when a different assignment group consistently resolves similar incidents. Off: No recommendation. Recommend only: Posts a recommendation and unassigns the L1 IT Service Desk AI Specialist. The assignment group is never changed.
-
-</td></tr><tr><td>
-
-**Cross-group reassignment**
-
-</td><td>
-
 Controls how the L1 IT Service Desk AI Specialist handles an incident when a different assignment group consistently resolves similar resolved incidents. Service desk managers can edit this setting.-   **Off**: No action. This is the default.
 -   **Recommend only**: Posts a recommendation and unassigns the L1 IT Service Desk AI Specialist. The assignment group is never changed.
--   **On**: Reassigns the incident autonomously. It sets the assignment group to the recommended group and unassigns the L1 IT Service Desk AI Specialist. It doesn't use the **Choose where to reassign records** setting.
+-   **On**: Reassigns the incident autonomously. It sets the assignment group to the recommended group, adds a work note that explains why, and unassigns the L1 IT Service Desk AI Specialist. It doesn't use the **Choose where to reassign records** setting.
 
 The cross-group check runs before the L1 IT Service Desk AI Specialist does any resolution work, so **On** reassigns the incident even in supervised execution mode. For more information, see [Cross-group reassignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/cross-group-reassignment-l1-sd-ai-spec.md).
 
 </td></tr></tbody>
-</table>[Return to top](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/config-tasks-l1-sd-ai-spec-sow.md)
+</table>A run that has not progressed for three times the `sn_ztsd.stuck_case_threshold` system property \(60 minutes by default, so 180 minutes\) is treated as stuck.
+
+[Return to top](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/config-tasks-l1-sd-ai-spec-sow.md)
 

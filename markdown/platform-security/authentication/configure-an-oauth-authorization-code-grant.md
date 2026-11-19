@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Auth Code Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Auth Code Grant, Inbound Integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure an OAuth authorization code grant
@@ -18,7 +18,7 @@ Configure the OAuth authorization code grant to enable secure and interactive us
 
 ## Before you begin
 
-Role required: `oauth_admin, mi_admin, admin`
+Role required: `admin`
 
 ## Procedure
 

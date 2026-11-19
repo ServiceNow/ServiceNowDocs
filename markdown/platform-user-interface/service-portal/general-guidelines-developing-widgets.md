@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
 breadcrumb: [Developing custom widgets, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -44,7 +44,7 @@ When developing custom widgets, keep these general guidelines in mind for optima
     Learn more:
 
     -   [Six common performance pitfalls in Service Portal and how to avoid them \[KB0634588\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0634588)
-    -   [spUtil - recordWatch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/spUtilAPI.md)
+    -   spUtil - recordWatch
     -   [GlideRecord setLimit Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 -   **Create a directive instead of embedding a complex widget**
 

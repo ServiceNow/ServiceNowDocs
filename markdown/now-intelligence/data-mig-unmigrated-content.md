@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/data-mig-unmigrated-content.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-11"
 reading_time_minutes: 3
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
 ---
@@ -22,6 +22,7 @@ The only generic dashboard configuration that is not migrated is widget title al
 
 These filters aren't migrated:
 
+-   Group filter
 -   Debug filter
 -   Filter user preferences from dashboards
 -   Cascading filters that support the Choice to Choice configuration
@@ -67,9 +68,10 @@ Generic visualization configurations migrated in compatibility mode:
 -   List default drilldown view configured in Report Designer
 -   [Breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) = empty for breakdowns based on choice field
 -   Sort by Performance Analytics breakdown based on choice field order
--   Single score with compare X period back
+-   Single score with comparison to a specified number of periods in the past
 -   Pivot scorecard support for element filter
 -   Group by based on duration fields
+-   Additional group by based on text fields
 -   Different follow filters for related indicators on the Indicator scorecard and visualizations
 -   Hierarchy breakdown support on filters/data visualizations
 

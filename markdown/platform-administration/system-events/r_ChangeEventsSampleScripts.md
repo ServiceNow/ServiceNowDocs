@@ -7,9 +7,9 @@ release: zurich
 product: System Events
 classification: system-events
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [System events reference, System Events, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [System events reference, System Events, Configure core features, Administer]
 ---
 
 # Sample scripts from the change events business rule

@@ -29,7 +29,7 @@ Configure an account recovery from the Account Recovery properties page.
 
 ### Before you begin
 
-Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
+Role required: admin
 
 For a fresh instance to configure ACR, you must do the following:
 
@@ -84,7 +84,7 @@ Configure an administrator as an account recovery user from the admin user profi
 
 ### Before you begin
 
-Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
+Role required: admin
 
 ### Procedure
 

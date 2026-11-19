@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-02-26"
 reading_time_minutes: 9
-breadcrumb: [Integrating with Workday, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrating with Workday, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrate with Workday using OAuth 2.0
@@ -103,15 +103,15 @@ If you’re using Software Asset Workspace, the option to create the Workday int
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d67840e608">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d64909e608">
 
 Interface
 
-</th><th align="left" id="d67840e611">
+</th><th align="left" id="d64909e611">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d67840e617">
+</th></tr></thead><tbody><tr><td id="d64909e617">
 
 **Core UI**
 
@@ -122,7 +122,7 @@ Action
 3.  Select **Workday Integration Profile**.
 
 
-</td></tr><tr><td id="d67840e659">
+</td></tr><tr><td id="d64909e659">
 
 **Software Asset Workspace**
 
@@ -285,7 +285,7 @@ Type of integration profile. This field is automatically set to **Workday Subscr
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
 
 -   Software Models
 -   Unrecognized Subscription Identifiers

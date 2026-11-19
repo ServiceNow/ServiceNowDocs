@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -16,24 +16,22 @@ breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 
 Use the ServiceNow® ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application to summarize service problem cases, account onboarding cases, engagements, touchpoints, generate the case resolution notes, and summarize tests. You can enable your agents to understand the case context and test results so that they can propose quicker resolutions to your customers. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
-
 ## Get started
 
-ServiceNow Otto for TMT combines a common configuration and licensing layer with generative AI skills and agentic workflows purpose-built for each application.
+<table id="table_zzm_tc2_kbc" class="nav-card"><tbody><tr><td>
 
-|Application|Value|
-|-----------|-----|
-|[Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/ai-cspm-landing.md)|Summarize service problem cases, generate resolution notes, and summarize test results with generative AI skills.|
-|Customer Success Management|Automate customer success work with generative AI skills and agentic workflows.|
-|Technology Product Support Case|Summarize test results for technology product support cases with generative AI skills.|
-|Proactive Service Experience Workflows|Generate executive insight briefs and success play recommendations with generative AI skills.|
-|[Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/ai-in-sales-crm-for-telecommunications.md)|Automate order enrichment and fulfillment task suggestions with AI agents.|
-|Service Exchange|Manage the initiation and early stages of the Service Exchange registration process with generative AI skills and agentic workflows.|
-|Telecommunications Network Inventory|Summarize remote hands requests with generative AI skills.|
-|[Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/ai-customer-360.md)|Generate AI-driven customer insights and recommendations.|
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-exploring.md)
 
-**Important:**
+</td><td>
+
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.md)
+
+</td><td>
+
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+
+</td></tr></tbody>
+</table>**Important:**
 
 -   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
 -   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.

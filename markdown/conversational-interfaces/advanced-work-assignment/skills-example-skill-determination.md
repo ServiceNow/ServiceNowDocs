@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Tutorial: Automatically assign work to agents by skill, Configure agent assignment rules, Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -30,4 +30,6 @@ Role required: awa\_admin or admin
 
 4.  Select **Update**.
 
+
+**Parent Topic:**[Tutorial: Automatically assign work to agents by skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/skills-routing-tutorial.md)
 

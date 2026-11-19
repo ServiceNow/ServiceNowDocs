@@ -8,7 +8,7 @@ product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -51,14 +51,6 @@ Name
 </td><td>
 
 Name of the demand.
-
-</td></tr><tr><td>
-
-Demand experience
-
-</td><td>
-
-Demand experience to associate with this demand, which determines the demand's form view, the modules shown, and any dynamic attributes available. This is an optional field. If no value is selected in this field, the demand is displayed with the default form view and all modules.
 
 </td></tr><tr><td>
 
@@ -128,9 +120,4 @@ The preliminary or estimated date when the planned work is expected to be comple
 ## What to do next
 
 Review and refine the demand details and progress the demand. See [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/update-the-demand-details-from-dw.md).
-
-**Related topics**  
-
-
-[Add dynamic attributes to a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/add-dynamic-attributes-to-a-demand-dw.md)
 

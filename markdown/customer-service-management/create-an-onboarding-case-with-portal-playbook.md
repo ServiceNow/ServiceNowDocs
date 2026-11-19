@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-an-onboarding-case-with-portal-playbook.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use Playbooks for Portals, Customer communication, Use, Customer Service Management]
+breadcrumb: [Using Playbooks for Portals, Customer communication, Use, Customer Service Management]
 ---
 
 # Creating an onboarding case with Playbooks for Portals
@@ -40,12 +40,10 @@ When the customer submits the case, the status of the case changes from Draft to
 
 The following diagram shows how a customer creates a case.
 
-\[Omitted image "playbook-customer-create-case.png"\] Alt text: Steps that a customer follows to create a case. Refer to the workflow steps that preceded this diagram.
-
 **Related topics**  
 
 
-[Creating a guided onboarding case from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
+[Creating a guided onboarding case from CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
 
 [Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-an-onboarding-request-from-catalog.md)
 

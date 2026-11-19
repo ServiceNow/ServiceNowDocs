@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/installing-collector-on-windows.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-03-27"
+reading_time_minutes: 2
 breadcrumb: [Configure the OT Discovery Collector, Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
@@ -34,7 +34,7 @@ Role required: admin
 
 4.  Select **Configure** and the **Downloads** page opens.
 
-    \[Omitted image "downloads-page-containerized2.png"\] Alt text: Downloads page
+    \[Omitted image "image.downloads-page-containerized2"\] Alt text: Downloads page
 
     **Note:** Read the End User License Agreement \(EULA\) carefully and then check **Agree**.
 
@@ -93,7 +93,7 @@ Role required: admin
 
     When complete, the ServiceNow OT Discovery Collector Installer window displays `Installation Complete`.
 
-    \[Omitted image "install-complete-collector.png"\] Alt text: Installation complete screen
+    \[Omitted image "image.install-complete-collector"\] Alt text: Installation complete screen
 
 21. Navigate to your local disk program files folder, so that you can see the `SNDiscoveryCollector` folder is present.
 
@@ -116,6 +116,4 @@ To update the OT Discovery Collector version, do the following steps.
 4.  Select the **Install/Update OT Discovery Collector** button.
 
 The updated version is installed.
-
-**Parent Topic:**[Configure the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configuring-the-collector.md)
 

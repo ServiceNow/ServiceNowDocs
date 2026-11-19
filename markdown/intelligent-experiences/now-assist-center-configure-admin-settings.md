@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-02"
 reading_time_minutes: 6
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using other AI applications from AI Admin Center, Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Using other AI applications from AI Admin Center, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
 # Configure AI settings in AI Admin Center\(Next Experience UI\)
@@ -67,7 +67,7 @@ Opens the Account page from AI Admin Hub.
 
  Review your ServiceNow AI license details to make sure that you're up to date on what's available to you.
 
- For more information, see [Review your AI Admin Hub account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/review-now-assist-account-information.md).
+ For more information, see [Review Now Assist account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/review-now-assist-account-information.md).
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Opens the Multilingual Service page from AI Admin Hub.
 
  Turn on multilingual service for user-entered text with native translation or Dynamic Translation in AI applications.
 
- For more information, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
+ For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ Opens the Plugins page from AI Admin Hub.
 
  Install AI plugins to enable generative AI on your instance.
 
- For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/install-now-assist-feature-plugins.md).
+ For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 

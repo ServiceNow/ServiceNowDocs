@@ -1,20 +1,20 @@
 ---
-title: GRC Choice record form
+title: GRC Choice New record form
 description: Use the GRC Choice New record form to add a role for the participants of your scenario analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/participant-role-reference.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Add a participant role for the scenario analysis, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# GRC Choice record form
+# GRC Choice New record form
 
 Use the GRC Choice New record form to add a role for the participants of your scenario analysis.
 
-## GRC Choice record form for the role
+## GRC Choice New record form for the role
 
 For a description of the field values, see the following table.
 

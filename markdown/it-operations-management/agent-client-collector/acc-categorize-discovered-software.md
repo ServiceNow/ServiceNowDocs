@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-01"
 reading_time_minutes: 2
 keywords: [software categorization, Agent Client Collector, signature, discovered software]
-breadcrumb: [Software packages categorization, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Software packages categorization, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
 ---
 
 # Categorize discovered software
@@ -18,6 +18,8 @@ breadcrumb: [Software packages categorization, ACC deployment - endpoints, Confi
 Group discovered installed software packages in your environment by business relevance.
 
 ## Before you begin
+
+Ensure that you have installed Agent Client Collector for Visibility Content.
 
 In the System Properties, verify that the software categorization system property is set to true: `sn_acc_vis_content.sw_categorization.enabled=true`.
 
@@ -193,6 +195,4 @@ When selected, activates the signature.
 ## Result
 
 The categorized software appears in the **Installed Software Catalogs** \(sn\_acc\_vis\_content\_sw\_install\_catalog\) table. Each entry in the table shows the software package, its assigned category, and the signature that matched. For each record, either the **Software package** or the **SAM discovery model** column is populated, depending on whether SAM is installed on the instance. Filter by category to see all the software in the group.
-
-**Parent Topic:**[Software packages categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-software-categorization.md)
 

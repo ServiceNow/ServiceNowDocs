@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-10-12"
 reading_time_minutes: 1
 keywords: [system properties, sn\_itmon, proxy agent]
-breadcrumb: [ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector Monitoring reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector Monitoring system properties

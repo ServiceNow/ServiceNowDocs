@@ -1,5 +1,5 @@
 ---
-title: Configure inbound foundation data sync as a consumer
+title: Configure foundation data sync as a consumer
 description: As a consumer, receive the foundation data from your provider using foundation data sync \(FDS\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/service-exchange/service-bridge-v2-using-foundation-data-sync-for-consumer.html
@@ -7,12 +7,12 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure for consumers, Service Exchange for Consumers, Service Exchange]
+breadcrumb: [Install and configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
-# Configure inbound foundation data sync as a consumer
+# Configure foundation data sync as a consumer
 
 As a consumer, receive the foundation data from your provider using foundation data sync \(FDS\).
 
@@ -69,6 +69,8 @@ Accept the subscription.After you accept the subscription, your provider publish
 </td></tr></tbody>
 </table>**Related topics**  
 
+
+[Configure foundation data sync as a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-using-foundation-data-sync.md)
 
 [Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
 

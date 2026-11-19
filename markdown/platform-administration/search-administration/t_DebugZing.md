@@ -7,9 +7,9 @@ release: zurich
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Available search options, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Available search options, Zing text indexing and search engine, Search administration, Configure core features, Administer]
 ---
 
 # Debug Zing
@@ -41,7 +41,7 @@ Role required: admin
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `ts_word.list`.
+    2.  In the navigation filter, enter `ts_word.list`.
 
     3.  Press Enter.
 

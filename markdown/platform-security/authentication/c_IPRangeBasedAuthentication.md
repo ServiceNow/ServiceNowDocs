@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Authentication, Access Management]
 ---
@@ -37,5 +37,5 @@ Notes and Limitations:
 
 **Note:** To learn more about the **com.snc.ipauthenticator** and **glide.ip.authenticate.strict** properties, which restrict instance access to specific IP ranges, see the following topics in Instance Security Hardening Settings:
 
-[Restrict access to specific IP ranges plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-restrict-access-to-specific-ip-ranges-plugin.md)
+[Restrict access to specific IP ranges plugin \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-restrict-access-to-specific-ip-ranges-plugin.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-csm-service-definition.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Configuring service definitions, Service definitions, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -73,7 +73,7 @@ You can also create relationships between the service definition and other relat
 
 12. Enable the **Use service catalog item** check box.
 
-    When this check box is enabled, the service definition can use catalog items and their associated record producers to create cases in CRM Workspace. The Catalog Service Relationships related list stores the catalog items that are associated with the service definition. For more information, see [service definition use service catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-service-definition-catalog-items.md).
+    When this check box is enabled, the service definition can use catalog items and their associated record producers to create cases in CSM Configurable Workspace. The Catalog Service Relationships related list stores the catalog items that are associated with the service definition. For more information, see [service definition use service catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-service-definition-catalog-items.md).
 
 13. In the **Description** field, add a description of the service definition.
 

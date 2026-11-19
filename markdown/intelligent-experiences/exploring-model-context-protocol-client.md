@@ -1,30 +1,41 @@
 ---
-title: Exploring Model Context Protocol Client
-description: The Model Context Protocol \(MCP\) is a standardized client-server protocol that enables AI applications to discover and interact seamlessly with external tools, data sources, and services. MCP facilitates communication between an AI host application \(like AI Agent Studio\), an MCP Client embedded in the host, and one or more MCP Servers that expose specific capabilities such as tools.
+title: Explore Model Context Protocol Client
+description: The Model Context Protocol \(MCP\) client in ServiceNow is a framework that allows AI agents, such as large language models \(LLMs\), to interact with and manage ServiceNow instances. This interaction takes place within a server-client architecture.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/exploring-model-context-protocol-client.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-02"
 reading_time_minutes: 1
-breadcrumb: [Model Context Protocol Client, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Model Context Protocol Client, AI Agent Studio, Enable AI experiences]
 ---
 
-# Exploring Model Context Protocol Client
+# Explore Model Context Protocol Client
 
-The Model Context Protocol \(MCP\) is a standardized client-server protocol that enables AI applications to discover and interact seamlessly with external tools, data sources, and services. MCP facilitates communication between an AI host application \(like AI Agent Studio\), an MCP Client embedded in the host, and one or more MCP Servers that expose specific capabilities such as tools.
+The Model Context Protocol \(MCP\) client in ServiceNow is a framework that allows AI agents, such as large language models \(LLMs\), to interact with and manage ServiceNow instances. This interaction takes place within a server-client architecture.
 
 ## Model Context Protocol Client terminology
 
--   **MCP Host**: The AI application environment where the tasks are initiated.
--   **MCP Client**: Manages communication between the host and the MCP Servers, handling the requests and responses.
+-   **MCP host**
 
-    The MCP Client architecture enables AI agents to extend their capabilities by invoking external systems dynamically, enabling tasks like accessing APIs, databases, or file systems in a standardized way.
+    The AI application environment where the tasks are initiated.
 
--   **MCP Server**: Provides external functionalities by exposing tools for AI agents to use.
--   **MCP Tools**: The external tools exposed by the MCP Servers to be used by AI agents.
+-   **MCP client**
 
-## Why use MCP Tools
+    Manages communication between the host and the MCP servers, handling the requests and responses.
+
+    The MCP Client architecture enables AI agents to extend their capabilities by invoking external systems dynamically, which enables tasks like accessing APIs, databases, or file systems in a standardized way.
+
+-   **MCP server**
+
+    Provides external functionalities by exposing tools for AI agents to use.
+
+-   **MCP tools**
+
+    The external tools exposed by the MCP servers to be used by AI agents.
+
+
+## Why use MCP tools
 
 MCP tools enable seamless integration to:
 

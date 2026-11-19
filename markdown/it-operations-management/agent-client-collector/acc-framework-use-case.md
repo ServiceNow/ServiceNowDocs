@@ -1,20 +1,20 @@
 ---
 title: Agent Client Collector Framework use case
-description: The Agent Client Collector Framework \(ACC-F\) use case demonstrates how a financial organization can use Agent Client Collector Framework to assist in IT asset discovery.
+description: The Agent Client Collector Framework use case demonstrates how a financial organization can use Agent Client Collector Framework to assist in IT asset discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-framework-use-case.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Exploring ACC Framework, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector Framework use case
 
-The Agent Client Collector Framework \(ACC-F\) use case demonstrates how a financial organization can use Agent Client Collector Framework to assist in IT asset discovery.
+The Agent Client Collector Framework use case demonstrates how a financial organization can use Agent Client Collector Framework to assist in IT asset discovery.
 
 ## Use case overview
 
@@ -41,4 +41,6 @@ To address these challenges, the financial organization implemented an agent-bas
 -   Enhanced security posture: By enforcing policies at the endpoint level, the organization strengthened its cybersecurity defenses, protecting sensitive financial data from potential threats.
 
 This approach enabled the financial institution to maintain control over its IT environment, support its remote workforce effectively, and ensure compliance with industry regulations. These are critical factors in safeguarding sensitive financial operations and maintaining customer trust.
+
+**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

@@ -7,8 +7,8 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Administration cards, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
@@ -46,12 +46,12 @@ What processes should be monitored?
 
 </td><td>
 
-Processes to monitor.This field has the following subfields:
+Processes that you want to monitor.This field has the following subfields:
 
 -   **Windows: Enter the process name \(ex. process.exe\)**: A unique identifier for the primary running instance of the Windows application.
 -   **Windows: Secondary processes separated by a comma**: A unique identifier for the secondary running instance of the Windows application.
 -   **Mac: Enter the process name \(ex. process.dmg\)**: A unique identifier for the primary running instance of the macOS application.
--   **Mac: Secondary processes separated by a comma**: A unique identifier for the secondary or additional running instances of the macOS application.
+-   **Mac: Secondary processes separated by a comma**: A unique identifier for the secondary or more running instance of the macOS application.
 -   **Web Endpoint Connection**: A comma-separated list of domains used for measuring network latency. Example: company-name.zoom.us, company-name.outlook.com.
 
 **Note:** Typically, you fill in this field for the applications you have installed that connect to the cloud.
@@ -83,12 +83,12 @@ Monitoring
 
 </td><td>
 
-Toggle switch to turn on or turn off monitoring for the application performance and system compliance.This field has the following options:
+Toggle switch to enable or disable monitoring for the application performance and system compliance.This field has the following options:
 
 -   **Compliance**: Enables reporting on whether this application is running on your organization's devices.
 -   **Metrics**: Enables performance reporting for this application.
 
-Move the monitoring toggle switch \(\[Omitted image "icon-toggle-button-enabled.png"\] Alt text:\) to turn the reporting on or off.
+Move the monitoring toggle switch \(\[Omitted image "icon-toggle-button-enabled.png"\] Alt text: Use the toggle switch to activate monitoring for the application.\) to turn the reporting on or off.
 
 **Note:** You can also enable monitoring for multiple applications simultaneously. From the Application management page, use the bulk check box to select multiple applications, and adjust your selection as needed with the individual check boxes for each app.
 

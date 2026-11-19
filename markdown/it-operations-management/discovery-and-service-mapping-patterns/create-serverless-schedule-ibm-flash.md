@@ -46,66 +46,14 @@ Role required: discovery\_admin
 
     2.  On the form, fill in the fields.
 
-<table id="create-serverless-schedule-ibm-flash-table-1"><thead><tr><th>
+        |Field|Description|
+        |-----|-----------|
+        |Name|Unique name for this discovery schedule.|
+        |Discover|Scan type, which should be `Serverless`.|
+        |MID server|Name of the MID Server to use for this schedule.|
+        |Active|Option to enable this schedule for discovery.|
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Unique name for this discovery schedule.
-
-</td></tr><tr><td>
-
-Discover
-
-</td><td>
-
-Scan type, which should be `Serverless`.
-
-</td></tr><tr><td>
-
-MID Server selection method
-
-</td><td>
-
-Method that Discovery uses to select a MID Server:-   `Specific MID Cluster`: Use a preconfigured cluster of MID Servers. The MID Server can’t be part of multiple clusters
--   `Specific MID Server`: Use only one MID Server. If that MID Server is part of a cluster, only that MID Server is used. The cluster isn’t used.
-
-
-</td></tr><tr><td>
-
-MID server
-
-</td><td>
-
-Name of the MID Server to use for this schedule. This field is available if **MID Server selection method** is set to `Specific MID Server`.
-
-</td></tr><tr><td>
-
-MID Server cluster
-
-</td><td>
-
-Name of the MID Server cluster to use for this schedule. This field is available if **MID Server selection method** is set to `Specific MID Cluster`.
-
-</td></tr><tr><td>
-
-Active
-
-</td><td>
-
-Option to enable this schedule for discovery.
-
-</td></tr></tbody>
-</table>    3.  Select **Submit**.
+    3.  Select **Submit**.
 
 3.  Create the execution pattern.
 

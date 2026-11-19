@@ -1,22 +1,22 @@
 ---
 title: AI Service Graph Connector for IBM
-description: The AI Service Graph Connector for IBM enables you to discover and import AI assets from your IBM environment into ServiceNow AI Control Tower.
+description: The AI Service Graph Connector for IBM enables you to discover and import AI assets from your IBM environment into ServiceNow Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/ai-sgc-ibm.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
-breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI Service Graph Connector for IBM
 
-The AI Service Graph Connector for IBM enables you to discover and import AI assets from your IBM environment into ServiceNow AI Control Tower.
+The AI Service Graph Connector for IBM enables you to discover and import AI assets from your IBM environment into ServiceNow Control Tower.
 
-The AI Service Graph Connector for IBM integrates with your IBM account to catalog AI systems, agents, tools, models, and prompts. After discovery is run, usage data is automatically collected and populated into the AI Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
+The AI Service Graph Connector for IBM integrates with your IBM account to catalog AI systems, agents, tools, models, and prompts. After discovery is run, usage data is automatically collected and populated into the Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
 
 ## Request apps on the Store
 

@@ -1,96 +1,91 @@
 ---
 title: Configure a webhook
-description: Integrate with a webhook to connect to an external event source and push event information to your ServiceNow instance.
+description: Integrate with a webhook to connect to an external event source and push event information to your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/configure-fault-management.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
-breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Fault Management: Events and alerts, Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---
 
 # Configure a webhook
 
-Integrate with a webhook to connect to an external event source and push event information to your ServiceNow instance.
+Integrate with a webhook to connect to an external event source and push event information to your ServiceNow AI Platform® instance.
 
 ## Before you begin
 
-The plugins listed in the following table must be installed.
+To complete this task, the following plugins are required:
 
 |Plugin|Plugin ID|Plugin description|
 |------|---------|------------------|
-|TSOM Event Management Connectors|sn\_tsom\_em\_conns|TSOM Assurance Connectors for events and metrics|
+|TSOM Event Management Connectors|sn\_tsom\_em\_connectors|TSOM Assurance Connectors for events and metrics|
 |TSOM Event Management Core|sn\_tsom\_em\_core|TSOM Assurance Core features|
 
 Role required: TSOM Assurance admin
+
+## About this task
+
+Configure a webhook to monitor SD-WAN network devices using ServiceNow AI Platform Event Management. This application collects event data from your device, generates alerts, and helps you detect and resolve configuration and performance issues.
+
+All events are received in the ServiceNow AI Platform® dashboard and automatically mapped to alerts. Event rules evaluate each incoming event and determine whether to create an alert or link it to an existing one. You can define custom event rules, receive notifications using webhook mechanism, and integrate with external systems through the Integrations Launchpad.
 
 ## Procedure
 
 1.  Navigate to &gt; **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation pane, select the Integrations Launchpad icon \[Omitted image "integrations\_launchpad\_icon.png"\] Alt text:.
+2.  From the left pane, select the Integrations Launchpad icon \[Omitted image "integrations\_launchpad\_icon.png"\] Alt text:.
 
-3.  Select the **Browse Integrations** tab
+3.  Select the **Browse Integrations** tab, and search for the desired integration \(for example, Meraki or Fortinet\).
 
-4.  Search for the desired integration \(for example, Meraki, Fortinet, or VeloCloud\).
+    \[Omitted image "integrations\_laundpad.png"\] Alt text: Integrations launchpad page
 
-5.  Select the integration tile.
+4.  Select the integration tile labeled **Events**.
 
-    For most integrations, select the **Events** tile.
+    \[Omitted image "meraki\_pushconnector.png"\] Alt text: Push connector details page
 
-    **Note:** For Fortinet, two integration tiles are available: **Events** and **Metrics \(Push\)**. Select the tile that matches the type of data you want to collect from your Fortinet system.
-
-6.  On the Provide details page, provide details about the connector type.
+5.  Provide details about the connector type on the **Provide details** screen.
 
     1.  In the **Connector name** field, enter a unique name for the connector type.
 
     2.  In the **Tags** field, enter tags to help locate and identify connectors of this type on the Express List.
 
-    3.  Add additional tags.
+        To add additional tags, select the plus sign next to the **Tags** field. The Add tags window opens.
 
-        1.  Select the plus sign next to the **Tags** field.
-        2.  In the Add tags window, provide the tag key and tag value.
+        1.  In the **Key** field, enter a tag key.
+        2.  In the **Value** field, enter a tag value.
         3.  Select **Add**.
-    4.  In the **Description** field, enter information to help identify this connector type.
+    3.  In the **Description** field, enter information to help identify this connector type.
 
-    5.  Verify that the vendor name in the **Source** field is correct.
+    4.  Verify that the vendor name in the **Source** field is correct.
 
-    6.  From the **Assignment group** drop-down list, select the group or team that is responsible for managing and maintaining the Push connector.
+    5.  From the **Assignment group** drop-down list, select the group or team that is responsible for managing and maintaining the Push connector.
 
-    7.  Select **Next**.
+    6.  Select **Next**.
 
-7.  On the Set-up push connector page, copy the auto-generated URL parameter value to the clipboard by selecting **Copy to clipboard** in the **URL parameter value** field.
+        The connector is saved in draft mode, and the process advances to the setup push connector section.
 
-    This URL is automatically generated.
+        \[Omitted image "push-connector-integration.png"\] Alt text: Push connector set-up page
 
-8.  Follow the instructions on the page to integrate your third-party connector with Event Management.
+6.  In the **URL parameter value** field, select **Copy to clipboard** to copy the auto-generated URL parameter value to the clipboard.
 
-9.  Select **Activate**.
+    This URL is generated by the code that depends on the ServiceNow AI Platform® instance and connector type to receive events from the third-party connector. Pasting the URL in your third-party connector configuration creates a webhook that enables it to send events to the ServiceNow AI Platform® instance.
 
-10. In the confirmation message, select **OK**.
+7.  Select **Activate** and then select **OK**.
 
-11. In the **Details** tab, view the connector details.
+8.  In the **Details** tab, view the connector details and the URL link and follow the step-by-step instructions to integrate your third-party connector with Event Management.
 
     The connector is saved and a notification is sent after the connector is active.
 
-12. After you receive a notification that the connector is active, select the **Events** tab to confirm successful configuration and event flow.
-
-    Incoming events might take a few minutes to appear in the dashboard.
+9.  Copy the **URL parameter value** from this page and enter it in your device's dashboard to enable incoming alerts.
 
 
-**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
+## What to do next
 
-**Related topics**  
+To confirm the successful configuration of the push connector and the flow of events into the system, select the **Events** tab.
 
-
-[Exploring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/exploring-event-management.md)
-
-[Arista VeloCloud installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/arista-velocloud-installed-integrations.md)
-
-[Cisco Meraki installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/meraki-installed-integrations.md)
-
-[Fortinet installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-service-ops/telecommunications-service-operations-management/fortinet-installed-integrations.md)
+**Note:** Incoming events might take a few minutes to appear in the ServiceNow AI Platform® dashboard.
 

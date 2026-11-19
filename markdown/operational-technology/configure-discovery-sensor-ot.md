@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/configure-discovery-sensor-ot.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
@@ -113,16 +113,4 @@ Register the Sensor
 Register the Sensor with the DMI and Console. This confirms that the Console and Sensor can communicate with each other. For more information, see [Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/registering-ot-sensor.md) for more information.
 
 </td></tr></tbody>
-</table>-   **[Install the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/install-discovery-sensor-for-ot.md)**  
-Download the Discovery Sensor for OT package and install the ISO image. Then install the Discovery Sensor for OT.
--   **[Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/registering-ot-sensor.md)**  
-When you have installed the Discovery Console for OT and the Discovery Sensor for OT, register the Sensor to the Console with the Console's Device Management Interface \(DMI\).
--   **[Device Management Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/dmi.md)**  
-The Device Management Interface \(DMI\) is a web-based interface where you configure and register a Discovery Sensor for OT to the Discovery Console for OT.
--   **[Deregister a Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/deregister-sensor-console.md)**  
-Deregister a Discovery Sensor for OT from the Discovery Console for OT that is no longer available on your system.
--   **[Remove a lost Sensor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/remove-lost-sensor-console.md)**  
-Remove a Sensor that no longer functions or is otherwise reported as having a lost connection from the Discovery Console for OT.
-
-**Parent Topic:**[Discovery Sensor for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-discovery-sensor-landing.md)
-
+</table>

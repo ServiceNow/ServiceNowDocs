@@ -1,5 +1,5 @@
 ---
-title: IP-Based Discovery Schedule form and fields table
+title: IP-Based Discovery Schedule Form Table
 description: A table of the fields and values to set up an IP-based Certificate Discovery schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/ip-based-cert-discovery-schedule-table.html
@@ -7,12 +7,12 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-11-12"
 reading_time_minutes: 1
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# IP-Based Discovery Schedule form and fields table
+# IP-Based Discovery Schedule Form Table
 
 A table of the fields and values to set up an IP-based Certificate Discovery schedule.
 

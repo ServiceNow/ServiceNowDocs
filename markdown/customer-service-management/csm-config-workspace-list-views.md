@@ -1,40 +1,37 @@
 ---
-title: CRM Workspace list pages
-description: List pages in CRM Workspace provide agents with filtered lists of cases, interactions, and other records including accounts and contacts. Agents can use lists to search for records, sort and group records, and select records to view information.
+title: CSM Configurable Workspace list pages
+description: List pages in CSM Configurable Workspace provide agents with filtered lists of cases, interactions, and other records including accounts and contacts. Agents can use lists to search for records, sort and group records, and select records to view information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-config-workspace-list-views.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-26"
-reading_time_minutes: 2
-breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+last_updated: "2026-11-10"
+reading_time_minutes: 3
+breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CRM Workspace list pages
+# CSM Configurable Workspace list pages
 
-List pages in CRM Workspace provide agents with filtered lists of cases, interactions, and other records including accounts and contacts. Agents can use lists to search for records, sort and group records, and select records to view information.
+List pages in CSM Configurable Workspace provide agents with filtered lists of cases, interactions, and other records including accounts and contacts. Agents can use lists to search for records, sort and group records, and select records to view information.
 
-\[Omitted image "csm-config-ws-lists.png"\] Alt text: CRM Workspace includes several filtered lists that display database table, record, and field data
+\[Omitted image "csm-config-ws-lists.png"\] Alt text: CSM Configurable Workspace includes several filtered lists that display database table, record, and field data
 
 A list page is a content page that displays records from a table, such as cases or case tasks. List pages help agents navigate and manage records.
 
-## Using lists in CRM Workspace
+## Using lists in CSM Configurable Workspace
 
-From a list page, agents can:
+From a list page, agents can search, select, and filter records and perform quick actions such as updating individual fields or updating forms.
 
--   Select a filtered list of records such as **Cases** &gt; **My Cases**.
--   Create a list of records by selecting the table, the columns to display in the list, and filter conditions that apply to the list.
--   Search a list of records
--   Filter, sort, and group records in a list
+|Action|Description|
+|------|-----------|
+|Select a filtered list of records|The **Default lists** tab in the List menu component includes filtered lists of records such as **Cases** &gt; **My Cases**.|
+|[Create a customized list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-ws-create-custom-list.md)|Create a list of records in the **My lists** tab by selecting the table, the columns to display in the list, and filter conditions that apply to the list.|
+|[Manage customized record lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-ws-manage-custom-list.md)|Manage the customized lists of records that you create. Save a copy of a list, rename a list, share or delete a list, or open a list in a new tab.|
+|[Search and filter lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-ws-search-filter-lists.md)|Search a list of records. You can also filter, sort, and group records in a list.|
+|[Filter the information in individual columns in a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-ws-list-filter-columns.md)|Use filters at the top of each column to filter the information displayed within individual columns.|
+|[Use quick actions on individual records in a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-ws-list-quick-actions.md)|Use quick actions on individual records such as the **Edit form** action.|
 
-For more information, see the following topics:
-
--   [Search and filter lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-ws-search-filter-lists.md)
--   [Create a customized list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-ws-create-custom-list.md)
--   [Manage customized record lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-ws-manage-custom-list.md)
--   Using lists in Configurable Workspace
-
-## Configuring lists in CRM Workspace
+## Configuring lists in CSM Configurable Workspace
 
 Users with the administrator role can configure [list components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-config-workspace-list-components.md) in UI Builder.
 
@@ -42,7 +39,7 @@ Additional list features are configured using system properties. For more inform
 
 ## List components
 
-List pages in CRM Workspace are made up of multiple components that present information and enable agents to search, sort and filter, and select records.
+List pages in CSM Configurable Workspace are made up of multiple components that present information and enable agents to search, sort and filter, and select records.
 
 <table id="table_owv_yzq_xkc"><thead><tr><th>
 
@@ -93,7 +90,7 @@ Enables users to set conditions from the record list header to filter which reco
 
 </td><td>
 
-Displays data from the source table in columns and rows.
+Displays data from the source table in columns and rows. Agents can sort, filter, and edit items in the list.
 
 </td></tr><tr><td>
 
@@ -116,5 +113,4 @@ For more information about working with lists, see the following topics in the [
 
 -   [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/lists-configurable-workspace.md)
 -   [Administering lists for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/administer-lists-configurable-workspace.md)
--   Using lists in Configurable Workspace
 

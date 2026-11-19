@@ -7,9 +7,9 @@ release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Use, Proactive Service Experience Workflows, Product Support for Technology]
+breadcrumb: [Use, Proactive Service Experience Workflows]
 ---
 
 # Diagnose and resolve an incident
@@ -59,7 +59,7 @@ The incident progresses through several stages from start to closure. It begins 
 
 6.  Diagnose the incident to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/decision-table.md).
+    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see .
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 
@@ -69,9 +69,9 @@ The incident progresses through several stages from start to closure. It begins 
 
     3.  Expand the cards in the **Available test suite**.
 
-        To setup test definitions, see .
+        To setup test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/settingup-test-specifications.md).
 
-        To setup test group, see .
+        To setup test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/setting-test-group.md).
 
     4.  In the manual test, select single/multiple tests.
 

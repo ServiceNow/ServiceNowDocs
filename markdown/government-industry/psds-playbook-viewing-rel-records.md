@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-playbook-viewing-rel-records.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Using the contextual side panel, Using Service Request Playbooks, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using the contextual side panel, Service Request Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Viewing the dynamic related records in Service Request Administration
@@ -54,7 +54,7 @@ Default related record
 
 </th></tr></thead><tbody><tr><td>
 
-Intake
+lntake
 
 </td><td>
 
@@ -147,7 +147,7 @@ View the related records in the contextual side panel
 
 </td><td>
 
-Related Records icon \(\[Omitted image "related-records-icon.png"\] Alt text: Related Records icon.\) that you can select to view the Related Records list.
+Related Records icon \(\[Omitted image "contextual-side-panel-related-records.jpg"\] Alt text: Related Records icon.\) that you can select to view the Related Records list.
 
  Related records appear as a card format in the list. The initial set of records that display in the list is determined by the record type that you select in the filter at the top of the list.
 

@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector Framework reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector check definition page
@@ -87,14 +87,6 @@ Command
 
     -   Simple template: `{{.labels.params_field_name}}`: Takes values from entries in the **Parameters** tab. For example, a string of `{{.labels.params_warning}}` means that the value of the **warning** parameter is used \(provided it has been configured on the **Parameters** tab\).
     -   Monitored CI: `{{.labels.params_ci_field_name}}`: Takes values automatically from the monitored CI, where `field_name` is replaced with the exact name of the required field in the CI table.
-
-</td></tr><tr><td>
-
-Configuration Data Files
-
-</td><td>
-
-Select the configuration data files to be downloaded when the check runs.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: zurich
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Communities references, Communities, Customer Service Management]
 ---

@@ -7,9 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-12-03"
 reading_time_minutes: 1
-breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Incident diagnostics and suggested resolutions, DEX for service desk agents, Digital End-User Experience, IT Operations Management]
 ---
 
 # Playbook for remedial actions in incident investigation with DEX
@@ -18,7 +18,7 @@ The Playbook Experience displays current and past remedial actions executed from
 
 Remedial actions executed from the following sources are displayed in the **Playbooks** panel of the incident record:
 
--   Suggested resolutions from the **Investigation** tab of the incident record.
+-   Suggested resolutions from the Investigation tab of the incident record.
 -   Action library within the incident record
 -   Action library within a DEX device page
 -   DEX Self-service for employees

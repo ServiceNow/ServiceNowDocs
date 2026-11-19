@@ -1,5 +1,5 @@
 ---
-title: Journal field frameworks
+title: Journal field framework
 description: The Journal Field Framework \(JFF\) enables real-time synchronization of journal type fields, such as comments and work notes, between provider and consumer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/service-exchange/service-bridge-v2-expolre-journal-field-framework.html
@@ -7,13 +7,12 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-keywords: [journal field framework, JFF, journal synchronization, comments work notes, remote task definition]
 breadcrumb: [Explore, Service Exchange]
 ---
 
-# Journal field frameworks
+# Journal field framework
 
 The Journal Field Framework \(JFF\) enables real-time synchronization of journal type fields, such as comments and work notes, between provider and consumer.
 
@@ -21,7 +20,7 @@ JFF also enhances operational transparency, preserves historical context, and ve
 
 The synchronization of journal type fields between consumer and provider instances is enabled through a Remote Task Definition \(RTD\) configured with compatibility version 2.2.x or later.
 
-With JFF, you can do the following:
+With JFF, you can do the following.
 
 -   **Journal field mapping**
 
@@ -53,7 +52,7 @@ With JFF, you can do the following:
 
     Synchronize all historical journal entries between consumer and provider instances for a remote task.
 
-    If the **Sync pre-existing entries** option is configured during Remote Task Definition \(RTD\) setup and while activating the RTD. All journal comments made in a task are synchronized between the consumer and provider instances when a remote task is connected.
+    If the **Sync pre-existing entries** option is configured during Remote Task Definition \(RTD\) setup and while activating the RTD, all journal comments made in a task are synchronized between the consumer and provider instances when a remote task is connected.
 
 
 ## Considerations

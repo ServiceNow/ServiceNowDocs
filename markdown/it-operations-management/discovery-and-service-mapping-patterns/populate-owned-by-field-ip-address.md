@@ -50,7 +50,7 @@ Run Discovery again to apply the change.
 
 **Previous topic:**[Enable Oracle Wallet authentication for discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md)
 
-**Next topic:**[Cryptographic Asset Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/CAC-landing-page.md)
+**Next topic:**[AI Agent Topology Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/ai-agent-topology-mapping-reference.md)
 
 **Related topics**  
 

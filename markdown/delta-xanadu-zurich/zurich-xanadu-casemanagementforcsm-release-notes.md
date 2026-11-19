@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-casemanagementforcsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
@@ -201,7 +201,7 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key sharing-task-plan-template\]](https://www.servicenow.com/docs/access?context=sharing-task-plan-template&family=zurich&ft:locale=en-US)**
+-   **[sharing task plan template](https://www.servicenow.com/docs/access?context=sharing-task-plan-template&family=zurich&ft:locale=en-US)**
 
 Sharing task plan templates ensures that only authorized users can access, edit, or share templates based on their role and location, preventing misuse and maintaining operational integrity. Sharing task plant template features include:
 

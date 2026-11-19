@@ -7,7 +7,7 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 keywords: [Patterns, Azure, Cloud, Discovery, Visibility, CMDB]
 breadcrumb: [Reference, GCP, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -206,10 +206,6 @@ If an entry is marked with two asterisks, the resource type is supported by Serv
 |storage.googleapis.com/Bucket|N/A|Yes|cmdb\_ci\_cloud\_object\_storage|
 |storage.googleapis.com/Bucket|Yes|N/A|cmdb\_ci\_cmp\_resource|
 |storage.k8s.io/storageclass|Yes\*|Yes\*\*|cmdb\_ci\_cmp\_resource|
-
-\* These resource types are supported in Patterns only by utilizing the **Google Asset inventory** pattern's inclusion list. For more information, see [Google Cloud Platform \(GCP\) resource inventory discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/gcp-resource-inventory-discovery.md).
-
-\*\* These resource types are supported in Service Graph Connecters only by utilizing the \[sn\_cmdb\_int\_util\_service\_graph\_resource\_inclusion\_whitelist\] table.
 
 **Parent Topic:**[Service Graph Connector for GCP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-gcp-reference.md)
 

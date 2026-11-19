@@ -7,9 +7,9 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
 # Control topic visibility in Virtual Agent messaging channels
@@ -33,31 +33,33 @@ In your condition script for the topic, use a context variable to identify the m
 
 2.  Select the **Asset library** tab.
 
-3.  Select the topic for updating or create a new topic.
+3.  Set the discovery type toggle switch to **LLM** or **NLU/Keyword**, depending on which type you're working with.
 
-4.  Navigate to the **Properties** page, and open **Who can access this topic** under Advanced properties.
+4.  Select the topic for updating or create a new topic.
 
-5.  In the Context section, select **Condition** followed by **Add Condition**.
+5.  Navigate to the **Properties** page, and open **Who can access this topic** under Advanced properties.
 
-6.  Enter a condition script that identifies the messaging channel \(Slack or Microsoft Teams\) from which the topic will be excluded.
+6.  In the Context section, select **Condition** followed by **Add Condition**.
 
-    You can use the following example script, which contains the **vaContext.deviceType** variable, to identify the messaging channel that excludes the topic:
+7.  Enter a condition script that identifies the messaging channel \(Slack, Microsoft Teams, Workplace from Facebook, or Facebook Messenger\) from which the topic will be excluded.
+
+    You can use the following example script, which contains the **vaContext.deviceType** variable, to identify the messaging channel that excludes the topic: Slack, Microsoft Teams, Workplace, and Facebook Messenger.
 
     ```
     (function execute()
-    { if(vaContext.deviceType === 'Slack' || vaContext.deviceType === 'Teams'){
+    { if(vaContext.deviceType === 'Slack' || vaContext.deviceType === 'Teams' || vaContext.deviceType=='Facebook' || vaContext.deviceType=='Messenger'){
     return false;
     }
     return true;
     })()
     ```
 
-7.  To save the topic properties, click **Save**.
+8.  To save the topic properties, click **Save**.
 
 
 ## Result
 
-Publishing the topic deploys it to the Virtual Agent messaging channels, except for the Virtual Agent channels that you specified in the topic condition script.
+Publishing the topic deploys it to the Virtual Agent messaging channels, except for the Virtual Agent channels that you specified in the topic condition script. A keyword or an intent \(if using NLU\) does not trigger the topic.
 
 **Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

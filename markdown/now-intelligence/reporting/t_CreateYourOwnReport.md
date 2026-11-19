@@ -1,5 +1,5 @@
 ---
-title: Create a Core UI report
+title: Create a report
 description: Create Core UI reports in the legacy Report Designer tool to visualize and analyze instance data.Enter a question on the Report Designer form, and Analytics Q&amp;A generates a report. Analytics Q&amp;A gives you a choice of data sources and picks an appropriate visualization.When you edit a form, you can also choose to save, share, run, delete, or view more information about the report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/t\_CreateYourOwnReport.html
@@ -8,75 +8,69 @@ product: Reporting
 classification: reporting
 topic_type: task
 last_updated: "2026-09-17"
-reading_time_minutes: 7
-breadcrumb: [Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+reading_time_minutes: 6
+breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Create a Core UI report
+# Create a report
 
 Create Core UI reports in the legacy Report Designer tool to visualize and analyze instance data.
 
 ## Before you begin
 
-Role required: If the **com.snc.par.coreui.report\_create.enabled** system property is `true`, any user with an internal role can create Core UI reports. For more information, see [Platform Analytics experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/pae-properties.md).
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
-## About this task
+This topic refers to Reporting in the Core UI.
 
-**Important:** You cannot create Core UI reports on instances that were net new on Xanadu or later. On instances that were net new on older releases, you can continue to create Core UI reports, even if the instance was fully migrated to Platform Analytics.
-
-Consider creating Platform Analytics data visualizations instead of Core UI dashboards. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md).
-
-**Note:**
-
-Starting with Australia, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library. If the **com.snc.par.coreui.dashboard\_create.enabled** system property is `true`, you can also create Core UI dashboards from the Dashboards library.
+**Note:** On net new Zurich instances, only users with the report\_admin role can create reports. To visualization your information in these instances, or if your instance is migrated to Platform Analytics experience, see [Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/creating-data-visualizations.md).
 
 ## Procedure
 
 1.  Follow one of these paths.
 
-<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d207576e160">
+<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d198379e85">
 
 **Create a report**
 
 </td><td>
 
-Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **Create data visualization**. In the modal, select **Core UI**. For more information, see [Create Core UI reports on an upgraded instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-core-ui-reports-on-migrated-instance.md).
+Navigate to **Reports** &gt; **Create New**.
 
-</td></tr><tr><td id="d207576e206">
+</td></tr><tr><td id="d198379e103">
 
 **Edit an existing report**
 
 </td><td>
 
-**All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select a report with the UI version **Core**. Edit the report according to its type. For more information, see [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md).
+Navigate to **Reports** &gt; **View / Run** and click the edit icon \(\[Omitted image "Pencil.png"\] Alt text: The edit icon\) beside the report name.
 
-</td></tr><tr><td id="d207576e242">
+</td></tr><tr><td id="d198379e125">
 
-**Create a report on a Core UI dashboard**
-
-</td><td>
-
-Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**, select the Core UI dashboard where you want to add the report, and select the Add Widgets icon \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\).
-
-</td></tr><tr><td id="d207576e275">
-
-**Edit a report on a Core UI dashboard**
+**Create a report on a dashboard**
 
 </td><td>
 
-Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**, select the Core UI dashboard with the report you want to edit, and select the report.
+Navigate to the dashboard where you want to add the report, click the Add Widgets icon \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\), and select **Reports**.
+
+</td></tr><tr><td id="d198379e143">
+
+**Edit a report on a dashboard**
+
+</td><td>
+
+Navigate to the dashboard where the report resides and click **Edit**. To edit a report, click its edit icon \(\[Omitted image "Pencil.png"\] Alt text: Pencil\).
 
 </td></tr></tbody>
 </table>2.  On the **Configure** and **Style** tabs, fill in the fields, as appropriate.
 
-3.  Select **Save**.
+3.  Click **Save**.
 
     The report is generated.
 
-    **Note:** For details on creating a specific report type, see [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md).
+    **Note:** For details on creating a specific report type, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 
-**Parent Topic:**[Using Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_GenerateReports.md)
+**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_GenerateReports.md)
 
 **Related topics**  
 
@@ -91,13 +85,13 @@ Enter a question on the Report Designer form, and Analytics Q&amp;A generates a 
 
 Analytics Q&amp;A requires Natural Language Query \(NLQ\).
 
-NLQ also must be enabled for use with the Report Designer, in [Core UI Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-properties.md). Check with your administrator.
+NLQ also must be enabled for use with the Report Designer, in [Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-properties.md). Check with your administrator.
 
-**Note:** This topic refers to Reporting in the Core UI. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md).
+**Note:** This topic refers to Reporting in the Core UI. This functionality is not available if your instance is migrated to Platform Analytics experience. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md).
 
 Analytics Q&amp;A is not available when using Microsoft Internet Explorer.
 
-Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on. To create Core UI reports in the Brazil release, the system property **com.snc.par.coreui.report\_create.enabled** must be set to true.
+Role required: None
 
 ### About this task
 
@@ -114,15 +108,13 @@ The feature is not available in sessions that use an unsupported language.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **Create data visualization**.
+1.  Navigate to **All** &gt; **Reports** &gt; **Create New**.
 
-2.  In the modal, select **Core UI**.
-
-3.  Start typing the information you want in the report into the Analytics Q&amp;A field.
+2.  Start typing the information you want in the report into the Analytics Q&amp;A field.
 
     Analytics Q&amp;A uses keywords in your query to determine what kind of information you are looking for. It displays suggestions while you type based on these keywords. To see a full list of keywords and their uses, click **How can I improve my results**.
 
-4.  Select **Ask**.
+3.  Select **Ask**.
 
     Analytics Q&amp;A generates the report, including an appropriate visualization.\[Omitted image "nlq-generates-report.gif"\] Alt text: Animation showing a report being generated with Analytics Q&amp;A
 
@@ -131,13 +123,18 @@ The feature is not available in sessions that use an unsupported language.
 
 You can modify the report, such as changing the visualization type, in the left-margin menu. If you enter a new query and select **Ask**, you generate a new report. Any custom visualizations you added are cleared, but other settings persist in the new report.
 
+**Related topics**  
+
+
+[Analytics Q&amp;A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-q-and-a.md)
+
 ## Report options
 
 When you edit a form, you can also choose to save, share, run, delete, or view more information about the report.
 
 **Note:**
 
-On net new Brazil instances and instances migrated to Platform Analytics experience, Reporting functionality is replaced with Data Visualizations. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md).
+On net new Zurich instances and instances migrated to Platform Analytics experience, Reporting functionality is replaced with Data Visualizations. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md).
 
 All actions are available from the upper right side of the form, from the **Save** and **Share** lists and the **Info**, **Delete**, and **Run** buttons. Available report options vary depending on the role of the user working with the report.
 
@@ -152,14 +149,6 @@ Name
 Description
 
 </th></tr></thead><tbody><tr><td>
-
-Link \(\[Omitted image "link-icon.png"\] Alt text: Link icon\)
-
-</td><td>
-
-Displays the URL of a saved report that you can copy into other documents.
-
-</td></tr><tr><td>
 
 Info \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Info icon\)
 
@@ -279,5 +268,5 @@ Creates the report based on the conditions and layout you select.
 </table>**Related topics**  
 
 
-[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdminsteringReports.md)
+[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdminsteringReports.md)
 

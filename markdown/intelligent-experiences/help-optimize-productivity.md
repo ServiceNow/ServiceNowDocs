@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/help-optimize-productivity.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-27"
+last_updated: "2026-09-28"
 reading_time_minutes: 6
-breadcrumb: [Platform agentic workflows, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # Platform Help optimize team productivity agentic workflow
@@ -25,8 +25,6 @@ The agentic workflow performs the following tasks:
 -   Enables proactive team management with data-driven insights
 
 The agents, tools, and triggers that are associated with the Help optimize team productivity agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Prerequisites and setup
 
@@ -164,13 +162,7 @@ How often the scheduled job runs and triggers the agentic workflow.
 </td></tr></tbody>
 </table>## Accessing the Help optimize team productivity agentic workflow
 
-To access the agentic workflow in AI Agent Studio:
-
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
-2.  Select the **Agentic workflows** tab.
-3.  Select **Help optimize team productivity**.
-
-To access the agentic workflow in the legacy AI Agent Studio:
+To access the agentic workflow:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Help optimize team productivity**.

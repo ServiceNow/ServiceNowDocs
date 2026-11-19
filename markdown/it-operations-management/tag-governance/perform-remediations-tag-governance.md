@@ -7,7 +7,7 @@ release: zurich
 product: Tag Governance
 classification: tag-governance
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Preview audit reports for resources that tag policies identify as non-compliant.
 
 ## Before you begin
 
-Configure tag policies and remediation policies. See [Configure tag policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/configure-tag-governance-policy.md) and [Configure remediation policies for tag audit findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/configure-remediation-tag-governance-.md).
+Configure tag policies and remediation policies. See [Configure a tag policy for Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/configure-tag-governance-policy.md) and [Configure remediation policies on tag audit findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/tag-governance/configure-remediation-tag-governance-.md).
 
 **Note:** The update to cloud works only for AWS and Microsoft Azure Cloud resources for CMDB classes listed in the Tag Remediation form.
 

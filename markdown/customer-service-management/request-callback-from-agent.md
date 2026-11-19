@@ -1,16 +1,16 @@
 ---
-title: Working with callback requests from customers
+title: Working with callback requests from an agent
 description: Customers can request a callback from an agent when the wait time to reach an agent is too long or agents are unavailable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/request-callback-from-agent.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Use omnichannel callback, Customer communication, Use, Customer Service Management]
 ---
 
-# Working with callback requests from customers
+# Working with callback requests from an agent
 
 Customers can request a callback from an agent when the wait time to reach an agent is too long or agents are unavailable.
 

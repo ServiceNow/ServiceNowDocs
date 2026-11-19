@@ -7,7 +7,7 @@ release: zurich
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -76,15 +76,15 @@ When the generative AI experience is configured for catalog item request submiss
 
     Additionally, you can customize the fallback process by configuring your own record producer or by building additional logic in a new subflow.
 
-<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d572762e321">
+<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d568238e321">
 
 Option
 
-</th><th align="left" id="d572762e324">
+</th><th align="left" id="d568238e324">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d572762e330">
+</th></tr></thead><tbody><tr><td id="d568238e330">
 
 **Configure your own record producer. For example, to change the inputs in a Virtual Agent conversation.**
 
@@ -96,7 +96,7 @@ Description
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d572762e369">
+</td></tr><tr><td id="d568238e369">
 
 **Build additional logic in a new subflow. For example, to refer to a new record producer for each business.**
 

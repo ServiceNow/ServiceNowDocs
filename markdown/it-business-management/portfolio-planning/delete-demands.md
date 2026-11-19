@@ -24,8 +24,6 @@ Role required: it\_demand\_user or it\_demand\_manager
 
 Deleting a demand removes all related data, including risks, demand tasks, requirements, and decisions. Stakeholders remain in the Stakeholder Register \[dmn\_stakeholders\_register\] table.
 
-Any open assessments for the demand, classic or smart, are cancelled. For more information, see [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/smart-assessments-overview-ppw.md).
-
 If a project has already been created from a demand, its reference is removed from the project along with the data related to the demand.
 
 ## Procedure

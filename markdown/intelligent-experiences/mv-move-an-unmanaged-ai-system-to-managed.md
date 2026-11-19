@@ -1,19 +1,19 @@
 ---
 title: Move an unmanaged AI system to managed
-description: When an AI system is unmanaged, its value data stops appearing on the value dashboard and its value templates are unpublished. Move it back to managed in AI Control Tower to restore value tracking.
+description: When an AI system is unmanaged, its value data stops appearing on the value dashboard and its value templates are unpublished. Move it back to managed in Control Tower to restore value tracking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mv-move-an-unmanaged-ai-system-to-managed.html
 release: zurich
 topic_type: task
 last_updated: "2026-10-01"
 reading_time_minutes: 1
-keywords: [AI Control Tower, move to managed, unmanaged AI system, AI asset inventory]
-breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+keywords: [Control Tower, move to managed, unmanaged AI system, AI asset inventory]
+breadcrumb: [Value, Configure, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Move an unmanaged AI system to managed
 
-When an AI system is unmanaged, its value data stops appearing on the value dashboard and its value templates are unpublished. Move it back to managed in AI Control Tower to restore value tracking.
+When an AI system is unmanaged, its value data stops appearing on the value dashboard and its value templates are unpublished. Move it back to managed in Control Tower to restore value tracking.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ The value dashboard shows insights only for managed AI systems. Move an unmanage
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home**.
 
 2.  Navigate to **Inventory** &gt; **Assets**.
 
@@ -37,7 +37,7 @@ The value dashboard shows insights only for managed AI systems. Move an unmanage
 
 4.  From the **Action** list, select **Move to Managed**.
 
-    \[Omitted image "mv-move-to-managed.png"\] Alt text: Action menu in AI Control Tower with the Move to Managed option highlighted.
+    \[Omitted image "image.mv-move-to-managed"\] Alt text: Action menu with the Move to Managed option highlighted.
 
     A confirmation message appears, confirming the AI system is now managed.
 

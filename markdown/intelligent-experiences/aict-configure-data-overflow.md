@@ -1,6 +1,6 @@
 ---
 title: Change the data overflow processing setting
-description: Keep all ServiceNow Otto traffic in ServiceNow datacenters by opting out of data overflow processing, or opt back in to restore bursting to Microsoft Azure during traffic spikes.
+description: Keep AI traffic in ServiceNow datacenters by opting out of data overflow processing, or opt back in to restore bursting to Microsoft Azure during traffic spikes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-configure-data-overflow.html
 release: zurich
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-11-02"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring data controls, Configuring ServiceNow AI settings, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring data controls, Configuring ServiceNow AI settings, Configure, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Change the data overflow processing setting
 
-Keep all ServiceNow Otto traffic in ServiceNow datacenters by opting out of data overflow processing, or opt back in to restore bursting to Microsoft Azure during traffic spikes.
+Keep AI traffic in ServiceNow datacenters by opting out of data overflow processing, or opt back in to restore bursting to Microsoft Azure during traffic spikes.
 
 ## Before you begin
 
@@ -21,27 +21,27 @@ Role required: sn\_ai\_governance.ai\_steward or admin
 
 ## About this task
 
-Data overflow processing is active by default. Opting out keeps all traffic in ServiceNow datacenters but can cause processing delays or capacity overflow errors during high-traffic periods. You can opt back in at any time.
+Data overflow processing is active by default. Opting out keeps traffic in ServiceNow datacenters but can cause processing delays or capacity overflow errors during high-traffic periods. You can opt back in at any time.
 
 If multi-instance management is configured, change this setting on the production instance, because it's read-only on sub-prod instances.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **ServiceNow AI**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **ServiceNow AI**.
 
 2.  Select the **Data controls** tab.
 
 3.  Change the data overflow processing setting for your situation.
 
-<table><thead><tr><th align="left" id="d332819e116">
+<table><thead><tr><th align="left" id="d249854e113">
 
 Scenario
 
-</th><th align="left" id="d332819e119">
+</th><th align="left" id="d249854e116">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d332819e125">
+</th></tr></thead><tbody><tr><td id="d249854e122">
 
 **Keep all traffic in ServiceNow datacenters**
 
@@ -51,7 +51,7 @@ Steps
 2.  In the confirmation dialog box, select **Opt out**.
 
 
-</td></tr><tr><td id="d332819e155">
+</td></tr><tr><td id="d249854e152">
 
 **Restore bursting to Microsoft Azure**
 

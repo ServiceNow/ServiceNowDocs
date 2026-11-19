@@ -7,7 +7,7 @@ release: zurich
 topic_type: topic
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Asset Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [IT Asset Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
 # AI Cost Management release notes
@@ -20,7 +20,7 @@ The ServiceNow® AI Cost Management application gives you comprehensive visibili
 -   Automatically retrieve and process usage and cost data for your AI accounts through supported provider integrations.
 -   Stay ahead of potential AI budget overages through configurable spend limits and alerts.
 
-See  for more information.
+See [AI Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/ai-cost-management.md) for more information.
 
 ## Activation and other requirements
 
@@ -28,10 +28,10 @@ See  for more information.
 
 -   **Activation information**
 
-    Install AI Cost Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install AI Cost Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/it-asset-management-rn-landing.md)
+**Parent Topic:**[IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/it-asset-management-rn-landing.md)
 
 ## Version 1.0
 
@@ -39,23 +39,23 @@ Version 1.0 is the initial release of AI Cost Management.
 
 ### What's new
 
--   ****
+-   **[Integrating with AI providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/integrating-ai-saas-providers.md)**
 
     Import AI cost and usage data from Anthropic Claude Enterprise and Microsoft Copilot. Data is refreshed daily.
 
--   ****
+-   **[Home view in the AI Cost Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/home-view.md)**
 
     Use the Home view to review active alerts, total AI spend across Claude and Copilot, and top spenders for a given time period.
 
--   ****
+-   **[View your AI spend and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/view-ai-usage-spend.md)**
 
     Review month-over-month trends and see spend attributed to products, models, cost centers, departments, and users. Drill down to view spend broken down even further.
 
--   ****
+-   **[Set up an AI spend limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/set-up-spend-limits.md)**
 
     Set monthly spend limits at the account, cost center, and department level. View user spend limits imported from Anthropic. Configure percentage thresholds on spend limits that, when exceeded, trigger alerts.
 
--   ****
+-   **[Review AI spend alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/review-resolve-alerts.md)**
 
     Review alerts generated when a spend limit threshold is exceeded and take action to avoid over-spend. Each alert is assigned a severity based on how quickly spend is burning against the limit.
 

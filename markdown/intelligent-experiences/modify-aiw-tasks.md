@@ -1,19 +1,19 @@
 ---
-title: Edit the tasks of an AI specialist in the legacy AI Agent Studio
-description: Select tasks that an AI specialist can perform in the legacy AI Agent Studio.
+title: Edit the tasks of an AI specialist in AI Agent Studio
+description: Select tasks that an AI specialist can perform in AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/modify-aiw-tasks.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-13"
+last_updated: "2026-08-20"
 reading_time_minutes: 6
 keywords: [ai specialist tasks, ai specialist actions, ai specialist capabilities, ai specialist configure, ai specialist settings, ai specialist classify assign, ai specialist triage diagnose, ai specialist investigate resolve, ai specialist response formatting, ai specialist reassign]
-breadcrumb: [Configure in the legacy AI Agent Studio, Configure, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Configure, Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
 
-# Edit the tasks of an AI specialist inthe legacy AI Agent Studio
+# Edit the tasks of an AI specialist in AI Agent Studio
 
-Select tasks that an AI specialist can perform inthe legacy AI Agent Studio.
+Select tasks that an AI specialist can perform in AI Agent Studio.
 
 ## Before you begin
 
@@ -54,6 +54,11 @@ To learn how to modify the roles and capabilities that an AI specialist has, see
         -   **Field to use as Task objective**: Select the record fields which the AI specialist uses to analyze and determine the next steps.
         -   **Use attachment content**: Enable the option for the AI specialist to review the content of attached files as part of incident triage and diagnosis.
         -   **Map AI specialist states to record states**: Map the states of the AI specialist's execution to the states of the incident record. For example, the AI specialist's **Awaiting information** state can be mapped to the Incident record **On Hold** state. If you have customized state values for your Incident table, you can map them to the AI specialist's states here.
+        -   **Default routing decision**: Select the routing decision that the AI specialist falls back to when an incident matches none of the routing criteria. Select one of the following options:
+            -   **Resolve without root cause analysis**
+            -   **Perform root cause analysis**
+            -   **Ask the caller for more information**
+            -   **Route to the service desk team**
         -   **Routing criteria**: Add criteria that determine which records the AI specialist handles. Criteria are grouped into two sections:
 
             -   **Attempt resolution for**: When an incident matches one of these criteria, the AI specialist attempts to resolve it.

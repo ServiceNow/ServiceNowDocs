@@ -1,42 +1,42 @@
 ---
-title: ServiceNow Lux Lab for VS Code release notes
-description: The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.Page collections are now page variants, including a new \_variants folder for new projects.Create a page collection for an existing route using the command palette or the file explorer, without leaving the editor.
+title: ServiceNow AI Experience Lab for VS Code release notes
+description: The ServiceNow AI Experience Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.Page collections are now page variants, including a new \_variants folder for new projects.Create a page collection for an existing route using the command palette or the file explorer, without leaving the editor.The ServiceNow AI Experience Lab for VS Code is now named ServiceNow AI Experience Lab for VS Code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/servicenow-ai-experience-lab-for-vs-code-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2026-09-10"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
 keywords: [ServiceNow AI Experience Lab for VS Code, ServiceNow AI Experience Lab for VS Code release notes, AI Experience Framework, Extend ServiceNow experiences]
-breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
-# ServiceNow Lux Lab for VS Code release notes
+# ServiceNow AI Experience Lab for VS Code release notes
 
-The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
+The ServiceNow® AI Experience Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
 
-## About ServiceNow Lux Lab for VS Code
+## About ServiceNow® AI Experience Lab for VS Code
 
 -   Scaffold experiences, pages, and widgets with framework intelligence.
 -   Extend base system applications with experiences and pages tailored to your organization's needs.
--   Run commands via the ServiceNow Lux Lab for VS Code extension interface rather than using the terminal.
+-   Run commands via the ServiceNow® AI Experience Lab for VS Code extension interface rather than using the terminal.
 -   Preview your application in real time without leaving Visual Studio Code.
 -   Access relevant experiences, pages, and widgets from your instance.
 -   Develop tailored experiences with AI tools.
 
-See [extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-ai-experience-lab-for-vs-code-landing.md) for more information.
+See [ServiceNow® AI Experience Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-ai-experience-lab-for-vs-code-landing.md) for more information.
 
 ## Activation and other requirements
 
-**Note:** ServiceNow Lux Lab for VS Code is available in the Visual Studio Code Marketplace. For details, see the following activation information.
+**Note:** ServiceNow® AI Experience Lab for VS Code is available in the Visual Studio Code Marketplace. For details, see the following activation information.
 
 -   **Activation information**
 
-    Install ServiceNow Lux Lab for VS Code by requesting it from the Visual Studio Code Marketplace.
+    Install ServiceNow® AI Experience Lab for VS Code by requesting it from the Visual Studio Code Marketplace.
 
 -   **Additional requirements**
 
-    The ServiceNow Lux Lab for VS Code extension requires the following:
+    The ServiceNow® AI Experience Lab for VS Code extension requires the following:
 
 <table id="table_imf_rfb_dkc"><thead><tr><th>
 
@@ -136,5 +136,16 @@ Create a page collection for an existing route using the command palette or the 
 -   **[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-page-variant-servicenow-ai-experience-lab-for-vs-code.md)**
 
     Support multiple page variations on the same route by creating collection pages directly from the command palette or the file explorer. Show different content to different users based on role without maintaining a separate page and URL for each audience.
+
+
+## September 2026
+
+The ServiceNow AI Experience Lab for VS Code is now named ServiceNow® AI Experience Lab for VS Code.
+
+### What's changed
+
+-   **ServiceNow® AI Experience Lab for VS Code**
+
+    As of the September 2026 release, the ServiceNow AI Experience Lab for VS Code extension is now named ServiceNow Lux Lab for VS Code. The extension's functionality is unchanged; only the product name has been updated.
 
 

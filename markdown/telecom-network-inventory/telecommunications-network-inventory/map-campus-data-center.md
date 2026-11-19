@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Floor map, Network visualization view, Use, Telecommunications Network Inventory]
 ---
@@ -62,7 +62,7 @@ The Indoor Mapping campus record including buildings, floors, places are mapped 
 
 ## What to do next
 
-View the details of your datacenter infrastructure using the floor map. To learn more, see [View details of floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/view-details-floor-map.md).
+View the details of your datacenter infrastructure using the floor map. To learn more, see [View floor map details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/view-details-floor-map.md).
 
 **Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 

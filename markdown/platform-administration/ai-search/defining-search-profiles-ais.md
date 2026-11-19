@@ -7,9 +7,10 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-02-13"
 reading_time_minutes: 4
-breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Search profiles in AI Search
@@ -112,7 +113,7 @@ Stop words remove search query terms that don't produce meaningful results. Impr
 -   **[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/typo-handling-ais.md)**  
 AI Search replaces misspelled search query terms with auto-correction terms derived from indexed content. Configure typo handling dictionary settings to control derivation of auto-correction terms.
 -   **[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-results-ais.md)**  
-Optionally display the best answers for a search query as actionable Genius Result cards included with search results.
+Configure Genius Results to display AI-powered answer cards alongside search results. These cards provide direct answers to user queries, reducing the need to browse multiple search results.
 -   **[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/result-improvement-rules-ais.md)**  
 Define rules with configurable trigger conditions to boost, block, or promote search results for specific searches. You can also boost search results for documents matching elements of the user context, such as a user's country, OS, or device type.
 

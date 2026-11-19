@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_CreateAFormatter.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Formatters, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Formatters, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer]
 ---
 
 # Create a formatter and add it to a form
@@ -16,7 +16,7 @@ Create the formatter after creating the UI macro that defines the content.
 
 ## Before you begin
 
-Role required: ui\_macro\_admin
+Role required: admin
 
 ## About this task
 

@@ -1,19 +1,19 @@
 ---
 title: Identity
-description: Learn about the identities in the instance.
+description: Identity features help you manage user identities, monitor identity-based risk, and audit changes in the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/identity-landing.html
 release: zurich
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-01-20"
 reading_time_minutes: 1
 ---
 
 # Identity
 
-Learn about the identities in the instance.
+Identity features help you manage user identities, monitor identity-based risk, and audit changes in the instance.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

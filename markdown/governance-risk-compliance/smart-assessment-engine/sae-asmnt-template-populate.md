@@ -7,7 +7,7 @@ release: zurich
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Create an assessment template, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -64,11 +64,7 @@ Assessment reader role
 Role that is required to view an assessment that is generated from this template.
 
 </td></tr></tbody>
-</table>    **Note:** Changes on the **Details** and **Settings** pages aren't retained until you save them. Save your changes before you move between the Details and Settings pages, or to another tab.
-
-3.  Add instructions to the assessment.
-
-    **Note:** Your changes on the **Questions**, **Automations**, and **Scoring** tabs are retained when you switch between tabs.
+</table>3.  Add instructions to the assessment.
 
     1.  On the **Questions** tab, select **Add instructions**.
 

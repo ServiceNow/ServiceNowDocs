@@ -1,26 +1,26 @@
 ---
 title: Configure tables and fields
-description: Configure tables and fields for Identity and Access Audit.
+description: Configure tables and fields in Identity and Access Audit to understand the changes made for a user, group, role, and ACL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/configure-tables-and-fields.html
 release: zurich
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Security auditable fields, Identity and Access Audit, Identity]
 ---
 
 # Configure tables and fields
 
-Configure tables and fields for Identity and Access Audit.
+Configure tables and fields in Identity and Access Audit to understand the changes made for a user, group, role, and ACL.
 
 ## Before you begin
 
 Role required: security\_admin
 
-You must elevate your role to Security Admin to configure tables and fields for Identity and Access Audit.
+You must elevate your role to security\_admin role to configure tables and fields for Identity and Access Audit.
 
 The following tables can be configured for auditing​:
 
@@ -40,13 +40,13 @@ The following tables can be configured for auditing​:
 
 1.  Navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Configure Tables &amp; Fields**.
 
-2.  Select the table that you need to audit.
+2.  Select the table that contains the field that you need to audit.
 
     For example, **sys\_user**.
 
     \[Omitted image "configure-fields.png"\] Alt text: Sys user table
 
-3.  Add one or more fields to be audited.
+3.  Add the field to be audited.
 
     For example, **Password**.
 
@@ -56,7 +56,7 @@ The following tables can be configured for auditing​:
 
     -   Adding more fields from the available field list for audit.
     -   Enabling additional operations such as create, update, or delete.
-4.  Select **Update**.
+4.  Update the record.
 
     Any changes to the password field add a new record to the Security Table Audits. In this example, the audit shows a changed password field for the user **Abel Tuter**.
 

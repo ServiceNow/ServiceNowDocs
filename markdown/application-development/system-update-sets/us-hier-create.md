@@ -7,9 +7,9 @@ release: zurich
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Working with batched update sets, System update sets, Deploying applications, Classic app development, Building applications]
+breadcrumb: [Working with batched update sets, System update sets, Deploying applications, Building applications]
 ---
 
 # Create a batch update set
@@ -20,7 +20,7 @@ You include an update set in a batch by specifying another update set as its par
 
 Role required: admin
 
-When you add an in-progress update to a batch that is marked as complete, the status of the batch changes back to in progress.
+Adding a WIP update set to a completed batch resets the batch base to WIP.
 
 ## Procedure
 
@@ -28,12 +28,10 @@ When you add an in-progress update to a batch that is marked as complete, the st
 
 2.  Select the record for an update set that you want to include as a child in the batch.
 
-3.  Navigate to the parent field on the update set record.
+3.  On the Update Set record, navigate to the **Parent** field and select the update set to act as the parent.
 
-4.  Select the update set to act as the parent.
+4.  Click **Update**.
 
-5.  Select **Update**.
-
-    The system navigates back to the Update Sets list. When the parent column is displayed, it identifies the parent associated with the newly created child.
+    The system returns to the list of Update Sets. If the **Parent** column is visible, it shows the parent for the newly-created child.
 
 

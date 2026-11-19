@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_ProposeAKBArticleAsACaseSolution.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
@@ -42,15 +42,15 @@ Customer service case managers can use the Demand Insights for Cases dashboard t
 
 4.  Perform any of the following steps.
 
-<table id="choicetable_i5f_ckh_ndb"><thead><tr><th align="left" id="d205655e123">
+<table id="choicetable_i5f_ckh_ndb"><thead><tr><th align="left" id="d183676e123">
 
 To
 
-</th><th align="left" id="d205655e126">
+</th><th align="left" id="d183676e126">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d205655e132">
+</th></tr></thead><tbody><tr><td id="d183676e132">
 
 **Attach a knowledge article to the case**
 
@@ -64,7 +64,7 @@ The knowledge article is displayed in **Activities** as a work note and is visib
 3.  To make the article visible to customers, click **Post**.
  **Note:** You cannot attach Communities content to the Case form.
 
-</td></tr><tr><td id="d205655e173">
+</td></tr><tr><td id="d183676e173">
 
 **Mark the content as helpful for resolving the associated case**
 
@@ -72,7 +72,7 @@ The knowledge article is displayed in **Activities** as a work note and is visib
 
 Click **This helped** in the pop-up window.
 
-</td></tr><tr><td id="d205655e185">
+</td></tr><tr><td id="d183676e185">
 
 **Scroll to previous or next result**
 

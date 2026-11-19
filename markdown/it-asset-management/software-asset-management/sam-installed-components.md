@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [References, Software Asset Management, IT Asset Management]
 ---
 
 # Components installed with Software Asset Management Professional
@@ -42,7 +42,7 @@ Software Asset Management administrator \[sam\_admin\]
 
 </td><td>
 
-Granular admin role that has full access to the Software Asset Management application. This role is required to import entitlements, manage reclamation rules, run reconciliation, create custom products and pattern normalization rules, set up Content Service, and other administrative features.
+This role has full access to the Software Asset Management application. This role is required to import entitlements, manage reclamation rules, run reconciliation, create custom products and pattern normalization rules, set up Content Service, and other administrative features.
 
 </td><td>
 
@@ -87,7 +87,7 @@ SaaS License Management integration administrator\[sam\_integrator\]
 
 </td><td>
 
-Granular admin role required to create and manage SaaS integration profiles.
+Role required to create and manage SaaS integration profiles.
 
 </td><td>
 
@@ -147,7 +147,7 @@ Now Support Service Portal
 
 </td><td>
 
-This plugin is for releases prior to Brazil. Loads the following Software Asset Management Professional plugins in one step:
+This plugin is for releases prior to Zurich. Loads the following Software Asset Management Professional plugins in one step:
 
  -   Software Asset Management Professional \(com.snc.samp\) plugin
 -   All publisher pack add-on plugins

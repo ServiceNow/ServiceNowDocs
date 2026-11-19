@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Create and manage enterprise models, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create a multi-component model
@@ -26,13 +26,13 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 1.  Create a model by navigating to **Enterprise Asset Workspace** &gt; **Enterprise model management**
 
-    You can create a pre-assembled or an user-assembled model. For details on creating a model, see [Create enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-model-eam.md).
+    You can create a pre-assembled or user-assembled model. For instructions on how to create a model, see [Create enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-model-eam.md).
 
-2.  After you created a model, add model components to the model.
+2.  After you create a model, add model components to it.
 
-    For details on creating model components, see [Create enterprise model components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-model-components-eam.md).
+    You can add model components only when the model has a status of Build. In addition, each model component must have a status of In Production. For instructions on how to create model components, see [Create enterprise model components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-model-components-eam.md).
 
-3.  Once you added the model components to the model, change the status of the model to **In Production**.
+3.  After you add all model components to the model, change the status of the model to **In Production**.
 
 4.  Select **Publish to Enterprise Asset Catalog** to publish your model to the catalog.
 

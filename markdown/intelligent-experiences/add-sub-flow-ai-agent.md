@@ -1,18 +1,18 @@
 ---
 title: Add a subflow to an AI agent
-description: Add a subflow tool to an AI agent in AI Agent Studio. Subflows are reusable sequences of processing steps that can be called from within a flow.
+description: Add a subflow to an AI agent in AI Agent Studio. Subflows are reusable sequences of processing steps that can be called from within a flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/add-sub-flow-ai-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-21"
 reading_time_minutes: 3
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add a subflow to an AI agent
 
-Add a subflow tool to an AI agent in AI Agent Studio. Subflows are reusable sequences of processing steps that can be called from within a flow.
+Add a subflow to an AI agent in AI Agent Studio. Subflows are reusable sequences of processing steps that can be called from within a flow.
 
 ## Before you begin
 

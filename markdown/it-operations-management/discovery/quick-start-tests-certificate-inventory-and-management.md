@@ -20,13 +20,15 @@ The quick start tests for Certificate Inventory and Management validate certific
 
 The tests are inactive when the application is installed. Enable the Automated Test Framework test execution properties such as Test/Test Suite Properties, Test Debugging Properties, and Screenshot Properties before you run them. Run the tests only on development, test, and other non-production instances.
 
-To run a test, navigate to **All** &gt; **Automated Test Framework** &gt; **Tests**, open the test that you want, copy it, enter the parameter values for your instance, and then run the test using the **Run Test** button. Certificate Inventory and Management doesn't provide a test suite, so copy and run each test individually.
+To run a test, navigate to **All** &gt; **Automated Test Framework** &gt; **Tests**, open the test, and copy it. Enter the parameter values for your instance, then select the **Run Test** button. Certificate Inventory and Management doesn't provide a test suite, so copy and run each test individually.
 
 The certificate authority discovery tests require a MID Server, a credential alias for the authority, and the authority's URL.
 
 |Test|Description|
 |----|-----------|
 |Certificate Discovery|Certificate discovery for GoDaddy, Entrust, Digicert, and Sectigo. Discovery brings the certificates and persists them in cmdb\_ci\_certificate table. This test validates the certificates and CIs in the cmdb\_ci\_certificate tables.|
+
+To learn more about Certificate Inventory and Management, see [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cert-inventory-mgmt.md).
 
 **Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Use, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Use, ServiceNow AI Lens, Enable AI experiences]
 ---
 
 # Trigger ServiceNow AI Lens from the desktop app
@@ -75,95 +75,97 @@ By using Lens actions, you can perform one of the following tasks:
 
 7.  Select **Proceed with Lens**.
 
-    \[Omitted image "image.lens-actions-home-screen-proceed"\] Alt text: Proceed with Lens button.
+    \[Omitted image "lens-actions-home-screen.png"\] Alt text: Proceed with Lens button.
 
     Lens scanner opens in a separate window.
 
-8.  Perform one of the following methods to enable ServiceNow AI Lens to extract data from documents.
+    **Note:** Use the scanner window to scan the data of the screenshot so you can submit it for analysis.
 
-    -   Extract data from a single screen.
-        1.  On your system, open an artifact that you want to scan.
+8.  On your system, open an artifact that you want to scan.
 
-            An artifact can be an image, scanned or handwritten note, website, or application.
+    An artifact can be an image, scanned or handwritten note, website, or application.
 
-        2.  Place the ServiceNow AI Lensscannerwindow on the top of the artifact.
+9.  Place the ServiceNow AI Lensscannerwindow on the top of the artifact.
 
-            You can resize the ServiceNow AI Lens scanner window by dragging its borders.
+    You can resize the ServiceNow AI Lens scanner window by dragging its borders.
 
-    -   Extract data from multiple screenshots.
-        1.  Select the **Multi-capture** button \[Omitted image "multi-capture-icon.png"\] Alt text:.
-        2.  Select the Capture icon \[Omitted image "capture-icon.png"\] Alt text:.
-        3.  Place the ServiceNow AI Lensscannerwindow over another document or page and then select the Capture icon \[Omitted image "capture-icon.png"\] Alt text:.
-        4.  Repeat the step to capture more screenshots, if required.
+10. Extract data from a single screen.
 
-            \[Omitted image "lens-action-multi-capture-scrnshts.png"\] Alt text: Display of the number of screenshots captured.
+    1.  Enter additional instructions to extract, analyze, and organize data by selecting the Edit icon \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Edit icon.\) and then enter the instructions.
 
-            **Note:**
+        The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
 
-            -   You can capture a total of 10 screenshots with the combined size of all captured screenshots not exceeding 10 MB.
-            -   To enable the desktop app to send large screenshot data to the server, confirm that the following system properties are set exactly as shown below:
+        \[Omitted image "lens-action-submit-form.png"\] Alt text: Capture data from a single screen
 
-                |Property name|Type|Recommended value|
-                |-------------|----|-----------------|
-                |glide.rest.max\_content\_length|Integer|15|
-                |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
+        **Note:** This is an optional step.
 
-                For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/r_ControllingMaxRequestSize.md)
+        **Tip:** Use the Upload file icon \(\[Omitted image "lens-file-upload-icon.png"\] Alt text: File Upload icon.\) to upload a file from which data is extracted. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md)
 
-                **Note:** You must have the admin role to set the system properties.
+    2.  Select **Analyze**.
 
-        5.  To complete the capture, select the Done icon \[Omitted image "lens-capture-done-icon.png"\] Alt text:.
-    -   Extract data from uploaded documents.
-        1.  Select the Upload files icon \[Omitted image "lens-file-upload-icon.png"\].s
-        2.  Perform any one of the following file upload methods.
+        The ServiceNow AI Lens preview window displays the extracted output in an editable form.
 
-            -   Upload one or more files by selecting the **+Add file** option.
-            -   Upload one or more files by dragging the selected files to the Drag and drop files section and then select **Upload all**.
-            \[Omitted image "lens-browser-upload-file-window.png"\] Alt text: File upload window.
+        \[Omitted image "lens-action-form-preview-window.png"\] Alt text: Preview of extracted output displayed
 
-            **Note:**
+11. Extract data from multiple screenshots.
 
-            -   You can upload up to 10 unprotected files, with the combined size of the uploaded files not exceeding 10 MB.
-            -   To enable the desktop app to send large data of the uploaded files to the server, confirm that the following system properties are set exactly as shown below:
+    1.  To provide additional instructions to extract, analyze, and organize data, select the Edit icon \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Edit icon.\) and then enter the instructions.
 
-                |Property name|Type|Recommended value|
-                |-------------|----|-----------------|
-                |glide.rest.max\_content\_length|Integer|15|
-                |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
+        The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
 
-                For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/r_ControllingMaxRequestSize.md)
+        **Note:** This is an optional step.
 
-                **Note:** You must have the admin role to set the system properties.
+    2.  Select the **Multi-capture** button \[Omitted image "multi-capture-icon.png"\] Alt text: Multi-capture icon..
 
-            -   To remove a file that you attached, select the Remove file icon \[Omitted image "lens-delete-attached-file-icon.png"\] Alt text:.
-            -   To rename the file that you attached, select the More options icon \[Omitted image "lens-three-dots-icon.png"\] Alt text:, and then select **Rename**.
-        3.  Select **Next**.
+        **Tip:** Use the Upload file icon \(\[Omitted image "lens-file-upload-icon.png"\] Alt text: File Upload icon.\) to upload one or more files. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md)
 
-            The ServiceNow AI Lens preview window displays the files that you have uploaded
+    3.  Select the Capture icon \(\[Omitted image "capture-icon.png"\] Alt text: Capture icon.\)
 
-            \[Omitted image "lens-analyze-multiple-screenshots.png"\] Alt text: The desktop app showing preview of uploaded files.
+        The first screenshot is captured.
 
-9.  To provide instructions to analyze the data in screenshots in a specific way, select the Edit icon \[Omitted image "lens-instructions-icon.png"\] Alt text:, and enter the instructions.
+    4.  Place the ServiceNow AI Lensscannerwindow over another document or page and then select the Capture icon \[Omitted image "capture-icon.png"\] Alt text: Capture icon.\).
 
-    The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the **sn\_lens\_user\_prompt\_max\_length** system property.
+        The second screenshot is captured.
 
-10. To analyze the data in the screenshots that you captured, select **Analyze**.
+        Repeat the step to capture more screenshots, if required.
 
-    The ServiceNow AI Lens preview window displays the extracted output in an editable form.
+        \[Omitted image "lens-action-multi-capture-scrnshts.png"\] Alt text: Display of the number of screenshots captured.
 
-    \[Omitted image "lens-action-form-preview-window.png"\] Alt text: Preview of extracted output displayed
+        **Note:**
 
-11. Depending on the type of Lens action selected, perform the following steps.
+        -   You can capture a total of 10 screenshots with the combined size of all captured screenshots not exceeding 10 MB.
+        -   To enable the desktop app to send large screenshot data to the server, confirm that the following system properties are set exactly as shown below:
 
-<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d236107e758">
+            |Property name|Type|Recommended value|
+            |-------------|----|-----------------|
+            |glide.rest.max\_content\_length|Integer|15|
+            |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
+
+            For more information, see [Configure system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/r_ControllingMaxRequestSize.md)
+
+            **Note:** You must have the admin role to set the system properties.
+
+    5.  To complete the capture, select the Done icon \(\[Omitted image "lens-capture-done-icon.png"\] Alt text: Capture complete icon.\).
+
+    6.  Select **Analyze**.
+
+        The data is extracted from the screenshots and the form that you can update and submit is shown.
+
+        \[Omitted image "lens-multi-scrnsht-submit-form.png"\] Alt text: Data extracted from multiple screenshots and editable form shown.
+
+        \[Omitted image "lens-action-data-preview.png"\] Alt text: Lens action data preview.
+
+12. Depending on the type of Lens action selected, perform the following steps.
+
+<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d179682e754">
 
 Task
 
-</th><th align="left" id="d236107e761">
+</th><th align="left" id="d179682e757">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d236107e767">
+</th></tr></thead><tbody><tr><td id="d179682e763">
 
 **Filling form**
 
@@ -173,7 +175,7 @@ Steps
 2.  On the form header in the Preview window, select **Submit** to save the filled form on the instance.
 
 
-</td></tr><tr><td id="d236107e788">
+</td></tr><tr><td id="d179682e784">
 
 **Previewing extracted data**
 
@@ -184,6 +186,6 @@ Steps
 
 
 </td></tr></tbody>
-</table>12. End the current session by selecting **Start new session**.
+</table>13. End the current session by selecting **Start new session**.
 
 

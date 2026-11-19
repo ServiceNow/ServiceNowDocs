@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 5
-breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
+last_updated: "2026-07-16"
+reading_time_minutes: 7
+breadcrumb: [Stages and activities, Building playbooks, Use, Workflow Studio, Build workflows]
 ---
 
 # Activity definitions
@@ -18,7 +18,7 @@ Activity definitions describe how the activities in your playbook get the data t
 
 Activity definitions provide default configurations and values for your activities so that they can run properly when your playbook is triggered. Each activity definition contains some basic configuration details, as well as an automation plan and activity experience.
 
-The Activity Definition \[sys\_pd\_activity\_definition\] table lists the definitions for the activities that you can add to a playbook in Workflow Studio. To access these activity definitions, navigate to **Process Automation** &gt; **Process Automation Administration** &gt; **Activity Definitions**.
+The Activity Definition \[sys\_pd\_activity\_definition\] table lists the definitions for the activities that you can add to a playbook in Workflow Studio. To access these activity definitions, navigate to **Process Automation** &gt; **Playbook Administration** &gt; **Activity Definitions**.
 
 ## Fields
 
@@ -165,4 +165,33 @@ Create an example action to configure and run as an activity from Playbooks.
 A UI Layout describes what properties and components to use when an activity renders as a card in a Playbook Experience.
 
 **Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
+
+**Related topics**  
+
+
+[Add and configure a stage in a playbook]()
+
+[Add and configure an activity in a playbook]()
+
+[Use AI agent as an activity]()
+
+[Use an AI skill as an activity]()
+
+[Automation Assets]()
+
+[Start with delay input properties]()
+
+[Optional activities]()
+
+[Decision activities]()
+
+[Decision stages]()
+
+[Questionnaire activity]()
+
+[Parallel branches]()
+
+[Add dynamic inputs to an activity]()
+
+[Playbook activity state mapping]()
 

@@ -7,9 +7,9 @@ release: zurich
 product: Collaboration Services
 classification: collaboration-services
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Slack integration - Incident Management, Collaboration services, IT Service Management]
+breadcrumb: [Slack integration - Incident Management, Reference, Collaboration services, IT Service Management]
 ---
 
 # Slack slash commands
@@ -95,4 +95,5 @@ Assigns associated incident to the slack user.
 Assigns associated incident to a specific user.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Slack integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/im-slack-collaboration.md)
+

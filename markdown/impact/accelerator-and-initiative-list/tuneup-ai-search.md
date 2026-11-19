@@ -1,30 +1,28 @@
 ---
 title: TuneUp Your AI Search
-description: This Accelerator provides guidance on fine-tuning artificial intelligent \(AI\) Search to optimize performance and value.
+description: This accelerator provides guidance on fine-tuning artificial intelligent \(AI\) Search to optimize performance and value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/tuneup-ai-search.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
 
 # TuneUp Your AI Search
 
-This Accelerator provides guidance on fine-tuning artificial intelligent \(AI\) Search to optimize performance and value.
+This accelerator provides guidance on fine-tuning artificial intelligent \(AI\) Search to optimize performance and value.
 
 ## Accelerator Overview
 
 TuneUp Your AI Search Accelerator provides Impact customers with an assessment of AI Search performance and prescriptive guidance to optimize results and improve end-user experience. Included is an assessment of AI Search architecture and configuration, tuning AI Search, an overview of AI Search analytics, and prescriptive guidance on how to optimize performance.
 
-See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/overview-ais.md) for additional information on AI Search.
+See  for additional information on AI Search.
 
-## Package Availability
-
-**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 

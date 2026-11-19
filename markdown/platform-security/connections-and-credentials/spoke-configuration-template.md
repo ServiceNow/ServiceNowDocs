@@ -7,7 +7,7 @@ release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Explore credentials, connections, and aliases, Connections and Credentials, Access Management]
 ---
@@ -55,7 +55,7 @@ You can create configuration templates for integrations with these credential ty
 
 -   **Test Action**
 
-    Enables you to test a connection directly from an integration action in the flow view of Workflow Studio. The test action uses an action definition to test the alias that the template is currently attached to. For details, see [Create a test action to test a connection alias from a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/test-alias-configuration-template.md).
+    Enables you to test a connection directly from an integration action in the flow view of Workflow Studio. The test action uses an action definition to test the alias that the template is currently attached to. For details, see .
 
 
 ## Demo data

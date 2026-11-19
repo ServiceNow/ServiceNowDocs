@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-11-09"
 reading_time_minutes: 2
 keywords: [Discovery, Content, Service, Patterns]
 breadcrumb: [ITOM Content Service, ITOM Visibility, IT Operations Management]
@@ -37,15 +37,15 @@ Role required: discovery\_admin
 
 2.  Indicate whether and what data you want to share with AI librarians.
 
-<table id="choicetable_fch_mpt_c1c"><thead><tr><th align="left" id="d494433e124">
+<table id="choicetable_fch_mpt_c1c"><thead><tr><th align="left" id="d485416e122">
 
 Option
 
-</th><th align="left" id="d494433e127">
+</th><th align="left" id="d485416e125">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d494433e133">
+</th></tr></thead><tbody><tr><td id="d485416e131">
 
 **Opt in to share your data**
 
@@ -68,7 +68,7 @@ Actions
 
 The **Content service suggestions** tile replaces the **Content service setup** tile. In the new **Content service setup** section, a green check-mark appears indicating that you have opted in to ITOM Content Service.
 
-</td></tr><tr><td id="d494433e236">
+</td></tr><tr><td id="d485416e234">
 
 **Set the data sharing permissions off**
 
@@ -80,7 +80,7 @@ The **Content service suggestions** tile replaces the **Content service setup** 
 4.  When the setting is complete, select **Home** to return to the workspace.
 
 
-</td></tr><tr><td id="d494433e281">
+</td></tr><tr><td id="d485416e279">
 
 **Opt out of sharing your data**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-create-price-list.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create and publish a price list
@@ -24,7 +24,7 @@ You can create various types of price lists for your organization, such as price
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Prices** &gt; **Price Lists.**
 

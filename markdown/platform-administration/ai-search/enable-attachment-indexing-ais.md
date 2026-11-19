@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Indexed source attributes, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Indexed source attributes, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Enable indexing of attachments for an AI Search indexed source
@@ -25,8 +25,6 @@ Role required: ais\_admin
 By default, AI Search indexes searchable content and metadata \(such as file size and date\) for attachments found on source table records. Indexing supports the following attachment file formats:
 
 -   Active Server Page Extended \(`.aspx`\)
--   Email Message \(`.eml`, `.msg`\)
--   Extensible Markup Language \(`.xml`\)
 -   Hypertext Markup Language \(`.html`, `.htm`\)
 -   Microsoft Excel \(`.xls`, `.xlsx`\)
 -   Microsoft PowerPoint \(`.pot`, `.potx`, `.ppt`, `.pptm`, `.pptx`\)
@@ -34,7 +32,7 @@ By default, AI Search indexes searchable content and metadata \(such as file siz
 -   Plain Text \(`.txt`\)
 -   Portable Document Format \(`.pdf`\) with searchable text
 
-**Note:** The maximum file size for binary files is 25 MB. Keyword indexing processes up to the first 1MB of text. Use semantic search to index data containing between 1MB and 25 MB of text.
+**Note:** The maximum file size for binary files is typically 25 MB. Keyword indexing processes up to the first 1MB of text. Use semantic search to index data containing between 1MB and 25 MB of text.
 
 AI Search provides limited support for encrypted record attachments:
 

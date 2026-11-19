@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Manage failure and resolution codes, Configure, Enterprise Asset Management, Asset Management]
+breadcrumb: [Manage failure and resolution codes, Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create a source for failure and resolution codes
@@ -28,15 +28,15 @@ You should have at least one source before creating failure or resolution codes.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Workspace** &gt; **Admin center** &gt; **Failure and resolution**.
 
-2.  From the Enterprise Asset Workspace, open the Admin center view.
+2.  In the Failure and resolution list, select **Sources**.
 
-3.  From the navigation panel of the Admin center view, navigate to **Failure and resolution** &gt; **Sources**.
+    Any existing sources are shown in the sources list.
 
-4.  Select **New**.
+3.  Select **New**.
 
-5.  On the form, fill in the fields.
+4.  On the form, fill in the fields.
 
 <table id="table_ims_flr_mfc"><thead><tr><th>
 
@@ -63,7 +63,7 @@ Description
 Brief description of the source.
 
 </td></tr></tbody>
-</table>6.  Select **Save**.
+</table>5.  Select **Save**.
 
 
 ## Result

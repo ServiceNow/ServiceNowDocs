@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [predictive intelligence change, change risk prediction, standard change candidates]
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
@@ -80,11 +80,9 @@ Analyzes and suggests opportunities for Standard Change proposal templates that 
 
 </td></tr></tbody>
 </table>-   **[Intelligent solutions system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-mgmt-intelligentsoln-properties.md)**  
-Administrators can configure the Change Management Intelligent solutions system properties to use Predictive Intelligence capabilities.
+Administrators can configure the Change Management Intelligent solutions system properties to use predictive intelligence \(PI\) capabilities.
 -   **[Train the Risk Intelligence solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/train-risk-intelligence-solution.md)**  
 Create Risk categorization or similarity solution definitions to use the predictive intelligence that helps in accessing change risk.
--   **[Configure Risk Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/configure-risk-intelligence.md)**  
-Configure the Risk Intelligence properties to control how the Predictive Intelligence solution predicts the risk of a change request and how the predicted risk is used.
 -   **[Train the clustering solution for standard change proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/train-std-chg-proposal-soln.md)**  
 Train the Standard change proposal solution definition to use clustering capabilities to identify and suggest Standard Change templates to create a change.
 

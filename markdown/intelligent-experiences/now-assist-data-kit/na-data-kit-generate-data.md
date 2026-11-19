@@ -1,127 +1,82 @@
 ---
 title: Generate synthetic data
-description: Generate synthetic records for evaluating AI skills and agents when you don't have suitable data or can't use it for privacy reasons.
+description: Create synthetic data with a sample dataset and a prompt through generative AI by using the AI Data Kit application. You can use synthetic data to create training for a test model or an evaluation dataset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/na-data-kit-generate-data.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 5
-keywords: [synthetic data, data generator, AI Data Kit]
-breadcrumb: [Using AI Data Kit, AI Data Kit, Managing data for AI, Enable AI Experiences]
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Using AI Data Kit, AI Data Kit, Enable AI experiences]
 ---
 
 # Generate synthetic data
 
-Generate synthetic records for evaluating AI skills and agents when you don't have suitable data or can't use it for privacy reasons.
+Create synthetic data with a sample dataset and a prompt through generative AI by using the AI Data Kit application. You can use synthetic data to create training for a test model or an evaluation dataset.
 
 ## Before you begin
 
-The Generative AI Controller plugin \(sn\_generative\_ai\) must be installed. Synthetic data generation uses a large language model \(LLM\) through this plugin.
-
 Role required: sn\_data\_kit.admin
-
-## About this task
-
-A guided setup walks you through five stages: Define dataset, Select sample data, Define columns, Test data generation, and Review and generate. Selecting sample data is optional. Each stage includes a Help panel with guidance for its fields.
-
-Generation runs as a data generation job. When the job finishes, you add the generated records to a dataset so that you can curate them, add ground truth, and use them in AI Skill Kit.
-
-Only users with the sn\_data\_kit.admin role can view data generation jobs. Datasets that you create from generated data don't have table access controls, so anyone with an AI Data Kit role can view their records.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Data Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **Now Assist Data Kit** &gt; **Home**.
 
-2.  In the An overview of your data assets section, on the **Synthetic datasets** tab, select **Generate Dataset**.
+2.  Select the **Synthetic datasets** tab.
 
-3.  In the Select a generator type dialog box, select **Standard data generator**.
+3.  Select **Generate dataset**.
 
-    The standard data generator creates flat records from the fields that you define. The **Multi-table data generator \(beta\)** option creates data for several related tables, and this topic doesn't cover it.
+4.  Choose how you want to generate data.
 
-4.  In the Define dataset stage, fill in the fields.
+    |Method|Description|
+    |------|-----------|
+    |Standard data generator|The standard data generator creates flat records based on a fixed schema with files like name, description, and short description. By providing a few examples, the model learns the structure and generates consistent, realistic data, making it suitable for typical use cases. These configurations can also be saved as templates for easy reuse.|
+    |Multi-table data generator|A multi-table data generator creates realistic test data for several related tables at once. It automatically figures out the right order, groups linked records into meaningful scenarios, and fulls in details using rules or AI. This enables you to use the data generated for testing or demos.|
 
-    |Field|Description|
-    |-----|-----------|
-    |Name|Name of the synthetic dataset. Required.|
-    |Choose a template|Template that fills in the dataset and column definitions for a type of data, such as catalog items or incidents. Templates that you save also appear in this list. You can change the values after the template fills them in. Optional.|
-    |Describe department or industry|Business area that the data comes from, such as IT service management. Required.|
-    |Describe the data you want to generate|What each record represents and the information that it contains. Required.|
-    |Add categories to generate a diverse dataset|Keywords that define the kinds of records to generate, such as software, hardware, and network. Enter at least three categories, and press Enter after each one. Required.|
-    |Select language to generate data in|Language of the generated data. The default is English. The list includes the languages that are installed on your instance.|
-
-5.  Select **Next**.
-
-6.  In the Select sample data stage, choose records to use as examples.
-
-    The LLM doesn't copy your sample data. It uses the examples to understand the structure, format, length, and tone of the records to generate.
-
-    1.  Select where to add sample data from: **Instance table** or **Data Collection**.
-
-    2.  Select the table and the columns to use.
-
-    3.  Select records by using **Random sampling** or **Manually**.
-
-        For random sampling, enter the number of records and select **Run**. To select records manually, select the check box for each record.
-
-7.  Select **Next**.
-
-8.  In the Define columns stage, add the columns to generate, and describe the data for each column.
-
-    If you chose a template, the columns are already filled in. To keep the generated data accurate, use no more than 30 columns.
+5.  On the Add job info page, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
-    |Column Label|Name of the column. Required.|
-    |Data type|Type of data in the column: String, Number, or JSON. The default is String. Required.|
-    |Describe the data to generate for this column|What the column contains and how the values should look, such as "The letters INC followed by 7 numbers." Required.|
+    |Job name|Name of the generated data.|
 
-    To add a column, select **Add column**. To fill in descriptions for every column, select **Generate column descriptions**.
+6.  Navigate to **Define data** .
 
-9.  Select **Next**.
+7.  Select a template.
 
-10. In the Test data generation stage, enter the **Number of records to generate**.
+    |Template|Description|
+    |--------|-----------|
+    |Catalog item|Service Catalog is a user-friendly interface that allows end-users to browse, request, and manage services and products offered by the organization, streamlining self-service and improving operational efficiency.|
+    |Incident data|Information Technology Service Management is a business function that involves managing IT services and processes to meet business needs effectively.|
 
-    Enter a whole number from 10 to 1,000. Optionally, enter **Additional rules** for the generated data.
+    \[Omitted image "nadk-data-template.png"\] Alt text: Define data screen.
 
-11. To check the results before you generate the full dataset, select **Generate preview**.
+8.  Select the language for the data generation.
 
-    The preview generates five records. The full dataset contains similar, but not identical, records.
+9.  On the form, fill in the rest of the fields.
 
-    If a Generation error message appears, make sure that the Generative AI Controller plugin is installed on your instance.
+    |Field|Description|
+    |-----|-----------|
+    |Name|Department or industry where the data belongs.|
+    |Type|Data that you want to generate.|
+    |Category|Data that has been categorized with keywords.|
+    |Count|Number of records to generate.|
 
-12. Select **Review summary**.
+    **Note:** If you have sample data available, you can navigate to [Select the sample data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/select-sample-data.md) to enhance the accuracy of the generated data. If you don't have sample data, refer to the in-product help for guidance.
 
-13. In the Review and generate stage, review the settings, and then select **Start generation**.
+10. Select **Continue**.
 
-    To change a stage, select **Edit** in its section.
+11. Add your sample data by navigating to [Define columns to generate data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/na-data-kit-define-columns.md).
 
-    The data generation job page opens with a state of Generation in progress. You can leave the page and come back later. The job is listed on the **Synthetic datasets** tab. When the job finishes, the state changes to Generation completed.
+    The columns are populated when you add the sample data. If no sample data is available, you must manually populate the columns with data.
 
-    If a Generation error message appears, make sure that the Generative AI Controller plugin is installed on your instance.
+12. Select **Continue**.
 
-14. On the **Output data** tab, review the generated records.
+13. Add additional rules to improve generated data.
 
-    The records are generated by AI, so check them for accuracy. To remove records, select their check boxes and select **Delete records**. Deleting is unavailable until the job finishes calculating data insights.
+14. Select the number of records to generate for testing.
 
-15. To reuse these settings for another dataset, select **Save as Template** and enter a template name.
+15. Select **Start generation**.
 
-    The template appears in the **Choose a template** list the next time that you generate data with the standard data generator. A template saves the dataset and column definitions, but not the sample data.
-
-16. Select **Add to data asset**.
-
-17. In the Add generated data to data assets dialog box, fill in the fields.
-
-    Enter a **Dataset name**, which is required. Optionally, enter a **Dataset description** and **Tags**.
-
-18. Select **Confirm**.
-
-    The dataset page opens with a state of Active. The page includes a Data Insights tab. The dataset is listed on the **Datasets** tab, and the data generation job stays on the **Synthetic datasets** tab.
-
-
-## What to do next
-
-After the dataset is Active, you can [scan it for sensitive data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/sensitive-data.md), [create a derived dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/create-derived-dataset.md), [add ground truth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/add-ground-truth.md), or [add it to a data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-data-kit/create-data-collection.md).
 

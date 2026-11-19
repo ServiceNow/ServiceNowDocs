@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 9
 breadcrumb: [Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ Triggers are events that set the policy engine in motion. For example, the on Ca
 ## About triggers
 
 -   You typically refer to a policy by the name of the trigger for the policy. For example, you might refer to a policy that is triggered by the on Lease end trigger as a "Lease end policy."
--   Triggers are often based on user requests and the operations \(start, stop, provision, or de-provision\) that can run on a blueprint, a catalog item, a resource, or a stack. Some trigger types do not specify a cloud operation. For example, the on Lease End trigger fires independently of any operation.
+-   Triggers are often based on user requests and cloud operations. Operations such as start, stop, provision, or de-provision can run on a blueprint, catalog item, resource, or stack. Some trigger types do not specify a cloud operation. For example, the on Lease End trigger fires independently of any operation.
 -   To optimize performance, limit the number of policies with general triggers like the on Catalog item triggers.
 -   A trigger that does not specify a target \(a blueprint, catalog item, stack, or resource\) is always executed. To optimize performance, therefore, minimize the use of such policies.
 

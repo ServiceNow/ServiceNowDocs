@@ -7,9 +7,9 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Generate and view a claim's fraud score, Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Generate and view a claim's fraud score, Use, Commercial Lines Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Configure the fraud score ranges with UI Builder
@@ -44,5 +44,5 @@ Role required: admin
 **Related topics**  
 
 
-[record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-config-workspace-record-pages.md)
+[CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-config-workspace-record-pages.md)
 

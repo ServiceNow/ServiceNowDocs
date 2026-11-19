@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-28"
 reading_time_minutes: 1
 keywords: [ACC scheduled upgrade, Upgrade agents incrementally, mass upgrade]
-breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
 # Run a mass upgrade via the scheduled Agent Client Collector upgrade job
@@ -43,6 +43,4 @@ The **Upgrade agents incrementally** scheduled job upgrades all eligible agents 
 
     The job runs on the configured schedule, upgrading agents in batches that adhere to the configured rate limits.
 
-
-**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
 

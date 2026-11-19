@@ -7,7 +7,7 @@ release: zurich
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Resolving errors, Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,47 +28,37 @@ Role required: admin or idr\_admin
 
 2.  View the following diagnostic tests.
 
-<table id="choicetable_h22_qgv_4nb"><tbody><tr><td id="d489166e86">
+<table id="choicetable_h22_qgv_4nb"><tbody><tr><td id="d485068e86">
 
-**Key Management Framework**
-
-</td><td>
-
-Verifies the KMF configuration by checking the Certificate Management Service and the EJBCA Service status.-   **Certificate Management Service**
-
-Checks for valid certificates in the sys\_certificate table.
-
--   **EJBCA Service**
-
-Checks the status and setup of the PKI used between instances for secure communication.
-
-</td></tr><tr><td id="d489166e115">
-
-**IDR Scheduled Jobs**
+**Certificate Management Service**
 
 </td><td>
 
-Verifies that scheduled jobs used by IDR are operational.-   **Sys Auto Table**
+Checks the status and setup of your certificate management service.**Note:** IDR requires a certificate management service to be up and running.
 
-Checks the Scheduled Job \[sysauto\] table for duplicate entries or missing jobs.
+</td></tr><tr><td id="d485068e100">
 
--   **Sys Trigger Table**
-
-Checks the Schedule Item \[sys\_trigger\] table for duplicate entries or missing jobs.
-
-</td></tr><tr><td id="d489166e146">
-
-**Hermes**
+**EJBCA Service Status**
 
 </td><td>
 
-Verifies whether the Hermes Messaging Service is available.-   **Hermes Enabled**
+Checks the status and setup of the EJBCA service as part of the Key Management Framework \(KMF\) health.
 
-Determines whether Hermes is enabled by verifying that the Glide Hermes Message Queue plugin \(com.glide.hermes\) is activated.
+</td></tr><tr><td id="d485068e115">
 
--   **Hermes Cluster Configuration**
+**Hermes Enabled**
 
-Checks the Hermes Cluster configuration by verifying that the Hermes Cluster Config \[hermes\_cluster\_config\] table is populated.
+</td><td>
+
+Checks whether the Hermes Messaging Service is available.
+
+</td></tr><tr><td id="d485068e127">
+
+**Hermes Cluster Configuration**
+
+</td><td>
+
+Checks the status of the Hermes cluster.
 
 </td></tr></tbody>
 </table>3.  Test the connection to the message queue and confirm the replicator is working by selecting **Run Message Queue Connection Test**.

@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Managing enterprise asset shipments, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Use Advanced Shipment Notification in Enterprise Asset Management
@@ -67,5 +67,5 @@ The identification rules for a CI class are defined in the CMDB Identification a
     Serialized assets do not have duplicate enterprise import records created, but consumables do have duplicate entries.
 
 
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
+**Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
 

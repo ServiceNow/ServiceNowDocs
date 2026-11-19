@@ -7,9 +7,9 @@ release: zurich
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
+breadcrumb: [Install Atlassian Jira Integration for Agile Development, Atlassian Jira Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
 ---
 
 # Components installed with Atlassian Jira integration for Agile Development
@@ -221,5 +221,4 @@ Webhook Registry\[sn\_int\_common\_webhook\_registry\]
 Stores details of the registry callback path for webhooks registered in Jira to receive event updates.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Atlassian Jira Integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/atlassian-jira-integrations-common/agile-jira-integration-overview.md)
-
+</table>

@@ -9,7 +9,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use HR Profile, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Generate HR Profiles
@@ -42,5 +42,5 @@ Role required: sn\_hr\_core.basic or sn\_hr\_core.manager
     In the HR profile table when the External flag in the Employee App Access Criteria record is set to True; it indicates that the HR profile belongs to a remote user.
 
 
-**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
+**Parent Topic:**[Use HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

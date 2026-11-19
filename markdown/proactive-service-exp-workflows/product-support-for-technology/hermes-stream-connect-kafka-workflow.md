@@ -7,9 +7,9 @@ release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use, API Notification Management, Product Support for Technology]
+breadcrumb: [Handling API notifications, Use, Proactive Service Experience Workflows]
 ---
 
 # Producing outbound API notifications using Hermes
@@ -21,7 +21,7 @@ In this use case, the notifications are produced to the Hermes cluster from your
 -   To learn more about Hermes Messaging Service, see [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/hermes-messaging-service.md).
 -   To learn more about Apache Kafka Stream Connect, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/stream-connect-apache-kafka.md).
 
-In the Brazil release, the following events are supported for trouble ticket notification.
+In the Zurich release, the following events are supported for trouble ticket notification.
 
 -   Create Trouble Ticket Event
 -   Trouble Ticket State Change Event
@@ -38,7 +38,7 @@ The workflow for producing the outbound notification by using Hermes contains th
 
 1.  On the trigger of the trouble ticket event, the system invokes the appropriate business rule, and stamps the event type.
 
-    To learn more about business rule that you must add to your ServiceNow instance, see [Add a business rule for a new trouble ticket event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/developer-guides/prd_evt_not-dev_gd-add_bus_rule.md).
+    To learn more about business rule that you must add to your ServiceNow instance, see .
 
 2.  The system pushes the Glide snapshot and event type in the staging table, which acts as a queue.
 3.  The producer framework picks the event and converts it to a TMF 688 complaint event payload.
@@ -49,12 +49,10 @@ The workflow for producing the outbound notification by using Hermes contains th
 5.  The Stream Connect pushes the event in the Hermes Kafka cluster.
 6.  The customers can consume the message in their in-house Kafka.
 
-**Parent Topic:**[Using API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/use-api-notification-management.md)
+**Parent Topic:**[Handling API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/handling-trouble-ticket-notifications.md)
 
 **Related topics**  
 
 
-[EventProcessorUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/EventProcessorUtilOOBScopedAPI.md)
-
-[EventQueueProcessorOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/EventQueueProcessorOOBScopedAPI.md)
+[bundle-crapiref.EventProcessorUtilOOBScopedAPI]
 

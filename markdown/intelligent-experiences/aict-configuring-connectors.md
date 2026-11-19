@@ -1,19 +1,19 @@
 ---
 title: Configuring connectors
-description: Discover AI assets running on external platforms and hyperscaler environments to populate your AI asset inventory, apply consistent governance, and report on usage in AI Control Tower.
+description: Discover AI assets running on external platforms and hyperscaler environments to populate your AI asset inventory, apply consistent governance, and report on usage in Super Intelligence Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-configuring-connectors.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-05"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring integrations, Configure, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Configuring connectors
 
-Discover AI assets running on external platforms and hyperscaler environments to populate your AI asset inventory, apply consistent governance, and report on usage in AI Control Tower.
+Discover AI assets running on external platforms and hyperscaler environments to populate your AI asset inventory, apply consistent governance, and report on usage in Super Intelligence Control Tower.
 
 ## Key benefits
 
@@ -23,18 +23,16 @@ Discover AI assets running on external platforms and hyperscaler environments to
 
 ## Available connectors
 
-For the complete list of supported service graph connectors, their prerequisites, and connector-specific configuration fields, see the [AI Control Tower- AI Discovery Connectors \[KB2986990\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2986990) article in the Now Support Knowledge Base.
-
-AI Control Tower also provides the Veza access intelligence connector, which enriches AI agents already in your inventory with access risk scores and severity levels. For more information, see [Create an AI connection for Veza access intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-create-ai-connection-veza.md).
+For the complete list of supported service graph connectors, their prerequisites, and connector-specific configuration fields, see the [Super Intelligence Control Tower- AI Discovery Connectors \[KB2986990\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2986990) article in the Now Support Knowledge Base.
 
 ## How connectors discover AI assets
 
-When you create an AI connection using a connector, AI Control Tower performs the following:
+When you create an AI connection using a connector, Control Tower performs the following:
 
 -   Authenticates with the external platform using the credentials you provide, typically an access key, service account, or OAuth token depending on the platform.
 -   Discovers AI assets on the external platform, such as deployed models, agents, knowledge bases, and pipelines.
 -   Imports the discovered assets into the AI asset inventory and the Configuration Management Database \(CMDB\), where they can be governed, evaluated, and managed alongside natively created assets.
--   Keeps the inventory updated by re-running discovery on a scheduled import job, so new or changed assets on the external platform are reflected in AI Control Tower.
+-   Keeps the inventory updated by re-running discovery on a scheduled import job, so new or changed assets on the external platform are reflected in Control Tower.
 
 ## How connectors keep data current
 
@@ -53,9 +51,7 @@ Discovery connectors and trace connectors both discover AI assets and feed the s
 -   A trace connector observes agent executions at runtime, primarily to generate evaluation and security metrics. Discovering the AI systems behind those executions is a secondary result, useful for catching assets a discovery connector can't reach. See [Discovering AI assets through trace connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-discovering-trace-connectors.md).
 
 -   **[Create an AI connection for discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-create-ai-connection-discovery.md)**  
-Bring AI assets from an external platform into your AI asset inventory by creating an AI connection. AI Control Tower authenticates to the platform using your credentials and imports assets on a schedule, so they're governed and monitored alongside AI systems built natively on ServiceNow.
--   **[Create an AI connection for Veza access intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-create-ai-connection-veza.md)**  
-Connect AI Control Tower to Veza using OAuth 2.0 so that agent risk scores and severity levels from Veza access intelligence appear in the agent map. Since Veza is an enrichment connector, it doesn't import new assets.
+Bring AI assets from an external platform into your AI asset inventory by creating an AI connection. Super Intelligence Control Tower authenticates to the platform using your credentials and imports assets on a schedule, so they're governed and monitored alongside AI systems built natively on ServiceNow.
 
 **Parent Topic:**[Configuring integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring-integrations.md)
 

@@ -4,7 +4,7 @@ description: The Resolve DNS Name activity takes an IP address or a fully qualif
 locale: en-US
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 ---
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-create-price-list-line.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-11-16"
 reading_time_minutes: 1
-breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a price list line
@@ -20,7 +20,7 @@ Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.price
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Pricing** &gt; **Price Lists** and select the price list to which you're adding the price list line.
 

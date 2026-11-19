@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/lang-support-aiw.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-13"
+last_updated: "2026-09-01"
 reading_time_minutes: 1
 keywords: [language support ai specialists, multilingual support ai specialists, language support ai workforce, multilingual support ai workforce, language support autonomous workforce, multilingual support autonomous workforce, translation ai specialists, translation ai workforce, translation autonomous workforce]
-breadcrumb: [Explore, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Explore, Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
 
 # Multilingual support for AI specialists

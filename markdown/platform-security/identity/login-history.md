@@ -1,5 +1,5 @@
 ---
-title: Viewing Login History in Identity Center
+title: Login history in Identity Center
 description: Provides details about your login history.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/login-history.html
@@ -7,12 +7,12 @@ release: zurich
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Identity Center for users, Identity Center, Identity]
 ---
 
-# Viewing Login History in Identity Center
+# Login history in Identity Center
 
 Provides details about your login history.
 
@@ -24,7 +24,7 @@ Pagination in the login history is 20 by default and can be set to a maximum of 
 
 \[Omitted image "login-history.png"\] Alt text: Login History Details
 
-Following are some of the other details from the Login History:
+The following are some of the other details from the Login History:
 
 -   The Time of Login is the updated time when the mobile devices are used to access the instance.
 -   The records are stored in Identity Center for 30 days.

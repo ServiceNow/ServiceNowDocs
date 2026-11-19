@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/use-build-agent.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-02"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
 # Use Build Agent
@@ -28,14 +28,14 @@ Build Agent supports the following development tasks:
 
 -   **[Accessing Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/access-build-agent.md)**  
 Build Agent is available in ServiceNow Studio for UI-first, declarative workflows. You can also use Build Agent the ServiceNow IDE within ServiceNow Studio for code-first, autonomous full-stack development.
--   **[Create an application using Build Agent default mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/create-a-new-application-using-build-agent.md)**  
+-   **[Create an application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/create-a-new-application-using-build-agent.md)**  
 Create a custom application by describing your requirements in plain language to Build Agent. The AI agent generates and builds the application code based on your input.
--   **[Edit an existing application using Build Agent default mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/edit-an-existing-application-using-build-agent.md)**  
+-   **[Edit an existing application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/edit-an-existing-application-using-build-agent.md)**  
 Use natural language prompts to modify an existing application in Build Agent. You can describe changes in plain language and review, refine, and approve updates before the application is built and installed.
--   **[Creating or updating an app file with Build Agent default mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creating-or-updating-an-app-file.md)**  
+-   **[Creating or updating an app file with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creating-or-updating-an-app-file.md)**  
  Use Build Agent to add new files or modify existing files in ServiceNow applications to support ongoing app development and maintenance.
 -   **[Agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-about-creating-in-app-agents.md)**  
-Build Agent can generate agentic workflows, agents, and skills scoped to your custom app.
+Build Agent can generate agentic workflows, agents, and skills scoped to your custom app. Turn business requirements into configured AI artifacts without building from scratch.
 -   **[Create agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/create-custom-ai-agent.md)**  
 Build custom agentic workflows, AI agents, and skills for your applications using automated generation tools with Build Agent. You can streamline development by creating the necessary instructions, tools, and access controls based on your requirements.
 -   **[Revert app changes with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/revert-app-changes-using-build-agent.md)**  

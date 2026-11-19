@@ -7,9 +7,9 @@ release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Freeform Visual Task Boards, Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Freeform VTB, Creating VTB, Use, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Add a task to a freeform Visual Task Board from a list
@@ -30,7 +30,7 @@ You can add cards from multiple task tables, such as Incident or Problem, to the
 
 2.  Perform either of the following actions.
 
-<table id="choicetable_vpk_rrn_jq"><tbody><tr><td id="d57167e84">
+<table id="choicetable_vpk_rrn_jq"><tbody><tr><td id="d57287e90">
 
 **Add one task**
 
@@ -38,7 +38,7 @@ You can add cards from multiple task tables, such as Incident or Problem, to the
 
 Right-click a record and select **Add to Visual Task Board**.
 
-</td></tr><tr><td id="d57167e96">
+</td></tr><tr><td id="d57287e102">
 
 **Add multiple tasks**
 

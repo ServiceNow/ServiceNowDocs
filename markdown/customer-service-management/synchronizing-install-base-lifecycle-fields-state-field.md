@@ -1,38 +1,36 @@
 ---
-title: Synchronize install base life cycle fields with state and status fields
-description: Synchronize the Life cycle stage field and the Life cycle stage status fields with the State and Status fields on the install base form so that you can track the life cycle of an install base entity.
+title: Synchronizing the Install base life cycle fields with the state and status fields
+description: You can synchronize the Life cycle stage field and the Life cycle stage status fields with the State and Status fields on the Install base form so that you can track the life-cycle of an Install base entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/synchronizing-install-base-lifecycle-fields-state-field.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Install base items, Configure Install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Synchronize install base life cycle fields with state and status fields
+# Synchronizing the Install base life cycle fields with the state and status fields
 
-Synchronize the **Life cycle stage** field and the **Life cycle stage status** fields with the **State** and **Status** fields on the install base form so that you can track the life cycle of an install base entity.
+You can synchronize the **Life cycle stage** field and the **Life cycle stage status** fields with the **State** and **Status** fields on the Install base form so that you can track the life-cycle of an Install base entity.
 
-## Overview of the life cycle
+## Overview of life cycle mapping
 
-Track the life cycle of an install base entity by migrating to the Common Service Data Model. To learn more about the CSDM framework, see [Common Service Data Model framework for Install Base Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csdm-framework-for-install-base-management.md).
+Track the life cycle of an Install base entity by migrating to the Common Service Data Model. To learn more about the CSDM framework, see [Common Service Data Model framework for Install Base Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csdm-framework-for-install-base-management.md).
 
-## Life Cycle Mapping table
+## Life-cycle Mapping table
 
-The Life Cycle Mapping \[life\_cycle\_mapping\] table is already populated with life cycle mapping values and choices. Use these values to synchronize the **Life cycle stage** and **Life cycle stage status** fields with the **State** and **Status** fields on the install base form.
+The life-cycle Mapping \[life\_cycle\_mapping\] table is already populated with the life cycle mapping values and choices that you must begin your synchronization of the **Life cycle stage** field and the **Life cycle stage status** fields with the **State** and **Status** fields on the Install base form. The mapping record maps the **State** fields with their corresponding life cycle fields on the Install base form. The **In Use** and **InActive** options are available in the **State** field and their corresponding mappings are available in the life-cycle Mapping \[life\_cycle\_mapping\] table. With these default options, you can initiate a synchronization with the life cycle fields.
 
-The mapping record maps the **State** fields with their corresponding life cycle fields on the install base form. The **In Use** and **InActive** options are available in the **State** field and their corresponding mappings are available in the Life Cycle Mapping \[life\_cycle\_mapping\] table. With these default options, you can initiate a synchronization with the life cycle fields.
-
-You can create custom choices for the **State** and **Status** field by adding a mapping record in the Life Cycle Mapping \[life\_cycle\_mapping\] table. Each custom value has related records on the Life Cycle Mapping \[life\_cycle\_mapping\] table. You must activate the mapping records for the synchronization to begin.
+Add a mapping record in the life-cycle Mapping \[life\_cycle\_mapping\] table to create custom choices for the **State** and **Status** fields. Each custom value has related records on the life-cycle Mapping \[life\_cycle\_mapping\] table. You must enable the mapping records for the synchronization to begin.
 
 For information on how to create the custom choices and then map the **Life cycle stage** and **Life cycle stage status** fields with the legacy **State** field, see [Enabling life-cycle sync from legacy-to-asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/csdm-life-cycle-standard-values.md).
 
 **Note:** If the custom choices have no life cycle mappings, then the **Life cycle stage** and the **Life cycle stage status** fields remain in the **To Be Determined** state.
 
-## Migration of the Install Base table
+## Migration of the Install base table
 
-If you don't want to activate all the tables and records in the CSDM framework, you can migrate only the Install Base table \(sn\_install\_base\_item\) as a part of your CSDM migration process. Use the following script to migrate the existing records to synchronize the legacy **State** field with the install base life cycle fields.
+To not activate all the tables and records in the CSDM framework, you can migrate only the Install Base table \(sn\_install\_base\_item\) as a part of your CSDM migration process. Use the following script to migrate the existing records to synchronize the legacy **State** field with the Install base life-cycle fields.
 
 ```
 var tableNames = [];//list of tablenames ex: ['sn_install_base_item'];

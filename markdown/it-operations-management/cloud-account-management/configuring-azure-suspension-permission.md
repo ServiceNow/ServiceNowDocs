@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Setting up Azure cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -78,4 +78,6 @@ Role required: Azure admin
 You must assign the permission to a role. For more information, see [https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal).
 
 Configure a lock/unlock policy. For more information, see [Set up suspension of a subscription using Azure policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/configuring-lock-unlock-policy-for-azure.md).
+
+**Parent Topic:**[Setting up Azure cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/setting-up-azure-cloud.md)
 

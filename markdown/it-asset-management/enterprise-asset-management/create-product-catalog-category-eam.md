@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-30"
 reading_time_minutes: 2
 keywords: [Enterprise Asset Management, EAM, product catalog, product catalog category, create category, admin center]
-breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create an enterprise catalog category

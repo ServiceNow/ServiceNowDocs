@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Password complexity requirements, Local authentication, Authentication, Access Management]
 ---
@@ -18,21 +18,21 @@ Password policy criteria enables you to secure your password and adhere to the m
 
 ## Before you begin
 
-Role required: password\_policy\_admin
+Role required: admin
 
 ## About this task
 
-The Password Policy plugin \(com.glide.password\_policy\) is enabled by default. It goes into effect when a user changes or resets the password. If you customized your instance, through the ValidatePasswordStronger installation exit or your Password Reset credential store \[pwd\_cred\_store\], see [password policy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/password-policy-properties.md).
+The Password Policy \[com.glide.password\_policy\] plugin is enabled by default. It goes into effect when a user changes or resets the password. If you customized your instance, through the ValidatePasswordStronger installation exit or your Password Reset credential store \[pwd\_cred\_store\], see [password policy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/password-policy-properties.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Password Policy** &gt; **Password Policies**.
 
-    **Note:** **Default Strong** preset is enabled as a default password acceptance criteria. To add a new criterion, perform the following steps.
+    **Note:** **Default Strong** preset in enabled as a default password acceptance criteria. In case, if you want to add a new criteria, you can perform the following steps.
 
-2.  Select **New**.
+2.  Click **New**.
 
-    The Password Policy New record page has the following sections that you must specify for setting your password:
+    The Password Policy New record page, has the following sections that you must specify for setting your password:
 
     -   **Password Policy Criteria**
     -   **Sequence Matching**
@@ -41,7 +41,7 @@ The Password Policy plugin \(com.glide.password\_policy\) is enabled by default.
 
 3.  Specify the **Name** for your password policy.
 
-4.  In the **Password Policy Criteria** section, select the preset from the **Password Strength Preset**. The presets available are in the following table.
+4.  In the **Password Policy Criteria** section, select the preset from the **Password Strength Preset**. The presets available are as follows:
 
 <table id="table_cdt_mtr_1rb"><thead><tr><th>
 
@@ -81,9 +81,9 @@ High
 </td><td>
 
 Selecting **High** auto-populates the password characters as follows:-   One Minimum Uppercase Character
--   Two Minimum Lowercase Characters
+-   Two Minimum Lowercase Character
 -   One Minimum Numeric Character
--   Three Minimum Special Characters
+-   Three Minimum Special Character
 
 
 </td></tr><tr><td>
@@ -137,7 +137,7 @@ Minimum Password Length
 
 </td><td>
 
-Minimum length of the password. This option is displayed for all the presets except **Advanced**.**Note:** **Minimum Password Length** is recommended to set it to a minimum of 8–10 characters.
+Minimum length of the password. This option is displayed for all the presets except **Advanced**.**Note:** **Minimum Password Length** is a required field and recommended setting it to a minimum of 8–10 characters.
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Maximum Password Length
 
 </td><td>
 
-Maximum length of the password. This option is displayed for all the presets except **Advanced**.**Note:** **Maximum Password Length** is recommended to set it to a maximum of 100 characters.
+Maximum length of the password. This option is displayed for all the presets except **Advanced**.**Note:** **Maximum Password Length** is an optional field and recommended to set it to a maximum 100 characters.
 
 </td></tr><tr><td>
 
@@ -169,7 +169,7 @@ Minimum Numeric Character\(s\)
 
 </td><td>
 
-Minimum number of numeric characters in the password, from 0 to 10.
+Minimum numeric of characters in the password, from 0 to 10.
 
 </td></tr><tr><td>
 
@@ -185,7 +185,7 @@ Included Special Characters
 
 </td><td>
 
-Restricted set of special characters allowed without any delimiter. For example, if you enter "$,!" users can only use "$" and "!" as special characters in the password. No other special characters can be used, and a password with other special characters is not allowed.
+Allow a restricted set of special characters without any delimiter. For example, if you enter "$,!" users can only use "$" and "!" as special characters in the password. No other special characters can be used, and a password with other special characters is not allowed.
 
 </td></tr><tr><td>
 
@@ -193,7 +193,7 @@ Excluded Special Characters
 
 </td><td>
 
-Restricted set of special characters excluded without any delimiter. For example, when '@$!' is entered, users should not be able to use '@', '$' and '!' as special characters in their passwords.**Note:** This option is available if the **glide.password\_policy.use\_excluded\_special\_char** property is enabled.
+Allow a restricted set of special characters without any delimiter. For example, when '@$!' is entered, users should not be able to use '@', '$' and '!' as special characters in their passwords.**Note:** This option is available if the glide.password\_policy.use\_excluded\_special\_char property is enabled.
 
 </td></tr><tr><td>
 
@@ -201,7 +201,7 @@ Disallow User Data
 
 </td><td>
 
-Option to disallow user data in the password.
+It is enabled to disallow the user data.
 
 </td></tr></tbody>
 </table>6.  In the Sequence Matching section, specify the **Sequence Length Threshold** and **Repetition Length Threshold**.
@@ -212,10 +212,10 @@ Option to disallow user data in the password.
     -   For **Default Strong**, the length for both sequence length threshold and repetition length threshold is selected as four characters.
 7.  In the **Test Your Password** section, specify your password.
 
-8.  Select **Test Your Password**.
+8.  Click **Test Your Password**.
 
-9.  When the password is valid, select **Submit** to submit the password.
+9.  Once the password is valid, click **Submit** to submit the password.
 
-    **Note:** Test your password before submitting.
+    **Note:** Always test your password before submitting.
 
 

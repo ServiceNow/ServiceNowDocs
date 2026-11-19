@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-12-31"
 reading_time_minutes: 9
-breadcrumb: [Integrating with Jira Software Cloud, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrating with Jira Software Cloud, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrate with Jira Software Cloud using basic authentication
@@ -79,7 +79,7 @@ Create an API token in Jira to authenticate requests.
 
 ### Before you begin
 
-Jira Role required: Refer the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-jira-basicauth.md) table.
+Jira Role required: Refer the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-jira.md) table.
 
 ### Procedure
 
@@ -137,7 +137,7 @@ To enable the integration profile to retrieve and update user activity through t
 
 Atlassian Role required: site admin
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: admin or sam\_integrator
 
 **Important:** You must select the **Jira Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -149,15 +149,15 @@ If you’re using Software Asset Workspace, the option to create the Jira integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d214327e528">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d204530e528">
 
 Interface
 
-</th><th align="left" id="d214327e531">
+</th><th align="left" id="d204530e531">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d214327e537">
+</th></tr></thead><tbody><tr><td id="d204530e537">
 
 **Core UI**
 
@@ -168,7 +168,7 @@ Action
 3.  Select **Jira Integration Profile**.
 
 
-</td></tr><tr><td id="d214327e579">
+</td></tr><tr><td id="d204530e579">
 
 **Software Asset Workspace**
 
@@ -246,7 +246,7 @@ Jira Subscription. This field is automatically populated.
 
     The **Connection &amp; Credential** field appears and is automatically set to **sn\_jira\_spoke.jira\_subscription\_activity\_reclaim**.
 
-5.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "search-icon.png"\] next to the **Connection &amp; Credential** field and then selecting the child alias that you had created in [Create the child alias record for Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-jira-basicauth.md).
+5.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "search-icon.png"\] Alt text: Search icon. next to the **Connection &amp; Credential** field and then selecting the child alias that you had created in [Create the child alias record for Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-jira-basicauth.md).
 
 6.  Select **Save**.
 

@@ -5,10 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-airc-ai-asset.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-21"
 reading_time_minutes: 2
-keywords: [AI asset risk and compliance, regulatory risk classification, compliance score, aggregated risk rating, risk heat map]
-breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Working with AI asset records, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Governing AI asset risk and compliance
@@ -154,7 +153,7 @@ Governance
 
 </td><td>
 
-Risk assessments, controls, compliance tasks, and related governance artifacts for the AI asset. Governance-related items are organized into categories with expandable subsections. Select an artifact to open it in the AI Control Tower workspace. For more information, see [Governance record types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-airc-governance-records.md).
+Risk assessments, controls, compliance tasks, and related governance artifacts for the AI asset. Governance-related items are organized into categories with expandable subsections. Select an artifact to open it in the Control Tower workspace. For more information, see[Governing AI asset risk and compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-airc-ai-asset.md).
 
 </td><td>
 
@@ -166,9 +165,4 @@ sn\_ai\_governance.ai\_steward
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-managing-ai-assets.md)
-
-**Related topics**  
-
-
-[Risk score and compliance score dashboard errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-airc-ref-troubleshooting.md)
 

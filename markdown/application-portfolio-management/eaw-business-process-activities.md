@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-business-process-activities.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-03"
 reading_time_minutes: 1
 keywords: [business process activity, business process, business actor]
-breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Exploring business process activities

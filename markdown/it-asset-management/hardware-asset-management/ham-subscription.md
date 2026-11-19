@@ -7,10 +7,10 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 8
+last_updated: "2025-07-31"
+reading_time_minutes: 7
 keywords: [HAM licensing, Hardware Asset Management licensing]
-breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
 ---
 
 # Hardware Asset Management subscription
@@ -40,10 +40,10 @@ Get the most out of your asset data to save time and resources with the followin
     -   [Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/zero-touch-asset-refresh.md)
 -   [Automated asset tasks such as deploy, swap, and retire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/asset-lifecycle-automation.md)
 -   Mobile
-    -   [Asset inventory audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/audit-your-inventory.md)
-    -   [Asset repair task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md)
-    -   [Asset pick task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-asset-pick-task-ham-mobile-app.md)
-    -   [Asset put away task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-hardware-asset-put-away-ham-mobile-agent.md)
+    -   [Audit hardware asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-inventory-audit.md)
+    -   [Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md)
+    -   [Manage hardware asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-asset-pick-task-ham-mobile-app.md)
+    -   [Manage asset put away using the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-hardware-asset-put-away-ham-mobile-agent.md)
 -   [Asset integration - Shipping carrier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/integrating-with-third-party-carrier-apps.md)
 -   [Pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/pallet-assets.md)
 -   [Asset Management Executive Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/asset-mgmt-exec-dash.md)
@@ -66,7 +66,6 @@ Get the most out of your asset data to save time and resources with the followin
 -   [Receiving hardware and consumable assets at stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/stockroom-receiving-ham.md)
 -   [Asset performance reports in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/asset-performance-reports-ham.md)
 -   [Inventory reports for managing stockrooms in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-stockroom-inventory-report-ham.md)
--   [Approximated lifecycle and lifecycle code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/approximated-lifecycles-hardware-products.md)
 
 The following base system features of Core Asset Management are provided with ServiceNow IT Service Management \(ITSM\) and Customer Service Management \(CSM\) product.
 
@@ -85,5 +84,5 @@ Hardware Asset Management \(HAM\) licensing enables you to choose the Hardware A
 -   **[Licensing framework for Hardware Asset Management solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/licensing-ham-solutions.md)**  
 Manage the subscription units purchased and consumed by your organization for all the Hardware Asset Management solutions with the improved HAM licensing framework. When more than one Hardware Asset Management solution is activated on a ServiceNow instance, any licensable and opted-in resource category is licensed only under one solution.
 
-**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/exploring-ham.md)
+**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
 

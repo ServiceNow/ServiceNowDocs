@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Center
 classification: upgrade-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Prepare to upgrade with Upgrade Plan, Preparing your upgrade plan, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Prepare to upgrade with Upgrade Plan, Preparing your upgrade plan, Use, Upgrade Center, Upgrade, Administer]
 ---
 
 # Preview Upgrade Plan

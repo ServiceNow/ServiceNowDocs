@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-03-24"
 reading_time_minutes: 25
-breadcrumb: [ServiceNow Otto panel, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [ServiceNow Otto panel, AI Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Premium chat

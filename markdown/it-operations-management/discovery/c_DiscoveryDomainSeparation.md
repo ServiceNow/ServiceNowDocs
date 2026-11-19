@@ -23,7 +23,7 @@ Domain separation is supported in Discovery. Domain separation enables you to se
 -   Business logic: The service provider \(SP\) creates or modifies processes per customer. The use cases reflect proper use of the application by multiple SP customers in a single instance.
 -   The instance owner must configure the minimum viable product \(MVP\) business logic and data parameters per tenant as expected for the specific application.
 
-Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
+Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-separated-apps.md).
 
@@ -45,6 +45,17 @@ If the SP is remotely managing their customer's data center, there will often be
 
 Once the CIs are assigned to the correct domain, the visibility and read/write access control are provided by the platform through the domain hierarchy. Schedules are visible to users in their respective domains. Cross-domain schedule visibility isn't possible, except for the SP who controls the parent domain and has visibility to all domains.
 
+## Domain separation in Discovery Admin Workspace
+
+Starting with v1.23.0, Discovery Admin Workspace filters IP-based discovery schedules and anomaly detection data by domain on the **Home**, **Schedules**, and **Diagnostics** tabs. Users can view data for their current domain and the global domain. Data from other domains isn't displayed.
+
+If Error Framework is enabled, the **Errors** tab domain picker lists only the domain selected in the platform domain picker, its child domains, and the global domain.
+
+**Warning:**
+
+-   Domain separation isn't yet supported for cloud and certificate discovery schedules.
+-   The **Settings** and **Tuning** tabs don't support domain separation. Their content applies across domains and is the same regardless of the selected domain.
+
 ## Domain separation for MID Server files
 
 You can create versions of these specific MID Server policy records that only a MID Server from the same domain can use. This process separation is supported for records in tables that extend MID Server Synchronized Files \[ecc\_agent\_sync\_file\]:
@@ -55,7 +66,7 @@ You can create versions of these specific MID Server policy records that only a 
 
 By default, all records in these tables are members of the global domain. A user can override the default global domain and create a version of these policies for use in the user's own domain.
 
-**Note:** Attachments on MIB or JAR file records might not appear as they did in a non-domain separated environment. The attachments don't appear because the **Attachments** \[sys\_attachment\] table is data separated. When data is separated between domains, a record in a child domain can't access records in a parent domain.
+**Note:** Attachments on MIB or JAR file records might not appear as they did in a non-domain separated environment. The attachments do not appear because the **Attachments** \[sys\_attachment\] table is data separated. When data is separated between domains, a record in a child domain cannot access records in a parent domain.
 
 See [MID Server domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_MIDServerDomainSeparation.md) for instructions on setting up domain separation through the MID Server.
 

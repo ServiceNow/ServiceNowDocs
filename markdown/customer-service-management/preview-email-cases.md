@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/preview-email-cases.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Manage email tasks, Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Manage email tasks, Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
 # Preview an email from the Emails related list
@@ -23,12 +23,12 @@ Role required: sn\_customerservice\_agent
 For information about adding or modifying actions on a form, see the following topics:
 
 -   [Customizing your workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/declarative-actions-landing.md)
--   [Create a form action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/create-a-new-form-action.md)
+-   Create a UXF client action for forms
 -   [Declarative actions glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/declarative-actions-glossary.md)
 
 ## Procedure
 
-1.  Open CRM Workspace.
+1.  Open CSM Configurable Workspace.
 
 2.  Select and open a case.
 
@@ -39,8 +39,6 @@ For information about adding or modifying actions on a form, see the following t
 4.  Select an email to preview from the Emails list.
 
     The email opens in a sub tab and displays the details.
-
-    \[Omitted image "email-tab.png"\] Alt text: Details tab displaying email information of a case record.
 
 5.  Select **Reply** or **Reply All** to reply to the message you’re viewing or select **Forward** to forward the email.
 

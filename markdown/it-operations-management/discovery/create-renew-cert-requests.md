@@ -20,7 +20,7 @@ Manually initiate renewal requests for certificates using the Service Catalog fo
 
 Ensure that the Certificate Management catalog is enabled.
 
-Role required: pki\_admin
+Role required: sn\_disco\_certmgmt.certificate\_requester or sn\_disco\_certmgmt.pki\_user
 
 ## Procedure
 
@@ -32,8 +32,8 @@ Role required: pki\_admin
 
 4.  Provide the necessary information for the following mandatory fields.
 
+    -   **Unique Certificate**
     -   **Certificate Signing Request**
-    -   **Requested for**
     -   **Approver**
 5.  Enter or select additional details on the form as needed.
 

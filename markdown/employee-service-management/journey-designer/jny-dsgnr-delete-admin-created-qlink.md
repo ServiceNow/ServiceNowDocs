@@ -7,7 +7,7 @@ release: zurich
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Creating and managing quick links for journeys, Configure Journey designer features, Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ To delete an administrator created quick link in Journey designer, you must be a
 
 ## Before you begin
 
-Role required: sn\_jny.admin
+Role required: admin
 
 ## Procedure
 

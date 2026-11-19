@@ -7,10 +7,10 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [asset put away using mobile app, put away asset, enterprise asset put away task]
-breadcrumb: [Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
+breadcrumb: [Manage enterprise assets and tasks using Mobile Agent application, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Manage enterprise asset put away using the ServiceNow Agent application

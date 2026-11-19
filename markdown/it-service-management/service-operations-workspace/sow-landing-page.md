@@ -1,6 +1,6 @@
 ---
 title: Service Operations Workspace for ITSM
-description: ServiceNow Service Operations Workspace is a configurable workspace included in ITSM Professional and Enterprise subscriptions that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using the interface of Service Operations Workspace for ITSM.
+description: ServiceNow Service Operations Workspace is a configurable workspace included in ITSM Professional and Enterprise subscriptions that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using the easy-to-navigate interface of Service Operations Workspace for ITSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/sow-landing-page.html
 release: zurich
@@ -14,11 +14,11 @@ breadcrumb: [IT Service Management]
 
 # Service Operations Workspace for ITSM
 
-ServiceNow® Service Operations Workspace is a configurable workspace included in ITSM Professional and Enterprise subscriptions that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using the interface of Service Operations Workspace for ITSM.
+ServiceNow® Service Operations Workspace is a configurable workspace included in ITSM Professional and Enterprise subscriptions that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using the easy-to-navigate interface of Service Operations Workspace for ITSM.
 
 ## Service Operations Workspace overview
 
-Service Operations Workspace provides a unified interface for IT service agents to manage incidents, changes, requests, and approvals. It supports configurable dashboards, list views, and record pages for ITSM and ITOM workflows.
+Service Operations Workspace provides a unified interface for IT service agents to manage incidents, changes, requests and approvals. It supports configurable dashboards, list views, and record pages for ITSM and ITOM workflows.
 
 \[Omitted image "sow-overview-landing-new-bg.svg"\] Alt text: Service Operations Workspace
 
@@ -28,7 +28,7 @@ For information about how you can automate and optimize your services and operat
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-Terminology used in Service Operations Workspace for ITSM \[Omitted image "icon-reference.png"\] Alt text: SOW terminology Learn about the frequently used terms in Service Operations Workspace for ITSM
+[Terminology used in Service Operations Workspace for ITSM \[Omitted image "icon-reference.png"\] Alt text: SOW terminology Learn about the frequently used terms in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/terminology-used-in-sow-for-itsm.md)
 
 </td><td>
 
@@ -53,7 +53,7 @@ Terminology used in Service Operations Workspace for ITSM \[Omitted image "icon-
 </td></tr></tbody>
 </table>## Common tasks
 
-Use the following links for frequently performed tasks in Service Operations Workspace for ITSM:
+Use the following links for the frequently performed tasks in Service Operations Workspace for ITSM.
 
 -   [Create an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-incident-sow.md)
 -   [View and approve records in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/view-approvals-sow.md)
@@ -77,7 +77,7 @@ Here are some additional ServiceNow resources that can help you:
 
 -   **\[Omitted image "dcx-icon.svg"\] Best Practices**
 
-    Explore the Best Practices content library to access resources and guidance that help accelerate the implementation of Service Operations Workspace features at [Service Operations Recommended Implementation Sequence](https://mynow.servicenow.com/now/best-practices/assets/service-operations-recommended-implementation-sequence).
+    Explore the Best Practices content library to access resources and proven guidance that help accelerate the implementation Service Operations Workspace features at [Service Operations Recommended Implementation Sequence](https://mynow.servicenow.com/now/best-practices/assets/service-operations-recommended-implementation-sequence).
 
 -   **\[Omitted image "icon-youtube.svg"\] YouTube**
 

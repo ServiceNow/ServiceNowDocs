@@ -1,20 +1,20 @@
 ---
 title: Repair claims tables
-description: The repair claim tables store data for repair claim requests, expenses, and case details in Manufacturing Commercial Operations.
+description: This section explains the repair claim tables in Manufacturing Commercial Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/repair-claims-tables.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Repair claims data model, Data model, Reference, Manufacturing Commercial Operations]
 ---
 
 # Repair claims tables
 
-The repair claim tables store data for repair claim requests, expenses, and case details in Manufacturing Commercial Operations.
+This section explains the repair claim tables in Manufacturing Commercial Operations.
 
-## Repair claim feature
+## Repair claim plugin
 
 The repair claim feature adds or modifies the existing tables:
 
@@ -22,7 +22,7 @@ The repair claim feature adds or modifies the existing tables:
 -   Case \[sn\_customerservice\_case\]
 -   Case Line \[sn\_case\_line\]
 
-The repair claim feature adds the following tables.
+The repair claim plugin adds the following tables.
 
 <table id="table_yn1_h1l_3fc"><thead><tr><th>
 

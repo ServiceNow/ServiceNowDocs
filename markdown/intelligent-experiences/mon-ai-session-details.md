@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Investigating sessions, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Investigating sessions, Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Session details
@@ -42,7 +42,7 @@ To learn more about any single score, point to the information icon. The reason 
 
 Identify which trace in the session is responsible for the low score by reviewing the traces list. Sort the Traces list to focus your investigation by selecting Lowest quality score, Lowest safety score, Highest latency, or other criteria from the list.
 
-A trace shows N/A for its Quality or Safety score when no metrics in your corresponding metric template apply to that trace. This happens when all metrics in the template are evaluated at the session or span level only, or when the metrics that do apply to the trace level weren't evaluated for that particular trace. An N/A score doesn't indicate a problem with the trace. Rather, it indicates that your template's formula has nothing to calculate at the trace level. To see scores for that trace, either:
+A trace shows N/A for its Quality or Safety score when no metrics in your corresponding metric template apply to that trace. This happens when all metrics in the template are evaluated at the span level only, or when the metrics that do apply to the trace level weren't evaluated for that particular trace. An N/A score doesn't indicate a problem with the trace. Rather, it indicates that your template's formula has nothing to calculate at the trace level. To see scores for that trace, either:
 
 -   Add a trace-level metric to your template. See [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-configure-metric-templates.md).
 -   Review span-level scores by expanding the trace and selecting individual spans in the timeline.
@@ -89,7 +89,7 @@ Identify the root cause of an issue at the most granular level by selecting a sp
 
 **Note:** The token counts reflect the cost of running the AI system's actual interaction, not the cost of evaluating it. Evaluation scoring consumes separate tokens that aren't displayed here.
 
-Learn why a span scored the way it did by reviewing the evaluation metric scores and the judge's reasoning. For example, a Tool choice accuracy score of 54% with reasoning that says "the agent selected a knowledge base search when a CMDB lookup was more appropriate" tells you exactly what decision the agent made incorrectly.
+Learn why a span scored the way it did by reviewing the evaluation metric scores and the judge's reasoning. For example, a Tool calling correctness score of 0% with reasoning that says "the agent passed a malformed parameter to the tool call" tells you exactly what the agent did incorrectly.
 
 Determine whether the issue originated in the input or the output by viewing the Details section. The **Input** tab shows the data or prompt passed to the span. The **Output** tab shows what the span returned. For example, a correctly formatted request paired with an incorrect tool call tells you the issue is in the agent's logic, not the incoming data. Select **Open details** to view the full content when the preview is truncated.
 

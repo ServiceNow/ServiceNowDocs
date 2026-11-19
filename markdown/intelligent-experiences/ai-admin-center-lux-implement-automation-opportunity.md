@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-02"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Agent Advisor]
-breadcrumb: [AI Agent Advisor in AI Admin Center, Use, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [AI Agent Advisor in AI Admin Center, Use, AI Agent Advisor, Enable AI experiences]
 ---
 
 # Implement an automation opportunity \(Lux UI\)
@@ -71,8 +71,10 @@ Each automation opportunity includes a set of recommended resolution steps that 
 
     The resolution steps are mapped to the set of instructions and added as tools for the AI agent.
 
-    For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-aia-new.md).
+    For more information, see .
 
+
+**Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
 
 **Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
 

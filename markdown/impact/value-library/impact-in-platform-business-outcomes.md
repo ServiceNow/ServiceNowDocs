@@ -1,36 +1,50 @@
 ---
-title: Value Management
-description: The value management constitutes a continuous loop of the end-to-end process of managing the value lifecycle. It includes envisioning value, creating value, ongoing management, optimization, and validation of value realized with the Impact store app.
+title: Value management
+description: The value management constitutes a continuous loop of the end-to-end process of managing the value lifecycle, inclusive of envisioning value, creating value, ongoing management, optimization, and validation of value realized with the Impact store app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/value-library/impact-in-platform-business-outcomes.html
 release: zurich
 product: Value Library
 classification: value-library
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Impact reference, Impact]
+last_updated: "2025-07-31"
+reading_time_minutes: 3
+breadcrumb: [Using Impact, Impact]
 ---
 
-# Value Management
+# Value management
 
-The value management constitutes a continuous loop of the end-to-end process of managing the value lifecycle. It includes envisioning value, creating value, ongoing management, optimization, and validation of value realized with the Impact store app.
+The value management constitutes a continuous loop of the end-to-end process of managing the value lifecycle, inclusive of envisioning value, creating value, ongoing management, optimization, and validation of value realized with the Impact store app.
 
-<table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td>
+## Objectives and outcomes
 
-[Outcomes Insights\[Omitted image "bus-explore.svg"\] Alt text:View all the standard outcomes you are currently tracking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/value-library/outcome-insights.md)
+The value management lifecycle starts with the creation of the Objectives and outcomes, which captures your objectives, which are high-level goals tied to measurable outcomes that help illustrate value over time. Understand and measure the value you receive from the ServiceNow products in the same instance where your applications live. By default, this cycle is executed on a yearly basis, although deviations of this time frame are possible by exception.
 
-</td><td>
+-   Decide which objectives you want to focus on and track your progress.
+-   See which outcomes, success metrics,and capabilities will best support your vision.
+-   Tell your transformation story with operational performance and value reports.
+-   Measure a selected business objective under the same product across multiple ServiceNow instances. Use the Instance option on the Objectives and Outcomes, and Outcomes Insights to filter objectives and outcomes by the ServiceNow instance.
 
-[Objectives and Outcomes\[Omitted image "bus-sdlc.svg"\] Alt text:Track states and goals for active objectives and outcomes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/value-library/objectives-and-outcomes.md)
+## Outcomes Insights
 
-</td></tr><tr><td>
+Performance recap includes a table displaying various success metrics.
 
-[Product Value\[Omitted image "bus-management-console.svg"\] Alt text:View how your investment is performing against the outcomes you are tracking.View all the standard outcomes you are currently tracking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/value-library/product-value-overview.md)
+Trends can easily be filtered and viewed to track objectives and outcomes.
 
-</td><td>
+-   Incremental value: The value of the improvements realized during the year after implementing the ServiceNow platform.
+-   Overall value: The overall, comprehensive value that the ServiceNow platform has brought to your organization during the year.
 
-[Value Reports\[Omitted image "bus-learn.svg"\] Alt text:Translate ServiceNow outcome performance data into monetized business ROI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/value-library/business-value-reports.md)
+## Using Impact Value Management data collection apps
 
-</td></tr></tbody>
-</table>
+Impact Value Management data collection apps are a detailed overview of the Report configuration options and potential implementation recommendations for collecting the data required for your value blueprint, outcome performance report, and value reports that are part of the Impact program. See [Set up Impact Value Management data collection apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-toolkit.md) for additional information on how to use the data collection apps to simplify and optimize the value metrics data collection process using Performance Analytics \(PA\).
+
+The Impact Value Management data collection apps are available on the ServiceNow Impact Store Application. These apps are accessible directly on a your instance as part of the Impact package, eliminating the need for separate downloads from the store or individual content packs. By leveraging predefined data definitions within Performance Analytics \(PA\), customers can automatically collect essential data for Value Metrics. This streamlined approach enhances the accuracy and efficiency of data collection for value measurement, providing a seamless experience and improving both customer satisfaction and product evaluation in the Value management within Impact.
+
+For more information on data collection toolkit, see [Set up Impact Value Management data collection apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-toolkit.md).
+
+## Value Reports
+
+The Value report evaluates the impact of improvements in key success metrics over time and translates them into operational and monetary value. These metrics align with the target objectives and outcomes you have been working toward. If you are a guided or advanced customer, your squad will collaborate with you to validate results, confirm key assumptions and inputs, and quantify the realized value in financial terms.
+
+For more information on value reports in Impact, see [Value reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/value-library/business-value-reports.md).
+

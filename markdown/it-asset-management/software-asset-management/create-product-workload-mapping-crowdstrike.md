@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-01-22"
 reading_time_minutes: 2
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
 ---
 
 # Create a product workload mapping for CrowdStrike products

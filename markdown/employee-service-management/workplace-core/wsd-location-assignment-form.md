@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Core
 classification: workplace-core
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Reference, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
@@ -117,6 +117,4 @@ Source from which the location assignment record was created. This field is auto
 [Workplace location assignment anomaly types]()
 
 [Reserve a space form]()
-
-[Card Configuration examples]()
 

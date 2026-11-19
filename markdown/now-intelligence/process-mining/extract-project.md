@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use, Process Mining, Platform Analytics]
+breadcrumb: [Using Process Mining, Process Mining, Platform Analytics]
 ---
 
 # Refresh project data

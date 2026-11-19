@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/configure-client-id-secret-email-auth.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Send email using client credential flow, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Sending email using client credential flow, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer]
 ---
 
 # Configure client credential flow for SMTP OAuth2 using a client id and secret
@@ -40,19 +40,13 @@ Role required: Microsoft Azure portal administrator and admin
 
 4.  Enable the **SMTP.SendAsApp** permission.
 
-    1.  In Microsoft Azure, navigate to **Manage** &gt; **API permissions**.
+    1.  In Microsoft Entra ID, navigate to **API permissions**, and select **Add a permission**.
 
-    2.  Select **Add a permission**.
+    2.  Select **Application Permissions**.
 
-    3.  Select the Microsoft Office 365 tile.
+    3.  From the list of permissions, select **SMTP.SendAsApp**.
 
-    4.  Select **Application Permissions**.
-
-    5.  In the **Select permissions** field, enter `SMTP SendAsApp`.
-
-    6.  Select the **SMTP SendAsApp** check box.
-
-    7.  Select **Add permissions**.
+    4.  Select **Add permissions**.
 
 5.  Select **Grant admin consent for &lt;your organization name&gt;**, then select **Yes** to confirm.
 
@@ -84,7 +78,7 @@ Role required: Microsoft Azure portal administrator and admin
         New-ServicePrincipal -AppId <APPLICATION_ID> -ObjectId <OBJECT_ID>
         ```
 
-        **Important:** For the OBJECT\_ID value, go to **Overview** &gt; **Managed applications in local directory** and copy the Object ID.
+        **Important:** When registering the service principal, copy the **Object ID** from **Microsoft Entra ID** &gt; **Enterprise applications** for the registered application, and use that value in the PowerShell command.
 
     3.  Add permission to user email ID using the following command.
 

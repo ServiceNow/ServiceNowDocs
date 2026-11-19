@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 32
 breadcrumb: [Cloud resource discovery references, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -74,7 +74,7 @@ Discovery uses multiple [vCenter probes](https://raw.githubusercontent.com/Servi
 |URL \[url\]|The endpoint URL used to connect to vCenter.|
 |Fully qualified domain name \[fqdn\]|The fully qualified domain name of the vCenter server.|
 
-The combination of the vCenter instance in the cmdb\_ci\_vcenter table and the object ID in the cmdb\_ci\_vm\_object table identifies a specific vCenter.
+The combination of the vCenter instance in the VMware vCenter Instance \[cmdb\_ci\_vcenter\] table and the object ID in the Virtual Machine Objects \[cmdb\_ci\_vm\_object\] table identifies a specific vCenter.
 
 The tables extend from the Virtual Machine Objects \[cmdb\_ci\_vm\_object\] table, which holds object IDs for all cloud-based resources, except virtualization servers.
 
@@ -733,7 +733,7 @@ Disk \[cmdb\_ci\_disk\]
 </td></tr></tbody>
 </table>\* These relationships are part of Software Asset Management \(ServiceNow Otto for SAM\) use case.
 
-† The business rule "Virtual Computer Check" creates the relationships between the listed server CIs and the ESX Server and VM Instance. The server CI must be discovered after the vCenter is discovered. This triggers the business rule and creates the relationships.
+† The relationships between the listed server CIs and the ESX Server and VM Instance are created by the business rule Virtual Computer Check. The server CI must be discovered after the vCenter is discovered to trigger the business rule and create the relationships.
 
 **Note:** Software installation records appear as a related list on Server \[cmdb\_ci\_server\], Windows Server \[cmdb\_ci\_win\_server\], and Linux Server \[cmdb\_ci\_linux\_server\] CI records.
 
@@ -1025,7 +1025,7 @@ Install Status
 
 Installed
 
- Any
+ Any value except Terminated or empty
 
 </td><td>
 
@@ -1184,7 +1184,7 @@ If you use a domain account to access the ESXi host, specify the domain with the
 
 ## Requirements
 
--   Make sure the Discovery \(com.snc.discovery\) plugin is installed and activated and that you have upgraded to Brazil or later.
+-   Make sure the Discovery \(com.snc.discovery\) plugin is installed and activated and that you have upgraded to Zurich or later.
 -   Activate the ESXi trigger probe. Navigate to the Trigger Probe \[trigger\_probe\_m2m\] table. The esxi record is inactive by default. Mark Active as true to enable Standalone ESXi discovery.
 -   Create a Discovery schedule for the host with the appropriate IP address of the ESXi host.
 

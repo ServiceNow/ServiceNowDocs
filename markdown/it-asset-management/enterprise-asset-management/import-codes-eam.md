@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Manage failure and resolution codes, Configure, Enterprise Asset Management, Asset Management]
+breadcrumb: [Manage failure and resolution codes, Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Import failure and resolution codes in bulk
@@ -28,13 +28,11 @@ Role required: sn\_eam.enterprise\_admin or inventory\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace** &gt; **Admin center** &gt; **Failure and resolution**.
 
-2.  From the Enterprise Asset Workspace, open the Admin center view.
+2.  In the Failure and resolution list, select **Import**.
 
-3.  From the navigation panel of the Admin center view, navigate to **Failure and resolution** &gt; **Import**.
-
-4.  Create an asset service import.
+3.  Create an asset service import.
 
     1.  Select **New**.
 
@@ -64,7 +62,7 @@ Role required: sn\_eam.enterprise\_admin or inventory\_admin
 
         1.  In the **Name** field, provide a name for the asset service import.
         2.  Select **Attach file** and then select the code import template that you created in step b.
-5.  Select **Import**.
+4.  Select **Import**.
 
 
 ## Result

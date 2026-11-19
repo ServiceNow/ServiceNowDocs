@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-29"
 reading_time_minutes: 2
 keywords: [Now SDK, Requirements, Installation, Commands, Reference documentation]
-breadcrumb: [Development tooling, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Development tooling, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # ServiceNow SDK

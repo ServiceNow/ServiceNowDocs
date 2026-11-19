@@ -1,62 +1,58 @@
 ---
-title: Create AI connection for LangGraph
-description: Use the AI Service Graph Connector for LangGraph plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these agents. This usage information is consumed by the AI Control Tower value dashboard.
+title: Create an AI connection for LangGraph
+description: Create an AI connection for LangGraph in Control Tower using the  AI Service Graph Connector for LangGraph \(version 1.1.1\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/create-ai-connection-for-langgraph.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, AI connections, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# Create AI connection for LangGraph
+# Create an AI connection for LangGraph
 
-Use the AI Service Graph Connector for LangGraph plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these agents. This usage information is consumed by the AI Control Tower value dashboard.
+Create an AI connection for LangGraph in Control Tower using the  AI Service Graph Connector for LangGraph \(version 1.1.1\).
 
 ## Before you begin
 
-Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
+Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **Service Graph connectors** &gt; **LangGraph** &gt; **Setup**.
+1.  Navigate to **Control Tower** &gt; **Configurations** &gt; **AI connections**.
 
-2.  Select **Add**.
+2.  Select **LangGraph** from the available connectors and then select **Create connection**.
 
-3.  Select **LangGraph** from all the available connectors.
+3.  Review setup instructions page displays.
 
-4.  Click **Create connection**.
+    **Note:** Verify to follow all the prerequisite steps.
 
-    Setup instructions page displays.
-
-5.  Verify to follow all the prerequisite steps.
-
-    Setup page appears
-
-6.  Create and test connection
+4.  Enter the details on Create and test connection:
 
     1.  Enter the **Connection Name**.
 
     2.  Enter the **Connection URL for LangSmith API**.
 
-    3.  Enter the **Connection URL for LangSmith Rest API**.
+    3.  Enter the **Connection URL for LangSmith Host API**.
+
+        **Note:** For sub-steps b and c, you don't have to change the default value unless LangSmith is hosted.
 
     4.  Enter the **API Key**.
 
-        **Note:** Log in to LangGrapH instance and navigate to settings and select API Keys and create an API Key.
+        **Note:** Log in to LangGraph instance and navigate to settings and select API Keys and create an API Key.
 
-    5.  To use a MID server, select the MID server check box.
+    5.  To use a MID Server, select the MID Server check box.
 
-    6.  Click **Create and test connection**.
+    6.  Select **Create and test connection**.
 
-    7.  Click **Continue**.
+    7.  Select **Continue**.
 
-7.  Configure import schedule
+5.  Configure import schedule:
 
-    1.  Ensure that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out of the box inactive.
+    1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out inactive.
 
         **Note:** Ensure to execute the Discovery-scheduled job first.
 
@@ -66,12 +62,12 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    4.  Click **Continue**.
+    4.  Select **Continue**.
 
-    5.  Click **View all connections** to view the newly created connection.
+6.  Select the **Confirm connection setup** activity to verify whether the connection was configured.
 
 
 ## Result
 
-AI connection is created for LangGraph.
+Select **View all connections** to review the connection details. The created connection appears in the Installed connections list.
 

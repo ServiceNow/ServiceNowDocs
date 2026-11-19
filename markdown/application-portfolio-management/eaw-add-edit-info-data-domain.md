@@ -5,9 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-add-edit-info-data-domain.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure information data domains, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+keywords: [information data domain, data domain, enterprise architecture workspace]
+breadcrumb: [Configure information data domains, Configure EA Workspace using the Setup page, Configure, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Add or edit an information data domain
@@ -20,15 +21,15 @@ Role required: sn\_apm.apm\_admin
 
 ## About this task
 
-A data domain is a collection of information objects. ServiceNow® Discovery finds the database catalog that lists all the catalog objects, or databases, discovered for an instance of a database.
+A data domain is a collection of information objects. ServiceNow Discovery finds the database catalog that lists all the catalog objects, or databases, discovered for an instance of a database.
 
 ## Procedure
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Setup page by selecting the Setup icon \(\[Omitted image "setup-icon.png"\] Alt text: Setup icon\).
+2.  Open the Setup page by selecting the Setup icon \(\[Omitted image "setup-icon.png"\] Alt text:\).
 
-3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Information Data Domains**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text:\) next to **Information Data Domains**.
 
 4.  Select **All**.
 

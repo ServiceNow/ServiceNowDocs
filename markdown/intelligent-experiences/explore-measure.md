@@ -1,20 +1,20 @@
 ---
-title: Exploring Measure
+title: Exploring measure
 description: Measure helps you determine whether your AI systems deliver more value than they cost. It brings value and cost data together in dashboards so that you can compare productivity gains with AI spend.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/explore-measure.html
 release: zurich
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
-breadcrumb: [Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Exploring Measure
+# Exploring measure
 
 Measure helps you determine whether your AI systems deliver more value than they cost. It brings value and cost data together in dashboards so that you can compare productivity gains with AI spend.
 
-Measure is one of the AI Control Tower pillars. It helps you quantify the value your AI systems deliver, track what they cost, and monitor the results over time. Measure includes the following components.
+Measure is one of the Control Tower pillars. It helps you quantify the value your AI systems deliver, track what they cost, and monitor the results over time. Measure includes the following components.
 
 ## Value
 
@@ -22,11 +22,11 @@ Value translates AI usage into measurable productivity metrics. It uses value te
 
 A value template is the metric that converts AI usage into productivity gains. Each template includes a usage indicator, the minutes saved per occurrence, and a quality score. Templates are reusable by design, so a single template can be applied to multiple AI systems.
 
-Value jobs are scheduled tasks that run at set intervals—daily \(default\), monthly, or quarterly—to capture usage and user metrics and to power dashboards.
+Value jobs are scheduled tasks that run at set intervals daily \(default\), monthly, or quarterly to capture usage and user metrics and to power dashboards.
 
 ## Cost
 
-Cost records the actual expenses associated with your AI systems, enabling AI Control Tower to compare these costs against productivity gains and calculate the net return on investment. You configure costs by entering your organization's average hourly rate and defining prices for integrated and non-integrated vendors. The cost configuration converts token usage and ServiceNow Assist consumption into monetary costs.
+Cost records the actual expenses associated with your AI systems, enabling Control Tower to compare these costs against productivity gains and calculate the net return on investment. You configure costs by entering your organization's average hourly rate and defining prices for integrated and non-integrated vendors. The cost configuration converts token usage and ServiceNow Assist consumption into monetary costs.
 
 ## Dashboards
 

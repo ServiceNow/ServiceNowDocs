@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-ordermanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -126,7 +126,7 @@ Summarizes complex orders across products, services, and fulfillment tasks. This
 Take advantage of the following complex characteristics for orders:
 
     -   Define complex characteristics for product offerings and specifications using object structures, data arrays, and other data input types such as String, Integer, Date, DateTime, and Decimal. For more information, see [Defining characteristics and options](https://www.servicenow.com/docs/access?context=defining-prod-characteristics&family=zurich&ft:locale=en-US).
-    -   Define compatibility, decomposition, and attribute propagation rules based on conditions that use characteristics at any level of a complex attribute hierarchy. For more information, see [\[Placeholder link text to key bundle-omgmt.create-compatibility-rules\]](https://www.servicenow.com/docs/access?context=create-compatibility-rules&family=zurich&ft:locale=en-US), [Decomposition rules](https://www.servicenow.com/docs/access?context=order-mgt-create-decomposition-rules&family=zurich&ft:locale=en-US), and [Domain order](https://www.servicenow.com/docs/access?context=define-domain-order-attributes&family=zurich&ft:locale=en-US).
+    -   Define compatibility, decomposition, and attribute propagation rules based on conditions that use characteristics at any level of a complex attribute hierarchy. For more information, see [create compatibility rules](https://www.servicenow.com/docs/access?context=create-compatibility-rules&family=zurich&ft:locale=en-US), [Decomposition rules](https://www.servicenow.com/docs/access?context=order-mgt-create-decomposition-rules&family=zurich&ft:locale=en-US), and [Domain order](https://www.servicenow.com/docs/access?context=define-domain-order-attributes&family=zurich&ft:locale=en-US).
 -   **[Order header discount](https://www.servicenow.com/docs/access?context=add-header-discount-to-an-order&family=zurich&ft:locale=en-US)**
 
 Provide order agents with the ability to apply discounts across multiple order lines with a single action through an order header discount feature. This feature streamlines discounting workflows, improves pricing consistency, and helps speed up order processing for large complex deals.
@@ -259,7 +259,7 @@ Yokohama
 
 Install Order Management by requesting it from the ServiceNow Store.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Order Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -272,7 +272,7 @@ Zurich
 
 -   **Activation information**
 
-Install Order Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Order Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Order Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

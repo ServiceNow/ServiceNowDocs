@@ -7,9 +7,9 @@ release: zurich
 product: Granular Delegation
 classification: granular-delegation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Setting up Granular Delegation, Granular Delegation, Employee Service Management]
+breadcrumb: [Configure, Granular Delegation, Employee Service Management]
 ---
 
 # Create delegation rules

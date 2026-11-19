@@ -1,5 +1,5 @@
 ---
-title: Assess Risk Projects in Grid view
+title: Perform assessment on a risk assessment project in grid view
 description: Perform assessments on multiple risks and controls simultaneously in a risk assessment project using the grid view. You can assess inherent risks, effectiveness of controls, residual risks, and target risks. You can define risk responses that enable you to manage and mitigate the risks identified during the risk assessment process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/perform-assessment-risk-assessment-project-grid-view.html
@@ -7,12 +7,12 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2025-07-31"
+reading_time_minutes: 2
 breadcrumb: [Risk assessment project, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
 
-# Assess Risk Projects in Grid view
+# Perform assessment on a risk assessment project in grid view
 
 Perform assessments on multiple risks and controls simultaneously in a risk assessment project using the grid view. You can assess inherent risks, effectiveness of controls, residual risks, and target risks. You can define risk responses that enable you to manage and mitigate the risks identified during the risk assessment process.
 
@@ -36,13 +36,9 @@ Role required: sn\_grc.business\_user, sn\_risk\_workspace.IT\_risk\_manager, an
 
     A spreadsheet-style interface appears to assess risks and controls in grid based view.\[Omitted image "risk-assessment-project-grid.png"\] Alt text: Grid view of risk assessment project
 
-5.  Review the grid.
+5.  To reassign the project, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions., and select **Reassign**.
 
-    **Risk** and **Entity** are always shown as the first two columns. You can filter and sort risks by the **Risk** or **Entity** column. An administrator can configure additional columns to display in grid mode from the risk assessment methodology. For more information, see [Risk Assessment Methodology form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-methodology-form.md). The project header shows **Entities validated**, which tracks how many of the project's assessable entities have passed validation.
-
-6.  To reassign the project, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions., and select **Reassign**.
-
-7.  To add risks to the project, you can do the following:
+6.  To add risks to the project, you can do the following:
 
     1.  To create risks from the risk statement, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions. icon, and select **Create from risk statements**.
 
@@ -52,9 +48,9 @@ Role required: sn\_grc.business\_user, sn\_risk\_workspace.IT\_risk\_manager, an
 
     The risks with an in-progress assessment can't be added as part of the risk assessment project.\[Omitted image "add-risks-more-actions.png"\] Alt text: Add risks from more actions
 
-8.  To remove risks from the project, you can do the following:
+7.  To remove risks from the project, you can do the following:
 
-    Removed scoped risks remain part of the project but are marked as not applicable for reporting purposes. However, removed ad hoc risks are completely deleted.Each assessable entity must have at least one scoped risk, so you can't remove the last risk that's scoped to an entity.
+    Removed scoped risks remain part of the project but are marked as not applicable for reporting purposes. However, removed ad hoc risks are completely deleted.
 
     1.  Select **Actions**.
 
@@ -68,35 +64,31 @@ Role required: sn\_grc.business\_user, sn\_risk\_workspace.IT\_risk\_manager, an
 
         The selected risk is deleted, along with all associated responses.
 
-9.  Respond to all the factors in Inherent assessment for each risk within the project.
+8.  Respond to all the factors in Inherent assessment for each risk within the project.
 
-    The application automatically saves your responses and calculates the overall risk score.\[Omitted image "grid-control-assessment.gif"\] Alt text: Assess risks in the grid view
+    The application automatically saves your responses and calculates the overall risk score.
 
-10. To assess controls, select **Yes** in the Applicable column under Control assessment, and then respond to the control effectiveness.
+9.  To assess controls, select **Yes** in the Applicable column under Control assessment, and then respond to the control effectiveness.
 
-    \[Omitted image "grid-control-assessment.gif"\] Alt text: Assess controls in grid view.
-
-11. To assess residual and target assessment, select **Yes** in the Applicable column.
+10. To assess residual and target assessment, select **Yes** in the Applicable column.
 
     The application automatically calculates the final computed scores for individual assessments.
 
-12. Select a risk response strategy and create a risk response task.
+11. Select a risk response strategy and create a risk response task.
 
-    \[Omitted image "grid-risk-response-task.gif"\] Alt text: Create risk response tasks in the grid view.
+12. To view the complete summary of the assessment, select **View summary**.
 
-13. To view the complete summary of the assessment, select **View summary**.
-
-14. To check for any errors in the assessment before you submit the assessment, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions. icon, and select **Validate**.
+13. To check for any errors in the assessment before you submit the assessment, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions. icon, and select **Validate**.
 
     You can see the list of errors, if any, that must be resolved in the side panel for the selected risk.
 
-15. Identify the errors and resolve them.
+14. Identify the errors and resolve them.
 
-16. Select **Validate** to check if the errors have been resolved.
+15. Select **Validate** to check if the errors have been resolved.
 
-17. To submit the risk assessment project for approval, select **Submit**, and select **Confirm Submission**.
+16. To submit the risk assessment project for approval, select **Submit**, and select **Confirm Submission**.
 
-    Assessments are validated again in this stage. Review the assessment summary before you submit. You can’t make any changes after submission.For a project with multiple entities, **Submit** stays disabled until all the risks across all the scoped entities pass validation.
+    Assessments are validated again in this stage. Review the assessment summary before you submit. You can’t make any changes after submission.
 
 
 **Parent Topic:**[Risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-project.md)

@@ -1,28 +1,24 @@
 ---
 title: Import OSCAL catalog
-description: From the New Import playbook experience page, you can import OSCAL files in the Catalog model into CAM workspace. This task focuses on uploading and processing the required JSON files to begin the import process.
+description: Import Open Security Controls Assessment Language \(OSCAL\) JSON format in the Catalog files into CAM workspace. This task focuses on uploading and processing the required JSON files to begin the import process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-cam-ws.html
 release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Import in OSCAL format, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Import in OSCAL format, CAM OSCAL, CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Import OSCAL catalog
 
-From the New Import playbook experience page, you can import OSCAL files in the Catalog model into CAM workspace. This task focuses on uploading and processing the required JSON files to begin the import process.
+Import Open Security Controls Assessment Language \(OSCAL\) JSON format in the Catalog files into CAM workspace. This task focuses on uploading and processing the required JSON files to begin the import process.
 
 ## Before you begin
 
-Role required:
-
--   Information System Security Manager \(sn\_irm\_cont\_auth.info\_system\_sec\_manager\)
--   Information System Security Officer \(sn\_irm\_cont\_auth.info\_system\_sec\_officer\)
--   CAM Administrator \(sn\_irm\_cont\_auth.admin\)
+Role required: sn\_irm\_cont\_auth.info\_system\_sec\_manager, sn\_irm\_cont\_auth.info\_system\_sec\_officer, or sn\_irm\_cont\_auth.admin
 
 **Note:**
 
@@ -35,7 +31,7 @@ The OSCAL catalog import is a synchronous process.
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select\[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import from the sidebar.
+2.  In the CAM Workspace, select \[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import from the sidebar.
 
 3.  Select **New Import** from the **All OSCAL imports** landing page.
 
@@ -63,7 +59,7 @@ The OSCAL catalog import is a synchronous process.
 
 9.  Select **Next** to verify the files you uploaded.
 
-    **Preview and Override** tab displays.
+    The **Preview and Override** tab displays.
 
     \[Omitted image "cam-oscal-import-catalog2.png"\] Alt text: OSCAL Catalog preview tab.
 
@@ -113,7 +109,7 @@ The OSCAL catalog import is a synchronous process.
 
 12. If an error occurs during the import process, review the error message displayed in the pop-up and take the necessary corrective action.
 
-    You can also select the More actions icon on the Attachments tab to select **Restart Stage** to restart the attachments.
+    You can also select the More actions icon on the **Attachments** tab to select **Restart Stage** to restart the attachments.
 
     **Note:** You can also select the playbook action icon \(\[Omitted image "cam-oscal-import-action-icon.png"\] Alt text: Restart playbook icon\) to select **Restart Playbook** to restart the playbook.
 

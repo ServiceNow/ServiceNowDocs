@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/billing-account-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
@@ -86,9 +86,7 @@ Paying billing account
 
 </td><td>
 
-Billing account that pays the charges. **Note:** This field is mandatory unless Paying party is None, and it isn't available when Paying party is None. When Paying party is Self, the field is set to the current billing account and is read-only. When Paying party is Parent or Designated, you select the account. Changing Paying party clears this field
-
-.
+The billing account that pays the charges when the paying party is another billing account. This field is read-only and is set based on the selected paying party.
 
 </td></tr><tr><td>
 

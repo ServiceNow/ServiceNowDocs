@@ -7,9 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Delete a card from the Desktop Assistant home page
@@ -32,6 +32,6 @@ Role required: sn\_dex\_desktop.admin
 
 5.  From the **Actions on selected rows** drop-down list, select **Delete**.
 
-6.  In the confirmation dialog box, select **Delete**.
+6.  In the Confirmation window, select **Delete**.
 
 

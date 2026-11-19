@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/components-installed-with-guided-decisions.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Install the Guided Decisions Experience application, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -79,8 +79,6 @@ Contains roles
 
 Decision tree author\[decision\_tree\_author\]
 
-\[sn\_gd\_core.decision\_tree\_author\]
-
 </td><td>
 
 Creates, views, updates, and deletes decision trees.**Note:** This role is automatically given to customer service managers.
@@ -118,14 +116,7 @@ Creates, views, updates, and deletes guidances, which are outcome of a decision 
 
 </td><td>
 
--   sn\_gd\_guidance.guidance\_user
-
-**Note:** Included with the Guided Decisions - Guidance plugin.
-
--   metadata\_scope\_viewer: Grants read-only access to the Application field on metadata records within scoped applications.
-
-**Note:** Included in the Global application scope.
-
+sn\_gd\_guidance.guidance\_user**Note:** Included with the Guided Decisions - Guidance plugin.
 
 </td></tr><tr><td>
 
@@ -183,9 +174,7 @@ Configures trend definitions.
 **Note:** Included with the Recommended Actions plugin.
 
 </td></tr></tbody>
-</table>Granular admin users can be granted delegated developer privileges and other required roles to manage and configure metadata in scoped applications instead of assigning high-privileged admin roles. By granting granular admin users with the Manage Update Set permission, you can allow them to create and manage records within a specific application scope and track those changes in the appropriate update set. The metadata\_scope\_viewer role allows these granular admins to view the Application field on metadata records within scoped applications.. For more information on the delegated development, see [Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/delegated-development-landing.md).
-
-## Guidances
+</table>## Guidances
 
 The Guided Decisions Experience application includes the guidances described in the following table.
 

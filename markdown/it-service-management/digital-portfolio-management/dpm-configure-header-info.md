@@ -7,7 +7,7 @@ release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-27"
 reading_time_minutes: 2
 breadcrumb: [Configure the Admin Center, Configure, Digital Portfolio Management, IT Service Management]
 ---
@@ -44,7 +44,7 @@ Each solution displays header information for that solution. For example, for a 
 
 4.  Review the field names in the **Secondary Values** tab.
 
-    The field names represent the information displayed on the solution header in the DPM Workspace. Only 7 field names are displayed in the DPM Workspace.
+    The field names represent the information displayed on the solution header in the DPM Workspace. Only 7 field names can be displayed in the DPM Workspace.
 
 5.  Configure the fields from the list view.
 

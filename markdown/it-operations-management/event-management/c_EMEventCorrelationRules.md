@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Alert grouping types and creation methods, Alert grouping, Configur
 
 Rule-based alert grouping is created by alert correlation rules. These rules allow you to manually classify alerts as primary or secondary and establish a relationship between them. Use alert correlation rules to group related alerts. The rule runs only for new alerts or alerts whose status changed from close/flapping to open/reopen.
 
-Example: With rule-based alert grouping, secondary alerts for virtual machines or applications on the offline server are grouped under the primary alert for that server. You can view rule-based alert grouping in Express List of Service Operations Workspace \(ITOM\). For more information, see [Viewing links between alerts in rules-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/el-rule-based-link-view.md).
+Example: With rule-based alert grouping, secondary alerts for virtual machines or applications on the offline server are grouped under the primary alert for that server. You can view rule-based alert grouping in Express List of Service Operations Workspace \(ITOM\). For more information, see [Viewing links between alerts in rules-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/el-rule-based-link-view.md).
 
 ## Primary and secondary alerts
 

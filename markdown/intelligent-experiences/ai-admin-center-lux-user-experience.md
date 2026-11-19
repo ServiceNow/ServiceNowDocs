@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-01"
 reading_time_minutes: 8
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Admin Center, Now Assist Center, AI, AI setup, AI Admin Center, Now Assist Center, AI, AI setup, AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Explore, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Explore, AI Admin Center, Enable AI experiences]
 ---
 
 # AI Admin Center user experience \(Lux UI\)

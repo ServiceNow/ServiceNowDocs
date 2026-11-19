@@ -7,9 +7,9 @@ release: zurich
 product: Localization Workspace
 classification: localization-workspace
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-12-04"
 reading_time_minutes: 1
-breadcrumb: [Exploring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Exploring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer]
 ---
 
 # Dynamic artifact detection in Localization Workspace

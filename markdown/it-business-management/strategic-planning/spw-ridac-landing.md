@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-07-17"
 reading_time_minutes: 1
 breadcrumb: [Strategic Planning, Strategic Portfolio Management]
 ---

@@ -1,29 +1,29 @@
 ---
 title: Agents and skills inventory
-description: The ServiceNow Otto for AI Control Tower plugin \(com.sn\_aict\_genai\) includes agents and skills that enhance the AI asset management and governance.
+description: The ServiceNow Otto for Control Tower plugin \(com.sn\_aict\_genai\) includes agents and skills that enhance the AI asset management and governance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-agents-skills.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 keywords: [generative AI, agentic AI, agents, skills]
-breadcrumb: [Reference, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Agents and skills inventory
 
-The ServiceNow Otto for AI Control Tower plugin \(com.sn\_aict\_genai\) includes agents and skills that enhance the AI asset management and governance.
+The ServiceNow Otto for Control Tower plugin \(com.sn\_aict\_genai\) includes agents and skills that enhance the AI asset management and governance.
 
 ## Agents and skills overview
 
-The AI Control Tower agents and skills inventory details agent functions and skill descriptions within their respective interface plugins.
+The Control Tower agents and skills inventory details agent functions and skill descriptions within their respective interface plugins.
 
 -   Agents perform tasks such as dormant asset deactivation, auto-populating AI asset descriptions, lifecycle task reminders, and outcome ranking.
 -   Skills focus on tag generation, metadata enrichment recommendations, and AI governance insights including quality scoring and critical issue identification.
--   All agents are active with configurations and all skills are shipped inactive. The ServiceNow Otto for AI Control Tower \(`com.sn_aict_genai`\) plugin contains no agentic workflows.
+-   All agents are active with configurations and all skills are shipped inactive. The ServiceNow Otto for Control Tower \(`com.sn_aict_genai`\) plugin contains no agentic workflows.
 
-**Note:** To use the agents and skills in AI Control Tower, install the ServiceNow Otto for AI Control Tower \(com.sn\_aict\_genai\) plugin.
+**Note:** To use the agents and skills in Control Tower, install the ServiceNow Otto for Control Tower \(com.sn\_aict\_genai\) plugin.
 
 ## Agents
 

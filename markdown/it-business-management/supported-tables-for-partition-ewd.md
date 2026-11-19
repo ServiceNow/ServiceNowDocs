@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/supported-tables-for-partition-ewd.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 breadcrumb: [Reference, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -45,8 +45,6 @@ The following tables list the tables and their related entities that are support
 |dmn\_m2m\_demand\_stakeholder|Stakeholder|dmn\_demand|
 |dmn\_stakeholder\_register|Stakeholder|pm\_portfolio|
 |sn\_gf\_goal\_m2m\_relationship|Goal|pm\_project / dmn\_demand / pm\_program|
-|**Portfolio relationships**|
-|pm\_m2m\_portfolio\_project|Portfolio|pm\_portfolio|
 |**Financial — Plans and Breakdowns**|
 |cost\_plan|Financial|pm\_project / dmn\_demand|
 |cost\_plan\_breakdown|Financial|pm\_project / dmn\_demand / pm\_program / pm\_portfolio|
@@ -90,8 +88,6 @@ The following tables list the tables and their related entities that are support
 |asmt\_category\_result|Assessment|pm\_project / dmn\_demand|
 |**Strategic Planning Workspace or Portfolio Planning Workspace integration**|
 |sn\_align\_core\_planning\_item|Strategic Planning Workspace or Portfolio Planning Workspace|Strategic Planning or Portfolio Planning integration \(partition enforcement applies when internal integration is enabled\)|
-
-**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/r_ITBusinessManagement.md)
 
 **Parent Topic:**[SPM Enterprise-Wide Deployment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ewd-reference.md)
 

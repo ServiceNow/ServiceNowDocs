@@ -11,7 +11,7 @@ last_updated: "2026-10-27"
 reading_time_minutes: 1
 keywords: [Developer Sandboxes, source control, Git, Git credentials, branching strategy, parallel development, merge conflicts, version control, sandbox environments, ServiceNow Studio, legacy source control, base instance]
 audience: developer
-breadcrumb: [Explore, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, Developer Sandboxes, Developing your application, Building applications]
 ---
 
 # Source control and Developer Sandboxes
@@ -24,8 +24,6 @@ Traditional, single-instance development is a model that requires ongoing oversi
 
 In support, use Developer Sandboxes in tandem with Git source control to synchronize changes between the base and sandbox environments.
 
-You can use Developer Sandboxes with both legacy source control and the updated source control in ServiceNow Studio.
-
 Using source control, developers can work on independent branches and merge them according to your organization's general guidelines.
 
 \[Omitted image "dev-sbx-infographic-git.png"\] Alt text: Sample Git-based version control flow chart
@@ -34,7 +32,5 @@ Using source control, developers can work on independent branches and merge them
 
 Each sandbox inherits Git credentials from the base instance. However, developers can add or change Git credentials locally within the sandbox. A new branch should be created for each sandbox.
 
-Sandboxes inherit Git credentials from the base instance whether you use legacy source control or the new source control in ServiceNow Studio.
-
-**Parent Topic:**[Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/exploring-sandboxes.md)
+Sandboxes inherit Git credentials from the base instance.
 

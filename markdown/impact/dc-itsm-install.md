@@ -1,16 +1,16 @@
 ---
-title: Install the Data Collection Pack for IT Service Management
+title: Install the Data Collection Pack for ITSM
 description: To enable the Data Collection Pack, you must activate Data Collection jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-itsm-install.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for IT Service Management, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for ITSM, Impact Value Management data collection apps, Configuring Impact, Impact]
 ---
 
-# Install the Data Collection Pack for IT Service Management
+# Install the Data Collection Pack for ITSM
 
 To enable the Data Collection Pack, you must activate Data Collection jobs.
 
@@ -28,8 +28,6 @@ Role required: Impact users
 
 4.  Search for and select the following:
 
-    -   **Impact VM - IT Service Management- Monthly Data Collection**
-    -   **Impact VM - IT Service Management- Historical Data Collection**
-
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-itsm.md)
+    -   **Impact VM - ITSM - Monthly Data Collection**
+    -   **Impact VM - ITSM - Historical Data Collection**
 

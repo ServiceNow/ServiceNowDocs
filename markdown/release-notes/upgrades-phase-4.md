@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/upgrades-phase-4.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Upgrade to the Brazil release, Brazil release notes]
+breadcrumb: [Upgrade to the Zurich release, Zurich release notes]
 ---
 
 # Phase 4 - Upgrade and validate the development instance

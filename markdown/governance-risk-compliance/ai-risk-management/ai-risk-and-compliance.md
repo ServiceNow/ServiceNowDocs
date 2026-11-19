@@ -1,20 +1,20 @@
 ---
 title: AI Risk and Compliance
-description: The ServiceNow AI Risk and Compliance application, along with the ServiceNow AI Control Tower, enables the risk and compliance managers to ensure that the organizations comply with the regulations and policies with respect to their AI systems.
+description: The ServiceNow AI Risk and Compliance application, along with the ServiceNow Control Tower, enables the risk and compliance managers to ensure that the organizations comply with the regulations and policies with respect to their AI systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Governance, Risk, and Compliance]
 ---
 
 # AI Risk and Compliance
 
-The ServiceNow® AI Risk and Compliance application, along with the ServiceNow® AI Control Tower, enables the risk and compliance managers to ensure that the organizations comply with the regulations and policies with respect to their AI systems.
+The ServiceNow® AI Risk and Compliance application, along with the ServiceNow® Control Tower, enables the risk and compliance managers to ensure that the organizations comply with the regulations and policies with respect to their AI systems.
 
 ## Get started
 
@@ -36,12 +36,11 @@ The ServiceNow® AI Risk and Compliance application, along with the ServiceNow®
 
 </td><td>
 
-[AI Control Tower\[Omitted image "bus-learn.svg"\] Alt text:Get details about how AI Control Tower manages and tracks all the AI assets and other AI assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower-landing.md)
+[AI Control Tower\[Omitted image "bus-learn.svg"\] Alt text:Get details about how AI Control Tower manages and tracks all the AI assets and other AI assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-landing.md)
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>**Important:** Governance workstream activities, including impact assessments, risk assessments, control attestations, issues, policy exceptions, AI cases, and AI inquiries, aren't supported in the AI-native experience. This also applies to business configuration and administration activities, such as setting up risk assessment methodologies and assessment templates. Access and view the system of record through the workspace-based experience.
-
+</table>

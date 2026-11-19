@@ -7,35 +7,37 @@ release: zurich
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
+breadcrumb: [Code reviews, Pushing changes, Working with changes, Team Development, Planning your application, Building applications]
 ---
 
 # Cancel a code review request
 
-Developers can cancel any push they submitted that is in the Awaiting Code Review stage.
+Developers can cancel any push they submitted that is in the **Awaiting Code Review** stage.
 
 ## Before you begin
 
-Role required: none.
+Role required: developer
 
 ## About this task
 
-Canceling a request sets the push to the **Code Review Request Cancelled** stage on the submitting instance. The submitting instance retains a version history of the push but the parent instance does not.
+Canceling a request sets the push to the **Code Review Request Cancelled** stage on the submitting instance. The submitting instance retains a version history of the push but the parent instance doesn’t.
 
 ## Procedure
 
-1.  Log in to the instance that pushed the changes.
+1.  Log in to the instance that you pushed the changes to.
 
 2.  Navigate to **Team Development** &gt; **Pushes and Pulls**.
 
 3.  Filter for the push you want to cancel.
 
-    **Note:** You cannot cancel a push that has been approved or rejected.
+    **Note:** You can’t cancel a push that has been approved or rejected.
 
-4.  Select the Push or Pull record.
+4.  Select the Push record.
 
-5.  Click **Cancel Code Review**.
+5.  Select **Cancel Code Review**.
 
+
+**Parent Topic:**[Code reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_CodeReview.md)
 

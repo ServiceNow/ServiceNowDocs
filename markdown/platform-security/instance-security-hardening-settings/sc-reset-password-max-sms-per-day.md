@@ -1,5 +1,5 @@
 ---
-title: Minimize reset password max SMS per day
+title: Minimize reset password max SMS per day \[Updated in Security Center 1.3\]
 description: Manage the maximum number of SMS codes sent for verification per day by user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-reset-password-max-sms-per-day.html
@@ -7,18 +7,16 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Minimize reset password max SMS per day
+# Minimize reset password max SMS per day \[Updated in Security Center 1.3\]
 
 Manage the maximum number of SMS codes sent for verification per day by user.
 
-The **password\_reset.sms.max\_per\_day** system property determines the maximum number of SMS codes sent for verification per day for a user.
-
-Set the property **password\_reset.sms.max\_per\_day** to a value of `` or less.
+The **password\_reset.sms.max\_per\_day** property represents the maximum number of SMS codes that can be sent for verification daily by a user.
 
 ## More information
 
@@ -52,7 +50,7 @@ Data type
 
 </td><td>
 
-iIteger
+integer
 
 </td></tr><tr><td>
 
@@ -68,15 +66,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
-
-</td></tr><tr><td>
-
-Fallback value
-
-</td><td>
-
-5
+10
 
 </td></tr><tr><td>
 
@@ -94,7 +84,7 @@ Security risk
 
 -   Severity score: 5.9
 -   CVSS score: Medium
--   Security risk details: If the value is too high, it's easier for attackers to brute force the SMS code.
+-   Security risk details: If this property is not set to the recommended value of **10** or less, it's easier to brute force the SMS code.
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-13"
 reading_time_minutes: 7
-breadcrumb: [List reports, Core UI Report types, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [List reports, Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Create a list report with question columns
@@ -22,14 +22,14 @@ Roles required: itil, report\_user, report\_group, report\_global, report\_admin
 
 ## About this task
 
-**Important:** This topic is about Core UI List reports. For information about question columns in the newer Platform Analytics lists, see [Add variable or question columns to a Platform Analytics list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-list-dv-with-var-col.md).
+**Important:** This topic is about Core UI List reports. For information about question columns in the newer Platform Analytics lists, see [Create a list with variable or question columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-list-dv-with-var-col.md).
 
 ## Procedure
 
-1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
+1.  Perform one of the following actions:
 
-    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
-
+    -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
+    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Core UI artifacts** &gt; **Reports** and select **New**.
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
 3.  Select a report source that has variables associated with it.
@@ -63,11 +63,11 @@ The raw data from a table with no filters applied.
 </td></tr></tbody>
 </table>4.  Select **Next**.
 
-5.  On the **Type** tab, enter **List** in the filter, select the report type, and click **Next**.
+5.  On the **Type** tab, enter **List** in the filter, select the report type, and select **Next**.
 
     The application shows a preliminary version of the report. To view the updated report at any time, select **Run**.
 
-6.  On the **Configure** tab, click **Choose columns** and select **Questions \[+\]** in the Columns window that opens.
+6.  On the **Configure** tab, select **Choose columns** and select **Questions \[+\]** in the Columns window that opens.
 
     **Questions \[+\]** is at the bottom of the list of available columns.
 
@@ -103,7 +103,7 @@ Group by
 
 </td><td>
 
-Group report data using the values of this field. For example, in an incident report grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. To group by fields on extended tables, see [How to report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_AccessFieldExtendedTable.md). Select the info icon \[Omitted image "icon-info.png"\] for a description of the selected field. Configured function fields appear in this list after you save the report.
+Group report data using the values of this field. For example, in an incident report grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. To group by fields on extended tables, see [How to report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_AccessFieldExtendedTable.md). Select the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for a description of the selected field. Configured function fields appear in this list after you save the report.
 
  **Note:**
 
@@ -117,7 +117,7 @@ Additional group by
 
 </td><td>
 
-Extra fields to group the report by. When you select **Additional group by** fields or function fields, the report includes a control at the bottom that allows you to group the report by any one of the additional fields. To group by fields on extended tables as well, see [How to report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_AccessFieldExtendedTable.md). Select the info icon \[Omitted image "icon-info.png"\] for descriptions of the selected fields Configured function fields appear in this list after you save the report.
+Extra fields to group the report by. When you select **Additional group by** fields or function fields, the report includes a control at the bottom that allows you to group the report by any one of the additional fields. To group by fields on extended tables as well, see [How to report on extended tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_AccessFieldExtendedTable.md). Click the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon\) for descriptions of the selected fields Configured function fields appear in this list after you save the report.
 
 **Note:**
 
@@ -160,7 +160,7 @@ Configure fields based on calculation of multiple inputs including arithmetic fu
 
     See [List report style options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/list-report-style-options.md).
 
-14. Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Overview main screen.
+14. Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Center main screen.
 
 
 ## What to do next

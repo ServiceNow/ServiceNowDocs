@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/adding-related-party-config-to-case.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,11 +16,7 @@ Related party configurations define the title of a relationship between an entit
 
 ## Before you begin
 
-Role required: One of the following roles:
-
--   sn\_crm\_customer\_access\_management\_admin
--   sn\_crm\_foundation\_admin
--   admin
+Role required: admin
 
 ## Procedure
 

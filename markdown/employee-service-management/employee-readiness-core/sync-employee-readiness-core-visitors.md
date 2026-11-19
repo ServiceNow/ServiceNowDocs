@@ -7,7 +7,7 @@ release: zurich
 product: Employee Readiness Core
 classification: employee-readiness-core
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Employee Health and Safety Status, Employee Readiness Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---

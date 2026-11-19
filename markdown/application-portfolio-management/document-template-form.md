@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/document-template-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-03"
 reading_time_minutes: 1
-breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Document template form
 
 Use the document template form to create document template that can be used in the Enterprise Architecture Workspace.
 
-## Document template form
+## Create document template form
 
 <table id="table_glp_2t1_m3c"><thead><tr><th>
 
@@ -91,5 +91,5 @@ Is dynamic
 Option to insert dynamic diagram data in the architectural document created using this template.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-form-field-information.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/ea-workspace.md)
 

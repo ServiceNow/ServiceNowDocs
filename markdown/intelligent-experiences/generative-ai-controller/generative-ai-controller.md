@@ -1,37 +1,41 @@
 ---
 title: Generative AI Controller
-description: Use Generative AI Controller to integrate your ServiceNow applications with third-party large language models \(LLMs\) and manage how generative AI requests are governed, protected, and logged.
+description: Use Generative AI Controller to integrate third-party large language models \(LLMs\) with your workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/generative-ai-controller/generative-ai-controller.html
 release: zurich
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Gen AI, Generative AI, LLM, Large language model]
-breadcrumb: [Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [AI Admin Hub, Enable AI experiences]
 ---
 
 # Generative AI Controller
 
-Use Generative AI Controller to integrate your ServiceNow applications with third-party large language models \(LLMs\) and manage how generative AI requests are governed, protected, and logged.
+Use Generative AI Controller to integrate third-party large language models \(LLMs\) with your workflows.
 
 ## Get started
 
-Configure Generative AI Controller to set up your preferred external LLM provider, manage data privacy and AI Guardian controls, and monitor generative AI activity through logs. For more information about building custom generative AI skills and workflows, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platai-generative-ai-skills.md).
+Get started with Generative AI Controller to integrate directly with external LLMs. With Workflow Studio and Virtual Agent Designer, you can create your own use cases for AI-generated text and sentiment analysis, including advanced workflows and custom scripts.
 
 <table id="table_uc5_2v3_wwb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore generative AI concepts and terminology.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/exploring-generative-ai-controller.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore Generative AI concepts and terminology.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/exploring-generative-ai-controller.md)
 
 </td><td>
 
 [Configure \[Omitted image "icon-configure-pi.png"\] Alt text: Configure Generative AI Controller provider capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/configure-generative-ai-controller.md)
 
-</td><td>
+</td></tr><tr><td>
 
 [Reference \[Omitted image "icon-references-pi.png"\] Alt text: Reference for Generative AI Controller.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.md)
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

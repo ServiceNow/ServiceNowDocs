@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/integrate-and-test-idp-with-mcp-server.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
-breadcrumb: [Integrating MCP server with third-party identity providers, Connect, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [Integrating MCP server with third-party identity providers, Connect, MCP Server Console, Enable AI experiences]
 ---
 
 # Integrate and test IDP with MCP server

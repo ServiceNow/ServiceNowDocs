@@ -8,15 +8,15 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Using, WhatsApp Cloud API, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+reading_time_minutes: 2
+breadcrumb: [Using, Conversational Integration with WhatsApp \(WhatsApp Cloud API\), Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
 # Capturing information from a user in a WhatsApp chat conversation
 
 Use the collection of input controls provided by the Assistant Designer to prompt and capture information from a requester in a WhatsApp chat conversation.
 
-The Assistant Designer Asset library contains a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. For more information, see [Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+The Assistant Designer Asset library contains a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. For more information, see [Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 ## User notification consent
 
@@ -128,14 +128,6 @@ Bot sends a video link with title, description, and interactive button.
 
 </td></tr><tr><td>
 
-Web UI image card output
-
-</td><td>
-
-Bot sends content from a record in a compact format, including an image with text.
-
-</td></tr><tr><td>
-
 Table
 
 </td><td>
@@ -143,7 +135,7 @@ Table
 Bot response is displayed as a table.
 
 </td></tr></tbody>
-</table>For more information about configuring bot responses, see [Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md).
+</table>For more information about configuring bot responses, see [Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md).
 
 **Parent Topic:**[Using Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp-using.md)
 

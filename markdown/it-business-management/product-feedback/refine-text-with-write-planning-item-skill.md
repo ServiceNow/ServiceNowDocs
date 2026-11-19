@@ -7,9 +7,9 @@ release: zurich
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
-breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage Feedback, Feedback, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Improve efficiency and quality using refine records skill
@@ -18,7 +18,7 @@ Improve record quality using AI-assisted text refinement. The skill applies to t
 
 ## Before you begin
 
-The Refine record skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/configuring-na-spm.md).
+The Refine record skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
 
 If users with custom roles need access to this skill, update the ACLs for those roles. Also add those custom roles to the In product role.
 
@@ -52,15 +52,15 @@ This task is explained using Strategic Planning Workspace as the example.
 
 7.  When you're finished refining the content, you can replace the existing content with generated content, provide feedback, or copy it.
 
-<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d351596e167">
+<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d334147e170">
 
 Option
 
-</th><th align="left" id="d351596e170">
+</th><th align="left" id="d334147e173">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d351596e176">
+</th></tr></thead><tbody><tr><td id="d334147e179">
 
 **Provide feedback for the generated text**
 
@@ -68,7 +68,7 @@ Procedure
 
 If you think that the generated text was helpful, select the helpful icon \(\[Omitted image "icon-helpful-feedback.png"\] Alt text: Helpful icon.\). If you think that the generated text wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-nt-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d351596e199">
+</td></tr><tr><td id="d334147e202">
 
 **Copy the text**
 
@@ -103,5 +103,5 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt te
 **Related topics**  
 
 
-[Skill inputs for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/skill-inputs-for-now-assist-for-spm.md)
+[Skill inputs for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/skill-inputs-for-now-assist-for-spm.md)
 

@@ -7,9 +7,8 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-keywords: [Workbench Overview, case tasks, threat analyst team]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -44,8 +43,6 @@ You can also view cases and case tasks directly from the Workbench Overview that
 
 [Creating cases using Threat Analyst Workbench]()
 
-[Summarize a Case using generative AI]()
-
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
@@ -53,8 +50,6 @@ You can also view cases and case tasks directly from the Workbench Overview that
 [Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
-
-[Generate a Case Report using generative AI]()
 
 [Generate a Case Report using a template]()
 

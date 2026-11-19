@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/public-sector-configure-landing-page.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Public Sector Workspace, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The Customer Service Management \(CSM\) landing page gives agents an overview of their new, assigned, and high-priority cases, plus the cases assigned to their groups. Replace certain fields in the landing page with fields relevant to Public Sector Digital Services. You can also add or change other fields as needed. For more information on using UI Builder to modify pages, see Work with pages.
+The Customer Service Management \(CSM\) landing page gives agents an overview of their new, assigned, and high-priority cases, plus the cases assigned to their groups. Replace certain fields in the landing page with fields relevant to Public Sector Digital Services. You can also add or change other fields as needed. For more information on using UI Builder to modify pages, see [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/work-pages.md).
 
 ## Procedure
 

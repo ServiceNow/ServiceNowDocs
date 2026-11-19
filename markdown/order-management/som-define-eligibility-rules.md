@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-define-eligibility-rules.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configuring product offer eligibility, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product offer eligibility, Product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Define product eligibility rules in a product eligibility matrix
@@ -33,7 +33,7 @@ The November 2024 release provides Version 2 of the product eligibility matrices
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Context Rule Management** &gt; **Rule Matrices**.
 
@@ -66,11 +66,4 @@ The November 2024 release provides Version 2 of the product eligibility matrices
 
     The filtered product entity \(product catalog, category, or offering\) is displayed or hidden to sales and order agents, depending on the filter.
 
-
-**Related topics**  
-
-
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-product-catalog.md)
-
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/product-catalog-managment.md)
 

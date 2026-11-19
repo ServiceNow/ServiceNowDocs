@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-10-16"
-reading_time_minutes: 3
+last_updated: "2026-11-04"
+reading_time_minutes: 4
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
-breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Exploring ACC Framework, Agent Client Collector, IT Operations Management]
 ---
 
 # How Agent Client Collector for Visibility Content works
@@ -27,10 +27,7 @@ ACC-VC applies Checks and Policies to schedule and collect host data. ACC-VC is 
 -   Target host cycle: When the target host goes down and comes back up.
 -   Network break: When there is a break in the network link to the target.
 
-**Note:**
-
--   Discovery is triggered for those agents whose hosts are already present. Agents whose hosts are not present are discovered through ACC-F.
--   Agent Client Connector for AI Control Tower is available on the [ServiceNow Store](https://store.servicenow.com/store/app/b2797538939f8310a0f2fc1d6cba1075). This app is an ACC connector and adds an AI proxy capability that collects AI-based traffic from managed devices, supporting AI Control Tower shadow AI use cases.
+**Note:** Discovery is triggered for those agents whose hosts are already present. Agents whose hosts are not present are discovered through ACC-F.
 
 ## ACC-VC checks and policies
 
@@ -47,28 +44,63 @@ During this time, the MID Server also serves any relevant Assets or Plugins that
 
 You can edit and modify all parts of the ACC-VC application including check type, policy, and check definition. See [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/checks-policies.md) for more information.
 
+## ACC-VC CI status updates
+
+Each time the **Enhanced Discovery** check returns data for a host, ACC-VC updates the **Install Status** field on the host CI and on its related network adapter and IP address CIs. The **Enhanced Discovery Policy** schedule determines the frequency. The default is every 24 hours.
+
+When ACC-VC creates a host CI, ACC-VC sets **Install Status** to Installed and **Operational Status** to Operational. After that, ACC-VC changes the install status and operational status of CIs only as described in the following table.
+
+|CI type|Condition|Resulting status|
+|-------|---------|----------------|
+|Host CI \(**Install Status**\)|The current install status is Retired, Stolen, or Absent.|Installed|
+|Host CI \(**Operational Status**\)|The current operational status is Retired.|Operational|
+|Network adapter \(**Install Status**\)|The adapter name and macOS address match an adapter in the latest data.|Installed|
+|Network adapter \(**Install Status**\)|The CI has the adapter, but the adapter is not in the latest data.|Absent|
+|IP address \(**Install Status**\)|The IP address is in the latest data for its network adapter.|Installed|
+|IP address \(**Install Status**\)|The network adapter is still reported, but the IP address is no longer reported for it.|Absent|
+
+**Note:**
+
+-   The host CI rules apply to the Computer \[cmdb\_ci\_computer\] table only.
+-   Customers set the Retired, Stolen, and Absent states on a host CI. ACC-VC doesn't set these states. If a host stops reporting, ACC-VC does not change the install status or operational status of its CI.
+-   ACC-VC marks network adapters and IP addresses as Absent only when the data includes network adapter information. ACC-VC deletes DNS name and OS user records that are no longer reported instead of setting them to Absent.
+
 ## Supported operating systems
 
 ACC-VC collects the system attributes and related lists normally collected by the OS pattern. ACC-VC currently supports the following operating systems on x86\_64 architecture:
 
 -   Linux
-    -   Red Hat Enterprise Linux \(RHEL\) and Oracle Linux \(OL\) 7, 8, 9
-    -   Centos 7, 8, 9
+    -   Rocky Linux 10
+    -   Red Hat Enterprise Linux \(RHEL\) 7, 8, 9, and 10.
+    -   Oracle Linux \(OL\) 7, 8, 9, 10
+    -   CentOS 7
+    -   CentOS Stream 8 and 9
     -   SLES 12, 15
-    -   Ubuntu 18, 20
-    -   Amazon Linux 2
-    -   Debian 9 and 10
+    -   Ubuntu 18.04, 20.04, 22.04 LTS and 24.04 LTS
+    -   Amazon Linux 2, Amazon Linux 2023
+    -   Debian 9, 10, 11, 12 and 13
 -   Microsoft Windows
-    -   Windows Server 2012, 2012r2, 2016, 2019, 2022
+    -   Windows Server 2012, 2012r2, 2016, 2019, 2022, 2025
     -   Windows 10 Enterprise Edition
     -   Windows 11 Enterprise and Professional Editions
--   macOS \(starting in ACC-VC version 1.3.0\)
-    -   10.15 - Catalina
-    -   11 - Big Sur
-    -   Monterey \(x86\)
-    -   13 - Ventura
-    -   macOS Ventura on ARM64 - Apple Silicon M1/M2
-    -   Sonoma
+-   macOS
+    -   10.15- Catalina
+    -   11- Big Sur
+    -   12- Monterey
+    -   13- Ventura
+    -   14- Sonoma
+    -   15- Sequoia
+    -   26- Tahoe
+
+ACC-VC also supports the following operating systems on ARM64 architecture:
+
+-   macOS:
+    -   12- Monterey
+    -   13- Ventura
+    -   14- Sonoma
+    -   15- Sequoia
+    -   26- Tahoe
+-   Linux: Ubuntu 22.04 LTS
 
 ## Virtual machines and cloud instances
 
@@ -80,4 +112,6 @@ The following variants of virtualization and cloud server vendors are supported 
 -   Amazon AWS Cloud
 -   Google \(GCP\)
 -   Microsoft Azure
+
+**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

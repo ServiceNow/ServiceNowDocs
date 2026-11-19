@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring metrics, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Create a manual metric definition
@@ -28,15 +28,19 @@ In the manual metric definition, the mode of data collection is manual. An optio
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace** &gt; **Lists** &gt; **Metrics** &gt; **Manual metric definitions**.
+1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Click **New**.
+2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: icon.
 
-3.  On the form, fill in the fields.
+3.  Navigate to **Metrics** &gt; **Manual metric definitions**.
 
-    For information about the fields, refer to [Create New Metric Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/manual-md-reuse-irm.md).
+4.  Select **New**.
 
-4.  Click **Save**.
+5.  On the form, fill in the fields.
+
+    For a description of the field values on the Manual metric definition form, see [Create New Metric Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/manual-md-reuse-irm.md).
+
+6.  Select **Save**.
 
 
 ## Result

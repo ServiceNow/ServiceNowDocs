@@ -5,14 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/admin-logs.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-10-08"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The Admin Logs utility
 
 Learn how the Admin Logs utility helps you diagnose, monitor, and resolve configuration issues efficiently in your ServiceNow CPQ environment.
+
+## Overview of Admin Logs
 
 The Admin Logs utility provides administrators with centralized visibility into system activities, configuration errors, and integration issues. It enables quick diagnosis and resolution of problems by capturing key runtime details, error messages, and contextual data about the environment. Designed with usability and precision in mind, Admin Logs helps administrators identify issues, understand their cause, and act swiftly to maintain system stability.
 
@@ -32,7 +34,7 @@ Whether accessed through the Admin UI or via API, Admin Logs helps provide insig
 
 Administrators can access Admin Logs from the ServiceNow CPQ Admin interface or via API, depending on their preferred workflow and use case.
 
-To access logs, navigate to **Utilities** menu, select **Logs**. It shows the real-time logging capabilities and enable filtering, refreshing, and viewing detailed error information.
+In the new Admin experience, access Logs in the Utilities menu. In the legacy Admin experience, click **Logs** in the navigation bar. Both experiences provide the same real-time logging capabilities and enable filtering, refreshing, and viewing detailed error information.
 
 ## Refreshing and filtering
 
@@ -62,18 +64,18 @@ Example cURL command:
 
 ```code
 
-    curl --location '<logik tenant>/api/logs/v1/logs' \
+    curl --location '<logikURL>/api/logs/v1/logs' \
     --header 'Content-Type: application/json' \
     --header 'Origin: localhost' \
     --header 'Authorization: <Admin API Key>'
    
 ```
 
-You can refine results by specifying **before** and **after** parameters in ISO 8601 date/time format:
+You can refine results by specifying before and after parameters in ISO 8601 date/time format:
 
 ```code
 
-    curl --location '<logik tenant>/api/logs/v1/logs?after=YYYY-MM-DDThh%3Amm%3AssZ&before=YYYY-MM-DDThh%3Amm%3AssZ' \
+    curl --location '<logikURL>/api/logs/v1/logs?after=YYYY-MM-DDThh%3Amm%3AssZ&before=YYYY-MM-DDThh%3Amm%3AssZ' \
     --header 'Content-Type: application/json' \
     --header 'Origin: localhost' \
     --header 'Authorization: <Admin API Key>'
@@ -89,7 +91,7 @@ Admin Logs continually evolves to provide deeper insights and improve usability.
 -   Detailed external connection errors: “Method not supported” HTTP errors now include the path and method used in the external call.
 -   Performance metrics: Metrics for external integrations are now tracked and available upon request through ServiceNow CPQ support.
 
-## General guidelines
+## Best practices
 
 -   Use short time filters when troubleshooting real-time configuration issues.
 -   Export relevant log data regularly for long-term tracking or compliance review.

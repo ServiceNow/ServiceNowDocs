@@ -7,9 +7,9 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Using multiple datasets in Core UI reports
@@ -42,25 +42,11 @@ Add up to five extra datasets to visualize data from multiple sources in a singl
 
 ### Before you begin
 
-Role required: If the **com.snc.par.coreui.report\_create.enabled** system property is `true`, any user with an internal role can create Core UI reports. For more information, see [Platform Analytics experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/pae-properties.md).
-
-The property **glide.ui.doctype** must be enabled.
-
-### About this task
-
-**Important:** You cannot create Core UI reports on instances that were net new on Xanadu or later. On instances that were net new on older releases, you can continue to create Core UI reports, even if the instance was fully migrated to Platform Analytics.
-
-Consider creating Platform Analytics data visualizations instead of Core UI dashboards. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md).
-
-**Note:**
-
-Starting with Australia, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library. If the **com.snc.par.coreui.dashboard\_create.enabled** system property is `true`, you can also create Core UI dashboards from the Dashboards library.
+Role required: itil, report\_user. The property **glide.ui.doctype** must be enabled.
 
 ### Procedure
 
-1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
-
-    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
+1.  Navigate to **All** &gt; **Reports** &gt; **View / Run**.
 
 2.  Create a report of a type that supports multiple datasets, or select an existing report of one of these types.
 

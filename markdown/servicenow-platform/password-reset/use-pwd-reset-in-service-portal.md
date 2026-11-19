@@ -7,9 +7,9 @@ release: zurich
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Integrate Password Reset with a Service Portal widget
@@ -18,7 +18,7 @@ You can enable a Password Reset process in a Service Portal page by adding a wid
 
 ## Before you begin
 
-Role required: admin or sp\_admin
+Role required: password\_reset\_admin or sp\_admin
 
 ## Procedure
 

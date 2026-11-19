@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [System or Export Processors, API access policy, Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ Apply authentication profile for the export processors.
 
 ## Before you begin
 
-Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
+Role required: admin
 
 Plugin required: Processor Access Policy \(`com.glide.processor.policy`\)
 
@@ -26,7 +26,7 @@ Plugin required: Processor Access Policy \(`com.glide.processor.policy`\)
 
 1.  Navigate to **All** &gt; **System Security** &gt; **Processor Access Policies**.
 
-2.  To add authentication profile to the processor, select **New**.
+2.  To add authentication profile to the processor, click **New**.
 
 3.  On the form, fill in the fields.
 
@@ -63,7 +63,7 @@ Authentication Profile
 Type of the authentications profile. You can select **ID Token** or **OAuth Token**.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Click **Submit**.
 
     The authentication profile is applied to the processor.
 

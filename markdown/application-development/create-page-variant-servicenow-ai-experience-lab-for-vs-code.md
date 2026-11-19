@@ -1,18 +1,18 @@
 ---
 title: Create a page variant
-description: Add a page variant to a route using the ServiceNow Lux Lab for VS Code extension.
+description: Add a page variant to a route using the ServiceNow AI Experience Lab for VS Code extension.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/create-page-variant-servicenow-ai-experience-lab-for-vs-code.html
 release: zurich
 topic_type: task
 last_updated: "2026-10-23"
 reading_time_minutes: 4
-breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Use, ServiceNow AI Experience Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Create a page variant
 
-Add a page variant to a route using the ServiceNow Lux Lab for VS Code extension.
+Add a page variant to a route using the ServiceNow® AI Experience Lab for VS Code extension.
 
 ## About this task
 
@@ -30,7 +30,7 @@ Role required: none
 
 You must have an existing route before you create a page variant for it. For information about creating a page, see [Create a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/create-page-servicenow-ai-experience-lab-for-vs-code.md).
 
-The ServiceNow Lux Lab for VS Code extension requires the following:
+The ServiceNow® AI Experience Lab for VS Code extension requires the following:
 
 <table id="table_imf_rfb_dkc"><thead><tr><th>
 
@@ -108,7 +108,7 @@ ServiceNow instance
 </td></tr></tbody>
 </table>## Procedure
 
-1.  In the ServiceNow Lux Lab for VS Code extension, create an experience or open an existing experience.
+1.  In the ServiceNow® AI Experience Lab for VS Code extension, create an experience or open an existing experience.
 
     For information about creating an experience, see [Create a new experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/create-a-new-experience-servicenow-ai-experience-lab-for-vs-code.md).
 

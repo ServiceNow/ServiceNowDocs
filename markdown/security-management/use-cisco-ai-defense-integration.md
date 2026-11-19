@@ -83,3 +83,5 @@ Authentication errors:
 -   Run automated syncs when system load is low.
 -   Use ServiceNow AI Platform reporting to track AI security trends.
 
+**Parent Topic:**[Cisco AI Defense integration for AI security exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/exploring-cisco-ai-defense-integration.md)
+

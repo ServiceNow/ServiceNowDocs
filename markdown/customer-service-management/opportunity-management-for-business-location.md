@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/opportunity-management-for-business-location.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -14,14 +14,12 @@ breadcrumb: [Integration with Sales Customer Relationship Management, Configure 
 
 Integrate Service Model Foundation with Opportunity Management for Business Locations to support channel sales.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/renamed-entities.md).
-
 ## Overview of the integration
 
 Use the Opportunity Management for Business Locations plugin \(com.snc.business\_organization\_opptym\) to perform the following actions.
 
 -   Create opportunities for business locations
--   Modify and manabusiness locationfor the business locations
+-   Modify and manage opportunities for the business locations
 -   Track the end-to-end life cycle of opportunities
 -   Enable external channel partners to track opportunities.
 
@@ -49,7 +47,7 @@ The Opportunity Related Channel Partner \[sn\_bus\_org\_opptym\_related\_busines
 **Related topics**  
 
 
-[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/personas-roles-and-tables-post-integration-oppMgmt.md)
+[Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/personas-roles-and-tables-post-integration-oppMgmt.md)
 
 [Activate Opportunity Management for Business Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/activate-opportunity-management-for-business-locations.md)
 

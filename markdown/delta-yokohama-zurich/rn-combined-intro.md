@@ -39,8 +39,8 @@ Consolidated page of all release notes for Agent Workspace for HR Case Managemen
 Consolidated page of all release notes for AI Agent Studio from Yokohama to Zurich.
 -   **[Combined AI Analytics release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-aianalytics-release-notes.md)**  
 Consolidated page of all release notes for AI Analytics from Yokohama to Zurich.
--   **[Combined AI Control Tower release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-aicontroltower-release-notes.md)**  
-Consolidated page of all release notes for AI Control Tower from Yokohama to Zurich.
+-   **[Combined AI Cost Management release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-aicostmanagement-release-notes.md)**  
+Consolidated page of all release notes for AI Cost Management from Yokohama to Zurich.
 -   **[Combined AI Desktop Actions release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-aidesktopactions-release-notes.md)**  
 Consolidated page of all release notes for AI Desktop Actions from Yokohama to Zurich.
 -   **[Combined AIOps LEAP release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-aiopsleap-release-notes.md)**  
@@ -137,6 +137,8 @@ Consolidated page of all release notes for Continuous Authorization and Monitori
 Consolidated page of all release notes for Contract Management Pro from Yokohama to Zurich.
 -   **[Combined Contract Management Pro for Legal Service Delivery release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-contractmanagementproforlegalservicedelivery-release-notes.md)**  
 Consolidated page of all release notes for Contract Management Pro for Legal Service Delivery from Yokohama to Zurich.
+-   **[Combined Control Tower release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-controltower-release-notes.md)**  
+Consolidated page of all release notes for Control Tower from Yokohama to Zurich.
 -   **[Combined Conversation Improvement Themes release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-conversationimprovementthemes-release-notes.md)**  
 Consolidated page of all release notes for Conversation Improvement Themes from Yokohama to Zurich.
 -   **[Combined Conversation Insights release notes for upgrades from Yokohama to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/zurich-yokohama-conversationinsights-release-notes.md)**  

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-02"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Increasing AI readiness, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Increasing AI readiness, AI Admin Center, Enable AI experiences]
 ---
 
 # Run the AI readiness assessment job in AI Admin Center \(Lux UI\)

@@ -1,39 +1,51 @@
 ---
-title: Implementing AI on the ServiceNow AI Platform
-description: Preparing for an AI implementation involves more than installing plugins — your data, applications, and AI policy each shape the result. Working through these foundations before activation reduces rework whether you're enabling conversational catalogs, automating content generation, or enriching user interactions.
+title: ServiceNow AI implementation
+description: Getting ready to implement ServiceNow Otto is more than just installing plugins—it’s about laying the groundwork for a seamless, intelligent experience across your workflows. Whether you're enabling conversational catalogs, automating content generation, or enhancing user interactions, a few key steps will ensure your data is ready, your applications are prepared, and your organization's AI policy is in alignment with your implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/sn-ai-implementation-landing.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Getting started with AI, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
-# Implementing AI on the ServiceNow AI Platform
+# ServiceNow AI implementation
 
-Preparing for an AI implementation involves more than installing plugins — your data, applications, and AI policy each shape the result. Working through these foundations before activation reduces rework whether you're enabling conversational catalogs, automating content generation, or enriching user interactions.
+Getting ready to implement ServiceNow Otto is more than just installing plugins—it’s about laying the groundwork for a seamless, intelligent experience across your workflows. Whether you're enabling conversational catalogs, automating content generation, or enhancing user interactions, a few key steps will ensure your data is ready, your applications are prepared, and your organization's AI policy is in alignment with your implementation.
 
 ## Get started
 
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
 <table id="table_vhh_f41_zgc" class="nav-card presentation"><tbody><tr><td>
 
-[Organization and tools\[Omitted image "bus-optimize-manage.svg"\] Alt text:Learn about the applications and features that make up the ServiceNow AI experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/sn-ai-impl-overview-tools.md)
+[ServiceNow Otto overview\[Omitted image "bus-explore.svg"\] Alt text:Learn about the applications and features that make up the ServiceNow Otto experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/sn-ai-impl-overview-tools.md)
 
 </td><td>
 
-[Roles and responsibilities\[Omitted image "bus-3-person.svg"\] Alt text:Identify the administrative roles required to install, configure, and manage each ServiceNow AI capability.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platai-roles-responsibilities-ai-admin.md)
+[AI governance\[Omitted image "bus-business-management.svg"\] Alt text:Learn about the importance of AI governance to ensure responsible use, regulatory compliance, and alignment with enterprise goals.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/sn-ai-impl-governance.md)
 
 </td><td>
 
-[Glossary\[Omitted image "bus-learn.svg"\] Alt text:Look up definitions for ServiceNow AI terminology.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-glossary.md)
+[Data readiness\[Omitted image "bus-database.svg"\] Alt text:Learn how to prepare your instance data for ServiceNow Otto.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/sn-ai-impl-data-readiness.md)
+
+</td></tr><tr><td>
+
+[Application readiness\[Omitted image "bus-management-console.svg"\] Alt text:Ensure that your instance is ready to take advantage of ServiceNow Otto by preparing Platform applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/sn-ai-impl-app-readiness.md)
+
+</td><td>
+
+[Resolve common issues\[Omitted image "bus-root-cause-issue-resolution.svg"\] Alt text:Address issues or gaps in your ServiceNow Otto configuration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-install-config-checklist.md)
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
-</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
+</table>Additional implementation information is available on [Now Create](https://learning.servicenow.com/nowcreate).
 
-Additional implementation information is available on [Now Create](https://learning.servicenow.com/nowcreate).
-
-For additional Now Assist resources, see [Additional resources for AI products and solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-additional-resources.md).
+For additional ServiceNow Otto resources, see [Additional resources for AI products and solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-additional-resources.md).
 
 **Important:**
 

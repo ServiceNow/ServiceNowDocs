@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/disc-managing-ai-assets.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-29"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Working with AI asset records
@@ -31,7 +31,7 @@ AI stewards typically open an asset record after a portfolio view, recommendatio
 
     Advance an asset through its Onboard, Maintain, and Retire stages, work through the playbook tasks generated for each stage, and initiate change or offboarding requests from the Maintain stage.
 
--   [Planning AI work from Inventory in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-inventory-plan.md)
+-   [Planning AI work from Inventory in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-inventory-plan.md)
 
     Track the strategic priorities, goals, targets, demands, and projects tied to an asset across the Strategize, Prioritize, and Execute sub-tabs on the **Plan** tab.
 
@@ -61,8 +61,8 @@ Check the governance posture, pending work, key details, and value delivered by 
 -   **[Managing AI asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-ai-asset-details.md)**  
 Confirm what an AI asset is, who owns it, how it operates, and what other assets depend on it before approving a change, investigating a score, or responding to an audit question.
 -   **[Managing your AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/manage-lifecycle-newexperience.md)**  
-Get a structured view of an AI asset's progression through its operational stages, from initial onboarding to retirement.
--   **[Planning AI work from Inventory in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-inventory-plan.md)**  
+Get a structured view of an AI asset's progression through its operational stages in Super Intelligence Control Tower, from initial onboarding to retirement.
+-   **[Planning AI work from Inventory in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-inventory-plan.md)**  
 View all planning data for a specific AI system in one location. The Plan tab automatically filters goals, intake items, and delivery records to show only those linked to your selected AI system across Strategize, Prioritize, and Execute workflows.
 -   **[Governing AI asset risk and compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-airc-ai-asset.md)**  
 Get a consolidated view of your AI asset's regulatory risk classification, compliance posture, control effectiveness metrics, and governance artifacts from the Risk &amp; compliance tab.

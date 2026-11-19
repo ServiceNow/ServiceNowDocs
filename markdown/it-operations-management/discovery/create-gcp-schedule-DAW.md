@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for Google Cloud Platform, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -21,11 +21,11 @@ Use the Discovery Admin Workspace dashboard to create a Google Cloud Platform \(
 
 Verify the following:
 
--   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-install-prereqs.md).
+-   At least one validated MID Server with a status of **Up** is installed. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
 -   A service account in the Google Cloud console is configured with the necessary permissions. The MID Server can access the cloud resources to discover.
--   You have created suitable credentials in the ServiceNow AI Platform to connect with the service accounts on which you want to perform the discovery. For more information, see [Set up a cloud account and service account for Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/gcp-first-cld-and-srvc-accts.md).
--   You're using Discovery Admin Workspace v1.11.0 or later.
+-   Suitable credentials are created in the ServiceNow AI Platform to connect with the service accounts on which you want to perform the discovery. For more information, see [Set up a cloud account and service account for Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/gcp-first-cld-and-srvc-accts.md).
+-   Discovery Admin Workspace, starting with v1.11.0 is installed.
 
 Role required: discovery\_admin
 
@@ -53,15 +53,15 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d134667e355">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d134224e340">
 
 Option
 
-</th><th align="left" id="d134667e358">
+</th><th align="left" id="d134224e343">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d134667e364">
+</th></tr></thead><tbody><tr><td id="d134224e349">
 
 **Existing cloud account**
 
@@ -69,13 +69,13 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name** and **Project ID/Folder ID** fields auto-populate.
 
-</td></tr><tr><td id="d134667e379">
+</td></tr><tr><td id="d134224e364">
 
 **New cloud account**
 
 </td><td>
 
-Add a new cloud account to your instance by entering a name and subscription ID or management group ID.**Note:** You can access the Project or Folder ID in the Google portal via **IAM &amp; Admin** &gt; **Settings** or **IAM &amp; Admin** &gt; **Folders**, respectively.
+Add a new cloud account to your instance by entering a name and project ID or folder ID.**Note:** To find the project ID, select the project from the project picker in the Google Cloud console. The ID appears on the Welcome page. To find a folder ID, go to the **Manage resources** page.
 
 </td></tr></tbody>
 </table>    Even if the cloud account was previously verified, you can reverify if policies or permissions may have changed by selecting **Verify information.**

@@ -7,10 +7,10 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [create word document template, manual content control, Microsoft Word add-in for ServiceNow Contracts]
-breadcrumb: [Microsoft Word add-in, Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Word Document Templates

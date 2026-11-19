@@ -7,10 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [windows registry keys, registry monitoring, registry management, track registry keys, registry key path]
-breadcrumb: [DEX insights setup, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [DEX Insights, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Set up Windows registry keys
@@ -35,7 +34,7 @@ Role required: admin
 
     The expected value can’t be a JSON object and must be a single primitive value, such as a string or integer.
 
-    **Note:** The maximum character limit for a registry key path and an expected value is 1024 characters.
+    **Note:** The maximum character limit for a registry key path and an expected value is 1024.
 
 6.  Add one or more keys by selecting **Add**.
 

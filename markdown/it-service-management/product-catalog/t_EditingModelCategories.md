@@ -7,9 +7,9 @@ release: zurich
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Model categories, Product Catalog, Asset Management common applications, IT Service Management]
+breadcrumb: [Model categories, Product Catalog, Asset Management, IT Service Management]
 ---
 
 # Edit model categories
@@ -18,7 +18,7 @@ All default model categories can be edited, except for the Contract model catego
 
 ## Before you begin
 
-Role required: model\_manager
+Role required: category\_manager
 
 ## Procedure
 

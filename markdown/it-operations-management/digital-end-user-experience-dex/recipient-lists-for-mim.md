@@ -7,10 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-keywords: [recipient lists, major incident management \(mim\), mim notifications, customize recipient list, targeted communications]
-breadcrumb: [Administer, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Notifications, Desktop Assistant, Digital End-User Experience, IT Operations Management]
 ---
 
 # Customize recipient list for Major Incident Management updates
@@ -19,7 +18,7 @@ Customize the base system recipient list for Major Incident Management updates b
 
 ## Before you begin
 
--   The DEX Score application must be installed.
+-   Install the DEX Score application.
 -   Confirm that data is available in the DEX Score installed or web application tables.
 
     This data is tracked and used to filter the recipient list.
@@ -38,7 +37,7 @@ Role required: admin
 
 <table id="table_z5k_bwb_glb"><thead><tr><th>
 
-Parameter
+Parameter list
 
 </th><th>
 
@@ -50,7 +49,7 @@ Aggregation Frequency
 
 </td><td>
 
-Frequency of data aggregation:-   Daily
+Enter the aggregation frequency:-   Daily
 -   Weekly
 -   Monthly
 By default, aggregation frequency is set to Daily.
@@ -61,7 +60,7 @@ Aggregation Period
 
 </td><td>
 
-Period of data aggregation:-   1–7 days
+Enter the aggregation period:-   1–7 days
 -   1–4 weeks
 -   1–12 months
 By default, aggregation period is set to 7 days.
@@ -72,7 +71,7 @@ Application type
 
 </td><td>
 
-Type of application used to filter users, either installed or web.
+Enter application type as either installed or web, based on which users are filtered.
 
 </td></tr><tr><td>
 
@@ -80,7 +79,7 @@ Application
 
 </td><td>
 
-The sys\_id of the application. For example, sys\_id of the Microsoft PowerPoint application.
+Enter the sys\_id of an application. For example, sys\_id of the Microsoft PowerPoint application.
 
 </td></tr><tr><td>
 
@@ -88,7 +87,7 @@ Metric
 
 </td><td>
 
-Name of the metric. For example, Application Usage.
+Enter a metric name. For example, Application Usage.
 
 </td></tr><tr><td>
 
@@ -96,7 +95,7 @@ Metric value
 
 </td><td>
 
-Threshold value for the metric. The API filters users whose value for the selected metric is greater than this value.
+Enter a metric value. The API checks if the selected metric is greater than the metric value, based on which it filters the users.
 
 </td></tr><tr><td>
 
@@ -104,7 +103,7 @@ Location id
 
 </td><td>
 
-The sys\_id of the location.
+Enter the sys\_id of the location.
 
 </td></tr></tbody>
 </table>4.  Select **Update**.

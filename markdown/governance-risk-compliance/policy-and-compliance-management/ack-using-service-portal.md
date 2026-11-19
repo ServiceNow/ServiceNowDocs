@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Acknowledge policy, Manage, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Acknowledge policy, Manage control objectives and policies, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Work with acknowledgements using the Service Portal
@@ -26,19 +26,13 @@ Role required: sn\_grc.business\_user, sn\_grc.business\_user\_lite, sn\_grc\_em
 
 2.  In the header bar, navigate to **GRC** &gt; **My Policy Acknowledgements**.
 
-    \[Omitted image "service-portal.png"\] Alt text: Service Portal
-
     All pending policy acknowledgement requests assigned to you appear.
-
-    \[Omitted image "my-policy-acks-portal.png"\] Alt text: My policy acknowledgements on the Service Portal
 
 3.  To view details of the request, click **View**.
 
-    \[Omitted image "view-policy-ack.png"\] Alt text: View a policy acknowledgement request on the service portal
+    **Note:** The actions you can perform on the policy acknowledgement depend on how the acknowledgement campaign was configured.
 
-    **Note:** The actions you can perform on the policy acknowledgement depend on how the acknowledgement campaign was configured, as follows.
-
-<table id="choicetable_nql_zdn_mjb"><tbody><tr><td id="d117566e145">
+<table id="choicetable_nql_zdn_mjb"><tbody><tr><td id="d199263e115">
 
 **If the policy is in compliance**
 
@@ -46,7 +40,7 @@ Role required: sn\_grc.business\_user, sn\_grc.business\_user\_lite, sn\_grc\_em
 
 Click **Accept**.
 
-</td></tr><tr><td id="d117566e157">
+</td></tr><tr><td id="d199263e127">
 
 **If the policy is not in compliance and you are allowed to decline the request**
 
@@ -54,7 +48,7 @@ Click **Accept**.
 
 Click **Decline**.
 
-</td></tr><tr><td id="d117566e169">
+</td></tr><tr><td id="d199263e139">
 
 **If you do not want to respond, and you want to opt out**
 

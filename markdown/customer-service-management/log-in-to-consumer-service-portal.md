@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/log-in-to-consumer-service-portal.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Log in to the Consumer Service Portal
@@ -22,19 +22,12 @@ Role required: sn\_customerservice.consumer
 
 1.  Navigate to the Consumer Service Portal.
 
-2.  Select **Log in** in the portal header.
+2.  Click **Log in** in the portal header.
 
 3.  Fill in the fields on the Log in pop-up window.
 
-4.  Select **Log in**.
+4.  Click **Log in**.
 
     You are logged in to the Consumer Service Portal and your name and profile picture appears in the portal header.
 
-
-**Related topics**  
-
-
-[Register for the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-a-consumer-registration.md)
-
-[Change your password from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/change-password-consumer-portal.md)
 

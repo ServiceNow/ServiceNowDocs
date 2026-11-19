@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Perform Advanced Risk Assessment, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -36,7 +36,7 @@ Configure the control assessment criteria with details such as factors, the scor
 
 4.  Select the Factors section and select **Edit**.
 
-    The Factors related list appears only when **Control environment assessment** is selected from the **Calculate based on** field.
+    The Factors related list appears only when **Control environment assessment** is selected from the **Calculate based on** field. Before you add factors, create and publish the manual factors you need. For details, see [Create a manual factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/define-manual-factors.md).
 
 5.  Add the necessary factors from the Collection list to the Factors list, and select **Save**.
 

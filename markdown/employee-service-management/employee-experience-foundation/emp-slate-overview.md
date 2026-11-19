@@ -1,5 +1,5 @@
 ---
-title: ServiceNow EmployeeWorks Web App overview
+title: ServiceNow EmployeeWorks Web App functionalities
 description: ServiceNow EmployeeWorks Web App \(formerly known as Employee Slate\) is an AI-native employee engagement layer. It combines intelligent assistance, employee communication, organizational navigation, task management, and other employee services to boost productivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/emp-slate-overview.html
@@ -9,10 +9,10 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-01-27"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
+breadcrumb: [Explore, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
-# ServiceNow EmployeeWorks Web App overview
+# ServiceNow EmployeeWorks Web App functionalities
 
 ServiceNow EmployeeWorks Web App \(formerly known as Employee Slate\) is an AI-native employee engagement layer. It combines intelligent assistance, employee communication, organizational navigation, task management, and other employee services to boost productivity.
 

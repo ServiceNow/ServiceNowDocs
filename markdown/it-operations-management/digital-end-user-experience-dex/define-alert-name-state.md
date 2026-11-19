@@ -7,10 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [alert rule name, alert rule status, active alert rule, alert rule state]
-breadcrumb: [DEX metric rule creation, Managing alert rules, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Creating a metric rule, Alert rules, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Define alert rule name and status
@@ -27,10 +26,12 @@ Role required: sn\_dex.admin
 
     The alert rule is active by default.
 
-2.  To set the status of the alert rule, use the **Active** toggle switch \(\[Omitted image "icon-toggle-button-enabled.png"\] Alt text: Use the toggle switch to activate the alert rule.\) to activate or deactivate the rule.
+2.  For setting the status of the alert rule, use the **Active** slider \(\[Omitted image "icon-toggle-button-enabled.png"\] Alt text: Use the toggle switch to activate the alert rule.\) to enable or disable the rule.
 
 3.  Select **Finish**.
 
-    An alert rule is created and displayed on the Alert rules page.
+    An alert rule is created and displayed in the Alert rules page.
 
+
+**Parent Topic:**[Creating an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/creating-an-event-rule.md)
 

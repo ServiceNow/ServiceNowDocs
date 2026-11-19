@@ -1,16 +1,16 @@
 ---
-title: Using Service Request Playbooks
+title: Using Service Request Administration
 description: If you're a government service agent or manager, you can use the Service Request Administration for Public Sector Digital Services to manage and resolve requests for services like park maintenance, broken stop signs, or other types of community issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-using-sr-playbooks.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using Service Request Playbooks
+# Using Service Request Administration
 
 If you're a government service agent or manager, you can use the Service Request Administration for Public Sector Digital Services to manage and resolve requests for services like park maintenance, broken stop signs, or other types of community issues.
 
@@ -25,7 +25,7 @@ A playbook takes a workflow and breaks it into multiple stages or lanes. Each st
 -   Mark an activity as complete and move to the next activity or stage.
 -   Complete the stages and activities to resolve the case.
 
-The workflows that are associated with a specific type of case and the activities that need to be completed to resolve this type of case are detailed in the playbook. Playbooks also help you to visualize the entire lifecycle of the service request workflows by displaying your progress through the playbook in the header.
+The workflows that are associated with a specific type of case and the activities that must be completed to resolve this type of case are detailed in the playbook. Playbooks also help you to visualize the entire lifecycle of the service request workflows by displaying your progress through the playbook in the header.
 
 ## Playbook stages
 

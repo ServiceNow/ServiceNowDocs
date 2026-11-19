@@ -1,22 +1,22 @@
 ---
-title: ServiceNow Otto conversational experience in self-service portals
-description: Learn about the ServiceNow Otto enhanced chat feature in the Self-service portals.
+title: Now Assist conversational experience in self-service portals
+description: Learn about the Now Assist enhanced chat feature in the Self-service portals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/nass-portal.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Automate and optimize, Use, Customer Service Management]
 ---
 
-# ServiceNow Otto conversational experience in self-service portals
+# Now Assist conversational experience in self-service portals
 
-Learn about the ServiceNow Otto enhanced chat feature in the Self-service portals.
+Learn about the Now Assist enhanced chat feature in the Self-service portals.
 
-ServiceNow Otto enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities.
+Now Assist enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities.
 
-You can enable enhanced chat experience from the ServiceNow Otto in Virtual Agent guided setup. For details, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/display-assistant-portal-channel.md).
+You can enable enhanced chat experience from the Now Assist in Virtual Agent guided setup. For details, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/display-assistant-portal-channel.md).
 
 ## Enhanced chat experience on self-service portal
 
@@ -48,7 +48,7 @@ The search results include links to the sources of information and related actio
 **Related topics**  
 
 
-[ServiceNow Otto in Virtual Agent in self-service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/nava-csp-csm-portals.md)
+[Now Assist in Virtual Agent in self-service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/nava-csp-csm-portals.md)
 
 [Using Virtual Agent in Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/va-csp-csm-portal.md)
 

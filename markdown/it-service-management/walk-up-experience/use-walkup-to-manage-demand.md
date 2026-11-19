@@ -135,6 +135,8 @@ Walk-up Experience agents can use the Agent Assist feature in Agent Workspace to
 Viewing upcoming scheduled Walk-up Experience appointments provides technicians with an estimate of future queue demand and workload. Managers can view future appointments and adjust staffing at walk-up queue locations to best support demand.
 -   **[View and manage Walk-up Experience appointments from application navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/view-manage-walkup-appoint-nav.md)**  
 Viewing upcoming scheduled Walk-up Experience appointments provides technicians with an estimate of future queue demand and workload. Managers can view future appointments and adjust staffing at walk-up queue locations to best support demand.
+-   **[Plan your walk-up experience visit with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/plan-your-visit.md)**  
+Schedule a single or multiple appointments to visit the walk-up lounge or the support lounge Walk-up Experience Employee Center. You can also get remote help.
 
 **Parent Topic:**[Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/walk-up-experience/walkup-experience-landing-page.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/create-default-content.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create, Provider notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Create, Provider notifications, Notifications, Configure core features, Administer]
 ---
 
 # Create default content in a provider
@@ -37,6 +37,8 @@ Role required: admin
 4.  Fill the **Notification Content** form for the type you have selected in the previous step.
 
     **Note:** The **is default** field is visible only if the **Notifications** field is not present.
+
+    The **Select the document** modal opens up.
 
 5.  Select **Submit**.
 

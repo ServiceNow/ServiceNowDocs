@@ -7,9 +7,9 @@ release: zurich
 product: Instance Scan
 classification: instance-scan
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-03"
 reading_time_minutes: 5
-breadcrumb: [Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Instance Scan, Maintain and monitor, Administer]
 ---
 
 # Exploring Instance Scan
@@ -63,8 +63,7 @@ Instance Scan has the following roles.
 
 |Users|Description|
 |-----|-----------|
-|scan\_user|The scan\_user role can run different types of scans, read checks, execute checks, and view the findings and results.|
-|scan\_check\_writer|This role includes the scan\_user role and provides permission to create new checks.|
+|scan\_user|The scan\_user role can run different types of scans and view the findings and results.|
 
 ## Instance Scan benefits
 

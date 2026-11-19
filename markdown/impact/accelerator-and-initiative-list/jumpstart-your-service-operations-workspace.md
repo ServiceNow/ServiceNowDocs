@@ -1,57 +1,50 @@
 ---
 title: Jumpstart your Service Operations Workspace
-description: This Accelerator provides a demonstration of the possibilities and capabilities of Service Operations Workspace.
+description: This Accelerator illustrates a demonstration of the possibilities and capabilities of Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/jumpstart-your-service-operations-workspace.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
 
 # Jumpstart your Service Operations Workspace
 
-This Accelerator provides a demonstration of the possibilities and capabilities of Service Operations Workspace.
+This Accelerator illustrates a demonstration of the possibilities and capabilities of Service Operations Workspace.
 
 ## Accelerator Overview
 
-Jumpstart Your *Service Operations Workspace* provides customers with a comprehensive overview of *Service Operations Workspace*, showcasing how to unify day-to-day *IT Service Management* \(*ITSM*\) and IT Operations Management \(ITOM\) activities in a single, streamlined experience.This Accelerator also equips customers with key resources and leading practices to help them get started quickly and drive adoption with confidence.
+Jumpstart Your Service Operations Workspace Accelerator provides Impact customers with an overview of Service Operations Workspace, which aims to provide a unified workspace for day-to-day IT Service Management \(ITSM\) operations. An applied demonstration of the possibilities and capabilities via a temporary cloned instance and leading practices on getting started is included.
 
-In addition to core workspace capabilities, this offering highlights *ServiceNow Otto* for IT Service Management capabilities and demonstrates how AI-powered experiences can help improve agent productivity and streamline common workflows.
+**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 
-## Package Availability
-
-**Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What you get
 
--   **Session Preparation**
+-   **Service Operations Workspace Setup**
+    -   Provisioning of a temporary instance
+    -   Activating and configuring Service Operations Workspace
+-   **Customer Coaching Session \#1 \(up to 90 min\)**
 
-    The Technical Consultant:
+    Thirty days of access to the temporary instances
 
-    -   Provisions a temporary instance
-    -   Activates and configures Service Operations Workspace
--   **Customer Coaching Session \#1 \(up to 1.5 hrs\)**
+    Review of:
 
-    Includes the following:
-
-    -   Overview of Service Operations Workspace
+    -   Workspace strategy overview
     -   Demonstration of Service Operations Workspace
-        -   Manage common ITSM processes such as incidents, problems, and changes easily within a unified navigation and interface.
-        -   Overview of *ServiceNow Otto* for IT Service Management capabilities that can be enabled to enhance the workspace experience
+        -   Manage incidents, problems, and interactions easily with a unified navigation
         -   Improve overall employee experience with personalized, configurable views
         -   Collaborate across teams to resolve issues faster
-    -   Review of leading practices and implementation guidance
--   **Customer Coaching Session \#2 \(Optional on Customer request – up to 1 hr\)**
+    -   Key resources and guides
+-   **Customer Coaching Session \#2 \(Optional on Customer request – up to 60 min\)**
 
     Opportunity for a Questions and Answers session related to Service Operations Workspace
 
--   **Output\(s\)**
-    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
-    -   Copy of the Coaching session deck
 
 ## Requested customer resources
 
@@ -63,11 +56,13 @@ In addition to core workspace capabilities, this offering highlights *ServiceNow
 |Service Desk Agent\(s\) \(Recommended\)|Subject matter expert\(s\) responsible for day-to-day ITSM operations.|
 |Trusted Service Partners \(Recommended\)|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.|
 
-## Requested Information/Access
+## Requested information/access
 
-**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+Please refer to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
-## Exclusions
+## Exceptions
 
-ServiceNow is not responsible for implementing any of the recommended configuration changes on Customer’s non-production or production instances.
+This Impact Accelerator in its entirety or portions of the Impact Accelerator Activities may not be available to customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, to self-hosted customers, or in other restricted environments.
+
+ServiceNow is not responsible for implementing \[Product\] recommendations on Customer’s sub-production or production instances.
 

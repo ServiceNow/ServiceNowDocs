@@ -1,22 +1,22 @@
 ---
 title: Device details
-description: Device details in Service Operations Workspace show the health, applications, running processes, performance metrics, network configuration, and user access details of a device.
+description: Monitor the health of the user device, installed or web applications, running processes on the device, application and device performance metrics, network configuration, user access details, and the ability to run custom SQL queries to retrieve OS information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/dex-workspace-user-details.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Administer, Digital End-User Experience, IT Operations Management]
+breadcrumb: [DEX Application and Device Health pages, Monitor, Digital End-User Experience, IT Operations Management]
 ---
 
 # Device details
 
-Device details in Service Operations Workspace show the health, applications, running processes, performance metrics, network configuration, and user access details of a device.
+Monitor the health of the user device, installed or web applications, running processes on the device, application and device performance metrics, network configuration, user access details, and the ability to run custom SQL queries to retrieve OS information.
 
-To access user and device details, navigate to **Workspaces** &gt; **Service Operations Workspace** and select the Devices icon \(\[Omitted image "icon-devices.png"\] Alt text:\) in the primary navigation pane, then select a device from the list.
+To access a user and device details, **Workspaces** &gt; **Service Operations Workspace** and select the Devices icon \(\[Omitted image "icon-devices.png"\] Alt text: The Devices icon.\) in the primary navigation pane, then select a device from the list.
 
 **Note:**
 

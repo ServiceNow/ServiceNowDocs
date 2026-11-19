@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 10
-breadcrumb: [Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Use, Workflow Studio, Build workflows]
 ---
 
 # Building subflows
@@ -230,8 +230,6 @@ Generate a summary of a subflow with ServiceNow Otto for Creator.
 View and manage the history of a subflow. See past configurations of a subflow to copy, restore, or remove them.
 -   **[Test a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/test-subflow.md)**  
 You can test a subflow alone, or when added to a flow. When testing a subflow alone, you must define the inputs that the subflow uses in its actions. Because a subflow does not have a trigger, testing a subflow runs the actions using the defined input values. Unless updated, subsequent tests use the same inputs defined in the initial test run.
--   **[Test conversational subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/test-conversational-subflow.md)**  
-Test a conversational subflow to verify it responds correctly to user inputs and performs the expected operations before deploying it in production.
 
-**Parent Topic:**[Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/workflow-studio-flows-subflows-and-actions-landing.md)
+**Parent Topic:**[Using Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-workflow-studio-components.md)
 

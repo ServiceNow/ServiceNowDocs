@@ -9,7 +9,7 @@ classification: service-operations-workspace
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Standard change catalog, Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Standard change catalog, Change Management in Service Operations Workspace, Operate, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Propose a standard change template

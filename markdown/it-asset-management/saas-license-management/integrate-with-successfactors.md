@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 22
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrating with SAP SuccessFactors
@@ -120,7 +120,7 @@ Create a connection between your SAP SuccessFactors OData API and your ServiceNo
 
 ### Before you begin
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: admin
 
 ### Procedure
 
@@ -501,7 +501,7 @@ The Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_
 
 Change the application scope to **Global**.
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: sam\_integrator or admin
 
 **Important:** You must select the **Software Asset Management integration with SuccessFactors** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -513,15 +513,15 @@ If you’re using Software Asset Workspace, the option to create the SuccessFact
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d49369e2331">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d46970e2331">
 
 Interface
 
-</th><th align="left" id="d49369e2334">
+</th><th align="left" id="d46970e2334">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d49369e2340">
+</th></tr></thead><tbody><tr><td id="d46970e2340">
 
 **Core UI**
 
@@ -532,7 +532,7 @@ Action
 3.  Select **SuccessFactors Integration Profile**.
 
 
-</td></tr><tr><td id="d49369e2382">
+</td></tr><tr><td id="d46970e2382">
 
 **Software Asset Workspace**
 

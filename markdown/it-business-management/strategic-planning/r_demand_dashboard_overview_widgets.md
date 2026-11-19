@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
 keywords: [overview tab, demand dashboard widgets, Demand Management]
 breadcrumb: [Explore, Monitor and track demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]

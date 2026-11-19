@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 4
 keywords: [Create a page, Goal, Prerequisites, Verify, See also]
-breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Create a page

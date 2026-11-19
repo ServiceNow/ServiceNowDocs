@@ -1,33 +1,33 @@
 ---
 title: Create a customer success definition record
-description: Define categories and subcategories for success play workflows.
+description: Create a Customer Success Definition record to set up categories and sub categories for success play workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-create-ale-defn.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Getting started, Customer success, Configure, Customer Success Management]
+breadcrumb: [Basic setup, Customer success, Configure, Customer Success Management]
 ---
 
 # Create a customer success definition record
 
-Define categories and subcategories for success play workflows.
+Create a Customer Success Definition record to set up categories and sub categories for success play workflows.
 
 ## Before you begin
 
--   Define and configure the subflow that triggers the success workflow before starting.
+-   The subflow used to trigger the success workflow must be defined.
 -   Role required: sn\_acct\_lc.ale\_success\_play\_admin
 
 ## About this task
 
-The customer success definition table controls what appears in the success play workflow. The category and sub-categories that appear in the success play correspond to a customer success definition record that matches the selected category. When you select a success play, the selected linked flow runs. The flow creates a record in the target table, triggers a playbook, or performs another action as specified in the subflow.
+Use the Customer Success definition record to specify categories that can be used to launch success play workflows that can create records and trigger playbooks automatically.
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CRM Workspace**and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
 
-2.  Navigate to the **Customer Success** &gt; **Customer Success Definition** and select **New**.
+2.  Navigate to the **Customer Success** &gt; **Customer Success Definition** and click **New**.
 
 3.  On the form, fill in the fields.
 
@@ -45,7 +45,7 @@ Flow
 
 </td><td>
 
-Subflow triggered by this Customer Success definition record. Must be defined and configured in Flow Designer.
+Select the subflow that should be triggered by this Customer Success definition record. This subflow must be defined and configured using Flow Designer.
 
 </td></tr><tr><td>
 
@@ -53,11 +53,7 @@ Category
 
 </td><td>
 
-Category that groups related plays in the success play workflow launcher. Available categories:-   Onboarding
--   Risk Management
--   Success Planning
--   Success Support
-
+Select the category for the success play.
 
 </td></tr><tr><td>
 
@@ -65,7 +61,7 @@ Sub category
 
 </td><td>
 
-Subcategory filtered by the selected category.
+Based on the category you select, the related sub categories are displayed. Select the sub category from the drop down list.
 
 </td></tr><tr><td>
 
@@ -73,7 +69,7 @@ State
 
 </td><td>
 
-State of this Customer Success definition record:-   Draft
+Select the state for this Customer Success definition record. This can be:-   Draft
 -   Published
 -   Closed
 -   Canceled
@@ -85,7 +81,7 @@ Order
 
 </td><td>
 
-Order in which categories appear in the workflow launcher pages.
+Specify the order in which the categories should appear in the workflow launcher pages.
 
 </td></tr><tr><td>
 
@@ -93,7 +89,7 @@ Title
 
 </td><td>
 
-Title of the workflow launcher item.
+Enter a title for the workflow launcher item.
 
 </td></tr><tr><td>
 
@@ -101,13 +97,13 @@ Description
 
 </td><td>
 
-Purpose of this workflow launcher item.
+Enter a description to specify the purpose of this workflow launcher item.
 
 </td></tr></tbody>
-</table>4.  Set the state of this record to **Published** and select **Save**.
+</table>4.  Set the state of this record to **Published** and click **Save**.
 
-    The success play is available when the **Create success play** option is selected. See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-success-play.md) for details.
+    The category defined here can be used while creating the success play.
 
 
-**Parent Topic:**[Getting started with Customer Success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-basic-config.md)
+**Parent Topic:**[Basic customer success setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-basic-config.md)
 

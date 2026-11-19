@@ -1,16 +1,16 @@
 ---
-title: Monitor the average response time of applications
+title: Set an alert to monitor the average response time of applications
 description: Set an alert to monitor the application performance when the average response time of applications that run on an instance exceeds the configured threshold.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-app-monitor-alert-card.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
+breadcrumb: [Alerts in Instance Observer, Overview of Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
-# Monitor the average response time of applications
+# Set an alert to monitor the average response time of applications
 
 Set an alert to monitor the application performance when the average response time of applications that run on an instance exceeds the configured threshold.
 
@@ -48,8 +48,6 @@ Role required: admin
 
 10. Select **Set Notification**.
 
-    To set notification, see the [Set notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-io-alerts.md) of [Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-io-alerts.md).
+    To set notification, see the [Set notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-io-alerts.md) of [Configure Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-io-alerts.md).
 
-
-**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-alerts-intro.md)
 

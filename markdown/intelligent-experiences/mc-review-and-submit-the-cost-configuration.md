@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mc-review-and-submit-the-cost-configuration.html
 release: zurich
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
-breadcrumb: [Cost, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Cost, Configure, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Review and submit the cost configuration
@@ -20,21 +20,17 @@ Role required: AI steward \(`sn_ai_governance.ai_steward`\).
 
 ## About this task
 
-Before activating the Cost Framework, review all configurations to verify accuracy. The review screen displays how money saved is calculated \(based on the hourly rate\), how total cost is calculated \(all vendors combined\), and a preview of the net returns calculation. After your verification is complete, the system uses these calculations in dashboards and reports.
+Before activating the Cost Framework, review all configurations to verify their accuracy. The review screen shows how money saved is calculated based on the hourly rate. It also displays how the total cost is determined by combining all vendors. Additionally, there's a preview of the net returns calculation. After your verification is complete, the system uses these calculations in dashboards and reports.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Settings** &gt; **Rules and Templates** &gt; **Cost**.
+1.  Make sure you have configured the average rate, added integrated vendor pricing, and added other vendor pricing \(if applicable\).
 
-2.  Select **Edit configuration**.
+    For more information, see [Configure average hourly rate for your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mc-configure-the-average-hourly-rate-for-your-organization.md), [Add costs for integrated vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mc-add-and-configure-costs-for-integrated-vendors.md), and [Add costs for other vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mc-add-and-configure-costs-for-non-integrated-vendors.md).\[Omitted image "mc-review-and-submit.png"\] Alt text: Preview cost &amp; savings step showing total productivity gains, total savings, and total Enterprise AI cost for the last 31 days, with the Submit button.
 
-3.  Make sure you have configured the average rate, added integrated vendor pricing, and added other vendor pricing \(if applicable\).
+2.  Go to **Preview cost &amp; savings** section and review the details.
 
-    For more information, see [Configure average hourly rate for your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mc-configure-the-average-hourly-rate-for-your-organization.md), [Add costs for integrated vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mc-add-and-configure-costs-for-integrated-vendors.md), and [Add costs for other vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mc-add-and-configure-costs-for-non-integrated-vendors.md).
-
-4.  Go to **Preview cost &amp; savings** section and review the details.
-
-5.  Select **Submit** to activate the Cost Framework.
+3.  Select **Submit** to activate the Cost Framework.
 
     The system uses these configurations for cost calculations.
 
@@ -47,8 +43,8 @@ Your Cost Framework configuration is complete and active. The system calculates 
 
 Verify that the Cost Framework is active in the dashboards:
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Insights** &gt; **Value**.
-2.  Confirm that the Productivity gains widget shows total money saved \(not just hours\), the Net AI Returns widget shows total calculated returns, and the Total AI Cost widget shows aggregated vendor costs.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Insights** &gt; **Value**.
+2.  The Productivity Gains widget shows total money saved, not just hours. The Net AI Returns widget displays total calculated returns. The Total AI Cost widget presents aggregated vendor costs.
 3.  Verify that these values match the values on the Cost setup page.
 
 After submission:

@@ -7,9 +7,9 @@ release: zurich
 product: Instance Scan
 classification: instance-scan
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Instance Scan references, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, Instance Scan, Maintain and monitor, Administer]
 ---
 
 # Instance Scan roles
@@ -19,11 +19,6 @@ Instance Scan is installed with these roles.
 To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 **Parent Topic:**[Instance Scan references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/instance-scan/hs-references.md)
-
-**Related topics**  
-
-
-[Instance Scan properties]()
 
 ## Instance Scan user \[scan\_user\]
 

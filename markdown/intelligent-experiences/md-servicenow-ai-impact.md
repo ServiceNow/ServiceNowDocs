@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/md-servicenow-ai-impact.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-04"
 reading_time_minutes: 2
-breadcrumb: [Evaluation dashboard, ServiceNow AI dashboard, Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Evaluation, ServiceNow AI dashboard, Dashboards, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # ServiceNow AI Impact

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-pre-auth-request.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [MCO core, Explore, Manufacturing Commercial Operations]
+breadcrumb: [Dealer portal, Use, Manufacturing Commercial Operations]
 ---
 
 # Pre-authorization
@@ -54,6 +54,8 @@ James submits a complete pre-authorization request for high-cost air conditionin
 
 **Related topics**  
 
+
+[mco-pre-auth-request-use]
 
 [Pre-authorization requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-agents-pre-auth-requests.md)
 

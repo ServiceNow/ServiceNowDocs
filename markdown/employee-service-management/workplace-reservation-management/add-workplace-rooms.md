@@ -1,28 +1,28 @@
 ---
 title: Add a workplace room for reservation
-description: Add rooms to Workplace Reservation Management so that employees can find and reserve them.
+description: Add a workplace room for employees to reserve.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/add-workplace-rooms.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add a workplace room for reservation
 
-Add rooms to Workplace Reservation Management so that employees can find and reserve them.
+Add a workplace room for employees to reserve.
 
 ## Before you begin
 
--   The following details are required:
+-   Ensure that you have the following details:
     -   Workplace data for your organization
     -   Data of workspaces that can be marked as available
 
-For more information about adding workplace data, see [Create records for your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/create-records-of-workplace-data-wsd.md).
+For more information about adding the workspaces field information, see [Create records for your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/create-records-of-workplace-data-wsd.md).
 
 Role required: sn\_wsd\_core.admin
 
@@ -30,18 +30,18 @@ Role required: sn\_wsd\_core.admin
 
 1.  Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Administration** &gt; **Workplace Rooms**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
     For a description of the field values, see [Add a room form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/add-room-form.md).
 
-4.  Select **Submit**.
+4.  Click **Submit**.
 
 
 ## Result
 
-The room is added and is available for reservation.
+The room is added and is available for reservation in the application.
 
 **Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 

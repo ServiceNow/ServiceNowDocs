@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Playbook for asset attestation, Audit your hardware assets by using Asset Attestation, Attestation and conformance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Playbook for asset attestation, Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Create an asset attestation or a schedule using the playbook
@@ -106,15 +106,15 @@ Date on which the attestation schedule should be processed for the last time to 
 
 6.  In the **Select model category** activity, select the model categories of assets that you want to attest.
 
-<table id="choicetable_k3g_slp_rfc"><thead><tr><th align="left" id="d195846e297">
+<table id="choicetable_k3g_slp_rfc"><thead><tr><th align="left" id="d186688e297">
 
 Number of model categories to be attested
 
-</th><th align="left" id="d195846e300">
+</th><th align="left" id="d186688e300">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d195846e306">
+</th></tr></thead><tbody><tr><td id="d186688e306">
 
 **All**
 
@@ -124,7 +124,7 @@ Action
 2.  Select **Mark complete**.
 
 
-</td></tr><tr><td id="d195846e333">
+</td></tr><tr><td id="d186688e333">
 
 **A few model categories from the list**
 

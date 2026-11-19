@@ -9,7 +9,6 @@ classification: dispute-management
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [card data security, tokenization service, pci compliance, payment card industry, pci dss, tokenize card data, detokenize card data, sn\_data\_sec, payment card industry data security standards]
 breadcrumb: [Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Configure
+title: Configuring CAM
 description: Follow the steps in the checklist to download CAM from the ServiceNow Store and get it ready for operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/configuring-grc-cam.html
@@ -7,12 +7,12 @@ release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Configure
+# Configuring CAM
 
 Follow the steps in the checklist to download CAM from the ServiceNow Store and get it ready for operation.
 

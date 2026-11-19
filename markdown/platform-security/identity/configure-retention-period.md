@@ -7,7 +7,7 @@ release: zurich
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Security auditable fields, Identity and Access Audit, Identity]
 ---
@@ -24,12 +24,12 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Configure Retention Period**.
 
-2.  For **Age in seconds**, enter a new retention period value \(in seconds\).
+2.  On the form, enter a value in the Age in seconds field.
 
     **Note:** The maximum number of days for Identity and Access Audit is 30 days \(2,592,000 seconds\).
 
     \[Omitted image "configure-retention-period.png"\] Alt text: Retention Period
 
-3.  Select **Update**.
+3.  Save or Update the record.
 
 

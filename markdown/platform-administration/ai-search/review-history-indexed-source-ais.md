@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [AI Search logging and debugging, Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [AI Search logging and debugging, Administer, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Review ingestion history for an indexed source

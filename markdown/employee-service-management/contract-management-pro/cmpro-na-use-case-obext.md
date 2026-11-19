@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [Obligation extraction use case]
-breadcrumb: [Configure obligation extraction, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure obligation extraction, Configure, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create use cases for contract obligation extraction
@@ -41,15 +41,11 @@ The CM Pro - Contract Obligation Extraction use case is available with the in ba
 
 3.  Select **Activate skill** on the skill you want to activate.
 
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: AI skills available for Contract Management Pro.
-
 4.  On the General details page, view the skill details and select **Save and continue**.
 
 5.  In the Contract obligation extraction use cases page, select **New use case**.
 
 6.  In the Define use case page, add the use case details and select **Save and continue**.
-
-    \[Omitted image "cmpro-na-ob-use-case.png"\] Alt text: Define use case form for obligation extraction.
 
 <table id="table_czf_dpc_chc"><thead><tr><th>
 
@@ -81,7 +77,7 @@ Language of the files
 
 </td><td>
 
-Language of the contract documents from which you want to extract the obligations.For more information on supported languages, see .
+Language of the contract documents from which you want to extract the obligations.For more information on supported languages, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/languages-supported-by-document-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -159,9 +155,7 @@ Target field
 This field should be left empty.
 
 </td></tr></tbody>
-</table>        For more information on the field form, see .
-
-        \[Omitted image "cmpro-ob-ext-field.png"\] Alt text: Field information for contract obligation extraction.
+</table>        For more information on the field form, see [Question form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/document-qna-single-field-form.md).
 
     3.  Turn on the toggle switch for **Create multiple fields** to create multiple fields without closing the window.
 
@@ -172,8 +166,6 @@ This field should be left empty.
 8.  Select **Save and Continue**.
 
 9.  Upload a document to test how the contract metadata extraction skill works with the new use case.
-
-    \[Omitted image "cmpro-na-ob-test-output.png"\] Alt text: Test output tab with the option to test a document for obligation extraction.
 
     1.  Select **Test a new document**.
 
@@ -192,8 +184,6 @@ This field should be left empty.
     5.  Select **Save and continue** to proceed.
 
 10. Review the use case details and select **Complete setup**.
-
-    \[Omitted image "cmpro-na-ob-complete-setup.png"\] Alt text: Complete setup button to activate the obligation extraction skill.
 
 
 ## Result

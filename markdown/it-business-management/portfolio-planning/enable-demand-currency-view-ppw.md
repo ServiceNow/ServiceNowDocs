@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -24,7 +24,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-The demand currency view enables you to see the planned cost fields in some demand forms in the selected demand currency. For more information about which fields are supported in the demand currency view, see [Multicurrency fields in demand-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/multicurrency-fields-in-demand-related-forms-ppw.md).
+The demand currency view enables you to see the planned cost fields in some demand forms in the selected demand currency. For more information about which fields are supported in the demand currency view, see [Multicurrency fields in demand forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/multicurrency-fields-in-demand-related-forms-ppw.md).
 
 ## Procedure
 

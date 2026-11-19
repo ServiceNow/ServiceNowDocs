@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Manage your expiring contracts for leased hardware assets, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage expiring lease contracts, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Return your leased hardware asset
@@ -28,15 +28,15 @@ After you choose to return your leased asset, various Contract Asset tasks are c
 
 1.  Open a lease record.
 
-<table id="choicetable_fkk_5d3_4xb"><thead><tr><th align="left" id="d311074e56">
+<table id="choicetable_fkk_5d3_4xb"><thead><tr><th align="left" id="d296353e56">
 
 UI
 
-</th><th align="left" id="d311074e59">
+</th><th align="left" id="d296353e59">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d311074e65">
+</th></tr></thead><tbody><tr><td id="d296353e65">
 
 **Core UI**
 
@@ -46,7 +46,7 @@ Action
 2.  Select a lease record.
 
 
-</td></tr><tr><td id="d311074e98">
+</td></tr><tr><td id="d296353e98">
 
 **Hardware Asset Workspace**
 

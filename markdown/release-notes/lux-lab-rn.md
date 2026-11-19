@@ -8,7 +8,7 @@ topic_type: topic
 last_updated: "2026-10-05"
 reading_time_minutes: 1
 keywords: [Lux Lab, Lux Lab release notes, Lux applications, desktop application]
-breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
 # Lux Lab release notes
@@ -79,7 +79,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.12.1 or later
+4.14 or later
 
 </td><td>
 

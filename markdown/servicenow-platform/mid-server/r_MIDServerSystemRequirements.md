@@ -82,7 +82,7 @@ On Windows hosts, the MID Server requires the minimum PowerShell version 3.0 and
 
 ## Java version support
 
-Java 21.0.7 is bundled with the MID Server installer package and is installed on the host for all new MID Servers. The installer automatically configures Java 21.0.7 to run in your environment. No additional configuration is required. This version supports both 64-bit Windows MID Servers and 64-bit Linux MID Servers. The MID Server requires a minimum JRE version 17.0.10, and recommended version 21.0.7. If you are using a lower version than 17.0.10, you may see encryption related issues.
+Java 17.0.12 is bundled with the MID Server installer package and is installed on the host for all new MID Servers. The installer automatically configures Java 17.0.12 to run in your environment. No additional configuration is required. This version supports both 64-bit Windows MID Servers and 64-bit Linux MID Servers. The MID Server requires a minimum JRE version 17.0.10, and recommended version 17.0.12. If you are using a lower version than 17.0.10, you may see encryption related issues.
 
 Testing showed that the MID Server works as expected with Oracle Java 11 version 17.0.10. If you need to upgrade the JRE to a different version, then coordinate with the appropriate account representative for support.
 
@@ -233,7 +233,7 @@ As a result, there is no one size requirement that fits for all MID Server deplo
 
 ## Monitoring performance
 
-To ensure that the MID Server resource allocations are sufficient for your environment, monitor performance during peak periods of product execution from the [MID Server dashboard]().
+To ensure that the MID Server resource allocations are sufficient for your environment, monitor performance during peak periods of product execution from the [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/c_MIDServerDashboard.md).
 
 **Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-reference-information.md)
 

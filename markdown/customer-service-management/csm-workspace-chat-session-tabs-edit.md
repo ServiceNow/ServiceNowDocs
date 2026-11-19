@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspace-chat-session-tabs-edit.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Chat session tabs, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Chat session tabs, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Edit or remove chat session tabs
@@ -16,7 +16,7 @@ Edit the settings for configured SLA threshold levels, add or remove SLA thresho
 
 ## Before you begin
 
-Role required: virtual\_agent\_admin
+Role required: admin
 
 ## About this task
 

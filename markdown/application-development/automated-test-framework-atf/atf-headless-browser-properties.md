@@ -7,9 +7,9 @@ release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Headless Browser for Automated Test Framework, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
+breadcrumb: [Headless Browser, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
 
 # Headless Browser system properties

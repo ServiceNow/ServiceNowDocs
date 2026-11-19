@@ -7,10 +7,10 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-13"
 reading_time_minutes: 6
 keywords: [saas license management, saas reclamation support, direct integration, SSO integration]
-breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management, IT Asset Management]
 ---
 
 # SaaS License Management
@@ -44,7 +44,7 @@ Managing Direct SaaS applications can vary based on organizational needs. The be
 
 For more information about installing SaaS License Management, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
-\[Omitted image "saas-license-management.png"\] Alt text: Decision tree showing three paths for managing SaaS applications: Direct Integration, SaaS License Connections, and SSO Integration
+\[Omitted image "saas-license-management.png"\] Alt text: Flowchart to guide through SaaS license management
 
 <table id="table_mz1_csf_jhc"><thead><tr><th>
 

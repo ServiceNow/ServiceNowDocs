@@ -20,7 +20,7 @@ Create certificate requests manually through Service Catalog for approval when y
 
 Ensure that the Certificate Management catalog is enabled.
 
-Role required: pki\_admin
+Role required: sn\_disco\_certmgmt.certificate\_requester or sn\_disco\_certmgmt.pki\_user
 
 ## Procedure
 

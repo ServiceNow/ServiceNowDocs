@@ -1,19 +1,19 @@
 ---
-title: Components installed with AI Control Tower
-description: Several types of components are installed with activation of AI Control Tower, including plugins, user roles, and tables.
+title: Components installed with Super Intelligence Control Tower
+description: Several types of components are installed with activation of Control Tower, including plugins, user roles, and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-installed-with.html
 release: zurich
 topic_type: reference
 last_updated: "2026-10-09"
 reading_time_minutes: 8
-keywords: [AI Control Tower, installed components, plugins, roles, tables]
-breadcrumb: [Reference, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+keywords: [Control Tower, installed components, plugins, roles, tables]
+breadcrumb: [Reference, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Components installed with AI Control Tower
+# Components installed with Super Intelligence Control Tower
 
-Several types of components are installed with activation of AI Control Tower, including plugins, user roles, and tables.
+Several types of components are installed with activation of Control Tower, including plugins, user roles, and tables.
 
 ## Plugins installed
 
@@ -21,21 +21,21 @@ The plugins in the [Core plugins](https://raw.githubusercontent.com/ServiceNow/S
 
 |Plugin|Plugin ID|Description|
 |------|---------|-----------|
-|AI Control Tower Core|`sn_ai_governance`|Centralizes AI governance across the enterprise by combining AI assets and controls in a single hub.|
+|Control Tower Core|`sn_ai_governance`|Centralizes AI governance across the enterprise by combining AI assets and controls in a single hub.|
 |AI Asset Management|`sn_ai_asset_mgmt`|Tracks and manages the lifecycle of AI assets such as systems, models, datasets, and prompts.|
-|AICT UI Application|`sn_app_aict_ui`|Provides the AI Control Tower user interface.|
-|AI Experience - Core|`com.glide.ai_experience`|Provides the services that AI Control Tower uses to render pages and cards, apply themes, and save card configuration changes.|
+|AICT UI Application|`sn_app_aict_ui`|Provides the Control Tower user interface.|
+|AI Experience - Core|`com.glide.ai_experience`|Provides the services that Control Tower uses to render pages and cards, apply themes, and save card configuration changes.|
 |AI Control Tower - Evaluations|`sn_ai_observe`|Enables the evaluation framework, scoring engine, and monitoring components for your AI systems.|
 |AI Policy Framework|`sn_ai_policy_fwk`|Authors and enforces policies for AI agents and systems, including automatic containment.|
 |AI Security and Privacy|`sn_ai_security`|Provides security and privacy monitoring for AI assets.|
-|AWH for AI Control Tower|`sn_awh_config`|Configures the Agent Workspace Hub for AI Control Tower.|
-|Value dashboard for AI Control Tower|`sn_ai_value`|Provides the Value dashboard for measuring AI investment return and adoption.|
+|AWH for Control Tower|`sn_awh_config`|Configures the Agent Workspace Hub for Control Tower.|
+|Value dashboard for Control Tower|`sn_ai_value`|Provides the Value dashboard for measuring AI investment return and adoption.|
 |AI Risk and Compliance Management|`sn_grc_ai_gov`|Manages AI risks across their lifecycle, including risk classification, mapping to regulatory authority documents, and policy compliance.|
 |AI Case Management|`sn_ai_case_mgmt`|Tracks, triages, and resolves inquiries and incidents related to AI assets.|
-|AI Risk and Compliance Integration with Control Tower|`sn_grc_ai_irm_intg`|Surfaces risk posture, compliance status, and case workflows directly in AI Control Tower so you can manage AI use cases against regulatory frameworks.|
-|AI Control Tower for ServiceNow Otto|`sn_aict_nowassist`|Syncs ServiceNow Otto AI skills into the AI Control Tower inventory.|
-|ServiceNow Otto for AI Control Tower|`sn_aict_genai`|Adds built-in AI insights and recommendations to AI Control Tower.|
-|Expanded Model and Asset Classes|`sn_ent`|Provides the model and asset classes that AI Control Tower uses. Required for API access to AI asset records.|
+|AI Risk and Compliance Integration with Control Tower|`sn_grc_ai_irm_intg`|Surfaces risk posture, compliance status, and case workflows directly in Control Tower so you can manage AI use cases against regulatory frameworks.|
+|Control Tower for ServiceNow Otto|`sn_aict_nowassist`|Syncs ServiceNow Otto AI skills into the Control Tower inventory.|
+|ServiceNow Otto for Control Tower|`sn_aict_genai`|Adds built-in AI insights and recommendations to Control Tower.|
+|Expanded Model and Asset Classes|`sn_ent`|Provides the model and asset classes that Control Tower uses. Required for API access to AI asset records.|
 |ServiceNow AI Lens|`sn_ai_lens`|Provides AI reporting and lens capabilities.|
 
 Supporting plugins, such as Setup Hub, Data Privacy, Data Discovery, Security Center, the Model Context Protocol client and server, and the GRC and Smart Assessment plugins, are installed automatically as dependencies. To see every dependency for an application, open the application in Application Manager.
@@ -116,7 +116,7 @@ AI Trace Collector
 Collects trace data from external AI platforms for monitoring and evaluation.
 
 </td></tr></tbody>
-</table>The following plugins aren't installed with AI Control Tower. Install them separately to add the features that they provide.
+</table>The following plugins aren't installed with Control Tower. Install them separately to add the features that they provide.
 
 |Plugin|Plugin ID|Description|
 |------|---------|-----------|
@@ -125,7 +125,7 @@ Collects trace data from external AI platforms for monitoring and evaluation.
 
 ## Roles installed
 
-Roles installed with AI Control Tower are described in the following tables. When you assign a role, you also assign the roles that it contains.
+Roles installed with Control Tower are described in the following tables. When you assign a role, you also assign the roles that it contains.
 
 <table id="table_roles_installed"><thead><tr><th>
 
@@ -147,7 +147,7 @@ AI Steward
 
 </td><td>
 
-Leads the execution of AI Control Tower initiatives and coordinates governance activities between innovation, legal, security, risk, and compliance teams. Configures governance and approval workflows, approves or rejects AI asset approval requests, configures Multi-instance Management, activates hyperscaler connections, sets up MCP client connections, and deactivates or reinstates AI agents to contain security risks.
+Leads the execution of Control Tower initiatives and coordinates governance activities between innovation, legal, security, risk, and compliance teams. Configures governance and approval workflows, approves or rejects AI asset approval requests, configures Multi-instance Management, activates hyperscaler connections, sets up MCP client connections, and deactivates or reinstates AI agents to contain security risks.
 
 </td><td>
 
@@ -184,7 +184,7 @@ Workspace Administrator
 
 </td><td>
 
-Has all AI Steward permissions. Configures the cards on AI Control Tower pages, including titles, chart types, list sizes, and record conditions. Card configurations that this role saves apply to all users on the instance.
+Has all AI Steward permissions. Configures the cards on Control Tower pages, including titles, chart types, list sizes, and record conditions. Card configurations that this role saves apply to all users on the instance.
 
 </td><td>
 
@@ -194,13 +194,13 @@ Has all AI Steward permissions. Configures the cards on AI Control Tower pages, 
 
 </td></tr><tr><td>
 
-AI Control Tower Workspace User
+Control Tower Workspace User
 
  \[sn\_ai\_governance.workspace\_user\]
 
 </td><td>
 
-Accesses the AI Control Tower home page and the AI Portfolio tab. Owns and manages AI assets.
+Accesses the Home page and the AI Portfolio tab. Owns and manages AI assets.
 
 </td><td>
 
@@ -305,7 +305,7 @@ AWH Admin
 
 </td><td>
 
-Configures AWH for AI Control Tower.
+Configures AWH for Control Tower.
 
 </td><td>
 
@@ -406,7 +406,7 @@ Provides access to the AWH Gateway REST API.
 </td></tr></tbody>
 </table>## Tables installed
 
-The following tables store the AI assets, governance records, and monitoring data that you work with in AI Control Tower.
+The following tables store the AI assets, governance records, and monitoring data that you work with in Control Tower.
 
 <table id="table_tables_installed"><thead><tr><th>
 
@@ -454,7 +454,7 @@ AI Prompt Digital Asset
 
 </td><td>
 
-Records for AI prompt assets. Prompt assets are created from the AI Control Tower workspace only, not through Service Catalog.
+Records for AI prompt assets. Prompt assets are created from the Control Tower workspace only, not through Service Catalog.
 
 </td></tr><tr><td>
 
@@ -564,7 +564,7 @@ AI Usage
 
 </td><td>
 
-Usage records imported from hyperscaler and external AI platform connectors. Installed with the AI Discovery plugin. Consumed by the AI Control Tower value dashboard.
+Usage records imported from hyperscaler and external AI platform connectors. Installed with the AI Discovery plugin. Consumed by the Control Tower value dashboard.
 
 </td></tr><tr><td>
 

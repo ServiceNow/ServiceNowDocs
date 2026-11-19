@@ -1,5 +1,5 @@
 ---
-title: Enable scoped admin application ACLs
+title: Enable scoped admin application ACLs \[Updated in Security Center 1.3\]
 description: The glide.security.scoped\_administration.honor\_global\_acl determines whether an application administration app can inherit global access control list \(ACL\) rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-administer-scoped-admin-application-acls.html
@@ -7,116 +7,35 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enable scoped admin application ACLs
+# Enable scoped admin application ACLs \[Updated in Security Center 1.3\]
 
 The **glide.security.scoped\_administration.honor\_global\_acl** determines whether an application administration app can inherit global access control list \(ACL\) rules.
 
-The **glide.security.scoped\_administration.honor\_global\_acl** system property determines whether an application administration apps can inherit global access control list \(ACL\) rules. Useful when there are no scoped admin application ACLs defined for the record scope.
+This property is especially useful when there are no scoped admin application ACLs defined for the record scope.
 
-Ensure that the property **glide.security.scoped\_administration.honor\_global\_acl** is set to **true**.
+Set **glide.security.scoped\_administration.honor\_global\_acl** to true to prevent a low privileged user with permissions to the application to potentially access sensitive records.
 
 ## More information
 
-<table id="table_ajc_b43_3kb"><thead><tr><th>
+|Attribute|Description|
+|---------|-----------|
+|Property name|**glide.security.scoped\_administration.honor\_global\_acl**|
+|Configuration type|System Properties \(/sys\_properties\_list.do\)|
+|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)|
+|Purpose|Controls ACL access rule in scoped admin application.|
+|Recommended value|True|
+|Default value|True|
+|Configuration type|Boolean|
+|Security risk|\(Low\) When the property value is true and there are no scoped admin application ACLs defined for the record scope, the global ACLs will be honored. If set to false, with no scoped admin application ACLs defined for the record scope, ACL checks will be ignored.|
+|Security risk rating|3.8|
+|References||
 
-Attribute
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Configuration name
-
-</td><td>
-
-**glide.security.scoped\_administration.honor\_global\_acl**
-
-</td></tr><tr><td>
-
-Configuration type
-
-</td><td>
-
-System Properties \(/sys\_properties\_list.do\)
-
-</td></tr><tr><td>
-
-Data type
-
-</td><td>
-
-Boolean
-
-</td></tr><tr><td>
-
-Recommended value
-
-</td><td>
-
-true
-
-</td></tr><tr><td>
-
-Default value
-
-</td><td>
-
-&lt;none&gt;
-
-</td></tr><tr><td>
-
-Fallback value
-
-</td><td>
-
-false
-
-</td></tr><tr><td>
-
-Category
-
-</td><td>
-
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
-
-</td></tr><tr><td>
-
-Security risk
-
-</td><td>
-
--   Severity score: 3.8
--   CVSS rating: Low
--   Security risk details:
-
-Low privilege users with permissions to the application could potentially access sensitive records.
-
-
-</td></tr><tr><td>
-
-Functional impact
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Dependencies and prerequisites
-
-</td><td>
-
-None
-
-</td></tr></tbody>
-</table>To learn more about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateAPlugin.md)
+To learn more about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateAPlugin.md)
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

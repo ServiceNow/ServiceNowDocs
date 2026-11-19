@@ -1,18 +1,18 @@
 ---
 title: Edit an email notification using the Notification agent
-description: Edit an email notification using the Notification agent by describing your requirements in natural language, instead of navigating forms or writing scripts.
+description: Edit an email notification using the Notification agent in Now Assist by describing your requirements in natural language, instead of navigating forms or writing scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/edit-email-notification.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-01"
 reading_time_minutes: 1
-breadcrumb: [Notification agent, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Notification agent, Now Assist in Notifications, Configure core features, Administer]
 ---
 
 # Edit an email notification using the Notification agent
 
-Edit an email notification using the Notification agent by describing your requirements in natural language, instead of navigating forms or writing scripts.
+Edit an email notification using the Notification agent in Now Assist by describing your requirements in natural language, instead of navigating forms or writing scripts.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ Role required: admin
 
 5.  Select **Configure with Now Assist**.
 
-    The conversational panel opens, detects the current page context, and invokes the Notification Agent.
+    Now Assist opens the conversational panel, detects the current page context, and invokes the Notification Agent.
 
 6.  Select **Edit an existing notification**.
 

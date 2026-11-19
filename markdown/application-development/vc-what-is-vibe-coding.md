@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vc-what-is-vibe-coding.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-05"
 reading_time_minutes: 1
 keywords: [vibe coding, AI-assisted development, artificial intelligence, application development, natural language, prompts, autonomous app development, code generation, development tools]
-breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
 # What is agentic development
@@ -20,18 +20,16 @@ Agentic development uses AI to turn a natural language description of the outcom
 
 \[Omitted image "vc-ai-dev-two-panels.png"\] Alt text: Two approaches to agentic development
 
-Agentic development encompasses a range of approaches to AI-assisted app building:
+The term "vibe coding" can be anything between two distinct philosophies:
 
--   In one approach, developers provide a goal and deploy the generated output without reviewing the underlying code.
--   In another approach, agentic development is an iterative, conversational process in which developers guide AI generation, review the output, and retain responsibility for the generated code.
+-   One definition of vibe coding state that developers don't review or touch generated code before checking it in; simply provide an idea, get code back, no review needed.
+-   Another definition of vibe coding is an umbrella term that encompasses AI-assisted, agentic-assisted development, where developers still need to understand and support the generated code.
 
-ServiceNow provides tools to help you review, refine, and test apps throughout agentic development, including Build Agent and ServiceNow Otto for Creator.
+ServiceNow has tools to help you review, refine, and test apps for both vibe coding, like Build Agent, and agentic development, such as ServiceNow Otto for Creator.
 
 Though testing and deployment are not always part of an agentic development workflow, they are covered in this document to account for all phases of development. Governance is also included in apps that are built agentically on the ServiceNow AI Platform.
 
-Some agentic development workflows do not include reviewing or adjusting generated code, for example in ServiceNow Studio or the ServiceNow IDE. However, this document includes information on those processes for developers who want to refine generated output further.
+Some agentic development workflows do not include reviewing or adjusting generated code, for example in ServiceNow Studio or ServiceNow IDE. However, this document includes information on those processes for developers who want to refine generated output further.
 
 Agentic development enables users across skill levels to build apps by prompting, accelerating the app creation cycle.
-
-**Parent Topic:**[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/exploring-vibe-coding.md)
 

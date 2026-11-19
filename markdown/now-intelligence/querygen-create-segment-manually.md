@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/querygen-create-segment-manually.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-10"
 reading_time_minutes: 4
 keywords: [manual segments, query generation, semantic layer, saved searches]
 breadcrumb: [Segments, Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -16,6 +16,8 @@ breadcrumb: [Segments, Tuning the semantic layer, Configure, Query Generation, S
 Manual segments are admin-created saved searches with friendly names that bridge natural language questions and database filters for the Query Generation semantic layer.
 
 ## Before you begin
+
+Verify that there is a record in the Semantic Table Config \[sn\_query\_gen\_table\_config\] table for the target table that you want to reference in the manual segment. Also verify that the value of Enable Semantic Generation is `true` in this record. For more information, see [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/add-table-semantic-layer.md).
 
 Role required: sn\_query\_gen.admin or higher
 
@@ -65,11 +67,12 @@ Follow these guidelines when creating segment names and descriptions:
 
     |Field|Description|
     |-----|-----------|
-    |Entity|The table \(entity\) the segment applies to. Must have an active entity in the semantic layer. The system looks for the entity first, then the segment within that table.|
     |Name|User-friendly name describing the segment in plain language a user would use when asking a question. Use the same language a user would use when asking a question. Avoid abbreviations, internal codes, or technical jargon. Maximum 255 characters. Examples: "Critical Open Incidents" \(good\) instead of "P1\_OPEN\_INC" \(poor\), "Active Benefits HR Cases" \(good\) instead of "HR Cases — Active, Cat=Benefits" \(poor\).|
+    |Active|Whether the system uses the segment. Defaults to selected. When cleared, the segment is deactivated and excluded from search.|
     |Description|Optional but strongly recommended. Gives the LLM additional context to decide whether a segment is relevant. Use commonly-used terms and explain what the segment captures. Helps disambiguate similar segments. Maximum 4,000 characters. Example: "High priority incidents that are currently open and unresolved. Includes all assignment groups. Useful for executive dashboards and escalation reporting." \(good\) instead of "Filters for priority 1." \(poor\).|
     |Filter|Encoded query defining the segment's filter conditions. Uses the condition builder \(v2\). Maximum 4,000 characters, although filters longer than 2,000 characters may be truncated in the LLM prompt.|
-    |Active|Whether the system uses the segment. Defaults to selected. When cleared, the segment is deactivated and excluded from search.|
+    |Domain|On domain-separated instances, the domain in which the segment should apply.|
+    |Entity|The table \(entity\) the segment applies to. Must have an active entity in the semantic layer. The system looks for the entity first, then the segment within that table.|
 
 4.  Press **Submit**.
 

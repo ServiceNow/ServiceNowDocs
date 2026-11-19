@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Frequently asked questions, MFA enforcement, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Frequently asked questions, MFA enforcement, Multi-factor authentic
 
 FAQ related to MFA reset and why it’s important.
 
-1.  Lost the authenticator app setup. How can you reset?
+1.  Lost the authenticator app setup. How can I reset?
 
-    Enroll in multiple factors so that users aren’t locked out due to multi-factor authentication \(MFA\). For example, you can have the TOTP authenticator app, passkey, and email OTP-based MFA.
+    It’s better if the users enroll in multiple factors so that they aren’t locked out due to MFA. For example, you can have the TOTP authenticator app, passkey, and email OTP-based MFA.
 
     In case users are unable to use any of the enrolled MFA factors the administrator can reset the MFA by following these steps.
 
@@ -36,10 +36,14 @@ FAQ related to MFA reset and why it’s important.
         -   Delete the records associated with the user
     In case no one including the admin can access the instance. The admin can perform a self-service MFA reset using a catalog item available at [Now support](https://support.servicenow.com/now).
 
-2.  How can administrators avoid lockout due to MFA?
+2.  How to avoid administrators from lockout due to MFA?
 
     The administrators enroll for multiple MFA factors so that they aren’t blocked from accessing the instance.
 
     In case no one including the admin can access the instance. The admin can perform a self-service MFA reset using a catalog item available at [Now support](https://support.servicenow.com/now).
+
+3.  Do users have to enroll in MFA again after upgrading to Zurich?
+
+    Yes, if the upgrade met the conditions in [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/changes-mfa-enforcement.md). The upgrade deletes existing MFA enrollment data. Users must enroll again, and they don't need an MFA reset to do so.
 
 

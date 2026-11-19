@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Create and manage enterprise models, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create enterprise models
@@ -28,7 +28,6 @@ You can create a model based on any of the following Enterprise Asset Management
 -   Retail
 -   Tactical equipment
 -   Wearable
--   Multimedia production equipment
 -   Pallet
 
 **Note:** Only consumables created from models in the Enterprise Asset Management application can be used if the **Asset strategy tracking** for the model is set to **create consumable asset**.

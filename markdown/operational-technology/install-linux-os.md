@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/install-linux-os.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -34,6 +34,4 @@ Role required: admin
     |**Debian 12 and 13**|See [https://www.debian.org/releases/testing/amd64/](https://www.debian.org/releases/testing/amd64/)|
     |**Ubuntu 22.04 and 24.04**|See [https://ubuntu.com/tutorials/install-ubuntu-desktop\#1-overview](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)|
 
-
-**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configure-ot-discovery-console.md)
 

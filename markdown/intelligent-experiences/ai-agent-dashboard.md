@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-agent-dashboard.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-21"
 reading_time_minutes: 18
-breadcrumb: [Reference, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Reference, AI Agent Studio, Enable AI experiences]
 ---
 
 # AI Agent Analytics dashboard

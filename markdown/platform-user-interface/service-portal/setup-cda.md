@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Cloud Deployment Automation, Configure a catalog in Service Portal, Create a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -19,7 +19,7 @@ Set up the Cloud Deployment Automation application by configuring the Service Po
 ## Before you begin
 
 -   Request Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
--   Activate and configure the [AWS CloudFormation spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/aws-cloudformation.md).
+-   Activate and configure the AWS CloudFormation spoke.
 -   Activate the Cloud Deployment Automation app
 -   Role required: admin
 

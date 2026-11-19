@@ -7,8 +7,8 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 10
+last_updated: "2026-06-08"
+reading_time_minutes: 7
 keywords: [explore]
 breadcrumb: [Explore, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -18,8 +18,6 @@ breadcrumb: [Explore, Collaborative Work Management, Strategic Portfolio Managem
 Learn more about the generative AI capabilities of ServiceNow Otto for CWM. These capabilities can help you save time and improve efficiency for the actions your team performs within the CWM workspace.
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 **Important:**
 
@@ -38,33 +36,7 @@ ServiceNow Otto introduced AI on the platform. As that experience has evolved, t
 
     You can review and edit AI-generated tasks before adding them to your story. There is no limit on the number of tasks generated, giving you flexibility to capture all necessary work breakdown items. This capability reduces the time spent on repetitive task creation and helps teams establish a consistent starting point for sprint execution.
 
--   **[Create child tasks from CWM task types in List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/generate-subtasks-for-cwm-tasks.md)**
-
-    Break down a large and complex CWM task into smaller units of clear and assignable child tasks using AI. The parent task's short description and description are analyzed by AI to generate child tasks.
-
-    Generate child tasks inline from the List view by hovering over the short description of a task to display the Generate Subtasks icon. Child tasks are added as a hierarchy under the parent task in the List view.
-
-    \[Omitted image "generate-subtasks-cwm.png"\] Alt text: The Generate Subtasks option is available on hovering over the short description of a task.
-
--   **[Create CWM tasks or stories from files or open prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.md)**
-
-    Turn an open prompt or an uploaded file into a batch of tasks for your Board, instead of creating each task individually. Describe the context for task generation, or attach a file such as meeting notes, brainstorming planning docs, or epic PRDs. The input is analyzed by AI and a list of tasks is proposed.
-
-    \[Omitted image "cwm-generate-contextual-tasks.png"\] Alt text: Generate tasks using context or uploaded reference files.
-
-    Review the proposed tasks, select the ones you want, and add them to your Board in one action.
-
-    \[Omitted image "cwm-generate-contextual-tasks-review.png"\] Alt text: Review the generated tasks and select the ones you want to add to your board.
-
--   **[Generate formulas from natural language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/generate-formula-cwm-board-now-assist.md)**
-
-    Create formula columns faster by describing your calculation in natural language and letting ServiceNow Otto generate the formula for you.
-
-    Instead of manually building complex formulas, type what you want to calculate in the Formula Builder panel. For example, enter descriptions like `days between start date and end date` or `total estimated hours for all subtasks`. ServiceNow Otto analyzes your description and generates a valid formula using the available columns in your List view.
-
-    Review the generated formula to verify that it matches your intent. Insert the formula into the editor with a single click, then make any adjustments if needed. This capability removes the need to memorize formula syntax, making calculated columns accessible to team members of all technical skill levels.
-
-    \[Omitted image "na-cwm-formula-instruction-side-panel.png"\] Alt text: Formula Builder panel in ServiceNow Otto for CWM showing a natural language description used to generate a formula.
+    \[Omitted image "na-cwm-scrum-tasks-generated.png"\] Alt text: Generated scrum tasks for a user story displayed in ServiceNow Otto for CWM.
 
 -   **[Generate acceptance criteria for stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/generate-acceptance-criteria-for-stories-in-cwm.md)**
 
@@ -140,9 +112,7 @@ ServiceNow Otto introduced AI on the platform. As that experience has evolved, t
     -   Remove initial roadblocks to create tasks for a CWM Board.
     -   Save time and increase productivity by automating the task creation process.
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
-
-**Important:** Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-landing.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## ServiceNow Otto console
 
@@ -157,6 +127,5 @@ A knowledge worker can use the ServiceNow Otto panel in CWM workspace. This conv
 To learn more about configuring and using ServiceNow Otto, see:
 
 -   [Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/configure-now-assist-for-collaborative-work-management.md)
--   [Create CWM tasks or stories from files or open prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.md)
 -   [Generate tasks from Docs in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/generate-tasks-cwm-docs-now-assist.md)
 

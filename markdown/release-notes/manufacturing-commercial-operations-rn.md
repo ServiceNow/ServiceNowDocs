@@ -1,50 +1,55 @@
 ---
 title: Manufacturing Commercial Operations release notes
-description: The ServiceNow Manufacturing Commercial Operations application updates warranty and quality workflows across Product Quality Investigation, Non-Conformance, and Remediation Core.
+description: The ServiceNow Manufacturing Commercial Operations application enables manufacturers, agents, and Dealers \(internal and channel partners\) to connect and track services and manage recall and sales promotion campaigns. Manufacturing Commercial Operations is a new application in the Zurich release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/manufacturing-commercial-operations-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
 # Manufacturing Commercial Operations release notes
 
-The ServiceNow® Manufacturing Commercial Operations application updates warranty and quality workflows across Product Quality Investigation, Non-Conformance, and Remediation Core.
+The ServiceNow® Manufacturing Commercial Operations application enables manufacturers, agents, and Dealers \(internal and channel partners\) to connect and track services and manage recall and sales promotion campaigns. Manufacturing Commercial Operations is a new application in the Zurich release.
 
-## What's new
+## About Manufacturing Commercial Operations
 
--   **Repair pre-authorization case lines on claim cases**
+-   Create recall campaigns and claims to manage recall campaigns and streamline collaboration with dealers to resolve claims​.
+-   Create repair claims to streamline collaboration with dealers to submit and resolve claims for repairs performed under warranty.
+-   Create sales promotions and claims to manage sales promotion campaigns and to streamline collaboration with dealers to resolve claims.
+-   Create phases and sub phases in the recall campaign to enable the manager to launch it for selected assets, and notify the targeted dealers.
+-   Submit pre-authorization requests to confirm whether certain parts, fees, or repairs are covered under a warranty or service contract.
+-   Create non-conformance \(NC\) and quality investigation \(QI\) cases to capture quality problems, coordinate investigations, and collaborate with stakeholders throughout resolution.
 
-    Claim cases list approved and partially approved pre-authorization cases created for the selected repair. Selecting a pre-authorization automatically populates the causal parts and miscellaneous details.
+See [Exploring Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/manufacturing/manufacturing-explore.md) for more information.
 
--   **Automatic repair claim charge validation**
+## Activation and other requirements
 
-    Ensures repair claim charges conform with pre-authorization limits.
+**Important:** Manufacturing Commercial Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
--   **Schedule a quality review meeting**
+-   **Activation information**
 
-    Schedule a quality review meeting to coordinate follow-up actions with stakeholders. The discussion, summary, and decision history remain attached to the issue for team reference.
+    Install Manufacturing Commercial Operations by requesting it from the ServiceNow Store.
 
--   **Resolve a product non-conformance case playbook**
-    -   Import impacted assets in bulk using an XLST file instead of adding them one at a time directly from the Product Quality Investigation \(PQI\) or Non-Conformance \(NC\) workspace. Reduce manual data entry when a single issue affects multiple assets.
--   **Create an effectiveness goal**
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-    Remediation Core extends the Goals Framework with Effectiveness Goals, letting remediation teams formally evaluate whether corrective and preventive actions resolved the underlying issue over time.
+-   **Browser requirements**
 
-    -   Link effectiveness goals to remediation and actions.
-    -   Track goals from draft through a final outcome \(Achieved, Partially Achieved, Not Achieved\).
-    -   Block Product Quality Investigation closure while effectiveness goals are open.
--   **Non-Conformance case lifecycle enhancements**
+    ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/browser-support.md).
 
-    The NC case lifecycle supports requesting more information from submitters, running a formal accept/reject cycle for proposed corrections, and adding notes and communications directly from the workspace. These capabilities streamline resolution from start to finish.
 
--   **Summarize Non-Conformance and product quality investigation records with AI**
+## Accessibility and localization
 
-    Generate a summary on demand, automatically at stage transitions, or permanently at closure — without reviewing every note and activity. This AI-generated summary may contain inaccuracies, so review it before making decisions based on its content.
+-   **Accessibility information**
+    -   **Dark theme**
 
+        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
+
+-   **[ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-for-mco-rn.md)**  
+The ServiceNow® ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) application brings platform AI capabilities to Manufacturing Commercial Operations. ServiceNow Otto for MCO is a new application in the Zurich release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/new-features-changes.md)
 

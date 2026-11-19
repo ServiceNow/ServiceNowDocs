@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Confirming the assigned serialized hardware assets, Employee self-service, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Confirming the assigned serialized hardware assets, Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Confirm the assigned assets on the Employee Center portal

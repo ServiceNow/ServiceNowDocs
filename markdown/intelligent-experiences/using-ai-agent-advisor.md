@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [AI Agent Advisor, Enable AI experiences]
 ---
 
 # Using AI Agent Advisor
@@ -19,10 +19,18 @@ AI Agent Advisor is the back-end engine that finds and proposes AI automation op
 
 -   **[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)**  
 Use AI Agent Advisor in AI Admin Center to automatically discover automation opportunities in your instance and deploy AI agents to implement the automations.
--   **[AI Agent Advisor in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-ai-control-tower.md)**  
-View your top automation opportunities from AI Agent Advisor as actionable recommendations in AI Control Tower.
+-   **[AI Agent Advisor in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-ai-control-tower.md)**  
+View your top automation opportunities from AI Agent Advisor as actionable recommendations in Control Tower.
 -   **[AI Agent Advisor in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-ai-agent-studio.md)**  
 Use AI Agent Studio to view and edit the prebuilt AI agents matched to each automation opportunity from AI Agent Advisor.
+-   **[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)**  
+Use AI Agent Advisor in AI Admin Center to automatically discover automation opportunities in your instance and deploy AI agents to implement the automations.
+-   **[AI Agent Advisor in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-ai-control-tower.md)**  
+View your top automation opportunities from AI Agent Advisor as actionable recommendations in Control Tower.
+-   **[AI Agent Advisor in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-ai-agent-studio.md)**  
+Use AI Agent Studio to view and edit the prebuilt AI agents matched to each automation opportunity from AI Agent Advisor.
+
+**Parent Topic:**[AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-landing-page.md)
 
 **Parent Topic:**[AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-landing-page.md)
 

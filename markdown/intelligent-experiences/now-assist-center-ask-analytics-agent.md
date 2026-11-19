@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using the ServiceNow Otto panel conversational experience, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Using the ServiceNow Otto panel conversational experience, AI Admin Center, Enable AI experiences]
 ---
 
 # AI Analytics Q and A agent
@@ -21,7 +21,7 @@ The AI Analytics Q and A agent answers natural-language questions about AI analy
 
 **Note:** The AI Analytics Q and A agent is not listed in AI Admin Hub under AI skills. It is built into the ServiceNow Otto conversational experience and is not available for separate configuration. The agent does not consume any assists from your entitlements.
 
-The AI Analytics Q and A agent may work with other AI agents to accomplish tasks. For more information on AI agents, see [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-agents.md).
+The AI Analytics Q and A agent may work with other AI agents to accomplish tasks. For more information on AI agents, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-agents.md).
 
 Responses from the AI Analytics Q and A agent are generated using AI and may be inaccurate or incomplete. Review a response before you act on it.
 

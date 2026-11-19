@@ -1,5 +1,5 @@
 ---
-title: Time offs
+title: Time off
 description: Complete the one time set up of pulling time offs from Workday into the ServiceNow application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/config-w-daytimeoff.html
@@ -7,12 +7,12 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Time off request to Workday, Using, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Time off request, Use, HR Service Delivery Advanced Integration with Workday, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
-# Time offs
+# Time off
 
 Complete the one time set up of pulling time offs from Workday into the ServiceNow application.
 

@@ -1,22 +1,30 @@
 ---
-title: Options for time series data visualizations with multiple metrics
+title: Multiple metrics in time series data visualizations
 description: If you are showing multiple metrics in a time series data visualization, you can set the group by, visualization type, and Y-axis scale for each metric. You can also have filters on a dashboard apply only to specific metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/chart-options-multi-metrics.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-11-06"
+reading_time_minutes: 3
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Options for time series data visualizations with multiple metrics
+# Multiple metrics in time series data visualizations
 
 If you are showing multiple metrics in a time series data visualization, you can set the group by, visualization type, and Y-axis scale for each metric. You can also have filters on a dashboard apply only to specific metrics.
 
 **Note:** Additional data sources must use the same unit as the first metric. Otherwise, only the first metric is used in the visualization.
 
 \[Omitted video\] Description: Multiple metrics being added to a time series visualization
+
+## Group-by element labels with multiple metrics
+
+For time series visualizations, group-by element labels differ between single and multiple metric visualizations. For a single metric, the labels show only the group-by field or breakdown name. For multiple metrics, the names are prefixed with the metric label. If more than one metric has the same label, the metric labels are duplicated. \(If no group-by fields or breakdown are defined, the metrics are numbered.\)
+
+To disambiguate metrics on the same data source in group-by element labels, give the metrics custom labels.
+
+\[Omitted image "ts-multi-metric-labels.png"\] Alt text: Time series data visualization with two metrics on one data source. Both metrics have custom labels.
 
 ## Separate visualization for each metric
 

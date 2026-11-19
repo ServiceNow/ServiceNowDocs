@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
+breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Use, Field Service Management]
 ---
 
 # Create a sales opportunity
@@ -23,6 +23,7 @@ Role required: wm\_technician\_sales\_write
 ## About this task
 
 -   Technician driven sales with the Field Service \(com.snc.fsm\_technician\_sales\) plugin and the Opportunity Management store application \(com.sn\_l2c\_oppty\_mgmt\) must be installed.
+
 -   With the `wm_technician_sales_write` role, you can create opportunities before starting a task or while the task is in progress.
 
 ## Procedure
@@ -31,15 +32,15 @@ Role required: wm\_technician\_sales\_write
 
 2.  Create a sales opportunity.
 
-<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d90573e105">
+<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d82712e108">
 
 From
 
-</th><th align="left" id="d90573e108">
+</th><th align="left" id="d82712e111">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d90573e114">
+</th></tr></thead><tbody><tr><td id="d82712e117">
 
 **My Work**
 
@@ -51,7 +52,7 @@ Do this
 4.  Tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d90573e153">
+</td></tr><tr><td id="d82712e156">
 
 **My Work**
 
@@ -62,7 +63,7 @@ Do this
 3.  In the **Related** tab, tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d90573e186">
+</td></tr><tr><td id="d82712e189">
 
 **Sales**
 

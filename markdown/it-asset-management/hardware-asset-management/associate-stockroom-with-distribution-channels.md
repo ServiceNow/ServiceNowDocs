@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configure stockrooms, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Link stockrooms into a distribution channel
@@ -108,7 +108,7 @@ Option that indicates whether the distribution channel is active for sourcing as
 -   The distribution channel is added to the list shown in the **Distribution Channel** tab.
 -   The base stockroom is added as an outbound distribution channel for the channel stockroom. The **Function** field of the base stockroom is set to **Outbound**.
 
-**Parent Topic:**[Configure stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-stockrooms-ham.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
+last_updated: "2026-06-09"
+reading_time_minutes: 5
+breadcrumb: [Playbooks in Workflow Studio, Building playbooks, Use, Workflow Studio, Build workflows]
 ---
 
 # Create a playbook
@@ -18,7 +18,7 @@ Create a playbook to set up an automated business process. Use Playbook builder 
 
 ## Before you begin
 
--   Activate the Playbook application for your instance. See [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activate-process-automation-designer.md).
+-   Activate the Playbook application for your instance. See [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activate-process-automation-designer.md).
 -   Familiarize yourself with the tables and relationships that your application uses for the playbook that you want to create.
 -   Familiarize yourself with any features that your business uses to automate operations on the ServiceNow AI Platform, such as [flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md), [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-subflows.md), and [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-actions.md).
 -   Role required: admin, playbook.admin, or playbook.write.
@@ -26,8 +26,6 @@ Create a playbook to set up an automated business process. Use Playbook builder 
 ## About this task
 
 Use this procedure to build a new playbook from scratch. You can create a playbook with no trigger, a single trigger, or multiple triggers. If you change a playbook after activating it, the system saves your changes but deactivates the playbook. You must activate the playbook again to publish any new changes.
-
-Fluent support for playbooks lets developers build, edit, and manage playbooks as code with the Fluent domain-specific language \(DSL\) in the ServiceNow IDE or a local SDK. For more information, see [https://servicenow.github.io/sdk/guides/playbook-guide](https://servicenow.github.io/sdk/guides/playbook-guide).
 
 ## Procedure
 
@@ -45,17 +43,15 @@ Fluent support for playbooks lets developers build, edit, and manage playbooks a
     |**Application**|Application scope for the playbook. Select **Global** to run the playbook in any application scope.|
     |**Description**|Descriptive details about the playbook.|
 
-4.  Select **Build playbook**.
-
-    The builder displays in **Diagram view** by default, but you can select **Board view** to switch between views anytime as you build your playbook.
+    The builder displays in **Diagram view** by default, but you can select **Board view** to switch views. Switch between views anytime as you build your playbook.
 
     \[Omitted image "board-view.png"\] Alt text: Diagram and Board view toggle
 
-5.  Select the **Start** node.
+4.  Select the **Start** node.
 
     The Playbook properties side panel opens.
 
-6.  Under the **Details** tab, fill in the fields.
+5.  Under the **Details** tab, fill in the fields.
 
     You can also update the Playbook name and Description.
 
@@ -102,33 +98,29 @@ Table that provides trigger records and other playbook inputs. Required for Know
 When selected, runtime users can restart the entire playbook during a run.
 
 </td></tr></tbody>
-</table>7.  Under the **Inputs** tab, add inputs for a playbook to launch with.
+</table>6.  Under the **Inputs** tab, add inputs for a playbook to launch with.
 
     Inputs defined here are accessible throughout the playbook via dot-walking and dot notation, for example `inputs.inputName`, and can be used in activity fields, conditions, and UI elements.
 
     **Tip:** To trigger a playbook with API inputs instead of trigger records, use the `triggerPlaybook(String scopedName, GlideRecord parentRecord)` API to trigger a playbook. For more information about the API, search `triggerplaybook` on the ServiceNow Developer Site: [Playbook Experience APIs](https://developer.servicenow.com/dev.do#!/reference/api/zurich/server/sn_playbook-namespace/PlaybookExperienceScopedAPI).
 
-8.  Under the **Runtime permissions** tab, configure permissions for users, user groups, user criteria, and roles.
+7.  Under the **Runtime permissions** tab, configure permissions for users, user groups, user criteria, and roles.
 
-9.  Configure a trigger for the playbook.
+8.  Configure a trigger for the playbook.
 
     You can create a playbook with no trigger, a single trigger, or multiple triggers. For more information, see [Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-configure-trigger.md).
 
-10. Add activities, stages, decision nodes, and parallel branches as required to automate your process.
+9.  Add activities, stages, decision nodes, and parallel branches as required to automate your process.
 
     Continue adding stages and activities until your playbook reflects the full business process. For more information, see [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
 
-11. Preview activities to confirm the activity's appearance to end users and adjust their configuration.
-
-    For more information about previewing activities, see [Preview an activity's runtime UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/preview-playbook-runtime-ui.md).
-
-12. Add a variant to your playbook.
+10. Add a variant to your playbook.
 
     You can use one playbook in multiple use cases by using variants. For more information, see [Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-variants.md).
 
-13. After adding all stages and activities, test the playbook.
+11. After adding all stages and activities, test the playbook.
 
-14. After testing the playbook, select **Activate** in the header.
+12. After testing the playbook, select **Activate** in the header.
 
     The playbook is published and runs when its trigger conditions are met.
 
@@ -141,5 +133,20 @@ When the trigger conditions of the playbook are met, the system creates a Proces
 
 Set up the Playbook Experience for your agents and fulfillers.
 
-**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/creating-managing-playbooks.md)
+**Parent Topic:**[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-definitions.md)
+
+**Related topics**  
+
+
+[Playbook variants]()
+
+[Test a playbook]()
+
+[Enabling playbook restart]()
+
+[Duplicate Playbooks]()
+
+[Add translations for playbooks]()
+
+[View all buttons without hover]()
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/build-workflows.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 9
 ---
 
@@ -27,11 +27,11 @@ Increase the impact of your cross‑enterprise workflows by automating manual pr
 
 </td><td>
 
-[Workflow Studio playbooks \[Omitted image "bus-anomaly-detection.svg"\] Alt text: Author cross-enterprise workflows and create a single, unified process.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
+[Workflow Studio playbooks \[Omitted image "bus-anomaly-detection.svg"\] Alt text: Author cross-enterprise workflows and create a single, unified process.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer.md)
 
 </td></tr><tr><td>
 
-[Workflow Studio playbook experience \[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text: Interact with a business workflow in real time from within Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
+[Workflow Studio playbook experience \[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text: Interact with a business workflow in real time from within Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-ui.md)
 
 </td><td>
 
@@ -99,7 +99,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
 -   **[Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer.md)**
 
-    Playbook enable process owners to author cross-enterprise workflows and create a single, unified process. Build the underlying processes for playbooks that Playbook Experience agents and fulfillers use.
+    Workflow Studio playbooks enable process owners to author cross-enterprise workflows and create a single, unified process. Build the underlying processes for playbooks that Playbook Experience agents and fulfillers use.
 
 -   **[Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)**
 
@@ -113,7 +113,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     Workflow Studio decision tables enable developers to decouple decision logic from their code by creating and maintaining decision rules.
 
--   **[Playbook experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)**
+-   **[Playbook experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-ui.md)**
 
     Interact with a business workflow in real time from within Workspace. Agents can use Playbook to update records, upload attachments, and complete tasks across multiple workflow activities.
 
@@ -149,6 +149,9 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
     Work with remote tables in the ERP system of record, such as SAP, as well as APIs and ETLs, to create ERP data models to use as data sources for ServiceNow AI Platform applications.
 
 -   **[ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-customization-mining-overview.md)**
+
+    Identify ERP customization apps that are candidates to migrate to the ServiceNow AI Platform. Use the ServiceNow AI Platform to build applications and features to automate ERP processes and workflows.
+
 -   **[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub.md)**
 
     Automate integration tasks using ServiceNow components for ServiceNow® Workflow Studio, or develop custom integrations. A separate subscription is required.
@@ -161,7 +164,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on a server in your local network. The ServiceNow® MID Server enables communication and the movement of data between a ServiceNow instance and external applications, data sources, and services.
 
--   **[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-explore.md)**
+-   **[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-main-landing-page.md)**
 
     Use the ServiceNow® Robotic Process Automation \(RPA\) Hub to enable end-to-end automation for your organization. With a combination of UI interactions, element-based automations, and APIs that interact between the various business applications, you can emulate user actions and eliminate mundane and repetitive human activities.
 

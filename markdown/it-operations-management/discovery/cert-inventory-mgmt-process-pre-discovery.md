@@ -48,7 +48,7 @@ After the Certificate Inventory and Management credential is set up with either 
 
 ca\_api\_url and ca\_api\_version are optional parameters. If these parameters are left empty inside pattern parameters, default values will be used. The default values include:
 
--   DigiCert - Certificate Management \(ca\_api\_version = v2, ca\_api\_url = https://www.digicert.com/services/\)
+-   DigiCert - Certificate Management \(ca\_api\_version = v2, ca\_api\_url = https://certcentral.digicert.com/services/\)
 -   Entrust - Certificate Management \(ca\_api\_version = v2, ca\_api\_url = https://api.entrust.net/enterprise/\)
 -   GoDaddy - Certificate Management \(ca\_api\_version = v1, ca\_api\_url = https://api.godaddy.com/\)
 -   Sectigo - Certificate Management \(ca\_api\_version = v1, ca\_api\_url = https://cert-manager.com/api/ssl/\)

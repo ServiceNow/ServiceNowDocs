@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/major-issue-management-form-view.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configure major issue management, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Major issue management overview, Administer, Customer Service Management]
 ---
 
 # Major Case form view
@@ -70,14 +70,7 @@ The **Work notes** field on the major case form is updated when a major case is 
 
 When a major issue manager rejects a candidate case, the **Major Case State** field is set to Rejected and the **Work notes** field is updated with the case state. The candidate case reverts to a regular case.
 
-## Related lists
+## Child Cases related list
 
--   **Child cases**
-
-    All child cases associated with a major case are added to this list. Child cases are created automatically from the recipients list and can also be added or removed manually.
-
--   **Suggested child cases**
-
-    Cases that have been identified by the AI detection workflow as potential members of the major case group are located in this list. The major issue manager can add these cases as child cases on the major case, or remove them.
-
+Major issue management adds the **Child Cases** related list to the Customer Service Case form. All child cases associated with a major case are added to this list. Child cases are created automatically from the recipients list and can also be added or removed manually.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-15"
 reading_time_minutes: 2
-breadcrumb: [Cross-channel favorites, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Cross-channel favorites, Setup Employee Center browse experience features, Configure, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Configure favorites option
@@ -28,7 +28,9 @@ You can set up the favorite card details and use the default favorite icon \[Omi
 
 1.  Navigate to **All** &gt; **Favorites** &gt; **Favorite content configuration**.
 
-2.  Click **New** or update an existing configuration.
+2.  Select **New** or update an existing configuration.
+
+    **Note:** The my **Favorites** widget syncs instantly with other widgets in real-time on the web. However, when adding favorites items across devices \(example: mobile to the web\), a manual refresh is required to reflect the latest changes — **Reload the page** on web or **Pull to refresh** on mobile.
 
 3.  On the form, fill in the fields.
 
@@ -130,7 +132,7 @@ Navigational settings for the favorite icon. Select the following options: -   *
 </td></tr></tbody>
 </table>    **Note:** When you experience performance issues, use the primary field and do not specify other fields such as Image and image URL.
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 ## Result

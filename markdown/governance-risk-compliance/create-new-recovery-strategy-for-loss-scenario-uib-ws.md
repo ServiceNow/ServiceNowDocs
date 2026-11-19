@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-new-recovery-strategy-for-loss-scenario-uib-ws.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -46,7 +46,7 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
     The **Recovery tasks** tab is displayed in the Recovery strategy form.
 
-    Starting with the Brazil release of the application, the Recovery strategies record has the following related lists:
+    Starting with the Zurich release of the application, the Recovery strategies record has the following related lists:
 
     -   Task template groups
     -   Task templates

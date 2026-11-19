@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-vr-acticvate-agentic-workflow.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-29"
 reading_time_minutes: 2
 breadcrumb: [Configure AI skills and agentic workflows for USEM, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Configure AI skills and agentic workflows for USEM, Implement, Unif
 You can configure agentic workflows from the AI Agent Studio, but you must duplicate them to modify settings. The USEM AI agents included with the application and used in the agentic workflows are activated by default and aren't editable.
 
 ## Before you begin
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
 

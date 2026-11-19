@@ -7,9 +7,9 @@ release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-27"
 reading_time_minutes: 1
-breadcrumb: [Using Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Using Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
 ---
 
 # Using MLSolutionFactory scriptable objects

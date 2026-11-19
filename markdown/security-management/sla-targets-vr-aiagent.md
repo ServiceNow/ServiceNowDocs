@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sla-targets-vr-aiagent.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-24"
 reading_time_minutes: 4
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 Chat with an AI agent to help you gain insights into your monthly remediation compliance metrics for vulnerable items.
 
 ## Before you begin
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 The ServiceNow Otto® panel must be activated. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
@@ -119,4 +117,6 @@ End the conversation.
 
     The VR.System role also inherits these granular roles so background job execution for the workflow can occur.
 
+
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-unified-security-exposure-management.md)
 

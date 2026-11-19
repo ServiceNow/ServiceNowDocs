@@ -7,9 +7,8 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-keywords: [mismatched version, version compatibility, provider upgrade, consumer upgrade]
 breadcrumb: [Explore, Service Exchange]
 ---
 
@@ -26,8 +25,7 @@ The following is an example scenario:
 -   The provider decides to upgrade to Service Exchange for Providers 2.0 but the consumer is still using the older version. In this case, the consumer can continue to use the entitlements created using the older version of Service Exchange and sync data with the provider.
 -   To use the latest configuration revisions \(created with the upgraded application\), the consumer must upgrade to a version that is compatible with the provider.
 
-**Related topics**  
+## Useful references
 
-
-[Configuring revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-config-revision.md)
+For details on a supporting feature, see [Configuring revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-config-revision.md).
 

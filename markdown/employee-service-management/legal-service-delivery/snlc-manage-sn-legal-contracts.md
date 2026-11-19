@@ -7,7 +7,7 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -53,8 +53,6 @@ As administrator manage clauses, clause variations, and contract templates.
 
 [Contract amendments]()
 
-[Contract renewals]()
-
 [Linking parent-child contracts]()
 
 [Internal review overview]()
@@ -64,4 +62,6 @@ As administrator manage clauses, clause variations, and contract templates.
 [Cancel a legal request]()
 
 [View and download a signed contract document]()
+
+[View contract requests]()
 

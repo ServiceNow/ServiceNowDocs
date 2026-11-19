@@ -7,9 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Microsoft Teams call quality monitoring, Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Microsoft Teams call quality monitoring overview, Monitor, Digital End-User Experience, IT Operations Management]
 ---
 
 # Monitor Microsoft Teams call quality
@@ -20,20 +20,20 @@ Enable advanced monitoring of Microsoft Teams call quality with DEX for Microsof
 
 Role required: admin
 
--   Advanced monitoring for Microsoft Teams must be configured. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/enable-app-monitor.md).
--   The DEX for Microsoft 365 application must be set up. For more information, see [Configuring DEX for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/configuring-dex-for-microsoft-365.md).
+-   Configure advanced monitoring for Microsoft Teams. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/enable-app-monitor.md).
+-   Set up DEX for Microsoft 365 application. For more information, see [Configuring DEX for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/configuring-dex-for-microsoft-365.md).
 
 ## About this task
 
-View detailed metrics for a user's Microsoft Teams calls, including call quality, network metrics, and session data.
+View detailed metrics for a employee's Microsoft Teams calls, including call quality, network metrics, and session data for a particular user.
 
-**Note:** All data displayed on this page are based on information received from Microsoft.
+**Note:** All the data displayed in this page are based on the information received from Microsoft.
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text:\).
+2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 
 3.  Select **Teams**.
 
@@ -51,29 +51,77 @@ View detailed metrics for a user's Microsoft Teams calls, including call quality
 
     The following details appear:
 
-    -   **Call Quality**: A pie chart shows the percentage of calls with Good quality, Poor quality, or Unclassified.
-    -   **Call Types**: A pie chart shows the percentage of call types: audio, video, or other.
+    -   **Call Quality**: A Pie chart shows the percentage of calls with Good quality, Poor quality, or Unclassified.
+    -   **Call Types**: A Pie chart shows the percentage of calls types: audio, video, or other.
     -   **Calls over time**: A line graph shows the number of Good, Poor, or Unclassified quality calls over the selected time period.
     -   **Network Experience**: A line graph shows average packet loss and average jitter over the selected period.
     -   **Metrics**: The following metrics appear in a table.
 
-        |Metric|Description|
-        |------|-----------|
-        |Average jitter|Measure of the variation in packet delay over a network.|
-        |Average packet loss rate|Frequency at which data packets are lost in transit. Lower loss means better sound, video, and performance.|
-        |Average round-trip time|Average time it takes for a data packet to travel from the source to the destination and back again. The lower the round-trip time, the faster the network.|
-        |Average audio degradation|Average decline in audio quality experienced during a call or voice transmission, usually due to network issues like packet loss, jitter, latency, or codec problems.|
-        |Average video frame loss percentage|Average percentage of video frames lost as displayed to the user.|
-        |Average bandwidth estimate|Average estimated bandwidth available between two endpoints in bits per second.|
+<table id="table_nrm_shz_nfc"><thead><tr><th>
 
-8.  Select **Call quality metrics** to get session details.
+Metric
 
-    The number of total calls, good calls, and poor calls appears with a timeline chart of calls. The following session details appear:
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Average jitter
+
+</td><td>
+
+Measure of the variation in packet delay over a network.
+
+</td></tr><tr><td>
+
+Average packet loss rate
+
+</td><td>
+
+Shows how often data disappears on its way. Lower loss means better sound, video, and performance.
+
+</td></tr><tr><td>
+
+Average round-trip time
+
+</td><td>
+
+Average time it takes for a data packet to travel from the source to the destination and back again. The lower the round-time trip, the faster the network.
+
+</td></tr><tr><td>
+
+Average audio degradation
+
+</td><td>
+
+Average decline in audio quality experienced during a call or voice transmission, due to network issues like packet loss, jitter, latency, or codec problems.
+
+</td></tr><tr><td>
+
+Average video frame loss percentage
+
+</td><td>
+
+Average percentage of video frames lost as is displayed to the user.
+
+</td></tr><tr><td>
+
+Average bandwidth estimate
+
+</td><td>
+
+Average estimated bandwidth available between two endpoints in bits per second.
+
+</td></tr></tbody>
+</table>8.  Select **call quality metrics** to get session details.
+
+    A number of total calls, good calls, and poor calls appears with a timeline chart of calls. The following session details appear:
 
     -   **Session Quality Breakdown**: A pie chart shows the percentage of Microsoft Teams sessions with Good, Poor, or Unclassified quality.
     -   **Connection Type**: A bar chart shows calls from various connection types.
     -   **Media Type**: A bar chart shows audio and video calls.
     -   **Video codecs used**: A bar chart based on the video codecs used.
     -   **Audio codecs used**: A bar chart based on the audio codecs used.
-    -   **Operating system**: A bar chart based on the user's operating system.
+    -   **Operating system**: A bar chart based on the user’s operating system.
 

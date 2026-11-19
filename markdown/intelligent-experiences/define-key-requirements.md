@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/define-key-requirements.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-11-23"
 reading_time_minutes: 2
-breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
 ---
 
 # Define key requirements for an agentic workflow

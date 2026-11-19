@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure asset performance KPI settings, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure settings to monitor asset KPIs, Manage and monitor hardware asset performance, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Opt in to model categories to track performance KPIs for hardware assets
@@ -36,6 +36,4 @@ Role required: admin
 ## Result
 
 [Create an operational schedule for hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-operational-schedule-ham.md).
-
-**Parent Topic:**[Configure settings to monitor asset key performance indicators \(KPIs\) in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-kpi-settings-ham.md)
 

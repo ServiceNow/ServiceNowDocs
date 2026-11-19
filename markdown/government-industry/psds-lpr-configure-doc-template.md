@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-lpr-configure-doc-template.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-01-07"
 reading_time_minutes: 6
 breadcrumb: [License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -89,7 +89,7 @@ User criteria
 
 </td><td>
 
-Audience criteria for this document. For example, you can create a permit intended for only Canadian residents.**Note:** When defining conditions like case sensitivity or null values, see API .
+Audience criteria for this document. For example, you can create a permit intended for only Canadian residents.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr><tr><td>
 

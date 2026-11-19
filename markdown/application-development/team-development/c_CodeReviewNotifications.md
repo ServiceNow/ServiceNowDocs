@@ -1,27 +1,27 @@
 ---
 title: Code review notifications
-description: You must enable email notifications on the instance requiring code review for that instance to send code review notifications.
+description: You can enable email notifications on the instance requiring a code review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/team-development/c\_CodeReviewNotifications.html
 release: zurich
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Code reviews, Administer, Team Development, Planning your application, Classic app development, Building applications]
+breadcrumb: [Code reviews, Pushing changes, Working with changes, Team Development, Planning your application, Building applications]
 ---
 
 # Code review notifications
 
-You must enable email notifications on the instance requiring code review for that instance to send code review notifications.
+You can enable email notifications on the instance requiring a code review.
 
 The Team Development Code Review workflow sends notifications to members of the Team Development Code Reviewers group when:
 
 -   A push requires code review.
--   A user cancels a push.
+-   You cancel a push.
 
-If the user who pushed the changes has a user record with an email address on the instance where code review was required, the user receives a notification when the approval stage is set to Complete \(approved\) or Code Changes Rejected.
+If the developer who pushed the changes has a user record with an email address on the instance where code review was required. The developer receives a notification when the approval stage is set to Complete \(approved\) or Code Changes Rejected.
 
 The code review notifications contain the following information:
 
@@ -65,4 +65,5 @@ Push or Pull \[sys\_sync\_history\]
 -   The push that was canceled
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Code reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_CodeReview.md)
+

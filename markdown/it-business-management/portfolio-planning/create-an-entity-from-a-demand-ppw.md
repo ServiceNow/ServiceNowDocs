@@ -34,7 +34,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-To create an entity, you can also use the **Confirm details and convert to selected entity** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+Conversion from a demand to a work item can happen at any state of the demand. To create an entity, you can also use the **Confirm details and convert to selected entity** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 
 ## Procedure
 
@@ -58,7 +58,7 @@ To create an entity, you can also use the **Confirm details and convert to selec
 
 8.  Select the appropriate option to create an entity.
 
-    The work item can be created at any demand state, including Draft. This conversion is not restricted to support different governance processes.
+    The work item can be created at any demand state, including Draft. This conversion is not restricted to support multiple types of governance processes.
 
     \[Omitted image "demand-create-entity.png"\] Alt text: Create Project selected in the More Actions menu.
 

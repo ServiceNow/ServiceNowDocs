@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure for consumers, Service Exchange for Consumers, Service Exchange]
+breadcrumb: [Install and configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
 # Add consumer variables to a remote record producer

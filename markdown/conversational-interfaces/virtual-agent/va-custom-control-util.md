@@ -1,6 +1,6 @@
 ---
 title: Custom control utility
-description: Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Assistant Designer.
+description: Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Assistant Designer Asset library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/va-custom-control-util.html
 release: zurich
@@ -9,12 +9,12 @@ classification: virtual-agent
 topic_type: reference
 last_updated: "2026-10-24"
 reading_time_minutes: 1
-breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library utilities, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Custom control utility
 
-Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Assistant Designer.
+Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Assistant Designer Asset library.
 
 ## Custom control utility properties
 
@@ -89,5 +89,5 @@ Conditionally use this node if
 A no-code condition statement or low-code script that specifies a condition for presenting this node in the conversation. The condition must evaluate to true.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
+</table>**Parent Topic:**[Assistant Designer Asset library utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
 keywords: [demand dashboard, demand workspace, Demand Management]
 breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]

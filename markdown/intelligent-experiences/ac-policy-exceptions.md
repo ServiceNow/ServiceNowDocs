@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ac-policy-exceptions.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-16"
 reading_time_minutes: 1
 keywords: [policy exception, control objective, risk assessment]
-breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing tasks and approvals, Address action items, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Policy exceptions

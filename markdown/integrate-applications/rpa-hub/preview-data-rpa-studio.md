@@ -1,0 +1,47 @@
+---
+title: Preview the data of a data port in RPA Desktop Design Studio
+description: Preview the data of a Data port in RPA Desktop Design Studio to view and verify if the result of a port is correct and is as expected.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/preview-data-rpa-studio.html
+release: zurich
+product: RPA Hub
+classification: rpa-hub
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
+---
+
+# Preview the data of a data port in RPA Desktop Design Studio
+
+Preview the data of a Data port in RPA Desktop Design Studio to view and verify if the result of a port is correct and is as expected.
+
+## Before you begin
+
+Ensure that the component for which you want to view the data for is executed. For more information, see [Run an automation in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/run-automation-rpa-studio.md).
+
+Role required: none
+
+## Procedure
+
+1.  In the RPA Desktop Design Studio, on the Design surface, do any of the following actions to preview the data:
+
+    -   If the data type is simple text, hover over the Data Out port of a component as show in the following example.
+
+        Partial data is visible in the tooltip.
+
+        \[Omitted image "data-preview-hover.png"\] Alt text: Hover over option on the Data Out port.
+
+    -   To view the complete data output, right-click the Data port that you want to view data for and select **Preview Data** as shown in the following example.
+
+        \[Omitted image "preview-data-right-click.png"\] Alt text: Preview Data option that appears after clicking the Data Out port of a component title bar.
+
+        A DATA PREVIEW dialog box is displayed, as shown in the following example.
+
+        \[Omitted image "data-preview-from-option.png"\] Alt text: After clicking the Preview Data option, a Data Preview dialog box is displayed.
+
+    You can view the name of the port, the data type, and the data in this dialog box.
+
+
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-studio-use.md)
+

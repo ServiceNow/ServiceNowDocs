@@ -18,8 +18,6 @@ With the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application
 
 ## Features
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
-
 The ServiceNow Otto for PSDS application includes the following AI features that enable your agents to work through cases.
 
 -   **Investigative case summarization skill**
@@ -46,7 +44,7 @@ The ServiceNow Otto for PSDS application includes the following AI features that
     -   Additional comments
     -   Email
     -   Service level agreement \(SLA\)
-    \[Omitted image "psds-otto-case-summary.png"\] Alt text: AI-generated summary for a case record.
+    \[Omitted image "image.psds-otto-case-summary"\] Alt text: AI-generated summary for a case record.
 
 -   **Chat summarization skill**
 
@@ -58,7 +56,7 @@ The ServiceNow Otto for PSDS application includes the following AI features that
 
 -   **Fee waiver AI Agent skill**
 
-    Determines the fee breakdown for an information request. The skill provides a subtotal fee estimate and a recommendation for whether a fee waiver request should be approved or rejected, including reasons for any rejection. It also provides a total fee estimate with the fee waiver, if applicable. This skill works via the Information Request Fee Estimation AI Agent to provide an autonomous decision based on guidelines added in a specific knowledge article. For information on standalone AI agents in Public Sector, see .
+    Determines the fee breakdown for an information request. The skill provides a subtotal fee estimate and a recommendation for whether a fee waiver request should be approved or rejected, including reasons for any rejection. It also provides a total fee estimate with the fee waiver, if applicable. This skill works via the Information Request Fee Estimation AI Agent to provide an autonomous decision based on guidelines added in a specific knowledge article. For information on standalone AI agents in Public Sector, see [Agentic AI for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/agentic-ai-psds-explore.md).
 
 
 **Important:**

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/components-installed-fso-document-processor.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Reference, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -210,7 +210,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-CRM Workspace Playbook – Document Verification
+CSM Configurable Workspace Playbook – Document Verification
 
 </td><td>
 

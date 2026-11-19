@@ -1,5 +1,5 @@
 ---
-title: Restrict knowledge bases access
+title: Restrict knowledge bases access \[New in Security Center 1.3\]
 description: The glide.knowman.block\_access\_with\_no\_user\_criteria property is used to control the read/write access of users on knowledge based articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-restrict-knowledge-bases-access.html
@@ -7,18 +7,14 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Restrict knowledge bases access
+# Restrict knowledge bases access \[New in Security Center 1.3\]
 
 The **glide.knowman.block\_access\_with\_no\_user\_criteria** property is used to control the read/write access of users on knowledge based articles.
-
-The **glide.knowman.block\_access\_with\_no\_user\_criteria** system property is used in knowledge record user criteria security. If **glide.knowman.block\_access\_with\_no\_user\_criteria** isn't set to the recommended value of **true**, then knowledge bases without `can read` or `can contribute` user criteria are readable and writable by all users.
-
-Ensure the property **glide.knowman.block\_access\_with\_no\_user\_criteria** is set to **true**.
 
 ## More information
 
@@ -68,14 +64,6 @@ Default value
 
 </td><td>
 
-True
-
-</td></tr><tr><td>
-
-Fallback value
-
-</td><td>
-
 false
 
 </td></tr><tr><td>
@@ -94,7 +82,7 @@ Security risk
 
 -   Severity score: 9.1
 -   CVSS score: Critical
--   Security risk details: Knowledge bases lacking explicit "can read" or "can contribute" user criteria are accessible and editable by all users, potentially leading to unauthorized access and modification of sensitive knowledge content.
+-   Security risk details: If this property is not set to the recommended value of true, then any user can read and contribute to a KB.
 
 </td></tr><tr><td>
 

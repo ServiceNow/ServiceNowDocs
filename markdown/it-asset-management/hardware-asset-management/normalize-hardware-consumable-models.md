@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configure Hardware Model Normalization, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Work with hardware normalization, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Normalize hardware and consumable models
@@ -22,39 +22,23 @@ Role required: admin, asset, or model\_manager
 
 ## About this task
 
-**Note:**
-
--   If you have opted in to the Hardware Asset Management Content Service, you can override any life cycle values that were added from the schedule job, or you can manually add your own life cycles.
--   For a model to be fully normalized, you must add manufacturer details and a model number, and optionally a model name.
--   If you update the **Device Type** field, the normalization status is updated.
+-   Normalization depends on whether the Content Service has a match for the manufacturer, model name, and model number on your model. Enter as much of this information as you have.
+-   If you update the Device Type field, the normalization status is updated.
+-   If you have opted in to the Hardware Asset Management Content Service, you can override lifecycle values that the scheduled job added, or add your own lifecycles.
 
 ## Procedure
 
 1.  Create a hardware or consumable model.
 
-<table id="choicetable_k4b_k1j_pdc"><thead><tr><th align="left" id="d135359e74">
+<table id="choicetable_k4b_k1j_pdc"><thead><tr><th align="left" id="d130245e76">
 
 Interface
 
-</th><th align="left" id="d135359e77">
+</th><th align="left" id="d130245e79">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d135359e83">
-
-**Core UI**
-
-</td><td>
-
-1.  Navigate to one of the following paths.
-    -   **Product Catalog** &gt; **Product Models** &gt; **Hardware Models**.
-    -   **Product Catalog** &gt; **Product Models** &gt; **Consumable Models**.
-2.  Select **New**.
-3.  On the Hardware Model or Consumable Model form [fill in the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md).
-4.  Select **Save**.
-
-
-</td></tr><tr><td id="d135359e150">
+</th></tr></thead><tbody><tr><td id="d130245e87">
 
 **Hardware Asset Workspace**
 
@@ -69,30 +53,42 @@ Action
 5.  Select **Save**.
 
 
-</td></tr></tbody>
-</table>    If the information is available, the model is compared against the data in the Hardware Normalization Content Service, and the model is normalized.
-
-    **Note:** If the hardware or consumable model is normalized against the Hardware Asset Management Content Service, a life cycle is added if applicable life cycles exist in the content service.
-
-2.  Normalize your model manually if the normalization status of your model is Partially Normalized or Publisher Normalized.
-
-<table id="choicetable_yqq_h2j_pdc"><thead><tr><th align="left" id="d135359e230">
-
-Interface
-
-</th><th align="left" id="d135359e233">
-
-Action
-
-</th></tr></thead><tbody><tr><td id="d135359e239">
+</td></tr><tr><td id="d130245e160">
 
 **Core UI**
 
 </td><td>
 
-Select the **Normalized** section and **Consumable Model Fields** section to normalize the model manually.
+1.  Navigate to one of the following paths.
+    -   **Product Catalog** &gt; **Product Models** &gt; **Hardware Models**.
+    -   **Product Catalog** &gt; **Product Models** &gt; **Consumable Models**.
+2.  Select **New**.
+3.  On the Hardware Model or Consumable Model form [fill in the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md).
+4.  Select **Save**.
 
-</td></tr><tr><td id="d135359e254">
+
+</td></tr><tr><td id="d130245e229">
+
+****
+
+</td><td>
+
+
+
+</td></tr></tbody>
+</table>    If the Content Service has a match, the system normalizes the model. If lifecycles exist for the matched model, the system adds them.
+
+2.  If the status is Partially Normalized, Manufacturer Normalized, or Match Not Found, normalize your model manually.
+
+<table id="choicetable_yqq_h2j_pdc"><thead><tr><th align="left" id="d130245e265">
+
+Interface
+
+</th><th align="left" id="d130245e268">
+
+Action
+
+</th></tr></thead><tbody><tr><td id="d130245e276">
 
 **Hardware Asset Workspace**
 
@@ -106,25 +102,31 @@ Select the **Normalized** section and **Consumable Model Fields** section to nor
 4.  Select **Normalize**.
 
 
+</td></tr><tr><td id="d130245e336">
+
+**Core UI**
+
+</td><td>
+
+Select the **Normalized** section and **Consumable Model Fields** section to normalize the model manually.
+
+</td></tr><tr><td id="d130245e353">
+
+****
+
+</td><td>
+
+
+
 </td></tr></tbody>
 </table>3.  Select **Save**.
 
     The **Normalization Status** field is updated.
 
+    For details on the normalization status and the results of normalization, see [Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/hardware-normalization.md).
 
-## Normalize a hardware model
+    .
 
-You have created a hardware model for the Lenovo ThinkPad T43 and you want your asset information to be consistent across the organization.
 
-Review the normalization status of the model by reviewing the **Normalization** section.
-
-The normalization status is set to Partially Normalized because the name of the model is missing.
-
-In the **Model** field, enter `2687DTU`.
-
-Select **Save**.
-
-The **Normalization Status** field displays **Manually Normalized**.
-
-**Parent Topic:**[Configure Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 keywords: [agent, self-test, diagnostics, validation]
-breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector Framework reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector diagnostic self tests

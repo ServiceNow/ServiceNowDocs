@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-analytics.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [Now Assist, Analytics, Generative AI, Gen AI, usage, performance]
-breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Analyzing AI performance

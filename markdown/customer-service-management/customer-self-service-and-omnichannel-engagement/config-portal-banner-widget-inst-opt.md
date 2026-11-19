@@ -7,7 +7,7 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Portal Banner widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ The UI Components for Customer Portals plugin must have been activated. For more
 
 If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
 
-Role required: sp\_admin
+Role required: sp\_admin or admin
 
 ## About this task
 
@@ -52,11 +52,13 @@ Role required: sp\_admin
 
     1.  On the container, add a set of columns by selecting the plus button \(\[Omitted image "portal-plus-icon.png"\] Alt text: Plus button\).
 
-    2.  In the column, select the Edit page properties icon \(\[Omitted image "icon-portal-page.png"\] Alt text: Edit page properties icon.\) in the banner in Service Portal Designer.
+    2.  In the column, select the Edit page properties icon \(\[Omitted image "icon-portal-page.png"\] Alt text: Edit page properties icon.\).
 
         **Note:** Verify that **Column** is selected in the breadcrumbs navigation.\[Omitted image "portal-banner-widget-breadcrumbs.jpg"\] Alt text: Service Portal Designer banner displaying the Column breadcrumb
 
-    3.  On the Page window, in the **Page Specific CSS** field, paste the following CSS code.
+    3.  Select the Edit page properties icon \(\[Omitted image "icon-portal-page.png"\] Alt text: Edit page properties icon.\) in the banner in Service Portal Designer.
+
+    4.  On the Page window, in the **Page Specific CSS** field, paste the following CSS code.
 
         ```
         .col-md-12{ 
@@ -70,7 +72,7 @@ Role required: sp\_admin
 
         If a message appears about the application scope, select **here** to be able to edit the record.
 
-    4.  Select **Save**.
+    5.  Select **Save**.
 
 6.  Add portal banner widget.
 

@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
 breadcrumb: [Configure, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -37,13 +37,9 @@ The **sn\_interview\_temp.filter\_attr\_allowed\_tables** system property determ
 
 When entering multiple tables, separate the table names with a comma \(,\) but with no space between each table.
 
-\[Omitted image "hr-er-sys-property.png"\] Alt text: Interview Question Template system property
-
 ### Template tags
 
 Template tags are a way to organize your interview templates and a way to filter them when looking for the correct template. Template tags allow you to find relevant questions easier and faster.
-
-From the legacy UI, you can select the **Questions** button to show all interview templates. The template tags appear at the bottom of each interview template displayed.
 
 In the HR Service Delivery Agent Workspace, the template tag appears at the bottom.
 
@@ -57,12 +53,9 @@ There are two types of template tags you can create:
 
     -   Customer category = Involved party type
     -   Custom tags:
-
         -   Complainant
         -   Subject of allegation
         -   Witness
-        \[Omitted image "agent-ws-hr-template-tag-ex.png"\] Alt text: Interview question template tags
-
     Involved party type becomes the top-level category in the organization with the tags being a way to organize the type of person you are interviewing.
 
 
@@ -84,7 +77,7 @@ Role required: admin
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
@@ -105,15 +98,15 @@ Role required: sn\_interview\_temp.admin
 
 3.  Fill in the form or make edits.
 
-<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d311272e462">
+<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d306269e444">
 
 Field
 
-</th><th align="left" id="d311272e465">
+</th><th align="left" id="d306269e447">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d311272e471">
+</th></tr></thead><tbody><tr><td id="d306269e453">
 
 **Active**
 
@@ -121,7 +114,7 @@ Value
 
 Option for enabling the **Interview Question Template** and make it available.
 
-</td></tr><tr><td id="d311272e483">
+</td></tr><tr><td id="d306269e465">
 
 **Name**
 
@@ -129,7 +122,7 @@ Option for enabling the **Interview Question Template** and make it available.
 
 The name that identifies the interview question template.
 
-</td></tr><tr><td id="d311272e492">
+</td></tr><tr><td id="d306269e474">
 
 **Application**
 
@@ -137,7 +130,7 @@ The name that identifies the interview question template.
 
 The application the interview question template belongs to.**Note:** The application that appears is dependent on your current application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationScope.md).
 
-</td></tr><tr><td id="d311272e508">
+</td></tr><tr><td id="d306269e490">
 
 **Table**
 
@@ -145,7 +138,7 @@ The application the interview question template belongs to.**Note:** The applica
 
 Name of the table the interview question template is associated with.**Note:** To only show interview question templates for ER interview records, select the Interview \(sn\_er\_interview\) table. If you leave this field blank, the interview template is available globally \(any tables that have been configured to use interview templates also have access\). Currently in the base system, only Employee Relations interviews are set up to access.
 
-</td></tr><tr><td id="d311272e521">
+</td></tr><tr><td id="d306269e503">
 
 **Question template body**
 

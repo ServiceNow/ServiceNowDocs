@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Appointment slot recommendation, Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Enable and configure appointment slot recommendation, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Add selection criteria for an appointment slot recommendation rule
@@ -18,7 +18,7 @@ Enhance appointment booking by adding selection criteria to your recommendation 
 
 ## Before you begin
 
-Role required: appointment\_booking\_admin
+Role required: admin
 
 Ensure a recommendation rule already exists, or create one first.
 

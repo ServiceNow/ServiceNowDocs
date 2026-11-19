@@ -7,7 +7,7 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [DEX Content Playbook reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
@@ -36,16 +36,13 @@ Cmnd_Alias SN_ALLOWED = /usr/bin/powermetrics, \
                         /usr/bin/find, \
                         /usr/bin/pmset, \
                         /usr/bin/open, \
-                        /usr/sbin/networksetup, \
                         /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/app_freeze.sh, \
                         /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/zscaler_zpa_reconnect.sh, \
                         /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/clear_google_chrome_browsing_data.sh, \
                         /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/services.sh, \
                         /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/restart_service.sh *, \
                         /Applications/Zscaler/Zscaler.app/Contents/PlugIns/zscli, \
-                        /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/elevate_temporary_admin.sh, \
-                        /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/flush_dns_mac.sh, \
-                        /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/disk_cleanup.sh *
+                        /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/elevate_temporary_admin.sh
 
 # ServiceNow user permissions
 # _servicenow user can run osqueryi and all SN_ALLOWED commands without password
@@ -74,7 +71,7 @@ DEX provides the following policies for applications.
 
 |Policy name|Description|Check instances|Frequency|Historical or latest|Check instance parameters|
 |-----------|-----------|---------------|---------|--------------------|-------------------------|
-|DEX Mac Apps Metrics|Collects the application metrics on the macOS device and sends metric data to MetricBase.|os.mac.check-app-historical|5 minutes|Historical|cpu\_usage, memory\_usage, uptime, io\_usage\_read, io\_usage\_write, is\_running, last\_access\_time, crashes|
+|DEX Mac Apps Metrics|Collects the application metrics in the Mac device and sends metric data to Metric Base.|os.mac.check-app-historical|5 mins|Historical|cpu\_usage, memory\_usage, uptime, io\_usage\_read, io\_usage\_write, is\_running, last\_access\_time, crashes|
 
 ## Policies for Mac — Device
 
@@ -142,7 +139,7 @@ os.mac.check-system-metrics-historical
 
 </td><td>
 
-5 minutes
+5 mins
 
 </td><td>
 
@@ -214,7 +211,7 @@ os.mac.check-sys-compliance-latest
 
 </td><td>
 
-24 hours
+24 Hours
 
 </td><td>
 
@@ -288,7 +285,7 @@ os.mac.check-system-custom-query-on-chan
 
 </td><td>
 
-60 seconds
+60 secs
 
 </td><td>
 
@@ -312,7 +309,7 @@ os.all.check.internal.get-device-configu
 
 </td><td>
 
-60 seconds
+60 secs
 
 </td><td>
 
@@ -323,46 +320,7 @@ Latest
 N/A
 
 </td></tr></tbody>
-</table><table id="table_qfc_2ly_ckc"><thead><tr><th>
-
-Field name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Action name
-
-</td><td>
-
-Name of the action that is defined in the policy. Administrators can predefine an action name so that service desk agents don't need the policy ID to execute any action. The format is &lt;action&gt; &lt;application name&gt; &lt;version&gt;. For example, Reinstall Zoom 3.4.1 or Uninstall Firefox 134.2.
-
-</td></tr><tr><td>
-
-Active true/false
-
-</td><td>
-
-Enables the action to appear in the action library.
-
-</td></tr><tr><td>
-
-Application
-
-</td><td>
-
-Identifies the application for which the policy is defined.
-
-</td></tr><tr><td>
-
-Policy ID
-
-</td><td>
-
-ID of the policy defined in Jamf server for the corresponding action.
-
-</td></tr></tbody>
 </table>**Note:** If you upgrade the Content Playbook plugin on an instance and encounter unexpected policy update issues, see the [Troubleshooting: Policy update issues post DEX plugin upgrade \[KB1586917\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB1586917) article in the Now Support knowledge base.
+
+**Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)
 

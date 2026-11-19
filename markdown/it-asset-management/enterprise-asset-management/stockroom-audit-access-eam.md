@@ -7,10 +7,10 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-31"
 reading_time_minutes: 1
 keywords: [Stockroom audit in EAM, Audit roles in EAM]
-breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
+breadcrumb: [Create and manage enterprise asset inventory, Manage enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Stockroom audit access by role
@@ -18,6 +18,8 @@ breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise a
 Audit roles determine which stockrooms a user can view and audit. Depending on your application and assigned role, you may have access to all stockrooms or only personal stockrooms.
 
 ## Stockroom audit roles
+
+**Note:** These stockroom audit roles are available from Enterprise Asset Management version 10.0 onwards.
 
 |Role|Stockroom scope|Read|Write|Create|Delete|
 |----|---------------|----|-----|------|------|
@@ -47,11 +49,8 @@ The audit roles are organized in the following hierarchy:
     **Note:** For more details on stockroom auditing in the Hardware Asset Management application, see [Audit hardware asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-inventory-audit.md).
 
 -   **Field Service Management**
-
     -   The wm\_agent is assigned the sn\_itam\_common.personal\_stockroom\_audit\_user role, restricting access to personal stockrooms only.
     -   The wm\_admin role receives full access including delete through sn\_itam\_common.personal\_stockroom\_audit\_admin.
-    **Note:** For more details on stockroom auditing in the Field Service Management application, see .
-
 
 -   **[Audit enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/audit-eam-assetinventory.md)**  
 Audit your enterprise asset inventory to learn where your assets are and what their current status is.

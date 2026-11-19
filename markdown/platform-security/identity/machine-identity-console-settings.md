@@ -7,9 +7,9 @@ release: zurich
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Exploring Machine Identity Console, Machine Identity Console, Identity]
+breadcrumb: [Explore Machine Identity Console, Machine Identity Console, Identity]
 ---
 
 # Machine Identity Console Settings
@@ -18,7 +18,7 @@ Configure the Machine Identity security score settings.
 
 ## Before you begin
 
-Role required: mi\_admin
+Role required: admin
 
 Each category has an activate or deactivate button. Select the button to turn a category on or off for your organization.
 
@@ -34,8 +34,4 @@ Each category has an activate or deactivate button. Select the button to turn a 
     -   **Accounts logging into the UI despite being integration only**
     \[Omitted image "mic-settings.png"\] Alt text: Machine Identity Console Settings
 
-
-## What to do next
-
-For the system properties that control Machine Identity Console data collection, see [Exploring Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/explore-machine-identity-console.md).
 

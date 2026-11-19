@@ -7,9 +7,9 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Discovery Operations Monitor dashboard, Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery Operations Monitor dashboard, Discovery Admin Workspace Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure the date range for a visualization
@@ -20,9 +20,7 @@ Update the data time frame for individual visualizations on the Discovery Operat
 
 Discovery Admin Workspace must be installed, starting with v1.15.0.
 
-Role required: discovery\_adminor discovery\_operator
-
-**Note:** The discovery\_operator role is available starting with Discovery Admin Workspace v1.22.0. For more information, see .
+Role required: discovery\_admin
 
 ## Procedure
 

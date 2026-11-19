@@ -1,5 +1,5 @@
 ---
-title: Integrating with Zoom
+title: Integrating with Zoom Workplace
 description: Integrating your Software Asset Management application with the Zoom Workplace application enables you to track your software subscriptions and to reclaim unused licenses.Create an application in the Zoom App Marketplace.Create an integration profile to track software subscriptions and optimize licensing for the Zoom Workplace service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrate-with-zoom.html
@@ -7,12 +7,12 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 9
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
-# Integrating with Zoom
+# Integrating with Zoom Workplace
 
 Integrating your Software Asset Management application with the Zoom Workplace application enables you to track your software subscriptions and to reclaim unused licenses.
 
@@ -37,7 +37,7 @@ With this integration, you can retrieve and analyze licensing information for Zo
 |Large Meeting|Add-on|
 |Customer Managed Key|Add-on|
 
-**Note:** The enhanced Zoom Workplace offering is available starting from the Software Asset Management - SaaS License Management application version 18.1.1.
+**Note:** The enhanced Zoom Workplace offering is available starting from the Software Asset Management - SaaS License Management application version 16.10.0.
 
 For additional information about Zoom, see [Zoom Developer Documentation](https://marketplace.zoom.us/docs).
 
@@ -142,7 +142,7 @@ Create an integration profile to track software subscriptions and optimize licen
 
 To create a Zoom Workplace integration profile, request and install the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: sam\_integrator or admin
 
 ### About this task
 
@@ -152,15 +152,15 @@ If you’re using Software Asset Workspace, the option to create the Zoom Workpl
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d74274e613">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d71763e614">
 
 Interface
 
-</th><th align="left" id="d74274e616">
+</th><th align="left" id="d71763e617">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d74274e622">
+</th></tr></thead><tbody><tr><td id="d71763e623">
 
 **Core UI**
 
@@ -171,7 +171,7 @@ Action
 3.  Select **Zoom Integration Profile**.
 
 
-</td></tr><tr><td id="d74274e665">
+</td></tr><tr><td id="d71763e666">
 
 **Software Asset Workspace**
 
@@ -290,7 +290,7 @@ You can view events performed by individual users up to one year before the curr
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
 
 -   Software Models
 -   Unrecognized Subscription Identifiers

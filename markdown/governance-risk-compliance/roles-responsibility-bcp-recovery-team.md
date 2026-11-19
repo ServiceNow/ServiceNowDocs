@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/roles-responsibility-bcp-recovery-team.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Structured workflows for Business Continuity Planning, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,9 +20,7 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
 ## About this task
 
-The business continuity planning workspace helps you complete your plan by creating recovery teams, defining roles and responsibilities, assigning members, and directing plan execution.
-
-Starting with release 12.x.x, recovery teams are created and managed at a global level so you can reuse them across plans and events. Create the recovery team first, and then add it to the plan. For more information, see [Create and manage a recovery team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-recovery-team.md).
+Business continuity planning workspace guides you through completing your plan. Steps include creating a recovery team, defining roles and responsibilities, assigning users and groups to the team, and directing the team to execute the plan.
 
 ## Procedure
 
@@ -36,9 +34,9 @@ Starting with release 12.x.x, recovery teams are created and managed at a global
 
 5.  Click the **Recovery Teams** tab of the plan.
 
-6.  To add an existing recovery team to the plan, click **Add**.
+6.  To create a recovery team and assign users and groups to the team, click **New**.
 
-    Select one or more active recovery teams from the global list and confirm the selection. If the team you need doesn't exist yet, see [Create and manage a recovery team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-recovery-team.md) to create it, including its users, groups, and parent-child relationships, before adding it here.
+    You can create a recovery team by entering a name and description or update an existing one. Select one or more users and groups from the respective lists. The description for the recovery team also indicates the responsibilities of the users and groups who are assigned to the recovery team. You can also create a recovery team and leave the user and group assignment for later.
 
 7.  Click **Submit**.
 

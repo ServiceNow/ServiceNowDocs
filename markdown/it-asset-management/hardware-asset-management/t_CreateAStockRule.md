@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 5
-breadcrumb: [Configure stockrooms, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 4
+breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Create a stock rule
@@ -33,15 +33,15 @@ Role required: inventory\_admin
 
 1.  Create a stock rule.
 
-<table id="choicetable_ggf_c2c_tfc"><thead><tr><th align="left" id="d289865e83">
+<table id="choicetable_ggf_c2c_tfc"><thead><tr><th align="left" id="d277764e83">
 
 Interface
 
-</th><th align="left" id="d289865e86">
+</th><th align="left" id="d277764e86">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d289865e92">
+</th></tr></thead><tbody><tr><td id="d277764e92">
 
 **Core UI**
 
@@ -51,7 +51,7 @@ Action
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d289865e128">
+</td></tr><tr><td id="d277764e128">
 
 **Hardware Asset Workspace**
 
@@ -169,7 +169,7 @@ When the restocking option is Vendor, the system emails the stockroom manager th
     -   If Hardware Asset Management is active and the stock falls below the threshold, the system automatically creates a Request Item of the Hardware Inventory Stock Order item type. For more information, see [Create an inventory stock order request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-inventory-stock-order.md).
 -   After the rule creates a transfer order, the **Transfer orders** tab appears and lists the transfer orders that the rule created.
 
-**Parent Topic:**[Configure stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-stockrooms-ham.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 
 **Related topics**  
 

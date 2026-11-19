@@ -7,7 +7,7 @@ release: zurich
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Integration with Virtual Conferencing, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
@@ -28,15 +28,15 @@ This task provides general steps to set up the Field Service Management Virtual 
 
 1.  Configure the conference call bridge.
 
-<table id="choicetable_jgg_bsy_t4b"><thead><tr><th align="left" id="d54734e89">
+<table id="choicetable_jgg_bsy_t4b"><thead><tr><th align="left" id="d50234e80">
 
 To
 
-</th><th align="left" id="d54734e92">
+</th><th align="left" id="d50234e83">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d54734e98">
+</th></tr></thead><tbody><tr><td id="d50234e89">
 
 **Set up the Zoom meeting**
 
@@ -54,7 +54,7 @@ The conference call details of the Zoom meetings are stored in the Notify Confer
 
 For more information, see [Configure a provider in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configure-providers-for-provider-selectors.md).
 
-</td></tr><tr><td id="d54734e168">
+</td></tr><tr><td id="d50234e159">
 
 **Set up the Microsoft Teams meeting**
 

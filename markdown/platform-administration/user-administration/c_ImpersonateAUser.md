@@ -7,9 +7,9 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Monitoring user activity, User administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Monitoring user activity, User admin, Configure core features, Administer]
 ---
 
 # Impersonating users
@@ -68,8 +68,6 @@ Before users can impersonate another user, an administrator must make the featur
 You can select a user or enter a different user name to perform an impersonation.
 -   **[Impersonation logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/c_LogImpersonations.md)**  
 Impersonations are logged in the system log.
--   **[User impersonation auditing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/impersonation-audits.md)**  
-User impersonation auditing creates a structured, dedicated audit trail for every impersonation session.
 
 **Parent Topic:**[Monitoring user activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/user-admin-tools-landing.md)
 

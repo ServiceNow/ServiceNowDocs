@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-10-27"
 reading_time_minutes: 2
 keywords: [Java installation using FBD, Java installation using Agent Client Collector for Visibility Content]
-breadcrumb: [ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC Discovery, ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
 # Discover Java installation data using Agent Client Collector for Visibility Content File-Based Discovery
@@ -69,7 +69,7 @@ Both FBD and Process-Based Discovery \(PBD\) collect Oracle GLAS Java installati
 
 ## Result
 
-When running Discovery for Java installation, data is discovered through and is stored in the `ora_java_audit` and `ora_java_evidence` tables. For details on the data stored in these tables, see [Data collected during Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/data-collected-file-based-discovery.md).
+When running Discovery for Java installation, data is discovered through and is stored in the `ora_java_audit` and `ora_java_evidence` tables. For details on the data stored in these tables, see [Data collected during Agent Client Collector for Visibility Content file-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/data-collected-file-based-discovery.md).
 
 Java discovery runs as its own FBD scan stream \(`java_glas`\), separate from the other FBD scans. The steps on this page cover Linux, Windows, and macOS environments.
 

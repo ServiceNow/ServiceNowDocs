@@ -1,5 +1,5 @@
 ---
-title: Configure important dates
+title: Configure important dates in Manager Hub
 description: Configure important dates, such as employee leaves, employee birthdays, or anniversaries, that you want to display on the Upcoming team events widget in Manager Hub in Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-imp-dates.html
@@ -7,12 +7,12 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Configure Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
-# Configure important dates
+# Configure important dates in Manager Hub
 
 Configure important dates, such as employee leaves, employee birthdays, or anniversaries, that you want to display on the **Upcoming team events** widget in Manager Hub in Employee Center.
 
@@ -197,21 +197,23 @@ Text that must appear when multiple important date configuration records are dis
 
 [RCA approvals for Manager Hub]()
 
-[Activate a scheduled job]()
+[Activate a scheduled job in Manager Hub]()
 
-[Configure team requests]()
+[Configure manager insights for ServiceNow Otto for HRSD]()
 
-[Configure team data]()
+[Configure team requests in Manager Hub]()
 
-[Configure team column data]()
+[Configure team data in Manager Hub]()
 
-[Configure team filters]()
+[Configure team column data in Manager Hub]()
+
+[Configure team filters in Manager Hub]()
 
 [Set up View as Direct Reports]()
 
-[Configure daily stats]()
+[Configure daily stats in Manager Hub]()
 
-[Configure to do mappings]()
+[Configure to do mappings in Manager Hub]()
 
-[Configure widgets]()
+[Configure widgets in Manager Hub]()
 

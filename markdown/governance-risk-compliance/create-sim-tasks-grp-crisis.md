@@ -1,16 +1,16 @@
 ---
-title: Create a similar tasks group
+title: Create a similar tasks group in a crisis
 description: Identify and group similar or duplicate tasks related to a crisis event using the Similar tasks groups tab. Grouping similar tasks helps you to optimize event task management and minimize redundant work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-sim-tasks-grp-crisis.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Create a similar tasks group
+# Create a similar tasks group in a crisis
 
 Identify and group similar or duplicate tasks related to a crisis event using the **Similar tasks groups** tab. Grouping similar tasks helps you to optimize event task management and minimize redundant work.
 
@@ -49,7 +49,7 @@ For information on the state changes for event tasks in similar tasks groups, se
 
         **Note:** When you select **Add** in the **Event tasks** tab, the modal displays only applicable event tasks, helping to prevent cyclic dependencies.
 
-    To add events tasks with dependencies to the Similar tasks group, a cyclic dependency validation check is performed by the system. An event task and its dependent event task can't be added to the same similar task group. For example, if you add task 4 into an event task group and task 5 is dependent on task 4, task 5 cannot be added. The example shows this dependency relationship.
+    The system performs a cyclic dependency check when you add event tasks with dependencies to the Similar tasks group. An event task and its dependent task cannot belong to the same group. For example, if task 5 depends on task 4, task 5 cannot be added to the same group as task 4.
 
     \[Omitted image "event-task-cyclic-check.png"\] Alt text: Cyclic check.
 

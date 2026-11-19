@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Refine records, ServiceNow Otto skill, ServiceNow Otto, Gen AI, Generative AI, Strategic Portfolio Management, SPM]
 breadcrumb: [Collaborate using Docs, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
@@ -20,8 +20,6 @@ Use ServiceNow Otto capabilities to elaborate, shorten, and summarize selected c
 ## Before you begin
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 -   [Create a Doc in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-a-doc-in-eap.md).
 -   Activate the EAP doc summarization ServiceNow Otto skill.
@@ -36,15 +34,15 @@ If you have custom roles that require access to this skill, update the ACLs for 
 
 2.  Navigate to your Doc.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d141820e163">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d136705e153">
 
 Type
 
-</th><th align="left" id="d141820e166">
+</th><th align="left" id="d136705e156">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d141820e172">
+</th></tr></thead><tbody><tr><td id="d136705e162">
 
 **Team Doc**
 
@@ -54,7 +52,7 @@ Actions
 2.  Select the Docs tab and open your Doc.
 
 
-</td></tr><tr><td id="d141820e190">
+</td></tr><tr><td id="d136705e180">
 
 **Planning item Doc**
 
@@ -88,8 +86,6 @@ Actions
     ServiceNow Otto analyzes the text and generates an output in a separate pop-up.
 
 5.  Based on the output generated, you can further refine the result or insert the generated content into the Doc.
-
-    \[Omitted image "eap-na-doc-summarization.png"\] Alt text: Summarize selected content.
 
 6.  Copy the generated output by selecting the Copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt text:\) to use it for purposes such as sending an email, saving to notes, and others.
 

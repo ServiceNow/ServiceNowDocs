@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/opportunity-management-sales-cycle-stages.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create a sales cycle, Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Create a sales cycle, Opportunity management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Associate a sales cycle with the opportunity stage
@@ -32,11 +32,4 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_setup\_writer
 
     The sales cycle and opportunity stages have been associated.
 
-
-**Related topics**  
-
-
-[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-mgmt-using.md)
-
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management.md)
 

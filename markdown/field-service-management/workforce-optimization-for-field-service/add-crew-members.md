@@ -7,7 +7,7 @@ release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Crew Operations, Set up workforce, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Add agents to a Field Service crew as needed.
 
 ## Before you begin
 
-Role required: wm\_manager, wm\_dispatcher
+Role required: wm\_crew\_moderator, wm\_dispatcher, wm\_manager
 
 ## About this task
 

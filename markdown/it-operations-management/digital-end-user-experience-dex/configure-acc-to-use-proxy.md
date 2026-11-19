@@ -1,21 +1,20 @@
 ---
 title: Configure ACC to use a proxy for all traffic
-description: Configure the Agent Client Collector \(ACC\) to use a proxy for all traffic by setting environment variables.
+description: Configure the Agent Client Collector \(ACC\) to use a proxy for all traffic by setting environment variables. Using a proxy helps you enhance security, monitor and control internet usage, improve performance through caching, protect privacy, and enforce compliance with your organization's policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/configure-acc-to-use-proxy.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [configure acc proxy, acc proxy settings, proxy traffic, route acc through proxy, agent client collector proxy, proxy authentication]
-breadcrumb: [DEX advanced configuration, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Getting started, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Configure ACC to use a proxy for all traffic
 
-Configure the Agent Client Collector \(ACC\) to use a proxy for all traffic by setting environment variables.
+Configure the Agent Client Collector \(ACC\) to use a proxy for all traffic by setting environment variables. Using a proxy helps you enhance security, monitor and control internet usage, improve performance through caching, protect privacy, and enforce compliance with your organization's policies.
 
 ## Before you begin
 
@@ -40,15 +39,15 @@ Proxy setup is needed in the following use cases:
 
 1.  Run diagnostics to verify that the endpoint can reach ServiceNow before making changes.
 
-<table id="choicetable_onx_ylc_1fc"><thead><tr><th align="left" id="d625420e134">
+<table id="choicetable_onx_ylc_1fc"><thead><tr><th align="left" id="d612614e113">
 
 Option
 
-</th><th align="left" id="d625420e137">
+</th><th align="left" id="d612614e116">
 
 Command
 
-</th></tr></thead><tbody><tr><td id="d625420e143">
+</th></tr></thead><tbody><tr><td id="d612614e122">
 
 **Windows**
 
@@ -56,7 +55,7 @@ Command
 
 PowerShell: `.\servicenow-net-check.ps1`
 
-</td></tr><tr><td id="d625420e155">
+</td></tr><tr><td id="d612614e134">
 
 **macOS**
 
@@ -78,14 +77,14 @@ curl -i https://install.service-now.com/
 ```
 
 </td></tr></tbody>
-</table>2.  Open the `acc.yml` file from the following location.
+</table>2.  Open the acc.yml file from the following location.
 
     |Option|Path|
     |------|----|
     |**Windows**|`C:\ProgramData\ServiceNow\agent-client-collector\config`|
     |**macOS**|`/Library/Application\ Support/servicenow/agent-client-collector/config`|
 
-3.  If your ACC version is later than 4.3.0, set the proxy in the `acc.yml` file as shown in the following example:
+3.  In acc.yml with a version of ACC greater than 4.3.0, set the proxy as shown in the following example:
 
     `https-proxy: "http://intproxy0.your-corp.com:8080"`
 
@@ -93,7 +92,7 @@ curl -i https://install.service-now.com/
 
     `HTTPS_PROXY="http://username:password@intproxy0.your-corp.com:8080"`
 
-5.  Set the *NO\_PROXY* environment variable to a comma-separated list of hosts that bypass the proxy.
+5.  Set the NO\_PROXY environment using a comma-separated list of hosts to not proxy.
 
     For example, `localhost`.
 
@@ -125,8 +124,6 @@ curl -i https://install.service-now.com/
     
     ```
 
-8.  Inspect the cURL output to verify that the command succeeded through the proxy.
+8.  Inspect the output of the cURL to see if the command succeeded using the proxy.
 
-
-**Parent Topic:**[DEX advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
 

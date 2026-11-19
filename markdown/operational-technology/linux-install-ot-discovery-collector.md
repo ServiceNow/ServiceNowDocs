@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/linux-install-ot-discovery-collector.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-27"
 reading_time_minutes: 2
 breadcrumb: [Configure the OT Discovery Collector, Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -40,7 +40,7 @@ Role required: admin
 
 4.  Select **Configure** and the **Downloads** page opens.
 
-    \[Omitted image "downloads-page-containerized2.png"\] Alt text: Downloads page
+    \[Omitted image "image.downloads-page-containerized2"\] Alt text: Downloads page
 
     **Note:** Read the End User License Agreement \(EULA\) carefully and then check **Agree**.
 
@@ -96,6 +96,4 @@ journalctl -f -a -u SNDiscoveryCollector
 ```
 
 .
-
-**Parent Topic:**[Configure the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configuring-the-collector.md)
 

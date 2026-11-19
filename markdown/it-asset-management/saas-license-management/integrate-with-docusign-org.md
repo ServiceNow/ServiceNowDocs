@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-11-07"
 reading_time_minutes: 11
-breadcrumb: [Integrating with Docusign, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrating with Docusign, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrate with Docusign at Organization level
@@ -192,15 +192,15 @@ If you're using Software Asset Workspace, the option to create the Docusign inte
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d239996e831">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d229485e831">
 
 Interface
 
-</th><th align="left" id="d239996e834">
+</th><th align="left" id="d229485e834">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d239996e840">
+</th></tr></thead><tbody><tr><td id="d229485e840">
 
 **Core UI**
 
@@ -211,7 +211,7 @@ Action
 3.  Select **DocuSign Integration Profile**.
 
 
-</td></tr><tr><td id="d239996e882">
+</td></tr><tr><td id="d229485e882">
 
 **Software Asset Workspace**
 

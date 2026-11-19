@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/update-node-rel-config.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Configure the Main node configurations, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -34,11 +34,9 @@ Role required: sn\_oper\_res.admin
 
     \[Omitted image "node-rel-config-new-record.png"\] Alt text: Record.
 
-    For description of the fields in the Node relationship configuration form, see [Node relationship configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
+    For description of the fields in the Node relationship configuration form, see [Node relationship configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/node-relationship-configuration-form.md).
 
-    You can set up these relationship registries by creating a Relationship Registry record in the Relationship Registries module. The Relationship Registry new record form is shown in the example.
-
-    \[Omitted image "rela-registry-record-new.png"\] Alt text: Rel registry record.
+    You can set up these relationship registries by creating a Relationship Registry record in the Relationship Registries module. The Relationship Registry new record form.
 
     For the description of the fields in the Relationship registry form, see [Relationship registry record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/rel-registry-record-form.md).
 
@@ -104,15 +102,15 @@ Role required: sn\_oper\_res.admin
 
     All the relationship options are explained in this step.
 
-<table id="choicetable_vzr_ppt_1gc"><thead><tr><th align="left" id="d125961e335">
+<table id="choicetable_vzr_ppt_1gc"><thead><tr><th align="left" id="d224124e330">
 
 Step
 
-</th><th align="left" id="d125961e338">
+</th><th align="left" id="d224124e333">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d125961e344">
+</th></tr></thead><tbody><tr><td id="d224124e339">
 
 **One-to-one**
 
@@ -124,7 +122,7 @@ This is valid for One-to-one and One-to-many types.
 
 \[Omitted image "node-rel-target.png"\] Alt text: Target.
 
-</td></tr><tr><td id="d125961e373">
+</td></tr><tr><td id="d224124e368">
 
 **One-to-many**
 
@@ -134,7 +132,7 @@ If the Relationship table is an m2m table, select **Sys ID** in the **Target ref
 
 \[Omitted image "one-to-many.png"\] Alt text: One-to-many.For One-to-many, the relationship shows the list of tables that has source table as a reference field.
 
-</td></tr><tr><td id="d125961e402">
+</td></tr><tr><td id="d224124e397">
 
 **Many-to-many**
 
@@ -142,7 +140,7 @@ If the Relationship table is an m2m table, select **Sys ID** in the **Target ref
 
 For Many-to-many, the **Relationship** field shows the list of m2m tables in which the source table is referred. Notice that for Many-to-many, you have to select the field from the drop-down that you want as output. For example, \[cmdb\_rel\_ci\] table has **Parent** \(cmdb\_ci\) and **Child** \(cmdb\_ci\) fields. If you want to find the child service, you can select **Child**.\[Omitted image "many-to-many.png"\] Alt text: Many-to-many.
 
-</td></tr><tr><td id="d125961e431">
+</td></tr><tr><td id="d224124e426">
 
 **Scripted**
 

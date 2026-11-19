@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 9
-breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Subscription identifiers for SaaS and SSO applications
@@ -79,7 +79,7 @@ Subscription identifiers update either automatically or manually depending on th
 
     A dot indicates that there are discrepancies between the associated subscription identifier and data that is provided in the latest content updates.
 
-3.  On the Software Model form, open the software model suggestions by clicking the warning icon \[Omitted image "image.warning-icon"\] next to the **Display name** field.
+3.  On the Software Model form, open the software model suggestions by clicking the warning icon \[Omitted image "warning-icon.png"\] next to the **Display name** field.
 
     The Software Model Suggestions dialog box opens.
 

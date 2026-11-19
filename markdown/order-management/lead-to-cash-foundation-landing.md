@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/lead-to-cash-foundation-landing.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-10-03"
 reading_time_minutes: 1
 breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
@@ -22,9 +22,16 @@ Select a link from the following table to explore key capabilities that streamli
 |-----------|-----------|
 |[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/product-catalog-managment.md)|Organize and maintain a unified catalog of products and services.|
 |[Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/pricing-management.md)|Manage price lists, discounts, and rules to support dynamic and region-specific pricing.|
-|[CRM Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-to-cash.md)|Enable seamless integration of lead generation, quoting, order management, and fulfillment.|
+|[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-to-cash.md)|Enable seamless integration of lead generation, quoting, order management, and fulfillment.|
 
-## What to explore next
+## What to do next
 
 Configure the lead-to-cash foundation applications to enable core capabilities for using Sales Customer Relationship Management. For more information, see [Configuring the lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-lead-to-cash-foundation.md).
+
+**Related topics**  
+
+
+[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-cash-foundation.md)
+
+[Lead-to-cash foundation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reference-lead-cash-foundation.md)
 

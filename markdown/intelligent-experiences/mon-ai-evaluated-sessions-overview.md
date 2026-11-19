@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mon-ai-evaluated-sessions-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-08"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Investigating sessions, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Investigating sessions, Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Evaluated sessions
@@ -30,7 +30,7 @@ The AI steward \[sn\_ai\_governance.ai\_steward\] or AI asset owner \[sn\_ai\_as
 
 ## Accessing evaluated sessions
 
-View evaluated sessions by navigating to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** and selecting the **Evaluated sessions** tab.
+View evaluated sessions by navigating to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** and selecting the **Evaluated sessions** tab.
 
 ## AI systems with evaluated sessions
 

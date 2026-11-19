@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [IT Service Management]
@@ -37,7 +37,7 @@ Use the ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) applicat
 
 </td><td>
 
-[Use Agentic AI in IT Service Management\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the Now Assist for ITSM IT Service Management AI agents to complete tasks autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md)
+[Use agentic AI\[Omitted image "bus-ai-otto.svg"\] Alt text:Use the Now Assist for IT Service Management AI agents to complete tasks autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md)
 
 </td><td>
 

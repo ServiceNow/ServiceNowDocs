@@ -7,9 +7,9 @@ release: zurich
 product: ReleaseOps
 classification: releaseops
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Reference, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Reference, ReleaseOps, Deploying applications, Building applications]
 ---
 
 # Release states

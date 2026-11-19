@@ -7,10 +7,10 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, generative AI]
-breadcrumb: [Agentic workflows in Risk &amp; Sustainability, Use agentic AI, ServiceNow Otto for Integrated Risk Management \(IRM\), Common GRC features, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, generative AI]
+breadcrumb: [Agentic workflows in Risk &amp; Sustainability, Use agentic AI, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Optimize a GRC issue resolution
@@ -19,9 +19,9 @@ Optimize a GRC issue resolution plan by using the Optimize GRC issue resolution 
 
 ## Before you begin
 
-Role required: sn\_grc\_genai.issue\_user or sn\_irm\_gen\_ai.user
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-Activate the Issue Summarization skill. For more information, see [Activate Now Assist skills in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md).
+Role required: sn\_grc\_genai.issue\_user or sn\_irm\_gen\_ai.user
 
 ## About this task
 
@@ -35,9 +35,9 @@ To modify the Optimize GRC issue resolution workflow [duplicate it](https://raw.
 
 2.  Open the issue that you want to resolve by using the agentic workflow.
 
-3.  Select the Now Assist \(\[Omitted image "nap-icon.png"\] Alt text: Now Assist panel icon.\) icon.
+3.  Select the ServiceNow Otto icon.
 
-    The Now Assist panel is displayed.
+    The ServiceNow Otto panel is displayed.
 
 4.  Resolve the GRC issue by generating an issue action plan and generating recommended remediation tasks.
 

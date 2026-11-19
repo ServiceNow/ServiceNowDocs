@@ -1,6 +1,6 @@
 ---
-title: ServiceNow Lux Lab for VS Code extension
-description: The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. You can scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects.
+title: ServiceNow AI Experience Lab for VS Code extension
+description: The ServiceNow AI Experience Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. You can scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-ai-experience-lab-for-vs-code-landing.html
 release: zurich
@@ -8,22 +8,22 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow AI Experience Framework, ServiceNow AI Experience Lab for VS Code]
-breadcrumb: [Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Building pro-code applications, Developing your application, Building applications]
 ---
 
-# ServiceNow Lux Lab for VS Code extension
+# ServiceNow AI Experience Lab for VS Code extension
 
-The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. You can scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects.
+The ServiceNow® AI Experience Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. You can scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects.
 
 ## Get started
 
 <table id="table_i3p_m33_zjc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the ServiceNow Lux Lab for VS Code extension.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/exploring-servicenow-ai-experience-lab-for-vs-code.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the ServiceNow® AI Experience Lab for VS Code extension.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/exploring-servicenow-ai-experience-lab-for-vs-code.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install the ServiceNow Lux Lab for VS Code extension and connect it to your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/configuring-servicenow-ai-experience-lab-for-vs-code.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install the ServiceNow® AI Experience Lab for VS Code extension and connect it to your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/configuring-servicenow-ai-experience-lab-for-vs-code.md)
 
 </td></tr><tr><td>
 

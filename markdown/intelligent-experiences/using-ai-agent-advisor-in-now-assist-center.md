@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: concept
 last_updated: "2026-10-02"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [Use, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Use, AI Agent Advisor, Enable AI experiences]
 ---
 
 # AI Agent Advisor in AI Admin Center
@@ -54,13 +54,31 @@ Deploy a matched AI agent or a new agent to automate a resolution for an identif
 Edit a custom AI agent that was created for an automation opportunity.
 -   **[Edit an AI agent from an automation opportunity \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-admin-center-lux-edit-opportunity-agent.md)**  
 Edit a custom AI agent that was created for an automation opportunity.
+-   **[View your automation opportunities \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-view-automation-opportunities.md)**  
+Review the automation opportunities that AI Agent Advisor has identified for your instance.
+-   **[View your automation opportunities \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-admin-center-lux-view-automation-opportunities.md)**  
+Review the automation opportunities that AI Agent Advisor has identified for your instance.
+-   **[Implement an automation opportunity from AI Admin Center \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-automation-opportunity-now-assist-center.md)**  
+Deploy a matched AI agent or a new agent to automate a resolution for an identified automation opportunity.
+-   **[Implement an automation opportunity \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-admin-center-lux-implement-automation-opportunity.md)**  
+Deploy a matched AI agent or a new agent to automate a resolution for an identified automation opportunity.
+-   **[Edit an AI agent from an automation opportunity \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-edit-opportunity-agent.md)**  
+Edit a custom AI agent that was created for an automation opportunity.
+-   **[Edit an AI agent from an automation opportunity \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-admin-center-lux-edit-opportunity-agent.md)**  
+Edit a custom AI agent that was created for an automation opportunity.
+
+**Parent Topic:**[Using AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor.md)
 
 **Parent Topic:**[Using AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor.md)
 
 **Related topics**  
 
 
-[AI Agent Advisor in AI Control Tower]()
+[AI Agent Advisor in Control Tower]()
+
+[AI Agent Advisor in AI Agent Studio]()
+
+[AI Agent Advisor in Control Tower]()
 
 [AI Agent Advisor in AI Agent Studio]()
 

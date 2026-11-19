@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_StandardEmailConfiguration.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Email Administration, Notifications, Configure core features, Administer]
 ---
 
 # Basic email setup
@@ -16,9 +16,9 @@ All production instances can send and receive email using ServiceNow - provided 
 
 ## Network layout for standard email configuration
 
-Below is an example of a basic email network with ServiceNow as the domain.
+Following is an example of a basic email network with ServiceNow as the domain.
 
-\[Omitted image "StandardEmailConfiguration.png"\] Alt text: Network layout of basic email
+\[Omitted image "standard-email-configuration.png"\] Alt text: Diagram showing standard ServiceNow email flow, including outbound and inbound messages routed through mail servers and DNS between a user email account and ServiceNow instance
 
 ## Basic email services and features
 

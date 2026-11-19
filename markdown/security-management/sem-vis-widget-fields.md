@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-vis-widget-fields.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-11-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, Unified Security Exposure Management, Security Operations]
 ---
@@ -28,7 +28,7 @@ Widget name
 
 </td><td>
 
-Enter a clear and descriptive title for the widget.
+Clear and descriptive title for the widget.
 
 </td></tr><tr><td>
 
@@ -36,7 +36,9 @@ Visualization group
 
 </td><td>
 
-Select the group where this widget appears. \(Risk and exposure, Remediation progress, Asset impacted\).
+Group where this widget appears. Options are:-   Risk and exposure
+-   Remediation progress
+-   Asset impacted
 
 </td></tr><tr><td>
 
@@ -44,7 +46,11 @@ Chart type
 
 </td><td>
 
-Choose the type of visualization\(Vertical Bar, Horizontal Bar, Donut, Pie, Single Score\).
+Type of visualization. Options are:-   Vertical Bar
+-   Horizontal Bar
+-   Donut
+-   Pie
+-   Single Score
 
 </td></tr><tr><td>
 
@@ -52,7 +58,7 @@ Display order
 
 </td><td>
 
-Specify the position of the widget within its carousel.Lower numbers appear first.
+Position of the widget within its carousel.Lower numbers appear first.
 
 </td></tr><tr><td>
 
@@ -60,7 +66,7 @@ Applies to
 
 </td><td>
 
-Select one or more findings tables \(for example, Infra vulnerabilities, Application vulnerabilities, Misconfigurations\). The system identifies intersecting columns between tables for data grouping.
+One or more findings tables \(for example, Infra vulnerabilities, Application vulnerabilities, Misconfigurations\). The system identifies intersecting columns between tables for data grouping.
 
 </td></tr><tr><td>
 
@@ -68,15 +74,15 @@ Group by
 
 </td><td>
 
-Select the field to group the widget data by. Each widget must have a unique group by value.
+Field to group the widget data by. Each widget must have a unique group by value.
 
 </td></tr><tr><td>
 
-Data filter \[Optional\]
+Data filter
 
 </td><td>
 
-Add filter conditions to refine the data displayed in the widget.
+Filter conditions to refine the data displayed in the widget.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Unified Security Exposure Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/unified-security-exposure-management-reference.md)

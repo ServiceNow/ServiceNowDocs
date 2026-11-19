@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -60,6 +60,6 @@ The following procedure shows how to add an application service directly to the 
 
     \[Omitted image "em-impact-cal-app-services-added.png"\] Alt text: The selected application service is added.
 
-    **Note:** Only the application services added to the Impact Filter Services list appear in the [Service Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/worksplace-view-service-details.md).
+    **Note:** Only the application services added to the Impact Filter Services list appear in the [Service Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/worksplace-view-service-details.md).
 
 

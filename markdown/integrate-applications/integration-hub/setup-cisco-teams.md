@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Cisco Webex Teams Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -270,7 +270,7 @@ Credentials
 
 Name of the credential created for Cisco Webex Teams spoke
 
- Provide the value created in “Create a OAuth credential record for the Cisco Webex Teams spoke”.
+ Provide the value ceated in “Create a OAuth credential record for the Cisco Webex Teams spoke”.
 
 </td></tr><tr><td>
 

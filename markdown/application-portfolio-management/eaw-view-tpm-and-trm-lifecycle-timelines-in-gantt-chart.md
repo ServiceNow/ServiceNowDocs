@@ -1,16 +1,16 @@
 ---
-title: View TPM and TRM lifecycle timelines on the Gantt chart
+title: View TLM and TRM lifecycle timelines on the Gantt chart
 description: Use the Gantt chart to view and track Technology Lifecycle Management \(TLM\) and Technology Reference Model \(TRM\) lifecycle timelines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with Gantt chart views in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Working with Gantt chart views in EA Workspace, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# View TPM and TRM lifecycle timelines on the Gantt chart
+# View TLM and TRM lifecycle timelines on the Gantt chart
 
 Use the Gantt chart to view and track Technology Lifecycle Management \(TLM\) and Technology Reference Model \(TRM\) lifecycle timelines.
 

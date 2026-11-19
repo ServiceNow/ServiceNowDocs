@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ Update your existing SAML 2.0 integration.
 
 ## Before you begin
 
-Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
+Role required: admin
 
 ## About this task
 

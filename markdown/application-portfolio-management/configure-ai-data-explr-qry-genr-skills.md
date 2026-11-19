@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-02-07"
 reading_time_minutes: 1
-breadcrumb: [Configure ServiceNow Otto for Enterprise Architecture \(EA\), Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Configure, Configure, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Configure AI Data Explorer and Query Generation skills
@@ -15,8 +15,6 @@ breadcrumb: [Configure ServiceNow Otto for Enterprise Architecture \(EA\), Confi
 You can configure the AI Data Explorer and Query Generation skills to provide AI-assisted data exploration features and generate insights in Enterprise Architecture Workspace.
 
 ## Before you begin
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Role required:
 

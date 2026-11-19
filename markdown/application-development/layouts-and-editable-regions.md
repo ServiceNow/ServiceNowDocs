@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 16
 keywords: [Layouts and editable regions, The app layout, Choosing a base class, Configuring navigation, App lifecycle hooks, Toolbar actions, Reading layout data in a page, Customizing NavLayout without subclassing, Composing widgets inside a page with the region DSL, The regions/ directory is mandatory, Rows, columns, and the nesting cap, One rule explains every restriction, Spacing is one value, and it isn't admin-editable, The region wrapper, Editing a region visually, Rendering a layout on the server, See also]
-breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Layouts and editable regions
@@ -285,7 +285,7 @@ Every region a page renders with `region` can be edited directly on the live pag
 
 The first edit to a region creates a new row in `sys_aix_page_region`, keyed on `(widget, region)` \(the page's widget and the path-derived region name\). From that point, the region's layout stops taking upgrades from new app versions. The widgets inside it keep taking theirs, but the arrangement is now the admin's to maintain. "Restore defaults" deletes the override row, and the app-shipped layout takes over again.
 
-Repositioning a widget needs nothing from you. Making a widget inside a region individually configurable needs an `aiux-config-id` on that widget in the region file. Configurable means the admin can edit its properties, not just move it. The `regions/home/body.js` example sets one on `<stat-card>`. See  for what that attribute stamps and how a component reads its slice.
+Repositioning a widget needs nothing from you. Making a widget inside a region individually configurable needs an `aiux-config-id` on that widget in the region file. Configurable means the admin can edit its properties, not just move it. The `regions/home/body.js` example sets one on `<stat-card>`. See [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/metadata-and-configuration.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/metadata-and-configuration.md) for what that attribute stamps and how a component reads its slice.
 
 Some regions can't be opened in the editor. In each case the admin gets the reason on the region's outline rather than an error.
 
@@ -307,7 +307,7 @@ If your app defines no custom layout, Lux falls back to the layout named by `app
 
 [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/component-lifecycle.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/component-lifecycle.md)
 
-[metadata-and-configuration]
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/metadata-and-configuration.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/metadata-and-configuration.md)
 
 [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/reusable-components.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/reusable-components.md)
 

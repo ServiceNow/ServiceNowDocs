@@ -7,7 +7,7 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [ServiceNow, Health Log Analytics, HLA, relationship, source type, log source, data input, mapping, parsing, anomalies]
 breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -19,8 +19,6 @@ Explore the many-to-many relationships between source types and log sources to h
 
 ## Before you begin
 
-For an overview of mapping, see [Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-automapping.md).
-
 Role required: evt\_mgmt\_admin
 
 ## About this task
@@ -31,7 +29,7 @@ Health Log Analytics uses source types to parse logs and utilizes log sources as
 
 1.  Navigate to **All** &gt; **Health Log Analytics** &gt; **Mapping** &gt; **Data Input Mapping**.
 
-2.  Verify that log data is streaming into your instance, and then open a data input mapping record.
+2.  Ensure that log data is streaming into your instance, and then open a data input mapping record.
 
 3.  View the associations between the log sources and the source types.
 
@@ -46,6 +44,4 @@ Health Log Analytics uses source types to parse logs and utilizes log sources as
         3.  On the **Source Types** tab, view all the source types that feed data into this log source.
     **Note:** The displayed results are updated once a day. Results that are older than 24 hours are deleted automatically.
 
-
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-implement.md)
 

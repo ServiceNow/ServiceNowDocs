@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-27"
 reading_time_minutes: 4
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -21,11 +21,11 @@ Use the Discovery Admin Workspace dashboard to create an OpenStack Discovery sch
 
 Verify the following:
 
--   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-install-prereqs.md).
+-   At least one validated MID Server with a status of **Up** is installed. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
--   You have configured an OpenStack user with the required roles for the project so that the MID Server can access the selected cloud resources you plan to discover. You can create this user through the Horizon dashboard, the OpenStack CLI, or directly through the Keystone API. All three methods write the user to the Keystone identity service.
--   You have created suitable credentials in the ServiceNow AI Platform to connect with the OpenStack user that you want to use for discovery. For more information, see [OpenStack resource discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/openstack-discovery.md).
--   You're using Discovery Admin Workspace v1.13.0 or later.
+-   An OpenStack user is configured with the required roles for the project so that the MID Server can access the selected cloud resources you plan to discover. You can create this user through the Horizon dashboard, the OpenStack CLI, or directly through the Keystone API. All three methods write the user to the Keystone identity service.
+-   Suitable credentials are created in the ServiceNow AI Platform to connect with the OpenStack user that you want to use for discovery. For more information, see [OpenStack resource discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/openstack-discovery.md).
+-   Discovery Admin Workspace, starting with v1.13.0 is installed.
 
 Role required: discovery\_admin
 
@@ -53,15 +53,15 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d433989e319">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d428946e307">
 
 Option
 
-</th><th align="left" id="d433989e322">
+</th><th align="left" id="d428946e310">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d433989e328">
+</th></tr></thead><tbody><tr><td id="d428946e316">
 
 **Existing cloud account**
 
@@ -69,7 +69,7 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name**, **OpenStack Account ID**, and **Cloud URL** fields auto-populate.
 
-</td></tr><tr><td id="d433989e346">
+</td></tr><tr><td id="d428946e334">
 
 **New cloud account**
 
@@ -78,7 +78,7 @@ Select an existing cloud account on your instance. Once an account is selected, 
 Add a new cloud account to your instance by entering an account name, ID, and Cloud URL.**Note:**
 
 -   You can access the Cloud URL in Horizon via **Project** &gt; **API Access**
--   Example Cloud URL \(OpenStack identity service endpoint\): `https://<openstack dns>:<port>`
+-   Example Cloud URL \(OpenStack identity service endpoint\): `https://openstack.company.com:5000/v3`
 
 
 </td></tr></tbody>

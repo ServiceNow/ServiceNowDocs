@@ -53,3 +53,5 @@ Role required: admin
     4.  Test the connection.
 
 
+**Parent Topic:**[Manage Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/review-usem-integrations.md)
+

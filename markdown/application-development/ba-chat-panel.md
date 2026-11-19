@@ -1,21 +1,21 @@
 ---
-title: Build Agent and Autonomous Engineer chat panel
+title: Build Agent chat panel
 description: The Build Agent chat panel is where you interact with the AI agent during development. Use it to submit requests, review responses, and apply generated code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ba-chat-panel.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-23"
 reading_time_minutes: 1
 keywords: [Build Agent, ServiceNow Studio, ServiceNow IDE, access, development, AI agent, chat panel, Personal Development Instance, PDI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
-# Build Agent and Autonomous Engineer chat panel
+# Build Agent chat panel
 
 The Build Agent chat panel is where you interact with the AI agent during development. Use it to submit requests, review responses, and apply generated code.
 
-Use the Build Agent or Autonomous Engineer chat panel to create or update an app or app file. Make a selection to begin the chat, or enter a prompt.If you have a longer prompt, the chat box expands as you extend your input. The chat panel runs in Build Agent mode by default. To use Autonomous Engineer, select **Build Agent** from the selector in the chat panel and choose Autonomous Engineer.
+Use the Build Agent chat panel to create or update an app or app file. Make a selection to begin the chat, or enter a prompt. If you have a longer prompt, the chat box expands as you extend your input.
 
 \[Omitted image "ba-new-chat.png"\] Alt text: OTTO New Chat screen showing five quick-action buttons: Create an app, Update an app, Create a file, Update a file, and Add AI to an app.
 

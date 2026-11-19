@@ -1,26 +1,26 @@
 ---
 title: Create an update set in ServiceNow Studio
-description: Create an update set in ServiceNow Studio to package app changes for deployment to other instances.
+description: Create an update set to package app changes for deployment in ServiceNow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/sn-studio-create-update-set.html
 release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Update sets, App deployment in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Working with update sets, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Create an update set in ServiceNow Studio
 
-Create an update set in ServiceNow Studio to package app changes for deployment to other instances.
+Create an update set to package app changes for deployment in ServiceNow Studio.
 
 ## Before you begin
 
 Role required: admin or delegated\_developer
 
-Watch this short video on how to create an update set.
+You can also watch this short video on how to create an update set.
 
 \[Omitted video\] Description: Video on how to create an update set in ServiceNow Studio
 
@@ -45,5 +45,5 @@ Watch this short video on how to create an update set.
     The changes you made in your app go to the new update set.
 
 
-**Parent Topic:**[Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md)
+**Parent Topic:**[Working with update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md)
 

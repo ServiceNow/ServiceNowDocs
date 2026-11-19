@@ -1,36 +1,40 @@
 ---
-title: Setup direct deposit
-description: Setup direct deposit for a employee.
+title: Setup or update your direct deposit
+description: As an employee, setup or update direct deposit from the Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/t\_CreateOrModifyADirectDeposit.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use HR Profile, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Setup direct deposit
+# Setup or update your direct deposit
 
-Setup direct deposit for a employee.
+As an employee, setup or update direct deposit from the Employee Center.
 
 ## Before you begin
 
-Role required: sn\_hr\_core.profile\_writer
+Role required: none
 
+## About this task
 
+Employees can ask questions about or setup/update direct deposit by submitting a request through the Employee Center.
+
+Alternately, a manager can submit a tuition reimbursement request by opening an HR case: [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/search-hr-case.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **HR Profile** &gt; **Direct deposit**.
+1.  From the Employee Center menu, navigate to **Human Resources** &gt; **Compensation**.
 
-2.  Select **New**.
+2.  Click the **Direct Deposit Setup** request.
 
 3.  Complete the form.
 
-    The fields you see depend on how the form is configured and what fields are selected to display.
+    \(The fields you see depend on how the form is configured and what fields are selected to display.\)
 
 <table id="table_opj_hct_nv"><thead><tr><th>
 
@@ -42,27 +46,38 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Employee
+Account nickname
 
 </td><td>
 
-Select the **Lookup using list** icon and select the employee.
+A brief, descriptive term for your account, allowing personalization and easy identification.
 
 </td></tr><tr><td>
 
-Bank account
+Bank routing number
 
 </td><td>
 
-Select the **Lookup using list** icon and select the bank account.If necessary, add a new bank account: 
+The unique identifier for the bank associated with the account.
 
 </td></tr><tr><td>
 
-Active
+Account number
 
 </td><td>
 
-Select to activate direct deposit for the employee. Leaving the box empty or deselecting deactivates direct deposit.
+The unique identifier for your individual bank account.
+
+</td></tr><tr><td>
+
+Account type
+
+</td><td>
+
+Identifies the classification of the account. Choose from:-   Checking
+-   Savings
+-   Other
+
 
 </td></tr><tr><td>
 
@@ -70,7 +85,10 @@ Deposit type
 
 </td><td>
 
-Select from amount, percentage, or remaining.
+Type of direct deposit. Choose from:-   Amount
+-   Percentage
+-   Remaining balance
+
 
 </td></tr><tr><td>
 
@@ -78,11 +96,21 @@ Deposit amount
 
 </td><td>
 
-Amount of money from paycheck for direct deposit.
+Displays when Amount is selected for Deposit type. Enter the dollar amount for direct deposit.
+
+</td></tr><tr><td>
+
+Deposit percentage
+
+</td><td>
+
+Displays when Percentage is selected for Deposit type. Enter the percentage amount for direct deposit.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Click **Submit**.
+
+    The system creates an HR case and assigns it to the configured HR person. View the status of your request from the **My Requests** tab.
 
 
-**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
+**Parent Topic:**[Use HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

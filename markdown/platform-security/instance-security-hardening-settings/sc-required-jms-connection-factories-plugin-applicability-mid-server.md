@@ -1,5 +1,5 @@
 ---
-title: Required JMS connection factories
+title: Required jms connection factories \[New in Security Center 1.3 and updated in 1.5 and 2.0\]
 description: The mid.property.jms.command.allowed\_factory\_names property controls the Java Messaging Service \(JMS\) connection factories that the MID Server can use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-required-jms-connection-factories-plugin-applicability-mid-server.html
@@ -7,20 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Required JMS connection factories
+# Required jms connection factories \[New in Security Center 1.3 and updated in 1.5 and 2.0\]
 
 The **mid.property.jms.command.allowed\_factory\_names** property controls the Java Messaging Service \(JMS\) connection factories that the MID Server can use.
 
-This property controls the Java Messaging Service \(JMS\) connection factories that the MID Server can use. It is intended for a few select factories needed by plugins for JMS activity or action. Including additional factories could be a step in a chain of attack for vulnerabilities such as JNDI insertion that rely on capabilities an attacker can leverage in allowed factories. To prevent the possibility of any leveraged vulnerability, do not include factories beyond the necessary defaults.
+It is intended for a few select factories needed by plugins for JMS activity or action. Including additional factories could be a step in a chain of attack for vulnerabilities such as JDNI insertion that rely on capabilities an attacker can leverage in allowed factories. To prevent the possibility of any leveraged vulnerability, do not include factories beyond the necessary defaults.
 
-Review the list of names provided to the mid property **mid.property.jms.command.allowed\_factory\_names**. Ensure any additional factory names beyond the default of `connectionFactory, queueConnectionFactory, topicConnectionFactory` are necessary.
-
-See the following documentation for updating this and other mid server properties: [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/r_MIDServerProperties.md)
+To remediate this security risk review the list of names provided to the mid property, **mid.property.jms.command.allowed\_factory\_names**. Ensure any additional Java factory names beyond the default of connectionFactory, queueConnectionFactory, and topicConnectionFactory are necessary.
 
 ## More information
 
@@ -88,7 +86,7 @@ Security risk
 
 -   Severity score: 4.1
 -   CVSS score: Medium
--   Security risk details: Expanding the set of Java Messaging Service \(JMS\) connection factories beyond the necessary defaults introduces a significant risk because it increases the attack surface for exploitation techniques such as JNDI injection. Allowing additional factories can enable attackers to leverage insecure configurations or vulnerabilities in messaging components as part of a broader attack chain, potentially leading to remote code execution or system compromise. Restricting factories to only those required by core functionality is essential to maintain a secure posture.
+-   Security risk details: If the MID Server \(**com.glideapp.agent**\) plugin is active, review the list of names provided to the mid property **mid.property.jms.command.allowed\_factory\_names**. Ensure any additional factory names beyond the default of connectionFactory, queueConnectionFactory, and topicConnectionFactory are necessary.
 
 </td></tr><tr><td>
 

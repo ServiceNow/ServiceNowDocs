@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-cloudexposureview-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -94,7 +94,7 @@ For existing customers, the detection key for the Wiz Host Vulnerability integra
     -   You can configure the **First** parameter for the Wiz Asset Integration to help you resolve 504 errors. You can reduce the page size if you are having memory issues or generating errors. The default value is 500.
     -   The default integration instance parameter for configuring finding keys for the Container Vulnerability Integration includes src\_ci, vulnerability, package, image\_layer, and image\_repository.
 
- -   **[\[Placeholder link text to key bundle-security.vr-cloud-security-exploring\]](https://www.servicenow.com/docs/access?context=vr-cloud-security-exploring&family=zurich&ft:locale=en-US)**
+ -   **[vr cloud security exploring](https://www.servicenow.com/docs/access?context=vr-cloud-security-exploring&family=zurich&ft:locale=en-US)**
 
 The Cloud Exposure View module provides a single location for cloud security teams to monitor and act on all their cloud-related security findings from multiple vendors across their cloud environments.
 
@@ -225,7 +225,7 @@ Zurich
 
 -   **Activation information**
 
-Install the required applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install the required applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Unified Cloud workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

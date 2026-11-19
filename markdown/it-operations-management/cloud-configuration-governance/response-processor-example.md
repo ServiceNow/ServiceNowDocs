@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Configure a response processor, Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -45,7 +45,7 @@ var hardwareId = vmResponse.hardwareId;
 
 ```
 
-Line 39 shows the information that the system requires to identify the new virtual server and related CIs for storage in the CMDB. In this case, the service account object ID identifies the account associated with the virtual server, the datacenter object ID identifies the datacenter in which the virtual server lives, and the virtual machine instance object ID identifies the virtual server itself. This identification code block prevents the creation of duplicate CIs.
+Line 39 shows the information that the system requires to identify the new virtual server and related CIs for storage in the CMDB. The service account object ID identifies the account associated with the virtual server. The datacenter object ID identifies the datacenter where the virtual server runs. The virtual machine instance object ID identifies the virtual server itself. This identification code block prevents the creation of duplicate CIs.
 
 ```
 

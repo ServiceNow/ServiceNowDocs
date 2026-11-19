@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/manage-approvals-ec.html
 release: zurich
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Employee service center for Vulnerability Response, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -30,8 +30,6 @@ Each task provides a summary including:
 -   Impacted services
 -   Insights tabs
 -   Activity
--   Risk Rating \(Critical, High, Medium, Low, None\)
--   Remediation Status \(No Target, In-flight, Approaching Target, Target Missed, Target Met\)
 
 **Navigating Approval Details**: Each task lets the approver access:
 
@@ -55,4 +53,6 @@ Each task provides a summary including:
 
     Detailed audit data is available, including who approved, comments provided, actions performed. No further actions are allowed in this tab.
 
+
+**Parent Topic:**[Employee service center for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/employee-center-vr-overview.md)
 

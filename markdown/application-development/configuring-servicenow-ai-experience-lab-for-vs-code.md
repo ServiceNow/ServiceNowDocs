@@ -1,6 +1,6 @@
 ---
-title: Configuring ServiceNow Lux Lab for VS Code extension
-description: Install the ServiceNow Lux Lab for VS Code extension and connect it to your instance.
+title: Configuring ServiceNow AI Experience Lab for VS Code extension
+description: Install the ServiceNow AI Experience Lab for VS Code extension and connect it to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/configuring-servicenow-ai-experience-lab-for-vs-code.html
 release: zurich
@@ -8,16 +8,16 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure, Configure ServiceNow AI Experience Lab for VS Code extension]
-breadcrumb: [ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [ServiceNow AI Experience Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
 ---
 
-# Configuring ServiceNow Lux Lab for VS Code extension
+# Configuring ServiceNow AI Experience Lab for VS Code extension
 
-Install the ServiceNow Lux Lab for VS Code extension and connect it to your instance.
+Install the ServiceNow® AI Experience Lab for VS Code extension and connect it to your instance.
 
 ## Configuration overview
 
-The ServiceNow Lux Lab for VS Code extension requires the following:
+The ServiceNow® AI Experience Lab for VS Code extension requires the following:
 
 <table id="table_imf_rfb_dkc"><thead><tr><th>
 
@@ -93,11 +93,11 @@ ServiceNow instance
 [Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/rn-prepare-landing-page.md)
 
 </td></tr></tbody>
-</table>1.  [Install ServiceNow Lux Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/install-servicenow-ai-experience-lab-for-vs-code.md).
+</table>1.  [Install ServiceNow AI Experience Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/install-servicenow-ai-experience-lab-for-vs-code.md).
 
-    Install the ServiceNow Lux Lab for VS Code extension from the Visual Studio Code marketplace.
+    Install the ServiceNow® AI Experience Lab for VS Code extension from the Visual Studio Code marketplace.
 
-2.  [Connect ServiceNow Lux Lab for VS Code extension to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/connect-servicenow-ai-experience-lab-for-vs-code-to-instance.md)
+2.  [Connect ServiceNow AI Experience Lab for VS Code extension to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/connect-servicenow-ai-experience-lab-for-vs-code-to-instance.md)
 
     Connect to your instance to access relevant files and deploy your changes.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/quick-start-tests-survey.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ Validate that Assessments and Surveys still works after you make any configurati
 
 Assessments and Surveys quick start tests require activating the Automated Test Framework for Survey plugin \(com.glide.automated\_testing\_impl.survey\).
 
-**Note:** In the Brazil release, all the buttons on the assessments or surveys cards have been removed. To run the Automated Test Framework tests successfully, the **Click the Take Survey button** step must be replaced with **Click the Survey card** for all tests that have this step.
+**Note:** In the Zurich release, all the buttons on the assessments or surveys cards have been removed. To run the Automated Test Framework tests successfully, the **Click the Take Survey button** step must be replaced with **Click the Survey card** for all tests that have this step.
 
 |Name|Description|Release version|
 |----|-----------|---------------|

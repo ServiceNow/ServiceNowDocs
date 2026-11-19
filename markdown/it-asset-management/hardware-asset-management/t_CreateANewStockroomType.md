@@ -1,5 +1,5 @@
 ---
-title: Create a stockroom type
+title: Create a new stockroom type
 description: If you need stockroom types that are not included in the base system, you can create a custom stockroom type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/t\_CreateANewStockroomType.html
@@ -7,12 +7,12 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure stockrooms, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management]
 ---
 
-# Create a stockroom type
+# Create a new stockroom type
 
 If you need stockroom types that are not included in the base system, you can create a custom stockroom type.
 
@@ -26,7 +26,7 @@ Check the [priority level](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Inventory** &gt; **Stock** &gt; **Stockroom Types** and create a record \(see table for field descriptions\).
+1.  Navigate to **All** &gt; **Inventory** &gt; **Stock** &gt; **Stockroom Types** and create a new record \(see table for field descriptions\).
 
     |Field|Description|
     |-----|-----------|
@@ -37,8 +37,8 @@ Check the [priority level](https://raw.githubusercontent.com/ServiceNow/ServiceN
     |Shipment required|Option that determines if stockrooms of this type require shipment by default.|
     |Value|Internal identifier of the stockroom type.|
 
-2.  Select **Submit**.
+2.  Click **Submit**.
 
 
-**Parent Topic:**[Configure stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-stockrooms-ham.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 

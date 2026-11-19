@@ -35,3 +35,5 @@ Role required: sn\_vul\_int\_fw.configure\_integrations
 
 [View Early Warning for Security Exposure Management integration health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/view-armis-early-warning-health.md)
 
+**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/armis-early-warning-integration.md)
+

@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,6 +23,10 @@ Knowledge Management supports processes for creating, categorizing, reviewing, a
 To support multiple groups, knowledge bases can be assigned to individual managers. Separate workflows can be used for publishing and retiring articles, and separate access controls can be used to control reading and contributing.
 
 ## Knowledge Management workflow
+
+This infographic shows a sample end-to-end workflow of how different users in an organization work together to create, share, use, and manage articles.
+
+\[Omitted image "KM\_ProcessFlow.png"\] Alt text: Infographic showing how users in an organization work together to create, share, use, and manage articles. For details, refer to the following description.
 
 In this workflow:
 

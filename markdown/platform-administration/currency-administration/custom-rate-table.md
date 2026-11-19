@@ -7,9 +7,9 @@ release: zurich
 product: Currency Administration
 classification: currency-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Defaults required for FX Currency use, Configure, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Defaults required for FX Currency use, Configure, Currency administration, Configure core features, Administer]
 ---
 
 # Add conversion rates using a custom rate table

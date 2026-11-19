@@ -30,7 +30,7 @@ When you duplicate a dashboard, you copy all settings and details of the origina
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Dashboards**.
 
 2.  Select the dashboard that you want to duplicate.
 
@@ -63,7 +63,7 @@ Role required: At least one role, as well as edit rights to the dashboard.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Dashboards**.
 
 2.  Select the dashboard with a tab that you want to duplicate.
 

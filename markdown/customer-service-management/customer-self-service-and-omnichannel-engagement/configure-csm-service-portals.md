@@ -7,9 +7,9 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the Customer and Consumer Service Portals
@@ -18,7 +18,7 @@ Configure the Customer and Consumer Service Portals to provide information and s
 
 ## Before you begin
 
-Role required: sp\_admin
+Role required: admin
 
 ## About this task
 

@@ -1,5 +1,5 @@
 ---
-title: Setting Your IP Addresses form and fields table
+title: Setting Your IP Addresses Form and Fields Table
 description: A table of the fields and values to establish the IP address, range of IP addresses, or list of IP addresses for Certificate Discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/setting-up-your-ip-addresses.html
@@ -7,12 +7,12 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-11-16"
 reading_time_minutes: 1
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Setting Your IP Addresses form and fields table
+# Setting Your IP Addresses Form and Fields Table
 
 A table of the fields and values to establish the IP address, range of IP addresses, or list of IP addresses for Certificate Discovery.
 

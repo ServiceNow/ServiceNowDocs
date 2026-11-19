@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Terraform working in Cloud Workspace]
 breadcrumb: [Explore, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]

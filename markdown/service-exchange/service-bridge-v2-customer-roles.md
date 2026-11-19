@@ -7,9 +7,9 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure for consumers, Service Exchange for Consumers, Service Exchange]
+breadcrumb: [Install and configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
 # Personas for consumers
@@ -58,7 +58,7 @@ Is a certified ServiceNow system administrator
 
 </td></tr><tr><td>
 
-ITIL fulfiller
+Service Exchange Requester
 
 </td><td>
 

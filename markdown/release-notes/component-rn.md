@@ -1,37 +1,69 @@
 ---
-title: Next Experience Components release notes
-description: The ServiceNow Next Experience Components application provides the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Brazil release.
+title: Next Experience Components
+description: The ServiceNow Next Experience Components are the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Zurich release.The ServiceNow Next Experience Components are the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Zurich release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/component-rn.html
 release: zurich
-topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+topic_type: topic
+last_updated: "2025-07-31"
+reading_time_minutes: 6
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
-# Next Experience Components release notes
+# Next Experience Components
 
-The ServiceNow® Next Experience Components application provides the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Brazil release.
+The ServiceNow® Next Experience Components are the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Zurich release.
 
-## Next Experience Components highlights for the Brazil release
+## About Next Experience Components
 
--   Build rich UI experiences with prebuilt system or custom components. To view the Next Experience Components API reference and usage guidance documentation, visit the [Horizon site Components section](https://horizon.servicenow.com/workspace/components).
+-   Build rich UI experiences with prebuilt system or custom components. To view the Next Experience Components API reference, usage guidance, and ServiceNow® UI Builder setup documentation, visit the [Horizon site Next Experience Components doc](https://horizon.servicenow.com/workspace/components?release=zurich).
 -   Use common web component patterns and principles, such as a JavaScript framework, immutable data, and simple action handlers.
 -   Reuse components across multiple user interfaces to create a cohesive experience for your end users.
--   Use preset property values to configure properties and event handlers automatically for a component. As a result, the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/presets.md) and [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/controllers.md).
+-   Use preset property values to configure properties and event handlers automatically for a component so that the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/presets.md) and [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/controllers.md).
 
-## New in the Brazil release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Next Experience Components is a ServiceNow AI Platform feature that is active by default.
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+
+    To view Next Experience Components accessibility conformance information, refer to the components section of the [Horizon site Components section](https://horizon.servicenow.com/workspace/components). The Overview for each component contains accessibility \(A11y\) information.
+
+
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/build-automate-rn-landing.md)
+
+## Zurich
+
+The ServiceNow® Next Experience Components are the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Zurich release.
+
+### What's new
 
 |Component|Description|
 |---------|-----------|
-|Telecom Customer 360|Provides telecom agents with a unified view of a customer account including contact details, interaction history, billing information, subscribed products, and related records.|
+|AI Summary Card|Organizes AI-generated summary information into a simple, easily scannable format.|
+|Animated icon|Animated sparkle icon that indicates an entry point for a Now Assist flow or event.|
+|Carousel Text|Cycles through a series of text messages with animated transitions. Provides visual feedback during loading states with customizable message content.|
+|Catalog browse|Enables users to explore, search, and find the catalog items they want across multiple catalogs and categories. Users choose a catalog from a dropdown and then a category in a side panel. A selectable card for each available item in the category is displayed in the main view.|
+|Filter overview|Provides a summary of the filters currently applied to the page. Primarily used on the list page in combination with condition builder.|
+|Flyout menu|Organizes multiple levels of options within a hierarchical structure.|
+|Now Assist context menu|Provides actions like generating text, creating incident or task summaries, or refining content.|
+|Schedule Recurrence|Enables users to create and to manage recurring events with daily, weekly, monthly, and yearly frequency. Users can add additional rules like skip dates, exceptions, and validations.|
+|Simple timer|Displays elapsed time with an optional leading icon.|
 
-## Changed in this release
+|Bundle|Description|
+|------|-----------|
+|Activity stream compose with modeless dialog|Component bundle that contains all the functionality of Activity Stream Compose with the added functionality of modeless dialog pop-up. To add modeless dialog capabilities to the compose experience, replace the Activity Stream Compose component with this component bundle.|
 
-<table id="table_data_visualizations"><thead><tr><th>
+### What's changed
 
-Chart
+<table id="table_comp_list"><thead><tr><th>
+
+Component
 
 </th><th>
 
@@ -39,38 +71,81 @@ Enhancement
 
 </th></tr></thead><tbody><tr><td>
 
+Activity Stream
+
+</td><td>
+
+-   Dynamic translation support for emails in Activity Stream
+-   Events show AI agent as author on behalf of user
+-   Hide the title and move the setting toggle to compose tabs line
+-   Live Presence in Activity Stream
+
+</td></tr><tr><td>
+
+Activity Stream Compose
+
+</td><td>
+
+Increased agent productivity by reducing scroll time and seamlessly stacking the compose experience with Activity Stream
+
+</td></tr><tr><td>
+
 Appointment calendar
 
 </td><td>
 
--   Apply the selected date format to all dates that display
--   Hide the time duration from the calendar header and appointment slot pills
--   Display the start and end time in each appointment slot pill
+-   Updated UI Builder property labels and UI
+-   Date-Time replaces mini calendar
+-   Changing the month doesn't automatically select the current selected date
+-   Disable categories
+-   Disable previous dates and unavailable slots
+-   Show event duration in event slots
+-   Disable truncation in screens with resolution lower than 640 pixels
 
 </td></tr><tr><td>
 
-Bar
+Attachments
 
 </td><td>
 
-Enhanced data table \(including Pareto charts\)
+-   Enable uploading multiple files
+-   Set restrictions on file types and size
+-   Preview upload modal for viewing the selected attachments before upload
+-   Rename or remove files during upload preview
+-   Single-click upload for multiple files
 
 </td></tr><tr><td>
 
-Box plot
+Button
 
 </td><td>
 
-Enhanced data table
+Enable the animated sparkle icon
 
 </td></tr><tr><td>
 
-Bubble
+Button bare
 
 </td><td>
 
--   Duplicate an existing data source to avoid re-entering custom filter conditions.
--   Enhanced data table
+-   Multi-line label text available
+-   Enable the animated sparkle icon
+
+</td></tr><tr><td>
+
+Button circular
+
+</td><td>
+
+Enable the animated sparkle icon
+
+</td></tr><tr><td>
+
+Button iconic
+
+</td><td>
+
+Enable the animated sparkle icon
 
 </td></tr><tr><td>
 
@@ -78,129 +153,303 @@ Calendar
 
 </td><td>
 
--   Freeze section headers in a view
--   Scroll-based view data refresh
--   Add custom label and icon for calendar events
--   Reorder and hide event details such as time and description
--   Design token support
+-   Add multiple columns in timeline views
+-   Date-Time replaces mini calendar in timeline views
 
 </td></tr><tr><td>
 
-Dial
+Carousel
 
 </td><td>
 
-Update the data visualization in real time
+Expose a badge on the side of the title, by adding optional text and any 1 of a variety of colors
 
 </td></tr><tr><td>
 
-Gauge
+Checkbox
 
 </td><td>
 
-Update the data visualization in real time
+Display the label slot before or after the check box
 
 </td></tr><tr><td>
 
-Geomap
+Checklist
 
 </td><td>
 
-Enhanced data table
+Control size of the checklist
 
 </td></tr><tr><td>
 
-Heatmap
+Date-time
 
 </td><td>
 
-Enhanced data table
+-   Configurable slot for unsaved field indicator
+-   Enable label text wrapping instead of truncation
 
 </td></tr><tr><td>
 
-Indicator Scorecard
+Date-time-interval
 
 </td><td>
 
-"Follow breakdown relation" provides the user with a list of defined breakdown relations based on the breakdown they choose.
+-   Configurable slot for unsaved field indicator
+-   Enable label text wrapping instead of truncation
 
 </td></tr><tr><td>
 
-Pie/Donut
+Email composer
 
 </td><td>
 
-Enhanced data table
+-   Enable user mentions in the compose area
+-   Enable digital signing and encryption of emails
+-   Selecting a user pill displays user contact card
 
 </td></tr><tr><td>
 
-Pivot table
+Email composer mini
 
 </td><td>
 
-Duplicate an existing data source to avoid re-entering custom filter conditions
+-   Option to pop out to modeless dialog
+-   Enable user mentions in the compose area
+-   Enable digital signing and encryption of emails
+-   Selecting a user pill displays user contact card
 
 </td></tr><tr><td>
 
-Resizable panes
+Email viewer
 
 </td><td>
 
-Pane position layout
+Selecting a user pill displays user contact card.
 
 </td></tr><tr><td>
 
-Schedule recurrence
+Feedback
 
 </td><td>
 
--   Create recurring events using voice or text input with generative AI support for pro plan users.
--   Update the event day automatically based on the event start date
+Configure the character limit in the text area of the component
 
 </td></tr><tr><td>
 
-Single Score
+Form
 
 </td><td>
 
-Update the data visualization in real time
+-   Unsaved field indicator: An unsaved indicator that displays a black dot next to field names that have unsaved changes.
+-   Field context menu hide option: Provide admins access to hidden field context menu options.
+-   Label wrapping and width limit: Have field labels on a form wrap instead of truncate when the container width you specify is reached.
 
 </td></tr><tr><td>
 
-Time Series
+Form record presence
 
 </td><td>
 
--   Compare multiple time periods "period over period" using the 'Compare period over period' setting available in the Config, Date Range section. When active, separates a data set into individual data sets and separates graphics that overlap in the chart. For area, line, spline, and step.
--   In addition to stacked columns and side-by-side columns, the normalized columns chart variation for comparing the relative balance of a series when the actual magnitude is secondary.
--   Duplicate an existing data source to avoid re-entering custom filter conditions
--   Data visualization chart migrated from Xenolith to Highcharts library. Charts are rendered by an updated charting engine, with no change to your existing charts, configurations, and data sources.
--   Visually refreshed charts and interaction improvements:
-    -   Legend pagination
-    -   Hover over legend item to highlight corresponding series in the chart
-    -   Legend pagination
-    -   Improved separation and readability of columns in charts
--   Enhanced data table
+Select an active viewer's avatar to launch a customer card pop-up that contains their contact info.
+
+</td></tr><tr><td>
+
+Heading
+
+</td><td>
+
+Change the text alignment from **start** to **center**, **end**, or **justify**.
+
+</td></tr><tr><td>
+
+iFrame
+
+</td><td>
+
+Enforce consistent practices, as well as more safely compose third-party content by selecting what functionality is available to the iFrame.
+
+</td></tr><tr><td>
+
+Input
+
+</td><td>
+
+-   Configurable slot for unsaved field indicator
+-   Enable label text wrapping instead of truncation
+
+</td></tr><tr><td>
+
+Input password
+
+</td><td>
+
+-   Configurable slot for unsaved field indicator
+-   Enable label text wrapping instead of truncation
+
+</td></tr><tr><td>
+
+Input phone
+
+</td><td>
+
+-   Configurable slot for unsaved field indicator
+-   Enable label text wrapping instead of truncation
+
+</td></tr><tr><td>
+
+Input URL
+
+</td><td>
+
+-   Configurable slot for unsaved field indicator
+-   Enable label text wrapping instead of truncation
+
+</td></tr><tr><td>
+
+Kanban board
+
+</td><td>
+
+-   Maximum of 3 highlighted values, 3 to 5 icons, and 1 hyperlink supported on the VTB card
+-   Drag multiple, selected cards at once
+
+</td></tr><tr><td>
+
+Label value tabbed
+
+</td><td>
+
+-   Set fixed width instead of auto-sizing to content
+-   Enable label text wrapping instead of truncation
+
+</td></tr><tr><td>
+
+Modeless dialog
+
+</td><td>
+
+By default, the dialog dynamically resizes when the user types beyond the height of the dialog.
+
+</td></tr><tr><td>
+
+Node map
+
+</td><td>
+
+-   Horizontal type layout that supports all key capabilities such as, custom nodes, node animation, and all edge types
+-   Enhanced spacing behavior for layouts that improves spacing utilization
+-   Expose unified node in UI Builder
+-   Enhanced knowledge graphs with dynamic edge positioning, optimized label handling, and intuitive edge highlighting
+
+</td></tr><tr><td>
+
+Playbook
+
+</td><td>
+
+Improved navigation and user interface based on feedback from users.
+
+</td></tr><tr><td>
+
+Playbook activity picker
+
+</td><td>
+
+Improved navigation and user interface based on feedback from users.
+
+</td></tr><tr><td>
+
+Playbook stage picker
+
+</td><td>
+
+Improved navigation and user interface based on feedback from users.
+
+</td></tr><tr><td>
+
+Predicate builder
+
+</td><td>
+
+Configuration for read only
+
+</td></tr><tr><td>
+
+Radio buttons
+
+</td><td>
+
+-   Configurable slot for unsaved field indicator
+-   Enable label text wrapping instead of truncation
+
+</td></tr><tr><td>
+
+Select
+
+</td><td>
+
+-   Configurable slot for unsaved field indicator
+-   Enable label text wrapping instead of truncation
+
+</td></tr><tr><td>
+
+Split button
+
+</td><td>
+
+Enable the animated sparkle icon
+
+</td></tr><tr><td>
+
+Textarea
+
+</td><td>
+
+-   Disable the minimum height constraint of 64 pixels
+-   Configurable slot for unsaved field indicator
+-   Enable label text wrapping instead of truncation
+
+</td></tr><tr><td>
+
+Typeahead
+
+</td><td>
+
+-   Configurable slot for unsaved field indicator
+-   Enable label text wrapping instead of truncation
+
+</td></tr><tr><td>
+
+Typeahead multi
+
+</td><td>
+
+-   Pills can display a custom tooltip on hover
+-   Configurable slot for unsaved field indicator
+-   Enable label text wrapping instead of truncation
 
 </td></tr></tbody>
-</table>## Activation information
+</table><table id="table_bundle_enhancements"><thead><tr><th>
 
-Next Experience Components is a ServiceNow AI Platform feature that is active by default.
+Bundle
 
-## Accessibility information
+</th><th>
 
-To view Next Experience Components accessibility conformance information, refer to the components section of the [Horizon site Components section](https://horizon.servicenow.com/workspace/components). The Overview for each component contains accessibility \(A11y\) information.
+Enhancement
 
-## Related ServiceNow applications and features
+</th></tr></thead><tbody><tr><td>
 
--   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md)**
+Record list
 
-    UI Builder is a low-code tool that helps enable you to build pages for workspace and portal web-based experiences.
+</td><td>
 
--   **[Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/workspace-landing-page.md)**
+-   Display the list in cards
+-   HTML fields can be viewed without HTML tags in the list view
+-   Export to Google Sheets
+-   Images and icons display in the list
+-   Enable live lists on a per table basis
+-   Scrollable and inline editable HTML fields
 
-    Use components to build custom workspace experiences for agents who solve internal or external customer issues.
-
-
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/build-automate-rn-landing.md)
-
+</td></tr></tbody>
+</table>

@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-03"
 reading_time_minutes: 5
 breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -139,7 +139,7 @@ resource
 
 </td><td>
 
-Populate this field with the device or application name. Use this field if the event refers to a device \(such as Disk, CPU, or Network Adapter\) or to an application or service running on a Host. Examples: `Disk C:\`, `Nic 001`, or `Trade web application`.
+Populate this field with the device or application name, if the event refers to a device, such as Disk, CPU, or Network Adapter. It may also refer to an application or service running on a Host. Examples include `Disk C:\`, `Nic 001`, or `Trade web application`.
 
 </td></tr><tr><td>
 
@@ -195,14 +195,12 @@ resolution\_state
 
 </td><td>
 
-Optional – To indicate that an event has been resolved or no longer occurring, some event monitors use ‘clear’ severity. Others use a ‘close’ value for severity. This field is used for monitors that use the ‘close’ value. Valid values are `New` and `Closing`.
+Optional – Indicates that an event has been resolved or is no longer occurring. Some event monitors use ‘clear’ severity. Other event monitors use a ‘close’ value for severity. This field is used for those monitors using the latter. Valid values are `New` and `Closing`.
 
 </td></tr></tbody>
 </table>3.  To create multiple records with a single call, trigger the event web service using the following URL:
 
-    Replace the &lt;instance name&gt; variable with the name of the required instance.
-
-    `https://<instancename>.service-now.com/api/global/em/jsonv2`
+    Replace &lt;instance name&gt; with the name of the required instance. `https://<instancename>.service-now.com/api/global/em/jsonv2`
 
     Example showing the payload for two events that are sent in a single web service call:
 
@@ -219,8 +217,8 @@ Optional – To indicate that an event has been resolved or no longer occurring,
           "severity": "4",
           "description": "The disk D: on computer V-W2K8-abc.abc.com is running out of disk space. The value that exceeded the threshold is 38% free space.",
           "additional_info": "{\"scom-severity\": \"Medium\", \"metric-value\": \"38\", \"os_type\": \"Windows.Server.2008\"}"
-        }
-    },
+          }
+        },
         {
           "source": "SCOM",
           "event_class": "SCOM 2012 on scom.server.com",
@@ -237,9 +235,9 @@ Optional – To indicate that an event has been resolved or no longer occurring,
     }
     ```
 
-4.  Trigger the event web service using the following URL:
+4.  Trigger the event web service using the following URL, replacing &lt;instancename&gt; with your instance name:
 
-    Replace &lt;instancename&gt; with the name of the required instance. `https://<instancename>.service-now.com/api/global/em/jsonv2`
+    `https://<instancename>.service-now.com/api/global/em/jsonv2`
 
     Example showing the payload for one event that is sent in a single web service call:
 

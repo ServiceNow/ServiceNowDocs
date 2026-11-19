@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
+breadcrumb: [Microsites, Creating employee communications, Manage, Employee Center Pro, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Add predefined content layouts with the Rich Content Editor

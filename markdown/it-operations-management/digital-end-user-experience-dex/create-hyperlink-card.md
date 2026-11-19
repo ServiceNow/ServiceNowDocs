@@ -7,9 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Create a hyperlink card in Desktop Assistant
@@ -18,7 +18,7 @@ Create a hyperlink card in Desktop Assistant to provide direct access to a targe
 
 ## Before you begin
 
-DEX Desktop Assistant \[sn\_dex\_desktop\] application must be installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/download-desktop-experience.md).
+Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Role required: sn\_dex\_desktop.admin
 
@@ -60,7 +60,7 @@ URL
 
 URL of the site or page that opens when you select the card. **Note:** The available options are:
 
--   Relative URL: Setting the URL to `/esc` automatically opens the Employee Center for the same ServiceNow instance that Desktop Assistant is connected to.
+-   Relative URL: Setting the URL to /esc automatically opens the Employee Center for the same ServiceNow instance that Desktop Assistant is connected to.
 -   Public URL: The full URL. For example, [https://www.servicenow.com/](https://www.servicenow.com/).
 
 
@@ -77,7 +77,7 @@ Short description of the card.
 
     1.  Select the Edit URL icon \[Omitted image "icon-unlock-visible-fields.png"\] Alt text:.
 
-    2.  In the **URL** field, enter the URL.
+    2.  In the URL field, enter the URL.
 
     3.  Select the Lock URL icon \[Omitted image "icon-lock-visible-fields.png"\] Alt text:.
 
@@ -88,10 +88,6 @@ Short description of the card.
     2.  Select **Choose File** and select an image from your system.
 
     3.  Select **OK**.
-
-    **Note:**
-
-    Uploaded images for icons are automatically resized to 48 px for consistency across all cards.
 
 5.  Select **Submit**.
 

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 5
 keywords: [Regions and the wrapper contract, Region wrapper contract, Region spacing, Which element owns a region, Round-trip to storable text, Related]
-breadcrumb: [Layout configuration, Configure experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Layout configuration, Configure experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Regions and the wrapper contract

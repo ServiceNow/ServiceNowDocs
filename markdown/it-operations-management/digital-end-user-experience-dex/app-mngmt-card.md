@@ -1,20 +1,20 @@
 ---
 title: Application management card
-description: The Application management card lists the applications in use, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
+description: The Application management card shows the list of the used applications, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/app-mngmt-card.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Administration cards, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # Application management card
 
-The Application management card lists the applications in use, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
+The Application management card shows the list of the used applications, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
 
 <table id="table_nzs_1cp_qdc"><thead><tr><th>
 
@@ -38,7 +38,7 @@ Metrics monitoring
 
 </td><td>
 
-Indication of whether application monitoring is turned on.Turn application monitoring on or off, or delete an application from the list by selecting the application and then selecting an option from the **Actions** list.
+Indication whether application monitoring is turned on.You can turn the application monitoring on or off, as well as delete an application from the list, by selecting the check box next to an application and selecting an appropriate option under the **Actions** drop-down list.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Compliance monitoring
 
 </td><td>
 
-Indication of whether application compliance monitoring is turned on.Turn compliance monitoring on or off, or remove an application from the list by selecting the application and then selecting an option from the **Actions** list.
+Indication whether application compliance monitoring is turned on.You can turn the compliance monitoring on or off, as well as delete the application from the list, by selecting the check box next to an application and selecting an appropriate option under the **Actions** drop-down list.
 
 </td></tr><tr><td>
 

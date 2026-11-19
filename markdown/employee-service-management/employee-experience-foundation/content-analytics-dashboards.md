@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-25"
 reading_time_minutes: 3
-breadcrumb: [Employee Center Pro reference, Employee Center Pro, EmployeeWorks, Employee Service Management]
+breadcrumb: [Reference, Employee Center Pro, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Content Analytics dashboards

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowotto-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 34
 breadcrumb: [Products combined by family]
 ---
@@ -109,7 +109,7 @@ Choose and update your preferred large language model \(LLM\) provider at the in
 
 Manage the default and supported languages by the different LLM providers under Multilingual service for translation.
 
--   **[\[Placeholder link text to key bundle-platai.now-assist-email-recommendation\]](https://www.servicenow.com/docs/access?context=now-assist-email-recommendation&family=yokohama&ft:locale=en-US)**
+-   **[now assist email recommendation](https://www.servicenow.com/docs/access?context=now-assist-email-recommendation&family=yokohama&ft:locale=en-US)**
 
 Access the citations to the articles referenced from the knowledge base. Explore references and insert the suggested reply to your email.
 
@@ -134,7 +134,7 @@ Get relevant answers to your questions from external content sources, such as Mi
 -   **[Enhanced log visibility](https://www.servicenow.com/docs/access?context=now-assist-guardian&family=yokohama&ft:locale=en-US)**
     -   Access the Generative AI Metric table \[sys\_generative\_ai\_metric\] to gain insights into the guardian logs and determine if they are for monitoring only or for both logging and blocking. Each guardrail shows its status value as Monitor, Block, or Off, to help administrators to manage their security policies.
     -   View the logs of masking that involve personal identifiable information \(PII\) in the Generative AI Metric table \[sys\_generative\_ai\_metric\]. You can identify which data is masked, the type of request, system response, processing time, errors, or error codes.
--   **[\[Placeholder link text to key bundle-platai.now-assist-rn-summarization\]](https://www.servicenow.com/docs/access?context=now-assist-rn-summarization&family=yokohama&ft:locale=en-US)**
+-   **[now assist rn summarization](https://www.servicenow.com/docs/access?context=now-assist-rn-summarization&family=yokohama&ft:locale=en-US)**
 
 Define the output field destination so that you can select any multi-line text field from the base table You can customize incident forms and improve the usability of the resolution notes generation skill.Enable requesters to extract information from emails and email attachments to generate tasks. This email-to-task agentic workflow effectively addresses the challenge of task creation from emails.
 
@@ -439,7 +439,7 @@ Initiate and view agentic workflows from within Google Chat.
 
 Access the Gen AI Metrics \[sys\_generative\_ai\_metric\] table to review the logged invocations of sensitive topics and gain insights into how these topics are being triggered and monitored.
 
--   **[\[Placeholder link text to key bundle-platai.long-term-stable-models\]](https://www.servicenow.com/docs/access?context=long-term-stable-models&family=zurich&ft:locale=en-US)**
+-   **[long term stable models](https://www.servicenow.com/docs/access?context=long-term-stable-models&family=zurich&ft:locale=en-US)**
 
 Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
 
@@ -484,7 +484,7 @@ As an admin, clone the KB generation skill and update prompts for AI model provi
 
 Choose and update your preferred LLM provider at the instance, skill, or skill group level for Now Assist base system skills.
 
-Deactivate skills that aren't compatible with any of the LLM providers and access the audit history to view updates by the AI steward in AI Control Tower.
+Deactivate skills that aren't compatible with any of the LLM providers and access the audit history to view updates by the AI steward in Control Tower.
 
 -   **[Configure multilingual service for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&family=zurich&ft:locale=en-US)**
 

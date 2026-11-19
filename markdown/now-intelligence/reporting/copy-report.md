@@ -1,5 +1,5 @@
 ---
-title: Copy a Core UI report
+title: Copy a report
 description: Users who cannot create their own global reports can modify a global report, and then save a personal version of the report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/copy-report.html
@@ -7,18 +7,18 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Copy a Core UI report
+# Copy a report
 
 Users who cannot create their own global reports can modify a global report, and then save a personal version of the report.
 
 ## Before you begin
 
-Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. On upgraded instances, other users may have the right to copy a report using these instructions based on access control. To create Core UI reports in the Brazil release, the system property **com.snc.par.coreui.report\_create.enabled** must be set to true.
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin.
 
 ## About this task
 
@@ -27,23 +27,23 @@ If you save a global report as a group or personal report, the platform copies t
 **Note:**
 
 -   If you open a personal report and save it as a group or global report, only the security state is changed. The report itself is not copied.
--   When you select **Insert and Stay** to copy a report, sharing settings aren't copied to the new report.
+-   When you select **Insert and Stay** to copy a report, sharing settings are not copied to the new report.
 
-This topic refers to Reporting in the Core UI. If your instance is a new Brazil instance or migrated to Platform Analytics experience, see [Duplicate a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/duplicate-dv-ac.md).
+This topic refers to Reporting in the Core UI. If your instance is a new Zurich instance or migrated to Platform Analytics experience, see [Duplicate a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/duplicate-dv-ac.md).
 
 ## Procedure
 
-1.  Navigate to **sys\_report.list**.
+1.  Navigate to **All** &gt; **Reports** &gt; **View / Run**.
+
+    On instances with Unified Analytics enabled, and on new Zurich instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**. For more information, see [Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/differences-between-core-ui-ne-dbs.md).
 
 2.  Select the report you want to copy.
 
-3.  On the report's form, select **View Report**.
-
-4.  Select the arrow next to the **Save** button or next to the Share icon \(\[Omitted image "icon-share-db.png"\] Alt text: Share icon\).
+3.  Select the arrow next to the **Save** button or next to the Share icon \(\[Omitted image "icon-share-db.png"\] Alt text: Share icon\).
 
     If you have permission to change the report, you see the **Save** button. You only see the arrow if you don't have permission to change the original report.
 
-5.  Select **Insert and Stay**.
+4.  Select **Insert and Stay**.
 
     |With the Save button|Without the Save button|
     |--------------------|-----------------------|
@@ -51,16 +51,16 @@ This topic refers to Reporting in the Core UI. If your instance is a new Brazil 
 
     The Insert and Stay action creates a copy of the report that you can modify.
 
-6.  Modify the report.
+5.  Modify the report.
 
-    See [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md).
+    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md).
 
-7.  Change the report visibility.
+6.  Change the report visibility.
 
-    In the upper right side of the report form, select the **Sharing** icon \(\[Omitted image "square-share-outline-24.svg"\]\) and select **Share**.
+    In the upper right side of the report form, click the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text:\) and select **Share**.
 
 
-**Parent Topic:**[Using Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_GenerateReports.md)
+**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_GenerateReports.md)
 
 **Related topics**  
 

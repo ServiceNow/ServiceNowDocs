@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/aws-trusted-credential-less.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-09-03"
 reading_time_minutes: 6
 breadcrumb: [Setup AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
@@ -112,15 +112,15 @@ To use an account without AWS credentials, you must first configure that account
 
 7.  On the ServiceNow AI Platform, assign the AWS IAM role to the trusting account, using the relevant form, based on the relationship to the trusted account.
 
-<table id="choicetable_g1z_335_zfc"><thead><tr><th align="left" id="d153307e584">
+<table id="choicetable_g1z_335_zfc"><thead><tr><th align="left" id="d151444e582">
 
 Trusted account type
 
-</th><th align="left" id="d153307e587">
+</th><th align="left" id="d151444e585">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d153307e593">
+</th></tr></thead><tbody><tr><td id="d151444e591">
 
 **Management account**
 
@@ -165,7 +165,7 @@ Name of the trusting account for which you are providing access using the IAM ro
 </table>4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d153307e710">
+</td></tr><tr><td id="d151444e708">
 
 **Member or discrete account**
 

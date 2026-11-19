@@ -7,9 +7,9 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Bundling WOTs, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Bundling WOTs, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Unbundle a work order task bundle
@@ -32,15 +32,15 @@ When you unbundle a work order task bundle, the work order task bundle enters a 
 
 3.  Select the bundle.
 
-<table id="choicetable_o4n_qvz_2wb"><thead><tr><th align="left" id="d86769e96">
+<table id="choicetable_o4n_qvz_2wb"><thead><tr><th align="left" id="d78940e96">
 
 Bundle
 
-</th><th align="left" id="d86769e99">
+</th><th align="left" id="d78940e99">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d86769e105">
+</th></tr></thead><tbody><tr><td id="d78940e105">
 
 **Single bundle**
 
@@ -48,7 +48,7 @@ Action
 
 Select the bundle.
 
-</td></tr><tr><td id="d86769e114">
+</td></tr><tr><td id="d78940e114">
 
 **Multiple bundles**
 

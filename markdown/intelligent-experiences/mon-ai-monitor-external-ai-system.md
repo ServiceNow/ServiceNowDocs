@@ -1,19 +1,19 @@
 ---
 title: Activate evaluation scoring for external AI systems
-description: Assess the quality and safety of your external AI systems by connecting them to AI Control Tower and activating evaluation scoring.
+description: Assess the quality and safety of your external AI systems by connecting them to Super Intelligence Control Tower and activating evaluation scoring.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mon-ai-monitor-external-ai-system.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-13"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure evaluation scoring for external AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure evaluation scoring for external AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Activate evaluation scoring for external AI systems
 
-Assess the quality and safety of your external AI systems by connecting them to AI Control Tower and activating evaluation scoring.
+Assess the quality and safety of your external AI systems by connecting them to Super Intelligence Control Tower and activating evaluation scoring.
 
 ## Before you begin
 
@@ -21,30 +21,30 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 
-External AI systems require trace data to be scored by the evaluation engine. Unlike AI systems on the ServiceNow AI Platform, which are automatically instrumented, external AI systems must be connected to send trace data to AI Control Tower. There are two ways to establish this connection:
+External AI systems require trace data to be scored by the evaluation engine. Unlike AI systems on the ServiceNow AI Platform, which are automatically instrumented, external AI systems must be connected to send trace data to Control Tower. There are two ways to establish this connection:
 
 -   **SDK instrumentation**: Instrument your AI agent code using the Traceloop SDK and authenticate with an API key. Use this method for any AI agent framework that is not hosted on a supported cloud platform or monitoring service.
 -   **Trace connection**: Connect to a supported cloud platform or monitoring service through your cloud credentials and a MID Server. Use this method when your AI agents already run on or send traces to a supported platform. No API key or code instrumentation is required.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Evaluation**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Evaluation**.
 
 2.  On the **AI evaluations** sub-tab, select **External AI systems**.
 
 3.  Set the **Activate** toggle to on.
 
-4.  Connect your external AI system to send trace data to AI Control Tower using SDK instrumentation or a trace connection.
+4.  Connect your external AI system to send trace data to Control Tower using SDK instrumentation or a trace connection.
 
-<table id="choicetable_connection_method"><thead><tr><th align="left" id="d37421e149">
+<table id="choicetable_connection_method"><thead><tr><th align="left" id="d32148e149">
 
 Connection method
 
-</th><th align="left" id="d37421e152">
+</th><th align="left" id="d32148e152">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d37421e158">
+</th></tr></thead><tbody><tr><td id="d32148e158">
 
 **SDK instrumentation**
 
@@ -92,7 +92,7 @@ User
 
 </td><td>
 
-User associated with this API key.Select a user with the `sn_ai_observe.ai_data_sender` role. Use a dedicated service account rather than a user with elevated permissions. This role is installed with the AI Control Tower Evaluations plugin and grants permission to send observability data without granting read or write access to AI Control Tower configuration. If the service account does not already have this role, assign it before creating the API key.
+User associated with this API key.Select a user with the `sn_ai_observe.ai_data_sender` role. Use a dedicated service account rather than a user with elevated permissions. This role is installed with the Control Tower Evaluations plugin and grants permission to send observability data without granting read or write access to Control Tower configuration. If the service account does not already have this role, assign it before creating the API key.
 
 </td></tr><tr><td>
 
@@ -125,15 +125,15 @@ Date when the API key expires. Leave empty for no expiration.
 
 The token is displayed only once. If you lose it, generate a new key, which deactivates the previous one.
 
-    5.  Return to the AI Control Tower browser tab and refresh the page.
+    5.  Return to the Control Tower browser tab and refresh the page.
 
 The new API key appears in the **API key for external AI system evaluation** section.
 
 2.  Instrument your AI agent to send trace data to your ServiceNow instance.
 
-For instrumentation steps using the Traceloop SDK, see [Instrument a third-party AI agent with the Traceloop SDK for AI Control Tower Evaluations](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144255).
+For instrumentation steps using the Traceloop SDK, see [Instrument a third-party AI agent with the Traceloop SDK for Super Intelligence Control Tower Evaluations](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144255).
 
-</td></tr><tr><td id="d37421e346">
+</td></tr><tr><td id="d32148e346">
 
 **Trace connection**
 

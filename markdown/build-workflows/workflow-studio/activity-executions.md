@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks reference, Reference, Workflow Studio, Build workflows]
 ---
 
 # Activity executions
@@ -18,7 +18,7 @@ Activity execution records provide runtime information about activities in a pla
 
 An activity execution represents a runtime execution of your activity. Each time one of your playbooks triggers, records are automatically created for each activity that runs within the triggered playbook.
 
-To access the activity execution records for an In Progress playbook execution, navigate to **Process Automation** &gt; **Process Automation Administration** &gt; **Active Processes**. Alternatively, you can see the activity executions for all playbooks that ran today by navigating to **Process Automation** &gt; **Process Automation Administration** &gt; **Today's Executions**. Select a playbook execution record from the list. Then, you can view the associated activity execution records in the Activity Executions related list.
+To access the activity execution records for an In Progress playbook execution, navigate to **Process Automation** &gt; **Playbook Administration** &gt; **Active Processes**. Alternatively, you can see the activity executions for all playbooks that ran today by navigating to **Process Automation** &gt; **Playbook Administration** &gt; **Today's Executions**. Select a playbook execution record from the list. Then, you can view the associated activity execution records in the Activity Executions related list.
 
 ## Fields
 
@@ -46,4 +46,6 @@ Activity execution states indicate the status of an activity in a triggered play
 |Skipped|The playbook triggered, but a user chose to skip this activity execution and move on to the next activity. Also, if the activity contains a condition that evaluates to false, the system skips the activity.|
 |Error|The playbook triggered, but an error with the activity's automation plan or activity experience occurred. Errors can occur when the underlying action or subflow in the activity's automation plan fails to run.|
 |Cancelled|A user with the admin, flow\_designer, or action\_designer role explicitly canceled the underlying action or subflow in the activity's automation plan.|
+
+**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

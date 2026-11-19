@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 10
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrating with PagerDuty
@@ -150,7 +150,7 @@ Create a PagerDuty integration profile to track software subscriptions and optim
 
 To create a PagerDuty integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: sam\_integrator or admin
 
 **Important:** You must select the **PagerDuty Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -162,15 +162,15 @@ If you’re using Software Asset Workspace, the option to create the PagerDuty i
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d91616e672">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d87764e672">
 
 Interface
 
-</th><th align="left" id="d91616e675">
+</th><th align="left" id="d87764e675">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d91616e681">
+</th></tr></thead><tbody><tr><td id="d87764e681">
 
 **Core UI**
 
@@ -181,7 +181,7 @@ Action
 3.  Select **PagerDuty Integration Profile**.
 
 
-</td></tr><tr><td id="d91616e723">
+</td></tr><tr><td id="d87764e723">
 
 **Software Asset Workspace**
 
@@ -302,7 +302,7 @@ Type of integration profile. This field is automatically set to `PagerDuty Subsc
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
 
 -   Software Models
 -   Unrecognized Subscription Identifiers

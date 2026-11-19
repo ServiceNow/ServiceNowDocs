@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/t\_ExcludeAFieldFromBeingAudited.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring auditing for a table, Auditing]
+breadcrumb: [Configure, Auditing]
 ---
 
 # Exclude a field from being audited \(exclusion listing\)
@@ -16,9 +16,9 @@ Prevent the ServiceNow AI Platform from tracking a subset of fields in an audite
 
 ## Before you begin
 
-Role required: admin
-
 To exclude a field in a table from being audited, you must have first [enable auditing for that table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_EnableAuditingForATable.md).
+
+Role required: admin
 
 ## About this task
 

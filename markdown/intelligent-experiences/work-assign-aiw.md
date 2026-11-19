@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/work-assign-aiw.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-13"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 keywords: [assign work ai specialist, assignment ai specialist, AI specialist, manual assignment, assign work, assignment rule ai specialist, awa ai specialist, advanced work assignment ai specialist]
-breadcrumb: [Configure, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
 
 # Assigning work to an AI specialist
@@ -24,7 +24,7 @@ AI specialists can't assign themselves work, even if they've been put into an as
 -   Advanced Work Assignment \(AWA\). AWA assigns work based on more context than simple assignment rules, such as an agent's availability, capacity, and skills. Configuring AWA involves creating and managing service channels, work item queues, routing conditions, and assignment criteria.
 
 
-With manual assignment, you control exactly which records an AI specialist works on. This works best when doing initial testing to see how an AI specialist handles a particular task type or subject. After you've established trust, you can allow the AI specialist to work at a larger scale by creating assignment rules or configuring AWA.
+With manual assignment, you control exactly which records an AI specialist works on. This works best when doing initial testing to see how an AI specialist handles a particular task type or subject. After you have established trust, you can allow the AI specialist to work at a larger scale by creating assignment rules or configuring AWA.
 
 To have AWA assign work to an AI specialist, configure AWA first. You can then add the AI specialist to existing work queues, like another member of the team. If you don't already have AWA set up on your instance, assignment rules require less configuration than setting up AWA for AI specialists alone.
 
@@ -108,7 +108,7 @@ Role required: awa\_admin
 
 6.  In the **Manage AI agents** tab, select **Prioritize AI agents**.
 
-    Choosing to prioritize AI agents routes relevant work to the AI specialist first. The AI specialist then triages the task and determines whether it can propose an acceptable solution. If the AI specialist can't propose a solution, or if the task is outside its configured capabilities, it can reassign the task to a human agent or a different assignment group. For steps on configuring the routing criteria for reassignment, see [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/modify-aiw-tasks-new.md).
+    Choosing to prioritize AI agents routes relevant work to the AI specialist first. The AI specialist then triages the task and determines whether it can propose an acceptable solution. If the AI specialist can't propose a solution, or if the task is outside its configured capabilities, it can reassign the task to a human agent or a different assignment group. For steps on configuring the routing criteria for reassignment, see [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/modify-aiw-tasks.md).
 
     If you don't choose to prioritize AI agents, the AI specialist can still be assigned work from the work item queue.
 
@@ -125,5 +125,5 @@ Your AI specialist is added to the AWA assignment rule as an eligible assignee.
 
 ### What to do next
 
-You can track an AI specialist's performance and the records it works on in AI Agent Studio. See [Review the performance of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/view-aiw-performance-new.md) and [View the activity of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/view-aiw-activity-new.md).
+You can track an AI specialist's performance and the records it works on in AI Agent Studio. See [Review the performance of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/view-aiw-performance.md) and [View the activity of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/view-aiw-activity.md).
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-buildagent-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -94,6 +94,10 @@ Zurich
 -   **[New model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=zurich&ft:locale=en-US)**
 
 Use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent.
+
+-   **[Opus 5.5 model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=zurich&ft:locale=en-US)**
+
+Use the Anthropic Claude Opus 5.5 model with Build Agent.
 
 
  -   **[New model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=zurich&ft:locale=en-US)**

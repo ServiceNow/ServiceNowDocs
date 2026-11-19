@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-data-cert-view-policy.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-11-29"
 reading_time_minutes: 1
-breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Working with data certification, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # View certification policy
@@ -16,7 +16,7 @@ View details of a published policy.
 
 ## Before you begin
 
-Role required: sn\_apm.apm\_analyst
+Role required: admin
 
 ## Procedure
 

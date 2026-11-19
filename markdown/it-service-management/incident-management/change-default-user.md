@@ -1,20 +1,20 @@
 ---
-title: Configure the default user for auto-closing incidents
-description: Specify the user that appears in the Updated by field when incidents are closed automatically.
+title: Configure default user for auto-closing incidents
+description: Change the default user who last updated an incident to the user you mention for auto-closing incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/change-default-user.html
 release: zurich
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring Incident Management, Incident Management, IT Service Management]
+breadcrumb: [Configure, Incident Management, IT Service Management]
 ---
 
-# Configure the default user for auto-closing incidents
+# Configure default user for auto-closing incidents
 
-Specify the user that appears in the Updated by field when incidents are closed automatically.
+Change the default user who last updated an incident to the user you mention for auto-closing incidents.
 
 ## Before you begin
 
@@ -24,9 +24,9 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Scheduler** &gt; **Scheduled Jobs** &gt; **Scheduled Jobs**.
 
-2.  Open the **Autoclose Incidents** scheduled job.
+2.  Open the **Autoclose Incidents** schedule job.
 
-3.  In the **Job context** field, add the following lines:
+3.  In the **Job context**, add the following:
 
     ```
     fcRunAs=<user_name>

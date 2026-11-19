@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-10-22"
 reading_time_minutes: 1
-breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
 ---
 
 # Domain separation in ServiceNow Otto panel

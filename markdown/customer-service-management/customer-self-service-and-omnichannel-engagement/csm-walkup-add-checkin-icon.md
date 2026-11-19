@@ -1,24 +1,24 @@
 ---
 title: Add a Walk-up Experience online check-in link on the Service Portal home page
-description: Configure a Walk-up Experience link to enable guest users to check in online to a walk-up location via Service Portal.
+description: Add a link on the Service Portal home page so guest users can check in online to a walk-up location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-add-checkin-icon.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-08-20"
 reading_time_minutes: 1
 breadcrumb: [System properties for configuring Walk-up Experience for guest users, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Add a Walk-up Experience online check-in link on the Service Portal home page
 
-Configure a Walk-up Experience link to enable guest users to check in online to a walk-up location via Service Portal.
+Add a link on the Service Portal home page so guest users can check in online to a walk-up location.
 
 ## Before you begin
 
-Role required: sp\_admin
+Role required: admin and sp\_admin
 
 Service Portal for Enterprise Service Management \(com.glide.service-portal.esm\) and Walk-up for CSM \(com.snc.walkup\_for\_csm\) plugins must be activated.
 
@@ -32,7 +32,9 @@ Service Portal for Enterprise Service Management \(com.glide.service-portal.esm\
 
 4.  Scroll down and select the **Open in Designer** related link.
 
-5.  Select the **Walk-up Check-In** widget from the **Widgets** list in the left pane and drag it to the desired location on the Customer Service Portal page where you want the link to appear.
+5.  From the **Widgets** list, select the **Walk-up Check-In** widget.
+
+6.  Drag the widget to the location on the Customer Service Portal page where you want the link to appear.
 
 
 **Related topics**  

@@ -1,5 +1,5 @@
 ---
-title: MongoDB discovery
+title: MongoDB probe-based discovery
 description: Discovery creates or updates a CMDB record when it detects a running instance of MongoDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r\_DiscoverMongoDBInstances.html
@@ -7,14 +7,16 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-03"
 reading_time_minutes: 1
 breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
-# MongoDB discovery
+# MongoDB probe-based discovery
 
 Discovery creates or updates a CMDB record when it detects a running instance of MongoDB.
+
+For information on pattern-based discovery of MongoDB servers that run the mongod process, see [mongod DB pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/mongod-db-pattern.md).
 
 ## Credentials
 

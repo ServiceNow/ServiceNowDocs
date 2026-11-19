@@ -1,6 +1,6 @@
 ---
 title: Activate AI Agents for Service Mapping
-description: Activate the Service Mapping AI Agent and the Business App Mapping AI Agent from the Service Mapping home page to start automated service map creation.
+description: Activate the Service Mapping AI Agent from the Service Mapping home page to start automated service map creation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/activate-sm-ai-agents.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [activate AI Agent, Service Mapping home page, AI Agent configuration, Now Assist, ITOM, Otto]
-breadcrumb: [Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [AI Agents for Service Mapping, AI in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Activate AI Agents for Service Mapping
 
-Activate the Service Mapping AI Agent and the Business App Mapping AI Agent from the Service Mapping home page to start automated service map creation.
+Activate the Service Mapping AI Agent from the Service Mapping home page to start automated service map creation.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: service\_mapping\_admin
 
 The AI Agents are inactive by default. You can activate one or both AI Agents. After activation, the agents run automatically in the background without further input. You can deactivate an agent at any time.
 
-**Note:** If the ITOM AI Agents for Service Mapping application is not installed, the **Support your team with an AI Agent** section does not appear on the home page. The Business App Mapping AI Agent is available through the Feature Preview Program. For more information, see [Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/feature-preview-program.md).
+**Note:** If the ITOM AI Agents for Service Mapping application is not installed, the **Support your team with an AI Agent** section does not appear on the home page.
 
 ## Procedure
 
@@ -47,7 +47,11 @@ The AI Agents are inactive by default. You can activate one or both AI Agents. A
     The activated AI Agents run automatically. You can monitor their activity in the list navigation under **AI Activity**.
 
 
-## What to do next
+## Result
 
-To deactivate an AI Agent, select **Deactivate** on the respective card. The button returns to **Activate**.
+The activated AI Agents run automatically. You can monitor their activity in the list navigation under **AI Activity**.
+
+**Tip:** To deactivate an AI Agent, select **Deactivate** on the respective card. The button returns to **Activate**.
+
+**Parent Topic:**[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-ai-agents.md)
 

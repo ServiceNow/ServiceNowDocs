@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-in-app.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-26"
 reading_time_minutes: 2
 breadcrumb: [Impact]
 ---
@@ -34,7 +34,7 @@ Details
 
 </td><td>
 
-[Navigate Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-in-platform-home.md)
+[Navigating Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-in-platform-home.md)
 
 </td><td>
 
@@ -69,16 +69,15 @@ Use the recommendations full list to view the recommendations tailored for you.
 
 </td></tr><tr><td align="center">
 
-\[Omitted image "bus-rocketship.svg"\] Alt text:
+\[Omitted image "bus-datasheet.svg"\] Alt text:
 
 </td><td>
 
-[Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/impact-initiatives.md)
+[Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/value-library/impact-in-platform-business-outcomes.md)
 
 </td><td>
 
--   [Initiatives Catalog](https://www.servicenow.com/docs/access?context=initiatives-catalog): Actionable engagements and workstreams that support your digital transformation.
--   [Accelerator Catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog): Fixed-scope offerings with experts behind each option to quickly provide value exactly where you need it
+Captures your objectives, which are high-level goals tied to measurable outcomes that help illustrate value over time.
 
 </td></tr><tr><td align="center">
 
@@ -86,7 +85,7 @@ Use the recommendations full list to view the recommendations tailored for you.
 
 </td><td>
 
-[Build implementation plans with product adoption roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-product-adoption-roadmap/impact-par.md)
+[Product Adoption Roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-product-adoption-roadmap/impact-par.md)
 
 </td><td>
 
@@ -95,15 +94,16 @@ View your capabilities and product adoption roadmaps for your ServiceNow instanc
 
 </td></tr><tr><td align="center">
 
-\[Omitted image "bus-datasheet.svg"\] Alt text:
+\[Omitted image "bus-rocketship.svg"\] Alt text:
 
 </td><td>
 
-[Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/value-library/impact-in-platform-business-outcomes.md)
+[Initiatives and Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/impact-initiatives.md)
 
 </td><td>
 
-Captures your objectives, which are high-level goals tied to measurable outcomes that help illustrate value over time.
+-   [Initiatives catalog](https://www.servicenow.com/docs/access?context=initiatives-catalog): Actionable engagements and workstreams that support your digital transformation.
+-   [Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog): Fixed-scope offerings with experts behind each option to quickly provide value exactly where you need it
 
 </td></tr><tr><td align="center">
 
@@ -111,12 +111,12 @@ Captures your objectives, which are high-level goals tied to measurable outcomes
 
 </td><td>
 
-[Consumption Report in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/ide-consumption-report.md)
+[Consumption Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/ide-consumption-report.md)
 
 </td><td>
 
-View your tier features across various accounts including used and unused Accelerators, initiatives, instance observer users, developer support users, and active case breakdowns.
+View your tier features across various accounts including used and unused accelerators, initiatives, instance observer users, developer support users, and active case breakdowns.
 
 </td></tr></tbody>
-</table>**Important:** To access various levels of Impact, a role must be assigned to you. Your Impact Administrator can assign the appropriate roles to you. See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-roles.md) for additional information.
+</table>**Important:** In order to access various levels of Impact, a role must be assigned to you. Your Impact Administrator can assign the appropriate roles to you. See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-roles.md) for additional information.
 

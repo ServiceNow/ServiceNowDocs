@@ -7,9 +7,9 @@ release: zurich
 product: Service Level Management
 classification: service-level-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Service Level Management, Service Level Management, IT Service Management]
+breadcrumb: [Use, Service Level Management, IT Service Management]
 ---
 
 # Add custom business rules to Service Level Agreement \(SLA\) considerations

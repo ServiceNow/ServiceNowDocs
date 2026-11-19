@@ -9,7 +9,7 @@ classification: on-call-scheduling
 topic_type: concept
 last_updated: "2026-10-21"
 reading_time_minutes: 1
-breadcrumb: [Exploring On-Call Scheduling, On-Call Scheduling, IT Service Management]
+breadcrumb: [Explore, On-Call Scheduling, IT Service Management]
 ---
 
 # On-Call Scheduling actions by role

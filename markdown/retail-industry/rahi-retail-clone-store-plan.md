@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-clone-store-plan.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-03-05"
 reading_time_minutes: 1
 breadcrumb: [Manage store plans, Retail]
 ---
@@ -27,7 +27,7 @@ The cloned store plan includes the store plan items.
 **Note:**
 
 -   The Clone button is disabled if more than one store plan is selected.
--   The clone option is available only for HQ details, HQ task details, store case details, and store task details. The clone option is not available for affected retail stores or scheduled store plans and questionnaires.
+-   The clone option is available only for HQ details, HQ task details, store case details, and store task details. The clone option is not available for affected retail stores or scheduled store plans.
 
 ## Procedure
 
@@ -44,6 +44,4 @@ The cloned store plan includes the store plan items.
 ## Result
 
 The system creates a copy of the selected Store plan and opens the cloned store plan in a new tab.
-
-**Parent Topic:**[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/retail-industry/rahi-retail-manage-store-plans.md)
 

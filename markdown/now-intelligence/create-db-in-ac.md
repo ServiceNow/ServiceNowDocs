@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-db-in-ac.html
 release: zurich
 topic_type: task
-last_updated: "2026-11-02"
+last_updated: "2026-11-09"
 reading_time_minutes: 4
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -20,51 +20,57 @@ The dashboard inline editor doesn’t automatically save your dashboard when you
 
 Role required: Any user with an internal role can create dashboards with the inline editor.
 
-**Note:** Data visualizations based on table data are automatically shared with users that you share a dashboard with.
+**Note:**
+
+-   The user must be allowed to create dashboards. By default, anybody with an internal role can create a dashboard, but your organization might restrict this permission.
+-   This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md).
+-   Data visualizations based on table data are automatically shared with users that you share a dashboard with.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
-2.  Select **Create dashboard**.
+2.  Select **Create new dashboard**.
 
-3.  Select the **In-line editor** tile and give the dashboard a name and a description.
+3.  Select the **inline editor** tile and give the dashboard a name and a description.
 
-    If you want to use scripting, data binding, and other advanced capabilities, select the **Technical editor** tile to continue in UI Builder. This editor is available only to users who can access UI Builder \(ui\_builder\_admin role\). If you don't have this role, go to step 6. For more information about the technical editor, see [Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/technical-dashboards.md).
+    If you want to use scripting, data binding, and other advanced capabilities, select the **Technical editor** tile to continue in UI Builder. This editor is available only to users who can access UI Builder \(ui\_builder\_admin role\). If you do not have this role, go to step 6. For more information about the technical editor, see [Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/technical-dashboards.md).
 
-    \[Omitted image "create-new-inline-ed-db-modal.png"\] Alt text: Create inline dashboard modal
+4.  Select **Create new dashboard**.
 
-4.  Select **Create dashboard**.
+    \[Omitted image "create-new-inline-ed-db-modal.png"\] Alt text: Create new inline dashboard modal
 
-    On migrated instances, you have the choice to create the dashboard in Next Experience or in Core UI if you require legacy features. See [Create or configure a responsive dashboard in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_CreateADashboard.md).
+5.  Choose **inline editor**.
 
-    \[Omitted image "create-core-ui-db-from-library.png"\] Alt text: Create Core UI dashboard on migrated instance
+    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. Creating dashboards in UI Builder is recommended for developers. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md)and [Create a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-tech-db-in-ac.md).
 
-5.  In the Dashboard Designer, select **Add new element** to add content to the dashboard.
+6.  Give the dashboard a meaningful name and description.
 
-    See [Dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dashboard-elements.md) for information about what you can add to a dashboard.
+7.  Select **Add new element** to add content to the dashboard.
 
-    When you add a data visualization, select **New visualization** to create a visualization from scratch or **Saved visualization** to choose one or more from the library. When you add a filter, select **New filter** to create the filter without preconfigured data or **Saved filter** to reuse an existing filter. For more information, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters-workspace.md).
+    See [Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/ac-elements.md) for information about what you can add to a dashboard.
 
-    \[Omitted image "add-dv-modal.png"\] Alt text: Add data visualization dialogue box with options to add a New visualization or a Saved visualization
+    When you add a data visualization, select **New data visualization** to create a visualization from scratch or **Saved data visualization** to choose one from the library. When you add a filter, select **New filter** to create the filter without preconfigured data or **Saved filter** to reuse an existing filter.
 
-6.  When you select saved visualizations, choose from the **Select a Visualization from library** window.
+    \[Omitted image "add-dv-modal.png"\] Alt text: Add data visualization dialogue box with options to add a New data visualization or a Saved data visualization
+
+8.  When you select saved visualizations, choose from the **Select a Visualization from library** window.
 
     Only the visualizations on the current page of the modal are added when you select Add to Dashboard. Select a larger number of records per page to choose more at the same time.
 
     \[Omitted image "add-saved-dv-inline-db.png"\] Alt text: Select a Visualization from library modal with two visualizations selected and the Records per page list expanded.
 
-7.  Select the information icon \[Omitted image "icon-info.png"\] Alt text: information icon to open the Details panel and edit the name and description of your dashboard.
+9.  Select the information icon \(\[Omitted image "icon-info.png"\] Alt text: information icon\) to open the Details panel and provide a name and description for your dashboard.
 
-    You can also edit the dashboard's certification, visibility, and category. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-db-in-ac.md).
+10. Arrange the data on the canvas to make it useful.
 
-8.  Arrange the elements on the canvas so that it tells the story you want to tell with your data.
+    You can click and drag from the corners of the elements to resize them on the canvas.
 
-    You can also click and drag from the corners of the elements to resize them on the canvas.
+11. Select **Add a tab** to create room for more information on additional tabs.
 
-9.  Select **Add a tab** to create room for more information on additional tabs.
+12. Select **Save** early and often.
 
-10. Select **Save**
+    The dashboard inline editor doesn’t automatically save your dashboard when you’re creating it. Be sure to save your work regularly.
 
 
 ## What to do next
@@ -76,8 +82,6 @@ Role required: Any user with an internal role can create dashboards with the inl
 
 **Related topics**  
 
-
-[Create Core UI dashboards on upgraded instances]()
 
 [Edit Platform Analytics dashboards]()
 

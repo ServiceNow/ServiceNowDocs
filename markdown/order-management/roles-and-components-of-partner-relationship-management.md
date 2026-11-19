@@ -1,18 +1,18 @@
 ---
 title: Roles and components of Partner Relationship Management
-description: The Partner Relationship Management application uses roles to manage access, identify users, and establish relationships between enterprises and channel partners.
+description: The Partner Relationship Management application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between enterprises and channel partners.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/roles-and-components-of-partner-relationship-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
-breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Roles and components of Partner Relationship Management
 
-The Partner Relationship Management application uses roles to manage access, identify users, and establish relationships between enterprises and channel partners.
+The Partner Relationship Management application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between enterprises and channel partners.
 
 The PRM plugin \(com.snc.partner\_relationship\_management\) comes with a set of functional and granular roles, each with varying levels of access to raise and address queries.
 
@@ -180,7 +180,7 @@ Experience \(sn\_prm.partner\_ui\)
 
 </td><td>
 
-This role provides granular access to organization staff to ensure a consistent experience across all user interfaces.**Note:** The Experience role needs to be manually inherited into other roles to view the Partner Relationship Management modules on ServiceNow platform, CRM Workspace, and the Partner portal.
+This role provides granular access to organization staff to ensure a consistent experience across all user interfaces.**Note:** The Experience role needs to be manually inherited into other roles to view the Partner Relationship Management modules on ServiceNow platform, CSM Configurable Workspace, and the Partner portal.
 
 </td><td>
 

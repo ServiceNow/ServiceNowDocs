@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 14
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -56,7 +56,7 @@ The workspace displays the metrics of all the workplace cases under the **Overvi
     -   Copy the URL to the clipboard.
     -   Filter the list based on various conditions and view the filtered conditions in a side panel. You can also get an advanced view of these filters using the **Advanced view** option.
     -   Export the workplace cases into the desired format using the **Export** option.
-    -   Create a workplace case using the **New** option. For more information, refer to [Create a workplace service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/create-a-case-casemgmtworkspace.md). Instead of using the [Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-services-portal-wsd.md) to submit a workplace service request on behalf of an employee for any other reason, you can directly raise a request using the Case management workspace.
+    -   Create a workplace case using the **New** option. For more information, refer to [Create a workplace service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/create-a-case-casemgmtworkspace.md). Instead of using the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-services-portal-wsd.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-services-portal-wsd.md) to submit a workplace service request on behalf of an employee for any other reason, you can directly raise a request using the Case management workspace.
     -   Assign the case to a user using the **Assign** option.
     When you open the list view, the left panel displays a list view of the above metric cards. Additionally, the list view also enables you to view **All cases** and **All resolved cases**. You can also switch to the **My Lists** tab in the panel and create a custom list based on what other metrics you want to view using the **Add new list** option. For more information, refer to [Create your own list to view case metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/create-your-own-list-to-view-case-metrics.md).
 
@@ -87,7 +87,7 @@ On the list, you can perform the following actions:
 -   Apply filter conditions on the list and also change whenever needed.
 -   Assign a single or multiple cases to another user using the **Assign** option.
 -   Export the cases to the desired format using the **Export** option.
--   Create a workplace service case at any time using the **New** option. Instead of using the [Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-services-portal-wsd.md) to submit a workplace service request on behalf of an employee for any other reason, you can directly raise a request using the Case management workspace.
+-   Create a workplace service case at any time using the **New** option. Instead of using the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-services-portal-wsd.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-services-portal-wsd.md) to submit a workplace service request on behalf of an employee for any other reason, you can directly raise a request using the Case management workspace.
 
 ## Case details page
 
@@ -219,8 +219,4 @@ You can perform the following actions on a case at any time:
 [Neighborhood User Assignment Rule form]()
 
 [User Workplace Profile form]()
-
-[]()
-
-[]()
 

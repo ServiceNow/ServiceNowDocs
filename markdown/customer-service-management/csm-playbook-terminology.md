@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-playbook-terminology.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -63,7 +63,7 @@ An activity is one step in the overall business process represented in a playboo
 </td></tr></tbody>
 </table>## Playbook UI components
 
-Customer service agents interact with playbooks in CRM Workspace. The record pages that display playbooks in a workspace are created or customized in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md). Different components make up the playbook record pages.
+Customer service agents interact with playbooks in CSM Configurable Workspace. The record pages that display playbooks in a workspace are created or customized in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md). Different components make up the playbook record pages.
 
 <table id="table_a2t_xmt_bcc"><thead><tr><th>
 

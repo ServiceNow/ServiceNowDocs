@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Business Logic, Hardening settings, Platform Security]
 ---
@@ -16,9 +16,7 @@ breadcrumb: [Business Logic, Hardening settings, Platform Security]
 
 Configure the **sn\_kb\_social\_qa.max\_comments\_per\_user\_daily** property to restrict the number of QA comments per day.
 
-If the **sn\_kb\_social\_qa.max\_comments\_per\_user\_daily** system property is not set to the recommended value of `500` or less, then there will be no restriction on number of QA comments per day.
-
-Ensure that the property **sn\_kb\_social\_qa.max\_comments\_per\_user\_daily** is set to `500` or less.
+If this property is not set to the recommended value of **500** or less, there is no restriction on the number of QA comments per day which could lead to resource exhaustion.
 
 ## More information
 
@@ -52,7 +50,7 @@ Data type
 
 </td><td>
 
-String
+integer
 
 </td></tr><tr><td>
 
@@ -72,19 +70,11 @@ Default value
 
 </td></tr><tr><td>
 
-Fallback value
-
-</td><td>
-
-500
-
-</td></tr><tr><td>
-
 Category
 
 </td><td>
 
- 
+[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-business-logic.md)
 
 </td></tr><tr><td>
 
@@ -93,16 +83,8 @@ Security risk
 </td><td>
 
 -   Severity score: 3.7
--   CVSS rating: Low
--   Security risk details: Too many comments could lead to resource exhaustion.
-
-</td></tr><tr><td>
-
-Functional impact
-
-</td><td>
-
-None
+-   CVSS score: Low
+-   Security risk details: Not setting the recommended value of this property to 500 or less places no limit on QA comments per day which could lead to resource exhaustion.
 
 </td></tr><tr><td>
 

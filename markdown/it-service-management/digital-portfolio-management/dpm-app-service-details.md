@@ -7,7 +7,7 @@ release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-27"
 reading_time_minutes: 6
 breadcrumb: [Life-cycle management, Explore, Digital Portfolio Management, IT Service Management]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [Life-cycle management, Explore, Digital Portfolio Management, IT Se
 
 View information about service instances that may impact your solutions. Each Digital Portfolio Management \(DPM\) page presents the service instance life-cycle phase information in tabs, primarily Run and Info. The Risk tab displays when you have the Technology Lifecycle Management plugin \[sn\_apm\_tpm\] installed.
 
-As you view the following tables, keep in mind that what you can see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-related-products.md) for the required installs and plugins to see each data element.
+As you view the following tables, keep in mind that what you're able to see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-portfolio-management/dpm-related-products.md) for the required installs and plugins to see each data element.
 
 ## KPI groups for service instances
 
-If your organization uses the enterprise portfolio module with the latest enterprise portfolio tables, then an service instance rolls up to its related business application. This enables you to create a portfolio with business applications that will have the service instances. You could also create a separate portfolio for service instances which contains the application service. In both cases, the service instances inherit KPI groups from both portfolios.
+If your organization uses the enterprise portfolio module with the latest enterprise portfolio tables, then a service instance rolls up to its related business application. This enables you to create a portfolio with business applications that will have the service instances. You could also create a separate portfolio for service instances which contains the application service. In both cases, the service instances inherit KPI groups from both portfolios.
 
 -   A service instance can be in a business application portfolio because:
     -   Service instances roll up to business applications.
@@ -67,7 +67,7 @@ The inherited KPI groups from the enterprise portfolio.
 
 The service instance enterprise portfolio type contains service instances and isn't linked to a business application type.
 
- You can link an service instance to a business application enterprise portfolio type using cmdb\_rel\_ci. The parent should be a business application and the supporting item should be an service instance. The required relationship is **Consumes: Consumed by**.
+ You can link a service instance to a business application enterprise portfolio type using cmdb\_rel\_ci. The parent should be a business application and the supporting item should be a service instance. The required relationship is **Consumes: Consumed by**.
 
 </td></tr><tr><td>
 

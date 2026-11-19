@@ -1,22 +1,22 @@
 ---
-title: Create a product capability record
-description: Create a product capability record and associate it with one or more capability usage records.
+title: Create a product capability
+description: Create a product capability record and associate with one or more capability usage records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-create-prod-cap.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Product capabilities, Customer success, Configure, Customer Success Management]
+breadcrumb: [Customer success, Configure, Customer Success Management]
 ---
 
-# Create a product capability record
+# Create a product capability
 
-Create a product capability record and associate it with one or more capability usage records.
+Create a product capability record and associate with one or more capability usage records.
 
 ## About this task
 
-A product capability is the higher-level ability of a product to solve a problem or deliver value. Monitor the adoption and usage of specific product capabilities to understand how effectively those capabilities are being used.
+Product capability refers to specific features or functions that a product offers. You can monitor the adoption and usage of specific product capabilities and gain insights into how effectively the product's features are being used.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ A product capability is the higher-level ability of a product to solve a problem
 
 1.  Navigate to **All** &gt; **Capabilities &amp; Usage** &gt; **Capabilities** and select **New**.
 
-2.  On the form, complete these fields.
+2.  In the form, fill in these fields:
 
 <table id="table_egk_ysm_yfc"><thead><tr><th>
 
@@ -43,7 +43,7 @@ Name
 
 </td><td>
 
-Name for this capability.
+Enter a name for this capability.
 
 </td></tr><tr><td>
 
@@ -51,7 +51,7 @@ Description
 
 </td><td>
 
-Description of this capability.
+Enter a description for this capability.
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ Type
 
 </td><td>
 
-Type of capability. Options:-   Feature
+The options are:-   Feature
 -   Capability
 -   Technical Service
 Select **Capability** from the list.
@@ -70,14 +70,14 @@ Category
 
 </td><td>
 
-Category or area to which the capability belongs.
+Select the category or area to which the capability belongs.
 
 </td></tr></tbody>
-</table>3.  Navigate to the Product Capability Maps related list.
+</table>3.  Navigate to the **Product Capability Maps** related list.
 
-4.  Select **New** to associate this capability with a product model.
+4.  Select **New** to associate it this capability with a product model.
 
-5.  On the form, complete these fields.
+5.  In the form, fill in these fields.
 
 <table id="table_hpm_pvm_yfc"><thead><tr><th>
 
@@ -93,7 +93,7 @@ State
 
 </td><td>
 
-State of the map.-   Draft
+The state of the map.-   Draft
 -   Published
 -   Archived
 -   Canceled
@@ -105,7 +105,7 @@ Product model
 
 </td><td>
 
-Product to associate with this capability.
+Select the product with which the capability is to be associated.
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ Active
 
 </td><td>
 
-Automatically set to **True** when the product capability map is published.
+This flag is set to **True** when the product capability map is published.
 
 </td></tr><tr><td>
 
@@ -140,7 +140,7 @@ Availability date
 The availability date for this capability.
 
 </td></tr></tbody>
-</table>6.  In the **State** field, set the state to **Published**.
+</table>6.  In the **State** field, set the status to **Publish**.
 
 7.  Select **Submit**.
 
@@ -150,5 +150,5 @@ The availability date for this capability.
 -   **[Product and capability usage records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-prod-usage-data-model.md)**  
 The product and capability usage records are automatically created and updated when changes occur in sold product configurations, capability mappings, or in the data context engine.
 
-**Parent Topic:**[Configure product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-setup-prod-cap.md)
+**Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-config-cust-success.md)
 

@@ -1,5 +1,5 @@
 ---
-title: \(Legacy\) Test panel feedback
+title: Test panel feedback
 description: When testing your NLU model on the Try model section of the test panel, use this feature to provide feedback on the model's intent predictions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/test-model-panel-feedback.html
@@ -7,12 +7,12 @@ release: zurich
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [\(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
-# \(Legacy\) Test panel feedback
+# Test panel feedback
 
 When testing your NLU model on the Try model section of the test panel, use this feature to provide feedback on the model's intent predictions.
 

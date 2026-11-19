@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/certificates-page.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Certificates page
@@ -22,11 +22,11 @@ On the Certificate page, you can do the following.
 -   Generate a Sensor Bundle using a generated or user-submitted password.
 -   Generate a Collector Bundle using a generated or user-submitted password. This bundle is generated using the specified bundle format.
 
-**Note:** For how to renew a certificate, see [Renew a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/renew-a-certificate.md).
+**Note:** For how to renew a certificate, see .
 
 The following image shows the Certificates page.
 
-\[Omitted image "renew-certs1.png"\] Alt text: Certificates page
+\[Omitted image "image.renew-certs1"\] Alt text: Certificates page
 
 ## Certificate Authority
 
@@ -49,9 +49,4 @@ In the Collector Credentials section, you can generate Collector credentials, ge
 When ready, select **Generate Bundle**.
 
 **Note:** The certificate for the Discovery Console for OT and the Discovery Sensor for OT automatically renews when it is within 30 days of its expiration date.
-
--   **[Renew a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/renew-a-certificate.md)**  
-This section describes how to renew a certificate on the Certificates page.
-
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/using-discovery-console.md)
 

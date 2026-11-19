@@ -7,9 +7,9 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Collaboration workflow, Chargeback, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Reverse provisional credit
@@ -34,15 +34,17 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the transaction ID from the playbook.
+5.  Select the **Playbook** tab.
 
-    The **Chargeback** stage is initiated for the transaction.
+6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
 
-6.  Select the  **Reverse provisional credit** task.
+7.  The **Chargeback** stage is initiated for the transaction.
 
-7.  On the form, fill in the required fields and any other related information that you have gathered.
+8.  Select the  **Reverse provisional credit** activity.
 
-8.  Select **Close task**.
+9.  On the form, fill in the required fields and any other related information that you have gathered.
+
+10. Select **Close task**.
 
 
 **Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)

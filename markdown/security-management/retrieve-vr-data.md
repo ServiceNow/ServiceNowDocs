@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/retrieve-vr-data.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-29"
 reading_time_minutes: 3
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 Chat with an AI agent to retrieve information about Vulnerability Response \(host\) and Application Vulnerability Response findings \(vulnerable items and application vulnerable items\).
 
 ## Before you begin
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 The ServiceNow Otto® panel must be activated. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
@@ -111,6 +109,8 @@ The Security Exposure Management Workspace is supported by Unified Security Expo
     -   Be sure to check the answers for accuracy.
 5.  Enter follow up questions as needed.
 
-    See  for a list of sample questions to help you get started.
+    See [Sample queries for the Retrieve Vulnerability Response data agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-vr-retrieve-qbank.md) for a list of sample questions to help you get started.
 
+
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-unified-security-exposure-management.md)
 

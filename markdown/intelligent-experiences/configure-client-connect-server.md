@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-07-29"
 reading_time_minutes: 7
-breadcrumb: [Connect, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [Connect, MCP Server Console, Enable AI experiences]
 ---
 
 # Configure an MCP client to connect to an MCP server
@@ -187,7 +187,7 @@ Role required: sn\_mcp\_server.viewer and sn\_mcp\_client.admin
 4.  Select **New**.
 5.  Add the Quickstart Server.
 
-    For more information about this step, see [Add an MCP Server with OAuth 2.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-an-oauth-2-1-mcp-server.md).
+    For more information about this step, see [Add an MCP server with OAuth 2.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-an-oauth-2-1-mcp-server.md).
 
     1.  On the Add MCP server form, fill in the fields.
 
@@ -217,7 +217,7 @@ Role required: sn\_mcp\_server.viewer and sn\_mcp\_client.admin
     2.  Select **Allow** to allow the client to connect to the server.
 7.  Add tools from the Quickstart Server to an AI agent.
 
-    For more information about this step, see [Add a Model Context Protocol to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-mcp-server-tool.md).
+    For more information about this step, see [Add an MCP server tool to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-mcp-server-tool.md).
 
     1.  In AI Agent Studio, select the **Create and manage** tab.
     2.  From the AI agents tab, select an existing agent or create one.

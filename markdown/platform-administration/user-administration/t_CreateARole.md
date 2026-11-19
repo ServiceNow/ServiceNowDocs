@@ -7,9 +7,9 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Managing roles, User admin, Configure core features, Administer]
 ---
 
 # Create a role
@@ -50,9 +50,7 @@ Name
 
 </td><td>
 
-Enter a name for the role.**Note:**
-
-You can’t rename roles of any kind in the ServiceNow AI Platform. If you manually create a role, you can’t rename it after you save it.
+Enter a name for the role.
 
 </td></tr><tr><td>
 

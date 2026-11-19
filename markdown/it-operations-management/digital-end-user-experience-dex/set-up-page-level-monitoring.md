@@ -1,26 +1,26 @@
 ---
 title: Set up page-level monitoring
-description: Set up monitoring of the application performance at a specific page level. After the data is collected, you can view the performance metrics in the Metrics analyzer and in the device or application view.
+description: Set up monitoring of the application performance at a specific page level. When collected, you can view the performance metrics data in the Metrics analyzer and device or application view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/set-up-page-level-monitoring.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2025-10-17"
 reading_time_minutes: 1
 breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Set up page-level monitoring
 
-Set up monitoring of the application performance at a specific page level. After the data is collected, you can view the performance metrics in the Metrics analyzer and in the device or application view.
+Set up monitoring of the application performance at a specific page level. When collected, you can view the performance metrics data in the Metrics analyzer and device or application view.
 
 ## Before you begin
 
-The DEX browser extension must be installed on the end-user devices.
+DEX browser extension must be installed on the end-user devices.
 
-The application must already be in the list of monitored applications in **Application Management**.
+The application must be already in the list of monitored applications in **Application Management**.
 
 Role required: admin, dex\_admin
 
@@ -38,7 +38,7 @@ Role required: admin, dex\_admin
 
 5.  In the Edit web application form, select **Configure** under **Enable page-level monitoring**.
 
-6.  On the DEX Application Pages list, select **New**.
+6.  On DEX Application Pages, select **New**.
 
 7.  Complete the new record form as follows:
 
@@ -104,7 +104,7 @@ Metric Monitoring
 
 </td><td>
 
-Option to monitor the page when selected.This check box is selected by default.
+Check box to initiate monitoring the page.This check box is selected by default.
 
 </td></tr></tbody>
 </table>8.  Select **Submit**.
@@ -112,5 +112,7 @@ Option to monitor the page when selected.This check box is selected by default.
 
 ## Result
 
-When the metrics for the page are collected, you can view them in the Metrics analyzer. For details about viewing metrics, see [View collected metrics with Metrics analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/view-dex-metrics.md).
+When the metrics for the page are collected, you can see them from the Metrics analyzer. See [View collected metrics with Metrics analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/view-dex-metrics.md) for more details.
+
+**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-application-monitoring.md)
 

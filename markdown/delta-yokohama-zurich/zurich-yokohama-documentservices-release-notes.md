@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-documentservices-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -294,7 +294,7 @@ Document Services is a ServiceNow AI Platform feature that is active by default.
 
 Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate](https://www.servicenow.com/docs/access?context=activate-doc-mgmt-plugin&family=yokohama&ft:locale=en-US).
 
-[Multi Provider Document Services Framework](https://www.servicenow.com/docs/access?context=mp-document-services-framework-landing&family=yokohama&ft:locale=en-US) Install Multi Provider Document Services Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+[Multi Provider Document Services Framework](https://www.servicenow.com/docs/access?context=mp-document-services-framework-landing&family=yokohama&ft:locale=en-US) Install Multi Provider Document Services Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Multi Provider Document Services Framework is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -311,7 +311,7 @@ Document Services is a ServiceNow AI Platform feature that is active by default.
 
 Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate](https://www.servicenow.com/docs/access?context=activate-doc-mgmt-plugin&family=zurich&ft:locale=en-US).
 
-Multi Provider Document Services Framework needs to be installed by requesting it from the ServiceNow Store. For more information, see [Multi Provider Document Services Framework](https://www.servicenow.com/docs/access?context=mp-document-services-framework-landing&family=zurich&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Multi Provider Document Services Framework needs to be installed by requesting it from the ServiceNow Store. For more information, see [Multi Provider Document Services Framework](https://www.servicenow.com/docs/access?context=mp-document-services-framework-landing&family=zurich&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Multi Provider Document Services Framework is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

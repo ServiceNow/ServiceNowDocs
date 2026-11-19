@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Preview inline, Inline preview, ServiceNow AI Experience Lab for VS Code, Preview page]
-breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Use, ServiceNow AI Experience Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Preview a page
@@ -17,13 +17,13 @@ Test that your page appears and functions as intended.
 
 ## About this task
 
-Certain pages aren't previewable in the ServiceNow Lux Lab for VS Code extension and must be previewed by deploying to your instance. To learn about deploying, see [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md).
+Certain pages aren't previewable in the ServiceNow® AI Experience Lab for VS Code extension and must be previewed by deploying to your instance. To learn about deploying, see [Deploy changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.md).
 
 ## Before you begin
 
 Role required: none
 
-The ServiceNow Lux Lab for VS Code extension requires the following:
+The ServiceNow® AI Experience Lab for VS Code extension requires the following:
 
 <table id="table_imf_rfb_dkc"><thead><tr><th>
 
@@ -101,7 +101,7 @@ ServiceNow instance
 </td></tr></tbody>
 </table>## Procedure
 
-1.  Open a ServiceNow Lux Lab for VS Code project in Visual Studio Code.
+1.  Open a ServiceNow® AI Experience Lab for VS Code project in Visual Studio Code.
 
 2.  In the Explorer panel, navigate to the /pages folder.
 

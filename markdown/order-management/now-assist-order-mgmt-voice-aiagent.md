@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/now-assist-order-mgmt-voice-aiagent.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-21"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Order case self-service, Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Use, ServiceNow Otto for Order Management]
 ---
 
 # Request order changes via calls
@@ -46,7 +46,7 @@ Using the order exception AI voice agent, you can do the following:
 
     For example, say "I need it delivered by the end of this week", "I need to increase the quantity to 50 units", or "Ship it to my Boston warehouse instead".
 
-    The AI voice agent captures your request without performing inventory, quantity, or quote validation, and then offers to create an order case for an order case agent to resolve in the CRM Workspace.
+    The AI voice agent captures your request without performing inventory, quantity, or quote validation, and then offers to create an order case for an order case agent to resolve in the CSM Configurable Workspace.
 
 7.  Confirm when the agent asks whether you want to create a case for your order change request.
 
@@ -57,5 +57,5 @@ Using the order exception AI voice agent, you can do the following:
 
 The AI voice agent creates an order case for your request, with a system-generated number starting with the prefix ORDCS, and provides you with the case number over the call. Make a note of the case number, because no email confirmation is sent for order cases that are created through the voice channel.
 
-**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/order-case-self-service.md)
+**Parent Topic:**[Using ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-order-management-using.md)
 

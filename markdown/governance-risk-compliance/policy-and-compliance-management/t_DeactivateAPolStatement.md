@@ -7,9 +7,9 @@ release: zurich
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Manage, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage control objectives and policies, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Deactivate a control objective
@@ -28,9 +28,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 3.  In the control objective, clear the check box marked **Active**.
 
-4.  Select **Update**.
-
-    When you deactivate or retire a control objective, the system retires the controls generated from it.
+4.  Click **Update**.
 
 
 **Parent Topic:**[Manage control objectives and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/r_PoliciesAndProcedures.md)

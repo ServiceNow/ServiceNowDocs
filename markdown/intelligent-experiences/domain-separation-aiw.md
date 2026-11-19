@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/domain-separation-aiw.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-13"
+last_updated: "2026-08-19"
 reading_time_minutes: 1
 keywords: [domain separation ai specialists, domain separation autonomous workforce, domain separation ai workforce, domain support ai specialists, domain support ai workforce]
-breadcrumb: [Explore, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Explore, Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
 
 # Domain separation in Autonomous Workforce

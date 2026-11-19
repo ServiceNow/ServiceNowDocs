@@ -7,9 +7,8 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-keywords: [ServiceNow, Health Log Analytics, HLA, architecture, scaled]
 breadcrumb: [Exploring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 

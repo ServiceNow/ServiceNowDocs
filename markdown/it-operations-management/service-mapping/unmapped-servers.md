@@ -7,7 +7,7 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Service Mapping, Application Service, unmapped server, Service Mapping workspace]
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
@@ -39,15 +39,15 @@ Role required: service\_mapping\_admin
 
 2.  Select the unmapped server that you want to use to create an application service.
 
-<table id="choicetable_vyc_pgt_zfc"><thead><tr><th align="left" id="d663171e135">
+<table id="choicetable_vyc_pgt_zfc"><thead><tr><th align="left" id="d653530e133">
 
 Version of Service Mapping Plus
 
-</th><th align="left" id="d663171e141">
+</th><th align="left" id="d653530e139">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d663171e147">
+</th></tr></thead><tbody><tr><td id="d653530e145">
 
 **Versions released before version 1.16.3**
 
@@ -66,7 +66,7 @@ Actions
 5.  Select **Map application service**.
 
 
-</td></tr><tr><td id="d663171e227">
+</td></tr><tr><td id="d653530e225">
 
 **Starting with version 1.16.3**
 

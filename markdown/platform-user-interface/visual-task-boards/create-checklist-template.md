@@ -7,9 +7,9 @@ release: zurich
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Visual Task Board checklists, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [VTB checklists, Use, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Create a checklist template for Visual Task Board tasks
@@ -59,7 +59,7 @@ There are two ways that you can create a checklist template:
 
 12. Configure the fields for your new checklist template.
 
-<table id="choicetable_dtf_dxh_j1c"><tbody><tr><td id="d59893e200">
+<table id="choicetable_dtf_dxh_j1c"><tbody><tr><td id="d60116e206">
 
 **Group**
 
@@ -67,7 +67,7 @@ There are two ways that you can create a checklist template:
 
 You can use this field to limit the group of users that are allowed to use this checklist template.
 
-</td></tr><tr><td id="d59893e209">
+</td></tr><tr><td id="d60116e215">
 
 **Template**
 
@@ -99,7 +99,7 @@ The name of a checklist item.
 
 The order in which a checklist item appears in the checklist.
 
-</td></tr><tr><td id="d59893e277">
+</td></tr><tr><td id="d60116e283">
 
 **Name**
 
@@ -107,7 +107,7 @@ The order in which a checklist item appears in the checklist.
 
 The name of the checklist template.
 
-</td></tr><tr><td id="d59893e286">
+</td></tr><tr><td id="d60116e292">
 
 **User**
 

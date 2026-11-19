@@ -1,20 +1,20 @@
 ---
-title: Request TRM Product form the Service Catalog form
-description: The Request TRM Product form is used to submit a request for adding a new software or hardware product to the Technology Reference Model \(TRM\) library from the service catalog. Optionally, include one or more lifecycle records with the request.
+title: TRM Product Request using catalog form
+description: The TRM Product Request using catalog form is used to add or edit a request for including a new software or hardware product to the Technology Reference Model \(TRM\) library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/trm-prod-req-catalog-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Reference, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Request TRM Product form the Service Catalog form
+# TRM Product Request using catalog form
 
-The Request TRM Product form is used to submit a request for adding a new software or hardware product to the Technology Reference Model \(TRM\) library from the service catalog. Optionally, include one or more lifecycle records with the request.
+The TRM Product Request using catalog form is used to add or edit a request for including a new software or hardware product to the Technology Reference Model \(TRM\) library.
 
-## Request TRM Product form fields
+## TRM Product Request form fields
 
 <table id="table_lhw_qbv_3zb"><thead><tr><th>
 
@@ -26,19 +26,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Short description
+Publisher
 
 </td><td>
 
-Brief description of the product request.
-
-</td></tr><tr><td>
-
-Company
-
-</td><td>
-
-Company of the software or hardware product. Look up and select a company from the list.
+Publisher of the software product. Look up and select a publisher from the Companies page.
 
 </td></tr><tr><td>
 
@@ -50,27 +42,22 @@ Category of the product. Look up and select a category from the TRM Categories p
 
 </td></tr><tr><td>
 
-Other categories
-
-</td><td>
-
-Additional level of category classification of the TRM product. This field is enabled only after a value is selected in the **Category** field.
-
-</td></tr><tr><td>
-
 Type
 
 </td><td>
 
-The type of the product. Select **Software** or **Hardware**. The fields displayed in the form change based on the type selected.**Note:** The fields **New Product**, **Software Product**, and **Hardware Product** are displayed only when you have the Basic Software Asset Management and the Hardware Asset Management plugins installed on your instance.
+Select the type of the product. The list includes:-   Software
+-   Hardware
+
+**Note:** The fields **Is New Product**, **Software Product**, and **Hardware Product** are displayed only when you have the Basic Software Asset Management and the Hardware Asset Management plugin installed on your instance.
 
 </td></tr><tr><td>
 
-New Product
+Is New Product
 
 </td><td>
 
-Select this check box if the product does not yet exist in the system. When selected, the **Software Product** or **Hardware Product** field is replaced by the **Name** field.
+Option to specify if it’s a new product.
 
 </td></tr><tr><td>
 
@@ -78,15 +65,7 @@ Software Product
 
 </td><td>
 
-Name of the software product. This field appears and is required when **Software** is selected in the **Type** field and the **Is New Product** check box is not selected. This field is available when Basic Software Asset Management is installed on your instance.
-
-</td></tr><tr><td>
-
-Operating System
-
-</td><td>
-
-Operating system on which the product can be deployed. This field appears only when **Software** is selected in the **Type** field.
+Name of the software product. This field appears only when the **Type** is selected as **Software**, and when the Basic Software Asset Management is installed on your instance.
 
 </td></tr><tr><td>
 
@@ -94,7 +73,7 @@ Hardware Product
 
 </td><td>
 
-Name of the hardware product. This field appears and is required when **Hardware** is selected in the **Type** field and the **New Product** check box is not selected. This field is available when the Hardware Asset Management plugin is installed on your instance.
+Name of the hardware product. This field appears only when the **Type** is selected as **Hardware**, and when the Hardware Asset Management plugin is installed on your instance.
 
 </td></tr><tr><td>
 
@@ -102,7 +81,7 @@ Name
 
 </td><td>
 
-Name of the new software or hardware product. This field appears when the **New Product** check box is selected. This field replaces the **Software Product** or **Hardware Product** field.
+Name of the software or hardware product. This field appears only when the **Is New Product** check box is selected.
 
 </td></tr><tr><td>
 
@@ -110,15 +89,15 @@ Requested TRM Phase
 
 </td><td>
 
-Phase of the product. Look up and select a phase from the TRM Phases page. This field is required.
+Phase of the product. Look up and select a phase from the TRM Phases page.
 
 </td></tr><tr><td>
 
-Owner
+Short Description
 
 </td><td>
 
-User responsible for the TRM product. Defaults to the logged-in user.
+Description about the product request.
 
 </td></tr><tr><td>
 
@@ -129,26 +108,10 @@ Business Justification
 Business justification for the product request.
 
 </td></tr></tbody>
-</table>## TRM product lifecycles tab
-
-Use this tab to optionally add one or more lifecycle records as part of the product request. For field information, see [Request TRM product lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-trm-prod-lifecycle-req-form.md).
-
-**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-form-field-information.md)
+</table>**Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/apm-reference.md)
 
 **Related topics**  
 
 
-[Request a TRM product from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/add-edit-trm-prod-req.md)
-
-[Request a TRM product lifecycle from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/add-edit-trm-lifecycle-req.md)
-
-[Request TRM Product Lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/trm-product-lifecycle-request-form.md)
-
-[Request a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-request-a-trm-products.md)
-
-[Request a TRM product lifecycle in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-request-a-trm-product-lifecycle.md)
-
-[Create a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-trm-prod-lifecycle.md)
-
-[Create TRM product lifecycles in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
+[TRM Product Request using catalog form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/trm-prod-req-catalog-form.md)
 

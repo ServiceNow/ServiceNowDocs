@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Custom instance URLs, Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ A SAML or SSO installation needs the SP metadata generated for the IdP before th
 
 ## Before you begin
 
-Role required: custom\_url\_admin
+Role required: admin
 
 The IdP needs SP metadata for the instance to authenticate and forward requests.
 
@@ -28,7 +28,7 @@ The IdP needs SP metadata for the instance to authenticate and forward requests.
 
 1.  Choose your installed SSO plugin:
 
-<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d40608e84">
+<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d38354e89">
 
 **Multi-Provider SSO**
 
@@ -36,7 +36,7 @@ The IdP needs SP metadata for the instance to authenticate and forward requests.
 
 Navigate to **Multi-Provider SSO** &gt; **Identity Providers**. Choose an IdP and click the **Generate Metadata** button. The integration automatically generates the instance's SP metadata from the system property settings.
 
-</td></tr><tr><td id="d40608e105">
+</td></tr><tr><td id="d38354e110">
 
 **SAML 2 SSO**
 

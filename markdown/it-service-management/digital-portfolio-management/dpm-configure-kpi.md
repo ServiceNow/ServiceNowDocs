@@ -7,7 +7,7 @@ release: zurich
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Digital Portfolio Management, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Explore, Digital Portfolio Management, IT Service Management]
 
 Define and configure the key performance indicator \(KPI\) groups in DPM that matter most to you. When you associate KPI groups with your services and applications, you can analyze their performance in a centralized area.
 
-\[Omitted video\] Description: Use KPI groups.
+\[Omitted video\] Description: Configure KPI Groups
 
 With KPI groups, you can analyze the performance of each solution in several ways:
 

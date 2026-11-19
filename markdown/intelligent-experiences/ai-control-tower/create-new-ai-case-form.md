@@ -1,20 +1,20 @@
 ---
 title: Create new AI case form
-description: Use the Create New AI case form in the AI Control Tower to report an AI case with the necessary details.
+description: Use the Create New AI case form in the Control Tower to report an AI case with the necessary details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/create-new-ai-case-form.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Create an AI case in the AI Control Tower, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Create an AI case in the Control Tower, Use, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Create new AI case form
 
-Use the Create New AI case form in the AI Control Tower to report an AI case with the necessary details.
+Use the Create New AI case form in the Control Tower to report an AI case with the necessary details.
 
 See the following table for a description of the field values.
 
@@ -420,4 +420,5 @@ Additional comments \(Customer visible\)
 Additional information about the request that you want to share with your customers.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Create an AI case in the Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-ai-case-in-the-ai-control-tower.md)
+

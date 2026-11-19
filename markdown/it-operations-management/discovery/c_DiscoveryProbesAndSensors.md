@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -30,13 +30,11 @@ The probe collects the information and the sensor processes it. Both get their i
 
 \[Omitted image "ecc-queue-output.png"\] Alt text: The ECC queue
 
-The MID Server then processes all the output ECC messages, runs the necessary probes, and returns the probes results to the ECC queue. These results are put in the ECC queue as input entries.
+The MID Server then processes all the output ECC messages, runs the necessary probes, and returns the probes results to the ECC queue. These results are put in the ECC Queue as input entries.
 
 \[Omitted image "ecc-queue-input.png"\] Alt text: ECC queue record
 
 After an entry is inserted in the ECC Queue table, a business rule fires \(on insert\) that takes that information and runs it through a sensor processor. The sensor processor's job is to take the input data, find any sensors interested in that data, and pass it along to be processed. Those sensors ultimately update the CMDB.
-
-**Important:** Discovery now enforces code signing for probes, probe parameters, and sensors when code signing is enabled on the instance. Unsigned or tampered payloads are blocked, and signatures are validated before execution. For more information about code signing, see [Discovery on Code Signing instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/code-sign-disco-probes.md).
 
 ## How probes and sensors work together
 

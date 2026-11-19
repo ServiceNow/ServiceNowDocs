@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-25"
 reading_time_minutes: 6
 breadcrumb: [Viewing or editing a scenario, Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -26,8 +26,6 @@ Make sure that you have selected Indoor Mapping as your map provider to view map
 -   For more information about indoor mapping, see [Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/indoor-mapping/Indoor-mapping.md).
 
 **Important:** If allocation changes in your instance impact the scenario, the system displays a warning on the Space Details panel. You must review the changes, edit the scenario accordingly, then select **Move to valid** before continuing. For more information about allocation changes, see [Reviewing allocation changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/reviewing-allocation-changes.md).
-
-\[Omitted image "wsd-central-review-changes.png"\] Alt text: Space details panel displaying a warning about reviewing allocation changes.
 
 Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reader \(read only; to view a scenario\)
 
@@ -53,15 +51,15 @@ Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reade
 
 5.  Edit the scenario by using the floor map.
 
-<table id="choicetable_y3x_khj_3vb"><thead><tr><th align="left" id="d730342e217">
+<table id="choicetable_y3x_khj_3vb"><thead><tr><th align="left" id="d719733e209">
 
 Action
 
-</th><th align="left" id="d730342e220">
+</th><th align="left" id="d719733e212">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d730342e226">
+</th></tr></thead><tbody><tr><td id="d719733e218">
 
 **Zoom in or out on the map**
 
@@ -69,7 +67,7 @@ Description
 
 Use the zoom options \(\[Omitted image "zoom-options.png"\] Alt text: Zoom options.\) on the map.
 
-</td></tr><tr><td id="d730342e241">
+</td></tr><tr><td id="d719733e233">
 
 **Change the map to a different floor and building**
 
@@ -77,7 +75,7 @@ Use the zoom options \(\[Omitted image "zoom-options.png"\] Alt text: Zoom optio
 
 Select a building and floor from the **Building** and **Floor** list options.
 
-</td></tr><tr><td id="d730342e256">
+</td></tr><tr><td id="d719733e248">
 
 **Share a floor**
 
@@ -94,7 +92,7 @@ A link to the floor is copied and can be shared with other space planners. Make 
 -   You can only share floors from scenario planning.
 
 
-</td></tr><tr><td id="d730342e297">
+</td></tr><tr><td id="d719733e289">
 
 **Select spaces based on a filter query**
 
@@ -111,7 +109,7 @@ Spaces on the map are selected based on the conditions that you added.
 
  **Note:** You can select spaces only while editing a scenario.
 
-</td></tr><tr><td id="d730342e342">
+</td></tr><tr><td id="d719733e334">
 
 **View the details of a space**
 
@@ -123,7 +121,7 @@ The details of the selected spaces are displayed on the Space details panel sect
 
 **Note:** You can select spaces only while editing a scenario.
 
-</td></tr><tr><td id="d730342e358">
+</td></tr><tr><td id="d719733e350">
 
 **Edit the allocation of a space**
 
@@ -145,7 +143,7 @@ You can select multiple spaces by holding the Shift key. You can also hold the S
 5.  Select **Apply**, then save the scenario.
  **Note:** For Workplace Entities, if you add a parent and child entity as allocations, only the child entity is displayed on the map legend.
 
-</td></tr><tr><td id="d730342e439">
+</td></tr><tr><td id="d719733e431">
 
 **Edit the assignment type of a space**
 
@@ -160,7 +158,7 @@ You can select multiple spaces by holding the Shift key. You can also hold the S
 4.  Select **Apply**, then save the scenario.
 
 
-</td></tr><tr><td id="d730342e477">
+</td></tr><tr><td id="d719733e469">
 
 **Assign a user to a space**
 
@@ -178,7 +176,7 @@ You can also select multiple users.
 4.  Select **Apply**, then save the scenario.
 
 
-</td></tr><tr><td id="d730342e517">
+</td></tr><tr><td id="d719733e509">
 
 **Remove a user assigned to a space**
 
@@ -191,7 +189,7 @@ You can select only a single space to remove a user.
 2.  On the Space details panel, on the **Assignment** card, remove a user by selecting the remove assignment option.
 
 
-</td></tr><tr><td id="d730342e540">
+</td></tr><tr><td id="d719733e532">
 
 **Edit the display of user assignment and assignment type on the map**
 
@@ -203,7 +201,7 @@ You can select only a single space to remove a user.
     -   **Assignment type**: Option to display the type of assignment, that is, flexible or permanent.
 
 
-</td></tr><tr><td id="d730342e574">
+</td></tr><tr><td id="d719733e566">
 
 **View the map as defined in the Map Studio**
 
@@ -214,7 +212,7 @@ You can select only a single space to remove a user.
 
 The map displays spaces as defined in the Map Studio.
 
-</td></tr><tr><td id="d730342e597">
+</td></tr><tr><td id="d719733e589">
 
 **Change the opacity of colored spaces**
 

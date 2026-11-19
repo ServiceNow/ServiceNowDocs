@@ -7,7 +7,7 @@ release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Agile Development 2.0, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Agile Development 2.0.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d385918e107">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d374965e107">
 
 Option
 
-</th><th align="left" id="d385918e110">
+</th><th align="left" id="d374965e110">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d385918e116">
+</th></tr></thead><tbody><tr><td id="d374965e116">
 
 **Homepage**
 
@@ -46,7 +46,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Agile Development 2.0 from the **Plan** category.
 
 
-</td></tr><tr><td id="d385918e143">
+</td></tr><tr><td id="d374965e143">
 
 **Applications module**
 
@@ -58,7 +58,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Agile Development 2.0 from the **Plan** category.
 
 
-</td></tr><tr><td id="d385918e195">
+</td></tr><tr><td id="d374965e195">
 
 **Tools module**
 

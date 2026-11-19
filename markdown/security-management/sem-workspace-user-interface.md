@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-workspace-user-interface.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-16"
+last_updated: "2026-09-03"
 reading_time_minutes: 7
 keywords: [Security exposure management, workspace, Finding, Remediation, Watch topic]
 breadcrumb: [Explore, Unified Security Exposure Management, Security Operations]
@@ -43,7 +43,7 @@ Each view in the Security Exposure Management Workspace is designed for a specif
 |[Remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-workspaces-ui-remediation-module.md)|Plan, manage, and track remediation work across teams to ensure timely and effective resolution|Remediation owners, IT operations, security analysts|View assigned tasks, update progress, collaborate with owners, track deadlines|
 |[Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-workspace-list-page.md)|Access complete lists of findings, remediation tasks, approvals, and exceptions to monitor status, ownership, and progress.|Vulnerability analysts, remediation owners, security managers|Navigate predefined or custom lists, drill into records, create and manage custom lists, monitor status and ownership, and take follow-up actions such as updating records or processing approvals|
 |[Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-administration-console.md)|Configure and govern Security Exposure Management settings centrally to ensure consistent policies, integrations, and automation across the environment|Admins, Platform owners|Manage integrations, configure rules and automation, set up email notifications and templates, map severity levels, and customize visualization settings from a unified Admin Console|
-|[ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-usem-landing-ties.md)|Set up, manage, and optimize your generative‑AI solutions on the ServiceNow AI Platform in the Unified Security Exposure Management workspace.|Vulnerability analysts, vulnerability managers, vulnerability admins, and remediation owners|Use generative AI skills and agentic workflows for ServiceNow Otto for Unified Security Exposure Management to optimize and analyze your vulnerability data.|
+|[ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/now-assist-for-usem-landing-ties.md)|Set up, manage, and optimize your generative‑AI solutions on the ServiceNow AI Platform in the Unified Security Exposure Management workspace.|Vulnerability analysts, vulnerability managers, vulnerability admins, and remediation owners|Use generative AI skills and agentic workflows for ServiceNow Otto for Unified Security Exposure Management to optimize and analyze your vulnerability data.|
 
 ## Getting started
 
@@ -61,8 +61,6 @@ Explore detailed guidance for each Security Exposure Management Workspace view:
 
 [Viewing the Cloud Exposure View dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vr-cloud-exposure-view-db.md)
 
-[Security Assets page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-security-assets-page.md)
-
 [Security Exposure Management Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-unified-approval-rules-explore.md)
 
 [Security Exposure Management Workspace List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-workspace-list-page.md)
@@ -70,4 +68,6 @@ Explore detailed guidance for each Security Exposure Management Workspace view:
 [Administration in Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-administration-console.md)
 
 [Implementing Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configuring-security-exposure-management.md)
+
+[Security Exposure Management Workspace Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-health-dashboard-overview.md)
 

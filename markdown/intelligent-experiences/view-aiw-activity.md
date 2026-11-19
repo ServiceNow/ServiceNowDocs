@@ -1,17 +1,17 @@
 ---
-title: View the activity of an AI specialist in the legacy AI Agent Studio
+title: View the activity of an AI specialist in AI Agent Studio
 description: View the task execution history of an AI specialist in AI Agent Studio to track where and when it plans and attempts executions. You can also give feedback on its performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/view-aiw-activity.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-13"
+last_updated: "2026-08-11"
 reading_time_minutes: 2
 keywords: [AI specialist activity, AI specialist records]
-breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Use, Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
 
-# View the activity of an AI specialist inthe legacy AI Agent Studio
+# View the activity of an AI specialist in AI Agent Studio
 
 View the task execution history of an AI specialist in AI Agent Studio to track where and when it plans and attempts executions. You can also give feedback on its performance.
 

@@ -1,24 +1,24 @@
 ---
-title: ServiceNow AI Engagement dashboard
+title: ServiceNow AI Engagement
 description: The ServiceNow AI Engagement dashboard provides visibility into user adoption, utilization patterns, and performance metrics across all AI systems in your ServiceNow instance. Monitor AI action volume, user engagement trends, departmental usage, and task efficiency gains to identify adoption opportunities and system effectiveness.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/md-servicenow-ai-engagement.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-03"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow AI dashboard, Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [ServiceNow AI dashboard, Dashboards, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# ServiceNow AI Engagement dashboard
+# ServiceNow AI Engagement
 
 The ServiceNow AI Engagement dashboard provides visibility into user adoption, utilization patterns, and performance metrics across all AI systems in your ServiceNow instance. Monitor AI action volume, user engagement trends, departmental usage, and task efficiency gains to identify adoption opportunities and system effectiveness.
 
-## Engagement dashboard overview
+## Engagement overview
 
 The ServiceNow AI Engagement dashboard displays real-time and historical metrics that help administrators and stakeholders understand how AI systems are being adopted and used across the organization. Use this dashboard to track engagement trends, identify underutilized systems, and measure the productivity improvements delivered by AI automation.
 
-To view the ServiceNow AI Engagement dashboard on AI Control Tower, navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **ServiceNow AI** &gt; **Engagement**.\[Omitted image "aict-snow-ai-engmnt.png"\] Alt text: The ServiceNow AI Engagement dashboard displaying the insights with different widgets.
+To view the ServiceNow AI Engagement dashboard on Control Tower, navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **ServiceNow AI** &gt; **Engagement**.\[Omitted image "aict-snow-ai-engmnt.png"\] Alt text: The ServiceNow AI Engagement dashboard displaying the insights with different widgets.
 
 ## Total AI actions
 

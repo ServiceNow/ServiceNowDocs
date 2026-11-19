@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/deployment-scenarios.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-24"
 reading_time_minutes: 3
 breadcrumb: [Deploy Operational Technology Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -66,7 +66,5 @@ A segmented site architecture with multiple networks is a network design that ha
 -   Deploy Sensors in each segment where the Sensor can perform active discovery in the segment and collect network traffic and can scan or query for known protocols \(for example, Modbus, DNP3, BACnet\). It reports findings to its segment's Console.
 -   If you use an existing host to do the discovery in the network such as Human Machine Interface \(HMI\) or Engineering Workstation \(EWS\), you can install the OT Discovery Collector to perform discovery.
 
-\[Omitted image "seg-site-multi.png"\] Alt text: Micro-segmented site with multiple networks
-
-**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/deploy-ot-discovery-devices-landing.md)
+\[Omitted image "image.seg-site-multi"\] Alt text: Micro-segmented site with multiple networks
 

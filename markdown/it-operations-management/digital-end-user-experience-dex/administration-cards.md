@@ -1,20 +1,20 @@
 ---
 title: Administration cards
-description: Administration cards let you monitor and manage applications, including adding, turning on, or turning off cards. Use administration cards to review compliance policies, view DEX users and DEX administrators, and manage metric rules and devices that have Agent Client Collector installed.
+description: The administration cards provide you with the capability to monitor and manage applications, where you can add, enable, or disable as necessary. You can get insights into the policies applied for compliance, view the list of DEX users and DEX administrators, manage the metric rules and devices with Agent Client Collector installed for data analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/administration-cards.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # Administration cards
 
-Administration cards let you monitor and manage applications, including adding, turning on, or turning off cards. Use administration cards to review compliance policies, view DEX users and DEX administrators, and manage metric rules and devices that have Agent Client Collector installed.
+The administration cards provide you with the capability to monitor and manage applications, where you can add, enable, or disable as necessary. You can get insights into the policies applied for compliance, view the list of DEX users and DEX administrators, manage the metric rules and devices with Agent Client Collector installed for data analysis.
 
 <table id="table_rjd_p1l_1xb"><thead><tr><th>
 
@@ -62,7 +62,7 @@ Applications management
 
 </td><td>
 
-Look up and configure web and installed applications that are currently being monitored.
+Look up and configure web and installed applications that are currently being monitored
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Create Remedial Actions
 
 </td><td>
 
-Create your custom remedial actions from check definitions to resolve endpoint-related issues using the Playbook.
+Create your custom remedial actions from check definitions to resolve end-point related issues using the Playbook.
 
 </td></tr><tr><td colspan="2">
 
@@ -164,21 +164,23 @@ Desktop Assistant usage
 
 </td><td>
 
-Get insight into Desktop Assistant usage across all your organization's employees. For more information, see [View Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/view-da-usage-metrics.md).
+Get an insight of Desktop Assistant usage across all your organization's employees. For more information, see [View Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/view-da-usage-metrics.md).
 
 </td></tr></tbody>
 </table>To return to the administration details page, see [DEX Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-workspace-administration-tab.md).
 
 -   **[Application management card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/app-mngmt-card.md)**  
-The Application management card lists the applications in use, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
--   **[Add web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/admin-new-app-form.md)**  
+The Application management card shows the list of the used applications, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
+-   **[New web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/admin-new-app-form.md)**  
 Using a custom form, you can add an application to be monitored for compliance or performance metrics.
 -   **[Edit web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/admin-edit-app-form.md)**  
 Using a custom form, you can edit an application to be monitored for compliance or performance metrics.
--   **[Alert rules page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/metric-rule-form.md)**  
-The alert rules page shows information about a specific rule, including its name, app type, rule type, application name, alert severity, and alert status.
+-   **[Metric rules page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/metric-rule-form.md)**  
+The metric rules page shows information about a specific rule, including its name, CI type, application name, alert severity, and alert status.
 -   **[Agent policies list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/agent-policies-list.md)**  
 The agent policies list shows information about each agent policy including its name, status, cron expressions, and updated time.
+-   **[Digital End-User Experience Remedial Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-diff-ra.md)**  
+ServiceNow® Digital End-User Experience \(DEX\) provides base system remedial actions to resolve issues on DEX monitored devices.
 
 **Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-console-reference.md)
 

@@ -8,9 +8,9 @@ product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
 last_updated: "2026-10-26"
-reading_time_minutes: 3
+reading_time_minutes: 1
 keywords: [configure, install, developer sandboxes, sandbox license assignment, sandbox properties]
-breadcrumb: [Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Developer Sandboxes, Developing your application, Building applications]
 ---
 
 # Developer Sandboxes installation and configuration
@@ -33,10 +33,6 @@ Complete these tasks in the following order. You must install Developer Sandboxe
 
     If you use single sign-on \(SSO\), set the properties on the base instance that let developers use SSO to access sandboxes.
 
-4.  [Assign licenses to instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dsb-license-allocation-about.md)
-
-    Assign purchased sandbox packs to non-production instances from App Engine Management Center \(AEMC\) without opening a support case. You need access to AEMC with the sandbox\_license\_admin role role to open the license assignment page, and the app\_engine\_admin role is required.
-
 
 ## Additional configuration information
 
@@ -46,7 +42,7 @@ Use these topics to set up related features and look up what is installed with D
 
     Set up domain separation on the base instance before sandboxes are created, so that sandboxes inherit the domains you define.
 
--   [Components installed with Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dsb-installed-with.md)
+-   [Tables installed with Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dsb-installed-with.md)
 
     Look up the roles, plugins, and tables that are installed with Developer Sandboxes.
 
@@ -54,21 +50,4 @@ Use these topics to set up related features and look up what is installed with D
 
     Look up the system properties that govern sandbox behavior, such as node counts, table configuration, and data copy settings.
 
-
--   **[Developer Sandboxes entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-entitlements.md)**  
-Your company's entitlements determine whether you have access to Developer Sandboxes.
--   **[Developer Sandboxes installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-installing.md)**  
-Developer Sandboxes is installed on your instance, with licenses from a pack assigned by your admin. Review prerequisites and plugin requirements before installation begins.
--   **[Single sign-on for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-sso.md)**  
-Sandboxes use the same login credentials as the base instance, including single sign-on \(SSO\) when it's enabled there. Set the required properties on the base instance so developers can use SSO to access sandboxes.
--   **[License assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dsb-license-allocation-about.md)**  
-License assignment in App Engine Management Center \(AEMC\) lets Developer Sandboxes admins distribute purchased sandbox packs across non-production instances without opening a support case. Each pack contains 10 sandboxes, and assignments are managed from a license management instance.
--   **[Developer Sandboxes domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dsb-domain-separation.md)**  
-Domain separation is supported for Developer Sandboxes. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Components installed with Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dsb-installed-with.md)**  
-Several types of components are installed with activation of Developer Sandboxes, including tables and user roles.
--   **[Properties installed with Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dsb-properties-installed.md)**  
-The system properties available in Developer Sandboxes govern application behavior, enabling developers to configure and optimize their testing environments effectively.
-
-**Parent Topic:**[Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/sandboxes-landing.md)
 

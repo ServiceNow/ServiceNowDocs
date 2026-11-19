@@ -7,7 +7,7 @@ release: zurich
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-27"
 reading_time_minutes: 4
 breadcrumb: [Explore, Task Mining, Platform Analytics]
 ---

@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector Monitoring reference
@@ -39,5 +39,5 @@ The event severity numbers correspond to actual severities on the Metric Anomaly
 -   **[Agent Client Collector Monitoring system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-monitoring-system-properties.md)**  
 Lists the Agent Client Collector Monitoring system properties that control monitoring behavior.
 
-**Parent Topic:**[Agent Client Collector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-reference.md)
+**Parent Topic:**[Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-landing-page.md)
 

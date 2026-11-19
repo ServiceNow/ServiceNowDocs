@@ -1,5 +1,5 @@
 ---
-title: Continual Improvement Management roles
+title: CIM roles
 description: Roles are added with installation of Continual Improvement Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/continual-improvement-management/cim-roles.html
@@ -7,12 +7,12 @@ release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Reference, Continual Improvement Management, IT Service Management]
 ---
 
-# Continual Improvement Management roles
+# CIM roles
 
 Roles are added with installation of Continual Improvement Management.
 
@@ -100,10 +100,13 @@ Can perform all application functions and is responsible for all improvements.- 
 
 </td><td>
 
-sn\_cim.improvement\_coordinator
+-   sn\_cim.improvement\_coordinator
+-   sn\_process\_optimization\_viewer
 
 </td></tr></tbody>
-</table>## Automatic assignment of the Improvement Requester role
+</table>For information about assigning user roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AssignARoleToAUser.md).
+
+## Automatic assignment of the Improvement Requester role
 
 The Improvement Requester \(sn\_cim.improvement\_requester\) role is automatically assigned to the roles listed in the following table when CIM is activated.
 

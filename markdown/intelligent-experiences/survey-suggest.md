@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/survey-suggest.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-27"
+last_updated: "2026-09-28"
 reading_time_minutes: 5
-breadcrumb: [Platform agentic workflows, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # Platform Propose survey responses agentic workflow
@@ -21,8 +21,6 @@ The Propose survey responses agentic workflow can help simplify and increase sur
 When this agentic workflow and trigger are activated, the assignee receives an email with AI-suggested answers to their survey based on the associated Incident or Request. They then have the option to accept the AI-generated answers with a link at the bottom of the email. They can also choose to fill out the survey manually.
 
 The agents, tools, and triggers that are associated with the Propose survey responses agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-aia-use-case.md) by making the trigger active. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your needs, and activate the duplicated version of the agentic workflow instead.
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Prerequisites and setup
 
@@ -42,13 +40,7 @@ In the data access settings, you must also add the necessary roles to enable rea
 
 ## Accessing the Propose survey responses agentic workflow
 
-To access the agentic workflow in AI Agent Studio:
-
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
-2.  Select the **Agentic workflows** tab.
-3.  Select **Propose survey responses**.
-
-To access the agentic workflow in the legacy AI Agent Studio:
+To access the agentic workflow:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Propose survey responses**.

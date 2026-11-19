@@ -1,16 +1,16 @@
 ---
-title: Instance Observer alert notifications
+title: Instance Observer Notifications
 description: Notifications for alerts and other system activity are displayed on the Instance Observer banner.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/i-o-notifications.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
+breadcrumb: [Alerts in Instance Observer, Overview of Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
-# Instance Observer alert notifications
+# Instance Observer Notifications
 
 Notifications for alerts and other system activity are displayed on the Instance Observer banner.
 
@@ -28,6 +28,4 @@ The bell \(\[Omitted image "io-bell-icon.png"\] Alt text: Bell icon.\) icon noti
 The \[Omitted image "io-bell-icon.png"\] Alt text: Bell icon. icon displays the number of new notifications, and clicking it opens a pop-up with up to 25 recent notifications, with excess moved to history. The last two feature releases and critical Auriga alerts are pinned at the top. You can open specific pages for new releases, Auriga, Self Service, and Monitoring alerts.
 
 Notifications can be dismissed, marked as read, and managed through options to clear all or view history, which retains unread notifications for 72 hours and read ones for 7 days. The **View notification history** includes filtering and search capabilities by Instance, status, metric, and notification type.
-
-**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-alerts-intro.md)
 

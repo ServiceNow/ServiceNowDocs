@@ -101,5 +101,5 @@ Plugins and applications are installed with ITOM Visibility, and application dep
 
 [Plugins activated with ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/plugin-itom-optimization.md)
 
-[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/app-now-assist-itom.md)
+[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)
 

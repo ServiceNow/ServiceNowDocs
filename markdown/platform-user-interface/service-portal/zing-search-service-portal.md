@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -74,8 +74,8 @@ Search facets render in the Faceted Search widget on the sp\_search page. In new
 
     |API|Use|
     |---|---|
-    |[SPScriptedFacetService - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/SPScriptedFacetServiceScopedAPI.md)|Creates a single or multi choice facet.|
-    |[SPScriptedFacet - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/SPScriptedFacetScopedAPI.md)|Defines facet items, filters, or mapped queries for the facet.|
+    |SPScriptedFacetService - Scoped|Creates a single or multi choice facet.|
+    |SPScriptedFacet - Scoped|Defines facet items, filters, or mapped queries for the facet.|
 
 
 -   **[Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/add-table-search-source.md)**  

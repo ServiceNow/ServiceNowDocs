@@ -1,0 +1,18 @@
+---
+title: Explore Value templates
+description: Explore the Value templates section on the Configurations page of Control Tower.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/aict-value-templates.html
+release: zurich
+product: AI Control Tower
+classification: ai-control-tower
+topic_type: concept
+last_updated: "2026-02-26"
+reading_time_minutes: 1
+breadcrumb: [Controls, Configurations, Control Tower dashboard, Explore, Control Tower \(legacy\), Enable AI experiences]
+---
+
+# Explore Value templates
+
+Explore the Value templates section on the Configurations page of Control Tower.
+

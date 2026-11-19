@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/add-dependencies-based-on-cmdb.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Identify critical dependencies, Assess impact categories and dependencies of process, Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,9 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 ## About this task
 
-Application, Hardware, and Software dependency groups use class extensions to populate configuration items and discover technologies or software. You can add items by filtering records based on the item’s relationship with the BIA dependency group. You can also add items by selecting them from all records.
+For Application, Hardware, or Software dependency groups that use class extensions, add items by filtering records based on the item's relationship with the BIA dependency group.
+
+Class extensions populate configuration items and discover technologies or software. You can also add items by selecting them from all records.
 
 For example, your business function, Accounts Receivable, may depend on the business application, Acrobat, to complete a business process. Therefore, the relationship is captured as Depends on::Used by. The Accounts Receivable business function depends on the Acrobat application item, and the Acrobat application is used by Accounts Receivable. Similarly, your business function may depend on other dependency groups like software technology or hardware to accomplish a business process.
 

@@ -7,8 +7,8 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2025-07-31"
+reading_time_minutes: 2
 keywords: [HLA installation, Health Log Analytics installation, installing HLA, installing Health Log Analytics, installing ServiceNow HLA, installing ServiceNow Health Log Analytics]
 breadcrumb: [Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -21,7 +21,7 @@ Install Health Log Analytics by requesting ServiceNow HLA installation from Serv
 
 Verify that the Health Log Analytics application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. To obtain the entitlements, contact your ServiceNow Solution Consultant.
 
-The minimum version of the ServiceNow AI Platform required for Health Log Analytics installation is Brazil.
+The minimum version of the ServiceNow AI Platform required for Health Log Analytics installation is Zurich.
 
 **Important:** Health Log Analytics uses the default user sn\_occ\_occultus for internal communication. Make sure that this user is active and do not deactivate it.
 
@@ -90,8 +90,6 @@ The Health Log Analytics application is installed and provisioned on your instan
 -   [Set up the data input process for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-implement.md)
 -   \(Optional\) Install the ServiceNow® Agent Client Collector Log Analytics \(ACC-L\) plugin.
 
-    Agent Client Collector Log Analytics enables you to stream log data from Linux and Windows hosts to a ServiceNow instance using the Agent Client Collector. For more information, see the [Agent Client Collector Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-log-analytics.md) documentation.
+    Agent Client Collector Log Analytics enables you to stream log data from Linux and Windows hosts to a ServiceNow instance using the Agent Client Collector.
 
-
-**Parent Topic:**[Configuring Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-configuring.md)
 

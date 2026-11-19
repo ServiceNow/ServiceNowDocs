@@ -1,26 +1,26 @@
 ---
 title: Update instance URL in the Desktop Assistant configuration file
-description: As an administrator, update the instance URL in the Desktop Assistant configuration file to automatically populate the Desktop Assistant login page instance URL on devices where it is installed.
+description: As a system administrator, update the instance URL in the Desktop Assistant configuration file to automatically populate the Desktop Assistant login page instance URL on devices on which it is installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/update-da-instance-url.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Download and install, Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Download and install, Set up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Update instance URL in the Desktop Assistant configuration file
 
-As an administrator, update the instance URL in the Desktop Assistant configuration file to automatically populate the Desktop Assistant login page instance URL on devices where it is installed.
+As a system administrator, update the instance URL in the Desktop Assistant configuration file to automatically populate the Desktop Assistant login page instance URL on devices on which it is installed.
 
 ## Before you begin
 
 Role required: admin
 
-**Note:** Only an administrator must update the configuration file or make changes to it while deploying Desktop Assistant on devices.
+**Note:** Only the system administrator must update the configuration file or make changes to it while deploying Desktop Assistant on devices.
 
 Desktop Assistant users can update the instance URL when logging in to the application. For more information, see [Open and log in to Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/open-desktop-exp.md).
 
@@ -31,13 +31,13 @@ Desktop Assistant users can update the instance URL when logging in to the appli
     -   On Windows devices: Navigate to the `C:\Users\user_name\AppData\Roaming\desktop_assistant_app` folder.
     -   On macOS devices: Navigate to the `Users/user_name/Library/Application Support/desktop_assistant_app` folder.
 
-        **Note:** If you don’t see a folder, press Command+Shift+period \(.\) to show hidden folders.
+        **Note:** If you don’t see a folder, use Command+Shift+period \(.\) key to show hidden folders.
 
 2.  Find and open the `settings.json` file.
 
 3.  Enter the Desktop Assistant instance URL in the **instanceURL** field of the JSON file.
 
-    You can also customize the Desktop Assistant login page by changing the **loginHeader**, **loginBody**, and **companyLogoSvg** values in the configuration file.
+    In addition to the instance URL, system administrators can also customize the Desktop Assistant login page by changing the loginHeader, loginBody, and companyLogoSvg values in the configuration file.
 
 4.  Save and close the JSON file.
 

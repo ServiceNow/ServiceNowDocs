@@ -1,20 +1,20 @@
 ---
-title: Tables installed with AI Control Tower
-description: Certain Tables or fields are installed along with the activation of the AI Control Tower core plugin.
+title: Tables installed with Control Tower
+description: Certain tables or fields are installed along with the activation of the Control Tower core plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/tables-installed-with-ai-control-tower.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference \(legacy\), Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# Tables installed with AI Control Tower
+# Tables installed with Control Tower
 
-Certain Tables or fields are installed along with the activation of the AI Control Tower core plugin.
+Certain tables or fields are installed along with the activation of the Control Tower core plugin.
 
 The following table is provided to understand the AI assessment and AI task fields.
 
@@ -40,6 +40,8 @@ The following table is provided to understand the AI assessment and AI task fiel
 |Approval|approval|Reference \(sysapproval\)|
 |State|state| |
 |Type|type|Choice|
+
+**Parent Topic:**[Super Intelligence Control Tower reference \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/aict-references.md)
 
 **Related topics**  
 

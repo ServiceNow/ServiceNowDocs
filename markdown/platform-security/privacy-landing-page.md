@@ -1,19 +1,21 @@
 ---
 title: Platform Privacy
-description: Privacy enables you to mask the sensitive date on the instance.
+description: Privacy enables you to mask sensitive data on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/privacy-landing-page.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-01-20"
 reading_time_minutes: 1
 ---
 
 # Platform Privacy
 
-Privacy enables you to mask the sensitive date on the instance.
+Privacy enables you to mask sensitive data on your instance.
 
-<table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
+## Store Applications
+
+<table id="table_sl5_sz3_jgc" class="nav-card"><tbody><tr><td>
 
 [Data Privacy\[Omitted image "bus-security.svg"\] Alt text: Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/data-privacy-landing.md)
 
@@ -25,7 +27,16 @@ Privacy enables you to mask the sensitive date on the instance.
 
  [Use Data Discovery to identify sensitive data within an instance to classify, protect, or report.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/data-discovery-landing.md)
 
-</td></tr><tr><td>
+</td></tr></tbody>
+</table>## Plugins
+
+<table id="table_km5_5z3_jgc"><tbody><tr><td>
+
+[Data Privacy \(Classic\)\[Omitted image "bus-security.svg"\] Alt text: Privacy Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/data-privacy-classic.md)
+
+ [Use the legacy Data Privacy\(Classic\) plugin.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/data-privacy-landing.md)
+
+</td><td>
 
 [Data Anonymization\[Omitted image "bus-security.svg"\] Alt text: Data anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy-classic/dps-data-anonymization.md)
 

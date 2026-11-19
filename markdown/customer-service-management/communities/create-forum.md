@@ -7,8 +7,8 @@ release: zurich
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2025-07-31"
+reading_time_minutes: 2
 breadcrumb: [Configure community forums, Configuring communities, Communities, Customer Service Management]
 ---
 
@@ -19,10 +19,6 @@ Create a forum to provide a place for users to share content. You can configure 
 ## Before you begin
 
 Role required: sn\_communities.admin
-
-**Important:**
-
-Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -79,7 +75,7 @@ The forum title is visible to registered community users. Community users must r
         -   **Permission**: **Question &amp; Answer Read**.
     3.  In the **Approval Flow for Membership** field, perform one of the following options.
 
-<table id="choicetable_qcd_dlc_t1b"><tbody><tr><td id="d174821e271">
+<table id="choicetable_qcd_dlc_t1b"><tbody><tr><td id="d156344e252">
 
 **Leave the __Approval Flow for Membership__ field blank.**
 
@@ -87,7 +83,7 @@ The forum title is visible to registered community users. Community users must r
 
 Membership requests to the forum are automatically approved.
 
-</td></tr><tr><td id="d174821e283">
+</td></tr><tr><td id="d156344e264">
 
 **Select the preconfigured approval flow __Forum Membership Approval__.**
 
@@ -95,7 +91,7 @@ Membership requests to the forum are automatically approved.
 
 A task is created and sent to the community or forum administrator for approval.
 
-</td></tr><tr><td id="d174821e295">
+</td></tr><tr><td id="d156344e276">
 
 **Select a flow that you have created.**
 

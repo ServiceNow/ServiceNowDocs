@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ The system can perform default binding using the **Node** field or the **CI Iden
 
 When an event enters the system, a key field like **Node** is available in the event record. However, there is no **Node** field in the CI. Instead, the node value from the event is compared with various attributes in the host CI, such as Name, Fully Qualified Domain Name \(FQDN\), IP, or MAC address. If a match is found, the alert is linked to the corresponding CI. This is the default method for binding alerts to CIs.
 
-The **sa.active\_operation\_status** property controls IP/MAC binding via the node field. The system ignores hosts whose operational status is not in this property or is null. The default value is "1" \(Operational\). You can add statuses to the list; any status in the list is considered during binding.
+The **sa.active\_operational\_status** property controls IP/MAC binding via the node field. The system ignores hosts whose operational status is not in this property or is null. The default value is "1" \(Operational\). You can add statuses to the list; any status in the list is considered during binding.
 
 Example: If **sa.active\_operational\_status** = "1,2", then both Operational and Non-operational hosts are considered valid for binding. The status attribute is defined by the following values:
 
@@ -32,13 +32,15 @@ Example: If **sa.active\_operational\_status** = "1,2", then both Operational an
 -   4 – DR Standby
 -   6 – Retired
 
-**Note:** In this binding process, the CI must be a host. Host CIs include Computers, Operating Systems \(OS\), Switches, Routers, or any CI type/class that extends the \[cmdb\_ci\_hardware\] table, meaning the CI type or class must be a hardware component.
+**Note:** Node-based binding requires the CI to be a host. Host CIs include Computers, Operating Systems \(OS\), Switches, Routers, or any CI type/class that extends the \[cmdb\_ci\_hardware\] table. CI Identifier matching applies only when Node matching fails and can match a CI of any class.
 
 If no match is found using node, the system looks at the **CI Identifier** field on the event record. The **CI Identifier** is a JSON structure containing column names and values for comparison \(e.g., Name, Fully qualified domain name, IP, or MAC Address\). The JSON is: \{"column\_name":"&lt;column\_value&gt;"\}. For example, if we want to bind to a CI identified by **serial\_number** whose value is **Dell Latitude 7420 Laptop**, the JSON is: `{"serial_number":"Dell Latitude 7420 Laptop"}`. If a match is found, the alert is linked to the corresponding CI.
 
 ## Difference between binding with Node vs. CI Identifier
 
-In default binding, the system considers all fields in the **Additional Information** field and attempts to match their values with the CI table. The **CI Identifier** field allows specifying particular fields for matching, even if they are not present in **Additional Information**. This process uses a predefined JSON structure and applies only when the CI is a host.
+In CI field matching, the system considers all fields in the **Additional information** field whose names match columns in the selected CI type's table. It attempts to match their values to a single CI.
+
+In default binding, the **CI Identifier** field allows you to specify particular fields for matching, even if they aren't present in **Additional information**. This process uses a predefined JSON structure, applies only when the **Node** field doesn't match a host, and can match a CI of any class.
 
 **Note:** Even if the **Node** or the **CI Identifier** successfully binds the alert with the CI, event rules further determine how the binding occurs using the **Override default binding** check box available in Event rules. This ensures that alerts are bound correctly based on business logic, not just direct matches. This ensures that alerts are bound correctly based on business logic, not just direct matches.
 

@@ -1,24 +1,24 @@
 ---
 title: Enable Virtual Agent or chat
-description: Enable Virtual Agent so that employees can find answers to their questions without waiting on hold or calling an agent.
+description: Enable Virtual Agent to find solutions to your queries quickly and seamlessly, without having to wait on hold or speak with an agent by phone.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/enable-va-chat.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Enable Virtual Agent or chat
 
-Enable Virtual Agent so that employees can find answers to their questions without waiting on hold or calling an agent.
+Enable Virtual Agent to find solutions to your queries quickly and seamlessly, without having to wait on hold or speak with an agent by phone.
 
 ## Before you begin
 
-The Virtual Agent plugin \(com.glide.cs.chatbot\) must be installed and active.
+Make sure that you have installed the Virtual Agent plugin \[com.glide.cs.chatbot\] and the plugin is active.
 
 Role required: sn\_dex\_desktop.admin
 
@@ -28,7 +28,7 @@ Role required: sn\_dex\_desktop.admin
 
 2.  On the Desktop Assistant page, select the **Virtual agent enabled** check box.
 
-    For information about how to configure Virtual Agent, see [Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-virtual-agent.md).
+    For information on how to configure Virtual Agent, see [Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-virtual-agent.md).
 
 3.  Select **Update**.
 
@@ -36,6 +36,6 @@ Role required: sn\_dex\_desktop.admin
 
 4.  To open the chat window, select the Virtual Agent or chat icon \[Omitted image "icon-virtual-agent.png"\] Alt text: from the Desktop Assistant header.
 
-    For information about how to configure chat branding, see [Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ac-configure-chat-branding.md).
+    For information on how to configure chat branding, see [Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ac-configure-chat-branding.md).
 
 

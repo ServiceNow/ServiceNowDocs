@@ -1,5 +1,5 @@
 ---
-title: Data input configuration fields
+title: Data input configuration field descriptions
 description: This section provides descriptions of the fields on the Health Log Analytics data input configuration forms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-data-input-config-fields.html
@@ -7,12 +7,12 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Data input configuration fields
+# Data input configuration field descriptions
 
 This section provides descriptions of the fields on the Health Log Analytics data input configuration forms.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
+breadcrumb: [Use, Employee Center Pro, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Schedule an appointment
@@ -26,15 +26,15 @@ Role required: none
 
     Some entry points might not be available based on the configuration set by the admin.
 
-<table id="choicetable_jch_n5z_mdc"><thead><tr><th align="left" id="d279230e57">
+<table id="choicetable_jch_n5z_mdc"><thead><tr><th align="left" id="d274227e58">
 
 Entry Point
 
-</th><th align="left" id="d279230e60">
+</th><th align="left" id="d274227e61">
 
 Steps to schedule appointment
 
-</th></tr></thead><tbody><tr><td id="d279230e66">
+</th></tr></thead><tbody><tr><td id="d274227e67">
 
 **Employee Center**
 
@@ -45,7 +45,7 @@ Steps to schedule appointment
 -   In the **Human resources** menu, in the **Quick links** section, select **Schedule appointment**.
 
 
-</td></tr><tr><td id="d279230e109">
+</td></tr><tr><td id="d274227e110">
 
 **Employee Center Pro Kiosk**
 
@@ -53,7 +53,7 @@ Steps to schedule appointment
 
 In the **Get support** section, select **Schedule appointment**.
 
-</td></tr><tr><td id="d279230e126">
+</td></tr><tr><td id="d274227e127">
 
 **Knowledge Base article**
 
@@ -61,7 +61,7 @@ In the **Get support** section, select **Schedule appointment**.
 
 At the end of the article, select **Schedule an appointment**.
 
-</td></tr><tr><td id="d279230e138">
+</td></tr><tr><td id="d274227e139">
 
 **Request details**
 
@@ -69,7 +69,7 @@ At the end of the article, select **Schedule an appointment**.
 
 From the Actions menu, select **Schedule an appointment**.
 
-</td></tr><tr><td id="d279230e151">
+</td></tr><tr><td id="d274227e152">
 
 **My tasks page**
 
@@ -79,7 +79,7 @@ From the Actions menu, select **Schedule an appointment**.
 2.  In the task details pane, select **Schedule appointment**.
 
 
-</td></tr><tr><td id="d279230e172">
+</td></tr><tr><td id="d274227e173">
 
 **ITSM Walk-up Experience**
 

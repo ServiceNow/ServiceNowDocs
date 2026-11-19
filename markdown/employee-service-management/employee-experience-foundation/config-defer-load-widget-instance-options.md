@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [High-traffic experience, Portal performance optimization, Admin configurations, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [High-traffic experience, Portal performance optimization, Admin configurations, Configure, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Modify homepage banner instance for high-traffic
@@ -29,6 +29,8 @@ Role required: sp\_admin or admin
 2.  Press and hold the control key on the keyboard, right-click the widget, and then select **Instance Options**.
 
 3.  Configure the instance options.
+
+    \[Omitted image "defer-homepage-instance.png"\] Alt text: Instance option fields and description
 
 <table id="table_cq4_vdk_crb"><thead><tr><th>
 

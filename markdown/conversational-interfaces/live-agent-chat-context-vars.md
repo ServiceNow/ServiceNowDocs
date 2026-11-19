@@ -8,14 +8,24 @@ product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Live Agent, chat, context, variables, Virtual Agent, Interaction, Connect Support]
-breadcrumb: [Configure context variables, General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
+breadcrumb: [Configure variables that store chat information, General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
 
 # Live agent chat context variables
 
 Use chat context variables to pass certain information from the topic to share with a live agent or to control how bot conversations are routed to live agents. Virtual Agent includes some default variables, and you can define new ones.
+
+## Using context variables
+
+Context variables are read in topic scripts using the **vaContext** method. The variable syntax is **vaContext.LiveAgent\_myvar**, where **myvar** is one of the available live agent context variables. Context variables work in a global scope, whereas system variables work within the scope of the topic.
+
+The topic has to declare the variables first. For more information, see [Define script variables for a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/define-script-variables-topic.md).
+
+For a subflow, you pass the values in explicitly. A Workflow Studio subflow doesn’t have the **vaContext** object. The workable pattern is to read **vaContext.LiveAgent\_\[name\]** in the topic, for example in a Script action or a scripted input on the node that calls the subflow, and then maps it to a subflow input. If the flow needs to look things up itself, you can pass the interaction instead, since **vaSystem.getInteractionSysId\(\)** returns the interaction ID of the current conversation.
+
+## Live agent variables include with Virtual Agent
 
 **Note:** The Interaction table is part of the interaction management framework, which is activated through the Interactions Management plugin \(com.glide.interaction\). This plugin is included with the Agent Chat \(com.glide.interaction.awa\) and Connect Support \(com.glide.connect.support\) plugins.
 

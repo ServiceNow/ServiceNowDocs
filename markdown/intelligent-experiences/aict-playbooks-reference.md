@@ -1,21 +1,21 @@
 ---
-title: AI Control Tower playbooks
-description: Drive the lifecycle and approval workflows for AI assets using playbooks in AI Control Tower.
+title: Control Tower playbooks
+description: Drive the lifecycle and approval workflows for AI assets using playbooks in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-playbooks-reference.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-04-28"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# AI Control Tower playbooks
+# Control Tower playbooks
 
-Drive the lifecycle and approval workflows for AI assets using playbooks in AI Control Tower.
+Drive the lifecycle and approval workflows for AI assets using playbooks in Control Tower.
 
-Playbooks define the structured workflows that guide AI stewards and asset owners through asset onboarding, offboarding, and approval. The playbooks are active by default and can't be edited from within AI Control Tower. To modify a playbook's logic or steps, open it in Workflow Studio by selecting the playbook.
+Playbooks define the structured workflows that guide AI stewards and asset owners through asset onboarding, offboarding, and approval. The playbooks are active by default and can't be edited from within Control Tower. To modify a playbook's logic or steps, open it in Workflow Studio by selecting the playbook.
 
 **Important:**
 
@@ -31,10 +31,5 @@ For more information about the deprecation process, see [Deprecation Process \[K
 |AI Asset Offboarding|Guides an AI asset through the offboarding lifecycle stages: Assess, Pre-offboarding tasks, and Offboard. Triggered when an AI asset change request of type Offboarding reaches the In progress state. The playbook assigns tasks to the AI Stewards group and requires an approved assessment before the asset's inventory state and status update to Retired on completion.|
 |Now Assist approval|Coordinates AI steward approval before a Now Assist AI asset is deployed. The playbook runs in three steps: Review asset, Evaluate asset, and Approve or reject. During the Evaluate asset step, AI stewards can create sub-approval tasks to gather input from other teams, such as Legal, Security, Data, or Privacy review. When approving or rejecting, the AI steward selects a Risk score and enters Close notes; these values become read-only after the step is marked complete. The playbook starts automatically when **Automatically trigger playbooks** is active on the **Builder controls** tab. Otherwise, an AI asset manager requests approval manually. See [Require AI steward approval for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configure-ai-steward-approval.md).|
 
--   **[Updated playbooks for governing managed assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/dynamic-playbooks-for-governing-managed-assets.md)**  
-Manage AI assets through structured lifecycle workflows using the updated playbooks that automate governance tasks, route approvals, and track compliance requirements across onboarding, maintenance, and retirement phases.
--   **[Migrate to updated AI asset onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/migrate-new-playbook-govern.md)**  
-Configure the new AI asset onboarding playbook to simplify AI asset management through structured lifecycle workflows. The migration also includes an opt-in to decide between moving to the new playbook or continuing in the existing playbook.
-
-**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring.md)
+**Parent Topic:**[Configuring Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring.md)
 

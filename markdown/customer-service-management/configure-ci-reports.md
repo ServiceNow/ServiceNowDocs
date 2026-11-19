@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-ci-reports.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Configure the Customer Information view using CSM Agent Workspace, Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,9 +20,7 @@ Role required: admin
 
 ## About this task
 
-Reports are displayed in the Customer Information view in CRM Workspace.
-
-\[Omitted image "customer-reports.jpg"\] Alt text: Case overview displaying a circular graph that represents the overall progress of the case.
+Reports are displayed in the Customer Information view in Agent Workspace.
 
 ## Procedure
 

@@ -1,19 +1,19 @@
 ---
 title: Resolve an AI recommendation
-description: Address an issue or opportunity by running an unsupervised agent, working through a guided conversation with a supervised agent, or resolving the issue yourself.
+description: Address an issue or opportunity in Super Intelligence Control Tower by running an unsupervised agent, working through a guided conversation with a supervised agent, or resolving the issue yourself.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ac-resolve-ai-recommendation.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-23"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Resolving AI recommendations, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Resolving AI recommendations, Address action items, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Resolve an AI recommendation
 
-Address an issue or opportunity by running an unsupervised agent, working through a guided conversation with a supervised agent, or resolving the issue yourself.
+Address an issue or opportunity in Super Intelligence Control Tower by running an unsupervised agent, working through a guided conversation with a supervised agent, or resolving the issue yourself.
 
 ## Before you begin
 
@@ -21,7 +21,7 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Activity Center** &gt; **Recommendations**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Activity Center** &gt; **Recommendations**.
 
 2.  Identify the recommendation that you want to resolve.
 
@@ -33,26 +33,26 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 4.  Resolve the recommendation using AI automation, AI review, or resolve the issue yourself.
 
-<table><thead><tr><th align="left" id="d64787e111">
+<table><thead><tr><th align="left" id="d49694e114">
 
 Option
 
-</th><th align="left" id="d64787e114">
+</th><th align="left" id="d49694e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d64787e120">
+</th></tr></thead><tbody><tr><td id="d49694e123">
 
 **Automate using AI**
 
 </td><td>
 
 1.  Select **Automate using AI**.
-2.  Confirm the action when prompted. AI Control Tower runs an unsupervised agent that executes the resolution workflow on your behalf.
+2.  Confirm the action when prompted. Control Tower runs an unsupervised agent that executes the resolution workflow on your behalf.
 3.  Monitor progress in the side panel. The **Focused** view shows the steps the agent is taking and the estimated time to complete. The recommendation status moves to **In progress** while the agent runs and to **Complete** when the agent is finished.
 
 
-</td></tr><tr><td id="d64787e156">
+</td></tr><tr><td id="d49694e159">
 
 **Review with AI**
 
@@ -62,15 +62,15 @@ Description
 2.  Close the conversation when the agent reports that the recommendation is resolved. The recommendation status moves to **Complete**.
 
 
-</td></tr><tr><td id="d64787e177">
+</td></tr><tr><td id="d49694e180">
 
 **Open**
 
 </td><td>
 
-1.  Select **Open**. AI Control Tower redirects you to the record, page, or workflow where you can resolve the issue directly.
+1.  Select **Open**. Control Tower redirects you to the record, page, or workflow where you can resolve the issue directly.
 2.  In the record, page or workflow, take the action required to resolve the issue.
-3.  Return to the Activity Center Recommendations view. After AI Control Tower detects that the underlying condition is resolved, the recommendation status moves to **Complete**. To mark the recommendation as resolved manually, select **Complete** from the action menu on the card.
+3.  Return to the Activity Center Recommendations view. After Control Tower detects that the underlying condition is resolved, the recommendation status moves to **Complete**. To mark the recommendation as resolved manually, select **Complete** from the action menu on the card.
 
 
 </td></tr></tbody>

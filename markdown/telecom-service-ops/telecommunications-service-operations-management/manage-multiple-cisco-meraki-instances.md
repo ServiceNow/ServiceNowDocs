@@ -1,20 +1,20 @@
 ---
-title: Manage multiple Cisco Meraki SD-WAN instances
-description: Configure and manage multiple Cisco Meraki instances within a single ServiceNow AI Platform environment. Create distinct connection aliases and independent import schedules. Customize data filtering and frequency requirements.
+title: Manage multiple Cisco Meraki instances
+description: Configure and manage multiple Cisco Meraki instances within a single ServiceNow AI Platform environment. This functionality facilitates the creation of distinct connection aliases and the establishment of independent import schedules that you can customize to accommodate specific data filtering and frequency requirements for administrators and integrators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/manage-multiple-cisco-meraki-instances.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
-breadcrumb: [Configure Cisco Meraki SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Cisco Meraki SGC, Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
-# Manage multiple Cisco Meraki SD-WAN instances
+# Manage multiple Cisco Meraki instances
 
-Configure and manage multiple Cisco Meraki instances within a single ServiceNow AI Platform® environment. Create distinct connection aliases and independent import schedules. Customize data filtering and frequency requirements.
+Configure and manage multiple Cisco Meraki instances within a single ServiceNow AI Platform® environment. This functionality facilitates the creation of distinct connection aliases and the establishment of independent import schedules that you can customize to accommodate specific data filtering and frequency requirements for administrators and integrators.
 
 ## Before you begin
 

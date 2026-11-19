@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-features.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
+breadcrumb: [Exploring Impact, Impact]
 ---
 
 # Benefits &amp; Usage
@@ -32,9 +32,9 @@ Impact Core
 
 </td><td>
 
--   [Get started with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/getting_started_with_impact_concept.md)
--   [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-squad.md)
--   [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-packages1.md)
+-   [Exploring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-program-features.md)
+-   [Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-squad.md)
+-   [Impact operating model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-operating-model.md)
 
 </td></tr><tr><td>
 
@@ -42,7 +42,7 @@ Experts on Demand
 
 </td><td>
 
--   [Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/impact-initiatives.md)
+-   [Initiatives and Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/impact-initiatives.md)
 -   Advisory sessions
 -   Expert services discount
 
@@ -53,7 +53,7 @@ Platform Health and Monitoring
 </td><td>
 
 -   HealthScan
--   [Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md)
+-   [Overview of Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md)
 
 </td></tr><tr><td>
 
@@ -74,9 +74,8 @@ Premium Technical Support
 </td><td>
 
 -   24/7 Inbound Phone Support
--   [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/developer-support.md)
+-   [Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/developer-support.md)
 -   Enhanced case response time
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/idi-reference.md)
-
+</table>

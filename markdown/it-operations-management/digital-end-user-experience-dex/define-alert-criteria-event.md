@@ -7,10 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-04-27"
 reading_time_minutes: 1
-keywords: [event alert criteria, alert severity, alert thresholds, event alert conditions]
-breadcrumb: [Creating an event rule, Managing alert rules, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Creating an event rule, Alert rules, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Define alert criteria
@@ -38,5 +37,7 @@ Role required: sn\_dex.admin
 
 ## What to do next
 
-For the next step, see [Define alert rule name and status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/define-alert-name-state.md).
+[Define alert rule name and status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/define-alert-name-state.md).
+
+**Parent Topic:**[Creating an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/creating-an-event-rule.md)
 

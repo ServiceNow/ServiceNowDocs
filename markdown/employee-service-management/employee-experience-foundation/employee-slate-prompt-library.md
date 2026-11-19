@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-04-28"
 reading_time_minutes: 5
 keywords: [prompt library, example prompts, conversational AI, Now Assist Chat, Moveworks]
-breadcrumb: [ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
+breadcrumb: [Reference, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # EmployeeWorks Web App prompt library
@@ -21,7 +21,7 @@ Example natural-language prompts that you can use across Employee Slate features
 
 The prompt library groups example prompts by feature area. Use the prompts as written or adapt the phrasing to your context. The assistant retains conversation context across turns, so you can refine results with follow-up prompts in the same chat.
 
-For more information, see [Employee Slate \(built for Now Assist\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-nowassist.md).
+For more information, see [Employee Slate \(built for Now Assist\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-slate-nowassist.md).
 
 **Note:** These prompts are for reference purpose. Tweak them to suit your requirements.
 

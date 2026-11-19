@@ -7,7 +7,7 @@ release: zurich
 product: Content Management System
 classification: content-management-system
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Content blocks, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -41,9 +41,9 @@ Ensure that all tags are closed. If the tag is not a naturally closing tag, then
 
 If you are unfamiliar with Jelly scripting, review these topics:
 
--   [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/r_JellyTags.md)
--   [Extensions to Jelly syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ExtensionsToJellySyntax.md)
--   [Jelly escaping types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/r_JellyEscapingTypes.md)
+-   Jelly tags
+-   Extensions to Jelly syntax
+-   Jelly escaping types
 
 Include the following tag with all Apache Jelly scripts.
 

@@ -1,18 +1,18 @@
 ---
 title: Playbook page templates
-description: Use playbook page templates to create pages and page variants for use in CRM Workspace. These pages and page variants provide agents with either horizontal or vertical playbooks that they can use to complete tasks and resolve cases.
+description: Use playbook page templates to create pages and page variants for use in CSM Configurable Workspace. These pages and page variants provide agents with either horizontal or vertical playbooks that they can use to complete tasks and resolve cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-playbook-templates.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 8
 breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Playbook page templates
 
-Use playbook page templates to create pages and page variants for use in CRM Workspace. These pages and page variants provide agents with either horizontal or vertical playbooks that they can use to complete tasks and resolve cases.
+Use playbook page templates to create pages and page variants for use in CSM Configurable Workspace. These pages and page variants provide agents with either horizontal or vertical playbooks that they can use to complete tasks and resolve cases.
 
 The following page templates are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\]. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/setting-up-csm-playbooks.md).
 

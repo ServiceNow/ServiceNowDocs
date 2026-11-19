@@ -8,9 +8,9 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
 last_updated: "2026-10-01"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [Agent Client Collector for Visibility, ACC-VC, non-persistent VDI, NPVDI, system properties]
-breadcrumb: [ACC-VC NPVDI endpoints, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-VC NPVDI endpoints, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure ACC-VC data collection for NPVDI endpoints
@@ -19,7 +19,9 @@ Choose which **Enhanced Discovery** modules Agent Client Collector for Visibilit
 
 ## Before you begin
 
--   Verify that your instance is prepared for NPVDI agents and that the agent is installed on the golden image as a non-persistent agent. For details, see [Prepare agent deployment on a non-persistent virtual desktop infrastructure machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.md) and [Enable a non-persistent virtual desktop infrastructure agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/enable-npvdi-agent.md).
+-   Verify that your instance is prepared for NPVDI agents and that the agent is installed on the golden image as a non-persistent agent. For details, see:
+    -   [Prepare agent deployment on a non-persistent virtual desktop infrastructure machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.md)
+    -   [Enable a non-persistent virtual desktop infrastructure agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/enable-npvdi-agent.md).
 -   ACC-VC version 2.1.1 or later must be installed.
 -   Role required: admin
 
@@ -61,6 +63,4 @@ Two system properties control how ACC-VC collects data on NPVDI endpoints. These
 ## Result
 
 When you update either property, the instance regenerates the NPVDI configuration file \(`NPVDIConfig.json`\) that ACC-VC uses on NPVDI agents. A daily scheduled job also refreshes this file.
-
-**Parent Topic:**[ACC-VC NPVDI endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accvc-npvdi-support.md)
 

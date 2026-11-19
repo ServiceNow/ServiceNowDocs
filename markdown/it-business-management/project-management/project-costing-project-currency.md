@@ -7,9 +7,9 @@ release: zurich
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Multicurrency fields in project-related forms, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Multicurrency fields in project-related forms, Reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Cost rollup in project currency
@@ -104,5 +104,4 @@ False
 Can't associate sub-project to parent project if project currency of the sub-project and parent project is different.In such case of an association, an error message: `System policy does not allow parent and child projects to have different project currency` pops up.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Multicurrency fields in project-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/multicurrency-fields-project-form.md)
-
+</table>

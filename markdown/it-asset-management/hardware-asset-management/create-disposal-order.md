@@ -7,10 +7,10 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2025-07-31"
+reading_time_minutes: 10
 keywords: [Dispose hardware assets, Hardware disposal, Retire asset, Scrap hardware, Decommission asset]
-breadcrumb: [Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Create a disposal order
@@ -19,9 +19,9 @@ Create a disposal order for hardware or consumable assets. You can create a disp
 
 ## Before you begin
 
-Role required: asset
-
 **Note:** Install the Hardware Asset Management application from the ServiceNow Store.
+
+Role required: asset
 
 ## About this task
 
@@ -39,15 +39,15 @@ Starting with Hardware Asset Management 15.0.0 version, the asset resale option 
 
 1.  Navigate to **All** &gt; **Hardware Asset Workspace** &gt; **Inventory view**.
 
-<table id="choicetable_l5h_scg_kyb"><thead><tr><th align="left" id="d372299e147">
+<table id="choicetable_l5h_scg_kyb"><thead><tr><th align="left" id="d354120e145">
 
 Interface
 
-</th><th align="left" id="d372299e150">
+</th><th align="left" id="d354120e148">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d372299e156">
+</th></tr></thead><tbody><tr><td id="d354120e154">
 
 **Core UI**
 
@@ -55,7 +55,7 @@ Action
 
 Navigate to **All** &gt; **Inventory** &gt; **Create Disposal Order**.
 
-</td></tr><tr><td id="d372299e177">
+</td></tr><tr><td id="d354120e175">
 
 **Hardware Asset Workspace**
 
@@ -137,7 +137,7 @@ Person responsible for disposing of the asset.
 
 7.  From the list of available assets, select the assets that you want to dispose of.
 
-    The assets that you selected are shown in the **Planned Assets** tab. Also, the Verify Asset task is created as a hardware disposal task.
+    The assets that you selected are shown in the Planned Assets tab. Also, the Verify Asset task is created as a hardware disposal task.
 
 8.  Select the Verify Asset task.
 
@@ -187,28 +187,72 @@ Enhance asset management by reselling eligible retired hardware assets instead o
 -   **[Perform bulk update of resale value for the assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/bulk-update-resale-value-asset-state.md)**  
 Update the resale values for assets planned for disposal, and indicate that you want to resell them instead of disposing of them, to streamline the asset resale process.
 
-**Parent Topic:**[Asset lifecycle and disposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/asset-lifecycle-disposal-ham.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
 
-[Request a Hardware Asset Refresh]()
+[Work with hardware normalization]()
 
-[Manage refresh of assets using Zero Touch Refresh]()
+[Manage asset bundles from your inventory]()
+
+[Manage your inventory through pallet assets]()
+
+[Manage loaner assets]()
+
+[Donate assets to charity organizations]()
+
+[Use Advanced Shipment Notification]()
+
+[Manage RMA requests]()
+
+[Create an inventory stock order request]()
+
+[Use a hardware asset request flow]()
+
+[Audit hardware asset inventory]()
+
+[Request a Hardware Asset Refresh]()
 
 [Manage your expiring contracts for leased hardware assets]()
 
 [Reclaim hardware assets]()
 
-[Donate assets to charity organizations]()
+[View RFID information of assets]()
+
+[Manage the lifecycle of hardware models with calculated lifecycle templates]()
+
+[Create an internal lifecycle in the Hardware Asset Workspace]()
 
 [Calculate the active lifecycle phase for a model]()
 
-[Manage asset bundles from your inventory]()
+[Receive asset warranty details from Lenovo]()
 
-[Manage obligations in the Hardware Asset Workspace]()
+[Manage stockrooms]()
 
-[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
+[Track shipments using the integration framework]()
 
-[Resale hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-resale-order.md)
+[Track asset location using indoor maps]()
+
+[Assess performance of Hardware Asset Management]()
+
+[Manage refresh of assets using Zero Touch Refresh]()
+
+[Configure the Total Cost of Ownership of assets]()
+
+[Manage Hardware Asset Management subscriptions]()
+
+[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
+
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
+
+[Manage hardware asset tasks using the Mobile Agent application]()
+
+[Manage asset put away using the Hardware Asset Workspace]()
+
+[Audit your hardware assets by using Asset Attestation]()
+
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Update associated Decision tables for HAM flows]()
 

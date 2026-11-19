@@ -1,20 +1,20 @@
 ---
-title: Queues for Recommended Actions application
+title: Queues for Recommendation Actions Application
 description: Admins and Recommended Actions administrators can configure queues to manage the asynchronous evaluation of recommendations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/queues-for-recommended-actions-application.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
-# Queues for Recommended Actions application
+# Queues for Recommendation Actions Application
 
 Admins and Recommended Actions administrators can configure queues to manage the asynchronous evaluation of recommendations.
 
-## Access path and role requirements
+## Access Path and Role Requirements
 
 To view or manage the queue, navigate to the following location in the application:
 
@@ -22,7 +22,7 @@ Navigate to **All** &gt; **System Policy** &gt; **Queue Registry**
 
 Required Roles: admin or sn\_nb\_action.next\_best\_action\_admin.
 
-## Default queue configuration
+## Default Queue Configuration
 
 The Recommended Actions application includes a preconfigured queue by default, for processing actions efficiently.
 
@@ -30,7 +30,7 @@ The Recommended Actions application includes a preconfigured queue by default, f
 -   Scale Factor: 2
 -   Polling Interval: 5 seconds
 
-## Optimizing queue configuration for lower latency
+## Optimizing Queue Configuration for Lower Latency
 
 To enhance responsiveness and reduce latency in action processing, consider increasing the Scale Factor, such as from **2** to **3**
 
@@ -38,7 +38,7 @@ To enhance responsiveness and reduce latency in action processing, consider incr
 -   Updated Scale Factor: 3
 -   Polling Interval: 5 seconds
 
-## Considerations for scaling
+## Considerations for Scaling
 
 Increasing the Scale Factor enables the queue to process more items concurrently and reducing latency. However, it also increases demand on system resources such as CPU and memory.
 

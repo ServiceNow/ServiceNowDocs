@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
+breadcrumb: [Integrate, ServiceNow for Microsoft Teams and Microsoft 365, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Integrating ServiceNow with Microsoft Teams for GCC-H or DoD
@@ -29,5 +29,12 @@ You can integrate Employee Center and the Virtual Agent bot with Microsoft Teams
 -   **[Integrating Request-based chat with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-teams-request-based-chat-integration-gcch.md)**  
 You can integrate request-based chat with Microsoft Teams for Government Community Cloud - High \(GCC-H\) or US Department of Defense \(DoD\) customers to auto import the chat conversations between the agents and the employees.
 
-**Parent Topic:**[ServiceNow for Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/c_ServiceNowForMSTeams.md)
+**Parent Topic:**[Configure integrations for Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/integrations-all-snteams.md)
+
+**Related topics**  
+
+
+[Integrating ServiceNow with Microsoft Teams and Microsoft 365]()
+
+[Integrating ServiceNow with Microsoft 365 applications for Employee Experience]()
 

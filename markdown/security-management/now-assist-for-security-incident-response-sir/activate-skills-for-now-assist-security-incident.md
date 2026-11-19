@@ -1,0 +1,44 @@
+---
+title: Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)
+description: Configure and review the details for a skill in the Guided Setup. You can edit and reactivate a skill from the Guided Setup.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/now-assist-for-security-incident-response-sir/activate-skills-for-now-assist-security-incident.html
+release: zurich
+product: Now Assist for Security Incident Response \(SIR\)
+classification: now-assist-for-security-incident-response-sir
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+keywords: [Now Assist Security Operations, skill configuration]
+breadcrumb: [Configure, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
+---
+
+# Configure a skill for ServiceNow Otto for Security Incident Response \(SIR\)
+
+Configure and review the details for a skill in the Guided Setup. You can edit and reactivate a skill from the Guided Setup.
+
+## Before you begin
+
+Role required: sn\_si.admin
+
+## About this task
+
+**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
+## Procedure
+
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
+
+2.  Select **Technology** &gt; **Security Operations**.
+
+3.  Select **Edit** for the skill you want to configure, and follow the Guided Setup.
+
+    You can edit only the active options in the left panel and the editable options might vary for individual skills. For more configurable options, copy a skill and customize it. For more information, see [Customize a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.md).
+
+4.  Select **Review and Activate** to review your inputs and activate the skill.
+
+5.  Select **Done** to complete the configuration.
+
+    The modified skill is active and available for use.
+
+

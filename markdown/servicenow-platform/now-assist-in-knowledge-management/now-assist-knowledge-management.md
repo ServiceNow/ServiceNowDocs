@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-07-20"
 reading_time_minutes: 3
 breadcrumb: [Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---

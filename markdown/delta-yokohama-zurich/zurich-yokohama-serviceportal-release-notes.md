@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-serviceportal-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -82,7 +82,12 @@ Zurich
 
 </td><td>
 
--   **[Approval Info Record widget](https://www.servicenow.com/docs/access?context=approval-info-record-widget&family=zurich&ft:locale=en-US)**
+-   **ServiceNow Otto**
+
+The new `glide.sp.otto_onboarding.enabled` system property controls whether the ServiceNow Otto onboarding message is shown to users in all portals. The system property is set to `false` by default, so the ServiceNow Otto message does not appear in portals. Set the system property to `true` to have the ServiceNow Otto message appear on all portals except those listed in the `glide.sp.otto_onboarding.suppressed_portals` property.
+
+
+ -   **[Approval Info Record widget](https://www.servicenow.com/docs/access?context=approval-info-record-widget&family=zurich&ft:locale=en-US)**
 
 The Service Portal Approval Info Record widget shows details about the approval request and a full record for an approval including the activity stream.
 
@@ -410,7 +415,6 @@ Zurich
 </td><td>
 
 -   Starting with Zurich Patch 12, Now Assist is now ServiceNow Otto®. ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Service Portal. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
--   Use the `glide.sp.otto_onboarding.suppressed_portals` property to suppress the ServiceNow Otto onboarding message for specific Service Portal portals. Set the property value to a single portal sys\_id, or use a comma-separated list of sys\_ids for multiple portals. Users visiting any portal listed in this property will not see the onboarding message.
 -   Use the support for Service Portal in the iOS Google App.
 -   As an admin, configure the widget load order on Service Portal pages.
 -   As an admin, defer the loading of AI Search assets to enhance page performance.

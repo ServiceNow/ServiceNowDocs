@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-13"
 reading_time_minutes: 3
-breadcrumb: [Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # AI Search RAG \(Retrieval-Augmented Generation\)
@@ -18,7 +18,7 @@ The AI Search RAG \(Retrieval-Augmented Generation\) capability provides a frame
 
 ## AI Search RAG overview
 
-RAG \(Retrieval Augmented Generation\) technology helps enhance search capabilities of your AI Search application by combining information retrieval with text generation. It includes the following steps:
+RAG \(Retrieval Augmented Generation\) technology helps enhancing search capabilities of your AI Search application by combining information retrieval with text generation. It includes the following steps:
 
 -   **Indexing**
 

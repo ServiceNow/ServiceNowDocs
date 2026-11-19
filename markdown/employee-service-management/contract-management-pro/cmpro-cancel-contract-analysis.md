@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Contract review using AI, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Contract analysis, Use AI skills, Now Assist in Contract Management, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Cancel AI contract analysis
@@ -30,15 +30,15 @@ You can cancel an analysis for a contract document or for all contract documents
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d174978e76">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d172805e79">
 
 Method
 
-</th><th align="left" id="d174978e79">
+</th><th align="left" id="d172805e82">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d174978e85">
+</th></tr></thead><tbody><tr><td id="d172805e88">
 
 **Contract Workspace listing**
 
@@ -50,7 +50,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d174978e133">
+</td></tr><tr><td id="d172805e136">
 
 **Workspace used by your application**
 
@@ -64,15 +64,15 @@ Steps
 </td></tr></tbody>
 </table>2.  Cancel the contract analysis for a contract document or all documents in a contract request.
 
-<table id="choicetable_hwf_1sy_ddc"><thead><tr><th align="left" id="d174978e163">
+<table id="choicetable_hwf_1sy_ddc"><thead><tr><th align="left" id="d172805e166">
 
 Method
 
-</th><th align="left" id="d174978e166">
+</th><th align="left" id="d172805e169">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d174978e172">
+</th></tr></thead><tbody><tr><td id="d172805e175">
 
 **Cancel contract analysis for a document**
 
@@ -83,7 +83,7 @@ Steps
 3.  Cancel the contract analysis by selecting **Yes, Cancel**.
 
 
-</td></tr><tr><td id="d174978e205">
+</td></tr><tr><td id="d172805e208">
 
 **Cancel contract analysis for all the documents in a contract request**
 
@@ -105,5 +105,5 @@ The contract analysis is canceled.
 -   The contract request state is Work in progress.
 -   A cancellation email notification is sent to the contract fulfiller, group manager, and collaborator.
 
-**Parent Topic:**[Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
+**Parent Topic:**[Contract analysis using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
 

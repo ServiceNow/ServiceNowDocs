@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/request-callback-from-virtual-agent.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Callback requests from customers, Use omnichannel callback, Customer communication, Use, Customer Service Management]
+breadcrumb: [Callback requests from agents, Use omnichannel callback, Customer communication, Use, Customer Service Management]
 ---
 
 # Working with callback requests using Virtual Agent
@@ -44,15 +44,15 @@ You can request an immediate callback only for a voice channel. Use the **Schedu
 
 6.  Select whether to receive an immediate voice callback from an agent or schedule a voice or video callback for later.
 
-<table id="choicetable_x1h_2hr_2wb"><thead><tr><th align="left" id="d94087e181">
+<table id="choicetable_x1h_2hr_2wb"><thead><tr><th align="left" id="d85634e181">
 
 Type of callback
 
-</th><th align="left" id="d94087e184">
+</th><th align="left" id="d85634e184">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d94087e190">
+</th></tr></thead><tbody><tr><td id="d85634e190">
 
 **Immediate voice callback**
 
@@ -60,7 +60,7 @@ Action
 
 Select **Right now**.
 
-</td></tr><tr><td id="d94087e202">
+</td></tr><tr><td id="d85634e202">
 
 **Scheduled voice or video callback**
 

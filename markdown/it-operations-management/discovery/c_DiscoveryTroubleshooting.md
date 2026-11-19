@@ -1,13 +1,13 @@
 ---
 title: Discovery monitoring and issue resolution
-description: Learn how to monitor the progress of your discoveries and how to configure the system to aggregate performance metrics that are important to you. Find descriptions of the error messages you see, and possible steps you can take to solve problems. The Now Support Knowledge Base on Hi contains several articles to help you troubleshoot discovery issues.
+description: Learn how to monitor the progress of your discoveries and how to configure the system to aggregate performance metrics that are important to you. Find descriptions of the error messages you see, as well as possible steps you can take to solve problems. The Now Support Knowledge Base on Hi contains several articles to help you troubleshoot discovery issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/c\_DiscoveryTroubleshooting.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-25"
 reading_time_minutes: 2
 keywords: [support-video]
 breadcrumb: [Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -15,7 +15,7 @@ breadcrumb: [Using Discovery, Discovery, ITOM Visibility, IT Operations Manageme
 
 # Discovery monitoring and issue resolution
 
-Learn how to monitor the progress of your discoveries and how to configure the system to aggregate performance metrics that are important to you. Find descriptions of the error messages you see, and possible steps you can take to solve problems. The Now Support Knowledge Base on Hi contains several articles to help you troubleshoot discovery issues.
+Learn how to monitor the progress of your discoveries and how to configure the system to aggregate performance metrics that are important to you. Find descriptions of the error messages you see, as well as possible steps you can take to solve problems. The Now Support Knowledge Base on Hi contains several articles to help you troubleshoot discovery issues.
 
 <table id="table_j4y_rf1_wgb"><tbody><tr><td>
 
@@ -28,11 +28,7 @@ Learn how to monitor the progress of your discoveries and how to configure the s
 </td></tr></tbody>
 </table>-   **[Discovery Admin Workspace Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md)**
 
-    Prioritize and address Discovery errors and anomalies from a centralized view in Discovery Admin Workspace. Use the Error Framework to identify root causes and take remediation actions directly from error records. For more information, see [Error Framework in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/error-framework-daw.md).
-
--   **[Discovery start and classification issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/disco-start-issue-resolve.md)**
-
-    Resolve common causes when Discovery doesn't start or a device isn't classified, using Error Framework refined codes and manual checks for causes not yet covered by a code.
+    Prioritize and address Discovery errors and anomalies from a centralized view in Discovery Admin Workspace.
 
 -   **[Discovery Home Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-home-page.md)**
 
@@ -40,7 +36,7 @@ Learn how to monitor the progress of your discoveries and how to configure the s
 
 -   **[Discovery Troubleshooting Guide](https://support.servicenow.com/kb_view.do?sysparm_article=KB0535181)**
 
-    Use this article in the Now SupportKnowledge Base if you're experiencing symptoms, such as the inability for Discovery to classify a discovered host, or the Shazzam probe not finding certain types of devices.
+    Use this article in the Now SupportKnowledge Base if Discovery fails to classify a discovered host or the Shazzam probe does not find certain device types.
 
 -   **[Troubleshoot Discovery Performance, Cancellation, and Timeout](https://support.servicenow.com/now/nav/ui/classic/params/target/kb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0676340)**
 
@@ -57,9 +53,5 @@ Learn how to monitor the progress of your discoveries and how to configure the s
 -   **[Discovery performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-performance-framework.md)**
 
     View performance metrics on probe/pattern and sensor processing times. You can use the roll-up data to monitor the performance of specific discoveries or to compare performance between versions after an upgrade.
-
--   ****
-
-    Monitor day-over-day trend and anomaly signals on platform performance patterns such as slow queries, scripts, and transactions.
 
 

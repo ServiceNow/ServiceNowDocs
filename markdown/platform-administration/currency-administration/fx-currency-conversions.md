@@ -7,9 +7,9 @@ release: zurich
 product: Currency Administration
 classification: currency-administration
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [FX Currency fields, Explore, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [FX Currency fields, Explore, Currency administration, Configure core features, Administer]
 ---
 
 # Understanding how FX Currency field conversions work

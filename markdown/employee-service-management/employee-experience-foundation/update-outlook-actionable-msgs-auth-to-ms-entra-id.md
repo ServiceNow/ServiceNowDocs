@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-02"
 reading_time_minutes: 1
-breadcrumb: [Using ServiceNow for Microsoft Outlook, ServiceNow for Microsoft Outlook, EmployeeWorks, Employee Service Management]
+breadcrumb: [Use, ServiceNow for Microsoft Outlook, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Update Outlook Actionable Messages authentication to Microsoft Entra ID

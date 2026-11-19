@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
-breadcrumb: [ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC Discovery, ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
 # Application patterns for the Agent Client Collector
@@ -154,7 +154,7 @@ When performing Discovery with Agent Client Collector, ensure that you have the 
 
 For information on java installation Discovery using Agent Client Collector for Visibility Content, see [Discover Java installation data using Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-file-based-discovery.md).
 
-For information on the collected data, see [Data collected during Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/data-collected-file-based-discovery.md).
+For information on the collected data, see [Data collected during Agent Client Collector for Visibility Content file-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/data-collected-file-based-discovery.md).
 
 Agent Client Collector supports Oracle GLAS data collection and reporting in Linux and Windows environments, except middleware data collection, which is not supported at all. For details on using patterns, see [Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md).
 

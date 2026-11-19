@@ -1,19 +1,19 @@
 ---
-title: Deactivate an AI specialist in the legacy AI Agent Studio
-description: Deactivate an AI specialist in the legacy AI Agent Studio so that it no longer acts on records and lists.
+title: Deactivate an AI specialist in AI Agent Studio
+description: Deactivate an AI specialist in AI Agent Studio so that it no longer acts on records and lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/deactivate-aiw.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-13"
+last_updated: "2026-08-20"
 reading_time_minutes: 1
 keywords: [deactivate AI specialist, turn off AI specialist, disable AI specialist]
-breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Use, Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
 
-# Deactivate an AI specialist inthe legacy AI Agent Studio
+# Deactivate an AI specialist in AI Agent Studio
 
-Deactivate an AI specialist inthe legacy AI Agent Studio so that it no longer acts on records and lists.
+Deactivate an AI specialist in AI Agent Studio so that it no longer acts on records and lists.
 
 ## Before you begin
 

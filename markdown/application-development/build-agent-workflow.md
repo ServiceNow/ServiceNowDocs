@@ -8,14 +8,12 @@ topic_type: concept
 last_updated: "2026-09-22"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
 # Build Agent workflow
 
 The Build Agent workflow automates building applications, testing, and deploying update sets on the ServiceNow AI Platform. Build Agent streamlines development by handling code compilation, quality checks, and deployment steps without manual intervention.
-
-**Note:** For large or complex implementations, you can use Autonomous Engineer instead of the conversational workflow that follows. Autonomous Engineer accepts your requirements up front, interviews you to resolve ambiguity, generates a plan with work items, and builds all work items in parallel in the background. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-autonomous-engineer.md).
 
 A general workflow for using Build Agent in either ServiceNow Studio or the ServiceNow IDE is the following:
 

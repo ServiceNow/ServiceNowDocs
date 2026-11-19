@@ -1,33 +1,33 @@
 ---
-title: Configure SCIM for user provisioning with a provider
-description: Configuring SCIM automatically provisions and de-provisions users and groups to ServiceNow by using the provider's provisioning service.
+title: Tutorial: Configure SCIM for user provisioning with a Provider
+description: Configuring SCIM automatically provisions and de-provisions users and groups to ServiceNow by using the providers provisioning service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/configure-scim-for-user-provisioning-with-azure-ad.html
 release: zurich
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
 
-# Configure SCIM for user provisioning with a provider
+# Tutorial: Configure SCIM for user provisioning with a Provider
 
-Configuring SCIM automatically provisions and de-provisions users and groups to ServiceNow by using the provider's provisioning service.
+Configuring SCIM automatically provisions and de-provisions users and groups to ServiceNow by using the providers provisioning service.
 
 ## Before you begin
 
-The SCIM plugin must be installed.
+Install SCIM plugin.
 
 Role required: scim\_admin
 
-**Warning:** Grant this role carefully. The scim\_admin role is equivalent to giving the user the admin role, where the scim\_admin can add or update Personally Identifiable Information \(PII\).
+**Warning:** Grant this role carefully. The scim\_admin role is equivalent to giving the user the admin role, where the scmin\_admin can add or update Personally Identifiable Information \(PII\).
 
 ## About this task
 
 You can provision users using SCIM by the following authentication methods:
 
--   [Provision users using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/provisioning-user-basic-auth.md)
--   [Provision users using OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/provisioning-user-oauth.md)
+-   [Provision user using Basic Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/provisioning-user-basic-auth.md)
+-   [Provision user using OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/provisioning-user-oauth.md)
 

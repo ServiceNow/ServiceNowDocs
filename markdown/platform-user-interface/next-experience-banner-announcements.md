@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/next-experience-banner-announcements.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure
 
 Banner announcements enable you to communicate planned maintenance, unplanned outages, or important events like ESPP stock plans or benefits enrollment to those affected or to everyone. You can target specific experiences or all experiences.
 
-\[Omitted image "pol-banner-announcement.png"\] Alt text: Banner announcement.
+**Note:** Beginning with the San Diego release, configure banner announcements instead of updating the **glide.product.description** system property.
 
 You can configure the following aspects of banner announcements:
 

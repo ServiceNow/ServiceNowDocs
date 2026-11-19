@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-configure-simple.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Account onboarding playbook, Configure, Customer Success Management]
+breadcrumb: [Configure playbook activities, Account onboarding, Configure, Customer Success Management]
 ---
 
 # Configure onboarding tasks in playbook
@@ -48,5 +48,5 @@ You can add, modify, and delete any tasks for the Customer success onboarding ta
 9.  Select **Done** and then **Activate**.
 
 
-**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-configure.md)
+**Parent Topic:**[Configure the onboarding playbook activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-pad.md)
 

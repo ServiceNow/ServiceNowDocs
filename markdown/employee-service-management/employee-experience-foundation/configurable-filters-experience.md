@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Use, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Task filters on My tasks
@@ -39,6 +39,8 @@ For configuration steps, see [Configurable task filters](https://raw.githubuserc
 [Topic managers and contributors for topic page management]()
 
 [Use the My To-dos page]()
+
+[View advanced portal navigation]()
 
 [Use approval experience]()
 

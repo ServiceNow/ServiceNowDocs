@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_CreateACaseFromCustServApp.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
@@ -24,23 +24,23 @@ Role required: sn\_customerservice\_agent, sn\_customerservice\_manager, or admi
 
 1.  Create a case.
 
-<table id="choicetable_dw2_1w3_3kb"><thead><tr><th align="left" id="d251456e74">
+<table id="choicetable_dw2_1w3_3kb"><thead><tr><th align="left" id="d224862e74">
 
 Option
 
-</th><th align="left" id="d251456e77">
+</th><th align="left" id="d224862e77">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d251456e83">
+</th></tr></thead><tbody><tr><td id="d224862e83">
 
-**CRM Workspace**
+**CSM Configurable Workspace**
 
 </td><td>
 
 From the Interaction form, select **Create Case**.
 
-</td></tr><tr><td id="d251456e96">
+</td></tr><tr><td id="d224862e96">
 
 **Platform interface**
 

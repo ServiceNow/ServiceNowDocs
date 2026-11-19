@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Application risk assessment using Advanced Risk Assessment, Integrate, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -68,7 +68,7 @@ Category that the new assessment template should be a member of. You must select
 
 Template purposes enforce data segregation for templates. A purpose controls which users can view a template. Each assessment template is associated with a purpose. To view a template within a specific purpose, you must have a category role associated with that purpose.
 
-See [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)**Note:** You can create an assessment only from a published assessment template.
+See [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)**Note:** You can create an assessment only from a published assessment template. You can update a published template only if no active assessment is associated with the template.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Assessment target
 
 </td><td>
 
-The table records selected to be assessed, otherwise known as the assessment scope. Multiple tables can be added as the assessment target making the scope a combination of records from each table. You must select `Entity`.
+The table records selected to be assessed, otherwise known as the assessment scope. Multiple tables can be added as the assessment target making the scope a combination of records from each table. You can add other tables as targets, for example `Business Unit`.
 
 </td></tr></tbody>
 </table>3.  Select **Create**.

@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-11-09"
 reading_time_minutes: 2
 breadcrumb: [Configuration file tracking, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -35,15 +35,15 @@ Changes to configuration files are associated with CIs to which these files belo
 
 1.  Compare two versions of the CI configuration file from Service Mapping or Discovery.
 
-<table id="choicetable_c2k_pxd_bhc"><thead><tr><th align="left" id="d314167e145">
+<table id="choicetable_c2k_pxd_bhc"><thead><tr><th align="left" id="d309073e143">
 
 Product
 
-</th><th align="left" id="d314167e148">
+</th><th align="left" id="d309073e146">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d314167e154">
+</th></tr></thead><tbody><tr><td id="d309073e152">
 
 **Service Mapping**
 
@@ -61,7 +61,7 @@ Steps
 
 The Tracked Configuration File Comparison tab opens, displaying the most recent and the previous versions of the configuration file.
 
-</td></tr><tr><td id="d314167e218">
+</td></tr><tr><td id="d309073e216">
 
 **Discovery**
 
@@ -87,7 +87,7 @@ The Tracked Configuration File Comparison tab opens, displaying the configuratio
     -   Purple — Updated line
     -   Pink — New line
     -   Gray — Deleted line
-3.  Navigate between the changes using the Next difference icon \[Omitted image "next-difference-icon.png"\] Alt text: and the Previous difference icon \[Omitted image "previous-difference-icon.png"\] Alt text:.
+3.  Navigate between the changes using the Next difference icon and the Previous difference icon .
 
 
 **Related topics**  

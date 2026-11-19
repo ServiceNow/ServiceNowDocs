@@ -7,9 +7,9 @@ release: zurich
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Personal Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Personal Lines Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Managing Personal Lines Claims
@@ -51,7 +51,7 @@ Claims admin
 
 </td><td>
 
-Configures Workspace per the business requirements. For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md).
+Configures Workspace per the business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr><tr><td>
 

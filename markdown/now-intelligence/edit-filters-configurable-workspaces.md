@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/edit-filters-configurable-workspaces.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
@@ -20,7 +20,7 @@ Role required: dashboard\_admin, or you must be the dashboard owner or have had 
 
 ## About this task
 
-**Note:** This topic covers only those editing options you have in the component header on a filter on a dashboard that is in editing mode. It does not cover the configuration options, such as selecting the filter source and target. Those options are available in the configuration panel, which is available in either a dashboard in edit mode or in the Filter Designer. The editing options in this topic apply to all filter types, whereas the configuration options differ by filter type. For more information, see [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-select-filter-workspace.md), [Configure a True/False filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-boolean-filter-workspace.md), or [Configure a Date filter in the inline editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-date-filter-workspace.md).
+**Note:** This topic covers only those editing options you have in the component header on a filter on a dashboard that is in editing mode. It does not cover the configuration options, such as selecting the filter source and target. Those options are available in the configuration panel, which is available in either a dashboard in edit mode or in the Filter Designer. The editing options in this topic apply to all filter types, whereas the configuration options differ by filter type. For more information, see [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-select-filter-workspace.md), [Configure a True/False filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-boolean-filter-workspace.md), or [Configure a Date filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-date-filter-workspace.md).
 
 ## Procedure
 
@@ -45,7 +45,7 @@ Role required: dashboard\_admin, or you must be the dashboard owner or have had 
         For more information about configuring the filter, see one of the following topics:
 
         -   [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-select-filter-workspace.md)
-        -   [Configure a Date filter in the inline editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-date-filter-workspace.md)
+        -   [Configure a Date filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-date-filter-workspace.md)
         -   [Configure a True/False filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-boolean-filter-workspace.md)
 4.  Expand the **Actions** \(\[Omitted image "icon-paw-more-actions.png"\] Alt text: More action icon\) menu and select from the following actions, which are different for local and saved filters:
 

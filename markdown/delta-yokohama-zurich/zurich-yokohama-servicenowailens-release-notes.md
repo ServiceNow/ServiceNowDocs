@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowailens-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
@@ -103,7 +103,7 @@ View captured images that are automatically attached to the record that is auto-
 
  -   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
 
-Use Google Gemini and Anthropic Claude on AWS as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
+Use Google Gemini and Anthropic Claude as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
 
 
  -   **[Capture data](https://www.servicenow.com/docs/access?context=servicenow-lens-explore&family=yokohama&ft:locale=en-US)**
@@ -570,7 +570,7 @@ Yokohama
 -   Configure Lens actions to launch ServiceNow AI Lens from any part of the ServiceNow AI Platform, such as a workspace form or a portal.
 -   Trigger ServiceNow AI Lens from a Virtual Agent conversation on a mobile device or in a portal.
 -   View captured images that are now attached to the record that is auto-filled using ServiceNow AI Lens.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
 
  [Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
 

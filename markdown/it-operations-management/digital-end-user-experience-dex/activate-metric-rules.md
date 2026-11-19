@@ -1,21 +1,20 @@
 ---
 title: Activate or deactivate alert rules
-description: Activate or deactivate alert rules to control which conditions are monitored as your needs change.
+description: Activate or deactivate alert rules to streamline monitoring and adapt to changing needs, enhancing operational efficiency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/activate-metric-rules.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-keywords: [activate alert rules, deactivate alert rules, alert rule status, enable monitoring rules, dex alerts]
-breadcrumb: [Managing alert rules, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Alert rules, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Activate or deactivate alert rules
 
-Activate or deactivate alert rules to control which conditions are monitored as your needs change.
+Activate or deactivate alert rules to streamline monitoring and adapt to changing needs, enhancing operational efficiency.
 
 ## Before you begin
 
@@ -33,10 +32,12 @@ Role required: sn\_dex.admin
 
 4.  On the Update alert rule page, select **Name the rule**.
 
-5.  Under Rule status, use the **Active** toggle switch \(\[Omitted image "icon-toggle-button-enabled.png"\] Alt text: Use the toggle switch to activate the alert rule.\) to activate the rule.
+5.  Under Rule status, use the **Active** slider \(\[Omitted image "icon-toggle-button-enabled.png"\] Alt text: Use the toggle switch to activate the alert rule.\) to enable the rule.
 
-    To deactivate an active alert rule, turn off the toggle switch.
+    If you want to deactivate an active alert rule, simply slide the toggle switch to the off position.
 
 6.  Select **Update**.
 
+
+**Parent Topic:**[Managing DEX alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-metrics-metric-rules-management.md)
 

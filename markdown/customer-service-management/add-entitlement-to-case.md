@@ -1,18 +1,18 @@
 ---
 title: Add an entitlement to a case
-description: Add one or more entitlements to a customer service case record in CRM Workspace.
+description: Add one or more entitlements to a customer service case record in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/add-entitlement-to-case.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
 
 # Add an entitlement to a case
 
-Add one or more entitlements to a customer service case record in CRM Workspace.
+Add one or more entitlements to a customer service case record in CSM Configurable Workspace.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ For more information, see [Properties installed with Customer Service Management
 
 ## Procedure
 
-1.  Open a case record in CRM Workspace.
+1.  Open a case record in CSM Configurable Workspace.
 
 2.  Add one or more entitlements to the case.
 

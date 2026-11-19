@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
-breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Use, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Use the My To-dos page
@@ -117,6 +117,8 @@ Use the To-dos page to review all tasks that are assigned to you and prioritize 
 [Use the Employee Center topic pages]()
 
 [Topic managers and contributors for topic page management]()
+
+[View advanced portal navigation]()
 
 [Use approval experience]()
 

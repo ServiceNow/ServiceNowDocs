@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Third-Party paper contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Use non-self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Modify a non-self-served contract request
@@ -37,5 +37,5 @@ Role required: sn\_cm\_core.contract\_user
 3.  Select **Save** to update the record.
 
 
-**Parent Topic:**[Third-Party paper contract request]()
+**Parent Topic:**[Use non-self-served contract request]()
 

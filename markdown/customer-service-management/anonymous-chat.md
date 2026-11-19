@@ -1,18 +1,18 @@
 ---
 title: Anonymous chat
-description: Anonymous chat allows guest users to initiate chat sessions with consumer service agents through the Consumer Service Portal without requiring authentication.
+description: Consumers can chat with a consumer service agent without logging in to the Consumer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/anonymous-chat.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Administer, Customer Service Management]
 ---
 
 # Anonymous chat
 
-Anonymous chat allows guest users to initiate chat sessions with consumer service agents through the Consumer Service Portal without requiring authentication.
+Consumers can chat with a consumer service agent without logging in to the Consumer Service Portal.
 
 From the Consumer Service Portal, guest users can click the **Chat** link in the portal header to initiate a chat session with a consumer service agent. Clicking this link opens a form that requests some basic information, including the user's name, email address, and type of issue. Completing and submitting the form creates a chat request that is routed to the appropriate agent queue based on the selected issue type. Once the assigned agent accepts the request, a chat session is established. If necessary, the agent can create a consumer record or a case for the guest user, or transfer the chat to another agent.
 

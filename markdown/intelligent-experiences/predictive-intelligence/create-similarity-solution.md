@@ -7,9 +7,9 @@ release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Creating and training solutions, Predictive Intelligence, Enable AI experiences]
 ---
 
 # Create and train a similarity solution

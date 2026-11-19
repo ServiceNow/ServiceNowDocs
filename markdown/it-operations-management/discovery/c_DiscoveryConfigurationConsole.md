@@ -7,8 +7,8 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 13
+last_updated: "2026-03-23"
+reading_time_minutes: 12
 breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -60,7 +60,7 @@ Potential impacts include the following:
 
 ## Application Discovery
 
-Disabling the discovery of application data affects all host devices on which the application runs. For example, if you configure Discovery to ignore databases, no information is gathered for either Linux or Windows databases. Conversely, if you configure the system to ignore a device type, such as a Windows server, no databases running on that server are explored, even if they are configured to be discovered. The instance cannot identify applications running on a server until it discovers that server first.
+Disabling the discovery of application data affects all host devices on which the application runs. For example, if you configure Discovery to ignore databases, no information is gathered for either Linux or Windows databases. Conversely, if you configure the system to ignore a device type, such as a Windows server, no databases on that server are explored. The instance cannot identify applications on a server until it discovers that server first.
 
 When you exclude an item from the **Applications** section, the system disables the relevant process classifier. The probes that belong to this classifier, including the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r-HorizontalPatternProbe.md) that launches patterns, never launch.
 
@@ -316,7 +316,7 @@ Role required: discovery\_admin or admin
 
     -   **Scan SWID Tags**
 
-        Scans for and analyzes the software identification \(SWID\) tags. This option is only visible if SAMP is enabled. When enabled, the software product, publisher, and version are returned in the payload. This data is directly inserted into the software installs table, bypassing the software match API. This feature is turned off by default.
+        Scans for and analyzes the software identification \(SWID\) tags. This option is only visible if SAMP is enabled. When enabled, this returns the software product, publisher, and version in the payload. The data is directly inserted into the software installs table, bypassing the software match API. This feature is turned off by default.
 
 7.  Configure **Advanced UNIX** settings.
 

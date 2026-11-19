@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/network-zones-page.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Network Zones page
@@ -27,7 +27,5 @@ Additionally, each of the Network Zones can be deleted when they are no longer i
 
 The following image shows an example of the Network Zones page.
 
-\[Omitted image "network-zones-page.png"\] Alt text: Network Zones page
-
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/using-discovery-console.md)
+\[Omitted image "image.network-zones-page"\] Alt text: Network Zones page
 

@@ -1,16 +1,16 @@
 ---
-title: ServiceNow AI Evaluation dashboard
+title: ServiceNow AI Evaluation
 description: Use the ServiceNow AI Evaluation dashboard to get a comprehensive visibility into AI agent performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/md-servicenow-ai-evaluation.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-03"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow AI dashboard, Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [ServiceNow AI dashboard, Dashboards, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# ServiceNow AI Evaluation dashboard
+# ServiceNow AI Evaluation
 
 Use the ServiceNow AI Evaluation dashboard to get a comprehensive visibility into AI agent performance.
 

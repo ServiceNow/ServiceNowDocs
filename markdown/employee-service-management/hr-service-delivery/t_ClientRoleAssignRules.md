@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Client roles, Manage HR roles, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -46,15 +46,15 @@ To map conditions to a client role:
 
     You can also click the **Preview this record** icon to open the record.
 
-<table id="choicetable_myd_4sm_b2b"><thead><tr><th align="left" id="d386222e147">
+<table id="choicetable_myd_4sm_b2b"><thead><tr><th align="left" id="d381197e147">
 
 Field
 
-</th><th align="left" id="d386222e150">
+</th><th align="left" id="d381197e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d386222e156">
+</th></tr></thead><tbody><tr><td id="d381197e156">
 
 **Name**
 
@@ -62,7 +62,7 @@ Description
 
 Name of the HR condition.
 
-</td></tr><tr><td id="d386222e165">
+</td></tr><tr><td id="d381197e165">
 
 **Table**
 
@@ -70,7 +70,7 @@ Name of the HR condition.
 
 Table conditions are built on the HR profile \[sn\_hr\_core\_profile\] table only.Changing the table for client role assignment is not recommended.
 
-</td></tr><tr><td id="d386222e177">
+</td></tr><tr><td id="d381197e177">
 
 **Active**
 
@@ -78,7 +78,7 @@ Table conditions are built on the HR profile \[sn\_hr\_core\_profile\] table onl
 
 Check box for enabling condition.**Note:** Deactivate at the client role assignment level and not the conditions level.
 
-</td></tr><tr><td id="d386222e189">
+</td></tr><tr><td id="d381197e189">
 
 **User column**
 
@@ -86,7 +86,7 @@ Check box for enabling condition.**Note:** Deactivate at the client role assignm
 
 Together with the HR profile \[sn\_hr\_core\_profile\] table, filters users when evaluating a condition.
 
-</td></tr><tr><td id="d386222e199">
+</td></tr><tr><td id="d381197e199">
 
 **Condition**
 

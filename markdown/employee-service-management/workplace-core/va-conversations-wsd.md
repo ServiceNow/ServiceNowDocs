@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Workplace Core, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
@@ -53,7 +53,7 @@ For more information, refer to [Activate Virtual Agent for Workplace Service Del
 **Related topics**  
 
 
-[Workplace Service Portal]()
+[]()
 
 [Workplace services on the Employee Center portal]()
 

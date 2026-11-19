@@ -1,6 +1,6 @@
 ---
-title: Using ServiceNow Lux Lab for VS Code extension
-description: Use the ServiceNow Lux Lab for VS Code extension to create or extend experiences with pages and widgets tailored to fit your needs.
+title: Using ServiceNow AI Experience Lab for VS Code extension
+description: Use the ServiceNow AI Experience Lab for VS Code extension to create or extend experiences with pages and widgets tailored to fit your needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/using-servicenow-ai-experience-lab-for-vs-code.html
 release: zurich
@@ -8,16 +8,16 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [use]
-breadcrumb: [ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [ServiceNow AI Experience Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
 ---
 
-# Using ServiceNow Lux Lab for VS Code extension
+# Using ServiceNow AI Experience Lab for VS Code extension
 
-Use the ServiceNow Lux Lab for VS Code extension to create or extend experiences with pages and widgets tailored to fit your needs.
+Use the ServiceNow® AI Experience Lab for VS Code extension to create or extend experiences with pages and widgets tailored to fit your needs.
 
-## Overview of using ServiceNow Lux Lab for VS Code
+## Overview of using ServiceNow® AI Experience Lab for VS Code
 
-With the ServiceNow Lux Lab for VS Code extension, you can harness framework intelligence, AI tools, and easy-to-use commands to create tailored experiences on the ServiceNow AI Platform®. Start by creating a new experience or extending an existing one. Build or extend pages and widgets on your own or with the help of your preferred AI tools. Discover relevant tables and files and preview changes in real-time as you work. When you're ready, deploy changes to your instance with one click.
+With the ServiceNow® AI Experience Lab for VS Code extension, you can harness framework intelligence, AI tools, and easy-to-use commands to create tailored experiences on the ServiceNow AI Platform®. Start by creating a new experience or extending an existing one. Build or extend pages and widgets on your own or with the help of your preferred AI tools. Discover relevant tables and files and preview changes in real-time as you work. When you're ready, deploy changes to your instance with one click.
 
 -   [Create a new experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/create-a-new-experience-servicenow-ai-experience-lab-for-vs-code.md)
 

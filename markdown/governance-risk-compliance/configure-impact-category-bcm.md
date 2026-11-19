@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/configure-impact-category-bcm.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [BCM in the Classic Workspace, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Recovery time objective \(RTO\) measurement helps to verify the key points:
 -   Identify gaps in asset recovery capabilities.
 -   Prioritize asset recovery if there is a loss scenario.
 
-RTO calculates the acceptable time to restore the business function. Recovery Point Objective \(RPO\) confirms that maximum tolerable data loss is not exceeded.
+RTO calculates the acceptable time by which the business function is restored. Recovery Point Objective \(RPO\) measures the maximum tolerable data loss for a function.
 
 ## Procedure
 

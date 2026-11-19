@@ -1,20 +1,20 @@
 ---
 title: Agent Client Collector Monitoring use case
-description: The Agent Client Collector Monitoring \(ACC-M\) use case demonstrates how organizations can achieve unified monitoring across hybrid IT environments.
+description: The Agent Client Collector Monitoring use case demonstrates how organizations can achieve unified monitoring across hybrid IT environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-monitoring-use-case.html
 release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Exploring ACC Framework, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector Monitoring use case
 
-The Agent Client Collector Monitoring \(ACC-M\) use case demonstrates how organizations can achieve unified monitoring across hybrid IT environments.
+The Agent Client Collector Monitoring use case demonstrates how organizations can achieve unified monitoring across hybrid IT environments.
 
 ## Use case overview
 
@@ -119,4 +119,5 @@ Enhanced Business Continuity:
  With a full view of the hybrid infrastructure health, IT can ensure that critical business services are up and running, improving overall business continuity.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
+

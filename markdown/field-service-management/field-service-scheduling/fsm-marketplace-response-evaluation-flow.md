@@ -1,5 +1,5 @@
 ---
-title: Use the Response Evaluation Flow
+title: Using the Response Evaluation Flow
 description: Use the response evaluation flow to set the criteria for automatically assessing contractor responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/fsm-marketplace-response-evaluation-flow.html
@@ -7,12 +7,12 @@ release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Assign a task to a contractor on Field Service Marketplace, Allowing contractors to bid on work orders and tasks, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Assign task to a contractor, Field Service Marketplace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
-# Use the Response Evaluation Flow
+# Using the Response Evaluation Flow
 
 Use the response evaluation flow to set the criteria for automatically assessing contractor responses.
 

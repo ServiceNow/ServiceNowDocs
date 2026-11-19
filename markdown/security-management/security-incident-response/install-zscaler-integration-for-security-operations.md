@@ -64,9 +64,7 @@ Flow priority. The value for this field indicates the order of the workflows whe
 
  The flow with the lowest number has the highest priority.
 
- To set the order of operation, enter a value. For example, 100, 200, 300, 400.
-
- The default is 100.
+To set the order of operation, enter a value. For example, 100, 200, 300, 400.The default is 100.
 
 </td></tr><tr><td>
 
@@ -138,6 +136,10 @@ API key that you obtained from the Zscaler Internet Access administration portal
 
 </td></tr></tbody>
 </table>    **Note:** Configurations that you created before OAuth 2.0 support was available using Basic Auth. To switch authentication methods, change the **Authentication Type**, fill in the fields for the new method, and select **Validate and Update**.
+
+    The following example shows the Zscaler configuration page.
+
+    \[Omitted image "image.zscaler-configuration"\] Alt text: Zscaler integration configuration page.
 
 5.  Select **Validate and Update**.
 

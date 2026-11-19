@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/using-customer-engagement-sequences.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-11-18"
 reading_time_minutes: 4
-breadcrumb: [Sales automation apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
 
 # Using Customer Engagement Sequences
@@ -97,15 +97,13 @@ Drive personalized outreach by creating customer engagement sequences that autom
 -   **[Review sequences in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/view-sequence-design-time.md)**  
 Review sequences in Workflow Studio so you can suggest optimizations and share high-performing sequences across territories to promote best practices across the organization.
 -   **[View sequence tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/view-sequence-tasks.md)**  
-View sequence tasks assigned to you from the CRM Workspace.
+View sequence tasks assigned to you from the CSM Configurable Workspace.
 -   **[Complete predefined customer engagement tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/execute-sequence-steps.md)**  
-Execute predefined sequence steps in your sequence tasks in the CRM Workspace to engage with your prospective customers.
+Execute predefined sequence steps in your sequence tasks in the CSM Configurable Workspace to engage with your prospective customers.
 -   **[Fulfill a telesales sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/complete-telesales-sequences.md)**  
 Connect with leads or customers using the click-to-call outbound calling capability in telesales flows.
--   **[Customize the Lead nurturing email sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/customize-lead-nurturing-email-sequence.md)**  
-Adapt the Lead nurturing email sequence available with the Customer Engagement Sequences app to match your organization's email and call outreach cadence.
 
-**Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-opportunity-mgt.md)
+**Parent Topic:**[Using lead and opportunity management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-lead-opportunity-mgt.md)
 
 **Related topics**  
 

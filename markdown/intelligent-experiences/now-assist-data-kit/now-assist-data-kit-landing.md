@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Managing data for AI, Enable AI Experiences]
+last_updated: "2026-08-18"
+reading_time_minutes: 2
+breadcrumb: [Enable AI experiences]
 ---
 
 # AI Data Kit

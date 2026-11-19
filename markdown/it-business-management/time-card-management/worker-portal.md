@@ -7,7 +7,7 @@ release: zurich
 product: Time Card Management
 classification: time-card-management
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 8
 breadcrumb: [Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -95,7 +95,7 @@ The **Other** tab displays cards used to log time for operational work, such as 
 
 \[Omitted image "workerportaltimesheet.png"\] Alt text: Time sheet section on Time Sheet Portal displays number of tasks and hours logged for each day and their breakdown.
 
-Starting Brazil release, time cards and time sheet portal supports resource assignments. Users can select a specific resource assignment while creating time cards and submitting a time card via time sheet portal. Your system administrator can enable the resource assignment column in time sheet portal. For more information on how to add resource assignment column to time sheet, see the Knowledge Base for [KB1649389](https://support.servicenow.com/now/nav/ui/classic/params/target/kb%3Fid%3Dkb_article_view%26sys_kb_id%3D991b2135471f4210f64de825126d4309).
+Starting Zurich release, time cards and time sheet portal supports resource assignments. Users can select a specific resource assignment while creating time cards and submitting a time card via time sheet portal. Your system administrator can enable the resource assignment column in time sheet portal. For more information on how to add resource assignment column to time sheet, see the Knowledge Base for [KB1649389](https://support.servicenow.com/now/nav/ui/classic/params/target/kb%3Fid%3Dkb_article_view%26sys_kb_id%3D991b2135471f4210f64de825126d4309).
 
 The Time Sheet section:
 

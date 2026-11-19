@@ -7,7 +7,7 @@ release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Veracode, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Veracode.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d109680e93">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d106727e93">
 
 Option
 
-</th><th align="left" id="d109680e96">
+</th><th align="left" id="d106727e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d109680e102">
+</th></tr></thead><tbody><tr><td id="d106727e102">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Veracode from the **Security** category.
 
 
-</td></tr><tr><td id="d109680e129">
+</td></tr><tr><td id="d106727e129">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Veracode from the **Security** category.
 
 
-</td></tr><tr><td id="d109680e178">
+</td></tr><tr><td id="d106727e178">
 
 **Tools module**
 

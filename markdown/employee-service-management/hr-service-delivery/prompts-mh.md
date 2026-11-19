@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Reference for Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Default proactive prompts for Manager Hub
@@ -148,7 +148,7 @@ For more information on signal actions, see [Configure signal actions for Proact
 
 [Default configurations for daily stats]()
 
-[Default configurations for To do's]()
+[Default configurations for to-dos]()
 
 [Use the View menu icon in Manager Hub]()
 

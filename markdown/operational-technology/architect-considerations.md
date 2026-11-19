@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/architect-considerations.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-08"
 reading_time_minutes: 8
 breadcrumb: [Deploy Operational Technology Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -99,6 +99,4 @@ The result is an accurate, up-to-date inventory of your OT environment — built
 ## Wrapping up
 
 Operational Technology Discovery is built on the principle that visibility should not come at the cost of safety. By deploying the Console, Sensor, and Collector at deliberate positions within your network — and querying devices in a way that is safe for operational environments — the system adapts to your environment rather than requiring you to adapt your environment to it. Whether you're managing a single compact site or a large enterprise with dozens of segmented zones, the architecture scales accordingly. The result is a current, accurate inventory of your OT environment, fully integrated into ServiceNow and built without disrupting the operational processes your network supports.
-
-**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/deploy-ot-discovery-devices-landing.md)
 

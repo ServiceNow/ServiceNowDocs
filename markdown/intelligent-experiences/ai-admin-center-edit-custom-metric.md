@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-01"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, custom metric, deflection, AI analytics, assistants]
-breadcrumb: [Custom metrics \(Lux UI\), View AI assets usage and performance \(Lux UI\), Monitor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Custom metrics \(Lux UI\), View AI assets usage and performance \(Lux UI\), Monitor, AI Admin Center, Enable AI experiences]
 ---
 
 # Edit a custom metric in AI Admin Center \(Lux UI\)

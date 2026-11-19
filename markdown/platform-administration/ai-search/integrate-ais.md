@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 2
-breadcrumb: [AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Integrating AI Search into other ServiceNow AI Platform applications
@@ -22,10 +22,10 @@ AI Search provides components for search input, search results, search facets, a
 
 The AI Search components are described in detail on the Developer Site:
 
--   [Search facets](https://developer.servicenow.com/dev.do#!/reference/now-experience/vancouver/shared-components/sn-search-facets/overview)
--   [Search input](https://developer.servicenow.com/dev.do#!/reference/now-experience/vancouver/shared-components/sn-search-combobox/overview)
--   [Search results](https://developer.servicenow.com/dev.do#!/reference/now-experience/vancouver/shared-components/sn-search-results-container/overview)
--   [Tab filter](https://developer.servicenow.com/dev.do#!/reference/now-experience/vancouver/shared-components/sn-tab-filter/overview)
+-   [Search facets](https://horizon.servicenow.com/workspace/components/sn-search-facets)
+-   [Search input](https://horizon.servicenow.com/workspace/components/sn-search-combobox)
+-   [Search results](https://horizon.servicenow.com/workspace/components/sn-search-results-container)
+-   [Tab filter](https://horizon.servicenow.com/workspace/components/sn-tab-filter)
 
 For details on adding components to your pages in UI Builder, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-components.md).
 

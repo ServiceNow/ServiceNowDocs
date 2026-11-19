@@ -1,53 +1,57 @@
 ---
-title: Set up tokenized HTTP connection &amp; credential aliases
-description: Configure a connection in Card Data Security using an API key for authentication.
+title: Set up tokenized HTTP connection and credentials
+description: After configuring the connections for Card Data Security in our tokenizer service, you can define the connection and credentials in your ServiceNow instance. This enables you to communicate to the Third-Party System in your ServiceNow instance via our tokenizer service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/create-a-new-tokenizer-route.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 1
-keywords: [set up tokenized http connection, connection credential aliases, api key credentials, vrolicarddatasecurity, mastercomcarddatasecurity, create connection alias, api key authentication, card data security connection, tokenized connection setup]
+last_updated: "2025-07-31"
+reading_time_minutes: 2
 breadcrumb: [Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Set up tokenized HTTP connection &amp; credential aliases
+# Set up tokenized HTTP connection and credentials
 
-Configure a connection in Card Data Security using an API key for authentication.
+After configuring the connections for Card Data Security in our tokenizer service, you can define the connection and credentials in your ServiceNow instance. This enables you to communicate to the Third-Party System in your ServiceNow instance via our tokenizer service.
 
 ## Before you begin
 
+Set up your Third-Party System connections in our tokenizer service. For more information, see [Set up connections to the tokenizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-outbound-connections.md).
+
+Install and set up integrations to the Third-Party Systems \(such as Visa Spoke or Mastercard Spoke\). Card Data Security requires these integrations to function correctly. For more information, see [Integrating with spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/spokes.md).
+
 Role required: admin
-
-Define the authentication type when setting up a Service Account in the tokenizer service. API keys are long-lived, whereas JWT bearer tokens are time-limited. The tokenizer service generates an API key after you create a Service Account. For more information, see [Initial setup for Vault schema, Connections and Service Account for Card data security \(KB2830577\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2830577).
-
-In ServiceNow, install and set up integrations to the Third-Party Systems \(such as Visa Spoke or Mastercard Spoke\). Card Data Security requires these integrations to function correctly. For more information, see [Integrating with spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/spokes.md).
 
 ## About this task
 
-You will see records for VROLCardDataSecurity or MastercomCardDataSecurity if Visa Spoke or Mastercard Spoke are installed. These are separate to your existing third-party service connection aliases. Modify these records as required.
+You need to create new connection aliases to third-party services that use our tokenizer service. These are separate from your existing third-party service connection aliases.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Integration Hub** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
 
-2.  Open the VROLCardDataSecurity or MastercomCardDataSecurity record.
+2.  Create a Connection &amp; Credential alias for your third-party connection.
 
-    If you require another third-party connection, create a new Connection &amp; Credential alias. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md).
+    For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md).
 
-3.  In the Related Links section, select **Connections** &gt; **New**.
+    You will see records for VROLCardDataSecurity or MastercomCardDataSecurity if Visa Spoke or Mastercard Spoke are installed.
 
-4.  Follow the steps in [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/create-https-connection.md) to create a new credential record for this connection.
+3.  Select the card data security connection for the third-party service you want to modify.
 
-5.  Enter the following field value.
+4.  In the Related Links section, select **Connections** &gt; **New**.
+
+5.  Follow the steps in [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/create-https-connection.md) to create a new credential record for this connection.
+
+    When selecting the type of credentials to create, select the credential type that match the authentication method you defined in our tokenizer service as part of the steps in [Set up connections to the tokenizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-outbound-connections.md).
 
     |Tokenizer service authentication method|Credential type|
     |---------------------------------------|---------------|
     |**API key**|API Key Credentials|
+    |**JWT**|OAuth 2.0 Credentials|
 
-6.  In the new record form for the credential, use the API key generated from our tokenizer service.
+    In the new record form for the credential, use the API key or credentials data generated from our tokenizer service.
 
     \[Omitted image "api-key-credentials.png"\] Alt text: For API key credentials, enter the API key from our tokenizer service into the API Key field for the record.
 

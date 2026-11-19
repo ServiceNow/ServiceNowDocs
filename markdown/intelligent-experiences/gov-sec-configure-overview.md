@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-sec-configure-overview.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-24"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Configure overview security metrics
@@ -17,7 +17,7 @@ If you have external AI agent data you want reflected in the Privileged AI agent
 
 ## Before you begin
 
-Role required: AI Control Tower admin \[sn\_ai\_observe.ai\_observability\_admin\]
+Role required: AI Observability admin \[sn\_ai\_observe.ai\_observability\_admin\]
 
 ## About this task
 
@@ -27,7 +27,7 @@ Or, you can configure your connection using the static analysis configuration, w
 
 ## Static \(metadata-based\) analysis configuration \(AWS and Azure only\)
 
-Azure Foundry AI agents shown in the Privileged AI agents metric are agents whose project identities hold high-risk Azure roles \(owner, contributor, or custom-defined roles\). There are two default Azure privileged roles: owner and contributor. If you have other high-risk Azure roles, you can add them to a privileged role definitions list so that AI Control Tower can monitor and surface agent data tied to those roles in the Privileged AI agents metric.
+Azure Foundry AI agents shown in the Privileged AI agents metric are agents whose project identities hold high-risk Azure roles \(owner, contributor, or custom-defined roles\). There are two default Azure privileged roles: owner and contributor. If you have other high-risk Azure roles, you can add them to a privileged role definitions list so that Control Tower can monitor and surface agent data tied to those roles in the Privileged AI agents metric.
 
 As a prerequisite, in Azure set up a connection alias named “Azure IAM for AICT-AISP” with credentials that have read access to Azure Management APIs.
 
@@ -41,7 +41,7 @@ You can also show AWS Bedrock AI agents in the Privileged AI agents metric. As p
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Settings** &gt; **Integrations** &gt; **Traces**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Settings** &gt; **Integrations** &gt; **Traces**.
 
 2.  Select **Add**.
 
@@ -64,7 +64,7 @@ You can also show AWS Bedrock AI agents in the Privileged AI agents metric. As p
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-configuring.md)
+**Parent Topic:**[Configuring security metrics in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-configuring.md)
 
 ## Trace-based analysis configuration \(vendor-agnostic\)
 
@@ -72,7 +72,7 @@ You can also show AWS Bedrock AI agents in the Privileged AI agents metric. As p
 
 Role required: AI Control Tower admin \[sn\_ai\_observe.ai\_observability\_admin\]
 
-External AI systems require trace data so it can be shown in the Privileged AI agents metric. Unlike ServiceNow AI systems, which are automatically instrumented, external AI systems must be connected to send trace data to AI Control Tower.
+External AI systems require trace data so it can be shown in the Privileged AI agents metric. Unlike ServiceNow AI systems, which are automatically instrumented, external AI systems must be connected to send trace data to Control Tower.
 
 There are two ways to establish this connection:
 
@@ -159,6 +159,6 @@ There are two ways to establish this connection:
 
     2.  Select **Update**.
 
-    Return to the AI Control Tower Security tab and refresh the page. Select the Overview tab and verify that Privileged AI agents metric is populated.
+    Return to the Control Tower Security tab and refresh the page. Select the Overview tab and verify that Privileged AI agents metric is populated.
 
 

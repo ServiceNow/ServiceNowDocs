@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/exploring-unified-security-exposure-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Unified Security Exposure Management, Security Operations]
 ---
@@ -36,7 +36,7 @@ USEM is an evolution of existing Vulnerability Response modules including Applic
 |**Streamlined administration**: A single console for configuring workflows, SLAs, notifications, and assignment rules across all exposure types|[Administration in Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-administration-console.md)|Administrators|
 |**Integration health monitoring**: Built-in tools to track and troubleshoot third-party integrations \(for example, Qualys, Tenable, Rapid7\).|[Manage Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/review-usem-integrations.md)|Administrators|
 |**Role-based experience**: Tailored views for personas such as administrators, Vulnerability Analysts, Remediation Owners, and Approvers.|[Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-workspace-user-interface.md)|Administrators, Vulnerability Analysts, Remediation Owners, and Approvers|
-|**AI-powered enhancements**: AI generated insights on Findings view dashboards and approval recommendations for approvers.|[ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-usem-landing-ties.md)|Security analysts, Governance &amp; Risk teams, Approvers|
+|**AI-powered enhancements**: AI generated insights on Findings view dashboards and approval recommendations for approvers.|[ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/now-assist-for-usem-landing-ties.md)|Security analysts, Governance &amp; Risk teams, Approvers|
 
 ## What to explore next
 

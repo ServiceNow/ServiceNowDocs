@@ -7,9 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-12-03"
 reading_time_minutes: 1
-breadcrumb: [Suggested resolutions and remedial actions, Incident diagnostics, suggested resolutions, and remedial actions, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Suggested resolutions and remedial actions, Incident diagnostics and suggested resolutions, DEX for service desk agents, Digital End-User Experience, IT Operations Management]
 ---
 
 # Run remedial actions from the Action library
