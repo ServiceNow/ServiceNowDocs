@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/edit-db-in-ac.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 keywords: [Edit inline editor dashboards, inline editor dashboard options, reports, add reports to dashboard]
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -19,7 +19,7 @@ You can edit dashboard and dashboard tab information in the inline editor. If th
 
 You can edit the details of dashboards created in the inline editor and in the technical editor in the Platform Analytics experience. When you edit elements in dashboards created in the technical editor, you’re redirected to UI Builder.
 
-Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards. Users who only have viewing rights can make changes to the dashboard's content, but aren't able to save those changes.
+Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards.
 
 ## About this task
 
@@ -43,15 +43,15 @@ The **More actions** menu includes the option to clear the edit lock. Use this o
 
 3.  Perform any of the following actions.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d174760e163">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d172241e161">
 
 Action
 
-</th><th align="left" id="d174760e166">
+</th><th align="left" id="d172241e164">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d174760e172">
+</th></tr></thead><tbody><tr><td id="d172241e170">
 
 **Edit dashboard details**
 
@@ -77,7 +77,7 @@ To edit the details of a dashboard created in the inline editor:
 3.  Edit the details of the dashboard and then select **Exit editing mode**.
  For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-db-in-ac.md).
 
-</td></tr><tr><td id="d174760e262">
+</td></tr><tr><td id="d172241e260">
 
 **Configure the dashboard layout**
 
@@ -85,15 +85,15 @@ To edit the details of a dashboard created in the inline editor:
 
 Select and drag an element's handlebars to resize it. Select and drag an entire element to move it around the dashboard layout. Elements include data visualizations, filters, and other dashboard content.
 
-</td></tr><tr><td id="d174760e271">
+</td></tr><tr><td id="d172241e269">
 
-**Add a [tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md) to a dashboard**
+**Add a tab to a dashboard**
 
 </td><td>
 
-Select **Add a tab**. A tab labeled `Untitled` is added next to any existing tabs. When you add your first tab to a dashboard, there’s a new part of the layout below the title and above the tabs. Add elements above the [top stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md) that are visible no matter which tab has focus. Select the pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: pencil icon\) to rename the tab.
+Select **Add a tab**. A tab labeled `Untitled` is added next to any existing tabs. When you add your first tab to a dashboard, there’s a new part of the layout below the title and above the tabs. Add elements above the tabs that are visible no matter which tab has focus. Select the pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: pencil icon\) to rename the tab.
 
-</td></tr><tr><td id="d174760e303">
+</td></tr><tr><td id="d172241e293">
 
 **Reorder a dashboard tab**
 
@@ -109,7 +109,7 @@ You can reorder tabs by dragging and dropping them. You can also reorder dashboa
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d174760e348">
+</td></tr><tr><td id="d172241e338">
 
 **Duplicate a dashboard tab**
 
@@ -122,7 +122,7 @@ You can duplicate a tab on the current dashboard.1.  Select the **Edit** button 
 2.  Select the More actions menu icon \(\[Omitted image "context-menu-db-element-ac.png"\] Alt text: More actions icon\) next to the tab's name and choose **Duplicate**.
 A new tab with the same content as the duplicated tab opens with the name Untitled. Choose the pencil icon to rename the tab.
 
-</td></tr><tr><td id="d174760e390">
+</td></tr><tr><td id="d172241e380">
 
 **Delete a dashboard tab**
 
@@ -135,7 +135,7 @@ A new tab with the same content as the duplicated tab opens with the name Untitl
 2.  Select the More actions menu icon \(\[Omitted image "context-menu-db-element-ac.png"\] Alt text: More actions icon\) next to the tab's name and choose **Delete**.
  **Note:** There’s no confirmation message. The tab disappears from the dashboard.
 
-</td></tr><tr><td id="d174760e434">
+</td></tr><tr><td id="d172241e424">
 
 **Rename a tab**
 
@@ -151,7 +151,7 @@ A new tab with the same content as the duplicated tab opens with the name Untitl
 3.  On the translated dashboard, rename the tab with the translation of its new name.
 
 
-</td></tr><tr><td id="d174760e487">
+</td></tr><tr><td id="d172241e477">
 
 **Configure the refresh settings**
 
@@ -167,7 +167,7 @@ Role required: admin.1.  Select the **Edit** button \(\[Omitted image "edit-butt
 
 The minimum refresh interval is 10 minutes.
 
-</td></tr><tr><td id="d174760e536">
+</td></tr><tr><td id="d172241e526">
 
 **Configure background colors**
 
@@ -178,7 +178,7 @@ The minimum refresh interval is 10 minutes.
 
 Specify Hex or RGBA values, or choose from the color picker.
 
-</td></tr><tr><td id="d174760e562">
+</td></tr><tr><td id="d172241e552">
 
 **Configure Insights**
 

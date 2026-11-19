@@ -1,21 +1,21 @@
 ---
 title: Monitor your user apps network
-description: Monitor your app's network to maintain performance, reduce latency, and improve security. Track key metrics to spot issues early, optimize resource use, and fix problems before they impact users.
+description: Monitor your app's network to ensure top performance, reduce latency, and improve security. Track key metrics to spot issues early, optimize resource use, and fix problems before they impact users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/monitor-user-apps-network.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [monitor user applications, network monitoring, app and network monitoring, network experience, connection details, network latency]
-breadcrumb: [Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Monitor, Digital End-User Experience, IT Operations Management]
 ---
 
 # Monitor your user apps network
 
-Monitor your app's network to maintain performance, reduce latency, and improve security. Track key metrics to spot issues early, optimize resource use, and fix problems before they impact users.
+Monitor your app's network to ensure top performance, reduce latency, and improve security. Track key metrics to spot issues early, optimize resource use, and fix problems before they impact users.
 
 ## Before you begin
 
@@ -25,11 +25,11 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the Devices icon \[Omitted image "icon-devices.png"\] Alt text: from the primary navigation pane.
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the **Devices** icon\(\[Omitted image "icon-devices.png"\] Alt text: Devices icon\) from the primary navigation pane.
 
 2.  Select a device from the list.
 
-3.  In the Network experience section, select one of the following options:
+3.  In the **Network experience** section, select one of the following options:
 
     -   Connection details: Information about the user's Wi-Fi, wired, and VPN connection.
     -   App connection stability: Information about the network stability related to latency, packet loss, and jitter.

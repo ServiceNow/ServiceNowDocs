@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-11-02"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring ServiceNow AI settings, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring ServiceNow AI settings, Configure, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Configuring AI model providers

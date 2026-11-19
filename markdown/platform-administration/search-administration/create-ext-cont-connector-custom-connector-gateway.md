@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-10-21"
+last_updated: "2026-11-09"
 reading_time_minutes: 7
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Custom Connector Gateway external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -35,9 +35,9 @@ If you're creating two or more Custom Connector Gateway connectors in a single i
 
     All Custom Connector Gateway connectors defined in your instance share the same schema and feed their content to the same indexed source. To distinguish individual connectors in your search applications' facet filters, you can create a separate search source for each connector. In each of these search sources, configure a filter condition based on the connector ID. To learn about search sources and their filter conditions, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/search-sources-ais.md).
 
--   **Per-connector user permission settings**
+-   **Per-connector user mapping settings**
 
-    Each Custom Connector Gateway connector has its own user permission settings. For details on configuring user permission settings, see [Configure user mapping settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-user-mapping-settings-external-content-connector.md).
+    Each Custom Connector Gateway connector has its own user mapping settings. For details on configuring user mapping settings, see [Configure user mapping settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-user-mapping-settings-external-content-connector.md).
 
 -   **Per-connector analytics, events, and index inspector**
 

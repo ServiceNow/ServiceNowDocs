@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/http-response-header.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Extend ServiceNow AI Platform capabilities]
 ---
@@ -65,7 +65,7 @@ If the Internet Explorer request includes the referrer URL header:
 **Related topics**  
 
 
-[bundle-crapiref.c_SpecifyContentType]
+[Control request and response content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_SpecifyContentType.md)
 
 [bundle-psec.cache-control-http-header-value]
 

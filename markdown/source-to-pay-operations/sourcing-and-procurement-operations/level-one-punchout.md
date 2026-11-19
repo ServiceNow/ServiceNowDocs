@@ -1,0 +1,96 @@
+---
+title: How L1 punchout works
+description: In the Level 1 \(L1\) punchout, SPO and the punchout supplier communicate using the cXML protocol.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/level-one-punchout.html
+release: australia
+product: Sourcing and Procurement Operations
+classification: sourcing-and-procurement-operations
+topic_type: concept
+last_updated: "2026-11-05"
+reading_time_minutes: 4
+breadcrumb: [Understanding punchout, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
+---
+
+# How L1 punchout works
+
+In the Level 1 \(L1\) punchout, SPO and the punchout supplier communicate using the cXML protocol.
+
+## L2 punchout flow
+
+The following figure illustrates the L1 PunchOut flow.\[Omitted image "punchout-level-one-flow.png"\] Alt text: L1 punchout flow.
+
+## Communication between SPO and punchout supplier for Level 1 punchout
+
+The following figure illustrates the interaction between SPO and the punchout supplier for a Level 1 PunchOut.
+
+**Note:** This flow is also applicable to other PunchOut systems; however, the content of the cXML payloads may vary depending on the provider.
+
+\[Omitted image "punchout-spo-site-comm.png"\] Alt text: Communication between SPO and punchout supplier site.
+
+## Cart checkout from the punchout supplier site
+
+The cart checkout flow involves the following:
+
+-   When a user checks out the cart on the punchout supplier site, the punchout supplier \(or other PunchOut systems\) sends a PunchOutOrderMessage cXML payload to the REST endpoint exposed by SPO.
+-   The details of this endpoint are included in the PunchOutSetupRequest payload, enabling the punchout supplier to know where to send the order request.
+-   After SPO receives the PunchOutOrderMessage payload, it processes the information and creates the corresponding SPO cart lines.
+-   The user then reviews the cart in SPO and proceeds to checkout. Upon successful checkout, a purchase requisition \(PR\) is created.
+
+The supplier part number and supplier part auxiliary ID on the purchase line are copied from the `SupplierPartID` and `SupplierPartAuxiliaryID` elements of each item in the PunchOutOrderMessage. Punchout products are not stored in the instance, so these values come only from the message. If the supplier does not send these elements, the fields stay blank on the purchase line.
+
+**Note:** Make sure the punchout supplier includes `SupplierPartAuxiliaryID` in the items it returns. The auxiliary ID is also used to set the line number when the purchase order is sent back to the supplier.
+
+The following figure illustrates this flow:
+
+\[Omitted image "punchout-cart-checkout.png"\] Alt text: Cart checkout from punchout system.
+
+## Return from the punchout supplier site to SPO
+
+The punchout supplier site returns the cart to SPO as follows:
+
+1.  When the shopper checks out on the supplier site, the shopper's browser posts the PunchOutOrderMessage cXML payload to the order message URL that SPO sent in the PunchOutSetupRequest. For the URL format, see [Providing Order and Shipping Confirmation URLs to Punchout Suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-urls.md).
+2.  SPO validates the message and the `BuyerCookie` value. If the validation succeeds, SPO redirects the shopper to the cart in Shopping Hub and creates the cart lines in the background. The cart lines can appear a short time after the shopper returns.
+
+For the return to work, the punchout supplier site must do the following:
+
+-   Post the payload from the shopper's browser. SPO rejects requests that do not include the standard browser headers, such as `Origin` and `Referer`, for example, when the supplier's server posts the payload instead of the browser.
+-   Send the cXML in the `cxml-urlencoded` form field \(URL-encoded cXML\) or in the `cxml-base64` form field \(Base64-encoded cXML\).
+-   Return the `BuyerCookie` value from the PunchOutSetupRequest without changing it.
+
+When the shopper returns, SPO also checks that the outbound credentials for the supplier and the punchout group still match the credentials that SPO used when it started the session. If you change the credentials or the punchout group while a shopper is on the supplier site, the return fails.
+
+|Message|Cause|
+|-------|-----|
+|Invalid request|The request did not include the standard browser headers, for example, because the supplier's server posted the payload.|
+|No cached buyer cookie found|SPO could not find the session for the `BuyerCookie` that the supplier returned. The value was changed, or the session information is no longer available.|
+|User name and password are not valid|The outbound credentials or the punchout group for the supplier changed after the session started.|
+
+SPO records these errors in the system log with the message `Exception in Order Message payload`.
+
+## Sending purchase order to punchout system
+
+Sending purchase order information to the punchout supplier system involves the following:
+
+-   When a PR is approved and a PO is created, SPO needs to send OrderRequest cXML payload to the punchout supplier system.
+-   The flow action Send Punchout Order Request sends the PO to the punchout system.
+-   The punchout supplier creates the order and sends confirmation.
+
+The following figure illustrates this flow:
+
+\[Omitted image "punchout-sending-po.png"\] Alt text: Sending PO to punchout system.
+
+## Processing order confirmation and shipping confirmation from punchout supplier system
+
+The punchout supplier sends the order confirmation payload to the Order Confirmation URL, which is configured in the punchout supplier's system. Similarly, for each order line, the punchout supplier may optionally send a shipping confirmation payload to the Shipping Confirmation URL. For more information, see [Providing Order and Shipping Confirmation URLs to Punchout Suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-urls.md).
+
+The following figure illustrates this flow:
+
+\[Omitted image "punchout-order-confirmation.png"\] Alt text: Order confirmation from punchout system.
+
+The following figure illustrates this flow:
+
+\[Omitted image "punchout-shipping-confirm.png"\] Alt text: Shipping confirmation from punchout system.
+
+**Parent Topic:**[Understanding punchout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.md)
+

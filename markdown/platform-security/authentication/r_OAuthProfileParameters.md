@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [OAuth outbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth Outbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # OAuth parameters for default profile support

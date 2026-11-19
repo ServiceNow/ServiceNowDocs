@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vc-autonomous-engineer.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-11-03"
+reading_time_minutes: 4
 keywords: [Autonomous Engineer, Build Agent, agentic development, implementation plan, vibe coding, parallel execution, work items, agent packs]
-breadcrumb: [Build Agent overview, Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Autonomous Engineer in Build Agent
@@ -19,7 +19,7 @@ When an application is large or complex, building it artifact-by-artifact throug
 
 **Note:** You must install the Autonomous Engineer app from the ServiceNow Store. Check your entitlements to see whether you can use Autonomous Engineer.
 
-Autonomous Engineer is available in ServiceNow Studio and covers custom applications. For full product documentation, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-autonomous-engineer.md).
+Autonomous Engineer is available in ServiceNow Studio and supports custom applications. For full product documentation, see [Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/autonomous-engineer.md). To start using Autonomous Engineer, see [Using Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-using-autonomous-engineer.md).
 
 ## Autonomous Engineer process
 
@@ -43,6 +43,33 @@ Autonomous Engineer uses agent packs to give background agents product-specific 
 Standard Build Agent development is conversational and turn-by-turn: you prompt, review, and iterate on one artifact or change at a time. Autonomous Engineer shifts that model by working from a plan. It builds multiple work items in parallel in the background, so you interact primarily at the planning and review stages rather than guiding every step.
 
 Use standard Build Agent development when you're building incrementally, exploring ideas, or making targeted changes. Use Autonomous Engineer when you have well-defined requirements for a larger implementation and need to reduce the number of manual prompting steps.
+
+## More information about Autonomous Engineer
+
+-   **Autonomous Engineer and Build Agent**
+
+    Differences between the two products and what they share. See [Autonomous Engineer and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-build-agent-relationship.md).
+
+-   **Plan dashboard**
+
+    Work item status, artifacts, and execution progress for a plan. See [Using the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-plan-dashboard.md).
+
+-   **Plans**
+
+    Create, open, and manage plans from the **Plans** view in the Build Agent panel. See [Plans in Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-plans.md).
+
+-   **Playbook authoring**
+
+    Autonomous Engineer and Build Agent can author Playbook Designer artifacts. See [Playbook authoring with Build Agent and Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-playbooks.md).
+
+-   **MCP connections**
+
+    Connections that give Autonomous Engineer access to external tools and resources, using the same supported servers as Build Agent. See [MCP connections and Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-mcp-connections.md).
+
+-   **Limitations**
+
+    Limitations that apply to Build Agent also apply to Autonomous Engineer. See [Autonomous Engineer limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-limitations.md).
+
 
 **Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-build-agent-landing.md)
 

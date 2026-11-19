@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Browser Extension for Employee Center, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Browser Extension for Employee Center, Setup task management, Configuring Employee Center, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Set up browser policies
@@ -115,7 +115,7 @@ Empty state action label
 
 </td><td>
 
-Open Employee Hub
+Open Employee Slate
 
 </td></tr><tr><td>
 

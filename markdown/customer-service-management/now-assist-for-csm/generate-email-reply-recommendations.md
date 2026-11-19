@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
@@ -36,56 +36,54 @@ An agent can do these actions by using the AI icon:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace** and open a customer service case that supports the email response.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and open a customer service case that supports the email response.
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d196274e124">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d195196e123">
 
 Method
 
-</th><th align="left" id="d196274e127">
+</th><th align="left" id="d195196e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d196274e133">
+</th></tr></thead><tbody><tr><td id="d195196e132">
 
 **Compose email from More actions**
 
 </td><td>
 
 1.  Select **Compose email**.
-2.  Write six or more words and then select the words that you just wrote to see the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
-3.  Select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. to generate a response.
+2.  Write six or more words and then select the words that you just wrote to see the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon
+3.  Select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon. to generate a response.
 4.  Select **Refine** to shorten or elaborate the content.
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d196274e178">
+</td></tr><tr><td id="d195196e177">
 
 **Compose an email from Activity stream**
 
 </td><td>
 
 1.  In the activity stream, select an existing email that you want to reply to.
-2.  Position your cursor within the email message window to see the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
-3.  Select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. to receive a recommendation that is based on the existing context.
+2.  Position your cursor within the email message window to see the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon ..
+3.  Select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon . to receive a recommendation that is based on the existing context.
 
 
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon..
 
-    \[Omitted image "now-assist-email-reply-recommendation.png"\] Alt text: Generated email response.
-
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d196274e241">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d195196e225">
 
 Email message window
 
-</th><th align="left" id="d196274e244">
+</th><th align="left" id="d195196e228">
 
 AI icon
 
-</th></tr></thead><tbody><tr><td id="d196274e250">
+</th></tr></thead><tbody><tr><td id="d195196e234">
 
 **Typed response**
 
@@ -100,7 +98,7 @@ Provides the option to change your tone:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d196274e280">
+</td></tr><tr><td id="d195196e264">
 
 **Left blank**
 
@@ -108,7 +106,7 @@ Provides the option to change your tone:
 
 Generates a recommended email response that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d196274e289">
+</td></tr><tr><td id="d195196e273">
 
 **Use template**
 

@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Assigning multi-day tasks to agents, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -40,15 +40,15 @@ This procedure explains how you can assign a multi-day task to an agent using Se
 
 4.  Assign the task.
 
-<table id="choicetable_jln_msm_dsb"><thead><tr><th align="left" id="d128519e139">
+<table id="choicetable_jln_msm_dsb"><thead><tr><th align="left" id="d126215e139">
 
 Option
 
-</th><th align="left" id="d128519e142">
+</th><th align="left" id="d126215e142">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d128519e148">
+</th></tr></thead><tbody><tr><td id="d126215e148">
 
 **To assign a task manually**
 
@@ -58,7 +58,7 @@ Description
 2.  Click **Update**.
 
 
-</td></tr><tr><td id="d128519e172">
+</td></tr><tr><td id="d126215e172">
 
 **To auto-assign a task**
 

@@ -7,7 +7,7 @@ release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Project Portfolio Management reference, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,7 +28,7 @@ The Read only roles for PPM Standard plugin \(com.snc.pmo\_read\_roles\) install
 
 ## PPM tables accessible to users with the business stakeholder role
 
-Users with the business stakeholder role for PPM can access the following tables that store the data to load the widgets in the Portfolio dashboard, Program dashboard, and Time Sheet dashboard, and Resource reports:
+Users with the business stakeholder role for PPM can access the following tables. These tables store data to load the widgets in the Portfolio dashboard, Program dashboard, and Time Sheet dashboard, and Resource reports:
 
 |Label|Table name|
 |-----|----------|

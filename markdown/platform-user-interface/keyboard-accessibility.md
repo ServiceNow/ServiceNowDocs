@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/keyboard-accessibility.html
 release: australia
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 6
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -134,7 +134,7 @@ Role required: none
 
 4.  Press the Tab key to navigate through the card until the Open Card Details button appears.
 
-    \[Omitted image "image.viewcarddetails"\] Alt text: Task board card with the View Card Details button enabled and highlighted
+    \[Omitted image "viewcarddetails.png"\] Alt text: Task board card with the View Card Details button enabled and highlighted
 
 5.  Press **Enter** to open the card.
 

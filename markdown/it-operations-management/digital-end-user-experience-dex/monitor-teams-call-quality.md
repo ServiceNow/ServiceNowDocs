@@ -7,9 +7,9 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Microsoft Teams call quality monitoring, Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Microsoft Teams call quality monitoring overview, Monitor, Digital End-User Experience, IT Operations Management]
 ---
 
 # Monitor Microsoft Teams call quality
@@ -20,12 +20,12 @@ Enable advanced monitoring of Microsoft Teams call quality with DEX for Microsof
 
 Role required: admin
 
--   Advanced monitoring for Microsoft Teams must be configured. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/enable-app-monitor.md).
--   The DEX for Microsoft 365 application must be set up. For more information, see [Configuring DEX for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/configuring-dex-for-microsoft-365.md).
+-   Configure advanced monitoring for Microsoft Teams. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/enable-app-monitor.md).
+-   Set up DEX for Microsoft 365 application. For more information, see [Configuring DEX for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/configuring-dex-for-microsoft-365.md).
 
 ## About this task
 
-View detailed metrics for a user's Microsoft Teams calls, including call quality, network metrics, and session data.
+View detailed metrics for a user's Microsoft Teams calls, including call quality, network metrics, and session data for a particular user.
 
 **Note:** All data displayed on this page are based on information received from Microsoft.
 
@@ -33,7 +33,7 @@ View detailed metrics for a user's Microsoft Teams calls, including call quality
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text:\).
+2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 
 3.  Select **Teams**.
 
@@ -60,7 +60,7 @@ View detailed metrics for a user's Microsoft Teams calls, including call quality
         |Metric|Description|
         |------|-----------|
         |Average jitter|Measure of the variation in packet delay over a network.|
-        |Average packet loss rate|Frequency at which data packets are lost in transit. Lower loss means better sound, video, and performance.|
+        |Average packet loss rate|Shows how often data disappears on its way. Lower loss means better sound, video, and performance.|
         |Average round-trip time|Average time it takes for a data packet to travel from the source to the destination and back again. The lower the round-trip time, the faster the network.|
         |Average audio degradation|Average decline in audio quality experienced during a call or voice transmission, usually due to network issues like packet loss, jitter, latency, or codec problems.|
         |Average video frame loss percentage|Average percentage of video frames lost as displayed to the user.|
@@ -68,7 +68,7 @@ View detailed metrics for a user's Microsoft Teams calls, including call quality
 
 8.  Select **Call quality metrics** to get session details.
 
-    The number of total calls, good calls, and poor calls appears with a timeline chart of calls. The following session details appear:
+    A number of total calls, good calls, and poor calls appears with a timeline chart of calls. The following session details appear:
 
     -   **Session Quality Breakdown**: A pie chart shows the percentage of Microsoft Teams sessions with Good, Poor, or Unclassified quality.
     -   **Connection Type**: A bar chart shows calls from various connection types.

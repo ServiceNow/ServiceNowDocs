@@ -9,7 +9,7 @@ classification: change-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tutorial: Add a new change management state, Reference, Change Management, IT Service Management]
+breadcrumb: [Tutorial: add a new change management state, Reference, Change Management, IT Service Management]
 ---
 
 # Create a UI action
@@ -32,7 +32,7 @@ The UI action must contain a condition that uses the state model script include 
 
 3.  Locate and open the existing **Implement** UI action.
 
-4.  Open the form context menu and select **Insert and Stay** to create a duplicate record.
+4.  Open the form context menu and click **Insert and Stay** to create a duplicate record.
 
 5.  Modify the following fields with new values.
 
@@ -58,7 +58,7 @@ Action name
 
 </td><td>
 
-state\_model\_move\_to\_complete.
+`state_model_move_to_complete.`
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Hint
 
 </td><td>
 
-Progresses change to Complete state.
+`Progresses change to Complete state.`
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Condition
 
 </td><td>
 
-gs.hasRole\('itil'\) &amp;&amp; new ChangeRequestStateHandler\(current\).isNext\("**complete**"\)
+`gs.hasRole('itil') && new ChangeRequestStateHandler(current).isNext("complete")`
 
 </td></tr><tr><td>
 
@@ -90,7 +90,9 @@ Script
 
 </td><td>
 
-Update function, state name, and state value.```
+Script that sets the state to Complete and submits the form.
+
+```
 function moveToComplete(){
                   var ga = new GlideAjax("ChangeRequestStateHandlerAjax");         
                   ga.addParam("sysparm_name", "getStateValue");         
@@ -109,13 +111,15 @@ function moveToComplete(){
           }
 ```
 
-.
-
 </td></tr></tbody>
-</table>6.  **Update**.
+</table>6.  Select **Update**.
 
 
-**Parent Topic:**[Tutorial: Add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)
+## Result
+
+The **Complete** button appears on change requests in the **Implement** state for users with the itil role.
+
+**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)
 
 **Previous topic:**[Update the state model script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_UpdateStateModelScriptInclude.md)
 

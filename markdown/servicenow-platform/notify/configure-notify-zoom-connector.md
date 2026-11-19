@@ -7,7 +7,7 @@ release: australia
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configuring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -92,7 +92,7 @@ Configure and use Zoom as a conference provider from any of the task records.
 You must sign in to the browser in order to direct to the Zoom client. However, if you are not signed in, you must provide your registration details.
 
 -   **[Set up Notify Zoom connector in Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/setup-notify-zoom-connector.md)**  
-Use the Notify Zoom connector to expand the Notify communication channel by managing and initiating a Zoom meeting directly from any task record such as an incident or a change.
+Use the Notify Zoom connector to manage and start Zoom meetings from any task record, such as an incident or change.
 -   **[Disable Zoom meeting password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/disable-zoom-password.md)**  
 Disable Zoom meeting password so that you can join a Zoom meeting without any meeting password.
 

@@ -64,15 +64,15 @@ Using the default demand playbook, you can create customized playbooks or create
 
     \[Omitted image "demand-playbook-activities.png"\] Alt text: Actions on an activity.
 
-<table id="choicetable_pb_actions"><thead><tr><th align="left" id="d140196e228">
+<table id="choicetable_pb_actions"><thead><tr><th align="left" id="d140723e228">
 
 Action
 
-</th><th align="left" id="d140196e231">
+</th><th align="left" id="d140723e231">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d140196e237">
+</th></tr></thead><tbody><tr><td id="d140723e237">
 
 **__Mark Complete__**
 
@@ -80,7 +80,7 @@ Result
 
 Saves your changes, marks the activity as complete, and opens the next activity automatically. Use this action when you finish all the work for the activity. If the activity contains mandatory fields, fill them before you mark the activity as complete. Otherwise, an error message asks you to fill the required fields.
 
-</td></tr><tr><td id="d140196e247">
+</td></tr><tr><td id="d140723e247">
 
 **__Save__**
 
@@ -88,7 +88,7 @@ Saves your changes, marks the activity as complete, and opens the next activity 
 
 Saves your changes without completing the activity. The activity stays in progress so that you can return to it later. In an activity that creates a record, **Save** creates the record and completes the activity.
 
-</td></tr><tr><td id="d140196e260">
+</td></tr><tr><td id="d140723e260">
 
 **__Skip__**
 
@@ -96,7 +96,7 @@ Saves your changes without completing the activity. The activity stays in progre
 
 Bypasses the activity and moves you to the next one. Use this action when the activity does not apply to the demand. A skipped activity counts toward finishing the stage. If you skip an activity in a stage that ends with an automated state change, the state is also moved along with the stage.
 
-</td></tr><tr><td id="d140196e270">
+</td></tr><tr><td id="d140723e270">
 
 **__Restart__**
 

@@ -7,9 +7,9 @@ release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-07"
 reading_time_minutes: 5
-breadcrumb: [Testing and monitoring predictions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Testing and monitoring predictions, Predictive Intelligence, Enable AI experiences]
 ---
 
 # Predictive Intelligence Usage Analytics dashboard

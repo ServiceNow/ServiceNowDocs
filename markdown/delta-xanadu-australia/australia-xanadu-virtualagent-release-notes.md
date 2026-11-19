@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-virtualagent-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 31
 breadcrumb: [Products combined by family]
 ---
@@ -215,7 +215,7 @@ Slide the new **Show links for each record** toggle switch to activate links for
 
 -   **Virtual Agent server**
     -   In chatHandshake, set **dynamic\_step\_loader\_enabled** to `true` to send stacked Agentic AI messages to server. Set **dynamic\_step\_loader\_enabled** to `false` to avoid sending messages.
-    -   Pre-chat and post-chat surveys are now available for Anthropic Claude on AWS and Google Gemini LLMs. For more information on surveys, see [Chat surveys](https://www.servicenow.com/docs/access?context=ci-conversational-chat-surveys&family=yokohama&ft:locale=en-US).
+    -   Pre-chat and post-chat surveys are now available for Anthropic Claude and Google Gemini LLMs. For more information on surveys, see [Chat surveys](https://www.servicenow.com/docs/access?context=ci-conversational-chat-surveys&family=yokohama&ft:locale=en-US).
 
  -   **[AI Connector Utility](https://www.servicenow.com/docs/access?context=vad-ai-connector-utility&family=yokohama&ft:locale=en-US)**
 
@@ -311,6 +311,10 @@ These features were added to premium chat:
     -   Ask a follow-up question about specific content by highlighting text in a ServiceNow Otto response and selecting **Ask a follow-up**. The highlighted text appears as a quote above the input bar and doesn't carry over when you start or switch to a different conversation.
     -   Download generated files that use plain Microsoft Office templates, with no ServiceNow branding applied. Share or edit downloaded Word, PowerPoint, and Excel files without removing extra formatting first.
     -   Download a generated file directly from the chat by selecting the download icon on the attachment in a ServiceNow Otto response.
+-   **[Edit a chat assistant](https://www.servicenow.com/docs/access?context=edit-assistant&family=australia&ft:locale=en-US)**
+
+Set conditions that control when a promoted item is shown. Select the **Promoted skills** link when editing an assistant.
+
 
  
 
@@ -599,7 +603,12 @@ Australia
 
 </td><td>
 
--   **[Enable additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=australia&ft:locale=en-US)**
+-   **[Configure assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=australia&ft:locale=en-US)**
+
+Existing and newly created assistants now run on the latest version of Agentic Orchestrator \(v2\), and administrators don’t need to take further action.
+
+
+ -   **[Enable additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=australia&ft:locale=en-US)**
 
 The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features. Because all assistants now use agentic orchestration by default, AI agent skills are available during skills discovery. Turning on this option gives AI agents priority over other assets \(such as knowledge bases and Q&amp;A modules\) when the assistant discovers skills. If your assistant has overlapping skills, for example, a knowledge base article and an AI agent that both answer the same question, this setting lets you decide which one is prioritized, so you can steer users toward the AI agent experience instead of a static article.
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent-tools.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-07-23"
+reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Build Agent tools
@@ -33,6 +33,8 @@ The rollback script tool reverts a previous run script tool operation on demand.
 
 Only scripts run by Build Agent or Autonomous Engineer in the current session can be reverted using this tool. For details on security and governance around the rollback script tool, see [Build Agent governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-governance.md).
 
+**Note:** To use the rollback script tool, you must be on Australia Patch 5 or later.
+
 ## Run query tool
 
 Build Agent and Autonomous Engineer can use the run query tool to query a specific table within your instance and return the top five records or derive specific insights.
@@ -42,6 +44,8 @@ Build Agent and Autonomous Engineer can use the run query tool to query a specif
 The run script tool generates and runs a server-side script on your instance during a build session. Use the run script tool when you need Build Agent or Autonomous Engineer to perform an operation that goes beyond querying a table. For example, to retrieve data that requires custom logic, or to create something dynamically when no other tool covers the task.
 
 Before the script runs, Build Agent or Autonomous Engineer shows you the generated script, its stated intent, and the application scope it will run in. You must approve the operation before it executes. The script runs in the scope of the app you're building by default. For details on security and governance around the run script tool, see [Build Agent governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-governance.md).
+
+**Note:** To use the run script tool, you must be on Australia Patch 5 or later.
 
 ## Semantic metadata search tool
 
@@ -58,15 +62,17 @@ Build Agent uses semantic search in two ways:
     You can directly request a search by asking Build Agent or Autonomous Engineer to find something on your instance. Use explicit search when you want to locate specific files, applications, or knowledge without making changes.
 
 
+**Note:** You must have Australia Patch 2 and later to use the semantic search tool.
+
 ## Table schema inspector tool
 
 The table schema inspector tool returns every field on a table, including field names, types, mandatory flags, and reference targets. Use the table schema inspector tool to understand a table's structure before adding fields or writing logic against it, and to verify the schema of base system tables.
 
 ## UI validation tool
 
-Build Agent and Autonomous Engineer detect UI components created during the build process, then analyzes and validates the UI using the UI validation tool. The tool automatically uses skills available in the Playwright MCP and executes them on the Automated Test Framework \(ATF\) Cloud Runner infrastructure.
+Build Agent and Autonomous Engineer detect UI components created during the build process, then analyze and validate the UI using the UI validation tool. The tool automatically uses skills available in the Playwright MCP and executes them on the Automated Test Framework \(ATF\) Cloud Runner infrastructure.
 
-You can specifically prompt UI validation by asking Build Agent or Autonomous Engineer to `validate the UI built using the ATF cloud runner tooling`.The UI validation tool is available for Build Agent in both ServiceNow Studio and the ServiceNow IDE.
+You can specifically prompt UI validation by asking Build Agent or Autonomous Engineer to `validate the UI built using the ATF cloud runner tooling`.The UI validation tool is available for Build Agent in both ServiceNow Studio and the ServiceNow IDE, starting with Australia Patch 3 to use it in ServiceNow Studio.
 
 **Note:** The ATF test generator and Cloud Runner app must be installed on the instance to use the UI validation tool.
 
@@ -77,7 +83,10 @@ Two Build Agent and Autonomous Engineer tools support external search.
 -   Use the web search tool to find information on the public web.
 -   Use the web fetch tool to retrieve content from a URL that you supply.
 
-**Note:** The web search tool must be enabled in the Build Agent or Autonomous Engineer settings. For more information, see [Configure web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-configure-settings.md).
+**Note:**
+
+-   You must have Australia Patch 4 and later to use the web search tool.
+-   The web search tool must be enabled in the Build Agent or Autonomous Engineer settings. For more information, see [Configure web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-configure-settings.md).
 
 **Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-build-agent.md)
 

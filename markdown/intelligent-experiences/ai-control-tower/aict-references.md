@@ -1,19 +1,19 @@
 ---
-title: AI Control Tower reference \(legacy\)
-description: Reference topics for AI Control Tower.
+title: Super Intelligence Control Tower reference \(legacy\)
+description: Reference topics for Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/aict-references.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
-breadcrumb: [AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# AI Control Tower reference \(legacy\)
+# Super Intelligence Control Tower reference \(legacy\)
 
-Reference topics for AI Control Tower.
+Reference topics for Control Tower.
 

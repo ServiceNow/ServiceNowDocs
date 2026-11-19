@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-product-uc-tables.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-07-01"
 reading_time_minutes: 1
-breadcrumb: [Tables, Reference, Customer Success Management]
+breadcrumb: [Reference, Customer Success Management]
 ---
 
 # Supported use case table
@@ -136,7 +136,7 @@ Domain path
 Domain path for multi-domain deployments.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customer success management tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-success-tables.md)
+</table>**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-reference.md)
 
 **Related topics**  
 

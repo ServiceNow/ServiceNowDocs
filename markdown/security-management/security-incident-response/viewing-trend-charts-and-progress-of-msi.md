@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -223,6 +223,8 @@ Option to link the timeline event to a major security incident record.
 [Link additional records to Major Security Incident]()
 
 [Unlink records from Major Security Incident]()
+
+[]()
 
 [Manage tasks in a Major Security Incident]()
 

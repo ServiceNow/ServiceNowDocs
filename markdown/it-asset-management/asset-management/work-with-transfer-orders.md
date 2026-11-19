@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-06"
 reading_time_minutes: 1
 breadcrumb: [Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
@@ -39,8 +39,6 @@ Return items from a received transfer order when all or some of the delivered as
 [Transfer order flow]()
 
 [Customize transfer order line tasks]()
-
-[Transfer assets using transfer orders]()
 
 [Transfer order line asset tracking]()
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-visualization-details.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Edit a data visualization in the library, Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---

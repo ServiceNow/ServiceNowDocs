@@ -1,11 +1,11 @@
 ---
 title: Dashboard summary skill
-description: Dashboard summarization skills are enabled by default when the Dashboard Summary plugin is installed. Configure ServiceNow Otto access to these skills under ServiceNow Otto skills for Data and Analytics to give users AI-assisted dashboard context.
+description: After installation, configure ServiceNow Otto access to these skills under ServiceNow Otto skills for Data and Analytics to give users AI-assisted dashboard context.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dashboard-summary-skill.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-29"
 reading_time_minutes: 2
 keywords: [AI Admin Hub, Now Assist Admin Console]
 breadcrumb: [Configure, Dashboard Summary, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -13,7 +13,7 @@ breadcrumb: [Configure, Dashboard Summary, ServiceNow Otto for Platform Analytic
 
 # Dashboard summary skill
 
-Dashboard summarization skills are enabled by default when the Dashboard Summary plugin is installed. Configure ServiceNow Otto access to these skills under ServiceNow Otto skills for Data and Analytics to give users AI-assisted dashboard context.
+After installation, configure ServiceNow Otto access to these skills under ServiceNow Otto skills for Data and Analytics to give users AI-assisted dashboard context.
 
 ## Before you begin
 

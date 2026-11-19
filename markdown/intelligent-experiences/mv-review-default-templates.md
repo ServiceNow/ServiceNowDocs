@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-review-default-templates.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-12"
 reading_time_minutes: 1
-keywords: [default template rules, value template, AI Control Tower, vendor]
-breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+keywords: [default template rules, value template, Control Tower, vendor]
+breadcrumb: [Value, Configure, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Review or create default template rules
@@ -21,13 +21,13 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 
-AI Control Tower includes out-of-the-box templates so that each AI system category has a default template. When a new AI system is onboarded, AI Control Tower maps a default template to it based on the vendor and, for ServiceNow, the AI system category.
+Control Tower includes out-of-the-box templates so that each AI system category has a default template. When a new AI system is onboarded, Control Tower maps a default template to it based on the vendor and, for ServiceNow, the AI system category.
 
-After you set up default rules, value templates are automatically assigned to new AI systems. When AI Discovery registers a new AI system, and the system reaches the **Deployed** state, AI Control Tower applies the matching default rule. This automation reduces manual setup by eliminating the need to map each new AI system individually.
+After you set up default rules, value templates are automatically assigned to new AI systems. When AI Discovery registers a new AI system, and the system reaches the **Deployed** state, Control Tower applies the matching default rule. This automation reduces manual setup by eliminating the need to map each new AI system individually.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home**.
 
 2.  Navigate to **Settings** &gt; **Rules and Templates** &gt; **Templates** &gt; **Default template rules**.
 
@@ -35,9 +35,11 @@ After you set up default rules, value templates are automatically assigned to ne
 
 4.  If the existing templates don't meet your requirements, create a new default template rule.
 
+    \[Omitted image "mv-review-default-templates.png"\] Alt text: Rules and templates page with the Default template rules tab open, listing nine template rules by persona, asset type, skill type, vendor, and update details.
+
     1.  Select **Assign default templates**.
 
-        The Assign default template dialog box appears.
+        The Assign default template dialog box appears.\[Omitted image "mv-review-default-templates-assign.png"\] Alt text: Assign default template dialog with AI Agents selected as the template, ServiceNow as the vendor, and Agent as the AI system category.
 
     2.  From the **Template** list, select a template.
 
@@ -50,5 +52,5 @@ After you set up default rules, value templates are automatically assigned to ne
 
 ## Result
 
-When AI Discovery registers a new AI system, it checks if it matches the asset type and vendor. If it does and reaches the "Deployed" state, AI Control Tower maps the default templates to that system.
+When AI Discovery registers a new AI system, it checks if it matches the asset type and vendor. If it does and reaches the "Deployed" state, Control Tower maps the default templates to that system.
 

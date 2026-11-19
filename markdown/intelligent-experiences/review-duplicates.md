@@ -1,6 +1,6 @@
 ---
 title: Duplicate AI assets
-description: AI asset deduplication in AI Control Tower identifies duplicate records in the AI asset inventory for AI Stewards to review and consolidate.
+description: AI asset deduplication in Control Tower identifies duplicate records in the AI asset inventory for AI Stewards to review and consolidate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/review-duplicates.html
 release: australia
@@ -8,12 +8,12 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [AI asset deduplication, duplicate assets, AI Inventory, AI stewards]
-breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Duplicate AI assets
 
-AI asset deduplication in AI Control Tower identifies duplicate records in the AI asset inventory for AI Stewards to review and consolidate.
+AI asset deduplication in Control Tower identifies duplicate records in the AI asset inventory for AI Stewards to review and consolidate.
 
 ## AI asset deduplication
 
@@ -64,7 +64,7 @@ To identify duplicate AI systems with higher accuracy than machine learning clus
 
 When LLM-powered detection is on, a daily scheduled job uses the AI Asset Tag Generator skill to generate descriptive tags for each AI system from its metadata. AI asset inventory then groups AI systems with similar tags as duplicates. By default, AI systems with less than 70% metadata completeness aren't tagged, so LLM-powered detection doesn't evaluate them.
 
-**Note:** To use LLM-powered detection, install the ServiceNow Otto for AI Control Tower \(com.sn\_aict\_genai\) plugin.
+**Note:** To use LLM-powered detection, install the ServiceNow Otto for Control Tower \(com.sn\_aict\_genai\) plugin.
 
 To turn on LLM-powered detection, navigate to **Settings** &gt; **Rules and templates** &gt; **AI skills** and set the **Intelligent Asset Deduplication** toggle to **Active**. The toggle sets the sn\_ai\_governance.asset\_dedup.agent.enabled system property to true. To return to Predictive Intelligence clustering, set the toggle to **Inactive**.
 

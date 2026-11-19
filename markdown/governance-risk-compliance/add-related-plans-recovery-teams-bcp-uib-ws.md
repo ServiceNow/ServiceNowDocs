@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compl
 release: australia
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 7
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -22,7 +22,22 @@ Role required: sn\_bcm.program\_manager, sn\_bcm.planner, sn\_bcp.plan\_manager
 
 You can add the associated plans that are listed in the Workspace view. When an associated plan is added in an exercise or event, it gets triggered from a task if the task is tagged as a dependency.
 
-Previously, adding an associated plan would automatically include a link to the plan record in its record list. However, with the introduction of the Xanadu release, this process has changed to a one-way relationship. The associated plan record no longer displays the link to the original plan record. To manually insert the link, you can navigate to the tab and add the link. This update provides the flexibility to designate the plan relationship as either a parent-child or sibling relationship.
+Use the associated plan types to show how your plans depend on each other:
+
+-   Upstream plans: Plans whose recovery tasks can be set as dependencies for recovery tasks in the selected plan.
+
+    Example: The Payroll application recovery plan has the Data center recovery plan as an upstream plan. The Payroll task "Restore payroll database" can depend on the Data center task "Restore storage".
+
+-   Downstream plans: Plans that have the selected plan as their upstream plan.
+
+    Example: In the Data center recovery plan, the Payroll application recovery plan is listed as a downstream plan.
+
+-   Related plans: Plans that are linked to the selected plan without an upstream or downstream relationship. You can later set a related plan as an upstream or downstream plan. A related plan that is linked to a recovery task is created as a child plan when the plan is triggered in an event.
+
+    Example: The Facilities evacuation plan is a related plan of the Payroll application recovery plan. A Payroll recovery task triggers the Facilities plan. In an event, the Facilities plan is created as a child plan.
+
+
+Adding an associated plan creates a one-way relationship. The associated plan record doesn't display a link to the original plan record. To insert the link manually, navigate to the **Associated plans** tab in the plan record and add the link. You can then set the relationship as an upstream, downstream, or related plan.
 
 ## Procedure
 
@@ -32,7 +47,7 @@ Previously, adding an associated plan would automatically include a link to the 
 
 3.  Select the **Associated plans** tab.
 
-    **Note:** The **Related plans** tab has been renamed to the **Associated Plans** tab. It helps you to manage the cross-plan dependencies.
+    **Note:** The **Related plans** tab has been renamed to the **Associated plans** tab. It helps you to manage the cross-plan dependencies.
 
     The associated plan types are shown in the example:
 
@@ -55,7 +70,35 @@ Previously, adding an associated plan would automatically include a link to the 
 
     No UI actions are available for the Downstream plans.
 
+    The system doesn't allow the following when you add or remove an upstream plan:
+
+    -   Relating a plan to itself.
+
+        Example: You can't add the Payroll application recovery plan as an associated plan of itself.
+
+    -   Adding a plan that is already related to the selected plan.
+
+        Example: The Data center recovery plan is already related to the Payroll application recovery plan. You can't add it again.
+
+    -   Removing an upstream plan while recovery tasks depend on tasks in that plan. Remove the task dependencies first.
+
+        Example: The Payroll task "Restore payroll database" depends on the Data center task "Restore storage". You can't remove the Data center recovery plan as an upstream plan until you remove that dependency.
+
 5.  To add a related plan to the plan record, choose **Related plans** from the Associated plan types panel and then select **Add**.
+
+    The restrictions on relating a plan to itself and on adding a plan that is already related also apply to related plans. The system also doesn't allow the following when you set a related plan as an upstream or downstream plan:
+
+    -   Setting a plan as an upstream or downstream plan while a recovery task in one plan activates the other plan. Remove the activation first.
+
+        Example: A recovery task in the Payroll plan triggers the Facilities evacuation plan. You can't set the Facilities plan as a downstream plan until you remove that activation.
+
+    -   Changing the relationship while recovery tasks depend on tasks in the upstream plan. Remove those task dependencies first.
+
+        Example: The Payroll task "Restore payroll database" depends on the Data center task "Restore storage". You can't change the relationship between the two plans until you remove that dependency.
+
+    -   Setting a plan as a downstream plan without write access to that plan.
+
+        Example: You can edit the Payroll application recovery plan but not the Facilities evacuation plan. You can't set the Facilities plan as a downstream plan.
 
     1.  To set the related plan as upstream plan, select **Set as upstream plan**.
 
@@ -80,6 +123,20 @@ Previously, adding an associated plan would automatically include a link to the 
     \[Omitted image "cp6-recovery-task-dependencies.png"\] Alt text: 6.
 
     By performing the cyclic dependency check, you can verify that child tasks aren’t added in the parent tasks and it isn’t a cyclic dependency.
+
+    The system doesn't allow the following:
+
+    -   Any relationship that creates a cyclic dependency.
+
+        Example: The Data center plan is an upstream plan of the Payroll plan, and the Payroll plan is an upstream plan of the Reporting plan. You can't set the Reporting plan as an upstream plan of the Data center plan.
+
+    -   Creating an event task that triggers a plan that is already in the activation chain of the event \(a circular activation\).
+
+        Example: The Payroll plan triggers the Data center plan in an event. A task in the Data center plan then triggers the Payroll plan. The event task isn't created.
+
+    -   Saving a recovery task that triggers a plan if the nested plans exceed the maximum allowed levels. Remove the related plan to save the task.
+
+        Example: A recovery task triggers a plan that itself triggers other plans in a long chain. If the chain has more levels than the maximum, the task isn't saved.
 
 7.  Select the **Recovery teams** tab and select **Add**.
 

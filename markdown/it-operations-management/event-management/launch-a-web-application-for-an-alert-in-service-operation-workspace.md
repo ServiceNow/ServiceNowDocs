@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-06"
 reading_time_minutes: 1
-breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Respond to alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Launch a web application for an alert in Service Operations Workspace for ITOM
@@ -34,4 +34,6 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
     **Note:** For information on how to add a web application that can be launched, see [Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-alert-management-rule.md).
 
+
+**Parent Topic:**[Responding to and working with alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/responding-to-and-working-with-alerts-in-express-list.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Set up Notify with On-Call Scheduling
-description: You can configure on-call scheduling to use Notify functionality to send SMS alerts and assign users to tasks based on the SMS responses.
+description: Configure on-call scheduling to use Notify to send SMS alerts and assign users to tasks based on their SMS responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/t\_SetUpNotifyWithOnCall.html
 release: australia
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Using Notify with On-Call Scheduling, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Set up Notify with On-Call Scheduling
 
-You can configure on-call scheduling to use Notify functionality to send SMS alerts and assign users to tasks based on the SMS responses.
+Configure on-call scheduling to use Notify to send SMS alerts and assign users to tasks based on their SMS responses.
 
 ## Before you begin
 

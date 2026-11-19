@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Moveworks for Employee Center, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
+breadcrumb: [Moveworks for Employee Center, Configuring Employee Center, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Upload Java KeyStore certificate
@@ -56,7 +56,7 @@ Certificate authentication creates encrypted communication between your ServiceN
 
     2.  Select the info icon \(\[Omitted image "info-icon.png"\] Alt text: preview icon\), select **Open Record** in the pop-up, and select Global scope.
 
-        \[Omitted image "image.mw-jws-key"\] Alt text: Moveworks JWT key password
+        \[Omitted image "mw-jws-key.png"\] Alt text: Moveworks JWT key password
 
     3.  In the Moveworks JWT key window, enter the same **Key Store Password** in the **Signing Key** field.
 

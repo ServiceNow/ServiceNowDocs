@@ -1,17 +1,17 @@
 ---
-title: Configuring Next Experience start page options
+title: Configure Next Experience start page options
 description: Multiple start page options help you determine where best to start your day in Next Experience. Configure the landing page so that you and your users start on a page tailored to your needs in ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-start-option.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [next experience start page options]
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Configuring Next Experience start page options
+# Configure Next Experience start page options
 
 Multiple start page options help you determine where best to start your day in Next Experience. Configure the landing page so that you and your users start on a page tailored to your needs in ServiceNow.
 

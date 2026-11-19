@@ -1,6 +1,6 @@
 ---
 title: Show/hide filter controls
-description: The Show/hide filter used in the list configuration, lists the fields to configure in the filter conditions.
+description: The Show/hide filter in list configuration lists the fields that you can use in filter conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/show-hide-filter.html
 release: australia
@@ -14,15 +14,15 @@ breadcrumb: [Configure, List administration, Forms, fields, and lists, Configure
 
 # Show/hide filter controls
 
-The Show/hide filter used in the list configuration, lists the fields to configure in the filter conditions.
+The Show/hide filter in list configuration lists the fields that you can use in filter conditions.
 
-The fields mentioned in the Show/hide filter are sorted in an alphabetical order.
+The fields in the Show/hide filter are sorted alphabetically.
 
-**Note:** If the name of the fields start with an accented character, those fields are placed at the end of the list.
+**Note:** If field names start with an accented character, those fields are placed at the end of the list.
 
-You can enable the **guide.ui.condition\_builder.sort\_labels\_by\_locale** sys property to sort the fields of the Show/hide filter as per the locale-based language. The sys property is set to **False**, by default. If you have a customized script that's based on alphabetical sorting of the fields, the locale-based language setting might break your script. So, you can enable the sys property only when you need the filter to be locale-based language.
+You can enable the **guide.ui.condition\_builder.sort\_labels\_by\_locale** system property to sort the fields of the Show/hide filter according to the locale-based language. The system property is set to **False**, by default. If you have a customized script that's based on alphabetical sorting of the fields, the locale-based language setting might break your script. Enable the system property only when you need the filter to be locale-based language.
 
-**Note:** If the sys property is not enabled, the fields are sorted in an alphabetical order. The fields starting with an accented character are placed at the end of the list.
+**Note:** If the system property isn't enabled, the fields are sorted alphabetically. The fields starting with an accented character are placed at the end of the list.
 
 **Parent Topic:**[Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-administration/c_ListConfiguration.md)
 

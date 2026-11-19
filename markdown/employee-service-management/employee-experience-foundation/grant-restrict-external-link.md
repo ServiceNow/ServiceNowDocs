@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create an external link, Quick links, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Create an external link, Quick links, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Grant or restrict access to an external link
@@ -30,15 +30,15 @@ Role required: sp\_admin, taxonomy\_admin, or taxonomy\_manager
 
 3.  To grant access to the external link, click the **Available For** tab.
 
-<table><thead><tr><th align="left" id="d595931e80">
+<table><thead><tr><th align="left" id="d598283e80">
 
 To
 
-</th><th align="left" id="d595931e83">
+</th><th align="left" id="d598283e83">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d595931e89">
+</th></tr></thead><tbody><tr><td id="d598283e89">
 
 **Add a new user criteria**
 
@@ -49,7 +49,7 @@ Do this
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d595931e123">
+</td></tr><tr><td id="d598283e123">
 
 **Edit an existing user criteria**
 
@@ -63,15 +63,15 @@ Do this
 </td></tr></tbody>
 </table>4.  To restrict access to the external link, click the **Not Available For** tab.
 
-<table><thead><tr><th align="left" id="d595931e169">
+<table><thead><tr><th align="left" id="d598283e169">
 
 To
 
-</th><th align="left" id="d595931e172">
+</th><th align="left" id="d598283e172">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d595931e178">
+</th></tr></thead><tbody><tr><td id="d598283e178">
 
 **Add a new user criteria**
 
@@ -82,7 +82,7 @@ Do this
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d595931e212">
+</td></tr><tr><td id="d598283e212">
 
 **Edit an existing user criteria**
 

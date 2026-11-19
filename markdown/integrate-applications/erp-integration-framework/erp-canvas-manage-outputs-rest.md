@@ -83,3 +83,5 @@ Role required: sn\_erp\_integration.erp\_admin
 14. Select **Save**.
 
 
+**Parent Topic:**[Connecting to other ERP systems using REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-use-rest.md)
+

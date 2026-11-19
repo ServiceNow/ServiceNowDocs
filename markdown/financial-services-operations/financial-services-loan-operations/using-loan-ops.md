@@ -7,7 +7,7 @@ release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -88,7 +88,7 @@ Loan admin
 
 </td><td>
 
-Configures the loan workspace as per business requirements. For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-csm-workspace-fso-apps.md).
+Configures the loan workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr></tbody>
 </table>## Workflows

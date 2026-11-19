@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-29"
 reading_time_minutes: 4
 keywords: [Override a base system page with an extension project, Prerequisites, Steps, Ownership and upgrade considerations, Common override issues]
-breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Override a base system page with an extension project

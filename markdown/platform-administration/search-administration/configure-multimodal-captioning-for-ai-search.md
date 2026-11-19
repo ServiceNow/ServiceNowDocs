@@ -1,5 +1,5 @@
 ---
-title: Configure multimodal captioning for AI Search
+title: Configure multimodal captioning with AI Search Admin console
 description: Use the AI Search Admin console to select the visual language model \(VLM\) provider and model for multimodal captioning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.html
@@ -7,25 +7,25 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-12"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Configure multimodal captioning for AI Search
+# Configure multimodal captioning with AI Search Admin console
 
 Use the AI Search Admin console to select the visual language model \(VLM\) provider and model for multimodal captioning.
 
 ## Before you begin
 
--   The Platform Multimodal Service plugin \(com.glide.platform\_mm\_service\) must be installed on your instance. If the plugin is not installed, multimodal captioning options will not appear in the AI Search Admin console. For more information, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
+-   The Platform Multimodal Service plugin \(com.glide.platform\_mm\_service\) must be installed on your instance. If the plugin isn't installed, multimodal captioning options don't appear in the AI Search Admin console. For more information, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
 -   Role required: ais\_admin
 
 
 ## About this task
 
-When multimodal captioning is activated, attachments retrieved from supported sources are automatically analyzed and given descriptive captions, making visual content, such as images, discoverable through text-based search. You can specify the VLM provider and model to use when generating captions.
+When multimodal captioning is activated, attachments retrieved from supported sources are automatically analyzed and given descriptive captions, making visual content, such as images, discoverable through text-based search. Administrators can specify the VLM provider and model to use when generating captions. AI-generated captions might be inaccurate or inappropriate and should be manually reviewed.
 
 ## Procedure
 
@@ -37,7 +37,7 @@ When multimodal captioning is activated, attachments retrieved from supported so
 
     A provider is the VLM you want to use for captioning.
 
-    **Note:** If your preferred provider is not listed, use the AI Control Tower \(AICT\) to configure approved third-party LLMs. For more information, see [Configure third-party LLMs using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-third-party-llms-using-ai-control-tower.md). NowLLM doesn't support this feature.
+    **Note:** If your preferred provider is not listed, use the Super Intelligence Control Tower to configure approved third-party LLMs. For more information, see [Configure third-party LLMs using Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-third-party-llms-using-ai-control-tower.md). NowLLM doesn't support this feature.
 
     The corresponding **Model** options appear.
 

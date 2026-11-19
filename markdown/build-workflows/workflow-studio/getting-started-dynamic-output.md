@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 15
 breadcrumb: [Dynamic outputs, Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -150,7 +150,7 @@ In this task, you create a data gathering action that collects the schema for a 
     |Field|Value|
     |-----|-----|
     |Connection|Leave the **Use Connection Alias** option selected.|
-    |Connection Alias|select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use Basic authentication credentials. Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see Getting started with connections and Getting started with credentials.|
+    |Connection Alias|select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md).|
     |Build Request|Leave the **Manually** option selected.|
     |Resource Path|Enter `api/now/processflow/table/` and then select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\). Select **Inputs** &gt; **Table**. Next, enter `/schema`.|
     |HTTP Method|Enter `GET`|
@@ -299,7 +299,7 @@ In this task, you create a data gathering action that collects the schema for a 
     |Field|Value|
     |-----|-----|
     |Connection|Leave **Use Connection Alias** selected.|
-    |Connection Alias|select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use Basic authentication credentials. Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
+    |Connection Alias|select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
     |Build Request|Leave **Manually** selected.|
     |Resource Path|Enter `api/now/processflow/table/` and then select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\). Select **Inputs** &gt; **Table**. Finally, enter `/schema`|
     |HTTP Method|Enter `GET`|
@@ -454,7 +454,7 @@ This custom action uses two data gathering actions to populate dynamic outputs.
     |Field|Value|
     |-----|-----|
     |Connection|Leave **Use Connection Alias** selected.|
-    |Connection Alias|Select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use Basic authentication credentials. Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
+    |Connection Alias|Select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
     |Build Request|Leave **Manually** selected|
     |Resource Path|Enter `api/now/table/` and then select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\). Select **Inputs** &gt; **Table**.|
     |HTTP Method|Enter `GET`|

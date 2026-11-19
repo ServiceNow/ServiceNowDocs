@@ -7,8 +7,8 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-07-06"
+reading_time_minutes: 4
 keywords: [VMware vCenter, Discovery VMware vCenter]
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -25,7 +25,7 @@ When a vCenter application is running on a dedicated vCenter appliance, a "Runs 
 
 ## Tested vCenter versions
 
-The ServiceNow® platform supports vCenter API versions 4.0 and higher. The following versions were tested with the Brazil release:
+The ServiceNow® platform supports vCenter API versions 4.0 and higher. The following versions were tested with the Australia release:
 
 -   vCenter versions 9.0 and earlier
 -   vCenter appliance version 6.7 and earlier
@@ -61,20 +61,27 @@ The event collector allows the CMDB to be updated with changes to virtual machin
 
 For instructions on configuring vCenter events, see [Configure and run the vCenter event collector extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_VCenterEventProcessorExtension.md).
 
-## VM deleted from vCenter
+## VMs deleted from vCenter
 
-If the VM is deleted from vCenter, the cmdb\_ci\_vm\_instance state changes to terminated and the Status field changes to retired.
+When a VM is deleted from vCenter, the ServiceNow instance updates the VM's record in the VM Instance \[cmdb\_ci\_vm\_instance\] table. The field changes depend on whether the update comes from Discovery or from the vCenter event collector:
+
+-   vCenter Discovery sets **State** to Terminated, **Install Status** to Retired, and **Operational status** to Non-operational for every VM that's no longer in vCenter.
+-   The vCenter event collector sets **State** to Terminated and **Install Status** to Retired when it receives a VmRemovedEvent event. It doesn't change **Operational status**. The event collector doesn't save these changes in the following cases:
+    -   The VM is already marked stale in CMDB Health.
+    -   The VM's **State** is already Terminated or is empty.
 
 ## CIs removed from vCenter
 
 When a vCenter CI, such as a virtual machine, is removed, the ServiceNow instance marks it as "stale" in the CMDB, using either of these procedures:
 
--   When Discovery runs, it creates an audit record in the [Components installed with CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_TablesInstalledCMDBHealth.md) table for the missing CI and marks the CI "stale".
--   If the instance is configured to collect vCenter events, the system can also create a "stale" audit record for the CI in the CMDB Health Result \[cmdb\_health\_result\] table. This record is created from the VmRemovedEvent event, without having to run Discovery.
+-   When Discovery runs, it creates an audit record in the [Components installed with CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_TablesInstalledCMDBHealth.md) table for the missing CI and marks the CI "stale". It also updates the CI fields every time, as described in [VMs deleted from vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_DiscoveryForVMwareVCenter.md).
+-   When the instance is configured to collect vCenter events, the system can also create a "stale" audit record for the CI in the CMDB Health Result \[cmdb\_health\_result\] table. This record is created from the VmRemovedEvent event, without having to run Discovery. The event collector handles these cases differently:
+    -   The CI is already marked stale: The event collector skips the event. It doesn't create another stale record or update the CI fields.
+    -   The VM's **State** is already Terminated or empty: The event collector creates the stale record but doesn't save the CI field changes.
 
 **Note:** When the **Staleness** setting is configured, the dependency view \(BSM map\) grays out stale CIs in its relationship diagram to indicate that they were removed from vCenter.
 
-To avoid stale CI health indicators from being generated during VMware discovery, set the system property **glide.cmdb.health.src.cmdb\_health\_audit\_only** to **true**. This disables stale CI reporting from the VMware discovery source, enabling you to manage the CI life cycle through other means. For more information, see [CMDB Health system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CMDBHealthProperties.md).
+To prevent stale CI records from being created during VMware discovery, set the system property **glide.cmdb.health.src.cmdb\_health\_audit\_only** to **true**. When this property is true, only CMDB Health audits create records in the CMDB Health Result \[cmdb\_health\_result\] table. Records from the Cloud Discovery source, which includes vCenter Discovery and the vCenter event collector, aren't created. Discovery and the event collector still update the CI fields, as described in [VMs deleted from vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/c_DiscoveryForVMwareVCenter.md). For more information, see [CMDB Health system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CMDBHealthProperties.md).
 
 You have the option of creating a [CMDB remediation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCMDBRemediationRule.md) to automatically execute a remediation workflow that can, for example, delete stale CIs. For more information on stale CIs, see [CMDB Health Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CMDBHealthMetrics.md).
 

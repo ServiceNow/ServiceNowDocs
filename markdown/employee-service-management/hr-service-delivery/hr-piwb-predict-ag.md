@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [HR Predictive Intelligence Workbench implementation, HR Predictive Intelligence Workbench, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
@@ -114,18 +114,15 @@ Role required: sn\_piwb\_hr\_content.admin
 
 28. View the test results data for the use case model in the **View test results** section.
 
-29. When you're ready to integrate your use case model into your business processes, do these steps:
-30. Return to the use case **Evaluate and tune your models** page, and select the box next to the model that you want to integrate.
+29. If you are ready to integrate your use case model into your business processes, return to the use case **Evaluate and tune your models** page and select the box next to the model that you want to integrate.**Start** in the **Integrate the best model** section.
 
-31. Select **Start** in the **Integrate the best model** section.
-
-32. In the **Select an Action** list menu, select **Integrate this model**.
+30. In the **Select an Action** list menu, select **Integrate this model**.
 
     The **Select a model to integrate** page opens.
 
-33. Click **Integrate**.
+31. Click **Integrate**.
 
-34. Click **Integrate** again when the pop-up asks you if you are sure you want to perform this action.
+32. Click **Integrate** again when the pop-up asks you if you are sure you want to perform this action.
 
     You have integrated a use case model into your business process.
 

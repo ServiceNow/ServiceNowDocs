@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/select-queue-for-outbound-calls-from-keypad.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-01-02"
 reading_time_minutes: 2
 breadcrumb: [Queue selection, Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
@@ -27,7 +27,7 @@ Follow these steps to select a queue and place an outbound call using the keypad
 
 ## Procedure
 
-1.  Navigate to your configured CRM Workspace and select the phone icon to launch the call keypad.
+1.  Navigate to your configured CSM Configurable Workspace and select the phone icon to launch the call keypad.
 
     The **Select outbound queue** field displays giving you the option to either search for a queue by name or select one from the list of available queues.
 

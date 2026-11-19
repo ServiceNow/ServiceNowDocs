@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-create-retail-organization.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail]
 ---
@@ -16,7 +16,7 @@ Create a retail organization to enable management of hierarchical stores and fra
 
 ## Before you begin
 
-Role required: sn\_rtl.retail\_admin
+Role required: sn\_retail.retail\_admin
 
 ## About this task
 

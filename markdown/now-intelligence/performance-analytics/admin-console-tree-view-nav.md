@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [\(Legacy\) Dependency Assessment, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -69,7 +69,7 @@ Context menu actions
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "admin-console-treeview-dashboard-group.png"\] Alt text: tree view dashboard group
+\[Omitted image "admin-console-treeview-dashboard-group.png"\] Alt text:
 
 </td><td>
 
@@ -81,7 +81,7 @@ Edit
 
 </td></tr><tr><td>
 
-\[Omitted image "admin-console-treeview-dashboard.png"\] Alt text: tree view dashboard
+\[Omitted image "admin-console-treeview-dashboard.png"\] Alt text:
 
 </td><td>
 
@@ -101,7 +101,7 @@ Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/
 
 </td></tr><tr><td>
 
-\[Omitted image "admin-console-treeview-tab.png"\] Alt text: tree view tab
+\[Omitted image "admin-console-treeview-tab.png"\] Alt text:
 
 </td><td>
 
@@ -117,7 +117,7 @@ Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/
 
 </td></tr><tr><td>
 
-\[Omitted image "admin-console-treeview-report.png"\] Alt text: tree view report
+\[Omitted image "admin-console-treeview-report.png"\] Alt text:
 
 </td><td>
 
@@ -136,7 +136,7 @@ Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/
 
 </td></tr><tr><td>
 
-\[Omitted image "admin-console-treeview-report-source.png"\] Alt text: tree view report source
+\[Omitted image "admin-console-treeview-report-source.png"\] Alt text: t
 
 </td><td>
 
@@ -188,7 +188,7 @@ Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/
 
 </td></tr><tr><td>
 
-\[Omitted image "admin-console-treeview-widget.png"\] Alt text: tree view other widget icon
+\[Omitted image "admin-console-treeview-widget.png"\] Alt text:
 
 </td><td>
 
@@ -420,15 +420,15 @@ Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/
 
 Each node has one or more of these icons. Point to the upper right corner of the node to show them.
 
--   **Info button \[\[Omitted image "admin-console-treeview-info.png"\] Alt text: Admin console tree view info button\]**
+-   **Info button \[\[Omitted image "admin-console-treeview-info.png"\] Alt text:\]**
 
-    Click the info button to reveal further details about the node. A node's information panel shows different information depending on the type of node, but all information panels have an **Open Record** button. Click **Open Record** to open the record for editing.
+    Select the info button to reveal further details about the node. A node's information panel shows different information depending on the type of node, but all information panels have an **Open Record** button. Select **Open Record** to open the record for editing.
 
--   **Context menu \[\[Omitted image "admin-console-treeview-menu.png"\] Alt text: Admin console tree view context menu button\]**
+-   **Context menu \[\[Omitted image "admin-console-treeview-menu.png"\] Alt text:\]**
 
     Click the context menu icon to perform further actions on the node's source.
 
--   **Error indicators \[\[Omitted image "admin-console-treeview-error.png"\] Alt text: Admin console tree view error indicator\]**
+-   **Error indicators \[\[Omitted image "admin-console-treeview-error.png"\] Alt text:\]**
 
     Open the element the node refers to so that you can correct any issues.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-servicenowottoforitoperationsmanagementitom-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
@@ -286,7 +286,7 @@ Zurich
 
 </td><td>
 
-In [Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US), the Google Gemini Cloud Assist agent is being prepared for future deprecation. To continue receiving Google Cloud insights, use the analyze alert impact agentic workflow which includes the Gemini Cloud Assist A2A Investigation Agent. For configuration instructions, see [\[Placeholder link text to key configure-integration-agents-for-now-assist\]](https://www.servicenow.com/docs/access?context=configure-integration-agents-for-now-assist&family=zurich&ft:locale=en-US).
+In [Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US), the Google Gemini Cloud Assist agent is being prepared for future deprecation. To continue receiving Google Cloud insights, use the analyze alert impact agentic workflow which includes the Gemini Cloud Assist A2A Investigation Agent. For configuration instructions, see [configure integration agents for now assist](https://www.servicenow.com/docs/access?context=configure-integration-agents-for-now-assist&family=zurich&ft:locale=en-US).
 
  In [Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US), the Dynatrace analysis AI agent is being prepared for future deprecation. To continue getting Dynatrace insights in agentic workflows, deactivate the Dynatrace analysis AI agent and set up the Dynatrace MCP server agent. For configuration details, see [Configure the Dynatrace MCP server agent](https://www.servicenow.com/docs/access?context=now-assist-itom-config-dynatrace-mcp&family=zurich&ft:locale=en-US).
 
@@ -319,7 +319,7 @@ Zurich
 
 -   **Activation information**
 
-Install AIOps Experience \[sn\_sow\_aiops\] and ServiceNow Otto for ITOM from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install AIOps Experience \[sn\_sow\_aiops\] and ServiceNow Otto for ITOM from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** ServiceNow Otto for ITOM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -500,7 +500,7 @@ Zurich
 -   Review changes to Now Assist usage measurement.
 -   Now Assist skills used in the analyze potential impact agentic workflow are turned on by default.
 -   Use the new manage alerts autonomously workflow to efficiently manage alerts and minimize resolution times, including an AI agent for triage, impact analysis, and root cause investigation.
--   -   **[\[Placeholder link text to key aiops-leap\]](https://www.servicenow.com/docs/access?context=aiops-leap&family=zurich&ft:locale=en-US)**
+-   -   **[aiops leap](https://www.servicenow.com/docs/access?context=aiops-leap&family=zurich&ft:locale=en-US)**
 
 Create Knowledge Base articles with embedded command snippets
 

@@ -59,3 +59,5 @@ If your REST API runs on-premises or behind a firewall, you can route API calls 
 
 For information about the REST API connector tables that support Zero Copy Connector for ERP, see [REST API connector tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-rest-api-tables.md).
 
+**Parent Topic:**[Connecting to other ERP systems using REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-use-rest.md)
+

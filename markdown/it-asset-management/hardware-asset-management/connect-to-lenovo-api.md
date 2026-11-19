@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Receive asset warranty details from Lenovo, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Connect to the Lenovo Warranty API
@@ -51,5 +51,10 @@ After you save the connection and credential records, the Lenovo Warranty API is
 
 **Tip:** No connection test is available for the Lenovo Warranty API. To confirm that the connection is working, check the **Asset Job Log** \[asset\_job\_log\] table after the warranty download job runs. If the credentials are incorrect or the connection fails, the job runs but doesn't download warranty information, and logs the details for each run.
 
-**Parent Topic:**[Integrations and advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/integrations-advncd-configs.md)
+**Parent Topic:**[Receive asset warranty details from Lenovo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/receive-warranty-details-lenovo.md)
+
+**Related topics**  
+
+
+[Track the warranty details of your Lenovo assets]()
 

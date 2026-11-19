@@ -1,20 +1,20 @@
 ---
-title: Manage shifts in Service Operations Workspace
-description: Accept or reject absence requests, resolve gaps and conflicts by providing coverage and scheduling extra time for a shift.
+title: Manage shifts in service operation workspace
+description: Accept or reject absence requests, and resolve gaps and conflicts in a shift by providing coverage or scheduling extra time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/manage-shifts-in-service-operation-workspace.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Scheduling in Service Operations Workspace, On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Scheduling in service operation workspace, On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Manage shifts in Service Operations Workspace
+# Manage shifts in service operation workspace
 
-Accept or reject absence requests, resolve gaps and conflicts by providing coverage and scheduling extra time for a shift.
+Accept or reject absence requests, and resolve gaps and conflicts in a shift by providing coverage or scheduling extra time.
 
 ## Before you begin
 
@@ -32,11 +32,11 @@ Role required: rota\_manager, rota\_admin
 
 3.  Select **Approve** or **Reject** and confirm the same when prompted.
 
-4.  For gaps or conflicts, select the shift card and select \[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: More icon or select and hold \(or right-click\) a shift card.
+4.  For gaps or conflicts, select the shift card and click \[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: More icon or right-click a shift card.
 
 5.  Select **Provide coverage** to replace a member of the shift.
 
-    Provide the following details and select **Provide coverage**:
+    Provide the following details and click **Provide coverage**:
 
     -   Member: name of the member
     -   Start
@@ -51,8 +51,8 @@ Role required: rota\_manager, rota\_admin
 
     \[Omitted image "schedule\_extra\_time\_sow.png"\] Alt text: schedule extra time
 
-7.  Select and hold \(or right-click\) a shift card and select **Delete absence** to remove the approved absence request from the calendar.
+7.  Right-click a shift card and click **Delete absence** to remove the approved absence request from the calendar.
 
 
-**Parent Topic:**[Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)
+**Parent Topic:**[Scheduling in service operation workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)
 

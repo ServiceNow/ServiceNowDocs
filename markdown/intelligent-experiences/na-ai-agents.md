@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/na-ai-agents.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
 # AI Agent Studio \(legacy\)
@@ -32,7 +32,7 @@ Select a tile to get started with AI agents.
 
 </td><td>
 
-[Create an AI agent\[Omitted image "bus-virtual-agent.svg"\] Alt text:Create your own custom AI agents with advanced multi-agent reasoning frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-next-best-action-agent.md)
+[Create an AI agent\[Omitted image "bus-virtual-agent.svg"\] Alt text:Create your own custom AI agents conversationally or manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-next-best-action-agent.md)
 
 </td></tr><tr><td>
 

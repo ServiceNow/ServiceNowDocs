@@ -8,7 +8,7 @@ product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 8
+reading_time_minutes: 7
 keywords: [AI Risk and Compliance, AI governance, AI risk management]
 breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
@@ -82,7 +82,7 @@ AI risk and compliance admin
 
 ## AI Risk and Compliance workflow
 
-The following section describes the steps involved when an AI asset is created in the AI Control Tower application and the risks for the assets are assessed in the AI Risk and Compliance application until the asset is deployed and moves to being monitored.
+The following section describes the steps involved when an AI asset is created in the Control Tower application and the risks for the assets are assessed in the AI Risk and Compliance application until the asset is deployed and moves to being monitored.
 
 When a new AI system is introduced or enhanced, it undergoes a risk assessment and an AI impact assessment. These assessments yield scores that denote the risk levels for the AI systems. After the approval is obtained from the relevant stakeholders, the development or build phase begins. During development, controls are attested, issues are tracked and managed, and policy exceptions are raised as needed from a risk and compliance perspective. Following development, the AI system is reviewed to ensure:
 
@@ -94,8 +94,8 @@ Based on these evaluations, the AI system is either approved or rejected for dep
 
 The workflow for an AI asset creation and deployment is the following:
 
-1.  Business users use the Employee Center or the AI Control Tower workspace and submit a new AI use case.
-2.  A new inventory record is automatically created in the AI Control Tower workspace.
+1.  Business users use the Employee Center or the Control Tower workspace and submit a new AI use case.
+2.  A new inventory record is automatically created in the Control Tower workspace.
 3.  The AI Center of Excellence \(COE\) team reviews the submitted use case.
 4.  AI assets such as AI models \(Claude, OpenAI, LLMs, etc.\), Datasets \(Public, Private, Transactions, etc.\), Prompts \(Decisions\) are added to the inventory to help determine if the use case should proceed to the next stage.
 5.  In the AI Risk and Compliance workspace, either an AI impact assessment is initiated.
@@ -152,7 +152,7 @@ Perform impact assessments for AI systems, models, and datasets to identify high
 
 </td><td>
 
-The roles required are as follows:-   AI Control Tower: AI Asset Owner
+The roles required are as follows:-   Control Tower: AI Asset Owner
 -   AI Risk and Compliance: AI Risk and Compliance User
 
 </td></tr><tr><td>

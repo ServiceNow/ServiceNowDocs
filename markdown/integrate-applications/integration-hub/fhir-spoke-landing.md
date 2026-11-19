@@ -18,7 +18,7 @@ Integrate ServiceNow with any HL7 FHIR R4-conformant server. The HL7 FHIR Spoke 
 
 The HL7 FHIR Spoke is an Integration Hub action pack that exposes eight read-only Workflow Studio actions — a look-up-by-ID action and a search-and-stream action for each of the four FHIR R4 provider-directory resources. Health systems expose practitioner, organizational, and location data through HL7 FHIR R4 APIs, but Workflow Studio has no native way to query those endpoints. Without this spoke, workflow builders write custom REST messages, script includes, and JSON parsers. The HL7 FHIR Spoke closes that gap.
 
-The spoke is FHIR-agnostic: it returns raw FHIR field values as Workflow Studio data pills and does not map them to any ServiceNow data model. Downstream applications, such as the Healthcare Operations HL7 FHIR Integration, compose these actions inside their own flows to persist FHIR data into ServiceNow tables.
+The spoke is FHIR-agnostic: it returns raw FHIR field values as Workflow Studio data pills and does not map them to any ServiceNow data model. Downstream applications, such as the EMR Provider Directory Sync, compose these actions inside their own flows to persist FHIR data into ServiceNow tables.
 
 ## Request apps on the Store
 

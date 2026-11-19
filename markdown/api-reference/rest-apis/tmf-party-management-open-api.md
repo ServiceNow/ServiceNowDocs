@@ -7,8 +7,8 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 73
+last_updated: "2026-03-12"
+reading_time_minutes: 76
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -21,6 +21,29 @@ The Party Management Open API is a ServiceNow® implementation of the TM Forum P
 This API is provided within the sn\_tmf\_api namespace. The calling user must have the sn\_tmf\_api.party\_integrator role. The Customer Service Base Entities \(com.snc.cs\_base\) plugin is required, particularly for all GET operations.
 
 This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. Sensitive fields like phone numbers may require special ACL permissions for update or retrieval.
+
+## v2: CTK Compliance and Structural Changes
+
+The Party Management Open API has been updated to align with TMF 632 CTK \(Core Transaction Kernel\) compliance standards. These changes improve interoperability with external telecommunications systems and clarify the structure of party and relationship data.
+
+Key changes with v2:
+
+1.  Removal of PartyOrPartyRole Object: In previous versions, a `PartyOrPartyRole` object at the root level was used to determine whether a request would create an Account, Consumer, or Contact. This object is no longer supported and has been removed. Use the `@type` field instead.
+2.  Introduction of @type at Root Level: The `@type` field is now mandatory at the root level of all requests to POST endpoints. This field explicitly declares the type of party object being created:
+    -   `@type: "Account"`: Creates or updates an Account record.
+    -   `@type: "Consumer"`: Creates or updates a Consumer record.
+    -   `@type: "Contact"`: Creates or updates a Contact record.
+
+The v1 API endpoints continue to support the legacy `PartyOrPartyRole` structure. For new integrations or when upgrading existing integrations, use the v2 endpoints with the updated `@type` structure. Both versions are available during the transition period; however, v1 is deprecated and will be sunset in a future release.
+
+## Migration Guide
+
+If you are upgrading from a previous version using `PartyOrPartyRole`:
+
+1.  **Remove** any `PartyOrPartyRole` object from your request payload
+2.  **Add** the `@type` field at the root level with the appropriate value \(`Account`, `Consumer`, or `Contact`\)
+3.  **Update** the `relatedParty` object to include the mandatory `@type` field \(set to `"User"` for Consumer creation\)
+4.  **Retain** the `role` field in `relatedParty` with value `"User"`
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
@@ -373,7 +396,7 @@ List of means for contacting the party. Data type: Array of Objects
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "contactType": "String",
+  "mediumType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -411,24 +434,6 @@ City of the individual. Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.contactType
-
-</td><td>
-
-The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
-
--   `businessPhone`: Business phone number.
--   `email`: Email address.
--   `homePhone`: Home phone number.
--   `mobilePhone`: Mobile phone number.
--   `postalAddress`: Address, handled separately as a location.
--   `faxPhone`: Fax number.
--   `phone`: Generic phone number, omitted in v1 responses.
-
-Data type: String
-
-</td></tr><tr><td>
-
 contactMedium.country
 
 </td><td>
@@ -455,6 +460,22 @@ Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.mediumType
+
+</td><td>
+
+The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
+
+-   email
+-   businessPhone
+-   homePhone
+-   mobilePhone
+-   postalAddress
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.phoneNumber
 
 </td><td>
@@ -467,7 +488,7 @@ contactMedium.postCode
 
 </td><td>
 
-Postal code of the individual.Data type: String
+Postcode of the individual.Data type: String
 
 </td></tr><tr><td>
 
@@ -717,6 +738,7 @@ Response body for a Individual Contact party.
 [
 {
    "id": "34d92aaa11f43110f877366201dea67b",
+   "externalId": "LOC-SF-HQ-2026",
    "href": "api/sn_tmf_api/party/individual/34d92aaa11f43110f877366201dea67b",
    "name": "carlos.star",
    "givenName": "Carlos",
@@ -783,25 +805,25 @@ Response body for a Individual Contact party.
    "contactMedium": [
      {
        "preferred": false,
-       "contactType": "email",
+       "mediumType": "email",
        "emailAddress": "carlos.star@example.com",
        "@type": "EmailContactMedium"
      },
      {
        "preferred": false,
-       "contactType": "businessPhone",
+       "mediumType": "businessPhone",
        "phoneNumber": "",
        "@type": "BusinessPhoneContactMedium"
      },
      {
        "preferred": false,
-       "contactType": "homePhone",
+       "mediumType": "homePhone",
        "phoneNumber": "",
        "@type": "HomePhoneContactMedium"
      },
      {
        "preferred": false,
-       "contactType": "mobilePhone",
+       "mediumType": "mobilePhone",
        "phoneNumber": "",
        "@type": "MobilePhoneContactMedium"
      }
@@ -809,28 +831,15 @@ Response body for a Individual Contact party.
    "externalReference": [],
    "relatedParty": [
      {
-       "role": "Company",
-       "partyOrPartyRole": {
-         "id": "9e2fd2ee11b43110f877366201dea674",
-         "name": "Startech svcs",
-         "@type": "Organization"
-       }
+       "@type": "Company",
+       "role": "Company"
      },
      {
-       "role": "Department",
-       "partyOrPartyRole": {
-         "id": "",
-         "name": "",
-         "@type": "Organization"
-       }
+       "role": "Department"
      }
    ],
    "status": "Active",
-   "@type": "Individual",
-   "partyOrPartyRole": {
-     "name": "Contact",
-     "@type": "Party"
-   }
+   "@type": "Individual"
  }
 ]
 ```
@@ -895,31 +904,31 @@ Response body for a Individual Consumer party.
    "contactMedium": [
      {
        "preferred": false,
-       "contactType": "businessPhone",
+       "mediumType": "businessPhone",
        "phoneNumber": "",
        "@type": "BusinessPhoneContactMedium"
      },
      {
        "preferred": false,
-       "contactType": "homePhone",
+       "mediumType": "homePhone",
        "phoneNumber": "",
        "@type": "HomePhoneContactMedium"
      },
      {
        "preferred": false,
-       "contactType": "mobilePhone",
+       "mediumType": "mobilePhone",
        "phoneNumber": "",
        "@type": "MobilePhoneContactMedium"
      },
      {
        "preferred": false,
-       "contactType": "fax",
+       "mediumType": "fax",
        "phoneNumber": "",
        "@type": "FaxContactMedium"
      },
      {
        "preferred": false,
-       "contactType": "postalAddress",
+       "mediumType": "postalAddress",
        "@type": "GeographicalAddressContactMedium",
        "city": "ygyg",
        "locationId": "a39bfc6953a46210132bddeeff7b12b7",
@@ -933,20 +942,12 @@ Response body for a Individual Consumer party.
    "externalReference": [],
    "relatedParty": [
      {
-       "role": "User",
-       "partyOrPartyRole": {
-         "id": "",
-         "name": "",
-         "@type": "Individual"
-       }
+       "@type": "User",
+       "role": "User"
      }
    ],
    "status": "Active",
-   "@type": "Individual",
-   "partyOrPartyRole": {
-     "name": "Consumer",
-     "@type": "Party"
-   }
+   "@type": "User"
  }
 ]
 ```
@@ -1100,7 +1101,7 @@ List of means for contacting the party. Data type: Array of Objects
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "contactType": "String",
+  "mediumType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -1138,24 +1139,6 @@ City of the individual. Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.contactType
-
-</td><td>
-
-The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
-
--   `businessPhone`: Business phone number.
--   `email`: Email address.
--   `homePhone`: Home phone number.
--   `mobilePhone`: Mobile phone number.
--   `postalAddress`: Address, handled separately as a location.
--   `faxPhone`: Fax number.
--   `phone`: Generic phone number, omitted in v1 responses.
-
-Data type: String
-
-</td></tr><tr><td>
-
 contactMedium.country
 
 </td><td>
@@ -1182,6 +1165,22 @@ Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.mediumType
+
+</td><td>
+
+The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
+
+-   email
+-   businessPhone
+-   homePhone
+-   mobilePhone
+-   postalAddress
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.phoneNumber
 
 </td><td>
@@ -1194,7 +1193,7 @@ contactMedium.postCode
 
 </td><td>
 
-Postal code of the individual.Data type: String
+Postcode of the individual.Data type: String
 
 </td></tr><tr><td>
 
@@ -1443,6 +1442,7 @@ Response body.
 ```
 {
   "id": "12345",
+  "externalId": "LOC-SF-HQ-2026",
   "givenName": "JohnTest6",
   "middleName": "A.",
   "familyName": "Doe",
@@ -1452,37 +1452,37 @@ Response body.
   "contactMedium": [
     {
       "preferred": true,
-      "contactType": "email",
+      "mediumType": "email",
       "emailAddress": "john.doe18723@example.com",
       "@type": "EmailContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "mobilePhone",
+      "mediumType": "mobilePhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "PhoneContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "businessPhone",
+      "mediumType": "businessPhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "BusinessPhoneContactMedium"
     },
     {
       "preferred":false,
-      "contactType":"faxPhone",
+      "mediumType":"faxPhone",
       "phoneNumber":"123456789",
       "@type":"FaxContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "homePhone",
+      "mediumType": "homePhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "HomePhoneContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "postalAddress",
+      "mediumType": "postalAddress",
       "@type": "GeographicAddressContactMedium",
       "locationId":"25ab9e240a0a0bb3009eb9ef8dd0a2c0",
       "city": "Town",
@@ -1494,7 +1494,7 @@ Response body.
     },
     {
       "preferred": false,
-      "contactType": "postalAddress",
+      "mediumType": "postalAddress",
       "@type": "GeographicAddressContactMedium",
       "locationId":"25aba17a0a0a0bb3007efd809d6e695c",
       "city": "Webster",
@@ -1539,24 +1539,16 @@ Response body.
   ],
   "relatedParty": [
     {
-      "role": "User",
-      "partyOrPartyRole": {
-        "id": "36901a6381116a50f8776cfcbee15f3c",
-        "name": "Hr",
-        "@type": "Individual"
-      }
+      "@type": "User",
+      "role": "User"
     }
   ],
   "status": "active",
-  "@type": "Individual",
-  "partyOrPartyRole": {
-    "role": "Consumer",
-    "@type":"Party"
-  }
+  "@type": "User"
 }
 ```
 
-## Party Management – GET/api/ sn\_tmf\_api/v1/party/organization/\{id\}
+## Party Management – GET /api/ sn\_tmf\_api/v1/party/organization/\{id\}
 
 Retrieves a specified record from the Account \[customer\_account\] tables. You can filter results by specific fields or IDs.
 
@@ -1590,7 +1582,7 @@ id
 
 </td><td>
 
-Sys\_id of the company or account record to retrieve.Table: Account \[customer\_account\]
+Sys\_id of the company or account record to retrieve.Table: Account \[customer\_account\] or Company \[csm\_company\]
 
 Data type: String
 
@@ -1693,8 +1685,6 @@ The following status codes apply to this HTTP action. For a list of possible sta
 
 ### Response body parameters \(JSON or XML\)
 
-### Response body parameters \(JSON or XML\)
-
 <table id="table_edn_qnn_3hc"><thead><tr><th>
 
 Name
@@ -1771,23 +1761,6 @@ City of the organization.Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.contactType
-
-</td><td>
-
-The type of contact medium. Possible values:
-
--   `businessPhone`
--   `email`
--   `faxPhone`
--   `homePhone`
--   `mobilePhone`
--   `postalAddress`
-
-Data type: String
-
-</td></tr><tr><td>
-
 contactMedium.country
 
 </td><td>
@@ -1796,7 +1769,7 @@ Country of the organization.Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.emailAddress
+contactMedium.emailAdress
 
 </td><td>
 
@@ -1809,6 +1782,23 @@ contactMedium.locationId
 </td><td>
 
 Sys\_id of the location.Table: Location \[cmn\_location\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.mediumType
+
+</td><td>
+
+The type of contact medium. Possible values:
+
+-   businessPhone
+-   email
+-   faxPhone
+-   homePhone
+-   mobilePhone
+-   postalAddress
 
 Data type: String
 
@@ -2100,24 +2090,25 @@ Response body.
    "id": "2154376",
    "name": "Advances Super Computing",
    "href": "api/sn_tmf_api/party/organization/2154376",
+   "externalId": "LOC-SF-HQ-2026",
    "legalName": "Hello",
    "tradingName": "World",
    "contactMedium": [
      {
        "preferred": "false",
-       "contactType": "email",
+       "mediumType": "email",
        "@type": "EmailContactMedium",
        "emailAddress": "user@servicenow.com"
      },
      {
        "preferred": "false",
-       "contactType": "phone",
+       "mediumType": "phone",
        "@type": "PhoneContactMedium",
        "phone": "(555) 555-5555"
      },
      {
        "preferred": "false",
-       "contactType": "faxPhone",
+       "mediumType": "faxPhone",
        "@type": "FaxPhoneContactMedium",
        "fax_phone": ""
      }
@@ -2232,28 +2223,16 @@ Response body.
    ],
    "relatedParty": [
      {
-       "role": "primary",
-       "partyOrPartyRole": {
-         "@type": "Organization",
-         "id": "b88d14843bc02300bfe04d72f3efc4cd",
-         "name": "Amy Chen"
-       }
+       "type": "User",
+       "role": "primary"
      },
      {
-       "role": "other",
-       "partyOrPartyRole": {
-         "@type": "Organization",
-         "id": "016b7a36ff14a610f8dfffffffffffcb",
-         "name": "Kutty"
-       }
+       "type": "User",
+       "role": "other"
      },
      {
-       "role": "other",
-       "partyOrPartyRole": {
-         "@type": "Organization",
-         "id": "e8bb9d1aff94a210f8dfffffffffff1d",
-         "name": "World"
-       }
+       "type": "User",
+       "role": "other"
      }
    ],
    "organizationChildRelationship": [
@@ -2295,12 +2274,7 @@ Response body.
      }
    },
    "status": "inActive",
-   "@type": "Organization",
-   "partyOrPartyRole": {
-     "name": "customer_partner_vendor_manufacturer",
-     "role": "Account",
-     "@type": "Party"
-   }
+   "@type": "User"
  }
 ```
 
@@ -2430,7 +2404,7 @@ List of means for contacting the party. Data type: Array of Objects
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "contactType": "String",
+  "mediumType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -2468,22 +2442,6 @@ City of the individual. Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.contactType
-
-</td><td>
-
-The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
-
--   `businessPhone`
--   `email`
--   `homePhone`
--   `mobilePhone`
--   `postalAddress`
-
-Data type: String
-
-</td></tr><tr><td>
-
 contactMedium.country
 
 </td><td>
@@ -2505,6 +2463,22 @@ contactMedium.locationId
 </td><td>
 
 Sys\_id of the party location.Table: Location \[cmn\_location\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.mediumType
+
+</td><td>
+
+The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
+
+-   email
+-   businessPhone
+-   homePhone
+-   mobilePhone
+-   postalAddress
 
 Data type: String
 
@@ -2772,11 +2746,394 @@ The following status codes apply to this HTTP action. For a list of possible sta
 
 ### Response body parameters \(JSON or XML\)
 
-|Name|Description|
-|----|-----------|
-|None||
+<table id="table_edn_qnn_3hc"><thead><tr><th>
 
-### cURL request
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+@type
+
+</td><td>
+
+Specifies the object type being created. Determines whether the request creates an Account, Consumer, or Contact record. Replaces the previous `PartyOrPartyRole` object. Valid values:
+
+-   `Account`
+-   `Consumer`
+-   `Contact`
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium
+
+</td><td>
+
+List of means for contacting the party. A contact medium represents the way you communicate with or reach a party like an individual or organization. For example, a channel or method of contact associated with that party.Data type: Array of Objects
+
+```
+"contactMedium": [
+ {
+  "@type": "String",
+  "city": "String",
+  "country": "String",
+  "emailAddress": "String",
+  "locationId": "String",
+  "contactType": "String",
+  "phoneNumber": "String",
+  "postCode": "String",
+  "preferred": "Boolean",
+  "stateOrProvince": "String",
+  "street1": "String",
+  "street2": "String"
+ }
+]
+```
+
+</td></tr><tr><td>
+
+contactMedium.@type
+
+</td><td>
+
+Type of contact medium. Type of contacting party. Indicates the specific schema or subclass type of the object.Possible values:
+
+-   BusinessPhoneContactMedium: Business phone number
+-   EmailContactMedium: Email address
+-   FaxPhoneContactMedium: Fax number
+-   GeographicAddressContactMedium: Physical address \(street, city, state, postal code\)
+-   HomePhoneContactMedium: Home phone number
+-   MobilePhoneContactMedium: Mobile number
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.city
+
+</td><td>
+
+City of the organization.Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.country
+
+</td><td>
+
+Country of the organization.Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.emailAdress
+
+</td><td>
+
+Email address of the organization contact.Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.locationId
+
+</td><td>
+
+Sys\_id of the location.Table: Location \[cmn\_location\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.mediumType
+
+</td><td>
+
+The type of contact medium. Possible values:
+
+-   businessPhone
+-   email
+-   faxPhone
+-   homePhone
+-   mobilePhone
+-   postalAddress
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.phoneNumber
+
+</td><td>
+
+Phone number of the organization contact.Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.postCode
+
+</td><td>
+
+Postcode of the organization.Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.preferred
+
+</td><td>
+
+This value is always `false`.Data type: Boolean
+
+</td></tr><tr><td>
+
+contactMedium.stateOrProvince
+
+</td><td>
+
+Indicates whether the location is from a state or province.Possible values:
+
+-   state
+-   province
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.street1
+
+</td><td>
+
+Describes the street.Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.street2
+
+</td><td>
+
+Complementary street description.Data type: String
+
+</td></tr><tr><td>
+
+createdDate
+
+</td><td>
+
+Timestamp when the organization record was created \(ISO 8601 format\). Data type: String
+
+Example: "2025-06-25T14:32:18.000Z"
+
+</td></tr><tr><td>
+
+externalId
+
+</td><td>
+
+An external system identifier that links the party record to your source system or third-party application.Data type: String
+
+</td></tr><tr><td>
+
+externalReference
+
+</td><td>
+
+List of identifiers of the party in an external system.Data type: Array of Objects
+
+```
+"externalReference": [ 
+ { 
+  "externalIdentifierType": "String", 
+  "name": "String" 
+ }
+]
+```
+
+</td></tr><tr><td>
+
+externalReference.externalIdentifierType
+
+</td><td>
+
+Type of entity within the external system.Data type: String
+
+</td></tr><tr><td>
+
+externalReference.name
+
+</td><td>
+
+Human-readable name of the external system or reference.Data type: String
+
+</td></tr><tr><td>
+
+href
+
+</td><td>
+
+Relative link to the account record \(URI\).Table: Account \[customer\_account\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+id
+
+</td><td>
+
+Sys\_id of the external entity account record.Table: Account \[customer\_account\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+lastModifiedDate
+
+</td><td>
+
+Timestamp when the organization record was last modified \(ISO 8601 format\).Data type: String
+
+Example: "2025-06-25T14:32:18.000Z"
+
+</td></tr><tr><td>
+
+legalName
+
+</td><td>
+
+Legal name of the organization.Data type: String
+
+</td></tr><tr><td>
+
+name
+
+</td><td>
+
+Name of the organization.Data type: String
+
+</td></tr><tr><td>
+
+partyCharacteristics
+
+</td><td>
+
+List of characteristics that a party can take on. Data type: Array of Objects
+
+```
+"partyCharacteristics": [ 
+ { 
+  "@type": "String" 
+  "name": "String",   
+  "value": "String", 
+  "valueType": "String"
+ } 
+]
+```
+
+</td></tr><tr><td>
+
+partyCharacteristics.@type
+
+</td><td>
+
+When subclassing, **@type** defines the subclass extensible name.Possible value:
+
+-   BooleanCharacteristic
+-   IntegerCharacteristic
+-   StringArrayCharacteristic
+-   StringCharacteristic
+
+Data type: String
+
+</td></tr><tr><td>
+
+partyCharacteristics.name
+
+</td><td>
+
+Name of the party characteristic.Data type: String
+
+</td></tr><tr><td>
+
+partyCharacteristics.value
+
+</td><td>
+
+Value of the party characteristic.Data type: String
+
+</td></tr><tr><td>
+
+partyCharacteristics.valueType
+
+</td><td>
+
+Data type of the characteristic's value.Data type: String
+
+</td></tr><tr><td>
+
+relatedParty
+
+</td><td>
+
+List of parties or party roles related to this party.Data type: Array of Objects
+
+```
+"relatedParty": [
+ {
+  "@type": "User",
+  "role": "String"
+ }
+]
+```
+
+</td></tr><tr><td>
+
+relatedParty.@type
+
+</td><td>
+
+The type of related party. For Consumer creation, use `"User"`. This value indicates that a new Consumer user will be created in ServiceNow, or if a matching user exists, it will be associated with the new Consumer.Data type: String
+
+</td></tr><tr><td>
+
+relatedParty.role
+
+</td><td>
+
+Functional, business role that the related party plays in the context of the current entity.Possible values:
+
+-   Company \(if related party is User\)
+-   Department \(if related party is User\)
+-   Account \(if related party is Customer\)
+-   User \(if related party is Consumer\)
+
+Data type: String
+
+</td></tr><tr><td>
+
+status
+
+</td><td>
+
+Flag that indicates the status of organization.Valid values:
+
+-   active: Organization is active.
+-   inactive: Organization is inactive.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
+tradingName
+
+</td><td>
+
+Name that the organization trades under.Data type: String
+
+</td></tr></tbody>
+</table>### cURL request
 
 This returns all organization records related to the enterprise.
 
@@ -2795,24 +3152,25 @@ Response body.
     "id": "0bd6717c184da610f87765359bc696d3",
     "name": "SERVICENOW 144",
     "href": "api/sn_tmf_api/party/organization0bd6717c184da610f87765359bc696d3",
+    "externalId": "LOC-SF-HQ-2026",
     "legalName": "",
     "tradingName": "",
     "contactMedium": [
       {
         "preferred": "false",
-        "contactType": "email",
+        "mediumType": "email",
         "@type": "EmailContactMedium",
         "emailAddress": "user@email.com"
       },
       {
         "preferred": "false",
-        "contactType": "phone",
+        "mediumType": "phone",
         "@type": "PhoneContactMedium",
         "phone": "+1-555-555-5555"
       },
       {
         "preferred": "false",
-        "contactType": "faxPhone",
+        "mediumType": "faxPhone",
         "@type": "FaxPhoneContactMedium",
         "fax_phone": ""
       }
@@ -2942,17 +3300,12 @@ Response body.
         "@type": "Organization"
       }
     },
-    "@type": "Organization",
-    "partyOrPartyRole": {
-      "name": "customer_partner",
-      "role": "Account",
-      "@type": "Party"
-    }
+    "@type": "User"
   }
 ]
 ```
 
-## Party Management – PATCH/api/sn\_tmf\_api/v1/party/individual/\{id\}
+## Party Management – PATCH /api/sn\_tmf\_api/v1/party/individual/\{id\}
 
 Updates an existing individual party record in the Consumer \[csm\_consumer\] or Contact \[customer\_contact\] table without replacing the entire resource.
 
@@ -3033,7 +3386,7 @@ List of means for contacting the party. Data type: Array of Objects
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "contactType": "String",
+  "mediumType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -3071,22 +3424,6 @@ City of the individual. Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.contactType
-
-</td><td>
-
-The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
-
--   `businessPhone`
--   `email`
--   `homePhone`
--   `mobilePhone`
--   `postalAddress`
-
-Data type: String
-
-</td></tr><tr><td>
-
 contactMedium.country
 
 </td><td>
@@ -3108,6 +3445,22 @@ contactMedium.locationId
 </td><td>
 
 Sys\_id of the party location.Table: Location \[cmn\_location\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.mediumType
+
+</td><td>
+
+The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
+
+-   email
+-   businessPhone
+-   homePhone
+-   mobilePhone
+-   postalAddress
 
 Data type: String
 
@@ -3413,7 +3766,7 @@ List of means for contacting the party. Data type: Array of Objects
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "contactType": "String",
+  "mediumType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -3451,24 +3804,6 @@ City of the individual. Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.contactType
-
-</td><td>
-
-The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
-
--   `businessPhone`: Business phone number.
--   `email`: Email address.
--   `homePhone`: Home phone number.
--   `mobilePhone`: Mobile phone number.
--   `postalAddress`: Address, handled separately as a location.
--   `faxPhone`: Fax number.
--   `phone`: Generic phone number, omitted in v1 responses.
-
-Data type: String
-
-</td></tr><tr><td>
-
 contactMedium.country
 
 </td><td>
@@ -3495,6 +3830,22 @@ Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.mediumType
+
+</td><td>
+
+The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
+
+-   email
+-   businessPhone
+-   homePhone
+-   mobilePhone
+-   postalAddress
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.phoneNumber
 
 </td><td>
@@ -3507,7 +3858,7 @@ contactMedium.postCode
 
 </td><td>
 
-Postal code of the individual.Data type: String
+Postcode of the individual.Data type: String
 
 </td></tr><tr><td>
 
@@ -3761,25 +4112,25 @@ curl "http://localhost:8080/api/sn_tmf_api/v1/party/Individual/12345" \
   \"contactMedium\": [
     {
       \"preferred\": true,
-      \"contactType\": \"email\",
+      \"mediumType\": \"email\",
       \"emailAddress\": \"john.doe@gmail.com\",
       \"@type\": \"EmailContactMedium\"
     },
     {
       \"preferred\": false,
-      \"contactType\": \"businessPhone\",
+      \"mediumType\": \"businessPhone\",
       \"phoneNumber\": \"+1-202-555-0188\",
       \"@type\": \"PhoneContactMedium\"
     },
     {
       \"preferred\": false,
-      \"contactType\": \"homePhone\",
+      \"mediumType\": \"homePhone\",
       \"phoneNumber\": \"+1-202-555-0198\",
       \"@type\": \"HomePhoneContactMedium\"
     },
     {
       \"preferred\": false,
-      \"contactType\": \"postalAddress\",
+      \"mediumType\": \"postalAddress\",
       \"@type\": \"GeographicAddressContactMedium\",
       \"locationId\":\"92656927259338967\",
       \"city\": \"Morristown\",
@@ -3842,28 +4193,16 @@ curl "http://localhost:8080/api/sn_tmf_api/v1/party/Individual/12345" \
   ],
   \"relatedParty\": [
     {
-      \"role\": \"Company\",
-      \"partyOrPartyRole\": {
-        \"id\": \"86c1f3193790200044e0bfc8bcbe5d95\",
-        \"name\": \"Acme Corporation\",
-        \"@type\": \"Organization\"
-      }
+      \"@type\": \"User\",
+      \"role\": \"Company\"
     },
     {
-      \"role\": \"Department\",
-      \"partyOrPartyRole\": {
-        \"id\": \"c3fdd27a7b9822105e0d5494548cb6b0\",
-        \"name\": \"Acme Corporation\",
-        \"@type\": \"Organization\"
-      }
+      \"@type\": \"User\"
+      \"role\": \"Department\"
     }
   ],
   \"status\": \"active\",
-  \"@type\": \"Individual\",
-  \"partyOrPartyRole\": {
-    \"role\": \"Consumer\",
-    \"@type\":\"Party\"
-  }
+  \"@type\": \"User\"
 }" \
 ```
 
@@ -3881,37 +4220,37 @@ Response body.
   "contactMedium": [
     {
       "preferred": true,
-      "contactType": "email",
+      "mediumType": "email",
       "emailAddress": "jane.smith@example.com",
       "@type": "EmailContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "mobilePhone",
+      "mediumType": "mobilePhone",
       "phoneNumber": "+1-416-555-1234",
       "@type": "PhoneContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "businessPhone",
+      "mediumType": "businessPhone",
       "phoneNumber": "+1-416-555-5678",
       "@type": "BusinessPhoneContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "fax",
+      "mediumType": "fax",
       "fax": "987654321",
       "@type": "FaxContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "homePhone",
+      "mediumType": "homePhone",
       "phoneNumber": "+1-416-555-4321",
       "@type": "HomePhoneContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "postalAddress",
+      "mediumType": "postalAddress",
       "@type": "GeographicAddressContactMedium",
       "locationId": "03e588a17be062105e0d5494548cb68c",
       "city": "Toronto",
@@ -3974,20 +4313,12 @@ Response body.
   ],
   "relatedParty": [
     {
-      "role": "User",
-      "partyOrPartyRole": {
-        "id": "c456def03710200044e0bfc8bcbe5d99",
-        "name": "Global Corp",
-        "@type": "Individual"
-      }
+      "@type": "User",
+      "role": "User"
     }
   ],
   "status": "active",
-  "@type": "Individual",
-  "partyOrPartyRole": {
-    "role": "Consumer",
-    "@type": "Party"
-  },
+  "@type": "User",
    "warning": [
     "relatedParty[0] is incorrect. User does not exist"
   ]
@@ -4128,7 +4459,7 @@ Country of the organization.Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.emailAddress
+contactMedium.emailAdress
 
 </td><td>
 
@@ -4665,23 +4996,6 @@ City of the organization.Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.contactType
-
-</td><td>
-
-The type of contact medium. Possible values:
-
--   `businessPhone`
--   `email`
--   `faxPhone`
--   `homePhone`
--   `mobilePhone`
--   `postalAddress`
-
-Data type: String
-
-</td></tr><tr><td>
-
 contactMedium.country
 
 </td><td>
@@ -4690,7 +5004,7 @@ Country of the organization.Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.emailAddress
+contactMedium.emailAdress
 
 </td><td>
 
@@ -4703,6 +5017,23 @@ contactMedium.locationId
 </td><td>
 
 Sys\_id of the location.Table: Location \[cmn\_location\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.mediumType
+
+</td><td>
+
+The type of contact medium. Possible values:
+
+-   businessPhone
+-   email
+-   faxPhone
+-   homePhone
+-   mobilePhone
+-   postalAddress
 
 Data type: String
 
@@ -4993,31 +5324,31 @@ curl "http://instance.service-now.com/api/sn_tmf_api/v1/party/organization" \
   \"contactMedium\": [
     {
       \"preferred\": true,
-      \"contactType\": \"email\",
+      \"mediumType\": \"email\",
       \"emailAddress\": \"athammhd@email.com\",
       \"@type\": \"EmailContactMedium\"
     },
     {
       \"preferred\": false,
-      \"contactType\": \"phone\",
+      \"mediumType\": \"phone\",
       \"phoneNumber\": \"+1-202-555-0198\",
       \"@type\": \"PhoneContactMedium\"
     },
     {
       \"preferred\": false,
-      \"contactType\": \"businessPhone\",
+      \"mediumType\": \"businessPhone\",
       \"phoneNumber\": \"+1-202-555-0198\",
       \"@type\": \"BusinessPhoneContactMedium\"
     },
     {
       \"preferred\": false,
-      \"contactType\": \"homePhone\",
+      \"mediumType\": \"homePhone\",
       \"phoneNumber\": \"+1-202-555-0198\",
       \"@type\": \"HomePhoneContactMedium\"
     },
     {
       \"preferred\": false,
-      \"contactType\": \"postalAddress\",
+      \"mediumType\": \"postalAddress\",
       \"validFor\": {
         \"startDateTime\": \"2017-03-15T07:49:25.246Z\"
       },
@@ -5136,20 +5467,11 @@ curl "http://instance.service-now.com/api/sn_tmf_api/v1/party/organization" \
   ],
   \"relatedParty\": [
     {
-      \"role\": \"primaryContact\",
-      \"partyOrPartyRole\": {
-        \"id\": \"eaf68911c35420105252716b7d40ddde\",
-        \"name\": \"John Doe\",
-        \"@type\": \"Individual\"
-      }
+      \"@type\": \"User\",
+      \"role\": \"primaryContact\"
     },
     {
-      \"role\": \"other\",
-      \"partyOrPartyRole\": {
-        \"id\": \"776a22ea11f43110f877366201dea6b7\",
-        \"name\": \"Mary Star\",
-        \"@type\": \"Individual\"
-      }
+      \"role\": \"other\" 
     }
   ],
   \"organizationChildRelationship\": [
@@ -5172,12 +5494,7 @@ curl "http://instance.service-now.com/api/sn_tmf_api/v1/party/organization" \
       }
     },
   \"status\": \"active\",
-  \"@type\": \"Organization\",
-  \"partyOrPartyRole\": {
-    \"@type\":\"Party\",
-    \"name\":\"Customer\",
-    \"role\": \"Account\" 
-  }
+  \"@type\": \"User\"
 }" \
 ```
 
@@ -5191,31 +5508,31 @@ Response body.
   "contactMedium": [
     {
       "preferred": true,
-      "contactType": "email",
+      "mediumType": "email",
       "emailAddress": "athammhd@email.com",
       "@type": "EmailContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "phone",
+      "mediumType": "phone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "PhoneContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "businessPhone",
+      "mediumType": "businessPhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "BusinessPhoneContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "homePhone",
+      "mediumType": "homePhone",
       "phoneNumber": "+1-202-555-0198",
       "@type": "HomePhoneContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "postalAddress",
+      "mediumType": "postalAddress",
       "validFor": {
         "startDateTime": "2017-03-15T07:49:25.246Z"
       },
@@ -5334,20 +5651,11 @@ Response body.
   ],
   "relatedParty": [
     {
+      "@type": "User",
       "role": "primaryContact",
-      "partyOrPartyRole": {
-        "id": "eaf68911c35420105252716b7d40ddde",
-        "name": "John Doe",
-        "@type": "Individual"
-      }
     },
     {
-      "role": "other",
-      "partyOrPartyRole": {
-        "id": "776a22ea11f43110f877366201dea6b7",
-        "name": "Mary Star",
-        "@type": "Individual"
-      }
+      "role": "other"
     }
   ],
   "organizationChildRelationship": [
@@ -5370,12 +5678,7 @@ Response body.
       }
     },
   "status": "active",
-  "@type": "Organization",
-  "partyOrPartyRole": {
-    "@type":"Party",
-    "name":"Customer",
-    "role": "Account" 
-  }
+  "@type": "User",
 }
 ```
 
@@ -5450,7 +5753,7 @@ List of means for contacting the party. Data type: Array of Objects
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "contactType": "String",
+  "mediumType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -5488,22 +5791,6 @@ City of the individual. Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.contactType
-
-</td><td>
-
-The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
-
--   `businessPhone`
--   `email`
--   `homePhone`
--   `mobilePhone`
--   `postalAddress`
-
-Data type: String
-
-</td></tr><tr><td>
-
 contactMedium.country
 
 </td><td>
@@ -5525,6 +5812,22 @@ contactMedium.locationId
 </td><td>
 
 Sys\_id of the party location.Table: Location \[cmn\_location\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.mediumType
+
+</td><td>
+
+The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
+
+-   email
+-   businessPhone
+-   homePhone
+-   mobilePhone
+-   postalAddress
 
 Data type: String
 
@@ -5830,7 +6133,7 @@ List of means for contacting the party. Data type: Array of Objects
   "country": "String",
   "emailAddress": "String",
   "locationId": "String",
-  "contactType": "String",
+  "mediumType": "String",
   "phoneNumber": "String",
   "postCode": "String",
   "preferred": "Boolean",
@@ -5868,24 +6171,6 @@ City of the individual. Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.contactType
-
-</td><td>
-
-The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
-
--   `businessPhone`: Business phone number.
--   `email`: Email address.
--   `homePhone`: Home phone number.
--   `mobilePhone`: Mobile phone number.
--   `postalAddress`: Address, handled separately as a location.
--   `faxPhone`: Fax number.
--   `phone`: Generic phone number, omitted in v1 responses.
-
-Data type: String
-
-</td></tr><tr><td>
-
 contactMedium.country
 
 </td><td>
@@ -5912,6 +6197,22 @@ Data type: String
 
 </td></tr><tr><td>
 
+contactMedium.mediumType
+
+</td><td>
+
+The type of contact medium. Indicates the business-level attribute that specifies the kind of contact channel being used.Possible values:
+
+-   email
+-   businessPhone
+-   homePhone
+-   mobilePhone
+-   postalAddress
+
+Data type: String
+
+</td></tr><tr><td>
+
 contactMedium.phoneNumber
 
 </td><td>
@@ -5924,7 +6225,7 @@ contactMedium.postCode
 
 </td><td>
 
-Postal code of the individual.Data type: String
+Postcode of the individual.Data type: String
 
 </td></tr><tr><td>
 
@@ -6179,37 +6480,37 @@ curl "http://instance.servicenow.com/api/sn_tmf_api/v1/party/individual" \
     \"contactMedium\": [
       {
         \"preferred\": true,
-        \"contactType\": \"email\",
+        \"mediumType\": \"email\",
         \"emailAddress\": \"jane.smith@example.com\",
         \"@type\": \"EmailContactMedium\"
       },
       {
         \"preferred\": false,
-        \"contactType\": \"mobilePhone\",
+        \"mediumType\": \"mobilePhone\",
         \"phoneNumber\": \"+1-416-555-1234\",
         \"@type\": \"PhoneContactMedium\"
       },
       {
         \"preferred\": false,
-        \"contactType\": \"businessPhone\",
+        \"mediumType\": \"businessPhone\",
         \"phoneNumber\": \"+1-416-555-5678\",
         \"@type\": \"BusinessPhoneContactMedium\"
       },
       {
         \"preferred\": false,
-        \"contactType\": \"fax\",
+        \"mediumType\": \"fax\",
         \"fax\": \"987654321\",
         \"@type\": \"FaxContactMedium\"
       },
       {
         \"preferred\": false,
-        \"contactType\": \"homePhone\",
+        \"mediumType\": \"homePhone\",
         \"phoneNumber\": \"+1-416-555-4321\",
         \"@type\": \"HomePhoneContactMedium\"
       },
       {
         \"preferred\": false,
-        \"contactType\": \"postalAddress\",
+        \"mediumType\": \"postalAddress\",
         \"@type\": \"GeographicAddressContactMedium\",
         \"locationId\": \"12345678901234567\",
         \"city\": \"Toronto\",
@@ -6272,20 +6573,12 @@ curl "http://instance.servicenow.com/api/sn_tmf_api/v1/party/individual" \
     ],
     \"relatedParty\": [
       {
-        \"role\": \"User\",
-        \"partyOrPartyRole\": {
-          \"id\": \"c456def03710200044e0bfc8bcbe5d99\",
-          \"name\": \"Global Corp\",
-          \"@type\": \"Individual\"
-        }
+        \"@type\": \"User\"
+        \"role\": \"User\"
       }
     ],
     \"status\": \"active\",
-    \"@type\": \"Individual\",
-    \"partyOrPartyRole\": {
-      \"role\": \"Consumer\",
-      \"@type\": \"Party\"
-    }
+    \"@type\": \"User\",
   }" \
 
 ```
@@ -6295,7 +6588,7 @@ Response body.
 ```
 {
   "id": "83e588a17b6062105e0d5494548cb65d",
-"href": "api/sn_tmf_api/party/individual/83e588a17b6062105e0d5494548cb65d",
+  "href": "api/sn_tmf_api/party/individual/83e588a17b6062105e0d5494548cb65d",
   "name": "Jane Smith",
   "givenName": "Jane",
   "middleName": "B.",
@@ -6306,37 +6599,37 @@ Response body.
   "contactMedium": [
     {
       "preferred": true,
-      "contactType": "email",
+      "mediumType": "email",
       "emailAddress": "jane.smith@example.com",
       "@type": "EmailContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "mobilePhone",
+      "mediumType": "mobilePhone",
       "phoneNumber": "+1-416-555-1234",
       "@type": "PhoneContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "businessPhone",
+      "mediumType": "businessPhone",
       "phoneNumber": "+1-416-555-5678",
       "@type": "BusinessPhoneContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "fax",
+      "mediumType": "fax",
       "fax": "987654321",
       "@type": "FaxContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "homePhone",
+      "mediumType": "homePhone",
       "phoneNumber": "+1-416-555-4321",
       "@type": "HomePhoneContactMedium"
     },
     {
       "preferred": false,
-      "contactType": "postalAddress",
+      "mediumType": "postalAddress",
       "@type": "GeographicAddressContactMedium",
       "locationId": "03e588a17be062105e0d5494548cb68c",
       "city": "Toronto",
@@ -6397,22 +6690,13 @@ Response body.
       "@type": "string"
     }
   ],
-  "relatedParty": [
-    {
-      "role": "User",
-      "partyOrPartyRole": {
-        "id": "c456def03710200044e0bfc8bcbe5d99",
-        "name": "Global Corp",
-        "@type": "Individual"
-      }
-    }
-  ],
+  "relatedParty": {
+    "@type": "User",
+    "role": "User"
+  }
+},
   "status": "active",
-  "@type": "Individual",
-  "partyOrPartyRole": {
-    "role": "Consumer",
-    "@type": "Party"
-  },
+  "@type": "User",
    "warning": [
     "relatedParty[0] is incorrect. User does not exist"
   ]
@@ -6620,7 +6904,7 @@ Country of the organization.Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.emailAddress
+contactMedium.emailAdress
 
 </td><td>
 
@@ -7175,23 +7459,6 @@ City of the organization.Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.contactType
-
-</td><td>
-
-The type of contact medium. Possible values:
-
--   `businessPhone`
--   `email`
--   `faxPhone`
--   `homePhone`
--   `mobilePhone`
--   `postalAddress`
-
-Data type: String
-
-</td></tr><tr><td>
-
 contactMedium.country
 
 </td><td>
@@ -7200,7 +7467,7 @@ Country of the organization.Data type: String
 
 </td></tr><tr><td>
 
-contactMedium.emailAddress
+contactMedium.emailAdress
 
 </td><td>
 
@@ -7213,6 +7480,23 @@ contactMedium.locationId
 </td><td>
 
 Sys\_id of the location.Table: Location \[cmn\_location\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+contactMedium.mediumType
+
+</td><td>
+
+The type of contact medium. Possible values:
+
+-   businessPhone
+-   email
+-   faxPhone
+-   homePhone
+-   mobilePhone
+-   postalAddress
 
 Data type: String
 

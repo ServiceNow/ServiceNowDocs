@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-11"
 reading_time_minutes: 5
 keywords: [CloudWatch, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
 breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -179,7 +179,7 @@ Connection timeout \(ms\)
 
 </td><td>
 
-The number of milliseconds to wait before timing out the AWS connection attempt.
+The number of milliseconds to wait before timing out the AWS connection attempt.The default value is 1000.
 
 </td></tr><tr><td>
 
@@ -187,7 +187,7 @@ Socket timeout \(ms\)
 
 </td><td>
 
-The number of milliseconds to wait before timing out a data transfer over an established connection.
+The number of milliseconds to wait before timing out a data transfer over an established connection.The default value is 10000.
 
 </td></tr><tr><td>
 
@@ -195,7 +195,9 @@ Sub sample drop ratio
 
 </td><td>
 
-The number of logs to batch together, out of which one will be dropped. The default value is -1: No logs are dropped.This setting is used to reduce the number of fetched logs. For example, if you want one log out of every five to be dropped, change the value to 5.
+The number of logs to batch together, out of which one will be discarded. This setting is used to reduce the number of fetched logs. For example, if you want one log out of every five to be dropped, change the value to 5.
+
+The default value is -1: No logs are discarded.
 
 </td></tr><tr><td>
 
@@ -203,7 +205,7 @@ Polling interval
 
 </td><td>
 
-The interval, in seconds, to wait before polling for new logs.
+The interval, in seconds, to wait before polling for new logs.The default value is 0: the data input polls again immediately, without waiting between polling cycles.
 
 </td></tr><tr><td>
 
@@ -211,7 +213,7 @@ Character encoding
 
 </td><td>
 
-The character encoding used for this integration: UTF-8.
+The character encoding used for this integration: UTF-8. This field is read-only.
 
 </td></tr><tr><td>
 
@@ -219,7 +221,7 @@ Batch size
 
 </td><td>
 
-The maximum number of logs retrieved per query.
+The maximum number of logs retrieved per query.The default value is 2500.
 
 </td></tr><tr><td>
 
@@ -227,7 +229,7 @@ Max length in bytes
 
 </td><td>
 
-The maximum length of log messages, in bytes.
+The maximum length of log messages, in bytes.The default value is 32766.
 
 </td></tr><tr><td>
 
@@ -235,7 +237,9 @@ Sub sample receive ratio
 
 </td><td>
 
-The number of logs to batch together, out of which one log will be received and the remaining ones dropped. The default value is -1: No logs are received. This setting is used to reduce the number of received logs. For example, if you want to receive one log out of every five, change the value to 5.
+The number of logs to batch together, out of which one log will be received and the remaining ones discarded. This setting is used to reduce the number of received logs. For example, if you want to receive one log out of every five, change the value to 5.
+
+The default value is -1: Sub sampling is turned off and all logs are received.
 
 </td></tr><tr><td>
 
@@ -243,7 +247,7 @@ Sleep interval \(seconds\)
 
 </td><td>
 
-The interval, in seconds, to wait before querying again after a query has returned no logs.
+The interval, in seconds, to wait before querying again after a query has returned no logs.The default value is 60.
 
 </td></tr><tr><td>
 
@@ -251,7 +255,7 @@ Default timezone
 
 </td><td>
 
-The default timezone if the log date and time doesn't include timezone information.
+The default timezone used when a log doesn't include timezone information.The default value is GMT.
 
 </td></tr><tr><td>
 
@@ -259,7 +263,7 @@ Drop if queue is full
 
 </td><td>
 
-Option to select discarding logs if there is a load on the MID Server.
+Option to discard logs if many processes are waiting in the queue to access the MID Server.The default value is Clear.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)

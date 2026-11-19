@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/oncall-schedule-escalation.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [SOW ITOM on-call scheduling]
 breadcrumb: [Configure, ITOM AIOps, IT Operations Management]
@@ -21,7 +21,7 @@ To enable on-call scheduling for alerts, first incorporate the Alert table \[em\
 
 ## Teams in Service Operations Workspace
 
-Use the Teams menu \(\[Omitted image "icon-sow-itom-teams.png"\] Alt text: Teams icon\) in Service Operations Workspace to view all teams. Select a team card to view and manage a team's schedule, define escalation policies, and team preferences for the selected shift. This feature verifies that your team knows who is on call, is accountable, and is confident that critical alerts or incidents are acknowledged. For information on creating a shift, see [Create on-call shift for your team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling-in-sow.md).
+Use the Teams menu \(\[Omitted image "icon-sow-itom-teams.png"\] Alt text: Teams icon\) in Service Operations Workspace to view all teams. Select a team card to view and manage a team's schedule, define escalation policies, and team preferences for the selected shift. This feature verifies that your team knows who is on call, is accountable, and is confident that critical alerts or incidents are acknowledged. For information on creating a shift, see Create on-call shift for your team.
 
 -   **[Add alert table to enable on-call scheduling for Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/add-alert-table-oncall.md)**  
 Enable on-call scheduling by incorporating the Alert table \[em\_alert\] into the Trigger Rule Table Config list. This allows for creating shifts and implementing escalation triggers and policies, ensuring teams can promptly respond to alerts and maintain operational continuity.

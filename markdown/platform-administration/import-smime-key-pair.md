@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/import-smime-key-pair.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Setting up S/MIME, Email encryption, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -27,8 +27,6 @@ You must have the key alias.
 Make sure the file format is PKCS \#12.
 
 ## About this task
-
-This video shows you how to perform the following procedure.
 
 ## Procedure
 

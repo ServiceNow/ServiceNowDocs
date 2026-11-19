@@ -1,34 +1,40 @@
 ---
 title: Export a blueprint
-description: Export a blueprint by downloading it as a ZIP file.
+description: Download a blueprint as a ZIP file to move it between instances or create a backup copy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-export-a-blueprint.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Set up blueprints, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Export a blueprint
 
-Export a blueprint by downloading it as a ZIP file.
+Download a blueprint as a ZIP file to move it between instances or create a backup copy.
 
 ## Before you begin
 
-Role required: Admin
+Role required: admin
 
 ## Procedure
 
-1.  Select the blueprint that you want to move by clicking the check box next to its name.
+1.  Next to the blueprint name, select the check box.
 
     \[Omitted image "cpq-blueprints-export-1.png"\] Alt text: Blueprints user interface
 
-2.  In the top right, click **Export**. \[Omitted image "cpq-blueprints-export-2.png"\] Alt text: Export blueprint
+2.  In the top right, select **Export**.
 
-    Keep an eye on the bell icon in the lower-left corner. Notifications appear there. The first notification indicates that the export process has started. When the export is complete, a second notification indicates that the blueprint is ready for download.
+    \[Omitted image "cpq-blueprints-export-2.png"\] Alt text: Export blueprint
 
-3.  In the Notifications menu, click **Download** to download the blueprint.\[Omitted image "cpq-blueprints-export-download.png"\] Alt text: Download blueprint
+    Monitor the notifications bell icon. The first notification indicates that the export process has started. When the export is complete, a second notification indicates that the blueprint is ready for download.
+
+3.  In the Notifications menu, select **Download**.
+
+    \[Omitted image "cpq-blueprints-export-download.png"\] Alt text: Download blueprint
+
+    The blueprint downloads as a ZIP file to your local machine.
 
 
 ## What to do next

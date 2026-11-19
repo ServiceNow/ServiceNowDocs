@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ You can monitor and manage the quality of the application services offered by yo
 
 ## SLAs and the Task table
 
-You can create SLA definitions only for tables that extend the Task table. The Event Management application provides a table named Event Management SLA \[em\_ci\_severity\_task\], which extends the Task table. Use this table in your SLA definitions to specify the severity level that should trigger and stop the SLA. During alert impact calculation, changes in the severity level of application services and CIs are automatically updated in the Event Management SLA table. [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/r_InstalledWithEventManagement.md) keep the information in this table up to date.
+You can create SLA definitions only for tables that extend the Task table. The Event Management application provides a table named Event Management SLA \[em\_ci\_severity\_task\], which extends the Task table. Use this table in your SLA definitions to specify the severity level that should trigger and stop the SLA. During alert impact calculation, changes in the severity level of application services and CIs are automatically updated in the Event Management SLA table. [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/r_ScheduledJobsInstalledWithEM.md) keep the information in this table up to date.
 
 ## How the Event Management SLA table is populated
 

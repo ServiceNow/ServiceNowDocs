@@ -7,10 +7,10 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-01"
 reading_time_minutes: 2
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
-breadcrumb: [Track metrics, Use ITSM Virtual Agent analytics dashboard, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Who is On Call, Use ITSM Virtual Agent analytics dashboard, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # ITSM Virtual Agent topics analytics
@@ -27,6 +27,8 @@ By analyzing which topics are most frequently discussed, you can identify high-i
 |Segment performance analysis on different dimensions|Analyze the topics data for the desired date range based on departments, caller company, or user's location.|
 
 ## Topics analytics
+
+\[Omitted image "now-assist-itsm-topics-analytics.png"\] Alt text: Topics tab showing the Chat topics overview donut chart with total chat interactions in the center and a legend of topic names
 
 Analyze topics metrics when users ask questions to resolve their issues in ITSM Virtual Agent.
 

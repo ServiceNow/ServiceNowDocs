@@ -9,7 +9,7 @@ last_updated: "2026-10-28"
 reading_time_minutes: 3
 keywords: [Autonomous Engineer, Build Agent, agentic development, ServiceNow Studio, agent packs, update sets]
 audience: programmer
-breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Overview, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Autonomous Engineer and Build Agent

@@ -1,20 +1,20 @@
 ---
 title: Advanced configuration for SMS
-description: Use the Twilio co-pilot features to improve SMS delivery with phone number like using multiple numbers to send high-volume messages and content intelligence to automatically format every message without writing custom code. Reach large lists of users with one API request.
+description: Use Twilio co-pilot features to improve SMS delivery, such as sending high volumes from multiple numbers or reaching large user lists in one API request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/t\_ConfigureNotifyforVoiceandSMS.html
 release: australia
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure Notify with Twilio, Configuring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Advanced configuration for SMS
 
-Use the Twilio co-pilot features to improve SMS delivery with phone number like using multiple numbers to send high-volume messages and content intelligence to automatically format every message without writing custom code. Reach large lists of users with one API request.
+Use Twilio co-pilot features to improve SMS delivery, such as sending high volumes from multiple numbers or reaching large user lists in one API request.
 
 ## Before you begin
 

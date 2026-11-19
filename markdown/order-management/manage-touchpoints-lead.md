@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/manage-touchpoints-lead.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-11"
 reading_time_minutes: 1
 breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -26,7 +26,7 @@ The **Touchpoints** tab on a lead record displays all touchpoints associated wit
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All** and open the lead record and select the **Touchpoints** tab.
 

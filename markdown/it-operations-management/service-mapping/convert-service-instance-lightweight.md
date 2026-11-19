@@ -7,10 +7,10 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-09"
 reading_time_minutes: 1
 keywords: [service mapping, lightweight service, convert service, service architecture]
-breadcrumb: [Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Convert a service instance to Lightweight Service Model
@@ -57,4 +57,6 @@ For detailed information on the Lightweight Service Model, see [Service Mapping 
 ## Result
 
 The service operates under the Lightweight Service Model.
+
+**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/using-service-mapping.md)
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 4
 keywords: [Create your first experience, Prerequisites]
-breadcrumb: [Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Create your first Lux experience

@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Text-based alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -40,6 +40,6 @@ Role required: evt\_mgmt\_admin
 
 4.  Select **Update &amp; Retrain**.
 
-    For more information on ML solutions, see [Reviewing your ML solution training jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/reviewing-ml-solution-training-jobs.md).
+    For more information on ML solutions, see Reviewing your ML solution training jobs.
 
 

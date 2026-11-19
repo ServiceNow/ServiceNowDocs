@@ -1,20 +1,20 @@
 ---
 title: Send CAB meeting request to attendees
-description: Send Change Advisory Board \(CAB\) meeting invitations to the attendees of each CAB meeting.
+description: You can send CAB meeting invitations to attendees for each CAB meeting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/send-cab-meeting-request-attendees.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create a single CAB meeting occurrence, Working with the CAB Workbench, Use, Change Management, IT Service Management]
 ---
 
 # Send CAB meeting request to attendees
 
-Send Change Advisory Board \(CAB\) meeting invitations to the attendees of each CAB meeting.
+You can send CAB meeting invitations to attendees for each CAB meeting.
 
 ## Before you begin
 
@@ -28,9 +28,9 @@ You can send meeting invitations from a CAB meeting only.
 
 ## Procedure
 
-1.  Navigate to the CAB meeting for which you want to send invitations.
+1.  Navigate to the CAB meeting for which you want to send out invitations using one of the following steps.
 
-<table id="choicetable_mqf_2kv_lz"><tbody><tr><td id="d365859e89">
+<table id="choicetable_mqf_2kv_lz"><tbody><tr><td id="d358665e87">
 
 **Open from the CAB meeting list**
 
@@ -40,7 +40,7 @@ You can send meeting invitations from a CAB meeting only.
 2.  Select and open the CAB meeting to modify.
 
 
-</td></tr><tr><td id="d365859e119">
+</td></tr><tr><td id="d358665e117">
 
 **Open from the CAB definition list**
 
@@ -52,7 +52,7 @@ You can send meeting invitations from a CAB meeting only.
 
 
 </td></tr></tbody>
-</table>2.  Select the **Send meeting request to attendees** related link.
+</table>2.  Click the **Send meeting request to attendees** related link.
 
     The CAB meeting invitation is sent to all listed attendees.
 

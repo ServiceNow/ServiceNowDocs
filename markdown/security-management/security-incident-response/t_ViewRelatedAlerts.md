@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [View information in a security incident, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -18,7 +18,7 @@ As a security incident is being worked on, you can view the details of the event
 
 ## Before you begin
 
-You must have the Security Incident Response Event Management support plugin activated.
+You must activate the Event Management \(com.glideapp.itom.snac\) plugin. This plugin requires a separate subscription.
 
 Role required: si.sn\_agent
 
@@ -30,7 +30,7 @@ Role required: si.sn\_agent
 
     -   Security Incident CI Alerts
     -   Security Incident CI Events
-3.  Click the related list you want to view.
+3.  Select the related list you want to view.
 
     |Related list|Description|
     |------------|-----------|

@@ -23,6 +23,8 @@ Role required: Administrator or System Security Administrator
 
 Quick case and task creation uses three roles, one for each persona: store associate, store manager, and area or region manager. Users also need to be mapped to the stores they work with.
 
+**Note:** Assign these roles to a group instead of to individual users wherever you can. The members of the group inherit the roles. For the procedure, see [Assign roles to Retail users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-assign-roles-users.md).
+
 ## Procedure
 
 1.  In the ServiceNow workspace, navigate to **System Security** &gt; **Users and Groups** &gt; **Users**.

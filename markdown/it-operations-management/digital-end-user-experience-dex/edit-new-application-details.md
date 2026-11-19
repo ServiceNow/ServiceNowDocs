@@ -1,20 +1,20 @@
 ---
 title: Edit application details
-description: Edit various details about the application, such as its name and monitored processes.
+description: Edit various details about the application, such as its name, monitored processes, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/edit-new-application-details.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Edit application details
 
-Edit various details about the application, such as its name and monitored processes.
+Edit various details about the application, such as its name, monitored processes, and so on.
 
 ## Before you begin
 
@@ -36,9 +36,9 @@ Role required: sn\_dex.admin
 
     The Edit installed application or Edit web application form appears.
 
-5.  On the form, edit the fields that you want to change.
+5.  On the form, edit the required fields.
 
-    For more information about each field, see [Edit web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/admin-edit-app-form.md).
+    For more information on each field, see [Edit web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/admin-edit-app-form.md).
 
 6.  Select **Save**.
 
@@ -46,4 +46,6 @@ Role required: sn\_dex.admin
 ## Result
 
 Application details are updated.
+
+**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-application-monitoring.md)
 

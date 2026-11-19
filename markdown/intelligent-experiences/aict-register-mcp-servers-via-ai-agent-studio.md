@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-register-mcp-servers-via-ai-agent-studio.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-02"
 reading_time_minutes: 1
-breadcrumb: [Configure agents to use MCP servers, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure agents to use MCP servers, Working with MCP server records, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Register via AI Agent Studio

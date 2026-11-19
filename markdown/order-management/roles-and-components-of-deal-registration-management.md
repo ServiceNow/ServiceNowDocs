@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/roles-and-components-of-deal-registration-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-11-06"
-reading_time_minutes: 3
+last_updated: "2026-11-19"
+reading_time_minutes: 4
 breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
 
@@ -18,7 +18,7 @@ The Deal Registration Management application \(com.snc.deal\_registration\_manag
 
 ## Functional and granular roles
 
-Functional roles help authorized partners maintain data and records in the deal registration table. A granular model helps to protect data by granting the required level of access to the relevant enterprise or channel partner entities. With this functionality, each role is associated with a set of privileges that determine users' access to certain information.
+Functional roles help provide authorized partners to maintain data and records in the deal registration table. A granular model helps to protect data by granting the required level of access to the relevant enterprise or channel partner entities. With this functionality, each role is associated with a set of privileges that determine users’ access to certain information.
 
 You can assign granular policies that authorize individuals to do their jobs efficiently and effectively, which helps to improve customer experience.
 
@@ -61,7 +61,7 @@ This user can create, view, and track deal registrations for all B2B customers w
 
 </td><td>
 
-Partner data viewer \(sn\_prm.partner\_data\_viewer\), sn\_bus\_org\_opptym.org\_opportunity\_viewer
+Partner data viewer \(sn\_prm.partner\_data\_viewer\)
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ This user can create, view, and track deal registrations for all B2C customers w
 
 </td><td>
 
-Partner Data Viewer \(sn\_prm.partner\_data\_viewer\),sn\_bus\_org\_opptym.org\_opportunity\_viewer.
+Partner Data Viewer \(sn\_prm.partner\_data\_viewer\)
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ This user can create, edit, and approve deal registrations for associated channe
 
 </td><td>
 
-Partner data viewer \(sn\_prm.partner\_data\_viewer\),sn\_bus\_org\_opptym.org\_opportunity\_viewer.
+Partner data viewer \(sn\_prm.partner\_data\_viewer\)
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ B2B deal registration agent \(sn\_prm\_dr.enterprise\_b2b\_deal\_reg\_agent\)
 
 This user can create, qualify, approve, and convert B2B deals into opportunities.A B2B deal registration agent can manage the full life cycle for B2B deal registrations.
 
-To learn more about converting deals to opportunities, see 
+To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/update-deal-registration-record.md)
 
 </td><td>
 
@@ -146,7 +146,7 @@ B2C deal registration agent \(sn\_prm\_dr.enterprise\_b2c\_deal\_reg\_agent\)
 
 This user can create, qualify, approve, and convert B2C deals into opportunities.A B2C deal registration agent can manage the full life cycle for B2C deal registrations.
 
-To learn more about converting deals to opportunities, see 
+To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/update-deal-registration-record.md)
 
 </td><td>
 
@@ -160,13 +160,12 @@ Deal registration agent \(sn\_prm\_dr.enterprise\_deal\_reg\_agent\)
 
 This user can create, qualify, approve, and convert any deal registration into an opportunity. A deal registration agent can manage the full life cycle of submitted deal registrations, both B2B and B2C.
 
-To learn more about converting deals to opportunities, see 
+To learn more about converting deals to opportunities, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/update-deal-registration-record.md)
 
 </td><td>
 
 -   B2B deal registration agent \(sn\_prm\_dr.enterprise\_b2b\_deal\_reg\_agent\)
 -   B2C deal registration agent \(sn\_prm\_dr.enterprise\_b2c\_deal\_reg\_agent\)
--   sn\_bus\_org\_opptym.org\_opportunity\_creator.
 
 </td></tr></tbody>
 </table>The following table lists the set of granular roles associated with deal registration.
@@ -201,7 +200,7 @@ Deal registration type writer \(sn\_prm\_dr.deal\_reg\_type\_writer\)
 
 </td><td>
 
-This granular role allows users to create, write, and edit all deal registration types.With this granular role, users can also create mapping records in the partner program and deal registration type tables.
+This granular role provides users to create, write, and edit all deal registration types.With this granular role, users can also create mapping records in the partner program and deal registration type tables.
 
 </td><td>
 
@@ -249,7 +248,7 @@ Partner data viewer \(sn\_prm.partner\_data\_viewer\)
 **Related topics**  
 
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 

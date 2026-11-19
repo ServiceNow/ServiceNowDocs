@@ -9,7 +9,7 @@ classification: configuration-compliance
 topic_type: concept
 last_updated: "2026-10-26"
 reading_time_minutes: 2
-breadcrumb: [Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Integrate with other applications, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Understanding the Wiz Test Results and Issues Integrations with Configuration Compliance

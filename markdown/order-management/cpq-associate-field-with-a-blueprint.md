@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-associate-field-with-a-blueprint.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure fields, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -44,5 +44,5 @@ Role required: Admin
 **Related topics**  
 
 
-[Create a field using the Administration UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-a-field-using-the-administration-ui.md)
+[Create a field using the Administration UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

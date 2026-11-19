@@ -1,14 +1,14 @@
 ---
 title: WSD Presence API
-description: The WSD Presence API enables users to manage their in-office presence schedule, including weekly routines, one-time exceptions, and collaborator visibility.Removes a collaborator from the authenticated user’s presence visibility list. The collaborator is identified by their sys\_id. Use this endpoint when a user no longer wants to track a colleague’s office attendance.Deletes a specific presence exception identified by its sys\_id. Use this endpoint when a user wants to remove a one-time override and revert to their regular weekly routine for that date.Retrieves the list of collaborators for the authenticated user along with each collaborator’s presence data, routine and exceptions. Use this endpoint to view the office attendance schedules of colleagues, enabling coordinated in-office planning.Retrieves presence exceptions for the authenticated user. Exceptions can be filtered by a date range or by a specific exception sys\_id. Use this endpoint when you need to view one-time overrides to a user’s weekly routine.Retrieves the authenticated user’s complete presence data, including their weekly in-office routine, scheduled presence exceptions, and optionally their collaborators’ presence information.Retrieves only the authenticated user’s weekly in-office routine. This is a lightweight alternative to GET /presence when you only need the routine schedule without exceptions or collaborators.Partially updates the authenticated user’s weekly in-office routine. Use this endpoint when a user needs to adjust specific days without resetting the entire schedule.Adds one or more collaborators to the authenticated user’s presence visibility list. Collaborators can then view each other’s presence data. Use this endpoint to build a team or group of colleagues whose office attendance you want to track.Creates a one-time presence exception for the authenticated user on a specific date. Use this endpoint when a user plans to be in the office on a day they normally work remotely, or vice versa.Creates a new weekly in-office routine for the authenticated user. Use this endpoint when a user is setting up their presence routine for the first time.Updates an existing presence exception by canceling it and creating a replacement. The original exception is identified by its sys\_id. Use this endpoint when a user needs to change the details of a previously created exception.
+description: The WSD Presence API enables users to manage their in-office presence schedule, including weekly routines, one-time exceptions, and collaborator visibility.Removes a collaborator from the authenticated user’s presence visibility list. Use this endpoint when a user no longer wants to track a colleague’s office attendance.Deletes a specific presence exception identified by its sys\_id. Use this endpoint when a user wants to remove a one-time override and revert to their regular weekly routine for that date.Retrieves the list of collaborators for the authenticated user along with each collaborator’s presence data, routine, and exceptions. Use this endpoint to view the office attendance schedules of colleagues, enabling coordinated in-office planning.Retrieves presence exceptions for the authenticated user. Exceptions can be filtered by a date range or by a specific exception sys\_id. Use this endpoint when you need to view one-time overrides to a user’s weekly routine.Retrieves the authenticated user’s complete presence data, including their weekly in-office routine, scheduled presence exceptions, and optionally their collaborators’ presence information.Retrieves only the authenticated user’s weekly in-office routine. This is a lightweight alternative to GET /presence when you only need the routine schedule without exceptions or collaborators.Partially updates the authenticated user’s weekly in-office routine. Use this endpoint when a user needs to adjust specific days without resetting the entire schedule.Adds one or more collaborators to the authenticated user’s presence visibility list. Collaborators can then view each other’s presence data. Use this endpoint to build a team or group of colleagues whose office attendance you want to track.Creates a one-time presence exception for the authenticated user on a specific date. Use this endpoint when a user plans to be in the office on a day they normally work remotely, or vice versa.Creates a new weekly in-office routine for the authenticated user. Use this endpoint when a user is setting up their presence routine for the first time.Updates an existing presence exception by canceling it and creating a replacement. The original exception is identified by its sys\_id. Use this endpoint when a user needs to change the details of a previously created exception.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/wsd\_presence-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 36
+last_updated: "2026-04-27"
+reading_time_minutes: 38
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -18,12 +18,12 @@ The WSD Presence API enables users to manage their in-office presence schedule, 
 
 This API supports the Workplace Service Delivery \(WSD\) Concierge experience by enabling employees to communicate their planned office attendance to colleagues. Use this API for the following actions:
 
--   Retrieve a user's complete presence data, including their weekly in-office routine, scheduled exceptions, and optionally collaborators' presence information.
+-   Retrieve an authenticated user's complete presence data, including their weekly in-office routine, scheduled exceptions, and optionally collaborators' presence information.
 -   Manage weekly in-office routines so employees can set a recurring schedule.
 -   Create and manage one-time exceptions that override the routine for a specific date.
 -   View and manage collaborators to enable coordinated in-office planning.
 
-All endpoints accept and return JSON. Call endpoints in any order; each operates independently.
+An authenticated user is someone who is logged in or whose credentials are included in the API request. Call endpoints in any order; each operates independently.
 
 The WSD Presence API belongs to the sn\_wsd\_concierge namespace. The [WSD Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/wsd_reservation-api.md) `GET /user/context` endpoint can return presence schedule data from the WSD Presence API when the concierge plugin is active.
 
@@ -32,14 +32,16 @@ The WSD Presence API belongs to the sn\_wsd\_concierge namespace. The [WSD Reser
 The WSD Presence API requires:
 
 -   The sn\_wsd\_core.workplace\_user role assigned to the user.
--   The Workplace Service Delivery Core \(com.sn\_wsd\_core\) plugin activated.
--   At least one user record must exist in sys\_user with the sn\_wsd\_core.workplace\_user role assigned.
+-   The Workplace Service Delivery Core \(com.sn\_wsd\_core\) and Workplace Service Delivery Concierge \(com.sn\_wsd\_concierge\) plugins activated.
+-   At least one user record must exist in User \[sys\_user\] table with the sn\_wsd\_core.workplace\_user role assigned.
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
 ## WSD Presence - DELETE /api/sn\_wsd\_concierge/v1/presence/collaborator/\{collaborator\_id\}
 
-Removes a collaborator from the authenticated user’s presence visibility list. The collaborator is identified by their sys\_id. Use this endpoint when a user no longer wants to track a colleague’s office attendance.
+Removes a collaborator from the authenticated user’s presence visibility list. Use this endpoint when a user no longer wants to track a colleague’s office attendance.
+
+An authenticated user is someone who is logged in or whose credentials are included in the API request. The collaborator is identified by their sys\_id.
 
 ### URL format
 
@@ -196,7 +198,9 @@ exception\_id
 
 </td><td>
 
-Required. Sys\_id of the presence exception to delete.Data type: String
+Required. Sys\_id of the presence exception to delete.Table: Employee presence exceptions \(sn\_wsd\_concierge\_employee\_presence\_exception\)
+
+Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -287,7 +291,7 @@ Response body.
 
 ## WSD Presence - GET /api/sn\_wsd\_concierge/v1/presence/collaborator
 
-Retrieves the list of collaborators for the authenticated user along with each collaborator’s presence data, routine and exceptions. Use this endpoint to view the office attendance schedules of colleagues, enabling coordinated in-office planning.
+Retrieves the list of collaborators for the authenticated user along with each collaborator’s presence data, routine, and exceptions. Use this endpoint to view the office attendance schedules of colleagues, enabling coordinated in-office planning.
 
 ### URL format
 
@@ -428,8 +432,8 @@ result.collaborators.privacy\_enabled
 
 Boolean. Flag that indicates whether the collaborator has enabled privacy on their presence data.Valid values:
 
--   true: The collaborator's routine and exceptions are hidden. **routine** will be `null` and **exceptions** will be an empty array.
--   false: The collaborator's presence data is visible.
+-   `true`: The collaborator's routine and exceptions are hidden. **routine** will be `null` and **exceptions** will be an empty array.
+-   `false`: The collaborator's presence data is visible.
 
 Data type: Boolean
 
@@ -439,19 +443,19 @@ result.collaborators.routine
 
 </td><td>
 
-Collaborator's weekly in-office routine. Follows the same authenticated user's **routine** parameter.Returns `null` if `privacy_enabled` is `true`.
+Collaborator's weekly in-office routine. Contains a Boolean flag for each day of the week indicating planned office attendance. Displays `true` when collaborator plans to be in-office for that day, and `false` when attendance isn't planned.
 
 Data type: Object
 
 ```
 "routine": { 
-   "monday": "Boolean", 
-   "tuesday": "Boolean", 
-   "wednesday": "Boolean", 
-   "thursday": "Boolean", 
-   "friday": "Boolean", 
-   "saturday": "Boolean", 
-   "sunday": "Boolean" 
+   "monday": Boolean" 
+   "tuesday": Boolean, 
+   "wednesday": Boolean, 
+   "thursday": Boolean, 
+   "friday": Boolean, 
+   "saturday": Boolean, 
+   "sunday": Boolean 
 }
 ```
 
@@ -465,13 +469,13 @@ Collaborator's one-time presence exceptions. Returns an empty array if `privacy_
 
 ```
 "exceptions": [ 
-   { 
-     "sys_id": "String", 
-     "date": "String", 
-     "in_office": "Boolean", 
-     "origin": "String", 
-     "location": "String" 
-   } 
+ { 
+  "sys_id": "String", 
+  "date": "String", 
+  "in_office": Boolean, 
+  "origin": "String", 
+  "location": "String" 
+ } 
 ]
 ```
 
@@ -481,7 +485,9 @@ result.collaborators.exceptions.sys\_id
 
 </td><td>
 
-Sys\_id of the exception record.Data type: String
+Sys\_id of the exception record.Table: Employee presence exceptions \(sn\_wsd\_concierge\_employee\_presence\_exception\)
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -489,7 +495,9 @@ result.collaborators.exceptions.date
 
 </td><td>
 
-Date this exception applies to, in yyyy-MM-dd format. This is the date the user's routine is being overridden.Data type: String
+Date this exception applies to. This is the date the user's routine is being overridden.Format: yyyy-MM-dd
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -499,10 +507,10 @@ result.collaborators.exceptions.in\_office
 
 Flag that indicates whether the user will be in the office on this date. This overrides whatever the weekly routine specifies for that day of the week.Valid values:
 
--   true: User will be in the office.
--   false: User won't be in the office
+-   `true`: User will be in the office.
+-   `false`: User won't be in the office
 
-Data type: String
+Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -605,6 +613,8 @@ exception\_id
 </td><td>
 
 Sys\_id of a specific exception to retrieve.When provided, overrides the date range filter and returns only the matching exception.
+
+Table: Employee presence exceptions \(sn\_wsd\_concierge\_employee\_presence\_exception\)
 
 Data type: String
 
@@ -711,7 +721,9 @@ result.exceptions.date
 
 </td><td>
 
-Date this exception applies to, in yyyy-MM-dd format. This is the date the user's routine is being overridden.Data type: String
+Date this exception applies to. This is the date the user's routine is being overridden.Format: yyyy-MM-dd format
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -721,10 +733,10 @@ result.exceptions.in\_office
 
 Flag that indicates whether the user will be in the office on this date. This overrides whatever the weekly routine specifies for that day of the week.Valid values:
 
--   true: User will be in the office.
--   false: User won't be in the office
+-   `true`: User will be in the office.
+-   `false`: User won't be in the office
 
-Data type: String
+Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -754,7 +766,9 @@ result.exceptions.sys\_id
 
 </td><td>
 
-Sys\_id of the exception record.Data type: String
+Sys\_id of the exception record.Table: Employee presence exceptions \(sn\_wsd\_concierge\_employee\_presence\_exception\)
+
+Data type: String
 
 </td></tr></tbody>
 </table>### cURL request
@@ -826,7 +840,7 @@ user\_id
 
 </td><td>
 
-Sys\_id of the target user whose presence data to retrieve. If not provided, returns presence data for the authenticated user.**Note:** Cross-user queries return 401 Unauthorized unless the caller has explicit permission.
+Sys\_id of the target user whose presence data to retrieve. If not provided, returns presence data for the authenticated user.**Note:** To query another user's presence data, the caller must have the admin role. Without it, the request returns 401 Unauthorized.
 
 Table: User \[sys\_user\]
 
@@ -862,7 +876,7 @@ include
 
 </td><td>
 
-Comma-separated list of related data to include in the response.Valid values: collaborators
+Related data to include in the response.Only valid value: `collaborators`
 
 Data type: String
 
@@ -926,17 +940,19 @@ result.routine
 
 </td><td>
 
-Weekly in-office routine for the user. Contains a Boolean flag for each day of the week indicating planned office attendance. Displays `true` when user plans to be in-office attendance for that day, and `false` when attendance isn't planned.Data type: Object
+Weekly in-office routine for the user. Contains a Boolean flag for each day of the week indicating planned office attendance. Displays `true` when the authenticated user plans to be in-office that day, and `false` when attendance isn't planned.
+
+Data type: Object
 
 ```
 "routine": { 
-   "monday": "Boolean", 
-   "tuesday": "Boolean", 
-   "wednesday": "Boolean", 
-   "thursday": "Boolean", 
-   "friday": "Boolean", 
-   "saturday": "Boolean", 
-   "sunday": "Boolean" 
+   "monday": Boolean, 
+   "tuesday": Boolean, 
+   "wednesday": Boolean, 
+   "thursday": Boolean, 
+   "friday": Boolean, 
+   "saturday": Boolean, 
+   "sunday": Boolean 
 }
 ```
 
@@ -953,7 +969,7 @@ List of one-time presence exceptions that override the user’s routine for spec
    { 
      "sys_id": "String", 
      "date": "String", 
-     "in_office": "Boolean", 
+     "in_office": Boolean, 
      "origin": "String", 
      "location": "String" 
    } 
@@ -966,7 +982,9 @@ result.exceptions.sys\_id
 
 </td><td>
 
-Sys\_id of the exception record.Data type: String
+Sys\_id of the exception record.Table: Employee presence exceptions \(sn\_wsd\_concierge\_employee\_presence\_exception\)
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -984,10 +1002,10 @@ result.exceptions.in\_office
 
 Flag that indicates whether the user will be in the office on this date. This overrides whatever the weekly routine specifies for that day of the week.Valid values:
 
--   true: User will be in the office.
--   false: User won't be in the office
+-   `true`: User will be in the office.
+-   `false`: User won't be in the office
 
-Data type: String
+Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -1061,8 +1079,8 @@ result.collaborators.privacy\_enabled
 
 Boolean. Flag that indicates whether the collaborator has enabled privacy on their presence data.Valid values:
 
--   true: The collaborator's routine and exceptions are hidden. **routine** will be `null` and **exceptions** will be an empty array.
--   false: The collaborator's presence data is visible.
+-   `true`: The collaborator's routine and exceptions are hidden. **routine** will be `null` and **exceptions** will be an empty array.
+-   `false`: The collaborator's presence data is visible.
 
 Data type: Boolean
 
@@ -1072,19 +1090,19 @@ result.collaborators.routine
 
 </td><td>
 
-The collaborator's weekly in-office routine. Follows the same authenticated user's **routine** parameter.Returns `null` if `privacy_enabled` is `true`.
+The collaborator's weekly in-office routine.Contains a Boolean flag for each day of the week indicating planned office attendance. Displays `true` when the collaborator plans to be in-office that day, and `false` when attendance isn't planned.
 
 Data type: Object
 
 ```
 "routine": { 
-   "monday": "Boolean", 
-   "tuesday": "Boolean", 
-   "wednesday": "Boolean", 
-   "thursday": "Boolean", 
-   "friday": "Boolean", 
-   "saturday": "Boolean", 
-   "sunday": "Boolean" 
+   "monday": Boolean, 
+   "tuesday": Boolean, 
+   "wednesday": Boolean, 
+   "thursday": Boolean, 
+   "friday": Boolean, 
+   "saturday": Boolean, 
+   "sunday": Boolean 
 }
 ```
 
@@ -1101,7 +1119,7 @@ The collaborator's one-time presence exceptions. Follows the same structure as t
    { 
      "sys_id": "String", 
      "date": "String", 
-     "in_office": "Boolean", 
+     "in_office": Boolean, 
      "origin": "String", 
      "location": "String" 
    } 
@@ -1246,7 +1264,7 @@ result.user\_id
 
 </td><td>
 
-Sys\_id of the user whose routine is returned.Table: User \[sys\_id\]
+Sys\_id of the user whose routine is returned.Table: User \[sys\_user\]
 
 Data type: String
 
@@ -1256,7 +1274,7 @@ result.routine
 
 </td><td>
 
-User's recurring weekly in-office schedule. Each field is a Boolean which represents a day of the week and indicates whether the user is scheduled to be in-office on that day.A value of `true` indicates in-office attendance, and `false` indicates no attendance.
+User's recurring weekly in-office schedule. Contains a Boolean flag for each day of the week indicating planned office attendance. Displays `true` when the user plans to be in-office that day, and `false` when attendance isn't planned.
 
 Data type: Object
 
@@ -1347,7 +1365,9 @@ routine
 
 </td><td>
 
-Required. The authenticated user's weekly routine, where each day is represented by a Boolean where a value of `true` indicates the user plans to be in-office for that day, and `false` indicates attendance isn't planned.Days omitted in the request remain unchanged. An empty routine object is accepted as a no-op.
+Required. The authenticated user's weekly routine.Contains a Boolean flag for each day of the week indicating planned office attendance. Displays `true` when the authenticated user plans to be in-office that day, and `false` when attendance isn't planned.
+
+Days omitted in the request remain unchanged. An empty routine object is accepted as a no-op.
 
 Data type: Object
 
@@ -1606,7 +1626,7 @@ result.collaborators
 
 </td><td>
 
-List of the newly added collaborators with their presence data.Data type: Array
+List of the newly added collaborators with their presence data.Data type: Array of Objects
 
 ```
 "collaborators": [
@@ -1659,19 +1679,19 @@ result.collaborators.routine
 
 </td><td>
 
-The collaborator's weekly in-office routine. Follows the same authenticated user's **routine** parameter.Returns `null` if `privacy_enabled` is `true`.
+The collaborator's weekly in-office routine. Contains a Boolean flag for each day of the week indicating planned office attendance. Displays `true` when the collaborator plans to be in-office that day, and `false` when attendance isn't planned.
 
 Data type: Object
 
 ```
 "routine": { 
-   "monday": "Boolean", 
-   "tuesday": "Boolean", 
-   "wednesday": "Boolean", 
-   "thursday": "Boolean", 
-   "friday": "Boolean", 
-   "saturday": "Boolean", 
-   "sunday": "Boolean" 
+   "monday": Boolean, 
+   "tuesday": Boolean, 
+   "wednesday": Boolean, 
+   "thursday": Boolean, 
+   "friday": Boolean, 
+   "saturday": Boolean, 
+   "sunday": Boolean
 }
 ```
 
@@ -1688,7 +1708,7 @@ The collaborator's one-time presence exceptions. Returns an empty array if `priv
    { 
      "sys_id": "String", 
      "date": "String", 
-     "in_office": "Boolean", 
+     "in_office": Boolean, 
      "origin": "String", 
      "location": "String" 
    } 
@@ -1701,7 +1721,9 @@ result.collaborators.exceptions.sys\_id
 
 </td><td>
 
-Sys\_id of the exception record.Data type: String
+Sys\_id of the exception record.Table: Employee presence exceptions \(sn\_wsd\_concierge\_employee\_presence\_exception\)
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -1709,7 +1731,9 @@ result.collaborators.exceptions.date
 
 </td><td>
 
-Date this exception applies to, in yyyy-MM-dd format. This is the date the user's routine is being overridden.Data type: String
+Date this exception applies to. This is the date the user's routine is being overridden.Format: yyyy-MM-dd format
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -1719,10 +1743,10 @@ result.collaborators.exceptions.in\_office
 
 Flag that indicates whether the user will be in the office on this date. This overrides whatever the weekly routine specifies for that day of the week.Valid values:
 
--   true: User will be in the office.
--   false: User won't be in the office
+-   `true`: User will be in the office.
+-   `false`: User won't be in the office
 
-Data type: String
+Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -1788,7 +1812,7 @@ Exceptions override the user’s weekly routine for that date.
 
 ### URL format
 
-Versioned URL: `/api/sn_wsd_concierge/[api_version}/presence/exception`
+Versioned URL: `/api/sn_wsd_concierge/{api_version}/presence/exception`
 
 Default URL: ```/api/sn_wsd_concierge/presence/exception`
 
@@ -1836,8 +1860,7 @@ Required. Exception object defining the one-time presence override.Data type: Ob
   "date": "String", 
   "in_office": "Boolean",
   "location": "String", 
-  "origin": "String".
-  "sys_id": "String"
+  "origin": "String"
 }
 ```
 
@@ -1847,7 +1870,7 @@ exception.date
 
 </td><td>
 
-Date of the exception.Format: yyyy-MM-dd.
+Date of the exception.Format: yyyy-MM-dd
 
 Data type: String
 
@@ -1885,14 +1908,6 @@ Source of the exception.Valid values:
 -   `manual`: Created by an admin or on behalf of the user.
 
  Data type: String
-
-</td></tr><tr><td>
-
-exception.sys\_id
-
-</td><td>
-
-Sys\_id of the existing exception to update.Data type: String
 
 </td></tr></tbody>
 </table>### Headers
@@ -1935,7 +1950,7 @@ result
 
 </td><td>
 
-Object containing the result of the POST request.Data type: Object
+Object containing the result of the request.Data type: Object
 
 ```
 "result": {
@@ -1958,21 +1973,32 @@ result.result
 
 </td><td>
 
-Contains the created exception\(s\).Data type: Object
+Object containing the created exception\(s\).Data type: Object
 
 ```
 "result": {
-      "exceptions": [
-        {
-          "sys_id": "String",
-          "date": "String",
-          "in_office": Boolean,
-          "origin": "String",
-          "location": "String"
-        }
-      ]
-    }
+ "exceptions": [Array]
+}
+```
 
+</td></tr><tr><td>
+
+result.exceptions
+
+</td><td>
+
+Array containing details about the created exception\(s\).Data type: Array of Objects
+
+```
+"exceptions": [
+ {
+  "date": "String",
+  "location": "String",
+  "in_office": Boolean,
+  "origin": "String",
+  "sys_id": "String"
+ }
+]
 ```
 
 </td></tr><tr><td>
@@ -1991,10 +2017,10 @@ result.result.exceptions.in\_office
 
 Flag that indicates whether the user will be in the office on this date. This overrides whatever the weekly routine specifies for that day of the week.Valid values:
 
--   true: User will be in the office.
--   false: User won't be in the office
+-   `true`: User will be in the office.
+-   `false`: User won't be in the office
 
-Data type: String
+Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -2024,7 +2050,9 @@ result.result.exceptions.sys\_id
 
 </td><td>
 
-Sys\_id of the exception record.Data type: String
+Sys\_id of the exception record.Table: Employee presence exceptions \(sn\_wsd\_concierge\_employee\_presence\_exception\)
+
+Data type: String
 
 </td></tr></tbody>
 </table>### cURL request
@@ -2098,13 +2126,28 @@ api\_version
 
 Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only specify this value to use an endpoint version other than the latest. Data type: String
 
-</td></tr><tr><td>
+</td></tr></tbody>
+</table>|Name|Description|
+|----|-----------|
+|None| |
+
+<table class="rest_api_request_body"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
 
 routine
 
 </td><td>
 
-Required. Weekly in-office routine for the user represented by Boolean values. A value of `true` indicates the user plans to be in-office for that day, and `false` indicates attendance isn't planned.All days are required.
+Required. Weekly in-office routine for the user.Contains a Boolean flag for each day of the week indicating planned office attendance. Displays `true` when the user plans to be in-office that day, and `false` when attendance isn't planned.
+
+All days are required.
 
 Data type: Object
 
@@ -2121,15 +2164,7 @@ Data type: Object
 ```
 
 </td></tr></tbody>
-</table>|Name|Description|
-|----|-----------|
-|None| |
-
-|Name|Description|
-|----|-----------|
-|None| |
-
-### Headers
+</table>### Headers
 
 The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
@@ -2206,7 +2241,9 @@ result.routine
 
 </td><td>
 
-Weekly in-office routine. Contains a Boolean flag for each day of the week where `true` indicates in-office attendance, and `false` indicates no attendance.Data type: Object
+User's weekly in-office routine. Contains a Boolean flag for each day of the week indicating planned office attendance. Displays `true` when the user plans to be in-office that day, and `false` when attendance isn't planned.
+
+Data type: Object
 
 ```
 "routine": { 
@@ -2218,7 +2255,6 @@ Weekly in-office routine. Contains a Boolean flag for each day of the week where
   "saturday": "Boolean", 
   "sunday": "Boolean"
 }
-
 ```
 
 </td></tr></tbody>
@@ -2238,7 +2274,6 @@ curl "https://<instance>.service-now.com/api/sn_wsd_concierge/v1/presence/routin
     "thursday": true, "friday": false, "saturday": false, "sunday": false
   }
 }'
-
 ```
 
 Response body.
@@ -2265,6 +2300,8 @@ Response body.
 ## WSD Presence - PUT /api/sn\_wsd\_concierge/v1/presence/exception
 
 Updates an existing presence exception by canceling it and creating a replacement. The original exception is identified by its sys\_id. Use this endpoint when a user needs to change the details of a previously created exception.
+
+Because this endpoint cancels the original exception and creates a replacement, the returned `sys_id` differs from the one provided in the request. Update any stored references to the exception `sys_id` after a successful PUT.
 
 ### URL format
 
@@ -2309,12 +2346,12 @@ exception
 
 </td><td>
 
-Required. Exception object containing the updated details. The sys\_id and in\_office fields are required.Data type: Object
+Required. Exception object containing the updated details. The **sys\_id** and **in\_office** fields are required.Data type: Object
 
 ```
 "exception": { 
   "date": "String", 
-  "in_office": "Boolean",
+  "in_office": Boolean,
   "location": "String", 
   "origin": "String",
   "sys_id": "String"
@@ -2327,7 +2364,7 @@ exception.date
 
 </td><td>
 
-Date of the exception.Format: yyyy-MM-dd.
+Date of the exception.Format: yyyy-MM-dd
 
 Data type: String
 
@@ -2364,7 +2401,7 @@ Source of the exception.Valid values:
 -   `system`: Created automatically by the platform.
 -   `manual`: Created by an admin or on behalf of the user.
 
- Data type: String
+Data type: String
 
 Default: user
 
@@ -2374,7 +2411,9 @@ exception.sys\_id
 
 </td><td>
 
-Required. Sys\_id of the existing exception to update.Data type: String
+Required. Sys\_id of the existing exception to update.Table: Employee presence exceptions \(sn\_wsd\_concierge\_employee\_presence\_exception\)
+
+Data type: String
 
 </td></tr></tbody>
 </table>### Headers
@@ -2462,7 +2501,7 @@ List of presence exceptions.Data type: Array of Objects
  {
   "sys_id": "sys_id", 
   "date": "String", 
-  "in_office": String, 
+  "in_office": Boolean, 
   "origin": "String", 
   "location": "String" 
  }
@@ -2475,11 +2514,13 @@ result.result.exceptions.sys\_id
 
 </td><td>
 
-Sys\_id of the exception record.Data type: String
+Sys\_id of the exception record.Table: Employee presence exceptions \(sn\_wsd\_concierge\_employee\_presence\_exception\)
+
+Data type: String
 
 </td></tr><tr><td>
 
-result.exceptions.date
+result.result.exceptions.date
 
 </td><td>
 
@@ -2487,20 +2528,20 @@ Date this exception applies to, in yyyy-MM-dd format. This is the date the user'
 
 </td></tr><tr><td>
 
-result.exceptions.in\_office
+result.result.exceptions.in\_office
 
 </td><td>
 
 Flag that indicates whether the user will be in the office on this date. This overrides whatever the weekly routine specifies for that day of the week.Valid values:
 
--   true: User will be in the office.
--   false: User won't be in the office
+-   `true`: User will be in the office.
+-   `false`: User won't be in the office
 
-Data type: String
+Data type: Boolean
 
 </td></tr><tr><td>
 
-result.exceptions.origin
+result.result.exceptions.origin
 
 </td><td>
 
@@ -2514,7 +2555,7 @@ Data type: String
 
 </td></tr><tr><td>
 
-result.exceptions.location
+result.result.exceptions.location
 
 </td><td>
 
@@ -2543,6 +2584,8 @@ curl "https://<instance>.service-now.com/api/sn_wsd_concierge/v1/presence/except
 ```
 
 Response body.
+
+**Note:** Because this endpoint cancels the original exception and creates a replacement, the returned `sys_id` differs from the one provided in the request.
 
 ```
 {

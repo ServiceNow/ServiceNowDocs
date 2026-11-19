@@ -1,6 +1,6 @@
 ---
 title: Create custom trigger types
-description: Create your own trigger type during the rule creation process that is specific to your organization for improved Proactive Triggers usage.
+description: Create a trigger type that is specific to your organization when the default Proactive Triggers trigger types don't meet your needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/product-support-for-technology/create-custom-trigger-types.html
 release: australia
@@ -9,12 +9,12 @@ classification: product-support-for-technology
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Proactive Triggers, Proactive Triggers, Manage people and work, Conversational Interfaces]
+breadcrumb: [Configure, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---
 
 # Create custom trigger types
 
-Create your own trigger type during the rule creation process that is specific to your organization for improved Proactive Triggers usage.
+Create a trigger type that is specific to your organization when the default Proactive Triggers trigger types don't meet your needs.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_pt.proactive\_admin or admin
 
 ## About this task
 
-For a more advanced configuration, create your own custom trigger types. You can create custom trigger types through two different paths.
+Custom trigger types support more advanced configurations. You can create custom trigger types through two different paths.
 
 1.  Through the **View All** button next to the **Trigger types** field in **Conversational Interfaces** &gt; **Settings** &gt; **General** &gt; **Proactive triggers**.
 2.  Through the rule creation process.
@@ -33,7 +33,7 @@ For a more advanced configuration, create your own custom trigger types. You can
 
 2.  Select **New** to display the Proactive Rule form.
 
-3.  Next to the **Trigger type** field, select the create new trigger type icon \(\[Omitted image "workspace-icon-add.png"\] Alt text: Create new trigger type icon.\).
+3.  Next to the **Trigger type** field, select the create new trigger type icon \[Omitted image "workspace-icon-add.png"\] Alt text:.
 
 4.  On the form, fill in the fields.
 
@@ -59,7 +59,7 @@ ID
 
 </td><td>
 
-System-generated, read-only ID required for API calls. This ID is only displayed after you've submitted the new trigger type and you view the trigger record.
+System-generated ID required for API calls. This ID appears only after you submit the new trigger type and view the trigger record.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Source
 
 </td><td>
 
-The trigger initiation is either **System API** or **Web browsing**. -   **System API**: Calls the Proactive Triggers API. For example, a business rule on the trigger table calls the API that initiates the trigger.
+Source that initiates the trigger, either **System API** or **Web browsing**. -   **System API**: Calls the Proactive Triggers API. For example, a business rule on the trigger table calls the API that initiates the trigger.
 
 **Note:** Trigger types with the **System API** source only work for internal ServiceNow sites and not external sites.
 
@@ -112,12 +112,10 @@ Applicable portal
 
 </td><td>
 
-The trigger type is only applicable to select pages on a particular portal.
+Portal for the pages the trigger type applies to.
 
 </td></tr></tbody>
-</table>
-
-    \[Omitted image "pt-create-custom-trigger-type.png"\] Alt text: Create Trigger Type form.
+</table>    \[Omitted image "pt-create-custom-trigger-type.png"\] Alt text: Create Trigger Type form.
 
 5.  Select **Submit**.
 
@@ -126,7 +124,7 @@ The trigger type is only applicable to select pages on a particular portal.
 
 ## What to do next
 
-After creating the custom trigger type, the **Create new trigger type** button updates to the **Preview this record** button \(\[Omitted image "workspace-icon-preview.png"\] Alt text: Preview.\). Select **Preview this record** to preview the new trigger type that you created and view the system-generated ID. To make edits to this trigger type, select **Open Record** to manage the parameters of the custom trigger type.
+After you create the custom trigger type, the **Create new trigger type** button updates to the **Preview this record** button \[Omitted image "workspace-icon-preview.png"\]. Select **Preview this record** to preview the new trigger type that you created and view the system-generated ID. To edit this trigger type, select **Open Record** to manage the parameters of the custom trigger type.
 
-Also, you can make edits to this new trigger type by selecting **View All** next to the **Trigger types** field in **Conversational Interfaces** &gt; **Settings** &gt; **General** &gt; **Proactive triggers**.
+You can also edit the trigger type by selecting **View All** next to the **Trigger types** field in **Conversational Interfaces** &gt; **Settings** &gt; **General** &gt; **Proactive triggers**.
 

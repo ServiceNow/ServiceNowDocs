@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-28"
 reading_time_minutes: 2
 keywords: [dynamic category, dynamic attribute, custom fields, project type, enterprise-wide deployment, EWD]
-breadcrumb: [Configuring project types in Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configuring project types in Project Workspace, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a dynamic category for a project type

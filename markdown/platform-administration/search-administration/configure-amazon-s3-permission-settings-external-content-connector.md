@@ -21,7 +21,7 @@ Select the permission mode that controls which users can see content crawled by 
 
 A connector administrator must have already created the Amazon S3 external content connector that you need to configure. To learn about this procedure, see [Create an Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-amazon-s3.md).
 
-To use the standard user permission crawl or the all retrieved users group, your AWS administrator must have granted the connector's Identity and Access Management \(IAM\) user the permissions that the mode requires. To learn which permissions each mode requires, see [AWS permissions required for Amazon S3 external content connector permission modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/amazon-s3-required-permissions-external-content-connector.md).
+To use the standard user permissions crawl or the all retrieved users group, your AWS administrator must have granted the connector's Identity and Access Management \(IAM\) user the permissions that the mode requires. To learn which permissions each mode requires, see [AWS permissions required for Amazon S3 external content connector permission modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/amazon-s3-required-permissions-external-content-connector.md).
 
 Role required: sn\_ext\_conn.xcc\_admin, plus ais\_high\_security\_admin to modify user settings
 
@@ -39,10 +39,10 @@ The permission mode determines how the connector assigns access permissions to t
 
 4.  Select the permission mode for the connector.
 
-    -   To use the standard user permission crawl, clear the **Override all document permissions** option.
+    -   To use the standard user permissions crawl, clear the **Override all document permissions** option.
     -   To use a connector-created group of all retrieved users, select the **Override all document permissions** option, then select **All Mapped Users**.
     -   To make all crawled content visible to users in an existing ServiceNow AI Platform group, select the **Override all document permissions** option, then select **Existing SN Group**, then select the group.
-5.  If you're using the standard user permission crawl or the connector-created group, review how the connector maps IAM users to users in your instance.
+5.  If you're using the standard user permissions crawl or the connector-created group, review how the connector maps IAM users to users in your instance.
 
     In the Map from Amazon S3 section, the connector identifies each IAM user by the user name portion of the user's Amazon Resource Name \(ARN\), which is the final element in the ARN path. For example, for the ARN `arn:aws:iam::123456789012:user/engineering/alice.smith`, the identifier is `alice.smith`. The connector treats roles as groups.
 
@@ -71,9 +71,9 @@ The Amazon S3 external content connector is updated with your permission setting
 
 Run a new content crawl for your connector to retrieve permissions for content items.
 
-If you selected the standard user permission crawl or the connector-created group, create and run a user permission crawl for the connector to retrieve IAM users and groups from your source system. To learn about creating and running user permission crawls, see [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
+If you selected the standard user permissions crawl or the connector-created group, create and run a user permissions crawl for the connector to retrieve IAM users and groups from your source system. To learn about creating and running user permissions crawls, see [Create a user permissions crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
 
-If you selected an existing group, you don't need to run a user permission crawl.
+If you selected an existing group, you don't need to run a user permissions crawl.
 
 **Parent Topic:**[Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/amazon-s3-external-content-connector.md)
 

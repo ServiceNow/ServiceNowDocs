@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Resource Profiles, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -44,7 +44,7 @@ Schedule
 
 </td><td>
 
-Select an existing schedule or define a custom schedule. A schedule is a rule that includes or excludes specified time periods for actions. To define a schedule, use the **System Scheduler** module. See [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineASchedule.md).
+Select an existing schedule or define a custom schedule. A schedule is a rule that includes or excludes specified time periods for actions. To define a schedule, use the **System Scheduler** module. See Define a schedule.
 
 </td></tr><tr><td>
 

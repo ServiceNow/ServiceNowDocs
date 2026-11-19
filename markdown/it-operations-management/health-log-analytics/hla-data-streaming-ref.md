@@ -1,21 +1,21 @@
 ---
 title: General guidelines for streaming data to Health Log Analytics
-description: This section helps you identify the appropriate data input for streaming your specific data type to the Health Log Analytics application.
+description: This section helps you identify the appropriate data input for streaming your specific data type to the Health Log Analytics \(HLA\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/health-log-analytics/hla-data-streaming-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-11"
 reading_time_minutes: 2
-keywords: [ServiceNow, Health Log Analytics, HLA, data input, streaming, data types]
+keywords: [ServiceNow, Health Log Analytics, HLA, data, streaming, data types, guidelines, data input]
 breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # General guidelines for streaming data to Health Log Analytics
 
-This section helps you identify the appropriate data input for streaming your specific data type to the Health Log Analytics application.
+This section helps you identify the appropriate data input for streaming your specific data type to the Health Log Analytics \(HLA\) application.
 
 <table id="table_wrn_3bx_hfc"><thead><tr><th>
 

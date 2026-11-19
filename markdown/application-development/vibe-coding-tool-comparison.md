@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-tool-comparison.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-11-03"
+reading_time_minutes: 5
 keywords: [agentic development, tool comparison, development tools, artificial intelligence, application development, workflow comparison, development workflow, AI agents, code generation]
 audience: developer
-breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Tool comparison for agentic development
@@ -76,6 +76,30 @@ Conversational interface that generates production-ready apps end-to-end-   In S
 
 </td></tr><tr><td>
 
+Autonomous Engineer
+
+</td><td>
+
+Implementing larger applications from a complete set of requirements, with work items built in parallel
+
+</td><td>
+
+Intermediate
+
+</td><td>
+
+High after you review and approve the plan
+
+</td><td>
+
+Applications built from an approved plan, with ATF tests and an update set for deploymentFor more information, see [Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/autonomous-engineer.md).
+
+</td><td>
+
+Plan-based workflow that interviews you, generates work items with acceptance criteria, and builds the work items in parallel
+
+</td></tr><tr><td>
+
 ServiceNow Otto for Creator
 
 </td><td>
@@ -139,6 +163,10 @@ Build Agent
 
 ServiceNow Otto for Creator
 
+</th><th>
+
+Autonomous Engineer
+
 </th></tr></thead><tbody><tr><td>
 
 1. Input
@@ -153,6 +181,10 @@ Natural language prompt describing full applicationOptions include:
 </td><td>
 
 Describe Service Catalog item with fields and approval flows
+
+</td><td>
+
+Requirements as a natural language description or a file upload, such as a CSV of user stories
 
 </td></tr><tr><td>
 
@@ -169,6 +201,10 @@ Autonomous full-stack generation \(tables, UI, flows, tests\)Options include:
 
 Scaffold Service Catalog item with variables and fulfillment
 
+</td><td>
+
+Interview to resolve ambiguous details, then a plan of work items sequenced with a dependency graph
+
 </td></tr><tr><td>
 
 3. Review
@@ -183,6 +219,10 @@ Approve edits; agent builds and deploysOptions include:
 </td><td>
 
 Review and harden item configuration
+
+</td><td>
+
+Review and edit each work item, then approve the plan
 
 </td></tr><tr><td>
 
@@ -199,17 +239,25 @@ Multi-turn prompts to add featuresOptions include:
 
 Iterative prompts for variables and flows
 
+</td><td>
+
+Manage work items and review status and artifacts on the plan dashboard
+
 </td></tr><tr><td>
 
 5. Testing
 
 </td><td>
 
-Automatic Automated Test Framework \(ATF\) test creation, editing, and running
+Automated Test Framework \(ATF\) test creation, editing, and running, with root cause analysis of failures by Test Agent. Includes UI testsand test suites
 
 </td><td>
 
 ATF test generation for catalog submissions
+
+</td><td>
+
+Each work item agent generates and runs ATF tests, and failed tests trigger root cause analysis and retries
 
 </td></tr><tr><td>
 
@@ -220,11 +268,17 @@ ATF test generation for catalog submissions
 Deploy from Developer Sandboxes with audit trailsOptions include:
 
 -   Update sets or Pipelines and Deployments with ServiceNow Studio
+-   Git push from ServiceNow Studio, beginning with Australia Patch 5
+-   For a given app on a given instance, the application repository and update set deployment paths are mutually exclusive. For more information, see [Agentic development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-and-deployment.md).
 -   Command line interface deploy or Git-based CI/CD in ServiceNow IDE
 
 </td><td>
 
 Standard Service Catalog item publication workflow
+
+</td><td>
+
+Update set generated when all work items are complete
 
 </td></tr></tbody>
 </table>## Tool access
@@ -234,6 +288,7 @@ The following table shows how to access ServiceNow agentic development tools.
 |Tool|Access method|
 |----|-------------|
 |Build Agent|Chat panel in ServiceNow Studio or ServiceNow IDE|
+|Autonomous Engineer|Mode selector in the Build Agent chat panel in ServiceNow Studio. For more information, see [Accessing Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/access-autonomous-engineer.md).|
 |ServiceNow Otto for Creator|Embedded in Service Catalog and Workflow Studio|
 |ServiceNow SDK|Local VS Code or the ServiceNow IDE with ServiceNow Fluent SDK|
 
@@ -243,11 +298,10 @@ The following table shows performance and scaling considerations for ServiceNow 
 
 |Tool|Best performance for|Limitations|
 |----|--------------------|-----------|
-|Build Agent|New applications with &lt; 20 tables|Limited support for cross-product integration|
+|Build Agent|New applications with &lt; 20 tables|Limited support for cross-product AI integration|
+|Autonomous Engineer|Larger implementations with well-defined requirements|Limitations that apply to Build Agent also apply to Autonomous Engineer. For more information, see [Autonomous Engineer limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-limitations.md)|
 |ServiceNow Studio|Iterative metadata updates; low-code workflows|Does not support complex custom code generation|
 |ServiceNow IDE|Complex business rules, script includes, advanced customization|Developer expertise required|
 |ServiceNow Otto for Creator|Service Catalog items \(one at a time\)|Creates single Service Catalog items, not full applications|
 |ServiceNow SDK|Local development with TypeScript|Limited platform metadata manipulation compared to ServiceNow Studio|
-
-**Parent Topic:**[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-vibe-coding.md)
 

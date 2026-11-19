@@ -61,7 +61,7 @@ Also see the following sample scripts:
 **Related topics**  
 
 
-[ServiceNow CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-logik-io-scripting-language-reference.md)
+[ServiceNow CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 [Sample scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-sample-scripts.md)
 

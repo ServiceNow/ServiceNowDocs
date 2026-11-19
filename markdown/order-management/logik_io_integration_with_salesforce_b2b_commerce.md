@@ -20,7 +20,7 @@ This guide assumes the following:
 
 -   Commerce is enabled in Salesforce
 -   The ServiceNow CPQ Base Managed Package is installed
--   System Administrator or similar access is available to perform the steps listed
+-   System Administrator or similar access is available in order to perform the steps listed
 
 ## Install files to Salesforce
 
@@ -35,10 +35,10 @@ This guide assumes the following:
     a. refer the following:
 
 3.  Start Terminal \(Mac or Linux\) or Powershell \(Windows\).
-4.  Navigate to the directory containing the extracted files. For example, if the files were extracted in the Downloads folder, type and enter the command `cd Downloads/logik.io-b2b`.
+4.  Navigate to the directory containing the extracted files. For example, if the files were extracted in the Downloads folder, type and enter the command `cd Downloads/cpq-b2b`.
 5.  Run the `ls` command to see a list of files and folders in that directory.
 
-    You should see `src` and `sfdx-project.json`, and a plain text copy of this guide.
+    You should see `src` and `sfdx-project.json`, as well as a plain text copy of this guide.
 
     \[Omitted image "cpq-integration-SFB2B-ls.png"\] Alt text: Json file details
 
@@ -48,7 +48,7 @@ This guide assumes the following:
     sfdx auth:web:login --setalias myOrg -r https://example-dev-ed.my .salesforce.com
     ```
 
-    -   Replace the URL following `-r` with the one that the ServiceNow CPQ - B2B integration will be set up on.
+    -   Replace the URL following `-r` with the one that the CPQ-B2B integration will be set up on.
     -   The text following `--setalias` is a nickname that is used to identify and reference the correct Salesforce org. The example `myOrg` will be used for the purposes of this guide. Be sure to use your own alias in the following steps.
     The URL specified in the previous login command will be opened in the default browser.
 
@@ -349,7 +349,7 @@ Example response:
 **Related topics**  
 
 
-[Runtime APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/logik_io-salesforce_base_package_overview.md)
+[ServiceNow CPQ and Salesforce base package overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/logik_io-salesforce_base_package_overview.md)
 
 [Salesforce amendments and ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/salesforce_amendments_and_logik_io.md)
 

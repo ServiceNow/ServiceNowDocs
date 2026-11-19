@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-root-cause-analysis-task.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Product non-conformance, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance without playbook, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a root cause analysis
@@ -20,7 +20,7 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Root Cause Analysis Task**.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **Product Non Conformance Case** &gt; **Root Cause Analysis Task**.
 
 2.  Select **New**.
 
@@ -34,12 +34,10 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 
     The Start a Sidebar discussion window is displayed.
 
-    For more information on the sidebar discussion window, see .
+    For more information on the sidebar discussion window, see [Create a Sidebar discussion for a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar-discussions-record.md).
 
 6.  Select **Save**.
 
-
-**Parent Topic:**[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-related-lists-product-non-conformance.md)
 
 **Related topics**  
 

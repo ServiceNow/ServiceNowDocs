@@ -5,21 +5,21 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-security-tasks.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-23"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, security task, AI security, threat detection]
-breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing tasks and approvals, Address action items, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Security tasks
 
 Address possible security threats, policy violations, and access issues on managed AI assets by acting on the security tasks the system generates for AI stewards and security reviewers.
 
-A security task is a unit of work that AI Control Tower generates when it detects a security concern on a managed AI asset. Security tasks route to the AI steward or security reviewer responsible for the affected asset, where they can investigate the concern, take remediation action, and document the resolution. Security tasks give AI governance teams a consistent, traceable way to respond to AI-specific security threats.
+A security task is a unit of work that Control Tower generates when it detects a security concern on a managed AI asset. Security tasks route to the AI steward or security reviewer responsible for the affected asset, where they can investigate the concern, take remediation action, and document the resolution. Security tasks give AI governance teams a consistent, traceable way to respond to AI-specific security threats.
 
 ## How security tasks are generated
 
-AI Control Tower generates security tasks from several sources:
+Control Tower generates security tasks from several sources:
 
 -   Threat detection on AI agents, including prompt injection, data exfiltration, and policy bypass attempts.
 -   Access and privilege monitoring on AI agents that have unusual or excessive permissions.

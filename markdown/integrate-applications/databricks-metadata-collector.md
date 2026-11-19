@@ -144,6 +144,14 @@ ID, Name, Pipeline Continuous, Run As Username, Creator Username, Last Modified,
 
 </td></tr><tr><td>
 
+Unity Catalog Metastore
+
+</td><td>
+
+Metastore ID, Name, Region, Cloud, External Access Enabled, Predictive Optimization Enabled, Global Metastore ID, Delta Sharing Scope, Storage Root, Owner, Created By, Last Modified By, Created At, Updated At
+
+</td></tr><tr><td>
+
 External Location
 
 </td><td>
@@ -181,14 +189,6 @@ Metric View
 </td><td>
 
 Name, Description, YAML Definition, Source Table, Source Table Type, Filter, Created, Last Modified, Materialization Enabled
-
-</td></tr><tr><td>
-
-Unity Catalog Metastore
-
-</td><td>
-
-Metastore ID, Name, Region, Cloud, External Access Enabled, Predictive Optimization Enabled, Global Metastore ID, Delta Sharing Scope, Storage Root, Owner, Created By, Last Modified By, Created At, Updated At
 
 </td></tr><tr><td>
 

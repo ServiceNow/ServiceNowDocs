@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-selfserviceandomnichannelengagementforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 27
 breadcrumb: [Products combined by family]
 ---
@@ -644,7 +644,7 @@ Yokohama
 
 -   **Activation information**
 
-Install the Engagement Messenger, Playbook for Portals, and Omnichannel applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install the Engagement Messenger, Playbook for Portals, and Omnichannel applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Engagement Messenger, Playbooks for Portals, and Omnichannel applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -657,7 +657,7 @@ Zurich
 
 -   **Activation information**
 
-Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Self-service and omnichannel applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -670,7 +670,7 @@ Australia
 
 -   **Activation information**
 
-Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Check your entitlements to determine whether you have access to AI email summarization and AI-based context matching for multi-case linking. For details, see [Activate email interaction summarization](https://www.servicenow.com/docs/access?context=activate-email-summarization-csm&family=australia&ft:locale=en-US) and [Activate contextual email matching](https://www.servicenow.com/docs/access?context=activate-contextual-email-matching-csm&family=australia&ft:locale=en-US).
 
@@ -934,7 +934,7 @@ Australia
 -   Support agent efficiency by automatically linking email replies on closed interactions to open cases, generating AI summaries on demand, and enabling CCaaS or AWA-routed transfers.
 -   Schedule, reschedule, and cancel native callbacks from Agent Workspace across all omnichannel interactions \(chat, voice, email, and messaging\) and cases without switching to external tools or applications.
 
- See [\[Placeholder link text to key bundle-csm.omnichannels-communicating-customers\]](https://www.servicenow.com/docs/access?context=omnichannels-communicating-customers&family=australia&ft:locale=en-US), [Self-service](https://www.servicenow.com/docs/access?context=self-service-options-csm-customers&family=australia&ft:locale=en-US), and [ICC for voice calls](https://www.servicenow.com/docs/access?context=contact-center-integration-with-icc&family=australia&ft:locale=en-US) for more information.
+ See [omnichannels communicating customers](https://www.servicenow.com/docs/access?context=omnichannels-communicating-customers&family=australia&ft:locale=en-US), [Self-service](https://www.servicenow.com/docs/access?context=self-service-options-csm-customers&family=australia&ft:locale=en-US), and [ICC for voice calls](https://www.servicenow.com/docs/access?context=contact-center-integration-with-icc&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-xanadu-australia/rn-combined-intro.md)

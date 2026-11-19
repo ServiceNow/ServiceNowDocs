@@ -7,7 +7,7 @@ release: australia
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Impersonating users, Monitoring user activity, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,7 +24,9 @@ Role required: impersonator
 
 When you impersonate a user in a scoped application, the protected roles of that application are stripped from the impersonated session. Impersonation also gives access to roles other than the stripped roles.
 
-The **glide.sys.allow\_scoped\_user\_impersonation** system property controls whether you can impersonate a user in a scoped application. If it's set to `true`, impersonation is allowed with the protected roles stripped. If it's set to `false`, you can't impersonate the user.
+The system property **glide.sys.allow\_scoped\_user\_impersonation** controls whether users in scoped applications can be impersonated. If it's set to `true`, you can impersonate the user, and the protected roles are stripped. If it's set to `false`, you can't impersonate the user.
+
+If you enable impersonation logging for non-interactive sessions by setting **glide.sys.log\_impersonation.non\_interactive** to **true**, non-interactive impersonations are recorded in the log, and corresponding impersonation events are also created in the Event \[sys\_event\] table.
 
 ## Procedure
 

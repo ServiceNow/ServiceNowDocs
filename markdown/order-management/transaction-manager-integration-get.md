@@ -34,7 +34,7 @@ The rest of this article lists the steps in ServiceNow CPQ to create the integra
 
 ## Administration setup: Prerequisites
 
-This guide assumes a ServiceNow CPQ environment with ServiceNow Quote Experience features enabled, as well as installation of the CPQ ServiceNow Quote Experience Integration Extension on a corresponding Salesforce environment. To view the installation instructions, see [Installing the Salesforce Transaction Manager Integration Package extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.md).
+This guide assumes a ServiceNow CPQ environment with ServiceNow Quote Experience features enabled, as well as installation of the CPQ ServiceNow Quote Experience Integration Extension on a corresponding Salesforce environment. To view the installation instructions, see [Installing the Salesforce ServiceNow Quote Experience Integration Package extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.md).
 
 ## ServiceNow CPQ: Add a connection
 

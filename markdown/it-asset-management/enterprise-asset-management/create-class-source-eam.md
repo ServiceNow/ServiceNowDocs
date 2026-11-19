@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -24,19 +24,15 @@ Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
+1.  Navigate to **Enterprise Asset Workspace** &gt; **Admin center**.
 
-2.  From the Enterprise Asset Workspace, open the Admin center view.
+2.  Select **Sources** under Model classifications and then select **New**.
 
-3.  From the navigation panel of the Admin center view, navigate to **Model classifications** &gt; **Sources**.
+3.  On the Create New Enterprise model classification source page, enter a name of the source in the **Source** field.
 
-4.  Select **New**.
+4.  Enter a description of the source in the **Description** field.
 
-5.  On the Create New Enterprise model classification source page, enter a name of the source in the **Source** field.
-
-6.  Enter a description of the source in the **Description** field.
-
-7.  Select **Save**.
+5.  Select **Save**.
 
     The source appears in the Create sources page.
 

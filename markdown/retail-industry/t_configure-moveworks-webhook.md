@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2025-07-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Otto for Break-Fix and Store Audit overview, ServiceNow Otto for Retail Service Management \(RSM\), Retail]
+breadcrumb: [ServiceNow Otto integration overview, Configure, Retail]
 ---
 
 # Configure the ServiceNow Otto webhook connection
@@ -16,7 +16,9 @@ Configure the otto\_webhook Connection &amp; Credential Alias so ServiceNow can 
 
 ## Before you begin
 
-Obtain the listener endpoint URL and the API key from the ServiceNow Otto team. The webhook connection supports API key authentication only.
+Obtain from the ServiceNow Otto team: listener endpoint URL, credential type, and credential values.
+
+**Warning:** HMAC-SHA256 and HMAC-SHA512 are not yet implemented. Contact the support team before configuring if HMAC is required.
 
 Role required: admin
 
@@ -28,11 +30,11 @@ Role required: admin
 
     Set **Connection URL** to the ServiceNow Otto listener endpoint and save.
 
-3.  In the **Credentials** related list, select **New** and then select **API Key Credentials**.
+3.  In the **Credentials** related list, click **New** and select the credential type.
 
-    Set **API Key** to the key from the ServiceNow Otto team, set **API Key Header Name** to `Authorization`, and set **API Key Prefix** to `Bearer`. Leave **MID Servers** blank.
+    Use Bearer token when ServiceNow Otto provides a static token.
 
-4.  Save the credential.
+4.  Enter the credential values and save.
 
 5.  Open the connection record, set its **Credential** field to the new credential, and save.
 
@@ -40,6 +42,4 @@ Role required: admin
 
     If the call does not arrive, check **System Logs** &gt; **Outbound HTTP Requests**.
 
-
-**Parent Topic:**[ServiceNow Otto for Break-Fix and Store Audit overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/moveworks-breakfix-storeaudit-overview.md)
 

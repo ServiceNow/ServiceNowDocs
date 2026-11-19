@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Security incident manual creation, Security incident creation, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -19,6 +19,10 @@ Users in your company can use the Security Incident Catalog to request various t
 ## Before you begin
 
 Role required: none
+
+## About this task
+
+**Note:** The Security Incident Catalog is open to all internal users, so anyone in your organization can report a security incident. Access requires only the snc\_internal role, which is the basic role that all internal users have.
 
 ## Procedure
 

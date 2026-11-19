@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/reference-cpq.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Reference, Sales Customer Relationship Management]
 ---
@@ -18,10 +18,12 @@ Reference for configure, price, and quote applications.
 Reference topics provide additional information about Advanced Approval Management.
 -   **[Components installed with Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-with-advanced-approval-mgmt-AI.md)**  
 MCP tools are installed with activation of the Advanced Approval Management AI plugin.
--   **[Pricing Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/price-management-reference.md)**  
-Reference topics provide additional information about the Pricing Management group of applications.
+-   **[Components installed with Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-with-pricing-management.md)**  
+Several types of components are installed with activation of the Pricing Management plugin, including tables and user roles.
 -   **[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-reference.md)**  
 Reference topics provide additional information about the Quote Management application.
+-   **[ServiceNow CPQ Quote header fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+Descriptions of the fields available in the quote header in ServiceNow CPQ.
 -   **[Quote creation via Self-Service fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-creation-fields-self-service.md)**  
 Store the main details related to a quote submitted and track the life cycle of the quote through its stages on the self-service quote \(sn\_quote\_mgmt\_core\_quote\) table. Use the fields to manage and store information related to quote creation.
 -   **[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/pss-reference.md)**  

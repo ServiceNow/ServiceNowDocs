@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-set-up-a-runtime-client.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow CPQ admin settings, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
@@ -48,7 +48,7 @@ Runtime clients can be set up that provide a token for authentication of runtime
 
     The expiration date can be changed to extend or shorten the time frame during which this token can be used.
 
-7.  Add a URL, such as `https://<yourLogikUrlName>.<sector>.logik.io` or `*.salesforce.com`, and then click `Add Origin`.
+7.  Add a URL, such as `https://<yourCPQUrlName>.<sector>.cpq` or `*.salesforce.com`, and then click `Add Origin`.
 
     Users must specify the origin of calls made using this token to authenticate. Make sure that the URL has no trailing slash. For example, use \*.salesforce.com and not `*.salesforce.com/`. You can continue adding origins by repeating this step. When all the origins have been entered, click **Save** \(6\).
 

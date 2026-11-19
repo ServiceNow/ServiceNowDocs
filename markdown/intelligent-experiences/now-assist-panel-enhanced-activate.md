@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-panel-enhanced-activate.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-09-26"
 reading_time_minutes: 2
-breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Activate ServiceNow Otto panel enhanced chat
@@ -51,7 +51,7 @@ To learn more about the ServiceNow Otto panel, and how it can assist your agents
 
 ## What to do next
 
-For help with installation, see [Solving installation and configuration issues with ServiceNow AI features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-install-config-checklist.md).
+For help with installation, see [Solving installation and configuration issues with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-install-config-checklist.md).
 
 For examples of the ServiceNow Otto panel in action for ServiceNow Otto applications, see the following topics:
 

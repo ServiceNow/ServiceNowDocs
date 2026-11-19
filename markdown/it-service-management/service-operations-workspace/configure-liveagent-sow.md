@@ -7,8 +7,8 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -26,9 +26,9 @@ When the customer reports an incident through Live Agent \(for example, through 
 
 \[Omitted image "incoming-chat-ims.png"\] Alt text: Live agent chat
 
-After the agent accepts the chat, the Inbox is hidden, allowing the agent to focus on resolving the incident.
+Once the agent accepts the chat, the Inbox is hidden, allowing the agent to focus on resolving the incident.
 
-\[Omitted image "chat-hidden-ims.png"\] Alt text: Active chat
+\[Omitted image "chat-hidden-ims.png"\] Alt text:
 
 For more information about Live Agent chat integration, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/migrate-from-connect-support.md).
 

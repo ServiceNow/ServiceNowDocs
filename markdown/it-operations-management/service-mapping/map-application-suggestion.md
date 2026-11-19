@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -19,14 +19,14 @@ Map a new application service based on automatically generated suggestions. Use 
 ## Before you begin
 
 -   Service Mapping Plus must be installed. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/install-service-mapping-plus.md).
--   Confirm that the application is ready to discover and map application services. See [Application service readiness dashboard in configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/readiness-dashboard-ml.md).
+-   The application must be ready to discover and map application services. See [Application service readiness dashboard in configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/readiness-dashboard-ml.md).
 -   In domain-separated environments, switch to a leaf domain before you map an application service. A leaf domain is a child domain of the lowest level, meaning it does not have any child domains itself.
 
 Role required: service\_mapping\_admin
 
 ## About this task
 
-Along with automatically generated suggestions, you can identify and choose an application service by using Service Fingerprints suggestions. These suggestions include information about the components in the application service candidates. For more information, see [Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/auto-serv-suggest.md).
+Automatically generated suggestions are provided. You can also identify and choose an application service by using Service Fingerprints suggestions, which include information about the components in the application service candidates. For more information, see [Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/auto-serv-suggest.md).
 
 ## Procedure
 
@@ -36,17 +36,17 @@ Along with automatically generated suggestions, you can identify and choose an a
 
     **Note:** Starting with Service Mapping Plus version 1.16.3, the filtering process has been updated to include only the most relevant candidates, excluding any ignored or irrelevant ones. This enhancement requires the installation of ITOM Content Service.
 
-3.  Select an application service either based on candidate suggestions or identify services with desired component.
+3.  Select an application service either based on candidate suggestions or identify services with the desired component.
 
-<table id="sm-auto-sug"><thead><tr><th align="left" id="d540487e165">
+<table id="sm-auto-sug"><thead><tr><th align="left" id="d543316e167">
 
 Search method
 
-</th><th align="left" id="d540487e168">
+</th><th align="left" id="d543316e170">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d540487e174">
+</th></tr></thead><tbody><tr><td id="d543316e176">
 
 **Select from candidates based on a desired component**
 
@@ -57,7 +57,7 @@ Actions
 3.  Select your preferred application service candidate.
 
 
-</td></tr><tr><td id="d540487e201">
+</td></tr><tr><td id="d543316e203">
 
 **Select the candidate using basic details**
 

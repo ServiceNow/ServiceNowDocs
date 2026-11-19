@@ -1,56 +1,49 @@
 ---
 title: Audit Management release notes
-description: The ServiceNow Audit Management application supports activities related to planning audit engagements, executing engagements, and reporting findings to an audit committee. See the following sections for release notes by version.This release streamlines evidence and document collection with a faster request path and adds a consolidated grid view for tracking control tests. It also introduces a native Documents panel for storing, versioning, and controlling access to documents.
+description: The ServiceNow Audit Management application supports activities related to planning audit engagements, executing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Australia release.The ServiceNow Audit Management application supports activities related to planning audit engagements, executing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/grc-audit-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-09-10"
+last_updated: "2026-05-31"
 reading_time_minutes: 1
-breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # Audit Management release notes
 
-The ServiceNow® Audit Management application supports activities related to planning audit engagements, executing engagements, and reporting findings to an audit committee. See the following sections for release notes by version.
+The ServiceNow® Audit Management application supports activities related to planning audit engagements, executing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Australia release.
 
 ## About Audit Management
 
--   Plan and execute audit engagements – Plan engagements, execute them, and report findings to the audit committee and executive board.
--   Assure stakeholders through engagement reporting – Assure key stakeholders that the organization's risk and compliance management strategy is effective.
+-   Improve audit data governance by introducing an audit entry framework that separates audit-specific \(third-line\) records from operational \(second-line\) records with controlled visibility.
 
-See  for more information.
+See [Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/c_GRCAudits.md) for more information.
 
 ## Activation and other requirements
 
--   **Activation information**
-
-    Install Audit Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
+**Important:** Audit Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 **Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/grc-rn-landing.md)
 
-## Version 23.0.2
+## Australia
 
-This release streamlines evidence and document collection with a faster request path and adds a consolidated grid view for tracking control tests. It also introduces a native Documents panel for storing, versioning, and controlling access to documents.
+The ServiceNow® Audit Management application supports activities related to planning audit engagements, executing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Australia release.
 
 ### What's new
 
--   ****
+-   **[Audit entry fields on GRC objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-entry-overview.md)**
 
-    Manage all control tests for an engagement from a single grid on the **Control tests** tab. View test status, assigned auditor, and effectiveness results, create or delete control tests, and request evidence directly from a row without opening each record individually.
+    Classify the following GRC objects as third-line audit records using the new audit entry option:
 
--   **Using Document Management System**
+    -   Entity
+    -   Engagement
+    -   Control objective
+    -   Control
+    -   Risk statement
+    -   Risk
+    Control visibility with role-based access so that only users with the sn\_audit\_ws.third\_line\_manager role can view audit entry \(third-line\) records. The **Audit entry** option is selected by default when the third-line manager creates a record and is set to read-only after the record is saved.
 
-    Store, organize, version, and control access to documents on engagements, control tests, and evidence records with the new Documents panel, alongside the existing Attachments panel. Connect an existing document from Microsoft SharePoint, Microsoft OneDrive, or Google Drive without downloading and re-uploading it.
-
-    Summarize a document or ask questions about its content using generative AI capabilities. Generate a spoken audio summary, directly from the Documents panel without opening the full document.
-
-
-### What's changed
-
--   **Create evidence requests with a two-step process**
-
-    Create evidence requests with a two-step process by selecting the **Skip collection detail** option, which moves the request directly to **Work in Progress** state. It also enables you to add evidence manually without creating an Evidence Collection Details record.
+    **Note:** An administrator must manually assign the sn\_audit\_ws.third\_line\_manager role to a user to use this feature.
 
 

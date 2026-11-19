@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-06"
 reading_time_minutes: 3
-breadcrumb: [PRM AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [PRM AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Deal Registration AI agent

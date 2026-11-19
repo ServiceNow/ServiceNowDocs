@@ -7,7 +7,7 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
@@ -17,6 +17,10 @@ breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibilit
 Create standard, dynamic, and automated playbooks using LEAP to promote fast incident resolution and response time.
 
 ## Before you begin
+
+-   Workflow Studio must be installed
+-   ServiceNow Otto for Creator must be installed and the Playbook generation skill must be enabled for the Creator.
+-   LEAP must be activated. See [Activate LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/activate-aiops-leap.md).
 
 Role required: LEAP admin
 
@@ -30,15 +34,15 @@ Role required: LEAP admin
 
 4.  Select one of the following options to create playbook.
 
-<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d843337e105">
+<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d843404e137">
 
 UI option
 
-</th><th align="left" id="d843337e108">
+</th><th align="left" id="d843404e140">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d843337e114">
+</th></tr></thead><tbody><tr><td id="d843404e146">
 
 **Actions**
 
@@ -46,7 +50,7 @@ Steps
 
 Select Actions button \[Omitted image "actions-icon.png"\], and select **Create Playbook**.
 
-</td></tr><tr><td id="d843337e128">
+</td></tr><tr><td id="d843404e160">
 
 **Ask Otto**
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # AWS CloudWatch MCP server AI agent
@@ -23,7 +23,7 @@ This AI agent automates AWS CloudWatch alert investigations by analyzing alarm d
 2.  Gather context about the alarm and investigate metrics and logs.
 3.  Return findings, including a summary of alarm history, probable causes, and recommended next steps.
 
-For more information about configuring this AI agent, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
+For more information about configuring this AI agent, see [Configure observability tool connections for ITOM AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 <table><thead><tr><th>
 

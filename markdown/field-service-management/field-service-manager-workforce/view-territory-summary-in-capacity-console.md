@@ -7,7 +7,7 @@ release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using the Capacity Console, Capacity, Managing workforce, Use, Field Service Management]
 ---
@@ -18,7 +18,7 @@ The Capacity Console provides a comprehensive summary of territories and demand 
 
 ## Before you begin
 
-Role required: fsm\_adv\_cap\_mgmt.wm\_capacity\_planner, sn\_fsm\_capacity\_mg.wm\_capacity\_write, sn\_fsm\_capacity\_mg.wm\_capacity\_read
+Role required: sn\_fsm\_adv\_cap.wm\_capacity\_planner, sn\_fsm\_capacity\_mg.wm\_capacity\_write, sn\_fsm\_capacity\_mg.wm\_capacity\_read
 
 ## About this task
 
@@ -30,15 +30,15 @@ When you select an event in the calendar or a specific data row, the contextual 
 
 2.  View territory or demand channel summary.
 
-<table id="choicetable_awp_znf_c2c"><thead><tr><th align="left" id="d64528e88">
+<table id="choicetable_awp_znf_c2c"><thead><tr><th align="left" id="d62645e88">
 
 To
 
-</th><th align="left" id="d64528e91">
+</th><th align="left" id="d62645e91">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d64528e97">
+</th></tr></thead><tbody><tr><td id="d62645e97">
 
 **View territory summary grouping by territory**
 
@@ -52,7 +52,7 @@ Do this
 3.  Select an event in the calendar to view the territory summary in the CSP.
 
 
-</td></tr><tr><td id="d64528e137">
+</td></tr><tr><td id="d62645e137">
 
 **View territory summary grouping by demand channel**
 
@@ -62,7 +62,7 @@ Do this
 2.  Select an event under the demand channel associated with the selected territory.
 
 
-</td></tr><tr><td id="d64528e161">
+</td></tr><tr><td id="d62645e161">
 
 **View each demand channel details by territory**
 

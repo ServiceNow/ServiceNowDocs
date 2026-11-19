@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Identity Audit Results, Identity and Access Audit, Identity]
 ---
@@ -29,7 +29,7 @@ To access User Trails, navigate to **All** &gt; **System Security** &gt; **Ident
 |User Name|Name of the user.|
 |User Sys id|The User sys\_id for the audited record.|
 |Source Table|Details about the Source Table where the audit was performed.|
-|Action|Describes the audit action.|
+|Action|Audit action.|
 |Created By|The user who made the change.|
 |Created|The time and date the audit was performed.|
 

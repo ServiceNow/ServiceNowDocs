@@ -23,3 +23,5 @@ You must have the sn\_erp\_integration.erp\_admin role to create and edit models
 -   Update operations use a BAPI, RFC, OData, IDoc, or REST to write updates to the ERP system.
 -   Create operations use a BAPI, RFC, OData, IDoc, or REST to create an instance of the business object in the SAP system.
 
+**Parent Topic:**[Adding an entity to a Zero Copy Connector for ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
+

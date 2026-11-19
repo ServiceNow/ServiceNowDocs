@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Use, ServiceNow AI Lens, Enable AI experiences]
 ---
 
 # Extract and analyze data using ServiceNow AI Lens from Virtual Agent

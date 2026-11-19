@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/ai-native-it-service-desk-landing-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-04-01"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
@@ -44,6 +44,10 @@ Simplified IT Service Management provides an AI-native solution for simplified a
 </table>## Helpful resources
 
 Some ServiceNow resources that can provide you with helpful information are:
+
+-   **\[Omitted image "dcx-icon-docs.svg"\] Alt text: Release Notes**
+
+    Learn more about what's new and changed. See the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ai-native-it-service-desk-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ai-native-it-service-desk-rn.md).
 
 -   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 

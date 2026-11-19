@@ -44,7 +44,7 @@ For the images used in the logo, consider the following:
 
 3.  Complete the fields in the launcher screen table as needed.
 
-    The mandatory fields for this feature are detailed after the table.
+    The mandsatory fields for this feature are detailed after the table.
 
 <table id="table_ob2_jtl_tkc"><thead><tr><th>
 

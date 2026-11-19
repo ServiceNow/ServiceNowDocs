@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/now-assist-for-operational-technology-service-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-23"
 reading_time_minutes: 3
 breadcrumb: [Operational Technology]
 ---

@@ -62,10 +62,10 @@ Configurations are set on a ServiceNow instance.
 
     4.  Select **Submit**.
 
-4.  Grant the user the role of **agent\_client\_collector\_user\_rest**.
+4.  Grant the user the role of **agent\_client\_collector\_user**.
 
-    These credentials are used when enabling an NPVDI agent.
-
+    -   This role enables the **agent\_client\_collector\_user\_rest** rest acl for the user.
+    -   These credentials are used when enabling an NPVDI agent.
 
 ## What to do next
 

@@ -39,11 +39,11 @@ Role required: sn\_ext\_conn.xcc\_admin
 
     1.  In the Users data table, use the **Add file** link to attach the CSV data file from the Users custom report.
 
-        This CSV file includes the contains the User Mapping ID and Assignment Profile ID columns. Data from this file populates the user mapping table for the connector. The connector crawls this table during user permission crawls. AI Search uses the retrieved data to find the original document access restrictions to apply for each search user.
+        This CSV file includes the contains the User Mapping ID and Assignment Profile ID columns. Data from this file populates the user mapping table for the connector. The connector crawls this table during user permissions crawls. AI Search uses the retrieved data to find the original document access restrictions to apply for each search user.
 
     2.  In the Library and assignment profiles data table, use the **Add file** link to attach the CSV data file from the Libraries and assignment profiles custom report.
 
-        This CSV file includes the Library ID and Assignment Profile ID columns. Data from this file links assignment profiles to libraries. The connector crawls this table during user permission crawls. AI Search uses the retrieved links to enforce the original document access restrictions for each search user.
+        This CSV file includes the Library ID and Assignment Profile ID columns. Data from this file links assignment profiles to libraries. The connector crawls this table during user permissions crawls. AI Search uses the retrieved links to enforce the original document access restrictions for each search user.
 
     3.  In the Trainings data table, use the **Add file** link to attach the CSV data file from the Training items custom report.
 
@@ -76,9 +76,9 @@ Your new external content connector appears in the Connectors list on the Extern
 
 ## What to do next
 
-To retrieve searchable content and security principals with your new connector, you need to configure and run content and user mapping crawls for it. You can create content crawls for the connector from the External Content Admin Home page even if you skipped this step during connector creation.
+To retrieve searchable content and security principals with your new connector, you need to configure and run content and user permissions crawls for it. You can create content crawls for the connector from the External Content Admin Home page even if you skipped this step during connector creation.
 
-For details on creating crawls for your new connector, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md) and [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
+For details on creating crawls for your new connector, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md) and [Create a user permissions crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
 
 To make content crawled by your new connector searchable in portals and search applications, you must link one of its search sources to the search profile used by each portal or search application. You can use the connector's default search source or create your own custom search sources.
 

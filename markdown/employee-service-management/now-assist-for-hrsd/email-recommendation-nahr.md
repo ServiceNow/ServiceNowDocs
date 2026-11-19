@@ -7,8 +7,8 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-03-12"
+reading_time_minutes: 6
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
@@ -43,15 +43,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d205956e145">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d206645e151">
 
 Method
 
-</th><th align="left" id="d205956e148">
+</th><th align="left" id="d206645e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d205956e154">
+</th></tr></thead><tbody><tr><td id="d206645e160">
 
 **Compose email from More actions**
 
@@ -64,7 +64,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d205956e205">
+</td></tr><tr><td id="d206645e211">
 
 **Compose an email from Activity stream**
 
@@ -78,15 +78,15 @@ Description
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the ServiceNow Otto \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d205956e262">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d206645e268">
 
 Email message window
 
-</th><th align="left" id="d205956e265">
+</th><th align="left" id="d206645e271">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d205956e274">
+</th></tr></thead><tbody><tr><td id="d206645e280">
 
 **Typed response**
 
@@ -96,7 +96,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d205956e291">
+</td></tr><tr><td id="d206645e297">
 
 **Left blank**
 
@@ -104,7 +104,7 @@ Provides the option to refine your response:-   Elaborate
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d205956e300">
+</td></tr><tr><td id="d206645e306">
 
 **Use template**
 

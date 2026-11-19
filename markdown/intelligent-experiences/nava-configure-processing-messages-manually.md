@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nava-configure-processing-messages-manually.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-06"
 reading_time_minutes: 1
-breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configure processing messages

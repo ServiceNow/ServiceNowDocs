@@ -7,9 +7,9 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
-breadcrumb: [Customizing Desktop Assistant notifications using API parameters, Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Customizing Desktop Assistant notifications using API parameters, Set up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Troubleshoot Desktop Assistant notification delivery
@@ -26,7 +26,7 @@ Role required: admin
 
     1.  Navigate to **All** &gt; **System Definition** &gt; **Tables**.
 
-    2.  Open the Desktop Assistant Notification \[sn\_dex\_desktop\_assistant\_notification\] table and filter for records created within the last hour.
+    2.  Open the Desktop Assistant Notification \(sn\_dex\_desktop\_assistant\_notification\) table and filter for records created within the last hour.
 
     3.  Verify that the notification record is valid.
 
@@ -39,18 +39,16 @@ Role required: admin
         -   The system property **sn\_dex\_desktop.enable\_push\_notification** is set to true.
 2.  Check the notification delivery queue.
 
-    1.  Navigate to **All** &gt; **System Definition** &gt; **Tables** and open the Desktop Assistant Notification Queue \[sn\_dex\_desktop\_notify\_queue\] table.
+    1.  Navigate to **All** &gt; **System Definition** &gt; **Tables** and open the Desktop Assistant Notification Queue \(sn\_dex\_desktop\_notify\_queue\) table.
 
-    2.  Filter for records where the value of the **Notification** column matches the sys\_id of the corresponding notification record.
+    2.  Filter for records where value of the **Notification** column matches the sys\_id of the corresponding notification record.
 
         Each queue record represents a delivery attempt to a single device and can have one of the following statuses:
 
         -   Pending: Queued and not yet delivered to the Desktop Assistant client.
         -   Sent: Retrieved by the Desktop Assistant client.
         -   Failed: Delivery failed due to an Agent Client Collector \(ACC\) agent timeout or push service error.
-    3.  If no queue records exist, verify that the desktop\_assistant\_notification\_call flow is active.
-
-        Notification delivery doesn’t proceed if the flow isn’t triggered.
+    3.  If no queue records exist, verify that the desktop\_assistant\_notification\_call flow is active — notification delivery does not proceed if the flow did not trigger.
 
 3.  Review event processing.
 
@@ -79,13 +77,13 @@ Role required: admin
 
 6.  If the queue status is **Sent** but the user reports no visible notification, validate the endpoint and ACC agent.
 
-    1.  Confirm that the Desktop Assistant client is running and the user is logged in.
+    1.  Confirm that the Desktop Assistant client is running and the user is signed in.
 
     2.  Review the ACC logs to confirm that the agent is running and communicating with the ServiceNow instance.
 
         For information about accessing ACC logs, see [View the Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-view-log.md).
 
-    3.  Open the Desktop Assistant Notification \[sn\_dex\_desktop\_assistant\_notification\] table.
+    3.  Open the Desktop Assistant \(sn\_dex\_desktop\_assistant\_notification\) table.
 
     4.  Filter by **Created** or **Recipient list** to locate the notification record.
 

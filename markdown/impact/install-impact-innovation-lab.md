@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/install-impact-innovation-lab.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Guided Setup \(Legacy\), Configuring Impact, Impact]
+breadcrumb: [Configuring Impact, Impact]
 ---
 
 # Install Impact
@@ -58,7 +58,11 @@ Role required: Any Impact role, admin
 
 ## What to do next
 
-[Impact Guided Setup \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/guided-setup-impact-in-app.md).
+[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/guided-setup-impact-in-app.md).
 
-**Parent Topic:**[Impact Guided Setup \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/guided-setup-impact-in-app.md)
+**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-impact-platform.md)
+
+**Previous topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-impact-platform.md)
+
+**Next topic:**[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/guided-setup-impact-in-app.md)
 

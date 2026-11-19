@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 9
 breadcrumb: [Field settings, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -89,11 +89,13 @@ Option to disable indexing of searchable content from the selected field on reco
     -   **false**: Enable searchable content indexing for the selected field. Search and filters can match the field's value. AI Search generates an index event when the field is updated, adding the affected record to its indexing queue.
 -   Default value: **false**
 
+Consider setting this option for fields that update often but aren't used in searches, such as fields updated by integrations, imports, or business rules. AI Search stops generating an index event only when all fields changed by the update have this option set to **true**.
+
  If you change the value of this setting for an indexed source's field, the new value immediately affects index event generation for updates to that field, but it doesn't affect searches or filters for previously indexed records until you reindex content from the indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/index-single-source-ais.md).
 
  **Warning:** Don't set this option to **true** for the sys\_updated\_on field on the Task \[task\] table, tables that extend Task, or any other tables that you've configured retention policies for. The retention policies for these tables rely on indexing of sys\_updated\_on field values. For more information on retention policies, see [Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/retention-policies-conditions-ais.md).
 
-For Customer Service and Support guidelines on setting the **no\_text\_index** option for different field types, see [KB0859922](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0859922) on the Now Support site.
+For Customer Service and Support guidelines on setting the **no\_text\_index** option for different field types, see [KB0859922](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0859922) and [KB2316618](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2316618) on the Now Support site.
 
 </td></tr><tr><td>
 

@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-spec-mode-work-item-states.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Autonomous Engineer, work item states, plan states, plan dashboard, plan execution, background agent, ATF tests, update set, draft, queued, in progress, needs validation, blocked, cancelled]
 audience: programmer
-breadcrumb: [Reference, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Reference, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Autonomous Engineer plan and work item states

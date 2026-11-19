@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/register-your-instance.html
 release: australia
 topic_type: task
-last_updated: "2026-10-27"
+last_updated: "2026-05-05"
 reading_time_minutes: 2
-breadcrumb: [Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Register your instance
@@ -26,7 +26,7 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\)
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** and open the **My SN Instances** related list tab.
+1.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** and open the **My SN Instances** related list tab.
 
 2.  Select **New** for each instance and populate the following fields.
 
@@ -44,7 +44,7 @@ Instance Name
 
 </td><td>
 
-Must match the `instance_name` system property. To find the value, open `stats.do` in the instance and check the instance name.
+Must match the `instance_name` system property.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Instance URL
 
 </td><td>
 
-`https://instancename.service-now.com` Select the lock icon next to the field to enter the URL.
+`https://instancename.service-now.com`
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Environment
 
 </td><td>
 
-Development, Production, or Test. This value determines which Scan Engine options appear on the instance. Only Development instances show the manual definition sync actions, and only one instance in the stack can be Production.
+Development, Production, or Test.
 
 </td></tr><tr><td>
 
@@ -80,30 +80,14 @@ API Credential Config
 
 </td><td>
 
-Appears when Authentication Type is Basic. Select the Basic authentication record for this instance.
-
-</td></tr><tr><td>
-
-OAuth Application Registry
-
-</td><td>
-
-Appears when Authentication Type is OAuth. Select the OAuth provider registry record.
-
-</td></tr><tr><td>
-
-OAuth User Profile
-
-</td><td>
-
-Appears when Authentication Type is OAuth. Select the OAuth user profile for the integration account.
+The authentication record for this instance.
 
 </td></tr></tbody>
 </table>3.  Promote or export the My SN Instances list to all instances that will use Scan Engine integrations.
 
 4.  On each target instance, open the imported production record and select **Validate Connection**.
 
-    Connection Status updates to `Connection Valid` on success.
+    Connection Status updates to `Connection valid` on success.
 
 
 ## What to do next

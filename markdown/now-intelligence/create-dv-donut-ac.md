@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-dv-donut-ac.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 11
+last_updated: "2026-03-12"
+reading_time_minutes: 10
 keywords: [Create pie report, Create donut visualization, Create semi-donut report, Create pie visualization, Create donut report, Create semi-donut visualization]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -139,7 +139,7 @@ Show refresh option
 
 </td><td>
 
-Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is hidden.
+Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is always hidden.
 
 </td></tr><tr id="ac-dv-show-export-option"><td>
 
@@ -193,24 +193,12 @@ Specify the text color of the title. The default title color is black, but you c
         \[Omitted image "dv-indicator-source-preview.png"\] Alt text: Indicator preview example with visualization example and list of properties including source type, indicator source, indicator type, additional conditions and available breakdowns.
 
     -   Usage Insights \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [Usage Insights data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/uxa-data-sources.md).
-6.  Duplicate the data source.
-
-    1.  Select the data source's More Actions menu \[Omitted image "more-actions-menu-icon.png"\] and choose **Duplicate**.
-
-        \[Omitted image "dv-duplicate-data-source.png"\] Alt text: Data source's More Actions menu with Duplicate selected
-
-    2.  Select the copy of the data source and edit it.
-
-        For example, if the original data source has multiple conditions, you can duplicate it if you want to add more conditions and not lose the original configuration.
-
-    Both the original data source and duplicated and edited data source apply to the visualization.
-
-7.  Select the options for your data source.
+6.  Select the options for your data source.
 
     -   If your visualization represents table data, go to [Table data options for pie and donut visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-dv-donut-table-data.md).
     -   If your visualization represents indicator data, go to [Indicator data options for pie and donut visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-dv-donut-ind-data.md).
     -   If your visualization represents Usage Insights data, go to [Usage Insights data options for pie and donut visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-dv-donut-uxa-data.md)
-8.  Under **Presentation**, provide display and color information.
+7.  Under **Presentation**, provide display and color information.
 
 <table id="table_gvk_2mr_qtb"><thead><tr><th>
 
@@ -333,7 +321,7 @@ Type of color scheme to apply to the component. Options include:
 This option is available only for Table data sources and only if no more than one data source or metric is added, and a Group by is defined.
 
 </td></tr></tbody>
-</table>9.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
+</table>8.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
 
 <table id="table_qnp_d2d_b1c"><thead><tr><th>
 
@@ -349,7 +337,7 @@ Allow chart interaction
 
 </td><td>
 
-Enable an event to occur when a user selects a visualization or one of its segments.
+Enable an event to occur when a user clicks in a visualization or one of its segments.
 
 </td></tr><tr><td>
 
@@ -372,7 +360,7 @@ Choose the event that occurs when a user selects in a visualization or one of it
 **Drill down to chart** supports only table data sources.
 
 </td></tr></tbody>
-</table>10. Select **Save**.
+</table>9.  Select **Save**.
 
     Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** to return to the data visualization list.
 

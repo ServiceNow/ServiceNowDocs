@@ -7,9 +7,9 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Monitor, Digital End-User Experience, IT Operations Management]
 ---
 
 # View actions in the Digital End-User Experience Action Library
@@ -27,10 +27,10 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the Devices icon \[Omitted image "icon-devices.png"\] Alt text: from the primary navigation pane.
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the **Devices** icon\(\[Omitted image "icon-devices.png"\] Alt text: Devices icon\) from the primary navigation pane.
 
 2.  Select a device from the list.
 
-3.  On the contextual side panel, select the Action Library icon \[Omitted image "icon-action-library.png"\] Alt text: to view actions.
+3.  On the contextual side panel, select the Action Library icon \(\[Omitted image "icon-action-library.png"\] Alt text: Action library icon\) to view actions.
 
 

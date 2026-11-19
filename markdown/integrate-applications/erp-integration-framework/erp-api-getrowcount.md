@@ -41,3 +41,5 @@ The same count behavior is available at two lower levels. The query engine expos
 
 For REST services, designating a specific response field as the count is not supported.
 
+**Parent Topic:**[Retrieving data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-retrieving-data.md)
+

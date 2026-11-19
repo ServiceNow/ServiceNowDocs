@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-13"
 reading_time_minutes: 9
 keywords: [AI specialists, autonomous workforce, ai workforce deployment, general guidelines ai specialist, general guidelines ai workforce, general guidelines autonomous workforce, agentic AI guidelines, best practices ai specialist]
-breadcrumb: [Explore, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Explore, Autonomous Workforce, Enable AI experiences]
 ---
 
 # General guidelines for deploying an autonomous workforce

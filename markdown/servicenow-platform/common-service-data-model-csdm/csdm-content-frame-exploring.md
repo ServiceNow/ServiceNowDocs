@@ -7,7 +7,7 @@ release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -66,17 +66,17 @@ The CMDB holds data for several purposes.
     -   Is informed of outages
     -   Request catalog items to be created for the offerings
 -   **Service Desk, Incident Manager, and Change Manager**
-    -   Use the CIs and related service-related data to support and maintain services and CIs
+    -   Use the Cls and related service-related data to support and maintain services and Cls
     -   Support Service Operations
     -   Review and approve changes
     -   Maintain support processes
--   **App Service admin and Technical SMEs**
+-   **App Service Admin and Technical SMEs**
     -   Support, manage, and operate the underpinning technology that services rely on
     -   Subject matter technical experts that create change requests with data from CMDB
 -   **CMDB Manager and Cl Analysts**
     -   Maintain the accuracy and integrity of the CMDB
     -   Work with various SMEs to certify that the data is accurate and aligned to the data model
-    -   Create CIs and own the SACM processes
+    -   Create Cls and own the SACM processes
 
 ## CSDM Community
 
@@ -91,5 +91,5 @@ Following the CSDM guidelines generates significant benefits in impact analysis,
 -   **[CSDM data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)**  
 The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB help to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 
-**Parent Topic:**[Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
+**Parent Topic:**[Common Service Data Model \(CSDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
 

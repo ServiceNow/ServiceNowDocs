@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Employee Center Pro reference, Employee Center Pro, EmployeeWorks, Employee Service Management]
+breadcrumb: [Employee Center Pro reference, Employee Center Pro, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Employee Center Pro widgets

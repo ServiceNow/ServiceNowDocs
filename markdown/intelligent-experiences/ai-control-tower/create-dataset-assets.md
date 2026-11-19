@@ -7,10 +7,10 @@ release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI]
-breadcrumb: [Creating AI assets, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Creating AI assets, Use, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Create dataset assets
@@ -27,9 +27,9 @@ A dataset is a collection of structured or unstructured data that you can use to
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **AI Control Tower**.
+1.  Navigate to **Workspaces** &gt; **Control Tower**.
 
-2.  From the AI Control Tower, open the AI assets view.
+2.  From Control Tower, open the AI assets view.
 
 3.  From the navigation menu of the AI assets view, navigate to either **AI asset inventory - Managed** &gt; **Datasets** or **AI asset inventory - Unmanaged** &gt; **Datasets**.
 

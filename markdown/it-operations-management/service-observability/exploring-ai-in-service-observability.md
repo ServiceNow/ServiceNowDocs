@@ -7,7 +7,7 @@ release: australia
 product: Service Observability
 classification: service-observability
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-02"
 reading_time_minutes: 1
 keywords: [generative AI, Service Observability, analyze dashboard, analyze service health]
 breadcrumb: [Service Observability, ITOM AIOps, IT Operations Management]

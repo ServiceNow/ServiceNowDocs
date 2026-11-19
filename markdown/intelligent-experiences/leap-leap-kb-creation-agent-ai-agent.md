@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-05"
 reading_time_minutes: 1
-breadcrumb: [AIOps and Leap AI agents, AIOps and AIOps Leap, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [AIOps and Leap AI agents, AIOps and AIOps Leap, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # LEAP KB Creation Agent AI agent

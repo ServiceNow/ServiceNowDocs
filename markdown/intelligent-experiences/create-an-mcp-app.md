@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-an-mcp-app.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-30"
 reading_time_minutes: 1
 keywords: [MCP apps]
-breadcrumb: [Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [Configure, MCP Server Console, Enable AI experiences]
 ---
 
 # Create an MCP app

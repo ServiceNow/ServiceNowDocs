@@ -7,9 +7,9 @@ release: australia
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Customer or Consumer Service Portal, Customer self service, Use, Field Service Management]
+breadcrumb: [Customer self service, Use, Field Service Management]
 ---
 
 # Track the current location of agents from email or SMS notifications

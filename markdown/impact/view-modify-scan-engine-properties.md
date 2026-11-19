@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/view-modify-scan-engine-properties.html
 release: australia
 topic_type: task
-last_updated: "2026-09-29"
-reading_time_minutes: 3
+last_updated: "2026-08-21"
+reading_time_minutes: 4
 keywords: [scan engine definitions, customize, active, override]
-breadcrumb: [Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Customize Scan Engine definitions
@@ -17,7 +17,17 @@ You can modify an existing definition to further customize and refine its scanni
 
 ## Pre-defined definitions
 
-There are various types of definitions available as a baseline in the Impact Scan Engine. For a complete list of category definitions and their weights in the Instance Health Score, see [Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/scan-engine-definitions.md).
+There are various types of definitions available as a baseline in the Impact Scan Engine.
+
+|Category|Description|
+|--------|-----------|
+|Security|Measures implementation of protocols across a ServiceNow instance to prevent unauthorized access, data breaches, cyber attacks, and potential vulnerabilities.|
+|Performance|Measures the efficiency of a ServiceNow instance, encompassing aspects such as speed, responsiveness, resource utilization, and overall dependability.|
+|Manageability|Measures the extent to which ServiceNow instances, applications, or infrastructure can be effectively monitored, configured, and maintained.|
+|Upgradeability|Assesses the ease of enhancing a ServiceNow instance or application with new features, improvements, security patches, or compatibility adjustments.|
+|User Experience|Evaluates the quality of user interactions with applications. Considers the ease of use, efficiency, design, responsiveness, accessibility, and its emotional and functional impact.|
+
+For more information, see [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md).
 
 ## Before you begin
 
@@ -54,7 +64,7 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\).
 
     Related lists appear at the bottom of the definition screen.
 
-<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d60975e202">
+<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d56441e288">
 
 **Applicable Tables**
 
@@ -75,7 +85,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
     -   **Conditions**: Defines the conditions that table records must meet to be scanned.
 
 
-</td></tr><tr><td id="d60975e267">
+</td></tr><tr><td id="d56441e353">
 
 **Findings For This Definition**
 
@@ -83,7 +93,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
 
 Displays any findings, as established by the definition, found during on-demand or scheduled scans.
 
-</td></tr><tr><td id="d60975e276">
+</td></tr><tr><td id="d56441e362">
 
 **Resolved Finding Histories**
 
@@ -91,7 +101,7 @@ Displays any findings, as established by the definition, found during on-demand 
 
 Shows findings that were resolved for this definition.
 
-</td></tr><tr><td id="d60975e285">
+</td></tr><tr><td id="d56441e371">
 
 **Scan Engine Suites**
 

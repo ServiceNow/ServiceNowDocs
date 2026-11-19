@@ -7,7 +7,7 @@ release: australia
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Working with SRM services, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -45,15 +45,15 @@ When you add a technology management service to SRM, you also add its offerings.
 
 3.  In the Add services for your teams modal, you can either create a service or add existing services.
 
-<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d486742e166">
+<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d489010e166">
 
 Option
 
-</th><th align="left" id="d486742e169">
+</th><th align="left" id="d489010e169">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d486742e175">
+</th></tr></thead><tbody><tr><td id="d489010e175">
 
 **Create a new service**
 
@@ -64,7 +64,7 @@ Steps
 3.  Select **Next**.
 
 
-</td></tr><tr><td id="d486742e213">
+</td></tr><tr><td id="d489010e213">
 
 **Select existing services**
 

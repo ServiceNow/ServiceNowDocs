@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quot
 release: australia
 topic_type: reference
 last_updated: "2026-05-07"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Layouts, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -196,6 +196,8 @@ uiEffect:
   type: exportLines
 variableName: exportLines
 ```
+
+**Parent Topic:**[Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-layouts.md)
 
 **Related topics**  
 

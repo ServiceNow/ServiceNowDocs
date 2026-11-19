@@ -5,22 +5,31 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/now-assist-for-healthcare-and-life-sciences.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Healthcare and Life Sciences]
 ---
 
 # ServiceNow Otto for Care Team Operations
 
 Use the ServiceNow Otto for Care Team Operations application to create support requests in Care Team Mobile or Care Team Portal.
 
-## ServiceNow Otto capabilities in Healthcare Operations
+## Get started
 
-Each Healthcare Operations application documents its own ServiceNow Otto capabilities alongside its other features, rather than as a separate section. For an application's AI capabilities, see:
+<table id="table_z22_2ph_5hc" class="nav-card presentation"><tbody><tr><td>
 
--   [AI in Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hco-otto-landing.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore the ServiceNow Otto for Care Team Operations application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/exploring-now-assist-hcls.md)
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+</td><td>
+
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure the ServiceNow Otto for Care Team Operations application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/configuring-now-assist-hcls.md)
+
+</td><td>
+
+[Create support requests\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the agentic workflow to create support requests in Care Team Mobile or Care Team Portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hcls-agentic-ai-use-cases.md)
+
+</td></tr></tbody>
+</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## AI limitations
 

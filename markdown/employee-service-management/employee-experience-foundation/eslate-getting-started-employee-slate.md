@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 4
 keywords: [employee communications, announcements, content library, employee slate, chat promotion, quick start, setup flow, home page configuration, organization chart, employee profile, notifications, conversational catalog, AI widget builder, role-based home page cards, analytics and reporting]
-breadcrumb: [Configuration flow, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configure, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Get started with EmployeeWorks Web App
@@ -33,9 +33,9 @@ EmployeeWorks supports two deployment paths — one with Moveworks and one with 
     -   For Now Assist deployment path, install EmployeeWorks Web App for Now Assist and EmployeeWorks Web App Extended.
     **Note:** EmployeeWorks Web App Extended is an add-on application and requires either EmployeeWorks Web App for Moveworks or EmployeeWorks Web App for Now Assist to be separately downloaded.
 
-2.  [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
+2.  [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/eslate-config-admin-console.md).
 
-    Set the portal name, URL suffix, logos, favicon, and palette colors. Configure from the **Appearance** module of the **Product Configuration console** or the **admin console**. Optionally, [Configure additional themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/es-configure-multi-theme.md).
+    Set the portal name, URL suffix, logos, favicon, and palette colors. Configure from the **Appearance** module of the **Product Configuration console** or the **admin console**. Optionally, [Configure additional themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/es-configure-multi-theme.md).
 
 3.  [Configure tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-slate-tasks-requests.md).
 
@@ -53,7 +53,7 @@ EmployeeWorks supports two deployment paths — one with Moveworks and one with 
 
 9.  [Configure the Upcoming Holiday widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-upcoming-holiday.md).
 
-10. Connect the assistant and configure chat branding in [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
+10. Connect the assistant and configure chat branding in [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/eslate-config-admin-console.md).
 
 11. [Configure browse experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.md)
 
@@ -82,5 +82,5 @@ https://<instance-name>.service-now.com/aiux/employeeslate/home
 
 ## What to do next
 
-You can go to [EmployeeWorks home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-slate-home-page.md).
+You can go to [Configure EmployeeWorks home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/emp-slate-home-page.md).
 

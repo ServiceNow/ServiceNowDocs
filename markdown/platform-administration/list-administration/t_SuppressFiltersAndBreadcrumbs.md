@@ -9,7 +9,7 @@ classification: list-administration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Restrict filters and breadcrumbs with fixed queries, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Restrict filters and breadcrumbs, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Suppress filters and breadcrumbs with list controls
@@ -24,17 +24,12 @@ Role required: personalize\_control
 
 1.  Navigate to the list view of the table to restrict breadcrumbs.
 
-2.  Open list control by performing the appropriate action for the list version.
-
-    |Version|Action|
-    |-------|------|
-    |**List v2**|Right-click any column header and select **Configure** &gt; **List Control**.|
-    |**List v3**|Open the list title menu and select **List Control**.|
+2.  Select and hold \(or right-click\) any column header and select **Configure** &gt; **List Control**.
 
     You can also navigate to **System UI** &gt; **List Control**.
 
-3.  On the List Control form, select the **Omit Filters** check box, or clear the check box to include filters.
+3.  On the List Control form, select the **Omit filters** check box, or clear the check box to include filters.
 
-    The **Filter Roles** field allows an administrator to specify certain roles that can see the filters.
+    Use the **Filter roles** field to specify the roles that can see the filters.
 
 

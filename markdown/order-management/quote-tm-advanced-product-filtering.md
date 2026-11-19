@@ -47,3 +47,8 @@ Product filter rules that reference managed tables do not need to be redeployed 
 
 **Note:** Any change made to a product filter rule itself — not just the referenced table data — must be redeployed for it to take effect.
 
+-   **[Create a product filter rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-product-filter-rule.md)**  
+Create a product filter rule in ServiceNow CPQ to dynamically include or exclude products from the quote catalog based on managed table data and transaction context.
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
+

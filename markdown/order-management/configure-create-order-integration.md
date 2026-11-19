@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-create-order-integration.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-07"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -66,6 +66,8 @@ The **Create Order** button is available on the quote layout for the stages you 
 ## What to do next
 
 After you deploy the blueprint, configure the quote-to-order field mapping to define how quote data maps to the resulting order.
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ Discovery doesn't run on converted application services, because converted servi
 
 You can convert business services into application services of the manually created type or of the dynamic type. You can edit manually created application services by adding or removing CIs at any time. The system does not update manually created services automatically. If there are changes to CIs making up a manually created application service, the service does not automatically reflect it.
 
-Dynamic services are updated automatically to reflect any change to CI relationships stored in the CMDB CI Relationship \[cmdb\_rel\_ci\] table. When you add a relationship to a CI that is contained in a dynamic service, then that service automatically updates to reflect the addition of the relationship and the associated new CI. In a similar manner, a dynamic service automatically updates upon the removal of a relationship and its associated CI from a CI within the service.
+Dynamic services are updated automatically to reflect any change to CI relationships stored in the CMDB CI Relationship \[cmdb\_rel\_ci\] table. When you add a relationship to a CI in a dynamic service, that service automatically updates to include the new relationship and associated CI. In a similar manner, a dynamic service automatically updates upon the removal of a relationship and its associated CI from a CI within the service.
 
 To learn more about different types of application services, see [application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
@@ -147,7 +147,7 @@ Select this check box to convert the business service into an application servic
     4.  Click the **Affected CIs** tab and then click **Add** to add an affected CI to the change request.
     5.  Open the form context menu and select **Refresh Impacted Services**.
     6.  Click the **Impacted Services/CIs** tab to see any dynamic services that are associated with the affected CI and that are impacted by the change request.
-    For more information about affected CIs on a change request, see Associated CIs on a change request.
+    For more information about affected CIs on a change request, see [Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_AffectedCIsAndImpactedServices.md).
 
 
 ## Convert an individual business service to an application service

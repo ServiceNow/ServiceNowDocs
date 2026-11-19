@@ -33,7 +33,7 @@ The hostname for an instance's ingest gateway host is stored as the value of the
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `sys_properties.list`.
+    2.  In the navigation filter, enter `sys_properties.list`.
 
     3.  Press Enter.
 

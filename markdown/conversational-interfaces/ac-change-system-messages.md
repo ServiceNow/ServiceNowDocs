@@ -7,7 +7,7 @@ release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Change, Virtual Agent, Agent Chat, system, messages, customize, default]
 breadcrumb: [General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
@@ -36,7 +36,7 @@ Use **System messages** in Chat Settings to change the properties that control s
 
 2.  Under **System messages**, select **View All**.
 
-3.  In the System Messages list, select the property record for the message you want to change.
+3.  In the System Messages list, select the property record for the message you need to change.
 
 4.  In the **Value** field, enter the new message text and select **Save**.
 

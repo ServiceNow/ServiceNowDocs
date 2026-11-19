@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-proactiveengagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
-reading_time_minutes: 4
+last_updated: "2026-11-19"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -96,7 +96,7 @@ Engage employees through ServiceNow® Virtual Agent and configure Engagement set
 View and manage the life cycle of Proactive Engagement resolutions through the workbench.
 
 
--   **[\[Placeholder link text to key use-cases\]](https://www.servicenow.com/docs/access?context=use-cases&family=xanadu&ft:locale=en-US)**
+-   **[use cases](https://www.servicenow.com/docs/access?context=use-cases&family=xanadu&ft:locale=en-US)**
 
 Explore and utilise the different use cases ServiceNow® has to offer as part of the Proactive Engagement base system.
 
@@ -285,7 +285,7 @@ Install Proactive Engagement by requesting it from the ServiceNow Store. Activat
 -   DEX Application and Device Health \(sn\_dex\)
 -   Glide Virtual Agent \(com.glide.cs.chatbot\)
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes.](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US)
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes.](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html)
 
 </td></tr><tr><td>
 

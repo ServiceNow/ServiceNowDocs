@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 5
 keywords: [Alibaba, cloud, Discovery, Service Mapping, Patterns, CMDB]
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -21,10 +21,10 @@ Alibaba Cloud discovery is one of the overall Cloud discovery offerings within t
 
 Using Discovery and Service Mapping Patterns to perform horizontal discovery enables you to find and map your organization's Alibaba Cloud resources. You can discover Alibaba Cloud metadata including:
 
--   Cloud service accounts.
--   Datacenters.
--   Availability zones.
--   Hardware types.
+-   Cloud service accounts
+-   Datacenters
+-   Availability zones
+-   Hardware types
 
 Patterns also support OS level discovery, for example OS images.
 
@@ -78,7 +78,7 @@ admin
 
 Install the store applications and update them on every store release:-   Discovery
 -   Discovery and Service Mapping Patterns
--   Visibility content.
+-   Visibility content
 -   CMDB CI Class Models
 -   Discovery Admin Workspace
 
@@ -96,8 +96,8 @@ admin
 
 </td><td>
 
--   Create a MID Server user.
--   Assign the MID Server role to the user.
+-   Create a MID Server user
+-   Assign the MID Server role to the user
 
 </td><td>
 
@@ -113,7 +113,7 @@ admin, mid\_server
 
 </td><td>
 
-Install a MID Server.
+Install a MID Server
 
 </td><td>
 
@@ -131,7 +131,7 @@ admin
 
 </td><td>
 
-Validate that the MID Server is installed correctly.
+Validate that the MID Server is installed correctly
 
 </td><td>
 
@@ -147,11 +147,11 @@ admin
 
 </td><td>
 
-Assigning users with discovery\_admin roles and giving them permission for discovery.
+Assign users with discovery\_admin roles and give them permission for discovery
 
 </td><td>
 
-[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md)
+
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ discovery\_admin
 
 </td><td>
 
-Creating Alibaba Cloud service accounts
+Create Alibaba Cloud service accounts
 
 </td><td>
 
@@ -179,7 +179,7 @@ The person configuring the API credentials must have the discovery\_admin role i
 
 </td><td>
 
-Configuring Alibaba Cloud API credentials
+Configure Alibaba Cloud API credentials
 
 </td><td>
 

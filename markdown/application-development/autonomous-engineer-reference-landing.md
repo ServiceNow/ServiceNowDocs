@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/autonomous-engineer-reference-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-08"
+last_updated: "2026-11-09"
 reading_time_minutes: 2
 keywords: [Autonomous Engineer, Build Agent, reference, work item states, agent packs, supported capabilities, plan dashboard]
 audience: programmer
-breadcrumb: [Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Autonomous Engineer reference
@@ -24,11 +24,11 @@ For a list of work item states and their definitions, see [Autonomous Engineer p
 
 ## Agent packs
 
-Autonomous Engineer uses agent packs with product-specific domain knowledge to run implementations. For details on available agent packs, see [Agent packs for Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Autonomous Engineer uses agent packs with platform knowledge to run implementations. For details on agent packs, see [Agent packs for Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 ## Limitations
 
-For information on limitations that apply to Autonomous Engineer and Build Agent, see [Build Agent limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-limitations.md).
+For information on limitations that apply to Autonomous Engineer and Build Agent, see [Build Agent limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-limitations.md).For limitations that apply when Autonomous Engineer runs, see [Autonomous Engineer limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-limitations.md).
 
 ## Related reference
 

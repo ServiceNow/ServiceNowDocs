@@ -7,7 +7,7 @@ release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Setting up AWS cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -26,4 +26,9 @@ Shared root email account benefits:
 
 1.  The app dynamically appends a request ID \(for example, CWSAREQ0000002\) to a predefined root email address \(`aws-ccoe@mycompany.com`\). This process creates a unique email address for each account in a structured format \(`aws-ccoe+CWSAREQ0000002@mycompany.com`\).
 2.  After the account is provisioned, AWS sends emails in this format that are received at a central email account `aws-ccoe@mycompany.com`.
+
+-   **[Set up and verify root email in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/aws-setup.md)**  
+Create a unique email address to manage several accounts. Having multiple accounts and emails can be a significant challenge for an AWS admin. A single AD email for multiple AWS accounts simplifies management.
+
+**Parent Topic:**[Setting up AWS cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/setting-up-aws-cloud.md)
 

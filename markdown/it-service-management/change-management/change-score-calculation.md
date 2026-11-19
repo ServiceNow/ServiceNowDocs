@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Change success score, Configure, Change Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ To calculate the success score, formula indicators are provided. These indicator
 
 You can view the Change success score formula indicators in Performance Analytics under the indicator group **Change success score - multipliers**.
 
-The following table lists the default multipliers used in the success score calculation.
+Review the following table to understand the default multipliers used in success score calculation.
 
 |Automated indicator|Multiplier applied by formula indicator|
 |-------------------|---------------------------------------|

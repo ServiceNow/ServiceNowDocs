@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-cost-book-lines.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.price
 
 ## Procedure
 
-1.  In the CRM Workspace, access the cost book to which you're adding a cost book line.
+1.  In the CSM Configurable Workspace, access the cost book to which you're adding a cost book line.
 
     1.  Select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 

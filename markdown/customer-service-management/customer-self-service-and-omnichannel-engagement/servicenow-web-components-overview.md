@@ -1,20 +1,20 @@
 ---
 title: ServiceNow components
-description: ServiceNow components are reusable building blocks that enable you to simplify the process of adding functionality to any website. You can clone components and customize them using a low-code approach.
+description: Use reusable ServiceNow components to add functionality to any website. Clone prebuilt components and customize them with a low-code approach.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/servicenow-web-components-overview.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Update or create web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # ServiceNow components
 
-ServiceNow components are reusable building blocks that enable you to simplify the process of adding functionality to any website. You can clone components and customize them using a low-code approach.
+Use reusable ServiceNow components to add functionality to any website. Clone prebuilt components and customize them with a low-code approach.
 
 The following are the prebuilt components that you can configure and embed on your third-party website.
 

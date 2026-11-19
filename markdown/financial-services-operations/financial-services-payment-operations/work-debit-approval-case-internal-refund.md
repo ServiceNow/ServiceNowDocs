@@ -7,7 +7,7 @@ release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Work on a claim with an internal refund, Managing payment claims and debit approvals, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -39,15 +39,15 @@ If there's a Customer or Consumer Service Portal available for customers, they g
 
 3.  Open the debit approval payment service case from a claim case or from the Debit Approvals list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d135816e110">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d132845e110">
 
 Option
 
-</th><th align="left" id="d135816e113">
+</th><th align="left" id="d132845e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d135816e119">
+</th></tr></thead><tbody><tr><td id="d132845e119">
 
 **From a claim case**
 
@@ -58,7 +58,7 @@ Steps
 3.  In the **Debit approval** field on the claim form, click the information icon \(\[Omitted image "information-icon.png"\] Alt text: Information icon\) next to the debit approval case number.
 
 
-</td></tr><tr><td id="d135816e158">
+</td></tr><tr><td id="d132845e158">
 
 **From the Debit Approvals list**
 

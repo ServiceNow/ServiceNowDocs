@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-logik-io-scripting-language-reference.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -314,12 +314,12 @@ else{
   console.log(fieldMapping);
   for (var row of fieldMapping) {
  		cfgRequest[row.trueBoolean].set("value",true);
- 		cfgRequest[row.quantityTest].set("value",row.rowQuantity);
+ 		cfgRequest[row.quantityTest].set("value",row.rowQuantity);ea
   }
 } 
 ```
 
-If your instance of ServiceNow CPQ needs functionality not described here, contact support@logik.io with your use case.
+If your instance of ServiceNow CPQ needs functionality not described here, create a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 **Related topics**  
 

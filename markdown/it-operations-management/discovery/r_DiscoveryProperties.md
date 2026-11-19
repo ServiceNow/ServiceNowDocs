@@ -1,20 +1,20 @@
 ---
 title: Discovery properties
-description: Discovery properties enable you to control several aspects of the horizontal discovery process.
+description: Discovery properties allow you to control several aspects of the horizontal discovery process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r\_DiscoveryProperties.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 30
+last_updated: "2026-03-12"
+reading_time_minutes: 31
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery properties
 
-Discovery properties enable you to control several aspects of the horizontal discovery process.
+Discovery properties allow you to control several aspects of the horizontal discovery process.
 
 For information about the Discovery properties that Agent Client Collector uses, see [Using push-based and horizontal IP-based Discovery together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/using-enhanced-discovery-and-agent-less-discovery-together.md).
 
@@ -610,7 +610,7 @@ glide.discovery.hostname.snmp\_trusted
 </td><td>
 
 SNMP is trusted host name source: If set to **true**, trust the device name discovered via SNMP. If checked, any device name found via SNMP is used instead of the name found by a reverse DNS lookup. -   Type: true \| false
--   Default value: false \(For new Discovery customers starting in Brazil, default value is true.\)
+-   Default value: false \(For new Discovery customers starting in Australia, default value is true.\)
 
 </td></tr><tr><td>
 
@@ -621,7 +621,7 @@ glide.discovery.hostname.ssh\_trusted
 SSH is trusted host name source: If set to **true**, trust the device name discovered via SSH. If checked, any device name found via SSH is used instead of the name found by a reverse DNS lookup.**Note:** For Linux, AIX, and Solaris patterns, do not use the DNS name as the host name.
 
 -   Type: true \| false
--   Default value: false \(For new Discovery customers starting in Brazil, default value is true.\)
+-   Default value: false \(For new Discovery customers starting in Australia, default value is true.\)
 
 </td></tr><tr><td>
 
@@ -630,7 +630,7 @@ glide.discovery.hostname.wmi\_trusted
 </td><td>
 
 WMI is trusted host name source: If set to **true**, trust the device name discovered via WMI. If checked, any device name found via WMI is used instead of the name found by a reverse DNS lookup.-   Type: true \| false
--   Default value: false \(For new Discovery customers starting in Brazil, default value is true.\)
+-   Default value: false \(For new Discovery customers starting in Australia, default value is true.\)
 
 </td></tr><tr><td>
 
@@ -652,7 +652,7 @@ IP service affinity: If set to **true**, IP service affinity is enabled. IP serv
  **Note:** You must enable ip\_service\_affinity records if you’re using multiple SSH ports.
 
  -   Type: true \| false
--   Default value: false \(For new Discovery customers starting in Brazil, default value is true.\)
+-   Default value: false \(For new Discovery customers starting in Australia, default value is true.\)
 -   Learn More: [Check IP service affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CheckIPServiceAffinity.md)
 
 </td></tr><tr><td>
@@ -1205,6 +1205,7 @@ sn\_disco\_workspace.enable\_error\_framework
 
 Discovery Admin Workspace: Controls whether the Error Framework is active for Discovery. When set to **true**, Discovery uses the Error Framework to capture and display errors in Discovery Admin Workspace. When set to **false**, Discovery uses the legacy Diagnostics experience.-   Type: true \| false
 -   Default value: true
+-   Learn more: [Error Framework in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/error-framework-daw.md)
 
 </td></tr><tr><td>
 

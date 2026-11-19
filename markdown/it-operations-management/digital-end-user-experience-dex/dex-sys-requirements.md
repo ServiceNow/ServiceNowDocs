@@ -1,26 +1,30 @@
 ---
 title: DEX system requirements
-description: System requirements are the fundamental specifications and configuration needed to install and run DEX.
+description: System requirements are the fundamental specifications and configuration needed to install and run DEX effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/dex-sys-requirements.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-10-22"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Before you begin, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # DEX system requirements
 
-System requirements are the fundamental specifications and configuration needed to install and run DEX.
+System requirements are the fundamental specifications and configuration needed to install and run DEX effectively.
 
-Zurich Patch 1 is the minimum version required for Digital End-User Experience \(DEX\).
+Vancouver Patch 6 is the minimum version required for DEX.
+
+## Supported ACC versions
+
+DEX supports Agent Client Collector Framework \(ACC-F\) versions 3.4.1 and 3.5.1.
 
 ## DEX browser extension requirements
 
-The minimum required browser versions for DEX browser extension are Google Chrome 114 or later and Microsoft Edge version 96 or later.
+The minimum required browser versions for DEX browser extension are Google Chrome 114 or higher, and Microsoft Edge version 96 or higher.
 
 ## Operating system compatibility
 
@@ -39,11 +43,11 @@ DEX is compatible with the following operating systems:
 
 ## CPU consumption
 
-Digital End-User Experience \(DEX\) uses approximately 1% average CPU for both Windows and macOS devices.
+Digital End-User Experience \(DEX\) utilizes approximately 1% average CPU consumption for both Windows and macOS devices.
 
 ## CPU protection threshold
 
-When an agent meets the configured thresholds specified in the agent's `acc.yml` file, it enters CPU protection mode, either for an individual check or for all checks. For more information about the CPU protection threshold, see [Agent Client Collector CPU protection thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-set-silent-reference.md)
+When an agent meets the configured thresholds specified in the agent's `acc.yml` file, it enters CPU protection mode, either for an individual check or for all checks. For more information on the CPU protection threshold see, [Agent Client Collector CPU protection thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-set-silent-reference.md)
 
 **Note:** Configure the ACC CPU Protection Threshold to 20% for DEX deployments.
 

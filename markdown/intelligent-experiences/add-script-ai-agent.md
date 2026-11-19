@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-script-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-09-17"
 reading_time_minutes: 2
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Add a script to an AI agent

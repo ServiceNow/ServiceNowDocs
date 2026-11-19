@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 1
 breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -27,7 +27,7 @@ Learn the process of binding Configuration Items \(CIs\) to alerts. This include
 
     -   Yes: If a node value is provided, Event Management searches the CMDB for a matching host.
     -   No: If no node is found, the system attempts to bind the alert using other available details, such as:
-        -   Alert Type
+        -   CI Type
         -   Additional Information
         -   CI Identifier
     **Note:** For Kubernetes CIs and other non-host CIs, use an event rule with CI field matching instead of relying only on the Node value. Kubernetes CIs follow the same binding approach as other non-host CIs.
@@ -56,4 +56,6 @@ Learn the process of binding Configuration Items \(CIs\) to alerts. This include
 
 
 **Note:** To specify multiple statuses, separate each status number with a comma.
+
+To enrich alerts by identifying the CI or extracting, composing, or tagging alert fields, you can also create an enrich automation in Service Operations Workspace. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/enrich-alert-sow-itom.md).
 

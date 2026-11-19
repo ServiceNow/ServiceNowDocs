@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-29"
 reading_time_minutes: 8
 keywords: [MCP Server, Service Mapping, Claude, Model Context Protocol, AI assistant, application service topology, MCP Server Console, CMDB MCP Server]
 breadcrumb: [AI in Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]

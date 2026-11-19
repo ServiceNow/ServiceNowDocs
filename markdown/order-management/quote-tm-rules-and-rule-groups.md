@@ -245,3 +245,10 @@ For rules to execute on a quote, an administrator must associate a rule grouping
 
 For information about creating a rule grouping and associating rules with it, see [Create a transaction rule grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-rule-grouping.md).
 
+-   **[Create a transaction rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-rule.md)**  
+Create a rule in ServiceNow Quote Experience to define conditions and actions that control field behavior and layout presentation on a quote in ServiceNow CPQ.
+-   **[Create a transaction rule grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-rule-grouping.md)**  
+Create a rule grouping to bundle rules together for assignment to stages and events in ServiceNow CPQ.
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
+

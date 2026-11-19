@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Enable and use AI agents to examine agent behavior through the Agent Client Coll
 
 ## Before you begin
 
--   Ensure that the ServiceNow Otto panel is enabled on your instance. For details, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   Ensure that the ServiceNow Otto panel is enabled on your instance. For details, see .
 -   Ensure that ServiceNow Otto for IT Operations Management \(ITOM\) is installed on your instance. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-now-assist-itom.md).
 -   Enable the Agent Client Collector diagnostic workflow in AI Agent Studio.
     1.  Select **All** &gt; **AI Agent Studio** &gt; **Create and manage**.

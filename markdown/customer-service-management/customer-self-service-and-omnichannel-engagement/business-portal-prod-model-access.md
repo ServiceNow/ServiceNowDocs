@@ -9,7 +9,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Limit access to product model data on the Business and Consumer Portal
@@ -33,13 +33,11 @@ When set to true, the system uses the setting in the **Customer Visible** field 
 
 The Model Categories table \(cmdb\_model\_category\) does not have a **Customer Visible** field. Access to model categories data is restricted by using the **Customer Visible** field on the Product Model table. Only the categories for the products which are visible in the Product Model table will be visible in the Model Categories table.
 
-For upgrades from Jakarta to madrid, the **Customer Visible** field is added to each record in the Product Models table and set to false.
-
 To limit access:
 
 1.  Set the **csm\_cmdb\_model.customer\_visible\_flag** system property to true.
 2.  Customize the Product Models table \(cmdb\_model\) and add the **Customer Visible** column.
 3.  Set the value of the **Customer Visible** field to true for the product models that should be visible to external customers.
 
-External users can see these product using these product models if the products are linked to the customer account.
+External users can access products associated with their customer account, provided the corresponding product models have the Customer Visible field set to true.
 

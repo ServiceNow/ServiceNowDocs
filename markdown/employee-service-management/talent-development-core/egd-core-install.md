@@ -7,7 +7,7 @@ release: australia
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Installing and configuring the Talent Development Core app, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -27,7 +27,7 @@ Dependent plugins and apps for Talent Development:
 
 -   [Install Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-ec-pro.md)
 
-Role required: admin
+Role required: sn\_egd\_core.admin
 
 ## About this task
 

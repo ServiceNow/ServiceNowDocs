@@ -16,29 +16,31 @@ breadcrumb: [Configuring Interaction Management, Interaction Management, Manage 
 
 Interaction wrap up provides agents with a brief wrap-up period at the end of customer conversations. Agents can use this time to complete their work before moving on to assist other customers.
 
-Interaction wrap up is a feature available for all types of interactions. When enabled, an interaction record moves from the Work in Progress state to the Wrap Up state at the end of a customer conversation. This brief, configurable period enables agents to complete tasks such as posting work notes and updating record information before moving on to other work items.
+Interaction wrap up is a feature available for all types of interactions. When enabled, an interaction record moves from the **Work In Progress** state to the **Wrap Up** state at the end of a customer conversation. This brief, configurable period enables agents to complete tasks such as posting work notes and updating record information before moving on to other work items.
 
-While in the Wrap Up state, an agent's capacity is not reduced until the state of the interaction moves to Closed Complete.
+While in the Wrap Up state, an agent's capacity is not reduced until the state of the interaction moves to **Closed Complete**.
 
 **Note:** The interaction wrap up feature works with multiple types of communication channels. This feature supports chat and messaging interactions in the base system.
 
-You can also use AI interaction wrap up to generate wrap up content for an interaction, such as the wrap up code and notes.
+You can also use [AI interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-ai-generated.md) to generate wrap up content for an interaction, such as the wrap up code and notes.
 
-## Configuring interaction wrap up
+## Interaction wrap up configuration
 
-Users with the system administrator role [create an interaction wrap up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md) for the desired communication channel. Creating a configuration automatically enables the feature and the Wrap Up state for interactions that match the configuration settings.
+Users with the system administrator role can create the configuration for the desired communication channel. For more information, see [Interaction wrap up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md). Creating a configuration automatically enables the feature and the Wrap Up state for interactions that match the configuration settings.
 
 The interaction wrap up configuration includes the following information:
 
 -   The selected communication channel.
 -   Additional conditions that apply to the interaction records included in the configuration.
--   Whether wrap up is automatically ended by the system and, if automatically ended, the duration of the wrap up period.
--   Whether a countdown timer that displays the wrap up duration is shown to agents in CRM Workspace.
+-   Whether wrap up is automatically ended by the system and, if automatically ended the duration of the wrap up period.
+-   Whether a countdown timer that displays the wrap up duration is shown to agents in CSM Configurable Workspace.
 -   AI interaction wrap up settings.
 
 The interaction wrap up configuration adds the Wrap Up state to the **State** field on the Interaction record. For more information about the wrap up state, see [Interaction states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/interaction-states.md).
 
 ## Required roles
+
+To configure the interaction wrap up feature, users need the interaction administrator \(interaction\_admin\) role. This role contains the interaction agent \(interaction\_agent\) role.
 
 To use the interaction wrap up feature, agents need the interaction agent \(interaction\_agent\) role. The service management agent \(sn\_esm\_agent\) role contains this role.
 
@@ -46,12 +48,12 @@ To use the interaction wrap up feature, agents need the interaction agent \(inte
 
 The wrap up period begins when either the agent or the customer ends a conversation. The system then does the following:
 
--   Moves the state of the interaction from Work in Progress to Wrap Up.
+-   Moves the state of the interaction from **Work In Progress** to Wrap Up.
 -   Starts a countdown timer for the wrap up duration period.
 
 ## Manually ending wrap up
 
-Agents can end the wrap up period manually, or the system can end it automatically.
+The agent or the system can end the wrap up period manually or automatically.
 
 Agents can end the wrap up by selecting **End Wrap Up** on the Interaction record, which moves the interaction from Wrap Up to Closed Complete.
 
@@ -60,20 +62,20 @@ Agents can also end the wrap up period by closing the interaction record tab.
 -   If the interaction is in the Wrap Up state, closing the tab ends the wrap up period and moves the interaction to Closed Complete. The system displays a message to the user about ending the wrap up period.
 -   If the interaction is in the Work in Progress state, closing the tab skips the wrap up period and moves the interaction to Closed Complete.
 
-## Automatically ending wrap up
+## Automatic wrap up end
 
 If an agent has not already ended wrap up, the system can automatically end the wrap up period after a set period of time. Automatic wrap up must be enabled in the interaction wrap up configuration.
 
 -   The system starts the wrap up duration timer when the wrap up period starts.
 -   When the wrap up duration timer reaches zero, the system ends wrap up and changes the state from Wrap Up to Closed Complete.
--   The system sets the **System wrap up** field on the Interaction record to True.
+-   The system sets the **System wrap up** field on the Interaction record to **True**.
 
 **Note:** Agents can manually end the wrap up period even if automatic wrap up is enabled.
 
 -   **[Interaction form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/interaction-form.md)**  
 The Interaction form displays information about a customer interaction.
 -   **[Interaction wrap up timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/interaction-wrap-up-timer.md)**  
-The interaction wrap up timer displays a countdown of the wrap up duration period in CRM Workspace.
+The interaction wrap up timer displays a countdown of the wrap up duration period in CSM Configurable Workspace.
 -   **[Interaction wrap up scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/interaction-wrap-up-scheduled-job.md)**  
 The interaction wrap up feature includes a scheduled job to close any interactions in the Wrap Up state that were not closed either manually by an agent or automatically by the system.
 -   **[Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md)**  

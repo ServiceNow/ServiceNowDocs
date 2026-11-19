@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure evaluation scoring for external AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure evaluation scoring for external AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Configure global metrics for external AI systems
@@ -25,7 +25,7 @@ Global metric configuration determines which metrics evaluate every external AI 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Evaluation**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Evaluation**.
 
 2.  On the **AI evaluations** sub-tab, select **External AI systems**.
 
@@ -35,7 +35,7 @@ Global metric configuration determines which metrics evaluate every external AI 
 
     -   **Task completion**
 
-        Whether the agent decision path and output satisfy the user's request.
+        Whether the agent avoids redundant calls and unnecessary follow-ups.
 
     -   **Answer relevancy**
 
@@ -55,15 +55,15 @@ Global metric configuration determines which metrics evaluate every external AI 
 
     **Important:** Adding more metrics increases the visibility you gain into each session, but also increases assist usage to evaluate it. Select the metrics that give you the insight you need.
 
-<table id="choicetable_add_remove_metrics_ext"><thead><tr><th align="left" id="d80462e180">
+<table id="choicetable_add_remove_metrics_ext"><thead><tr><th align="left" id="d88190e180">
 
 Option
 
-</th><th align="left" id="d80462e183">
+</th><th align="left" id="d88190e183">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d80462e189">
+</th></tr></thead><tbody><tr><td id="d88190e189">
 
 **Add metrics**
 
@@ -75,7 +75,7 @@ Description
 4.  Select **Done**.
 
 
-</td></tr><tr><td id="d80462e219">
+</td></tr><tr><td id="d88190e219">
 
 **Remove metrics**
 

@@ -9,14 +9,14 @@ classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Proactive Triggers reference, Proactive Triggers, Manage people and work, Conversational Interfaces]
+breadcrumb: [Reference, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---
 
 # Components installed with the Proactive Triggers feature
 
 When the Proactive Triggers feature is installed, the feature includes required components, such as specific roles and tables. Admins can review these roles and tables to make sure that the feature has been installed correctly.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Roles installed with the Proactive Triggers feature
 
@@ -34,11 +34,11 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-Proactive\_admin \[sn\_pt.proactive\_admin\]
+Proactive Triggers admin \[sn\_pt.proactive\_admin\]
 
 </td><td>
 
-Allows users to create proactive rules and have access to related tables and related records
+Enables users to create proactive rules and access related tables and related records
 
 </td><td>
 
@@ -50,10 +50,10 @@ Allows users to create proactive rules and have access to related tables and rel
 
 |Table|Description|
 |-----|-----------|
-|Proactive Custom Trigger Types \[sys\_cs\_ptrigger\_trigger\_type\_list\]|Create and view custom trigger types|
+|Proactive Custom Trigger Types \[sys\_cs\_ptrigger\_trigger\_type\_list\]|Stores custom trigger types|
 |Proactive Rules \[sys\_cs\_ptrigger\_rule\]|Stores all Proactive Triggers rules|
 |Proactive Actions \[sys\_cs\_ptrigger\_action\]|Parent action table|
-|Proactive Virtual Agent Topic Action\[sys\_cs\_ptrigger\_va\_topic\_action\] |Extended table from action for Virtual Agent action|
+|Proactive Virtual Agent Topic Action \[sys\_cs\_ptrigger\_va\_topic\_action\] |Extended table from action for Virtual Agent action|
 |Proactive Execution History  \[sys\_cs\_ptrigger\_execution\]|Execution history for the last 7 days|
 |Proactive Daily Report \[sys\_cs\_ptrigger\_report\_daily\]|Aggregated execution data by user, rule, or action per day|
 

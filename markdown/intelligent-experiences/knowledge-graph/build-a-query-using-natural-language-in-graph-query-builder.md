@@ -7,9 +7,9 @@ release: australia
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
-breadcrumb: [Graph Query Builder, Knowledge Graph, Managing data for AI, Enable AI Experiences]
+breadcrumb: [Graph Query Builder, Knowledge Graph, Enable AI experiences]
 ---
 
 # Build a query using natural language in Graph Query Builder
@@ -28,9 +28,9 @@ Role required: kg\_admin
 
     If you select Enterprise Graph or Enterprise Graph \(small\), you will see an additional tag selection field to scope the available entities to specific tables.
 
-    **Note:** Tags aren't available for user created graphs.
+    Tags aren't available for custom graphs.
 
-    \[Omitted image "nlq\_query\_builder.png"\] Alt text: Graph query builder
+    \[Omitted image "nlq\_query\_builder.png"\] Alt text:
 
 3.  Select one or more tags from the drop-down, if you want to run a query using Enterprise Graph or Enterprise Graph \(small\).
 
@@ -38,7 +38,7 @@ Role required: kg\_admin
 
     Example: `Show me all the incidents assigned to users in customer support department`.
 
-    \[Omitted image "nlq\_query\_builder\_example.png"\] Alt text: Graph query builder example
+    \[Omitted image "nlq\_query\_builder\_example.png"\] Alt text:
 
 5.  Select an LLM to use from the following options:
 

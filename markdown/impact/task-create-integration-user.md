@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/task-create-integration-user.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-21"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Create an integration user account

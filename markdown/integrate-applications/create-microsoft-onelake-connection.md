@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-microsoft-onelake-connection.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-17"
 reading_time_minutes: 1
-breadcrumb: [Microsoft OneLake, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Microsoft OneLake \(Preview\), Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create a Microsoft OneLake connection
@@ -26,8 +26,8 @@ Work with your data source admin to create a connection to Microsoft OneLake. Fo
 
 1.  Navigate to the available primary connectors in Zero Copy Connector Hub in one of the following ways:
 
-    -   Navigate to **All** &gt; **Workflow Data Fabric Hub** &gt; **Available connectors** &gt; **Primary connectors**.
-    -   Navigate to **Admin** &gt; **Workflow Data Fabric Hub** &gt; **Available connectors** &gt; **Primary connectors**.
+    -   Navigate to **All** &gt; **Zero Copy Connector Hub** &gt; **Available connectors** &gt; **Primary connectors**.
+    -   Navigate to **Admin** &gt; **Zero Copy Connector Hub** &gt; **Available connectors** &gt; **Primary connectors**.
 2.  Find the Microsoft OneLake connector and select **Connect**.
 
 3.  On the form, fill in the fields.
@@ -70,7 +70,17 @@ Description of the connection explaining what it is about.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-Catalog configuration
+Catalog Configuration
+
+</td></tr><tr><td>
+
+Iceberg REST catalog URI
+
+</td><td>
+
+URI of the Iceberg REST catalog endpoint for Microsoft OneLake. For example: ```
+https://onelake.dfs.fabric.microsoft.com/iceberg
+```
 
 </td></tr><tr><td>
 
@@ -90,7 +100,7 @@ Secret key associated with the client ID.
 
 </td></tr><tr><td>
 
-OAuth endpoint
+OAuth Endpoint
 
 </td><td>
 
@@ -100,7 +110,7 @@ https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token
 
 </td></tr><tr><td>
 
-Warehouse
+WareHouse
 
 </td><td>
 
@@ -108,7 +118,7 @@ Iceberg REST catalog warehouse.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-Authentication configuration
+Object Storage System configuration
 
 </td></tr><tr><td>
 
@@ -136,7 +146,7 @@ Secret key associated with the client ID.
 
 </td></tr><tr><td>
 
-OAuth endpoint
+OAuth Endpoint
 
 </td><td>
 

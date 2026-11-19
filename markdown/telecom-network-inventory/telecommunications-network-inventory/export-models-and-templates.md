@@ -7,9 +7,9 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Use, Telecommunications Network Inventory]
+breadcrumb: [Import models and templates, Use, Telecommunications Network Inventory]
 ---
 
 # Export models and templates
@@ -55,7 +55,7 @@ When you export a model or template by downloading a copy of it for offline refe
 8.  Select **Export**.
 
 
-**Parent Topic:**[Using Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/using-telecom-network-inventory.md)
+**Parent Topic:**[Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
 
 **Related topics**  
 

@@ -4,7 +4,7 @@ description: Create reservations across multiple buildings, campuses, neighborho
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-03"
 reading_time_minutes: 36
 ---
 
@@ -48,15 +48,15 @@ For example, reservation planners or space planners with the dedicated role \(sn
 
 1.  Select any of the following context menu navigation options to make a workplace reservation.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d276242e157">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d277510e156">
 
 Location
 
-</th><th align="left" id="d276242e160">
+</th><th align="left" id="d277510e159">
 
 Navigation path
 
-</th></tr></thead><tbody><tr><td id="d276242e166">
+</th></tr></thead><tbody><tr><td id="d277510e165">
 
 **From Employee Center Portal**
 

@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Assign and manage alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Monitor incoming alerts
@@ -182,7 +182,9 @@ Time that the initial event occurred in the remote system.
 </table>
 ## What to do next
 
-If Operational Intelligence is activated, you can right-click an alert and click **View Metrics**. This opens the integrated Insights Explorer and Dependency Views map for the associated CI.
+If Operational Intelligence is activated, you can right-click an alert and click **View Metrics**. This opens the integrated Insights Explorer and Dependency Views map for the CI that is associated with the alert.
+
+**Parent Topic:**[Assigning and managing alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/assigning-and-managing-alerts.md)
 
 **Related topics**  
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/define-sec-controls-aw.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Define security controls for an agentic workflow
@@ -22,7 +22,11 @@ Role required: sn\_aia.admin
 
 The **Define security controls** step is divided into two parts: **Define user access** and **Define data access**. The former creates an access control list \(ACL\) that determines which users can discover or invoke the agentic workflow. The latter defines the data that the agentic workflow has access to once it’s invoked.
 
+Misconfigured user and data access settings can result in errors or silent failures. After modifying access rules, manually test the access requirements of your agentic workflow and its underlying AI agents. See [Test access to an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-aia-access.md).
+
 See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for agentic workflows.
+
+**Note:** These fields may be read-only. Change the scope to Platform AI Agents and Skills to enable editing.
 
 ## Procedure
 

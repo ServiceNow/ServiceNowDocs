@@ -7,7 +7,7 @@ release: australia
 product: Data Discovery
 classification: data-discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure a job, Data Discovery jobs, Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---
@@ -22,17 +22,15 @@ Sensitive data such as social security Numbers \(SSN\), credit card numbers, and
 
 ## Limitations
 
+-   Embedded images and attachments in PDF and DOC files will not be scanned for sensitive data.
 -   Files must be less than 10MB.
 -   Support is available for the following file types:
     -   PDF
     -   DOC\(X\)
     -   TXT
-    -   XLS\(X\)
+    -   XLS
     -   CSV
-    -   XML
+    -   HTML
     -   EML
     -   MSG
-    -   JPG
-    -   JPEG
-    -   PNG
 

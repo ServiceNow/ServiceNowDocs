@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-You can select the type of record you want to create, fill in the required details, and associate it to your project. You can use the RIDAC page in Project Workspace to view, add, manage, and evaluate all the RIDAC records.
+Use All RIDAC page to view all RIDAC records in a single consolidated view. All RIDAC page displays all record types together in a grid layout. When you create RIDAC record or accept an AI-identified risk, it appears in this grid view. You can select the type of record you want to create, fill in the required details, and associate it to your project. You can use the RIDAC page in Project Workspace to view, add, manage, and evaluate all the RIDAC records.
 
 For information about RIDAC records for project management, see [Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/ridac-entries-for-project.md).
 
@@ -67,8 +67,6 @@ For information about RIDAC records for project management, see [Adding RIDAC re
 
 **Related topics**  
 
-
-[filter-ridac-pw]
 
 [Export RIDAC data from All RIDAC page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/export-ridac-pw.md)
 

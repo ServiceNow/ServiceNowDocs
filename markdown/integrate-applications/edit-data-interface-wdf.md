@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/edit-data-interface-wdf.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-26"
 reading_time_minutes: 3
 breadcrumb: [Managing data interfaces, Data Products, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ Update a published data interface in place when source data or consumer requirem
 
 The data interface must be in the Published state.
 
-Role required: data\_product\_admin, delegated\_developer, df\_data\_steward, and delegatedadmin \(scope admin\)
+Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, and delegatedadmin \(scope admin\)
 
 ## Procedure
 

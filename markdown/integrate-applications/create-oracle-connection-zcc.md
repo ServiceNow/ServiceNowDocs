@@ -1,16 +1,16 @@
 ---
-title: Create an Oracle connection
+title: Create an Oracle DB connection
 description: Establish a zero copy connection to an external Oracle database in Zero Copy Connector Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-oracle-connection-zcc.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-11"
 reading_time_minutes: 3
-breadcrumb: [Oracle, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Oracle DB, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
-# Create an Oracle connection
+# Create an Oracle DB connection
 
 Establish a zero copy connection to an external Oracle database in Zero Copy Connector Hub.
 
@@ -95,15 +95,15 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Oracle.
 
-<table id="choicetable_hsy_pmb_2fc"><thead><tr><th align="left" id="d675081e236">
+<table id="choicetable_hsy_pmb_2fc"><thead><tr><th align="left" id="d683477e238">
 
 Option
 
-</th><th align="left" id="d675081e239">
+</th><th align="left" id="d683477e241">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d675081e245">
+</th></tr></thead><tbody><tr><td id="d683477e247">
 
 **Username / Password**
 
@@ -115,7 +115,7 @@ Option to use basic authentication.
 2.  Enter the database password associated with the username.
 
 
-</td></tr><tr><td id="d675081e266">
+</td></tr><tr><td id="d683477e268">
 
 **OAuth**
 
@@ -132,15 +132,15 @@ Option to use OAuth authentication.
 </td></tr></tbody>
 </table>5.  Configure connection security.
 
-<table id="choicetable_ejt_ldh_b3c"><thead><tr><th align="left" id="d675081e306">
+<table id="choicetable_ejt_ldh_b3c"><thead><tr><th align="left" id="d683477e308">
 
 Option
 
-</th><th align="left" id="d675081e309">
+</th><th align="left" id="d683477e311">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d675081e315">
+</th></tr></thead><tbody><tr><td id="d683477e317">
 
 **Default**
 
@@ -148,7 +148,7 @@ Description
 
 Select this option to use Java security CA certificates to establish a secure connection with the data source.This option uses public certificates that are already available in the Java security truststore.
 
-</td></tr><tr><td id="d675081e326">
+</td></tr><tr><td id="d683477e328">
 
 **mTLS**
 
@@ -159,15 +159,15 @@ Select this option if your data source requires two-way SSL and uses its own cer
 </td></tr></tbody>
 </table>6.  If you selected mTLS, select a keystore type and configure the required certificates.
 
-<table id="choicetable_zzc_z2h_b3c"><thead><tr><th align="left" id="d675081e345">
+<table id="choicetable_zzc_z2h_b3c"><thead><tr><th align="left" id="d683477e347">
 
 Option
 
-</th><th align="left" id="d675081e348">
+</th><th align="left" id="d683477e350">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d675081e354">
+</th></tr></thead><tbody><tr><td id="d683477e356">
 
 **Keystore - PEM \(secure\)**
 
@@ -202,7 +202,7 @@ and ending with:
 2.  Enter the PEM file password associated with the wallet.
 
 
-</td></tr><tr><td id="d675081e394">
+</td></tr><tr><td id="d683477e396">
 
 **Keystore - JKS \(secure\)**
 

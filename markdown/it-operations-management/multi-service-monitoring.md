@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/multi-service-monitoring.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-18"
 reading_time_minutes: 2
 keywords: [synthetic monitoring, multi-service, application service, shared endpoint, CMDB]
 breadcrumb: [Explore, Synthetic monitoring, ITOM AIOps, IT Operations Management]
@@ -23,7 +23,7 @@ You can now tag a single HTTP endpoint or discovered API to multiple application
 
 ## How it works
 
-When you select more than one application service for an HTTP endpoint or discovered API, synthetic monitoring creates a Connects to::Connected by relationship between the endpoint and each service you select. Adding a service does not remove relationships to services already tagged.
+Selecting multiple application services for an HTTP endpoint or discovered API creates a Connects to::Connected by relationship between the endpoint and each selected service. Existing relationships are preserved when you add a new service.
 
 The endpoint's related services list shows every application service tagged to it, with duplicate entries removed, so each team can see which other services share the same endpoint.
 

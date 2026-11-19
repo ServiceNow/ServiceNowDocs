@@ -53,5 +53,5 @@ To import wrap-up codes from your contact center to your ServiceNow® instance, 
 -   REST Batch API request timeout multipart
 -   REST and JSON Catch All
 
-Administrators can customize these rules as required.
+Administrators can customize these rules as required and can also check the cancelled transaction logs to check if the action timed out.
 

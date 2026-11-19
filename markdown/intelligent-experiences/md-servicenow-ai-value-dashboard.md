@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/md-servicenow-ai-value-dashboard.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-03"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow AI dashboard, Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [ServiceNow AI dashboard, Dashboards, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # ServiceNow AI Value dashboard
@@ -18,7 +18,7 @@ The ServiceNow AI Value dashboard provides a comprehensive view of AI system per
 
 The ServiceNow AI Value dashboard aggregates data from all AI systems in your organization. You can monitor AI value delivery, track usage trends, and assess return on investment. The dashboard updates continuously and provides configurable time-range filtering for trend analysis.
 
-To view the ServiceNow AI Value dashboard on AI Control Tower, navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **ServiceNow AI** &gt; **Value**.\[Omitted image "aict-snow-ai-value-dashboard.png"\] Alt text: The ServiceNow AI Value dashboard with different widgets displaying the insights.
+To view the ServiceNow AI Value dashboard on Control Tower, navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **ServiceNow AI** &gt; **Value**.\[Omitted image "aict-snow-ai-value-dashboard.png"\] Alt text: The ServiceNow AI Value dashboard with different widgets displaying the insights.
 
 ## AI Value delivered
 

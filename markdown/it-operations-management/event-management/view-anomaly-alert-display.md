@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Respond to alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View Log Analytics anomaly alert charts on the preview panel in Express List
@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 4.  Choose where to view the anomaly chart.
 
-<table id="choicetable_kfx_rzl_33c"><thead><tr><th align="left" id="d434975e111">
+<table id="choicetable_kfx_rzl_33c"><thead><tr><th align="left" id="d437331e111">
 
 Option
 
-</th><th align="left" id="d434975e114">
+</th><th align="left" id="d437331e114">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d434975e120">
+</th></tr></thead><tbody><tr><td id="d437331e120">
 
 **View the chart in the preview panel**
 
@@ -51,7 +51,7 @@ Procedure
 
 A chart with a visual representation of the anomaly appears.
 
-</td></tr><tr><td id="d434975e146">
+</td></tr><tr><td id="d437331e146">
 
 **View the chart in the alert record**
 
@@ -71,4 +71,6 @@ Select the number of the anomaly alert to open the alert record.
 
     The **Surrounding logs** tab displays the list of log lines that were generated one minute before and one second after the Log Analytics alert. For more information, see [How Health Log Analytics generates alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-anomalies-detecting.md).
 
+
+**Parent Topic:**[Responding to and working with alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/responding-to-and-working-with-alerts-in-express-list.md)
 

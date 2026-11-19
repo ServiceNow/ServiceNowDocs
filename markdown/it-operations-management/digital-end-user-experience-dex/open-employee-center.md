@@ -7,9 +7,9 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Desktop Assistant, Solve issues, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Desktop Assistant, Digital End-User Experience, IT Operations Management]
 ---
 
 # Open Employee Center from Desktop Assistant
@@ -18,9 +18,9 @@ Open Employee Center from Desktop Assistant to access a unified portal for findi
 
 ## Before you begin
 
--   DEX Desktop Assistant \[sn\_dex\_desktop\] application must be installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/download-desktop-experience.md).
+-   Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
--   The Employee Center card must be mapped to your organization's Employee Center portal.
+-   Map the Employee Center card to the Employee Center portal of your organization.
 
 Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 

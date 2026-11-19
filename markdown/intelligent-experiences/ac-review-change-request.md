@@ -1,19 +1,19 @@
 ---
 title: Review and approve a change request
-description: Evaluate a change request submitted by an asset owner and either approve the change so AI Control Tower can apply it, or reject the change so the asset remains unchanged.
+description: Evaluate a change request submitted by an asset owner and either approve the change so Super Intelligence Control Tower can apply it, or reject the change so the asset remains unchanged.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ac-review-change-request.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-16"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Change and offboarding requests, Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Change and offboarding requests, Managing tasks and approvals, Address action items, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Review and approve a change request
 
-Evaluate a change request submitted by an asset owner and either approve the change so AI Control Tower can apply it, or reject the change so the asset remains unchanged.
+Evaluate a change request submitted by an asset owner and either approve the change so Super Intelligence Control Tower can apply it, or reject the change so the asset remains unchanged.
 
 ## Before you begin
 
@@ -21,7 +21,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Activity Center** &gt; **Work** &gt; **Assigned to you**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Activity Center** &gt; **Work** &gt; **Assigned to you**.
 
 2.  Select the **Requests** sub-tab.
 
@@ -43,15 +43,15 @@ Role required: sn\_ai\_governance.ai\_steward
 
 7.  Approve or reject the change request.
 
-<table><thead><tr><th align="left" id="d233613e158">
+<table><thead><tr><th align="left" id="d258824e158">
 
 Option
 
-</th><th align="left" id="d233613e161">
+</th><th align="left" id="d258824e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d233613e167">
+</th></tr></thead><tbody><tr><td id="d258824e167">
 
 **Approve the request**
 
@@ -59,10 +59,10 @@ Description
 
 1.  Select **Approve**.
 2.  If prompted, record the rationale for the approval.
-3.  Confirm the approval. AI Control Tower applies the change to the asset and updates the asset record with the new values.
+3.  Confirm the approval. Control Tower applies the change to the asset and updates the asset record with the new values.
 
 
-</td></tr><tr><td id="d233613e191">
+</td></tr><tr><td id="d258824e194">
 
 **Reject the request**
 
@@ -70,12 +70,12 @@ Description
 
 1.  Select **Reject**.
 2.  Record the rationale for the rejection so the requester understands why the change cannot proceed.
-3.  Confirm the rejection. AI Control Tower closes the change request and the asset remains unchanged.
+3.  Confirm the rejection. Control Tower closes the change request and the asset remains unchanged.
 
 
 </td></tr></tbody>
 </table>
 ## Result
 
-If you approved the request, AI Control Tower applies the change to the asset and the request is marked **Completed**. If you rejected the request, the asset is unchanged and the request is closed. The asset owner receives a notification with the outcome and your rationale.
+If you approved the request, Control Tower applies the change to the asset and the request is marked **Completed**. If you rejected the request, the asset is unchanged and the request is closed. The asset owner receives a notification with the outcome and your rationale.
 

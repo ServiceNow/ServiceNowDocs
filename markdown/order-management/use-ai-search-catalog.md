@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/use-ai-search-catalog.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Product catalogs, Lead-to-cash foundation apps, Use, Sales Customer Relationship Management]
 ---
@@ -28,7 +28,7 @@ With AI Search, you can use semantic queries to find relevant product offerings 
 
 ## Procedure
 
-1.  Access the product catalog through a Sales Customer Relationship Management transaction, such as a quote created in the CRM Workspace or an order created in the Business Portal.
+1.  Access the product catalog through a Sales Customer Relationship Management transaction, such as a quote created in the CSM Configurable Workspace or an order created in the Business Portal.
 
 2.  Select the **Catalog** tab and choose the catalog.
 

@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-23"
 reading_time_minutes: 2
 keywords: [Autonomous Engineer, file types, file uploads, size limits, attachments]
-breadcrumb: [Reference, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Reference, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Supported file types for Autonomous Engineer

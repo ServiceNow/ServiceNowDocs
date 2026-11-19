@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Dynatrace MCP server AI agent
@@ -23,7 +23,7 @@ This agent investigates Dynatrace alerts by retrieving alert impact summaries an
 2.  Gather relevant problem details, entity information, spans, and logs from Dynatrace.
 3.  Return the findings, including a problem overview, key findings, and actionable next steps.
 
-For more information about configuring this AI agent, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
+For more information about configuring this AI agent, see [Configure observability tool connections for ITOM AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 <table><thead><tr><th>
 

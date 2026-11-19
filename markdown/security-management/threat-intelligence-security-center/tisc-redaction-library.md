@@ -7,9 +7,8 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [redaction library, redaction category, outbound intelligence sharing, case sensitivity, sensitive information]
 breadcrumb: [Exploring Outbound Intel Sharing, Configuring Threat Intelligence External Sharing, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -60,15 +59,15 @@ By leveraging the Redaction Library feature, TISC administrators and analysts ca
 
 9.  Select **New** to create Redaction Category Value record.
 
-<table id="choicetable_qsf_s3c_qfc"><thead><tr><th align="left" id="d407095e214">
+<table id="choicetable_qsf_s3c_qfc"><thead><tr><th align="left" id="d408698e200">
 
 Field
 
-</th><th align="left" id="d407095e217">
+</th><th align="left" id="d408698e203">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d407095e223">
+</th></tr></thead><tbody><tr><td id="d408698e209">
 
 **Redaction Category**
 
@@ -83,7 +82,7 @@ Indicates the redaction category. Few examples of Redaction Category are as foll
 -   Identification\_Number
 
 
-</td></tr><tr><td id="d407095e251">
+</td></tr><tr><td id="d408698e237">
 
 **Value**
 

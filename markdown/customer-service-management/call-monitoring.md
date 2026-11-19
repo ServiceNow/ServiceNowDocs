@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/call-monitoring.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Enable ICC for CCaaS calls and callbacks, Configure voice, Configur
 
 Call monitoring is a feature in the Contact Center as a Service \(CCaaS\) solution that enables supervisors and managers to observe, monitor, and analyze customer interactions.
 
-Contact centers integrating with ServiceNow’s native voice call capability via Interaction Controls Component \(ICC\) and OpenFrame have the option to enable the call monitoring feature, embedded in their CRM Workspace.
+Contact centers integrating with ServiceNow’s native voice call capability via Interaction Controls Component \(ICC\) and OpenFrame have the option to enable the call monitoring feature, embedded in their CSM Configurable Workspace.
 
 See [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-workspaces-configure.md)
 

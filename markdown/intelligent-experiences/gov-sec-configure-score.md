@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-configure-score.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-02"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Configure the AI asset security score
@@ -25,7 +25,7 @@ Users should actively manage and review their agent assets and not rely solely o
 
 ## Procedure
 
-1.  In AI Control Tower, navigate to **Settings** &gt; **Rules and templates** &gt; **Security**.
+1.  In Control Tower, navigate to **Settings** &gt; **Rules and templates** &gt; **Security**.
 
 2.  Select **Security Score**.
 
@@ -38,5 +38,5 @@ Users should actively manage and review their agent assets and not rely solely o
 6.  Save the settings.
 
 
-**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configuring.md)
+**Parent Topic:**[Configuring security metrics in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configuring.md)
 

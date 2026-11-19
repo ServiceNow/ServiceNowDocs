@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/request-content-pack.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Request Management in a Service Management application, Service Management]
 ---
@@ -44,5 +44,5 @@ To view the current state of open requests, see the Open Request Reports.
 **Related topics**  
 
 
-[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
+[bundle-par.c_PremiumPerformanceAnalytics]
 

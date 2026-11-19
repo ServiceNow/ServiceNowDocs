@@ -7,7 +7,7 @@ release: australia
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create a scripted REST API, Scripted REST APIs, REST APIs, Web services, API implementation, API implementation and reference]
 ---
@@ -32,15 +32,15 @@ The following procedure describes the process for manually adding a request sche
 
     If you navigate through a scripted REST API record, most fields in the REST Request record are pre-populated.
 
-<table id="choicetable_ehs_g3d_j3c"><thead><tr><th align="left" id="d487038e69">
+<table id="choicetable_ehs_g3d_j3c"><thead><tr><th align="left" id="d468159e70">
 
 Option
 
-</th><th align="left" id="d487038e72">
+</th><th align="left" id="d468159e73">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d487038e78">
+</th></tr></thead><tbody><tr><td id="d468159e79">
 
 **Navigate through a scripted REST API record**
 
@@ -52,7 +52,7 @@ Procedure
 4.  In the **Request Schema** tab, select **New**.
 
 
-</td></tr><tr><td id="d487038e123">
+</td></tr><tr><td id="d468159e124">
 
 **Navigate directly to a new REST Request record**
 

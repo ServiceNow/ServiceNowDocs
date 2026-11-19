@@ -7,7 +7,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-01"
 reading_time_minutes: 1
 breadcrumb: [Distribute Core UI reports, Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -52,7 +52,7 @@ Page format
 
 </td><td>
 
-For PDF, PNG, Embedded PNG, and JPEG, select Letter, A4, or A3 to correspond to the paper dimensions of the printed visualization.You can't set the page format when exporting a List.
+For PDF, PNG, Embedded PNG, and JPEG, select Letter, A4, or A3 to correspond to the paper dimensions of the printed visualization.You cannot set the page format when exporting a List.
 
 </td></tr><tr><td>
 

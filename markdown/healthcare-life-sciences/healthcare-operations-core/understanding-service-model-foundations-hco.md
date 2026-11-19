@@ -7,7 +7,7 @@ release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-24"
 reading_time_minutes: 6
 breadcrumb: [Organizations and locations overview, Configure, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -52,19 +52,19 @@ The healthcare organization is like a profile: a one-to-one repository of health
 Whether a location is internal or external depends on its relationship to the organization that owns the ServiceNow instance.
 
 -   **Internal Organization** records are internal to your organization. For example, the hospital that owns the ServiceNow instance, the units within that hospital, or the individual floors and rooms within the hospital.
--   **External Organization** records are external to your organization. For example, private practices or healthcare affiliates that consume your healthcare services. An affiliate that logs into your organization's Epic environment through Epic Community Connect and needs to report EMR issues requires an External Organization record in ServiceNow, along with the corresponding membership setup.
+-   **External Organization** records are external to your organization, such as those for private practices or healthcare affiliates that consume your healthcare services. For example, an affiliate might log into your organization's Epic environment through Epic Community Connect. To report EMR issues requires an External Organization record in ServiceNow, along with the corresponding membership setup.
 
-## Service organization fields on the case
+## Service organization fields on cases
 
 The Healthcare Operations case \[sn\_hco\_case\] form has two service organization fields. Configure them correctly to preserve out-of-box case visibility. For the platform-wide pattern this is based on, including the shared-visibility model and how CSM and ITSM divide the work, see .
 
 -   **Requesting service org**
 
-    Represents the organization that needs support—the requester. This out-of-box field is used in every SMF implementation and drives shared case visibility. If the requesting service org isn't populated on the case, none of the shared visibility works.
+    Represents the organization that needs support \(the requester\). This out-of-box field is used in every SMF implementation and drives shared case visibility. If the requesting service org isn't populated on the case, none of the shared visibility works.
 
 -   **Supporting service org**
 
-    Represents the organization that's fulfilling the case—the fulfiller. This field isn't used in every implementation.
+    Represents the organization that's fulfilling the case \(the fulfiller\). This field isn't used in every implementation.
 
 
 **Note:**
@@ -73,7 +73,7 @@ A common configuration error is displaying the healthcare organization on the ca
 
 ## Common locations and Business Organization
 
-The common location \[cmn\_location\] table represents the physical address of a record and is used across the ServiceNow platform. Because several tables contain *location* in their name, it's commonly assumed that one table extends another. They don't. Organization Core holds a reference field to the common location record.
+The common location \[cmn\_location\] table represents the physical address of a record and is used across the ServiceNow platform. Because several tables contain *location* in their name, it's commonly assumed that one table extends another, but they don't. Organization Core holds a reference field to the common location record.
 
 For healthcare use cases, configure the healthcare location \[sn\_hcls\_location\] table rather than customizing the common location table directly. The healthcare location is a profile for an individual location—a repository of fields and information that aren't available on the common location table. For more information, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md).
 

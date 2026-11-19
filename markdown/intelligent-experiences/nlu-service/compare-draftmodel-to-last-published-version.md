@@ -1,5 +1,5 @@
 ---
-title: \(Legacy\) Compare draft and published versions of your NLU model
+title: Compare draft and published versions of your NLU model
 description: Compare a draft trained Natural Language Understanding \(NLU\) model to its most recent published version. Test and review the changes to make sure that your draft model will have increased performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/compare-draftmodel-to-last-published-version.html
@@ -7,12 +7,12 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [\(Legacy\) Test and publish your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Test and publish your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
-# \(Legacy\) Compare draft and published versions of your NLU model
+# Compare draft and published versions of your NLU model
 
 Compare a draft trained Natural Language Understanding \(NLU\) model to its most recent published version. Test and review the changes to make sure that your draft model will have increased performance.
 

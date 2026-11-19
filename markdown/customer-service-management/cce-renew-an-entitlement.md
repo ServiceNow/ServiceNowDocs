@@ -1,18 +1,18 @@
 ---
 title: Renew an entitlement
-description: Renew an entitlement on the CRM Workspace.
+description: Renew an entitlement on the CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/cce-renew-an-entitlement.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Customer management, Use, Customer Service Management]
 ---
 
 # Renew an entitlement
 
-Renew an entitlement on the CRM Workspace.
+Renew an entitlement on the CSM Configurable Workspace.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
 2.  In the list view, select **Customer** &gt; **Accounts**.
 

@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build w
 
 Summarize what a flow or subflow does by using generative AI.
 
-\[Omitted video\] Description: Summarize a flow with AI
+\[Omitted video\] Description: Summarize a flow with Now Assist
 
 ## Get started
 

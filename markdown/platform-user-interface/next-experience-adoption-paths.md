@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-adoption-paths.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [enable next experience, activate next experience]
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -21,7 +21,7 @@ Guidance and support from the engineers who helped you customize your instance, 
 
 Enable Next Experience during an upgrade or manually at any time after an upgrade. If you don’t see the migration modal, your instance has already completed the upgrade and you must enable Next Experience manually.
 
-## New customer starting on the Brazil release
+## New customer starting on the Australia release
 
 If you're a new customer, you automatically have Next Experience enabled and you don't need to modify the UI to get the newest user interface.
 
@@ -62,7 +62,7 @@ During the upgrade, the Next Experience UI is not turned on.
 
 **Important:**
 
-Connect Chat is not available in Next Experience. Starting with Brazil, certain Connect Chat functions are available in Next Experience by using Sidebar. See [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615) for more information about the differences between Connect Chat and Sidebar.
+Connect Chat is not available in Next Experience. Starting with Australia, certain Connect Chat functions are available in Next Experience by using Sidebar. See [KB3049135 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3049135) for more information about the differences between Connect Chat and Sidebar.
 
 Connect Support is not available in Next Experience and is scheduled to be completely deprecated in Utah. If you want to automatically assign chat requests and other work items to agents in Next Experience, you must migrate to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/migrate-from-connect-support.md).
 
@@ -82,7 +82,7 @@ These features and products are not currently supported with Next Experience:
 For more information, see:
 
 -   [KB1156736 – Moving from Connect Chat to AWA and Agent Chat](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1156736)
--   [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615)
+-   [KB3049135 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3049135)
 -   [KB1157068 – Live Feed Is Not Supported in Next Experience](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1157068)
 
 **Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-ui-admin.md)
@@ -97,9 +97,9 @@ Role required: admin
 
 ### About this task
 
-As an administrator, you can enable Next Experience for all users on your Brazil instance, or let users enable or disable unified navigation for themselves. After Next Experience is enabled at the instance level, users can choose to enable or disable it for their own session from the user menu. For more information, see [Configure Next Experience user experience preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-next-experience-user-experience.md).
+As an administrator, you can enable Next Experience for all users on your Australia instance, or let users enable or disable unified navigation for themselves. After Next Experience is enabled at the instance level, users can choose to enable or disable it for their own session from the user menu. For more information, see [Configure Next Experience user experience preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-next-experience-user-experience.md).
 
-If you're a new customer running the Brazil release, Next Experience is enabled by default. If you're upgrading, see the information at [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-adoption-paths.md) before you enable Next Experience.
+If you're a new customer running the Australia release, Next Experience is enabled by default. If you're upgrading, see the information at [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/next-experience-adoption-paths.md) before you enable Next Experience.
 
 **Warning:** It's not recommended that you enable or disable the Next Experience UI until you've learned the impact of how that might affect your instance functionality. You might need assistance from the modification authors or an established partner to ensure a seamless activation.
 

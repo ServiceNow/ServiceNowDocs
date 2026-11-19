@@ -7,7 +7,7 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-25"
 reading_time_minutes: 4
 breadcrumb: [Use, Task Mining, Platform Analytics]
 ---
@@ -70,7 +70,7 @@ You create categorization rules with a condition builder. Each rule matches acti
 
         **Note:** If the MAX list is empty, check the date range. The range defaults to the last 3 days, so activity collected earlier doesn't appear until you extend it to cover your collection period. You can select a range up to 90 days.
 
-        \[Omitted image "tm-cat-4.png"\] Alt text: The Open calendar icon.
+        \[Omitted image "tm-cat-4.png"\] Alt text: The Open calendar button.
 
     3.  Narrow the list to find the activities to categorize.
 

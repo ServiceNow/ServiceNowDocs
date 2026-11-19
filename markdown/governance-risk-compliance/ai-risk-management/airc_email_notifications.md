@@ -1,6 +1,6 @@
 ---
 title: Email notifications
-description: Email notifications are sent automatically when specific events occur across AI governance workflows, including AI Control Tower, AI Risk and Compliance, and inherited Risk Management processes.
+description: Email notifications are sent automatically when specific events occur across AI governance workflows, including Control Tower, AI Risk and Compliance, and inherited Risk Management processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/airc\_email\_notifications.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Reference, AI Risk and Compliance, Governance, Risk, and Compliance
 
 # Email notifications
 
-Email notifications are sent automatically when specific events occur across AI governance workflows, including AI Control Tower, AI Risk and Compliance, and inherited Risk Management processes.
+Email notifications are sent automatically when specific events occur across AI governance workflows, including Control Tower, AI Risk and Compliance, and inherited Risk Management processes.
 
 Email notifications help ensure timely awareness, review, and action across governance, risk, and compliance activities.
 
@@ -147,9 +147,9 @@ The following notification is sent when life cycle tasks on AI assets become ove
 
 The Life cycle Task Reminder notification is distinct from other notifications in this table because it is agent-generated, not triggered by a standard platform event or state change. This means the notification timing and cadence may follow a different pattern than the instant-trigger behavior typical of other life cycle notifications.
 
-Opening the notification directs recipients to the AI asset's governance details page in the AI Control Tower. From there, they can view the stalled task and resume completion.
+Opening the notification directs recipients to the AI asset's governance details page in the Control Tower. From there, they can view the stalled task and resume completion.
 
-For information about AI Control Tower plugin dependencies and upgrade considerations, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md) and [Components installed with AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-installed-with.md).
+For information about Control Tower plugin dependencies and upgrade considerations, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md) and [Components installed with Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-installed-with.md).
 
 **Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
 

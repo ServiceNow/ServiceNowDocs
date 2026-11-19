@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-fhir-installed-components.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 3
 keywords: [installed components, roles, scheduled job, sync log]
 breadcrumb: [EMR Provider Directory Sync, Healthcare Integrations, Healthcare and Life Sciences]
@@ -14,6 +14,12 @@ breadcrumb: [EMR Provider Directory Sync, Healthcare Integrations, Healthcare an
 # Components installed with the EMR Provider Directory Sync
 
 Several types of components are installed with the EMR Provider Directory Sync. These include a user role, a sync log table, a scheduled job, flows, a business rule, flow actions, and a decision table.
+
+## Plugin details
+
+Plugin name: EMR Provider Directory Sync
+
+Scope name: `sn_hcls_emr_sync`
 
 ## Roles installed
 
@@ -33,7 +39,7 @@ Contains roles
 
 HCO FHIR Integration Admin
 
- \[`sn_hco_intg_fhir.admin`\]
+ \[`sn_hcls_emr_sync.admin`\]
 
 </td><td>
 
@@ -58,7 +64,7 @@ Description
 
 FHIR Sync Log
 
- \[`sn_hco_intg_fhir_sync_log`\]
+ \[`sn_hcls_emr_sync_log`\]
 
 </td><td>
 
@@ -105,7 +111,7 @@ Each per-resource import decomposes into additional child subflows — a per-rec
 
 |Business rule|Table|Description|
 |-------------|-----|-----------|
-|Stamp ended on status transition|`sn_hco_intg_fhir_sync_log`|Before update — stamps the `ended` timestamp when a sync log row transitions out of the Running status.|
+|Stamp ended on status transition|`sn_hcls_emr_sync_log`|Before update — stamps the `ended` timestamp when a sync log row transitions out of the Running status.|
 
 ## Flow actions installed
 

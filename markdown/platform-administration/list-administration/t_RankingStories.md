@@ -1,20 +1,24 @@
 ---
 title: Rank stories in a related list
-description: The Context Ranking feature enables all scrum users to manually sort a related list of stories by priority.
+description: Sort a related list of stories by priority with context ranking, so the planning board shows the same order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/t\_RankingStories.html
 release: australia
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-09"
 reading_time_minutes: 1
 breadcrumb: [Scrum ranking definitions, Context ranking, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Rank stories in a related list
 
-The Context Ranking feature enables all scrum users to manually sort a related list of stories by priority.
+Sort a related list of stories by priority with context ranking, so the planning board shows the same order.
+
+## Before you begin
+
+Role required: none
 
 ## About this task
 
@@ -22,15 +26,15 @@ A product owner or release planner uses this tool to establish the order in whic
 
 ## Procedure
 
-1.  In the **Stories** related list, click **Rank**.
+1.  In the **Stories** related list, select **Rank**.
 
-    A dialog box appears, allowing you to arrange the stories in any order, such as by priority.
+    A dialog box appears, where you can arrange the stories in any order, such as by priority.
 
-2.  Click and drag each story into position using the move icon to the left of the story number.
+2.  Drag each story into position by using the move icon beside the story number.
 
-    \[Omitted image "ScrumStoriesRanking.png"\] Alt text: Scrum Stories Ranking
+    \[Omitted image "ScrumStoriesRanking.png"\] Alt text: Ranking scrum stories
 
-3.  When you are done, click the **X** in the upper right corner to close the list.
+3.  Select the close icon \(**X**\) to close the Rank dialog box.
 
     The **Stories** related list is not sorted by your ranking initially.
 
@@ -38,7 +42,7 @@ A product owner or release planner uses this tool to establish the order in whic
 
     \[Omitted image "SortByRankOption.png"\] Alt text: Sort by rank option
 
-5.  To return the sort order of the list to an unranked state, click once in the heading of any column that contains data.
+5.  To return the list to an unranked sort order, select the heading of any column that contains data.
 
     The system uses this ranked list to display the appropriate backlog in the planning board. For example, if you rank stories in the **Stories** related list in the Release form, the release backlog in the planning board uses the same ranking to display the stories. Conversely, scrum masters, product owners, and release planners can create a new ranking order for the **Stories** related list by rearranging the list of stories in the planning board.
 

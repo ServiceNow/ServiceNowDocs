@@ -7,9 +7,9 @@ release: australia
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
+breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
 ---
 
 # Natural language queries use cases and examples

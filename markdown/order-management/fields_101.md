@@ -80,7 +80,7 @@ The following blueprint includes all the different field options and display var
 
 [ServiceNow CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/system_fields_vs_partner_fields.md)
 
-[Field type display options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/field-type-display-options.md)
+[Field type display options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 [Grid-style fields and field collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/what_field_type_should_i_use_for_organizing_field_options_and_data.md)
 

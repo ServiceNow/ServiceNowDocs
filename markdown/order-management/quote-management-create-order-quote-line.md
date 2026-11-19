@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-management-create-order-quote-line.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -31,7 +31,7 @@ When you create an order from a quote, the quote line items, along with other re
 
 ## Procedure
 
-1.  In the CRM Workspace, select **List** \[Omitted image "list-outline-24.svg"\] Alt text: view and select **Quotes** &gt; **All**
+1.  In the CSM Configurable Workspace, select **List** \[Omitted image "list-outline-24.svg"\] Alt text: view and select **Quotes** &gt; **All**
 
 2.  Open the quote that you want to create an order from.
 

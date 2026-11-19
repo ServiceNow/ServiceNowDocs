@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/deal-registration-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -87,20 +87,24 @@ Key task concepts:
 -   Tasks can be assigned to any internal ServiceNow® user, beyond deal agents.
 -   Non-deal users automatically receive the Fulfiller role to work on assigned tasks.
 -   Each deal can have zero to many tasks based on work requirements.
--   Tasks are visible in the Partner CRM Workspace but not on the Partner portal.
+-   Tasks are visible in the Partner CSM Configurable Workspace but not on the Partner portal.
 -   When a deal is archived or deleted, all associated tasks are automatically archived or deleted.
 
 -   **[Install Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-deal-registration-management.md)**  
 Install the plugin \(com.snc.deal\_registration\_management\), along with the demo data and installations that are related to ServiceNow® Store applications and plugins.
 -   **[Data model for Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/data-model-for-deal-registration-management.md)**  
 The deal registration management data model provides a framework for channel partners to establish a consistent and organized engagement model with channel partners.
+-   **[Deal Registration approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-approvals-overview.md)**  
+Enable deal agents to submit deals for approval through a configurable approval workflow built on the Advanced Approval Management framework.
+-   **[Deal registration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-tasks.md)**  
+Create and manage tasks associated with a deal registration to organize work, track progress, and delegate deal-related activities.
 
 **Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 

@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up your workspace, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Set up your workspace, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Add custom fields to the Express List preview panel
@@ -44,4 +44,6 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 ## Result
 
 The Info tab on the preview panel displays the custom fields at the bottom of the fields list.
+
+**Parent Topic:**[Set up your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/set-up-your-workspace.md)
 

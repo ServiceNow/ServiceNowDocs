@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 11
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -50,7 +50,7 @@ Select one of the following scan types:-   **Configuration items**: Uses Discove
 -   **Serverless**: Finds CIs without needing to run discovery on a host, or CIs on a proxy host that is already in the CMDB. See [Serverless Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/serverless-discovery.md) for more information.
 -   **Cloud application**: Discovers only the cloud resources for the patterns that you specify. See [Discovery for cloud environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cloud-discovery-wizard.md) for instructions.
 -   **Cloud resources**: Discovers resources for one of the supported [cloud providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cloud-discovery-wizard.md). This option only appears when you [run Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-manager.md) on a cloud service account. You can’t select it from a new Discovery schedule.
--   **Certificates**. Discovers certificates based on URLs. Selecting this option adds the Certificate Discovery Type field: URL Certificate Discovery. See [Run Certificate Discovery via individual URL scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/run-cert-inventory-mgmt-urls.md) for more information.
+-   **Certificates**. Discovers certificates based on URLs. Selecting this option adds the Certificate Discovery Type field: URL Certificate Discovery. See [Run certificate discovery via individual URL scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/run-cert-inventory-mgmt-urls.md) for more information.
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Max Idle time
 
 </td><td>
 
-Set a time limit for inactivity during discovery to automatically cancel stalled processes and log the event. A discovery is considered idle only when no input records are being processed and nothing is left in the processing state. Idle time is measured from the most recent change to an ECC Queue record. The configured idle time is fixed at the start of the discovery and won’t reflect any edits until the next run. If no value is entered in this field, this schedule runs until complete or canceled.**Note:** By default, the **Max Idle time** field doesn’t display in the Discovery Schedule form. To include this parameter, open the Discovery Schedules \[discovery\_schedule\] table, add the column, and configure the Max Idle time directly in the table. For information about customizing columns in tables, see [Personalize a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md).
+Set a time limit for inactivity during discovery to automatically cancel stalled processes and log the event. A discovery is considered idle only when no input records are being processed and nothing is left in the processing state. Idle time is measured from the most recent change to an ECC Queue record. The configured idle time is fixed at the start of the discovery and won’t reflect any edits until the next run. If no value is entered in this field, this schedule runs until complete or canceled.**Note:** By default, the **Max Idle time** field doesn’t display in the Discovery Schedule form. To include this parameter, open the Discovery Schedules \[discovery\_schedule\] table, add the column, and configure the Max Idle time directly in the table. For information about customizing columns in tables, see .
 
 </td></tr><tr id="row_Run893873"><td>
 

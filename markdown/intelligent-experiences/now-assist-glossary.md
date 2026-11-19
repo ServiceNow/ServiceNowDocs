@@ -5,18 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-glossary.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-09"
 reading_time_minutes: 7
-breadcrumb: [Implementing AI, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
 # AI glossary
 
 Learn about the terms and concepts used on the ServiceNow AI Platform.
-
-## AI Admin Hub
-
-A console for administrators to quickly set up, configure, and monitor generative AI features and capabilities offered on the ServiceNow AI Platform.
 
 ## AI Analytics
 
@@ -54,19 +50,19 @@ The AI agent is a virtual worker that performs specific tasks leveraging tools f
 
 ## AI compliance
 
-AI compliance refers to the adherence to regulatory requirements, standards, and guidelines governing the development, deployment, and use of artificial intelligence systems. It involves ensuring that AI systems are designed and implemented in a way that meets legal, ethical, and organizational standards. This includes addressing issues related to data privacy, bias, transparency, and accountability. You can manage it through audit trails, model life cycle management, and data masking by using AI Control Tower in ServiceNow AI Platform.
+AI compliance refers to the adherence to regulatory requirements, standards, and guidelines governing the development, deployment, and use of artificial intelligence systems. It involves ensuring that AI systems are designed and implemented in a way that meets legal, ethical, and organizational standards. This includes addressing issues related to data privacy, bias, transparency, and accountability. You can manage it through audit trails, model life cycle management, and data masking by using Control Tower in ServiceNow AI Platform.
 
 ## AI Control Tower
 
-AI Control Tower is a centralized governance hub for managing AI models, agents, and compliance across the ServiceNow AI Platform. It provides visibility into model usage, performance, risk and compliance, and is integrated with AI Admin Hub.
+AI Control Tower is a centralized governance location for managing AI models, agents, and compliance across the ServiceNow AI Platform. It provides visibility into model usage, performance, and risk and compliance.
 
 ## AI governance
 
-AI governance refers to the set of policies, procedures, and standards that guide the development, deployment, and use of AI systems within an organization. It ensures that AI systems are aligned with organizational values, comply with regulatory requirements, and are used in a responsible and transparent manner. In ServiceNow AI Platform, you can manage AI governance through AI Control Tower, AI Trust Guard, and role-based access in AI Admin Hub.
+AI governance refers to the set of policies, procedures, and standards that guide the development, deployment, and use of AI systems within an organization. Its purpose is to help keep AI systems aligned with organizational values and regulatory requirements, and used in a responsible and transparent manner. In ServiceNow AI Platform, you can manage AI governance with AI Control Tower.
 
 ## AI steward
 
-An AI steward within ServiceNow AI Platform is a governance role responsible for overseeing the life cycle of AI assets, including models, data sets, and prompts. You can use AI stewards in AI Control Tower to coordinate governance activities between legal, security, compliance, and innovation teams for the responsible deployment of AI agents, skills, and models across the platform.
+An AI steward within ServiceNow AI Platform is a governance role responsible for overseeing the life cycle of AI assets, including models, data sets, and prompts. You can use AI stewards in Control Tower to coordinate governance activities between legal, security, compliance, and innovation teams for the responsible deployment of AI agents, skills, and models across the platform.
 
 ## citation
 
@@ -81,8 +77,6 @@ A user-defined AI capability tailored to meet specific business needs. It is cre
 A feature on the ServiceNow AI Platform that translates user input to English and then translates the AI-generated responses back to the user's preferred language.
 
 ## External Content Connectors
-
-External
 
 External Content Connectors is a ServiceNow® Store application that enables AI Search to index and search content from external repositories like Atlassian Confluence Cloud and Microsoft SharePoint Online. It expands search capabilities to include external content while maintaining original access permissions.
 
@@ -116,7 +110,7 @@ A feature in ServiceNow Otto for Virtual Agent that allows users to order catalo
 
 ## native translation
 
-A feature in ServiceNow Otto that uses integrated large language models \(LLMs\) to generate responses in the user's preferred language. You can enable and configure it in the AI Admin Hub.
+A feature in ServiceNow Otto that uses integrated large language models \(LLMs\) to generate responses in the user's preferred language. You can enable and configure it in the AI Admin Center: **All** &gt; **AI Admin Center** &gt; **Settings** &gt; **Multilingual Service**.
 
 ## offensive content detection
 
@@ -137,6 +131,10 @@ Q&amp;A Genius Results in ServiceNow Otto provide users with concise, actionable
 ## Retrieval Augmented Generation
 
 Retrieval Augmented Generation is a generative AI technique that enhances large language model \(LLM\) outputs by retrieving relevant enterprise content, such as knowledge articles or records and using it as context to generate more accurate and actionable responses. Within ServiceNow, RAG is implemented in products like ServiceNow Otto for AI Search, where it powers Genius Results cards by combining AI Search with generative responses. It is also configurable in AI Agent Studio, allowing admins to define RAG based tools that retrieve external or internal data to support autonomous or supervised agentic workflows.
+
+## ServiceNow Otto
+
+ServiceNow Otto refers to generative AI experiences on the ServiceNow AI Platform. With ServiceNow Otto, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
 
 ## ServiceNow Otto context menu
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-13"
 reading_time_minutes: 1
 keywords: [deactivate AI specialist, turn off AI specialist, disable AI specialist]
-breadcrumb: [Use in AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Use in AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
 ---
 
 # Deactivate an AI specialist in AI Agent Studio

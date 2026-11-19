@@ -1,34 +1,26 @@
 ---
-title: AI Data Kit admin \(sn\_data\_kit.admin\)
-description: Provides access to all AI Data Kit features, including everything that the analyst role allows.
+title: AI Data Kit roles \(sn\_data\_kit.admin\)
+description: Users with this role can create, update, and publish datasets and data collections in AI Data Kit. This role includes all permissions granted by sn\_data\_kit.analyst.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-data-kit/data-kit-admin-role.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit
 topic_type: reference
-last_updated: "2026-09-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [sn\_data\_kit.admin, Now Assist Data Kit]
-breadcrumb: [AI Data Kit reference, AI Data Kit, Managing data for AI, Enable AI Experiences]
+breadcrumb: [AI Data Kit reference, AI Data Kit, Enable AI experiences]
 ---
 
-# AI Data Kit admin \(sn\_data\_kit.admin\)
+# AI Data Kit roles \(sn\_data\_kit.admin\)
 
-Provides access to all AI Data Kit features, including everything that the analyst role allows.
+Users with this role can create, update, and publish datasets and data collections in AI Data Kit. This role includes all permissions granted by `sn_data_kit.analyst`.
 
 ## Contains Roles
 
 List of roles contained within the role.
 
--   canvas\_user
--   fd\_read\_operations
--   global\_tags\_creator
--   sn\_data\_kit.analyst
--   sn\_diagram\_builder.db\_read
--   sn\_udc.basic\_read
--   sn\_workflow\_studio.workflow\_studio\_read
--   snc\_required\_script\_writer\_permission
+None.
 
 ## Groups
 
@@ -38,6 +30,5 @@ None.
 
 ## Special considerations
 
--   This role doesn't include AI Skill Kit roles. To evaluate skills with data collections, assign the required AI Skill Kit roles separately.
--   This role doesn't grant read access to instance tables. To add records from a table as a dataset, you also need a role that can read that table.
+The `sn_aia.viewer` role \(Now Assist AI Agents viewer\) inherits `sn_data_kit.admin`. As a result, any user assigned `sn_aia.viewer` — for example, to grant read-only access to the AI Agent Analytics dashboard — also receives full AI Data Kit admin permissions. This behavior is unintended and is tracked under PRB2003416. Until the defect is resolved, review the roles assigned to `sn_aia.viewer` users before deploying that role broadly in governance-sensitive environments.
 

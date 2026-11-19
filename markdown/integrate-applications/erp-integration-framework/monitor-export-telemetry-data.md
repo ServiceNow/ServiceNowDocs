@@ -44,3 +44,5 @@ Role required: sn\_erp\_integration.erp\_admin
 8.  Select **Export**.
 
 
+**Parent Topic:**[Monitor Zero Copy Connector for ERP transactions and logged errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md)
+

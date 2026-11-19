@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/create-specification-relationships-somt.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-06"
 reading_time_minutes: 3
 breadcrumb: [Defining attribute mapping, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -32,7 +32,7 @@ Optionally, you can create decomposition rules for the selected source and targe
 
 ## Procedure
 
-1.  Open CRM Workspace.
+1.  Open CSM Configurable Workspace.
 
 2.  Navigate to **List** &gt; **Specifications** and select a specification type.
 

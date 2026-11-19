@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring Smart Assessment from new templates, Set up Smart Assessment questionnaires, Questionnaires, Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---

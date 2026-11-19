@@ -1,5 +1,5 @@
 ---
-title: Install Incident Management for Field Service
+title: Activate Incident Management for Field Service
 description: You can install the Incident Management for Field Service application \(sn\_fsm\_inc\_mng\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-integrations/Install-incident-for-fsm.html
@@ -7,12 +7,12 @@ release: australia
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Integration with Incident Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
 
-# Install Incident Management for Field Service
+# Activate Incident Management for Field Service
 
 You can install the Incident Management for Field Service application \(sn\_fsm\_inc\_mng\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
@@ -21,7 +21,7 @@ You can install the Incident Management for Field Service application \(sn\_fsm\
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Incident Management for Field Service requires the following plugins. Ensure that these plugins are activated before you install Incident Management for Field Service.
     -   **Required ServiceNow plugins**
-        -   **CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)**
+        -   **CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\)**
 
             Enable your agents so they can engage with customers, answer questions, create cases, and resolve issues. For more information, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md).
 

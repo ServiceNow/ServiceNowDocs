@@ -1,16 +1,16 @@
 ---
-title: Configure data catalog
+title: Configuring the data catalog
 description: You can plan and configure a Data Catalog implementation in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/configure-data-catalog.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Data Catalog, Workflow Data Fabric]
 ---
 
-# Configure data catalog
+# Configuring the data catalog
 
 You can plan and configure a Data Catalog implementation in your organization.
 

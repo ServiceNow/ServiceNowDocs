@@ -8,7 +8,7 @@ product: MID Server
 classification: mid-server
 topic_type: reference
 last_updated: "2026-10-29"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [iPKI, mid.ipki.enabled, DefaultSecurityKeyPairHandle]
 breadcrumb: [MID Server IPKI authentication, Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -73,19 +73,80 @@ The number of days before a certificate expires at which the MID Server attempts
 
 MID Server sends a signed JSON Web Token \(JWT\) to its instance as a bearer token with each request, so that the instance can authenticate the MID Server. The payload of the token contains the JWT claims used by IPKI.
 
-|Claim|Description|
-|-----|-----------|
-|`iss`|The common name \(CN\) of the leaf certificate. The instance requires this claim and rejects the token if the value does not match the CN of the certificate in the token header.|
-|`sub`|The user that the MID Server acts as. The MID Server takes it from the `UID` field of its certificate, using the part after the hyphen. The instance resolves the acting user using this claim.|
-|`aud`|The target instance. The instance requires this claim. The claim value must match the instance name, the instance ID, the default instance URL, or a URL that contains the active instance DNS name. The instance rejects the token if the value does not match.|
-|`exp`|The time at which the token expires. It is the issue time plus the value of the **mid.jwt.token\_ttl** parameter. The default value is 15 minutes, with a minimum of 60 seconds and a maximum of 1 hour. The instance requires this claim and allows 10 seconds of clock skew.|
-|`nbf`|The time at which the token becomes valid. The MID Server sets it to the issue time, so the token is valid as soon as it is created. The instance requires this claim and allows 10 seconds of clock skew.|
-|`iat`|The time at which the token was issued.|
-|`nonce`|A random value that makes each token unique. The MID Server adds it to every token.|
-|`jti`|A unique ID for the token. The MID Server does not set this claim.|
-|`htm`, `htu`|The HTTP method and the path of the request. These claims are optional. If they are present, the instance checks them against the request.|
+<table id="table-mid-ipki-claims"><thead><tr><th>
 
-The instance also checks that the token header type is `kaa+jwt`. The header must contain the certificate chain. The signature must verify with the public key of the leaf certificate.
+Claim
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+`iss`
+
+</td><td>
+
+The MID Server that sends the request to the instance. The MID Server is identified through the given name \(GN\) attribute of the leaf certificate in the token header. The instance requires this claim and rejects the token if the value does not match the GN of the certificate.
+
+</td></tr><tr><td>
+
+`sub`
+
+</td><td>
+
+The sys\_id of the user account that the MID Server uses to connect to the instance. The MID Server resolves it from the UID attribute of its certificate. The instance uses this claim to find the user.
+
+</td></tr><tr><td>
+
+`aud`
+
+</td><td>
+
+The target instance. The claim contains the instance ID, which the MID Server takes from the surname \(SN\) attribute of its certificate. The instance rejects the token if the value does not match the instance ID.
+
+</td></tr><tr><td>
+
+`exp`
+
+</td><td>
+
+The time at which the token expires. It is the issue time plus the value of the **mid.jwt.token\_ttl** parameter. The default value is 15 minutes, with a minimum of 60 seconds and a maximum of 1 hour. The instance requires this claim and allows 10 seconds of clock skew.
+
+</td></tr><tr><td>
+
+`nbf`
+
+</td><td>
+
+The time at which the token becomes valid. The MID Server sets it to the issue time, so the token is valid as soon as it is created. The instance requires this claim and allows 10 seconds of clock skew.
+
+</td></tr><tr><td>
+
+`iat`
+
+</td><td>
+
+The time at which the token was issued.
+
+</td></tr><tr><td>
+
+`nonce`
+
+</td><td>
+
+A random value that makes each token unique. The MID Server adds it to every token.
+
+</td></tr><tr><td>
+
+`jti`
+
+</td><td>
+
+A unique ID for the token. The MID Server does not set this claim.
+
+</td></tr></tbody>
+</table>The instance also checks that the token header type is `kaa+jwt`. The header must contain the certificate chain. The signature must verify with the public key of the leaf certificate.
 
 ## Log messages and issues
 
@@ -93,7 +154,7 @@ The instance also checks that the token header type is `kaa+jwt`. The header mus
 |----------------|-----|----------|
 |`IPKI migration rejected: MID server is not validated`|The MID Server isn't validated.|Validate the MID Server, and then migrate it again.|
 |`IPKI migration rejected: MID server is already IPKI enabled`|The MID Server already uses IPKI.|The MID Server already uses IPKI. To confirm, check that the **mid.ipki.enabled** parameter is set to true in the MID Server configuration parameters.|
-|`Missing parameter: migration_key_payload_encrypted`|The instance didn't send the migration payload to the MID Server.|Contact Customer Service and Support and include the agent log.|
+|`Missing parameter: migration_key_payload_encrypted`|The instance didn't send the migration payload to the MID Server.|Contact Customer Service and Support, and include the agent log.|
 |`Failed to complete IPKI migration` or `Unexpected error during IPKI migration`|The migration failed after the MID Server accepted the request. The message includes the reason.|Use the reason in the message to find the cause. If it doesn't help, contact Customer Service and Support with the message text.|
 |`IPKI certificate rotation failed for alias DefaultSecurityKeyPairHandle`|The MID Server couldn't get a new certificate.|Check the instance logs for entries from the `sn_mid_infra` source to find more details about the failure.|
 |The `Mid-CertificateRotationRequired` issue|Rotation keeps failing, and the certificate expires in 7 days or less.|To fix the problem immediately, force rotation from the instance. The MID Server also retries rotation automatically every hour. If the instance returned an error code, check the instance logs for entries from the `sn_mid_infra` source for more details.|

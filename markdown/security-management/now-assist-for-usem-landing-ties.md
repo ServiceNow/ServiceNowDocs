@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/now-assist-for-usem-landing-ties.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-07-29"
 reading_time_minutes: 3
 breadcrumb: [Security Operations]
 ---
@@ -36,7 +36,7 @@ ServiceNow Otto introduced AI on the platform. As that experience has evolved, t
 
 </td><td>
 
-\[Omitted image "bus-ai-otto.svg"\] Alt text:Get supporting information about the AI agents and agentic workflows
+[\[Omitted image "bus-ai-otto.svg"\] Alt text:Get supporting information about the AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/now-assist-vulnerability-response-reference.md)
 
 </td><td>
 

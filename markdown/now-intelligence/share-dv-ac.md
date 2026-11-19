@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/share-dv-ac.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Share a visualization, Share a report]
 breadcrumb: [Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -23,7 +23,7 @@ Role required: You can share any data visualization that you created. When you s
 
 Users with the admin and viz\_admin roles can share all data visualizations. Only users with the admin and viz\_admin roles can share data visualizations with roles.
 
-Sharing a visualization with a user, group, or role adds that visualization to the **Shared with me** tab in the Data Visualizations overview. Any user with a role can list and view any visualization at the table level. Report\_view access control lists \(ACLs\) still apply no matter how the user gets to the visualization. Changes to ACLs can break data visualizations that are used in UI Builder.
+Sharing a visualization with a user, group, or role adds that visualization to the **Shared with me** tab in the Data Visualizations overview. Any user with a role can list and view any visualization at the table level. Report\_view access control lists \(ACLs\) still apply no matter how the user gets to the visualization. However, changes to ACLs can break data visualizations that are used in UI Builder.
 
 Edit rights granted by sharing a data visualization do not apply to that visualization when placed on a dashboard, but only in the Visualization Designer.
 
@@ -49,15 +49,15 @@ Edit rights granted by sharing a data visualization do not apply to that visuali
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d83492e165">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d82416e165">
 
 **Add as viewer**
 
 </td><td>
 
-Grant only viewing rights to the users, groups, or roles you share the visualization with. Users who only have viewing rights can make changes to the visualization, but aren't able to save those changes.
+Grant only viewing rights to the users, groups, or roles you share the visualization with. The recipients cannot edit it.
 
-</td></tr><tr><td id="d83492e174">
+</td></tr><tr><td id="d82416e174">
 
 **Add as editor**
 
@@ -101,7 +101,9 @@ Role required: You can change the access rights to any data visualization that y
 
 5.  When you locate the desired tile, expand the list of rights and select the rights to grant.
 
-    You can grant editing rights or only viewing rights. You can give or take away the right to share the data visualization. Lastly, you can remove the user, no longer sharing the data visualization with them.\[Omitted image "share-db-ac-manage.png"\] Alt text: Possible rights you can grant or deny a user to a data visualization that is shared with them.
+    You can grant editing rights or only viewing rights. You can give or take away the right to share the data visualization. Lastly, you can remove the user, no longer sharing the data visualization with them.
+
+    \[Omitted image "share-dv-manage.png"\] Alt text: The Share Visualization dialog showing tiles for every role with which the data visualization has been shared.
 
 
 ## Data visualization sharing reference qualifiers

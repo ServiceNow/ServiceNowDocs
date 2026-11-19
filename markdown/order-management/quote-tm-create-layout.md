@@ -83,3 +83,5 @@ A layout's variable name determines which stage it is associated with. The varia
 
 Deploy the blueprint to apply the updated layout at runtime.
 
+**Parent Topic:**[Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-layouts.md)
+

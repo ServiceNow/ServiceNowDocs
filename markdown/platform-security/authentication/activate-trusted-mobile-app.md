@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Adaptive authentication for Trusted mobile apps, Adaptive authentication, Authentication, Access Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Adaptive authentication for Trusted Mobile apps, Adaptive authentication, Authentication, Access Management]
 ---
 
 # Activate Trusted Mobile app
@@ -30,6 +30,8 @@ Role required: adaptive\_auth\_admin
 
     -   Enable the Authentication Policy \(**glide.authenticate.auth.policy.enabled**\)
     -   Enable Device Trust Flow \(**glide.authenticate.preauth.allow.trusted.device**\)
+    **Note:** An upgrade to Zurich can change **glide.authenticate.auth.policy.enabled** and the default policy of the Pre and Post Authentication Policy Contexts. See [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/changes-mfa-enforcement.md).
+
     \[Omitted image "enable-mobile-trust.png"\] Alt text: Adaptive Authentication Properties
 
     **Note:** To disable the device trust flow property, you must remove the conditions with trusted mobile filter. Otherwise, an error message is displayed to remove the conditions.
@@ -48,9 +50,9 @@ Role required: adaptive\_auth\_admin
 
     \[Omitted image "trusted-device-filter.png"\] Alt text: Auth Policy Context
 
-5.  In the Policy Conditions, create the condition by selecting **New**.
+5.  In the Policy Conditions, create the condition by clicking **New**.
 
-6.  On the form, fill in the fields.
+6.  On the form, fill the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -61,7 +63,7 @@ Role required: adaptive\_auth\_admin
 
     \[Omitted image "filter-condition.png"\] Alt text: Condition
 
-7.  Select **Submit**.
+7.  Click **Submit**.
 
 
 ## Result

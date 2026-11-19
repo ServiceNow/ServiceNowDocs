@@ -1,5 +1,5 @@
 ---
-title: Associate an AI-recommended citation to a regulatory alert
+title: AI-recommended citations for open regulatory alerts
 description: Associate a citation to an open regulatory alert by using the GRC: Predictive Intelligence application and a similarity solution model that uses an AI-recommended citation. Your compliance team can check the incoming regulatory alerts to determine if the citations or requirements apply to your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/ai-driven-regulatory-compliance-mapping.html
@@ -7,12 +7,12 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
-# Associate an AI-recommended citation to a regulatory alert
+# AI-recommended citations for open regulatory alerts
 
 Associate a citation to an open regulatory alert by using the GRC: Predictive Intelligence application and a similarity solution model that uses an AI-recommended citation. Your compliance team can check the incoming regulatory alerts to determine if the citations or requirements apply to your organization.
 

@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Viewing links between alerts in alert groups, Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups, Work with alert groups, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Viewing links between alerts in CMDB-based alert groups
@@ -23,6 +23,8 @@ When alerts on CIs that are located near each other in the CMDB topology occur w
 In this sample Link View of a CMDB-based alert group, the dashed line with the number 2 between the CIs indicates that the CIs are not connected directly. They are separated by two CIs in the service map in the CMDB topology. The sample CMDB service map also shows correlated CIs separated by two CIs.
 
 \[Omitted image "el-correlated-cis.png"\] Alt text: Sample service map with correlated CIs.
+
+**Parent Topic:**[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-link-view.md)
 
 **Related topics**  
 

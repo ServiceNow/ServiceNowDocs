@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-13"
 reading_time_minutes: 5
 keywords: [explore, autonomous workforce, AI specialist, AI agents, service desk]
-breadcrumb: [Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Autonomous Workforce, Enable AI experiences]
 ---
 
 # Exploring Autonomous Workforce

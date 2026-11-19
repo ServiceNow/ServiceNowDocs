@@ -7,7 +7,7 @@ release: australia
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Approve or reject outside counsel engagement request, Engage with outside counsel, Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ Role required:
 
 1.  Open a legal matter task.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d96812e84">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d97251e84">
 
 Method
 
-</th><th align="left" id="d96812e87">
+</th><th align="left" id="d97251e87">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d96812e93">
+</th></tr></thead><tbody><tr><td id="d97251e93">
 
 **Using Legal Counsel Center homepage**
 
@@ -53,7 +53,7 @@ Action
 5.  Navigate to the Legal Tracker Details section.
 
 
-</td></tr><tr><td id="d96812e143">
+</td></tr><tr><td id="d97251e143">
 
 **Using Legal Counsel Center lists**
 
@@ -67,7 +67,7 @@ Action
 6.  Navigate to the Legal Tracker Details section.
 
 
-</td></tr><tr><td id="d96812e209">
+</td></tr><tr><td id="d97251e209">
 
 **Using platform view**
 

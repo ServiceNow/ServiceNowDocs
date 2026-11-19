@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/now-assist-notifications.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-21"
 reading_time_minutes: 2
-breadcrumb: [Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Notification agent and agentic workflows in Notifications

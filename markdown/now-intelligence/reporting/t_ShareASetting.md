@@ -21,7 +21,7 @@ Control which users and groups can see a Core UI report.
 
 Role required: report owner, report\_admin, report\_global, or report\_group.
 
-This topic refers to Reporting in the Core UI. If your instance is a Brazil release or migrated to Platform Analytics experience, see [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/share-dv-ac.md).
+This topic refers to Reporting in the Core UI. If your instance is a Australia release or migrated to Platform Analytics experience, see [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/share-dv-ac.md).
 
 The creator of a report can share that report with any user. The following roles can share reports:
 
@@ -103,7 +103,7 @@ It is not possible to grant edit rights on a report when you share it.
 
 1.  Navigate to **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports** and select the report you want to control.
 
-    On instances with Unified Analytics enabled, and on new Brazil instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/differences-between-core-ui-ne-dbs.md).
+    On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/differences-between-core-ui-ne-dbs.md).
 
 2.  In the upper right side of the report form, select the **Sharing** icon \[Omitted image "square-share-fill-24.svg"\] and select **Share**.
 

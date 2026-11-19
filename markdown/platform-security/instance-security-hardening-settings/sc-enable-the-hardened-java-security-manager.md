@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
@@ -70,11 +70,11 @@ Default value
 
 </td><td>
 
-com.glide.sys.security.ContextualSecurityManager
+&lt;none&gt;
 
 </td></tr><tr><td>
 
-Fallback value
+Fallback valye
 
 </td><td>
 

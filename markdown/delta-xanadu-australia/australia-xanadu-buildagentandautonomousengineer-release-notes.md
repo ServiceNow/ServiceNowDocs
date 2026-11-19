@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-buildagentandautonomousengineer-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 27
 breadcrumb: [Products combined by family]
 ---
@@ -102,6 +102,10 @@ Zurich
 -   **[New model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=zurich&ft:locale=en-US)**
 
 Use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent.
+
+-   **[Opus 5.5 model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=zurich&ft:locale=en-US)**
+
+Use the Anthropic Claude Opus 5.5 model with Build Agent.
 
 
  -   **[New model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=zurich&ft:locale=en-US)**
@@ -344,7 +348,16 @@ Australia
 
 </td><td>
 
--   **[Generate implementations from specifications with Autonomous Engineer](https://www.servicenow.com/docs/access?context=autonomous-engineer&family=australia&ft:locale=en-US)**
+-   **[Opus 5.5 model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=australia&ft:locale=en-US)**
+
+Starting with Australia Patch 9, you can use the Anthropic Claude Opus 5.5 model with Build Agent and Autonomous Engineer.
+
+-   **[New model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=australia&ft:locale=en-US)**
+
+Starting with Australia Patch 8, you can use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent and Autonomous Engineer.
+
+
+ -   **[Generate implementations from specifications with Autonomous Engineer](https://www.servicenow.com/docs/access?context=autonomous-engineer&family=australia&ft:locale=en-US)**
 
 Use Autonomous Engineer, powered by Build Agent, to generate a complete implementation plan from your requirements.
 
@@ -597,11 +610,6 @@ Work with more metadata types, as Build Agent now supports the following:
     -   UI policies
     -   UI views
     -   Workspaces
-
- -   **[New model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=australia&ft:locale=en-US)**
-
-Use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent and Autonomous Engineer.
-
 
 </td></tr></tbody>
 </table>## Changes

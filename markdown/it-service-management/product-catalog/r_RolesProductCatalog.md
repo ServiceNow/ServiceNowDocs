@@ -7,7 +7,7 @@ release: australia
 product: Product Catalog
 classification: product-catalog
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Components installed with Product Catalog, Product Catalog, Asset Management common applications, IT Service Management]
 ---
@@ -34,11 +34,12 @@ model\_manager
 
 </td><td>
 
-Can create CMDB models.
+Can create CMDB models. Users with the model\_manager or asset role can create, edit, and delete hardware and consumable models. Creating, editing, and deleting model categories requires the category\_manager role, which contains the model\_manager role. The asset role contains the category\_manager role.
 
 </td><td>
 
-none
+-   catalog\_editor
+-   canvas\_user
 
 </td></tr><tr><td>
 

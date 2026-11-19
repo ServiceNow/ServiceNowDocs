@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-23"
 reading_time_minutes: 7
 keywords: [action approval, tool gates, approval patterns, auto approval, hard gate, soft gate, arc policies]
-breadcrumb: [Working with Arc policy rules, Managing Arc policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Working with Arc policy rules, Managing Arc policies, Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Action approval flow in ServiceNow Arc
@@ -17,7 +17,7 @@ Tool gates, approval patterns, and auto approval decide whether each action Arc 
 
 Three controls decide whether an action runs. Tool gates set how Arc handles each tool. Approval patterns identify the commands that need a person's decision. Auto approval lets an AI model reviewer approve some actions without prompting the user.
 
-\[Omitted image "cowork-action-flow.png"\] Alt text: Flowchart showing how an action is evaluated through the active policy check, tool gate modes, approval patterns, auto approval, and environment controls.
+\[Omitted image "arc-action-flow.png"\] Alt text: Flowchart showing how an action is evaluated through the active policy check, tool gate modes, approval patterns, auto approval, and environment controls.
 
 Every action passes through these controls in the following order:
 

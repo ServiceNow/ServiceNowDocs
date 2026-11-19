@@ -51,3 +51,5 @@ REST connections to Oracle E-Business Suite support basic authentication. For de
 
 REST faults are reported with detailed error information so you can identify which request failed and why. For more information, see [Monitor Zero Copy Connector for ERP transactions and logged errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md).
 
+**Parent Topic:**[Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md)
+

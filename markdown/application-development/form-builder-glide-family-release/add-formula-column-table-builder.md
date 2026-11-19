@@ -7,44 +7,35 @@ release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2026-10-22"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Field configuration, Reference, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
+breadcrumb: [Field configuration in Table Builder, Table Builder reference, Table Builder, Builder library, Developing your application, Building applications]
 ---
 
 # Add a formula to a column in Table Builder
 
 Use a predefined function or create a formula to calculate a value for a column without writing a script in Table Builder. You can use two or more functions to create a formula according to your requirements.
 
-## About this task
-
-The following limitations apply when adding formulas to columns:
-
--   You can add a formula to a column only if the table is in the same scope as the application.
--   You can't add a formula to unsupported columns, function field columns, or columns that already use a script as the calculated value.
-
 ## Before you begin
 
-Role required: formula\_read and either personalize\_dictionary or AES user role and delegated developer permissions. For more information, see the following resources:
-
--   [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md)
--   [Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/accessing-form-builder.md)
+-   The scope of the table should be within the scope of the application. Otherwise, you cannot add a formula to a column in the table that is outside the scope of the app.
+-   Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
-1.  From the **Data** or **Forms** tab, select the Open side panel icon \(\[Omitted image "side-panel-icon.png"\] Alt text: Open side panel icon\) for a column.
+1.  From the **Data** or **Forms** tabs, click the Open side panel icon \(\[Omitted image "side-panel-icon.png"\] Alt text: Open side panel icon\) for a column.
 
-2.  In the **Config** tab of the **Formula** section, select **+ Add**.
+2.  In the **Config** tab of **Formula** section, click **+ Add**.
 
-3.  Enter a predefined function or a formula in the Formula editor modal.
+3.  Enter a predefined function or a formula in the **Formula editor** modal.\[Omitted image "formula-builder-table-builder.gif"\] Alt text: Formula editor modal in Table Builder
 
-    For example, to combine the First name and Last name column values into a Full name column, enter `CONCATENATE(first_name,last_name)`. For syntax guidance and examples, select a function in the auto-suggestion list as you type. For all available functions, see [Formulas for column values in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/formulas-columns-table-builder.md).
+    For example, to concatenate the First name column value with the Last name column value and populate the Full name column value, enter `CONCATENATE(first_name,last_name)`. For more information about available predefined functions and example formulas, see [Formulas for column values in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/formulas-columns-table-builder.md)
 
-    **Note:** A formula can use only fields that you have read access to, including fields reached by dot-walking.
+    For syntax guidance and examples, click the function in the auto-suggestion that appears as you begin typing.
 
-    \[Omitted image "formula-builder-table-builder.gif"\] Alt text: Formula editor modal in Table Builder
+    **Note:** You cannot add a formula for unsupported columns, columns that are function fields, and the columns that already have script as the calculated value type.
 
-4.  Select **Submit**.
+4.  Click **Submit**.
 
 
 ## Result

@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Defining portal styles, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -240,7 +240,7 @@ The Service Portal package that the JS include is associated with. For example, 
 </td></tr></tbody>
 </table>
 -   **[Enable dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-dark-theme.md)**  
-Use a Coral dark theme on a portal to improve focus, readability, and accessibility.
+Use Coral dark theme on a portal to improve focus, readability, and accessibility.
 -   **[Create a theme variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/create-theme-variant.md)**  
 Create a theme variant from the Coral theme. A theme variant uses customizable styling CSS variables and branding options to tailor the visual experience for your users.
 

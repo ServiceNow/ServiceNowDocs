@@ -1,5 +1,5 @@
 ---
-title: Clear pasteboard when app backgrounds
+title: Require clearing pasteboard when backgrounding mobile application
 description: The glide.sg.clear\_pasteboard\_when\_backgrounded property controls if text copied from ServiceNow mobile app is kept in the clipboard and pasteboard after the app is in background mode. If it is not set to the recommended value of true, then sensitive information may be disclosed to the Android or iOS clipboard where it can be exposed to other applications on the device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-require-clearing-pasteboard-when-backgrounding-mobile-application.html
@@ -7,14 +7,14 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-13"
 reading_time_minutes: 1
 breadcrumb: [Data protection, Hardening settings, Platform Security]
 ---
 
-# Clear pasteboard when app backgrounds
+# Require clearing pasteboard when backgrounding mobile application
 
-The **glide.sg.clear\_pasteboard\_when\_backgrounded** property controls if text copied from ServiceNow mobile app is kept in the clipboard and pasteboard after the app is in background mode. If it is not set to the recommended value of `true`, then sensitive information may be disclosed to the Android or iOS clipboard where it can be exposed to other applications on the device.
+The **glide.sg.clear\_pasteboard\_when\_backgrounded** property controls if text copied from ServiceNow mobile app is kept in the clipboard and pasteboard after the app is in background mode. If it is not set to the recommended value of true, then sensitive information may be disclosed to the Android or iOS clipboard where it can be exposed to other applications on the device.
 
 The **glide.sg.clear\_pasteboard\_when\_backgrounded** system property controls if text copied from ServiceNow mobile app is kept in the clipboard and pasteboard after the app is in background mode.
 
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-false
+&lt;none&gt;
 
 </td></tr><tr><td>
 

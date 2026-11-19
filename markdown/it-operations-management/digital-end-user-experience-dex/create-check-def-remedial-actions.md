@@ -7,9 +7,9 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-11-03"
 reading_time_minutes: 2
-breadcrumb: [Creating a PowerShell remedial action, Creating DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Creating a PowerShell remedial action, DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Create a check definition for a custom remedial action
@@ -20,7 +20,7 @@ Create a check definition and link it to the Agent Client Collector \(ACC\) plug
 
 -   [Create an ACC plugin package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/create-acc-plugin-structure.md)
 -   [Sign and verify the ACC plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/sign-verify-plugin.md)
--   The signed ACC plugin `tar.gz` file must be uploaded to the ServiceNow instance. For more information, see [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/create-edit-assets.md).
+-   Upload the signed ACC plugin `tar.gz` file to the ServiceNow instance. For more information, see [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/create-edit-assets.md).
 
 Role required: admin
 
@@ -32,20 +32,13 @@ Role required: admin
 
 3.  On the form, enter a name for the check definition in the **Name** field.
 
-    For example, `custom-script-check`.
+    For example, custom-script-check.
 
 4.  Select the check type to define how the output is processed after running the check definition.
 
     1.  In the **Check type** field, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: to navigate to the Check Types page.
 
-    2.  Always select the `DexContentAction` check type from the list.
-
-    3.  Add a timeout script for the remedial action check definition.
-
-        ```
-        var util = new sn_dex.DEXRemedialActionsUtils();
-        util.handleRemedialActionTimeout(request);
-        ```
+    2.  Always select the `DexContentActions` check type from the list.
 
 5.  In the **Command** field, enter the name of the `.rb` script included in the ACC plugin package.
 
@@ -55,20 +48,29 @@ Role required: admin
 
 6.  From the **When to send the check results** drop-down list, select when to send check results.
 
-7.  In the **Plugins** field, integrate the plugins in the ACC plugin package with the check definition.
+7.  In the Plugins field, integrate the plugins in the ACC plugin package with the check definition.
 
     1.  Select the Unlock plugins icon \[Omitted image "icon-visible-fields.png"\] Alt text:.
 
-    2.  In the **Select target record** field, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: and select the plugin or enter the plugin names.
+    2.  In the Select target record field, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: and select the plugin or type the plugin names.
 
-        For example, `acc-f-commons` and `acc-dex-custom`.
+        For example, acc-f-commons and acc-dex-custom.
 
-    3.  Select the Lock plugins icon \[Omitted image "icon-lock-visible-fields.png"\] Alt text:.
+    3.  Select the Lock Plugins icon \[Omitted image "icon-lock-visible-fields.png"\] Alt text:.
 
-8.  On the form, fill in the remaining fields.
+8.  Add a timeout script for the remedial action check definition.
+
+    ```
+    var util = new sn_dex.DEXRemedialActionsUtils();
+    util.handleRemedialActionTimeout(request);
+    ```
+
+9.  On the form, fill in the remaining fields.
 
     For a description of the field values, see [Agent Client Collector check definition page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/check-definition-form.md).
 
-9.  Select **Submit**.
+10. Select **Submit**.
 
+
+**Parent Topic:**[Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/remedial-actions-ps.md)
 

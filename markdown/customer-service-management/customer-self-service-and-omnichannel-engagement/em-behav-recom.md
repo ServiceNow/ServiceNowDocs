@@ -9,7 +9,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Default behavior of Engagement Messenger, Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Default behavior of Engagement Messenger, Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Proactive and Recommendations configuration for Engagement Messenger

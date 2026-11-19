@@ -7,9 +7,9 @@ release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Approve employee workplace reservation requests
@@ -26,15 +26,15 @@ Role required: approver\_user
 
 1.  Navigate to a reservation approval task.
 
-<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d492254e71">
+<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d494326e71">
 
 Application
 
-</th><th align="left" id="d492254e74">
+</th><th align="left" id="d494326e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d492254e80">
+</th></tr></thead><tbody><tr><td id="d494326e80">
 
 **Now Mobile**
 

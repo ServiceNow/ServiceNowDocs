@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Installing Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -56,4 +56,9 @@ For more information, see [Installed with Hardware Asset Management](https://raw
 
 
 **Parent Topic:**[Installing Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/installing-ham-app.md)
+
+**Related topics**  
+
+
+[Hardware Asset Management on Product Hub]()
 

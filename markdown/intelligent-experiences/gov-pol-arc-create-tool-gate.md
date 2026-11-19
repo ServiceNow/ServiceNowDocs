@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-22"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, tool gate, gate mode, safe pipe targets, transparent prefixes, auto approval, arc policies]
-breadcrumb: [Working with Arc policy rules, Managing Arc policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Working with Arc policy rules, Managing Arc policies, Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Create a tool gate for an Arc policy
@@ -27,7 +27,7 @@ The **Safe Pipe Targets** and **Transparent Prefixes** fields matter only for a 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Govern** &gt; **Policies** &gt; **Arc policies**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Govern** &gt; **Policies** &gt; **Arc policies**.
 
 2.  Select the policy you want to update.
 

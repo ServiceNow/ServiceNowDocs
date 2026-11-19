@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-na-display-experience-va.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI, Virtual Agent]
 breadcrumb: [Otto in Virtual Agent, Exploring Otto, ServiceNow Otto for Mobile, Mobile Platform]

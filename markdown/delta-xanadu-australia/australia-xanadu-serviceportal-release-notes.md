@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-serviceportal-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -109,7 +109,12 @@ Zurich
 
 </td><td>
 
--   **[Approval Info Record widget](https://www.servicenow.com/docs/access?context=approval-info-record-widget&family=zurich&ft:locale=en-US)**
+-   **ServiceNow Otto**
+
+The new `glide.sp.otto_onboarding.enabled` system property controls whether the ServiceNow Otto onboarding message is shown to users in all portals. The system property is set to `false` by default, so the ServiceNow Otto message does not appear in portals. Set the system property to `true` to have the ServiceNow Otto message appear on all portals except those listed in the `glide.sp.otto_onboarding.suppressed_portals` property.
+
+
+ -   **[Approval Info Record widget](https://www.servicenow.com/docs/access?context=approval-info-record-widget&family=zurich&ft:locale=en-US)**
 
 The Service Portal Approval Info Record widget shows details about the approval request and a full record for an approval including the activity stream.
 
@@ -138,7 +143,12 @@ Australia
 
 </td><td>
 
--   **[Configure Service Portal Approval Configuration record](https://www.servicenow.com/docs/access?context=configure-approval-assistance-ai-agent&family=australia&ft:locale=en-US)**
+-   **ServiceNow Otto**
+
+The new `glide.sp.otto_onboarding.enabled` system property controls whether the ServiceNow Otto onboarding message is shown to users in all portals. The system property is set to `false` by default, so the ServiceNow Otto message does not appear in portals. Set the system property to `true` to have the ServiceNow Otto message appear on all portals except those listed in the `glide.sp.otto_onboarding.suppressed_portals` property.
+
+
+ -   **[Configure Service Portal Approval Configuration record](https://www.servicenow.com/docs/access?context=configure-approval-assistance-ai-agent&family=australia&ft:locale=en-US)**
 
 The Approval assistance AI agent allows checklist generation from documents that are stored in integrated third-party cloud providers such as Microsoft SharePoint, Google Drive, or a custom internal table.
 
@@ -372,8 +382,6 @@ Australia
 Service Portal is a ServiceNow AI Platform feature that is active by default.
 
 
-**Important:** Service Portal is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 </td></tr></tbody>
 </table>## Additional requirements
 
@@ -527,7 +535,7 @@ Australia
 
 Use the Dark theme in Service Portal to improve focus and provide better accessibility support. This option is commonly used to alleviate eye strain and improve readability.
 
-    -   **[\[Placeholder link text to key t\_ConfigureAPage\]](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&family=australia&ft:locale=en-US)**
+    -   **[Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&family=australia&ft:locale=en-US)**
 
 Add and edit more semantic tags within the Service Portal Designer to define key areas of a portal to support clearer navigation and descriptions for screen readers. This update helps users who are blind or have low vision by making it easier for assistive technology to identify and understand different sections of each page.
 
@@ -621,7 +629,6 @@ Zurich
 </td><td>
 
 -   Starting with Zurich Patch 12, Now Assist is now ServiceNow Otto®. ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Service Portal. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
--   Use the `glide.sp.otto_onboarding.suppressed_portals` property to suppress the ServiceNow Otto onboarding message for specific Service Portal portals. Set the property value to a single portal sys\_id, or use a comma-separated list of sys\_ids for multiple portals. Users visiting any portal listed in this property will not see the onboarding message.
 -   Use the support for Service Portal in the iOS Google App.
 -   As an admin, configure the widget load order on Service Portal pages.
 -   As an admin, defer the loading of AI Search assets to enhance page performance.
@@ -635,7 +642,6 @@ Australia
 </td><td>
 
 -   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Service Portal. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
--   Use the `glide.sp.otto_onboarding.suppressed_portals` property to suppress the ServiceNow Otto® onboarding message for specific Service Portal portals. Set the property value to a single portal sys\_id, or use a comma-separated list of sys\_ids for multiple portals. Users visiting any portal listed in this property will not see the onboarding message.
 -   View the updated user interface for the Service Portal New Organization Chart widget. It includes additional display configurations, such as default and secondary field names.
 -   Use portal-specific authentication methods to allow users access to different portals without having to customize Service Portal authentication.
 -   Enhance Service Portal accessibility navigation for screen readers by using semantic tags.

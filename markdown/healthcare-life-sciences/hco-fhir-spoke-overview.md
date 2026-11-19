@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-fhir-spoke-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-01"
 reading_time_minutes: 1
 keywords: [HL7 FHIR Spoke, FHIR integration, IntegrationHub, Healthcare Operations]
 breadcrumb: [Healthcare and Life Sciences]
@@ -21,7 +21,7 @@ The HL7 FHIR Spoke connects ServiceNow to any HL7 FHIR R4-conformant server. It 
 
 ## Relationship to the EMR Provider Directory Sync
 
-The [EMR Provider Directory Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-landing.md) uses the HL7 FHIR Spoke as its FHIR transport layer. The spoke handles the FHIR server connection, OAuth authentication, pagination, and raw data retrieval; the EMR Provider Directory Sync owns all HCLS field mapping, upsert-key strategy, and dependency ordering. This separation keeps the spoke reusable across any flow that needs FHIR data while concentrating all Healthcare Operations logic in one place.
+The [EMR Provider Directory Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-emr-provider-directory-sync-landing.md) uses the HL7 FHIR Spoke as its FHIR transport layer. The spoke handles the FHIR server connection, OAuth authentication, pagination, and raw data retrieval; the EMR Provider Directory Sync owns all HCLS field mapping, upsert-key strategy, and dependency ordering. This separation keeps the spoke reusable across any flow that needs FHIR data while concentrating all Healthcare Operations logic in one place.
 
 You must install and activate the HL7 FHIR Spoke before you can use the EMR Provider Directory Sync. See the spoke documentation for activation and connection setup steps.
 

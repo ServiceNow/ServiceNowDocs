@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-30"
 reading_time_minutes: 1
-breadcrumb: [Slack Spoke AI agents, Integration Hub AI agents, Integration Hub, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Slack Spoke AI agents, Integration Hub AI agents, Integration Hub, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Slack user management AI agent

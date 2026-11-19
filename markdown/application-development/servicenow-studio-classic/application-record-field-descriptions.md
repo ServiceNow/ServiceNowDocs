@@ -8,8 +8,8 @@ product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: reference
 last_updated: "2026-10-08"
-reading_time_minutes: 3
-breadcrumb: [Reference, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+reading_time_minutes: 4
+breadcrumb: [Reference, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Custom Application record form

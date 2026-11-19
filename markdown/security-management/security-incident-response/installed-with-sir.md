@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-07-03"
 reading_time_minutes: 12
 breadcrumb: [Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -494,6 +494,18 @@ Manage the Security Incident Special Access \[sn\_si.special\_access\] role. Use
 </td><td>
 
 sn\_si.special\_access\_enabler
+
+</td></tr><tr><td>
+
+AI Security Incident Creator\[sn\_si.ai\_security\]
+
+</td><td>
+
+Grants read, write, and create access to security incidents with the AI Threat category only. Users with this role who don't have the sn\_si.basic role create security incidents with the AI Threat category by default.
+
+</td><td>
+
+N/A
 
 </td></tr><tr><td>
 

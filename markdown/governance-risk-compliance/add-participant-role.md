@@ -1,18 +1,18 @@
 ---
 title: Add a participant role for the scenario analysis
-description: Add a participant role for your scenario analysis in the Operational Resilience application to collect observations and recommendations by role and function.
+description: Add a participant role for your scenario analysis in the Operational Resilience application. You can collect the observations and recommendations of the participants by their roles and functions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-participant-role.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Add a participant role for the scenario analysis
 
-Add a participant role for your scenario analysis in the Operational Resilience application to collect observations and recommendations by role and function.
+Add a participant role for your scenario analysis in the Operational Resilience application. You can collect the observations and recommendations of the participants by their roles and functions.
 
 ## Before you begin
 
@@ -44,7 +44,7 @@ Depending on the scenario analysis type, such as a scenario analysis for critica
 
     See the sample configuration for a participant role as shown in the following example.
 
-    \[Omitted image "participant-role-record-choice.png"\] Alt text: Sample configuration for the GRC Choice New record form.
+    \[Omitted image "participant-role-record-choice.png"\] Alt text: Sample configuration for the GRC Choice record form.
 
 9.  Click **Submit**.
 

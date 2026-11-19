@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [use]
-breadcrumb: [Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Reviewing AI risk posture
@@ -17,7 +17,7 @@ Aggregated risk posture displays inherent risk, residual risk, and control effec
 
 ## Overview of AI risk posture
 
-Risk posture views in AI Control Tower help you understand the level of risk associated with AI assets and how that risk changes when control effectiveness is considered.
+Risk posture views in Control Tower help you understand the level of risk associated with AI assets and how that risk changes when control effectiveness is considered.
 
 At the portfolio level, risk posture views summarize how AI assets are distributed by risk level and highlight concentrations of higher-risk assets. At the AI system level, aggregated risk rating views show the relationship between inherent risk, control effectiveness, and resulting residual risk for a specific AI system.
 

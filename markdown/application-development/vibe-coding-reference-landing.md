@@ -5,15 +5,26 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-reference-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-03"
 reading_time_minutes: 1
 keywords: [reference]
-breadcrumb: [Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Agentic development reference
 
 Find reference material for agentic development on the ServiceNow AI Platform, including a list of tools and prompt examples.
+
+## Related reference information
+
+For reference information on the tools that you use for agentic development, see the following topics:
+
+-   [Supported metadata in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-supported-metadata.md)
+-   [Supported file types for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-supported-file-types.md)
+-   [Supported models and versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-models-versions.md)
+-   [Supported models for Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-supported-models.md)
+-   [Autonomous Engineer plan and work item states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+-   [Supported ServiceNow AI Platform features in Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-supported-features.md)
 
 -   **[ServiceNow Otto skills: Developer-oriented list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-skills-list-2.md)**  
 The ServiceNow AI Platform offers a range of skills that support efficiency in each development workflow.

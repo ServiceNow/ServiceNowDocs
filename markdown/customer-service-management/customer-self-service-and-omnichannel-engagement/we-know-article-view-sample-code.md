@@ -1,22 +1,24 @@
 ---
 title: Sample code for the Knowledge article view component
-description: Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
+description: Use this sample code to run an action when the Knowledge article view component triggers an event.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-know-article-view-sample-code.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Knowledge article view component, Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Sample code for the Knowledge article view component
 
-Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
+Use this sample code to run an action when the Knowledge article view component triggers an event.
 
 ## Sample code
+
+Update the sample code for your use case before embedding the component on your webpage.
 
 ```
 { 

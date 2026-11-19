@@ -35,7 +35,7 @@ Both admins and operators must be able to view the work done by the AI Specialis
 -   **[Monitoring AI operations in ITOM as an admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/ai-specialist-dashboard-metrics.md)**  
 The AIOps home page tracks operator activity and key metrics in real-time. It is available to all customers. Once your AI Specialist is active, additional metrics and capabilities unlock to help you measure impact, spot issues early, and report on AI performance over time.
 -   **[Overseeing AIOps AI Specialist in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/ai-supervisor-in-itom-aiops.md)**  
-The AIOps Supervisor home page helps supervisors review operational workload across selected assignment groups and monitor AIOps AI Specialist activity in Service Operations Workspace.
+The AIOps Supervisor home page helps supervisors review operational workload, monitor AIOps AI Specialist activity, and review alerts closed by AIOps AI Specialist in Service Operations Workspace.
 
 **Parent Topic:**[AIOps AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/ai-specialist-aiops-overview.md)
 

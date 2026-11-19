@@ -1,5 +1,5 @@
 ---
-title: Evaluation tab in AI Control Tower
+title: Evaluation tab in Control Tower
 description: The Evaluation tab contains the Evaluation dashboard, which is designed to measure, automate, and improve the quality of interactions with Virtual Agent. This dashboard addresses several key challenges to enhance the end-user experience and overall virtual agent utility.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-evaluation.html
@@ -7,13 +7,13 @@ release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Now Assist, Gen AI, generative AI, AI Governance, LLM]
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control Tower Home, Control Tower dashboard, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# Evaluation tab in AI Control Tower
+# Evaluation tab in Control Tower
 
 The **Evaluation** tab contains the Evaluation dashboard, which is designed to measure, automate, and improve the quality of interactions with Virtual Agent. This dashboard addresses several key challenges to enhance the end-user experience and overall virtual agent utility.
 

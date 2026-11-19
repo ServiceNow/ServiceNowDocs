@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-04"
+last_updated: "2026-11-05"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Webcrawler external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -28,6 +28,8 @@ Role required: sn\_ext\_conn.xcc\_admin
 This task is optional. By default, the Webcrawler external content connector crawls all pages and subdomains from its specified source system. Only perform this task if you want to specify inclusion or exclusion filters for the subdomains to crawl or pages to retrieve when running content crawls.
 
 Content is only retrieved from the source system if it passes all of your configured crawl setting filters. If any crawl setting filter excludes a content item, the external content connector doesn't retrieve it.
+
+**Note:** The webcrawler considers the `robots.txt` configuration of target websites when crawling content. Website owners remain responsible for defining and maintaining `robots.txt` directives. Crawling behavior may be limited by these directives, which can affect content discovery and indexing results.
 
 Each Webcrawler connector can retrieve up to 30,000 items \(URLs\) from its source system when running content crawls.
 
@@ -75,7 +77,7 @@ Each Webcrawler connector can retrieve up to 30,000 items \(URLs\) from its sour
     This option is only available when the Platform Multimodal Service plugin is activated on your instance.
 
     -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
-    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
+    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning with AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
 9.  Select **Save and validate**.
 
 

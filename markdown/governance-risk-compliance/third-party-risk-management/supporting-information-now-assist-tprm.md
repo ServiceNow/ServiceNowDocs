@@ -25,7 +25,7 @@ ServiceNow Otto for TPRM is supported starting from the Zurich patch 4 release.
 
 You can use Azure OpenAI, Google Gemini, or Anthropic Claude as the AI model providers for supported ServiceNow Otto® capabilities. Model availability depends on the feature and your AI licensing tier. For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-As of version 23.1.1, ServiceNow Otto for Third-party Risk Management \(TPRM\) supports Gemma 4 26B A4B, Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini models in addition to the previously supported models. The default model for the issue recommendation skill is Azure OpenAI gpt-4-5-mini.
+As of version 22.3.4, ServiceNow Otto for Third-party Risk Management \(TPRM\) supports Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini models in addition to the previously supported models. The default model for the issue recommendation skill is Azure OpenAI gpt-4-5-mini.
 
 ## Supported user interfaces
 
@@ -34,6 +34,8 @@ The ServiceNow Otto for TPRM application skills TPRM Issue Summarization and TPR
 ## Application information
 
 Activate the ServiceNow Otto for TPRM \(sn\_tprm\_gen\_ai\) store app.
+
+**Important:** After installation, all ServiceNow Otto for TPRM skills are made available but remain inactive. Activate each skill after installation. To turn on generative AI skills use the [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 For more information, see [Configure AI capabilities in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/configure-now-assist-for-tprm.md).
 

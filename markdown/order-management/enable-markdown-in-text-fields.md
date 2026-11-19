@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/enable-markdown-in-text-fields.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure fields, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -42,7 +42,7 @@ ServiceNow CPQ text fields support Markdown, a widely used, lightweight markup l
 **Related topics**  
 
 
-[Markdown syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/markdown-syntax-supported-in-servicenow-cpq.md)
+[Markdown syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 [Markdown options for read-only text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layout_readonlytext_markdown_options.md)
 

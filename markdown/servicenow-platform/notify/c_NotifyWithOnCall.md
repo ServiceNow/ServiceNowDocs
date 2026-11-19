@@ -7,7 +7,7 @@ release: australia
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Configure the following items to use Notify with On-Call Scheduling:
 -   You must configure workflows, such as the On-Call: Assign by Acknowledgement to drive escalations via SMS and Voice.
 
 -   **[Set up Notify with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/t_SetUpNotifyWithOnCall.md)**  
-You can configure on-call scheduling to use Notify functionality to send SMS alerts and assign users to tasks based on the SMS responses.
+Configure on-call scheduling to use Notify to send SMS alerts and assign users to tasks based on their SMS responses.
 -   **[Controlling the on-call communication channel with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_OnCallNotifyForceCommChannel.md)**  
 Configure On-Call Scheduling with Notify to always use a user's preferred communication channel.
 -   **[Call a user from the WebRTC UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/t_CallfromWEBRTCUI.md)**  

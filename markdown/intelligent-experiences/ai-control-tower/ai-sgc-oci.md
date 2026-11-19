@@ -1,22 +1,22 @@
 ---
 title: AI Service Graph Connector for OCI
-description: The AI Service Graph Connector for OCI enables you to discover and import AI assets from your OCI environment into ServiceNow AI Control Tower.
+description: The AI Service Graph Connector for OCI enables you to discover and import AI assets from your OCI environment into ServiceNow Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-sgc-oci.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
-breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Service Graph Connectors for Control Tower, AI connections, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI Service Graph Connector for OCI
 
-The AI Service Graph Connector for OCI enables you to discover and import AI assets from your OCI environment into ServiceNow AI Control Tower.
+The AI Service Graph Connector for OCI enables you to discover and import AI assets from your OCI environment into ServiceNow Control Tower.
 
-The AI Service Graph Connector for OCI integrates with your OCI account to catalog AI systems, agents, models, and prompts. Usage data is automatically collected and populated into the AI Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
+The AI Service Graph Connector for OCI integrates with your OCI account to catalog AI systems, agents, models, and prompts. Usage data is automatically collected and populated into the Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
 
 ## Request apps on the Store
 

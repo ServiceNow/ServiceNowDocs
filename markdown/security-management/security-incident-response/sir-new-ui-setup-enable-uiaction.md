@@ -1,5 +1,5 @@
 ---
-title: Enable UI Actions
+title: Legacy: Enable UI Actions
 description: Before you configure any UI Actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/sir-new-ui-setup-enable-uiaction.html
@@ -7,14 +7,18 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Additional Security Analyst Workspace configuration, Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Legacy: Additional Security Analyst Workspace configuration, Legacy: Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Enable UI Actions
+# Legacy: Enable UI Actions
 
 Before you configure any UI Actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace.
+
+**Important:**
+
+The Security Incident Response UI \[sn\_app\_secops\_ui\] is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-workspace-landing-page.md) instead.
 
 **Note:** To modify the UI actions, log in as a user with the following roles:
 

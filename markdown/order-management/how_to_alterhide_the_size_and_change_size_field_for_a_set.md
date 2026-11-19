@@ -35,7 +35,7 @@ For more information about how to control the size and behavior of sets, see [Us
 **Related topics**  
 
 
-[Example: Use a custom field to dynamically control set size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/example-use-a-custom-field-to-dynamically-control-set-size.md)
+[Example: Use a custom field to dynamically control set size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 [Configure sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sets.md)
 

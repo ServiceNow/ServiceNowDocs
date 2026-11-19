@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 2
 breadcrumb: [Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,7 +24,7 @@ Role required: ais\_admin
 
 ## About this task
 
-As an AI Search admin, you can perform this task to choose the fields from and indexed source's table that you want the system to index for semantic vector search. You can also choose the embedding models and content chunking strategy to use for semantically indexed content from the source table.
+Choose the fields from an indexed source's table that you want the system to index for semantic vector search. You can also choose the embedding models and content chunking strategy to use for semantically indexed content from the source table.
 
 ## Procedure
 

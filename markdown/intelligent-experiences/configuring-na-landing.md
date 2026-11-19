@@ -1,23 +1,21 @@
 ---
 title: Configuring plugins and skills in AI Admin Hub
-description: Use AI Admin Hub to configure AI plugins and skills available to your organization. Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center.
+description: Use AI Admin Hub to configure AI plugins and skills available to your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configuring-na-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-29"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, Admin, HRSD, HR Service Delivery, Creator]
-breadcrumb: [AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [AI Admin Hub, Enable AI experiences]
 ---
 
 # Configuring plugins and skills in AI Admin Hub
 
-Use AI Admin Hub to configure AI plugins and skills available to your organization. Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center.
+Use AI Admin Hub to configure AI plugins and skills available to your organization.
 
 ## Configuration overview
-
-**Note:** Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by [AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-landing-page.md). Everything you manage here is available in AI Admin Center, plus more tools to manage and get the most from AI. You can continue to use AI Admin Hub for a limited time during the transition. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Install and configure the plugins, turn on the ServiceNow Otto panel \(optional\), and view the account settings. You must have a license with AI capabilities before you can activate any skills.
 

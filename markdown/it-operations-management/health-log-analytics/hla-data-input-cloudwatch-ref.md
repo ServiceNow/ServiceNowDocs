@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-11"
 reading_time_minutes: 5
 breadcrumb: [Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -266,19 +266,154 @@ The AWS region where the Amazon CloudWatch cluster runs, for example, us-west-1.
  This field is required.
 
 </td></tr></tbody>
-</table>|Field|Description|Default value|
-|-----|-----------|-------------|
-|Connection timeout|The number of milliseconds to wait before timing out the AWS connection attempt.|1000|
-|Batch size|The maximum number of logs retrieved per query.|2500|
-|Socket timeout \(ms\)|The number of milliseconds to wait before timing out a data transfer over an established connection.|10000|
-|Default timezone|The default time zone used when a log doesn't include time zone information.|GMT|
-|Sub sample drop ratio|The number of logs to batch together, out of which one will be discarded. This setting is used to reduce the number of fetched logs.|-1|
-|Sub sample receive ratio|The number of logs to batch together, out of which all but one will be discarded. This setting is used to decrease the number of received logs.|-1|
-|Max length in bytes|The maximum length of log messages, in bytes.|32766|
-|Character encoding|The character encoding used for this data input. This field is read-only.|UTF-8|
-|Sleep interval|The interval, in seconds, to wait before querying again after a query has returned no logs.|60|
-|Polling interval|The interval, in seconds, to wait before polling for new logs.|0|
-|Drop if queue is full|Option to discard logs if many processes are waiting in the queue to access the MID Server.|Clear|
+</table><table id="table_awy_4s3_x4b"><thead><tr><th>
 
-**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+Field
+
+</th><th>
+
+Description
+
+</th><th>
+
+Default value
+
+</th></tr></thead><tbody><tr><td>
+
+Connection timeout \(ms\)
+
+</td><td>
+
+The number of milliseconds to wait before timing out the AWS connection attempt.
+
+</td><td>
+
+1000
+
+</td></tr><tr><td>
+
+Batch size
+
+</td><td>
+
+The maximum number of logs retrieved per query.
+
+</td><td>
+
+2500
+
+</td></tr><tr><td>
+
+Socket timeout \(ms\)
+
+</td><td>
+
+The number of milliseconds to wait before timing out a data transfer over an established connection.
+
+</td><td>
+
+10000
+
+</td></tr><tr><td>
+
+Default timezone
+
+</td><td>
+
+The default time zone used when a log doesn't include time zone information.
+
+</td><td>
+
+GMT
+
+</td></tr><tr><td>
+
+Sub sample drop ratio
+
+</td><td>
+
+The number of logs to batch together, out of which one will be discarded. This setting is used to reduce the number of fetched logs. For example, if you want one log out of every five to be dropped, change the value to 5.
+
+The default value is -1: No logs are discarded.
+
+</td><td>
+
+-1
+
+</td></tr><tr><td>
+
+Sub sample receive ratio
+
+</td><td>
+
+The number of logs to batch together, out of which one log will be received and the remaining ones discarded. This setting is used to reduce the number of received logs. For example, if you want to receive one log out of every five, change the value to 5.
+
+The default value is -1: Sub sampling is turned off and all logs are received.
+
+</td><td>
+
+-1
+
+</td></tr><tr><td>
+
+Max length in bytes
+
+</td><td>
+
+The maximum length of log messages, in bytes.
+
+</td><td>
+
+32766
+
+</td></tr><tr><td>
+
+Character encoding
+
+</td><td>
+
+The character encoding used for this data input. This field is read-only.
+
+</td><td>
+
+UTF-8
+
+</td></tr><tr><td>
+
+Sleep interval \(seconds\)
+
+</td><td>
+
+The interval, in seconds, to wait before querying again after a query has returned no logs.
+
+</td><td>
+
+60
+
+</td></tr><tr><td>
+
+Polling interval
+
+</td><td>
+
+The interval, in seconds, to wait before polling for new logs.The default value is 0: the data input polls again immediately, without waiting between polling cycles.
+
+</td><td>
+
+0
+
+</td></tr><tr><td>
+
+Drop if queue is full
+
+</td><td>
+
+Option to discard logs if many processes are waiting in the queue to access the MID Server.
+
+</td><td>
+
+Clear
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

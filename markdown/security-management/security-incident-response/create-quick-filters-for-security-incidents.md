@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -49,6 +49,8 @@ The newly created filter is saved and appears on the Filter page.
 
 **Related topics**  
 
+
+[Setup for the UI Builder]()
 
 [Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
 

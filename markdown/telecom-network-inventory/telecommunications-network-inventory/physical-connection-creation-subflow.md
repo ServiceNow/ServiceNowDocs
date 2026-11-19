@@ -1,20 +1,20 @@
 ---
-title: Physical Connection Creation subflow
-description: The Physical Connection Creation subflow enables you to create a physical connection record in the Telecommunications Network Inventory application. The record is based on the input that you receive when you instantiate an inventory.
+title: Physical connection creation subflow
+description: The Physical Connection Creation subflow enables you to create a physical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/physical-connection-creation-subflow.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Subflows, Reference, Telecommunications Network Inventory]
 ---
 
-# Physical Connection Creation subflow
+# Physical connection creation subflow
 
-The Physical Connection Creation subflow enables you to create a physical connection record in the Telecommunications Network Inventory application. The record is based on the input that you receive when you instantiate an inventory.
+The Physical Connection Creation subflow enables you to create a physical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
 
 You can use the Physical Connection Creation subflow to create a physical port connection on the interface cards in your networks.
 
@@ -39,7 +39,7 @@ The following table lists the input fields in the Physical Connection Creation s
 |CI Relationship|Type of configuration item \(CI\) relationship. By default, the Logical Creation subflow sets a CI relationship to **Terminated::Terminated by**.|Reference.CI Relationship Type|
 |Physical connection elements|sys\_id of the connection elements that are added for the physical connections. If the physical connection has the Connection Type attribute as Cable, you can add the connection element. Click the add icon \(\[Omitted image "add-icon-1.png"\] Alt text: Add icon.\) to add a connection element.|Array.String|
 
-To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
+To learn more about the variable data types, see Flow Designer input and output data variables.
 
 ## Output
 

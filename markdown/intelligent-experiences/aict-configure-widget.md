@@ -1,6 +1,6 @@
 ---
-title: Configure a page card in AI Control Tower
-description: Change how a card presents its data so that a page matches the terminology, level of detail, and reporting focus your organization works with.
+title: Configure a page card
+description: Change how a card on a Super Intelligence Control Tower page presents its data so that the page matches the terminology, level of detail, and reporting focus your organization works with.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-configure-widget.html
 release: australia
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-09-21"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring pages, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring pages, Configure, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Configure a page card in AI Control Tower
+# Configure a page card
 
-Change how a card presents its data so that a page matches the terminology, level of detail, and reporting focus your organization works with.
+Change how a card on a Super Intelligence Control Tower page presents its data so that the page matches the terminology, level of detail, and reporting focus your organization works with.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ You can configure cards on all pages and tabs except Activity Center, the Invent
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home**.
 
 2.  Navigate to the page that you want to configure.
 
@@ -41,15 +41,15 @@ You can configure cards on all pages and tabs except Activity Center, the Invent
 
     Leave a text field empty to keep the value that the card ships with.
 
-<table><thead><tr><th align="left" id="d41335e129">
+<table><thead><tr><th align="left" id="d45493e135">
 
 Common configuration options
 
-</th><th align="left" id="d41335e132">
+</th><th align="left" id="d45493e138">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d41335e138">
+</th></tr></thead><tbody><tr><td id="d45493e144">
 
 **Title override**
 
@@ -57,7 +57,7 @@ Description
 
 Enter the text that you want to display in the title of the card.
 
-</td></tr><tr><td id="d41335e147">
+</td></tr><tr><td id="d45493e153">
 
 **Subtitle override**
 
@@ -65,7 +65,7 @@ Enter the text that you want to display in the title of the card.
 
 Enter the text that you want to display in the subtitle of the card.
 
-</td></tr><tr><td id="d41335e156">
+</td></tr><tr><td id="d45493e162">
 
 **Empty-state message**
 
@@ -73,7 +73,7 @@ Enter the text that you want to display in the subtitle of the card.
 
 Enter the message that you want users to read when the card has no data to display.
 
-</td></tr><tr><td id="d41335e168">
+</td></tr><tr><td id="d45493e174">
 
 **Chart type**
 
@@ -81,7 +81,7 @@ Enter the message that you want users to read when the card has no data to displ
 
 Select the chart type that presents the data most clearly for your organization. For example, change a donut chart to a pie chart or a semi-donut chart or show a trend chart as an area chart.
 
-</td></tr><tr><td id="d41335e181">
+</td></tr><tr><td id="d45493e187">
 
 **Labels**
 
@@ -89,7 +89,7 @@ Select the chart type that presents the data most clearly for your organization.
 
 Adjust the label text to match the terms your organization uses.
 
-</td></tr><tr><td id="d41335e190">
+</td></tr><tr><td id="d45493e196">
 
 **Show category legend**
 
@@ -97,7 +97,7 @@ Adjust the label text to match the terms your organization uses.
 
 Show or hide the legend, depending on whether the labels repeat information that the chart already conveys.
 
-</td></tr><tr><td id="d41335e199">
+</td></tr><tr><td id="d45493e205">
 
 **Number of rows and sort order**
 
@@ -107,7 +107,7 @@ Show or hide the legend, depending on whether the labels repeat information that
 2.  Select the sort order so that the list opens on the records you want to review first, such as the lowest scores rather than the highest.
 
 
-</td></tr><tr><td id="d41335e217">
+</td></tr><tr><td id="d45493e223">
 
 **Additional filter**
 
@@ -117,7 +117,7 @@ Show or hide the legend, depending on whether the labels repeat information that
 2.  Add more conditions as needed.
  The condition builder is available only for cards that read directly from tables on your instance. The condition also applies to the page that the card navigates to.
 
-</td></tr><tr><td id="d41335e238">
+</td></tr><tr><td id="d45493e244">
 
 **Show view-all arrow**
 
@@ -125,7 +125,7 @@ Show or hide the legend, depending on whether the labels repeat information that
 
 Show or hide the arrow icon to view all items.
 
-</td></tr><tr><td id="d41335e247">
+</td></tr><tr><td id="d45493e253">
 
 **View-all URL**
 
@@ -135,7 +135,7 @@ Enter the URL that you want the arrow icon to open, so that users move to the li
 
  This setting is available only for cards that already include an icon for navigating to another page.
 
-</td></tr><tr><td id="d41335e263">
+</td></tr><tr><td id="d45493e269">
 
 **Optional card elements**
 
@@ -144,7 +144,7 @@ Enter the URL that you want the arrow icon to open, so that users move to the li
 Turn off the elements that your organization doesn't track, to reduce the amount of information on a page. For example, you might hide token statistics, trend lines, a filter dropdown, or the chart in a card that also displays a total.
 
 </td></tr></tbody>
-</table>    \[Omitted image "aict-edit-widget-example.png"\] Alt text: Configuration options shown when editing the Inventory card on the AI Control Tower Home page.
+</table>    \[Omitted image "aict-edit-widget-example.png"\] Alt text: Configuration options shown when editing the Inventory card on the Home page.
 
 6.  Return a card to the settings it ships with by selecting **Reset**.
 
@@ -157,14 +157,14 @@ Turn off the elements that your organization doesn't track, to reduce the amount
 
 ## Result
 
-AI Control Tower users see the configured cards the next time the page loads.
+Control Tower users see the configured cards the next time the page loads.
 
-**Parent Topic:**[Configuring pages in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-page-widgets.md)
+**Parent Topic:**[Configuring pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-page-widgets.md)
 
 **Related topics**  
 
 
-[Configuring pages in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-page-widgets.md)
+[Configuring pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-page-widgets.md)
 
 [Creating or extending pages with pro-code tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-create-extend-pages-pro-code-tools.md)
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-02"
 reading_time_minutes: 2
 keywords: [governance insight recommendations, stalled lifecycle tasks, significant issues]
-breadcrumb: [Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Act on AI asset governance insight recommendations
@@ -25,7 +25,7 @@ The Your top recommendations widget on the **Risk &amp; Compliance** tab under *
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Govern** &gt; **Risk &amp; Compliance**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Govern** &gt; **Risk &amp; Compliance**.
 
 2.  Act on recommendations from Stalled Lifecycle Tasks:
 

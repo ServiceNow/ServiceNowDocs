@@ -7,7 +7,7 @@ release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Reference, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -21,4 +21,23 @@ Below are the flows that run on different timelines.
 |Sync reservation paths from Reservable module configuration flow|Workplace Reservation Management|True|Daily|This flow checks the current Reservable module configuration of Reservation paths and synchronizes it with the Reservation path records.|
 |Process reservations stuck in sync required|Workplace Calendar Synchronization|True|Repeats every 15 minutes|This flow triggers synchronization for reservations that have been waiting for a third party data for more than 15 minutes \(for example Virtual Meeting details\) before triggering a sync call to the calendar.|
 |Renew Subscriptions|Microsoft Exchange Online Spoke|True|Daily|This flow retrieves all the subscription records and renews them if renewal is required, based on their expiration time. If a subscription is marked with status as Being deleted, then the record is deleted and is not considered for renewal.|
+
+**Parent Topic:**[Workplace Calendar Synchronization references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-references.md)
+
+**Related topics**  
+
+
+[Components installed with Workplace Calendar Synchronization]()
+
+[Properties installed with Workplace Calendar Synchronization]()
+
+[Scheduled jobs installed with Workplace Calendar Synchronization]()
+
+[Instance scan findings]()
+
+[Provider form]()
+
+[Third-party OAuth Provider form]()
+
+[Resolving connection setup issues in Workplace Calendar Synchronization]()
 

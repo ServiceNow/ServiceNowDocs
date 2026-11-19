@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Quality Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -55,8 +55,6 @@ For more information, see [Field Service Quality Management components](https://
 
 **Related topics**  
 
-
-[Field Service Quality Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/quality-management-fsm.md)
 
 [Review a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/review-send-task-back.md)
 

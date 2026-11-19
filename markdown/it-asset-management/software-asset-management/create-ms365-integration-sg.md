@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a Microsoft 365 integration
@@ -31,11 +31,11 @@ Complete the steps in the [Request Software Asset Management](https://raw.github
 
 1.  Integrate with Microsoft 365 in the cloud for user subscription data.
 
-    For more information, see [Create a Microsoft 365 integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/set-up-microsoft-office-365.md).
+    For more information, see [Create a Microsoft 365 integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/set-up-microsoft-office-365.md).
 
 2.  Configure Microsoft Power BI for gaining access to Power BI service content and APIs.
 
-    Power BI service content and APIs help optimize your Microsoft 365 subscriptions, such as by downgrading subscriptions from Office 365 E5 to Office 365 E3. For more information, see [Enable service principal authentication for Power BI read-only APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/enable-service-principal-authentication-microsoft.md).
+    Power BI service content and APIs help optimize your Microsoft 365 subscriptions, such as by downgrading subscriptions from Office 365 E5 to Office 365 E3. For more information, see [Enable service principal authentication for Power BI read-only APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/enable-service-principal-authentication-microsoft.md).
 
 3.  Integrate with an inventory tool for installation usage data.
 

@@ -1,5 +1,5 @@
 ---
-title: Background scripts
+title: Scripts - Background module
 description: Administrators can use the Scripts - Background module to run arbitrary JavaScript code from the server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_ScriptsBackground.html
@@ -7,14 +7,14 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Write server-side scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Server-side scripting, Scripting, API implementation, API implementation and reference]
 ---
 
-# Background scripts
+# Scripts - Background module
 
-Administrators can use the **Scripts - Background** module to run arbitrary JavaScript code from the server.
+Administrators can use the Scripts - Background module to run arbitrary JavaScript code from the server.
 
 The Scripts - Background module consists of the following components.
 
@@ -33,7 +33,7 @@ When a script is run, the instance displays results, information, and error mess
 
 To stop a transaction, see [View and kill active transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ViewAndKillAnActiveTransaction.md).
 
-For examples of scripts you could run, see [Example scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/usefulScripts.md).
+For examples of scripts you could run, see [Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/usefulScripts.md).
 
-**Parent Topic:**[Writing server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/server-side-scripting-overview.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ServerScripting.md)
 

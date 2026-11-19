@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Kubernetes, Visibility, overview, Cloud Native Operations for Visibility, CNO for Visibility]
 breadcrumb: [Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]

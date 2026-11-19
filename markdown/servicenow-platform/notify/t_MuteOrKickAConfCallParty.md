@@ -1,20 +1,20 @@
 ---
 title: Mute or remove a conference call participant
-description: As a communications manager, you can mute or kick conference call participants.
+description: Mute or remove a participant from an active conference call if you are a host.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/t\_MuteOrKickAConfCallParty.html
 release: australia
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using Notify for making conference calls, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Mute or remove a conference call participant
 
-As a communications manager, you can mute or kick conference call participants.
+Mute or remove a participant from an active conference call if you are a host.
 
 ## Before you begin
 

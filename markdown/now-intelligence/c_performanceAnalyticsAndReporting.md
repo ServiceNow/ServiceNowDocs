@@ -1,17 +1,17 @@
 ---
 title: Platform Analytics
-description: Optimize processes and increase productivity with the Platform Analytics applications. These applications include Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
+description: Optimize processes and increase productivity with the Platform Analytics applications. These applications include Reporting, Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/c\_performanceAnalyticsAndReporting.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 ---
 
 # Platform Analytics
 
-Optimize processes and increase productivity with the Platform Analytics applications. These applications include Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
+Optimize processes and increase productivity with the Platform Analytics applications. These applications include Reporting, Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
 
 ## Get started
 
@@ -48,7 +48,7 @@ Explore the many options for showing data in [data visualizations](https://raw.g
 
 \[Omitted image "db-with-filters-for-lp.png"\] Alt text: Platform Analytics dashboard showing Incidents by category in a data visualization with a filter being selected.
 
-## Now Assist in Platform Analytics
+## ServiceNow Otto for Platform Analytics
 
 Leverage AI to generate insights into data. Ask for data visualizations in the ServiceNow Otto panel.Explore data on your own or with a collaborative group in AI Data Explorer, where you can have not only data visualizations but summaries and conversations.
 

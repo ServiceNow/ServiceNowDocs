@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-11-02"
 reading_time_minutes: 4
 keywords: [system properties, tables, roles, access control, ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Properties, tables, and roles installed with Build Agent

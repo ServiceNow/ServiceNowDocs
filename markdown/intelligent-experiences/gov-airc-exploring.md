@@ -1,29 +1,29 @@
 ---
 title: Exploring Risk and Compliance
-description: Risk and Compliance in AI Control Tower provides a summary of regulatory classification, compliance, and risk across your AI portfolio and individual AI assets.
+description: Risk and Compliance in Control Tower provides a summary of regulatory classification, compliance, and risk across your AI portfolio and individual AI assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-airc-exploring.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-30"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [explore]
-breadcrumb: [Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing risk and compliance, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Exploring Risk and Compliance
 
-Risk and Compliance in AI Control Tower provides a summary of regulatory classification, compliance, and risk across your AI portfolio and individual AI assets.
+Risk and Compliance in Control Tower provides a summary of regulatory classification, compliance, and risk across your AI portfolio and individual AI assets.
 
 ## Risk and Compliance overview
 
-Risk and Compliance in AI Control Tower provides governance visibility for AI systems at the portfolio level and the individual AI system level.
+Risk and Compliance in Control Tower provides governance visibility for AI systems at the portfolio level and the individual AI system level.
 
 The Risk and Compliance page shows summarized signals across AI assets, including recommendations, regulatory risk classification, compliance posture, compliance score, aggregated risk scores, and risk heat maps. The summaries help stakeholders identify trends, prioritize attention, and focus on higher-risk areas of the AI portfolio.
 
 When you access a record from your AI asset inventory, the **Risk &amp; Compliance** tab provides detailed governance information for that AI asset. Details include its regulatory risk classification, compliance score, aggregated risk score, compliance posture for priority frameworks, risk heat map, and related governance records.
 
-AI Control Tower displays these outcomes for oversight. Risk assessments, control execution, remediation, and other governance activities are managed through related governance solutions and supporting workflows.
+Control Tower displays these outcomes for oversight. Risk assessments, control execution, remediation, and other governance activities are managed through related governance solutions and supporting workflows.
 
 ## Risk and Compliance users
 
@@ -45,7 +45,7 @@ AI Control Tower displays these outcomes for oversight. Risk assessments, contro
 
 ## What to explore next
 
-For more information about Risk and Compliance in AI Control Tower, see:
+For more information about Risk and Compliance in Control Tower, see:
 
 -   [Classifying AI assets by regulatory risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-regulatory-classification.md)
 -   [Regulatory risk classification reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-ref-regulatory-classification.md)
@@ -53,7 +53,7 @@ For more information about Risk and Compliance in AI Control Tower, see:
 -   [AI risk score calculation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-ref-risk-score-calculation.md)
 -   [Compliance score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-compliance-score-calculation.md)
 -   [AI system compliance score calculation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-ref-compliance-score.md)
--   [Configuring Risk and Compliance in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-configuring.md)
+-   [Configuring Risk and Compliance in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-configuring.md)
 -   [Reviewing AI governance posture and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-using.md)
 -   [Reviewing regulatory classification and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-regulatory-status.md)
 -   [Reviewing AI risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-risk-posture.md)

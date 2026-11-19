@@ -1,6 +1,6 @@
 ---
 title: Partner Passport Portal release notes
-description: Partner Passport Portal is available in Workflow Data Fabric that enables you to apply committed fabric credits toward partner applications, such as Boomi. Partner Passport Portal is a new feature in the Brazil release.
+description: Partner Passport Portal is available in Workflow Data Fabric that enables you to apply committed fabric credits toward partner applications, such as Boomi. Partner Passport Portal is a new feature in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/partner-passport-portal-rn.html
 release: australia
@@ -8,12 +8,12 @@ topic_type: topic
 last_updated: "2026-10-29"
 reading_time_minutes: 1
 keywords: [Partner Passport Portal, Boomi, fabric credits, partner applications]
-breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # Partner Passport Portal release notes
 
-Partner Passport Portal is available in Workflow Data Fabric that enables you to apply committed fabric credits toward partner applications, such as Boomi. Partner Passport Portal is a new feature in the Brazil release.
+Partner Passport Portal is available in Workflow Data Fabric that enables you to apply committed fabric credits toward partner applications, such as Boomi. Partner Passport Portal is a new feature in the Australia release.
 
 ## About Partner Passport Portal
 

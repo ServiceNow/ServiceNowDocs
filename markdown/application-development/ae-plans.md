@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ae-plans.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-11-09"
 reading_time_minutes: 1
 keywords: [Autonomous Engineer, plans, Build Agent, plan dashboard, plan view, work items]
 audience: programmer
-breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Use, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Plans in Autonomous Engineer

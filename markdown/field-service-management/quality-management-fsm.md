@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/quality-management-fsm.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Explore, Field Service Management]
 ---
 
@@ -19,6 +19,8 @@ Field Service Quality Management allows reviewers to check work order tasks befo
 The Field Service Quality Management feature helps you manage work orders efficiently and effectively. With this feature, field technicians can close work orders, and reviewers can review the quality and data from the job before it’s completed. This helps ensure that work is completed to a high standard.
 
 Reviewers can check soft-closed work orders and audit the quality and data of the job before final completion. The reviewer can send the work order task back to the technician, so the technician can provide the requested information. This way, any necessary feedback or adjustments can be made before the work order is officially closed.
+
+When Field Service Quality Management is active, closing a work order task as Closed Complete doesn't immediately close the parent work order. If the task meets the criteria for quality review, its substate is set to **Pending review**. The work order closes only after a reviewer approves the task, which sets the substate to **Complete**. If the reviewer sends the task back for more information, the substate changes to **Needs information**. The work order stays open until the agent updates the task and the reviewer approves it.
 
 Overall, the Field Service Quality Management feature streamlines the process of closing work orders and ensures that work is completed to a high standard with effective communication and reporting.
 

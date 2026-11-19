@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/move-data-interfaces-products-to-prod-wdf.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-26"
 reading_time_minutes: 1
 breadcrumb: [Data Products, Workflow Data Fabric]
 ---

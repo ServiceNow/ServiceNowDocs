@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/channels-access-aw-new.html
 release: australia
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-11-13"
 reading_time_minutes: 1
-breadcrumb: [Create an agentic workflow, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
 ---
 
 # Select channels for an agentic workflow
@@ -21,6 +21,8 @@ Role required: sn\_aia.admin
 ## About this task
 
 In this section of the agentic workflow guided setup, you configure where the agentic workflow can be invoked.
+
+Once access channels are selected, agentic workflow executions are available in the AI Workflows panel. See [In-product experience for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/in-product-agentic-ai.md).
 
 ## Procedure
 
@@ -50,6 +52,8 @@ In this section of the agentic workflow guided setup, you configure where the ag
 ## Result
 
 You have completed the channels section of the guided setup for creating an agentic workflow.
+
+If you added a UI action for your agentic workflow, but the UI action is not appearing on forms, ensure that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`.
 
 ## What to do next
 

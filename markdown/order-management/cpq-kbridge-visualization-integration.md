@@ -14,7 +14,7 @@ breadcrumb: [Integrating ServiceNow CPQ with visualization tools, ServiceNow CPQ
 
 Integrate kBridge for real-time 3D visualization. Sync configuration inputs with visual updates to enhance user experience.
 
-ServiceNow CPQ supports several different 3D visualization options in the end-user configuration experience. ServiceNow CPQ can be implemented to use kBridge as a visualization component. The component is updated in real time in the ServiceNow CPQ UI as the user changes configuration inputs \(one-way communication\). In addition, bidirectional \(two-way\) communication may be defined so that user manipulations of the graphic update ServiceNow CPQ configuration fields.
+ServiceNow CPQ supports several different 3D visualization options in the end-user configuration experience. ServiceNow CPQ can be implemented to use kBridge as a visualization component that is updated in real time in the ServiceNow CPQ UI as the user changes configuration inputs \(one-way communication\). In addition, bidirectional \(two-way\) communication may be defined so that user manipulations of the graphic update ServiceNow CPQ configuration fields.
 
 The following video shows how to integrate ServiceNow CPQ with kBridge for real-time updates:
 
@@ -99,7 +99,7 @@ width: number
   },
   setActiveTriggers: ['set.set2.triggerBoolean'],
   listenerFields: { 
-    listenerFieldName: { name: 'logikTestSet', refChain: 'world.application.model' }
+    listenerFieldName: { name: 'ServiceNow CPQTestSet', refChain: 'world.application.model' }
   },
   height: 800,
   width: 1200,
@@ -108,23 +108,6 @@ width: number
 
 -   `name` corresponds to the field or rule name in kBridge.
 -   `refChain` corresponds to the model path of this object in kBridge.
-
-## Output URL callback \(optional\)
-
-Render output can optionally be sent to a specified URL. To do this, set `callbackUrlField` on the layout JSON kBridge component to the variable name of a field whose value is the desired target URL. When the session closes, kBridge sends the output URLs \(as defined in `outputSources`\) to that URL with a POST request. Optional: `callbackQuoteIdField`, `callbackAuthTokenField` and `callbackCustomTokenField` name fields whose values are sent as the `X-QuoteId`, `Authorization: Bearer` and `X-CustomToken` headers. `appendQuoteId: true` appends the quote ID to the URL.
-
-```
-{
-  "callbackUrlField": "drawingCallbackUrl",
-  "callbackQuoteIdField": "quoteId",
-  "callbackAuthTokenField": "callbackAuthToken",
-  "callbackCustomTokenField": "callbackCustomToken",
-  "appendQuoteId": true,
-  "outputSources": [
-    { "name": "outputsUrl", "refChain": "world.root" }
-  ]
-} 
-```
 
 ## Reference
 

@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Word content controls, Self-served contract request, Configure contract templates, Configure Contract Workspace, Configure Obligation Management, Create word document template, Contract configuration, Legal document word template, Microsoft Word add-in for ServiceNow Contracts]
 breadcrumb: [Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -28,5 +28,5 @@ Microsoft Word add-in for ServiceNow Contracts enables you to add content contro
 
 The Microsoft Word add-in enables you to add content controls on both macOS systems as well as on Windows systems, whereas adding content controls manually works only on Windows system.
 
-For more information on content controls and how to configure contract template, see [Add document content controls using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.md) and [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md).
+For more information on content controls and how to configure contract template, see [Add document content controls using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.md) and [Creating a contract template using Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md).
 

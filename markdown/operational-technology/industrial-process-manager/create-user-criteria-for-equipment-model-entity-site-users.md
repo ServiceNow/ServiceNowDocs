@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** User criteria configurations aren't available with the ISA Equipment Model version 4.2.0. For more information see, [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/granular-access-control-isa-equipment.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/granular-access-control-isa-equipment.md).
+**Note:** User criteria configurations aren't available with the ISA Equipment Model version 4.2.0. For more information see, .
 
 Use the user criteria to determine whether certain users can read or edit equipment model entities for specific sites. After you create a user criteria record, you can assign it to a site to control who can read and edit the equipment model entities. You can further assign the OT roles to users or groups to enable them access to OT devices that are assigned to those same sites. For more information, see [Assign Operational Technology Manager roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/assign-operational-technology-manager-roles.md).
 

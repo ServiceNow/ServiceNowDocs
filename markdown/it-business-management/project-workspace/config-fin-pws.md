@@ -7,9 +7,9 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Configure financials for Project Workspace

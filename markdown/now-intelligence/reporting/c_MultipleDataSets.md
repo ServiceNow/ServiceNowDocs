@@ -7,7 +7,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -66,13 +66,13 @@ Starting with Australia, you can find both Core UI dashboards and Platform Analy
 
     You can add additional sets to bar, horizontal bar, line, column, area, and spline reports.
 
-3.  Click the **Show report structure** icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Show report structure\).
+3.  Select the **Show report structure** icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Show report structure\).
 
     \[Omitted image "show-report-structure-add-dataset.png"\] Alt text: Add dataset example: Open Show report structure from a bar report
 
 4.  Select **Add dataset**.
 
-5.  On the **Data** tab, provide a custom name for the additional data set to appear in the legend of the report, select a data source, and click the **Configure** tab.
+5.  On the **Data** tab, provide a custom name for the additional data set to appear in the legend of the report, select a data source, and select the **Configure** tab.
 
     \[Omitted image "add-dataset-group-by-example.png"\] Alt text: Add dataset example: Name the dataset from the Data tab
 
@@ -86,7 +86,7 @@ Starting with Australia, you can find both Core UI dashboards and Platform Analy
 
 7.  On the **Style** tab, specify the following fields the same way that you would configure a standalone report.
 
-8.  Click **Save dataset**.
+8.  Select **Save dataset**.
 
 
 ### Result

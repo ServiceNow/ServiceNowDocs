@@ -14,12 +14,12 @@ breadcrumb: [Engagement Messenger reference, Reference, Customer Service Managem
 
 Understand the configuration of the Walk-up feature in Engagement Messenger module to configure the field values.
 
-To enable the walk-up feature for your customers, activate the following plugins in your ServiceNow instance:
+To enable the walk-up feature for your customers, do the following in your ServiceNow instance:
 
--   Walk-up for CSM plugin \(com.snc.walkup\_for\_csm\) for authenticated users
--   Guest Walk-up Experience for Customer Service plugin \(sn\_guest\_walkup\_cs\) for unauthenticated users
+-   Activate Walk-up for CSM plugin \(com.snc.walkup\_for\_csm\) for authenticated users
+-   Install the store app Guest Walk-up Experience for Customer Service \(sn\_guest\_walkup\_cs\) for unauthenticated users
 
-Once the plugin is active:
+After the plugin is active:
 
 1.  Navigate to the Features section of the guided configuration view of your Engagement Messenger module.
 2.  Enable the **Walk-up** feature.

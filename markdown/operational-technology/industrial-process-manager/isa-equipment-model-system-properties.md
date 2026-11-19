@@ -120,6 +120,18 @@ The default is set to false.
 
 Boolean
 
+</td></tr><tr><td>
+
+sn\_otsm.equipment\_model.max\_search\_results
+
+</td><td>
+
+Searching for an equipment model entity shows up to 200 matching entities. When there are more, a message asks you to refine your search.If you're assigned the cmdb\_ot\_isa\_admin role, you can change this limit \(up to 1000\) using this system property.
+
+</td><td>
+
+Integer
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
 

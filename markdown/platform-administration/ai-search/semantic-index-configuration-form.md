@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -17,9 +17,11 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Semantic Index Configuration form enables you to define semantic indexing settings for an AI Search indexed source.
 
-For details on defining and modifying semantic indexing settings for an indexed source, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-semantic-indexing-ais.md).
+You can access this form from the Semantic Index Configuration related list on the Indexed Source form.
 
 **Note:** This form is only available when the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) is active on your instance. To activate this plugin, your instance must have at least one [ServiceNow Otto® application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md) installed.
+
+For details on defining and modifying semantic indexing settings for an indexed source, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-semantic-indexing-ais.md).
 
 <table id="table_t1b_wjh_xcc"><thead><tr><th>
 
@@ -46,8 +48,8 @@ Embedding Models
 List of embedding models to use for the semantic index configuration.-   Default value: **ServiceNow Embedding \(E5\)**
 -   Supported values:
     -   **ServiceNow Embedding \(E5\)**: Use the E5 fine-tuned embedding model for content in the semantic index. The embedding model's encoder limit is 512 terms.
-    -   Azure OpenAI Embedding: Use the Azure OpenAI fine-tuned embedding model for content in the semantic index. For more information, see [Configuring your embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/setting-up-3p-embedding-models.md).
-    -   Google Gemini Embedding: Use the Google Gemini fine-tuned embedding model for content in the semantic index. For more information, see [Configuring your embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/setting-up-3p-embedding-models.md).
+    -   Azure OpenAI Embedding: Use the Azure OpenAI fine-tuned embedding model for content in the semantic index. For more information, see [Configuring an external or custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/setting-up-3p-embedding-models.md).
+    -   Google Gemini Embedding: Use the Google Gemini fine-tuned embedding model for content in the semantic index. For more information, see [Configuring an external or custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/setting-up-3p-embedding-models.md).
     -   Custom Embedding: Use the custom fine-tuned embedding model for content in the semantic index. For more information, see [Configuring bring your own model \(BYOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/creating-byom.md).
 
 </td></tr><tr><td>

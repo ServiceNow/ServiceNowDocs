@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/autonomous-engineer.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-28"
+last_updated: "2026-11-09"
 reading_time_minutes: 4
 keywords: [Autonomous Engineer, Build Agent, implementation plan, agentic development, ServiceNow Studio, agent packs, work items, parallel execution]
 audience: programmer
-breadcrumb: [Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Autonomous Engineer
@@ -18,7 +18,7 @@ The ServiceNow® Autonomous Engineer application is an agentic AI worker that bu
 
 Autonomous Engineer takes your requirements as input, generates an implementation plan, and implements each work item in the plan. During planning and implementation, it applies implementation guidelines for the ServiceNow AI Platform. It also generates and runs Automated Test Framework \(ATF\) tests for each work item.
 
-Autonomous Engineer is available in ServiceNow Studio and supports custom applications and agent pack implementations.
+Autonomous Engineer is available in ServiceNow Studio and supports custom applications.
 
 ## Get started
 
@@ -77,15 +77,4 @@ This application requires data to be transferred from ServiceNow customers' indi
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for chat summarization, resolution notes generation, knowledge generation, call summarization\), chat transcripts \(for chat recommendation\), and email information \(for email response\). Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md).
-
--   **[Exploring Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-autonomous-engineer.md)**  
-Autonomous Engineer is an agentic worker that accepts requirements, generates a structured implementation plan, and builds all work items in parallel using background agents.
--   **[Configure Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configure-autonomous-engineer.md)**  
-Configure Autonomous Engineer by installing it from the ServiceNow Store and enabling the features required for planning and parallel execution on your instance.
--   **[Using Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-using-autonomous-engineer.md)**  
-Use Autonomous Engineer to provide requirements, review an implementation plan, and build all work items in parallel using background agents in Build Agent.
--   **[Autonomous Engineer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/autonomous-engineer-reference-landing.md)**  
-Reference information for Autonomous Engineer, including work item states, agent packs, and supported capabilities in Build Agent.
-
-**Parent Topic:**[Build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-ai-workflow-factory-prime.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [generative AI for financial services operations generate summary, generative AI for FSO generate summary]
 breadcrumb: [Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
@@ -33,10 +33,8 @@ The case summarization skill provides you with a concise summary of a banking ca
 The case summarization skill is available in Financial Services Workspace and in Core UI.
 
 -   In Financial Services Workspace, use the Case summary by Now Assist component to generate a summary. The component appears in the following areas:
-    -   Insurance: Next to the claim details panel.
-        -   Claims processor: On the Claim Summary tab
-        -   Claims adjuster: On the Claim Workspace and Claim Summary tabs
-    -   Card dispute: Next to the case information panel.
+    -   Insurance: Next to the claim details panel in the claim summary page, claim workspace, and claim details page
+    -   Card dispute: Between the activities and case information panel
 -   In Core UI, select the **Summarize** button on the case record to generate a summary.
 
 The case summarization skill checks the case record to determine if enough information is available to create a summary:
@@ -46,46 +44,38 @@ The case summarization skill checks the case record to determine if enough infor
 
 If there’s enough data, the Case summary component displays the **Summarize** button. If there isn’t enough data, the component displays a message in place of the button.
 
-**Note:** The generated summary is intended for informational purposes only. Review AI-generated summaries for accuracy and appropriateness before you rely on them.
-
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Financial Services Workspace** and open a claim or card dispute.
 
 2.  In the Case Summary component, select **Summarize**.
 
-    \[Omitted image "now-assist-fso-summarize-dispute.png"\] Alt text: Selecting Summarize generates a case summary for the dispute or claims case.
-
-    Before you generate a summary, the component displays **AI can summarize this claim case** or **AI can summarize your dispute** next to the **Summarize** button.
-
-    When the summary is generated, the Case Summary component expands to display the summary. For longer summaries that don't fit the window, select **Show more** and use the scroll bar to view the rest of the content.
+    The Case Summary component appears next to the claim details panel or case information panel. The component is collapsed by default and expands to display the summary. For longer summaries that don't fit the window, select **View more** and use the scroll bar to view the rest of the content.
 
     **Note:** Generating and displaying the summary may take several seconds.
 
-    \[Omitted image "now-assist-fso-dispute-summary.png"\] Alt text: The format of a generated summary for a dispute case.
-
 3.  When you're finished summarizing a case, you can perform additional actions.
 
-<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d35242e299">
+<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d35201e231">
 
 Option
 
-</th><th align="left" id="d35242e302">
+</th><th align="left" id="d35201e234">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d35242e308">
+</th></tr></thead><tbody><tr><td id="d35201e240">
 
 **Save the summary information by adding it to the case work notes**
 
 </td><td>
 
-1.  Select **Share**.
-2.  In the Share to work notes dialog box, review the summary for accuracy and edit if required.
-3.  Select **Save to work notes**. Alternatively, select **Cancel** to close the dialog box without saving.
+1.  Select **Share to worknotes**.
+2.  In the Share Case summary as Work notes dialog box, edit the summary.
+3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d35242e361">
+</td></tr><tr><td id="d35201e267">
 
 **Expand or collapse the summary**
 
@@ -93,7 +83,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d35242e382">
+</td></tr><tr><td id="d35201e288">
 
 **Provide feedback for the summary**
 
@@ -101,7 +91,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d35242e405">
+</td></tr><tr><td id="d35201e311">
 
 **Copy the case summary**
 
@@ -109,13 +99,21 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d35242e421">
+</td></tr><tr><td id="d35201e327">
 
 **Refresh the case summary**
 
 </td><td>
 
 Select the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon.\) to reload the case summary with any new information that was added to the case.
+
+</td></tr><tr><td id="d35201e342">
+
+**View the information about the case summary**
+
+</td><td>
+
+If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
 </td></tr></tbody>
 </table>

@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -115,7 +115,7 @@ Select the type of match required for the alerts to be included in a group.-   *
 For example, you can configure an alert clustering tag indicating that the alert's **Metric name** field must be an exact match to form a group. When invoking that tag, all alerts with identical values in the **Metric name** field are included in the same group.
 
 -   **Fuzzy**: Indicates that the field value needs to be an approximate match \(depending on the value configured in the **Similarity** field\) for the alert to be included in a group.
--   **Pattern**: Indicates that the field value needs to follow the pattern in the **Pattern** field. For correct syntax and usage examples, see [Pattern matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PatternMatching.md).
+-   **Pattern**: Indicates that the field value needs to follow the pattern in the **Pattern** field. For correct syntax and usage examples, see Pattern matching.
 
 </td></tr><tr><td>
 

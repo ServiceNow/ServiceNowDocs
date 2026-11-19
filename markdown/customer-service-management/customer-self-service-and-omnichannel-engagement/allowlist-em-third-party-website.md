@@ -9,7 +9,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Enable Engagement Messenger on a website when third-party application cookies are blocked

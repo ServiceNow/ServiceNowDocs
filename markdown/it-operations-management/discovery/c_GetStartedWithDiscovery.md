@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ There are two types of discovery:
 
 -   **Top-down discovery**
 
-    Top-down discovery is a technique that Service Mapping uses to find and maps CIs that are part of business services, such as an email service. For example, top-down discovery can map a website business service by showing the relationships between an Apache Tomcat web server service, a Windows server, and the MSSQL database that stores the data for the business service. This gives IT teams a clear view of service dependencies.
+    Top-down discovery is a technique that Service Mapping uses to find and maps CIs that are part of business services, such as an email service. For example, top-down discovery can map a website business service by showing the relationships between an Apache Tomcat web server service, a Windows server, and the MSSQL database. This gives IT teams a clear view of service dependencies.
 
     Typically, Service Mapping and Discovery work together. Horizontal discovery runs first to find CIs, and then top-down discovery establishes the relationships between business services.
 
@@ -73,7 +73,7 @@ A [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/austr
 
 The MID Server starts all communications, using SOAP on HTTPS, which means that all communications are secure, and all communications are initiated inside the enterprise's firewall. No special firewall rules or VPNs are required.
 
-Because Discovery is agentless, it does not require any permanent software to be installed on any computer or device. The MID Server uses several techniques to probe devices without using agents. For example, the MID Server uses SSH to connect to a Unix or Linux computer, and then it can run a standard command, as specified in the probe, to gather information. Similarly, it uses the Simple Network Management Protocol \(SNMP\) to gather information from a network switch or a printer.
+Because Discovery is agentless, it does not require any permanent software to be installed on any computer or device. The MID Server uses several techniques to probe devices without using agents. For example, the MID Server uses SSH to connect to a Unix or Linux computer. It then runs a standard command, as specified in the probe, to gather information. Similarly, it uses the Simple Network Management Protocol \(SNMP\) to gather information from a network switch or a printer.
 
 ## Types of discovery
 

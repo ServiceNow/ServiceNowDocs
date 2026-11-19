@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-22"
 reading_time_minutes: 2
 keywords: [Oracle OCI, Cloud Hardware Type, shapes, Oracle discovery, Oracle patterns]
 breadcrumb: [OCI discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]

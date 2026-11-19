@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 14
 breadcrumb: [Import and stream data, Integration Hub, Workflow Data Fabric]
 ---

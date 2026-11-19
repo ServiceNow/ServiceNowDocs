@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/work-on-an-interaction.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [work on a banking interaction, manage banking customer interactions, customer context summarization, verify banking customer identity, agentic contact center ai-generated insights, agentic contact center wrap-up summary, agentic contact center interaction page, agentic contact center csr interaction workflow, agentic contact center create interaction record]
 breadcrumb: [Use, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]

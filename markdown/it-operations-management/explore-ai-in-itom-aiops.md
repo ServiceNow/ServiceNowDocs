@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/explore-ai-in-itom-aiops.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-02"
 reading_time_minutes: 8
 keywords: [AI, ITOM AIOps, generative AI, agentic AI]
 breadcrumb: [ITOM AIOps, IT Operations Management]
@@ -18,6 +18,14 @@ AI features in ITOM AIOps help operators triage alerts, investigate incidents, a
 AI features in ITOM AIOps span several products. The following tables summarize all available AI features by type and product.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
+## AI specialists
+
+ITOM AIOps AI specialists are AI-powered team members that work alongside operators to handle routine alert triage and reliability analysis. They are onboarded like human operators, assigned a name and team, and hold the Operator role.
+
+|Product|AI feature|Description|Use case|Resources|
+|-------|----------|-----------|--------|---------|
+|ITOM AIOps|AIOps AI specialist|Triages and filters alerts, deflects noise, and performs root cause analysis by searching related alerts and changes. It also assesses impact across service instances and business services, surfacing remediation playbooks for operators to activate.|An operations team wants routine alert triage handled autonomously, with a specialist that works alongside human operators and escalates only when approval is needed.|[AIOps AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/ai-specialist-aiops-overview.md)|
 
 ## Agentic workflows
 

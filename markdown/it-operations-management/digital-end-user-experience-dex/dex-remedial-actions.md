@@ -1,5 +1,5 @@
 ---
-title: Creating DEX remedial actions
+title: DEX remedial actions
 description: Create and manage your custom remedial actions from Check Definitions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/dex-remedial-actions.html
@@ -7,22 +7,29 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Digital End-User Experience, IT Operations Management]
 ---
 
-# Creating DEX remedial actions
+# DEX remedial actions
 
 Create and manage your custom remedial actions from Check Definitions.
 
-Along with the prebuilt actions, you can create custom remedial actions from Check Definitions. Custom actions enable you to extend DEX remediation capabilities to address issues that are specific to your environment.
+-   **[Remediate an issue on the device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/remediate-issue-device.md)**  
+You can create a remedial action or modify an existing one once you configure the remedial action framework. Remedial action enables you to trigger an action on the impacted device.
+-   **[Create a remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/create-remedial-action.md)**  
+Create your custom remedial actions from Check Definitions to resolve end-point related issues using Playbook.
+-   **[Trigger remedial actions from flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/Trigger-ra-flow.md)**  
+Trigger DEX remedial actions from a flow in Workflow Studio to remediate issues on a device.
+-   **[Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/remedial-actions-ps.md)**  
+A custom remedial action can be created using a PowerShell script packaged in an Agent Client Collector \(ACC\) plugin and executed on endpoint devices through a check definition.
+-   **[DEX system tables for remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-sys-table-ra.md)**  
+Definitions for any remedial action are predetermined based on the rules and criteria that store configuration settings for remedial actions. Each execution of the remedial action is maintained in the DEX tables to track the progress of remedial action executions.
+-   **[Terminate a process on your device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/terminate-device-app.md)**  
+Terminate a process on your device to boost performance and free up valuable resources for smoother operation.
+-   **[Monitor or cancel remedial actions in DEX device page Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/manage-devices-remedial-actions-playbook.md)**  
+Use the Playbook Experience to view current and past remedial actions executed from different sources, and monitor or cancel actions initiated from the device page Action library.
 
-To create and manage custom remedial actions, see:
-
--   [Create a remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/create-remedial-action.md)
--   [Creating PowerShell script-based remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/remedial-actions-ps.md)
--   [Monitor or cancel remedial actions in DEX device page Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/manage-devices-remedial-actions-playbook.md)
-
-Many remedial actions require the Local System account on the end-user device to perform changes that the standard DEX agent account can't. Configure the Local System account requirement as part of agent policy setup before deploying remedial actions to managed devices.
+**Parent Topic:**[Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-landing.md)
 

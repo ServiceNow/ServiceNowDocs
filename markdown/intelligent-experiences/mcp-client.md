@@ -1,17 +1,17 @@
 ---
-title: Model Context Protocol Client
+title: Model Context Protocol Client Legacy
 description: The ServiceNow Model Context Protocol Client \(MCP Client\) enables you to access the Model Context Protocol tools that are hosted externally and published using an MCP Server in the ServiceNow AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mcp-client.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 keywords: [Model Context Protocol Client, MCP Client, AI Agents]
-breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
-# Model Context Protocol Client
+# Model Context Protocol Client Legacy
 
 The ServiceNow® Model Context Protocol Client \(MCP Client\) enables you to access the Model Context Protocol tools that are hosted externally and published using an MCP Server in the ServiceNow® AI Agent Studio.
 

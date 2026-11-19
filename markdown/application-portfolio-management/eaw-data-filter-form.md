@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-data-filter-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Data filter form
@@ -36,20 +36,20 @@ Filter conditions
 
 </td><td>
 
-Use the condition builder to specify the criteria that CIs from the specified table must meet to be included as target CIs for the policy.
+Condition builder to specify the criteria that CIs from the specified table must meet to be included as target CIs for the policy.
 
- Select **New condition set** to add a condition to the filter.
+ Select **Add condition set** to add a condition to the filter.
 
 </td></tr><tr><td>
 
-Related List Condition
+Related list conditions
 
 </td><td>
 
-Add a condition that is based on related lists that are associated with the target records for the policy.
+Condition that is based on related lists that are associated with the target records for the policy.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-form-field-information.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 

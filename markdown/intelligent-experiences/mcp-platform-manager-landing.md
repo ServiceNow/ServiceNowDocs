@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mcp-platform-manager-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-07-29"
 reading_time_minutes: 3
-breadcrumb: [Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
 # MCP Server Console

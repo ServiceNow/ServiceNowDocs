@@ -47,7 +47,7 @@ As each stage finishes, the playbook moves the demand from Draft to Screening, t
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**,
 
 2.  Select the **Playbooks** tab.
 

@@ -134,4 +134,5 @@ Enable schedule
 Option to specify a schedule for obtaining data using the remote table.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+

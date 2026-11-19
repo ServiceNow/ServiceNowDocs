@@ -8,7 +8,7 @@ product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 14
+reading_time_minutes: 13
 breadcrumb: [Forms, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -119,9 +119,9 @@ Approved start date
 
 The formal date approved by stakeholders for starting the demand. This date is set after prioritization and stakeholder approval and represents the committed and authorized timeline for execution. It’s used for governance and traceability.For example, the approved date to start the database upgrade is 2026-01-10.
 
-This field is carried forward to the **Approved start date** field of the Project form if the demand is converted to a project and remains unchanged, even if the project starts later.This field is highlighted in red if the date is different than the value in the **Start date** field.
+This field is carried forward to the **Approved start date** field of the Project form if the demand is converted to a project and remains unchanged, even if the project starts later.This field is highlighted in red if the date is different than the value in the **Planned start date** field.
 
-**Note:** If this field is empty while creating a demand, the date from the **Start date** field is inserted.
+**Note:** If this field is empty while creating a demand, the date from the **Planned start date** field is inserted.
 
 </td></tr><tr><td>
 
@@ -131,9 +131,9 @@ Approved end date
 
 The formal date approved by stakeholders for completing the demand. This date is set after prioritization and stakeholder approval and defines the approved execution window and supports historical tracking. For example, the approved end date to complete the demand is 2026-02-15.
 
-This field is carried forward to the **Approved end date** field of the Project form if the demand is converted to a project and remains unchanged, even if the project ends later.This field is highlighted in red if the date in this field is different than the value in the **Due date** field.
+This field is carried forward to the **Approved end date** field of the Project form if the demand is converted to a project and remains unchanged, even if the project ends later.This field is highlighted in red if the date in this field is different than the value in the **Planned end date** field.
 
-**Note:** If this field is empty while creating a demand, the date from the **Due date** field is inserted.
+**Note:** If this field is empty while creating a demand, the date from the **Planned end date** field is inserted.
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Planned start date
 
 </td><td>
 
-The preliminary or estimated date when the work is initially planned to begin. This date helps outline the intended timing for early demand planning and prioritization. You can set this date during initial demand creation or anytime in the planning phase when a rough idea forms. This date can be updated until the demand is officially approved. For example, you’re planning for a database upgrade to start on 2025-11-01.
+The preliminary or estimated date when the work is initially planned to begin. This date helps outline the intended timing for early demand planning and prioritization. You can set this date during initial demand creation or anytime in the planning phase when a rough idea forms. For example, you’re planning for a database upgrade to start on 2025-11-01.
 
 </td></tr><tr><td>
 
@@ -149,7 +149,7 @@ Planned end date
 
 </td><td>
 
-The preliminary or estimated date when the planned work is expected to be completed. This date provides an expected completion window for planning and stakeholder communication. You can set this date anytime in the planning phase when a rough idea forms and can be updated until the demand is officially approved.For example, you’re planning to complete the database upgrade by 2025-12-31.
+The preliminary or estimated date when the planned work is expected to be completed. This date provides an expected completion window for planning and stakeholder communication. You can set this date anytime in the planning phase when a rough idea forms.For example, you’re planning to complete the database upgrade by 2025-12-31.
 
 </td></tr><tr><td>
 
@@ -290,14 +290,6 @@ Business capabilities associated with the demand that links the demand to organi
 </td></tr><tr><td>
 
 Impacted Business Applications
-
-</td><td>
-
-If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see [Exploring business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-applications.md).You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
-
-</td></tr><tr><td>
-
-Business Applications
 
 </td><td>
 
@@ -582,6 +574,8 @@ The demand score is calculated based on the **risk**, **value**, and **size** at
 
 -   When the **risk** and **size** values are high, the score of the demand is low.
 -   When the **value** setting is high, the score of the demand is high.
+
+These scores are populated when the demand reaches the Qualified state.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -283,8 +283,6 @@ Original planned date and time for the task to end.
 |Field|Description|
 |-----|-----------|
 |Checklist|[Checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectTaskChecklist.md) to track items that must be completed for the task.|
-
-**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/form-field-information-for-project-management.md)
 
 **Related topics**  
 

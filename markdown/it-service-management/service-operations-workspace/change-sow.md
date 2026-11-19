@@ -7,8 +7,8 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -39,7 +39,7 @@ This section provides a list view of the records associated with the change requ
 From this section, you can access the following information:
 
 -   Record information for the change request.
--   Agent Assist for searching for relevant records and performing the required actions.
+-   Agent Assist and search for relevant records and perform the required actions.
 
 For information about Change Management, see [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ITILChangeManagement.md).
 
@@ -48,7 +48,7 @@ Track modifications to a supported configuration item \(CI\) by using a change r
 -   **[Work on a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-on-change-sow.md)**  
 Modify a supported configuration item to clear a change request.
 -   **[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/standard-change-catalog-sow.md)**  
-Standard changes are pre-approved, low-risk changes with a proven history of success. The standard change catalog contains the changes that have been approved by the Change Management application as standard changes.
+Request, review, and approve standard change templates and pre-approved, low-risk standard changes from the standard change catalog.
 -   **[Create a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-change-task-sow.md)**  
 When you need to engage another team or agent for help, create and assign change task. For example, there can be tasks to plan the change, implement the change, and test, and review the work.
 -   **[Work on a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-on-change-task-sow.md)**  

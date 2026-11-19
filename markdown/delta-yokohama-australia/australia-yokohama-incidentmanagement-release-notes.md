@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-incidentmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -108,6 +108,18 @@ The ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin c
 
 For more information, see [Deny-Unless ACL](https://www.servicenow.com/docs/access?context=acl-denial-behavior&family=yokohama&ft:locale=en-US).
 
+-   **[Email notification templates for Incident tasks](https://www.servicenow.com/docs/access?context=t_ViewIncidentNotification&family=yokohama&ft:locale=en-US)**
+
+The following email notification templates for incident tasks are added to send notifications to the stakeholders to maintain a consistent format and experience:
+
+    -   Incident task assigned to me
+    -   Incident task assigned to my group
+    -   Incident task Opened and Unassigned
+    -   Incident task was opened
+    -   Incident task closed
+    -   Incident task state changed
+    -   Incident task Priority raised
+    -   Work note left on Incident task
 
 </td></tr><tr><td>
 

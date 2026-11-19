@@ -16,5 +16,5 @@ breadcrumb: [Administer, List administration, Forms, fields, and lists, Configur
 
 Users can customize the layout for any list view by personalizing a list. Administrators can configure options related to list personalization.
 
-In List v2, administrators can also disable or restrict access to list personalization. This functionality is not supported in List v3.
+In List v2, administrators can also turn off or restrict access to list personalization.
 

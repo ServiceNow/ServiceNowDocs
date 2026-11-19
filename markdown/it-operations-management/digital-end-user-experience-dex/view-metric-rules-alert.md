@@ -1,21 +1,21 @@
 ---
-title: View alerts generated from metric or event rules
-description: Track performance insights with alerts from metric and event rules.
+title: View alerts generated from metric rules
+description: Easily track performance insights with alerts from metric rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/view-metric-rules-alert.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [metric rule alerts, view alerts, alert grouping, performance alerts]
-breadcrumb: [DEX alerts, Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Use alert rules for DEX, Monitor, Digital End-User Experience, IT Operations Management]
 ---
 
-# View alerts generated from metric or event rules
+# View alerts generated from metric rules
 
-Track performance insights with alerts from metric and event rules.
+Easily track performance insights with alerts from metric rules.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Role required: sn\_dex.user or sn\_dex.admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Express list icon \[Omitted image "icon-express-list.png"\] Alt text:.
+2.  In the primary navigation pane, select the Express list icon \(\[Omitted image "icon-express-list.png"\] Alt text: The Express list icon that displays all the active alerts.\).
 
     **Note:** When multiple alerts are triggered for events that are part of the same rule, these alerts are automatically grouped.
 

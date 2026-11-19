@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-10-05"
 reading_time_minutes: 1
 keywords: [troubleshooting, No data found, risk score, compliance score, scheduled jobs, AI Risk and Compliance]
-breadcrumb: [Reference, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Managing risk and compliance, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Risk score and compliance score dashboard errors

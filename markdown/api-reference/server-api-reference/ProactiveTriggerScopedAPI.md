@@ -7,7 +7,7 @@ release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -28,7 +28,7 @@ Similarly, if a user performs an AI Search from a Service Portal and no results 
 
 When calling the ProactiveTriggerAPI, there's a specific sequence in which you should call the methods. This API runs in the `sn_pt` namespace.
 
-First, you should call the [ProactiveTriggerAPI - createTrigger\(String triggerTypeId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ProactiveTriggerScopedAPI.md) method to specify the type of trigger that you want to create. This call is required. For the list of available trigger types, see [How Proactive Triggers work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/how-proactive-triggers-work.md).
+First, you should call the [ProactiveTriggerAPI - createTrigger\(String triggerTypeId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ProactiveTriggerScopedAPI.md) method to specify the type of trigger that you want to create. This call is required. For the list of available trigger types, see [Proactive Triggers use cases and process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/how-proactive-triggers-work.md).
 
 Next, you should call one of the methods that identifies the user to whom the messages should be sent. You can do this by calling one of the following methods:
 

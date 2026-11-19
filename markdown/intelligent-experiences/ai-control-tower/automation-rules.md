@@ -1,35 +1,39 @@
 ---
 title: Automation rules
-description: The Automation rules define how AI assets are set to managed.
+description: The Automation rules define how AI assets are set to be under managed assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/automation-rules.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-27"
 reading_time_minutes: 1
-breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Controls, Configurations, Control Tower dashboard, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Automation rules
 
-The Automation rules define how AI assets are set to managed.
+The Automation rules define how AI assets are set to be under managed assets.
 
 ## Automation rules Overview
 
-The Automation rules page displays all default rules available in AI Control Tower. AI Stewards can modify existing rules or create based on their organizational requirements.
+The Automation rules page displays all default rules available in Control Tower. The AI stewards can modify the existing rules or create rules based on their organizational requirements.
 
 ## Rule limits
 
--   Maximum rules allowed: 10
--   Maximum rules that can be active simultaneously: 5
+The Administrators can configure system-enforced limits on asset management rules through system properties. The recommended defaults are 5 active rules and 10 total rules, controlled by the following system properties:
 
-## How rules are applied
+|System properties|description|
+|-----------------|-----------|
+|sn\_ai\_governance.management\_rule.max\_active\_rules|Max active rules|
+|sn\_ai\_governance.management\_rule.max\_total\_rules|Max total rules|
 
-Once activated, rules are enforced according to the schedule defined in the Run AI Asset Management Rules Scheduled job.
+## Rules execution
 
-## Reference
+Only active rules are evaluated during scheduled runs; inactive rules are skipped. The scheduled job 'Run AI Asset Management Rules’ is executed for every 6 hours, but AI stewards can trigger immediate execution on any active rule using the Run Now action. Rules that are no longer needed can be deleted. If an asset is qualified for a rule, it will be automatically moved under managed assets.
 
-For information on managed and unmanaged assets, see [Assets list- managed and unmanaged assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/assets-list-managing-and-unmanaging-assets.md).
+## References
+
+For information on Managed and Unmanaged assets, see [AI assets- Managed and Unmanaged](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

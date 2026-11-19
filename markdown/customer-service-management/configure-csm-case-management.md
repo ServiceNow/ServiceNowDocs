@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-csm-case-management.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 6
 breadcrumb: [Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -48,15 +48,23 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Create the Case Form View
+[Cases and case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-cases-case-tasks-overview.md)
 
 </td><td>
 
-The Case form displays detailed information about a customer issue or problem. Create a Case form view to display the desired fields.
+Cases and case tasks enable agents to capture, track, and resolve customer questions and issues. Cases store customer and issue details, while case tasks are assigned to users to complete the work required to resolve the case.
 
 </td></tr><tr><td>
 
-Create SLA Definitions
+[Configure a Case form view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-case-form.md)
+
+</td><td>
+
+The case form displays detailed information about a customer issue or problem. Create a case form view to display the desired fields.
+
+</td></tr><tr><td>
+
+[Configure SLA definitions for customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_DefineSLAForCustServiceCase.md)
 
 </td><td>
 
@@ -66,7 +74,7 @@ Customer Service Management uses service level agreements \(SLAs\) with customer
 
 </td></tr><tr><td>
 
-Case Routing and Assignment
+[Configure case routing and assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-case-routing-assignment.md)
 
 </td><td>
 
@@ -74,11 +82,11 @@ The case routing feature uses matching rules and assignment rules to identify ca
 
 </td></tr><tr><td>
 
-Assignment Workbench
+[Configure assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-assignment-workbench.md)
 
 </td><td>
 
-The assignment workbench uses configurable criteria, such as skills and availability, to evaluate the agents in a selected group and provide an overall ranking. Managers can view these results and click one button to assign a task.To configure the assignment workbench:
+The assignment workbench uses configurable criteria, such as skills and availability, to evaluate the agents in a selected group and provide an overall ranking. Managers can view these results and select one button to assign a task.To configure the assignment workbench:
 
 -   Create matching criteria.
 -   Create an assignment workbench configuration.
@@ -86,23 +94,7 @@ The assignment workbench uses configurable criteria, such as skills and availabi
 
 </td></tr><tr><td>
 
-Special Handling Notes
-
-</td><td>
-
-Use special handling notes to bring important case information to an agent’s attention. Create a configuration for the Case \[sn\_customerservice\_case\] table and then configure the form layout to display the notes in a pop-up window or a related list.
-
-</td></tr><tr><td>
-
-Escalation Management
-
-</td><td>
-
-Escalating a case or account raises awareness about important customer issues, facilitates communication, and enables users to track progress toward a resolution. Create escalation templates and severity definitions to control the escalation process.
-
-</td></tr><tr><td>
-
-Major Issue Management
+[Configure major issue management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-major-issue-management.md)
 
 </td><td>
 
@@ -110,7 +102,23 @@ Major issue management enables customer communication for issues that impact a w
 
 </td></tr><tr><td>
 
-Case Action Status
+[Targeted communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_TargetedCommunications.md)
+
+</td><td>
+
+Targeted Communications enables organizations to create and deliver articles and email communications to specific internal and external audiences. It supports targeted recipient lists, optional email notifications, and scheduled publishing to ensure timely and relevant communication.
+
+</td></tr><tr><td>
+
+[Configure special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-special-handling-notes.md)
+
+</td><td>
+
+Use special handling notes to bring important case information to an agent’s attention. Create a configuration for the Case \[sn\_customerservice\_case\] table and then configure the form layout to display the notes in a pop-up window or a related list.
+
+</td></tr><tr><td>
+
+[Configure case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-case-action-status.md)
 
 </td><td>
 
@@ -118,7 +126,23 @@ The case action status feature enables customer service agents to easily identif
 
 </td></tr><tr><td>
 
-Auto Close Resolved Cases
+[Create cases as a proxy contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/employee-create-case-for-customer.md)
+
+</td><td>
+
+The proxy contact role allows employees to create cases on behalf of customers without requiring fulfiller access.
+
+</td></tr><tr><td>
+
+[Install the CSM Extension for Proxy Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-extension-for-proxy-contacts.md)
+
+</td><td>
+
+The CSM Extension for Proxy Contacts installs the components required to support proxy contact functionality in CSM.
+
+</td></tr><tr><td>
+
+[Configure auto close resolved cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-auto-close-resolved-cases.md)
 
 </td><td>
 
@@ -126,7 +150,15 @@ Automatically close cases in the Resolved state if customers do not take any act
 
 </td></tr><tr><td>
 
-Case Digests
+[Configure escalation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-escalation-management.md)
+
+</td><td>
+
+Escalating a case or account raises awareness about important customer issues, facilitates communication, and enables users to track progress toward a resolution. Create escalation templates and severity definitions to control the escalation process.
+
+</td></tr><tr><td>
+
+[Configure case digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-case-digests.md)
 
 </td><td>
 
@@ -135,7 +167,7 @@ Case digests enable agents to proactively communicate with customers and interna
 
 
 </td></tr></tbody>
-</table>4.  To perform a task, click **Configure**.
+</table>4.  To perform a task, select **Configure**.
 
     This button opens the page in your instance where the configuration is completed.
 

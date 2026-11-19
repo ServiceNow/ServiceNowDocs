@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/retire-archiving-specifications-somt.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-07"
 reading_time_minutes: 1
 breadcrumb: [Retire or archive versions, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -31,7 +31,7 @@ You retire or archive service and resource specification versions in the same ma
 
 ## Procedure
 
-1.  Open CRM Workspace.
+1.  Open CSM Configurable Workspace.
 
 2.  Navigate to **List** &gt; **Specifications** &gt; **Product Specifications**.
 

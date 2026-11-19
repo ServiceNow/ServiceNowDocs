@@ -1,6 +1,6 @@
 ---
 title: Generate publisher compliance summaries by using ServiceNow Otto for Software Asset Management \(SAM\)
-description: Generate a comprehensive summary for a publisher that covers software deployment, license compliance, configuration health, and optimization. The detailed publisher summary helps you to gain insights into the publisher estate.
+description: Generate a summary for a publisher that covers software deployment, license compliance, configuration health, and optimization. Use the summary to gain insight into the publisher estate without reviewing each product separately.Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a publisher summary. A trigger initiates an action, such as when the system generates a publisher summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/summarize-publisher-compliance-now-assist-sam.html
 release: australia
@@ -8,17 +8,47 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Use generative AI skills, Using AI in Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Generate publisher compliance summaries by using ServiceNow Otto for Software Asset Management \(SAM\)
 
-Generate a comprehensive summary for a publisher that covers software deployment, license compliance, configuration health, and optimization. The detailed publisher summary helps you to gain insights into the publisher estate.
+Generate a summary for a publisher that covers software deployment, license compliance, configuration health, and optimization. Use the summary to gain insight into the publisher estate without reviewing each product separately.
 
 ## Before you begin
 
-Role required: sam\_user
+To display the publisher compliance summary, select the **Display** toggle button on the **Choose where to display** page while you configure ServiceNow Otto for SAM. For details on the **Display** toggle button, see [Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-now-assist-sam.md).
+
+Before you use the Publisher compliance summarization skill, install the following plugins and the store app that match your platform release version.
+
+<table id="table_pub_comp_plugins"><thead><tr><th>
+
+Platform release
+
+</th><th>
+
+Plugins
+
+</th><th>
+
+Store app
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich or later releases
+
+</td><td>
+
+-   Software Asset Management Professional \[com.snc.samp\]
+-   Software Asset Workspace \[sn\_sam\_workspace\]
+
+</td><td>
+
+ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 1.0.0 or later
+
+</td></tr></tbody>
+</table>Role required: sam\_user
 
 ## About this task
 
@@ -27,6 +57,8 @@ Role required: sam\_user
 Starting with the Australia Patch 4 release, Google Gemini is the default model provider for the Publisher compliance summarization generative AI skill.
 
 ServiceNow Otto for SAM generates the publisher summaries by using reconciliation results, product lifecycle reports, and dashboards such as Discovered inventory, Normalization and content, and Health check.
+
+Use a publisher summary to review the compliance status of all products from one publisher, instead of reviewing each product separately.
 
 ## Procedure
 
@@ -38,7 +70,7 @@ ServiceNow Otto for SAM generates the publisher summaries by using reconciliatio
 
 4.  On the Publisher details page, select **Summarize**.
 
-    **Note:** If the system property **com.snc.samp.manage.published.products** is set to true in your ServiceNow instance, reconciliation generates publisher results for published products, unpublished products, and for all products of a publisher. The **Summarize** button is unavailable for generating publisher compliance summary for published and unpublished products. Publisher compliance summary is not supported when filtering by **Published** or **Unpublished** status in the **Published status** filter.
+    **Note:** If the system property **com.snc.samp.manage.published.products** is set to true in your ServiceNow instance, reconciliation generates results for published products, unpublished products, and all products of a publisher. In this case, the **Summarize** button is unavailable for published and unpublished products. You cannot generate a publisher compliance summary when you filter by **Published** or **Unpublished** status.
 
     The ServiceNow Otto for SAM application starts generating the summary for the selected publisher. After the summary is compiled, the results of the summary appear under different sections.
 
@@ -48,15 +80,15 @@ ServiceNow Otto for SAM generates the publisher summaries by using reconciliatio
 
 5.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d305047e185">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d303699e274">
 
 Action
 
-</th><th align="left" id="d305047e188">
+</th><th align="left" id="d303699e277">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d305047e194">
+</th></tr></thead><tbody><tr><td id="d303699e283">
 
 **Copy to clipboard icon**
 
@@ -64,7 +96,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d305047e203">
+</td></tr><tr><td id="d303699e292">
 
 **Refresh icon**
 
@@ -72,7 +104,7 @@ Copies the summary to a clipboard.
 
 Regenerates the publisher summary.
 
-</td></tr><tr><td id="d305047e212">
+</td></tr><tr><td id="d303699e301">
 
 **Feedback**
 
@@ -83,4 +115,26 @@ If you found that the summary was helpful, select the helpful icon \[Omitted ima
 </td></tr></tbody>
 </table>
 **Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-now-assist-sam.md)
+
+## Publisher compliance summarization skill - Triggers and Inputs
+
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a publisher summary. A trigger initiates an action, such as when the system generates a publisher summary.
+
+### Triggers for the publisher compliance summarization skill
+
+The following table lists the triggers that determine when a publisher compliance summary is generated and how a publisher compliance summary is displayed.
+
+|Trigger|Description|
+|-------|-----------|
+|User-triggered|Publisher compliance summary that is generated when the agent manually triggers the skill by selecting **Summarize** in the Publisher details page.|
+
+### Inputs for the publisher compliance summarization skill
+
+The following table lists the inputs for the publisher compliance summarization skill.
+
+|Input|Description|
+|-----|-----------|
+|Reconciliation results|Compliance status of the software products with regards to the discovery and entitlements.|
+|Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\]|Product life-cycle details for all the software products that are installed in your environment.|
+|Dashboards|Dashboards include Discovered inventory, Normalization and content, and Health check.|
 

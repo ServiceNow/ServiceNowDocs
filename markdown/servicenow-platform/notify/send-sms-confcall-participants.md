@@ -1,20 +1,20 @@
 ---
 title: Send a message to conference call participants
-description: Send a brief message as a text or voice message to the participants of a conference call to set a context to the call.
+description: Send a brief text or voice message to conference call participants to give them context for the call.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/send-sms-confcall-participants.html
 release: australia
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using Notify for making conference calls, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Send a message to conference call participants
 
-Send a brief message as a text or voice message to the participants of a conference call to set a context to the call.
+Send a brief text or voice message to conference call participants to give them context for the call.
 
 ## Before you begin
 

@@ -7,8 +7,8 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -37,7 +37,7 @@ Integrate your ServiceNow instance with the Salesforce customer relationship man
 
 [SaaS License Management setup for large companies]()
 
-[SaaS Overview dashboard]()
+[]()
 
 [Integrate with SaaS applications]()
 
@@ -64,6 +64,4 @@ Integrate your ServiceNow instance with the Salesforce customer relationship man
 [Delete an integration profile]()
 
 [Subscription identifiers for SaaS and SSO applications]()
-
-[bundle-crworkflow.playbook-ui]
 

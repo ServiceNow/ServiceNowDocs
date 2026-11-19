@@ -54,9 +54,7 @@ System-generated ID number with a configurable prefix.
 
 </td><td>
 
-Resource responsible for executing or progressing the task. The following conditions apply:-   If an assignment group is defined, users in the assignment group are listed.
--   If skills are defined, users with those skills are listed.
--   Users with the timecard\_user role are also listed.
+Resource responsible for executing or progressing the task. Only users with the it\_demand\_user, it\_project\_user, sn\_stm.team\_member\_read, or sn\_stm.team\_member\_read\_write role are listed. For more information about the team member roles, see [Managing SPM work in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-team-member-roles.md).
 
 </td></tr><tr><td>
 
@@ -72,7 +70,7 @@ Urgency and importance of the task such as high, moderate, or low.
 
 </td><td>
 
-Users assigned to the demand task and the single primary resource defined in the **Assigned to** field.
+Users assigned to the demand task and the single primary resource defined in the **Assigned to** field. The same users that are available for the **Assigned to** field are available for selection.
 
 </td></tr><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-knowledgemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key knowledge-flow\]](https://www.servicenow.com/docs/access?context=knowledge-flow&family=zurich&ft:locale=en-US)**
+-   **[knowledge flow](https://www.servicenow.com/docs/access?context=knowledge-flow&family=zurich&ft:locale=en-US)**
 
 Boost efficiency and simplify operations by replacing the existing Knowledge Management processes built on workflow with the latest and innovative, simple-to-use visual flow designers.
 
@@ -104,7 +104,7 @@ Zurich
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
- -   **[\[Placeholder link text to key knowledge-article-view-page-workspace\]](https://www.servicenow.com/docs/access?context=knowledge-article-view-page-workspace&family=zurich&ft:locale=en-US)**
+ -   **[knowledge article view page workspace](https://www.servicenow.com/docs/access?context=knowledge-article-view-page-workspace&family=zurich&ft:locale=en-US)**
 
 Enjoy a better reading experience with the enhanced Knowledge view page in the workspace featuring improved article displays, and effortless access to essential resources. The new responsive design enables smooth navigation and effortless viewing on any device. It automatically adapts to different screen sizes and orientations.
 

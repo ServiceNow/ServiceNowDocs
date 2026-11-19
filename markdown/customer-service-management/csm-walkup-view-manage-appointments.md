@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-walkup-view-manage-appointments.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
-breadcrumb: [Manage queues and interactions, Use Walk-up Experience, Customer communication, Use, Customer Service Management]
+breadcrumb: [Manage queues and interactions, Using Walk-up Experience, Customer communication, Use, Customer Service Management]
 ---
 
 # View and manage Walk-up Experience appointments in Agent Workspace
@@ -20,11 +20,11 @@ Role required: sn\_csm\_walkup.walkup\_technician
 
 ## About this task
 
-Technicians and managers primarily use CRM Workspace for all Walk-up Experience related information, including viewing and managing scheduled appointments.
+Technicians and managers primarily use CSM Configurable Workspace for all Walk-up Experience related information, including viewing and managing scheduled appointments.
 
 **Note:** You can also view and manage scheduled appointments from the CSM Walk-up Experience in the application navigator, or left navigation bar.
 
-Appointments are automatically routed to your CRM Workspace inbox based on availability. You can also view a list of scheduled appointments and choose which one to accept.
+Appointments are automatically routed to your CSM Configurable Workspace inbox based on availability. You can also view a list of scheduled appointments and choose which one to accept.
 
 Upcoming appointments also display with a small calendar icon next to the user name on the onsite walk-up location queue wall monitor. The user with an appointment appears on the monitor a short time before the appointment is scheduled to begin.
 
@@ -32,7 +32,7 @@ Upcoming appointments also display with a small calendar icon next to the user n
 
 ## Procedure
 
-1.  Open CRM Workspace.
+1.  Open CSM Configurable Workspace.
 
 2.  Select **List** in the left navigation bar.
 

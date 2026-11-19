@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-now-assist-for-fso.html
 release: australia
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [configuring generative AI for financial services operations, configuring generative AI for FSO]
 breadcrumb: [Configure AI skills, Enable AI capabilities, Configure, Financial Services Operations \(FSO\)]
@@ -37,7 +37,7 @@ The following table lists the FSO case summarization skills that you can access 
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **** &gt; **AI Skills**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  Select the **Customer** &gt; **FSO** workflow group.
 
@@ -68,8 +68,6 @@ The following table lists the FSO case summarization skills that you can access 
 ## Result
 
 A message appears confirming the summarization skill has been successfully activated. Select **Return to Banking** to return to the Banking skills screen.
-
-**Note:** If a skill isn't active, the corresponding summarization component doesn't appear on the case record.
 
 ## What to do next
 

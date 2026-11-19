@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-27"
 reading_time_minutes: 13
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -210,6 +210,8 @@ You do not need to configure IP ranges for the MID Servers used with Cloud Disco
     -   **Auto-Select**: Discovery selects an appropriate MID Server automatically.
     -   **Specific MID Cluster**: Discovery uses the named MID Server cluster.
     -   **Specific MID Server**: Discovery uses the named MID Server.
+    **Note:** Discovery of Windows VMs requires a Windows MID Server. The **Auto-Select** option doesn't consider the MID Server operating system. If the schedule discovers Windows VMs, select a specific Windows MID Server or a MID cluster that contains only Windows MID Servers. Otherwise, you can use any selection type.
+
     \[Omitted image "CloudDiscoVMs.png"\] Alt text: Configure VMs to discover
 
 3.  To disable VM discovery, move the **Discover VMs by IP address** toggle switch to the left.

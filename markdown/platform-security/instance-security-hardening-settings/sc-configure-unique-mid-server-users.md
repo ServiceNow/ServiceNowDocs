@@ -1,22 +1,22 @@
 ---
-title: Configure unique MID Server users
-description: Create a unique user account for each of your MID Servers to support auditability, enforce security controls, and enable least privilege access.
+title: Configure Unique MID Server Users
+description: Use unique user account for each of your MID Servers to promote auditability and security controls as well as least privilege access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-configure-unique-mid-server-users.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-27"
 reading_time_minutes: 2
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Configure unique MID Server users
+# Configure Unique MID Server Users
 
-Create a unique user account for each of your MID Servers to support auditability, enforce security controls, and enable least privilege access.
+Use unique user account for each of your MID Servers to promote auditability and security controls as well as least privilege access.
 
-MID Server users authenticate MID Servers to the ServiceNow instance and enable communication to the instance. Configure each MID Server with a unique user account to support auditability and security controls. Assigning a unique user account to each MID Server follows the principle of least privilege and enables proper identity and access management for your service accounts.
+MID Server users authenticate MID Servers to the ServiceNow instance and enable communication to the instance. Configure each MID Server with a unique user account to promote auditability and security controls. Assigning a unique user account to each MID Server follows the principle of least privilege and enables proper identity and access management for your service accounts.
 
 Configure each MID Server with a unique user account that has been assigned the **mid\_server** role:
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Working with AI agent agentic workflow in ServiceNow Otto for Enterprise Architecture \(EA\), Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -66,7 +66,7 @@ However, in the Define security controls page, in the **Define user access** sec
 
 To add access to more roles, perform the following:
 
-1.  Set your application scope to ServiceNow Otto for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+1.  Set your application scope to ServiceNow Otto for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
 2.  Select the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon.\).
 3.  On the Access Control page, in the **Requires role** section, select **Insert new row**.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dv-example-heatmap.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-24"
 reading_time_minutes: 5
 breadcrumb: [Heatmap visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---

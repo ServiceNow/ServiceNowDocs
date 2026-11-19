@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-27"
 reading_time_minutes: 2
-breadcrumb: [Customer Success Management AI agents, Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Customer Success Management AI agents, Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # User resource recommender AI agent
@@ -110,7 +110,7 @@ Used in agentic workflows
 
 </td><td>
 
-
+[Squad resource identifier agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-squad-resource-identifier.md)
 
 </td></tr></tbody>
 </table>Learn more about Customer Success Management at [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md).

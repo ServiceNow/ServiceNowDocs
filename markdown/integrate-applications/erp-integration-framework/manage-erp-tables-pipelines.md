@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-08-05"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, prod, sub-prod, non-prod, development, move, update, update set]
-breadcrumb: [Build applications and flows with ERP data, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Building applications and flows with ERP data from Zero Copy Connector for ERP, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Managing ERP development pipelines in Zero Copy Connector for ERP
@@ -33,4 +33,6 @@ You can move changes to your production instance on the ServiceNow AI Platform i
 -   Add the changes to the ServiceNow Store and use the **Share with others** option to install the updates on the production instance. For more information, see [Publish an application to an Update Set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_PublishApplicationsToAnUpdateSet.md).
 
 For more information about ways to publish your ERP updates, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md).
+
+**Parent Topic:**[Building applications and flows with ERP data from Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-building-with-erp-data.md)
 

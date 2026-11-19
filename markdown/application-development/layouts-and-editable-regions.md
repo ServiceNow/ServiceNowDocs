@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 16
 keywords: [Layouts and editable regions, The app layout, Choosing a base class, Configuring navigation, App lifecycle hooks, Toolbar actions, Reading layout data in a page, Customizing NavLayout without subclassing, Composing widgets inside a page with the region DSL, The regions/ directory is mandatory, Rows, columns, and the nesting cap, One rule explains every restriction, Spacing is one value, and it isn't admin-editable, The region wrapper, Editing a region visually, Rendering a layout on the server, See also]
-breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Layouts and editable regions
@@ -104,7 +104,7 @@ An optional `application.js` at the app root defines lifecycle hooks independent
 
 All hooks are optional, and `application.js` itself is optional; omit it entirely if your app has no app-level lifecycle logic.
 
-A fourth hook, `notFound()`, runs when no route matches. For its full contract, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/component-lifecycle.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/component-lifecycle.md).
+A fourth hook, `notFound()`, runs when no route matches. For its full contract, see .
 
 ## Toolbar actions
 
@@ -305,9 +305,5 @@ If your app defines no custom layout, Lux falls back to the layout named by `app
 
 [Create a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-a-page.md)
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/component-lifecycle.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/component-lifecycle.md)
-
-[metadata-and-configuration]
-
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/reusable-components.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/reusable-components.md)
+[component-lifecycle]
 

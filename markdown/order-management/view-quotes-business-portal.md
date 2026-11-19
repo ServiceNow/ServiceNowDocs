@@ -1,18 +1,18 @@
 ---
 title: View quotes from the Business Portal
-description: View quotes generated for your account directly from the Business Portal. The list includes quotes generated from requests for quotes \(RFQs\) submitted by you and quotes created offline by a sales agent via the CRM Workspace.
+description: View quotes generated for your account directly from the Business Portal. The list includes quotes generated from requests for quotes \(RFQs\) submitted by you and quotes created offline by a sales agent via the CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/view-quotes-business-portal.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Managing RFQs, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # View quotes from the Business Portal
 
-View quotes generated for your account directly from the Business Portal. The list includes quotes generated from requests for quotes \(RFQs\) submitted by you and quotes created offline by a sales agent via the CRM Workspace.
+View quotes generated for your account directly from the Business Portal. The list includes quotes generated from requests for quotes \(RFQs\) submitted by you and quotes created offline by a sales agent via the CSM Configurable Workspace.
 
 ## Before you begin
 

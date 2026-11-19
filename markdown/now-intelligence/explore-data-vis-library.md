@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/explore-data-vis-library.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Find any data visualization in the Platform Analytics Data Visualizations librar
 
 ## Data Visualizations Library overview
 
-On Brazil instances, you can find both Core UI reports and Platform Analytics experience data visualizations in the Data Visualizations library.
+On Australia instances, you can find both Core UI reports and Platform Analytics experience data visualizations in the Data Visualizations library.
 
 When you edit Core UI dashboards and their content, you do so in the Core UI tools including Report Designer. For more information, see [Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/classic-vis-overview.md) and [Using Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_GenerateReports.md).
 

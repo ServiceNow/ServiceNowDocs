@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/business-stakeholder-for-csm.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Roles installed with Customer Service Management, Components installed with Customer Service Management, Reference, Customer Service Management]
 ---
@@ -191,7 +191,7 @@ User type
 
 </th></tr></thead><tbody><tr><td>
 
-Proxy contact \[sn\_csm\_proxy\_cont\]
+Proxy contact \[sn\_customerservice.proxy\_contact\]
 
 </td><td>
 
@@ -199,7 +199,7 @@ This role enables employees to create cases for customer accounts and contacts.
 
 </td><td>
 
-Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
+CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
 
 </td><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -34,6 +34,8 @@ View a hierarchical map of CIs and the relationships between them by adding acce
 You can perform initial mapping of multiple or single application services in your organization using a method that best suits you.
 -   **[Application service analysis and maintenance using legacy Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-analysis-maintenance-legacy-workspace.md)**  
 Service Mapping creates maps to help you see the architecture and organization of application services. These maps are useful for planning change or migration, as well as analyzing the continuity and availability of services.
+-   **[Convert a service instance to Lightweight Service Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/convert-service-instance-lightweight.md)**  
+Convert a Service Mapping service instance to Lightweight to minimize storage footprint and optimize performance.
 
 **Parent Topic:**[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
 

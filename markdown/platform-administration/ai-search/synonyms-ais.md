@@ -120,6 +120,8 @@ Synonym expansion is language-dependent. You specify a language for each synonym
 
 **Note:** If the search profile specified for a search query has no linked synonym dictionary for the search query language, AI Search uses the default \(English\) synonym dictionary as a fallback.
 
+If AI Search splits a compound word into separate terms, a possible workaround is to define the split terms and the original compound word as equivalent terms in one synonym. This might make it easier for the intended content to appear in search results. For example, suppose AI Search splits the Japanese term `人事異動` \(personnel transfer\) into `人事` \(personnel\) and `異動` \(transfer\). You can define `人事` and `人事異動` as equivalent terms in one synonym, and `異動` and `人事異動` as equivalent terms in another.
+
 AI Search supports synonym dictionaries for all languages activated in your instance. For the list of languages you can activate, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-localization/t_ActivateALanguage.md).
 
 ## Interaction with other search features

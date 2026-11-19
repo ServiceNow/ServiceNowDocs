@@ -7,9 +7,9 @@ release: australia
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Learning Core, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configuring Learning Core, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
 # Administration tasks in Learning Core

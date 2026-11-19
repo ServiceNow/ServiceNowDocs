@@ -105,5 +105,5 @@ These defaults are set only when you create an integration and don't update to r
 -   Edit the default spend limits. See [Set up an AI spend limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/set-up-spend-limits.md) for more information.
 -   Track and monitor your spend and usage based on the data that you retrieve through the integration. For more details, see [View your AI spend and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/view-ai-usage-spend.md).
 
-**Note:** If you later want to modify any details of the existing integration, select the Edit icon \(\[Omitted image "edit-icon-task-settings-page.png"\]\) next to the account name in the list of available integrations. In the Edit Claude for enterprise account window, modify the integration details as needed and then select **Update**.
+**Note:** If you later want to modify any details of the existing integration, select the Edit icon \(\[Omitted image "image.icon-edit-pencil"\]\) next to the account name in the list of available integrations. In the Edit Claude for enterprise account window, modify the integration details as needed and then select **Update**.
 

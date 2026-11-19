@@ -21,6 +21,8 @@ Role required: df\_connection\_admin
 
 ## About this task
 
+This connector supports personal authentication. For more information, see [Personal authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/personal-auth-zcc.md).
+
 Table statistics are enabled by default for Microsoft SQL Server connections.
 
 After you create this connection, data stewards can use it to create data fabric tables that map to Microsoft SQL Server data sources. For additional information about connecting, see [Microsoft SQL Server connector documentation](https://trino.io/docs/current/connector/sqlserver.html).
@@ -102,15 +104,15 @@ Option to enable or disable SSL for the connection. When **Enabled**, additional
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Microsoft SQL Server.
 
-<table id="choicetable_sqlserver_auth"><thead><tr><th align="left" id="d141763e267">
+<table id="choicetable_sqlserver_auth"><thead><tr><th align="left" id="d143539e277">
 
 Option
 
-</th><th align="left" id="d141763e270">
+</th><th align="left" id="d143539e280">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d141763e276">
+</th></tr></thead><tbody><tr><td id="d143539e286">
 
 **Basic**
 
@@ -122,7 +124,7 @@ Option to use a Microsoft SQL Server login username and password. Compatible wit
 2.  Enter the password associated with the username.
 
 
-</td></tr><tr><td id="d141763e297">
+</td></tr><tr><td id="d143539e307">
 
 **OAuth**
 

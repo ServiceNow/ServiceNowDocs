@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-13"
 reading_time_minutes: 1
 keywords: [preview ai specialist, test ai specialist, sample ai specialist]
-breadcrumb: [Configure in AI Agent Studio, Configure, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Configure in AI Agent Studio, Configure, Autonomous Workforce, Enable AI experiences]
 ---
 
 # Preview an AI specialist in AI Agent Studio

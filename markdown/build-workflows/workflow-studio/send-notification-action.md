@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -51,7 +51,7 @@ Use these general guidelines when using the Send Notification action.
 
 -   **Select the Send Notification action to send an email notification**
 
-    Select this action when you want to send an email notification to predefined recipients containing predefined content. For information about creating an email notification, see .
+    Select this action when you want to send an email notification to predefined recipients containing predefined content. For information about creating an email notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 -   **Use a Integration Hub spoke action for other types of notifications**
 

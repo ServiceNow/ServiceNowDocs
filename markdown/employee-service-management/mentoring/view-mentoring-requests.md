@@ -7,7 +7,7 @@ release: australia
 product: Mentoring
 classification: mentoring
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Mentoring, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: none
 
 2.  In the **Mentoring requests** section, you can choose to view information from the following information.
 
-<table id="choicetable_r4r_sx1_d1c"><thead><tr><th align="left" id="d661927e88">
+<table id="choicetable_r4r_sx1_d1c"><thead><tr><th align="left" id="d666611e88">
 
 Option
 
-</th><th align="left" id="d661927e91">
+</th><th align="left" id="d666611e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d661927e97">
+</th></tr></thead><tbody><tr><td id="d666611e97">
 
 **Requests from others**
 
@@ -49,7 +49,7 @@ View a list of requests you have received from others. You can use the **Viewing
 -   All
 
 
-</td></tr><tr><td id="d661927e126">
+</td></tr><tr><td id="d666611e126">
 
 **Your requests**
 

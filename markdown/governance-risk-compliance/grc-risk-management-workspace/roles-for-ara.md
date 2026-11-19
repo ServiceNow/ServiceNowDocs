@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Components installed with Advanced Risk, Reference, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -55,7 +55,6 @@ Users with this role can:-   Create risk assessment methodologies
 -   sn\_risk\_advanced.ara\_assessor
 -   sn\_risk\_advanced.ara\_approver
 -   sn\_risk\_advanced.ara\_reader
--   sn\_risk\_advanced.ara\_planner
 
 </td></tr><tr><td>
 
@@ -108,27 +107,11 @@ sn\_risk\_advanced.ara\_reader
 
 </td></tr><tr><td>
 
-sn\_risk\_advanced.ara\_planner
-
-</td><td>
-
-sn\_risk\_advanced.ara\_admin
-
-</td><td>
-
-Users with this role can reassign one or more in-progress risk assessments to a different assessor from the **In Progress Assessments** list.
-
-</td><td>
-
-sn\_risk\_advanced.ara\_creator, sn\_risk\_advanced.ara\_reader
-
-</td></tr><tr><td>
-
 sn\_risk\_advanced.ara\_reader
 
 </td><td>
 
-sn\_risk.reader, sn\_risk\_advanced.ara\_admin, sn\_risk\_advanced.ara\_approver, sn\_risk\_advanced.ara\_assessor, sn\_risk\_advanced.ara\_creator, sn\_risk\_advanced.ara\_planner, sn\_risk\_advanced.risk\_identification\_admin
+sn\_risk.reader, sn\_risk\_advanced.ara\_admin, sn\_risk\_advanced.ara\_approver, sn\_risk\_advanced.ara\_assessor, sn\_risk\_advanced.ara\_creator, sn\_risk\_advanced.risk\_identification\_admin
 
 </td><td>
 

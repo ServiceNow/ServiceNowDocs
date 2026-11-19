@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure the Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Activate the Consumer and Customer Service Portals
@@ -26,15 +26,15 @@ Role required: admin
 
 2.  Install any one of the following plugins.
 
-<table id="choicetable_p4p_4dn_fwb"><thead><tr><th align="left" id="d271189e76">
+<table id="choicetable_p4p_4dn_fwb"><thead><tr><th align="left" id="d269933e76">
 
 Plugin name
 
-</th><th align="left" id="d271189e79">
+</th><th align="left" id="d269933e79">
 
 Plugin.
 
-</th></tr></thead><tbody><tr><td id="d271189e88">
+</th></tr></thead><tbody><tr><td id="d269933e88">
 
 **Customer Service Portal**
 
@@ -42,7 +42,7 @@ Plugin.
 
 com.snc.customer\_service\_portal
 
-</td></tr><tr><td id="d271189e97">
+</td></tr><tr><td id="d269933e97">
 
 **Consumer Service Portal**
 

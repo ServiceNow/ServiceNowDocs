@@ -1,20 +1,20 @@
 ---
-title: View service instances on Unified Map
-description: For a selected CI, the Service instances panel in Unified Map lists details from the Service Mapping application for all associated service instances \(formerly application services\).
+title: View service instances for a CI
+description: For a selected CI, the Service instances panel in Unified Map lists details in the Service Mapping application for all associated service instances \(formerly application services\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/unified-map/unified-map-show-app-service.html
 release: australia
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Viewing relationships, Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# View service instances on Unified Map
+# View service instances for a CI
 
-For a selected CI, the **Service instances** panel in Unified Map lists details from the Service Mapping application for all associated service instances \(formerly application services\).
+For a selected CI, the **Service instances** panel in Unified Map lists details in the Service Mapping application for all associated service instances \(formerly application services\).
 
 ## Before you begin
 
@@ -26,6 +26,10 @@ Role required:
 -   To access maps with operational service instances: app\_service\_user, and sm\_user or sm\_admin
 -   To access maps with operational and non-operational service instances: app\_service\_admin, and sm\_user or sm\_admin
 -   To access and view related items: itil
+
+## About this task
+
+The information that appears on a service instance card is described in [Service Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/um-data-from-service-mapping.md).
 
 ## Procedure
 
@@ -54,5 +58,5 @@ Role required:
 **Related topics**  
 
 
-[Configuring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping-setup.md)
+[Service Mapping data that appears on maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/um-data-from-service-mapping.md)
 

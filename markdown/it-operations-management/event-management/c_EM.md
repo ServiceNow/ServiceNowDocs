@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [ITOM AIOps, IT Operations Management]
 ---

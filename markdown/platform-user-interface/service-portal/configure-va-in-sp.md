@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 keywords: [Configure, Agent Chat, portal, Virtual Agent, com.glide.interaction.awa, AWA, Advanced Work Assignment]
 breadcrumb: [Create a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
@@ -21,7 +21,7 @@ Your end users can initiate and maintain an Agent Chat conversation in any porta
 
 Role required: admin
 
--   Activate the Glide Virtual Agent \(com.glide.cs.chatbot\) or the Agent Chat \(com.glide.interaction.awa\) plugin. You can activate the Glide Virtual Agent plugin only if you have a subscription.
+-   Activate the Glide Virtual Agent \(com.glide.cs.chatbot\) or the Agent Chat \(com.glide.interaction.awa\) plugin. The Glide Virtual Agent plugin requires a subscription.
 
     **Note:** For information about using Now Assist in Virtual Agent in portals, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
@@ -50,7 +50,7 @@ Active
 
 </td><td>
 
-Select to make the configuration active.
+Whether the configuration is active.
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ Name
 
 </td><td>
 
-Enter a unique name for the configuration record.
+Unique name for the configuration record.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Portals
 
 </td><td>
 
-Select the portals in which you would like to use the specified chat configuration. If no portal is selected, the configuration applies to all portals in the system.
+Portals to use with the specified chat configuration. If no portal is selected, the configuration applies to all portals in the system.
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Public
 
 </td><td>
 
-Select to make Agent Chat available to users before they log in.
+Whether Agent Chat is available to users before they log in.
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Roles
 
 </td><td>
 
-Select the roles a user must have to use Agent Chat. If you don't select a role, Agent Chat is available to all users regardless of their role.
+Roles a user must have to use Agent Chat. If you don't select a role, Agent Chat is available to all users.
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Order
 
 </td><td>
 
-Enter a number indicating the order that the configurations should run. Only one configuration applies per portal. If there are multiple configurations on a portal, the system runs the first configuration found from lowest to highest.
+Number indicating the order that configurations should run. Only one configuration applies per portal. If multiple configurations exist on a portal, the system runs the first configuration found from lowest to highest.
 
 </td></tr><tr><td>
 
@@ -106,11 +106,11 @@ Server script
 
 </td><td>
 
-Write a script that passes page and widget data to an Agent Chat conversation when a user initiates the conversation. For example, pass a field to the chat conversation to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal associated with this record. This script has access to the [GlideSPScriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md) API.
+Script that passes page and widget data to an Agent Chat conversation. For example, pass a field to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal. This script has access to the [GlideSPScriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md) API.
 
  **Note:** The portal suffix, page ID, and language are automatically available to Agent Chat and do not require a custom script. Sys ID and table are automatically available to Agent Chat when they are present in the URL.
 
- This example returns an object containing the list of catalogs associated with the portal to the current conversation.
+ This example returns an object containing the list of catalogs associated with the portal.
 
  ```
 (function ($sp) {    

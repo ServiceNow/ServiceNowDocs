@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/telecom-media-tech-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 ---
 
@@ -110,7 +110,7 @@ Open Digital Architecture-aligned REST APIs available across TMT solutions — a
 
 </td><td>
 
-[Browse APIs by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-product-type.md)
+
 
 </td></tr></tbody>
 </table>## Additional resources

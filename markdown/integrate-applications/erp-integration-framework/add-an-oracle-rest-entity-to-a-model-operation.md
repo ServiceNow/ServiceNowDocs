@@ -64,3 +64,5 @@ This procedure covers the Oracle-specific settings. For the general process of a
     The entity card shows the date and time when the information was last retrieved.
 
 
+**Parent Topic:**[Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md)
+

@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-10-16"
 reading_time_minutes: 1
-breadcrumb: [Reference, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Reference, AI Agent Studio, Enable AI experiences]
 ---
 
 # Troubleshooting agentic AI manual testing failures

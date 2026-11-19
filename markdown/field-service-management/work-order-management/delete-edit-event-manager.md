@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 1
 breadcrumb: [Field Service Manager Mobile, Completing work on mobile, Use, Field Service Management]
 ---
@@ -19,10 +19,6 @@ Managers can edit or delete events in the Mobile Manager application after theyâ
 ## Before you begin
 
 Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
-
-## About this task
-
-If the event you're editing is a break, breaks can be moved outside the Break Window, but must still fall within the technicianâ€™s schedule.
 
 ## Procedure
 
@@ -38,15 +34,15 @@ If the event you're editing is a break, breaks can be moved outside the Break Wi
 
 6.  Edit or delete the event.
 
-<table id="choicetable_wmv_ly5_fhc"><thead><tr><th align="left" id="d52169e108">
+<table id="choicetable_wmv_ly5_fhc"><thead><tr><th align="left" id="d50722e104">
 
 Selection
 
-</th><th align="left" id="d52169e111">
+</th><th align="left" id="d50722e107">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d52169e117">
+</th></tr></thead><tbody><tr><td id="d50722e113">
 
 **Delete**
 
@@ -57,7 +53,7 @@ Action
 
 **Note:** If this is a recurring event, select the occurrence the change applies to. Choose **Delete this event** to delete only this occurrence, or **Delete this and future events** to delete this occurrence and all future occurrences.
 
-</td></tr><tr><td id="d52169e151">
+</td></tr><tr><td id="d50722e147">
 
 **Edit**
 

@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Filtering the alert display in the Express List pane, Set up your workspace, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Filtering the alert display in the Express List pane, Set up your workspace, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Filter the Express List display using attributes
@@ -34,4 +34,6 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
     |**Number of impacted services**|Enter a condition to view alerts according to the number of alerts on the selected filter. For example, to display alerts that have fewer than 10 impacted services, you would select the **less than** condition and enter `10`.\[Omitted image "filter-by-number.png"\] Alt text: Filter the Express List panel by number of alerts|
     |**Date**|View alerts according to the selected date and time range in the pop-up calendar in the Express List panel. \[Omitted image "filter-by-time.png"\] Alt text: Filter the Express List pane by date and time|
 
+
+**Parent Topic:**[Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/filter-express-list.md)
 

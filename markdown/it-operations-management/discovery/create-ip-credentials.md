@@ -126,5 +126,5 @@ Enter the sequence in which Discovery tries this credential when it attempts to 
 **Related topics**  
 
 
-[Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md)
+[bundle-psec.credentials-getting-started]
 

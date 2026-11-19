@@ -1,20 +1,20 @@
 ---
 title: Configure list control settings for the list editor
-description: You can configure the list control settings that affect the list editor.
+description: Configure the list control settings that determine how users edit records in the list editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/t\_ConfigListEditorControlSettings.html
 release: australia
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-09"
 reading_time_minutes: 1
 breadcrumb: [List editor, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure list control settings for the list editor
 
-You can configure the list control settings that affect the list editor.
+Configure the list control settings that determine how users edit records in the list editor.
 
 ## Before you begin
 
@@ -28,9 +28,11 @@ Role required: personalize\_control
 
 1.  Navigate to a list view for the desired table.
 
-2.  Right-click any column heading and select **Configure** &gt; **List Control**.
+2.  Select and hold \(or right-click\) any column heading and select **Configure** &gt; **List Control**.
 
-3.  On the List Control form, select the desired settings.
+3.  On the List Control form, select the **Edit configuration** tab.
+
+4.  On the form, modify the desired fields.
 
 <table id="table_zjz_rll_v4"><thead><tr><th>
 
@@ -41,6 +43,16 @@ Field
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+List edit insert row
+
+</td><td>
+
+Ability for a user to create records in list view. When it is enabled, an empty row appears at the bottom of the list.\[Omitted image "InsertANewRow.png"\] Alt text: Insert a new row
+
+ This field is available for standard lists only.
+
+</td></tr><tr><td>
 
 List edit type
 
@@ -53,15 +65,13 @@ Ability for the user to edit values directly in individual cells in a list. The 
 
 </td></tr><tr><td>
 
-List edit insert row
+List edit tag
 
 </td><td>
 
-Ability for a user to create records in list view. When it is enabled, an empty row appears at the bottom of the list.\[Omitted image "InsertANewRow.png"\] Alt text: Insert a new row
-
- This field is available for standard lists only.
+Adds a tag to the list item.
 
 </td></tr></tbody>
-</table>4.  Click **Update**.
+</table>5.  Select **Update**.
 
 

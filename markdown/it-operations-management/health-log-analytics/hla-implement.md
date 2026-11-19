@@ -48,8 +48,8 @@ Use the Data Input Preprocessor to filter, split, or sanitize raw log data befor
 By default, the HLA Engine tries to auto-map every incoming log line to the correct tags. You can change automatic mapping results manually by defining a JavaScript function.
 -   **[Mapping logs for contextual alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-log-context-mapping.md)**  
 Map your incoming log data to service instances, components, and source types so that Health Log Analytics can generate alerts in context.
--   **[View source type and log source relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-view-sources-vs-sourcetypes.md)**  
-Explore the many-to-many relationships between source types and log sources to help you optimize data input mapping in Health Log Analytics.
+-   **[Parse log data automatically and review parsing suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-source-type-ai-parsing.md)**  
+Parse log data automatically in Health Log Analytics using AI-assisted log parsing. ServiceNow Otto for ITOM generates a parser for each detected log format and displays suggested classifications and labels for the parsed properties.
 -   **[Source type structure adjustment in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md)**  
 Health Log Analytics \(HLA\) enables you to reclassify auto-classified log properties and change auto-mapped labels. These adjustments help HLA machine learning analyze your data accurately.
 -   **[Health Log Analytics content packs for quicker time to value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-content-packs.md)**  

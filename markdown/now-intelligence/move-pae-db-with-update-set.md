@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/move-pae-db-with-update-set.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -38,7 +38,7 @@ Additional steps may be necessary if you are moving a dashboard in a scoped appl
 
 3.  Select the dashboard that you want to unload to an update set.
 
-4.  Select the Additional actions icon \(\[Omitted image "icon-context-p.png"\] Alt text: Additional actions icon\) and select **Unload Dashboard**.
+4.  Select the Additional actions icon \(\[Omitted image "icon\_menu3lines.png"\] Alt text: Additional actions icon\) and select **Unload Dashboard**.
 
     Only perform this step after the dashboard is ready to unload, meaning that you’ve added all content to the tabs.
 

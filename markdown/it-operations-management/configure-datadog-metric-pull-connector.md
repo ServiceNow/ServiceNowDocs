@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/configure-datadog-metric-pull-connector.html
 release: australia
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
-breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrations Launchpad in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure Datadog metric pull connector
@@ -16,7 +16,7 @@ Configure OAuth-based integration between your Datadog instance and ServiceNow E
 
 ## Before you begin
 
-Configure the Datadog API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Datadog API Key credential, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/API-key-credential-form.md).
+Configure the Datadog API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Datadog API Key credential, see .
 
 Ensure you have the application key configured in the Datadog. For more information, see [https://docs.datadoghq.com/account\_management/api-app-keys/](https://docs.datadoghq.com/account_management/api-app-keys/).
 

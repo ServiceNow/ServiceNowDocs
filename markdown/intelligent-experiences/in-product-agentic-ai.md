@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/in-product-agentic-ai.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-29"
+last_updated: "2026-11-04"
 reading_time_minutes: 4
-breadcrumb: [Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # In-product experience for agentic workflows

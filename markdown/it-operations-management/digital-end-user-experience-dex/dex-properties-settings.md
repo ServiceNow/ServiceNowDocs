@@ -1,20 +1,20 @@
 ---
 title: Digital End-User Experience properties and settings
-description: The following Digital End-User Experience properties and settings control behavior such as alert correlation, browser extension metrics collection, and Desktop Assistant notifications. You must have the admin role to update them.
+description: You can update the following Digital End-User Experience properties and settings to fit your needs. You must have the admin role to update these settings and properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/dex-properties-settings.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # Digital End-User Experience properties and settings
 
-The following Digital End-User Experience properties and settings control behavior such as alert correlation, browser extension metrics collection, and Desktop Assistant notifications. You must have the admin role to update them.
+You can update the following Digital End-User Experience properties and settings to fit your needs. You must have the admin role to update these settings and properties.
 
 <table id="table_uh2_f5s_rdc"><thead><tr><th>
 
@@ -74,7 +74,7 @@ Application and Device Health
 
 </td><td>
 
-Period in seconds for correlating similar DEX device alerts based on the message\_keyUse zero to turn off the rule.
+The period in seconds for correlating similar DEX device alerts based on the message\_keyUse zero to disable the rule.
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Application and Device Health
 
 </td><td>
 
-Delay period in minutes after which a closed alert is deletedFor example, if an alert associated with dex\_alert\_metadata is closed it isn’t deleted for this period. The default is 15 min.
+The delay period in minutes after which a closed alert is deletedFor example, if an alert associated with dex\_alert\_metadata is closed it isn’t deleted for this period. The default is 15 min.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Application and Device Health
 
 </td><td>
 
-Mapping of the sys\_user.user\_id column to a custom\_user\_id column, used when the user ID column is customizedSuffix and prefix help in providing transformation between the values.
+Used to map the sys\_user.user\_id column to a custom\_user\_id column when customizedSuffix and prefix help in providing transformation between the values.
 
 For example, \{"prefix": "dex-`blah`", "device\_user\_id\_column": “custom\_user\_id", "suffix": "dex-`blah`”\}
 
@@ -136,7 +136,7 @@ Application and Device Health
 
 </td><td>
 
-Option that turns on the playbook when the required plugins are activeUse for hiding or showing the playbook in the options on the device details page.
+Enables the playbook use when the correct plugins are enabledUse for hiding or showing the playbook in the options on the device details page.
 
 </td></tr><tr><td>
 
@@ -156,7 +156,7 @@ Application and Device Health
 
 </td><td>
 
-Interval in seconds that the browser extension uses to push metrics to the agentThe default is 5 min.
+The interval in seconds that the browser extension uses to push metrics to the agentThe default is 5 min.
 
 </td></tr><tr><td>
 
@@ -176,7 +176,7 @@ Application and Device Health
 
 </td><td>
 
-Period in minutes that an open session is timed out using the tab.lastAccessed time The default is 4 hours. Entering 0 turns off this feature.
+The period in minutes that an open session is timed out using the tab.lastAccessed time The default is 4 hours. Entering 0 turns off this feature.
 
 </td></tr><tr><td>
 
@@ -197,26 +197,6 @@ Application and Device Health
 </td><td>
 
 Duration of network performance metrics in seconds
-
-</td></tr><tr><td>
-
-sn\_dex.saved\_custom\_report\_limit
-
-</td><td>
-
-10
-
-</td><td>
-
-integer
-
-</td><td>
-
-Application and Device Health
-
-</td><td>
-
-Maximum number of saved insights reportsOnly reports that are available on the Insights page count toward this limit.
 
 </td></tr><tr><td>
 
@@ -256,7 +236,7 @@ DEX Content Playbook
 
 </td><td>
 
-Option that turns storing of the check execution details in the dex\_content\_log table on or off
+Enables or disables storing of the check execution details in the table dex\_content\_log
 
 </td></tr><tr><td>
 
@@ -316,7 +296,7 @@ Desktop Assistant
 
 </td><td>
 
-Option that determines whether notifications are sent
+Determines if the notifications should be sent
 
 </td></tr><tr><td>
 
@@ -401,5 +381,5 @@ Desktop Assistant
 Minimum compatible version for desktop application on Windows
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-console-reference.md)
+</table>**Parent Topic:**[Digital End-User Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-reference.md)
 

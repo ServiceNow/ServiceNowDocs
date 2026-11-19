@@ -1,18 +1,18 @@
 ---
 title: Set record page order
-description: Set the order value of a record page to determine the default page for displaying records in CRM Workspace.
+description: Set the order value of a record page to determine the default page for displaying records in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-csm-ws-set-record-page-order.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Record pages, Record pages and page templates, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Set record page order
 
-Set the order value of a record page to determine the default page for displaying records in CRM Workspace.
+Set the order value of a record page to determine the default page for displaying records in CSM Configurable Workspace.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 ## About this task
 
-Record pages can be active or inactive. Each record page also has an order value. The active record page with the lowest order number is the default page. When the system displays a record in CRM Workspace, it uses this default page to display the record information.
+Record pages can be active or inactive. Each record page also has an order value. The active record page with the lowest order number is the default page. When the system displays a record in CSM Configurable Workspace, it uses this default page to display the record information.
 
 |Record page|Order|
 |-----------|-----|
@@ -39,7 +39,7 @@ To use a different page as the default page, you need to manually switch from th
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-2.  Select the **CRM Workspace** experience.
+2.  Select the **CSM/FSM Configurable Workspace** experience.
 
 3.  Select the desired page in the Variants list, for example, **CSM default record page**.
 
@@ -55,9 +55,9 @@ To use a different page as the default page, you need to manually switch from th
 
     1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Experiences**.
 
-    2.  Select the **CRM Workspace** experience.
+    2.  Select the **CSM/FSM Configurable Workspace** experience.
 
-    3.  In the **Admin panel** field, open the UX App Configuration: CRM Workspace App Config record.
+    3.  In the **Admin panel** field, open the UX App Configuration: CSM/FSM Configurable Workspace App Config record.
 
     4.  Locate the page in the UX Screens related list.
 
@@ -67,5 +67,5 @@ To use a different page as the default page, you need to manually switch from th
 **Related topics**  
 
 
-[CRM Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-record-pages.md)
+[CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-record-pages.md)
 

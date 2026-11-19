@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 6
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -147,7 +147,7 @@ AI Search Index Events stats \[ais\_index\_queue\_stats\]
 
 </td><td>
 
-List of statistics entries for indexing events.
+List of statistics for the ais\_index event queue, recorded approximately every five minutes. Each entry shows the queue size and number of events processed.
 
 </td></tr><tr><td>
 

@@ -34,7 +34,7 @@ Certificate administrator \[sn\_disco\_certmgmt.pki\_admin\]
 
 The headless user \(an account not tied to a specific user\) is included in the base system and equipped with the **sn\_disco\_certmgmt.pki\_admin** role. It serves as the caller for automatically generated renewal certificate tasks and incidents. To customize this user, adjust the user ID using the Discovery property: **glide.discovery.certs.cert\_admin\_user\_id** instead of leaving it as the default headless user.
 
- Responsible for changing non-standard attributes in the original certificate record, this role can modify attributes like state, status, assigned to, assignment group, renewal tracking, and service type. The certificate's inherent attributes remain unaltered. The default state for discovered certificates is installed, but this role can manually adjust it to other states such as issued, installed, revoked, and retired. Additionally, users with this role have the capability to view diverse dashboards and possess read/write access to certificates and certificate tasks associated with certificate Discovery.
+ Can modify non-standard attributes in the original certificate record, including state, status, assigned to, assignment group, renewal tracking, and service type. The certificate's inherent attributes remain unaltered. The default state for discovered certificates is installed. Users with this role can manually change the state to issued, installed, revoked, or retired, including revoking certificates. Users with this role also have read/write access to certificates and certificate tasks associated with certificate Discovery, and can view all dashboards.
 
  **Note:**
 
@@ -48,7 +48,7 @@ Certificate user\[sn\_disco\_certmgmt.pki\_user\]
 
 </td><td>
 
-Responsible for overseeing certificate discovery, this role is granted the ability to access diverse dashboards and has read/write permissions for certificates and associated certificate tasks.
+Can access all dashboards and view certificates. Has read/write access to certificate tasks. Users with this role can request new certificates and submit renewal requests from the Service Catalog.
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Certificate approver \[sn\_disco\_certmgmt.pki\_approver\]
 
 </td><td>
 
-Responsible for certificate requests, a user with this role \(normal user\) can initiate certificate requests through the Service Catalog form.
+Reviews and approves or rejects certificate requests. Users with this role do not request or renew certificates.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Certificate requester\[sn\_disco\_certmgmt.certificate\_requester\]
 
 </td><td>
 
-Responsible for submitting certificate requests, this role is granted the ability to request and renew certificates from the Service Catalog.
+Can request new certificates and submit renewal requests from the Service Catalog.
 
 </td></tr></tbody>
 </table>

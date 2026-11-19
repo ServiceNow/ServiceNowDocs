@@ -131,3 +131,5 @@ Rules are created through the ServiceNow Quote Experience administration interfa
 
 Add the rule to a rule grouping so that it can be assigned to stages and events. For more information, see [Create a transaction rule grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-rule-grouping.md).
 
+**Parent Topic:**[Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-rules-and-rule-groups.md)
+

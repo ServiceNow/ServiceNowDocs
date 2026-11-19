@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-13"
 reading_time_minutes: 1
 keywords: [use ai specialist]
-breadcrumb: [Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Autonomous Workforce, Enable AI experiences]
 ---
 
 # Using AI specialists

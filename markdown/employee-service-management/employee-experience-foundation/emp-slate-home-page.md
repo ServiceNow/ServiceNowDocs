@@ -1,5 +1,5 @@
 ---
-title: EmployeeWorks home
+title: Configure EmployeeWorks home
 description: Access services, tasks, and announcements from an AI-first dashboard that supports your daily work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/emp-slate-home-page.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2025-01-27"
 reading_time_minutes: 3
 keywords: [Employee Slate home page, home experience, personalized home, widgets, Employee Slate]
-breadcrumb: [ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configure, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
-# EmployeeWorks home
+# Configure EmployeeWorks home
 
 Access services, tasks, and announcements from an AI-first dashboard that supports your daily work.
 

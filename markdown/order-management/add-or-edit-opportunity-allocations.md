@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-or-edit-opportunity-allocations.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-14"
 reading_time_minutes: 2
 breadcrumb: [Manage allocations, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -24,7 +24,7 @@ The configurator displays active allocation types in the left pane. Each type sh
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Opportunity** &gt; **All**, open the opportunity record, and select the Allocations tab.
 

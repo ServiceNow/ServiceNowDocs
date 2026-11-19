@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -16,9 +16,11 @@ breadcrumb: [Major Security Incident Management, Security Incident Response, Ent
 
 Major Security Incident Management provides a dedicated workspace for managing major security incidents specifically designed for the Major Security Incident manager.
 
-Easily collaborate on activities that help resolve major security incidents by sharing and viewing files and folders, viewing and updating incident tasks, and communicate with those working on the incident through dedicated chat channels.
+You can collaborate on activities that help resolve major security incidents. You can do this by sharing and viewing files and folders, viewing and updating incident tasks, and communicating with those working on the incident through dedicated chat channels.
 
 Major Security Incident Management \(MSIM\) provides a mechanism to track and resolve major security incidents. MSIM works in conjunction with the existing security incident and vulnerability response product capabilities and improves the major security incident remediation process with the following features:
+
+\[Omitted image "msim-workspace.png"\] Alt text: MSI overview tab
 
 -   Dedicated workspace for managing major security incidents specifically designed for the major security incident manager user role.
 -   Organize major security incident response tasks, including tasks tracked on linked security incidents and vulnerability groups.
@@ -29,11 +31,11 @@ Major Security Incident Management \(MSIM\) provides a mechanism to track and re
 
 Use the MSIM Workspace to track and resolve major security incidents:
 
-1.  View the trend charts and progress of the major security incident.
-2.  Track and organize Microsoft SharePoint files activity via the MSIM Workspace.
-3.  Track and organize Microsoft Teams chat activity via the MSIM Workspace.
-4.  View and update incident details via the MSIM Workspace.
-5.  Filter collaboration activities in the MSIM Workspace Activity stream.
+-   View the trend charts and progress of the major security incident.
+-   Track and organize Microsoft SharePoint files activity via the MSIM Workspace.
+-   Track and organize Microsoft Teams chat activity via the MSIM Workspace.
+-   View and update incident details via the MSIM Workspace.
+-   Filter collaboration activities in the MSIM Workspace Activity stream.
 
 **Parent Topic:**[Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/major-security-incident-management-landing-page.md)
 

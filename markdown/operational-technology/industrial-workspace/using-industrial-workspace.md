@@ -7,7 +7,7 @@ release: australia
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Industrial Workspace, Operational Technology]
 ---

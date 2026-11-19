@@ -5,8 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-create-a-theme-ai.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-06"
 reading_time_minutes: 3
+keywords: [theme builder, create theme, AI theme generation, brand image, brand guidelines, color palette, primary color, secondary color, brand logo, UI theme]
 breadcrumb: [Theme creation with AI, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -44,8 +45,6 @@ For information on granular roles, see [Granular admin roles](https://raw.github
     |------|------|
     |**Upload brand image or brand guidelines PDF**|AI automatically extracts a color palette from your image or brand guidelines PDF..|
     |**Select __Handpick my colors__**|Manually choose your theme colors|
-
-
 
     \[Omitted image "tb-nap-wizard-flow-2-ap2.png"\] Alt text: Theme Creation wizard showing the option to upload an image or PDF file or handpick colors to generate a color palette.
 

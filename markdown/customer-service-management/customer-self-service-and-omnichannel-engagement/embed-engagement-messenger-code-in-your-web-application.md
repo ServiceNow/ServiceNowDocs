@@ -9,7 +9,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Embed Engagement Messenger in your web application
@@ -47,15 +47,15 @@ Next, depending on the authentication type that you selected for your configured
 
 7.  For a messenger module with OIDC-based or SAMl-based authentication, complete the following configuration.
 
-<table id="choicetable_vhq_vtl_p4b"><thead><tr><th align="left" id="d107944e153">
+<table id="choicetable_vhq_vtl_p4b"><thead><tr><th align="left" id="d107494e153">
 
 Authentication type
 
-</th><th align="left" id="d107944e156">
+</th><th align="left" id="d107494e156">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d107944e162">
+</th></tr></thead><tbody><tr><td id="d107494e162">
 
 **OIDC-based**
 
@@ -70,7 +70,7 @@ This function enables authenticated users to log in to Engagement Messenger seam
 
 This function enables authenticated users to seamlessly log out from Engagement Messenger and your website.
 
-</td></tr><tr><td id="d107944e202">
+</td></tr><tr><td id="d107494e202">
 
 **SAML-based**
 
@@ -102,7 +102,7 @@ This function enables authenticated users to seamlessly log out from Engagement 
 
     The `setLang : getEMLanguage` function takes preference when both parameters are available. However, if the user has set the preferred language in the \[sys\_user\_preference\] table, Engagement Messenger will be displayed in that language.
 
-    **Note:** Beginning with the Brazil release, the upgraded customers can also modify the embed code to enable language switching.
+    **Note:** Beginning with the Australia release, the upgraded customers can also modify the embed code to enable language switching.
 
 10. Modify the embed code of Engagement Messenger to integrate Proactive Recommendations on a web page.
 

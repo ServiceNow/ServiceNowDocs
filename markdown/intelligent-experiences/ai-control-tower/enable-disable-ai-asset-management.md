@@ -7,9 +7,9 @@ release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Use, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Enable or disable the management of an AI asset
@@ -22,15 +22,15 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 
-If you designate an AI asset as managed, you can perform all life-cycle management and request creation processes on that asset. In addition, you can determine the risk classification, value, quality, and safety of the asset. If you designate an AI asset as unmanaged, you cannot perform any processes on it. By using these designations, you can streamline the asset management process and reduce operational risks. For more information on managed and unmanaged AI assets, see [Assets list- managed and unmanaged assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/assets-list-managing-and-unmanaging-assets.md).
+If you designate an AI asset as managed, you can perform all life-cycle management and request creation processes on that asset. In addition, you can determine the risk classification, value, quality, and safety of the asset. If you designate an AI asset as unmanaged, you cannot perform any processes on it. By using these designations, you can streamline the asset management process and reduce operational risks. For more information on managed and unmanaged AI assets, see [AI assets- Managed and Unmanaged](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
-**Note:** By default, all AI assets that you create through the AI Control Tower application are automatically designated as managed.
+**Note:** By default, all AI assets that you create through the Control Tower application are automatically designated as managed.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **AI Control Tower**.
+1.  Navigate to **Workspaces** &gt; **Control Tower**.
 
-2.  From the AI Control Tower, open the AI assets view.
+2.  From Control Tower, open the AI assets view.
 
 3.  Depending on whether you want to enable or disable the management of an AI asset, proceed with one of the following options:
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/capacity-console.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Capacity and Reservations Management, Explore, Field Service Management]
 ---
@@ -33,7 +33,7 @@ Field Service Advanced Capacity and Reservations Management provides the followi
 **Related topics**  
 
 
-[Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
+[Activate Field Service Advanced Capacity and Reservations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
 
 [Using the Capacity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-manager-workforce/capacity-and-reservation-management-console.md)
 

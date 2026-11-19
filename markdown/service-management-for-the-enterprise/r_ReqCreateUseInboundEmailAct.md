@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/r\_ReqCreateUseInboundEmailAct.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Request creation, Request Management in a Service Management application, Service Management]
 ---
@@ -28,7 +28,7 @@ Requests can be automatically updated from the information in inbound email repl
 **Related topics**  
 
 
-[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
+[bundle-platadm.c_EmailNotifications]
 
-[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md)
+[bundle-platadm.c_InboundEmailActions]
 

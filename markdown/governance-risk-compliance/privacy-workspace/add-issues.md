@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] icon.
 
 3.  Select **All Cases**.
 
@@ -32,15 +32,15 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 5.  Select the Issues related list and do one of the following.
 
-<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d103979e102">
+<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d102908e100">
 
 Option
 
-</th><th align="left" id="d103979e105">
+</th><th align="left" id="d102908e103">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d103979e111">
+</th></tr></thead><tbody><tr><td id="d102908e109">
 
 **To add an existing issue**
 
@@ -51,7 +51,7 @@ Action
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d103979e137">
+</td></tr><tr><td id="d102908e135">
 
 **To create an issue**
 

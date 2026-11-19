@@ -7,7 +7,7 @@ release: australia
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Initiate an ad hoc approval, Work on a legal request, Managing legal requests, Use, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -34,15 +34,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d565222e102">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d567729e102">
 
 Option
 
-</th><th align="left" id="d565222e105">
+</th><th align="left" id="d567729e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d565222e111">
+</th></tr></thead><tbody><tr><td id="d567729e111">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d565222e140">
+</td></tr><tr><td id="d567729e140">
 
 **As a collaborator**
 

@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -65,6 +65,8 @@ Track and manage all the tasks associated with a major security incident using t
 [Link additional records to Major Security Incident]()
 
 [Unlink records from Major Security Incident]()
+
+[]()
 
 [Track collaboration activity via MSIM workspace]()
 

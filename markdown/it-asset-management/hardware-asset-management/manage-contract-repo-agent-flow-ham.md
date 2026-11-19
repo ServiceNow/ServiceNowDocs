@@ -7,14 +7,16 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 7
-breadcrumb: [Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-08-24"
+reading_time_minutes: 11
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage contract repository agentic workflow in the Hardware Asset Workspace
 
 Automate contract management with the Manage contract repository agentic workflow. Extract metadata and obligations from signed contracts and set renewal or termination reminders automatically to reduce manual data entry and help legal and procurement teams maintain compliance.
+
+**Important:** This feature is available only with Hardware Asset Management Prime SKU, starting from Hardware Asset Management version 16.0.0 and Australia patch 6.
 
 ## Overview of Manage contract repository agentic workflow
 
@@ -82,11 +84,11 @@ For more information, see [Review AI-extracted obligations in the Hardware Asset
 
 When a hardware contract is created, the **Initiate contract extraction** button appears on the contract form when the following conditions are met:
 
--   The contract metadata extraction skill or the contract obligation extraction skill is activated on your ServiceNow instance.
+-   The contract metadata extraction skill or the Contract obligation extraction skill is activated on your ServiceNow instance.
 -   One or both extraction skills have not yet been executed on the contract record.
 -   The contract type is warranty, maintenance, lease, or purchase agreements.
 
-**Note:** If both the contract metadata extraction skill and the contract obligation extraction skill have already been executed on the contract record, the **Initiate contract extraction** button does not appear on the contract form.
+**Note:** If both the Contract metadata extraction skill and the Contract obligation extraction skill have already been executed on the contract record, the **Initiate contract extraction** button does not appear on the contract form.
 
 ## AI agents used in the manage contract repository agentic workflow
 
@@ -117,28 +119,80 @@ Use the contract playbook to review and update the AI-extracted metadata and con
 -   **[Review AI-extracted obligations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/review-extracted-obligation-ham.md)**  
 Use the contract playbook to review, edit, approve, or reject obligations automatically extracted from contract documents.
 
-**Parent Topic:**[Asset lifecycle and disposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-lifecycle-disposal-ham.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
 
-[Request a Hardware Asset Refresh]()
+[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
 
-[Manage refresh of assets using Zero Touch Refresh]()
+[Work with hardware normalization]()
+
+[Manage asset bundles from your inventory]()
+
+[Manage your inventory through pallet assets]()
+
+[Manage loaner assets]()
+
+[Donate assets to charity organizations]()
+
+[Use Advanced Shipment Notification]()
+
+[Manage RMA requests]()
+
+[Create an inventory stock order request]()
+
+[Create a disposal order]()
+
+[Fulfilling hardware asset requests]()
+
+[Audit hardware asset inventory]()
+
+[Request a Hardware Asset Refresh]()
 
 [Manage your expiring contracts for leased hardware assets]()
 
 [Reclaim hardware assets]()
 
-[Create a disposal order]()
+[View RFID information of assets]()
 
-[Donate assets to charity organizations]()
+[Manage the lifecycle of hardware models with calculated lifecycle templates]()
+
+[Create an internal lifecycle in the Hardware Asset Workspace]()
 
 [Calculate the active lifecycle phase for a model]()
 
-[Manage asset bundles from your inventory]()
+[Receive asset warranty details from Lenovo]()
+
+[Manage stockrooms]()
+
+[Track shipments using the integration framework]()
+
+[Track asset location using indoor maps]()
+
+[Assess performance of Hardware Asset Management]()
+
+[Manage refresh of assets using Zero Touch Refresh]()
+
+[Configure the Total Cost of Ownership of assets]()
+
+[Manage Hardware Asset Management subscriptions]()
+
+[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
+
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
+
+[Manage hardware asset tasks using the Mobile Agent application]()
+
+[Manage asset put away using the Hardware Asset Workspace]()
+
+[Audit your hardware assets by using Asset Attestation]()
 
 [Manage obligations in the Hardware Asset Workspace]()
+
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Update associated Decision tables for HAM flows]()
 
 [Hardware Asset Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-cm-pro-integration.md)
 

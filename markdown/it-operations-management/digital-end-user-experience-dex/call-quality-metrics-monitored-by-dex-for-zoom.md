@@ -1,20 +1,20 @@
 ---
 title: Zoom call quality metrics on the Details page
-description: The Details page displays granular call quality metrics for each Zoom call participant.
+description: View the granular call quality metrics for on the Details page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/call-quality-metrics-monitored-by-dex-for-zoom.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # Zoom call quality metrics on the Details page
 
-The **Details** page displays granular call quality metrics for each Zoom call participant.
+View the granular call quality metrics for on the **Details** page.
 
 |Display name|Category|
 |------------|--------|
@@ -24,7 +24,7 @@ The **Details** page displays granular call quality metrics for each Zoom call p
 |Leave time|Date and time when the participant left the call.|
 |Call issues|Detected issues during the call \(for example, CPU\).|
 |Device type|Type of device used for the call \(for example, Windows, macOS\).|
-|Health|Zoom health of the participant \(for example, Good, Warning\).|
+|Health|Indicates the participant's zoom health. \(for example, Good, Warning\).|
 |Overall quality|Overall call quality rating \(Good, Fair, Bad, Poor\).|
 |Audio quality|Quality rating for audio during the call \(Good, Fair, Bad, Poor\).|
 |Video quality|Quality rating for video during the call \(Good, Fair, Bad, Poor\).|
@@ -43,8 +43,8 @@ The **Details** page displays granular call quality metrics for each Zoom call p
 |Version|Application version used during the call \(for example, 6.4.5.64357\).|
 |Microphone|Name and type of microphone device used during the call \(for example, MacBook Pro Microphone\).|
 |Speaker|Name and type of speaker device used during the call \(for example, MacBook Pro Speakers\).|
-|Camera|Indication of whether the camera was on or off during the call \(true or false\).|
-|Screenshare|Indication of whether screen sharing was active during the call \(true or false\).|
+|Camera|Indicates whether the camera was on or off during the call \(true or false\).|
+|Screenshare|Indicates whether screen sharing was active during the call \(true or false\).|
 
 **Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-console-reference.md)
 

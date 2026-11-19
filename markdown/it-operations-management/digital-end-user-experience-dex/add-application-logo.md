@@ -1,13 +1,13 @@
 ---
 title: Add a logo for your application
-description: Add a logo to an application so that users can distinguish it from other applications.
+description: Add a logo to improve the visual appeal of your application and to distinguish it from others.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/add-application-logo.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [application logo, add application logo, upload application logo, application image, application branding, customize application]
 breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Operations Management]
@@ -15,7 +15,7 @@ breadcrumb: [Application monitoring setup, Configure, Digital End-User Experienc
 
 # Add a logo for your application
 
-Add a logo to an application so that users can distinguish it from other applications.
+Add a logo to improve the visual appeal of your application and to distinguish it from others.
 
 ## Before you begin
 
@@ -43,7 +43,7 @@ You can only add a logo for an existing application.
 
     The Application form opens in a new window.
 
-6.  In the **Logo** field, select **Click to add**.
+6.  On the **Logo** field, select **Click to add**.
 
 7.  Select **Choose file**, select **Open**, and then select **OK**.
 
@@ -55,9 +55,11 @@ You can only add a logo for an existing application.
 To see the new application logo, perform the following steps.
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
-2.  In the primary navigation pane, select the Applications icon \[Omitted image "icon-applications.png"\] Alt text:.
+2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 3.  Open the application for which you have added the logo.
 
     The logo appears before the name of the application.
 
+
+**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-application-monitoring.md)
 

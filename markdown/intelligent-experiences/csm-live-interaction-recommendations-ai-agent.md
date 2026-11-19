@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-30"
 reading_time_minutes: 1
-breadcrumb: [Customer Service Management AI agents, Customer Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Customer Service Management AI agents, Customer Service Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Live interaction recommendations AI agent

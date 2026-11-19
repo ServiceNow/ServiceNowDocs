@@ -14,8 +14,25 @@ breadcrumb: [Reference, Unified Security Exposure Management, Security Operation
 
 Provides information about security asset fields added for various asset types in the unified exposure pipeline.
 
-|Asset type|Added security asset fields|
-|----------|---------------------------|
+## Security asset fields
+
+Following are the security asset fields that are modified for all asset types:
+
+-   Asset score
+-   Is external API asset
+-   Source
+-   Tool last seen
+-   Tool updated
+-   First seen
+-   Configuration item
+-   CI class
+-   Number
+-   Source Asset ID
+
+**Note:** Based on the asset type, few additional fields are added.
+
+|Asset type|Added security asset fields that are specific to the asset type|
+|----------|---------------------------------------------------------------|
 |Host|Hostnames, Primary hostname, Local IP, External IP, MAC Addresses, Machine domain, OS Version, Serial number, Ports, Platform name, Platform type|
 |Cloud|External ID, Resource type, Account ID, Region, Service name, Resource ID, Resource ID for deduping, Internal name, Runtime images, Cloud instance ID, Related cloud assets, Related cloud asset IDs, Related host asset IDs|
 |VM Image|Operating system, Architecture, Cloud platform|

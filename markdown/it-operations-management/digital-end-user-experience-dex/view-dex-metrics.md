@@ -7,10 +7,10 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [metrics analyzer, view collected metrics, configuration item metrics, time series, aggregated metrics]
-breadcrumb: [Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Monitor, Digital End-User Experience, IT Operations Management]
 ---
 
 # View collected metrics with Metrics analyzer
@@ -23,13 +23,13 @@ Role required: sn\_dex.admin
 
 ## About this task
 
-Use DEX Metrics analyzer to view key performance metrics collected for specific configuration items \(CIs\), in a single location. The Metrics analyzer enables you to select specific metrics for a device or application and see the aggregated metrics in a single consolidated time series.
+Use DEX Metrics analyzer to view key performance metrics collected for specific Configuration Items \(CIs\), in a single location. The Metrics analyzer enables you to select specific metrics for a device or application and see the aggregated metrics in a single consolidated time series.
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Devices icon \[Omitted image "icon-devices.png"\] Alt text: or the Applications icon \[Omitted image "icon-applications.png"\] Alt text:.
+2.  In the primary navigation pane, select the Devices icon \(\[Omitted image "icon-devices.png"\]\) or the Applications icon \(\[Omitted image "icon-applications.png"\]\).
 
 3.  Select a device or an application from the list.
 

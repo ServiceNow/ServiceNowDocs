@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-create-context-inputs.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -89,7 +89,7 @@ Enabling the **Active** check box makes the context input available for use in t
 </td></tr></tbody>
 </table>5.  Provide the necessary details in the related tabs.
 
-    The related tabs that display vary based on the field type selected in the **Type** field. For more information on the data types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+    The related tabs that display vary based on the field type selected in the **Type** field. The String, List, Integer, Long, Choice, True- false, Reference, Reference dot walked, and Sys id data types are supported for a context input. For more information on the data types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 6.  Select **Save**.
 

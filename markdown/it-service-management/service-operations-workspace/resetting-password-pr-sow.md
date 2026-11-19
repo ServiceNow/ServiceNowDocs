@@ -1,20 +1,20 @@
 ---
 title: Resetting password using Service-desk assisted Password Reset in Service Operations Workspace
-description: The Password Reset for Service Operations Workspace application enforces strong and secure passwords by enabling end users to reset or change their passwords by requesting the service desk agent.
+description: Enforce strong passwords by letting end users reset or change them by requesting a service desk agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/resetting-password-pr-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Resetting password using Service-desk assisted Password Reset in Service Operations Workspace
 
-The Password Reset for Service Operations Workspace application enforces strong and secure passwords by enabling end users to reset or change their passwords by requesting the service desk agent.
+Enforce strong passwords by letting end users reset or change them by requesting a service desk agent.
 
 -   **[Reset password using service-desk assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/reset-password-sd-pr-sow.md)**  
 Resetting the password enables the user to log in to their system and resume their work.

@@ -7,7 +7,7 @@ release: australia
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Model categories, Product Catalog, Asset Management common applications, IT Service Management]
 ---
@@ -18,7 +18,7 @@ If a model category is no longer needed, you can delete it.
 
 ## Before you begin
 
-Role required: model\_manager
+Role required: category\_manager
 
 ## About this task
 

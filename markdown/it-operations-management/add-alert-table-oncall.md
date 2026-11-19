@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/add-alert-table-oncall.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Enable on-call scheduling in SOW ITOM]
 breadcrumb: [On-call scheduling, Configure, ITOM AIOps, IT Operations Management]
@@ -38,7 +38,7 @@ Role required: evt\_mgmt\_admin
 
 ## What to do next
 
-[Create on-call shift for your team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling-in-sow.md).
+Create on-call shift for your team.
 
 **Parent Topic:**[On-call scheduling in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/oncall-schedule-escalation.md)
 

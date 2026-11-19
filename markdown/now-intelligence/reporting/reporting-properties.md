@@ -7,7 +7,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-04-22"
 reading_time_minutes: 8
 breadcrumb: [Core UI Reporting reference, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -34,7 +34,7 @@ Enable fulfiller creation of Core UI reportscom.snc.par.coreui.report\_create.en
 
 </td><td>
 
-Allows fulfiller users to create Core UI reports after upgrade to Brazil. **Create new** button available in the Data Visualizations library with the option to create Core UI reports in the modal.-   Type: true \| false
+Allows fulfiller users to create Core UI reports after upgrade to Australia. **Create new** button available in the Data Visualizations library with the option to create Core UI reports in the modal.-   Type: true \| false
 -   Default value: true
 -   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 

@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Error handling and logging, Hardening settings, Platform Security]
 ---
@@ -19,6 +19,8 @@ Configure **glide.sys.log\_impersonation** to control if user-impersonating even
 If **glide.sys.log\_impersonation** is not set to the recommended value of **true**, then user-impersonating events are no longer logged.
 
 Ensure that the property **glide.sys.log\_impersonation** exists in the System Properties \[sys\_properties\] table and is set to **true**. If the property does not appear in the System Properties \[sys\_properties\] table, add a new record.
+
+If you enable impersonation logging for non-interactive sessions by setting **glide.sys.log\_impersonation.non\_interactive** to **true**, non-interactive impersonations are recorded in the log, and corresponding impersonation events are also created in the Event \[sys\_event\] table.
 
 ## More information
 
@@ -68,7 +70,7 @@ Default value
 
 </td><td>
 
-true
+&lt;none&gt;
 
 </td></tr><tr><td>
 

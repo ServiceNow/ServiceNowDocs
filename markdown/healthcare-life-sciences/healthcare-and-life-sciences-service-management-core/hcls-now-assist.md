@@ -7,7 +7,7 @@ release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manage healthcare requests in Workspace, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -47,7 +47,7 @@ Click Summarize to generate a summary based on the following field inputs:
 
 The summary displays in the case summary panel once generated. Users can give feedback and share the summary to their work notes.
 
-**Note:** UI Builder can be used to configure the placement of the Case Summary panel within the HCLS case form. For more information, see .
+**Note:** UI Builder can be used to configure the placement of the Case Summary panel within the HCLS case form. For more information, see [Configure UI Builder workspace experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-workspace-settings.md).
 
 For more information on using this capability, see [Summarize case insights by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-summarize-case.md).
 

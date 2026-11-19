@@ -1,5 +1,5 @@
 ---
-title: AI cases tab in AI Control Tower
+title: AI cases tab in Control Tower
 description: Track, monitor, and analyze your AI case workflows, identify your workflow bottlenecks, and check your accountability of your AI-related risks by using the AI risk and compliance dashboard. As an AI steward, you can also use the dashboard to track the status and trends of your AI-related inquiries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-cases-tab-aict.html
@@ -7,12 +7,12 @@ release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-28"
 reading_time_minutes: 5
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control Tower Home, Control Tower dashboard, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# AI cases tab in AI Control Tower
+# AI cases tab in Control Tower
 
 Track, monitor, and analyze your AI case workflows, identify your workflow bottlenecks, and check your accountability of your AI-related risks by using the AI risk and compliance dashboard. As an AI steward, you can also use the dashboard to track the status and trends of your AI-related inquiries.
 
@@ -60,7 +60,9 @@ You can drill down into the data on each of the following widgets to learn more 
         -   Counts of issues that are linked to AI cases by their states like New, Review, or Responds.
         -   Counts of issues that are linked to AI cases by additional details like Overdue, Due in 7 days, or Unassigned.
 
-You can create AI cases and issues from the AI cases tab in both the AI Control Tower Workspace and the AI Risk and Compliance Workspace. The Create AI case button lets you initiate a new AI case record directly from the monitoring dashboard. Use this option to document, investigate, or track issues, risks, or compliance concerns related to AI models or datasets. Select the dropdown arrow next to Create AI case, and then select Create issue to create an issue related to an existing AI case.
+You can create AI cases and issues from the AI cases tab in both the Control Tower Workspace and the AI Risk and Compliance Workspace. The Create AI case button lets you initiate a new AI case record directly from the monitoring dashboard. Use this option to document, investigate, or track issues, risks, or compliance concerns related to AI models or datasets. Select the dropdown arrow next to Create AI case, and then select Create issue to create an issue related to an existing AI case.
+
+You can also submit AI cases anonymously through the Employee Center. A Visit Anonymous Reporting card is available in the Support resources section of the AI assets page in the Employee Center, enabling users to report AI-related concerns without disclosing their identity. For more information, see [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-ai-case-anon.md) and [Follow up on a report from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/follow-up-anonymously.md).
 
 For more information, see [Create an AI case in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-ai-case-in-the-ai-risk-and-compliance-workspace.md) and [Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md).
 

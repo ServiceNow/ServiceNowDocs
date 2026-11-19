@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -31,6 +31,8 @@ Description
 </td><td>
 
 Enable Multi-factor Authentication.**Note:** To enforce MFA for API authentication, set the `glide.authenticate.multifactor.for_integrations` system property to `true`. MFA is enforced only for users who have already enrolled in MFA. Users who have not enrolled are not affected.
+
+**Note:** An upgrade to Zurich can set this property to `true` automatically. See [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/changes-mfa-enforcement.md).
 
 </td></tr><tr><td>
 
@@ -56,7 +58,7 @@ Number of minutes that the reset code is valid. See [Log in with Multi-factor Au
 
 Number of additional seconds that the reset code is valid. The maximum is `60`. The default is `10`.The instance validates the code entered by the user against the single app-generated code that is generated at the `current time`. You can skew the time window with this property and allow one or more codes to be generated during a time window to be considered valid.
 
-The property's value is used in the following calculation: `current time - X/2` and `current time + X/2`, where `X` is the value of this property. If you use the value of `10`, for example, the instance considers any codes that the app generates within the time range `[the current time - 5 seconds]` and `[current time + 5 seconds]` to be valid. Use this property to help prevent login issues where the user is unable to enter the correct code in the default time allotted.
+The property's value is used in the following calculation: `current time - X/2` and `current time + X/2`, where `X` is the value of this property. If you use the value of `10`, for example, the instance considers any codes that the app generates within the time range `[the current time - 5 seconds]` and `[current time + 5 seconds]` to be valid. Use this property to prevent login issues where the user is unable to enter the correct code in the default time allotted.
 
 </td></tr><tr><td>
 
@@ -64,7 +66,9 @@ The property's value is used in the following calculation: `current time - X/2` 
 
 </td><td>
 
-Enables "remember this browser" for multi-factor authentication. When enabled, a user who has completed MFA on a given browser or device isn't prompted again on subsequent logins from that same browser or device for the configured time period. The user is prompted for MFA again only when logging in from a new browser or device. Default: true.
+Enables "remember this browser" for multi-factor authentication. When enabled, a user who has completed MFA on a given browser or device isn't prompted again on subseSets how long a remembered browser stays trusted after MFA is completed. Within this period, the user isn't challenged for MFA again in the same browser. Default: 8 hours.**Note:** Browser trust relies on a browser fingerprint \(BFP\) — a hash computed from a set of browser and device parameters. If one of those parameters changes during the validity period — for example, screen resolution changes when an external monitor is connected or disconnected — the fingerprint no longer matches the one recorded when MFA was last completed, and the user is challenged for MFA again earlier than the validity period would suggest.
+
+ a new browser or device. Default: true.
 
 </td></tr><tr><td>
 
@@ -72,7 +76,7 @@ Enables "remember this browser" for multi-factor authentication. When enabled, a
 
 </td><td>
 
-Sets how long a remembered browser stays trusted after MFA is completed. Within this period, the user isn't challenged for MFA again in the same browser. Default: 8 hours.**Note:** Browser trust relies on a browser fingerprint \(BFP\) — a hash computed from a set of browser and device parameters. If one of those parameters changes during the validity period — for example, screen resolution changes when an external monitor is connected or disconnected — the fingerprint no longer matches the one recorded when MFA was last completed, and the user is challenged for MFA again earlier than the validity period would suggest.
+After MFA remembers the browser, the user is not challenged for MFA in the same browser for this duration. The default is 8 hours.
 
 </td></tr><tr><td>
 
@@ -80,7 +84,7 @@ Sets how long a remembered browser stays trusted after MFA is completed. Within 
 
 </td><td>
 
-The number of browsers MFA retains for this user.
+The number of browsers MFA remembers for this user.
 
 </td></tr><tr><td>
 
@@ -92,7 +96,7 @@ Default value of the remember-browser check box in the validate multi-factor pag
 
 </td></tr><tr><td>
 
-**glide.webauthn.enabled**
+**glide.webauthn.enabled**\)
 
 </td><td>
 

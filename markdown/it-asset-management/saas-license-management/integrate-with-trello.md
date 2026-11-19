@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -79,15 +79,15 @@ If you’re using Software Asset Workspace, the option to create the Trello inte
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d71186e380">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d71304e380">
 
 Interface
 
-</th><th align="left" id="d71186e383">
+</th><th align="left" id="d71304e383">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d71186e389">
+</th></tr></thead><tbody><tr><td id="d71304e389">
 
 **Core UI**
 
@@ -98,7 +98,7 @@ Action
 3.  Select **Trello Enterprise Integration Profile**.
 
 
-</td></tr><tr><td id="d71186e431">
+</td></tr><tr><td id="d71304e431">
 
 **Software Asset Workspace**
 
@@ -166,7 +166,7 @@ This field is automatically set to **Trello Enterprise Subscription**.
 
     The **Connection &amp; Credential** field appears and is automatically set to **sn\_trello\_spoke.Trello\_Alias**.
 
-5.  In the **Download Subscription Subflow** tab, select the preview icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Preview icon\) next to the **Connection &amp; Credential** field and then select **Open Record** in the record preview.
+5.  In the **Download Subscription Subflow** tab, select the preview icon \[Omitted image "Form\_ReferenceLookupIcon.png"\] next to the **Connection &amp; Credential** field and then select **Open Record** in the record preview.
 
 6.  Select the **Create New Connection &amp; Credential** related link.
 
@@ -212,7 +212,7 @@ Review all automatically generated reclamation rules to reclaim user subscriptio
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

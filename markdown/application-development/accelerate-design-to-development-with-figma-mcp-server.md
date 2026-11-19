@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/australia/application-developme
 release: australia
 topic_type: concept
 last_updated: "2026-10-20"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # MCP connections and Build Agent
@@ -54,12 +54,12 @@ An example prompt: `Let's create a new project to track my baby's sleep and crea
 
 ## Approve and activate MCP servers
 
-Before you can enable an MCP server in Build Agent, a user with the sn\_ai\_governance.ai\_steward role must approve it as an AI asset in AI Control Tower. An administrator without this role can't approve the server. Each MCP server requires this approval, regardless of whether the server is enabled by default. For the approval steps, see [Onboard MCP server approval playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-onboard-mcp-server-approval-playbook.md).
+Before you can enable an MCP server in Build Agent, a user with the sn\_ai\_governance.ai\_steward role must approve it as an AI asset in Super Intelligence Control Tower. An administrator without this role can't approve the server. Each MCP server requires this approval, regardless of whether the server is enabled by default. For the approval steps, see [Onboard MCP server approval playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-onboard-mcp-server-approval-playbook.md).
 
 The end-to-end flow for making an MCP server available is:
 
 1.  The administrator adds the MCP server as a Workflow Data Fabric \(WDF\) connection.
-2.  A user with the sn\_ai\_governance.ai\_steward role approves the server as an AI asset in AI Control Tower.
+2.  A user with the sn\_ai\_governance.ai\_steward role approves the server as an AI asset in Super Intelligence Control Tower.
 3.  You authenticate the connection in Personal Integrations.For details, see [Using the Personal Authentication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/personal-auth-dashboard.md).
 4.  You enable the MCP server in Build Agent settings.
 
@@ -76,6 +76,8 @@ For details on adding a new MCP connection in Workflow Data Fabric, see [Model C
 ## View available tools per MCP server
 
 You can view the list of tools available for each connected MCP server in the **MCP servers** pane in the Build Agent settings panel. Expand a server by selecting the chevron next to the server name to see its tools and descriptions.
+
+**Note:** You must be on Australia Patch 5 or later to view MCP tools.
 
 \[Omitted image "ba-mcp-list-tools.png"\] Alt text: MCP Servers panel listing enabled servers with Zoom Chat expanded to show available tools and descriptions.
 

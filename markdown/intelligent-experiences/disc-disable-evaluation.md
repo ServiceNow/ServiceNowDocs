@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/disc-disable-evaluation.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-29"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [Evaluating AI systems, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Evaluating AI systems, Managing your AI asset inventory, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Disable evaluation for an AI system
@@ -25,19 +25,19 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
 
 2.  On the Overview tab, disable evaluation for one or more AI systems.
 
-<table><thead><tr><th align="left" id="d171051e104">
+<table><thead><tr><th align="left" id="d189810e104">
 
 Option
 
-</th><th align="left" id="d171051e107">
+</th><th align="left" id="d189810e107">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d171051e113">
+</th></tr></thead><tbody><tr><td id="d189810e113">
 
 **Disable evaluation for a single AI system**
 
@@ -49,7 +49,7 @@ Steps
 4.  Select **Turn off evaluation** to confirm.
 
 
-</td></tr><tr><td id="d171051e146">
+</td></tr><tr><td id="d189810e146">
 
 **Disable evaluation for multiple AI systems**
 

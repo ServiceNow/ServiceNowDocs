@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-03"
 reading_time_minutes: 3
 keywords: [NICE CXone, NICE, voice assistant, voice integration, CCaaS, telephony provider, AI voice agent, SIP]
-breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Integrate ServiceNow voice assistant with Nice CXone

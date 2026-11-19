@@ -36,15 +36,15 @@ If you have an assigned cmdb\_ot\_isa\_viewer role, you can only view equipment 
 
 3.  Review an existing equipment model entity, or create one.
 
-<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d33146e119">
+<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d33511e119">
 
 Task
 
-</th><th align="left" id="d33146e122">
+</th><th align="left" id="d33511e122">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d33146e128">
+</th></tr></thead><tbody><tr><td id="d33511e128">
 
 **Review and update an existing equipment model**
 
@@ -54,7 +54,7 @@ In the selector pane, do the following actions:1.  Expand the equipment model hi
 2.  Select the entity that you want to view.
 
 
-</td></tr><tr><td id="d33146e146">
+</td></tr><tr><td id="d33511e146">
 
 **Create an equipment model entity and populate the details**
 
@@ -334,7 +334,7 @@ To view the roll up for OT data associated with the equipment model entity and i
 -   Remediation Tasks
 
 -   **[Create an entity for an equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-entity-new-equipment-model.md)**  
-Create an entity for a equipment model. You do this task when you want to manually create a equipment model entity directly in the ServiceNow AI Platform rather than import the equipment model data from an external source.
+Create an entity for a new equipment model. You do this task when you want to manually create a new equipment model entity directly in the ServiceNow AI Platform rather than import the equipment model data from an external source.
 -   **[View the equipment model hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/viewing-equipment-model-hierarchy.md)**  
 View a graphical representation of the hierarchical structure of the selected equipment model entity, and its relationships to other entities in the production process.
 -   **[View the equipment model OT device map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/view-equipment-model-ot-device-map.md)**  

@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: task
 last_updated: "2026-10-02"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, dataset]
-breadcrumb: [Managing AI assets, Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Managing AI assets, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
 # Create a data asset in AI Admin Center \(Lux UI\)
@@ -58,7 +58,7 @@ A custom dataset and data collection in AI Data Kit is used for evaluations in A
 
 6.  Complete the setup based on the selection.
 
-    -   For more information on importing data from a table or a local file as a dataset, see .
+    -   For more information on importing data from a table or a local file as a dataset, see [Add a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/add-dataset.md).
     -   For more information on generating synthetic datasets, see [Generate synthetic data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/na-data-kit-generate-data.md).
 
 ## Result

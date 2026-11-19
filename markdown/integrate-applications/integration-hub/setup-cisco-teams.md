@@ -270,7 +270,7 @@ Credentials
 
 Name of the credential created for Cisco Webex Teams spoke
 
- Provide the value created in “Create a OAuth credential record for the Cisco Webex Teams spoke”.
+ Provide the value ceated in “Create a OAuth credential record for the Cisco Webex Teams spoke”.
 
 </td></tr><tr><td>
 

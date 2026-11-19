@@ -1,19 +1,19 @@
 ---
 title: Identity
-description: Learn about the identities in the instance.
+description: Identity Center, Global Identity, SCIM, and Identity and Access Audit help you monitor, manage, and audit identities in the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/identity-landing.html
 release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 ---
 
 # Identity
 
-Learn about the identities in the instance.
+Identity Center, Global Identity, SCIM, and Identity and Access Audit help you monitor, manage, and audit identities in the instance.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

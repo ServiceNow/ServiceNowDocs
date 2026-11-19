@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 14
 breadcrumb: [Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -104,8 +104,6 @@ Use the [Kafka Producer step](https://raw.githubusercontent.com/ServiceNow/Servi
 Integrate your ServiceNow instance with your local Kafka environment with [Direct Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/direct-kafka.md). Build efficient integrations between your enterprise systems, enabling high-volume and robust integrations to exchange data between applications, and reduce data loss with the queuing mechanism if one environment is temporarily offline.
 
 With Direct Kafka, you can configure a custom Kafka connection to integrate Stream Connect on your instance with your local Kafka environment. This connection enables you to use Stream Connect and its features directly, without requiring the Hermes Messaging Service or a separate message replicator.
-
-## Stream Producer
 
 Automatically stream changes from ServiceNow tables to Kafka topics with Stream Producer.
 

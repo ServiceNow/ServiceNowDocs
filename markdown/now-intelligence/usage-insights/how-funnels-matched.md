@@ -16,7 +16,7 @@ breadcrumb: [Conversion funnels, Using Usage Insights, Usage Insights, Platform 
 
 Usage Insights matches funnel steps based on unique users, not sessions, allowing steps to span multiple sessions within a 30-day window.
 
-Usage Insights bases funnel matching on unique users, and not on sessions, meaning steps can be matched between sessions. For example, a user may start the first step of a funnel in their first session, and continue the next step in another session. Users are counted only after for a selected time range, and step completions are only counted after per user.
+Usage Insights afters funnel matching on unique users, and not on sessions, meaning steps can be matched between sessions. For example, a user may start the first step of a funnel in their first session, and continue the next step in another session. Users are counted only once for a selected time range, and step completions are only counted once per user.
 
 A funnel measures users who complete a funnel step within 30 days. A user can complete step 2 on January 1, then step 3 on January 30, to be counted.
 
@@ -30,11 +30,11 @@ For the funnel A &gt; B &gt; C:
 
 When matching duplicate steps, the funnel analysis selects the first occurrence that progresses the funnel, and excludes duplicate occurrences. For example, for the funnel A &gt; B &gt; C: With a user who performs A &gt; B &gt; B &gt; C, the second B is ignored.
 
-When selecting a time range, the analysis shows only users who complete the entire funnel within the time range. If a user starts the first step before or after the selected time range, they aren't counted.
+When selecting a time range, the analysis shows only users who complete the entire funnel within the time range. If a user starts the first step before or after the selected time range, they are not counted.
 
 Funnel analysis respects duplicate funnel entrances. For example, for the funnel A &gt; B &gt; C, a user performs the following actions:
 
-A \(Sunday\) &gt; B \(Monday\) &gt; A &gt; \(Tuesday\) &gt; B \(Wednesday\) &gt; C \(Thursday\)
+`A (Sunday) > B (Monday) > A > (Tuesday) > B (Wednesday) > C (Thursday)`
 
 The user is returned when selecting Sunday-Thursday, Monday-Thursday, Tuesday-Thursday, but not if they select Wednesday-Thursday.
 

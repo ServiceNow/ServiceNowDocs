@@ -58,5 +58,5 @@ The integration is added to the list of available integrations. After the integr
 
 You now must configure seat cost information. See [Configure Subscription Cost for Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/configure-subscription-cost-for-microsoft-copilot.md).
 
-**Note:** If you later want to modify any details of the existing integration, select the Edit icon \(\[Omitted image "edit-icon-task-settings-page.png"\]\) next to the account name in the list of available integrations. In the Edit Microsoft Copilot account window, modify the integration details as needed and then select **Update**. You can only modify the name, Client ID, and Client secret. If you want to use a different tenant name, you must create an additional integration.
+**Note:** If you later want to modify any details of the existing integration, select the Edit icon \(\[Omitted image "image.icon-edit-pencil"\]\) next to the account name in the list of available integrations. In the Edit Microsoft Copilot account window, modify the integration details as needed and then select **Update**. You can only modify the name, Client ID, and Client secret. If you want to use a different tenant name, you must create an additional integration.
 

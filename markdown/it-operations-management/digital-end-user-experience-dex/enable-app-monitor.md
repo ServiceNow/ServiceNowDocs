@@ -1,13 +1,13 @@
 ---
 title: Enable application monitoring
-description: Turn on application monitoring to track performance metrics, diagnose issues, and address potential bottlenecks or failures before they affect users.
+description: Enable application monitoring to gain insights into performance metrics, diagnose issues, and promote optimal functionality, enhancing performance and proactively addressing potential bottlenecks or failures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/enable-app-monitor.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 keywords: [turn on monitoring, mcm monitoring, teams call quality, zoom monitoring, turn on metrics monitoring, advanced monitoring]
 breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Operations Management]
@@ -15,7 +15,7 @@ breadcrumb: [Application monitoring setup, Configure, Digital End-User Experienc
 
 # Enable application monitoring
 
-Turn on application monitoring to track performance metrics, diagnose issues, and address potential bottlenecks or failures before they affect users.
+Enable application monitoring to gain insights into performance metrics, diagnose issues, and promote optimal functionality, enhancing performance and proactively addressing potential bottlenecks or failures.
 
 ## Before you begin
 
@@ -35,15 +35,17 @@ Role required: sn\_dex.admin
 
 4.  Select the name of the application for which you want to enable monitoring.
 
-    To enable monitoring for more than one application, you can select the check boxes next to the applications and select **Turn on metrics monitoring** under **Actions**.
+    To enable monitoring for more than one application, you can select the check boxes next to an application and select **Turn on metrics monitoring** under **Actions**.
 
-5.  If you're monitoring Microsoft Configuration Manager \(MCM\), Microsoft Teams, or DEX for Zoom, include **Advanced monitoring** by selecting **MCM - Only choose this option for MCM** or **Microsoft Teams** from the drop-down list.
+5.  Only when enabling the Microsoft Configuration Manager \(MCM\), Microsoft Teams, or DEX for Zoom include **Advanced monitoring** by selecting **MCM - Only choose this option for MCM** or **Microsoft Teams** from the drop-down list.
 
     **Note:**
 
-    -   For more information about MCM monitoring, see [Advanced app metrics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/adanced-app-metrics-page.md).
-    -   For more information about Microsoft Teams call quality, see [Monitor Microsoft Teams call quality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/monitor-teams-call-quality.md).
-    -   For more information about Zoom call monitoring, see [Monitor Zoom call quality using DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/monitor-zoom-call-quality-using-dex.md).
+    -   For more details on the MCM monitoring, see [Advanced app metrics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/adanced-app-metrics-page.md).
+    -   For more details on Microsoft teams call quality, see [Monitor Microsoft Teams call quality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/monitor-teams-call-quality.md).
+    -   For more details on Zoom calls monitoring, see [Monitor Zoom call quality using DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/monitor-zoom-call-quality-using-dex.md).
 6.  Select **Save**.
 
+
+**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-application-monitoring.md)
 

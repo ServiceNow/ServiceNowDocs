@@ -32,15 +32,15 @@ If the target is stale, you can't update its breakdown actuals until an administ
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d95910e84">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d96806e80">
 
 Option
 
-</th><th align="left" id="d95910e87">
+</th><th align="left" id="d96806e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d95910e93">
+</th></tr></thead><tbody><tr><td id="d96806e89">
 
 **From the Goals and targets tab or Target breakdown side panel**
 
@@ -56,7 +56,7 @@ The target breakdown side panel opens with the **Check-in actuals** window.
 
 Alternatively, you can select the cell in the Actual column of the target breakdown and enter the actual value on the **Goals and targets** tab.
 
-</td></tr><tr><td id="d95910e157">
+</td></tr><tr><td id="d96806e153">
 
 **From the Target breakdowns tab**
 

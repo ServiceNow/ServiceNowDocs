@@ -1,5 +1,5 @@
 ---
-title: \(Legacy\) Issue Auto Resolution Tuning in NLU
+title: Issue Auto Resolution Tuning in NLU
 description: Use the NLU Workbench homepage to support Issue Auto Resolution \(IAR\) tuning in NLU.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-nlu.html
@@ -7,12 +7,12 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-17"
 reading_time_minutes: 1
-breadcrumb: [\(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
 ---
 
-# \(Legacy\) Issue Auto Resolution Tuning in NLU
+# Issue Auto Resolution Tuning in NLU
 
 Use the NLU Workbench homepage to support Issue Auto Resolution \(IAR\) tuning in NLU.
 

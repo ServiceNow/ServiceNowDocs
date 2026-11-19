@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-databricks-connection-zcc.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Databricks, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -21,6 +21,8 @@ You can optimize queries to Databricks by enabling table statistics. Consult you
 Role required: df\_connection\_admin
 
 ## About this task
+
+This connector supports personal authentication. For more information, see [Personal authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/personal-auth-zcc.md).
 
 Work with your data source admin to create a connection to Databricks. For additional information about connecting to Databricks, refer to the [Databricks documentation](https://docs.databricks.com/aws/en/dev-tools/auth/oauth-m2m).
 
@@ -111,63 +113,37 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Databricks.
 
-<table id="choicetable_h3q_4wg_b3c"><thead><tr><th align="left" id="d174620e257">
+<table id="choicetable_h3q_4wg_b3c"><thead><tr><th align="left" id="d176263e274">
 
 Option
 
-</th><th align="left" id="d174620e260">
+</th><th align="left" id="d176263e277">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d174620e266">
+</th></tr></thead><tbody><tr><td id="d176263e283">
 
 **Databricks Service Principal**
 
 </td><td>
 
-Option to use Databricks as the OAuth provider.
+Option to use Databricks as the OAuth provider. Select this option if you're using a Databricks service principal for authentication. See [Databricks authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/databricks-authentication-method-fields-zcc.md) for the specific fields \(OAuth client ID, OAuth secret\).
 
- Select this option if you're using a Databricks service principal for authentication.
-
- 1.  Enter the client ID issued by Databricks for authentication.
-2.  Enter the secret key associated with the client ID.
-
-
-</td></tr><tr><td id="d174620e290">
+</td></tr><tr><td id="d176263e302">
 
 **Azure Service Principal**
 
 </td><td>
 
-Option to use Azure Entra ID as the OAuth provider.
+Option to use Azure Entra ID as the OAuth provider. Select this option if you're using an Azure managed service principal for authentication. This option requires a trust relationship between Databricks and Azure Entra ID. See [Databricks authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/databricks-authentication-method-fields-zcc.md) for the specific fields \(OAuth client ID, Azure tenant ID, OAuth secret\).
 
- Select this option if you're using an Azure managed service principal for authentication. This option requires an established a trust relationship between Databricks and Azure Entra ID.
-
- 1.  Enter the client ID issued by Azure for authentication.
-2.  Enter the Azure tenant ID where your Databricks application is registered.
-3.  Enter the secret key associated with the client ID.
-
-
-</td></tr><tr><td id="d174620e317">
+</td></tr><tr><td id="d176263e321">
 
 **Access Token**
 
 </td><td>
 
-Option to use a pre-configured OAuth entity profile.
-
- Select this option if you created a record in the Application Registries \[oauth\_entity\] table with a Databricks or IdP service principal for authentication.
-
- This option keeps credentials within the instance and uses the ServiceNow AI Platform OAuth framework for token lifecycle management. For details on creating an OAuth entity profile, see [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md). When configuring the profile, select **Client Credentials** as the grant type. If your OAuth provider requires scopes, add them on the OAuth Entity Scopes tab. Consult your data source or identity provider documentation for the required scope values.
-
- Select the OAuth entity profile for your Databricks or IdP service principal.
-
- Select the OAuth integration type that you want to use:
-
- -   **System**: Use the selected OAuth entity profile for all users of this connection. This is the default option.
--   **Personal**: Require each user to authenticate individually with their own credentials before they can access Databricks data through this connection. Select **Get OAuth Token** to open the authentication flow in a new browser tab and sign in.
-
-**Note:** Each user can view, renew, or revoke their personal access token from the Personal Integrations Dashboard in the Zero Copy Connector Hub. If a user's token expires or is missing, an alert appears when that user tries to access data assets for this connection, with a link to sign in again.
+Option to use a pre-configured OAuth entity profile, with either a shared \(**System**\) or per-user \(**Personal**\) integration type. See [Databricks authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/databricks-authentication-method-fields-zcc.md) for the specific fields \(OAuth entity profile, OAuth integration type\).
 
 </td></tr></tbody>
 </table>5.  Select **Connect**.
@@ -182,4 +158,9 @@ A test connection is made to the external data source, verifying that the connec
 If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
+
+**Related topics**  
+
+
+[Databricks authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/databricks-authentication-method-fields-zcc.md)
 

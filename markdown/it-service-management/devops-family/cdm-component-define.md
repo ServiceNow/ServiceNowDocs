@@ -7,7 +7,7 @@ release: australia
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Viewing and editing config data, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Define or update a component while working in a changeset.
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: cdm\_editor or cdm\_admin
 
@@ -36,15 +36,15 @@ Role required: cdm\_editor or cdm\_admin
 
 2.  To perform other actions, select the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) for a component and select the action, as follows.
 
-<table id="choicetable_hkz_r4h_tpb"><thead><tr><th align="left" id="d390546e116">
+<table id="choicetable_hkz_r4h_tpb"><thead><tr><th align="left" id="d382635e117">
 
 Selection
 
-</th><th align="left" id="d390546e119">
+</th><th align="left" id="d382635e120">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d390546e125">
+</th></tr></thead><tbody><tr><td id="d382635e126">
 
 **Create component**
 
@@ -52,7 +52,7 @@ Action
 
 Add a component as described above.
 
-</td></tr><tr><td id="d390546e134">
+</td></tr><tr><td id="d382635e135">
 
 **Create CDI**
 
@@ -65,7 +65,7 @@ Add an individual config data item \(CDI\) and value to the collection. See the 
 -   Overlay: A CDI that does not appear in any included component.
 
 
-</td></tr><tr><td id="d390546e161">
+</td></tr><tr><td id="d382635e162">
 
 **Include in collections**
 
@@ -75,7 +75,7 @@ Include the selected component in specified collections.In the Include in collec
 
  **Note:** Only collections that do not already include the component appear in the list.Inclusion of a node takes precedence over inheritance. If a node is both included and inherited, it is instead considered included.
 
-</td></tr><tr><td id="d390546e181">
+</td></tr><tr><td id="d382635e182">
 
 **Add file**
 
@@ -85,7 +85,7 @@ Add a file as a file node.You can attach a MIME-type file with a maximum file si
 
 For more information on adding files, see [Manage files using file nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-manage-file-config-data-file-node.md).
 
-</td></tr><tr><td id="d390546e205">
+</td></tr><tr><td id="d382635e206">
 
 **Exclude from inheritance**
 
@@ -95,7 +95,7 @@ Removes the inherited node and all child objects from the current collection.You
 
 Select **Include in inheritance** from the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) to stop excluding the node and re-add it to the changeset.
 
-</td></tr><tr><td id="d390546e236">
+</td></tr><tr><td id="d382635e237">
 
 **Rename**
 
@@ -103,7 +103,7 @@ Select **Include in inheritance** from the more actions icon \(\[Omitted image "
 
 Rename the selected component.
 
-</td></tr><tr><td id="d390546e245">
+</td></tr><tr><td id="d382635e246">
 
 **Delete**
 
@@ -111,7 +111,7 @@ Rename the selected component.
 
 Delete the selected component.
 
-</td></tr><tr><td id="d390546e254">
+</td></tr><tr><td id="d382635e255">
 
 **View relationships**
 

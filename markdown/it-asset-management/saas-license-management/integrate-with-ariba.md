@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 10
 breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -202,15 +202,15 @@ If you’re using Software Asset Workspace, the option to create the SAP Ariba i
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d236144e797">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d235245e797">
 
 Interface
 
-</th><th align="left" id="d236144e800">
+</th><th align="left" id="d235245e800">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d236144e806">
+</th></tr></thead><tbody><tr><td id="d235245e806">
 
 **Core UI**
 
@@ -221,7 +221,7 @@ Action
 3.  Select **SAP Ariba Integration Profile**.
 
 
-</td></tr><tr><td id="d236144e848">
+</td></tr><tr><td id="d235245e848">
 
 **Software Asset Workspace**
 
@@ -273,7 +273,7 @@ Type of integration profile. This field is automatically set to `Ariba Subscript
 </td></tr></tbody>
 </table>3.  View the required user roles or API permissions to minimize security risks and optimize SaaS licenses.
 
-    In the Download Subscription Subflow section, verify that the **Subflow** field is set to**SAP Ariba Download Subscriptions**. The **Download subscriptions** check box is selected by default and you can't clear it.
+    In the Download Subscription Subflow section, verify that the **Subflow** field is set to **SAP Ariba Download Subscriptions**.
 
 4.  Select **Save**.
 
@@ -312,7 +312,7 @@ Review all automatically generated reclamation rules to reclaim user subscriptio
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

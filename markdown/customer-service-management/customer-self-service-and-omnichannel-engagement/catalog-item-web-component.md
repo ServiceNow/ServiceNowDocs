@@ -1,22 +1,24 @@
 ---
 title: Catalog item component
-description: Displays a form to request an item or service from your third-party website. A catalog item may be available in more than one catalog and category.
+description: Use the Catalog item component to show a form that lets customers request an item or service on your website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/catalog-item-web-component.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Catalog item component
 
-Displays a form to request an item or service from your third-party website. A catalog item may be available in more than one catalog and category.
+Use the Catalog item component to show a form that lets customers request an item or service on your website.
 
-Use the Catalog item component to offer a specific service or request form on your website, such as a form to request a new contact. When a customer submits the form, the system creates a request that goes to an approver.
+A catalog item may be available in more than one catalog and category.
+
+The Catalog item component displays a service or request form on your website — for example, a form to request a new contact. After a customer submits the form, a request is created and routed to an approver.
 
 **Note:** Catalog item component supports a mobile adaptive layout.
 

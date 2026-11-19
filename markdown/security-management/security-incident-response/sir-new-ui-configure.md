@@ -1,5 +1,5 @@
 ---
-title: Configure the Security Analyst Workspace
+title: Legacy: Configure the Security Analyst Workspace
 description: Configure the user interface of the Incident record in the Security Analyst Workspace to specify the fields you want to display.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/sir-new-ui-configure.html
@@ -7,12 +7,12 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Configure the Security Analyst Workspace
+# Legacy: Configure the Security Analyst Workspace
 
 Configure the user interface of the Incident record in the Security Analyst Workspace to specify the fields you want to display.
 
@@ -21,6 +21,10 @@ Configure the user interface of the Incident record in the Security Analyst Work
 Role required: sn\_si.analyst
 
 ## About this task
+
+**Important:**
+
+The Security Incident Response UI \[sn\_app\_secops\_ui\] is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-workspace-landing-page.md) instead.
 
 Specify the fields to be displayed in your Incident record and the order in which the fields must appear on the Security Incident form and the Response Task form. You can also set a limit on the number of fields that you want to display.
 
@@ -46,7 +50,7 @@ Specify the fields to be displayed in your Incident record and the order in whic
 
     **Note:**
 
-    -   Certain fields are hidden by default in the Incident and Response Task banners. Change the fields that are hidden or displayed by modifying the `sn_app_secops_ui.form.excluded_fields.incident` and `sn_app_secops_ui.form.excluded_fields.response_task` properties as described in [Security Analyst Workspace properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-workspace-properties.md).
+    -   Certain fields are hidden by default in the Incident and Response Task banners. Change the fields that are hidden or displayed by modifying the `sn_app_secops_ui.form.excluded_fields.incident` and `sn_app_secops_ui.form.excluded_fields.response_task` properties as described in [Legacy: Security Analyst Workspace properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-workspace-properties.md).
     -   Specify the number of fields that can be displayed in the Incident and Response Task banners and on the first line of the Incident banner by setting these properties:
         -   sn\_app\_secops\_ui.task\_summary.single\_summary.limit.incident
         -   sn\_app\_secops\_ui.task\_summary.single\_summary.limit.response\_task
@@ -68,5 +72,5 @@ Specify the fields to be displayed in your Incident record and the order in whic
 
 ## Result
 
-The security incident and response task banners are updated in the Security Analyst Workspace \([Manage security threats using the Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-new-ui.md)\).
+The security incident and response task banners are updated in the Security Analyst Workspace \([Legacy: Manage security threats using the Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-new-ui.md)\).
 

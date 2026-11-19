@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-06"
 reading_time_minutes: 2
-breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Pattern Diagnostic AI agent

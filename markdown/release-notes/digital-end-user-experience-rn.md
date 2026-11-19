@@ -1,29 +1,36 @@
 ---
 title: Digital End-User Experience release notes
-description: The ServiceNow Digital End-User Experience application is a cloud-based tool providing IT with comprehensive visibility and monitoring for user applications, networks, and devices. See the following sections for release notes by version.This release includes updates to Digital End User Experience features and functionality.
+description: The ServiceNow Digital End-User Experience application is a cloud-based tool providing IT with comprehensive visibility and monitoring for user applications, networks, and devices. Digital End-User Experience was enhanced and updated in the Australia release.The ServiceNow Digital End-User Experience application is a cloud-based tool providing IT with comprehensive visibility and monitoring for user applications, networks, and devices. Digital End-User Experience was enhanced and updated in the Australia release.The ServiceNow Digital End-User Experience application is a cloud-based tool providing IT with comprehensive visibility and monitoring for user applications, networks, and devices. Digital End-User Experience was enhanced and updated in the Australia release.The ServiceNow Digital End-User Experience application is a cloud-based tool providing IT with comprehensive visibility and monitoring for user applications, networks, and devices. Digital End-User Experience was enhanced and updated in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/digital-end-user-experience-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-09-17"
-reading_time_minutes: 2
-breadcrumb: [IT Operations Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+last_updated: "2026-03-12"
+reading_time_minutes: 5
+breadcrumb: [IT Operations Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # Digital End-User Experience release notes
 
-The ServiceNow® Digital End-User Experience application is a cloud-based tool providing IT with comprehensive visibility and monitoring for user applications, networks, and devices. See the following sections for release notes by version.
+The ServiceNow® Digital End-User Experience application is a cloud-based tool providing IT with comprehensive visibility and monitoring for user applications, networks, and devices. Digital End-User Experience was enhanced and updated in the Australia release.
 
 ## About Digital End-User Experience
 
--   Digital End-User Experience \(DEX\) detects and fixes potential technology issues before they affect you. Your IT team deploys DEX to monitor computers and applications.
--   DEX collects usage and performance data from endpoints. It uses metric rules to detect issues, remediate them automatically, and engage you proactively.
--   With the DEX Desktop Assistant, you can troubleshoot local applications, use Virtual Agent, run network tests, and contact IT support. Admins can send alerts to your Desktop Assistant.
--   DEX includes DEX Application and Device Health, DEX Content Playbook, and DEX Desktop Assistant. Application and Device Health provides end-to-end visibility into applications, networks, and devices, regardless of location.
+-   Enable service desk agents to view and manage the top 10 CPU and memory-consuming processes in the **Investigation** tab of incident records. Automated snapshots captured every 30 minutes enable you to quickly identify and end processes causing device issues, thus improving service desk productivity.
+-   Diagnose and resolve Zoom call issues with the new Zoom AI capability, which provides device-level root cause analysis and suggested resolutions.
+-   Monitor device boot time and use Now Assist to quickly diagnose startup delays and get actionable resolutions to resolve boot performance issues.
+-   View device boot time metrics to assess system startup health and identify potential issues.
+-   Gain deeper visibility into device performance with GPU \(Graphics Processing Unit\) utilization metrics.
+-   Apply remedial actions to multiple devices at once directly from the Insights page to resolve issues faster with bulk remediation.
+-   Monitor system-level events from Windows and macOS devices to gain deeper insight into device health and stability. Configure events of interest and capture event data directly in ServiceNow to support incident investigation and proactive service desk operations.
+-   Generate event insights reports from collected event data to analyze device health trends and support incident investigation.
+-   Save custom insight reports and access them from the left navigation panel for faster, repeatable analysis.
 
-See  for more information.
+See [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/dex-landing.md) for more information.
 
 ## Activation and other requirements
+
+**Important:** Digital End-User Experience is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
@@ -31,50 +38,94 @@ See  for more information.
 
 -   **Browser requirements**
 
-    Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see .
+    Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/enable-dex-browser-extension.md).
 
 
 ## Accessibility and localization
 
--   **Accessibility information**
+-   **Localization information**
 
     Localization is applicable to DEX in all languages supported by the ServiceNow AI Platform.
 
 
 **Parent Topic:**[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-operations-management-rn-landing.md)
 
-## Version 5.3.0
+## August 2026
 
-This release includes updates to Digital End User Experience features and functionality.
+The ServiceNow® Digital End-User Experience application is a cloud-based tool providing IT with comprehensive visibility and monitoring for user applications, networks, and devices. Digital End-User Experience was enhanced and updated in the Australia release.
 
 ### What's new
 
--   ****
+-   **[Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/dex-diff-ra.md)**
 
-    You can now use remedial actions to start or stop a Windows service, clear the system cache, and reset the print spooler.
-
--   ****
-
-    You can now execute remedial actions from Flow designer. Each action runs only when the device is online and the action applies to it.
-
--   ****
-
-    Metric rules and event rules are now rate limited per rule on the device. This helps prevent a single noisy rule from flooding the instance with alerts or events.
+    Resolve device performance and network connectivity issues with two new remedial actions. The Reset Network Adapter remedial action restores WiFi connectivity and resolves poor network performance despite strong signal strength. The Disable Startup Program remedial action reduces boot time and improves device performance after login by disabling non-essential startup programs.
 
 
--   ****
+## April 2026
 
-    A new extension point for metric rule events gives you more control over how events are evaluated before alerts are triggered.
+The ServiceNow® Digital End-User Experience application is a cloud-based tool providing IT with comprehensive visibility and monitoring for user applications, networks, and devices. Digital End-User Experience was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[DEX issue diagnosis and resolution agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-dex-diagnosis-resolution-workflow.md)**
+
+    Service desk agents can diagnose and resolve Zoom call quality issues using the DEX issue diagnosis and resolution agentic workflow, which integrates Zoom-specific diagnostics that correlate device, network, and application data.
+
+-   **[Create an insights report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-insights-report.md)**
+
+    Generate an insights report from event log data collected by the DEX agent.
+
+    Save useful queries as named reports in the Insights reporting area to preserve them for future use. After you save a report, it appears in the left navigation panel for quick access. IT operators, L2 analysts, DEX engineers, and administrators can save, name, and retrieve reports. Role-based access controls restrict save and retrieval operations to the DEX Engineer and Administrator roles.
+
+-   **[AI-powered root cause analysis for Zoom call quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/investigate-and-resolve-zoom-call-issues.md)**
+
+    Use Now Assist for Zoom call issues to identify the root cause of call quality degradation and review the supporting metric evidence for deeper insight. The analysis highlights the contributing device and network factors directly in the Zoom call quality view. Get the real-time guidance, including device ready remedial actions, contextual self-help instructions, and relevant knowledge articles to help resolve the issue efficiently.
+
+-   **[Get AI driven insights for boot time performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/investigate-and-resolve-boot-time-issues.md)**
+
+    Monitor device boot time to identify slow start-up issues and use Now Assist to investigate the root cause and get suggested resolutions, including remedial actions, self-help instructions, and knowledge articles to resolve boot performance problems quickly.
 
 
-### What's changed
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
--   ****
+    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
-    The Devices page now includes a link to DEX dashboard, so users with multiple roles can reach the DEX homepage faster.
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   ****
 
-    The Diagnose view in Device Health Check now explains why a category shows a **Poor** or **Average** status with no pending actions. It tells users that their IT team is reviewing additional metrics.
+## Australia
+
+The ServiceNow® Digital End-User Experience application is a cloud-based tool providing IT with comprehensive visibility and monitoring for user applications, networks, and devices. Digital End-User Experience was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Reviewing top processes by resource usage for DEX incident investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/process-snapshot.md)**
+
+    Service desk agents can now view automated snapshots of the top 10 CPU and memory-consuming processes directly in the **Investigation** tab of incident records. The snapshots that are captured every 30 minutes are initially triggered when an incident is created and a configuration item is tagged. You can refresh and filter snapshots over different time ranges and monitor processes causing device issues.
+
+-   **[Event monitoring with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-monitoring-dex.md)**
+
+    Monitor system events on Windows and macOS devices to track critical system events available with your base system, configure additional events to monitor, and review collected event data stored in your ServiceNow instance.
+
+    Monitor system-level events, such as application crashes, unexpected shutdowns, disk space warnings, failed login attempts, and service failures. The DEX agent captures event data directly from managed endpoints. Activate or deactivate events or add custom events to extend monitoring beyond the base system catalog.
+
+-   **[View GPU device metric details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/user-device-metrics.md)**
+
+    Monitor GPU and VRAM \(Video Random Access Memory\) usage on the Device page to assess graphics performance and identify bottlenecks. GPU usage shows the percentage of graphics processing capacity in use, while VRAM usage highlights memory consumption for graphics intensive workloads. These metrics help detect rendering issues, memory intensive applications, and performance degradation enabling faster investigation and resolution of GPU related device problems.
+
+-   **[Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/dex-workspace-application-tab.md)**
+
+    Monitor application performance by application version to accelerate incident resolution and improve deployment quality. This enables the Service desk agent in faster root cause analysis and data-driven deployment decisions improving the overall end-user experience.
+
+-   **[Bulk Remediation for Impacted Devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/dex-insights-and-lists.md)**
+
+    Select multiple impacted devices from the Insights page and apply remedial actions in bulk. Service desk agents can now resolve issues across multiple devices simultaneously, improving productivity and reducing manual effort.
+
+-   **[Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/dex-diff-ra.md)**
+
+    The DEX base system includes the new remedial action Sync device to Intune.
 
 

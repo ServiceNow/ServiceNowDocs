@@ -1,20 +1,20 @@
 ---
 title: Update the records in the Microsoft Teams Configuration page
-description: Update the created records in Microsoft Teams to make seamless calls.
+description: Map the credential alias and application registry records you created to the Notify Microsoft Teams configuration so that you can make calls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/map-app-reg-cred-alias-ms-teams-config.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Integrating Notify connector self-configured app with Microsoft Teams, Integration for Agent Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
+breadcrumb: [Integrating Notify connector self-configured app with Microsoft Teams, Integration for Agent Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Update the records in the Microsoft Teams Configuration page
 
-Update the created records in Microsoft Teams to make seamless calls.
+Map the credential alias and application registry records you created to the Notify Microsoft Teams configuration so that you can make calls.
 
 ## Before you begin
 

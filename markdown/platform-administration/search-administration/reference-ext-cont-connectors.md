@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -23,8 +23,8 @@ The External Content Connectors plugin installs a connector administrator role a
  Connector administrators can restrict the binary file types an external content connector retrieves by specifying file extensions in inclusion or exclusion filters.
 -   **[Statistics for external content connector content crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/document-statistics-external-content-connectors.md)**  
 Each crawl history entry for an external content connector's content crawl includes statistics about the documents \(items or files with searchable content and metadata\) retrieved by the crawl.
--   **[Statistics for external content connector user permission crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/permission-statistics-external-content-connectors.md)**  
-Each crawl history entry for an external content connector's user permission crawl includes statistics about the permissions \(user and group-membership security principals\) retrieved by the crawl.
+-   **[Statistics for external content connector user permissions crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/permission-statistics-external-content-connectors.md)**  
+Each crawl history entry for an external content connector's user permissions crawl includes statistics about the permissions \(user and group-membership security principals\) retrieved by the crawl.
 -   **[Analytics for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/analytics-external-content-connectors.md)**  
 Metrics that show how your external content connector has run over time.
 -   **[Reassign the External Content Connectors Service Account user to the global domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/reassign-ext-cont-connectors-svc-acct-usr-global-domain.md)**  

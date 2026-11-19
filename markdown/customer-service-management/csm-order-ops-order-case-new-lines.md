@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-order-ops-order-case-new-lines.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Creating an order case, Order Operations Case Management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_order\_case.creator, sn\_order\_case.agent, sn\_customerservi
 
 ## Procedure
 
-1.  Open an order case record in CRM Workspace.
+1.  Open an order case record in CSM Configurable Workspace.
 
 2.  Select **New** in the Order Case Line list.
 

@@ -1,22 +1,22 @@
 ---
 title: Advanced app metrics page
-description: The Advanced app metrics page displays health, cache, management point, log, and inventory details for the Microsoft Configuration Manager \(MCM\) client on a device.
+description: Access the advanced app metrics for the Microsoft Configuration Manager \(MCM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/adanced-app-metrics-page.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Device details pages, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # Advanced app metrics page
 
-The Advanced app metrics page displays health, cache, management point, log, and inventory details for the Microsoft Configuration Manager \(MCM\) client on a device.
+Access the advanced app metrics for the Microsoft Configuration Manager \(MCM\).
 
-## Advanced app metrics for MCM
+## Advanced app metrics — MCM
 
 <table id="table_oly_jtv_w2c"><thead><tr><th>
 
@@ -32,7 +32,7 @@ MCM installed
 
 </td><td>
 
-Indication of whether the MCM client is installed on the device.Value *True* or *False*
+Indicates whether the MCM client is installed on the device.Value *True* or *False*
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -44,7 +44,7 @@ MCM running
 
 </td><td>
 
-Indication of whether the MCM client service is active.
+Indicates whether the MCM client service is active.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Provisioning mode state
 
 </td><td>
 
-Indication of whether the client is in provisioning mode during setup.
+Shows if the client is in provisioning mode during setup.
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ Pending management point update
 
 </td><td>
 
-Indication of whether there are any pending updates for the client from the management point.
+Indicates if there are any pending updates for the client from the management point.
 
 </td></tr><tr><td>
 
@@ -180,7 +180,7 @@ Is log enabled
 
 </td><td>
 
-Indication of whether logging is turned on.
+Indicates if logging is turned on.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -192,7 +192,7 @@ Data Discovery Record cycle
 
 </td><td>
 
-Cycle that gathers system and user discovery data for the CM database.
+Gathers system and user discovery data for the CM database.
 
 </td></tr><tr><td>
 
@@ -200,7 +200,7 @@ Software Inventory cycle
 
 </td><td>
 
-Cycle that collects details about installed software.
+Collects details about installed software.
 
 </td></tr><tr><td>
 
@@ -208,7 +208,7 @@ Hardware Inventory cycle
 
 </td><td>
 
-Cycle that gathers information about hardware specifications.
+Gathers information about hardware specs.
 
 </td></tr><tr><td>
 
@@ -216,7 +216,7 @@ File Collection cycle
 
 </td><td>
 
-Cycle that copies designated files from the client to the server.
+Copies designated files from the client to the server.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -228,7 +228,7 @@ Configuration Manager Idle Detection
 
 </td><td>
 
-Task that identifies idle times for running background tasks.
+Identifies idle times for running background tasks.
 
 </td></tr><tr><td>
 
@@ -236,7 +236,7 @@ Configuration Manager Health Evaluation
 
 </td><td>
 
-Task that validates client health and auto-fixes known issues.
+Validates client health and auto-fixes known issues.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/user-device-details-pages.md)

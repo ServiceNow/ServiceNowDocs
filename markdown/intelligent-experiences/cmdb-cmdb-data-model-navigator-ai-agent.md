@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: reference
 last_updated: "2026-10-14"
-reading_time_minutes: 1
-breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+reading_time_minutes: 2
+breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # CMDB data model navigator AI agent

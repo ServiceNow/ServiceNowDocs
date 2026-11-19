@@ -7,7 +7,7 @@ release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 20
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -71,7 +71,7 @@ The following code examples shows how to call the CdmQuery method to instantiate
 
 ```
 var primarySnapshot = new sn_cdm.CdmQuery()
-.snapshotId("snapshot_id")
+.snapshotId("1a2fe2e6c3a27010cc0a259d7640dd59")
 .decryptPassword(true)
 .query()
 .getTree();
@@ -120,7 +120,7 @@ Default: false
 The following code example shows how to query a snapshot and return decrypted values for the encrypted CDI and variable nodes. The user running the script must have the sn\_cdm.cdm\_secrets role.
 
 ```
-var primarySnapshot = new sn_cdm.CdmQuery()
+CdmQuery()
   .snapshotId("snapshot_sys_id")
   .decryptPassword(true)
   .query()
@@ -161,7 +161,7 @@ Return results:
 The following code example shows how to query a snapshot and return masked values for the encrypted configuration data item \(CDI\) and variable nodes.
 
 ```
-var primarySnapshot = new sn_cdm.CdmQuery()
+CdmQuery()
   .snapshotId("snapshot_sys_id")
   .decryptPassword(false)
   .query()

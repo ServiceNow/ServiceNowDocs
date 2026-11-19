@@ -7,8 +7,8 @@ release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 12
+last_updated: "2026-11-17"
+reading_time_minutes: 13
 keywords: [Virtual, Agent, branding]
 breadcrumb: [Branding your chat client, General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
@@ -18,6 +18,8 @@ breadcrumb: [Branding your chat client, General chat settings, Configuring Conve
 Create different Virtual Agent branding configurations for the various organizations that use your instance. These configurations apply to the web-based chat and mobile clients only.
 
 ## Before you begin
+
+If you're using ServiceNow® mobile, make sure you set up Virtual Agent for mobile chat. For details, see [Configure Virtual Agent for a ServiceNow mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-mobile-web-client.md).
 
 Check for updates and improvements to the Omni-Experience Standard Feature Set application on the ServiceNow Store.
 
@@ -49,7 +51,7 @@ Branding name
 
 </td><td>
 
-Name of the branding configuration.Create a new branding configuration or select one of the available choices. For the Brazil release, the choices include:
+Name of the branding configuration.Create a new branding configuration or select one of the available choices. For the Australia release, the choices include:
 
 -   Coral Light
 -   Polaris-Dark
@@ -86,7 +88,7 @@ Menu Title
 
 </td><td>
 
-Name of the support menu. The default title is Contact Support.
+Name of the support menu. The default title is Contact Support. Applies to standard chat only. Enhanced chat doesn’t use this field. To change the support label text shown in enhanced chat, update the **nass-support-label** translation record instead.
 
 </td></tr><tr><td>
 
@@ -95,6 +97,8 @@ Branding key
 </td><td>
 
 Read-only sys\_id of the configuration, which reflects the **Branding name** you entered. The key is in lower case letters with spaces replaced by underscore characters.
+
+ When more than one chat experience could apply, Virtual Agent uses the one with the lowest order value to decide which branding is shown. For more information, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-default-chat-experience.md).
 
 </td></tr><tr><td>
 
@@ -110,7 +114,7 @@ Bot Profile
 
 </td><td>
 
-List that opens the Live Profile form to select or create a new bot user profile, which includes the bot picture \(avatar\). This bot picture appears in the chat messages.-   To review and edit the Virtual Agent or ServiceNow Otto bot profile, select the information icon.
+List that opens the Live Profile form to select or create a new bot user profile, which includes the bot picture \(avatar\). This bot picture appears in the chat messages.-   To review and edit the Virtual Agentor Now Assist bot profile, select the information icon.
     -   To change the bot picture or description, select **Edit record** in the message at the top of the page.
     -   In the Live Profile form, modify the fields and select **Update**.
 -   To choose or change the bot for the configuration, select the search icon and select the **Bot Profile** field. Choose the bot profile that you created in a previous step.
@@ -136,9 +140,7 @@ Enable showing the 'New Messages Below' or 'New Messages Above' notification
 Select this option to display notifications for new messages below or above your current view of the chat.
 
 </td></tr></tbody>
-</table>    \[Omitted image "create-branding.png"\] Alt text: Setting up a new chat brand.
-
-5.  Select **Save**.
+</table>5.  Select **Save**.
 
     From here, you can adjust the color, icons, and font type and size of the chat client to match your brand. For example, you can:
 
@@ -149,7 +151,7 @@ Select this option to display notifications for new messages below or above your
 
     \[Omitted image "chat-branding-colors-tab.png"\] Alt text: Chat branding colors tab showing chat window and chat messages colors.
 
-    Select an item and specify the Hex or red blue green alpha \(RGBA\) colors you want to use for that item. When you do so, the example chat window shows a preview of your changes.
+    Select an item and specify the Hex or red, green, blue, alpha \(RGBA\) colors you need to use for that item. When you do so, the example chat window shows a preview of your changes.
 
     |Label|Description|
     |-----|-----------|
@@ -207,13 +209,13 @@ Select this option to display notifications for new messages below or above your
 
     To change the font type, choose one of the following methods:
 
-    1.  Select the fonts you want to use.
+    1.  Select the fonts you need to use.
 
-        From the **chat header text** drop-down list, select the font you want to use for the header.
+        From the **chat header text** drop-down list, select the font you need to use for the header.
 
         Do the same for the **chat body text.**
 
-        You will see an example of the new font.
+        You see an example of the new font.
 
     2.  Download the fonts from a URL.
 
@@ -339,7 +341,7 @@ Global.
 
 10. Navigate to the Branding table \[sys\_cs\_branding\_setup.list\], and select the Branding Name you created.
 
-    **Note:** This step is only applicable if you’re configuring an assistant using ServiceNow Otto for Virtual Agent enhanced chat or enhanced chat's full-page experience.
+    **Note:** This step is only applicable if you’re configuring an assistant using Now Assist in Virtual Agent enhanced chat or enhanced chat's full-page experience.
 
     1.  Select **Configure** &gt; **Form Layout** from the Additional Actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\).
 
@@ -358,7 +360,7 @@ Global.
 
 11. Do one of the following to apply the branding configuration:
 
-    -   Apply the branding configuration to a Service Portal Agent Chat Configuration. In the server script that passes page and widget data to an Agent Chat \(Virtual Agent or Live Agent\) conversation, specify the branding key to be used. Items passed in this script are available to all pages in the portal. For details on setting up Service Portal Agent Chat, see [Add your bot to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-bot-portal.md).
+    -   Apply the branding configuration to a Service Portal Agent Chat Configuration. In the server script that passes page and widget data to an Agent Chat \(Virtual Agent or Live Agent\) conversation, specify the branding key to be used. Items passed in this script are available to all pages in the portal. For details on setting up Service Portal Agent Chat, see [Add your bot to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-bot-portal.md).
 
         For example, the following Service Portal Agent Chat Configuration for the Knowledge Portal uses the chat branding key `custom_1`.
 

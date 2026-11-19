@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Network Inventory Workspace, Explore, Telecommunications Network Inventory]
 ---
@@ -98,7 +98,7 @@ Import
 
 </td><td>
 
-Import your models an templates using Import in the Telecommunications Network Inventory application. To learn more, see [Import Models and Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md).
+Import your models an templates using Import in the Telecommunications Network Inventory application. To learn more, see [Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md).
 
 </td></tr><tr><td>
 

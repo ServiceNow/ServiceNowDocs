@@ -222,6 +222,8 @@ As a general guideline, use a unique mTLS certificate for each MID Server to lim
 
 [Add SSL certificates for the MID Server]()
 
+[Specify an external TrustStore for the MID Server]()
+
 [MID Server SSH cryptographic algorithms]()
 
 [Attach a script file to a file synchronized MID Server]()

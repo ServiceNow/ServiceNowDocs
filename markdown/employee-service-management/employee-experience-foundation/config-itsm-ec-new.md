@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Employee Center for IT Service Management, EmployeeWorks, Employee Service Management]
+breadcrumb: [Employee Center for IT Service Management, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Configuring Employee Center for ITSM

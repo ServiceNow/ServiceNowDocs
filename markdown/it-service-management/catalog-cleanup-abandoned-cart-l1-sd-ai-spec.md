@@ -17,7 +17,7 @@ Monitor the abandonment rate of unsubmitted draft catalog requests created by th
 
 ## Before you begin
 
-Role required: sn\_itsm\_common.sn\_service\_desk\_manager or admin
+Role required: sn\_sow\_itsm\_common.sn\_service\_desk\_manager or admin
 
 ## About this task
 

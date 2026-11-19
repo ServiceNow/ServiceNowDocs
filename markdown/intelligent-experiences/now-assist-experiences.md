@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-experiences.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-11-06"
 reading_time_minutes: 1
-breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # ServiceNow Otto Experiences
@@ -15,7 +15,7 @@ breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable 
 Explore ServiceNow Otto panel and ServiceNow Otto context menu under the **ServiceNow Otto Experiences** tab of ServiceNow Otto Admin.
 
 -   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-overview.md)**  
-With the ServiceNow Otto panel, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
+With the ServiceNow Otto panel, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context faster.
 -   **[ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-write-overview.md)**  
 The ServiceNow Otto context menu uses generative AI to help agents summarize, create, and edit written content, thus streamlining their writing tasks.
 

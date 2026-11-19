@@ -7,7 +7,7 @@ release: australia
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -20,15 +20,15 @@ ITOM Mobile Agent auto-integrates with ITSM Mobile Agent, letting you manage ale
 
 ## On-Call Scheduling for managers
 
--   [Manage gaps and conflicts with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/manage-gaps-and-conflict.md)
--   [Manage time-off requests with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/time-off-request.md)
--   [Manage upcoming shifts with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/manage-upcoming-shifts.md)
+-   
+-   
+-   
 
 ## On-Call Scheduling for responders
 
--   [Request time off with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-time-off.md)
--   [View on-call group members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/view-who-is-on-call.md)
--   [View upcoming shifts with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/view-upcoming-shifts.md)
+-   
+-   
+-   
 
 **Parent Topic:**[Use ITOM Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-reliability-management/use-itom-mobile.md)
 

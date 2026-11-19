@@ -7,7 +7,7 @@ release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-05-26"
 reading_time_minutes: 3
 breadcrumb: [Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -28,10 +28,12 @@ Use the ServiceNow®ServiceNow Otto for Smart Assessment Engine \(SAE\) applicat
 
 </td><td>
 
-[Using ServiceNow Otto for Smart Assessment Engine \(SAE\) skills\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for SAE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/using-servicenow-otto-for-sae-skills.md)
+[Using ServiceNow Otto for Smart Assessment Engine \(SAE\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/using-servicenow-otto-for-sae-skills.md)\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for SAE
 
 </td></tr></tbody>
-</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+</table>**Note:** This feature is available starting with Australia Patch 6.
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 **Important:**
 

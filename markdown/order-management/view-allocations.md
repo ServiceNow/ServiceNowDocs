@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/view-allocations.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-21"
 reading_time_minutes: 1
 breadcrumb: [Manage allocations, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -22,7 +22,7 @@ At least one allocation type must be active. If none are configured, contact you
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Opportunity** &gt; **All** and select the opportunity you want to view.
 

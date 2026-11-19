@@ -1,6 +1,6 @@
 ---
 title: Configure alert scope
-description: Define which alerts your AI specialist receives by setting filter conditions—the AI specialist is only assigned alerts that match all active conditions.
+description: Define which alerts your AI Specialist receives by setting filter conditions—the AI Specialist is only assigned alerts that match all active conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/configure-alert-scope-ai-specialist.html
 release: australia
@@ -13,13 +13,13 @@ breadcrumb: [Onboard the AIOps specialist, AIOps AI Specialist, ITOM AIOps speci
 
 # Configure alert scope
 
-Define which alerts your AI specialist receives by setting filter conditions—the AI specialist is only assigned alerts that match all active conditions.
+Define which alerts your AI Specialist receives by setting filter conditions—the AI Specialist is only assigned alerts that match all active conditions.
 
 ## Before you begin
 
 Very you have the following setting
 
--   Platform version Brazil Patch 2 or later.
+-   Platform version Australia Patch 8 or later.
 -   ServiceNow Otto for IT Operations Management \(ITOM\) application, version 2.10.0 or later.
 -   AIOps Experience application, version 27.2.68 or later.
 -   AIOps AI Specialist \(sn\_ai\_aiops\_force\) plugin, version 3.0.0 or later.
@@ -29,15 +29,15 @@ Very you have the following setting
 
 ## About this task
 
-Alert Scope is the set of filter conditions that controls which alerts your AI specialist receives and acts on. Only alerts that match the defined scope are assigned to the AI specialist. Everything else goes to your human operators.
+Alert Scope is the set of filter conditions that controls which alerts your AI Specialist receives and acts on. Only alerts that match the defined scope are assigned to the AI specialist. Everything else goes to your human operators.
 
-Scope keeps the AI specialist precise. A well-defined scope means the AI focuses on the alert types it is best suited to handle. It reduces noise for your operators and helps avoiding mismatched assignments.
+Scope keeps the AI Specialist precise. A well-defined scope means the AI focuses on the alert types it is best suited to handle. It reduces noise for your operators and helps avoiding mismatched assignments.
 
 ## Procedure
 
 1.  On the AIOps AI Specialist page, select the **Tasks** tab.
 
-2.  Under **Scoping**, review the default filter conditions already applied out-of-the-box to determine which alerts are relevant for the AI specialist.
+2.  Under **Scoping**, review the default filter conditions already applied out-of-the-box to determine which alerts are relevant for the AI Specialist.
 
     \[Omitted image "ai-specialist-scope.png"\] Alt text: Define alert scope for the AI specialist.
 

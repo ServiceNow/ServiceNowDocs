@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/navigate-solution.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-26"
 reading_time_minutes: 1
 keywords: [navigate solution, solution navigation sidebar, buyer]
 breadcrumb: [Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]

@@ -7,8 +7,8 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Explore, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
@@ -193,11 +193,11 @@ Complete demands
 
 </td><td>
 
-Based on the selection in the **Close Demand** field, a demand is completed automatically when the converted entity is completed, or manually by the demand manager at any state.
+Based on the selection in the **Close Demand** field, a demand is completed automatically when the converted entity is completed. The demand manager can also complete a demand manually, either by selecting **Close** when the demand is approved or by setting its state to Completed. When a demand with a linked idea is completed, the idea is also closed.
 
 </td><td>
 
-Approved → Completed
+Approved \(or any state\) → Completed
 
 </td><td>
 

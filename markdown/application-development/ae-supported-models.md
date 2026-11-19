@@ -7,8 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-09-16"
 reading_time_minutes: 1
-keywords: [Autonomous Engineer, supported models, model versions, AI models]
-breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Overview, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Supported models for Autonomous Engineer
@@ -25,7 +24,7 @@ Autonomous Engineer currently supports the following models:
     **Note:** GPT 5.5 support is not available in the APAC region.
 
 -   Azure OpenAI GPT 5.6 Sol 
--   Azure OpenAI GPT 6.1å Sol 
+-   Azure OpenAI GPT 6.1 Sol 
 -   Google Gemini 3.8 Flash
 -   Google Gemini 3.7 Flash
 -   Google Gemini 3.5 Flash
@@ -33,6 +32,7 @@ Autonomous Engineer currently supports the following models:
 -   Claude Opus 4.6
 -   Claude Opus 4.8
 -   Claude Opus 5.0
+-   Claude Opus 5.5
 
 ## Changing the model and version
 

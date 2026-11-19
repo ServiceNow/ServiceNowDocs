@@ -1,20 +1,20 @@
 ---
-title: Restrict access to an incident
-description: Restrict access to an incident that contains sensitive information so that only authorized agents can access it.
+title: Restrict an incident access
+description: You can restrict an incident ticket that contains sensitive information. By marking an incident as restricted, you limit its access for the agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/restrict-incident-access.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Incident Management integration with Universal Request, Incident Management integrations, Reference, Incident Management, IT Service Management]
+breadcrumb: [Universal Request integration - Incident Management, Incident Management integrations, Reference, Incident Management, IT Service Management]
 ---
 
-# Restrict access to an incident
+# Restrict an incident access
 
-Restrict access to an incident that contains sensitive information so that only authorized agents can access it.
+You can restrict an incident ticket that contains sensitive information. By marking an incident as restricted, you limit its access for the agents.
 
 ## Before you begin
 
@@ -22,25 +22,25 @@ Role required: admin or user
 
 ## About this task
 
-Both agents and users can mark an incident as restricted. Users can mark an incident as restricted while creating it. An agent can also mark an incident as restricted while triaging it or while working on it. Incidents marked as restricted can be accessed only by the following agents:
+Both agents and users can mark an incident as restricted. Users can mark an incident as restricted while creating it. An agent can also mark an incident a restricted while triaging it or while working on it. Cases marked as restricted can only be accessed by
 
--   Routing agents who are members of the assignment group and have the sensitive agent role.
+-   Routing agents who are part of the assignment group and has sensitive agent role.
 -   All primary ticket agents.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Incident** &gt; **All**.
 
-2.  Open the incident record to restrict.
+2.  Open the incident record that you want to restrict.
 
-3.  On the form, select **Restrict**.
+3.  On the form, click **Restrict**.
 
-    The restricted fields are hidden, and the form is read-only.
+    The restricted fields are hidden, and the form is only for view purpose.
 
-    **Note:** Only agents with the access role can mark the incident as unrestricted.
+    **Note:** To mark the request as unrestricted only agents with the access role can modify.
 
-4.  Select **Update**.
+4.  Click **Update**.
 
 
-**Parent Topic:**[Incident Management integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
+**Parent Topic:**[Universal Request integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
 

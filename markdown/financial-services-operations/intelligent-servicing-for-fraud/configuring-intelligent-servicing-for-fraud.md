@@ -7,7 +7,7 @@ release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [configure intelligent servicing for fraud, set up fraud application, install intelligent servicing for fraud, assign roles for fraud users, configure service definitions, configure playbooks, configure workspace, configure user groups, configure assignment rules, configure slas, service level agreements, fraud operations analyst, fraud operations manager, fraud case routing]
 breadcrumb: [Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
@@ -69,13 +69,13 @@ Configure the playbook by navigating to **All** &gt; **Process Automation** &gt;
 
 </td></tr><tr><td>
 
-Configure CRM Workspace.
+Configure CSM Configurable Workspace.
 
 </td><td>
 
-Configure CRM Workspace to enable agents to interact with customers and to create and work on cases.
+Configure CSM Configurable Workspace to enable agents to interact with customers and to create and work on cases.
 
- For detailed instructions on how to configure CRM Workspace, see [Configure CRM Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-csm-workspace-fso-apps.md)
+ For detailed instructions on how to configure CSM Configurable Workspace, see [Configure CSM Configurable Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-csm-workspace-fso-apps.md)
 
 </td></tr><tr><td>
 

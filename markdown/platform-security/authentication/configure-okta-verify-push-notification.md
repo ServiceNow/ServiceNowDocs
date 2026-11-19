@@ -1,20 +1,20 @@
 ---
-title: Configure Push notification - Okta Verify
-description: Configure Okta Verify to receive push notifications for identity verification.
+title: Configure push notification \(Okta Verify\)
+description: Configure Okta Verify to receive push notifications for secure and convenient identity verification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/configure-okta-verify-push-notification.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Push notification - Okta Verify, Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Push notification - Okta verify, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
-# Configure Push notification - Okta Verify
+# Configure push notification \(Okta Verify\)
 
-Configure **Okta Verify** to receive push notifications for identity verification.
+Configure **Okta Verify** to receive push notifications for secure and convenient identity verification.
 
 ## Before you begin
 
@@ -51,7 +51,7 @@ The push notification authentication factor on **Okta** must be enabled. To lear
 
 6.  Select **New** under the Connections tab.
 
-7.  Specify the following fields on the **HTTP\(s\) Connections** form.
+7.  Specify the following field on the **HTTP\(s\) Connections** form.
 
     -   Name
     -   Connection alias
@@ -64,7 +64,7 @@ The push notification authentication factor on **Okta** must be enabled. To lear
 
 9.  Specify the **Name** and **API Key** on the API Key Credentials form.
 
-    **Note:** The API key should be prefixed with ‘SSWS'. If the copied token value is `<token>` you must provide the value as `SSWS <token>`.
+    **Note:** The API key should be prefixed with ‘SSWS'. If the copied token value is `00iJ88ydm9ZLnDNE8AeGsmjcUC-ZFyCt3pts2pNTwZ` you must provide the value as `SSWS 00iJ88ydm9ZLnDNE8AeGsmjcUC-ZFyCt3pts2pNTwZ`.
 
     \[Omitted image "okta-configuration-push-3.png"\] Alt text: API Key Credentials
 

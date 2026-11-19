@@ -63,7 +63,7 @@ The base URL for the API is `${Cloud_Name}/api/v1`. Check the Zscaler cloud name
 
 3.  Select **Add API Key**.
 
-    If you don't see the **Add API Key** option, delete the existing key.
+    If you do not see the **Add API Key** option, delete the existing key.
 
     The new API key is immediately valid and is displayed in the tab.
 

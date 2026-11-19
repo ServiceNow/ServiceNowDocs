@@ -7,9 +7,9 @@ release: australia
 product: Performance Analyzer
 classification: performance-analyzer
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Testing and debugging applications, Classic app development, Building applications]
+breadcrumb: [Testing and debugging applications, Building applications]
 ---
 
 # Performance Analyzer

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-partner-relationship-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
@@ -76,6 +76,8 @@ The Partner Relationship Management data model provides a framework to map the r
 Partner admins, agents, and managers can manage partner programs and partnerships on the partner workspace to triage cases and requests from customers.
 -   **[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-segment-management.md)**  
 Install the Segment Management application \(com.snc.segment\_mgmt\) from the ServiceNow® Store to manage and group entities into various segments to promote progression.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-overview.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-overview.md)**  
+
 -   **[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-management.md)**  
 Install the Deal Registration Management plugin \(com.snc.deal\_registration\_management\) to enable channel partners to identify and manage customer interest in products.
 -   **[Install Sales Common for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/install-sales-common-for-partner-relationship-management.md)**  
@@ -92,7 +94,7 @@ Install the Quote Management for Channel Partners plugin \(com.snc.partner\_rela
 **Related topics**  
 
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 

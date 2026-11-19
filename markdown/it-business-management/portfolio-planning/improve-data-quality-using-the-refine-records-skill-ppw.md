@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-10"
 reading_time_minutes: 1
 keywords: [AI skill, ServiceNow Otto, Gen AI, Generative AI, SPM, Strategic Portfolio Management, Refine records]
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]

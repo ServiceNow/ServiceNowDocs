@@ -7,7 +7,7 @@ release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [SAFe Board—Portfolio level, Portfolio SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -48,15 +48,15 @@ Role required: sn\_portfolio\_safe.safe\_portfolio\_user
 
 7.  To arrange epics within the backlog, use either of the following options.
 
-<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d200565e161">
+<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d200832e161">
 
 Action
 
-</th><th align="left" id="d200565e164">
+</th><th align="left" id="d200832e164">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d200565e170">
+</th></tr></thead><tbody><tr><td id="d200832e170">
 
 **Using the drag feature**
 
@@ -64,7 +64,7 @@ Description
 
 Point to an epic and drag it to the required position.
 
-</td></tr><tr><td id="d200565e179">
+</td></tr><tr><td id="d200832e179">
 
 **Using the keyboard**
 

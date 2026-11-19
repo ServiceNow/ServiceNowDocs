@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -28,22 +28,20 @@ For more details on calibration attributes, see [Add calibration attributes to a
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
+1.  From the Enterprise Asset Workspace, open the Admin center view.
 
-2.  From the Enterprise Asset Workspace, open the Admin center view.
+2.  From the left navigation menu of the Admin center view, navigate to **Calibration configuration** &gt; **Category**.
 
-3.  From the navigation panel of the Admin center view, navigate to **Calibration configuration** &gt; **Category**.
+3.  Select **New**.
 
-4.  Select **New**.
-
-5.  On the form, fill in the fields.
+4.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Name|Name of the calibration category.|
     |Description|Detailed description of the calibration category.|
 
-6.  Select **Save**.
+5.  Select **Save**.
 
 
 ## Result

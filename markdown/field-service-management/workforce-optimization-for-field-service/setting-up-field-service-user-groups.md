@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Users, Set up workforce, Configure, Field Service Management]
 ---
@@ -278,7 +278,7 @@ Role required: wm\_admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-<table><tbody><tr><td id="d112620e429">
+<table><tbody><tr><td id="d110369e429">
 
 **Roles**
 
@@ -288,7 +288,7 @@ Assign one or more roles from the list of available roles to the user group.
 
  For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
 
-</td></tr><tr><td id="d112620e458">
+</td></tr><tr><td id="d110369e458">
 
 **Group Members**
 
@@ -298,7 +298,7 @@ Assign one or more agents from the list of available agents to the user group.
 
  For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAUserToAGroup.md).
 
-</td></tr><tr><td id="d112620e477">
+</td></tr><tr><td id="d110369e477">
 
 **Groups**
 
@@ -306,7 +306,7 @@ Assign one or more agents from the list of available agents to the user group.
 
 Create a child user group.
 
-</td></tr><tr><td id="d112620e486">
+</td></tr><tr><td id="d110369e486">
 
 **Skills**
 
@@ -316,7 +316,7 @@ Assign one or more skills from the list of available skills to the user group.
 
  For more information on assigning skills, see [Manage Field Service and Customer Service skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/field-service-manager-agent-skills.md).
 
-</td></tr><tr><td id="d112620e508">
+</td></tr><tr><td id="d110369e508">
 
 **Locations Covered**
 
@@ -326,15 +326,17 @@ Assign one or more locations from the list of locations to the user group.
 
  For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
 
-</td></tr><tr><td id="d112620e531">
+</td></tr><tr><td id="d110369e531">
 
 **Covered by Dispatch Groups**
 
 </td><td>
 
-If dispatch groups have been created, assign one, or more dispatch groups to the agent user group.
+Assign one or more dispatch groups to the agent user group.
 
-</td></tr><tr><td id="d112620e543">
+ **Important:** The agent user group must be covered by a dispatch group that covers the same locations. If this relationship is missing, the system can't create work order tasks for the group and displays the message *The agent or group does not satisfy task qualification criteria. You must enable Allow assignment override to proceed further.*
+
+</td></tr><tr><td id="d110369e548">
 
 **Product Models**
 
@@ -366,7 +368,7 @@ Role required: wm\_admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-<table id="choicetable_d42_kbh_3xb"><tbody><tr><td id="d112620e666">
+<table id="choicetable_d42_kbh_3xb"><tbody><tr><td id="d110369e671">
 
 **Roles**
 
@@ -376,7 +378,7 @@ Assign one or more roles from the list of available roles to the user group.
 
  For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
 
-</td></tr><tr><td id="d112620e695">
+</td></tr><tr><td id="d110369e700">
 
 **Group Members**
 
@@ -386,7 +388,7 @@ Assign one or more qualifiers from the list of available qualifiers to the user 
 
  For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAUserToAGroup.md).
 
-</td></tr><tr><td id="d112620e714">
+</td></tr><tr><td id="d110369e719">
 
 **Groups**
 
@@ -394,7 +396,7 @@ Assign one or more qualifiers from the list of available qualifiers to the user 
 
 Create a child user group.
 
-</td></tr><tr><td id="d112620e723">
+</td></tr><tr><td id="d110369e728">
 
 **Locations Covered**
 
@@ -430,7 +432,7 @@ Role required: admin
 
     For more information about Field Service Roles, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
 
-<table id="choicetable_qrz_byd_hxb"><tbody><tr><td id="d112620e870">
+<table id="choicetable_qrz_byd_hxb"><tbody><tr><td id="d110369e875">
 
 **Roles**
 
@@ -440,7 +442,7 @@ Assign one or more roles from the list of available roles to the user group.
 
  For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md) .
 
-</td></tr><tr><td id="d112620e899">
+</td></tr><tr><td id="d110369e904">
 
 **Group Members**
 
@@ -450,7 +452,7 @@ Assign one or more dispatchers from the list of available dispatchers to the use
 
  For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md).
 
-</td></tr><tr><td id="d112620e918">
+</td></tr><tr><td id="d110369e923">
 
 **Groups**
 
@@ -458,7 +460,7 @@ Assign one or more dispatchers from the list of available dispatchers to the use
 
 Create a child user group.
 
-</td></tr><tr><td id="d112620e927">
+</td></tr><tr><td id="d110369e932">
 
 **Locations Covered**
 
@@ -468,13 +470,13 @@ Assign one or more locations from the list of locations to the dispatcher user g
 
  For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
 
-</td></tr><tr><td id="d112620e946">
+</td></tr><tr><td id="d110369e951">
 
 **Assignment Groups Covered\|**
 
 </td><td>
 
-Assign one or more agent groups to the dispatch user group.
+Assign one or more agent groups to the dispatch user group. Add every agent group that receives work order tasks from this dispatch group, and make sure that the agent group covers the same locations as the dispatch group. If an agent group isn't added, the system can't create work order tasks for that group.
 
 </td></tr></tbody>
 </table>6.  Click **Update**.

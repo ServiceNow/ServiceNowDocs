@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -31,5 +31,5 @@ The AIOps dashboards offer comprehensive visualizations of critical operational 
 **Related topics**  
 
 
-[Performance Analytics and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md)
+[bundle-par.c_performanceAnalyticsAndReporting]
 

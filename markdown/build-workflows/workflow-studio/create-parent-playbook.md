@@ -101,7 +101,7 @@ Select when the child playbook activity restarts. Select from:
     -   A fixed value.
     -   A data pill for the trigger record or the parent table.
     -   A data pill for the output of an earlier activity.
-10. Where you want to use a value that the child playbook returns, select the data pill picker icon \[Omitted image "data-pill-picker-icon.png"\], and then select the child output.
+10. Where you want to use a value that the child playbook returns, select the data pill picker icon \[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon, and then select the child output.
 
     You can use child outputs in the inputs of later activities, in experience properties, and in conditions. Only activities that start before the target activity appear in the data pill picker. The child returns only the outputs that are declared on its **Inputs &amp; Outputs** tab and set by a **Set Playbook Outputs** activity. To see which outputs a child returns, open the properties of the child playbook.
 

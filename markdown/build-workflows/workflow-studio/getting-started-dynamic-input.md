@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 20
 breadcrumb: [Dynamic inputs, Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -175,7 +175,7 @@ Connection Alias
 
 </td><td>
 
-Select the alias you created earlier, or select the Create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).**Note:** The **Credential** for the HTTP\(s\) connection must use Basic authentication credentials. Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see Getting started with connections and Getting started with credentials.
+Select the alias you created earlier, or select the Create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).**Note:** The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md).
 
 </td></tr><tr><td>
 
@@ -480,7 +480,7 @@ Connection Alias
 
 </td><td>
 
-Select the alias you created earlier, or select the Create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).**Note:** The **Credential** for the HTTP\(s\) connection must use Basic authentication credentials. Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see Getting started with connections and Getting started with credentials.
+Select the alias you created earlier, or select the Create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).**Note:** The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md).
 
 </td></tr><tr><td>
 

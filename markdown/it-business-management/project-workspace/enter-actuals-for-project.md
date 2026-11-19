@@ -1,5 +1,5 @@
 ---
-title: Enter actuals spent in a project in classic Project Workspace
+title: Enter actuals spent in a project
 description: Enter actual spends in your project to track the fund utilization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/enter-actuals-for-project.html
@@ -7,12 +7,12 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Enter actuals spent in a project in classic Project Workspace
+# Enter actuals spent in a project
 
 Enter actual spends in your project to track the fund utilization.
 

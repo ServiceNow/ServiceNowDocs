@@ -1,5 +1,5 @@
 ---
-title: Target tables for n8n
+title: Target Tables for n8n
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from a n8n project. The data is saved in tables that extend from the CMDB CI classes and other non-CMDB classes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/target-tables-for-n8n.html
@@ -7,18 +7,18 @@ release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [n8n, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [n8n, Service Graph Connectors for Control Tower, AI connections, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# Target tables for n8n
+# Target Tables for n8n
 
 When you complete setting up the connection, you can configure the integration to periodically pull data from a n8n project. The data is saved in tables that extend from the CMDB CI classes and other non-CMDB classes.
 
-## Target tables for AI systems
+## Target Tables for AI systems
 
-\[cmdb\_ai\_system\_component\_product\_model\]
+cmdb\_ai\_system\_component\_product\_model
 
 The following attributes in the n8n Datacenter \[cmdb\_ai\_system\_component\_product\_model\] table are populated by collected data.
 
@@ -44,7 +44,7 @@ name
 
 </td><td>
 
-name
+name \(workflow\) or name \(agent\)
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ version
 Type version
 
 </td></tr></tbody>
-</table>\[alm\_ai\_system\_digital\_asset\]
+</table>alm\_ai\_system\_digital\_asset
 
 The following attributes in the n8n Datacenter \[alm\_ai\_system\_digital\_asset\] table are populated by collected data.
 
@@ -85,7 +85,7 @@ external\_ref\_id
 
 </td><td>
 
-Connection Url
+Connection Url + data or connection Url + data+ nodes
 
 </td></tr><tr><td>
 
@@ -124,11 +124,11 @@ ai\_models
 AI Language model
 
 </td></tr></tbody>
-</table>\[cmdb\_ci\_function\_ai\]
+</table>cmdb\_ci\_function\_ai
 
 The following attributes in the n8n Datacenter \[cmdb\_ci\_function\_ai\] table are populated by collected data.
 
-<table id="table_fy3_rvm_m3c"><tbody><tr><td>
+<table id="table_adv_xqr_v3c"><tbody><tr><td>
 
 Attribute label
 
@@ -200,10 +200,22 @@ vendor
 
 vendor
 
-</td></tr></tbody>
-</table>## Target tables for AI model
+</td></tr><tr><td>
 
-cmdb\_ai\_model\_product\_model.
+Sys id
+
+</td><td>
+
+asset
+
+</td><td>
+
+asset
+
+</td></tr></tbody>
+</table>## Target Tables for AI model
+
+cmdb\_ai\_model\_product\_model
 
 The following attributes in the n8n Datacenter \[cmdb\_ai\_model\_product\_model\] table are populated by collected data.
 
@@ -244,7 +256,7 @@ version
 Type version
 
 </td></tr></tbody>
-</table>alm\_ai\_model\_digital\_asset.
+</table>alm\_ai\_model\_digital\_asset
 
 The following attributes in the n8n Datacenter \[alm\_ai\_model\_digital\_asset\] table are populated by collected data.
 
@@ -273,9 +285,9 @@ external\_ref\_id
 Connection URL, model name, type version
 
 </td></tr></tbody>
-</table>## Target tables for AI prompts
+</table>## Target Tables for AI prompts
 
-cdmb\_ai\_prompt\_product\_model.
+cdmb\_ai\_prompt\_product\_model
 
 The following attributes in the n8n Datacenter \[cdmb\_ai\_prompt\_product\_model\] table are populated by collected data.
 
@@ -316,7 +328,7 @@ prompt\_info
 Parameters system message
 
 </td></tr></tbody>
-</table>alm\_ai\_prompt\_digital\_asset.
+</table>alm\_ai\_prompt\_digital\_asset
 
 The following attributes in the n8n Datacenter \[alm\_ai\_prompt\_digital\_asset\] table are populated by collected data.
 
@@ -345,9 +357,22 @@ external\_ref\_id
 Asset type, asset id
 
 </td></tr></tbody>
-</table>## Target tables for AI Subcomponents
+</table>## Target Tables for AI tools
 
-sn\_ent\_ai\_system\_subcomponent\_m2m.
+sn\_ent\_ai\_tool
+
+The following attributes in the n8n Datacenter \[sn\_ent\_ai\_tool\] table are populated by collected data.
+
+|Attribute label|Attribute name|n8n attribute|
+|---------------|--------------|-------------|
+|External ref id|external\_ref\_id|workflow +node|
+|Name|name|Nodes +toolType|
+|Description|description|nodes|
+|Active|active|nodes|
+
+## Target Tables for AI Subcomponents
+
+sn\_ent\_ai\_system\_subcomponent\_m2m
 
 The following attributes in the n8n Datacenter \[sn\_ent\_ai\_system\_subcomponent\_m2m\] table are populated by collected data.
 
@@ -385,7 +410,7 @@ ai\_subcomponent
 
 </td><td>
 
-connectionUrl + workflowld + nodeld or n8n
+connectionUrl + workflowld + nodeld \(for sub sysems\) or workflowld+ nodeld \(for tools\)
 
 </td></tr><tr><td>
 
@@ -400,9 +425,9 @@ ai\_subcomponent\_reference\_table
 agents or tools
 
 </td></tr></tbody>
-</table>## Target tables for AI Usage
+</table>## Target Tables for AI Usage
 
-sn\_ai\_disc\_ai\_usage.
+sn\_ai\_disc\_ai\_usage
 
 The following attributes in the n8n Datacenter \[sn\_ai\_disc\_ai\_usage\] table are populated by collected data.
 

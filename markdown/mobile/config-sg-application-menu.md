@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/config-sg-application-menu.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Navigation bar, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -52,15 +52,15 @@ The following is a short summary of each of the navigation tab types:
 
 6.  Select or create navigation tab types to add to your navigation bar.
 
-<table id="choicetable_opn_3z2_ccc"><thead><tr><th align="left" id="d78072e156">
+<table id="choicetable_opn_3z2_ccc"><thead><tr><th align="left" id="d77962e156">
 
 Method to add navigation tabs
 
-</th><th align="left" id="d78072e159">
+</th><th align="left" id="d77962e159">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d78072e165">
+</th></tr></thead><tbody><tr><td id="d77962e165">
 
 **Select existing navigation tabs**
 
@@ -72,7 +72,7 @@ Procedure
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d78072e198">
+</td></tr><tr><td id="d77962e198">
 
 **Create either a saved, notifications, or settings navigation tab type**
 
@@ -93,7 +93,7 @@ Procedure
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d78072e301">
+</td></tr><tr><td id="d77962e301">
 
 **Create either a launcher or screen navigation tab type**
 

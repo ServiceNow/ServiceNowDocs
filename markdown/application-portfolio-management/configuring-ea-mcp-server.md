@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/configuring-ea-mcp-server.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-02"
+last_updated: "2026-06-27"
 reading_time_minutes: 1
 keywords: [EA MCP server]
 breadcrumb: [MCP for Enterprise Architecture, Enterprise Architecture]

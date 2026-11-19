@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-add-members-to-organization.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail]
 ---
@@ -16,7 +16,7 @@ Add members to your organization to enable them to view and complete tasks withi
 
 ## Before you begin
 
-Role required: sn\_rtl.retail\_admin
+Role required: sn\_retail.retail\_admin
 
 ## Procedure
 
@@ -93,6 +93,7 @@ Member Type
 The type of member. Options are: -   Store associate
 -   Store associate - Fulfiller
 -   Store manager
+-   Store manager - Fulfiller
 -   Area manager
 -   Area manager - Fulfiller
 -   Regional manager

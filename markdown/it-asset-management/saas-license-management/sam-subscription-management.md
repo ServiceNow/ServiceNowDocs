@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-13"
 reading_time_minutes: 6
 keywords: [saas license management, saas reclamation support, direct integration, SSO integration]
 breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
@@ -44,7 +44,7 @@ Managing Direct SaaS applications can vary based on organizational needs. The be
 
 For more information about installing SaaS License Management, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/request-saas-license-management.md).
 
-\[Omitted image "saas-license-management.png"\] Alt text: Decision tree showing three paths for managing SaaS applications: Direct Integration, SaaS License Connections, and SSO Integration
+\[Omitted image "saas-license-management.png"\] Alt text: Flowchart to guide through SaaS license management
 
 <table id="table_mz1_csf_jhc"><thead><tr><th>
 
@@ -130,8 +130,8 @@ Depends on the public API and custom workflow configuration. Build removal logic
 Request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) so that you can create and manage integrations with your SaaS and Single Sign-on \(SSO\) applications. You can use these integrations to track license usage and to reclaim unused licenses.
 -   **[SaaS License Management setup for large companies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/saas-setup-large-companies.md)**  
 Set up SaaS License Management for large companies to confirm that you can view all SaaS usage data in your ServiceNow instance.
--   **[SaaS Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/saas-overview-dashboard.md)**  
-Optimize how much your organization spends on SaaS and SSO licensing by analyzing the subscription usage, cost, and compliance of your SaaS applications and SSO providers using the SaaS Overview dashboard.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/saas-overview-dashboard.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/saas-overview-dashboard.md)**  
+
 -   **[Integrate with SaaS applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-integration-profile.md)**  
 Create an integration profile to view software usage information and optimize stale licenses.
 -   **[Integrate with SSO providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/saas-sso-integration.md)**  

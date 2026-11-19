@@ -1,20 +1,20 @@
 ---
 title: Suggested resolutions in incident investigation with DEX
-description: Suggested resolutions in the Investigation tab of incident records help you diagnose detected issues on DEX monitored devices. The resolutions provide self-help instructions, catalog requests, help resources, and remedial actions to resolve them.
+description: Review and execute suggested resolutions from the Investigation tab of incident records to resolve detected issues on DEX monitored devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/dex-suggested-resolutions.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Incident diagnostics and suggested resolutions, DEX for service desk agents, Digital End-User Experience, IT Operations Management]
 ---
 
 # Suggested resolutions in incident investigation with DEX
 
-Suggested resolutions in the **Investigation** tab of incident records help you diagnose detected issues on DEX monitored devices. The resolutions provide self-help instructions, catalog requests, help resources, and remedial actions to resolve them.
+Review and execute suggested resolutions from the Investigation tab of incident records to resolve detected issues on DEX monitored devices.
 
 ## Suggested resolutions
 
@@ -24,8 +24,8 @@ Suggested resolutions are of the following types:
 
 -   Self-help instruction: Displays steps that you can manually execute to resolve an issue.
 -   Catalog request: Automatically submits a service catalog request for fulfillment.
--   Help resource: Links to documentation such as Knowledge Base articles and other web resources with steps that you can manually execute to resolve an issue.
--   Remedial action: Runs an automated action on the end user's device to resolve an issue.
+-   Help resource: Link to documentation such as Knowledge Base articles and other web resources with steps that you can manually execute to resolve an issue.
+-   Remedial action: Automated action executed on the end user's device to resolve an issue.
 
 ## Tracking completed actions
 
@@ -43,7 +43,7 @@ The available completion states for different resolution types are:
 
 ## Action library for remedial actions
 
-Besides the suggested resolutions, you can also run remedial actions from the Action library to resolve device and application issues. For more information, see [Run remedial actions from the Action library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/remedial-actions-action-library.md).
+In addition to the suggested resolutions, you can run remedial actions from the Action library to resolve device and application issues. For more information, see [Run remedial actions from the Action library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/remedial-actions-action-library.md).
 
 **Note:** Remedial actions run from the Suggested resolutions and Action library are added to a playbook in the DEX incident investigation page. You can monitor current and past actions or cancel ongoing actions from the playbook. For more information, see [Manage remedial actions in DEX incident investigation Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/manage-incident-remedial-actions-playbook.md).
 

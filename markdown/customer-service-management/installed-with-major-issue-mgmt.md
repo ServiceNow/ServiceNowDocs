@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/installed-with-major-issue-mgmt.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure major issue management, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Reference, Customer Service Management]
 ---
 
 # Components installed with Major Issue Management
@@ -39,7 +39,7 @@ Major issue manager\[sn\_majorissue\_mgt.major\_issue\_manager\]
 Users with this role can:-   Create major cases
 -   Approve or reject major case candidates
 -   Add or remove child cases from major cases
--   Add or remove impacted accounts \(B2B\) or consumers \(B2C\)
+-   Add or remove impacted accounts \(B2B\), consumers \(B2C\), or business organizations
 
  The customer service manager role \[sn\_customerservice\_manager\] contains the major issue manager role.
 

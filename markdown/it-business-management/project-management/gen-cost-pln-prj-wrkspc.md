@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -25,19 +25,19 @@ Generate labor costs based on the planning attributes configured for financials 
 
 1.  Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **All** and select the required project.
 
-    Make sure that the resource assignments are finalized to generate cost plans. If there are no resource assignments for the project, migrate the resource plans to resource assignments. For more information, see [Migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md).
+    Make sure that the resource assignments are finalized to generate cost plans. If there are no resource assignments for the project, migrate the resource plans to resource assignments. For more information, see [Migrate resource plans and cost plans to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md).
 
 2.  Generate labor costs using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d61956e111">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d62916e108">
 
 Choice
 
-</th><th align="left" id="d61956e114">
+</th><th align="left" id="d62916e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d61956e120">
+</th></tr></thead><tbody><tr><td id="d62916e117">
 
 **Using link from Financials Summary view**
 
@@ -48,7 +48,7 @@ Description
 3.  Select **Generate Labor Costs**.
 
 
-</td></tr><tr><td id="d61956e153">
+</td></tr><tr><td id="d62916e150">
 
 **Using related links**
 
@@ -56,7 +56,7 @@ Description
 
 Select the **Generate Labor Costs** related link.
 
-</td></tr><tr><td id="d61956e165">
+</td></tr><tr><td id="d62916e162">
 
 **Activate a scheduled job**
 
@@ -104,10 +104,6 @@ Activate and trigger a scheduled job to generate attribute-based labor costs for
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
-
-[Schedule a project from a start date]()
-
-[Apply or change a task constraint]()
 
 [Update a project]()
 

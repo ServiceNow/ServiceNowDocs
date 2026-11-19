@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 15
 keywords: [slack, integration profile, saas]
 breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
@@ -165,7 +165,7 @@ Create a Slack integration profile to track software subscriptions and optimize 
 
 To create a Slack integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-Role required: sam\_integrator
+ServiceNow Role required: sam\_integrator
 
 **Important:** You must select the **Slack Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -177,15 +177,15 @@ If you’re using Software Asset Workspace, the option to create the Slack integ
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d312407e893">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d310686e895">
 
 Interface
 
-</th><th align="left" id="d312407e896">
+</th><th align="left" id="d310686e898">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d312407e902">
+</th></tr></thead><tbody><tr><td id="d310686e904">
 
 **Core UI**
 
@@ -196,7 +196,7 @@ Action
 3.  Select **Slack Enterprise Integration Profile**.
 
 
-</td></tr><tr><td id="d312407e944">
+</td></tr><tr><td id="d310686e946">
 
 **Software Asset Workspace**
 
@@ -291,13 +291,9 @@ Type of integration profile. This field is automatically set to `Slack Enterpris
 
     **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/integrate-with-slack.md) table.
 
-9.  On the Authorize App dialog box, verify if the Enterprise Grid workspace \(Enterprise Organization\) is available in the top corner drop-down list.
+9.  On the Authorize App dialog box, verify if the Enterprise Grid workspace is available on the top-right list.
 
-10. If the Enterprise Grid workspace is available, select the **Enterprise Grid workspace**.
-
-    This action confirms that the token is fetched correctly, allowing the connection to validate successfully. For more information, refer to the knowledge base article [KB2536373](https://support.servicenow.com/kb?sys_kb_id=1f87321d93507290d9743f986cba10c1&id=kb_article_view).
-
-    A dialog box requests access at the Organization Level after you select the **Enterprise Grid workspace** \(Enterprise Organization\).
+10. If the Enterprise Grid workspace is available, select the Enterprise Grid workspace.
 
 11. If the Enterprise Grid workspace isn’t available,
 
@@ -414,7 +410,7 @@ Review all automatically generated reclamation rules to reclaim user subscriptio
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

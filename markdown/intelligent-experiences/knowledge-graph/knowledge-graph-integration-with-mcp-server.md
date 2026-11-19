@@ -7,9 +7,9 @@ release: australia
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-08"
 reading_time_minutes: 1
-breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
+breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
 ---
 
 # Knowledge Graph integration with MCP server

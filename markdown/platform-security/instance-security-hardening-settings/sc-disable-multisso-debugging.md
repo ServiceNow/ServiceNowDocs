@@ -1,5 +1,5 @@
 ---
-title: Disable Multi-SSO debugging
+title: Disable MultiSSO Debugging
 description: The glide.authenticate.multisso.debug property controls debug logging for Multi-SSO.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-disable-multisso-debugging.html
@@ -7,16 +7,16 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuration, Hardening settings, Platform Security]
 ---
 
-# Disable Multi-SSO debugging
+# Disable MultiSSO Debugging
 
 The **glide.authenticate.multisso.debug** property controls debug logging for Multi-SSO.
 
-The **glide.authenticate.multisso.debug** system property controls debug logging for Multi SSO.
+The **glide.authenticate.multisso.debug** system property controls debug logging for multiSSO.
 
 Ensure that the property **glide.authenticate.multisso.debug** is set to **false**.
 
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-false
+&lt;none&gt;
 
 </td></tr><tr><td>
 

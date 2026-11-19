@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/plat-ai-survey-filling-data-collection-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-14"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Survey filling data collection AI agent

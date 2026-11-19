@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-api-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 24
 breadcrumb: [Products combined by family]
 ---
@@ -862,7 +862,7 @@ The new Reassign Assessment API provides a streamlined way to transfer assessmen
 
 </td></tr><tr><td>
 
-AI Control Tower
+Control Tower
 
 </td><td>
 
@@ -1107,6 +1107,15 @@ setAggregateWorkflow\(\)
 
 -   KafkaProducerAPI\(\)
 -   send\(\)
+
+</td></tr><tr><td>
+
+[PersonalAuthAPI - Scoped](https://www.servicenow.com/docs/access?context=PersonalAuthAPIScoped&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   getOAuthTokenExpiryInfo\(\)
+-   isPersonalAuthEnabled\(\)
 
 </td></tr></tbody>
 </table><table><thead><tr><th>

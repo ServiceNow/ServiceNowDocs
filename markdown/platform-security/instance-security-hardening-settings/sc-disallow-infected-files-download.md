@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [File and resources, Hardening settings, Platform Security]
 ---
@@ -16,11 +16,9 @@ breadcrumb: [File and resources, Hardening settings, Platform Security]
 
 Control whether users can download non-scanned attachments if the antivirus service is down or unreachable.
 
-When the property **com.glide.snap.infected\_download\_allowed** is set to **true**, users can still download non-scanned attachments if the antivirus service is down or unreachable.
+When the property **com.glide.snap.infected\_download\_allowed** is set to **true**, users can still download non-scanned attachments in the case that the antivirus service is down or unreachable.
 
-A user may download a malicious file to their desktop.
-
-Set the property **com.glide.snap.infected\_download\_allowed** to **false**.
+Ensure that the property **com.glide.snap.infected\_download\_allowed** is set to **false**.
 
 ## More information
 
@@ -78,7 +76,7 @@ Fallback value
 
 </td><td>
 
-false
+true
 
 </td></tr><tr><td>
 
@@ -105,14 +103,6 @@ Dependencies and prerequisites
 </td><td>
 
 None
-
-</td></tr><tr><td>
-
-Functional impact
-
-</td><td>
-
-Users can download non-scanned attachments if the antivirus service is down or unreachable.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-file-resources.md)

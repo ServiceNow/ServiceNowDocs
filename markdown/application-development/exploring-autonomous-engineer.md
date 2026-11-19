@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/exploring-autonomous-engineer.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-19"
+last_updated: "2026-11-09"
 reading_time_minutes: 5
 keywords: [Autonomous Engineer, Build Agent, planning phase, execution phase, work items, agent packs, background agents, implementation plan, ATF tests, ServiceNow Studio]
 audience: programmer
-breadcrumb: [Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Exploring Autonomous Engineer
@@ -18,11 +18,11 @@ Autonomous Engineer is an agentic worker that accepts requirements, generates a 
 
 ## Autonomous Engineer overview
 
-Implementing applications on the ServiceNow AI Platform can require manual effort between defining requirements and building the application. Autonomous Engineer takes your specifications as input and drives the full implementation lifecycle end-to-end.
+Implementing applications on the ServiceNow AI Platform can require manual effort between defining requirements and building the application. Autonomous Engineer takes your requirements as input and drives the full implementation lifecycle end-to-end.
 
 Autonomous Engineer follows two sequential phases: planning and execution. You remain in control throughout both phases. Autonomous Engineer requires your review and approval before building.
 
-Autonomous Engineer is available in ServiceNow Studio and supports custom applications. Autonomous Engineer uses agent packs with product-specific domain knowledge to run implementations.
+Autonomous Engineer is available in ServiceNow Studio and supports custom applications. Autonomous Engineer uses agent packs with platform knowledge to run implementations.
 
 ## How Autonomous Engineer works
 
@@ -75,7 +75,7 @@ For more information about configuring and using Autonomous Engineer, see:
 -   **[Autonomous Engineer and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-build-agent-relationship.md)**  
 Autonomous Engineer and Build Agent are separate products that work together. Autonomous Engineer uses Build Agent as its execution layer.
 -   **[Agent packs for Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
-Agent packs bundle the domain knowledge, tools, and skills that Autonomous Engineer uses to implement ServiceNow products.
+Agent packs bundle the domain knowledge, tools, and skills that Autonomous Engineer uses to plan and implement custom applications.
 -   **[Autonomous Engineer chat panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-chat-panel.md)**  
 The Autonomous Engineer chat panel within Build Agent is where you interact with the AI agent during planning and development. Use it to submit requests, review responses, run tests, and apply generated code.
 -   **[Using the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-plan-dashboard.md)**  
@@ -93,7 +93,7 @@ Use Autonomous Engineer to author and manage Playbook Designer artifacts through
 -   **[Autonomous Engineer governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-governance.md)**  
 Governance controls for Autonomous Engineer are managed through Build Agent.
 -   **[Autonomous Engineer limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-limitations.md)**  
-Limitations that apply to Build Agent also apply to Autonomous Engineer.
+Understand the constraints that apply to Autonomous Engineer before you build or deploy. Because Autonomous Engineer depends on Build Agent as its execution layer, limitations affecting Build Agent, including regulated environment restrictions and deployment constraints also apply.
 
 **Parent Topic:**[Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/autonomous-engineer.md)
 

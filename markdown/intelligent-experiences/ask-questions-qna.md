@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ask-questions-qna.html
 release: australia
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 keywords: [QnA, question and answer, Content Insights, document analysis]
-breadcrumb: [Content insights AI agent, Use, Content Understanding, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Content insights AI agent, Use, Content Understanding, Enable AI experiences]
 ---
 
 # Ask questions about documents and images

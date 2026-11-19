@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-file-retrieval-new.html
 release: australia
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-06-05"
 reading_time_minutes: 2
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add a file upload tool to an AI agent

@@ -72,3 +72,5 @@ Let's step through an example. In Zero Copy Connector for ERP, create a model. F
 -   If the same field exists in both input and output, but they have different mapped values, the name of the output field is given precedence and used.
 -   If you want to revert to the system-generated name at any time, remove the field and then add it again. Another option is to change the mapping type and then change it back.
 
+**Parent Topic:**[Managing Zero Copy Connector for ERP model inputs, outputs, and field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-manage-models.md)
+

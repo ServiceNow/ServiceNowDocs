@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: reference
 last_updated: "2026-10-08"
 reading_time_minutes: 1
-breadcrumb: [Reference, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Reference, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Supported preview file types

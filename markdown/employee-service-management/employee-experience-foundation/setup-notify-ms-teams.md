@@ -1,20 +1,20 @@
 ---
 title: Install Notify connector for Microsoft Teams
-description: Install and activate the Notify connector for Microsoft Teams plugin to be able to initiate a Microsoft Teams meeting directly from a Task record or via the Major Incident Workbench.
+description: Install and activate the Notify connector for Microsoft Teams plugin to start a Microsoft Teams meeting from a task record or the Major Incident Workbench.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/setup-notify-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Plan your installation, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
+breadcrumb: [Plan your installation, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Install Notify connector for Microsoft Teams
 
-Install and activate the Notify connector for Microsoft Teams plugin to be able to initiate a Microsoft Teams meeting directly from a Task record or via the Major Incident Workbench.
+Install and activate the Notify connector for Microsoft Teams plugin to start a Microsoft Teams meeting from a task record or the Major Incident Workbench.
 
 ## Before you begin
 

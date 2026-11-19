@@ -7,7 +7,7 @@ release: australia
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 breadcrumb: [Password Reset script includes, Password Reset reference, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -446,5 +446,5 @@ SampleVerificationFormProcessor.prototype = {
 **Related topics**  
 
 
-[bundle-crapiref.extension-points]
+[Extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
 

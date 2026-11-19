@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-10-16"
+last_updated: "2026-10-15"
 reading_time_minutes: 2
 breadcrumb: [Configure, Decision tables, Workflow Studio, Build workflows]
 ---

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-13"
 reading_time_minutes: 2
 keywords: [AI specialist activity, AI specialist records]
-breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
 ---
 
 # View the activity of an AI specialist inthe legacy AI Agent Studio

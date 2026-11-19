@@ -19,25 +19,25 @@ Request a dataset to support AI model training, testing, validation, or analytic
 
 ## Before you begin
 
-Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(Employee Center\), sn\_ai\_asset\_mgmt.ai\_asset\_owner \(AI Control Tower dashboard\)
+Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(Employee Center\), sn\_ai\_asset\_mgmt.ai\_asset\_owner \(Control Tower dashboard\)
 
 ## About this task
 
-Datasets are critical inputs for AI systems and models. Requesting a dataset initiates review of data origin, sensitivity, usage purpose, and compliance obligations before the data is used. Datasets can be associated with one or more AI models or AI systems as part of inventory tracking and governance. After you submit this request, you land on the confirmation page in Employee Center. The **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page open the corresponding dataset in AI Control Tower instead of the legacy AI Control Tower workspace. The dataset record header also displays the dataset name and identifier.
+Datasets are critical inputs for AI systems and models. Requesting a dataset initiates review of data origin, sensitivity, usage purpose, and compliance obligations before the data is used. Datasets can be associated with one or more AI models or AI systems as part of inventory tracking and governance. After you submit this request, you land on the confirmation page in Employee Center. The **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page open the corresponding dataset in Control Tower instead of the legacy Control Tower workspace. The dataset record header also displays the dataset name and identifier.
 
 ## Procedure
 
 1.  Request a dataset using one of the following options.
 
-<table><thead><tr><th align="left" id="d259272e106">
+<table><thead><tr><th align="left" id="d258457e106">
 
 Option
 
-</th><th align="left" id="d259272e109">
+</th><th align="left" id="d258457e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d259272e115">
+</th></tr></thead><tbody><tr><td id="d258457e115">
 
 **Employee Center**
 
@@ -50,14 +50,14 @@ Description
 
 AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-</td></tr><tr><td id="d259272e167">
+</td></tr><tr><td id="d258457e167">
 
 **AI Control Tower**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **AI Control Tower**.
-2.  On the AI Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**.
+2.  On the Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**.
 3.  Select **Datasets**, then select **Add dataset**.
  **Note:**
 
@@ -66,7 +66,7 @@ An AI Asset owner can complete this option.
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For full descriptions of the fields for the Request an AI dataset form, see [Request a dataset form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/request-dataset-form.md). For more information about adding a dataset using the AI Control Tower, see [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-dataset-assets.md).
+    For full descriptions of the fields for the Request an AI dataset form, see [Request a dataset form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/request-dataset-form.md). For more information about adding a dataset using the Control Tower, see [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-dataset-assets.md).
 
 3.  To add attachments, select **Add attachments**.
 
@@ -89,7 +89,7 @@ AI Product Owner or Requester \[`sn_grc_ai_gov.ai_risk_and_compliance_business_u
 
 AI Steward or AI Center of Excellence \(AI CoE\) \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager, sn\_ai\_asset\_mgmt.ai\_asset\_owner\]: Review submitted requests for business and strategy alignment, initiate the review process and trigger required assessments as applicable, and coordinate cross-functional reviews. Continue to oversee the dataset through its life cycle, including inventory tracking, governance activities, and collaboration across stakeholders.
 
-For more information, see [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-governance.md).
+For more information, see [Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-governance.md).
 
 Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]: Assess the dataset for regulatory, policy, and risk considerations. Assign risk assessments, recommend controls and attestations, and monitor compliance throughout the dataset and associated AI system life cycle.
 

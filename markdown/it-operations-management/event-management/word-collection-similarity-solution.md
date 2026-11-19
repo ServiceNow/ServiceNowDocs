@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Alert similarity, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Similarity solutions enable you to use Machine Learning \(ML\) to compare the te
 
 ## Training a similarity solution
 
-To train a similarity solution, you collect words to compile a collection that Machine Learning \(ML\) can use to compare text in alert fields. ML compares text in the **Short Description**, **Description**, **Source**, **Type**, **Resource**, and **Metric Name** fields in a resolved alert to see whether the words match words in an open alert. The resolved alert provides an example to show how the open alert can be resolved.
+To train a similarity solution, you collect words to compile a collection. Machine Learning \(ML\) uses the collection to compare text in the **Short Description**, **Description**, **Source**, **Type**, **Resource**, and **Metric Name** fields in a resolved alert. ML checks whether the words in the set match words in an open alert. The resolved alert, which is similar to an open alert, provides an example to show how the open alert can be resolved.
 
 To train a solution, the filter must return at least one record. If your filter returns no records, update it.
 
@@ -48,7 +48,7 @@ Review similarity examples and their scores using the **Show training progress**
 
 Training times vary based on the number of records and classes within the training set. The more records and classes you use, the longer the training can take. For example, a data set containing 100,000 records and several hundred classes can take around five hours to complete.
 
-To show the training solution progress, the ML solution automatically performs the following activities when you select **Show training progress** on the Solutions page. For more information, see [View solution training progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/view-training-progress.md).
+To show the training solution progress, the ML solution automatically performs the following activities when you select **Show training progress** on the Solutions page. For more information, see View solution training progress.
 
 |Activity|Description|
 |--------|-----------|

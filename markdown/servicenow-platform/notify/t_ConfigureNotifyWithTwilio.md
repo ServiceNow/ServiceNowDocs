@@ -7,7 +7,7 @@ release: australia
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configuring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,15 +52,15 @@ Role required: notify\_admin
 Phone numbers and short codes are provided by Twilio once the account is successfully connected and are stored on the Notify Phone Numbers \[notify\_number\] table. Assign each number to a number group. Number groups allow you to control which workflows run when using the phone numbers in each number group.
 
 -   **[Twilio-Direct callback testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/callback-testing.md)**  
-Make an outgoing call or send an SMS using Twilio and trigger callbacks to ServiceNow to test whether Twilio can reach the instance. You can also view when the last callback test was run, its status, and the test logs.
+Make an outgoing call or send an SMS using Twilio to test whether Twilio can reach your instance. View the status and logs of the last callback test.
 -   **[Advanced configuration for SMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/t_ConfigureNotifyforVoiceandSMS.md)**  
-Use the Twilio co-pilot features to improve SMS delivery with phone number like using multiple numbers to send high-volume messages and content intelligence to automatically format every message without writing custom code. Reach large lists of users with one API request.
+Use Twilio co-pilot features to improve SMS delivery, such as sending high volumes from multiple numbers or reaching large user lists in one API request.
 -   **[Advanced configuration for voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/advanced-configure-voice.md)**  
 Configure Answering Machine Detection \(AMD\) to determine if a human has picked up the call or not.
 -   **[Disconnect from a Twilio account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/t_disconnect-from-Twilio-account.md)**  
 If a Twilio account is already associated with a different system, disconnect the account from the other system before connecting to the current instance.
 -   **[Configure Amazon Polly as default voice tone for text to speech](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/configure-amazon-polly-voice-tone.md)**  
-You can configure Amazon Polly as the default voice by overriding the default voice tone for text to speech.
+Override the default voice tone in the Twilio Direct driver property so text to speech uses an Amazon Polly voice.
 
 **Parent Topic:**[Configuring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/configuring-notify.md)
 

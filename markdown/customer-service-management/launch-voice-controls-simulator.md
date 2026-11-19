@@ -1,18 +1,18 @@
 ---
 title: Launching the simulator
-description: This feature lets agents set up and test their voice workflow in a simulated environment without the hassle of uploading payloads for testing call-flows. The Voice Controls Simulator is only available from the CRM Workspace.
+description: This feature lets agents set up and test their voice workflow in a simulated environment without the hassle of uploading payloads for testing call-flows. The Voice Controls Simulator is only available from the CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/launch-voice-controls-simulator.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Set up the Voice Controls Simulator tool, Voice Controls Simulator tool, Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Launching the simulator
 
-This feature lets agents set up and test their voice workflow in a simulated environment without the hassle of uploading payloads for testing call-flows. The Voice Controls Simulator is only available from the CRM Workspace.
+This feature lets agents set up and test their voice workflow in a simulated environment without the hassle of uploading payloads for testing call-flows. The Voice Controls Simulator is only available from the CSM Configurable Workspace.
 
 ## Before you begin
 

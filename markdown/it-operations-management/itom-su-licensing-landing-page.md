@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-su-licensing-landing-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [IT Operations Management]
 ---
@@ -37,5 +37,5 @@ Easily see how many subscriptions for IT Operations Management applications your
 [References\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn about schedule jobs, tables, subscription form and dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-su-licensing-reference.md)
 
 </td></tr></tbody>
-</table>To know about Operational Technology Management \(OTM\) licensing and subscriptions, see [Subscriptions form for the OTM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/otm-subscriptions-form.md).
+</table>To know about Operational Technology Management \(OTM\) licensing and subscriptions, see .
 

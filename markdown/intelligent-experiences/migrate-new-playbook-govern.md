@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [playbook]
-breadcrumb: [AI Control Tower playbooks, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control Tower playbooks, Configure, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Migrate to updated AI asset onboarding playbook
@@ -141,5 +141,5 @@ If the V2 playbook is to be cloned and customized.
 7.  Review any additional confirmation prompts and select **Confirm** to complete the switch.
 
 
-**Parent Topic:**[AI Control Tower playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-playbooks-reference.md)
+**Parent Topic:**[Control Tower playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-playbooks-reference.md)
 

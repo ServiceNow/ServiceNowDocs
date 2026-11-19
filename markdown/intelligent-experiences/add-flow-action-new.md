@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-10-16"
 reading_time_minutes: 3
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add a flow action tool to an AI agent

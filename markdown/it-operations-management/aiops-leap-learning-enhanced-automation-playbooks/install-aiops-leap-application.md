@@ -7,7 +7,7 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
@@ -35,7 +35,8 @@ For more information, see [Components installed with LEAP](https://raw.githubuse
 
 **Note:** LEAP is included in ServiceNow Otto for IT Operations Management \(ITOM\)
 
-For more information, see [Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/app-now-assist-itom.md)
+-   See [Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/app-now-assist-itom.md) to get more information on applications installed with the bundle.
+-   See [ITOM/OT SU Licensing subscription types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-licensing-subscription-types.md) for details on bundle and individual subscription.
 
 ## Procedure
 

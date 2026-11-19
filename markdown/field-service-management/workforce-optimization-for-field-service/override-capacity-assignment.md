@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Capacity and Reservations Management, Set up workforce, Configure, Field Service Management]
 ---
@@ -32,17 +32,13 @@ Consider the following points:
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Capacity Management** &gt; **Capacity Assignments**.
 
-2.  Open the capacity definition.
+2.  Select the capacity definition from the list.
 
-    1.  Select a capacity definition from the list.
+3.  Open the capacity assignment.
 
-    2.  Open the capacity assignment of a group by clicking the **Effective from** date link for a capacity definition group.
+4.  In the Capacity Assignment Overrides related list, click **New**.
 
-        For example, click the **Effective from** date link in the row of **NorCal Technicians** group.
-
-3.  In the Capacity Assignment Overrides related list, click **New**.
-
-4.  On the form, fill the fields.
+5.  On the form, fill the fields.
 
 <table id="table_r5s_fcv_rtb"><thead><tr><th>
 
@@ -136,7 +132,7 @@ Rank
 Determines the sequence to pick. The highest ranked override record of the given day is preferred.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>6.  Click **Submit**.
 
 
 ## Result

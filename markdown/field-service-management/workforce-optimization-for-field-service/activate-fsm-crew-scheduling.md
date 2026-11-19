@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Crew Operations, Set up workforce, Configure, Field Service Management]
 ---
@@ -20,7 +20,7 @@ You can activate the Field Service Crew Operations plugin \(com.snc.fsm\_crew\_s
 
 Field Service Crew Operations requires the Field Service Management \[com.snc.work\_management\] plugin. For more information about activating Field Service Management, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/t_ActivateFieldServiceManagement.md). Ensure that these plugins are activated before you install Field Service Crew Operations.
 
-Role required: admin.
+Role required: admin
 
 ## About this task
 

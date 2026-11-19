@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-use-map.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-05-02"
+reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Discover your agent network with the map
@@ -31,7 +31,7 @@ Configure Veza access intelligence to show risk score and other information for 
 
 ## Procedure
 
-1.  Navigate to **AI Control Tower** &gt; **Govern** &gt; **Security**.
+1.  Navigate to **Control Tower** &gt; **Govern** &gt; **Security**.
 
 2.  On the **Overview** tab, select the agent map to go to the agent map details.
 
@@ -71,9 +71,7 @@ The user of the AI agent or model.
 The creator of the AI agent or model.
 
 </td></tr></tbody>
-</table>    **Note:** If you haven't yet authenticated with Veza, or your access token has expired, you're prompted to select **Re-Authenticate** to reconnect before you can view risk score and other access intelligence information.
-
-<table><thead><tr><th>
+</table><table><thead><tr><th>
 
 Node
 

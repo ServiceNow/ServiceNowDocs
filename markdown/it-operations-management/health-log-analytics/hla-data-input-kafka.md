@@ -8,7 +8,7 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [ServiceNow, Health Log Analytics, HLA, data input, manual, configuration]
 breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -24,6 +24,25 @@ Set up a data input for streaming log data from Apache Kafka to your ServiceNow 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
 -   Unless the MID Server and external clients are on the same network, verify that the MID Server has a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
+
+-   Consider whether to pull the log data to a single MID Server or to a MID Server cluster.
+
+    In MID Server clusters, multiple MID Servers are grouped together for failover protection. The active integration runs on a single MID Server in the cluster. If that MID Server fails, the system moves its tasks to the next available MID Server in the cluster in a configured order.
+
+    If you decide to use a MID Server cluster, verify the following:
+
+    -   The MID Server cluster includes only MID Servers that support basic authentication.
+
+        **Note:** mTLS is not supported for log ingestion.
+
+    -   Log ingestion is enabled for each MID Server in the cluster.
+
+        **Note:** If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
+
+    -   No more than the default maximum of 10 integrations will pull logs to a single MID Server.
+
+        A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 integrations running on it, even when that MID Server is down.
+
 
 Role required: evt\_mgmt\_admin
 

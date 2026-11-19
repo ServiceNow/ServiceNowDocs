@@ -1,20 +1,20 @@
 ---
 title: Create new AI case form
-description: Use the Create New AI case form in the AI Control Tower to report an AI case with the necessary details.
+description: Use the Create New AI case form in the Control Tower to report an AI case with the necessary details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-new-ai-case-form.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Create an AI case in the AI Control Tower, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Create an AI case in the Control Tower, Use, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Create new AI case form
 
-Use the Create New AI case form in the AI Control Tower to report an AI case with the necessary details.
+Use the Create New AI case form in the Control Tower to report an AI case with the necessary details.
 
 See the following table for a description of the field values.
 

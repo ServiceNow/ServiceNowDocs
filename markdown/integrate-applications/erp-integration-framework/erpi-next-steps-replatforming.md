@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-08-05"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, extract, replatform, source, app]
-breadcrumb: [Build applications and flows with ERP data, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Building applications and flows with ERP data from Zero Copy Connector for ERP, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Next steps after extracting data from your ERP system using Zero Copy Connector for ERP
@@ -43,4 +43,6 @@ Use any of the following ServiceNow builders to create apps using custom data:
 ## Using Glide to query ERP data
 
 You can also access data from the ERP system through the Glide API.
+
+**Parent Topic:**[Building applications and flows with ERP data from Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-building-with-erp-data.md)
 

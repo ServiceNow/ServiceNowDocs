@@ -1,16 +1,16 @@
 ---
-title: Analyze transcripts and sentiments for the Amazon Connect phone channel
+title: Analyze Amazon Connect transcripts and sentiments
 description: Analyze your agent's call recordings, transcripts, and sentiment reports. With this information, you can assess the call quality and train your agents to handle calls better in the future.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/analyze-transcripts-sentiments-configurable-wfo-cs.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Voice with Workforce Optimization for Customer Service, Using Channel Management, Channel Management, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
+breadcrumb: [Using Voice, Using Channel Management, Channel Management, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
-# Analyze transcripts and sentiments for the Amazon Connect phone channel
+# Analyze Amazon Connect transcripts and sentiments
 
 Analyze your agent's call recordings, transcripts, and sentiment reports. With this information, you can assess the call quality and train your agents to handle calls better in the future.
 
@@ -30,15 +30,15 @@ When an agent interacts with an external caller, the call gets recorded and tran
 
 2.  Select an interaction record to analyze transcripts and sentiments.
 
-<table id="choicetable_icf_qv5_1nb"><thead><tr><th align="left" id="d140675e88">
+<table id="choicetable_icf_qv5_1nb"><thead><tr><th align="left" id="d139641e97">
 
 To analyze call transcripts and sentiments
 
-</th><th align="left" id="d140675e91">
+</th><th align="left" id="d139641e100">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d140675e97">
+</th></tr></thead><tbody><tr><td id="d139641e106">
 
 **From Channels**
 
@@ -51,7 +51,7 @@ Do this
 3.  Select an interaction record.
 
 
-</td></tr><tr><td id="d140675e130">
+</td></tr><tr><td id="d139641e139">
 
 **From Teams**
 
@@ -64,7 +64,7 @@ Do this
 5.  Select an interaction record.
 
 
-</td></tr><tr><td id="d140675e163">
+</td></tr><tr><td id="d139641e172">
 
 **From Coaching**
 
@@ -77,7 +77,7 @@ Do this
 3.  Select an assessment.
 
 
-</td></tr><tr><td id="d140675e196">
+</td></tr><tr><td id="d139641e205">
 
 **From Lists**
 
@@ -92,9 +92,9 @@ Do this
 
     The Amazon Connect application generates the interactions and sentiment analysis of those interactions and displays them as a report in Workforce Optimization for Customer Service.
 
-    In the CRM Workspace, agents use the **Call Analysis** tab to review calls, transcripts, and sentiment analysis. The recording playback widget is available if the agent's Amazon Connect security profile is configured to enable access to call recordings.
+    In the CSM Configurable Workspace, agents use the **Call Analysis** tab to review calls, transcripts, and sentiment analysis. The recording playback widget is available if the agent's Amazon Connect security profile is configured to enable access to call recordings.
 
-4.  [Analyze transcripts and sentiments for the Amazon Connect phone channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/analyze-transcripts-sentiments-configurable-wfo-cs.md) and assign training to coach the agents.
+4.  [Analyze Amazon Connect transcripts and sentiments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/analyze-transcripts-sentiments-configurable-wfo-cs.md) and assign training to coach the agents.
 
 
 **Parent Topic:**[Using Voice with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configurable-servicenow-voice-cs.md)

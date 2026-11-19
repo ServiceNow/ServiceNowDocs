@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/reverse-tunnel-mtls.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-31"
 reading_time_minutes: 1
 keywords: [mTLS, mutual TLS, gateway authentication, Reverse Tunnel, iPKI]
 breadcrumb: [Configure, Reverse Tunnel, Workflow Data Fabric]

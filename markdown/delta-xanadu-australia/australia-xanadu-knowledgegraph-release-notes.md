@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-knowledgegraph-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
@@ -135,7 +135,7 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key using-graph-query-builder\]](https://www.servicenow.com/docs/access?context=using-graph-query-builder&family=zurich&ft:locale=en-US)**
+-   **[using graph query builder](https://www.servicenow.com/docs/access?context=using-graph-query-builder&family=zurich&ft:locale=en-US)**
 
 A visual interface to build and run Knowledge Graph queries without coding, enabling users to explore entities, relationships, and apply filters easily. It also supports natural language queries converted by LLMs for intuitive querying and offers options to save and reuse the queries later.
 
@@ -171,7 +171,7 @@ Australia
 
 </td><td>
 
--   **[\[Placeholder link text to key using-graph-query-builder\]](https://www.servicenow.com/docs/access?context=using-graph-query-builder&family=australia&ft:locale=en-US)**
+-   **[using graph query builder](https://www.servicenow.com/docs/access?context=using-graph-query-builder&family=australia&ft:locale=en-US)**
 
 A visual interface to build and run Knowledge Graph queries without coding, enabling users to explore entities, relationships, and apply filters easily. It also supports natural language queries converted by LLMs for intuitive querying and offers options to save and reuse the queries later.
 
@@ -250,7 +250,7 @@ Australia
 
 </td><td>
 
--   **[\[Placeholder link text to key access-graph-query-builder\]](https://www.servicenow.com/docs/access?context=access-graph-query-builder&family=australia&ft:locale=en-US)**
+-   **[access graph query builder](https://www.servicenow.com/docs/access?context=access-graph-query-builder&family=australia&ft:locale=en-US)**
 
 New Query Builder section on Knowledge Graph Designer landing page. You can also directly access it from the main menu.
 
@@ -628,7 +628,6 @@ Yokohama
 -   Review changes to Now Assist usage measurement.
 -   Some Now Assist skills, agents, and agentic workflows are on by default.
 -   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
--   Knowledge Graph now supports aggregate queries.
 -   Improved accuracy for Now LLM Service.
 
  [Yokohama Patch 8](https://www.servicenow.com/docs/access?context=yokohama-patch-8&family=yokohama&ft:locale=en-US)
@@ -637,8 +636,11 @@ Yokohama
 
  Yokohama Patch 6
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Knowledge Graph in addition to Now LLM Service and Azure OpenAI
--   Select your preferred large language model \(LLM\) provider for Now Assist platform. Apart from Now LLM Service, the platform supports Azure OpenAI GPT-4.1 and GPT-4.1 mini, Google Gemini 2.0 Flash and 2.5 Pro, and AWS Anthropic Claude 3.7 Sonnet LLM providers with ServiceNow® third-party model strategy.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Knowledge Graph in addition to Now LLM Service and Azure OpenAI
+-   Select your preferred large language model \(LLM\) provider for Now Assist platform. Apart from Now LLM Service, the platform supports the following LLM providers with with ServiceNow® third-party model strategy:
+    -   Azure OpenAI GPT-4.1 and GPT-4.1 mini
+    -   Google Gemini 2.0 Flash and 2.5 Pro
+    -   AWS Anthropic Claude 3.7 Sonnet LLM providers
 -   Supports nodes from parent and grandparent nodes from the hierarchy.
 -   Supports CMDB queries in Now Assist panel.
 

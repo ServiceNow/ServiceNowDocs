@@ -22,14 +22,14 @@ These ranking definitions enable scrum users with the proper roles to rank relat
 -   Release stories: Release \[rm\_release\] table
 -   Sprint stories: Sprint \[rm\_sprint\] table
 
-Users can rank stories in the scrum planning board by priority. Story lists ranked in the planning board appear in the new order in product, release, and sprint forms. Stories ranked in one of these scrum forms changes the order in the planning board.
+Users can rank stories in the scrum planning board by priority. Story lists ranked in the planning board appear in the new order in product, release, and sprint forms. Ranking stories in one of these scrum forms changes the order in the planning board.
 
 Story points for each story are listed in a ranked view, which is useful for prioritizing stories.
 
 \[Omitted image "RankingStoryPoints.png"\] Alt text: Ranking story points
 
 -   **[Rank stories in a related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-administration/t_RankingStories.md)**  
-The Context Ranking feature enables all scrum users to manually sort a related list of stories by priority.
+Sort a related list of stories by priority with context ranking, so the planning board shows the same order.
 
 **Parent Topic:**[Context ranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-administration/r_ContextRanking.md)
 

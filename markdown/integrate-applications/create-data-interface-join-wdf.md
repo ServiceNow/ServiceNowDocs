@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-data-interface-join-wdf.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-31"
 reading_time_minutes: 4
 breadcrumb: [Managing data interfaces, Data Products, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Create a governed data interface that combines rows from two or more source tabl
 
 ## Before you begin
 
-Role required: data\_product\_admin, delegated\_developer, df\_data\_steward, and delegatedadmin \(scope admin\)
+Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, and delegatedadmin \(scope admin\)
 
 ## Procedure
 

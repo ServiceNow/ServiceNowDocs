@@ -7,7 +7,7 @@ release: australia
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Set up escalation policies for your team in SRM, Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -24,9 +24,9 @@ Role required: srm\_manager or srm\_admin
 
 ## About this task
 
-This procedure shows how to create escalation triggers in SRM. If your organization manages on-call scheduling using IT Service Management \(ITSM\), you can also use ITSM On-Call Scheduling to define escalation triggers. See [Create an escalation trigger rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-trigger-rule-oncall.md) for more information. While that procedure lists ITSM roles, SRM users only need the srm\_manager or srm\_admin role.
+This procedure shows how to create escalation triggers in SRM. If your organization manages on-call scheduling using IT Service Management \(ITSM\), you can also use ITSM On-Call Scheduling to define escalation triggers. See  for more information. While that procedure lists ITSM roles, SRM users only need the srm\_manager or srm\_admin role.
 
-For a broader overview of escalation processes in ITSM, see [Designing an escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/designing-escalation-process-oncall.md).
+For a broader overview of escalation processes in ITSM, see .
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Authentication policy contexts, Adaptive authentication, Authentication, Access Management]
 ---
@@ -54,7 +54,7 @@ Default Policy
 
 </td><td>
 
-Default behavior of this context when evaluating the policy. Available options:-   **Allow Policy**
+Defines the default behavior of this context when evaluating the policy. Select from the following options.-   **Allow Policy**
 
 Denies access to all users by default, and only allows access when the conditions the policy selected in the **Allow Policy** field evaluate to true.
 
@@ -69,7 +69,7 @@ Allow Policy
 
 </td><td>
 
-The policy that this context uses. This field appears only when the **Default Policy** field is set to **Allow Policy**.
+The policy used for this context uses. This field appears only when the **Default Policy** field is set to **Allow Policy**.
 
 </td></tr><tr><td>
 
@@ -77,10 +77,14 @@ Deny Policy
 
 </td><td>
 
-The policy that this context uses. This field appears only when the **Default Policy** field is set to **Deny Policy**.
+The policy used for this context uses. This field appears only when the **Default Policy** field is set to **Deny Policy**.
 
 </td></tr></tbody>
 </table>**Note:**
+
+Allow Policy denies access to all users by default. Deny Policy allows access to all users by default. After an upgrade to Zurich, check this field. See [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/changes-mfa-enforcement.md).
+
+**Note:**
 
 You can only use the IP Filter, Trusted Mobile App Filter, and Location Filter criteria in the Pre Authentication Policy Context.
 
@@ -93,7 +97,7 @@ This example shows a pre authentication policy context record configured to deny
 **Note:**
 
 -   Only IP-Based filters, Location based filters, or Trusted Mobile App filter can be used in the pre authentication policy context.
--   Whenever there's a pre authentication set with non absolute conditions or filter criteria, you're displayed with an error message stating that the policy or context can’t be configured. Validate all the inputs for the pre authentication context before executing it to the instance.
+-   Whenever there's a pre authentication set with non absolute conditions or filter criteria, you're displayed with an error message stating that the policy or context can’t be configured. It's recommended to validate all the inputs for the pre authentication context before executing it to the instance.
 
     For example: If the administrator is outside the trusted network and configures pre authentication context with IP ranges, if the IP ranges are mismatched with the current session of the admin, the admin is blocked.
 

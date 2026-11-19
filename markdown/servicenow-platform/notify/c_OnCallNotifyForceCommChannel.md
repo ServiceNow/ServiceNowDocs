@@ -7,7 +7,7 @@ release: australia
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using Notify with On-Call Scheduling, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,7 +21,7 @@ If **Force communication channel** is specified in the **Escalation settings** f
 For example, if the preferred device is SMS and the on-call member does not have an SMS device defined, the user is not contacted even if the user has an email address. When forcing a communication channel on an escalation level does not succeed, no further communication attempts are made. The fact that the user could not be reached is logged.
 
 -   **[On-Call Assign by Acknowledgement workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_OnCallAssignByAckWorkflow.md)**  
-The **On-Call: Assign by Acknowledgement** workflow is provided with Notify.
+Use the **On-Call: Assign by Acknowledgement** workflow to notify on-call users by SMS, email, or voice and ask them to accept or reject an assignment.
 
 **Parent Topic:**[Using Notify with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NotifyWithOnCall.md)
 
@@ -34,5 +34,5 @@ The **On-Call: Assign by Acknowledgement** workflow is provided with Notify.
 
 [Key differences between on-call scheduling with NotifyNow and with Notify]()
 
-[bundle-platadm.c_SubscriptionBasedNotifications]
+[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md)
 

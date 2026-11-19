@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -209,7 +209,7 @@ Number of total active rights per SQL Server.
 </td></tr></tbody>
 </table>## Office 365 &amp; Adobe Cloud dashboard
 
-Only Microsoft 365 software products that are recognized as subscription software are shown. [Microsoft Office 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/set-up-microsoft-office-365.md) must be set up to view compliance information.
+Only Microsoft 365 software products that are recognized as subscription software are shown. [Microsoft Office 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/set-up-microsoft-office-365.md) must be set up to view compliance information.
 
 \[Omitted image "publisher-dashboard-o365.png"\] Alt text: Office 365 &amp; Adobe Cloud dashboard.
 

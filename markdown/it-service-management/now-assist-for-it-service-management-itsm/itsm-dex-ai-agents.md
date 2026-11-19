@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -27,7 +27,7 @@ Use the Digital End-User Experience \(DEX\) agentic workflow to diagnose and res
 -   Before you begin, review these [Important considerations for using ServiceNow Otto for IT Service Management \(ITSM\) agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/important-considerations-itsm-agentic-ai.md).
 -   For all available ITSM agentic AI applications, see [Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md).
 
-The DEX issue diagnosis and resolution agentic workflow enables service desk agents to diagnose issues based on real-time insights into device and application health. Agents can resolve these issues using targeted resolution plans directly from the workspace.
+The DEX issue diagnosis and resolution agentic workflow enables service desk agents to diagnose issues based on real-time insights into device and application health and resolve these issues using targeted resolution plans directly from the workspace.
 
 The agentic workflow uses two AI agents to conduct root cause analysis for incidents and provide issue resolution plans.
 

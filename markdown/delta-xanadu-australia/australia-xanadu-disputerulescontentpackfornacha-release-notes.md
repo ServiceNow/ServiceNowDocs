@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-disputerulescontentpackfornacha-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -288,7 +288,7 @@ Zurich
 
 -   **Activation information**
 
-Install Dispute Rules Content Pack for Nacha by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Dispute Rules Content Pack for Nacha by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Dispute Rules Content Pack for Nacha is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -519,7 +519,7 @@ Zurich
 -   Run chargeback eligibility rules and derive ACH dispute categories and reason codes based on Nacha guidelines.
 -   Determine chargeback eligibility using an integrated KB article that contains rules and conditions.
 
- See [\[Placeholder link text to key bundle-finso.dispute-rules-content-pack-nacha-landing-page\]](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-nacha-landing-page&family=zurich&ft:locale=en-US) for more information.
+ See [dispute rules content pack nacha landing page](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-nacha-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

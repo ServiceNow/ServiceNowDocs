@@ -40,7 +40,7 @@ A field grid is a grid of independent fields in a format of rows and columns. It
 
 Each field can be referenced and manipulated by any rule and must be independently defined. For example, a 3 x 3 row requires 9 fields.
 
-For information about how to set up a field grid using the Matrix Loader, see [Layouts: Field grid setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layouts-field-grid-setup.md).
+For information about how to set up a field grid using the Matrix Loader, see [Layouts: Field grid setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 ## Indexed set
 

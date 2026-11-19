@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-06-01"
 reading_time_minutes: 2
-breadcrumb: [Contract Management Pro AI agents, Contract Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Contract Management Pro AI agents, Contract Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Contract repository AI agent

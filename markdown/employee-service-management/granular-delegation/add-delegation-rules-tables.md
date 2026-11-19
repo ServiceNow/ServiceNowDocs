@@ -7,7 +7,7 @@ release: australia
 product: Granular Delegation
 classification: granular-delegation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Setting up Granular Delegation, Granular Delegation, Employee Service Management]
 ---
@@ -28,7 +28,7 @@ Role required: delegation\_admin
 
 2.  Select **New**.
 
-    Verify the Application scope is set to the application for which you want to create delegation rules. Only tables belonging to that application appear in the **Table** list.
+    **Note:** Ensure you are in the correct scope you want to create delegation rules for. Only tables for the scope you are in appear.
 
 3.  From the **Table** list, select a task table from your current scope that supports delegation.
 

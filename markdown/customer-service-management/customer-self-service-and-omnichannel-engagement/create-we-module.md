@@ -1,24 +1,28 @@
 ---
 title: Create a module
-description: Create a module to manage component instances used in a website. You can either create a module or use a prebuilt module and edit it according to requirement.
+description: Create a module to manage the component instances on your website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/create-we-module.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure module in Web Embeddables, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Create a module
 
-Create a module to manage component instances used in a website. You can either create a module or use a prebuilt module and edit it according to requirement.
+Create a module to manage the component instances on your website.
 
 ## Before you begin
 
 Role required: sn\_embeddable\_core.emb\_admin
+
+## About this task
+
+**Note:** You can use a prebuilt module and edit it instead of creating a new one
 
 ## Procedure
 

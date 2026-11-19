@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/som-order-fulfillment-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-14"
 reading_time_minutes: 2
-breadcrumb: [Order Management AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Order Management AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Order fulfillment AI agent
@@ -69,7 +69,7 @@ Fetch domain order record details.
 
 Find available fulfillment tasks for given specification
 
-Find fulfillment tasks from similar specification using RAG
+Find historic fulfillment tasks
 
 Update trigger task state.
 
@@ -82,7 +82,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-sn\_prd\_pm.product\_catalog\_admin, sn\_somt\_gen\_ai.sales\_and\_order\_fulfillment\_ai\_agent
+sn\_somt\_gen\_ai.sales\_and\_order\_fulfillment\_ai\_agent
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Channels
 
 </td><td>
 
-Configure an assistant for Virtual Agent or ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+Not defined.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Used in agentic workflows
 
 </td><td>
 
-Design Telecom Order Fulfilment Template
+Not applicable.
 
 </td></tr></tbody>
 </table>Learn more about Sales Customer Relationship Management at [Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md).

@@ -1,36 +1,36 @@
 ---
 title: Synchronizing parent and child incidents
-description: The state of a child incident follows the state of its parent incident for most incident states, which keeps related incidents aligned without manual updates.
+description: The parent and the child incidents are synchronized such that the state of a child incident changes depending on the state of the parent incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/parent-child-state-sync.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
 
 # Synchronizing parent and child incidents
 
-The state of a child incident follows the state of its parent incident for most incident states, which keeps related incidents aligned without manual updates.
+The parent and the child incidents are synchronized such that the state of a child incident changes depending on the state of the parent incident.
 
 <table id="table_iqz_kmm_qbb"><thead><tr><th>
 
-Parent state
+Parent State
 
 </th><th>
 
-On hold reason \(parent\)
+On Hold Reason \(Parent\)
 
 </th><th>
 
-Child state
+Child State
 
 </th><th>
 
-On hold reason \(child\)
+On Hold Reason \(Child\)
 
 </th></tr></thead><tbody><tr><td>
 
@@ -38,7 +38,7 @@ In Progress
 
 </td><td>
 
-N/A
+NA
 
 </td><td>
 
@@ -46,7 +46,7 @@ In Progress
 
 </td><td>
 
-N/A
+NA
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ On Hold
 
 </td><td>
 
-Awaiting Change, Awaiting Problem, or Awaiting Vendor
+Awaiting Change/Awaiting Problem/Awaiting Vendor
 
 </td><td>
 
@@ -70,7 +70,7 @@ On Hold
 
 </td><td>
 
-Awaiting Caller
+Awaiting caller
 
 </td><td>
 
@@ -86,15 +86,15 @@ Resolved
 
 </td><td>
 
-N/A
+NA
 
 </td><td>
 
-Resolved.The Activity log in the child incident form is updated with the resolution notes copied from the parent incident.
+Resolved.The Activity log in the child incident form is updated with the resolution notes copied from the parent Incident.
 
 </td><td>
 
-N/A
+NA
 
 </td></tr><tr><td>
 
@@ -102,15 +102,15 @@ Closed
 
 </td><td>
 
-N/A
+NA
 
 </td><td>
 
-Not closed.Child incidents must be closed by the caller or by the system based on the auto-closure property.
+Not closed.Child incidents must always be closed by the caller or by the system based on the auto-closure property.
 
 </td><td>
 
-N/A
+NA
 
 </td></tr><tr><td>
 
@@ -118,15 +118,15 @@ Canceled
 
 </td><td>
 
-N/A
+NA
 
 </td><td>
 
-N/A
+NA
 
 </td><td>
 
-N/A
+NA
 
 </td></tr></tbody>
 </table>**Note:**
@@ -137,4 +137,6 @@ When an incident has a child incident, the following actions take place:
 
 -   If an ITIL user reopens the parent incident, both the parent and child incidents reopen. Both the parent and the child incident state is set to **In Progress**.
 -   If an employee self-service \(ESS\) user reopens the parent incident, the parent incident state is set to **In Progress** but the child incident is not reopened.
+
+The parent-child incident state synchronization is applicable only if the Incident Management Best Practice - Kingston plugin \(com.snc.best\_practice.incident.kingston\) is activated on the instance. The **Sync Child Incident State** business rule that available as part of the plugin helps to synchronize the state of the parent and child incident.
 

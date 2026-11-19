@@ -1,20 +1,20 @@
 ---
 title: Navigate portfolio types in Digital Portfolio Management
-description: Navigate three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) application — service, business application, and service instance. The way to create a portfolio depends on the type. As of May 2025, Enterprise portfolios are created directly in DPM. Business application and Service instance portfolios are created using the enterprise portfolios tables in the DPM module in UI16.
+description: Navigate three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) application — service, business applications, and service instance. The way to create a portfolio depends on the type. As of May 2025, Enterprise portfolios are created directly in DPM. Business application and Service instance portfolios are created using the enterprise portfolios tables in the DPM module in UI16.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-10-22"
+last_updated: "2026-03-12"
 reading_time_minutes: 9
 breadcrumb: [Enterprise portfolios, Work with portfolios, Digital Portfolio Management, IT Service Management]
 ---
 
 # Navigate portfolio types in Digital Portfolio Management
 
-Navigate three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) application — service, business application, and service instance. The way to create a portfolio depends on the type. As of May 2025, Enterprise portfolios are created directly in DPM. Business application and Service instance portfolios are created using the enterprise portfolios tables in the DPM module in UI16.
+Navigate three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) application — service, business applications, and service instance. The way to create a portfolio depends on the type. As of May 2025, Enterprise portfolios are created directly in DPM. Business application and Service instance portfolios are created using the enterprise portfolios tables in the DPM module in UI16.
 
 Enterprise portfolios are structured in a nesting content tree format so you can easily navigate each type of enterprise portfolio. Access Enterprise portfolios using the Enterprise portfolio icon \(\[Omitted image "enterprise-portfolio-gray.png"\] Alt text: Enterprise portfolios icon.\). For more information about accessing enterprise portfolios, see [Navigate enterprise portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-enterprise-portfolio.md).
 

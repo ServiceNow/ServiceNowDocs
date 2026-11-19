@@ -40,7 +40,7 @@ These instructions create a role-based MAP for the matched user. A role-based MA
 
 8.  Fill out the rest of the form accordingly.
 
-    \[Omitted image "image.fe-user-map"\] Alt text: User Module Access Policy Example
+    \[Omitted image "fe-user-map.png"\] Alt text: User Module Access Policy Example
 
 9.  Select **Save**.
 

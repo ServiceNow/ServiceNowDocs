@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/test-ai-asset-new.html
 release: australia
 topic_type: task
-last_updated: "2026-10-16"
+last_updated: "2026-11-13"
 reading_time_minutes: 4
-breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
 
 # Manually test an agentic AI asset
@@ -82,4 +82,8 @@ A run that reaches the end without an error means the agent executed and its too
 You can restart the testing process at any time by selecting **Run test**.
 
 A test run stays open until you end it. While a test is running, any other tests or evaluations are blocked. Close the test panel and start a new run to clear the state, and check the **Activity** section if you're unsure whether an earlier run is still open.
+
+## What to do next
+
+After testing and activating your agentic AI asset, test access in the Virtual Agent or ServiceNow Otto channels you selected.
 

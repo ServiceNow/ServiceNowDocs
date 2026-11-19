@@ -34,7 +34,7 @@ Starting with Australia, you can find both Core UI dashboards and Platform Analy
 
 1.  Follow one of these paths.
 
-<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d207588e160">
+<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d204812e160">
 
 **Create a report**
 
@@ -42,7 +42,7 @@ Starting with Australia, you can find both Core UI dashboards and Platform Analy
 
 Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **Create data visualization**. In the modal, select **Core UI**. For more information, see [Create Core UI reports on an upgraded instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-core-ui-reports-on-migrated-instance.md).
 
-</td></tr><tr><td id="d207588e206">
+</td></tr><tr><td id="d204812e206">
 
 **Edit an existing report**
 
@@ -50,7 +50,7 @@ Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Vis
 
 **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select a report with the UI version **Core**. Edit the report according to its type. For more information, see [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md).
 
-</td></tr><tr><td id="d207588e242">
+</td></tr><tr><td id="d204812e242">
 
 **Create a report on a Core UI dashboard**
 
@@ -58,7 +58,7 @@ Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Vis
 
 Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**, select the Core UI dashboard where you want to add the report, and select the Add Widgets icon \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\).
 
-</td></tr><tr><td id="d207588e275">
+</td></tr><tr><td id="d204812e275">
 
 **Edit a report on a Core UI dashboard**
 
@@ -97,7 +97,7 @@ NLQ also must be enabled for use with the Report Designer, in [Core UI Reporting
 
 Analytics Q&amp;A is not available when using Microsoft Internet Explorer.
 
-Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on. To create Core UI reports in the Brazil release, the system property **com.snc.par.coreui.report\_create.enabled** must be set to true.
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on. To create Core UI reports in the Australia release, the system property **com.snc.par.coreui.report\_create.enabled** must be set to true.
 
 ### About this task
 
@@ -137,7 +137,7 @@ When you edit a form, you can also choose to save, share, run, delete, or view m
 
 **Note:**
 
-On net new Brazil instances and instances migrated to Platform Analytics experience, Reporting functionality is replaced with Data Visualizations. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md).
+On net new Australia instances and instances migrated to Platform Analytics experience, Reporting functionality is replaced with Data Visualizations. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md).
 
 All actions are available from the upper right side of the form, from the **Save** and **Share** lists and the **Info**, **Delete**, and **Run** buttons. Available report options vary depending on the role of the user working with the report.
 

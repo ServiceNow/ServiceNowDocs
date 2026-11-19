@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-playbooks.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-18"
+last_updated: "2026-11-10"
 reading_time_minutes: 2
 keywords: [playbook, playbook authoring, build agent playbook, playbook designer, fluent playbook, playbook launcher, runtime permissions, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: developer
-breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Playbook authoring with Build Agent and Autonomous Engineer
@@ -40,7 +40,6 @@ From the Build Agent or Autonomous Engineer chat panel, you can:
 -   Configure golden path settings and define the ideal path through decision nodes.
 -   Author public playbooks and playbook variants
 -   Configure Go back to activity definitions
--   Configure golden path settings
 -   Use Automation plan pills in playbook activities
 -   Generate playbook scaffolding from an uploaded image
 

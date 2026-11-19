@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/platform-administrati
 release: australia
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [Definitions tab, Configuration, Definitions, Configuration menu, Exclusions, Preservers, Clone profiles, Multi-instance view, Cleanup scripts, Clone settings, Clone instances]
 breadcrumb: [Explore, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -35,6 +35,10 @@ The Exclusions page lists the tables that aren't copied during an instance clone
 To view child tables of a table, you can go to the following link and input their table: **\[instance\].service-now.com/now/nav/ui/classic/params/target/generic\_hierarchy\_erd.do**.
 
 By default, the system excludes tables for logging, auditing, notifications, workflow contexts, and license usage. To configure additional exclusions, see [Exclude a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_ExcludeATableFromCloning.md).
+
+When you exclude a table, the clone also excludes related records, such as attachments, to prevent orphaned records on the target instance.
+
+**Warning:** If the source or target instance is on MariaDB, the clone does not automatically exclude related records when a table is excluded. Verify that related records are handled separately to avoid orphaned records on the target instance.
 
 For information on guidelines when adding exclusions, see [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/clone-exclusions-guidelines.md).
 
@@ -89,7 +93,7 @@ All cleanup scripts run in the global scope irrespective of the scope in which y
 
 **Note:** Verify that any custom scripts have error-handling logic. By default, if one script encounters an error, the rest of the ordered scripts don't execute. Starting with the Australia Patch 5 release, you can view a link to cleanup script status. Any changes to cleanup scripts, which are defined on the source, must happen before the Restore phase of a clone to be processed within that clone request.
 
-To create a cleanup script, see [Create cleanup scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-cleanup-script-latest.md).
+To create a cleanup script, see .
 
 ## Clone Profiles
 

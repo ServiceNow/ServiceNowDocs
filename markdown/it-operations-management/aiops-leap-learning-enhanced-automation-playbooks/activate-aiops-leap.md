@@ -7,7 +7,7 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
@@ -21,6 +21,8 @@ Activate the LEAP skill after installing the application to assemble and categor
 Role required: System admin or LEAP admin
 
 and the application scope must be LEAP.
+
+**Note:** If you require a different LLM, change it before activating LEAP. If you change the LLM after activation, you must reapply the LEAP skills. See [Change LEAP large language model \(LLM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/change-leap-large-languauge-model-llm.md).
 
 ## Procedure
 

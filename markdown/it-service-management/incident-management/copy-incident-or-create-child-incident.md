@@ -7,7 +7,7 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
@@ -18,15 +18,14 @@ Copy an incident or create a child incident without manually entering the value 
 
 ## Before you begin
 
-The **Enable copy incident feature** \(**com.snc.incident.copy.enable**\) and the **Enable create child incident feature** \(**com.snc.incident.create.child.enable**\) incident properties must be selected in **Incident** &gt; **Incident Properties**.
+-   Role required: itil, sn\_incident\_write, or admin
+-   Select the **Enable copy incident feature** \(**com.snc.incident.copy.enable**\) and the **Enable create child incident feature** \(**com.snc.incident.create.child.enable**\) incident properties at **Incident** &gt; **Incident Properties**.
 
-Role required: itil, sn\_incident\_write, or admin
-
-**Note:** An itil user can copy or create a child of any incident whereas a user without any role can copy only incidents that they created.
+**Note:** An itil user can copy or create a child of any incident whereas a user without any role can copy only the incident which the user has created.
 
 ## About this task
 
-The Copy Incident functionality copies the details of an existing incident record to a new incident record. The Create Child Incident functionality copies the details of the parent incident and links the new incident to the parent incident. You can enable the options and add or remove fields or related lists using the copy incident and create child incident properties.
+The Copy Incident functionality copies the details of an existing incident record to a new incident record. The Create Child Incident functionality copies the details of the parent incident and links the new incident to the parent incident. You can enable the options as well as add or remove fields or related list using the copy incident and create child incident properties.
 
 ## Procedure
 
@@ -36,38 +35,38 @@ The Copy Incident functionality copies the details of an existing incident recor
 
 2.  Open an existing incident that you want to copy or from which you want to create a child incident.
 
-3.  Copy the incident or create a child incident.
+3.  Perform one of the following actions.
 
-<table id="choicetable_rsq_41q_23b"><thead><tr><th align="left" id="d234788e134">
+<table id="choicetable_rsq_41q_23b"><thead><tr><th align="left" id="d230400e138">
 
 Option
 
-</th><th align="left" id="d234788e137">
+</th><th align="left" id="d230400e141">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d234788e143">
+</th></tr></thead><tbody><tr><td id="d230400e147">
 
 **Copy an incident**
 
 </td><td>
 
-Select the Additional actions icon \[Omitted image "context-menu.png"\] Alt text: and then select **Copy Incident**.**Note:** After the incident is copied, the **Work notes** field of the new incident is updated with the following message: `Created from a similar incident: INCXXXXXX`.
+Click the Additional actions icon \[Omitted image "context-menu.png"\] Alt text: The Additional actions icon and then click **Copy Incident**.**Note:** After the incident is copied, the **Work notes** field of the new incident is updated with the following message: `Created from a similar incident: INCXXXXXX`.
 
-</td></tr><tr><td id="d234788e169">
+</td></tr><tr><td id="d230400e174">
 
 **Create a child incident**
 
 </td><td>
 
-Select the Additional actions icon \[Omitted image "context-menu.png"\] Alt text: and then select **Create Child Incident**.**Note:** Ensure you have added the **Parent Incident** field and the **Incident -&gt; Parent Incident** related list to the incident form. The incident from which you create the child incident becomes the parent incident.
+Click the Additional actions icon \[Omitted image "context-menu.png"\] Alt text: The Additional actions icon and then click **Create Child Incident**.**Note:** Ensure you have added the **Parent Incident** field and the **Incident -&gt; Parent Incident** related list to the incident form. The incident, from which you have created the child incident, is considered as the parent incident.
 
 </td></tr></tbody>
-</table>4.  Fill in the remaining fields as needed.
+</table>4.  Fill out the other fields, as required.
 
-5.  Select **Submit**.
+5.  Click **Submit**.
 
-    The following table lists the default fields and related lists that are copied from the parent incident.
+    The default fields and related lists that are copied from the parent incident are:
 
 <table id="table_qjs_htt_23b"><thead><tr><th>
 
@@ -75,7 +74,7 @@ From where
 
 </th><th>
 
-What is copied
+What are copied
 
 </th></tr></thead><tbody><tr><td>
 

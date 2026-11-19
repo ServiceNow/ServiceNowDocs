@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/create-synthetic-monitor.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-18"
 reading_time_minutes: 3
 breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
@@ -21,7 +21,7 @@ Create or edit a synthetic monitor to test the availability and performance of y
 
 **Note:** If you're monitoring an API discovered through API Insights or discovery patterns, see [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-synthetic-monitor-for-discovered-api.md).
 
-**Note:** For information about how to bulk create synthetic monitors, see the [Synthetic Monitoring Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/synth-monitor_dev-guide.md).
+**Note:** For information about how to bulk create synthetic monitors, see the .
 
 Role required: sn\_sow\_synthetics.synthetics\_editor or sn\_sow\_synthetics.synthetics\_admin
 
@@ -70,7 +70,7 @@ Related service CI
 
 </td><td>
 
-Application service CI or CIs related to the HTTP endpoint. You can select one or more application services. Saving the monitor replaces the endpoint's application-service relationships with exactly what's selected here — deselecting a service removes its CI relationship..
+Application service CI or CIs related to the HTTP endpoint. You can select one or more application services. Saving the monitor replaces the endpoint's application-service relationships with exactly what's selected here — deselecting a service removes its CI relationship.
 
 </td></tr><tr><td>
 

@@ -1,20 +1,20 @@
 ---
 title: Public URLs
-description: On-premise customers should ensure that the URLs are accessible from the Internet for the Notify-Twilio driver to work correctly.
+description: Make specific instance URLs accessible from the Internet without authentication so the Twilio server can reach the Notify-Twilio drivers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/public-urls.html
 release: australia
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Notify reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Public URLs
 
-On-premise customers should ensure that the URLs are accessible from the Internet for the Notify-Twilio driver to work correctly.
+Make specific instance URLs accessible from the Internet without authentication so the Twilio server can reach the Notify-Twilio drivers.
 
 The Notify-Twilio drivers \(both new and old\) require that specific URLs on the instance be accessible from the Internet by the Twilio server without authentication. If the instance is within a private network, you need to either port forward or set up a reverse proxy.
 

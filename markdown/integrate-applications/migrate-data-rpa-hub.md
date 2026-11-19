@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/migrate-data-rpa-hub.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 keywords: [bot process configuration update set rpa hub, update set bot process configuration rpa hub]
 breadcrumb: [Migrate data, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]

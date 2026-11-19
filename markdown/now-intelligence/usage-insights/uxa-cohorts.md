@@ -1,6 +1,6 @@
 ---
 title: Cohort analysis in Usage Insights
-description: A cohort is a group of users separated from other users by similar traits or actions. Cohorts enable you to group users together based on common behavior to analyze how many users complete certain predetermined actions in a given time frame.
+description: A cohort is a group of users separated from other users by similar traits or actions. Cohorts enable you to group users based on common behavior to analyze how many users complete certain predetermined actions in a given time frame.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/usage-insights/uxa-cohorts.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 
 # Cohort analysis in Usage Insights
 
-A cohort is a group of users separated from other users by similar traits or actions. Cohorts enable you to group users together based on common behavior to analyze how many users complete certain predetermined actions in a given time frame.
+A cohort is a group of users separated from other users by similar traits or actions. Cohorts enable you to group users based on common behavior to analyze how many users complete certain predetermined actions in a given time frame.
 
 Cohort analysis reports provide you with information on how one in-app action relates to another. You can see measurements of how much time passes between a sequence of actions, and trends in user behavior and engagement over periods of time.
 

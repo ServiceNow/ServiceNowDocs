@@ -1,18 +1,18 @@
 ---
-title: Activate Continuous Authentication
-description: To activate the Continuous Authentication feature on your instance, install the Zero Trust - Continuous Authentication \(com.snc.zero\_trust\_continuous\_authentication\) plugin.
+title: Activating Continuous Authentication
+description: For activating the Continuous Authentication feature on your instance, install the Zero Trust - Continuous Authentication \(com.snc.zero\_trust\_continuous\_authentication\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/activate-continuous-authentication.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Continuous Authentication \(CA\), Zero Trust Access, Access Management]
 ---
 
-# Activate Continuous Authentication
+# Activating Continuous Authentication
 
-To activate the Continuous Authentication feature on your instance, install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) plugin.
+For activating the Continuous Authentication feature on your instance, install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) plugin.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin
 
 This plugin enables security administrators to define security policies that require step-up authentication \(MFA\) or re-authentication \(SSO\) within a logged-in session, based on the data the user is accessing and the activities they are performing.
 
-The **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) must be installed to use CA, which requires a license.
+You must install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) for opting CA which requires a license.
 
 ## Procedure
 
@@ -42,7 +42,7 @@ The **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_
 
 [Pre-work for Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/pre-work-ca.md)
 
-[Configure Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-ca.md)
+[Configuring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-ca.md)
 
-[High assurance session with continuous authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/high-assurance-ca.md)
+[High Assurance session with Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/high-assurance-ca.md)
 

@@ -8,7 +8,7 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-10-22"
-reading_time_minutes: 2
+reading_time_minutes: 4
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, connect, remote, table, remote table, model, extract, extraction table]
 breadcrumb: [Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -74,4 +74,20 @@ ERP extraction tables
 Extraction tables use an extract, transform, load \(ETL\) process to extract large amounts of data from the ERP system at regular intervals, and then transform and save it to a Glide table.For more information, see [Extracting and transforming ERP data with Zero Copy Connector for ERP extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md).
 
 </td></tr></tbody>
-</table>
+</table>-   **[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)**  
+Models in Zero Copy Connector for ERP \(Enterprise Resource Planning\) function as templates for sets of tables that give you access to ERP data. Use model management to build read, update, and create operations that access the ERP system. The operations have specified inputs and outputs to map fields for use on the ServiceNow AI Platform.
+-   **[Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md)**  
+Add an operation to an ERP model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
+-   **[Managing Zero Copy Connector for ERP model inputs, outputs, and field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-manage-models.md)**  
+Define the inputs and outputs of a Zero Copy Connector for ERP model and map its fields, so that model operations pass the right ERP data to and from the ServiceNow AI Platform.
+-   **[Retrieving data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-retrieving-data.md)**  
+To retrieve data from an Enterprise Resource Planning \(ERP\) system, use remote tables or extraction tables.
+-   **[Accelerating SAP integrations with Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)**  
+Zero Copy Connector for ERP content packs provide predefined SAP models and process extensions that you can copy and customize, so that you can build SAP integrations without deep SAP expertise.
+-   **[Zero Copy Connector for ERP troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-troubleshooting.md)**  
+Zero Copy Connector for ERP provides several ways to troubleshoot issues.
+-   **[Building applications and flows with ERP data from Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-building-with-erp-data.md)**  
+After you create Zero Copy Connector for ERP models, use the ERP data they extract, such as SAP data, to build applications in ServiceNow Studio, flows in Workflow Studio, and playbooks.
+
+**Parent Topic:**[Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-integration-overview.md)
+

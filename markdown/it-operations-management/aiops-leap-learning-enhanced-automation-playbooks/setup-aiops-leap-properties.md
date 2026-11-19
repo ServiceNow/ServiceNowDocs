@@ -20,7 +20,7 @@ Configure LEAP properties to estimate cost and time savings calculations for you
 
 Role required: LEAP admin
 
-Each knowledge base you plan to use in LEAP must have the correct Can Contribute permissions configured before you set up knowledge base routing. See [Knowledge base permissions for LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configure-knowledge-base-user-collections.md).
+Each knowledge base you plan to use in LEAP must have the correct Can Contribute permissions configured before you set up knowledge base routing. See [Configure knowledge base permissions for LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configure-knowledge-base-user-collections.md).
 
 ## About this task
 
@@ -30,23 +30,27 @@ Settings include three configuration areas: cost and time savings estimation, AI
 
 ## Procedure
 
-1.  Select **Configure settings**.
+1.  Open the settings page.
 
+    -   If opening settings for the first time, select **Configure settings** on the LEAP home page.
+    -   If settings have been configured before, select **Settings** in the navigation panel.
 2.  On the settings page, choose one of the following options:
 
     -   Fresh Install
-        1.  Select **Configure settings**.
+        1.  Select **Configure settings**.\[Omitted image "image.leap-settings"\] Alt text: Configure LEAP settings
         2.  Review the default values for each property.
+
+            For details on each field, see [LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md).
+
         3.  Select **Save**.
 
             **Note:** LEAP recommends using default values initially to view and understand the cost and time savings estimates.
 
     -   Upgrade
         1.  Select **Configure settings**.
-        2.  Review the default values for each property.
+        2.  Review the default values for each property. For details on each field, see [LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md).
         3.  Modify values as needed.
         4.  Select **Save**.
-3.  You are redirected to the LEAP landing page. For details on each field, see [LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md)
-4.  [Activate LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/activate-aiops-leap.md).
+3.  [Activate LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/activate-aiops-leap.md).
 
 

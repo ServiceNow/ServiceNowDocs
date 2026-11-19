@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_AvailableSystemProperties.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 146
 breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow 
 
 Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table. Sometimes, the property does not exist in a base instance, but can be added if you change the value.
 
-**Note:** The Instance Security Hardening Settings content contains detailed descriptions, and compliance values, for the security-related system properties and plugins in the ServiceNow AI Platform. To learn more about each of these properties, see [Instance Security Hardening Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-hardening-settings.md).
+**Note:** The Instance Security Hardening Settings content contains detailed descriptions, and compliance values, for the security-related system properties and plugins in the ServiceNow AI Platform. To learn more about each of these properties, see Instance Security Hardening Settings.
 
 -   **cdu.record.watcher.timeout**
 
@@ -1141,7 +1141,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.db.loguser**
 
-    Display \(**true**\) or suppress display \(**false**\) of database errors such as `Unique Key violation detected by database (Duplicate entry 'ABC' for key 'name').` to logged-in user.
+    Display \(**true**\) or suppress display \(**false**\) of database errors. For example, `Unique Key violation detected by database (Duplicate entry 'ABC' for key 'name') to user.` to logged-in user.
 
     -   Type: true \| false
     -   Default value: none
@@ -2647,6 +2647,13 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: true
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.rest.sampling.enabled**
+
+    Enables request sampling from scripted REST API resources. Request samples can be used to automatically generate definitions for request headers, query parameters, and schemas. General guidance to help limit performance problems is to only enable this property in non-production instances.
+
+    -   Type: true \| false
+    -   Default value: false
+    -   Location: System Property \[sys\_properties\] table
 -   **glide.rest.serialize.disable\_response\_stream\_buffering**
 
     Enables streaming multipart responses immediately rather than buffering responses until complete. This property applies to only REST APIs that support multipart requests, such as the Batch API, and instances configured with Application Delivery Controller, version 2 \(ADCv2\).
@@ -2726,15 +2733,6 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: boolean
     -   Default value: false
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
--   **glide.script.enforce\_scope\_checks\_on\_get\_ref\_record**
-
-    Used to enhance cross-scope access controls for the**getRefRecord\(\)** JavaScript API method to ensure authorization rules are followed consistently when retrieving information from other another application scope via the JavaScript method **getRefRecord\(\)**.
-
-    For more information, see [KB3142985: Cross-Scope Access Security Enhancement \(Glide Element API: getRefRecord\(\)\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3142985)
-
-    -   Type: Boolean \(true \| false\)
-    -   Default value: True for new instances, starting with the Brazil release. False for upgraded instances \(meaning customers must “opt-in”\).
-    -   Location: To help prevent insecure configurations, this property cannot be manually added and with the value set to false. For assistance, contact customer support.
 -   **glide.script.log\_level**
 
     Controls the behavior of gs.log. Set this property to **none** to disable Glide script logging, or to **print** to save log data to the file system instead of the database. Use the default value **all** to save all Glide script logs to the database.
@@ -2883,6 +2881,20 @@ Some properties are available on a system properties form, but some lesser-used 
 
     Select search suggestions \(Suggestions\) or type-ahead functionality \(Typeahead\). For more information about search suggestions, see [Enable search suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/enable-search-suggestions.md).
 
+-   **glide.session.guest.max\_for\_memory\_remediation**
+
+    When a node is in a high-memory state, guest \(unauthenticated\) sessions are evicted oldest-first until the guest count is at or below this value. This property has no effect when memory is normal. Logged-in sessions are never evicted. Lower this value to cap guest-session memory more aggressively on instances with heavy public-page traffic. Tune per instance.
+
+    -   Type: integer
+    -   Default value: 50000
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.session.guest.min\_idle\_ms\_for\_eviction**
+
+    Minimum idle time in milliseconds before a guest session can be evicted. This prevents eviction of sessions for users who are mid-login.
+
+    -   Type: integer
+    -   Default value: 5000
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.set\_x\_frame\_options**
 
     Enables \(**true**\) or disables \(**false**\) the X-Frame-Options response header to SAMEORIGIN for all UI pages. The X-Frame-Options HTTP response header can be used to indicate whether a browser should be allowed to render a page in a &lt;frame&gt; or &lt;iframe&gt;. Set this property to **true** to avoid clickjacking attacks, by ensuring that CMS content cannot be embedded into other sites.
@@ -3086,16 +3098,6 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: false
     -   Location: System Property \[sys\_properties\] table
--   **glide.sys.fencing.restricted\_caller\_access.invalidation\_mode**
-
-    Controls how the system invalidates Restricted Caller Access records when a source code record, such as a script include, in a cross-scope access table is committed in an update set. For more information about RCA privileges, see [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md).
-
-    -   Type: string
-    -   Default value: SCRIPT\_ENGINE
-    -   Valid values:
-        -   DB\_LISTENER: Enables a database listener that monitors update set commits on source code tables and invalidates RCA records at the time of the commits so that cross-scope access is based on the latest source code updates.
-        -   SCRIPT\_ENGINE: If an update set contains a script with changes, the script engine doesn't invalidate associated RCA records.
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.sys.time\_format**
 
     System time format for all users unless overridden in the user's record.
@@ -3354,13 +3356,6 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: integer
     -   Default value: 8
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
--   **glide.ui.choice.display\_none**
-
-    Controls the label displayed for the empty option in choice fields. Set to **true** to display **None**. When set to **false**, displays the default **--None--** label.
-
-    -   Type: true \| false
-    -   Default value: false
-    -   Location: System Property \[sys\_properties\] table
 -   **glide.ui.clickthrough.popup**
 
     -   For reference fields, enables \(**true**\) or disables \(**false**\) display of the pop-up diamond icon for reference fields, and opening a new window when clicking the icon.
@@ -4442,6 +4437,13 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 100
+    -   Location: System Property \[sys\_properties\] table
+-   **sn\_analyticsstudio.api\_timeout\_seconds**
+
+    Timeout for every RESTMessageV2 call in AnalyticsStudioApiClient, AnalyticsStudioClient, PyramidUserSyncer, and PyramidContentHandler. Bulk action timeouts are automatically twice this value \(default 120 seconds\)
+
+    -   Type: integer
+    -   Default value: 60
     -   Location: System Property \[sys\_properties\] table
 -   **sn\_app\_insights.minutes\_between\_triggers**
 

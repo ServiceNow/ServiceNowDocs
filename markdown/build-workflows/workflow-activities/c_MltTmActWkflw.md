@@ -7,7 +7,7 @@ release: australia
 product: Workflow Activities
 classification: workflow-activities
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Workflow activities, Classic Workflow, Build workflows]
 ---
@@ -27,5 +27,5 @@ Timer scratchpads entries hold these values:
 **Related topics**  
 
 
-[bundle-platcap.c_TimerActivities]
+[Timer workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_TimerActivities.md)
 

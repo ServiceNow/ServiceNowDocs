@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ You can control what configuration item \(CI\) attributes the system displays in
 
 ## Before you begin
 
-Get familiar with the notion of views. For more information on views, see [View Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md).
+Get familiar with the notion of views. For more information on views, see View Management.
 
 Decide for which CI classes you need to modify display.
 

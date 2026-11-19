@@ -1,20 +1,20 @@
 ---
 title: Use Notify connector for Microsoft Teams with a major incident
-description: Initiate a conference call from the major incident workbench by inviting one or more users to join a call. The conference doesn't start until at least two participants join.As a participant in a major incident ticket, you can create a conference call from the record.After a conference call is initiated, as a logged-in user with the major incident manager role, you can join the conference call.Add a participant to a conference call to participate in the discussion to resolve the major incident.Mute a participant from the conference call to avoid unnecessary background disruption.As a host or participant with the major incident manager role, you can end the conference call.
+description: Start a conference call from the major incident workbench by inviting users to join. The conference doesn't start until at least two participants join.Start a conference call from a major incident record and notify the participants you select.Join an ongoing major incident conference call by dialing in with the bridge number and access code or by selecting Join Call.Add participants to a conference call so they can join the discussion to resolve a major incident.Mute a participant from the conference call to avoid unnecessary background disruption.End a conference call from a major incident record. Only the host bot exits the call; other participants stay until they disconnect.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/notify-ms-teams-major-incident.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use Notify connector for Microsoft Teams, Use Microsoft Teams integration for Agent Experience, Use, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
+breadcrumb: [Use Notify connector for Microsoft Teams, Use Microsoft Teams integration for Agent Experience, Use, ServiceNow for Microsoft Teams and Microsoft 365, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Use Notify connector for Microsoft Teams with a major incident
 
-Initiate a conference call from the major incident workbench by inviting one or more users to join a call. The conference doesn't start until at least two participants join.
+Start a conference call from the major incident workbench by inviting users to join. The conference doesn't start until at least two participants join.
 
 Notify administrators, major incident managers, or communications managers can manage conference calls.
 
@@ -24,7 +24,7 @@ Conference call records are stored in the Notify Conference Calls \[notify\_conf
 
 ## Initiate a conference call
 
-As a participant in a major incident ticket, you can create a conference call from the record.
+Start a conference call from a major incident record and notify the participants you select.
 
 ### Before you begin
 
@@ -53,7 +53,7 @@ As the host, you can view the users who have answered the call.
 
 ## Join a conference call
 
-After a conference call is initiated, as a logged-in user with the major incident manager role, you can join the conference call.
+Join an ongoing major incident conference call by dialing in with the bridge number and access code or by selecting Join Call.
 
 ### Before you begin
 
@@ -76,7 +76,7 @@ Role required: notify\_admin, major\_incident\_manager, or communication\_manage
 
 ## Add participants to a conference call
 
-Add a participant to a conference call to participate in the discussion to resolve the major incident.
+Add participants to a conference call so they can join the discussion to resolve a major incident.
 
 ### Before you begin
 
@@ -128,7 +128,7 @@ Role required: notify\_admin, major\_incident\_manager, or communications\_manag
 
 ## End a conference call from a major incident
 
-As a host or participant with the major incident manager role, you can end the conference call.
+End a conference call from a major incident record. Only the host bot exits the call; other participants stay until they disconnect.
 
 ### Before you begin
 

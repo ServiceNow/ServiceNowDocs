@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: wm\_dispatcher, wm\_manager, wm\_admin
 
 If you’re using Technician Preferences for Dynamic Scheduling, then you must have the **Prioritize preferred and secondary technicians** criterion added to your task filter to add preferred technicians. For more information, see [Example - configure dynamic scheduling to assign preferred technicians to tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/excluded-preferred-agents.md).
 
-If you're using Technician Preferences for Schedule Optimization then your administrator must [Configure the policy to assign preferred technicians to tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configure-the-policy-to-assign-preferred-technicians-to-tasks.md).
+If you're using Technician Preferences for Schedule Optimization then your administrator must [Configure the policy to assign preferred technicians to tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configure-the-policy-to-assign-preferred-technicians-to-tasks.md). For Schedule Optimization, you can view valid [Technician preference combinations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/technician-preference-combinations.md).
 
 ## About this task
 
@@ -56,7 +56,7 @@ Preferred
 
 </td><td>
 
-Specify technician as preferred for task assignment. Optimization prioritizes these technicians when scheduling tasks, but other technicians may still be considered if necessary.
+Specify technician as preferred for task assignment. Optimization prioritizes these technicians when scheduling tasks.
 
 </td></tr><tr><td>
 
@@ -86,6 +86,8 @@ Required is only used by Schedule Optimization.
 
 </td></tr></tbody>
 </table>6.  Select **Submit**.
+
+    For Schedule Optimization, use the [Run Summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.md) to view assignment outcomes for tasks with required, preferred, or secondary technician preferences, including tasks that could not be assigned to a required technician.
 
 
 **Related topics**  

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-09"
 reading_time_minutes: 6
 ---
 
@@ -112,7 +112,7 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
 
 -   Service Management: [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md)
 -   Security: [Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vuln-landing-page.md)
--   Visibility: [IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r_ITOMApplications.md)
+-   Visibility: IT Operations Management
 
 ## Get started
 

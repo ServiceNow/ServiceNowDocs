@@ -7,7 +7,7 @@ release: australia
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Set up, Create a similar records prediction model, Manage, Task Intelligence for ITSM, IT Service Management]
 ---
@@ -40,15 +40,15 @@ The model has flexible options. Based on the sensitivity and requirements of eac
 
 3.  Choose one of the following options from the **Prediction preference** drop-down list for each field.
 
-<table id="choicetable_lzr_gyr_zyb"><thead><tr><th align="left" id="d413270e110">
+<table id="choicetable_lzr_gyr_zyb"><thead><tr><th align="left" id="d404197e110">
 
 Options
 
-</th><th align="left" id="d413270e113">
+</th><th align="left" id="d404197e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d413270e119">
+</th></tr></thead><tbody><tr><td id="d404197e119">
 
 **Recommendations**
 
@@ -56,7 +56,7 @@ Description
 
 hows the top recommendations based on the similarity patterns. Agents can choose to accept or reject the recommendation. You can configure the number of recommended values using Advanced Recommended actions for ITSM. For more information, see [Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md).
 
-</td></tr><tr><td id="d413270e144">
+</td></tr><tr><td id="d404197e144">
 
 **Turn off predictions**
 
@@ -64,7 +64,7 @@ hows the top recommendations based on the similarity patterns. Agents can choose
 
 Stops the model from performing any predictions.
 
-</td></tr><tr><td id="d413270e153">
+</td></tr><tr><td id="d404197e153">
 
 **Monitor only**
 

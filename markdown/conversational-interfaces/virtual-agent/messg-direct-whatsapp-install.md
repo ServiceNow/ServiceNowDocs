@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, WhatsApp Cloud API, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, Conversational Integration with WhatsApp \(WhatsApp Cloud API\), Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
 # Install Conversational Integration with WhatsApp \(WhatsApp Cloud API\)
@@ -40,7 +40,17 @@ The following applications or plugins are installed with Conversational Integrat
 
     Provides configurations for the agent-initiated messaging capabilities. 
 
-    **Note:** This plugin is required only if agent-initiated messaging is required.
+    **Note:** Optional. This plugin is required only if agent-initiated messaging is required.
+
+-   **Glide Virtual Agent \(com.glide.cs.chatbot\)**
+
+    Enables core Virtual Agent functionality and automatically activates the dependent Virtual Agent plugins.
+
+    **Note:** This plugin requires a Virtual Agent subscription.
+
+-   **Conversational Messaging \(com.glide.messaging.awa\)**
+
+    Enables features for conversational messaging, such as messaging actions in Workspace.
 
 
 ## Procedure

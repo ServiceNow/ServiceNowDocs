@@ -1,5 +1,5 @@
 ---
-title: Top processes by resource usage in DEX incident investigation
+title: Reviewing top processes by resource usage for DEX incident investigation
 description: Reviewing the top processes by CPU and memory usage on Digital End-User Experience \(DEX\) monitored devices helps you identify processes causing device issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/process-snapshot.html
@@ -7,12 +7,12 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Incident diagnostics and suggested resolutions, DEX for service desk agents, Digital End-User Experience, IT Operations Management]
 ---
 
-# Top processes by resource usage in DEX incident investigation
+# Reviewing top processes by resource usage for DEX incident investigation
 
 Reviewing the top processes by CPU and memory usage on Digital End-User Experience \(DEX\) monitored devices helps you identify processes causing device issues.
 
@@ -24,7 +24,7 @@ Every snapshot captures the top 10 processes by CPU usage, top 10 processes by m
 
 ## Time ranges for viewing top processes by resource usage
 
-The **Timeframe** drop-down list provides different time range options for viewing snapshots of the top resource-using processes. Selecting a time range and then selecting **Go** displays the graph for the chosen period.
+The Timeframe drop-down list provides different time range options for viewing snapshots of the top resource-using processes. Selecting a time range and then selecting **Go** displays the graph for the chosen period.
 
 By default, the graph shows the date and time of the latest snapshot. Selecting a data point on the graph shows the corresponding date and time of that snapshot.
 
@@ -40,7 +40,7 @@ Some time ranges display individual snapshot data on the graph, while others dis
         **Note:** The Refresh icon is enabled only for the **Last 6 hours** time range and when the device is online.
 
     -   **Custom**: Snapshots are captured every 30 minutes for a custom date and time range within the last seven days, selected using the **Day** and **Slot** drop-down lists.
--   The following time ranges display aggregated data:
+-   Time ranges displaying aggregated data:
 
     -   **Last 12 hours**: Data is captured every 30 minutes and aggregated hourly.
     -   **Last 24 hours**: Data is captured every 30 minutes and aggregated every two hours.

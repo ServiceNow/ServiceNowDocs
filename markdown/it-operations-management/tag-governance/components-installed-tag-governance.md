@@ -1,5 +1,5 @@
 ---
-title: Components in Tag Governance
+title: Components installed with Tag Governance
 description: Several key components are installed with, or linked to, the Tag Governance plugin to help standardize and manage your organization's tags.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/tag-governance/components-installed-tag-governance.html
@@ -7,12 +7,12 @@ release: australia
 product: Tag Governance
 classification: tag-governance
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Reference, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
-# Components in Tag Governance
+# Components installed with Tag Governance
 
 Several key components are installed with, or linked to, the Tag Governance plugin to help standardize and manage your organization's tags.
 

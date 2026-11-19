@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -16,13 +16,13 @@ breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strate
 
 The integration of Strategic Planning with other ServiceNow applications helps portfolio and product managers to optimize planning, collaboration, and release management for their products.
 
-## Strategic Planning with AI Control Tower workspace
+## Strategic Planning with Control Tower workspace
 
-The ServiceNow® AI Control Tower workspace enables you to track and monitor all your strategic priorities, goals, targets, planning items, and execution items—projects and demands categorized as Artificial Intelligence in the Strategic Planning Workspace.
+The ServiceNow® Control Tower workspace enables you to track and monitor all your strategic priorities, goals, targets, planning items, and execution items—projects and demands categorized as Artificial Intelligence in the Strategic Planning Workspace.
 
-Populate the **Type** field for strategic priorities, the **Category** field for goals, and the **Investment type** field for planning items with the **Artificial Intelligence** option to monitor their progress in the AI Control Tower workspace. For more information, see [Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/create-strategic-priority.md), [Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-goal-egm.md), and [Add a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.md).
+Populate the **Type** field for strategic priorities, the **Category** field for goals, and the **Investment type** field for planning items with the **Artificial Intelligence** option to monitor their progress in the Control Tower workspace. For more information, see [Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/create-strategic-priority.md), [Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/create-goal-egm.md), and [Add a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.md).
 
-When AI Control Tower is installed, the **AI strategy** tab appears in the AI Control Tower workspace, featuring different widgets for AI strategies, goals, targets, costs of planning items, prioritized work, and RIDAC details. For more information, see [AI strategy tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-strategy-ai-control-tower.md).
+When Control Tower is installed, the **AI strategy** tab appears in the Control Tower workspace, featuring different widgets for AI strategies, goals, targets, costs of planning items, prioritized work, and RIDAC details. For more information, see [AI strategy tab in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-strategy-ai-control-tower.md).
 
 ## Strategic Planning with Digital Product Release workspace
 

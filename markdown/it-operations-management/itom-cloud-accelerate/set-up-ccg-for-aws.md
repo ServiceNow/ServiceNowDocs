@@ -7,7 +7,7 @@ release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Explore, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -199,15 +199,15 @@ Name of the trusted account.Configure this field only for accounts that don't us
 
 6.  Do any one of the following actions.
 
-<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d175175e643">
+<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d177453e643">
 
 Option
 
-</th><th align="left" id="d175175e646">
+</th><th align="left" id="d177453e646">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d175175e652">
+</th></tr></thead><tbody><tr><td id="d177453e652">
 
 **Create an assume role configuration for the management account**
 
@@ -225,7 +225,7 @@ For more information, see [Configure the trusting account for Cloud Configuratio
 
 For more information, see [Create an assume role configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/create-assume-role-config.md).
 
-</td></tr><tr><td id="d175175e709">
+</td></tr><tr><td id="d177453e709">
 
 **Configure the trusting account for Cloud Configuration Governance**
 

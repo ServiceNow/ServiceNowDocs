@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-21"
 reading_time_minutes: 6
 breadcrumb: [Activity definitions, Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -26,21 +26,21 @@ Specify the action or subflow you want an activity to run. Configure the inputs 
 
 1.  To start creating a new activity definition, do one of the following:
 
-    -   Navigate to **Process Automation** &gt; **Process Automation Administration** &gt; **Activity Definitions**. Then in the context header, click **New**.
+    -   Navigate to **Process Automation** &gt; **Playbook Administration** &gt; **Activity Definitions**. Then in the context header, click **New**.
     -   Follow the steps to [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-process-definition.md). Then in the Playbooks activity design space, click **Add an activity** &gt; **Create a new activity**.
     The Activity Definition form view appears.
 
 2.  Fill in the Activity Definition form fields.
 
-<table id="choicetable_ndc_pgy_5lb"><thead><tr><th align="left" id="d186185e162">
+<table id="choicetable_ndc_pgy_5lb"><thead><tr><th align="left" id="d186080e162">
 
 Field
 
-</th><th align="left" id="d186185e165">
+</th><th align="left" id="d186080e165">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d186185e171">
+</th></tr></thead><tbody><tr><td id="d186080e171">
 
 **Label**
 
@@ -50,17 +50,17 @@ Enter a unique name for your activity.
 
  This name appears in the playbook in both the Workflow Studio Playbooks builder as well as during playbook runtime.
 
-</td></tr><tr><td id="d186185e198">
+</td></tr><tr><td id="d186080e198">
 
 **Table**
 
 </td><td>
 
-Select a table whose records the activity can access as inputs. When adding inputs to your activity in the Workflow Studio Playbooks builder, you can dot-walk to dynamic record data from this table. See Dot-walking to data in related tables.
+Select a table whose records the activity can access as inputs. When adding inputs to your activity in the Workflow Studio Playbooks builder, you can dot-walk to dynamic record data from this table. See [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
 
  **Note:** The table specified for a playbook's triggering input record overrides the activity definition table at design time. See [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer-triggers.md)
 
-</td></tr><tr><td id="d186185e242">
+</td></tr><tr><td id="d186080e242">
 
 **Description**
 
@@ -68,7 +68,7 @@ Select a table whose records the activity can access as inputs. When adding inpu
 
 Optionally, enter some descriptive details about your activity.
 
-</td></tr><tr><td id="d186185e251">
+</td></tr><tr><td id="d186080e251">
 
 **Accessible From**
 
@@ -78,7 +78,7 @@ Choose one of the following options:-   **All application scopes** - You can add
 -   **This application scope only** - You can only add this activity to playbooks within the same application scope specified in the **Application** field.
 
 
-</td></tr><tr><td id="d186185e280">
+</td></tr><tr><td id="d186080e280">
 
 **Required Roles**
 

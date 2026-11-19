@@ -1,24 +1,24 @@
 ---
 title: DEX policies for Windows devices
-description: Policy reference for DEX monitoring on Windows devices. The policies define the check instances, frequencies, and parameters for application, network, and device monitoring.
+description: Policy reference for DEX monitoring on Windows devices. Use this reference to understand available check instances, frequencies, and parameters for application, network, and device monitoring.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/dex-policies-windows.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [DEX Content Playbook reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # DEX policies for Windows devices
 
-Policy reference for DEX monitoring on Windows devices. The policies define the check instances, frequencies, and parameters for application, network, and device monitoring.
+Policy reference for DEX monitoring on Windows devices. Use this reference to understand available check instances, frequencies, and parameters for application, network, and device monitoring.
 
-To fetch the complete playbook data for a Windows device, the Agent Client Collector \(ACC\) must run as a local system account. For more information about how to set up the ACC service as a local system account, see [Run ACC as a local system account user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/run-acc-local-sys-account.md).
+To fetch the complete playbook data for a Windows device, the Agent Client Collector \(ACC\) must run as a local system account. For more details on how to set up the ACC service as a local system account, see [Run ACC as a local system account user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/run-acc-local-sys-account.md).
 
-## Application policies for Windows
+## Policies for Windows — Application
 
 DEX provides the following policies for applications.
 
@@ -52,7 +52,7 @@ Collects the application metrics in the Windows device and sends the metric data
 
 </td><td>
 
-5 minutes
+5 mins
 
 </td><td>
 
@@ -68,7 +68,7 @@ os.win.check-app-sccm-latest
 
 </td><td>
 
-Collects application-specific metrics for the Microsoft System Center Configuration Manager app on the Windows device.
+Collect application-specific metrics for the Microsoft System Center Configuration Manager app on theWindows device.
 
 </td><td>
 
@@ -87,24 +87,24 @@ Not applicable
 **Important:** \* DEX Windows Apps Metrics with the uptime check instance parameter only runs with the Local System account.
 
 </td></tr></tbody>
-</table>## Application Network Experience policies for Windows
+</table>## Policies for Windows — Application Network Experience
 
-Before configuring the following policies, make sure that the Agent Client Collector is version 4.2 or later to display the network path for applications. Additionally, the DEX browser extension plugin must be installed and must be version 2.5.0 or later to fetch network metrics for web applications.
+Before configuring the following policies, make sure that the Agent Client Collector is version 4.2 or higher to display the network path for applications. Additionally, the DEX browser extension plugin must be installed and should be version 2.5.0 or higher to fetch network metrics for web applications.
 
 **Note:** These policies have the following limitations:
 
 -   A tracert command is used to get the network path.
--   Application Network Experience \(ANE\) doesn't work for a path in the domain URL, for example, &lt;domain&gt;/&lt;path&gt;
+-   ANE doesn't work for path in the domain URL. Example: &lt;domain&gt;/&lt;path&gt;
 
 DEX provides the following policies for applications.
 
 |Check instance|Description|Frequency|Historical or latest|Check instance parameters|
 |--------------|-----------|---------|--------------------|-------------------------|
-|os.win.check-app-dom-network-historical|Collects Windows installed apps network monitoring metrics like latency, packet loss, and jitter and sends monitoring data to Metric Base and the ServiceNow instance.|10 minutes|Historical|domain\_network\_details|
-|os.win.check-web-app-dom-net-historical|Collects Windows Web apps network monitoring metrics like latency, packet loss, and jitter and sends monitoring data to Metric Base and the ServiceNow instance.|10 minutes|Historical|domain\_network\_details|
-|os.win.check-app-dom-network-latest|Collects Windows Web apps network monitoring metrics like latency, packet loss, and jitter and sends monitoring data to Metric Base and the ServiceNow instance.|30 minutes|Latest|source\_details, domain\_network\_route\_details|
+|os.win.check-app-dom-network-historical|Collects Windows installed apps network monitoring metrics like latency, packet loss, and jitter and sends monitoring data to Metric Base and the ServiceNow® instance.|10 mins|Historical|domain\_network\_details|
+|os.win.check-web-app-dom-net-historical|Collects Windows Web apps network monitoring metrics like latency, packet loss, and jitter and sends monitoring data to Metric Base and the ServiceNow instance.|10 mins|Historical|domain\_network\_details|
+|os.win.check-app-dom-network-latest|Collects Windows Web apps network monitoring metrics like latency, packet loss, and jitter and sends monitoring data to Metric Base and the ServiceNow instance.|30 mins|Latest|source\_details, domain\_network\_route\_details|
 
-## Device policies for Windows
+## Policies for Windows — Device
 
 DEX provides the following policies for devices.
 
@@ -162,7 +162,7 @@ Collects Windows device metrics and sends the metric data to MetricBase.
 
 </td><td>
 
-30 minutes
+30 mins
 
 </td><td>
 
@@ -182,7 +182,7 @@ Collects Windows device metrics and sends the metric data to MetricBase.
 
 </td><td>
 
-5 minutes
+5 mins
 
 </td><td>
 
@@ -222,7 +222,7 @@ Collects Windows device metrics and sends the metric data to the ServiceNow inst
 
 </td><td>
 
-5 minutes
+5 mins
 
 </td><td>
 
@@ -278,7 +278,7 @@ os.win.check-system-registry-latest
 
 </td><td>
 
-Gets registry data on a Windows device.
+Gets registry data on Windows device.
 
 </td><td>
 
@@ -295,11 +295,13 @@ config\_file\_read
 </td></tr></tbody>
 </table>|Check instance|Description|Frequency|Historical or latest|Check instance parameters|
 |--------------|-----------|---------|--------------------|-------------------------|
-|os.win.check-system-custom-query-on-chan|Gets a logged-in user's data on a Windows device whenever there’s a change.|60 seconds|Latest|query,query\_sys\_id, query\_type|
+|os.win.check-system-custom-query-on-chan|Gets a logged-in user's data on a Windows device whenever there’s a change.|60 secs|Latest|query,query\_sys\_id, query\_type|
 
 |Check instance|Description|Frequency|Historical or latest|Check instance parameters|
 |--------------|-----------|---------|--------------------|-------------------------|
-|os.all.check.internal.get-device-configu|Gets a logged-in user's device configuration whenever there’s a change.|60 seconds|Latest|Not applicable|
+|os.all.check.internal.get-device-configu|Gets a logged-in user's device configuration whenever there’s a change.|60 secs|Latest|Not applicable|
 
 **Note:** If you upgrade the DEX Content Playbook plugin on an instance and encounter unexpected policy update issues, see the [Troubleshooting: Policy update issues post DEX plugin upgrade \[KB1586917\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB1586917) article in the Now Support knowledge base.
+
+**Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)
 

@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use Microsoft Teams integration for Agent Experience, Use, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
+breadcrumb: [Use Microsoft Teams integration for Agent Experience, Use, ServiceNow for Microsoft Teams and Microsoft 365, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Use Notify connector for Microsoft Teams
@@ -19,9 +19,9 @@ Allow the agents to work and manage the major incidents from Major Incident Mana
 -   **[Use Notify connector for Microsoft Teams with task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/notify-connector-ms-teams-task.md)**  
 Notify connector for Microsoft Teams enables you to initiate conference calls from task records such as incidents, problems, or change requests.
 -   **[Use Notify connector for Microsoft Teams with Incident Communication Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/notify-connector-ms-teams-incident-communication-management.md)**  
-Use Notify with an incident communication plan to start conference calls.
+Enable the Notify integration for Incident Communications Management so you can start conference calls from a major incident record.
 -   **[Use Notify connector for Microsoft Teams with a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/notify-ms-teams-major-incident.md)**  
-Initiate a conference call from the major incident workbench by inviting one or more users to join a call. The conference doesn't start until at least two participants join.
+Start a conference call from the major incident workbench by inviting users to join. The conference doesn't start until at least two participants join.
 -   **[Manage calls in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/manage-calls-ms-teams.md)**  
 Manage conference calls in Microsoft Teams by muting or unmuting participants, or ending the call.
 

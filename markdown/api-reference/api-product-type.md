@@ -7,7 +7,7 @@ release: australia
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-02"
 reading_time_minutes: 74
 breadcrumb: [API reference, API implementation and reference]
 ---
@@ -73,7 +73,7 @@ Agent Workspace
 
 </td></tr><tr><td>
 
-AI Control Tower
+Control Tower
 
 </td><td>
 
@@ -179,7 +179,6 @@ Customer Service Management \(CSM\)
     -   [Case API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/case-api.md)
     -   [Consumer API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/consumer-api.md)
     -   [Contact API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/contact-api.md)
-    -   
     -   [CSM Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/attachment_csm-api.md)
     -   [Customer Central API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cust_central-api.md)
     -   [Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/entitlement-api.md)
@@ -220,7 +219,7 @@ Sales Customer Relationship Management
 </td><td>
 
 -   **Server**
-    -   [ConsolidationService - Scoped, Gobal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ConsolidationServiceAPI.md)
+    -   [ConsolidationService - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ConsolidationServiceAPI.md)
     -   [LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LeadToCashCoreAPI.md)
 
 </td></tr><tr><td>
@@ -380,6 +379,8 @@ Workflow Studio
     -   [Flow - Scoped \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/FlowScopedAPI.md)
     -   [JSONStreamingAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/JSONStreamingAPIScopedAPI.md)
     -   [JSONStreamingBuilder - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md)
+    -   [Producer - Scoped \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ProducerScopedAPI.md)
+    -   [ProducerV2 - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ProducerV2ScopedAPI.md)
     -   [ScriptableDataStream - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ScriptableDataStreamAPI.md)
     -   [ScriptableFlowRunner - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ScriptableFlowRunnerScopedAPI.md)
     -   [ScriptableFlowRunnerResult - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ScriptableFlowRunnerResultScopedAPI.md)
@@ -747,23 +748,12 @@ Integration Hub
 </td><td>
 
 -   **Server**
-    -   [KafkaProducerAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/KafkaProducerAPIScoped.md)
-    -   [PersonalAuthAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PersonalAuthAPIScoped.md)
-    -   [Producer - Scoped \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ProducerScopedAPI.md)
-    -   [ProducerV2 - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ProducerV2ScopedAPI.md)
--   **REST**
-    -   [Continuous Integration/Continuous Delivery \(CICD\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cicd-api.md)
-    -   [Schema Registry API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/schema_registry-api.md)
 
-</td></tr><tr><td>
-
-Interaction Management
-
-</td><td>
+[PersonalAuthAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PersonalAuthAPIScoped.md)
 
 -   **REST**
 
-[Interaction Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/interaction-management-api.md)
+[Continuous Integration/Continuous Delivery \(CICD\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cicd-api.md)
 
 
 </td></tr><tr><td>
@@ -923,7 +913,7 @@ ServiceNow AI Platform
     -   [RenderProperties - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RenderProperties-Scoped-API.md)
     -   [RequestAuthAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/RequestAuthAPI.md)
     -   [ResponseTemplate - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ResponseTemplateAPI.md)
-    -   [RESTAPIRequest - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_ScriptableServiceRequest.md)
+    -   []()
     -   [RESTAPIRequestBody - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_ScriptableServiceRequestBody.md)
     -   [RESTAPIResponse - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_ScriptableServiceResponseBuilder.md)
     -   [RESTAPIResponseStream - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_ScriptableServiceRespStreamWriter.md)
@@ -952,7 +942,6 @@ ServiceNow AI Platform
     -   [XMLNodeIterator - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_XMLNodeIteratorScopedAPI.md)
     -   [AuthCredential - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/AuthCredentialAPI.md) Only available within the `sn_auth` namespace.
 -   **REST**
-    -   [Developer Sandbox Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/developer-sandbox-management-api.md)
     -   [Aggregate API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/c_AggregateAPI.md)
     -   [Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/c_AttachmentAPI.md)
     -   [Batch API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/batch-api.md)
@@ -970,7 +959,7 @@ ServiceNow AI Platform
 
 </td></tr><tr><td>
 
-Sales Customer Relationship Management for Telecommunications
+Order Management for Telecommunications, Media, and Technology
 
 </td><td>
 
@@ -990,13 +979,11 @@ Sales Customer Relationship Management for Telecommunications
     -   [Event Notification Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/event_open-api.md)
     -   [Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/product-catalog-open-api.md)
     -   [Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/product-inventory-open-api.md)
-    -   [Product Offering Qualification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/product-offering-qualification-api.md)
     -   [Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/tmf622_product_ordering-api.md)
     -   [Service Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/service-catalog-open-api.md)
     -   [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/service-order-open-api.md)
     -   [Technical Service Qualification Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/ts-qualification-api.md)
     -   [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/trouble-ticket-open-api.md)
-    -   [Quote Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/quote-management-api.md)
 
 </td></tr><tr><td>
 
@@ -1073,6 +1060,21 @@ Sourcing and Procurement Operations
 
 </td></tr><tr><td>
 
+Product Catalog Management
+
+</td><td>
+
+-   **Server**
+
+[CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)
+
+-   **REST**
+
+[Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/product-catalog-search-api.md)
+
+
+</td></tr><tr><td>
+
 Product Support for Technology
 
 </td><td>
@@ -1127,14 +1129,32 @@ Security Operations
 
 </td></tr><tr><td>
 
+Sales CRM for Telecommunications
+
+</td><td>
+
+-   **REST**
+    -   [Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/product-catalog-open-api.md)
+    -   [Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/tmf622_product_ordering-api.md)
+    -   [Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/product-inventory-open-api.md)
+    -   [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/service-order-open-api.md)
+    -   [Quote Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/quote-management-api.md)
+    -   [Technical Service Qualification Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/ts-qualification-api.md)
+
+</td></tr><tr><td>
+
 Service Exchange
 
 </td><td>
 
 -   **Server**
-    -   [CSBScratchpadUtil - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CSBScratchpadUtilScopedAPI.md)
-    -   [sb - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PSBPublicAPIUtilBoth.md)
-    -   [PSBScratchpadUtil - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PSBScratchpadUtilScopedAPI.md)
+
+[CSBScratchpadUtil - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CSBScratchpadUtilScopedAPI.md)
+
+[sb - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PSBPublicAPIUtilBoth.md)
+
+[PSBScratchpadUtil - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/PSBScratchpadUtilScopedAPI.md)
+
 
 </td></tr><tr><td>
 
@@ -1281,7 +1301,7 @@ Telecommunications Network Inventory
 
 </td></tr><tr><td>
 
-Telecommunications Service Operations Management \(TSOM\)
+tTelecommunications Service Operations Management
 
 </td><td>
 
@@ -1296,14 +1316,12 @@ Telecommunications Service Operations Management \(TSOM\)
     -   [TopicUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/TopicUtilOOBAPIScoped.md)
     -   [TroubleTicketNotificationUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md)
 -   **REST**
-    -   [Appointment Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/appointment-open-api.md)
     -   [Party Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/tmf-party-management-open-api.md)
     -   [Alarm Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/alarm-open-api.md)
     -   [Event Notification Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/event_open-api.md)
     -   [Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/product-catalog-open-api.md)
     -   [Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/product-inventory-open-api.md)
     -   [Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/tmf622_product_ordering-api.md)
-    -   [Product Offering Qualification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/product-offering-qualification-api.md)
     -   [Quote Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/quote-management-api.md)
     -   [Service Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/service-catalog-open-api.md)
     -   [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/service-order-open-api.md)
@@ -1344,17 +1362,6 @@ Universal Task
 -   **Server**
 
 [UniversalTaskUtils - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/UniversalTaskUtilsBothAPI.md)
-
-
-</td></tr><tr><td>
-
-USG
-
-</td><td>
-
--   **Server**
-
-[SecretsAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SecretsAPI.md)
 
 
 </td></tr><tr><td>

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-13"
 reading_time_minutes: 2
 keywords: [AI specialist, ai specialist access management, ai specialist workspace access, ai specialist role configuration]
-breadcrumb: [Use in AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Use in AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
 ---
 
 # Manage access to an AI specialist in AI Agent Studio

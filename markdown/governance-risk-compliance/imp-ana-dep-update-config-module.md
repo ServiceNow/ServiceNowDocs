@@ -1,18 +1,18 @@
 ---
 title: Configuring impact analysis dependency updates
-description: The BCM administrators configure the Impact analysis dependency update configuration record. This configuration enables scheduled auto-updates of BIA dependencies based on source data and relationships in the CMDB.
+description: The BCM administrators configure the Impact analysis dependency update configuration to schedule automatic BIA dependency updates based on CMDB data and relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/imp-ana-dep-update-config-module.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Dependency Configuration records, General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Configuring impact analysis dependency updates
 
-The BCM administrators configure the Impact analysis dependency update configuration record. This configuration enables scheduled auto-updates of BIA dependencies based on source data and relationships in the CMDB.
+The BCM administrators configure the Impact analysis dependency update configuration to schedule automatic BIA dependency updates based on CMDB data and relationships.
 
 ## Impact analysis dependency update configuration record
 
@@ -30,9 +30,7 @@ Configure the sources in the Impact Analysis dependency update configuration rec
 
 The BCM administrators select the **Auto-update dependencies** option to schedule an auto-update of the dependencies in the BIAs.
 
-The BCM administrators select the **Send notification** option to notify the BIA owners about the updated dependencies. The email notification contains the details of the dependency updates for the BIA records as shown in the example.
-
-\[Omitted image "bia-email-preview.png"\] Alt text: Email preview.
+The BCM administrators select the **Send notification** option to notify the BIA owners about the updated dependencies. The email notification contains the details of the dependency updates for the BIA records.
 
 The snapshot records are displayed in the Pending updates record of the BIA from the list view. The delta snapshot record displays details of the BIA and updated dependency configuration such as Added, Updated, and Deleted assets for the BIA.
 

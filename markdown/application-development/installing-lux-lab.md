@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-30"
 reading_time_minutes: 2
 keywords: [Install Lux Lab]
-breadcrumb: [Configuring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Configuring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Install Lux Lab
@@ -54,7 +54,7 @@ Download the Lux Lab app using the following links.
 
     1.  Download the Lux Lab `.dmg` installer using the following link.
 
-        [Lux Lab for macOs](https://install.service-now.com/glide/distribution/builds/package/app-signed/aiux/LUX-Lab-2.11.0-arm64-mac.zip).
+        .[Lux Lab for macOS](https://install.service-now.com/glide/distribution/builds/package/app-signed/aiux/Lab-2.11.0-arm64-mac.dmg)
 
     2.  Open the `.dmg` file.
 

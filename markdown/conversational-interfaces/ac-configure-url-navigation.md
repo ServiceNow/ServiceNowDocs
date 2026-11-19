@@ -1,18 +1,20 @@
 ---
-title: \(Legacy\) Configure URL navigation for chat links
-description: Configure the portals in which links to ServiceNow records in live agent and Virtual Agent conversations are opened, including links in output cards and cards for Virtual Agent notifications and AI Search results.
+title: Configure URL navigation for chat links
+description: Configure the portals in which links to ServiceNow records in Live Agent and Virtual Agent conversations are opened, including links in output cards and cards for Virtual Agent notifications and AI Search results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/ac-configure-url-navigation.html
 release: australia
+product: Conversational Interfaces
+classification: conversational-interfaces
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [URL navigation in NLU, General chat settings, Conversational Interfaces Home for NLU, Configure NLU, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
+breadcrumb: [URL navigation in Conversational Interfaces, General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
 
-# \(Legacy\) Configure URL navigation for chat links
+# Configure URL navigation for chat links
 
-Configure the portals in which links to ServiceNow records in live agent and Virtual Agent conversations are opened, including links in output cards and cards for Virtual Agent notifications and AI Search results.
+Configure the portals in which links to ServiceNow records in Live Agent and Virtual Agent conversations are opened, including links in output cards and cards for Virtual Agent notifications and AI Search results.
 
 ## Before you begin
 
@@ -22,13 +24,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**.
 
-2.  Under **URL navigation,** select **View All**.
+2.  Under **URL navigation** select **View All**.
 
 3.  On the URL Navigation page, do one of the following:
 
     -   To create a new custom mapping, select **New**.
     -   To change a default or custom mapping, select the record to be updated.
-    -   If you have multiple mapping records to be updated, click the box to the left of the mapping record to be updated and select **Edit**. The preview pane opens and shows the URL Navigation fields that you can change in the selected records.
+    -   If you have multiple mapping records to be updated, select the box to the left of the mapping record to be updated and select **Edit**. The preview pane opens and shows the URL Navigation fields that you can change in the selected records.
 4.  Complete or update the URL Navigation fields.
 
 <table id="table_xbp_wkm_spb"><thead><tr><th>
@@ -97,4 +99,6 @@ For new custom mappings, specify the combination of portal and table values to f
 </td></tr></tbody>
 </table>5.  Select **Save** to enter a new mapping or update an existing mapping.
 
+
+**Parent Topic:**[URL navigation in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/url-navigation-ci.md)
 

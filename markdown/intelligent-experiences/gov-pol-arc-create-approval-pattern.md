@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-22"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, approval pattern, hard gate, soft gate, allow carve-out, match mode, arc policies]
-breadcrumb: [Working with Arc policy rules, Managing Arc policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Working with Arc policy rules, Managing Arc policies, Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Create an approval pattern for an Arc policy
@@ -27,7 +27,7 @@ For how patterns work with tool gates and auto approval, see [Action approval fl
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Govern** &gt; **Policies** &gt; **Arc policies**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Govern** &gt; **Policies** &gt; **Arc policies**.
 
 2.  Select the policy you want to update.
 

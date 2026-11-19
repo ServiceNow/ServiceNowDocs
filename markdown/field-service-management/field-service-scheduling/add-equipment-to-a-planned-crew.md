@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Scheduling and assigning equipment to tasks and crews, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -69,15 +69,15 @@ Role required: wm\_ admin, wm\_dispatcher
 
 3.  Use either the dispatcher calendar or the dispatcher calendar sidebar to add equipment to a crew.
 
-<table id="choicetable_pvs_vdv_dwb"><thead><tr><th align="left" id="d142459e339">
+<table id="choicetable_pvs_vdv_dwb"><thead><tr><th align="left" id="d140362e339">
 
 Method
 
-</th><th align="left" id="d142459e342">
+</th><th align="left" id="d140362e342">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d142459e348">
+</th></tr></thead><tbody><tr><td id="d140362e348">
 
 **Dispatcher calendar**
 
@@ -88,7 +88,7 @@ Action
 3.  Select a crew to add the equipment to.
 
 
-</td></tr><tr><td id="d142459e378">
+</td></tr><tr><td id="d140362e378">
 
 **Dispatcher calendar sidebar**
 

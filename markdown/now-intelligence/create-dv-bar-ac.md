@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-dv-bar-ac.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 13
 keywords: [Create horizontal bar report, Create horizontal bar visualization, Create vertical bar report, Create vertical bar visualization]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -139,7 +139,7 @@ Show refresh option
 
 </td><td>
 
-Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is hidden.
+Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is always hidden.
 
 </td></tr><tr id="ac-dv-show-export-option"><td>
 
@@ -197,24 +197,12 @@ Specify the text color of the title. The default title color is black, but you c
 
     Pivot table visualizations support a maximum of 15 data sources.
 
-6.  Duplicate the data source.
-
-    1.  Select the data source's More Actions menu \[Omitted image "more-actions-menu-icon.png"\] and choose **Duplicate**.
-
-        \[Omitted image "dv-duplicate-data-source.png"\] Alt text: Data source's More Actions menu with Duplicate selected
-
-    2.  Select the copy of the data source and edit it.
-
-        For example, if the original data source has multiple conditions, you can duplicate it if you want to add more conditions and not lose the original configuration.
-
-    Both the original data source and duplicated and edited data source apply to the visualization.
-
-7.  Select the options for your data source.
+6.  Select the options for your data source.
 
     -   If your visualization represents table data, go to [Table data options for horizontal and vertical bar visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-dv-bar-table-data.md).
     -   If your visualization represents indicator data, go to [Indicator data options for horizontal and vertical bar visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-dv-bar-ind-data.md).
     -   If your visualization represents Usage Insights data, go to [Usage Insights data options for bar visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-dv-bar-uxa-data.md).
-8.  Under **Presentation**, provide display and color information.
+7.  Under **Presentation**, provide display and color information.
 
     **Note:** For horizontal bar visualizations, the X axis is the primary. For vertical bar visualizations, the Y axis is primary.
 
@@ -236,7 +224,9 @@ Show only one data point in tooltip
 
 </td><td>
 
-When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.Default: Off, except when zoom is 400%, which automatically turns it on.
+When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.
+
+Default: Off, except when zoom is 400%, which automatically turns it on.
 
 </td></tr><tr><td>
 
@@ -431,7 +421,7 @@ If the visualization has more than one metric, you see the Colors per metric opt
 This option is available only for Table data sources and only if no more than one data source or metric is added, and a Group by is defined.
 
 </td></tr></tbody>
-</table>9.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
+</table>8.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
 
 <table id="table_qnp_d2d_b1c"><thead><tr><th>
 
@@ -447,7 +437,7 @@ Allow chart interaction
 
 </td><td>
 
-Enable an event to occur when a user selects a visualization or one of its segments.
+Enable an event to occur when a user clicks in a visualization or one of its segments.
 
 </td></tr><tr><td>
 
@@ -470,7 +460,7 @@ Choose the event that occurs when a user selects in a visualization or one of it
 **Drill down to chart** supports only table data sources.
 
 </td></tr></tbody>
-</table>10. Select **Save**.
+</table>9.  Select **Save**.
 
     Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** to return to the data visualization list.
 

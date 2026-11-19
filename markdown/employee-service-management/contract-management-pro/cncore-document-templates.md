@@ -27,10 +27,10 @@ By using Microsoft Word add-in, you can add content controls on macOS as well as
 
 For more information, see the following topics:
 
--   [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md).
+-   [Creating a contract template using Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md).
 -   [Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md).
 
--   **[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)**  
+-   **[Creating a contract template using Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)**  
 Create contract templates by using Microsoft Word add-in for ServiceNow Contracts to add content controls.
 -   **[Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md)**  
 Create contract templates by adding content controls manually.

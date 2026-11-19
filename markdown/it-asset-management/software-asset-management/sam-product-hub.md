@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-14"
 reading_time_minutes: 3
 breadcrumb: [Software Asset Management installation methods, Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Software Asset Management installation methods, Configuring Softwar
 # Product Hub for Software Asset Management
 
 The Product Hub provides a guided installation and management interface for the Software Asset Management application. Administrators can install the application, apply default configurations, track progress, and access the Configuration Console from the Software Asset Management Admin Home tile.
+
+**Important:** Product Hub and Configuration Console are available starting from Australia Patch 7.
 
 ## Purpose and access
 

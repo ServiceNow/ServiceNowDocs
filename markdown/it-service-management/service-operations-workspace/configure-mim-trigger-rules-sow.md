@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,15 +18,13 @@ Create and configure the trigger rules for a major incident to define the condit
 
 ## About this task
 
-Major incident trigger rules are evaluated asynchronously each time a major incident is created or promoted from an incident, provided the following conditions are met:
+You can also configure major incident trigger rules to directly create a major incident, bypassing the candidate step. Major incident trigger rules are evaluated asynchronously each time a major incident is created or promoted from an incident, provided the following conditions are met:
 
 -   The incident record doesn't have the Parent Incident populated, which means that the current incident isn't a child incident.
 -   The major incident isn't proposed or accepted.
 -   The incident is active.
 
-You can also configure major incident trigger rules to directly create a major incident, bypassing the candidate step.
-
-**Note:** Base system trigger rules are available.
+**Note:** This is the base system behavior. However, you can override the implementation by modifying the canEvaluate function in the `MajorIncidentTriggerRules` script include. Base system trigger rules are available.
 
 ## Before you begin
 

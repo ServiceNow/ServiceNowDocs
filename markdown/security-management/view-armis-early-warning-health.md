@@ -46,3 +46,5 @@ Role required: sn\_vul\_int\_fw.read\_integrations
     A status of **Success** with the note "Successfully completed integration run. No more data to process at this time." confirms that the integration is current and no new CVEs arrived in the last run.
 
 
+**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/armis-early-warning-integration.md)
+

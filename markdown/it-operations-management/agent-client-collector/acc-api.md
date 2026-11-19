@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -25,9 +25,9 @@ The ACC API enables seamless integration and automation for executing queries an
 3.  Support for osquery 5.18.1: The ACC API is compatible with osquery 5.18.1, which ensures it supports the latest features and improvements, enabling you to leverage advanced query capabilities for enhanced data collection.
 4.  Enable API features: To use the ACC API, enable the agent and policy APIs. This allows you to configure and manage various aspects of your agents, including their communication, data collection, and query execution.
 
-For details on agent APIs, see [Enable agent APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/AccAgentsAPIAPIScoped.md).
+For details on agent APIs, see Enable agent APIs.
 
-For details on enabling policy APIs, see [Enable policy APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/agnt_clnt_cll-api.md).
+For details on enabling policy APIs, see Enable policy APIs.
 
 **Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

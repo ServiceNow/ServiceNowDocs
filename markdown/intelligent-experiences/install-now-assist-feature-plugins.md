@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/install-now-assist-feature-plugins.html
 release: australia
 topic_type: task
-last_updated: "2026-11-02"
-reading_time_minutes: 5
+last_updated: "2026-10-16"
+reading_time_minutes: 4
 keywords: [Install, ServiceNow Otto, plugins, Admin, console, Journey Checklist]
-breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Install AI plugins in AI Admin Hub
@@ -22,8 +22,6 @@ Install plugins in AI Admin Hub to enable AI applications on your instance.
 
 ## About this task
 
-**Note:** Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by [AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-landing-page.md). Everything you manage here is available in AI Admin Center, plus more tools to manage and get the most from AI. You can continue to use AI Admin Hub for a limited time during the transition. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
 Installing plugins may automatically activate some skills contained in the plugins. You can control this skill activation behavior by using the toggle switch **Default activation of out-of-box skills** on the Plugins tab.
 
 -   The default setting for the toggle switch is on. This setting means that some skills may be automatically activated when their plugins are installed.
@@ -34,7 +32,7 @@ To activate a skill separately, see [Activate an AI skill](https://raw.githubuse
 
 \[Omitted image "activate-plugin-toggle.png"\] Alt text: The Plugins page of the Settings tab of AI Admin Hub. The toggle switch titled "Default activation of out-of-box skills" is set to on. Two example plugin cards are displayed.
 
-AI applications often function interdependently. AI Suites help reduce runtime errors and update issues by bundling compatible versions of AI applications together during installation and updates. For more information, see [AI Suites versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-suites-app-mgr.md) and [AI Suites release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-now-assist-suite-release-notes.html).
+**Note:** AI applications often function interdependently. AI Suites help reduce runtime errors and update issues by bundling compatible versions of AI applications together during installation and updates. For more information, see [AI Suites versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-suites-app-mgr.md) and [AI Suites release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-now-assist-suite-release-notes.html).
 
 ## Procedure
 
@@ -88,15 +86,15 @@ AI applications often function interdependently. AI Suites help reduce runtime e
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d142094e463">
+<table><thead><tr><th align="left" id="d159889e431">
 
 Installation option
 
-</th><th align="left" id="d142094e466">
+</th><th align="left" id="d159889e434">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d142094e472">
+</th></tr></thead><tbody><tr><td id="d159889e440">
 
 **Install now**
 
@@ -106,7 +104,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d142094e496">
+</td></tr><tr><td id="d159889e464">
 
 **Install later**
 

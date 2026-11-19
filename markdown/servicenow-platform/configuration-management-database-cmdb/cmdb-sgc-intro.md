@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 breadcrumb: [Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -43,7 +43,7 @@ You can use the following connector types:
     Service Graph Connectors can be built by partners and vendors. For a list of partner-built connectors, see the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/integrations?freeTrial=service_graph_certified&offeredby=partners) website.
 
 
-The connectors also make sure that third-party data is mapped to the right locations in your CMDB as specified by the Common Service Data Model \(CSDM\). The CSDM enables ServiceNow products to use the data and increases reporting accuracy. For more information on CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md).
+The connectors also make sure that third-party data is mapped to the right locations in your CMDB as specified by the Common Service Data Model \(CSDM\). The CSDM enables ServiceNow products to use the data and increases reporting accuracy. For more information on CSDM, see [Common Service Data Model \(CSDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md).
 
 The Service Graph Connectors, including API Service Graph Connectors, manage the configuration data pipeline in the following steps:
 
@@ -101,21 +101,6 @@ Users with the CMDB \(cmdb\_inst\_admin\) role can use [IntegrationHub ETL](http
 -   Create, update, and delete custom tables.
 -   Create, update, and delete scheduled imports and data sources.
 -   Read records that are owned by other applications and are related to the functionality of Service Graph Connectors \(for instance, records in the em\_event table\).
-
-</td></tr><tr><td>
-
-SGC-viewer \(sn\_cmdb\_int\_util.sgc\_viewer\)
-
-</td><td>
-
-Users with the SGC-viewer \(sn\_cmdb\_int\_util.sgc\_viewer\) role can monitor the status of the integration. SGC-viewer users can perform the following tasks:-   View all application modules.
--   View CCF.
--   View available SGC connections in cmdb workspace.
--   Read the system properties used by the connectors.
--   View scheduled import runs and related logs.
--   View data sources.
--   View custom tables.
--   View records that are owned by other applications and are related to the functionality of Service Graph Connectors \(for instance, records in the em\_event table\).
 
 </td></tr></tbody>
 </table>## Using SGC Central for connectors

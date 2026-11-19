@@ -1,13 +1,13 @@
 ---
 title: ServiceNow Otto for Cloud Cost Management \(CCM\) release notes
-description: The ServiceNow Otto for Cloud Cost Management \(CCM\) application brings agentic AI to Cloud Cost Management. See the following sections for release notes by version.The ServiceNow Otto for Cloud Cost Management version 1.0.0. introduces AI-powered summarization of cloud spend.
+description: The ServiceNow Otto for Cloud Cost Management \(CCM\) application brings agentic AI to Cloud Cost Management. See the following sections for release notes by version.The ServiceNow Otto for Cloud Cost Management \(CCM\) version 1.0.0. introduces AI-powered summarization of cloud spend.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/servicenow-otto-ccm-rn-static.html
 release: australia
 topic_type: topic
 last_updated: "2026-10-08"
 reading_time_minutes: 1
-breadcrumb: [Asset Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [Asset Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # ServiceNow Otto for Cloud Cost Management \(CCM\) release notes
@@ -20,7 +20,7 @@ The ServiceNow Otto for Cloud Cost Management \(CCM\) application brings agentic
 -   Analyze cloud spend trends using an AI-powered summarization.
 -   Optimize cloud costs using recommendations to reduce unnecessary spending.
 
-See  for more information.
+See [AI in Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/ai-ccm.md) for more information.
 
 ## Activation and other requirements
 
@@ -33,11 +33,11 @@ See  for more information.
 
 ## Version 1.0.0
 
-The ServiceNow Otto for Cloud Cost Management version 1.0.0. introduces AI-powered summarization of cloud spend.
+The ServiceNow Otto for Cloud Cost Management \(CCM\) version 1.0.0. introduces AI-powered summarization of cloud spend.
 
 ### What's new
 
--   **Make smarter cloud cost decisions with AI-powered summarization of cloud spend**
+-   **[Make smarter cloud cost decisions with AI-powered summarization of cloud spend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/spend-summary-otto-ccm.md)**
 
     Get an AI-generated summary of your cloud spend trends, top cost drivers, and budget alignment with your selected filters and groupings. The **Summarize** button enables you to view month-over-month changes, commitments coverage, and the top five recommendations to reduce costs. Use these insights to make more informed decisions about your cloud spend.
 

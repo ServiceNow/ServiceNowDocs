@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/onboard-l1-sd-ai-spec.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-25"
 reading_time_minutes: 1
 breadcrumb: [Use, L1 IT Service Desk AI Specialist, IT Service Management]
 ---
@@ -16,7 +16,7 @@ Add the L1 IT Service Desk AI Specialist to your team or user assignment group.
 
 ## Before you begin
 
-Role required: sn\_itsm\_common.sn\_service\_desk\_manager
+Role required: sn\_sow\_itsm\_common.sn\_service\_desk\_manager
 
 ## About this task
 

@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Domain separation and Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -96,7 +96,7 @@ Remediation
 
 Supported. While editing alert management rules, users can only apply relevant workflows.
 
-For more information on domain separation in the Flow Designer, see [Domain separation and Flow Designer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-domain-separation.md)
+For more information on domain separation in the Flow Designer, see Domain separation and Flow Designer.
 
 </td></tr></tbody>
 </table>## Procedure

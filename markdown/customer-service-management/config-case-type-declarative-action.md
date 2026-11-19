@@ -1,18 +1,18 @@
 ---
 title: Configure case type declarative actions
-description: Configure declarative actions that enable agents to create cases and case tasks from different locations within CRM Workspace.
+description: Configure declarative actions that enable agents to create cases and case tasks from different locations within CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-case-type-declarative-action.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring customer service case types, Customer service case types, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure case type declarative actions
 
-Configure declarative actions that enable agents to create cases and case tasks from different locations within CRM Workspace.
+Configure declarative actions that enable agents to create cases and case tasks from different locations within CSM Configurable Workspace.
 
 ## Before you begin
 

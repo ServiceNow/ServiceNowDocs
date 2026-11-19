@@ -9,7 +9,7 @@ classification: now-assist-skill-kit
 topic_type: reference
 last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Exploring AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Exploring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # General guidelines for AI Skill Kit

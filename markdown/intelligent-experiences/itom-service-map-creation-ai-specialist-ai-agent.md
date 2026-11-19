@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itom-service-map-creation-ai-specialist-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-13"
+last_updated: "2026-08-14"
 reading_time_minutes: 3
-breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Service map AI agent

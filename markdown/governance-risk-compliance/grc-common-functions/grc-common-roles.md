@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [GRC reference, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -260,7 +260,7 @@ GRC Issue Workflow Admin\[sn\_grc\_issue\_mgmt.issue\_workflow\_admin\]
 
 </td><td>
 
-Full administrative access to issue workflow configuration. Users with this role can create and edit issue state models, manage the issue vertical view, configure approval workflows for issues, and perform all actions available to the issue workflow reader role.
+Full administrative access to issue workflow configuration. Users with this role can create and edit issue state models, manage the issue vertical view, and configure approval workflows for issues. This role includes all actions available to the issue workflow reader role.
 
 </td><td>
 

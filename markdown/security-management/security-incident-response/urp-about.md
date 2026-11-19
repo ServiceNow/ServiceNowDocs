@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 24
 breadcrumb: [Security incident automatic creation, Security incident creation, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -123,7 +123,7 @@ Role required: sn\_si.admin
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Email Processing** &gt; **Ingestion Rules - User Reported Phishing**.
 
-2.  Select **New** to create a new Email Matching Rule.
+2.  Select **New**.
 
 3.  Enter a name and define one or more conditions for the rule.
 
@@ -471,9 +471,13 @@ Some email ids in the To and CC list of the phishing email may not belong to use
 
 \[Omitted image "urp-sec-rec-unmatch1.png"\] Alt text: Unmatched users
 
-### User Reported Phishing in the Security Analyst Workspace
+### Legacy: User Reported Phishing in the Security Analyst Workspace
 
 You can view security incidents associated with the phishing email records in the Security Analyst Workspace.
+
+**Important:**
+
+The Security Incident Response UI \[sn\_app\_secops\_ui\] is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-workspace-landing-page.md) instead.
 
 Navigate to **Security Incident** &gt; **New UI**. The workspace opens in a separate browser tab. Select on the security incident associated with the phishing email record to view the security incident.
 

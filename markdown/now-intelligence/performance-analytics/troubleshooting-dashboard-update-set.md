@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Move a Core UI dashboard with an update set, Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -26,7 +26,9 @@ Role required: admin.
 
 ### Procedure
 
-1.  In the **Update Set Preview Problems** related list, click the information icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text:\) next to the error.\[Omitted image "update-set-preview-problems.png"\] Alt text: Update Set Preview Problems tab with two errors.
+1.  In the **Update Set Preview Problems** related list, click the information icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text:\) next to the error.
+
+    \[Omitted image "update-set-preview-problems.png"\] Alt text: Update Set Preview Problems tab with two errors.
 
 2.  In the pa\_tabs record payload, copy the sys\_id associated with the canvas\_page field.
 

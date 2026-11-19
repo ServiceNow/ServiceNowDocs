@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/update-branded-app.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -93,7 +93,7 @@ Mobile Application Management vendor
 
 </td><td>
 
-Select **Intune** MAM vendor from the list.
+Select the **Intune** MAM vendor from the list.
 
  This field is only visible if you select the **Mobile Application Management \(MAM\)** toggle.
 
@@ -229,6 +229,8 @@ AFter you have requested an updated iOS app for private distribution, perform th
 After you have requested an updated Android app for public distribution, perform these steps to test and publish it.
 -   **[Test and publish an updated iOS app for public distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/testpub-updat-ios-app-pub.md)**  
 After you have requested an updated iOS branded mobile app for public distribution, perform these steps to test and publish it.
+-   **[Asynchronous attachment uploads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/asynchronous-attachment-uploads.md)**  
+Set the `AsyncAttachmentsUploadEnabled` mobile property to true to turn on background file uploads in the ServiceNow mobile app.
 
 **Parent Topic:**[Request, test, and publish a branded mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/request-test-pub-branded-mob-app.md)
 

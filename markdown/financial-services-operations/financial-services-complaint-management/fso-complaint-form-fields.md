@@ -7,7 +7,7 @@ release: australia
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Work on a complaint case, Use, Complaint Management, Common applications, Financial Services Operations \(FSO\)]
 ---

@@ -1,20 +1,20 @@
 ---
 title: ServiceNow integrations with Microsoft Teams in Service Operations Workspace
-description: You can create a connected experience for users in Service Operations Workspace through ServiceNow integrations with Microsoft Teams.
+description: Collaborate with others in Microsoft Teams from the Collaborate panel of task records in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/msteams-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # ServiceNow integrations with Microsoft Teams in Service Operations Workspace
 
-You can create a connected experience for users in Service Operations Workspace through ServiceNow integrations with Microsoft Teams.
+Collaborate with others in Microsoft Teams from the Collaborate panel of task records in Service Operations Workspace.
 
 Collaboration using Microsoft Teams is available for the following task records in Service Operations Workspace.
 

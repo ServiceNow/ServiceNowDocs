@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/creating-ai-assets-newexperience.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-09"
 reading_time_minutes: 1
-breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Creating AI assets manually

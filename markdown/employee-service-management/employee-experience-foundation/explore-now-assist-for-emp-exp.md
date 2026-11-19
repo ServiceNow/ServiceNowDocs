@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Employee Experience, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Explore ServiceNow Otto for Employee Experience
@@ -79,6 +79,8 @@ For more information about an agentic workflow and activating the required compo
 -   [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-ai-agent.md)
 -   [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md)
 
+-   **[Activate ServiceNow Otto for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md)**  
+Activate ServiceNow Otto for Employee Experience skills to enable AI-powered summarization and assistance capabilities for employee requests, cases, and approval workflows.
 -   **[Supporting information for ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/supporting-info-for-now-assist-for-emp-expe.md)**  
 Get a quick overview of the key information related to the ServiceNow Otto for Employee Experience.
 

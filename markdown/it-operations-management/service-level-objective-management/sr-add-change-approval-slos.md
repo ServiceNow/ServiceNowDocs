@@ -7,7 +7,7 @@ release: australia
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Activate Service Level Objective \(SLO\) change approval decisions to evaluate c
 
 ## Before you begin
 
-Review change approval policies and their terminology, including policy inputs, decisions, and approval definitions. For more information, see [Change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-approval-policy.md).
+Review change approval policies and their terminology, including policy inputs, decisions, and approval definitions. For more information, see .
 
 Role required: admin
 

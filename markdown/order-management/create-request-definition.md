@@ -1,18 +1,18 @@
 ---
 title: Create a request definition
-description: Create a request definition and configure it into an order task to help your agents provide additional order attributes for the order fulfillment from the CRM Workspace.
+description: Create a request definition and configure it into an order task to help your agents provide additional order attributes for the order fulfillment from the CSM/FSM configurable workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-request-definition.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # Create a request definition
 
-Create a request definition and configure it into an order task to help your agents provide additional order attributes for the order fulfillment from the CRM Workspace.
+Create a request definition and configure it into an order task to help your agents provide additional order attributes for the order fulfillment from the CSM/FSM configurable workspace.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

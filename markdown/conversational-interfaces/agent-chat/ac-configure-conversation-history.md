@@ -1,5 +1,5 @@
 ---
-title: Setting up conversation history
+title: Set up conversation history
 description: Enable and customize the conversation history options that are available on the conversation history screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/agent-chat/ac-configure-conversation-history.html
@@ -7,12 +7,12 @@ release: australia
 product: Agent Chat
 classification: agent-chat
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
 ---
 
-# Setting up conversation history
+# Set up conversation history
 
 Enable and customize the conversation history options that are available on the conversation history screen.
 

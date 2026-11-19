@@ -1,18 +1,18 @@
 ---
 title: Using the activity stream in the contextual side panel
-description: Customer service agents can access the activity stream in the contextual side panel in CRM Workspace.
+description: Customer service agents can access the activity stream in the contextual side panel in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbooks-using-activity-stream.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using playbooks, Automate and optimize, Use, Customer Service Management]
+breadcrumb: [Page components, Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Using the activity stream in the contextual side panel
 
-Customer service agents can access the activity stream in the contextual side panel in CRM Workspace.
+Customer service agents can access the activity stream in the contextual side panel in CSM Configurable Workspace.
 
 The activity stream enables agents to communicate with requesters and make internal notes about the work done on a record. The activity stream updates when the current activity in the playbook is updated.
 
@@ -81,7 +81,7 @@ Expand and collapse posts
 
 </td><td>
 
-Select expand icon \(\[Omitted image "expand-arrow.png"\] Alt text: More options icon.\) to expand posts and collapse icon \[Omitted image "Collapse\_icon\_eaai\_new.png"\] Alt text: expand posts and collapse icon to collapse posts.
+Select expand icon \(\[Omitted image "expand-arrow.png"\] Alt text: More options icon.\) to expand posts and collapse icon \[Omitted image "Collapse\_icon\_eaai\_new.png"\] Alt text: collapse icon to collapse posts.
 
 </td></tr><tr><td>
 

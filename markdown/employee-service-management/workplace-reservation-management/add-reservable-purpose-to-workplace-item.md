@@ -7,7 +7,7 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure a reservable purpose, Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_wsd\_rsv.manager
 
 2.  Based on the type of workplace item that you want to add a reservable purpose to, do one of the following.
 
-<table id="choicetable_j22_wth_5nb"><thead><tr><th align="left" id="d361091e69">
+<table id="choicetable_j22_wth_5nb"><thead><tr><th align="left" id="d362892e69">
 
 Workplace item
 
-</th><th align="left" id="d361091e72">
+</th><th align="left" id="d362892e72">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d361091e78">
+</th></tr></thead><tbody><tr><td id="d362892e78">
 
 **Workplace space**
 
@@ -44,7 +44,7 @@ Navigation
 2.  Select the space that you are adding the purpose to.
 
 
-</td></tr><tr><td id="d361091e99">
+</td></tr><tr><td id="d362892e99">
 
 **Workplace room**
 

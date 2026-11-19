@@ -7,9 +7,9 @@ release: australia
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Creating insights, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # View automation insights
@@ -33,7 +33,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 5.  Review the information on the Automation insight page.
 
 
-**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automations.md)
+**Parent Topic:**[Creating insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/creating-insights.md)
 
 **Related topics**  
 

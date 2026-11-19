@@ -20,7 +20,7 @@ Runtime APIs are used to create, read, update, and delete configurations, and ar
 
 **Note:** For the most updated information on sample codes and other details, see [API Documentation](https://api-docs.logik.io/#introduction).
 
-All API calls follow this base URL format: `https://<yourTenant>.<sector>.logik.io/api/`. In this URL, yourTenant represents your unique listed ServiceNow CPQ tenant name, and sector is the sector where your ServiceNow CPQ environment is located.
+All API calls follow this base URL format: `https://<yourTenant>.<sector>.cpq/api/`. In this URL, yourTenant represents your unique listed ServiceNow CPQ tenant name, and sector is the sector where your ServiceNow CPQ environment is located.
 
 If you are a Salesforce user, you can find your tenant URL by clicking **Setup** in your Salesforce account. In the Quick Find box, search for or click **Custom Settings**, and then click **Manage**. Your tenant URL will be displayed.
 
@@ -272,5 +272,5 @@ raw: '{{logik}}' host:
 
 For more information about ServiceNow CPQ APIs, see the following eight-slide presentation:
 
-[APIs](https://docs.google.com/presentation/d/1dN5rfpk4jjS__GkBcarieNUEfyVY6bAvrhxkkm9DagI/edit?slide=id.g18313200e09_0_207#slide=id.g18313200e09_0_207).
+[CPQ APIs](https://docs.google.com/presentation/d/1dN5rfpk4jjS__GkBcarieNUEfyVY6bAvrhxkkm9DagI/edit?slide=id.g18313200e09_0_207#slide=id.g18313200e09_0_207).
 

@@ -62,7 +62,7 @@ Example cURL command:
 
 ```code
 
-    curl --location '<logik tenant>/api/logs/v1/logs' \
+    curl --location '<URL>/api/logs/v1/logs' \
     --header 'Content-Type: application/json' \
     --header 'Origin: localhost' \
     --header 'Authorization: <Admin API Key>'
@@ -73,7 +73,7 @@ You can refine results by specifying **before** and **after** parameters in ISO 
 
 ```code
 
-    curl --location '<logik tenant>/api/logs/v1/logs?after=YYYY-MM-DDThh%3Amm%3AssZ&before=YYYY-MM-DDThh%3Amm%3AssZ' \
+    curl --location '<URL>/api/logs/v1/logs?after=YYYY-MM-DDThh%3Amm%3AssZ&before=YYYY-MM-DDThh%3Amm%3AssZ' \
     --header 'Content-Type: application/json' \
     --header 'Origin: localhost' \
     --header 'Authorization: <Admin API Key>'

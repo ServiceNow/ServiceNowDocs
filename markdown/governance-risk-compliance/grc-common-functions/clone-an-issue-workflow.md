@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-01"
 reading_time_minutes: 1
 breadcrumb: [Issue workflows, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -18,36 +18,34 @@ Create a copy of an existing workflow to use as a starting point for a new workf
 
 ## Before you begin
 
-An issue workflow must already exist. See [Create an issue workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/create-an-issue-workflow.md).
-
 Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
 ## About this task
 
-Cloning copies the workflow's configuration, including its layout, state model, playbook, trigger condition, priority, and approvals. The cloned workflow's name defaults to the original workflow name followed by `(copy)`.
-
-After a workflow is cloned, each workflow step contains the copied configuration. However, the steps remain in a Pending state until you open them and save the configuration. You can review and modify any configuration before saving it.
+Cloning a workflow copies its layout, state model, playbook, state-to-stage mappings, and approvals. The cloned workflow does not copy the trigger condition or priority, and is created with a status of In Progress.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **GRC Issue Administration** &gt; **Issue workflows**.
+1.  Navigate to **All** &gt; **GRC Issue Administration** &gt; **Issue Workflows**.
 
-2.  In the **Issue workflows** list, select the workflow that you want to clone.
+2.  Open the workflow that you want to clone.
 
-3.  Select **Clone**.
+3.  Select **Clone workflow**.
 
-4.  Update the workflow **Name**, **Description**, or **Table**.
+4.  Enter a name for the cloned workflow.
 
-5.  Open each remaining workflow step and save the copied configuration.
+    If you don't provide a name, the new workflow is named after the original, with `(copy)` appended.
+
+5.  Select **Clone**.
 
 
 ## Result
 
-A new workflow is created with the copied configuration.
+The cloned workflow opens with a status of In Progress. You must set the trigger condition and priority, then activate the workflow before it takes effect.
 
 ## What to do next
 
-Review and activate the workflow. See [Review and activate a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/review-and-activate-a-workflow.md).
+Set the trigger condition and priority. See [Set the trigger condition and priority for a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/set-the-trigger-condition-and-priority-for-a-workflow.md). Then review and activate the workflow. See [Review and activate a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/review-and-activate-a-workflow.md).
 
 **Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/issue-workflows.md)
 

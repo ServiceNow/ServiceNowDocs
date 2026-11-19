@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-follow-up-convsnts-new.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
 ---
 
 # Follow-up conversations
@@ -33,7 +33,7 @@ The AI agent conversation doesn't get closed after the execution is complete by 
 
 3.  On the form, fill in the fields.
 
-<table id="table_p1w_dxp_x2c"><thead><tr><th>
+<table id="table_follow_up_agent_property_form"><thead><tr><th>
 
 Field
 

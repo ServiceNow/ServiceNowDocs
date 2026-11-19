@@ -1,6 +1,6 @@
 ---
-title: Configure multi-instance management for AI Control Tower
-description: Configuring Multi-Instance management for AI Control Tower.
+title: Configure Multi-Instance management for Control Tower
+description: Configuring Multi-Instance management for Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [multi-instance management, AI governance workspace, instance configuration, manager instance]
-breadcrumb: [Configuring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# Configure multi-instance management for AI Control Tower
+# Configure Multi-Instance management for Control Tower
 
-Configuring Multi-Instance management for AI Control Tower.
+Configuring Multi-Instance management for Control Tower.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ Role required: AI Steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Procedure
 
-1.  Log in to the managed instance and navigate to **All** &gt; **Multi-Instance Management** &gt; **Manager Instances**.
+1.  Log in to the sub-prod instance and navigate to **All** &gt; **Multi-Instance Management** &gt; **Manager Instances**.
 
     The Manager Instances list view page appears.
 
@@ -54,9 +54,9 @@ Role required: AI Steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Result
 
-Multi-instance management is configured for the AI Control Tower.
+Multi-instance management is configured for the Control Tower.
 
 For more information about Trust configuration and Trust configuration management, see [Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/grant-access-v2.md).
 
-For more information about AI asset synchronization process, see [Multi-instance Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/multi-instance-management.md) section under Exploring the AI Control Tower configurations.
+For more information about AI asset synchronization process, see [Multi-Instance Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/multi-instance-management.md) section under Exploring the Control Tower configurations.
 

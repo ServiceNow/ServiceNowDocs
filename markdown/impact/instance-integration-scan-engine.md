@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-10-27"
 reading_time_minutes: 4
-breadcrumb: [Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Configuring Impact, Impact]
 ---
 
 # Scan Engine integrations
@@ -74,18 +74,17 @@ Synchronizes definition overrides and custom definitions between non-production 
 Creates tasks for findings from a ServiceNow instance to:
 
  -   ServiceNow production instance
--   Jira
 -   Azure DevOps
 -   Others
 
- **Note:** Jira and Azure DevOps authenticate with a Basic auth record and an API token, configured in Scan Engine Properties. The Other type takes a username and API token directly on Scan Engine Properties. None of these types use My SN Instances.
+ **Note:** Azure DevOps authenticate with a Basic auth record and an API token, configured in Scan Engine Properties. The Other type takes a username and API token directly on Scan Engine Properties. None of these types use My SN Instances.
 
 </td><td>
 
 -   ServiceNow user story integration:
     -   Configure on the source instance where the findings originate.
     -   The target is production.
--   Jira, Azure DevOps, or the Other types:
+-   Azure DevOps, or the Other types:
     -   Configure on the instance where Scan Engine runs and the findings are generated.
     -   These types don't need a My SN Instances record.
 
@@ -122,15 +121,19 @@ A stack with more than two instances needs an OAuth provider registry and an OAu
 -   **[Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/register-your-instance.md)**  
 Register each participating ServiceNow instance in the My SN Instances table before configuring any instance-to-instance integration.
 -   **[Definitions integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/definitions-integrations.md)**  
-The Definitions integration manually syncs new, customized, and overridden definitions from development to production and the other instances.
+The Definitions integration synchronizes new, customized, and overridden definitions between non-production and production instances.
 -   **[Exception reason integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/exception-reason-integration.md)**  
-You can synchronize exception reasons from non-production to Production instances after a record is created or updated.
+You can synchronize exception reasons from non-production to Production instances once a record is created or updated.
 -   **[User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/user-story-integration-properties.md)**  
-The User story integration creates agile tasks and stories directly from Scan Engine finding records in ServiceNow, Jira, Azure DevOps, or any external system.
+The User story integration creates agile tasks and stories directly from Scan Engine finding records in ServiceNow, Azure DevOps, or any external system.
 -   **[Deployment and synchronization integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/deployment-sync-integrations.md)**  
 The AES/AEMC and Update set integrations control how custom app deployments are governed and how scan results are synchronized across your instance stack.
 -   **[Configure other integration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-other-integration-options.md)**  
 Configure the Other integration to create work items in any external system by using a payload script, an endpoint, a username, and an API token.
 
-**Parent Topic:**[Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-initial-scan-engine-settings.md)
+**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-impact-platform.md)
+
+**Previous topic:**[Initiate data migration from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/initiate-migration-idi.md)
+
+**Next topic:**[Instance integration setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-integrations-overview.md)
 

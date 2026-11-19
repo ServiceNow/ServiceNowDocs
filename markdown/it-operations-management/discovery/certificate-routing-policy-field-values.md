@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -87,11 +87,7 @@ Vault Type
 
 </td><td>
 
-External vault provider to use for private key storage with this routing policy. When set, the system stores private keys in the specified vault during automated certificate operations.The available options are:
-
--   HashiCorp Vault
--   Azure Key Vault
--   CyberArk PVWA
+External vault provider to use for private key storage with this routing policy. When set to HashiCorp Vault, the system stores private keys in the HashiCorp vault during automated certificate operations.
 
 </td></tr><tr><td>
 
@@ -115,11 +111,7 @@ PKCS12 Password Vault Reference
 
 </td><td>
 
-Reference to the PKCS\#12 key store password stored in your external vault. The format depends on your vault type: -   For HashiCorp Vault, enter the full path to the secret
--   For Azure Key Vault, enter the secret name
--   For CyberArk PVWA, enter the account name
-
-This field is required when the Certificate Format field is set to PKCS12.
+Reference to the PKCS\#12 key store password stored in your external vault. For HashiCorp Vault, enter the full path to the secret. This field is required when the Certificate Format field is set to PKCS12.
 
 </td></tr><tr><td>
 

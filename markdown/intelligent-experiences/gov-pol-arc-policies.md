@@ -1,6 +1,6 @@
 ---
 title: Arc policies
-description: Control which tools, commands, network destinations, files, and connector permissions ServiceNow Arc can use on your users' devices, and which actions wait for a person's approval, from AI Control Tower.
+description: Control which tools, commands, network destinations, files, and connector permissions ServiceNow Arc can use on your users' devices, and which actions wait for a person's approval, from Super Intelligence Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-pol-arc-policies.html
 release: australia
@@ -8,12 +8,12 @@ topic_type: concept
 last_updated: "2026-10-23"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, arc policies, servicenow arc, arc governance]
-breadcrumb: [Explore, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Explore, Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Arc policies
 
-Control which tools, commands, network destinations, files, and connector permissions ServiceNow Arc can use on your users' devices, and which actions wait for a person's approval, from AI Control Tower.
+Control which tools, commands, network destinations, files, and connector permissions ServiceNow Arc can use on your users' devices, and which actions wait for a person's approval, from Super Intelligence Control Tower.
 
 ## Key benefits
 
@@ -25,7 +25,7 @@ Control which tools, commands, network destinations, files, and connector permis
 
 ServiceNow Arc is an autonomous AI agent that runs commands, reads and writes files, and reaches external systems on behalf of users. Because it acts for users, your organization needs control over what it can do.
 
-Arc policies give you that control. You manage them centrally from AI Control Tower, and Arc checks every action against the policies that apply to the user before the action runs. Enforcement is built into Arc itself, so neither the agent nor the user can bypass a policy. For how policies reach the desktop application, see .
+Arc policies give you that control. You manage them centrally from Control Tower, and Arc checks every action against the policies that apply to the user before the action runs. Enforcement is built into Arc itself, so neither the agent nor the user can bypass a policy. For how policies reach the desktop application, see .
 
 Every user starts with the default Arc policy. To change what Arc does for a group, you create a policy for that group and add rules for only the behavior you want to change.
 

@@ -7,8 +7,8 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 75
+last_updated: "2026-03-12"
+reading_time_minutes: 73
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Service Order Open API provides endpoints that enable a standardized mechanism for placing service orders.
 
-This API is a ServiceNow® implementation of the TM Forum Service Ordering Management API specification. This implementation is based on the TMF641 Service Ordering Management API User Guide v4.1.1, published in March 2021 by [TM Forum](https://www.tmforum.org). The Service Order Open API implementation aligns with the TM Forum specification.
+This API is a ServiceNow® implementation of the TM Forum Service Ordering Management API specification. This implementation is based on the [TMF641 Service Ordering Management API User Guide v4.1.1](https://www.tmforum.org/resources/specifications/tmf641-service-ordering-management-api-user-guide-v4-1-1/), March 2021. The Service Order Open API is conformance certified by TM Forum
 
 \[Omitted image "tmf-conformance.png"\] Alt text: TMF conformance logo
 
@@ -62,54 +62,6 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-account
-
-</td><td>
-
-Filter orders by account. Only orders associated with the specified account are returned in the response.Data type: String
-
-</td></tr><tr><td>
-
-completionDate
-
-</td><td>
-
-Filter orders by completion date. Only orders with a CompletionDate matching the specified value are returned in the response.Data type: String
-
-</td></tr><tr><td>
-
-contact and consumer \(Related Party\)
-
-</td><td>
-
-Filter orders by associated contact or related party. Only orders linked to the specified contact or consumer record are returned in the response.Data type: String
-
-</td></tr><tr><td>
-
-expectedCompletionDate
-
-</td><td>
-
-Filter orders by expected completion date. Only orders with an expectedCompletionDate matching the specified value are returned in the response.Data type: String
-
-</td></tr><tr><td>
-
-expectedStartDate
-
-</td><td>
-
-Filter orders by expected start date. Only orders with an expectedStartDate matching the specified value are returned in the response.Data type: String
-
-</td></tr><tr><td>
-
-externalID
-
-</td><td>
-
-Filter orders by external identifier. Only orders with an externalID matching the value of this parameter are returned in the response.Data type: String
-
-</td></tr><tr><td>
-
 fields
 
 </td><td>
@@ -139,22 +91,6 @@ offset
 Starting index at which to begin retrieving records. Use this value to paginate record retrieval. This functionality enables the retrieval of all records, regardless of the number of records, in small manageable chunks.Data type: Number
 
 Default: 0
-
-</td></tr><tr><td>
-
-requestedCompletionDate
-
-</td><td>
-
-Filter orders by requested completion date. Only orders with a requestedCompletionDate matching the specified value are returned in the response.
-
-</td></tr><tr><td>
-
-requestedStartDate
-
-</td><td>
-
-Filter orders by requested start date. Only orders with a requestedStartDate matching the specified value are returned in the response.
 
 </td></tr><tr><td>
 
@@ -303,6 +239,14 @@ Date on which the order is to be completed.Data type: String
 
 </td></tr><tr><td>
 
+externalId
+
+</td><td>
+
+External system identifier that links the product order to your source system or third-party application.Data type: String
+
+</td></tr><tr><td>
+
 href
 
 </td><td>
@@ -411,9 +355,7 @@ relatedParty.id
 
 </td><td>
 
-Sys\_id or external\_id of the account, customer contact, or consumer associated with the order.Table: Account \[customer\_account\], Contact \[customer\_contact\] table, or Consumer \[csm\_consumer\] table.
-
-Data type: String
+Sys\_id or external\_id of the account, customer contact, or consumer associated with the order. Located in the Account \[customer\_account\], Contact \[customer\_contact\] table, or Consumer \[csm\_consumer\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -550,9 +492,7 @@ serviceOrderItem.id
 
 </td><td>
 
-Required if the **productOrderItem.productOrderItemRelationship** parameter is used. Unique identifier of the related line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table.Stored in: The parent\_line\_item field of thebsn\_ind\_tmt\_orm\_order\_line\_item table.
-
-Default: Blank string
+Required. Unique identifier of the line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -988,6 +928,7 @@ Response body.
         "href": "/api/sn_tmf_api/order/serviceOrder/bd30366ec3a83010abc8b5183c40dd92",
         "completionDate": "2021-06-07T21:52:12.000Z",
         "expectedCompletionDate": "2018-01-14T20:07:40.000Z",
+        "externalId": "ORD-2026-0087654"
         "orderDate": "2021-06-08T05:34:59.000Z",
         "requestedCompletionDate": "2018-01-14T20:07:40.000Z",
         "requestedStartDate": "2018-01-14T20:07:40.000Z",
@@ -1104,80 +1045,11 @@ Sys\_id of the service order to retrieve.Data type: String
 Table: Order \[sn\_ind\_tmt\_orm\_order\]
 
 </td></tr></tbody>
-</table><table class="rest_api_query_parameters"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-account
-
-</td><td>
-
-Filter orders by account. Only orders associated with the specified account are returned in the response.Data type: String
-
-</td></tr><tr><td>
-
-completionDate
-
-</td><td>
-
-Filter orders by completion date. Only orders with a CompletionDate matching the specified value are returned in the response.Data type: String
-
-</td></tr><tr><td>
-
-contact and consumer \(Related Party\)
-
-</td><td>
-
-Filter orders by associated contact or related party. Only orders linked to the specified contact or consumer record are returned in the response.Data type: String
-
-</td></tr><tr><td>
-
-expectedCompletionDate
-
-</td><td>
-
-Filter orders by expected completion date. Only orders with an expectedCompletionDate matching the specified value are returned in the response.Data type: String
-
-</td></tr><tr><td>
-
-expectedStartDate
-
-</td><td>
-
-Filter orders by expected start date. Only orders with an expectedStartDate matching the specified value are returned in the response.Data type: String
-
-</td></tr><tr><td>
-
-externalID
-
-</td><td>
-
-Filter orders by external identifier. Only orders with an externalID matching the value of this parameter are returned in the response.Data type: String
-
-</td></tr><tr><td>
-
-requestedCompletionDate
-
-</td><td>
-
-Filter orders by requested completion date. Only orders with a requestedCompletionDate matching the specified value are returned in the response.Data type: String
-
-</td></tr><tr><td>
-
-requestedStartDate
-
-</td><td>
-
-Filter orders by requested start date. Only orders with a requestedStartDate matching the specified value are returned in the response.Data type: String
-
-</td></tr></tbody>
 </table>|Name|Description|
+|----|-----------|
+|None| |
+
+|Name|Description|
 |----|-----------|
 |None| |
 
@@ -1296,6 +1168,14 @@ Date on which the order is to be completed.Data type: String
 
 </td></tr><tr><td>
 
+externalId
+
+</td><td>
+
+External system identifier that links the product order to your source system or third-party application.Data type: String
+
+</td></tr><tr><td>
+
 id
 
 </td><td>
@@ -1404,9 +1284,7 @@ relatedParty.id
 
 </td><td>
 
-Required. Sys\_id or external\_id of the account, customer contact, or consumer associated with the order.Table: Account \[customer\_account\], Contact \[customer\_contact\] table, or Consumer \[csm\_consumer\] table.
-
-Data type: String
+Required. Sys\_id or external\_id of the account, customer contact, or consumer associated with the order. Located in the Account \[customer\_account\], Contact \[customer\_contact\] table, or Consumer \[csm\_consumer\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -1543,9 +1421,7 @@ serviceOrderItem.id
 
 </td><td>
 
-Required if the **productOrderItem.productOrderItemRelationship** parameter is used. Unique identifier of the related line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table.Stored in: The parent\_line\_item field of thebsn\_ind\_tmt\_orm\_order\_line\_item table.
-
-Default: Blank string
+Required. Unique identifier of the line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -1993,6 +1869,7 @@ Response body.
    "id": "4f2af65ac3a030106e2473ce3640ddcf",
    "ponr": "false",
    "expectedCompletionDate": "2018-01-15T09:37:40.000Z",
+   "externalId": "ORD-2026-0087654"
    "requestedCompletionDate": "2018-01-15T09:37:40.000Z",
    "requestedStartDate": "2018-01-15T09:37:40.000Z",
    "note": [
@@ -2202,7 +2079,7 @@ Additional notes/comments made by the customer while ordering. Data type: String
 
 Stored in: The comments field of the sn\_ind\_tmt\_orm\_order table.
 
-Default: empty string
+Default: Blank string
 
 </td></tr><tr><td>
 
@@ -2275,7 +2152,7 @@ Optional. Delivery date requested by the customer. Data type: String
 
 Stored in: The expected\_end\_date field of the sn\_ind\_tmt\_orm\_order table.
 
-Default: empty string
+Default: Blank string
 
 </td></tr><tr><td>
 
@@ -2287,7 +2164,7 @@ Optional. Order start date requested by the customer. Data type: String
 
 Stored in: The expected\_start\_date field of the sn\_ind\_tmt\_orm\_order table.
 
-Default: empty string
+Default: Blank string
 
 </td></tr><tr><td>
 
@@ -3056,9 +2933,7 @@ serviceOrderItem.id
 
 </td><td>
 
-Sys\_id or external\_id of the account, customer contact, or consumer associated with the order.Table: Account \[customer\_account\], Contact \[customer\_contact\] table, or Consumer \[csm\_consumer\] table.
-
-Data type: String
+Unique identifier of the line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -3964,7 +3839,7 @@ Additional notes/comments made by the customer while ordering. Data type: String
 
 Stored in: The comments field of the sn\_ind\_tmt\_orm\_order table.
 
-Default: empty string
+Default: Blank string
 
 </td></tr><tr><td>
 
@@ -4049,7 +3924,7 @@ Optional. Delivery date requested by the customer. Data type: String
 
 Stored in: The expected\_end\_date field of the sn\_ind\_tmt\_orm\_order table.
 
-Default: empty string
+Default: Blank string
 
 </td></tr><tr><td>
 
@@ -4061,7 +3936,7 @@ Optional. Order start date requested by the customer. Data type: String
 
 Stored in: The expected\_start\_date field of the sn\_ind\_tmt\_orm\_order table.
 
-Default: empty string
+Default: Blank string
 
 </td></tr><tr><td>
 
@@ -4729,7 +4604,7 @@ orderId
 
 </td><td>
 
-Sys\_id of the order to be created. on succussful request, the order is added to the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table on a schedule to be processed.**Note:** This value is the only result if the order is created asynchronously using the **mode** query parameter.
+Sys\_id of the order to be created. Upon succussful request, the order is added to the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table on a schedule to be processed.**Note:** This value is the only result if the order is created asynchronously using the **mode** query parameter.
 
 ```
 {
@@ -4904,13 +4779,11 @@ External ID mapped to the product inventory.Data type: String
 
 </td></tr><tr><td>
 
-relatedParty.id
+serviceOrderItem.id
 
 </td><td>
 
-Sys\_id or external\_id of the account, customer contact, or consumer associated with the order.Table: Account \[customer\_account\], Contact \[customer\_contact\] table, or Consumer \[csm\_consumer\] table.
-
-Data type: String
+Unique identifier of the line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
 
 </td></tr><tr><td>
 

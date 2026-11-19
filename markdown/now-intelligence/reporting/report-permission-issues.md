@@ -7,7 +7,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -20,7 +20,7 @@ There are several reasons why a report is showing less information than expected
 
 A common reason that a report may not be viewable is that the report hasn’t been shared with the users who are attempting to access it. By default, a newly created report won’t be shared and therefore inaccessible to anyone except the report creator or users with the admin role. A report can be shared with an individual user, with one or more groups, or assigned to one or more roles.
 
-Unshared reports don’t appear in lists of reports a user has access to or in other options where a report can be opened or selected. When users can see a dashboard the report has been added to, but not the report itself, a message indicates that the the report has limited visibility.
+Unshared reports don’t appear in lists of reports a user has access to or in other options in which a report might be opened or selected. When users are able to see a dashboard the report has been added to, but not the report itself, a message indicates that the "Report is visible only to a specific user or group".
 
 To correct this issue, the owner of the report \(or an administrator\) can share that report with the individuals who should have visibility and access to that report. You can share a report directly from the report's sharing icon. For more information, see [Share a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_ShareASetting.md).
 
@@ -40,7 +40,7 @@ This issue is caused by the fact that Before Query business rules are performed 
 
 ## Reports no longer public
 
-On upgrade to Brazil, all public Core UI reports are unpublished to enhance security awareness and control. The glide.report.published\_reports.enabled property on all Core UI reports is set to false. Users with the report\_admin role can navigate to the sys\_report\_public table to view unpublished reports or enable sharing with logged in users inside the platform. Only customer support can enable the public capacity.
+On upgrade from Zurich, all public Core UI reports are unpublished to enhance security awareness and control. The **glide.report.published\_reports.enabled** property is set to false. Users with the report\_admin role can navigate to the Reports Public \[sys\_report\_public\] table to view unpublished reports. Such users can also enable the public capacity or enable sharing with logged in users inside the platform.
 
 **Note:** To make a Core UI report available only to users who are logged in, set its **Sharing** setting to **Everyone**, but do not publish it.
 

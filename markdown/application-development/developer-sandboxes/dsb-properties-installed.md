@@ -7,9 +7,9 @@ release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: reference
-last_updated: "2026-10-20"
-reading_time_minutes: 4
-breadcrumb: [Install and configure, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+last_updated: "2026-10-19"
+reading_time_minutes: 3
+breadcrumb: [Install and configure, Developer Sandboxes, Developing your application, Building applications]
 ---
 
 # Properties installed with Developer Sandboxes
@@ -34,18 +34,6 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
-`glide.dev_sandbox.enabled`
-
-</td><td>
-
-Turns on sandboxes for the instance. The com.glide.dsb plugin doesn't enable sandboxes automatically.Type: true or false
-
-</td><td>
-
-Set to true before you add the instance through license management.
-
-</td></tr><tr><td>
-
 `glide.dev_sandbox.num.controller`
 
 </td><td>
@@ -59,8 +47,6 @@ Number of nodes that run as a controller.-   Type: number
 -   Increasing converts unassigned nodes to controller nodes.
 -   Decreasing converts unassigned nodes to nodes.
 -   More controller nodes mean you get fewer sandboxes.
-
- **Important:** Reconfigure this property after installing the com.glide.dsb plugin to ensure the correct number of controller nodes for your sandbox capacity. Failure to reconfigure this property after installation can result in incorrect sandbox availability.
 
 </td></tr><tr><td>
 
@@ -249,35 +235,5 @@ Maximum limit of concurrent sandbox allocations/retirements events.-   Type: num
 
 Increasing the value enables more concurrent allocations/retirement, but could overload the database.
 
-</td></tr><tr><td>
-
-`glide.dev_sandbox.pool.factor`
-
-</td><td>
-
-Percentage of the sandboxes on the instance that are pre-created and kept in the pool for faster allocation.-   Type: number
--   Default value: 100
--   Other possible values: 0-100
-
-</td><td>
-
-The pool never exceeds the number of sandboxes that aren't yet allocated.
-
-</td></tr><tr><td>
-
-`glide.dev_sandbox.pool.keep_alive_minutes`
-
-</td><td>
-
-Number of minutes that a pooled sandbox stays unclaimed before it's retired and replaced.-   Type: number
--   Default value: 1440 \(24 hours\)
--   Other possible values: 1-525600
-
-</td><td>
-
--   Decreasing the value refreshes pooled sandboxes more often, so they stay closer to the current base instance state.
--   Increasing the value keeps pooled sandboxes longer.
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Developer Sandboxes installation and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dsb-configuring-landing.md)
-
+</table>

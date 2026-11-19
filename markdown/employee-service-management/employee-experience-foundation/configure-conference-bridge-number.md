@@ -1,20 +1,20 @@
 ---
 title: Configure the conference bridge numbers to join calls via phone
-description: Configure the conference bridge number to allow the participants to collaborate to resolve the incidents via the conference bridge number.Reserve a conference bridge number to host the conference calls to work towards the resolution of incidents via conference bridge number.Configure the conference bridge number to be used for collaborating with the participants to resolve the major incidents.Make the conference bridge number available for the participants to join a conference call via the bridge number.
+description: Configure conference bridge numbers so participants can join a conference call by phone and collaborate to resolve incidents.Reserve a conference bridge number so participants can join conference calls to resolve incidents by dialing in.Configure the conference bridge number to be used for collaborating with the participants to resolve the major incidents.Make the conference bridge number available for the participants to join a conference call via the bridge number.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configure-conference-bridge-number.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure Notify connector, Microsoft Teams integration for Agent Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configure Notify connector, Microsoft Teams integration for Agent Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Configure the conference bridge numbers to join calls via phone
 
-Configure the conference bridge number to allow the participants to collaborate to resolve the incidents via the conference bridge number.
+Configure conference bridge numbers so participants can join a conference call by phone and collaborate to resolve incidents.
 
 **Note:** These are additional configuration, which are optional and can be used as required.
 
@@ -22,7 +22,7 @@ Configure the conference bridge number to allow the participants to collaborate 
 
 ## Reserve a conference bridge number
 
-Reserve a conference bridge number to host the conference calls to work towards the resolution of incidents via conference bridge number.
+Reserve a conference bridge number so participants can join conference calls to resolve incidents by dialing in.
 
 ### Before you begin
 

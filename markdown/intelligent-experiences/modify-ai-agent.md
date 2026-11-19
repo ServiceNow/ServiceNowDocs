@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/modify-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-16"
 reading_time_minutes: 3
-breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Modify an AI agent

@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Workplace Calendar Synchronization
+title: Resolving connection setup issues in Workplace Calendar Synchronization
 description: This section helps administrators troubleshoot connection setup issues in Workplace Calendar Synchronization. Calendar sync integrates ServiceNow Workplace with external calendar providers — Microsoft Exchange Online and Google Calendar — to synchronize room and resource availability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-calendar-synchronization/troubleshooting-workplace-calendar-synchronization.html
@@ -7,12 +7,12 @@ release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 4
 breadcrumb: [Reference, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Troubleshooting Workplace Calendar Synchronization
+# Resolving connection setup issues in Workplace Calendar Synchronization
 
 This section helps administrators troubleshoot connection setup issues in Workplace Calendar Synchronization. Calendar sync integrates ServiceNow Workplace with external calendar providers — Microsoft Exchange Online and Google Calendar — to synchronize room and resource availability.
 
@@ -109,4 +109,23 @@ The user-level connection is established per user when they interact with the Wo
     -   Confirm that the **Integration Type** on the Credential record is set to Personal.
 
 **Important:** Do not select **Get OAuth Token** on the Personal credential record. In Personal mode, each user’s OAuth token is generated automatically via a pop-up or in-application prompt the first time they interact with the calendar feature. Manually generating the token on this credential will interfere with per-user token management.
+
+**Parent Topic:**[Workplace Calendar Synchronization references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-references.md)
+
+**Related topics**  
+
+
+[Components installed with Workplace Calendar Synchronization]()
+
+[Properties installed with Workplace Calendar Synchronization]()
+
+[Scheduled jobs installed with Workplace Calendar Synchronization]()
+
+[Flows installed with Workplace Calendar Synchronization]()
+
+[Instance scan findings]()
+
+[Provider form]()
+
+[Third-party OAuth Provider form]()
 

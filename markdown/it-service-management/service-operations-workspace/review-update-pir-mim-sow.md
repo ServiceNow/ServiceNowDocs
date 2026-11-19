@@ -7,8 +7,8 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2025-01-30"
+reading_time_minutes: 6
 breadcrumb: [Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -23,13 +23,19 @@ The major incident must be in the **Resolved** state. For more information, see 
 Role required:
 
 -   For PIR review: sn\_incident\_read or sn\_incident\_write
--   For PIR update, generate and download: major\_incident\_manager, incident\_write \(added as co-contributors\) or admin
+-   For PIR update, generate, download, publish or edit co-contributor: major\_incident\_manager, sn\_incident\_write \(report author, assigned to the incident or added as co-contributors\) or admin
 
 ## About this task
 
 Reviewing the post incident report \(PIR\) also provides an opportunity to evaluate the incident response process and identify areas for improvement. The PIR can be reviewed and updated during the review process before it's shared with stakeholders.
 
-After you resolve a major incident, you must publish the PIR for the major incident and share it with the stakeholders within a specified time duration as defined in the SLA. You can configure the SLA by specifying the value in hours in the **PIR publish hours** \(**sn\_sow\_inc.pir.publish.hours**\) system property.
+After you resolve a major incident, publish the PIR and share it with stakeholders within the time defined in the SLA. To configure the SLA, set the value in positive number of hours in the **PIR publish hours** \(**sn\_sow\_inc.pir.publish.hours**\) system property. This property enables you to set how long after resolution, a post incident report must be published, and drives the PIR banner on the incident record.
+
+After the SLA is configured, the following type of banners are displayed based on the SLA elapsed or time remaining:
+
+-   Information banner - Displays the information "Publish post incident report by &lt;date&gt;&lt;time&gt;" message when less than 70 percentage of the SLA has elapsed since major incident resolution.
+-   Warning banner - Displays the caution message with remaining time "Caution! PIR SLA &lt;n&gt; is approaching. Publish post incident report by &lt;date&gt;&lt;time&gt;." when 70 to 100 percentage of the SLA has elapsed since major incident resolution.
+-   Critical banner - Displays "SLA Breached! Publish post incident report as soon as possible." message when the no time is remaining and SLA is breached.
 
 **Tip:** For guidelines on customizing the Post Incident Report layout and content, search the [ServiceNow Community](https://community.servicenow.com/community) for `customize post incident review report`.
 

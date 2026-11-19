@@ -19,7 +19,7 @@ Enable and configure the AI Specialist's capabilities by activating the Deflect,
 
 Very you have the following setting
 
--   Platform version Brazil Patch 2 or later.
+-   Platform version Australia Patch 8 or later.
 -   ServiceNow Otto for IT Operations Management \(ITOM\) application, version 2.10.0 or later.
 -   AIOps Experience application, version 27.2.68 or later.
 -   AIOps AI Specialist \(sn\_ai\_aiops\_force\) plugin, version 3.0.0 or later.

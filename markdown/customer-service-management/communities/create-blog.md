@@ -7,7 +7,7 @@ release: australia
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Post and respond to content in the community, Using communities, Communities, Customer Service Management]
 ---
@@ -21,10 +21,6 @@ Create a blog post and publish it immediately, schedule to publish at a specifie
 You can only post a blog in a forum or sub forum if you have been assigned the correct permissions in the parent forum.
 
 Role required: sn\_communities.community\_user
-
-**Important:**
-
-Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -107,15 +103,15 @@ Click the check box to publish the blog on a specified date. Select the date, ti
 </td></tr></tbody>
 </table>4.  Complete one of the following actions to save your blog.
 
-<table id="choicetable_dq1_gnp_t1b"><thead><tr><th align="left" id="d304348e264">
+<table id="choicetable_dq1_gnp_t1b"><thead><tr><th align="left" id="d303191e245">
 
 To
 
-</th><th align="left" id="d304348e267">
+</th><th align="left" id="d303191e248">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d304348e273">
+</th></tr></thead><tbody><tr><td id="d303191e254">
 
 **Save as Draft**
 
@@ -128,7 +124,7 @@ From your profile page, you have the following options.1.  To review your blog b
 -   Click the corresponding ellipsis \[Omitted image "moreoptions-icon.png"\] Alt text: More Options icon and then **Delete**.
 
 
-</td></tr><tr><td id="d304348e339">
+</td></tr><tr><td id="d303191e320">
 
 **Schedule**
 
@@ -136,7 +132,7 @@ From your profile page, you have the following options.1.  To review your blog b
 
 Click **Schedule** to post a blog on the specified date. You can edit or disable the schedule until the blog is published. **Note:** This option appears for a blog for which **Schedule Publish** option is selected.
 
-</td></tr><tr><td id="d304348e357">
+</td></tr><tr><td id="d303191e338">
 
 **Post**
 

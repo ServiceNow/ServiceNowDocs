@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/sir-security-incident-shift-handover-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-14"
 reading_time_minutes: 2
-breadcrumb: [Security Incident Response AI agents, Security Incident Response, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Security Incident Response AI agents, Security Incident Response, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Security incident shift handover AI agent

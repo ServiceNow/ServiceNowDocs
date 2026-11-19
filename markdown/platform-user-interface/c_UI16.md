@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_UI16.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -13,8 +13,6 @@ breadcrumb: [Working in Core UI, Configure UIs and portals, Configure user exper
 # Core UI
 
 The Core UI predates the Next Experience UI.
-
-Watch the video above to learn about the elements of the Core UI.
 
 Notable features include real-time form updates, user presence, a pinned application navigator with tabs for favorites and history, and activity streams.
 
@@ -65,7 +63,9 @@ The Edge
 The Edge is removed in Core UI. The collapsed view of the Core UI application navigator is similar to the Edge.
 
 </td></tr></tbody>
-</table>-   **[Core UI application navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UI16ApplicationNavigator.md)**  
+</table>-   **[Activate Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_ActivateUI16.md)**  
+Core UI can be activated with the Core UI plugin \(com.glide.ui.ui16\) if you have the admin role.
+-   **[Core UI application navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UI16ApplicationNavigator.md)**  
 The Core UI application navigator appears at the left of the interface and provides access to all available applications and modules, favorites, and recently viewed items.
 -   **[System settings for the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_UI16BannerFrame.md)**  
 You can define system settings to customize the Core UI for yourself. The gear icon, located within the banner frame, displays the system settings window.

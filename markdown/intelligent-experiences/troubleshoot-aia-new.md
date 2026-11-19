@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/troubleshoot-aia-new.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-16"
+last_updated: "2026-11-05"
 reading_time_minutes: 4
-breadcrumb: [Reference, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Reference, AI Agent Studio, Enable AI experiences]
 ---
 
 # Troubleshoot AI agents
@@ -58,7 +58,7 @@ To identify the roles currently assigned to:
     -   AI Agent \[sn\_aia\_agent\] table: Verify agent definitions during failure scenarios.
     **Important:** Silent failures that return no values may indicate an underlying access error. You might have access to the agentic workflow, but the AI agent within the workflow may lack necessary permissions. Always test all underlying AI agents individually, not just the workflow, to catch permission gaps that your own access level might mask.
 
-    To manually test an agentic AI asset, see [Manually test an agentic AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-ai-asset-new.md).
+    To manually test the access requirements of an agentic AI asset, see [Test access to an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-access-ai-asset.md).
 
 -   **Review logs**
 

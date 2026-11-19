@@ -7,7 +7,7 @@ release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 10
 breadcrumb: [Reference, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -96,7 +96,7 @@ Azure Subscription
 
 Enable automatic provisioning of the monitoring agent to collect security data.
 
- When 'Log Analytics agent for Azure VMs' is turned on, Microsoft Defender for Cloud provisions the Microsoft Monitoring Agent on all existing supported Azure virtual machines and on any new ones created. The Microsoft Monitoring Agent scans for security-related configurations and events such as system updates, OS vulnerabilities, and endpoint protection, and provides alerts.
+ When 'Log Analytics agent for Azure VMs' is turned on, Microsoft Defender for Cloud provisions the Microsoft Monitoring Agent on all supported Azure virtual machines, including new ones. The Microsoft Monitoring Agent scans for security-related configurations and events such as system updates, OS vulnerabilities, and endpoint protection, and provides alerts.
 
 </td></tr><tr><td>
 
@@ -304,7 +304,7 @@ Microsoft.Sql/servers
 
 TDE with Customer-managed key support provides increased transparency and control over the TDE Protector, increased security with an HSM-backed external service, and promotion of separation of duties. With TDE, data is encrypted at rest with a symmetric key \(called the database encryption key\) stored in the database or data warehouse distribution. To protect this data encryption key \(DEK\) in the past, only a certificate that the Azure SQL Service managed could be used.
 
- Now, with Customer-managed key support for TDE, the DEK can be protected with an asymmetric key that is stored in the Key Vault. Key Vault is a highly available and scalable cloud-based key store which offers central key management, leverages FIPS 140-2 Level 2 validated hardware security modules \(HSMs\), and allows separation of key and data management for additional security. Based on business needs or criticality of data or databases hosted a SQL server, it is recommended that the TDE protector is encrypted by a key that is managed by the data owner \(Customer-managed key\).
+ With Customer-managed key support for TDE, the DEK can be protected with an asymmetric key stored in Key Vault. Key Vault is a highly available, scalable, cloud-based key store. It offers central key management, uses FIPS 140-2 Level 2 validated hardware security modules \(HSMs\), and separates key and data management for additional security. For data or databases hosted on a SQL server, encrypt the TDE protector with a Customer-managed key. This gives the data owner control over the key.
 
 </td></tr><tr><td>
 
@@ -382,7 +382,7 @@ Microsoft.KeyVault
 
 The key vault contains object keys, secrets and certificates. Accidental unavailability of a key vault can cause immediate data loss or loss of security functions \(authentication, validation, verification, non-repudiation, etc.\) supported by the key vault objects.
 
- Enable the "Do Not Purge" and "Soft Delete" functions to make the key vault recoverable. This prevents loss of encrypted data, including storage accounts, SQL databases, and dependent services provided by key vault objects \(Keys, Secrets, Certificates\), whether from accidental deletion or malicious activity.
+ Enable the "Do Not Purge" and "Soft Delete" functions to make the key vault recoverable. This prevents loss of encrypted data from accidental deletion or malicious activity. Protected data includes storage accounts, SQL databases, and dependent services provided by key vault objects \(Keys, Secrets, Certificates\).
 
  Users may accidentally run delete or purge commands on a key vault, or a malicious user may do so deliberately. Deleting or purging a key vault causes immediate data loss, as keys and secrets or certificates become inaccessible.
 

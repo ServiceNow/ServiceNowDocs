@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -39,7 +39,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
     |Action name|Enter a unique name for your action.|
     |Description|Description of the action.|
     |Application|Application scope of the action.|
-    |Domain|Domain scope of the action. For more information about domain separation, see .|
+    |Domain|Domain scope of the action. For more information about domain separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md).|
     |**Additional properties**|
     |Accessible From|Accessible from all application scoped or only within the specified application scope.|
     |Category|Defined category within the application scope for an action. Beginning with the Xanadu release, you can create a custom category to organize your actions.|
@@ -100,7 +100,7 @@ Advanced options
 
 </td><td>
 
-Inputs provide advanced options based on their data type. All inputs have advanced options to add a hint or provide a default value. Use advanced options to guide flow designers through adding and configuring an action to a flow. For example, create a choice input to provide flow designers with a pre-defined list of configuration options to choose from. For more information about the configuration options available to particular data types, see field types.
+Inputs provide advanced options based on their data type. All inputs have advanced options to add a hint or provide a default value. Use advanced options to guide flow designers through adding and configuring an action to a flow. For example, create a choice input to provide flow designers with a pre-defined list of configuration options to choose from. For more information about the configuration options available to particular data types, see [field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
  Select \[Omitted image "icon-advanced-input.png"\] Alt text: Open icon to view the advanced options and define values.
 

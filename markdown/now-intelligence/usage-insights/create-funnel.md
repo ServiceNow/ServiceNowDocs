@@ -34,7 +34,7 @@ Role required: analytics\_viewer, portal\_analytics\_viewer, mobile\_analytics\_
 
 6.  From the **Step Type** options, select steps you want to measure, and screens, events, or actions as applicable.
 
-<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d97629e121">
+<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d96367e128">
 
 **Event Trigger**
 
@@ -42,7 +42,7 @@ Role required: analytics\_viewer, portal\_analytics\_viewer, mobile\_analytics\_
 
 Select [User Analytics Events KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/view-events.md) to measure. To match a selected event by a certain property, select **Filter properties**, select a property from the list, and enter a value for the property.
 
-</td></tr><tr><td id="d97629e147">
+</td></tr><tr><td id="d96367e154">
 
 **Session Start \(1st\)**
 
@@ -50,7 +50,7 @@ Select [User Analytics Events KPIs](https://raw.githubusercontent.com/ServiceNow
 
 Select to measure users' first sessions.
 
-</td></tr><tr><td id="d97629e156">
+</td></tr><tr><td id="d96367e163">
 
 **Session Start \(any\)**
 

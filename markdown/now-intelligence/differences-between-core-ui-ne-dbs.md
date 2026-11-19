@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/differences-between-core-ui-ne-dbs.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [What's the difference between old and new dashboards]
 breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -17,7 +17,7 @@ When the unified analytics property is enabled, Core UI dashboards and dashboard
 
 Both Core UI and Platform Analytics dashboards enable you to show visual components in a shareable canvas. When the **com.glide.par.unified\_analytics.enabled** property is enabled, all dashboards are available. This property is set to true on net new Australia instances and on upgrade to Australia.
 
-On migrated instances, your Core UI data, existing [dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md), reports, interactive filters, and Performance Analytics widgets are moved to Platform Analytics. The result is a single set of visualizations and unified filters for all data sources. For more information, see [Platform Analytics Migration Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/data-migration.md).
+On migrated instances, your Core UI data, existing dashboards, reports, interactive filters, and Performance Analytics widgets are moved to Platform Analytics. The result is a single set of visualizations and unified filters for all data sources. For more information, see [Platform Analytics Migration Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/data-migration.md).
 
 ## Core UI dashboards
 
@@ -36,7 +36,7 @@ When you edit Core UI dashboards and their content, you do so in the Core UI too
 
 ## Platform Analytics dashboards
 
-Platform Analytics dashboards are created using either UI Builder or the inline dashboard editor. These dashboards support all objects in the element library, such as data visualizations, filters, and rich text. In a tabbed dashboard, these contents can be placed in a tab or above the tabs. [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md) placed above the tabs apply to content on all the tabs.
+Platform Analytics dashboards are created using either UI Builder or the inline dashboard editor. These dashboards support all objects in the element library, such as data visualizations, filters, and rich text. In a tabbed dashboard, these contents can be placed in a tab or above the tabs. Filters placed above the tabs apply to content on all the tabs.
 
 When you create Platform Analytics dashboards, you can add any existing element that you have rights to, or create a new element from within the dashboard. These elements include data-agnostic visualizations based on indicators, table data, MetricBase data, and Usage Insights.
 

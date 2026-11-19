@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-subscriptionmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -406,7 +406,7 @@ Xanadu
 
 </td><td>
 
-Subscription Management is a ServiceNow AI Platform feature that is active by default. Updates for Subscription Management are available through the [https://www.servicenow.com/docs/access?context=var.store-url&amp;family=xanadu&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=var.store-url&family=xanadu&ft:locale=en-US). For cumulative release notes information for applications available on the ServiceNow AI Platform, see [https://www.servicenow.com/docs/access?context=sn-store-release-notes&amp;family=xanadu&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Subscription Management is a ServiceNow AI Platform feature that is active by default. Updates for Subscription Management are available through the [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/home](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For cumulative release notes information for applications available on the ServiceNow AI Platform, see [ServiceNow Store release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -416,7 +416,7 @@ Yokohama
 
 -   **Activation information**
 
-Subscription Management is a ServiceNow AI Platform feature that is active by default. Updates for Subscription Management are available through the [https://www.servicenow.com/docs/access?context=external.sn-app-store&amp;family=yokohama&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=yokohama&ft:locale=en-US). For cumulative release notes information for applications available on the ServiceNow Store, see [https://www.servicenow.com/docs/access?context=sn-store-release-notes&amp;family=yokohama&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Subscription Management is a ServiceNow AI Platform feature that is active by default. Updates for Subscription Management are available through the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For cumulative release notes information for applications available on the ServiceNow Store, see [ServiceNow Store release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr><tr><td>
@@ -427,7 +427,7 @@ Zurich
 
 -   **Activation information**
 
-Subscription Management is a ServiceNow AI Platform feature that is active by default.Updates for Subscription Management are available through the [https://www.servicenow.com/docs/access?context=external.sn-app-store&amp;family=zurich&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=zurich&ft:locale=en-US). For cumulative release notes information for applications available on the ServiceNow Store, see [https://www.servicenow.com/docs/access?context=sn-store-release-notes&amp;family=zurich&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Subscription Management is a ServiceNow AI Platform feature that is active by default.Updates for Subscription Management are available through the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For cumulative release notes information for applications available on the ServiceNow Store, see [ServiceNow Store release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Subscription Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -440,7 +440,7 @@ Australia
 
 -   **Activation information**
 
-Subscription Management is a ServiceNow AI Platform feature that is active by default. Updates for Subscription Management are available through the [https://www.servicenow.com/docs/access?context=external.sn-app-store&amp;family=australia&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=australia&ft:locale=en-US). For cumulative release notes information for applications available on the ServiceNow Store, see [https://www.servicenow.com/docs/access?context=sn-store-release-notes&amp;family=australia&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Subscription Management is a ServiceNow AI Platform feature that is active by default. Updates for Subscription Management are available through the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For cumulative release notes information for applications available on the ServiceNow Store, see [ServiceNow Store release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Subscription Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

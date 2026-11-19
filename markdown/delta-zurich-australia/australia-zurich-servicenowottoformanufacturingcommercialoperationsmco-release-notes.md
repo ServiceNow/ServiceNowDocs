@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-servicenowottoformanufacturingcommercialoperationsmco-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Zurich
 
 </td><td>
 
--   **[Execute recall campaigns faster](https://www.servicenow.com/docs/access?context=execute-recall-campaigns&family=zurich&ft:locale=en-US)[\[Placeholder link text to key execute-recall-campaigns-faster\]](https://www.servicenow.com/docs/access?context=execute-recall-campaigns-faster&family=zurich&ft:locale=en-US)**
+-   **[Execute recall campaigns faster](https://www.servicenow.com/docs/access?context=execute-recall-campaigns&family=zurich&ft:locale=en-US)[execute recall campaigns faster](https://www.servicenow.com/docs/access?context=execute-recall-campaigns-faster&family=zurich&ft:locale=en-US)**
 
 Use the create recall corrective actions AI agent to extract the information available in the repair documents. The AI agent identifies and collects all relevant data contained within the repair documents and generates the corrective action and the corresponding charges.
 

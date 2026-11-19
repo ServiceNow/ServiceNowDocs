@@ -7,8 +7,8 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-11-06"
-reading_time_minutes: 2
+last_updated: "2026-11-19"
+reading_time_minutes: 3
 keywords: [ServiceNow Otto, Agentic AI, generative AI, Gen AI]
 breadcrumb: [AI in Third-party Risk Management, Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -54,6 +54,8 @@ The following table describes the key elements associated with an issue recommen
 **Note:** Issue recommendations can be generated only from Smart Assessment Engine questionnaires. They are generated based on historical assessment data from classic and smart assessments and configured recommendation logic. Reviewers must evaluate and confirm each recommendation before creating an issue.
 
 The accuracy of issue recommendations depends on the quality and configuration of Smart Assessment Engine templates, including supported question types and historical issue data.
+
+**Important:** After installation, all ServiceNow Otto for TPRM skills are made available but remain inactive. Each skill needs to be activated after installation to be available for use. To turn on generative AI skills use the [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 **Related topics**  
 

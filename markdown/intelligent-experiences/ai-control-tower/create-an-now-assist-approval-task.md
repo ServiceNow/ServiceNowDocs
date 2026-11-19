@@ -1,28 +1,30 @@
 ---
-title: Create a Now Assist approval task
-description: Create an Now Assist approval task to evaluate the assets. The Now Assist approval task is a sub task of an approval request where you will need approvals from other organizations or entities like Legal review, Security review, Data review, Piracy review etc.
+title: Create a ServiceNow Otto approval task
+description: Create an ServiceNow Otto approval task to evaluate the assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Use, Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# Create a Now Assist approval task
+# Create a ServiceNow Otto approval task
 
-Create an Now Assist approval task to evaluate the assets. The Now Assist approval task is a sub task of an approval request where you will need approvals from other organizations or entities like Legal review, Security review, Data review, Piracy review etc.
+Create an ServiceNow Otto approval task to evaluate the assets.
 
 ## Before you begin
+
+The ServiceNow Otto approval task is a sub task of an approval request where you will need approvals from other organizations or entities like Legal review, Security review, Data review, Piracy review etc.
 
 Role required: admin
 
 ## Procedure
 
-1.  Navigate to Now Assist **Approvals** and open an Approval record.
+1.  Navigate to ServiceNow Otto **Approvals** and open an Approval record.
 
 2.  Under the **Playbook** section, confirm that the **Review asset** step is marked as complete.
 
@@ -40,6 +42,6 @@ Role required: admin
 
 7.  Select **Save**.
 
-    A Now Assist Approval task of an approval request is created.
+    A ServiceNow Otto Approval task of an approval request is created.
 
 

@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-10-22"
+last_updated: "2026-10-27"
 reading_time_minutes: 1
 keywords: [zero copy connector for erp, data fabric table, workflow data fabric, workflow data fabric hub, sap ecc connector, sap s/4hana connector, external records, gliderecord sap data]
 breadcrumb: [Data retrieval, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -29,4 +29,6 @@ For details about the SAP connectors and data fabric tables, see:
 -   [SAP S/4HANA connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/sap-s4hana-primary-zcc.md)
 -   [Data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-fabric-tables-zcc.md)
 -   [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md)
+
+**Parent Topic:**[Retrieving data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-retrieving-data.md)
 

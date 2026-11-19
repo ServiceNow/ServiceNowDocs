@@ -78,7 +78,7 @@ Picklist
 
 </td><td>
 
-Stores a single selected value or multiple selected values from a defined list of options, depending on the configuration mode selected.When defining picklist options, you control the order in which they appear. You assign a label \(the user-facing name\) and value \(the system identifier\). You can designate a default selection, provide an optional description, and include an optional image URL to visually represent the option.
+Stores a single selected value or multiple selected values from a defined list of options, depending on the configuration mode selected.When defining picklist options, you control the order in which they appear, assign a label \(the user-facing name\) and value \(the system identifier\), designate a default selection, provide an optional description, and include an optional image URL to visually represent the option.
 
 Picklist fields support a comparison type setting—select Text to compare options as text strings or Number to compare them numerically. This setting affects how the system processes and sorts picklist selections.
 
@@ -88,7 +88,7 @@ Date/Time
 
 </td><td>
 
-Stores both date and time values in UTC format \(YYYY-MM-DDTHH:MM:SSZ\) to ensure consistency across time zones.You can set a default date/time value that pre-fills when a transaction is created. The Not Before and Not After constraints restrict the date/time range users can select. These constraints enforce business rules such as "quotes cannot be created for dates in the past" or "expiration dates must be within 30 days."
+Stores both date and time values in UTC format \(YYYY-MM-DDTHH:MM:SSZ\) to ensure consistency across time zones.You can set a default date/time value that pre-fills when a transaction is created. The Not Before and Not After constraints restrict the date/time range users can select, enforcing business rules such as "quotes cannot be created for dates in the past" or "expiration dates must be within 30 days."
 
 For detailed guidance on date and time field configuration and best practices, see [Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-date-time-field-behavior.md).
 
@@ -105,7 +105,16 @@ Transaction line-level system fields cover the following categories: pricing inf
 
 Custom fields can be added to a blueprint through the ServiceNow Quote Experience administration interface. Fields created through the interface are automatically associated with the blueprint.
 
-Custom transaction fields can be created for platform capabilities such as Approvals, PDF Document Generation, or Order Creation. The field must sync from the ServiceNow CPQ Microservices to the Platform. For more information, see [Configure transaction-to-quote field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-opportunity-quote-mapping.md).
+-   **[Create a transaction field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-field.md)**  
+Create a custom field in ServiceNow Quote Experience to capture additional data at the transaction \(header\) level or the transaction line level in ServiceNow CPQ.
+-   **[Transaction-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-header-level-system-fields.md)**  
+Reference for the system-provided fields at the transaction \(header\) level in Quote Experience, including variable names, descriptions, who can modify each field, and default values.
+-   **[Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-line-level-system-fields.md)**  
+Reference for the system-provided fields at the transaction line level in ServiceNow CPQ ServiceNow Quote Experience, including variable names, descriptions, who can modify each field, and default values.
+-   **[Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-date-time-field-behavior.md)**  
+Reference for how date and time fields behave in ServiceNow CPQ ServiceNow Quote Experience rules and scripts, including comparison operators, null handling, and supported aggregate functions.
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 
 **Related topics**  
 

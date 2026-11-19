@@ -34,15 +34,15 @@ You can create change templates for any change model, including the Normal, Stan
 
 1.  Access the Create a new change template form.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d351810e77">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d345315e77">
 
 Source
 
-</th><th align="left" id="d351810e80">
+</th><th align="left" id="d345315e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d351810e86">
+</th></tr></thead><tbody><tr><td id="d345315e86">
 
 **Change Model**
 
@@ -54,7 +54,7 @@ Description
 
 **Note:** You can propose a new template only if you have access to the change model.
 
-</td></tr><tr><td id="d351810e123">
+</td></tr><tr><td id="d345315e123">
 
 **Create a change request page**
 
@@ -74,7 +74,7 @@ Description
 6.  Select **Create a new template**.
 
 
-</td></tr><tr><td id="d351810e180">
+</td></tr><tr><td id="d345315e180">
 
 **Templates tab**
 
@@ -156,8 +156,8 @@ A change template is created and sent for approval to the approvers configured i
 To view the review status of all the templates proposed by you, navigate to **All** &gt; **Models** &gt; **My Template Proposals**.
 
 -   **[Configure template categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-template-categories.md)**  
-Create template categories and child categories to classify templates based on a change model, template usage, and requirements.
--   **[Modify a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/modify-or-retire-template.md)**  
+Create template categories and child categories to classify templates based on a change model, template usage, and organizational areas like software or security.
+-   **[Modify a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/modify-or-retire-template.md)**  
 Copy and modify change templates.
 -   **[Review a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/review-change-template.md)**  
 Review a change template proposed for common change requests.

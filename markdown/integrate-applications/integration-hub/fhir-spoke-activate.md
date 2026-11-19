@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-06-16"
+last_updated: "2026-11-16"
 reading_time_minutes: 5
 keywords: [activate, install, plugins, connection, credential alias, OAuth, FHIR server, data stream, pagination, Flow Designer, FHIR search]
 breadcrumb: [HL7 FHIR Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
@@ -29,6 +29,8 @@ The following platform plugins must be active before the spoke's stream actions 
 -   Integration Hub Action Template — Data Stream \(`com.glide.hub.action_type.datastream`\)
 
 ## About this task
+
+The HL7 FHIR Spoke plugin has the scope name `sn_hl7_fhir_spoke`.
 
 HL7 FHIR Spoke is distributed as a scoped application in the ServiceNow Store. After you install it, the eight FHIR actions appear in the Workflow Studio action picker under the four FHIR Integration Hub categories.
 

@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [UI pages and macros, Write client-side scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Scripting, API implementation, API implementation and reference]
 ---
 
 # HTML syntax editor
@@ -25,5 +25,5 @@ The syntax editor has these features.
 
 \[Omitted image "HTMLSyntaxEditor.png"\] Alt text: Syntax editor for HTML and Jelly scripts.
 
-**Parent Topic:**[UI pages and macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/create-custom-ui-pages.md)
+**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
 

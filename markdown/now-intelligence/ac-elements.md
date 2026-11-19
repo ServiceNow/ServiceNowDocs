@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/ac-elements.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -28,7 +28,7 @@ For more information on Dashboards library, see [Dashboards in the library](http
 
 The configuration of the Dashboards page and the data access depends on the user roles. Users without admin roles have limited capabilities, as compared to the analytics admins. The analytics admins can perform actions such as deactivating, activating, deleting, or creating categories. For Dashboards, the applicable roles are dashboard\_admin, platform\_analytics\_admin, and admin. The lowest role required is dashboard\_admin. For more information on all dashboard roles, see table [Dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
-On Brazil instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
+On Australia instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
 
 For more information, see [Dashboards for analytics admins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-for-admin-users.md). For more information on the types of admin roles in Platform Analytics, see [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
@@ -80,7 +80,7 @@ Displays the dashboard title. Select the arrow to choose a different dashboard.
 
 </td><td>
 
-[Certification badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md)
+Certification badge
 
 </td><td>
 
@@ -220,6 +220,4 @@ Depending on your needs, you have four different ways to present a collection of
 [Technical dashboards]()
 
 [Dashboard reference]()
-
-[Dashboard terms]()
 

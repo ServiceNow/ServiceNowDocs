@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-10-08"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Create a collection of files in ServiceNow Studio
@@ -28,7 +28,7 @@ Collections extend bookmark functionality in ServiceNow Studio by grouping multi
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  In the File Navigator, hover over a file and select the add to collections icon \[Omitted image "sn-studio-collections-icon.png"\] Alt text:.
+2.  In the File Navigator, hover over a file and select the add to collections icon \[Omitted image "image.sn-studio-collections-icon"\] Alt text:.
 
     \[Omitted image "sn-studio-add-to-collection.png"\] Alt text: Add a file to a collection.
 

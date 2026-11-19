@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-02"
 reading_time_minutes: 6
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Managing AI assets, Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Managing AI assets, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
 # Create an asset in the AI asset inventory\(Next Experience UI\)

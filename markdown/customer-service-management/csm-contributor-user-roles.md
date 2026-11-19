@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-contributor-user-roles.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Contributor users, Configure contributor users, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,16 +16,16 @@ The contributor user data model includes several roles that control access to ca
 
 These roles are included with several different plugins:
 
--   Case Management Core \(com.sn\_customerservice\)
+-   Customer Service \(com.sn\_customerservice\)
 -   CSM Contributor User \(com.snc.csm\_contributor\_user\)
 -   Business Location \(com.snc.business\_location\)
 -   CSM Base Extension Entities \(com.snc.cs\_base\_extension\)
 
 See the following tables for detailed role descriptions.
 
-## Roles included with the Case Management Core plugin
+## Roles included with the Customer Service plugin
 
-The following table lists the contributor roles that are included with the Case Management Core \(com.sn\_customerservice\) plugin along with their descriptions and associated roles.
+The following table lists the contributor roles that are included with the Customer Service \(com.sn\_customerservice\) plugin along with their descriptions and associated roles.
 
 <table id="table_q3s_wcc_3nb"><thead><tr><th>
 
@@ -174,15 +174,33 @@ sn\_customerservice.case\_contributor\_creator
 
 </td></tr><tr><td>
 
-Business Organization Self Contributor\[sn\_bus\_loc.business\_org\_self\_contributor\]
+Business Org Account Contributor\[sn\_bus\_loc.business\_org\_account\_contributor\]
 
 </td><td>
 
-This role enables you to create and track cases for yourself while associating them with your business location. You can also link any sold products or install base items assigned to you at a business location to the case.
+This role enables you to create cases for accounts associated with your business organization using criteria-based restricted customer access. Track and manage cases created by you for the accounts associated with your business organization.This role enables you to also perform the following on the customer-visible case tasks for the cases you have access to at your service organization \(business location\):
+
+-   View and update case tasks and the fields on the case task record.
+-   Close case tasks in BLSP.
 
 </td><td>
 
-sn\_customerservice.case\_contributor\_creator
+ 
+
+</td></tr><tr><td>
+
+Business Org Consumer Contributor\[sn\_bus\_loc.business\_org\_consumer\_contributor\]
+
+</td><td>
+
+This role enables you to create cases for consumers and households associated with your business organization using criteria-based restricted customer access. Also, track and manage cases created by you for the consumers or households associated with your business organization.This role enables you to also perform the following on the customer-visible case tasks for the cases you have access to at your service organization \(business location\):
+
+-   View and update case tasks and the fields on the case task record.
+-   Close case tasks in BLSP.
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Roles included with the CSM Base Extension Entities plugin
@@ -209,7 +227,10 @@ Relationship contributor \[sn\_customerservice.relationship\_contributor\]
 
 This role enables you to create cases for customers with which they have an established relationship. **Note:**
 
--   The CSM Contributor User \(com.snc.csm\_contributor\_user\) plugin must be activated. This plugin is moved to the App Store beginning with Australia release.
+-   The CSM Contributor User \(com.snc.csm\_contributor\_user\) plugin must be activated.
+
+**Note:** The CSM Contributor User plugin is moved to the App Store beginning with Australia release.
+
 -   A relationship contributor must be a member of an account, contact, or household team to create cases on their behalf.
 
 </td><td>

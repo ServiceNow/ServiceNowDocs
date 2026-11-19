@@ -25,15 +25,15 @@ Role required: sn\_cm\_core.contract\_user or sn\_cm\_core.contract\_fulfiller
 
 1.  Navigate to the amendment request form.
 
-<table><thead><tr><th align="left" id="d287860e71">
+<table><thead><tr><th align="left" id="d289004e71">
 
 Entry point
 
-</th><th align="left" id="d287860e74">
+</th><th align="left" id="d289004e74">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d287860e80">
+</th></tr></thead><tbody><tr><td id="d289004e80">
 
 **Employee Center \(sn\_cm\_core.contract\_user\)**
 
@@ -44,7 +44,7 @@ Navigation
 3.  Select **Contract Amendment and Renewal**.
 
 
-</td></tr><tr><td id="d287860e119">
+</td></tr><tr><td id="d289004e119">
 
 **Contract Workspace \(sn\_cm\_core.contract\_fulfiller\)**
 
@@ -59,15 +59,15 @@ Navigation
 
 3.  Enter the contract details.
 
-<table><thead><tr><th align="left" id="d287860e161">
+<table><thead><tr><th align="left" id="d289004e161">
 
 Option
 
-</th><th align="left" id="d287860e164">
+</th><th align="left" id="d289004e164">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d287860e170">
+</th></tr></thead><tbody><tr><td id="d289004e170">
 
 **Select an existing contract**
 
@@ -84,14 +84,14 @@ Steps
 3.  Select **Select** to choose the contract.
 
 
-</td></tr><tr><td id="d287860e211">
+</td></tr><tr><td id="d289004e211">
 
 **Enter contract details manually**
 
 </td><td>
 
 1.  Select **Enter contract details manually**.
-2.  Select **Upload** to attach the contract document.
+2.  \(Optional\) Select **Upload** to attach the contract document.
 
 **Note:** You can only upload one document of PDF type.
 
@@ -106,15 +106,15 @@ Steps
 
     -   For own paper amendments: Adding documents is optional. Attached documents are classified as supporting documents.
     -   For third-party paper amendments: Attaching at least one contract document is required. You must classify the attached document.
-<table id="choicetable_eks_mwq_qkc"><thead><tr><th align="left" id="d287860e291">
+<table id="choicetable_eks_mwq_qkc"><thead><tr><th align="left" id="d289004e291">
 
 Method
 
-</th><th align="left" id="d287860e294">
+</th><th align="left" id="d289004e294">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d287860e300">
+</th></tr></thead><tbody><tr><td id="d289004e300">
 
 **Choose a file**
 
@@ -124,7 +124,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d287860e324">
+</td></tr><tr><td id="d289004e324">
 
 **Drag and drop**
 

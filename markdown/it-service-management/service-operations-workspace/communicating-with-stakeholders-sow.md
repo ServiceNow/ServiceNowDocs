@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -25,7 +25,7 @@ The **Communicate** tab contains the following options to create and manage comm
     -   Communication plan – The communication tasks that are associated with a particular communication plan are grouped.
     -   Completion status - The communication tasks are grouped based on the completion status and due dates. You can choose to list the tasks from the following group sections:
         -   Overdue – Communication tasks with past due dates.
-        -   Upcoming – Communication tasks with an upcoming due date.
+        -   Upcoming – Communications tasks with an upcoming due date.
         -   Completed – Communication tasks that are completed.
         -   Skipped – Communication tasks that are skipped.
 -   **Filter by communication plan**
@@ -45,7 +45,7 @@ The **Communicate** tab contains the following options to create and manage comm
     -   DEX must be version 2.5.0 or later.
 -   **Manage recipients**
 
-    Add and manage recipients for a communication task. You can add a user role and a user in the recipient list. You can also access this option by selecting the **More actions** \(\[Omitted image "mim-more-action-icon.png"\] Alt text: More action icon\) icon on the communication task and then selecting **Manage recipients**.
+    Add and manage recipients for a communications task. You can add a user role and a user in the recipient list. You can also access this option by selecting the **More actions** \(\[Omitted image "mim-more-action-icon.png"\] Alt text: More action icon\) icon on the communication task and then selecting **Manage recipients**.
 
 -   **New Communication**
 

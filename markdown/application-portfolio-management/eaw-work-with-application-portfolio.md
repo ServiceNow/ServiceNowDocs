@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-work-with-application-portfolio.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -72,10 +72,6 @@ You can create a Technology Reference Model \(TRM\) products and associate it wi
 You can add existing Technology Reference Model \(TRM\) product to business applications in the Enterprise Architecture Workspace.
 -   **[Remove TRM products from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-remove-trm-products-assoc-with-ba.md)**  
 You can remove the Technology Reference Model \(TRM\) products associated with business applications in the Enterprise Architecture Workspace, confirming only the relevant and current TRM products are associated with the business application.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-ai-systems.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-ai-systems.md)**  
-
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-remove-ai-systems-assoc-ba.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-remove-ai-systems-assoc-ba.md)**  
-
 -   **[Working with product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-working-with-product-capabilities.md)**  
 Add or edit product capabilities in the Enterprise Architecture Workspace.
 -   **[View all application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-app-services.md)**  

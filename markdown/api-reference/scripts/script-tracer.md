@@ -9,7 +9,7 @@ classification: scripts
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Script Debugger user interface, Use Script Debugger, Debug scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Script Debugger user interface, Script Debugger, Debugging scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Script Tracer and debugging scripts

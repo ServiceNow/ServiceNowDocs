@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/edit-font-size.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Global styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -54,7 +54,7 @@ Font sizing changes in Theme Builder also apply to web embeddables using your th
 
 5.  Edit global font sizes.
 
-<table id="choicetable_o4q_hfq_g3c"><tbody><tr><td id="d92720e179">
+<table id="choicetable_o4q_hfq_g3c"><tbody><tr><td id="d92546e179">
 
 **Edit global base font**
 
@@ -62,7 +62,7 @@ Font sizing changes in Theme Builder also apply to web embeddables using your th
 
 Under Global sizes, locate Base font size and enter a new size value.
 
-</td></tr><tr><td id="d92720e188">
+</td></tr><tr><td id="d92546e188">
 
 **Edit individual global font sizes**
 

@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -34,5 +34,5 @@ The **Advanced Configuration** tile on the Admin Console shows a link to [Dashbo
 
 The Admin Console tree view enables you to identify and view the relationships between Performance Analytics and Reporting entities in a hierarchy. With the tree view, you don't have to sift through multiple pages to determine how they relate to one another. For more information, see [\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/impact-analysis.md).
 
-For more information on Admin Console functionality, see [\(Legacy\) Performance Analytics Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-admin-console.md).
+For more information on Admin Console functionality, see [Performance Analytics Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-admin-console.md).
 

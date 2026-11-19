@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-13"
 reading_time_minutes: 2
 keywords: [ai specialist profile, ai specialist name, ai specialist icon, ai specialist brand, ai specialist description, ai specialist userid, ai specialist user id, ai specialist title, ai specialist department]
-breadcrumb: [Configure in AI Agent Studio, Configure, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Configure in AI Agent Studio, Configure, Autonomous Workforce, Enable AI experiences]
 ---
 
 # Edit the profile of an AI specialist in AI Agent Studio

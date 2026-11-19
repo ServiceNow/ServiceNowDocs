@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-27"
 reading_time_minutes: 2
-breadcrumb: [Telecommunications Network Inventory AI agents, Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Telecommunications Network Inventory AI agents, Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Rack placement AI agent

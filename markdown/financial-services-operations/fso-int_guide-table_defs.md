@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-int\_guide-table\_defs.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 66
 keywords: [fso tables, financial services operations tables, fso base tables, fso common tables]
 breadcrumb: [Developer resources, Financial Services Operations \(FSO\)]

@@ -18,7 +18,7 @@ Defer demands in Next Experience for Demand Management to move them to the backl
 
 ## Before you begin
 
-Only demands in the Draft or Completed state can be deferred.
+Only demands in the Submitted, Screening, or Qualified state can be deferred.
 
 Role required: it\_demand\_manager
 

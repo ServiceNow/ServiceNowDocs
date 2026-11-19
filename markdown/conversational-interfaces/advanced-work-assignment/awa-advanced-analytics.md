@@ -7,7 +7,7 @@ release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Analytics &amp; Reporting Solutions, Reference, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -22,7 +22,7 @@ The advanced analytics for the dashboards lets you see the dashboards in one of 
 
 -   **Recent** shows up to nine dashboards that you have visited recently. The most recent are shown first.
 -   **Owned by me** shows the dashboards that you have created and those dashboards to which you have been assigned ownership.
--   **Shared with me** shows the dashboards which have been shared with you as a user, or member of a group or role.
+-   **Shared with me** shows the dashboards which have been shared with you, a role you have, or a group that you are a member of.
 -   **All** shows all the dashboards that you have access to.
 
 **Note:** The category that you choose limits the dashboard groups and individual dashboards that you see when you choose from the Groups list and the **Dashboard Picker** field. If no dashboards in the incident group have been shared with you, and you select Incident from the Groups list, then the overview displays a note that no dashboards match your search.

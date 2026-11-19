@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [servicenow OAuth, Servicenow OAuth, ServiceNow OAuth, OAuth authentication, inbound authentication, outbound authentication, OAuth 2.0, OAuth provider, OAuth client, token endpoint, authorization server, resource server, OAuth scope, OAuth grant types]
 breadcrumb: [OAuth authentication, Authentication, Access Management]

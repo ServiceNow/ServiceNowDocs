@@ -125,7 +125,7 @@ Business application
 
 </td><td>
 
-One or more business applications to associate with the AI system. This field is available when the Enterprise Architecture for AICT plugin \(com.sn\_ea\_aict\) is active. The Enterprise Architecture for AICT plugin installs automatically with AI Control Tower Core \(sn\_ai\_governance\).
+One or more business applications to associate with the AI system. This field is available when the Enterprise Architecture for AICT plugin \(com.sn\_ea\_aict\) is active. The Enterprise Architecture for AICT plugin installs automatically with Control Tower Core \(sn\_ai\_governance\).
 
  Associate one or more business applications with the AI system.
 
@@ -135,7 +135,7 @@ One or more business applications to associate with the AI system. This field is
 
 For more information, see [AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-aict.md).
 
- **Note:** Starting in version 23.1.1, availability depends on the Enterprise Architecture for AICT plugin instead. If AI Risk and Compliance, Enterprise Architecture Workspace, and AI Control Tower Core are upgraded out of sync, this field's behavior and your existing business application associations may be temporarily affected. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
+ **Note:** Starting in version 23.1.1, availability depends on the Enterprise Architecture for AICT plugin instead. If AI Risk and Compliance, Enterprise Architecture Workspace, and Control Tower Core are upgraded out of sync, this field's behavior and your existing business application associations may be temporarily affected. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

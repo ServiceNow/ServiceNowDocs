@@ -33,7 +33,7 @@ Every row in the job's field list shows an asset, a field name, the field's prev
 
 2.  From the Enrichment fields tab, review the suggested values against the previous values and the AI confidence score.
 
-3.  To see the full asset details before accepting or rejecting a suggestion, select an asset ID to open the enrichment asset record, then select **View asset in catalog**.
+3.  To see the full asset details before accepting or rejecting a suggestion, select an asset ID to open the enrichment asset record, then select **View data asset in catalog**.
 
     \[Omitted image "dc-bulk-enrich-ai-view-job-02.png"\] Alt text: Enrichment fields tab showing suggested values, previous values, and AI confidence scores
 

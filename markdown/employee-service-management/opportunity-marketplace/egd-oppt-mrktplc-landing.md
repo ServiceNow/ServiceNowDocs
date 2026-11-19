@@ -7,7 +7,7 @@ release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---

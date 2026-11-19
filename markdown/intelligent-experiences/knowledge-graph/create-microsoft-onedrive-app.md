@@ -7,9 +7,9 @@ release: australia
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configuring Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
+breadcrumb: [Configuring Knowledge Graph, Knowledge Graph, Enable AI experiences]
 ---
 
 # Configure Microsoft OneDrive application for Knowledge Graph

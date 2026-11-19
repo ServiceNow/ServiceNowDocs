@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Build workflows]
 ---
@@ -22,7 +22,7 @@ Workflow is a legacy application that provided a drag-and-drop interface for aut
 
 **Explore**
 
- -   Brazil
+ -   Australia
 -   [Workflow movement with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowMovementWithUpdateSets.md)
 -   [Workflow activity pinning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-activities/c_ActivityPinning.md)
 -   [Domain separation and Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/c_WorkflowsAndDomainSeparation.md)

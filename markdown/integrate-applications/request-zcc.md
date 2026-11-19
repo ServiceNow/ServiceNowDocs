@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/request-zcc.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -56,7 +56,11 @@ Plugin Name
 
 </td><td>
 
-Enter: `Zero Copy Connectors (sn_data_fabric_zcc)`
+The plugin to activate depends on whether you're also installing primary and community connectors.
+
+ To install primary connectors with the Zero Copy Connector Hub, enter `Zero Copy Connectors Primary (sn_zcc_primary)`.
+
+ To install both primary and community connectors with the Zero Copy Connector Hub, enter `Zero Copy Connectors (sn_data_fabric_zcc)`.
 
 </td></tr><tr><td>
 

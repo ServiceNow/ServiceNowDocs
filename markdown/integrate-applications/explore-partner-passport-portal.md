@@ -1,11 +1,11 @@
 ---
 title: Explore Partner Passport Portal
-description: With Partner Passport Portal, you can use your committed fabric credits to purchase partner applications from your instance.
+description: Partner Passport Portal is an application in Workflow Data Fabric. You can purchase partner applications using Fabric Credits your organization has already committed, without a separate procurement cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/explore-partner-passport-portal.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-23"
+last_updated: "2026-10-29"
 reading_time_minutes: 2
 keywords: [Partner Passport Portal, Boomi, fabric credits]
 breadcrumb: [Partner Passport Portal, Workflow Data Fabric]
@@ -13,9 +13,7 @@ breadcrumb: [Partner Passport Portal, Workflow Data Fabric]
 
 # Explore Partner Passport Portal
 
-With Partner Passport Portal, you can use your committed fabric credits to purchase partner applications from your instance.
-
-Partner Passport Portal is an application in Workflow Data Fabric. You can use it to purchase partner applications using Fabric Credits your organization has already committed, without a separate procurement cycle.
+Partner Passport Portal is an application in Workflow Data Fabric. You can purchase partner applications using Fabric Credits your organization has already committed, without a separate procurement cycle.
 
 The portal lists the partner applications available to your instance along with the Fabric Credit cost of each. It also shows your available Fabric Credit balance and retains a record of every purchase you make.
 
@@ -33,7 +31,7 @@ Fabric Credits are committed for Workflow Data Fabric capabilities. Partner Pass
 
 ## Availability
 
-Partner Passport Portal is pre-installed on every instance. No separate plugin or installation is required. Check your entitlements to determine whether you can purchase partner applications. Purchases are supported only on production instances only. Fabric Credits apply at the instance level and cannot be pooled across instances.
+Partner Passport Portal is pre-installed on every instance. No separate plugin or installation is required. Check your entitlements to determine whether you can purchase partner applications. Purchases are supported on production instances only. Fabric Credits apply at the instance level and cannot be pooled across instances.
 
 ## Navigation
 

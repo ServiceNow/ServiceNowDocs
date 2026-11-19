@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Rotate event and alert table for cleanup, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-When the Event Management plugin is activated, a scheduled job runs the `Event Management - auto close alerts` script to close alerts in the alerts table that meet the specified conditions. The default retention policy for closed alerts is that the system deletes closed alerts if it is not updated for 90 days. For more information on the scheduled job, see [Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-cleaner.md).
+When the Event Management plugin is activated, a scheduled job runs the `Event Management - auto close alerts` script to close alerts in the alerts table that meet the specified conditions. The default retention policy for closed alerts is that the system deletes closed alerts if it is not updated for 90 days. For more information on the scheduled job, see .
 
 Due to the high level of traffic to the table, you cannot audit the Alert table \[em\_alert\] as a whole. Instead, audit selected fields of interest on the table.
 

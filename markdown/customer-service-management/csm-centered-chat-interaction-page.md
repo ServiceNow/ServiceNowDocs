@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-10-20"
 reading_time_minutes: 4
-breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Record pages, Record pages and page templates, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CSM centered chat interaction record page
@@ -147,11 +147,11 @@ Thin compose modeless dialogs enable agents to initiate a work note or email in 
 </td></tr></tbody>
 </table>## Plugin information
 
-The CSM centered chat interaction page template and record page are included with the CRM Workspace plugin \(com.snc.uib.csm\_agent\_workspace\).
+The CSM centered chat interaction page template and record page are included with the CSM Configurable Workspace plugin \(com.snc.uib.csm\_agent\_workspace\).
 
-## Default interaction record page in CRM Workspace
+## Default interaction record page in CSM Configurable Workspace
 
-The [CSM Interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-interaction-record-page.md) is the default experience for chat interaction in CRM Workspace. This page includes the chat component in the left panel.
+The [CSM Interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-interaction-record-page.md) is the default experience for chat interaction in CSM Configurable Workspace. This page includes the chat component in the left panel.
 
-To use the CSM centered chat interaction record page in CRM Workspace, enable the page and set the **Order** value. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-set-record-page-order.md).
+To use the CSM centered chat interaction record page in CSM Configurable Workspace, enable the page and set the **Order** value. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-set-record-page-order.md).
 

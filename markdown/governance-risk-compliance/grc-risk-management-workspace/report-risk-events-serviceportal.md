@@ -1,20 +1,20 @@
 ---
 title: Report risk events from the Service Portal
-description: When you identify any event that might have a financial or non financial impact on your organization, report it from the ServiceNow, Inc. Service Portal. You can also report any event that has already occurred with a financial or non financial impact.
+description: When you identify any event that might have a financial or non financial impact on your organization, report it from the Service Portal. You can also report any event that has already occurred with a financial or non financial impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/report-risk-events-serviceportal.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use Risk Events, Use, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Report risk events from the Service Portal
 
-When you identify any event that might have a financial or non financial impact on your organization, report it from the ServiceNow, Inc. Service Portal. You can also report any event that has already occurred with a financial or non financial impact.
+When you identify any event that might have a financial or non financial impact on your organization, report it from the Service Portal. You can also report any event that has already occurred with a financial or non financial impact.
 
 ## Before you begin
 

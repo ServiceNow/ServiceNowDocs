@@ -1,28 +1,28 @@
 ---
-title: Proactively invalidate sessions after defined durations
-description: The glide.active.session.timeout.invalidate.session property controls whether a timed-out session is proactively invalidated before the Tomcat server processes it.
+title: Proactively Invalidate Sessions After Defined Durations
+description: The glide.active.session.timeout.invalidate.session property controls whether a timeout session is proactively invalidated before the Tomcat server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-proactively-invalidate-inactive-sessions.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Proactively invalidate sessions after defined durations
+# Proactively Invalidate Sessions After Defined Durations
 
-The **glide.active.session.timeout.invalidate.session** property controls whether a timed-out session is proactively invalidated before the Tomcat server processes it.
+The **glide.active.session.timeout.invalidate.session** property controls whether a timeout session is proactively invalidated before the Tomcat server.
 
-When this property value isn't set to **true**, there’s a brief interval where the application doesn't proactively invalidates the timed-out session before the Tomcat container invalidates it. To enable active session timeout, the user also needs to define at least one of the following session timeout properties:
+When **glide.active.session.timeout.invalidate.session** isn't set to true, there’s a small interval of time where a timed-out session isn’t invalidated proactively before the Tomcat container invalidates the session. The duration of this time interval is dependent on additional properties representing differing use cases.
 
 |Property|Description|
 |--------|-----------|
-|glide.ui.active.session.life\_span|Defines the timeout period \(in minutes\) for UI sessions.|
-|glide.guest.active.session.life\_span|Defines the timeout period \(in minutes\) for guest sessions.|
-|glide.integrations.active.session.life\_span|Defines the timeout period \(in minutes\) for integration sessions.|
+|glide.ui.active.session.life\_span|The value of this property defines the time, in minutes, before a UI session is invalidated.|
+|glide.guest.active.session.life\_span|The value of this property defines the time, in minutes, before a guest session is invalidated.|
+|glide.integrations.active.session.life\_span|The value of this property defines the time, in minutes, before an integrations session is invalidated.|
 
 Ensure that the property **glide.active.session.timeout.invalidate.session** is set to true.
 

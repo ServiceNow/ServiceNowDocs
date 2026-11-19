@@ -38,7 +38,7 @@ These instructions create a system-based MAP for the system user's role. See [Co
 
 7.  Fill out the rest of the form accordingly.
 
-    \[Omitted image "image.fe-system-map"\] Alt text: System Module Access Policy Example
+    \[Omitted image "fe-system-map.png"\] Alt text: System Module Access Policy Example
 
 8.  Select **Save**.
 

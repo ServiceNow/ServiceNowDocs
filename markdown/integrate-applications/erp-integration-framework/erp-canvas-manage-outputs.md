@@ -8,7 +8,7 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-10-22"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, output, parameter, read, update, model, operation, map]
 breadcrumb: [Model management, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -95,4 +95,6 @@ If you're already in the process of managing a model and ready to specify output
 ## Result
 
 When you add mapped fields or parameters as outputs and successfully read or update the ERP system, each parameter appears as a field. You can then add the field to a remote table or an extraction table. Manage the fields for the remote table or extraction table to add the retrieved parameters.
+
+**Parent Topic:**[Managing Zero Copy Connector for ERP model inputs, outputs, and field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-manage-models.md)
 

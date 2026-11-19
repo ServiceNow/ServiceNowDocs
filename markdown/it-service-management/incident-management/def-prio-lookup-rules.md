@@ -7,7 +7,7 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Configuring Incident Management, Incident Management, IT Service Management]
 ---
@@ -18,11 +18,11 @@ Define impact and urgency combinations that determine incident priority and the 
 
 ## Before you begin
 
-Role required: data\_lookup\_admin or admin
+Role required: data\_lookup\_admin, or admin
 
 ## About this task
 
-Priority lookup rules are organizational configurations set by administrators. These rules define how impact and urgency values combine to determine the priority of each incident. Individual incident responders cannot change the priority lookup rules. If the calculated priority seems incorrect for your organization, contact your administrator to review the configured rules.
+Priority lookup rules are organizational configurations set by administrators. These rules ascertain how impact and urgency values combine to determine the priority of each incident. Individual incident responders cannot change the priority lookup rules. If the calculated priority seems incorrect for your organization, contact your system administrator to review the configured rules.
 
 ## Procedure
 
@@ -34,9 +34,9 @@ Priority lookup rules are organizational configurations set by administrators. T
 
     |Field|Description|
     |-----|-----------|
-    |Impact|Measure of the effect of an incident, problem, or change on business processes.|
-    |Urgency|Measure of how long the resolution can be delayed until an incident, problem, or change has a significant business impact.|
-    |Priority|Value based on impact and urgency that identifies how quickly the service desk should address the task.|
+    |Impact|Impact is a measure of the effect of an incident, problem, or change on business processes.|
+    |Urgency|Urgency is a measure of how long the resolution can be delayed until an incident, problem, or change has a significant business impact.|
+    |Priority|Priority is based on impact and urgency, and it identifies how quickly the service desk should address the task.|
     |Application|Application scope of the rules. The scope defines whether the rules are available for all applications or for scoped applications.|
     |Active|Option to define whether the rule is active or not.|
     |Order|Sequence in which the rules appear in the priority lookup list. This field indicates the sequence of the rule that is executed first.|
@@ -61,9 +61,7 @@ Priority lookup rules are organizational configurations set by administrators. T
 
 4.  Select **Submit**.
 
-    **Note:**
-
-    When you initially create and save an incident, the **Work notes** field isn't required. If you change the priority of the incident by selecting different **Impact** or **Urgency** values on an incident form that was saved, the **Work notes** field becomes required.
+    **Note:** When you initially create and save an incident, the **Work notes** field is not mandatory. If you change the priority of the incident by selecting different **Impact** or **Urgency** values on a incident form that was saved, the **Work notes** field becomes mandatory.
 
 
 **Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-configuration.md)

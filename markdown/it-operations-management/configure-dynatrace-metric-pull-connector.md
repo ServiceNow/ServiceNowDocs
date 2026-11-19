@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/configure-dynatrace-metric-pull-connector.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrations Launchpad in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure Dynatrace metric pull connector
@@ -18,7 +18,7 @@ Configure metric pull connectors that require a script, connector definition, an
 
 Role required: evt\_mgmt\_admin
 
-Configure the Dynatrace API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Dynatrace API Key credential, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/API-key-credential-form.md).
+Configure the Dynatrace API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Dynatrace API Key credential, see .
 
 ## About this task
 

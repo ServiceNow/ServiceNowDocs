@@ -7,9 +7,9 @@ release: australia
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Reference, Creator Studio, Developing your application, Classic app development, Building applications]
+breadcrumb: [Reference, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
 
 # Available question types in Creator Studio

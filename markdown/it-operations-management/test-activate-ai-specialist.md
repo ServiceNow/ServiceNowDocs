@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/test-activate-ai-specialist.html
 release: australia
 topic_type: task
-last_updated: "2026-10-18"
+last_updated: "2026-11-02"
 reading_time_minutes: 2
 keywords: [test, activate AI specialist, AI specialist, AIOps, NOC]
 breadcrumb: [Onboard the AIOps specialist, AIOps AI Specialist, ITOM AIOps specialists, AI in ITOM AIOps, ITOM AIOps, IT Operations Management]

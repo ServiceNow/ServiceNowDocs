@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manage Entity Based Access, Entity Based Access, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Role required:sn\_grc\_ent\_access.admin or sn\_grc\_ent\_access.bulk\_access\_a
 
 2.  Select **New**.
 
-    \[Omitted image "record-attribute-user-access.png"\] Alt text: New entity-based record access rule form.
+    \[Omitted image "record-attribute-user-access.png"\] Alt text: Entity-based access rules
 
 3.  From the **Record type** drop-down list, select the type for which you want to configure entity-based record access rules.
 

@@ -7,8 +7,8 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-03-12"
+reading_time_minutes: 4
 breadcrumb: [Fine-tune application services to implement owner requests, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -26,7 +26,7 @@ Role required: service\_mapping\_admin
 
 ## About this task
 
-When you transfer a map segment into another application service, you create a link between the original application service and the application service into which you planted the map segment. The connection to the top CI in the segment becomes an entry point when you transfer it into another application service.
+Transferring a map segment into another application service creates a link between the two services. The connection to the top CI in the segment becomes an entry point in the target service.
 
 The original service map shows the link to the other application service instead of the map segment. The service that contains the reference, becomes a dependent service. The service that appears as a reference is a contained service.
 

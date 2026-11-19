@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Automatic MID Server selection, Configuring ACC with a MID Server, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -22,37 +22,31 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-Agents with different levels of Agent Client Collector \(ACC\) capability can’t be considered for automatic MID Server selection. To block a MID Server from automatic selection, assign it different ACC capabilities from all other MID Servers in your environment. Do not assign different capabilities from the primary MID Server.
+Agents with different levels of Agent Client Collector \(ACC\) capability can't be considered for automatic MID Server selection. To block a MID Server from automatic selection, assign it different ACC capabilities from all other MID Servers in your environment. Don't assign different capabilities from the primary MID Server.
 
 ## Procedure
 
 1.  Configure the Agent Client Collector capabilities for MID Servers, as described in [Configure the Agent Client Collector capabilities for MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/configure-acc-capability.md).
 
-2.  Navigate to **All** &gt; **Agent Client Collector** &gt; **MID Servers**.
+2.  Navigate to All &gt; Agent Client Collector &gt; MID Servers.
 
-3.  Select the MID Server that you want to be ineligible for automatic MID Server selection.
+    1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **MID Servers**.
 
-4.  Select the additional actions icon \[Omitted image "additional-actions-icon.png"\] Alt text: Additional Actions icon. and select **View** &gt; **Default View**.
+    2.  Select the MID Server that you want to be ineligible for automatic MID Server selection.
 
-5.  Select the **Capabilities** tab.
+    3.  Select the additional actions icon \[Omitted image "additional-actions-icon.png"\] Alt text: Additional Actions icon. and select **View** &gt; **Default View**.
 
-6.  Ensure that the MID Server isn’t assigned with the capabilities that have **Is ACC Capability=true** on the **Capabilities** tab.
+    4.  Select the **Capabilities** tab.
+
+    5.  Ensure that the MID Server isn't assigned with the capabilities that have **Is ACC Capability=true** on the **Capabilities** tab.
 
 
-## Configuring MID Servers to be ineligible for automatic MID Server selection
+## Result
 
-1.  Assign the **AgentClientCollector** capability to MID Server A and MID Server C, but not to MID Server B.
-2.  On the MID Server Capabilities page:
-    1.  Assign a capability to MID Server A and MID Server C.
-    2.  Assign a different capability to MID Server B.
-3.  Install Agent Client Collector Framework and specify MID Server A as the MID Server during installation.
+You now have at least one MID Server ineligible for automatic MID Server selection.
 
-    After installation, the agent has **Status=Up** and its MID Server is MID Server A.
-
-4.  Execute the MID Server Selection scheduled job to determine which MID Servers are eligible for automatic MID Server selection.
-
-    MID Server B is ineligible for automatic selection, because it doesn’t have the same ACC capability as MID Server A. MID Server C is eligible, because it has the same ACC capability as MID Server A.
-
+-   **[Verify MID Server ineligibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/verify-mid-server-ineligibility.md)**  
+Verify that the MID Servers you configured to be ineligible for automatic MID Server selection can't be selected automatically.
 
 **Parent Topic:**[Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-auto-mid-selection.md)
 

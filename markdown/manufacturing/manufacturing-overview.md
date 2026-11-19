@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/manufacturing-overview.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 ---
 
@@ -43,7 +43,7 @@ The  ServiceNow® Manufacturing Commercial Operations \(MCO\) enables you to o
 
 </td><td>
 
-[Automate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/ai-in-mco.md)\[Omitted image "bus-ai-otto.svg"\] Alt text:Use generative AI skills and agentic workflows to automate manufacturing tasks.
+[Automate\[Omitted image "bus-ai-otto.svg"\] Alt text:Use generative AI skills and agentic workflows to automate manufacturing tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/ai-in-mco.md)
 
 </td><td>
 

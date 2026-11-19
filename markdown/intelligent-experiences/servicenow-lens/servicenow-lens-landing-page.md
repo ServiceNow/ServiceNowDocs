@@ -7,10 +7,10 @@ release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [ServiceNow Lens, ServiceNow Lens overview, Get started with ServiceNow Lens, ServiceNow Lens AI guidelines, Now Assist, AI Lens]
-breadcrumb: [Generative AI skills, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
 # ServiceNow AI Lens

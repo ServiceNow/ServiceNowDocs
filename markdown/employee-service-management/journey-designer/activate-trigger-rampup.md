@@ -1,20 +1,20 @@
 ---
 title: Activate Onboarding ramp-up trigger
-description: Activate the Onboarding ramp-up trigger to automatically generate onboarding plans at the appropriate time during employee onboarding, reducing manual setup for managers.
+description: Enable the Onboarding ramp-up trigger to ensure that the workflow runs at the right time during the employee onboarding. This automates plan generation, reduces manual setup for managers, and improves consistency in onboarding processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/activate-trigger-rampup.html
 release: australia
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Generate onboarding ramp-up plan agentic workflow, AI in Journey designer, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Generate onboarding ramp-up plan, AI in Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate Onboarding ramp-up trigger
 
-Activate the Onboarding ramp-up trigger to automatically generate onboarding plans at the appropriate time during employee onboarding, reducing manual setup for managers.
+Enable the Onboarding ramp-up trigger to ensure that the workflow runs at the right time during the employee onboarding. This automates plan generation, reduces manual setup for managers, and improves consistency in onboarding processes.
 
 ## Before you begin
 
@@ -38,6 +38,4 @@ Role required: admin
 
 8.  Select **Save**.
 
-
-**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 8
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Microsoft SharePoint Online external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -105,7 +105,7 @@ Sites.Read.All
 
 </td><td>
 
-This permission enables the connector to perform automatic site discovery for crawl configuration and one-time crawls.**Note:** If you plan to specify the sites to crawl manually, don't select this permission. For more information on specifying sites for the connector to crawl, see [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-spo-ext-cont-connector.md). To learn more about one-time crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md) and [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
+This permission enables the connector to perform automatic site discovery for crawl configuration and one-time crawls.**Note:** If you plan to specify the sites to crawl manually, don't select this permission. For more information on specifying sites for the connector to crawl, see [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-spo-ext-cont-connector.md). To learn more about one-time crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md) and [Create a user permissions crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
 
 </td></tr><tr><td>
 
@@ -126,7 +126,9 @@ This permission allows the connector to read users from Microsoft Entra ID. User
 
     6.  In the **Select permissions** search field, enter either `Sites.FullControl.All` or `Sites.Selected`, then locate and select the option for the specified permission.
 
-        **Note:** The connector only requires one of these two permissions. Don't select both permissions.
+        **Note:** You only need to select one of these two permissions. Don't select both permissions.
+
+        These permissions grant full control, but the connector only uses them to read data from your Microsoft SharePoint Online source system. It doesn't create, modify, or delete content in your source system.
 
 <table id="table_ldc_qnn_djc"><thead><tr><th>
 
@@ -142,7 +144,7 @@ Sites.FullControl.All
 
 </td><td>
 
-This permission allows the connector to access content and user permissions from all sites and site collections in your Microsoft SharePoint Online tenant.Select this permission if your organization allows it. When you select this permission, no additional configuration is needed.
+This permission allows the connector to access content, users, and access permissions from all sites and site collections in your Microsoft SharePoint Online tenant.Select this permission if your organization allows it. When you select this permission, no additional configuration is needed.
 
 </td></tr><tr><td>
 

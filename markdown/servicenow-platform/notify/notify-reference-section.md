@@ -7,7 +7,7 @@ release: australia
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,7 +21,7 @@ Describes the differences between the Notify-Twilio and Notify-Twilio Direct dri
 -   **[Migrate to Notify-Twilio Direct driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/t_MigrateToTwilioDirectDriver.md)**  
 Migrating to Notify-Twilio Direct driver provides next-generation integration with Twilio and Notify.
 -   **[Public URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/public-urls.md)**  
-On-premise customers should ensure that the URLs are accessible from the Internet for the Notify-Twilio driver to work correctly.
+Make specific instance URLs accessible from the Internet without authentication so the Twilio server can reach the Notify-Twilio drivers.
 -   **[Components installed with Twilio Direct driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/installed-with-twilio.md)**  
 Several types of components are installed with the Twilio Direct driver for integration with Notify.
 -   **[Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NumberGroups.md)**  

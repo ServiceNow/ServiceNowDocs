@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-13"
 reading_time_minutes: 1
 keywords: [AI specialist metrics, AI specialist performance, AI specialist analytics]
-breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
 ---
 
 # Review the performance of an AI specialist inthe legacy AI Agent Studio

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-management-revisions-tab.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -24,7 +24,7 @@ The Revisions tab shows all the versions of a quote. Version numbers are sequent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+1.  In the CSM Configurable Workspace, select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Select **Quotes****All**.
 

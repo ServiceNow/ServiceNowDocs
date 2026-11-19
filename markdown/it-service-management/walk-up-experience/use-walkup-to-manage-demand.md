@@ -120,7 +120,7 @@ All upcoming appointments scheduled for your walk-up location.
 </table>For more information, see [Walk-up Experience management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/walkup-sow.md) and [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md).
 
 -   **[View Walk-up Experience inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/view-walkup-inbox.md)**  
-View a personal inbox of automatically assigned Walk-up Experience interactions using the Agent Workspace feature interface.
+View a personal inbox of automatically assigned Walk-up Experience interactions.
 -   **[View assigned Walk-up Experience locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/view-walkup-location.md)**  
 Walk-up Experience agents can view a list of the walk-up queues they are assigned to support. Locations queues reveal all the information an agent needs to know to operate the queue efficiently.
 -   **[Manage automatically assigned Walk-up Experience interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/view-auto-assigned-walkup-requests.md)**  

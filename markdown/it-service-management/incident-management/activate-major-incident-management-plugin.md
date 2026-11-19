@@ -7,7 +7,7 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Major Incident Management plugins, Managing major incidents, Incident Management, IT Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: admin
 
 ## About this task
 
-Starting with the Brazil release, a scheduled job is available. The scheduled job executes a batch installation on a newly provisioned instance to automatically install applications such as Major Incident Management applications if the customer has the necessary ServiceNow® entitlements. This job applies only to newly provisioned zBoot instances. If the application isn't installed automatically, you can use this procedure to install and activate the application manually.
+Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) must be manually activated on new and upgrade instances.
 
-You must manually activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) for new and existing customers.
-
-Incident Management - Major Incident Management plugin activates these related plugins if they are not already active:
+Incident Management - Major Incident Management \(com.snc.incident.mim\) plugin activates these related plugins if they are not already active:
 
 -   Incident Communications Management \(com.snc.iam\)
 -   Incident Updates \(com.snc.incident.updates\)
 -   Task-Outage Relationship \(com.snc.task\_outage\)
+-   Major workbench components \(com.snc.major\_workbench\_components\)
+-   WebKit HTML to PDF \(com.snc.whtp\)
 
 <table id="table_fd2_xjb_rbb"><thead><tr><th>
 
@@ -48,7 +48,7 @@ Notify\[com.snc.notify\]
 
 </td><td>
 
-Provides platform features for workflow-driven voice calls, conference calls, and SMS messages. Requires the Twilio Direct Driver and a separate contract with Twilio for SMS and Voice capabilities.**Note:** Existing users of the Twilio Driver must [migrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_MigrateToTwilioDirectDriver.md) to Twilio Direct Driver.
+Provides platform features for workflow-driven voice calls, conference calls, and SMS messages. Requires the Twilio Direct Driver and a separate contract with Twilio for SMS and Voice capabilities.**Note:** Existing users already using Twilio Driver need to [migrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_MigrateToTwilioDirectDriver.md) to Twilio Direct Driver.
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ On-Call Scheduling\[com.snc.on\_call\_rotation\]
 
 </td><td>
 
-Provides the ability to create on-call schedules and escalation trees. When an incident is created, the escalation is routed dynamically to an on-call resource. On-Call Scheduling enables you to configure and build different on-call schedules per process and assignment group.
+Provides the ability to create on-call schedules and escalation trees. When an incident is created, dynamically route the escalation to an on-call resource. On-Call Scheduling enables you to configure and build different on-call schedules per process and assignment group.
 
 </td></tr></tbody>
 </table>## Procedure
@@ -74,10 +74,10 @@ Provides the ability to create on-call schedules and escalation trees. When an i
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/installed-with-mim.md)**  
-Activating the Incident Management - Major Incident Management plugin installs several types of components, including tables and user roles.
--   **[Slack notifications installed with Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/slack-notification-installed-with-MIM.md)**  
-Slack notifications are added when you activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\).
+-   **[Components installed with Incident Management - Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/installed-with-mim.md)**  
+Several types of components are installed with activation of the Incident Management - Major Incident Management plugin, including tables and user roles.
+-   **[Slack notification installed with Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/slack-notification-installed-with-MIM.md)**  
+Slack notifications are added with activation of Incident Management – Major Incident Management.
 
 **Parent Topic:**[Major Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/mim-plugins.md)
 
@@ -90,5 +90,5 @@ Slack notifications are added when you activate the Incident Management - Major 
 
 [Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/major-incident-workbench.md)
 
-[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

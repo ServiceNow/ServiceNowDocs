@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/integrating-usem.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 18
+last_updated: "2026-03-12"
+reading_time_minutes: 19
 breadcrumb: [Unified Security Exposure Management, Security Operations]
 ---
 
@@ -16,37 +16,21 @@ Unified Security Exposure Management supports multiple third-party integrations 
 
 ## How integrations work
 
-Integrations work in the following way:
-
 1.  Vulnerability entries are imported from the National Vulnerability Database \(NVD\) and third-party scanners.
 2.  Asset and detection data are ingested from third-party scanners and matched against assets in your Configuration Management Database \(CMDB\).
 
-    **Note:** To integrate with scanners, use either unified exposure pipeline or standard scanner integration applications.
+    **Note:** To integrate with scanners, use either the unified exposure pipeline or standard scanner integration applications.
 
 3.  Findings are created and:
     -   Risk-scored with business context.
     -   Prioritized and assigned to the appropriate teams.
     -   Grouped into remediation tasks.
 
-## Unified exposure pipeline
+The following table provides a list of Unified Security Exposure Management integrations created by ServiceNow® and partners.
 
-It centralizes scanner integration through a unified ingestion and normalization pipeline that normalizes assets and exposure findings from across scanners.
+<table id="table_cyh_1yv_t2c"><thead><tr><th>
 
-**Important:** Unified exposure pipeline cannot be configured alongside the standard scanner integration applications from ServiceNow Store. You must disable all standard scanner integration applications and clear their data before using the unified exposure pipeline.
-
-For information about installing the Unified Exposure Pipeline application, see [Install Unified Exposure Pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-unified-exposure-pipeline.md).
-
-For information about adding a scanner integration, see .
-
-For information about the supported scanner integrations and their target tables, see [Target tables for scanner integrations in unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/uep-scanners-target-tables.md).
-
-## Standard integration applications
-
-Standard integration applications are created by ServiceNow® and partners and hosted on ServiceNow Store.
-
-<table id="table_mbj_22q_clc"><thead><tr><th>
-
-Scanner Integration
+Integration
 
 </th><th>
 
@@ -100,11 +84,35 @@ ServiceNow
 
 </td></tr><tr><td>
 
+AWS
+
+</td><td>
+
+[AWS Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/aws-integration-for-security-exposure-management-overview.md)
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
 Rapid7
 
 </td><td>
 
-[Rapid7 Integration for Security Operations](https://store.servicenow.com/store/app/7f9ee14647a72690def56992e36d43b8)
+[Rapid7 Integration for Security Operations](https://store.servicenow.com/store/app/b349ebae1be06a50a85b16db234bcbb6)
 
 </td><td>
 
@@ -128,7 +136,7 @@ Qualys
 
 </td><td>
 
-[Qualys Integration for Security Operations](https://store.servicenow.com/store/app/ce8ead02c323aa10ef46d0af0501315e)
+[Qualys integration for Security Operations](https://store.servicenow.com/store/app/9f3b6f2a1b246a50a85b16db234bcb13)
 
 </td><td>
 
@@ -178,7 +186,7 @@ Microsoft
 
 </td><td>
 
-[Vulnerability Response Integration with Microsoft Threat and Vulnerability Management](https://store.servicenow.com/store/app/b98ee10e47ebea1039e06507e26d4387)
+[Microsoft Defender Integration for Security Exposure Management](https://store.servicenow.com/store/app/df09276e1be06a50a85b16db234bcbe5)
 
 </td><td>
 
@@ -598,7 +606,7 @@ Palo Alto
 
 </td><td>
 
-[Vulnerability Response Integration with Palo Alto Networks Prisma Cloud Compute](https://store.servicenow.com/store/app/d4ae2dc6536faa1072c95a01a0490e35)
+[Vulnerability Response Integration with Palo Alto Networks Prisma Cloud Compute](https://store.servicenow.com/store/app/e95be36a1b246a50a85b16db234bcbf6)
 
 </td><td>
 
@@ -641,6 +649,30 @@ Import container vulnerabilities from Aqua Platform.
 </td><td>
 
 Partner
+
+</td></tr><tr><td>
+
+AWS
+
+</td><td>
+
+[AWS Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/aws-integration-for-security-exposure-management-overview.md)
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -766,826 +798,6 @@ Partner
 
 </td></tr><tr><td colspan="6">
 
-Import test, policies, results
-
-</td></tr><tr><td>
-
-Qualys
-
-</td><td>
-
-[Qualys Integration for Security Operations](https://store.servicenow.com/store/app/ce8ead02c323aa10ef46d0af0501315e)
-
-</td><td>
-
-Configuration Compliance
-
-</td><td>
-
-Import test, policies, results.
-
-</td><td>
-
-[Qualys integration with Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/Qualys-cc-Integration.md)
-
-</td><td>
-
-ServiceNow
-
-</td></tr><tr><td>
-
-Qualys
-
-</td><td>
-
-[Qualys CSPM Integration](https://store.servicenow.com/store/app/8cfda1d71b792210f4b3dc28b04bcbcc)
-
-</td><td>
-
-Configuration Compliance
-
-</td><td>
-
-Import test, policies, results.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td>
-
-Tenable
-
-</td><td>
-
-[Vulnerability Response Integration with Tenable](https://store.servicenow.com/store/app/ce8e6186476f6e10392d3369126d43c2)
-
-</td><td>
-
-Configuration Compliance
-
-</td><td>
-
-Import test, policies, results.
-
-</td><td>
-
-[Understanding the Tenable Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/tenableIntegration.md)
-
-</td><td>
-
-ServiceNow
-
-</td></tr><tr><td>
-
-Tanium
-
-</td><td>
-
-[Tanium Configuration Compliance Integration](https://store.servicenow.com/store/app/19517b2a1ba46a50a85b16db234bcb87)
-
-</td><td>
-
-Configuration Compliance
-
-</td><td>
-
-Import test, policies, results.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td>
-
-Palo Alto Networks
-
-</td><td>
-
-[Expander Configuration Compliance](https://store.servicenow.com/store/app/c3d9ef621b246a50a85b16db234bcb8d)
-
-</td><td>
-
-Configuration Compliance
-
-</td><td>
-
-Import attack surface and alerts from Expander.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td>
-
-Trend Micro
-
-</td><td>
-
-[Conformity Connector](https://store.servicenow.com/store/app/bc1e632a1b646a50a85b16db234bcb36)
-
-</td><td>
-
-Configuration Compliance
-
-</td><td>
-
-Import misconfiguration and test results from Trend Micro Cloud One into ServiceNow.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td colspan="6">
-
-Import cloud misconfiguration data \(Cloud Security\)
-
-</td></tr><tr><td>
-
-Microsoft
-
-</td><td>
-
-Defender for Endpoint
-
-</td><td>
-
-Configuration Compliance
-
-</td><td>
-
-Import test, policies, results.
-
-</td><td>
-
- 
-
-</td><td>
-
-ServiceNow
-
-</td></tr><tr><td>
-
-Microsoft
-
-</td><td>
-
-[Microsoft Defender for Cloud Integration for Security Operations](https://store.servicenow.com/store/app/a68eed0a972f66903fa8b84bf253af7e)
-
-</td><td>
-
-Configuration Compliance
-
-</td><td>
-
-Import the cloud resource configuration issues from Microsoft Defender for Cloud and automate remediation workflow.
-
-</td><td>
-
-[Understanding the Microsoft Defender for Cloud integrations for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/cc_asc_overview.md)
-
-</td><td>
-
-ServiceNow
-
-</td></tr><tr><td>
-
-Palo Alto
-
-</td><td>
-
-[Vulnerability Response Integration with Palo Alto Prisma Cloud](https://store.servicenow.com/store/app/d98e210a47eb221082f632c4f16d4372)
-
-</td><td>
-
-Configuration Compliance
-
-</td><td>
-
-Import the cloud resource configuration issues from Prisma Cloud \(formerly RedLock\) and automate remediation workflow.
-
-</td><td>
-
-[Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/prisma-cloud-overview.md)
-
-</td><td>
-
-ServiceNow
-
-</td></tr><tr><td>
-
-Wiz
-
-</td><td>
-
-[Wiz Integration for Configuration Compliance](https://store.servicenow.com/store/app/81d96f621b246a50a85b16db234bcb56)
-
-</td><td>
-
-Configuration Compliance
-
-</td><td>
-
-Import the cloud resource configuration issues from Microsoft Defender for Cloud and automate remediation workflow.
-
-</td><td>
-
-[Understanding the Wiz Test Results and Issues Integrations with Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/exploring-wiz-ctest-results-int.md)
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td>
-
-Rapid7
-
-</td><td>
-
-[Rapid7 InsightCloudSec CC Integration](https://store.servicenow.com/store/app/b04f67ae1b646a50a85b16db234bcb97)
-
-</td><td>
-
-Configuration Compliance
-
-</td><td>
-
-Import cloud misconfigurations and compliance issues
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td>
-
-Lacework
-
-</td><td>
-
-Lacework Code to Cloud
-
-</td><td>
-
-Configuration Compliance
-
-</td><td>
-
-Import cloud misconfigurations and compliance issues.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td colspan="6">
-
-Import dynamic, static analysis results and SCA
-
-</td></tr><tr><td>
-
-Veracode
-
-</td><td>
-
-[Vulnerability Response Integration with Veracode](https://store.servicenow.com/store/app/89588e41c323ee505ce25ddf05013120)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-Import test, policies, results, DAST findings, SAST findings and SCA findings.
-
-</td><td>
-
-[Veracode Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/veracode-vuln-integration.md)
-
-</td><td>
-
-ServiceNow
-
-</td></tr><tr><td>
-
-Qualys WAS
-
-</td><td>
-
-[Vulnerability Response Integration with Qualys WAS](https://store.servicenow.com/store/app/be6e2f6a1b646a50a85b16db234bcbb1)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-Import Dynamic Scan results from Qualys WAS application.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td>
-
-Microfocus
-
- Fortify
-
-</td><td>
-
-[Fortify Application Vulnerability Integration](https://store.servicenow.com/store/app/c68e2142c323aa10ef46d0af0501310e)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-Import DAST and SAST findings.
-
-</td><td>
-
-[Fortify Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/fortify-vuln-integration.md)
-
-</td><td>
-
-ServiceNow
-
-</td></tr><tr><td>
-
-Snyk
-
-</td><td>
-
-[Snyk Security for Application Vulnerability Response](https://store.servicenow.com/store/app/bc2ae7e21b246a50a85b16db234bcb88)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-Import SCA and SAST findings.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td colspan="6">
-
-Open source vulnerability intelligence \(SBOM workflows\)
-
-</td></tr><tr><td>
-
-Snyk
-
-</td><td>
-
-[Snyk API and Web for Application Vulnerability Response](https://store.servicenow.com/store/app/0a5317329797ea103fa8b84bf253afe4)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-Web App Scanning findings
-
- API Security findings
-
-</td><td>
-
- 
-
-</td><td>
-
-ServiceNow
-
-</td></tr><tr><td>
-
-GitHub
-
-</td><td>
-
-[Github Application Vulnerability Integration](https://store.servicenow.com/store/app/006dafe21b646a50a85b16db234bcba2)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-Code Scanning Secret Scanning Dependabot alerts.
-
-</td><td>
-
-[GitHub Application Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/github-vuln-integration.md)
-
-</td><td>
-
-ServiceNow
-
-</td></tr><tr><td>
-
-HCL AppScan
-
-</td><td>
-
-[Vulnerability Response Integration with HCL AppScan](https://store.servicenow.com/store/app/a73a23261b246a50a85b16db234bcb3b)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-Import Dynamic Scan results from HCL AppScan.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td>
-
-Checkmarx
-
-</td><td>
-
-[Checkmarx CxSAST Vulnerability Integration](https://store.servicenow.com/store/app/cf19ab6e1be06a50a85b16db234bcb55)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-Import SAST findings.
-
-**Note:** Uses CxSAST API.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td>
-
-Checkmarx
-
-</td><td>
-
-[Checkmarx One Vulnerability Integration](https://store.servicenow.com/store/app/cbc8efea1be06a50a85b16db234bcb97)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-Import SAST and SCA findings from Cx VulnerabilityOne API.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td>
-
-Invicti
-
-</td><td>
-
-[Invicti Application Vulnerability Integration](https://store.servicenow.com/store/app/c8635e664717aa1002872f46736d43b0)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
--   Import applications, scan summaries, results
--   Import IAST findings.
--   Import SAST findings.
-
-</td><td>
-
-[Invicti Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/invicti-vuln-integration.md)
-
-</td><td>
-
-ServiceNow
-
-</td></tr><tr><td>
-
-Synopsys
-
-</td><td>
-
-[Vulnerability Response Integration with Black Duck](https://store.servicenow.com/store/app/c7b3d2a293d72a10a0f2fc1d6cba10a3)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-Import SCA findings.
-
-</td><td>
-
-[Vulnerability Response Integration with Black Duck](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
-
-</td><td>
-
-ServiceNow
-
-</td></tr><tr><td>
-
-Sonatype
-
-</td><td>
-
-[Sonatype Security for Application Vulnerability Response](https://store.servicenow.com/store/app/fb6aef261b246a50a85b16db234bcb0e)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-SCA – import open source vulnerabilities from Sonatype Lifecycle product.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td>
-
-Apiiro
-
-</td><td>
-
-[Apiiro ASPM for Application Vulnerability Response](https://store.servicenow.com/store/app/945d2be21b646a50a85b16db234bcb5f)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-Application Security Posture Management vulnerabilities, fix issues by assigning to code owners [CMDB App](https://store.servicenow.com/store/app/c3be7a921bd666d02ca2a643604bcb80) is also available.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td>
-
-Rapid7
-
-</td><td>
-
-[Rapid7 InsightAppSec Application VR Integration](https://store.servicenow.com/store/app/335dafe21b646a50a85b16db234bcb73)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-Fetch apps, scans, vulnerabilities, attacks, attack modules into ServiceNow Vulnerability Response. Web application scanning results.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td>
-
-NoName \(by Akamai\)
-
-</td><td>
-
-[Akamai API Security Integration for AVR](https://store.servicenow.com/store/app/3432376e1ba46a50a85b16db234bcb03)
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-Create and update vulnerable items from NoName on API detections.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td>
-
-Tenable
-
-</td><td>
-
-Tenable WAS
-
-</td><td>
-
-Application Vulnerability Response
-
-</td><td>
-
-Application security findings.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
- \(Tenable\)
-
-</td></tr><tr><td>
-
-Snyk
-
-</td><td>
-
-[Snyk Vulnerability Intelligence for SBOM](https://store.servicenow.com/store/app/994d67e21b646a50a85b16db234bcb56)
-
-</td><td>
-
-Application Vulnerability Response - SBOM
-
-</td><td>
-
-Vulnerability Intelligence on Open-source components in SBOM.
-
-</td><td>
-
- 
-
-</td><td>
-
-Partner
-
-</td></tr><tr><td>
-
-Google \(open source\)
-
-</td><td>
-
-[SBOM Response](https://store.servicenow.com/store/app/0bd8e32e1be06a50a85b16db234bcba1)
-
-</td><td>
-
-Application Vulnerability Response - SBOM
-
-</td><td>
-
-Vulnerability intelligence information for a given version of a package or library.
-
-</td><td>
-
- 
-
-</td><td>
-
-ServiceNow
-
-</td></tr><tr><td>
-
-Google \(open source\)
-
-</td><td>
-
-[SBOM Response](https://store.servicenow.com/sn_appstore_store.do%23!/store/application/6e1505c977007110adaf0da3fa5a99e1/3.0.3?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dosv&sl=sh)
-
-</td><td>
-
-Application Vulnerability Response - SBOM
-
-</td><td>
-
-License and dependency information for a given version of a package or library.
-
-</td><td>
-
- 
-
-</td><td>
-
-ServiceNow
-
-</td></tr><tr><td>
-
-Veracode
-
-</td><td>
-
-[Vulnerability Response Integration with Veracode](https://store.servicenow.com/store/app/89588e41c323ee505ce25ddf05013120)
-
-</td><td>
-
-Application Vulnerability Response - SBOM
-
-</td><td>
-
--   Upload exported vulnerabilities to create AVITs.
--   Prioritize by NVD severity.
-
-</td><td>
-
- 
-
-</td><td>
-
-ServiceNow
-
-</td></tr></tbody>
-</table><table id="table_cyh_1yv_t2c"><thead><tr><th>
-
-Other standard integrations
-
-</th><th>
-
-Product installation
-
-</th><th>
-
-Category
-
-</th><th>
-
-Use case
-
-</th><th>
-
-Setup Guide
-
-</th><th>
-
-Built by
-
-</th></tr></thead><tbody><tr><td colspan="6">
-
 Solution Intelligence
 
 </td></tr><tr><td>
@@ -1642,7 +854,7 @@ Rapid 7
 
 </td><td>
 
-[Rapid7 Integration for Security Operations](https://store.servicenow.com/store/app/7f9ee14647a72690def56992e36d43b8)
+[Rapid7 Integration for Security Operations](https://store.servicenow.com/store/app/b349ebae1be06a50a85b16db234bcbb6)
 
 </td><td>
 
@@ -2026,7 +1238,7 @@ Vulnerability Response - Intelligence
 
 </td><td>
 
-Enrich findings across Vulnerability Response, Application Vulnerability Response, Container Vulnerability Response, and Configuration Compliance with normalized fix information from Armis Centrix™ for ViPR, and remediate by fix instead of one finding at a time.
+Enrich host findings with normalized fix information from Armis Centrix™ for ViPR, and remediate by fix instead of one finding at a time.
 
 </td><td>
 
@@ -2103,6 +1315,678 @@ Vulnerability Response - Patching
 </td><td>
 
 Patches CIs through the Vulnerability Response Patch Orchestration module. This can be used in addition to the Tanium VR integration to close the loop from identifying vulnerabilities with Tanium Comply to patching those vulnerabilities with Tanium Patch.
+
+</td><td>
+
+ 
+
+</td><td>
+
+Partner
+
+</td></tr><tr><td colspan="6">
+
+Import test, policies, results
+
+</td></tr><tr><td>
+
+Qualys
+
+</td><td>
+
+[Qualys Integration for Security Operations](https://store.servicenow.com/store/app/9f3b6f2a1b246a50a85b16db234bcb13)
+
+</td><td>
+
+Configuration Compliance
+
+</td><td>
+
+Import test, policies, results.
+
+</td><td>
+
+[Qualys integration with Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/Qualys-cc-Integration.md)
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+Qualys
+
+</td><td>
+
+[Qualys CSPM Integration](https://store.servicenow.com/store/app/8cfda1d71b792210f4b3dc28b04bcbcc)
+
+</td><td>
+
+Configuration Compliance
+
+</td><td>
+
+Import test, policies, results.
+
+</td><td>
+
+ 
+
+</td><td>
+
+Partner
+
+</td></tr><tr><td>
+
+AWS
+
+</td><td>
+
+[AWS Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/aws-integration-for-security-exposure-management-overview.md)
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Tenable
+
+</td><td>
+
+[Vulnerability Response Integration with Tenable](https://store.servicenow.com/store/app/861aa3e21b246a50a85b16db234bcb7c)
+
+</td><td>
+
+Configuration Compliance
+
+</td><td>
+
+Import test, policies, results.
+
+</td><td>
+
+[Understanding the Tenable Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/tenableIntegration.md)
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+Tanium
+
+</td><td>
+
+[Tanium Configuration Compliance Integration](https://store.servicenow.com/store/app/19517b2a1ba46a50a85b16db234bcb87)
+
+</td><td>
+
+Configuration Compliance
+
+</td><td>
+
+Import test, policies, results.
+
+</td><td>
+
+ 
+
+</td><td>
+
+Partner
+
+</td></tr><tr><td>
+
+Palo Alto Networks
+
+</td><td>
+
+[Expander Configuration Compliance](https://store.servicenow.com/store/app/c3d9ef621b246a50a85b16db234bcb8d)
+
+</td><td>
+
+Configuration Compliance
+
+</td><td>
+
+Import attack surface and alerts from Expander.
+
+</td><td>
+
+ 
+
+</td><td>
+
+Partner
+
+</td></tr><tr><td>
+
+Trend Micro
+
+</td><td>
+
+[Conformity Connector](https://store.servicenow.com/store/app/bc1e632a1b646a50a85b16db234bcb36)
+
+</td><td>
+
+Configuration Compliance
+
+</td><td>
+
+Import misconfiguration and test results from Trend Micro Cloud One into ServiceNow.
+
+</td><td>
+
+ 
+
+</td><td>
+
+Partner
+
+</td></tr><tr><td colspan="6">
+
+Import cloud misconfiguration data \(Cloud Security\)
+
+</td></tr><tr><td>
+
+Microsoft
+
+</td><td>
+
+Defender for Endpoint
+
+</td><td>
+
+Configuration Compliance
+
+</td><td>
+
+Import test, policies, results.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+Microsoft
+
+</td><td>
+
+[Microsoft Defender for Security Exposure Management](https://store.servicenow.com/store/app/df09276e1be06a50a85b16db234bcbe5)
+
+</td><td>
+
+Configuration Compliance
+
+</td><td>
+
+Import the cloud resource configuration issues from Microsoft Defender for Cloud and automate remediation workflow.
+
+</td><td>
+
+[Understanding the Microsoft Defender for Cloud integrations for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/cc_asc_overview.md)
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+Palo Alto
+
+</td><td>
+
+[Vulnerability Response Integration with Palo Alto Prisma Cloud](https://store.servicenow.com/store/app/b139a3ae1be06a50a85b16db234bcbd0)
+
+</td><td>
+
+Configuration Compliance
+
+</td><td>
+
+Import the cloud resource configuration issues from Prisma Cloud \(formerly RedLock\) and automate remediation workflow.
+
+</td><td>
+
+[Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/prisma-cloud-overview.md)
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+Wiz
+
+</td><td>
+
+[Wiz Integration for Configuration Compliance](https://store.servicenow.com/store/app/81d96f621b246a50a85b16db234bcb56)
+
+</td><td>
+
+Configuration Compliance
+
+</td><td>
+
+Import the cloud resource configuration issues from Microsoft Defender for Cloud and automate remediation workflow.
+
+</td><td>
+
+[Understanding the Wiz Test Results and Issues Integrations with Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/exploring-wiz-ctest-results-int.md)
+
+</td><td>
+
+Partner
+
+</td></tr><tr><td>
+
+Rapid7
+
+</td><td>
+
+[Rapid7 InsightCloudSec CC Integration](https://store.servicenow.com/store/app/b04f67ae1b646a50a85b16db234bcb97)
+
+</td><td>
+
+Configuration Compliance
+
+</td><td>
+
+Import cloud misconfigurations and compliance issues
+
+</td><td>
+
+ 
+
+</td><td>
+
+Partner
+
+</td></tr><tr><td>
+
+Lacework
+
+</td><td>
+
+Lacework Code to Cloud
+
+</td><td>
+
+Configuration Compliance
+
+</td><td>
+
+Import cloud misconfigurations and compliance issues.
+
+</td><td>
+
+ 
+
+</td><td>
+
+Partner
+
+</td></tr><tr><td>
+
+AWS
+
+</td><td>
+
+[AWS Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/aws-sem-integrations.md)
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td colspan="6">
+
+Import dynamic, static analysis results and SCA
+
+</td></tr><tr><td>
+
+Veracode
+
+</td><td>
+
+[Vulnerability Response Integration with Veracode](https://store.servicenow.com/store/app/e109a36e1be06a50a85b16db234bcbc7)
+
+</td><td>
+
+Application Vulnerability Response
+
+</td><td>
+
+Import test, policies, results, DAST findings, SAST findings and SCA findings.
+
+</td><td>
+
+[Veracode Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/veracode-vuln-integration.md)
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+Qualys WAS
+
+</td><td>
+
+[Vulnerability Response Integration with Qualys WAS](https://store.servicenow.com/store/app/be6e2f6a1b646a50a85b16db234bcbb1)
+
+</td><td>
+
+Application Vulnerability Response
+
+</td><td>
+
+Import Dynamic Scan results from Qualys WAS application.
+
+</td><td>
+
+ 
+
+</td><td>
+
+Partner
+
+</td></tr><tr><td>
+
+Microfocus
+
+ Fortify
+
+</td><td>
+
+[Fortify Application Vulnerability Integration](https://store.servicenow.com/store/app/e1a9af221b246a50a85b16db234bcbbe)
+
+</td><td>
+
+Application Vulnerability Response
+
+</td><td>
+
+Import DAST and SAST findings.
+
+</td><td>
+
+[Fortify Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/fortify-vuln-integration.md)
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+Snyk
+
+</td><td>
+
+[Snyk Security for Application Vulnerability Response](https://store.servicenow.com/store/app/bc2ae7e21b246a50a85b16db234bcb88)
+
+</td><td>
+
+Application Vulnerability Response
+
+</td><td>
+
+Import SCA and SAST findings.
+
+</td><td>
+
+ 
+
+</td><td>
+
+Partner
+
+</td></tr><tr><td colspan="6">
+
+Open source vulnerability intelligence \(SBOM workflows\)
+
+</td></tr><tr><td>
+
+Snyk
+
+</td><td>
+
+[Snyk API and Web for Application Vulnerability Response](https://store.servicenow.com/store/app/0a5317329797ea103fa8b84bf253afe4)
+
+</td><td>
+
+Application Vulnerability Response
+
+</td><td>
+
+Web App Scanning findings
+
+ API Security findings
+
+</td><td>
+
+ 
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+GitHub
+
+</td><td>
+
+[Github Application Vulnerability Integration](https://store.servicenow.com/store/app/006dafe21b646a50a85b16db234bcba2)
+
+</td><td>
+
+Application Vulnerability Response
+
+</td><td>
+
+Code Scanning Secret Scanning Dependabot alerts.
+
+</td><td>
+
+[GitHub Application Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/github-vuln-integration.md)
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+HCL AppScan
+
+</td><td>
+
+[Vulnerability Response Integration with HCL AppScan](https://store.servicenow.com/store/app/a73a23261b246a50a85b16db234bcb3b)
+
+</td><td>
+
+Application Vulnerability Response
+
+</td><td>
+
+Import Dynamic Scan results from HCL AppScan.
+
+</td><td>
+
+ 
+
+</td><td>
+
+Partner
+
+</td></tr><tr><td>
+
+Checkmarx
+
+</td><td>
+
+[Checkmarx CxSAST Vulnerability Integration](https://store.servicenow.com/store/app/cf19ab6e1be06a50a85b16db234bcb55)
+
+</td><td>
+
+Application Vulnerability Response
+
+</td><td>
+
+Import SAST findings.
+
+**Note:** Uses CxSAST API.
+
+</td><td>
+
+ 
+
+</td><td>
+
+Partner
+
+</td></tr><tr><td>
+
+Checkmarx
+
+</td><td>
+
+[Checkmarx One Vulnerability Integration](https://store.servicenow.com/store/app/cbc8efea1be06a50a85b16db234bcb97)
+
+</td><td>
+
+Application Vulnerability Response
+
+</td><td>
+
+Import SAST and SCA findings from Cx VulnerabilityOne API.
+
+</td><td>
+
+ 
+
+</td><td>
+
+Partner
+
+</td></tr><tr><td>
+
+Invicti
+
+</td><td>
+
+[Invicti Application Vulnerability Integration](https://store.servicenow.com/store/app/12e18770473176d095ebf235126d4324)
+
+</td><td>
+
+Application Vulnerability Response
+
+</td><td>
+
+-   Import applications, scan summaries, results
+-   Import IAST findings.
+-   Import SAST findings.
+
+</td><td>
+
+[Invicti Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/invicti-vuln-integration.md)
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+Synopsys
+
+</td><td>
+
+[Vulnerability Response Integration with Black Duck](https://store.servicenow.com/store/app/c7b3d2a293d72a10a0f2fc1d6cba10a3)
+
+</td><td>
+
+Application Vulnerability Response
+
+</td><td>
+
+Import SCA findings.
+
+</td><td>
+
+[Vulnerability Response Integration with Black Duck](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+
+</td><td>
+
+ServiceNow
+
+</td></tr><tr><td>
+
+Sonatype
+
+</td><td>
+
+[Sonatype Security for Application Vulnerability Response](https://store.servicenow.com/store/app/fb6aef261b246a50a85b16db234bcb0e)
+
+</td><td>
+
+Application Vulnerability Response
+
+</td><td>
+
+SCA – import open source vulnerabilities from Sonatype Lifecycle product.
+
+</td><td>
+
+ 
+
+</td><td>
+
+Partner
+
+</td></tr><tr><td>
+
+Apiiro
+
+</td><td>
+
+[Apiiro ASPM for Application Vulnerability Response](https://store.servicenow.com/store/app/945d2be21b646a50a85b16db234bcb5f)
+
+</td><td>
+
+Application Vulnerability Response
+
+</td><td>
+
+Application Security Posture Management vulnerabilities, fix issues by assigning to code owners [CMDB App](https://store.servicenow.com/store/app/c3be7a921bd666d02ca2a643604bcb80) is also available.
 
 </td><td>
 
@@ -2264,7 +2148,7 @@ Veracode
 
 </td><td>
 
-[Vulnerability Response Integration with Veracode](https://store.servicenow.com/store/app/89588e41c323ee505ce25ddf05013120)
+[Vulnerability Response Integration with Veracode](https://store.servicenow.com/store/app/e109a36e1be06a50a85b16db234bcbc7)
 
 </td><td>
 
@@ -2312,11 +2196,40 @@ Create Jira tasks/ issues for Application and Container vulnerabilities. Bi-dire
 ServiceNow
 
 </td></tr></tbody>
-</table>## Custom integrations
+</table>## Unified exposure pipeline
+
+It centralizes scanner integration through a unified ingestion and normalization pipeline that normalizes assets and exposure findings from across scanners.
+
+**Important:** Unified exposure pipeline cannot be configured alongside the standard scanner integration applications from ServiceNow Store. You must disable all standard scanner integration applications and clear their data before using the unified exposure pipeline.
+
+For information about installing the Unified Exposure Pipeline application, see [Install Unified Exposure Pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-unified-exposure-pipeline.md).
+
+For information about adding a scanner integration, see [Configure a scanner integration using the unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/add-scanner-integration-uep.md).
+
+For information about the supported scanner integrations and their target tables, see [Target tables for scanner integrations in unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/uep-scanners-target-tables.md).
+
+For information about scanner integration exposures, see [Scanner integration exposures in unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/uep-scanners-asset-types.md).
+
+## Custom integrations
 
 You can manually create integrations not available in the ServiceNow Store. See [Manually create a vulnerability integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/c_VulnerabilityIntegrations.md) for more information.
 
-**Note:** Unified expsoure pipeline cannot be configured alongside custom integrations.
+**Note:** Unified exposure pipeline cannot be configured alongside custom integrations.
+
+-   **[Manage Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/review-usem-integrations.md)**  
+Manage, monitor, and review integrations.The integration dashboard provides an overview of the installed third-party applications and the status of the integration runs.
+-   **[Palo Alto Prisma AIRS AI Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/palo-alto-prisma-airs-ai-sgc.md)**  
+The AI Service Graph Connector \(SGC\) for Palo Alto Prisma AIRS integrates ServiceNow with Palo Alto Networks Prisma AIRS to discover AI models and import critical metrics related to AI security findings.
+-   **[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/armis-early-warning-integration.md)**  
+Early Warning for Security Exposure Management, powered by Armis, enriches the Central Vulnerability Database \(CVDB\) in Unified Security Exposure Management \(USEM\) with vulnerability intelligence of imminent exploit. This enables your security team to prioritize and patch vulnerabilities before threat actors weaponize them.
+-   **[Cisco AI Defense integration for AI security exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/exploring-cisco-ai-defense-integration.md)**  
+The Vulnerability Response Integration with Cisco AI Defense imports AI model vulnerabilities and AI model validation data \(results from automated red teaming or pentests\) into your ServiceNow AI Platform instance. Use this data to detect security risks, drive remediation workflows, and verify compliance with AI security requirements.
+-   **[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-intel-for-usem-landing.md)**  
+Fix Intelligence for Security Exposure Management provides prescriptive fix and remediation intelligence , so your security team can remediate exposure findings by fix instead of one finding at a time.
+-   **[Palo Alto Prisma AIRS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/prisma-airs-integration.md)**  
+The Vulnerability Response Integration with Palo Alto Prisma AIRS imports AI security scan results, posture findings, and model validation data into your ServiceNow AI Platform instance. Use the data to help you detect security risks, drive remediation workflows, and verify compliance with AI security requirements.
+-   **[Wiz AI Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/wiz-ai-sem-integration.md)**  
+Import two categories of security findings related to AI security with the Wiz AI Security Exposure Management \(AI-SEM\) integration.
 
 **Related topics**  
 

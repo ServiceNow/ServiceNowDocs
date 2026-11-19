@@ -7,7 +7,7 @@ release: australia
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,7 +21,7 @@ This functionality is available for all tables that extend the Task table, such 
 -   **[Start a conference call from a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/t_StartAConferenceCallFromATask.md)**  
 Use Notify to start conference calls from a task record.
 -   **[Manage conference calls on task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/manage-conf-call.md)**  
-Add and manage multiple participants on the conference including self-joining in to the conference call and end the conference call when the discussion is over.
+Add participants, join a conference call yourself, and end the call when the discussion is over.
 -   **[Send an SMS alert from a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/t_SendAnSMSFromATask.md)**  
 Use Notify to send information related to a call through SMS alerts from a task record.
 

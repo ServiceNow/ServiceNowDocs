@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Escalate to human assistance, Use, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Using Virtual Agent with a live agent, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Transferring Virtual Agent conversations to a live agent
@@ -28,7 +28,7 @@ The transfer happens automatically when an unrecoverable error occurs. It can al
 
     \[Omitted image "va-error-transfer.png"\] Alt text: Virtual Agent chat window displaying, "An unrecoverable error has occurred. Please stand by while I connect you to a live agent."
 
-    **Note:** If you don't plan to use Agent Chat, be sure to deactivate it in the Agent Chat settings. For more information, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
+    **Note:** If you don't plan to use Agent Chat, be sure to deactivate it in the Agent Chat settings. For more information, see [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
 -   **Automatic transfer to a live agent that is triggered by a script in a topic**
 
@@ -80,12 +80,12 @@ If you're using Agent Workspace, the conversation is automatically routed and as
 
     If you're using Connect Support, the Virtual Agent conversation is routed to the appropriate chat support queue. For the user, the conversation with the agent continues in the Virtual Agent client interface. In Connect Support, the agent accepts the queue with the transferred user to join the conversation and interact with the user.
 
-    In earlier releases, admins used the Chat Setup form to assign the default chat queues for Customer Service Management, HR Service Delivery, and IT Service Management or a global queue to which Virtual Agent conversations were automatically routed if default queues weren’t assigned. These queues, which admins defined in Connect Support, are stored in the Chat Queues \[chat\_queue\] table. If you're using Connect Support as the fulfiller interface and must change chat settings, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md) for details.
+    In earlier releases, admins used the Chat Setup form to assign the default chat queues for Customer Service Management, HR Service Delivery, and IT Service Management or a global queue to which Virtual Agent conversations were automatically routed if default queues weren’t assigned. These queues, which admins defined in Connect Support, are stored in the Chat Queues \[chat\_queue\] table. If you're using Connect Support as the fulfiller interface and must change chat settings, see [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md) for details.
 
 
 ## User sentiment
 
 When configured, user sentiment analysis is performed on Virtual Agent and live agent conversations. The user sentiment is stored in the Interaction Insights \[sys\_cs\_interaction\_insight\] table. For details, see [Interaction Insights table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ci-interaction-insights-table.md).
 
-**Parent Topic:**[Escalate to human assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-va-agent-chat.md)
+**Parent Topic:**[Using Virtual Agent with a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/using-va-agent-chat.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/customer-360-insurance-agentic-contact-centre.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-26"
 reading_time_minutes: 3
 keywords: [customer 360, customer profile, insurance summary, policy details, insurance transaction history, insurance policies, ai-generated customer summary, total policies, total cover, view all insurance, view customer cases]
 breadcrumb: [Exploring Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]
@@ -59,5 +59,5 @@ The following table shows the available actions in the Customer 360 page.
 **Related topics**  
 
 
-[](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
+[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
 

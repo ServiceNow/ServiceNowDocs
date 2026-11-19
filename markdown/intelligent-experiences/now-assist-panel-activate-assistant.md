@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-panel-activate-assistant.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-09-29"
 reading_time_minutes: 1
-breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Activate ServiceNow Otto panel assistants

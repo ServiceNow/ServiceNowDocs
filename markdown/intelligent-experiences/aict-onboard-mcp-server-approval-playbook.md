@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-onboard-mcp-server-approval-playbook.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-03"
 reading_time_minutes: 1
-breadcrumb: [MCP server approval playbook workflow, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [MCP server approval playbook workflow, Working with MCP server records, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Onboard MCP server approval playbook
@@ -20,7 +20,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory** and select an MCP server.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Inventory** and select an MCP server.
 
 2.  Access phase:
 

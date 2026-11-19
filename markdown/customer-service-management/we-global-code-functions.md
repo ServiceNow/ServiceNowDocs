@@ -1,20 +1,22 @@
 ---
 title: Functions available in Web Embeddables global and component code
-description: ServiceNow Embeddables API enables you to integrate ServiceNow components into your external websites. These functions provide essential functionality for initialization, authentication, component management, and event handling.
+description: Use these functions to initialize, authenticate, manage components, and handle events when you embed ServiceNow components on external websites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/we-global-code-functions.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Web Embeddables reference, Reference, Customer Service Management]
 ---
 
 # Functions available in Web Embeddables global and component code
 
-ServiceNow Embeddables API enables you to integrate ServiceNow components into your external websites. These functions provide essential functionality for initialization, authentication, component management, and event handling.
+Use these functions to initialize, authenticate, manage components, and handle events when you embed ServiceNow components on external websites.
 
 ## Global code
+
+The ServiceNow Embeddables API integrates ServiceNow components into your external websites.
 
 The embed script includes the following methods as part of the global code. The following details help you understand how they work.
 

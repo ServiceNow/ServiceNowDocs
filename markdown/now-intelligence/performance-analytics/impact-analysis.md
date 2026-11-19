@@ -26,15 +26,15 @@ Dependency Assessment consists of several components:
 
 -   **Bottom-up tree view**
 
-    The bottom-up tree view shows where a performance analytics entity is used in your instance. If you select **Show Used By** from the context menu of a tree view component, the tree view shows all the places where that entity is used. Select the reset icon \(\[Omitted image "tree-view-reset-icon.png"\] Alt text: Tree view reset icon\) to return to the top-down tree view.
+    The bottom-up tree view shows where a performance analytics entity is used in your instance. If you select **Show Used By** from the context menu of a tree view component, the tree view shows all the places where that entity is used. Click the reset icon \(\[Omitted image "tree-view-reset-icon.png"\] Alt text: Tree view reset icon\) to return to the top-down tree view.
 
 -   **Component summaries**
 
-    Select the info icon \(\[Omitted image "admin-console-treeview-info.png"\] Alt text: Admin console tree view info button\) to see a summary of the component.
+    Click the info icon \(\[Omitted image "admin-console-treeview-info.png"\] Alt text: Admin console tree view info button\) to see a summary of the component.
 
 -   **Other actions**
 
-    Select the context menu icon \(\[Omitted image "admin-console-treeview-menu.png"\] Alt text: Admin console tree view context menu button\) in any component to view the actions available for that component. These include editing the component, viewing the schema map of the component, and previewing a widget.
+    Click the context menu icon \(\[Omitted image "admin-console-treeview-menu.png"\] Alt text: Admin console tree view context menu button\) in any component to view the actions available for that component. These include editing the component, viewing the schema map of the component, and previewing a widget.
 
 
 **Note:** The tree view is persistent. When you return to Dependency Assessment, the tree view shows the same configuration as on the last visit.

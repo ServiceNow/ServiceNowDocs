@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/understanding-threat-intel.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-28"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Threat Intelligence, Enterprise security case management applicatio
 The Threat Intelligence application allows you to access and provide a point of reference for your company's Structured Threat Information Expression \(STIX™\) data. Included in Threat Intelligence is the Security Case Management application, which provides a means for analyzing threats to your organization posed by targeted campaigns or state actors.
 
 STIX is a language for describing cyber threat information in a standardized and structured manner. Using STIX data and Trusted Automated Exchange of Indicator Information \(TAXII™\) profiles, threat professionals can use shared cyber threat information to isolate threats that have been previously identified by your company and from other sources. TAXII makes widespread automated exchange of cyber threat information possible.
+
+To import STIX data into Threat Intelligence, define a threat source or TAXII profile that points to your STIX/TAXII feed. For instructions, see [Define a threat source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_GetStartedWithThreatIntel.md) and [Create a TAXII profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/c_GetStartedWithThreatIntel.md).
 
 Threat Intelligence supports STIX versions 1.1, 2.0, and 2.1.
 

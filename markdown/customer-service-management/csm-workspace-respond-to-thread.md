@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspace-respond-to-thread.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
-breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
 # Respond to a community thread from a case
@@ -24,7 +24,7 @@ Cases that have been created from a community discussion have the **Channel** fi
 
 ## Procedure
 
-1.  Open CRM Workspace.
+1.  Open CSM Configurable Workspace.
 
 2.  Open a case that was created from a community discussion.
 

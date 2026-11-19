@@ -1,40 +1,32 @@
 ---
 title: Add a Gemini Enterprise Agent Platform connection
-description: Connect Gemini Enterprise Agent Platform to AI Control Tower using a service account and OAuth 2.0 JWT Bearer authentication, so policies and AI agent containment using kill switch protocol can reach and act on agents running on Gemini Enterprise Agent Platform.
+description: Connect Gemini Enterprise Agent Platform to Super Intelligence Control Tower using a service account and OAuth 2.0 JWT Bearer authentication, so policies and AI agent containment using kill switch protocol can reach and act on agents running on Gemini Enterprise Agent Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-configure-gcp-vertex-ai-security-connection.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-07-29"
+reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring security connections, Configuring integrations, Configure, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Add a Gemini Enterprise Agent Platform connection
 
-Connect Gemini Enterprise Agent Platform to AI Control Tower using a service account and OAuth 2.0 JWT Bearer authentication, so policies and AI agent containment using kill switch protocol can reach and act on agents running on Gemini Enterprise Agent Platform.
+Connect Gemini Enterprise Agent Platform to Super Intelligence Control Tower using a service account and OAuth 2.0 JWT Bearer authentication, so policies and AI agent containment using kill switch protocol can reach and act on agents running on Gemini Enterprise Agent Platform.
 
 ## Before you begin
 
 Confirm the following:
 
--   A Google Cloud project with the Vertex AI API in Google Cloud enabled and IAM permissions to create a service account.
--   A Google Cloud service account granted three IAM roles.
+-   A GCP project with the Vertex AI API enabled and IAM permissions to create a service account.
+-   A GCP service account granted three IAM roles.
 
 |Role|Scope|Purpose|
 |----|-----|-------|
-|`roles/iam.denyAdmin`|Organization|Create and delete the Deny policy used to contain an agent.|
-|`roles/aiplatform.viewer`|Project level|Read the agent's identity from Gemini Enterprise Agent Platform.|
-|`roles/resourcemanager.projectViewer`|Project level|Resolve the Google Cloud project ID.|
-
-Deny policies are the only mechanism that overrides IAM allow policies, which makes them the reliable choice for containing an AI agent with the `roles/iam.denyAdmin` role. Removing an agent's role bindings isn't sufficient, because access granted elsewhere in the project still applies.
-
-Gemini Enterprise Agent Platform doesn't provide an API to disable an agent without deleting it. Creating a deny policy requires the `iam.denypolicies.create`, `update`, and `delete` permissions. Google Cloud doesn't provide a way to obtain these permissions below the organization level. The `roles/iam.denyAdmin` role can't be granted on a folder or project, and the permissions can't be placed in a custom role at any scope. Grant the role at the narrowest scope the platform supports. For more information, see the Google Cloud IAM documentation.
-
-The `roles/iam.denyAdmin` role carries residual risk. This role permits creating deny policies against any resource in the organization, which is broader than the scope required for AI agent containment. Google Cloud doesn't provide a way to narrow the grant by scope, so manage this risk through monitoring rather than IAM. Monitor Cloud audit logs for changes to who holds the role, and monitor all deny policy create and delete actions. Alert on any policy that isn't a project-scoped policy targeting a single agent identity.
-
-Complete these additional prerequisites before continuing:
+|`roles/iam.denyAdmin`|Organization or folder level only|Create and delete the Deny policy used to contain an agent.|
+|`roles/aiplatform.viewer`|Project level|Read the agent's identity from Vertex AI.|
+|`roles/resourcemanager.projectViewer`|Project level|Resolve the GCP project ID.|
 
 -   Download a JSON key for the service account. In the Google Cloud console, go to **IAM &amp; Admin** &gt; **Service accounts**, select the service account, then select **Add key** &gt; **Create new key** and choose **JSON** as the key type. You'll need the `private_key`, `private_key_id`, `client_email`, and `token_uri` values from this file in the steps below.
 -   For each ADK-based AI agent you want containment to cover, enable Agent Identity. Create an `.agent_engine_config.json` file with `{ "identity_type": "AGENT_IDENTITY" }` and follow [Create and deploy an agent with Agent CLI and Agent Identity](https://docs.cloud.google.com/iam/docs/create-and-deploy-agent) to deploy the agent with a unique identity.
@@ -147,7 +139,7 @@ Gemini Enterprise Agent Platform authenticates using OAuth 2.0 with a JWT Bearer
     -   **Host**: `iam.googleapis.com`.
     -   **Connection URL**: `https://iam.googleapis.com`
     -   **Active**: select this option.
-9.  Navigate to **AI Control Tower** &gt; **Settings** &gt; **Integrations** &gt; **Control Enforcement Points**.
+9.  Navigate to **Control Tower** &gt; **Settings** &gt; **Integrations** &gt; **Control Enforcement Points**.
 
 10. On the **Available connectors** sub-tab, select **Gemini Enterprise Agent Platform**.
 
@@ -162,7 +154,7 @@ Gemini Enterprise Agent Platform authenticates using OAuth 2.0 with a JWT Bearer
 
 ## Result
 
-The connector appears on the **Established connections** sub-tab. AI Control Tower can now use this connection to enforce policies and apply AI agent containment using kill switch protocol to Gemini Enterprise Agent Platform agents that have a unique agent identity configured.
+The connector appears on the **Established connections** sub-tab. Control Tower can now use this connection to enforce policies and apply AI agent containment using kill switch protocol to Gemini Enterprise Agent Platform agents that have a unique agent identity configured.
 
 To verify the setup:
 

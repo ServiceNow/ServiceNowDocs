@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/retire-archive-product-offering-somt.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-07"
 reading_time_minutes: 1
 breadcrumb: [Retire or archive versions, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -27,7 +27,7 @@ You can maintain only one active version of the product offering. After a produc
 
 ## Procedure
 
-1.  Open CRM Workspace.
+1.  Open CSM Configurable Workspace.
 
 2.  Navigate to **List** &gt; **Offerings** &gt; **Product Offerings**.
 

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-01"
 reading_time_minutes: 4
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [AI Admin Center, Enable AI experiences]
 ---
 
 # Exploring AI Admin Center

@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-11"
 reading_time_minutes: 7
 keywords: [Elasticsearch, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
 breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -79,7 +79,7 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [Create an service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data. This field is required.**Note:** If no appropriate service instance exists, create one, add CIs to it, and set its status to Operational. For more information, see [Create a Service instance \(application service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Index prefix
 
 </td><td>
 
-Prefix prepended to the names of the Elasticsearch indices from which you want to read data. The integration only reads data from indices that match the configured prefix. For example: network-logs-\* matches indices such as network-logs-2024.01.01. This field is required.This setting ensures that HLA only ingests data from the relevant indices.
+Prefix prepended to the names of the Elasticsearch indices from which you want to read data. The integration only reads data from indices that match the configured prefix. For example: network-logs-\* matches indices such as network-logs-2024.01.01. This field is required.This setting verifies that HLA only ingests data from the relevant indices.
 
 For example: only-read-these-indices-\*
 
@@ -175,7 +175,7 @@ Max connections per route
 
 </td><td>
 
-The maximum number of connections to be opened per node.
+The maximum number of connections to be opened per node. Default: 2.
 
 </td></tr><tr><td>
 
@@ -184,22 +184,6 @@ Max scroll slices
 </td><td>
 
 The number of shards configured for the relevant index in Elasticsearch.This number tells Elastic how many parallel queries to execute in each polling request.
-
-</td></tr><tr><td>
-
-Proxy host
-
-</td><td>
-
-Host name of the HTTP proxy through which requests are sent.
-
-</td></tr><tr><td>
-
-Proxy port
-
-</td><td>
-
-Port of the HTTP proxy through which requests are sent.
 
 </td></tr><tr><td>
 
@@ -225,7 +209,7 @@ Clusters to search
 
 </td><td>
 
-The Elasticsearch clusters to search.This field displays only when the **Use cross-cluster search** check box is selected. Do one of the following:
+The Elasticsearch clusters to search. This field displays only when the **Use cross-cluster search** check box is selected. Do one of the following:
 
 -   Leave this field empty or enter “\*” to search all the remote clusters defined in Elasticsearch.
 -   Specify the clusters to search in a comma-separated list.

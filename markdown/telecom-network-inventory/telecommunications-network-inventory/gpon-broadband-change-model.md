@@ -1,24 +1,24 @@
 ---
 title: Design your GPON Broadband Service
-description: Design and assign your Gigabyte Passive Optical Network \(GPON\) broadband service in the Telecommunications Network Inventory application. The GPON Broadband Service change model enables you to create multiple change tasks so that you can fulfill an order request for a GPON broadband service.
+description: The GPON broadband service change model creates and orchestrates multiple change tasks required to fulfill a GPON broadband service order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
 
 # Design your GPON Broadband Service
 
-Design and assign your Gigabyte Passive Optical Network \(GPON\) broadband service in the Telecommunications Network Inventory application. The GPON Broadband Service change model enables you to create multiple change tasks so that you can fulfill an order request for a GPON broadband service.
+The GPON broadband service change model creates and orchestrates multiple change tasks required to fulfill a GPON broadband service order.
 
 ## Before you begin
 
-Before you can establish a GPON Broadband Service change request and complete the related change tasks, your inventory catalog and template managers must complete the following setup:
+Before establishing a GPON Broadband Service change request and completing the related change tasks, inventory catalog managers and template managers must complete the following network configuration setup.
 
 1.  Navigate to **Telecom Network Inventory** &gt; **Inventory Models**, create your inventory models, and define their relationships.
 
@@ -43,25 +43,27 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 4.  Select **GPON Broadband Service** &gt; **Next**.
 
-5.  On the record producer form, you can update the fields.
+5.  On the GPON Broadband form select the **Customer Site name**.
 
-    The fields of the record producer form are auto-populated. This demonstration displays how to create configuration items \(CIs\) to show the design and assign of a GPON broadband service. To learn more about the fields, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+    Other fields are pre-populated but can be updated as needed.. To learn more about the fields, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
-6.  Select **Save**.
+6.  Select **Submit**.
 
-    The Change \(Design &amp; Assign\) flow is triggered and a change request is created. Depending on the given inputs, change tasks are automatically created and other related tabs appear. To learn more, see [Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md).
+    The change request is created based on your input and GPON Broadband service form appears with relevant tabs. To learn more, see [Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md)
 
-7.  Open and review each change task record.
+7.  Select an **Assignment group.**
 
-    On the Task Attributes form, fill in the fields. For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+8.  Select **Save.**
 
-8.  Select **Submit**.
+9.  The system automatically creates change tasks and displays them in the **Change Tasks**tab.For more information see [Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md)
 
-    The **Details** tab is updated.
+10. Switch to **Change Task** tab and click on the change task to review it.
 
-9.  On the **Affected CIs** related tab, see all the configuration items that are impacted due to this change task.
+    In the change task tab, you will find the change request number, request status and other related tabs.
 
-10. Select **Save**.
+11. Click on Affected CIs tab, to view the configuration items affected by this change task.
+
+12. Select **Save**.
 
 
 **Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)

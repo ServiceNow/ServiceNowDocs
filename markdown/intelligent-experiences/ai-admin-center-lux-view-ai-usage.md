@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-05"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Monitor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Monitor, AI Admin Center, Enable AI experiences]
 ---
 
 # View AI assets usage and performance in AI Admin Center \(Lux UI\)

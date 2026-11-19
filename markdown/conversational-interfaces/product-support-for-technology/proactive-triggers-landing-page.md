@@ -1,6 +1,6 @@
 ---
 title: Proactive Triggers
-description: Proactive Triggers supports end users by providing helpful platform actions, using real-time data. Admin users can customize rules and actions to present rich text pop-up messages to specific users.
+description: Proactive Triggers supports end users by providing platform actions based on real-time data. Admin users can customize rules and actions to present rich text pop-up messages to specific users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/product-support-for-technology/proactive-triggers-landing-page.html
 release: australia
@@ -14,9 +14,7 @@ breadcrumb: [Manage people and work, Conversational Interfaces]
 
 # Proactive Triggers
 
-Proactive Triggers supports end users by providing helpful platform actions, using real-time data. Admin users can customize rules and actions to present rich text pop-up messages to specific users.
-
-For an introduction to Proactive Triggers and to get familiar with the product, watch this video.
+Proactive Triggers supports end users by providing platform actions based on real-time data. Admin users can customize rules and actions to present rich text pop-up messages to specific users.
 
 ## Request apps on the Store
 

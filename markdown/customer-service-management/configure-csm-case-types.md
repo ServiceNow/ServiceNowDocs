@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-csm-case-types.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 breadcrumb: [Customer service case types, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ Configure case types to handle different types of customer issues. A case type i
 
 Role required: csm\_guided\_setup\_user or admin
 
-To be compatible with CRM Workspace, Case Types must be version 4.0 or later.
+To be compatible with CSM Configurable Workspace, Case Types must be version 4.0 or later.
 
 ## About this task
 
@@ -222,11 +222,11 @@ Navigate to **Contextual Search** &gt; **Table Configuration** and create a tabl
 
 </td></tr><tr><td>
 
-Set Up CRM Workspace for Case Types
+Set Up Agent Workspace for Case Types
 
 </td><td>
 
-To configure CRM Workspace differently for each case type, follow the CRM Workspace Guided Setup. You can configure the following features specific to each case type:-   Workspace lists
+To configure Agent Workspace differently for each case type, follow the Agent Workspace Guided Setup. You can configure the following features specific to each case type:-   Workspace lists
 -   Notifications
 -   Highlighted values
 -   Ribbon settings

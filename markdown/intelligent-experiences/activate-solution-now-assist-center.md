@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-02"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Activating actionable use cases, Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Activating actionable use cases, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
 # View and activate actionable use cases in AI Admin Center\(Next Experience UI\)

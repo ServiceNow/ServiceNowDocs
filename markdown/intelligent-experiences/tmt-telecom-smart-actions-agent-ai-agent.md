@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-22"
 reading_time_minutes: 2
-breadcrumb: [Telecommunications Customer 360 AI agents, Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Telecommunications Customer 360 AI agents, Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Telecom Smart Actions Agent AI agent

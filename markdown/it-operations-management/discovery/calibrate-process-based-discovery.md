@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Discover applications based on fingerprints, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -82,7 +82,7 @@ If the **Application Fingerprints** dashboard does not display any suggestions, 
 
         \[Omitted image "pi-clustering-solution.png"\] Alt text: Verify that the clustering solution is active.
 
-    5.  If the State value is not Solution Complete, configure Predictive Intelligence as described in [Configuration tips for Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/troubleshooting-predictive-intelligence.md).
+    5.  If the State value is not Solution Complete, configure Predictive Intelligence as described in Configuration tips for Predictive Intelligence.
 
 4.  Check that the clustering solution created enough process groups, which become suggestions.
 
@@ -94,7 +94,7 @@ If the **Application Fingerprints** dashboard does not display any suggestions, 
 
     4.  If there are still less than 1000 processes after discovering additional IP ranges or subnets, [disable the fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/calibrate-process-based-discovery.md).
 
-5.  Check that the **Application suggestion - ITOM Autodisco** transaction is not slow-loading, as described in [View and kill active transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ViewAndKillAnActiveTransaction.md).
+5.  Check that the **Application suggestion - ITOM Autodisco** transaction is not slow-loading, as described in View and kill active transaction.
 
     If this transaction is running for a long time, kill it.
 

@@ -7,8 +7,8 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-03-12"
+reading_time_minutes: 5
 breadcrumb: [Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -74,7 +74,7 @@ Role required: sn\_si.analyst.
 6.  An incident gets created.
 
 
-## Link multiple ITSM incidents, problems or change requests to a security incident
+## Link ITSM incidents, problems or change requests to a security incident
 
 Link related multiple IT Service Management \(ITSM\) incidents, problems or change requests to a security incident.
 
@@ -104,6 +104,10 @@ Role required: sn\_si.analyst
 ### Result
 
 The selected ITSM records are listed in the IT records section of the selected security incident record.
+
+**Note:**
+
+Changing the state of a linked incident, problem, or change request doesn't change the state of the security incident. Work notes added to a linked record are also added to the security incident.
 
 ## Create a problem task
 

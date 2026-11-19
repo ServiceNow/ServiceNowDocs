@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/test-l1-sd-ai-spec-sow.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-25"
 reading_time_minutes: 1
 breadcrumb: [Configure, L1 IT Service Desk AI Specialist, IT Service Management]
 ---
@@ -16,7 +16,7 @@ Test your L1 IT Service Desk AI Specialist on a single record to preview how it 
 
 ## Before you begin
 
-Role required: sn\_itsm\_common.sn\_service\_desk\_manager or admin
+Role required: sn\_sow\_itsm\_common.sn\_service\_desk\_manager or admin
 
 ## About this task
 

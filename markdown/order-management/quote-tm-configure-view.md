@@ -49,3 +49,5 @@ View field and event access values cannot be modified in the ServiceNow Quote Ex
     The updated view takes effect when the blueprint deployment completes.
 
 
+**Parent Topic:**[Quote transaction views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-views.md)
+

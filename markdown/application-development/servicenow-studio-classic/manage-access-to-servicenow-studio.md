@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
-breadcrumb: [Configure, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Configure, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Managing access to ServiceNow Studio

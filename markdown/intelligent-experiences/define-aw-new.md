@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/define-aw-new.html
 release: australia
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-06-06"
 reading_time_minutes: 2
-breadcrumb: [Create an agentic workflow, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
 ---
 
 # Define the expected behavior of an agentic workflow

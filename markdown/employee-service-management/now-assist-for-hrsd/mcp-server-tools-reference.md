@@ -9,7 +9,7 @@ classification: now-assist-for-hrsd
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [HRSD MCP Server, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # MCP Server Tools
@@ -157,5 +157,4 @@ Example:
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
-
+</table>

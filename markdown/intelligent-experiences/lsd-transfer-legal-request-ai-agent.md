@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/lsd-transfer-legal-request-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-14"
 reading_time_minutes: 1
-breadcrumb: [Legal Service Delivery AI agents, Legal Service Delivery, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Legal Service Delivery AI agents, Legal Service Delivery, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Transfer legal request AI agent

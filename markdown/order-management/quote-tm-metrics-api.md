@@ -119,4 +119,5 @@ Minutes
 When filtered to a single transaction, the metric reflects the time that specific transaction spent in the specified stage.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
+

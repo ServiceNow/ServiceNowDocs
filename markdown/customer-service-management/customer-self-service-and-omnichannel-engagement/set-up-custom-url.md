@@ -1,20 +1,20 @@
 ---
 title: Set up a custom URL as the instance URL
-description: Add a custom URL to your instance configuration to use instead of your ServiceNow URL. This custom URL ensures that embedded components remain accessible in your browser, even when third-party cookies are turned off.
+description: Set a custom URL as your instance URL so embedded components stay accessible when third-party cookies are turned off.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-custom-url.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Set up Web Embeddables, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Set up a custom URL as the instance URL
 
-Add a custom URL to your instance configuration to use instead of your ServiceNow URL. This custom URL ensures that embedded components remain accessible in your browser, even when third-party cookies are turned off.
+Set a custom URL as your instance URL so embedded components stay accessible when third-party cookies are turned off.
 
 ## Before you begin
 

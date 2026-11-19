@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-20"
 reading_time_minutes: 4
 breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 ---

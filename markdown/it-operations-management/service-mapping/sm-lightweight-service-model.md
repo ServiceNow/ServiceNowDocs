@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-10"
 reading_time_minutes: 1
 keywords: [service mapping, lightweight service, service architecture, service model, service topology]
 breadcrumb: [Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]

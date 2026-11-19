@@ -7,7 +7,7 @@ release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-25"
 reading_time_minutes: 4
 breadcrumb: [Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -46,15 +46,15 @@ When you publish a scenario, the state of the scenario changes from **Draft** st
 
     Follow any one of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d112320e159">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d112986e159">
 
 Path
 
-</th><th align="left" id="d112320e162">
+</th><th align="left" id="d112986e162">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d112320e168">
+</th></tr></thead><tbody><tr><td id="d112986e168">
 
 **From the Scenarios list section**
 
@@ -68,7 +68,7 @@ A list of all the scenarios created in the application are displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d112320e193">
+</td></tr><tr><td id="d112986e193">
 
 **From the Buildings list section**
 

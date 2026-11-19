@@ -1,16 +1,18 @@
 ---
-title: \(Legacy\) Define pre-chat survey configurations
+title: Define pre-chat survey configurations
 description: Use pre-chat surveys to capture preliminary information from a customer. You can define a configuration that determines the pre-chat survey to be presented to your customers. From the responses received, Advanced Work Assignment routes chat conversations to appropriate queues and groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/ac-configure-pre-chat-surveys.html
 release: australia
+product: Conversational Interfaces
+classification: conversational-interfaces
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create chat surveys, General chat settings, Conversational Interfaces Home for NLU, Configure NLU, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
+breadcrumb: [General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
 
-# \(Legacy\) Define pre-chat survey configurations
+# Define pre-chat survey configurations
 
 Use pre-chat surveys to capture preliminary information from a customer. You can define a configuration that determines the pre-chat survey to be presented to your customers. From the responses received, Advanced Work Assignment routes chat conversations to appropriate queues and groups.
 
@@ -30,7 +32,7 @@ Apply the conditions that determine the pre-chat questionnaire to be presented t
 
 2.  Under **Pre-chat surveys** on the **General** tab, select **View all**.
 
-3.  On the Chat Surveys page, select **New** to create a new chat survey configuration or select the configuration you want to update.
+3.  On the Chat Surveys page, select **New** to create a new chat survey configuration or select the configuration need to update.
 
 4.  Under **Details**, enter or change the settings.
 
@@ -107,4 +109,6 @@ List of the pre-chat surveys available. Choose the survey to be presented to the
 ## Result
 
 When a requester completes the pre-chat survey, the user is transferred either to a live agent if Agent Chat is set as the fulfiller interface or a virtual agent if Virtual Agent is set as the fulfiller. The user's pre-chat responses are stored as context in the chat interaction record. Before entering into a chat conversation, the assigned agent can review the context of the issue.
+
+**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ci-configuring-chat-features.md)
 

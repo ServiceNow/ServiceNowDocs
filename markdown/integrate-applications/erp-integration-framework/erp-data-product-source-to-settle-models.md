@@ -31,3 +31,5 @@ The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Source to Settl
 |Purchase Requisitions - List|Retrieve a list of purchase requisitions.|ERP|RFC/BAPI|
 |Purchasing Info Record|Retrieve details about a specific purchasing info record, such as prices, conditions, and sources for materials.|ERP|RFC/BAPI|
 
+**Parent Topic:**[Zero Copy Connector for ERP Source to Settle content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-source-to-settle-data-product.md)
+

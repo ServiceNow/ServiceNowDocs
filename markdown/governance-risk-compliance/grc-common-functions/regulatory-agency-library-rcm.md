@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -31,7 +31,7 @@ Several types of components are installed with activation of the Regulatory Agen
 
 ## Overview of an agency record
 
-After a regulatory agency is created, the **Overview** tab displays pie charts showing the total number of emails sent to each regulator domain. You can identify the domains that received the most emails. From an agency record, you can drill down to the email tracker page to filter and display only the emails sent for that agency. The following image shows the **Overview** tab of a regulatory agency.\[Omitted image "overview-reg-agency.jpg"\] Alt text: Overview tab of a regulatory agency.
+After creating a regulatory agency, select the **Overview** tab to see pie charts showing the total number of emails sent to each regulator domain. You can view the domains where the most emails were sent. From an agency record, drill down to the emails tracker page to filter and display only the emails sent for a specific agency. The following image shows the **Overview** tab of a regulatory agency.\[Omitted image "overview-reg-agency.jpg"\] Alt text: Overview tab of a regulatory agency.
 
 -   **[Download and activate the Regulatory Agency Library plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/activate-reg-agency-library-ccm.md)**  
 You can activate the GRC: Regulatory Agency Library application if you have the admin role. This application includes demo data and provides you access to regulatory body profiles.

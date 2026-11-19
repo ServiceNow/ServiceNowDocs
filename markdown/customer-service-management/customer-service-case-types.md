@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-service-case-types.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -84,7 +84,7 @@ Case Playbook for Complaints\(sn\_csm\_complaint\)
 Provides a complaint case type to capture the details for a customer complaint and a playbook that provides step-by-step guidance through the lifecycle of the complaint.
 
 </td></tr></tbody>
-</table>For more information, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+</table>For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
 **Note:** These applications have dependencies on the following plugins:
 
@@ -114,12 +114,12 @@ Customers can extend the Case table to handle different types of cases. Each ext
 
 When creating cases, customer service agents select the case type that corresponds to the customer issue.
 
--   In CRM Workspace and CSM Agent Workspace, agents select a case type from the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-type-select-modals.md).
+-   In CSM Configurable Workspace and CSM Agent Workspace, agents select a case type from the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-type-select-modals.md).
 -   In the platform interface, agents select a case type from an interceptor.
 
 the case type selector has several versions that agents can use when creating cases of a specific type.
 
-In CRM Workspace, the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-type-select-modals.md) has several versions that agents can use when creating cases of a specific type. These versions include multi-select, single-select, and Product Service Select. The multi-select version is the default functionality. In CSM Agent Workspace, agents can use the multi-select version of the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-type-select-modals.md).
+In CSM Configurable Workspace, the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-type-select-modals.md) has several versions that agents can use when creating cases of a specific type. These versions include multi-select, single-select, and Product Service Select. The multi-select version is the default functionality. In CSM Agent Workspace, agents can use the multi-select version of the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-type-select-modals.md).
 
 -   [Create a customer service case of a specific type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-case-of-specific-case-type.md)
 -   [Create a case task of a specific type for a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-case-task-specific-case-type.md)

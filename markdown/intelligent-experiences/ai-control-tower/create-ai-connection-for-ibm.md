@@ -1,20 +1,20 @@
 ---
 title: Create an AI connection for IBM
-description: Create an AI connection for IBM in AI Control Tower using the  AI Service Graph Connector for IBM.
+description: Create an AI connection for IBM in Control Tower using the  AI Service Graph Connector for IBM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/create-ai-connection-for-ibm.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-06"
 reading_time_minutes: 1
-breadcrumb: [IBM, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [IBM, Service Graph Connectors for Control Tower, AI connections, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Create an AI connection for IBM
 
-Create an AI connection for IBM in AI Control Tower using the  AI Service Graph Connector for IBM.
+Create an AI connection for IBM in Control Tower using the  AI Service Graph Connector for IBM.
 
 ## Before you begin
 

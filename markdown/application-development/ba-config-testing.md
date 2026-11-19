@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-config-testing.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Configure auto test prompting and UI tests
@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** As of Brazil Patch 1, the Test Agent setting for Autonomous Engineer are enabled by default.
+**Note:** As of Australia Patch 6, the Test Agent setting for Autonomous Engineer is enabled by default.
 
 For more information on UI tests, see [UI Test Script in Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-ui-test-script-atf.md).
 
@@ -29,13 +29,11 @@ For more information on UI tests, see [UI Test Script in Automated Test Framewor
 
 1.  Navigate to **All** &gt; **App Development** &gt; **ServiceNow Studio** or **All** &gt; **App Development** &gt; **ServiceNow IDE**.
 
-2.  Select the Conversations icon \[Omitted image "ba-sns-otto-nav-icon.png"\] Alt text: in the Navigator panel to open Build Agent.
-
-3.  Select the Settings icon \[Omitted image "ba-settings-icon.png"\] Alt text: in the Build Agent chat panel.
+2.  Select the Settings icon \[Omitted image "ba-settings-icon.png"\] Alt text: in the Build Agent chat panel.
 
     \[Omitted image "ba-settings-panel-1.png"\] Alt text: Build Agent panel showing greeting message and the Settings button
 
-4.  Enable the toggles for the following settings in the **General** tab as needed.
+3.  Enable the toggles for the following settings in the **General** tab as needed.
 
 <table><thead><tr><th>
 
@@ -61,7 +59,7 @@ Run UI ATF tests
 
 Runs the client-side and server-side UI ATF tests. -   The **Sync ATF tests with app** setting must be enabled.
 -   This setting is off by default since UI runs are slower.
--   This setting applies to both Build Agent and Autonomous Engineer
+-   This setting applies to both Build Agent and Autonomous Engineer.
 
 
 </td></tr></tbody>

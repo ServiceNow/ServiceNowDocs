@@ -78,7 +78,9 @@ Clients fail a connection when they can’t check the revocation status of a cer
 
 ## PowerShell requirements \(Windows only\)
 
-On Windows hosts, the MID Server requires the minimum PowerShell version 3.0 and supports versions up to PowerShell 5.1. See Microsoft's documentation for more information about PowerShell requirements. To find your current PowerShell version using the instance, go to **ecc\_agent\_list.do**. Using the **Update Personalize List** gear icon, add **Host PowerShell Version** to the Selected column. Then sort the list of MID Servers by their PowerShell version to find outdated MID Servers. Alternatively, you can find the PowerShell version on the host machine by using the command **$Host.Version** in the host's PowerShell console. The PowerShell version is listed as PSVersion.
+On Windows hosts, the MID Server requires the minimum PowerShell version 3.0 and supports versions up to PowerShell 5.1, plus PowerShell 7. PowerShell 6 is not supported. In most cases, manually disable the PowerShell 7 Compatibility Mode. See Microsoft's documentation for more information about PowerShell requirements.
+
+To find your current PowerShell version using the instance, go to **ecc\_agent\_list.do**. Using the **Update Personalize List** gear icon, add **Host PowerShell Version** to the Selected column. Then sort the list of MID Servers by their PowerShell version to find outdated MID Servers. Alternatively, you can find the PowerShell version on the host machine by using the command **$Host.Version** in the host's PowerShell console. The PowerShell version is listed as PSVersion.
 
 ## Java version support
 
@@ -233,7 +235,7 @@ As a result, there is no one size requirement that fits for all MID Server deplo
 
 ## Monitoring performance
 
-To ensure that the MID Server resource allocations are sufficient for your environment, monitor performance during peak periods of product execution from the [MID Server dashboard]().
+To ensure that the MID Server resource allocations are sufficient for your environment, monitor performance during peak periods of product execution from the [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerDashboard.md).
 
 **Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-reference-information.md)
 

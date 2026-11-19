@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-02"
 reading_time_minutes: 1
 keywords: [AI assistant, conversational search, employee search, organizational questions]
-breadcrumb: [Employee org chart, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
+breadcrumb: [Employee org chart, Working with EmployeeWorks capabilities, Configure, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Work with org chart and profiles

@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Configure Agent Client Collector to discover and map application services withou
 
 ## Before you begin
 
-Ensure that Agent Client Collector has been configured. For more information, see [Application patterns for the Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/application-patterns-acc.md).
+Ensure that Agent Client Collector has been configured. For more information, see [Application patterns for Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/application-patterns-acc.md).
 
 Verify that agents have the necessary privileges to execute the required application pattern commands for successful completion of top-down discovery. For more information, see [Privileged SSH commands for probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-ssh-command-require-priv.md) and [Non-privileged SSH commands during probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-ssh-probe-commands.md).
 

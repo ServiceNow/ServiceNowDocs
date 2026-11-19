@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Word add-in, Microsoft Word add-in, Add-ins for ServiceNow contracts, Add-ins for Contract Management]
 breadcrumb: [Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -64,15 +64,15 @@ Role required: admin
 
 6.  Configure the add-in.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d598481e278">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d600970e278">
 
 System
 
-</th><th align="left" id="d598481e281">
+</th><th align="left" id="d600970e281">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d598481e287">
+</th></tr></thead><tbody><tr><td id="d600970e287">
 
 **macOS**
 
@@ -86,7 +86,7 @@ Steps
 6.  Navigate to the menu **Home**.
  **Note:** To connect to multiple instances using the Microsoft Word add-in, add the corresponding manifest files to the `wef` folder in your system and ensure that each manifest file contains a unique ID.
 
-</td></tr><tr><td id="d598481e352">
+</td></tr><tr><td id="d600970e352">
 
 **Windows**
 
@@ -103,7 +103,7 @@ Steps
 6.  Navigate to the **Home** menu.
 
 
-</td></tr><tr><td id="d598481e411">
+</td></tr><tr><td id="d600970e411">
 
 **Microsoft Word Online**
 
@@ -129,5 +129,5 @@ The **ServiceNow Contracts** add-in is available on the Home ribbon. When you lo
 
 ## What to do next
 
-[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)
+[Creating a contract template using Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)
 

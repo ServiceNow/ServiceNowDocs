@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Interaction Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: itil or admin
 
 1.  Perform one of the following actions to start creating an interaction.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d254789e52">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d250195e52">
 
 Option
 
-</th><th align="left" id="d254789e55">
+</th><th align="left" id="d250195e55">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d254789e61">
+</th></tr></thead><tbody><tr><td id="d250195e61">
 
 **From the List menu in the primary navigation**
 
@@ -43,7 +43,7 @@ Description
 3.  Select **New Interaction**.
 
 
-</td></tr><tr><td id="d254789e100">
+</td></tr><tr><td id="d250195e100">
 
 **From an interaction list**
 

@@ -1,26 +1,26 @@
 ---
 title: Metrics monitored by DEX on macOS
-description: Endpoint performance and compliance metrics that DEX collects from managed macOS devices, including collection intervals, and associated check definitions and policies.
+description: Review the endpoint performance and compliance metrics that DEX collects from managed macOS devices, including collection intervals, and associated check definitions and policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/metrics-monitored-by-dex-macos.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-06-26"
 reading_time_minutes: 8
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # Metrics monitored by DEX on macOS
 
-Endpoint performance and compliance metrics that DEX collects from managed macOS devices, including collection intervals, and associated check definitions and policies.
+Review the endpoint performance and compliance metrics that DEX collects from managed macOS devices, including collection intervals, and associated check definitions and policies.
 
 ## Application metrics
 
 <table id="table_mac_metrics"><thead><tr><th>
 
-Metric name
+Metric Name
 
 </th><th>
 
@@ -44,11 +44,11 @@ Policy: Interval \(min\)
 
 </th><th>
 
-Check definition name
+Check Definition Name
 
 </th><th>
 
-Required privileges
+Required Privileges
 
 </th></tr></thead><tbody><tr><td>
 
@@ -473,7 +473,7 @@ No elevated privileges required
 
 <table id="table_uc4_2bj_sjc"><thead><tr><th>
 
-Metric name
+Metric Name
 
 </th><th>
 
@@ -497,7 +497,7 @@ Policy: Interval \(min\)
 
 </th><th>
 
-Check definition name
+Check Definition Name
 
 </th><th>
 
@@ -613,7 +613,7 @@ macOS CPU hardware details including model name, physical processor count, logic
 
 </td><td>
 
-`model`; `number_of_cores`; `number_of_logical_processors`; `architecture` \(for example, arm64 or x86\_64\)
+`model`; `number_of_cores`; `number_of_logical_processors`; `architecture` \(e.g., arm64 or x86\_64\)
 
 </td><td>
 
@@ -709,7 +709,7 @@ macOS hardware identity snapshot: model name, serial number, and device type via
 
 </td><td>
 
-`model` \(for example, MacBook Pro 14-inch\); `serial_number`; `device_type`
+`model` \(e.g., MacBook Pro 14-inch\); `serial_number`; `device_type`
 
 </td><td>
 

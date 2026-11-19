@@ -40,15 +40,15 @@ SMART targets are specific, measurable, attainable, relevant, and time-bound. Wh
 
 1.  Create a target for a goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d107430e122">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d108536e122">
 
 Option
 
-</th><th align="left" id="d107430e125">
+</th><th align="left" id="d108536e125">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d107430e131">
+</th></tr></thead><tbody><tr><td id="d108536e131">
 
 **From the Targets related list**
 
@@ -59,7 +59,7 @@ Steps
 3.  In the Quantitative Targets or Qualitative Targets related list, click **New**.
 
 
-</td></tr><tr><td id="d107430e164">
+</td></tr><tr><td id="d108536e164">
 
 **From the Targets module**
 

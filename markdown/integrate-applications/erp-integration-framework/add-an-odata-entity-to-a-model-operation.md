@@ -58,3 +58,5 @@ Role required: sn\_erp\_integration.erp\_admin
     \[Omitted image "erp-add-odata-entity-to-model2.png"\] Alt text: Manage model tab with entity card showing retrieval date and time.
 
 
+**Parent Topic:**[Connecting Zero Copy Connector for ERP to ERP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
+

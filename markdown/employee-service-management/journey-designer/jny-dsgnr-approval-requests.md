@@ -7,7 +7,7 @@ release: australia
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Journey designer plan configuration approvers, Plan configuration components, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -51,15 +51,15 @@ Role required: assigned as approver for a plan configuration
 
 3.  Review the changes.
 
-<table id="choicetable_r3s_wmc_dwb"><thead><tr><th align="left" id="d654670e114">
+<table id="choicetable_r3s_wmc_dwb"><thead><tr><th align="left" id="d658134e114">
 
 Options
 
-</th><th align="left" id="d654670e117">
+</th><th align="left" id="d658134e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d654670e123">
+</th></tr></thead><tbody><tr><td id="d658134e123">
 
 **Approve or Reject changes**
 
@@ -69,7 +69,7 @@ Description
 -   **Reject**:
 
 
-</td></tr><tr><td id="d654670e145">
+</td></tr><tr><td id="d658134e145">
 
 **View comment added by the owner**
 

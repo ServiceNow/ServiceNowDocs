@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-01"
 reading_time_minutes: 2
 keywords: [software categorization, Agent Client Collector, signature, discovered software]
 breadcrumb: [Software packages categorization, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -18,6 +18,8 @@ breadcrumb: [Software packages categorization, ACC deployment - endpoints, Confi
 Group discovered installed software packages in your environment by business relevance.
 
 ## Before you begin
+
+Ensure that you have installed Agent Client Collector for Visibility Content.
 
 In the System Properties, verify that the software categorization system property is set to true: `sn_acc_vis_content.sw_categorization.enabled=true`.
 

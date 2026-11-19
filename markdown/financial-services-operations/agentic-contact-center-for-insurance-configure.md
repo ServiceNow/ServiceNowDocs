@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/agentic-contact-center-for-insurance-configure.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-13"
 reading_time_minutes: 2
 keywords: [configure]
 breadcrumb: [Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]

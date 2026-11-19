@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-27"
 reading_time_minutes: 2
-breadcrumb: [Retail AI agents, Retail, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Retail AI agents, Retail, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Store Inquiry AI Agent

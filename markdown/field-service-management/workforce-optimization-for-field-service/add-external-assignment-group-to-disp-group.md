@@ -20,6 +20,10 @@ Add external vendor assignment groups to the dispatch group to assign work order
 
 Role required: wm\_admin
 
+## About this task
+
+The dispatch group must have a relationship with each assignment group that it assigns work order tasks to. Without this relationship, the system can't create work order tasks for the assignment group. You use the same Assignment Groups Covered related list to add internal agent groups.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Application** &gt; **Group Management** &gt; **Dispatch Groups**.

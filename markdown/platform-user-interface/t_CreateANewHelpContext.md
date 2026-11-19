@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreateANewHelpContext.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Context-sensitive help, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -63,8 +63,6 @@ Document
 </td><td>
 
 Click the reference lookup icon \(\[Omitted image "IconReferencelookup.png"\] Alt text: Reference lookup icon\) to open the document selection dialog box \(pictured\). Select the table and document \(record\) for this help context.
-
- \[Omitted image "select-the-document.png"\] Alt text: Help context document select
 
  This field is only visible if you have selected **Record** as the **Type**.
 

@@ -16,7 +16,7 @@ breadcrumb: [Discovery classifiers, Configuring Discovery, Discovery, ITOM Visib
 
 Discovery provides a way to classify devices it finds through IP address discovery, even when no credentials are available.
 
-When you run a discovery for IP addresses rather than a configuration item \(CI\) discovery, the Discovery application infers device and application information from the open ports it finds. Classification parameters for this type of Discovery are generated differently from scans in which credentials are available.
+When you run an IP address discovery rather than a configuration item \(CI\) discovery, the Discovery application infers device and application information from the open ports it finds. Classification parameters for this type of Discovery are generated differently from scans in which credentials are available.
 
 The syntax for creating parameters is derived from the fields returned by the Shazzam probe when conducting a Discovery for IP addresses. Parameters for CIs and applications are formed in the same way. The Shazzam probe creates an XML file containing the following fields:
 

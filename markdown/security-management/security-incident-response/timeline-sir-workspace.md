@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-25"
 reading_time_minutes: 2
 keywords: [security incident timeline, timeline events]
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
@@ -48,6 +48,8 @@ Create or modify timeline event configurations to control which events appear on
 
 **Related topics**  
 
+
+[Setup for the UI Builder]()
 
 [Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
 

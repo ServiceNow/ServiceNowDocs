@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-managing-ea-workspace.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -16,6 +16,8 @@ Use the Enterprise Architecture Workspace \(EAW\) for managing portfolios, model
 
 -   **[Working with Enterprise Architecture workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-ea-workspace-homepage.md)**  
 Enterprise Architecture Workspace home page serves as a personalized command center for enterprise architects, offering a unified, role-based view of portfolio insights, tasks, and health indicators. The Home page is designed to give architects immediate visibility into the state of their portfolios.
+-   **[Open a Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/workspace-open-uib.md)**  
+Access your Configurable Workspace experience in UI Builder for editing.
 -   **[Working with Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/ea-qna-use.md)**  
 You can ask the Enterprise Architecture query agent natural language questions about your enterprise architecture portfolio using the ServiceNow Otto® panel in Enterprise Architecture Workspace.
 -   **[Working with AI agent agentic workflow in ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/using-na-ea-ai-agents.md)**  
@@ -31,7 +33,7 @@ Technology Lifecycle Management provide visibility, governance, and actionable i
 -   **[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-trm.md)**  
 The Technology Reference Model provides a structured, centralized view of all technology products; hardware, software, and platforms used across the enterprise.
 -   **[Working with Gantt chart views in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-gantt-chart-views.md)**  
-The Gantt charts in the Enterprise Architecture Workspace allow toggling between TPM \(Technology Portfolio Management\) and TRM \(Technology Reference Model\) views. This enables enterprise architects to visualize key lifecycle stages such as deployment, maintenance, and retirement. Identify risks like outdated configurations or unsupported technologies.
+The Gantt charts in the Enterprise Architecture Workspace allow toggling between TLM \(Technology Lifecycle Management\) and TRM \(Technology Reference Model\) views. This enables enterprise architects to visualize key lifecycle stages such as deployment, maintenance, and retirement. Identify risks like outdated configurations or unsupported technologies.
 -   **[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)**  
 Enterprise Modeling and Visualization provides a structured, visual framework for managing the complex relationships between IT systems, business processes, and organizational goals.
 -   **[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-data-cert.md)**  

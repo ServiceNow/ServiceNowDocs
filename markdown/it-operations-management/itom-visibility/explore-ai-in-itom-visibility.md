@@ -1,27 +1,75 @@
 ---
 title: AI in ITOM Visibility
-description: AI features in ITOM Visibility help administrators automate service maps, diagnose discovery issues, manage certificates, and resolve incidents using generative AI and agentic workflows.
+description: AI features in ITOM Visibility help administrators automate service maps, diagnose discovery issues, manage certificates, and resolve incidents using generative AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/explore-ai-in-itom-visibility.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 9
+last_updated: "2026-07-06"
+reading_time_minutes: 10
 keywords: [Now Assist, AI, ITOM Visibility, generative AI, agentic AI]
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
 
 # AI in ITOM Visibility
 
-AI features in ITOM Visibility help administrators automate service maps, diagnose discovery issues, manage certificates, and resolve incidents using generative AI and agentic workflows.
+AI features in ITOM Visibility help administrators automate service maps, diagnose discovery issues, manage certificates, and resolve incidents using generative AI.
 
 AI features in ITOM Visibility span several products. The following tables summarize all available AI features by type and product.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-## Agentic workflows
+## MCP servers
+
+MCP servers in ITOM Visibility expose instance data to external AI clients through the Model Context Protocol, giving those clients structured, ACL-enforced access to live CMDB and service data.
+
+<table id="table_explore-visibility-mcp-servers"><thead><tr><th>
+
+Product
+
+</th><th>
+
+AI feature
+
+</th><th>
+
+Description
+
+</th><th>
+
+Use case
+
+</th><th>
+
+Resources
+
+</th></tr></thead><tbody><tr><td>
+
+Service Mapping
+
+</td><td>
+
+Service Mapping MCP server
+
+</td><td>
+
+Exposes five read-only tools through the CMDB MCP Server. The tools give AI clients such as Claude structured access to live application service data, including full service topology, server impact graphs, and unmapped CIs. Authentication uses OAuth 2.0 with JWT tokens and enforces the same ACLs as standard instance API calls.
+
+</td><td>
+
+A Service Mapping administrator or operator wants to query service topology, identify mapping gaps, or assess server impact. They do so by using natural language in an AI client, without navigating the instance UI.
+
+</td><td>
+
+-   [Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-mcp-server.md)
+-   [Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/activate-sm-mcp-server.md)
+-   [Connect Claude Desktop to the Service Mapping MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/connect-claude-desktop-sm-mcp.md)
+-   [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/sm-mcp-tools.md)
+
+</td></tr></tbody>
+</table>## Agentic workflows
 
 Agentic workflows in ITOM Visibility use AI agents to complete investigation and management tasks autonomously or with minimal administrator input.
 
@@ -207,7 +255,7 @@ Business App Mapping AI Agent
 
 </td><td>
 
-Automatically creates CSDM "Consumes::Consumed by" relationships between Business Applications and discovered Application Services by invoking the Business App Identification skill. High-confidence matches are connected automatically. Medium-confidence matches are saved to a staging table for administrator review.**Note:** The Business App Mapping AI Agent is available through the Feature Preview Program. For more information, see [Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/feature-preview-program.md).
+Automatically creates CSDM "Consumes::Consumed by" relationships between Business Applications and discovered Application Services by invoking the Business App Identification skill. High-confidence matches are connected automatically. Medium-confidence matches are saved to a staging table for administrator review.**Note:** The Business App Mapping AI Agent is available through the Feature Preview Program. For more information, see .
 
 </td><td>
 

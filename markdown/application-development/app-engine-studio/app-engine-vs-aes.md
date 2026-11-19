@@ -7,9 +7,9 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-02"
 reading_time_minutes: 1
-breadcrumb: [Explore, App Engine Studio, Developing your application, Classic app development, Building applications]
+breadcrumb: [Explore, App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
 
 # App Engine and App Engine Studio

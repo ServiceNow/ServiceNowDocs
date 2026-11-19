@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/exploring-unified-security-exposure-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Unified Security Exposure Management, Security Operations]
 ---
@@ -26,6 +26,10 @@ USEM is an evolution of existing Vulnerability Response modules including Applic
 |Vulnerability Analyst/ Manager|Monitors the organization’s overall risk posture across integrated environments, ensuring accurate asset discovery and classification for vulnerability correlation. This role serves as an escalation point for remediation teams, assigns remediation tasks based on asset ownership and severity, and organizes vulnerabilities into dynamic remediation tasks to streamline prioritization. Additionally, the role delivers actionable dashboards and reports to track remediation progress, highlight critical exposures, and communicate the current risk posture to stakeholders.|
 |Remediation Owner|Drives remediation of assigned exposure findings, submitting exception requests for issues that can’t be resolved within defined timeframes, and navigating internal change management processes to implement fixes. The role also involves monitoring assigned workload to track progress and ensure compliance. With permissions to view and update findings and remediation tasks, access all vulnerability entries and solutions, and add internal notes, the Remediation Owner plays a key role in reducing organizational risk exposure.|
 |Approver|Reviews and authorizes requests related to vulnerability and exposure management, including false positive validations, exception deferrals, assignment change approvals, and risk reduction measures. This role ensures governance and compliance by evaluating justification, risk impact, and remediation timelines before granting approval or rejection. Approvers work within a unified approval view, providing timely decisions, maintaining audit trails, and supporting multi-level workflows to keep remediation processes aligned with organizational policies.|
+
+## Unified Security Exposure Management workflow
+
+\[Omitted image ""\] Alt text: USEM workflow \[Omitted image "usem-workflow.png"\] Alt text: USEM workflow
 
 ## Unified Security Exposure Management benefits
 

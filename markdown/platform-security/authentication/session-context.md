@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Authentication policy contexts, Adaptive authentication, Authentication, Access Management]
 ---
@@ -20,9 +20,9 @@ You can use the Session Validation Context with the [Adaptive authentication](ht
 
 The Session Validation Context policy can be used in conjunction with post auth policy, where an admin can enforce IP restrictions to certain or all users during the logged in session.
 
-The Session Validation Context feature evaluates the IP-addresses based on the conditions you set and allows access to the instance within a session. The Session Validation Context outcome is set based on selecting **Allow Policy** because this policy terminates the user session immediately unless one of the policy conditions defined in the allow access policy evaluates to true.
+The Session Validation Context feature evaluates the IP-addresses based on the conditions you set and allows access to the instance within a session. The Session Validation Context outcome is set based on selecting **Allow Policy** as this policy terminates the user session immediately unless one of the policy conditions defined in the allow access policy evaluates to true.
 
-**Note:** The Session Validation Context for an authentication policy can only be used with **Allow Policy**.
+**Note:** The Session Validation Context for an authentication policy can only be with **Allow Policy**.
 
 The Session Validation Context works based on the following mechanism:
 
@@ -36,7 +36,7 @@ The Session Validation Context works based on the following mechanism:
 -   Optional and based on the requirement that it can be configured.
 -   Executed only for the post-login requests.
 
-## Benefits of session validation
+## Benefits of Session Validation
 
 The Session Validation Context has the following benefits:
 
@@ -44,7 +44,7 @@ The Session Validation Context has the following benefits:
 -   Restricts the user's session access if they're using an insecure network.
 -   Configures the various rules and IP ranges by user group or role for user logins.
 
-## Session validation context record
+## Session Validation context record
 
 Policies in the session validation context execute post-login requests.
 

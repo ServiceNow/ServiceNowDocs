@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-an-ai-voice-service.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 16
-breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+last_updated: "2026-09-29"
+reading_time_minutes: 17
+breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Create an AI voice assistant
@@ -192,9 +192,9 @@ Instructions that tell the assistant how to handle specific situations and topic
 
         Select **Mobile applications** to configure ServiceNow applications such as chat launcher functions, voice launcher functions, and prominent action button overrides. You can also configure external applications. For more information, see [Integrate voice assistant with mobile app voice launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md).
 
-        Select **Web applications** to configure the voice call widget on your ServiceNow Portal or Engagement Messenger. For more information, see [Use Voice call widget for portal communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-phone-widget.md).
+        Select **Web applications** to configure the voice call widget on your ServiceNow Portal or Engagement Messenger. For more information, see [Enable WebRTC for Voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-phone-widget.md).
 
-        **Note:** Guest callers connecting through a WebRTC web application, such as an unauthenticated portal visitor, are automatically authenticated using a cookie-based session. No additional widget configuration is required. Guest callers are still subject to the identification and authentication factors you configure in the next step, Identify and authenticate the caller. For more information about the voice call widget, see [Use Voice call widget for portal communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-phone-widget.md).
+        **Note:** Guest callers connecting through a WebRTC web application, such as an unauthenticated portal visitor, are automatically authenticated using a cookie-based session. No additional widget configuration is required. Guest callers are still subject to the identification and authentication factors you configure in the next step, Identify and authenticate the caller. For more information about the voice call widget, see [Enable WebRTC for Voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-phone-widget.md).
 
     3.  Select **Save and continue**.
 
@@ -365,21 +365,37 @@ Voice or DTMF
 
     Advanced settings let you configure supplementary features for the voice assistant.
 
-    1.  In the **Noise cancellation** section, select the level of background noise cancellation intensity.
+    1.  In the **Noise cancellation** sectionon the **Caller experience** tab, select the level of background noise cancellation intensity.
 
         Noise cancellation reduces background noise from the caller's side so the voice agent can better hear them. Select from the following levels:
 
         -   **Low**: Picks up even the quietest background noises. Use in quiet environments where background sounds such as TV or music may be present.
         -   **Medium** \(default\): Picks up somewhat quiet background noises. Use in environments with moderate background noise, such as public places or areas with normal talking.
         -   **High**: Picks up only the loudest background noises. Use in very noisy environments such as construction sites or areas with loud background speech.
-    2.  On the **Language and voice** tab, configure the messages played during language selection.
+    2.  In the **Assistant response speed** section on the **Caller experience** tab, move the slider to set how quickly the assistant replies.
+
+        Move the slider toward **Slower** to give callers more time to follow the assistant's spoken responses. Move it toward **Faster** to speed up the assistant's spoken responses. The slider starts at the default position.
+
+        To return the slider to the default position, select **Reset to default**.
+
+    3.  On the **Language and voice** tab, configure the messages played during language selection.
 
         |Field|Description|
         |-----|-----------|
         |Retry message|Message played before each replay of the language selection prompt, up to three times.|
         |Goodbye message|Message played after the maximum number of retry attempts is reached without a valid selection.|
 
-    3.  Select **Save and continue**.
+    4.  On the **Interruption management** tab, select **Enable interruption handling** to allow the voice assistant to keep its context when a caller interrupts it.
+
+        Without interruption handling, the assistant can lose track of what it was saying when a caller speaks over it. With interruption handling, the assistant is designed to respond to the interruption and resume where it left off, if applicable. This setting is turned off by default.
+
+        For example, the assistant asks, "Did you book your ticket through our website or through a third party?" The caller interrupts with "Yes." With interruption handling turned on, the assistant replies, "Got it. You booked your ticket. Did you book it through our website or through a third party?" With interruption handling turned off, the assistant replies, "Got it. You booked. Let's continue," and the context of the question is lost.
+
+        To view this example in the interface, expand **How does interruption handling work?** on the tab.
+
+        Results can vary based on audio quality, caller accent, and context, and the assistant's responses may be inaccurate. Test the assistant before you deploy it.
+
+    5.  Select **Save and continue**.
 
         You're directed to the Review page.
 

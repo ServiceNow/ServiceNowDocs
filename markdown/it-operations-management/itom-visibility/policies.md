@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-17"
 reading_time_minutes: 1
 breadcrumb: [Reference, Cryptographic Asset Compliance, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +19,6 @@ Cryptographic Asset Compliance uses policies to evaluate cryptographic assets an
 |Policy name|Description|
 |-----------|-----------|
 |AWS KMS cumulative risk level calculation|Calculates the risk level for AWS KMS keys based on all risk indicators.|
-|AWS KMS key rotation check|Checks whether AWS KMS keys have been rotated within the recommended period.|
 |AWS KMS PQC readiness|Checks whether an AWS KMS key uses post-quantum-safe algorithms.|
 |AWS KMS weak algorithm detection|Identifies AWS KMS keys that use weak or insufficient key algorithms.|
 |Azure Key Vault cumulative risk level calculation|Calculates the risk level for Azure Key Vault keys based on all risk indicators.|

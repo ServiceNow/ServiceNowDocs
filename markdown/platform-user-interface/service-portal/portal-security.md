@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -29,10 +29,6 @@ Control who accesses your portal and what they can see in the following ways:
 
 -   **[Single sign-on, logins, and URL redirects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/c_SPSSOLoginAndRedirects.md)**  
 Service Portal uses a combination of system properties and script includes to determine how the system handles URL redirects for users logging in to the portal.
--   **[Enable identifier-first login in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/identifier-first-login-service-portal.md)**  
-Service Portal uses an identifier-first login authentication method where the authentication path is determined by the username or email entered. The path is evaluated against configured identifier-first login policies. Identifier-first login takes precedence over any identity provider or local login options configured for the portal.
--   **[Enable early redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/enable-early-redirection.md)**  
-Enable early redirection to redirect authentication to identifier-first login or a portal identity provider.
 -   **[Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-page-security.md)**  
 Set up pages to be public or filter them by role.
 -   **[Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-widget-security.md)**  

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/asynchronous-attachment-uploads.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-04"
 reading_time_minutes: 1
 breadcrumb: [Mobile properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -127,4 +127,6 @@ Specifies the number of automatic retry attempts for an asynchronous attachment 
 
 
 **Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-properties.md)
+
+**Parent Topic:**[Update a branded app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/update-branded-app.md)
 

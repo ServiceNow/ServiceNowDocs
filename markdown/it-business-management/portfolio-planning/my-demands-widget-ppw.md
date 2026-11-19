@@ -21,13 +21,13 @@ Employee Slate is a conversation-first employee experience that combines intelli
 
 Demands are available in Employee Slate if both Project Workspace and Employee Slate Core apps are installed.
 
-## Create demands with conversational experience
+## Create demands with the conversational experience
 
 You can create a demand through an Employee Slate conversation. Include relevant business context in your message if you have it. For example, enter a message such as "Upgrade system software." The relevant demand catalog items are identified and a demand form opens. If you include relevant business context in your message, matching fields \(such as Business Case\) are prepopulated on the form. If you don't include business context, the fields remain empty.
 
 After the demand record is created, you can track the new demand from the My Demands and Requests widgets on your canvas. You can also track the status of the demand through the conversational experience by just asking about the state.
 
-## Track demands with My Demands widget
+## Track demands with the My Demands widget
 
 The My Demands widget is a card on the Employee Slate canvas. It lists your ten most recently updated demands with a total count of your demands next to the **My Demands** heading. Each demand in the list appears as a row with its demand title, assignee avatar and name, and a color-coded status badge. If the demand does not have an assigned demand manager, the icon and label indicates it as unassigned.
 
@@ -41,7 +41,7 @@ The My Demands widget provides the following benefits:
 -   Improved transparency into demand lifecycle status, without needing to contact a demand manager.
 -   Faster collaboration when a demand manager requests for more information.
 
-Select the Open full list icon \[Omitted image "demand-open-full-list-icon.png"\] Alt text: on the widget to view the entire list of your demands or select an individual demand row to open its details page. You can filter demands by their state in the full list view and open a demand record by selecting it.
+Select the Open full list icon \[Omitted image "demand-open-full-list-icon.png"\] Alt text:on the widget to view the entire list of your demands or select an individual demand row to open its details page. You can filter demands by their state in the full list view and open a demand record by selecting it.
 
 \[Omitted image "demand-my-demands-filter.png"\] Alt text: The demand state filters available in the full list view.
 
@@ -53,7 +53,7 @@ The current state of the demand is highlighted. The delivery information indicat
 
 You can edit the demand values only while the demand is in the Draft state. After you submit a demand, you can no longer edit its field values, but you can still add activity notes and attachments. See [Edit a draft demand in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/edit-an-active-demand-ppw.md).
 
-## Track demands with Requests widget
+## Track demands with the Requests widget
 
 Demands also appear in the standard Requests widget, alongside your other requests. Selecting **View more** takes you to the Requests list. You can find your demands in this list even if you have not added the My Demands widget to your canvas.
 

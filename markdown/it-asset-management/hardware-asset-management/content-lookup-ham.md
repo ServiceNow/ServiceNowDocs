@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -173,8 +173,6 @@ On the Hardware Model form, the **Copy model details** option enables you to cop
 ## Hardware Lifecycles tab
 
 View a list of life cycle records of hardware models released in the Content Library. On the Hardware lifecycles list, only active lifecycles are displayed with a default filter condition applied. Select the Product model to view the hardware product lifecycle details.
-
-**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-workspace.md)
 
 ## Install Content lookup to view Hardware Asset Management data
 

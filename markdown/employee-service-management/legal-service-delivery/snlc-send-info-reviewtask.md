@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Internal review overview, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ The work notes added when requesting information are available in the Activity s
 
 1.  Open the review task.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d773262e61">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d778941e61">
 
 Method
 
-</th><th align="left" id="d773262e64">
+</th><th align="left" id="d778941e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d773262e70">
+</th></tr></thead><tbody><tr><td id="d778941e70">
 
 **My Work listing**
 
@@ -48,7 +48,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d773262e117">
+</td></tr><tr><td id="d778941e117">
 
 **Delegated to me listing**
 
@@ -60,7 +60,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d773262e164">
+</td></tr><tr><td id="d778941e164">
 
 **Contract Review Tasks listing**
 
@@ -72,7 +72,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d773262e211">
+</td></tr><tr><td id="d778941e211">
 
 **Contract Request Reviews tab**
 

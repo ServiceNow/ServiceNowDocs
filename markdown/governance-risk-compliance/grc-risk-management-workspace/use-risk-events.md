@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -23,7 +23,7 @@ Automatically assign the risk event owner, create and assign issues, and route a
 -   **[Define a threshold amount for the risk event response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/define-threshold-amount-risk-event.md)**  
 Define a threshold limit for assigning risk event approvers. A threshold limit is defined to determine if a risk event needs an approver.
 -   **[Report risk events from the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/report-risk-events-serviceportal.md)**  
-When you identify any event that might have a financial or non financial impact on your organization, report it from the ServiceNow, Inc. Service Portal. You can also report any event that has already occurred with a financial or non financial impact.
+When you identify any event that might have a financial or non financial impact on your organization, report it from the Service Portal. You can also report any event that has already occurred with a financial or non financial impact.
 -   **[Report a risk event from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/report-risk-event-from-employee-center.md)**  
 When you identify any event that might have a financial or non financial impact on your organization, report it from the ServiceNow, Inc. Employee Center. You can also report any event that has already occurred with a financial or non financial impact.
 -   **[Report a risk event from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/report-risk-event-from-incident.md)**  

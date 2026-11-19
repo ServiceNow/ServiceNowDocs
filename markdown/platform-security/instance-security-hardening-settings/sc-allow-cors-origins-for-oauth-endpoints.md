@@ -1,5 +1,5 @@
 ---
-title: Allow CORS origins for OAuth endpoints
+title: Allow CORS Origins for OAuth Endpoints
 description: Use a system property to configure to specify which domains are allowed to make cross-origin requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-allow-cors-origins-for-oauth-endpoints.html
@@ -7,12 +7,12 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuration, Hardening settings, Platform Security]
 ---
 
-# Allow CORS origins for OAuth endpoints
+# Allow CORS Origins for OAuth Endpoints
 
 Use a system property to configure to specify which domains are allowed to make cross-origin requests.
 
@@ -23,7 +23,7 @@ References:
 -   [OAuth Authorization Server Metadata RFC](https://datatracker.ietf.org/doc/html/rfc8414)
 -   [OAuth Protected Resource Metadata RFC](https://datatracker.ietf.org/doc/html/rfc9728)
 
-When integrating third-party solutions with ServiceNow OAuth functionality, ensure that the **glide.oauth.cors.allowed.origin** system property exists in the system properties \[sys\_properties\] table, and holds the external domain\(s\) required for Cross Origin Resource Sharing \(CORS\) functionality.
+When integrating third-party solutions with ServiceNow OAuth functionality, ensure that the **glide.oauth.cors.allowed.origin** system property exists in the System Properties \[sys\_properties\] table, and holds the external domain\(s\) required for Cross Origin Resource Sharing \(CORS\) functionality.
 
 ## More information
 

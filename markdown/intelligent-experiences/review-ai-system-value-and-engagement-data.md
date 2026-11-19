@@ -1,25 +1,25 @@
 ---
-title: Review value and engagement insights for AI systems
-description: Use AI Control Tower to review productivity gains, cost savings, and engagement results for AI systems in your scope. AI stewards review data for all AI systems on the instance. Product owners review data for the AI systems that list them in the Managed by field.
+title: Review AI system value and engagement data
+description: Review productivity gains, cost savings, and engagement results for AI systems. AI stewards see data for every AI system on the instance. Product owners see data for the AI systems that list them in the Managed by field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/review-ai-system-value-and-engagement-data.html
 release: australia
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Use, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Use, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Review value and engagement insights for AI systems
+# Review AI system value and engagement data
 
-Use AI Control Tower to review productivity gains, cost savings, and engagement results for AI systems in your scope. AI stewards review data for all AI systems on the instance. Product owners review data for the AI systems that list them in the **Managed by** field.
+Review productivity gains, cost savings, and engagement results for AI systems. AI stewards see data for every AI system on the instance. Product owners see data for the AI systems that list them in the Managed by field.
 
 ## Before you begin
 
--   You must have the AI steward role or the product owner role. Users without one of these roles can't open AI Control Tower.
+-   You must have the AI steward role or the product owner role. Users without one of these roles can't open Control Tower.
 -   If you have the product owner role, at least one AI system must list you in the **Managed by** field.
 
-Role required: sn\_ai\_governance.ai\_steward or sn\_ai\_governance\_ai\_asset\_owner
+Role required: sn\_ai\_governance.ai\_steward or the product owner \(sn\_ai\_governance\_ai\_asset\_owner\)
 
 ## About this task
 
@@ -34,7 +34,7 @@ For both roles, only AI systems in the Deployed state contribute to calculations
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home**.
 
 2.  Navigate to **Insights** &gt; **Value**.
 
@@ -42,13 +42,11 @@ For both roles, only AI systems in the Deployed state contribute to calculations
 
     The change values shown against each AI system compare the selected period with the preceding period of the same length.
 
-4.  Review the productivity gains and cost savings data in the charts.
+4.  Review the productivity gains data.
 
-    Each chart displays aggregated results for AI systems in the **Deployed** state within your scope.
+5.  To see the contributing AI systems for a chart, open the detail view.
 
-5.  To see the AI systems contributing to a chart, select the chart to open the detail view.
-
-    Because only AI systems in the **Deployed** state contribute, the count in the detail view can be lower than the number of AI systems in your scope.
+    Because only AI systems in the Deployed state contribute, the count in the detail view can be lower than the number of AI systems in your scope.
 
 6.  Select the **Engagement** tab to review engagement results.
 

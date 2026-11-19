@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-insurance-interaction-summary-skill.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-21"
 reading_time_minutes: 2
 breadcrumb: [Configuring Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [modify collected metrics, edit metrics, metric collection, child policy, agent policy, turn off metric]
 breadcrumb: [Collecting DEX metrics, Configure, Digital End-User Experience, IT Operations Management]
@@ -19,11 +19,11 @@ Turn off an existing DEX metric for certain configuration item \(CI\) criteria b
 
 ## Before you begin
 
-Role required: sn\_dex.admin
+Role required: sn\_dex\_admin
 
 ## About this task
 
-Metric collection on any device is managed using agent policies. Agent policies are downloaded to the devices when the list of metrics is downloaded. The metrics are collected based on the CI filter criteria of the policy, and you can modify which metrics are collected.
+Metric collection on any device is managed using agent policies. Agent policies are downloaded on the devices when the list of metrics is downloaded. The metrics are collected based on the CI filter criteria of the policy, and you can modify which metrics are collected. For example, in one of the policies available with the base system.
 
 ## Procedure
 
@@ -49,7 +49,7 @@ Metric collection on any device is managed using agent policies. Agent policies 
 
     1.  Enter a name for your child policy by modifying the parent policy name.
 
-    2.  On the **Monitored CIs** tab, confirm that **Monitored CI type by filter** is selected.
+    2.  On the Monitored CIs tab, confirm that **Monitored CI type by filter** is selected.
 
     3.  In the **Filter** section, add a filter condition to scope the child policy.
 

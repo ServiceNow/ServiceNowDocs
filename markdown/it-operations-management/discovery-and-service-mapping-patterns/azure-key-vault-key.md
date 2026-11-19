@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-04-28"
 reading_time_minutes: 4
 keywords: [Azure Key Vault Key, Azure Key Vault Key discovery, Azure patterns, Key Vault pattern]
 breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]

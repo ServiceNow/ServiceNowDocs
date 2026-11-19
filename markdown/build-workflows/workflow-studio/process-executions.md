@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -18,7 +18,7 @@ A process execution is a single, runtime instance of a playbook. Process executi
 
 A process execution represents a runtime execution of your playbook. Each time a playbook is triggered, a record is automatically in the Process Executions \[sys\_pd\_context\] table.
 
-To access the records for an In Progress process execution, navigate to **Process Automation** &gt; **Process Automation Administration** &gt; **Active Processes**. Alternatively, you can see the process executions for all playbooks that ran today by navigating to **Process Automation** &gt; **Process Automation Administration** &gt; **Today's Executions**.
+To access the records for an In Progress process execution, navigate to **Process Automation** &gt; **Playbook Administration** &gt; **Active Processes**. Alternatively, you can see the process executions for all playbooks that ran today by navigating to **Process Automation** &gt; **Playbook Administration** &gt; **Today's Executions**.
 
 ## Fields
 

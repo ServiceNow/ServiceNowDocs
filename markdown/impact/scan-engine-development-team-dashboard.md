@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/scan-engine-development-team-dashboard.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-29"
 reading_time_minutes: 1
-breadcrumb: [Track Platform Health trends, Platform Health, Using Impact, Impact]
+breadcrumb: [Track Platform Health trends, Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
 ---
 
 # Scan Engine Developer dashboard

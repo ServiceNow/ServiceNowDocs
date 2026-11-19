@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aias-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-25"
 reading_time_minutes: 4
 keywords: [agentic AI, AI agents, Agentic workflows, ServiceNow Otto AI Agents]
-breadcrumb: [AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
 # AI Agent Studio

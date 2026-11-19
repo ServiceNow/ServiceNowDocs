@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-13"
 reading_time_minutes: 4
 keywords: [assign work ai specialist, assignment ai specialist, AI specialist, manual assignment, assign work, assignment rule ai specialist, awa ai specialist, advanced work assignment ai specialist]
-breadcrumb: [Configure, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Configure, Autonomous Workforce, Enable AI experiences]
 ---
 
 # Assigning work to an AI specialist

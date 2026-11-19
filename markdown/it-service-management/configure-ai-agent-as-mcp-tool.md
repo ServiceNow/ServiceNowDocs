@@ -1,6 +1,6 @@
 ---
-title: Configure an AI agent as an MCP tool
-description: Enable an AI agent to be discoverable and accessible as an MCP tool by configuring authentication, communication mode, and third-party access settings.
+title: Configure the Create incident AI agent as an MCP tool
+description: Enable the requester.create\_incident AI agent to be discoverable and accessible as an MCP tool by configuring authentication, communication mode, and third-party access settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/configure-ai-agent-as-mcp-tool.html
 release: australia
@@ -11,9 +11,9 @@ keywords: [AI agent, MCP tool, configuration, authentication]
 breadcrumb: [Activate the ITSM MCP Server, ITSM MCP Server, IT Service Management]
 ---
 
-# Configure an AI agent as an MCP tool
+# Configure the Create incident AI agent as an MCP tool
 
-Enable an AI agent to be discoverable and accessible as an MCP tool by configuring authentication, communication mode, and third-party access settings.
+Enable the requester.create\_incident AI agent to be discoverable and accessible as an MCP tool by configuring authentication, communication mode, and third-party access settings.
 
 ## Before you begin
 
@@ -35,7 +35,7 @@ Role required: admin
 
     1.  Navigate to **AI Agent Studio** &gt; **Settings**.
 
-    2.  In the left panel, select **Discoverability**.
+    2.  Select **Discoverability**.
 
     3.  Enable the communication mode options and set the communication mode to **Synchronous**.
 

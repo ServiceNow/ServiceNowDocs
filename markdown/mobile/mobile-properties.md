@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-properties.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -87,6 +87,12 @@ Learn how to turn off the banner on mobile app screens where Zero Trust Access \
 Configure the PINIdleTimeout property to define the PIN timeout for different ServiceNow mobile apps. You can use this property to enhance security by controlling how long users are allowed to remain inactive before being required to reenter their PIN.
 -   **[Asynchronous attachment uploads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/asynchronous-attachment-uploads.md)**  
 Set the `AsyncAttachmentsUploadEnabled` mobile property to true to turn on background file uploads in the ServiceNow mobile app.
+-   **[Otto onboarding modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/otto-onboarding-modal.md)**  
+Configure the `ottoOnboardingModalEnabled` mobile property to turn the Otto onboarding modal on or off in the ServiceNow mobile app.
+-   **[Enable or disable voice to form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/enable-disable-voice-form.md)**  
+Configure whether voice to form is turned on or off for your mobile instance.
+-   **[Enable mobile header color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/enable-mobile-header-color.md)**  
+Configure the **EnableMobileHeaderColor** property so that the header of native mobile screens displays a background color in the ServiceNow mobile apps.
 
 **Parent Topic:**[Considerations before implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/imp-considerations.md)
 

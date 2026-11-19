@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-28"
 reading_time_minutes: 5
 keywords: [ACC agent upgrade, auto-upgrade, agent upgrade overview]
 breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -93,7 +93,7 @@ During upgrade, each agent downloads the new package from one of the following s
 
 -   Agents connected via Cloud Services \(ICS\) download from the ServiceNow CDN at `https://cdn-install.sncapps.service-now.com`.
 -   Agents connected via MID Server download from the MID Server directly over the local network.
--   If the MID Server is unavailable, agents fall back to the Install Server at `https://install.service-now.com`. To enable agent fallback, ensure that the install server is specified on the ServiceNow instance.
+-   If the MID Server is unavailable, agents fall back to the Install Server at `https://install.service-now.com`. To enable agent fallback, modify the base system checks to specify the install server as the download path. `runUpgrade.rb --path=auto`
 
 If your agents use a custom download server, configure the **agent-upgrade-url-path** key in the agent's `acc.yml` file. This setting takes priority over the default sources.
 
@@ -119,8 +119,6 @@ If high-volume upgrade fails for specific agents, you must clear the problematic
 Create proxies for added security when upgrading MID-less agents via a Content Delivery Network \(CDN\). You add proxy servers to the sn\_agent\_proxy table on the ServiceNow instance.
 -   **[Configure a download proxy for Agent Client Collector upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/configure-agent-upgrade-proxy.md)**  
 Add a proxy server entry so that agents behind a corporate proxy can download upgrade packages from the ServiceNow Content Delivery Network \(CDN\).
--   **[Configure Agent Client Collector upgrade properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/configure-agent-upgrade-properties.md)**  
-Set the system properties that control Agent Client Collector upgrade behavior, including the target version and rate limits for mass upgrades.
 
 **Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

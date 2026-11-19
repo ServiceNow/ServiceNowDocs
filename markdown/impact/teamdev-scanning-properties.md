@@ -1,74 +1,41 @@
 ---
-title: Configure scanning properties per persona
+title: Configure Team Dev scanning properties
 description: You can view and configure a variety of information, formatted into lists, that the Scan Engine uses to permit users, team leads, and admins to access content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/teamdev-scanning-properties.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
-# Configure scanning properties per persona
+# Configure Team Dev scanning properties
 
 You can view and configure a variety of information, formatted into lists, that the Scan Engine uses to permit users, team leads, and admins to access content.
 
-## TeamDev scanning properties
+## Team Development scanning properties
 
-You can specify whether to scan TeamDev code pushes that are pending a review. You can also specify the requirements they must meet to be automatically approved or rejected.
+You can specify whether to scan Team Development code pushes that are pending a review, whether to approve or reject those pushes automatically, and whether developers can use Suite scans for applications.
 
-If you use TeamDev as a method for pushing code, the Scan Engine can be used to scan code pushes that are pending a code review. You scan these pushes for findings, as well as define the conditions to automatically approve or reject code reviews.
+To configure these properties, navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**, and then select the **Team Dev Scanning** tab.
 
-**Note:** Code reviews must be enabled for TeamDev scanning to work properly. Additionally, admins must perform a one-time API configuration to enable TeamDev scanning. For more information, refer to [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/register-your-instance.md).
+If you use Team Development as a method for pushing code, the Scan Engine can be used to scan code pushes that are pending a code review. You scan these pushes for findings, and you can choose to approve or reject code reviews automatically.
+
+**Note:** Code reviews must be enabled for Team Development scanning to work properly. Additionally, admins must perform a one-time API configuration to enable Team Development scanning. For more information, refer to [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/register-your-instance.md).
 
 Properties include:
 
 -   **Automatically scan pushes pending Code Review** \(`auto_scan_team_dev_pushes`\)
--   **Automatically approve or reject pushes** \(`team_dev_auto_approve`\)
--   **Approval condition** \(`team_dev_approval_condition`\)
-
-    **Note:** The default approval condition is `total_errors=0`. This means TeamDev code pushes with zero errors will be auto-approved.
-
--   **Code reviewer user** \(`team_dev_user`\)
-
-## Users and administrators
-
-This is a list that contains a record for each role given out in the system that is related to the Scan Engine.
+-   **Automatically approve or reject pushes** \(`team_dev_auto_approve`\). This option becomes available after you select **Automatically scan pushes pending Code Review**.
+-   **Allow Suite scanning for Applications**. When selected, developers can choose between a Full scan and a Suite scan. A Suite scan runs only selected definitions for faster validation. A Full scan runs all active definitions. When cleared, only Full scans are available.
 
 ## Team leads
 
-The team and team leads defined here can view the Team Lead information in the Analytics Dashboard.
+To define teams and team leads that can view the Team Lead information in the Analytics Dashboard, refer to [Create a development team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/create-development-team.md).
 
-1.  To define teams and team leads, select **New**.
-2.  Configure the following fields and settings.
-
-    |Field/Setting|Description|
-    |-------------|-----------|
-    |Active|Determines if the Scan Engine Team Lead record is active.|
-    |Team Name|Specify the name of the team as it will appear in reports within the Scan Engine.|
-    |Team Lead|Identifies the team lead or manager of this group.|
-    |My Team - Users|Specify the user or list of users that are part of this team.|
-    |My Team - Groups|Specify the group or list of groups that are part of this team.|
-
-
-**Important:** The teams and members are used to populate the **Technical debt by developer over time** chart on the Health Analytics dashboard. If these are Teams aren't defined, the chart will be empty.
-
-## Set requirements for automatic approval or rejection
-
-To automatically scan TeamDev code pushes when they are committed, configure the **Automatically Scan Pushes Pending Code Review** option:
-
-1.  Enable **Automatically approve or reject pushes**.
-2.  Add a Code reviewer user for additional tracking.
-
-    You can see the table that will be used for checking scan results.
-
-3.  Use the condition builder to specify the rules for how a code push is approved.
-
-    If it does not meet these rules, it will be rejected.
-
-
-You can add and configure additional filter conditions by selecting **Add filter condition**. You can also add and configure OR clauses by selecting **Add OR clause**.
+-   **[Create a development team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/create-development-team.md)**  
+Each record represents a team and a development team lead. Scan Engine findings are reported for this team in the Analytics Dashboard.
 
 **Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 

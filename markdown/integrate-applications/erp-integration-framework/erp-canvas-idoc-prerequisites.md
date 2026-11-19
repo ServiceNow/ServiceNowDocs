@@ -38,3 +38,5 @@ Role required: sn\_erp\_integration.erp\_admin
 
 **Note:** The Zero Copy Connector for ERP Monitor includes IDoc information on the asynchronous tabs. For more information about the Monitor, see [Monitor Zero Copy Connector for ERP logged extraction and remote lookup transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md).
 
+**Parent Topic:**[Creating and changing SAP business entities with IDoc in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/create-and-change-sap-business-entities-with-idoc.md)
+

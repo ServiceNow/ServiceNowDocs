@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 23
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,33 +45,42 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     -   Default value: false
 -   **mid.discovery.max\_ci\_count\_per\_page**
 
-    Defines the maximum CI count per page.
+    Sets the maximum number of CIs per ECC queue page during horizontal discovery. When the CI count exceeds this limit, the MID Server splits the payload into multiple ECC queue pages.
 
-    -   Type: integer \(bytes\)
+    -   Type: integer
     -   Default value: 500
     You can also configure this as a [configuration parameter on a individual MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-parameters.md).
 
 -   **mid.discovery.max\_related\_count\_per\_page**
+
+    Sets the maximum number of related items per chunk during horizontal discovery. When a CI has more related items than this value, the MID Server splits those items into separate ECC queue pages. Each page contains a copy of the parent CI with a subset of its related items.
+
     -   Type: integer
-    -   Default: 100
+    -   Default value: 100
 -   **mid.discovery.max\_relation\_count\_per\_page**
 
-    Splits the payload based on the number of relations in it.
+    Sets the maximum number of relations per ECC queue page during horizontal discovery. When the relation count exceeds this limit, the MID Server splits the payload into multiple ECC queue pages.
 
     -   Type: integer
-    -   Default: 10000
+    -   Default value: 10000
 -   **mid.discovery.max\_total\_items\_size\_per\_page**
 
-    Splits the payload based on the size of the items.
+    Sets the maximum size limit per ECC queue page during pattern-based discovery. The system checks this threshold first. When the total items size exceeds this limit, the MID Server splits the payload into multiple ECC queue pages.
 
-    -   Type: integer
-    -   Default:
+    -   Type: integer \(bytes\)
+    -   Default value: 3145728 \(3 MB\)
+-   **mid.discovery.should\_minify\_pattern\_payload**
+
+    Enables JSON minification for pattern payloads. When set to true, the MID Server trims whitespace from the pattern payload to reduce its size. Enabling this property can help keep the payload within the size limit without increasing the MID Server JVM heap size.
+
+    -   Type: true \| false
+    -   Default value: false
 -   **mid.aws.sts.assume\_role.disable\_credential\_caching**
 
     Set this property to **true** to prevent the caching of temporary credentials for Cloud Discovery. For more information, see [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/access-aws-accounts.md) [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/access-aws-accounts.md).
 
     -   Type: true \| false
-    -   Default: false
+    -   Default value: false
 -   **mid.aws.sts.assume\_role.credential\_ttl\_minutes**
 
     Set the number of minutes you want to cache temporary credentials for Cloud Discovery. For more information, see [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/access-aws-accounts.md) [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/access-aws-accounts.md).
@@ -98,10 +107,10 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     -   Default value: false
 -   **mid.cloud.discovery.bypass.proxy**
 
-    This configuration parameter accepts a comma separated list of DNS/IP addresses of proxy servers. The listed proxy servers are bypassed during Cloud Discovery. To bypass proxies on multiple cloud service providers \(such as AWS or Azure\), a separate MID Server must be set up for each provider. Otherwise, the MID Server proxy configuration is followed normally.
+    This configuration parameter accepts true or false values. If the value is true, all Cloud Discovery REST API calls bypass the proxy. If the value is false, all Cloud Discovery REST API calls go through the proxy. The listed proxy servers are bypassed during Cloud Discovery. To bypass proxies on multiple cloud service providers \(such as AWS or Azure\), a separate MID Server must be set up for each provider. Otherwise, the MID Server proxy configuration is followed normally.
 
     -   Type: string
-    -   Default value: none
+    -   Default value: false
 -   **mid.discovery.file\_transfer\_protocol**
 
     Used to determine the file transfer method used for probes or patterns.
@@ -150,13 +159,17 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     -   Default value: none
 -   **mid.discovery.aws\_ssm.s3\_bucket\_name**
 
-    Because the SSM Run Command console has a 24,000-character limit, results that exceed this limit must be stored in and retrieved from an S3 bucket. For Put File commands, the S3 bucket also serves as a transfer point between the MID Server and the AWS environment, enabling file delivery to target devices via SSM. To configure the MID Server to support these S3-based operations, set the **mid.discovery.aws\_ssm.s3\_bucket\_name** property to the name of the S3 bucket used for SSM Agent discovery.
+    Because the SSM Run Command console has a 24,000-character limit, results that exceed this limit must be stored in and retrieved from an S3 bucket. For Put File commands, the S3 bucket also serves as a transfer point between the MID Server and the AWS environment. It enables file delivery to target devices through SSM.
+
+    To configure the MID Server to support these S3-based operations, set the **mid.discovery.aws\_ssm.s3\_bucket\_name** property to the name of the S3 bucket used for SSM Agent discovery.
 
     -   Type: string
     -   Default value: none
 -   **mid.discovery.aws\_ssm.s3\_bucket\_region**
 
-    Because the SSM Run Command console has a 24,000-character limit, results that exceed this limit must be stored in and retrieved from an S3 bucket. For Put File commands, the S3 bucket also serves as a transfer point between the MID Server and the AWS environment, enabling file delivery to target devices via SSM. To configure the MID Server to support these S3-based operations, set the bucket’s region in the **mid.discovery.aws\_ssm.s3\_bucket\_region** property.
+    Because the SSM Run Command console has a 24,000-character limit, results that exceed this limit must be stored in and retrieved from an S3 bucket. For Put File commands, the S3 bucket also serves as a transfer point between the MID Server and the AWS environment. It enables file delivery to target devices through SSM.
+
+    To configure the MID Server to support these S3-based operations, set the bucket’s region in the **mid.discovery.aws\_ssm.s3\_bucket\_region** property.
 
     -   Type: string
     -   Default value: none
@@ -239,7 +252,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     -   Default value: false
 -   **mid.probe.use\_legacy\_forward\_dns**
 
-    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See  for more information.
+    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See [Probes used by Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_OrchestrationProbes.md) for more information.
 
     -   Type: true \| false
     -   Default value: false
@@ -287,17 +300,6 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
     -   Type: True \| False
     -   Default value: true
--   **mid.sa.ssh.allowable\_failures**
-
-    Specifies the number of allowable failures before the MID Server stops executing the pattern. Once the limit is reached, the next failure terminates the pattern. A failure occurs when an SSH command can't complete successfully due to issues such as authentication failure or connection timeout.
-
-    -   Type: integer
-    -   Default value: 2
-    -   Values:
-        -   0: The first failure terminates the pattern immediately.
-        -   1: The first failure is tolerated; the second failure terminates the pattern.
-        -   2: Two failures are tolerated; the third failure terminates the pattern.
-        -   -1: No maximum limit on failures; the pattern continues regardless of the number of failures.
 -   **mid.sa.ssh.use\_sncssh**
 
     Toggles SSH between non-interactive and interactive modes. True corresponds to non-interactive mode and allows probes to open sessions with the device without waiting for a prompt. False corresponds to interactive mode, which requires interactive sessions with the device for network devices and servers.
@@ -314,7 +316,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
         -   0: The first failure will terminate the pattern immediately.
         -   1: The first failure is tolerated; the second failure will terminate the pattern.
         -   2: Two failures are tolerated; the third failure will terminate the pattern.
-        -   -1: No maximum limit on failures; the pattern continues regardless of the number of failures.
+        -   -1: no maximum limit on failures; the pattern continues regardless of the number of failures.
 -   **mid.servicewatch.max\_concurrent\_connections**
 
     Defines the maximum number of concurrent tasks sent to an individual host by a single MID Server.

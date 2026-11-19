@@ -1,22 +1,22 @@
 ---
 title: Configuring record pages in Service Operations Workspace for ITSM
-description: To align with your record page requirements, you can configure the data available in record pages in Service Operations Workspace for ITSM.
+description: Configure the data available in record pages in Service Operations Workspace for ITSM to align with your record page requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configuring-record-pages-sow-itsm.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configuring record pages in Service Operations Workspace for ITSM
 
-To align with your record page requirements, you can configure the data available in record pages in Service Operations Workspace for ITSM.
+Configure the data available in record pages in Service Operations Workspace for ITSM to align with your record page requirements.
 
-For information about the record page configurations that are part of essential setup for implementing Service Operations Workspace for ITSM, see [Record page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/record-page-configurations-sow-itsm.md).
+To know about the record page configurations that are part of essential setup for implementing Service Operations Workspace for ITSM, [Record page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/record-page-configurations-sow-itsm.md).
 
 -   **[Configure a record page tab in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-record-page-tab.md)**  
 Configure the display order of a record page tab in Service Operations Workspace.
@@ -30,8 +30,8 @@ Customize the fields displayed in the Assign and Resolve dialog box for an incid
 Configure the **Experts on-call** panel for an incident.
 -   **[Create a task type for problem or change in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-task-type-sow.md)**  
 Configure a task type that can be used during problem or change creation.
--   **[Configuring standard record pages in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/srp-service-operations-workspace.md)**  
-Configure individual record pages to display information and simplify customization updates.
+-   **[Configuring Standard Record Page in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/srp-service-operations-workspace.md)**  
+Configure the Standard Record Page \(SRP\) to display record information and make customizations easier to update.
 
 **Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

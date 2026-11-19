@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/configuring-product-offerings-catalog.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-01"
 reading_time_minutes: 2
 breadcrumb: [Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -18,7 +18,7 @@ As a product catalog administrator or catalog manager, you complete various conf
 
 ## Overview of product offering and catalog configuration
 
-You can use the CRM Workspace to configure product offering catalogs, product offerings, and product offering relationships.
+You can use the CSM Configurable Workspace to configure product offering catalogs, product offerings, and product offering relationships.
 
 The following table identifies the configuration tasks for setting up the various features available in Product Catalog Management.
 

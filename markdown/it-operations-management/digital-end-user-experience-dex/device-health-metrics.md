@@ -1,5 +1,5 @@
 ---
-title: Device health metrics for incident investigation
+title: Review device health metrics during incident investigation with DEX
 description: View the overall health and related metrics for Digital End-User Experience \(DEX\) monitored devices as part of incident investigation with DEX.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/device-health-metrics.html
@@ -7,12 +7,12 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Incident diagnostics and suggested resolutions, DEX for service desk agents, Digital End-User Experience, IT Operations Management]
 ---
 
-# Device health metrics for incident investigation
+# Review device health metrics during incident investigation with DEX
 
 View the overall health and related metrics for Digital End-User Experience \(DEX\) monitored devices as part of incident investigation with DEX.
 
@@ -36,7 +36,7 @@ By default, the latest available data is displayed.
 
 A checklist shows basic device and application health metrics. You can display advanced metrics by toggling the **Show additional metrics** option.
 
-**Note:** Metrics displayed in the Device health check list are included in the base system metric list. As a DEX administrator, you can customize the base system metrics. For more information, see [Customize metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dexscr-customize-dex-score-metric-defs.md).
+**Note:** Metrics displayed in the Device health check list are included in the base system metric list. As a DEX administrator, you can customize the base system metrics. For more information, see [Customize metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-experience-score/dexscr-customize-dex-score-metric-defs.md).
 
 Selecting **View detailed device health** displays the Device details page. For more information, see [Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/user-device-details-pages.md).
 
@@ -51,7 +51,7 @@ The Device metrics section shows information about device, network, and security
 
 ## Application metrics
 
-The Application metrics section shows information related to application status and metric details. From the drop-down list, select the application to monitor for performance.
+The Application metrics section shows information related to application status and metric details. From the drop-down list, select the application you want to monitor for performance.
 
 This section displays the following information:
 

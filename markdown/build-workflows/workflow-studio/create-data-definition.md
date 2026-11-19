@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Administering Playbooks, Configure, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -37,7 +37,7 @@ For example, you may have multiple teams that perform activities. One team enter
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Process Automation Administration** &gt; **Data Definitions**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Playbook Administration** &gt; **Data Definitions**.
 
 2.  Select **New** to create a new data definition.
 
@@ -55,7 +55,7 @@ For example, you may have multiple teams that perform activities. One team enter
 
     2.  Enter the required fields.
 
-<table id="choicetable_qcs_vmh_j1c"><tbody><tr><td id="d67123e229">
+<table id="choicetable_qcs_vmh_j1c"><tbody><tr><td id="d66384e224">
 
 **Type**
 
@@ -63,7 +63,7 @@ For example, you may have multiple teams that perform activities. One team enter
 
 The type of input the agent is collecting for a field. For example, string, reference, integer, etc.
 
-</td></tr><tr><td id="d67123e238">
+</td></tr><tr><td id="d66384e233">
 
 **Label**
 
@@ -71,7 +71,7 @@ The type of input the agent is collecting for a field. For example, string, refe
 
 The label of the field in the UI, during the playbook run. The label can consist of any text.
 
-</td></tr><tr><td id="d67123e250">
+</td></tr><tr><td id="d66384e245">
 
 **Column name**
 
@@ -79,7 +79,7 @@ The label of the field in the UI, during the playbook run. The label can consist
 
 The name of the input being collected. Spaces cannot be used to delimit words.
 
-</td></tr><tr><td id="d67123e259">
+</td></tr><tr><td id="d66384e254">
 
 **Max Length**
 
@@ -87,7 +87,7 @@ The name of the input being collected. Spaces cannot be used to delimit words.
 
 The maximum length a string value can be entered for a string type of field. The variable can store longer strings than it can display.
 
-</td></tr><tr><td id="d67123e268">
+</td></tr><tr><td id="d66384e263">
 
 **Application**
 

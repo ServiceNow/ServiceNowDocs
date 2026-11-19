@@ -7,7 +7,7 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-10"
 reading_time_minutes: 3
 keywords: [LEAP knowledge base, KB article generation, resolution steps, automation opportunity, KB routing, knowledge base selection]
 breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
@@ -25,7 +25,7 @@ Role required: LEAP admin
 
 A default knowledge base must be configured in LEAP properties before LEAP AI agent creates knowledge base articles. See [LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md).
 
-Each knowledge base used in LEAP must have the correct Can Contribute permissions configured. See [Knowledge base permissions for LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configure-knowledge-base-user-collections.md).
+Each knowledge base used in LEAP must have the correct Can Contribute permissions configured. See [Configure knowledge base permissions for LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configure-knowledge-base-user-collections.md).
 
 ## About this task
 

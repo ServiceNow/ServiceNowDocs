@@ -1,39 +1,38 @@
 ---
-title: Integrate configuration data with Quote Calculator
-description: Use the Salesforce Quote Calculator Plugin to parse extended information from a configuration and map it to custom fields in version 1.7 or earlier.
+title: Use case: Using the Salesforce Quote Calculator plugin to integrate data from ServiceNow CPQ to Salesforce quotes and quote lines
+description: In the ServiceNow CPQ Extension for Salesforce CPQ package version 1.7 or earlier, use the Salesforce Quote Calculator Plugin to parse extended information from a configuration and map it to custom fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/integrate\_config\_data\_from\_productlist\_extended\_to\_salesforce\_quote\_and\_quote\_lines\_using\_quote\_calculator\_pluginqcp.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Salesforce Quote Calculator Plugin, CPQ, configuration data, quote lines]
 breadcrumb: [Use cases, Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
-# Integrate configuration data with Quote Calculator
+# Use case: Using the Salesforce Quote Calculator plugin to integrate data from ServiceNow CPQ to Salesforce quotes and quote lines
 
-Use the Salesforce Quote Calculator Plugin to parse extended information from a configuration and map it to custom fields in version 1.7 or earlier.
+In the ServiceNow CPQ Extension for Salesforce CPQ package version 1.7 or earlier, use the Salesforce Quote Calculator Plugin to parse extended information from a configuration and map it to custom fields.
 
 **Note:** This article applies to the ServiceNow CPQ Extension for Salesforce CPQ package version 1.7 or earlier. If your version is 1.8 or later, see [Use case: Configuration line item to quote line flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-case-configuration-line-item-to-quote-line-flow.md).
 
-Using the extended information of the ServiceNow CPQ ProductList object with the Salesforce Quote Calculator plugin \(QCP\), you can pass data from ServiceNow CPQ into Salesforce. Use this data to manipulate quote and quote line information.
+Using the extended information of the ServiceNow CPQ ProductList object with the Salesforce Quote Calculator plugin \(QCP\), data may be passed from ServiceNow CPQ into Salesforce and used to manipulate both quote and quote line information.
 
-ProductList.extended can only be populated with an advanced product action, as shown here.
+ProductList.extended may only be populated with an advanced product action, as shown here.
 
 \[Omitted image "cpq-productlist-extended-advanced-product-action.png"\] Alt text: Advance function Code
 
-The ProductList.extended object takes the form of a JSON object and accepts key:value pairs. In the example above, we pass through a dummy text string, "QCP Test Value", with the newValue key. ProductList.extended can hold field values, as well as an array of JSON objects.
+The ProductList.extended object takes the form of a JSON object and accepts key:value pairs. In the example above, we pass through a dummy text string, “QCP Test Value”, with the newValue key. ProductList.extended can hold field values, as well as an array of JSON objects.
 
-When this product is added to the bill of materials \(BOM\), you can view its associated info in the custom object "BOM Data". This object is held at the quote line of the configurable product.
+When this product is added to the bill of materials \(BOM\), we can view its associated info in the custom object “BOM Data”, which is held at the quote line of the configurable product.
 
 \[Omitted image "cpq-productlist-extended-bom-data.png"\] Alt text: Code
 
-To leverage this extended information, we will need to use the Salesforce [Quote Calculator Plugin](https://developer.salesforce.com/docs/atlas.en-us.cpq_dev_plugins.meta/cpq_dev_plugins/cpq_dev_jsqcp_parent.htm). To start, navigate to the Custom Scripts item in Salesforce.
+To leverage this extended information, we will need to use the [Quote Calculator Plugin](https://developer.salesforce.com/docs/atlas.en-us.cpq_dev_plugins.meta/cpq_dev_plugins/cpq_dev_jsqcp_parent.htm). To start, navigate to the Custom Scripts item in Salesforce.
 
 \[Omitted image "cpq-salesforce-custom-scripts.png"\] Alt text: Performance
 
-Here, write a script to leverage the extended information from ServiceNow CPQ and use it to manipulate fields in SFDC. The following script is the sample script used in this instance.
+Here, you can write a script to leverage the extended information from ServiceNow CPQ and use it to manipulate fields in SFDC. The following script is the sample script used in this instance.
 
 ```
 export function onBeforeCalculate(quote, lines) {
@@ -63,20 +62,20 @@ export function onBeforeCalculate(quote, lines) {
 }; 
 ```
 
-Any quote fields or quote line fields referenced by the custom script you must explicitly define in the appropriate inputs on the custom script record. Our sample script references three quote line fields: **LGK\_BomData\_\_c**, **SBQQ\_ProductCode\_\_c**, and **Test\_Text\_\_c**.
+Any quote fields or quote line fields referenced by the custom script must be explicitly defined in the appropriate inputs on the custom script record. Our sample script references three quote line fields: LGK\_BomData c, SBQQ\_ProductCode c, and Test\_Text c.
 
 Once your script has been written, define it in the Salesforce CPQ settings. Follow these steps:
 
-1.  In Setup, search for "Installed Packages" using Quick Find.
-2.  Next to **Salesforce CPQ**, select **Configure**.
-3.  Select the **Pricing and Calculation** tab.
-4.  If necessary, clear the **Use Legacy Calculator** check box.
-5.  Select the **Plugins** tab.
-6.  Define your custom script in the **Quote Calculator plugin** field, and then select **Save**.
+1.  In Setup, search for “Installed Packages” using Quick FInd.
+2.  Next to “Salesforce CPQ”, click **Configure**.
+3.  Select the Pricing and Calculation tab.
+4.  If necessary, deselect Use Calculator.
+5.  Select the Plugins tab.
+6.  Define your custom script in the Quote Calculator plugin, and then click `Save`.
 
 \[Omitted image "cpq-salesforce-quarterly-performance.png"\] Alt text: Performance graph
 
-When you navigate to your quote and trigger any action that performs a calculation in SFDC \(such as selecting **Calculate**\), the Quote Calculator Plugin runs. The plugin modifies fields as designated.
+When you navigate to your quote and trigger any action that performs a calculation in SFDC \(such as clicking “Calculate”\), the Quote Calculator Plugin runs and modifies fields as designated.
 
 **Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/use-cases.md)
 

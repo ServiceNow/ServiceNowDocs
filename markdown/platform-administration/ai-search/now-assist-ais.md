@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -21,9 +21,9 @@ The ServiceNow Otto for AI Search application combines the power of search with 
 
 In Service Portal, Virtual Agent, Employee Center, and global searches, ServiceNow Otto for AI Search includes the following AI Genius Result configurations:
 
--   **[Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md)**
+-   **[ServiceNow Otto Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md)**
 
-    Summary Genius Results use your chosen LLM to generate actionable Genius Result answers synthesized from a variety of content sources. Answers can include content from knowledge articles, Service Catalog items, Knowledge Graph schema nodes, enhanced chat searches and conversations, and external content documents and attachments.
+    ServiceNow Otto Summary Genius Results use your chosen LLM to generate actionable Genius Result answers synthesized from a variety of content sources. Answers can include content from knowledge articles, Service Catalog items, Knowledge Graph schema nodes, enhanced chat searches and conversations, and external content documents and attachments.
 
 -   **[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/now-assist-qna-genius-results.md)**
 
@@ -38,7 +38,7 @@ In Service Portal, Virtual Agent, Employee Center, and global searches, ServiceN
     Actions Genius Results use the Now LLM Service to select, filter, and display the most relevant Catalog Item and Virtual Agent topic results as answers.
 
 
-If a search is broad or unclear, ServiceNow Otto for AI Search may ask follow‑up questions before answering. This disambiguation step helps clarify what the user is looking for and is configurable. For configuration details, see .
+If a search is broad or unclear, ServiceNow Otto for AI Search may ask follow‑up questions before answering. This disambiguation step helps clarify what the user is looking for and is configurable. For configuration details, see [Configure disambiguation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-configure-disambiguation-manually.md).
 
 AI Genius Result answers enhance search results with actionable answer cards. Each answer card includes links to its source records or external documents.
 

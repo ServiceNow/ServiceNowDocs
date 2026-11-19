@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -67,7 +67,7 @@ The steps to complete the Regulatory Change Management process flow to innovate 
     A user with sn\_grc\_reg\_change.user and sn\_grc\_comp\_genai.reg\_change\_ai\_user roles can generate AI-powered recommendations for a regulatory alert for the impacted citations, control objectives, and controls.
 
 4.  Assess the impact. The subject matter expert \(SME\) with a business user role assesses the impact of the regulatory change. The SME then sends the impact assessment score to the Regulatory Change Management application. If the alert is not applicable to the organization, the RCM user closes the alert. If the alert is applicable to the organization, the RCM user creates a new regulatory change task. The task is assigned to the same coordinator or to a new coordinator.
-5.  Devise an action plan. The coordinator identifies the steps to comply with the regulatory change and devises an action plan. The coordinator then creates action tasks for the teams that must complete the identified action items. After the action plan is created, it’s sent to the RCM manager for an approval. The manager reviews the action plan and confirms if more action tasks must be created or if some of the action tasks aren’t necessary.
+5.  Devise an action plan. The coordinator identifies the steps to comply with the regulatory change and devises an action plan. The coordinator creates action tasks for the different teams and associates them with the regulatory change task. After the action plan is created, it’s sent to the RCM manager for approval. The manager reviews the action plan and confirms whether more action tasks must be created or whether some action tasks aren’t necessary.
 6.  Complete the action tasks and send them for review to a user with the sn\_grc\_reg\_change.manager role \(RCM manager\). If the action plan is rejected, the coordinator goes through the action plan, updates the actual tasks, and sends the action plan back for an approval. The compliance manager can see all compliance-based action tasks and the risk manager can see all risk-based action tasks. After the tasks are assigned to the risk and compliance users, the action tasks are tracked until they’re completed. A due date is marked and tracked for the action tasks. When the tasks are completed, the regulatory alert and the parent regulatory change tasks are closed and the change process flow is completed.
 
 ## A day in the life of a regulatory change manager

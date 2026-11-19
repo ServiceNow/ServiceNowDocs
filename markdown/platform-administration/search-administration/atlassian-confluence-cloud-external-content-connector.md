@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -17,15 +17,15 @@ breadcrumb: [Configure, External Content Connectors, Search administration, Conf
 
 The Atlassian Confluence Cloud external content connector retrieves pages and attachments from spaces in your Atlassian Confluence Cloud source system and makes their content and metadata searchable in AI Search applications.
 
-Connector administrators can run or schedule content crawls to retrieve updated content and access permissions from your source system, or user permission crawls to retrieve updated security principals from your source system. Both types of crawl feed their data to AI Search for indexing.
+Connector administrators can run or schedule content crawls to retrieve updated content and access permissions from your source system, or user permissions crawls to retrieve updated security principals from your source system. Both types of crawl feed their data to AI Search for indexing.
 
 The indexed content and metadata are stored as records in a connector-specific indexed source. Search administrators can create search sources from this indexed source and link them to search profiles to make the indexed records searchable in AI Search applications.
 
 **Note:**
 
-When running crawls for the Atlassian Confluence Cloud external content connector, run your content crawl first, before running a user permission crawl. If you run the user permission crawl before the content crawl completes, some Confluence Cloud content may not be searchable.
+When running crawls for the Atlassian Confluence Cloud external content connector, run your content crawl first, before running a user permissions crawl. If you run the user permissions crawl before the content crawl completes, some Confluence Cloud content may not be searchable.
 
-The connector automatically runs a user permission crawl after its first full content crawl completes. It also automatically runs a user permission crawl if you modify its connection settings and then run a complete full content crawl. In all other cases, you need to run or schedule the user permission crawl so that it starts after your latest content crawl has completed.
+The connector automatically runs a user permissions crawl after its first full content crawl completes. It also automatically runs a user permissions crawl if you modify its connection settings and then run a complete full content crawl. In all other cases, you need to run or schedule the user permissions crawl so that it starts after your latest content crawl has completed.
 
 ## Role-Based Access Control \(RBAC\) beta support
 
@@ -52,5 +52,5 @@ Specify the spaces you want your Atlassian Confluence Cloud external content con
 
 [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
 
-[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
+[Create a user permissions crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
 

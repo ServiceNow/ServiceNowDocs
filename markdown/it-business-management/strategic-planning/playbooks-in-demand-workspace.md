@@ -69,7 +69,7 @@ The default playbook works as follows:
 
 -   The playbook runs when a demand is created. It has no additional conditions, so it applies to every new demand, including records in tables that extend the Demand \[dmn\_demand\] table.
 -   A stage appears only if at least one of its activities is available for the demand.
--   The AI checkpoint stage, where you associate AI systems with the demand, appears only when the AI Control Tower Core plugin \(com.sn.ai\_governance\) is installed.
+-   The AI checkpoint stage, where you associate AI systems with the demand, appears only when the Control Tower Core plugin \(com.sn.ai\_governance\) is installed.
 
 For more information on the stages and activities in the default playbook, see [Demand workflow playbook stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/demand-default-playbook-stages.md).
 
@@ -116,7 +116,7 @@ Users see the goals of the demand as a list in the activity. They select **New**
 
 ## Show a stage only when a plugin is installed
 
-Use the Check if plugin is active custom activity when a stage applies only to instances where a specific plugin is installed. The activity checks whether a plugin ID is active. In the demand workflow playbook, this activity controls the AI checkpoint stage, which appears only when the AI Control Tower Core plugin \(com.sn.ai\_governance\) is installed.
+Use the Check if plugin is active custom activity when a stage applies only to instances where a specific plugin is installed. The activity checks whether a plugin ID is active. In the demand workflow playbook, this activity controls the AI checkpoint stage, which appears only when the Control Tower Core plugin \(com.sn.ai\_governance\) is installed.
 
 For example, you want to show a Security review stage in your investment governance playbook only when a security plugin is installed. To achieve this, add this activity as the first activity in this stage. Enter the plugin ID in the activity. Set the other activities in the stage to run only when the activity finds that the plugin is active.
 

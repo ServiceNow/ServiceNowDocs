@@ -7,9 +7,9 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
+keywords: [Agentic AI, generative AI, Gen AI]
 breadcrumb: [Change Management, IT Service Management]
 ---
 

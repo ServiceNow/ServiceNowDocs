@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-lead-cash-process-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Order operations apps, Use, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ Sales process managers can use Lead-to-Cash Process Management to create sales p
 
 ## Overview of creating and monitoring sales processes
 
-Access the Lead-to-Cash Process Management application from the CRM Workspace to create sales process records and monitor the sales process using the sales process dashboard.
+Access the Lead-to-Cash Process Management application from the CSM Configurable Workspace to create sales process records and monitor the sales process using the sales process dashboard.
 
 -   [Create a sales process record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-sales-process-record.md)
 

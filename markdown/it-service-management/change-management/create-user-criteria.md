@@ -118,7 +118,7 @@ Advanced
 
 </td><td>
 
-the **Script** field.
+Displays or hides the **Script** field.
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Script
 
 </td><td>
 
-**Advanced** is selected.
+Defines any additional criteria, and returns true or false. This field is available only if **Advanced** is selected.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

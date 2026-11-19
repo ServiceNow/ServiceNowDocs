@@ -7,8 +7,8 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 13
+last_updated: "2026-03-12"
+reading_time_minutes: 12
 breadcrumb: [DEX Content Playbook reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
@@ -24,13 +24,13 @@ To fetch the complete playbook data for a Windows device, the Agent Client Colle
 
 DEX offers the following check definitions that are accessible solely when the application is running, except for the os.win.check-app-crash-rate and os.win.check-app-last-access-time check definitions, which are accessible even when the application isn't running. In the check definition parameters:
 
--   appName = application name. For example, Zoom.
--   appSysId = sys\_id of the application.
+-   appName = application name. Example, Zoom.
+-   appSysId= sys\_id of the application.
 -   primaryProcess = list of primary processes for the application separated by a pipe symbol \(\|\). The first process that exists on the endpoint device is given priority. Example 1: chrome.exe. Example 2: teams.exe\|msteams.exe.
 
     **Note:** If the primary process for the Microsoft Teams application in Windows 10 is teams.exe and in Windows 11 it's msteams.exe, then when determining priority based on process availability on the endpoint device, the process that is present on the endpoint device first is given precedence.
 
--   secondaryProcesses = list of secondary processes for the application separated by a pipe symbol \(\|\). For example, cpthost.exe\|cptservice.exe.
+-   secondaryProcesses = list of secondary processes for the application separated by a pipe symbol \(\|\). Example, cpthost.exe\|cptservice.exe.
 
 <table id="table_yxf_q4d_hwb"><thead><tr><th>
 
@@ -126,9 +126,9 @@ os.win.check-app-crashes
 
 </td><td>
 
-Retrieves the crash rate of the application.
+Retrieves crash rate of the application.
 
- This check definition supports applications that emit Windows Error Reporting \(WER\) events \(event id = 1000\) on crashing.
+ This check definition supports applications that emit a Window Error Reporting \(WER\) events \(event id = 1000\) on crashing.
 
 **Note:** This check definition doesn't require the application to be running.
 
@@ -145,9 +145,9 @@ os.win.check.app.freezes
 
 </td><td>
 
-Retrieves the freeze rate of the application in the last 5 minutes.
+Retrieves freeze rate of the application in the last 5 minutes.
 
- This check definition supports applications that emit Windows Error Reporting \(WER\) events \(event id = 1001 or 1002\) on freezing.
+ This check definition supports applications that emit a Window Error Reporting \(WER\) events \(event id = 1001 or 1002\) on freezing.
 
 **Note:** This check definition doesn't require the application to be running.
 
@@ -212,7 +212,7 @@ os.win.check-app-domain-network-details
 
 </td><td>
 
-Retrieves the network latency, packet loss, and jitter for the installed application domain.**Note:** The system uses the Internet Control Message Protocol \(ICMP\) to collect network performance metrics, such as latency, jitter, and packet loss.
+Retrieves the network latency, packet loss, and jitter for installed application domain.**Note:** The system uses the Internet Control Message Protocol \(ICMP\) to collect network performance metrics, such as latency, jitter, and packet loss.
 
 </td></tr><tr><td>
 
@@ -228,7 +228,7 @@ os.win.check-app-domain-network-route-details
 
 </td><td>
 
-Retrieves the complete network route details for the application domain.
+Retrieves the complete network route details for application domain.
 
 </td></tr><tr><td>
 
@@ -240,7 +240,7 @@ None
 
 </td><td>
 
-Fetches application-specific metrics for Microsoft System Center Configuration Manager.
+Fetches application-specific metrics for the App - Microsoft System Center Configuration Manager.
 
 </td></tr><tr><td>
 
@@ -324,7 +324,7 @@ os.win.check-system-disk-io-usage-write
 
 </td><td>
 
-Retrieves disk bytes written per second.
+Retrieves disk bytes written according to second.
 
 </td></tr><tr><td>
 
@@ -334,7 +334,7 @@ os.win.check-system-energy-consumption
 
 Retrieves the energy consumption values for CPU, SoC, display, disk, network, MBB, EMI, other, total, and loss of a Windows device in milliwatt-hours.**Note:** This check definition isn't compatible with virtual machines that don't have energy sensors.
 
-Unlike other check definitions that retrieve latest data, this check definition retrieves the sum of the last 5 minutes of data.
+Unlike other check definitions that retrieve latest data, this check definition retrieves the sum of last 5 minutes of data.
 
 </td></tr><tr><td>
 
@@ -417,7 +417,7 @@ os.win.check-system-power-consumption
 
 </td><td>
 
-Retrieves the power consumption of the device in milliwatts.**Note:** This check definition is exclusively compatible with physical machines and doesn't support virtual machines \(VMs\).
+Retrieves the power consumption of the device in milliwatt.**Note:** This check definition is exclusively compatible with physical machines and doesn't support virtual machines \(VMs\).
 
 </td></tr><tr><td>
 
@@ -481,7 +481,7 @@ os.win.check-system-network-connection-profiles
 
 </td><td>
 
-Retrieves the network connection profile details for the device.**Note:** This check definition retrieves the network type, which can be used to check the VPN status.
+Retrieves the network connection profile details for the device.**Note:** This check definition retrieves the network type, which can be used to check the vpn status.
 
 </td></tr><tr><td>
 
@@ -494,7 +494,7 @@ Retrieves the system’s compliance details. This includes the list of all confi
 -   This check definition provides the following details:
     -   **Condition for app to be said as compliant**: Every process mentioned in primary process should be running.
     -   **Condition for metric value to be said as compliant**: Value should be matching with the configured expected value.
--   The score is then calculated using this formula: Score = \(Compliant applications + Compliant metric values\) / \(Total applications and metric values - Failed ones\) \* 100
+-   The score is then calculated using this formula: Score = \( Complaint Application + Compliant metric value\) / \(Total Applications and metric value - Failed Ones\) \*100
 
 </td></tr><tr><td>
 
@@ -518,7 +518,7 @@ os.win.check-system-memory-details
 
 </td><td>
 
-Retrieves the system memory details and virtual memory details.
+Retrieves the system memory details like and virtual memory details.
 
 </td></tr><tr><td>
 
@@ -526,7 +526,7 @@ os.win.check-system-bios-details
 
 </td><td>
 
-Retrieves the system BIOS details.
+Retrieves the System Bios details.
 
 </td></tr><tr><td>
 
@@ -542,7 +542,7 @@ os.win.check-system-custom-query-on-change
 
 </td><td>
 
-Executes the custom query provided in the parameters. Runs only if value changes.
+Execute the custom query provided in the parameters. Runs only if value changes.
 
 </td></tr><tr><td>
 
@@ -558,7 +558,7 @@ os.win.check-system-boot-details
 
 </td><td>
 
-Gets the latest boot details of a device from Windows event log.**Note:** Boot time is captured only during a full device boot. Windows generates Event ID 100 during a full boot to measure performance. Boot time is not recorded when the device is resumed, restored, or started through remote or virtual machine operations because Event ID 100 is not generated
+Gets latest boot details of a device from Windows event log.**Note:** Boot time is captured only during a full device boot. Windows generates Event ID 100 during a full boot to measure performance. Boot time is not recorded when the device is resumed, restored, or started through remote or virtual machine operations because Event ID 100 is not generated
 
 </td></tr><tr><td>
 
@@ -566,7 +566,7 @@ os.win.check-system-gpu-usage-details
 
 </td><td>
 
-Monitors GPU \(Graphics Processing Unit\) and VRAM \(Video Random Access Memory\) usage on the **Device** page to assess graphics performance and identify bottlenecks.
+Monitor GPU \(Graphics Processing Unit\) and VRAM \(Video Random Access Memory\) usage on the **Device** page to assess graphics performance and identify bottlenecks.
 
 </td></tr><tr><td>
 
@@ -643,7 +643,7 @@ None
 
 </td><td>
 
-Retrieves a list of all running processes along with their disk usage in bytes, Process ID \(PID\), Parent Process ID \(PPID\), and name.
+Retrieves a list of all running processes along with their disk usage in Bytes, Process ID \(PID\), Parent Process ID \(PPID\), and name.
 
 </td></tr><tr><td>
 
@@ -655,7 +655,7 @@ None
 
 </td><td>
 
-Retrieves the Received Signal Strength Indicator \(RSSI\) value for the currently connected Wi-Fi interface.RSSI indicates the signal strength between the wireless access point \(AP\) and the device, with higher RSSI values indicating stronger signal strength.
+Retrieves the Received Signal Strength Indicator \(RSSI\) value for the currently connected WiFi interface.RSSI indicates the signal strength between the wireless access point \(AP\) and the device, with higher RSSI values indicating stronger signal strength.
 
 **Note:** This check definition can't be applied to a virtual machine.
 
@@ -669,7 +669,7 @@ service\_type =&lt;Type of service\(one of user, system or all\)
 
 </td><td>
 
-Retrieves the list of all services with PID, service name, service display name, status, and service type.
+Retrieves the list of all services with PID, Service Name, Service Display Name, Status, Service Type.
 
 </td></tr></tbody>
 </table>## Check definitions — Remedial Actions
@@ -714,7 +714,7 @@ os.win.action-restart-service
 
 </td><td>
 
-Restarts the logged-in user's service that matches the specified service name.
+Restarts logged user services that take a service name as input to the system.
 
 </td></tr><tr><td>
 
@@ -726,7 +726,7 @@ None
 
 </td><td>
 
-Flushes the DNS cache on a Windows device.
+Flushes DNS cache on a Windows device.
 
 </td></tr><tr><td>
 
@@ -734,13 +734,13 @@ os.win.action-clear-browser-cache
 
 </td><td>
 
---auto\_close = &lt;true/false&gt;**Note:** When auto\_close is set to true, the browser closes while the cache is cleared. When it's set to false, the browser stays open.
+--auto\_close = &lt;true/false&gt;**Note:** When auto-close is enabled, while clearing the browser cache, the browser is closed and vice versa.
 
 --browsers = &lt;List of comma separated browsers&gt;
 
 </td><td>
 
-Clears cache of the supported browsers such as Google Chrome, Mozilla Firefox, and Microsoft Edge.**Note:** Before executing this check definition, save your browser work.
+Clears cache of the supported browsers such as Google Chrome,Mozilla Firefox, and Microsoft Edge.**Note:** Before executing this check definition, save your browser work.
 
 </td></tr><tr><td>
 
@@ -814,7 +814,7 @@ app\_name = &lt;application name&gt;
 
 </td><td>
 
-Uninstalls an application.
+Uninstall an application.
 
 </td></tr><tr><td>
 
@@ -838,7 +838,7 @@ None
 
 </td><td>
 
-Restarts OneDrive on the end user's device.
+Restarts OneDrive on the end-user's machine.
 
 </td></tr><tr><td>
 
@@ -894,7 +894,7 @@ remove\_web\_data = &lt;True/False whether you want to remove the web data&gt;
 
 </td><td>
 
-Removes all the browsing data on Google Chrome from all the Google Chrome profiles.
+Removes all the browsing data on Google chrome from all the Google chrome profiles.
 
 </td></tr><tr><td>
 
@@ -906,7 +906,7 @@ None
 
 </td><td>
 
-Clears all the files in the recycle bin.
+Purging Recycle Bin will clear all the files in the recycle bin.
 
 </td></tr><tr><td>
 
@@ -918,7 +918,7 @@ None
 
 </td><td>
 
-Clears the settings and removes all the installed Google Chrome extensions on all the Google Chrome profiles.
+Clears the settings and removes all the installed Google chrome extensions on all the google chrome profiles.
 
 </td></tr><tr><td>
 
@@ -930,7 +930,7 @@ power\_mode - Balanced, High performance, Power saver
 
 </td><td>
 
-Toggles between different power plans.
+Toggle between different power plans.
 
 </td></tr><tr><td>
 
@@ -944,7 +944,7 @@ duration
 
 </td><td>
 
-Grants users temporary administrator access for a period of time to perform specific tasks.
+Elevates temporary admin access to users for a period of time to perform specific tasks without compromising on security.
 
 </td></tr><tr><td>
 
@@ -956,55 +956,8 @@ None
 
 </td><td>
 
-Fixes OST and PST data files by using SCANPST.EXE in classic Outlook.
-
-</td></tr><tr><td>
-
-os.win.action-clear-system-cache
-
-</td><td>
-
-None
-
-</td><td>
-
-Removes temporary files and cache data from the current logged-in user's profile.
-
-</td></tr><tr><td>
-
-os.win.action-stop-service
-
-</td><td>
-
---service\_name=&lt;service name&gt;
-
-</td><td>
-
-Stops the running service that matches the specified service name. If there are dependent services, it stops them first as part of the same process.
-
-</td></tr><tr><td>
-
-os.win.action-start-service
-
-</td><td>
-
---service\_name=&lt;service name&gt;
-
-</td><td>
-
-Starts the stopped service that matches the specified service name. If there are dependent services, it starts them as part of the same process.
-
-</td></tr><tr><td>
-
-os.win.action-reset-printer-spooler
-
-</td><td>
-
- 
-
-</td><td>
-
-Resets the printer spooler.
+Fixes OST / PST data files using SCANPST.EXE in Classic outlook
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)
+

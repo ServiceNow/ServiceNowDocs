@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-benchmarks-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -513,7 +513,7 @@ Yokohama
 1.  Experience the new Key Performance Indicator \(KPI\) for Now Assist under Productivity moments per user of ITSM Benchmarks to understand the benefits of Now Assist features like Knowledge Article generation.
 2.  Benchmark the all new HRSM indicator to help evaluate the performance in comparison to your peers.
 
- See [\[Placeholder link text to key bundle-itsm.r\_Benchmarks\]](https://www.servicenow.com/docs/access?context=r_Benchmarks&family=yokohama&ft:locale=en-US) for more information.
+ See [r Benchmarks](https://www.servicenow.com/docs/access?context=r_Benchmarks&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

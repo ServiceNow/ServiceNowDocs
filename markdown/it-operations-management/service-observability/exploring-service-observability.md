@@ -7,7 +7,7 @@ release: australia
 product: Service Observability
 classification: service-observability
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-12"
 reading_time_minutes: 6
 breadcrumb: [Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -177,7 +177,7 @@ See Service Observability data as part of Incident Management workflows
 
 </td><td>
 
-[Digital End-User Experience and Service Observability UI experience on investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dex-so-metric-views-investigate-tab.md)
+
 
 </td><td>
 

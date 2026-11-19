@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
@@ -79,11 +79,11 @@ The following example shows the functions that are available in the Workflow Stu
 
 \[Omitted image "tni-flow-action-list.png"\] Alt text: Infographic displaying all default options of Network Inventory Advanced.
 
-You can also use these functions as Workflow Studio actions in the Telecommunications Network Inventory workflow because the Design and Assign is a series of actions. The reusable Workflow Studio actions can automate repetitive work, such as creating a logical connection in the workflow. To learn more about Workflow Studio actions, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
+You can also use these functions as Workflow Studio actions in the Telecommunications Network Inventory workflow because the Design and Assign is a series of actions. The reusable Workflow Studio actions can automate repetitive work, such as creating a logical connection in the workflow. To learn more about Workflow Studio actions, see .
 
 ## Telecommunications Network Inventory subflows
 
-In Workflow Studio, you can give the inputs and outputs to pass the data to and from the subflow while you’re performing the Design and Assign process. If necessary, you can add more fields in the subflows. To learn more about working with the subflows, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md). To learn more about the Workflow Studio, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
+In Workflow Studio, you can give the inputs and outputs to pass the data to and from the subflow while you’re performing the Design and Assign process. If necessary, you can add more fields in the subflows. To learn more about working with the subflows, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md). To learn more about the Workflow Studio, see .
 
 The Telecommunications Network Inventory application has the following subflows:
 
@@ -93,7 +93,7 @@ The Telecommunications Network Inventory application has the following subflows:
 
 -   **Physical Connection Creation**
 
-    Creates a physical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory. To learn more, see [Physical Connection Creation subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/physical-connection-creation-subflow.md).
+    Creates a physical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory. To learn more, see [Physical connection creation subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/physical-connection-creation-subflow.md).
 
 
 The following example shows the subflows that are available in the Workflow Studio action library under the **Network Inventory Advanced** option. You can use these functions to perform the inventory-related data operations.

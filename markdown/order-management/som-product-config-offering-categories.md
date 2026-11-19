@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-product-config-offering-categories.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -26,11 +26,9 @@ Product offering catalog categories must be published before products can be add
 
 This procedure explains the Product Offering Category tab. To set up categories before adding products, see [Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-product-offering-category.md).
 
-**Note:** Creating a product offering category and associating it to the product offering is required for validating product offerings before publishing them using the In Test and Staged intermediate life cycle states. For more information on the life cycle states, see [Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/extended-product-lifecycle-states.md).
-
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select the product offering you are working with.
 
@@ -47,11 +45,9 @@ This procedure explains the Product Offering Category tab. To set up categories 
 
 6.  Select **Save**.
 
-7.  Review the category information and select one of the following options.
+7.  Review the category information and select **Publish**.
 
-    -   Ready for Test
-    -   Publish
-    The category is available to add product offerings or create child categories.
+    The category is published and available to add product offerings too or create child categories.
 
 
 ## What to do next
@@ -66,5 +62,7 @@ This procedure explains the Product Offering Category tab. To set up categories 
 **Related topics**  
 
 
-[Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/extended-product-lifecycle-states.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)
 

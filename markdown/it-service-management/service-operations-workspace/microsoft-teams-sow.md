@@ -1,25 +1,25 @@
 ---
-title: Using Microsoft Teams to make conference calls in Service Operations Workspace
-description: Use Microsoft Teams to schedule the conference calls with the stakeholders to resolve the incidents in Service Operations Workspace.
+title: Use Microsoft Teams to make conference calls in Service Operations Workspace
+description: Schedule Microsoft Teams conference calls with stakeholders to resolve incidents in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/microsoft-teams-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Using Microsoft Teams to make conference calls in Service Operations Workspace
+# Use Microsoft Teams to make conference calls in Service Operations Workspace
 
-Use Microsoft Teams to schedule the conference calls with the stakeholders to resolve the incidents in Service Operations Workspace.
+Schedule Microsoft Teams conference calls with stakeholders to resolve incidents in Service Operations Workspace.
 
 -   **[Start a conference call using Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/start-conference-call-microsoft-teams.md)**  
 Start a conference call from Microsoft Teams to work towards the resolution of an incident.
--   **[Managing Microsoft Teams conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/manage-conference-calls-teams.md)**  
-Add or mute participants in a Microsoft Teams conference call in Service Operations Workspace.
+-   **[Manage Microsoft Teams conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/manage-conference-calls-teams.md)**  
+Add participants to a Microsoft Teams conference call or mute them in Service Operations Workspace.
 -   **[Leave a Microsoft Teams conference call in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/leave-teams-conference-call.md)**  
 Leave an active conference call. The call will still be active with other participants.
 -   **[End a Microsoft Teams conference call in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/end-teams-conference-call.md)**  

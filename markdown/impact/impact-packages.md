@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-packages.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [General reference, Impact reference, Impact]
+breadcrumb: [Impact reference, Impact]
 ---
 
 # Impact packages
@@ -34,7 +34,7 @@ If you have purchased an Impact offering, the applicable Impact Package descript
     -   Entry-level offerings including the Premium digital experience, enhanced technical support, and curated content.
 -   **Total**
     -   The complete solution with a designated expert team, personalized recommendations, preventative tools, and much more.
-    -   Impact Squad Team: Customer Success Executive, Platform Architect, , and Support Account Manager
+    -   Impact Squad Team: Customer Success Executive, Platform Architect, Customer Success Manager, and Support Account Manager
 -   **Integrated Success**
     -   Includes all benefits in Impact Total along with expert-led support for Program Delivery \(EM\), Design \(BPC\), and Architecture \(SA\) and Technical Implementation Services
     -   Expert Team: Engineering Manager \(EM\), Business Process Consultant\(BPC\), Solution Architect\(SA\)
@@ -67,7 +67,7 @@ Guided
 
 </td><td>
 
-Entry-level offerings including the Premium digital experience, enhanced technical support, , and curated content
+Entry-level offerings including the Premium digital experience, enhanced technical support, Impact Squad , and curated content
 
 </td><td>
 
@@ -192,5 +192,5 @@ Platform Health
 -   IDI = Impact Delivery Instance
 -   SAM = Support Account Manager
 
-**Parent Topic:**[General reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/general-reference.md)
+**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-reference.md)
 

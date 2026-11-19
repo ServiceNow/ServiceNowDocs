@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/ne-start-options-admin.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Start page options, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -43,5 +43,5 @@ The start page that you configure should address your needs and the needs of you
     You can start with a responsive dashboard created in the classic environment to use an existing dashboard that isn't available in a configurable workspace. For more information, see [Set responsive dashboards as your home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_SetDashboardsAsHome.md).
 
 
-**Parent Topic:**[Configuring Next Experience start page options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Configure Next Experience start page options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

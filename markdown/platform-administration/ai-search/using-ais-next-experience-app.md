@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 11
 breadcrumb: [AI Search for Next Experience, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -54,7 +54,7 @@ To remove an applied facet filter, select **Clear** by the facet field name, or 
 
 AI Search administrators can define facets in search application configurations. For details, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-facet-ais.md).
 
-In the base system, facets don't appear in the Filters list until you've selected a source facet bucket. Administrators can override this behavior and show all available facets in the Filters list by creating a **glide.ui.ais.show\_all\_facets** system property record and setting its value to **true**. For more details on this system property, see [AI Search for Next Experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/ai-search-next-experience-properties.md).
+In the base system, facets don't appear in the Filters list until you select a source facet bucket. Administrators can override this behavior and show all available facets in the Filters list by creating a **glide.ui.ais.show\_all\_facets** system property record and setting its value to **true**. For more details on this system property, see [AI Search for Next Experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/ai-search-next-experience-properties.md).
 
 The Filters list defaults to displaying a count of matching search results for each facet bucket. Search administrators can configure this behavior in search application configurations. To learn more about result counts for facets, see [Show search result counts for facets on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/display-result-counts-ais.md).
 
@@ -68,7 +68,7 @@ AI Search administrators can configure search result sort options. For details, 
 
 ## Return to your starting point from the search results page
 
-To return to the page where you initiated your search, select the link with a left arrow that appears above the source facet buckets on the search results page. The title of this link indicates the page it returns you to. For example, if you searched from the Home page, the link text would be **Home**, but if you searched from the Dashboards page, the link text would be **Dashboards Overview**.
+To return to the page where you initiated your search, select the link with a left arrow that appears on the search results page. The title of this link indicates the page it returns you to. For example, if you searched from the Home page, the link text would be **Home**, but if you searched from the Dashboards page, the link text would be **Dashboards Overview**.
 
 \[Omitted image "unified-nav-ai-search-return-link.png"\] Alt text: Detail of global search results page with Dashboards Overview return link highlighted.
 
@@ -94,7 +94,7 @@ Enter a record number into the Unified Navigation search field but don't press E
 
 **Note:** When you search for a record by number, the system displays the matching record regardless of whether it's included in the AI Search index or not.
 
-Exact matching returns results from tables with a prefix defined in the Number \[sys\_number\] table. If the search includes a single term that starts with the table's prefix, AI Search returns an exact match result from the table if one exists. As an example, searching for the single term `INC3263827` returns an exact match from the Incident \[incident\] table because the search term starts with the INC prefix defined for that table.
+Exact matching returns results from tables with a prefix defined in the Number \[sys\_number\] table. If the search includes a single term that starts with the table's prefix, AI Search returns an exact match result from the table if one exists. As an example, searching for the single term `INC3263827` returns an exact match from the Incident \[incident\] table. This occurs because the search term starts with the INC prefix defined for the table.
 
 If more than one record has a **Number** field value that exactly matches your search, AI Search displays the first exact match. An informational message reports the total number of exact matches and provides links to the other exact matches.
 
@@ -102,13 +102,15 @@ Search administrators can override the default exact match behavior by configuri
 
 ## View results for your search in an available workspace application
 
-If you have access to search in workspace applications, an arrow appears at the right of the Unified Navigation search field after you search that enables you to switch between the results in global search and in your workspace applications.
+If you have access to search in workspace applications, an arrow appears at the right of the Unified Navigation search field after you search. Select this arrow to switch between search results in global search and search results in your workspace applications.
 
 \[Omitted image "pol-search-context.png"\] Alt text: Global search field displaying search context menu.
 
-For example, if the context menu in the illustration was available after you performed a global search, you could select **CSM/FSM Configurable Workspace** from the context menu to view results for the search in CSM/FSM Configurable Workspace.
+As an example, if **CSM/FSM Configurable Workspace** appears in the context menu, you can select it to view results for your search in CSM/FSM Configurable Workspace.
 
 Exact matches open in the selected workspace application. For example, if you selected **CSM/FSM Configurable Workspace**, entered a record number, and selected the record preview in the search results, the record would open in CSM/FSM Configurable Workspace.
+
+Only workspaces that you have access to appear in the context menu.
 
 ## Customize display fields for your search result previews
 
@@ -125,7 +127,6 @@ If ServiceNow Otto for Virtual Agent enhanced chat is activated in the ServiceNo
 To see this enhanced chat entry point behavior, your instance must satisfy all of the following conditions:
 
 -   [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/now-assist-ais.md) is installed.
--   [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-va-landing.md) is installed.
 -   Enhanced chat is activated via the ServiceNow Otto panel. For details on activating enhanced chat, see [Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md).
 
 If these conditions aren't satisfied, the search field in global and workspace search doesn't display the icon and placeholder text or show ServiceNow Otto suggestions.

@@ -1,13 +1,13 @@
 ---
 title: Using conversational search in ServiceNow Otto panel
-description: Get common case-related information from the KBs within the case record by asking questions in the Now Assist panel.
+description: Get common case-related information from the KBs within the case record by asking questions in the panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/using-conversational-search-in-now-assist-panel.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
@@ -15,7 +15,7 @@ breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Manage
 
 # Using conversational search in ServiceNow Otto panel
 
-Get common case-related information from the KBs within the case record by asking questions in the Now Assist panel.
+Get common case-related information from the KBs within the case record by asking questions in the panel.
 
 This video shows how to get common case-related information from your Knowledge Bases directly within the case record by asking questions in the ServiceNow Otto panel.
 

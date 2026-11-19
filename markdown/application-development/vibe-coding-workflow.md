@@ -5,17 +5,17 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-workflow.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-11-03"
+reading_time_minutes: 4
 keywords: [agentic development, workflow, conversational prompts, text-to-code generation, code explanations, optimization suggestions, governance, security, enterprise compliance, scalability, natural language, blueprint, tables, roles, UI components, workflows, full-stack components, JavaScript, metadata, business rules, integration points, automated tests, self-heal, iterative development, deployment, audit trails]
-breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Workflow for agentic development
 
 The agentic development workflow begins with developers providing conversational prompts to the Build Agent tool, which then creates tables, forms, workflows, and automation rules.
 
-Integrated tools like Build Agent and ServiceNow Otto for Creator enhance the experience by offering text-to-code generation, code explanations, and optimization suggestions. Governance and security are embedded throughout the process, ensuring enterprise-grade compliance and scalability.
+Integrated tools like Build Agent and ServiceNow Otto for Creator enhance the experience by offering text-to-code generation, code explanations, and optimization suggestions. Governance and security features are available throughout the process.
 
 **Note:** Agentic development encompasses a range of approaches to AI-assisted app building:
 
@@ -38,15 +38,15 @@ ServiceNow provides tools to help you review, refine, and test apps throughout a
 
     Benefit: Architectural clarity before coding begins. For more information, see [Vibe coding: Chatting your way to a new app with ServiceNow Build Agent](https://www.servicenow.com/community/developer-advocate-blog/vibe-coding-chatting-your-way-to-a-new-app-with-servicenow-build/ba-p/3383952).
 
-    For larger implementations with well-defined requirements, Autonomous Engineer can replace this step. It conducts an interview, generates a structured plan with work items, and builds all work items in parallel. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-autonomous-engineer.md).
+    For large or complex implementations, you can use Autonomous Engineer to generate a plan with work items from your requirements and build the work items in parallel. For more information, see [Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/autonomous-engineer.md).
 
 3.  Build and generate code: The ServiceNow AI Platform autonomously creates full-stack components using ServiceNow Fluent, JavaScript, and ServiceNow metadata.
 
     Includes: UI pages, data models, business rules, and integration points. For more information, see [Vibe coding with ServiceNow Build Agent: The future of AI-powered app development](https://www.servicenow.com/community/now-assist-for-creator-articles/zurich-release-vibe-coding-with-servicenow-build-agent-the/ta-p/3408806).
 
-4.  Validate and self-heal: If you're using Build Agent, it generates automated tests and fixes errors without manual intervention.
+4.  Validate and self-heal: If you're using Build Agent, Test Agent generates ATF tests from your prompt and the resulting code changes, and Build Agent asks whether you want to run them. If a test fails, Test Agent produces a root cause analysis \(RCA\), and Build Agent applies fixes and re-runs the tests. For more information, see [Test what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-testing.md).
 
-    Governance: Compliance and security checks are applied automatically. For more information, see [Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-governance.md).
+    Governance: Build Agent generates ACLs, validates scripts for security vulnerabilities, and applies code optimization during generation. For more information, see [Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-governance.md).
 
 5.  Refine through prompts: Add features or adjust design iteratively \(for example, `Add a Kanban board` or `Improve UI layout for accessibility`\).
 
@@ -60,6 +60,4 @@ ServiceNow provides tools to help you review, refine, and test apps throughout a
 
     For more information, see [Agentic development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-and-deployment.md).
 
-
-**Parent Topic:**[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-vibe-coding.md)
 

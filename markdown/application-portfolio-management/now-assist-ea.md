@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/now-assist-ea.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-07-17"
 reading_time_minutes: 5
 breadcrumb: [Enterprise Architecture]
 ---
@@ -79,8 +79,6 @@ For more information, see the [ServiceNow AI documentation](https://raw.githubus
 With the ServiceNow Otto for EA features, you can use generative AI skills to summarize and refine content, generate and compare diagrams, gather insights into business applications, and query your enterprise architecture portfolio using natural language in the Enterprise Architecture Workspace.
 -   **[Using ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/using-now-assist-for-ea.md)**  
 With the ServiceNow Otto for Enterprise Architecture \(EA\) application, you can use generative AI skills to summarize and refine content, generate and compare diagrams, and gather insights into business applications. You can also query your enterprise architecture portfolio using natural language in the Enterprise Architecture Workspace.
--   **[ServiceNow Otto for Enterprise Architecture reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/now-assist-ea-reference.md)**  
-Reference information to provide additional information about tables, roles, and properties installed with ServiceNow Otto for Enterprise Architecture \(EA\).
 
 **Parent Topic:**[Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/application-portfolio-management-landing-page.md)
 

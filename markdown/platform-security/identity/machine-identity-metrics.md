@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Exploring Machine Identity Console, Machine Identity Console, Identity]
 ---
@@ -30,7 +30,7 @@ The following results are unique API calls in the last 7 days. Records collected
 
 ## Machine identity accounts
 
-The following results are the machine integration accounts used for integrations. Records collected in this table are in real time.
+The following results are the machine integration accounts used for integrations. Records collected in this table are in real-time.
 
 \[Omitted image "metrics-mic-accounts.png"\] Alt text: Machine identity accounts
 

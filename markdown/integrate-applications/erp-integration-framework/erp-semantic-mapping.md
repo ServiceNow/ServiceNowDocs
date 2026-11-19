@@ -8,7 +8,7 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
 last_updated: "2026-08-06"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [erp, match, field, map]
 breadcrumb: [Model management, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -40,4 +40,6 @@ The automatic semantic field mapping is available when the source table has an a
 Each candidate target field is assigned a confidence score that reflects how closely its semantic meaning matches the selected source field. You can review the ranking before confirming the mapping.
 
 **Important:** AI-generated field mapping suggestions may not be accurate in all cases. Review the ranked candidates and confirm the appropriate target field before saving the connector model.
+
+**Parent Topic:**[Managing Zero Copy Connector for ERP model inputs, outputs, and field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-manage-models.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Manage conference calls on task
-description: Add and manage multiple participants on the conference including self-joining in to the conference call and end the conference call when the discussion is over.
+description: Add participants, join a conference call yourself, and end the call when the discussion is over.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/manage-conf-call.html
 release: australia
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using Notify with tasks, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Manage conference calls on task
 
-Add and manage multiple participants on the conference including self-joining in to the conference call and end the conference call when the discussion is over.
+Add participants, join a conference call yourself, and end the call when the discussion is over.
 
 ## Before you begin
 

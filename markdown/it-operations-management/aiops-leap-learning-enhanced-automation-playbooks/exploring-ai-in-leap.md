@@ -7,7 +7,7 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-06"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI, LEAP, AI agent, resolution steps, playbooks, knowledge base, Ansible]
 breadcrumb: [Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]

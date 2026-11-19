@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-05"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Monitor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Monitor, AI Admin Center, Enable AI experiences]
 ---
 
 # Monitor your recently activated AI solution in AI Admin Center\(Next Experience UI\)

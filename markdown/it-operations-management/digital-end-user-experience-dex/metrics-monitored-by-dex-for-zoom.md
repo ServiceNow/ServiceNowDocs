@@ -1,20 +1,20 @@
 ---
 title: Metrics monitored by DEX for Zoom
-description: The Summary and Call quality metrics tabs display call quality, call issue, and network metrics for Zoom calls.
+description: View the zoom metrics that appear in Summary and call quality metrics tabs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/metrics-monitored-by-dex-for-zoom.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # Metrics monitored by DEX for Zoom
 
-The Summary and Call quality metrics tabs display call quality, call issue, and network metrics for Zoom calls.
+View the zoom metrics that appear in Summary and call quality metrics tabs.
 
 ## Summary tab metrics
 
@@ -28,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Call quality
+**Call quality**
 
 </td><td>
 
@@ -47,7 +47,7 @@ When you select a category in the pie chart, the **Details** page opens and disp
 
 </td></tr><tr><td>
 
-Call issues
+**Call issues**
 
 </td><td>
 
@@ -57,7 +57,7 @@ The pie chart shows the distribution of detected issues, labeled as Unstable vid
 
 </td></tr><tr><td>
 
-Calls over time
+**Calls over time**
 
 </td><td>
 
@@ -65,7 +65,7 @@ The bar chart displays the number of calls categorized as Good, Fair, Bad, or Po
 
 </td></tr><tr><td>
 
-Jitter
+**Jitter**
 
 </td><td>
 
@@ -73,7 +73,7 @@ The line graph represents the variation in network packet delay during calls; hi
 
 </td></tr><tr><td>
 
-Latency
+**Latency**
 
 </td><td>
 
@@ -81,7 +81,7 @@ The line graph indicates the time delay between sending and receiving audio or v
 
 </td></tr><tr><td>
 
-Packet loss
+**Packet loss**
 
 </td><td>
 
@@ -92,7 +92,7 @@ The line graph shows the percentage of data packets lost during transmission; lo
 
 ## Call quality metrics
 
-The following table describes the call quality breakdown.
+The following call quality breakdown appears:
 
 <table id="table_d15_c1m_lhc"><thead><tr><th>
 
@@ -104,7 +104,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Audio quality
+**Audio quality**
 
 </td><td>
 
@@ -112,7 +112,7 @@ The pie chart displays the proportion of calls categorized as Good, Fair, Bad, P
 
 </td></tr><tr><td>
 
-Video quality
+**Video quality**
 
 </td><td>
 
@@ -120,7 +120,7 @@ The pie chart displays the proportion of calls categorized as Good, Fair, Bad, P
 
 </td></tr><tr><td>
 
-Screenshare quality
+**Screenshare quality**
 
 </td><td>
 
@@ -128,7 +128,7 @@ The pie chart displays the proportion of calls categorized as Good, Fair, Bad, P
 
 </td></tr><tr><td>
 
-Version
+**Version**
 
 </td><td>
 
@@ -136,7 +136,7 @@ The bar chart displays the number of calls categorized as Good, Fair, Bad, or Po
 
 </td></tr><tr><td>
 
-Operating System
+**Operating System**
 
 </td><td>
 
@@ -144,7 +144,7 @@ The bar chart displays the number of calls categorized as Good, Fair, Bad, or Po
 
 </td></tr><tr><td>
 
-Location
+**Location**
 
 </td><td>
 
@@ -152,7 +152,7 @@ The bar chart displays the number of calls categorized as Good, Fair, Bad, or Po
 
 </td></tr><tr><td>
 
-Connection Type
+**Connection Type**
 
 </td><td>
 
@@ -160,7 +160,7 @@ The bar chart displays the number of calls categorized as Good, Fair, Bad, or Po
 
 </td></tr><tr><td>
 
-Device Type
+**Device Type**
 
 </td><td>
 
@@ -168,7 +168,7 @@ The bar chart displays the number of calls categorized as Good, Fair, Bad, or Po
 
 </td></tr><tr><td>
 
-Camera
+**Camera**
 
 </td><td>
 
@@ -176,7 +176,7 @@ The bar chart displays the number of calls categorized as Good, Fair, Bad, or Po
 
 </td></tr><tr><td>
 
-Screenshare
+**Screenshare**
 
 </td><td>
 

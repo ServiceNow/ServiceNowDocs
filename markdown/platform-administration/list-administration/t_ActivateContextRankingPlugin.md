@@ -1,22 +1,24 @@
 ---
 title: Activate context ranking
-description: If you have the admin role, you can activate the Context Ranking plugin \(com.glide.sorting\). This plugin activates related plugins if they are not already active.
+description: Activate the Context Ranking plugin \(com.glide.sorting\). This plugin activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/t\_ActivateContextRankingPlugin.html
 release: australia
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-09"
 reading_time_minutes: 1
 breadcrumb: [Context ranking, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Activate context ranking
 
-If you have the admin role, you can activate the Context Ranking plugin \(com.glide.sorting\). This plugin activates related plugins if they are not already active.
+Activate the Context Ranking plugin \(com.glide.sorting\). This plugin activates related plugins if they are not already active.
 
 ## Before you begin
+
+Role required: admin
 
 ## Procedure
 

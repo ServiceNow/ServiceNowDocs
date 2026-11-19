@@ -7,7 +7,7 @@ release: australia
 product: EMR Help
 classification: emr-help
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create requests within your EMR system, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -20,5 +20,5 @@ Virtual Agent can be used to quickly obtain information, make decisions, and per
 
 To interact with Virtual Agent, simply click the chat window icon on the bottom right-hand corner of the screen.
 
-For more information on Virtual Agent, see .
+For more information on Virtual Agent, see [Virtual Agent as an application design element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/virtual-agent.md).
 

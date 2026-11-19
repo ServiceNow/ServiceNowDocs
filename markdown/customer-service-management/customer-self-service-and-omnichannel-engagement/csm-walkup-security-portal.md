@@ -1,6 +1,6 @@
 ---
 title: CSM Walk-up Experience portal security and access
-description: Security is built into the application to help prevent end-user facing devices at the Walk-up Experience onsite portal from offering elevated role privileges to users.
+description: Learn how portal security stops end-user devices at the onsite Walk-up Experience portal from granting users elevated role privileges.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-security-portal.html
 release: australia
@@ -14,11 +14,11 @@ breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set u
 
 # CSM Walk-up Experience portal security and access
 
-Security is built into the application to help prevent end-user facing devices at the Walk-up Experience onsite portal from offering elevated role privileges to users.
+Learn how portal security stops end-user devices at the onsite Walk-up Experience portal from granting users elevated role privileges.
 
 The Walk-up Experience onsite portal is accessed by an account containing only the sn\_walkup.walkup\_login role. The sn\_walkup.walkup\_login role contains the snc\_external role.
 
-## Understanding Walk-up Experience portal security
+## Walk-up Experience portal security model
 
 Accessing the onsite Walk-up Experience portal requires the singularly assigned sn\_walkup.walkup\_login role. The user record with this role cannot contain any other roles. Because most user records contain multiple roles, the sn\_walkup.walkup\_login role is assigned to a user record account, not a human user. The security feature helps prevent the onsite portal check-in device from permitting users who might try accessing the portal with an elevated privilege role.
 

@@ -34,7 +34,7 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(Employee Center\), 
 
 ## About this task
 
-If you're using the AI Risk and Compliance \(AIRC\) application, you submit requests through the Employee Center and related tasks such as impact assessments and review tasks \(for example, legal, security, and architecture\). If you're using the AI Control Tower \(AICT\) application, you can submit requests from the AI Control Tower dashboard and manage AI assets through AICT's inventory and life cycle experience. After you submit through the Employee Center, you land on the confirmation page. The **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page open the corresponding record in AI Control Tower instead of the legacy AI Control Tower workspace. The AI system record header also displays the system name and identifier.
+If you're using the AI Risk and Compliance \(AIRC\) application, you submit requests through the Employee Center and related tasks such as impact assessments and review tasks \(for example, legal, security, and architecture\). If you're using the Control Tower \(AICT\) application, you can submit requests from the Control Tower dashboard and manage AI assets through AICT's inventory and life cycle experience. After you submit through the Employee Center, you land on the confirmation page. The **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page open the corresponding record in Control Tower instead of the legacy Control Tower workspace. The AI system record header also displays the system name and identifier.
 
 For more information about the end-to-end life cycle, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md). For an overview of AI Risk and Compliance setup and configuration, see [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md).
 
@@ -44,17 +44,17 @@ For example, a financial institution wants to improve its loan approval process 
 
 ## Procedure
 
-1.  Request an AI system from the Employee Center or from the AI Control Tower dashboard.
+1.  Request an AI system from the Employee Center or from the Control Tower dashboard.
 
-<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d282449e228">
+<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d281457e228">
 
 Option
 
-</th><th align="left" id="d282449e231">
+</th><th align="left" id="d281457e231">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d282449e237">
+</th></tr></thead><tbody><tr><td id="d281457e237">
 
 **Request an AI system using AI Risk and Compliance**
 
@@ -66,13 +66,13 @@ Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**. 1.  Select *
 
 AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-</td></tr><tr><td id="d282449e288">
+</td></tr><tr><td id="d281457e288">
 
-**Request an AI system using AI Control Tower**
+**Request an AI system using Control Tower**
 
 </td><td>
 
-Navigate to **All** &gt; **AI Control Tower**. 1.  On the AI Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**.
+Navigate to **All** &gt; **AI Control Tower**. 1.  On the Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**.
 2.  Select **AI systems**, then select **Add AI system**.
 **Note:**
 
@@ -81,7 +81,7 @@ An AI Asset owner can complete this option.
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For full descriptions of the fields, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/request-ai-system-form.md). For more information about adding an AI system using AI Control Tower, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md).
+    For full descriptions of the fields, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/request-ai-system-form.md). For more information about adding an AI system using Control Tower, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md).
 
 3.  To add attachments, select **Add attachments**.
 
@@ -106,7 +106,7 @@ For more information, see [Perform impact assessment on an AI use case](https://
 
 AI Steward or AI Center of Excellence \(AI CoE\) \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager, sn\_ai\_asset\_mgmt.ai\_asset\_owner\]: Review submitted requests for business and strategy alignment, initiate required assessments, and coordinate cross-functional reviews. Continue to oversee the AI system through its life cycle, including inventory tracking, governance activities, and collaboration across stakeholders.
 
-For more information, see [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-governance.md).
+For more information, see [Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-governance.md).
 
 Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]: Assess the AI system for regulatory, policy, and risk considerations. Assign risk assessments, recommend controls and attestations, and monitor compliance throughout the AI system life cycle.
 

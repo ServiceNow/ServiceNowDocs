@@ -1,16 +1,18 @@
 ---
-title: \(Legacy\) Define topic context intent configurations
+title: Define topic context intent configurations
 description: Use pre-chat survey information to determine the appropriate Virtual Agent conversation topic automatically displayed to end users \(requesters\), rather than prompting them to choose from a list of conversation topics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/ac-configure-context-topic-intent.html
 release: australia
+product: Conversational Interfaces
+classification: conversational-interfaces
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Create chat surveys, General chat settings, Conversational Interfaces Home for NLU, Configure NLU, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Using pre-chat surveys with context variables for topic discovery, General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
 
-# \(Legacy\) Define topic context intent configurations
+# Define topic context intent configurations
 
 Use pre-chat survey information to determine the appropriate Virtual Agent conversation topic automatically displayed to end users \(requesters\), rather than prompting them to choose from a list of conversation topics.
 
@@ -18,7 +20,7 @@ Use pre-chat survey information to determine the appropriate Virtual Agent conve
 
 -   [Configure the chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-context-variables.md) for storing user answers to specific questions in your chat surveys.
 -   As you [create your chat survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/create-chat-surveys.md), map a survey question to a new or existing chat context variable. The variable stores the user response that Virtual Agent uses to determine topic context intent and the conversation topic displayed.
--   Role required: virtual\_agent\_ admin or admin
+-   Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
@@ -113,4 +115,6 @@ Chat context variable that stores the user response to a specific survey questio
 ## Result
 
 The context topic intent configuration is added to the Context Topic \[sys\_cs\_context\_topic\] table. Virtual Agent displays the appropriate conversation topic to users based on the context intent configuration.
+
+**Parent Topic:**[Using pre-chat surveys with context variables for topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/using-context-intent-prechat-survey.md)
 

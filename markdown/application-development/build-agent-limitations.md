@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent-limitations.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-22"
+last_updated: "2026-11-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Build Agent limitations, regulated environments, FedRAMP, GCC, NSC, Build Agent v1, Build Agent v2, Autonomous Engineer, AI-generated code review, Fluent API, deployment constraints, agentic development, off-instance services, security compliance]
 audience: developer
-breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Build Agent limitations
@@ -22,34 +22,34 @@ If you encounter something that Build Agent can't currently do, complete that st
 
 For details on troubleshooting, see [Issues and solutions in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-troubleshooting.md).
 
-## General limitations of Build Agent
+## General limitations of Build Agent and Autonomous Engineer
 
-Be aware of the following limitations when using Build Agent:
+Be aware of the following limitations when using Build Agent or Autonomous Engineer:
 
 -   AI-generated code requires human review for ACL correctness, security, platform conventions, and governance compliance. Put peer-review gates, static checks, and validation steps in place.
--   You still must work with builders in ServiceNow Studio for app files and metadata types not yet supported in Build Agent, such as certain tables, UIs, or advanced features.
+-   You still must work with builders in ServiceNow Studio for app files and metadata types not yet supported in Build Agent or Autonomous Engineer, such as certain tables, UIs, or advanced features.
 
-    **Note:** Build Agent can work on existing applications. You can use Build Agent to enhance base workflows, such as creating business rules on existing tables.
+    **Note:** Build Agent and Autonomous Engineer can work on existing applications. You can use them to enhance base workflows, such as creating business rules on existing tables.
 
--   Security in apps developed with Build Agent is at the application and API level, not at granular record and field level by default. However, you can use agentic development to build security onto the app by making requests. For examples, see [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-example-prompts.md).
+-   Security in apps developed with Build Agent or Autonomous Engineer is at the application and API level, not at granular record and field level by default. However, you can use agentic development to build security onto the app by making requests. For examples, see [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-example-prompts.md).
 -   Limited support for cross-product AI integration.
 
-Build Agent can generate data models and business rules. You should understand where data from your AI-generated apps is stored on the ServiceNow AI Platform.
+Build Agent and Autonomous Engineer can generate data models and business rules. You should understand where data from your AI-generated apps is stored on the ServiceNow AI Platform.
 
-## Build Agent and ServiceNow Fluent
+## Build Agent, Autonomous Engineer, and ServiceNow Fluent
 
-To understand the upper limit of what Build Agent can do, review the ServiceNow Fluent documentation. If you're not familiar with the ServiceNow AI Platform, the ServiceNow Fluent documentation can help you determine what Build Agent can do. For more information, see the following topics:
+To understand the upper limit of what Build Agent and Autonomous Engineer can do, review the ServiceNow Fluent documentation. If you're not familiar with the ServiceNow AI Platform, the ServiceNow Fluent documentation can help you determine what they can do. For more information, see the following topics:
 
 -   [ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 -   [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-fluent.md)
 
-If ServiceNow Fluent does not support a metadata type, Build Agent cannot update it unless you provide precise platform-specific instructions.
+If ServiceNow Fluent does not support a metadata type, Build Agent and Autonomous Engineer cannot update it unless you provide precise platform-specific instructions.
 
 ## Regulated environments
 
 Build Agent, Autonomous Engineer, and Test Agent depend on off-instance services that have not completed the security compliance review required for regulated hosting environments. As a result, Build Agent v2 \(Australia Patch 0 and Zurich 8 and higher\) is not available in GCC, NSC, or FedRAMP environments.
 
-**Note:** As of Brazil Patch 1, Build Agent, Autonomous Engineer, and Test Agent support ServiceNow Protected Platform \(SPP\) for Australia, the EU, and Singapore.
+**Note:** As of Australia Patch 6, Build Agent, Autonomous Engineer, and Test Agent support ServiceNow Protected Platform for Australia, the EU, and Singapore.
 
 Customers in regulated environments must remain on Build Agent v1, which runs on-platform and is certified for regulated use.Autonomous Engineer, which depends on Build Agent v2 services, is also unavailable in regulated environments.
 

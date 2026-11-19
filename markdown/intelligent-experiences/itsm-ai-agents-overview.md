@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 5
-breadcrumb: [IT Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+reading_time_minutes: 11
+breadcrumb: [IT Service Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # IT Service Management AI agents
@@ -43,7 +43,7 @@ This AI agent identifies the most relevant change template and model for new cha
 -   **[Classify service and CI AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-classify-service-and-ci-ai-agent.md)**  
 This AI agent assigns the appropriate service and offering to an incident. It can also assign the appropriate configuration item.
 -   **[Create incident AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-create-incident-ai-agent.md)**  
-Use this AI agent to log IT support requests. It responds to requests such as "create an incident," "raise an incident," "open an IT ticket," or "raise an IT support ticket."
+This AI agent manages the end-to-end process of formally logging IT support requests, specifically for user requests like "create an incident," "raise an incident," "open a new incident," "open an IT ticket," or "raise an IT support ticket."
 -   **[Create incident AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-create-incident-with-voice-ai-voice-agent.md)**  
 This AI agent creates new incidents when the user explicitly mentions they want to create a new incident or report a new issue.
 -   **[DEX diagnosis AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-dex-dex-diagnosis-ai-agent.md)**  
@@ -72,6 +72,8 @@ This AI agent automatically identifies and links the most relevant major inciden
 This AI voice agent assists users with managing their active incidents and requested items.
 -   **[Microsoft 365 group membership AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-microsoft-365-group-membership-ai-agent.md)**  
 The agent helps users add or remove members of Microsoft 365 distribution list groups. It finds the group, validates the people to add or remove, confirms the action with the user, and records the request in an incident.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-on-call-retrieval-ai-agent.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-on-call-retrieval-ai-agent.md)**  
+
 -   **[Password reset AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-password-reset-with-voice-ai-voice-agent.md)**  
 This AI voice agent helps users reset their password during phone-based interactions.
 -   **[Post incident review AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-post-incident-review-ai-agent.md)**  

@@ -7,7 +7,7 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-22"
 reading_time_minutes: 3
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 ---

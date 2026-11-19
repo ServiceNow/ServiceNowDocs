@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opp-mgmt-use-needs-analysis.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -24,7 +24,7 @@ A needs template is a questionnaire that you complete to get product recommendat
 
 ## Procedure
 
-1.  In the CRM Workspace, select the List view.
+1.  In the CSM Configurable Workspace, select the List view.
 
 2.  Navigate to **Opportunity** &gt; **All** and select the opportunity that you want to work on.
 

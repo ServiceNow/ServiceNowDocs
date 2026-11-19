@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-aias-acls.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-01"
 reading_time_minutes: 1
 keywords: [agentic AI Security, ACLs in AI agents]
-breadcrumb: [Implement access control in AI Agent Studio, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Implement access control in AI Agent Studio, Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
 ---
 
 # Configure access controls across AI Agent Studio
@@ -19,8 +19,6 @@ Configure access rules in AI Agent Studio for AI agents, agentic workflows, Mode
 
 Role required: sn\_aia.admin
 
-## About this task
-
 ## Procedure
 
 1.  Configure security controls for an AI Agent.
@@ -29,7 +27,7 @@ Role required: sn\_aia.admin
 
 2.  Configure security controls for an agentic workflow.
 
-    To configure access rules controls for an agentic workflow, see [Define access rules for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-aw-new.md).
+    To configure access rules for an agentic workflow, see [Define access rules for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-aw-new.md).
 
 3.  Configure security controls in Model Context Protocol Servers.
 

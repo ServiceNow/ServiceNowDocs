@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 17
 breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -78,15 +78,15 @@ For details on assigning KMF roles, see [Roles installed with Key Management Fra
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d479567e377">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d485190e377">
 
 Option
 
-</th><th align="left" id="d479567e380">
+</th><th align="left" id="d485190e380">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d479567e386">
+</th></tr></thead><tbody><tr><td id="d485190e386">
 
 **Apply ACLs to namespaces**
 
@@ -99,7 +99,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d479567e428">
+</td></tr><tr><td id="d485190e428">
 
 **Apply ACLs to defined topics**
 

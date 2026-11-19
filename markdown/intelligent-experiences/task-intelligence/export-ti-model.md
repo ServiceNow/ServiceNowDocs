@@ -7,9 +7,9 @@ release: australia
 product: Task Intelligence
 classification: task-intelligence
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage machine learning models with Task Intelligence, Task Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Manage machine learning models with Task Intelligence, Task Intelligence, Enable AI experiences]
 ---
 
 # Export a Task Intelligence model
@@ -26,7 +26,7 @@ Role required: admin or tia\_admin
 
 2.  In the **Models** list, click the more options menu of the model you want to export.
 
-    \[Omitted image "export-ti-modelT1.png"\] Alt text: Export model button in the Models list.
+    \[Omitted image "image.export-ti-modelT1"\] Alt text: Export model button in the Models list.
 
 3.  Click **Export model**.
 

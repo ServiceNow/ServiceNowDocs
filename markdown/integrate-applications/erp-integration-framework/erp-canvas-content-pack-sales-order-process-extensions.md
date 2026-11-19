@@ -37,4 +37,5 @@ Manage Delivery and Billing Block
 -   Subflow 2: Update the delivery and billing blocking status for a sales order.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Zero Copy Connector for ERP Quote to Cash content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-sales-order-content-pack.md)
+

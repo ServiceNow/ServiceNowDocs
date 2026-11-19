@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-19"
 reading_time_minutes: 3
 keywords: [Software Asset Management, Groups, Users, ServiceNow Otto]
 breadcrumb: [Configure SAM using AI, Configure SAM using Configuration Console, Configuration Console for Software Asset Management, Software Asset Management installation methods, Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
@@ -51,15 +51,15 @@ Groups organize the users that are responsible for day-to-day Software Asset Man
     -   To view all available options, including groups, users, and roles, select **Choose something else**.
 5.  Follow the prompts in the panel based on your selection in the previous step.
 
-<table id="choicetable_follow_prompts"><thead><tr><th align="left" id="d273797e237">
+<table id="choicetable_follow_prompts"><thead><tr><th align="left" id="d273303e237">
 
 If you selected
 
-</th><th align="left" id="d273797e240">
+</th><th align="left" id="d273303e240">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d273797e246">
+</th></tr></thead><tbody><tr><td id="d273303e246">
 
 **__Start with Assignment groups \(Team management\)__**
 
@@ -72,7 +72,7 @@ Select one of the following options or enter a natural-language prompt: -   **As
 -   **Search by Org Chart**
 
 
-</td></tr><tr><td id="d273797e279">
+</td></tr><tr><td id="d273303e279">
 
 **__Choose something else__**
 
@@ -105,5 +105,5 @@ Select **Groups \(Team management\)** or **Users \(Team management\)**, and then
 
 The AI assistant completes the requested configuration and creates or updates the relevant records in your instance. Group and user configuration changes appear in the Team management module of the Configuration Console.
 
-**Parent Topic:**[Configure Software Asset Management using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Configure Software Asset Management using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-sam-using-ai.md)
 

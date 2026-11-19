@@ -31,8 +31,8 @@ The plugin also adds a read-only `fix_intel` reference column to all finding typ
 
 ## Automation and integration
 
--   A business rule set that advances the sync watermark, triggers the risk rollup, drives fix-based grouping, and derives the risk rating.
--   A scheduled job that bootstraps the Fix Intelligence for SEM dashboard widgets and then disables itself.
+-   Add fix intel record to manifest \(VR,AVR,CVR,CC\) and Update Risk Rating from Risk Score \(Fix intel\): A business rule set that triggers the risk rollup, drives fix-based grouping, and derives the risk rating.
+-   Create Findings with fix identified Dashboard for SEM workspace: A scheduled job that bootstraps the Fix Intelligence for SEM dashboard widgets and then disables itself.
 
 **Parent Topic:**[Fix Intelligence for SEM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-intel-reference.md)
 

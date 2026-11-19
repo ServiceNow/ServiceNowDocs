@@ -1,20 +1,20 @@
 ---
 title: Create a Service user to make calls from Microsoft Teams
-description: Configure Notify connector for Microsoft Teams in your environment by creating a Service user to have a seamless conference call experience in Microsoft Teams.
+description: Create a service user that can start online meetings on behalf of users so you can use the Notify connector for Microsoft Teams conference calls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/provide-app-access-policy-nc-mt.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Integrate, Integration for Agent Experience, Setup for integrating pre-published apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
+breadcrumb: [Integrate, Integration for Agent Experience, Setup for integrating pre-published apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Create a Service user to make calls from Microsoft Teams
 
-Configure Notify connector for Microsoft Teams in your environment by creating a Service user to have a seamless conference call experience in Microsoft Teams.
+Create a service user that can start online meetings on behalf of users so you can use the Notify connector for Microsoft Teams conference calls.
 
 ## Before you begin
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-data-visual-card.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Home page, Use, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -24,7 +24,7 @@ The following visualizations are displayed for the account, consumer, or contact
 
 You can configure variables such as tables, display fields, and query conditions. See [Configure the data visualization group variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-configure-data-card.md) for details.
 
-You can add custom visualizations to the data visualizations card. For details, see [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md).
+You can add custom visualizations to the data visualizations card. For details, see .
 
 **Parent Topic:**[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-home-page.md)
 

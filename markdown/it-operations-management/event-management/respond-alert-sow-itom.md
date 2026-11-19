@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2024-03-31"
 reading_time_minutes: 6
-breadcrumb: [Alert automation in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert automation in SOW for ITOM, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create Respond automation
@@ -69,15 +69,15 @@ For users familiar with the classic Event Management experience, this provides a
 
     \[Omitted image "respond-automation-actions.png"\] Alt text: Respond automation actions
 
-<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d616486e248">
+<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d619210e246">
 
 Action
 
-</th><th align="left" id="d616486e251">
+</th><th align="left" id="d619210e249">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d616486e257">
+</th></tr></thead><tbody><tr><td id="d619210e255">
 
 **Create incident and other response actions**
 
@@ -110,7 +110,7 @@ Selecting the Information icon \(\[Omitted image "icon-information-1.png"\] Alt 
     -   **Add wait time**
 When you select the **Customize incident fields** check box, a mapping section appears with the following fields:
 
-    -   **Alert input value**: Generates the value using AI or takes it from the alert.
+    -   **Alert input value**: Generates the value using ServiceNow Otto or takes it from the alert.
     -   **Incident field name**: Maps the selected alert value to the specified incident field.
 **Note:** At least one field mapping is required when you select the **Customize incident fields** check box. **Create Incident \(advanced\)** automatically fills incident fields with default values, even if you don’t customize them.
 
@@ -120,7 +120,7 @@ You can define conditions that are evaluated after the wait period to determine 
 
 To add another response action, select **+ Add response action**.
 
-</td></tr><tr><td id="d616486e467">
+</td></tr><tr><td id="d619210e468">
 
 **Use outbound webhooks to send data to other systems**
 
@@ -151,4 +151,9 @@ Sends notifications to other systems using outbound webhooks. For example, this 
 
     The response automation that you created appears on the All response automations page where you can view, edit, or delete the existing automations.
 
+
+**Related topics**  
+
+
+[alert-management-rule-evaluation]
 

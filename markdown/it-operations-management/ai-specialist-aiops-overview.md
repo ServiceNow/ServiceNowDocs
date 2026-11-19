@@ -196,7 +196,7 @@ The specialist is just as careful in the other direction. If a known pattern alm
 
 ## Prerequisites
 
--   Platform version Brazil Patch 2 or later.
+-   Platform version Australia Patch 8 or later.
 -   ServiceNow Otto for IT Operations Management \(ITOM\) application, version 2.10.0 or later.
 -   AIOps Experience application, version 27.2.68 or later.
 -   AIOps AI Specialist \(sn\_ai\_aiops\_force\) plugin, version 3.0.0 or later.
@@ -227,7 +227,5 @@ Use the AIOps home page to view and manage the alerts assigned to the AIOps AI S
 **Related topics**  
 
 
-[Autonomous Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-workforce.md)
-
-[AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-ai-specialist.md)
+[bundle-platai.ai-workforce]
 

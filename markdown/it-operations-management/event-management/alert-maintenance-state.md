@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage alert states in Express List, Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Manage alert states in Express List, Assign and manage alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Place an alert in the Maintenance state
@@ -36,4 +36,6 @@ Role required: evt\_mgmt\_admin or evt\_mgmt\_operator
 
 6.  Click **Save**.
 
+
+**Parent Topic:**[Manage alert states in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/manage-alert-states-in-express-list.md)
 

@@ -1,21 +1,21 @@
 ---
-title: AI portfolio tab in AI Control Tower
-description: The AI portfolio tab in the AI Control Tower home page displays all AI assets, which includes \(active, inactive, and completed\) to the workspace users.
+title: AI portfolio tab in Control Tower
+description: The AI portfolio tab in the Home page displays all AI assets, which includes \(active, inactive, and completed\) to the workspace users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-portfolio-tab.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Product Owner portal, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Product Owner portal, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# AI portfolio tab in AI Control Tower
+# AI portfolio tab in Control Tower
 
-The **AI portfolio** tab in the AI Control Tower home page displays all AI assets, which includes \(active, inactive, and completed\) to the workspace users.
+The **AI portfolio** tab in the Home page displays all AI assets, which includes \(active, inactive, and completed\) to the workspace users.
 
 ## Explore AI portfolio tab
 
@@ -47,5 +47,5 @@ The AI assets list includes the following columns:
 
 The following image displays the AI portfolio tab as it appears to a workspace user.
 
-\[Omitted image "aict-ai-portfolio.png"\] Alt text: AI portfolio tab in AI Control Tower for workspace users.
+\[Omitted image "aict-ai-portfolio.png"\] Alt text: AI portfolio tab for workspace users.
 

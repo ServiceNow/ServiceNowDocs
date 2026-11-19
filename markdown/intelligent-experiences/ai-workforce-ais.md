@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-13"
 reading_time_minutes: 1
 keywords: [configure ai specialists, set up ai specialists, setup ai specialists, configuration ai specialists, edit ai specialists, configure ai workforce, set up ai workforce, setup ai workforce, configuration ai workforce, edit ai workforce, configure autonomous workforce, set up autonomous workforce, setup autonomous workforce, configuration autonomous workforce, edit autonomous workforce, ai specialist legacy ai agent studio, ai specialist old ai agent studio, ai workforce legacy ai agent studio, ai workforce old ai agent studio, autonomous workforce legacy ai agent studio, autonomous workforce old ai agent studio]
-breadcrumb: [Configure, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Configure, Autonomous Workforce, Enable AI experiences]
 ---
 
 # Configure AI specialists inthe legacy AI Agent Studio

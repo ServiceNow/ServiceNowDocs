@@ -68,7 +68,7 @@ Layer 2 Discovery uses the following strategies to create relationships between 
 
 -   **VMLayer2ConnectionStrategy**
 
-    This strategy creates a connection between a VM and a network device. Discovery creates a Layer 2 connection when the number of exceptional MAC addresses is very low — fewer than 3 and fewer than 15% of all MAC addresses on the ESX server and its VMs.
+    This strategy creates a connection between a VM and a network device. Discovery creates a Layer 2 connection when the number of exceptional MAC addresses is very low. The threshold is fewer than 3 and fewer than 15% of all MAC addresses on the ESX server and its VMs.
 
 -   **NetworkDeviceLayer2ConnnectionStrategy**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/primary-connectors-zcc.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-11"
 reading_time_minutes: 2
 breadcrumb: [Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -20,22 +20,22 @@ Primary connectors are developed, made available, and supported by ServiceNow.
 |-----------------|---------------------|
 |[Databricks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/databricks-zcc.md)|Starting with Yokohama patch 5|
 |[Google BigQuery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/bigquery-zcc.md)|Starting with Yokohama patch 5|
-|[Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/oracle-zcc.md)|Starting with Yokohama patch 5|
+|[Oracle DB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/oracle-zcc.md)|Starting with Yokohama patch 5|
 |[Snowflake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/snowflake-zcc.md)|Starting with Yokohama patch 5|
 |[Amazon Redshift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/amazon-redshift-zcc.md)|Starting with Yokohama patch 5|
 |[SAP ECC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/sap-ecc-primary-zcc.md)|Starting with Yokohama patch 5|
 |[SAP S/4HANA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/sap-s4hana-primary-zcc.md)|Starting with Yokohama patch 5|
 |[Teradata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/teradata-zcc.md)|Starting with Zurich patch 4|
 |[ServiceNow Remote Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/servicenow-remote-instance-zcc.md)|Starting with Zurich patch 4|
-|[Amazon S3 Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/amazon-s3-tables-zcc.md)|Starting with Zurich patch 9|
-|[Apache Iceberg](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/apache-iceberg-primary-zcc.md)|Starting with Zurich patch 9|
-|[Cloudera Hive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/cloudera-hive-zcc.md)|Starting with Australia|
+|[Amazon S3 Tables \(Preview\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/amazon-s3-tables-zcc.md)|Starting with Zurich patch 9|
+|[Apache Iceberg \(Preview\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/apache-iceberg-primary-zcc.md)|Starting with Zurich patch 9|
+|[Cloudera Hive \(Preview\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/cloudera-hive-zcc.md)|Starting with Australia|
 |[Cloudera Impala](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/cloudera-impala-zcc.md)|Starting with Australia|
-|[Microsoft OneLake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/microsoft-onelake-zcc.md)|Starting with Australia|
-|[MySQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mysql-zcc.md)|Starting with Australia patch 6|
+|[Microsoft OneLake \(Preview\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/microsoft-onelake-zcc.md)|Starting with Australia|
+|[MySQL \(Preview\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mysql-zcc.md)|Starting with Australia patch 6|
 |[PostgreSQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/postgresql-zcc.md)|Starting with Australia patch 6|
-|[Acumatica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/acumatica-zcc.md)|Starting with Australia patch 6|
-|[Oracle HCM \(Discovery\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/oracle-hcm-discovery-zcc.md)|Starting with Australia patch 6|
+|[Acumatica \(REST\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/acumatica-zcc.md)|Starting with Australia patch 6|
+|[Oracle HCM \(REST\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/oracle-hcm-discovery-zcc.md)|Starting with Australia patch 6|
 |[Microsoft SQL Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/sqlserver-zcc.md)|Starting with Australia patch 6|
 
 For additional information on data types and authentication methods that aren't supported with primary connectors, see [Workflow Data Fabric - Primary Connectors Limitations \[KBB0010487\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KBB0010487).

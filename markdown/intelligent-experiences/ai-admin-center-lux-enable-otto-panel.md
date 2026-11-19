@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-01"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Configure, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Configure, AI Admin Center, Enable AI experiences]
 ---
 
 # Enable the ServiceNow Otto panel \(Lux UI\)

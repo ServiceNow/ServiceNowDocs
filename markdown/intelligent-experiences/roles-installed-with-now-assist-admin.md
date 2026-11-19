@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-16"
 reading_time_minutes: 1
 keywords: [Now Assist Admin, roles, Generative AI, Gen AI, Now Assist Admin, edit, configure, skills, roles, groups, special considerations, ace\_user, sn\_nowassist\_admin.nsa\_admin, Now Assist, panel, user, access, roles, groups, special, considerations, Generative AI, Gen AI, sn\_nowassist\_admin.user, Now Assist, panel, user, access, roles, groups, special, considerations, Generative AI, Gen AI]
-breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
 ---
 
 # AI Admin Hub roles
@@ -39,7 +39,7 @@ None.
 
 ### Special considerations
 
-Avoid granting an admin role when more specialized roles are available. For detailed comparison of roles, see [Roles and responsibilities for AI administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platai-roles-responsibilities-ai-admin.md).
+Avoid granting an admin role when more specialized roles are available. For detailed comparison of roles, see .
 
 ## AI Admin Hub console user \[sn\_nowassist\_admin.user\]
 
@@ -61,7 +61,7 @@ None.
 
 ### Special considerations
 
-For detailed comparison of roles, see [Roles and responsibilities for AI administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platai-roles-responsibilities-ai-admin.md).
+This role may be contained within other roles. Check the Contained Roles \[sys\_user\_role\_contains\] table to confirm.
 
 ## ServiceNow Otto panel user \[now\_assist\_panel\_user\]
 

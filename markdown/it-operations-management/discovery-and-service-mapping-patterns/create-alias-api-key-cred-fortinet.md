@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Fortinet firewall and FortiGate VDOM REST-based, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -48,7 +48,7 @@ Role required: discovery\_admin
 
     6.  Select **Submit**.
 
-        For more information about API Key Credentials form fields, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/API-key-credential-form.md).
+        For more information about API Key Credentials form fields, see .
 
 
 ## What to do next

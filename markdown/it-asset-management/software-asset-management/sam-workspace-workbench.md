@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-11-03"
 reading_time_minutes: 7
-breadcrumb: [Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # License usage view
@@ -22,7 +22,7 @@ The License usage view enables you to view license usage trends for your organiz
 
 Access the License usage view by navigating to **Software Asset Workspace** &gt; **License usage**. This view provides a unified dashboard to:
 
--   Pin publishers in the card view for quick access. Pinned publishers are user-specific and saved.
+-   Pin publishers for quick access. Pinned publishers are user-specific and saved.
 -   View key metrics for publishers, such as over-licensed amount and true-up cost.
 -   Filter publishers by domain and compliance status.
 -   Sort publishers by true-up cost, over-licensed amount, and potential savings.

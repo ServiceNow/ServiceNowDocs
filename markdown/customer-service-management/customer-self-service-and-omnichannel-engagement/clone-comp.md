@@ -1,20 +1,20 @@
 ---
 title: Clone a component
-description: Clone a prebuilt component to create a custom version that can be tailored to specific needs, such as the modification of properties and underlying components.
+description: Clone a prebuilt component to create a custom version, for example to change its properties or underlying components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/clone-comp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Update or create web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Clone a component
 
-Clone a prebuilt component to create a custom version that can be tailored to specific needs, such as the modification of properties and underlying components.
+Clone a prebuilt component to create a custom version, for example to change its properties or underlying components.
 
 ## Before you begin
 

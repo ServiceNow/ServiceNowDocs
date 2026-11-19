@@ -68,7 +68,7 @@ ServiceNow® charges for the following IT Operations Management products:
 
     For licensing purposes, the ITOM Cloud Accelerate license provides the CI count for CIs managed and monitored by Cloud Migration Assessment, Cloud Configuration Governance, or Cloud Action Library. If different ITOM Cloud Accelerate features report the same CIs as their resources, the CI count is manipulated to remove the duplication.
 
-    **Note:** Starting with the brazil release, the following applications are being prepared for future deprecation. They will be hidden and no longer installed on new instances but will continue to be supported:
+    **Note:** Starting with the australia release, the following applications are being prepared for future deprecation. They will be hidden and no longer installed on new instances but will continue to be supported:
 
     -   Cloud Configuration Governance
     -   CCG Content Pack
@@ -90,5 +90,5 @@ ServiceNow® charges for the following IT Operations Management products:
 **Related topics**  
 
 
-[Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md)
+[bundle-platadm.subscription-management-landing-page-v2]
 

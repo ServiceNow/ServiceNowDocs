@@ -7,7 +7,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-17"
 reading_time_minutes: 1
 breadcrumb: [Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -20,13 +20,13 @@ Delete Core UI reports that are no longer used.
 
 Role required: report\_admin, or be the owner of the report
 
-This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Brazil instances, see [Delete a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/delete-visualization-vd.md).
+This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Delete a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/delete-visualization-vd.md).
 
 ## Procedure
 
 1.  Navigate to **sys\_report.list**.
 
-    On instances upgraded to Brazil, Core UI reports are listed in the Platform AnalyticsData Visualizations library with the UI version Core. [Delete a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/delete-visualization-vd.md)
+    On instances upgraded to Australia, Core UI reports are listed in the Platform AnalyticsData Visualizations library with the UI version Core. [Delete a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/delete-visualization-vd.md)
 
 2.  Select the report to delete.
 
